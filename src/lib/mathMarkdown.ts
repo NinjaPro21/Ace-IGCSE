@@ -24,6 +24,14 @@ function stripInvisibleChars(str: string): string {
 export function normalizeMathMarkdown(raw: string): string {
   let text = stripInvisibleChars(decodeHTMLEntities(raw)).trim()
 
+  // Convert \[...\] display math and \(...\) inline math into standard Markdown math delimiters.
+  text = text.replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_, inner: string) => {
+    return `$$\n${inner.trim()}\n$$`
+  })
+  text = text.replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_, inner: string) => {
+    return `$${inner.trim()}$`
+  })
+
   // Normalise display math blocks
   text = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, inner: string) => {
     return `$$\n${inner.trim()}\n$$`

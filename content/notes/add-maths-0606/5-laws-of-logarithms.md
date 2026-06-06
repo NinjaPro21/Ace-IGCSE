@@ -4,11 +4,11 @@ The laws of logarithms are algebraic rules that allow you to combine, split, or 
 
 ## Key formulas
 
-Product Law: loga​(xy)=loga​(x)+loga​(y)
+Product Law: $\log_a(xy) = \log_a(x) + \log_a(y)$
 
-Quotient Law: loga​(yx​)=loga​(x)−loga​(y)
+Quotient Law: $\log_a\left(\frac{y}{x}\right) = \log_a(y) - \log_a(x)$
 
-Power Law: loga​(xk)=kloga​(x)
+Power Law: $\log_a(x^k) = k \log_a(x)$
 
 ## Steps / method
 
@@ -22,10 +22,10 @@ Apply the Quotient Law to combine subtracted logarithms, placing the subtracted 
 
 ## Examiner tip
 
-A frequent error in exams is inventing false distribution laws, such as writing loga​yloga​x​=loga​(x−y) or loga​(x+y)=loga​x+loga​y. These expressions are completely invalid; the laws only apply to products, quotients, and powers within the argument itself.
+A frequent error in exams is inventing false distribution laws, such as writing $\log_a y \log_a x = \log_a(x - y)$ or $\log_a(x + y) = \log_a x + \log_a y$. These expressions are completely invalid; the laws only apply to products, quotients, and powers within the argument itself.
 
 ## Quick check
 
-If an expression is written as 2logb​(3)+logb​(2), then using the laws of logarithms simplifies it completely to logb​(18).
+If an expression is written as $2 \log_b(3) + \log_b(2)$, then using the laws of logarithms simplifies it completely to $\log_b(18)$.
 
 ## Visual / interactive intent

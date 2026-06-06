@@ -4,9 +4,9 @@ Polynomial long division is an algorithmic procedure used to divide a polynomial
 
 ## Key formulas
 
-g(x)f(x)​=Q(x)+g(x)R(x)​⟹f(x)=g(x)Q(x)+R(x)
+$g(x)f(x) = Q(x) + g(x)R(x) \implies f(x) = g(x)Q(x) + R(x)$
 
-where deg R(x)&lt;deg g(x)
+where $\deg R(x) < \deg g(x)$.
 
 ## Steps / method
 

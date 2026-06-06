@@ -4,27 +4,27 @@ A logarithm is the inverse operation of exponentiation, determining the exponent
 
 ## Key formulas
 
-y=ax⟺x=loga​(y)where a&gt;0,a=1,y&gt;0
+$y = a^x \iff x = \log_a(y)$ where $a > 0$, $a \neq 1$, $y > 0$.
 
-loga​(a)=1andloga​(1)=0
+$\log_a(a) = 1$ and $\log_a(1) = 0$.
 
 ## Steps / method
 
-Identify the base (a), the exponent (x), and the argument outcome (y) within the exponential expression.
+Identify the base ($a$), the exponent ($x$), and the argument outcome ($y$) within the exponential expression.
 
-Rewrite the statement by moving the base to the other side to become the base of the logarithm, isolating the exponent variable (x=loga​(y)).
+Rewrite the statement by moving the base to the other side to become the base of the logarithm, isolating the exponent variable ($x = \log_a(y)$).
 
 To evaluate an unknown logarithm, convert it back into its exponential form to find what power satisfies the target value.
 
-Always ensure that any argument value placed inside a logarithm expression is strictly greater than zero (y&gt;0).
+Always ensure that any argument value placed inside a logarithm expression is strictly greater than zero ($y > 0$).
 
 ## Examiner tip
 
-A common conceptual trap is trying to evaluate logarithms with negative arguments or bases, such as log5​(−25). Remind yourself that there is no real power you can raise a positive number to that yields a negative result. Write &quot;no solution&quot; if this scenario arises.
+A common conceptual trap is trying to evaluate logarithms with negative arguments or bases, such as $\log_5(-25)$. Remind yourself that there is no real power you can raise a positive number to that yields a negative result. Write "no solution" if this scenario arises.
 
 ## Quick check
 
-If log3​(x)=4, then rewriting this expression into its exponential format yields x=34=81.
+If $\log_3(x) = 4$, then rewriting this expression into its exponential format yields $x = 3^4 = 81$.
 
 ## Visual / interactive intent
 

@@ -20,15 +20,15 @@ To find the domain of the composite function $fg(x)$, use the domain of the inne
 
 ## Worked example
 
-Let f(x)=1xf(x) = \frac{1}{x} f(x)=x1​ and g(x)=x−3g(x) = x - 3 g(x)=x−3. Find fg(x)fg(x) fg(x) and state any values that must be excluded from the domain.
+Let $f(x) = \frac{1}{x}$ and $g(x) = x - 3$. Find $fg(x)$ and state any values that must be excluded from the domain.
 
-fg(x)=f(g(x))=1x−3fg(x) = f(g(x)) = \frac{1}{x-3}fg(x)=f(g(x))=x−31​
+$$fg(x) = f(g(x)) = \frac{1}{x - 3}$$
 
-The domain excludes x=3x = 3 x=3 since this causes division by zero, even though g(x)g(x) g(x) itself is defined for all xx x.
+The domain excludes $x = 3$ since this causes division by zero, even though $g(x)$ itself is defined for all $x$.
 
 ## Examiner tip
 
-Examiner tipA common trap is evaluating the composition in the wrong order. Remember that fg(x)fg(x) fg(x) means ff f operates on g(x)g(x) g(x), not the other way around. Note that in general fg(x)≠gf(x)fg(x) \ne gf(x) fg(x)=gf(x), and examiners regularly test this distinction directly.
+A common trap is evaluating the composition in the wrong order. Remember that $fg(x)$ means $f$ operates on $g(x)$, not the other way around. Note that in general $fg(x) \neq gf(x)$, and examiners regularly test this distinction directly.
 
 ## Quick check
 

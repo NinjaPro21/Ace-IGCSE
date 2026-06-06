@@ -4,9 +4,9 @@ Equations of the form ∣f(x)∣=g(x) involve a modulus expression equated to a 
 
 ## Key formulas
 
-∣f(x)∣=g(x)⟹f(x)=g(x)or−f(x)=g(x)
+$|f(x)| = g(x) \implies f(x) = g(x) \text{ or } -f(x) = g(x)$
 
-Valid only where g(x)≥0
+Valid only where $g(x) \ge 0$.
 
 ## Steps / method
 
@@ -20,15 +20,15 @@ Discard any solution that causes the non-modulus side g(x) to output a negative 
 
 ## Worked example
 
-Solve the equation ∣2x−3∣=x+1.
+Solve the equation $|2x - 3| = x + 1$.
 
-Case 1 (+x): 2x−3=x+1⟹x=4.
+Case 1 ($+x$): $2x - 3 = x + 1 \implies x = 4$.
 
-Case 2 (−x): −(2x−3)=x+1⟹−2x+3=x+1⟹2=3x⟹x=32​.
+Case 2 ($-x$): $-(2x - 3) = x + 1 \implies -2x + 3 = x + 1 \implies 2 = 3x \implies x = \frac{2}{3}$.
 
-Check x=4: ∣2(4)−3∣=5 and (4)+1=5. This matches, so x=4 is valid.
+Check $x = 4$: $|2(4) - 3| = 5$ and $(4) + 1 = 5$. This matches, so $x = 4$ is valid.
 
-Check x=32​: ∣2(32​)−3∣=∣−35​∣=35​ and (32​)+1=35​. This matches, so x=32​ is valid.
+Check $x = \frac{2}{3}$: $\left|2\left(\frac{2}{3}\right) - 3\right| = \left| -\frac{5}{3} \right| = \frac{5}{3}$ and $\frac{2}{3} + 1 = \frac{5}{3}$. This matches, so $x = \frac{2}{3}$ is valid.
 
 ## Examiner tip
 

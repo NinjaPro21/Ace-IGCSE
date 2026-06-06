@@ -4,17 +4,17 @@ The Factor Theorem is a targeted algebraic tool that determines whether a specif
 
 ## Key formulas
 
-If f(c)=0, then (x−c) is a factor of f(x)
+If $f(c) = 0$, then $(x - c)$ is a factor of $f(x)$.
 
-If f(ab​)=0, then (ax−b) is a factor of f(x)
+If $f\left(\frac{b}{a}\right) = 0$, then $(ax - b)$ is a factor of $f(x)$.
 
 ## Steps / method
 
 Identify the proposed linear factor, written in the general mathematical form (ax−b).
 
-Solve the factor for zero to extract its root value, which yields x=ab​.
+Solve the factor for zero to extract its root value, which yields $x = \frac{b}{a}$.
 
-Substitute this exact fraction or integer directly into every variable instance within the given polynomial f(x).
+Substitute this exact fraction or integer directly into every variable instance within the given polynomial $f(x)$.
 
 Evaluate the arithmetic operations completely; if the final total equals zero, conclude definitively that (ax−b) is a factor.
 

@@ -4,15 +4,15 @@ The Remainder Theorem provides a rapid way to calculate the numerical remainder 
 
 ## Key formulas
 
-If f(x) is divided by (ax−b), then the Remainder R=f(ab​)
+If $f(x)$ is divided by $(ax - b)$, then the remainder is $R = f\left(\frac{b}{a}\right)$.
 
-If f(c)=R, then f(x)=(x−c)Q(x)+R
+If $f(c) = R$, then $f(x) = (x - c)Q(x) + R$.
 
 ## Steps / method
 
-Isolate the divisor binomial, formatted as (ax−b), and find its root value by setting it to zero (x=ab​).
+Isolate the divisor binomial, formatted as $(ax - b)$, and find its root value by setting it to zero ($x = \frac{b}{a}$).
 
-Substitute that value directly into the polynomial function expression, giving you f(ab​).
+Substitute that value directly into the polynomial function expression, giving you $f\left(\frac{b}{a}\right)$.
 
 Simplify the expression arithmetically to calculate a final numerical integer or fraction.
 

@@ -4,33 +4,33 @@ Logarithmic equations are mathematical expressions where the unknown variable is
 
 ## Key formulas
 
-loga​(f(x))=k⟹f(x)=ak
+$\log_a(f(x)) = k \implies f(x) = a^k$
 
-loga​(f(x))=loga​(g(x))⟹f(x)=g(x)
+$\log_a(f(x)) = \log_a(g(x)) \implies f(x) = g(x)$
 
 ## Steps / method
 
 Use the laws of logarithms (product and quotient rules) to combine all separate log terms on each side into a single log expression.
 
-If the equation is set equal to a constant (loga​(f(x))=k), convert it into its exponential form f(x)=ak to remove the logarithm.
+If the equation is set equal to a constant ($\log_a(f(x)) = k$), convert it into its exponential form $f(x) = a^k$ to remove the logarithm.
 
-If the equation features identical logs on both sides, equate their inner arguments directly (f(x)=g(x)).
+If the equation features identical logs on both sides, equate their inner arguments directly ($f(x) = g(x)$).
 
-Solve the resulting equation for x, and always substitute your answers back into the original arguments to confirm that no argument becomes zero or negative.
+Solve the resulting equation for $x$, and always substitute your answers back into the original arguments to confirm that no argument becomes zero or negative.
 
 ## Worked example
 
-Solve the equation log2​(x)+log2​(x−2)=3.
+Solve the equation $\log_2(x) + \log_2(x - 2) = 3$.
 
-Apply the Product Law to combine the logs: log2​(x(x−2))=3⟹log2​(x2−2x)=3.
+Apply the Product Law to combine the logs: $\log_2(x(x - 2)) = 3 \implies \log_2(x^2 - 2x) = 3$.
 
-Convert the log equation into exponential form: x2−2x=23⟹x2−2x=8.
+Convert the log equation into exponential form: $x^2 - 2x = 2^3 \implies x^2 - 2x = 8$.
 
-Rearrange into standard quadratic form: x2−2x−8=0.
+Rearrange into standard quadratic form: $x^2 - 2x - 8 = 0$.
 
-Factorize and solve: (x−4)(x+2)=0⟹x=4 or x=−2.
+Factorize and solve: $(x - 4)(x + 2) = 0 \implies x = 4$ or $x = -2$.
 
-Check for validity: x=4 gives valid positive arguments (log2​(4) and log2​(2)). However, x=−2 creates an invalid negative argument (log2​(−2)). Thus, reject x=−2. The only solution is x=4.
+Check for validity: $x = 4$ gives valid positive arguments ($\log_2(4)$ and $\log_2(2)$). However, $x = -2$ creates an invalid negative argument ($\log_2(-2)$). Thus, reject $x = -2$. The only solution is $x = 4$.
 
 ## Examiner tip
 

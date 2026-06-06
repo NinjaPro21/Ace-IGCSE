@@ -4,9 +4,9 @@ Cubic expressions contain a variable with a maximum exponent of 3, generating a 
 
 ## Key formulas
 
-General form: ax3+bx2+cx+d=0
+General form: $ax^3 + bx^2 + cx + d = 0$
 
-Factored form: (x−x1​)(x−x2​)(x−x3​)=0 or (x−x1​)(ax2+bx+c)=0
+Factored form: $(x - x_1)(x - x_2)(x - x_3) = 0$ or $(x - x_1)(ax^2 + bx + c) = 0$
 
 ## Steps / method
 

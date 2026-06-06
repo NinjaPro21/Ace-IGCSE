@@ -22,7 +22,7 @@ If it passes the vertical line test, determine if it is one-to-one or many-to-on
 
 Examiners frequently test whether a function is valid over a specific domain. Always state the domain when defining a function, as a mapping can be a function under one restricted domain but invalid over an unrestricted one (e.g., $f(x) = \sqrt{x}$ is only a function for $x \ge 0$).
 
-Examiner tipDo not confuse f−1(x)f^{-1}(x) f−1(x) (the inverse function) with [f(x)]−1[f(x)]^{-1} [f(x)]−1 (the reciprocal of the function). These are entirely different and a common source of lost marks.
+Do not confuse $f^{-1}(x)$ (the inverse function) with $[f(x)]^{-1}$ (the reciprocal of the function). These are entirely different and a common source of lost marks.
 
 ## Quick check
 
