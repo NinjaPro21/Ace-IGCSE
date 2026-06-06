@@ -84,6 +84,20 @@ export function QuizArena() {
     )
   }
 
+  if (quiz.questions.length === 0) {
+    return (
+      <div className="enlight-app">
+        <EnlightHeader />
+        <div className="enlight-quiz">
+          <p>No questions are available for this quiz.</p>
+          <Link to={`/subjects/${chapter.subjectId}`}>
+            Return to chapter
+          </Link>
+        </div>
+      </div>
+    )
+  }
+
   const question: McqQuestion | undefined = quiz.questions[index]
   const progress = ((index + (finished ? 1 : 0)) / quiz.questions.length) * 100
   const weakTopics = getWeakTopicsInChapter(chapterId, getTopicNotesReadMap())

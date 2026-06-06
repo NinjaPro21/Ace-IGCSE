@@ -46,7 +46,7 @@ export function TopicLessonPage() {
       : null
 
   useEffect(() => {
-    if (!topicId || !chapterId) return
+    if (!topicId || !chapterId || !topic || !chapter) return
     const t = setTimeout(() => {
       const chapterJustCompleted = markNotesRead(topicId, chapterId)
       if (chapterJustCompleted || shouldShowChapterPopout(chapterId)) {
@@ -54,7 +54,7 @@ export function TopicLessonPage() {
       }
     }, 1500)
     return () => clearTimeout(t)
-  }, [topicId, chapterId, markNotesRead, shouldShowChapterPopout])
+  }, [topicId, chapterId, topic, chapter, markNotesRead, shouldShowChapterPopout])
 
   if (!topic || !chapter || !subject) {
     return (
