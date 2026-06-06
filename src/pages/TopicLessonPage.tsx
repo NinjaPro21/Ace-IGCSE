@@ -90,7 +90,7 @@ export function TopicLessonPage() {
         <p className="enlight-body-text">{topic.subtitle}</p>
 
         <EnlightCard accent="gold">
-          <MarkdownLesson content={notes} />
+          <MarkdownLesson content={notes} explorerId={topic.explorerId} />
         </EnlightCard>
 
         <div className="enlight-topic-nav">

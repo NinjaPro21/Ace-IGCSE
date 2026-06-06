@@ -8,10 +8,14 @@ import { getChapterStatus, getChaptersForSubject, getSubject } from '@/lib/conte
 
 export function SubjectHubPage() {
   const { subjectId = 'add-maths-0606' } = useParams()
-  const { getTopicNotesReadMap, getChapterQuizLevel } = useMastery()
+  const { progress, getChapterQuizLevel } = useMastery()
   const subject = getSubject(subjectId)
   const chapters = getChaptersForSubject(subjectId)
-  const notesRead = getTopicNotesReadMap()
+  // Derive notesRead directly from the reactive `progress` object so chapter status
+  // always reflects the latest state (avoids cross-chapter score leakage from stale snapshots)
+  const notesRead: Record<string, boolean> = Object.fromEntries(
+    Object.entries(progress.topics).map(([id, t]) => [id, t.notesRead ?? false])
+  )
 
   if (!subject) {
     return (

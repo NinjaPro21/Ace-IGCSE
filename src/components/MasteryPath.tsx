@@ -16,8 +16,9 @@ interface MasteryPathProps {
 }
 
 export function MasteryPath({ chapterId, notesComplete }: MasteryPathProps) {
-  const { getChapterQuizLevel, canTakeChapterQuiz } = useMastery()
-  const quizLevel = getChapterQuizLevel(chapterId)
+  const { progress, canTakeChapterQuiz } = useMastery()
+  // Read from the reactive `progress` object so this re-renders when quiz results are recorded
+  const quizLevel = (progress.chapters[chapterId]?.quizLevel ?? 0) as import('@/features/mastery/MasteryEngine').MasteryLevel
 
   return (
     <div className="enlight-mastery-path">
