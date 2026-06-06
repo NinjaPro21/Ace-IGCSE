@@ -1,0 +1,48 @@
+{
+  "id": "discriminant-medium",
+  "topicId": "discriminant",
+  "difficulty": "medium",
+  "title": "Discriminant — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "dm1",
+      "type": "mcq",
+      "question": "Find the nature of roots for $2x^2 - 3x + 5 = 0$.",
+      "options": ["Two real distinct roots", "Equal roots", "No real roots", "Cannot determine"],
+      "correctIndex": 2,
+      "explanation": "Δ = 9 − 40 = −31 < 0."
+    },
+    {
+      "id": "dm2",
+      "type": "mcq",
+      "question": "For which value of $k$ does $x^2 + kx + 9 = 0$ have equal roots?",
+      "options": ["±6", "±3", "±9", "0"],
+      "correctIndex": 0,
+      "explanation": "Δ = k² − 36 = 0 → k = ±6."
+    },
+    {
+      "id": "dm3",
+      "type": "mcq",
+      "question": "The line $y = 2x + c$ is tangent to $y = x^2$. Find $c$.",
+      "options": ["1", "−1", "2", "0"],
+      "correctIndex": 0,
+      "explanation": "Substitute and set Δ = 0 for tangency."
+    },
+    {
+      "id": "dm4",
+      "type": "mcq",
+      "question": "If Δ = 16 for $x^2 + 2x + c = 0$, then $c$ equals:",
+      "options": ["−3", "3", "0", "1"],
+      "correctIndex": 0,
+      "explanation": "4 − 4c = 16 → c = −3."
+    },
+    {
+      "id": "dm5",
+      "type": "mcq",
+      "question": "Two intersections of a line and parabola mean:",
+      "options": ["Δ < 0 for the substituted quadratic", "Δ = 0", "Δ > 0", "The line is horizontal"],
+      "correctIndex": 2
+    }
+  ]
+}

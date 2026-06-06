@@ -1,0 +1,46 @@
+{
+  "id": "discriminant-easy",
+  "topicId": "discriminant",
+  "difficulty": "easy",
+  "title": "Discriminant — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "de1",
+      "type": "mcq",
+      "question": "For $ax^2 + bx + c = 0$, the discriminant is:",
+      "options": ["$b^2 - 4ac$", "$b^2 + 4ac$", "$4ac - b^2$", "$2b - 4ac$"],
+      "correctIndex": 0,
+      "explanation": "Δ = b² − 4ac is the standard formula."
+    },
+    {
+      "id": "de2",
+      "type": "mcq",
+      "question": "If Δ > 0, the quadratic has:",
+      "options": ["No real roots", "One repeated root", "Two distinct real roots", "Complex roots only"],
+      "correctIndex": 2
+    },
+    {
+      "id": "de3",
+      "type": "mcq",
+      "question": "For $y = x^2 + 2x + 1$, what is Δ?",
+      "options": ["0", "4", "8", "−4"],
+      "correctIndex": 0,
+      "explanation": "Δ = 4 − 4(1)(1) = 0."
+    },
+    {
+      "id": "de4",
+      "type": "mcq",
+      "question": "When Δ < 0, the parabola:",
+      "options": ["Touches the x-axis once", "Crosses the x-axis twice", "Does not cross the x-axis", "Is a straight line"],
+      "correctIndex": 2
+    },
+    {
+      "id": "de5",
+      "type": "mcq",
+      "question": "Equal roots occur when:",
+      "options": ["Δ > 0", "Δ = 0", "Δ < 0", "a = 0"],
+      "correctIndex": 1
+    }
+  ]
+}

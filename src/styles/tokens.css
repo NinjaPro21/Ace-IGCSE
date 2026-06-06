@@ -1,0 +1,29 @@
+:root {
+  --enlight-bg: #faf6f0;
+  --enlight-bg-alt: #fdfbf7;
+  --enlight-card: #ffffff;
+  --enlight-border: #e6dfd5;
+  --enlight-gold: #b59a73;
+  --enlight-gold-dark: #a18c6a;
+  --enlight-text: #1a1a1a;
+  --enlight-text-muted: #4a4a4a;
+  --enlight-text-light: #6b6b6b;
+  --enlight-mint-bg: #e2f7ed;
+  --enlight-mint-text: #1e5236;
+  --enlight-sage: #789671;
+  --enlight-blue: #5b8def;
+  --enlight-graph-bg: #111625;
+  --enlight-pink-bg: #fce8ec;
+  --enlight-pink-text: #9b2c42;
+  --enlight-formula-bg: #f5edd8;
+  --enlight-black: #1a1a1a;
+  --enlight-radius: 14px;
+  --enlight-radius-pill: 999px;
+  --enlight-shadow: 0 4px 24px rgba(26, 26, 26, 0.06);
+  --enlight-shadow-hover: 0 8px 32px rgba(26, 26, 26, 0.1);
+  --enlight-font-serif: 'Playfair Display', Georgia, serif;
+  --enlight-font-sans: 'Inter', system-ui, sans-serif;
+  --enlight-font-mono: 'Roboto Mono', ui-monospace, monospace;
+  --enlight-max-width: 1200px;
+  --enlight-header-height: 72px;
+}
