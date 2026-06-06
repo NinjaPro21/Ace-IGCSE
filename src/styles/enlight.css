@@ -373,6 +373,11 @@
     grid-template-columns: 1fr;
     gap: 24px;
   }
+
+  .enlight-lesson-sidebar {
+    position: static;
+    top: auto;
+  }
 }
 
 .enlight-lesson-sidebar {
