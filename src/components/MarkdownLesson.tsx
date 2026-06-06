@@ -4,8 +4,12 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css'
 import type { TopicMeta } from '@/lib/contentTypes'
+import {
+  normalizeMathMarkdown,
+  parseContentCards,
+  parseWorkedExampleSteps,
+} from '@/lib/mathMarkdown'
 
-// Lazy-load explorers so they don't block the lesson page
 const DiscriminantExplorer = lazy(() =>
   import('@/features/explorers/DiscriminantExplorer').then((m) => ({
     default: m.DiscriminantExplorer,
@@ -17,25 +21,13 @@ const ModulusExplorer = lazy(() =>
   })),
 )
 
-// ─── HTML entity decoder ─────────────────────────────────────────────────────
-// Notes are authored/converted with HTML-encoded characters. KaTeX / remark-math
-// cannot parse &gt; inside $...$ so we must decode before passing to ReactMarkdown.
-function decodeHTMLEntities(str: string): string {
-  return str
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
-    .replace(/&#39;/g, "'")
-}
-
-// ─── Section parser ──────────────────────────────────────────────────────────
 type SectionKind =
   | 'core'
-  | 'formulas'
+  | 'methods'
   | 'steps'
+  | 'worked-example'
   | 'examiner-tip'
+  | 'key-rule'
   | 'quick-check'
   | 'visual'
   | 'generic'
@@ -48,11 +40,22 @@ interface NoteSection {
 
 const HEADING_MAP: Record<string, SectionKind> = {
   'core idea': 'core',
-  'key formulas': 'formulas',
+  'key formulas': 'methods',
+  'key methods': 'methods',
+  'key methods / types': 'methods',
   'steps / method': 'steps',
+  'worked example': 'worked-example',
   'examiner tip': 'examiner-tip',
+  'key rule': 'key-rule',
   'quick check': 'quick-check',
   'visual / interactive intent': 'visual',
+}
+
+const METHOD_CARD_ACCENTS = ['violet', 'emerald', 'amber'] as const
+
+const MD_PLUGINS = {
+  remark: [remarkMath],
+  rehype: [rehypeKatex],
 }
 
 function parseSections(raw: string): NoteSection[] {
@@ -67,32 +70,25 @@ function parseSections(raw: string): NoteSection[] {
       const heading = h2Match[1].trim()
       const kind = HEADING_MAP[heading.toLowerCase()] ?? 'generic'
       current = { kind, heading, body: '' }
-    } else {
-      if (current) {
-        current.body += line + '\n'
-      }
+    } else if (current) {
+      current.body += line + '\n'
     }
   }
   if (current) sections.push(current)
   return sections
 }
 
-// ─── Markdown renderer (shared config) ──────────────────────────────────────
-const MD_PLUGINS = {
-  remark: [remarkMath],
-  rehype: [rehypeKatex],
-}
-
-function Md({ children }: { children: string }) {
-  const decoded = decodeHTMLEntities(children)
+function Md({ children, className }: { children: string; className?: string }) {
+  const prepared = normalizeMathMarkdown(children)
   return (
-    <ReactMarkdown remarkPlugins={MD_PLUGINS.remark} rehypePlugins={MD_PLUGINS.rehype}>
-      {decoded}
-    </ReactMarkdown>
+    <div className={className ?? 'enlight-markdown'}>
+      <ReactMarkdown remarkPlugins={MD_PLUGINS.remark} rehypePlugins={MD_PLUGINS.rehype}>
+        {prepared}
+      </ReactMarkdown>
+    </div>
   )
 }
 
-// ─── Step-list parser: splits body by paragraphs into steps ─────────────────
 function parseSteps(body: string): string[] {
   return body
     .split(/\n{2,}/)
@@ -100,63 +96,84 @@ function parseSteps(body: string): string[] {
     .filter(Boolean)
 }
 
-// ─── Section renderers ───────────────────────────────────────────────────────
 function CoreSection({ section }: { section: NoteSection }) {
   return (
-    <div className="enlight-note-section">
-      <h2 className="enlight-note-section-heading">{section.heading}</h2>
-      <div className="enlight-markdown">
-        <Md>{section.body}</Md>
-      </div>
-    </div>
+    <section className="enlight-core-idea">
+      <h2 className="enlight-core-idea__heading">{section.heading}</h2>
+      <div className="enlight-core-idea__separator" aria-hidden />
+      <Md className="enlight-markdown enlight-note-prose">{section.body}</Md>
+    </section>
   )
 }
 
-function FormulasSection({ section }: { section: NoteSection }) {
+function MethodsSection({ section }: { section: NoteSection }) {
+  const cards = parseContentCards(section.body)
   return (
-    <div className="enlight-note-section">
+    <section className="enlight-note-section">
       <h2 className="enlight-note-section-heading">{section.heading}</h2>
-      <div
-        className="enlight-formula-box"
-        style={{ textAlign: 'left', fontFamily: 'inherit', fontSize: '0.95rem' }}
-      >
-        <div className="enlight-markdown">
-          <Md>{section.body}</Md>
-        </div>
+      <div className="enlight-method-cards">
+        {cards.map((card, i) => (
+          <div
+            key={i}
+            className={`enlight-method-card enlight-method-card--${METHOD_CARD_ACCENTS[i % METHOD_CARD_ACCENTS.length]}`}
+          >
+            <Md className="enlight-markdown enlight-method-card__body">{card}</Md>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   )
 }
 
 function StepsSection({ section }: { section: NoteSection }) {
   const steps = parseSteps(section.body)
   return (
-    <div className="enlight-note-section">
+    <section className="enlight-note-section">
       <h2 className="enlight-note-section-heading">{section.heading}</h2>
       <ol className="enlight-method-steps">
         {steps.map((step, i) => (
           <li key={i} className="enlight-method-step">
-            <span className="enlight-method-step__num">{i + 1}</span>
-            <div className="enlight-method-step__text enlight-markdown">
-              <Md>{step}</Md>
-            </div>
+            <span className="enlight-method-step__num" aria-hidden>
+              {i + 1}
+            </span>
+            <Md className="enlight-method-step__text">{step}</Md>
           </li>
         ))}
       </ol>
-    </div>
+    </section>
   )
 }
 
-function ExaminerTipSection({ section }: { section: NoteSection }) {
+function WorkedExampleSection({ section }: { section: NoteSection }) {
+  const steps = parseWorkedExampleSteps(section.body)
   return (
-    <div className="enlight-callout enlight-callout--amber">
+    <aside className="enlight-worked-example">
+      <h2 className="enlight-worked-example__heading">{section.heading}</h2>
+      {steps.length > 1 ? (
+        <ol className="enlight-worked-example__steps">
+          {steps.map((step, i) => (
+            <li key={i} className="enlight-worked-example__step">
+              <Md className="enlight-markdown">{step}</Md>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <Md className="enlight-markdown">{section.body}</Md>
+      )}
+    </aside>
+  )
+}
+
+function WarningCalloutSection({ section }: { section: NoteSection }) {
+  return (
+    <div className="enlight-callout enlight-callout--warning">
       <div className="enlight-callout__header">
-        <span className="enlight-callout__icon">⚡</span>
+        <span className="enlight-callout__icon" aria-hidden>
+          ⚠
+        </span>
         <span className="enlight-callout__label">{section.heading}</span>
       </div>
-      <div className="enlight-callout__body enlight-markdown">
-        <Md>{section.body}</Md>
-      </div>
+      <Md className="enlight-callout__body">{section.body}</Md>
     </div>
   )
 }
@@ -165,33 +182,26 @@ function QuickCheckSection({ section }: { section: NoteSection }) {
   return (
     <div className="enlight-callout enlight-callout--blue">
       <div className="enlight-callout__header">
-        <span className="enlight-callout__icon">✓</span>
+        <span className="enlight-callout__icon" aria-hidden>
+          ✓
+        </span>
         <span className="enlight-callout__label">{section.heading}</span>
       </div>
-      <div className="enlight-callout__body enlight-markdown">
-        <Md>{section.body}</Md>
-      </div>
+      <Md className="enlight-callout__body">{section.body}</Md>
     </div>
   )
 }
 
 function GenericSection({ section }: { section: NoteSection }) {
   return (
-    <div className="enlight-note-section">
+    <section className="enlight-note-section">
       <h2 className="enlight-note-section-heading">{section.heading}</h2>
-      <div className="enlight-markdown">
-        <Md>{section.body}</Md>
-      </div>
-    </div>
+      <Md className="enlight-note-prose">{section.body}</Md>
+    </section>
   )
 }
 
-// ─── Explorer dispatcher ─────────────────────────────────────────────────────
-function ExplorerSandbox({
-  explorerId,
-}: {
-  explorerId: TopicMeta['explorerId']
-}) {
+function ExplorerSandbox({ explorerId }: { explorerId: TopicMeta['explorerId'] }) {
   if (explorerId === 'discriminant') {
     return (
       <Suspense fallback={<div className="enlight-sandbox-coming-soon">Loading explorer…</div>}>
@@ -206,7 +216,6 @@ function ExplorerSandbox({
       </Suspense>
     )
   }
-  // Unknown or undefined explorerId — show a tasteful placeholder
   return (
     <div className="enlight-sandbox-coming-soon">
       <span style={{ fontSize: '1.5rem' }}>🔬</span>
@@ -215,7 +224,6 @@ function ExplorerSandbox({
   )
 }
 
-// ─── Main component ──────────────────────────────────────────────────────────
 interface MarkdownLessonProps {
   content: string
   explorerId?: TopicMeta['explorerId']
@@ -226,20 +234,22 @@ export function MarkdownLesson({ content, explorerId }: MarkdownLessonProps) {
   const hasVisual = sections.some((s) => s.kind === 'visual')
 
   return (
-    <div className="enlight-markdown">
+    <div className="enlight-note-viewer">
       {sections.map((section, i) => {
         switch (section.kind) {
           case 'visual':
-            // Strip the raw description — render the live component instead
             return null
           case 'core':
             return <CoreSection key={i} section={section} />
-          case 'formulas':
-            return <FormulasSection key={i} section={section} />
+          case 'methods':
+            return <MethodsSection key={i} section={section} />
           case 'steps':
             return <StepsSection key={i} section={section} />
+          case 'worked-example':
+            return <WorkedExampleSection key={i} section={section} />
           case 'examiner-tip':
-            return <ExaminerTipSection key={i} section={section} />
+          case 'key-rule':
+            return <WarningCalloutSection key={i} section={section} />
           case 'quick-check':
             return <QuickCheckSection key={i} section={section} />
           default:
@@ -247,7 +257,6 @@ export function MarkdownLesson({ content, explorerId }: MarkdownLessonProps) {
         }
       })}
 
-      {/* Render interactive explorer in place of the visual/interactive-intent section */}
       {hasVisual && <ExplorerSandbox explorerId={explorerId} />}
     </div>
   )

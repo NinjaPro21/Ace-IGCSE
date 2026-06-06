@@ -45,6 +45,7 @@ export function QuizArena() {
   const [correctCount, setCorrectCount] = useState(0)
   const [showFeedback, setShowFeedback] = useState(false)
   const [finished, setFinished] = useState(false)
+  const [finalScore, setFinalScore] = useState(0)
 
   if (!chapter || !quiz || !anchor) {
     return (
@@ -96,11 +97,20 @@ export function QuizArena() {
     }
   }
 
+  const resolveCorrectCount = () => {
+    // handleSelect schedules setCorrectCount before handleNext runs — account for stale state
+    const lastAnswerCorrect = selected === question?.correctIndex
+    return lastAnswerCorrect ? correctCount + 1 : correctCount
+  }
+
   const handleNext = () => {
     if (index + 1 >= quiz.questions.length) {
-      setFinished(true)
-      const scorePercent = Math.round((correctCount / quiz.questions.length) * 100)
+      const totalCorrect = resolveCorrectCount()
+      const scorePercent = Math.round((totalCorrect / quiz.questions.length) * 100)
       const passed = scorePercent >= quiz.passPercent
+      setFinalScore(scorePercent)
+      setCorrectCount(totalCorrect)
+      setFinished(true)
       recordChapterQuizResult(chapterId, diff, scorePercent, passed)
       return
     }
@@ -110,8 +120,7 @@ export function QuizArena() {
   }
 
   if (finished) {
-    const actualScore = Math.round((correctCount / quiz.questions.length) * 100)
-    const passed = actualScore >= quiz.passPercent
+    const passed = finalScore >= quiz.passPercent
     const next = NEXT_DIFF[diff]
 
     return (
@@ -121,7 +130,7 @@ export function QuizArena() {
           <div className="enlight-quiz__result">
             <EnlightSectionLabel>{quiz.title}</EnlightSectionLabel>
             <h2 className="enlight-heading-serif">{passed ? 'Well done!' : 'Keep practising'}</h2>
-            <div className="enlight-quiz__score">{actualScore}%</div>
+            <div className="enlight-quiz__score">{finalScore}%</div>
             <p className="enlight-body-text">
               {passed
                 ? `You passed (${quiz.passPercent}% required). XP awarded!`
@@ -151,6 +160,7 @@ export function QuizArena() {
                   onClick={() => {
                     setIndex(0)
                     setCorrectCount(0)
+                    setFinalScore(0)
                     setSelected(null)
                     setShowFeedback(false)
                     setFinished(false)
@@ -187,11 +197,11 @@ export function QuizArena() {
         <div className="enlight-quiz__progress">
           <div className="enlight-quiz__progress-bar" style={{ width: `${progress}%` }} />
         </div>
-        <p style={{ fontSize: '0.85rem', color: 'var(--enlight-text-light)' }}>
+        <p className="enlight-quiz__meta">
           Question {index + 1} of {quiz.questions.length}
         </p>
         <h2 className="enlight-quiz__question">
-          {question && <MathText content={question.question} />}
+          {question && <MathText content={question.question} block />}
         </h2>
         <div className="enlight-quiz__options">
           {question?.options.map((opt, i) => {
@@ -207,22 +217,21 @@ export function QuizArena() {
           })}
         </div>
         {showFeedback && question?.explanation && (
-          <p className="enlight-body-text" style={{ marginTop: 16 }}>
-            {question.explanation}
-          </p>
+          <div className="enlight-quiz__explanation">
+            <MathText content={question.explanation} block />
+          </div>
         )}
         {showFeedback && (
-          <div style={{ marginTop: 24 }}>
+          <div className="enlight-quiz__next">
             <EnlightButton onClick={handleNext}>
               {index + 1 >= quiz.questions.length ? 'See results' : 'Next question'}
             </EnlightButton>
           </div>
         )}
-        <div style={{ marginTop: 32 }}>
+        <div className="enlight-quiz__exit">
           <button
             type="button"
             className="enlight-header__link"
-            style={{ background: 'none', border: 'none', cursor: 'pointer' }}
             onClick={() => navigate(-1)}
           >
             ← Exit quiz

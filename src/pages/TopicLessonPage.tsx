@@ -4,10 +4,11 @@ import { EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { ChapterQuizPopout } from '@/components/ChapterQuizPopout'
-import { LessonTopBar } from '@/components/LessonTopBar'
+import { LessonSidebar } from '@/components/LessonSidebar'
 import { MarkdownLesson } from '@/components/MarkdownLesson'
 import { MasteryPath } from '@/components/MasteryPath'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { decodeHTMLEntities } from '@/lib/mathMarkdown'
 import {
   getChapter,
   getNotesForTopic,
@@ -77,64 +78,70 @@ export function TopicLessonPage() {
     markChapterPopoutSeen(chapterId)
   }
 
+  const chapterLabel = `${subject.name} · ${chapter.title}`
+
   return (
     <div className="enlight-app">
       <EnlightHeader />
       <div className="enlight-container enlight-page-padding">
-        <LessonTopBar topic={topic} chapterTitle={`${subject.name} · ${chapter.title}`} />
+        <div className="enlight-lesson-layout">
+          <LessonSidebar topic={topic} chapterTitle={chapterLabel} />
 
-        <EnlightSectionLabel>
-          Chapter {chapter.number} · {subject.code}
-        </EnlightSectionLabel>
-        <h1 className="enlight-heading-serif">{topic.title}</h1>
-        <p className="enlight-body-text">{topic.subtitle}</p>
+          <main className="enlight-lesson-main">
+            <EnlightSectionLabel>
+              Chapter {chapter.number} · {subject.code}
+            </EnlightSectionLabel>
+            <h1 className="enlight-heading-serif">{decodeHTMLEntities(topic.title)}</h1>
+            <p className="enlight-body-text">{topic.subtitle}</p>
 
-        <EnlightCard accent="gold">
-          <MarkdownLesson content={notes} explorerId={topic.explorerId} />
-        </EnlightCard>
+            <EnlightCard accent="gold" className="enlight-lesson-card">
+              <MarkdownLesson content={notes} explorerId={topic.explorerId} />
+            </EnlightCard>
 
-        <div className="enlight-topic-nav">
-          {prevTopic ? (
-            <EnlightButton
-              to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${prevTopic.id}`}
-              variant="outline"
-            >
-              ← {prevTopic.title}
-            </EnlightButton>
-          ) : (
-            <span />
-          )}
-          {nextTopic ? (
-            <EnlightButton
-              to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${nextTopic.id}`}
-            >
-              {nextTopic.title} →
-            </EnlightButton>
-          ) : isAnchor && canStartQuiz ? (
-            <EnlightButton onClick={() => setShowPopout(true)}>Test chapter →</EnlightButton>
-          ) : (
-            <span />
-          )}
-        </div>
+            <div className="enlight-topic-nav">
+              {prevTopic ? (
+                <EnlightButton
+                  to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${prevTopic.id}`}
+                  variant="outline"
+                >
+                  ← {decodeHTMLEntities(prevTopic.title)}
+                </EnlightButton>
+              ) : (
+                <span />
+              )}
+              {nextTopic ? (
+                <EnlightButton
+                  to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${nextTopic.id}`}
+                >
+                  {decodeHTMLEntities(nextTopic.title)} →
+                </EnlightButton>
+              ) : isAnchor && canStartQuiz ? (
+                <EnlightButton onClick={() => setShowPopout(true)}>Test chapter →</EnlightButton>
+              ) : (
+                <span />
+              )}
+            </div>
 
-        {isAnchor && (
-          <>
-            <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
-              Chapter mastery
-            </h2>
-            <p className="enlight-body-text">
-              {notesComplete
-                ? 'All topics studied — work through each quiz tier. Aim for 70%+ to advance.'
-                : 'Read every topic in this chapter to unlock the chapter quiz.'}
-            </p>
-            <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
-          </>
-        )}
+            {isAnchor && (
+              <>
+                <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
+                  Chapter mastery
+                </h2>
+                <p className="enlight-body-text">
+                  {notesComplete
+                    ? 'All topics studied — work through each quiz tier. Aim for 70%+ to advance.'
+                    : 'Read every topic in this chapter to unlock the chapter quiz.'}
+                </p>
+                <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
+              </>
+            )}
 
-        <div style={{ marginTop: 32, display: 'flex', gap: 12 }}>
-          <EnlightButton to={`/subjects/${subjectId}`} variant="outline">
-            All chapters
-          </EnlightButton>
+            <div style={{ marginTop: 32, display: 'flex', gap: 12 }}>
+              <EnlightButton to={`/subjects/${subjectId}`} variant="outline">
+                All chapters
+              </EnlightButton>
+            </div>
+          </main>
         </div>
       </div>
 
