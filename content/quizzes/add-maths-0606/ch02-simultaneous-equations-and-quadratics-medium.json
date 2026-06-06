@@ -1,0 +1,88 @@
+{
+  "id": "ch02-simultaneous-equations-and-quadratics-medium",
+  "topicId": "ch02-simultaneous-equations-and-quadratics",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "medium",
+  "title": "Chapter 2: Simultaneous Equations and Quadratics — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q1",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations $y - x = 3$ and $x² + y = 9$ to find the possible values of $x$.",
+      "options": [
+        "$x = 2$ and $x = -3$",
+        "$x = -2$ and $x = 3$",
+        "$x = 1$ and $x = -6$",
+        "$x = 3$ and $x = -3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the linear equation, $y = x + 3$. Substitute into the quadratic equation: $x² + (x + 3) = 9 \\implies x² + x - 6 = 0$. Factoring gives $(x + 3)(x - 2) = 0$, so $x = 2$ or $x = -3$.\n\n**Common mistake:** A student might substitute $y = x - 3$ by mistake, leading to $x² + x - 12 = 0$, or flip the final signs of the roots after factoring correctly."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q2",
+      "type": "mcq",
+      "question": "Express the quadratic function $f(x) = -2x² + 12x - 5$ in the form $a(x - h)² + k$ by completing the square.",
+      "options": [
+        "$-2(x - 3)² + 13$",
+        "$-2(x - 3)² - 5$",
+        "$-2(x + 3)² + 13$",
+        "$-2(x - 3)² - 23$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor out $-2$ from the variable terms: $-2(x² - 6x) - 5$. Complete the square inside: $-2[(x - 3)² - 9] - 5 = -2(x - 3)² + 18 - 5 = -2(x - 3)² + 13$.\n\n**Common mistake:** When expanding the outer constant multiplication, students regularly fail to multiply $-2$ by $-9$, calculating $-9 - 5 = -14$ or $+9 - 5 = 4$ instead of $+18 - 5 = 13$."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q3",
+      "type": "mcq",
+      "question": "Find the complete set of values of $x$ satisfying the inequality $2x² - 5x - 3 \\le 0$.",
+      "options": [
+        "$-\\frac{1}{2} \\le x \\le 3$",
+        "$x \\le -\\frac{1}{2}$ or $x \\ge 3$",
+        "$-3 \\le x \\le \\frac{1}{2}$",
+        "$x \\le -3$ or $x \\ge \\frac{1}{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor the quadratic equation: $(2x + 1)(x - 3) = 0$, giving critical values $x = -\\frac{1}{2}$ and $x = 3$. Since the inequality is $\\le 0$, the solution is the region between the roots.\n\n**Common mistake:** Students often pick the outer regions ($x \\le -\\frac{1}{2}$ or $x \\ge 3$) because they misinterpret the 'less than or equal to' sign or assume quadratic inequalities always split outwards."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q4",
+      "type": "mcq",
+      "question": "Find the coordinates of the points of intersection of the line $y = 2x + 1$ and the curve $y = x² - x - 3$.",
+      "options": [
+        "$(4, 9)$ and $(-1, -1)$",
+        "$(-4, -7)$ and $(1, 3)$",
+        "$(4, 9)$ and $(1, 3)$",
+        "$(3, 7)$ and $(-1, -1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equate the equations: $2x + 1 = x² - x - 3 \\implies x² - 3x - 4 = 0 \\implies (x - 4)(x + 1) = 0$. This yields $x = 4$ ($y = 9$) and $x = -1$ ($y = -1$).\n\n**Common mistake:** Students frequently make sign errors when moving terms across the equals sign, arriving at $x² - x - 2 = 0$ or similar incorrect equations."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q5",
+      "type": "mcq",
+      "question": "Find the value of the constant $k$ for which the quadratic equation $3x² - kx + 12 = 0$ has two equal real roots, given that $k > 0$.",
+      "options": [
+        "$12$",
+        "$144$",
+        "$6$",
+        "$24$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For equal real roots, $\\Delta = b² - 4ac = 0$. Here, $(-k)² - 4(3)(12) = 0 \\implies k² - 144 = 0 \\implies k = \\pm 12$. Since $k > 0$, $k = 12$.\n\n**Common mistake:** Students misremember the formula as $b² - ac = 0$, resulting in $k² - 36 = 0 \\implies k = 6$, omitting the factor of 4."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q6",
+      "type": "mcq",
+      "question": "The quadratic graph $y = x^2 - 4x - 5$ is reflected in the $x$-axis for its negative parts to form $y = |x^2 - 4x - 5|$. Find the coordinates of the local maximum point of this modulus function.",
+      "options": [
+        "$(2, 9)$",
+        "$(2, -9)$",
+        "$(-2, 7)$",
+        "$(4, 5)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turning point of the original quadratic is at $x = -\\frac{-4}{2(1)} = 2$. Substituting $2$ into the quadratic gives $2^2 - 4(2) - 5 = -9$. Under the modulus function, this negative minimum point is reflected to become a maximum point at $(2, |-9|) = (2, 9)$.\n\n**Common mistake:** Students find the turning point of the unreflected quadratic correctly as $(2, -9)$ but fail to apply the modulus transformation, missing that the absolute value maps $-9$ to $+9$."
+    }
+  ]
+}

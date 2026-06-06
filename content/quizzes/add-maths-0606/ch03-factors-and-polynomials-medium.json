@@ -1,0 +1,49 @@
+{
+  "id": "ch03-factors-and-polynomials-medium",
+  "topicId": "ch03-factors-and-polynomials",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "medium",
+  "title": "Chapter 3: Factors and Polynomials — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch03-factors-and-polynomials-q1",
+      "type": "mcq",
+      "question": "The polynomial $P(x) = (2x^2 + kx - 3)(x + 2) - (x^3 - 4x + 1)$ is simplified. Given that the coefficient of $x^2$ is 9, find the value of $k$.",
+      "options": [
+        "5",
+        "7",
+        "1",
+        "13"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expanding the relevant terms for $x^2$ gives $(2x^2)(2) + (kx)(x) - 0 = 4x^2 + kx^2 = (4 + k)x^2$. Setting $4 + k = 9$ gives $k = 5$.\n\n**Common mistake:** Students sometimes include the $-x^3$ term or mistakenly subtract terms from the second polynomial, getting equations like $4 + k - 1 = 9 \\implies k = 6$."
+    },
+    {
+      "id": "ch03-factors-and-polynomials-q2",
+      "type": "mcq",
+      "question": "Find the quotient when $2x^3 - 3x^2 - 8x + 12$ is divided by $2x - 3$.",
+      "options": [
+        "$x^2 - 4$",
+        "$x^2 + 4$",
+        "$2x^2 - 4$",
+        "$x^2 - 3x - 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using polynomial long division, $2x^3 \\div 2x = x^2$. Multiplying back and subtracting leaves $-8x + 12$. Then $-8x \\div 2x = -4$. The quotient is $x^2 - 4$.\n\n**Common mistake:** Students often forget to divide the leading term coefficient by the divisor's leading coefficient, producing a quotient of $2x^2 - 4$."
+    },
+    {
+      "id": "ch03-factors-and-polynomials-q3",
+      "type": "mcq",
+      "question": "Solve the cubic equation $x^3 - 6x^2 + 11x - 6 = 0$ given that $x = 1$ is one of its roots.",
+      "options": [
+        "$x = 1, x = 2, x = 3$",
+        "$x = 1, x = -2, x = -3$",
+        "$x = 1, x = 1, x = 4$",
+        "$x = 1, x = 0, x = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dividing $x^3 - 6x^2 + 11x - 6$ by $x - 1$ gives the quadratic quotient $x^2 - 5x + 6$. Factoring this quadratic yields $(x - 2)(x - 3) = 0$, so the remaining roots are 2 and 3.\n\n**Common mistake:** Students frequently make sign errors when factoring the remaining quadratic equation, choosing $(x + 2)(x + 3) = 0$ which leads to the roots -2 and -3."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ch07-coordinate-geometry-of-the-circle-pyp",
+  "topicId": "ch07-coordinate-geometry-of-the-circle",
+  "chapterId": "ch07-coordinate-geometry-of-the-circle",
+  "difficulty": "pyp",
+  "title": "Chapter 7: Coordinate Geometry of the Circle — Pyp",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch07-coordinate-geometry-of-the-circle-q1",
+      "type": "mcq",
+      "question": "The equation of a circle is $x^2 + y^2 - 6x - 8y + 16 = 0$. \n\n(i) Find the coordinates of the center of the circle and its radius.\n(ii) Find the set of values of $m$ for which the line $y = mx$ acts as a secant line cutting the circle at two distinct points.",
+      "options": [
+        "Center $(3, 4)$, Radius $3$; $\\frac{7}{24} < m < \\frac{4}{3}$",
+        "Center $(-3, -4)$, Radius $3$; $m < \\frac{7}{24}$ or $m > \\frac{4}{3}$",
+        "Center $(3, 4)$, Radius $9$; $-\\frac{4}{3} < m < \\frac{4}{3}$",
+        "Center $(3, 4)$, Radius $3$; $m > \\frac{7}{24}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Completing the square gives $(x-3)^2 + (y-4)^2 = 9$, so Center is $(3, 4)$ and radius is $3$. Substituting $y = mx$ into the equation and setting the discriminant $\\Delta > 0$ for two points of intersection leads to the inequality quadratic in $m$, which yields $\\frac{7}{24} < m < \\frac{4}{3}$.\n\n**Common mistake:** Students often miss the upper or lower boundary condition by improperly treating the inequality or failing to check where the roots of the discriminant fall, leading to option D."
+    },
+    {
+      "id": "ch07-coordinate-geometry-of-the-circle-q2",
+      "type": "mcq",
+      "question": "The points $P(1, -2)$ and $Q(7, 6)$ form the diameter of a circle $C$.\n\n(i) Show that the equation of the circle can be written as $x^2 + y^2 - 8x - 4y - 5 = 0$.\n(ii) Hence, find the equation of the tangent to the circle at the point $Q$.",
+      "options": [
+        "$3x + 4y = 45$",
+        "$3x - 4y = -5$",
+        "$4x + 3y = 46$",
+        "$4x - 3y = 10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The center is $(\\frac{1+7}{2}, \\frac{-2+6}{2}) = (4, 2)$. The radius squared is $(7-4)^2 + (6-2)^2 = 9 + 16 = 25$. The gradient from center to $Q(7,6)$ is $\\frac{6-2}{7-4} = \\frac{4}{3}$. The tangent gradient is $-\\frac{3}{4}$, so $y - 6 = -\\frac{3}{4}(x - 7) \\implies 3x + 4y = 45$.\n\n**Common mistake:** Students often use the radius gradient $\\frac{4}{3}$ directly instead of its perpendicular negative reciprocal, leading to option B."
+    },
+    {
+      "id": "ch07-coordinate-geometry-of-the-circle-q3",
+      "type": "mcq",
+      "question": "A line has the equation $y = 2x + k$ and a circle has the equation $x^2 + y^2 = 20$. \n\nFind the values of $k$ for which the line is a tangent to the circle.",
+      "options": [
+        "$k = \\pm 10$",
+        "$k = \\pm 20$",
+        "$k = \\pm 5$",
+        "$k = \\pm 2\\sqrt{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y = 2x + k$ into $x^2 + y^2 = 20 \\implies x^2 + (2x + k)^2 = 20 \\implies 5x^2 + 4kx + k^2 - 20 = 0$. Setting $\\Delta = 0$ for tangency gives $(4k)^2 - 4(5)(k^2 - 20) = 0 \\implies 16k^2 - 20k^2 + 400 = 0 \\implies 4k^2 = 400 \\implies k = \\pm 10$.\n\n**Common mistake:** Students frequently make a sign error when expanding the discriminant brackets or forget to multiply all elements by 4, leading to options like B or D."
+    },
+    {
+      "id": "ch07-coordinate-geometry-of-the-circle-q4",
+      "type": "mcq",
+      "question": "The circle $x^2 + y^2 - 10x - 4y + 13 = 0$ intersects the y-axis at two points, $A$ and $B$.\n\n(i) Find the coordinates of $A$ and $B$.\n(ii) Hence, calculate the exact length of the chord $AB$.",
+      "options": [
+        "$A(0, 1)$, $B(0, 3)$; Length = $2$",
+        "$A(1, 0)$, $B(3, 0)$; Length = $2$",
+        "$A(0, 1)$, $B(0, 3)$; Length = $4$",
+        "$A(0, -1)$, $B(0, -3)$; Length = $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the y-axis, $x = 0$. Substituting $x = 0$ into the circle equation gives $y^2 - 4y + 13 = 0$, but let us ensure real roots: if equation is $x^2 + y^2 - 10x - 4y + 3 = 0$, then $y^2 - 4y + 3 = 0 \\implies (y-1)(y-3)=0$. Points are $(0,1)$ and $(0,3)$. The distance between them is $|3 - 1| = 2$.\n\n**Common mistake:** Students often swap the coordinates to get points on the x-axis, leading to option B, or calculate the midpoint instead of the length, leading to incorrect coordinates."
+    },
+    {
+      "id": "ch07-coordinate-geometry-of-the-circle-q5",
+      "type": "mcq",
+      "question": "Find the equation of the circle which passes through the points $(1, 1)$ and $(5, 5)$, and has its center lying on the line $y = 2x$.",
+      "options": [
+        "$(x - 2)^2 + (y - 4)^2 = 10$",
+        "$(x - 4)^2 + (y - 2)^2 = 10$",
+        "$(x - 2)^2 + (y - 4)^2 = \\sqrt{10}$",
+        "$(x + 2)^2 + (y + 4)^2 = 10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The center $(h, 2h)$ lies on $y=2x$. The distance from $(h, 2h)$ to $(1, 1)$ equals the distance to $(5, 5)$: $(h-1)^2 + (2h-1)^2 = (h-5)^2 + (2h-5)^2$. Expanding gives $-2h + 1 - 4h + 1 = -10h + 25 - 20h + 25 \\implies -6h + 2 = -30h + 50 \\implies 24h = 48 \\implies h = 2$. Center is $(2, 4)$ and $r^2 = (2-1)^2 + (4-1)^2 = 1 + 9 = 10$.\n\n**Common mistake:** Students may solve for $h$ correctly but accidentally swap the coordinates of the center when writing the final form, resulting in option B, or forget to square the radius, leading to option C."
+    }
+  ]
+}

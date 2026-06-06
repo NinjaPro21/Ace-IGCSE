@@ -20,6 +20,7 @@ export interface ChapterMeta {
   summary: string
   topicIds: string[]
   accentColor: AccentColor
+  hasChapterQuiz?: boolean
 }
 
 export interface TopicMeta {
@@ -30,7 +31,8 @@ export interface TopicMeta {
   subtitle: string
   notesFile: string
   explorerId?: 'discriminant' | 'trig'
-  quizIds: {
+  isChapterQuizAnchor?: boolean
+  quizIds?: {
     easy: string
     medium: string
     hard: string
@@ -51,6 +53,7 @@ export interface McqQuestion {
 export interface QuizData {
   id: string
   topicId: string
+  chapterId?: string
   difficulty: Difficulty
   title: string
   passPercent: number

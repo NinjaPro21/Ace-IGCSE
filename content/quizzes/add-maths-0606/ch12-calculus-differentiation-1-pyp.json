@@ -1,0 +1,75 @@
+{
+  "id": "ch12-calculus-differentiation-1-pyp",
+  "topicId": "ch12-calculus-differentiation-1",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "pyp",
+  "title": "Chapter 12: Calculus – Differentiation 1 — Pyp",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch12-calculus-differentiation-1-q1",
+      "type": "mcq",
+      "question": "A curve has the equation $y = 4x^2 - kx + 3$, where $k$ is a constant. Find the set of values of $k$ for which the curve has a stationary point in the region $x > 1$.",
+      "options": [
+        "$k > 8$",
+        "$k < 8$",
+        "$k > 0$",
+        "$k > 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiate the equation to get $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 8x - k$. At a stationary point, $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0 \\implies 8x - k = 0 \\implies x = \\frac{k}{8}$. Since the stationary point is in the region $x > 1$, we set $\\frac{k}{8} > 1 \\implies k > 8$.\n\n**Common mistake:** Students may mistakenly set the original equation's discriminant to be greater than zero, confusing stationary points with the intersection of roots, leading to incorrect bounding thresholds."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q2",
+      "type": "mcq",
+      "question": "The equation of a curve is $y = x \\sqrt{2x + 3}$. Find the exact coordinates of the stationary point on this curve.",
+      "options": [
+        "$(-1, -1)$",
+        "$(-1, 1)$",
+        "$(-1.5, 0)$",
+        "$(0, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the product rule: $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 1\\cdot\\sqrt{2x+3} + x\\cdot\\frac{1}{2\\sqrt{2x+3}}(2) = \\sqrt{2x+3} + \\frac{x}{\\sqrt{2x+3}} = \\frac{2x+3+x}{\\sqrt{2x+3}} = \\frac{3x+3}{\\sqrt{2x+3}}$. Set $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0 \\implies 3x + 3 = 0 \\implies x = -1$. Substituting $x = -1$ into $y$ gives $y = -1\\sqrt{1} = -1$.\n\n**Common mistake:** Students often drop the negative sign when computing the $y$-coordinate from $x = -1$, leading to the coordinate $(-1, 1)$ as shown in Option B."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q3",
+      "type": "mcq",
+      "question": "A curve is such that $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{6}{(2x - 1)^2}$. Given that the curve passes through the point $(1, 5)$, find the equation of the curve.",
+      "options": [
+        "$y = -\\frac{3}{2x - 1} + 8$",
+        "$y = -\\frac{6}{2x - 1} + 11$",
+        "$y = -\\frac{3}{2x - 1} + 5$",
+        "$y = \\frac{3}{2x - 1} + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrate $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ to find $y$: $y = \\int 6(2x - 1)^{-2} \\mathrm{d}x = \\frac{6(2x - 1)^{-1}}{-1 \\times 2} + C = -\\frac{3}{2x - 1} + C$. Substituting $(1, 5)$ gives $5 = -\\frac{3}{1} + C \\implies C = 8$. Thus, $y = -\\frac{3}{2x - 1} + 8$.\n\n**Common mistake:** Students frequently forget to divide by the derivative of the inner bracket ($2$) during the reverse chain rule integration step, yielding a constant of $C=11$ and leading to Option B."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q4",
+      "type": "mcq",
+      "question": "The position of a particle moving along a straight line is modeled by $s = t^3 - 9t^2 + 24t$. Find the acceleration of the particle at the instant when it is momentarily at rest.",
+      "options": [
+        "$-6\\text{ m s}^{-2}$ or $6\\text{ m s}^{-2}$",
+        "$-6\\text{ m s}^{-2}$ only",
+        "$0\\text{ m s}^{-2}$",
+        "$12\\text{ m s}^{-2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity $v = \\frac{\\mathrm{d}s}{\\mathrm{d}t} = 3t^2 - 18t + 24$. At rest, $v = 0 \\implies 3(t - 2)(t - 4) = 0 \\implies t = 2$ or $t = 4$. Acceleration $a = \\frac{\\mathrm{d}v}{\\mathrm{d}t} = 6t - 18$. At $t = 2$, $a = 6(2) - 18 = -6\\text{ m s}^{-2}$. At $t = 4$, $a = 6(4) - 18 = 6\\text{ m s}^{-2}$.\n\n**Common mistake:** Students may solve for only one time value or misinterpret the phrase 'momentarily at rest' to mean acceleration is zero, picking Option C."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q5",
+      "type": "mcq",
+      "question": "Find the equation of the tangent to the curve $y = \\frac{16}{x^2}$ at the point where $x = 2$. Give your answer in the form $ax + by = c$.",
+      "options": [
+        "$4x + y = 12$",
+        "$4x - y = 4$",
+        "$x + 4y = 18$",
+        "$-4x + y = -4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When $x = 2$, $y = \\frac{16}{4} = 4$. Rewrite $y = 16x^{-2}$, so $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = -32x^{-3} = -\\frac{32}{x^3}$. At $x = 2$, the gradient $m = -\\frac{32}{8} = -4$. The tangent equation is $y - 4 = -4(x - 2) \\implies y - 4 = -4x + 8 \\implies 4x + y = 12$.\n\n**Common mistake:** Students sometimes fail to treat the index as negative when shifting to the numerator, leading to completely wrong signs or incorrect gradient configurations like Option B."
+    }
+  ]
+}

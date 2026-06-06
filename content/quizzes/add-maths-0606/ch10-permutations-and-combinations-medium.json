@@ -1,0 +1,75 @@
+{
+  "id": "ch10-permutations-and-combinations-medium",
+  "topicId": "ch10-permutations-and-combinations",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "medium",
+  "title": "Chapter 10: Permutations and Combinations — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch10-permutations-and-combinations-q1",
+      "type": "mcq",
+      "question": "Find the number of different 4-digit numbers that can be formed using the digits 2, 3, 5, 7, 8, and 9 if each digit can be used at most once in any number and the number must be even.",
+      "options": [
+        "120",
+        "360",
+        "60",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "To be even, the last digit must be either 2 or 8 (2 options). The remaining 3 positions can be filled by choosing from the 5 remaining digits, which equals $^{5}P_{3} = 5 \\times 4 \\times 3 = 60$ . Total arrangements are $60 \\times 2 = 120$ .\n\n**Common mistake:** Students often compute the total unrestricted arrangements $^{6}P_{4} = 360$ , or forget to multiply by the 2 choices for the final digit after selecting the first three, yielding 60."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q2",
+      "type": "mcq",
+      "question": "A row of 5 books is to be arranged on a shelf from a selection of 5 different Mathematics books and 2 different Science books. If the 2 Science books must be kept next to each other, find the number of possible arrangements.",
+      "options": [
+        "1440",
+        "720",
+        "5040",
+        "240"
+      ],
+      "correctIndex": 0,
+      "explanation": "Treat the 2 Science books as a single unit. There are now 5 Mathematics books + 1 Science unit = 6 units to arrange, which can be done in $6! = 720$ ways. Since the 2 Science books can swap places inside their unit in $2! = 2$ ways, the total arrangements are $720 \\times 2 = 1440$ .\n\n**Common mistake:** Students regularly treat the problem as a simple permutation of 7 objects ($7! = 5040$) or forget to account for the internal switching of the tied block, leaving the answer as 720."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q3",
+      "type": "mcq",
+      "question": "A sports team of 6 players is to be chosen from 7 boys and 5 girls. Find the number of ways this can be done if the team must contain exactly 4 boys.",
+      "options": [
+        "350",
+        "70",
+        "924",
+        "175"
+      ],
+      "correctIndex": 0,
+      "explanation": "We need to choose 4 boys from 7 ($^{7}C_{4}$) and the remaining 2 players must be girls chosen from 5 ($^{5}C_{2}$). This evaluates to $^{7}C_{4} \\times ^{5}C_{2} = 35 \\times 10 = 350$ .\n\n**Common mistake:** A student might calculate only the choices for boys ($^{7}C_{4} = 35$), or calculate total unconstrained choices ($^{12}C_{6} = 924$), ignoring the gender distribution requirement."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q4",
+      "type": "mcq",
+      "question": "Find the number of different ways that the letters of the word $VECTOR$ can be arranged in a line if the vowels must not be next to each other.",
+      "options": [
+        "480",
+        "240",
+        "720",
+        "144"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total unrestricted arrangements of $VECTOR$ is $6! = 720$ . The number of arrangements where the vowels (E, O) are together is found by treating them as 1 unit: $5! \\times 2! = 120 \\times 2 = 240$ . Thus, vowels NOT together is $720 - 240 = 480$ .\n\n**Common mistake:** Students frequently calculate the condition where items are together (240) and forget to subtract it from the total sample space to get the complementary 'not next to each other' requirement."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q5",
+      "type": "mcq",
+      "question": "An art exhibition requires a selection of 3 paintings from artist X's collection of 6, and 2 sculptures from artist Y's collection of 4. Find the number of different selections possible.",
+      "options": [
+        "120",
+        "26",
+        "720",
+        "20"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of ways to pick the paintings is $^{6}C_{3} = 20$ , and the sculptures is $^{4}C_{2} = 6$ . By the product rule, the total number of unique selections is $20 \\times 6 = 120$ .\n\n**Common mistake:** A student might add the combinations instead of multiplying them ($20 + 6 = 26$), which violates the fundamental counting principle for independent successive choices."
+    }
+  ]
+}

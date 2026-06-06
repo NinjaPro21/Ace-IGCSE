@@ -1,0 +1,75 @@
+{
+  "id": "ch05-logarithms-medium",
+  "topicId": "ch05-logarithms",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "medium",
+  "title": "Chapter 5: Logarithms — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch05-logarithms-q1",
+      "type": "mcq",
+      "question": "Given that $\\log_b(2) = p$ and $\\log_b(5) = q$ , find an expression for $\\log_b(20)$ in terms of $p$ and $q$ .",
+      "options": [
+        " $2p + q$ ",
+        " $p^2 + q$ ",
+        " $2p + 2q$ ",
+        " $p + 2q$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Express $20$ in terms of its prime factors: $20 = 2^2 \\times 5$ . Then, break down using log laws: $\\log_b(2^2 \\times 5) = \\log_b(2^2) + \\log_b(5) = 2\\log_b(2) + \\log_b(5) = 2p + q$ .\n\n**Common mistake:** Students regularly mistake the power rule $\\log(2^2) = 2\\log(2)$ for squaring the variable, resulting in $p^2 + q$ ."
+    },
+    {
+      "id": "ch05-logarithms-q2",
+      "type": "mcq",
+      "question": "Solve the equation $\\log_3(x) + \\log_3(x - 8) = 2$ .",
+      "options": [
+        " $x = 9$ ",
+        " $x = 9$ or $x = -1$ ",
+        " $x = 5$ ",
+        " $x = 10$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Combine the terms using the product rule: $\\log_3(x(x - 8)) = 2 \\implies x^2 - 8x = 3^2 \\implies x^2 - 8x - 9 = 0$ . Factorizing gives $(x-9)(x+1)=0$ , so $x=9$ or $x=-1$ . We must reject $x=-1$ because logarithms cannot take negative inputs, leaving $x=9$ .\n\n**Common mistake:** Students often fail to check for extraneous roots, keeping the negative value and wrongly choosing option B."
+    },
+    {
+      "id": "ch05-logarithms-q3",
+      "type": "mcq",
+      "question": "Find the exact value of $x$ satisfying the equation $4^{x+1} = 7^{x}$ .",
+      "options": [
+        " $x = \\frac{\\log(4)}{\\log(7) - \\log(4)}$ ",
+        " $x = \\frac{\\log(4)}{\\log(4) - \\log(7)}$ ",
+        " $x = \\frac{1}{\\log(7) - \\log(4)}$ ",
+        " $x = \\log\\left(\\frac{7}{4}\\right)$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Take logarithms on both sides: $(x+1)\\log(4) = x\\log(7) \\implies x\\log(4) + \\log(4) = x\\log(7)$ . Rearranging terms gives $\\log(4) = x(\\log(7) - \\log(4))$ , which solves to $x = \\frac{\\log(4)}{\\log(7) - \\log(4)}$ .\n\n**Common mistake:** Students often make algebraic sign errors when moving terms across the equals sign, picking option B by mistake."
+    },
+    {
+      "id": "ch05-logarithms-q4",
+      "type": "mcq",
+      "question": "Solve the equation $\\log_2(x) + 6\\log_x(2) = 5$ .",
+      "options": [
+        " $x = 4$ or $x = 8$ ",
+        " $x = 2$ or $x = 3$ ",
+        " $x = 16$ or $x = 64$ ",
+        " $x = 4$ only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use change of base to rewrite $\\log_x(2)$ as $\\frac{1}{\\log_2(x)}$ . Let $u = \\log_2(x)$ , yielding $u + \\frac{6}{u} = 5 \\implies u^2 - 5u + 6 = 0 \\implies (u-2)(u-3) = 0$ . Therefore, $\\log_2(x) = 2 \\implies x = 4$ and $\\log_2(x) = 3 \\implies x = 8$ .\n\n**Common mistake:** Students frequently get stuck after finding $u = 2$ and $u = 3$ , forgetting to map these values back to $x = 2^u$ , leading them to choose option B."
+    },
+    {
+      "id": "ch05-logarithms-q5",
+      "type": "mcq",
+      "question": "Find the value of $x$ for which $2\\log_a(x) = \\log_a(18) + \\log_a(2)$ .",
+      "options": [
+        " $x = 6$ ",
+        " $x = 6$ or $x = -6$ ",
+        " $x = 20$ ",
+        " $x = 10$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply logarithmic laws to simplify: $\\log_a(x^2) = \\log_a(18 \\times 2) \\implies \\log_a(x^2) = \\log_a(36)$ . This means $x^2 = 36 \\implies x = 6$ since the base domain restricts $x > 0$ .\n\n**Common mistake:** Students often add the arguments instead of multiplying them during addition, calculating $18 + 2 = 20$ and concluding $x^2 = 20$ or $2x = 20 \\implies x = 10$ ."
+    }
+  ]
+}

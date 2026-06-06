@@ -11,19 +11,22 @@ const STEPS: { difficulty: Difficulty | 'notes'; label: string; title: string }[
 ]
 
 interface MasteryPathProps {
-  topicId: string
+  chapterId: string
+  notesComplete: boolean
 }
 
-export function MasteryPath({ topicId }: MasteryPathProps) {
-  const { getTopicLevel, canTakeQuiz } = useMastery()
-  const level = getTopicLevel(topicId)
+export function MasteryPath({ chapterId, notesComplete }: MasteryPathProps) {
+  const { getChapterQuizLevel, canTakeChapterQuiz } = useMastery()
+  const quizLevel = getChapterQuizLevel(chapterId)
 
   return (
     <div className="enlight-mastery-path">
       {STEPS.map((step, idx) => {
         const isNotes = step.difficulty === 'notes'
-        const complete = level > idx
-        const unlocked = isNotes || canTakeQuiz(topicId, step.difficulty as Difficulty)
+        const complete = isNotes ? notesComplete : quizLevel > idx
+        const unlocked = isNotes
+          ? true
+          : canTakeChapterQuiz(chapterId, step.difficulty as Difficulty)
         const cls = [
           'enlight-mastery-step',
           complete ? 'enlight-mastery-step--complete' : '',
@@ -42,7 +45,7 @@ export function MasteryPath({ topicId }: MasteryPathProps) {
         return (
           <Link
             key={step.difficulty}
-            to={`/quiz/${topicId}/${step.difficulty}`}
+            to={`/quiz/${chapterId}/${step.difficulty}`}
             className={cls}
           >
             <div className="enlight-mastery-step__label">{step.label}</div>

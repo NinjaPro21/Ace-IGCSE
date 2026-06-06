@@ -13,16 +13,20 @@ import { masteryEngine, type MasteryLevel, type UserProgress } from './MasteryEn
 interface MasteryContextValue {
   progress: UserProgress
   globalLevel: number
-  getTopicLevel: (topicId: string) => MasteryLevel
-  getChecklistCount: (topicId: string) => number
-  canTakeQuiz: (topicId: string, difficulty: Difficulty) => boolean
-  markNotesRead: (topicId: string) => void
-  recordQuizResult: (
-    topicId: string,
+  isNotesRead: (topicId: string) => boolean
+  getChapterQuizLevel: (chapterId: string) => MasteryLevel
+  areChapterNotesComplete: (chapterId: string) => boolean
+  shouldShowChapterPopout: (chapterId: string) => boolean
+  markChapterPopoutSeen: (chapterId: string) => void
+  canTakeChapterQuiz: (chapterId: string, difficulty: Difficulty) => boolean
+  markNotesRead: (topicId: string, chapterId: string) => boolean
+  recordChapterQuizResult: (
+    chapterId: string,
     difficulty: Difficulty,
     scorePercent: number,
     passed: boolean,
   ) => void
+  getTopicNotesReadMap: () => Record<string, boolean>
   refresh: () => void
 }
 
@@ -43,17 +47,25 @@ export function MasteryProvider({ children }: { children: ReactNode }) {
     () => ({
       progress,
       globalLevel: masteryEngine.getGlobalLevel(),
-      getTopicLevel: (id) => masteryEngine.getTopicLevel(id),
-      getChecklistCount: (id) => masteryEngine.getChecklistCount(id),
-      canTakeQuiz: (id, d) => masteryEngine.canTakeQuiz(id, d),
-      markNotesRead: (id) => {
-        masteryEngine.markNotesRead(id)
+      isNotesRead: (id) => masteryEngine.isNotesRead(id),
+      getChapterQuizLevel: (id) => masteryEngine.getChapterQuizLevel(id),
+      areChapterNotesComplete: (id) => masteryEngine.areChapterNotesComplete(id),
+      shouldShowChapterPopout: (id) => masteryEngine.shouldShowChapterPopout(id),
+      markChapterPopoutSeen: (id) => {
+        masteryEngine.markChapterPopoutSeen(id)
         masteryEngine.notify()
       },
-      recordQuizResult: (id, d, score, passed) => {
-        masteryEngine.recordQuizResult(id, d, score, passed)
+      canTakeChapterQuiz: (id, d) => masteryEngine.canTakeChapterQuiz(id, d),
+      markNotesRead: (topicId, chapterId) => {
+        const chapterJustCompleted = masteryEngine.markNotesRead(topicId, chapterId)
+        masteryEngine.notify()
+        return chapterJustCompleted
+      },
+      recordChapterQuizResult: (id, d, score, passed) => {
+        masteryEngine.recordChapterQuizResult(id, d, score, passed)
         masteryEngine.notify()
       },
+      getTopicNotesReadMap: () => masteryEngine.getTopicNotesReadMap(),
       refresh,
     }),
     [progress, refresh],

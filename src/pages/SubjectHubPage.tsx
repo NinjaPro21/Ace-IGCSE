@@ -4,27 +4,14 @@ import { EnlightHeader } from '@/components/EnlightHeader'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { SubjectToggle } from '@/components/SubjectToggle'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import {
-  getChapterStatus,
-  getChaptersForSubject,
-  getSubject,
-} from '@/lib/contentLoader'
+import { getChapterStatus, getChaptersForSubject, getSubject } from '@/lib/contentLoader'
 
 export function SubjectHubPage() {
   const { subjectId = 'add-maths-0606' } = useParams()
-  const { progress, getTopicLevel } = useMastery()
+  const { getTopicNotesReadMap, getChapterQuizLevel } = useMastery()
   const subject = getSubject(subjectId)
   const chapters = getChaptersForSubject(subjectId)
-
-  const topicLevels: Record<string, number> = {}
-  for (const [id, t] of Object.entries(progress.topics)) {
-    topicLevels[id] = t.level
-  }
-  for (const ch of chapters) {
-    for (const tid of ch.topicIds) {
-      if (!(tid in topicLevels)) topicLevels[tid] = getTopicLevel(tid)
-    }
-  }
+  const notesRead = getTopicNotesReadMap()
 
   if (!subject) {
     return (
@@ -80,7 +67,7 @@ export function SubjectHubPage() {
             <EnlightChapterCard
               key={ch.id}
               chapter={ch}
-              status={getChapterStatus(ch.id, topicLevels)}
+              status={getChapterStatus(ch.id, notesRead, getChapterQuizLevel(ch.id))}
             />
           ))}
         </div>

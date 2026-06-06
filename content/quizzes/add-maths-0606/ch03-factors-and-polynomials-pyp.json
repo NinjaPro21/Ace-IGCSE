@@ -1,0 +1,49 @@
+{
+  "id": "ch03-factors-and-polynomials-pyp",
+  "topicId": "ch03-factors-and-polynomials",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "pyp",
+  "title": "Chapter 3: Factors and Polynomials — Pyp",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch03-factors-and-polynomials-q1",
+      "type": "mcq",
+      "question": "Show that $x = 3$ is a root of the equation $2x^3 - 5x^2 - 4x + 3 = 0$, and hence find the remaining roots of the equation.",
+      "options": [
+        "$x = -1$ and $x = \\frac{1}{2}$",
+        "$x = 1$ and $x = -\\frac{1}{2}$",
+        "$x = 3$ and $x = -3$",
+        "$x = -1$ and $x = 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substituting $x = 3$ gives $2(27) - 5(9) - 4(3) + 3 = 54 - 45 - 12 + 3 = 0$. Dividing the cubic by $x - 3$ yields $2x^2 + x - 1 = 0$, which factors into $(2x - 1)(x + 1) = 0$.\n\n**Common mistake:** Students often incorrectly factor the resulting quadratic equation as $2x^2 - x - 1 = 0$, which yields the wrong signs for the roots."
+    },
+    {
+      "id": "ch03-factors-and-polynomials-q2",
+      "type": "mcq",
+      "question": "Find the set of values of $p$ for which the polynomial $f(x) = x^3 - 3x^2 + px - 4$ leaves a positive remainder when divided by $x - 3$.",
+      "options": [
+        "$p > \\frac{4}{3}$",
+        "$p < \\frac{4}{3}$",
+        "$p > 4$",
+        "$p > 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the Remainder Theorem, the remainder is $f(3) = 3^3 - 3(3)^2 + 3p - 4 = 3p - 4$. For a positive remainder, $3p - 4 > 0 \\implies p > \\frac{4}{3}$.\n\n**Common mistake:** Students often make arithmetic errors simplifying $3^3 - 3(3)^2$, occasionally evaluating it as a non-zero value or setting up an incorrect inequality direction."
+    },
+    {
+      "id": "ch03-factors-and-polynomials-q3",
+      "type": "mcq",
+      "question": "Given that $(x^2 - x + k)(x + 3) \\equiv x^3 + 2x^2 + cx - 12$ for all values of $x$, find the value of $k$ and hence find the value of $c$.",
+      "options": [
+        "$k = -4, c = -7$",
+        "$k = -4, c = -1$",
+        "$k = 4, c = -7$",
+        "$k = -4, c = 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Comparing the constant terms on both sides gives $3k = -12 \\implies k = -4$. Expanding to find the $x$ term gives $kx - 3x = (k - 3)x$. Substituting $k = -4$ gives $c = -4 - 3 = -7$.\n\n**Common mistake:** Students frequently drop signs when matching coefficients, concluding that $3k = -12 \\implies k = 4$, which leads to an incorrect value for $c$."
+    }
+  ]
+}

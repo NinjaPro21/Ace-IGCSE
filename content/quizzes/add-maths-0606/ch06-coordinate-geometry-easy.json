@@ -1,0 +1,75 @@
+{
+  "id": "ch06-coordinate-geometry-easy",
+  "topicId": "ch06-coordinate-geometry",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "easy",
+  "title": "Chapter 6: Coordinate Geometry — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch06-coordinate-geometry-q1",
+      "type": "mcq",
+      "question": "Find the length of the line segment joining the points $A(-1, 5)$ and $B(3, 2)$ .",
+      "options": [
+        "5",
+        "25",
+        "√13",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the distance formula: $d = \\sqrt{(3 - (-1))^2 + (2 - 5)^2} = \\sqrt{4^2 + (-3)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$.\n\n**Common mistake:** Students may forget to take the square root at the final step, resulting in 25, or make sign errors inside the brackets such as calculating $(3 - 1)^2 + (2 + 5)^2$."
+    },
+    {
+      "id": "ch06-coordinate-geometry-q2",
+      "type": "mcq",
+      "question": "The coordinates of point $P$ are $(4, -2)$ and point $Q$ are $(-8, 6)$ . Find the coordinates of the midpoint of $PQ$ .",
+      "options": [
+        "$(-2, 2)$",
+        "$(6, -4)$",
+        "$(-4, 4)$",
+        "$(12, -8)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the midpoint formula: $M = \\left(\\frac{4 + (-8)}{2}, \\frac{-2 + 6}{2}\\right) = \\left(\\frac{-4}{2}, \\frac{4}{2}\\right) = (-2, 2)$.\n\n**Common mistake:** Students often mistakenly subtract the coordinates instead of adding them, leading to $(6, -4)$, or forget to divide by 2 entirely."
+    },
+    {
+      "id": "ch06-coordinate-geometry-q3",
+      "type": "mcq",
+      "question": "Find the gradient of the straight line passing through the points $(-3, 7)$ and $(5, -9)$ .",
+      "options": [
+        "$-2$",
+        "$-0.5$",
+        "2",
+        "$-1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the gradient formula $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-9 - 7}{5 - (-3)} = \\frac{-16}{8} = -2$.\n\n**Common mistake:** Students frequently invert the formula as $\\frac{\\Delta x}{\\Delta y}$, getting $-0.5$, or commit a double-negative error in the denominator calculating $5 - 3 = 2$."
+    },
+    {
+      "id": "ch06-coordinate-geometry-q4",
+      "type": "mcq",
+      "question": "A line $L_1$ has the equation $3x - 4y = 8$ . Find the gradient of a line $L_2$ that is parallel to $L_1$ .",
+      "options": [
+        "$\\frac{3}{4}$",
+        "$-\\frac{3}{4}$",
+        "$\\frac{4}{3}$",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange the given equation into slope-intercept form: $4y = 3x - 8 \\implies y = \\frac{3}{4}x - 2$. Parallel lines share identical gradients, so the gradient is $\\frac{3}{4}$.\n\n**Common mistake:** Students frequently make sign errors during rearrangement to find $y = -\\frac{3}{4}x + 2$, or isolate $x$ instead of $y$, obtaining $\\frac{4}{3}$."
+    },
+    {
+      "id": "ch06-coordinate-geometry-q5",
+      "type": "mcq",
+      "question": "The gradient of line $A$ is $-\\frac{2}{5}$ . If line $B$ is perpendicular to line $A$ , state the gradient of line $B$ .",
+      "options": [
+        "$\\frac{5}{2}$",
+        "$-\\frac{5}{2}$",
+        "$\\frac{2}{5}$",
+        "$-\\frac{2}{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perpendicular lines satisfy the condition $m_1 \\times m_2 = -1$. The negative reciprocal of $-\\frac{2}{5}$ is $\\frac{5}{2}$.\n\n**Common mistake:** Students frequently invert the fraction without changing the sign, yielding $-\\frac{5}{2}$, or change the sign without finding the reciprocal, yielding $\\frac{2}{5}$."
+    }
+  ]
+}

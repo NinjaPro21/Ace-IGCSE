@@ -1,0 +1,49 @@
+{
+  "id": "ch04-equations-inequalities-and-graphs-pyp",
+  "topicId": "ch04-equations-inequalities-and-graphs",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "pyp",
+  "title": "Chapter 4: Equations, Inequalities and Graphs — Pyp",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q1",
+      "type": "mcq",
+      "question": "Find the set of values of $x$ for which $|4x + 3| = 2x + 9$.",
+      "options": [
+        "$x = 3$ or $x = -2$",
+        "$x = 3$ only",
+        "$x = -2$ only",
+        "$x = 3$ or $x = -4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up two equations: $4x + 3 = 2x + 9 \\implies 2x = 6 \\implies x = 3$. Second case: $4x + 3 = -(2x + 9) \\implies 4x + 3 = -2x - 9 \\implies 6x = -12 \\implies x = -2$. Testing both values in $2x + 9$ yields positive results ($15$ and $5$), meaning both are fully valid solutions.\n\n**Common mistake:** Students mistakenly reject $x = -2$ because it is a negative number, failing to notice that substituting it back into the right side expression $2x + 9$ still yields a valid positive value."
+    },
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q2",
+      "type": "mcq",
+      "question": "Find the set of values of $x$ for which $2|x - 3| > |x + 6|$.",
+      "options": [
+        "$x < 0$ or $x > 12$",
+        "$0 < x < 12$",
+        "$x < -12$ or $x > 0$",
+        "$x > 12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Square both sides: $4(x - 3)^2 > (x + 6)^2 \\implies 4(x^2 - 6x + 9) > x^2 + 12x + 36 \\implies 4x^2 - 24x + 36 > x^2 + 12x + 36$. Subtracting terms results in $3x^2 - 36x > 0 \\implies 3x(x - 12) > 0$. The critical boundaries are $0$ and $12$. Since it is greater than zero, we choose the outer regions: $x < 0$ or $x > 12$.\n\n**Common mistake:** Students often miss squaring the front constant coefficient $2$, writing $2(x-3)^2$ instead of $4(x-3)^2$, which leads to completely incorrect algebraic boundaries."
+    },
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q3",
+      "type": "mcq",
+      "question": "Find the set of values of $x$ satisfying the inequality $|5x - 2| \\le 13$.",
+      "options": [
+        "$-\\frac{11}{5} \\le x \\le 3$",
+        "$x \\le -\\frac{11}{5}$ or $x \\ge 3$",
+        "$-3 \\le x \\le \\frac{11}{5}$",
+        "$x \\le 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite as a continuous inequality: $-13 \\le 5x - 2 \\le 13$. Add $2$ to all sections: $-11 \\le 5x \\le 15$. Divide by $5$ to find the final solved set of values: $-\\frac{11}{5} \\le x \\le 3$.\n\n**Common mistake:** Students commonly treat it as an outer interval inequality by misinterpreting the direction of the inequality sign, picking option B instead of the bounded inner set."
+    }
+  ]
+}

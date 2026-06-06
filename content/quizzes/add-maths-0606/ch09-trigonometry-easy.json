@@ -1,0 +1,75 @@
+{
+  "id": "ch09-trigonometry-easy",
+  "topicId": "ch09-trigonometry",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "easy",
+  "title": "Chapter 9: Trigonometry — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch09-trigonometry-q1",
+      "type": "mcq",
+      "question": "Given that $\\sin(\\theta) = -\\frac{5}{13}$ and $\\theta$ lies in the third quadrant, state the exact value of $\\cos(\\theta)$ .",
+      "options": [
+        "-\\frac{12}{13}",
+        "\\frac{12}{13}",
+        "-\\frac{12}{5}",
+        "-\\frac{5}{12}"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the third quadrant, cosine is negative. Using the identity $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$ , we have $\\cos(\\theta) = -\\sqrt{1 - (-\\frac{5}{13})^2} = -\\frac{12}{13}$ .\n\n**Common mistake:** Students often forget that cosine is negative in the third quadrant, mistakenly leading to the positive value, or mix up the adjacent and opposite sides to get a tangent-related fraction."
+    },
+    {
+      "id": "ch09-trigonometry-q2",
+      "type": "mcq",
+      "question": "State the amplitude and period of the trigonometric function $y = 4\\sin(3x) - 1$ .",
+      "options": [
+        "Amplitude = 4, Period = 120^\\circ",
+        "Amplitude = 4, Period = 360^\\circ",
+        "Amplitude = 3, Period = 120^\\circ",
+        "Amplitude = 4, Period = 3^\\circ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The amplitude is given by the coefficient of the sine function, which is $|4| = 4$ . The period for a sine curve is $\\frac{360^\\circ}{k}$ , so $\\frac{360^\\circ}{3} = 120^\\circ$ .\n\n**Common mistake:** Students frequently confuse the coefficient inside the argument with the period itself, or modify the amplitude by subtracting the vertical shift value."
+    },
+    {
+      "id": "ch09-trigonometry-q3",
+      "type": "mcq",
+      "question": "Simplify the trigonometric expression $\\tan(\\theta) \\cdot \\cos(\\theta)$ for all valid values of $\\theta$ .",
+      "options": [
+        "\\sin(\\theta)",
+        "\\csc(\\theta)",
+        "\\cos^2(\\theta)",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the basic quotient identity, substitute $\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)}$ . Multiplying by $\\cos(\\theta)$ cancels out the denominator, leaving $\\sin(\\theta)$ .\n\n**Common mistake:** Students sometimes misremember $\\tan(\\theta)$ as $\\frac{\\cos(\\theta)}{\\sin(\\theta)}$ , which incorrectly results in an expression involving cosecant or a reciprocal form."
+    },
+    {
+      "id": "ch09-trigonometry-q4",
+      "type": "mcq",
+      "question": "If $\\tan(\\theta) = \\frac{3}{4}$ and $\\theta$ is an acute angle, find the exact value of $\\csc(\\theta)$ .",
+      "options": [
+        "\\frac{5}{3}",
+        "\\frac{5}{4}",
+        "\\frac{4}{3}",
+        "\\frac{3}{5}"
+      ],
+      "correctIndex": 0,
+      "explanation": "A right-angled triangle with opposite side 3 and adjacent side 4 has a hypotenuse of 5. Since $\\csc(\\theta) = \\frac{1}{\\sin(\\theta)} = \\frac{\\text{hypotenuse}}{\\text{opposite}}$ , the value is $\\frac{5}{3}$ .\n\n**Common mistake:** Students commonly mistake $\\csc(\\theta)$ as the reciprocal of $\\cos(\\theta)$ instead of $\\sin(\\theta)$ , which incorrectly produces the answer $\\frac{5}{4}$ ."
+    },
+    {
+      "id": "ch09-trigonometry-q5",
+      "type": "mcq",
+      "question": "Find all basic primary solutions for the equation $\\cos(\\theta) = \\frac{1}{2}$ for the domain $0^\\circ \\le \\theta \\le 360^\\circ$ .",
+      "options": [
+        "60^\\circ \\text{ and } 300^\\circ",
+        "60^\\circ \\text{ and } 120^\\circ",
+        "30^\\circ \\text{ and } 330^\\circ",
+        "60^\\circ \\text{ and } 240^\\circ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reference angle where $\\cos(\\alpha) = \\frac{1}{2}$ is $60^\\circ$ . Cosine is positive in Quadrants I and IV, giving $\\theta = 60^\\circ$ and $\\theta = 360^\\circ - 60^\\circ = 300^\\circ$ .\n\n**Common mistake:** Students often identify the reference angle correctly but pick incorrect quadrants, such as Quadrant II or III, due to a misunderstanding of the CAST diagram rules."
+    }
+  ]
+}

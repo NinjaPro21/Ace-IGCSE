@@ -1,0 +1,75 @@
+{
+  "id": "ch13-vectors-easy",
+  "topicId": "ch13-vectors",
+  "chapterId": "ch13-vectors",
+  "difficulty": "easy",
+  "title": "Chapter 13: Vectors — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch13-vectors-q1",
+      "type": "mcq",
+      "question": "Given the vector $\\mathbf{a} = 3\\mathbf{i} - 4\\mathbf{j}$, find the magnitude of $\\mathbf{a}$, denoted by $|\\mathbf{a}|$.",
+      "options": [
+        "5",
+        "7",
+        "25",
+        "√7"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude of a vector $\\mathbf{a} = x\\mathbf{i} + y\\mathbf{j}$ is given by $|\\mathbf{a}| = \\sqrt{x^2 + y^2}$. Substituting $x = 3$ and $y = -4$ gives $\\sqrt{3^2 + (-4)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.\n\n**Common mistake:** Students often make a sign error by squaring $-4$ to get $-16$, leading to $\\sqrt{9 - 16} = \\sqrt{-7}$, or they simply add the coefficients directly ($3 + 4 = 7$ or $3 - 4 = -1$)."
+    },
+    {
+      "id": "ch13-vectors-q2",
+      "type": "mcq",
+      "question": "Find the unit vector in the direction of $\\mathbf{v} = 6\\mathbf{i} + 8\\mathbf{j}$.",
+      "options": [
+        "$0.6\\mathbf{i} + 0.8\\mathbf{j}$",
+        "$6\\mathbf{i} + 8\\mathbf{j}$",
+        "$10\\mathbf{i} + 10\\mathbf{j}$",
+        "$0.36\\mathbf{i} + 0.64\\mathbf{j}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude of $\\mathbf{v}$ is $\\sqrt{6^2 + 8^2} = 10$. The unit vector is found by dividing the vector by its magnitude, giving $\\frac{6}{10}\\mathbf{i} + \\frac{8}{10}\\mathbf{j} = 0.6\\mathbf{i} + 0.8\\mathbf{j}$.\n\n**Common mistake:** Students may forget to divide by the magnitude entirely, or they may divide each component by the sum of components ($6+8=14$) instead of the geometric magnitude."
+    },
+    {
+      "id": "ch13-vectors-q3",
+      "type": "mcq",
+      "question": "If position vector $\\vec{OA} = 2\\mathbf{i} + 5\\mathbf{j}$ and position vector $\\vec{OB} = 7\\mathbf{i} - 3\\mathbf{j}$, find the vector $\\vec{AB}$.",
+      "options": [
+        "$5\\mathbf{i} - 8\\mathbf{j}$",
+        "$9\\mathbf{i} + 2\\mathbf{j}$",
+        "$-5\\mathbf{i} + 8\\mathbf{j}$",
+        "$5\\mathbf{i} + 2\\mathbf{j}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The displacement vector $\\vec{AB}$ is found using $\\vec{OB} - \\vec{OA}$. This gives $(7\\mathbf{i} - 3\\mathbf{j}) - (2\\mathbf{i} + 5\\mathbf{j}) = (7-2)\\mathbf{i} + (-3-5)\\mathbf{j} = 5\\mathbf{i} - 8\\mathbf{j}$.\n\n**Common mistake:** Students often misremember the direction and compute $\\vec{OA} - \\vec{OB}$, or they mistakenly add the two vectors together due to a conceptual misunderstanding of vector paths."
+    },
+    {
+      "id": "ch13-vectors-q4",
+      "type": "mcq",
+      "question": "State the condition for two non-zero vectors $\\mathbf{u}$ and $\\mathbf{v}$ to be parallel.",
+      "options": [
+        "$\\mathbf{u} = k\\mathbf{v}$ for some non-zero scalar $k$",
+        "$\\mathbf{u} \\cdot \\mathbf{v} = 0$",
+        "$\\mathbf{u} + \\mathbf{v} = \\mathbf{0}$",
+        "$|\\mathbf{u}| = |\\mathbf{v}|$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two vectors are parallel if and only if one is a scalar multiple of the other, which is mathematically expressed as $\\mathbf{u} = k\\mathbf{v}$.\n\n**Common mistake:** Students frequently confuse the condition for parallel vectors with the condition for perpendicular vectors, incorrectly choosing the dot product equation $\\mathbf{u} \\cdot \\mathbf{v} = 0$."
+    },
+    {
+      "id": "ch13-vectors-q5",
+      "type": "mcq",
+      "question": "Given that the vector $\\begin{pmatrix} 2k \\\\\\\\ -3 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 8 \\\\\\\\ 12 \\end{pmatrix}$, find the value of $k$.",
+      "options": [
+        "$-1$",
+        "$1$",
+        "$-4$",
+        "$-2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the vectors are parallel, their components are proportional: $\\frac{2k}{8} = \\frac{-3}{12}$. Simplifying gives $\\frac{2k}{8} = -\\frac{1}{4} \\implies 2k = -2 \\implies k = -1$.\n\n**Common mistake:** Students often invert one of the ratios or omit the negative sign on the denominator, leading to positive values like $k = 1$."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ch10-permutations-and-combinations-easy",
+  "topicId": "ch10-permutations-and-combinations",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "easy",
+  "title": "Chapter 10: Permutations and Combinations — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch10-permutations-and-combinations-q1",
+      "type": "mcq",
+      "question": "Evaluate the exact value of the expression $\\frac{7!}{4! \\times 3!}$ .",
+      "options": [
+        "35",
+        "70",
+        "210",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expanding the factorials, $\\frac{7 \\times 6 \\times 5 \\times 4!}{4! \\times (3 \\times 2 \\times 1)} = \\frac{7 \\times 6 \\times 5}{6} = 7 \\times 5 = 35$ .\n\n**Common mistake:** Students often mistakenly cancel out terms or multiply incorrectly, such as simplifying the denominator to $12!$ or thinking $\\frac{7!}{4! \\times 3!} = \\frac{7}{4 \\times 3}$ , leading to arithmetic mismatches or values like 5."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q2",
+      "type": "mcq",
+      "question": "Find the number of different ways that the 6 letters of the word $MATRIX$ can be arranged in a straight line.",
+      "options": [
+        "720",
+        "120",
+        "36",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since all 6 letters in the word $MATRIX$ are distinct, the total number of linear arrangements is $6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$ .\n\n**Common mistake:** A student might select 120 by misremembering the length of the word as 5 letters ($5! = 120$) or calculate $6 \\times 6 = 36$ due to a misunderstanding of the multiplication principle for distinct spots."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q3",
+      "type": "mcq",
+      "question": "Calculate the value of $^{8}P_{3}$ , representing the number of ways to permute 3 items selected from a distinct set of 8 items.",
+      "options": [
+        "336",
+        "56",
+        "40320",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the permutation formula, $^{8}P_{3} = \\frac{8!}{(8-3)!} = \\frac{8!}{5!} = 8 \\times 7 \\times 6 = 336$ .\n\n**Common mistake:** Students regularly mix up permutations and combinations, evaluating $^{8}C_{3} = \\frac{336}{3!} = 56$ instead, or simply multiplying $8 \\times 3 = 24$ ."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q4",
+      "type": "mcq",
+      "question": "A committee of 4 members is to be selected from a group of 9 eligible candidates. Find the number of different combinations possible.",
+      "options": [
+        "126",
+        "3024",
+        "36",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "The order of selection does not matter, so we use combinations: $^{9}C_{4} = \\frac{9!}{4!(9-4)!} = \\frac{9 \\times 8 \\times 7 \\times 6}{4 \\times 3 \\times 2 \\times 1 = 24} = 126$ .\n\n**Common mistake:** A student might accidentally apply the permutation formula $^{9}P_{4} = 3024$ because they failed to recognize that order is unimportant for a basic committee selection."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q5",
+      "type": "mcq",
+      "question": "State the standard relationship between the number of permutations, $^{n}P_{r}$ , and combinations, $^{n}C_{r}$ , for $r \\le n$ .",
+      "options": [
+        "$^{n}P_{r} = r! \\times ^{n}C_{r}$",
+        "$^{n}C_{r} = r! \\times ^{n}P_{r}$",
+        "$^{n}P_{r} = (n-r)! \\times ^{n}C_{r}$",
+        "$^{n}C_{r} = n! \\times ^{n}P_{r}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combinations count un-ordered groups, whereas permutations count ordered arrangements. Thus, multiplying the number of groups by $r!$ (the ways to order each group) gives the total permutations.\n\n**Common mistake:** Students frequently reverse the operational roles of the factorial multiplier, mistakenly believing that combinations should be larger than permutations, yielding $^{n}C_{r} = r! \\times ^{n}P_{r}$ ."
+    }
+  ]
+}

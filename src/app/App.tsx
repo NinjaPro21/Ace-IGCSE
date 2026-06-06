@@ -20,7 +20,7 @@ export function App() {
             path="/subjects/:subjectId/chapters/:chapterId/topics/:topicId"
             element={<TopicLessonPage />}
           />
-          <Route path="/quiz/:topicId/:difficulty" element={<QuizArena />} />
+          <Route path="/quiz/:chapterId/:difficulty" element={<QuizArena />} />
         </Routes>
       </BrowserRouter>
     </MasteryProvider>

@@ -1,14 +1,19 @@
 import type { Difficulty } from '@/lib/contentTypes'
+import { getTopicsForChapter } from '@/lib/contentLoader'
 
 export type MasteryLevel = 0 | 1 | 2 | 3 | 4
 
 export interface TopicProgress {
-  level: MasteryLevel
+  notesRead?: boolean
+}
+
+export interface ChapterProgress {
+  quizLevel: MasteryLevel
   easyScore?: number
   mediumScore?: number
   hardScore?: number
   pypComplete?: boolean
-  notesRead?: boolean
+  popoutSeen?: boolean
 }
 
 export interface UserProgress {
@@ -16,9 +21,10 @@ export interface UserProgress {
   streakDays: number
   lastActiveDate: string
   topics: Record<string, TopicProgress>
+  chapters: Record<string, ChapterProgress>
 }
 
-const STORAGE_KEY = 'enlight-progress-v1'
+const STORAGE_KEY = 'enlight-progress-v2'
 
 const XP_REWARDS: Record<Difficulty, number> = {
   easy: 10,
@@ -37,14 +43,33 @@ function defaultState(): UserProgress {
     streakDays: 0,
     lastActiveDate: '',
     topics: {},
+    chapters: {},
   }
 }
 
 function loadState(): UserProgress {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
-    if (!raw) return defaultState()
-    return { ...defaultState(), ...JSON.parse(raw) }
+    if (!raw) {
+      const legacy = localStorage.getItem('enlight-progress-v1')
+      if (legacy) {
+        const parsed = JSON.parse(legacy)
+        const topics: Record<string, TopicProgress> = {}
+        for (const [id, t] of Object.entries(parsed.topics ?? {})) {
+          const tp = t as { notesRead?: boolean; level?: number }
+          topics[id] = { notesRead: tp.notesRead || (tp.level ?? 0) >= 1 }
+        }
+        return { ...defaultState(), xp: parsed.xp ?? 0, streakDays: parsed.streakDays ?? 0, lastActiveDate: parsed.lastActiveDate ?? '', topics }
+      }
+      return defaultState()
+    }
+    const parsed = JSON.parse(raw)
+    return {
+      ...defaultState(),
+      ...parsed,
+      topics: parsed.topics ?? {},
+      chapters: parsed.chapters ?? {},
+    }
   } catch {
     return defaultState()
   }
@@ -73,7 +98,30 @@ function touchStreak(state: UserProgress): UserProgress {
 }
 
 function ensureTopic(state: UserProgress, topicId: string): TopicProgress {
-  return state.topics[topicId] ?? { level: 0, notesRead: false }
+  return state.topics[topicId] ?? { notesRead: false }
+}
+
+function ensureChapter(state: UserProgress, chapterId: string): ChapterProgress {
+  return state.chapters[chapterId] ?? { quizLevel: 0 }
+}
+
+function areChapterNotesComplete(state: UserProgress, chapterId: string): boolean {
+  const chapterTopics = getTopicsForChapter(chapterId)
+  if (chapterTopics.length === 0) return false
+  return chapterTopics.every((t) => ensureTopic(state, t.id).notesRead)
+}
+
+function syncChapterQuizUnlock(state: UserProgress, chapterId: string): UserProgress {
+  if (!areChapterNotesComplete(state, chapterId)) return state
+  const ch = ensureChapter(state, chapterId)
+  if (ch.quizLevel >= 1) return state
+  return {
+    ...state,
+    chapters: {
+      ...state.chapters,
+      [chapterId]: { ...ch, quizLevel: 1 },
+    },
+  }
 }
 
 export class MasteryEngine {
@@ -87,16 +135,41 @@ export class MasteryEngine {
     return this.state
   }
 
-  getTopicLevel(topicId: string): MasteryLevel {
-    return ensureTopic(this.state, topicId).level
+  isNotesRead(topicId: string): boolean {
+    return ensureTopic(this.state, topicId).notesRead ?? false
+  }
+
+  getChapterQuizLevel(chapterId: string): MasteryLevel {
+    return ensureChapter(this.state, chapterId).quizLevel
+  }
+
+  areChapterNotesComplete(chapterId: string): boolean {
+    return areChapterNotesComplete(this.state, chapterId)
+  }
+
+  shouldShowChapterPopout(chapterId: string): boolean {
+    const ch = ensureChapter(this.state, chapterId)
+    return areChapterNotesComplete(this.state, chapterId) && ch.quizLevel === 1 && !ch.popoutSeen
+  }
+
+  markChapterPopoutSeen(chapterId: string): void {
+    const ch = ensureChapter(this.state, chapterId)
+    this.state = {
+      ...this.state,
+      chapters: {
+        ...this.state.chapters,
+        [chapterId]: { ...ch, popoutSeen: true },
+      },
+    }
+    saveState(this.state)
   }
 
   getGlobalLevel(): number {
     return Math.floor(this.state.xp / 100) + 1
   }
 
-  canTakeQuiz(topicId: string, difficulty: Difficulty): boolean {
-    const level = this.getTopicLevel(topicId)
+  canTakeChapterQuiz(chapterId: string, difficulty: Difficulty): boolean {
+    const level = this.getChapterQuizLevel(chapterId)
     switch (difficulty) {
       case 'easy':
         return level >= 1
@@ -111,22 +184,27 @@ export class MasteryEngine {
     }
   }
 
-  markNotesRead(topicId: string): void {
+  markNotesRead(topicId: string, chapterId: string): boolean {
     this.state = touchStreak(this.state)
     const topic = ensureTopic(this.state, topicId)
-    const updated: TopicProgress = { ...topic, notesRead: true }
-    if (topic.level < 1) {
-      updated.level = 1
-    }
+    if (topic.notesRead) return false
+
     this.state = {
       ...this.state,
-      topics: { ...this.state.topics, [topicId]: updated },
+      topics: {
+        ...this.state.topics,
+        [topicId]: { ...topic, notesRead: true },
+      },
     }
+    const wasComplete = areChapterNotesComplete(this.state, chapterId)
+    this.state = syncChapterQuizUnlock(this.state, chapterId)
+    const nowComplete = areChapterNotesComplete(this.state, chapterId)
     saveState(this.state)
+    return !wasComplete && nowComplete
   }
 
-  recordQuizResult(
-    topicId: string,
+  recordChapterQuizResult(
+    chapterId: string,
     difficulty: Difficulty,
     scorePercent: number,
     passed: boolean,
@@ -134,33 +212,37 @@ export class MasteryEngine {
     if (!passed) return
 
     this.state = touchStreak(this.state)
-    const topic = ensureTopic(this.state, topicId)
-    const updated: TopicProgress = { ...topic }
+    const ch = ensureChapter(this.state, chapterId)
+    const updated: ChapterProgress = { ...ch }
 
     if (difficulty === 'easy') {
       updated.easyScore = scorePercent
-      if (topic.level < 2) updated.level = 2
+      if (ch.quizLevel < 2) updated.quizLevel = 2
     } else if (difficulty === 'medium') {
       updated.mediumScore = scorePercent
-      if (topic.level < 3) updated.level = 3
+      if (ch.quizLevel < 3) updated.quizLevel = 3
     } else if (difficulty === 'hard') {
       updated.hardScore = scorePercent
-      if (topic.level < 4) updated.level = 4
+      if (ch.quizLevel < 4) updated.quizLevel = 4
     } else if (difficulty === 'pyp') {
       updated.pypComplete = true
-      updated.level = 4
+      updated.quizLevel = 4
     }
 
     this.state = {
       ...this.state,
       xp: this.state.xp + XP_REWARDS[difficulty],
-      topics: { ...this.state.topics, [topicId]: updated },
+      chapters: { ...this.state.chapters, [chapterId]: updated },
     }
     saveState(this.state)
   }
 
-  getChecklistCount(topicId: string): number {
-    return this.getTopicLevel(topicId)
+  getTopicNotesReadMap(): Record<string, boolean> {
+    const map: Record<string, boolean> = {}
+    for (const [id, t] of Object.entries(this.state.topics)) {
+      map[id] = t.notesRead ?? false
+    }
+    return map
   }
 
   subscribe(listener: () => void): () => void {

@@ -1,61 +1,40 @@
 import type { ChapterMeta, QuizData, SubjectMeta, TopicMeta } from './contentTypes'
 
-import addMathsSubject from '@content/subjects/add-maths-0606.json'
-import mathsSubject from '@content/subjects/maths-0580.json'
-import physicsSubject from '@content/subjects/physics.json'
+const subjectModules = import.meta.glob('@content/subjects/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, SubjectMeta>
 
-import chQuadratics from '@content/chapters/add-maths-0606/ch02-quadratics.json'
-import chFunctions from '@content/chapters/add-maths-0606/ch01-functions.json'
-import chAlgebraMaths from '@content/chapters/maths-0580/ch01-algebra.json'
-import chMechanics from '@content/chapters/physics/ch01-mechanics.json'
+const chapterModules = import.meta.glob('@content/chapters/**/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, ChapterMeta>
 
-import topicDiscriminant from '@content/topics/add-maths-0606/discriminant.json'
-import topicFunctions from '@content/topics/add-maths-0606/functions-intro.json'
-import topicAlgebra from '@content/topics/maths-0580/algebra-basics.json'
-import topicMechanics from '@content/topics/physics/kinematics.json'
+const topicModules = import.meta.glob('@content/topics/**/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, TopicMeta>
 
-import quizDiscEasy from '@content/quizzes/add-maths-0606/discriminant-easy.json'
-import quizDiscMedium from '@content/quizzes/add-maths-0606/discriminant-medium.json'
-import quizDiscHard from '@content/quizzes/add-maths-0606/discriminant-hard.json'
-import quizDiscPyp from '@content/quizzes/add-maths-0606/discriminant-pyp.json'
+const quizModules = import.meta.glob('@content/quizzes/**/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, QuizData>
 
-import notesDiscriminant from '@content/notes/add-maths-0606/discriminant.md?raw'
-import notesFunctions from '@content/notes/add-maths-0606/functions-intro.md?raw'
-import notesAlgebra from '@content/notes/maths-0580/algebra-basics.md?raw'
-import notesMechanics from '@content/notes/physics/kinematics.md?raw'
+const noteModules = import.meta.glob('@content/notes/**/*.md', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+}) as Record<string, string>
 
-const subjects: SubjectMeta[] = [
-  addMathsSubject as SubjectMeta,
-  mathsSubject as SubjectMeta,
-  physicsSubject as SubjectMeta,
-]
+const subjects: SubjectMeta[] = Object.values(subjectModules)
+const chapters: ChapterMeta[] = Object.values(chapterModules)
+const topics: TopicMeta[] = Object.values(topicModules)
+const quizzes: QuizData[] = Object.values(quizModules)
 
-const chapters: ChapterMeta[] = [
-  chQuadratics as ChapterMeta,
-  chFunctions as ChapterMeta,
-  chAlgebraMaths as ChapterMeta,
-  chMechanics as ChapterMeta,
-]
-
-const topics: TopicMeta[] = [
-  topicDiscriminant as TopicMeta,
-  topicFunctions as TopicMeta,
-  topicAlgebra as TopicMeta,
-  topicMechanics as TopicMeta,
-]
-
-const quizzes: QuizData[] = [
-  quizDiscEasy as QuizData,
-  quizDiscMedium as QuizData,
-  quizDiscHard as QuizData,
-  quizDiscPyp as QuizData,
-]
-
-const notesMap: Record<string, string> = {
-  'add-maths-0606/discriminant.md': notesDiscriminant,
-  'add-maths-0606/functions-intro.md': notesFunctions,
-  'maths-0580/algebra-basics.md': notesAlgebra,
-  'physics/kinematics.md': notesMechanics,
+const notesMap: Record<string, string> = {}
+for (const [filePath, content] of Object.entries(noteModules)) {
+  const match = filePath.match(/notes\/(.+\.md)$/)
+  if (match) notesMap[match[1]] = content
 }
 
 export function getAllSubjects(): SubjectMeta[] {
@@ -67,7 +46,9 @@ export function getSubject(subjectId: string): SubjectMeta | undefined {
 }
 
 export function getChaptersForSubject(subjectId: string): ChapterMeta[] {
-  return chapters.filter((c) => c.subjectId === subjectId)
+  return chapters
+    .filter((c) => c.subjectId === subjectId)
+    .sort((a, b) => a.number - b.number)
 }
 
 export function getChapter(chapterId: string): ChapterMeta | undefined {
@@ -79,19 +60,38 @@ export function getTopic(topicId: string): TopicMeta | undefined {
 }
 
 export function getTopicsForChapter(chapterId: string): TopicMeta[] {
-  return topics.filter((t) => t.chapterId === chapterId)
+  const chapter = getChapter(chapterId)
+  if (!chapter) return []
+  return chapter.topicIds
+    .map((id) => getTopic(id))
+    .filter((t): t is TopicMeta => Boolean(t))
+}
+
+export function getChapterQuizAnchor(chapterId: string): TopicMeta | undefined {
+  return getTopicsForChapter(chapterId).find((t) => t.isChapterQuizAnchor)
 }
 
 export function getQuiz(quizId: string): QuizData | undefined {
   return quizzes.find((q) => q.id === quizId)
 }
 
+export function getQuizByChapterAndDifficulty(
+  chapterId: string,
+  difficulty: QuizData['difficulty'],
+): QuizData | undefined {
+  const anchor = getChapterQuizAnchor(chapterId)
+  if (!anchor?.quizIds) return undefined
+  const quizId = anchor.quizIds[difficulty]
+  return getQuiz(quizId)
+}
+
+/** @deprecated Use getQuizByChapterAndDifficulty for chapter-scoped quizzes */
 export function getQuizByTopicAndDifficulty(
   topicId: string,
   difficulty: QuizData['difficulty'],
 ): QuizData | undefined {
   const topic = getTopic(topicId)
-  if (!topic) return undefined
+  if (!topic?.quizIds) return undefined
   const quizId = topic.quizIds[difficulty]
   return getQuiz(quizId)
 }
@@ -100,21 +100,44 @@ export function getNotesForTopic(topic: TopicMeta): string {
   return notesMap[topic.notesFile] ?? '# Notes not found\n\nContent coming soon.'
 }
 
-export function getChapterMasteryPercent(chapterId: string, topicLevels: Record<string, number>): number {
+export function areChapterNotesComplete(
+  chapterId: string,
+  topicNotesRead: Record<string, boolean>,
+): boolean {
+  const chapterTopics = getTopicsForChapter(chapterId)
+  if (chapterTopics.length === 0) return false
+  return chapterTopics.every((t) => topicNotesRead[t.id])
+}
+
+export function getWeakTopicsInChapter(
+  chapterId: string,
+  topicNotesRead: Record<string, boolean>,
+): TopicMeta[] {
+  return getTopicsForChapter(chapterId).filter((t) => !topicNotesRead[t.id])
+}
+
+export function getChapterMasteryPercent(
+  chapterId: string,
+  topicNotesRead: Record<string, boolean>,
+  chapterQuizLevel: number,
+): number {
   const chapterTopics = getTopicsForChapter(chapterId)
   if (chapterTopics.length === 0) return 0
-  const sum = chapterTopics.reduce((acc, t) => acc + (topicLevels[t.id] ?? 0), 0)
-  return Math.round((sum / (chapterTopics.length * 4)) * 100)
+  const notesPct =
+    chapterTopics.filter((t) => topicNotesRead[t.id]).length / chapterTopics.length
+  const quizPct = chapterQuizLevel / 4
+  return Math.round((notesPct * 0.5 + quizPct * 0.5) * 100)
 }
 
 export function getChapterStatus(
   chapterId: string,
-  topicLevels: Record<string, number>,
+  topicNotesRead: Record<string, boolean>,
+  chapterQuizLevel: number,
 ): 'available' | 'in_progress' | 'mastered' {
-  const chapterTopics = getTopicsForChapter(chapterId)
-  if (chapterTopics.length === 0) return 'available'
-  const levels = chapterTopics.map((t) => topicLevels[t.id] ?? 0)
-  if (levels.every((l) => l >= 4)) return 'mastered'
-  if (levels.some((l) => l > 0)) return 'in_progress'
+  if (chapterQuizLevel >= 4) return 'mastered'
+  const hasProgress =
+    chapterQuizLevel > 0 ||
+    getTopicsForChapter(chapterId).some((t) => topicNotesRead[t.id])
+  if (hasProgress) return 'in_progress'
   return 'available'
 }

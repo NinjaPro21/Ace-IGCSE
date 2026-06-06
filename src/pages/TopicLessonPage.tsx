@@ -1,18 +1,19 @@
-import { useEffect } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import { EnlightCard, EnlightFormulaBox, EnlightProTip, EnlightSectionLabel } from '@/components/EnlightCard'
+import { useEffect, useState } from 'react'
+import { Link, useNavigate, useParams } from 'react-router-dom'
+import { EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightHeader } from '@/components/EnlightHeader'
+import { ChapterQuizPopout } from '@/components/ChapterQuizPopout'
 import { LessonTopBar } from '@/components/LessonTopBar'
 import { MarkdownLesson } from '@/components/MarkdownLesson'
 import { MasteryPath } from '@/components/MasteryPath'
-import { DiscriminantExplorer } from '@/features/explorers/DiscriminantExplorer'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import {
   getChapter,
   getNotesForTopic,
   getSubject,
   getTopic,
+  getTopicsForChapter,
 } from '@/lib/contentLoader'
 
 export function TopicLessonPage() {
@@ -21,18 +22,38 @@ export function TopicLessonPage() {
     chapterId = '',
     topicId = '',
   } = useParams()
-  const { markNotesRead } = useMastery()
+  const navigate = useNavigate()
+  const {
+    markNotesRead,
+    areChapterNotesComplete,
+    shouldShowChapterPopout,
+    markChapterPopoutSeen,
+    canTakeChapterQuiz,
+  } = useMastery()
+
+  const [showPopout, setShowPopout] = useState(false)
 
   const topic = getTopic(topicId)
   const chapter = getChapter(chapterId)
   const subject = getSubject(subjectId)
+  const chapterTopics = chapter ? getTopicsForChapter(chapter.id) : []
+  const topicIndex = chapterTopics.findIndex((t) => t.id === topicId)
+  const prevTopic = topicIndex > 0 ? chapterTopics[topicIndex - 1] : null
+  const nextTopic =
+    topicIndex >= 0 && topicIndex < chapterTopics.length - 1
+      ? chapterTopics[topicIndex + 1]
+      : null
 
   useEffect(() => {
-    if (topicId) {
-      const t = setTimeout(() => markNotesRead(topicId), 1500)
-      return () => clearTimeout(t)
-    }
-  }, [topicId, markNotesRead])
+    if (!topicId || !chapterId) return
+    const t = setTimeout(() => {
+      const chapterJustCompleted = markNotesRead(topicId, chapterId)
+      if (chapterJustCompleted || shouldShowChapterPopout(chapterId)) {
+        setShowPopout(true)
+      }
+    }, 1500)
+    return () => clearTimeout(t)
+  }, [topicId, chapterId, markNotesRead, shouldShowChapterPopout])
 
   if (!topic || !chapter || !subject) {
     return (
@@ -47,7 +68,14 @@ export function TopicLessonPage() {
   }
 
   const notes = getNotesForTopic(topic)
-  const isDiscriminant = topic.explorerId === 'discriminant'
+  const notesComplete = areChapterNotesComplete(chapterId)
+  const isAnchor = topic.isChapterQuizAnchor && chapter.hasChapterQuiz
+  const canStartQuiz = canTakeChapterQuiz(chapterId, 'easy')
+
+  const dismissPopout = () => {
+    setShowPopout(false)
+    markChapterPopoutSeen(chapterId)
+  }
 
   return (
     <div className="enlight-app">
@@ -55,68 +83,72 @@ export function TopicLessonPage() {
       <div className="enlight-container enlight-page-padding">
         <LessonTopBar topic={topic} chapterTitle={`${subject.name} · ${chapter.title}`} />
 
-        <EnlightSectionLabel>Quadratics 101 · {subject.code}</EnlightSectionLabel>
+        <EnlightSectionLabel>
+          Chapter {chapter.number} · {subject.code}
+        </EnlightSectionLabel>
         <h1 className="enlight-heading-serif">{topic.title}</h1>
         <p className="enlight-body-text">{topic.subtitle}</p>
 
-        {isDiscriminant ? (
+        <EnlightCard accent="gold">
+          <MarkdownLesson content={notes} />
+        </EnlightCard>
+
+        <div className="enlight-topic-nav">
+          {prevTopic ? (
+            <EnlightButton
+              to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${prevTopic.id}`}
+              variant="outline"
+            >
+              ← {prevTopic.title}
+            </EnlightButton>
+          ) : (
+            <span />
+          )}
+          {nextTopic ? (
+            <EnlightButton
+              to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${nextTopic.id}`}
+            >
+              {nextTopic.title} →
+            </EnlightButton>
+          ) : isAnchor && canStartQuiz ? (
+            <EnlightButton onClick={() => setShowPopout(true)}>Test chapter →</EnlightButton>
+          ) : (
+            <span />
+          )}
+        </div>
+
+        {isAnchor && (
           <>
-            <div className="enlight-two-col" style={{ marginTop: 32 }}>
-              <EnlightCard accent="gold">
-                <p className="enlight-card-label">What is the Discriminant?</p>
-                <MarkdownLesson content={notes} />
-                <EnlightFormulaBox>Δ = b² − 4ac</EnlightFormulaBox>
-                <EnlightProTip title="'Real roots' vs 'distinct roots'">
-                  In exam language, &quot;real roots&quot; can mean any real solutions. &quot;Distinct&quot;
-                  means two different values — check whether the question specifies equal roots.
-                </EnlightProTip>
-              </EnlightCard>
-              <EnlightCard accent="gold">
-                <p className="enlight-card-label">Nature of roots</p>
-                <ul className="enlight-nature-list">
-                  <li className="enlight-nature-list__item">
-                    <span className="enlight-nature-list__symbol enlight-nature-list__symbol--gt">&gt;</span>
-                    <div>
-                      <strong>Δ &gt; 0</strong> — Two real distinct roots. Parabola crosses the x-axis
-                      twice.
-                    </div>
-                  </li>
-                  <li className="enlight-nature-list__item">
-                    <span className="enlight-nature-list__symbol enlight-nature-list__symbol--eq">=</span>
-                    <div>
-                      <strong>Δ = 0</strong> — Equal roots. Vertex touches the x-axis.
-                    </div>
-                  </li>
-                  <li className="enlight-nature-list__item">
-                    <span className="enlight-nature-list__symbol enlight-nature-list__symbol--lt">&lt;</span>
-                    <div>
-                      <strong>Δ &lt; 0</strong> — No real roots. Parabola does not cross the x-axis.
-                    </div>
-                  </li>
-                </ul>
-              </EnlightCard>
-            </div>
-            <DiscriminantExplorer />
+            <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
+              Chapter mastery
+            </h2>
+            <p className="enlight-body-text">
+              {notesComplete
+                ? 'All topics studied — work through each quiz tier. Aim for 70%+ to advance.'
+                : 'Read every topic in this chapter to unlock the chapter quiz.'}
+            </p>
+            <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
           </>
-        ) : (
-          <EnlightCard accent="gold">
-            <MarkdownLesson content={notes} />
-          </EnlightCard>
         )}
 
-        <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
-          Mastery path
-        </h2>
-        <p className="enlight-body-text">Complete each level to unlock the next. Aim for 70%+ on quizzes.</p>
-        <MasteryPath topicId={topicId} />
-
         <div style={{ marginTop: 32, display: 'flex', gap: 12 }}>
-          <EnlightButton to={`/quiz/${topicId}/easy`}>Start Easy quiz</EnlightButton>
           <EnlightButton to={`/subjects/${subjectId}`} variant="outline">
             All chapters
           </EnlightButton>
         </div>
       </div>
+
+      {showPopout && chapter.hasChapterQuiz && notesComplete && (
+        <ChapterQuizPopout
+          chapter={chapter}
+          onDismiss={dismissPopout}
+          onReviewTopics={() => {
+            dismissPopout()
+            navigate(`/subjects/${subjectId}`)
+          }}
+        />
+      )}
+
       <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
     </div>
   )

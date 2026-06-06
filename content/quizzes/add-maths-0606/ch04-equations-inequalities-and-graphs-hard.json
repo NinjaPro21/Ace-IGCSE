@@ -1,0 +1,49 @@
+{
+  "id": "ch04-equations-inequalities-and-graphs-hard",
+  "topicId": "ch04-equations-inequalities-and-graphs",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "hard",
+  "title": "Chapter 4: Equations, Inequalities and Graphs — Hard",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q1",
+      "type": "mcq",
+      "question": "Solve the inequality $|2x - 5| < |x + 1|$ by squaring both sides or evaluating critical regions.",
+      "options": [
+        "$\\frac{4}{3} < x < 6$",
+        "$x < \\frac{4}{3}$ or $x > 6$",
+        "$-6 < x < -\\frac{4}{3}$",
+        "$\\frac{3}{4} < x < 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Square both sides: $(2x - 5)^2 < (x + 1)^2 \\implies 4x^2 - 20x + 25 < x^2 + 2x + 1$. Rearranging gives $3x^2 - 22x + 24 < 0$. Factoring the quadratic yields $(3x - 4)(x - 6) < 0$. The critical values are $x = \\frac{4}{3}$ and $x = 6$. Since it is less than zero, the valid range is $\\frac{4}{3} < x < 6$.\n\n**Common mistake:** Students frequently make expansion errors with the perfect squares (e.g., writing $(2x-5)^2 = 4x^2 + 25$) or fail to identify that a 'less than' inequality of a positive quadratic forms a single bounded inner interval."
+    },
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q2",
+      "type": "mcq",
+      "question": "Determine the complete set of solutions for the equation $|2x - 4| = x - 2$.",
+      "options": [
+        "$x = 2$",
+        "$x = 2$ or $x = 0$",
+        "$x = 2$ or $x = -2$",
+        "No real solutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $2x - 4 = x - 2 \\implies x = 2$. Case 2: $2x - 4 = -(x - 2) \\implies 2x - 4 = -x + 2 \\implies 3x = 6 \\implies x = 2$. Both cases yield the exact same single root. Checking $x = 2$ in the original equation gives $|0| = 0$, which is valid.\n\n**Common mistake:** Students systematically assume that every linear modulus equation must yield two distinct values, leading them to incorrectly solve the negative path as $2x - 4 = -x - 2$ to get $x = 0$ or make a sign error producing $x = -2$."
+    },
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q3",
+      "type": "mcq",
+      "question": "Find the range of values of $x$ satisfying the inequality $|x^2 - 5| \\le 4$.",
+      "options": [
+        "$-3 \\le x \\le -1$ or $1 \\le x \\le 3$",
+        "$-3 \\le x \\le 3$",
+        "$1 \\le x \\le 3$",
+        "$x \\le 1$ or $x \\ge 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This expands to $-4 \\le x^2 - 5 \\le 4$. Adding $5$ to all components yields $1 \\le x^2 \\le 9$. Taking the square root creates two distinct valid domains: $1 \\le x \\le 3$ for positive values, and $-3 \\le x \\le -1$ for negative values.\n\n**Common mistake:** Students often forget that squaring or square-rooting inequalities involving negative values requires split intervals, leading them to mistakenly choose the continuous interval $-3 \\le x \\le 3$."
+    }
+  ]
+}

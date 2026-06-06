@@ -1,0 +1,75 @@
+{
+  "id": "ch14-calculus-differentiation-2-medium",
+  "topicId": "ch14-calculus-differentiation-2",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "medium",
+  "title": "Chapter 14: Calculus – Differentiation 2 — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch14-calculus-differentiation-2-q1",
+      "type": "mcq",
+      "question": "Use the product rule to differentiate $y = x^3 \\ln(x)$ with respect to $x$.",
+      "options": [
+        " $x^2(3\\ln(x) + 1)$ ",
+        " $3x^2 \\ln(x)$ ",
+        " $3x$ ",
+        " $x^2(3\\ln(x) - 1)$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "By the product rule, $\\frac{dy}{dx} = u \\frac{dv}{dx} + v \\frac{du}{dx}$. Let $u = x^3$ and $v = \\ln(x)$, then $\\frac{dy}{dx} = x^3(\\frac{1}{x}) + \\ln(x)(3x^2) = x^2 + 3x^2 \\ln(x) = x^2(3\\ln(x) + 1)$.\n\n**Common mistake:** Students often differentiate each part independently and multiply them together, yielding $\\frac{3x^2}{x} = 3x$, which results in option C."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q2",
+      "type": "mcq",
+      "question": "Find the derivative of $y = \\frac{e^{2x}}{x + 3}$ with respect to $x$.",
+      "options": [
+        " $\\frac{e^{2x}(2x + 5)}{(x + 3)^2}$ ",
+        " $\\frac{2e^{2x} - e^{2x}}{(x + 3)^2}$ ",
+        " $\\frac{e^{2x}(2x + 7)}{(x + 3)^2}$ ",
+        " $\\frac{2e^{2x}}{1}$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the quotient rule $\\frac{v u' - u v'}{v^2}$. Let $u = e^{2x}$ and $v = x + 3$. Thus, $\\frac{dy}{dx} = \\frac{(x+3)(2e^{2x}) - (e^{2x})(1)}{(x+3)^2} = \\frac{e^{2x}(2x + 6 - 1)}{(x+3)^2} = \\frac{e^{2x}(2x + 5)}{(x+3)^2}$.\n\n**Common mistake:** Students commonly make arithmetic errors when expanding the numerator, incorrectly getting $2x+6+1=2x+7$ (option C) or dropping the variable component entirely."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q3",
+      "type": "mcq",
+      "question": "Find the gradient of the curve $y = x\\cos(2x)$ at the point where $x = \\pi$.",
+      "options": [
+        " $1$ ",
+        " $0$ ",
+        " $-1$ ",
+        " $\\pi$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the product rule, $\\frac{dy}{dx} = \\cos(2x) - 2x\\sin(2x)$. Substituting $x = \\pi$ yields $\\cos(2\\pi) - 2\\pi\\sin(2\\pi) = 1 - 2\\pi(0) = 1$.\n\n**Common mistake:** Students may make mistakes when computing trigonometric values for multiples of $\\pi$ or drop the second term entirely during differentiation, mistakenly leading to other options."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q4",
+      "type": "mcq",
+      "question": "Given that $y = \\frac{\\sin(x)}{x^2}$, find $\\frac{dy}{dx}$.",
+      "options": [
+        " $\\frac{x\\cos(x) - 2\\sin(x)}{x^3}$ ",
+        " $\\frac{2\\sin(x) - x\\cos(x)}{x^3}$ ",
+        " $\\frac{\\cos(x)}{2x}$ ",
+        " $\\frac{x^2\\cos(x) - 2x\\sin(x)}{x^2}$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Applying the quotient rule $\\frac{v u' - u v'}{v^2}$ gives $\\frac{x^2\\cos(x) - \\sin(x)(2x)}{(x^2)^2} = \\frac{x(x\\cos(x) - 2\\sin(x))}{x^4} = \\frac{x\\cos(x) - 2\\sin(x)}{x^3}$.\n\n**Common mistake:** Students frequently reverse the order of terms in the numerator of the quotient rule, resulting in option B, or differentiate the numerator and denominator separately, leading to option C."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q5",
+      "type": "mcq",
+      "question": "A curve has the equation $y = e^{-3x}(x^2 + 1)$. Find the value of $\\frac{dy}{dx}$ at $x = 0$.",
+      "options": [
+        " $-3$ ",
+        " $2$ ",
+        " $0$ ",
+        " $-1$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the product rule, $\\frac{dy}{dx} = -3e^{-3x}(x^2 + 1) + e^{-3x}(2x)$. Substituting $x = 0$ gives $-3e^{0}(0 + 1) + e^{0}(0) = -3(1) + 0 = -3$.\n\n**Common mistake:** Students often evaluate $e^0$ as $0$ instead of $1$, which would cause them to incorrectly evaluate the whole expression as $0$ (option C)."
+    }
+  ]
+}

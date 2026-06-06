@@ -1,0 +1,75 @@
+{
+  "id": "ch05-logarithms-easy",
+  "topicId": "ch05-logarithms",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "easy",
+  "title": "Chapter 5: Logarithms — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch05-logarithms-q1",
+      "type": "mcq",
+      "question": "Given that $\\log_3(x) = 4$ , what is the value of $x$ ?",
+      "options": [
+        " $x = 81$ ",
+        " $x = 12$ ",
+        " $x = 64$ ",
+        " $x = 7$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert the logarithmic equation to its equivalent exponential form, which gives $x = 3^4$ . Calculating $3 \\times 3 \\times 3 \\times 3$ yields $81$ .\n\n**Common mistake:** Students often multiply the base by the argument exponent instead of performing exponentiation, leading them to select $3 \\times 4 = 12$ ."
+    },
+    {
+      "id": "ch05-logarithms-q2",
+      "type": "mcq",
+      "question": "Which of the following expressions is completely equivalent to $\\log_a\\left(\\frac{x^3}{y}\\right)$ ?",
+      "options": [
+        " $3\\log_a(x) - \\log_a(y)$ ",
+        " $3\\log_a(x) + \\log_a(y)$ ",
+        " $\\frac{3\\log_a(x)}{\\log_a(y)}$ ",
+        " $(\\log_a(x))^3 - \\log_a(y)$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the quotient rule to split the fraction into $\\log_a(x^3) - \\log_a(y)$ , then apply the power rule to bring down the exponent, resulting in $3\\log_a(x) - \\log_a(y)$ .\n\n**Common mistake:** Students regularly confuse division rules inside logarithms with division outside, choosing option C, or they forget that the quotient rule requires subtraction instead of addition."
+    },
+    {
+      "id": "ch05-logarithms-q3",
+      "type": "mcq",
+      "question": "Express $\\log_5(x)$ in terms of base 2.",
+      "options": [
+        " $\\frac{\\log_2(x)}{\\log_2(5)}$ ",
+        " $\\frac{\\log_2(5)}{\\log_2(x)}$ ",
+        " $\\log_2(x) - \\log_2(5)$ ",
+        " $\\log_2(x) \\cdot \\log_2(5)$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the change-of-base rule, $\\log_b(a) = \\frac{\\log_c(a)}{\\log_c(b)}$ . Setting $b=5, a=x,$ and $c=2$ directly yields $\\frac{\\log_2(x)}{\\log_2(5)}$ .\n\n**Common mistake:** Students often invert the numerator and the denominator, or mistake the base transformation for a subtraction operation mimicking the quotient law."
+    },
+    {
+      "id": "ch05-logarithms-q4",
+      "type": "mcq",
+      "question": "Solve the equation $5^{2x - 1} = 125$ .",
+      "options": [
+        " $x = 2$ ",
+        " $x = 1.5$ ",
+        " $x = 3$ ",
+        " $x = 4$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Express $125$ as a base of $5$ , which is $5^3$ . Equating the powers gives $2x - 1 = 3 \\implies 2x = 4 \\implies x = 2$ .\n\n**Common mistake:** Students sometimes treat $125$ as $5 \\times 25$ or incorrectly think $125 = 5^4$ , which leads to errors in balancing the linear exponent equation."
+    },
+    {
+      "id": "ch05-logarithms-q5",
+      "type": "mcq",
+      "question": "Solve the linear logarithmic equation $\\log_2(x + 5) = 3$ .",
+      "options": [
+        " $x = 3$ ",
+        " $x = 1$ ",
+        " $x = 4$ ",
+        " $x = -2$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert the equation to exponential form: $x + 5 = 2^3 \\implies x + 5 = 8$ . Subtracting $5$ from both sides gives $x = 3$ .\n\n**Common mistake:** Students commonly compute $2^3$ as $6$ instead of $8$ , which results in solving $x + 5 = 6 \\implies x = 1$ ."
+    }
+  ]
+}

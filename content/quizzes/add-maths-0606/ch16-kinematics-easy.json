@@ -1,0 +1,75 @@
+{
+  "id": "ch16-kinematics-easy",
+  "topicId": "ch16-kinematics",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "easy",
+  "title": "Chapter 16: Kinematics — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch16-kinematics-q1",
+      "type": "mcq",
+      "question": "A particle moves along a straight line such that its displacement, $s$ metres, from a fixed point $O$ at time $t$ seconds is given by $s = 2t^3 - 9t^2 + 12t$. Find the velocity of the particle when $t = 3$ .",
+      "options": [
+        "12 m s⁻¹",
+        "9 m s⁻¹",
+        "27 m s⁻¹",
+        "0 m s⁻¹"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiating the displacement expression gives velocity, $v = \\frac{\\mathrm{d}s}{\\mathrm{d}t} = 6t^2 - 18t + 12$. Substituting $t = 3$ yields $v = 6(3)^2 - 18(3) + 12 = 54 - 54 + 12 = 12$ m s⁻¹.\n\n**Common mistake:** Option B is obtained if a student makes a basic subtraction error during substitution, while Option C arises if they directly substitute $t = 3$ into the original displacement formula $s(3) = 2(27) - 9(9) + 12(3) = 9$ and mistake displacement for velocity."
+    },
+    {
+      "id": "ch16-kinematics-q2",
+      "type": "mcq",
+      "question": "The velocity, $v$ m s⁻¹, of a particle moving in a straight line is given by $v = 12t - 3t^2$, where $t$ is the time in seconds after passing a fixed point. Find the acceleration of the particle at the instant $t = 4$ .",
+      "options": [
+        "-12 m s⁻²",
+        "12 m s⁻²",
+        "0 m s⁻²",
+        "-4 m s⁻²"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is found by differentiating velocity with respect to time: $a = \\frac{\\mathrm{d}v}{\\mathrm{d}t} = 12 - 6t$. Substituting $t = 4$ gives $a = 12 - 6(4) = -12$ m s⁻².\n\n**Common mistake:** Option B happens if the student reverses the order of subtraction or drops the negative sign during computation, while Option C occurs if the student solves for when velocity is zero instead of substituting $t = 4$ into the acceleration equation."
+    },
+    {
+      "id": "ch16-kinematics-q3",
+      "type": "mcq",
+      "question": "A particle moves in a straight line with an acceleration of $a = 6t - 4$ m s⁻². Given that the initial velocity of the particle is 5 m s⁻¹, find an expression for its velocity, $v$ m s⁻¹, at time $t$ seconds.",
+      "options": [
+        "$v = 3t^2 - 4t + 5$",
+        "$v = 3t^2 - 4t$",
+        "$v = 6t^2 - 4t + 5$",
+        "$v = 3t^2 - 4t - 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating acceleration gives $v = \\int (6t - 4) \\\\,\\mathrm{d}t = 3t^2 - 4t + c$. Using the initial condition $v = 5$ when $t = 0$, we find $c = 5$, giving $v = 3t^2 - 4t + 5$.\n\n**Common mistake:** Option B occurs if the integration constant $c$ is omitted entirely. Option C occurs if the student forgets to divide by the new power when integrating the first term."
+    },
+    {
+      "id": "ch16-kinematics-q4",
+      "type": "mcq",
+      "question": "The velocity of a object moving along a straight track is modeled by $v = 4e^{2t}$ m s⁻¹. Find the exact distance traveled by the object between $t = 0$ and $t = 1$ seconds.",
+      "options": [
+        "$2e^2 - 2$ m",
+        "$2e^2$ m",
+        "$8e^2 - 8$ m",
+        "$4e^2 - 4$ m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is the definite integral of velocity: $\\int_{0}^{1} 4e^{2t} \\\\,\\mathrm{d}t = [2e^{2t}]_{0}^{1} = 2e^2 - 2e^0 = 2e^2 - 2$ metres.\n\n**Common mistake:** Option B occurs if the student forgets to evaluate the lower limit of integration, erroneously assuming that evaluating at $t = 0$ yields 0. Option C happens if they multiply by the power coefficient instead of dividing during integration."
+    },
+    {
+      "id": "ch16-kinematics-q5",
+      "type": "mcq",
+      "question": "A particle moves in a straight line so that its velocity $v$ m s⁻¹ at time $t$ seconds is given by $v = 15 - 3t$. State the time at which the particle is instantaneously at rest.",
+      "options": [
+        "5 seconds",
+        "3 seconds",
+        "15 seconds",
+        "0 seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "A particle is instantaneously at rest when its velocity is zero. Setting $v = 0$ gives $15 - 3t = 0$, which simplifies directly to $t = 5$ seconds.\n\n**Common mistake:** Option B is a confusion with the coefficient of $t$, while Option C is a confusion with the constant initial velocity value."
+    }
+  ]
+}

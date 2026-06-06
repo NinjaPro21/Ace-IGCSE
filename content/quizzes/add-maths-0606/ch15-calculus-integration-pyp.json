@@ -1,0 +1,62 @@
+{
+  "id": "ch15-calculus-integration-pyp",
+  "topicId": "ch15-calculus-integration",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "pyp",
+  "title": "Chapter 15: Calculus – Integration — Pyp",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch15-calculus-integration-q1",
+      "type": "mcq",
+      "question": "The diagram shows part of the curve $y = e^{3x}$. Find the set of values of $k$ for which the area under the curve from $x=0$ to $x=k$ is greater than 10.",
+      "options": [
+        " $k > \\frac{1}{3}\\ln 31$ ",
+        " $k > \\ln 31$ ",
+        " $k > \\frac{1}{3}\\ln 30$ ",
+        " $k > \\frac{1}{3}\\ln 11$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Area is $\\int_{0}^{k} e^{3x} \\\\, \\mathrm{d}x = \\left[ \\frac{1}{3}e^{3x} \\right]_{0}^{k} = \\frac{1}{3}e^{3k} - \\frac{1}{3}$. Set inequality: \\frac{1}{3}e^{3k} - \\frac{1}{3} > 10 \\implies e^{3k} - 1 > 30 \\implies e^{3k} > 31 \\implies 3k > \\ln 31 \\implies k > \\frac{1}{3}\\ln 31$.\n\n**Common mistake:** Option C is chosen when a student fails to subtract the lower limit evaluation term $-\\frac{1}{3}$ when computing the definite integral boundary."
+    },
+    {
+      "id": "ch15-calculus-integration-q2",
+      "type": "mcq",
+      "question": "Show that the curve $y = 4x - x^2$ and the line $y = x$ intersect at the origin and at the point $(3, 3)$. Hence, find the coordinates of the centroid or simply the area of the enclosed region.",
+      "options": [
+        " $\\frac{9}{2}$ ",
+        " $\\frac{9}{4}$ ",
+        " 9 ",
+        " $\\frac{27}{2}$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Equating expressions: $4x - x^2 = x \\implies x^2 - 3x = 0 \\implies x=0, 3$. The area is $\\int_{0}^{3} ((4x - x^2) - x) \\\\, \\mathrm{d}x = \\int_{0}^{3} (3x - x^2) \\\\, \\mathrm{d}x = \\left[ \\frac{3x^2}{2} - \\frac{x^3}{3} \\right]_{0}^{3} = \\frac{27}{2} - 9 = \\frac{9}{2}$.\n\n**Common mistake:** Option C occurs if a student skips integration steps entirely and multiplies the two intersection coordinate limits together directly."
+    },
+    {
+      "id": "ch15-calculus-integration-q3",
+      "type": "mcq",
+      "question": "Find the exact value of $\\int_{2}^{6} \\frac{5}{3x - 2} \\\\, \\mathrm{d}x$, giving your answer in the form $A \\ln B$.",
+      "options": [
+        " $\\frac{5}{3}\\ln 4$ ",
+        " $5\\ln 4$ ",
+        " $\\frac{5}{3}\\ln 16$ ",
+        " $\\frac{5}{3}\\ln 2$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral is $\\left[ \\frac{5}{3}\\ln|3x-2| \\right]_{2}^{6} = \\frac{5}{3}(\\ln 16 - \\ln 4) = \\frac{5}{3}\\ln\\left(\\frac{16}{4}\\right) = \\frac{5}{3}\\ln 4$.\n\n**Common mistake:** Option B occurs if the student fails to divide by the derivative coefficient 3 of the linear function block within the denominator."
+    },
+    {
+      "id": "ch15-calculus-integration-q4",
+      "type": "mcq",
+      "question": "Find the set of values of $a$ in the interval $0 < a < \\frac{\\pi}{2}$ for which $\\int_{0}^{a} \\sin x \\\\, \\mathrm{d}x = \\frac{1}{2}$.",
+      "options": [
+        " $\\frac{\\pi}{3}$ ",
+        " $\\frac{\\pi}{6}$ ",
+        " $\\frac{\\pi}{4}$ ",
+        " $\\frac{\\pi}{2}$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral evaluates to $[-\\cos x]_{0}^{a} = -\\cos a - (-\\cos 0) = 1 - \\cos a$. Setting this equal to $\\frac{1}{2}$ gives $1 - \\cos a = \\frac{1}{2} \\implies \\cos a = \\frac{1}{2} \\implies a = \\frac{\\pi}{3}$.\n\n**Common mistake:** Option B is picked if a student incorrectly thinks $\\sin a = \\frac{1}{2}$ instead of dealing with the integrated cosine function form."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ch12-calculus-differentiation-1-hard",
+  "topicId": "ch12-calculus-differentiation-1",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "hard",
+  "title": "Chapter 12: Calculus – Differentiation 1 — Hard",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch12-calculus-differentiation-1-q1",
+      "type": "mcq",
+      "question": "Find the range of values of $x$ for which the function $f(x) = 2x^3 - 9x^2 - 24x + 7$ is a strictly decreasing function.",
+      "options": [
+        "$-1 < x < 4$",
+        "$x < -1$ or $x > 4$",
+        "$-4 < x < 1$",
+        "$x > 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a function to be decreasing, $f'(x) < 0$. Differentiating gives $f'(x) = 6x^2 - 18x - 24 < 0$. Dividing by 6 yields $x^2 - 3x - 4 < 0$. Factoring gives $(x - 4)(x + 1) < 0$, which yields the interval $-1 < x < 4$.\n\n**Common mistake:** Students frequently reverse the inequality direction for quadratic inequalities, identifying the outside regions instead of the inside interval, leading to Option B."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q2",
+      "type": "mcq",
+      "question": "A curve has the equation $y = \\frac{x^2 - 2}{2x - 3}$. Find the coordinates of the stationary points on this curve.",
+      "options": [
+        "$(1, 1)$ and $(2, 2)$",
+        "$(1, 1)$ and $(2, -2)$",
+        "$(0, \\frac{2}{3})$ and $(3, \\frac{7}{3})$",
+        "$(-1, 1)$ and $(-2, 2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the quotient rule: $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{2x(2x - 3) - 2(x^2 - 2)}{(2x - 3)^2} = \\frac{4x^2 - 6x - 2x^2 + 4}{(2x - 3)^2} = \\frac{2x^2 - 6x + 4}{(2x - 3)^2}$. Set the numerator to 0: $2(x^2 - 3x + 2) = 0 \\implies 2(x - 1)(x - 2) = 0$, so $x = 1$ or $x = 2$. Substituting back into the original curve equation yields the points $(1, 1)$ and $(2, 2)$.\n\n**Common mistake:** Students often make a distribution sign error in the numerator, writing $-2(x^2 - 2)$ as $-2x^2 - 4$, changing the quadratic equation to $2x^2 - 6x - 4 = 0$, which yields non-integer roots."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q3",
+      "type": "mcq",
+      "question": "A rectangular enclosure is constructed against a long straight stone wall, which acts as one side of the enclosure. The other three sides are formed by a wire fence of total length $160\\text{ m}$. Find the maximum possible area of the enclosure.",
+      "options": [
+        "$3200\\text{ m}^2$",
+        "$1600\\text{ m}^2$",
+        "$6400\\text{ m}^2$",
+        "$800\\text{ m}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let the two sides perpendicular to the wall have length $x$, and the parallel side have length $160 - 2x$. The area is $A = x(160 - 2x) = 160x - 2x^2$. Differentiating gives $\\frac{\\mathrm{d}A}{\\mathrm{d}x} = 160 - 4x$. Setting to 0 gives $x = 40\\text{ m}$. The maximum area is $A = 40(160 - 80) = 3200\\text{ m}^2$.\n\n**Common mistake:** Students often assume all four sides need fencing, setting up $2x + 2y = 160$, which leads to a maximum area of $1600\\text{ m}^2$ as shown in Option B."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q4",
+      "type": "mcq",
+      "question": "Determine the nature of the stationary points of the curve $y = x^3 - 6x^2 + 9x - 2$.",
+      "options": [
+        "Maximum at $(1, 2)$ and Minimum at $(3, -2)$",
+        "Minimum at $(1, 2)$ and Maximum at $(3, -2)$",
+        "Maximum at $(1, 2)$ and Point of Inflexion at $(3, -2)$",
+        "Minimum at $(1, 2)$ and Point of Inflexion at $(3, -2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 3x^2 - 12x + 9 = 3(x - 1)(x - 3) = 0$, so stationary points are at $x = 1, 3$. The second derivative is $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = 6x - 12$. At $x = 1$, $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = -6 < 0$ (Maximum). At $x = 3$, $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = 6 > 0$ (Minimum). Coordinates are $(1, 2)$ and $(3, -2)$.\n\n**Common mistake:** Students occasionally think that a positive second derivative value means a maximum point and vice versa, which reverses the natures entirely to look like Option B."
+    },
+    {
+      "id": "ch12-calculus-differentiation-1-q5",
+      "type": "mcq",
+      "question": "The variables $x$ and $y$ are connected by the equation $y = 3x + \\frac{12}{x}$. Given that $x$ increases at a constant rate of $0.5\\text{ units s}^{-1}$, find the rate of change of $y$ with respect to time when $y = 13$ and $x > 2$.",
+      "options": [
+        "$1.125\\text{ units s}^{-1}$",
+        "$2.25\\text{ units s}^{-1}$",
+        "$-1.125\\text{ units s}^{-1}$",
+        "$0.5\\text{ units s}^{-1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find $x$ when $y = 13$: $13 = 3x + \\frac{12}{x} \\implies 3x^2 - 13x + 12 = 0 \\implies (3x - 4)(x - 3) = 0$. Since $x > 2$, $x = 3$. Differentiating gives $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 3 - \\frac{12}{x^2}$. At $x = 3$, $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 3 - \\frac{12}{9} = \\frac{15}{9} = 2.25$. Then $\\frac{\\mathrm{d}y}{\\mathrm{d}t} = \\frac{\\mathrm{d}y}{\\mathrm{d}x} \\times \\frac{\\mathrm{d}r}{\\mathrm{d}t} = 2.25 \\times 0.5 = 1.125\\text{ units s}^{-1}$.\n\n**Common mistake:** Students can find the correct derivative value ($2.25$) but forget to multiply by $\\frac{\\mathrm{d}x}{\\mathrm{d}t} = 0.5$, mistakenly providing the spatial rate of change instead of the time rate of change, leading to Option B."
+    }
+  ]
+}

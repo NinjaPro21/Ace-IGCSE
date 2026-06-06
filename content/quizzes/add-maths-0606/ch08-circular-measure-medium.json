@@ -1,0 +1,75 @@
+{
+  "id": "ch08-circular-measure-medium",
+  "topicId": "ch08-circular-measure",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "medium",
+  "title": "Chapter 8: Circular Measure — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch08-circular-measure-q1",
+      "type": "mcq",
+      "question": "A sector of a circle has a radius of $r\\text{ cm}$ and a central angle of $\\theta\\text{ radians}$. Given that the perimeter of the sector is $36\\text{ cm}$ and its arc length is $16\\text{ cm}$, find the value of $r$.",
+      "options": [
+        "10",
+        "20",
+        "8",
+        "1.6"
+      ],
+      "correctIndex": 0,
+      "explanation": "The perimeter of a sector is given by $P = 2r + s$. Substituting the given values: $36 = 2r + 16 \\implies 2r = 20 \\implies r = 10\\text{ cm}$.\n\n**Common mistake:** Students often misremember the perimeter of a sector as just $r + s$, omitting one of the bounding radii, which leads to $36 = r + 16 \\implies r = 20$ (Option B)."
+    },
+    {
+      "id": "ch08-circular-measure-q2",
+      "type": "mcq",
+      "question": "A sector of a circle has a perimeter of $24\\text{ cm}$ and a radius of $5\\text{ cm}$. Calculate the area of this sector.",
+      "options": [
+        "35\\text{ cm}^2",
+        "70\\text{ cm}^2",
+        "47.5\\text{ cm}^2",
+        "17.5\\text{ cm}^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find the arc length $s$ from the perimeter: $P = 2r + s \\implies 24 = 2(5) + s \\implies s = 14\\text{ cm}$. Then calculate the area using $A = \\frac{1}{2}rs = \\frac{1}{2} \\times 5 \\times 14 = 35\\text{ cm}^2$.\n\n**Common mistake:** Students might omit the $\\frac{1}{2}$ in the area formula $A = rs$, leading to $5 \\times 14 = 70$ (Option B), or they use an incorrect arc length by subtracting only one radius from the perimeter."
+    },
+    {
+      "id": "ch08-circular-measure-q3",
+      "type": "mcq",
+      "question": "The area of a sector of a circle is $30\\text{ cm}^2$. If the central angle is $2.4\\text{ radians}$, calculate the perimeter of the sector.",
+      "options": [
+        "22\\text{ cm}",
+        "12\\text{ cm}",
+        "17\\text{ cm}",
+        "27\\text{ cm}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use $A = \\frac{1}{2}r^2\\theta \\implies 30 = \\frac{1}{2}r^2(2.4) \\implies 30 = 1.2r^2 \\implies r^2 = 25 \\implies r = 5\\text{ cm}$. Then find arc length $s = r\\theta = 5 \\times 2.4 = 12\\text{ cm}$. The perimeter is $2r + s = 2(5) + 12 = 22\\text{ cm}$.\n\n**Common mistake:** Students often calculate the arc length correctly as $12\\text{ cm}$ but forget to add the two radii to get the total perimeter, stopping at Option B."
+    },
+    {
+      "id": "ch08-circular-measure-q4",
+      "type": "mcq",
+      "question": "In a circle of radius $12\\text{ cm}$, a chord $AB$ subtends an angle of $1.2\\text{ radians}$ at the centre. Find the length of the major arc $AB$.",
+      "options": [
+        "12(2\\pi - 1.2)\\text{ cm}",
+        "14.4\\text{ cm}",
+        "12(\\pi - 1.2)\\text{ cm}",
+        "24\\pi - 14.4\\text{ cm}"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total angle around a point is $2\\pi$ radians. The angle subtended by the major arc is $2\\pi - 1.2$. Thus, major arc length $s = r\\theta = 12(2\\pi - 1.2)$.\n\n**Common mistake:** Students often read 'arc' and compute the minor arc length $12 \\times 1.2 = 14.4\\text{ cm}$ (Option B), or use $\\pi$ instead of $2\\pi$ for the full rotation angle (Option C)."
+    },
+    {
+      "id": "ch08-circular-measure-q5",
+      "type": "mcq",
+      "question": "An athlete runs along a circular track of radius $40\\text{ m}$ through an angle of $225^\\circ$. Find the distance covered by the athlete, leaving your answer in terms of $\\pi$.",
+      "options": [
+        "50\\pi\\text{ m}",
+        "25\\pi\\text{ m}",
+        "100\\pi\\text{ m}",
+        "9000\\pi\\text{ m}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert the angle to radians: $225^\\circ = 225 \\times \\frac{\\pi}{180} = \\frac{5\\pi}{4}$ radians. Then distance $s = r\\theta = 40 \\times \\frac{5\\pi}{4} = 50\\pi\\text{ m}$.\n\n**Common mistake:** Students might inadvertently use the sector area formula instead of arc length, computing $\\frac{1}{2} \\times 40^2 \\times \\frac{5\\pi}{4} = 1000\\pi$, or mistake the radian conversion step."
+    }
+  ]
+}

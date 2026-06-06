@@ -1,0 +1,75 @@
+{
+  "id": "ch11-series-easy",
+  "topicId": "ch11-series",
+  "chapterId": "ch11-series",
+  "difficulty": "easy",
+  "title": "Chapter 11: Series — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch11-series-q1",
+      "type": "mcq",
+      "question": "In Pascal's triangle, each entry is the sum of the two entries directly above it. If the row starting with $1, 5, 10, \\dots$ is considered Row 5, what is the fourth term of Row 6?",
+      "options": [
+        "20",
+        "15",
+        "10",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row 5 elements are $1, 5, 10, 10, 5, 1$. Row 6 elements are formed by summing adjacent terms: $1, (1+5)=6, (5+10)=15, (10+10)=20, (10+5)=15, (5+1)=6, 1$, making the fourth term 20.\n\n**Common mistake:** Students may mistakenly choose 15 if they count the third term instead of the fourth term, or if they forget that the sequence is symmetrical and miscalculate the index from the left edge."
+    },
+    {
+      "id": "ch11-series-q2",
+      "type": "mcq",
+      "question": "State the formula for the general term containing $x^r$ in the expansion of $(1 + x)^n$, where $n$ is a positive integer.",
+      "options": [
+        "$\\binom{n}{r} x^r$",
+        "$\\binom{n}{r} x^{n-r}$",
+        "$\\binom{n}{r+1} x^r$",
+        "$\\frac{n!}{r!} x^r$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard binomial expansion states that $(1 + x)^n = \\sum_{r=0}^{n} \\binom{n}{r} x^r$. Thus, the term containing $x^r$ has a coefficient of exactly $\\binom{n}{r}$.\n\n**Common mistake:** Students often select $\\binom{n}{r} x^{n-r}$ by confusing the expansion pattern with $(x + 1)^n$, which flips the position of powers but yields identical coefficients, or they forget the definition of combinations and select the factorial option missing $(n-r)!$."
+    },
+    {
+      "id": "ch11-series-q3",
+      "type": "mcq",
+      "question": "An arithmetic progression has a first term $a = 7$ and a common difference $d = -3$. Find the value of the 11th term.",
+      "options": [
+        "-23",
+        "-26",
+        "-33",
+        "37"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $u_n = a + (n - 1)d$, the 11th term is calculated as $u_{11} = 7 + (11 - 1)(-3) = 7 + 10(-3) = 7 - 30 = -23$.\n\n**Common mistake:** Students commonly calculate $a + nd$ instead of $a + (n-1)d$, resulting in $7 + 11(-3) = -26$, which is an off-by-one index error."
+    },
+    {
+      "id": "ch11-series-q4",
+      "type": "mcq",
+      "question": "The first term of a geometric progression is 4 and the common ratio is 3. Find the 4th term.",
+      "options": [
+        "108",
+        "36",
+        "324",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $u_n = a r^{n-1}$, the 4th term is $u_4 = 4 \\times 3^{4-1} = 4 \\times 3^3 = 4 \\times 27 = 108$.\n\n**Common mistake:** Students frequently compute $u_4 = a r^n$, leading to $4 \\times 3^4 = 324$, which applies the term index directly to the power instead of subtracting 1."
+    },
+    {
+      "id": "ch11-series-q5",
+      "type": "mcq",
+      "question": "State the necessary condition for the common ratio $r$ of a geometric progression so that the infinite series converges to a sum to infinity.",
+      "options": [
+        "$|r| < 1$",
+        "$r \\le 1$",
+        "$|r| \\le 1$",
+        "$r > 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An infinite geometric series converges if and only if the terms decrease in magnitude, meaning the absolute value of the common ratio must be strictly less than 1, or $-1 < r < 1$.\n\n**Common mistake:** Students often include the boundary points and pick $|r| \\le 1$, forgetting that if $r = 1$ or $r = -1$, the series oscillates or accumulates indefinitely, meaning a finite sum to infinity does not exist."
+    }
+  ]
+}

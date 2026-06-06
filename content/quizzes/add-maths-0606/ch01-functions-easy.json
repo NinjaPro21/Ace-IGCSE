@@ -1,0 +1,75 @@
+{
+  "id": "ch01-functions-easy",
+  "topicId": "ch01-functions",
+  "chapterId": "ch01-functions",
+  "difficulty": "easy",
+  "title": "Chapter 1: Functions — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch01-functions-q1",
+      "type": "mcq",
+      "question": "A function $f(x)$ is defined by $f(x) = 3x - 5$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(4)$.",
+      "options": [
+        "$7$",
+        "$-7$",
+        "$17$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 4$ into the function: $f(4) = 3(4) - 5 = 12 - 5 = 7$.\n\n**Common mistake:** Students might miscalculate the arithmetic as $3(4 - 5) = -3$ or mistakenly add 5 instead of subtracting, leading to an incorrect choice."
+    },
+    {
+      "id": "ch01-functions-q2",
+      "type": "mcq",
+      "question": "Which of the following types of mappings can be strictly defined as a function?",
+      "options": [
+        "One-to-one and many-to-one mappings",
+        "One-to-many and many-to-one mappings",
+        "One-to-many mappings only",
+        "Many-to-many mappings only"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a mapping to be a function, each input in the domain must map to exactly one unique output in the codomain, which applies to one-to-one and many-to-one relationships.\n\n**Common mistake:** Students often confuse one-to-many relationships as functions, forgetting that a single input value cannot have multiple distinct output values."
+    },
+    {
+      "id": "ch01-functions-q3",
+      "type": "mcq",
+      "question": "The function $f(x) = 2x + 1$ has an inverse function $f⁻¹(x)$. If $f(3) = 7$, state the value of $f⁻¹(7)$.",
+      "options": [
+        "$3$",
+        "$7$",
+        "$\\frac{1}{7}$",
+        "$-3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition of an inverse function, if $f(a) = b$, then $f⁻¹(b) = a$. Since $f(3) = 7$, it follows directly that $f⁻¹(7) = 3$.\n\n**Common mistake:** Students often confuse the inverse function notation with the reciprocal power, leading them to choose $\\frac{1}{7}$."
+    },
+    {
+      "id": "ch01-functions-q4",
+      "type": "mcq",
+      "question": "Given the function $f(x) = x² + 3$ for the domain $x \\ge 0$, state the range of $f$.",
+      "options": [
+        "$f(x) \\ge 3$",
+        "$f(x) \\ge 0$",
+        "$f(x) \\in \\mathbb{R}$",
+        "$0 \\le f(x) \\le 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the minimum value of $x²$ for $x \\ge 0$ is $0$, the minimum value of $f(x)$ is $0 + 3 = 3$, making the range $f(x) \\ge 3$.\n\n**Common mistake:** Students frequently copy the domain inequality boundary directly without applying the function's transformation, choosing $f(x) \\ge 0$."
+    },
+    {
+      "id": "ch01-functions-q5",
+      "type": "mcq",
+      "question": "Given the functions $f(x) = x + 4$ and $g(x) = 2x$, find the expression for the composite function $gf(x)$.",
+      "options": [
+        "$2x + 8$",
+        "$2x + 4$",
+        "$x + 8$",
+        "$2x² + 8x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find $gf(x)$, substitute the entire function $f(x)$ into $g(x)$, which gives $g(x + 4) = 2(x + 4) = 2x + 8$.\n\n**Common mistake:** Students often calculate $fg(x)$ instead of $gf(x)$, leading to $2x + 4$, or multiply the expressions together to get $2x² + 8x$."
+    }
+  ]
+}

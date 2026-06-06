@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { getTopicsForChapter } from '@/lib/contentLoader'
 import type { TopicMeta } from '@/lib/contentTypes'
 
 interface LessonTopBarProps {
@@ -7,21 +9,24 @@ interface LessonTopBarProps {
 }
 
 export function LessonTopBar({ topic, chapterTitle }: LessonTopBarProps) {
-  const { getChecklistCount } = useMastery()
-  const done = getChecklistCount(topic.id)
+  const { isNotesRead, getChapterQuizLevel, areChapterNotesComplete } = useMastery()
+  const chapterTopics = getTopicsForChapter(topic.chapterId)
+  const notesComplete = areChapterNotesComplete(topic.chapterId)
+  const done = notesComplete ? getChapterQuizLevel(topic.chapterId) : isNotesRead(topic.id) ? 1 : 0
 
   return (
     <div className="enlight-lesson-topbar">
       <div>
         <span className="enlight-section-label">{chapterTitle}</span>
         <nav className="enlight-lesson-nav">
-          {(topic.lessonNav ?? [{ id: topic.id, label: 'Lesson' }]).map((item) => (
-            <span
-              key={item.id}
-              className={`enlight-lesson-nav__link${item.id === topic.id || item.label === 'Discriminant' ? ' enlight-lesson-nav__link--active' : ''}`}
+          {chapterTopics.map((t) => (
+            <Link
+              key={t.id}
+              to={`/subjects/${topic.subjectId}/chapters/${topic.chapterId}/topics/${t.id}`}
+              className={`enlight-lesson-nav__link${t.id === topic.id ? ' enlight-lesson-nav__link--active' : ''}`}
             >
-              {item.label}
-            </span>
+              {t.subtitle}
+            </Link>
           ))}
         </nav>
       </div>
@@ -38,9 +43,7 @@ export function LessonTopBar({ topic, chapterTitle }: LessonTopBarProps) {
               />
             ))}
           </div>
-          <span>
-            {done}/4
-          </span>
+          <span>{done}/4</span>
         </div>
       </div>
     </div>

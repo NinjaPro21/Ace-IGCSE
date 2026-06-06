@@ -1,0 +1,75 @@
+{
+  "id": "ch15-calculus-integration-easy",
+  "topicId": "ch15-calculus-integration",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "easy",
+  "title": "Chapter 15: Calculus – Integration — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch15-calculus-integration-q1",
+      "type": "mcq",
+      "question": "Find the indefinite integral $\\int (8x^3 - 6x + 5) \\\\, \\mathrm{d}x$.",
+      "options": [
+        " $2x^4 - 3x^2 + 5x + c$ ",
+        " $24x^2 - 6 + c$ ",
+        " $2x^4 - 3x^2 + c$ ",
+        " $8x^4 - 6x^2 + 5x + c$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrate term-by-term using the rule $\\int x^n \\\\, \\mathrm{d}x = \\frac{x^{n+1}}{n+1}$. This gives $\\frac{8x^4}{4} - \\frac{6x^2}{2} + 5x + c = 2x^4 - 3x^2 + 5x + c$.\n\n**Common mistake:** Students picking Option B differentiated the expression instead of integrating, while those picking Option D forgot to divide by the new powers."
+    },
+    {
+      "id": "ch15-calculus-integration-q2",
+      "type": "mcq",
+      "question": "Determine the indefinite integral $\\int e^{4x - 1} \\\\, \\mathrm{d}x$.",
+      "options": [
+        " $\\frac{1}{4}e^{4x - 1} + c$ ",
+        " $4e^{4x - 1} + c$ ",
+        " $\\frac{1}{4}e^{4x} + c$ ",
+        " $e^{4x - 1} + c$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the exponential integration rule $\\int e^{ax + b} \\\\, \\mathrm{d}x = \\frac{1}{a}e^{ax + b} + c$, we divide by the coefficient of $x$, which is 4, keeping the exponent unchanged.\n\n**Common mistake:** Option B occurs if a student multiplies by the derivative of the power (differentiation rule) instead of dividing by it."
+    },
+    {
+      "id": "ch15-calculus-integration-q3",
+      "type": "mcq",
+      "question": "Find $\\int \\sin(3x + \\pi) \\\\, \\mathrm{d}x$.",
+      "options": [
+        " $-\\frac{1}{3}\\cos(3x + \\pi) + c$ ",
+        " $\\frac{1}{3}\\cos(3x + \\pi) + c$ ",
+        " $-3\\cos(3x + \\pi) + c$ ",
+        " $-\\cos(3x + \\pi) + c$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $\\int \\sin(kx) \\\\, \\mathrm{d}x = -\\frac{1}{k}\\cos(kx)$, integrating $\\sin(3x + \\pi)$ results in $-\\frac{1}{3}\\cos(3x + \\pi) + c$.\n\n**Common mistake:** Option B is chosen due to a sign error where the student believes the integral of sine is positive cosine."
+    },
+    {
+      "id": "ch15-calculus-integration-q4",
+      "type": "mcq",
+      "question": "State the expression for $\\int \\frac{7}{2x - 5} \\\\, \\mathrm{d}x$.",
+      "options": [
+        " $\\frac{7}{2}\\ln|2x - 5| + c$ ",
+        " $7\\ln|2x - 5| + c$ ",
+        " $-\\frac{7}{(2x - 5)^2} + c$ ",
+        " $\\frac{7}{2(2x - 5)^2} + c$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $\\int \\frac{1}{ax + b} \\\\, \\mathrm{d}x = \\frac{1}{a}\\ln|ax + b|$, we multiply the constant 7 by $\\frac{1}{2}$ to get $\\frac{7}{2}\\ln|2x - 5| + c$.\n\n**Common mistake:** Option C results from treating the denominator as a polynomial power of $(2x - 5)^{-1}$ and applying the power rule inappropriately, which yields division by zero or an incorrect power."
+    },
+    {
+      "id": "ch15-calculus-integration-q5",
+      "type": "mcq",
+      "question": "Evaluate the definite integral $\\int_{1}^{3} (4x - 1) \\\\, \\mathrm{d}x$.",
+      "options": [
+        " 14 ",
+        " 16 ",
+        " 12 ",
+        " 8 "
+      ],
+      "correctIndex": 0,
+      "explanation": "The indefinite integral is $[2x^2 - x]_{1}^{3}$. Substituting limits gives $(2(9) - 3) - (2(1) - 1) = 15 - 1 = 14$.\n\n**Common mistake:** Option B is obtained if a student mistakenly adds the lower limit evaluation instead of subtracting it: $15 + 1 = 16$."
+    }
+  ]
+}

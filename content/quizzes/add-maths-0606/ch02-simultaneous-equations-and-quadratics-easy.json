@@ -1,0 +1,88 @@
+{
+  "id": "ch02-simultaneous-equations-and-quadratics-easy",
+  "topicId": "ch02-simultaneous-equations-and-quadratics",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "easy",
+  "title": "Chapter 2: Simultaneous Equations and Quadratics — Easy",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q1",
+      "type": "mcq",
+      "question": "State the coordinates of the turning point for the graph of $y = (x - 4)² + 7$ and specify whether it is a maximum or a minimum point.",
+      "options": [
+        "Minimum at $(4, 7)$",
+        "Minimum at $(-4, 7)$",
+        "Maximum at $(4, 7)$",
+        "Minimum at $(4, -7)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertex form $y = a(x - h)² + k$ directly gives the turning point as $(h, k)$. Since $a = 1 > 0$, the parabola opens upwards, making the turning point $(4, 7)$ a minimum.\n\n**Common mistake:** Students often make a sign error inside the bracket, thinking that $x - 4 = 0$ implies $x = -4$, leading them mistakenly to choose $(-4, 7)$."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q2",
+      "type": "mcq",
+      "question": "State the condition for the discriminant $\\Delta$ when the quadratic equation $ax² + bx + c = 0$ has no real roots.",
+      "options": [
+        "$\\Delta < 0$",
+        "$\\Delta > 0$",
+        "$\\Delta = 0$",
+        "$\\Delta \\ge 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A quadratic equation yields no real roots when the discriminant, $b² - 4ac$, is negative ($\\Delta < 0$), because the square root of a negative number is not real.\n\n**Common mistake:** Students sometimes confuse 'no real roots' with 'equal real roots' or 'distinct real roots', leading to the misremembered condition $\\Delta = 0$ or $\\Delta > 0$."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q3",
+      "type": "mcq",
+      "question": "If $y = 2x + 3$ is substituted into the equation $x² + y² = 17$, which quadratic equation in terms of $x$ is obtained?",
+      "options": [
+        "$5x² + 12x - 8 = 0$",
+        "$5x² + 6x - 8 = 0$",
+        "$5x² + 12x + 26 = 0$",
+        "$3x² + 12x - 8 = 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substituting gives $x² + (2x + 3)² = 17 \\implies x² + (4x² + 12x + 9) = 17$. Combining like terms and subtracting 17 yields $5x² + 12x - 8 = 0$.\n\n**Common mistake:** Students frequently misexpand $(2x + 3)²$ as $4x² + 9$, missing the middle term $12x$, which results in incorrect simplified quadratics like $5x² - 8 = 0$ or $5x² + 6x - 8 = 0$ if they forget to multiply by 2."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q4",
+      "type": "mcq",
+      "question": "Find the critical values for the quadratic inequality $x² - 5x - 14 > 0$.",
+      "options": [
+        "$x = 7$ and $x = -2$",
+        "$x = -7$ and $x = 2$",
+        "$x = 14$ and $x = -1$",
+        "$x = 7$ and $x = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The critical values are found by solving the corresponding quadratic equation $x² - 5x - 14 = 0$, which factors into $(x - 7)(x + 2) = 0$, giving $x = 7$ and $x = -2$.\n\n**Common mistake:** Students frequently invert the signs when solving from factored brackets, executing $x - 7 = 0 \\implies x = -7$ and $x + 2 = 0 \\implies x = 2$."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q5",
+      "type": "mcq",
+      "question": "The graph of $y = x² - 4$ is transformed into $y = |x² - 4|$. Find the $y$-intercept of the transformed graph.",
+      "options": [
+        "$(0, 4)$",
+        "$(0, -4)$",
+        "$(2, 0)$",
+        "$(-2, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original $y$-intercept is found at $x = 0$, giving $y = 0² - 4 = -4$. Applying the modulus function changes the negative output to positive: $|-4| = 4$. Thus, the intercept is $(0, 4)$.\n\n**Common mistake:** Students often forget to apply the modulus operator to the $y$-intercept, leaving it as the original vertex value of $-4$, or mix up $x$ and $y$ intercepts."
+    },
+    {
+      "id": "ch02-simultaneous-equations-and-quadratics-q6",
+      "type": "mcq",
+      "question": "Find the $y$-intercept of the graph of $y = |2x^2 - 5x - 3|$.",
+      "options": [
+        "$(0, 3)$",
+        "$(0, -3)$",
+        "$(3, 0)$",
+        "$(0, 5)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the $y$-intercept, substitute $x = 0$ into the equation: $y = |2(0)^2 - 5(0) - 3| = |-3| = 3$. This gives the coordinate point $(0, 3)$.\n\n**Common mistake:** Students forget that the modulus operation outputs a non-negative value, mistakenly keeping the original negative constant term to select $(0, -3)$."
+    }
+  ]
+}

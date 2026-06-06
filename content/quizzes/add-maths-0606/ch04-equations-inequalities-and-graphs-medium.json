@@ -1,0 +1,49 @@
+{
+  "id": "ch04-equations-inequalities-and-graphs-medium",
+  "topicId": "ch04-equations-inequalities-and-graphs",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "medium",
+  "title": "Chapter 4: Equations, Inequalities and Graphs — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q1",
+      "type": "mcq",
+      "question": "Solve the equation $|3x - 1| = 2x + 6$.",
+      "options": [
+        "$x = 7$ or $x = -1$",
+        "$x = 7$ only",
+        "$x = -1$ only",
+        "$x = 7$ or $x = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $3x - 1 = 2x + 6 \\implies x = 7$. Checking $x=7$ gives $2(7)+6 = 20 \\ge 0$ (Valid). Case 2: $3x - 1 = -(2x + 6) \\implies 5x = -5 \\implies x = -1$. Checking $x=-1$ gives $2(-1)+6 = 4 \\ge 0$ (Valid). Thus, both solutions are valid.\n\n**Common mistake:** Students may fail to check for extraneous solutions but also occasionally reject perfectly valid negative $x$ values, misremembering that it is the right-hand side expression $g(x)$ that cannot be negative, not $x$ itself."
+    },
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q2",
+      "type": "mcq",
+      "question": "Find the complete set of values of $x$ for which $|2x - 3| < 9$.",
+      "options": [
+        "$-3 < x < 6$",
+        "$x < -3$ or $x > 6$",
+        "$-6 < x < 3$",
+        "$x < 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite the inequality as $-9 < 2x - 3 < 9$. Adding $3$ to all parts yields $-6 < 2x < 12$. Dividing by $2$ gives the solution interval $-3 < x < 6$.\n\n**Common mistake:** Students often treat the problem as a standard equation boundary match, but mess up the direction of the inequality flip for the negative boundary, ending up with outer intervals."
+    },
+    {
+      "id": "ch04-equations-inequalities-and-graphs-q3",
+      "type": "mcq",
+      "question": "Solve the inequality $|3 - 2x| \\ge 7$.",
+      "options": [
+        "$x \\le -2$ or $x \\ge 5$",
+        "$-2 \\le x \\le 5$",
+        "$x \\le -5$ or $x \\ge 2$",
+        "$x \\ge 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This splits into two separate linear inequalities: $3 - 2x \\ge 7 \\implies -2x \\ge 4 \\implies x \\le -2$; and $3 - 2x \\le -7 \\implies -2x \\le -10 \\implies x \\ge 5$. Combining these yields $x \\le -2$ or $x \\ge 5$.\n\n**Common mistake:** Students frequently forget to flip the inequality sign when dividing by the negative coefficient $-2$, resulting in a completely inverted or bounded region like $-2 \\le x \\le 5$."
+    }
+  ]
+}

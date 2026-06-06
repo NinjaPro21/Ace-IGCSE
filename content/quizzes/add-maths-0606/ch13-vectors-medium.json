@@ -1,0 +1,75 @@
+{
+  "id": "ch13-vectors-medium",
+  "topicId": "ch13-vectors",
+  "chapterId": "ch13-vectors",
+  "difficulty": "medium",
+  "title": "Chapter 13: Vectors — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch13-vectors-q1",
+      "type": "mcq",
+      "question": "The velocity vector of a particle is given by $\\mathbf{v} = (2t - 3)\\mathbf{i} + 4\\mathbf{j}$. Find the speed of the particle when $t = 3$.",
+      "options": [
+        "5",
+        "3",
+        "7",
+        "25"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, substitute $t = 3$ into the velocity vector: $\\mathbf{v} = (2(3) - 3)\\mathbf{i} + 4\\mathbf{j} = 3\\mathbf{i} + 4\\mathbf{j}$. The speed is the magnitude of the velocity vector: $\\sqrt{3^2 + 4^2} = 5$.\n\n**Common mistake:** Students sometimes find only the $\\mathbf{i}$ component at $t=3$ and assume that is the speed, or they add the components together without taking the square root of the sum of squares."
+    },
+    {
+      "id": "ch13-vectors-q2",
+      "type": "mcq",
+      "question": "Relative to an origin $O$, the points $P$ and $Q$ have position vectors $\\mathbf{p} = 4\\mathbf{i} - 2\\mathbf{j}$ and $\\mathbf{q} = -2\\mathbf{i} + 7\\mathbf{j}$ respectively. The point $R$ lies on $PQ$ such that $PR:RQ = 1:2$. Find the position vector of $R$.",
+      "options": [
+        "$2\\mathbf{i} + \\mathbf{j}$",
+        "$2\\mathbf{i} + 4\\mathbf{j}$",
+        "$\\mathbf{i} + 2.5\\mathbf{j}$",
+        "$6\\mathbf{i} - 9\\mathbf{j}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The position vector $\\mathbf{r}$ of point $R$ dividing $PQ$ in the ratio $1:2$ is given by $\\mathbf{r} = \\frac{2\\mathbf{p} + 1\\mathbf{q}}{1+2}$. Substituting the vectors yields $\\frac{2(4\\mathbf{i} - 2\\mathbf{j}) + (-2\\mathbf{i} + 7\\mathbf{j})}{3} = \\frac{6\\mathbf{i} + 3\\mathbf{j}}{3} = 2\\mathbf{i} + \\mathbf{j}$.\n\n**Common mistake:** Students often reverse the ratio weights, multiplying $\\mathbf{p}$ by 1 and $\\mathbf{q}$ by 2, or they compute the displacement vector $\\vec{PQ}$ and fail to add it back to the position vector of $P$."
+    },
+    {
+      "id": "ch13-vectors-q3",
+      "type": "mcq",
+      "question": "Given that vectors $\\mathbf{u} = m\\mathbf{i} + 3\\mathbf{j}$ and $\\mathbf{v} = 4\\mathbf{i} - 8\\mathbf{j}$ are perpendicular, find the value of the constant $m$.",
+      "options": [
+        "6",
+        "$-6$",
+        "11",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "For two vectors to be perpendicular, their scalar (dot) product must be zero: $\\mathbf{u} \\cdot \\mathbf{v} = 0 \\implies (m)(4) + (3)(-8) = 0$. Solving $4m - 24 = 0$ gives $m = 6$.\n\n**Common mistake:** Students often make a sign error, writing $4m + 24 = 0$ to get $m = -6$, or they use the parallel condition $\\frac{m}{4} = \\frac{3}{-8}$ instead of the perpendicular condition."
+    },
+    {
+      "id": "ch13-vectors-q4",
+      "type": "mcq",
+      "question": "A river flows due East at a speed of $3$ m s⁻¹. A swimmer crosses the river, swimming relative to the water at a velocity of $4$ m s⁻¹ due North. Find the magnitude and bearing of the resultant velocity of the swimmer.",
+      "options": [
+        "5 m s⁻¹ on a bearing of 036.9°",
+        "5 m s⁻¹ on a bearing of 053.1°",
+        "7 m s⁻¹ on a bearing of 036.9°",
+        "1 m s⁻¹ on a bearing of 053.1°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The velocity vector is $3\\mathbf{i} + 4\\mathbf{j}$. The magnitude is $\\sqrt{3^2 + 4^2} = 5$ m s⁻¹. The angle with the North direction (the bearing) is found using $\\tan\\theta = \\frac{\\text{East component}}{\\text{North component}} = \\frac{3}{4}$, so $\\theta = \\tan^{-1}(0.75) \\approx 36.9°$.\n\n**Common mistake:** Students often calculate the angle relative to the East axis, computing $\\tan^{-1}(\\frac{4}{3}) = 53.1°$, which represents the direction relative to the horizontal instead of a true bearing measured clockwise from North."
+    },
+    {
+      "id": "ch13-vectors-q5",
+      "type": "mcq",
+      "question": "If vector $\\mathbf{a} = \\begin{pmatrix} 5 \\\\\\\\ 12 \\end{pmatrix}$ and vector $\\mathbf{b} = \\begin{pmatrix} -3 \\\\\\\\ 4 \\end{pmatrix}$, find the scalar product $\\mathbf{a} \\cdot \\mathbf{b}$.",
+      "options": [
+        "33",
+        "63",
+        "$-33$",
+        "65"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dot product is evaluated as $x_1x_2 + y_1y_2$. Here, $\\mathbf{a} \\cdot \\mathbf{b} = (5)(-3) + (12)(4) = -15 + 48 = 33$.\n\n**Common mistake:** Students may accidentally subtract the second term, calculating $-15 - 48 = -63$, or they may cross-multiply components like $5 \\times 4 + 12 \\times (-3)$ due to confusion with matrix operations."
+    }
+  ]
+}

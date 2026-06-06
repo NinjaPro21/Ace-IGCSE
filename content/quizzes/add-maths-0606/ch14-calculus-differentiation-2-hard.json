@@ -1,0 +1,75 @@
+{
+  "id": "ch14-calculus-differentiation-2-hard",
+  "topicId": "ch14-calculus-differentiation-2",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "hard",
+  "title": "Chapter 14: Calculus – Differentiation 2 — Hard",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch14-calculus-differentiation-2-q1",
+      "type": "mcq",
+      "question": "Find the equation of the normal to the curve $y = \\ln(2x - 3)$ at the point where $x = 2$.",
+      "options": [
+        " $y = -\\frac{1}{2}x + 1$ ",
+        " $y = 2x - 4$ ",
+        " $y = -\\frac{1}{2}x + 2$ ",
+        " $y = 2x - 3$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "At $x=2$, $y=\\ln(1)=0$. Differentiating gives $\\frac{dy}{dx} = \\frac{2}{2x-3}$, so at $x=2$, the tangent gradient is $2$. The normal gradient is $-\\frac{1}{2}$. Thus, $y - 0 = -\\frac{1}{2}(x - 2) \\implies y = -\\frac{1}{2}x + 1$.\n\n**Common mistake:** Students often find the equation of the tangent instead of the normal, or forget that $\\ln(1) = 0$, leading to errors in the constant term."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q2",
+      "type": "mcq",
+      "question": "The curve $y = e^{2x} - 4e^x$ has a stationary point. Find the coordinates of this stationary point.",
+      "options": [
+        " $(\\ln(2), -4)$ ",
+        " $(2, -4)$ ",
+        " $(\\ln(2), 0)$ ",
+        " $(0, -3)$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiating gives $\\frac{dy}{dx} = 2e^{2x} - 4e^x = 0$. Factoring out yields $2e^x(e^x - 2) = 0$. Since $e^x \neq 0$, $e^x = 2 \\implies x = \\ln(2)$. Substituting back into $y$ gives $y = (2)^2 - 4(2) = 4 - 8 = -4$.\n\n**Common mistake:** Students might find $e^x = 2$ but then incorrectly substitute $x = 2$ into the original function instead of $e^x = 2$, which gives a wrong $y$-coordinate."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q3",
+      "type": "mcq",
+      "question": "Find the $x$-coordinates of the stationary points on the curve $y = x^2 e^{-4x}$ for $x > 0$.",
+      "options": [
+        " $x = \\frac{1}{2}$ ",
+        " $x = 2$ ",
+        " $x = \\frac{1}{4}$ ",
+        " $x = 1$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "By the product rule, $\\frac{dy}{dx} = 2x e^{-4x} - 4x^2 e^{-4x} = 2xe^{-4x}(1 - 2x)$. Setting this to $0$ gives $x = 0$ or $1 - 2x = 0 \\implies x = \\frac{1}{2}$. Since $x > 0$, $x = \\frac{1}{2}$.\n\n**Common mistake:** A common mistake occurs when differentiating $e^{-4x}$, where students forget the negative sign, altering the bracket to $(1 + 2x)$ and concluding that there are no positive roots."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q4",
+      "type": "mcq",
+      "question": "Determine the range of values of $x$ for which the function $f(x) = 2x - \\ln(x)$ is strictly increasing.",
+      "options": [
+        " $x > \\frac{1}{2}$ ",
+        " $x < \\frac{1}{2}$ ",
+        " $x > 2$ ",
+        " $x > 0$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "For $f(x)$ to be increasing, $f'(x) > 0$. Finding the derivative gives $f'(x) = 2 - \\frac{1}{x}$. Setting $2 - \\frac{1}{x} > 0 \\implies 2 > \\frac{1}{x} \\implies x > \\frac{1}{2}$ (since the domain of $\\ln(x)$ requires $x > 0$).\n\n**Common mistake:** Students might reverse the inequality sign during algebraic manipulation, or incorrectly solve $2 - \\frac{1}{x} = 0$ as $x = 2$ instead of $x = \\frac{1}{2}$."
+    },
+    {
+      "id": "ch14-calculus-differentiation-2-q5",
+      "type": "mcq",
+      "question": "A curve has the equation $y = \\frac{\\ln(x)}{x}$. Find the exact $y$-coordinate of its local maximum point.",
+      "options": [
+        " $\\frac{1}{e}$ ",
+        " $e$ ",
+        " $1$ ",
+        " $0$ "
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the quotient rule, $\\frac{dy}{dx} = \\frac{x(\\frac{1}{x}) - \\ln(x)(1)}{x^2} = \\frac{1 - \\ln(x)}{x^2}$. Setting $\\frac{dy}{dx} = 0$ gives $1 - \\ln(x) = 0 \\implies x = e$. Substituting $x = e$ back into $y$ yields $y = \\frac{\\ln(e)}{e} = \\frac{1}{e}$.\n\n**Common mistake:** Students often find the $x$-coordinate ($x = e$) and stop there, selecting option B instead of substituting back to find the $y$-coordinate."
+    }
+  ]
+}

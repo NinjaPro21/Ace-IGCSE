@@ -1,0 +1,75 @@
+{
+  "id": "ch01-functions-medium",
+  "topicId": "ch01-functions",
+  "chapterId": "ch01-functions",
+  "difficulty": "medium",
+  "title": "Chapter 1: Functions — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch01-functions-q1",
+      "type": "mcq",
+      "question": "Find the inverse function $f⁻¹(x)$ for $f(x) = \\frac{2x + 3}{x - 1}$ where $x \neq 1$.",
+      "options": [
+        "$f⁻¹(x) = \\frac{x + 3}{x - 2}$",
+        "$f⁻¹(x) = \\frac{x - 3}{x + 2}$",
+        "$f⁻¹(x) = \\frac{2x - 3}{x + 1}$",
+        "$f⁻¹(x) = \\frac{x + 3}{2 - x}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange $y = \\frac{2x + 3}{x - 1}$ to solve for $x$: $yx - y = 2x + 3 \\implies x(y - 2) = y + 3 \\implies x = \\frac{y + 3}{y - 2}$. Swapping variables gives $f⁻¹(x) = \\frac{x + 3}{x - 2}$.\n\n**Common mistake:** Students often make sign errors when grouping terms containing the variable on one side, resulting in incorrect choices like $\\frac{x - 3}{x + 2}$."
+    },
+    {
+      "id": "ch01-functions-q2",
+      "type": "mcq",
+      "question": "The functions $f$ and $g$ are defined by $f(x) = 3x - 1$ and $g(x) = x² + 2$. Solve the equation $fg(x) = 14$.",
+      "options": [
+        "$x = \\pm √3$",
+        "$x = \\pm 3$",
+        "$x = 5$",
+        "$x = \\pm √5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $g(x)$ into $f(x)$ to get $fg(x) = 3(x² + 2) - 1 = 3x² + 5$. Solving $3x² + 5 = 14$ yields $3x² = 9 \\implies x² = 3 \\implies x = \\pm √3$.\n\n**Common mistake:** Students frequently work out $gf(x) = 14$ by mistake, or forget to include the negative root when solving $x² = 3$."
+    },
+    {
+      "id": "ch01-functions-q3",
+      "type": "mcq",
+      "question": "A function $g(x) = 5 - 2x$ is defined for the domain $-1 \\le x \\le 4$. Find the range of $g(x)$.",
+      "options": [
+        "$-3 \\le g(x) \\le 7$",
+        "$-3 \\le g(x) \\le 3$",
+        "$5 \\le g(x) \\le 7$",
+        "$-1 \\le g(x) \\le 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluating the linear function at its boundaries gives $g(-1) = 7$ and $g(4) = -3$. Since it is a decreasing line, the range spans between these values: $-3 \\le g(x) \\le 7$.\n\n**Common mistake:** Students often fail to reverse the inequality order when dealing with negative coefficients or incorrectly evaluate the endpoint values."
+    },
+    {
+      "id": "ch01-functions-q4",
+      "type": "mcq",
+      "question": "The function $f(x) = x² - 4x + 7$ is defined for $x \\ge k$. In order for the inverse function $f⁻¹(x)$ to exist, find the least possible value of the constant $k$.",
+      "options": [
+        "$2$",
+        "$4$",
+        "$7$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an inverse function to exist, $f(x)$ must be one-to-one. Completing the square gives $f(x) = (x - 2)² + 3$, showing the axis of symmetry is at $x = 2$. Thus, the domain must be restricted to $x \\ge 2$, making the least value of $k = 2$.\n\n**Common mistake:** Students often pick the constant value $7$ or the linear coefficient $4$ without finding the vertex or the line of symmetry of the parabola."
+    },
+    {
+      "id": "ch01-functions-q5",
+      "type": "mcq",
+      "question": "Given $f(x) = \\frac{4}{x}$ for $x \neq 0$, find the expression for the composite function $f²(x)$.",
+      "options": [
+        "$x$",
+        "$\\frac{16}{x}$",
+        "$\\frac{4}{x²}$",
+        "$\\frac{x}{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notation $f²(x)$ means $ff(x)$. Substituting $f(x)$ into itself gives $f\\left(\\frac{4}{x}\\right) = \\frac{4}{\\frac{4}{x}} = x$.\n\n**Common mistake:** Students often misinterpret $f²(x)$ as squaring the entire expression $[f(x)]²$, which incorrectly leads to $\\frac{16}{x²}$."
+    }
+  ]
+}

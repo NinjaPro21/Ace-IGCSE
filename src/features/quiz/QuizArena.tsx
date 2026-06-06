@@ -3,8 +3,15 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightHeader } from '@/components/EnlightHeader'
+import { MathText } from '@/components/MathText'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import { getQuizByTopicAndDifficulty, getTopic } from '@/lib/contentLoader'
+import {
+  getChapter,
+  getChapterQuizAnchor,
+  getQuizByChapterAndDifficulty,
+  getTopicsForChapter,
+  getWeakTopicsInChapter,
+} from '@/lib/contentLoader'
 import type { Difficulty, McqQuestion } from '@/lib/contentTypes'
 
 const DIFF_LABEL: Record<Difficulty, string> = {
@@ -21,15 +28,16 @@ const NEXT_DIFF: Partial<Record<Difficulty, Difficulty>> = {
 }
 
 export function QuizArena() {
-  const { topicId = '', difficulty = 'easy' } = useParams<{
-    topicId: string
+  const { chapterId = '', difficulty = 'easy' } = useParams<{
+    chapterId: string
     difficulty: Difficulty
   }>()
   const navigate = useNavigate()
-  const { canTakeQuiz, recordQuizResult } = useMastery()
+  const { canTakeChapterQuiz, recordChapterQuizResult, getTopicNotesReadMap } = useMastery()
 
-  const topic = getTopic(topicId)
-  const quiz = getQuizByTopicAndDifficulty(topicId, difficulty as Difficulty)
+  const chapter = getChapter(chapterId)
+  const anchor = getChapterQuizAnchor(chapterId)
+  const quiz = getQuizByChapterAndDifficulty(chapterId, difficulty as Difficulty)
   const diff = difficulty as Difficulty
 
   const [index, setIndex] = useState(0)
@@ -38,7 +46,7 @@ export function QuizArena() {
   const [showFeedback, setShowFeedback] = useState(false)
   const [finished, setFinished] = useState(false)
 
-  if (!topic || !quiz) {
+  if (!chapter || !quiz || !anchor) {
     return (
       <div className="enlight-app">
         <EnlightHeader />
@@ -50,21 +58,26 @@ export function QuizArena() {
     )
   }
 
-  if (!canTakeQuiz(topicId, diff)) {
+  if (!canTakeChapterQuiz(chapterId, diff)) {
+    const firstTopic = getTopicsForChapter(chapterId)[0]
     return (
       <div className="enlight-app">
         <EnlightHeader />
         <div className="enlight-quiz">
           <h2 className="enlight-heading-serif">Locked</h2>
           <p className="enlight-body-text">
-            Complete the previous mastery level before attempting {DIFF_LABEL[diff]}.
+            {diff === 'easy'
+              ? 'Read all topic notes in this chapter before attempting the quiz.'
+              : `Complete the previous mastery level before attempting ${DIFF_LABEL[diff]}.`}
           </p>
-          <EnlightButton
-            to={`/subjects/${topic.subjectId}/chapters/${topic.chapterId}/topics/${topicId}`}
-            variant="outline"
-          >
-            Back to lesson
-          </EnlightButton>
+          {firstTopic && (
+            <EnlightButton
+              to={`/subjects/${chapter.subjectId}/chapters/${chapterId}/topics/${firstTopic.id}`}
+              variant="outline"
+            >
+              Back to chapter
+            </EnlightButton>
+          )}
         </div>
       </div>
     )
@@ -72,6 +85,7 @@ export function QuizArena() {
 
   const question: McqQuestion | undefined = quiz.questions[index]
   const progress = ((index + (finished ? 1 : 0)) / quiz.questions.length) * 100
+  const weakTopics = getWeakTopicsInChapter(chapterId, getTopicNotesReadMap())
 
   const handleSelect = (optionIndex: number) => {
     if (showFeedback || finished) return
@@ -87,7 +101,7 @@ export function QuizArena() {
       setFinished(true)
       const scorePercent = Math.round((correctCount / quiz.questions.length) * 100)
       const passed = scorePercent >= quiz.passPercent
-      recordQuizResult(topicId, diff, scorePercent, passed)
+      recordChapterQuizResult(chapterId, diff, scorePercent, passed)
       return
     }
     setIndex((i) => i + 1)
@@ -113,6 +127,24 @@ export function QuizArena() {
                 ? `You passed (${quiz.passPercent}% required). XP awarded!`
                 : `You need ${quiz.passPercent}% to advance. Try again.`}
             </p>
+            {!passed && weakTopics.length > 0 && (
+              <div className="enlight-quiz__weak-topics">
+                <p className="enlight-body-text" style={{ marginBottom: 8 }}>
+                  <strong>Revisit these topics:</strong>
+                </p>
+                <ul className="enlight-quiz__weak-list">
+                  {weakTopics.map((t) => (
+                    <li key={t.id}>
+                      <Link
+                        to={`/subjects/${chapter.subjectId}/chapters/${chapterId}/topics/${t.id}`}
+                      >
+                        {t.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <div className="enlight-quiz__actions">
               {!passed && (
                 <EnlightButton
@@ -128,13 +160,15 @@ export function QuizArena() {
                 </EnlightButton>
               )}
               {passed && next && (
-                <EnlightButton to={`/quiz/${topicId}/${next}`}>Continue to {DIFF_LABEL[next]}</EnlightButton>
+                <EnlightButton to={`/quiz/${chapterId}/${next}`}>
+                  Continue to {DIFF_LABEL[next]}
+                </EnlightButton>
               )}
               <EnlightButton
-                to={`/subjects/${topic.subjectId}/chapters/${topic.chapterId}/topics/${topicId}`}
+                to={`/subjects/${chapter.subjectId}/chapters/${chapterId}/topics/${anchor.id}`}
                 variant="outline"
               >
-                Back to lesson
+                Back to chapter
               </EnlightButton>
             </div>
           </div>
@@ -148,7 +182,7 @@ export function QuizArena() {
       <EnlightHeader />
       <div className="enlight-quiz">
         <EnlightSectionLabel>
-          {topic.title} — {DIFF_LABEL[diff]}
+          Chapter {chapter.number}: {chapter.title} — {DIFF_LABEL[diff]}
         </EnlightSectionLabel>
         <div className="enlight-quiz__progress">
           <div className="enlight-quiz__progress-bar" style={{ width: `${progress}%` }} />
@@ -156,7 +190,9 @@ export function QuizArena() {
         <p style={{ fontSize: '0.85rem', color: 'var(--enlight-text-light)' }}>
           Question {index + 1} of {quiz.questions.length}
         </p>
-        <h2 className="enlight-quiz__question">{question?.question}</h2>
+        <h2 className="enlight-quiz__question">
+          {question && <MathText content={question.question} />}
+        </h2>
         <div className="enlight-quiz__options">
           {question?.options.map((opt, i) => {
             let cls = 'enlight-quiz__option'
@@ -165,7 +201,7 @@ export function QuizArena() {
             else if (i === selected) cls += ' enlight-quiz__option--selected'
             return (
               <button key={i} type="button" className={cls} onClick={() => handleSelect(i)}>
-                {opt}
+                <MathText content={opt} />
               </button>
             )
           })}

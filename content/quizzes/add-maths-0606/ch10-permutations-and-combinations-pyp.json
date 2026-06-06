@@ -1,0 +1,75 @@
+{
+  "id": "ch10-permutations-and-combinations-pyp",
+  "topicId": "ch10-permutations-and-combinations",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "pyp",
+  "title": "Chapter 10: Permutations and Combinations — Pyp",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch10-permutations-and-combinations-q1",
+      "type": "mcq",
+      "question": "(a) Find the number of different ways the 7 letters of the word $KINETIC$ can be arranged in a line.\n(b) Hence, find the number of these arrangements where the two letters 'I' are not next to each other.",
+      "options": [
+        "(a) 2520, (b) 1800",
+        "(a) 5040, (b) 2520",
+        "(a) 2520, (b) 720",
+        "(a) 5040, (b) 4320"
+      ],
+      "correctIndex": 0,
+      "explanation": "(a) $KINETIC$ has 7 letters with 'I' repeated twice: $\\frac{7!}{2!} = 2520$ . (b) Treat the two 'I's as 1 unit: $\\frac{6!}{1!} = 720$ ways where they are together. Vowels not together = $2520 - 720 = 1800$ .\n\n**Common mistake:** Students routinely forget to divide by $2!$ for identical letters, getting 5040 for part (a). Alternatively, they find the 'together' case (720) but fail to complete the 'hence' subtraction step."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q2",
+      "type": "mcq",
+      "question": "A team of 5 representatives is to be chosen from a pool of 8 engineers and 4 architects. Find the set of values of total choices if:\n(a) there are no restrictions,\n(b) the team must contain more engineers than architects.",
+      "options": [
+        "(a) 792, (b) 616",
+        "(a) 792, (b) 448",
+        "(a) 95, (b) 56",
+        "(a) 495, (b) 312"
+      ],
+      "correctIndex": 0,
+      "explanation": "(a) Total unrestricted choices = $^{12}C_{5} = 792$ . (b) More engineers means configurations of (5E, 0A), (4E, 1A), or (3E, 2A). Total = ($^{8}C_{5} \\times 1$) + ($^{8}C_{4} \\times ^{4}C_{1}$) + ($^{8}C_{3} \\times ^{4}C_{2}$) = $56 + (70 \\times 4) + (56 \\times 6) = 56 + 280 + 336 = 616$ .\n\n**Common mistake:** Students regularly miss one of the sub-cases, such as omitting the extreme boundary of selecting 5 engineers and 0 architects ($56$), resulting in a wrong sum of 560."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q3",
+      "type": "mcq",
+      "question": "Find the number of different 5-digit numbers that can be formed using the digits 1, 3, 4, 6, 8, 9 if no digit can be repeated and the number formed must be:\n(a) odd,\n(b) less than 60000.",
+      "options": [
+        "(a) 360, (b) 360",
+        "(a) 720, (b) 480",
+        "(a) 360, (b) 240",
+        "(a) 180, (b) 180"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total choices pool is 6 digits. (a) Last digit must be 1, 3, or 9 (3 choices). Remaining 4 digits = $^{5}P_{4} = 120$ . Total = $120 \\times 3 = 360$ . (b) First digit must be 1, 3, or 4 (3 choices). Remaining 4 digits = $^{5}P_{4} = 120$ . Total = $3 \\times 120 = 360$ .\n\n**Common mistake:** A student might treat choices as combinations instead of permutations, or get confused because both answers match, assuming they must have made a logical error and altering their step order."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q4",
+      "type": "mcq",
+      "question": "A musical group consists of 5 violinists, 3 cellists, and 4 flautists. Show that the number of ways to form a quartet with at least one player from each instrument family is equal to 270.",
+      "options": [
+        "270",
+        "495",
+        "180",
+        "90"
+      ],
+      "correctIndex": 0,
+      "explanation": "A quartet (4 members) with at least one of each family means configurations are (2V, 1C, 1F), (1V, 2C, 1F), or (1V, 1C, 2F). Sum = ($^{5}C_{2} \\times 3 \\times 4$) + ($5 \\times ^{3}C_{2} \\times 4$) + ($5 \\times 3 \\times ^{4}C_{2}$) = $(10 \\times 12) + (5 \\times 3 \\times 4) + (15 \\times 6) = 120 + 60 + 90 = 270$ .\n\n**Common mistake:** Students frequently use an overcounting method: picking 1 of each instrument first ($5 \\times 3 \\times 4 = 60$) then picking 1 from the remaining 9 items ($60 \\times 9 = 540$), which incorrectly doubles configurations."
+    },
+    {
+      "id": "ch10-permutations-and-combinations-q5",
+      "type": "mcq",
+      "question": "Find the number of ways in which 8 people can be arranged in a line if two particular individuals, Alan and Beatrice, refuse to stand next to each other.",
+      "options": [
+        "30240",
+        "10080",
+        "40320",
+        "5040"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total arrangements without restrictions = $8! = 40320$ . Number of ways where Alan and Beatrice are together = $7! \\times 2! = 5040 \\times 2 = 10080$ . Thus, ways they are separate = $40320 - 10080 = 30240$ .\n\n**Common mistake:** Students will often compute the together scenario correctly ($10080$) but choose it as their final option, forgetting that the question explicitly asked for them to be separated."
+    }
+  ]
+}

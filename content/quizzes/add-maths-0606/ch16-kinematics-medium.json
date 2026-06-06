@@ -1,0 +1,62 @@
+{
+  "id": "ch16-kinematics-medium",
+  "topicId": "ch16-kinematics",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "medium",
+  "title": "Chapter 16: Kinematics — Medium",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch16-kinematics-q1",
+      "type": "mcq",
+      "question": "A toy car moves along a horizontal track such that its displacement from a fixed marker is given by $s = t^3 - 6t^2 + 9t + 2$ metres. Find the acceleration of the toy car at the instant it achieves its maximum velocity in the first 4 seconds.",
+      "options": [
+        "0 m s⁻²",
+        "-12 m s⁻²",
+        "6 m s⁻²",
+        "12 m s⁻²"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is $v = 3t^2 - 12t + 9$. To find the turning point of velocity (local maximum/minimum), we differentiate to find acceleration: $a = 6t - 12$. Setting $a = 0$ gives $t = 2$. At this transition or turning point, acceleration must be 0 m s⁻².\n\n**Common mistake:** Option C is obtained if the student evaluates acceleration at $t = 3$ (where velocity becomes zero instead of maximum), leading to $6(3) - 12 = 6$."
+    },
+    {
+      "id": "ch16-kinematics-q2",
+      "type": "mcq",
+      "question": "The position vector of a particle moving along a straight line is modeled by $s = 4 \\sin(2t)$ metres, where $t \\ge 0$. Find the magnitude of the maximum acceleration experienced by the particle.",
+      "options": [
+        "16 m s⁻²",
+        "8 m s⁻²",
+        "4 m s⁻²",
+        "32 m s⁻²"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiating displacement gives $v = 8 \\cos(2t)$. Differentiating again gives acceleration $a = -16 \\sin(2t)$. The maximum magnitude of acceleration occurs when $|\\sin(2t)| = 1$, which equals 16 m s⁻².\n\n**Common mistake:** Option B arises if the student fails to apply the chain rule a second time when finding acceleration from velocity, leaving the coefficient as 8."
+    },
+    {
+      "id": "ch16-kinematics-q3",
+      "type": "mcq",
+      "question": "The velocity of a particle moving along a straight path is given by $v = \\frac{6}{t+2}$ m s⁻¹ for $t \\ge 0$. Find the displacement of the particle during the interval from $t = 0$ to $t = 4$ seconds.",
+      "options": [
+        "$6 \\ln 3$ m",
+        "$6 \\ln 6$ m",
+        "$6 \\ln 2$ m",
+        "3 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Displacement is given by $\\int_{0}^{4} \\frac{6}{t+2} \\\\,\\mathrm{d}t = [6\\ln(t+2)]_{0}^{4} = 6\\ln 6 - 6\\ln 2 = 6\\ln(\\frac{6}{2}) = 6\\ln 3$ metres.\n\n**Common mistake:** Option B occurs if the student calculates the upper bound evaluation $6\\ln(4+2) = 6\\ln 6$ but forgets to subtract the lower bound evaluation $6\\ln(0+2) = 6\\ln 2$."
+    },
+    {
+      "id": "ch16-kinematics-q4",
+      "type": "mcq",
+      "question": "A particle's displacement is given by $s = t^3 - 9t^2 + 24t$. Find the values of $t$ for which the velocity of the particle is decreasing.",
+      "options": [
+        "$t < 3$",
+        "$t > 3$",
+        "2 < t < 4",
+        "$t > 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is decreasing when acceleration is negative. Velocity is $v = 3t^2 - 18t + 24$. Acceleration is $a = 6t - 18$. Setting $a < 0 \\implies 6t - 18 < 0 \\implies t < 3$.\n\n**Common mistake:** Option C occurs if the student sets velocity to be negative ($v < 0$) instead of looking at the rate of change of velocity (acceleration)."
+    }
+  ]
+}

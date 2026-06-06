@@ -1,0 +1,49 @@
+{
+  "id": "ch03-factors-and-polynomials-hard",
+  "topicId": "ch03-factors-and-polynomials",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "hard",
+  "title": "Chapter 3: Factors and Polynomials — Hard",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch03-factors-and-polynomials-q1",
+      "type": "mcq",
+      "question": "When the polynomial $x^4 + ax^3 - 2x^2 + bx + 4$ is completely divisible by $x^2 - 1$, find the values of $a$ and $b$.",
+      "options": [
+        "$a = 0, b = -3$",
+        "$a = 1, b = -2$",
+        "$a = -1, b = 2$",
+        "$a = 0, b = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $x^2 - 1 = (x - 1)(x + 1)$, the polynomial must be divisible by both $x - 1$ and $x + 1$. Thus, $f(1) = 1 + a - 2 + b + 4 = 0 \\implies a + b = -3$ and $f(-1) = 1 - a - 2 - b + 4 = 0 \\implies -a - b = -3$. This leads to $a = 0$ and $b = -3$.\n\n**Common mistake:** Students often fail to expand or factor the quadratic divisor, or make sign errors when raising $-1$ to odd powers."
+    },
+    {
+      "id": "ch03-factors-and-polynomials-q2",
+      "type": "mcq",
+      "question": "A polynomial $f(x)$ leaves a remainder of 5 when divided by $x - 2$ and a remainder of -1 when divided by $x + 1$. Find the remainder when $f(x)$ is divided by $(x - 2)(x + 1)$.",
+      "options": [
+        "$2x + 1$",
+        "$3x - 1$",
+        "$x + 3$",
+        "$2x - 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The remainder must be of the form $R(x) = ax + b$. Using the remainder conditions: $R(2) = 2a + b = 5$ and $R(-1) = -a + b = -1$. Subtracting the equations gives $3a = 6 \\implies a = 2$, which gives $b = 1$. The remainder is $2x + 1$.\n\n**Common mistake:** Students often treat the remainder as a constant instead of a linear polynomial when dividing by a quadratic expression."
+    },
+    {
+      "id": "ch03-factors-and-polynomials-q3",
+      "type": "mcq",
+      "question": "Find the range of values of $k$ for which the equation $x^3 - 3x^2 - 9x + k = 0$ has three distinct real roots.",
+      "options": [
+        "$-5 < k < 27$",
+        "$k > 27$",
+        "$k < -5$",
+        "$-27 < k < 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let $f(x) = x^3 - 3x^2 - 9x$. Stationary points occur where $f'(x) = 3x^2 - 6x - 9 = 0 \\implies x = 3, x = -1$. The local maximum is $f(-1) = 5$ and local minimum is $f(3) = -27$. For $f(x) + k = 0$ to have 3 distinct roots, the curve must cross the x-axis three times, requiring $-5 < k < 27$.\n\n**Common mistake:** Students confuse the signs of the local extrema values when translating them into the vertical shift constant $k$."
+    }
+  ]
+}

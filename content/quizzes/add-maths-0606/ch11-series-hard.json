@@ -1,0 +1,36 @@
+{
+  "id": "ch11-series-hard",
+  "topicId": "ch11-series",
+  "chapterId": "ch11-series",
+  "difficulty": "hard",
+  "title": "Chapter 11: Series — Hard",
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "ch11-series-q1",
+      "type": "mcq",
+      "question": "The sum of the first three terms of a geometric progression with a positive common ratio is 38, and the product of these three terms is 1728. Find the value of the common ratio $r$.",
+      "options": [
+        "\\frac{3}{2} \\text{ or } \\frac{2}{3}",
+        "2 \\text{ or } \\frac{1}{2}",
+        "3 \\text{ or } \\frac{1}{3}",
+        "\\frac{4}{3} \\text{ or } \\frac{3}{4}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let the terms be $\\frac{a}{r}, a, ar$. Their product is $a^3 = 1728 \\implies a = 12$. The sum is $\\frac{12}{r} + 12 + 12r = 38 \\implies 12/r + 12r = 26 \\implies 6/r + 6r = 13 \\implies 6r^2 - 13r + 6 = 0$. Factoring gives $(2r - 3)(3r - 2) = 0$, so $r = \\frac{3}{2}$ or $r = \\frac{2}{3}$.\n\n**Common mistake:** Students often misinterpret the product and guess values without setting up the simultaneous equations properly, or make errors when resolving the resulting quadratic equation."
+    },
+    {
+      "id": "ch11-series-q2",
+      "type": "mcq",
+      "question": "An infinite geometric series has a first term $a$ and common ratio $r$. A second series is formed by squaring every term of the original series. Find the sum to infinity of this second series in terms of $a$ and $r$.",
+      "options": [
+        "\\frac{a^2}{1 - r^2}",
+        "\\frac{a^2}{(1 - r)^2}",
+        "\\frac{a^2}{1 - r}",
+        "\\frac{2a}{1 - r^2}"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original series terms are $a, ar, ar^2, \\dots$. The squared terms are $a^2, a^2r^2, a^2r^4, \\dots$. This is a new geometric progression with first term $a' = a^2$ and common ratio $r' = r^2$. Its sum to infinity is $\\frac{a^2}{1 - r^2}$.\n\n**Common mistake:** Students often mistakenly square the entire sum formula rather than squaring the individual components, leading to the incorrect option $\\frac{a^2}{(1-r)^2}$."
+    }
+  ]
+}
