@@ -10,9 +10,9 @@ function evaluate(fn: TrigFn, xDeg: number, a: number, b: number, c: number, d: 
   const x = degToRad(b * xDeg + c)
   if (fn === 'sin') return a * Math.sin(x) + d
   if (fn === 'cos') return a * Math.cos(x) + d
-  const v = a * Math.tan(x) + d
-  if (!Number.isFinite(v)) return NaN
-  return Math.max(-4, Math.min(4, v))
+  const raw = a * Math.tan(x) + d
+  if (!Number.isFinite(raw) || Math.abs(raw) > 20) return NaN
+  return Math.max(-4, Math.min(4, raw))
 }
 
 export function TrigGraphExplorer() {
@@ -36,16 +36,26 @@ export function TrigGraphExplorer() {
 
   const width = 560
   const height = 220
-  const points = useMemo(() => {
-    const pts: string[] = []
+  const segments = useMemo(() => {
+    const lines: string[] = []
+    let current: string[] = []
+
     for (let xDeg = 0; xDeg <= 360; xDeg += 2) {
       const y = evaluate(fn, xDeg, a, b, c, d)
-      if (Number.isNaN(y)) continue
+      if (Number.isNaN(y)) {
+        if (current.length) {
+          lines.push(current.join(' '))
+          current = []
+        }
+        continue
+      }
       const px = (xDeg / 360) * width
       const py = height / 2 - (y / 4) * (height / 2 - 10)
-      pts.push(`${px},${py}`)
+      current.push(`${px},${py}`)
     }
-    return pts.join(' ')
+
+    if (current.length) lines.push(current.join(' '))
+    return lines
   }, [fn, a, b, c, d])
 
   const sliders = [
@@ -105,7 +115,9 @@ export function TrigGraphExplorer() {
           </g>
         ))}
         <line x1={0} y1={height / 2} x2={width} y2={height / 2} stroke="#4a5568" />
-        <polyline points={points} fill="none" stroke="#5b8def" strokeWidth={2.5} />
+        {segments.map((pts, idx) => (
+          <polyline key={idx} points={pts} fill="none" stroke="#5b8def" strokeWidth={2.5} />
+        ))}
       </svg>
 
       <div className="enlight-trig-stats">
