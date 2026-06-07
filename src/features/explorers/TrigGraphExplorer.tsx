@@ -39,19 +39,31 @@ export function TrigGraphExplorer() {
   const segments = useMemo(() => {
     const lines: string[] = []
     let current: string[] = []
+    let prevY: number | null = null
 
     for (let xDeg = 0; xDeg <= 360; xDeg += 2) {
-      const y = evaluate(fn, xDeg, a, b, c, d)
-      if (Number.isNaN(y)) {
+      const rawY = evaluate(fn, xDeg, a, b, c, d)
+      if (Number.isNaN(rawY)) {
         if (current.length) {
           lines.push(current.join(' '))
           current = []
         }
+        prevY = null
         continue
       }
+
+      if (prevY !== null && fn === 'tan' && Math.abs(rawY - prevY) > 8) {
+        if (current.length) {
+          lines.push(current.join(' '))
+          current = []
+        }
+      }
+
+      const y = Math.max(-4, Math.min(4, rawY))
       const px = (xDeg / 360) * width
       const py = height / 2 - (y / 4) * (height / 2 - 10)
       current.push(`${px},${py}`)
+      prevY = rawY
     }
 
     if (current.length) lines.push(current.join(' '))
