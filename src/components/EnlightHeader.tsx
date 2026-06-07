@@ -39,9 +39,9 @@ export function EnlightHeader() {
             <span>{progress.xp} XP</span>
             <span>Streak: {progress.streakDays}d</span>
           </div>
-          <Link to="/demo" className="enlight-btn enlight-btn--primary enlight-btn--sm">
+          <button type="button" className="enlight-btn enlight-btn--primary enlight-btn--sm">
             Sign in
-          </Link>
+          </button>
         </div>
       </div>
     </header>
