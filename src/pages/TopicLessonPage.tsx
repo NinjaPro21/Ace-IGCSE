@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
+import { _EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { ChapterQuizPopout } from '@/components/ChapterQuizPopout'
