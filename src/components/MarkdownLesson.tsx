@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css'
-import type { TopicMeta } from '@/lib/contentTypes'
+import type { TopicMeta, GuidePanel, DiffGuidePanel, VectorGuidePanel, IntegrationGuidePanel, KinematicsGuidePanel } from '@/lib/contentTypes'
 import {
   calloutVariant,
   normalizeMathMarkdown,
@@ -25,6 +25,9 @@ const LineIntersectionExplorer = lazy(() =>
 const TrigGraphExplorer = lazy(() =>
   import('@/features/explorers/TrigGraphExplorer').then((m) => ({ default: m.TrigGraphExplorer })),
 )
+const CastDiagramExplorer = lazy(() =>
+  import('@/features/explorers/CastDiagramExplorer').then((m) => ({ default: m.CastDiagramExplorer })),
+)
 const QuadraticGraphExplorer = lazy(() =>
   import('@/features/explorers/QuadraticGraphExplorer').then((m) => ({ default: m.QuadraticGraphExplorer })),
 )
@@ -36,6 +39,33 @@ const ShoelaceAreaGuide = lazy(() =>
 )
 const ExponentialGraphExplorer = lazy(() =>
   import('@/features/explorers/ExponentialGraphExplorer').then((m) => ({ default: m.ExponentialGraphExplorer })),
+)
+const CircleLineExplorer = lazy(() =>
+  import('@/features/explorers/CircleLineExplorer').then((m) => ({ default: m.CircleLineExplorer })),
+)
+const CircleCircleExplorer = lazy(() =>
+  import('@/features/explorers/CircleCircleExplorer').then((m) => ({ default: m.CircleCircleExplorer })),
+)
+const PncQuestionGuide = lazy(() =>
+  import('@/features/explorers/PncQuestionGuide').then((m) => ({ default: m.PncQuestionGuide })),
+)
+const SeriesVisualGuide = lazy(() =>
+  import('@/features/explorers/SeriesVisualGuide').then((m) => ({ default: m.SeriesVisualGuide })),
+)
+const FunctionsVisualGuide = lazy(() =>
+  import('@/features/explorers/FunctionsVisualGuide').then((m) => ({ default: m.FunctionsVisualGuide })),
+)
+const KinematicsVisualGuide = lazy(() =>
+  import('@/features/explorers/KinematicsVisualGuide').then((m) => ({ default: m.KinematicsVisualGuide })),
+)
+const IntegrationVisualGuide = lazy(() =>
+  import('@/features/explorers/IntegrationVisualGuide').then((m) => ({ default: m.IntegrationVisualGuide })),
+)
+const VectorsVisualGuide = lazy(() =>
+  import('@/features/explorers/VectorsVisualGuide').then((m) => ({ default: m.VectorsVisualGuide })),
+)
+const DifferentiationVisualGuide = lazy(() =>
+  import('@/features/explorers/DifferentiationVisualGuide').then((m) => ({ default: m.DifferentiationVisualGuide })),
 )
 
 type SectionKind =
@@ -336,27 +366,19 @@ function MethodsSection({ section }: { section: NoteSection }) {
   }
 
   if (cards.length >= 1) {
-    const useStack = isKeyFormulas && cards.length > 2
     return (
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-        {useStack ? (
-          <div className="enlight-formula-stack">
-            {cards.map((card, i) => (
-              <div key={i} className="enlight-formula-stack__item">
-                <Md className="enlight-markdown">{card}</Md>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="enlight-formula-strip">
-            {cards.map((card, i) => (
-              <div key={i} className="enlight-formula-strip__item">
-                <Md className="enlight-markdown">{card}</Md>
-              </div>
-            ))}
-          </div>
-        )}
+        <div className={isKeyFormulas ? 'enlight-formula-stack' : 'enlight-formula-strip'}>
+          {cards.map((card, i) => (
+            <div
+              key={i}
+              className={isKeyFormulas ? 'enlight-formula-stack__item' : 'enlight-formula-strip__item'}
+            >
+              <Md className="enlight-markdown">{card}</Md>
+            </div>
+          ))}
+        </div>
       </WorkspaceCard>
     )
   }
@@ -431,15 +453,41 @@ const EXPLORER_LABELS: Record<NonNullable<TopicMeta['explorerId']>, string> = {
   modulus: 'Modulus Graph Explorer',
   'line-intersection': 'Line & Curve Explorer',
   trig: 'Trigonometry Graph Explorer',
+  cast: 'CAST Diagram Explorer',
   quadratic: 'Quadratic Graph Explorer',
   log: 'Logarithm Graph Explorer',
   shoelace: 'Shoelace & Area Methods',
   exponential: 'Exponential Graph Explorer',
+  'circle-line': 'Line & Circle Discriminant',
+  'circle-circle': 'Two Circles Intersection',
+  'pnc-guide': 'PnC Question Breakdown',
+  'series-guide': 'Series Visual Guide',
+  'functions-guide': 'Functions Visual Guide',
+  'differentiation-guide': 'Differentiation Visual Guide',
+  'vectors-guide': 'Vectors Visual Guide',
+  'integration-guide': 'Integration Visual Guide',
+  'kinematics-guide': 'Kinematics Visual Guide',
 }
 
-const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>(['shoelace'])
+const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>([
+  'shoelace',
+  'cast',
+  'pnc-guide',
+  'series-guide',
+  'functions-guide',
+  'differentiation-guide',
+  'vectors-guide',
+  'integration-guide',
+  'kinematics-guide',
+])
 
-function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }) {
+function ExplorerContent({
+  explorerId,
+  explorerPanels,
+}: {
+  explorerId: TopicMeta['explorerId']
+  explorerPanels?: GuidePanel[]
+}) {
   const fallback = (
     <div className="enlight-sandbox-coming-soon">
       <span style={{ fontSize: '1.5rem' }}>⏳</span>
@@ -455,6 +503,8 @@ function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }
       return <Suspense fallback={fallback}><LineIntersectionExplorer /></Suspense>
     case 'trig':
       return <Suspense fallback={fallback}><TrigGraphExplorer /></Suspense>
+    case 'cast':
+      return <Suspense fallback={fallback}><CastDiagramExplorer /></Suspense>
     case 'quadratic':
       return <Suspense fallback={fallback}><QuadraticGraphExplorer /></Suspense>
     case 'log':
@@ -463,6 +513,24 @@ function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }
       return <Suspense fallback={fallback}><ShoelaceAreaGuide /></Suspense>
     case 'exponential':
       return <Suspense fallback={fallback}><ExponentialGraphExplorer /></Suspense>
+    case 'circle-line':
+      return <Suspense fallback={fallback}><CircleLineExplorer /></Suspense>
+    case 'circle-circle':
+      return <Suspense fallback={fallback}><CircleCircleExplorer /></Suspense>
+    case 'pnc-guide':
+      return <Suspense fallback={fallback}><PncQuestionGuide /></Suspense>
+    case 'series-guide':
+      return <Suspense fallback={fallback}><SeriesVisualGuide /></Suspense>
+    case 'functions-guide':
+      return <Suspense fallback={fallback}><FunctionsVisualGuide /></Suspense>
+    case 'differentiation-guide':
+      return <Suspense fallback={fallback}><DifferentiationVisualGuide panels={explorerPanels as DiffGuidePanel[] | undefined} /></Suspense>
+    case 'vectors-guide':
+      return <Suspense fallback={fallback}><VectorsVisualGuide panels={explorerPanels as VectorGuidePanel[] | undefined} /></Suspense>
+    case 'integration-guide':
+      return <Suspense fallback={fallback}><IntegrationVisualGuide panels={explorerPanels as IntegrationGuidePanel[] | undefined} /></Suspense>
+    case 'kinematics-guide':
+      return <Suspense fallback={fallback}><KinematicsVisualGuide panels={explorerPanels as KinematicsGuidePanel[] | undefined} /></Suspense>
     default:
       return (
         <div className="enlight-sandbox-coming-soon">
@@ -473,13 +541,19 @@ function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }
   }
 }
 
-function ExplorerSection({ explorerId }: { explorerId: NonNullable<TopicMeta['explorerId']> }) {
+function ExplorerSection({
+  explorerId,
+  explorerPanels,
+}: {
+  explorerId: NonNullable<TopicMeta['explorerId']>
+  explorerPanels?: GuidePanel[]
+}) {
   const prefix = VISUAL_GUIDE_IDS.has(explorerId) ? 'Visual guide' : 'Interactive'
   return (
     <WorkspaceCard className="enlight-ws-card--explorer">
       <WorkspaceLabel>{`${prefix} · ${EXPLORER_LABELS[explorerId]}`}</WorkspaceLabel>
       <div className="enlight-explorer-card__body">
-        <ExplorerContent explorerId={explorerId} />
+        <ExplorerContent explorerId={explorerId} explorerPanels={explorerPanels} />
       </div>
     </WorkspaceCard>
   )
@@ -553,16 +627,17 @@ function renderSections(sections: NoteSection[]): ReactNode[] {
 interface MarkdownLessonProps {
   content: string
   explorerId?: TopicMeta['explorerId']
+  explorerPanels?: GuidePanel[]
 }
 
-export function MarkdownLesson({ content, explorerId }: MarkdownLessonProps) {
+export function MarkdownLesson({ content, explorerId, explorerPanels }: MarkdownLessonProps) {
   const sections = parseSections(content)
   const visibleSections = sections.filter((s) => s.kind !== 'visual')
 
   return (
     <div className="enlight-note-workspace">
       {renderSections(visibleSections)}
-      {explorerId && <ExplorerSection explorerId={explorerId} />}
+      {explorerId && <ExplorerSection explorerId={explorerId} explorerPanels={explorerPanels} />}
     </div>
   )
 }

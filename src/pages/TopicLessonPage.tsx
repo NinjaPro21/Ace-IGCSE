@@ -141,7 +141,7 @@ export function TopicLessonPage() {
             </p>
 
             <div ref={lessonCardRef} className="enlight-lesson-card">
-              <MarkdownLesson content={notes} explorerId={topic.explorerId} />
+              <MarkdownLesson content={notes} explorerId={topic.explorerId} explorerPanels={topic.explorerPanels} />
             </div>
 
             <div className="enlight-topic-nav">

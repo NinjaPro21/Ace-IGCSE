@@ -32,7 +32,9 @@ export interface TopicMeta {
   /** Rich descriptor shown under the lesson title (nav keeps `subtitle`). */
   lessonMeta?: string
   notesFile: string
-  explorerId?: 'discriminant' | 'trig' | 'modulus' | 'line-intersection' | 'quadratic' | 'log' | 'shoelace' | 'exponential'
+  explorerId?: 'discriminant' | 'trig' | 'cast' | 'modulus' | 'line-intersection' | 'quadratic' | 'log' | 'shoelace' | 'exponential' | 'circle-line' | 'circle-circle' | 'pnc-guide' | 'series-guide' | 'functions-guide' | 'differentiation-guide' | 'vectors-guide' | 'integration-guide' | 'kinematics-guide'
+  /** Panels to show for visual-guide explorers (per-topic subset). */
+  explorerPanels?: GuidePanel[]
   isChapterQuizAnchor?: boolean
   quizIds?: {
     easy: string
@@ -42,6 +44,16 @@ export interface TopicMeta {
   }
   lessonNav?: { id: string; label: string }[]
 }
+
+export type DiffGuidePanel = 'gradient' | 'tangent' | 'approximation' | 'rates' | 'optimization' | 'rules' | 'transcendental'
+
+export type VectorGuidePanel = 'displacement' | 'magnitude' | 'motion'
+
+export type IntegrationGuidePanel = 'indefinite' | 'definite' | 'area'
+
+export type KinematicsGuidePanel = 'chain' | 'graphs' | 'distance'
+
+export type GuidePanel = DiffGuidePanel | VectorGuidePanel | IntegrationGuidePanel | KinematicsGuidePanel
 
 export interface McqQuestion {
   id: string
