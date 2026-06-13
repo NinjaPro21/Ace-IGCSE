@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { GRAPH } from './graphTheme'
 
 type TrigFn = 'sin' | 'cos' | 'tan'
 
@@ -96,7 +97,7 @@ export function TrigGraphExplorer() {
             <text
               x={(deg / 360) * width}
               y={height - 4}
-              fill="#8892a8"
+              fill={GRAPH.muted}
               fontSize={10}
               textAnchor="middle"
             >
@@ -104,7 +105,7 @@ export function TrigGraphExplorer() {
             </text>
           </g>
         ))}
-        <line x1={0} y1={height / 2} x2={width} y2={height / 2} stroke="#4a5568" />
+        <line x1={0} y1={height / 2} x2={width} y2={height / 2} stroke={GRAPH.axis} />
         <polyline points={points} fill="none" stroke="#5b8def" strokeWidth={2.5} />
       </svg>
 

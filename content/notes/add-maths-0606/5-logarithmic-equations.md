@@ -18,19 +18,25 @@ If the equation features identical logs on both sides, equate their inner argume
 
 Solve the resulting equation for $x$, and always substitute your answers back into the original arguments to confirm that no argument becomes zero or negative.
 
-## Worked example
+### Key rule
 
-Solve the equation $\log_2(x) + \log_2(x - 2) = 3$.
+Combine logs using the laws, convert to exponential form, then reject any solution that makes an argument zero or negative.
 
-Apply the Product Law to combine the logs: $\log_2(x(x - 2)) = 3 \implies \log_2(x^2 - 2x) = 3$.
+## Worked example — Product law
 
-Convert the log equation into exponential form: $x^2 - 2x = 2^3 \implies x^2 - 2x = 8$.
+Solve $\log_2(x) + \log_2(x - 2) = 3$.
 
-Rearrange into standard quadratic form: $x^2 - 2x - 8 = 0$.
+Combine: $\log_2(x(x - 2)) = 3 \implies x^2 - 2x = 8 \implies (x - 4)(x + 2) = 0$.
 
-Factorize and solve: $(x - 4)(x + 2) = 0 \implies x = 4$ or $x = -2$.
+$x = 4$ is valid; $x = -2$ gives negative arguments — **reject**. Solution: $x = 4$.
 
-Check for validity: $x = 4$ gives valid positive arguments ($\log_2(4)$ and $\log_2(2)$). However, $x = -2$ creates an invalid negative argument ($\log_2(-2)$). Thus, reject $x = -2$. The only solution is $x = 4$.
+## Worked example — Equating arguments
+
+Solve $\log_5(2x + 1) = \log_5(x + 7)$.
+
+Equate arguments: $2x + 1 = x + 7 \implies x = 6$.
+
+Check: $\log_5(13) = \log_5(13)$ ✓.
 
 ## Examiner tip
 

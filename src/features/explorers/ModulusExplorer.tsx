@@ -67,6 +67,8 @@ function rootsIntersectionCount(a: number, b: number, c: number): string {
   return 'Two distinct roots — two cusp points'
 }
 
+import { GRAPH } from './graphTheme'
+
 export function ModulusExplorer() {
   const [a, setA] = useState(1)
   const [b, setB] = useState(-1)
@@ -244,7 +246,7 @@ export function ModulusExplorer() {
                 key={`gv${i}`}
                 x1={toSvgX(x)} y1={0}
                 x2={toSvgX(x)} y2={H}
-                stroke="#1e2a40" strokeWidth={1}
+                stroke={GRAPH.grid} strokeWidth={1}
               />
             )
           })}
@@ -255,16 +257,16 @@ export function ModulusExplorer() {
                 key={`gh${i}`}
                 x1={0} y1={toSvgY(y)}
                 x2={W} y2={toSvgY(y)}
-                stroke="#1e2a40" strokeWidth={1}
+                stroke={GRAPH.grid} strokeWidth={1}
               />
             )
           })}
 
           {/* Axes */}
-          <line x1={toSvgX(0)} y1={0} x2={toSvgX(0)} y2={H} stroke="#4a5568" strokeWidth={1.5} />
-          <line x1={0} y1={toSvgY(0)} x2={W} y2={toSvgY(0)} stroke="#4a5568" strokeWidth={1.5} />
-          <text x={toSvgX(0) + 4} y={8} fill="#4a5568" fontSize={10}>y</text>
-          <text x={W - 12} y={toSvgY(0) - 4} fill="#4a5568" fontSize={10}>x</text>
+          <line x1={toSvgX(0)} y1={0} x2={toSvgX(0)} y2={H} stroke={GRAPH.axis} strokeWidth={1.5} />
+          <line x1={0} y1={toSvgY(0)} x2={W} y2={toSvgY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
+          <text x={toSvgX(0) + 4} y={8} fill={GRAPH.label} fontSize={10}>y</text>
+          <text x={W - 12} y={toSvgY(0) - 4} fill={GRAPH.label} fontSize={10}>x</text>
 
           {/* Original curve (faint guide when modulus is on) */}
           {modulus && hasNegative && (

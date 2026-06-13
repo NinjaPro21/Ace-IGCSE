@@ -18,6 +18,24 @@ Substitute this exact fraction or integer directly into every variable instance 
 
 Evaluate the arithmetic operations completely; if the final total equals zero, conclude definitively that (ax−b) is a factor.
 
+### Key rule
+
+If $f(c) = 0$, then $(x - c)$ is a factor; always substitute the root from the linear factor — for $(x + 3)$, evaluate $f(-3)$, not $f(3)$.
+
+## Worked example — Testing $(x - 2)$
+
+Show that $(x - 2)$ is a factor of $f(x) = x^3 - 3x^2 - 4x + 12$.
+
+Evaluate $f(2) = 8 - 12 - 8 + 12 = 0$. Since $f(2) = 0$, $(x - 2)$ is a factor.
+
+## Worked example — Testing $(2x - 3)$
+
+Is $(2x - 3)$ a factor of $f(x) = 2x^3 - 7x^2 + 7x - 3$?
+
+Set $2x - 3 = 0 \implies x = \frac{3}{2}$. Evaluate $f\left(\frac{3}{2}\right) = \frac{27}{4} - \frac{63}{4} + \frac{21}{2} - 3 = 0$.
+
+Since $f\left(\frac{3}{2}\right) = 0$, $(2x - 3)$ is a factor.
+
 ## Examiner tip
 
 Examiners frequently trick students by changing the sign of the root value inside the polynomial. If you are testing whether (x+3) is a factor, you must evaluate f(−3), not f(3). Substituting the wrong sign will invalidate your analysis and cause you to miss points.

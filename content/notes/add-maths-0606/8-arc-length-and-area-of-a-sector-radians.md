@@ -20,6 +20,22 @@ To find the total area of the pizza-shaped sector, square the radius, multiply b
 
 To find the area of a segment, subtract the area of the central triangle ($\frac{1}{2}r^2\sin\theta$) from the total sector area.
 
+### Key rule
+
+Radians only: $s = r\theta$ and $A = \frac{1}{2}r^2\theta$. Convert degrees with $\theta_{\text{rad}} = \theta_{\text{deg}} \times \frac{\pi}{180}$.
+
+## Worked example — Arc length
+
+A sector has radius $6$ cm and central angle $\frac{\pi}{3}$ radians. Find the arc length.
+
+$$s = r\theta = 6 \times \frac{\pi}{3} = 2\pi \text{ cm}$$
+
+## Worked example — Sector area
+
+Find the area of a sector with radius $10$ cm and angle $1.2$ radians.
+
+$$A = \frac{1}{2}r^2\theta = \frac{1}{2}(10)^2(1.2) = 60 \text{ cm}^2$$
+
 ## Examiner tip
 
 Always make sure your calculator is switched to Radian (RAD) mode when evaluating trigonometric functions (like $\sin\theta$ for a triangle area) in circular measure questions. Leaving your calculator in Degree (DEG) mode will lead to incorrect answers.

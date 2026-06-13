@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { GRAPH } from './graphTheme'
 
 const W = 480
 const H = 340
@@ -197,24 +198,24 @@ export function LineIntersectionExplorer() {
             const x = X_MIN + (i * (X_MAX - X_MIN)) / 12
             return (
               <line key={`gv${i}`} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H}
-                stroke="#1e2a40" strokeWidth={1} />
+                stroke={GRAPH.grid} strokeWidth={1} />
             )
           })}
           {[...Array(11)].map((_, i) => {
             const y = Y_MIN + (i * (Y_MAX - Y_MIN)) / 10
             return (
               <line key={`gh${i}`} x1={0} y1={toSvgY(y)} x2={W} y2={toSvgY(y)}
-                stroke="#1e2a40" strokeWidth={1} />
+                stroke={GRAPH.grid} strokeWidth={1} />
             )
           })}
 
           {/* Axes */}
           <line x1={toSvgX(0)} y1={0} x2={toSvgX(0)} y2={H}
-            stroke="#4a5568" strokeWidth={1.5} />
+            stroke={GRAPH.axis} strokeWidth={1.5} />
           <line x1={0} y1={toSvgY(0)} x2={W} y2={toSvgY(0)}
-            stroke="#4a5568" strokeWidth={1.5} />
-          <text x={toSvgX(0) + 4} y={10} fill="#4a5568" fontSize={10}>y</text>
-          <text x={W - 12} y={toSvgY(0) - 4} fill="#4a5568" fontSize={10}>x</text>
+            stroke={GRAPH.axis} strokeWidth={1.5} />
+          <text x={toSvgX(0) + 4} y={10} fill={GRAPH.label} fontSize={10}>y</text>
+          <text x={W - 12} y={toSvgY(0) - 4} fill={GRAPH.label} fontSize={10}>x</text>
 
           {/* Axis labels */}
           {[-4, -2, 2, 4].map((n) => (

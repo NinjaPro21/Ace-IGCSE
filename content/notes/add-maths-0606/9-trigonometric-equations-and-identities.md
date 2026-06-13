@@ -22,6 +22,26 @@ Find the principal value angle by taking the inverse ratio ($\sin^{-1}$) of the 
 
 Use the ASTC quadrant framework to find all valid secondary angles that fall within the requested domain boundary limits.
 
+### Key rule
+
+Reduce to one trig function using identities, then find **all** solutions in the given domain — principal value alone is rarely enough.
+
+## Worked example — Basic equation
+
+Solve $\cos x = \frac{1}{2}$ for $0 \le x \le 2\pi$.
+
+Principal value: $x = \frac{\pi}{3}$. Cosine is also positive in Q4.
+
+$$x = \frac{\pi}{3} \quad \text{or} \quad x = 2\pi - \frac{\pi}{3} = \frac{5\pi}{3}$$
+
+## Worked example — Quadratic in $\sin x$
+
+Solve $2\sin^2 x - \sin x - 1 = 0$ for $0 \le x \le 2\pi$.
+
+Let $u = \sin x$: $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0 \implies u = -\frac{1}{2}$ or $u = 1$
+
+$$\sin x = -\frac{1}{2} \implies x = \frac{7\pi}{6},\; \frac{11\pi}{6}; \qquad \sin x = 1 \implies x = \frac{\pi}{2}$$
+
 ## Examiner tip
 
 Always check the domain limits specified in the question. If the domain is given in radians ($0 \le x \le 2\pi$), your answers must be expressed in radians (often as multiples of $\pi$). Giving your answers in degrees will result in a loss of marks.

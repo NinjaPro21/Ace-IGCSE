@@ -18,17 +18,31 @@ Substitute every calculated potential answer back into the original unmodified e
 
 Discard any solution that causes the non-modulus side g(x) to output a negative number, classifying it as an invalid extraneous solution.
 
-## Worked example
+### Key rule
 
-Solve the equation $|2x - 3| = x + 1$.
+Split $|f(x)| = g(x)$ into $f(x) = g(x)$ and $-f(x) = g(x)$, then reject any solution where $g(x) < 0$.
 
-Case 1 ($+x$): $2x - 3 = x + 1 \implies x = 4$.
+## Worked example — Two valid solutions
 
-Case 2 ($-x$): $-(2x - 3) = x + 1 \implies -2x + 3 = x + 1 \implies 2 = 3x \implies x = \frac{2}{3}$.
+Solve $|2x - 3| = x + 1$.
 
-Check $x = 4$: $|2(4) - 3| = 5$ and $(4) + 1 = 5$. This matches, so $x = 4$ is valid.
+Case 1: $2x - 3 = x + 1 \implies x = 4$.
 
-Check $x = \frac{2}{3}$: $\left|2\left(\frac{2}{3}\right) - 3\right| = \left| -\frac{5}{3} \right| = \frac{5}{3}$ and $\frac{2}{3} + 1 = \frac{5}{3}$. This matches, so $x = \frac{2}{3}$ is valid.
+Case 2: $-(2x - 3) = x + 1 \implies x = \frac{2}{3}$.
+
+Check $x = 4$: $|5| = 5$ and $4 + 1 = 5$ ✓. Check $x = \frac{2}{3}$: both sides equal $\frac{5}{3}$ ✓.
+
+Solutions: $x = 4$ or $x = \frac{2}{3}$.
+
+## Worked example — Rejecting extraneous roots
+
+Solve $|x - 1| = 2x$.
+
+Case 1: $x - 1 = 2x \implies x = -1$. Check: $|{-1} - 1| = 2$ but $2(-1) = -2$ — **reject**.
+
+Case 2: $-(x - 1) = 2x \implies x = \frac{1}{3}$. Check: $|{-\frac{2}{3}}| = \frac{2}{3}$ and $2(\frac{1}{3}) = \frac{2}{3}$ ✓.
+
+Only solution: $x = \frac{1}{3}$.
 
 ## Examiner tip
 

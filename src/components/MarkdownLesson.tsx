@@ -1,4 +1,4 @@
-import { lazy, Suspense, type ReactNode } from 'react'
+import { lazy, Suspense, useState, type ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -10,6 +10,7 @@ import {
   parseContentCards,
   parseStepsWithCallouts,
   parseWorkedExampleSteps,
+  workedExampleTitle,
 } from '@/lib/mathMarkdown'
 
 const DiscriminantExplorer = lazy(() =>
@@ -70,6 +71,7 @@ const SHORT_PHASE = ['Sub', 'Rearr', 'Formula', 'Solve', 'Check'] as const
 
 function resolveSectionKind(heading: string): SectionKind {
   const lower = heading.toLowerCase()
+  if (/^worked examples?(\s|$)/i.test(heading)) return 'worked-example'
   if (HEADING_MAP[lower]) return HEADING_MAP[lower]
   if (/^method\s+\d+/i.test(heading)) return 'method-block'
   return 'generic'
@@ -159,12 +161,21 @@ function StepList({ steps }: { steps: string[] }) {
   )
 }
 
-function WorkedExamplePanel({ body, heading = 'Worked example' }: { body: string; heading?: string }) {
+function WorkedExamplePanel({
+  body,
+  heading = 'Worked example',
+}: {
+  body: string
+  heading?: string
+}) {
   const exampleSteps = parseWorkedExampleSteps(body)
+  const showHeading = heading.length > 0
 
   return (
-    <div className="enlight-concept-module__example-panel">
-      <div className="enlight-concept-module__example-heading">{heading}</div>
+    <div className="enlight-example-block">
+      {showHeading && (
+        <div className="enlight-concept-module__example-heading">{heading}</div>
+      )}
       {exampleSteps.length > 1 ? (
         <div className="enlight-we-phase-rows">
           {exampleSteps.map((step, i) => {
@@ -187,9 +198,96 @@ function WorkedExamplePanel({ body, heading = 'Worked example' }: { body: string
           })}
         </div>
       ) : (
-        <Md className="enlight-markdown">{body}</Md>
+        <Md className="enlight-markdown enlight-example-block__body">{body}</Md>
       )}
     </div>
+  )
+}
+
+function ExamplesPanel({ examples }: { examples: NoteSection[] }) {
+  return (
+    <div className="enlight-examples-panel" aria-label="Worked examples">
+      <div className="enlight-examples-panel__stack">
+        {examples.map((ex, i) => (
+          <WorkedExamplePanel
+            key={i}
+            heading={workedExampleTitle(ex.heading)}
+            body={ex.body}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+type MethodTab = 'steps' | 'examples'
+
+function MethodTabbedCard({
+  stepsSection,
+  examples,
+}: {
+  stepsSection: NoteSection
+  examples: NoteSection[]
+}) {
+  const [tab, setTab] = useState<MethodTab>('steps')
+  const { steps, callouts } = parseStepsWithCallouts(stepsSection.body)
+  const label = stepsSection.heading.replace(/^method\s+\d+\s*[—–-]\s*/i, '').trim()
+  const methodNum = stepsSection.heading.match(/^method\s+(\d+)/i)?.[1]
+  const wsLabel = methodNum ? `Method ${methodNum} — ${label}` : stepsSection.heading
+
+  return (
+    <WorkspaceCard className="enlight-ws-card--tabbed">
+      <WorkspaceLabel>{wsLabel}</WorkspaceLabel>
+      <div className="enlight-lesson-tabs" role="tablist" aria-label={`${wsLabel} sections`}>
+        <button
+          type="button"
+          role="tab"
+          id="tab-steps"
+          aria-selected={tab === 'steps'}
+          aria-controls="panel-steps"
+          className={`enlight-lesson-tabs__btn${tab === 'steps' ? ' enlight-lesson-tabs__btn--active' : ''}`}
+          onClick={() => setTab('steps')}
+        >
+          Steps
+        </button>
+        <button
+          type="button"
+          role="tab"
+          id="tab-examples"
+          aria-selected={tab === 'examples'}
+          aria-controls="panel-examples"
+          className={`enlight-lesson-tabs__btn${tab === 'examples' ? ' enlight-lesson-tabs__btn--active' : ''}`}
+          onClick={() => setTab('examples')}
+        >
+          Worked examples
+          {examples.length > 1 && (
+            <span className="enlight-lesson-tabs__count">{examples.length}</span>
+          )}
+        </button>
+      </div>
+      {tab === 'steps' ? (
+        <div
+          role="tabpanel"
+          id="panel-steps"
+          aria-labelledby="tab-steps"
+          className="enlight-lesson-tabs__panel"
+        >
+          <StepList steps={steps} />
+          {callouts.map((c, i) => (
+            <InlineCalloutBox key={i} label={c.label} body={c.body} />
+          ))}
+        </div>
+      ) : (
+        <div
+          role="tabpanel"
+          id="panel-examples"
+          aria-labelledby="tab-examples"
+          className="enlight-lesson-tabs__panel"
+        >
+          <ExamplesPanel examples={examples} />
+        </div>
+      )}
+    </WorkspaceCard>
   )
 }
 
@@ -224,61 +322,63 @@ function DecisionGridSection({ section }: { section: NoteSection }) {
 
 function MethodsSection({ section }: { section: NoteSection }) {
   const cards = parseContentCards(section.body)
-  if (cards.length >= 3) {
+  const isKeyFormulas = section.heading.toLowerCase() === 'key formulas'
+
+  // Decision grid is for taxonomy cards (mapping types etc.), not formula lists
+  if (cards.length >= 3 && !isKeyFormulas) {
     return <DecisionGridSection section={{ ...section, kind: 'methods' }} />
   }
+
   if (cards.length >= 1) {
+    const useStack = isKeyFormulas && cards.length > 2
     return (
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-        <div className="enlight-formula-strip">
-          {cards.map((card, i) => (
-            <div key={i} className="enlight-formula-strip__item">
-              <Md className="enlight-markdown">{card}</Md>
-            </div>
-          ))}
-        </div>
+        {useStack ? (
+          <div className="enlight-formula-stack">
+            {cards.map((card, i) => (
+              <div key={i} className="enlight-formula-stack__item">
+                <Md className="enlight-markdown">{card}</Md>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="enlight-formula-strip">
+            {cards.map((card, i) => (
+              <div key={i} className="enlight-formula-strip__item">
+                <Md className="enlight-markdown">{card}</Md>
+              </div>
+            ))}
+          </div>
+        )}
       </WorkspaceCard>
     )
   }
   return null
 }
 
-function MethodWorkspaceCard({
-  stepsSection,
-  exampleSection,
-}: {
-  stepsSection: NoteSection
-  exampleSection?: NoteSection
-}) {
+function MethodWorkspaceCard({ stepsSection }: { stepsSection: NoteSection }) {
   const { steps, callouts } = parseStepsWithCallouts(stepsSection.body)
   const label = stepsSection.heading.replace(/^method\s+\d+\s*[—–-]\s*/i, '').trim()
   const methodNum = stepsSection.heading.match(/^method\s+(\d+)/i)?.[1]
-  const wsLabel = methodNum
-    ? `Method ${methodNum} — ${label}`
-    : stepsSection.heading
+  const wsLabel = methodNum ? `Method ${methodNum} — ${label}` : stepsSection.heading
 
   return (
     <WorkspaceCard>
       <WorkspaceLabel>{wsLabel}</WorkspaceLabel>
-      <div className={exampleSection ? 'enlight-concept-module' : 'enlight-concept-module enlight-concept-module--solo'}>
-        <div className="enlight-concept-module__steps">
-          <StepList steps={steps} />
-          {callouts.map((c, i) => (
-            <InlineCalloutBox key={i} label={c.label} body={c.body} />
-          ))}
-        </div>
-        {exampleSection && <WorkedExamplePanel body={exampleSection.body} />}
-      </div>
+      <StepList steps={steps} />
+      {callouts.map((c, i) => (
+        <InlineCalloutBox key={i} label={c.label} body={c.body} />
+      ))}
     </WorkspaceCard>
   )
 }
 
-function WorkedExampleSection({ section }: { section: NoteSection }) {
+function WorkedExamplesOnlySection({ examples }: { examples: NoteSection[] }) {
   return (
-    <WorkspaceCard>
-      <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-      <WorkedExamplePanel body={section.body} heading="" />
+    <WorkspaceCard className="enlight-ws-card--tabbed">
+      <WorkspaceLabel>Worked examples</WorkspaceLabel>
+      <ExamplesPanel examples={examples} />
     </WorkspaceCard>
   )
 }
@@ -362,7 +462,7 @@ function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }
 function ExplorerSection({ explorerId }: { explorerId: NonNullable<TopicMeta['explorerId']> }) {
   return (
     <WorkspaceCard className="enlight-ws-card--explorer">
-      <WorkspaceLabel>Interactive · {EXPLORER_LABELS[explorerId]}</WorkspaceLabel>
+      <WorkspaceLabel>{`Interactive · ${EXPLORER_LABELS[explorerId]}`}</WorkspaceLabel>
       <div className="enlight-explorer-card__body">
         <ExplorerContent explorerId={explorerId} />
       </div>
@@ -376,22 +476,36 @@ function renderSections(sections: NoteSection[]): ReactNode[] {
 
   while (idx < sections.length) {
     const section = sections[idx]
-    const next = sections[idx + 1]
+    const isStepsLike = section.kind === 'steps' || section.kind === 'method-block'
 
-    const isStepsLike =
-      section.kind === 'steps' || section.kind === 'method-block'
-
-    if (isStepsLike && next?.kind === 'worked-example') {
-      elements.push(
-        <MethodWorkspaceCard key={idx} stepsSection={section} exampleSection={next} />,
-      )
-      idx += 2
+    if (isStepsLike) {
+      const examples: NoteSection[] = []
+      let j = idx + 1
+      while (j < sections.length && sections[j].kind === 'worked-example') {
+        examples.push(sections[j])
+        j++
+      }
+      if (examples.length > 0) {
+        elements.push(
+          <MethodTabbedCard key={idx} stepsSection={section} examples={examples} />,
+        )
+        idx = j
+      } else {
+        elements.push(<MethodWorkspaceCard key={idx} stepsSection={section} />)
+        idx++
+      }
       continue
     }
 
-    if (isStepsLike) {
-      elements.push(<MethodWorkspaceCard key={idx} stepsSection={section} />)
-      idx++
+    if (section.kind === 'worked-example') {
+      const examples: NoteSection[] = []
+      let j = idx
+      while (j < sections.length && sections[j].kind === 'worked-example') {
+        examples.push(sections[j])
+        j++
+      }
+      elements.push(<WorkedExamplesOnlySection key={idx} examples={examples} />)
+      idx = j
       continue
     }
 
@@ -404,9 +518,6 @@ function renderSections(sections: NoteSection[]): ReactNode[] {
         break
       case 'methods':
         elements.push(<MethodsSection key={idx} section={section} />)
-        break
-      case 'worked-example':
-        elements.push(<WorkedExampleSection key={idx} section={section} />)
         break
       case 'examiner-tip':
       case 'key-rule':

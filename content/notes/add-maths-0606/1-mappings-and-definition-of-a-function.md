@@ -30,13 +30,21 @@ If it passes the vertical line test, apply the **horizontal line test** to deter
 
 A mapping is a function only if every input has exactly one output. Always state the domain when defining a function.
 
-## Worked example
+## Worked example — Not a function
 
 Does the mapping $f(x) = \pm\sqrt{x}$ define a function on $x \ge 0$?
 
 For $x = 4$, the outputs are $f(4) = 2$ and $f(4) = -2$ — two outputs for one input.
 
 This is a **one-to-many** mapping, so it is **not a function**.
+
+## Worked example — Domain restriction
+
+Is $f(x) = \sqrt{x}$ a function?
+
+On $x \ge 0$, each input has exactly one non-negative output — **valid function**.
+
+On all real $x$, negative inputs have no real output — must restrict domain to $x \ge 0$.
 
 ## Examiner tip
 

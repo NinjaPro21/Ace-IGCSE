@@ -39,7 +39,13 @@ export function EnlightChapterCard({ chapter, status }: EnlightChapterCardProps)
       <p className="enlight-chapter-card__summary">{chapter.summary}</p>
       <div className="enlight-chapter-card__footer">
         <span className={`enlight-status-dot ${statusClass}`}>{STATUS_LABEL[status]}</span>
-        <span aria-hidden>→</span>
+        <div className="enlight-chapter-card__meta">
+          <span className="enlight-chapter-card__count">{topics.length} topic{topics.length !== 1 ? 's' : ''}</span>
+          {chapter.hasChapterQuiz && (
+            <span className="enlight-chapter-card__quiz-badge">Quiz</span>
+          )}
+          <span aria-hidden>→</span>
+        </div>
       </div>
     </Link>
   )

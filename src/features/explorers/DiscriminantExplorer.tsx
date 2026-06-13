@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { GRAPH } from './graphTheme'
 
 const A = 1
 const B = 2
@@ -99,8 +100,8 @@ export function DiscriminantExplorer() {
               />
             )
           })}
-          <line x1={toX(0)} y1={0} x2={toX(0)} y2={height} stroke="#4a5568" strokeWidth={1.5} />
-          <line x1={0} y1={toY(0)} x2={width} y2={toY(0)} stroke="#4a5568" strokeWidth={1.5} />
+          <line x1={toX(0)} y1={0} x2={toX(0)} y2={height} stroke={GRAPH.axis} strokeWidth={1.5} />
+          <line x1={0} y1={toY(0)} x2={width} y2={toY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
           <polyline
             points={pathPoints.join(' ')}
             fill="none"

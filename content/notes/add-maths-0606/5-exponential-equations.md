@@ -18,6 +18,24 @@ Apply the Power Law of logarithms to move the exponent variable down in front of
 
 Rearrange the resulting linear equation using division to isolate the variable, or use a substitution variable (u=ax) if the equation matches a hidden quadratic pattern.
 
+### Key rule
+
+Take logarithms of both sides, then use the Power Law to bring the exponent down as a linear multiplier.
+
+## Worked example — Simple exponential
+
+Solve $3^x = 27$.
+
+Take $\log$ of both sides: $x\log 3 = \log 27 = \log 3^3 = 3\log 3$. So $x = 3$.
+
+## Worked example — Hidden quadratic
+
+Solve $2^{2x} - 5 \cdot 2^x + 4 = 0$.
+
+Let $u = 2^x$: $u^2 - 5u + 4 = 0 \implies (u - 1)(u - 4) = 0$. So $u = 1$ or $u = 4$.
+
+$2^x = 1 \implies x = 0$; $2^x = 4 \implies x = 2$.
+
 ## Examiner tip
 
 When solving exponential equations that simplify to a quadratic format (e.g., equations involving 32x and 3x), remember that substituting u=3x might yield a negative value for u. You must reject any negative value of u because an exponential term like 3x can never output a negative number.

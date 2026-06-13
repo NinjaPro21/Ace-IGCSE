@@ -22,15 +22,25 @@ Reflect the part below the x-axis ($y < 0$) vertically upwards and erase the ori
 
 The minimum value of $y = |mx + c|$ is always **0**, occurring at the x-intercept of the original line.
 
-## Worked example
+## Worked example — Sketching the graph
 
-Sketch $y = |2x - 4|$. Find the vertex and x-intercepts.
+Sketch $y = |2x - 4|$. Find the vertex.
 
 Original line: $y = 2x - 4$. x-intercept when $2x - 4 = 0 \Rightarrow x = 2$.
 
 For $x \ge 2$, keep $y = 2x - 4$. For $x < 2$, reflect: $y = -(2x - 4) = -2x + 4$.
 
-Vertex at $(2, 0)$. The graph is V-shaped with minimum value $0$ at $x = 2$.
+Vertex at $(2, 0)$ — V-shaped graph with minimum value $0$.
+
+## Worked example — Solving an equation
+
+Solve $|2x - 4| = 3$.
+
+Case 1: $2x - 4 = 3 \Rightarrow x = \frac{7}{2}$.
+
+Case 2: $2x - 4 = -3 \Rightarrow x = \frac{1}{2}$.
+
+Both solutions are valid since $k = 3 \ge 0$.
 
 ## Examiner tip
 

@@ -22,6 +22,22 @@ When differentiating a natural logarithm function, place the derivative of the i
 
 For complex combinations, use the product or quotient rules alongside these transcendental derivative steps.
 
+### Key rule
+
+Differentiate the outer function while keeping the inner expression intact, then multiply by the derivative of the inner expression. Watch the **minus sign** when differentiating $\cos$.
+
+## Worked example — Exponential and logarithm
+
+Differentiate $y = e^{3x - 1}$ and $y = \ln(2x + 5)$.
+
+$$\frac{dy}{dx} = 3e^{3x - 1}, \quad \frac{dy}{dx} = \frac{2}{2x + 5}$$
+
+## Worked example — Trigonometric
+
+Differentiate $y = \sin(2x + \pi)$ and $y = \cos(4x)$.
+
+$$\frac{dy}{dx} = 2\cos(2x + \pi), \quad \frac{dy}{dx} = -4\sin(4x)$$
+
 ## Examiner tip
 
 Pay close attention to signs when differentiating trigonometric functions. Differentiating a sine function gives a positive cosine function, but differentiating a cosine function introduces a negative sign, resulting in a negative sine function.

@@ -20,6 +20,22 @@ For a &quot;greater than&quot; inequality, split the expression into two separat
 
 Alternatively, if both sides contain variables, square both sides completely to remove the modulus effect, rearrange the terms into a standard quadratic inequality, and solve for your intervals.
 
+### Key rule
+
+For $|f(x)| < k$, write $-k < f(x) < k$; for $|f(x)| > k$, split into two separate inequalities $f(x) > k$ or $f(x) < -k$.
+
+## Worked example — Less than inequality
+
+Solve $|x - 3| < 5$.
+
+Remove the modulus: $-5 < x - 3 < 5$. Add 3 throughout: $-2 < x < 8$.
+
+## Worked example — Greater than inequality
+
+Solve $|2x + 1| \ge 7$.
+
+Split: $2x + 1 \ge 7$ or $2x + 1 \le -7$. So $x \ge 3$ or $x \le -4$.
+
 ## Examiner tip
 
 When multiplying or dividing any inequality expression by a negative number during your rearrangement steps, remember to reverse the direction of the inequality sign. Forgetting to flip the sign is a common error that completely inverts your final intervals.

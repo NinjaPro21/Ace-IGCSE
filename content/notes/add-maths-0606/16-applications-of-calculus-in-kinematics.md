@@ -22,6 +22,28 @@ To find when an object changes direction or comes to a temporary stop, set the v
 
 To find the total distance traveled when an object changes direction, split the integration interval into separate time periods at the turning points.
 
+### Key rule
+
+Differentiate to go from displacement → velocity → acceleration. Integrate in reverse. Displacement uses $\int v\, dt$; total distance uses $\int |v|\, dt$ when direction changes.
+
+## Worked example — Velocity from displacement
+
+A particle has displacement $s = t^2 + 3t$ (metres) at time $t$ (seconds). Find its velocity at $t = 4$.
+
+$$v = \frac{ds}{dt} = 2t + 3$$
+
+At $t = 4$: $v = 11\,\text{m/s}$.
+
+## Worked example — Displacement from acceleration
+
+A particle has acceleration $a = 6t\,\text{m/s}^2$. Given $v = 2\,\text{m/s}$ when $t = 0$, find $v$ and $s$ at $t = 3$.
+
+$$v = \int 6t\, dt = 3t^2 + C \implies v(0) = 2 \implies C = 2$$
+
+$$v = 3t^2 + 2 \implies v(3) = 29\,\text{m/s}$$
+
+$$s = \int (3t^2 + 2)\, dt = t^3 + 2t + C' \implies s(3) = 33\,\text{m}$$
+
 ## Examiner tip
 
 Be careful to distinguish between the terms &quot;displacement&quot; and &quot;total distance traveled&quot;. Displacement is a vector that measures the straight-line distance from the starting point, while total distance tracks the entire path length traveled, requiring you to account for any changes in direction.

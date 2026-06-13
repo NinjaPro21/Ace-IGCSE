@@ -22,6 +22,34 @@ Differentiate the first derivative a second time to find the second derivative e
 
 Substitute the stationary $x$-coordinates into the second derivative. If the result is positive, classify it as a minimum; if negative, classify it as a maximum.
 
+### Key rule
+
+Set $\frac{dy}{dx} = 0$ to find stationary points, then use $\frac{d^2y}{dx^2}$ to classify them. Always show the second derivative test in optimization questions.
+
+## Worked example — Classifying turning points
+
+Find and classify the stationary points of $y = x^3 - 3x^2 + 2$.
+
+$$\frac{dy}{dx} = 3x^2 - 6x = 3x(x - 2) = 0 \implies x = 0 \text{ or } x = 2$$
+
+At $x = 0$, $y = 2$. At $x = 2$, $y = -2$.
+
+$$\frac{d^2y}{dx^2} = 6x - 6$$
+
+At $x = 0$: $\frac{d^2y}{dx^2} = -6 < 0$ → **maximum** at $(0, 2)$.
+
+At $x = 2$: $\frac{d^2y}{dx^2} = 6 > 0$ → **minimum** at $(2, -2)$.
+
+## Worked example — Simple optimization
+
+A rectangle has perimeter $20\,\text{cm}$. If one side is $x\,\text{cm}$, the area is $A = x(10 - x) = 10x - x^2$.
+
+$$\frac{dA}{dx} = 10 - 2x = 0 \implies x = 5$$
+
+$$\frac{d^2A}{dx^2} = -2 < 0 \implies \text{maximum area at } x = 5$$
+
+Maximum area $= 5 \times 5 = 25\,\text{cm}^2$.
+
 ## Examiner tip
 
 When solving practical word problems (such as finding the maximum volume of a box), always show the second derivative test explicitly to justify why your answer is a maximum or minimum. Simply finding the value of $x$ without testing it will result in a loss of marks.

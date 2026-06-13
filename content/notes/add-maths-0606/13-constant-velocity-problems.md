@@ -22,6 +22,24 @@ Separate the combined vector equation into two independent scalar equations: one
 
 Solve for time $t$ in both equations; if the calculated time values are identical, a collision occurs at that moment.
 
+### Key rule
+
+Position at time $t$ is $\mathbf{r} = \mathbf{r}_0 + \mathbf{v}t$. For a collision, both component equations must give the **same** value of $t$.
+
+## Worked example — Position at time $t$
+
+A particle starts at $\mathbf{r}_0 = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$ with velocity $\mathbf{v} = \begin{pmatrix} 3 \\ -1 \end{pmatrix}$. Find its position at $t = 4$.
+
+$$\mathbf{r} = \begin{pmatrix} 1 \\ 2 \end{pmatrix} + 4\begin{pmatrix} 3 \\ -1 \end{pmatrix} = \begin{pmatrix} 13 \\ -2 \end{pmatrix}$$
+
+## Worked example — Collision check
+
+Particle P: $\mathbf{r}_P = \begin{pmatrix} 0 \\ 0 \end{pmatrix} + t\begin{pmatrix} 2 \\ 1 \end{pmatrix}$. Particle Q: $\mathbf{r}_Q = \begin{pmatrix} 6 \\ 0 \end{pmatrix} + t\begin{pmatrix} -1 \\ 2 \end{pmatrix}$.
+
+Equating components: $2t = 6 - t \implies t = 2$ and $t = 2t \implies t = 0$.
+
+Since $t = 2$ and $t = 0$ are **not equal**, the particles do **not** collide.
+
 ## Examiner tip
 
 Remember that speed and velocity are different terms. Velocity is a vector quantity containing components or a direction, while speed is a single scalar number representing the magnitude of that velocity vector.

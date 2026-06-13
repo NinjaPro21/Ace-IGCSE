@@ -848,6 +848,7 @@
 
 .enlight-graph-canvas {
   background: var(--enlight-graph-bg);
+  border: 1px solid var(--enlight-border);
   border-radius: 12px;
   width: 100%;
   min-height: 280px;
@@ -1088,7 +1089,9 @@
 
 .enlight-markdown .katex-display {
   margin: 16px 0;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 /* Mastery path on lesson */
@@ -1279,7 +1282,9 @@
 
 .enlight-math-block .katex-display {
   margin: 12px 0;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .enlight-page-padding {
@@ -1504,7 +1509,149 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 56rem;
+  max-width: 64rem;
+}
+
+/* Method / examples tabs */
+.enlight-lesson-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  border-bottom: 1px solid var(--enlight-border);
+}
+
+.enlight-lesson-tabs__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 0;
+  background: transparent;
+  font-family: var(--enlight-font-sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--enlight-text-light);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+
+.enlight-lesson-tabs__btn:hover {
+  color: var(--enlight-text);
+  background: var(--enlight-bg-alt);
+}
+
+.enlight-lesson-tabs__btn--active {
+  color: var(--enlight-text);
+  font-weight: 600;
+  background: #ffffff;
+  border-color: var(--enlight-border);
+  border-bottom-color: #ffffff;
+  box-shadow: inset 0 -2px 0 var(--enlight-gold);
+}
+
+.enlight-lesson-tabs__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--enlight-formula-bg);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--enlight-gold-dark);
+}
+
+.enlight-lesson-tabs__panel {
+  min-height: 120px;
+}
+
+.enlight-examples-panel {
+  background: #f7f4ef;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.enlight-examples-panel__stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.enlight-ws-card--tabbed {
+  padding-bottom: 28px;
+}
+
+/* Explorer in-flow card — light workspace theme */
+.enlight-explorer-card__body {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.enlight-explorer-card__body .enlight-explorer {
+  margin: 0;
+  padding: 20px 24px 24px;
+  background: #ffffff;
+}
+
+.enlight-explorer-card__body .enlight-explorer__title {
+  font-family: var(--enlight-font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0 0 8px;
+  color: var(--enlight-text);
+}
+
+.enlight-explorer-card__body .enlight-body-text {
+  padding: 0;
+  font-size: 0.9rem;
+  color: var(--enlight-text-muted);
+  margin-bottom: 16px;
+}
+
+.enlight-explorer-card__body .enlight-slider-group {
+  padding: 0;
+}
+
+.enlight-explorer-card__body .enlight-slider-group label {
+  color: var(--enlight-text-muted);
+}
+
+.enlight-explorer-card__body .enlight-explorer__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 24px;
+  padding: 0;
+  align-items: start;
+}
+
+.enlight-explorer-card__body .enlight-graph-canvas {
+  border-radius: 10px;
+  min-height: 240px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.enlight-explorer-card__body .enlight-discriminant-display {
+  background: var(--enlight-formula-bg);
+  border: 1px solid rgba(181, 154, 115, 0.25);
+}
+
+@media (max-width: 768px) {
+  .enlight-ws-card {
+    padding: 20px 18px;
+  }
+
+  .enlight-explorer-card__body .enlight-explorer__layout {
+    grid-template-columns: 1fr;
+  }
 }
 
 .enlight-ws-card {
@@ -1575,6 +1722,8 @@
   border-left: 4px solid var(--enlight-border);
   padding: 16px 14px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  min-width: 0;
+  overflow: visible;
 }
 
 .enlight-decision-card--violet {
@@ -1619,8 +1768,27 @@
 
 @media (min-width: 560px) {
   .enlight-formula-strip {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
+}
+
+.enlight-formula-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.enlight-formula-stack__item {
+  padding: 14px 18px;
+  background: var(--enlight-formula-bg);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 154, 115, 0.25);
+  text-align: center;
+}
+
+.enlight-formula-stack__item .katex-display {
+  margin: 0;
+  overflow: visible;
 }
 
 .enlight-formula-strip__item {
@@ -1629,10 +1797,16 @@
   border-radius: 10px;
   border: 1px solid rgba(181, 154, 115, 0.25);
   text-align: center;
+  min-width: 0;
 }
 
 .enlight-formula-strip__item .katex-display {
   margin: 0;
+  overflow: visible;
+}
+
+.enlight-formula-strip__item .katex {
+  font-size: 0.92em;
 }
 
 /* Inline callouts inside method column */
@@ -1642,6 +1816,7 @@
   border-radius: 10px;
   font-size: 0.88rem;
   line-height: 1.55;
+  min-width: 0;
 }
 
 .enlight-inline-callout--standalone {
@@ -1700,55 +1875,25 @@
   color: #059669;
 }
 
-/* Explorer in-flow card */
-.enlight-explorer-card__body {
-  border-radius: 12px;
-  overflow: hidden;
-  background: var(--enlight-graph-bg);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.enlight-explorer-card__body .enlight-explorer {
-  margin: 0;
-}
-
-.enlight-explorer-card__body .enlight-explorer__title {
-  font-size: 0.95rem;
-  padding: 16px 20px 0;
-  color: #e2e8f0;
-}
-
-.enlight-explorer-card__body .enlight-body-text {
-  padding: 0 20px;
-  font-size: 0.82rem;
-  color: #8892a8;
-}
-
-.enlight-explorer-card__body .enlight-slider-group {
-  padding: 0 20px;
-}
-
-.enlight-explorer-card__body .enlight-explorer__layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
-  gap: 20px;
-  padding: 16px 20px 20px;
-  align-items: start;
-}
-
-.enlight-explorer-card__body .enlight-graph-canvas {
+.enlight-example-block {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 10px;
-  min-height: 240px;
+  padding: 12px 12px 14px;
+  min-width: 0;
 }
 
-@media (max-width: 768px) {
-  .enlight-ws-card {
-    padding: 20px 18px;
-  }
+.enlight-example-block__body {
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
 
-  .enlight-explorer-card__body .enlight-explorer__layout {
-    grid-template-columns: 1fr;
-  }
+.enlight-example-block__body p {
+  margin: 0 0 6px;
+}
+
+.enlight-example-block__body p:last-child {
+  margin-bottom: 0;
 }
 
 .enlight-concept-module--solo {
@@ -1781,30 +1926,32 @@
   min-width: 0;
 }
 
-/* Explorer panel — sticky on desktop, stacks on mobile */
+/* Explorer panel — legacy sidebar (light theme) */
 .enlight-note-explorer-panel {
   position: sticky;
   top: calc(var(--enlight-header-height) + 58px + 16px);
   border-radius: 14px;
   overflow: hidden;
-  background: var(--enlight-graph-bg);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: #ffffff;
+  border: 1px solid var(--enlight-border);
+  box-shadow: var(--enlight-shadow);
 }
 
 .enlight-note-explorer-panel .enlight-explorer {
   margin: 0;
+  padding: 16px 20px 20px;
 }
 
 .enlight-note-explorer-panel .enlight-explorer__title {
   font-size: 1rem;
-  padding: 16px 20px 0;
-  color: #e2e8f0;
+  padding: 0;
+  color: var(--enlight-text);
 }
 
 .enlight-note-explorer-panel .enlight-body-text {
-  padding: 0 20px;
+  padding: 0;
   font-size: 0.82rem;
-  color: #8892a8;
+  color: var(--enlight-text-muted);
 }
 
 .enlight-note-explorer-panel .enlight-slider-group {
@@ -2365,12 +2512,12 @@
 
 /* Heading row with pen icon */
 .enlight-concept-module__example-heading {
-  font-size: 0.62rem;
+  font-size: 0.58rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #065f46;
-  margin: 0 0 16px;
+  margin: 0 0 10px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -2433,7 +2580,9 @@
 
 .enlight-we-phase-content .katex-display {
   margin: 6px 0;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 /* Result banner — green emphasis at the base of the panel */
@@ -2469,7 +2618,16 @@
 
 .enlight-we-result-banner .enlight-markdown .katex-display {
   margin: 6px 0;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.enlight-decision-card__body .katex-display,
+.enlight-inline-callout__body .katex-display,
+.enlight-example-block .katex-display,
+.enlight-callout__body .katex-display {
+  overflow: visible;
 }
 
 /* Responsive: stack on narrow screens */

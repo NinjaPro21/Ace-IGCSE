@@ -127,6 +127,36 @@ export function calloutVariant(label: string): 'pink' | 'teal' | 'gold' | 'green
   return 'pink'
 }
 
+/** Extract display title from a worked-example section heading. */
+export function workedExampleTitle(heading: string): string {
+  const match = heading.match(/^worked examples?\s*[—–-]\s*(.+)/i)
+  if (match?.[1]) return match[1].trim()
+  if (/^worked examples?$/i.test(heading.trim())) return 'Worked example'
+  return heading.replace(/^worked examples?\s*/i, '').trim() || 'Worked example'
+}
+
+/** Split a worked-example body into multiple ###-headed blocks. */
+export function parseWorkedExampleBlocks(
+  body: string,
+  defaultTitle = 'Worked example',
+): { title: string; body: string }[] {
+  const trimmed = body.trim()
+  if (!trimmed) return []
+
+  const parts = trimmed.split(/\n(?=###\s+)/)
+  if (parts.length > 1) {
+    return parts.map((part) => {
+      const match = part.match(/^###\s+(.+?)\s*\n([\s\S]*)/)
+      if (match) {
+        return { title: match[1].trim(), body: match[2].trim() }
+      }
+      return { title: defaultTitle, body: part.trim() }
+    })
+  }
+
+  return [{ title: defaultTitle, body: trimmed }]
+}
+
 /** Split worked-example body into sequential steps. */
 export function parseWorkedExampleSteps(body: string): string[] {
   const trimmed = body.trim()

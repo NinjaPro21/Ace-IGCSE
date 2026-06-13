@@ -1,15 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
+import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { ChapterQuizPopout } from '@/components/ChapterQuizPopout'
 import { LessonSidebar } from '@/components/LessonSidebar'
 import { LessonTopBar } from '@/components/LessonTopBar'
 import { MarkdownLesson } from '@/components/MarkdownLesson'
+import { MathText } from '@/components/MathText'
 import { MasteryPath } from '@/components/MasteryPath'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import { decodeHTMLEntities } from '@/lib/mathMarkdown'
 import {
   getChapter,
   getNotesForTopic,
@@ -105,7 +105,7 @@ export function TopicLessonPage() {
     markChapterPopoutSeen(chapterId)
   }
 
-  const chapterLabel = `${subject.name} · ${chapter.title}`
+  const chapterLabel = chapter.badge ?? `Ch.${chapter.number} · ${chapter.title}`
 
   return (
     <div className="enlight-app">
@@ -132,12 +132,12 @@ export function TopicLessonPage() {
           <LessonSidebar topic={topic} chapterTitle={chapterLabel} />
 
           <main className="enlight-lesson-main">
-            <EnlightSectionLabel>
-              Chapter {chapter.number} · {subject.code}
-            </EnlightSectionLabel>
-            <h1 className="enlight-heading-serif">{decodeHTMLEntities(topic.title)}</h1>
+            <EnlightSectionLabel>{topic.subtitle}</EnlightSectionLabel>
+            <h1 className="enlight-heading-serif">
+              <MathText content={topic.title} />
+            </h1>
             <p className="enlight-lesson-meta">
-              {decodeHTMLEntities(topic.lessonMeta ?? topic.subtitle)}
+              <MathText content={topic.lessonMeta ?? topic.subtitle} />
             </p>
 
             <div ref={lessonCardRef} className="enlight-lesson-card">
@@ -150,7 +150,7 @@ export function TopicLessonPage() {
                   to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${prevTopic.id}`}
                   variant="outline"
                 >
-                  ← {decodeHTMLEntities(prevTopic.title)}
+                  ← <MathText content={prevTopic.title} />
                 </EnlightButton>
               ) : (
                 <span />
@@ -159,7 +159,7 @@ export function TopicLessonPage() {
                 <EnlightButton
                   to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${nextTopic.id}`}
                 >
-                  {decodeHTMLEntities(nextTopic.title)} →
+                  <MathText content={nextTopic.title} /> →
                 </EnlightButton>
               ) : isAnchor && canStartQuiz ? (
                 <EnlightButton onClick={() => setShowPopout(true)}>Test chapter →</EnlightButton>

@@ -20,6 +20,24 @@ If finding a perpendicular line, find $m_2$ by taking the negative reciprocal ($
 
 Find coordinates for a midpoint if needed by averaging the boundary point coordinates together.
 
+### Key rule
+
+Parallel lines share the same gradient ($m_1 = m_2$). Perpendicular lines have gradients that multiply to $-1$ ($m_1 m_2 = -1$).
+
+## Worked example — Midpoint and gradient
+
+Find the midpoint of $A(2, 5)$ and $B(8, -1)$, and the gradient of line $AB$.
+
+$$M = \left(\frac{2+8}{2}, \frac{5+(-1)}{2}\right) = (5, 2)$$
+
+$$m = \frac{-1 - 5}{8 - 2} = \frac{-6}{6} = -1$$
+
+## Worked example — Perpendicular gradient
+
+A line has gradient $m_1 = \frac{3}{4}$. Find the gradient of a line perpendicular to it.
+
+$$m_2 = -\frac{1}{m_1} = -\frac{4}{3}$$
+
 ## Examiner tip
 
 Be careful with negative signs when calculating perpendicular gradients. If $m_1 = -\frac{2}{3}$, then its perpendicular gradient $m_2$ must be positive $\frac{3}{2}$. Double-check your signs to avoid compounding calculation errors later in the problem.

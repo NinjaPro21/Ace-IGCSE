@@ -4,9 +4,37 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar — viewport only (not nested math/cards) */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #d4c5b0 transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #d4c5b0;
+  border-radius: 999px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #b59a73;
 }
 
 #root {
@@ -19,4 +47,11 @@ a {
 
 button {
   font-family: inherit;
+}
+
+/* Keyboard focus ring */
+*:focus-visible {
+  outline: 2px solid #b59a73;
+  outline-offset: 3px;
+  border-radius: 4px;
 }

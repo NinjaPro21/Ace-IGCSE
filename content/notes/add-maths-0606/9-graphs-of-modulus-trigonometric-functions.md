@@ -18,6 +18,22 @@ Leave the positive segments of the wave that sit above the x-axis untouched.
 
 Flip the negative wave loops located below the x-axis vertically upwards, making sure the new peaks reach the same relative height as the original troughs.
 
+### Key rule
+
+$y = |f(x)|$ reflects negative parts above the x-axis. For $y = |\sin x|$, the period halves from $2\pi$ to $\pi$.
+
+## Worked example — $y = |\sin x|$
+
+Sketch key features of $y = |\sin x|$ for $0 \le x \le 2\pi$.
+
+The graph equals $\sin x$ where $\sin x \ge 0$ and equals $-\sin x$ where $\sin x < 0$. Troughs at $x = \pi$ become peaks at height $1$. Period $= \pi$.
+
+## Worked example — Vertical shift inside modulus
+
+Describe $y = |\cos x - 1|$ for $0 \le x \le 2\pi$.
+
+Since $-1 \le \cos x \le 1$, we have $-2 \le \cos x - 1 \le 0$. The entire graph sits at or above the x-axis, with minimum value $0$ (at $x = 0, 2\pi$) and maximum $2$ (at $x = \pi$).
+
 ## Examiner tip
 
 Pay close attention when the function contains a vertical shift, like $y = |\sin x - 1|$. Calculate the value inside the modulus first before drawing the reflection, as shifting the graph vertically changes which sections fall below the x-axis.

@@ -22,6 +22,28 @@ Check the convergence condition: if the question asks for a sum to infinity, ver
 
 Substitute $a$ and $r$ into the simplified formula $S_\infty = \frac{a}{1-r}$ to calculate the limiting value.
 
+### Key rule
+
+A sum to infinity exists only when $|r| < 1$. Always check convergence before using $S_\infty = \frac{a}{1-r}$.
+
+## Worked example — nth term
+
+The GP $3, 6, 12, 24, \ldots$ has $a = 3$ and $r = 2$. Find the 8th term.
+
+$$u_8 = 3 \times 2^{7} = 3 \times 128 = 384$$
+
+The 8th term is **384**.
+
+## Worked example — Sum to infinity
+
+Find $S_\infty$ for the GP with $a = 12$ and $r = \frac{1}{3}$.
+
+Since $|r| = \frac{1}{3} < 1$, the series converges:
+
+$$S_\infty = \frac{12}{1 - \frac{1}{3}} = \frac{12}{\frac{2}{3}} = 18$$
+
+The sum to infinity is **18**.
+
 ## Examiner tip
 
 A common trap is assuming a sum to infinity exists for all geometric sequences. If a sequence has a common ratio of $r = 1.5$, attempting to calculate $S_\infty$ is mathematically invalid and will receive zero marks unless you state that the series diverges.

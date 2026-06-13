@@ -18,17 +18,21 @@ Construct a fraction where the numerator is the log of the original argument und
 
 Set the denominator as the log of the original base evaluated under that same new base ($\log_c(a)$), then compute the numerical value.
 
-## Worked example
+### Key rule
+
+$\log_a(b) = \frac{\log_c(b)}{\log_c(a)}$ — the original argument goes in the numerator, the original base in the denominator.
+
+## Worked example — Powers of the same base
 
 Evaluate $\log_8(32)$ without using a calculator.
 
-Identify the terms: original base $a = 8$, argument $b = 32$. Choose a new base $c = 2$, since both numbers are powers of 2.
+Choose base $c = 2$: $\log_8(32) = \frac{\log_2(32)}{\log_2(8)} = \frac{5}{3}$.
 
-Apply the change of base formula: $\log_8(32) = \frac{\log_2(32)}{\log_2(8)}$.
+## Worked example — Calculator evaluation
 
-Evaluate the numerator: since $2^5 = 32$, $\log_2(32) = 5$.
+Evaluate $\log_3(20)$ correct to 3 significant figures.
 
-Evaluate the denominator: since $2^3 = 8$, $\log_2(8) = 3$. The final answer is $\frac{5}{3}$.
+Using base 10: $\log_3(20) = \frac{\log_{10}(20)}{\log_{10}(3)} \approx \frac{1.301}{0.477} \approx 2.73$.
 
 ## Examiner tip
 

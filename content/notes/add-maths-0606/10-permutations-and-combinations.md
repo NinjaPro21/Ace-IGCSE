@@ -20,6 +20,30 @@ If order does not matter (e.g., picking 3 balls from a bag), select and compute 
 
 For compound scenarios with multiple sub-groups (e.g., choosing men AND women), calculate the combinations for each group separately and multiply the results together.
 
+### Key rule
+
+Use **permutations** when order matters; use **combinations** when it does not. Always identify $n$ and $r$ before choosing a formula.
+
+## Worked example — Committee selection
+
+From 8 people, how many committees of 3 can be formed?
+
+Order does not matter, so use combinations:
+
+$$^8C_3 = \frac{8!}{3! \times 5!} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56$$
+
+There are **56** possible committees.
+
+## Worked example — Ordered positions
+
+From 8 people, how many ways can President, Vice-President, and Secretary be chosen?
+
+Order matters, so use permutations:
+
+$$^8P_3 = \frac{8!}{5!} = 8 \times 7 \times 6 = 336$$
+
+There are **336** ordered selections.
+
 ## Examiner tip
 
 Watch for keywords in questions: &quot;Select&quot; or &quot;Choose&quot; usually points to combinations ($^nC_r$), while &quot;Arrange&quot;, &quot;Sequence&quot;, or &quot;Signals&quot; indicates that order matters, requiring permutations ($^nP_r$).

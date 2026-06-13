@@ -20,6 +20,28 @@ Solve the quadratic equation using factorization or the quadratic formula to fin
 
 Substitute these values back into the original linear equation to solve for the corresponding partner coordinates.
 
+### Key rule
+
+Substitute the linear expression into the non-linear equation to obtain a quadratic; verify every coordinate pair by substituting back into the **linear** equation.
+
+## Worked example — Line meets a parabola
+
+Solve $y = x + 1$ and $y = x^2 - 3x + 5$ simultaneously.
+
+Substitute: $x + 1 = x^2 - 3x + 5 \implies x^2 - 4x + 4 = 0 \implies (x - 2)^2 = 0$.
+
+So $x = 2$ and $y = 2 + 1 = 3$. The line touches the parabola at the single point $(2, 3)$.
+
+## Worked example — Two intersection points
+
+Solve $y = 2x - 1$ and $y = x^2 - 2$.
+
+Substitute: $2x - 1 = x^2 - 2 \implies x^2 - 2x - 1 = 0$.
+
+Using the quadratic formula: $x = \frac{2 \pm \sqrt{8}}{2} = 1 \pm \sqrt{2}$.
+
+When $x = 1 + \sqrt{2}$, $y = 1 + 2\sqrt{2}$; when $x = 1 - \sqrt{2}$, $y = 1 - 2\sqrt{2}$.
+
 ## Examiner tip
 
 Always substitute your solved variable values back into the linear equation rather than the non-linear one. Using the non-linear equation can generate invalid, extraneous coordinate pairs that will penalize your accuracy score.

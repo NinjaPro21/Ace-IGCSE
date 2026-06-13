@@ -22,6 +22,24 @@ Apply the ASTC quadrant rule to determine whether the final value should be posi
 
 Sketch wave transformations by altering amplitude ($a$ in $a\sin x$) or frequency ($b$ in $\sin bx$).
 
+### Key rule
+
+Use ASTC to fix the sign: Q1 (All +), Q2 (Sin +), Q3 (Tan +), Q4 (Cos +). Find the reference angle $\alpha$ from the x-axis first.
+
+## Worked example — Exact value in Q2
+
+Find the exact value of $\sin 150^\circ$.
+
+$150^\circ$ is in Q2. Reference angle $\alpha = 180^\circ - 150^\circ = 30^\circ$.
+
+Sine is positive in Q2, so $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$.
+
+## Worked example — Graph period
+
+Find the period of $y = \sin 3x$ in radians.
+
+$$\text{Period} = \frac{2\pi}{|b|} = \frac{2\pi}{3}$$
+
 ## Examiner tip
 
 When graphing trigonometric functions, always label your key boundary axis points clearly (peaks, troughs, and intercepts at $90^\circ, 180^\circ, 270^\circ, 360^\circ$). Missing these axis labels can result in losing full accuracy marks on graph-drawing questions.

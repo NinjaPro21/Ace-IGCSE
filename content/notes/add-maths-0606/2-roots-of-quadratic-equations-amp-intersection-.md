@@ -4,13 +4,13 @@ The discriminant ($\Delta = b^2 - 4ac$) determines the nature of the roots of a 
 
 ## Key formulas
 
-$$\text{Discriminant: } \Delta = b^2 - 4ac$$
+$$\Delta = b^2 - 4ac$$
 
-$$\Delta &gt; 0 \implies \text{Two distinct real roots (Line intersects curve twice)}$$
+$$\Delta > 0 \implies \text{Two distinct real roots}$$
 
-$$\Delta = 0 \implies \text{Two equal real roots / One unique root (Line is tangent to curve)}$$
+$$\Delta = 0 \implies \text{One repeated root (tangent)}$$
 
-$$\Delta &lt; 0 \implies \text{No real roots (Line does not intersect curve)}$$
+$$\Delta < 0 \implies \text{No real roots}$$
 
 ## Steps / method
 
@@ -23,6 +23,26 @@ Extract the clear coefficients for $A$, $B$, and $C$, taking care to include ful
 Substitute these structural parameters directly into the discriminant expression: $B^2 - 4AC$.
 
 Set up the appropriate inequality or equation based on the requested condition ($&gt;0$, $=0$, or $&lt;0$) and solve for the unknown parameter.
+
+### Key rule
+
+Set $f(x) = g(x)$, rearrange into $Ax^2 + Bx + C = 0$, and use $\Delta = B^2 - 4AC$ to determine whether the line cuts, touches, or misses the curve.
+
+## Worked example — Tangent condition
+
+The line $y = kx + 2$ is tangent to the curve $y = x^2 - 4x + 7$. Find $k$.
+
+Equate: $kx + 2 = x^2 - 4x + 7 \implies x^2 - (k + 4)x + 5 = 0$.
+
+For a tangent, $\Delta = 0$: $(k + 4)^2 - 20 = 0 \implies k + 4 = \pm 2\sqrt{5}$.
+
+So $k = -4 + 2\sqrt{5}$ or $k = -4 - 2\sqrt{5}$.
+
+## Worked example — No intersection
+
+For what values of $k$ does the line $y = x + k$ not intersect $y = x^2$?
+
+Equate: $x + k = x^2 \implies x^2 - x - k = 0$. For no intersection, $\Delta = 1 + 4k < 0$, so $k < -\frac{1}{4}$.
 
 ## Examiner tip
 

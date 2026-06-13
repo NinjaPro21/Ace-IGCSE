@@ -20,6 +20,28 @@ Calculate the value of the discriminant ($B^2 - 4AC$).
 
 If coordinates are required, solve the quadratic equation to find the values of $x$, then find $y$ using the linear equation.
 
+### Key rule
+
+Substitute the line into the circle, then use $\Delta = b^2 - 4ac$: $\Delta > 0$ (two points), $\Delta = 0$ (tangent), $\Delta < 0$ (no intersection).
+
+## Worked example — Two intersection points
+
+Find where the line $y = x + 1$ meets the circle $x^2 + y^2 = 25$.
+
+Substitute: $x^2 + (x + 1)^2 = 25 \implies 2x^2 + 2x - 24 = 0 \implies x^2 + x - 12 = 0$
+
+$$(x + 4)(x - 3) = 0 \implies x = -4 \text{ or } x = 3$$
+
+Points: $(-4, -3)$ and $(3, 4)$. Here $\Delta = 4 + 48 = 52 > 0$.
+
+## Worked example — Tangent condition
+
+For what value of $c$ is $y = 2x + c$ tangent to $x^2 + y^2 = 5$?
+
+Substitute: $x^2 + (2x + c)^2 = 5 \implies 5x^2 + 4cx + c^2 - 5 = 0$
+
+For tangency, $\Delta = 0$: $(4c)^2 - 4(5)(c^2 - 5) = 0 \implies -4c^2 + 100 = 0 \implies c = \pm 5$
+
 ## Examiner tip
 
 When a line is tangent to a circle, the radius drawn to the point of contact is perpendicular to that line. You can use this geometric property ($m_{\text{radius}} \times m_{\text{tangent}} = -1$) as an alternative way to solve or verify tangent problems without using the discriminant.

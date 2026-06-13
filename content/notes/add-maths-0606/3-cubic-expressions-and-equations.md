@@ -18,6 +18,28 @@ Factorize or apply the quadratic formula to this newly isolated quadratic quotie
 
 List all valid real solutions clearly, noting if any real roots are repeated or if the quadratic component yields no real roots.
 
+### Key rule
+
+Find one linear factor using the Factor Theorem, divide it out, then solve the remaining quadratic quotient for the other roots.
+
+## Worked example — Three distinct roots
+
+Solve $x^3 - 6x^2 + 11x - 6 = 0$.
+
+Test $x = 1$: $1 - 6 + 11 - 6 = 0$, so $(x - 1)$ is a factor.
+
+Divide: $x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$.
+
+Roots: $x = 1$, $x = 2$, $x = 3$.
+
+## Worked example — One real root only
+
+Solve $x^3 + x^2 + x + 1 = 0$.
+
+Test $x = -1$: $-1 + 1 - 1 + 1 = 0$, so $(x + 1)$ is a factor.
+
+Quotient: $x^2 + 1 = 0$ has $\Delta = -4 < 0$, so no further real roots. The only real solution is $x = -1$.
+
 ## Examiner tip
 
 When an exam question asks you to &quot;fully factorize&quot; a cubic expression, do not stop after finding the first root. You must show the linear factor multiplied by the remaining quadratic expression, and then completely break down that quadratic into two additional linear factors if real roots exist.

@@ -22,6 +22,26 @@ Simplify the remaining constants outside the bracket to achieve the form $a(x - 
 
 Identify the vertex $(h, k)$. If $a &gt; 0$, $k$ is the minimum value at $x = h$. If $a &lt; 0$, $k$ is the maximum value at $x = h$.
 
+### Key rule
+
+The vertex $(h, k)$ gives the turning point; if $a > 0$, $k$ is the minimum value at $x = h$; if $a < 0$, $k$ is the maximum value.
+
+## Worked example — Minimum value
+
+Express $f(x) = 2x^2 - 8x + 11$ in the form $a(x - h)^2 + k$ and state the minimum value.
+
+Factor out 2: $f(x) = 2(x^2 - 4x) + 11 = 2(x^2 - 4x + 4 - 4) + 11 = 2(x - 2)^2 + 3$.
+
+The vertex is $(2, 3)$. Since $a = 2 > 0$, the minimum value is $3$ at $x = 2$.
+
+## Worked example — Maximum value
+
+Find the maximum value of $g(x) = -x^2 + 6x - 5$.
+
+Complete the square: $g(x) = -(x^2 - 6x) - 5 = -(x^2 - 6x + 9 - 9) - 5 = -(x - 3)^2 + 4$.
+
+Since $a = -1 < 0$, the maximum value is $4$ at $x = 3$.
+
 ## Examiner tip
 
 When an exam question asks for the &quot;maximum or minimum value of the function,&quot; give the $y$-coordinate ($k$). If it asks for &quot;the value of $x$ where it occurs,&quot; state the $x$-coordinate ($h$). Confusing these two will result in structural mark losses.

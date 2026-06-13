@@ -18,17 +18,29 @@ Simplify the expression arithmetically to calculate a final numerical integer or
 
 Set this numerical result equal to the stated remainder value given in the prompt to create an equation to solve for any unknown polynomial coefficients.
 
-## Worked example
+### Key rule
 
-The polynomial f(x)=2x3−x2+kx−5 leaves a remainder of 7 when divided by (x−2). Find the value of the constant k.
+When $f(x)$ is divided by $(ax - b)$, the remainder is $f\left(\frac{b}{a}\right)$; set this equal to the given remainder to find unknown coefficients.
 
-Set the divisor to zero: x−2=0⟹x=2.
+## Worked example — Finding an unknown coefficient
 
-Apply the Remainder Theorem: f(2)=7.
+The polynomial $f(x) = 2x^3 - x^2 + kx - 5$ leaves a remainder of $7$ when divided by $(x - 2)$. Find $k$.
 
-Substitute x=2 into the polynomial: 2(2)3−(2)2+k(2)−5=7.
+Set the divisor to zero: $x - 2 = 0 \implies x = 2$.
 
-Simplify and solve: 16−4+2k−5=7⟹7+2k=7⟹2k=0⟹k=0.
+Apply the Remainder Theorem: $f(2) = 7$.
+
+Substitute: $2(2)^3 - (2)^2 + k(2) - 5 = 7 \implies 16 - 4 + 2k - 5 = 7 \implies 2k = 0 \implies k = 0$.
+
+## Worked example — Exact divisibility
+
+Find the remainder when $f(x) = x^3 - 5x + 6$ is divided by $(x + 1)$.
+
+The root of the divisor is $x = -1$.
+
+$f(-1) = (-1)^3 - 5(-1) + 6 = -1 + 5 + 6 = 10$.
+
+The remainder is **10**. (If the question asked for exact divisibility, we would require $f(-1) = 0$.)
 
 ## Examiner tip
 

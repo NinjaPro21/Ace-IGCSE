@@ -22,6 +22,28 @@ Count this bundle as one item to find the external arrangements, then multiply b
 
 If items must be separated, calculate the total unrestricted arrangements and subtract the number of invalid arrangements where those items sit together.
 
+### Key rule
+
+Treat repeated items by dividing by the factorial of each repeat count. When items must stay together, bundle them first, then multiply by internal arrangements.
+
+## Worked example — Simple arrangement
+
+How many ways can 4 distinct students stand in a line?
+
+$$4! = 4 \times 3 \times 2 \times 1 = 24$$
+
+There are **24** arrangements.
+
+## Worked example — Repeated letters
+
+How many distinct arrangements of the letters in **LEVEL**?
+
+There are 5 letters with **E** repeated twice and **L** repeated twice:
+
+$$\frac{5!}{2! \times 2!} = \frac{120}{4} = 30$$
+
+There are **30** distinct arrangements.
+
 ## Examiner tip
 
 Be careful not to multiply factorials directly by numbers (for example, $2 \times 3!$ is not equal to $6!$). Always expand the factorial term fully according to its definition before performing multiplication or division.

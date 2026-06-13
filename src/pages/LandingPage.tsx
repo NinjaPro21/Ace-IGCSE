@@ -20,11 +20,39 @@ const FEATURES = [
   },
 ]
 
+const HOW_IT_WORKS = [
+  {
+    step: '01',
+    title: 'Read the Notes',
+    body: 'Scan compressed, exam-ready topic notes with built-in formula boxes and examiner tips.',
+  },
+  {
+    step: '02',
+    title: 'Practise & Level Up',
+    body: 'Work through tiered quizzes (Easy → Medium → Hard → PYP) and track your mastery per chapter.',
+  },
+  {
+    step: '03',
+    title: 'Master the Syllabus',
+    body: 'Build a full picture of every topic. Go into exams knowing exactly where you stand.',
+  },
+]
+
+const STATS = [
+  { value: '3', label: 'Subjects' },
+  { value: '15+', label: 'Chapters' },
+  { value: '200+', label: 'Practice Questions' },
+  { value: '5-step', label: 'Mastery Path' },
+]
+
 export function LandingPage() {
   return (
     <div className="enlight-app">
       <EnlightHeader />
-      <section className="enlight-hero enlight-container">
+
+      {/* Hero */}
+      <section className="enlight-hero enlight-hero--enhanced enlight-container">
+        <div className="enlight-hero__dot-grid" aria-hidden="true" />
         <EnlightSectionLabel>IGCSE · CIE · Add Maths · Maths · Physics</EnlightSectionLabel>
         <h2 className="enlight-hero-title">
           Master IGCSE with clarity,
@@ -46,7 +74,38 @@ export function LandingPage() {
         </p>
       </section>
 
-      <section className="enlight-container enlight-page-padding">
+      {/* Stats bar */}
+      <div className="enlight-stats-bar">
+        <div className="enlight-stats-bar__inner enlight-container">
+          {STATS.map((s) => (
+            <div key={s.label} className="enlight-stats-bar__item">
+              <span className="enlight-stats-bar__value">{s.value}</span>
+              <span className="enlight-stats-bar__label">{s.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* How it works */}
+      <section className="enlight-container enlight-section-gap">
+        <EnlightSectionLabel>How it works</EnlightSectionLabel>
+        <h2 className="enlight-heading-serif">Three steps to exam confidence.</h2>
+        <div className="enlight-how-grid">
+          {HOW_IT_WORKS.map((item, i) => (
+            <div key={item.step} className="enlight-how-card">
+              <div className="enlight-how-card__step">{item.step}</div>
+              {i < HOW_IT_WORKS.length - 1 && (
+                <div className="enlight-how-card__connector" aria-hidden="true" />
+              )}
+              <h3 className="enlight-how-card__title">{item.title}</h3>
+              <p className="enlight-body-text">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="enlight-container enlight-section-gap">
         <EnlightSectionLabel>Why we&apos;re different</EnlightSectionLabel>
         <h2 className="enlight-heading-serif">Built for students who want to understand, not just pass.</h2>
         <p className="enlight-body-text">Most revision resources give you walls of text. We give you tools.</p>
@@ -58,6 +117,24 @@ export function LandingPage() {
               <p className="enlight-body-text">{f.body}</p>
             </EnlightCard>
           ))}
+        </div>
+      </section>
+
+      {/* CTA strip */}
+      <section className="enlight-cta-strip">
+        <div className="enlight-container enlight-cta-strip__inner">
+          <div>
+            <h2 className="enlight-cta-strip__title">Ready to start?</h2>
+            <p className="enlight-cta-strip__sub">
+              Explore Add Maths free — no account needed. Unlock full access anytime.
+            </p>
+          </div>
+          <div className="enlight-cta-strip__actions">
+            <EnlightButton to="/subjects/add-maths-0606">Browse Add Maths →</EnlightButton>
+            <EnlightButton to="/demo" variant="outline">
+              Try Demo
+            </EnlightButton>
+          </div>
         </div>
       </section>
 

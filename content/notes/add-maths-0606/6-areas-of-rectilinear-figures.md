@@ -20,6 +20,22 @@ Multiply along the upward diagonals (bottom-left to top-right) and sum all those
 
 Subtract the sum of the upward products from the sum of the downward products, take the absolute value, and multiply by $\frac{1}{2}$.
 
+### Key rule
+
+List vertices in order (clockwise or anticlockwise) and **repeat the first vertex** at the end before applying the shoelace formula.
+
+## Worked example — Triangle area
+
+Find the area of triangle with vertices $A(0, 0)$, $B(4, 0)$, and $C(2, 3)$.
+
+$$\text{Area} = \frac{1}{2}|(0 \cdot 0 + 4 \cdot 3 + 2 \cdot 0) - (0 \cdot 4 + 0 \cdot 2 + 3 \cdot 0)| = \frac{1}{2}|12| = 6 \text{ units}^2$$
+
+## Worked example — Quadrilateral area
+
+Find the area of quadrilateral with vertices $(1, 1)$, $(5, 1)$, $(6, 4)$, $(2, 5)$.
+
+$$\text{Area} = \frac{1}{2}|(1 + 5 + 24 + 2) - (1 + 4 + 10 + 5)| = \frac{1}{2}|32 - 20| = 6 \text{ units}^2$$
+
 ## Examiner tip
 
 The most common mistake is forgetting to repeat the first coordinate pair at the bottom of the shoelace matrix. Omitting this step leaves the polygon unclosed, leading to an incorrect area calculation.

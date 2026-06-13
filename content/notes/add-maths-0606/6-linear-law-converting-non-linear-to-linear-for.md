@@ -20,6 +20,26 @@ Clearly define what the new vertical axis component $Y$ and horizontal axis comp
 
 Equate the gradient of the straight line to the corresponding algebraic group ($m$), and do the same for the vertical intercept ($C$).
 
+### Key rule
+
+For $y = ax^n$, plot $\ln y$ against $\ln x$ — gradient $= n$, intercept $= \ln a$. For $y = Ab^x$, plot $\ln y$ against $x$ — gradient $= \ln b$, intercept $= \ln A$.
+
+## Worked example — Power law $y = ax^n$
+
+Given $y = 3x^2$, express in linear form.
+
+$$\ln y = \ln 3 + 2\ln x \implies Y = 2X + \ln 3 \quad \text{where } Y = \ln y,\; X = \ln x$$
+
+Gradient $= 2 = n$, intercept $= \ln 3$, so $a = e^{\ln 3} = 3$.
+
+## Worked example — Exponential law $y = Ab^x$
+
+Given $y = 5 \times 2^x$, express in linear form.
+
+$$\ln y = x\ln 2 + \ln 5 \implies Y = (\ln 2)X + \ln 5 \quad \text{where } Y = \ln y,\; X = x$$
+
+Gradient $= \ln 2$, so $b = 2$; intercept $= \ln 5$, so $A = 5$.
+
 ## Examiner tip
 
 When reading values from a linear law graph, remember that the vertical intercept is equal to $\ln a$, not just $a$. You must apply the inverse exponential function ($a = e^C$) to find the original constant value.

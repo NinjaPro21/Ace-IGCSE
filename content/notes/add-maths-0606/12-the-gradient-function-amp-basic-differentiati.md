@@ -22,6 +22,22 @@ For two functions multiplied together, apply the Product Rule: keep the first fu
 
 For fractional functions, apply the Quotient Rule, making sure to track the minus sign in the numerator.
 
+### Key rule
+
+Rewrite roots and fractions as powers before differentiating. Constants differentiate to zero; apply the chain rule whenever an expression is nested inside another function.
+
+## Worked example — Power rule
+
+Differentiate $y = 3x^4 - 5x + 7$.
+
+$$\frac{dy}{dx} = 12x^3 - 5$$
+
+## Worked example — Chain rule
+
+Differentiate $y = (2x + 1)^5$.
+
+$$\frac{dy}{dx} = 5(2x + 1)^4 \times 2 = 10(2x + 1)^4$$
+
 ## Examiner tip
 
 Before differentiating expressions with fractions or roots (like $\frac{3}{x^2}$ or $\sqrt{x^3}$), rewrite them using negative and fractional indices ($3x^{-2}$ and $x^{3/2}$). This permits direct, error-free application of the standard power rule.
