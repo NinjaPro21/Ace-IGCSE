@@ -4,9 +4,11 @@ The area of any polygon on a coordinate grid can be calculated using the vertice
 
 ## Key formulas
 
-$$\text{Area} = \frac{1}{12} \left| \begin{matrix} x_1 &amp; x_2 &amp; x_3 &amp; \dots &amp; x_1 \\ y_1 &amp; y_2 &amp; y_3 &amp; \dots &amp; y_1 \end{matrix} \right|$$
+$$\text{Shoelace: } A = \frac{1}{2}|x_1y_2 + x_2y_3 + \cdots + x_ny_1 - (y_1x_2 + y_2x_3 + \cdots + y_nx_1)|$$
 
-$$\text{Area} = \frac{1}{2} |(x_1y_2 + x_2y_3 + \dots + x_ny_1) - (y_1x_2 + y_2x_3 + \dots + y_nx_1)|$$
+$$\text{Two sides + included angle: } A = \frac{1}{2}ab\sin C$$
+
+$$\text{Base and height: } A = \frac{1}{2} \times \text{base} \times \text{height}$$
 
 ## Steps / method
 

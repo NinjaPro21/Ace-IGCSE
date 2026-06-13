@@ -4,9 +4,9 @@ Exponential equations are mathematical statements where the unknown variable is 
 
 ## Key formulas
 
-If ax=b, then log(ax)=log(b)⟹xlog(a)=log(b)⟹x=log(a)log(b)​
+$$a^x = b \implies \log(a^x) = \log(b) \implies x\log(a) = \log(b) \implies x = \frac{\log(b)}{\log(a)}$$
 
-Reducible to quadratic form: p(ax)2+q(ax)+r=0⟹pu2+qu+r=0 where u=ax
+$$p(a^x)^2 + q(a^x) + r = 0 \implies pu^2 + qu + r = 0 \quad \text{where } u = a^x$$
 
 ## Steps / method
 

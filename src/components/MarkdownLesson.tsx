@@ -31,6 +31,12 @@ const QuadraticGraphExplorer = lazy(() =>
 const LogGraphExplorer = lazy(() =>
   import('@/features/explorers/LogGraphExplorer').then((m) => ({ default: m.LogGraphExplorer })),
 )
+const ShoelaceAreaGuide = lazy(() =>
+  import('@/features/explorers/ShoelaceAreaGuide').then((m) => ({ default: m.ShoelaceAreaGuide })),
+)
+const ExponentialGraphExplorer = lazy(() =>
+  import('@/features/explorers/ExponentialGraphExplorer').then((m) => ({ default: m.ExponentialGraphExplorer })),
+)
 
 type SectionKind =
   | 'core'
@@ -427,7 +433,11 @@ const EXPLORER_LABELS: Record<NonNullable<TopicMeta['explorerId']>, string> = {
   trig: 'Trigonometry Graph Explorer',
   quadratic: 'Quadratic Graph Explorer',
   log: 'Logarithm Graph Explorer',
+  shoelace: 'Shoelace & Area Methods',
+  exponential: 'Exponential Graph Explorer',
 }
+
+const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>(['shoelace'])
 
 function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }) {
   const fallback = (
@@ -449,6 +459,10 @@ function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }
       return <Suspense fallback={fallback}><QuadraticGraphExplorer /></Suspense>
     case 'log':
       return <Suspense fallback={fallback}><LogGraphExplorer /></Suspense>
+    case 'shoelace':
+      return <Suspense fallback={fallback}><ShoelaceAreaGuide /></Suspense>
+    case 'exponential':
+      return <Suspense fallback={fallback}><ExponentialGraphExplorer /></Suspense>
     default:
       return (
         <div className="enlight-sandbox-coming-soon">
@@ -460,9 +474,10 @@ function ExplorerContent({ explorerId }: { explorerId: TopicMeta['explorerId'] }
 }
 
 function ExplorerSection({ explorerId }: { explorerId: NonNullable<TopicMeta['explorerId']> }) {
+  const prefix = VISUAL_GUIDE_IDS.has(explorerId) ? 'Visual guide' : 'Interactive'
   return (
     <WorkspaceCard className="enlight-ws-card--explorer">
-      <WorkspaceLabel>{`Interactive · ${EXPLORER_LABELS[explorerId]}`}</WorkspaceLabel>
+      <WorkspaceLabel>{`${prefix} · ${EXPLORER_LABELS[explorerId]}`}</WorkspaceLabel>
       <div className="enlight-explorer-card__body">
         <ExplorerContent explorerId={explorerId} />
       </div>

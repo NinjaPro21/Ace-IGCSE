@@ -32,7 +32,7 @@ export interface TopicMeta {
   /** Rich descriptor shown under the lesson title (nav keeps `subtitle`). */
   lessonMeta?: string
   notesFile: string
-  explorerId?: 'discriminant' | 'trig' | 'modulus' | 'line-intersection' | 'quadratic' | 'log'
+  explorerId?: 'discriminant' | 'trig' | 'modulus' | 'line-intersection' | 'quadratic' | 'log' | 'shoelace' | 'exponential'
   isChapterQuizAnchor?: boolean
   quizIds?: {
     easy: string
