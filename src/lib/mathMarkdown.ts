@@ -16,13 +16,20 @@ function stripInvisibleChars(str: string): string {
 
 /**
  * Prepare markdown for remark-math / rehype-katex:
- * - decode entities
- * - trim whitespace inside $...$ delimiters
- * - normalise $$...$$ display blocks onto clean lines
- * - collapse stray newlines inside inline math
+ * 1. decode HTML entities (must run first so &gt; → > before LaTeX sees it)
+ * 2. strip invisible chars
+ * 3. fix literal double-backslashes (\\) from docx JSON → single backslash for KaTeX
+ * 4. trim whitespace inside $...$ delimiters
+ * 5. normalise $$...$$ display blocks onto clean lines
+ * 6. collapse stray newlines inside inline math
  */
 export function normalizeMathMarkdown(raw: string): string {
-  let text = stripInvisibleChars(decodeHTMLEntities(raw)).trim()
+  // Step 1: entity decode must happen before any LaTeX processing
+  let text = decodeHTMLEntities(raw)
+  // Step 2: remove zero-width chars
+  text = stripInvisibleChars(text).trim()
+  // Step 3: literal double-backslash from JSON string escaping → real single backslash
+  text = text.replace(/\\\\/g, '\\')
 
   // Convert \[...\] display math and \(...\) inline math into standard Markdown math delimiters.
   text = text.replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_, inner: string) => {

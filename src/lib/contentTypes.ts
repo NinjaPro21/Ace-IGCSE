@@ -30,7 +30,7 @@ export interface TopicMeta {
   title: string
   subtitle: string
   notesFile: string
-  explorerId?: 'discriminant' | 'trig' | 'modulus'
+  explorerId?: 'discriminant' | 'trig' | 'modulus' | 'line-intersection'
   isChapterQuizAnchor?: boolean
   quizIds?: {
     easy: string

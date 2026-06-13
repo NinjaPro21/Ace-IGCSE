@@ -5,6 +5,7 @@ import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { ChapterQuizPopout } from '@/components/ChapterQuizPopout'
 import { LessonSidebar } from '@/components/LessonSidebar'
+import { LessonTopBar } from '@/components/LessonTopBar'
 import { MarkdownLesson } from '@/components/MarkdownLesson'
 import { MasteryPath } from '@/components/MasteryPath'
 import { useMastery } from '@/features/mastery/MasteryContext'
@@ -16,6 +17,8 @@ import {
   getTopic,
   getTopicsForChapter,
 } from '@/lib/contentLoader'
+
+const FONT_STEPS = [0.85, 1.0, 1.15, 1.3]
 
 export function TopicLessonPage() {
   const {
@@ -33,6 +36,9 @@ export function TopicLessonPage() {
   } = useMastery()
 
   const [showPopout, setShowPopout] = useState(false)
+  const [fontStep, setFontStep] = useState(1)
+
+  const fontScale = FONT_STEPS[fontStep]
 
   const topic = getTopic(topicId)
   const chapter = getChapter(chapterId)
@@ -83,7 +89,20 @@ export function TopicLessonPage() {
   return (
     <div className="enlight-app">
       <EnlightHeader />
-      <div className="enlight-container enlight-page-padding">
+
+      {/* Sticky lesson nav bar */}
+      <LessonTopBar
+        topic={topic}
+        chapterTitle={chapterLabel}
+        fontScale={fontScale}
+        onFontDecrease={() => setFontStep((s) => Math.max(0, s - 1))}
+        onFontIncrease={() => setFontStep((s) => Math.min(FONT_STEPS.length - 1, s + 1))}
+      />
+
+      <div
+        className="enlight-container enlight-page-padding"
+        style={{ '--enlight-font-scale': fontScale } as React.CSSProperties}
+      >
         <div className="enlight-lesson-layout">
           <LessonSidebar topic={topic} chapterTitle={chapterLabel} />
 
@@ -94,9 +113,9 @@ export function TopicLessonPage() {
             <h1 className="enlight-heading-serif">{decodeHTMLEntities(topic.title)}</h1>
             <p className="enlight-body-text">{topic.subtitle}</p>
 
-            <EnlightCard accent="gold" className="enlight-lesson-card">
+            <div className="enlight-lesson-card">
               <MarkdownLesson content={notes} explorerId={topic.explorerId} />
-            </EnlightCard>
+            </div>
 
             <div className="enlight-topic-nav">
               {prevTopic ? (

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
@@ -46,6 +46,21 @@ export function QuizArena() {
   const [showFeedback, setShowFeedback] = useState(false)
   const [finished, setFinished] = useState(false)
   const [finalScore, setFinalScore] = useState(0)
+
+  // Reset all internal state when chapterId or difficulty changes (prevents stale state on Easy→Medium navigation)
+  const resetKey = useRef(`${chapterId}-${difficulty}`)
+  useEffect(() => {
+    const newKey = `${chapterId}-${difficulty}`
+    if (newKey !== resetKey.current) {
+      resetKey.current = newKey
+      setIndex(0)
+      setSelected(null)
+      setCorrectCount(0)
+      setShowFeedback(false)
+      setFinished(false)
+      setFinalScore(0)
+    }
+  }, [chapterId, difficulty])
 
   if (!chapter || !quiz || !anchor) {
     return (

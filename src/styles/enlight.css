@@ -435,6 +435,11 @@
 
 .enlight-lesson-card {
   margin-top: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 18px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  padding: 32px;
 }
 
 /* Legacy top bar (kept for compatibility) */
@@ -954,10 +959,33 @@
   width: 100%;
   max-width: 440px;
   padding: 32px 28px;
-  border-radius: 16px;
-  background: var(--enlight-card);
-  border: 1px solid var(--enlight-border);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-left: 4px solid var(--enlight-gold);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.18);
+}
+
+.enlight-popout--card {
+  border-left: 4px solid var(--enlight-gold);
+}
+
+.enlight-popout__hero {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.enlight-popout__confetti {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.enlight-popout__divider {
+  border: none;
+  border-top: 1px solid var(--enlight-border);
+  margin: 20px 0;
 }
 
 .enlight-popout__badge {
@@ -1109,6 +1137,8 @@
 
 .enlight-note-prose {
   max-width: 68ch;
+  font-size: calc(0.97rem * var(--enlight-font-scale, 1));
+  line-height: calc(1.65 * var(--enlight-font-scale, 1));
 }
 
 .enlight-note-section {
@@ -1144,30 +1174,37 @@
 /* ── Method / formula cards ────────────────────────────────────────────── */
 .enlight-method-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;
   gap: 16px;
-  margin-top: 12px;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .enlight-method-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .enlight-method-card {
-  padding: 16px 18px;
-  background: var(--enlight-card);
-  border: 1px solid var(--enlight-border);
-  border-radius: 10px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
   border-left: 4px solid var(--enlight-border);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  padding: 20px 18px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease;
 }
 
 .enlight-method-card:hover {
-  box-shadow: var(--enlight-shadow);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 .enlight-method-card--violet {
-  border-left-color: #8b5cf6;
+  border-left-color: #a78bfa;
 }
 
 .enlight-method-card--emerald {
-  border-left-color: #10b981;
+  border-left-color: #34d399;
 }
 
 .enlight-method-card--amber {
@@ -1190,8 +1227,8 @@
 .enlight-worked-example {
   margin: 24px 0;
   padding: 20px 24px;
-  background: var(--enlight-formula-bg);
-  border: 1px solid var(--enlight-border);
+  background: #f0fdf4;
+  border-left: 4px solid #34d399;
   border-radius: 12px;
 }
 
@@ -1241,13 +1278,13 @@
 }
 
 .enlight-callout--warning {
-  background: #fef2f2;
-  border-left-color: #ef4444;
+  background: #fffbeb;
+  border-left-color: #f59e0b;
 }
 
 .enlight-callout--blue {
   background: #eff6ff;
-  border-left-color: #3b82f6;
+  border-left-color: #60a5fa;
 }
 
 .enlight-callout__header {
@@ -1270,9 +1307,9 @@
 }
 
 .enlight-callout--amber .enlight-callout__label { color: #b45309; }
-.enlight-callout--warning .enlight-callout__label { color: #b91c1c; }
-.enlight-callout--warning .enlight-callout__body { color: #7f1d1d; }
-.enlight-callout--blue  .enlight-callout__label { color: #1d4ed8; }
+.enlight-callout--warning .enlight-callout__label { color: #b45309; }
+.enlight-callout--warning .enlight-callout__body { color: var(--enlight-text-muted); }
+.enlight-callout--blue .enlight-callout__label { color: #1d4ed8; }
 
 .enlight-callout__body {
   font-size: 0.93rem;
@@ -1342,6 +1379,122 @@
   margin: 28px 0 10px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--enlight-border);
+}
+
+/* ── Lesson top bar tool buttons ──────────────────────────────────────── */
+.enlight-tool-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--enlight-border);
+  background: var(--enlight-card);
+  font-family: var(--enlight-font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--enlight-text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  line-height: 1.4;
+}
+
+.enlight-tool-btn:hover:not(:disabled) {
+  color: var(--enlight-text);
+  border-color: var(--enlight-gold);
+  background: var(--enlight-formula-bg);
+}
+
+.enlight-tool-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ── Pomodoro timer pill ───────────────────────────────────────────────── */
+.enlight-timer {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--enlight-formula-bg);
+  border: 1px solid var(--enlight-border);
+  font-family: var(--enlight-font-mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s, border-color 0.2s;
+  color: var(--enlight-text);
+}
+
+.enlight-timer:hover {
+  border-color: var(--enlight-gold);
+}
+
+.enlight-timer--running {
+  background: var(--enlight-mint-bg);
+  border-color: var(--enlight-sage);
+  color: var(--enlight-mint-text);
+}
+
+.enlight-timer--finished {
+  background: var(--enlight-formula-bg);
+  border-color: var(--enlight-gold);
+  color: var(--enlight-gold-dark);
+}
+
+.enlight-timer__icon {
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.enlight-timer__display {
+  letter-spacing: 0.04em;
+}
+
+/* ── Checklist count label ─────────────────────────────────────────────── */
+.enlight-checklist__count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--enlight-text-muted);
+}
+
+/* ── Line-intersection explorer chip ──────────────────────────────────── */
+.line-explorer__disc-chip {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1.5px solid transparent;
+}
+
+.line-explorer__disc-chip--green {
+  background: #ecfdf5;
+  border-color: #34d399;
+}
+
+.line-explorer__disc-chip--amber {
+  background: #fffbeb;
+  border-color: #f59e0b;
+}
+
+.line-explorer__disc-chip--red {
+  background: #fff1f2;
+  border-color: #f43f5e;
+}
+
+.line-explorer__disc-value {
+  font-family: var(--enlight-font-mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--enlight-text);
+}
+
+.line-explorer__disc-label {
+  font-size: 0.82rem;
+  color: var(--enlight-text-muted);
 }
 
 /* ── Interactive sandbox placeholder ──────────────────────────────────── */

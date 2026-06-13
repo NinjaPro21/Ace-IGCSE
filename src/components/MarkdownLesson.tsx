@@ -20,6 +20,11 @@ const ModulusExplorer = lazy(() =>
     default: m.ModulusExplorer,
   })),
 )
+const LineIntersectionExplorer = lazy(() =>
+  import('@/features/explorers/LineIntersectionExplorer').then((m) => ({
+    default: m.LineIntersectionExplorer,
+  })),
+)
 
 type SectionKind =
   | 'core'
@@ -213,6 +218,13 @@ function ExplorerSandbox({ explorerId }: { explorerId: TopicMeta['explorerId'] }
     return (
       <Suspense fallback={<div className="enlight-sandbox-coming-soon">Loading explorer…</div>}>
         <ModulusExplorer />
+      </Suspense>
+    )
+  }
+  if (explorerId === 'line-intersection') {
+    return (
+      <Suspense fallback={<div className="enlight-sandbox-coming-soon">Loading explorer…</div>}>
+        <LineIntersectionExplorer />
       </Suspense>
     )
   }
