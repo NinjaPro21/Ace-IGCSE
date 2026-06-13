@@ -1,31 +1,45 @@
 ## Core idea
 
-The modulus function outputs the absolute, non-negative value of its argument. When graphing y=∣f(x)∣y = |f(x)| y=∣f(x)∣ where f(x)f(x) f(x) is a linear expression, any portion of the straight line that falls below the x-axis is reflected vertically upwards across the x-axis, producing a V-shaped graph with a vertex at the x-intercept of the original line.
+The modulus function outputs the absolute, non-negative value of its argument. When graphing $y = |f(x)|$ where $f(x)$ is linear, any portion of the line below the x-axis is reflected vertically upwards, producing a V-shaped graph with a vertex at the x-intercept of the original line.
 
 ## Key formulas
 
-$$|x| = \begin{cases} x, &amp; \text{if } x \ge 0 \\ -x, &amp; \text{if } x &lt; 0 \end{cases}$$
+$$|x| = \begin{cases} x, & \text{if } x \ge 0 \\ -x, & \text{if } x < 0 \end{cases}$$
 
 $$y = |mx + c|$$
 
 ## Steps / method
 
-Sketch the standard linear graph $y = mx + c$ lightly using its intercepts as guide points.
+Sketch the standard linear graph $y = mx + c$ lightly using intercepts as guide points.
 
-Identify the x-intercept where the line crosses the x-axis ($mx + c = 0$).
+Identify the x-intercept where $mx + c = 0$.
 
-Keep the part of the line that lies above or on the x-axis ($y \ge 0$) completely unchanged.
+Keep the part of the line that lies on or above the x-axis ($y \ge 0$) completely unchanged.
 
-Reflect the part of the line that lies below the x-axis ($y &lt; 0$) vertically upwards into the positive quadrant, and erase the original negative tail.
+Reflect the part below the x-axis ($y < 0$) vertically upwards and erase the original negative tail.
+
+### Key rule
+
+The minimum value of $y = |mx + c|$ is always **0**, occurring at the x-intercept of the original line.
+
+## Worked example
+
+Sketch $y = |2x - 4|$. Find the vertex and x-intercepts.
+
+Original line: $y = 2x - 4$. x-intercept when $2x - 4 = 0 \Rightarrow x = 2$.
+
+For $x \ge 2$, keep $y = 2x - 4$. For $x < 2$, reflect: $y = -(2x - 4) = -2x + 4$.
+
+Vertex at $(2, 0)$. The graph is V-shaped with minimum value $0$ at $x = 2$.
 
 ## Examiner tip
 
-When solving equations like $|mx + c| = k$, always check for validity or solve using two cases: $mx + c = k$ and $mx + c = -k$. Ensure that you do not introduce extraneous solutions if $k$ is an algebraic expression that could turn negative.
+When solving $|mx + c| = k$, always solve two cases: $mx + c = k$ and $mx + c = -k$. Check that $k \ge 0$ when $k$ is a numerical constant.
 
 ## Quick check
 
-If $y = |mx + c|$, then the minimum value of the function is always 0, occurring precisely at the x-intercept.
+If $y = |mx + c|$, the minimum value of the function is always $0$, at the x-intercept of $y = mx + c$.
 
 ## Visual / interactive intent
 
-Reuse explorer: Discriminant/modulus slider. A coordinate grid featuring a linear line with draggable sliders for gradient $m$ and intercept $c$. A toggle switch activates the modulus operator, showing an animation of the negative section of the line folding upwards across the x-axis.
+Modulus graph explorer — sliders for $m$ and $c$ with a toggle to fold the negative section across the x-axis.

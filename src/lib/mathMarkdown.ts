@@ -86,6 +86,47 @@ export function parseContentCards(body: string): string[] {
   return [trimmed]
 }
 
+export interface InlineCallout {
+  label: string
+  body: string
+}
+
+/** Split a steps/method body into numbered steps and trailing ### callouts. */
+export function parseStepsWithCallouts(body: string): {
+  steps: string[]
+  callouts: InlineCallout[]
+} {
+  const trimmed = body.trim()
+  if (!trimmed) return { steps: [], callouts: [] }
+
+  const parts = trimmed.split(/\n(?=###\s+)/)
+  const main = parts[0] ?? ''
+  const steps = main
+    .split(/\n{2,}/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+
+  const callouts = parts.slice(1).map((part) => {
+    const match = part.match(/^###\s+(.+?)\s*\n([\s\S]*)/)
+    return {
+      label: match?.[1]?.trim() ?? 'Note',
+      body: match?.[2]?.trim() ?? '',
+    }
+  })
+
+  return { steps, callouts }
+}
+
+/** Map inline callout headings to visual variants. */
+export function calloutVariant(label: string): 'pink' | 'teal' | 'gold' | 'green' {
+  const key = label.toLowerCase()
+  if (key.includes('key rule') || key.includes('watch') || key.includes('trap')) return 'pink'
+  if (key.includes('tip') || key.includes('smart')) return 'green'
+  if (key.includes('add') || key.includes('subtract') || key.includes('when')) return 'teal'
+  if (key.includes('geometric') || key.includes('interpret')) return 'gold'
+  return 'pink'
+}
+
 /** Split worked-example body into sequential steps. */
 export function parseWorkedExampleSteps(body: string): string[] {
   const trimmed = body.trim()

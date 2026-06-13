@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightButton } from '@/components/EnlightButton'
@@ -37,8 +37,29 @@ export function TopicLessonPage() {
 
   const [showPopout, setShowPopout] = useState(false)
   const [fontStep, setFontStep] = useState(1)
+  const [readProgress, setReadProgress] = useState(0)
+  const [showScrollTop, setShowScrollTop] = useState(false)
+  const lessonCardRef = useRef<HTMLDivElement>(null)
 
   const fontScale = FONT_STEPS[fontStep]
+
+  // Reading progress + scroll-to-top visibility
+  useEffect(() => {
+    const onScroll = () => {
+      const scrolled = window.scrollY
+      const total = document.documentElement.scrollHeight - window.innerHeight
+      setReadProgress(total > 0 ? Math.min(100, (scrolled / total) * 100) : 0)
+      setShowScrollTop(scrolled > 400)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  // Reset progress on topic change
+  useEffect(() => {
+    setReadProgress(0)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [topicId])
 
   const topic = getTopic(topicId)
   const chapter = getChapter(chapterId)
@@ -90,7 +111,6 @@ export function TopicLessonPage() {
     <div className="enlight-app">
       <EnlightHeader />
 
-      {/* Sticky lesson nav bar */}
       <LessonTopBar
         topic={topic}
         chapterTitle={chapterLabel}
@@ -98,6 +118,11 @@ export function TopicLessonPage() {
         onFontDecrease={() => setFontStep((s) => Math.max(0, s - 1))}
         onFontIncrease={() => setFontStep((s) => Math.min(FONT_STEPS.length - 1, s + 1))}
       />
+
+      {/* Page-level reading progress bar */}
+      <div className="enlight-read-progress" aria-hidden="true">
+        <div className="enlight-read-progress__bar" style={{ width: `${readProgress}%` }} />
+      </div>
 
       <div
         className="enlight-container enlight-page-padding"
@@ -111,9 +136,11 @@ export function TopicLessonPage() {
               Chapter {chapter.number} · {subject.code}
             </EnlightSectionLabel>
             <h1 className="enlight-heading-serif">{decodeHTMLEntities(topic.title)}</h1>
-            <p className="enlight-body-text">{topic.subtitle}</p>
+            <p className="enlight-lesson-meta">
+              {decodeHTMLEntities(topic.lessonMeta ?? topic.subtitle)}
+            </p>
 
-            <div className="enlight-lesson-card">
+            <div ref={lessonCardRef} className="enlight-lesson-card">
               <MarkdownLesson content={notes} explorerId={topic.explorerId} />
             </div>
 
@@ -173,6 +200,19 @@ export function TopicLessonPage() {
             navigate(`/subjects/${subjectId}`)
           }}
         />
+      )}
+
+      {/* Scroll to top button */}
+      {showScrollTop && (
+        <button
+          type="button"
+          className="enlight-scroll-top"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Scroll to top"
+          title="Back to top"
+        >
+          ↑
+        </button>
       )}
 
       <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
