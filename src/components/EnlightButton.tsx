@@ -13,10 +13,12 @@ interface ButtonProps extends BaseProps {
   to?: undefined
   onClick?: () => void
   type?: 'button' | 'submit'
+  disabled?: boolean
 }
 
 interface LinkProps extends BaseProps {
   to: string
+  onClick?: () => void
 }
 
 export function EnlightButton(props: ButtonProps | LinkProps) {
@@ -24,16 +26,17 @@ export function EnlightButton(props: ButtonProps | LinkProps) {
   const cls = `enlight-btn enlight-btn--${variant}${props.className ? ` ${props.className}` : ''}`
 
   if ('to' in props && props.to) {
+    const { to, onClick, children } = props as LinkProps
     return (
-      <Link to={props.to} className={cls}>
-        {props.children}
+      <Link to={to} className={cls} onClick={onClick}>
+        {children}
       </Link>
     )
   }
 
-  const { onClick, type = 'button', children } = props as ButtonProps
+  const { onClick, type = 'button', disabled, children } = props as ButtonProps
   return (
-    <button type={type} className={cls} onClick={onClick}>
+    <button type={type} className={cls} onClick={onClick} disabled={disabled}>
       {children}
     </button>
   )

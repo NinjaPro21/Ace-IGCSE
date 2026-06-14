@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return signedIn() && request.auth.uid == userId;
+    }
+
+    function mySchoolId() {
+      return get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data.schoolId;
+    }
+
+    match /profiles/{userId} {
+      allow read: if isOwner(userId)
+        || (signedIn()
+            && resource.data.schoolId != null
+            && resource.data.schoolId == mySchoolId());
+      allow create, update: if isOwner(userId);
+    }
+
+    match /schools/{schoolId} {
+      allow read: if signedIn();
+      allow create: if signedIn()
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.inviteCode is string
+        && request.resource.data.name is string
+        && request.resource.data.type in ['school', 'clan'];
+    }
+
+    match /platformStats/summary {
+      allow read: if signedIn();
+      allow write: if signedIn();
+    }
+  }
+}

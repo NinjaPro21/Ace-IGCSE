@@ -38,7 +38,7 @@ export function ChapterQuizPopout({ chapter, onDismiss, onReviewTopics }: Chapte
         <hr className="enlight-popout__divider" />
 
         <div className="enlight-popout__actions">
-          <EnlightButton to={`/quiz/${chapter.id}/easy`}>
+          <EnlightButton to={`/quiz/${chapter.id}/easy`} onClick={onDismiss}>
             Start Easy quiz →
           </EnlightButton>
           <EnlightButton variant="outline" onClick={onReviewTopics}>

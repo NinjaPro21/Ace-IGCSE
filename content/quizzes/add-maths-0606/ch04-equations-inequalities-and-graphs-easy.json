@@ -17,7 +17,31 @@
         "$x = 12$ or $x = -2$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up two linear equations: $2x - 5 = 7 \\implies 2x = 12 \\implies x = 6$, and $2x - 5 = -7 \\implies 2x = -2 \\implies x = -1$. Both solutions satisfy the original equation since the absolute value of both $7$ and $-7$ is $7$.\n\n**Common mistake:** Students commonly make a sign error when solving the negative case, writing $2x - 5 = -7 \\implies 2x = -2 \\implies x = 1$ instead of $-1$."
+      "explanation": "Set up two linear equations: $2x - 5 = 7 \\implies 2x = 12 \\implies x = 6$, and $2x - 5 = -7 \\implies 2x = -2 \\implies x = -1$. Both solutions satisfy the original equation since the absolute value of both $7$ and $-7$ is $7$.\n\n**Common mistake:** Students commonly make a sign error when solving the negative case, writing $2x - 5 = -7 \\implies 2x = -2 \\implies x = 1$ instead of $-1$.",
+      "variants": [
+        {
+          "question": "Determine the values of $x$ that satisfy the modulus equation $|2x - 3| = 5$.",
+          "options": [
+            "$x = 4$ and $x = -1$",
+            "$x = -4$ and $x = 1$",
+            "$x = 4$ and $x = 1$",
+            "$x = -4$ and $x = -1$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$2x - 3 = 5$ gives $x = 4$; $2x - 3 = -5$ gives $x = -1$."
+        },
+        {
+          "question": "Determine the values of $x$ that satisfy the modulus equation $|2x - 1| = 7$.",
+          "options": [
+            "$x = 4$ and $x = -3$",
+            "$x = -4$ and $x = 3$",
+            "$x = 4$ and $x = 3$",
+            "$x = -4$ and $x = -3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$2x - 1 = 7$ gives $x = 4$; $2x - 1 = -7$ gives $x = -3$."
+        }
+      ]
     },
     {
       "id": "ch04-equations-inequalities-and-graphs-q2",
@@ -30,7 +54,31 @@
         "$x = 6$ and $x = -14$"
       ],
       "correctIndex": 0,
-      "explanation": "The critical values are found by solving the boundary equation $|3x + 4| = 10$. This splits into $3x + 4 = 10 \\implies x = 2$, and $3x + 4 = -10 \\implies 3x = -14 \\implies x = -\\frac{14}{3}$.\n\n**Common mistake:** Students frequently misremember the negative route or fail to distribute the negative sign properly, leading to incorrect critical values such as $x = -2$."
+      "explanation": "The critical values are found by solving the boundary equation $|3x + 4| = 10$. This splits into $3x + 4 = 10 \\implies x = 2$, and $3x + 4 = -10 \\implies 3x = -14 \\implies x = -\\frac{14}{3}$.\n\n**Common mistake:** Students frequently misremember the negative route or fail to distribute the negative sign properly, leading to incorrect critical values such as $x = -2$.",
+      "variants": [
+        {
+          "question": "Identify the critical values used to solve the modulus inequality $|2x + 3| \\le 7$.",
+          "options": [
+            "$x = 2$ and $x = -5$",
+            "$x = 2$ and $x = -2$",
+            "$x = -2$ and $x = 2$",
+            "$x = 4$ and $x = -10$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Boundary: $2x+3 = 7$ and $2x+3 = -7$."
+        },
+        {
+          "question": "Identify the critical values used to solve the modulus inequality $|2x + 5| \\le 9$.",
+          "options": [
+            "$x = 2$ and $x = -7$",
+            "$x = 2$ and $x = -2$",
+            "$x = -2$ and $x = 2$",
+            "$x = 4$ and $x = -14$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Boundary: $2x+5 = 9$ and $2x+5 = -9$."
+        }
+      ]
     },
     {
       "id": "ch04-equations-inequalities-and-graphs-q3",
@@ -56,7 +104,53 @@
         "$x < 5$ or $x > -5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression $|x| > 5$ represents all numbers whose distance from the origin is greater than $5$. This translates directly to the outer intervals $x > 5$ or $x < -5$.\n\n**Common mistake:** Students often confuse 'greater than' inequalities with 'less than' inequalities, incorrectly choosing the single bounded interval $-5 < x < 5$."
+      "explanation": "The expression $|x| > 5$ represents all numbers whose distance from the origin is greater than $5$. This translates directly to the outer intervals $x > 5$ or $x < -5$.\n\n**Common mistake:** Students often confuse 'greater than' inequalities with 'less than' inequalities, incorrectly choosing the single bounded interval $-5 < x < 5$.",
+      "variants": [
+        {
+          "question": "Express the inequality $|x| > 3$ as a pair of separate linear inequalities without modulus signs.",
+          "options": [
+            "$x > 3$ or $x < -3$",
+            "$-3 < x < 3$",
+            "$x > 3$ and $x > -3$",
+            "$x < 3$ or $x > -3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$|x| > 3$ means $x > 3$ or $x < -3$."
+        },
+        {
+          "question": "Express the inequality $|x| > 7$ as a pair of separate linear inequalities without modulus signs.",
+          "options": [
+            "$x > 7$ or $x < -7$",
+            "$-7 < x < 7$",
+            "$x > 7$ and $x > -7$",
+            "$x < 7$ or $x > -7$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$|x| > 7$ means $x > 7$ or $x < -7$."
+        },
+        {
+          "question": "Express the inequality $|x| > 4$ as a pair of separate linear inequalities without modulus signs.",
+          "options": [
+            "$x > 4$ or $x < -4$",
+            "$-4 < x < 4$",
+            "$x > 4$ and $x > -4$",
+            "$x < 4$ or $x > -4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$|x| > 4$ means $x > 4$ or $x < -4$."
+        },
+        {
+          "question": "Express the inequality $|x| > 6$ as a pair of separate linear inequalities without modulus signs.",
+          "options": [
+            "$x > 6$ or $x < -6$",
+            "$-6 < x < 6$",
+            "$x > 6$ and $x > -6$",
+            "$x < 6$ or $x > -6$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$|x| > 6$ means $x > 6$ or $x < -6$."
+        }
+      ]
     }
   ]
 }

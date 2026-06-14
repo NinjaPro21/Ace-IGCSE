@@ -1,21 +1,21 @@
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { SignInButton } from '@/features/social/SocialPanels'
 
 const NAV = [
   { to: '/subjects/add-maths-0606', label: 'Add Maths' },
   { to: '/subjects/maths-0580', label: 'Maths' },
   { to: '/subjects/physics', label: 'Physics' },
-  { to: '/demo', label: 'Demo' },
-  { to: '/pricing', label: 'Pricing' },
+  { to: '/progress', label: 'Progress' },
+  { to: '/analytics', label: 'Analytics' },
 ]
 
 export function EnlightHeader() {
   const location = useLocation()
-  const { progress, globalLevel } = useMastery()
+  const { progress, levelProfile, streakAtRisk } = useMastery()
   const [mobileOpen, setMobileOpen] = useState(false)
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMobileOpen(false)
   }, [location.pathname])
@@ -41,20 +41,29 @@ export function EnlightHeader() {
         </nav>
 
         <div className="enlight-header__right">
-          <div className="enlight-header__stats">
-            <span className="enlight-stat-pill" title="Your level">
-              <span className="enlight-stat-pill__icon">🏆</span> Lv {globalLevel}
+          <Link to="/progress" className="enlight-header__stats" title="View progress dashboard">
+            <span className="enlight-stat-pill" title={`${levelProfile.title} — Level ${levelProfile.level}`}>
+              <span className="enlight-stat-pill__icon">🏆</span> Lv {levelProfile.level}
             </span>
-            <span className="enlight-stat-pill" title="Experience points earned">
+            <span className="enlight-stat-pill enlight-stat-pill--xp" title="Experience points">
               <span className="enlight-stat-pill__icon">⚡</span> {progress.xp} XP
             </span>
-            <span className="enlight-stat-pill enlight-stat-pill--streak" title="Study streak">
+            <span
+              className={[
+                'enlight-stat-pill',
+                'enlight-stat-pill--streak',
+                streakAtRisk && progress.streakDays > 0 ? 'enlight-stat-pill--streak-risk' : '',
+              ].join(' ')}
+              title={
+                streakAtRisk && progress.streakDays > 0
+                  ? 'Study today to keep your streak!'
+                  : 'Study streak'
+              }
+            >
               <span className="enlight-stat-pill__icon">🔥</span> {progress.streakDays}d
             </span>
-          </div>
-          <button type="button" className="enlight-btn enlight-btn--primary enlight-btn--sm">
-            Sign in
-          </button>
+          </Link>
+          <SignInButton compact />
           <button
             type="button"
             className="enlight-hamburger"
@@ -65,9 +74,14 @@ export function EnlightHeader() {
             {mobileOpen ? '✕' : '☰'}
           </button>
         </div>
+        <div className="enlight-header__xp-mini" aria-hidden="true">
+          <div
+            className="enlight-header__xp-mini-fill"
+            style={{ width: `${levelProfile.levelProgressPercent}%` }}
+          />
+        </div>
       </div>
 
-      {/* Mobile nav drawer */}
       {mobileOpen && (
         <nav className="enlight-mobile-menu" aria-label="Mobile navigation">
           {NAV.map((item) => (
@@ -79,11 +93,11 @@ export function EnlightHeader() {
               {item.label}
             </Link>
           ))}
-          <div className="enlight-mobile-menu__stats">
-            <span className="enlight-stat-pill">🏆 Lv {globalLevel}</span>
+          <Link to="/progress" className="enlight-mobile-menu__stats">
+            <span className="enlight-stat-pill">🏆 Lv {levelProfile.level}</span>
             <span className="enlight-stat-pill">⚡ {progress.xp} XP</span>
             <span className="enlight-stat-pill enlight-stat-pill--streak">🔥 {progress.streakDays}d</span>
-          </div>
+          </Link>
         </nav>
       )}
     </header>

@@ -17,7 +17,53 @@
         "5"
       ],
       "correctIndex": 0,
-      "explanation": "Expanding the factorials, $\\frac{7 \\times 6 \\times 5 \\times 4!}{4! \\times (3 \\times 2 \\times 1)} = \\frac{7 \\times 6 \\times 5}{6} = 7 \\times 5 = 35$ .\n\n**Common mistake:** Students often mistakenly cancel out terms or multiply incorrectly, such as simplifying the denominator to $12!$ or thinking $\\frac{7!}{4! \\times 3!} = \\frac{7}{4 \\times 3}$ , leading to arithmetic mismatches or values like 5."
+      "explanation": "Expanding the factorials, $\\frac{7 \\times 6 \\times 5 \\times 4!}{4! \\times (3 \\times 2 \\times 1)} = \\frac{7 \\times 6 \\times 5}{6} = 7 \\times 5 = 35$ .\n\n**Common mistake:** Students often mistakenly cancel out terms or multiply incorrectly, such as simplifying the denominator to $12!$ or thinking $\\frac{7!}{4! \\times 3!} = \\frac{7}{4 \\times 3}$ , leading to arithmetic mismatches or values like 5.",
+      "variants": [
+        {
+          "question": "Evaluate the exact value of the expression $\\frac{8!}{3! \\times 5!}$ .",
+          "options": [
+            "56",
+            "112",
+            "168",
+            "18.666666666666668"
+          ],
+          "correctIndex": 0,
+          "explanation": "$\\frac{8!}{3!(5)!} = 56$."
+        },
+        {
+          "question": "Evaluate the exact value of the expression $\\frac{9!}{2! \\times 7!}$ .",
+          "options": [
+            "36",
+            "72",
+            "72",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "$\\frac{9!}{2!(7)!} = 36$."
+        },
+        {
+          "question": "Evaluate the exact value of the expression $\\frac{10!}{4! \\times 6!}$ .",
+          "options": [
+            "210",
+            "420",
+            "840",
+            "52.5"
+          ],
+          "correctIndex": 0,
+          "explanation": "$\\frac{10!}{4!(6)!} = 210$."
+        },
+        {
+          "question": "Evaluate the exact value of the expression $\\frac{7!}{3! \\times 4!}$ .",
+          "options": [
+            "35",
+            "70",
+            "105",
+            "11.666666666666666"
+          ],
+          "correctIndex": 0,
+          "explanation": "$\\frac{7!}{3!(4)!} = 35$."
+        }
+      ]
     },
     {
       "id": "ch10-permutations-and-combinations-q2",
@@ -56,7 +102,53 @@
         "24"
       ],
       "correctIndex": 0,
-      "explanation": "The order of selection does not matter, so we use combinations: $^{9}C_{4} = \\frac{9!}{4!(9-4)!} = \\frac{9 \\times 8 \\times 7 \\times 6}{4 \\times 3 \\times 2 \\times 1 = 24} = 126$ .\n\n**Common mistake:** A student might accidentally apply the permutation formula $^{9}P_{4} = 3024$ because they failed to recognize that order is unimportant for a basic committee selection."
+      "explanation": "The order of selection does not matter, so we use combinations: $^{9}C_{4} = \\frac{9!}{4!(9-4)!} = \\frac{9 \\times 8 \\times 7 \\times 6}{4 \\times 3 \\times 2 \\times 1 = 24} = 126$ .\n\n**Common mistake:** A student might accidentally apply the permutation formula $^{9}P_{4} = 3024$ because they failed to recognize that order is unimportant for a basic committee selection.",
+      "variants": [
+        {
+          "question": "A committee of 3 members is to be selected from a group of 8 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "56",
+            "336",
+            "24",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^8C_{3} = 56$."
+        },
+        {
+          "question": "A committee of 2 members is to be selected from a group of 10 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "45",
+            "90",
+            "20",
+            "4"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^10C_{2} = 45$."
+        },
+        {
+          "question": "A committee of 4 members is to be selected from a group of 10 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "210",
+            "5040",
+            "40",
+            "96"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^10C_{4} = 210$."
+        },
+        {
+          "question": "A committee of 3 members is to be selected from a group of 9 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "84",
+            "504",
+            "27",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^9C_{3} = 84$."
+        }
+      ]
     },
     {
       "id": "ch10-permutations-and-combinations-q5",

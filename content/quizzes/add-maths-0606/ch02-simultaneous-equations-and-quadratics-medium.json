@@ -17,7 +17,53 @@
         "$x = 3$ and $x = -3$"
       ],
       "correctIndex": 0,
-      "explanation": "From the linear equation, $y = x + 3$. Substitute into the quadratic equation: $x² + (x + 3) = 9 \\implies x² + x - 6 = 0$. Factoring gives $(x + 3)(x - 2) = 0$, so $x = 2$ or $x = -3$.\n\n**Common mistake:** A student might substitute $y = x - 3$ by mistake, leading to $x² + x - 12 = 0$, or flip the final signs of the roots after factoring correctly."
+      "explanation": "From the linear equation, $y = x + 3$. Substitute into the quadratic equation: $x² + (x + 3) = 9 \\implies x² + x - 6 = 0$. Factoring gives $(x + 3)(x - 2) = 0$, so $x = 2$ or $x = -3$.\n\n**Common mistake:** A student might substitute $y = x - 3$ by mistake, leading to $x² + x - 12 = 0$, or flip the final signs of the roots after factoring correctly.",
+      "variants": [
+        {
+          "question": "Solve the simultaneous equations $y - x = 5$ and $x² + y = 15$ to find the possible values of $x$.",
+          "options": [
+            "$x = 2$ and $x = -5$",
+            "$x = -2$ and $x = 5$",
+            "$x = 3$ and $x = -5$",
+            "$x = 5$ and $x = -2$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$y = x + 5$. Substitute: $x² + x + 5 = 15 \\implies x² + x - 10 = 0 \\implies (x + 5)(x - 2) = 0$, so $x = 2$ or $x = -5$."
+        },
+        {
+          "question": "Solve the simultaneous equations $y - x = 6$ and $x² + y = 18$ to find the possible values of $x$.",
+          "options": [
+            "$x = 3$ and $x = -4$",
+            "$x = -3$ and $x = 4$",
+            "$x = 4$ and $x = -3$",
+            "$x = 6$ and $x = -3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$y = x + 6$. Substitute: $x² + x + 6 = 18 \\implies x² + x - 12 = 0 \\implies (x + 4)(x - 3) = 0$, so $x = 3$ or $x = -4$."
+        },
+        {
+          "question": "Solve the simultaneous equations $y - x = 4$ and $x² + y = 12$ to find the possible values of $x$.",
+          "options": [
+            "$x = 2$ and $x = -4$",
+            "$x = -2$ and $x = 4$",
+            "$x = 4$ and $x = -2$",
+            "$x = 1$ and $x = -4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$y = x + 4$. Substitute: $x² + x + 4 = 12 \\implies x² + x - 8 = 0 \\implies (x + 4)(x - 2) = 0$, so $x = 2$ or $x = -4$."
+        },
+        {
+          "question": "Solve the simultaneous equations $y - x = 2$ and $x² + y = 8$ to find the possible values of $x$.",
+          "options": [
+            "$x = 2$ and $x = -3$",
+            "$x = -2$ and $x = 3$",
+            "$x = 3$ and $x = -2$",
+            "$x = 2$ and $x = 3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$y = x + 2$. Substitute: $x² + x + 2 = 8 \\implies x² + x - 6 = 0 \\implies (x + 3)(x - 2) = 0$, so $x = 2$ or $x = -3$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q2",
@@ -30,7 +76,53 @@
         "$-2(x - 3)² - 23$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor out $-2$ from the variable terms: $-2(x² - 6x) - 5$. Complete the square inside: $-2[(x - 3)² - 9] - 5 = -2(x - 3)² + 18 - 5 = -2(x - 3)² + 13$.\n\n**Common mistake:** When expanding the outer constant multiplication, students regularly fail to multiply $-2$ by $-9$, calculating $-9 - 5 = -14$ or $+9 - 5 = 4$ instead of $+18 - 5 = 13$."
+      "explanation": "Factor out $-2$ from the variable terms: $-2(x² - 6x) - 5$. Complete the square inside: $-2[(x - 3)² - 9] - 5 = -2(x - 3)² + 18 - 5 = -2(x - 3)² + 13$.\n\n**Common mistake:** When expanding the outer constant multiplication, students regularly fail to multiply $-2$ by $-9$, calculating $-9 - 5 = -14$ or $+9 - 5 = 4$ instead of $+18 - 5 = 13$.",
+      "variants": [
+        {
+          "question": "Express the quadratic function $f(x) = -2x² + 8x + 1$ in the form $a(x - h)² + k$ by completing the square.",
+          "options": [
+            "$-2(x - 2)² + 9$",
+            "$-2(x - 2)² + 1$",
+            "$-2(x + 2)² + 9$",
+            "$-2(x - 2)² - 7$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$-2(x² - 4x) + 1 = -2[(x - 2)² - 4] + 1 = -2(x - 2)² + 9$."
+        },
+        {
+          "question": "Express the quadratic function $f(x) = -3x² + 12x + 2$ in the form $a(x - h)² + k$ by completing the square.",
+          "options": [
+            "$-3(x - 2)² + 14$",
+            "$-3(x - 2)² + 2$",
+            "$-3(x + 2)² + 14$",
+            "$-3(x - 2)² - 10$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$-3(x² - 4x) + 2 = -3[(x - 2)² - 4] + 2 = -3(x - 2)² + 14$."
+        },
+        {
+          "question": "Express the quadratic function $f(x) = -2x² + 10x - 3$ in the form $a(x - h)² + k$ by completing the square.",
+          "options": [
+            "$-2(x - \\frac{5}{2})² + \\frac{19}{2}$",
+            "$-2(x - 5)² + 19$",
+            "$-2(x + \\frac{5}{2})² + \\frac{19}{2}$",
+            "$-2(x - \\frac{5}{2})² - 3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$-2(x² - 5x) - 3 = -2[(x - \\frac{5}{2})² - \\frac{25}{4}] - 3 = -2(x - \\frac{5}{2})² + \\frac{19}{2}$."
+        },
+        {
+          "question": "Express the quadratic function $f(x) = -4x² + 16x - 1$ in the form $a(x - h)² + k$ by completing the square.",
+          "options": [
+            "$-4(x - 2)² + 15$",
+            "$-4(x - 2)² - 1$",
+            "$-4(x + 2)² + 15$",
+            "$-4(x - 2)² - 17$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$-4(x² - 4x) - 1 = -4[(x - 2)² - 4] - 1 = -4(x - 2)² + 15$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q3",
@@ -43,7 +135,53 @@
         "$x \\le -3$ or $x \\ge \\frac{1}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor the quadratic equation: $(2x + 1)(x - 3) = 0$, giving critical values $x = -\\frac{1}{2}$ and $x = 3$. Since the inequality is $\\le 0$, the solution is the region between the roots.\n\n**Common mistake:** Students often pick the outer regions ($x \\le -\\frac{1}{2}$ or $x \\ge 3$) because they misinterpret the 'less than or equal to' sign or assume quadratic inequalities always split outwards."
+      "explanation": "Factor the quadratic equation: $(2x + 1)(x - 3) = 0$, giving critical values $x = -\\frac{1}{2}$ and $x = 3$. Since the inequality is $\\le 0$, the solution is the region between the roots.\n\n**Common mistake:** Students often pick the outer regions ($x \\le -\\frac{1}{2}$ or $x \\ge 3$) because they misinterpret the 'less than or equal to' sign or assume quadratic inequalities always split outwards.",
+      "variants": [
+        {
+          "question": "Find the complete set of values of $x$ satisfying the inequality $x² - 5x + 6 \\le 0$.",
+          "options": [
+            "$2 \\le x \\le 3$",
+            "$x \\le 2$ or $x \\ge 3$",
+            "$-3 \\le x \\le 2$",
+            "$x \\le -3$ or $x \\ge 2$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(x - 2)(x - 3) = 0$ gives roots $2$ and $3$. Since the parabola opens upwards and we want $\\le 0$, the solution is $2 \\le x \\le 3$."
+        },
+        {
+          "question": "Find the complete set of values of $x$ satisfying the inequality $2x² - 7x + 3 \\le 0$.",
+          "options": [
+            "$\\frac{1}{2} \\le x \\le 3$",
+            "$x \\le \\frac{1}{2}$ or $x \\ge 3$",
+            "$-3 \\le x \\le \\frac{1}{2}$",
+            "$x \\le -3$ or $x \\ge \\frac{1}{2}$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(2x - 1)(x - 3) = 0$ gives roots $\\frac{1}{2}$ and $3$. The solution region between the roots is $\\frac{1}{2} \\le x \\le 3$."
+        },
+        {
+          "question": "Find the complete set of values of $x$ satisfying the inequality $x² + x - 6 \\le 0$.",
+          "options": [
+            "$-3 \\le x \\le 2$",
+            "$x \\le -3$ or $x \\ge 2$",
+            "$-2 \\le x \\le 3$",
+            "$x \\le -2$ or $x \\ge 3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(x + 3)(x - 2) = 0$ gives roots $-3$ and $2$. The solution between the roots is $-3 \\le x \\le 2$."
+        },
+        {
+          "question": "Find the complete set of values of $x$ satisfying the inequality $x² - 4x + 3 \\le 0$.",
+          "options": [
+            "$1 \\le x \\le 3$",
+            "$x \\le 1$ or $x \\ge 3$",
+            "$-3 \\le x \\le 1$",
+            "$x \\le -3$ or $x \\ge 1$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(x - 1)(x - 3) = 0$ gives roots $1$ and $3$. The solution between the roots is $1 \\le x \\le 3$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q4",
@@ -56,7 +194,53 @@
         "$(3, 7)$ and $(-1, -1)$"
       ],
       "correctIndex": 0,
-      "explanation": "Equate the equations: $2x + 1 = x² - x - 3 \\implies x² - 3x - 4 = 0 \\implies (x - 4)(x + 1) = 0$. This yields $x = 4$ ($y = 9$) and $x = -1$ ($y = -1$).\n\n**Common mistake:** Students frequently make sign errors when moving terms across the equals sign, arriving at $x² - x - 2 = 0$ or similar incorrect equations."
+      "explanation": "Equate the equations: $2x + 1 = x² - x - 3 \\implies x² - 3x - 4 = 0 \\implies (x - 4)(x + 1) = 0$. This yields $x = 4$ ($y = 9$) and $x = -1$ ($y = -1$).\n\n**Common mistake:** Students frequently make sign errors when moving terms across the equals sign, arriving at $x² - x - 2 = 0$ or similar incorrect equations.",
+      "variants": [
+        {
+          "question": "Find the coordinates of the points of intersection of the line $y = 3x + 2$ and the curve $y = x² - x + 5$.",
+          "options": [
+            "$(1, 5)$ and $(3, 11)$",
+            "$(-1, -1)$ and $(3, 11)$",
+            "$(1, 5)$ and $(-3, -7)$",
+            "$(3, 11)$ and $(-1, -1)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$3x + 2 = x² - x + 5 \\implies x² - 4x + 3 = 0 \\implies (x - 1)(x - 3) = 0$. At $x = 1$, $y = 5$; at $x = 3$, $y = 11$."
+        },
+        {
+          "question": "Find the coordinates of the points of intersection of the line $y = x + 3$ and the curve $y = x² - 2x - 1$.",
+          "options": [
+            "$(4, 7)$ and $(-1, 2)$",
+            "$(-4, -7)$ and $(1, 4)$",
+            "$(4, 7)$ and $(1, 4)$",
+            "$(-1, 2)$ and $(4, -7)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x + 3 = x² - 2x - 1 \\implies x² - 3x - 4 = 0 \\implies (x - 4)(x + 1) = 0$. At $x = 4$, $y = 7$; at $x = -1$, $y = 2$."
+        },
+        {
+          "question": "Find the coordinates of the points of intersection of the line $y = 2x - 1$ and the curve $y = x² - 4$.",
+          "options": [
+            "$(3, 5)$ and $(-1, -3)$",
+            "$(-3, -5)$ and $(1, 1)$",
+            "$(3, 5)$ and $(1, 1)$",
+            "$(-1, -3)$ and $(3, -5)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$2x - 1 = x² - 4 \\implies x² - 2x - 3 = 0 \\implies (x - 3)(x + 1) = 0$. At $x = 3$, $y = 5$; at $x = -1$, $y = -3$."
+        },
+        {
+          "question": "Find the coordinates of the points of intersection of the line $y = x + 1$ and the curve $y = x² - 2x - 3$.",
+          "options": [
+            "$(4, 5)$ and $(-1, 0)$",
+            "$(-4, -5)$ and $(1, 2)$",
+            "$(4, 5)$ and $(1, 2)$",
+            "$(-1, 0)$ and $(4, -5)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x + 1 = x² - 2x - 3 \\implies x² - 3x - 4 = 0 \\implies (x - 4)(x + 1) = 0$. At $x = 4$, $y = 5$; at $x = -1$, $y = 0$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q5",
@@ -69,7 +253,53 @@
         "$24$"
       ],
       "correctIndex": 0,
-      "explanation": "For equal real roots, $\\Delta = b² - 4ac = 0$. Here, $(-k)² - 4(3)(12) = 0 \\implies k² - 144 = 0 \\implies k = \\pm 12$. Since $k > 0$, $k = 12$.\n\n**Common mistake:** Students misremember the formula as $b² - ac = 0$, resulting in $k² - 36 = 0 \\implies k = 6$, omitting the factor of 4."
+      "explanation": "For equal real roots, $\\Delta = b² - 4ac = 0$. Here, $(-k)² - 4(3)(12) = 0 \\implies k² - 144 = 0 \\implies k = \\pm 12$. Since $k > 0$, $k = 12$.\n\n**Common mistake:** Students misremember the formula as $b² - ac = 0$, resulting in $k² - 36 = 0 \\implies k = 6$, omitting the factor of 4.",
+      "variants": [
+        {
+          "question": "Find the value of the constant $k$ for which the quadratic equation $2x² - kx + 18 = 0$ has two equal real roots, given that $k > 0$.",
+          "options": [
+            "$12$",
+            "$144$",
+            "$6$",
+            "$36$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$k² - 4(2)(18) = 0 \\implies k² = 144 \\implies k = 12$ (positive)."
+        },
+        {
+          "question": "Find the value of the constant $k$ for which the quadratic equation $x² - kx + 16 = 0$ has two equal real roots, given that $k > 0$.",
+          "options": [
+            "$8$",
+            "$64$",
+            "$4$",
+            "$16$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$k² - 4(1)(16) = 0 \\implies k² = 64 \\implies k = 8$ (positive)."
+        },
+        {
+          "question": "Find the value of the constant $k$ for which the quadratic equation $4x² - kx + 4 = 0$ has two equal real roots, given that $k > 0$.",
+          "options": [
+            "$8$",
+            "$64$",
+            "$4$",
+            "$16$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$k² - 4(4)(4) = 0 \\implies k² = 64 \\implies k = 8$ (positive)."
+        },
+        {
+          "question": "Find the value of the constant $k$ for which the quadratic equation $2x² - kx + 32 = 0$ has two equal real roots, given that $k > 0$.",
+          "options": [
+            "$16$",
+            "$256$",
+            "$8$",
+            "$32$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$k² - 4(2)(32) = 0 \\implies k² = 256 \\implies k = 16$ (positive)."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q6",
@@ -82,7 +312,53 @@
         "$(4, 5)$"
       ],
       "correctIndex": 0,
-      "explanation": "The turning point of the original quadratic is at $x = -\\frac{-4}{2(1)} = 2$. Substituting $2$ into the quadratic gives $2^2 - 4(2) - 5 = -9$. Under the modulus function, this negative minimum point is reflected to become a maximum point at $(2, |-9|) = (2, 9)$.\n\n**Common mistake:** Students find the turning point of the unreflected quadratic correctly as $(2, -9)$ but fail to apply the modulus transformation, missing that the absolute value maps $-9$ to $+9$."
+      "explanation": "The turning point of the original quadratic is at $x = -\\frac{-4}{2(1)} = 2$. Substituting $2$ into the quadratic gives $2^2 - 4(2) - 5 = -9$. Under the modulus function, this negative minimum point is reflected to become a maximum point at $(2, |-9|) = (2, 9)$.\n\n**Common mistake:** Students find the turning point of the unreflected quadratic correctly as $(2, -9)$ but fail to apply the modulus transformation, missing that the absolute value maps $-9$ to $+9$.",
+      "variants": [
+        {
+          "question": "The quadratic graph $y = x^2 - 4x - 3$ is reflected in the $x$-axis for its negative parts to form $y = |x^2 - 4x - 3|$. Find the coordinates of the local maximum point of this modulus function.",
+          "options": [
+            "$(2, 7)$",
+            "$(2, -7)$",
+            "$(-2, 7)$",
+            "$(4, 3)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vertex at $x = 2$: $4 - 8 - 3 = -7$. After modulus: $(2, 7)$."
+        },
+        {
+          "question": "The quadratic graph $y = x^2 - 6x + 5$ is reflected in the $x$-axis for its negative parts to form $y = |x^2 - 6x + 5|$. Find the coordinates of the local maximum point of this modulus function.",
+          "options": [
+            "$(3, 4)$",
+            "$(3, -4)$",
+            "$(-3, 4)$",
+            "$(5, 5)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vertex at $x = 3$: $9 - 18 + 5 = -4$. After modulus: $(3, 4)$."
+        },
+        {
+          "question": "The quadratic graph $y = x^2 - 8x + 12$ is reflected in the $x$-axis for its negative parts to form $y = |x^2 - 8x + 12|$. Find the coordinates of the local maximum point of this modulus function.",
+          "options": [
+            "$(4, 4)$",
+            "$(4, -4)$",
+            "$(-4, 4)$",
+            "$(6, 12)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vertex at $x = 4$: $16 - 32 + 12 = -4$. After modulus: $(4, 4)$."
+        },
+        {
+          "question": "The quadratic graph $y = x^2 - 2x - 8$ is reflected in the $x$-axis for its negative parts to form $y = |x^2 - 2x - 8|$. Find the coordinates of the local maximum point of this modulus function.",
+          "options": [
+            "$(1, 9)$",
+            "$(1, -9)$",
+            "$(-1, 9)$",
+            "$(4, 8)$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vertex at $x = 1$: $1 - 2 - 8 = -9$. After modulus: $(1, 9)$."
+        }
+      ]
     }
   ]
 }

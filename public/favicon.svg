@@ -1,4 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#1a1a1a"/>
-  <text x="16" y="22" text-anchor="middle" fill="#b59a73" font-family="Georgia, serif" font-size="18" font-weight="bold">E</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f5f0e8"/>
+  <path
+    d="M48 280 C120 200, 200 360, 280 240 S 400 320, 464 200"
+    fill="none"
+    stroke="#c9b89a"
+    stroke-width="14"
+    stroke-linecap="round"
+  />
+  <path
+    d="M80 320 C160 260, 240 380, 320 300 S 420 360, 440 280"
+    fill="none"
+    stroke="#c9b89a"
+    stroke-width="10"
+    stroke-linecap="round"
+    opacity="0.7"
+  />
+  <text
+    x="256"
+    y="200"
+    text-anchor="middle"
+    fill="#1a1a1a"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-style="italic"
+  >project</text>
+  <text
+    x="290"
+    y="270"
+    text-anchor="middle"
+    fill="#1a1a1a"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="72"
+    font-weight="700"
+  >enlight.</text>
 </svg>

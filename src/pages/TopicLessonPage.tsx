@@ -10,6 +10,8 @@ import { MarkdownLesson } from '@/components/MarkdownLesson'
 import { MathText } from '@/components/MathText'
 import { MasteryPath } from '@/components/MasteryPath'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { useChapterSession } from '@/features/mastery/useChapterSession'
+import { useTopicSession } from '@/features/mastery/useTopicSession'
 import {
   getChapter,
   getNotesForTopic,
@@ -19,6 +21,12 @@ import {
 } from '@/lib/contentLoader'
 
 const FONT_STEPS = [0.85, 1.0, 1.15, 1.3]
+
+function formatStudyClock(totalSec: number): string {
+  const m = Math.floor(totalSec / 60)
+  const s = totalSec % 60
+  return `${m}:${s.toString().padStart(2, '0')}`
+}
 
 export function TopicLessonPage() {
   const {
@@ -30,9 +38,12 @@ export function TopicLessonPage() {
   const {
     markNotesRead,
     areChapterNotesComplete,
-    shouldShowChapterPopout,
     markChapterPopoutSeen,
     canTakeChapterQuiz,
+    isNotesRead,
+    getTopicTimeSpent,
+    hasTopicStudyTime,
+    notesMinSeconds,
   } = useMastery()
 
   const [showPopout, setShowPopout] = useState(false)
@@ -40,6 +51,13 @@ export function TopicLessonPage() {
   const [readProgress, setReadProgress] = useState(0)
   const [showScrollTop, setShowScrollTop] = useState(false)
   const lessonCardRef = useRef<HTMLDivElement>(null)
+
+  useChapterSession(chapterId)
+  useTopicSession(topicId)
+
+  const topicTimeSpent = getTopicTimeSpent(topicId)
+  const studyComplete = hasTopicStudyTime(topicId)
+  const studyProgressPct = Math.min(100, Math.round((topicTimeSpent / notesMinSeconds) * 100))
 
   const fontScale = FONT_STEPS[fontStep]
 
@@ -74,14 +92,23 @@ export function TopicLessonPage() {
 
   useEffect(() => {
     if (!topicId || !chapterId || !topic || !chapter) return
-    const t = setTimeout(() => {
-      const chapterJustCompleted = markNotesRead(topicId, chapterId)
-      if (chapterJustCompleted || shouldShowChapterPopout(chapterId)) {
-        setShowPopout(true)
-      }
-    }, 1500)
-    return () => clearTimeout(t)
-  }, [topicId, chapterId, topic, chapter, markNotesRead, shouldShowChapterPopout])
+    if (isNotesRead(topicId)) return
+    if (!hasTopicStudyTime(topicId)) return
+
+    const chapterJustCompleted = markNotesRead(topicId, chapterId)
+    if (chapterJustCompleted) {
+      setShowPopout(true)
+    }
+  }, [
+    topicId,
+    chapterId,
+    topic,
+    chapter,
+    topicTimeSpent,
+    isNotesRead,
+    hasTopicStudyTime,
+    markNotesRead,
+  ])
 
   if (!topic || !chapter || !subject) {
     return (
@@ -97,7 +124,6 @@ export function TopicLessonPage() {
 
   const notes = getNotesForTopic(topic)
   const notesComplete = areChapterNotesComplete(chapterId)
-  const isAnchor = topic.isChapterQuizAnchor && chapter.hasChapterQuiz
   const canStartQuiz = canTakeChapterQuiz(chapterId, 'easy')
 
   const dismissPopout = () => {
@@ -140,6 +166,37 @@ export function TopicLessonPage() {
               <MathText content={topic.lessonMeta ?? topic.subtitle} />
             </p>
 
+            {!isNotesRead(topicId) ? (
+              <div className="enlight-study-timer" role="status">
+                <div className="enlight-study-timer__row">
+                  <span className="enlight-study-timer__label">
+                    {studyComplete
+                      ? 'Study time complete — +5 XP awarded!'
+                      : `Study this section · ${formatStudyClock(topicTimeSpent)} / ${formatStudyClock(notesMinSeconds)} for +5 XP`}
+                  </span>
+                  <span className="enlight-study-timer__pct">{studyProgressPct}%</span>
+                </div>
+                <div className="enlight-study-timer__bar" aria-hidden="true">
+                  <div
+                    className="enlight-study-timer__fill"
+                    style={{ width: `${studyProgressPct}%` }}
+                  />
+                </div>
+              </div>
+            ) : (
+              <div className="enlight-study-timer enlight-study-timer--done" role="status">
+                <div className="enlight-study-timer__row">
+                  <span className="enlight-study-timer__label">
+                    Section complete · {formatStudyClock(topicTimeSpent)} studied · +5 XP earned
+                  </span>
+                  <span className="enlight-study-timer__pct">✓</span>
+                </div>
+                <div className="enlight-study-timer__bar" aria-hidden="true">
+                  <div className="enlight-study-timer__fill" style={{ width: '100%' }} />
+                </div>
+              </div>
+            )}
+
             <div ref={lessonCardRef} className="enlight-lesson-card">
               <MarkdownLesson content={notes} explorerId={topic.explorerId} explorerPanels={topic.explorerPanels} />
             </div>
@@ -161,22 +218,26 @@ export function TopicLessonPage() {
                 >
                   <MathText content={nextTopic.title} /> →
                 </EnlightButton>
-              ) : isAnchor && canStartQuiz ? (
-                <EnlightButton onClick={() => setShowPopout(true)}>Test chapter →</EnlightButton>
+              ) : chapter.hasChapterQuiz && canStartQuiz ? (
+                <EnlightButton
+                  to={`/quiz/${chapterId}/easy`}
+                  onClick={() => markChapterPopoutSeen(chapterId)}
+                >
+                  Easy quiz →
+                </EnlightButton>
               ) : (
                 <span />
               )}
             </div>
 
-            {isAnchor && (
+            {chapter.hasChapterQuiz && (
               <>
                 <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
                   Chapter mastery
                 </h2>
                 <p className="enlight-body-text">
-                  {notesComplete
-                    ? 'All topics studied — work through each quiz tier. Aim for 70%+ to advance.'
-                    : 'Read every topic in this chapter to unlock the chapter quiz.'}
+                  Quizzes are open anytime — pass Easy before Medium, then Hard, then PYP.
+                  {notesComplete ? ' All topic sections studied.' : ''}
                 </p>
                 <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
               </>

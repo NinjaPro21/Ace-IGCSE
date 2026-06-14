@@ -23,8 +23,8 @@ const FEATURES = [
 const HOW_IT_WORKS = [
   {
     step: '01',
-    title: 'Read the Notes',
-    body: 'Scan compressed, exam-ready topic notes with built-in formula boxes and examiner tips.',
+    title: 'Study the Notes',
+    body: 'Spend at least 5 minutes on each topic section to earn XP. Quizzes open anytime — pass each tier to advance.',
   },
   {
     step: '02',
@@ -65,12 +65,10 @@ export function LandingPage() {
         </p>
         <div className="enlight-hero__actions">
           <EnlightButton to="/subjects/add-maths-0606">Browse Add Maths →</EnlightButton>
-          <EnlightButton to="/demo" variant="outline">
-            Try Live Demo
-          </EnlightButton>
+          <EnlightButton to="/progress" variant="outline">View progress</EnlightButton>
         </div>
         <p className="enlight-hero__micro">
-          No sign-up needed to explore · Instant access after purchase
+          Sign in with Google to track XP, streaks, and class leaderboards.
         </p>
       </section>
 
@@ -126,14 +124,12 @@ export function LandingPage() {
           <div>
             <h2 className="enlight-cta-strip__title">Ready to start?</h2>
             <p className="enlight-cta-strip__sub">
-              Explore Add Maths free — no account needed. Unlock full access anytime.
+              Study compressed notes, earn XP from real study time, and climb your class leaderboard.
             </p>
           </div>
           <div className="enlight-cta-strip__actions">
             <EnlightButton to="/subjects/add-maths-0606">Browse Add Maths →</EnlightButton>
-            <EnlightButton to="/demo" variant="outline">
-              Try Demo
-            </EnlightButton>
+            <EnlightButton to="/progress" variant="outline">Your progress</EnlightButton>
           </div>
         </div>
       </section>

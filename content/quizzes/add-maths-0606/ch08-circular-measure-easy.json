@@ -17,7 +17,53 @@
         "9.5\\text{ cm}"
       ],
       "correctIndex": 0,
-      "explanation": "Using the direct formula for arc length, $s = r\\theta$, we substitute the given values: $s = 8 \\times 1.5 = 12\\text{ cm}$.\n\n**Common mistake:** Students misremembering the formula might divide the radius by the angle ($8 / 1.5 \\approx 5.33\\text{ cm}$), leading to Option B, or use the area formula $0.5r^2\\theta = 48\\text{ cm}$, leading to Option C."
+      "explanation": "Using the direct formula for arc length, $s = r\\theta$, we substitute the given values: $s = 8 \\times 1.5 = 12\\text{ cm}$.\n\n**Common mistake:** Students misremembering the formula might divide the radius by the angle ($8 / 1.5 \\approx 5.33\\text{ cm}$), leading to Option B, or use the area formula $0.5r^2\\theta = 48\\text{ cm}$, leading to Option C.",
+      "variants": [
+        {
+          "question": "A sector of a circle of radius $6\\text{ cm}$ has an angle of $2\\text{ radians}$ at the centre. Find the arc length of the sector.",
+          "options": [
+            "12\\text{ cm}",
+            "3\\text{ cm}",
+            "72\\text{ cm}",
+            "14\\text{ cm}"
+          ],
+          "correctIndex": 0,
+          "explanation": "$s = r\\theta = 6 \\times 2 = 12\\text{ cm}$."
+        },
+        {
+          "question": "A sector of a circle of radius $10\\text{ cm}$ has an angle of $1.2\\text{ radians}$ at the centre. Find the arc length of the sector.",
+          "options": [
+            "12\\text{ cm}",
+            "8.33\\text{ cm}",
+            "120\\text{ cm}",
+            "14\\text{ cm}"
+          ],
+          "correctIndex": 0,
+          "explanation": "$s = r\\theta = 10 \\times 1.2 = 12\\text{ cm}$."
+        },
+        {
+          "question": "A sector of a circle of radius $5\\text{ cm}$ has an angle of $2.4\\text{ radians}$ at the centre. Find the arc length of the sector.",
+          "options": [
+            "12\\text{ cm}",
+            "2.08\\text{ cm}",
+            "60\\text{ cm}",
+            "14\\text{ cm}"
+          ],
+          "correctIndex": 0,
+          "explanation": "$s = r\\theta = 5 \\times 2.4 = 12\\text{ cm}$."
+        },
+        {
+          "question": "A sector of a circle of radius $12\\text{ cm}$ has an angle of $0.75\\text{ radians}$ at the centre. Find the arc length of the sector.",
+          "options": [
+            "9\\text{ cm}",
+            "16\\text{ cm}",
+            "108\\text{ cm}",
+            "11\\text{ cm}"
+          ],
+          "correctIndex": 0,
+          "explanation": "$s = r\\theta = 12 \\times 0.75 = 9\\text{ cm}$."
+        }
+      ]
     },
     {
       "id": "ch08-circular-measure-q2",
@@ -30,7 +76,53 @@
         "\\frac{3\\pi}{2}"
       ],
       "correctIndex": 0,
-      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. This gives $135 \\times \\frac{\\pi}{180} = \\frac{135\\pi}{180} = \\frac{3\\pi}{4}$.\n\n**Common mistake:** Students frequently invert the conversion factor and multiply by $\\frac{180}{\\pi}$ or simplify the fraction incorrectly, leading to option B or C."
+      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. This gives $135 \\times \\frac{\\pi}{180} = \\frac{135\\pi}{180} = \\frac{3\\pi}{4}$.\n\n**Common mistake:** Students frequently invert the conversion factor and multiply by $\\frac{180}{\\pi}$ or simplify the fraction incorrectly, leading to option B or C.",
+      "variants": [
+        {
+          "question": "Convert an angle of $90^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "options": [
+            "\\frac{1}{2}\\pi",
+            "\\frac{2}{3}\\pi",
+            "\\frac{1}{3}\\pi",
+            "\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $120^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "options": [
+            "\\frac{2}{3}\\pi",
+            "\\frac{5}{6}\\pi",
+            "\\frac{1}{2}\\pi",
+            "\\frac{4}{3}\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $60^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "options": [
+            "\\frac{1}{3}\\pi",
+            "\\frac{1}{2}\\pi",
+            "\\frac{1}{6}\\pi",
+            "\\frac{2}{3}\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $150^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "options": [
+            "\\frac{5}{6}\\pi",
+            "\\pi",
+            "\\frac{2}{3}\\pi",
+            "\\frac{5}{3}\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
+        }
+      ]
     },
     {
       "id": "ch08-circular-measure-q3",
@@ -43,7 +135,53 @@
         "9"
       ],
       "correctIndex": 0,
-      "explanation": "Using the sector area formula $A = \\frac{1}{2}r^2\\theta$, we get $27 = \\frac{1}{2}(6)^2\\theta$, which simplifies to $27 = 18\\theta$, so $\\theta = 1.5$ radians.\n\n**Common mistake:** Students often forget the $\\frac{1}{2}$ coefficient in the formula, leading to $27 = 36\\theta \\implies \\theta = 0.75$ (Option B), or they forget to square the radius, leading to Option C."
+      "explanation": "Using the sector area formula $A = \\frac{1}{2}r^2\\theta$, we get $27 = \\frac{1}{2}(6)^2\\theta$, which simplifies to $27 = 18\\theta$, so $\\theta = 1.5$ radians.\n\n**Common mistake:** Students often forget the $\\frac{1}{2}$ coefficient in the formula, leading to $27 = 36\\theta \\implies \\theta = 0.75$ (Option B), or they forget to square the radius, leading to Option C.",
+      "variants": [
+        {
+          "question": "A sector of a circle has a radius of $4\\text{ cm}$ and an area of $8\\text{ cm}^2$. Find the angle of the sector in radians.",
+          "options": [
+            "1",
+            "0.5",
+            "2",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "$8 = \\frac{1}{2}(4)^2\\theta \\implies \\theta = 1$."
+        },
+        {
+          "question": "A sector of a circle has a radius of $8\\text{ cm}$ and an area of $16\\text{ cm}^2$. Find the angle of the sector in radians.",
+          "options": [
+            "0.5",
+            "0.25",
+            "1",
+            "1.5"
+          ],
+          "correctIndex": 0,
+          "explanation": "$16 = \\frac{1}{2}(8)^2\\theta \\implies \\theta = 0.5$."
+        },
+        {
+          "question": "A sector of a circle has a radius of $5\\text{ cm}$ and an area of $25\\text{ cm}^2$. Find the angle of the sector in radians.",
+          "options": [
+            "2",
+            "1",
+            "4",
+            "3"
+          ],
+          "correctIndex": 0,
+          "explanation": "$25 = \\frac{1}{2}(5)^2\\theta \\implies \\theta = 2$."
+        },
+        {
+          "question": "A sector of a circle has a radius of $6\\text{ cm}$ and an area of $18\\text{ cm}^2$. Find the angle of the sector in radians.",
+          "options": [
+            "1",
+            "0.5",
+            "2",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "$18 = \\frac{1}{2}(6)^2\\theta \\implies \\theta = 1$."
+        }
+      ]
     },
     {
       "id": "ch08-circular-measure-q4",
@@ -69,7 +207,53 @@
         "4\\text{ cm}^2"
       ],
       "correctIndex": 0,
-      "explanation": "Using the area formula $A = \\frac{1}{2}r^2\\theta$, we compute $A = \\frac{1}{2} \\times 10^2 \\times 0.8 = 0.5 \\times 100 \\times 0.8 = 40\\text{ cm}^2$.\n\n**Common mistake:** Students frequently forget the $\\frac{1}{2}$ factor, obtaining $100 \\times 0.8 = 80$ (Option B), or forget to square the radius, evaluating $0.5 \\times 10 \\times 0.8 = 4$ (Option D)."
+      "explanation": "Using the area formula $A = \\frac{1}{2}r^2\\theta$, we compute $A = \\frac{1}{2} \\times 10^2 \\times 0.8 = 0.5 \\times 100 \\times 0.8 = 40\\text{ cm}^2$.\n\n**Common mistake:** Students frequently forget the $\\frac{1}{2}$ factor, obtaining $100 \\times 0.8 = 80$ (Option B), or forget to square the radius, evaluating $0.5 \\times 10 \\times 0.8 = 4$ (Option D).",
+      "variants": [
+        {
+          "question": "Find the area of a sector of a circle with radius $8\\text{ cm}$ and a central angle of $1.5\\text{ radians}$.",
+          "options": [
+            "48\\text{ cm}^2",
+            "96\\text{ cm}^2",
+            "12\\text{ cm}^2",
+            "24\\text{ cm}^2"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = \\frac{1}{2}r^2\\theta = 0.5 \\times 8^2 \\times 1.5 = 48\\text{ cm}^2$."
+        },
+        {
+          "question": "Find the area of a sector of a circle with radius $6\\text{ cm}$ and a central angle of $2\\text{ radians}$.",
+          "options": [
+            "36\\text{ cm}^2",
+            "72\\text{ cm}^2",
+            "12\\text{ cm}^2",
+            "18\\text{ cm}^2"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = \\frac{1}{2}r^2\\theta = 0.5 \\times 6^2 \\times 2 = 36\\text{ cm}^2$."
+        },
+        {
+          "question": "Find the area of a sector of a circle with radius $5\\text{ cm}$ and a central angle of $1.6\\text{ radians}$.",
+          "options": [
+            "20\\text{ cm}^2",
+            "40\\text{ cm}^2",
+            "8\\text{ cm}^2",
+            "10\\text{ cm}^2"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = \\frac{1}{2}r^2\\theta = 0.5 \\times 5^2 \\times 1.6 = 20\\text{ cm}^2$."
+        },
+        {
+          "question": "Find the area of a sector of a circle with radius $12\\text{ cm}$ and a central angle of $0.5\\text{ radians}$.",
+          "options": [
+            "36\\text{ cm}^2",
+            "72\\text{ cm}^2",
+            "6\\text{ cm}^2",
+            "18\\text{ cm}^2"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = \\frac{1}{2}r^2\\theta = 0.5 \\times 12^2 \\times 0.5 = 36\\text{ cm}^2$."
+        }
+      ]
     }
   ]
 }

@@ -1,10 +1,11 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { MathText } from '@/components/MathText'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { useChapterSession } from '@/features/mastery/useChapterSession'
 import {
   getChapter,
   getChapterQuizAnchor,
@@ -13,6 +14,8 @@ import {
   getWeakTopicsInChapter,
 } from '@/lib/contentLoader'
 import type { Difficulty, McqQuestion } from '@/lib/contentTypes'
+import { XP_REWARDS } from '@/features/mastery/levelSystem'
+import { OPTION_LETTERS, prepareQuizSession } from './quizUtils'
 
 const DIFF_LABEL: Record<Difficulty, string> = {
   easy: 'Easy',
@@ -40,12 +43,21 @@ export function QuizArena() {
   const quiz = getQuizByChapterAndDifficulty(chapterId, difficulty as Difficulty)
   const diff = difficulty as Difficulty
 
+  useChapterSession(chapterId)
+
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
   const [correctCount, setCorrectCount] = useState(0)
   const [showFeedback, setShowFeedback] = useState(false)
   const [finished, setFinished] = useState(false)
   const [finalScore, setFinalScore] = useState(0)
+  const [xpEarned, setXpEarned] = useState(0)
+  const [shuffleKey, setShuffleKey] = useState(0)
+
+  const questions = useMemo(
+    () => (quiz ? prepareQuizSession(quiz.questions, quiz.questionsPerAttempt) : []),
+    [quiz, shuffleKey],
+  )
 
   // Reset all internal state when chapterId or difficulty changes (prevents stale state on Easy→Medium navigation)
   const resetKey = useRef(`${chapterId}-${difficulty}`)
@@ -59,6 +71,8 @@ export function QuizArena() {
       setShowFeedback(false)
       setFinished(false)
       setFinalScore(0)
+      setXpEarned(0)
+      setShuffleKey(0)
     }
   }, [chapterId, difficulty])
 
@@ -83,8 +97,8 @@ export function QuizArena() {
           <h2 className="enlight-heading-serif">Locked</h2>
           <p className="enlight-body-text">
             {diff === 'easy'
-              ? 'Read all topic notes in this chapter before attempting the quiz.'
-              : `Complete the previous mastery level before attempting ${DIFF_LABEL[diff]}.`}
+              ? 'This quiz could not be loaded.'
+              : `Pass ${diff === 'medium' ? 'Easy' : diff === 'hard' ? 'Medium' : 'Hard'} first before attempting ${DIFF_LABEL[diff]}.`}
           </p>
           {firstTopic && (
             <EnlightButton
@@ -99,7 +113,7 @@ export function QuizArena() {
     )
   }
 
-  if (quiz.questions.length === 0) {
+  if (questions.length === 0) {
     return (
       <div className="enlight-app">
         <EnlightHeader />
@@ -113,36 +127,33 @@ export function QuizArena() {
     )
   }
 
-  const question: McqQuestion | undefined = quiz.questions[index]
-  const progress = ((index + (finished ? 1 : 0)) / quiz.questions.length) * 100
+  const question: McqQuestion | undefined = questions[index]
+  const progress = ((index + (finished ? 1 : 0)) / questions.length) * 100
   const weakTopics = getWeakTopicsInChapter(chapterId, getTopicNotesReadMap())
 
   const handleSelect = (optionIndex: number) => {
     if (showFeedback || finished) return
     setSelected(optionIndex)
     setShowFeedback(true)
-    if (optionIndex === question?.correctIndex) {
-      setCorrectCount((c) => c + 1)
-    }
-  }
-
-  const resolveCorrectCount = () => {
-    // handleSelect schedules setCorrectCount before handleNext runs — account for stale state
-    const lastAnswerCorrect = selected === question?.correctIndex
-    return lastAnswerCorrect ? correctCount + 1 : correctCount
   }
 
   const handleNext = () => {
-    if (index + 1 >= quiz.questions.length) {
-      const totalCorrect = resolveCorrectCount()
-      const scorePercent = Math.round((totalCorrect / quiz.questions.length) * 100)
+    const isCorrect = selected === question?.correctIndex
+    const totalCorrect = isCorrect ? correctCount + 1 : correctCount
+
+    if (index + 1 >= questions.length) {
+      const scorePercent = Math.min(
+        100,
+        Math.round((totalCorrect / questions.length) * 100),
+      )
       const passed = scorePercent >= quiz.passPercent
       setFinalScore(scorePercent)
       setCorrectCount(totalCorrect)
+      setXpEarned(recordChapterQuizResult(chapterId, diff, scorePercent, passed))
       setFinished(true)
-      recordChapterQuizResult(chapterId, diff, scorePercent, passed)
       return
     }
+    setCorrectCount(totalCorrect)
     setIndex((i) => i + 1)
     setSelected(null)
     setShowFeedback(false)
@@ -161,8 +172,11 @@ export function QuizArena() {
             <h2 className="enlight-heading-serif">{passed ? 'Well done!' : 'Keep practising'}</h2>
             <div className="enlight-quiz__score">{finalScore}%</div>
             <p className="enlight-body-text">
+              {correctCount} of {questions.length} correct
+            </p>
+            <p className="enlight-body-text">
               {passed
-                ? `You passed (${quiz.passPercent}% required). XP awarded!`
+                ? `You passed (${quiz.passPercent}% required). +${xpEarned || XP_REWARDS[diff]} XP awarded!`
                 : `You need ${quiz.passPercent}% to advance. Try again.`}
             </p>
             {!passed && weakTopics.length > 0 && (
@@ -190,9 +204,11 @@ export function QuizArena() {
                     setIndex(0)
                     setCorrectCount(0)
                     setFinalScore(0)
+                    setXpEarned(0)
                     setSelected(null)
                     setShowFeedback(false)
                     setFinished(false)
+                    setShuffleKey((k) => k + 1)
                   }}
                 >
                   Retry
@@ -227,7 +243,7 @@ export function QuizArena() {
           <div className="enlight-quiz__progress-bar" style={{ width: `${progress}%` }} />
         </div>
         <p className="enlight-quiz__meta">
-          Question {index + 1} of {quiz.questions.length}
+          Question {index + 1} of {questions.length}
         </p>
         <h2 className="enlight-quiz__question">
           {question && <MathText content={question.question} block />}
@@ -240,6 +256,7 @@ export function QuizArena() {
             else if (i === selected) cls += ' enlight-quiz__option--selected'
             return (
               <button key={i} type="button" className={cls} onClick={() => handleSelect(i)}>
+                <span className="enlight-quiz__option-letter">{OPTION_LETTERS[i] ?? i + 1}</span>
                 <MathText content={opt} />
               </button>
             )
@@ -253,7 +270,7 @@ export function QuizArena() {
         {showFeedback && (
           <div className="enlight-quiz__next">
             <EnlightButton onClick={handleNext}>
-              {index + 1 >= quiz.questions.length ? 'See results' : 'Next question'}
+              {index + 1 >= questions.length ? 'See results' : 'Next question'}
             </EnlightButton>
           </div>
         )}

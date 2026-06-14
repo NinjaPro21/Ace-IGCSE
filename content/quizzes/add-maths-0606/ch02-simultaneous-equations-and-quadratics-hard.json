@@ -17,7 +17,53 @@
         "$0$ and $4$"
       ],
       "correctIndex": 0,
-      "explanation": "Equate equations: $x² - 2x - 1 = mx - 5 \\implies x² - (2 + m)x + 4 = 0$. Since the line is a tangent, $\\Delta = 0 \\implies [-(2 + m)]² - 4(1)(4) = 0 \\implies (2 + m)² = 16 \\implies 2 + m = \\pm 4$, so $m = 2$ or $m = -6$.\n\n**Common mistake:** Students often expand $(2+m)²$ incorrectly or forget that moving $-mx$ makes the linear coefficient $-(2+m)$, leading to incorrect expressions like $(2-m)² = 16$."
+      "explanation": "Equate equations: $x² - 2x - 1 = mx - 5 \\implies x² - (2 + m)x + 4 = 0$. Since the line is a tangent, $\\Delta = 0 \\implies [-(2 + m)]² - 4(1)(4) = 0 \\implies (2 + m)² = 16 \\implies 2 + m = \\pm 4$, so $m = 2$ or $m = -6$.\n\n**Common mistake:** Students often expand $(2+m)²$ incorrectly or forget that moving $-mx$ makes the linear coefficient $-(2+m)$, leading to incorrect expressions like $(2-m)² = 16$.",
+      "variants": [
+        {
+          "question": "The line $y = mx - 4$ is a tangent to the curve $y = x² - 2x$. Find the possible values of the gradient $m$.",
+          "options": [
+            "$2$ and $-6$",
+            "$-2$ and $6$",
+            "$4$ and $-4$",
+            "$0$ and $4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x² - 2x = mx - 4 \\implies x² - (2+m)x + 4 = 0$. $\\Delta = 0$: $(2+m)² = 16$, so $m = 2$ or $m = -6$."
+        },
+        {
+          "question": "The line $y = mx - 9$ is a tangent to the curve $y = x² - 4x$. Find the possible values of the gradient $m$.",
+          "options": [
+            "$2$ and $-10$",
+            "$-2$ and $10$",
+            "$4$ and $-4$",
+            "$0$ and $8$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x² - 4x = mx - 9 \\implies x² - (4+m)x + 9 = 0$. $\\Delta = 0$: $(4+m)² = 36$, so $m = 2$ or $m = -10$."
+        },
+        {
+          "question": "The line $y = mx - 1$ is a tangent to the curve $y = x² - 5$. Find the possible values of the gradient $m$.",
+          "options": [
+            "$4$ and $-4$",
+            "$2$ and $-6$",
+            "$-2$ and $6$",
+            "$0$ and $4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x² - 5 = mx - 1 \\implies x² - mx - 4 = 0$. $\\Delta = 0$: $m² = 16$, so $m = 4$ or $m = -4$."
+        },
+        {
+          "question": "The line $y = mx - 9$ is a tangent to the curve $y = x² - 6x$. Find the possible values of the gradient $m$.",
+          "options": [
+            "$0$ and $-12$",
+            "$0$ and $12$",
+            "$4$ and $-4$",
+            "$2$ and $-6$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x² - 6x = mx - 9 \\implies x² - (6+m)x + 9 = 0$. $\\Delta = 0$: $(6+m)² = 36$, so $m = 0$ or $m = -12$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q2",
@@ -29,8 +75,54 @@
         "3",
         "1"
       ],
-      "correctIndex": 0,
-      "explanation": "Split into two cases: $2x² - 8x + 6 = 2 \\implies 2x² - 8x + 4 = 0$ (has 2 real roots since $\\Delta = 32 > 0$) and $2x² - 8x + 6 = -2 \\implies 2x² - 8x + 8 = 0 \\implies 2(x - 2)² = 0$ (has 1 real root, $x = 2$). Total distinct solutions = $2 + 1 = 3$.\n\n**Common mistake:** Students often blindly assume that every absolute value equation paired with a positive number yields exactly $2 \\times 2 = 4$ real solutions without verifying the discriminants or accounting for double roots."
+      "correctIndex": 2,
+      "explanation": "Split into two cases: $2x² - 8x + 6 = 2 \\implies 2x² - 8x + 4 = 0$ (has 2 real roots since $\\Delta = 32 > 0$) and $2x² - 8x + 6 = -2 \\implies 2x² - 8x + 8 = 0 \\implies 2(x - 2)² = 0$ (has 1 real root, $x = 2$). Total distinct solutions = $2 + 1 = 3$.\n\n**Common mistake:** Students often blindly assume that every absolute value equation paired with a positive number yields exactly $2 \\times 2 = 4$ real solutions without verifying the discriminants or accounting for double roots.",
+      "variants": [
+        {
+          "question": "Find the total number of real solutions to the equation $|x² - 6x + 5| = 4$.",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "1"
+          ],
+          "correctIndex": 2,
+          "explanation": "$x² - 6x + 5 = 4$ gives $x² - 6x + 1 = 0$ (2 roots). $x² - 6x + 5 = -4$ gives $(x-3)² = 0$ (1 root). Total = 3."
+        },
+        {
+          "question": "Find the total number of real solutions to the equation $|x² - 4x + 3| = 1$.",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "1"
+          ],
+          "correctIndex": 2,
+          "explanation": "$x² - 4x + 3 = 1$ gives $x² - 4x + 2 = 0$ (2 roots). $x² - 4x + 3 = -1$ gives $(x-2)² = 0$ (1 root). Total = 3."
+        },
+        {
+          "question": "Find the total number of real solutions to the equation $|2x² - 4x - 2| = 2$.",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "1"
+          ],
+          "correctIndex": 0,
+          "explanation": "$2x² - 4x - 2 = 2 \\implies 2x² - 4x - 4 = 0 \\implies x² - 2x - 2 = 0$ (2 roots). $2x² - 4x - 2 = -2 \\implies 2x² - 4x = 0 \\implies 2x(x-2)=0$ (2 roots: 0 and 2). Total = 4 distinct."
+        },
+        {
+          "question": "Find the total number of real solutions to the equation $|x² - 2x - 3| = 1$.",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "1"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x² - 2x - 3 = 1 \\implies x² - 2x - 4 = 0$ (2 roots). $x² - 2x - 3 = -1 \\implies x² - 2x - 2 = 0$ (2 roots). Total = 4 distinct."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q3",
@@ -43,7 +135,53 @@
         "$k > -3$"
       ],
       "correctIndex": 0,
-      "explanation": "For the expression to be always positive, the coefficient of $x²$ must be positive ($1 > 0$) and $\\Delta < 0$. Thus, $(k + 3)² - 4(1)(3k + 9) < 0 \\implies k² + 6k + 9 - 12k - 36 < 0 \\implies k² - 6k - 27 < 0 \\implies (k - 9)(k + 3) < 0$. This gives $-3 < k < 9$.\n\n**Common mistake:** Students mistakenly think 'always positive' means $\\Delta > 0$, solving for the outer regions of the critical points, which results in $k < -3$ or $k > 9$."
+      "explanation": "For the expression to be always positive, the coefficient of $x²$ must be positive ($1 > 0$) and $\\Delta < 0$. Thus, $(k + 3)² - 4(1)(3k + 9) < 0 \\implies k² + 6k + 9 - 12k - 36 < 0 \\implies k² - 6k - 27 < 0 \\implies (k - 9)(k + 3) < 0$. This gives $-3 < k < 9$.\n\n**Common mistake:** Students mistakenly think 'always positive' means $\\Delta > 0$, solving for the outer regions of the critical points, which results in $k < -3$ or $k > 9$.",
+      "variants": [
+        {
+          "question": "Find the range of values of $k$ for which the quadratic expression $x² + (k + 4)x + (2k + 8)$ is always positive for all real values of $x$.",
+          "options": [
+            "$-4 < k < 4$",
+            "$k < -4$ or $k > 4$",
+            "$-4 < k < 8$",
+            "$k > -4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(k+4)² - 4(2k+8) < 0 \\implies k² - 16 < 0$, so $-4 < k < 4$."
+        },
+        {
+          "question": "Find the range of values of $k$ for which the quadratic expression $x² + (k + 5)x + (4k + 20)$ is always positive for all real values of $x$.",
+          "options": [
+            "$-5 < k < 11$",
+            "$k < -5$ or $k > 11$",
+            "$-11 < k < 5$",
+            "$k > -5$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(k+5)² - 4(4k+20) < 0 \\implies (k-11)(k+5) < 0$, so $-5 < k < 11$."
+        },
+        {
+          "question": "Find the range of values of $k$ for which the quadratic expression $2x² + (k + 2)x + (k + 5)$ is always positive for all real values of $x$.",
+          "options": [
+            "$-4 < k < 9$",
+            "$k < -4$ or $k > 9$",
+            "$-9 < k < 4$",
+            "$k > -4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(k+2)² - 8(k+5) < 0 \\implies (k-9)(k+4) < 0$, so $-4 < k < 9$."
+        },
+        {
+          "question": "Find the range of values of $k$ for which the quadratic expression $x² + (k - 1)x + (2k - 2)$ is always positive for all real values of $x$.",
+          "options": [
+            "$1 < k < 9$",
+            "$k < 1$ or $k > 9$",
+            "$-9 < k < 1$",
+            "$k > 1$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$(k-1)² - 4(2k-2) < 0 \\implies (k-9)(k-1) < 0$, so $1 < k < 9$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q4",
@@ -56,7 +194,53 @@
         "$80\\text{ m}²$"
       ],
       "correctIndex": 0,
-      "explanation": "Let the two sides perpendicular to the wall be $x$. The length parallel to the wall is $40 - 2x$. Area $A = x(40 - 2x) = 40x - 2x²$. Completing the square: $-2(x² - 20x) = -2[(x - 10)² - 100] = -2(x - 10)² + 200$. The maximum area is $200\\text{ m}²$.\n\n**Common mistake:** Students frequently assume all four sides need fencing, setting up $2x + 2y = 40 \\implies A = x(20 - x)$, which yields an incorrect maximum area of $100\\text{ m}²$."
+      "explanation": "Let the two sides perpendicular to the wall be $x$. The length parallel to the wall is $40 - 2x$. Area $A = x(40 - 2x) = 40x - 2x²$. Completing the square: $-2(x² - 20x) = -2[(x - 10)² - 100] = -2(x - 10)² + 200$. The maximum area is $200\\text{ m}²$.\n\n**Common mistake:** Students frequently assume all four sides need fencing, setting up $2x + 2y = 40 \\implies A = x(20 - x)$, which yields an incorrect maximum area of $100\\text{ m}²$.",
+      "variants": [
+        {
+          "question": "A rectangular enclosure is built along a straight stone wall using $30\\text{ m}$ of fencing for the remaining three sides. Find the maximum possible area of the enclosure.",
+          "options": [
+            "$112.5\\text{ m}²$",
+            "$75\\text{ m}²$",
+            "$225\\text{ m}²$",
+            "$60\\text{ m}²$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = x(30 - 2x) = -2(x - 7.5)² + 112.5$. Maximum area is $112.5\\text{ m}²$."
+        },
+        {
+          "question": "A rectangular enclosure is built along a straight stone wall using $50\\text{ m}$ of fencing for the remaining three sides. Find the maximum possible area of the enclosure.",
+          "options": [
+            "$312.5\\text{ m}²$",
+            "$125\\text{ m}²$",
+            "$625\\text{ m}²$",
+            "$100\\text{ m}²$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = x(50 - 2x) = -2(x - 12.5)² + 312.5$. Maximum area is $312.5\\text{ m}²$."
+        },
+        {
+          "question": "A rectangular enclosure is built along a straight stone wall using $24\\text{ m}$ of fencing for the remaining three sides. Find the maximum possible area of the enclosure.",
+          "options": [
+            "$72\\text{ m}²$",
+            "$48\\text{ m}²$",
+            "$144\\text{ m}²$",
+            "$36\\text{ m}²$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = x(24 - 2x) = -2(x - 6)² + 72$. Maximum area is $72\\text{ m}²$."
+        },
+        {
+          "question": "A rectangular enclosure is built along a straight stone wall using $36\\text{ m}$ of fencing for the remaining three sides. Find the maximum possible area of the enclosure.",
+          "options": [
+            "$162\\text{ m}²$",
+            "$81\\text{ m}²$",
+            "$324\\text{ m}²$",
+            "$72\\text{ m}²$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$A = x(36 - 2x) = -2(x - 9)² + 162$. Maximum area is $162\\text{ m}²$."
+        }
+      ]
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q5",
@@ -82,7 +266,53 @@
         "$k = 9$"
       ],
       "correctIndex": 0,
-      "explanation": "The original quadratic $x^2 - 6x + 5$ has roots at $x = 1$ and $x = 5$, and a vertex minimum at $(3, -4)$. When reflected, the vertex becomes a local maximum at $(3, 4)$. A horizontal line intersects the curve exactly 3 times only if it passes directly through this reflected vertex point, meaning $y = 4$. Therefore, $k = 4$.\n\n**Common mistake:** Students confuse the number of intersections with the $y$-intercept or roots, incorrectly choosing $k = 5$ (which crosses 2 points) or $k = 0$ (which hits the 2 roots on the $x$-axis)."
+      "explanation": "The original quadratic $x^2 - 6x + 5$ has roots at $x = 1$ and $x = 5$, and a vertex minimum at $(3, -4)$. When reflected, the vertex becomes a local maximum at $(3, 4)$. A horizontal line intersects the curve exactly 3 times only if it passes directly through this reflected vertex point, meaning $y = 4$. Therefore, $k = 4$.\n\n**Common mistake:** Students confuse the number of intersections with the $y$-intercept or roots, incorrectly choosing $k = 5$ (which crosses 2 points) or $k = 0$ (which hits the 2 roots on the $x$-axis).",
+      "variants": [
+        {
+          "question": "The function $f(x) = |x^2 - 4x + 3|$ is plotted. A horizontal line $y = k$ intersects the curve at exactly 3 distinct points. Find the value of the constant $k$.",
+          "options": [
+            "$k = 1$",
+            "$k = 0$",
+            "$k = 3$",
+            "$k = 4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x^2 - 4x + 3$ has vertex at $(2, -1)$, reflected to $(2, 1)$. $k = 1$ gives exactly 3 intersections."
+        },
+        {
+          "question": "The function $f(x) = |x^2 - 8x + 15|$ is plotted. A horizontal line $y = k$ intersects the curve at exactly 3 distinct points. Find the value of the constant $k$.",
+          "options": [
+            "$k = 1$",
+            "$k = 0$",
+            "$k = 15$",
+            "$k = 9$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x^2 - 8x + 15$ has vertex at $(4, -1)$, reflected to $(4, 1)$. $k = 1$."
+        },
+        {
+          "question": "The function $f(x) = |x^2 - 10x + 21|$ is plotted. A horizontal line $y = k$ intersects the curve at exactly 3 distinct points. Find the value of the constant $k$.",
+          "options": [
+            "$k = 4$",
+            "$k = 0$",
+            "$k = 21$",
+            "$k = 9$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x^2 - 10x + 21$ has vertex at $(5, -4)$, reflected to $(5, 4)$. $k = 4$."
+        },
+        {
+          "question": "The function $f(x) = |x^2 - 6x + 8|$ is plotted. A horizontal line $y = k$ intersects the curve at exactly 3 distinct points. Find the value of the constant $k$.",
+          "options": [
+            "$k = 1$",
+            "$k = 0$",
+            "$k = 8$",
+            "$k = 4$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$x^2 - 6x + 8$ has vertex at $(3, -1)$, reflected to $(3, 1)$. $k = 1$."
+        }
+      ]
     }
   ]
 }

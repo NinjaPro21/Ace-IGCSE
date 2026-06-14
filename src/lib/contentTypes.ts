@@ -62,6 +62,15 @@ export interface McqQuestion {
   options: string[]
   correctIndex: number
   explanation?: string
+  /** Alternate phrasings / numbers — one is picked at random each attempt */
+  variants?: McqQuestionVariant[]
+}
+
+export interface McqQuestionVariant {
+  question: string
+  options: string[]
+  correctIndex: number
+  explanation?: string
 }
 
 export interface QuizData {
@@ -71,6 +80,8 @@ export interface QuizData {
   difficulty: Difficulty
   title: string
   passPercent: number
+  /** If the pool is larger, only this many questions per attempt (random subset) */
+  questionsPerAttempt?: number
   questions: McqQuestion[]
 }
 

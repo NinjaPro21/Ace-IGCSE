@@ -17,7 +17,53 @@
         "$1$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 4$ into the function: $f(4) = 3(4) - 5 = 12 - 5 = 7$.\n\n**Common mistake:** Students might miscalculate the arithmetic as $3(4 - 5) = -3$ or mistakenly add 5 instead of subtracting, leading to an incorrect choice."
+      "explanation": "Substitute $x = 4$ into the function: $f(4) = 3(4) - 5 = 12 - 5 = 7$.\n\n**Common mistake:** Students might miscalculate the arithmetic as $3(4 - 5) = -3$ or mistakenly add 5 instead of subtracting, leading to an incorrect choice.",
+      "variants": [
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 2x - 3$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(5)$.",
+          "options": [
+            "$7$",
+            "$-7$",
+            "$13$",
+            "$5$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(5) = 2(5) - 3 = 7$."
+        },
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 4x - 7$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(3)$.",
+          "options": [
+            "$5$",
+            "$-5$",
+            "$19$",
+            "$3$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(3) = 4(3) - 7 = 5$."
+        },
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 5x - 2$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(4)$.",
+          "options": [
+            "$18$",
+            "$-18$",
+            "$22$",
+            "$16$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(4) = 5(4) - 2 = 18$."
+        },
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 2x - 1$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(6)$.",
+          "options": [
+            "$11$",
+            "$-11$",
+            "$13$",
+            "$9$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(6) = 2(6) - 1 = 11$."
+        }
+      ]
     },
     {
       "id": "ch01-functions-q2",
@@ -43,7 +89,53 @@
         "$-3$"
       ],
       "correctIndex": 0,
-      "explanation": "By definition of an inverse function, if $f(a) = b$, then $f⁻¹(b) = a$. Since $f(3) = 7$, it follows directly that $f⁻¹(7) = 3$.\n\n**Common mistake:** Students often confuse the inverse function notation with the reciprocal power, leading them to choose $\\frac{1}{7}$."
+      "explanation": "By definition of an inverse function, if $f(a) = b$, then $f⁻¹(b) = a$. Since $f(3) = 7$, it follows directly that $f⁻¹(7) = 3$.\n\n**Common mistake:** Students often confuse the inverse function notation with the reciprocal power, leading them to choose $\\frac{1}{7}$.",
+      "variants": [
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 2x + 3$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(5)$.",
+          "options": [
+            "$13$",
+            "$7$",
+            "$5$",
+            "$14$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(5) = 2(5) + 3 = 13$."
+        },
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 3x + 1$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(4)$.",
+          "options": [
+            "$13$",
+            "$11$",
+            "$4$",
+            "$14$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(4) = 3(4) + 1 = 13$."
+        },
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 4x + 2$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(3)$.",
+          "options": [
+            "$14$",
+            "$10$",
+            "$6$",
+            "$15$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(3) = 4(3) + 2 = 14$."
+        },
+        {
+          "question": "A function $f(x)$ is defined by $f(x) = 5x + 3$ for the domain $x \\in \\mathbb{R}$. Find the value of $f(2)$.",
+          "options": [
+            "$13$",
+            "$7$",
+            "$8$",
+            "$14$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$f(2) = 5(2) + 3 = 13$."
+        }
+      ]
     },
     {
       "id": "ch01-functions-q4",
@@ -56,7 +148,53 @@
         "$0 \\le f(x) \\le 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Since the minimum value of $x²$ for $x \\ge 0$ is $0$, the minimum value of $f(x)$ is $0 + 3 = 3$, making the range $f(x) \\ge 3$.\n\n**Common mistake:** Students frequently copy the domain inequality boundary directly without applying the function's transformation, choosing $f(x) \\ge 0$."
+      "explanation": "Since the minimum value of $x²$ for $x \\ge 0$ is $0$, the minimum value of $f(x)$ is $0 + 3 = 3$, making the range $f(x) \\ge 3$.\n\n**Common mistake:** Students frequently copy the domain inequality boundary directly without applying the function's transformation, choosing $f(x) \\ge 0$.",
+      "variants": [
+        {
+          "question": "Given the function $f(x) = x² + 2$ for the domain $x \\ge 0$, state the range of $f$.",
+          "options": [
+            "$f(x) \\ge 2$",
+            "$f(x) \\ge 0$",
+            "$f(x) \\in \\mathbb{R}$",
+            "$0 \\le f(x) \\le 2$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 2$."
+        },
+        {
+          "question": "Given the function $f(x) = x² + 5$ for the domain $x \\ge 0$, state the range of $f$.",
+          "options": [
+            "$f(x) \\ge 5$",
+            "$f(x) \\ge 0$",
+            "$f(x) \\in \\mathbb{R}$",
+            "$0 \\le f(x) \\le 5$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 5$."
+        },
+        {
+          "question": "Given the function $f(x) = x² + 7$ for the domain $x \\ge 0$, state the range of $f$.",
+          "options": [
+            "$f(x) \\ge 7$",
+            "$f(x) \\ge 0$",
+            "$f(x) \\in \\mathbb{R}$",
+            "$0 \\le f(x) \\le 7$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 7$."
+        },
+        {
+          "question": "Given the function $f(x) = x² + 1$ for the domain $x \\ge 0$, state the range of $f$.",
+          "options": [
+            "$f(x) \\ge 1$",
+            "$f(x) \\ge 0$",
+            "$f(x) \\in \\mathbb{R}$",
+            "$0 \\le f(x) \\le 1$"
+          ],
+          "correctIndex": 0,
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 1$."
+        }
+      ]
     },
     {
       "id": "ch01-functions-q5",
@@ -69,7 +207,53 @@
         "$2x² + 8x$"
       ],
       "correctIndex": 0,
-      "explanation": "To find $gf(x)$, substitute the entire function $f(x)$ into $g(x)$, which gives $g(x + 4) = 2(x + 4) = 2x + 8$.\n\n**Common mistake:** Students often calculate $fg(x)$ instead of $gf(x)$, leading to $2x + 4$, or multiply the expressions together to get $2x² + 8x$."
+      "explanation": "To find $gf(x)$, substitute the entire function $f(x)$ into $g(x)$, which gives $g(x + 4) = 2(x + 4) = 2x + 8$.\n\n**Common mistake:** Students often calculate $fg(x)$ instead of $gf(x)$, leading to $2x + 4$, or multiply the expressions together to get $2x² + 8x$.",
+      "variants": [
+        {
+          "question": "Given the functions $f(x) = x + 3$ and $g(x) = 2x$, find the expression for the composite function $gf(x)$.",
+          "options": [
+            "$2x + 6$",
+            "$2x + 3$",
+            "$x + 6$",
+            "$2x² + 6x$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$gf(x) = g(x+3) = 2(x+3) = 2x + 6$."
+        },
+        {
+          "question": "Given the functions $f(x) = x + 5$ and $g(x) = 3x$, find the expression for the composite function $gf(x)$.",
+          "options": [
+            "$3x + 15$",
+            "$3x + 5$",
+            "$x + 15$",
+            "$3x² + 15x$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$gf(x) = g(x+5) = 3(x+5) = 3x + 15$."
+        },
+        {
+          "question": "Given the functions $f(x) = x + 2$ and $g(x) = 4x$, find the expression for the composite function $gf(x)$.",
+          "options": [
+            "$4x + 8$",
+            "$4x + 2$",
+            "$x + 8$",
+            "$4x² + 8x$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$gf(x) = g(x+2) = 4(x+2) = 4x + 8$."
+        },
+        {
+          "question": "Given the functions $f(x) = x + 6$ and $g(x) = 2x$, find the expression for the composite function $gf(x)$.",
+          "options": [
+            "$2x + 12$",
+            "$2x + 6$",
+            "$x + 12$",
+            "$2x² + 12x$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$gf(x) = g(x+6) = 2(x+6) = 2x + 12$."
+        }
+      ]
     }
   ]
 }
