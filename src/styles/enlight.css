@@ -328,6 +328,13 @@
   border-top: 4px solid var(--enlight-blue);
 }
 
+.enlight-card--chapter {
+  border-top: 3px solid var(--enlight-gold);
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}
+
 .enlight-card--hover {
   transition: all 0.2s ease;
   cursor: pointer;
@@ -390,29 +397,35 @@
 
 .enlight-chapter-card__badge {
   display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--enlight-gold);
+  color: var(--enlight-gold-dark);
   background: var(--enlight-formula-bg);
-  padding: 4px 10px;
-  border-radius: 6px;
-  margin-bottom: 12px;
+  padding: 5px 12px;
+  border-radius: var(--enlight-radius-pill);
+  margin-bottom: 14px;
 }
 
 .enlight-chapter-card__title {
   font-family: var(--enlight-font-serif);
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin: 0 0 10px;
+  line-height: 1.25;
 }
 
 .enlight-chapter-card__summary {
-  font-size: 0.85rem;
+  font-size: 0.84rem;
   color: var(--enlight-text-light);
-  margin: 0 0 20px;
-  line-height: 1.5;
+  margin: 0 0 auto;
+  padding-bottom: 20px;
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .enlight-chapter-card__progress {
@@ -447,6 +460,63 @@
   padding-top: 16px;
   border-top: 1px solid var(--enlight-border);
   font-size: 0.85rem;
+  margin-top: auto;
+}
+
+.enlight-chapter-card__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--enlight-radius-pill);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.enlight-chapter-card__status::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.enlight-chapter-card__status--available {
+  color: var(--enlight-text-light);
+  background: var(--enlight-bg-alt);
+}
+
+.enlight-chapter-card__status--available::before {
+  background: var(--enlight-sage);
+}
+
+.enlight-chapter-card__status--progress {
+  color: #2c5282;
+  background: #ebf4ff;
+}
+
+.enlight-chapter-card__status--progress::before {
+  background: var(--enlight-blue);
+}
+
+.enlight-chapter-card__status--mastered {
+  color: var(--enlight-gold-dark);
+  background: var(--enlight-formula-bg);
+}
+
+.enlight-chapter-card__status--mastered::before {
+  background: var(--enlight-gold);
+}
+
+.enlight-chapter-card__arrow {
+  color: var(--enlight-gold);
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.enlight-card--chapter:hover .enlight-chapter-card__arrow {
+  transform: translateX(3px);
 }
 
 .enlight-chapter-card__meta {
@@ -574,6 +644,7 @@
 
 .enlight-legend__dot--gold { background: var(--enlight-gold); }
 .enlight-legend__dot--green { background: var(--enlight-sage); }
+.enlight-legend__dot--sage { background: var(--enlight-sage); }
 .enlight-legend__dot--blue { background: var(--enlight-blue); }
 
 /* Lesson layout */

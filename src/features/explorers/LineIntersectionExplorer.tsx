@@ -251,7 +251,7 @@ export function LineIntersectionExplorer() {
           {xs
             .filter((x) => x >= X_MIN && x <= X_MAX)
             .map((x, i) => {
-              const y = A * x * x + B * x + C
+              const y = m * x + d
               if (y < Y_MIN || y > Y_MAX) return null
               return (
                 <g key={`int${i}`}>
@@ -268,7 +268,7 @@ export function LineIntersectionExplorer() {
                     fontSize={9}
                     fontWeight="bold"
                   >
-                    ({x.toFixed(1)}, {y.toFixed(1)})
+                    ({x.toFixed(2)}, {y.toFixed(2)})
                   </text>
                 </g>
               )
