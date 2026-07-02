@@ -1,0 +1,77 @@
+{
+  "id": "20-1-detection-of-radioactivity-medium",
+  "topicId": "20-1-detection-of-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "medium",
+  "title": "Detection of Radioactivity — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-1-detection-of-radioactivity-medium-q1",
+      "type": "mcq",
+      "question": "A student turns on a radiation detector for $20\\text{ minutes}$ with no source present. The counter shows a total of $420$ counts. Calculate the background radiation rate.",
+      "options": [
+        "$21\\text{ counts/min}$",
+        "$420\\text{ counts/min}$",
+        "$8400\\text{ counts/min}$",
+        "$21\\text{ counts/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$u0218\\text{Count rate} = \\text{Total counts} / \\text{Time} = 420 / 20 = 21\\text{ counts/min}$. \n\n**Common mistake:** Multiplying the count by time instead of dividing."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-medium-q2",
+      "type": "mcq",
+      "question": "In an experiment, a detector measures $120\\text{ counts/min}$ with a source present. If the background rate is $20\\text{ counts/min}$, what is the corrected count rate for the source?",
+      "options": [
+        "$100\\text{ counts/min}$",
+        "$140\\text{ counts/min}$",
+        "$6\\text{ counts/min}$",
+        "$2400\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corrected count rate is the measured rate minus the background rate: $120 - 20 = 100\\text{ counts/min}$. \n\n**Common mistake:** Adding the background count to the measured total."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-medium-q3",
+      "type": "mcq",
+      "question": "A student records three separate one-minute measurements for background radiation: $18$, $22$, and $20$. What is the average background count rate?",
+      "options": [
+        "$20\\text{ counts/min}$",
+        "$18\\text{ counts/min}$",
+        "$60\\text{ counts/min}$",
+        "$21\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$u0218\\text{Average} = (18 + 22 + 20) / 3 = 20\\text{ counts/min}$. \n\n**Common mistake:** Using the highest or lowest value instead of the average."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-medium-q4",
+      "type": "mcq",
+      "question": "A detector shows a background count rate of $0.5\\text{ counts/s}$. What is this rate expressed in counts per minute?",
+      "options": [
+        "$30\\text{ counts/min}$",
+        "$0.008\\text{ counts/min}$",
+        "$120\\text{ counts/min}$",
+        "$1.5\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since there are $60$ seconds in a minute, $0.5\\text{ counts/s} \\times 60\\text{ s} = 30\\text{ counts/min}$. \n\n**Common mistake:** Dividing the rate by $60$ instead of multiplying."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-medium-q5",
+      "type": "mcq",
+      "question": "Why do readings on a radiation detector fluctuate slightly (e.g., $520, 530, 510$ counts/s) even when the source is at a fixed distance?",
+      "options": [
+        "Radiation emission is a random and spontaneous process.",
+        "The detector loses energy the longer it is switched on.",
+        "$Background radiation only occurs during specific \\times of day.$",
+        "The source is rapidly decaying into a stable element."
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that emission of radiation from a nucleus is random and spontaneous, which causes the count rate to vary even under identical conditions. \n\n**Common mistake:** Thinking the detector is faulty or 'tired'."
+    }
+  ]
+}

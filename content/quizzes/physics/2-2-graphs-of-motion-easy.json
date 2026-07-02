@@ -1,0 +1,77 @@
+{
+  "id": "2-2-graphs-of-motion-easy",
+  "topicId": "2-2-graphs-of-motion",
+  "chapterId": "ch02-motion",
+  "difficulty": "easy",
+  "title": "Graphs of Motion — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-2-graphs-of-motion-easy-q1",
+      "type": "mcq",
+      "question": "What physical quantity is represented by the gradient of a distance–time graph?",
+      "options": [
+        "Speed",
+        "Acceleration",
+        "Distance travelled",
+        "Time taken"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of a distance–time graph ($Delta y / Delta x$) represents the change in distance over the change in time, which is speed. \n\n**Common mistake:** Students often confuse distance–time and speed–time graphs, incorrectly stating that the gradient represents acceleration."
+    },
+    {
+      "id": "2-2-graphs-of-motion-easy-q2",
+      "type": "mcq",
+      "question": "On a speed–time graph, what does a horizontal line above the x-axis represent?",
+      "options": [
+        "Constant speed",
+        "The object is at rest",
+        "Uniform acceleration",
+        "Changing acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line on a speed–time graph shows that the speed is not changing as time passes, meaning the object has zero acceleration and constant speed. \n\n**Common mistake:** Thinking the object is at rest; an object at rest is represented by a horizontal line specifically on the x-axis ($speed = 0$)."
+    },
+    {
+      "id": "2-2-graphs-of-motion-easy-q3",
+      "type": "mcq",
+      "question": "Which feature of a speed–time graph is used to determine the distance travelled by an object?",
+      "options": [
+        "The area under the graph",
+        "The gradient of the line",
+        "The y-intercept",
+        "The total length of the line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The area under a speed–time graph represents the product of speed and time, which equals the total distance travelled. \n\n**Common mistake:** Using the gradient to find distance; the gradient represents the rate of change of speed (acceleration)."
+    },
+    {
+      "id": "2-2-graphs-of-motion-easy-q4",
+      "type": "mcq",
+      "question": "What does a horizontal line on a distance–time graph indicate about an object's motion?",
+      "options": [
+        "The object is stationary (at rest)",
+        "The object is moving at constant speed",
+        "The object is accelerating",
+        "The object is decelerating"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the line is horizontal on a distance–time graph, the distance from the starting point remains constant, meaning the object is not moving. \n\n**Common mistake:** Confusing this with a speed–time graph where a horizontal line means constant motion."
+    },
+    {
+      "id": "2-2-graphs-of-motion-easy-q5",
+      "type": "mcq",
+      "question": "A straight diagonal line with a constant positive gradient on a speed–time graph represents:",
+      "options": [
+        "Uniform acceleration",
+        "Constant speed",
+        "Non-uniform acceleration",
+        "Uniform deceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the gradient of a speed–time graph. A straight diagonal line indicates a constant rate of change in speed, which is uniform acceleration. \n\n**Common mistake:** Selecting 'constant speed' because the line is straight; constant speed is a flat, horizontal line."
+    }
+  ]
+}

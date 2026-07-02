@@ -4,9 +4,12 @@ An inverse function $f^{-1}(x)$ reverses the operations of $f(x)$, mapping outpu
 
 ## Key formulas
 
-$$f(f^{-1}(x)) = x \quad \text{and} \quad f^{-1}(f(x)) = x$$
+$$
+f(f^{-1}(x)) = x \quad \text{and} \quad f^{-1}(f(x)) = x
 
-$$\text{Domain of } f^{-1} = \text{Range of } f, \quad \text{Range of } f^{-1} = \text{Domain of } f$$
+\text{Domain of } f^{-1} = \text{Range of } f, \quad \text{Range of } f^{-1} = \text{Domain of } f
+$$
+
 
 ## Steps / method
 
@@ -24,21 +27,13 @@ The final answer must be written as $f^{-1}(x) = \ldots$ using $x$ as the indepe
 
 ## Worked example — Finding the inverse
 
-Find $f^{-1}(x)$ for $f(x) = 2x + 3$, and state its domain.
+Find $f^{-1}(x)$ for $f(x) = 2x + 3$, and state its domain. Let $y = 2x + 3$. Rearrange: $x = \frac{y - 3}{2}$. Swap variables: $f^{-1}(x) = \frac{x - 3}{2}$. Domain of $f^{-1}$ = range of $f$ = $\mathbb{R}$.
 
-Let $y = 2x + 3$. Rearrange: $x = \frac{y - 3}{2}$.
-
-Swap variables: $f^{-1}(x) = \frac{x - 3}{2}$.
-
-Domain of $f^{-1}$ = range of $f$ = $\mathbb{R}$.
-
-## Worked example — Reflection in $y = x$
+## Worked example — Reflection in $ y = x $
 
 If $f(2) = 7$, what point lies on $f^{-1}(x)$?
 
-Since $(2, 7)$ is on $f$, the reflected point $(7, 2)$ lies on $f^{-1}$.
-
-Check: $f^{-1}(7) = \frac{7-3}{2} = 2$ ✓
+Since $(2, 7)$ is on $f$, the reflected point $(7, 2)$ lies on $f^{-1}$. Check: $f^{-1}(7) = \frac{7-3}{2} = 2$ ✓
 
 ## Examiner tip
 
@@ -49,7 +44,3 @@ If $f(x)$ is not one-to-one over its full domain, restrict the domain before fin
 ## Quick check
 
 If the graph of $f(x)$ passes through $(a, b)$, then the graph of $f^{-1}(x)$ must pass through $(b, a)$.
-
-## Visual / interactive intent
-
-Inverse function grapher — drag points $(a, b)$ across the line $y = x$ to trace the inverse curve.

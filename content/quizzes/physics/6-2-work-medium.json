@@ -1,0 +1,77 @@
+{
+  "id": "6-2-work-medium",
+  "topicId": "6-2-work",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "medium",
+  "title": "Work — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-2-work-medium-q1",
+      "type": "mcq",
+      "question": "A horizontal force of $8\\text{ N}$ pushes a trolley $5\\text{ m}$ across a floor. Calculate the work done on the trolley.",
+      "options": [
+        "$40\\text{ J}$",
+        "$1.6\\text{ J}$",
+        "$13\\text{ J}$",
+        "$0.625\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = F \\times s = 8\\text{ N} \\times 5\\text{ m} = 40\\text{ J}$. **Common mistake:** Dividing force by distance ($1.6$) instead of multiplying."
+    },
+    {
+      "id": "6-2-work-medium-q2",
+      "type": "mcq",
+      "question": "A student lifts a $4\\text{ kg}$ box vertically through a height of $1.5\\text{ m}$. Calculate the work done against gravity. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$60\\text{ J}$",
+        "$6\\text{ J}$",
+        "$40\\text{ J}$",
+        "$15\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done against gravity $= mgh = 4\\text{ kg} \\times 10\\text{ N/kg} \\times 1.5\\text{ m} = 60\\text{ J}$. **Common mistake:** Using the mass directly without multiplying by $g$ to find the weight ($4 \\times 1.5 = 6$)."
+    },
+    {
+      "id": "6-2-work-medium-q3",
+      "type": "mcq",
+      "question": "A force of $40\\text{ N}$ is used to push a trolley a distance of $10\\text{ m}$ up an incline. What is the mechanical work done by this force?",
+      "options": [
+        "$400\\text{ J}$",
+        "$4\\text{ J}$",
+        "$0.25\\text{ J}$",
+        "$40\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is force \\times the distance moved along the line of action of the force. $40\\text{ N} \\times 10\\text{ m} = 400\\text{ J}$. **Common mistake:** Trying to use the vertical height (which is not provided here) instead of the distance moved along the incline."
+    },
+    {
+      "id": "6-2-work-medium-q4",
+      "type": "mcq",
+      "question": "To convert a work value from kilojoules ($\\text{kJ}$) to the SI unit joules ($J$), you should:",
+      "options": [
+        "Multiply by 1000",
+        "Divide by 1000",
+        "Multiply by 100",
+        "Divide by 3600"
+      ],
+      "correctIndex": 0,
+      "explanation": "The prefix 'kilo' means 1000, so $1\\text{ kJ} = 1000\\text{ J}$. **Common mistake:** Dividing by 1000, which is the conversion from $J$ to $kJ$."
+    },
+    {
+      "id": "6-2-work-medium-q5",
+      "type": "mcq",
+      "question": "A box is pulled $3.0\\text{ m}$ across a smooth floor by a horizontal force, doing $24\\text{ J}$ of work. What is the magnitude of the force?",
+      "options": [
+        "$8.0\\text{ N}$",
+        "$72\\text{ N}$",
+        "$0.125\\text{ N}$",
+        "$27\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $W = Fs$ gives $F = W/s = 24\\text{ J} / 3.0\\text{ m} = 8.0\\text{ N}$. **Common mistake:** Multiplying work and distance to get $72$."
+    }
+  ]
+}

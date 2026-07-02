@@ -1,0 +1,77 @@
+{
+  "id": "5-1-what-is-momentum-medium",
+  "topicId": "5-1-what-is-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "medium",
+  "title": "What Is Momentum? — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-what-is-momentum-medium-q1",
+      "type": "mcq",
+      "question": "A soccer ball has a mass of $400\\text{ g}$ and is moving at $25\\text{ m/s}$. Calculate its momentum in SI units.",
+      "options": [
+        "$10\\text{ kg m/s}$",
+        "$10000\\text{ kg m/s}$",
+        "$100\\text{ kg m/s}$",
+        "$16\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kg: $400\\text{ g} = 0.4\\text{ kg}$. Then $p = 0.4 \\times 25 = 10\\text{ kg m/s}$. \n\n**Common mistake:** Using the mass in grams directly to get $10000$."
+    },
+    {
+      "id": "5-1-what-is-momentum-medium-q2",
+      "type": "mcq",
+      "question": "A bus has a mass of $8000\\text{ kg}$ and a momentum of $88000\\text{ kg m/s}$. What is the speed of the bus?",
+      "options": [
+        "$11\\text{ m/s}$",
+        "$0.09\\text{ m/s}$",
+        "$704000000\\text{ m/s}$",
+        "$80\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $p = mv$ gives $v = p/m$. $88000 / 8000 = 11\\text{ m/s}$. \n\n**Common mistake:** Multiplying the numbers ($704$ million) instead of dividing."
+    },
+    {
+      "id": "5-1-what-is-momentum-medium-q3",
+      "type": "mcq",
+      "question": "A car travelling at $12\\text{ m/s}$ has a momentum of $14400\\text{ kg m/s}$. Calculate the mass of the car.",
+      "options": [
+        "$1200\\text{ kg}$",
+        "$172800\\text{ kg}$",
+        "$1.2\\text{ kg}$",
+        "$14388\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $p = mv$ gives $m = p/v$. $14400 / 12 = 1200\\text{ kg}$. \n\n**Common mistake:** Multiplying velocity and momentum ($172800$)."
+    },
+    {
+      "id": "5-1-what-is-momentum-medium-q4",
+      "type": "mcq",
+      "question": "Two objects, A and B, are moving at the same velocity. Object A is more massive than object B. Which statement is correct?",
+      "options": [
+        "Object A has more momentum than object B",
+        "Object B has more momentum than object A",
+        "They have the same momentum because their velocities are equal",
+        "Neither object has momentum because the force is not stated"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since momentum is the product of mass and velocity, if velocity is constant, the object with the greater mass will have the greater momentum. \n\n**Common mistake:** Thinking that same speed means same momentum regardless of mass."
+    },
+    {
+      "id": "5-1-what-is-momentum-medium-q5",
+      "type": "mcq",
+      "question": "A car of mass $1000\\text{ kg}$ is travelling at $18\\text{ km/h}$. Calculate its momentum in $\\text{kg m/s}$.",
+      "options": [
+        "$5000\\text{ kg m/s}$",
+        "$18000\\text{ kg m/s}$",
+        "$300\\text{ kg m/s}$",
+        "$5\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First convert $18\\text{ km/h}$ to $\\text{m/s}$: $18 \\times (1000/3600) = 5\\text{ m/s}$. Then $p = 1000 \\times 5 = 5000\\text{ kg m/s}$. \n\n**Common mistake:** Using the speed in $\\text{km/h}$ directly ($18000$)."
+    }
+  ]
+}

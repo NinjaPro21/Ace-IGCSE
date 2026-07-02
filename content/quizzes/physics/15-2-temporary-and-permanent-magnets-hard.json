@@ -1,0 +1,77 @@
+{
+  "id": "15-2-temporary-and-permanent-magnets-hard",
+  "topicId": "15-2-temporary-and-permanent-magnets",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "hard",
+  "title": "Temporary and Permanent Magnets — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-2-temporary-and-permanent-magnets-hard-q1",
+      "type": "mcq",
+      "question": "In a magnetic relay, an armature is attracted to a magnet when current flows through a coil. For the relay to work correctly and release the armature when the current stops, which material is best for the armature?",
+      "options": [
+        "Soft iron",
+        "Steel",
+        "Brass",
+        "Copper"
+      ],
+      "correctIndex": 0,
+      "explanation": "The armature must lose its induced magnetism immediately when the current stops so that it can be released. Soft iron (magnetically soft) is required for this. \n\n**Common mistake:** Choosing steel, which would remain magnetised and keep the armature stuck."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-hard-q2",
+      "type": "mcq",
+      "question": "An unmagnetised steel rod is placed inside a solenoid. A large direct current is passed through the solenoid and then switched off. What is the state of the steel rod?",
+      "options": [
+        "It has become a permanent magnet.",
+        "It remains unmagnetised because the current was DC.",
+        "It was magnetised but lost all magnetism when the current stopped.",
+        "It has become a temporary magnet that only works inside the coil."
+      ],
+      "correctIndex": 0,
+      "explanation": "Steel is magnetically hard. Placing it in a solenoid with DC magnetises it, and it will retain that magnetism after the current is removed, becoming a permanent magnet. \n\n**Common mistake:** Thinking it loses magnetism like the soft iron core of an electromagnet."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-hard-q3",
+      "type": "mcq",
+      "question": "Identify the result of replacing the soft iron core in an electric bell with a steel core.",
+      "options": [
+        "The bell would ring once and the hammer would stay stuck to the core.",
+        "The bell would ring much louder because steel is a stronger magnet.",
+        "The bell would not ring at all because steel cannot be magnetised.",
+        "The bell would function normally but the battery would drain faster."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because steel is a permanent magnet material, once it is magnetised by the first pulse of current, it will stay magnetised and keep the hammer attracted, preventing the 'make-and-break' action. \n\n**Common mistake:** Thinking the bell wouldn't ring at all."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-hard-q4",
+      "type": "mcq",
+      "question": "Three identical solenoids have cores made of Brass, Soft Iron, and Steel. Which core will produce the strongest magnetic field when the current is ON, and which will remain the strongest magnet when the current is OFF?",
+      "options": [
+        "ON: Soft Iron; OFF: Steel",
+        "ON: Steel; OFF: Soft Iron",
+        "ON: Brass; OFF: Steel",
+        "ON: Soft Iron; OFF: Brass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is easiest to magnetise and produces a strong field while current is on. Steel is magnetically hard and retains the most magnetism when current is off. Brass is non-magnetic. \n\n**Common mistake:** Thinking steel produces the strongest field while the current is on."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-hard-q5",
+      "type": "mcq",
+      "question": "Which statement best explains why steel is used for the 'magnets' in Maglev trains?",
+      "options": [
+        "It is magnetically hard and can provide a constant, permanent magnetic field.",
+        "It is magnetically soft and allows the train to change poles quickly.",
+        "It is lighter than iron, allowing the train to levitate more easily.",
+        "It is a better electrical insulator than iron."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, permanent magnets are used in Maglev trains. Steel is magnetically hard and retains its magnetism, providing the necessary permanent field. \n\n**Common mistake:** Thinking Maglevs only use temporary electromagnets."
+    }
+  ]
+}

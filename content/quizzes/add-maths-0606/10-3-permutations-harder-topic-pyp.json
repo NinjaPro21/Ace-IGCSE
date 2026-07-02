@@ -1,0 +1,77 @@
+{
+  "id": "10-3-permutations-harder-topic-pyp",
+  "topicId": "10-3-permutations-harder-topic",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "pyp",
+  "title": "Permutations — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-3-permutations-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "A 4-digit code is formed using digits from {0, 1, 2, ..., 9}. If the code cannot start with 0 and no digits are repeated, how many codes are possible?",
+      "options": [
+        "4536",
+        "5040",
+        "3024",
+        "9000"
+      ],
+      "correctIndex": 0,
+      "explanation": "First digit: 9 choices (1-9). Remaining 3 spots from 9 digits: $^9\\text{P}_3 = 9 \\times 8 \\times 7 = 504$. Total $= 9 \\times 504 = 4536$.\n\n**Common mistake:** Calculating $^{10}\\text{P}_4 = 5040$ and ignoring the 'no zero at start' rule."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "Find the number of ways 7 people can be arranged in a row if 3 specific people must sit together in a given order.",
+      "options": [
+        "120",
+        "720",
+        "5040",
+        "240"
+      ],
+      "correctIndex": 0,
+      "explanation": "Treat the 3 people as one fixed block. We now arrange 5 units (the block + the other 4 people): $5! = 120$. Since the internal order is 'given', we do not multiply by $3!$.\n\n**Common mistake:** Incorrectly multiplying by $3!$ (720) despite the 'given order' constraint."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "How many 5-digit odd numbers can be formed using the digits {1, 2, 3, 4, 5, 6, 7} without repetition?",
+      "options": [
+        "1440",
+        "2520",
+        "720",
+        "480"
+      ],
+      "correctIndex": 0,
+      "explanation": "Last digit must be odd: {1, 3, 5, 7} (4 choices). Remaining 4 digits from 6: $^6\\text{P}_4 = 6 \\times 5 \\times 4 \\times 3 = 360$. Total $= 4 \\times 360 = 1440$.\n\n**Common mistake:** Using $^7\\text{P}_5 = 2520$ and forgetting the 'odd' restriction."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "Calculate the number of arrangements of the letters of the word 'PENCIL' that start with a consonant and end with a vowel.",
+      "options": [
+        "192",
+        "720",
+        "120",
+        "48"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consonants: P, N, C, L (4). Vowels: E, I (2). Ways for ends: $4 \\times 2 = 8$. Ways for middle 4: $4! = 24$. Total $= 8 \\times 24 = 192$.\n\n**Common mistake:** Failing to correctly identify the consonants or making arithmetic errors in the multiplication."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "Find the value of $n$2$^n\\text{P}_3 = ^{(n+1)}\\text{P}_2 + 30$.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(n-1)(n-2) = (n+1)n + 30$. Testing $n=5$: $5 \\times 4 \\times 3 = 60$; $6 \\times 5 + 30 = 60$. Correct.\n\n**Common mistake:** Attempting to solve the cubic equation directly instead of testing integer options."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "4-2-solving-modulus-inequalities-easy",
+  "topicId": "4-2-solving-modulus-inequalities",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "easy",
+  "title": "Solving Modulus Inequalities — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-solving-modulus-inequalities-easy-q1",
+      "type": "mcq",
+      "question": "Solve the inequality $|x| < 5$.",
+      "options": [
+        "-5 < x < 5",
+        "x < 5",
+        "x < -5 or x > 5",
+        "x > -5"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, $|x| < k$2$-k < x < k$.\n\n**Common mistake:** Students often only consider the positive case, providing $x < 5$ as the complete solution."
+    },
+    {
+      "id": "4-2-solving-modulus-inequalities-easy-q2",
+      "type": "mcq",
+      "question": "Find the range of values of x that satisfy $|x - 2| \\le 3$.",
+      "options": [
+        "-1 \\le x \\le 5",
+        "x \\le 5",
+        "1 \\le x \\le 5",
+        "-5 \\le x \\le -1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$-3 \\le x - 2 \\le 3$. Adding 2 to all parts gives $-1 \\le x \\le 5$.\n\n**Common mistake:** Arithmetic errors when adding 2 to the negative bound, often resulting in $-5$ instead of $-1$."
+    },
+    {
+      "id": "4-2-solving-modulus-inequalities-easy-q3",
+      "type": "mcq",
+      "question": "Solve the inequality $|x + 4| > 2$.",
+      "options": [
+        "x > -2 or x < -6",
+        "-6 < x < -2",
+        "x > 2 or x < -6",
+        "x > -2 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Either $x + 4 > 2 \\implies x > -2$ or $x + 4 < -2 \\implies x < -6$.\n\n**Common mistake:** Incorrectly combining the two separate regions into a single compound inequality like $-6 < x < -2$."
+    },
+    {
+      "id": "4-2-solving-modulus-inequalities-easy-q4",
+      "type": "mcq",
+      "question": "Determine the solution set for $|2x| \\ge 8$.",
+      "options": [
+        "x \\ge 4 or x \\le -4",
+        "-4 \\le x \\le 4",
+        "x \\ge 4 only",
+        "x \\le 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide by 2: $|x| \\ge 4$, which means $x \\ge 4$ or $x \\le -4$.\n\n**Common mistake:** Neglecting the negative region ($x \\le -4$) because modulus results are typically positive."
+    },
+    {
+      "id": "4-2-solving-modulus-inequalities-easy-q5",
+      "type": "mcq",
+      "question": "Identify the set of values of x for which $|x + 1| < 0$.",
+      "options": [
+        "No solution",
+        "x < -1",
+        "x > -1",
+        "x = -1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The absolute value of any real expression is always non-negative ($\\ge 0$). Therefore, it can never be strictly less than 0.\n\n**Common mistake:** Trying to solve $-0 < x + 1 < 0$ algebraically without recognizing the logical impossibility."
+    }
+  ]
+}

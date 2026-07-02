@@ -1,0 +1,77 @@
+{
+  "id": "14-4-tree-diagrams-pyp",
+  "topicId": "14-4-tree-diagrams",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "pyp",
+  "title": "Tree Diagrams — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-tree-diagrams-pyp-q1",
+      "type": "mcq",
+      "question": "Scott goes to school by bus. $P(\\text{bus late}) = 0.2$. If the bus is late, $P(\\text{Scott late}) = 0.7$. If the bus is NOT late, $P(\\text{Scott late}) = 0.1$. Calculate the probability that Scott is late for school.",
+      "options": [
+        "0.22",
+        "0.14",
+        "0.08",
+        "0.8"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(\\text{Bus late, Scott late}) + P(\\text{Bus not late, Scott late}) = (0.2 \\times 0.7) + (0.8 \\times 0.1) = 0.14 + 0.08 = 0.22$.\n\n**Common mistake:** Only calculating the probability of being late when the bus is late (0.14)."
+    },
+    {
+      "id": "14-4-tree-diagrams-pyp-q2",
+      "type": "mcq",
+      "question": "Two students are selected at random from a group of 14 boys and 13 girls. Find the probability that they are both boys.",
+      "options": [
+        "91/351",
+        "196/729",
+        "13/52",
+        "14/27"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total students = 27. $P(B,B) = 14/27 \\times 13/26 = 182 / 702 = 91/351$.\n\n**Common mistake:** Treating the events as independent ($14/27 \\times 14/27$) or forgetting to simplify the $\\frac{tion.}{}$"
+    },
+    {
+      "id": "14-4-tree-diagrams-pyp-q3",
+      "type": "mcq",
+      "question": "Using the Scott problem ($P(\\text{Scott late}) = 0.22$), if the school term lasts 35 days, how many days would Scott be expected to be late?",
+      "options": [
+        "8",
+        "7",
+        "10",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expected value $= 0.22 \\times 35 = 7.7$. This rounds to 8 days.\n\n**Common mistake:** Rounding down to 7 or forgetting to multiply by the total number of days."
+    },
+    {
+      "id": "14-4-tree-diagrams-pyp-q4",
+      "type": "mcq",
+      "question": "In a batch of light bulbs, $P(\\text{faulty}) = 0.02$. Two bulbs are chosen. Calculate the probability that exactly one is faulty.",
+      "options": [
+        "0.0392",
+        "0.0196",
+        "0.9604",
+        "0.04"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(F, F') + P(F', F) = (0.02 \\times 0.98) + (0.98 \\times 0.02) = 0.0196 + 0.0196 = 0.0392$.\n\n**Common mistake:** Calculating only one order ($0.0196$) and forgetting the path where the second bulb is the faulty one."
+    },
+    {
+      "id": "14-4-tree-diagrams-pyp-q5",
+      "type": "mcq",
+      "question": "The probability of winning a tennis toss is 0.5. Calculate the probability of winning the toss in five consecutive matches.",
+      "options": [
+        "1/32",
+        "1/10",
+        "1/25",
+        "5/2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tosses are independent. $(1/2)^5 = 1/32$.\n\n**Common mistake:** Multiplying the probability by 5 ($5 \\times 0.5$) instead of using powers."
+    }
+  ]
+}

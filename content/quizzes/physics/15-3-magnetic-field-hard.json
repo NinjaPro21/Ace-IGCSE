@@ -1,0 +1,77 @@
+{
+  "id": "15-3-magnetic-field-hard",
+  "topicId": "15-3-magnetic-field",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "hard",
+  "title": "Magnetic Field — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-3-magnetic-field-hard-q1",
+      "type": "mcq",
+      "question": "What is observed when a plotting compass is moved in a circular path around a bar magnet?",
+      "options": [
+        "The needle continuously changes direction to remain tangent to the field lines",
+        "The needle always points toward the North pole of the magnet",
+        "The needle always points toward the South pole of the magnet",
+        "The needle remains pointing in a fixed North-South direction regardless of position"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnetic field direction changes at every point around the magnet; a compass needle will follow these changes as it aligns with the local field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-hard-q2",
+      "type": "mcq",
+      "question": "A student finds a point near a bar magnet where a plotting compass does not point in a clear direction. What is the most likely reason?",
+      "options": [
+        "The magnet's field is cancelled by the Earth's magnetic field at that point",
+        "The magnet has lost all of its magnetism",
+        "The compass is broken and the needle is stuck",
+        "The point is too close to the North pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "This describes a 'neutral point' where the magnetic field from the magnet is equal and opposite to the Earth's magnetic field, resulting in a zero resultant field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-hard-q3",
+      "type": "mcq",
+      "question": "Which of the following correctly describes the magnetic field pattern between two North poles placed close to each other?",
+      "options": [
+        "The field lines bend away from each other, leaving a gap in the middle",
+        "The field lines move in straight lines from one North pole to the other",
+        "The field lines combine to form large circles around both poles",
+        "The field lines disappear entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "When two North poles face each other, their field lines repel. This results in a pattern where lines from both poles bend away from the central region.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-hard-q4",
+      "type": "mcq",
+      "question": "In an experiment to map field lines with iron filings, why is the paper gently tapped after sprinkling the filings?",
+      "options": [
+        "To overcome friction and allow filings to align with the magnetic field",
+        "To ensure the filings are evenly distributed across the paper",
+        "To magnetise the iron filings using the tapping force",
+        "To prevent the magnet from sticking to the paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tapping the paper provides the kinetic energy needed for the filings to overcome friction and move into alignment with the magnetic field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-hard-q5",
+      "type": "mcq",
+      "question": "If a bar magnet is placed inside a soft iron ring, what happens to the magnetic field outside the ring?",
+      "options": [
+        "The field strength outside is significantly reduced because the ring provides an easier path for the field lines",
+        "The field strength outside increases because iron is a magnetic material",
+        "The field lines pass through the iron ring without any change in direction",
+        "The North and South poles of the magnet are reversed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is easily magnetised and has high permeability; it 'channels' the magnetic field lines within itself, effectively shielding the outside region.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

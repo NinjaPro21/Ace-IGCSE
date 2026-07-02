@@ -1,0 +1,77 @@
+{
+  "id": "8-2-the-particle-model-easy",
+  "topicId": "8-2-the-particle-model",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "easy",
+  "title": "The Particle Model — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-the-particle-model-easy-q1",
+      "type": "mcq",
+      "question": "What is the SI unit for temperature?",
+      "options": [
+        "kelvin (K)",
+        "degrees Celsius ($^\\circ\\text{C}$)",
+        "degrees Fahrenheit ($^\\circ\\text{F}$)",
+        "joule (J)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The kelvin (K) is the standard SI unit for thermodynamic temperature. \n\n**Common mistake:** Choosing degrees Celsius, which is commonly used but is not the SI unit."
+    },
+    {
+      "id": "8-2-the-particle-model-easy-q2",
+      "type": "mcq",
+      "question": "What is the value of absolute zero in the Celsius scale?",
+      "options": [
+        "$-273^\\circ\\text{C}$",
+        "$0^\\circ\\text{C}$",
+        "$100^\\circ\\text{C}$",
+        "$-100^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Absolute zero is defined as the lowest possible temperature and is approximately $-273^\\circ\\text{C}$. \n\n**Common mistake:** Thinking absolute zero is $0^\\circ\\text{C}$, which is actually the melting point of ice."
+    },
+    {
+      "id": "8-2-the-particle-model-easy-q3",
+      "type": "mcq",
+      "question": "According to the kinetic particle model, what happens to the motion of particles as temperature increases?",
+      "options": [
+        "Particles gain kinetic energy and move or vibrate more rapidly",
+        "Particles lose kinetic energy and move more slowly",
+        "Particles stop moving entirely",
+        "The motion of the particles remains unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "An increase in temperature increases the internal energy, causing particles to have greater kinetic energy and move more vigorously. \n\n**Common mistake:** Thinking temperature only affects the size of the particles rather than their motion."
+    },
+    {
+      "id": "8-2-the-particle-model-easy-q4",
+      "type": "mcq",
+      "question": "In which state of matter are the attractive forces between particles the strongest?",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Forces are equal in all states"
+      ],
+      "correctIndex": 0,
+      "explanation": "In solids, the attractive forces between particles are very strong, keeping them in a regular pattern. \n\n**Common mistake:** Thinking liquids have stronger forces because they can flow and 'stick' together more than solids."
+    },
+    {
+      "id": "8-2-the-particle-model-easy-q5",
+      "type": "mcq",
+      "question": "Which statement describes the arrangement of particles in a gas?",
+      "options": [
+        "Particles are far apart and have a random arrangement",
+        "Particles are closely packed in a regular pattern",
+        "Particles are slightly further apart and randomly arranged",
+        "Particles are arranged in a fixed lattice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gas particles are far apart and randomly arranged, allowing them to fill any container. \n\n**Common mistake:** Confusing gas arrangement with liquid arrangement, where particles are still close together."
+    }
+  ]
+}

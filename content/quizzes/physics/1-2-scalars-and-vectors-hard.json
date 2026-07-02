@@ -1,0 +1,77 @@
+{
+  "id": "1-2-scalars-and-vectors-hard",
+  "topicId": "1-2-scalars-and-vectors",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "hard",
+  "title": "Scalars and Vectors — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-2-scalars-and-vectors-hard-q1",
+      "type": "mcq",
+      "question": "A boat travels at $8\\text{ m/s}$ due North in a river where the cross-current pushes it East at $6\\text{ m/s}$. What is the magnitude of the boat's resultant velocity?",
+      "options": [
+        "$10\\text{ m/s}$",
+        "$14\\text{ m/s}$",
+        "$2\\text{ m/s}$",
+        "$48\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The velocities are at $90^{circ}$. $R = sqrt{8^2 + 6^2} = sqrt{64 + 36} = sqrt{100} = 10\\text{ m/s}$. \n\n**Common mistake:** Forgetting that velocity is a vector and arithmetic addition ($14\\text{ m/s}$) doesn't apply at right angles."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-hard-q2",
+      "type": "mcq",
+      "question": "In a scale drawing, a force of $3000\\text{ N}$ is represented by a line $6.0\\text{ cm}$ long. If the resultant force in the drawing measures $8.5\\text{ cm}$, what is its actual magnitude?",
+      "options": [
+        "$4250\\text{ N}$",
+        "$5100\\text{ N}$",
+        "$2550\\text{ N}$",
+        "$3500\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The scale is $3000\\text{ N} / 6.0\\text{ cm} = 500\\text{ N/cm}$. Therefore, $8.5\\text{ cm} \\times 500\\text{ N/cm} = 4250\\text{ N}$. \n\n**Common mistake:** Inverting the scale calculation to get $2550\\text{ N}$."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-hard-q3",
+      "type": "mcq",
+      "question": "Three forces act on an object. Which condition must be met for the object to be in equilibrium (resultant force is zero)?",
+      "options": [
+        "The vector sum of the three forces must form a closed triangle",
+        "The sum of the magnitudes of the forces must be zero",
+        "The forces must all act in the same direction",
+        "The two smaller forces must be equal to the largest force"
+      ],
+      "correctIndex": 0,
+      "explanation": "For equilibrium, the resultant is zero, meaning if vectors are drawn tip-to-tail, they must return to the starting point (forming a closed polygon/triangle). \n\n**Common mistake:** Thinking the arithmetic sum of magnitudes must be zero, which is only possible if forces have no size."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-hard-q4",
+      "type": "mcq",
+      "question": "An object moves at a constant speed of $5\\text{ m/s}$ in a circular path. Which statement about its motion is correct?",
+      "options": [
+        "Its velocity is changing even though its speed is constant",
+        "Its velocity is constant because its speed is constant",
+        "Its acceleration is zero because its speed is constant",
+        "Its displacement after one full circle is equal to the circumference"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is a vector (speed + direction). Since the direction is constantly changing in a circle, the velocity is changing. \n\n**Common mistake:** Assuming constant speed means constant velocity, which ignores the directional component of vectors."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-hard-q5",
+      "type": "mcq",
+      "question": "Two jeeps pull a stuck lorry. Each jeep exerts a force of $3000\\text{ N}$ at an angle of $45^{circ}$ to the horizontal (on opposite sides). What is the total resultant force pulling the lorry forward?",
+      "options": [
+        "$4243\\text{ N}$",
+        "$6000\\text{ N}$",
+        "$3000\\text{ N}$",
+        "$2121\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each jeep contributes a forward component of $3000 \\times cos(45^{circ}) = 2121.3\\text{ N}$. Total forward force $= 2121.3 \\times 2 = 4242.6\\text{ N}$. \n\n**Common mistake:** Thinking the total force is just $3000 + 3000 = 6000\\text{ N}$, which ignores the angles."
+    }
+  ]
+}

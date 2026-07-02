@@ -1,0 +1,77 @@
+{
+  "id": "18-3-magnetic-effect-of-a-current-hard",
+  "topicId": "18-3-magnetic-effect-of-a-current",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "Magnetic Effect of a Current — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-3-magnetic-effect-of-a-current-hard-q1",
+      "type": "mcq",
+      "question": "In a magnetic relay, why is the armature (L) typically made of iron rather than steel?",
+      "options": [
+        "Iron is magnetically soft and loses its magnetism when current stops",
+        "Iron is magnetically hard and remains a permanent magnet",
+        "Iron is a better electrical conductor than steel",
+        "Iron is lighter and moves faster toward the magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron is magnetically soft, meaning it is easily magnetised and demagnetised. This allows the relay to release the armature immediately when the current is switched off.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-hard-q2",
+      "type": "mcq",
+      "question": "In a moving-coil loudspeaker, how is the magnetic component designed to maximize efficiency?",
+      "options": [
+        "The field lines are always at right angles to the current direction",
+        "The field lines are parallel to the current direction",
+        "The coil is made of a magnetically hard material like steel",
+        "The permanent magnet is replaced by a second coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The loudspeaker is designed so that magnetic field lines are always at right angles to the current direction, making the interaction much more efficient.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-hard-q3",
+      "type": "mcq",
+      "question": "What would be the consequence of replacing the iron core in a solenoid circuit breaker with a steel core?",
+      "options": [
+        "The circuit breaker would not reset after the current is switched off",
+        "The magnetic field would become too weak to move the switch",
+        "The current would flow in the opposite direction",
+        "The steel would melt due to higher resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steel is a magnetically hard material. Once magnetised by the current, it would remain a permanent magnet even after current stops, preventing the mechanism from releasing or resetting correctly.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-hard-q4",
+      "type": "mcq",
+      "question": "Two long parallel wires carry currents in the same direction. What interaction occurs between them due to their magnetic fields?",
+      "options": [
+        "They attract each other",
+        "They repel each other",
+        "They rotate around each other",
+        "There is no interaction because they are parallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that conductors carrying currents in the same direction attract each other due to the interaction of their magnetic fields.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-hard-q5",
+      "type": "mcq",
+      "question": "A current-carrying wire passes through a cardboard sheet. Points X, Y, and Z are at distances of $2\\text{ cm}$, $4\\text{ cm}$, and $6\\text{ cm}$ from the wire respectively. How do the field strengths compare?",
+      "options": [
+        "X > Y > Z",
+        "Z > Y > X",
+        "X = Y = Z",
+        "Y > X and Y > Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field strength is inversely related to distance from the wire. Therefore, the point closest to the wire (X) has the strongest field.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

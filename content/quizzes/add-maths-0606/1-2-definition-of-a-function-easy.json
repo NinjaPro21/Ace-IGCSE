@@ -1,0 +1,77 @@
+{
+  "id": "1-2-definition-of-a-function-easy",
+  "topicId": "1-2-definition-of-a-function",
+  "chapterId": "ch01-functions",
+  "difficulty": "easy",
+  "title": "Definition of a Function — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-2-definition-of-a-function-easy-q1",
+      "type": "mcq",
+      "question": "A function f is defined by f(x)=7x−4. Find the image of the object 3.",
+      "options": [
+        "17",
+        "25",
+        "10",
+        "21"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute x=3 into the function: f(3)=7(3)−4=21−4=17.\n\n**Common mistake:** Students may mistakenly add the constant instead of subtracting, leading to 21+4=25, or forget to multiply correctly."
+    },
+    {
+      "id": "1-2-definition-of-a-function-easy-q2",
+      "type": "mcq",
+      "question": "Which type of mapping can be classified as a function?",
+      "options": [
+        "Many-to-one",
+        "One-to-many",
+        "Many-to-many",
+        "All relations are functions"
+      ],
+      "correctIndex": 0,
+      "explanation": "A function must map every input to exactly one output; therefore, one-to-one and many-to-one mappings are functions.\n\n**Common mistake:** A common error is confusing the definition of a function with the criteria for an inverse to exist, which requires a one-to-one mapping."
+    },
+    {
+      "id": "1-2-definition-of-a-function-easy-q3",
+      "type": "mcq",
+      "question": "If the range of a function f(x)=x+5 is\n7,8,9, what is the corresponding domain?",
+      "options": [
+        "2,3,4",
+        "12,13,14",
+        "7,8,9",
+        "−2,−3,−4"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the domain, solve x+5=y for each y in the range: x=y−5. 7−5=2,8−5=3,9−5=4.\n\n**Common mistake:** Students often add the constant to the range values instead of performing the inverse operation to find the inputs."
+    },
+    {
+      "id": "1-2-definition-of-a-function-easy-q4",
+      "type": "mcq",
+      "question": "The vertical line test is used on a graph to determine if a relation is a function. If any vertical line crosses the graph more than once, the relation is:",
+      "options": [
+        "Not a function",
+        "A one-to-one function",
+        "A many-to-one function",
+        "An identity function"
+      ],
+      "correctIndex": 0,
+      "explanation": "If a vertical line intersects a graph at more than one point, it means one x-value maps to multiple y-values, which violates the definition of a function.\n\n**Common mistake:** Students may confuse the vertical line test (for functions) with the horizontal line test (for inverse-existing functions)."
+    },
+    {
+      "id": "1-2-definition-of-a-function-easy-q5",
+      "type": "mcq",
+      "question": "Find the value of f(−2) for the function f(x)=10−3x.",
+      "options": [
+        "16",
+        "4",
+        "26",
+        "13"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute x=−2: f(−2)=10−3(−2)=10+6=16.\n\n**Common mistake:** The most frequent error is a sign mistake during multiplication: −3(−2) being treated as −6 instead of +6."
+    }
+  ]
+}

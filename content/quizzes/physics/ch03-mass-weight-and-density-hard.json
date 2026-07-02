@@ -1,0 +1,142 @@
+{
+  "id": "ch03-mass-weight-and-density-hard",
+  "topicId": "ch03-mass-weight-and-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "hard",
+  "title": "Chapter 3: Mass, Weight and Density — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch03-mass-weight-and-density-hard-q1",
+      "type": "mcq",
+      "question": "An astronaut weighs $1200\\text{ N}$ on Earth ($g = 10\\text{ N/kg}$). The gravitational field strength on Jupiter is $22.9\\text{ N/kg}$. What is the astronaut's weight on Jupiter?",
+      "options": [
+        "$2748\\text{ N}$",
+        "$1200\\text{ N}$",
+        "$524\\text{ N}$",
+        "$27480\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Step 1: Find mass on Earth: $m = W / g = 1200 / 10 = 120\\text{ kg}$. Step 2: Weight on Jupiter $= m \\times g_{Jupiter} = 120\\text{ kg} \\times 22.9\\text{ N/kg} = 2748\\text{ N}$. \n\n**Common mistake:** Simply adding or subtracting values without calculating the mass first."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q2",
+      "type": "mcq",
+      "question": "An astronaut is floating in open space while in orbit around the Earth. Which statement about the astronaut is correct?",
+      "options": [
+        "The astronaut still has both mass and weight",
+        "The astronaut has mass but zero weight",
+        "The astronaut has weight but zero mass",
+        "The astronaut has neither mass nor weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "An object has mass regardless of location. Even while floating, gravity still acts to keep the astronaut in orbit, meaning they still have weight (force). \n\n**Common mistake:** Thinking 'weightlessness' in space means the gravitational force is actually zero."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q3",
+      "type": "mcq",
+      "question": "Which row correctly compares the properties of mass and weight?",
+      "options": [
+        "Mass: Scalar, constant with location; Weight: Vector, varies with location",
+        "Mass: Vector, varies with location; Weight: Scalar, constant with location",
+        "Mass: Measured in Newtons; Weight: Measured in kilograms",
+        "Mass: Measured with a spring balance; Weight: Measured with a beam balance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a scalar quantity that is constant everywhere. Weight is a vector (force) that changes based on local gravity. \n\n**Common mistake:** Swapping the types or the units for the two quantities."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q4",
+      "type": "mcq",
+      "question": "A student uses a beam balance on the Moon to find the mass of a rock that was measured as $1.0\\text{ kg}$ on Earth. What will the balance show on the Moon?",
+      "options": [
+        "$1.0\\text{ kg}$",
+        "$0.16\\text{ kg}$",
+        "$6.0\\text{ kg}$",
+        "It will not work because there is no gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "A beam balance compares the gravitational pull on an unknown mass with known weights. Since gravity affects both sides equally, it measures the same mass ($1.0\\text{ kg}$) regardless of location. \n\n**Common mistake:** Thinking the reading will drop to $0.16\\text{ kg}$ because the Moon's gravity is $1/6$ of Earth's."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q5",
+      "type": "mcq",
+      "question": "If the weight of an object is proportional to its mass, what does the gradient of a graph of Weight ($y$-axis) against Mass ($x$-axis) represent?",
+      "options": [
+        "Gravitational field strength ($g$)",
+        "The volume of the object",
+        "The density of the object",
+        "Acceleration of the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "From $W = mg$, the ratio $W/m$ is $g$. On a graph of $W$ vs $m$, this ratio is the gradient. \n\n**Common mistake:** Thinking the gradient represents density, which is mass per unit volume."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q6",
+      "type": "mcq",
+      "question": "A rectangular block of material has a mass of $14.9\\text{ kg}$ and a density of $5\\text{ g/cm}^3$. Calculate its volume in $cm^3$.",
+      "options": [
+        "$2980\\text{ cm}^3$",
+        "$74.5\\text{ cm}^3$",
+        "$0.33\\text{ cm}^3$",
+        "$29.8\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First convert mass to grams: $14.9\\text{ kg} = 14900\\text{ g}$. Then $V = m / rho = 14900 / 5 = 2980\\text{ cm}^3$. \n\n**Common mistake:** Forgetting to convert $kg$ to $g$ before using the $g/cm^3$ density value."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q7",
+      "type": "mcq",
+      "question": "A ship is made of steel, which is denser than water, yet the ship floats. Why?",
+      "options": [
+        "The average density of the ship (including air) is less than water",
+        "Steel becomes less dense when shaped into a hull",
+        "The salt in seawater increases the ship's weight",
+        "The volume of the steel is reduced to make it lighter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average density is total mass divided by total volume. Because the ship contains large volumes of air, its average density is less than that of water. \n\n**Common mistake:** Believing the material property of steel itself changes."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q8",
+      "type": "mcq",
+      "question": "A composite cube is made of $7.0\\text{ cm}^3$ of wood (mass $42.0\\text{ g}$) and $1.0\\text{ cm}^3$ of metal (mass $5.0\\text{ g}$). Calculate the average density of the composite cube.",
+      "options": [
+        "$5.9\\text{ g/cm}^3$",
+        "$5.5\\text{ g/cm}^3$",
+        "$11.0\\text{ g/cm}^3$",
+        "$47.0\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total mass $= 42 + 5 = 47\\text{ g}$. Total volume $= 7 + 1 = 8\\text{ cm}^3$. Average density $= 47 / 8 = 5.875\\text{ (\\approx 5.9) g/cm}^3$. \n\n**Common mistake:** Averaging the two individual densities ($(6+5)/2$) instead of using total mass/total volume."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q9",
+      "type": "mcq",
+      "question": "How does a submarine use its ballast tanks to sink from a floating position?",
+      "options": [
+        "It fills tanks with water to increase total mass and average density",
+        "It fills tanks with air to increase its volume",
+        "It releases water to decrease its weight",
+        "It increases its surface area to catch more current"
+      ],
+      "correctIndex": 0,
+      "explanation": "By filling ballast tanks with water, the total mass increases while the volume remains fixed, raising the average density above that of seawater. \n\n**Common mistake:** Thinking the volume of the submarine changes to control buoyancy."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-hard-q10",
+      "type": "mcq",
+      "question": "A solid block has dimensions $20\\text{ cm} \\times 10\\text{ cm} \\times 15\\text{ cm}$ and a density of $5\\text{ g/cm}^3$. If a cylindrical hole is bored through it, the mass drops to $14.9\\text{ kg}$. What was the volume of the material removed?",
+      "options": [
+        "$20\\text{ cm}^3$",
+        "$3000\\text{ cm}^3$",
+        "$2980\\text{ cm}^3$",
+        "$149\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original volume $= 20times10times15 = 3000\\text{ cm}^3$. Final volume $= 14900\\text{ g} / 5\\text{ g/cm}^3 = 2980\\text{ cm}^3$. Removed volume $= 3000 - 2980 = 20\\text{ cm}^3$. \n\n**Common mistake:** Calculating the final volume ($2980$) and forgetting to subtract it from the original."
+    }
+  ]
+}

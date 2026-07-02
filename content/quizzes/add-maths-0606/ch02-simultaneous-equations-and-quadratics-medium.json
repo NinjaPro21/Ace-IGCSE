@@ -146,7 +146,7 @@
             "$x \\le -3$ or $x \\ge 2$"
           ],
           "correctIndex": 0,
-          "explanation": "$(x - 2)(x - 3) = 0$ gives roots $2$ and $3$. Since the parabola opens upwards and we want $\\le 0$, the solution is $2 \\le x \\le 3$."
+          "explanation": "$(x - 2)(x - 3) = 0$ gives roots^2 and^3. Since the parabola opens upwards and we want $\\le 0$, the solution is $2 \\le x \\le 3$."
         },
         {
           "question": "Find the complete set of values of $x$ satisfying the inequality $2x² - 7x + 3 \\le 0$.",
@@ -157,7 +157,7 @@
             "$x \\le -3$ or $x \\ge \\frac{1}{2}$"
           ],
           "correctIndex": 0,
-          "explanation": "$(2x - 1)(x - 3) = 0$ gives roots $\\frac{1}{2}$ and $3$. The solution region between the roots is $\\frac{1}{2} \\le x \\le 3$."
+          "explanation": "$(2x - 1)(x - 3) = 0$ gives roots $\\frac{1}{2}$ and^3. The solution region between the roots is $\\frac{1}{2} \\le x \\le 3$."
         },
         {
           "question": "Find the complete set of values of $x$ satisfying the inequality $x² + x - 6 \\le 0$.",
@@ -168,7 +168,7 @@
             "$x \\le -2$ or $x \\ge 3$"
           ],
           "correctIndex": 0,
-          "explanation": "$(x + 3)(x - 2) = 0$ gives roots $-3$ and $2$. The solution between the roots is $-3 \\le x \\le 2$."
+          "explanation": "$(x + 3)(x - 2) = 0$ gives roots $-3$ and^2. The solution between the roots is $-3 \\le x \\le 2$."
         },
         {
           "question": "Find the complete set of values of $x$ satisfying the inequality $x² - 4x + 3 \\le 0$.",
@@ -179,7 +179,7 @@
             "$x \\le -3$ or $x \\ge 1$"
           ],
           "correctIndex": 0,
-          "explanation": "$(x - 1)(x - 3) = 0$ gives roots $1$ and $3$. The solution between the roots is $1 \\le x \\le 3$."
+          "explanation": "$(x - 1)(x - 3) = 0$ gives roots^1 and^3. The solution between the roots is $1 \\le x \\le 3$."
         }
       ]
     },
@@ -312,7 +312,7 @@
         "$(4, 5)$"
       ],
       "correctIndex": 0,
-      "explanation": "The turning point of the original quadratic is at $x = -\\frac{-4}{2(1)} = 2$. Substituting $2$ into the quadratic gives $2^2 - 4(2) - 5 = -9$. Under the modulus function, this negative minimum point is reflected to become a maximum point at $(2, |-9|) = (2, 9)$.\n\n**Common mistake:** Students find the turning point of the unreflected quadratic correctly as $(2, -9)$ but fail to apply the modulus transformation, missing that the absolute value maps $-9$ to $+9$.",
+      "explanation": "The turning point of the original quadratic is at $x = -\\frac{-4}{2(1)} = 2$. Substituting^2 into the quadratic gives $2^2 - 4(2) - 5 = -9$. Under the modulus function, this negative minimum point is reflected to become a maximum point at $(2, |-9|) = (2, 9)$.\n\n**Common mistake:** Students find the turning point of the unreflected quadratic correctly as $(2, -9)$ but fail to apply the modulus transformation, missing that the absolute value maps $-9$ to $+9$.",
       "variants": [
         {
           "question": "The quadratic graph $y = x^2 - 4x - 3$ is reflected in the $x$-axis for its negative parts to form $y = |x^2 - 4x - 3|$. Find the coordinates of the local maximum point of this modulus function.",

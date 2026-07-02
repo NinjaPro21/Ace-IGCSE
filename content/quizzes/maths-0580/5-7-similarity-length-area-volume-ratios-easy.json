@@ -1,0 +1,77 @@
+{
+  "id": "5-7-similarity-length-area-volume-ratios-easy",
+  "topicId": "5-7-similarity-length-area-volume-ratios",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "easy",
+  "title": "Similarity (Length, Area, Volume Ratios) — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following conditions is sufficient to guarantee that two triangles are mathematically similar?",
+      "options": [
+        "They have the same three interior angles",
+        "They have the same area",
+        "They have one side of equal length",
+        "They are both right-angled"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two triangles are always mathematically similar if they have the same angles.\n\n**Common mistake:** Students often confuse similarity with congruence, thinking that sides must also be equal, or they assume all right-angled triangles are similar."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-easy-q2",
+      "type": "mcq",
+      "question": "If two similar shapes have a linear scale factor of $k$, what is the ratio of their corresponding areas?",
+      "options": [
+        "$1 : k^2$",
+        "$1 : k$",
+        "$1 : k^3$",
+        "$1 : 2k$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the ratio of corresponding sides is $1 : k$2$1 : k^2$.\n\n**Common mistake:** A student might use the linear scale factor $k$ for areas, forgetting that area is a two-dimensional measure."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following pairs of shapes are always mathematically similar to each other?",
+      "options": [
+        "Two circles",
+        "Two rectangles",
+        "Two isosceles triangles",
+        "Two rhombuses"
+      ],
+      "correctIndex": 0,
+      "explanation": "All circles have the same shape regardless of size, making them always similar.\n\n**Common mistake:** Students may choose rectangles, not realising that the ratio of length to width can vary."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-easy-q4",
+      "type": "mcq",
+      "question": "Two similar 3D solids have a linear scale factor of $3$. What is the ratio of their volumes?",
+      "options": [
+        "$1 : 27$",
+        "$1 : 9$",
+        "$1 : 3$",
+        "$1 : 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The volume ratio is the cube of the linear scale factor: $3^3 = 27$.\n\n**Common mistake:** The student might square the scale factor ($9$) instead of cubing it."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-easy-q5",
+      "type": "mcq",
+      "question": "If the corresponding sides of two similar figures are in the ratio $2 : 5$, what is the ratio of their perimeters?",
+      "options": [
+        "$2 : 5$",
+        "$4 : 25$",
+        "$8 : 125$",
+        "$1 : 2.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perimeter is a linear measure, so the ratio of perimeters is the same as the ratio of corresponding sides.\n\n**Common mistake:** Students often apply area or volume rules ($k^2$ or $k^3$) to perimeters."
+    }
+  ]
+}

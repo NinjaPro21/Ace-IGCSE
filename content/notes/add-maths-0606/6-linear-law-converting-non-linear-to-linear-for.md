@@ -4,9 +4,10 @@ Linear law is a method used to convert non-linear relationships into straight-li
 
 ## Key formulas
 
-$$y = ax^n \implies \ln y = n \ln x + \ln a \quad (\text{Plot } \ln y \text{ vs } \ln x \implies Y = mX + C)$$
-
-$$y = Ab^x \implies \ln y = (\ln b)x + \ln A \quad (\text{Plot } \ln y \text{ vs } x \implies Y = mX + C)$$
+$$
+y = ax^n \implies \ln y = n \ln x + \ln a \quad \left(\text{plot } \ln y \text{ vs } \ln x \implies Y = mX + C\right)
+$$
+$y = Ab^x \implies \ln y = (\ln b)\,x + \ln A \quad \left(\text{plot } \ln y \text{ vs } x \implies Y = mX + C\right)$
 
 ## Steps / method
 
@@ -24,21 +25,21 @@ Equate the gradient of the straight line to the corresponding algebraic group ($
 
 For $y = ax^n$, plot $\ln y$ against $\ln x$ — gradient $= n$, intercept $= \ln a$. For $y = Ab^x$, plot $\ln y$ against $x$ — gradient $= \ln b$, intercept $= \ln A$.
 
-## Worked example — Power law $y = ax^n$
+## Worked example — Power law
 
 Given $y = 3x^2$, express in linear form.
 
-$$\ln y = \ln 3 + 2\ln x \implies Y = 2X + \ln 3 \quad \text{where } Y = \ln y,\; X = \ln x$$
+Take logs: $\ln y = \ln 3 + 2\ln x$, so $Y = 2X + \ln 3$ where $Y = \ln y$ and $X = \ln x$.
 
-Gradient $= 2 = n$, intercept $= \ln 3$, so $a = e^{\ln 3} = 3$.
+Compare with $Y = mX + C$: gradient $m = 2$, so $n = 2$; intercept $C = \ln 3$, so $a = e^{\ln 3} = 3$.
 
-## Worked example — Exponential law $y = Ab^x$
+## Worked example — Exponential law
 
 Given $y = 5 \times 2^x$, express in linear form.
 
-$$\ln y = x\ln 2 + \ln 5 \implies Y = (\ln 2)X + \ln 5 \quad \text{where } Y = \ln y,\; X = x$$
+Take logs: $\ln y = x\ln 2 + \ln 5$, so $Y = (\ln 2)X + \ln 5$ where $Y = \ln y$ and $X = x$.
 
-Gradient $= \ln 2$, so $b = 2$; intercept $= \ln 5$, so $A = 5$.
+Compare with $Y = mX + C$: gradient $m = \ln 2$, so $b = 2$; intercept $C = \ln 5$, so $A = 5$.
 
 ## Examiner tip
 
@@ -47,7 +48,3 @@ When reading values from a linear law graph, remember that the vertical intercep
 ## Quick check
 
 If you plot $\ln y$ against $\ln x$ for the expression $y = ax^n$, then the gradient of the resulting line is exactly equal to $n$.
-
-## Visual / interactive intent
-
-New explorer: Linear law transformer. Two side-by-side graphs. The left shows an exponential curve $y = Ab^x$. Sliders adjust $A$ and $b$. The right graph shows the transformed linear plot $\ln y$ vs $x$, illustrating how the curve flattens into a line.

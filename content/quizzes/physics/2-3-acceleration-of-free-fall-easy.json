@@ -1,0 +1,77 @@
+{
+  "id": "2-3-acceleration-of-free-fall-easy",
+  "topicId": "2-3-acceleration-of-free-fall",
+  "chapterId": "ch02-motion",
+  "difficulty": "easy",
+  "title": "Acceleration of Free Fall — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-3-acceleration-of-free-fall-easy-q1",
+      "type": "mcq",
+      "question": "What is the approximate constant value for the acceleration of free fall $g$ near the surface of the Earth?",
+      "options": [
+        "$9.8\\text{ m/s}^2$",
+        "$10\\text{ N/kg}$",
+        "$1.6\\text{ m/s}^2$",
+        "$0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The acceleration of free fall $g$ for an object near the surface of the Earth is approximately constant at $9.8\\text{ m/s}^2$. \n\n**Common mistake:** Choosing $1.6\\text{ m/s}^2$, which is the value for the Moon."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-easy-q2",
+      "type": "mcq",
+      "question": "Which force is the only one acting on an object during 'free fall' in a vacuum?",
+      "options": [
+        "Weight",
+        "Air resistance",
+        "Friction",
+        "Magnetic force"
+      ],
+      "correctIndex": 0,
+      "explanation": "An object can only be in free fall if the only force acting on it is its own weight, typically observed in a vacuum where air resistance is absent. \n\n**Common mistake:** Thinking air resistance always acts; it is absent in a vacuum."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-easy-q3",
+      "type": "mcq",
+      "question": "What does a straight diagonal line with a constant gradient on a speed–time graph represent for a falling object?",
+      "options": [
+        "Constant acceleration",
+        "Terminal velocity",
+        "Decreasing speed",
+        "At rest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without air resistance, an object falls with constant acceleration, which is shown as a straight diagonal line on a speed–time graph. \n\n**Common mistake:** Confusing this with terminal velocity, which is a horizontal line."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-easy-q4",
+      "type": "mcq",
+      "question": "An object is dropped from rest in a vacuum. What is its speed after $1.0\\text{ s}$? (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$10\\text{ m/s}$",
+        "$1.0\\text{ m/s}$",
+        "$20\\text{ m/s}$",
+        "$5\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = gt$, $v = 10 \\times 1 = 10\\text{ m/s}$. \n\n**Common mistake:** Thinking the speed remains constant at $10\\text{ m/s}$ regardless of time."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-easy-q5",
+      "type": "mcq",
+      "question": "When an object reaches terminal velocity, what is its acceleration?",
+      "options": [
+        "$0\\text{ m/s}^2$",
+        "$9.8\\text{ m/s}^2$",
+        "$10\\text{ m/s}^2$",
+        "Increasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "At terminal velocity, the air resistance equals the weight, the resultant force is zero, and thus acceleration is $0\\text{ m/s}^2$. \n\n**Common mistake:** Thinking the acceleration is $10\\text{ m/s}^2$ at all times during a fall."
+    }
+  ]
+}

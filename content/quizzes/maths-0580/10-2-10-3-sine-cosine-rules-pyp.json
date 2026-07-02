@@ -1,0 +1,77 @@
+{
+  "id": "10-2-10-3-sine-cosine-rules-pyp",
+  "topicId": "10-2-10-3-sine-cosine-rules",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "pyp",
+  "title": "Sine & Cosine Rules — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-2-10-3-sine-cosine-rules-pyp-q1",
+      "type": "mcq",
+      "question": "In triangle ABC, angle $A = 62°$, side $a = 8$ cm, and side $c = 7$ cm. Calculate angle $C$.",
+      "options": [
+        "50.6°",
+        "62.0°",
+        "67.4°",
+        "129.4°"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin C / 7 = \\sin 62° / 8 \\Rightarrow \\sin C = (7 \\times 0.8829) / 8 = 0.7725$. $C = \\sin^{-1}$(0.7725) \\approx 50.6°2\n\n**Common mistake:** The student might select $67.4$ which is the third angle, or multiply $7 \\times \\sin 62$ without dividing by $8$."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-pyp-q2",
+      "type": "mcq",
+      "question": "Calculate the length of side BC in a triangle where $AB = 4$ cm, $AC = 7$ cm, and angle $A = 57°$.",
+      "options": [
+        "5.87 cm",
+        "6.32 cm",
+        "34.4 cm",
+        "8.12 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a^2 = 4^2 + 7^2 - (2 \\times 4 \\times 7 \\times \\cos 57°) = 16 + 49 - (56 \\times 0.5446) = 65 - 30.5 = 34.5$. $a = \\sqrt{34.5} \\approx 5.87$.\n\n**Common mistake:** Arithmetic errors in the final subtraction before the square root are frequent."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-pyp-q3",
+      "type": "mcq",
+      "question": "A ship sails $7$ km on a bearing of $306°$ and then $11$ km on a bearing of $070°$. Which rule is primarily used to find the direct distance from start to finish?",
+      "options": [
+        "The Cosine Rule",
+        "The Sine Rule",
+        "Pythagoras' Theorem",
+        "The Area Sine Rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a typical SAS (Side-Angle-Side) problem. Once you find the internal angle between the two paths using bearings, you use the Cosine Rule to find the missing side.\n\n**Common mistake:** A student might assume every bearing problem uses the Sine Rule."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-pyp-q4",
+      "type": "mcq",
+      "question": "In triangle ABC, side $a = 7$ cm and side $b = 14$ cm. If angle $C = 80°$, calculate the area of the triangle.",
+      "options": [
+        "48.3 cm $2$",
+        "98.0 cm $2$",
+        "49.0 cm $2$",
+        "17.0 cm $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times 7 \\times 14 \\times \\sin 80° = 49 \\times 0.9848 \\approx 48.3$.\n\n**Common mistake:** The student might forget to halve the product ($0.5$), resulting in $96.5$."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-pyp-q5",
+      "type": "mcq",
+      "question": "Given a triangle with sides $3, 4,$ and $6$, find the value of the cosine of the largest angle.",
+      "options": [
+        "-0.458",
+        "0.000",
+        "0.250",
+        "-0.500"
+      ],
+      "correctIndex": 0,
+      "explanation": "Largest angle opposite $6$. $\\cos A = (3^2 + 4^2 - 6^2) / (2 \\times 3 \\times 4) = (9 + 16 - 36) / 24 = -11 / 24 \\approx -0.4583$.\n\n**Common mistake:** The student might use the wrong sides in the formula or conclude it is right-angled because $3^2+4^2=25$ is close to $6^2=36$."
+    }
+  ]
+}

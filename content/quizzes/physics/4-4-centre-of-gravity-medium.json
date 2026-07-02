@@ -1,0 +1,77 @@
+{
+  "id": "4-4-centre-of-gravity-medium",
+  "topicId": "4-4-centre-of-gravity",
+  "chapterId": "ch04-forces",
+  "difficulty": "medium",
+  "title": "Centre of Gravity — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-4-centre-of-gravity-medium-q1",
+      "type": "mcq",
+      "question": "In an experiment with an irregular lamina, three lines are drawn using a plumb line from different pivot holes. Where is the centre of gravity located?",
+      "options": [
+        "At the point where all three lines intersect",
+        "Halfway between the two furthest holes",
+        "At the hole with the lowest position",
+        "On the edge of the lamina"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centre of gravity must lie on every vertical line drawn from a pivot; therefore, it is located exactly at their intersection. \n\n**Common mistake:** Thinking only two lines are needed; a third line is used to verify accuracy."
+    },
+    {
+      "id": "4-4-centre-of-gravity-medium-q2",
+      "type": "mcq",
+      "question": "A minibus is carrying heavy luggage on its roof rack but has no passengers inside. Why is this dangerous when turning a corner?",
+      "options": [
+        "The centre of gravity is high, making the bus unstable",
+        "The centre of gravity is low, making the bus too heavy",
+        "The luggage increases the mass but not the weight",
+        "The base area of the bus has decreased"
+      ],
+      "correctIndex": 0,
+      "explanation": "Placing heavy loads high up raises the centre of gravity of the vehicle, which reduces stability and increases the risk of toppling. \n\n**Common mistake:** Thinking the bus is 'too heavy' to turn; the issue is the distribution of mass, not just the total mass."
+    },
+    {
+      "id": "4-4-centre-of-gravity-medium-q3",
+      "type": "mcq",
+      "question": "How does the position of the centre of gravity of a toy change if modeling clay is added to its bottom?",
+      "options": [
+        "It moves lower, increasing stability",
+        "It moves higher, increasing stability",
+        "It moves lower, decreasing stability",
+        "It remains in the same place"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding mass to the bottom shifts the overall centre of gravity lower, which makes the object harder to topple. \n\n**Common mistake:** Thinking more mass always makes an object less stable."
+    },
+    {
+      "id": "4-4-centre-of-gravity-medium-q4",
+      "type": "mcq",
+      "question": "A book is placed upright on its narrowest face. Compared to laying it flat on its broad face, the book is now:",
+      "options": [
+        "Less stable because the centre of gravity is higher",
+        "More stable because the pressure is higher",
+        "Equally stable because the weight is the same",
+        "Less stable because the base area is larger"
+      ],
+      "correctIndex": 0,
+      "explanation": "When upright, the centre of gravity is higher and the base area is smaller, both of which decrease stability. \n\n**Common mistake:** Confusing pressure (force/area) with stability."
+    },
+    {
+      "id": "4-4-centre-of-gravity-medium-q5",
+      "type": "mcq",
+      "question": "A student finds the centre of gravity of a rock on Earth. If the rock is taken to the Moon, how does its centre of gravity change?",
+      "options": [
+        "The position of the centre of gravity remains the same",
+        "The centre of gravity moves to the bottom of the rock",
+        "The rock no longer has a centre of gravity in lower gravity",
+        "The centre of gravity moves to the geometric centre"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centre of gravity is a property of the mass distribution of the object. Since the shape and mass distribution don't change, its location stays the same. \n\n**Common mistake:** Thinking that because 'weight' changes, the 'point' where it acts must also move."
+    }
+  ]
+}

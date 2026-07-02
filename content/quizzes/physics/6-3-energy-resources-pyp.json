@@ -1,0 +1,77 @@
+{
+  "id": "6-3-energy-resources-pyp",
+  "topicId": "6-3-energy-resources",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "pyp",
+  "title": "Energy Resources — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-3-energy-resources-pyp-q1",
+      "type": "mcq",
+      "question": "Which of the following energy resources is the 'odd one out' compared to the others?",
+      "options": [
+        "Nuclear energy",
+        "Geothermal energy",
+        "Wind energy",
+        "Solar energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "In standard IGCSE classifications, nuclear energy is the odd one out here as it is non-renewable, while the others are renewable. \n\n**Common mistake:** Selecting geothermal because it comes from the ground."
+    },
+    {
+      "id": "6-3-energy-resources-pyp-q2",
+      "type": "mcq",
+      "question": "What does it mean to say that a solar cell has an efficiency of $45\\%$?",
+      "options": [
+        "$45\\%$ of the input light energy is converted into useful electrical energy.",
+        "$45\\%$ of the energy is wasted as heat and sound.",
+        "The cell produces $45\\text{ J}$ of energy every hour regardless of light.",
+        "The cell requires $45\\text{ J}$ of energy to start working."
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency represents the percentage of total input energy that becomes useful output. \n\n**Common mistake:** Thinking the percentage refers to the wasted energy."
+    },
+    {
+      "id": "6-3-energy-resources-pyp-q3",
+      "type": "mcq",
+      "question": "A power station has an energy input of $2.5 \\times 10^{14}\\text{ J}$ and a useful energy output of $10.1 \\times 10^{13}\\text{ J}$. What is its efficiency?",
+      "options": [
+        "$40.4\\%$",
+        "$24.8\\%$",
+        "$2.5\\%$",
+        "$4.0\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$10.1 \\times 10^{13}$ is the same as $1.01 \\times 10^{14}$. Efficiency $= (1.01 / 2.5) \\times 100 = 40.4\\%$. \n\n**Common mistake:** Miscalculating the powers of ten or dividing the wrong way."
+    },
+    {
+      "id": "6-3-energy-resources-pyp-q4",
+      "type": "mcq",
+      "question": "Why is there always a difference between the energy input and the useful energy output in a power station?",
+      "options": [
+        "Some energy is always dissipated to the surroundings as thermal energy.",
+        "The principle of conservation of energy does not apply to power stations.",
+        "Energy is destroyed during the process of generating electricity.",
+        "The input energy is measured in different units than the output energy."
+      ],
+      "correctIndex": 0,
+      "explanation": "No machine is $100\\%$ efficient; energy is always lost (dissipated) as heat/sound to the surroundings. \n\n**Common mistake:** Believing energy is actually 'destroyed'."
+    },
+    {
+      "id": "6-3-energy-resources-pyp-q5",
+      "type": "mcq",
+      "question": "Which energy conversion takes place in a hydroelectric power station?",
+      "options": [
+        "Gravitational potential energy $rightarrow$ Kinetic energy $rightarrow$ Electrical energy",
+        "Chemical energy $rightarrow$ Thermal energy $rightarrow$ Electrical energy",
+        "Nuclear energy $rightarrow$ Kinetic energy $rightarrow$ Electrical energy",
+        "Solar energy $rightarrow$ Thermal energy $rightarrow$ Electrical energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water stored high up (GPE) falls (KE) to turn turbines (Electrical). \n\n**Common mistake:** Thinking hydroelectricity starts with thermal energy."
+    }
+  ]
+}

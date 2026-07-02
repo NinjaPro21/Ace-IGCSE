@@ -1,0 +1,142 @@
+{
+  "id": "5-7-converting-non-linear-laws-to-linear-form-hard",
+  "topicId": "5-7-converting-non-linear-laws-to-linear-form",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "hard",
+  "title": "Converting Non-Linear Laws to Linear Form — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q1",
+      "type": "mcq",
+      "question": "The variables $x$2$y$2$y = p q^{x^2}$. A straight line is obtained by plotting $\\ln y$2$x^2$. If the line passes through $(1, 4)$ and $(3, 10)$, find the value of $q$.",
+      "options": [
+        "$e^3$",
+        "3",
+        "$e^4$",
+        "$e^{10}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\ln y = (\\ln q)x^2 + \\ln p$2$m = \\ln q = \\frac{10-4}{3-1} = 3$. Therefore, $q = e^3$.\n\n**Common mistake:** A student might plot $\\ln y$2$x$2$x^2$, or fail to convert from $\\ln q$2$q$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q2",
+      "type": "mcq",
+      "question": "A graph of $\\frac{y}{x}$ against $x^2$ is a straight line passing through $(2, 11)$ and $(5, 20)$. Find the equation for $y$2$x$.",
+      "options": [
+        "$y = 3x^3 + 5x$",
+        "$y = 3x^2 + 5$",
+        "$y = 3x^3 + 5$",
+        "$y = 9x^2 + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = \\frac{20-11}{5-2} = 3$. Using $Y-Y_1 = m(X-X_1)$, we get $\\frac{y}{x} - 11 = 3(x^2 - 2) \\Rightarrow \\frac{y}{x} = 3x^2 + 5 \\Rightarrow y = 3x^3 + 5x$.\n\n**Common mistake:** Neglecting to multiply the entire right-hand side by $x$ when converting from the linear form back to the original equation."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q3",
+      "type": "mcq",
+      "question": "For the law $y = \\frac{a}{x+b}$, a straight line is obtained by plotting $\\frac{1}{y}$ against $x$2$a$2$b$.",
+      "options": [
+        "$a = 2, b = 4$",
+        "$a = 0.5, b = 2$",
+        "$a = 2, b = 2$",
+        "$a = 4, b = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{1}{y} = \\frac{x+b}{a} = \\frac{1}{a}x + \\frac{b}{a}$. Gradient $\\frac{1}{a} = 0.5 \\Rightarrow a = 2$. Intercept $\\frac{b}{a} = 2 \\Rightarrow b = 2(2) = 4$.\n\n**Common mistake:** Assuming the gradient is $a$2$b$ without considering the reciprocal relationship."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q4",
+      "type": "mcq",
+      "question": "Two variables are related by $y = 10^{ax+b}$. The graph of $\\lg y$2$x$2$(1, 5)$ and $(3, 11)$. Determine the values of $a$2$b$.",
+      "options": [
+        "$a = 3, b = 2$",
+        "$a = 2, b = 3$",
+        "$a = 6, b = -1$",
+        "$a = 3, b = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg y = ax + b$2$a = \\frac{11-5}{3-1} = 3$. Substituting $(1, 5)$ gives $5 = 3(1) + b \\Rightarrow b = 2$.\n\n**Common mistake:** A student might accidentally swap the coordinates or miscalculate the simple subtraction required for the gradient."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q5",
+      "type": "mcq",
+      "question": "The relationship $y = ax^n + b$2$b$2$a$2$n$?",
+      "options": [
+        "$\\lg(y - 3)$ against $\\lg x$",
+        "$\\lg y$2$\\lg x$",
+        "$\\lg y$2$x$",
+        "$(y - 3)$ against $x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange to $y - 3 = ax^n$2$\\lg(y - 3) = n \\lg x + \\lg a$2$\\lg(y - 3)$ against $\\lg x$ yields a straight line.\n\n**Common mistake:** Attempting to take the log of the sum ($ax^n + b$), which does not simplify to a linear form."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q6",
+      "type": "mcq",
+      "question": "The relationship $y = a e^{bx^2}$ is plotted as $\\ln y$2$x^2$. The line passes through $P(1, 4)$ and $Q(3, 10)$. Calculate the value of $a$2$b$.",
+      "options": [
+        "$a = e, b = 3$",
+        "$a = 3, b = e$",
+        "$a = e^3, b = 1$",
+        "$a = 1, b = e^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\ln y = bx^2 + \\ln a$2$b = \\frac{10-4}{3-1} = 3$. Intercept $\\ln a = 4 - 3(1) = 1 \\Rightarrow a = e^1$.\n\n**Common mistake:** Calculating $b$2$\\ln 3$ instead of 3, or forgetting to take the exponential of the intercept to find $a$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q7",
+      "type": "mcq",
+      "question": "Given $y = \\frac{k}{x+a}$, a graph of $\\frac{1}{y}$ against $x$2$y$2$x$2$y = 0.5$.",
+      "options": [
+        "6",
+        "1.2",
+        "2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{1}{y} = \\frac{x+a}{k} = \\frac{1}{k}x + \\frac{a}{k}$. Gradient $\\frac{1}{k} = 0.2 \\Rightarrow k = 5$. Intercept $\\frac{a}{5} = 0.8 \\Rightarrow a = 4$. Eq: $y = \\frac{5}{x+4}$. $0.5 = \\frac{5}{x+4} \\Rightarrow x+4=10 \\Rightarrow x=6$.\n\n**Common mistake:** Using the linear equation for $y$2$k$2$a$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q8",
+      "type": "mcq",
+      "question": "The variables $x$2$y$2$y = Ax^n + 4$. A straight line is obtained by plotting $\\lg(y-4)$ against $\\lg x$2$(2, 7)$ and $(4, 13)$, determine the law.",
+      "options": [
+        "$y = 10 x^3 + 4$",
+        "$y = 3x^2 + 4$",
+        "$y = 100 x^3 + 4$",
+        "$y = x^3 + 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg(y-4) = n \\lg x + \\lg A$2$n = \\frac{13-7}{4-2} = 3$. Intercept $\\lg A = 7 - 3(2) = 1 \\Rightarrow A = 10$. Thus $y - 4 = 10 x^3$.\n\n**Common mistake:** Attempting to take the log of $y$2$Ax^n + c$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q9",
+      "type": "mcq",
+      "question": "A graph of $\\frac{y}{x^2}$ against $\\frac{1}{x}$ is a straight line through $(1, 5)$ and $(3, 13)$. Express $y$2$x$.",
+      "options": [
+        "$y = 4x + x^2$",
+        "$y = 4x^2 + x$",
+        "$y = 4x^3 + x^2$",
+        "$y = 5x^2 + 4x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = \\frac{13-5}{3-1} = 4$. Intercept $c = 5 - 4(1) = 1$. $\\frac{y}{x^2} = 4(\\frac{1}{x}) + 1 \\Rightarrow y = 4x + x^2$.\n\n**Common mistake:** Failing to distribute $x^2$ to both the gradient and intercept terms when converting back to the original form."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q10",
+      "type": "mcq",
+      "question": "The variables $p$2$q$2$q = a p^b$2$\\ln q$2$\\ln p$2$q=4$ when $p=16$, find $a$.",
+      "options": [
+        "1",
+        "4",
+        "0.5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\ln q = b \\ln p + \\ln a$2$b = 0.5$. Substituting: $\\ln 4 = 0.5 \\ln 16 + \\ln a \\Rightarrow \\ln 4 = \\ln(16^{0.5}) + \\ln a \\Rightarrow \\ln 4 = \\ln 4 + \\ln a \\Rightarrow \\ln a = 0 \\Rightarrow a = 1$.\n\n**Common mistake:** Assuming $a$2$q$2$p=1$ without verifying the power relationship."
+    }
+  ]
+}

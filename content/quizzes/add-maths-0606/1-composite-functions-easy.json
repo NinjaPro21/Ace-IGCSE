@@ -1,0 +1,77 @@
+{
+  "id": "1-composite-functions-easy",
+  "topicId": "1-composite-functions",
+  "chapterId": "ch01-functions",
+  "difficulty": "easy",
+  "title": "Composite Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-composite-functions-easy-q1",
+      "type": "mcq",
+      "question": "Given f(x)=x+3 and g(x)=2x, find the value of fg(5).",
+      "options": [
+        "13",
+        "16",
+        "10",
+        "26"
+      ],
+      "correctIndex": 0,
+      "explanation": "g(5)=2(5)=10. Then f(10)=10+3=13.\n\n**Common mistake:** Evaluating in the wrong order (gf(5)) leads to g(8)=16."
+    },
+    {
+      "id": "1-composite-functions-easy-q2",
+      "type": "mcq",
+      "question": "If f(x)=3x−1, what does the notation $f^{2}$(x) represent?",
+      "options": [
+        "f(f(x))",
+        "(f(x))\n2",
+        "2f(x)",
+        "The inverse of f(x)"
+      ],
+      "correctIndex": 0,
+      "explanation": "In function notation, $f^{2}$(x) denotes the composition of f with itself, f(f(x)).\n\n**Common mistake:** Students often misinterpret the exponent as a power of the output value, squaring the entire function expression."
+    },
+    {
+      "id": "1-composite-functions-easy-q3",
+      "type": "mcq",
+      "question": "Find ff(2) for the function f(x)= x^{2}.",
+      "options": [
+        "16",
+        "4",
+        "8",
+        "64"
+      ],
+      "correctIndex": 0,
+      "explanation": "f(2)=4. Then f(4)= 4^{2}=16.\n\n**Common mistake:** Evaluating f(2) and multiplying it by 2 (4×2=8) or squaring the initial result twice incorrectly."
+    },
+    {
+      "id": "1-composite-functions-easy-q4",
+      "type": "mcq",
+      "question": "For f(x)=2x+1 and g(x)=x−4, find the expression for fg(x).",
+      "options": [
+        "2x−7",
+        "2x−3",
+        "2x−8",
+        "x−3"
+      ],
+      "correctIndex": 0,
+      "explanation": "fg(x)=f(x−4)=2(x−4)+1=2x−8+1=2x−7.\n\n**Common mistake:** Neglecting to distribute the 2 across the entire bracket (x−4) often results in 2x−4+1=2x−3."
+    },
+    {
+      "id": "1-composite-functions-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate gf(0) given f(x)=5x+2 and g(x)= x^{3}.",
+      "options": [
+        "8",
+        "2",
+        "10",
+        "125"
+      ],
+      "correctIndex": 0,
+      "explanation": "f(0)=2. Then g(2)= 2^{3}=8.\n\n**Common mistake:** Substituting 0 into g first and then into f, which would give f(0)=2."
+    }
+  ]
+}

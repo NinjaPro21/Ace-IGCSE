@@ -1,0 +1,77 @@
+{
+  "id": "1-9-calculator-medium",
+  "topicId": "1-9-calculator",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Calculator — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-9-calculator-medium-q1",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{\\sqrt{14.44}}{0.5^3}$ exactly using your calculator.",
+      "options": [
+        "30.4",
+        "7.6",
+        "15.2",
+        "3.8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the values of the components: $\\sqrt{14.44} = 3.8$ and $0.5^3 = 0.125$. Evaluating the $\\frac{tion}{}$ gives $3.8 / 0.125 = 30.4$.\n\n**Common mistake:** Students often multiply the base by the exponent ($0.5 \\times 3 = 1.5$), leading to incorrect values."
+    },
+    {
+      "id": "1-9-calculator-medium-q2",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{4.25}{\\sin(30^\\circ) + \\cos(60^\\circ)}$ using your calculator.",
+      "options": [
+        "4.25",
+        "8.5",
+        "2.125",
+        "4.91"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ensure your calculator is in degree mode. Evaluate the denominator: $\\sin(30^\\circ) = 0.5$ and $\\cos(60^\\circ) = 0.5$, so $0.5 + 0.5 = 1$. Thus, $4.25 / 1 = 4.25$.\n\n**Common mistake:** Calculators set to radian or gradian mode will generate entirely incorrect decimal outputs for trigonometric components."
+    },
+    {
+      "id": "1-9-calculator-medium-q3",
+      "type": "mcq",
+      "question": "Find the exact value of $\\frac{3.6 \\times 10^{5}}{1.2 \\times 10^{8}}$ using scientific calculator inputs.",
+      "options": [
+        "0.003",
+        "3000",
+        "0.03",
+        "0.0003"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perform the division directly using brackets or standard scientific buttons: $3.6 / 1.2 = 3$ and $10^{5} / 10^{8} = 10^{-3} = 0.003$.\n\n**Common mistake:** Leaving out brackets on the denominator can cause the calculator to multiply the entire expression by $10^{8}$ instead of dividing by it."
+    },
+    {
+      "id": "1-9-calculator-medium-q4",
+      "type": "mcq",
+      "question": "Use your calculator to evaluate $\\frac{4.5^2 - 1.5^2}{0.6}$, giving an exact integer output.",
+      "options": [
+        "30",
+        "18",
+        "27",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the numerator first: $4.5^2 - 1.5^2 = 20.25 - 2.25 = 18$. Then divide by $0.6$: $18 / 0.6 = 30$.\n\n**Common mistake:** Students frequently misorder calculations, evaluating $4.5^2 - (1.5^2 / 0.6)$ without proper structuring."
+    },
+    {
+      "id": "1-9-calculator-medium-q5",
+      "type": "mcq",
+      "question": "Evaluate $\\sqrt{\\frac{3.1 + 5.9}{0.1}}$ using your calculator.",
+      "options": [
+        "9.487",
+        "9",
+        "30",
+        "9.3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify inside the square root first: $(3.1 + 5.9) / 0.1 = 9 / 0.1 = 90$. Then evaluate the square root: $\\sqrt{90} \\approx 9.487$.\n\n**Common mistake:** Students often apply the radical symbol only to the numerator, calculating $\\frac{\\sqrt{9}}{0.1} = 30$."
+    }
+  ]
+}

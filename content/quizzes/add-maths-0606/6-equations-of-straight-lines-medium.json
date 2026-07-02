@@ -1,0 +1,77 @@
+{
+  "id": "6-equations-of-straight-lines-medium",
+  "topicId": "6-equations-of-straight-lines",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "medium",
+  "title": "Equations of Straight Lines — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-equations-of-straight-lines-medium-q1",
+      "type": "mcq",
+      "question": "Find the equation of the line passing through the points $(1, 4)$ and $(5, -8)$.",
+      "options": [
+        "$y = -3x + 7$",
+        "$y = 3x + 1$",
+        "$y = -3x - 1$",
+        "$y = -4x + 8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = (-8 - 4) / (5 - 1) = -12 / 4 = -3$. Using $y - 4 = -3(x - 1)$ gives $y = -3x + 7$.\n\n**Common mistake:** Calculating the gradient as $1/3$ or^3 by subtracting coordinates in the wrong order."
+    },
+    {
+      "id": "6-equations-of-straight-lines-medium-q2",
+      "type": "mcq",
+      "question": "The line $L$2$y - 3 = 2(x + 1)$. Express this equation in the form $ax + by + c = 0$.",
+      "options": [
+        "$2x - y + 5 = 0$",
+        "$2x - y - 5 = 0$",
+        "$2x + y + 1 = 0$",
+        "$x - 2y + 7 = 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand the equation: $y - 3 = 2x + 2$. Rearrange to get $2x - y + 5 = 0$.\n\n**Common mistake:** A sign error when moving the $-3$ to the other side, resulting in $2x - y - 1 = 0$."
+    },
+    {
+      "id": "6-equations-of-straight-lines-medium-q3",
+      "type": "mcq",
+      "question": "Find the coordinates of the point where the line $4x + 3y = 24$ crosses the $x$-axis.",
+      "options": [
+        "$(6, 0)$",
+        "$(0, 8)$",
+        "$(8, 0)$",
+        "$(0, 6)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $y = 0$ in the equation: $4x + 3(0) = 24$, which simplifies to $4x = 24$, so $x = 6$.\n\n**Common mistake:** Finding the $y$2$(0, 8)$ instead of the $x$-intercept requested."
+    },
+    {
+      "id": "6-equations-of-straight-lines-medium-q4",
+      "type": "mcq",
+      "question": "The point $P(k, 2k)$ lies on the line with equation $y = x + 5$. Determine the value of $k$.",
+      "options": [
+        "$5$",
+        "$-5$",
+        "$2.5$",
+        "$10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = k$2$y = 2k$2$2k = k + 5$. Solving for $k$2$k = 5$.\n\n**Common mistake:** A student might subtract $k$2$2k$, or misapply the substitution."
+    },
+    {
+      "id": "6-equations-of-straight-lines-medium-q5",
+      "type": "mcq",
+      "question": "Find the equation of the line that passes through the point $(6, 1)$ and has a gradient of $\\frac{2}{3}$.",
+      "options": [
+        "$2x - 3y = 9$",
+        "$3x - 2y = 16$",
+        "$2x + 3y = 15$",
+        "$y = \\frac{2}{3}x + 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$y - 1 = \\frac{2}{3}(x - 6) \\Rightarrow 3(y - 1) = 2(x - 6) \\Rightarrow 3y - 3 = 2x - 12 \\Rightarrow 2x - 3y = 9$.\n\n**Common mistake:** Failing to multiply all terms by 3 when clearing the $fraction$, or sign errors in expansion."
+    }
+  ]
+}

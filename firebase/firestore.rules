@@ -9,15 +9,68 @@ service cloud.firestore {
       return signedIn() && request.auth.uid == userId;
     }
 
+    function siteConfig() {
+      return exists(/databases/$(database)/documents/config/site)
+        ? get(/databases/$(database)/documents/config/site).data
+        : null;
+    }
+
+    function isAdmin() {
+      return signedIn()
+        && (
+          exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+          || (
+            siteConfig() != null
+            && request.auth.token.email != null
+            && request.auth.token.email in siteConfig().adminEmails
+          )
+        );
+    }
+
+    function myProfile() {
+      return get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data;
+    }
+
     function mySchoolId() {
-      return get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data.schoolId;
+      return myProfile().schoolId;
+    }
+
+    function sharesSchoolWithProfile() {
+      return signedIn()
+        && resource.data.schoolId != null
+        && resource.data.schoolId == mySchoolId();
+    }
+
+    function sharesClanWithProfile() {
+      return signedIn()
+        && resource.data.clanIds != null
+        && myProfile().clanIds != null
+        && resource.data.clanIds.hasAny(myProfile().clanIds);
+    }
+
+    function isFriend(userId) {
+      return signedIn()
+        && myProfile().friendIds != null
+        && myProfile().friendIds.hasAny([userId]);
+    }
+
+    match /admins/{userId} {
+      allow read: if signedIn() && request.auth.uid == userId;
+      allow write: if false;
+    }
+
+    match /config/site {
+      allow read: if signedIn();
+      allow write: if false;
     }
 
     match /profiles/{userId} {
       allow read: if isOwner(userId)
-        || (signedIn()
-            && resource.data.schoolId != null
-            && resource.data.schoolId == mySchoolId());
+        || sharesSchoolWithProfile()
+        || sharesClanWithProfile()
+        || isFriend(userId)
+        || resource.data.privacy == 'public'
+        || isAdmin();
       allow create, update: if isOwner(userId);
     }
 
@@ -33,6 +86,39 @@ service cloud.firestore {
     match /platformStats/summary {
       allow read: if signedIn();
       allow write: if signedIn();
+    }
+
+    match /friendRequests/{requestId} {
+      allow read: if signedIn()
+        && (resource.data.fromUid == request.auth.uid || resource.data.toUid == request.auth.uid);
+      allow create: if signedIn() && request.resource.data.fromUid == request.auth.uid;
+      allow update: if signedIn() && resource.data.toUid == request.auth.uid;
+    }
+
+    match /presence/{userId} {
+      allow read: if signedIn() && (isOwner(userId) || isFriend(userId));
+      allow write: if isOwner(userId);
+    }
+
+    match /studyRooms/{roomId} {
+      allow read: if signedIn();
+      allow create: if signedIn() && request.resource.data.createdBy == request.auth.uid;
+      allow update: if signedIn();
+    }
+
+    match /buddyStreaks/{pairId} {
+      allow read: if signedIn();
+      allow write: if signedIn();
+    }
+
+    match /duels/{duelId} {
+      allow read: if signedIn()
+        && (resource.data.challengerUid == request.auth.uid
+          || resource.data.opponentUid == request.auth.uid);
+      allow create: if signedIn() && request.resource.data.challengerUid == request.auth.uid;
+      allow update: if signedIn()
+        && (resource.data.challengerUid == request.auth.uid
+          || resource.data.opponentUid == request.auth.uid);
     }
   }
 }

@@ -1,0 +1,77 @@
+{
+  "id": "2-1-substitution-medium",
+  "topicId": "2-1-substitution",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Substitution — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-1-substitution-medium-q1",
+      "type": "mcq",
+      "question": "Find the value of $m$2$m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
+      "options": [
+        "$8.66$",
+        "$4.66$",
+        "$2$",
+        "$14$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the values: numerator becomes $4(5) - 3(-2) = 20 + 6 = 26$; denominator becomes $5 + (-2) = 3$. Thus, $m = \\frac{26}{3} \\approx 8.66$.\n\n**Common mistake:** Students often miscalculate the numerator as $20 - 6 = 14$ due to sign confusion, which yields $14/3 \\approx 4.66$."
+    },
+    {
+      "id": "2-1-substitution-medium-q2",
+      "type": "mcq",
+      "question": "Evaluate the formula $A = 2x^2 - 3x + 5$ when $x = -3$.",
+      "options": [
+        "$32$",
+        "$14$",
+        "$-4$",
+        "$20$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = -3$: $A = 2(-3)² - 3(-3) + 5 = 2(9) + 9 + 5 = 18 + 9 + 5 = 32$.\n\n**Common mistake:** A common mistake is evaluating $-3(-3)$ as $-9$, or squaring $-3$ to get $-9$, yielding an incorrect final outcome."
+    },
+    {
+      "id": "2-1-substitution-medium-q3",
+      "type": "mcq",
+      "question": "Given $S = \\frac{n}{2}(a + L)$, calculate $S$2$n = 12$, $a = -4$, and $L = 19$.",
+      "options": [
+        "$90$",
+        "$138$",
+        "$114$",
+        "$-138$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the values: $S = \\frac{12}{2}(-4 + 19) = 6(15) = 90$.\n\n**Common mistake:** Students might add the values inside brackets incorrectly as $23$, leading to $6 \\times 23 = 138$."
+    },
+    {
+      "id": "2-1-substitution-medium-q4",
+      "type": "mcq",
+      "question": "Given the compound interest model component $V = P(1 + r)²$, find $V$2$P = 500$ and $r = 0.04$.",
+      "options": [
+        "$540.8$",
+        "$540$",
+        "$504$",
+        "$580.8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the variables: $V = 500(1 + 0.04)² = 500(1.04)² = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$2$(1+r)²$ as $1 + r^2$, leading to incorrect values."
+    },
+    {
+      "id": "2-1-substitution-medium-q5",
+      "type": "mcq",
+      "question": "Find the value of $y = \\sqrt{b^2 - 4ac}$ when $a = 2$, $b = -7$, and $c = 3$.",
+      "options": [
+        "$5$",
+        "$\\sqrt{73}$",
+        "$1$",
+        "$\\sqrt{-25}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the numbers: $y = \\sqrt{(-7)² - 4(2)(3)} = \\sqrt{49 - 24} = \\sqrt{25} = 5$.\n\n**Common mistake:** Students often write $(-7)² = -49$, resulting in a negative square root error under the radical."
+    }
+  ]
+}

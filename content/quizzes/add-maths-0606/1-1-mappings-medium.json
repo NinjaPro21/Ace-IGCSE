@@ -1,0 +1,77 @@
+{
+  "id": "1-1-mappings-medium",
+  "topicId": "1-1-mappings",
+  "chapterId": "ch01-functions",
+  "difficulty": "medium",
+  "title": "Mappings — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-mappings-medium-q1",
+      "type": "mcq",
+      "question": "The mapping x$\\mapsto$2x+7 has the domain\n−3,0,3,6. Find the range of this mapping.",
+      "options": [
+        "1,7,13,19",
+        "−3,0,3,6",
+        "1,7,11,15",
+        "1,0,13,19"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculate each image: 2(−3)+7=1,2(0)+7=7,2(3)+7=13,2(6)+7=19.\n\n**Common mistake:** Arithmetic errors during the substitution of negative numbers often lead to the wrong first value in the set."
+    },
+    {
+      "id": "1-1-mappings-medium-q2",
+      "type": "mcq",
+      "question": "Determine the type of mapping for x$\\mapsto$∣x−4∣ when the domain is\n2,4,6.",
+      "options": [
+        "Many-to-one",
+        "One-to-one",
+        "One-to-many",
+        "Many-to-many"
+      ],
+      "correctIndex": 0,
+      "explanation": "∣2−4∣=2, ∣4−4∣=0, and ∣6−4∣=2. Since both 2 and 6 map to 2, it is many-to-one.\n\n**Common mistake:** Students may see the three unique inputs and assume it is one-to-one without calculating the outputs."
+    },
+    {
+      "id": "1-1-mappings-medium-q3",
+      "type": "mcq",
+      "question": "Given the mapping x$\\mapsto\n\n$$\\frac{1}{2x+1}$, find the object that results in an image of 3.$",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve 12/(x+1)=3. This gives 12=3(x+1), so 4=x+1, which means x=3.\n\n**Common mistake:** Substituting the image (3) into the formula instead of setting the formula equal to 3 leads to 12/(3+1)=3 by coincidence or 4."
+    },
+    {
+      "id": "1-1-mappings-medium-q4",
+      "type": "mcq",
+      "question": "Which of the following mapping types can never be classified as a function?",
+      "options": [
+        "One-to-many",
+        "One-to-one",
+        "Many-to-one",
+        "All mappings are functions"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, a function must map each input to exactly one output. A one-to-many mapping violates this.\n\n**Common mistake:** Confusion between the definition of a function and the criteria for an inverse to exist (one-to-one)."
+    },
+    {
+      "id": "1-1-mappings-medium-q5",
+      "type": "mcq",
+      "question": "State the range of the mapping x$\\mapsto$5−$x^{2}$ for the domain\n−1,0,1,2.",
+      "options": [
+        "1,4,5",
+        "4,5,1",
+        "6,5,4,1",
+        "4,5,4,1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Images: (−1)$\\mapsto$4,(0)$\\mapsto$5,(1)$\\mapsto$4,(2)$\\mapsto$1. The unique values in the range are\n1,4,5.\n\n**Common mistake:** Listing duplicate values (like 4) in the range set or failing to square negative numbers correctly."
+    }
+  ]
+}

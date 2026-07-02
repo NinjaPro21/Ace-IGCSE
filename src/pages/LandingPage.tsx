@@ -1,6 +1,9 @@
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightCard, EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightHeader } from '@/components/EnlightHeader'
+import { useMastery } from '@/features/mastery/MasteryContext'
+import { getContinueStudying } from '@/features/mastery/progressStats'
+import { useAuth } from '@/features/social/AuthContext'
 
 const FEATURES = [
   {
@@ -24,7 +27,7 @@ const HOW_IT_WORKS = [
   {
     step: '01',
     title: 'Study the Notes',
-    body: 'Spend at least 5 minutes on each topic section to earn XP. Quizzes open anytime — pass each tier to advance.',
+    body: 'Spend 5 minutes on notes to earn XP — or jump straight into Easy. Pass each tier to unlock the next.',
   },
   {
     step: '02',
@@ -46,6 +49,10 @@ const STATS = [
 ]
 
 export function LandingPage() {
+  const { progress } = useMastery()
+  const { user } = useAuth()
+  const continueStudying = getContinueStudying(progress)
+
   return (
     <div className="enlight-app">
       <EnlightHeader />
@@ -64,11 +71,19 @@ export function LandingPage() {
           and start understanding.
         </p>
         <div className="enlight-hero__actions">
-          <EnlightButton to="/subjects/add-maths-0606">Browse Add Maths →</EnlightButton>
-          <EnlightButton to="/progress" variant="outline">View progress</EnlightButton>
+          {continueStudying ? (
+            <EnlightButton to={continueStudying.topicPath}>
+              Continue: {continueStudying.topicTitle} →
+            </EnlightButton>
+          ) : (
+            <EnlightButton to="/subjects/add-maths-0606">Browse Add Maths →</EnlightButton>
+          )}
+          <EnlightButton to={user ? '/progress' : '/subjects/add-maths-0606'} variant="outline">
+            {user ? 'Dashboard' : 'Browse subjects'}
+          </EnlightButton>
         </div>
         <p className="enlight-hero__micro">
-          Sign in with Google to track XP, streaks, and class leaderboards.
+          Browse subjects free — sign in with Google to track XP, streaks, and leaderboards.
         </p>
       </section>
 

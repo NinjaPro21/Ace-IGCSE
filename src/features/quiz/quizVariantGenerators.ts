@@ -6,6 +6,39 @@ function mk(question: string, options: string[], correctIndex = 0, explanation?:
   return { question, options, correctIndex, explanation }
 }
 
+/** (ax² - bx + c)(dx - e), e > 0 → coefficient of x² */
+function coeffX2InExpansion(a: number, b: number, d: number, e: number): number {
+  return -a * e - b * d
+}
+
+function evalCubic(coeffs: readonly number[], x: number): number {
+  return coeffs[0] * x ** 3 + coeffs[1] * x ** 2 + coeffs[2] * x + coeffs[3]
+}
+
+function formatPolyTerm(coef: number, power: number, leading = false): string {
+  if (coef === 0) return ''
+  const abs = Math.abs(coef)
+  const varPart = power === 0 ? '' : power === 1 ? 'x' : `x^${power}`
+  const numPart = abs === 1 && power > 0 ? '' : String(abs)
+  if (leading) {
+    return coef < 0 ? `-${numPart}${varPart}` : `${numPart}${varPart}`
+  }
+  const sign = coef >= 0 ? ' + ' : ' - '
+  return `${sign}${numPart}${varPart}`
+}
+
+function formatCubicPoly(coeffs: readonly number[]): string {
+  let s = formatPolyTerm(coeffs[0], 3, true)
+  s += formatPolyTerm(coeffs[1], 2)
+  s += formatPolyTerm(coeffs[2], 1)
+  s += formatPolyTerm(coeffs[3], 0)
+  return s
+}
+
+function formatSignedConstant(n: number): string {
+  return n >= 0 ? String(n) : `- ${Math.abs(n)}`
+}
+
 function factorial(n: number): number {
   let f = 1
   for (let i = 2; i <= n; i++) f *= i
@@ -478,13 +511,16 @@ function tryGenerators(text: string): Variant[] {
 
   // remainder x - a
   if (text.includes('remainder') && /x - (\d+)/.test(text)) {
-    for (const a of [3, 1, 4, 2]) {
-      const coeffs = [2, -3, 4, -5]
-      const val =
-        coeffs[0] * a ** 3 + coeffs[1] * a ** 2 + coeffs[2] * a + coeffs[3]
+    for (const [a, coeffs] of [
+      [3, [2, -3, 4, -5]],
+      [1, [2, -3, 4, -5]],
+      [2, [1, -2, 3, -4]],
+      [4, [3, -1, 2, -6]],
+    ] as const) {
+      const val = evalCubic(coeffs, a)
       out.push(
         mk(
-          `Remainder when $P(x) = ${coeffs[0]}x^3 + ${coeffs[1]}x^2 + ${coeffs[2]}x + ${coeffs[3]}$ is divided by $x - ${a}$.`,
+          `Remainder when $P(x) = ${formatCubicPoly(coeffs)}$ is divided by $x - ${a}$.`,
           [String(val), String(-val), String(val + 2), String(val - 2)],
           0,
           `$P(${a}) = ${val}$.`,
@@ -494,21 +530,21 @@ function tryGenerators(text: string): Variant[] {
     return out
   }
 
-  // coefficient expansion (ax²+bx+c)(dx+e)
+  // coefficient expansion (ax²-bx+c)(dx-e)
   m = text.match(/coefficient of \$x\^2\$.*\((\d+)x\^2\s*-\s*(\d+)x\s*\+\s*(\d+)\)\((\d+)x\s*-\s*(\d+)\)/)
   if (m) {
     for (const [a, b, c, d, e] of [
-      [2, 1, 3, 3, -2],
-      [1, 2, 1, 2, -3],
-      [3, 1, 2, 1, -4],
+      [2, 1, 3, 3, 2],
+      [1, 2, 1, 2, 3],
+      [3, 1, 2, 1, 4],
     ] as const) {
-      const coef = a * e + b * d
+      const coef = coeffX2InExpansion(a, b, d, e)
       out.push(
         mk(
-          `Coefficient of $x^2$ in $( ${a}x^2 - ${b}x + ${c})(${d}x - ${e})$.`,
-          [String(coef), String(coef + 4), String(coef - 4), String(a * d)],
+          `Coefficient of $x^2$ in $(${a}x^2 - ${b}x + ${c})(${d}x - ${e})$.`,
+          [String(coef), String(coef + 4), String(coef - 4), String(-a * e)],
           0,
-          `$${a}x^2 \\cdot (${e}) + (-${b}x)(${d}x) = ${coef}x^2$.`,
+          `$${a}x^2 \\cdot (-${e}) + (-${b}x)(${d}x) = ${coef}x^2$.`,
         ),
       )
     }
@@ -523,13 +559,13 @@ function tryGenerators(text: string): Variant[] {
       [2, 3, 5, 10],
       [4, 1, 2, 8],
     ] as const) {
-      const prod = -d / a
+      const prod = d / a
       out.push(
         mk(
           `Product of roots of ${a}x^3 - ${b}x^2 + ${c}x - ${d} = 0$.`,
           [String(prod), String(-prod), String(d), String(-d)],
           0,
-          `$-\\frac{d}{a} = ${prod}$.`,
+          `With $d = -${d}$ in standard form, product $= -\\frac{d}{a} = ${prod}$.`,
         ),
       )
     }
@@ -570,7 +606,7 @@ function tryGenerators(text: string): Variant[] {
     ] as const) {
       out.push(
         mk(
-          `Turning point of $y = (x - ${h})² + ${k}$.`,
+          `Turning point of $y = (x - ${h})² + ${formatSignedConstant(k)}$.`,
           [
             `Minimum at $(${h}, ${k})$`,
             `Minimum at $(-${h}, ${k})$`,
@@ -712,19 +748,19 @@ function tryGenerators(text: string): Variant[] {
     ] as const) {
       const grad = 2 * px - b
       const intercept = py - grad * px
-      const sign = intercept >= 0 ? '+' : '-'
+      const interceptSign = intercept >= 0 ? '+' : '-'
       const absInt = Math.abs(intercept)
       out.push(
         mk(
           `Tangent to $y = x^2 - ${b}x + ${c}$ at $(${px}, ${py})$.`,
           [
-            `$y = ${grad}x ${sign === '+' ? '-' : '+'} ${absInt}$`,
+            `$y = ${grad}x ${interceptSign} ${absInt}$`,
             `$y = ${grad}x + ${absInt + 2}$`,
             `$y = ${grad * 2}x - ${absInt}$`,
             `$y = -${grad}x + ${py}$`,
           ],
           0,
-          `Gradient $m = ${grad}$.`,
+          `Gradient $m = ${grad}$, so $y = ${grad}x ${interceptSign} ${absInt}$.`,
         ),
       )
     }

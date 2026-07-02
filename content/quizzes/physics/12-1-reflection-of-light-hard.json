@@ -1,0 +1,77 @@
+{
+  "id": "12-1-reflection-of-light-hard",
+  "topicId": "12-1-reflection-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "hard",
+  "title": "Reflection of Light — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-1-reflection-of-light-hard-q1",
+      "type": "mcq",
+      "question": "An observer's eyes are $400\\text{ cm}$ from a plane mirror. A test card is placed $1300\\text{ cm}$ from the mirror, directly behind the observer. What is the distance from the observer's eyes to the image of the test card?",
+      "options": [
+        "$1700\\text{ cm}$",
+        "$900\\text{ cm}$",
+        "$1300\\text{ cm}$",
+        "$2600\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The image of the card is $1300\\text{ cm}$ behind the mirror. The eyes are $400\\text{ cm}$ in front of the mirror. The total distance is $400 + 1300 = 1700\\text{ cm}$. \n\n**Common mistake:** subtracting the distances to get $900\\text{ cm}$."
+    },
+    {
+      "id": "12-1-reflection-of-light-hard-q2",
+      "type": "mcq",
+      "question": "A student moves towards a plane mirror at a speed of $2.0\\text{ m/s}$. At what speed does the distance between the student and their image decrease?",
+      "options": [
+        "$4.0\\text{ m/s}$",
+        "$2.0\\text{ m/s}$",
+        "$1.0\\text{ m/s}$",
+        "$0\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the student moves $2.0\\text{ m/s}$ toward the mirror, the image also moves $2.0\\text{ m/s}$ toward the mirror from the other side. The relative speed of approach is $2.0 + 2.0 = 4.0\\text{ m/s}$. \n\n**Common mistake:** thinking the speed of approach is just the student's speed."
+    },
+    {
+      "id": "12-1-reflection-of-light-hard-q3",
+      "type": "mcq",
+      "question": "A bus driver looks into a $20\\text{ cm}$ wide plane mirror $50\\text{ cm}$ in front of him. If the rear of the bus is $500\\text{ cm}$ directly behind the mirror, calculate the width of his rear field of vision.",
+      "options": [
+        "$220\\text{ cm}$",
+        "$200\\text{ cm}$",
+        "$180\\text{ cm}$",
+        "$240\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using similar triangles, the ratio is $20/50 = 0.4$. The total distance from the eye to the rear of the bus is $50 + 500 = 550\\text{ cm}$. Field width $= 550 \\times 0.4 = 220\\text{ cm}$. \n\n**Common mistake:** failing to add the $50\\text{ cm}$ eye-to-mirror distance to the $500\\text{ cm}$ mirror-to-rear distance."
+    },
+    {
+      "id": "12-1-reflection-of-light-hard-q4",
+      "type": "mcq",
+      "question": "Which statement best explains the difference between reflection from a polished metal surface and from a sheet of white paper?",
+      "options": [
+        "Metal causes regular reflection; paper causes diffuse reflection due to its rough surface.",
+        "The Law of Reflection only applies to regular reflection on metal.",
+        "White paper does not follow the Law of Reflection because it absorbs all light.",
+        "Diffuse reflection occurs only when light is of a single colour."
+      ],
+      "correctIndex": 0,
+      "explanation": "A polished surface reflects rays in a single direction (regular), whereas a rough surface like paper scatters rays in many directions (diffuse). The Law of Reflection still applies to each individual ray. \n\n**Common mistake:** believing paper doesn't reflect light at all."
+    },
+    {
+      "id": "12-1-reflection-of-light-hard-q5",
+      "type": "mcq",
+      "question": "In a ray diagram for a plane mirror, which statement correctly describes the paths of the light rays?",
+      "options": [
+        "The virtual rays behind the mirror are represented by dotted lines.",
+        "Light rays actually originate from the image position behind the mirror.",
+        "The incident ray and the reflected ray are on the same side of the normal.",
+        "The image is always found where the real incident rays intersect."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since no light actually passes through the mirror, virtual rays are shown as dotted lines to indicate they are constructions. \n\n**Common mistake:** thinking light physically travels behind the mirror to the image position."
+    }
+  ]
+}

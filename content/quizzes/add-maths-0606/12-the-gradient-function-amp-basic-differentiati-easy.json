@@ -1,0 +1,272 @@
+{
+  "id": "12-the-gradient-function-amp-basic-differentiati-easy",
+  "topicId": "12-the-gradient-function-amp-basic-differentiati",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "easy",
+  "title": "The Gradient Function & Basic Differentiation Rules — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q1",
+      "type": "mcq",
+      "question": "Given the curve $y = x^7$, find the gradient function $\\frac{dy}{dx}$.",
+      "options": [
+        "$7x^6$",
+        "$x^6$",
+        "$7x^8$",
+        "$7x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Applying the power rule $\\frac{d}{dx}(x^n) = nx^{n-1}$ with $n=7$ gives $7x^{7-1} = 7x^6$.\n\n**Common mistake:** Option C is a common error where the student increases the power by 1 (integration) instead of decreasing it."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q2",
+      "type": "mcq",
+      "question": "Find the value of $f'(x)$ if $f(x) = 15$.",
+      "options": [
+        "$0$",
+        "$15$",
+        "$1$",
+        "$15x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of a constant is always zero because the gradient of a horizontal line is zero.\n\n**Common mistake:** Option B occurs if a student thinks the derivative of a constant is the constant itself, while Option D is the result of integration."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q3",
+      "type": "mcq",
+      "question": "Differentiate $y = 4x^3$ with respect to $x$.",
+      "options": [
+        "$12x^2$",
+        "$4x^2$",
+        "$12x^3$",
+        "$x^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the rule $\\frac{d}{dx}(ax^n) = anx^{n-1}$, we get $4 \\times 3x^{3-1} = 12x^2$.\n\n**Common mistake:** Option B results from failing to multiply the coefficient by the original power."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q4",
+      "type": "mcq",
+      "question": "What is the gradient of the straight line $y = 8x - 3$ at any point?",
+      "options": [
+        "$8$",
+        "$-3$",
+        "$8x$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a linear equation $y = mx + c$2$\\frac{dy}{dx}$ is the constant $m$2$m = 8$.\n\n**Common mistake:** Option B is the y-intercept, while Option C incorrectly keeps the variable $x$ in the gradient."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q5",
+      "type": "mcq",
+      "question": "Find the gradient function for $y = \\frac{1}{2}x^4$.",
+      "options": [
+        "$2x^3$",
+        "$4x^3$",
+        "$\\frac{1}{2}x^3$",
+        "$2x^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying the power by the coefficient: $4 \\times \\frac{1}{2}x^{4-1} = 2x^3$.\n\n**Common mistake:** Option B ignores the $fraction$ coefficient $1/2$ during differentiation."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q6",
+      "type": "mcq",
+      "question": "Given $y = (2x + 5)^3$, identify the most appropriate substitution for $u$ to apply the chain rule.",
+      "options": [
+        "u = 2x + 5",
+        "u = x³",
+        "u = 2x",
+        "u = (2x + 5)³"
+      ],
+      "correctIndex": 0,
+      "explanation": "To differentiate a composite function, we define the 'inner' function as u. Here, $u = 2x + 5$ makes the expression $y = u^3$.\n\n**Common mistake:** Selecting the entire expression as u, which does not simplify the differentiation process."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q7",
+      "type": "mcq",
+      "question": "Find $dy/dx$2$y = u^4$ and $u = 3x - 1$.",
+      "options": [
+        "12(3x - 1)³",
+        "4(3x - 1)³",
+        "12x³",
+        "3(3x - 1)⁴"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dy/du = 4u^3$ and $du/dx = 3$. By the chain rule, $dy/dx = 4(3x-1)³ \\times 3 = 12(3x-1)³$.\n\n**Common mistake:** Forgetting to multiply by the derivative of the inner function (3)."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q8",
+      "type": "mcq",
+      "question": "Differentiate $y = (x^2 + 1)^5$ with respect to x.",
+      "options": [
+        "10x(x^2 + 1)⁴",
+        "5(x^2 + 1)⁴",
+        "5(2x)⁴",
+        "x(x^2 + 1)⁴"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let $u = x^2 + 1$. $dy/dx = 5u⁴ \\times (2x) = 10x(x^2 + 1)⁴$.\n\n**Common mistake:** Neglecting the $2x$2$x^2+1$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q9",
+      "type": "mcq",
+      "question": "If $y = \\sqrt{u}$ and $u = 4x + 9$, find $dy/dx$.",
+      "options": [
+        "2 / \\sqrt{4x + 9}",
+        "1 / (2\\sqrt{4x + 9})",
+        "4 / \\sqrt{4x + 9}",
+        "2(4x + 9)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dy/du = 1/(2\\sqrt{u})$ and $du/dx = 4$. Product: $4 / (2\\sqrt{4x+9}) = 2 / \\sqrt{4x+9}$.\n\n**Common mistake:** Leaving the derivative of the square root as $1/2$ or forgetting the chain rule factor."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q10",
+      "type": "mcq",
+      "question": "Evaluate the derivative of $y = (1 - x)^6$ at $x = 0$.",
+      "options": [
+        "-6",
+        "6",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dy/dx = 6(1-x)⁵ \\times (-1) = -6(1-x)⁵$. At $x=0$, $-6(1)⁵ = -6$.\n\n**Common mistake:** Missing the negative sign from the derivative of $(1-x)$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q11",
+      "type": "mcq",
+      "question": "Given that $y = uv$2$u$2$v$2$x$2$\\frac{dy}{dx}$ according to the product rule.",
+      "options": [
+        "$u \\frac{dv}{dx} + v \\frac{du}{dx}$",
+        "$u \\frac{dv}{dx} - v \\frac{du}{dx}$",
+        "$\\frac{du}{dx} \\times \\frac{dv}{dx}$",
+        "$v \\frac{dv}{dx} + u \\frac{du}{dx}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The product rule states that the derivative of a product is the first function times the derivative of the second, plus the second function times the derivative of the first.\n\n**Common mistake:** Option C is a common conceptual error where students think they can simply multiply the individual derivatives together."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q12",
+      "type": "mcq",
+      "question": "Use the product rule to differentiate $y = x^4(x + 2)$.",
+      "options": [
+        "$5x^4 + 8x^3$",
+        "$4x^3$",
+        "$x^4 + 2$",
+        "$x^4 + 4x^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let $u = x^4$ and $v = x+2$. Then $\\frac{dy}{dx} = x^4(1) + (x+2)(4x^3) = x^4 + 4x^4 + 8x^3 = 5x^4 + 8x^3$.\n\n**Common mistake:** Option B occurs if the student only differentiates the first part of the product and ignores the second."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q13",
+      "type": "mcq",
+      "question": "Differentiate $f(x) = x \\cdot g(x)$ at the point where $x = 3$, given that $g(3) = 10$ and $g'(3) = 4$.",
+      "options": [
+        "$22$",
+        "$12$",
+        "$30$",
+        "$40$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f'(x) = x \\cdot g'(x) + g(x) \\cdot 1$. Substituting $x=3$: $f'(3) = 3(4) + 10(1) = 12 + 10 = 22$.\n\n**Common mistake:** Option B results from only calculating $x \\cdot g'(x)$ and forgetting the $g(x)$ term from the product rule."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q14",
+      "type": "mcq",
+      "question": "Find the derivative of $y = 5x^2(x - 3)$.",
+      "options": [
+        "$15x^2 - 30x$",
+        "$10x$",
+        "$5x^2 - 15x$",
+        "$10x^2 - 30x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the product rule: $5x^2(1) + (x-3)(10x) = 5x^2 + 10x^2 - 30x = 15x^2 - 30x$.\n\n**Common mistake:** Option D occurs if the student fails to sum the $x^2$ terms correctly after applying the rule."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q15",
+      "type": "mcq",
+      "question": "Differentiate $y = (x+1)\\sqrt{x}$ and find the value of $\\frac{dy}{dx}$ at $x=1$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$1.5$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = (x+1)(\\frac{1}{2\\sqrt{x}}) + \\sqrt{x}(1)$. At $x=1$, this is $(2)(\\frac{1}{2}) + 1 = 1 + 1 = 2$.\n\n**Common mistake:** Option C occurs if the student forgets to add the second part of the product rule ($\\sqrt{x} \\cdot 1$)."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q16",
+      "type": "mcq",
+      "question": "Which of the following is the correct formula for the quotient rule where $y = u/v$?",
+      "options": [
+        "(v u' - u v') / v^2",
+        "(u v' - v u') / v^2",
+        "(v u' + u v') / v^2",
+        "u' / v'"
+      ],
+      "correctIndex": 0,
+      "explanation": "The quotient rule requires the derivative of the numerator times the denominator, minus the numerator times the derivative of the denominator, all over the square of the denominator.\n\n**Common mistake:** Swapping the terms in the numerator, which leads to a sign error."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q17",
+      "type": "mcq",
+      "question": "Find $dy/dx$2$y = x / (x + 1)$.",
+      "options": [
+        "1 / (x + 1)$^2$",
+        "-1 / (x + 1)$^2$",
+        "1 / (x + 1)",
+        "(2x + 1) / (x + 1)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u = x, v = x+1. u' = 1, v' = 1. $\\frac{dy}{dx}$ = [(x+1)(1) - x(1)] / (x+1)$^2$ = 1 / (x+1)$^2$.\n\n**Common mistake:** Incorrectly simplifying the numerator to $x+1+x = 2x+1$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q18",
+      "type": "mcq",
+      "question": "Given $y = (2x - 3) / x$2$dy/dx$ using the quotient rule.",
+      "options": [
+        "3 / x^2",
+        "-3 / x^2",
+        "2 / x^2",
+        "(4x - 3) / x^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "u = 2x-3, v = x. u' = 2, v' = 1. $\\frac{dy}{dx}$ = [x(2) - (2x-3)(1)] / x^2 = [2x - 2x + 3] / x^2 = 3/x^2.\n\n**Common mistake:** Sign errors when subtracting the second term in the numerator, often resulting in $-3/x^2$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q19",
+      "type": "mcq",
+      "question": "Differentiate $y = 5 / (2x + 1)$ using the quotient rule.",
+      "options": [
+        "-10 / (2x + 1)$^2$",
+        "10 / (2x + 1)$^2$",
+        "-5 / (2x + 1)$^2$",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "u = 5, v = 2x+1. u' = 0, v' = 2. $\\frac{dy}{dx}$ = [(2x+1)(0) - 5(2)] / (2x+1)$^2$ = -10 / (2x+1)$^2$.\n\n**Common mistake:** Thinking the derivative is zero because the numerator is a constant."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-easy-q20",
+      "type": "mcq",
+      "question": "Evaluate the derivative of $y = x^2 / (x - 1)$ at $x = 0$.",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 2x, v' = 1. $\\frac{dy}{dx}$ = [(x-1)(2x) - x^2(1)] / (x-1)$^2$. At x=0, [(-1)(0) - 0] / (-1)$^2$ = 0.\n\n**Common mistake:** Assuming the derivative must be undefined because $x-1$ is in the denominator (this only happens at $x=1$)."
+    }
+  ]
+}

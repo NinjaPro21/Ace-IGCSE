@@ -1,0 +1,77 @@
+{
+  "id": "18-3-magnetic-effect-of-a-current-pyp",
+  "topicId": "18-3-magnetic-effect-of-a-current",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "pyp",
+  "title": "Magnetic Effect of a Current — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-3-magnetic-effect-of-a-current-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a solenoid connected to a d.c. power supply.n[Diagram: Coil with current flowing N-pole at left]nWhich row describes the magnetic field at the ends of the solenoid?",
+      "options": [
+        "Left end: North pole; Right end: South pole",
+        "Left end: South pole; Right end: North pole",
+        "Left end: North pole; Right end: North pole",
+        "Both ends are South poles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the right-hand grip rule for solenoids, the direction of current in the coils determines the North and South poles at the ends.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-pyp-q2",
+      "type": "mcq",
+      "question": "A student builds a magnetic relay using a coil, a magnet (M), an armature (L), and a stopper (S). Which combination of materials is best for M, L, and S?n(Relay diagram shown in Figure 15.20)",
+      "options": [
+        "M: Iron; L: Iron; S: Rubber",
+        "M: Iron; L: Copper; S: Rubber",
+        "M: Plastic; L: Iron; S: Rubber",
+        "M: Iron; L: Iron; S: Iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Let's Review Section A Q3, M and L should be iron (magnetically soft) to allow for switching, and S should be rubber to cushion the impact.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-pyp-q3",
+      "type": "mcq",
+      "question": "Which factor does NOT affect the strength of the magnetic field around a straight current-carrying wire?",
+      "options": [
+        "The thickness of the insulation on the wire",
+        "The magnitude of the current",
+        "The distance from the wire",
+        "The medium surrounding the wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field strength depends on current and distance. Insulation thickness does not change the magnetic effect of the current inside the conductor.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-pyp-q4",
+      "type": "mcq",
+      "question": "A plotting compass is placed near a wire carrying a large direct current. The compass needle points in a specific direction. What happens when the current is increased?",
+      "options": [
+        "The needle points more firmly in the same direction",
+        "The needle reverses direction",
+        "The needle begins to spin rapidly",
+        "The needle points toward the wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the current increases the strength of the magnetic field, which exerts a stronger force to align the compass needle, but it does not change the field's direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-3-magnetic-effect-of-a-current-pyp-q5",
+      "type": "mcq",
+      "question": "The diagram shows a cross-section of a wire with current flowing 'into the page' ($otimes$). Which diagram correctly shows the magnetic field lines?n[A: Clockwise circles; B: Anticlockwise circles; C: Radial lines out; D: Radial lines in]",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the right-hand grip rule: point your thumb into the page (direction of current). Your fingers curl clockwise, representing the magnetic field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

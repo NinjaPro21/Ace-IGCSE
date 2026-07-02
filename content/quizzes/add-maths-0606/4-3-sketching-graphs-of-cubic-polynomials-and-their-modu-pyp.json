@@ -1,0 +1,77 @@
+{
+  "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp",
+  "topicId": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "pyp",
+  "title": "Sketching Graphs of Cubic Polynomials and their Moduli — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q1",
+      "type": "mcq",
+      "question": "Sketch the graph of $y = |(x+2)(x-1)(x-4)|$. State the coordinates of the $y$2$x$-intercepts.",
+      "options": [
+        "$y$2$x$-ints: -2, 1, 4",
+        "$y$2$x$-ints: -2, 1, 4",
+        "$y$2$x$-ints: 2, -1, -4",
+        "$y$2$x$-ints: -2, 1, 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x-ints from factors are -2, 1, 4$. $2y$2$|(2)(-1)(-4)| = 8$.\n\n**Common mistake:** Mixing up the signs of the roots derived from the linear factors."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q2",
+      "type": "mcq",
+      "question": "The function $f$2$f(x) = x^3 - 9x$2$y = f(x)$ and $y = |f(x)|$.",
+      "options": [
+        "Reflect the graph between $x = -3$ and $x = 0$, and for $x > 3$ (Incorrect logic). Correct: Reflect for $x < -3$ and $0 < x < 3$.",
+        "Reflect the entire graph across the y-axis.",
+        "Shift the entire graph up by 9 units.",
+        "Reflect the portions where the graph is below the x-axis."
+      ],
+      "correctIndex": 3,
+      "explanation": "The sketch for $y=|f(x)|$ is obtained by reflecting the parts of $y=f(x)$ that lie below the $x$-axis.\n\n**Common mistake:** Failing to identify the specific intervals where the cubic function is negative."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q3",
+      "type": "mcq",
+      "question": "Find the set of values of $x$2$|x(x-3)^2| = 0$.",
+      "options": [
+        "0 and 3",
+        "0, 3, and -3",
+        "0 only",
+        "All $x \\ge 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The roots of the expression are 0 and 3 (repeated). These are the only values where the modulus is zero.\n\n**Common mistake:** Missing the repeated root or assuming 3 results in a non-zero value because it's squared."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q4",
+      "type": "mcq",
+      "question": "The graph of $y = |x^3 + 1|$ is drawn. At what point does the graph have a sharp 'V-style' turn (vertex)?",
+      "options": [
+        "(-1, 0)",
+        "(1, 0)",
+        "(0, 1)",
+        "(-1, 1)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The graph of $x^3+1$ crosses the axis at $x=-1$. The modulus causes a sharp reflection at this point.\n\n**Common mistake:** Identifying the $y$-intercept (0, 1) as the point of reflection."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q5",
+      "type": "mcq",
+      "question": "How many local minimum points does the graph of $y = |(x+1)(x-2)(x-5)|$ have?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The three $x$2$y=0$.\n\n**Common mistake:** Only counting the turning points between the roots and forgetting the intercepts themselves are now local minima."
+    }
+  ]
+}

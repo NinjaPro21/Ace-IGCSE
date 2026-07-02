@@ -24,15 +24,9 @@ Split $|f(x)| = g(x)$ into $f(x) = g(x)$ and $-f(x) = g(x)$, then reject any sol
 
 ## Worked example — Two valid solutions
 
-Solve $|2x - 3| = x + 1$.
+Solve $|2x - 3| = x + 1$. Case 1: $2x - 3 = x + 1 \implies x = 4$. Case 2: $-(2x - 3) = x + 1 \implies x = \frac{2}{3}$.
 
-Case 1: $2x - 3 = x + 1 \implies x = 4$.
-
-Case 2: $-(2x - 3) = x + 1 \implies x = \frac{2}{3}$.
-
-Check $x = 4$: $|5| = 5$ and $4 + 1 = 5$ ✓. Check $x = \frac{2}{3}$: both sides equal $\frac{5}{3}$ ✓.
-
-Solutions: $x = 4$ or $x = \frac{2}{3}$.
+Check $x = 4$: $|5| = 5$ and $4 + 1 = 5$ ✓. Check $x = \frac{2}{3}$: both sides equal $\frac{5}{3}$ ✓. Solutions: $x = 4$ or $x = \frac{2}{3}$.
 
 ## Worked example — Rejecting extraneous roots
 
@@ -40,9 +34,9 @@ Solve $|x - 1| = 2x$.
 
 Case 1: $x - 1 = 2x \implies x = -1$. Check: $|{-1} - 1| = 2$ but $2(-1) = -2$ — **reject**.
 
-Case 2: $-(x - 1) = 2x \implies x = \frac{1}{3}$. Check: $|{-\frac{2}{3}}| = \frac{2}{3}$ and $2(\frac{1}{3}) = \frac{2}{3}$ ✓.
+Case 2: $-(x - 1) = 2x \implies x = \frac{1}{3}$. Check: $|{-\frac{2}{3}}| = \frac{2}{3}$ and $2(\frac{1}{3}) = \frac{2}{3}$ ✓. Only
 
-Only solution: $x = \frac{1}{3}$.
+$x = \frac{1}{3}$.
 
 ## Examiner tip
 
@@ -50,8 +44,4 @@ Many students lose half the marks on modulus questions because they forget to te
 
 ## Quick check
 
-If a calculated solution yields an value where g(x)&lt;0, then that solution must be crossed out as extraneous.
-
-## Visual / interactive intent
-
-Reuse explorer — Discriminant/modulus slider. Displays a split screen with a live line graph interacting with a modulus V-shape graph. Sliders change the slope of g(x), showing how intersections vanish or appear, while flashing warnings when intersection math drops below the horizontal axis.
+If a calculated solution yields an value where g(x)<0, then that solution must be crossed out as extraneous.

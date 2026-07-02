@@ -1,0 +1,77 @@
+{
+  "id": "12-6-small-increments-and-approximations-medium",
+  "topicId": "12-6-small-increments-and-approximations",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "medium",
+  "title": "Small Increments and Approximations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-6-small-increments-and-approximations-medium-q1",
+      "type": "mcq",
+      "question": "Given $y = \\sqrt{x}$, use calculus to find the approximate change in $y$2$x$ increases from 100 to 101.",
+      "options": [
+        "0.05",
+        "0.5",
+        "1",
+        "0.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 1 / (2√x). At x=100, $\\frac{dy}{dx}$ = 1/20 = 0.05. δx = 1. δy ≈ 0.05(1) = 0.05.\n\n**Common mistake:** Using 1/√x for the derivative or miscalculating 1/20 as 0.5."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-medium-q2",
+      "type": "mcq",
+      "question": "The volume of a cube is $V = x^3$. Find the approximate percentage increase in $V$2$x$ increases by 1%.",
+      "options": [
+        "3%",
+        "1%",
+        "1.03%",
+        "6%"
+      ],
+      "correctIndex": 0,
+      "explanation": "dV/dx = 3x^2. δV ≈ 3x^2 δx. Percentage change in V = (δV/V) × 100 = (3x^2 δx / x³) × 100 = 3(δx/x) × 100 = 3(1%) = 3%.\n\n**Common mistake:** Thinking the increase is 1%³ or simply 1%."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-medium-q3",
+      "type": "mcq",
+      "question": "If $y = 1/x$2$y$2$x$ increases from 2 to 2.04.",
+      "options": [
+        "-0.01",
+        "0.01",
+        "-0.04",
+        "-0.25"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = -1/x^2. At x=2, $\\frac{dy}{dx}$ = -1/4 = -0.25. δx = 0.04. δy ≈ -0.25(0.04) = -0.01.\n\n**Common mistake:** Missing the negative sign, which indicates that $y$2$x$ increases for this function."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-medium-q4",
+      "type": "mcq",
+      "question": "Given $y = x^2 + 4x$2$y$2$x$2$3+p$2$p$ is small.",
+      "options": [
+        "10p",
+        "6p",
+        "(2x+4)p",
+        "3p"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 2x + 4. At x=3, $\\frac{dy}{dx}$ = 10. δx = p. δy ≈ 10p.\n\n**Common mistake:** Leaving the derivative in terms of $x$ rather than substituting the initial value."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-medium-q5",
+      "type": "mcq",
+      "question": "The radius of a circle increases from 10 cm to 10.1 cm. Find the approximate increase in the circumference $C = 2\\pi r$.",
+      "options": [
+        "0.2π cm",
+        "0.1π cm",
+        "2π cm",
+        "20.2π cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "dC/dr = 2\\pi. δr = 0.1. δC ≈ 2\\pi(0.1) = 0.2\\pi.\n\n**Common mistake:** Using the area formula ($\\pi r^2$) instead of the circumference formula."
+    }
+  ]
+}

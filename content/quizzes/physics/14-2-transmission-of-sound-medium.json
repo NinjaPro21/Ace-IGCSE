@@ -1,0 +1,77 @@
+{
+  "id": "14-2-transmission-of-sound-medium",
+  "topicId": "14-2-transmission-of-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "medium",
+  "title": "Transmission of Sound — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-transmission-of-sound-medium-q1",
+      "type": "mcq",
+      "question": "A woman standing $1.00\\text{ km}$ away from a storm hears thunder $3.0\\text{ s}$ after seeing the lightning. Calculate the speed of sound in air.",
+      "options": [
+        "$333\\text{ m/s}$",
+        "$300\\text{ m/s}$",
+        "$0.33\\text{ m/s}$",
+        "$3000\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $\\text{speed} = \\text{distance} / \\text{time} = 1000\\text{ m} / 3.0\\text{ s} \\approx 333\\text{ m/s}$. \n\n**Common mistake:** Failing to convert the distance from $1.00\\text{ km}$ to $1000\\text{ m}$."
+    },
+    {
+      "id": "14-2-transmission-of-sound-medium-q2",
+      "type": "mcq",
+      "question": "How long does it take for a sound signal to travel $750\\text{ m}$ through water if the speed of sound in water is $1500\\text{ m/s}$?",
+      "options": [
+        "$0.5\\text{ s}$",
+        "$2.0\\text{ s}$",
+        "$112.5\\text{ s}$",
+        "$1.5\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\text{Time} = \\text{distance} / \\text{speed} = 750 / 1500 = 0.5\\text{ s}$. \n\n**Common mistake:** Multiplying speed and distance instead of dividing."
+    },
+    {
+      "id": "14-2-transmission-of-sound-medium-q3",
+      "type": "mcq",
+      "question": "$Based on the information in Table 14.2, which substance allows sound to travel approximately 15 \\times faster than in air?$",
+      "options": [
+        "Iron",
+        "Lead",
+        "Oxygen",
+        "Water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed in iron is $5000\\text{ m/s}$ and in air is $330\\text{ m/s}$. $5000 / 330 \\approx 15.15$. \n\n$**Common mistake:** Selecting lead, which is only about 3.6 \\times faster than air.$"
+    },
+    {
+      "id": "14-2-transmission-of-sound-medium-q4",
+      "type": "mcq",
+      "question": "Calculate the distance sound travels through a steel track in $0.10\\text{ s}$ if the speed of sound in steel is $5000\\text{ m/s}$.",
+      "options": [
+        "$500\\text{ m}$",
+        "$50000\\text{ m}$",
+        "$50\\text{ m}$",
+        "$5000\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\text{Distance} = \\text{speed} \\times \\text{time} = 5000 \\times 0.10 = 500\\text{ m}$. \n\n**Common mistake:** Dividing the speed by time, which would result in $50000$."
+    },
+    {
+      "id": "14-2-transmission-of-sound-medium-q5",
+      "type": "mcq",
+      "question": "Arrange the following regions in order of increasing speed of sound: Water, Oxygen, Lead.",
+      "options": [
+        "Oxygen, Water, Lead",
+        "Oxygen, Lead, Water",
+        "Lead, Oxygen, Water",
+        "Water, Lead, Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen is a gas ($320\\text{ m/s}$), lead is a solid ($1200\\text{ m/s}$), and water is a liquid ($1500\\text{ m/s}$ according to Example 14A). \n\n**Common mistake:** Ranking lead faster than water because lead is a solid (though lead is an exception to the general rule)."
+    }
+  ]
+}

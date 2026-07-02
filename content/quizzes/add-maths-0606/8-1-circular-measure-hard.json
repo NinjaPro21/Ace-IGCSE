@@ -1,0 +1,77 @@
+{
+  "id": "8-1-circular-measure-hard",
+  "topicId": "8-1-circular-measure",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "hard",
+  "title": "Circular Measure — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-1-circular-measure-hard-q1",
+      "type": "mcq",
+      "question": "The angles of a quadrilateral are in the ratio $2:3:4:6$. Find the largest angle in radians.",
+      "options": [
+        "$\\frac{4\\pi}{5}$",
+        "$\\frac{6\\pi}{5}$",
+        "$\\frac{3\\pi}{5}$",
+        "$\\frac{2\\pi}{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total parts $= 15$. Largest part $= 6/15$. Sum of angles $= 2\\pi$2$= \\frac{6}{15} \\times 2\\pi = \\frac{2}{5} \\times 2\\pi = \\frac{4\\pi}{5}$.\n\n**Common mistake:** Using $\\pi$2$2\\pi$ (sum of quadrilateral) for the calculation."
+    },
+    {
+      "id": "8-1-circular-measure-hard-q2",
+      "type": "mcq",
+      "question": "Calculate the exterior angle of a regular decagon (10 sides) in radians.",
+      "options": [
+        "$\\frac{\\pi}{5}$",
+        "$\\frac{\\pi}{10}$",
+        "$\\frac{2\\pi}{5}$",
+        "$\\frac{4\\pi}{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum of exterior angles is $2\\pi$2$\\frac{2\\pi}{10} = \\frac{\\pi}{5}$.\n\n**Common mistake:** Calculating the interior angle ($4\\pi/5$) or dividing $\\pi$2$2\\pi$."
+    },
+    {
+      "id": "8-1-circular-measure-hard-q3",
+      "type": "mcq",
+      "question": "A wheel rotates at a rate of 15 revolutions per minute. Find the angle it turns through in 4 seconds, in radians.",
+      "options": [
+        "$2\\pi$",
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$4\\pi$"
+      ],
+      "correctIndex": 0,
+      "explanation": "15 revs/min $= 0.25$ revs/sec. In 4 seconds, it does $0.25 \\times 4 = 1$ revolution. 1 revolution $= 2\\pi$ radians.\n\n**Common mistake:** Failing to convert minutes to seconds correctly, or using $\\pi$ for a full revolution."
+    },
+    {
+      "id": "8-1-circular-measure-hard-q4",
+      "type": "mcq",
+      "question": "Given a right-angled triangle where one acute angle is $\\frac{\\pi}{8}$ radians, find the other acute angle in radians.",
+      "options": [
+        "$\\frac{3\\pi}{8}$",
+        "$\\frac{7\\pi}{8}$",
+        "$\\frac{5\\pi}{8}$",
+        "$\\frac{\\pi}{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acute angles in a right-angled triangle sum to $\\frac{\\pi}{2}$. Other angle $= \\frac{\\pi}{2} - \\frac{\\pi}{8} = \\frac{4\\pi}{8} - \\frac{\\pi}{8} = \\frac{3\\pi}{8}$.\n\n**Common mistake:** Subtracting from $\\pi$2$90^\\circ$2$\\pi/2$) angle."
+    },
+    {
+      "id": "8-1-circular-measure-hard-q5",
+      "type": "mcq",
+      "question": "An angle $\\theta$2$\\sin \\theta = 0.5$ and $\\frac{\\pi}{2} < \\theta < \\pi$2$\\theta$ in radians.",
+      "options": [
+        "$\\frac{5\\pi}{6}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{3\\pi}{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reference angle is $\\frac{\\pi}{6}$ (where $\\sin = 0.5$). In the second quadrant, $\\theta = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$.\n\n**Common mistake:** Providing the first quadrant angle ($\\pi/6$) and ignoring the range constraint."
+    }
+  ]
+}

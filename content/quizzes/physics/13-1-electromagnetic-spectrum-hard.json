@@ -1,0 +1,77 @@
+{
+  "id": "13-1-electromagnetic-spectrum-hard",
+  "topicId": "13-1-electromagnetic-spectrum",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "hard",
+  "title": "Electromagnetic Spectrum — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-electromagnetic-spectrum-hard-q1",
+      "type": "mcq",
+      "question": "The Sun is $150$ million kilometres from the Earth. Calculate the time taken for light to travel this distance.",
+      "options": [
+        "$500\\text{ s}$",
+        "$50\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$5000\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance $s = 150 \\times 10^{6}\\text{ km} = 1.5 \\times 10^{11}\\text{ m}$. Speed $v = 3.0 \\times 10^{8}\\text{ m/s}$. Time $t = s/v = (1.5 \\times 10^{11}) / (3.0 \\times 10^{8}) = 500\\text{ s}$. \n\n**Common mistake:** Forgetting to convert kilometres to metres, leading to $0.5\\text{ s}$."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-hard-q2",
+      "type": "mcq",
+      "question": "Calculate the frequency of an ultraviolet wave that has a wavelength of $1.5 \\times 10^{-8}\\text{ m}$ in a vacuum.",
+      "options": [
+        "$2.0 \\times 10^{16}\\text{ Hz}$",
+        "$4.5 \\times 10^{0}\\text{ Hz}$",
+        "$2.0 \\times 10^{14}\\text{ Hz}$",
+        "$5.0 \\times 10^{-17}\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = v/\\lambda = (3.0 \\times 10^{8}) / (1.5 \\times 10^{-8}) = 2.0 \\times 10^{16}\\text{ Hz}$. \n\n**Common mistake:** Multiplying the speed and wavelength instead of dividing."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-hard-q3",
+      "type": "mcq",
+      "question": "In terms of the properties of the electromagnetic spectrum, which statement is true about the energy of the waves?",
+      "options": [
+        "Waves with higher frequencies carry more energy",
+        "Waves with longer wavelengths carry more energy",
+        "All waves in the spectrum carry the same amount of energy",
+        "Energy is independent of frequency and wavelength"
+      ],
+      "correctIndex": 0,
+      "explanation": "While not explicitly detailed in the spectrum map, higher frequency waves (like Gamma) are associated with higher energy and more potential for damage. \n\n**Common mistake:** Thinking radio waves carry the most energy because they travel the furthest."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-hard-q4",
+      "type": "mcq",
+      "question": "A signal is sent from a ground station to a geostationary satellite at an altitude of $36000\\text{ km}$. How long does it take for the signal to reach the satellite and return to Earth?",
+      "options": [
+        "$0.24\\text{ s}$",
+        "$0.12\\text{ s}$",
+        "$2.4\\text{ s}$",
+        "$1.2\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance $= 2 \\times 36000\\text{ km} = 72000\\text{ km} = 7.2 \\times 10^{7}\\text{ m}$. $t = s/v = (7.2 \\times 10^{7}) / (3.0 \\times 10^{8}) = 0.24\\text{ s}$. \n\n**Common mistake:** Calculating the one-way trip ($0.12\\text{ s}$) only."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-hard-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the transition from Microwaves to X-rays?",
+      "options": [
+        "Frequency: Increases; Wavelength: Decreases; Speed in Vacuum: Constant",
+        "Frequency: Decreases; Wavelength: Increases; Speed in Vacuum: Constant",
+        "Frequency: Increases; Wavelength: Increases; Speed in Vacuum: Increases",
+        "Frequency: Decreases; Wavelength: Decreases; Speed in Vacuum: Decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moving from Microwaves toward X-rays involves moving towards the high-frequency/short-wavelength end of the spectrum, while speed remain unchanged. \n\n**Common mistake:** Thinking speed increases with frequency."
+    }
+  ]
+}

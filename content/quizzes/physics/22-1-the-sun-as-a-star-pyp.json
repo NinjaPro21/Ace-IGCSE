@@ -1,0 +1,77 @@
+{
+  "id": "22-1-the-sun-as-a-star-pyp",
+  "topicId": "22-1-the-sun-as-a-star",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "pyp",
+  "title": "The Sun as a Star — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "22-1-the-sun-as-a-star-pyp-q1",
+      "type": "mcq",
+      "question": "A student lists four energy resources: n1. Nuclear energyn2. Geothermal energyn3. Solar energyn4. Tidal energynnWhich of these resources does NOT have the Sun as its source?",
+      "options": [
+        "1, 2, and 4 only",
+        "1 and 3 only",
+        "2 and 4 only",
+        "All of them"
+      ],
+      "correctIndex": 0,
+      "explanation": "This follows the 'odd one out' logic from the Review questions. Geothermal, nuclear, and tidal are the specific exceptions mentioned as not originating from the Sun.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-pyp-q2",
+      "type": "mcq",
+      "question": "Light from the Sun takes $8$ minutes and $20$ seconds to reach Earth. What is the approximate distance from the Sun to the Earth? (Speed of light $= 3.0 \\times 10^{8}$ m/s)",
+      "options": [
+        "$1.5 \\times 10^{8} \\text{ km}$",
+        "$1.5 \\times 10^{8} \\text{ m}$",
+        "$3.0 \\times 10^{8} \\text{ km}$",
+        "$1.5 \\times 10^{12} \\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$8 \\text{ min } 20 \\text{ s} = 500 \\text{ s}$. Distance $= v \\times t = (3.0 \\times 10^{8}) \\times 500 = 1.5 \\times 10^{11} \\text{ m} = 1.5 \\times 10^{8} \\text{ km}$. \n\n**Common mistake:** Choosing the value in metres without checking the units."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-pyp-q3",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the Sun's fuel and the process that releases its energy?",
+      "options": [
+        "Fuel: Hydrogen; Process: Fusion",
+        "Fuel: Helium; Process: Fission",
+        "Fuel: Hydrogen; Process: Fission",
+        "Fuel: Uranium; Process: Fusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stars like the Sun fuse hydrogen into helium. \n\n**Common mistake:** Swapping fusion and fission or choosing Uranium, which is the fuel for Earth's power plants."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-pyp-q4",
+      "type": "mcq",
+      "question": "In a nuclear fusion reaction in the Sun, the total mass of the products is $M_p$ and the total mass of the reactants is $M_r$. Which statement is correct?",
+      "options": [
+        "$M_r > M_p$",
+        "$M_r < M_p$",
+        "$M_r = M_p$",
+        "$M_r = 2M_p$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy release requires the initial mass (reactants) to be greater than the final mass (products). The difference is converted to energy. \n\n**Common mistake:** Thinking mass is conserved exactly in nuclear reactions."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-pyp-q5",
+      "type": "mcq",
+      "question": "The Sun's diameter is about $100$ \\times that of the Earth. What can be concluded about the Sun's gravitational field compared to the Earth's?",
+      "options": [
+        "It is much stronger due to the Sun's massive size",
+        "It is the same because they are in the same system",
+        "It is weaker because the Sun is made of gas",
+        "It only acts on the Sun's surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the Sun's massive size produces a strong gravitational field. \n\n**Common mistake:** Thinking gaseous bodies have weaker gravity than solid ones regardless of mass."
+    }
+  ]
+}

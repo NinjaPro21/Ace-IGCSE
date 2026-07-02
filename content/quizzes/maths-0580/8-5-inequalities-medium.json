@@ -1,0 +1,77 @@
+{
+  "id": "8-5-inequalities-medium",
+  "topicId": "8-5-inequalities",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Inequalities — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Solve the inequality **$3x - 4 \\le 5$**.",
+      "options": [
+        "$x \\le 3$",
+        "$x \\le 9$",
+        "$x \\ge 3$",
+        "$x < 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, add 4 to both sides: $3x \\le 9$. Then divide by 3: $x \\le 3$.\n\n**Common mistake:** Failing to divide the final result by the coefficient of $x$.",
+      "id": "8-5-inequalities-medium-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Determine the solution for the three-part inequality **$3 < x + 2 < 6$**.",
+      "options": [
+        "$1 < x < 4$",
+        "$3 < x < 4$",
+        "$1 < x < 8$",
+        "$5 < x < 8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To solve this, subtract 2 from all three parts of the inequality: $3 - 2 < x < 6 - 2$, which gives $1 < x < 4$.\n\n**Common mistake:** Only subtracting 2 from one side of the inequality while leaving the other side unchanged.",
+      "id": "8-5-inequalities-medium-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "List the members of the set **$b$2$b - 1 \\ge 6$** and **$b$ is a prime number less than 20**.",
+      "options": [
+        "{7, 11, 13, 17, 19}",
+        "{11, 13, 17, 19}",
+        "{7, 11, 13, 17}",
+        "{8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving gives $b \\ge 7$. The prime numbers starting from 7 up to 20 are 7, 11, 13, 17, 19.\n\n**Common mistake:** Excluding the number 7 or including non-prime odd numbers like 9 and 15.",
+      "id": "8-5-inequalities-medium-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "Describe the region left unshaded on a graph by the set of points satisfying **$x \\ge 0$, $y \\ge 0$, and $x + y \\le 7$**.",
+      "options": [
+        "A triangular region bounded by the axes and the line $x+y=7$",
+        "A rectangular region in the first quadrant",
+        "A circular region around the origin",
+        "A single line passing through (7,7)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The inequalities $x \\ge 0$ and $y \\ge 0 restrict the region to the first quadrant$2$2x + y \\le 7$ places a diagonal limit, forming a triangle with vertices at (0,0), (7,0), and (0,7).\n\n**Common mistake:** Shading the wanted region instead of the unwanted region, which is the convention in these sources.",
+      "id": "8-5-inequalities-medium-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Solve the inequality **$4 - x > 6 - 2x$**.",
+      "options": [
+        "$x > 2$",
+        "$x < 2$",
+        "$x > -2$",
+        "$x < 10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add $2x$2$4 + x > 6$. Then subtract 4 from both sides: $x > 2$.\n\n**Common mistake:** Incorrectly combining terms or reversing the inequality symbol without dividing by a negative.",
+      "id": "8-5-inequalities-medium-q5"
+    }
+  ]
+}

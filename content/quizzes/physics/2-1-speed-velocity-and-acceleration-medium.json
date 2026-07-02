@@ -1,0 +1,77 @@
+{
+  "id": "2-1-speed-velocity-and-acceleration-medium",
+  "topicId": "2-1-speed-velocity-and-acceleration",
+  "chapterId": "ch02-motion",
+  "difficulty": "medium",
+  "title": "Speed, Velocity and Acceleration — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-1-speed-velocity-and-acceleration-medium-q1",
+      "type": "mcq",
+      "question": "A car travels 6 km in 5 min. Calculate its average speed in m/s.",
+      "options": [
+        "20 m/s",
+        "1.2 m/s",
+        "30 m/s",
+        "1200 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert units to SI first: $6 km = 6000 m$ and $5 min = 300 s$. $Average speed = 6000 / 300 = 20 m/s$. \n\n**Common mistake:** Failing to convert kilometres to metres or minutes to seconds before calculating."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-medium-q2",
+      "type": "mcq",
+      "question": "The velocity of a golf ball changes from 8 m/s to 14 m/s in 10 s. Calculate its acceleration.",
+      "options": [
+        "0.6 $m/s^2$",
+        "1.4 $m/s^2$",
+        "2.2 $m/s^2$",
+        "6.0 $m/s^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $a = (v - u) / t$, where $v = 14$, $u = 8$, and $t = 10$: $a = (14 - 8) / 10 = 0.6 m/s^2$. \n\n**Common mistake:** Dividing the final velocity by time ($1.4$) without subtracting the initial velocity."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-medium-q3",
+      "type": "mcq",
+      "question": "A runner takes 25 s to cover 200 m along a curved path, ending up 50 m from her starting point. What is her average velocity?",
+      "options": [
+        "2 m/s",
+        "8 m/s",
+        "0.25 m/s",
+        "4 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average velocity uses displacement (the straight-line distance): $50 m / 25 s = 2 m/s$. \n\n**Common mistake:** Using total distance ($200 m$) which gives the average speed ($8 m/s$)."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-medium-q4",
+      "type": "mcq",
+      "question": "On a speed–time graph, a straight diagonal line with a positive gradient represents:",
+      "options": [
+        "Uniform acceleration",
+        "Constant speed",
+        "Non-uniform acceleration",
+        "Decreasing speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of a speed–time graph gives the acceleration. A constant positive gradient indicates uniform acceleration. \n\n**Common mistake:** Thinking a straight line always means 'constant speed', which only happens if the line is horizontal."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-medium-q5",
+      "type": "mcq",
+      "question": "Object A moves at 10 m/s East. Object B moves at 10 m/s North. Which statement is correct?",
+      "options": [
+        "They have the same speed but different velocities",
+        "They have different speeds but the same velocity",
+        "They have the same speed and the same velocity",
+        "They have different speeds and different velocities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is scalar (magnitude only), so both are 10 m/s. Velocity is vector (magnitude + direction), so they are different because they move in different directions. \n\n**Common mistake:** Assuming same magnitude means same velocity."
+    }
+  ]
+}

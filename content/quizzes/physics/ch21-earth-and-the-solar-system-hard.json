@@ -1,0 +1,142 @@
+{
+  "id": "ch21-earth-and-the-solar-system-hard",
+  "topicId": "ch21-earth-and-the-solar-system",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "hard",
+  "title": "Chapter 21: Earth and the Solar System — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q1",
+      "type": "mcq",
+      "question": "The Sun is $150$ million kilometres from the Earth. How long does it take for light from the Sun to reach the Earth? (Speed of light $= 3 \\times 10^{8}\\text{ m/s}$)",
+      "options": [
+        "8 minutes 20 seconds",
+        "8 seconds",
+        "1 hour",
+        "24 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "$t = \\frac{d}{v} = \\frac{150 \\times 10^{9}\\text{ m}}{3 \\times 10^{8}\\text{ m/s}} = 500\\text{ s}$, which is $8$ minutes and $20$ seconds.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q2",
+      "type": "mcq",
+      "question": "A geostationary satellite orbits $36000\\text{ km}$ above the Earth's surface. Given the Earth's radius is $6400\\text{ km}$, what is the radius of the satellite's orbit?",
+      "options": [
+        "$42400\\text{ km}$",
+        "$36000\\text{ km}$",
+        "$29600\\text{ km}$",
+        "$6400\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The orbital radius is the sum of the Earth's radius and the height above the surface: $6400 + 36000 = 42400\\text{ km}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q3",
+      "type": "mcq",
+      "question": "During the month of December, what are the conditions at the Antarctic Circle?",
+      "options": [
+        "24 hours of daytime",
+        "24 hours of night-time",
+        "12 hours of daytime and 12 hours of night-time",
+        "Frequent solar eclipses"
+      ],
+      "correctIndex": 0,
+      "explanation": "In December, the South Pole is tilted towards the Sun, resulting in constant daylight (24 hours) for the Antarctic Circle.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q4",
+      "type": "mcq",
+      "question": "The Earth orbits the Sun at an average distance of $1.5 \\times 10^{8}\\text{ km}$. Calculate the average orbital speed of the Earth in $\\text{km/h}$ (Assume $T = 8760\\text{ h}$ and use $pi = 3.14$).",
+      "options": [
+        "$\\approx 107000\\text{ km/h}$",
+        "$\\approx 30000\\text{ km/h}$",
+        "$\\approx 1600\\text{ km/h}$",
+        "$\\approx 3 \\times 10^{8}\\text{ km/h}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = \\frac{2pi r}{T} = \\frac{2 \\times 3.14 \\times 1.5 \\times 10^{8}}{8760} \\approx 107534\\text{ km/h}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q5",
+      "type": "mcq",
+      "question": "Which statement correctly describes the Earth's rotation and its effect on the stars observed from Earth?",
+      "options": [
+        "The Earth's rotation makes stars appear to move across the sky during the night",
+        "The stars move around the Earth once every 24 hours",
+        "The Earth's orbit causes stars to change position every hour",
+        "The Earth's axis tilt prevents us from seeing stars at the poles"
+      ],
+      "correctIndex": 0,
+      "explanation": "While stars are relatively fixed, the Earth's rotation on its axis creates the appearance of stars moving across the sky, similar to how the Sun 'rises' and 'sets'.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q6",
+      "type": "mcq",
+      "question": "A comet travels in an elliptical orbit around the Sun. At which point in its orbit does it have the least gravitational potential energy (GPE)?",
+      "options": [
+        "When it is closest to the Sun",
+        "When it is furthest from the Sun",
+        "When it is at the midpoint of its orbit",
+        "GPE is constant throughout the orbit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that a comet has the greatest GPE when it is furthest away, meaning it has the least GPE when it is closest to the Sun. \n\n**Common mistake:** Confusing least GPE with least kinetic energy."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q7",
+      "type": "mcq",
+      "question": "The International Space Station orbits $410$ km above Earth's surface in $92$ minutes. Using a radius of Earth = $6400$ km, calculate its average orbital speed.",
+      "options": [
+        "$7740$ m/s",
+        "$74$ m/s",
+        "$4650$ m/s",
+        "$123$ m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total radius $r = 6400 + 410 = 6810$ km. Speed $v = 2\\pi r / T$. $T = 92 \\times 60 = 5520 s$. $2v = (2 \\times 3.142 \\times 6810000) / 5520 \\approx 7740$ m/s. \n\n**Common mistake:** Using only the altitude ($410$ km) as the radius."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q8",
+      "type": "mcq",
+      "question": "When a cloud of dust and gas clumps together to form the Solar System, which energy conversion primarily occurs?",
+      "options": [
+        "Gravitational potential energy to kinetic energy",
+        "Chemical energy to light energy",
+        "Kinetic energy to nuclear energy",
+        "Thermal energy to gravitational potential energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "As material clumps together under gravity, its gravitational potential energy is converted into kinetic energy and eventually thermal energy. \n\n**Common mistake:** Thinking nuclear fusion is the first step in clumping."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q9",
+      "type": "mcq",
+      "question": "Which of the following factors explains why planets further from the Sun have slower orbital speeds?",
+      "options": [
+        "The Sun's gravitational field strength is weaker at greater distances.",
+        "Outer planets have much larger masses than inner planets.",
+        "The outer planets are made of gas which experiences more friction.",
+        "The Sun's light pressure pushes them slower."
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sun's gravitational field decreases with distance, requiring a lower orbital speed to maintain a stable orbit. \n\n**Common mistake:** Thinking mass is the primary reason for slower speed."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-hard-q10",
+      "type": "mcq",
+      "question": "An object is in an elliptical orbit. Why does it travel faster when it is closer to the Sun?",
+      "options": [
+        "Loss in gravitational potential energy results in a gain in kinetic energy.",
+        "The Sun's magnetic field pulls it harder.",
+        "The object loses mass as it gets hotter.",
+        "The vacuum of space is thinner near the Sun."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the principle of conservation of energy, as the object moves closer to the Sun, its GPE decreases and is converted into kinetic energy, increasing its speed. \n\n**Common mistake:** Thinking the speed increases because the 'pull' is simply stronger without referencing energy stores."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "13-4-scatter-diagrams-pyp",
+  "topicId": "13-4-scatter-diagrams",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "pyp",
+  "title": "Scatter Diagrams — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-4-scatter-diagrams-pyp-q1",
+      "type": "mcq",
+      "question": "A scatter diagram shows the relationship between the number of hours spent studying ($x$2$y$). The correlation is strong and positive. Describe what this means in words.",
+      "options": [
+        "In general, the more hours a student spends studying, the higher their mark",
+        "Spending more hours studying causes a student to get a higher mark",
+        "Every student who studied for many hours received a high mark",
+        "There is no clear relationship between studying and exam marks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strong positive correlation means that as one variable ($x$2$y$) also increases in a consistent manner.\n\n**Common mistake:** Selecting an answer that implies 'causation' (e.g., 'causes') or 'absolute certainty' (e.g., 'every student')."
+    },
+    {
+      "id": "13-4-scatter-diagrams-pyp-q2",
+      "type": "mcq",
+      "question": "Use the following data to estimate the number of 'Bicycles stolen' if 'Sandwiches sold' = 10, assuming a positive correlation: (2,5), (6,7), (12,13), (18,18).",
+      "options": [
+        "11",
+        "10",
+        "15",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Exercise 13.4A Question 2, plotting these points and using a line of best fit leads to an estimate of approximately 11 bicycles stolen.\n\n**Common mistake:** The student might assume the answer is 10 because it is a 1:1 ratio, but the actual trend line sits slightly higher."
+    },
+    {
+      "id": "13-4-scatter-diagrams-pyp-q3",
+      "type": "mcq",
+      "question": "In a survey, 11 students' Maths marks and Physics marks are plotted. If a student's marks were (9, 34) and the line of best fit for the class was $y = x + 20$, how would you describe this student's result relative to the class trend?",
+      "options": [
+        "Their result follows the trend closely ($34 \\approx 9 + 20$)",
+        "They are an outlier because their mark is much higher than expected",
+        "Their result is exactly on the line of best fit",
+        "They have a negative correlation with the rest of the class"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the 'Eli' data point from the example (Maths 9, Physics 34), this point fits the strong positive correlation trend seen in the rest of the data.\n\n**Common mistake:** Assuming a low mark (9) is an 'outlier' simply because it is low, rather than checking if it fits the trend line."
+    },
+    {
+      "id": "13-4-scatter-diagrams-pyp-q4",
+      "type": "mcq",
+      "question": "A student is asked to draw a line of best fit. Which tool does the textbook recommend to make the process easier?",
+      "options": [
+        "A transparent ruler",
+        "A compass",
+        "A protractor",
+        "A set square"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state that 'The line is easier to draw when a transparent ruler is used'.\n\n**Common mistake:** Using a solid ruler which obscures the points underneath, making it difficult to balance the number of points on either side."
+    },
+    {
+      "id": "13-4-scatter-diagrams-pyp-q5",
+      "type": "mcq",
+      "question": "A scatter diagram for 'Age of car' and 'Value of car' would most likely show which type of correlation?",
+      "options": [
+        "Negative correlation",
+        "Positive correlation",
+        "No correlation",
+        "Strong positive correlation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Generally, as a car gets older, its value decreases, which is the definition of negative correlation. This is also supported by car value models shown in the 'Graphs' chapter.\n\n**Common mistake:** The student might think 'older' is 'bigger' and therefore 'positive,' forgetting that the value is dropping."
+    }
+  ]
+}

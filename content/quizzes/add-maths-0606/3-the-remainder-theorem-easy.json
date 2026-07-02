@@ -1,0 +1,77 @@
+{
+  "id": "3-the-remainder-theorem-easy",
+  "topicId": "3-the-remainder-theorem",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "easy",
+  "title": "The Remainder Theorem — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-the-remainder-theorem-easy-q1",
+      "type": "mcq",
+      "question": "According to the remainder theorem, what is the remainder when a polynomial $f(x)$ is divided by the linear factor $(x - a)$?",
+      "options": [
+        "$f(a)$",
+        "$f(-a)$",
+        "0",
+        "$a$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The remainder theorem states that when a polynomial $f(x)$ is divided by $(x - a)$, the remainder is the value of the function evaluated at $a$.\n\n**Common mistake:** Students often confuse the remainder theorem with the factor theorem and assume the remainder must be 0, or they fail to change the sign of $a$2$f(-a)$."
+    },
+    {
+      "id": "3-the-remainder-theorem-easy-q2",
+      "type": "mcq",
+      "question": "Find the remainder when $P(x) = x^3 - 2x + 5$ is divided by $(x - 1)$.",
+      "options": [
+        "4",
+        "8",
+        "0",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 1$ into $P(x)$: $P(1) = (1)³ - 2(1) + 5 = 1 - 2 + 5 = 4$.\n\n**Common mistake:** Arithmetic slips such as $1 - 2 = 1$ or incorrectly substituting $x = -1$ into the expression."
+    },
+    {
+      "id": "3-the-remainder-theorem-easy-q3",
+      "type": "mcq",
+      "question": "What is the remainder when $f(x) = 2x^2 + 7$ is divided by $(x + 2)$?",
+      "options": [
+        "15",
+        "11",
+        "3",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = -2$ into $f(x)$: $f(-2) = 2(-2)² + 7 = 2(4) + 7 = 15$.\n\n**Common mistake:** Calculating $(-2)²$ as $-4$ instead of^4, which results in $-8 + 7 = -1$, or substituting $x = 2$ instead of $-2$."
+    },
+    {
+      "id": "3-the-remainder-theorem-easy-q4",
+      "type": "mcq",
+      "question": "If $P(-3) = 10$, what is the remainder when $P(x)$ is divided by $(x + 3)$?",
+      "options": [
+        "10",
+        "-3",
+        "-10",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the remainder theorem, the remainder when $P(x)$ is divided by $(x - c)$ is $P(c)$. Here $c = -3$, so the remainder is $P(-3) = 10$.\n\n**Common mistake:** Students may think the remainder should be the negative of the function value or assume that because the root is $-3$, the remainder must be 0."
+    },
+    {
+      "id": "3-the-remainder-theorem-easy-q5",
+      "type": "mcq",
+      "question": "Find the remainder when $x⁴ - 1$ is divided by $(x + 1)$.",
+      "options": [
+        "0",
+        "-2",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = -1$: $(-1)⁴ - 1 = 1 - 1 = 0$. Since the remainder is zero, $(x+1)$ is actually a factor.\n\n**Common mistake:** Treating $(-1)⁴$ as $-1$, leading to a remainder of $-2$."
+    }
+  ]
+}

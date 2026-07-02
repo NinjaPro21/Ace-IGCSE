@@ -1,0 +1,77 @@
+{
+  "id": "16-1-electric-charge-medium",
+  "topicId": "16-1-electric-charge",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Electric Charge — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-1-electric-charge-medium-q1",
+      "type": "mcq",
+      "question": "Two identical polythene rods are each rubbed with the same woollen cloth. If the two rods are suspended and brought close to each other, what will be observed?",
+      "options": [
+        "They will repel each other.",
+        "They will attract each other.",
+        "The wool will be attracted to both rods.",
+        "No effect will be observed."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since both rods are made of the same material and rubbed with the same material, they acquire the same type of charge. Like charges repel. \n\n**Common mistake:** Thinking one rod becomes positive and the other negative from the same action."
+    },
+    {
+      "id": "16-1-electric-charge-medium-q2",
+      "type": "mcq",
+      "question": "When a glass rod is rubbed with silk, the rod becomes positively charged. What is the reason for this change?",
+      "options": [
+        "Electrons are transferred from the rod to the silk.",
+        "Protons are transferred from the silk to the rod.",
+        "The silk becomes positively charged as well.",
+        "The rod creates new positive charges through friction."
+      ],
+      "correctIndex": 0,
+      "explanation": "Charging involves the transfer of electrons. If a rod becomes positive, it must have lost negatively charged electrons. \n\n**Common mistake:** Thinking that positive charges (protons) move, but they are fixed in the nucleus."
+    },
+    {
+      "id": "16-1-electric-charge-medium-q3",
+      "type": "mcq",
+      "question": "Compare electrical insulators and conductors based on the mobility of their charges.",
+      "options": [
+        "Conductors have free electrons that can move, while insulators do not.",
+        "Insulators allow protons to flow, while conductors allow electrons to move.",
+        "Both allow electrons to move freely, but insulators are thicker.",
+        "Only insulators can be charged by friction."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, energy in conductors is transferred through the movement of free electrons, whereas in insulators, electrons are not free to move about. \n\n**Common mistake:** Thinking insulators cannot 'hold' charge; they actually hold it on the surface because it can't flow away."
+    },
+    {
+      "id": "16-1-electric-charge-medium-q4",
+      "type": "mcq",
+      "question": "In an experiment, small pieces of paper are attracted to a charged glass rod. Why does this occur even if the paper is initially neutral?",
+      "options": [
+        "The charged rod induces a charge separation in the paper.",
+        "The paper is a good electrical conductor.",
+        "The paper was already magnetised.",
+        "Gravity is stronger when objects are electrically charged."
+      ],
+      "correctIndex": 0,
+      "explanation": "A charged object can attract neutral objects (like paper) by inducing a temporary charge separation on the surface of the neutral object. \n\n**Common mistake:** Believing the paper must be a metal or already charged to be attracted."
+    },
+    {
+      "id": "16-1-electric-charge-medium-q5",
+      "type": "mcq",
+      "question": "Which set of interactions between three charged spheres (X, Y, and Z) is correct if X is positive, X attracts Y, and Y repels Z?",
+      "options": [
+        "Y is negative and Z is negative.",
+        "Y is positive and Z is positive.",
+        "Y is negative and Z is positive.",
+        "Y is neutral and Z is positive."
+      ],
+      "correctIndex": 0,
+      "explanation": "X (+) attracts Y, so Y must be negative. Y (-) repels Z, so Z must also be negative. \n\n**Common mistake:** Thinking that if Y repels Z, they must have opposite charges."
+    }
+  ]
+}

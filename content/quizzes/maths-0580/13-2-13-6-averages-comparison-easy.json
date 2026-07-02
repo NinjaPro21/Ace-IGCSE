@@ -1,0 +1,77 @@
+{
+  "id": "13-2-13-6-averages-comparison-easy",
+  "topicId": "13-2-13-6-averages-comparison",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Averages & Comparison — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-2-13-6-averages-comparison-easy-q1",
+      "type": "mcq",
+      "question": "Which type of average is calculated by adding all values together and dividing by the number of values?",
+      "options": [
+        "The mean",
+        "The median",
+        "The mode",
+        "The range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mean is obtained by adding all the numbers in a data set and dividing the result by however many numbers there are.\n\n**Common mistake:** Students often confuse the mean with the median, which is the middle value in an ordered list."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-easy-q2",
+      "type": "mcq",
+      "question": "Find the median of the following data set: 3, 3, 4, 7, 8, 10, 12.",
+      "options": [
+        "7",
+        "3",
+        "6.7",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "The median is the number in the middle when values are arranged in ascending order. In this set of 7 items, the 4th item is 7.\n\n**Common mistake:** A student might pick the middle number without ordering the list first."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-easy-q3",
+      "type": "mcq",
+      "question": "What is the mode of this data set: 5, 4, 10, 3, 3, 4, 7, 4, 8, 5?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "5.3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mode is the number which occurs most often. In this set, 4 appears three times, more than any other number.\n\n**Common mistake:** Students may confuse the mode with the mean (5.3) or the median (4.5)."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the range of the following heights: 140 cm, 155 cm, 162 cm, 135 cm, 170 cm.",
+      "options": [
+        "35 cm",
+        "170 cm",
+        "135 cm",
+        "25 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range is found by subtracting the lowest value from the highest value: $170 - 135 = 35$.\n\n**Common mistake:** Students sometimes provide the highest value as the range instead of the difference."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-easy-q5",
+      "type": "mcq",
+      "question": "Which measure of average is best to use when a data set contains extreme values (outliers)?",
+      "options": [
+        "The median",
+        "The mean",
+        "The mode",
+        "The range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The median works well when there are extreme values because it is not affected by them, unlike the mean.\n\n**Common mistake:** The mean is the most common average, so students often default to it without considering outliers."
+    }
+  ]
+}

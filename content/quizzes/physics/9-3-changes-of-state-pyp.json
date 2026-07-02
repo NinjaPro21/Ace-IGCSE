@@ -1,0 +1,77 @@
+{
+  "id": "9-3-changes-of-state-pyp",
+  "topicId": "9-3-changes-of-state",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "pyp",
+  "title": "Changes of State — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-3-changes-of-state-pyp-q1",
+      "type": "mcq",
+      "question": "When a solid is melting, the temperature remains constant even though thermal energy is being supplied. Which of the following explains this observation?",
+      "options": [
+        "The energy is used to break the bonds between the particles",
+        "The solid is not absorbing any thermal energy",
+        "The solid molecules are moving faster",
+        "The solid is giving out thermal energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in Section A of the Review, energy supplied during a change of state is used to break intermolecular bonds rather than increasing kinetic energy (temperature). \n\n**Common mistake:** Thinking energy absorption stops during melting."
+    },
+    {
+      "id": "9-3-changes-of-state-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement about evaporation is correct?",
+      "options": [
+        "Evaporation causes cooling",
+        "Evaporation occurs at the boiling point",
+        "Evaporation occurs when a gas turns into a liquid",
+        "Evaporation occurs more slowly at higher temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation involves the loss of high-energy particles, which reduces the average kinetic energy and temperature of the remaining liquid. \n\n**Common mistake:** Believing evaporation only happens at $100^\\circ\\text{C}$."
+    },
+    {
+      "id": "9-3-changes-of-state-pyp-q3",
+      "type": "mcq",
+      "question": "The graph shows the temperature of a substance as it is cooled. In which section is the substance solidifying?nn[Graph shows: A-B (sloping down), B-C (horizontal at $60^\\circ\\text{C}$), C-D (sloping down)]",
+      "options": [
+        "B to C",
+        "A to B",
+        "C to D",
+        "The entire graph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solidification (freezing) occurs at a constant temperature, represented by the horizontal plateau (B to C). \n\n**Common mistake:** Selecting the sloping sections where temperature is changing."
+    },
+    {
+      "id": "9-3-changes-of-state-pyp-q4",
+      "type": "mcq",
+      "question": "A student wants wet clothes on a washing line to dry as quickly as possible. Which set of conditions should she choose?",
+      "options": [
+        "Hot, windy, and spread out",
+        "Cold, windy, and folded",
+        "Hot, still air, and folded",
+        "Cold, still air, and spread out"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation rate increases with temperature, air movement (wind), and surface area (spread out). \n\n**Common mistake:** Thinking folding clothes (smaller area) will help them dry."
+    },
+    {
+      "id": "9-3-changes-of-state-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly compares boiling and evaporation?nn| | Boiling | Evaporation |n| :--- | :--- | :--- |n| A | Throughout liquid | At surface only |n| B | At any temperature | At fixed temperature |n| C | No bubbles produced | Bubbles produced |n| D | Causes cooling | Temperature remains constant |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boiling occurs throughout the liquid, whereas evaporation is a surface phenomenon. \n\n**Common mistake:** Swapping the temperature properties in Row B."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ch13-electromagnetic-spectrum-hard",
+  "topicId": "ch13-electromagnetic-spectrum",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "hard",
+  "title": "Chapter 13: Electromagnetic Spectrum — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q1",
+      "type": "mcq",
+      "question": "The Sun is $150$ million kilometres from the Earth. Calculate the time taken for light to travel this distance.",
+      "options": [
+        "$500\\text{ s}$",
+        "$50\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$5000\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance $s = 150 \\times 10^{6}\\text{ km} = 1.5 \\times 10^{11}\\text{ m}$. Speed $v = 3.0 \\times 10^{8}\\text{ m/s}$. Time $t = s/v = (1.5 \\times 10^{11}) / (3.0 \\times 10^{8}) = 500\\text{ s}$. \n\n**Common mistake:** Forgetting to convert kilometres to metres, leading to $0.5\\text{ s}$."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q2",
+      "type": "mcq",
+      "question": "Calculate the frequency of an ultraviolet wave that has a wavelength of $1.5 \\times 10^{-8}\\text{ m}$ in a vacuum.",
+      "options": [
+        "$2.0 \\times 10^{16}\\text{ Hz}$",
+        "$4.5 \\times 10^{0}\\text{ Hz}$",
+        "$2.0 \\times 10^{14}\\text{ Hz}$",
+        "$5.0 \\times 10^{-17}\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = v/\\lambda = (3.0 \\times 10^{8}) / (1.5 \\times 10^{-8}) = 2.0 \\times 10^{16}\\text{ Hz}$. \n\n**Common mistake:** Multiplying the speed and wavelength instead of dividing."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q3",
+      "type": "mcq",
+      "question": "In terms of the properties of the electromagnetic spectrum, which statement is true about the energy of the waves?",
+      "options": [
+        "Waves with higher frequencies carry more energy",
+        "Waves with longer wavelengths carry more energy",
+        "All waves in the spectrum carry the same amount of energy",
+        "Energy is independent of frequency and wavelength"
+      ],
+      "correctIndex": 0,
+      "explanation": "While not explicitly detailed in the spectrum map, higher frequency waves (like Gamma) are associated with higher energy and more potential for damage. \n\n**Common mistake:** Thinking radio waves carry the most energy because they travel the furthest."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q4",
+      "type": "mcq",
+      "question": "A signal is sent from a ground station to a geostationary satellite at an altitude of $36000\\text{ km}$. How long does it take for the signal to reach the satellite and return to Earth?",
+      "options": [
+        "$0.24\\text{ s}$",
+        "$0.12\\text{ s}$",
+        "$2.4\\text{ s}$",
+        "$1.2\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance $= 2 \\times 36000\\text{ km} = 72000\\text{ km} = 7.2 \\times 10^{7}\\text{ m}$. $t = s/v = (7.2 \\times 10^{7}) / (3.0 \\times 10^{8}) = 0.24\\text{ s}$. \n\n**Common mistake:** Calculating the one-way trip ($0.12\\text{ s}$) only."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the transition from Microwaves to X-rays?",
+      "options": [
+        "Frequency: Increases; Wavelength: Decreases; Speed in Vacuum: Constant",
+        "Frequency: Decreases; Wavelength: Increases; Speed in Vacuum: Constant",
+        "Frequency: Increases; Wavelength: Increases; Speed in Vacuum: Increases",
+        "Frequency: Decreases; Wavelength: Decreases; Speed in Vacuum: Decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moving from Microwaves toward X-rays involves moving towards the high-frequency/short-wavelength end of the spectrum, while speed remain unchanged. \n\n**Common mistake:** Thinking speed increases with frequency."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q6",
+      "type": "mcq",
+      "question": "Why must workers in a hospital be shielded by lead screens when using X-ray or gamma ray machines?",
+      "options": [
+        "They are ionising radiations that damage cells and DNA",
+        "They cause intense internal heating of the body",
+        "They reflect off walls and cause blindness",
+        "They turn into radio waves that interfere with equipment"
+      ],
+      "correctIndex": 0,
+      "explanation": "X-rays and gamma rays are ionising radiations. They have enough energy to damage living cells and cause mutations in DNA, which can lead to cancer. Shielding is required for protection.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q7",
+      "type": "mcq",
+      "question": "Compare the uses of infrared (IR) and microwaves in heating. Which statement is correct?",
+      "options": [
+        "IR causes surface heating; microwaves cause internal heating",
+        "IR causes internal heating; microwaves cause surface heating",
+        "Both cause internal heating only",
+        "Both cause surface heating only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Infrared is absorbed at the surface and causes skin burns/heating. Microwaves penetrate deeper and cause internal heating of body cells.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q8",
+      "type": "mcq",
+      "question": "Intruder alarms and thermal imaging cameras both detect which type of radiation emitted by the human body?",
+      "options": [
+        "Infrared",
+        "Ultraviolet",
+        "Microwaves",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "The human body naturally emits infrared radiation (heat). Intruder alarms and thermal cameras are designed to sense this specific region of the spectrum.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q9",
+      "type": "mcq",
+      "question": "Which set of electromagnetic waves contains ONLY those that are considered highly ionising and dangerous to cell DNA?",
+      "options": [
+        "X-rays and Gamma rays",
+        "Ultraviolet and X-rays",
+        "Microwaves and Infrared",
+        "Gamma rays and Radio waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "X-rays and Gamma rays are the most energetic and are classified as ionising radiation. UV is damaging to surface cells but is generally less penetrating than X-rays/Gamma.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q10",
+      "type": "mcq",
+      "question": "A geostationary satellite is used for direct television broadcasting. What type of radiation does it receive and transmit?",
+      "options": [
+        "Microwaves",
+        "Radio waves",
+        "Infrared",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Communication with artificial satellites, including geostationary ones used for TV, is performed using microwaves because they can pass through the atmosphere effectively.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q11",
+      "type": "mcq",
+      "question": "A signal travels through an optical fibre made of glass with a refractive index of $1.5$. Calculate the time taken for light to travel $300\\text{ km}$ through this fibre. ($c = 3.0 \\times 10^{8}\\text{ m/s}$)",
+      "options": [
+        "$1.5 \\times 10^{-3}\\text{ s}$",
+        "$1.0 \\times 10^{-3}\\text{ s}$",
+        "$4.5 \\times 10^{-3}\\text{ s}$",
+        "$1.5 \\times 10^{-6}\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed in glass $v = c/n = (3.0 \\times 10^{8}) / 1.5 = 2.0 \\times 10^{8}\\text{ m/s}$. Time $t = d/v = 300000 / (2.0 \\times 10^{8}) = 0.0015\\text{ s}$. \n\n**Common mistake:** Using the speed of light in a vacuum ($3.0 \\times 10^{8}$) directly."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q12",
+      "type": "mcq",
+      "question": "In a digital communication system, how does the receiver distinguish between the signal and random noise?",
+      "options": [
+        "It uses a threshold to determine if a pulse is high (1) or low (0)",
+        "It filters out all frequencies except for the microwave carrier",
+        "It uses an analogue-to-digital converter to remove the noise",
+        "It increases the power of the signal until the noise is negligible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because digital signals have only fixed 'high' and 'low' values, the receiver only needs to decide which state the signal is in, effectively ignoring noise as long as it isn't too large. \n\n**Common mistake:** Thinking frequency filtering alone removes noise from the signal pulses."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q13",
+      "type": "mcq",
+      "question": "Geostationary satellites are used for direct satellite television. Which description of their orbit is accurate?",
+      "options": [
+        "They orbit at the same rate as the Earth's rotation, remaining above a fixed point",
+        "They orbit the Earth from pole to pole every 90 minutes",
+        "They travel in highly elliptical orbits to cover both hemispheres",
+        "They remain stationary in space and do not orbit the Earth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Geostationary satellites have an orbit time of 24 hours, matching Earth's rotation, so they stay above the same location. \n\n**Common mistake:** Believing they are literally 'stationary' without an orbit."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q14",
+      "type": "mcq",
+      "question": "Why is infrared radiation used in optical fibres instead of ultraviolet radiation?",
+      "options": [
+        "Glass is transparent to infrared but absorbs ultraviolet",
+        "Infrared travels faster than ultraviolet in glass",
+        "Infrared radiation does not undergo total internal reflection",
+        "Ultraviolet radiation would melt the glass fibre"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that visible light and infrared are used because glass is transparent to these waves. \n\n**Common mistake:** Thinking it's because infrared is 'safer' for data."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-hard-q15",
+      "type": "mcq",
+      "question": "If a digital signal's frequency is increased, what is the most likely effect on data transmission?",
+      "options": [
+        "The rate of data transmission increases",
+        "The signal becomes an analogue signal",
+        "The speed of the waves through the medium increases",
+        "The signal can no longer be regenerated"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher frequencies allow for a higher rate of transmission (more pulses per second). \n\n**Common mistake:** Thinking higher frequency means the wave travels faster through the cable."
+    }
+  ]
+}

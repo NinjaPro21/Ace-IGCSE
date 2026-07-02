@@ -1,0 +1,77 @@
+{
+  "id": "18-2-the-a-c-generator-pyp",
+  "topicId": "18-2-the-a-c-generator",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "pyp",
+  "title": "The A.c. Generator — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-2-the-a-c-generator-pyp-q1",
+      "type": "mcq",
+      "question": "An a.c. generator is connected to an oscilloscope. The trace shows a peak voltage of $2\\text{ V}$ and a period of $0.04\\text{ s}$. What is the frequency of the a.c. signal?",
+      "options": [
+        "$25\\text{ Hz}$",
+        "$50\\text{ Hz}$",
+        "$0.04\\text{ Hz}$",
+        "$2\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency $f = 1/T = 1 / 0.04 = 25\\text{ Hz}$. \n\n**Common mistake:** Using the voltage value ($2\\text{ V}$) in the frequency calculation."
+    },
+    {
+      "id": "18-2-the-a-c-generator-pyp-q2",
+      "type": "mcq",
+      "question": "Which of the following procedures does NOT generate an induced e.m.f. in a coil of wire?",
+      "options": [
+        "Holding a magnet stationary inside the coil",
+        "Rotating the coil in a magnetic field",
+        "Rotating a magnet around the stationary coil",
+        "Moving a bar magnet towards the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 6, holding a magnet stationary results in no change in magnetic flux, so no e.m.f. is induced. \n\n**Common mistake:** Thinking being 'inside' a magnetic field is enough, regardless of motion."
+    },
+    {
+      "id": "18-2-the-a-c-generator-pyp-q3",
+      "type": "mcq",
+      "question": "In electromagnetic induction, which of the following factors does NOT affect the magnitude of the induced e.m.f.?",
+      "options": [
+        "The resistance of the coil",
+        "The strength of the magnetic field",
+        "The speed of the coil's motion",
+        "The number of turns in the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 7. Resistance affects the current ($I = V/R$), but the induced e.m.f. ($V$) depends only on the rate of cutting field lines. \n\n**Common mistake:** Confusing e.m.f. (voltage) with the resulting current."
+    },
+    {
+      "id": "18-2-the-a-c-generator-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows a graph of induced e.m.f. against time for a generator. Which change was made to the generator to produce the second curve?nn[Scenario: Curve 2 has half the period and twice the peak voltage of Curve 1]",
+      "options": [
+        "The frequency of rotation was doubled.",
+        "The number of turns in the coil was doubled.",
+        "The magnetic field strength was doubled.",
+        "The resistance of the external circuit was halved."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Worked Example 18B and Figure 18.11, doubling the frequency of rotation ($f$) results in both doubling the peak voltage and halving the period ($T = 1/f$). \n\n**Common mistake:** Choosing 'doubling turns', which would increase voltage but not change the period."
+    },
+    {
+      "id": "18-2-the-a-c-generator-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the function of slip rings in an a.c. generator?",
+      "options": [
+        "They provide a continuous connection between the rotating coil and the fixed brushes.",
+        "They reverse the current direction every half-turn of the coil.",
+        "They convert the induced a.c. into a d.c. output.",
+        "They increase the magnetic field strength of the permanent magnets."
+      ],
+      "correctIndex": 0,
+      "explanation": "Slip rings maintain electrical contact with the brushes while the coil rotates, without twisting the wires. \n\n**Common mistake:** Attributing the current-reversal function to slip rings; that is the role of a commutator in a motor."
+    }
+  ]
+}

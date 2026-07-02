@@ -1,0 +1,77 @@
+{
+  "id": "11-1-11-2-sets-venn-diagrams-medium",
+  "topicId": "11-1-11-2-sets-venn-diagrams",
+  "chapterId": "ch07-sets-functions-logical-systems",
+  "difficulty": "medium",
+  "title": "Sets & Venn Diagrams — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-medium-q1",
+      "type": "mcq",
+      "question": "Given $\\mathscr{E} = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, $A = \\{1, 3, 5\\}$ and $B = \\{5, 6, 7\\}$, list the members of the set $A \\cap B$.",
+      "options": [
+        "$\\{5\\}$",
+        "$\\{1, 3, 5, 6, 7\\}$",
+        "$\\{2, 4, 8\\}$",
+        "$\\{1, 3, 6, 7\\}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection $A \\cap B$ contains only the elements common to both sets, which is 5.\n\n**Common mistake:** Listing all elements from both sets as if it were a union."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-medium-q2",
+      "type": "mcq",
+      "question": "If $n(A) = 10$, $n(B) = 13$, and $n(A \\cap B) = 5$, calculate the value of $n(A \\cup B)$.",
+      "options": [
+        "18",
+        "23",
+        "28",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the logical formula: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 10 + 13 - 5 = 18$.\n\n**Common mistake:** Adding the totals of A and B without subtracting the intersection, leading to double-counting."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-medium-q3",
+      "type": "mcq",
+      "question": "Which notation describes a region where elements are in set A but are NOT in set B?",
+      "options": [
+        "$A \\cap B'$",
+        "$A \\cup B'$",
+        "$A' \\cap B$",
+        "$(A \\cap B)'$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection of A and the complement of B ($A \\cap B'$) describes elements inside A but outside B.\n\n**Common mistake:** Using $A' \\cap B$, which describes elements that are in B but not in A."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-medium-q4",
+      "type": "mcq",
+      "question": "In a group of 30 students, 18 play basketball and 14 play hockey. If 5 students play neither sport, how many play both?",
+      "options": [
+        "7",
+        "2",
+        "12",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total = (B only) + (H only) + (Both) + (Neither). $30 = (18-x) + (14-x) + x + 5 \\Rightarrow 30 = 37 - x \\Rightarrow x = 7$.\n\n**Common mistake:** Subtracting the 'neither' count from the total and then averaging the remaining sports."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-medium-q5",
+      "type": "mcq",
+      "question": "What is the set $A$2$A = \\{x: x \\text{ is an integer, } 2 \\le x < 6\\}$?",
+      "options": [
+        "$\\{2, 3, 4, 5\\}$",
+        "$\\{2, 3, 4, 5, 6\\}$",
+        "$\\{3, 4, 5\\}$",
+        "$\\{3, 4, 5, 6\\}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notation includes 2 (due to $\\le$2$<$).\n\n**Common mistake:** Including the upper boundary 6 when the symbol is strictly less than ($<$)."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "5-3-the-principle-of-conservation-of-momentum-easy",
+  "topicId": "5-3-the-principle-of-conservation-of-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "easy",
+  "title": "The Principle of Conservation of Momentum — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following best describes the principle of conservation of momentum?",
+      "options": [
+        "The total momentum before a collision equals the total momentum after the collision",
+        "The total energy before a collision equals the total energy after the collision",
+        "The velocity of each object remains constant after a collision",
+        "The mass of a system decreases after a collision"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note states that when moving objects collide, the total momentum before and after the collision is the same. \n\n**Common mistake:** Confusing this with the conservation of energy, which is a different principle."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-easy-q2",
+      "type": "mcq",
+      "question": "What must be true for the total momentum of a system of two colliding objects to be conserved?",
+      "options": [
+        "No external resultant forces act on the system",
+        "The objects must have the same mass",
+        "The objects must stick together after the collision",
+        "The objects must be moving in the same direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is conserved in an isolated system where only internal forces between the objects act. \n\n**Common mistake:** Thinking objects must stick together for momentum to be conserved; conservation applies to all collision types."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-easy-q3",
+      "type": "mcq",
+      "question": "Two objects with equal and opposite momentum collide and stick together. What is their final total momentum?",
+      "options": [
+        "$0\\text{ kg m/s}$",
+        "The sum of their masses multiplied by gravity",
+        "Double the initial momentum of one object",
+        "The product of their two initial velocities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since momentum is a vector, 'equal and opposite' means the total initial momentum is zero ($p + (-p) = 0$). By conservation, the final momentum must also be zero. \n\n**Common mistake:** Forgetting direction and simply adding the magnitudes."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-easy-q4",
+      "type": "mcq",
+      "question": "A system consists of Object A ($2.0\\text{ kg}$ at $3.0\\text{ m/s}$) and Object B ($1.0\\text{ kg}$ at rest). What is the total momentum of this system?",
+      "options": [
+        "$6.0\\text{ kg m/s}$",
+        "$3.0\\text{ kg m/s}$",
+        "$2.0\\text{ kg m/s}$",
+        "$0\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total momentum $= (2.0 \\times 3.0) + (1.0 \\times 0) = 6.0\\text{ kg m/s}$. \n\n**Common mistake:** Adding the masses first and then multiplying by speed, which would give a different result if both were moving."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-easy-q5",
+      "type": "mcq",
+      "question": "Which physical property is strictly conserved in every collision in an isolated system?",
+      "options": [
+        "Total momentum",
+        "Total kinetic energy",
+        "Total speed",
+        "Individual velocities"
+      ],
+      "correctIndex": 0,
+      "explanation": "The principle of conservation of momentum states that total momentum is always conserved in such interactions. \n\n**Common mistake:** Believing kinetic energy is always conserved; energy is often 'wasted' as heat or sound in inelastic collisions."
+    }
+  ]
+}

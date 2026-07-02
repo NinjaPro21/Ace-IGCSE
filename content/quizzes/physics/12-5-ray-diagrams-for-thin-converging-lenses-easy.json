@@ -1,0 +1,77 @@
+{
+  "id": "12-5-ray-diagrams-for-thin-converging-lenses-easy",
+  "topicId": "12-5-ray-diagrams-for-thin-converging-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "easy",
+  "title": "Ray Diagrams for Thin Converging Lenses — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-easy-q1",
+      "type": "mcq",
+      "question": "What is the definition of the focal length ($f$) of a thin converging lens?",
+      "options": [
+        "The distance between the optical centre and the focal point.",
+        "The distance between the object and the image.",
+        "The total width of the lens at its thickest part.",
+        "The distance from the focal point to the principal axis."
+      ],
+      "correctIndex": 0,
+      "explanation": "The focal length is the distance between the optical centre and the focal point ($F$). \n\n**Common mistake:** Confusing it with the distance between the lens and the object."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-easy-q2",
+      "type": "mcq",
+      "question": "What happens to a ray of light that passes through the optical centre of a thin converging lens?",
+      "options": [
+        "It passes straight through without bending.",
+        "It is refracted through the focal point.",
+        "It is reflected back toward the source.",
+        "It becomes parallel to the principal axis."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rays passing through the optical centre ($C$) of a thin lens do not undergo refraction and continue in a straight line. \n\n**Common mistake:** Thinking every ray must bend toward the focal point."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-easy-q3",
+      "type": "mcq",
+      "question": "A ray of light travels parallel to the principal axis before hitting a thin converging lens. Where does it go after passing through the lens?",
+      "options": [
+        "It passes through the focal point on the opposite side.",
+        "It continues parallel to the principal axis.",
+        "It passes back through the focal point on the same side.",
+        "It bends away from the principal axis."
+      ],
+      "correctIndex": 0,
+      "explanation": "Any ray entering parallel to the principal axis is refracted through the principal focus ($F$). \n\n**Common mistake:** Confusing converging lenses with diverging lenses, which would make the ray spread out."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-easy-q4",
+      "type": "mcq",
+      "question": "Which term describes the horizontal line passing through the optical centre of the lens?",
+      "options": [
+        "Principal axis",
+        "Focal plane",
+        "Optical ray",
+        "Normal line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The principal axis is the line passing through the optical centre, perpendicular to the vertical plane of the lens. \n\n**Common mistake:** Calling it the 'focal length,' which is a measurement of distance, not the line itself."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-easy-q5",
+      "type": "mcq",
+      "question": "Which type of image is always formed when an object is placed very far away (at infinity) from a converging lens?",
+      "options": [
+        "A real image at the focal point.",
+        "A virtual image at the optical centre.",
+        "A magnified real image at $2f$.",
+        "No image is formed."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rays from an object at infinity are parallel and converge at the focal point to form a real image. \n\n**Common mistake:** Thinking the image is virtual because the object is so far away."
+    }
+  ]
+}

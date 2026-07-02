@@ -1,0 +1,77 @@
+{
+  "id": "5-introduction-to-logarithms-pyp",
+  "topicId": "5-introduction-to-logarithms",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "pyp",
+  "title": "Introduction to Logarithms — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-introduction-to-logarithms-pyp-q1",
+      "type": "mcq",
+      "question": "Find the value of $x$2$\\log_3 x = 4$.",
+      "options": [
+        "81",
+        "12",
+        "64",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Converting to index form: $x = 3^4 = 81$.\n\n**Common mistake:** Multiplying 3 and 4 to get 12 instead of using indices."
+    },
+    {
+      "id": "5-introduction-to-logarithms-pyp-q2",
+      "type": "mcq",
+      "question": "Given that $\\lg y = 2.5$, find the value of $y$2$k\\sqrt{10}$ where $k$ is an integer.",
+      "options": [
+        "$100\\sqrt{10}$",
+        "$10\\sqrt{10}$",
+        "$25\\sqrt{10}$",
+        "$5\\sqrt{10}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$y = 10^{2.5} = 10^{2} \\times 10^{0.5} = 100\\sqrt{10}$.\n\n**Common mistake:** Calculating $y = 10 \\times 2.5 = 25$ or failing to convert the decimal exponent into a radical."
+    },
+    {
+      "id": "5-introduction-to-logarithms-pyp-q3",
+      "type": "mcq",
+      "question": "Solve the equation $\\log_x 25 = 2$.",
+      "options": [
+        "5",
+        "12.5",
+        "625",
+        "50"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2 = 25$. Since the base must be positive, $x = 5$.\n\n**Common mistake:** Dividing 25 by 2 or squaring 25."
+    },
+    {
+      "id": "5-introduction-to-logarithms-pyp-q4",
+      "type": "mcq",
+      "question": "Evaluate $\\log_8 4$.",
+      "options": [
+        "2/3",
+        "0.5",
+        "1.5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$8^x = 4 \\implies (2^3)^x = 2^2 \\implies 3x = 2 \\implies x = 2/3$.\n\n**Common mistake:** Thinking the answer is 0.5 because 4 is half of 8."
+    },
+    {
+      "id": "5-introduction-to-logarithms-pyp-q5",
+      "type": "mcq",
+      "question": "State the range of values for $x$2$\\log_2 x$ is negative.",
+      "options": [
+        "0 < x < 1",
+        "x < 0",
+        "x < 1",
+        "x > 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_2 x < 0 \\implies x < 2^0 \\implies x < 1$. Also, the argument must be positive, so $0 < x < 1$.\n\n**Common mistake:** Including negative values of $x$2$x > 0$."
+    }
+  ]
+}

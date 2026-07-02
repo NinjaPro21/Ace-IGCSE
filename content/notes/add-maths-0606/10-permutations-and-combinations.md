@@ -4,9 +4,12 @@ Permutations and combinations are methods used to count how many ways groups can
 
 ## Key formulas
 
-$$\text{Permutations (Order Matters): } ^nP_r = \frac{n!}{(n-r)!}$$
+$$
+\text{Permutations (Order Matters): } ^nP_r = \frac{n!}{(n-r)!}
 
-$$\text{Combinations (Order Doesn't Matter): } ^nC_r = \frac{n!}{r!(n-r)!}$$
+\text{Combinations (Order Doesn't Matter): } ^nC_r = \frac{n!}{r!(n-r)!}
+$$
+
 
 ## Steps / method
 
@@ -26,32 +29,20 @@ Use **permutations** when order matters; use **combinations** when it does not. 
 
 ## Worked example — Committee selection
 
-From 8 people, how many committees of 3 can be formed?
-
-Order does not matter, so use combinations:
-
-$$^8C_3 = \frac{8!}{3! \times 5!} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56$$
-
-There are **56** possible committees.
+From 8 people, how many committees of 3 can be formed? Order does not matter, so use combinations: $$
+^8C_3 = \frac{8!}{3! \times 5!} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56
+$$ There are **56** possible committees.
 
 ## Worked example — Ordered positions
 
-From 8 people, how many ways can President, Vice-President, and Secretary be chosen?
-
-Order matters, so use permutations:
-
-$$^8P_3 = \frac{8!}{5!} = 8 \times 7 \times 6 = 336$$
-
-There are **336** ordered selections.
+From 8 people, how many ways can President, Vice-President, and Secretary be chosen? Order matters, so use permutations: $$
+^8P_3 = \frac{8!}{5!} = 8 \times 7 \times 6 = 336
+$$ There are **336** ordered selections.
 
 ## Examiner tip
 
-Watch for keywords in questions: &quot;Select&quot; or &quot;Choose&quot; usually points to combinations ($^nC_r$), while &quot;Arrange&quot;, &quot;Sequence&quot;, or &quot;Signals&quot; indicates that order matters, requiring permutations ($^nP_r$).
+Watch for keywords in questions: "Select" or "Choose" usually points to combinations ($^nC_r$), while "Arrange", "Sequence", or "Signals" indicates that order matters, requiring permutations ($^nP_r$).
 
 ## Quick check
 
 If you select 3 items out of a pool of 5, the number of combinations ($^5C_3 = 10$) is smaller than the number of permutations ($^5P_3 = 60$) because order does not matter for combinations.
-
-## Visual / interactive intent
-
-New explorer: Counting picker tool. Users can configure a pool of colored shapes. Selecting an option displays either the ordered slot arrangements (Permutations) or the unordered group sacks (Combinations), showing how the two counts diverge.

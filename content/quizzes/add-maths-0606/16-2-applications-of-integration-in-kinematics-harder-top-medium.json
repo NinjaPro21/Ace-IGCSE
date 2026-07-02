@@ -1,0 +1,77 @@
+{
+  "id": "16-2-applications-of-integration-in-kinematics-harder-top-medium",
+  "topicId": "16-2-applications-of-integration-in-kinematics-harder-top",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "medium",
+  "title": "Applications of integration in kinematics — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-medium-q1",
+      "type": "mcq",
+      "question": "The acceleration of a particle is $a = 12t - 4$. Given that its velocity is 10 m/s when $t = 1$, find its velocity at $t = 2$.",
+      "options": [
+        "22 m/s",
+        "12 m/s",
+        "18 m/s",
+        "20 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "v = 6t^2 - 4t + c. At t=1, 6 - 4 + c = 10 => c = 8. v = 6t^2 - 4t + 8. At t=2, v = 6(4) - 4(2) + 8 = 24.\n\n**Common mistake:** Calculating c correctly but then making arithmetic errors in the final substitution."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-medium-q2",
+      "type": "mcq",
+      "question": "A car's velocity is $v = 10 + 2t - 0.5t^2$. Calculate its displacement during the first 6 seconds of its motion.",
+      "options": [
+        "60 m",
+        "96 m",
+        "72 m",
+        "100 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "s = ∫ from 0 to 6 (10 + 2t - 0.5t^2) dt = [10t + t^2 - t³/6] = 60 + 36 - 36 = 60.\n\n**Common mistake:** Miscalculating the integral of t^2 as t³/2 or making errors in the subtraction 96 - 36."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-medium-q3",
+      "type": "mcq",
+      "question": "A particle moves such that its velocity is $v = 3 \\sin t$2$s$2$t = 0$ and $t = \\pi$.",
+      "options": [
+        "6 m",
+        "0 m",
+        "3 m",
+        "-6 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "s = ∫ from 0 to π (3 sin t) dt = [-3 cos t] from 0 to π = -3 cos(π) - (-3 cos 0) = 3 + 3 = 6.\n\n**Common mistake:** Thinking the displacement is zero because they expect the sine wave to cancel out (this only happens over a full period of 2π)."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-medium-q4",
+      "type": "mcq",
+      "question": "An object has acceleration $a = e^{0.5t}$. Find its velocity at $t = 4$ if its initial velocity was 4 m/s.",
+      "options": [
+        "2e^2",
+        "2e^2 + 2",
+        "e^2 + 4",
+        "0.5e^2 + 3.5"
+      ],
+      "correctIndex": 1,
+      "explanation": "v = ∫ e^{0.5t} dt = 2e^{0.5t} + c. At t=0, v=4: 2(1) + c = 4 => c = 2. v = 2e^{0.5t} + 2. At t=4, v = 2e^2 + 2.\n\n**Common mistake:** Incorrectly integrating e^{0.5t} as 0.5e^{0.5t} or forgetting to use the initial condition to find c."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-medium-q5",
+      "type": "mcq",
+      "question": "The velocity of a particle is $v = 1 / (t + 1)$. Find the distance it travels from $t = 0$ to $t = e - 1$.",
+      "options": [
+        "1 m",
+        "e m",
+        "ln e m",
+        "0 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance = ∫ from 0 to e-1 (1/(t+1)) dt = [ln|t+1|] from 0 to e-1 = ln(e) - ln(1) = 1 - 0 = 1.\n\n**Common mistake:** Incorrectly evaluating the natural log at the boundaries."
+    }
+  ]
+}

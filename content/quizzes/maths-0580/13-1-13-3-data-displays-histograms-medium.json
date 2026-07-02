@@ -1,0 +1,77 @@
+{
+  "id": "13-1-13-3-data-displays-histograms-medium",
+  "topicId": "13-1-13-3-data-displays-histograms",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "medium",
+  "title": "Data Displays & Histograms — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-13-3-data-displays-histograms-medium-q1",
+      "type": "mcq",
+      "question": "A pie chart represents 36 cars. If there are 12 red cars, what is the size of the angle for the 'Red' sector?",
+      "options": [
+        "120°",
+        "70°",
+        "60°",
+        "40°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula (Frequency / Total) × 360°: (12 / 36) × 360 = 120°.\n\n**Common mistake:** Arithmetic errors during the division of the frequency by the total are common."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-medium-q2",
+      "type": "mcq",
+      "question": "Identify the value represented by the entry '3 | 2' in a stem-and-leaf diagram where the key states '1 | 4 = 14 years old'.",
+      "options": [
+        "32",
+        "3.2",
+        "5",
+        "23"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the provided key (1 | 4 = 14), the stem represents the tens digit and the leaf represents the units digit. Thus, 3 | 2 is 32.\n\n**Common mistake:** Reversing the digits to get 23 or misinterpreting the decimal place if the key is not read carefully."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-medium-q3",
+      "type": "mcq",
+      "question": "A histogram has a class interval of 10 to 30. If the frequency of this class is 36, calculate the frequency density.",
+      "options": [
+        "1.8",
+        "3.6",
+        "0.55",
+        "1.4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class width $= 30 - 10 = 20$. Frequency density $=$ Frequency / Class width $= 36 / 20 = 1.8$.\n\n**Common mistake:** Dividing the class width by the frequency instead of frequency by class width."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-medium-q4",
+      "type": "mcq",
+      "question": "In a stem-and-leaf diagram, there are 20 values. Which value(s) must you average to find the median?",
+      "options": [
+        "The 10th and 11th values",
+        "The 10th value only",
+        "The 5th and 15th values",
+        "The 1st and 20th values"
+      ],
+      "correctIndex": 0,
+      "explanation": "When there is an even number of values (n=20), the median is the mean (average) of the two middle numbers, which are the 10th and 11th values.\n\n**Common mistake:** Selecting only the 10th value, forgetting that even-numbered data sets require averaging two middle terms."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-medium-q5",
+      "type": "mcq",
+      "question": "Which type of bar chart is best for comparing the total number of people in two different groups while also showing the internal categories?",
+      "options": [
+        "Composite (stacked) bar chart",
+        "Dual (side-by-side) bar chart",
+        "Standard single bar chart",
+        "Pictogram"
+      ],
+      "correctIndex": 0,
+      "explanation": "A composite bar chart clearly shows the total number for each group (the total height) while allowing for comparison of the internal parts.\n\n**Common mistake:** Choosing a dual bar chart, which is better for comparing specific categories but makes seeing the group totals difficult."
+    }
+  ]
+}

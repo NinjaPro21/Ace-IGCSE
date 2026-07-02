@@ -1,0 +1,123 @@
+{
+  "id": "10-4-combinations-harder-topic-medium",
+  "topicId": "10-4-combinations-harder-topic",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "medium",
+  "title": "Combinations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-4-combinations-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "A sports team of 6 players is to be chosen from 7 men and 5 women. How many different teams can be formed if the team must consist of exactly 3 men and 3 women?",
+      "options": [
+        "350",
+        "70",
+        "924",
+        "1,260"
+      ],
+      "correctIndex": 0,
+      "explanation": "Select men: $^7C_3 = 35$. Select women: $^5C_3 = 10$. Total = $35 \\times 10 = 350$.\n\n**Common mistake:** Option C is $^{12}C_6$, which is the total number of ways to pick any 6 people without gender restrictions."
+    },
+    {
+      "id": "10-4-combinations-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Find the value of $n$2$^nC_2 = 45$.",
+      "options": [
+        "10",
+        "9",
+        "45",
+        "22.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{n(n-1)}{2} = 45 \\implies n^2 - n - 90 = 0 \\implies (n-10)(n+9) = 0$. Since $n > 0$, $n = 10$.\n\n**Common mistake:** Option B occurs if the student sets $n(n-1) = 45$ instead of^90."
+    },
+    {
+      "id": "10-4-combinations-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "A committee of 4 is to be selected from 9 people. One particular person, Mr. Jones, must be included in the committee. In how many ways can the committee be chosen?",
+      "options": [
+        "56",
+        "126",
+        "84",
+        "70"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since Mr. Jones is already chosen, we only need to select 3 more people from the remaining 8 candidates: $^8C_3 = 56$.\n\n**Common mistake:** Option B is $^9C_4$, the total ways to pick 4 people without any mandatory inclusion.",
+      "variants": [
+        {
+          "question": "A committee of 3 members is to be selected from a group of 8 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "56",
+            "336",
+            "24",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^8C_{3} = 56$."
+        },
+        {
+          "question": "A committee of 2 members is to be selected from a group of 10 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "45",
+            "90",
+            "20",
+            "4"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^10C_{2} = 45$."
+        },
+        {
+          "question": "A committee of 4 members is to be selected from a group of 10 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "210",
+            "5040",
+            "40",
+            "96"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^10C_{4} = 210$."
+        },
+        {
+          "question": "A committee of 3 members is to be selected from a group of 9 eligible candidates. Find the number of different combinations possible.",
+          "options": [
+            "84",
+            "504",
+            "27",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "$^9C_{3} = 84$."
+        }
+      ]
+    },
+    {
+      "id": "10-4-combinations-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "There are 10 distinct points on a circle. How many different triangles can be formed using these points as vertices?",
+      "options": [
+        "120",
+        "720",
+        "30",
+        "1,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "To form a triangle, you choose any 3 points from the 10. Order does not matter: $^{10}C_3 = 120$.\n\n**Common mistake:** Option B is $^{10}P_3$, implying that the order in which vertices are named changes the triangle."
+    },
+    {
+      "id": "10-4-combinations-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "A pizza parlor offers 8 different toppings. A customer wants to order a pizza with exactly 5 different toppings. How many topping combinations are possible?",
+      "options": [
+        "56",
+        "40",
+        "6,720",
+        "336"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^8C_5$ is equivalent to $^8C_3 = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.\n\n**Common mistake:** Option B is $8 \\times 5$, treating the problem as a simple multiplication of options."
+    }
+  ]
+}

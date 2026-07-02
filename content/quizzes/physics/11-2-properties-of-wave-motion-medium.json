@@ -1,0 +1,77 @@
+{
+  "id": "11-2-properties-of-wave-motion-medium",
+  "topicId": "11-2-properties-of-wave-motion",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "medium",
+  "title": "Properties of Wave Motion — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-2-properties-of-wave-motion-medium-q1",
+      "type": "mcq",
+      "question": "A wave source has a period of $0.05\\text{ s}$. What is its frequency?",
+      "options": [
+        "$20\\text{ Hz}$",
+        "$0.05\\text{ Hz}$",
+        "$50\\text{ Hz}$",
+        "$5\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency $f = 1/T = 1 / 0.05 = 20\\text{ Hz}$. \n\n**Common mistake:** Multiplying by the period instead of taking the reciprocal."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-medium-q2",
+      "type": "mcq",
+      "question": "A displacement-distance graph shows that the distance between the first crest and the third crest of a wave is $10\\text{ cm}$. What is the wavelength?",
+      "options": [
+        "$5\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$2.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance from the 1st to the 3rd crest covers two full wavelengths ($2\\lambda$). Therefore, $\\lambda = 10 / 2 = 5\\text{ cm}$. \n\n**Common mistake:** Thinking the distance between the 1st and 3rd crest is just one wavelength."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-medium-q3",
+      "type": "mcq",
+      "question": "Water waves enter a dock at a rate of $120$ crests per minute. Calculate the frequency of these waves in hertz (Hz).",
+      "options": [
+        "$2\\text{ Hz}$",
+        "$120\\text{ Hz}$",
+        "$0.5\\text{ Hz}$",
+        "$60\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is waves per 'second'. $120$ crests per minute $= 120 / 60 = 2\\text{ Hz}$. \n\n**Common mistake:** Using the 'per minute' value directly as the frequency in Hz."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-medium-q4",
+      "type": "mcq",
+      "question": "A wave travels at $0.50\\text{ m/s}$ with a wavelength of $5\\text{ cm}$. Calculate its frequency.",
+      "options": [
+        "$10\\text{ Hz}$",
+        "$0.1\\text{ Hz}$",
+        "$2.5\\text{ Hz}$",
+        "$100\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert $\\lambda$ to metres: $5\\text{ cm} = 0.05\\text{ m}$. Then $f = v / \\lambda = 0.50 / 0.05 = 10\\text{ Hz}$. \n\n**Common mistake:** Failing to convert cm to m, leading to $0.50 / 5 = 0.1\\text{ Hz}$."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-medium-q5",
+      "type": "mcq",
+      "question": "Two waves, P and Q, travel at the same speed. If the frequency of wave P is twice that of wave Q, how do their wavelengths compare?",
+      "options": [
+        "Wavelength of P is half that of Q",
+        "Wavelength of P is twice that of Q",
+        "Wavelengths are equal",
+        "$Wavelength of P is four \\times that of Q$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $v = f\\lambda$, for a constant speed, frequency and wavelength are inversely proportional. Doubling the frequency results in halving the wavelength. \n\n**Common mistake:** Thinking frequency and wavelength are directly proportional."
+    }
+  ]
+}

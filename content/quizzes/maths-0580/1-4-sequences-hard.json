@@ -1,0 +1,77 @@
+{
+  "id": "1-4-sequences-hard",
+  "topicId": "1-4-sequences",
+  "chapterId": "ch01-number",
+  "difficulty": "hard",
+  "title": "Sequences — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-4-sequences-hard-q1",
+      "type": "mcq",
+      "question": "Find the complete $n$2$3, 11, 23, 39, 59, \\dots$",
+      "options": [
+        "$2n^2 + 2n - 1$",
+        "$2n^2 + 6n - 5$",
+        "$4n^2 - 2n + 1$",
+        "$2n^2 - n + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First differences: 8, 12, 16, 20. Second differences: 4, 4, 4. Thus $a = 4\\div2 = 2$, so the sequence contains $2n^2$. Subtracting $2n^2$ from the terms: $3-2(1)=1, 11-2(4)=3, 23-2(9)=5$. The residual sequence is $1, 3, 5, \\dots$2$2n - 1$. Combining these gives $2n^2 + 2n - 1$.\n\n**Common mistake:** Students may fail to subtract the $2n^2$ base sequence correctly or find the linear component incorrectly, leading to misaligned coefficients."
+    },
+    {
+      "id": "1-4-sequences-hard-q2",
+      "type": "mcq",
+      "question": "A sequence is formed by multiplying the corresponding terms of two separate sequences. The first sequence is linear with an $n$2$2n + 1$. The second sequence is geometric with an $n$2$3^{n-1}$. Find the 3rd term of this composite sequence.",
+      "options": [
+        "63",
+        "21",
+        "189",
+        "45"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the 3rd term of the first sequence: $2(3) + 1 = 7$. Find the 3rd term of the second sequence: $3^{3-1} = 3^2 = 9$. Multiply the two independent terms together: $7 \\times 9 = 63$.\n\n**Common mistake:** Students may multiply the formulas first and mistake the rules of indices, or evaluate $3^{n-1}$ for $n=3$ as $3^3 = 27$ resulting in $7 \\times 27 = 189$."
+    },
+    {
+      "id": "1-4-sequences-hard-q3",
+      "type": "mcq",
+      "question": "The $n$2$n^3 - bn + 4$. Given that the 4th term is 52, determine the value of the constant coefficient $b$.",
+      "options": [
+        "4",
+        "3",
+        "-4",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $n = 4$ and set the expression equal to 52: $4^3 - b(4) + 4 = 52 \\implies 64 - 4b + 4 = 52 \\implies 68 - 4b = 52$. Shifting terms: $4b = 16 \\implies b = 4$.\n\n**Common mistake:** Students frequently compute $4^3$ as 12 or 16, or make errors with the signs when moving variables across the equation."
+    },
+    {
+      "id": "1-4-sequences-hard-q4",
+      "type": "mcq",
+      "question": "An arithmetic sequence has a 5th term of 23 and an 11th term of 53. Find the value of its 100th term.",
+      "options": [
+        "498",
+        "503",
+        "500",
+        "495"
+      ],
+      "correctIndex": 0,
+      "explanation": "The difference between terms: $U_{11} - U_5 = 6d = 53 - 23 = 30 \\implies d = 5$. Find the first term: $a + 4(5) = 23 \\implies a = 3$. Find the 100th term: $U_{100} = 3 + 99(5) = 3 + 495 = 498$.\n\n**Common mistake:** Students often count the difference in positions as $11 - 5 = 5$ instead of 6, or use $n$2$(n-1)$ in the formula, leading to 503."
+    },
+    {
+      "id": "1-4-sequences-hard-q5",
+      "type": "mcq",
+      "question": "The $n$2$\\frac{2n+3}{5n-2}$. Find the position $n$2$\\frac{1}{2}$.",
+      "options": [
+        "8",
+        "5",
+        "10",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equate the rule to $\\frac{1}{2}$: $\\frac{2n+3}{5n-2} = \\frac{1}{2}$. Cross-multiply: $2(2n + 3) = 1(5n - 2) \\implies 4n + 6 = 5n - 2$. Subtract $4n$2$n = 8$.\n\n**Common mistake:** Students often make mistakes when expanding brackets during cross-multiplication, such as writing $4n + 3 = 5n - 2$ which yields $n=5$."
+    }
+  ]
+}

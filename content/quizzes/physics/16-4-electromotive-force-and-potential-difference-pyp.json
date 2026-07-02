@@ -1,0 +1,77 @@
+{
+  "id": "16-4-electromotive-force-and-potential-difference-pyp",
+  "topicId": "16-4-electromotive-force-and-potential-difference",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "pyp",
+  "title": "Electromotive Force and Potential Difference — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-pyp-q1",
+      "type": "mcq",
+      "question": "A resistor converts $350\\text{ J}$ of electrical energy to other forms of energy. What is the amount of charge that flows through it when a potential difference of $7\\text{ V}$ is applied across it?",
+      "options": [
+        "$50\\text{ C}$",
+        "$0.20\\text{ C}$",
+        "$350\\text{ C}$",
+        "$2450\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the Let's Review section, $Q = W / V$. So, $Q = 350\\text{ J} / 7\\text{ V} = 50\\text{ C}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-pyp-q2",
+      "type": "mcq",
+      "question": "Which row correctly identifies what a voltmeter measures and its typical unit?",
+      "options": [
+        "Potential difference; Volt",
+        "Electromotive force; Ampere",
+        "Electric current; Volt",
+        "Electric charge; Joule"
+      ],
+      "correctIndex": 0,
+      "explanation": "A voltmeter is used to measure potential difference (p.d.) or electromotive force (e.m.f.) in volts (V).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows three identical resistors connected in series to a $6\\text{ V}$ source. What is the potential difference between points X and Y (across two resistors)?n[Diagram: Source --- R --- X --- R --- Y --- R --- Source]",
+      "options": [
+        "$4\\text{ V}$",
+        "$2\\text{ V}$",
+        "$3\\text{ V}$",
+        "$6\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total e.m.f. of $6\\text{ V}$ is shared equally across identical resistors. Each has $2\\text{ V}$. Across two resistors (X to Y), the reading is $2 + 2 = 4\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-pyp-q4",
+      "type": "mcq",
+      "question": "The table shows values for three different circuit components.nnComponent | Work Done ($W$) | Charge ($Q$)n--- | --- | ---n1 | $12\\text{ J}$ | $2\\text{ C}$ n2 | $10\\text{ J}$ | $5\\text{ C}$ n3 | $15\\text{ J}$ | $3\\text{ C}$ nnWhich component has the largest potential difference across it?",
+      "options": [
+        "Component 1",
+        "Component 2",
+        "Component 3",
+        "All components have the same p.d."
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculating $V = W / Q$: Component 1 is $12/2 = 6\\text{ V}$. Component 2 is $10/5 = 2\\text{ V}$. Component 3 is $15/3 = 5\\text{ V}$. Component 1 has the largest p.d.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-pyp-q5",
+      "type": "mcq",
+      "question": "A unit charge passes through an electric heater. The potential difference across the heater is $225\\text{ V}$. How much electrical energy is converted into thermal energy?",
+      "options": [
+        "$225\\text{ J}$",
+        "$1\\text{ J}$",
+        "$0.004\\text{ J}$",
+        "$450\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, potential difference is the work done (energy converted) by a unit charge ($Q = 1\\text{ C}$). So $W = V \\times Q = 225\\text{ V} \\times 1\\text{ C} = 225\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

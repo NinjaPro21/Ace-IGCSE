@@ -1,0 +1,77 @@
+{
+  "id": "8-2-the-particle-model-pyp",
+  "topicId": "8-2-the-particle-model",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "pyp",
+  "title": "The Particle Model — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-the-particle-model-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a smoke cell used to observe Brownian motion. What is observed through the microscope?",
+      "options": [
+        "Bright specks of light moving in a random zig-zag path",
+        "Air molecules moving at high speed in all directions",
+        "Smoke particles vibrating about fixed positions",
+        "A regular pattern of smoke particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under a microscope, smoke particles appear as bright specks reflecting light, moving randomly due to collisions with air molecules. \n\n**Common mistake:** Claiming to see the actual 'air molecules', which are too small to be seen with a light microscope."
+    },
+    {
+      "id": "8-2-the-particle-model-pyp-q2",
+      "type": "mcq",
+      "question": "Which of the following is correct for the absolute scale of temperature?",
+      "options": [
+        "The temperature of pure melting ice is $273\\text{ K}$",
+        "The temperature of pure boiling water is $100\\text{ K}$",
+        "Absolute zero is $273\\text{ K}$",
+        "The Kelvin scale can have negative values"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the Kelvin scale, $0^\\circ\\text{C}$ (melting ice) is equivalent to $273\\text{ K}$. \n\n**Common mistake:** Thinking absolute zero is $273\\text{ K}$; it is $0\\text{ K}$."
+    },
+    {
+      "id": "8-2-the-particle-model-pyp-q3",
+      "type": "mcq",
+      "question": "The table below shows the characteristics of particles in three states of matter. Which row represents a liquid?nn| Row | Arrangement | Spacing | Motion |n| :--- | :--- | :--- | :--- |n| A | Regular | Close | Vibrating |n| B | Random | Close | Moving past each other |n| C | Random | Far apart | Moving freely |n| D | Regular | Far apart | Stationary |",
+      "options": [
+        "Row B",
+        "Row A",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquids have particles that are close together but randomly arranged and able to move past one another. \n\n**Common mistake:** Selecting Row C, which describes the properties of a gas."
+    },
+    {
+      "id": "8-2-the-particle-model-pyp-q4",
+      "type": "mcq",
+      "question": "Which statement about absolute zero is NOT correct?",
+      "options": [
+        "The lowest temperature on the Celsius scale is $0^\\circ\\text{C}$",
+        "$-273^\\circ\\text{C}$ is the coldest temperature possible",
+        "Ice melts at approximately $273\\text{ K}$",
+        "At absolute zero, particles have the least kinetic energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Celsius scale can go well below $0^\\circ\\text{C}$, down to $-273^\\circ\\text{C}$. \n\n**Common mistake:** Believing the Celsius scale ends at $0^\\circ\\text{C}$ simply because that is where water freezes."
+    },
+    {
+      "id": "8-2-the-particle-model-pyp-q5",
+      "type": "mcq",
+      "question": "A student decreases the temperature of a gas in a sealed container of constant volume. Which property of the gas particles also decreases?",
+      "options": [
+        "Average speed",
+        "Total number of particles",
+        "Size of each particle",
+        "Number of particles per unit volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temperature is a measure of average kinetic energy; decreasing it means the particles move with lower average speed. \n\n**Common mistake:** Thinking that cooling a gas makes the actual particles 'shrink' in size."
+    }
+  ]
+}

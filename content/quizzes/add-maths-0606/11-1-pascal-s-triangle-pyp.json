@@ -1,0 +1,77 @@
+{
+  "id": "11-1-pascal-s-triangle-pyp",
+  "topicId": "11-1-pascal-s-triangle",
+  "chapterId": "ch11-series",
+  "difficulty": "pyp",
+  "title": "Pascal’s Triangle — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-pascal-s-triangle-pyp-q1",
+      "type": "mcq",
+      "question": "Use Pascal’s triangle to expand $(1 - 3x)⁴$. What is the coefficient of $x^2$?",
+      "options": [
+        "54",
+        "6",
+        "-54",
+        "27"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row 4: 1, 4, 6, 4, 1. Term x^2 = 6(1)$^2$(-3x)$^2$ = 6(9x^2) = 54x^2.\n\n**Common mistake:** Squaring -3 to get -9, or forgetting to multiply by the Pascal coefficient 6."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-pyp-q2",
+      "type": "mcq",
+      "question": "Find the constant term in the expansion of $(x + 2/x)^4$ using the triangle.",
+      "options": [
+        "24",
+        "6",
+        "16",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row 4: 1, 4, 6, 4, 1. Constant occurs where powers of x cancel: 6(x)$^2$(2/x)$^2$ = 6(x^2)(4/x^2) = 24.\n\n**Common mistake:** Thinking the constant is the last term (16) and ignoring the middle term where x-powers balance."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-pyp-q3",
+      "type": "mcq",
+      "question": "The third and fourth terms of a row in Pascal’s triangle are 15 and 20. Find the third term of the next row.",
+      "options": [
+        "21",
+        "35",
+        "6",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row n: ..., 6, 15, 20... Row n+1: ..., (6+15)=21, (15+20)=35... The third term of the next row is 21.\n\n**Common mistake:** Adding 15 and 20 to get 35, which is the fourth term, not the third."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-pyp-q4",
+      "type": "mcq",
+      "question": "In the expansion of $(a + x)^n$, the first three coefficients are 1, 9, 36. Find the value of n.",
+      "options": [
+        "9",
+        "36",
+        "8",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "The second coefficient in Row n is n. Here, n = 9. Check: Row 9 3rd term = (9×8)/2 = 36. Correct.\n\n**Common mistake:** Assuming n is 36 or misidentifying the row from the 3rd term."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-pyp-q5",
+      "type": "mcq",
+      "question": "Find the coefficient of $x$2$(2 + x)^5$.",
+      "options": [
+        "80",
+        "5",
+        "10",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row 5: 1, 5, 10, 10, 5, 1. The x term is 5(2)⁴(x)¹ = 5(16)(x) = 80x.\n\n**Common mistake:** Using the 2nd term (5) directly without raising the '2' to the power of 4."
+    }
+  ]
+}

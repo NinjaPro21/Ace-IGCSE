@@ -1,0 +1,77 @@
+{
+  "id": "1-5-approximations-and-estimation-hard",
+  "topicId": "1-5-approximations-and-estimation",
+  "chapterId": "ch01-number",
+  "difficulty": "hard",
+  "title": "Approximations and Estimation — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-approximations-and-estimation-hard-q1",
+      "type": "mcq",
+      "question": "The base of a triangle is measured as $14\\text{ cm}$ correct to the nearest centimetre, and its area is given as $35\\text{ cm}^{2}$ correct to the nearest $5\\text{ cm}^{2}$. Calculate the lower bound for the height of this triangle.",
+      "options": [
+        "4.48 cm",
+        "5.00 cm",
+        "4.67 cm",
+        "4.33 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formula for height: $h = \\frac{2A}{b}$. To find the lower bound of $h$2$A$2$b$2$A_{\\text{min}} = 32.5$, $b_{\\text{max}} = 14.5$. $h_{\\text{min}} = \\frac{2 \\times 32.5}{14.5} = \\frac{65}{14.5} \\approx 4.4827\\text{ cm}$.\n\n**Common mistake:** Students often forget the factor of 2 in the triangle area formula, or divide the lower bound of area by the lower bound of the base."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-hard-q2",
+      "type": "mcq",
+      "question": "A batch of concrete floor tiles has a total thickness when stacked of $h = 120\\text{ mm}$ correct to the nearest $5\\text{ mm}$. The stack contains exactly 15 tiles. Find the upper bound of the thickness of a single tile.",
+      "options": [
+        "8.17 mm",
+        "8.00 mm",
+        "8.33 mm",
+        "7.83 mm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Upper bound of total stack thickness is $122.5\\text{ mm}$. Divide by the precise number of discrete items in the stack: $122.5 \\div 15 \\approx 8.1667\\text{ mm}$, which rounds up to 8.17 mm.\n\n**Common mistake:** Students may change the count parameter or add a variation value after dividing nominal dimensions."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-hard-q3",
+      "type": "mcq",
+      "question": "The total mass of 40 identical packaging boxes is $360\\text{ kg}$, measured correct to the nearest $10\\text{ kg}$. Find the upper bound for the mass of one packing box.",
+      "options": [
+        "9.125 kg",
+        "9.000 kg",
+        "8.875 kg",
+        "9.250 kg"
+      ],
+      "correctIndex": 0,
+      "explanation": "The upper bound of the cumulative mass is $365\\text{ kg}$. Since there are exactly 40 boxes, divide this upper boundary limit by 40: $365 \\div 40 = 9.125\\text{ kg}$.\n\n**Common mistake:** Students often calculate the nominal value ($360 \\div 40 = 9$) and append the wrong boundary variation element."
+    },
+    {
+      "type": "mcq",
+      "question": "Julie walks **48 km**, correct to the nearest kilometre, every day for **5 days**. Find the lower bound for the total distance $d$ she walks.",
+      "options": [
+        "$237.5 \\le d$",
+        "$235 \\le d$",
+        "$240 \\le d$",
+        "$239.5 \\le d$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lower bound for one day is $47.5$ km. For 5 days, the lower limit is $5 \\times 47.5 = 237.5$ km.\n\n**Common mistake:** Calculating the lower bound of the total ($240 - 0.5$) rather than summing the lower bounds of each individual day.",
+      "id": "1-5-approximations-and-estimation-hard-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "A rectangle has sides of length **10 cm** and **7 cm**, both measured to the nearest centimetre. Calculate the **largest possible value** of the area of the rectangle.",
+      "options": [
+        "$78.75\\text{ cm}^2$",
+        "$70\\text{ cm}^2$",
+        "$74.25\\text{ cm}^2$",
+        "$80\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the upper bounds: $10.5$ cm and $7.5$ cm. The maximum area is $10.5 \\times 7.5 = 78.75\\text{ cm}^2$.\n\n**Common mistake:** Multiplying the rounded measurements ($10 \\times 7$) and then adding a generic error margin.",
+      "id": "1-5-approximations-and-estimation-hard-q5"
+    }
+  ]
+}

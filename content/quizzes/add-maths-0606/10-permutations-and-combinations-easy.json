@@ -1,0 +1,142 @@
+{
+  "id": "10-permutations-and-combinations-easy",
+  "topicId": "10-permutations-and-combinations",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "easy",
+  "title": "Permutations and Combinations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-permutations-and-combinations-easy-q1",
+      "type": "mcq",
+      "question": "Calculate the value of $^6\\text{P}_2$.",
+      "options": [
+        "30",
+        "12",
+        "15",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^6\\text{P}_2 = 6! / (6-2)! = 6! / 4! = 6 \\times 5 = 30$.\n\n**Common mistake:** Calculating $6 \\times 2 = 12$ or using the combination formula to get 15."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q2",
+      "type": "mcq",
+      "question": "In how many ways can 4 different books be arranged in a row on a shelf?",
+      "options": [
+        "24",
+        "4",
+        "12",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a permutation of 4 objects taken 4 at a time: $^4\\text{P}_4 = 4! = 4 \\times 3 \\times 2 \\times 1 = 24$.\n\n**Common mistake:** Thinking the answer is $4^2 = 16$."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q3",
+      "type": "mcq",
+      "question": "How many different 3-letter 'words' (arrangements) can be made using the letters of the word 'PENCIL' if no letter is repeated?",
+      "options": [
+        "120",
+        "720",
+        "20",
+        "18"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are 6 distinct letters. We choose and arrange 3: $^6\\text{P}_3 = 6 \\times 5 \\times 4 = 120$.\n\n**Common mistake:** Calculating $6! = 720$ (arranging all letters) or $6 \\times 3 = 18$."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q4",
+      "type": "mcq",
+      "question": "State the value of $^n\\text{P}_1$ for any positive integer $n$.",
+      "options": [
+        "n",
+        "1",
+        "n!",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^n\\text{P}_1 = n! / (n-1)! = n$.\n\n**Common mistake:** Thinking the result is 1, confusing it with $^n\\text{C}_n$ or similar identity."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q5",
+      "type": "mcq",
+      "question": "Find the value of $n$2$^n\\text{P}_2 = 42$.",
+      "options": [
+        "7",
+        "6",
+        "21",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(n-1) = 42$. Since $7 \\times 6 = 42$, $n = 7$.\n\n**Common mistake:** Dividing 42 by 2 to get 21."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q6",
+      "type": "mcq",
+      "question": "Calculate the value of $^8C_3$.",
+      "options": [
+        "56",
+        "336",
+        "24",
+        "40,320"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $^nC_r = \\frac{n!}{r!(n-r)!}$, we have $^8C_3 = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.\n\n**Common mistake:** Option B is the result for permutations ($^8P_3$), where the student forgets to divide by $r!$."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q7",
+      "type": "mcq",
+      "question": "A student needs to choose 4 elective subjects from a list of 10 available options. In how many ways can this be done?",
+      "options": [
+        "210",
+        "5,040",
+        "40",
+        "10,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a combination problem because the order of choice does not matter: $^{10}C_4 = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 210$.\n\n**Common mistake:** Option B ($^{10}P_4$) occurs if the student treats the selection as an ordered arrangement."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q8",
+      "type": "mcq",
+      "question": "Which of the following is always equal to $^nC_r$?",
+      "options": [
+        "$^nC_{n-r}$",
+        "$^nC_{r-1}$",
+        "$n \\times r$",
+        "$^rC_n$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symmetry property of combinations states that choosing $r$2$n-r$ items to leave behind.\n\n**Common mistake:** Option D is a common notation error; $r$2$n$ in standard combinations."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q9",
+      "type": "mcq",
+      "question": "How many ways are there to select a committee of 5 people from a group of 5 candidates?",
+      "options": [
+        "1",
+        "5",
+        "120",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^nC_n$2$1$ because there is only one way to select every item in a set.\n\n**Common mistake:** Option B ($n$2$^nC_n$2$^nC_1$."
+    },
+    {
+      "id": "10-permutations-and-combinations-easy-q10",
+      "type": "mcq",
+      "question": "Find the number of ways to choose 2 colors from a box containing 12 distinct colored pencils.",
+      "options": [
+        "66",
+        "132",
+        "24",
+        "144"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^{12}C_2 = \\frac{12 \\times 11}{2 \\times 1} = 66$.\n\n**Common mistake:** Option B is $12 \\times 11$, forgetting to divide by $2!$ for the unordered nature of the selection."
+    }
+  ]
+}

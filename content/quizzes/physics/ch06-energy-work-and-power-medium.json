@@ -1,0 +1,272 @@
+{
+  "id": "ch06-energy-work-and-power-medium",
+  "topicId": "ch06-energy-work-and-power",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "medium",
+  "title": "Chapter 6: Energy, Work and Power — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch06-energy-work-and-power-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the kinetic energy of a car with a mass of $1000\\text{ kg}$ travelling at a speed of $10\\text{ m/s}$.",
+      "options": [
+        "$50 000\\text{ J}$",
+        "$100 000\\text{ J}$",
+        "$10 000\\text{ J}$",
+        "$5 000\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $E_k = \\frac{1}{2}mv^2$: $E_k = 0.5 \\times 1000 \\times 10^{2} = 500 \\times 100 = 50 000\\text{ J}$. \n\n**Common mistake:** Forgetting to square the velocity ($5000\\text{ J}$) or forgetting the $\\frac{1}{2}$ ($100 000\\text{ J}$)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q2",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ package is lifted vertically by $5.0\\text{ m}$. Calculate the gain in its gravitational potential energy ($g = 10\\text{ N/kg}$).",
+      "options": [
+        "$100\\text{ J}$",
+        "$10\\text{ J}$",
+        "$20\\text{ J}$",
+        "$50\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $Delta E_p = mgDelta h$: $E_p = 2.0 \\times 10 \\times 5.0 = 100\\text{ J}$. \n\n**Common mistake:** Dividing the values instead of multiplying them."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q3",
+      "type": "mcq",
+      "question": "What are the main energy conversions that take place when a light bulb is connected to a battery?",
+      "options": [
+        "Chemical $rightarrow$ Electrical $rightarrow$ Light and Heat",
+        "Electrical $rightarrow$ Chemical $rightarrow$ Light",
+        "Kinetic $rightarrow$ Electrical $rightarrow$ Light",
+        "Light $rightarrow$ Electrical $rightarrow$ Thermal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The battery stores chemical potential energy, which converts to electrical energy in the circuit, then to light and thermal (heat) energy in the bulb. \n\n**Common mistake:** Omitting the thermal energy part; light bulbs always generate heat."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q4",
+      "type": "mcq",
+      "question": "Two identical balls are rolling. Ball A moves at $2\\text{ m/s}$ and Ball B moves at $4\\text{ m/s}$. How does the kinetic energy of Ball B compare to Ball A?",
+      "options": [
+        "$It is 4 \\times greater$",
+        "$It is 2 \\times greater$",
+        "$It is 8 \\times greater$",
+        "It is the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because $E_k \\propto v^2$, doubling the speed ($2 rightarrow 4$) increases the kinetic energy by $2^2 = 4$ times. \n\n**Common mistake:** Thinking speed and kinetic energy are directly proportional, which would mean it only doubles."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q5",
+      "type": "mcq",
+      "question": "For a swinging ideal pendulum in a vacuum, which statement is true about its energy at the highest point of its swing?",
+      "options": [
+        "It has maximum gravitational potential energy and zero kinetic energy",
+        "It has maximum kinetic energy and zero gravitational potential energy",
+        "Its kinetic energy is equal to its gravitational potential energy",
+        "It has zero total energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the highest point, the pendulum momentarily stops, so $v=0$ and $KE=0$. All its energy is stored as gravitational potential energy. \n\n**Common mistake:** Thinking it has maximum kinetic energy at the top; that occurs at the lowest point (bottom of the swing)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q6",
+      "type": "mcq",
+      "question": "A horizontal force of $8\\text{ N}$ pushes a trolley $5\\text{ m}$ across a floor. Calculate the work done on the trolley.",
+      "options": [
+        "$40\\text{ J}$",
+        "$1.6\\text{ J}$",
+        "$13\\text{ J}$",
+        "$0.625\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = F \\times s = 8\\text{ N} \\times 5\\text{ m} = 40\\text{ J}$. **Common mistake:** Dividing force by distance ($1.6$) instead of multiplying."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q7",
+      "type": "mcq",
+      "question": "A student lifts a $4\\text{ kg}$ box vertically through a height of $1.5\\text{ m}$. Calculate the work done against gravity. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$60\\text{ J}$",
+        "$6\\text{ J}$",
+        "$40\\text{ J}$",
+        "$15\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done against gravity $= mgh = 4\\text{ kg} \\times 10\\text{ N/kg} \\times 1.5\\text{ m} = 60\\text{ J}$. **Common mistake:** Using the mass directly without multiplying by $g$ to find the weight ($4 \\times 1.5 = 6$)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q8",
+      "type": "mcq",
+      "question": "A force of $40\\text{ N}$ is used to push a trolley a distance of $10\\text{ m}$ up an incline. What is the mechanical work done by this force?",
+      "options": [
+        "$400\\text{ J}$",
+        "$4\\text{ J}$",
+        "$0.25\\text{ J}$",
+        "$40\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is force \\times the distance moved along the line of action of the force. $40\\text{ N} \\times 10\\text{ m} = 400\\text{ J}$. **Common mistake:** Trying to use the vertical height (which is not provided here) instead of the distance moved along the incline."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q9",
+      "type": "mcq",
+      "question": "To convert a work value from kilojoules ($\\text{kJ}$) to the SI unit joules ($J$), you should:",
+      "options": [
+        "Multiply by 1000",
+        "Divide by 1000",
+        "Multiply by 100",
+        "Divide by 3600"
+      ],
+      "correctIndex": 0,
+      "explanation": "The prefix 'kilo' means 1000, so $1\\text{ kJ} = 1000\\text{ J}$. **Common mistake:** Dividing by 1000, which is the conversion from $J$ to $kJ$."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q10",
+      "type": "mcq",
+      "question": "A box is pulled $3.0\\text{ m}$ across a smooth floor by a horizontal force, doing $24\\text{ J}$ of work. What is the magnitude of the force?",
+      "options": [
+        "$8.0\\text{ N}$",
+        "$72\\text{ N}$",
+        "$0.125\\text{ N}$",
+        "$27\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $W = Fs$ gives $F = W/s = 24\\text{ J} / 3.0\\text{ m} = 8.0\\text{ N}$. **Common mistake:** Multiplying work and distance to get $72$."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q11",
+      "type": "mcq",
+      "question": "For which of the following energy resources is the Sun NOT the original source of energy?",
+      "options": [
+        "Geothermal energy",
+        "Wind energy",
+        "Hydropower",
+        "Biofuels"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sun is the source for wind, hydro, and biofuels, but geothermal energy comes from the Earth's internal heat. \n\n**Common mistake:** Thinking all renewable resources come from the Sun."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q12",
+      "type": "mcq",
+      "question": "A power station has an efficiency of $40\\%$. If the total energy input is $500\\text{ MJ}$, calculate the useful energy output.",
+      "options": [
+        "$200\\text{ MJ}$",
+        "$1250\\text{ MJ}$",
+        "$300\\text{ MJ}$",
+        "$460\\text{ MJ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Useful output = $\\text{Efficiency} \\times \\text{Input} = 0.40 \\times 500 = 200\\text{ MJ}$. \n\n**Common mistake:** Dividing the input by efficiency ($1250$) or calculating the wasted energy ($300$)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q13",
+      "type": "mcq",
+      "question": "Which statement correctly identifies a disadvantage of nuclear power stations?",
+      "options": [
+        "They produce radioactive waste that is difficult to store safely.",
+        "They release large amounts of greenhouse gases during operation.",
+        "They are highly dependent on daily weather conditions.",
+        "They have a very low energy density compared to wood."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear energy is less polluting in terms of air emissions but produces dangerous radioactive waste. \n\n**Common mistake:** Thinking nuclear plants produce as much $\\text{CO}_2$ as coal plants."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q14",
+      "type": "mcq",
+      "question": "An electric motor has a power input of $200\\text{ W}$ and a useful power output of $160\\text{ W}$. How much power is wasted as heat and sound?",
+      "options": [
+        "$40\\text{ W}$",
+        "$80\\text{ W}$",
+        "$360\\text{ W}$",
+        "$20\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total Input = Useful Output + Wasted. So, $200 - 160 = 40\\text{ W}$. \n\n**Common mistake:** Calculating the efficiency percentage ($80\\%$) instead of the power value."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q15",
+      "type": "mcq",
+      "question": "Energy is released in the Sun through which specific process?",
+      "options": [
+        "Nuclear fusion",
+        "Nuclear fission",
+        "Chemical combustion",
+        "Thermal radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is released by nuclear fusion in the Sun. \n\n**Common mistake:** Confusing fusion (combining nuclei) with fission (splitting nuclei), which is used in current power stations."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q16",
+      "type": "mcq",
+      "question": "Boy A and Boy B have equal mass. They climb to the same height, but Boy A reaches the top in a shorter time. How does their power compare?",
+      "options": [
+        "Boy A has more power than Boy B",
+        "Boy B has more power than Boy A",
+        "They have equal power because their masses are equal",
+        "They have equal power because they climbed the same distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both do the same work because they have the same mass and height. However, Boy A is more powerful because he performs that work more quickly. \n\n**Common mistake:** Equating power only to the amount of work done without considering the time duration."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q17",
+      "type": "mcq",
+      "question": "An electric motor in a washing machine has a power output of $1.0\\text{ kW}$. Calculate the work done by the motor in half an hour ($30\\text{ minutes}$).",
+      "options": [
+        "$1.8\\text{ MJ}$",
+        "$30\\text{ kJ}$",
+        "$0.5\\text{ kJ}$",
+        "$180\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = 1000\\text{ W}$; $t = 30 \\times 60 = 1800\\text{ s}$. $Work = P \\times t = 1000 \\times 1800 = 1800000\\text{ J} = 1.8\\text{ MJ}$. \n\n**Common mistake:** Failing to convert half an hour into seconds before calculating."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q18",
+      "type": "mcq",
+      "question": "Two electric kettles contain the same amount of water. Kettle X is rated at $500\\text{ W}$ and Kettle Y is rated at $1000\\text{ W}$. How does the time taken to boil the water compare?",
+      "options": [
+        "Kettle Y will take half the time of Kettle X",
+        "Kettle X will take half the time of Kettle Y",
+        "They will take the same amount of time",
+        "$Kettle Y will take four \\times as long as Kettle X$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A higher power rating means energy is transferred faster. Since Kettle Y has double the power of Kettle X, it can transfer the same required boiling energy in half the time. \n\n**Common mistake:** Reversing the logic and thinking higher power takes longer."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q19",
+      "type": "mcq",
+      "question": "A student lifts a $2.0\\text{ kg}$ mass vertically through a height of $5.0\\text{ m}$ in $4.0\\text{ s}$. Calculate the power used against gravity. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$25\\text{ W}$",
+        "$2.5\\text{ W}$",
+        "$40\\text{ W}$",
+        "$100\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work $W = mgh = 2.0 \\times 10 \\times 5.0 = 100\\text{ J}$. Power $P = W / t = 100 / 4.0 = 25\\text{ W}$. \n\n**Common mistake:** Forgetting to multiply by $g$ ($10$) to get the weight, leading to $2.5\\text{ W}$."
+    },
+    {
+      "id": "ch06-energy-work-and-power-medium-q20",
+      "type": "mcq",
+      "question": "An electric hoist has a total power input of $500\\text{ W}$ and an efficiency of $60\\%$. Calculate the useful power output.",
+      "options": [
+        "$300\\text{ W}$",
+        "$833\\text{ W}$",
+        "$200\\text{ W}$",
+        "$30\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Useful Power $= \\text{Efficiency} \\times \\text{Total Input} = 0.60 \\times 500 = 300\\text{ W}$. \n\n**Common mistake:** Dividing input by efficiency ($833$) or calculating the wasted power ($200$)."
+    }
+  ]
+}

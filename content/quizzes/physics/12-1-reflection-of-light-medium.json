@@ -1,0 +1,77 @@
+{
+  "id": "12-1-reflection-of-light-medium",
+  "topicId": "12-1-reflection-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "medium",
+  "title": "Reflection of Light — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-1-reflection-of-light-medium-q1",
+      "type": "mcq",
+      "question": "An object is placed $2.5\\text{ m}$ in front of a plane mirror. What is the distance between the object and its image?",
+      "options": [
+        "$5.0\\text{ m}$",
+        "$2.5\\text{ m}$",
+        "$1.25\\text{ m}$",
+        "$0\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The image is the same distance behind the mirror ($2.5\\text{ m}$) as the object is in front. The total distance is $2.5 + 2.5 = 5.0\\text{ m}$. \n\n**Common mistake:** giving only the distance from the mirror to the image ($2.5\\text{ m}$)."
+    },
+    {
+      "id": "12-1-reflection-of-light-medium-q2",
+      "type": "mcq",
+      "question": "A ray of light strikes a mirror such that the angle between the incident ray and the mirror surface is $40^circ$. What is the angle of reflection?",
+      "options": [
+        "$50^circ$",
+        "$40^circ$",
+        "$80^circ$",
+        "$100^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle of incidence is measured from the normal. If the ray is $40^circ$ from the surface, $i = 90^circ - 40^circ = 50^circ$. Since $i = r$, $r = 50^circ$. \n\n**Common mistake:** using the $40^circ$ surface angle as the angle of incidence."
+    },
+    {
+      "id": "12-1-reflection-of-light-medium-q3",
+      "type": "mcq",
+      "question": "A girl stands $1.2\\text{ m}$ in front of a mirror. If she moves $0.4\\text{ m}$ closer to the mirror, how far is she now from her image?",
+      "options": [
+        "$1.6\\text{ m}$",
+        "$0.8\\text{ m}$",
+        "$2.4\\text{ m}$",
+        "$3.2\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Her new distance from the mirror is $1.2 - 0.4 = 0.8\\text{ m}$. The distance between her and her image is $0.8 + 0.8 = 1.6\\text{ m}$. \n\n**Common mistake:** subtracting the movement from the original distance without doubling for the image."
+    },
+    {
+      "id": "12-1-reflection-of-light-medium-q4",
+      "type": "mcq",
+      "question": "The angle between the incident ray and the reflected ray is $74^circ$. Calculate the angle of incidence.",
+      "options": [
+        "$37^circ$",
+        "$74^circ$",
+        "$16^circ$",
+        "$148^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total angle between the two rays is $i + r$. Since $i = r$, then $2i = 74^circ$, which means $i = 37^circ$. \n\n**Common mistake:** assuming the angle of incidence is the total angle given ($74^circ$)."
+    },
+    {
+      "id": "12-1-reflection-of-light-medium-q5",
+      "type": "mcq",
+      "question": "According to Worked Example 12B, which of these letters appears the same when reflected in a plane mirror?",
+      "options": [
+        "H, Y, I",
+        "P, S, C",
+        "B, D, E",
+        "L, F, G"
+      ],
+      "correctIndex": 0,
+      "explanation": "The letters H, Y, and I have vertical symmetry, so they appear identical even when laterally inverted. \n\n**Common mistake:** thinking letters like S or C remain unchanged; they look different when reflected."
+    }
+  ]
+}

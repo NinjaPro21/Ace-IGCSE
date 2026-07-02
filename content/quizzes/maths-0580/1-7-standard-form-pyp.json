@@ -1,0 +1,77 @@
+{
+  "id": "1-7-standard-form-pyp",
+  "topicId": "1-7-standard-form",
+  "chapterId": "ch01-number",
+  "difficulty": "pyp",
+  "title": "Standard Form — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-standard-form-pyp-q1",
+      "type": "mcq",
+      "question": "Find the value of $p$2$8.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n$.",
+      "options": [
+        "9.0",
+        "14.4",
+        "8.46",
+        "9.4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite $6 \\times 10^{n-1}$ as $0.6 \\times 10^n$2$10^n$2$(8.4 + 0.6) \\times 10^n = 9.0 \\times 10^n$2$p = 9.0$.\n\n**Common mistake:** Students frequently add coefficients directly across differing index orders, erroneously concluding that $p = 14.4$ or $8.46$."
+    },
+    {
+      "id": "1-7-standard-form-pyp-q2",
+      "type": "mcq",
+      "question": "A cuboid has dimensions $2.4 \\times 10^{-2}\\text{ m}$, $5.0 \\times 10^{-3}\\text{ m}$, and $1.5 \\times 10^{-1}\\text{ m}$. Calculate the total volume of the cuboid, writing your answer in standard form.",
+      "options": [
+        "$1.8 \\times 10^{-5}$",
+        "$1.8 \\times 10^{-6}$",
+        "$18 \\times 10^{-6}$",
+        "$1.8 \\times 10^{-4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply lengths: $2.4 \\times 5.0 \\times 1.5 = 18$. Sum indices: $-2 + (-3) + (-1) = -6$. Normalizing $18 \\times 10^{-6}$ gives $1.8 \\times 10^{-5}$.\n\n**Common mistake:** Students often fail to adjust the power of ten when rewriting $18 \\times 10^{-6}$ into proper scientific notation style."
+    },
+    {
+      "id": "1-7-standard-form-pyp-q3",
+      "type": "mcq",
+      "question": "The speed of light is $3 \\times 10^{8}\\text{ m/s}$. Find the distance traveled by light in one minute, giving your answer in standard form.",
+      "options": [
+        "$1.8 \\times 10^{10}$",
+        "$1.8 \\times 10^{9}$",
+        "$3 \\times 10^{8}$",
+        "$1.8 \\times 10^{8}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is calculated via speed $\\times$2$60$ seconds, so $(3 \\times 10^{8}) \\times 60 = 180 \\times 10^{8} = 1.8 \\times 10^{10}\\text{ m}$.\n\n**Common mistake:** Students often multiply by 6 instead of 60, or fail to adjust the standard form power properly, giving $1.8 \\times 10^{9}$."
+    },
+    {
+      "id": "1-7-standard-form-pyp-q4",
+      "type": "mcq",
+      "question": "Hence, find the value of $(1.2 \\times 10^{6}) \\div (4 \\times 10^{-3})$, giving your final answer in standard form.",
+      "options": [
+        "$3 \\times 10^{8}$",
+        "$3 \\times 10^{2}$",
+        "$0.3 \\times 10^{9}$",
+        "$3 \\times 10^{9}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide coefficients: $1.2 / 4 = 0.3$. Subtract exponents: $6 - (-3) = 9$. Converting $0.3 \\times 10^{9}$ into proper standard form yields $3 \\times 10^{8}$.\n\n**Common mistake:** Students often compute $6 - 3 = 3$ or normalize $0.3 \\times 10^{9}$ incorrectly to $3 \\times 10^{9}$ instead of reducing the power."
+    },
+    {
+      "id": "1-7-standard-form-pyp-q5",
+      "type": "mcq",
+      "question": "Show that $5.6 \\times 10^{-4}$ can be written as $560 \\times 10^{-6}$. Use this format to find the value of $(5.6 \\times 10^{-4}) - (2.4 \\times 10^{-5})$, leaving your answer in standard form.",
+      "options": [
+        "$5.36 \\times 10^{-4}$",
+        "$3.2 \\times 10^{-4}$",
+        "$5.36 \\times 10^{-5}$",
+        "$5.576 \\times 10^{-4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert parameters: $5.6 \\times 10^{-4} = 53.6 \\times 10^{-5}$. Then, perform the subtraction: $(53.6 - 2.4) \\times 10^{-5} = 51.2 \\times 10^{-5} = 5.36 \\times 10^{-4}$.\n\n**Common mistake:** Students often subtract coefficients directly without index alignment, leading to errors like $3.2 \\times 10^{-4}$."
+    }
+  ]
+}

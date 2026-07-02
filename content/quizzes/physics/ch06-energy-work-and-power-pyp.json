@@ -1,0 +1,272 @@
+{
+  "id": "ch06-energy-work-and-power-pyp",
+  "topicId": "ch06-energy-work-and-power",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "pyp",
+  "title": "Chapter 6: Energy, Work and Power — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch06-energy-work-and-power-pyp-q1",
+      "type": "mcq",
+      "question": "A car screeches to a stop to avoid a collision on a level road. Which energy changes have occurred?",
+      "options": [
+        "Kinetic energy $rightarrow$ sound and thermal energy",
+        "Kinetic energy $rightarrow$ thermal energy only",
+        "Kinetic energy $rightarrow$ sound energy only",
+        "Kinetic energy $rightarrow$ light and sound energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The movement (KE) is transferred by friction into heat (thermal) in the brakes/tires and sound energy. \n\n**Common mistake:** Ignoring sound energy, which is clearly heard when a car 'screeches'."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q2",
+      "type": "mcq",
+      "question": "A $0.8\\text{ kg}$ brick is dropped from a building. It reaches the ground with a kinetic energy of $240\\text{ J}$. How tall is the building? ($g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$30\\text{ m}$",
+        "$19\\text{ m}$",
+        "$192\\text{ m}$",
+        "$300\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $GPE = Final KE = 240\\text{ J}$. Using $mgh = 240$: $0.8 \\times 10 \\times h = 240 rightarrow 8h = 240 rightarrow h = 30\\text{ m}$. \n\n**Common mistake:** Multiplying $240 \\times 0.8$ instead of dividing by the weight."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q3",
+      "type": "mcq",
+      "question": "Which of the following energy resources is the 'odd one out' compared to the others?",
+      "options": [
+        "Nuclear energy",
+        "Geothermal energy",
+        "Wind energy",
+        "Solar energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear energy is usually considered non-renewable, whereas wind, solar, and geothermal are renewable resources. \n\n**Common mistake:** Thinking geothermal is the odd one because it comes from the ground like nuclear materials."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows a simple pendulum displaced to point R, $2.0\\text{ cm}$ above its lowest point P. If air resistance is negligible, what is the gain in potential energy of the $10\\text{ g}$ bob at R? ($g = 10\\text{ N/kg}$)",
+      "options": [
+        "$0.002\\text{ J}$",
+        "$200\\text{ J}$",
+        "$20\\text{ J}$",
+        "$0.2\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$m = 0.01\\text{ kg}$, $h = 0.02\\text{ m}$. $E_p = 0.01 \\times 10 \\times 0.02 = 0.002\\text{ J}$. \n\n**Common mistake:** Failing to convert grams to kg and cm to m ($10 \\times 10 \\times 2 = 200$)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q5",
+      "type": "mcq",
+      "question": "Using the principle of conservation of energy, what determines the maximum speed of a swinging ideal pendulum?",
+      "options": [
+        "The initial height from which it is released",
+        "The mass of the pendulum bob",
+        "The material the bob is made from",
+        "The length of the string only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $mgh = \\frac{1}{2}mv^2$, the mass $m$ cancels out ($gh = \\frac{1}{2}v^2$). Thus, speed $v$ only depends on gravity $g$ and the change in height $h$. \n\n**Common mistake:** Thinking a heavier bob will swing faster."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q6",
+      "type": "mcq",
+      "question": "What is the work done by a force of $6.0\\text{ N}$ acting horizontally on a body of mass $4.0\\text{ kg}$ if the distance moved in the direction of the force is $3.0\\text{ m}$?",
+      "options": [
+        "$18\\text{ J}$",
+        "$12\\text{ J}$",
+        "$2\\text{ J}$",
+        "$24\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from the source: $W = F \\times s = 6.0\\text{ N} \\times 3.0\\text{ m} = 18\\text{ J}$. **Common mistake:** Using the mass ($4.0$) in the calculation, which is not required for work done ($6 \\times 3 = 18$)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q7",
+      "type": "mcq",
+      "question": "Which of the following is equivalent to the work done on an object?",
+      "options": [
+        "The energy transferred to the object",
+        "The rate of energy transfer",
+        "The force divided by the distance moved",
+        "The product of mass and acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that work done is equal to the energy transferred ($Delta E$). **Common mistake:** Selecting 'rate of energy transfer', which defines power."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q8",
+      "type": "mcq",
+      "question": "A $200\\text{ kg}$ load is lifted vertically through a distance of $30\\text{ m}$. Calculate the work done against gravity. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$60\\text{ kJ}$",
+        "$6000\\text{ J}$",
+        "$1.2\\text{ kJ}$",
+        "$60\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = mgh = 200 \\times 10 \\times 30 = 60000\\text{ J} = 60\\text{ kJ}$. **Common mistake:** Failing to convert $60000\\text{ J}$ to $60\\text{ kJ}$ and choosing $6000$ instead."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q9",
+      "type": "mcq",
+      "question": "A car of mass $1000\\text{ kg}$ travels at a constant speed of $10\\text{ m/s}$ along a horizontal road. If the driving force is $500\\text{ N}$, how much work is done by the driving force in $20\\text{ s}$?",
+      "options": [
+        "$100000\\text{ J}$",
+        "$10000\\text{ J}$",
+        "$200000\\text{ J}$",
+        "$5000\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Step 1: find distance $s = vt = 10\\text{ m/s} \\times 20\\text{ s} = 200\\text{ m}$. Step 2: $W = Fs = 500\\text{ N} \\times 200\\text{ m} = 100000\\text{ J}$. **Common mistake:** Multiplying force and time ($500 \\times 20 = 10000$) which is impulse, not work."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q10",
+      "type": "mcq",
+      "question": "A graph is plotted with Force ($y$-axis) against Distance moved ($x$-axis) for a constant force. What represents the work done?",
+      "options": [
+        "The area under the graph",
+        "The gradient of the line",
+        "The $y$-intercept",
+        "The total length of the line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $Work = Force \\times Distance$, the product of the axes (area) represents the total work done. **Common mistake:** Thinking the gradient is work; the gradient would be zero for a constant force."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q11",
+      "type": "mcq",
+      "question": "Which of the following energy resources is the 'odd one out' compared to the others?",
+      "options": [
+        "Nuclear energy",
+        "Geothermal energy",
+        "Wind energy",
+        "Solar energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "In standard IGCSE classifications, nuclear energy is the odd one out here as it is non-renewable, while the others are renewable. \n\n**Common mistake:** Selecting geothermal because it comes from the ground."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q12",
+      "type": "mcq",
+      "question": "What does it mean to say that a solar cell has an efficiency of $45\\%$?",
+      "options": [
+        "$45\\%$ of the input light energy is converted into useful electrical energy.",
+        "$45\\%$ of the energy is wasted as heat and sound.",
+        "The cell produces $45\\text{ J}$ of energy every hour regardless of light.",
+        "The cell requires $45\\text{ J}$ of energy to start working."
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency represents the percentage of total input energy that becomes useful output. \n\n**Common mistake:** Thinking the percentage refers to the wasted energy."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q13",
+      "type": "mcq",
+      "question": "A power station has an energy input of $2.5 \\times 10^{14}\\text{ J}$ and a useful energy output of $10.1 \\times 10^{13}\\text{ J}$. What is its efficiency?",
+      "options": [
+        "$40.4\\%$",
+        "$24.8\\%$",
+        "$2.5\\%$",
+        "$4.0\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$10.1 \\times 10^{13}$ is the same as $1.01 \\times 10^{14}$. Efficiency $= (1.01 / 2.5) \\times 100 = 40.4\\%$. \n\n**Common mistake:** Miscalculating the powers of ten or dividing the wrong way."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q14",
+      "type": "mcq",
+      "question": "Why is there always a difference between the energy input and the useful energy output in a power station?",
+      "options": [
+        "Some energy is always dissipated to the surroundings as thermal energy.",
+        "The principle of conservation of energy does not apply to power stations.",
+        "Energy is destroyed during the process of generating electricity.",
+        "The input energy is measured in different units than the output energy."
+      ],
+      "correctIndex": 0,
+      "explanation": "No machine is $100\\%$ efficient; energy is always lost (dissipated) as heat/sound to the surroundings. \n\n**Common mistake:** Believing energy is actually 'destroyed'."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q15",
+      "type": "mcq",
+      "question": "Which energy conversion takes place in a hydroelectric power station?",
+      "options": [
+        "Gravitational potential energy $rightarrow$ Kinetic energy $rightarrow$ Electrical energy",
+        "Chemical energy $rightarrow$ Thermal energy $rightarrow$ Electrical energy",
+        "Nuclear energy $rightarrow$ Kinetic energy $rightarrow$ Electrical energy",
+        "Solar energy $rightarrow$ Thermal energy $rightarrow$ Electrical energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water stored high up (GPE) falls (KE) to turn turbines (Electrical). \n\n**Common mistake:** Thinking hydroelectricity starts with thermal energy."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q16",
+      "type": "mcq",
+      "question": "A machine is able to lift $200\\text{ kg}$ of bricks vertically up to a height of $30\\text{ m}$ above the ground in $50\\text{ s}$. What is the power of the machine? (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$1.2\\text{ kW}$",
+        "$0.12\\text{ kW}$",
+        "$6.0\\text{ kW}$",
+        "$300\\text{ kW}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = mgh = 200 \\times 10 \\times 30 = 60000\\text{ J}$. Power $= 60000 / 50 = 1200\\text{ W} = 1.2\\text{ kW}$. \n\n**Common mistake:** Using the mass directly ($200 \\times 30 / 50 = 120\\text{ W}$) without multiplying by $g$."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q17",
+      "type": "mcq",
+      "question": "Which equation correctly represents the power $P$ of a device in terms of work done $W$, energy converted $Delta E$, and time $t$?",
+      "options": [
+        "$P = \\frac{W}{t} = \\frac{Delta E}{t}$",
+        "$P = W \\times t = Delta E \\times t$",
+        "$P = \\frac{t}{W} = \\frac{t}{Delta E}$",
+        "$P = W - t = Delta E - t$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is defined as work done or energy converted divided by the time taken. \n\n**Common mistake:** Multiplying work and time, which does not represent a standard physical rate."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q18",
+      "type": "mcq",
+      "question": "The table lists data for four power stations. Which station has the highest efficiency?nn| Station | Energy Input (J) | Useful Output (J) |n| :--- | :--- | :--- |n| P | $10.8 \\times 10^{14}$ | $3.28 \\times 10^{14}$ |n| Q | $17.1 \\times 10^{14}$ | $2.13 \\times 10^{14}$ |n| R | $2.5 \\times 10^{14}$ | $1.01 \\times 10^{14}$ |n| S | $2.1 \\times 10^{14}$ | $0.75 \\times 10^{14}$ |",
+      "options": [
+        "Station R",
+        "Station P",
+        "Station Q",
+        "Station S"
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency calculations: P=30.4%, Q=12.5%, R=40.4%, S=35.7%. Station R is the highest. \n\n**Common mistake:** Selecting the station with the largest output (P) without comparing it to the input."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q19",
+      "type": "mcq",
+      "question": "A motor has a power output of $500\\text{ W}$. How much work does it do in $20\\text{ s}$?",
+      "options": [
+        "$10000\\text{ J}$",
+        "$25\\text{ J}$",
+        "$520\\text{ J}$",
+        "$100\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = P \\times t = 500 \\times 20 = 10000\\text{ J}$. \n\n**Common mistake:** Dividing power by time ($500/20 = 25$)."
+    },
+    {
+      "id": "ch06-energy-work-and-power-pyp-q20",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the units for Work and Power?",
+      "options": [
+        "Work: Joule ($J$); Power: Watt ($W$)",
+        "Work: Watt ($W$); Power: Joule ($J$)",
+        "Work: Newton ($N$); Power: Watt ($W$)",
+        "Work: Joule ($J$); Power: Newton-metre ($Nm$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work (energy) is measured in Joules; Power (rate) is measured in Watts. \n\n**Common mistake:** Swapping the units for work and power."
+    }
+  ]
+}

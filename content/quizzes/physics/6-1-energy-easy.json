@@ -1,0 +1,77 @@
+{
+  "id": "6-1-energy-easy",
+  "topicId": "6-1-energy",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "easy",
+  "title": "Energy — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-1-energy-easy-q1",
+      "type": "mcq",
+      "question": "In physics, what is the definition of energy?",
+      "options": [
+        "The capacity to do work",
+        "The rate of change of momentum",
+        "The force applied over a distance",
+        "The product of mass and acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is defined as the capacity or ability to do work. \n\n**Common mistake:** Confusing energy with power, which is the rate at which energy is used."
+    },
+    {
+      "id": "6-1-energy-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit of energy?",
+      "options": [
+        "joule ($J$)",
+        "watt ($W$)",
+        "newton ($N$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for all forms of energy is the joule ($J$). \n\n**Common mistake:** Selecting watts ($W$), which is the unit for power."
+    },
+    {
+      "id": "6-1-energy-easy-q3",
+      "type": "mcq",
+      "question": "Which form of energy is stored in the nuclei of atoms, such as uranium?",
+      "options": [
+        "Nuclear energy",
+        "Chemical potential energy",
+        "Electrostatic potential energy",
+        "Internal energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear energy is the energy released during a nuclear reaction and is found in the nuclei of atoms. \n\n**Common mistake:** Thinking it is chemical potential energy, which is energy stored in the bonds between atoms, not the nucleus itself."
+    },
+    {
+      "id": "6-1-energy-easy-q4",
+      "type": "mcq",
+      "question": "Which statement correctly describes the principle of conservation of energy?",
+      "options": [
+        "Energy cannot be created or destroyed, only converted or transferred",
+        "Energy is always lost as heat in every process",
+        "The total amount of energy in the universe is constantly increasing",
+        "Potential energy is always equal to kinetic energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The principle of conservation of energy states that energy cannot be created or destroyed; it can only be converted from one form to another or transferred. \n\n**Common mistake:** Thinking energy 'disappears' when a machine is inefficient; it is actually converted into less useful forms like thermal energy."
+    },
+    {
+      "id": "6-1-energy-easy-q5",
+      "type": "mcq",
+      "question": "In a Sankey diagram, which direction does the arrow for 'wasted energy' usually point?",
+      "options": [
+        "Downwards",
+        "To the right",
+        "To the left",
+        "Upwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a Sankey diagram, energy input is on the left, useful energy output points to the right, and wasted energy points downwards. \n\n**Common mistake:** Thinking the horizontal arrow represents wasted energy."
+    }
+  ]
+}

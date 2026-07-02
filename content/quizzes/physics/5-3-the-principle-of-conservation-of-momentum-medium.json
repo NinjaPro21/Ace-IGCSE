@@ -1,0 +1,77 @@
+{
+  "id": "5-3-the-principle-of-conservation-of-momentum-medium",
+  "topicId": "5-3-the-principle-of-conservation-of-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "medium",
+  "title": "The Principle of Conservation of Momentum — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-medium-q1",
+      "type": "mcq",
+      "question": "Two ice skaters, A ($80\\text{ kg}$) and B ($50\\text{ kg}$), are stationary. They push each other off. Skater A moves at $0.5\\text{ m/s}$. What is the magnitude of Skater B's velocity?",
+      "options": [
+        "$0.8\\text{ m/s}$",
+        "$0.5\\text{ m/s}$",
+        "$0.3\\text{ m/s}$",
+        "$1.3\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial momentum is zero. After pushing off: $m_A v_A + m_B v_B = 0 implies (80 \\times 0.5) + (50 \\times v_B) = 0 implies 40 = -50 v_B$, so $|v_B| = 0.8\\text{ m/s}$. \n\n**Common mistake:** Thinking they move at the same speed regardless of mass."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-medium-q2",
+      "type": "mcq",
+      "question": "A ball A ($0.12\\text{ kg}$) moves at $0.40\\text{ m/s}$ and hits stationary ball B ($0.09\\text{ kg}$). After collision, ball B moves forward at $0.40\\text{ m/s}$. Calculate the velocity of ball A.",
+      "options": [
+        "$0.10\\text{ m/s}$",
+        "$0.40\\text{ m/s}$",
+        "$0.08\\text{ m/s}$",
+        "$0.30\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total before $= 0.12 \\times 0.4 = 0.048$. Total after $= (0.12 \\times v) + (0.09 \\times 0.4) = 0.12v + 0.036$. $0.048 = 0.12v + 0.036 implies 0.012 = 0.12v implies v = 0.10\\text{ m/s}$. \n\n**Common mistake:** Assuming Ball A stops completely."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-medium-q3",
+      "type": "mcq",
+      "question": "A car of mass $1200\\text{ kg}$ travelling at $8.0\\text{ m/s}$ hits a stationary lorry of mass $2800\\text{ kg}$. If they stick together, what is their speed immediately after collision?",
+      "options": [
+        "$2.4\\text{ m/s}$",
+        "$8.0\\text{ m/s}$",
+        "$4.0\\text{ m/s}$",
+        "$5.6\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total before $= 1200 \\times 8 = 9600\\text{ kg m/s}$. Combined mass $= 1200 + 2800 = 4000\\text{ kg}$. Speed $= 9600 / 4000 = 2.4\\text{ m/s}$. \n\n**Common mistake:** Using only the lorry's mass to calculate the final speed."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-medium-q4",
+      "type": "mcq",
+      "question": "Two identical balls collide. Ball X is moving at $2\\text{ m/s}$ and Ball Y is at rest. If the collision is elastic and Ball X comes to a stop, what is the velocity of Ball Y?",
+      "options": [
+        "$2\\text{ m/s}$",
+        "$1\\text{ m/s}$",
+        "$0\\text{ m/s}$",
+        "$4\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the masses are identical, for momentum to be conserved ($m \\times 2 = m \\times v$), the second ball must take on the entire initial velocity of the first. \n\n**Common mistake:** Thinking the velocity is shared ($1\\text{ m/s}$ each)."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-medium-q5",
+      "type": "mcq",
+      "question": "Object P moves East with $5\\text{ kg m/s}$ momentum. Object Q moves West with $5\\text{ kg m/s}$ momentum. What is the total momentum of the system?",
+      "options": [
+        "$0\\text{ kg m/s}$",
+        "$10\\text{ kg m/s}$ East",
+        "$10\\text{ kg m/s}$ West",
+        "$25\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector. Eastern direction is positive and Western is negative: $+5 + (-5) = 0$. \n\n**Common mistake:** Adding them as scalars to get $10$."
+    }
+  ]
+}

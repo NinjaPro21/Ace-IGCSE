@@ -1,0 +1,77 @@
+{
+  "id": "3-2-density-pyp",
+  "topicId": "3-2-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "pyp",
+  "title": "Density — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-density-pyp-q1",
+      "type": "mcq",
+      "question": "A student uses a measuring cylinder to find the volume of ten identical steel balls. The water level rises from $20\\text{ cm}^3$ to $50\\text{ cm}^3$. If one ball has a mass of $27\\text{ g}$, what is the density of the steel?",
+      "options": [
+        "$9.0\\text{ g/cm}^3$",
+        "$0.9\\text{ g/cm}^3$",
+        "$8.1\\text{ g/cm}^3$",
+        "$5.4\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume of 10 balls $= 30\\text{ cm}^3$, so volume of 1 ball $= 3\\text{ cm}^3$. Density $= 27\\text{ g} / 3\\text{ cm}^3 = 9.0\\text{ g/cm}^3$. \n\n**Common mistake:** Dividing the total mass of one ball by the total volume of ten balls ($0.9$)."
+    },
+    {
+      "id": "3-2-density-pyp-q2",
+      "type": "mcq",
+      "question": "The table shows the densities of four different liquids. Which liquid will float on top of all the others if they are immiscible?",
+      "options": [
+        "Liquid W: $0.70\\text{ g/cm}^3$",
+        "Liquid X: $1.00\\text{ g/cm}^3$",
+        "Liquid Y: $1.26\\text{ g/cm}^3$",
+        "Liquid Z: $13.6\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The liquid with the lowest density will always float on top of denser liquids. \n\n**Common mistake:** Choosing the liquid with the highest numerical value, confusing 'top layer' with 'most substance'."
+    },
+    {
+      "id": "3-2-density-pyp-q3",
+      "type": "mcq",
+      "question": "A graph is plotted with Mass on the y-axis and Volume on the x-axis for a particular substance. What does the gradient of the straight line represent?",
+      "options": [
+        "Density",
+        "Weight",
+        "Pressure",
+        "Gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $= \\text{change in } y / \\text{change in } x = \\text{Mass} / \\text{Volume}$, which is the definition of density. \n\n**Common mistake:** Thinking the gradient is weight, which would require a Mass vs Weight graph."
+    },
+    {
+      "id": "3-2-density-pyp-q4",
+      "type": "mcq",
+      "question": "Which set of equipment is required to determine the density of an irregularly shaped piece of metal that sinks in water?",
+      "options": [
+        "Electronic balance and measuring cylinder",
+        "Beam balance and metre rule",
+        "Spring balance and beaker",
+        "Measuring cylinder and stop-watch"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electronic balance measures mass and a measuring cylinder (using displacement) measures the volume of irregular objects. \n\n**Common mistake:** Selecting a metre rule, which can only measure regular shapes easily."
+    },
+    {
+      "id": "3-2-density-pyp-q5",
+      "type": "mcq",
+      "question": "A block of wood has a density of $600\\text{ kg/m}^3$. A second block of the same wood has double the mass. What is the density of the second block?",
+      "options": [
+        "$600\\text{ kg/m}^3$",
+        "$1200\\text{ kg/m}^3$",
+        "$300\\text{ kg/m}^3$",
+        "$2400\\text{ kg/m}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density is a constant property for a uniform material regardless of mass or size. \n\n**Common mistake:** Thinking that doubling the mass also doubles the density."
+    }
+  ]
+}

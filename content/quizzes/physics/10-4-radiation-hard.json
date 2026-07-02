@@ -1,0 +1,77 @@
+{
+  "id": "10-4-radiation-hard",
+  "topicId": "10-4-radiation",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "hard",
+  "title": "Radiation — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-4-radiation-hard-q1",
+      "type": "mcq",
+      "question": "What is the requirement for an object to remain at a constant temperature in a room?",
+      "options": [
+        "It must transfer energy away at the same rate that it receives energy.",
+        "It must stop emitting radiation entirely.",
+        "It must be a perfect reflector of all incident radiation.",
+        "It must be at the same density as the surrounding air."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal equilibrium (constant temperature) is achieved when the rate of energy absorption equals the rate of energy emission. \n\n**Common mistake:** Thinking constant temperature means no energy is being exchanged."
+    },
+    {
+      "id": "10-4-radiation-hard-q2",
+      "type": "mcq",
+      "question": "If the Earth receives energy from the Sun at a higher rate than it radiates energy back into space, what is the consequence?",
+      "options": [
+        "The temperature of the Earth will increase.",
+        "The temperature of the Earth will decrease.",
+        "The Earth will move further away from the Sun.",
+        "The rate of nuclear fusion in the Sun will decrease."
+      ],
+      "correctIndex": 0,
+      "explanation": "A net gain in energy (input > output) leads to an increase in the internal energy and thus a rise in temperature. \n\n**Common mistake:** Thinking the Earth would naturally 'vent' the extra energy without a temperature change."
+    },
+    {
+      "id": "10-4-radiation-hard-q3",
+      "type": "mcq",
+      "question": "A vacuum flask has silvered internal surfaces. What is the specific purpose of this design feature?",
+      "options": [
+        "To reduce thermal energy transfer by radiation.",
+        "To reduce thermal energy transfer by conduction.",
+        "To prevent the formation of convection currents.",
+        "To increase the structural strength of the glass walls."
+      ],
+      "correctIndex": 0,
+      "explanation": "The silvered surfaces reflect infrared radiation back towards the source, minimizing energy loss or gain via radiation. \n\n**Common mistake:** Believing the silvering blocks conduction; that is the job of the vacuum."
+    },
+    {
+      "id": "10-4-radiation-hard-q4",
+      "type": "mcq",
+      "question": "Space blankets are thin, shiny sheets used to keep people warm. Why are they effective even though they are very thin?",
+      "options": [
+        "They reflect the person's own body radiation back towards them.",
+        "They are made of a material with extremely high specific heat capacity.",
+        "They trap a thick layer of air to stop conduction.",
+        "They generate thermal energy through a chemical reaction with skin."
+      ],
+      "correctIndex": 0,
+      "explanation": "The shiny material acts as a reflector, sending emitted body heat back to the person instead of letting it escape to the surroundings. \n\n**Common mistake:** Thinking the blanket 'warms' the person by creating heat."
+    },
+    {
+      "id": "10-4-radiation-hard-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies factors affecting the rate of thermal energy transfer by radiation?",
+      "options": [
+        "Surface Temperature: Yes; Surface Area: Yes; Surface Colour: Yes",
+        "Surface Temperature: Yes; Surface Area: No; Surface Colour: Yes",
+        "Surface Temperature: No; Surface Area: Yes; Surface Colour: Yes",
+        "Surface Temperature: Yes; Surface Area: Yes; Surface Colour: No"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material identifies color, texture, surface area, and surface temperature as the primary factors. \n\n**Common mistake:** Forgetting that surface area plays a role in how much radiation can be emitted per second."
+    }
+  ]
+}

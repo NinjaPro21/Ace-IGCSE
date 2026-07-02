@@ -4,9 +4,10 @@ The Factor Theorem is a targeted algebraic tool that determines whether a specif
 
 ## Key formulas
 
-If $f(c) = 0$, then $(x - c)$ is a factor of $f(x)$.
-
-If $f\left(\frac{b}{a}\right) = 0$, then $(ax - b)$ is a factor of $f(x)$.
+$$
+f(c) = 0 \implies (x - c) \text{ is a factor of } f(x)
+$$
+$f\left(\frac{b}{a}\right) = 0 \implies (ax - b) \text{ is a factor of } f(x)$
 
 ## Steps / method
 
@@ -43,7 +44,3 @@ Examiners frequently trick students by changing the sign of the root value insid
 ## Quick check
 
 If f(−2)=0, then (x+2) is a guaranteed clean factor of the polynomial.
-
-## Visual / interactive intent
-
-New explorer — Interactive cubic factor mapping. Sliders move polynomial coefficients, and when a root crosses an integer value on the x-axis, a visual popup displays the matching factored bracket (x−root) to reinforce the theorem.

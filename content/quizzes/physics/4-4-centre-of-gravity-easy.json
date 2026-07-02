@@ -1,0 +1,77 @@
+{
+  "id": "4-4-centre-of-gravity-easy",
+  "topicId": "4-4-centre-of-gravity",
+  "chapterId": "ch04-forces",
+  "difficulty": "easy",
+  "title": "Centre of Gravity — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-4-centre-of-gravity-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of the centre of gravity of an object?",
+      "options": [
+        "The point through which the weight of the object acts",
+        "The geometric centre of any solid object",
+        "The point where the mass of an object is greatest",
+        "The point at the very bottom of an object"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centre of gravity is defined as the point through which the whole weight of an object appears to act. \n\n**Common mistake:** Thinking it is always the geometric centre; this is only true for uniform objects."
+    },
+    {
+      "id": "4-4-centre-of-gravity-easy-q2",
+      "type": "mcq",
+      "question": "Which two features make an object as stable as possible?",
+      "options": [
+        "A low centre of gravity and a wide base area",
+        "A high centre of gravity and a wide base area",
+        "A low centre of gravity and a narrow base area",
+        "A high centre of gravity and a narrow base area"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stability is increased by lowering the centre of gravity and increasing the width of the base. \n\n**Common mistake:** Thinking a high centre of gravity provides more balance, which actually makes it easier to topple."
+    },
+    {
+      "id": "4-4-centre-of-gravity-easy-q3",
+      "type": "mcq",
+      "question": "Where is the centre of gravity located for a uniform metre rule?",
+      "options": [
+        "At the $50\\text{ cm}$ mark",
+        "At the $0\\text{ cm}$ mark",
+        "At the $100\\text{ cm}$ mark",
+        "It depends on the weight of the rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a uniform object, the centre of gravity is at its midpoint; for a $100\\text{ cm}$ rule, this is the $50\\text{ cm}$ mark. \n\n**Common mistake:** Thinking the location changes with weight; the COG is a position, not a value of force."
+    },
+    {
+      "id": "4-4-centre-of-gravity-easy-q4",
+      "type": "mcq",
+      "question": "An object will topple over if the vertical line from its centre of gravity falls:",
+      "options": [
+        "Outside its base",
+        "Inside its base",
+        "Directly through the pivot",
+        "Above the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Toppling occurs when the weight creates a resultant moment because its line of action lies outside the supporting base. \n\n**Common mistake:** Believing it only topples if it is pushed with a very large force."
+    },
+    {
+      "id": "4-4-centre-of-gravity-easy-q5",
+      "type": "mcq",
+      "question": "What is a plumb line used for in a centre of gravity experiment?",
+      "options": [
+        "To trace a vertical line from a pivot point",
+        "To measure the weight of the lamina",
+        "To find the geometric centre of the shape",
+        "To balance the lamina horizontally"
+      ],
+      "correctIndex": 0,
+      "explanation": "A plumb line always hangs vertically due to gravity, allowing a student to mark the line along which the centre of gravity must lie. \n\n**Common mistake:** Confusing it with a ruler used to measure the length of the lamina."
+    }
+  ]
+}

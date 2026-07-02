@@ -1,0 +1,77 @@
+{
+  "id": "1-7-standard-form-medium",
+  "topicId": "1-7-standard-form",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Standard Form — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-standard-form-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the value of $(2.5 \\times 10^{4}) \\times (6 \\times 10^{5})$, leaving your answer in standard form.",
+      "options": [
+        "$1.5 \\times 10^{10}$",
+        "$15 \\times 10^{9}$",
+        "$1.5 \\times 10^{9}$",
+        "$1.5 \\times 10^{20}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the coefficients and add the indices: $2.5 \\times 6 = 15$ and $10^{4} \\times 10^{5} = 10^{9}$. Converting $15 \\times 10^{9}$ to standard form gives $1.5 \\times 10^{10}$.\n\n**Common mistake:** Students often leave the final expression as $15 \\times 10^{9}$, failing to normalize the leading coefficient to be less than 10."
+    },
+    {
+      "id": "1-7-standard-form-medium-q2",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{4.8 \\times 10^{3}}{1.2 \\times 10^{-2}}$ and express the result in standard form.",
+      "options": [
+        "$4 \\times 10^{5}$",
+        "$4 \\times 10^{1}$",
+        "$4 \\times 10^{4}$",
+        "$0.4 \\times 10^{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide coefficients and subtract indices: $4.8 / 1.2 = 4$ and $3 - (-2) = 5$, giving $4 \\times 10^{5}$.\n\n**Common mistake:** Students frequently make a sign error when subtracting negative indices, calculating $3 - 2 = 1$ instead of $3 - (-2) = 5$."
+    },
+    {
+      "id": "1-7-standard-form-medium-q3",
+      "type": "mcq",
+      "question": "Find the value of $(3 \\times 10^{5}) + (4.2 \\times 10^{4})$, giving your answer in standard form.",
+      "options": [
+        "$3.42 \\times 10^{5}$",
+        "$7.2 \\times 10^{9}$",
+        "$7.2 \\times 10^{5}$",
+        "$3.42 \\times 10^{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert parameters to match exponents: $4.2 \\times 10^{4} = 0.42 \\times 10^{5}$. Then, add the coefficients: $(3 + 0.42) \\times 10^{5} = 3.42 \\times 10^{5}$.\n\n**Common mistake:** Students often add coefficients directly without matching power boundaries, resulting in wrong additions like $7.2 \\times 10^{5}$ or $7.2 \\times 10^{9}$."
+    },
+    {
+      "id": "1-7-standard-form-medium-q4",
+      "type": "mcq",
+      "question": "Calculate $(8 \\times 10^{-4}) - (5 \\times 10^{-5})$, expressing the final value in standard form.",
+      "options": [
+        "$7.5 \\times 10^{-4}$",
+        "$3 \\times 10^{-4}$",
+        "$7.5 \\times 10^{-5}$",
+        "$3 \\times 10^{-9}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert to matching exponents: $5 \\times 10^{-5} = 0.5 \\times 10^{-4}$. Subtracting gives $(8 - 0.5) \\times 10^{-4} = 7.5 \\times 10^{-4}$.\n\n**Common mistake:** Students often subtract coefficients directly without adjusting indices, giving $3 \\times 10^{-4}$ or multiplying indices during subtraction."
+    },
+    {
+      "id": "1-7-standard-form-medium-q5",
+      "type": "mcq",
+      "question": "Evaluate $(4 \\times 10^{3})^3$ and write your answer in standard form.",
+      "options": [
+        "$6.4 \\times 10^{10}$",
+        "$64 \\times 10^{9}$",
+        "$1.2 \\times 10^{10}$",
+        "$6.4 \\times 10^{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cube both components: $4^3 = 64$ and $(10^{3})^3 = 10^{9}$. Convert $64 \\times 10^{9}$ into standard form to obtain $6.4 \\times 10^{10}$.\n\n**Common mistake:** Students often multiply the coefficient by the exponent ($4 \\times 3 = 12$) or add exponents instead of multiplying them."
+    }
+  ]
+}

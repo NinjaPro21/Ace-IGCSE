@@ -1,0 +1,77 @@
+{
+  "id": "18-1-electromagnetic-induction-medium",
+  "topicId": "18-1-electromagnetic-induction",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "medium",
+  "title": "Electromagnetic Induction — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-1-electromagnetic-induction-medium-q1",
+      "type": "mcq",
+      "question": "A student moves a magnet into a coil with $100$ turns at speed $v$. If they then use a coil with $200$ turns and move the same magnet at speed $2v$, what happens to the induced e.m.f.?",
+      "options": [
+        "It increases by a factor of 4",
+        "It increases by a factor of 2",
+        "It remains the same",
+        "It decreases by half"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both speed and the number of turns are factors that affect the magnitude. Doubling both will result in an induced e.m.f. that is four \\times larger ($2 \\times 2 = 4$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-medium-q2",
+      "type": "mcq",
+      "question": "According to the principle that induced e.m.f. opposes the change causing it, which pole is induced at the end of a solenoid when a South pole (S) of a magnet is moved toward it?",
+      "options": [
+        "South pole (S)",
+        "North pole (N)",
+        "No pole is induced",
+        "Both N and S poles simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lenz's Law states the induced e.m.f. opposes the change. To oppose a South pole moving toward it, the solenoid end must become a South pole to create a repulsive force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-medium-q3",
+      "type": "mcq",
+      "question": "Which of the following does NOT affect the magnitude of the induced e.m.f. in a circuit undergoing electromagnetic induction?",
+      "options": [
+        "The electrical resistance of the wire in the coil",
+        "The strength of the magnetic field",
+        "The speed at which the magnetic field lines are cut",
+        "The number of turns in the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude of induced e.m.f. depends on the rate of cutting flux and number of turns. Resistance affects the induced current magnitude ($I = V/R$), but not the e.m.f. itself.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-medium-q4",
+      "type": "mcq",
+      "question": "A student replaces a hollow solenoid with one containing a soft iron core. How does this affect the galvanometer reading when a magnet is moved near it?",
+      "options": [
+        "The deflection increases because the core concentrates the magnetic field",
+        "The deflection decreases because iron is a magnetic material",
+        "The deflection stays the same because e.m.f. only depends on speed",
+        "The needle stops moving because iron blocks the magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "A soft iron core concentrates the magnetic field lines, increasing the magnetic flux linking the solenoid and thus increasing the induced e.m.f.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-medium-q5",
+      "type": "mcq",
+      "question": "What is the purpose of slip rings in a simple a.c. generator?",
+      "options": [
+        "To allow the transfer of alternating current to an external circuit",
+        "To reverse the direction of current every half revolution",
+        "To increase the strength of the permanent magnets",
+        "To provide a direct current output to a battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slip rings (connected to brushes) are the components that allow the induced alternating current in the rotating coil to be transferred to the external circuit.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

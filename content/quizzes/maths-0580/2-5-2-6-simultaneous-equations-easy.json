@@ -1,0 +1,77 @@
+{
+  "id": "2-5-2-6-simultaneous-equations-easy",
+  "topicId": "2-5-2-6-simultaneous-equations",
+  "chapterId": "ch02-algebra",
+  "difficulty": "easy",
+  "title": "Simultaneous Equations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-5-2-6-simultaneous-equations-easy-q1",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n\nx + y = 12\n\nx - y = 4",
+      "options": [
+        "$x = 8, y = 4$",
+        "$x = 9, y = 3$",
+        "$x = 7, y = 5$",
+        "$x = 10, y = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add the two equations together: $(x + y) + (x - y) = 12 + 4 \\rightarrow 2x = 16 \\rightarrow x = 8$. Substitute $x = 8$ back into the first equation: $8 + y = 12 \\rightarrow y = 4$.\n\n**Common mistake:** Students sometimes subtract incorrectly or mix up signs, leading to wrong integer pairings like $x=9, y=3$."
+    },
+    {
+      "id": "2-5-2-6-simultaneous-equations-easy-q2",
+      "type": "mcq",
+      "question": "Solve the system of equations:\n$2x + y = 11$\n\n3x - y = 9",
+      "options": [
+        "$x = 4, y = 3$",
+        "$x = 3, y = 5$",
+        "$x = 5, y = 1$",
+        "$x = 2, y = 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add the equations directly to eliminate $y$2$(2x + y) + (3x - y) = 11 + 9 \\rightarrow 5x = 20 \\rightarrow x = 4$. Substitute $x = 4$ into the first equation: $2(4) + y = 11 \\rightarrow 8 + y = 11 \\rightarrow y = 3$.\n\n**Common mistake:** Students might mistakenly subtract the equations, arriving at an incorrect variable tracking path."
+    },
+    {
+      "id": "2-5-2-6-simultaneous-equations-easy-q3",
+      "type": "mcq",
+      "question": "Solve the following equations:\n\ny = 2x + 1\n\n3x + y = 16",
+      "options": [
+        "$x = 3, y = 7$",
+        "$x = 5, y = 1$",
+        "$x = 4, y = 9$",
+        "$x = 2, y = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use substitution since $y$2$y$2$3x + (2x + 1) = 16 \\rightarrow 5x + 1 = 16 \\rightarrow 5x = 15 \\rightarrow x = 3$. Then find $y$2$y = 2(3) + 1 = 7$.\n\n**Common mistake:** Students often drop the constant term inside the substitution step, writing $3x + 2x = 16$."
+    },
+    {
+      "id": "2-5-2-6-simultaneous-equations-easy-q4",
+      "type": "mcq",
+      "question": "Find the values of $a$2$b$ that satisfy:\n$3a + 2b = 18$\n\na + 2b = 10",
+      "options": [
+        "$a = 4, b = 3$",
+        "$a = 2, b = 6$",
+        "$a = 5, b = 1.5$",
+        "$a = 3, b = 4.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract the second equation from the first to eliminate $2b$2$(3a + 2b) - (a + 2b) = 18 - 10 \\rightarrow 2a = 8 \\rightarrow a = 4$. Substitute $a = 4$: $4 + 2b = 10 \\rightarrow 2b = 6 \\rightarrow b = 3$.\n\n**Common mistake:** Students frequently add the equations instead of subtracting them, missing the elimination criterion completely."
+    },
+    {
+      "id": "2-5-2-6-simultaneous-equations-easy-q5",
+      "type": "mcq",
+      "question": "Solve the linear system:\n$2x + 3y = 13$\n\n2x + y = 7",
+      "options": [
+        "$x = 2, y = 3$",
+        "$x = 3, y = 2$",
+        "$x = 1, y = 5$",
+        "$x = 4, y = 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract the second equation from the first: $(2x + 3y) - (2x + y) = 13 - 7 \\rightarrow 2y = 6 \\rightarrow y = 3$. Substitute $y = 3$: $2x + 3 = 7 \\rightarrow 2x = 4 \\rightarrow x = 2$.\n\n**Common mistake:** Students sometimes subtract $3y - y$2$3$, completely forgetting the coefficient operation rules."
+    }
+  ]
+}

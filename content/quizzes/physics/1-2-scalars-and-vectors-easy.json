@@ -1,0 +1,77 @@
+{
+  "id": "1-2-scalars-and-vectors-easy",
+  "topicId": "1-2-scalars-and-vectors",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "easy",
+  "title": "Scalars and Vectors — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-2-scalars-and-vectors-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of a scalar quantity?",
+      "options": [
+        "A physical quantity that has magnitude (size) only",
+        "A physical quantity that has direction only",
+        "A physical quantity that has both magnitude and direction",
+        "A physical quantity that changes with time"
+      ],
+      "correctIndex": 0,
+      "explanation": "A scalar quantity is defined by its magnitude only, such as mass or time. \n\n**Common mistake:** Students often confuse this with vector quantities, which require both magnitude and direction."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-easy-q2",
+      "type": "mcq",
+      "question": "Which of these is a vector quantity?",
+      "options": [
+        "Force",
+        "Mass",
+        "Energy",
+        "Time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Force is a vector because it has both a size and a specific direction of action. \n\n**Common mistake:** Mass is a scalar (it does not have direction), while weight is the vector equivalent (gravitational force)."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-easy-q3",
+      "type": "mcq",
+      "question": "In a vector diagram, what does the length of the arrow represent?",
+      "options": [
+        "The magnitude of the quantity",
+        "The direction of the quantity",
+        "The unit of the quantity",
+        "The starting point of the motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The length of the arrow is proportional to the magnitude of the physical quantity. \n\n**Common mistake:** Thinking the length represents the time taken for a movement rather than the size of the vector."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-easy-q4",
+      "type": "mcq",
+      "question": "A block is pulled by two parallel forces of $5\\text{ N}$ and $3\\text{ N}$ acting in the same direction. What is the resultant force?",
+      "options": [
+        "$8\\text{ N}$",
+        "$2\\text{ N}$",
+        "$15\\text{ N}$",
+        "$4\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When vectors are parallel and in the same direction, you add their magnitudes: $5\\text{ N} + 3\\text{ N} = 8\\text{ N}$. \n\n**Common mistake:** Subtracting the forces ($2\\text{ N}$), which only occurs if they act in opposite directions."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-easy-q5",
+      "type": "mcq",
+      "question": "Which of these quantities is a scalar?",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Acceleration",
+        "Weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is a scalar quantity as it only describes how fast an object moves. \n\n**Common mistake:** Thinking speed and velocity are the same; velocity is the vector version of speed and includes direction."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "11-2-the-binomial-theorem-harder-topic-easy",
+  "topicId": "11-2-the-binomial-theorem-harder-topic",
+  "chapterId": "ch11-series",
+  "difficulty": "easy",
+  "title": "The Binomial Theorem — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "Find the value of the binomial coefficient $\\binom{6}{2}$.",
+      "options": [
+        "15",
+        "30",
+        "12",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $^nC_r = \\frac{n!}{r!(n-r)!}$, we calculate $\\binom{6}{2} = \\frac{6 \\times 5}{2 \\times 1} = 15$.\n\n**Common mistake:** Option B is $6 \\times 5$, where the student forgets to divide by $2!$."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "In the expansion of $(1 + x)^n$2$n = 3$.",
+      "options": [
+        "1, 3, 3, 1",
+        "1, 2, 1",
+        "1, 4, 6, 4, 1",
+        "3, 3, 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 4th row of Pascal's triangle (corresponding to $n=3$) consists of the values 1, 3, 3, 1.\n\n**Common mistake:** Option B corresponds to $n=2$, while Option C corresponds to $n=4$."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "Find the coefficient of $x^2$ in the expansion of $(1 + 3x)^4$.",
+      "options": [
+        "54",
+        "6",
+        "18",
+        "108"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term is $\\binom{4}{2}(1)^2(3x)^2 = 6 \\times 1 \\times 9x^2 = 54x^2$.\n\n**Common mistake:** Option B is just the binomial coefficient $\\binom{4}{2}$, forgetting to square the^3 from the $3x$ term."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Write down the first two terms in the expansion of $(2 + x)^5$ in ascending powers of $x$.",
+      "options": [
+        "32 + 80x",
+        "32 + 5x",
+        "10 + 5x",
+        "32 + 10x"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first term is $2^5 = 32$. The second term is $\\binom{5}{1}(2^4)(x) = 5 \\times 16 \\times x = 80x$.\n\n**Common mistake:** Option D uses $\\binom{5}{1} \\times 2$ instead of $\\binom{5}{1} \\times 2^4$."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "If the expansion of $(1 + ax)^4$ starts with $1 - 12x + ...$, find the value of $a$.",
+      "options": [
+        "-3",
+        "3",
+        "-4",
+        "-48"
+      ],
+      "correctIndex": 0,
+      "explanation": "The second term is $\\binom{4}{1}(1)^3(ax) = 4ax$2$4a = -12$ gives $a = -3$.\n\n**Common mistake:** Option B is a sign error, ignoring the negative sign in the expansion's second term."
+    }
+  ]
+}

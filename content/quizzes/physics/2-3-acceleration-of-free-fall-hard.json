@@ -1,0 +1,77 @@
+{
+  "id": "2-3-acceleration-of-free-fall-hard",
+  "topicId": "2-3-acceleration-of-free-fall",
+  "chapterId": "ch02-motion",
+  "difficulty": "hard",
+  "title": "Acceleration of Free Fall — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-3-acceleration-of-free-fall-hard-q1",
+      "type": "mcq",
+      "question": "An object falls freely from rest for $5.0\\text{ s}$ in a vacuum. Calculate the height from which it was released. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$125\\text{ m}$",
+        "$50\\text{ m}$",
+        "$250\\text{ m}$",
+        "$25\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Height = area under speed-time graph. Final speed $v = 10 \\times 5 = 50\\text{ m/s}$. Area of triangle $= 1/2 \\times 5 \\times 50 = 125\\text{ m}$. \n\n**Common mistake:** Forgetting the $1/2$ and calculating $5 \\times 50 = 250\\text{ m}$."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-hard-q2",
+      "type": "mcq",
+      "question": "Lighter object A and heavier object B are dropped from the same height in a vacuum. How do their speed–time graphs compare?",
+      "options": [
+        "Both graphs are identical straight lines",
+        "The graph for B has a steeper gradient",
+        "The graph for A flattens out sooner",
+        "The graph for B is higher at all points"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, mass does not affect the acceleration of free fall. Both objects have the same acceleration $g$, so their speed-time graphs are identical. \n\n**Common mistake:** Believing the heavier object accelerates faster in a vacuum."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-hard-q3",
+      "type": "mcq",
+      "question": "A sponge falls from rest. In the first $0.6\\text{ s}$, it accelerates uniformly at $10\\text{ m/s}^2$. Calculate the distance it falls during this specific time interval.",
+      "options": [
+        "$1.8\\text{ m}$",
+        "$6.0\\text{ m}$",
+        "$3.6\\text{ m}$",
+        "$0.6\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed at $0.6\\text{ s} = 10 \\times 0.6 = 6.0\\text{ m/s}$. Distance = Area $= 1/2 \\times 0.6 \\times 6.0 = 1.8\\text{ m}$. \n\n**Common mistake:** Using the speed ($6.0$) as the distance."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-hard-q4",
+      "type": "mcq",
+      "question": "Why does a feather reach terminal velocity much faster than a hammer when dropped in air?",
+      "options": [
+        "Its weight is balanced by air resistance at a much lower speed",
+        "It has a higher mass to surface area ratio",
+        "The acceleration of gravity is lower for the feather",
+        "Air resistance does not act on the hammer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A feather has a small weight, so air resistance (which increases with speed) quickly equals its weight, reaching terminal velocity at a low speed. \n\n**Common mistake:** Thinking gravity acts differently on the two objects."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-hard-q5",
+      "type": "mcq",
+      "question": "An object is dropped from a height of $9\\text{ m}$ and hits the ground in $1.34\\text{ s}$ in a vacuum. What is its impact speed? (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$13.4\\text{ m/s}$",
+        "$9.0\\text{ m/s}$",
+        "$6.7\\text{ m/s}$",
+        "$12.1\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = gt$, $v = 10 \\times 1.34 = 13.4\\text{ m/s}$. \n\n**Common mistake:** Using the height ($9$) as the speed."
+    }
+  ]
+}

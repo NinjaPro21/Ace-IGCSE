@@ -1,0 +1,77 @@
+{
+  "id": "17-5-electrical-safety-pyp",
+  "topicId": "17-5-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "pyp",
+  "title": "Electrical Safety — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-5-electrical-safety-pyp-q1",
+      "type": "mcq",
+      "question": "An appliance has a normal operating current of $7\\text{ A}$. Which fuse rating should be used to protect the appliance in the event of a fault?",
+      "options": [
+        "$13\\text{ A}$",
+        "$5\\text{ A}$",
+        "$3\\text{ A}$",
+        "$1\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 5. The fuse must be greater than the operating current ($7\\text{ A}$), so $13\\text{ A}$ is the correct choice. \n\n**Common mistake:** Choosing a rating lower than the current."
+    },
+    {
+      "id": "17-5-electrical-safety-pyp-q2",
+      "type": "mcq",
+      "question": "Which safety precaution primarily reduces the risk of an electrical fire if a device becomes faulty?",
+      "options": [
+        "Trip switch",
+        "Earth wire",
+        "Insulation",
+        "Two-pin plug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 6. A trip switch (or fuse) cuts off excessive current, preventing wires from overheating and catching fire. \n\n**Common mistake:** Selecting earth wire, which mainly prevents electric shock rather than fires."
+    },
+    {
+      "id": "17-5-electrical-safety-pyp-q3",
+      "type": "mcq",
+      "question": "According to the 'Let’s Practise' section, why do some appliances use a three-pin plug while others use a two-pin plug?",
+      "options": [
+        "Three-pin plugs are used for appliances requiring an earth wire; two-pin plugs are for double-insulated appliances.",
+        "Two-pin plugs are used for high-voltage industrial machinery.",
+        "Three-pin plugs are only used for alternating current (a.c.) devices.",
+        "Two-pin plugs include an internal battery for emergency power."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Practise 17.5, Question 3. Double-insulated (plastic case) devices don't need earthing, while metal-cased ones do. \n\n**Common mistake:** Thinking the number of pins is related to the voltage level."
+    },
+    {
+      "id": "17-5-electrical-safety-pyp-q4",
+      "type": "mcq",
+      "question": "An electrician uses a voltmeter to test a faulty circuit. The table shows the readings. What is the most likely reason for the $0\\text{ V}$ reading between points B and C?nn| Points | P.d. across points |n| :--- | :--- |n| A and B | $40\\text{ V}$ |n| B and C | $0\\text{ V}$ |n| D and E | $100\\text{ V}$ |",
+      "options": [
+        "There is no resistance between points B and C.",
+        "The circuit is broken (open) between B and C.",
+        "The fuse has blown at point B.",
+        "The potential difference is being absorbed by the earth wire."
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 4. According to $V = IR$, if resistance is zero, the potential difference across that section will also be zero. \n\n**Common mistake:** Thinking a $0\\text{ V}$ reading means the 'electricity is off' entirely."
+    },
+    {
+      "id": "17-5-electrical-safety-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the function of each wire in a mains supply?nn| | Live Wire | Neutral Wire | Earth Wire |n| :--- | :--- | :--- | :--- |n| A | Carries high potential | Completes the circuit | Safety path |n| B | Safety path | Completes the circuit | Carries high potential |n| C | Completes the circuit | Carries high potential | Safety path |n| D | Carries high potential | Safety path | Completes the circuit |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "The live wire provides the alternating potential, the neutral wire completes the loop, and the earth wire is for safety. \n\n**Common mistake:** Swapping the functions of the neutral and earth wires."
+    }
+  ]
+}

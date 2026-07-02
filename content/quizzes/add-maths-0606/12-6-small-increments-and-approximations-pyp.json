@@ -1,0 +1,77 @@
+{
+  "id": "12-6-small-increments-and-approximations-pyp",
+  "topicId": "12-6-small-increments-and-approximations",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "pyp",
+  "title": "Small Increments and Approximations — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-6-small-increments-and-approximations-pyp-q1",
+      "type": "mcq",
+      "question": "Given $y = \\sqrt{4x + 9}$, find the approximate increase in $y$2$x$ increases from 4 to 4.05.",
+      "options": [
+        "0.02",
+        "0.05",
+        "0.04",
+        "0.10"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 4 / (2\\sqrt{4}x+9) = 2 / \\sqrt{4}x+9. At x=4, $\\frac{dy}{dx}$ = 2/\\sqrt{25} = 0.4. δx = 0.05. δy ≈ 0.4(0.05) = 0.02.\n\n**Common mistake:** Forgetting the chain rule coefficient (4) or the denominator coefficient (2) in the square root derivative."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-pyp-q2",
+      "type": "mcq",
+      "question": "The area of a circle $A$2$r$. What is the radius?",
+      "options": [
+        "100 units",
+        "50 units",
+        "200 units",
+        "1 unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "δA/A = 0.02 when δr = 1. δA ≈ (2\\pi r) δr = 2\\pi r. So 2\\pi r / (\\pi r^2) = 0.02 => 2/r = 0.02 => r = 100.\n\n**Common mistake:** Confusion between rate of change (differentiation over time) and small increments."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-pyp-q3",
+      "type": "mcq",
+      "question": "If $y = x^2 - \\frac{16}{x}$, find the approximate change in $y$2$x$ increases from 4 to 4.02.",
+      "options": [
+        "0.18",
+        "0.09",
+        "0.20",
+        "0.02"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating $-16/x$2$2x - 16/x^2$."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-pyp-q4",
+      "type": "mcq",
+      "question": "A rectangle has sides of $x$2$2x$2$x$2$h$, find the approximate increase in the area.",
+      "options": [
+        "4xh",
+        "2xh",
+        "h",
+        "4x"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area A = x(2x) = 2x^2. dA/dx = 4x. δA ≈ (4x)h = 4xh.\n\n**Common mistake:** Differentiating only one side or forgetting to multiply by the increment $h$."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-pyp-q5",
+      "type": "mcq",
+      "question": "Given $y = \\frac{1}{x^2}$, find the approximate percentage change in $y$2$x$ increases by 2%.",
+      "options": [
+        "-4%",
+        "4%",
+        "-2%",
+        "-1%"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = -2/x³. δy ≈ (-2/x³) δx. % change y = (δy/y) × 100 = ((-2/x³) δx / (1/x^2)) × 100 = -2(δx/x) × 100 = -2(2%) = -4%.\n\n**Common mistake:** Thinking the change is positive or simply squaring the change in $x$."
+    }
+  ]
+}

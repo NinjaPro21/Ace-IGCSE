@@ -1,0 +1,142 @@
+{
+  "id": "12-stationary-points-and-practical-optimization-medium",
+  "topicId": "12-stationary-points-and-practical-optimization",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "medium",
+  "title": "Stationary Points and Practical Optimization — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q1",
+      "type": "mcq",
+      "question": "Find the coordinates of the stationary point on the curve $y = 4x + \\frac{1}{x}$.",
+      "options": [
+        "$(0.5, 4)$ and $(-0.5, -4)$",
+        "$(0.5, 4)$",
+        "$(0.25, 5)$",
+        "$(2, 8.5)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 4 - x^{-2} = 4 - \\frac{1}{x^2}$. Setting $4 = \\frac{1}{x^2} \\implies x^2 = 0.25 \\implies x = \\pm 0.5$. Substituting $x=0.5, y=2+2=4$; $x=-0.5, y=-2-2=-4$.\n\n**Common mistake:** Option B is incomplete. Option C results from a calculation error where the student squares the^4 instead of $x$."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q2",
+      "type": "mcq",
+      "question": "Determine the nature of the stationary point on the curve $y = 15x - 3x^2$ at $x = 2.5$.",
+      "options": [
+        "Maximum",
+        "Minimum",
+        "Point of inflexion",
+        "None of the above"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 15 - 6x$2$0$ at $x = 2.5$. The second derivative $\\frac{d^2y}{dx^2} = -6$. Since $-6 < 0$, the point is a maximum.\n\n**Common mistake:** Option B is chosen if the student assumes the point is a minimum without checking the sign of the second derivative."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q3",
+      "type": "mcq",
+      "question": "The curve $y = x^3 + ax^2 + bx$2$x = 1$ and $x = 3$. Find the value of the constant $a$.",
+      "options": [
+        "$-6$",
+        "$6$",
+        "$-4$",
+        "$9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 + 2ax + b$2$1$ and^3, so the sum of roots is $-2a/3 = 1 + 3 = 4 \\implies -2a = 12 \\implies a = -6$.\n\n**Common mistake:** Option B is a sign error during the sum-of-roots comparison."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q4",
+      "type": "mcq",
+      "question": "Find the $y$2$y = (x-3)^2 + 5$.",
+      "options": [
+        "$5$",
+        "$3$",
+        "$-3$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 2(x-3) = 0 \\implies x=3$. Substituting $x=3$ into the original equation gives $y = (3-3)^2 + 5 = 5$.\n\n**Common mistake:** Option B is the $x$-coordinate, where the student stops prematurely after finding where the gradient is zero."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q5",
+      "type": "mcq",
+      "question": "A curve has equation $y = 2x^3 - 3x^2 - 12x + 18$. Find the $x$-coordinate of the maximum point.",
+      "options": [
+        "$-1$",
+        "$2$",
+        "$1$",
+        "$-2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 6x - 12 = 0 \\implies x^2 - x - 2 = 0 \\implies (x-2)(x+1) = 0$. $\\frac{d^2y}{dx^2} = 12x - 6$. At $x=-1, y'' = -18$ (Max). At $x=2, y'' = 18$ (Min).\n\n**Common mistake:** Option B is the minimum point; students often confuse the two roots without applying the second derivative test."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q6",
+      "type": "mcq",
+      "question": "The sum of two positive numbers is 12. Find the numbers if their product is to be as large as possible.",
+      "options": [
+        "6 and 6",
+        "10 and 2",
+        "8 and 4",
+        "1 and 11"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = x(12-x) = 12x - x^2$. $dP/dx = 12 - 2x = 0 \\implies x = 6$. The numbers are 6 and $12-6=6$.\n\n**Common mistake:** Choosing numbers that sum to 12 but are not equal, which always results in a smaller product."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q7",
+      "type": "mcq",
+      "question": "A farmer uses 40 m of fencing to enclose a rectangular plot against a straight wall (only three sides need fencing). Find the maximum area.",
+      "options": [
+        "200 m^2",
+        "100 m^2",
+        "400 m^2",
+        "133.3 m^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$L + 2W = 40 \\implies L = 40 - 2W$2$A = W(40 - 2W) = 40W - 2W^2$. $dA/dW = 40 - 4W = 0 \\implies W = 10$. $A = 10(20) = 200$.\n\n**Common mistake:** Assuming all four sides are fenced, leading to a square of side 10 and area 100."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q8",
+      "type": "mcq",
+      "question": "An open box is made from a square sheet of metal of side 12 cm by cutting squares of side $x$2$x$ for maximum volume.",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$V = x(12 - 2x)^2 = x(144 - 48x + 4x^2) = 4x^3 - 48x^2 + 144x$2$dV/dx = 12x^2 - 96x + 144 = 0 \\implies x^2 - 8x + 12 = 0$. $(x-6)(x-2)=0$. $x=2$ (since $x=6$ makes volume 0).\n\n**Common mistake:** Failing to expand the volume expression correctly before differentiating."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q9",
+      "type": "mcq",
+      "question": "The perimeter of a sector of a circle is 12 cm. Find the radius $r$ that gives the maximum area.",
+      "options": [
+        "3 cm",
+        "2 cm",
+        "6 cm",
+        "4 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = 2r + r\\theta = 12 \\implies \\theta = (12-2r)/r$2$A = 0.5r^2\\theta = 0.5r^2(12-2r)/r = 6r - r^2$. $dA/dr = 6 - 2r = 0 \\implies r = 3$.\n\n**Common mistake:** Confusion between sector perimeter ($2r + s$2$s$)."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-medium-q10",
+      "type": "mcq",
+      "question": "A cylinder has a surface area of $150\\pi$2$^2$. If the height is $h$2$r$, and the volume is to be maximized, which equation represents the height in terms of radius?",
+      "options": [
+        "h = (75/r) - r",
+        "h = (150/r) - 2r",
+        "h = 75 - r^2",
+        "h = 150 - r"
+      ],
+      "correctIndex": 0,
+      "explanation": "$SA = 2\\pi r^2 + 2\\pi rh = 150\\pi$2$2\\pi$2$r^2 + rh = 75 \\implies rh = 75 - r^2 \\implies h = (75/r) - r$.\n\n**Common mistake:** Forgetting the two circular ends of the cylinder in the surface area formula."
+    }
+  ]
+}

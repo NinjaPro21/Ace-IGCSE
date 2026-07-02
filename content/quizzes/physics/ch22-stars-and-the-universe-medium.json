@@ -1,0 +1,207 @@
+{
+  "id": "ch22-stars-and-the-universe-medium",
+  "topicId": "ch22-stars-and-the-universe",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "medium",
+  "title": "Chapter 22: Stars and the Universe — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch22-stars-and-the-universe-medium-q1",
+      "type": "mcq",
+      "question": "Which of these energy resources on Earth does NOT have the Sun as its original source?",
+      "options": [
+        "Geothermal energy",
+        "Wind energy",
+        "Solar energy",
+        "Hydroelectric energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state the Sun is the main source for all resources except geothermal, nuclear, and tidal. \n\n**Common mistake:** Thinking wind is independent, but the Sun causes the temperature differences that create wind."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q2",
+      "type": "mcq",
+      "question": "The Sun is approximately $150$ million kilometres from Earth. If light travels at $3 \\times 10^{8}$ m/s, how long does it take for sunlight to reach us?",
+      "options": [
+        "$500$ seconds",
+        "$8$ seconds",
+        "$50$ seconds",
+        "$1$ hour"
+      ],
+      "correctIndex": 0,
+      "explanation": "$150 \\text{ million km} = 1.5 \\times 10^{11} \\text{ m}$. Time $t = d / v = (1.5 \\times 10^{11}) / (3 \\times 10^{8}) = 500 \\text{ s}$. \n\n**Common mistake:** Forgetting to convert kilometres to metres."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q3",
+      "type": "mcq",
+      "question": "What is the primary product formed when hydrogen nuclei undergo fusion in the Sun?",
+      "options": [
+        "Helium nuclei",
+        "Uranium atoms",
+        "Liquid water",
+        "Iron crystals"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the Sun's core, hydrogen nuclei combine to form helium nuclei, releasing energy in the process. \n\n**Common mistake:** Carbon and iron are only formed in much later stages or in more massive stars."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q4",
+      "type": "mcq",
+      "question": "Which force is responsible for the 'clumping together' of dust and gas that originally formed the Sun?",
+      "options": [
+        "Gravitational force",
+        "Magnetic force",
+        "Electrostatic force",
+        "Frictional force"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources note that the Solar System formed when a cloud of dust and gas clumped together due to gravity. \n\n**Common mistake:** Thinking magnetism pulls the particles together."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q5",
+      "type": "mcq",
+      "question": "The Sun contains a massive amount of energy. In which energy store is this energy held before it is released?",
+      "options": [
+        "Nuclear energy",
+        "Elastic potential energy",
+        "Chemical potential energy",
+        "Electrostatic potential energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The energy is released from the nuclei of atoms during fusion, making it a nuclear energy store. \n\n**Common mistake:** Thinking it is chemical energy, like burning wood or coal."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q6",
+      "type": "mcq",
+      "question": "Which of the following is the correct life cycle sequence for an average star after its stable period?",
+      "options": [
+        "Red giant $rightarrow$ planetary nebula $rightarrow$ white dwarf",
+        "Red supergiant $rightarrow$ supernova $rightarrow$ black hole",
+        "Nebula $rightarrow$ white dwarf $rightarrow$ red giant",
+        "Protostar $rightarrow$ supernova $rightarrow$ neutron star"
+      ],
+      "correctIndex": 0,
+      "explanation": "An average star expands into a red giant, sheds its layers as a planetary nebula, and the core becomes a white dwarf. Supernovas are only for massive stars.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q7",
+      "type": "mcq",
+      "question": "What is the approximate distance represented by one light-year in metres?",
+      "options": [
+        "$9.5 \\times 10^{15}\\text{ m}$",
+        "$3.0 \\times 10^{8}\\text{ m}$",
+        "$1.5 \\times 10^{11}\\text{ m}$",
+        "$1.0 \\times 10^{12}\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, one light-year is approximately $9.5 \\times 10^{15}$ metres. $3.0 \\times 10^{8}$ is the speed of light in m/s.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q8",
+      "type": "mcq",
+      "question": "How is a protostar defined in the life cycle of a star?",
+      "options": [
+        "A star in its earliest stage of formation before nuclear fusion begins",
+        "The final stage of a star before it becomes a black hole",
+        "A star that has used up all its hydrogen and started expanding",
+        "The remnants of a supernova explosion"
+      ],
+      "correctIndex": 0,
+      "explanation": "A protostar is the early stage where a nebula clumps together under gravity before fusion ignites. Red giants are late-stage stars.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q9",
+      "type": "mcq",
+      "question": "Which of these stages is unique to the life cycle of a massive star?",
+      "options": [
+        "Red supergiant",
+        "Red giant",
+        "White dwarf",
+        "Planetary nebula"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only massive stars become red supergiants. Average stars like our Sun become red giants.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q10",
+      "type": "mcq",
+      "question": "What is the likely fate of a massive star's core after a supernova explosion?",
+      "options": [
+        "It becomes a neutron star or a black hole",
+        "It becomes a white dwarf",
+        "It forms a new nebula for planetary systems",
+        "It expands into a red giant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Massive star cores collapse into extremely dense objects like neutron stars or black holes. White dwarfs come from average stars.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q11",
+      "type": "mcq",
+      "question": "Calculate the speed $v$ at which a galaxy is moving away from Earth if it is at a distance $d = 2.0 \\times 10^{24}\\text{ m}$. (Use $H_0 = 2.2 \\times 10^{-18}\\text{ s}^{-1}$)",
+      "options": [
+        "$4.4 \\times 10^{6}\\text{ m/s}$",
+        "$1.1 \\times 10^{6}\\text{ m/s}$",
+        "$4.4 \\times 10^{42}\\text{ m/s}$",
+        "$9.1 \\times 10^{41}\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $H_0 = v/d$, we rearrange to $v = H_0 \\times d$. So, $v = (2.2 \\times 10^{-18}) \\times (2.0 \\times 10^{24}) = 4.4 \\times 10^{6}\\text{ m/s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q12",
+      "type": "mcq",
+      "question": "If a galaxy's light is 'blueshifted', what does this indicate about its motion relative to Earth?",
+      "options": [
+        "The galaxy is moving towards the Earth",
+        "The galaxy is moving away from the Earth",
+        "The galaxy is stationary but its stars are exploding",
+        "The galaxy is rotating faster than the Milky Way"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the diagram in the review section, redshift means moving away and blueshift indicates moving towards the observer.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q13",
+      "type": "mcq",
+      "question": "What is the approximate diameter of our Milky Way galaxy in light-years?",
+      "options": [
+        "$100000$ light-years",
+        "$14$ billion light-years",
+        "$150$ million light-years",
+        "$100$ light-years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the Milky Way has an approximate diameter of $100000$ light-years.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q14",
+      "type": "mcq",
+      "question": "How does the redshift of light from Galaxy A compare to Galaxy B if Galaxy A is twice as far from Earth as Galaxy B?",
+      "options": [
+        "Galaxy A shows a greater redshift",
+        "Galaxy B shows a greater redshift",
+        "Both galaxies show the same redshift",
+        "Neither galaxy shows redshift as they are too far"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Hubble's findings, the speed of recession is proportional to distance ($v = H_0 d$). A greater distance results in a higher recession speed and therefore a greater redshift.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-medium-q15",
+      "type": "mcq",
+      "question": "What happened to the wavelength of Cosmic Microwave Background Radiation (CMBR) as the Universe expanded?",
+      "options": [
+        "The wavelength increased",
+        "The wavelength decreased",
+        "The wavelength remained constant",
+        "The wavelength became zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The radiation produced shortly after the Big Bang has had its wavelength expanded into the microwave region as the Universe expanded.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

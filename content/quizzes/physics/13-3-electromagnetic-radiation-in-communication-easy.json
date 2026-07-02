@@ -1,0 +1,77 @@
+{
+  "id": "13-3-electromagnetic-radiation-in-communication-easy",
+  "topicId": "13-3-electromagnetic-radiation-in-communication",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "easy",
+  "title": "Electromagnetic Radiation in Communication — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-easy-q1",
+      "type": "mcq",
+      "question": "Which type of signal is described as having continuous values that change over time?",
+      "options": [
+        "Analogue signal",
+        "Digital signal",
+        "Binary signal",
+        "Discrete signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, an analogue signal has continuous values in time. \n\n**Common mistake:** Confusing it with a digital signal, which has only specific fixed values."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-easy-q2",
+      "type": "mcq",
+      "question": "Which region of the electromagnetic spectrum is primarily used for communication with artificial satellites?",
+      "options": [
+        "Microwaves",
+        "Radio waves",
+        "Infrared",
+        "Ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that communication with artificial satellites is mainly by microwaves. \n\n**Common mistake:** Selecting radio waves, which are typically used for local terrestrial broadcasting."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-easy-q3",
+      "type": "mcq",
+      "question": "What are the two regions of the electromagnetic spectrum used for transmitting signals in optical fibres?",
+      "options": [
+        "Visible light and infrared",
+        "Radio waves and microwaves",
+        "Ultraviolet and X-rays",
+        "Gamma rays and visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visible light and infrared are used because glass is transparent to these waves. \n\n**Common mistake:** Thinking only visible light is used because it is a 'light' pipe."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-easy-q4",
+      "type": "mcq",
+      "question": "A digital signal is typically represented by which two values?",
+      "options": [
+        "0 and 1",
+        "High and Medium",
+        "Low and Constant",
+        "Positive and Negative"
+      ],
+      "correctIndex": 0,
+      "explanation": "Digital signals have fixed values, often represented as '0' and '1'. \n\n**Common mistake:** Believing digital signals can take any value between 0 and 1."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-easy-q5",
+      "type": "mcq",
+      "question": "What is the approximate speed of a communication signal traveling through the air?",
+      "options": [
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$330\\text{ m/s}$",
+        "$1500\\text{ m/s}$",
+        "$3.0 \\times 10^{5}\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "All electromagnetic waves, including those used for communication, travel at approximately $3.0 \\times 10^{8}\\text{ m/s}$ in air. \n\n**Common mistake:** Confusing this with the speed of sound in air ($330\\text{ m/s}$)."
+    }
+  ]
+}

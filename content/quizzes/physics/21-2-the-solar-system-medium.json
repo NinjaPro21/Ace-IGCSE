@@ -1,0 +1,77 @@
+{
+  "id": "21-2-the-solar-system-medium",
+  "topicId": "21-2-the-solar-system",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "medium",
+  "title": "The Solar System — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "21-2-the-solar-system-medium-q1",
+      "type": "mcq",
+      "question": "The Sun is $150$ million kilometres from the Earth. Given the speed of light is $3 \\times 10^{8}$ m/s, calculate how long it takes light to reach the Earth.",
+      "options": [
+        "$500$ s",
+        "$0.5$ s",
+        "$50$ s",
+        "$5000$ s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$150$ million km is $1.5 \\times 10^{11}$ m. Time $t = d/v = (1.5 \\times 10^{11}) / (3 \\times 10^{8}) = 500$ s. \n\n**Common mistake:** Failing to convert kilometres to metres."
+    },
+    {
+      "id": "21-2-the-solar-system-medium-q2",
+      "type": "mcq",
+      "question": "In an elliptical orbit, where is the Sun located?",
+      "options": [
+        "At one of the two foci",
+        "Exactly at the centre of the ellipse",
+        "At both foci simultaneously",
+        "Outside the ellipse"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notes state that an ellipse has two foci and the Sun is at one of these foci. \n\n**Common mistake:** Thinking the Sun is at the dead centre."
+    },
+    {
+      "id": "21-2-the-solar-system-medium-q3",
+      "type": "mcq",
+      "question": "An astronaut travels to a planet where the gravitational field strength is $40\\%$ of Earth's. If his mass is $80$ kg on Earth, what is his mass and weight on this planet? (Take $g = 10$ N/kg on Earth)",
+      "options": [
+        "Mass: $80$ kg; Weight: $320$ N",
+        "Mass: $32$ kg; Weight: $320$ N",
+        "Mass: $80$ kg; Weight: $800$ N",
+        "Mass: $32$ kg; Weight: $80$ N"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass does not change with location ($80$ kg). Weight on Earth = $800$ N. Weight on the planet = $0.40 \\times 800 = 320$ N. \n\n**Common mistake:** Thinking mass decreases in a weaker gravitational field."
+    },
+    {
+      "id": "21-2-the-solar-system-medium-q4",
+      "type": "mcq",
+      "question": "How does the Sun's gravitational field strength change as the distance from the Sun increases?",
+      "options": [
+        "It decreases.",
+        "It increases.",
+        "It remains constant.",
+        "It decreases then increases."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, gravitational field strength decreases with distance from the planet or star. \n\n**Common mistake:** Thinking gravity is the same everywhere in the Solar System."
+    },
+    {
+      "id": "21-2-the-solar-system-medium-q5",
+      "type": "mcq",
+      "question": "Based on planetary data, which planet has a gravitational field strength most similar to that of the Earth?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 21.2 and the corresponding answers indicate that Venus has a gravitational field strength similar to Earth's. \n\n**Common mistake:** Choosing Mars, which only has about $40\\%$ of Earth's gravity."
+    }
+  ]
+}

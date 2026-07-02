@@ -1,0 +1,77 @@
+{
+  "id": "9-1-thermal-expansion-hard",
+  "topicId": "9-1-thermal-expansion",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "hard",
+  "title": "Thermal Expansion — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-thermal-expansion-hard-q1",
+      "type": "mcq",
+      "question": "An engineer is designing a long concrete bridge. Which feature must be included to prevent the bridge from damaging itself in hot weather?",
+      "options": [
+        "Expansion gaps and rollers at one end",
+        "Using only metals that do not expand",
+        "Painting the entire bridge black to absorb heat",
+        "Building the bridge in small, separate segments that do not touch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Concrete bridges expand significantly. Expansion gaps allow the segments to grow without touching, and rollers allow movement without cracking the supports. **Common mistake:** Thinking segments shouldn't touch at all; they must be connected, but the connection must allow for expansion."
+    },
+    {
+      "id": "9-1-thermal-expansion-hard-q2",
+      "type": "mcq",
+      "question": "When comparing the thermal expansion of a solid and a gas, the gas expands significantly more. Why?",
+      "options": [
+        "Attractive forces between gas particles are very weak",
+        "Gas particles are much larger than solid particles",
+        "Gas particles have more mass per unit volume",
+        "Solids are too heavy to move further apart"
+      ],
+      "correctIndex": 0,
+      "explanation": "In gases, the attractive forces are very weak, allowing particles to move much further apart when they gain kinetic energy. In solids, strong forces keep them closer together. **Common mistake:** Thinking that gas particles themselves 'stretch' more than solid particles."
+    },
+    {
+      "id": "9-1-thermal-expansion-hard-q3",
+      "type": "mcq",
+      "question": "A student heats a flask of water with a long thin tube attached. She notices that the water level in the tube drops slightly before it starts to rise. What is the best explanation?",
+      "options": [
+        "The glass flask expands before the heat reaches the water",
+        "The water contracts initially before it starts to expand",
+        "Air is being forced out of the water by the heat",
+        "The density of water increases for the first few degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flask is a solid and the heat hits it first, causing it to expand and increase the volume of the container. This makes the water level drop until the water itself warms up and expands. **Common mistake:** Believing water contracts when heated (it only does this between $0^\\circ\\text{C}$ and $4^\\circ\\text{C}$, but expansion of the container is a more general explanation for this setup)."
+    },
+    {
+      "id": "9-1-thermal-expansion-hard-q4",
+      "type": "mcq",
+      "question": "Hot air balloons rise because of the relationship between expansion and density. Which sequence is correct?",
+      "options": [
+        "Heating $\\rightarrow$ Expansion $\\rightarrow$ Decrease in density $\\rightarrow$ Upward force",
+        "Heating $\\rightarrow$ Contraction $\\rightarrow$ Increase in density $\\rightarrow$ Upward force",
+        "Heating $\\rightarrow$ Expansion $\\rightarrow$ Increase in mass $\\rightarrow$ Upward force",
+        "Cooling $\\rightarrow$ Expansion $\\rightarrow$ Decrease in density $\\rightarrow$ Upward force"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heating the air causes it to expand, increasing its volume. Because the mass is the same but the volume is larger, the density decreases, making it lighter than the surrounding air. **Common mistake:** Thinking that the heater 'adds' an upward force directly rather than changing the air's properties."
+    },
+    {
+      "id": "9-1-thermal-expansion-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following would NOT be affected by the thermal expansion of the materials used?",
+      "options": [
+        "The mass of a solid block when heated",
+        "The precision of a metal ruler used on a very hot day",
+        "The pressure of a gas in a sealed container",
+        "The density of a liquid in a thermometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion changes volume and density, but it does not change the total mass (the amount of matter) in a closed system. **Common mistake:** Thinking mass increases because the object looks 'bigger'."
+    }
+  ]
+}

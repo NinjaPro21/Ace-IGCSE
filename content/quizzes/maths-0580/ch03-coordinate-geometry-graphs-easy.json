@@ -1,0 +1,532 @@
+{
+  "id": "ch03-coordinate-geometry-graphs-easy",
+  "topicId": "ch03-coordinate-geometry-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Chapter 3: Coordinate Geometry & Graphs — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q1",
+      "type": "mcq",
+      "question": "A map has a scale of $1 : 25\\,000$. If the distance between two villages on the map is $6\\text{ cm}$, find the actual distance between them in kilometers.",
+      "options": [
+        "$1.5\\text{ km}$",
+        "$15\\text{ km}$",
+        "$0.15\\text{ km}$",
+        "$150\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual distance in cm = $6 \\times 25\\,000 = 150\\,000\\text{ cm}$. To convert to meters, divide by $100$: $150\\,000 \\div 100 = 1500\\text{ m}$. To convert to kilometers, divide by $1000$: $1500 \\div 1000 = 1.5\\text{ km}$.\n\n**Common mistake:** Students often lose track of the zeros during unit conversion, mistakenly dividing by $1000$ instead of $100\\,000$ overall."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q2",
+      "type": "mcq",
+      "question": "The actual distance between two towns is $12\\text{ km}$. On a map, this distance is represented by a line of length $4\\text{ cm}$. Find the scale of the map in the form $1 : n$.",
+      "options": [
+        "$1 : 300\\,000$",
+        "$1 : 3\\,000$",
+        "$1 : 30\\,000$",
+        "$1 : 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Express both lengths in centimeters first. $12\\text{ km} = 12 \\times 100\\,000 = 1\\,200\\,000\\text{ cm}$. The ratio is $4 : 1\\,200\\,000$. Divide both sides by $4$ to give a unit form of $1 : 300\\,000$.\n\n**Common mistake:** Students frequently forget to convert kilometers into centimeters, writing $4 : 12 \\implies 1 : 3$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q3",
+      "type": "mcq",
+      "question": "A map scale is written as $1 : 50\\,000$. What actual distance in meters is represented by a map distance of $3.5\\text{ cm}$?",
+      "options": [
+        "$1750\\text{ m}$",
+        "$175\\text{ m}$",
+        "$17.5\\text{ m}$",
+        "$175\\,000\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual distance in cm = $3.5 \\times 50\\,000 = 175\\,000\\text{ cm}$. Convert centimeters to meters by dividing by $100$: $175\\,000 \\div 100 = 1750\\text{ m}$.\n\n**Common mistake:** Dividing or multiplying by the wrong power of 10, often resulting in $175\\text{ m}$ or keeping it in cm."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q4",
+      "type": "mcq",
+      "question": "On a map of scale $1 : 200\\,000$, a straight road has an actual length of $16\\text{ km}$. Calculate the length of the road on the map in centimeters.",
+      "options": [
+        "$8\\text{ cm}$",
+        "$0.8\\text{ cm}$",
+        "$80\\text{ cm}$",
+        "$2\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert actual distance to cm: $16\\text{ km} = 16 \\times 100\\,000 = 1\\,600\\,000\\text{ cm}$. Map distance = $1\\,600\\,000 \\div 200\\,000 = 8\\text{ cm}$.\n\n**Common mistake:** Dividing $16$ directly by $200\\,000$ or miscounting the number of zeros eliminated during division."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q5",
+      "type": "mcq",
+      "question": "A map has a scale of $1\\text{ cm}$ to $2\\text{ km}$. Write this scale as a ratio in the form $1 : n$.",
+      "options": [
+        "$1 : 200\\,000$",
+        "$1 : 2\\,000$",
+        "$1 : 20\\,000$",
+        "$1 : 200$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert $2\\text{ km}$ into centimeters: $2\\text{ km} = 2000\\text{ m} = 200\\,000\\text{ cm}$. Therefore, the ratio is $1 : 200\\,000$.\n\n**Common mistake:** Assuming that $1\\text{ km} = 1000\\text{ cm}$, leading to the incorrect choice of $1 : 2\\,000$."
+    },
+    {
+      "type": "mcq",
+      "question": "In the standard straight-line equation $y = mx + c$2$c$** represent?",
+      "options": [
+        "The intercept on the y-axis",
+        "The gradient of the line",
+        "The intercept on the x-axis",
+        "The coordinates of the origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the equation of a straight line is written in the form $y = mx + c$2$c$ is the intercept on the y-axis.\n\n**Common mistake:** Students often confuse $m$2$c$ (the y-intercept).",
+      "id": "ch03-coordinate-geometry-graphs-easy-q6"
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following describes the gradient of a **horizontal line**?",
+      "options": [
+        "The gradient is zero",
+        "The gradient is undefined",
+        "The gradient is positive",
+        "The gradient is 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horizontal lines have a gradient of zero because all points they pass through have the same y-coordinate, making the vertical change zero.\n\n**Common mistake:** Confusing horizontal lines (gradient = 0) with vertical lines, where the gradient is undefined.",
+      "id": "ch03-coordinate-geometry-graphs-easy-q7"
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the **y-intercept** of the line with the equation $y = 2x - 3$.",
+      "options": [
+        "(0, -3)",
+        "(0, 3)",
+        "(-3, 0)",
+        "(2, 0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By comparing $y = 2x - 3$ to $y = mx + c$2$c = -3$. The y-intercept occurs where $x=0$, so the point is (0, -3).\n\n**Common mistake:** Providing the intercept as a single number (-3) without coordinate brackets or reversing the order to (-3, 0).",
+      "id": "ch03-coordinate-geometry-graphs-easy-q8"
+    },
+    {
+      "type": "mcq",
+      "question": "According to the Cartesian coordinate system, who is credited with showing how algebra could be used to solve geometric problems?",
+      "options": [
+        "René Descartes",
+        "Archimedes",
+        "Pythagoras",
+        "Liu Hui"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cartesian coordinates are named after René Descartes, who showed how algebra could be applied to geometry.\n\n**Common mistake:** Attributing the system to Pythagoras due to the use of his theorem in finding line lengths.",
+      "id": "ch03-coordinate-geometry-graphs-easy-q9"
+    },
+    {
+      "type": "mcq",
+      "question": "When plotting the graph of a linear function, what is the minimum number of points required to draw the line accurately?",
+      "options": [
+        "Two, but a third is advised as a check",
+        "Exactly one point and the origin",
+        "At least five points",
+        "Four points in each quadrant"
+      ],
+      "correctIndex": 0,
+      "explanation": "While two points define a line, finding a third point is always advisable as a check; if a mistake is made, the three points will not lie on a straight line.\n\n**Common mistake:** Plotting only two points and failing to notice a calculation error that changes the slope.",
+      "id": "ch03-coordinate-geometry-graphs-easy-q10"
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q11",
+      "type": "mcq",
+      "question": "Find the gradient of the straight line that passes through the points (4,10) and (8,2).",
+      "options": [
+        "−2",
+        "2",
+        "−0.5",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the gradient formula m=($y^{2}$\n−$y^{1}$\n)/($x^{2}$\n−$x^{1}$\n), we get (2−10)/(8−4)=−8/4=−2.\n\n**Common mistake:** A student might calculate\nDeltax/\nDeltay or fail to maintain consistency in the subtraction order between the numerator and denominator."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q12",
+      "type": "mcq",
+      "question": "Calculate the coordinates of the midpoint of the line segment joining the points (−2,4) and (6,12).",
+      "options": [
+        "(2,8)",
+        "(4,16)",
+        "(4,8)",
+        "(2,4)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The midpoint formula is (($x^{1}$\n+$x^{2}$\n)/2,($y^{1}$\n+$y^{2}$\n)/2). Substituting the values gives ((−2+6)/2,(4+12)/2)=(2,8).\n\n**Common mistake:** The student may forget to divide by 2 or subtract the coordinates instead of adding them."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q13",
+      "type": "mcq",
+      "question": "Determine the length of the line segment joining the points (5,1) and (13,7).",
+      "options": [
+        "10 units",
+        "14 units",
+        "\\sqrt{100} units",
+        "\\sqrt{14} units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the distance formula\nsqrt($x^{2}$\n−$x^{1}$\n$)^{2}$+($y^{2}$\n−$y^{1}$\n$)^{2}$, we get\nsqrt$(13-5)^{2}$+$(7-1)^{2}$=\nsqrt$8^{2}$+$6^{2}$=\nsqrt100=10.\n\n**Common mistake:** The student might add the coordinates directly or forget to take the square root at the end."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q14",
+      "type": "mcq",
+      "question": "Identify the y-intercept of the line represented by the equation 2x−3y=12.",
+      "options": [
+        "(0,−4)",
+        "(0,4)",
+        "(6,0)",
+        "(0,12)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Setting x=0 in the equation 2x−3y=12 gives −3y=12, which simplifies to y=−4.\n\n**Common mistake:** The student might pick the constant 12 or solve for the x-intercept by setting y=0 instead."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q15",
+      "type": "mcq",
+      "question": "What is the gradient of a straight line that is parallel to the x-axis?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horizontal lines have a constant y-value, meaning $y^{2}$\n−$y^{1}$\n=0. Since the numerator of the gradient formula is zero, the gradient is 0.\n\n**Common mistake:** The student may confuse horizontal and vertical lines, leading to an 'undefined' answer."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q16",
+      "type": "mcq",
+      "question": "A straight line has the equation y=4x−7. What is the gradient of any line that is parallel to this line?",
+      "options": [
+        "4",
+        "−7",
+        "−0.25",
+        "0.25"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel lines have the same gradient. Since the gradient of the given line is the coefficient of x (which is 4), any parallel line must also have a gradient of 4.\n\n**Common mistake:** A student might pick the y-intercept (-7) or calculate the negative reciprocal (-0.25) which is for perpendicular lines."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q17",
+      "type": "mcq",
+      "question": "If a line has a gradient of 5, what is the gradient of a line perpendicular to it?",
+      "options": [
+        "−0.2",
+        "5",
+        "−5",
+        "0.2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The product of the gradients of perpendicular lines is −1. Therefore, the perpendicular gradient is the negative reciprocal of 5, which is −1/5=−0.2.\n\n**Common mistake:** The student might just change the sign to −5 or forget the sign and only take the reciprocal 0.2."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q18",
+      "type": "mcq",
+      "question": "Which of the following lines is parallel to y=2−3x?",
+      "options": [
+        "y=−3x+10",
+        "y=2x−3",
+        "y=3x+2",
+        "y=0.33x+2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of the original line is −3. The line y=−3x+10 has the same gradient and is therefore parallel.\n\n**Common mistake:** The student may misidentify the gradient as 2 because it is the first number in the equation, or confuse −3x with 3x."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q19",
+      "type": "mcq",
+      "question": "Two lines are perpendicular. If the gradient of the first line is $m^{1}$\n=−0.5, what is the gradient of the second line $m^{2}$\n?",
+      "options": [
+        "2",
+        "−2",
+        "0.5",
+        "−0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "For perpendicular lines, $m^{1}$\n×$m^{2}$\n=−1. Substituting gives −0.5×$m^{2}$\n=−1, so $m^{2}$\n=−1/−0.5=2.\n\n**Common mistake:** The student might think the gradients should be the same for perpendicular lines or simply change the sign without taking the reciprocal."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q20",
+      "type": "mcq",
+      "question": "State the condition for two lines with gradients $m^{1}$\nand $m^{2}$\nto be perpendicular to each other.",
+      "options": [
+        "$m^{1}$\n×$m^{2}$\n=−1",
+        "$m^{1}$\n=m\n2",
+        "$m^{1}$\n+$m^{2}$\n=0",
+        "$m^{1}$\n×$m^{2}$\n=1"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, two lines are perpendicular if the product of their gradients is −1.\n\n**Common mistake:** The student might confuse the condition for perpendicular lines with that for parallel lines ($m^{1}$\n=$m^{2}$\n)."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q21",
+      "type": "mcq",
+      "question": "Determine the shape of the graph represented by the function $y = 10 - 3x^2$.",
+      "options": [
+        "An ∩-shaped curve with a maximum point",
+        "A ∪-shaped curve with a minimum point",
+        "A straight line sloping downwards",
+        "A curve with two branches and two asymptotes"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a quadratic function $y = ax^2 + bx + c$2$x^2$ ($a$) is negative, the curve is ∩-shaped and has a maximum turning point.\n\n**Common mistake:** A student might assume all quadratics are ∪-shaped or confuse the negative constant with a negative gradient of a linear graph."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q22",
+      "type": "mcq",
+      "question": "Identify the coordinates of the $y$2$y = x^3 + 5x^2 - 2x - 7$.",
+      "options": [
+        "$(0, -7)$",
+        "$(0, 1)$",
+        "$(-7, 0)$",
+        "$(0, 7)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The $y$2$x = 0$. Substituting $x = 0$ into the equation leaves only the constant term, $-7$.\n\n**Common mistake:** The student might provide the $x$-intercept or forget the negative sign of the constant."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q23",
+      "type": "mcq",
+      "question": "What is the equation of the horizontal asymptote for the exponential function $y = 3^x + 4$?",
+      "options": [
+        "$y = 4$",
+        "$y = 0$",
+        "$x = 0$",
+        "$y = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An exponential function of the form $y = a^x + c$2$y = c$2$a^x$ term can approach but never reach zero.\n\n**Common mistake:** The student may assume the asymptote is always the $x$2$y = 0$) regardless of the vertical shift."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q24",
+      "type": "mcq",
+      "question": "For the reciprocal function $y = 8/x$2$y$2$x$ becomes a very large positive number?",
+      "options": [
+        "$y$ approaches 0",
+        "$y$ approaches 8",
+        "$y$ approaches infinity",
+        "$y$ remains constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a reciprocal function $y = k/x$2$x$2$k/x$2$y = 0$.\n\n**Common mistake:** The student might think $y$2$k$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q25",
+      "type": "mcq",
+      "question": "Which function represents exponential decay?",
+      "options": [
+        "$y = 5 \\cdot (0.2)^x$",
+        "$y = 0.2 \\cdot 5^x$",
+        "$y = x^2 + 0.2$",
+        "$y = 5x - 0.2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exponential decay occurs in functions of the form $y = ab^x$2$b$ is strictly between 0 and 1.\n\n**Common mistake:** A student may confuse the initial value $a$2$b$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q26",
+      "type": "mcq",
+      "question": "A conversion graph is used to change Litres ($L$2$G$2$(0, 0)$ and $(50, 11)$. Use this to find the approximate value of $25$ Litres in Gallons.",
+      "options": [
+        "$5.5$ Gallons",
+        "$11$ Gallons",
+        "$2.2$ Gallons",
+        "$12.5$ Gallons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the graph is a straight line through the origin, we use proportion. $25$ is half of $50$, so the value in Gallons is half of $11$, which is $5.5$.\n\n**Common mistake:** A student might accidentally multiply $25$ by $11$ or divide $50$ by $25$ and think the answer is $2$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q27",
+      "type": "mcq",
+      "question": "On a distance–time graph, what physical quantity is represented by the gradient of the line?",
+      "options": [
+        "Speed",
+        "Acceleration",
+        "Total distance",
+        "Time taken"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of a distance–time graph is calculated as $change in distance / change in time$, which is the definition of speed.\n\n**Common mistake:** Students often confuse distance–time graphs with speed–time graphs and answer 'acceleration'."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q28",
+      "type": "mcq",
+      "question": "In a speed–time graph, how is the total distance travelled determined?",
+      "options": [
+        "The area under the graph",
+        "The gradient of the line",
+        "The final value on the y-axis",
+        "The product of the maximum speed and total time"
+      ],
+      "correctIndex": 0,
+      "explanation": "For any speed–time graph, the distance travelled during a section of the journey is the area under the graph for that part of the journey.\n\n**Common mistake:** A student might pick the gradient, which actually represents acceleration on a speed–time graph."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q29",
+      "type": "mcq",
+      "question": "A bike rental shop charges a fixed fee of $15$ plus\n\n$5$ per hour. If a graph is drawn with Cost ($C$2$h$2$y$-intercept?",
+      "options": [
+        "$(0, 15)$",
+        "$(0, 5)$",
+        "$(15, 0)$",
+        "$(5, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fixed fee represents the cost when Time = 0. In the linear equation $C = 5h + 15$, the constant $15$ is the $y$-intercept.\n\n**Common mistake:** The student might identify the rate of change ($5$) as the intercept."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q30",
+      "type": "mcq",
+      "question": "A section of a speed–time graph is a straight line sloping downwards from left to right. What does this indicate about the object's motion?",
+      "options": [
+        "Constant deceleration",
+        "Constant speed",
+        "Increasing acceleration",
+        "The object is moving backwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "A downward slope on a speed–time graph indicates a negative gradient, which represents deceleration.\n\n**Common mistake:** A student might think the object is returning to the start, which would be true on a distance–time graph but not a speed–time graph."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q31",
+      "type": "mcq",
+      "question": "If the graphs of $y = f(x)$ and $y = g(x)$ intersect at the point $(4, 7)$, what is the solution to the equation $f(x) = g(x)$?",
+      "options": [
+        "$x = 4$",
+        "$x = 7$",
+        "$(4, 7)$",
+        "$x = 11$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The solution to the equation $f(x) = g(x)$ is the $x$-coordinate of the point where the two graphs intersect.\n\n**Common mistake:** A student might incorrectly provide the $y$2$x$-value."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q32",
+      "type": "mcq",
+      "question": "To solve the equation $x^2 - 5x = 4$ graphically, you should plot the graph of $y = x^2 - 5x$ and which other line?",
+      "options": [
+        "$y = 4$",
+        "$y = -4$",
+        "$x = 4$",
+        "$y = 5x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation is solved by finding the intersection of the curve representing the left side ($y = x^2 - 5x$2$y = 4$).\n\n**Common mistake:** The student might confuse the vertical line $x = 4$ with the horizontal line $y = 4$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q33",
+      "type": "mcq",
+      "question": "How many solutions are there for the equation $x^2 + 2 = -3$ if solved graphically?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The graph of $y = x^2 + 2$ is a $\\cup$2$(0, 2)$, which never intersects the horizontal line $y = -3$.\n\n**Common mistake:** A student might assume all quadratic equations have two solutions without considering if the graphs actually intersect."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q34",
+      "type": "mcq",
+      "question": "The lines $y = x + 2$ and $y = 6 - x$2$(2, 4)$. State the values of $x$2$y$ that satisfy both equations simultaneously.",
+      "options": [
+        "$x = 2, y = 4$",
+        "$x = 4, y = 2$",
+        "$x = 2, y = 6$",
+        "$x = 0, y = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The point of intersection $(x, y)$ of two lines provides the simultaneous solution to the system of equations.\n\n**Common mistake:** The student might swap the $x$2$y$ values."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q35",
+      "type": "mcq",
+      "question": "Given a curve $y = f(x)$, the roots of the equation $f(x) = 0$ are found where the curve crosses which axis?",
+      "options": [
+        "The $x$-axis",
+        "The $y$-axis",
+        "The line $y = x$",
+        "The origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation $f(x) = 0$ corresponds to the points where the graph intersects the line $y = 0$, which is the $x$-axis.\n\n**Common mistake:** Students often confuse the $x$2$y$-intercept (the constant term)."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q36",
+      "type": "mcq",
+      "question": "Given the function $y = 8x⁴$, find the derivative function $\\frac{dy}{dx}$.",
+      "options": [
+        "$32x^3$",
+        "$8x^3$",
+        "$32x⁴$",
+        "$4x^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the power rule, multiply the coefficient by the power ($8 \\times 4 = 32$) and reduce the power by 1 ($4 - 1 = 3$), resulting in $32x^3$.\n\n**Common mistake:** A student might forget to multiply the coefficient or forget to subtract 1 from the exponent."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q37",
+      "type": "mcq",
+      "question": "Calculate the gradient of the curve $y = x^2 - 10x$2$x = 3$.",
+      "options": [
+        "$-4$",
+        "$-7$",
+        "$6$",
+        "$-10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative is $\\frac{dy}{dx} = 2x - 10$. Substituting $x = 3$ gives $2(3) - 10 = 6 - 10 = -4$.\n\n**Common mistake:** A student might substitute $x=3$ into the original function instead of the derivative."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q38",
+      "type": "mcq",
+      "question": "Identify the derivative $\\frac{dy}{dx}$ of the constant function $y = 50$.",
+      "options": [
+        "$0$",
+        "$50$",
+        "$1$",
+        "$50x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of any constant is zero because a constant function has no rate of change (its graph is a horizontal line with gradient 0).\n\n**Common mistake:** The student might assume the derivative is 1 or keep the constant value."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q39",
+      "type": "mcq",
+      "question": "What is the gradient of a curve at its turning point?",
+      "options": [
+        "$0$",
+        "$1$",
+        "Undefined",
+        "It depends on the function"
+      ],
+      "correctIndex": 0,
+      "explanation": "A turning point is a stationary point where the gradient of the tangent to the curve is exactly zero.\n\n**Common mistake:** The student might confuse the gradient with the $y$-coordinate of the turning point."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-easy-q40",
+      "type": "mcq",
+      "question": "Differentiate $y = \\frac{1}{3}x^3 + 5x$2$x$.",
+      "options": [
+        "$x^2 + 5$",
+        "$x^3 + 5$",
+        "$\\frac{1}{3}x^2 + 5$",
+        "$3x^2 + 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying the power by the coefficient ($\\frac{1}{3} \\times 3 = 1$) and reducing the power ($3-1=2$) gives $x^2$. The derivative of $5x$ is 5.\n\n**Common mistake:** The student may fail to multiply the $\\frac{tion}{}$ by the exponent correctly."
+    }
+  ]
+}

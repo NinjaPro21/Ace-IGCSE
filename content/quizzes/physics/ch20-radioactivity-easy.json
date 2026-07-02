@@ -1,0 +1,337 @@
+{
+  "id": "ch20-radioactivity-easy",
+  "topicId": "ch20-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "easy",
+  "title": "Chapter 20: Radioactivity — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch20-radioactivity-easy-q1",
+      "type": "mcq",
+      "question": "How is 'background radiation' defined in the context of a laboratory experiment?",
+      "options": [
+        "Ionising nuclear radiation present when no radioactive source is near the detector",
+        "The radiation emitted by a specific source being studied in an experiment",
+        "The thermal energy released by the detector when it is switched on",
+        "The visible light present in the room during a radioactivity test"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the Review Section, background radiation is the ionising nuclear radiation in the laboratory when there is no radioactive source present. \n\n**Common mistake:** Thinking it is radiation coming from the source being measured."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is a common natural source of background radiation?",
+      "options": [
+        "Cosmic rays from the Sun",
+        "Microwaves from mobile phones",
+        "Magnetic fields from the Earth",
+        "Sound waves from distant storms"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources identify cosmic rays from the Sun, radon gas in the air, and rocks containing radioactive minerals as natural sources. \n\n**Common mistake:** Confusing ionising nuclear radiation with non-ionising EM waves like microwaves."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q3",
+      "type": "mcq",
+      "question": "What is the standard unit often used for measuring the count rate of a radioactive source?",
+      "options": [
+        "counts per minute (counts/min)",
+        "joules per second (J/s)",
+        "metres per second (m/s)",
+        "newtons per kilogram (N/kg)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text frequently uses 'counts per minute' or 'counts per second' to describe the rate measured by a radiation detector. \n\n**Common mistake:** Using 'joules', which is a unit of energy, not a count rate."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q4",
+      "type": "mcq",
+      "question": "Which instrument is used to detect and count the number of ionising particles emitted by a source?",
+      "options": [
+        "Radiation detector and counter",
+        "Ammeter",
+        "Electronic balance",
+        "Barometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A radiation detector connected to a counter is used to measure radioactivity levels. \n\n**Common mistake:** Selecting an ammeter, which measures electric current."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q5",
+      "type": "mcq",
+      "question": "What is the immediate observation on a radiation counter when a radioactive source is brought closer to the detector?",
+      "options": [
+        "The count rate increases.",
+        "The count rate decreases.",
+        "The count rate remains exactly the same.",
+        "The counter resets to zero."
+      ],
+      "correctIndex": 0,
+      "explanation": "When a source is placed in front of a detector, the number of counts recorded per unit of time increases. \n\n**Common mistake:** Thinking the random nature of radiation means the rate could decrease when the source is closer."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q6",
+      "type": "mcq",
+      "question": "What is the nature of an $alpha$-particle?",
+      "options": [
+        "A helium nucleus",
+        "A high-speed electron",
+        "Electromagnetic radiation",
+        "A single neutron"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, an alpha particle is a helium nucleus. Electrons are beta particles and EM radiation describes gamma rays.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q7",
+      "type": "mcq",
+      "question": "Which type of nuclear radiation has the highest penetrating ability?",
+      "options": [
+        "$gamma$-rays",
+        "$alpha$-particles",
+        "$beta$-particles",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 20.2 shows that gamma rays have the 'most' penetrating ability, being able to pass through paper and aluminium, only stopped by thick lead.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q8",
+      "type": "mcq",
+      "question": "What is the relative charge of a $beta$-particle?",
+      "options": [
+        "$-1$",
+        "$+2$",
+        "$0$",
+        "$+1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A beta particle is a high-speed electron, which carries a relative charge of $-1$. Alpha particles carry a $+2$ charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q9",
+      "type": "mcq",
+      "question": "Which term describes the fact that radioactive emission happens suddenly and cannot be predicted for a specific nucleus?",
+      "options": [
+        "Spontaneous",
+        "Ionising",
+        "Induced",
+        "Magnetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define the emission of radiation as spontaneous, meaning it happens suddenly without external influence.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q10",
+      "type": "mcq",
+      "question": "Which radiation is easily stopped by a single sheet of paper?",
+      "options": [
+        "$alpha$-particles",
+        "$beta$-particles",
+        "$gamma$-rays",
+        "Cosmic rays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles have the 'least' penetrating ability and are stopped by a thin sheet of paper.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q11",
+      "type": "mcq",
+      "question": "Which words correctly describe the nature of radioactive decay?",
+      "options": [
+        "Spontaneous and random",
+        "Predictable and constant",
+        "Fast and controlled",
+        "Slow and linear"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources describe the emission of radiation from a nucleus as spontaneous and random in direction. \n\n**Common mistake:** Thinking that we can predict exactly when a specific nucleus will decay."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q12",
+      "type": "mcq",
+      "question": "What happens to the nucleon number ($A$) of a nucleus when it emits an alpha ($alpha$) particle?",
+      "options": [
+        "It decreases by 4.",
+        "It decreases by 2.",
+        "It remains the same.",
+        "It increases by 1."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the subtopic notes, when a nucleus emits an $alpha$-particle, its nucleon number decreases by 4. \n\n**Common mistake:** Confusing nucleon number with proton number, which decreases by 2."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q13",
+      "type": "mcq",
+      "question": "When a nucleus undergoes beta ($beta$) decay, what change occurs to its proton number ($Z$)?",
+      "options": [
+        "It increases by 1.",
+        "It decreases by 1.",
+        "It decreases by 2.",
+        "It remains the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "In $beta$-decay, the proton number increases by 1 because a neutron changes into a proton and an electron. \n\n**Common mistake:** Thinking the proton number stays the same because the nucleon number does."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q14",
+      "type": "mcq",
+      "question": "Which type of nuclear emission does not change the proton number or the nucleon number of the nucleus?",
+      "options": [
+        "Gamma ($gamma$) radiation",
+        "Alpha ($alpha$) particles",
+        "Beta ($beta$) particles",
+        "Neutron radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma emission often accompanies $alpha$ or $beta$ decay, but the $gamma$-ray itself does not change the $A$ or $Z$ values of the nucleus. \n\n**Common mistake:** Believing $gamma$-rays are particles like $alpha$ or $beta$ that alter the identity of the element."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q15",
+      "type": "mcq",
+      "question": "What is the primary result of $alpha$ or $beta$ decay on the identity of an atom?",
+      "options": [
+        "The nucleus changes to that of a different element.",
+        "The atom becomes a different isotope of the same element.",
+        "The atom becomes a positive ion but the element stays the same.",
+        "The atom disappears completely."
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that during $alpha$ or $beta$ decay, the nucleus changes into a different element because the proton number changes. \n\n**Common mistake:** Thinking decay only produces energy without changing the matter itself."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q16",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of the half-life of a radioactive isotope?",
+      "options": [
+        "The time taken for half the nuclei of an isotope in a sample to decay",
+        "The time taken for all the nuclei in a sample to decay by half their mass",
+        "Half the time it takes for a radioactive sample to become completely safe",
+        "The time taken for the proton number of a nucleus to be halved"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half-life is defined as the time taken for half the nuclei of a radioactive isotope in a sample to decay. It is a constant characteristic for a specific isotope.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q17",
+      "type": "mcq",
+      "question": "A radioactive sample has a half-life of $10\\text{ minutes}$. If the initial count rate is $800\\text{ counts/s}$, what will the count rate be after $10\\text{ minutes}$?",
+      "options": [
+        "$400\\text{ counts/s}$",
+        "$200\\text{ counts/s}$",
+        "$0\\text{ counts/s}$",
+        "$790\\text{ counts/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the count rate falls by exactly half during one half-life period. $800 / 2 = 400$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q18",
+      "type": "mcq",
+      "question": "Which unit is commonly used to express the half-life of a radioactive substance?",
+      "options": [
+        "Any unit of time (e.g., seconds, hours, or years)",
+        "Becquerels (Bq) only",
+        "Counts per minute (cpm) only",
+        "Metres per second (m/s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half-life is a measure of time duration. Depending on the isotope, it can range from $\\frac{tions}{}$ of a second to billions of years.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q19",
+      "type": "mcq",
+      "question": "What happens to the half-life of a radioactive isotope as the sample gets smaller over time?",
+      "options": [
+        "It remains constant",
+        "It decreases because there are fewer atoms",
+        "It increases as the remaining atoms become more stable",
+        "It fluctuates randomly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The half-life is a constant property of a particular radioactive isotope and does not change regardless of the sample size or time elapsed.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q20",
+      "type": "mcq",
+      "question": "If a sample has a very 'long' half-life, what does this imply about its rate of decay?",
+      "options": [
+        "The nuclei decay very slowly",
+        "The nuclei decay very quickly",
+        "The sample is highly ionising",
+        "The sample does not emit any radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A long half-life means it takes a great deal of time for the activity to halve, indicating a slow rate of decay.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q21",
+      "type": "mcq",
+      "question": "Which of the following is a known negative effect of ionising nuclear radiation on living things?",
+      "options": [
+        "Cell mutation",
+        "Improved immunity",
+        "Increased bone density",
+        "Enhanced vision"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, ionising radiation can cause cell mutation, kill cells, or lead to cancer. \n\n**Common mistake:** Thinking radiation only causes immediate death; it can also cause long-term genetic mutations."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q22",
+      "type": "mcq",
+      "question": "What are the three primary ways to control and reduce exposure to ionising radiation?",
+      "options": [
+        "Time, Distance, and Shielding",
+        "Temperature, Pressure, and Volume",
+        "Mass, Weight, and Density",
+        "Light, Sound, and Heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state that exposure is controlled by limiting time, increasing distance from the source, and using appropriate shielding. \n\n**Common mistake:** Confusing safety factors with general physical properties like temperature."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q23",
+      "type": "mcq",
+      "question": "Which material is specifically recommended for making storage boxes to safely hold radioactive sources?",
+      "options": [
+        "Lead",
+        "Aluminium",
+        "Plastic",
+        "Cardboard"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lead box is suitable for storing radioactive sources because lead is a very dense material that provides effective shielding. \n\n**Common mistake:** Choosing aluminium, which is not thick or dense enough to block all types of radiation."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q24",
+      "type": "mcq",
+      "question": "Why are long-handled tongs used to pick up radioactive sources in a laboratory?",
+      "options": [
+        "To increase the distance between the source and the body.",
+        "To prevent the source from getting too hot.",
+        "To stop the source from reacting with the air.",
+        "To make it easier to see the small source."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing distance is a key safety precaution; using tongs ensures the user is not in direct contact and is as far away as practical. \n\n**Common mistake:** Thinking the tongs are used for heat protection."
+    },
+    {
+      "id": "ch20-radioactivity-easy-q25",
+      "type": "mcq",
+      "question": "What can happen to a healthy cell if it is exposed to excessive ionising radiation?",
+      "options": [
+        "It may become cancerous.",
+        "It will always evaporate.",
+        "It turns into a radioactive isotope.",
+        "It becomes an electrical conductor."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that radiation can cause a healthy cell to become cancerous through damage and mutation. \n\n**Common mistake:** Believing the cell itself becomes a source of radiation."
+    }
+  ]
+}

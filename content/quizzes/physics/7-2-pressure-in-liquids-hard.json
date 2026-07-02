@@ -1,0 +1,77 @@
+{
+  "id": "7-2-pressure-in-liquids-hard",
+  "topicId": "7-2-pressure-in-liquids",
+  "chapterId": "ch07-pressure",
+  "difficulty": "hard",
+  "title": "Pressure in Liquids — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-2-pressure-in-liquids-hard-q1",
+      "type": "mcq",
+      "question": "A small submarine moves from the surface of the sea to a depth of $3.0 \\times 10^{3}\\text{ m}$. If seawater density is $1030\\text{ kg/m}^3$, what is the pressure change in megapascals (MPa)?",
+      "options": [
+        "$30.9\\text{ MPa}$",
+        "$3.09\\text{ MPa}$",
+        "$309\\text{ MPa}$",
+        "$0.309\\text{ MPa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Delta p = 1030 \\times 10 \\times 3000 = 30900000\\text{ Pa}$. To convert to MPa, divide by $1000000$, giving $30.9\\text{ MPa}$. \n\n**Common mistake:** Incorrectly converting units from Pa to MPa."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-hard-q2",
+      "type": "mcq",
+      "question": "A tank contains two immiscible liquids. Liquid X (top) has a density of $800\\text{ kg/m}^3$ and is $0.5\\text{ m}$ deep. Liquid Y (bottom) has a density of $1200\\text{ kg/m}^3$ and is $1.0\\text{ m}$ deep. What is the total pressure exerted by the liquids at the bottom of the tank?",
+      "options": [
+        "$16000\\text{ Pa}$",
+        "$12000\\text{ Pa}$",
+        "$4000\\text{ Pa}$",
+        "$20000\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure from X $= 800 \\times 10 \\times 0.5 = 4000\\text{ Pa}$. Pressure from Y $= 1200 \\times 10 \\times 1.0 = 12000\\text{ Pa}$. Total $= 4000 + 12000 = 16000\\text{ Pa}$. \n\n**Common mistake:** Averaging the densities instead of summing the individual pressure contributions."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-hard-q3",
+      "type": "mcq",
+      "question": "A container with a base area of $0.02\\text{ m}^2$ contains $0.25\\text{ m}$ depth of liquid (density $880\\text{ kg/m}^3$). If the total mass of the container and liquid is $5\\text{ kg}$, what is the pressure the container exerts on the table?",
+      "options": [
+        "$2500\\text{ Pa}$",
+        "$2200\\text{ Pa}$",
+        "$250\\text{ Pa}$",
+        "$440\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total Weight $= mg = 5 \\times 10 = 50\\text{ N}$. Pressure on table $= F / A = 50 / 0.02 = 2500\\text{ Pa}$. \n\n**Common mistake:** Calculating the liquid pressure at the base ($2200\\text{ Pa}$) instead of the pressure the solid container exerts on the table."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-hard-q4",
+      "type": "mcq",
+      "question": "If an object moves in a liquid such that the pressure exerted on it changes by $0.10\\text{ MPa}$, calculate its change in depth. (Take $rho = 1000\\text{ kg/m}^3$ and $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$10\\text{ m}$",
+        "$1\\text{ m}$",
+        "$100\\text{ m}$",
+        "$0.1\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$0.10\\text{ MPa} = 100000\\text{ Pa}$. $Delta h = Delta p / (rho g) = 100000 / (1000 \\times 10) = 10\\text{ m}$. \n\n**Common mistake:** Failing to convert MPa to Pa before starting the calculation ($0.1 / 10000 = 0.00001$)."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-hard-q5",
+      "type": "mcq",
+      "question": "Three containers have different shapes: one is narrow, one is wide, and one is conical. If they are all filled with the same liquid to the same depth $h$, how does the pressure at the base compare?",
+      "options": [
+        "The pressure is exactly the same in all three",
+        "The pressure is greatest in the wide container",
+        "The pressure is greatest in the narrow container",
+        "The pressure is least in the conical container"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquid pressure only depends on density and depth ($rho g h$). It does not depend on the shape or width of the container. \n\n**Common mistake:** Thinking a larger volume or area results in higher pressure at the base."
+    }
+  ]
+}

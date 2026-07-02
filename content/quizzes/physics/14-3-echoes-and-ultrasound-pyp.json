@@ -1,0 +1,77 @@
+{
+  "id": "14-3-echoes-and-ultrasound-pyp",
+  "topicId": "14-3-echoes-and-ultrasound",
+  "chapterId": "ch14-sound",
+  "difficulty": "pyp",
+  "title": "Echoes and Ultrasound — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-3-echoes-and-ultrasound-pyp-q1",
+      "type": "mcq",
+      "question": "Which row correctly identifies the nature of ultrasound and a typical use?",
+      "options": [
+        "Nature: Longitudinal wave; Use: Medical imaging",
+        "Nature: Transverse wave; Use: Medical imaging",
+        "Nature: Electromagnetic wave; Use: Sterilising water",
+        "Nature: Longitudinal wave; Use: Radio communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is a high-frequency sound wave, which is longitudinal. It is widely used in medical imaging (prenatal scans).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-pyp-q2",
+      "type": "mcq",
+      "question": "A sonar system on a boat sends a pulse of sound and receives an echo from a shoal of fish $0.2\\text{ s}$ later. The speed of sound in water is $1500\\text{ m/s}$. What is the distance to the shoal of fish?",
+      "options": [
+        "$150\\text{ m}$",
+        "$300\\text{ m}$",
+        "$75\\text{ m}$",
+        "$600\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$d = \\frac{vt}{2} = \\frac{1500 \\times 0.2}{2} = 150\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-pyp-q3",
+      "type": "mcq",
+      "question": "Which frequency is ultrasound?",
+      "options": [
+        "$30\\text{ kHz}$",
+        "$15\\text{ kHz}$",
+        "$2000\\text{ Hz}$",
+        "$10\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is frequency $> 20\\text{ kHz}$. $30\\text{ kHz}$ fits this definition. $15\\text{ kHz}$ is audible to some humans.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-pyp-q4",
+      "type": "mcq",
+      "question": "A sound wave of frequency $10\\text{ kHz}$ is sent into a lake. Which row is correct?nnType of wave | Can humans hear it?n--- | ---nA. Audible sound | YesnB. Ultrasound | NonC. Infrasound | NonD. Audible sound | No",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "$10\\text{ kHz}$ ($10000\\text{ Hz}$) is within the human audible range ($20\\text{ Hz}$ to $20000\\text{ Hz}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-pyp-q5",
+      "type": "mcq",
+      "question": "The diagram shows a transmitted sound pulse and its reflected echo from a reef. n[Diagram: Intensity peaks at $t=0.0\\text{ s}$ and $t=1.2\\text{ s}$]nIf the speed of sound in water is $1500\\text{ m/s}$, how far away is the reef?",
+      "options": [
+        "$900\\text{ m}$",
+        "$1800\\text{ m}$",
+        "$450\\text{ m}$",
+        "$2250\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance $d = \\frac{1500 \\times 1.2}{2} = 900\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

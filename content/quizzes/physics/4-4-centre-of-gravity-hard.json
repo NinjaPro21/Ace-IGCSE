@@ -1,0 +1,77 @@
+{
+  "id": "4-4-centre-of-gravity-hard",
+  "topicId": "4-4-centre-of-gravity",
+  "chapterId": "ch04-forces",
+  "difficulty": "hard",
+  "title": "Centre of Gravity — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-4-centre-of-gravity-hard-q1",
+      "type": "mcq",
+      "question": "A non-uniform beam is $2.0\\text{ m}$ long. It balances at its midpoint when a $60\\text{ N}$ weight is $0.2\\text{ m}$ from the pivot on one side and a $40\\text{ N}$ weight is $0.6\\text{ m}$ from the pivot on the other side. What is the moment produced by the beam's weight about the pivot?",
+      "options": [
+        "$12\\text{ N m}$",
+        "$0\\text{ N m}$",
+        "$24\\text{ N m}$",
+        "$36\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACW moment from weight 1 $= 60 \\times 0.2 = 12\\text{ N m}$. CW moment from weight 2 $= 40 \\times 0.6 = 24\\text{ N m}$. For equilibrium, the beam's own weight must provide an ACW moment of $24 - 12 = 12\\text{ N m}$. \n\n**Common mistake:** Assuming weight always acts through the pivot in every balance problem."
+    },
+    {
+      "id": "4-4-centre-of-gravity-hard-q2",
+      "type": "mcq",
+      "question": "In the experiment to locate the centre of gravity of a lamina, why is it important to make the holes near the edge and as far apart as possible?",
+      "options": [
+        "To increase the accuracy of the intersection point",
+        "To make the lamina lighter and easier to hang",
+        "To move the centre of gravity closer to the edge",
+        "To ensure the plumb line does not touch the retort stand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having holes far apart creates lines that intersect at larger angles, making the intersection point (the COG) easier to identify accurately. \n\n**Common mistake:** Thinking the position of holes actually changes where the COG is located."
+    },
+    {
+      "id": "4-4-centre-of-gravity-hard-q3",
+      "type": "mcq",
+      "question": "A uniform metre rule is pivoted at the $70\\text{ cm}$ mark. It balances horizontally when a $2.5\\text{ N}$ weight is hung at the $80\\text{ cm}$ mark. Calculate the weight of the ruler.",
+      "options": [
+        "$1.25\\text{ N}$",
+        "$2.5\\text{ N}$",
+        "$5.0\\text{ N}$",
+        "$0.625\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rule's weight $W$ acts at the $50\\text{ cm}$ mark ($20\\text{ cm}$ from pivot). The $2.5\\text{ N}$ load is $10\\text{ cm} from the pivot$. $2W \\times 20 = 2.5 \\times 10 Rightarrow 20W = 25 Rightarrow W = 1.25\\text{ N}$. \n\n**Common mistake:** Using the full $50\\text{ cm}$ or $70\\text{ cm}$ length as the distance instead of the distance from the pivot."
+    },
+    {
+      "id": "4-4-centre-of-gravity-hard-q4",
+      "type": "mcq",
+      "question": "A tall cylinder is half-filled with water and placed on a plank. As the plank is tilted, at what point will the cylinder tip over?",
+      "options": [
+        "When the vertical line from its centre of gravity falls outside the edge of its base",
+        "As soon as the plank reaches an angle of $45^{circ}$",
+        "When the water surface is no longer parallel to the base",
+        "When the centre of gravity reaches the highest possible point"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regardless of the contents, an object topples the moment its centre of gravity's line of action passes the edge of the base. \n\n**Common mistake:** Thinking the liquid's movement prevents toppling; it actually shifts the COG and usually makes it topple sooner."
+    },
+    {
+      "id": "4-4-centre-of-gravity-hard-q5",
+      "type": "mcq",
+      "question": "Which change would most effectively increase the stability of a racing car?",
+      "options": [
+        "Increasing the track width (distance between wheels) and lowering the engine position",
+        "Using a lighter material for the chassis and a heavier spoiler on top",
+        "Increasing the wheel diameter and reducing the fuel tank size",
+        "Moving the driver's seat further back and higher up"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lowering the engine lowers the COG, and increasing the track width increases the base area, both maximizing stability. \n\n**Common mistake:** Thinking speed-related parts like spoilers always improve balance/stability in a stationary sense."
+    }
+  ]
+}

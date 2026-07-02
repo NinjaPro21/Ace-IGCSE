@@ -1,0 +1,77 @@
+{
+  "id": "6-3-areas-of-rectilinear-figures-easy",
+  "topicId": "6-3-areas-of-rectilinear-figures",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "easy",
+  "title": "Areas of Rectilinear Figures — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-3-areas-of-rectilinear-figures-easy-q1",
+      "type": "mcq",
+      "question": "Calculate the area of a triangle with vertices at $(0, 0)$, $(8, 0)$, and $(0, 6)$.",
+      "options": [
+        "24 units^2",
+        "48 units^2",
+        "14 units^2",
+        "12 units^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a right-angled triangle with base 8 and height 6, the area is $0.5 \\times 8 \\times 6 = 24$.\n\n**Common mistake:** A student might forget the $0.5$ factor and calculate the area of the rectangle ($8 \\times 6 = 48$)."
+    },
+    {
+      "id": "6-3-areas-of-rectilinear-figures-easy-q2",
+      "type": "mcq",
+      "question": "Find the area of a rectangle whose vertices are located at $(1, 2)$, $(7, 2)$, $(7, 5)$, and $(1, 5)$.",
+      "options": [
+        "18 units^2",
+        "21 units^2",
+        "9 units^2",
+        "12 units^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The length is $7 - 1 = 6$ and the width is $5 - 2 = 3$. Area $= 6 \\times 3 = 18$.\n\n**Common mistake:** Adding the side lengths instead of multiplying them, or miscalculating the distance between coordinates."
+    },
+    {
+      "id": "6-3-areas-of-rectilinear-figures-easy-q3",
+      "type": "mcq",
+      "question": "Using the matrix method (shoelace formula), what is the first step in calculating the area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$?",
+      "options": [
+        "$0.5 \\times |(x_1 y_2 + x_2 y_3 + x_3 y_1) - (y_1 x_2 + y_2 x_3 + y_3 x_1)|$",
+        "$(x_1 y_2 + x_2 y_3 + x_3 y_1) + (y_1 x_2 + y_2 x_3 + y_3 x_1)$",
+        "$0.5 \\times (x_1 + x_2 + x_3)(y_1 + y_2 + y_3)$",
+        "$\\sqrt{(x_2-x_1)² + (y_2-y_1)²}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The area is defined as half the absolute difference between the sum of the products of the downward diagonals and the upward diagonals.\n\n**Common mistake:** Selecting the distance formula or forgetting the subtraction between the two groups of products."
+    },
+    {
+      "id": "6-3-areas-of-rectilinear-figures-easy-q4",
+      "type": "mcq",
+      "question": "A triangle has vertices $(2, 3)$, $(5, 3)$, and $(2, 8)$. Determine its area.",
+      "options": [
+        "7.5 units^2",
+        "15 units^2",
+        "5 units^2",
+        "10 units^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base $= 5 - 2 = 3$. Height $= 8 - 3 = 5$. Area $= 0.5 \\times 3 \\times 5 = 7.5$.\n\n**Common mistake:** Treating the diagonal as a side or using the sum of the coordinates."
+    },
+    {
+      "id": "6-3-areas-of-rectilinear-figures-easy-q5",
+      "type": "mcq",
+      "question": "What is the area of a square with vertices at $(0, 0)$, $(4, 0)$, $(4, 4)$, and $(0, 4)$?",
+      "options": [
+        "16 units^2",
+        "8 units^2",
+        "4 units^2",
+        "32 units^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The side length is 4 units. Area of a square $= side^2 = 4^2 = 16$.\n\n**Common mistake:** Calculating the perimeter ($4 + 4 + 4 + 4 = 16$) and confusing it with area, though the numerical value is the same here."
+    }
+  ]
+}

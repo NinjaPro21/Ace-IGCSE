@@ -1,0 +1,77 @@
+{
+  "id": "9-6-graphical-solutions-medium",
+  "topicId": "9-6-graphical-solutions",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "medium",
+  "title": "Graphical Solutions — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-6-graphical-solutions-medium-q1",
+      "type": "mcq",
+      "question": "Solve the following simultaneous equations graphically: $y = 2x - 3$ and $y = x + 1$. Find the $x$-coordinate of the intersection.",
+      "options": [
+        "$4$",
+        "$5$",
+        "$2$",
+        "$-4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Setting the equations equal: $2x - 3 = x + 1 \\Rightarrow x = 4$. Graphically, the lines intersect at $(4, 5)$.\n\n**Common mistake:** The student might find the $y$2$5$) instead of the $x$-coordinate."
+    },
+    {
+      "id": "9-6-graphical-solutions-medium-q2",
+      "type": "mcq",
+      "question": "A graph of $y = x^2$ is drawn. To solve the equation $x^2 - x - 6 = 0$ using this graph, which line should be drawn?",
+      "options": [
+        "$y = x + 6$",
+        "$y = -x - 6$",
+        "$y = x - 6$",
+        "$y = 6 - x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange the equation to isolate the plotted function: $x^2 = x + 6$. Therefore, the line $y = x + 6$ must be drawn.\n\n**Common mistake:** A student might fail to change signs correctly when moving terms to the other side of the equation."
+    },
+    {
+      "id": "9-6-graphical-solutions-medium-q3",
+      "type": "mcq",
+      "question": "Using a graph of $y = 10/x$2$10/x = x + 3$ if the intersection points are approximately $(-4.5, -2.2)$ and $(2.2, 4.5)$.",
+      "options": [
+        "$2.2$",
+        "$4.5$",
+        "$-4.5$",
+        "$10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The solutions are the $x$2$x \\approx 2.2$.\n\n**Common mistake:** The student might pick the $y$2$x$-coordinate."
+    },
+    {
+      "id": "9-6-graphical-solutions-medium-q4",
+      "type": "mcq",
+      "question": "The function $y = 2^x$2$y = x + 2$ intersect at $x = -1.69$ and another point. Given that $2^2 = 4$ and $2 + 2 = 4$, identify the second $x$-coordinate.",
+      "options": [
+        "$2$",
+        "$4$",
+        "$0$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "At $x = 2$, both $y = 2^2 = 4$ and $y = 2 + 2 = 4$. Thus, $(2, 4)$ is an intersection point, and $x = 2$ is a solution.\n\n**Common mistake:** The student might select the $y$2$4$) rather than the $x$2$2$)."
+    },
+    {
+      "id": "9-6-graphical-solutions-medium-q5",
+      "type": "mcq",
+      "question": "If you have already plotted $y = x^2 - 2x - 3$, how can you find approximate solutions to $x^2 - 2x - 1 = 0$ using only one additional horizontal line?",
+      "options": [
+        "Draw $y = 2$",
+        "Draw $y = -2$",
+        "Draw $y = 1$",
+        "Draw $y = -1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange $x^2 - 2x - 1 = 0$ to get the original function: $x^2 - 2x - 3 + 2 = 0 \\Rightarrow x^2 - 2x - 3 = -2$. Draw $y = -2$.\n\n**Common mistake:** The student might rearrange to $x^2 - 2x = 1$ and try to draw $y = 1$ without realizing $y = x^2 - 2x - 3$ was the base graph."
+    }
+  ]
+}

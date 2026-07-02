@@ -1,0 +1,77 @@
+{
+  "id": "4-1-forces-pyp",
+  "topicId": "4-1-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "pyp",
+  "title": "Forces — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-forces-pyp-q1",
+      "type": "mcq",
+      "question": "Which quantities of an object can be changed by the action of a force?",
+      "options": [
+        "Speed and length",
+        "Mass and length",
+        "Speed and weight",
+        "Weight and mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "A force can change the motion (speed) and the size/shape (length) of an object. \n\n**Common mistake:** Thinking a force can change mass; mass is an intrinsic property of the object."
+    },
+    {
+      "id": "4-1-forces-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows a load–extension graph for a spring. Which point on the graph is the limit of proportionality?",
+      "options": [
+        "The point where the graph starts to curve away from a straight line",
+        "The point where the line crosses the y-axis",
+        "The point where the spring breaks",
+        "The point where the extension is zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The limit of proportionality is the specific point where the linear relationship between load and extension ends. \n\n**Common mistake:** Confusing the limit of proportionality with the breaking point of the spring."
+    },
+    {
+      "id": "4-1-forces-pyp-q3",
+      "type": "mcq",
+      "question": "The table shows the results of an experiment with a spring. What is the spring constant $k$?nn| Load (N) | Length (cm) |n| :--- | :--- |n| 0 | 10 |n| 2 | 12 |n| 4 | 14 |",
+      "options": [
+        "$1.0\\text{ N/cm}$",
+        "$0.2\\text{ N/cm}$",
+        "$0.5\\text{ N/cm}$",
+        "$2.0\\text{ N/cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extension for $2\\text{ N}$ is $12 - 10 = 2\\text{ cm}$. $k = F / x = 2\\text{ N} / 2\\text{ cm} = 1.0\\text{ N/cm}$. \n\n**Common mistake:** Using the total length ($12$) instead of the extension ($2$) to calculate $k$ ($2/12 = 0.17$)."
+    },
+    {
+      "id": "4-1-forces-pyp-q4",
+      "type": "mcq",
+      "question": "A force is applied to a spring within its limit of proportionality. If the force is doubled, what happens to the extension?",
+      "options": [
+        "It doubles",
+        "It stays the same",
+        "It is halved",
+        "It increases by $10\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Within the limit of proportionality, extension is directly proportional to load ($F = kx$), so doubling the force doubles the extension. \n\n**Common mistake:** Thinking the extension is fixed for a given spring regardless of the load."
+    },
+    {
+      "id": "4-1-forces-pyp-q5",
+      "type": "mcq",
+      "question": "A uniform spring is used in a set-up. Which property of the spring must remain constant for the load–extension graph to be a straight line?",
+      "options": [
+        "The spring constant",
+        "The applied force",
+        "The total length",
+        "The mass of the spring"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a linear graph, the ratio $F/x$ (the spring constant) must be constant. \n\n**Common mistake:** Thinking the force must be constant; if force is constant, the graph would just be a single point."
+    }
+  ]
+}

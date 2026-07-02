@@ -1,0 +1,272 @@
+{
+  "id": "ch04-forces-medium",
+  "topicId": "ch04-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "medium",
+  "title": "Chapter 4: Forces — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch04-forces-medium-q1",
+      "type": "mcq",
+      "question": "A spring has an original length of $16.0\\text{ cm}$. When a load of $2.0\\text{ N}$ is attached, the length becomes $20.0\\text{ cm}$. Calculate the extension.",
+      "options": [
+        "$4.0\\text{ cm}$",
+        "$36.0\\text{ cm}$",
+        "$20.0\\text{ cm}$",
+        "$10.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extension $x = l - l_0 = 20.0\\text{ cm} - 16.0\\text{ cm} = 4.0\\text{ cm}$. \n\n**Common mistake:** Adding the lengths together instead of subtracting the original length from the new length."
+    },
+    {
+      "id": "ch04-forces-medium-q2",
+      "type": "mcq",
+      "question": "A force of $10\\text{ N}$ stretches a spring by $50\\text{ mm}$. Calculate the spring constant $k$.",
+      "options": [
+        "$0.2\\text{ N/mm}$",
+        "$500\\text{ N/mm}$",
+        "$5.0\\text{ N/mm}$",
+        "$2.0\\text{ N/mm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $k = F / x$: $k = 10\\text{ N} / 50\\text{ mm} = 0.2\\text{ N/mm}$. \n\n**Common mistake:** Multiplying force and extension ($500$) instead of dividing force by extension."
+    },
+    {
+      "id": "ch04-forces-medium-q3",
+      "type": "mcq",
+      "question": "If spring A has a steeper gradient on a load–extension graph than spring B, which statement is correct?",
+      "options": [
+        "Spring A has a larger spring constant than spring B",
+        "Spring A is more easily stretched than spring B",
+        "Spring B has a larger spring constant than spring A",
+        "Spring A and spring B have the same stiffness"
+      ],
+      "correctIndex": 0,
+      "explanation": "A steeper gradient on a Load ($F$) vs Extension ($x$) graph means a higher ratio of $F/x$, which is a larger spring constant. \n\n**Common mistake:** Thinking a steeper line means it is 'easier' to stretch; it actually means it is 'stiffer' and harder to stretch."
+    },
+    {
+      "id": "ch04-forces-medium-q4",
+      "type": "mcq",
+      "question": "A bag of sugar has a mass of $1\\text{ kg}$. Calculate its weight on Earth to determine the force it would exert on a spring. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$10\\text{ N}$",
+        "$1\\text{ N}$",
+        "$0.1\\text{ N}$",
+        "$10\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = mg = 1\\text{ kg} \\times 10\\text{ N/kg} = 10\\text{ N}$. \n\n**Common mistake:** Confusing mass and weight and thinking the force is $1\\text{ N}$."
+    },
+    {
+      "id": "ch04-forces-medium-q5",
+      "type": "mcq",
+      "question": "A spring with $k = 0.2\\text{ N/mm}$ is stretched by a watermelon that has a weight of $15\\text{ N}$. What is the extension produced?",
+      "options": [
+        "$75\\text{ mm}$",
+        "$3.0\\text{ mm}$",
+        "$0.013\\text{ mm}$",
+        "$15.2\\text{ mm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $k = F/x$ gives $x = F / k = 15\\text{ N} / 0.2\\text{ N/mm} = 75\\text{ mm}$. \n\n**Common mistake:** Multiplying the spring constant by the force ($3.0$)."
+    },
+    {
+      "id": "ch04-forces-medium-q6",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ mass is acted upon by a resultant force of $6.0\\text{ N}$. Calculate the acceleration of the mass.",
+      "options": [
+        "$3.0\\text{ m/s}^2$",
+        "$12.0\\text{ m/s}^2$",
+        "$0.33\\text{ m/s}^2$",
+        "$8.0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $F = ma$, acceleration $a = F / m = 6.0 / 2.0 = 3.0\\text{ m/s}^2$. \n\n**Common mistake:** Multiplying the mass and force to get $12.0$ instead of dividing."
+    },
+    {
+      "id": "ch04-forces-medium-q7",
+      "type": "mcq",
+      "question": "An object of mass $500\\text{ g}$ accelerates at $2.0\\text{ m/s}^2$. What is the resultant force acting on it?",
+      "options": [
+        "$1.0\\text{ N}$",
+        "$1000\\text{ N}$",
+        "$250\\text{ N}$",
+        "$0.25\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kg: $500\\text{ g} = 0.5\\text{ kg}$. Then $F = ma = 0.5 \\times 2.0 = 1.0\\text{ N}$. \n\n**Common mistake:** Using the mass in grams ($500 \\times 2 = 1000\\text{ N}$) without converting to SI units."
+    },
+    {
+      "id": "ch04-forces-medium-q8",
+      "type": "mcq",
+      "question": "A constant force of $12\\text{ N}$ is applied to a box of mass $4.0\\text{ kg}$ on a rough floor. If the box accelerates at $2.0\\text{ m/s}^2$, what is the frictional force?",
+      "options": [
+        "$4.0\\text{ N}$",
+        "$8.0\\text{ N}$",
+        "$20.0\\text{ N}$",
+        "$3.0\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant force $F_{net} = ma = 4.0 \\times 2.0 = 8.0\\text{ N}$. Since $F_{net} = F_{applied} - F_{friction}$, then $8 = 12 - F_{friction}$, so $F_{friction} = 4.0\\text{ N}$. \n\n**Common mistake:** Identifying the acceleration ($2.0$) or the resultant force ($8.0$) as the frictional force."
+    },
+    {
+      "id": "ch04-forces-medium-q9",
+      "type": "mcq",
+      "question": "A resultant force of $4\\text{ N}$ causes an object to accelerate at $2\\text{ m/s}^2$. What force is needed to make the same object accelerate at $3\\text{ m/s}^2$?",
+      "options": [
+        "$6\\text{ N}$",
+        "$8\\text{ N}$",
+        "$12\\text{ N}$",
+        "$2\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass of object $m = F / a = 4 / 2 = 2\\text{ kg}$. New force required $F = ma = 2 \\times 3 = 6\\text{ N}$. \n\n**Common mistake:** Adding $1\\text{ N}$ to the force because the acceleration increased by $1$."
+    },
+    {
+      "id": "ch04-forces-medium-q10",
+      "type": "mcq",
+      "question": "Which of these is a correct statement about friction?",
+      "options": [
+        "Friction can cause heating in moving parts",
+        "There is no friction in liquids or gases",
+        "Friction only acts on objects that are moving",
+        "Friction always acts in the same direction as the applied force"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friction is a force that opposes motion and can generate thermal energy (heating). \n\n**Common mistake:** Thinking fluids (liquids/gases) don't have friction; they experience drag and viscosity."
+    },
+    {
+      "id": "ch04-forces-medium-q11",
+      "type": "mcq",
+      "question": "A see-saw is balanced. A girl weighing $500\\text{ N}$ sits $3.5\\text{ m}$ from the pivot. Her brother weighs $700\\text{ N}$. How far from the pivot must he sit to maintain equilibrium?",
+      "options": [
+        "$2.5\\text{ m}$",
+        "$4.9\\text{ m}$",
+        "$3.5\\text{ m}$",
+        "$1.4\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Principle of Moments: $500 \\times 3.5 = 700 \\times d$. So, $1750 = 700d$, and $d = 2.5\\text{ m}$. \n\n**Common mistake:** Thinking the distances must be equal ($3.5\\text{ m}$) regardless of the different weights."
+    },
+    {
+      "id": "ch04-forces-medium-q12",
+      "type": "mcq",
+      "question": "Calculate the moment of a $10.0\\text{ N}$ weight placed at the $20\\text{ cm}$ mark of a metre rule that is pivoted at the $50\\text{ cm}$ mark.",
+      "options": [
+        "$3.0\\text{ N m}$",
+        "$2.0\\text{ N m}$",
+        "$5.0\\text{ N m}$",
+        "$300\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance from pivot $= 50 - 20 = 30\\text{ cm} = 0.3\\text{ m}$. Moment $= 10.0\\text{ N} \\times 0.3\\text{ m} = 3.0\\text{ N m}$. \n\n**Common mistake:** Using the position on the ruler ($20\\text{ cm}$) as the distance from the pivot instead of calculating the difference."
+    },
+    {
+      "id": "ch04-forces-medium-q13",
+      "type": "mcq",
+      "question": "A student applies a force of $50\\text{ N}$ to a wrench at a distance of $40\\text{ cm}$ from the bolt. Calculate the turning effect in SI units.",
+      "options": [
+        "$20\\text{ N m}$",
+        "$2000\\text{ N m}$",
+        "$1.25\\text{ N m}$",
+        "$0.8\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First convert distance to metres: $40\\text{ cm} = 0.4\\text{ m}$. Moment $= 50\\text{ N} \\times 0.4\\text{ m} = 20\\text{ N m}$. \n\n**Common mistake:** Multiplying $50 \\times 40$ without converting to SI units, resulting in $2000$."
+    },
+    {
+      "id": "ch04-forces-medium-q14",
+      "type": "mcq",
+      "question": "Which of these changes would double the moment of a force acting on a door?",
+      "options": [
+        "Doubling the distance from the hinges at which the force is applied",
+        "Doubling both the force and the distance from the hinges",
+        "Moving the pivot to the centre of the door",
+        "Applying the force at a $45^{circ}$ angle instead of $90^{circ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since Moment $= F \\times d$, doubling the distance $d$ while keeping force $F$ constant will double the moment. \n\n**Common mistake:** Doubling both $F$ and $d$ would quadruple the moment ($2 \\times 2 = 4$)."
+    },
+    {
+      "id": "ch04-forces-medium-q15",
+      "type": "mcq",
+      "question": "A uniform metre rule is pivoted at its midpoint ($50\\text{ cm}$). An $8.0\\text{ N}$ weight is placed at the $20\\text{ cm}$ mark. Where should a $10.0\\text{ N}$ weight be placed to balance it?",
+      "options": [
+        "At the $74\\text{ cm}$ mark",
+        "At the $24\\text{ cm}$ mark",
+        "At the $80\\text{ cm}$ mark",
+        "At the $30\\text{ cm}$ mark"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACW moment $= 8.0 \\times (50 - 20) = 240\\text{ N cm}$. For balance, $10.0 \\times d = 240$, so $d = 24\\text{ cm}$ to the right of the pivot. Position $= 50 + 24 = 74\\text{ cm}$. \n\n**Common mistake:** Giving the distance ($24\\text{ cm}$) as the final answer instead of the position on the rule."
+    },
+    {
+      "id": "ch04-forces-medium-q16",
+      "type": "mcq",
+      "question": "In an experiment with an irregular lamina, three lines are drawn using a plumb line from different pivot holes. Where is the centre of gravity located?",
+      "options": [
+        "At the point where all three lines intersect",
+        "Halfway between the two furthest holes",
+        "At the hole with the lowest position",
+        "On the edge of the lamina"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centre of gravity must lie on every vertical line drawn from a pivot; therefore, it is located exactly at their intersection. \n\n**Common mistake:** Thinking only two lines are needed; a third line is used to verify accuracy."
+    },
+    {
+      "id": "ch04-forces-medium-q17",
+      "type": "mcq",
+      "question": "A minibus is carrying heavy luggage on its roof rack but has no passengers inside. Why is this dangerous when turning a corner?",
+      "options": [
+        "The centre of gravity is high, making the bus unstable",
+        "The centre of gravity is low, making the bus too heavy",
+        "The luggage increases the mass but not the weight",
+        "The base area of the bus has decreased"
+      ],
+      "correctIndex": 0,
+      "explanation": "Placing heavy loads high up raises the centre of gravity of the vehicle, which reduces stability and increases the risk of toppling. \n\n**Common mistake:** Thinking the bus is 'too heavy' to turn; the issue is the distribution of mass, not just the total mass."
+    },
+    {
+      "id": "ch04-forces-medium-q18",
+      "type": "mcq",
+      "question": "How does the position of the centre of gravity of a toy change if modeling clay is added to its bottom?",
+      "options": [
+        "It moves lower, increasing stability",
+        "It moves higher, increasing stability",
+        "It moves lower, decreasing stability",
+        "It remains in the same place"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding mass to the bottom shifts the overall centre of gravity lower, which makes the object harder to topple. \n\n**Common mistake:** Thinking more mass always makes an object less stable."
+    },
+    {
+      "id": "ch04-forces-medium-q19",
+      "type": "mcq",
+      "question": "A book is placed upright on its narrowest face. Compared to laying it flat on its broad face, the book is now:",
+      "options": [
+        "Less stable because the centre of gravity is higher",
+        "More stable because the pressure is higher",
+        "Equally stable because the weight is the same",
+        "Less stable because the base area is larger"
+      ],
+      "correctIndex": 0,
+      "explanation": "When upright, the centre of gravity is higher and the base area is smaller, both of which decrease stability. \n\n**Common mistake:** Confusing pressure (force/area) with stability."
+    },
+    {
+      "id": "ch04-forces-medium-q20",
+      "type": "mcq",
+      "question": "A student finds the centre of gravity of a rock on Earth. If the rock is taken to the Moon, how does its centre of gravity change?",
+      "options": [
+        "The position of the centre of gravity remains the same",
+        "The centre of gravity moves to the bottom of the rock",
+        "The rock no longer has a centre of gravity in lower gravity",
+        "The centre of gravity moves to the geometric centre"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centre of gravity is a property of the mass distribution of the object. Since the shape and mass distribution don't change, its location stays the same. \n\n**Common mistake:** Thinking that because 'weight' changes, the 'point' where it acts must also move."
+    }
+  ]
+}

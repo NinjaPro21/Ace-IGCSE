@@ -1,0 +1,77 @@
+{
+  "id": "3-1-mass-and-weight-medium",
+  "topicId": "3-1-mass-and-weight",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "medium",
+  "title": "Mass and Weight — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-1-mass-and-weight-medium-q1",
+      "type": "mcq",
+      "question": "An object has a weight of $150\\text{ N}$ on Earth. Calculate its mass if $g = 10\\text{ N/kg}$.",
+      "options": [
+        "$15\\text{ kg}$",
+        "$1500\\text{ kg}$",
+        "$1.5\\text{ kg}$",
+        "$150\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $W = mg$ to find mass: $m = W / g = 150\\text{ N} / 10\\text{ N/kg} = 15\\text{ kg}$. \n\n**Common mistake:** Multiplying $150$ by $10$ instead of dividing."
+    },
+    {
+      "id": "3-1-mass-and-weight-medium-q2",
+      "type": "mcq",
+      "question": "A rock has a mass of $10\\text{ kg}$. The acceleration of free fall on the Moon is $1.6\\text{ m/s}^2$. What is the weight of the rock on the Moon?",
+      "options": [
+        "$16\\text{ N}$",
+        "$100\\text{ N}$",
+        "$6.25\\text{ N}$",
+        "$1.6\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight = mass $times$ acceleration of free fall. On the Moon: $10\\text{ kg} \\times 1.6\\text{ m/s}^2 = 16\\text{ N}$. \n\n**Common mistake:** Using the Earth's gravity ($100\\text{ N}$) or thinking mass changes on the Moon."
+    },
+    {
+      "id": "3-1-mass-and-weight-medium-q3",
+      "type": "mcq",
+      "question": "A chocolate bar has a mass of $200\\text{ g}$. Calculate its weight on Earth ($g = 10\\text{ N/kg}$).",
+      "options": [
+        "$2.0\\text{ N}$",
+        "$20\\text{ N}$",
+        "$2000\\text{ N}$",
+        "$0.2\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kilograms: $200\\text{ g} = 0.2\\text{ kg}$. Then $W = mg = 0.2\\text{ kg} \\times 10\\text{ N/kg} = 2.0\\text{ N}$. \n\n**Common mistake:** Using $200$ directly in the formula without converting to SI units ($2000\\text{ N}$)."
+    },
+    {
+      "id": "3-1-mass-and-weight-medium-q4",
+      "type": "mcq",
+      "question": "Which statement correctly describes gravitational field strength $g$?",
+      "options": [
+        "It is the gravitational force per unit mass",
+        "It is the total gravitational force on an object",
+        "It is the ratio of an object's mass to its weight",
+        "It is the speed at which an object falls in a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gravitational field strength $g$ is defined as the force per unit mass ($g = W / m$). \n\n**Common mistake:** Confusing the field strength with the total weight force itself."
+    },
+    {
+      "id": "3-1-mass-and-weight-medium-q5",
+      "type": "mcq",
+      "question": "If an object is moved to a planet where the gravitational field is stronger than Earth's, what happens to its mass and weight?",
+      "options": [
+        "Mass stays the same, weight increases",
+        "Mass increases, weight increases",
+        "Mass increases, weight stays the same",
+        "Mass stays the same, weight stays the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a measure of the quantity of matter and does not change with location. Weight depends on $g$, so it increases in a stronger field. \n\n**Common mistake:** Believing that a stronger 'pull' also increases the amount of matter in the object."
+    }
+  ]
+}

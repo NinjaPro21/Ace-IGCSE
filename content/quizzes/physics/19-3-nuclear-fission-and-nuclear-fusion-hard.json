@@ -1,0 +1,77 @@
+{
+  "id": "19-3-nuclear-fission-and-nuclear-fusion-hard",
+  "topicId": "19-3-nuclear-fission-and-nuclear-fusion",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "hard",
+  "title": "Nuclear Fission and Nuclear Fusion — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-hard-q1",
+      "type": "mcq",
+      "question": "Consider the fusion reaction: $^2_1 H + ^2_1 H rightarrow ^3_2 He + X$. Identify particle $X$.",
+      "options": [
+        "A neutron ($^1_0 n$)",
+        "A proton ($^1_1 H$)",
+        "An alpha particle ($^4_2 alpha$)",
+        "An electron ($^0_{-1} e$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using conservation: Total nucleons before = $2+2=4$. Nucleons after = $3 + X_{nucleon}$. So $X$ has 1 nucleon. Total protons before = $1+1=2$. Protons after = $2 + X_{proton}$. So $X$ has 0 protons. Particle $^1_0 X$ is a neutron.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-hard-q2",
+      "type": "mcq",
+      "question": "A Plutonium-239 nucleus ($^{239}{94} Pu$) undergoes fission after absorbing a neutron. It produces Xenon-137 ($^{137}{54} Xe$) and another nucleus. What is the proton number of the second nucleus produced?",
+      "options": [
+        "40",
+        "41",
+        "39",
+        "94"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total protons before = 94. Protons after = 54 + $Z_{unknown}$. $Z = 94 - 54 = 40$. Note: the neutron has 0 protons, so it doesn't change the charge count.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-hard-q3",
+      "type": "mcq",
+      "question": "If a nuclear reaction releases energy, how does the final total mass ($M_f$) compare to the initial total mass ($M_i$)?",
+      "options": [
+        "$M_i > M_f$",
+        "$M_i < M_f$",
+        "$M_i = M_f$",
+        "$M_i = 2M_f$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For energy to be released in these reactions, the initial mass must be greater than the final mass ($M_i > M_f$). The missing mass is the source of the released energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-hard-q4",
+      "type": "mcq",
+      "question": "Which of these is a correct description of the requirements for nuclear fusion compared to fission?",
+      "options": [
+        "Fusion requires light nuclei; Fission requires heavy nuclei",
+        "Fusion requires heavy nuclei; Fission requires light nuclei",
+        "Fusion only happens in power plants; Fission only happens in stars",
+        "Both require a neutron to initiate the process every time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fusion involves lighter nuclei (like hydrogen) combining, whereas fission involves heavy nuclei (like plutonium or uranium) splitting.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-hard-q5",
+      "type": "mcq",
+      "question": "In the context of the Sun, what is the initial state of the material before fusion releases energy?",
+      "options": [
+        "A cloud of dust and gas",
+        "A solid iron core",
+        "Liquid water",
+        "Pure oxygen gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stars like the Sun form when a cloud of dust and gas clumps together due to gravity, eventually leading to fusion. The cloud is mainly hydrogen and helium.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

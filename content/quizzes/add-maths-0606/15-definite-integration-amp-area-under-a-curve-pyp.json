@@ -1,0 +1,142 @@
+{
+  "id": "15-definite-integration-amp-area-under-a-curve-pyp",
+  "topicId": "15-definite-integration-amp-area-under-a-curve",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "pyp",
+  "title": "Definite Integration & Area Under a Curve — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q1",
+      "type": "mcq",
+      "question": "Evaluate the exact value of\nin $t^{0}$pi/4\n\n(\ncosx+\nsinx)\n\\\\\\\\,dx.",
+      "options": [
+        "1",
+        "sqrt2",
+        "0",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integral is [\nsinx−\ncosx]\n0\npi/4\n\n=(\\sqrt2/2−\\sqrt2/2)−(0−1)=0−(−1)=1.\n\n**Common mistake:** Option B occurs if students add the limits instead of correctly subtracting them."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q2",
+      "type": "mcq",
+      "question": "Find the positive value of a for which\nin $t^{1}$a\n$\\frac{1}{$x^{2}$}$\\\\\\\\,dx.=0.5.",
+      "options": [
+        "2",
+        "4",
+        "1.5",
+        "ln 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "[−1/x]\n1\na \\neq 0.5 \\implies −1/a+1=0.5 \\implies 1/a=0.5 \\implies a=2.\n\n**Common mistake:** Option D occurs if the student incorrectly integrates 1/$x^{2}$ as\nlnx."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^{\\pi/4}\n\n(\ncos2x−\nsin2x)\n\\\\\\\\,dx.",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "-1"
+      ],
+      "correctIndex": 0,
+      "explanation": "[0.5\nsin2x+0.5\ncos2x]\n0\npi/4\n\n=(0.5(1)+0)−(0+0.5(1))=0.5−0.5=0.\n\n**Common mistake:** Option B results if a student ignores the lower bound evaluation for the cosine term."
+    },
+    {
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^1 e^{2x} dx$.",
+      "options": [
+        "0.5(e^2 - 1)",
+        "e^2 - 1",
+        "0.5e^2",
+        "e^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integral is $[0.5e^{2x}]_0^1 = 0.5e^2 - 0.5e^0 = 0.5(e^2 - 1)$.\n\n**Common mistake:** Forgetting the lower limit evaluation $e^0 = 1$.",
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the exact value of $\\int_0^{\\pi/2} \\sin x dx$.",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "pi/2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$[-\\cos x]_0^{\\pi/2} = -\\cos(\\pi/2) - (-\\cos 0) = 0 + 1 = 1$.\n\n**Common mistake:** Incorrectly identifying the integral of sine as positive cosine.",
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q5"
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q6",
+      "type": "mcq",
+      "question": "Find the area of the shaded region bounded by $y = x^2 - 2x$ and the x-axis.",
+      "options": [
+        "4/3",
+        "2/3",
+        "0",
+        "8/3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roots are x=0, 2. Integral is [x³/3 - x^2] from 0 to 2 = 8/3 - 4 = -4/3. Area = 4/3.\n\n**Common mistake:** Using the negative integral value as the area."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q7",
+      "type": "mcq",
+      "question": "The area bounded by $y = kx^2$, the x-axis, and $x = 2$ is 8. Find k.",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "∫₀² kx^2 dx = [kx³/3]₀² = 8k/3. Set 8k/3 = 8 => k = 3.\n\n**Common mistake:** Miscalculating the cube of 2 or the final algebraic step."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q8",
+      "type": "mcq",
+      "question": "Calculate the area of the region bounded by $y = x^3$, the y-axis, and $y = 8$.",
+      "options": [
+        "12",
+        "16",
+        "6",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area = Rectangle (2x8) - Area under curve (∫₀² x³ dx) = 16 - [x⁴/4]₀² = 16 - 4 = 12. Alternatively, integrate w.r.t y: ∫₀⁸ y^{1/3} dy = [0.75 y^{4/3}]₀⁸ = 0.75(16) = 12.\n\n**Common mistake:** Calculating only the area under the curve w.r.t x (4) and not subtracting from the rectangle."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q9",
+      "type": "mcq",
+      "question": "Find the area of the region in the first quadrant bounded by $y = 6 - x - x^2$ and the axes.",
+      "options": [
+        "22/3",
+        "7.33",
+        "9",
+        "Both 1 and 2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Roots: (2-x)(3+x) = 0 => x=2. First quadrant means x=0 to 2. ∫₀² (6 - x - x^2) dx = [6x - x^2/2 - x³/3] = 12 - 2 - 8/3 = 10 - 2.67 = 7.33.\n\n**Common mistake:** Using the root x=-3 as a limit for a first quadrant area."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-pyp-q10",
+      "type": "mcq",
+      "question": "Find the area of the region between $y = 10 - x^2$ and $y = 1$.",
+      "options": [
+        "36",
+        "18",
+        "27",
+        "54"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersection: 10 - x^2 = 1 => x^2 = 9 => x=±3. Area = ∫ from -3 to 3 (10 - x^2 - 1) dx = ∫ (9 - x^2) dx = [9x - x³/3] from -3 to 3 = (27 - 9) - (-27 + 9) = 18 - (-18) = 36.\n\n**Common mistake:** Integrating from 0 to 3 only (18) and forgetting to double it for the symmetrical region."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "ch01-measurements-of-physical-quantities-hard",
+  "topicId": "ch01-measurements-of-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "hard",
+  "title": "Chapter 1: Measurements of Physical Quantities — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q1",
+      "type": "mcq",
+      "question": "A pair of vernier calipers shows a reading of 0.03 cm when the jaws are closed. When measuring a ball bearing, the main scale reads 3.1 cm and the 4th vernier mark coincides with the main scale. What is the corrected diameter?",
+      "options": [
+        "3.11 cm",
+        "3.14 cm",
+        "3.17 cm",
+        "3.07 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Observed reading = 3.1+0.04=3.14 cm. Zero error is +0.03 cm. Corrected reading = Observed reading − zero error = 3.14−(+0.03)=3.11 cm. \n\n**Common mistake:** Adding the zero error (3.17 cm) instead of subtracting it."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q2",
+      "type": "mcq",
+      "question": "A student needs to measure the volume of a small piece of cork that floats. Which method is most effective?",
+      "options": [
+        "Use a measuring cylinder with a heavy metal sinker",
+        "Use a displacement can with the cork alone",
+        "Multiply the length, breadth and height of the irregular cork",
+        "Measure the volume of water the cork displaces while floating"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sinker ensures the floating object is totally immersed in water, allowing the displacement method (Vtotal−Vsinker) to work. \n\n**Common mistake:** Using the displacement method without a sinker, which only measures the volume of the submerged portion of the cork."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q3",
+      "type": "mcq",
+      "question": "If the square of the period of a pendulum (T2) is directly proportional to its length (l), what does a graph of T against l look like?",
+      "options": [
+        "A curve with an increasing gradient",
+        "A straight line passing through the origin",
+        "A horizontal line",
+        "A curve with a decreasing gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since T2proptol, then Tproptosqrtl. This relationship produces a curve where the period increases with length but not linearly. \n\n**Common mistake:** Assuming that because they are proportional, the graph of T vs l must be a straight line."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q4",
+      "type": "mcq",
+      "question": "The world’s smallest playable guitar is 10mum long. Express this length in standard form in metres.",
+      "options": [
+        "1.0times10−5m",
+        "1.0times10−6m",
+        "1.0times10−4m",
+        "1.0times10−7m"
+      ],
+      "correctIndex": 0,
+      "explanation": "10mum=10times10−6m=1.0times10−5m. \n\n**Common mistake:** Using 10−6as the power (1.0times10−6m), forgetting that '10' adds another power of 10 to the result."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q5",
+      "type": "mcq",
+      "question": "A measuring cylinder contains 20 cm3of water. When ten identical steel balls are immersed, the level rises to 50 cm3. If one ball has a mass of 27 g, what is the density of the steel in g/cm3?",
+      "options": [
+        "9.0",
+        "0.9",
+        "8.1",
+        "13.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total volume of 10 balls = 50−20=30cm3. Volume of 1 ball = 30/10=3cm3. Density = mass/volume=27/3=9.0g/cm3. \n\n**Common mistake:** Using the total volume (30) with the single mass (27) to get 0.9 g/cm3."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q6",
+      "type": "mcq",
+      "question": "A boat travels at $8\\text{ m/s}$ due North in a river where the cross-current pushes it East at $6\\text{ m/s}$. What is the magnitude of the boat's resultant velocity?",
+      "options": [
+        "$10\\text{ m/s}$",
+        "$14\\text{ m/s}$",
+        "$2\\text{ m/s}$",
+        "$48\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The velocities are at $90^{circ}$. $R = sqrt{8^2 + 6^2} = sqrt{64 + 36} = sqrt{100} = 10\\text{ m/s}$. \n\n**Common mistake:** Forgetting that velocity is a vector and arithmetic addition ($14\\text{ m/s}$) doesn't apply at right angles."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q7",
+      "type": "mcq",
+      "question": "In a scale drawing, a force of $3000\\text{ N}$ is represented by a line $6.0\\text{ cm}$ long. If the resultant force in the drawing measures $8.5\\text{ cm}$, what is its actual magnitude?",
+      "options": [
+        "$4250\\text{ N}$",
+        "$5100\\text{ N}$",
+        "$2550\\text{ N}$",
+        "$3500\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The scale is $3000\\text{ N} / 6.0\\text{ cm} = 500\\text{ N/cm}$. Therefore, $8.5\\text{ cm} \\times 500\\text{ N/cm} = 4250\\text{ N}$. \n\n**Common mistake:** Inverting the scale calculation to get $2550\\text{ N}$."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q8",
+      "type": "mcq",
+      "question": "Three forces act on an object. Which condition must be met for the object to be in equilibrium (resultant force is zero)?",
+      "options": [
+        "The vector sum of the three forces must form a closed triangle",
+        "The sum of the magnitudes of the forces must be zero",
+        "The forces must all act in the same direction",
+        "The two smaller forces must be equal to the largest force"
+      ],
+      "correctIndex": 0,
+      "explanation": "For equilibrium, the resultant is zero, meaning if vectors are drawn tip-to-tail, they must return to the starting point (forming a closed polygon/triangle). \n\n**Common mistake:** Thinking the arithmetic sum of magnitudes must be zero, which is only possible if forces have no size."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q9",
+      "type": "mcq",
+      "question": "An object moves at a constant speed of $5\\text{ m/s}$ in a circular path. Which statement about its motion is correct?",
+      "options": [
+        "Its velocity is changing even though its speed is constant",
+        "Its velocity is constant because its speed is constant",
+        "Its acceleration is zero because its speed is constant",
+        "Its displacement after one full circle is equal to the circumference"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is a vector (speed + direction). Since the direction is constantly changing in a circle, the velocity is changing. \n\n**Common mistake:** Assuming constant speed means constant velocity, which ignores the directional component of vectors."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-hard-q10",
+      "type": "mcq",
+      "question": "Two jeeps pull a stuck lorry. Each jeep exerts a force of $3000\\text{ N}$ at an angle of $45^{circ}$ to the horizontal (on opposite sides). What is the total resultant force pulling the lorry forward?",
+      "options": [
+        "$4243\\text{ N}$",
+        "$6000\\text{ N}$",
+        "$3000\\text{ N}$",
+        "$2121\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each jeep contributes a forward component of $3000 \\times cos(45^{circ}) = 2121.3\\text{ N}$. Total forward force $= 2121.3 \\times 2 = 4242.6\\text{ N}$. \n\n**Common mistake:** Thinking the total force is just $3000 + 3000 = 6000\\text{ N}$, which ignores the angles."
+    }
+  ]
+}

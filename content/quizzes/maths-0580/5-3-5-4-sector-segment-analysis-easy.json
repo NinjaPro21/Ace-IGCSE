@@ -1,0 +1,77 @@
+{
+  "id": "5-3-5-4-sector-segment-analysis-easy",
+  "topicId": "5-3-5-4-sector-segment-analysis",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "easy",
+  "title": "Sector & Segment Analysis — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-3-5-4-sector-segment-analysis-easy-q1",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the arc length $l$2$r$2$\\theta$?",
+      "options": [
+        "$\\frac{\\theta}{360} \\times 2\\pi r$",
+        "$\\frac{\\theta}{360} \\times \\pi r^2$",
+        "$2\\pi r$",
+        "$\\pi r^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The arc length is a $\\frac{tion}{}$ of the whole circumference ($2\\pi r$2$\\theta$2$360°$ of the circle.\n\n**Common mistake:** Students often confuse the formula for arc length with the formula for sector area."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-easy-q2",
+      "type": "mcq",
+      "question": "Calculate the area of a sector with a radius of $10\\text{ cm}$ and a central angle of $45°$. Leave your answer in terms of $\\pi$.",
+      "options": [
+        "$12.5\\pi\\text{ cm}^2$",
+        "$25\\pi\\text{ cm}^2$",
+        "$50\\pi\\text{ cm}^2$",
+        "$2.5\\pi\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sector Area $= \\frac{45}{360} \\times \\pi \\times 10^{2} = \\frac{1}{8} \\times 100\\pi = 12.5\\pi$.\n\n**Common mistake:** A student might forget to square the radius or use the arc length formula instead."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-easy-q3",
+      "type": "mcq",
+      "question": "In the study of circles, what is the definition of a chord?",
+      "options": [
+        "A line segment connecting two points on the circumference",
+        "A line from the centre to the circumference",
+        "A line that touches the circle at exactly one point",
+        "The region bounded by two radii and an arc"
+      ],
+      "correctIndex": 0,
+      "explanation": "A chord is a straight line segment whose endpoints both lie on the circular circumference.\n\n**Common mistake:** Students may confuse a chord with a radius (one endpoint at centre) or a tangent (touches at one point)."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-easy-q4",
+      "type": "mcq",
+      "question": "Which geometric property is always true regarding the line from the centre of a circle to the midpoint of a chord?",
+      "options": [
+        "It bisects the chord at right angles ($90°$)",
+        "It is always equal to the length of the chord",
+        "It is parallel to the chord",
+        "It only exists if the chord is the diameter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fundamental geometric rule states that a line drawn from the centre of a circle to the midpoint of a chord is perpendicular to that chord.\n\n**Common mistake:** A student might think the line is simply half the length of the radius."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-easy-q5",
+      "type": "mcq",
+      "question": "Find the arc length of a semicircle with a diameter of $20\\text{ cm}$ in terms of $\\pi$.",
+      "options": [
+        "$10\\pi\\text{ cm}$",
+        "$20\\pi\\text{ cm}$",
+        "$5\\pi\\text{ cm}$",
+        "$100\\pi\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radius is $10\\text{ cm}$. Semicircle angle is $180°$. Arc length $= \\frac{180}{360} \\times 2\\pi(10) = 10\\pi$.\n\n**Common mistake:** The student might use the diameter ($20$) in the formula as the radius, leading to $20\\pi$."
+    }
+  ]
+}

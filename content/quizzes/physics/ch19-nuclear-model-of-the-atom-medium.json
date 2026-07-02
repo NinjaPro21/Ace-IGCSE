@@ -1,0 +1,207 @@
+{
+  "id": "ch19-nuclear-model-of-the-atom-medium",
+  "topicId": "ch19-nuclear-model-of-the-atom",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "medium",
+  "title": "Chapter 19: Nuclear Model of the Atom — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q1",
+      "type": "mcq",
+      "question": "An atom has a nucleon number of 40 and a proton number of 19. How many neutrons are in its nucleus?",
+      "options": [
+        "21",
+        "19",
+        "40",
+        "59"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of neutrons is found by subtracting the proton number ($Z$) from the nucleon number ($A$): $40 - 19 = 21$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q2",
+      "type": "mcq",
+      "question": "Which statement correctly describes isotopes of the same element?",
+      "options": [
+        "They have the same proton number but different nucleon numbers",
+        "They have the same nucleon number but different proton numbers",
+        "They have the same number of neutrons but different number of protons",
+        "They have different chemical properties but the same mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes are atoms of the same element (same $Z$) that have different numbers of neutrons, resulting in different nucleon numbers ($A$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q3",
+      "type": "mcq",
+      "question": "What did the scattering of $alpha$-particles by thin metal foil prove about the structure of the atom?",
+      "options": [
+        "The atom is mostly empty space with a small, charged nucleus",
+        "The atom is a solid sphere of positive charge",
+        "Electrons are located inside the nucleus",
+        "Neutrons carry the majority of the atom's negative charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fact that most $alpha$-particles passed straight through showed the atom is mostly empty space, while the few that were deflected proved the existence of a small, concentrated, charged nucleus.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q4",
+      "type": "mcq",
+      "question": "Which row correctly identifies the particles found inside the nucleus of an atom?",
+      "options": [
+        "Protons and Neutrons",
+        "Protons and Electrons",
+        "Neutrons and Electrons",
+        "Protons, Neutrons, and Electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleus consists of protons and neutrons. Electrons orbit the nucleus and are not part of it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q5",
+      "type": "mcq",
+      "question": "A neutral atom of Lithium has 3 protons and 4 neutrons. How many electrons does it have?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a neutral atom, the number of negatively charged electrons must equal the number of positively charged protons to balance the total charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q6",
+      "type": "mcq",
+      "question": "A nucleus is represented by the notation $^{35}_{17}Cl$. Calculate the number of neutrons in this nucleus.",
+      "options": [
+        "18",
+        "17",
+        "35",
+        "52"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of neutrons is found by subtracting the proton number from the nucleon number: $A - Z = 35 - 17 = 18$. \n\n**Common mistake:** Thinking 17 is the number of neutrons."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q7",
+      "type": "mcq",
+      "question": "Which of the following pairs of nuclides are isotopes of the same element?",
+      "options": [
+        "$^{12}6 C$ and $^{14}6 C$",
+        "$^{14}6 C$ and $^{14}7 N$",
+        "$^{35}{17} Cl$ and $^{37}{18} Ar$",
+        "$^1_1 H$ and $^4_2 He$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes must have the same proton number (bottom number). Both $^{12}6 C$ and $^{14}6 C$ have 6 protons. \n\n**Common mistake:** Choosing nuclides with the same nucleon number (top number), which are different elements."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q8",
+      "type": "mcq",
+      "question": "A neutral atom has 13 electrons and a nucleon number of 27. How many neutrons does its nucleus contain?",
+      "options": [
+        "14",
+        "13",
+        "27",
+        "40"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a neutral atom, the number of protons equals the number of electrons (13). Neutrons = Nucleon number − Protons = $27 - 13 = 14$. \n\n**Common mistake:** Using 13 as the number of neutrons."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q9",
+      "type": "mcq",
+      "question": "Which row in the table correctly compares the approximate masses of atomic particles?",
+      "options": [
+        "Proton: 1; Neutron: 1; Electron: 1/2000",
+        "Proton: 1; Neutron: 0; Electron: 1/2000",
+        "Proton: 1/2000; Neutron: 1/2000; Electron: 1",
+        "Proton: 1; Neutron: 1; Electron: 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 19.1 states that protons and neutrons have an approximate mass of 1 atomic mass unit, while electrons are much lighter at 1/2000. \n\n**Common mistake:** Thinking neutrons have no mass because they have no charge."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q10",
+      "type": "mcq",
+      "question": "An atom has 19 protons and 21 neutrons. What is its nuclide notation?",
+      "options": [
+        "$^{40}{19}X$",
+        "$^{21}{19}X$",
+        "$^{19}{21}X$",
+        "$^{19}{40}X$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nucleon number $A = 19 + 21 = 40$. Proton number $Z = 19$. The notation is $^A_Z X$. \n\n**Common mistake:** Using the neutron number as the top number."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q11",
+      "type": "mcq",
+      "question": "Which of the following equations represents a nuclear fusion reaction?",
+      "options": [
+        "$^2_1 H + ^2_1 H rightarrow ^3_2 He + ^1_0 n$",
+        "$^{239}{94} Pu + ^1_0 n rightarrow ^{137}{54} Xe + ^{103}{40} Zr + ^1_0 n$",
+        "$^{238}{92} U rightarrow ^{234}{90} Th + ^4_2 alpha$",
+        "$H_2 + O rightarrow H_2O$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first equation shows two light hydrogen nuclei ($^2_1 H$) combining to form a heavier helium nucleus, which is fusion. The second is fission, and the third is alpha decay.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q12",
+      "type": "mcq",
+      "question": "During a fission reaction of Plutonium-239 ($^{239}{94} Pu$), it is hit by a neutron ($^1_0 n$). What is the total nucleon number before the split?",
+      "options": [
+        "240",
+        "239",
+        "94",
+        "95"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total nucleons = 239 (from Pu) + 1 (from the neutron) = 240. \n\n**Common mistake:** ignoring the initiating neutron."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q13",
+      "type": "mcq",
+      "question": "Why is energy released during nuclear fission and fusion?",
+      "options": [
+        "The total mass before the reaction is greater than the total mass after",
+        "The total mass before the reaction is less than the total mass after",
+        "The number of protons increases significantly",
+        "The number of neutrons decreases to zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that energy is released because the total mass before the reaction is greater than the mass after; the 'lost' mass is converted into energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q14",
+      "type": "mcq",
+      "question": "In a fission reaction, a nucleus with 94 protons splits into two nuclei with 54 and 40 protons respectively. What can be concluded about the total charge?",
+      "options": [
+        "The total charge is conserved (+94 before and +94 after)",
+        "The total charge increases as energy is released",
+        "The total charge decreases by 4 units",
+        "Charge is not conserved in nuclear reactions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total charge (proton number) is conserved. $54 + 40 = 94$, which matches the initial proton number.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-medium-q15",
+      "type": "mcq",
+      "question": "Which statement correctly compares nuclear fission and nuclear fusion?",
+      "options": [
+        "Fission involves heavy nuclei splitting; fusion involves light nuclei joining",
+        "Fission involves light nuclei joining; fusion involves heavy nuclei splitting",
+        "Both involve joining light nuclei together",
+        "Both involve splitting heavy nuclei apart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fission is the splitting of a heavy nucleus, while fusion is the combining of lighter nuclei.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

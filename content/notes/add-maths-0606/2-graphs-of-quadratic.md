@@ -4,9 +4,12 @@ Graphing the modulus of a quadratic function involves taking its parabolic curve
 
 ## Key formulas
 
-$$y = |ax^2 + bx + c|$$
+$$
+y = |ax^2 + bx + c|
 
-$$\text{Roots where } ax^2 + bx + c = 0 \text{ act as the reflection boundaries.}$$
+\text{Roots where } ax^2 + bx + c = 0 \text{ act as the reflection boundaries.}
+$$
+
 
 ## Steps / method
 
@@ -40,14 +43,10 @@ Since $f(x) > 0$ for all real $x$, the graph of $y = |f(x)|$ is identical to $y 
 
 ## Examiner tip
 
-Be precise when drawing the reflected components. Ensure that the corners at the x-intercepts meet sharply and do not look like smooth curves or rounded turning points, as examiners check for clear &quot;cusps&quot; here.
+Be precise when drawing the reflected components. Ensure that the corners at the x-intercepts meet sharply and do not look like smooth curves or rounded turning points, as examiners check for clear "cusps" here.
 
 ## Quick check
 
 If a quadratic function has no real roots, then the graph of its modulus $y = |f(x)|$ looks identical to the original graph.
 
 [Image showing a quadratic curve with its negative loop below the x-axis reflected upwards as a positive hump]
-
-## Visual / interactive intent
-
-Reuse explorer: Discriminant/modulus slider. Users change the parameters of a quadratic equation. A toggle instantly folds any negative regions upwards, highlighting the sharp cusp points along the horizontal axis line.

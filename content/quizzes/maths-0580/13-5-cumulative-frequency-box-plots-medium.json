@@ -1,0 +1,77 @@
+{
+  "id": "13-5-cumulative-frequency-box-plots-medium",
+  "topicId": "13-5-cumulative-frequency-box-plots",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "medium",
+  "title": "Cumulative Frequency & Box Plots — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-5-cumulative-frequency-box-plots-medium-q1",
+      "type": "mcq",
+      "question": "A cumulative frequency curve is drawn for 80 students. At which cumulative frequency value on the vertical axis should you read across to find the upper quartile?",
+      "options": [
+        "60",
+        "40",
+        "20",
+        "75"
+      ],
+      "correctIndex": 0,
+      "explanation": "The upper quartile is the 75th percentile. $75\\%$ of 80 is $0.75 \\times 80 = 60$.\n\n**Common mistake:** The student might read across at 75, confusing the percentile rank with the actual frequency count."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-medium-q2",
+      "type": "mcq",
+      "question": "From a cumulative frequency curve of 60 students, the lower quartile is found to be 30 marks and the upper quartile is 63 marks. Calculate the interquartile range.",
+      "options": [
+        "33 marks",
+        "46.5 marks",
+        "93 marks",
+        "15 marks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The interquartile range is the difference between the upper and lower quartiles: $63 - 30 = 33$.\n\n**Common mistake:** A student might average the two values or provide the median instead."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-medium-q3",
+      "type": "mcq",
+      "question": "If the 10th percentile of an exam is 20 marks, what does this tell you about the students' performance?",
+      "options": [
+        "$10\\%$ of the students scored 20 marks or fewer",
+        "10 students scored exactly 20 marks",
+        "The average mark for the bottom 10 students was 20",
+        "The pass mark for the exam was 20"
+      ],
+      "correctIndex": 0,
+      "explanation": "A percentile indicates the value below which a given percentage of observations fall. The 10th percentile at 20 marks means $10\\%$ of students scored 20 or less.\n\n**Common mistake:** Misinterpreting the percentile as a raw number of students (10 students) rather than a percentage of the total."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-medium-q4",
+      "type": "mcq",
+      "question": "A data set has a total frequency of 140. To estimate the 15th percentile, what value on the cumulative frequency axis should be used?",
+      "options": [
+        "21",
+        "15",
+        "70",
+        "105"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the 15th percentile, calculate $15\\%$ of the total frequency: $0.15 \\times 140 = 21$.\n\n**Common mistake:** Reading from the value 15 on the vertical axis instead of $15\\%$ of the total."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-medium-q5",
+      "type": "mcq",
+      "question": "Which of the following is true about the general shape of a cumulative frequency curve?",
+      "options": [
+        "The curve never goes down as you move from left to right",
+        "The curve always passes through the origin $(0,0)$",
+        "The curve is always a straight line",
+        "The curve reaches its peak at the mean value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because cumulative frequency is a running total, it can never decrease; it always increases or stays flat.\n\n**Common mistake:** Assuming it behaves like a normal distribution curve or frequency polygon which can go up and down."
+    }
+  ]
+}

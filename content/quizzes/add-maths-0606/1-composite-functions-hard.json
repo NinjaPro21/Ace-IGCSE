@@ -1,0 +1,77 @@
+{
+  "id": "1-composite-functions-hard",
+  "topicId": "1-composite-functions",
+  "chapterId": "ch01-functions",
+  "difficulty": "hard",
+  "title": "Composite Functions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-composite-functions-hard-q1",
+      "type": "mcq",
+      "question": "If g(x)=2x−3 and fg(x)=4$x^{2}$−12x+11, find the expression for f(x).",
+      "options": [
+        "f(x)= x^{2}+2",
+        "f(x)= x^{2}−2",
+        "f(x)= (x+3)^{2}",
+        "f(x)=2x+5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let u=2x−3, then x=(u+3)/2. Substitute into fg(x): 4((u+3)/2$)^{2}$−12((u+3)/2)+11= (u+3)^{2}−6(u+3)+11= u^{2}+6u+9−6u−18+11= u^{2}+2.\n\n**Common mistake:** Trying to find f(x) by simple division or failing to substitute x correctly in terms of u."
+    },
+    {
+      "id": "1-composite-functions-hard-q2",
+      "type": "mcq",
+      "question": "The function f is defined by f(x)=2x−5 and gf(x)= \\frac{10}{2x-7}. Find the expression for g(x).",
+      "options": [
+        "g(x)= \\frac{10}{x-2}",
+        "g(x)= \\frac{10}{x+5}",
+        "g(x)= \\frac{5}{x-1}",
+        "g(x)= \\frac{10}{2x+3}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let u=2x−5, then 2x=u+5. Substitute into gf(x): 10/(u+5−7)=10/(u−2). Thus g(x)=10/(x−2).\n\n**Common mistake:** Difficulty in isolating the 2x term or making algebraic errors in the denominator simplification."
+    },
+    {
+      "id": "1-composite-functions-hard-q3",
+      "type": "mcq",
+      "question": "Solve the equation $f^{2}(x)=x$ for the function $f(x)=\\frac{x+2}{2x-1}$ where $x \\neq \\frac{1}{2}$.",
+      "options": [
+        "$x \\in \\mathbb{R}$, $x \\neq \\frac{1}{2}$",
+        "$x=2$ only",
+        "$x=-1$ only",
+        "No solutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Computing $f(f(x))$ gives $x$ for all $x$ in the domain, so $f^{2}(x)=x$ holds for every real $x$ except $x=\\frac{1}{2}$.\n\n**Common mistake:** Assuming the equation has specific roots and attempting to solve a high-degree polynomial after failing to simplify the composition."
+    },
+    {
+      "id": "1-composite-functions-hard-q4",
+      "type": "mcq",
+      "question": "Determine the range of fg(x) given f(x)= x^{2}+2 and g(x)=3x−1 for x≥1.",
+      "options": [
+        "y≥6",
+        "y≥2",
+        "y≥1",
+        "y≥3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The domain of f in the composition is the range of g. For x≥1, g(x)≥3(1)−1=2. For g(x)≥2, f(g(x))=(g(x)$)^{2}$+2≥$2^{2}$+2=6.\n\n**Common mistake:** Using the original domain of g directly in f or ignoring the nested nature of ranges in composite functions."
+    },
+    {
+      "id": "1-composite-functions-hard-q5",
+      "type": "mcq",
+      "question": "Given f(x)=∣x−4∣ and g(x)=2x+1, find the set of values of x for which fg(x)=5.",
+      "options": [
+        "x=4 and x=−1",
+        "x=2 and x=−3",
+        "x=4 only",
+        "x=1 and x=−4"
+      ],
+      "correctIndex": 0,
+      "explanation": "fg(x)=∣(2x+1)−4∣=∣2x−3∣. Set ∣2x−3∣=5. Case 1: 2x−3=5 \\implies x=4. Case 2: 2x−3=−5 \\implies 2x=−2 \\implies x=−1.\n\n**Common mistake:** Neglecting to apply the modulus to the result of the inner function or solving for only one case."
+    }
+  ]
+}

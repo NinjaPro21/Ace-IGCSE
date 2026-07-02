@@ -1,0 +1,77 @@
+{
+  "id": "11-3-common-features-of-wave-behaviour-pyp",
+  "topicId": "11-3-common-features-of-wave-behaviour",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "pyp",
+  "title": "Common Features of Wave Behaviour — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-common-features-of-wave-behaviour-pyp-q1",
+      "type": "mcq",
+      "question": "A diagram shows water waves approaching a gap in a barrier. The waves that pass through the gap are circular. Which change would cause the waves to be less circular?",
+      "options": [
+        "Increasing the width of the gap",
+        "Increasing the wavelength of the waves",
+        "Decreasing the width of the gap",
+        "Decreasing the frequency of the waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves spread out less (become less circular) when the gap becomes wider relative to the wavelength. If the gap is wide, only the ends of the wavefronts are affected.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-pyp-q2",
+      "type": "mcq",
+      "question": "Water waves move from deep water into shallow water. The boundary is at an angle to the waves. Which row describes the change in speed and the change in direction of the waves?",
+      "options": [
+        "Speed: decreases; Direction: bends towards the normal",
+        "Speed: decreases; Direction: bends away from the normal",
+        "Speed: increases; Direction: bends towards the normal",
+        "Speed: increases; Direction: bends away from the normal"
+      ],
+      "correctIndex": 0,
+      "explanation": "As waves enter shallow water, they slow down. According to the laws of refraction, slowing down causes the waves to bend towards the normal.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-pyp-q3",
+      "type": "mcq",
+      "question": "Which property of a wave is used to explain how a person can hear a conversation around a corner?",
+      "options": [
+        "Diffraction",
+        "Reflection",
+        "Refraction",
+        "Total internal reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves have long wavelengths that allow them to diffract (spread out) as they pass the edge of a wall or doorway, making them audible around corners.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows waves reflecting from a barrier. The angle between the incident wavefronts and the barrier is $30^circ$. What is the angle of reflection $r$?",
+      "options": [
+        "$30^circ$",
+        "$60^circ$",
+        "$90^circ$",
+        "$0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the wavefronts are at $30^circ$ to the barrier, the incident ray (perpendicular to wavefronts) is at $30^circ$ to the normal. By the law of reflection, $i = r = 30^circ$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-pyp-q5",
+      "type": "mcq",
+      "question": "Plane water waves pass through a gap in a barrier. Which wave feature does NOT change as the waves pass through?",
+      "options": [
+        "Wavelength",
+        "Direction of all parts of the wave",
+        "Shape of the wavefronts",
+        "The amplitude at the edges"
+      ],
+      "correctIndex": 0,
+      "explanation": "In diffraction, the wavelength remains constant before and after passing through the gap. The shape and direction change as the waves spread out.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

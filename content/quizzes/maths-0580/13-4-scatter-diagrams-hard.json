@@ -1,0 +1,77 @@
+{
+  "id": "13-4-scatter-diagrams-hard",
+  "topicId": "13-4-scatter-diagrams",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "hard",
+  "title": "Scatter Diagrams — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-4-scatter-diagrams-hard-q1",
+      "type": "mcq",
+      "question": "A scatter diagram shows a strong positive correlation between 'Solar panels' and 'Pirate sightings.' What is the most mathematically sound conclusion?",
+      "options": [
+        "Correlation does not imply causation; one does not necessarily cause the other",
+        "The solar panels are definitely attracting the pirates",
+        "The pirates must be installing the solar panels on their ships",
+        "The data must be false because the relationship makes no sense"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources emphasize that correlation does not imply causation, noting that even with strong correlation, you cannot conclude one variable causes the other.\n\n**Common mistake:** A common mistake is to 'see' a causal relationship (e.g., pirates are attracted to panels) just because a mathematical correlation exists."
+    },
+    {
+      "id": "13-4-scatter-diagrams-hard-q2",
+      "type": "mcq",
+      "question": "Why should you avoid extending a line of best fit to predict values far beyond the collected data range (e.g., predicting a 30-year-old's height from data of 1-10 year olds)?",
+      "options": [
+        "You cannot be sure that the same trend will continue indefinitely",
+        "The graph paper would not be large enough to show the point",
+        "A line of best fit must always pass through the origin",
+        "The correlation coefficient becomes zero outside of the recorded range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state you cannot make an accurate prediction by extending the line because you cannot be sure the same trend will continue.\n\n**Common mistake:** Students often 'extrapolate' (extend the line) without considering whether the real-world relationship changes (e.g., humans stop growing taller)."
+    },
+    {
+      "id": "13-4-scatter-diagrams-hard-q3",
+      "type": "mcq",
+      "question": "In the context of the French and German marks data, how might you identify students who likely 'joined the class later than others'?",
+      "options": [
+        "They are the points that lie significantly far away from the line of best fit",
+        "They are the points with the highest marks on both axes",
+        "They are the points located closest to the origin (0,0)",
+        "They are the points forming a secondary line of best fit"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Exercise 13.4A, identifying specific students often involves looking for outliers or points that deviate from the strong correlation trend established by the rest of the class.\n\n**Common mistake:** The student might pick the students with the lowest marks overall, assuming they joined late, rather than looking at the relationship between the two subjects."
+    },
+    {
+      "id": "13-4-scatter-diagrams-hard-q4",
+      "type": "mcq",
+      "question": "A line of best fit is drawn for petrol consumption versus speed. If the data is only collected for speeds between 30 and 80 mph, for which speed would an estimate be MOST reliable?",
+      "options": [
+        "55 mph",
+        "10 mph",
+        "100 mph",
+        "0 mph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Predictions are only reliable within the range of values plotted (30 to 80 mph). 55 mph is the only option inside this range.\n\n**Common mistake:** The student might choose a lower or higher value, not realizing that reliability drops significantly once you leave the known data interval."
+    },
+    {
+      "id": "13-4-scatter-diagrams-hard-q5",
+      "type": "mcq",
+      "question": "What mathematical property is ideally satisfied when drawing a line of best fit manually?",
+      "options": [
+        "The sums of the distances to points on either side of the line are equal",
+        "The line must pass through at least 50% of the plotted points",
+        "The line must have a gradient equal to the mean of the data",
+        "The line must bisect the angle between the x-axis and y-axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that for a line of best fit, the sums of the distances to points on either side are equal.\n\n**Common mistake:** Students often think the line must 'touch' as many points as possible, even if it leaves most points on one side of the line."
+    }
+  ]
+}

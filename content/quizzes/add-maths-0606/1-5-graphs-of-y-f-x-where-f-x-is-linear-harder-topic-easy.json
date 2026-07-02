@@ -1,0 +1,77 @@
+{
+  "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-easy",
+  "topicId": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "easy",
+  "title": "Graphs of $y = |f(x)|$ where $f(x)$ is Linear — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "State the coordinates of the vertex of the graph y=∣x+6∣.",
+      "options": [
+        "(-6, 0)",
+        "(6, 0)",
+        "(0, 6)",
+        "(0, -6)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertex of y=∣x−h∣ is at (h,0). Here x+6=0 gives x=−6.\n\n**Common mistake:** Misidentifying the sign of the x-coordinate, picking 6 instead of -6."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Find the y-intercept of the graph representing y=∣3x−12∣.",
+      "options": [
+        "12",
+        "4",
+        "-12",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set x=0: y=∣3(0)−12∣=∣−12∣=12.\n\n**Common mistake:** Identifying the x-intercept (4) as the y-intercept or failing to take the modulus and giving -12."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "State the equation of the axis of symmetry for the graph y=∣x−4∣+2.",
+      "options": [
+        "x=4",
+        "x=2",
+        "y=2",
+        "x=−4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symmetry axis passes through the vertex. The vertex is at x=4, so the axis is x=4.\n\n**Common mistake:** Using the vertical shift constant (2) or negating the horizontal shift incorrectly."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "For the basic function f(x)=∣x∣, find the image of x=−7.",
+      "options": [
+        "7",
+        "-7",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the definition of absolute value, ∣−7∣=7.\n\n**Common mistake:** Failing to apply the modulus property and leaving the value as -7."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Identify the coordinates of the minimum point on the graph y=∣2x−10∣+3.",
+      "options": [
+        "(5, 3)",
+        "(10, 3)",
+        "(5, 0)",
+        "(-5, 3)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modulus is minimized at x=5 (2x−10=0). At x=5,y=3.\n\n**Common mistake:** Neglecting the vertical shift (3) or failing to solve for the correct x-coordinate within the modulus."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "9-1-linear-graphs-hard",
+  "topicId": "9-1-linear-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "hard",
+  "title": "Linear Graphs — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Determine the coordinates of the **intersection point** of the lines $y = 2x + 1$ and $y = x - 7$.",
+      "options": [
+        "(-8, -15)",
+        "(8, 17)",
+        "(-6, -11)",
+        "(2, 5)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set the equations equal to each other: $2x + 1 = x - 7 \\implies x = -8$. Substitute into $y = x - 7$: $y = -8 - 7 = -15$. The point is (-8, -15).\n\n**Common mistake:** Solving for $x$2$y$ value.",
+      "id": "9-1-linear-graphs-hard-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the equation of the line that passes through **(3, 4)** and is **parallel** to the line $y = 2x - 7$.",
+      "options": [
+        "$y = 2x - 2$",
+        "$y = 2x + 10$",
+        "$y = 0.5x + 2.5$",
+        "$y = -2x + 10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The required line has a gradient of 2. Using $y = 2x + c$2$4 = 2(3) + c \\implies 4 = 6 + c \\implies c = -2$. The equation is $y = 2x - 2$.\n\n**Common mistake:** Using the negative reciprocal gradient (-0.5) instead of the same gradient for a parallel line.",
+      "id": "9-1-linear-graphs-hard-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "A car's value **$v$2$n$2$v = 4500 - 0.2n$2$3200**.$",
+      "options": [
+        "6500 km",
+        "26,000 km",
+        "1300 km",
+        "38,500 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "$3200 = 4500 - 0.05n$2$0.05n = 1300 \\implies n = 1300 / 0.05 = 26000$ km.\n\n**Common mistake:** Calculating $4500 - 3200$ and providing 1300 as the final answer.",
+      "id": "9-1-linear-graphs-hard-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "Match the line **$y = 10 - x$** with its correct characteristic on a standard graph.",
+      "options": [
+        "It intercepts the y-axis at (0, 10) and has a negative gradient",
+        "It passes through the origin and has a gradient of 10",
+        "It is a horizontal line passing through $y = 10$",
+        "It has a positive gradient and intercepts the x-axis at (10, 0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation $y = -x + 10$ has a gradient of -1 and a y-intercept of 10.\n\n**Common mistake:** Assuming the gradient is positive because the equation starts with a positive 10.",
+      "id": "9-1-linear-graphs-hard-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Calculate the **shortest distance** from the point **(1, -1)** to the line $y = 0.5x + 3$, correct to two decimal places.",
+      "options": [
+        "4.02",
+        "4.47",
+        "3.13",
+        "5.00"
+      ],
+      "correctIndex": 0,
+      "explanation": "The shortest distance is the perpendicular distance. Finding the perpendicular line $y = -2x + 1$ and the intersection point, then using the distance formula results in $\\sqrt{16.2} \\approx 4.02$.\n\n**Common mistake:** Measuring vertically or horizontally to the line instead of using the perpendicular path.",
+      "id": "9-1-linear-graphs-hard-q5"
+    }
+  ]
+}

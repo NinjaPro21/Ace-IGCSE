@@ -1,0 +1,77 @@
+{
+  "id": "8-2-the-particle-model-hard",
+  "topicId": "8-2-the-particle-model",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "hard",
+  "title": "The Particle Model — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-the-particle-model-hard-q1",
+      "type": "mcq",
+      "question": "In the experiment to observe Brownian motion, smoke particles are seen to move randomly. What causes this specific motion?",
+      "options": [
+        "Bombardment by much smaller, rapidly moving air molecules",
+        "Convection currents caused by the microscope lamp",
+        "Repulsion between smoke particles of the same charge",
+        "The smoke particles are alive and moving independently"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smoke particles are much larger than air molecules. Their random motion is evidence that invisible air molecules are moving rapidly and colliding with them from all sides. \n\n**Common mistake:** Thinking the smoke particles themselves are the 'air molecules' we are trying to see."
+    },
+    {
+      "id": "8-2-the-particle-model-hard-q2",
+      "type": "mcq",
+      "question": "What is unique about the particles of a substance at absolute zero ($0\\text{ K}$)?",
+      "options": [
+        "They have the least possible kinetic energy",
+        "They have zero potential energy",
+        "They have reached their maximum possible speed",
+        "They have escaped the attractive forces of the nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Absolute zero is the temperature at which particles have the minimum (least) possible kinetic energy. \n\n**Common mistake:** Claiming particles have 'zero' energy; they have 'least' kinetic energy but may still have other forms of energy."
+    },
+    {
+      "id": "8-2-the-particle-model-hard-q3",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the properties of particles in a liquid compared to a solid?",
+      "options": [
+        "Arrangement: Random; Spacing: Slightly further apart; Motion: Move freely within the liquid",
+        "Arrangement: Regular; Spacing: Closely packed; Motion: Vibrate about fixed positions",
+        "Arrangement: Random; Spacing: Far apart; Motion: Move freely in all directions",
+        "Arrangement: Regular; Spacing: Far apart; Motion: Move freely within the liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquid particles are randomly arranged and can move past each other, unlike solid particles which are in a regular lattice and only vibrate. \n\n**Common mistake:** Describing liquid particles as being 'far apart', which is a property of gases."
+    },
+    {
+      "id": "8-2-the-particle-model-hard-q4",
+      "type": "mcq",
+      "question": "Why does the smell of perfume spread throughout a room even when there is no wind?",
+      "options": [
+        "Perfume particles move randomly and collide with air molecules, eventually spreading to fill the space",
+        "Perfume particles are attracted to the walls of the room",
+        "Air molecules carry the perfume particles in a straight line",
+        "Perfume is a gas and therefore has zero mass, making it move instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is diffusion. The kinetic particle model explains it as the result of random motion and collisions between particles. \n\n**Common mistake:** Thinking particles move in straight lines without collisions."
+    },
+    {
+      "id": "8-2-the-particle-model-hard-q5",
+      "type": "mcq",
+      "question": "Calculate the temperature difference in kelvin between the boiling point of water ($100^\\circ\\text{C}$) and the melting point of ice ($0^\\circ\\text{C}$).",
+      "options": [
+        "$100\\text{ K}$",
+        "$373\\text{ K}$",
+        "$273\\text{ K}$",
+        "$0\\text{ K}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since a change of $1^\\circ\\text{C}$ is equal to a change of $1\\text{ K}$, a difference of $100^\\circ\\text{C}$ is exactly $100\\text{ K}$. \n\n**Common mistake:** Converting both temperatures to Kelvin ($373$ and $273$) then adding them ($646$)."
+    }
+  ]
+}

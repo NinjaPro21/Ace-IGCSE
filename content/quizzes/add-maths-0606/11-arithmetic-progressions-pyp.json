@@ -1,0 +1,77 @@
+{
+  "id": "11-arithmetic-progressions-pyp",
+  "topicId": "11-arithmetic-progressions",
+  "chapterId": "ch11-series",
+  "difficulty": "pyp",
+  "title": "Arithmetic Progressions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-arithmetic-progressions-pyp-q1",
+      "type": "mcq",
+      "question": "The sum of the first n terms of an AP is given by S_n = 2n^2 + 3n. Find an expression for the n-th term, u_n.",
+      "options": [
+        "4n + 1",
+        "4n + 3",
+        "2n + 1",
+        "4n - 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "u_n = S_n - S_{n-1} = (2n^2 + 3n) - [2(n-1)$^2$ + 3(n-1)] = (2n^2 + 3n) - (2n^2 - 4n + 2 + 3n - 3) = 4n + 1.\n\n**Common mistake:** Sign errors when expanding (n-1)$^2$ or failing to subtract the correct terms."
+    },
+    {
+      "id": "11-arithmetic-progressions-pyp-q2",
+      "type": "mcq",
+      "question": "The first term of an AP is p and the common difference is q. Express the sum of the first 50 terms in terms of p and q.",
+      "options": [
+        "25(2p + 49q)",
+        "50(p + 49q)",
+        "25(p + 49q)",
+        "50(2p + 49q)"
+      ],
+      "correctIndex": 0,
+      "explanation": "S₅₀ = 50/2 [2p + (50-1)q] = 25 [2p + 49q].\n\n**Common mistake:** Using n instead of n/2 outside the bracket."
+    },
+    {
+      "id": "11-arithmetic-progressions-pyp-q3",
+      "type": "mcq",
+      "question": "Three terms of an AP are x+1, 2x+1, and 13. Find the value of x and hence find the 10th term.",
+      "options": [
+        "x = 4, u₁₀ = 41",
+        "x = 3, u₁₀ = 37",
+        "x = 4, u₁₀ = 45",
+        "x = 2, u₁₀ = 33"
+      ],
+      "correctIndex": 0,
+      "explanation": "2(2x+1) = (x+1) + 13 => 4x + 2 = x + 14 => 3x = 12 => x = 4. Sequence: 5, 9, 13... u₁₀ = 5 + 9(4) = 41.\n\n**Common mistake:** Failing to calculate the 10th term after finding x, or making arithmetic errors in the sequence."
+    },
+    {
+      "id": "11-arithmetic-progressions-pyp-q4",
+      "type": "mcq",
+      "question": "Find the sum of all odd numbers between 10 and 50.",
+      "options": [
+        "600",
+        "400",
+        "500",
+        "1200"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sequence: 11, 13, ..., 49. n = 20. S = 20/2 (11 + 49) = 10(60) = 600.\n\n**Common mistake:** Counting 21 terms instead of 20, or including 10/50 in the set."
+    },
+    {
+      "id": "11-arithmetic-progressions-pyp-q5",
+      "type": "mcq",
+      "question": "In an AP, the 5th term is 20 and the 10th term is 5. Find the 15th term.",
+      "options": [
+        "-10",
+        "10",
+        "0",
+        "-5"
+      ],
+      "correctIndex": 0,
+      "explanation": "a + 4d = 20 and a + 9d = 5. Subtracting: 5d = -15 => d = -3. a = 32. u₁₅ = 32 + 14(-3) = 32 - 42 = -10.\n\n**Common mistake:** Sign errors when calculating the common difference or the final term."
+    }
+  ]
+}

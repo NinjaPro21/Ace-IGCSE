@@ -4,11 +4,15 @@ Trigonometric identities are equations that link different trigonometric functio
 
 ## Key formulas
 
-$$\tan \theta = \frac{\sin \theta}{\cos \theta}, \quad \sin^2 \theta + \cos^2 \theta = 1$$
+$$
+\tan \theta = \frac{\sin \theta}{\cos \theta}, \quad \sin^2 \theta + \cos^2 \theta = 1
+$$
 
-$$\sec \theta = \frac{1}{\cos \theta}, \quad \csc \theta = \frac{1}{\sin \theta}, \quad \cot \theta = \frac{1}{\tan \theta}$$
+$\sec \theta = \frac{1}{\cos \theta}, \quad \csc \theta = \frac{1}{\sin \theta}, \quad \cot \theta = \frac{1}{\tan \theta}
 
-$$1 + \tan^2 \theta = \sec^2 \theta, \quad 1 + \cot^2 \theta = \csc^2 \theta$$
+$$
+1 + \tan^2 \theta = \sec^2 \theta, \quad 1 + \cot^2 \theta = \csc^2 \theta
+$$
 
 ## Steps / method
 
@@ -30,17 +34,21 @@ Reduce to one trig function using identities, then find **all** solutions in the
 
 Solve $\cos x = \frac{1}{2}$ for $0 \le x \le 2\pi$.
 
-Principal value: $x = \frac{\pi}{3}$. Cosine is also positive in Q4.
+Principal value: $x = \frac{\pi}{3}$. Cosine is al so positive in Q4.
 
-$$x = \frac{\pi}{3} \quad \text{or} \quad x = 2\pi - \frac{\pi}{3} = \frac{5\pi}{3}$$
+$$
+x = \frac{\pi}{3} \quad \text{or} \quad x = 2\pi - \frac{\pi}{3} = \frac{5\pi}{3}
+$$
 
-## Worked example — Quadratic in $\sin x$
+## Worked example — Quadratic in $\sin x $
 
 Solve $2\sin^2 x - \sin x - 1 = 0$ for $0 \le x \le 2\pi$.
 
-Let $u = \sin x$: $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0 \implies u = -\frac{1}{2}$ or $u = 1$
+Let $u = \sin x$: $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0 \implies u = -\frac{1}{2}$ or $u = 1
 
-$$\sin x = -\frac{1}{2} \implies x = \frac{7\pi}{6},\; \frac{11\pi}{6}; \qquad \sin x = 1 \implies x = \frac{\pi}{2}$$
+$$
+\sin x = -\frac{1}{2} \implies x = \frac{7\pi}{6},\; \frac{11\pi}{6}; \qquad \sin x = 1 \implies x = \frac{\pi}{2}
+$$
 
 ## Examiner tip
 
@@ -49,7 +57,3 @@ Always check the domain limits specified in the question. If the domain is given
 ## Quick check
 
 If $\sin^2 \theta = \frac{1}{4}$, you must solve for both $\sin \theta = \frac{1}{2}$ and $\sin \theta = -\frac{1}{2}$ to find all valid solutions across the quadrants.
-
-## Visual / interactive intent
-
-Reuse explorer: Trig demo. Includes an equation solver mode. Users select an identity substitution, and a horizontal line moves down a trigonometric wave graph to show visually how multiple intersection solutions are generated across the domain.

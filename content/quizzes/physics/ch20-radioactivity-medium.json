@@ -1,0 +1,337 @@
+{
+  "id": "ch20-radioactivity-medium",
+  "topicId": "ch20-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "medium",
+  "title": "Chapter 20: Radioactivity — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch20-radioactivity-medium-q1",
+      "type": "mcq",
+      "question": "A student turns on a radiation detector for $20\\text{ minutes}$ with no source present. The counter shows a total of $420$ counts. Calculate the background radiation rate.",
+      "options": [
+        "$21\\text{ counts/min}$",
+        "$420\\text{ counts/min}$",
+        "$8400\\text{ counts/min}$",
+        "$21\\text{ counts/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$u0218\\text{Count rate} = \\text{Total counts} / \\text{Time} = 420 / 20 = 21\\text{ counts/min}$. \n\n**Common mistake:** Multiplying the count by time instead of dividing."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q2",
+      "type": "mcq",
+      "question": "In an experiment, a detector measures $120\\text{ counts/min}$ with a source present. If the background rate is $20\\text{ counts/min}$, what is the corrected count rate for the source?",
+      "options": [
+        "$100\\text{ counts/min}$",
+        "$140\\text{ counts/min}$",
+        "$6\\text{ counts/min}$",
+        "$2400\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corrected count rate is the measured rate minus the background rate: $120 - 20 = 100\\text{ counts/min}$. \n\n**Common mistake:** Adding the background count to the measured total."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q3",
+      "type": "mcq",
+      "question": "A student records three separate one-minute measurements for background radiation: $18$, $22$, and $20$. What is the average background count rate?",
+      "options": [
+        "$20\\text{ counts/min}$",
+        "$18\\text{ counts/min}$",
+        "$60\\text{ counts/min}$",
+        "$21\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$u0218\\text{Average} = (18 + 22 + 20) / 3 = 20\\text{ counts/min}$. \n\n**Common mistake:** Using the highest or lowest value instead of the average."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q4",
+      "type": "mcq",
+      "question": "A detector shows a background count rate of $0.5\\text{ counts/s}$. What is this rate expressed in counts per minute?",
+      "options": [
+        "$30\\text{ counts/min}$",
+        "$0.008\\text{ counts/min}$",
+        "$120\\text{ counts/min}$",
+        "$1.5\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since there are $60$ seconds in a minute, $0.5\\text{ counts/s} \\times 60\\text{ s} = 30\\text{ counts/min}$. \n\n**Common mistake:** Dividing the rate by $60$ instead of multiplying."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q5",
+      "type": "mcq",
+      "question": "Why do readings on a radiation detector fluctuate slightly (e.g., $520, 530, 510$ counts/s) even when the source is at a fixed distance?",
+      "options": [
+        "Radiation emission is a random and spontaneous process.",
+        "The detector loses energy the longer it is switched on.",
+        "$Background radiation only occurs during specific \\times of day.$",
+        "The source is rapidly decaying into a stable element."
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that emission of radiation from a nucleus is random and spontaneous, which causes the count rate to vary even under identical conditions. \n\n**Common mistake:** Thinking the detector is faulty or 'tired'."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q6",
+      "type": "mcq",
+      "question": "Which of the following correctly ranks the types of radiation from MOST ionising to LEAST ionising?",
+      "options": [
+        "$alpha > beta > gamma$",
+        "$gamma > beta > alpha$",
+        "$beta > alpha > gamma$",
+        "$alpha > gamma > beta$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles have the strongest ionising effect, followed by beta, with gamma rays having the least ionising effect.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q7",
+      "type": "mcq",
+      "question": "A student places a few millimetres of aluminium between a radioactive source and a detector. The count rate drops significantly but does not reach the background level. Which radiation is likely being stopped by the aluminium?",
+      "options": [
+        "$beta$-particles",
+        "$alpha$-particles",
+        "$gamma$-rays",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles have medium penetrating ability and are stopped by a few millimetres of aluminium. Alpha would have been stopped by paper, and gamma would pass through the aluminium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q8",
+      "type": "mcq",
+      "question": "In an electric field, which direction will $alpha$-particles deflect?",
+      "options": [
+        "Towards the negative plate",
+        "Towards the positive plate",
+        "They will not deflect",
+        "Parallel to the plates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since alpha particles are positively charged ($+2$), they are attracted to and deflect towards the negative plate in an electric field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q9",
+      "type": "mcq",
+      "question": "Which statement compares the speeds of nuclear emissions correctly?",
+      "options": [
+        "$gamma$-rays travel at the speed of light",
+        "$alpha$-particles travel faster than $beta$-particles",
+        "All three travel at $3.0 \\times 10^{8} \\text{ m/s}$",
+        "$beta$-particles are the slowest because they have mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma rays are electromagnetic radiation and travel at the speed of light in a vacuum ($3.0 \\times 10^{8} \\text{ m/s}$). Alpha and beta particles travel at high speeds but slower than light.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q10",
+      "type": "mcq",
+      "question": "Why is $gamma$-radiation not deflected by electric or magnetic fields?",
+      "options": [
+        "It has no electric charge",
+        "It travels too fast to be affected",
+        "It has too much mass to move",
+        "It is absorbed by the field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma rays are electromagnetic waves with zero charge. Only charged particles (alpha and beta) experience forces in electric or magnetic fields.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q11",
+      "type": "mcq",
+      "question": "A nucleus of $^{238}{92}U$ undergoes alpha ($alpha$) decay. What are the nucleon number and proton number of the resulting thorium (Th) nucleus?",
+      "options": [
+        "Nucleon number: 234; Proton number: 90",
+        "Nucleon number: 236; Proton number: 90",
+        "Nucleon number: 234; Proton number: 92",
+        "Nucleon number: 242; Proton number: 94"
+      ],
+      "correctIndex": 0,
+      "explanation": "$alpha$-decay reduces $A$ by 4 ($238 - 4 = 234$) and $Z$ by 2 ($92 - 2 = 90$). \n\n**Common mistake:** Subtracting 2 from both numbers."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q12",
+      "type": "mcq",
+      "question": "The isotope $^{137}{55}Cs$ decays by emitting a beta ($beta$) particle. What is the composition of the new nucleus formed?",
+      "options": [
+        "137 nucleons and 56 protons",
+        "137 nucleons and 54 protons",
+        "136 nucleons and 55 protons",
+        "138 nucleons and 56 protons"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $beta$-decay, the nucleon number remains the same (137) and the proton number increases by 1 ($55 + 1 = 56$). \n\n**Common mistake:** Decreasing the proton number instead of increasing it."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q13",
+      "type": "mcq",
+      "question": "Which of the following describes why certain isotopes are radioactive?",
+      "options": [
+        "They have massive nuclei or an excess of neutrons.",
+        "They have an equal number of protons and neutrons.",
+        "They have too many electrons in their outer shells.",
+        "They are located near the surface of a material."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources note that isotopes with massive nuclei (large proton/nucleon numbers) or those with excess neutrons are often unstable and radioactive. \n\n**Common mistake:** Thinking chemical reactivity or electron count determines radioactivity."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q14",
+      "type": "mcq",
+      "question": "Compare the change in the number of neutrons during $alpha$ and $beta$ decay. Which statement is correct?",
+      "options": [
+        "$alpha$ decay loses 2 neutrons; $beta$ decay loses 1 neutron.",
+        "$alpha$ decay loses 4 neutrons; $beta$ decay gains 1 neutron.",
+        "Both decays result in a loss of 2 neutrons.",
+        "$alpha$ decay loses 2 neutrons; $beta$ decay remains unchanged."
+      ],
+      "correctIndex": 0,
+      "explanation": "$alpha$ is $^4_2He$ (2p, 2n), so the nucleus loses 2 neutrons. In $beta$-decay, a neutron turns into a proton, so the number of neutrons decreases by 1. \n\n**Common mistake:** Thinking $beta$-decay doesn't change the number of neutrons because $A$ is constant."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q15",
+      "type": "mcq",
+      "question": "A radioactive source is placed in a cloud chamber. The tracks are straight, thick, and very short. Which type of decay is occurring?",
+      "options": [
+        "Alpha ($alpha$) decay",
+        "Beta ($beta$) decay",
+        "Gamma ($gamma$) emission",
+        "X-ray emission"
+      ],
+      "correctIndex": 0,
+      "explanation": "$alpha$-particles have high kinetic energy and strong ionising effects but low penetrating power, leading to short, thick tracks. \n\n**Common mistake:** Choosing $beta$-decay, which produces thin, curly tracks."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q16",
+      "type": "mcq",
+      "question": "A radioactive chemical has a half-life of $5\\text{ years}$. If a container currently holds $80\\text{ mg}$ of this chemical, how much will remain radioactive after $10\\text{ years}$?",
+      "options": [
+        "$20\\text{ mg}$",
+        "$40\\text{ mg}$",
+        "$10\\text{ mg}$",
+        "$16\\text{ mg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$10\\text{ years}$ is equivalent to two half-lives ($10 / 5 = 2$). After one half-life: $80 rightarrow 40\\text{ mg}$. After the second: $40 rightarrow 20\\text{ mg}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q17",
+      "type": "mcq",
+      "question": "The activity of a source drops from $1200\\text{ Bq}$ to $150\\text{ Bq}$ in $15\\text{ hours}$. What is the half-life of the source?",
+      "options": [
+        "$5\\text{ hours}$",
+        "$3\\text{ hours}$",
+        "$7.5\\text{ hours}$",
+        "$10\\text{ hours}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculate the number of halvings: $1200 rightarrow 600 rightarrow 300 rightarrow 150$. That is 3 half-lives. $15\\text{ hours} / 3 = 5\\text{ hours}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q18",
+      "type": "mcq",
+      "question": "A student measures the count rate of an isotope over time. nnTime (h) | Count Rate (cpm)n--- | ---n0 | 480n2 | 240n4 | 120n6 | 60nnWhat is the half-life of this isotope?",
+      "options": [
+        "$2\\text{ hours}$",
+        "$1\\text{ hour}$",
+        "$4\\text{ hours}$",
+        "$240\\text{ hours}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The count rate halves from $480$ to $240$ in the first $2\\text{ hours}$, and from $240$ to $120$ in the next $2\\text{ hours}$. The interval is consistently $2\\text{ hours}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q19",
+      "type": "mcq",
+      "question": "Isotope A has a half-life of $2\\text{ minutes}$. Isotope B has a half-life of $2\\text{ hours}$. If you start with equal masses, which statement is correct after $1\\text{ hour}$?",
+      "options": [
+        "There will be much less of Isotope A remaining than Isotope B",
+        "There will be much less of Isotope B remaining than Isotope A",
+        "Both isotopes will have decayed by the same amount",
+        "Isotope A will have stopped being radioactive entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotope A will have gone through 30 half-lives in $1\\text{ hour}$, while Isotope B has not even completed one. A will have decayed significantly more than B.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q20",
+      "type": "mcq",
+      "question": "A radioactive sample has a half-life of $1\\text{ day}$. After $3\\text{ days}$, what $\\frac{tion}{}$ of the original radioactive nuclei remains?",
+      "options": [
+        "$1/8$",
+        "$1/3$",
+        "$1/4$",
+        "$1/6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After 1 day: $1/2$. After 2 days: $1/4$. After 3 days: $1/8$. This follows the rule $(1/2)^n$ where $n$ is the number of half-lives.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q21",
+      "type": "mcq",
+      "question": "A student moves a radioactive source from $10\\text{ cm}$ away to $50\\text{ cm}$ away from their body. How does this affect the safety of the student?",
+      "options": [
+        "The risk decreases because the intensity of radiation reaching the body is lower.",
+        "The risk remains the same because the source strength is constant.",
+        "The risk increases because the radiation has more room to spread out.",
+        "The risk decreases only if the student is wearing a lead apron."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing distance from a source reduces the amount of radiation that hits a person, thereby reducing the risk of biological damage. \n\n**Common mistake:** Thinking that only shielding (like an apron) matters and distance does not."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q22",
+      "type": "mcq",
+      "question": "Which statement correctly compares the shielding requirements for different types of radiation?",
+      "options": [
+        "Gamma rays require much thicker shielding, like lead, than alpha particles.",
+        "Alpha particles are the most difficult to shield and require lead boxes.",
+        "Beta particles can be stopped by a single sheet of paper.",
+        "All types of nuclear radiation are stopped by thin plastic containers."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the properties in Chapter 20, gamma rays are highly penetrating and require dense shielding (lead), while alpha particles have very low penetrating power. \n\n**Common mistake:** Thinking alpha is the hardest to shield because it is the 'strongest' ioniser."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q23",
+      "type": "mcq",
+      "question": "How does the 'Time' factor in radiation safety work to protect a worker in a nuclear facility?",
+      "options": [
+        "By limiting the total duration they spend near a source, the total dose is reduced.",
+        "By ensuring they only work with sources that have very short half-lives.",
+        "By measuring how long it takes for the source to stop being radioactive.",
+        "By waiting for background radiation levels to drop to zero."
+      ],
+      "correctIndex": 0,
+      "explanation": "Safety protocols limit the time a person is exposed to radiation to ensure the total cumulative energy absorbed by the body remains within safe limits. \n\n**Common mistake:** Thinking time refers to the half-life of the source."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q24",
+      "type": "mcq",
+      "question": "In the context of storing radioactive materials, what does the word 'accessible' imply according to the safety notes?",
+      "options": [
+        "Sources should be stored where they are NOT easily reached by unauthorised people.",
+        "Sources must be kept in the middle of the room for easy reach.",
+        "All students should have easy access to the storage box for study.",
+        "The storage box should be kept open to prevent gas build-up."
+      ],
+      "correctIndex": 0,
+      "explanation": "Safety precautions involve storing materials securely so they are not 'accessible' to those who are not trained or authorised to handle them. \n\n**Common mistake:** Misinterpreting 'accessible' as a positive thing for convenience."
+    },
+    {
+      "id": "ch20-radioactivity-medium-q25",
+      "type": "mcq",
+      "question": "Which precaution is best for a scientist working with a source that emits both beta particles and gamma rays?",
+      "options": [
+        "Using thick lead shielding and working from a distance.",
+        "Using a thin sheet of paper to block the emissions.",
+        "Wearing a pair of standard rubber gloves only.",
+        "Storing the source in a cardboard box when not in use."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since gamma rays are highly penetrating, thick lead shielding is required. Beta particles also require more than paper. Distance adds a second layer of protection. \n\n**Common mistake:** Thinking rubber gloves are enough to stop gamma or beta radiation."
+    }
+  ]
+}

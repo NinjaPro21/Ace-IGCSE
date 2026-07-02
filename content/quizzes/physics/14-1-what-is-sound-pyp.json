@@ -1,0 +1,77 @@
+{
+  "id": "14-1-what-is-sound-pyp",
+  "topicId": "14-1-what-is-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "pyp",
+  "title": "What Is Sound? — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-what-is-sound-pyp-q1",
+      "type": "mcq",
+      "question": "Which of the following is required for sound energy to be transferred from a vibrating bell to an observer?",
+      "options": [
+        "A material medium",
+        "A vacuum",
+        "A transverse wave motion",
+        "A magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves need a medium (solid, liquid, or gas) to travel because they propagate through the interaction and collision of particles.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-pyp-q2",
+      "type": "mcq",
+      "question": "A Slinky is used to demonstrate sound waves. A student pushes and pulls one end. Which part of the Slinky represents a 'rarefaction'?",
+      "options": [
+        "The region where the coils are furthest apart",
+        "The region where the coils are closest together",
+        "The region moving at the highest speed",
+        "The fixed end of the Slinky"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a longitudinal wave, rarefactions are the regions where the medium is spread out (lower pressure/density).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-pyp-q3",
+      "type": "mcq",
+      "question": "The table shows four different frequencies. Which frequency is ultrasound?nnFrequency | Valuen--- | ---nA | $10\\text{ Hz}$nB | $1000\\text{ Hz}$nC | $15\\text{ kHz}$nD | $30\\text{ kHz}$",
+      "options": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is defined as sound with a frequency higher than the upper limit of human hearing, which is $20\\text{ kHz}$. $30\\text{ kHz}$ is ultrasound.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-pyp-q4",
+      "type": "mcq",
+      "question": "Which row correctly compares the nature of sound waves and light waves?",
+      "options": [
+        "Sound: Longitudinal; Light: Transverse",
+        "Sound: Transverse; Light: Longitudinal",
+        "Sound: Requires medium; Light: Requires medium",
+        "Sound: Electromagnetic; Light: Mechanical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound is a mechanical longitudinal wave requiring a medium. Light is an electromagnetic transverse wave that can travel in a vacuum.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-pyp-q5",
+      "type": "mcq",
+      "question": "A graph shows how the air pressure varies with distance from a sound source. A peak on the graph represents a maximum pressure. What is occurring at this position?",
+      "options": [
+        "A compression",
+        "A rarefaction",
+        "The speed of sound is zero",
+        "A trough of a transverse wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compressions are defined as regions where the pressure is higher than the surrounding atmospheric pressure.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

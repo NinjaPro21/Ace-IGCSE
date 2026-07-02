@@ -1,0 +1,77 @@
+{
+  "id": "13-1-electromagnetic-spectrum-easy",
+  "topicId": "13-1-electromagnetic-spectrum",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "easy",
+  "title": "Electromagnetic Spectrum — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-electromagnetic-spectrum-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following describes the speed of all electromagnetic waves in a vacuum?",
+      "options": [
+        "They all travel at the same high speed",
+        "Radio waves travel much faster than gamma rays",
+        "Visible light travels faster than all other waves",
+        "The speed depends on the frequency of the wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, all electromagnetic waves travel at the same high speed in a vacuum. \n\n**Common mistake:** Thinking that high-energy waves like gamma rays must travel faster than low-energy waves like radio waves."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-easy-q2",
+      "type": "mcq",
+      "question": "What is the standard value for the speed of electromagnetic waves in a vacuum?",
+      "options": [
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$3.0 \\times 10^{6}\\text{ m/s}$",
+        "$330\\text{ m/s}$",
+        "$3.0 \\times 10^{10}\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The speed of electromagnetic waves in a vacuum is approximately $3.0 \\times 10^{8}\\text{ m/s}$. \n\n**Common mistake:** Confusing the speed of light with the speed of sound in air ($330\\text{ m/s}$)."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-easy-q3",
+      "type": "mcq",
+      "question": "Which region of the electromagnetic spectrum has the longest wavelength?",
+      "options": [
+        "Radio waves",
+        "Gamma rays",
+        "Visible light",
+        "Ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the electromagnetic spectrum, radio waves have the longest wavelengths and the lowest frequencies. \n\n**Common mistake:** Selecting gamma rays, which actually have the shortest wavelength."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-easy-q4",
+      "type": "mcq",
+      "question": "As you move from radio waves towards gamma rays in the spectrum, what happens to the frequency?",
+      "options": [
+        "The frequency increases",
+        "The frequency decreases",
+        "The frequency remains constant",
+        "The frequency first increases then decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spectrum is organized such that frequency increases from radio waves through to gamma rays. \n\n**Common mistake:** Thinking frequency and wavelength change in the same direction; they are actually inversely related."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following is the correct order of the visible spectrum starting from the longest wavelength?",
+      "options": [
+        "Red, Orange, Yellow, Green, Blue, Indigo, Violet",
+        "Violet, Indigo, Blue, Green, Yellow, Orange, Red",
+        "Red, Green, Blue, Yellow, Orange, Indigo, Violet",
+        "Blue, Green, Red, Yellow, Orange, Indigo, Violet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The acronym ROYGBIV represents the colours in order of decreasing wavelength (red has the longest). \n\n**Common mistake:** Reversing the order and starting with violet."
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css'
-import { normalizeMathMarkdown } from '@/lib/mathMarkdown'
+import { prepareMathContent } from '@/lib/mathMarkdown'
 
 const MD_PLUGINS = {
   remark: [remarkMath],
@@ -14,10 +14,12 @@ interface MathTextProps {
   className?: string
   /** When true, allows block-level markdown (paragraphs, display math). */
   block?: boolean
+  /** When true, wraps bare fractions/functions in titles. */
+  title?: boolean
 }
 
-export function MathText({ content, className, block = false }: MathTextProps) {
-  const prepared = normalizeMathMarkdown(content)
+export function MathText({ content, className, block = false, title = false }: MathTextProps) {
+  const prepared = prepareMathContent(content, title ? 'title' : 'quiz')
   const Tag = block ? 'div' : 'span'
 
   return (

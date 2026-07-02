@@ -1,0 +1,77 @@
+{
+  "id": "1-6-inverse-functions-harder-topic-hard",
+  "topicId": "1-6-inverse-functions-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "hard",
+  "title": "Inverse Functions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-6-inverse-functions-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "The function f is defined as f(x)= x^{2}−8x+20 for x≥4. Find the expression for $f^{-1}$(x).",
+      "options": [
+        "$f^{-1}$(x)=4+\\sqrtx−4",
+        "$f^{-1}$(x)=4−\\sqrtx−4",
+        "$f^{-1}$(x)=\\sqrtx−20+8",
+        "$f^{-1}$(x)= \\frac{x-2}{8}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Complete the square: f(x)= (x-4)^{2}+4. Swap: x= (y-4)^{2}+4 \\implies x−4= (y-4)^{2}impliesy−4=±\\sqrtx−4. Since domain x≥4, we take the positive root: y=4+\\sqrtx−4.\n\n**Common mistake:** Students often forget to take only the positive root or fail to complete the square correctly before attempting to invert the quadratic."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "Determine the domain of the inverse function $f^{-1}$for f(x)= \\frac{4}{x+2-3} where x>−2.",
+      "options": [
+        "x>−3",
+        "x \\neq −3",
+        "x∈R",
+        "x<−3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The domain of $f^{-1}$is the range of f. For x>−2, 4/(x+2) is always positive, so 4/(x+2)−3 is always greater than -3. Range of f is y>−3, so domain of $f^{-1}$is x>−3.\n\n**Common mistake:** Misidentifying the horizontal asymptote or assuming the domain restriction from the original function applies to the inverse."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "Find the inverse function $f^{-1}$(x) for f(x)=∣x−2∣+5 restricted to the domain x≥2.",
+      "options": [
+        "$f^{-1}$(x)=x−3",
+        "$f^{-1}$(x)=x+3",
+        "$f^{-1}$(x)=x−7",
+        "$f^{-1}$(x)=x+7"
+      ],
+      "correctIndex": 0,
+      "explanation": "For x≥2, f(x)=(x−2)+5=x+3. The inverse of y=x+3 is y=x−3.\n\n**Common mistake:** Students may struggle with the modulus sign, forgetting that the domain restriction allows them to remove the modulus bars algebraically."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "If f(x)= \\frac{ax+}{1x-2} is its own inverse (a self-inverse function), find the value of the constant a.",
+      "options": [
+        "2",
+        "-2",
+        "1",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Finding $f^{-1}$: x(y−2)=ay+1 \\implies xy−2x=ay+1 \\implies y(x−a)=2x+1 \\implies y=(2x+1)/(x−a). For this to equal (ax+1)/(x−2), a must be 2.\n\n**Common mistake:** Algebraic errors when equating coefficients or forgetting the condition f(x)= f^{-1}(x)."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "A function is defined as f(x)= \\frac{2x-5}{3x+1} for x \\neq −1/3. Find the range of $f^{-1}$if the domain of f is x>0.",
+      "options": [
+        "y>0",
+        "y<−5",
+        "y \\neq 2/3",
+        "y∈R"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range of $f^{-1}$is the domain of f. Since the domain of f is x>0, the range of $f^{-1}$is y>0.\n\n**Common mistake:** Calculating the range of the given f and incorrectly identifying that as the range of the inverse function."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ch02-motion-medium",
+  "topicId": "ch02-motion",
+  "chapterId": "ch02-motion",
+  "difficulty": "medium",
+  "title": "Chapter 2: Motion — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch02-motion-medium-q1",
+      "type": "mcq",
+      "question": "A car travels 6 km in 5 min. Calculate its average speed in m/s.",
+      "options": [
+        "20 m/s",
+        "1.2 m/s",
+        "30 m/s",
+        "1200 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert units to SI first: $6 km = 6000 m$ and $5 min = 300 s$. $Average speed = 6000 / 300 = 20 m/s$. \n\n**Common mistake:** Failing to convert kilometres to metres or minutes to seconds before calculating."
+    },
+    {
+      "id": "ch02-motion-medium-q2",
+      "type": "mcq",
+      "question": "The velocity of a golf ball changes from 8 m/s to 14 m/s in 10 s. Calculate its acceleration.",
+      "options": [
+        "0.6 $m/s^2$",
+        "1.4 $m/s^2$",
+        "2.2 $m/s^2$",
+        "6.0 $m/s^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $a = (v - u) / t$, where $v = 14$, $u = 8$, and $t = 10$: $a = (14 - 8) / 10 = 0.6 m/s^2$. \n\n**Common mistake:** Dividing the final velocity by time ($1.4$) without subtracting the initial velocity."
+    },
+    {
+      "id": "ch02-motion-medium-q3",
+      "type": "mcq",
+      "question": "A runner takes 25 s to cover 200 m along a curved path, ending up 50 m from her starting point. What is her average velocity?",
+      "options": [
+        "2 m/s",
+        "8 m/s",
+        "0.25 m/s",
+        "4 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average velocity uses displacement (the straight-line distance): $50 m / 25 s = 2 m/s$. \n\n**Common mistake:** Using total distance ($200 m$) which gives the average speed ($8 m/s$)."
+    },
+    {
+      "id": "ch02-motion-medium-q4",
+      "type": "mcq",
+      "question": "On a speed–time graph, a straight diagonal line with a positive gradient represents:",
+      "options": [
+        "Uniform acceleration",
+        "Constant speed",
+        "Non-uniform acceleration",
+        "Decreasing speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of a speed–time graph gives the acceleration. A constant positive gradient indicates uniform acceleration. \n\n**Common mistake:** Thinking a straight line always means 'constant speed', which only happens if the line is horizontal."
+    },
+    {
+      "id": "ch02-motion-medium-q5",
+      "type": "mcq",
+      "question": "Object A moves at 10 m/s East. Object B moves at 10 m/s North. Which statement is correct?",
+      "options": [
+        "They have the same speed but different velocities",
+        "They have different speeds but the same velocity",
+        "They have the same speed and the same velocity",
+        "They have different speeds and different velocities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is scalar (magnitude only), so both are 10 m/s. Velocity is vector (magnitude + direction), so they are different because they move in different directions. \n\n**Common mistake:** Assuming same magnitude means same velocity."
+    },
+    {
+      "id": "ch02-motion-medium-q6",
+      "type": "mcq",
+      "question": "A distance–time graph shows a straight line passing through $(t=0, d=0)$ and $(t=5\\text{ s}, d=50\\text{ m})$. Calculate the speed of the object.",
+      "options": [
+        "$10\\text{ m/s}$",
+        "$250\\text{ m/s}$",
+        "$5\\text{ m/s}$",
+        "$0.1\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is the gradient: $gradient = (50 - 0) / (5 - 0) = 10\\text{ m/s}$. \n\n**Common mistake:** Multiplying the values ($50 \\times 5 = 250$) instead of finding the ratio of distance to time."
+    },
+    {
+      "id": "ch02-motion-medium-q7",
+      "type": "mcq",
+      "question": "On a distance–time graph, line A is steeper than line B. Both lines are straight and pass through the origin. What does this tell you about object A compared to object B?",
+      "options": [
+        "Object A is moving at a higher constant speed",
+        "Object A is accelerating faster",
+        "Object A has travelled a shorter distance",
+        "Object B is at rest"
+      ],
+      "correctIndex": 0,
+      "explanation": "A steeper gradient on a distance–time graph indicates a higher speed. Since both are straight lines, both objects move at constant speeds. \n\n**Common mistake:** Thinking a steeper line means 'faster acceleration'; acceleration is shown by a change in gradient (curve), not the steepness of a straight line."
+    },
+    {
+      "id": "ch02-motion-medium-q8",
+      "type": "mcq",
+      "question": "An object moves at a constant speed of $12\\text{ m/s}$ for $10\\text{ s}$. Calculate the distance travelled using a speed–time graph calculation.",
+      "options": [
+        "$120\\text{ m}$",
+        "$1.2\\text{ m}$",
+        "$60\\text{ m}$",
+        "$22\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is the area under the speed–time graph. For constant speed, this is a rectangle: $Area = base \\times height = 10\\text{ s} \\times 12\\text{ m/s} = 120\\text{ m}$. \n\n**Common mistake:** Dividing speed by time ($1.2\\text{ m}$) or adding the values ($22\\text{ m}$)."
+    },
+    {
+      "id": "ch02-motion-medium-q9",
+      "type": "mcq",
+      "question": "A speed–time graph shows a straight line from $0\\text{ m/s}$ to $20\\text{ m/s}$ over a time of $5\\text{ s}$. What is the acceleration?",
+      "options": [
+        "$4\\text{ m/s}^2$",
+        "$100\\text{ m/s}^2$",
+        "$0.25\\text{ m/s}^2$",
+        "$50\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the gradient: $a = Delta v / Delta t = (20 - 0) / 5 = 4\\text{ m/s}^2$. \n\n**Common mistake:** Calculating the area ($1/2 \\times 5 \\times 20 = 50$) and providing the distance instead of the acceleration."
+    },
+    {
+      "id": "ch02-motion-medium-q10",
+      "type": "mcq",
+      "question": "A distance–time graph starts with a low gradient that gradually becomes steeper. This represents:",
+      "options": [
+        "Increasing speed (acceleration)",
+        "Decreasing speed (deceleration)",
+        "Constant high speed",
+        "An object coming to rest"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gradient that increases (gets steeper) on a distance–time graph shows that the speed is increasing over time, which is acceleration. \n\n**Common mistake:** Confusing this with the shape of a speed–time graph, where a curve would represent changing acceleration."
+    },
+    {
+      "id": "ch02-motion-medium-q11",
+      "type": "mcq",
+      "question": "A hammer and a feather are dropped simultaneously from the same height in a vacuum. Which hits the ground first?",
+      "options": [
+        "They hit the ground at the same time",
+        "The hammer hits first because it is heavier",
+        "The feather hits first because it is lighter",
+        "The hammer hits first because it has more surface area"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, there is no air resistance. Both objects accelerate at the same rate $g$ and hit the ground at the same time. \n\n**Common mistake:** Applying everyday experience (with air resistance) to a vacuum environment."
+    },
+    {
+      "id": "ch02-motion-medium-q12",
+      "type": "mcq",
+      "question": "An object falls freely from rest for $5.0\\text{ s}$. Calculate the speed just before it hits the ground. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$50\\text{ m/s}$",
+        "$25\\text{ m/s}$",
+        "$2.0\\text{ m/s}$",
+        "$125\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed $v = gt = 10 \\times 5.0 = 50\\text{ m/s}$. \n\n**Common mistake:** Calculating the distance ($125\\text{ m}$) instead of the speed."
+    },
+    {
+      "id": "ch02-motion-medium-q13",
+      "type": "mcq",
+      "question": "What happens to the acceleration of an object as it falls through the air before reaching terminal velocity?",
+      "options": [
+        "It decreases",
+        "It remains constant at $g$",
+        "It increases",
+        "It becomes zero immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "As speed increases, air resistance increases. This reduces the resultant force, causing the acceleration to decrease until it reaches zero. \n\n**Common mistake:** Thinking speed decreases; speed is still increasing, but it is increasing more slowly."
+    },
+    {
+      "id": "ch02-motion-medium-q14",
+      "type": "mcq",
+      "question": "A rock has a mass of $10\\text{ kg}$. Calculate its weight on the Moon, where $g = 1.6\\text{ m/s}^2$.",
+      "options": [
+        "$16\\text{ N}$",
+        "$100\\text{ N}$",
+        "$10\\text{ N}$",
+        "$6.25\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight $W = mg = 10 \\times 1.6 = 16\\text{ N}$. \n\n**Common mistake:** Thinking the mass changes on the Moon; mass remains $10\\text{ kg}$."
+    },
+    {
+      "id": "ch02-motion-medium-q15",
+      "type": "mcq",
+      "question": "A speed–time graph shows a curve that gradually becomes a horizontal line. This describes an object:",
+      "options": [
+        "Falling with air resistance reaching terminal velocity",
+        "In free fall in a vacuum",
+        "Thrown upwards and stopping",
+        "Moving at a constant acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "With air resistance, the acceleration decreases (curve flattens) until it becomes zero (horizontal line), representing terminal velocity. \n\n**Common mistake:** Assuming this happens in a vacuum."
+    }
+  ]
+}

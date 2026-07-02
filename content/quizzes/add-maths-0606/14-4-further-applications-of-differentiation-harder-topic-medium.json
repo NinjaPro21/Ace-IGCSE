@@ -1,0 +1,77 @@
+{
+  "id": "14-4-further-applications-of-differentiation-harder-topic-medium",
+  "topicId": "14-4-further-applications-of-differentiation-harder-topic",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "medium",
+  "title": "Further Applications of Differentiation — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Find the x-coordinate of the stationary point on the curve $y = x e^{-x}$.",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "e"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using product rule: $\\frac{dy}{dx}$ = (1)(e^-x) + (x)(-e^-x) = e^-x(1 - x). Set to 0: 1 - x = 0 => x = 1.\n\n**Common mistake:** Failing to apply the product rule correctly, often missing the negative sign from the derivative of e^-x."
+    },
+    {
+      "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Find the equation of the normal to the curve $y = \\ln x$2$x = e$.",
+      "options": [
+        "y = -ex + e^2 + 1",
+        "y = (1/e)x",
+        "y = -ex + 1",
+        "y = ex - 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "y(e) = 1. $\\frac{dy}{dx}$ = 1/x, so tangent m = 1/e. Normal m = -e. Equation: y - 1 = -e(x - e) => y = -ex + e^2 + 1.\n\n**Common mistake:** Using the tangent gradient 1/e for the normal equation."
+    },
+    {
+      "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Determine the nature of the stationary point of $y = \\sin x + \\cos x$2$0 < x < \\pi$.",
+      "options": [
+        "Maximum at x = π/4",
+        "Minimum at x = π/4",
+        "Maximum at x = 3π/4",
+        "Minimum at x = 3π/4"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = cos x - sin x = 0 => tan x = 1 => x = π/4. d^2 y/dx^2 = -sin x - cos x. At π/4, both sin and cos are positive, so f''(x) < 0 (Maximum).\n\n**Common mistake:** Misidentifying the quadrant for the stationary point or miscalculating the second derivative."
+    },
+    {
+      "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "The radius of a circle is increasing at a rate of 2 cm/s. Find the rate of increase of the area when the radius is 5 cm.",
+      "options": [
+        "20π cm^2/s",
+        "10π cm^2/s",
+        "25π cm^2/s",
+        "2π cm^2/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "dA/dt = (dA/dr)(dr/dt) = (2πr)(2) = 4πr. At r=5, 4π(5) = 20π.\n\n**Common mistake:** Failing to use the chain rule for related rates, simply calculating the area (25π)."
+    },
+    {
+      "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Find the approximate change in $y = e^x$2$x$ increases from 2 to 2.01.",
+      "options": [
+        "0.01e^2",
+        "e^2",
+        "0.01",
+        "0.1e^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "δy ≈ ($\\frac{dy}{dx}) δx$2$2\\frac{dy}{dx}$ = e^x. At x=2, $\\frac{dy}{dx}$ = e^2. δx = 0.01. δy ≈ 0.01e^2.\n\n**Common mistake:** Substituting the increment directly into the original function."
+    }
+  ]
+}

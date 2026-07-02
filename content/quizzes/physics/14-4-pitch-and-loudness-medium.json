@@ -1,0 +1,77 @@
+{
+  "id": "14-4-pitch-and-loudness-medium",
+  "topicId": "14-4-pitch-and-loudness",
+  "chapterId": "ch14-sound",
+  "difficulty": "medium",
+  "title": "Pitch and Loudness — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-pitch-and-loudness-medium-q1",
+      "type": "mcq",
+      "question": "A student blows a trumpet harder to try and produce a note of higher frequency. Will they succeed?",
+      "options": [
+        "No, because blowing harder only increases the amplitude (loudness)",
+        "Yes, because blowing harder increases the speed of the wave",
+        "Yes, because more energy always results in higher frequency",
+        "No, because blowing harder reduces the wavelength"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the Review Questions and Answer Key, blowing harder increases the amplitude/loudness but does not change the frequency. **Common mistake:** Assuming more 'effort' or 'energy' automatically results in a higher note."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-medium-q2",
+      "type": "mcq",
+      "question": "Compare the sounds made by a mosquito flying near your ear and a bullfrog croaking. Which is correct?",
+      "options": [
+        "The mosquito's sound has a higher pitch but lower loudness",
+        "The bullfrog's sound has a higher pitch and higher loudness",
+        "The mosquito's sound has a lower pitch and higher loudness",
+        "Both sounds have the same pitch but different loudness"
+      ],
+      "correctIndex": 0,
+      "explanation": "As per 'Let's Practise 14.4', the mosquito produces a high-frequency (high pitch), low-amplitude (low loudness) sound compared to a bullfrog. **Common mistake:** Thinking that 'annoying' or 'sharp' sounds like a mosquito's must be loud."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-medium-q3",
+      "type": "mcq",
+      "question": "An oscilloscope displays two sound waves, P and Q. Wave P has twice the amplitude of Wave Q, but Wave Q has twice the frequency of Wave P. Which statement is true?",
+      "options": [
+        "P is louder than Q, and Q has a higher pitch than P",
+        "Q is louder than P, and P has a higher pitch than Q",
+        "P is louder than Q, and P has a higher pitch than Q",
+        "Q is louder than P, and Q has a higher pitch than P"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher amplitude means louder (P), and higher frequency means higher pitch (Q). **Common mistake:** Swapping the relationships between amplitude/loudness and frequency/pitch."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-medium-q4",
+      "type": "mcq",
+      "question": "Two musical notes are played in the same room. Note 1 has a frequency of $256\\text{ Hz}$ and Note 2 has a frequency of $512\\text{ Hz}$. How do their wavelengths in air compare?",
+      "options": [
+        "Note 2 has half the wavelength of Note 1",
+        "Note 2 has twice the wavelength of Note 1",
+        "Both notes have the same wavelength",
+        "$Note 2 has four \\times the wavelength of Note 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since wave speed $v = f\\lambda$ is constant in air, frequency and wavelength are inversely proportional. Note 2 has twice the frequency, so it must have half the wavelength. **Common mistake:** Thinking higher frequency means a longer wavelength."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-medium-q5",
+      "type": "mcq",
+      "question": "A sound source moves away from a stationary observer. The observer hears a sound with a lower pitch. What has changed?",
+      "options": [
+        "The frequency of the sound reaching the observer has decreased",
+        "The speed of the sound has decreased significantly",
+        "The amplitude of the sound waves has increased",
+        "The wavelength of the sound reaching the observer has decreased"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch is related to frequency; a lower pitch indicates a lower frequency reaching the ear. **Common mistake:** Selecting Choice B, as the speed of sound remains constant in a uniform medium regardless of the source's motion."
+    }
+  ]
+}

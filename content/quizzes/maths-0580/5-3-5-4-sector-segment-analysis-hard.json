@@ -1,0 +1,77 @@
+{
+  "id": "5-3-5-4-sector-segment-analysis-hard",
+  "topicId": "5-3-5-4-sector-segment-analysis",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "hard",
+  "title": "Sector & Segment Analysis — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-3-5-4-sector-segment-analysis-hard-q1",
+      "type": "mcq",
+      "question": "The cross-section of a cylindrical pipe shows water at a maximum depth of $2\\text{ cm}$. If the radius of the pipe is $7\\text{ cm}$, calculate the area of the water's surface (the shaded segment area).",
+      "options": [
+        "$5.86\\text{ cm}^2$",
+        "$13.5\\text{ cm}^2$",
+        "$24.1\\text{ cm}^2$",
+        "$10.2\\text{ cm}^2$"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distance from centre to chord $= 7 - 2 = 5$. $\\cos(\\theta/2) = 5/7 \\Rightarrow \\theta/2 \\approx 44.4° \\Rightarrow \\theta \\approx 88.85°$. Sector area $= \\frac{88.85}{360} \\times \\pi \\times 7^2 \\approx 38.00$. Triangle area $= 0.5 \\times 7^2 \\times \\sin(88.85°) \\approx 24.50$. Segment area $= 38.00 - 24.50 = 13.5$.\n\n**Common mistake:** The student may fail to calculate the correct central angle using the depth and radius."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-hard-q2",
+      "type": "mcq",
+      "question": "An equilateral triangle is inscribed in a circle of radius $10\\text{ cm}$. Calculate the total area of the three segments surrounding the triangle.",
+      "options": [
+        "$184\\text{ cm}^2$",
+        "$314\\text{ cm}^2$",
+        "$130\\text{ cm}^2$",
+        "$154\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Circle area $= 100\\pi \\approx 314.16$. Triangle area (three $120°$ sectors) $= 3 \\times (0.5 \\times 10^{2} \\times \\sin 120°) \\approx 129.9$. Shaded area $= 314.16 - 129.9 \\approx 184.3$.\n\n**Common mistake:** A student might only calculate one segment area instead of the total for all three."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-hard-q3",
+      "type": "mcq",
+      "question": "A regular hexagon is circumscribed by a circle of radius $3\\text{ cm}$. Calculate the total area of the hexagon.",
+      "options": [
+        "$23.4\\text{ cm}^2$",
+        "$11.7\\text{ cm}^2$",
+        "$28.3\\text{ cm}^2$",
+        "$13.5\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hexagon consists of 6 equilateral triangles with sides of $3\\text{ cm}$. Area $= 6 \\times (0.5 \\times 3^2 \\times \\sin 60°) = 6 \\times 3.897 \\approx 23.4$.\n\n**Common mistake:** The student might assume the side of the hexagon is different from the radius."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-hard-q4",
+      "type": "mcq",
+      "question": "A sector has an area of $108\\text{ cm}^2$ and an arc length of $12\\text{ cm}$. Find the angle subtended at the centre.",
+      "options": [
+        "$38.2°$",
+        "$18.0°$",
+        "$76.4°$",
+        "$43.0°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $A = 0.5rl$2$108 = 0.5 \\times r \\times 12 \\Rightarrow r = 18\\text{ cm}$. Then $12 = \\frac{\\theta}{360} \\times 2\\pi(18) \\Rightarrow 12 = \\frac{\\theta\\pi}{10} \\Rightarrow \\theta = 120 / \\pi \\approx 38.2°$.\n\n**Common mistake:** The student might solve for radius correctly but then miscalculate the angle."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-hard-q5",
+      "type": "mcq",
+      "question": "A regular octagon is circumscribed by a circle of radius $r$. Which expression represents the area enclosed between the circle and the octagon?",
+      "options": [
+        "$0.313r^2$",
+        "$r^2(\\pi - 2\\sqrt{2})$",
+        "$r^2(\\pi - 2)$",
+        "$0.15r^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Octagon area $= 8 \\times (0.5 \\times r^2 \\times \\sin 45°) = 4r^2 \\sin 45° = 2\\sqrt{2} r^2 \\approx 2.828r^2$. Circle area $= \\pi r^2 \\approx 3.142r^2$. Difference $= (3.142 - 2.828)r^2 = 0.314r^2$.\n\n**Common mistake:** Arithmetic rounding errors or using the wrong central angle ($360/8 = 45°$) for the octagon segments."
+    }
+  ]
+}

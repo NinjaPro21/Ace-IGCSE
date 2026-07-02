@@ -1,0 +1,77 @@
+{
+  "id": "13-2-position-vectors-pyp",
+  "topicId": "13-2-position-vectors",
+  "chapterId": "ch13-vectors",
+  "difficulty": "pyp",
+  "title": "Position Vectors — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-2-position-vectors-pyp-q1",
+      "type": "mcq",
+      "question": "The position vectors of A and B relative to an origin O are $3\\mathbf{i} + 2\\mathbf{j}$ and $7\\mathbf{i} - 4\\mathbf{j}$. Find the unit vector in the direction of $\\vec{AB}$.",
+      "options": [
+        "1/2 * (2i - 3j) simplified from 1/\\sqrt{16+36}",
+        "0.55i - 0.83j",
+        "4i - 6j",
+        "2i - 3j"
+      ],
+      "correctIndex": 1,
+      "explanation": "$\\vec{AB} = (7-3)i + (-4-2)j = 4i - 6j$2$= \\sqrt{16+36} = \\sqrt{52} \\approx 7.21$. Unit vector $\\approx 0.55i - 0.83j$.\n\n**Common mistake:** Failing to calculate the magnitude correctly or forgetting to divide the vector by it."
+    },
+    {
+      "id": "13-2-position-vectors-pyp-q2",
+      "type": "mcq",
+      "question": "Point R has position vector $\\begin{pmatrix} 6 \\ -3 \\end{pmatrix}$. Point S has position vector $\\begin{pmatrix} -2 \\ 5 \\end{pmatrix}$. Find the position vector of point T such that $\\vec{OT} = 2\\vec{OR} + \\vec{OS}$.",
+      "options": [
+        "10i - j",
+        "14i - i",
+        "4i + 2j",
+        "12i - 6j"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{OT} = 2\\begin{pmatrix} 6 \\ -3 \\end{pmatrix} + \\begin{pmatrix} -2 \\ 5 \\end{pmatrix} = \\begin{pmatrix} 12 \\ -6 \\end{pmatrix} + \\begin{pmatrix} -2 \\ 5 \\end{pmatrix} = \\begin{pmatrix} 10 \\ -1 \\end{pmatrix}$.\n\n**Common mistake:** Errors in scalar multiplication or basic vector addition."
+    },
+    {
+      "id": "13-2-position-vectors-pyp-q3",
+      "type": "mcq",
+      "question": "Given $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, point M is the midpoint of OA. Find $\\vec{MB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "b - 0.5a",
+        "0.5a - b",
+        "b + 0.5a",
+        "0.5(b - a)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{MB} = \\vec{OB} - \\vec{OM} = \\mathbf{b} - 0.5\\mathbf{a}$.\n\n**Common mistake:** Using $\\vec{MA}$ or incorrectly calculating the midpoint vector."
+    },
+    {
+      "id": "13-2-position-vectors-pyp-q4",
+      "type": "mcq",
+      "question": "The position vectors of three points L, M, and N are $\\mathbf{l}, \\mathbf{m},$ and $\\mathbf{n}$. If $\\vec{LM} = \\vec{MN}$, what can be concluded about point M?",
+      "options": [
+        "M is the midpoint of LN.",
+        "M is the origin.",
+        "L, M, and N form a triangle.",
+        "M is further from L than N."
+      ],
+      "correctIndex": 0,
+      "explanation": "If the displacement from L to M is equal to the displacement from M to N, M must lie exactly halfway between L and N on a straight line.\n\n**Common mistake:** Thinking the points are just vertices of a parallelogram."
+    },
+    {
+      "id": "13-2-position-vectors-pyp-q5",
+      "type": "mcq",
+      "question": "Find the value of $p$2$\\begin{pmatrix} p \\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 3 \\ -2 \\end{pmatrix}$.",
+      "options": [
+        "-6",
+        "6",
+        "-8",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "For parallel vectors, the ratio of components must be equal: $p/3 = 4/(-2) \\implies p/3 = -2 \\implies p = -6$.\n\n**Common mistake:** Incorrectly setting the products equal instead of the ratios."
+    }
+  ]
+}

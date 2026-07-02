@@ -1,0 +1,467 @@
+{
+  "id": "ch08-probability-statistics-easy",
+  "topicId": "ch08-probability-statistics",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Chapter 8: Probability & Statistics — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch08-probability-statistics-easy-q1",
+      "type": "mcq",
+      "question": "In a pictogram showing pizza sales, one full circle represents 4 pizzas. If Tuesday shows two and a half circles, how many pizzas were sold?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the key, one full circle is 4 pizzas. Two full circles represent $2 \\times 4 = 8$ pizzas, and half a circle represents 2 pizzas. Total $= 8 + 2 = 10$.\n\n**Common mistake:** Students may miscount half a symbol as 1 item instead of half of the value designated in the key."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q2",
+      "type": "mcq",
+      "question": "What must every pictogram and stem-and-leaf diagram include so that the reader knows how to interpret the symbols or numbers?",
+      "options": [
+        "A key",
+        "A title in red ink",
+        "A calculator tip",
+        "An x-axis and y-axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every pictogram and stem-and-leaf diagram requires a key to explain what each picture, symbol, or digit combination represents.\n\n**Common mistake:** Forgetting the key is a frequent error that makes the data display meaningless to an external reader."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q3",
+      "type": "mcq",
+      "question": "In a standard bar chart, what does the height of each individual bar represent?",
+      "options": [
+        "Frequency",
+        "Class width",
+        "Frequency density",
+        "Cumulative frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a standard bar chart, the frequency is shown by the height of each bar.\n\n**Common mistake:** Confusing standard bar charts with histograms, where the height represents frequency density rather than absolute frequency."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q4",
+      "type": "mcq",
+      "question": "How is a frequency polygon constructed from a frequency chart or histogram?",
+      "options": [
+        "By joining the midpoints of the tops of the bars with straight lines",
+        "By drawing a smooth curve through all the data points",
+        "By shading the area between the bars",
+        "By connecting the bottom-left corner of each bar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A frequency polygon is drawn by joining the midpoints of the tops of the bars with straight lines.\n\n**Common mistake:** Students often try to draw a smooth curve (similar to a cumulative frequency graph) instead of using straight line segments."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q5",
+      "type": "mcq",
+      "question": "State the standard formula used to calculate the angle of a sector in a pie chart.",
+      "options": [
+        "(Frequency / Total) × 360°",
+        "(Frequency / 360) × 100",
+        "Frequency × Class Width",
+        "(Total / Frequency) × 180°"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the angle for a sector, you divide the specific category frequency by the total frequency and multiply by 360°.\n\n**Common mistake:** Multiplying by 100 instead of 360, which calculates the percentage instead of the required angle."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q6",
+      "type": "mcq",
+      "question": "Which type of average is calculated by adding all values together and dividing by the number of values?",
+      "options": [
+        "The mean",
+        "The median",
+        "The mode",
+        "The range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mean is obtained by adding all the numbers in a data set and dividing the result by however many numbers there are.\n\n**Common mistake:** Students often confuse the mean with the median, which is the middle value in an ordered list."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q7",
+      "type": "mcq",
+      "question": "Find the median of the following data set: 3, 3, 4, 7, 8, 10, 12.",
+      "options": [
+        "7",
+        "3",
+        "6.7",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "The median is the number in the middle when values are arranged in ascending order. In this set of 7 items, the 4th item is 7.\n\n**Common mistake:** A student might pick the middle number without ordering the list first."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q8",
+      "type": "mcq",
+      "question": "What is the mode of this data set: 5, 4, 10, 3, 3, 4, 7, 4, 8, 5?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "5.3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mode is the number which occurs most often. In this set, 4 appears three times, more than any other number.\n\n**Common mistake:** Students may confuse the mode with the mean (5.3) or the median (4.5)."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q9",
+      "type": "mcq",
+      "question": "Calculate the range of the following heights: 140 cm, 155 cm, 162 cm, 135 cm, 170 cm.",
+      "options": [
+        "35 cm",
+        "170 cm",
+        "135 cm",
+        "25 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range is found by subtracting the lowest value from the highest value: $170 - 135 = 35$.\n\n**Common mistake:** Students sometimes provide the highest value as the range instead of the difference."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q10",
+      "type": "mcq",
+      "question": "Which measure of average is best to use when a data set contains extreme values (outliers)?",
+      "options": [
+        "The median",
+        "The mean",
+        "The mode",
+        "The range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The median works well when there are extreme values because it is not affected by them, unlike the mean.\n\n**Common mistake:** The mean is the most common average, so students often default to it without considering outliers."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q11",
+      "type": "mcq",
+      "question": "What is the primary purpose of a scatter diagram in statistics?",
+      "options": [
+        "To see if there is a connection or relationship between two sets of data",
+        "To calculate the exact mean of a grouped data set",
+        "To display the frequency of a single discrete variable",
+        "To show the cumulative total of a data set over time"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a scatter diagram is used when you want to know if there is a connection or relationship between two sets of data.\n\n**Common mistake:** Students often confuse scatter diagrams with bar charts or line graphs meant for single-variable trends."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q12",
+      "type": "mcq",
+      "question": "In a scatter diagram, how is the data typically plotted?",
+      "options": [
+        "One set of data on the horizontal axis and the other on the vertical axis",
+        "Both sets of data as bars side-by-side on the vertical axis",
+        "The frequency on the vertical axis and categories on the horizontal axis",
+        "As a series of connected points representing a time sequence"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define a scatter diagram as a graph where one set of data is plotted on the horizontal axis and the other on the vertical axis.\n\n**Common mistake:** Students sometimes try to plot frequency on one axis, which is for bar charts or histograms, not scatter diagrams."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q13",
+      "type": "mcq",
+      "question": "When the points on a scatter diagram are bunched close to a line sloping upwards to the right, what type of correlation is this?",
+      "options": [
+        "Strong positive correlation",
+        "Weak negative correlation",
+        "Strong negative correlation",
+        "No correlation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correlation is positive when points slope upwards to the right, and it is strong when the points are bunched close to a line.\n\n**Common mistake:** A student might identify the 'positive' direction correctly but describe it as 'weak' if they do not recognize the proximity of the points to the trend line."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q14",
+      "type": "mcq",
+      "question": "What does a 'negative correlation' indicate about the relationship between two variables?",
+      "options": [
+        "As one variable increases, the other decreases",
+        "Both variables increase together",
+        "There is no connection between the variables",
+        "The data is plotted incorrectly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negative correlation is represented by a line sloping downwards to the right, meaning as the x-value increases, the y-value decreases.\n\n**Common mistake:** Students often confuse negative correlation with 'no correlation,' thinking that 'negative' means there is no relationship."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q15",
+      "type": "mcq",
+      "question": "Which of the following describes a 'line of best fit'?",
+      "options": [
+        "A line through the points with roughly an equal number of points on each side",
+        "A line that connects the first and last points in a data set",
+        "A line that passes through every single point on the scatter diagram",
+        "A horizontal line representing the mean of the vertical data"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line of best fit is drawn through the midst of the points so that there are roughly an equal number of points on each side.\n\n**Common mistake:** Students often try to force the line through the origin (0,0) or connect the points like a dot-to-dot drawing."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q16",
+      "type": "mcq",
+      "question": "In statistics, what is the definition of 'cumulative frequency'?",
+      "options": [
+        "The total frequency up to a given point",
+        "The average frequency of all class intervals",
+        "The difference between the highest and lowest frequencies",
+        "The frequency density of a specific interval"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, cumulative frequency is defined as the total frequency up to a given point.\n\n**Common mistake:** Students often confuse cumulative frequency with the frequency of a single class interval."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q17",
+      "type": "mcq",
+      "question": "When plotting a cumulative frequency curve for grouped data, at which point in the class interval should each point be plotted?",
+      "options": [
+        "At the upper bound of the interval",
+        "At the midpoint of the interval",
+        "At the lower bound of the interval",
+        "At the point of highest frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve connects points representing the cumulative frequency at the upper bound of every class interval.\n\n**Common mistake:** Students frequently plot points at the midpoint, which is the rule for frequency polygons, not cumulative frequency curves."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q18",
+      "type": "mcq",
+      "question": "Which label is correctly used for the vertical axis of a cumulative frequency graph?",
+      "options": [
+        "Cumulative frequency",
+        "Frequency density",
+        "Frequency",
+        "Percentage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cumulative frequency graphs must plot the running total on the vertical axis, labelled as cumulative frequency.\n\n**Common mistake:** A student might label the axis as 'Frequency', which refers to a standard bar chart or histogram."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q19",
+      "type": "mcq",
+      "question": "By what other name is the 50th percentile known in cumulative frequency analysis?",
+      "options": [
+        "The median",
+        "The lower quartile",
+        "The upper quartile",
+        "The interquartile range"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the median is the point halfway (50%) through the data, it is sometimes called the 50th percentile.\n\n**Common mistake:** Students may think the median is simply the middle number of the marks (e.g., 50 if marks go to 100) rather than the 50th percentile of the frequency."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q20",
+      "type": "mcq",
+      "question": "How is the lower quartile (25th percentile) found using the total frequency $N$?",
+      "options": [
+        "Divide the total frequency by 4",
+        "Divide the total frequency by 2",
+        "Multiply the total frequency by 0.75",
+        "Subtract the lower bound from the upper bound"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the lower quartile is found by dividing the total frequency by 4.\n\n**Common mistake:** A student might use $N/2$ which is the method for finding the median."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q21",
+      "type": "mcq",
+      "question": "If the probability of an event $A$2$0.34$, what is the probability of the event NOT happening ($A'$)?",
+      "options": [
+        "$0.66$",
+        "$0.34$",
+        "$1.34$",
+        "$0.76$"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the probability of an event not happening is $1 - P(A)$. Therefore, $1 - 0.34 = 0.66$.\n\n**Common mistake:** Students sometimes subtract from $10$ or $100$ incorrectly, or assume the probability is the same."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q22",
+      "type": "mcq",
+      "question": "A fair six-sided die is rolled once. What is the probability of obtaining a multiple of 3?",
+      "options": [
+        "$1/3$",
+        "$1/6$",
+        "$1/2$",
+        "$2/3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The multiples of 3 on a standard die are 3 and 6. There are 2 successful outcomes out of 6 possible outcomes ($2/6 = 1/3$).\n\n**Common mistake:** Only counting the number 3 and forgetting that 6 is also a multiple of 3."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q23",
+      "type": "mcq",
+      "question": "In a series of 40 trials, a red light appeared 12 times. Calculate the relative frequency of the red light.",
+      "options": [
+        "$0.3$",
+        "$0.12$",
+        "$3.33$",
+        "$1.2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relative frequency is calculated as the number of successes divided by the total trials: $12 / 40 = 0.3$.\n\n**Common mistake:** Dividing the total trials by the successes ($40 / 12$)."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q24",
+      "type": "mcq",
+      "question": "Events $A$2$B$2$P(A) = 0.2$ and $P(B) = 0.5$, what is $P(A \\text{ or } B)$?",
+      "options": [
+        "$0.7$",
+        "$0.1$",
+        "$0.3$",
+        "$0.07$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For mutually exclusive events, the 'OR rule' states $P(A \\text{ or } B) = P(A) + P(B)$. So, $0.2 + 0.5 = 0.7$.\n\n**Common mistake:** Multiplying the probabilities instead of adding them."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q25",
+      "type": "mcq",
+      "question": "What does it mean for a coin or die to be described as 'fair' in probability?",
+      "options": [
+        "All possible outcomes are equally likely",
+        "The coin will land on heads exactly 50% of the time in any 10 trials",
+        "The object has no physical damage",
+        "One outcome is more likely than the others"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that when a die or coin is fair, all possible outcomes are equally likely.\n\n**Common mistake:** Thinking 'fair' means that short-term results must perfectly match the theoretical probability (e.g., 5 heads in 10 tosses)."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q26",
+      "type": "mcq",
+      "question": "A fair coin is tossed twice. What is the probability of obtaining two heads?",
+      "options": [
+        "0.25",
+        "0.5",
+        "0.75",
+        "0.125"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the tosses are independent, multiply the probability of heads for each toss: $0.5 \\times 0.5 = 0.25$.\n\n**Common mistake:** Students often add the probabilities ($0.5 + 0.5 = 1$) instead of multiplying them."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q27",
+      "type": "mcq",
+      "question": "On a probability tree diagram, what is the sum of the probabilities on any set of branches coming from a single point?",
+      "options": [
+        "1",
+        "0.5",
+        "100",
+        "The total frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sum of the probabilities on any set of branches leading from a single point must always equal 1.\n\n**Common mistake:** Students may think the sum can exceed 1 if there are many branches."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q28",
+      "type": "mcq",
+      "question": "A bag contains 7 black discs and 3 white discs. A disc is chosen, replaced, and then a second is chosen. What is the probability that both are white?",
+      "options": [
+        "9/100",
+        "3/10",
+        "6/10",
+        "9/10"
+      ],
+      "correctIndex": 0,
+      "explanation": "With replacement, $P(W) = 3/10 each time$2$2P(W, W) = 3/10 \\times 3/10 = 9/100$.\n\n**Common mistake:** Failing to square the probability and just providing the single-event probability."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q29",
+      "type": "mcq",
+      "question": "In a 2-stage tree diagram for 'Rain' (0.3) and 'No Rain' (0.7), what is the probability of the sequence (Rain, No Rain)?",
+      "options": [
+        "0.21",
+        "0.49",
+        "0.09",
+        "1.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply along the path: $0.3 \\times 0.7 = 0.21$.\n\n**Common mistake:** Multiplying the wrong branch values or adding them."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q30",
+      "type": "mcq",
+      "question": "A spinner numbered 1-4 is spun twice. How many total end-outcomes (leaf nodes) will the tree diagram have?",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of outcomes is the product of the possibilities at each stage: $4 \\times 4 = 16$.\n\n**Common mistake:** Adding the possibilities ($4+4=8$) instead of multiplying."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q31",
+      "type": "mcq",
+      "question": "In the context of Venn diagrams, what does the notation $P(A \\cap B)$ represents?",
+      "options": [
+        "The probability of event A AND event B both happening",
+        "The probability of event A OR event B happening",
+        "The probability of event A happening given that B occurred",
+        "The probability of everything outside of A and B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol $\\cap$ means intersection, which in probability represents the chance of both events occurring simultaneously.\n\n**Common mistake:** Students often confuse the intersection symbol ($\\cap$2$\\cup$)."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q32",
+      "type": "mcq",
+      "question": "A Venn diagram shows 7 cats like only Food A, 5 like only Food B, 16 like both, and 2 like neither. What is the probability that a randomly selected cat likes both foods?",
+      "options": [
+        "16/30",
+        "16/28",
+        "7/30",
+        "21/30"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total cats $= 7 + 5 + 16 + 2 = 30$. The number who like both is 16. Thus, $P = 16/30$.\n\n**Common mistake:** Using only the cats who like Food A or Food B (28) as the denominator instead of the entire universal set (30)."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q33",
+      "type": "mcq",
+      "question": "Which of the following defines 'conditional probability'?",
+      "options": [
+        "The probability of an event occurring given that another event has already occurred",
+        "The probability of two independent events happening one after the other",
+        "The sum of all probabilities in a Venn diagram",
+        "The probability of an event NOT happening"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conditional probability is the probability of event A, given that event B has already occurred, written as $P(A|B)$.\n\n**Common mistake:** Confusing conditional probability with the probability of combined independent events."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q34",
+      "type": "mcq",
+      "question": "In a group of 50 people, 26 chose Rainbow Trout and 24 chose Chicken Curry. If 17 of the trout-eaters chose Cheesecake, what is the probability a person chose Cheesecake given they chose Rainbow Trout?",
+      "options": [
+        "17/26",
+        "17/50",
+        "26/50",
+        "17/27"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(\\text{Cheesecake} | \\text{Trout}) = \\text{Number who chose both} / \\text{Total who chose Trout} = 17 / 26$.\n\n**Common mistake:** Using the total population (50) as the denominator instead of the specific condition (those who chose Trout)."
+    },
+    {
+      "id": "ch08-probability-statistics-easy-q35",
+      "type": "mcq",
+      "question": "If $P(A) = 0.8$, $P(B) = 0.7$, and $P(A \\cap B) = 0.5$, calculate $P(A \\cup B)$.",
+      "options": [
+        "1.0",
+        "1.5",
+        "0.6",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$, we get $0.8 + 0.7 - 0.5 = 1.0$.\n\n**Common mistake:** Simply adding $P(A)$ and $P(B)$ without subtracting the intersection, which results in a probability greater than 1."
+    }
+  ]
+}

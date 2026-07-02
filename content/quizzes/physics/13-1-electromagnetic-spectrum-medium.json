@@ -1,0 +1,77 @@
+{
+  "id": "13-1-electromagnetic-spectrum-medium",
+  "topicId": "13-1-electromagnetic-spectrum",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "medium",
+  "title": "Electromagnetic Spectrum — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-electromagnetic-spectrum-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the wavelength of a radio wave with a frequency of $100\\text{ MHz}$ traveling in a vacuum.",
+      "options": [
+        "$3.0\\text{ m}$",
+        "$3.0 \\times 10^{6}\\text{ m}$",
+        "$0.33\\text{ m}$",
+        "$300\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, we have $\\lambda = v/f = (3.0 \\times 10^{8}) / (100 \\times 10^{6}) = 3.0\\text{ m}$. \n\n**Common mistake:** Failing to convert $100\\text{ MHz}$ to $10^{8}\\text{ Hz}$, leading to an incorrect power of ten."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-medium-q2",
+      "type": "mcq",
+      "question": "How does the speed of an infrared wave in air compare to the speed of an X-ray in a vacuum?",
+      "options": [
+        "They are approximately the same",
+        "The X-ray is significantly faster",
+        "The infrared wave is significantly faster",
+        "Infrared waves cannot travel through air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that all EM waves travel at the same high speed in a vacuum, and this is approximately the same as their speed in air. \n\n**Common mistake:** Thinking the high energy of X-rays makes them travel faster."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-medium-q3",
+      "type": "mcq",
+      "question": "A certain electromagnetic wave has a wavelength of $0.6\\text{ mu m}$. To which region of the spectrum does it belong?",
+      "options": [
+        "Visible light",
+        "Microwaves",
+        "Radio waves",
+        "X-rays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Worked Example 11B identifies green light as having a wavelength of $0.6\\text{ mu m}$ ($600\\text{ nm}$), which is in the visible spectrum. \n\n**Common mistake:** Thinking $10^{-6}$ is small enough to be an X-ray ($10^{-10}$)."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-medium-q4",
+      "type": "mcq",
+      "question": "Which of the following pairs correctly identifies the relationship between wavelength and frequency in the EM spectrum?",
+      "options": [
+        "Longer wavelength $rightarrow$ Lower frequency",
+        "Longer wavelength $rightarrow$ Higher frequency",
+        "Shorter wavelength $rightarrow$ Lower frequency",
+        "Wavelength and frequency are independent of each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wavelength and frequency are inversely related; as wavelength increases, frequency must decrease to maintain a constant speed $v = f\\lambda$. \n\n**Common mistake:** Believing they are directly proportional."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-medium-q5",
+      "type": "mcq",
+      "question": "A student needs to arrange the following regions in order of increasing wavelength: Microwaves, Ultraviolet, X-rays. Which is correct?",
+      "options": [
+        "X-rays, Ultraviolet, Microwaves",
+        "Microwaves, Ultraviolet, X-rays",
+        "Ultraviolet, X-rays, Microwaves",
+        "X-rays, Microwaves, Ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the spectrum from gamma to radio: X-rays have a shorter wavelength than UV, which is shorter than Microwaves. \n\n**Common mistake:** Swapping UV and X-rays."
+    }
+  ]
+}

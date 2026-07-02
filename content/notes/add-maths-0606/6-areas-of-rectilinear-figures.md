@@ -4,11 +4,14 @@ The area of any polygon on a coordinate grid can be calculated using the vertice
 
 ## Key formulas
 
-$$\text{Shoelace: } A = \frac{1}{2}|x_1y_2 + x_2y_3 + \cdots + x_ny_1 - (y_1x_2 + y_2x_3 + \cdots + y_nx_1)|$$
+$$
+\text{Shoelace: } A = \frac{1}{2}|x_1y_2 + x_2y_3 + \cdots + x_ny_1 - (y_1x_2 + y_2x_3 + \cdots + y_nx_1)|
 
-$$\text{Two sides + included angle: } A = \frac{1}{2}ab\sin C$$
+\text{Two sides + included angle: } A = \frac{1}{2}ab\sin C
 
-$$\text{Base and height: } A = \frac{1}{2} \times \text{base} \times \text{height}$$
+\text{Base and height: } A = \frac{1}{2} \times \text{base} \times \text{height}
+$$
+
 
 ## Steps / method
 
@@ -30,13 +33,17 @@ List vertices in order (clockwise or anticlockwise) and **repeat the first verte
 
 Find the area of triangle with vertices $A(0, 0)$, $B(4, 0)$, and $C(2, 3)$.
 
-$$\text{Area} = \frac{1}{2}|(0 \cdot 0 + 4 \cdot 3 + 2 \cdot 0) - (0 \cdot 4 + 0 \cdot 2 + 3 \cdot 0)| = \frac{1}{2}|12| = 6 \text{ units}^2$$
+$$
+\text{Area} = \frac{1}{2}|(0 \cdot 0 + 4 \cdot 3 + 2 \cdot 0) - (0 \cdot 4 + 0 \cdot 2 + 3 \cdot 0)| = \frac{1}{2}|12| = 6 \text{ units}^2
+$$
 
 ## Worked example — Quadrilateral area
 
 Find the area of quadrilateral with vertices $(1, 1)$, $(5, 1)$, $(6, 4)$, $(2, 5)$.
 
-$$\text{Area} = \frac{1}{2}|(1 + 5 + 24 + 2) - (1 + 4 + 10 + 5)| = \frac{1}{2}|32 - 20| = 6 \text{ units}^2$$
+$$
+\text{Area} = \frac{1}{2}|(1 + 5 + 24 + 2) - (1 + 4 + 10 + 5)| = \frac{1}{2}|32 - 20| = 6 \text{ units}^2
+$$
 
 ## Examiner tip
 
@@ -45,7 +52,3 @@ The most common mistake is forgetting to repeat the first coordinate pair at the
 ## Quick check
 
 If the shoelace calculation yields a negative value, taking the absolute modulus values ensures the final area is positive.
-
-## Visual / interactive intent
-
-New explorer: Shoelace area calculator. A dynamic coordinate canvas where users click to place vertices forming a polygon. The app draws colored diagonal lines matching the shoelace calculation steps, showing the arithmetic live.

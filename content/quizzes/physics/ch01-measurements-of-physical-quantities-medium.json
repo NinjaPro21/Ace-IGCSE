@@ -1,0 +1,142 @@
+{
+  "id": "ch01-measurements-of-physical-quantities-medium",
+  "topicId": "ch01-measurements-of-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "medium",
+  "title": "Chapter 1: Measurements of Physical Quantities — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q1",
+      "type": "mcq",
+      "question": "A student measures the time for 20 oscillations of a pendulum twice. The readings are 35.70 s and 34.98 s. What is the average period?",
+      "options": [
+        "1.767 s",
+        "35.34 s",
+        "1.785 s",
+        "0.566 s"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find the average time for 20 oscillations: (35.70+34.98)/2=35.34 s. Then, divide by 20 to find the period of one oscillation: 35.34/20=1.767 s. \n\n**Common mistake:** Students often stop after finding the average time for 20 oscillations (35.34 s) and forget to divide by the number of oscillations."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q2",
+      "type": "mcq",
+      "question": "Which set contains only derived quantities?",
+      "options": [
+        "Area, volume, speed",
+        "Mass, length, time",
+        "Speed, time, density",
+        "Weight, mass, volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derived quantities are calculated from base quantities; area (m2), volume (m3), and speed (m/s) are all derived. \n\n**Common mistake:** Including mass or time, which are base quantities."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q3",
+      "type": "mcq",
+      "question": "What is the correct way to express 0.000 000 01 m using a prefix?",
+      "options": [
+        "0.01mum",
+        "10 nm",
+        "0.1 mm",
+        "1mum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The prefix micro (mu) represents 10−6. Therefore, 0.00000001 m is 0.01times10−6m or 0.01mum. \n\n**Common mistake:** Selecting 10 nm, which is equivalent but requires moving the decimal further than requested by the standard prefix group."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q4",
+      "type": "mcq",
+      "question": "A digital stopwatch has a precision of 0.01 s. Why are readings typically recorded to the nearest 0.1 s?",
+      "options": [
+        "Due to human reaction time (0.3–0.5 s)",
+        "The screen is difficult to read",
+        "To simplify calculations",
+        "The battery runs out faster"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because starting and stopping the watch by hand involves human reaction time (about 0.3–0.5 s), the second decimal place is not reliable. \n\n**Common mistake:** Thinking the instrument itself is inaccurate; it is precise, but the operator introduces a random error."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q5",
+      "type": "mcq",
+      "question": "To find the density of a substance in SI units, how do you convert a value from g/cm3to kg/m3?",
+      "options": [
+        "Multiply by 1000",
+        "Divide by 1000",
+        "Multiply by 100",
+        "Divide by 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "1g/cm3=1000kg/m3. \n\n**Common mistake:** Dividing by 1000 because students think moving from 'grams' to 'kilograms' always requires division."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q6",
+      "type": "mcq",
+      "question": "Two forces act on a point in opposite directions. Force A is $15\\text{ N}$ to the right and Force B is $20\\text{ N}$ to the left. What is the resultant force?",
+      "options": [
+        "$5\\text{ N}$ to the left",
+        "$5\\text{ N}$ to the right",
+        "$35\\text{ N}$ to the left",
+        "$0\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taking right as positive: $(+15\\text{ N}) + (-20\\text{ N}) = -5\\text{ N}$, which means $5\\text{ N}$ to the left. \n\n**Common mistake:** Adding magnitudes to get $35\\text{ N}$ without accounting for opposite directions."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q7",
+      "type": "mcq",
+      "question": "Two forces, one of $15\\text{ N}$ and one of $20\\text{ N}$, act at right angles to each other on a box. Calculate the magnitude of the resultant force.",
+      "options": [
+        "$25\\text{ N}$",
+        "$35\\text{ N}$",
+        "$5\\text{ N}$",
+        "$300\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Pythagoras' theorem: $R = sqrt{15^2 + 20^2} = sqrt{225 + 400} = sqrt{625} = 25\\text{ N}$. \n\n**Common mistake:** Simply adding the two values to get $35\\text{ N}$, which only works if they are parallel."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q8",
+      "type": "mcq",
+      "question": "A runner moves $5\\text{ km}$ North and then $7\\text{ km}$ South. What are her total distance and final displacement?",
+      "options": [
+        "Distance: $12\\text{ km}$; Displacement: $2\\text{ km}$ South",
+        "Distance: $12\\text{ km}$; Displacement: $12\\text{ km}$ North",
+        "Distance: $2\\text{ km}$; Displacement: $2\\text{ km}$ South",
+        "Distance: $12\\text{ km}$; Displacement: $2\\text{ km}$ North"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is scalar (total path): $5 + 7 = 12\\text{ km}$. Displacement is vector (change in position): $+5\\text{ (N)} + -7\\text{ (S)} = -2\\text{ km}$, or $2\\text{ km}$ South. \n\n**Common mistake:** Confusing distance (scalar) with displacement (vector) and giving the same value for both."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q9",
+      "type": "mcq",
+      "question": "When using the parallelogram method to find the resultant of two vectors starting from the same point, what represents the resultant vector?",
+      "options": [
+        "The diagonal of the parallelogram from the point of origin",
+        "The sum of the lengths of all four sides",
+        "The shorter side of the parallelogram",
+        "The perimeter of the shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the parallelogram method, the resultant is represented by the diagonal starting from the origin point of the two vectors. \n\n**Common mistake:** Measuring a side of the parallelogram instead of the diagonal."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-medium-q10",
+      "type": "mcq",
+      "question": "Two forces $F_1 = 4\\text{ N}$ (horizontal) and $F_2 = 3\\text{ N}$ (vertical) act on an object. What is the angle $theta$ of the resultant force relative to the horizontal force?",
+      "options": [
+        "$36.9^{circ}$",
+        "$53.1^{circ}$",
+        "$90^{circ}$",
+        "$45^{circ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using trigonometry: $tan theta = Opposite / Adjacent = 3 / 4$. $theta = arctan(0.75) = 36.9^{circ}$. \n\n**Common mistake:** Swapping the opposite and adjacent sides, leading to an incorrect angle of $53.1^{circ}$."
+    }
+  ]
+}

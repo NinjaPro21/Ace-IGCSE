@@ -1,0 +1,77 @@
+{
+  "id": "11-3-11-4-functions-pyp",
+  "topicId": "11-3-11-4-functions",
+  "chapterId": "ch07-sets-functions-logical-systems",
+  "difficulty": "pyp",
+  "title": "Functions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-11-4-functions-pyp-q1",
+      "type": "mcq",
+      "question": "Given $f(x) = 7 - 2x$2$f^{-1}(x)$.",
+      "options": [
+        "$(7 - x) / 2$",
+        "$(x - 7) / 2$",
+        "$2x - 7$",
+        "$7 + 2x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Examination-style Exercise 11: $y = 7 - 2x \\Rightarrow x = 7 - 2y \\Rightarrow 2y = 7 - x \\Rightarrow y = (7 - x) / 2$.\n\n**Common mistake:** Incorrectly identifying the inverse of subtraction as subtraction or failing to move the 7 correctly."
+    },
+    {
+      "id": "11-3-11-4-functions-pyp-q2",
+      "type": "mcq",
+      "question": "Given $f(x) = 3x + 4$, work out the value of $f^{-1}(13)$.",
+      "options": [
+        "3",
+        "43",
+        "4.33",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Revision Exercise 11: first find $f^{-1}(x) = (x - 4) / 3$. Then $f^{-1}(13) = (13 - 4) / 3 = 9 / 3 = 3$.\n\n**Common mistake:** Calculating $f(13)$ ($3 \\times 13 + 4 = 43$) instead of finding the inverse output."
+    },
+    {
+      "id": "11-3-11-4-functions-pyp-q3",
+      "type": "mcq",
+      "question": "Given $h(x) = 3x$2$hh(2)$.",
+      "options": [
+        "18",
+        "12",
+        "6",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Examination-style Exercise 11: $h(2) = 3 \\times 2 = 6$. Then $h(h(2)) = h(6) = 3 \\times 6 = 18$.\n\n**Common mistake:** Squaring the initial result ($6^2 = 36$) instead of applying the function twice."
+    },
+    {
+      "id": "11-3-11-4-functions-pyp-q4",
+      "type": "mcq",
+      "question": "If $f(x) = \\sin x$2$g(x) = 3x + 6$, determine the expression for $g^{-1}(f(x))$.",
+      "options": [
+        "$(\\sin x - 6) / 3$",
+        "$(\\sin x + 6) / 3$",
+        "$\"sin\"(3x + 6)$",
+        "$3\\sin x + 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$2$f$."
+    },
+    {
+      "id": "11-3-11-4-functions-pyp-q5",
+      "type": "mcq",
+      "question": "For the function $f(x) = x^3 - 2x^2 + 5x - 1$, calculate the value of $f(-2)$.",
+      "options": [
+        "-27",
+        "-11",
+        "13",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = -2$: $(-2)^3 - 2(-2)^2 + 5(-2) - 1 = -8 - 2(4) - 10 - 1 = -8 - 8 - 10 - 1 = -27$.\n\n**Common mistake:** Squaring or cubing negative numbers incorrectly (e.g., $(-2)^2 = -4$)."
+    }
+  ]
+}

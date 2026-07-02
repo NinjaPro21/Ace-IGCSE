@@ -1,0 +1,467 @@
+{
+  "id": "ch04-geometry-transformations-medium",
+  "topicId": "ch04-geometry-transformations",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "medium",
+  "title": "Chapter 4: Geometry & Transformations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch04-geometry-transformations-medium-q1",
+      "type": "mcq",
+      "question": "A regular polygon has an exterior angle of $30°$. Calculate the number of sides this polygon has.",
+      "options": [
+        "$12$",
+        "$6$",
+        "$10$",
+        "$15$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of sides $n$2$360 / exterior angle$2$360 / 30 = 12$.\n\n**Common mistake:** The student might divide $180$ by $30$ or confuse the exterior angle with the interior angle."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q2",
+      "type": "mcq",
+      "question": "Calculate the size of each interior angle in a regular octagon.",
+      "options": [
+        "$135°$",
+        "$45°$",
+        "$1080°$",
+        "$150°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum of interior angles = $(8 - 2) \\times 180 = 1080°$. Each angle = $1080 / 8 = 135°$.\n\n**Common mistake:** The student might calculate the exterior angle ($45°$) or only calculate the sum ($1080°$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q3",
+      "type": "mcq",
+      "question": "In triangle $ABC$2$2 : 3 : 5$. Calculate the size of the smallest angle.",
+      "options": [
+        "$36°$",
+        "$18°$",
+        "$72°$",
+        "$20°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total parts = $2 + 3 + 5 = 10$. One part = $180 / 10 = 18°$. Smallest angle = $2 \\times 18 = 36°$.\n\n**Common mistake:** The student might divide $360$ by $10$ instead of $180$ or only find the value of one part ($18°$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q4",
+      "type": "mcq",
+      "question": "Two parallel lines are crossed by a transversal. If a pair of co-interior angles are $2x$2$3x + 20$, find the value of $x$.",
+      "options": [
+        "$32$",
+        "$20$",
+        "$44$",
+        "$160$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Co-interior angles sum to $180°$. $2x + 3x + 20 = 180 \\Rightarrow 5x = 160 \\Rightarrow x = 32$.\n\n**Common mistake:** The student might set the angles equal to each other (like alternate angles) or set the sum to $360°$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q5",
+      "type": "mcq",
+      "question": "An interior angle of a regular polygon is $140°$. How many sides does it have?",
+      "options": [
+        "$9$",
+        "$10$",
+        "$8$",
+        "$7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exterior angle = $180 - 140 = 40°$. Number of sides = $360 / 40 = 9$.\n\n**Common mistake:** The student might divide $360$ by $140$ directly or miscalculate the exterior angle."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q6",
+      "type": "mcq",
+      "question": "In a kite $ABCD$2$AB = AD$2$BC = CD$2$ABC$2$115°$. Use symmetry to find the size of angle $ADC$.",
+      "options": [
+        "$115°$",
+        "$65°$",
+        "$90°$",
+        "$57.5°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A kite has one line of symmetry passing through the vertices between the pairs of equal sides, which means the angles at the other two vertices are equal.\n\n**Common mistake:** The student might try to subtract from $180°$ or divide by $2$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q7",
+      "type": "mcq",
+      "question": "What is the order of rotational symmetry of a hexagonal prism about its main longitudinal axis (passing through the centers of the two hexagonal faces)?",
+      "options": [
+        "$6$",
+        "$2$",
+        "$12$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The order of rotational symmetry about the main axis is equal to the number of sides of the regular polygon cross-section.\n\n**Common mistake:** A student might count the total number of faces ($8$) or the rotational order of a rectangle ($2$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q8",
+      "type": "mcq",
+      "question": "A prism has a regular pentagonal cross-section. Calculate the total number of planes of symmetry it possesses.",
+      "options": [
+        "$6$",
+        "$5$",
+        "$10$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A prism with a regular $n$2$n$2$1$ horizontal plane, giving $n + 1$ planes. For a pentagon, $5 + 1 = 6$.\n\n**Common mistake:** A student might only count the $5$ vertical planes and forget the horizontal cross-section plane."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q9",
+      "type": "mcq",
+      "question": "A rhombus and a rectangle (that is not a square) are compared. Which statement about their symmetry is correct?",
+      "options": [
+        "They both have the same number of lines and the same order of rotational symmetry.",
+        "The rectangle has more lines of symmetry than the rhombus.",
+        "The rhombus has a higher order of rotational symmetry.",
+        "Neither shape has rotational symmetry of order $2$."
+      ],
+      "correctIndex": 0,
+      "explanation": "Both a rhombus and a rectangle have $2$ lines of symmetry and rotational symmetry of order $2$.\n\n**Common mistake:** Students may think a rhombus has more lines because its diagonals are lines of symmetry, whereas rectangle diagonals are not."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q10",
+      "type": "mcq",
+      "question": "A cylinder has an axis of symmetry running through its center. If the cylinder is rotated about an axis that passes through the midpoint of its length and is perpendicular to its height, what is the order of rotational symmetry?",
+      "options": [
+        "$2$",
+        "Infinite",
+        "$1$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rotating a cylinder $180°$ about a central horizontal axis returns it to its original position, giving order $2$.\n\n**Common mistake:** Students often confuse this with the longitudinal axis, which has infinite rotational symmetry."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q11",
+      "type": "mcq",
+      "question": "A cyclic quadrilateral $ABCD$2$∠A = 2x + 10$ and $∠C = x + 50$. Determine the value of $x$.",
+      "options": [
+        "$40$",
+        "$120$",
+        "$60$",
+        "$30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite angles in a cyclic quadrilateral sum to $180°$. $(2x + 10) + (x + 50) = 180 \\Rightarrow 3x + 60 = 180 \\Rightarrow 3x = 120 \\Rightarrow x = 40$.\n\n**Common mistake:** The student might set the two angles equal to each other ($2x + 10 = x + 50$), which is not a general property of cyclic quadrilaterals."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q12",
+      "type": "mcq",
+      "question": "Two tangents are drawn from an external point $T$2$A$2$B$2$ATB = 40°$, calculate the size of angle $ABT$.",
+      "options": [
+        "$70°$",
+        "$40°$",
+        "$140°$",
+        "$80°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tangents from an external point are equal in length, so triangle $TAB$2$TA = TB$2$∠ABT = (180 - 40) ÷ 2 = 70°$.\n\n**Common mistake:** A student might assume the triangle is equilateral or forget to divide the remaining $140°$ by $2$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q13",
+      "type": "mcq",
+      "question": "In the diagram, $O$2$BAC$2$x$2$BOC$2$250°$, find $x$.",
+      "options": [
+        "$55°$",
+        "$110°$",
+        "$125°$",
+        "$70°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle at the centre $BOC$2$360 - 250 = 110°$. The angle at the circumference is half of this: $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might divide the reflex angle ($250$) by $2$ to get $125°$ without realizing the theorem applies to the angle 'facing' the circumference point."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q14",
+      "type": "mcq",
+      "question": "A chord $PQ$2$P$2$64°$. According to the Alternate Segment Theorem, what is the size of the angle in the alternate segment subtended by chord $PQ$?",
+      "options": [
+        "$64°$",
+        "$128°$",
+        "$32°$",
+        "$116°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Alternate Segment Theorem states that the angle between a tangent and a chord is equal to the angle subtended by that chord in the alternate segment.\n\n**Common mistake:** The student might subtract the angle from $180°$ or double it, confusing it with the angle-at-centre theorem."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q15",
+      "type": "mcq",
+      "question": "In a circle with centre $O$2$OA$2$OB$2$AB$2$OAB = 25°$, calculate the angle subtended by arc $AB$ at the circumference.",
+      "options": [
+        "$65°$",
+        "$130°$",
+        "$25°$",
+        "$50°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triangle $OAB$2$OA=OB$2$∠OBA = 25°$. Angle at centre $∠AOB = 180 - (25+25) = 130°$. Angle at circumference is $130 ÷ 2 = 65°$.\n\n**Common mistake:** The student might think the angle at the circumference is equal to the base angle $25°$ or double it to $50°$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q16",
+      "type": "mcq",
+      "question": "A student bisects a right angle ($90°$) and then bisects one of the resulting angles. What is the size of the final angle created?",
+      "options": [
+        "$22.5°$",
+        "$45°$",
+        "$11.25°$",
+        "$30°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First bisection: $90 / 2 = 45°$. Second bisection: $45 / 2 = 22.5°$.\n\n**Common mistake:** The student might stop after the first bisection ($45°$) or divide $90$ by $3$ thinking of 'trisecting'."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q17",
+      "type": "mcq",
+      "question": "To construct a $75°$ angle, which two angles could be constructed and then one of them bisected further?",
+      "options": [
+        "$60°$ and $30°$ (bisecting the $30°$)",
+        "$90°$ and $60°$ (bisecting the $90°$)",
+        "$45°$ and $30°$ (bisecting the $45°$)",
+        "$60°$ and $15°$ (bisecting the $60°$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Construct $60°$ and $90°$. The $30°$ gap between them can be bisected to give $15°$. $60° + 15° = 75°$.\n\n**Common mistake:** Students may try to bisect $150°$ without knowing how to construct $150°$ using standard methods first."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q18",
+      "type": "mcq",
+      "question": "Construct a triangle $PQR$2$PQ = 10\\text{ cm}, QR = 8\\text{ cm},$ and $PR = 6\\text{ cm}$. After measuring, which angle is the largest?",
+      "options": [
+        "$∠PRQ$",
+        "$∠PQR$",
+        "$∠QPR$",
+        "All angles are equal"
+      ],
+      "correctIndex": 0,
+      "explanation": "In any triangle, the largest angle is opposite the longest side. Since $PQ$2$10\\text{ cm}$), $∠PRQ$2$90°$ because $6^2 + 8^2 = 10^{2}$).\n\n**Common mistake:** The student might select the angle between the two longest sides instead of the angle opposite the longest side."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q19",
+      "type": "mcq",
+      "question": "While constructing a perpendicular bisector of a line $XY$2$8\\text{ cm}$, what is the minimum radius the compass must be set to for the arcs to intersect?",
+      "options": [
+        "Greater than $4\\text{ cm}$",
+        "Exactly $4\\text{ cm}$",
+        "Exactly $8\\text{ cm}$",
+        "Less than $4\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The arcs must meet in the middle; if the radius is half the length or less, the arcs will only touch at one point or not meet at all.\n\n**Common mistake:** A student might set the radius to exactly $4\\text{ cm}$ (the midpoint), which creates only one point of intersection instead of the two needed for a line."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q20",
+      "type": "mcq",
+      "question": "A rhombus $ABCD$2$7\\text{ cm}$. If you construct it such that $∠ABC = 120°$, what is the length of the diagonal $AC$?",
+      "options": [
+        "More than $7\\text{ cm}$",
+        "$7\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$49\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a rhombus with a $120°$ angle, the other interior angle is $60°$. The diagonal $AC$2$∠ABC=120°$, $AC$ is the long diagonal.\n\n**Common mistake:** The student might assume $AC = 7\\text{ cm}$ because it looks like a triangle, but $AC$2$120°$ angle, making it significantly longer than the sides."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q21",
+      "type": "mcq",
+      "question": "A net for an open-topped cubic box is drawn. If each side of the squares is $4\\text{ cm}$, calculate the total area of the net.",
+      "options": [
+        "$80\\text{ cm}²$",
+        "$96\\text{ cm}²$",
+        "$64\\text{ cm}²$",
+        "$16\\text{ cm}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An open-topped box has only 5 faces. Area of one square $= 4 \\times 4 = 16\\text{ cm}²$. Total area $= 5 \\times 16 = 80\\text{ cm}²$.\n\n**Common mistake:** Students often calculate the area for a closed cube (6 faces), leading to $96\\text{ cm}²$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q22",
+      "type": "mcq",
+      "question": "A triangular prism net consists of two triangles with base $6\\text{ cm}$ and height $4\\text{ cm}$, and three rectangles. If the prism length is $10\\text{ cm}$, what is the area of the rectangular part of the net if the triangles are isosceles with side lengths $5\\text{ cm}$?",
+      "options": [
+        "$160\\text{ cm}²$",
+        "$120\\text{ cm}²$",
+        "$184\\text{ cm}²$",
+        "$60\\text{ cm}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rectangles correspond to the sides of the triangle. The perimeter of the triangle is $6 + 5 + 5 = 16\\text{ cm}$. The area of the three rectangles combined is $Perimeter \\times length = 16 \\times 10 = 160\\text{ cm}²$.\n\n**Common mistake:** A student might only calculate one rectangle ($6 \\times 10 = 60$) or use the height of the triangle ($4$) instead of the side length ($5$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q23",
+      "type": "mcq",
+      "question": "In a standard cube net, face $A$2$A$?",
+      "options": [
+        "The top face",
+        "The front face",
+        "The side face",
+        "The bottom face"
+      ],
+      "correctIndex": 0,
+      "explanation": "In any valid cube net, opposite faces are always separated by exactly one square in a straight line.\n\n**Common mistake:** The student might try to visualize the fold incorrectly and pick an adjacent face."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q24",
+      "type": "mcq",
+      "question": "A net of a square-based pyramid has a central square of side $8\\text{ cm}$ and four triangles with a slant height of $5\\text{ cm}$. Calculate the total surface area.",
+      "options": [
+        "$144\\text{ cm}²$",
+        "$80\\text{ cm}²$",
+        "$160\\text{ cm}²$",
+        "$64\\text{ cm}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base area $= 8 \\times 8 = 64$. Area of 4 triangles $= 4 \\times (0.5 \\times 8 \\times 5) = 4 \\times 20 = 80$. Total area $= 64 + 80 = 144\\text{ cm}²$.\n\n**Common mistake:** A student might forget to include the base or forget the $0.5$ in the triangle area formula."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q25",
+      "type": "mcq",
+      "question": "Consider the net of a cuboid with dimensions $x, y,$ and $z$2$x=2, y=3,$ and $z=5$, how many rectangles in the net have an area of $10$ units $2$?",
+      "options": [
+        "$2$",
+        "$4$",
+        "$6$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The possible areas of the faces are $xy=6, xz=10,$ and $yz=15$. There are two faces for each pair, so there are two rectangles with area $10$.\n\n**Common mistake:** The student might assume all faces are the same or only count one face of the pair."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q26",
+      "type": "mcq",
+      "question": "Find the magnitude of the vector $\\vec{PQ} = \\begin{pmatrix} -5 \\ 12 \\end{pmatrix}$.",
+      "options": [
+        "$13$",
+        "$17$",
+        "$\\sqrt{119}$",
+        "$7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude is $\\sqrt{(-5)² + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.\n\n**Common mistake:** The student might miscalculate $(-5)²$ as $-25$ or add the numbers without squaring."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q27",
+      "type": "mcq",
+      "question": "Given the position vectors $\\vec{OA} = \\begin{pmatrix} 1 \\ 4 \\end{pmatrix}$ and $\\vec{OB} = \\begin{pmatrix} 5 \\ 2 \\end{pmatrix}$, find the column vector $\\vec{AB}$.",
+      "options": [
+        "$\\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ 6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 4 \\ 2 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{AB} = \\vec{OB} - \\vec{OA} = \\begin{pmatrix} 5 \\ 2 \\end{pmatrix} - \\begin{pmatrix} 1 \\ 4 \\end{pmatrix} = \\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$.\n\n**Common mistake:** The student might perform $\\vec{OA} - \\vec{OB}$ instead, resulting in the opposite direction."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q28",
+      "type": "mcq",
+      "question": "Point $M$2$P(2, 1)$ and $Q(8, 7)$. Determine the position vector $\\vec{OM}$ as a column vector.",
+      "options": [
+        "$\\begin{pmatrix} 5 \\ 4 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ 6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 10 \\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 \\ 3 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coordinates of $M$2$((2+8)/2, (1+7)/2) = (5, 4)$. The position vector is $\\begin{pmatrix} 5 \\ 4 \\end{pmatrix}$.\n\n**Common mistake:** The student might calculate the vector $\\vec{PQ}$ instead of the midpoint position vector."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q29",
+      "type": "mcq",
+      "question": "Solve for the vector $\\mathbf{x}$ in the equation: $3\\mathbf{x} + \\begin{pmatrix} 4 \\ -2 \\end{pmatrix} = \\begin{pmatrix} 13 \\ 10 \\end{pmatrix}$.",
+      "options": [
+        "$\\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 9 \\ 12 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5.67 \\ 2.67 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 \\ 2.67 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$3\\mathbf{x} = \\begin{pmatrix} 13 \\ 10 \\end{pmatrix} - \\begin{pmatrix} 4 \\ -2 \\end{pmatrix} = \\begin{pmatrix} 9 \\ 12 \\end{pmatrix}$. Dividing by 3 gives $\\mathbf{x} = \\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$.\n\n**Common mistake:** The student might forget to divide the final vector by 3 or make a subtraction sign error ($10 - (-2) = 8$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q30",
+      "type": "mcq",
+      "question": "The vector $\\begin{pmatrix} m \\ 15 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 2 \\ 3 \\end{pmatrix}$. Calculate the value of $m$.",
+      "options": [
+        "$10$",
+        "$5$",
+        "$30$",
+        "$22.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If parallel, components are proportional: $15 / 3 = 5$ (scalar multiplier). Thus $m = 2 \\times 5 = 10$.\n\n**Common mistake:** A student might divide 15 by 2 or try to add a constant instead of using a multiplier."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q31",
+      "type": "mcq",
+      "question": "The point $A(1, 2)$ is reflected in the line $y = x$2$A'$.",
+      "options": [
+        "$(2, 1)$",
+        "$(-1, -2)$",
+        "$(1, -2)$",
+        "$(-2, 1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A reflection in the line $y = x$2$x$2$y$ coordinates of a point.\n\n**Common mistake:** The student might change the signs of the coordinates instead of swapping them, leading to $(-1, -2)$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q32",
+      "type": "mcq",
+      "question": "A square has vertices at $(1, 1), (3, 1), (3, 3),$ and $(1, 3)$. It is enlarged by scale factor $2$ using $(1, 1)$ as the centre of enlargement. Find the coordinates of the image of the vertex originally at $(3, 3)$.",
+      "options": [
+        "$(5, 5)$",
+        "$(6, 6)$",
+        "$(4, 4)$",
+        "$(2, 2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vector from the centre $(1, 1)$ to $(3, 3)$ is $\\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$. Multiplying this by scale factor $2$ gives $\\begin{pmatrix} 4 \\ 4 \\end{pmatrix}$. Adding this to the centre: $(1+4, 1+4) = (5, 5)$.\n\n**Common mistake:** A student might multiply the original coordinates by 2 to get $(6, 6)$, which only works if the centre of enlargement is the origin."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q33",
+      "type": "mcq",
+      "question": "Point $B(5, 1)$ is rotated $90°$ clockwise about the point $(2, 1)$. Determine the coordinates of the image.",
+      "options": [
+        "$(2, -2)$",
+        "$(1, 5)$",
+        "$(2, 4)$",
+        "$(5, -2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vector from $(2, 1)$ to $(5, 1)$ is $\\begin{pmatrix} 3 \\ 0 \\end{pmatrix}$. Rotating this $90°$ clockwise gives $\\begin{pmatrix} 0 \\ -3 \\end{pmatrix}$. Adding to the centre: $(2+0, 1-3) = (2, -2)$.\n\n**Common mistake:** The student might rotate about the origin instead of the given centre $(2, 1)$."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q34",
+      "type": "mcq",
+      "question": "Triangle $T$2$\\begin{pmatrix} 4 \\ -3 \\end{pmatrix}$ and then by $\\begin{pmatrix} -1 \\ 5 \\end{pmatrix}$. What is the single translation vector that represents this combined transformation?",
+      "options": [
+        "$\\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 \\ -8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -4 \\ -15 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combined translations are found by adding the individual translation vectors: $\\begin{pmatrix} 4 + (-1) \\ -3 + 5 \\end{pmatrix} = \\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** The student might subtract the vectors or multiply them incorrectly."
+    },
+    {
+      "id": "ch04-geometry-transformations-medium-q35",
+      "type": "mcq",
+      "question": "Find the equation of the mirror line that maps the point $(2, 5)$ onto $(2, -1)$.",
+      "options": [
+        "$y = 2$",
+        "$x = 2$",
+        "$y = 0$",
+        "$y = x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mirror line is the perpendicular bisector of the segment joining the two points. The midpoint is $(2, (5-1)/2) = (2, 2)$. Since the $x$2$y = 2$.\n\n**Common mistake:** A student might pick the $x$2$x=2$ or confuse the midpoint calculation."
+    }
+  ]
+}

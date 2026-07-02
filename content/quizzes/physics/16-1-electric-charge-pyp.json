@@ -1,0 +1,77 @@
+{
+  "id": "16-1-electric-charge-pyp",
+  "topicId": "16-1-electric-charge",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "pyp",
+  "title": "Electric Charge — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-1-electric-charge-pyp-q1",
+      "type": "mcq",
+      "question": "How does a neutral atom become a positive ion?",
+      "options": [
+        "It loses electrons.",
+        "It gains protons.",
+        "It loses protons.",
+        "It gains electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from Review Section A, Question 2. Neutral atoms become positive by losing negatively charged electrons. \n\n**Common mistake:** Selecting 'gains protons'."
+    },
+    {
+      "id": "16-1-electric-charge-pyp-q2",
+      "type": "mcq",
+      "question": "A student has two polythene rods, P and Q. Both rods are rubbed with the same woollen cloth. The student then brings the rods close together. Which row describes the charges on the rods and their interaction?nn| | Charge on P | Charge on Q | Interaction |n| :--- | :--- | :--- | :--- |n| A | Negative | Negative | Repel |n| B | Negative | Positive | Attract |n| C | Positive | Positive | Repel |n| D | Positive | Negative | Attract |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Polythene becomes negatively charged when rubbed with wool. Since both are negative, they repel. \n\n**Common mistake:** Choosing Row B, assuming friction always produces opposite charges on two similar rods."
+    },
+    {
+      "id": "16-1-electric-charge-pyp-q3",
+      "type": "mcq",
+      "question": "Which statement about the charging of a glass rod by rubbing it with silk is correct?",
+      "options": [
+        "The glass rod becomes positive because it loses electrons.",
+        "The silk becomes positive because it gains electrons.",
+        "The glass rod becomes negative because it gains protons.",
+        "The silk becomes negative because it loses protons."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rubbing causes electron transfer. Losing negative electrons leaves the glass rod with a net positive charge. \n\n**Common mistake:** Thinking the rod 'gains' positivity via protons."
+    },
+    {
+      "id": "16-1-electric-charge-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows three identical metal spheres on insulating stands. Sphere 1 is positive. Sphere 1 is brought near Sphere 2, then removed. Then Sphere 2 is brought near Sphere 3. What are the final charges if both were initially neutral?nn[Sphere 1: +] --> [Sphere 2: neutral] then [Sphere 2] --> [Sphere 3: neutral]",
+      "options": [
+        "2 becomes induced negative on one side; 3 remains neutral.",
+        "All three spheres become positive.",
+        "2 and 3 both become negative.",
+        "2 becomes positive and 3 becomes negative."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bringing a charged object near a neutral conductor induces a charge separation, but if they don't touch and there is no earthing, the overall charge remains zero. \n\n**Common mistake:** Thinking that proximity alone 'gives' a permanent charge to a neutral object."
+    },
+    {
+      "id": "16-1-electric-charge-pyp-q5",
+      "type": "mcq",
+      "question": "A table shows the number of subatomic particles in four atoms. Which atom is a negatively charged ion?nn| Atom | Protons | Neutrons | Electrons |n| :--- | :--- | :--- | :--- |n| W | 6 | 6 | 6 |n| X | 7 | 7 | 10 |n| Y | 11 | 12 | 10 |n| Z | 17 | 18 | 17 |",
+      "options": [
+        "Atom X",
+        "Atom W",
+        "Atom Y",
+        "Atom Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ion is negatively charged if it has more electrons than protons. Atom X has 7 protons (+) and 10 electrons (-). \n\n**Common mistake:** Choosing Atom Y, which is a positive ion (more protons than electrons)."
+    }
+  ]
+}

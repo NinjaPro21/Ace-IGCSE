@@ -1,0 +1,77 @@
+{
+  "id": "9-1-thermal-expansion-pyp",
+  "topicId": "9-1-thermal-expansion",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "pyp",
+  "title": "Thermal Expansion — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-thermal-expansion-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a metal bridge with a gap at one end. Why is this gap necessary?",
+      "options": [
+        "To allow the bridge to expand on a hot day",
+        "To allow the bridge to contract on a hot day",
+        "To save money on building materials",
+        "To let water drain through the road surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaps are left in large solid structures like bridges to accommodate the increase in length caused by thermal expansion in the summer. **Common mistake:** Confusing expansion (hot) with contraction (cold)."
+    },
+    {
+      "id": "9-1-thermal-expansion-pyp-q2",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the thermal expansion of different states of matter?",
+      "options": [
+        "Gases: Most expansion; Solids: Least expansion",
+        "Gases: Least expansion; Solids: Most expansion",
+        "Gases: Most expansion; Liquids: Least expansion",
+        "Liquids: Most expansion; Solids: Least expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in the 'Let's Map It' section, gases expand the most and solids expand the least. **Common mistake:** Swapping the properties of liquids and solids."
+    },
+    {
+      "id": "9-1-thermal-expansion-pyp-q3",
+      "type": "mcq",
+      "question": "A graph is plotted showing how the volume of a substance changes with temperature. If the line has a steady positive gradient, what does this indicate?",
+      "options": [
+        "The substance is expanding at a uniform rate",
+        "The substance is contracting at a uniform rate",
+        "The substance is changing state from a liquid to a solid",
+        "The density of the substance is increasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A positive gradient means as temperature increases, volume increases, which is the definition of uniform thermal expansion. **Common mistake:** Thinking a positive gradient means density is increasing; density would actually be decreasing."
+    },
+    {
+      "id": "9-1-thermal-expansion-pyp-q4",
+      "type": "mcq",
+      "question": "What happens to the average distance between particles in a liquid when its temperature decreases?",
+      "options": [
+        "The average distance decreases",
+        "The average distance increases",
+        "The average distance remains the same",
+        "The particles grow closer together and stop moving"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cooling causes contraction, which means the particles move less vigorously and the average space between them gets smaller. **Common mistake:** Thinking that cooling makes particles move 'freely' and thus stay further apart."
+    },
+    {
+      "id": "9-1-thermal-expansion-pyp-q5",
+      "type": "mcq",
+      "question": "Which statement about thermal expansion is correct?",
+      "options": [
+        "Solids, liquids, and gases all expand when heated.",
+        "Only gases expand because they have weak forces.",
+        "Solids expand because their particles move from place to place.",
+        "Expansion only happens at the boiling point of a substance."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion is a general property of all states of matter, though the magnitude varies. **Common mistake:** Believing expansion is exclusive to gases or only occurs during a change of state."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "12-4-refraction-by-thin-lenses-hard",
+  "topicId": "12-4-refraction-by-thin-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "hard",
+  "title": "Refraction by Thin Lenses — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-refraction-by-thin-lenses-hard-q1",
+      "type": "mcq",
+      "question": "Why does a thin converging lens refract light more at its outermost parts than in the middle?",
+      "options": [
+        "The incident angles are different due to the curved surface",
+        "The outer part of the lens is made of denser glass",
+        "Light travels faster through the edges of the lens",
+        "The middle of the lens is perfectly flat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the surfaces are curved, light rays hitting different parts of the surface have different incident angles, leading to different angles of refraction. The angle is largest at the edges.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-hard-q2",
+      "type": "mcq",
+      "question": "A beam of light parallel to the principal axis enters a diverging lens. The rays emerge and appear to come from a point $20\\text{ cm}$ behind the lens. What is the focal length?",
+      "options": [
+        "$20\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$40\\text{ cm}$",
+        "It is impossible to determine for a diverging lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a diverging lens, the principal focus is the virtual point from which parallel incident rays appear to diverge. The distance to this point is the focal length.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-hard-q3",
+      "type": "mcq",
+      "question": "Which of the following would produce the smallest focal length in a converging lens?",
+      "options": [
+        "High optical density material and high surface curvature",
+        "Low optical density material and high surface curvature",
+        "High optical density material and low surface curvature",
+        "Low optical density material and low surface curvature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both high optical density (refractive index) and high curvature increase the bending of light, bringing the focal point closer to the optical centre.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-hard-q4",
+      "type": "mcq",
+      "question": "If a thin converging lens is described as being 'powerful', what can you deduce about its physical properties?",
+      "options": [
+        "It has a short focal length and high curvature",
+        "It has a long focal length and low curvature",
+        "It is very large in diameter",
+        "It is made of a reflecting material"
+      ],
+      "correctIndex": 0,
+      "explanation": "In optics, a lens that converges rays strongly (is powerful) has a short focal length, which is usually achieved by having highly curved surfaces.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-hard-q5",
+      "type": "mcq",
+      "question": "A parallel beam of light passes through a converging lens. In which plane must a screen be placed to see the rays focused to a line rather than a single point?",
+      "options": [
+        "The focal plane, if the incident rays are not parallel to the axis",
+        "The vertical plane of the lens",
+        "The principal axis",
+        "The focal plane, if the incident rays are parallel to the axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "If rays are parallel to each other but tilted relative to the principal axis, they focus to a point on the focal plane. If a beam consists of many such tilted rays, they could form a line on that plane.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "14-1-what-is-sound-medium",
+  "topicId": "14-1-what-is-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "medium",
+  "title": "What Is Sound? — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-what-is-sound-medium-q1",
+      "type": "mcq",
+      "question": "A tuning fork vibrates $1000$ \\times in $4.0\\text{ seconds}$. What is the frequency of the sound produced?",
+      "options": [
+        "$250\\text{ Hz}$",
+        "$4000\\text{ Hz}$",
+        "$0.004\\text{ Hz}$",
+        "$1000\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is the number of vibrations per second. $1000 / 4.0 = 250\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-medium-q2",
+      "type": "mcq",
+      "question": "A vibrating source produces a sound at a frequency of $25\\text{ kHz}$. Why is this sound silent to a human observer?",
+      "options": [
+        "It is ultrasound, which is above the human audible limit",
+        "It is infrasound, which is below the human audible limit",
+        "The frequency is too low for the eardrum to detect",
+        "Sound cannot travel at such high frequencies"
+      ],
+      "correctIndex": 0,
+      "explanation": "$25\\text{ kHz}$ ($25000\\text{ Hz}$) is above the upper limit of human audibility ($20000\\text{ Hz}$), making it ultrasound.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-medium-q3",
+      "type": "mcq",
+      "question": "In a longitudinal wave travelling through air, which row correctly describes the movement of air molecules?",
+      "options": [
+        "Parallel to wave travel; creates pressure changes",
+        "Perpendicular to wave travel; creates peaks and troughs",
+        "In circles; transfers matter from source to ear",
+        "Stationary; only energy moves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound is a longitudinal wave where vibrations are parallel to wave travel, moving energy via compressions and rarefactions.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-medium-q4",
+      "type": "mcq",
+      "question": "Sound travels at $340\\text{ m/s}$. If the wavelength of a note is $0.5\\text{ m}$, what is its frequency?",
+      "options": [
+        "$680\\text{ Hz}$",
+        "$170\\text{ Hz}$",
+        "$340\\text{ Hz}$",
+        "$0.0015\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, we find $f = v / \\lambda = 340 / 0.5 = 680\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-medium-q5",
+      "type": "mcq",
+      "question": "Which statement describes the relationship between the distance between air particles and the pressure in a rarefaction?",
+      "options": [
+        "Particles are far apart and pressure is low",
+        "Particles are closely packed and pressure is high",
+        "Particles are far apart and pressure is high",
+        "Particles are closely packed and pressure is low"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rarefactions are regions where air pressure is lower than the surrounding pressure because the particles are spread further apart.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

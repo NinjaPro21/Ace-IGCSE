@@ -1,0 +1,77 @@
+{
+  "id": "10-2-10-3-sine-cosine-rules-easy",
+  "topicId": "10-2-10-3-sine-cosine-rules",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Sine & Cosine Rules — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-2-10-3-sine-cosine-rules-easy-q1",
+      "type": "mcq",
+      "question": "In triangle ABC, side $a = 10$, angle $A = 30°$, and angle $B = 45°$. Which rule is most appropriate to find side $b$?",
+      "options": [
+        "The Sine Rule",
+        "The Cosine Rule",
+        "Pythagoras' Theorem",
+        "The Tangent Rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "You know an opposite pair (side $a$2$A$2$B$), which is the standard criteria for the Sine Rule.\n\n**Common mistake:** Students may try to use Pythagoras' Theorem even though the triangle is not right-angled."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following configurations requires the use of the Cosine Rule to find the first unknown part?",
+      "options": [
+        "Three sides are known (SSS)",
+        "Two angles and one side are known (AAS)",
+        "One side and its opposite angle are known",
+        "Two sides and a non-included angle are known"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Cosine Rule is specifically used when all three sides (SSS) or two sides and the included angle (SAS) are known.\n\n**Common mistake:** Students often think the Sine Rule is the 'universal' rule for all non-right triangles."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-easy-q3",
+      "type": "mcq",
+      "question": "In the Cosine Rule formula $a^2 = b^2 + c^2 - 2bc \\cos A$2$A$2$a$?",
+      "options": [
+        "The angle opposite side $a$",
+        "The angle adjacent to side $a$",
+        "The largest angle in the triangle",
+        "The angle between sides $a$2$b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In both Sine and Cosine rules, the letter $a$2$A$.\n\n**Common mistake:** Confusion often arises between which angle is 'opposite' and which is 'included'."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the value of side $c$2$\\frac{c}{\\sin 50°} = \\frac{7}{\\sin 60°}$.",
+      "options": [
+        "6.19",
+        "7.92",
+        "5.36",
+        "9.14"
+      ],
+      "correctIndex": 0,
+      "explanation": "$c = (7 \\times \\sin 50°) / \\sin 60° = (7 \\times 0.766) / 0.866 \\approx 6.19$.\n\n**Common mistake:** A student might cross-multiply incorrectly or use $\\cos$2$\\sin$."
+    },
+    {
+      "id": "10-2-10-3-sine-cosine-rules-easy-q5",
+      "type": "mcq",
+      "question": "Given $\\cos x = -0.5$ in the Cosine Rule, what does this tell you about the nature of the angle $x$?",
+      "options": [
+        "It is an obtuse angle ($120°$)",
+        "It is an acute angle ($60°$)",
+        "It is a right angle ($90°$)",
+        "The triangle is impossible"
+      ],
+      "correctIndex": 0,
+      "explanation": "A negative cosine value indicates that the angle is obtuse (between $90°$ and $180°$). Specifically, $\\cos 120° = -0.5$.\n\n**Common mistake:** Students may ignore the negative sign and provide the acute reference angle $60°$."
+    }
+  ]
+}

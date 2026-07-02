@@ -1,0 +1,77 @@
+{
+  "id": "17-3-parallel-circuits-pyp",
+  "topicId": "17-3-parallel-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "pyp",
+  "title": "Parallel Circuits — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-3-parallel-circuits-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a parallel circuit with three resistors ($4\\text{ }Omega, 6\\text{ }Omega, 3\\text{ }Omega$). The reading on ammeter $A_2$ is $1\\text{ A}$ and on $A_4$ (main circuit) is $3\\text{ A}$. What are the readings on $A_1$ and $A_3$?nn[Reference: Figure 17.50]",
+      "options": [
+        "$A_1: 0\\text{ A}; A_3: 2\\text{ A}$",
+        "$A_1: 3\\text{ A}; A_3: 1\\text{ A}$",
+        "$A_1: 1.5\\text{ A}; A_3: 0.5\\text{ A}$",
+        "$A_1: 2\\text{ A}; A_3: 1\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q2. The voltage across the $6\\text{ }Omega$ resistor is $1\\text{ A} \\times 6\\text{ }Omega = 6\\text{ V}$. Current $A_3 = 6\\text{ V} / 3\\text{ }Omega = 2\\text{ A}$. Since $A_4$ is $3\\text{ A}$ and $A_2+A_3 = 1+2=3$, the current through $A_1$ must be $0\\text{ A}$. \n\n**Common mistake:** Choosing Choice B, assuming currents are shared equally."
+    },
+    {
+      "id": "17-3-parallel-circuits-pyp-q2",
+      "type": "mcq",
+      "question": "A resistor $R_1$ is connected to a $6\\text{ V}$ source, and the ammeter reads $2\\text{ A}$. A second resistor $R_2$ is then connected in parallel with $R_1$, and the ammeter reading increases to $3\\text{ A}$. What is the resistance of $R_2$?",
+      "options": [
+        "$6\\text{ }Omega$",
+        "$3\\text{ }Omega$",
+        "$2\\text{ }Omega$",
+        "$9\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Q3. The p.d. across $R_2$ is $6\\text{ V}$. The current through $R_2$ is $3\\text{ A} - 2\\text{ A} = 1\\text{ A}$. Resistance $R_2 = 6\\text{ V} / 1\\text{ A} = 6\\text{ }Omega$. \n\n**Common mistake:** Using the total current ($3\\text{ A}$) to find $R_2$ directly ($6/3=2$)."
+    },
+    {
+      "id": "17-3-parallel-circuits-pyp-q3",
+      "type": "mcq",
+      "question": "Which of the following combinations of resistors ($1\\text{ }Omega, 2\\text{ }Omega, 3\\text{ }Omega, 4\\text{ }Omega$) has the lowest combined resistance?",
+      "options": [
+        "All resistors connected in parallel",
+        "All resistors connected in series",
+        "The $4\\text{ }Omega$ resistor alone",
+        "A parallel combination of $3\\text{ }Omega$ and $4\\text{ }Omega$ connected in series with $1\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q4. The combined resistance of resistors in parallel is always less than the smallest individual resistor in the group. \n\n**Common mistake:** Thinking a complex series-parallel combination could be lower."
+    },
+    {
+      "id": "17-3-parallel-circuits-pyp-q4",
+      "type": "mcq",
+      "question": "In a circuit with multiple parallel resistors of equal resistance $R$, which statement correctly relates the source current $I$ and branch currents $I_2$ and $I_3$?nn[Reference: Figure 17.53]",
+      "options": [
+        "$I = I_1 = I_4 = I_2 + I_3$",
+        "$I = I_1 = I_2 = I_3 + I_4$",
+        "$I > I_1 > I_4$ and $I_2 = I_1$",
+        "$I > I_1 > I_4$ and $I_4 = I_2 + I_3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Q8. Current $I$ entering the parallel section is the same as current $I_4$ leaving it, and it is the sum of the currents in the individual branches ($I_2$ and $I_3$). \n\n**Common mistake:** Thinking current magnitude decreases after every junction."
+    },
+    {
+      "id": "17-3-parallel-circuits-pyp-q5",
+      "type": "mcq",
+      "question": "A $12\\text{ V}$ power source is connected to a parallel combination of a $3\\text{ }Omega$ and a $6\\text{ }Omega$ resistor. What is the current flowing through the $6\\text{ }Omega$ resistor?",
+      "options": [
+        "$2.0\\text{ A}$",
+        "$4.0\\text{ A}$",
+        "$6.0\\text{ A}$",
+        "$1.2\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q1(d). Current $I = V / R = 12 / 6 = 2.0\\text{ A}$. \n\n**Common mistake:** Calculating total resistance ($2\\text{ }Omega$) and finding total current ($6\\text{ A}$) instead of branch current."
+    }
+  ]
+}

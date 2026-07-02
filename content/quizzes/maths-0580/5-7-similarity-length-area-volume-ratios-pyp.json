@@ -1,0 +1,77 @@
+{
+  "id": "5-7-similarity-length-area-volume-ratios-pyp",
+  "topicId": "5-7-similarity-length-area-volume-ratios",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "pyp",
+  "title": "Similarity (Length, Area, Volume Ratios) — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-pyp-q1",
+      "type": "mcq",
+      "question": "A car is an enlargement of a model, the scale factor being $10$. If the windscreen of the model has an area of $100\\text{ cm}^2$, find the area of the windscreen on the actual car in $\\text{m}^2$.",
+      "options": [
+        "$1\\text{ m}^2$",
+        "$10\\text{ m}^2$",
+        "$0.1\\text{ m}^2$",
+        "$10000\\text{ m}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scale factor $k = 10$, so area ratio $k^2 = 100$. Area of car windscreen $= 100 \\times 100 = 10000\\text{ cm}^2$. Since $1\\text{ m}^2 = 10000\\text{ cm}^2$, the area is $1\\text{ m}^2$.\n\n**Common mistake:** The student may correctly find $10000$ but fail to convert $\\text{cm}^2$ to $\\text{m}^2$ correctly (dividing by $100$ instead of $100^2$)."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-pyp-q2",
+      "type": "mcq",
+      "question": "The surface areas of two similar jugs are $50\\text{ cm}^2$ and $450\\text{ cm}^2$ respectively. If the height of the larger jug is $10\\text{ cm}$, find the height of the smaller jug.",
+      "options": [
+        "$3.33\\text{ cm}$",
+        "$1.11\\text{ cm}$",
+        "$5.00\\text{ cm}$",
+        "$30.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 450/50 = 9$. Linear scale factor $k = 3$. Height of smaller jug $= 10 / 3 \\approx 3.33\\text{ cm}$.\n\n**Common mistake:** Dividing the height by the area ratio ($9$) instead of the linear scale factor ($3$)."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-pyp-q3",
+      "type": "mcq",
+      "question": "A conical tank full of acid is similar to a conical beaker. The beaker can be filled from the tank exactly $1728$ times. If the base radius of the beaker is $8\\text{ cm}$, find the radius of the tank.",
+      "options": [
+        "$96\\text{ cm}$",
+        "$138.2\\text{ cm}$",
+        "$48\\text{ cm}$",
+        "$28.8\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume ratio $k^3 = 1728$. Linear scale factor $k = \\sqrt{1728} = 12$. Tank radius $= 8 \\times 12 = 96\\text{ cm}$.\n\n**Common mistake:** Dividing the radius by 12 or attempting to use the square root instead of the cube root."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-pyp-q4",
+      "type": "mcq",
+      "question": "In triangle $PQR$2$S$2$PR$2$T$2$PQ$2$ST$2$RQ$2$PT = 5\\text{ cm}$ and $TQ = 2\\text{ cm}$, and the length of $ST$2$4\\text{ cm}$, calculate the length of $RQ$.",
+      "options": [
+        "$5.6\\text{ cm}$",
+        "$1.6\\text{ cm}$",
+        "$10.0\\text{ cm}$",
+        "$7.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$PQ = 5 + 2 = 7\\text{ cm}$. Linear scale factor $k = PQ/PT = 7/5 = 1.4$. Therefore, $RQ = 4 \\times 1.4 = 5.6\\text{ cm}$.\n\n**Common mistake:** Using the segment $TQ$2$2\\text{ cm}$) in the ratio calculation instead of the full side length $PQ$."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-pyp-q5",
+      "type": "mcq",
+      "question": "The radii of two spheres are in the ratio $2 : 5$. If the volume of the smaller sphere is $16\\text{ cm}^3$, calculate the volume of the larger sphere.",
+      "options": [
+        "$250\\text{ cm}^3$",
+        "$100\\text{ cm}^3$",
+        "$40\\text{ cm}^3$",
+        "$2000\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear ratio is $2 : 5$. Volume ratio is $2^3 : 5^3 = 8 : 125$. Larger volume $= 16 \\times (125 / 8) = 2 \\times 125 = 250\\text{ cm}^3$.\n\n**Common mistake:** Squaring the radius ratio ($4 : 25$) and applying it to volume, resulting in $100\\text{ cm}^3$."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "13-1-13-3-data-displays-histograms-hard",
+  "topicId": "13-1-13-3-data-displays-histograms",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "hard",
+  "title": "Data Displays & Histograms — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-13-3-data-displays-histograms-hard-q1",
+      "type": "mcq",
+      "question": "A histogram is drawn where the height of the column for the 15 < m ≤ 17 interval (frequency 19) is 19 cm. Find the height of the column for the 5 < m ≤ 15 interval with a frequency of 21.",
+      "options": [
+        "4.2 cm",
+        "21 cm",
+        "2.1 cm",
+        "10.5 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find the frequency density of the known bar: $19 / (17 - 15) = 9.5$. The problem states the height is 19 cm, meaning the scale factor is $19 / 9.5 = 2$. For the second bar: Frequency Density $= 21 / (15 - 5) = 2.1$. Scaled Height $= 2.1 \\times 2 = 4.2$ cm.\n\n**Common mistake:** Using the raw frequency (21 cm) as the height without calculating the required frequency density for unequal class widths."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-hard-q2",
+      "type": "mcq",
+      "question": "In a back-to-back stem-and-leaf diagram comparing coached and non-coached students, the 'coached' side has a stem of 2 and leaves of 9, 7, 6, 4. What is the median score for this group?",
+      "options": [
+        "26.5",
+        "27",
+        "27.5",
+        "26"
+      ],
+      "correctIndex": 0,
+      "explanation": "The values in order are 24, 26, 27, 29. The median of 4 values is the average of the 2nd and 3rd: $(26 + 27) / 2 = 26.5$.\n\n**Common mistake:** Reading the coached leaves from left-to-right (9, 7, 6, 4) and picking the wrong middle values."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-hard-q3",
+      "type": "mcq",
+      "question": "A histogram bar for the interval 40 ≤ x < 70 has a frequency of 30. What is the correct value to plot on the vertical axis?",
+      "options": [
+        "1.0",
+        "30",
+        "3.0",
+        "0.75"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class width $= 70 - 40 = 30$. Frequency Density $= 30 / 30 = 1.0$. The vertical axis must be frequency density.\n\n**Common mistake:** Plotting the frequency (30) directly, which incorrectly implies a much larger area for this wide bar."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-hard-q4",
+      "type": "mcq",
+      "question": "The frequency densities for three bars in a histogram are 1.6, 3.4, and 2.8. If the class widths are 10, 5, and 10 respectively, calculate the total frequency represented by the histogram.",
+      "options": [
+        "61",
+        "7.8",
+        "51",
+        "44"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency = Frequency Density × Class Width. Bar 1: $1.6 \\times 10 = 16$. Bar 2: $3.4 \\times 5 = 17$. Bar 3: $2.8 \\times 10 = 28$. Total $= 16 + 17 + 28 = 61$.\n\n**Common mistake:** Adding the frequency densities (7.8) without multiplying by their respective widths."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-hard-q5",
+      "type": "mcq",
+      "question": "What can be deduced by comparing two frequency polygons plotted on the same axes where one is much further to the right than the other?",
+      "options": [
+        "The group further to the right has a higher average value",
+        "The group further to the right has a smaller range",
+        "The group further to the right has a higher total frequency",
+        "Nothing can be deduced from overlapping polygons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency polygons allow for direct comparison; if one is shifted to the right, it indicates the values for that data set are generally higher.\n\n**Common mistake:** Assuming the peak height indicates the average, whereas horizontal position indicates the value of the data points."
+    }
+  ]
+}

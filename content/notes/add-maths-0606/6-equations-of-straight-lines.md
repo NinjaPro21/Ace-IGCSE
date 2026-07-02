@@ -4,11 +4,14 @@ A straight line can be completely defined in a coordinate plane by knowing its s
 
 ## Key formulas
 
-$$\text{Point-Gradient Form: } y - y_1 = m(x - x_1)$$
+$$
+\text{Point-Gradient Form: } y - y_1 = m(x - x_1)
 
-$$\text{Slope-Intercept Form: } y = mx + c$$
+\text{Slope-Intercept Form: } y = mx + c
 
-$$\text{General Linear Form: } ax + by + c = 0$$
+\text{General Linear Form: } ax + by + c = 0
+$$
+
 
 ## Steps / method
 
@@ -28,15 +31,13 @@ Use $y - y_1 = m(x - x_1)$ when you know a point and gradient. Always rearrange 
 
 Find the equation of the line through $(3, -2)$ with gradient $4$.
 
-$$y - (-2) = 4(x - 3)$$
+Substitute into $y - y_1 = m(x - x_1)$: $y - (-2) = 4(x - 3)$.
 
-$$y + 2 = 4x - 12 \implies y = 4x - 14$$
+Simplify: $y + 2 = 4x - 12 \implies y = 4x - 14$.
 
 ## Worked example — General form
 
-Write the equation of the line through $(0, 5)$ and $(4, 1)$ in the form $ax + by + c = 0$.
-
-$$m = \frac{1 - 5}{4 - 0} = -1 \implies y - 5 = -x \implies x + y - 5 = 0$$
+Write the equation of the line through $(0, 5)$ and $(4, 1)$ in the form $ax + by + c = 0$. Gradient: $m = \frac{1 - 5}{4 - 0} = -1$. Using $(0, 5)$: $y - 5 = -x \implies x + y - 5 = 0$.
 
 ## Examiner tip
 
@@ -45,7 +46,3 @@ Always read the final line of the question carefully to see what format is reque
 ## Quick check
 
 If a line has a gradient of $m$ and passes through the origin, then its linear equation simplifies directly to $y = mx$.
-
-## Visual / interactive intent
-
-Reuse explorer: Coordinate geometry lab. Includes linear controls where dragging sliders for slope or intercepts alters the line on a graph while showing the corresponding updates across point-gradient, slope-intercept, and general forms.

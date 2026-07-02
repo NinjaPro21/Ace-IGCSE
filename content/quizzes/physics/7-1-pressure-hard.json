@@ -1,0 +1,77 @@
+{
+  "id": "7-1-pressure-hard",
+  "topicId": "7-1-pressure",
+  "chapterId": "ch07-pressure",
+  "difficulty": "hard",
+  "title": "Pressure — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-1-pressure-hard-q1",
+      "type": "mcq",
+      "question": "A rectangular block has dimensions $20\\text{ cm} \\times 10\\text{ cm} \\times 5\\text{ cm}$ and a density of $2.0\\text{ g/cm}^3$. Calculate the greatest pressure it can exert on a horizontal surface. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$4000\\text{ Pa}$",
+        "$1000\\text{ Pa}$",
+        "$2000\\text{ Pa}$",
+        "$400\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume $= 20times10times5 = 1000\\text{ cm}^3$. Mass $= 1000 \\times 2.0 = 2000\\text{ g} = 2.0\\text{ kg}$. Weight $= 20\\text{ N}$. Greatest pressure occurs on the smallest face ($10\\text{ cm} \\times 5\\text{ cm} = 50\\text{ cm}^2 = 0.005\\text{ m}^2)$. $2p = 20 / 0.005 = 4000\\text{ Pa}$. \n\n**Common mistake:** Calculating pressure on the largest face ($20times10$)."
+    },
+    {
+      "id": "7-1-pressure-hard-q2",
+      "type": "mcq",
+      "question": "A heavy table stands on a carpet. A student observes that the table makes a deeper mark when standing upright on its four narrow legs than when it is turned upside-down onto its large flat top. Explain why.",
+      "options": [
+        "Upright, the weight acts on a smaller area, increasing pressure",
+        "Upright, the weight acts on a larger area, increasing pressure",
+        "Upside-down, the table's weight increases due to gravity",
+        "Upside-down, the table becomes more stable and heavier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The weight of the table is constant. In the upright position, the contact area of the legs is much smaller than the area of the table top, so the pressure on the carpet is higher. \n\n**Common mistake:** Thinking the 'depth' of the mark relates only to total weight."
+    },
+    {
+      "id": "7-1-pressure-hard-q3",
+      "type": "mcq",
+      "question": "A polystyrene cube of mass $5.0\\text{ kg}$ is placed on a surface. It exerts a pressure of $89\\text{ N/m}^2$. Calculate the length of the sides of the cube. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$0.75\\text{ m}$",
+        "$0.56\\text{ m}$",
+        "$0.056\\text{ m}$",
+        "$1.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight $F = 50\\text{ N}$. $A = F/p = 50/89 \\approx 0.5618\\text{ m}^2$. Side length $L = sqrt{0.5618} \\approx 0.75\\text{ m}$. \n\n**Common mistake:** Providing the area ($0.56$) as the side length."
+    },
+    {
+      "id": "7-1-pressure-hard-q4",
+      "type": "mcq",
+      "question": "Tractors are designed with very wide tires to be used on soft muddy soil. How does this design prevent the tractor from sinking?",
+      "options": [
+        "It increases the area to reduce the pressure exerted by the tractor's weight",
+        "It increases the area to increase the frictional force",
+        "It decreases the total mass of the tractor",
+        "It lowers the centre of gravity for better stability"
+      ],
+      "correctIndex": 0,
+      "explanation": "By increasing the contact area, the weight is spread out, resulting in lower pressure on the soil so the tractor does not sink. \n\n**Common mistake:** Confusing pressure reduction with stability or friction."
+    },
+    {
+      "id": "7-1-pressure-hard-q5",
+      "type": "mcq",
+      "question": "A uniform $20\\text{ N}$ block has a square base of side $0.1\\text{ m}$. It is placed on top of a $30\\text{ N}$ block with a square base of side $0.2\\text{ m}$. What is the pressure exerted by the bottom block on the ground?",
+      "options": [
+        "$1250\\text{ Pa}$",
+        "$750\\text{ Pa}$",
+        "$500\\text{ Pa}$",
+        "$5000\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total weight on the ground $= 20 + 30 = 50\\text{ N}$. Ground contact area $= 0.2 \\times 0.2 = 0.04\\text{ m}^2$. $p = 50 / 0.04 = 1250\\text{ Pa}$. \n\n**Common mistake:** Using only the weight of the bottom block ($30/0.04 = 750$) or the area of the top block."
+    }
+  ]
+}

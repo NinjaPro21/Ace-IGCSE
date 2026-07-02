@@ -1,0 +1,77 @@
+{
+  "id": "10-5-applications-and-consequences-of-thermal-energy-tran-medium",
+  "topicId": "10-5-applications-and-consequences-of-thermal-energy-tran",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "medium",
+  "title": "Applications and Consequences of Thermal Energy Transfer — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-medium-q1",
+      "type": "mcq",
+      "question": "A student has two identical metal cans, one painted shiny white and the other dull black. If both are filled with boiling water, which statement correctly describes their cooling?",
+      "options": [
+        "The dull black can cools faster because it is a better emitter of radiation",
+        "The shiny white can cools faster because it reflects heat back inside",
+        "Both cans cool at the same rate because they are made of the same metal",
+        "The shiny white can cools faster because it is a better absorber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dull black surfaces are excellent emitters of infrared radiation, meaning the black can will lose thermal energy to the surroundings more rapidly than the shiny white one. \n\n**Common mistake:** Thinking that 'shiny' surfaces lose heat faster because they are 'brighter'."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-medium-q2",
+      "type": "mcq",
+      "question": "In a vacuum flask, the vacuum between the double walls is effective at stopping which processes of energy transfer?",
+      "options": [
+        "Conduction and convection only",
+        "Radiation only",
+        "Conduction only",
+        "Conduction, convection, and radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction and convection both require a material medium (particles) to transfer energy. A vacuum has no particles, so it blocks both. Radiation can still pass through a vacuum. \n\n**Common mistake:** Thinking a vacuum blocks all three forms of heat transfer."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-medium-q3",
+      "type": "mcq",
+      "question": "A stone floor feels much colder to bare feet than a carpet, even if they are at the same room temperature. What is the physical explanation for this?",
+      "options": [
+        "Stone is a better conductor and removes energy from the feet faster",
+        "The carpet is at a naturally higher temperature than the stone",
+        "Stone has a lower specific heat capacity than carpet",
+        "The carpet generates thermal energy through friction with the feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because stone is a superior thermal conductor compared to carpet, it conducts thermal energy away from your skin much faster, which the brain perceives as 'cold'. \n\n**Common mistake:** Assuming the two objects must be at different temperatures."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-medium-q4",
+      "type": "mcq",
+      "question": "Space blankets are made of a thin, shiny, silvery material. How do they keep a person warm in an emergency?",
+      "options": [
+        "They reflect the person's own body radiation back towards them",
+        "They are thick enough to prevent all convection from occurring",
+        "They generate thermal energy through a chemical reaction with the air",
+        "The silvery material is an excellent conductor that spreads heat evenly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The shiny silvery surface is a poor emitter but an excellent reflector of infrared radiation. It reflects the heat emitted by the person's body back to them. \n\n**Common mistake:** Thinking the blanket 'warms' the person by creating its own heat."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-medium-q5",
+      "type": "mcq",
+      "question": "Trapped 'still air' is used as an insulator in materials like fibreglass and polystyrene. Why must the air be 'still' to be an effective insulator?",
+      "options": [
+        "To prevent thermal energy transfer by convection",
+        "To make the air a better conductor of thermal energy",
+        "Because moving air has zero internal energy",
+        "Still air is more dense and reflects all radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "While air is a poor conductor, it can still transfer heat effectively if it is allowed to move in convection currents. Trapping it prevents this bulk movement. \n\n**Common mistake:** Thinking the goal is to make the air more 'dense'."
+    }
+  ]
+}

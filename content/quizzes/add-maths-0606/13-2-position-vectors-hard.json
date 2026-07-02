@@ -1,0 +1,77 @@
+{
+  "id": "13-2-position-vectors-hard",
+  "topicId": "13-2-position-vectors",
+  "chapterId": "ch13-vectors",
+  "difficulty": "hard",
+  "title": "Position Vectors — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-2-position-vectors-hard-q1",
+      "type": "mcq",
+      "question": "The position vectors of points A and B are $\\mathbf{a}$ and $\\mathbf{b}$. Point P lies on $AB$2$AP = 3AB$2$\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "3b - 2a",
+        "3a - 2b",
+        "a + 3b",
+        "2b - 3a"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{AP} = 3\\vec{AB} \\implies \\vec{OP} - \\vec{OA} = 3(\\vec{OB} - \\vec{OA}) \\implies \\vec{OP} = \\mathbf{a} + 3\\mathbf{b} - 3\\mathbf{a} = 3\\mathbf{b} - 2\\mathbf{a}$.\n\n**Common mistake:** Incorrectly applying the vector subtraction or misinterpreting 'produced' as internal division."
+    },
+    {
+      "id": "13-2-position-vectors-hard-q2",
+      "type": "mcq",
+      "question": "Points A, B, and C have position vectors $\\mathbf{a}, \\mathbf{b},$ and $\\mathbf{c}$. If $2\\vec{AC} = 3\\vec{CB}$, find $\\mathbf{c}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "(2a + 3b) / 5",
+        "(3a + 2b) / 5",
+        "1.5b - 0.5a",
+        "(a + b) / 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "$2(\\mathbf{c}-\\mathbf{a}) = 3(\\mathbf{b}-\\mathbf{c}) \\implies 2\\mathbf{c} - 2\\mathbf{a} = 3\\mathbf{b} - 3\\mathbf{c} \\implies 5\\mathbf{c} = 2\\mathbf{a} + 3\\mathbf{b}$? *Check arithmetic*: $5\\mathbf{c} = 3\\mathbf{b} + 2\\mathbf{a}$. *Logic check*: $AC/CB = 3/2$, so $m=3, n=2$. $\\vec{OC} = (2\\mathbf{a} + 3\\mathbf{b}) / 5$. *Answer 1 matches*.\n\n**Common mistake:** Algebraic slips when moving terms across the equals sign."
+    },
+    {
+      "id": "13-2-position-vectors-hard-q3",
+      "type": "mcq",
+      "question": "Given $\\vec{OA} = \\begin{pmatrix} 2 \\ -1 \\end{pmatrix}$ and $\\vec{OB} = \\begin{pmatrix} 8 \\ 2 \\end{pmatrix}$, find the position vector of point C on AB such that the area of triangle OAC is half the area of triangle OAB.",
+      "options": [
+        "5i + 0.5j",
+        "3i + j",
+        "10i + 1j",
+        "4i + j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triangle area ratio implies C is the midpoint of AB. $\\vec{OC} = 0.5(\\vec{OA} + \\vec{OB}) = 0.5\\begin{pmatrix} 10 \\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\ 0.5 \\end{pmatrix}$.\n\n**Common mistake:** Failing to recognize that equal areas for triangles with the same vertex and base line imply a midpoint."
+    },
+    {
+      "id": "13-2-position-vectors-hard-q4",
+      "type": "mcq",
+      "question": "The position vector of P is $x\\mathbf{i} + y\\mathbf{j}$. If P moves such that $|\\vec{OP}| = 5$, find the equation of the path of P.",
+      "options": [
+        "x^2 + y^2 = 25",
+        "x + y = 5",
+        "x^2 + y^2 = 5",
+        "y = mx + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude $|\\vec{OP}| = \\sqrt{x^2 + y^2}$. Setting this to 5 and squaring both sides gives the equation of a circle: $x^2 + y^2 = 25$.\n\n**Common mistake:** Thinking the path is a straight line $x + y = 5$."
+    },
+    {
+      "id": "13-2-position-vectors-hard-q5",
+      "type": "mcq",
+      "question": "Points A and B have position vectors $\\begin{pmatrix} 1 \\ 4 \\end{pmatrix}$ and $\\begin{pmatrix} 7 \\ -2 \\end{pmatrix}$. Find the position vector of point T on $AB$2$\\vec{AT} = \\frac{1}{3} \\vec{AB}$.",
+      "options": [
+        "3i + 2j",
+        "2i - 2j",
+        "4i + j",
+        "5i + 0j"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{AB} = \\begin{pmatrix} 6 \\ -6 \\end{pmatrix}$. $\\vec{AT} = \\begin{pmatrix} 2 \\ -2 \\end{pmatrix}$. $\\vec{OT} = \\vec{OA} + \\vec{AT} = \\begin{pmatrix} 1 \\ 4 \\end{pmatrix} + \\begin{pmatrix} 2 \\ -2 \\end{pmatrix} = \\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** Giving the vector $\\vec{AT}$ (the displacement) instead of the position vector $\\vec{OT}$."
+    }
+  ]
+}

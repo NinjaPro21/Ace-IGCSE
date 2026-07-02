@@ -1,0 +1,77 @@
+{
+  "id": "2-1-speed-velocity-and-acceleration-easy",
+  "topicId": "2-1-speed-velocity-and-acceleration",
+  "chapterId": "ch02-motion",
+  "difficulty": "easy",
+  "title": "Speed, Velocity and Acceleration — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-1-speed-velocity-and-acceleration-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of speed?",
+      "options": [
+        "Distance travelled per unit time",
+        "Speed in a given direction",
+        "Change of velocity per unit time",
+        "Total length covered by a moving object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is defined as the distance travelled per unit time. \n\n**Common mistake:** Velocity is often confused with speed, but velocity includes a specified direction."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for acceleration?",
+      "options": [
+        "$m/s^2$",
+        "$m/s$",
+        "$km/h$",
+        "$kg m/s$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit for acceleration is metres per second squared ($m/s^2$). \n\n**Common mistake:** $m/s$ is the unit for speed and velocity, not acceleration."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-easy-q3",
+      "type": "mcq",
+      "question": "Which of these quantities is a scalar?",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is a scalar quantity because it has magnitude only. \n\n**Common mistake:** Velocity and acceleration are vectors because they require direction to be fully defined."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-easy-q4",
+      "type": "mcq",
+      "question": "A toy car travels 96 m in 12 s. What is its average speed?",
+      "options": [
+        "8 m/s",
+        "1152 m/s",
+        "0.125 m/s",
+        "108 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $Average speed = total distance / total time$, we get $96 m / 12 s = 8 m/s$. \n\n**Common mistake:** Multiplying the numbers instead of dividing them."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-easy-q5",
+      "type": "mcq",
+      "question": "What does a horizontal line on a distance–time graph represent?",
+      "options": [
+        "The object is at rest",
+        "The object is moving at constant speed",
+        "The object is accelerating",
+        "The object is decelerating"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line on a distance–time graph means the distance does not change as time passes, so the object is stationary. \n\n**Common mistake:** Thinking it means constant speed, which is represented by a horizontal line on a speed–time graph."
+    }
+  ]
+}

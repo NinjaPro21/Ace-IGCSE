@@ -1,0 +1,272 @@
+{
+  "id": "ch14-sound-medium",
+  "topicId": "ch14-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "medium",
+  "title": "Chapter 14: Sound — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch14-sound-medium-q1",
+      "type": "mcq",
+      "question": "A tuning fork vibrates $1000$ \\times in $4.0\\text{ seconds}$. What is the frequency of the sound produced?",
+      "options": [
+        "$250\\text{ Hz}$",
+        "$4000\\text{ Hz}$",
+        "$0.004\\text{ Hz}$",
+        "$1000\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is the number of vibrations per second. $1000 / 4.0 = 250\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q2",
+      "type": "mcq",
+      "question": "A vibrating source produces a sound at a frequency of $25\\text{ kHz}$. Why is this sound silent to a human observer?",
+      "options": [
+        "It is ultrasound, which is above the human audible limit",
+        "It is infrasound, which is below the human audible limit",
+        "The frequency is too low for the eardrum to detect",
+        "Sound cannot travel at such high frequencies"
+      ],
+      "correctIndex": 0,
+      "explanation": "$25\\text{ kHz}$ ($25000\\text{ Hz}$) is above the upper limit of human audibility ($20000\\text{ Hz}$), making it ultrasound.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q3",
+      "type": "mcq",
+      "question": "In a longitudinal wave travelling through air, which row correctly describes the movement of air molecules?",
+      "options": [
+        "Parallel to wave travel; creates pressure changes",
+        "Perpendicular to wave travel; creates peaks and troughs",
+        "In circles; transfers matter from source to ear",
+        "Stationary; only energy moves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound is a longitudinal wave where vibrations are parallel to wave travel, moving energy via compressions and rarefactions.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q4",
+      "type": "mcq",
+      "question": "Sound travels at $340\\text{ m/s}$. If the wavelength of a note is $0.5\\text{ m}$, what is its frequency?",
+      "options": [
+        "$680\\text{ Hz}$",
+        "$170\\text{ Hz}$",
+        "$340\\text{ Hz}$",
+        "$0.0015\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, we find $f = v / \\lambda = 340 / 0.5 = 680\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q5",
+      "type": "mcq",
+      "question": "Which statement describes the relationship between the distance between air particles and the pressure in a rarefaction?",
+      "options": [
+        "Particles are far apart and pressure is low",
+        "Particles are closely packed and pressure is high",
+        "Particles are far apart and pressure is high",
+        "Particles are closely packed and pressure is low"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rarefactions are regions where air pressure is lower than the surrounding pressure because the particles are spread further apart.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q6",
+      "type": "mcq",
+      "question": "A woman standing $1.00\\text{ km}$ away from a storm hears thunder $3.0\\text{ s}$ after seeing the lightning. Calculate the speed of sound in air.",
+      "options": [
+        "$333\\text{ m/s}$",
+        "$300\\text{ m/s}$",
+        "$0.33\\text{ m/s}$",
+        "$3000\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $\\text{speed} = \\text{distance} / \\text{time} = 1000\\text{ m} / 3.0\\text{ s} \\approx 333\\text{ m/s}$. \n\n**Common mistake:** Failing to convert the distance from $1.00\\text{ km}$ to $1000\\text{ m}$."
+    },
+    {
+      "id": "ch14-sound-medium-q7",
+      "type": "mcq",
+      "question": "How long does it take for a sound signal to travel $750\\text{ m}$ through water if the speed of sound in water is $1500\\text{ m/s}$?",
+      "options": [
+        "$0.5\\text{ s}$",
+        "$2.0\\text{ s}$",
+        "$112.5\\text{ s}$",
+        "$1.5\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\text{Time} = \\text{distance} / \\text{speed} = 750 / 1500 = 0.5\\text{ s}$. \n\n**Common mistake:** Multiplying speed and distance instead of dividing."
+    },
+    {
+      "id": "ch14-sound-medium-q8",
+      "type": "mcq",
+      "question": "$Based on the information in Table 14.2, which substance allows sound to travel approximately 15 \\times faster than in air?$",
+      "options": [
+        "Iron",
+        "Lead",
+        "Oxygen",
+        "Water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed in iron is $5000\\text{ m/s}$ and in air is $330\\text{ m/s}$. $5000 / 330 \\approx 15.15$. \n\n$**Common mistake:** Selecting lead, which is only about 3.6 \\times faster than air.$"
+    },
+    {
+      "id": "ch14-sound-medium-q9",
+      "type": "mcq",
+      "question": "Calculate the distance sound travels through a steel track in $0.10\\text{ s}$ if the speed of sound in steel is $5000\\text{ m/s}$.",
+      "options": [
+        "$500\\text{ m}$",
+        "$50000\\text{ m}$",
+        "$50\\text{ m}$",
+        "$5000\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\text{Distance} = \\text{speed} \\times \\text{time} = 5000 \\times 0.10 = 500\\text{ m}$. \n\n**Common mistake:** Dividing the speed by time, which would result in $50000$."
+    },
+    {
+      "id": "ch14-sound-medium-q10",
+      "type": "mcq",
+      "question": "Arrange the following regions in order of increasing speed of sound: Water, Oxygen, Lead.",
+      "options": [
+        "Oxygen, Water, Lead",
+        "Oxygen, Lead, Water",
+        "Lead, Oxygen, Water",
+        "Water, Lead, Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen is a gas ($320\\text{ m/s}$), lead is a solid ($1200\\text{ m/s}$), and water is a liquid ($1500\\text{ m/s}$ according to Example 14A). \n\n**Common mistake:** Ranking lead faster than water because lead is a solid (though lead is an exception to the general rule)."
+    },
+    {
+      "id": "ch14-sound-medium-q11",
+      "type": "mcq",
+      "question": "A sound pulse is sent from a ship towards the seabed. The echo is received $0.4\\text{ s}$ later. If the speed of sound in water is $1500\\text{ m/s}$, what is the depth of the sea?",
+      "options": [
+        "$300\\text{ m}$",
+        "$600\\text{ m}$",
+        "$150\\text{ m}$",
+        "$750\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $d = \\frac{vt}{2}$, we have $d = \\frac{1500 \\times 0.4}{2} = 300\\text{ m}$. \n\n**Common mistake:** forgetting to divide by 2 for the return trip."
+    },
+    {
+      "id": "ch14-sound-medium-q12",
+      "type": "mcq",
+      "question": "Why is ultrasound preferred over X-rays for prenatal scanning of a foetus?",
+      "options": [
+        "It is less hazardous due to lower energy",
+        "It travels faster through body tissue",
+        "It has a longer wavelength for better detail",
+        "It can travel through a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is non-ionising and considered safer for prenatal scanning because it carries less energy than hazardous X-rays.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q13",
+      "type": "mcq",
+      "question": "A student stands $165\\text{ m}$ from a tall wall and claps. If the speed of sound is $330\\text{ m/s}$, how long after the clap will the student hear the echo?",
+      "options": [
+        "$1.0\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$2.0\\text{ s}$",
+        "$1.5\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance $= 2 \\times 165 = 330\\text{ m}$. Time $= \\frac{\\text{distance}}{\\text{speed}} = \\frac{330}{330} = 1.0\\text{ s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q14",
+      "type": "mcq",
+      "question": "A dog whistle produces a frequency of $25\\text{ kHz}$. Why can a dog hear this while a human cannot?",
+      "options": [
+        "The frequency is within the dog's audible range but above the human limit",
+        "The sound travels faster towards the dog",
+        "The amplitude of the sound is too low for human ears",
+        "Humans can only hear longitudinal waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Humans have an upper audible limit of $20\\text{ kHz}$. Dogs can detect frequencies higher than this, making $25\\text{ kHz}$ audible to them but silent to humans.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q15",
+      "type": "mcq",
+      "question": "An ultrasound scanner uses a frequency of $2\\text{ MHz}$. What is this frequency in hertz?",
+      "options": [
+        "$2 \\times 10^{6}\\text{ Hz}$",
+        "$2 \\times 10^{3}\\text{ Hz}$",
+        "$2 \\times 10^{9}\\text{ Hz}$",
+        "$2000\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The prefix 'mega' (M) stands for $10^{6}$ (one million). So $2\\text{ MHz} = 2000000\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-medium-q16",
+      "type": "mcq",
+      "question": "A student blows a trumpet harder to try and produce a note of higher frequency. Will they succeed?",
+      "options": [
+        "No, because blowing harder only increases the amplitude (loudness)",
+        "Yes, because blowing harder increases the speed of the wave",
+        "Yes, because more energy always results in higher frequency",
+        "No, because blowing harder reduces the wavelength"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the Review Questions and Answer Key, blowing harder increases the amplitude/loudness but does not change the frequency. **Common mistake:** Assuming more 'effort' or 'energy' automatically results in a higher note."
+    },
+    {
+      "id": "ch14-sound-medium-q17",
+      "type": "mcq",
+      "question": "Compare the sounds made by a mosquito flying near your ear and a bullfrog croaking. Which is correct?",
+      "options": [
+        "The mosquito's sound has a higher pitch but lower loudness",
+        "The bullfrog's sound has a higher pitch and higher loudness",
+        "The mosquito's sound has a lower pitch and higher loudness",
+        "Both sounds have the same pitch but different loudness"
+      ],
+      "correctIndex": 0,
+      "explanation": "As per 'Let's Practise 14.4', the mosquito produces a high-frequency (high pitch), low-amplitude (low loudness) sound compared to a bullfrog. **Common mistake:** Thinking that 'annoying' or 'sharp' sounds like a mosquito's must be loud."
+    },
+    {
+      "id": "ch14-sound-medium-q18",
+      "type": "mcq",
+      "question": "An oscilloscope displays two sound waves, P and Q. Wave P has twice the amplitude of Wave Q, but Wave Q has twice the frequency of Wave P. Which statement is true?",
+      "options": [
+        "P is louder than Q, and Q has a higher pitch than P",
+        "Q is louder than P, and P has a higher pitch than Q",
+        "P is louder than Q, and P has a higher pitch than Q",
+        "Q is louder than P, and Q has a higher pitch than P"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher amplitude means louder (P), and higher frequency means higher pitch (Q). **Common mistake:** Swapping the relationships between amplitude/loudness and frequency/pitch."
+    },
+    {
+      "id": "ch14-sound-medium-q19",
+      "type": "mcq",
+      "question": "Two musical notes are played in the same room. Note 1 has a frequency of $256\\text{ Hz}$ and Note 2 has a frequency of $512\\text{ Hz}$. How do their wavelengths in air compare?",
+      "options": [
+        "Note 2 has half the wavelength of Note 1",
+        "Note 2 has twice the wavelength of Note 1",
+        "Both notes have the same wavelength",
+        "$Note 2 has four \\times the wavelength of Note 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since wave speed $v = f\\lambda$ is constant in air, frequency and wavelength are inversely proportional. Note 2 has twice the frequency, so it must have half the wavelength. **Common mistake:** Thinking higher frequency means a longer wavelength."
+    },
+    {
+      "id": "ch14-sound-medium-q20",
+      "type": "mcq",
+      "question": "A sound source moves away from a stationary observer. The observer hears a sound with a lower pitch. What has changed?",
+      "options": [
+        "The frequency of the sound reaching the observer has decreased",
+        "The speed of the sound has decreased significantly",
+        "The amplitude of the sound waves has increased",
+        "The wavelength of the sound reaching the observer has decreased"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch is related to frequency; a lower pitch indicates a lower frequency reaching the ear. **Common mistake:** Selecting Choice B, as the speed of sound remains constant in a uniform medium regardless of the source's motion."
+    }
+  ]
+}

@@ -5,5 +5,15 @@
   "title": "The Remainder Theorem",
   "subtitle": "Section 4",
   "lessonMeta": "Remainder Evaluation · Unknown Coefficients · $f(\\frac{b}{a})$ · Cambridge 0606 Ch.3",
-  "notesFile": "add-maths-0606/3-the-remainder-theorem.md"
+  "notesFile": "add-maths-0606/3-the-remainder-theorem.md",
+  "explorerId": "cubic",
+  "explorerPanels": [
+    "factor"
+  ],
+  "quizIds": {
+    "easy": "3-the-remainder-theorem-easy",
+    "medium": "3-the-remainder-theorem-medium",
+    "hard": "3-the-remainder-theorem-hard",
+    "pyp": "3-the-remainder-theorem-pyp"
+  }
 }

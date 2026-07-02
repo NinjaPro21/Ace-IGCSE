@@ -1,0 +1,77 @@
+{
+  "id": "7-the-equation-of-a-circle-medium",
+  "topicId": "7-the-equation-of-a-circle",
+  "chapterId": "ch07-coordinate-geometry-of-the-circle",
+  "difficulty": "medium",
+  "title": "The Equation of a Circle — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-the-equation-of-a-circle-medium-q1",
+      "type": "mcq",
+      "question": "Find the equation of the circle which has the points $(1, 2)$ and $(5, 2)$ as the endpoints of a diameter.",
+      "options": [
+        "$(x - 3)² + (y - 2)² = 4$",
+        "$(x - 3)² + (y - 2)² = 16$",
+        "$(x - 6)² + (y - 4)² = 4$",
+        "$(x - 2)² + (y - 0)² = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Centre is the midpoint: $(\\frac{1+5}{2}, \\frac{2+2}{2}) = (3, 2)$. The distance between endpoints is 4, so radius $r = 2$. Eq: $(x-3)² + (y-2)² = 2^2 = 4$.\n\n**Common mistake:** Using the full distance between points (the diameter) as the radius in the final equation."
+    },
+    {
+      "id": "7-the-equation-of-a-circle-medium-q2",
+      "type": "mcq",
+      "question": "A circle has centre $(4, -1)$ and passes through the point $(7, 3)$. Find the radius of the circle.",
+      "options": [
+        "5",
+        "25",
+        "\\sqrt{7}",
+        "\\sqrt{13}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radius is the distance from centre to a point on the circle: $r = \\sqrt{(7-4}² + (3-(-1))²) = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$.\n\n**Common mistake:** Mistakenly subtracting the coordinates incorrectly, such as $3 - 1 = 2$ instead of $3 - (-1) = 4$."
+    },
+    {
+      "id": "7-the-equation-of-a-circle-medium-q3",
+      "type": "mcq",
+      "question": "Find the coordinates of the centre of the circle with equation $x^2 + y^2 - 6x + 10y + 9 = 0$.",
+      "options": [
+        "$(3, -5)$",
+        "$(-3, 5)$",
+        "$(6, -10)$",
+        "$(9, 25)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Complete the square: $(x-3)² - 9 + (y+5)² - 25 + 9 = 0 \\Rightarrow (x-3)² + (y+5)² = 25$. The centre is $(3, -5)$.\n\n**Common mistake:** Dividing the coefficients of $x$2$y$ by 2 but forgetting to flip the signs for the centre coordinates."
+    },
+    {
+      "id": "7-the-equation-of-a-circle-medium-q4",
+      "type": "mcq",
+      "question": "The equation of a circle is $(x + 4)² + (y - 1)² = k$2$(0, 0)$, find the value of $k$.",
+      "options": [
+        "17",
+        "15",
+        "\\sqrt{17}",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x=0$ and $y=0$ into the equation: $(0+4)² + (0-1)² = 16 + 1 = 17$. So $k = 17$.\n\n**Common mistake:** Calculating $4^2 - 1^2 = 15$ by making a sign error during the substitution."
+    },
+    {
+      "id": "7-the-equation-of-a-circle-medium-q5",
+      "type": "mcq",
+      "question": "Determine the value of $c$2$x^2 + y^2 + 8x - 4y + c = 0$ represents a circle with radius 6.",
+      "options": [
+        "-16",
+        "20",
+        "16",
+        "56"
+      ],
+      "correctIndex": 0,
+      "explanation": "Completing the square gives $(x+4)² + (y-2)² = 16 + 4 - c$2$20 - c = 6^2 = 36$. Thus $c = 20 - 36 = -16$.\n\n**Common mistake:** Setting $20 - c$ equal to the radius 6 instead of the radius squared 36."
+    }
+  ]
+}

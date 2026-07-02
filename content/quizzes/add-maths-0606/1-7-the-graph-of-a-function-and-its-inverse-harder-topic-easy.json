@@ -1,0 +1,77 @@
+{
+  "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy",
+  "topicId": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "easy",
+  "title": "The Graph of a Function and its Inverse — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "The graph of y= f^{-1}(x) is a reflection of the graph of y=f(x) in which line?",
+      "options": [
+        "y=x",
+        "y=−x",
+        "y=0",
+        "x=0"
+      ],
+      "correctIndex": 0,
+      "explanation": "An inverse function is found by swapping x and y, which is geometrically a reflection in the identity line y=x.\n\n**Common mistake:** Commonly confused with reflections in the x-axis (y=0) or y-axis (x=0)."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "If a point P(a,b) lies on the graph of y=f(x), what are the coordinates of the corresponding point on the graph of y= f^{-1}(x)?",
+      "options": [
+        "(b,a)",
+        "(−a,−b)",
+        "(a,−b)",
+        "(−b,a)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The inverse function swaps the role of input and output, so the coordinates (x,y) become (y,x).\n\n**Common mistake:** Negating the coordinates instead of swapping them, often confusing inversion with rotation or origin reflection."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "The graph of y=f(x) passes through (0,5). Where does the graph of y= f^{-1}(x) cross the x-axis?",
+      "options": [
+        "At x=5",
+        "At x=0",
+        "At x=−5",
+        "It does not cross the x-axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "If (0,5) is on f, then (5,0) is on $f^{-1}$. A point with y=0 is an x-intercept.\n\n**Common mistake:** Mistakenly identifying the y-intercept of the original as the y-intercept of the inverse."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "On a single set of axes, the graphs of y=f(x) and y= f^{-1}(x) intersect. On which line must this intersection occur?",
+      "options": [
+        "y=x",
+        "y=−x",
+        "x=0",
+        "y=1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $f^{-1}$is a reflection of f in y=x, any points they share must lie exactly on that mirror line.\n\n**Common mistake:** Thinking the intersection could happen anywhere, or confusing the line y=x with the horizontal axis."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "If f(x)=x, what is the relationship between the graph of f and the graph of $f^{-1}$?",
+      "options": [
+        "They are the same line.",
+        "They are perpendicular.",
+        "They are parallel.",
+        "They do not intersect."
+      ],
+      "correctIndex": 0,
+      "explanation": "The function f(x)=x is its own inverse, so the reflection in y=x maps the line onto itself.\n\n**Common mistake:** Assuming all inverse graphs must be distinct from the original."
+    }
+  ]
+}

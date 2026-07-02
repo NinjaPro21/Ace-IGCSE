@@ -1,0 +1,77 @@
+{
+  "id": "7-4-constructions-pyp",
+  "topicId": "7-4-constructions",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "pyp",
+  "title": "Constructions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-4-constructions-pyp-q1",
+      "type": "mcq",
+      "question": "Construct triangle $XYZ$2$XY = 8\\text{ cm}, YZ = 6\\text{ cm},$ and $XZ = 5\\text{ cm}$. Use a protractor to measure angle $XYZ$. Which value is the best estimate?",
+      "options": [
+        "$38°$",
+        "$90°$",
+        "$52°$",
+        "$124°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After constructing the triangle accurately, the angle opposite the side $XZ$2$5\\text{ cm}$) is the smallest and measures approximately $38°$.\n\n**Common mistake:** Students may misread the protractor or measure the angle at a different vertex."
+    },
+    {
+      "id": "7-4-constructions-pyp-q2",
+      "type": "mcq",
+      "question": "Using a ruler and compasses only, construct the perpendicular bisector of a line $AB$2$P$ on this bisector?",
+      "options": [
+        "$PA = PB$",
+        "$∠PAB = 90°$",
+        "$PA + PB = AB$",
+        "$Triangle PAB$ is equilateral"
+      ],
+      "correctIndex": 0,
+      "explanation": "The perpendicular bisector is the locus of all points equidistant from the two points $A$2$B$.\n\n**Common mistake:** A student might think the line itself is $90°$ to the segments $PA$2$PB$2$AB$."
+    },
+    {
+      "id": "7-4-constructions-pyp-q3",
+      "type": "mcq",
+      "question": "Show that the construction of a $45°$ angle requires bisecting a $90°$ angle. If the $90°$ angle is $∠LMN$2$45°$ angle be?",
+      "options": [
+        "At point $M$",
+        "At point $L$",
+        "At point $N$",
+        "At the midpoint of $LN$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle vertex remains at the original point $M$2$90°$ angle.\n\n**Common mistake:** The student might assume the vertex shifts to the midpoint of the chord connecting the arms of the angle."
+    },
+    {
+      "id": "7-4-constructions-pyp-q4",
+      "type": "mcq",
+      "question": "A map shows three towns $A, B,$ and $C$2$A$2$B$2$AC$2$BC$. Which construction determines its location?",
+      "options": [
+        "The intersection of the perpendicular bisector of $AB$2$∠ACB$",
+        "The intersection of the perpendicular bisectors of $AC$2$BC$",
+        "The intersection of the angle bisectors of $∠ABC$2$∠BAC$",
+        "The midpoint of the line $AB$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equidistant from two points requires a perpendicular bisector; equidistant from two lines requires an angle bisector.\n\n**Common mistake:** A student might use two perpendicular bisectors, which would find the point equidistant from three towns, not two towns and two roads."
+    },
+    {
+      "id": "7-4-constructions-pyp-q5",
+      "type": "mcq",
+      "question": "Hence, construct a rhombus with side length $6\\text{ cm}$ and one diagonal of $10\\text{ cm}$. What is the length of the other diagonal?",
+      "options": [
+        "$6.6\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After constructing the rhombus using side arcs of $6\\text{ cm}$ from the ends of a $10\\text{ cm}$ line, measuring the vertical diagonal gives approximately $6.6\\text{ cm}$.\n\n**Common mistake:** The student might assume the diagonals are equal or related by a simple integer ratio."
+    }
+  ]
+}

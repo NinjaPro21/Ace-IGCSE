@@ -1,0 +1,77 @@
+{
+  "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp",
+  "topicId": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "pyp",
+  "title": "Graphs of Trig and Modulus Functions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q1",
+      "type": "mcq",
+      "question": "Sketch $y = 1 + \\sin 2x$2$0° \\le x \\le 180°$. How many turning points are there in this interval?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The function completes one full cycle in 180°. One cycle of a sine wave has one local maximum and one local minimum.\n\n**Common mistake:** Thinking that because the period is halved, the number of turning points must be 4."
+    },
+    {
+      "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q2",
+      "type": "mcq",
+      "question": "State the coordinates of the local maximum of the graph $y = |3 \\cos 2x|$ in the interval $0° \\le x \\le 180°$.",
+      "options": [
+        "(0°, 3), (90°, 3), (180°, 3)",
+        "(0°, 3) only",
+        "(45°, 3), (135°, 3)",
+        "(0°, 3), (180°, 3)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$3 \\cos 2x$2$x=0°$ and $180°$, and at -3 when $x=90°$. The modulus reflects -3 to 3.\n\n**Common mistake:** Missing the reflected maximum at 90°."
+    },
+    {
+      "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q3",
+      "type": "mcq",
+      "question": "Find the values of $a$2$b$2$y = a \\sin bx$ if the amplitude is 5 and the period is 120°.",
+      "options": [
+        "$a = 5, b = 3$",
+        "$a = 5, b = 1/3$",
+        "$a = 10, b = 3$",
+        "$a = 5, b = 120$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amplitude $a = 5$. $b = 360 / \\text{Period} = 360 / 120 = 3$.\n\n**Common mistake:** Using $b = 120$ directly in the equation."
+    },
+    {
+      "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q4",
+      "type": "mcq",
+      "question": "Which of the following describes the graph $y = |\\tan x| + 2$?",
+      "options": [
+        "A tangent graph reflected in the x-axis and shifted up 2 units.",
+        "A tangent graph with twice the period.",
+        "A horizontal line at y = 2.",
+        "A sine graph shifted vertically."
+      ],
+      "correctIndex": 0,
+      "explanation": "The modulus reflects the negative curves of the tangent function up, and the $+2$ translates the entire result 2 units up.\n\n**Common mistake:** Thinking the graph maintains its original vertical asymptotes incorrectly."
+    },
+    {
+      "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q5",
+      "type": "mcq",
+      "question": "Find the range of $y = |2 \\cos 2x - 1|$.",
+      "options": [
+        "$0 \\le y \\le 3$",
+        "$0 \\le y \\le 2$",
+        "$-3 \\le y \\le 1$",
+        "$1 \\le y \\le 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2 \\cos 2x - 1$ ranges from $-3$ to^1. The modulus reflects $-3$ up to^3. Thus, the new range is^0 to^3.\n\n**Common mistake:** Assuming the range is still 1 to 3, failing to realize the graph crosses the $x$2$y=0$."
+    }
+  ]
+}

@@ -69,7 +69,7 @@
         "$\\begin{pmatrix} 5 \\\\\\\\ -5 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the unknown vector term: $3\\mathbf{p} = \\begin{pmatrix} 19 \\\\\\\\ 8 \\end{pmatrix} - \\begin{pmatrix} 4 \\\\\\\\ -7 \\end{pmatrix} = \\begin{pmatrix} 15 \\\\\\\\ 15 \\end{pmatrix}$. Dividing through by the scalar 3 yields $\\mathbf{p} = \\begin{pmatrix} 5 \\\\\\\\ 5 \\end{pmatrix}$.\n\n**Common mistake:** Students routinely make errors when subtracting negative coordinate entries, evaluating $8 - (-7)$ as $1$ instead of performing the correct double-negative addition to obtain $15$."
+      "explanation": "Isolate the unknown vector term: $3\\mathbf{p} = \\begin{pmatrix} 19 \\\\\\\\ 8 \\end{pmatrix} - \\begin{pmatrix} 4 \\\\\\\\ -7 \\end{pmatrix} = \\begin{pmatrix} 15 \\\\\\\\ 15 \\end{pmatrix}$. Dividing through by the scalar 3 yields $\\mathbf{p} = \\begin{pmatrix} 5 \\\\\\\\ 5 \\end{pmatrix}$.\n\n**Common mistake:** Students routinely make errors when subtracting negative coordinate entries, evaluating $8 - (-7)$ as^1 instead of performing the correct double-negative addition to obtain^15."
     }
   ]
 }

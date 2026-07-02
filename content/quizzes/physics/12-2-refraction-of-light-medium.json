@@ -1,0 +1,77 @@
+{
+  "id": "12-2-refraction-of-light-medium",
+  "topicId": "12-2-refraction-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "medium",
+  "title": "Refraction of Light — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-2-refraction-of-light-medium-q1",
+      "type": "mcq",
+      "question": "A light ray enters a glass block of refractive index $n = 1.50$ from air. If the angle of incidence is $30^circ$, what is the angle of refraction $r$? (Take $sin 30^circ = 0.50$)",
+      "options": [
+        "$19.5^circ$",
+        "$20.0^circ$",
+        "$45.0^circ$",
+        "$15.0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $n = \\frac{sin i}{sin r}$, we get $1.5 = \\frac{0.5}{sin r}$. Therefore $sin r = \\frac{0.5}{1.5} \\approx 0.333$, which corresponds to approximately $19.5^circ$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-medium-q2",
+      "type": "mcq",
+      "question": "The speed of light in a vacuum is $3.0 \\times 10^{8}\\text{ m/s}$. Calculate the speed of light in a medium with a refractive index of $1.25$.",
+      "options": [
+        "$2.4 \\times 10^{8}\\text{ m/s}$",
+        "$3.75 \\times 10^{8}\\text{ m/s}$",
+        "$0.42 \\times 10^{8}\\text{ m/s}$",
+        "$3.0 \\times 10^{8}\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $n = \\frac{c}{v}$, we find $v = \\frac{c}{n} = \\frac{3.0 \\times 10^{8}}{1.25} = 2.4 \\times 10^{8}\\text{ m/s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-medium-q3",
+      "type": "mcq",
+      "question": "A student plots a graph of $sin i$ on the y-axis against $sin r$ on the x-axis for light passing from air into water. What does the gradient of the resulting straight line represent?",
+      "options": [
+        "The refractive index of water",
+        "The speed of light in water",
+        "The angle of incidence",
+        "The critical angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $n = \\frac{sin i}{sin r}$, the ratio of $sin i$ to $sin r$ (the gradient) is constant and equal to the refractive index $n$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-medium-q4",
+      "type": "mcq",
+      "question": "If diamond has a refractive index of $2.42$ and water has a refractive index of $1.33$, which statement is correct for the same angle of incidence in air?",
+      "options": [
+        "Light bends more towards the normal in diamond than in water",
+        "Light bends more towards the normal in water than in diamond",
+        "The speed of light is faster in diamond than in water",
+        "The angle of refraction is larger in diamond than in water"
+      ],
+      "correctIndex": 0,
+      "explanation": "A higher refractive index means light travels slower and bends more towards the normal, resulting in a smaller angle of refraction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-medium-q5",
+      "type": "mcq",
+      "question": "Light travels from air into a transparent material. The speed of light in the material is $2.0 \\times 10^{8}\\text{ m/s}$. Given $c = 3.0 \\times 10^{8}\\text{ m/s}$, what is the refractive index?",
+      "options": [
+        "$1.50$",
+        "$0.67$",
+        "$1.00$",
+        "$2.00$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Refractive index $n = \\frac{\\text{speed in vacuum}}{\\text{speed in medium}} = \\frac{3.0 \\times 10^{8}}{2.0 \\times 10^{8}} = 1.50$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

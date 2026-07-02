@@ -1,0 +1,142 @@
+{
+  "id": "12-stationary-points-and-practical-optimization-easy",
+  "topicId": "12-stationary-points-and-practical-optimization",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "easy",
+  "title": "Stationary Points and Practical Optimization — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q1",
+      "type": "mcq",
+      "question": "What is the primary condition for a curve $y = f(x)$ to have a stationary point at a specific value of $x$?",
+      "options": [
+        "$\\frac{dy}{dx} = 0$",
+        "$\\frac{d^2y}{dx^2} = 0$",
+        "$y = 0$",
+        "$\\frac{dy}{dx} > 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A stationary point occurs where the gradient of the tangent to the curve is zero, which is represented by $\\frac{dy}{dx} = 0$.\n\n**Common mistake:** Option B is a common mistake where students confuse the condition for a point of inflexion or the test for nature with the condition for the point existing."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q2",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x^2 - 10x + 7$.",
+      "options": [
+        "$5$",
+        "$10$",
+        "$-5$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiating gives $\\frac{dy}{dx} = 2x - 10$. Setting $2x - 10 = 0$ yields $x = 5$.\n\n**Common mistake:** Option B occurs if the student forgets to divide by the coefficient of $x$ after differentiating."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q3",
+      "type": "mcq",
+      "question": "A stationary point is found to have $\\frac{d^2y}{dx^2} = 12$ at that point. What is the nature of this stationary point?",
+      "options": [
+        "Minimum point",
+        "Maximum point",
+        "Point of inflexion",
+        "Stationary point of inflexion"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the second derivative $\\frac{d^2y}{dx^2}$ is positive at a stationary point, the point is a local minimum.\n\n**Common mistake:** Students often intuitively think a 'positive' second derivative implies a 'maximum', leading them to pick Option B."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q4",
+      "type": "mcq",
+      "question": "Find the $x$2$y = \\frac{1}{3}x^3 - 9x$.",
+      "options": [
+        "$x = 3$ and $x = -3$",
+        "$x = 9$ and $x = -9$",
+        "$x = 0$",
+        "$x = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x^2 - 9$. Setting $x^2 - 9 = 0$ gives $x^2 = 9$, so $x = \\pm 3$.\n\n**Common mistake:** Option D is incomplete as the student may forget the negative root when taking the square root of 9."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q5",
+      "type": "mcq",
+      "question": "If $f'(x) = 4x - 12$, find the value of $x$2$f(x)$ has a stationary point.",
+      "options": [
+        "$3$",
+        "$4$",
+        "$12$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative is already given as $f'(x)$. Setting $4x - 12 = 0$ gives $x = 3$.\n\n**Common mistake:** Option B is the coefficient of $x$, while Option C is the constant term; students sometimes pick these directly without solving."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q6",
+      "type": "mcq",
+      "question": "What is the first step in solving a practical maximum or minimum problem using calculus?",
+      "options": [
+        "Express the quantity to be optimized as a function of one variable.",
+        "Set the second derivative to zero.",
+        "Calculate the y-intercept of the function.",
+        "Integrate the given expression."
+      ],
+      "correctIndex": 0,
+      "explanation": "Before you can differentiate, you must have a single function that represents the problem's goal (like Area or Volume) in terms of one variable.\n\n**Common mistake:** Attempting to differentiate an equation that still contains two or more independent variables."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q7",
+      "type": "mcq",
+      "question": "A rectangular area is given by $A = 40x - 2x^2$. Find the value of $x$ that maximizes this area.",
+      "options": [
+        "10",
+        "20",
+        "40",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dA/dx = 40 - 4x$2$4x = 40 \\implies x = 10$.\n\n**Common mistake:** Dividing 40 by 2 instead of 4, or mistaking the x-intercepts for the maximum."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q8",
+      "type": "mcq",
+      "question": "If the second derivative of a volume function $V$2$-12$ at a stationary point, what does this indicate?",
+      "options": [
+        "The volume is at a maximum.",
+        "The volume is at a minimum.",
+        "The volume is zero.",
+        "The test is inconclusive."
+      ],
+      "correctIndex": 0,
+      "explanation": "A negative second derivative ($d^2V/dx^2 < 0$) at a stationary point confirms a local maximum.\n\n**Common mistake:** Thinking a negative value means the quantity is at its 'minimum' possible value."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q9",
+      "type": "mcq",
+      "question": "The cost of producing items is $C = x^2 - 10x + 50$. Find the number of items $x$ that minimizes the cost.",
+      "options": [
+        "5",
+        "10",
+        "25",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dC/dx = 2x - 10$. Setting to zero: $2x = 10 \\implies x = 5$.\n\n**Common mistake:** Assuming the constant term (50) is the minimum cost without differentiating."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-easy-q10",
+      "type": "mcq",
+      "question": "A wire of length 20 cm is bent into a rectangle of width $x$2$A = x(10 - x)$. What is the maximum possible area?",
+      "options": [
+        "25 cm^2",
+        "5 cm^2",
+        "100 cm^2",
+        "10 cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$A = 10x - x^2 \\implies dA/dx = 10 - 2x = 0 \\implies x = 5$. Max Area $= 5(10 - 5) = 25$.\n\n**Common mistake:** Identifying the side length (5) as the area, or failing to substitute back into the area formula."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "18-6-the-transformer-medium",
+  "topicId": "18-6-the-transformer",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "medium",
+  "title": "The Transformer — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-6-the-transformer-medium-q1",
+      "type": "mcq",
+      "question": "A transformer has $100$ turns in the primary coil and $500$ turns in the secondary coil. If the primary voltage is $12\\text{ V}$, what is the secondary voltage?",
+      "options": [
+        "$60\\text{ V}$",
+        "$2.4\\text{ V}$",
+        "$120\\text{ V}$",
+        "$600\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the transformer equation $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$, we get $V_s = V_p \\times (N_s / N_p) = 12 \\times (500 / 100) = 60\\text{ V}$. \n\n**Common mistake:** Inverting the turns ratio and dividing $12$ by $5$."
+    },
+    {
+      "id": "18-6-the-transformer-medium-q2",
+      "type": "mcq",
+      "question": "A transformer is used to provide a $15\\text{ V}$ output from a $240\\text{ V}$ mains supply. If the primary coil has $6400$ turns, calculate the number of turns on the secondary coil.",
+      "options": [
+        "$400$",
+        "$102400$",
+        "$26.7$",
+        "$96000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 8: $N_s = N_p \\times (V_s / V_p) = 6400 \\times (15 / 240) = 400$ turns. \n\n**Common mistake:** Multiplying by the ratio $240/15$ instead of $15/240$."
+    },
+    {
+      "id": "18-6-the-transformer-medium-q3",
+      "type": "mcq",
+      "question": "Which of the following correctly describes a step-up transformer in terms of its coils?",
+      "options": [
+        "It has more turns in the secondary coil than in the primary coil.",
+        "It has more turns in the primary coil than in the secondary coil.",
+        "It has a thicker wire in the primary coil.",
+        "It can only be used with a battery (d.c. source)."
+      ],
+      "correctIndex": 0,
+      "explanation": "A step-up transformer increases voltage, which means $V_s > V_p$. According to the ratio, this requires $N_s > N_p$. \n\n**Common mistake:** Swapping the primary and secondary turn requirements."
+    },
+    {
+      "id": "18-6-the-transformer-medium-q4",
+      "type": "mcq",
+      "question": "Assuming a transformer is $100\\%$ efficient, what is the relationship between the primary power ($P_p$) and secondary power ($P_s$)?",
+      "options": [
+        "$P_p = P_s$",
+        "$P_s$ is always greater than $P_p$",
+        "$P_p = I_p V_s$",
+        "$P_s = I_s V_p$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For $100\\%$ efficiency, $I_p V_p = I_s V_s$, which means power input equals power output ($P_p = P_s$). \n\n**Common mistake:** Thinking a step-up transformer 'creates' extra power."
+    },
+    {
+      "id": "18-6-the-transformer-medium-q5",
+      "type": "mcq",
+      "question": "Why is the soft iron core of a transformer often 'laminated' (made of thin sheets glued together)?",
+      "options": [
+        "To reduce energy loss as thermal energy in the core",
+        "To prevent the coils from touching each other",
+        "To make the transformer lighter for transport",
+        "To increase the resistance of the primary coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lamination is a feature used to improve efficiency by reducing internal currents that cause heating in the core. \n\n**Common mistake:** Believing lamination is just for structural support."
+    }
+  ]
+}

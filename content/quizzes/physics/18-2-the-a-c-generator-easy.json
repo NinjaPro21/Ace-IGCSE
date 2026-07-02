@@ -1,0 +1,77 @@
+{
+  "id": "18-2-the-a-c-generator-easy",
+  "topicId": "18-2-the-a-c-generator",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "easy",
+  "title": "The A.c. Generator — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-2-the-a-c-generator-easy-q1",
+      "type": "mcq",
+      "question": "Which components of an a.c. generator allow the transfer of the induced alternating current to an external circuit?",
+      "options": [
+        "Slip rings and brushes",
+        "Split-ring commutator and brushes",
+        "A soft iron core and a solenoid",
+        "Permanent magnets and a coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, slip rings and carbon brushes are the specific components that allow the transfer of induced alternating current from the rotating coil to the external circuit. \n\n**Common mistake:** Confusing slip rings with a split-ring commutator, which is used in d.c. motors to reverse current direction."
+    },
+    {
+      "id": "18-2-the-a-c-generator-easy-q2",
+      "type": "mcq",
+      "question": "What type of current is produced by a simple generator where the coil rotates between fixed magnets?",
+      "options": [
+        "Alternating current (a.c.)",
+        "Direct current (d.c.)",
+        "Electrostatic current",
+        "Constant magnetic current"
+      ],
+      "correctIndex": 0,
+      "explanation": "A simple generator with slip rings produces alternating current (a.c.), which periodically reverses direction. \n\n**Common mistake:** Thinking all generators produce d.c. like a battery."
+    },
+    {
+      "id": "18-2-the-a-c-generator-easy-q3",
+      "type": "mcq",
+      "question": "Which instrument is used to detect the small induced current in a laboratory generator experiment?",
+      "options": [
+        "Galvanometer",
+        "Voltmeter",
+        "Barometer",
+        "Ohmmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A galvanometer is used to detect and show the direction of small induced currents. \n\n**Common mistake:** Selecting a voltmeter, which measures potential difference but is not specifically designed to show small current direction changes."
+    },
+    {
+      "id": "18-2-the-a-c-generator-easy-q4",
+      "type": "mcq",
+      "question": "What is the standard SI unit for frequency, which describes the number of cycles per second in an a.c. output?",
+      "options": [
+        "hertz ($\\text{Hz}$)",
+        "ampere ($\\text{A}$)",
+        "volt ($\\text{V}$)",
+        "joule ($\\text{J}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz ($\\text{Hz}$), where $1\\text{ Hz}$ means one complete cycle per second. \n\n**Common mistake:** Using amperes, which is the unit for the current itself."
+    },
+    {
+      "id": "18-2-the-a-c-generator-easy-q5",
+      "type": "mcq",
+      "question": "In a simple a.c. generator, what happens to the e.m.f. when the coil is stationary inside the magnetic field?",
+      "options": [
+        "The e.m.f. is zero.",
+        "The e.m.f. is at its maximum value.",
+        "The e.m.f. becomes constant d.c.",
+        "The e.m.f. depends only on the magnet strength."
+      ],
+      "correctIndex": 0,
+      "explanation": "An e.m.f. is only induced when there is relative motion between the conductor and the magnetic field (cutting field lines). If stationary, no e.m.f. is generated. \n\n**Common mistake:** Thinking the presence of a magnet alone is enough to produce electricity."
+    }
+  ]
+}

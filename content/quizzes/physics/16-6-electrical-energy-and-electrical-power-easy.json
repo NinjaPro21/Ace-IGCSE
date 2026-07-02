@@ -1,0 +1,77 @@
+{
+  "id": "16-6-electrical-energy-and-electrical-power-easy",
+  "topicId": "16-6-electrical-energy-and-electrical-power",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "easy",
+  "title": "Electrical Energy and Electrical Power — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-easy-q1",
+      "type": "mcq",
+      "question": "What is the SI unit of electrical power?",
+      "options": [
+        "Watt (W)",
+        "Joule (J)",
+        "Volt (V)",
+        "Ampere (A)"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the watt (W) is the SI unit for power. The joule is the unit for energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-easy-q2",
+      "type": "mcq",
+      "question": "Which formula correctly relates electrical power ($P$), current ($I$), and potential difference ($V$)?",
+      "options": [
+        "$P = IV$",
+        "$P = I / V$",
+        "$P = V / I$",
+        "$P = I + V$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is defined as the product of the current and the potential difference, derived from substituting energy and charge equations.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-easy-q3",
+      "type": "mcq",
+      "question": "What is the SI unit of energy?",
+      "options": [
+        "Joule (J)",
+        "Watt (W)",
+        "Kilowatt-hour (kWh)",
+        "Coulomb (C)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit of energy is the joule (J). The kilowatt-hour is a larger unit of energy used specifically for commercial electricity bills.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-easy-q4",
+      "type": "mcq",
+      "question": "What is the definition of a kilowatt-hour (kWh)?",
+      "options": [
+        "The energy transferred to an appliance of power $1\\text{ kW}$ in $1\\text{ hour}$",
+        "The power used by a $1000\\text{ W}$ appliance in $1\\text{ second}$",
+        "The total voltage supplied to a house in one month",
+        "The current flowing through a $1000\\text{ }Omega$ resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define the kilowatt-hour (kWh) as the unit of energy representing the amount transferred to a $1\\text{ kW}$ appliance over the duration of $1\\text{ hour}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-easy-q5",
+      "type": "mcq",
+      "question": "If a $12\\text{ V}$ battery delivers a current of $2.0\\text{ A}$ to a motor, what is the power supplied?",
+      "options": [
+        "$24\\text{ W}$",
+        "$6\\text{ W}$",
+        "$0.16\\text{ W}$",
+        "$14\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $P = IV$, we calculate $12\\text{ V} \\times 2.0\\text{ A} = 24\\text{ W}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

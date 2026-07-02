@@ -1,0 +1,77 @@
+{
+  "id": "22-1-the-sun-as-a-star-medium",
+  "topicId": "22-1-the-sun-as-a-star",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "medium",
+  "title": "The Sun as a Star — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "22-1-the-sun-as-a-star-medium-q1",
+      "type": "mcq",
+      "question": "Which of these energy resources on Earth does NOT have the Sun as its original source?",
+      "options": [
+        "Geothermal energy",
+        "Wind energy",
+        "Solar energy",
+        "Hydroelectric energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state the Sun is the main source for all resources except geothermal, nuclear, and tidal. \n\n**Common mistake:** Thinking wind is independent, but the Sun causes the temperature differences that create wind."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-medium-q2",
+      "type": "mcq",
+      "question": "The Sun is approximately $150$ million kilometres from Earth. If light travels at $3 \\times 10^{8}$ m/s, how long does it take for sunlight to reach us?",
+      "options": [
+        "$500$ seconds",
+        "$8$ seconds",
+        "$50$ seconds",
+        "$1$ hour"
+      ],
+      "correctIndex": 0,
+      "explanation": "$150 \\text{ million km} = 1.5 \\times 10^{11} \\text{ m}$. Time $t = d / v = (1.5 \\times 10^{11}) / (3 \\times 10^{8}) = 500 \\text{ s}$. \n\n**Common mistake:** Forgetting to convert kilometres to metres."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-medium-q3",
+      "type": "mcq",
+      "question": "What is the primary product formed when hydrogen nuclei undergo fusion in the Sun?",
+      "options": [
+        "Helium nuclei",
+        "Uranium atoms",
+        "Liquid water",
+        "Iron crystals"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the Sun's core, hydrogen nuclei combine to form helium nuclei, releasing energy in the process. \n\n**Common mistake:** Carbon and iron are only formed in much later stages or in more massive stars."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-medium-q4",
+      "type": "mcq",
+      "question": "Which force is responsible for the 'clumping together' of dust and gas that originally formed the Sun?",
+      "options": [
+        "Gravitational force",
+        "Magnetic force",
+        "Electrostatic force",
+        "Frictional force"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources note that the Solar System formed when a cloud of dust and gas clumped together due to gravity. \n\n**Common mistake:** Thinking magnetism pulls the particles together."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-medium-q5",
+      "type": "mcq",
+      "question": "The Sun contains a massive amount of energy. In which energy store is this energy held before it is released?",
+      "options": [
+        "Nuclear energy",
+        "Elastic potential energy",
+        "Chemical potential energy",
+        "Electrostatic potential energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The energy is released from the nuclei of atoms during fusion, making it a nuclear energy store. \n\n**Common mistake:** Thinking it is chemical energy, like burning wood or coal."
+    }
+  ]
+}

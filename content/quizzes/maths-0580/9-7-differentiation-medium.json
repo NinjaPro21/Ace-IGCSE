@@ -1,0 +1,77 @@
+{
+  "id": "9-7-differentiation-medium",
+  "topicId": "9-7-differentiation",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "medium",
+  "title": "Differentiation — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-7-differentiation-medium-q1",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x^2 - 12x + 7$.",
+      "options": [
+        "$6$",
+        "$12$",
+        "$-6$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set the derivative $\\frac{dy}{dx} = 2x - 12$ equal to zero. Solving $2x - 12 = 0$ gives $x = 6$.\n\n**Common mistake:** The student might provide the $y$-intercept (7) or make a sign error when solving the equation."
+    },
+    {
+      "id": "9-7-differentiation-medium-q2",
+      "type": "mcq",
+      "question": "A curve has equation $y = 2x^3 - 9x^2$. Calculate the gradient of the tangent to the curve at $x = 2$.",
+      "options": [
+        "$-12$",
+        "$24$",
+        "$-20$",
+        "$-4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 18x$2$x = 2$, gradient $= 6(2)² - 18(2) = 24 - 36 = -12$.\n\n**Common mistake:** A common mistake is incorrectly calculating $6(2)²$ as $(12)²$ or $6 \\times 4 = 24$ but then adding $36$ instead of subtracting."
+    },
+    {
+      "id": "9-7-differentiation-medium-q3",
+      "type": "mcq",
+      "question": "Determine the value of $x$2$y = x^3 - 3x^2 - 9x$2$15$.",
+      "options": [
+        "$4$ and $-2$",
+        "$2$ and $-4$",
+        "$5$ and $-1$",
+        "$15$ and $0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 6x - 9$. Set $3x^2 - 6x - 9 = 15 \\Rightarrow 3x^2 - 6x - 24 = 0 \\Rightarrow x^2 - 2x - 8 = 0$. Factoring $(x-4)(x+2)=0$ gives $x=4, -2$.\n\n**Common mistake:** The student might set the original function equal to 15 or make an error in factoring the quadratic."
+    },
+    {
+      "id": "9-7-differentiation-medium-q4",
+      "type": "mcq",
+      "question": "Find the second derivative $\\frac{d^2y}{dx^2}$ of the function $y = x⁴ - 5x^2 + 2x$.",
+      "options": [
+        "$12x^2 - 10$",
+        "$4x^3 - 10x + 2$",
+        "$12x^3 - 10x$",
+        "$4x^2 - 10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first derivative is $\\frac{dy}{dx} = 4x^3 - 10x + 2$. Differentiating again gives $\\frac{d^2y}{dx^2} = 12x^2 - 10$.\n\n**Common mistake:** The student might provide the first derivative instead of the second."
+    },
+    {
+      "id": "9-7-differentiation-medium-q5",
+      "type": "mcq",
+      "question": "The gradient of the curve $y = kx^2 - 4x$2$x = 3$ is $8$. Find the value of $k$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$4$",
+        "$12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 2kx - 4$. At $x = 3$, $2k(3) - 4 = 8 \\Rightarrow 6k = 12 \\Rightarrow k = 2$.\n\n**Common mistake:** The student might substitute $x=3$ into the original function or forget the '2' from the power rule."
+    }
+  ]
+}

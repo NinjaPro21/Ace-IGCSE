@@ -1,0 +1,77 @@
+{
+  "id": "8-1-the-states-of-matter-pyp",
+  "topicId": "8-1-the-states-of-matter",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "pyp",
+  "title": "The States of Matter — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-1-the-states-of-matter-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows the arrangement of particles in the three states of matter.nnState 1: Particles far apart, random arrangement.nState 2: Particles closely packed, regular pattern.nState 3: Particles close together, random arrangement.nnWhich row correctly identifies the states?",
+      "options": [
+        "1: Gas; 2: Solid; 3: Liquid",
+        "1: Liquid; 2: Solid; 3: Gas",
+        "1: Gas; 2: Liquid; 3: Solid",
+        "1: Solid; 2: Liquid; 3: Gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gas particles are far apart (1), solid particles are in a regular lattice (2), and liquid particles are close but random (3). \n\n**Common mistake:** Swapping the definitions of liquids and solids."
+    },
+    {
+      "id": "8-1-the-states-of-matter-pyp-q2",
+      "type": "mcq",
+      "question": "Which of the following describes the process of condensation?",
+      "options": [
+        "A gas changing to a liquid",
+        "A liquid changing to a gas",
+        "A solid changing to a liquid",
+        "A liquid changing to a solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Condensation is defined as the change of state from gas to liquid. \n\n**Common mistake:** Confusing it with evaporation (liquid to gas)."
+    },
+    {
+      "id": "8-1-the-states-of-matter-pyp-q3",
+      "type": "mcq",
+      "question": "A student is heating a piece of ice. The graph shows how the temperature changes with time. Which part of the graph shows the ice is melting?",
+      "options": [
+        "A horizontal line at $0^\\circ\\text{C}$",
+        "A line with a steady positive gradient",
+        "A horizontal line at $100^\\circ\\text{C}$",
+        "A line with a decreasing gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Melting occurs at a constant temperature ($0^\\circ\\text{C}$ for pure water), shown as a horizontal plateau on a temperature-time graph. \n\n**Common mistake:** Selecting the $100^\\circ\\text{C}$ line, which represents boiling."
+    },
+    {
+      "id": "8-1-the-states-of-matter-pyp-q4",
+      "type": "mcq",
+      "question": "What happens to the average speed of gas particles as the temperature of the gas is decreased?",
+      "options": [
+        "The average speed decreases.",
+        "The average speed increases.",
+        "The average speed remains the same.",
+        "The particles stop moving immediately."
+      ],
+      "correctIndex": 0,
+      "explanation": "Temperature is a measure of the average kinetic energy of the particles; therefore, lowering the temperature reduces their average speed. \n\n**Common mistake:** Thinking speed increases because particles 'clump' together."
+    },
+    {
+      "id": "8-1-the-states-of-matter-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the properties of a gas?",
+      "options": [
+        "Fixed Shape: No; Fixed Volume: No; Compressible: Yes",
+        "Fixed Shape: Yes; Fixed Volume: Yes; Compressible: No",
+        "Fixed Shape: No; Fixed Volume: Yes; Compressible: No",
+        "Fixed Shape: No; Fixed Volume: No; Compressible: No"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gases have no fixed shape, no fixed volume, and are compressible. \n\n**Common mistake:** Thinking gases have a fixed volume like liquids."
+    }
+  ]
+}

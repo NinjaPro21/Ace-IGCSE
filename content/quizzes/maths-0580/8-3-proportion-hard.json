@@ -1,0 +1,142 @@
+{
+  "id": "8-3-proportion-hard",
+  "topicId": "8-3-proportion",
+  "chapterId": "ch02-algebra",
+  "difficulty": "hard",
+  "title": "Proportion — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-3-proportion-hard-q1",
+      "type": "mcq",
+      "question": "The electrical resistance, $R$2$L$2$r$2$L = 10$ and $r = 2$, $R = 5$. Find $R$2$L = 15$ and $r = 3$.",
+      "options": [
+        "$R = 3.33$",
+        "$R = 7.5$",
+        "$R = 5$",
+        "$R = 2.22$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a joint proportion: $R = \\frac{kL}{r^2}$. Substitute the initial values to find $k$2$5 = \\frac{k \\times 10}{2^2} \\implies 5 = \\frac{10k}{4} \\implies 20 = 10k \\implies k = 2$. The complete formula is $R = \\frac{2L}{r^2}$. Substitute $L = 15$ and $r = 3$: $R = \\frac{2 \\times 15}{3^2} = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
+    },
+    {
+      "id": "8-3-proportion-hard-q2",
+      "type": "mcq",
+      "question": "$y$2$(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$2$y = 4$.",
+      "options": [
+        "$x = 2$",
+        "$x = 3$",
+        "$x = 1.5$",
+        "$x = 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the formula: $y = \\frac{k}{(x + 1)^2}$. Find $k$2$x = 1, y = 9$: $9 = \\frac{k}{(1 + 1)^2} \\implies 9 = \\frac{k}{4} \\implies k = 36$. The formula is $y = \\frac{36}{(x + 1)^2}$. Substitute $y = 4$: $4 = \\frac{36}{(x + 1)^2} \\implies (x + 1)^2 = \\frac{36}{4} = 9$. Taking the square root gives $x + 1 = 3 \\implies x = 2$.\n\n**Common mistake:** Students regularly forget to add $1$ before squaring, or fail to take the square root of both sides during the backward solution process."
+    },
+    {
+      "id": "8-3-proportion-hard-q3",
+      "type": "mcq",
+      "question": "The variable $z$2$x$2$y$2$x = 9$ and $y = 4$, $z = 6$. Express $x$2$y$2$z$.",
+      "options": [
+        "$x = \\left(\\frac{yz}{8}\\right)^2$",
+        "$x = \\frac{y^2z^2}{64}$",
+        "$x = \\frac{8}{yz}$",
+        "$x = \\left(\\frac{8}{yz}\\right)^2$"
+      ],
+      "correctIndex": 1,
+      "explanation": "Set up the general formula: $z = \\frac{k\\sqrt{x}}{y}$. Substitute initial values to calculate $k$2$6 = \\frac{k\\sqrt{9}}{4} \\implies 6 = \\frac{3k}{4} \\implies 24 = 3k \\implies k = 8$. The formula is $z = \\frac{8\\sqrt{x}}{y}$. Now solve for $x$2$zy = 8\\sqrt{x} \\implies \\sqrt{x} = \\frac{zy}{8}$. Square both sides entirely: $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$. This matches option B.\n\n**Common mistake:** When squaring the $\\frac{tion}{}$ expression, students often forget to square the denominator constant $8$, accidentally leaving it as $8$ or writing $16$."
+    },
+    {
+      "id": "8-3-proportion-hard-q4",
+      "type": "mcq",
+      "question": "If $y$2$x^2$, and $x$2$20\\%$, find the percentage increase in $y$.",
+      "options": [
+        "$44\\%$",
+        "$20\\%$",
+        "$40\\%$",
+        "$144\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The relationship is $y = kx^2$. If $x$2$20\\%$, the new value is $1.2x$2$y$2$y_{\\text{new}} = k(1.2x)^2 = 1.44kx^2 = 1.44y$2$1y$2$1.44y$2$0.44$ multiplier shift, which is exactly a $44\\%$. increase.\n\n**Common mistake:** Students often intuitively assume that if $x$2$20\\%$, $y$2$20\\%$ or $2 \\times 20\\% = 40\\%$, forgetting that the scale factor itself must be squared ($1.2^2 = 1.44$)."
+    },
+    {
+      "id": "8-3-proportion-hard-q5",
+      "type": "mcq",
+      "question": "$W$2$x$2$x = 27$, $W = 2$. Find the value of $x$2$W = 3$.",
+      "options": [
+        "$x = 8$",
+        "$x = 2$",
+        "$x = \\frac{8}{27}$",
+        "$x = 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Model equation: $W = \\frac{k}{\\sqrt[3]{x}}$. Substitute $x = 27$ and $W = 2$: $2 = \\frac{k}{\\sqrt[3]{27}} \\implies 2 = \\frac{k}{3} \\implies k = 6$. So, $W = \\frac{6}{\\sqrt[3]{x}}$. Substitute $W = 3$: $3 = \\frac{6}{\\sqrt[3]{x}} \\implies \\sqrt[3]{x} = \\frac{6}{3} = 2$. Cube both sides to find $x$2$x = 2^3 = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by $3$ or taking a square root instead."
+    },
+    {
+      "id": "8-3-proportion-hard-q6",
+      "type": "mcq",
+      "question": "The electrical resistance, $R$2$L$2$r$2$L = 10$ and $r = 2$, $R = 5$. Find $R$2$L = 15$ and $r = 3$.",
+      "options": [
+        "$R = 3.33$",
+        "$R = 7.5$",
+        "$R = 5$",
+        "$R = 2.22$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a joint proportion: $R = \\frac{kL}{r^2}$. Substitute the initial values to find $k$2$5 = \\frac{k \\times 10}{2^2} \\implies 5 = \\frac{10k}{4} \\implies 20 = 10k \\implies k = 2$. The complete formula is $R = \\frac{2L}{r^2}$. Substitute $L = 15$ and $r = 3$: $R = \\frac{2 \\times 15}{3^2} = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
+    },
+    {
+      "id": "8-3-proportion-hard-q7",
+      "type": "mcq",
+      "question": "$y$2$(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$2$y = 4$.",
+      "options": [
+        "$x = 2$",
+        "$x = 3$",
+        "$x = 1.5$",
+        "$x = 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the formula: $y = \\frac{k}{(x + 1)^2}$. Find $k$2$x = 1, y = 9$: $9 = \\frac{k}{(1 + 1)^2} \\implies 9 = \\frac{k}{4} \\implies k = 36$. The formula is $y = \\frac{36}{(x + 1)^2}$. Substitute $y = 4$: $4 = \\frac{36}{(x + 1)^2} \\implies (x + 1)^2 = \\frac{36}{4} = 9$. Taking the square root gives $x + 1 = 3 \\implies x = 2$.\n\n**Common mistake:** Students regularly forget to add $1$ before squaring, or fail to take the square root of both sides during the backward solution process."
+    },
+    {
+      "id": "8-3-proportion-hard-q8",
+      "type": "mcq",
+      "question": "The variable $z$2$x$2$y$2$x = 9$ and $y = 4$, $z = 6$. Express $x$2$y$2$z$.",
+      "options": [
+        "$x = \\left(\\frac{yz}{8}\\right)^2$",
+        "$x = \\frac{y^2z^2}{64}$",
+        "$x = \\frac{8}{yz}$",
+        "$x = \\left(\\frac{8}{yz}\\right)^2$"
+      ],
+      "correctIndex": 1,
+      "explanation": "Set up the general formula: $z = \\frac{k\\sqrt{x}}{y}$. Substitute initial values to calculate $k$2$6 = \\frac{k\\sqrt{9}}{4} \\implies 6 = \\frac{3k}{4} \\implies 24 = 3k \\implies k = 8$. The formula is $z = \\frac{8\\sqrt{x}}{y}$. Now solve for $x$2$zy = 8\\sqrt{x} \\implies \\sqrt{x} = \\frac{zy}{8}$. Square both sides entirely: $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$. This matches option B.\n\n**Common mistake:** When squaring the $\\frac{tion}{}$ expression, students often forget to square the denominator constant $8$, accidentally leaving it as $8$ or writing $16$."
+    },
+    {
+      "id": "8-3-proportion-hard-q9",
+      "type": "mcq",
+      "question": "If $y$2$x^2$, and $x$2$20\\%$, find the percentage increase in $y$.",
+      "options": [
+        "$44\\%$",
+        "$20\\%$",
+        "$40\\%$",
+        "$144\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The relationship is $y = kx^2$. If $x$2$20\\%$, the new value is $1.2x$2$y$2$y_{\\text{new}} = k(1.2x)^2 = 1.44kx^2 = 1.44y$2$1y$2$1.44y$2$0.44$ multiplier shift, which is exactly a $44\\%$. increase.\n\n**Common mistake:** Students often intuitively assume that if $x$2$20\\%$, $y$2$20\\%$ or $2 \\times 20\\% = 40\\%$, forgetting that the scale factor itself must be squared ($1.2^2 = 1.44$)."
+    },
+    {
+      "id": "8-3-proportion-hard-q10",
+      "type": "mcq",
+      "question": "$W$2$x$2$x = 27$, $W = 2$. Find the value of $x$2$W = 3$.",
+      "options": [
+        "$x = 8$",
+        "$x = 2$",
+        "$x = \\frac{8}{27}$",
+        "$x = 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Model equation: $W = \\frac{k}{\\sqrt[3]{x}}$. Substitute $x = 27$ and $W = 2$: $2 = \\frac{k}{\\sqrt[3]{27}} \\implies 2 = \\frac{k}{3} \\implies k = 6$. So, $W = \\frac{6}{\\sqrt[3]{x}}$. Substitute $W = 3$: $3 = \\frac{6}{\\sqrt[3]{x}} \\implies \\sqrt[3]{x} = \\frac{6}{3} = 2$. Cube both sides to find $x$2$x = 2^3 = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by $3$ or taking a square root instead."
+    }
+  ]
+}

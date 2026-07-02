@@ -1,0 +1,402 @@
+{
+  "id": "ch18-electromagnetic-effects-pyp",
+  "topicId": "ch18-electromagnetic-effects",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "pyp",
+  "title": "Chapter 18: Electromagnetic Effects — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q1",
+      "type": "mcq",
+      "question": "A student performs three actions with a magnet and a solenoid connected to a galvanometer. Which row in the table correctly predicts the observations?nnAction | Observationn--- | ---n1. Magnet moving in | Deflectionn2. Magnet stationary inside | No deflectionn3. Magnet moving out | Opposite deflection",
+      "options": [
+        "All three are correct",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "These observations are standard for electromagnetic induction. Deflection only occurs during relative motion, and reversing the motion reverses the deflection.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q2",
+      "type": "mcq",
+      "question": "A magnet is moved towards a coil of wire. Which of the following does NOT increase the size of the induced e.m.f.?",
+      "options": [
+        "Using a thicker wire with lower resistance",
+        "Moving the magnet more quickly",
+        "Using a stronger magnet",
+        "Increasing the number of turns in the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "While thicker wire may increase the induced current ($I$), it does not affect the magnitude of the induced e.m.f. ($V$), which depends on flux and turns.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows the North pole of a magnet moving towards a solenoid.n[N-S Magnet] $rightarrow$ [Solenoid End A]nWhat is the polarity induced at End A and what is the nature of the force between them?",
+      "options": [
+        "Polarity: North; Force: Repulsion",
+        "Polarity: South; Force: Attraction",
+        "Polarity: North; Force: Attraction",
+        "Polarity: South; Force: Repulsion"
+      ],
+      "correctIndex": 0,
+      "explanation": "To oppose the North pole coming towards it, End A must become a North pole. Like poles (N and N) repel each other.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q4",
+      "type": "mcq",
+      "question": "The graph shows the induced e.m.f. in a coil over time. Which feature of the graph indicates that the magnet was moving faster as it left the coil than when it entered?n[Graph shows a small first peak and a tall second peak in the opposite direction]",
+      "options": [
+        "The height of the second peak is greater than the first",
+        "The second peak is in the opposite direction to the first",
+        "The area under the two peaks is the same",
+        "The time duration for both peaks is identical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced e.m.f. magnitude is proportional to speed. A taller peak on the graph indicates a higher induced e.m.f., which implies the magnet was moving faster at that time.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q5",
+      "type": "mcq",
+      "question": "A wire is moved upwards through a horizontal magnetic field that points from North to South. In which direction is the current induced in the wire? (Hint: Use Fleming's right-hand rule)",
+      "options": [
+        "Out of the page",
+        "Into the page",
+        "Towards the North pole",
+        "Towards the South pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's Right-Hand Rule: Thumb (Motion) up, First finger (Field) N to S (right), Second finger (Current) points out of the page.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q6",
+      "type": "mcq",
+      "question": "An a.c. generator is connected to an oscilloscope. The trace shows a peak voltage of $2\\text{ V}$ and a period of $0.04\\text{ s}$. What is the frequency of the a.c. signal?",
+      "options": [
+        "$25\\text{ Hz}$",
+        "$50\\text{ Hz}$",
+        "$0.04\\text{ Hz}$",
+        "$2\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency $f = 1/T = 1 / 0.04 = 25\\text{ Hz}$. \n\n**Common mistake:** Using the voltage value ($2\\text{ V}$) in the frequency calculation."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q7",
+      "type": "mcq",
+      "question": "Which of the following procedures does NOT generate an induced e.m.f. in a coil of wire?",
+      "options": [
+        "Holding a magnet stationary inside the coil",
+        "Rotating the coil in a magnetic field",
+        "Rotating a magnet around the stationary coil",
+        "Moving a bar magnet towards the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 6, holding a magnet stationary results in no change in magnetic flux, so no e.m.f. is induced. \n\n**Common mistake:** Thinking being 'inside' a magnetic field is enough, regardless of motion."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q8",
+      "type": "mcq",
+      "question": "In electromagnetic induction, which of the following factors does NOT affect the magnitude of the induced e.m.f.?",
+      "options": [
+        "The resistance of the coil",
+        "The strength of the magnetic field",
+        "The speed of the coil's motion",
+        "The number of turns in the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 7. Resistance affects the current ($I = V/R$), but the induced e.m.f. ($V$) depends only on the rate of cutting field lines. \n\n**Common mistake:** Confusing e.m.f. (voltage) with the resulting current."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q9",
+      "type": "mcq",
+      "question": "The diagram shows a graph of induced e.m.f. against time for a generator. Which change was made to the generator to produce the second curve?nn[Scenario: Curve 2 has half the period and twice the peak voltage of Curve 1]",
+      "options": [
+        "The frequency of rotation was doubled.",
+        "The number of turns in the coil was doubled.",
+        "The magnetic field strength was doubled.",
+        "The resistance of the external circuit was halved."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Worked Example 18B and Figure 18.11, doubling the frequency of rotation ($f$) results in both doubling the peak voltage and halving the period ($T = 1/f$). \n\n**Common mistake:** Choosing 'doubling turns', which would increase voltage but not change the period."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q10",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the function of slip rings in an a.c. generator?",
+      "options": [
+        "They provide a continuous connection between the rotating coil and the fixed brushes.",
+        "They reverse the current direction every half-turn of the coil.",
+        "They convert the induced a.c. into a d.c. output.",
+        "They increase the magnetic field strength of the permanent magnets."
+      ],
+      "correctIndex": 0,
+      "explanation": "Slip rings maintain electrical contact with the brushes while the coil rotates, without twisting the wires. \n\n**Common mistake:** Attributing the current-reversal function to slip rings; that is the role of a commutator in a motor."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q11",
+      "type": "mcq",
+      "question": "The diagram shows a solenoid connected to a d.c. power supply.n[Diagram: Coil with current flowing N-pole at left]nWhich row describes the magnetic field at the ends of the solenoid?",
+      "options": [
+        "Left end: North pole; Right end: South pole",
+        "Left end: South pole; Right end: North pole",
+        "Left end: North pole; Right end: North pole",
+        "Both ends are South poles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the right-hand grip rule for solenoids, the direction of current in the coils determines the North and South poles at the ends.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q12",
+      "type": "mcq",
+      "question": "A student builds a magnetic relay using a coil, a magnet (M), an armature (L), and a stopper (S). Which combination of materials is best for M, L, and S?n(Relay diagram shown in Figure 15.20)",
+      "options": [
+        "M: Iron; L: Iron; S: Rubber",
+        "M: Iron; L: Copper; S: Rubber",
+        "M: Plastic; L: Iron; S: Rubber",
+        "M: Iron; L: Iron; S: Iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Let's Review Section A Q3, M and L should be iron (magnetically soft) to allow for switching, and S should be rubber to cushion the impact.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q13",
+      "type": "mcq",
+      "question": "Which factor does NOT affect the strength of the magnetic field around a straight current-carrying wire?",
+      "options": [
+        "The thickness of the insulation on the wire",
+        "The magnitude of the current",
+        "The distance from the wire",
+        "The medium surrounding the wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field strength depends on current and distance. Insulation thickness does not change the magnetic effect of the current inside the conductor.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q14",
+      "type": "mcq",
+      "question": "A plotting compass is placed near a wire carrying a large direct current. The compass needle points in a specific direction. What happens when the current is increased?",
+      "options": [
+        "The needle points more firmly in the same direction",
+        "The needle reverses direction",
+        "The needle begins to spin rapidly",
+        "The needle points toward the wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the current increases the strength of the magnetic field, which exerts a stronger force to align the compass needle, but it does not change the field's direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q15",
+      "type": "mcq",
+      "question": "The diagram shows a cross-section of a wire with current flowing 'into the page' ($otimes$). Which diagram correctly shows the magnetic field lines?n[A: Clockwise circles; B: Anticlockwise circles; C: Radial lines out; D: Radial lines in]",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the right-hand grip rule: point your thumb into the page (direction of current). Your fingers curl clockwise, representing the magnetic field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q16",
+      "type": "mcq",
+      "question": "The diagram shows a current-carrying wire passing through a magnetic field. In which direction does the wire move?nn[Diagram: N-pole on left, S-pole on right, current arrow pointing into the page]",
+      "options": [
+        "Towards the bottom of the page",
+        "Towards the top of the page",
+        "Towards the N-pole",
+        "Towards the S-pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Review Section A, Question 2. Field is left to right, current is into the page. Fleming's left-hand rule gives a force towards the bottom. \n\n**Common mistake:** Thinking the wire is attracted to one of the poles."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q17",
+      "type": "mcq",
+      "question": "A beam of electrons enters a magnetic field that is directed into the page. What is the initial direction of the deflection of the electrons?nn[Reference: Figure 18.51]",
+      "options": [
+        "Towards the top of the page",
+        "Towards the bottom of the page",
+        "Into the page",
+        "Out of the page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 4. For an electron beam moving right, conventional current is left. Field is into the page. FLHR: Field (index) in, Current (middle) left, Thumb points up. \n\n**Common mistake:** Selecting 'bottom of the page' by not reversing current for electrons."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q18",
+      "type": "mcq",
+      "question": "A student has two parallel wires. When a current flows through them in the same direction, they attract. What happens if the current in one of the wires is reversed?",
+      "options": [
+        "The wires repel each other.",
+        "The wires still attract each other.",
+        "The force between them becomes zero.",
+        "The wires start to rotate."
+      ],
+      "correctIndex": 0,
+      "explanation": "If currents in the same direction attract, reversing one current creates the 'opposite' magnetic configuration, leading to repulsion. \n\n**Common mistake:** Thinking they still attract because they are both 'magnetic'."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q19",
+      "type": "mcq",
+      "question": "A current-carrying coil is placed in a magnetic field as shown. In which direction do forces act on the sides of the coil to make it move?nn[Reference: Figure 18.50]",
+      "options": [
+        "Upwards on one side and downwards on the other, causing rotation.",
+        "Both sides are pushed outwards, expanding the coil.",
+        "The entire coil is pushed out of the magnetic field.",
+        "Both sides are pushed towards the axis XY."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 3. A coil in a magnetic field experiences opposite forces on its two sides (due to opposite current directions relative to the field), creating a turning effect. \n\n**Common mistake:** Thinking the whole coil moves in one linear direction."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q20",
+      "type": "mcq",
+      "question": "Which change to a d.c. motor would NOT increase the turning effect on the coil?",
+      "options": [
+        "Reversing the direction of the current",
+        "Increasing the number of turns in the coil",
+        "Increasing the magnitude of the current",
+        "Using a stronger permanent magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing current changes the direction of the turning effect but not its magnitude. The other options all increase the force. \n\n**Common mistake:** Thinking reversal always counts as an 'increase' in some property."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q21",
+      "type": "mcq",
+      "question": "The diagram shows a simple d.c. motor. Which part is the split-ring commutator?n[Diagram showing magnets, coil, and four labelled parts A, B, C, D]",
+      "options": [
+        "The split ring connected to the coil ends",
+        "The permanent magnets on the sides",
+        "The rectangular coil of wire",
+        "The carbon brushes touching the ring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on standard IGCSE diagrams (like Fig 18.56), the split-ring commutator is the circular ring divided into two halves that rotates with the coil.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q22",
+      "type": "mcq",
+      "question": "A student tests a motor and records the following data:nnTrial | Current / A | Resultn--- | --- | ---n1 | 1.0 | Rotates slowlyn2 | 2.0 | Rotates fastern3 | 0.0 | StationarynnWhat can be concluded from this data?",
+      "options": [
+        "The speed of rotation increases as the current increases",
+        "The motor requires a minimum of 2.0 A to function",
+        "The direction of rotation depends on the current magnitude",
+        "The current has no effect on the mechanical energy output"
+      ],
+      "correctIndex": 0,
+      "explanation": "The data clearly shows that increasing the current from 1.0 A to 2.0 A results in a faster rotation speed, supporting the theory that current affects the magnitude of the force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q23",
+      "type": "mcq",
+      "question": "In a simple d.c. motor, the direction of the current in the motor coil is reversed every half-revolution. Which part of the motor enables this?",
+      "options": [
+        "Split-ring commutator",
+        "Brushes",
+        "Coil",
+        "Permanent magnets"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from the review section. The split-ring commutator is specifically designed to reverse current every 180 degrees of rotation.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q24",
+      "type": "mcq",
+      "question": "Which row correctly identifies how to reverse the direction of the force on a current-carrying conductor in a magnetic field?",
+      "options": [
+        "Reverse the magnetic field OR reverse the current",
+        "Reverse the magnetic field AND reverse the current",
+        "Increase the current and keep field the same",
+        "Decrease the current and reverse the field"
+      ],
+      "correctIndex": 0,
+      "explanation": "To reverse the direction of the force, only one factor (current or field) must be reversed. Reversing both would result in the same original force direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q25",
+      "type": "mcq",
+      "question": "A d.c. motor is used in a toy drone. Why are permanent magnets used in the motor?",
+      "options": [
+        "To provide a constant magnetic field for the coil to interact with",
+        "To ensure the motor always spins in an anticlockwise direction",
+        "To convert kinetic energy back into electrical energy for the battery",
+        "To act as a safety switch that breaks the circuit if it gets too hot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Permanent magnets provide the external magnetic field necessary for the current-carrying coil to experience a force (the motor effect).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q26",
+      "type": "mcq",
+      "question": "A transformer has $400$ turns in the primary coil and $10$ turns in the secondary coil. If the primary voltage is $250\\text{ V}$, what is the secondary voltage?",
+      "options": [
+        "$6.25\\text{ V}$",
+        "$25\\text{ V}$",
+        "$10000\\text{ V}$",
+        "$0.04\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 7(a)(i). $V_s = V_p \\times (N_s / N_p) = 250 \\times (10 / 400) = 6.25\\text{ V}$. \n\n**Common mistake:** Multiplying turns ($400 \\times 10$)."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q27",
+      "type": "mcq",
+      "question": "Referring to the transformer in the previous question ($N_p=400, N_s=10, V_p=250\\text{V}$), if the primary current is $2.0\\text{ A}$, what is the secondary current assuming $100\\%$ efficiency?",
+      "options": [
+        "$80\\text{ A}$",
+        "$0.05\\text{ A}$",
+        "$500\\text{ A}$",
+        "$5.0\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 7(a)(ii). $I_s = (I_p \\times V_p) / V_s = (2.0 \\times 250) / 6.25 = 80\\text{ A}$. \n\n**Common mistake:** Dividing the primary current by the turns ratio incorrectly."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q28",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies properties of an ideal step-up transformer?nn| | Potential Difference | Number of Turns | Current |n| :--- | :--- | :--- | :--- |n| A | $V_s > V_p$ | $N_s > N_p$ | $I_s < I_p$ |n| B | $V_s > V_p$ | $N_s < N_p$ | $I_s > I_p$ |n| C | $V_s < V_p$ | $N_s > N_p$ | $I_s < I_p$ |n| D | $V_s < V_p$ | $N_s < N_p$ | $I_s > I_p$ |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a step-up transformer, voltage increases ($V_s > V_p$), meaning turns must increase ($N_s > N_p$). For an ideal transformer, current must decrease ($I_s < I_p$) to keep power constant. \n\n**Common mistake:** Thinking everything increases in a 'step-up' transformer."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q29",
+      "type": "mcq",
+      "question": "A student winds a wire $30$ \\times around a soft iron C-core. To show electromagnetic induction without using a magnet, they should use a second identical C-core and:",
+      "options": [
+        "Connect one coil to an a.c. supply and the other to a galvanometer.",
+        "Connect both coils in series to a high-voltage d.c. battery.",
+        "Rub both cores with silk to create static charges.",
+        "Place the two cores parallel to each other without touching."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 11. By using two coils on iron cores (forming a transformer) and an a.c. supply, a changing magnetic field is created that induces a current in the second coil. \n\n**Common mistake:** Using a d.c. battery, which will only induce a current at the moment the switch is closed/opened."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-pyp-q30",
+      "type": "mcq",
+      "question": "The diagram shows a simple iron-cored transformer. Which labels correctly identify parts X and Y?nn[Diagram: Coil X connected to a.c. input, Coil Y connected to a lamp, both on an iron ring]",
+      "options": [
+        "X: Primary coil; Y: Secondary coil",
+        "X: Secondary coil; Y: Primary coil",
+        "X: Brushes; Y: Slip rings",
+        "X: Armature; Y: Commutator"
+      ],
+      "correctIndex": 0,
+      "explanation": "In transformer diagrams, the input side is the primary (X) and the output/load side is the secondary (Y). \n\n**Common mistake:** Swapping the terms or using motor component names."
+    }
+  ]
+}

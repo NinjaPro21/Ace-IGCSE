@@ -1,0 +1,77 @@
+{
+  "id": "20-3-radioactive-decay-easy",
+  "topicId": "20-3-radioactive-decay",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "easy",
+  "title": "Radioactive Decay — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-3-radioactive-decay-easy-q1",
+      "type": "mcq",
+      "question": "Which words correctly describe the nature of radioactive decay?",
+      "options": [
+        "Spontaneous and random",
+        "Predictable and constant",
+        "Fast and controlled",
+        "Slow and linear"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources describe the emission of radiation from a nucleus as spontaneous and random in direction. \n\n**Common mistake:** Thinking that we can predict exactly when a specific nucleus will decay."
+    },
+    {
+      "id": "20-3-radioactive-decay-easy-q2",
+      "type": "mcq",
+      "question": "What happens to the nucleon number ($A$) of a nucleus when it emits an alpha ($alpha$) particle?",
+      "options": [
+        "It decreases by 4.",
+        "It decreases by 2.",
+        "It remains the same.",
+        "It increases by 1."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the subtopic notes, when a nucleus emits an $alpha$-particle, its nucleon number decreases by 4. \n\n**Common mistake:** Confusing nucleon number with proton number, which decreases by 2."
+    },
+    {
+      "id": "20-3-radioactive-decay-easy-q3",
+      "type": "mcq",
+      "question": "When a nucleus undergoes beta ($beta$) decay, what change occurs to its proton number ($Z$)?",
+      "options": [
+        "It increases by 1.",
+        "It decreases by 1.",
+        "It decreases by 2.",
+        "It remains the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "In $beta$-decay, the proton number increases by 1 because a neutron changes into a proton and an electron. \n\n**Common mistake:** Thinking the proton number stays the same because the nucleon number does."
+    },
+    {
+      "id": "20-3-radioactive-decay-easy-q4",
+      "type": "mcq",
+      "question": "Which type of nuclear emission does not change the proton number or the nucleon number of the nucleus?",
+      "options": [
+        "Gamma ($gamma$) radiation",
+        "Alpha ($alpha$) particles",
+        "Beta ($beta$) particles",
+        "Neutron radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma emission often accompanies $alpha$ or $beta$ decay, but the $gamma$-ray itself does not change the $A$ or $Z$ values of the nucleus. \n\n**Common mistake:** Believing $gamma$-rays are particles like $alpha$ or $beta$ that alter the identity of the element."
+    },
+    {
+      "id": "20-3-radioactive-decay-easy-q5",
+      "type": "mcq",
+      "question": "What is the primary result of $alpha$ or $beta$ decay on the identity of an atom?",
+      "options": [
+        "The nucleus changes to that of a different element.",
+        "The atom becomes a different isotope of the same element.",
+        "The atom becomes a positive ion but the element stays the same.",
+        "The atom disappears completely."
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that during $alpha$ or $beta$ decay, the nucleus changes into a different element because the proton number changes. \n\n**Common mistake:** Thinking decay only produces energy without changing the matter itself."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "8-2-length-of-an-arc-harder-topic-pyp",
+  "topicId": "8-2-length-of-an-arc-harder-topic",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "pyp",
+  "title": "Length of an Arc — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a sector with radius $r$2$\\theta$2$r$2$\\theta$.",
+      "options": [
+        "$100 / (\\theta + 2)$",
+        "$100 / (\\theta + r)$",
+        "$100\\theta / 2$",
+        "$50 - \\theta$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$r\\theta + 2r = 100 \\implies r(\\theta + 2) = 100 \\implies r = 100 / (\\theta + 2)$.\n\n**Common mistake:** Simplifying the denominator to $2\\theta$2$+2$ constant."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "A piece of wire 20 cm long is bent into the shape of a sector of a circle with radius 6 cm. Find the angle of the sector in radians.",
+      "options": [
+        "4/3",
+        "1.5",
+        "3.33",
+        "1.25"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = 20, r = 6$. $6\\theta + 12 = 20 \\implies 6\\theta = 8 \\implies \\theta = 4/3$ rad.\n\n**Common mistake:** Treating 20 cm as the arc length only, resulting in $20/6 = 3.33$ rad."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "Find the perimeter of a segment of a circle with radius 10 cm and central angle 1 rad. (Chord length $c = 2r \\sin(\\theta/2)$)",
+      "options": [
+        "19.59 cm",
+        "20 cm",
+        "10 cm",
+        "14.79 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arc length $s = 10 \\times 1 = 10$ cm. Chord $c = 2(10) \\sin(0.5) \\approx 20 \\times 0.4794 = 9.59$ cm. Total $P = 10 + 9.59 = 19.59$ cm.\n\n**Common mistake:** Failing to calculate the chord length or using the formula for sector perimeter instead of segment perimeter."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "A sector of a circle has radius $r$2$\\theta$. If the radius is doubled and the angle is halved, what happens to the arc length?",
+      "options": [
+        "It remains the same.",
+        "It is doubled.",
+        "It is halved.",
+        "It is quadrupled."
+      ],
+      "correctIndex": 0,
+      "explanation": "$s_{new} = (2r) \\times (\\theta / 2) = r\\theta = s_{old}$.\n\n**Common mistake:** Assuming it must change because the individual components changed."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "A circular arc has length $\\pi$ cm and radius 3 cm. Find the central angle in degrees.",
+      "options": [
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$180^\\circ$",
+        "$120^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\pi = 3\\theta \\implies \\theta = \\pi / 3$ rad. In degrees: $(\\pi / 3) \\times (180 / \\pi) = 60^\\circ$.\n\n**Common mistake:** Providing the answer in radians or miscalculating the conversion to degrees."
+    }
+  ]
+}

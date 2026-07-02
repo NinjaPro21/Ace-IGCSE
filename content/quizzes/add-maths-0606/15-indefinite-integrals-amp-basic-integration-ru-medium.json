@@ -1,0 +1,272 @@
+{
+  "id": "15-indefinite-integrals-amp-basic-integration-ru-medium",
+  "topicId": "15-indefinite-integrals-amp-basic-integration-ru",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "medium",
+  "title": "Indefinite Integrals & Basic Integration Rules — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q1",
+      "type": "mcq",
+      "question": "A curve has a gradient function $\\frac{dy}{dx} = 4x - 6$ . If the curve passes through the point $(2, 5)$ , find its equation.",
+      "options": [
+        "$y = 2x^2 - 6x + 9$",
+        "$y = 2x^2 - 6x + 5$",
+        "$y = 4x^2 - 6x + 1$",
+        "$y = 2x^2 - 6x - 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating gives $y = 2x^2 - 6x + c$2$x=2, y=5$ yields $5 = 2(4) - 6(2) + c \\implies 5 = 8 - 12 + c \\implies 5 = -4 + c \\implies c = 9$ .\n\n**Common mistake:** Option B assumes the constant $c$ is equal to the y-coordinate of the given point without performing the substitution."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q2",
+      "type": "mcq",
+      "question": "Find $\\int (x + 4)(x - 2) dx$ .",
+      "options": [
+        "$\\frac{x^3}{3} + x^2 - 8x + c$",
+        "$\\frac{x^3}{3} + 2x^2 - 8x + c$",
+        "$x^2 + 2x - 8 + c$",
+        "$2x + 2 + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First expand the integrand: $x^2 + 2x - 8$ . Integrating term by term gives $\\frac{x^3}{3} + \\frac{2x^2}{2} - 8x = \\frac{x^3}{3} + x^2 - 8x + c$ .\n\n**Common mistake:** Option C is just the expanded quadratic before integration has taken place."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q3",
+      "type": "mcq",
+      "question": "Find the equation of the curve with gradient $\\frac{10}{\\sqrt{x}}$ that passes through the point $(4, 50)$ .",
+      "options": [
+        "$y = 20\\sqrt{x} + 10$",
+        "$y = 5\\sqrt{x} + 40$",
+        "$y = 20\\sqrt{x} + 50$",
+        "$y = 10\\sqrt{x} + 30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\int 10x^{-0.5} dx = 10 \\cdot \\frac{x^{0.5}}{0.5} = 20\\sqrt{x} + c$2$(4, 50)$ : $50 = 20(2) + c \\implies 50 = 40 + c \\implies c = 10$ .\n\n**Common mistake:** Option C is a common mistake where the student uses the y-coordinate as the constant $c$ directly."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q4",
+      "type": "mcq",
+      "question": "Evaluate $\\int (2x^3 - 5 + \\frac{3}{x^4}) dx$ .",
+      "options": [
+        "$0.5x^4 - 5x - \\frac{1}{x^3} + c$",
+        "$0.5x^4 - 5x + \\frac{1}{x^3} + c$",
+        "$6x^2 - \\frac{12}{x^5} + c$",
+        "$0.5x^4 - 5 - \\frac{1}{x^3} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\int (2x^3 - 5 + 3x^{-4}) dx = \\frac{2x^4}{4} - 5x + \\frac{3x^{-3}}{-3} = 0.5x^4 - 5x - x^{-3} + c$ .\n\n**Common mistake:** Option D occurs if the student forgets to attach the variable $x$ to the constant term -5 during integration."
+    },
+    {
+      "type": "mcq",
+      "question": "Evaluate the indefinite integral $\\int (2x + 3)^4 dx$.",
+      "options": [
+        "(2x+3)^5 / 10 + c",
+        "(2x+3)^5 / 5 + c",
+        "5(2x+3)^5 + c",
+        "10(2x+3)^5 + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the chain rule reversed: Increase power to 5, divide by new power and the coefficient of $x$2$1/(5 \\times 2) (2x+3)^5$.\n\n**Common mistake:** Forgetting to divide by the coefficient of $x$ (2).",
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q5"
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q6",
+      "type": "mcq",
+      "question": "Find the integral of $y = \\frac{1}{(4x + 3)^2}$.",
+      "options": [
+        "$-\\frac{1}{4(4x + 3)} + c$",
+        "$\\frac{1}{4(4x + 3)} + c$",
+        "$-\\frac{1}{4x + 3} + c$",
+        "$\\frac{-2}{(4x + 3)³} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Function is $(4x+3)^{-2}$. Integral is $\\frac{(4x+3)^{-1}}{-1 \\times 4} = -\\frac{1}{4(4x+3)}$.\n\n**Common mistake:** Integrating the denominator as a log or making power rule errors on negative exponents."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q7",
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^1 (2x + 1)^2 \\\\\\\\\\,dx.$.",
+      "options": [
+        "13/3",
+        "4",
+        "26/3",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "$[\\frac{(2x+1)³}{3 \\times 2}]_0^1 = [\\frac{(2x+1)³}{6}]_0^1 = \\frac{27}{6} - \\frac{1}{6} = \\frac{26}{6} = 13/3$.\n\n**Common mistake:** Forgetting to subtract the value at the lower bound $x=0$."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q8",
+      "type": "mcq",
+      "question": "Find $\\int \\frac{3}{\\sqrt{2x - 1}} \\\\\\\\\\,dx.$.",
+      "options": [
+        "$3\\sqrt{2x - 1} + c$",
+        "$\\frac{3}{2}\\sqrt{2x - 1} + c$",
+        "$6\\sqrt{2x - 1} + c$",
+        "$\\frac{1}{\\sqrt{2x - 1}} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$3(2x-1)^{-1/2} \\rightarrow \\frac{3(2x-1)^{1/2}}{0.5 \\times 2} = 3(2x-1)^{1/2}$.\n\n**Common mistake:** Incorrectly applying the constant 3 or the 0.5 divisor."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q9",
+      "type": "mcq",
+      "question": "If $f'(x) = (x + 1)^3$ and $f(0) = 0.75$, find $f(x)$.",
+      "options": [
+        "$0.25(x + 1)^4 + 0.5$",
+        "$0.25(x + 1)^4 + 0.75$",
+        "$(x + 1)^4 + 0.5$",
+        "$0.25(x + 1)^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f(x) = 0.25(x+1)^4 + c$2$x=0$, $0.25(1) + c = 0.75 \\implies c = 0.5$.\n\n**Common mistake:** Assuming the constant $c$2$f(0)$ directly without checking the expression at $x=0$."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q10",
+      "type": "mcq",
+      "question": "Determine $\\int (1 - 2x)^{1/2} \\\\\\\\\\,dx.$.",
+      "options": [
+        "$-\\frac{1}{3}(1 - 2x)^{3/2} + c$",
+        "$\\frac{1}{3}(1 - 2x)^{3/2} + c$",
+        "$-(1 - 2x)^{3/2} + c$",
+        "$\\frac{2}{3}(1 - 2x)^{3/2} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{(1-2x)^{3/2}}{1.5 \\times -2} = \\frac{(1-2x)^{3/2}}{-3}$.\n\n**Common mistake:** Missing the negative sign from the $-2x$ term."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q11",
+      "type": "mcq",
+      "question": "A curve has a gradient function $\\frac{dy}{dx} = 6e^{3x}$ . Given the curve passes through $(0, 10)$, find its equation.",
+      "options": [
+        "$y = 2e^{3x} + 8$",
+        "$y = 2e^{3x} + 10$",
+        "$y = 18e^{3x} - 8$",
+        "$y = 2e^{3x}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating gives $y = 2e^{3x} + c$2$(0, 10)$ gives $10 = 2e^0 + c \\implies 10 = 2 + c \\implies c = 8$.\n\n**Common mistake:** Option B is chosen if the student assumes the constant $c$2$2e^0 = 2$."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q12",
+      "type": "mcq",
+      "question": "Evaluate $\\int (e^{2x-1} - 4\\sin x) dx$ .",
+      "options": [
+        "$0.5e^{2x-1} + 4\\cos x + c$",
+        "$2e^{2x-1} + 4\\cos x + c$",
+        "$0.5e^{2x-1} - 4\\cos x + c$",
+        "$0.5e^{2x} + 4\\cos x + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating $e^{2x-1}$ gives $0.5e^{2x-1}$. Integrating $-4\\sin x$2$-4(-\\cos x) = 4\\cos x$.\n\n**Common mistake:** Option C is a sign error where the student fails to cancel the two negative signs during the integration of sine."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q13",
+      "type": "mcq",
+      "question": "Find the indefinite integral of $\\cos(4x + \\frac{\\pi}{2})$ with respect to $x$.",
+      "options": [
+        "$0.25\\sin(4x + \\frac{\\pi}{2}) + c$",
+        "$-0.25\\sin(4x + \\frac{\\pi}{2}) + c$",
+        "$4\\sin(4x + \\frac{\\pi}{2}) + c$",
+        "$\\sin(x + \\frac{\\pi}{8}) + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the rule for $\\cos(ax+b)$, we multiply by $1/a$2$a=4$, so the multiplier is $0.25$.\n\n**Common mistake:** Option B is a sign error, confusing the integral of cosine with the integral of sine."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q14",
+      "type": "mcq",
+      "question": "The gradient of a curve is $2\\cos(0.5x)$. If the curve passes through the point $(\\pi, 6)$, find the value of $y$2$x = 0$.",
+      "options": [
+        "$2$",
+        "$6$",
+        "$4$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating gives $y = 4\\sin(0.5x) + c$2$(\\pi, 6)$, $6 = 4\\sin(\\pi/2) + c \\implies 6 = 4(1) + c \\implies c = 2$. At $x=0$, $y = 4(0) + 2 = 2$.\n\n**Common mistake:** Option B occurs if the student stops after finding the constant $c$2$\\sin(0)$."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q15",
+      "type": "mcq",
+      "question": "Find $\\int (e^{-x} + e^{2x}) dx$ .",
+      "options": [
+        "$-e^{-x} + 0.5e^{2x} + c$",
+        "$e^{-x} + 0.5e^{2x} + c$",
+        "$-e^{-x} + 2e^{2x} + c$",
+        "$-xe^{-x} + 0.5e^{2x} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integral of $e^{-x}$ is $-e^{-x}$ (dividing by $-1$). Integral of $e^{2x}$ is $0.5e^{2x}$ (dividing by 2).\n\n**Common mistake:** Option B fails to account for the negative coefficient in the first exponent during integration."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q16",
+      "type": "mcq",
+      "question": "Find $\\int \\frac{x + 2}{x} \\\\\\\\\\,dx.$.",
+      "options": [
+        "x + 2 ln|x| + c",
+        "ln|x^2 + 2x| + c",
+        "1 + 2/x^2 + c",
+        "x + ln|x| + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide the numerator by the denominator first: ∫ (1 + 2/x) dx = x + 2 ln|x| + c.\n\n**Common mistake:** Attempting to integrate the numerator and denominator separately."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q17",
+      "type": "mcq",
+      "question": "Evaluate $\\int \\frac{10}{3x + 2} \\\\\\\\\\,dx.$.",
+      "options": [
+        "10/3 ln|3x + 2| + c",
+        "10 ln|3x + 2| + c",
+        "30 ln|3x + 2| + c",
+        "3.33/x + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula: (k/a) ln|ax+b| = (10/3) ln|3x+2|.\n\n**Common mistake:** Multiplying by the coefficient 3 instead of dividing by it."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q18",
+      "type": "mcq",
+      "question": "Find the area under the curve $y = 1/x$2$x=2$ to $x=4$.",
+      "options": [
+        "ln 2",
+        "ln 4",
+        "0.5",
+        "ln 6"
+      ],
+      "correctIndex": 0,
+      "explanation": "∫ from 2 to 4 (1/x) dx = [ln x] from 2 to 4 = ln 4 - ln 2 = ln(4/2) = ln 2.\n\n**Common mistake:** Evaluating the difference as ln(4-2) = ln 2 (correct answer by coincidence) but failing the log laws in harder cases."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q19",
+      "type": "mcq",
+      "question": "If $f'(x) = \\frac{1}{x-1}$ and $f(2) = 5$, find $f(x)$.",
+      "options": [
+        "ln|x - 1| + 5",
+        "ln|x - 1|",
+        "ln|x - 1| + 4",
+        "1 / (x-1)$^2$ + 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "f(x) = ln|x-1| + c. At x=2, ln(1) + c = 5 => 0 + c = 5 => c = 5.\n\n**Common mistake:** Assuming c must be 0 because of the log value."
+    },
+    {
+      "id": "15-indefinite-integrals-amp-basic-integration-ru-medium-q20",
+      "type": "mcq",
+      "question": "Integrate $\\int (\\frac{1}{x} + e^x) \\\\\\\\\\,dx.$.",
+      "options": [
+        "ln|x| + e^x + c",
+        "ln|x| + xe^x + c",
+        "-1/x^2 + e^x + c",
+        "ln|x + e^x| + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrate each term separately.\n\n**Common mistake:** Combining the terms inside a single log incorrectly."
+    }
+  ]
+}

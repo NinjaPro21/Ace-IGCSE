@@ -1,0 +1,77 @@
+{
+  "id": "3-2-density-hard",
+  "topicId": "3-2-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "hard",
+  "title": "Density — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-density-hard-q1",
+      "type": "mcq",
+      "question": "A rectangular block of material has a mass of $14.9\\text{ kg}$ and a density of $5\\text{ g/cm}^3$. Calculate its volume in $cm^3$.",
+      "options": [
+        "$2980\\text{ cm}^3$",
+        "$74.5\\text{ cm}^3$",
+        "$0.33\\text{ cm}^3$",
+        "$29.8\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First convert mass to grams: $14.9\\text{ kg} = 14900\\text{ g}$. Then $V = m / rho = 14900 / 5 = 2980\\text{ cm}^3$. \n\n**Common mistake:** Forgetting to convert $kg$ to $g$ before using the $g/cm^3$ density value."
+    },
+    {
+      "id": "3-2-density-hard-q2",
+      "type": "mcq",
+      "question": "A ship is made of steel, which is denser than water, yet the ship floats. Why?",
+      "options": [
+        "The average density of the ship (including air) is less than water",
+        "Steel becomes less dense when shaped into a hull",
+        "The salt in seawater increases the ship's weight",
+        "The volume of the steel is reduced to make it lighter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average density is total mass divided by total volume. Because the ship contains large volumes of air, its average density is less than that of water. \n\n**Common mistake:** Believing the material property of steel itself changes."
+    },
+    {
+      "id": "3-2-density-hard-q3",
+      "type": "mcq",
+      "question": "A composite cube is made of $7.0\\text{ cm}^3$ of wood (mass $42.0\\text{ g}$) and $1.0\\text{ cm}^3$ of metal (mass $5.0\\text{ g}$). Calculate the average density of the composite cube.",
+      "options": [
+        "$5.9\\text{ g/cm}^3$",
+        "$5.5\\text{ g/cm}^3$",
+        "$11.0\\text{ g/cm}^3$",
+        "$47.0\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total mass $= 42 + 5 = 47\\text{ g}$. Total volume $= 7 + 1 = 8\\text{ cm}^3$. Average density $= 47 / 8 = 5.875\\text{ (\\approx 5.9) g/cm}^3$. \n\n**Common mistake:** Averaging the two individual densities ($(6+5)/2$) instead of using total mass/total volume."
+    },
+    {
+      "id": "3-2-density-hard-q4",
+      "type": "mcq",
+      "question": "How does a submarine use its ballast tanks to sink from a floating position?",
+      "options": [
+        "It fills tanks with water to increase total mass and average density",
+        "It fills tanks with air to increase its volume",
+        "It releases water to decrease its weight",
+        "It increases its surface area to catch more current"
+      ],
+      "correctIndex": 0,
+      "explanation": "By filling ballast tanks with water, the total mass increases while the volume remains fixed, raising the average density above that of seawater. \n\n**Common mistake:** Thinking the volume of the submarine changes to control buoyancy."
+    },
+    {
+      "id": "3-2-density-hard-q5",
+      "type": "mcq",
+      "question": "A solid block has dimensions $20\\text{ cm} \\times 10\\text{ cm} \\times 15\\text{ cm}$ and a density of $5\\text{ g/cm}^3$. If a cylindrical hole is bored through it, the mass drops to $14.9\\text{ kg}$. What was the volume of the material removed?",
+      "options": [
+        "$20\\text{ cm}^3$",
+        "$3000\\text{ cm}^3$",
+        "$2980\\text{ cm}^3$",
+        "$149\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original volume $= 20times10times15 = 3000\\text{ cm}^3$. Final volume $= 14900\\text{ g} / 5\\text{ g/cm}^3 = 2980\\text{ cm}^3$. Removed volume $= 3000 - 2980 = 20\\text{ cm}^3$. \n\n**Common mistake:** Calculating the final volume ($2980$) and forgetting to subtract it from the original."
+    }
+  ]
+}

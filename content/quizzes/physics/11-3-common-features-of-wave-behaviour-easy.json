@@ -1,0 +1,77 @@
+{
+  "id": "11-3-common-features-of-wave-behaviour-easy",
+  "topicId": "11-3-common-features-of-wave-behaviour",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "easy",
+  "title": "Common Features of Wave Behaviour — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-common-features-of-wave-behaviour-easy-q1",
+      "type": "mcq",
+      "question": "What is the name of the effect where waves spread out after passing through a gap or around an edge?",
+      "options": [
+        "Diffraction",
+        "Reflection",
+        "Refraction",
+        "Dispersion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diffraction is defined as the spreading out of waves when they encounter gaps and edges. Reflection is bouncing, and refraction is bending due to speed changes.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-easy-q2",
+      "type": "mcq",
+      "question": "When water waves are reflected from a straight barrier, how does the wavelength change?",
+      "options": [
+        "It remains the same",
+        "It increases",
+        "It decreases",
+        "It becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "In reflection, the waves bounce off the surface without changing shape or speed; therefore, the distance between wavefronts (wavelength) remains the same.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-easy-q3",
+      "type": "mcq",
+      "question": "In a ripple tank, what happens to the direction of a wave when it enters shallower water at an angle?",
+      "options": [
+        "It bends towards the normal",
+        "It bends away from the normal",
+        "It continues in a straight line",
+        "It reflects back immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves travel slower in shallow water. When entering a medium where they travel slower at an angle, they undergo refraction and bend towards the normal.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-easy-q4",
+      "type": "mcq",
+      "question": "Which wave property remains constant when a wave passes from deep water into shallow water?",
+      "options": [
+        "Frequency",
+        "Speed",
+        "Wavelength",
+        "Direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is determined by the source and does not change when the wave enters a new medium. Speed and wavelength both decrease in shallower water.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-easy-q5",
+      "type": "mcq",
+      "question": "For the reflection of water waves, what is the relationship between the angle of incidence $i$ and the angle of reflection $r$?",
+      "options": [
+        "$i = r$",
+        "$i > r$",
+        "$i < r$",
+        "$i + r = 90^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection ($i = r$).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

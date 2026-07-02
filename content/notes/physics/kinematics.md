@@ -1,3 +1,5 @@
+## Core idea
+
 ## Kinematics
 
 **Speed** is distance per time. **Velocity** includes direction.

@@ -1,0 +1,77 @@
+{
+  "id": "8-3-gases-and-the-absolute-scale-of-temperature-easy",
+  "topicId": "8-3-gases-and-the-absolute-scale-of-temperature",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "easy",
+  "title": "Gases and the Absolute Scale of Temperature — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-easy-q1",
+      "type": "mcq",
+      "question": "What is the temperature of absolute zero in the Celsius scale?",
+      "options": [
+        "$-273^\\circ\\text{C}$",
+        "$0^\\circ\\text{C}$",
+        "$-100^\\circ\\text{C}$",
+        "$-373^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Absolute zero is defined as $-273^\\circ\\text{C}$, which corresponds to $0\\text{ K}$ on the absolute scale. **Common mistake:** Thinking absolute zero is $0^\\circ\\text{C}$, which is actually the melting point of ice."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is the standard SI unit for thermodynamic temperature?",
+      "options": [
+        "kelvin (K)",
+        "degrees Celsius ($^\\circ\\text{C}$)",
+        "degrees Fahrenheit ($^\\circ\\text{F}$)",
+        "joule (J)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The kelvin (K) is the SI unit for temperature. **Common mistake:** Choosing degrees Celsius, which is a common scale but not the standard SI unit used in thermodynamic equations."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-easy-q3",
+      "type": "mcq",
+      "question": "If the volume of a fixed mass of gas is halved at a constant temperature, what happens to its pressure?",
+      "options": [
+        "It doubles",
+        "It is halved",
+        "It remains the same",
+        "It becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure and volume are inversely proportional ($p \\propto 1/V$); if volume decreases (halves), pressure must increase (double). **Common mistake:** Thinking pressure and volume are directly proportional, which would mean pressure also halves."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-easy-q4",
+      "type": "mcq",
+      "question": "How do you convert a temperature from degrees Celsius ($^\\circ\\text{C}$) to kelvin (K)?",
+      "options": [
+        "Add 273",
+        "Subtract 273",
+        "Multiply by 273",
+        "Divide by 273"
+      ],
+      "correctIndex": 0,
+      "explanation": "The relationship is $T\\text{ (K)} = \\theta\\text{ (}^\\circ\\text{C)} + 273$. **Common mistake:** Subtracting 273, which is the conversion from Kelvin back to Celsius."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-easy-q5",
+      "type": "mcq",
+      "question": "What does a horizontal line on a pressure-volume graph indicate?",
+      "options": [
+        "The pressure remains constant as the volume changes",
+        "The volume remains constant as the pressure changes",
+        "The temperature is increasing at a steady rate",
+        "The gas is being compressed to zero volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line on any graph against volume ($x$-axis) means the $y$-value (pressure) is constant. **Common mistake:** Confusing the axes and thinking a horizontal line means constant volume (which would be a vertical line)."
+    }
+  ]
+}

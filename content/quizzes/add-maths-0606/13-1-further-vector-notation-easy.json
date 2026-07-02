@@ -1,0 +1,77 @@
+{
+  "id": "13-1-further-vector-notation-easy",
+  "topicId": "13-1-further-vector-notation",
+  "chapterId": "ch13-vectors",
+  "difficulty": "easy",
+  "title": "Further Vector Notation — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-further-vector-notation-easy-q1",
+      "type": "mcq",
+      "question": "Find the magnitude of the vector a=8i−15j .",
+      "options": [
+        "17",
+        "23",
+        "7",
+        "289"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude is calculated using ∣xi+yj∣=\n(\n\n$x^{2}$+$y^{2}$). Here,\n(\n\n$8^{2}$+$(-15)^{2}$)=\n(\n\n64+225)=\n(\n\n289)=17.\n\n**Common mistake:** Option B is obtained by simply adding the components (8 + 15) without squaring and taking the root."
+    },
+    {
+      "id": "13-1-further-vector-notation-easy-q2",
+      "type": "mcq",
+      "question": "Write the column vector\nbeginpmatrix−$3^{4}$endpmatrix in i,j notation.",
+      "options": [
+        "−3i+4j",
+        "3i−4j",
+        "4i−3j",
+        "−3i−4j"
+      ],
+      "correctIndex": 0,
+      "explanation": "A column vector\nbeginpmatrixx\ny\nendpmatrix corresponds directly to xi+yj.\n\n**Common mistake:** Option C is a common error where the student swaps the x and y components."
+    },
+    {
+      "id": "13-1-further-vector-notation-easy-q3",
+      "type": "mcq",
+      "question": "Find the unit vector in the direction of 5j .",
+      "options": [
+        "j",
+        "5j",
+        "1/5j",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "A unit vector has a magnitude of 1. Dividing 5j by its magnitude (5) gives j.\n\n**Common mistake:** Option B is the vector itself, not the unit vector."
+    },
+    {
+      "id": "13-1-further-vector-notation-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the magnitude of the vector v=−6i−8j .",
+      "options": [
+        "10",
+        "−14",
+        "14",
+        "100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude is\n(\n\n$(-6)^{2}$+$(-8)^{2}$)=\n(\n\n36+64)=\n(\n\n100)=10.\n\n**Common mistake:** Option B occurs if a student incorrectly carries the negative signs outside the squares."
+    },
+    {
+      "id": "13-1-further-vector-notation-easy-q5",
+      "type": "mcq",
+      "question": "If p=2i+3j , find the vector 4p .",
+      "options": [
+        "8i+12j",
+        "6i+7j",
+        "8i+3j",
+        "2i+12j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply each component by the scalar: 4(2i)+4(3j)=8i+12j.\n\n**Common mistake:** Option B is p+4 applied to the coefficients, confusing scalar multiplication with addition."
+    }
+  ]
+}

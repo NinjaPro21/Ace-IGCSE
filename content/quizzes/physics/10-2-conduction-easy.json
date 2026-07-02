@@ -1,0 +1,77 @@
+{
+  "id": "10-2-conduction-easy",
+  "topicId": "10-2-conduction",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "easy",
+  "title": "Conduction — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-2-conduction-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the primary method of thermal energy transfer through solids?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Evaporation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction is the process by which thermal energy is transferred through a medium, typically a solid, without any bulk movement of the medium itself. \n\n**Common mistake:** Selecting convection, which only occurs in fluids (liquids and gases)."
+    },
+    {
+      "id": "10-2-conduction-easy-q2",
+      "type": "mcq",
+      "question": "Which of these materials is considered the best thermal conductor?",
+      "options": [
+        "Copper",
+        "Glass",
+        "Wood",
+        "Air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metals like copper are excellent thermal conductors because they allow thermal energy to pass through them easily. \n\n**Common mistake:** Thinking glass is a good conductor; it is actually a poor conductor used for insulation in some contexts."
+    },
+    {
+      "id": "10-2-conduction-easy-q3",
+      "type": "mcq",
+      "question": "What is a material called if it does not allow thermal energy to flow through it easily?",
+      "options": [
+        "A thermal insulator",
+        "A thermal conductor",
+        "A radiator",
+        "A semiconductor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Materials that are poor conductors of thermal energy are known as thermal insulators. \n\n**Common mistake:** Confusing insulators with 'reflectors', which relate to radiation rather than conduction."
+    },
+    {
+      "id": "10-2-conduction-easy-q4",
+      "type": "mcq",
+      "question": "According to the kinetic particle model, how is energy passed along a non-metallic solid during conduction?",
+      "options": [
+        "Particles vibrate and pass energy to their neighbours through collisions",
+        "Particles move from the hot end to the cold end of the solid",
+        "Energy is transferred by infrared waves between particles",
+        "The particles expand and push the heat forward"
+      ],
+      "correctIndex": 0,
+      "explanation": "In non-metals, thermal energy is transferred as vibrating molecules collide and pass on kinetic energy to their adjacent neighbours. \n\n**Common mistake:** Believing that particles 'travel' through the solid; they only vibrate in fixed positions."
+    },
+    {
+      "id": "10-2-conduction-easy-q5",
+      "type": "mcq",
+      "question": "Why does a vacuum prevent thermal energy transfer by conduction?",
+      "options": [
+        "Conduction requires particles to transfer energy",
+        "A vacuum is at absolute zero temperature",
+        "A vacuum reflects all thermal energy",
+        "Conduction only works in the presence of air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction involves the interaction of particles (vibrations or electron movement). Since a vacuum contains no particles, conduction cannot occur. \n\n**Common mistake:** Thinking a vacuum only blocks convection."
+    }
+  ]
+}

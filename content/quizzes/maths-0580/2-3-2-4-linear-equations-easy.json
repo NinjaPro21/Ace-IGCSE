@@ -1,0 +1,77 @@
+{
+  "id": "2-3-2-4-linear-equations-easy",
+  "topicId": "2-3-2-4-linear-equations",
+  "chapterId": "ch02-algebra",
+  "difficulty": "easy",
+  "title": "Linear Equations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-3-2-4-linear-equations-easy-q1",
+      "type": "mcq",
+      "question": "Solve the equation: $4x - 7 = 13$.",
+      "options": [
+        "$5$",
+        "$1.5$",
+        "$-5$",
+        "$4.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add 7 to both sides: $4x = 20$. Divide both sides by 4: $x = 5$.\n\n**Common mistake:** Students often subtract 7 instead of adding it, leading to $4x = 6 \\rightarrow x = 1.5$."
+    },
+    {
+      "id": "2-3-2-4-linear-equations-easy-q2",
+      "type": "mcq",
+      "question": "Solve the equation: $\\frac{x}{3} + 4 = 9$.",
+      "options": [
+        "$15$",
+        "$39$",
+        "$1.67$",
+        "$27$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract 4 from both sides: $\\frac{x}{3} = 5$. Multiply both sides by 3: $x = 15$.\n\n**Common mistake:** Students sometimes multiply by 3 before subtracting 4, resulting in $x + 4 = 27 \\rightarrow x = 23$, or they multiply both sides including the 4 to get $x + 12 = 27 \\rightarrow x = 15$ but make errors in between."
+    },
+    {
+      "id": "2-3-2-4-linear-equations-easy-q3",
+      "type": "mcq",
+      "question": "Solve the equation: $7 - 2x = 1$.",
+      "options": [
+        "$3$",
+        "$-3$",
+        "$4$",
+        "$-4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract 7 from both sides: $-2x = -6$. Divide by -2: $x = 3$.\n\n**Common mistake:** Students often drop the negative sign in front of $2x$2$2x = -6 \\rightarrow x = -3$."
+    },
+    {
+      "id": "2-3-2-4-linear-equations-easy-q4",
+      "type": "mcq",
+      "question": "A rectangular garden has a length that is $5\\text{ m}$ longer than its width $w$2$34\\text{ m}$, which equation correctly models this scenario?",
+      "options": [
+        "$4w + 10 = 34$",
+        "$2w + 5 = 34$",
+        "$2w + 10 = 34$",
+        "$4w + 5 = 34$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The length is $w + 5$. Perimeter $= 2(\\text{length} + \\text{width}) = 2(w + 5 + w) = 2(2w + 5) = 4w + 10 = 34$.\n\n**Common mistake:** Students frequently forget that a rectangle has 4 sides and write the perimeter as just $\\text{length} + \\text{width} = 2w + 5 = 34$."
+    },
+    {
+      "id": "2-3-2-4-linear-equations-easy-q5",
+      "type": "mcq",
+      "question": "Solve the equation: $3(x + 2) = 21$.",
+      "options": [
+        "$5$",
+        "$6.33$",
+        "$7$",
+        "$16$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide by 3: $x + 2 = 7$. Subtract 2: $x = 5$. Alternatively, expand: $3x + 6 = 21 \\rightarrow 3x = 15 \\rightarrow x = 5$.\n\n**Common mistake:** Students often forget to expand the bracket fully, writing $3x + 2 = 21 \\rightarrow 3x = 19 \\rightarrow x = 6.33$."
+    }
+  ]
+}

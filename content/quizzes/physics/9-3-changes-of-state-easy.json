@@ -1,0 +1,77 @@
+{
+  "id": "9-3-changes-of-state-easy",
+  "topicId": "9-3-changes-of-state",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "easy",
+  "title": "Changes of State — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-3-changes-of-state-easy-q1",
+      "type": "mcq",
+      "question": "Which process describes a liquid changing into a gas at a temperature below its boiling point?",
+      "options": [
+        "Evaporation",
+        "Boiling",
+        "Condensation",
+        "Solidification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation is the process where a liquid changes into a gas and it can occur at any temperature. \n\n**Common mistake:** Boiling also changes liquid to gas, but it only happens at a specific fixed temperature."
+    },
+    {
+      "id": "9-3-changes-of-state-easy-q2",
+      "type": "mcq",
+      "question": "What is the term for a gas changing into a liquid?",
+      "options": [
+        "Condensation",
+        "Melting",
+        "Boiling",
+        "Freezing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Condensation is the change of state from gas to liquid. \n\n**Common mistake:** Melting is the change from solid to liquid."
+    },
+    {
+      "id": "9-3-changes-of-state-easy-q3",
+      "type": "mcq",
+      "question": "Where does evaporation take place in a liquid?",
+      "options": [
+        "Only at the surface",
+        "Throughout the entire liquid",
+        "Only at the bottom of the container",
+        "At the center of the liquid only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation happens only at the surface of a liquid. \n\n**Common mistake:** Boiling occurs throughout the entire depth of the liquid."
+    },
+    {
+      "id": "9-3-changes-of-state-easy-q4",
+      "type": "mcq",
+      "question": "What is the melting point of pure water at standard atmospheric pressure?",
+      "options": [
+        "$0^\\circ\\text{C}$",
+        "$100^\\circ\\text{C}$",
+        "$273^\\circ\\text{C}$",
+        "$373^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pure ice melts at $0^\\circ\\text{C}$. \n\n**Common mistake:** $100^\\circ\\text{C}$ is the boiling point of water."
+    },
+    {
+      "id": "9-3-changes-of-state-easy-q5",
+      "type": "mcq",
+      "question": "In which process is thermal energy given out to the surroundings?",
+      "options": [
+        "Solidification",
+        "Melting",
+        "Boiling",
+        "Evaporation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solidification (freezing) and condensation are processes that release energy. \n\n**Common mistake:** Melting requires an input of energy to break bonds."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2-1-substitution-easy",
+  "topicId": "2-1-substitution",
+  "chapterId": "ch02-algebra",
+  "difficulty": "easy",
+  "title": "Substitution — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-1-substitution-easy-q1",
+      "type": "mcq",
+      "question": "Evaluate the expression $3x - 5y$2$x = 4$ and $y = -3$.",
+      "options": [
+        "$27$",
+        "$-3$",
+        "$12$",
+        "$7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 4$ and $y = -3$ into the expression to get $3(4) - 5(-3) = 12 + 15 = 27$.\n\n**Common mistake:** Students often make a sign error when multiplying two negative values, calculating $-5 \\times -3$ as $-15$, leading to $12 - 15 = -3$."
+    },
+    {
+      "id": "2-1-substitution-easy-q2",
+      "type": "mcq",
+      "question": "Given the formula $v = u + at$2$v$2$u = 15$, $a = -2$, and $t = 6$.",
+      "options": [
+        "$3$",
+        "$27$",
+        "$-3$",
+        "$12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the values into the formula: $v = 15 + (-2)(6) = 15 - 12 = 3$.\n\n**Common mistake:** A student might ignore the negative sign on $a$2$15 + 12 = 27$ instead of subtracting."
+    },
+    {
+      "id": "2-1-substitution-easy-q3",
+      "type": "mcq",
+      "question": "Calculate the value of $p^2 - q$2$p = -5$ and $q = 7$.",
+      "options": [
+        "$18$",
+        "$-32$",
+        "$-18$",
+        "$32$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the parameters to obtain $(-5)² - 7 = 25 - 7 = 18$.\n\n**Common mistake:** Students frequently evaluate $(-5)²$ as $-25$, which yields an incorrect result of $-25 - 7 = -32$."
+    },
+    {
+      "id": "2-1-substitution-easy-q4",
+      "type": "mcq",
+      "question": "Find the value of $C = \\frac{5}{9}(F - 32)$ when $F = 50$.",
+      "options": [
+        "$10$",
+        "$18$",
+        "$-10$",
+        "$5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $F = 50$ into the expression: $C = \\frac{5}{9}(50 - 32) = \\frac{5}{9}(18) = 5 \\times 2 = 10$.\n\n**Common mistake:** Students might mistakenly expand first or miscalculate the subtraction inside the bracket."
+    },
+    {
+      "id": "2-1-substitution-easy-q5",
+      "type": "mcq",
+      "question": "Find the value of $2a + 3b - c$2$a = 3$, $b = 4$, and $c = -2$.",
+      "options": [
+        "$20$",
+        "$16$",
+        "$14$",
+        "$24$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the values into the expression: $2(3) + 3(4) - (-2) = 6 + 12 + 2 = 20$.\n\n**Common mistake:** Students often treat $-(-2)$ as $-2$, resulting in $6 + 12 - 2 = 16$."
+    }
+  ]
+}

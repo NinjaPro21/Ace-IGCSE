@@ -1,0 +1,77 @@
+{
+  "id": "18-4-force-on-a-current-carrying-conductor-easy",
+  "topicId": "18-4-force-on-a-current-carrying-conductor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "easy",
+  "title": "Force on a Current-carrying Conductor — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-easy-q1",
+      "type": "mcq",
+      "question": "What is the name of the effect where a force acts on a conductor carrying a current in a magnetic field?",
+      "options": [
+        "The motor effect",
+        "Electromagnetic induction",
+        "The generator effect",
+        "Electrostatic attraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the 'motor effect' describes the force that acts on a current-carrying conductor when placed in a magnetic field. \n\n**Common mistake:** Confusing it with electromagnetic induction, which is the process of generating an e.m.f. via a changing magnetic field."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-easy-q2",
+      "type": "mcq",
+      "question": "In Fleming’s left-hand rule, what does the first finger represent?",
+      "options": [
+        "The direction of the magnetic field",
+        "The direction of the current",
+        "The direction of the force (motion)",
+        "The direction of electron flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that in Fleming's left-hand rule, the first finger represents the direction of the magnetic field (from North to South). \n\n**Common mistake:** Thinking the first finger represents current, which is actually represented by the second finger."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following conditions results in zero force on a current-carrying wire in a magnetic field?",
+      "options": [
+        "The wire is parallel to the magnetic field lines.",
+        "The wire is perpendicular to the magnetic field lines.",
+        "The current in the wire is very high.",
+        "The magnetic field is provided by permanent magnets."
+      ],
+      "correctIndex": 0,
+      "explanation": "The motor effect only occurs when the conductor is not parallel to the field lines; if parallel, no field lines are cut and the force is zero. \n\n**Common mistake:** Thinking the force is zero when the wire is perpendicular, which is actually when the force is at its maximum."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-easy-q4",
+      "type": "mcq",
+      "question": "What happens to the magnitude of the force on a wire if the current flowing through it is increased?",
+      "options": [
+        "The force increases.",
+        "The force decreases.",
+        "The force remains the same.",
+        "The force direction reverses."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source notes that the force produced by the motor effect can be increased by increasing the magnitude of the current. \n\n**Common mistake:** Thinking that only the magnet strength affects the force."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-easy-q5",
+      "type": "mcq",
+      "question": "Which finger in Fleming's left-hand rule represents the direction of the conventional current?",
+      "options": [
+        "The second finger",
+        "The thumb",
+        "The first finger",
+        "The little finger"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Fleming's left-hand rule, the second finger represents the direction of the current. \n\n**Common mistake:** Using the thumb for current, whereas the thumb represents the force or resulting motion."
+    }
+  ]
+}

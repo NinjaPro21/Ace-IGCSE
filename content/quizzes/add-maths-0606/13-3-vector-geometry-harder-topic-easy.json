@@ -1,0 +1,77 @@
+{
+  "id": "13-3-vector-geometry-harder-topic-easy",
+  "topicId": "13-3-vector-geometry-harder-topic",
+  "chapterId": "ch13-vectors",
+  "difficulty": "easy",
+  "title": "Vector Geometry — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-3-vector-geometry-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "In the triangle $OAB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "$\\mathbf{b} - \\mathbf{a}$",
+        "$\\mathbf{a} - \\mathbf{b}$",
+        "$\\mathbf{a} + \\mathbf{b}$",
+        "$\\mathbf{b} + \\mathbf{a}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To go from $A$2$B$2$A$2$O$2$-\\mathbf{a}$) and then $O$2$B$2$\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "If $\\vec{PQ} = 3\\mathbf{u} - 2\\mathbf{v}$, find the vector $\\vec{QP}$.",
+      "options": [
+        "$2\\mathbf{v} - 3\\mathbf{u}$",
+        "$3\\mathbf{u} + 2\\mathbf{v}$",
+        "$-3\\mathbf{u} - 2\\mathbf{v}$",
+        "$3\\mathbf{v} - 2\\mathbf{u}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vector $\\vec{QP}$ is the negative of $\\vec{PQ}$, so $-(3\\mathbf{u} - 2\\mathbf{v}) = -3\\mathbf{u} + 2\\mathbf{v}$.\n\n**Common mistake:** Option C results from a sign error where the student only negates the first term."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "Given that $\\vec{OM} = \\mathbf{m}$ and $\\vec{ON} = \\mathbf{n}$, find the position vector of the midpoint of $MN$.",
+      "options": [
+        "$0.5(\\mathbf{m} + \\mathbf{n})$",
+        "$\\mathbf{n} - \\mathbf{m}$",
+        "$0.5(\\mathbf{n} - \\mathbf{m})$",
+        "$\\mathbf{m} + \\mathbf{n}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The position vector of the midpoint is the average of the position vectors of the endpoints: $0.5(\\mathbf{m} + \\mathbf{n})$.\n\n**Common mistake:** Option C is the vector representing half the displacement from $M$2$N$, not the position vector from the origin."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Vectors $\\mathbf{p}$ and $\\mathbf{q}$ are not parallel. If $k\\mathbf{p} = 5\\mathbf{p}$, state the value of $k$.",
+      "options": [
+        "$5$",
+        "$0$",
+        "$-5$",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $\\mathbf{p}$ is a non-zero vector, we can equate the coefficients directly to find $k = 5$.\n\n**Common mistake:** Option B might be chosen if the student confuses the property of non-parallel vectors ($a\\mathbf{p} + b\\mathbf{q} = 0 \\implies a=b=0$)."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "In a parallelogram $ABCD$2$\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "options": [
+        "$\\mathbf{q}$",
+        "$\\mathbf{p}$",
+        "$\\mathbf{p} + \\mathbf{q}$",
+        "$-\\mathbf{q}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$2$BC$."
+    }
+  ]
+}

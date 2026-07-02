@@ -1,0 +1,142 @@
+{
+  "id": "ch03-mass-weight-and-density-easy",
+  "topicId": "ch03-mass-weight-and-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "easy",
+  "title": "Chapter 3: Mass, Weight and Density — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch03-mass-weight-and-density-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following correctly defines the mass of an object?",
+      "options": [
+        "A measure of the quantity of matter in an object",
+        "A gravitational force acting on an object",
+        "The volume of space occupied by an object",
+        "The product of an object's weight and gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is defined as a measure of the quantity of matter in an object at rest relative to the observer. \n\n**Common mistake:** Confusing mass with weight, which is the force caused by gravity."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for weight?",
+      "options": [
+        "newton ($N$)",
+        "kilogram ($kg$)",
+        "kilogram per cubic metre ($kg/m^3$)",
+        "joule ($J$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight is a force, and the SI unit for all forces is the newton ($N$). \n\n**Common mistake:** Selecting kilograms ($kg$), which is the SI unit for mass."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q3",
+      "type": "mcq",
+      "question": "A bag of rice has a mass of $5\\text{ kg}$. Taking $g = 10\\text{ N/kg}$, what is its weight on Earth?",
+      "options": [
+        "$50\\text{ N}$",
+        "$0.5\\text{ N}$",
+        "$5\\text{ N}$",
+        "$50\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $W = mg$: $W = 5\\text{ kg} \\times 10\\text{ N/kg} = 50\\text{ N}$. \n\n**Common mistake:** Forgetting to multiply by $g$ and thinking the weight is simply $5\\text{ N}$."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q4",
+      "type": "mcq",
+      "question": "How does the mass of an object change when it is moved from the Earth to the Moon?",
+      "options": [
+        "It remains constant",
+        "It decreases because gravity is weaker",
+        "It increases because the Moon is smaller",
+        "It becomes zero in space"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mass of a body is not affected by changes in the physical environment like location because the quantity of matter remains the same. \n\n**Common mistake:** Thinking mass decreases because weight decreases on the Moon."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q5",
+      "type": "mcq",
+      "question": "Which instrument is typically used to measure or compare the masses of objects?",
+      "options": [
+        "Beam balance",
+        "Spring balance",
+        "Measuring cylinder",
+        "Metre rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Masses and weights may be compared using a balance, such as a simple beam balance or an electronic balance. \n\n**Common mistake:** Selecting a spring balance, which is primarily designed to measure weight (force)."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of density?",
+      "options": [
+        "Mass per unit volume",
+        "Weight per unit area",
+        "Volume per unit mass",
+        "Force per unit volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density is defined as the amount of mass packed into a given space, specifically mass per unit volume. \n\n**Common mistake:** Confusing it with pressure, which is force per unit area."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q7",
+      "type": "mcq",
+      "question": "What is the SI unit for density?",
+      "options": [
+        "$kg/m^3$",
+        "$g/cm^3$",
+        "$N/m^2$",
+        "$kg/m^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for density is kilograms per cubic metre ($kg/m^3$). \n\n**Common mistake:** While $g/cm^3$ is often used in labs, it is not the official SI unit."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q8",
+      "type": "mcq",
+      "question": "An object has a mass of $100\\text{ g}$ and a volume of $20\\text{ cm}^3$. What is its density?",
+      "options": [
+        "$5.0\\text{ g/cm}^3$",
+        "$2000\\text{ g/cm}^3$",
+        "$0.2\\text{ g/cm}^3$",
+        "$80\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $rho = m / V$: $100\\text{ g} / 20\\text{ cm}^3 = 5.0\\text{ g/cm}^3$. \n\n**Common mistake:** Multiplying the values instead of dividing mass by volume."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q9",
+      "type": "mcq",
+      "question": "Under what condition will an object float on water?",
+      "options": [
+        "If its density is less than the density of water",
+        "If its mass is less than the mass of water",
+        "If its volume is greater than the volume of water",
+        "If its density is greater than the density of water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substances that have lower densities than water will float on it. \n\n**Common mistake:** Thinking that a 'heavy' object (large mass) will always sink, regardless of its volume/density."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-easy-q10",
+      "type": "mcq",
+      "question": "If a block of uniform metal is broken into two equal parts, what happens to the density of each part?",
+      "options": [
+        "It remains the same as the original block",
+        "It is halved",
+        "It is doubled",
+        "It becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density is a property of the material. Since both mass and volume are halved, the ratio $m/V$ remains constant. \n\n**Common mistake:** Thinking that because the object is smaller, its density must also decrease."
+    }
+  ]
+}

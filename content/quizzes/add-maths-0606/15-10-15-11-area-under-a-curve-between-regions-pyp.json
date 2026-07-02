@@ -1,0 +1,77 @@
+{
+  "id": "15-10-15-11-area-under-a-curve-between-regions-pyp",
+  "topicId": "15-10-15-11-area-under-a-curve-between-regions",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "pyp",
+  "title": "Area Under a Curve & Between Regions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-10-15-11-area-under-a-curve-between-regions-pyp-q1",
+      "type": "mcq",
+      "question": "Find the area of the shaded region bounded by $y = x^2 - 2x$ and the x-axis.",
+      "options": [
+        "4/3",
+        "2/3",
+        "0",
+        "8/3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roots are x=0, 2. Integral is [x³/3 - x^2] from 0 to 2 = 8/3 - 4 = -4/3. Area = 4/3.\n\n**Common mistake:** Using the negative integral value as the area."
+    },
+    {
+      "id": "15-10-15-11-area-under-a-curve-between-regions-pyp-q2",
+      "type": "mcq",
+      "question": "The area bounded by $y = kx^2$, the x-axis, and $x = 2$ is 8. Find k.",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "∫₀² kx^2 dx = [kx³/3]₀² = 8k/3. Set 8k/3 = 8 => k = 3.\n\n**Common mistake:** Miscalculating the cube of 2 or the final algebraic step."
+    },
+    {
+      "id": "15-10-15-11-area-under-a-curve-between-regions-pyp-q3",
+      "type": "mcq",
+      "question": "Calculate the area of the region bounded by $y = x^3$, the y-axis, and $y = 8$.",
+      "options": [
+        "12",
+        "16",
+        "6",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area = Rectangle (2x8) - Area under curve (∫₀² x³ dx) = 16 - [x⁴/4]₀² = 16 - 4 = 12. Alternatively, integrate w.r.t y: ∫₀⁸ y^{1/3} dy = [0.75 y^{4/3}]₀⁸ = 0.75(16) = 12.\n\n**Common mistake:** Calculating only the area under the curve w.r.t x (4) and not subtracting from the rectangle."
+    },
+    {
+      "id": "15-10-15-11-area-under-a-curve-between-regions-pyp-q4",
+      "type": "mcq",
+      "question": "Find the area of the region in the first quadrant bounded by $y = 6 - x - x^2$ and the axes.",
+      "options": [
+        "22/3",
+        "7.33",
+        "9",
+        "Both 1 and 2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Roots: (2-x)(3+x) = 0 => x=2. First quadrant means x=0 to 2. ∫₀² (6 - x - x^2) dx = [6x - x^2/2 - x³/3] = 12 - 2 - 8/3 = 10 - 2.67 = 7.33.\n\n**Common mistake:** Using the root x=-3 as a limit for a first quadrant area."
+    },
+    {
+      "id": "15-10-15-11-area-under-a-curve-between-regions-pyp-q5",
+      "type": "mcq",
+      "question": "Find the area of the region between $y = 10 - x^2$ and $y = 1$.",
+      "options": [
+        "36",
+        "18",
+        "27",
+        "54"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersection: 10 - x^2 = 1 => x^2 = 9 => x=±3. Area = ∫ from -3 to 3 (10 - x^2 - 1) dx = ∫ (9 - x^2) dx = [9x - x³/3] from -3 to 3 = (27 - 9) - (-27 + 9) = 18 - (-18) = 36.\n\n**Common mistake:** Integrating from 0 to 3 only (18) and forgetting to double it for the symmetrical region."
+    }
+  ]
+}

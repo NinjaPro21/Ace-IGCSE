@@ -1,0 +1,77 @@
+{
+  "id": "8-2-changing-the-subject-medium",
+  "topicId": "8-2-changing-the-subject",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Changing the Subject — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-changing-the-subject-medium-q1",
+      "type": "mcq",
+      "question": "Make $w$ the subject of the formula:\n\nP = 2(l + w)",
+      "options": [
+        "$w = \\frac{P}{2} - l$",
+        "$w = \\frac{P - l}{2}$",
+        "$w = \\frac{P + 2l}{2}$",
+        "$w = 2P - l$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide both sides by $2$ to remove the brackets: $\\frac{P}{2} = l + w$2$w$2$l$2$w = \\frac{P}{2} - l$2$P = 2l + 2w \\implies P - 2l = 2w \\implies w = \\frac{P - 2l}{2}$, which simplifies to the same expression.\n\n**Common mistake:** When expanding or dividing, students frequently misapply operations to only one term inside or outside the bracket framework."
+    },
+    {
+      "id": "8-2-changing-the-subject-medium-q2",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $x$ the subject:\n\ny = \\sqrt{2x + 1}",
+      "options": [
+        "$x = \\frac{y^2 - 1}{2}$",
+        "$x = \\frac{y^2 + 1}{2}$",
+        "$x = (y - 1)^2$",
+        "$x = y^2 - 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Square both sides of the equation to eliminate the square root: $y^2 = 2x + 1$. Subtract $1$ from both sides: $y^2 - 1 = 2x$2$2$ to isolate $x$2$x = \\frac{y^2 - 1}{2}$.\n\n**Common mistake:** Students sometimes square individual terms incorrectly or try to subtract $1$ before removing the radical sign."
+    },
+    {
+      "id": "8-2-changing-the-subject-medium-q3",
+      "type": "mcq",
+      "question": "Make $a$ the subject of the formula:\n\n$s = ut + \\frac{1}{2}at^2$",
+      "options": [
+        "$a = \\frac{2(s - ut)}{t^2}$",
+        "$a = \\frac{s - ut}{2t^2}$",
+        "$a = \\frac{2s - ut}{t^2}$",
+        "$a = \\frac{\\sqrt{s - ut}}{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract $ut$2$a$2$s - ut = \\frac{1}{2}at^2$. Multiply both sides by $2$ to clear the $\\frac{tion:}{}$ $2(s - ut) = at^2$. Divide both sides by $t^2$ to leave $a$2$a = \\frac{2(s - ut)}{t^2}$.\n\n**Common mistake:** Students often fail to multiply the entire expression $(s - ut)$ by $2$, forgetting to put brackets around it."
+    },
+    {
+      "id": "8-2-changing-the-subject-medium-q4",
+      "type": "mcq",
+      "question": "Rearrange the following formula to make $g$ the subject:\n\n$T = 2\\pi\\sqrt{\\frac{l}{g}}$",
+      "options": [
+        "$g = \\frac{4\\pi^2l}{T^2}$",
+        "$g = \\frac{2\\pi l}{T^2}$",
+        "$g = \\frac{T^2}{4\\pi^2l}$",
+        "$g = \\frac{4\\pi^2T^2}{l}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide both sides by $2\\pi$2$\\frac{T}{2\\pi} = \\sqrt{\\frac{l}{g}}$. Square both sides to eliminate the square root: $\\frac{T^2}{4\\pi^2} = \\frac{l}{g}$. Cross-multiply or take the reciprocal of both sides: $\\frac{4\\pi^2}{T^2} = \\frac{g}{l}$. Multiply by $l$2$g$2$g = \\frac{4\\pi^2l}{T^2}$.\n\n**Common mistake:** When squaring $\\frac{T}{2\\pi}$, a very common error is forgetting to square the coefficient $2$, writing $2\\pi^2$ instead of $4\\pi^2$."
+    },
+    {
+      "id": "8-2-changing-the-subject-medium-q5",
+      "type": "mcq",
+      "question": "Make $x$ the subject of the formula:\n\n$y = \\frac{3}{x - 2}$",
+      "options": [
+        "$x = \\frac{3}{y} + 2$",
+        "$x = \\frac{3 + 2y}{2}$",
+        "$x = \\frac{y}{3} - 2$",
+        "$x = 3y + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both sides by $(x - 2)$ to get it out of the denominator: $y(x - 2) = 3$. Divide both sides by $y$2$x - 2 = \\frac{3}{y}$. Finally, add $2$ to both sides to solve for $x$2$x = \\frac{3}{y} + 2$.\n\n**Common mistake:** Students regularly make errors when a variable is in the denominator, often trying to subtract or add terms directly from it without shifting the expression first."
+    }
+  ]
+}

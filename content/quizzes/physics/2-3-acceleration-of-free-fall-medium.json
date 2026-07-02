@@ -1,0 +1,77 @@
+{
+  "id": "2-3-acceleration-of-free-fall-medium",
+  "topicId": "2-3-acceleration-of-free-fall",
+  "chapterId": "ch02-motion",
+  "difficulty": "medium",
+  "title": "Acceleration of Free Fall — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-3-acceleration-of-free-fall-medium-q1",
+      "type": "mcq",
+      "question": "A hammer and a feather are dropped simultaneously from the same height in a vacuum. Which hits the ground first?",
+      "options": [
+        "They hit the ground at the same time",
+        "The hammer hits first because it is heavier",
+        "The feather hits first because it is lighter",
+        "The hammer hits first because it has more surface area"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, there is no air resistance. Both objects accelerate at the same rate $g$ and hit the ground at the same time. \n\n**Common mistake:** Applying everyday experience (with air resistance) to a vacuum environment."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-medium-q2",
+      "type": "mcq",
+      "question": "An object falls freely from rest for $5.0\\text{ s}$. Calculate the speed just before it hits the ground. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$50\\text{ m/s}$",
+        "$25\\text{ m/s}$",
+        "$2.0\\text{ m/s}$",
+        "$125\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed $v = gt = 10 \\times 5.0 = 50\\text{ m/s}$. \n\n**Common mistake:** Calculating the distance ($125\\text{ m}$) instead of the speed."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-medium-q3",
+      "type": "mcq",
+      "question": "What happens to the acceleration of an object as it falls through the air before reaching terminal velocity?",
+      "options": [
+        "It decreases",
+        "It remains constant at $g$",
+        "It increases",
+        "It becomes zero immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "As speed increases, air resistance increases. This reduces the resultant force, causing the acceleration to decrease until it reaches zero. \n\n**Common mistake:** Thinking speed decreases; speed is still increasing, but it is increasing more slowly."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-medium-q4",
+      "type": "mcq",
+      "question": "A rock has a mass of $10\\text{ kg}$. Calculate its weight on the Moon, where $g = 1.6\\text{ m/s}^2$.",
+      "options": [
+        "$16\\text{ N}$",
+        "$100\\text{ N}$",
+        "$10\\text{ N}$",
+        "$6.25\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight $W = mg = 10 \\times 1.6 = 16\\text{ N}$. \n\n**Common mistake:** Thinking the mass changes on the Moon; mass remains $10\\text{ kg}$."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-medium-q5",
+      "type": "mcq",
+      "question": "A speed–time graph shows a curve that gradually becomes a horizontal line. This describes an object:",
+      "options": [
+        "Falling with air resistance reaching terminal velocity",
+        "In free fall in a vacuum",
+        "Thrown upwards and stopping",
+        "Moving at a constant acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "With air resistance, the acceleration decreases (curve flattens) until it becomes zero (horizontal line), representing terminal velocity. \n\n**Common mistake:** Assuming this happens in a vacuum."
+    }
+  ]
+}

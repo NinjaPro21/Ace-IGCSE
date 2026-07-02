@@ -1,0 +1,142 @@
+{
+  "id": "ch01-measurements-of-physical-quantities-easy",
+  "topicId": "ch01-measurements-of-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "easy",
+  "title": "Chapter 1: Measurements of Physical Quantities — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q1",
+      "type": "mcq",
+      "question": "What are the two components that make up a physical quantity?",
+      "options": [
+        "A numerical magnitude and a unit",
+        "A scalar and a vector",
+        "A base quantity and a derived quantity",
+        "Mass and weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "A physical quantity is defined as a quantity that can be measured, consisting of a numerical magnitude and a unit. \n\n**Common mistake:** Students often confuse types of quantities, like scalars and vectors, with the definition of a physical quantity itself."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is the SI unit for thermodynamic temperature?",
+      "options": [
+        "Kelvin (K)",
+        "Celsius (°C)",
+        "Fahrenheit (°F)",
+        "Ampere (A)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kelvin (K) is one of the seven basic SI base units. \n\n**Common mistake:** Celsius is used more frequently in daily life, leading students to incorrectly assume it is the standard SI unit."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q3",
+      "type": "mcq",
+      "question": "What is the precision of a standard metre rule?",
+      "options": [
+        "1 mm",
+        "0.1 mm",
+        "0.01 mm",
+        "1 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The precision is the smallest unit an instrument can measure; for a metre rule, this is 0.1 cm or 1 mm. \n\n**Common mistake:** Students might confuse this with the precision of vernier calipers, which is 0.1 mm."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q4",
+      "type": "mcq",
+      "question": "How should a student position their eye to avoid parallax error when reading a ruler?",
+      "options": [
+        "Perpendicularly to the rule",
+        "At a 45-degree angle",
+        "Level with the zero mark",
+        "Slightly to the left of the mark"
+      ],
+      "correctIndex": 0,
+      "explanation": "To avoid parallax error, your line of sight must be perpendicular to the scale (looking straight on). \n\n**Common mistake:** Looking at an angle introduces an error, causing the object to appear longer or shorter than it is."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q5",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the volume of a rectangular block?",
+      "options": [
+        "V=ltimesbtimesh",
+        "V=pir2h",
+        "V=$\\frac{4}{3pir3}$",
+        "V=m/rho"
+      ],
+      "correctIndex": 0,
+      "explanation": "The volume of a regular rectangular solid is found by multiplying its length (l), breadth (b), and height (h). \n\n**Common mistake:** Selecting the formula for a cylinder (V=pir2h) by mistake."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of a scalar quantity?",
+      "options": [
+        "A physical quantity that has magnitude (size) only",
+        "A physical quantity that has direction only",
+        "A physical quantity that has both magnitude and direction",
+        "A physical quantity that changes with time"
+      ],
+      "correctIndex": 0,
+      "explanation": "A scalar quantity is defined by its magnitude only, such as mass or time. \n\n**Common mistake:** Students often confuse this with vector quantities, which require both magnitude and direction."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q7",
+      "type": "mcq",
+      "question": "Which of these is a vector quantity?",
+      "options": [
+        "Force",
+        "Mass",
+        "Energy",
+        "Time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Force is a vector because it has both a size and a specific direction of action. \n\n**Common mistake:** Mass is a scalar (it does not have direction), while weight is the vector equivalent (gravitational force)."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q8",
+      "type": "mcq",
+      "question": "In a vector diagram, what does the length of the arrow represent?",
+      "options": [
+        "The magnitude of the quantity",
+        "The direction of the quantity",
+        "The unit of the quantity",
+        "The starting point of the motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The length of the arrow is proportional to the magnitude of the physical quantity. \n\n**Common mistake:** Thinking the length represents the time taken for a movement rather than the size of the vector."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q9",
+      "type": "mcq",
+      "question": "A block is pulled by two parallel forces of $5\\text{ N}$ and $3\\text{ N}$ acting in the same direction. What is the resultant force?",
+      "options": [
+        "$8\\text{ N}$",
+        "$2\\text{ N}$",
+        "$15\\text{ N}$",
+        "$4\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When vectors are parallel and in the same direction, you add their magnitudes: $5\\text{ N} + 3\\text{ N} = 8\\text{ N}$. \n\n**Common mistake:** Subtracting the forces ($2\\text{ N}$), which only occurs if they act in opposite directions."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-easy-q10",
+      "type": "mcq",
+      "question": "Which of these quantities is a scalar?",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Acceleration",
+        "Weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is a scalar quantity as it only describes how fast an object moves. \n\n**Common mistake:** Thinking speed and velocity are the same; velocity is the vector version of speed and includes direction."
+    }
+  ]
+}

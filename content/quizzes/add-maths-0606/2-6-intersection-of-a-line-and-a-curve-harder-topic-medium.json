@@ -1,0 +1,77 @@
+{
+  "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium",
+  "topicId": "2-6-intersection-of-a-line-and-a-curve-harder-topic",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "medium",
+  "title": "Intersection of a Line and a Curve — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations $y = 4x - 10$ and $y = x^2 - 2x - 1$.",
+      "options": [
+        "(3, 2) only",
+        "(3, 2) and (1, -6)",
+        "(3, 2) and (-3, -22)",
+        "(-3, -22) only"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2 - 2x - 1 = 4x - 10 \\implies x^2 - 6x + 9 = 0 \\implies (x - 3)² = 0$. This yields a single solution $x = 3$, and $y = 4(3) - 10 = 2$.\n\n**Common mistake:** Spending time looking for two distinct points of intersection because the quadratic has 'roots', not realizing it is a perfect square representing a tangent."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Find the $y$2$x + y = 10$ and $xy = 21$.",
+      "options": [
+        "3 and 7",
+        "2 and 8",
+        "4 and 6",
+        "1 and 9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 10 - y$2$xy = 21$: $(10 - y)y = 21 \\implies 10y - y^2 = 21 \\implies y^2 - 10y + 21 = 0 \\implies (y - 3)(y - 7) = 0$.\n\n**Common mistake:** Algebraic slips during the expansion of $(10-y)y$2$(y - 2)(y - 8)$."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Find the coordinates of the points of intersection for the line $y = x + 1$ and the curve $y = x^2 - 5$.",
+      "options": [
+        "(3, 4) and (-2, -1)",
+        "(3, 4) and (2, 3)",
+        "(-3, -2) and (2, 3)",
+        "(3, 4) and (-3, -2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2 - 5 = x + 1 \\implies x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0$. Sub $x = 3, y = 4$; sub $x = -2, y = -1$.\n\n**Common mistake:** Correctly solving for $x$2$y$."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "How many points of intersection are there between the line $y = 2x - 5$ and the curve $y = x^2 + 4x + 1$?",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2 + 4x + 1 = 2x - 5 \\implies x^2 + 2x + 6 = 0$. Discriminant $Δ = 2^2 - 4(1)(6) = 4 - 24 = -20$. Since $Δ < 0$, there are no real solutions.\n\n**Common mistake:** Assuming all lines and parabolas must intersect and failing to check the discriminant for real roots."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "The line $y = 5x + c$2$(2, 13)$ which lies on the curve $y = 2x^2 + 5$. Find the value of $c$.",
+      "options": [
+        "3",
+        "8",
+        "13",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the intersection point $(2, 13)$ must satisfy the linear equation: $13 = 5(2) + c \\implies 13 = 10 + c \\implies c = 3$.\n\n**Common mistake:** Substituting the $x$2$y$2$c$."
+    }
+  ]
+}

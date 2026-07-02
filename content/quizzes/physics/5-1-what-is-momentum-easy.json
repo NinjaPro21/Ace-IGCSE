@@ -1,0 +1,77 @@
+{
+  "id": "5-1-what-is-momentum-easy",
+  "topicId": "5-1-what-is-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "easy",
+  "title": "What Is Momentum? — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-what-is-momentum-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of momentum?",
+      "options": [
+        "The product of mass and velocity",
+        "The product of force and time",
+        "The product of mass and acceleration",
+        "The ratio of distance to time"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, momentum $p$ is calculated as mass $m$ multiplied by velocity $v$. \n\n**Common mistake:** Confusing it with force ($F = ma$) or impulse ($F Delta t$)."
+    },
+    {
+      "id": "5-1-what-is-momentum-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for momentum?",
+      "options": [
+        "kilogram metre per second ($\\text{kg m/s}$)",
+        "newton metre ($\\text{N m}$)",
+        "joule ($\\text{J}$)",
+        "kilogram per cubic metre ($\\text{kg/m}^3$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since momentum is mass ($\\text{kg}$) \\times velocity ($\\text{m/s}$), its unit is $\\text{kg m/s}$. \n\n**Common mistake:** Selecting $\\text{N m}$, which is the unit for a moment of a force."
+    },
+    {
+      "id": "5-1-what-is-momentum-easy-q3",
+      "type": "mcq",
+      "question": "Which type of physical quantity is momentum?",
+      "options": [
+        "Vector quantity",
+        "Scalar quantity",
+        "Base quantity",
+        "Constant quantity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector quantity because it is the product of mass (scalar) and velocity (vector), meaning it has both magnitude and direction. \n\n**Common mistake:** Thinking it is a scalar like speed or mass."
+    },
+    {
+      "id": "5-1-what-is-momentum-easy-q4",
+      "type": "mcq",
+      "question": "A runner of mass $50\\text{ kg}$ is running at a velocity of $4\\text{ m/s}$. Calculate the runner's momentum.",
+      "options": [
+        "$200\\text{ kg m/s}$",
+        "$12.5\\text{ kg m/s}$",
+        "$54\\text{ kg m/s}$",
+        "$0.08\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $p = mv$: $50\\text{ kg} \\times 4\\text{ m/s} = 200\\text{ kg m/s}$. \n\n**Common mistake:** Dividing mass by velocity ($12.5$) instead of multiplying."
+    },
+    {
+      "id": "5-1-what-is-momentum-easy-q5",
+      "type": "mcq",
+      "question": "Which two physical quantities determine the momentum of an object?",
+      "options": [
+        "Mass and velocity",
+        "Mass and acceleration",
+        "Weight and speed",
+        "Force and distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The formula $p = mv$ shows that an object's momentum depends entirely on how much matter it has (mass) and how fast it is moving in a specific direction (velocity). \n\n**Common mistake:** Including acceleration, which determines the change in momentum, not the momentum itself."
+    }
+  ]
+}

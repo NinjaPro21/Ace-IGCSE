@@ -1,0 +1,77 @@
+{
+  "id": "3-2-division-of-polynomials-harder-topic-easy",
+  "topicId": "3-2-division-of-polynomials-harder-topic",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "easy",
+  "title": "Division of polynomials — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "If a polynomial $P(x)$ is divided by a divisor $D(x)$ to get a quotient $Q(x)$ and a remainder $R(x)$, which identity correctly relates these terms?",
+      "options": [
+        "$P(x) = D(x)Q(x) + R(x)$",
+        "$P(x) = D(x) + Q(x) + R(x)$",
+        "$Q(x) = P(x)D(x) + R(x)$",
+        "$P(x) = D(x)Q(x) - R(x)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The division algorithm for polynomials states that the dividend is equal to the product of the divisor and quotient, plus the remainder.\n\n**Common mistake:** Students sometimes confuse the roles of the dividend and quotient, or mistakenly subtract the remainder instead of adding it."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Divide the polynomial $x^2 - 9$ by the linear factor $(x + 3)$.",
+      "options": [
+        "$x - 3$",
+        "$x + 3$",
+        "$x^2 - 3$",
+        "$x - 9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $x^2 - 9$ is a difference of squares $(x-3)(x+3)$, dividing by $(x+3)$ leaves the quotient $(x-3)$ with a remainder of zero.\n\n**Common mistake:** A student might incorrectly divide only the first term, resulting in $x - 9$ or similar incomplete quotients."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "When dividing a polynomial by a linear divisor of the form $(ax + b)$, what is the maximum possible degree of the remainder?",
+      "options": [
+        "0 (The remainder is a constant)",
+        "1",
+        "The same degree as the dividend",
+        "It depends on the coefficient $a$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The degree of the remainder must always be strictly less than the degree of the divisor. For a linear divisor (degree 1), the remainder must be a constant (degree 0).\n\n**Common mistake:** Learners often assume the remainder can be of the same degree as the divisor if the division is not fully completed."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Find the quotient when $6x^3 - 4x^2 + 2x$2$2x$.",
+      "options": [
+        "$3x^2 - 2x + 1$",
+        "$3x^3 - 2x^2 + x$",
+        "$3x^2 - 2x$",
+        "$4x^2 - 2x + 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide each term of the polynomial by $2x$2$6x^3/2x = 3x^2$, $-4x^2/2x = -2x$2$2x/2x = 1$.\n\n**Common mistake:** Failing to divide the final term $2x$2$2x$ correctly, often resulting in 0 or just omitting the constant term."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "If $P(x) = (x - 2)(x + 4) + 5$, what is the remainder when $P(x)$ is divided by $(x - 2)$?",
+      "options": [
+        "5",
+        "0",
+        "-2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The expression is already in the form $D(x)Q(x) + R(x)$ where $D(x) = (x-2)$. The constant term 5 is the remainder.\n\n**Common mistake:** Students may try to expand the whole expression and perform long division, which is correct but inefficient and prone to arithmetic errors."
+    }
+  ]
+}

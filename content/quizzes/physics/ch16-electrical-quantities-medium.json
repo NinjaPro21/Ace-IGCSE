@@ -1,0 +1,402 @@
+{
+  "id": "ch16-electrical-quantities-medium",
+  "topicId": "ch16-electrical-quantities",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Chapter 16: Electrical Quantities — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch16-electrical-quantities-medium-q1",
+      "type": "mcq",
+      "question": "A charge of $120\\text{ C}$ passes through a lamp in $2.0\\text{ minutes}$. Calculate the current in the lamp.",
+      "options": [
+        "$1.0\\text{ A}$",
+        "$60\\text{ A}$",
+        "$240\\text{ A}$",
+        "$0.5\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I = Q / t$, we must first convert time to seconds: $2.0\\text{ min} = 120\\text{ s}$. Then $I = 120\\text{ C} / 120\\text{ s} = 1.0\\text{ A}$. \n\n**Common mistake:** Dividing by 2 minutes directly without converting to seconds."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q2",
+      "type": "mcq",
+      "question": "What happens to the current in a circuit if a larger amount of charge passes through a point in the same amount of time?",
+      "options": [
+        "The current increases",
+        "The current decreases",
+        "The current remains the same",
+        "The potential difference must decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $I = Q / t$, current is directly proportional to the amount of charge. More charge per second means a higher current. \n\n**Common mistake:** Thinking current depends only on the speed of the particles regardless of their quantity."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q3",
+      "type": "mcq",
+      "question": "A student measures a current of $0.5\\text{ A}$ flowing through a wire for $10\\text{ seconds}$. How much charge has passed through the wire?",
+      "options": [
+        "$5.0\\text{ C}$",
+        "$20\\text{ C}$",
+        "$0.05\\text{ C}$",
+        "$50\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging the formula gives $Q = I \\times t$. $Q = 0.5\\text{ A} \\times 10\\text{ s} = 5.0\\text{ C}$. \n\n**Common mistake:** Dividing current by time instead of multiplying."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q4",
+      "type": "mcq",
+      "question": "Which of the following correctly describes the conduction of electricity in a metal wire?",
+      "options": [
+        "It is due to the movement of free electrons",
+        "It is due to the movement of positive ions",
+        "It is due to the movement of protons",
+        "It is due to the movement of neutral atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explain that electrical conduction in metals involves the movement of free electrons. \n\n**Common mistake:** Believing that the metal atoms or positive ions move through the wire."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q5",
+      "type": "mcq",
+      "question": "How does the direction of electron flow compare to the direction of conventional current?",
+      "options": [
+        "They are in opposite directions",
+        "They are in the same direction",
+        "Electron flow is only present in a.c. circuits",
+        "Conventional current only exists in the battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conventional current flows from positive to negative, while the actual flow of free electrons is from the negative terminal to the positive terminal. \n\n**Common mistake:** Thinking both terms describe the same physical direction of movement."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q6",
+      "type": "mcq",
+      "question": "Two identical polythene rods are each rubbed with the same woollen cloth. If the two rods are suspended and brought close to each other, what will be observed?",
+      "options": [
+        "They will repel each other.",
+        "They will attract each other.",
+        "The wool will be attracted to both rods.",
+        "No effect will be observed."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since both rods are made of the same material and rubbed with the same material, they acquire the same type of charge. Like charges repel. \n\n**Common mistake:** Thinking one rod becomes positive and the other negative from the same action."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q7",
+      "type": "mcq",
+      "question": "When a glass rod is rubbed with silk, the rod becomes positively charged. What is the reason for this change?",
+      "options": [
+        "Electrons are transferred from the rod to the silk.",
+        "Protons are transferred from the silk to the rod.",
+        "The silk becomes positively charged as well.",
+        "The rod creates new positive charges through friction."
+      ],
+      "correctIndex": 0,
+      "explanation": "Charging involves the transfer of electrons. If a rod becomes positive, it must have lost negatively charged electrons. \n\n**Common mistake:** Thinking that positive charges (protons) move, but they are fixed in the nucleus."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q8",
+      "type": "mcq",
+      "question": "Compare electrical insulators and conductors based on the mobility of their charges.",
+      "options": [
+        "Conductors have free electrons that can move, while insulators do not.",
+        "Insulators allow protons to flow, while conductors allow electrons to move.",
+        "Both allow electrons to move freely, but insulators are thicker.",
+        "Only insulators can be charged by friction."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, energy in conductors is transferred through the movement of free electrons, whereas in insulators, electrons are not free to move about. \n\n**Common mistake:** Thinking insulators cannot 'hold' charge; they actually hold it on the surface because it can't flow away."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q9",
+      "type": "mcq",
+      "question": "In an experiment, small pieces of paper are attracted to a charged glass rod. Why does this occur even if the paper is initially neutral?",
+      "options": [
+        "The charged rod induces a charge separation in the paper.",
+        "The paper is a good electrical conductor.",
+        "The paper was already magnetised.",
+        "Gravity is stronger when objects are electrically charged."
+      ],
+      "correctIndex": 0,
+      "explanation": "A charged object can attract neutral objects (like paper) by inducing a temporary charge separation on the surface of the neutral object. \n\n**Common mistake:** Believing the paper must be a metal or already charged to be attracted."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q10",
+      "type": "mcq",
+      "question": "Which set of interactions between three charged spheres (X, Y, and Z) is correct if X is positive, X attracts Y, and Y repels Z?",
+      "options": [
+        "Y is negative and Z is negative.",
+        "Y is positive and Z is positive.",
+        "Y is negative and Z is positive.",
+        "Y is neutral and Z is positive."
+      ],
+      "correctIndex": 0,
+      "explanation": "X (+) attracts Y, so Y must be negative. Y (-) repels Z, so Z must also be negative. \n\n**Common mistake:** Thinking that if Y repels Z, they must have opposite charges."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q11",
+      "type": "mcq",
+      "question": "An electron is placed in an electric field where the field lines point from left to right. In which direction will the electron experience a force?",
+      "options": [
+        "To the left",
+        "To the right",
+        "Upwards",
+        "It will experience no force"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines show the direction of force on a positive charge. Since an electron is negative, it experiences a force in the opposite direction to the field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q12",
+      "type": "mcq",
+      "question": "Which diagram correctly describes the electric field between two oppositely charged parallel conducting plates?",
+      "options": [
+        "Parallel, equally spaced lines pointing from the positive to the negative plate",
+        "Parallel, equally spaced lines pointing from the negative to the positive plate",
+        "Circular lines originating from the centre of the plates",
+        "Lines that bend away from the centre gap between the plates"
+      ],
+      "correctIndex": 0,
+      "explanation": "The field between oppositely charged parallel plates is uniform, represented by parallel, equally spaced lines pointing from positive to negative.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q13",
+      "type": "mcq",
+      "question": "If the spacing between electric field lines in a certain region increases, what happens to the force experienced by a charge moved into that region?",
+      "options": [
+        "The force decreases",
+        "The force increases",
+        "The force remains constant",
+        "The force changes direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increased spacing between field lines indicates a weaker electric field. Therefore, a charge in that region will experience a smaller force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q14",
+      "type": "mcq",
+      "question": "A positive charge and a negative charge are placed near each other. How do the field lines between them behave?",
+      "options": [
+        "They curve from the positive charge to the negative charge",
+        "They curve from the negative charge to the positive charge",
+        "They point straight outwards from both charges and never meet",
+        "They form concentric circles around both charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines go away from positive and towards negative. In a pair of unlike charges, the lines curve from the positive charge to the negative one.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q15",
+      "type": "mcq",
+      "question": "Which of the following would experience the greatest force in a uniform electric field?",
+      "options": [
+        "A particle with a charge of $+2\\text{ C}$",
+        "A particle with a charge of $+1\\text{ C}$",
+        "A neutral atom",
+        "A particle with a charge of $-1\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The force in an electric field depends on the magnitude of the charge. A charge of $2\\text{ C}$ has the highest magnitude among the choices and will experience the most force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q16",
+      "type": "mcq",
+      "question": "A charge of $4.0 \\times 10^{4}\\text{ C}$ flows through an electric heater. If $8.0\\text{ MJ}$ of electrical energy is converted into thermal energy, what is the potential difference across the heater?",
+      "options": [
+        "$200\\text{ V}$",
+        "$20\\text{ V}$",
+        "$320\\text{ V}$",
+        "$500\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potential difference $V = W / Q$. $8.0\\text{ MJ}$ is $8.0 \\times 10^{6}\\text{ J}$. Thus, $V = (8.0 \\times 10^{6}) / (4.0 \\times 10^{4}) = 200\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q17",
+      "type": "mcq",
+      "question": "A current of $0.50\\text{ A}$ flows through a bulb for $2.0\\text{ minutes}$. If the potential difference across the bulb is $12\\text{ V}$, how much energy is dissipated?",
+      "options": [
+        "$720\\text{ J}$",
+        "$12\\text{ J}$",
+        "$60\\text{ J}$",
+        "$120\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find charge $Q = I \\times t = 0.50\\text{ A} \\times 120\\text{ s} = 60\\text{ C}$. Then, $W = V \\times Q = 12\\text{ V} \\times 60\\text{ C} = 720\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q18",
+      "type": "mcq",
+      "question": "Which statement correctly describes the difference between electromotive force (e.m.f.) and potential difference (p.d.)?",
+      "options": [
+        "e.m.f. relates to energy supplied by the source; p.d. relates to energy used by a component",
+        "e.m.f. is measured in Newtons; p.d. is measured in Volts",
+        "e.m.f. is used for parallel circuits; p.d. is used for series circuits",
+        "e.m.f. is the total current; p.d. is the current through one branch"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, e.m.f. is the work done by a source to move a unit charge around a circuit, while p.d. is the work done by a unit charge passing through a specific component.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q19",
+      "type": "mcq",
+      "question": "A student measures the potential difference across a resistor using an analogue voltmeter. If the work done to move $2.0\\text{ C}$ of charge through the resistor is $10\\text{ J}$, what should the voltmeter read?",
+      "options": [
+        "$5.0\\text{ V}$",
+        "$20.0\\text{ V}$",
+        "$0.2\\text{ V}$",
+        "$10.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reading on the voltmeter is the potential difference $V = W / Q = 10\\text{ J} / 2.0\\text{ C} = 5.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q20",
+      "type": "mcq",
+      "question": "One volt is equivalent to which of the following combinations of units?",
+      "options": [
+        "One joule per coulomb ($1\\text{ J/C}$)",
+        "One coulomb per second ($1\\text{ C/s}$)",
+        "One joule per second ($1\\text{ J/s}$)",
+        "One ampere per ohm ($1\\text{ A/}Omega$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $V = W / Q$ (energy per unit charge), the volt is defined as one joule per coulomb.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q21",
+      "type": "mcq",
+      "question": "A potential difference of $12\\text{ V}$ is applied across a resistor, and a current of $0.50\\text{ A}$ is measured. Calculate the resistance.",
+      "options": [
+        "$24\\text{ }Omega$",
+        "$6.0\\text{ }Omega$",
+        "$0.042\\text{ }Omega$",
+        "$12.5\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $R = V / I = 12 / 0.50 = 24\\text{ }Omega$. \n\n**Common mistake:** Multiplying $12$ by $0.5$ to get $6.0\\text{ }Omega$."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q22",
+      "type": "mcq",
+      "question": "Two wires, X and Y, are made of the same material and have the same thickness. Wire X is twice as long as wire Y. How do their resistances compare?",
+      "options": [
+        "Resistance of X is twice the resistance of Y.",
+        "Resistance of X is half the resistance of Y.",
+        "$Resistance of X is four \\times the resistance of Y.$",
+        "Their resistances are equal."
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is directly proportional to the length of the wire. Doubling the length doubles the resistance. \n\n**Common mistake:** Thinking that 'thickness' is the only factor that matters."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q23",
+      "type": "mcq",
+      "question": "A resistor has a resistance of $100\\text{ }Omega$. Calculate the potential difference required to produce a current of $20\\text{ mA}$ through it.",
+      "options": [
+        "$2.0\\text{ V}$",
+        "$5.0\\text{ V}$",
+        "$2000\\text{ V}$",
+        "$0.20\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert current to amperes: $20\\text{ mA} = 0.02\\text{ A}$. Then $V = IR = 0.02 \\times 100 = 2.0\\text{ V}$. \n\n**Common mistake:** Using $20$ directly without converting from mA, leading to $2000\\text{ V}$."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q24",
+      "type": "mcq",
+      "question": "An $I-V$ graph for a component shows that when the potential difference is $5.0\\text{ V}$, the current is $0.25\\text{ A}$. What is the resistance at this point?",
+      "options": [
+        "$20\\text{ }Omega$",
+        "$1.25\\text{ }Omega$",
+        "$0.05\\text{ }Omega$",
+        "$4.0\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance $R = V / I = 5.0 / 0.25 = 20\\text{ }Omega$. \n\n**Common mistake:** Dividing current by voltage ($0.25 / 5 = 0.05$)."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q25",
+      "type": "mcq",
+      "question": "Two copper wires have the same length, but wire B is thicker (has a larger cross-sectional area) than wire A. Which statement is correct?",
+      "options": [
+        "Wire B has a lower resistance than wire A.",
+        "Wire B has a higher resistance than wire A.",
+        "Wire B and wire A have the same resistance.",
+        "The resistance depends only on the material, so they are the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is inversely proportional to the cross-sectional area. A thicker wire allows current to flow more easily, thus having a lower resistance. \n\n**Common mistake:** Thinking a 'bigger' wire must have more of everything, including resistance."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q26",
+      "type": "mcq",
+      "question": "An air conditioner is connected to a $240\\text{ V}$ supply and draws a current of $9.0\\text{ A}$. What is its power rating in kilowatts (kW)?",
+      "options": [
+        "$2.16\\text{ kW}$",
+        "$2160\\text{ kW}$",
+        "$26.7\\text{ kW}$",
+        "$0.037\\text{ kW}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, calculate power in watts: $P = IV = 240\\text{ V} \\times 9.0\\text{ A} = 2160\\text{ W}$. To convert to kW, divide by $1000$: $2160 / 1000 = 2.16\\text{ kW}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q27",
+      "type": "mcq",
+      "question": "A $40\\text{ W}$ light bulb is switched on for $5.0\\text{ minutes}$. How much electrical energy is transferred to the bulb in joules?",
+      "options": [
+        "$12000\\text{ J}$",
+        "$200\\text{ J}$",
+        "$8\\text{ J}$",
+        "$45\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $E = Pt$, where time must be in seconds: $t = 5 \\times 60 = 300\\text{ s}$. $E = 40\\text{ W} \\times 300\\text{ s} = 12000\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q28",
+      "type": "mcq",
+      "question": "A $3\\text{ kW}$ electric heater is used for $2.0\\text{ hours}$. How many kilowatt-hours (kWh) of energy does it consume?",
+      "options": [
+        "$6.0\\text{ kWh}$",
+        "$1.5\\text{ kWh}$",
+        "$1.0\\text{ kWh}$",
+        "$3.0\\text{ kWh}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy in kWh is calculated by $E = P \\times t$, where $P$ is in kW and $t is in hours$. $2E = 3\\text{ kW} \\times 2.0\\text{ h} = 6.0\\text{ kWh}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q29",
+      "type": "mcq",
+      "question": "If electricity costs $$0.27$ per kWh, what is the cost of using $1.5\\text{ kWh}$ of energy?$",
+      "options": [
+        "$$\n0.41\n$$",
+        "$$\n0.18\n$$",
+        "$$\n0.54\n$$",
+        "$$\n0.27\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cost = Energy used $times$ Tariff. $1.5\\text{ kWh} times$0.27 = $0.405$, which rounds to approximately \n\n$$0.412\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-medium-q30",
+      "type": "mcq",
+      "question": "Which statement correctly describes the energy transfer in an electric circuit containing a lamp?",
+      "options": [
+        "Energy is transferred from the source to the lamp and then to the surroundings",
+        "Energy is created by the lamp and transferred to the surroundings",
+        "Energy is transferred from the surroundings into the battery",
+        "Energy only flows through the wires and is never transferred to the surroundings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that electric circuits transfer energy from a source to the circuit components and then into the surroundings (e.g., as light or thermal energy).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

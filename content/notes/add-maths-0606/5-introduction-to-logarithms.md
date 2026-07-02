@@ -41,7 +41,3 @@ A common conceptual trap is trying to evaluate logarithms with negative argument
 ## Quick check
 
 If $\log_3(x) = 4$, then rewriting this expression into its exponential format yields $x = 3^4 = 81$.
-
-## Visual / interactive intent
-
-New explorer — Exponential-Logarithm inverse bridge. Includes a split visualization screen. The left side shows an exponential growth line, and the right side shows its corresponding logarithmic curve, demonstrating how they mirror each other across the line y=x.

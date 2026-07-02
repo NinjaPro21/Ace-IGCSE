@@ -4,9 +4,11 @@ Graphing the modulus of a trigonometric function means reflecting any negative p
 
 ## Key formulas
 
-$$y = |\sin x| \quad (\text{Period halves from } 360^\circ \text{ to } 180^\circ)$$
+$$
+y = |\sin x| \quad (\text{Period halves from } 360^\circ \text{ to } 180^\circ)
 
-$$y = |a\cos(bx) + c|$$
+y = |a\cos(bx) + c|
+$$
 
 ## Steps / method
 
@@ -22,7 +24,7 @@ Flip the negative wave loops located below the x-axis vertically upwards, making
 
 $y = |f(x)|$ reflects negative parts above the x-axis. For $y = |\sin x|$, the period halves from $2\pi$ to $\pi$.
 
-## Worked example — $y = |\sin x|$
+## Worked example — $ y = |\sin x|$
 
 Sketch key features of $y = |\sin x|$ for $0 \le x \le 2\pi$.
 
@@ -32,7 +34,7 @@ The graph equals $\sin x$ where $\sin x \ge 0$ and equals $-\sin x$ where $\sin 
 
 Describe $y = |\cos x - 1|$ for $0 \le x \le 2\pi$.
 
-Since $-1 \le \cos x \le 1$, we have $-2 \le \cos x - 1 \le 0$. The entire graph sits at or above the x-axis, with minimum value $0$ (at $x = 0, 2\pi$) and maximum $2$ (at $x = \pi$).
+Since $-1 \le \cos x \le 1$, we have $-2 \le \cos x - 1 \le 0$. The entire graph sits at or above the x-axis, with minimum value $0$ (at $x = 0, 2\pi$) and maximum2(at $x = \pi$).
 
 ## Examiner tip
 
@@ -41,7 +43,3 @@ Pay close attention when the function contains a vertical shift, like $y = |\sin
 ## Quick check
 
 If $y = |\cos x|$, the output range is compressed entirely between a minimum of 0 and a maximum of 1.
-
-## Visual / interactive intent
-
-Reuse explorer: Discriminant/modulus slider. Set up with trigonometric functions. Users can adjust amplitude and vertical shifts, then toggle the modulus operator to see how the negative sections of the wave reflect upward.

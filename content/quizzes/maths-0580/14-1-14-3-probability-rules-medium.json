@@ -1,0 +1,77 @@
+{
+  "id": "14-1-14-3-probability-rules-medium",
+  "topicId": "14-1-14-3-probability-rules",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "medium",
+  "title": "Probability Rules — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-14-3-probability-rules-medium-q1",
+      "type": "mcq",
+      "question": "A letter is selected at random from the word 'PROBABILITY'. What is the probability that the letter 'B' is chosen?",
+      "options": [
+        "$2/11$",
+        "$1/11$",
+        "$2/10$",
+        "$1/10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The word 'PROBABILITY' has 11 letters in total. The letter 'B' appears twice. Therefore, the probability is $2/11$.\n\n**Common mistake:** Miscounting the total number of letters in the word."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-medium-q2",
+      "type": "mcq",
+      "question": "A bag contains 4 red balls, 6 blue balls, and 5 green balls. If one ball is selected at random, find the probability that it is either red OR green.",
+      "options": [
+        "$0.6$",
+        "$0.4$",
+        "$9/11$",
+        "$0.27$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total balls $= 4 + 6 + 5 = 15$. Red or Green balls $= 4 + 5 = 9$. Probability $= 9 / 15 = 0.6$.\n\n**Common mistake:** Adding the blue balls to the successes or using the wrong total."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-medium-q3",
+      "type": "mcq",
+      "question": "A spinner is spun 1000 times and lands on zero 104 times. What is the best estimate for the probability of the spinner landing on zero?",
+      "options": [
+        "$0.104$",
+        "$0.0104$",
+        "$0.1$",
+        "$1.04$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an experiment is repeated many times, the relative frequency ($104 / 1000 = 0.104$) is the best estimate for probability.\n\n**Common mistake:** Rounding to $0.1$ prematurely instead of providing the calculated relative frequency."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-medium-q4",
+      "type": "mcq",
+      "question": "A biased coin has a probability of landing on heads of $0.7$. If the coin is tossed 240 times, calculate an estimate for the number of times it will land on heads.",
+      "options": [
+        "$168$",
+        "$120$",
+        "$70$",
+        "$140$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Estimate $= \\text{Probability} \\times \\text{Number of trials} = 0.7 \\times 240 = 168$.\n\n**Common mistake:** Dividing the trials by the probability instead of multiplying."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-medium-q5",
+      "type": "mcq",
+      "question": "Two fair four-sided dice (numbered 1-4) are rolled. Use a sample space diagram to find the probability that the sum of the scores is 5.",
+      "options": [
+        "$1/4$",
+        "$1/5$",
+        "$5/16$",
+        "$1/8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total outcomes $= 4 \\times 4 = 16$. Pairs summing to 5 are (1,4), (2,3), (3,2), (4,1). Probability $= 4 / 16 = 1/4$.\n\n**Common mistake:** Using 36 as the total outcomes, assuming the dice are six-sided."
+    }
+  ]
+}

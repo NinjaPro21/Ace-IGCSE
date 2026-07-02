@@ -1,0 +1,77 @@
+{
+  "id": "3-2-map-scales-easy",
+  "topicId": "3-2-map-scales",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Map Scales — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-map-scales-easy-q1",
+      "type": "mcq",
+      "question": "A map has a scale of $1 : 25\\,000$. If the distance between two villages on the map is $6\\text{ cm}$, find the actual distance between them in kilometers.",
+      "options": [
+        "$1.5\\text{ km}$",
+        "$15\\text{ km}$",
+        "$0.15\\text{ km}$",
+        "$150\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual distance in cm = $6 \\times 25\\,000 = 150\\,000\\text{ cm}$. To convert to meters, divide by $100$: $150\\,000 \\div 100 = 1500\\text{ m}$. To convert to kilometers, divide by $1000$: $1500 \\div 1000 = 1.5\\text{ km}$.\n\n**Common mistake:** Students often lose track of the zeros during unit conversion, mistakenly dividing by $1000$ instead of $100\\,000$ overall."
+    },
+    {
+      "id": "3-2-map-scales-easy-q2",
+      "type": "mcq",
+      "question": "The actual distance between two towns is $12\\text{ km}$. On a map, this distance is represented by a line of length $4\\text{ cm}$. Find the scale of the map in the form $1 : n$.",
+      "options": [
+        "$1 : 300\\,000$",
+        "$1 : 3\\,000$",
+        "$1 : 30\\,000$",
+        "$1 : 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Express both lengths in centimeters first. $12\\text{ km} = 12 \\times 100\\,000 = 1\\,200\\,000\\text{ cm}$. The ratio is $4 : 1\\,200\\,000$. Divide both sides by $4$ to give a unit form of $1 : 300\\,000$.\n\n**Common mistake:** Students frequently forget to convert kilometers into centimeters, writing $4 : 12 \\implies 1 : 3$."
+    },
+    {
+      "id": "3-2-map-scales-easy-q3",
+      "type": "mcq",
+      "question": "A map scale is written as $1 : 50\\,000$. What actual distance in meters is represented by a map distance of $3.5\\text{ cm}$?",
+      "options": [
+        "$1750\\text{ m}$",
+        "$175\\text{ m}$",
+        "$17.5\\text{ m}$",
+        "$175\\,000\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual distance in cm = $3.5 \\times 50\\,000 = 175\\,000\\text{ cm}$. Convert centimeters to meters by dividing by $100$: $175\\,000 \\div 100 = 1750\\text{ m}$.\n\n**Common mistake:** Dividing or multiplying by the wrong power of 10, often resulting in $175\\text{ m}$ or keeping it in cm."
+    },
+    {
+      "id": "3-2-map-scales-easy-q4",
+      "type": "mcq",
+      "question": "On a map of scale $1 : 200\\,000$, a straight road has an actual length of $16\\text{ km}$. Calculate the length of the road on the map in centimeters.",
+      "options": [
+        "$8\\text{ cm}$",
+        "$0.8\\text{ cm}$",
+        "$80\\text{ cm}$",
+        "$2\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert actual distance to cm: $16\\text{ km} = 16 \\times 100\\,000 = 1\\,600\\,000\\text{ cm}$. Map distance = $1\\,600\\,000 \\div 200\\,000 = 8\\text{ cm}$.\n\n**Common mistake:** Dividing $16$ directly by $200\\,000$ or miscounting the number of zeros eliminated during division."
+    },
+    {
+      "id": "3-2-map-scales-easy-q5",
+      "type": "mcq",
+      "question": "A map has a scale of $1\\text{ cm}$ to $2\\text{ km}$. Write this scale as a ratio in the form $1 : n$.",
+      "options": [
+        "$1 : 200\\,000$",
+        "$1 : 2\\,000$",
+        "$1 : 20\\,000$",
+        "$1 : 200$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert $2\\text{ km}$ into centimeters: $2\\text{ km} = 2000\\text{ m} = 200\\,000\\text{ cm}$. Therefore, the ratio is $1 : 200\\,000$.\n\n**Common mistake:** Assuming that $1\\text{ km} = 1000\\text{ cm}$, leading to the incorrect choice of $1 : 2\\,000$."
+    }
+  ]
+}

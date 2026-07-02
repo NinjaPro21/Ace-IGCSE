@@ -1,0 +1,77 @@
+{
+  "id": "9-2-coordinate-geometry-medium",
+  "topicId": "9-2-coordinate-geometry",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "medium",
+  "title": "Coordinate Geometry — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-coordinate-geometry-medium-q1",
+      "type": "mcq",
+      "question": "Find the equation of the line that passes through the point (2,5) and has a gradient of −3.",
+      "options": [
+        "y=−3x+11",
+        "y=−3x+5",
+        "y=3x−1",
+        "y=−3x−1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using y=mx+c, substitute m=−3 and the point (2,5): 5=−3(2)+c\nRightarrow5=−6+c\nRightarrowc=11.\n\n**Common mistake:** The student might substitute x and y incorrectly into the formula or make a sign error when solving for c."
+    },
+    {
+      "id": "9-2-coordinate-geometry-medium-q2",
+      "type": "mcq",
+      "question": "Rearrange the equation 4x+5y=20 into the form y=mx+c to find its gradient and y-intercept.",
+      "options": [
+        "m=−0.8,c=4",
+        "m=0.8,c=4",
+        "m=−4,c=20",
+        "m=−0.8,c=20"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolate y: 5y=−4x+20\nRightarrowy=(−4/5)x+20/5\nRightarrowy=−0.8x+4.\n\n**Common mistake:** The student may forget to divide all terms by the coefficient of y (which is 5) or fail to change the sign of 4x when moving it."
+    },
+    {
+      "id": "9-2-coordinate-geometry-medium-q3",
+      "type": "mcq",
+      "question": "Determine the equation of the line passing through the points (1,4) and (3,10).",
+      "options": [
+        "y=3x+1",
+        "y=3x+4",
+        "y=2x+2",
+        "y=6x−2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient m=(10−4)/(3−1)=3. Substitute (1,4) into y=3x+c: 4=3(1)+c\nRightarrowc=1. So, y=3x+1.\n\n**Common mistake:** The student might use the point (1,4) for both x and y or miscalculate the gradient."
+    },
+    {
+      "id": "9-2-coordinate-geometry-medium-q4",
+      "type": "mcq",
+      "question": "Point A has coordinates (2,−3). The midpoint of the line segment AB is (5,1). Find the coordinates of point B.",
+      "options": [
+        "(8,5)",
+        "(3.5,−1)",
+        "(7,4)",
+        "(12,5)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let B be (x,y). Then (2+x)/2=5\nRightarrowx=8 and (−3+y)/2=1\nRightarrowy=5.\n\n**Common mistake:** The student might treat the given midpoint as an endpoint and calculate a new midpoint between (2,−3) and (5,1)."
+    },
+    {
+      "id": "9-2-coordinate-geometry-medium-q5",
+      "type": "mcq",
+      "question": "A line $L^{1}$\nhas the equation y=2x−5. Find the gradient of any line $L^{2}$\nthat is perpendicular to $L^{1}$\n.",
+      "options": [
+        "−0.5",
+        "2",
+        "0.5",
+        "−2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The product of gradients of perpendicular lines is −1. If $m^{1}$\n=2, then $m^{2}$\n=−1/2=−0.5.\n\n**Common mistake:** The student might just use the negative gradient (−2) or the reciprocal (0.5) instead of the negative reciprocal."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "7-4-constructions-easy",
+  "topicId": "7-4-constructions",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "easy",
+  "title": "Constructions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-4-constructions-easy-q1",
+      "type": "mcq",
+      "question": "Which mathematical instrument is essential for drawing the arcs required to construct a perpendicular bisector?",
+      "options": [
+        "A pair of compasses",
+        "A protractor",
+        "A set square",
+        "A tracing paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "To construct a perpendicular bisector, you must draw two intersecting arcs from the endpoints of a line segment using a pair of compasses.\n\n**Common mistake:** A student might select a protractor, thinking that measuring a $90°$ angle is the standard method for a 'construction' question."
+    },
+    {
+      "id": "7-4-constructions-easy-q2",
+      "type": "mcq",
+      "question": "If you construct an equilateral triangle using a ruler and compasses, what will be the size of each interior angle?",
+      "options": [
+        "$60°$",
+        "$90°$",
+        "$30°$",
+        "$180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, an equilateral triangle has three equal sides and three equal angles of $60°$.\n\n**Common mistake:** The student might confuse the interior angle with the total sum of angles in a triangle."
+    },
+    {
+      "id": "7-4-constructions-easy-q3",
+      "type": "mcq",
+      "question": "What is the primary purpose of bisecting a $60°$ angle in geometric construction?",
+      "options": [
+        "To create a $30°$ angle",
+        "To create a $90°$ angle",
+        "To create a $45°$ angle",
+        "To create a $15°$ angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bisecting an angle divides it into two equal parts; half of $60°$ is $30°$.\n\n**Common mistake:** The student might jump to $15°$ if they confuse the first bisection step with the second."
+    },
+    {
+      "id": "7-4-constructions-easy-q4",
+      "type": "mcq",
+      "question": "To construct a $90°$ angle at a point on a line, which construction method is typically used?",
+      "options": [
+        "Perpendicular bisector",
+        "Angle bisector of a $120°$ angle",
+        "Constructing a scalene triangle",
+        "Constructing a pentagon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constructing the perpendicular bisector of a segment of the line creates two $90°$ angles at the intersection.\n\n**Common mistake:** Students may think they need to construct two $45°$ angles instead of starting with the perpendicular."
+    },
+    {
+      "id": "7-4-constructions-easy-q5",
+      "type": "mcq",
+      "question": "When constructing a triangle with sides $a, b,$ and $c$2$a$ must have radii equal to which lengths?",
+      "options": [
+        "$b$2$c$",
+        "$a$2$b$",
+        "$a$2$c$",
+        "$a, b,$ and $c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the third vertex, you draw one arc of radius $b$2$a$2$c$ from the other end.\n\n**Common mistake:** A student might use the same radius for both arcs, resulting in an isosceles triangle regardless of the requested dimensions."
+    }
+  ]
+}

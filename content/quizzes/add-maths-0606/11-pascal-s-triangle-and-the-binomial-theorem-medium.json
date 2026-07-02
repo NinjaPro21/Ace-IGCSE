@@ -1,0 +1,142 @@
+{
+  "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium",
+  "topicId": "11-pascal-s-triangle-and-the-binomial-theorem",
+  "chapterId": "ch11-series",
+  "difficulty": "medium",
+  "title": "Pascal’s Triangle and The Binomial Theorem — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q1",
+      "type": "mcq",
+      "question": "Find the coefficients for the expansion of $(x + y)^5$ using Pascal's triangle.",
+      "options": [
+        "1, 5, 10, 10, 5, 1",
+        "1, 4, 6, 4, 1",
+        "1, 6, 15, 20, 15, 6, 1",
+        "5, 10, 15, 10, 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coefficients for the power 5 are found in Row 5: 1, 5, 10, 10, 5, 1.\n\n**Common mistake:** Using Row 4 or Row 6 by miscounting the start of the triangle."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q2",
+      "type": "mcq",
+      "question": "What are the two numbers that sum up to 15 in the 6th row of Pascal’s triangle?",
+      "options": [
+        "5 and 10",
+        "6 and 9",
+        "7 and 8",
+        "1 and 14"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each term is the sum of the two terms above it. In Row 5, the terms are 1, 5, 10... so 5 + 10 = 15 in Row 6.\n\n**Common mistake:** Arithmetic errors or looking at the wrong row for the parent numbers."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q3",
+      "type": "mcq",
+      "question": "Determine the value of the 3rd term in Row 7.",
+      "options": [
+        "21",
+        "15",
+        "7",
+        "35"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row 6: 1, 6, 15, 20... Row 7: 1, (1+6)=7, (6+15)=21.\n\n**Common mistake:** Using Row 6 values directly or miscalculating the sum of 6 and 15."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q4",
+      "type": "mcq",
+      "question": "If the coefficients of $(1+x)^n$ are symmetrical, and the middle two terms are both 35, what is the value of n?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "35"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two identical middle terms occur in odd-numbered rows. Row 7 is 1, 7, 21, 35, 35, 21, 7, 1.\n\n**Common mistake:** Thinking the middle terms must be unique, which only happens in even-numbered rows."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q5",
+      "type": "mcq",
+      "question": "Calculate the sum of the numbers in the 6th row of Pascal's triangle.",
+      "options": [
+        "64",
+        "32",
+        "128",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum of Row 6 = 2⁶ = 64.\n\n**Common mistake:** Calculating 6 squared (36) or 2 to the power of 5 (32)."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q6",
+      "type": "mcq",
+      "question": "Calculate the coefficient of $x^3$ in the expansion of $(2 - x)^7$.",
+      "options": [
+        "-560",
+        "560",
+        "-35",
+        "-280"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term is $\\binom{7}{3}(2)^4(-x)^3 = 35 \\times 16 \\times (-x^3) = -560x^3$.\n\n**Common mistake:** Option B ignores the negative sign from the $(-x)^3$ part of the expansion."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q7",
+      "type": "mcq",
+      "question": "Find the constant term in the expansion of $(x + \\frac{2}{x})^4$.",
+      "options": [
+        "24",
+        "6",
+        "16",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "The constant term occurs when the powers of $x$2$\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q8",
+      "type": "mcq",
+      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + ...$, find the values of $n$2$p$.",
+      "options": [
+        "n = 6, p = 4",
+        "n = 4, p = 6",
+        "n = 8, p = 3",
+        "n = 12, p = 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$np = 24$ and $\\frac{n(n-1)}{2}p^2 = 240$. Substituting $p = 24/n$2$\\frac{n(n-1)}{2}(\\frac{576}{n^2}) = 240 \\implies 288(n-1) = 240n \\implies 48n = 288 \\implies n=6, p=4$.\n\n**Common mistake:** Option B swaps the values of $n$2$p$ without checking both equations."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q9",
+      "type": "mcq",
+      "question": "Find the first three terms of $(1 - \\frac{x}{2})^8$ in ascending powers of $x$.",
+      "options": [
+        "1 - 4x + 7x^2",
+        "1 - 4x + 28x^2",
+        "1 + 4x + 7x^2",
+        "1 - 4x - 7x^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terms: $1 + \\binom{8}{1}(-\\frac{x}{2}) + \\binom{8}{2}(-\\frac{x}{2})^2 = 1 - 4x + 28(\\frac{x^2}{4}) = 1 - 4x + 7x^2$.\n\n**Common mistake:** Option B fails to square the $1/2$ in the denominator for the $x^2$ term."
+    },
+    {
+      "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q10",
+      "type": "mcq",
+      "question": "Determine the coefficient of $x^3$ in the expansion of $(x^2 + \\frac{k}{x})^3$.",
+      "options": [
+        "3k",
+        "k³",
+        "3k^2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expanding: $(x^2)^3 + 3(x^2)^2(\\frac{k}{x}) + 3(x^2)(\\frac{k}{x})^2 + (\\frac{k}{x})^3 = x^6 + 3kx^3 + 3k^2 + k^3/x^3$. The coefficient is $3k$.\n\n**Common mistake:** Option B picks the constant term or a term with a different power of $x$."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "17-5-electrical-safety-hard",
+  "topicId": "17-5-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "hard",
+  "title": "Electrical Safety — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-5-electrical-safety-hard-q1",
+      "type": "mcq",
+      "question": "An appliance is rated at $2500\\text{ W}$ and is connected to a $230\\text{ V}$ supply. If the available fuse ratings are $3\\text{ A}$, $5\\text{ A}$, $10\\text{ A}$, and $13\\text{ A}$, which fuse should be selected?",
+      "options": [
+        "$13\\text{ A}$",
+        "$10\\text{ A}$",
+        "$5\\text{ A}$",
+        "$3\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operating current $I = P / V = 2500 / 230 \\approx 10.87\\text{ A}$. The fuse must be rated higher than this, so the $13\\text{ A}$ fuse is the only safe choice. \n\n**Common mistake:** Choosing $10\\text{ A}$, which would blow as soon as the appliance is turned on."
+    },
+    {
+      "id": "17-5-electrical-safety-hard-q2",
+      "type": "mcq",
+      "question": "If a fault occurs where the live wire touches the metal casing of an earthed appliance, what sequence of events protects the user?",
+      "options": [
+        "A large current flows through the earth wire, causing the fuse to blow and isolating the appliance.",
+        "The earth wire increases its resistance, pushing the current back to the power station.",
+        "The neutral wire becomes live to balance the potential difference.",
+        "The plastic insulation on the wires melts to seal the leak."
+      ],
+      "correctIndex": 0,
+      "explanation": "The earth wire provides a low-resistance path, creating a very large current that exceeds the fuse rating. The fuse then melts, cutting off the electricity. \n\n**Common mistake:** Thinking the earth wire 'absorbs' the shock without blowing the fuse."
+    },
+    {
+      "id": "17-5-electrical-safety-hard-q3",
+      "type": "mcq",
+      "question": "Explain why a switch placed in the neutral wire is dangerous, even when the switch is 'open' (off).",
+      "options": [
+        "The internal components of the appliance remain at a high potential (live).",
+        "The appliance will continue to draw its full operating power.",
+        "The earth wire will begin to carry the full return current.",
+        "The fuse will blow because the potential difference has nowhere to go."
+      ],
+      "correctIndex": 0,
+      "explanation": "Breaking the neutral path stops current flow, but the live wire is still connected to the appliance's internals, keeping them at $230\\text{ V}$. Touching them would complete a circuit to the ground through the person. \n\n**Common mistake:** Thinking 'open' always means 'safe' regardless of location."
+    },
+    {
+      "id": "17-5-electrical-safety-hard-q4",
+      "type": "mcq",
+      "question": "A domestic circuit is protected by a $30\\text{ A}$ trip switch. If five $2.0\\text{ kW}$ kettles are plugged into this circuit ($V = 240\\text{ V}$), what will happen?",
+      "options": [
+        "The total current will be approximately $41.7\\text{ A}$, and the trip switch will flip.",
+        "The kettles will each operate at $1/5$ of their rated power.",
+        "The current will be $25\\text{ A}$, and the circuit will function normally.",
+        "The voltage will drop to $48\\text{ V}$ to keep the current safe."
+      ],
+      "correctIndex": 0,
+      "explanation": "Total power $P = 5 \\times 2000 = 10000\\text{ W}$. Total current $I = 10000 / 240 \\approx 41.7\\text{ A}$. Since $41.7 > 30$, the breaker will trip. \n\n**Common mistake:** Assuming appliances in a house are in series and share voltage."
+    },
+    {
+      "id": "17-5-electrical-safety-hard-q5",
+      "type": "mcq",
+      "question": "Which combination of safety features is essential for a high-power metal-cased washing machine?",
+      "options": [
+        "A fuse in the live wire and a connected earth wire.",
+        "A fuse in the neutral wire and double insulation.",
+        "A diode to rectify the current and a variable resistor.",
+        "An ammeter in series and a voltmeter in parallel."
+      ],
+      "correctIndex": 0,
+      "explanation": "Metal-cased appliances require earthing to prevent the case from becoming live and a fuse in the live wire to break the circuit during a fault. \n\n**Common mistake:** Thinking a voltmeter is a safety feature."
+    }
+  ]
+}

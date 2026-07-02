@@ -1,0 +1,142 @@
+{
+  "id": "ch21-earth-and-the-solar-system-medium",
+  "topicId": "ch21-earth-and-the-solar-system",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "medium",
+  "title": "Chapter 21: Earth and the Solar System — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q1",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the average orbital speed $v$ of the Earth around the Sun?",
+      "options": [
+        "$v = \\frac{2pi r}{T}$",
+        "$v = \\frac{r}{T}$",
+        "$v = \\frac{2pi T}{r}$",
+        "$v = pi r^2 T$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The average orbital speed is calculated by dividing the total distance of one orbit (circumference, $2pi r$) by the time taken ($T$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q2",
+      "type": "mcq",
+      "question": "In December, the South Pole is tilted towards the Sun. What season is it in the Southern Hemisphere?",
+      "options": [
+        "Summer",
+        "Winter",
+        "Autumn",
+        "Spring"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a pole is tilted towards the Sun, that hemisphere experiences longer days and more direct sunlight, which is summer.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q3",
+      "type": "mcq",
+      "question": "The Earth's radius is approximately $6400\\text{ km}$. Calculate the distance a point on the equator travels during one full rotation of the Earth.",
+      "options": [
+        "$40200\\text{ km}$",
+        "$20100\\text{ km}$",
+        "$6400\\text{ km}$",
+        "$12800\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance is the circumference: $C = 2pi r = 2 \\times 3.14 \\times 6400 \\approx 40212\\text{ km}$. Option A is the closest plausible estimate.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q4",
+      "type": "mcq",
+      "question": "If the Earth takes approximately $365$ days to orbit the Sun, how many hours is this approximately?",
+      "options": [
+        "$8760$ hours",
+        "$365$ hours",
+        "$1000$ hours",
+        "$24$ hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "$365 \\text{ days} \\times 24 \\text{ hours/day} = 8760 \\text{ hours}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q5",
+      "type": "mcq",
+      "question": "What is the approximate time taken for the Moon to complete one orbit around the Earth?",
+      "options": [
+        "1 month",
+        "1 year",
+        "24 hours",
+        "1 week"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources note that the Moon orbits the Earth approximately once a month (roughly 27 to 28 days).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q6",
+      "type": "mcq",
+      "question": "The Sun is $150$ million kilometres from the Earth. Given the speed of light is $3 \\times 10^{8}$ m/s, calculate how long it takes light to reach the Earth.",
+      "options": [
+        "$500$ s",
+        "$0.5$ s",
+        "$50$ s",
+        "$5000$ s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$150$ million km is $1.5 \\times 10^{11}$ m. Time $t = d/v = (1.5 \\times 10^{11}) / (3 \\times 10^{8}) = 500$ s. \n\n**Common mistake:** Failing to convert kilometres to metres."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q7",
+      "type": "mcq",
+      "question": "In an elliptical orbit, where is the Sun located?",
+      "options": [
+        "At one of the two foci",
+        "Exactly at the centre of the ellipse",
+        "At both foci simultaneously",
+        "Outside the ellipse"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notes state that an ellipse has two foci and the Sun is at one of these foci. \n\n**Common mistake:** Thinking the Sun is at the dead centre."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q8",
+      "type": "mcq",
+      "question": "An astronaut travels to a planet where the gravitational field strength is $40\\%$ of Earth's. If his mass is $80$ kg on Earth, what is his mass and weight on this planet? (Take $g = 10$ N/kg on Earth)",
+      "options": [
+        "Mass: $80$ kg; Weight: $320$ N",
+        "Mass: $32$ kg; Weight: $320$ N",
+        "Mass: $80$ kg; Weight: $800$ N",
+        "Mass: $32$ kg; Weight: $80$ N"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass does not change with location ($80$ kg). Weight on Earth = $800$ N. Weight on the planet = $0.40 \\times 800 = 320$ N. \n\n**Common mistake:** Thinking mass decreases in a weaker gravitational field."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q9",
+      "type": "mcq",
+      "question": "How does the Sun's gravitational field strength change as the distance from the Sun increases?",
+      "options": [
+        "It decreases.",
+        "It increases.",
+        "It remains constant.",
+        "It decreases then increases."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, gravitational field strength decreases with distance from the planet or star. \n\n**Common mistake:** Thinking gravity is the same everywhere in the Solar System."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-medium-q10",
+      "type": "mcq",
+      "question": "Based on planetary data, which planet has a gravitational field strength most similar to that of the Earth?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 21.2 and the corresponding answers indicate that Venus has a gravitational field strength similar to Earth's. \n\n**Common mistake:** Choosing Mars, which only has about $40\\%$ of Earth's gravity."
+    }
+  ]
+}

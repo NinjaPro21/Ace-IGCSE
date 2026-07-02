@@ -1,0 +1,77 @@
+{
+  "id": "22-3-the-universe-pyp",
+  "topicId": "22-3-the-universe",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "pyp",
+  "title": "The Universe — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "22-3-the-universe-pyp-q1",
+      "type": "mcq",
+      "question": "Which of the following lists astronomical objects in the correct order of size, from LARGEST to SMALLEST?",
+      "options": [
+        "Universe, Milky Way, Sun, Jupiter",
+        "Milky Way, Universe, Sun, Jupiter",
+        "Universe, Sun, Milky Way, Jupiter",
+        "Jupiter, Sun, Milky Way, Universe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Universe contains galaxies (like the Milky Way), which contain stars (like the Sun), which are orbited by planets (like Jupiter).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-pyp-q2",
+      "type": "mcq",
+      "question": "The astronomer Hubble plotted a graph to show the relationship between galaxies and Earth. What were the axes and the shape of his graph?",
+      "options": [
+        "Speed vs Distance; straight line through the origin",
+        "Distance vs Time; horizontal line",
+        "Redshift vs Temperature; downward curve",
+        "Mass vs Speed; straight line with negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hubble plotted recession speed against distance, obtaining a straight line through the origin. This relationship defines the Hubble constant.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-pyp-q3",
+      "type": "mcq",
+      "question": "Which two observations provide the strongest evidence for the Big Bang Theory?",
+      "options": [
+        "Redshift and CMBR",
+        "Solar eclipses and Tides",
+        "Nuclear fission and Fusion",
+        "Reflection and Refraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources identify redshift and Cosmic Microwave Background Radiation (CMBR) as the two primary pieces of evidence supporting the Big Bang Theory.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-pyp-q4",
+      "type": "mcq",
+      "question": "What is the current estimated value of the Hubble constant, $H_0$?",
+      "options": [
+        "$2.2 \\times 10^{-18}\\text{ per second}$",
+        "$3.0 \\times 10^{8}\\text{ per second}$",
+        "$9.5 \\times 10^{15}\\text{ per second}$",
+        "$1.5 \\times 10^{11}\\text{ per second}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state that the current estimate for $H_0$ is $2.2 \\times 10^{-18}$ per second.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-pyp-q5",
+      "type": "mcq",
+      "question": "Which statement about light-years is correct?",
+      "options": [
+        "A light-year is a unit of distance",
+        "A light-year is a unit of time",
+        "A light-year is the speed of light in one year",
+        "A light-year is the age of the Universe"
+      ],
+      "correctIndex": 0,
+      "explanation": "A light-year is a unit for measuring distance, not time. It represents the distance light travels in one year.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

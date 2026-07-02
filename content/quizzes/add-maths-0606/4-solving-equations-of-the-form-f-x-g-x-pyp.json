@@ -1,0 +1,77 @@
+{
+  "id": "4-solving-equations-of-the-form-f-x-g-x-pyp",
+  "topicId": "4-solving-equations-of-the-form-f-x-g-x",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "pyp",
+  "title": "Solving Equations of the Form $|f(x)| = g(x)$ — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-solving-equations-of-the-form-f-x-g-x-pyp-q1",
+      "type": "mcq",
+      "question": "Find the coordinates of the points of intersection of the graphs $y = |3x - 2|$ and $y = |x + 6|$.",
+      "options": [
+        "(4, 10) and (-1, 5)",
+        "(4, 10) only",
+        "(2, 4) and (-3, 11)",
+        "(-4, 14) and (1, 7)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $3x-2 = x+6 \\implies 2x=8, x=4, y=10$. Case 2: $3x-2 = -x-6 \\implies 4x=-4, x=-1, y=5$.\n\n**Common mistake:** Arithmetic slips in Case 2 or neglecting to find the y-coordinates."
+    },
+    {
+      "id": "4-solving-equations-of-the-form-f-x-g-x-pyp-q2",
+      "type": "mcq",
+      "question": "Solve the equation $|2x + 5| = |x - 1|$.",
+      "options": [
+        "x = -6 and x = -1.33",
+        "x = -6 only",
+        "x = -4 and x = -1.33",
+        "x = 6 and x = 1.33"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $2x+5 = x-1 \\implies x=-6$. Case 2: $2x+5 = -x+1 \\implies 3x=-4 \\implies x = -4/3 \\approx -1.33$.\n\n**Common mistake:** Sign errors resulting in $x = -4$ or incorrectly handling the division of -4 by 3."
+    },
+    {
+      "id": "4-solving-equations-of-the-form-f-x-g-x-pyp-q3",
+      "type": "mcq",
+      "question": "Solve the equation $|4x - 1| = |2x + 9|$.",
+      "options": [
+        "x = 5 and x = -1.33",
+        "x = 5 only",
+        "x = 4 and x = -2",
+        "x = 5 and x = -2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $4x-1 = 2x+9 \\implies 2x=10, x=5$. Case 2: $4x-1 = -2x-9 \\implies 6x=-8 \\implies x = -4/3 \\approx -1.33$.\n\n**Common mistake:** Incorrectly expanding Case 2 as $-2x+9$ or miscalculating the root $x=5$."
+    },
+    {
+      "id": "4-solving-equations-of-the-form-f-x-g-x-pyp-q4",
+      "type": "mcq",
+      "question": "Find the values of x for which $|x - a| = |x - b|$ where a and b are distinct constants.",
+      "options": [
+        "x = (a + b) / 2",
+        "x = a - b",
+        "x = a + b",
+        "No solution"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $x-a = x-b$2$x-a = -(x-b) \\implies x-a = -x+b \\implies 2x = a+b \\implies x = (a+b)/2$.\n\n**Common mistake:** Thinking that no solution exists because Case 1 fails, missing the geometric midpoint property of the second case."
+    },
+    {
+      "id": "4-solving-equations-of-the-form-f-x-g-x-pyp-q5",
+      "type": "mcq",
+      "question": "Solve $|5x + 3| = |2x - 15|$.",
+      "options": [
+        "x = -6 and x = 1.71",
+        "x = 6 and x = -1.71",
+        "x = -6 and x = 4",
+        "x = -9 and x = 1.71"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $5x+3 = 2x-15 \\implies 3x=-18, x=-6$. Case 2: $5x+3 = -2x+15 \\implies 7x=12 \\implies x = 12/7 \\approx 1.71$.\n\n**Common mistake:** Arithmetic slips when dividing 18 by 3 or 12 by 7, or sign errors in the case expansions."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "7-2-symmetry-medium",
+  "topicId": "7-2-symmetry",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "medium",
+  "title": "Symmetry — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-2-symmetry-medium-q1",
+      "type": "mcq",
+      "question": "In a kite $ABCD$2$AB = AD$2$BC = CD$2$ABC$2$115°$. Use symmetry to find the size of angle $ADC$.",
+      "options": [
+        "$115°$",
+        "$65°$",
+        "$90°$",
+        "$57.5°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A kite has one line of symmetry passing through the vertices between the pairs of equal sides, which means the angles at the other two vertices are equal.\n\n**Common mistake:** The student might try to subtract from $180°$ or divide by $2$."
+    },
+    {
+      "id": "7-2-symmetry-medium-q2",
+      "type": "mcq",
+      "question": "What is the order of rotational symmetry of a hexagonal prism about its main longitudinal axis (passing through the centers of the two hexagonal faces)?",
+      "options": [
+        "$6$",
+        "$2$",
+        "$12$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The order of rotational symmetry about the main axis is equal to the number of sides of the regular polygon cross-section.\n\n**Common mistake:** A student might count the total number of faces ($8$) or the rotational order of a rectangle ($2$)."
+    },
+    {
+      "id": "7-2-symmetry-medium-q3",
+      "type": "mcq",
+      "question": "A prism has a regular pentagonal cross-section. Calculate the total number of planes of symmetry it possesses.",
+      "options": [
+        "$6$",
+        "$5$",
+        "$10$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A prism with a regular $n$2$n$2$1$ horizontal plane, giving $n + 1$ planes. For a pentagon, $5 + 1 = 6$.\n\n**Common mistake:** A student might only count the $5$ vertical planes and forget the horizontal cross-section plane."
+    },
+    {
+      "id": "7-2-symmetry-medium-q4",
+      "type": "mcq",
+      "question": "A rhombus and a rectangle (that is not a square) are compared. Which statement about their symmetry is correct?",
+      "options": [
+        "They both have the same number of lines and the same order of rotational symmetry.",
+        "The rectangle has more lines of symmetry than the rhombus.",
+        "The rhombus has a higher order of rotational symmetry.",
+        "Neither shape has rotational symmetry of order $2$."
+      ],
+      "correctIndex": 0,
+      "explanation": "Both a rhombus and a rectangle have $2$ lines of symmetry and rotational symmetry of order $2$.\n\n**Common mistake:** Students may think a rhombus has more lines because its diagonals are lines of symmetry, whereas rectangle diagonals are not."
+    },
+    {
+      "id": "7-2-symmetry-medium-q5",
+      "type": "mcq",
+      "question": "A cylinder has an axis of symmetry running through its center. If the cylinder is rotated about an axis that passes through the midpoint of its length and is perpendicular to its height, what is the order of rotational symmetry?",
+      "options": [
+        "$2$",
+        "Infinite",
+        "$1$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rotating a cylinder $180°$ about a central horizontal axis returns it to its original position, giving order $2$.\n\n**Common mistake:** Students often confuse this with the longitudinal axis, which has infinite rotational symmetry."
+    }
+  ]
+}

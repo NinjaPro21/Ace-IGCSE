@@ -1,0 +1,77 @@
+{
+  "id": "11-2-properties-of-wave-motion-easy",
+  "topicId": "11-2-properties-of-wave-motion",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "easy",
+  "title": "Properties of Wave Motion — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-2-properties-of-wave-motion-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following defines the amplitude of a wave?",
+      "options": [
+        "The maximum displacement of a particle from its rest position",
+        "The distance between two successive crests",
+        "The number of complete waves produced per second",
+        "The distance travelled by a wave in one second"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amplitude is the maximum displacement from the equilibrium or rest position. \n\n**Common mistake:** Confusing amplitude with wavelength, which is the distance between successive points in phase."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for the frequency of a wave?",
+      "options": [
+        "hertz (Hz)",
+        "metres (m)",
+        "seconds (s)",
+        "metres per second (m/s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz (Hz), representing the number of cycles per second. \n\n**Common mistake:** Selecting seconds, which is the unit for the period (T)."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-easy-q3",
+      "type": "mcq",
+      "question": "In the wave equation $v = f\\lambda$, what does the symbol $\\lambda$ (\\lambda) represent?",
+      "options": [
+        "Wavelength",
+        "Wave speed",
+        "Frequency",
+        "Period"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Greek letter $\\lambda$ is the standard symbol for wavelength. \n\n**Common mistake:** Confusing $\\lambda$ with $v$ (velocity)."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-easy-q4",
+      "type": "mcq",
+      "question": "A wave has a frequency of $10\\text{ Hz}$ and a wavelength of $2.0\\text{ m}$. Calculate its speed.",
+      "options": [
+        "$20\\text{ m/s}$",
+        "$5\\text{ m/s}$",
+        "$0.2\\text{ m/s}$",
+        "$12\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda = 10 \\times 2.0 = 20\\text{ m/s}$. \n\n**Common mistake:** Dividing frequency by wavelength instead of multiplying."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-easy-q5",
+      "type": "mcq",
+      "question": "What is meant by the 'period' of a wave?",
+      "options": [
+        "The time taken for one complete oscillation",
+        "The distance between two consecutive troughs",
+        "The number of waves passing a point in one second",
+        "The height of a crest above the rest position"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period (T) is the time required for one full cycle or oscillation. \n\n**Common mistake:** Confusing period with frequency, which is the 'number' of oscillations per unit time."
+    }
+  ]
+}

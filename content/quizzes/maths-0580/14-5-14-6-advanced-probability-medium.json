@@ -1,0 +1,77 @@
+{
+  "id": "14-5-14-6-advanced-probability-medium",
+  "topicId": "14-5-14-6-advanced-probability",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "medium",
+  "title": "Advanced Probability — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-5-14-6-advanced-probability-medium-q1",
+      "type": "mcq",
+      "question": "A class of 25 students has 9 who study French only, 6 who study German only, and 7 who study both. What is the probability that a student chosen at random studies German?",
+      "options": [
+        "13/25",
+        "6/25",
+        "7/25",
+        "16/25"
+      ],
+      "correctIndex": 0,
+      "explanation": "Students studying German include those studying German only (6) plus those studying both (7). Total $= 13/25$.\n\n**Common mistake:** Only counting the 'German only' section and ignoring the intersection."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-medium-q2",
+      "type": "mcq",
+      "question": "Using the restaurant data ($N=50$), if 14 people chose Gelato and Chicken Curry, and a total of 23 people chose Gelato, find the probability a person chose Chicken Curry given they chose Gelato.",
+      "options": [
+        "14/23",
+        "14/24",
+        "14/50",
+        "23/50"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(\\text{Curry} | \\text{Gelato}) = \\text{Count(Curry} \\cap \\text{Gelato}) / \\text{Count(Gelato)} = 14 / 23$.\n\n**Common mistake:** Dividing by the total number of people who chose Curry (24) instead of the given condition (those who chose Gelato)."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-medium-q3",
+      "type": "mcq",
+      "question": "In a tree diagram, $P(\\text{Late}) = 0.2$. If late, $P(\\text{Lilian Late}) = 0.7$. If not late, $P(\\text{Lilian Late}) = 0.2$. Calculate the total probability that Lilian is late.",
+      "options": [
+        "0.3",
+        "0.14",
+        "0.16",
+        "0.9"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = (0.2 \\times 0.7) + (0.8 \\times 0.2) = 0.14 + 0.16 = 0.3$.\n\n**Common mistake:** Calculating only the first branch (0.14) and forgetting the second path to Lilian being late."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-medium-q4",
+      "type": "mcq",
+      "question": "A Venn diagram has regions A, B, and C. Which region is described by $P(S \\cap D')$ where S = {Science Fiction} and D = {Detective Stories}?",
+      "options": [
+        "The probability of liking Science Fiction but NOT Detective Stories",
+        "The probability of liking both Science Fiction and Detective Stories",
+        "The probability of liking either Science Fiction or Detective Stories",
+        "The probability of liking Detective Stories only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection with a complement ($D'$) indicates elements inside the first set but outside the second.\n\n**Common mistake:** Interpreting it as liking neither genre."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-medium-q5",
+      "type": "mcq",
+      "question": "Given $P(A) = 0.8, P(B) = 0.7, P(A \\cap B) = 0.5$. Calculate $P(B | A)$.",
+      "options": [
+        "0.625",
+        "0.714",
+        "0.5",
+        "1.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(B|A) = P(A \\cap B) / P(A) = 0.5 / 0.8 = 0.625$.\n\n**Common mistake:** Reversing the $\\frac{tion}{}$ and calculating $P(A|B) = 0.5 / 0.7$ instead."
+    }
+  ]
+}

@@ -4,11 +4,14 @@ The derivative of a curve evaluated at a specific point gives the gradient of th
 
 ## Key formulas
 
-$$\text{Gradient of Tangent: } m_t = \left. \frac{dy}{dx} \right|_{x = x_1}$$
+$$
+\text{Gradient of Tangent: } m_t = \left. \frac{dy}{dx} \right|_{x = x_1}
 
-$$\text{Gradient of Normal: } m_n = -\frac{1}{m_t}$$
+\text{Gradient of Normal: } m_n = -\frac{1}{m_t}
 
-$$\text{Equations: } y - y_1 = m_t(x - x_1) \quad \text{and} \quad y - y_1 = m_n(x - x_1)$$
+\text{Equations: } y - y_1 = m_t(x - x_1) \quad \text{and} \quad y - y_1 = m_n(x - x_1)
+$$
+
 
 ## Steps / method
 
@@ -30,17 +33,18 @@ The tangent gradient comes from $\frac{dy}{dx}$ at the point — not from the or
 
 Find the equation of the tangent to $y = x^2 + 3x$ at the point where $x = 2$.
 
-When $x = 2$, $y = 4 + 6 = 10$. Also $\frac{dy}{dx} = 2x + 3$, so at $x = 2$, $m_t = 7$.
+When $x = 2$, $y = 4 + 6 = 10$. Al so $\frac{dy}{dx} = 2x + 3$, so at $x = 2$, $m_t = 7$.
 
-$$y - 10 = 7(x - 2) \implies y = 7x - 4$$
+$$
+y - 10 = 7(x - 2) \implies y = 7x - 4
+$$
 
 ## Worked example — Equation of normal
 
-At the same point $(2, 10)$ with $m_t = 7$:
+At the same point $(2, 10)$ with $m_t = 7$: $$
+$m_n = -\frac{1}{7}$
 
-$$m_n = -\frac{1}{7}$$
-
-$$y - 10 = -\frac{1}{7}(x - 2) \implies 7y - 70 = -x + 2 \implies x + 7y = 72$$
+$y - 10 = -\frac{1}{7}(x - 2) \implies 7y - 70 = -x + 2 \implies x + 7y = 72$
 
 ## Examiner tip
 
@@ -49,7 +53,3 @@ A common mistake is using the original function equation to find the gradient in
 ## Quick check
 
 If a tangent line has a slope of 4, then the normal line at that same point must have a slope of $-\frac{1}{4}$.
-
-## Visual / interactive intent
-
-Reuse explorer: Coordinate geometry lab. Modified to show a curve instead of a line. Dragging a point along the curve displays the tangent line and normal line as a perpendicular cross, showing their changing equations.

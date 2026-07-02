@@ -1,0 +1,77 @@
+{
+  "id": "6-4-power-medium",
+  "topicId": "6-4-power",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "medium",
+  "title": "Power — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-4-power-medium-q1",
+      "type": "mcq",
+      "question": "Boy A and Boy B have equal mass. They climb to the same height, but Boy A reaches the top in a shorter time. How does their power compare?",
+      "options": [
+        "Boy A has more power than Boy B",
+        "Boy B has more power than Boy A",
+        "They have equal power because their masses are equal",
+        "They have equal power because they climbed the same distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both do the same work because they have the same mass and height. However, Boy A is more powerful because he performs that work more quickly. \n\n**Common mistake:** Equating power only to the amount of work done without considering the time duration."
+    },
+    {
+      "id": "6-4-power-medium-q2",
+      "type": "mcq",
+      "question": "An electric motor in a washing machine has a power output of $1.0\\text{ kW}$. Calculate the work done by the motor in half an hour ($30\\text{ minutes}$).",
+      "options": [
+        "$1.8\\text{ MJ}$",
+        "$30\\text{ kJ}$",
+        "$0.5\\text{ kJ}$",
+        "$180\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = 1000\\text{ W}$; $t = 30 \\times 60 = 1800\\text{ s}$. $Work = P \\times t = 1000 \\times 1800 = 1800000\\text{ J} = 1.8\\text{ MJ}$. \n\n**Common mistake:** Failing to convert half an hour into seconds before calculating."
+    },
+    {
+      "id": "6-4-power-medium-q3",
+      "type": "mcq",
+      "question": "Two electric kettles contain the same amount of water. Kettle X is rated at $500\\text{ W}$ and Kettle Y is rated at $1000\\text{ W}$. How does the time taken to boil the water compare?",
+      "options": [
+        "Kettle Y will take half the time of Kettle X",
+        "Kettle X will take half the time of Kettle Y",
+        "They will take the same amount of time",
+        "$Kettle Y will take four \\times as long as Kettle X$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A higher power rating means energy is transferred faster. Since Kettle Y has double the power of Kettle X, it can transfer the same required boiling energy in half the time. \n\n**Common mistake:** Reversing the logic and thinking higher power takes longer."
+    },
+    {
+      "id": "6-4-power-medium-q4",
+      "type": "mcq",
+      "question": "A student lifts a $2.0\\text{ kg}$ mass vertically through a height of $5.0\\text{ m}$ in $4.0\\text{ s}$. Calculate the power used against gravity. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$25\\text{ W}$",
+        "$2.5\\text{ W}$",
+        "$40\\text{ W}$",
+        "$100\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work $W = mgh = 2.0 \\times 10 \\times 5.0 = 100\\text{ J}$. Power $P = W / t = 100 / 4.0 = 25\\text{ W}$. \n\n**Common mistake:** Forgetting to multiply by $g$ ($10$) to get the weight, leading to $2.5\\text{ W}$."
+    },
+    {
+      "id": "6-4-power-medium-q5",
+      "type": "mcq",
+      "question": "An electric hoist has a total power input of $500\\text{ W}$ and an efficiency of $60\\%$. Calculate the useful power output.",
+      "options": [
+        "$300\\text{ W}$",
+        "$833\\text{ W}$",
+        "$200\\text{ W}$",
+        "$30\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Useful Power $= \\text{Efficiency} \\times \\text{Total Input} = 0.60 \\times 500 = 300\\text{ W}$. \n\n**Common mistake:** Dividing input by efficiency ($833$) or calculating the wasted power ($200$)."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "4-1-forces-easy",
+  "topicId": "4-1-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "easy",
+  "title": "Forces — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-forces-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following describes a possible effect of a force acting on an object?",
+      "options": [
+        "Change in the size, shape, or motion of the object",
+        "Change in the mass of the object",
+        "Increase in the number of particles in the object",
+        "Change in the gravitational field strength around the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forces can cause objects to change in size and/or shape, or change their motion (speed and direction). \n\n**Common mistake:** Thinking a force can change an object's mass; mass is the quantity of matter and remains constant regardless of the force applied."
+    },
+    {
+      "id": "4-1-forces-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for force?",
+      "options": [
+        "newton ($N$)",
+        "kilogram ($kg$)",
+        "joule ($J$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for force is the newton ($N$). \n\n**Common mistake:** Selecting kilograms, which is the unit for mass, not force."
+    },
+    {
+      "id": "4-1-forces-easy-q3",
+      "type": "mcq",
+      "question": "In the formula $k = \\frac{F}{x}$, what does the symbol $x$ represent?",
+      "options": [
+        "The extension of the spring",
+        "The original length of the spring",
+        "The total length of the spring",
+        "The spring constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the spring constant formula, $x$ represents the extension, which is the change in length of the spring ($l - l_0$). \n\n**Common mistake:** Using the total length of the spring instead of the extension."
+    },
+    {
+      "id": "4-1-forces-easy-q4",
+      "type": "mcq",
+      "question": "What does a straight line passing through the origin on a load–extension graph indicate?",
+      "options": [
+        "The extension is directly proportional to the load",
+        "The spring has reached its limit of proportionality",
+        "The spring constant is changing",
+        "The spring is permanently deformed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A straight line through the origin shows that the ratio of load to extension is constant, meaning they are directly proportional. \n\n**Common mistake:** Thinking the line indicates the spring has reached its limit; that limit occurs where the graph starts to curve."
+    },
+    {
+      "id": "4-1-forces-easy-q5",
+      "type": "mcq",
+      "question": "Which instrument is typically used to measure the weight of an object or the force exerted by a spring?",
+      "options": [
+        "Spring balance",
+        "Beam balance",
+        "Measuring cylinder",
+        "Metre rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "A spring balance (or force meter) uses the extension of a spring to measure force in Newtons. \n\n**Common mistake:** Selecting a beam balance, which is used to compare masses, not measure force directly."
+    }
+  ]
+}

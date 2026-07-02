@@ -1,0 +1,77 @@
+{
+  "id": "19-1-the-atom-hard",
+  "topicId": "19-1-the-atom",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "hard",
+  "title": "The Atom — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-1-the-atom-hard-q1",
+      "type": "mcq",
+      "question": "In the $alpha$-particle scattering experiment, why are some $alpha$-particles deflected at very large angles?",
+      "options": [
+        "They pass very close to the small, positively charged nucleus",
+        "They collide with the much heavier electrons in the orbits",
+        "They are attracted by the negative charge of the nucleus",
+        "The gold atoms are arranged in a perfectly regular lattice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deflection occurs because $alpha$-particles (which are positive) are repelled by the positive charge concentrated in the nucleus when they get too close.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-hard-q2",
+      "type": "mcq",
+      "question": "If an atom with nuclide notation $^{14}6 C$ becomes a negative ion with a charge of $-2$, what is its new composition?",
+      "options": [
+        "6 protons, 8 neutrons, 8 electrons",
+        "6 protons, 8 neutrons, 4 electrons",
+        "4 protons, 8 neutrons, 6 electrons",
+        "8 protons, 6 neutrons, 10 electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The proton number (6) and neutron number ($14-6=8$) remain constant. A $-2$ charge means it has gained 2 extra electrons, so $6 + 2 = 8$ electrons.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-hard-q3",
+      "type": "mcq",
+      "question": "Which of the following describes the 'Quantum Model' of the atom proposed in 1926?",
+      "options": [
+        "Electrons move in 'clouds' around the nucleus",
+        "Electrons move in fixed circular orbits like planets",
+        "The atom is a 'plum pudding' of positive and negative charges",
+        "The nucleus contains only protons and no neutrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Figure 19.6 shows that the quantum model suggests electrons move in clouds rather than fixed circular orbits.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-hard-q4",
+      "type": "mcq",
+      "question": "Compare the mass and charge of a nucleus of $^{35}{17}Cl$ with a nucleus of $^{37}_{17}Cl$. Which statement is true?",
+      "options": [
+        "They have the same charge but different masses",
+        "They have the same mass but different charges",
+        "They have different charges and different masses",
+        "They have the same mass and the same charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both nuclei have 17 protons, so they have the same positive charge. However, $^{37}Cl$ has more neutrons, so its nucleus has a greater mass.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-hard-q5",
+      "type": "mcq",
+      "question": "An $alpha$-particle consists of 2 protons and 2 neutrons. What is its relative charge and approximate relative mass?",
+      "options": [
+        "Charge: $+2$; Mass: $4$",
+        "Charge: $+4$; Mass: $+2$",
+        "Charge: $0$; Mass: $4$",
+        "Charge: $+2$; Mass: $1/2000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "With 2 protons, the charge is $+2$. With 4 nucleons (2p + 2n), the mass is approximately 4 atomic mass units.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

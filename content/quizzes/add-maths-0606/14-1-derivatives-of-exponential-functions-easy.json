@@ -1,0 +1,77 @@
+{
+  "id": "14-1-derivatives-of-exponential-functions-easy",
+  "topicId": "14-1-derivatives-of-exponential-functions",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "easy",
+  "title": "Derivatives of Exponential Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-derivatives-of-exponential-functions-easy-q1",
+      "type": "mcq",
+      "question": "Find the gradient function $\\frac{dy}{dx}$ for the curve $y = e^{6x}$.",
+      "options": [
+        "$6e^{6x}$",
+        "$e^{6x}$",
+        "$\\frac{1}{6}e^{6x}$",
+        "$6xe^{6x-1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the rule $\\frac{d}{dx}(e^{ax}) = ae^{ax}$, we bring the coefficient of $x$2$6e^{6x}$.\n\n**Common mistake:** Option D is a common error where the student incorrectly applies the power rule for polynomials to an exponential function."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-easy-q2",
+      "type": "mcq",
+      "question": "Differentiate $y = 3e^{-x} + 5$ with respect to $x$.",
+      "options": [
+        "$-3e^{-x}$",
+        "$3e^{-x}$",
+        "$-3e^{-x} + 5$",
+        "$-3e^{-x-1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant^5 is^0. Multiplying by the coefficient^3 gives $-3e^{-x}$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-easy-q3",
+      "type": "mcq",
+      "question": "If $f(x) = e^{2x-4}$, calculate the value of $f'(2)$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "$2e^{-4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f'(x) = 2e^{2x-4}$. Substituting $x = 2$ gives $f'(2) = 2e^{2(2)-4} = 2e^0 = 2(1) = 2$.\n\n**Common mistake:** Option B occurs if the student forgets the multiplier^2 from the chain rule derivative of the exponent."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-easy-q4",
+      "type": "mcq",
+      "question": "Differentiate $y = \\frac{1}{2}e^{4x}$ with respect to $x$.",
+      "options": [
+        "$2e^{4x}$",
+        "$4e^{4x}$",
+        "$\\frac{1}{2}e^{4x}$",
+        "$2e^{3x}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = \\frac{1}{2} \\times 4e^{4x} = 2e^{4x}$.\n\n**Common mistake:** Option B results from ignoring the $\\frac{1}{2}$ coefficient during the differentiation process."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-easy-q5",
+      "type": "mcq",
+      "question": "State the derivative of $y = e^x + x^e$.",
+      "options": [
+        "$e^x + ex^{e-1}$",
+        "$e^x + x^e$",
+        "$xe^{x-1} + ex^{e-1}$",
+        "$e^x + e^x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of $e^x$2$e^x$2$x^e$2$e$2$ex^{e-1}$.\n\n**Common mistake:** Option C results from incorrectly applying the power rule to the exponential function $e^x$."
+    }
+  ]
+}

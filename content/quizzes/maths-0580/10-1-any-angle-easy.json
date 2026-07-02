@@ -1,0 +1,77 @@
+{
+  "id": "10-1-any-angle-easy",
+  "topicId": "10-1-any-angle",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Any Angle — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-any-angle-easy-q1",
+      "type": "mcq",
+      "question": "According to the unit circle definition, if a point $P(x, y)$ moves around a circle of radius 1, which trigonometric ratio is represented by the $y$2$P$?",
+      "options": [
+        "$\\sin \\theta$",
+        "$\\cos \\theta$",
+        "$\\tan \\theta$",
+        "The radius"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a unit circle with radius 1, the $y$2$P$2$\\theta$2$\\sin \\theta$.\n\n**Common mistake:** Students often swap the coordinates, thinking the $x$2$y$-coordinate is cosine."
+    },
+    {
+      "id": "10-1-any-angle-easy-q2",
+      "type": "mcq",
+      "question": "At which of the following angles is the function $y = \\tan x$ undefined (resulting in an asymptote)?",
+      "options": [
+        "$90°$",
+        "$0°$",
+        "$180°$",
+        "$360°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tangent function is undefined when the $x$2$90°$ and $270°$.\n\n**Common mistake:** A student might confuse the asymptotes of tangent with the roots of the sine function ($0°, 180°, 360°$)."
+    },
+    {
+      "id": "10-1-any-angle-easy-q3",
+      "type": "mcq",
+      "question": "Using the symmetry of the sine graph, if $\\sin 40° = 0.643$, find another angle between $0°$ and $180°$ that has the same sine value.",
+      "options": [
+        "$140°$",
+        "$50°$",
+        "$220°$",
+        "$320°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sine curve has reflective symmetry about $x = 90°$, meaning $\\sin x = \\sin(180° - x)$. Thus, $\\sin 140° = \\sin 40°$.\n\n**Common mistake:** Students may subtract from $90°$ or $360°$ incorrectly instead of using the $180°$ rule."
+    },
+    {
+      "id": "10-1-any-angle-easy-q4",
+      "type": "mcq",
+      "question": "Which general rule explains why $\\cos(-30°) = \\cos 30°$?",
+      "options": [
+        "$\\cos(-x) = \\cos x$",
+        "$\\cos(-x) = -\\cos x$",
+        "$\\cos x = \\cos(180° - x)$",
+        "$\\cos x = \\sin(90° - x)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cosine graph has reflective symmetry about the $y$2$\\cos(-x) = \\cos x$.\n\n**Common mistake:** Students often assume all trigonometric functions behave the same and might think $\\cos(-x) = -\\cos x$, which is actually the rule for sine."
+    },
+    {
+      "id": "10-1-any-angle-easy-q5",
+      "type": "mcq",
+      "question": "State the exact value of $\\cos 120°$.",
+      "options": [
+        "$-0.5$",
+        "$0.5$",
+        "$-0.866$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the unit circle or the rule $\\cos x = -\\cos(180° - x)$ for obtuse angles, $\\cos 120° = -\\cos 60° = -0.5$.\n\n**Common mistake:** The student may forget the negative sign, as cosine is negative in the second quadrant."
+    }
+  ]
+}

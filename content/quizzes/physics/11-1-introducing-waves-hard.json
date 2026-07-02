@@ -1,0 +1,77 @@
+{
+  "id": "11-1-introducing-waves-hard",
+  "topicId": "11-1-introducing-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "hard",
+  "title": "Introducing Waves — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-introducing-waves-hard-q1",
+      "type": "mcq",
+      "question": "In the study of waves using a rope, what is the role of the 'rope particles' during the passage of a transverse wave?",
+      "options": [
+        "They provide a mechanism for energy transfer by vibrating about fixed positions.",
+        "They move from the source to the fixed end to deliver kinetic energy.",
+        "They remain at rest while infrared radiation carries the energy through them.",
+        "They expand and contract in size to create the wave shape."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rope particles vibrate up and down, transferring kinetic energy to their neighbors without moving down the rope themselves. \n\n**Common mistake:** Claiming the particles 'move to the end' (Choice B)."
+    },
+    {
+      "id": "11-1-introducing-waves-hard-q2",
+      "type": "mcq",
+      "question": "A longitudinal wave passes through a medium. Which description of the particle motion is scientifically accurate?",
+      "options": [
+        "The particles oscillate parallel to the wave direction, creating rarefactions where they are further apart.",
+        "The particles move in a constant forward direction until they hit a boundary.",
+        "The particles oscillate perpendicular to the wave direction to create compressions.",
+        "The particles move faster in rarefactions than they do in compressions."
+      ],
+      "correctIndex": 0,
+      "explanation": "In longitudinal waves, particles oscillate parallel to the wave travel, resulting in regions of high density (compressions) and low density (rarefactions). \n\n**Common mistake:** Associating 'compressions' with perpendicular motion."
+    },
+    {
+      "id": "11-1-introducing-waves-hard-q3",
+      "type": "mcq",
+      "question": "Consider Figure 11.28, which shows particles in a medium. If the wave is longitudinal and moving to the right, how does a particle at the center of a rarefaction move?",
+      "options": [
+        "It oscillates back and forth along the horizontal axis.",
+        "It oscillates up and down along the vertical axis.",
+        "It remains perfectly stationary as a reference point.",
+        "It travels in a small circle clockwise."
+      ],
+      "correctIndex": 0,
+      "explanation": "Longitudinal waves involve vibrations parallel to the direction of propagation (horizontal in this case). \n\n**Common mistake:** Selecting vertical oscillation, which only occurs in transverse waves."
+    },
+    {
+      "id": "11-1-introducing-waves-hard-q4",
+      "type": "mcq",
+      "question": "A student observes a wave where the medium moves 'sideways' while the wave itself moves 'forward.' What can be concluded?",
+      "options": [
+        "The wave is transverse.",
+        "The wave is longitudinal.",
+        "The wave is transferring matter as well as energy.",
+        "The frequency of the wave must be very low."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the motion of the medium (sideways/perpendicular) is different from the direction of energy transfer (forward), the wave is transverse. \n\n**Common mistake:** Thinking that 'forward' travel automatically makes a wave longitudinal."
+    },
+    {
+      "id": "11-1-introducing-waves-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following would NOT change if a transverse wave was replaced by a longitudinal wave with the same frequency and energy?",
+      "options": [
+        "The fact that energy is transferred without matter moving from end to end.",
+        "The direction of the particles' vibration relative to the wave travel.",
+        "The presence of crests and troughs in the medium.",
+        "The mechanical nature of the vibration in the particles."
+      ],
+      "correctIndex": 0,
+      "explanation": "The fundamental property of all mechanical waves is the transfer of energy without transferring matter; this remains true regardless of whether the wave is transverse or longitudinal. \n\n**Common mistake:** Thinking that one type 'carries' matter while the other does not."
+    }
+  ]
+}

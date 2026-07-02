@@ -1,0 +1,77 @@
+{
+  "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy",
+  "topicId": "2-6-intersection-of-a-line-and-a-curve-harder-topic",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "easy",
+  "title": "Intersection of a Line and a Curve — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "If the discriminant $Δ$ of the quadratic equation formed by substituting a linear equation into a curve's equation is exactly zero, how many points of intersection exist?",
+      "options": [
+        "Exactly one point (the line is a tangent)",
+        "Two distinct points of intersection",
+        "No points of intersection",
+        "An infinite number of points"
+      ],
+      "correctIndex": 0,
+      "explanation": "A discriminant of zero ($Δ = 0$) indicates that the resulting quadratic equation has only one repeated real root, meaning the line touches the curve at exactly one point.\n\n**Common mistake:** Students often confuse $Δ = 0$ with $Δ < 0$, leading them to believe there are no intersections, or they assume every line must cross a curve twice."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Find the $x$2$y = 12$ and the curve $y = x^2 - 4$.",
+      "options": [
+        "$x = 4$ and $x = -4$",
+        "$x = 16$ and $x = -16$",
+        "$x = 2$ and $x = -2$",
+        "$x = 8$ and $x = -8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y = 12$ into the curve: $12 = x^2 - 4$, which gives $x^2 = 16$. Solving for $x$2$±4$.\n\n**Common mistake:** A common error is forgetting the negative root and providing only $x = 4$, or incorrectly adding 4 to 12 and getting $x^2 = 16$ but then dividing by 2 instead of taking the square root."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "Which quadratic equation is obtained by substituting the line $y = 3x + 2$ into the curve $y = x^2 + 5$?",
+      "options": [
+        "$x^2 - 3x + 3 = 0$",
+        "$x^2 + 3x + 7 = 0$",
+        "$x^2 - 3x - 3 = 0$",
+        "$x^2 + 3x - 7 = 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equating the expressions for $y$2$x^2 + 5 = 3x + 2$. Subtracting $3x$2$x^2 - 3x + 3 = 0$.\n\n**Common mistake:** Students often make sign errors when moving terms across the equals sign, often leading to $+3x$2$-7$."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "A line $y = k$2$y = (x - 2)² + 3$. State the value of $k$.",
+      "options": [
+        "3",
+        "2",
+        "-2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal tangent to a parabola must pass through its vertex. The vertex of $y = (x - 2)² + 3$ is at $(2, 3)$, so the horizontal line is $y = 3$.\n\n**Common mistake:** Picking the $x$2$y$-coordinate (3) for the horizontal line equation."
+    },
+    {
+      "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Given the line $y = x$2$y = x^2 - 6$, find the point of intersection in the third quadrant.",
+      "options": [
+        "(-2, -2)",
+        "(-3, -3)",
+        "(3, 3)",
+        "(-2, 2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $x^2 - 6 = x \\implies x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0$. The roots are $x = 3$ and $x = -2$. In the third quadrant, $x = -2$ and $y = -2$.\n\n**Common mistake:** Choosing the root $x = -3$ from incorrect factoring or failing to recognize that $y = x$ means coordinates must be identical."
+    }
+  ]
+}

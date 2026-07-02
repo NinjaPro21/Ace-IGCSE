@@ -1,0 +1,77 @@
+{
+  "id": "17-1-circuit-diagrams-and-components-medium",
+  "topicId": "17-1-circuit-diagrams-and-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "medium",
+  "title": "Circuit Diagrams and Components — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-1-circuit-diagrams-and-components-medium-q1",
+      "type": "mcq",
+      "question": "A potential difference of $6.0\\text{ V}$ is applied across a resistor, and an ammeter measures a current of $0.5\\text{ A}$. Calculate the resistance of the component.",
+      "options": [
+        "$12\\text{ }Omega$",
+        "$3.0\\text{ }Omega$",
+        "$0.083\\text{ }Omega$",
+        "$6.5\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $R = V / I$, the resistance is $6.0 / 0.5 = 12\\text{ }Omega$. \n\n**Common mistake:** Multiplying $6$ and $0.5$ to get $3.0\\text{ }Omega$."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-medium-q2",
+      "type": "mcq",
+      "question": "In a circuit diagram, how must an ammeter and a voltmeter be connected to measure the properties of a lamp?",
+      "options": [
+        "Ammeter in series; Voltmeter in parallel",
+        "Ammeter in parallel; Voltmeter in series",
+        "Both components in series",
+        "Both components in parallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ammeter must be in series to measure the current flowing 'through' the lamp, while a voltmeter must be in parallel to measure the p.d. 'across' it. \n\n**Common mistake:** Swapping the two, which can blow a fuse or result in incorrect readings."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-medium-q3",
+      "type": "mcq",
+      "question": "A student uses a rheostat (variable resistor) in a circuit with a lamp. If the student moves the sliding contact to increase the resistance, what is the effect on the lamp?",
+      "options": [
+        "The lamp becomes dimmer because the current decreases.",
+        "The lamp becomes brighter because the voltage increases.",
+        "The lamp's brightness remains the same.",
+        "The lamp will blow because of the extra resistance."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing resistance in a circuit reduces the current flowing through it (if the voltage source is constant), making the lamp dimmer. \n\n**Common mistake:** Thinking higher resistance 'pushes' more energy into the lamp."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-medium-q4",
+      "type": "mcq",
+      "question": "Which statement correctly describes the $I-V$ characteristic of a filament lamp?",
+      "options": [
+        "The resistance increases as the potential difference increases.",
+        "The resistance remains constant regardless of the voltage.",
+        "The graph of current against voltage is a straight line through the origin.",
+        "The resistance decreases as the lamp gets hotter."
+      ],
+      "correctIndex": 0,
+      "explanation": "As the potential difference across a filament lamp increases, it gets hotter, which causes its resistance to increase. This is shown by a curve with a decreasing gradient. \n\n**Common mistake:** Assuming the lamp follows Ohm's Law and has a constant resistance."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-medium-q5",
+      "type": "mcq",
+      "question": "A diode is placed in a circuit with an alternating current (a.c.) power supply. What is the observed effect on the current?",
+      "options": [
+        "The current is rectified and flows in only one direction.",
+        "The current is blocked completely in both directions.",
+        "The current alternates faster than before.",
+        "The voltage of the supply is doubled."
+      ],
+      "correctIndex": 0,
+      "explanation": "A diode only allows current to flow when it is forward-biased, effectively turning a.c. into a 'rectified' pulsed d.c. \n\n**Common mistake:** Thinking the diode 'smooths' the current into a steady line; it only restricts the direction."
+    }
+  ]
+}

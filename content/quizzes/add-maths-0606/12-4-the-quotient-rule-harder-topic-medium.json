@@ -1,0 +1,77 @@
+{
+  "id": "12-4-the-quotient-rule-harder-topic-medium",
+  "topicId": "12-4-the-quotient-rule-harder-topic",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "medium",
+  "title": "The Quotient Rule — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Find the derivative of $y = (x + 2) / (x - 2)$.",
+      "options": [
+        "-4 / (x - 2)$^2$",
+        "4 / (x - 2)$^2$",
+        "0",
+        "-4 / (x + 2)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 1, v' = 1. $\\frac{dy}{dx}$ = [(x-2)(1) - (x+2)(1)] / (x-2)$^2$ = [x - 2 - x - 2] / (x-2)$^2$ = -4 / (x-2)$^2$.\n\n**Common mistake:** Arithmetic errors in the numerator resulting in 0 or $+4$."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Differentiate $y = \\sqrt{x} / (x + 1)$.",
+      "options": [
+        "(1 - x) / (2\\sqrt{x}(x + 1)$^2$)",
+        "(1 + x) / (2\\sqrt{x}(x + 1)$^2$)",
+        "1 / (2\\sqrt{x}(x + 1))",
+        "x / (x + 1)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 1/(2√x), v' = 1. $\\frac{dy}{dx}$ = [(x+1)/(2√x) - √x] / (x+1)$^2$ = [(x+1 - 2x) / 2√x] / (x+1)$^2$ = (1-x) / (2√x(x+1)$^2$).\n\n**Common mistake:** Struggling to find a common denominator for the terms in the numerator."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Find the gradient of the curve $y = x^2 / (2x - 1)$ at the point where $x = 1$.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "-1"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 2x, v' = 2. $\\frac{dy}{dx}$ = [(2x-1)(2x) - x^2(2)] / (2x-1)$^2$ = [4x^2 - 2x - 2x^2] / (2x-1)$^2$ = (2x^2 - 2x) / (2x-1)$^2$. At x=1, (2-2)/1 = 0.\n\n**Common mistake:** Arithmetic errors when calculating the numerator at the specific point $x=1$."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "Determine $dy/dx$2$y = (3x + 1) / (x^2 + 2)$.",
+      "options": [
+        "(-3x^2 - 2x + 6) / (x^2 + 2)$^2$",
+        "(3x^2 + 2x + 6) / (x^2 + 2)$^2$",
+        "3 / 2x",
+        "(3x^2 - 2x - 6) / (x^2 + 2)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 3, v' = 2x. $\\frac{dy}{dx}$ = [(x^2+2)(3) - (3x+1)(2x)] / (x^2+2)$^2$ = [3x^2 + 6 - 6x^2 - 2x] / (x^2+2)$^2$ = (-3x^2 - 2x + 6) / (x^2+2)$^2$.\n\n**Common mistake:** Incorrectly distributing the $2x$2$(3x+1)$ term, particularly the negative sign."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Solve for $x$2$y = x / (x^2 + 1)$ is zero.",
+      "options": [
+        "x = ±1",
+        "x = 0",
+        "x = 1 only",
+        "No solution"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 1, v' = 2x. $\\frac{dy}{dx}$ = [(x^2+1)(1) - x(2x)] / (x^2+1)$^2$ = (1 - x^2) / (x^2+1)$^2$. Set to 0: $1 - x^2 = 0$, so $x = ±1$.\n\n**Common mistake:** Only identifying $x = 1$ and missing the negative root."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "12-6-small-increments-and-approximations-hard",
+  "topicId": "12-6-small-increments-and-approximations",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "hard",
+  "title": "Small Increments and Approximations — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-6-small-increments-and-approximations-hard-q1",
+      "type": "mcq",
+      "question": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. If there is an error of 0.5% in the measurement of the radius $r$, find the approximate percentage error in the volume.",
+      "options": [
+        "1.5%",
+        "0.125%",
+        "3.5%",
+        "0.5%"
+      ],
+      "correctIndex": 0,
+      "explanation": "dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. % Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r³)) × 100 = 3(δr/r) × 100 = 3(0.5%) = 1.5%.\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-hard-q2",
+      "type": "mcq",
+      "question": "Find the approximate value of $\\sqrt{16.08}$ using the derivative of $y = \\sqrt{x}$.",
+      "options": [
+        "4.01",
+        "4.02",
+        "4.08",
+        "4.005"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let x=16, δx=0.08. $\\frac{dy}{dx}$ = 1/(2√x) = 1/8 = 0.125. δy ≈ 0.125(0.08) = 0.01. New y ≈ 4 + 0.01 = 4.01.\n\n**Common mistake:** Adding the δx (0.08) directly to the square root (4) to get 4.08."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-hard-q3",
+      "type": "mcq",
+      "question": "If $y = (2x - 1)^4$, find the approximate change in $y$2$x$2$1 + h$.",
+      "options": [
+        "8h",
+        "4h",
+        "h",
+        "32h"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 4(2x - 1)³ × 2 = 8(2x - 1)³. At x=1, $\\frac{dy}{dx}$ = 8(1)³ = 8. δy ≈ 8h.\n\n**Common mistake:** Failing to apply the chain rule when differentiating, leading to a coefficient of 4 instead of 8."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-hard-q4",
+      "type": "mcq",
+      "question": "The variables $x$2$y$2$y = \\frac{10}{x+1}$. If $x$2$p$2$p$2$y$2$x=4$.",
+      "options": [
+        "-0.8p %",
+        "-p %",
+        "-0.2p %",
+        "0.8p %"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = -10/(x+1)$^2$. At x=4, $\\frac{dy}{dx}$ = -10/25 = -0.4. δx = (p/100)x = 0.04p. δy ≈ -0.4(0.04p) = -0.016p. y(4) = 2. % change y = (-0.016p / 2) × 100 = -0.8p %.\n\n**Common mistake:** Calculations often miss the fact that δx is a percentage of the original $x$2$p$."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-hard-q5",
+      "type": "mcq",
+      "question": "Find the approximate value of $(2.01)^5 - 3(2.01)^2$.",
+      "options": [
+        "20.68",
+        "20.00",
+        "21.00",
+        "20.34"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let f(x) = x⁵ - 3x^2. f(2) = 32 - 12 = 20. f'(x) = 5x⁴ - 6x. f'(2) = 5(16) - 12 = 68. δx = 0.01. δy ≈ 68(0.01) = 0.68. Result ≈ 20.68.\n\n**Common mistake:** Only approximating one term ($x^5$) and ignoring the second term ($3x^2$)."
+    }
+  ]
+}

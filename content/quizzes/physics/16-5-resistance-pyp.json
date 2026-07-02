@@ -1,0 +1,77 @@
+{
+  "id": "16-5-resistance-pyp",
+  "topicId": "16-5-resistance",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "pyp",
+  "title": "Resistance — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-5-resistance-pyp-q1",
+      "type": "mcq",
+      "question": "Which set of changes to a metal wire will definitely result in an increase in its resistance?",
+      "options": [
+        "Increasing the length and decreasing the thickness",
+        "Decreasing the length and increasing the thickness",
+        "Increasing the length and increasing the thickness",
+        "Decreasing the length and decreasing the thickness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is proportional to length and inversely proportional to area (thickness). To increase $R$, you need a longer and thinner wire. \n\n**Common mistake:** Selecting Row C, thinking bigger wires always have higher resistance."
+    },
+    {
+      "id": "16-5-resistance-pyp-q2",
+      "type": "mcq",
+      "question": "The table shows the results of an experiment on a component. What can be concluded about the component?nn| $V / \\text{V}$ | $1.0$ | $2.0$ | $3.0$ | $4.0$ |n| :--- | :--- | :--- | :--- | :--- |n| $I / \\text{mA}$ | $0.5$ | $1.1$ | $1.6$ | $2.1$ |",
+      "options": [
+        "It is a non-ohmic conductor because the resistance is not constant.",
+        "It is an ohmic conductor because the current increases with voltage.",
+        "The resistance of the component is constant at $2000\\text{ }Omega$.",
+        "The component is a diode."
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculating $R = V/I$ for each pair: $1/0.0005 = 2000\\text{ }Omega$, $2/0.0011 \\approx 1818\\text{ }Omega$, $3/0.0016 = 1875\\text{ }Omega$. Since the resistance changes, it is non-ohmic. \n\n**Common mistake:** Thinking 'ohmic' just means the current goes up when voltage goes up."
+    },
+    {
+      "id": "16-5-resistance-pyp-q3",
+      "type": "mcq",
+      "question": "Which graph represents the $I-V$ characteristic of a semiconductor diode?",
+      "options": [
+        "A graph with zero current for negative voltage and a sharp rise for positive voltage",
+        "A straight line passing through the origin",
+        "A curve whose gradient decreases as voltage increases",
+        "A horizontal line at a constant current value"
+      ],
+      "correctIndex": 0,
+      "explanation": "As described in Table 16.1, a diode allows current to flow in one direction only, represented by zero current on one side of the axis and a rise on the other. \n\n**Common mistake:** Selecting the straight line, which represents a fixed resistor."
+    },
+    {
+      "id": "16-5-resistance-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows a circuit with a $6.0\\text{ V}$ battery and a $12\\text{ }Omega$ resistor. What is the reading on the ammeter?nn[Diagram: Simple series circuit with battery, ammeter, and one resistor]",
+      "options": [
+        "$0.5\\text{ A}$",
+        "$2.0\\text{ A}$",
+        "$72\\text{ A}$",
+        "$18\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I = V / R = 6.0 / 12 = 0.5\\text{ A}$. \n\n**Common mistake:** Dividing $12$ by $6$ to get $2.0\\text{ A}$."
+    },
+    {
+      "id": "16-5-resistance-pyp-q5",
+      "type": "mcq",
+      "question": "A student measures the resistance of a length of wire. He then doubles the length of the wire and doubles its diameter. How does the new resistance compare to the original?",
+      "options": [
+        "It is half of the original.",
+        "It is double the original.",
+        "$It is four \\times the original.$",
+        "It is the same as the original."
+      ],
+      "correctIndex": 0,
+      "explanation": "Doubling length ($L$) doubles $R$. Doubling diameter ($d$) quadruples the area ($A$), which quarters the $R$. Overall effect: $2 \\times (1/4) = 0.5$ (half). \n\n**Common mistake:** Thinking doubling diameter also just doubles the area, leading to 'the same' resistance."
+    }
+  ]
+}

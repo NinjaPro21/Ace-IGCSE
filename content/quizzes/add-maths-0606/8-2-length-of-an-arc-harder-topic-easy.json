@@ -1,0 +1,123 @@
+{
+  "id": "8-2-length-of-an-arc-harder-topic-easy",
+  "topicId": "8-2-length-of-an-arc-harder-topic",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "easy",
+  "title": "Length of an Arc — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "In the formula $s = r\\theta$2$\\theta$ be measured in?",
+      "options": [
+        "Radians",
+        "Degrees",
+        "Gradients",
+        "Minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The simple relationship $s = r\\theta$ is only valid when the angle is measured in radians.\n\n**Common mistake:** Using degrees directly in the formula without converting to radians first."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Find the length of an arc of a circle with radius 6 cm that subtends an angle of 1.5 radians at the centre.",
+      "options": [
+        "9 cm",
+        "4 cm",
+        "12 cm",
+        "7.5 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $s = r\\theta$2$s = 6 \\times 1.5 = 9$ cm.\n\n**Common mistake:** Dividing the radius by the angle instead of multiplying."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "An arc of length 10 cm subtends an angle of 2 radians at the centre of a circle. Find the radius of the circle.",
+      "options": [
+        "5 cm",
+        "20 cm",
+        "0.2 cm",
+        "8 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$r = s / \\theta = 10 / 2 = 5$ cm.\n\n**Common mistake:** Multiplying the arc length and angle together."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+      "options": [
+        "$\\pi/3$",
+        "$\\pi/6$",
+        "$3\\pi$",
+        "$\\pi/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$60 \\times (\\pi / 180) = \\pi / 3$.\n\n**Common mistake:** Using the wrong conversion factor, such as $180 / \\pi$.",
+      "variants": [
+        {
+          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{4}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{1}{6}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "\\pi",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
+        }
+      ]
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Find the length of the arc of a semicircle with radius $r$.",
+      "options": [
+        "$\\pi r$",
+        "$2\\pi r$",
+        "$\\pi r^2$",
+        "$0.5\\pi r$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle of a semicircle is $\\pi radians$2$2s = r \\times \\pi = \\pi r$.\n\n**Common mistake:** Providing the full circumference ($2\\pi r$) instead of the arc of the semicircle."
+    }
+  ]
+}

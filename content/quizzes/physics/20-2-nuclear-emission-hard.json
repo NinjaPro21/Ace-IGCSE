@@ -1,0 +1,77 @@
+{
+  "id": "20-2-nuclear-emission-hard",
+  "topicId": "20-2-nuclear-emission",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "hard",
+  "title": "Nuclear Emission — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-2-nuclear-emission-hard-q1",
+      "type": "mcq",
+      "question": "Which property of $alpha$-particles best explains why they have a very strong ionising effect compared to $beta$-particles?",
+      "options": [
+        "They have a larger charge and greater mass",
+        "They travel at the speed of light",
+        "They have a smaller size, allowing more collisions",
+        "They are neutral and do not repel electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles have a $+2$ charge and a large mass (4 units). Their high charge and kinetic energy make them very effective at knocking electrons off atoms, causing strong ionisation.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-hard-q2",
+      "type": "mcq",
+      "question": "A beam containing $alpha$, $beta$, and $gamma$ radiation enters a magnetic field directed into the page. Which statement correctly describes the deflection of $beta$-particles?",
+      "options": [
+        "They deflect more than $alpha$-particles and in the opposite direction",
+        "They deflect less than $alpha$-particles because they are smaller",
+        "They deflect in the same direction as $alpha$-particles",
+        "They do not deflect because their mass is too small"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles are negative and have very little mass compared to alpha particles. They deflect in the opposite direction to alpha (which are positive) and much more significantly due to their low mass.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-hard-q3",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the nature and property of $beta$-particles?nn| Nature | Ionising Effect | Penetrating Power |n| :--- | :--- | :--- |n| A. Electron | Medium | Medium |n| B. Helium Nucleus | Strong | Weak |n| C. EM Wave | Weak | Strong |n| D. Electron | Weak | Strong |",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles are electrons. According to Table 20.2, they have a medium ionising effect and medium penetrating power (stopped by aluminium).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-hard-q4",
+      "type": "mcq",
+      "question": "In a cloud chamber, $alpha$-particles produce short, thick, straight tracks. What does the 'thick' nature of these tracks indicate?",
+      "options": [
+        "High ionisation density",
+        "High speed of travel",
+        "Weak penetrating power",
+        "Lack of electric charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thick tracks indicate that many ions are being produced in a small area, which is a result of the strong ionising effect of alpha particles.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-hard-q5",
+      "type": "mcq",
+      "question": "A radioactive source emits radiation that can pass through a sheet of paper but is stopped by $5 \\text{ mm}$ of aluminium. Which radiation is being emitted?",
+      "options": [
+        "$beta$-particles only",
+        "$alpha$-particles only",
+        "$alpha$ and $beta$-particles",
+        "$gamma$-rays and $alpha$-particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since it passes paper, it is not just alpha. Since it is stopped by $5 \\text{ mm}$ of aluminium, it matches the properties of beta particles. Gamma would have passed through.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

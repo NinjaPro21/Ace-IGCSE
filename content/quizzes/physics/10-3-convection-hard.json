@@ -1,0 +1,77 @@
+{
+  "id": "10-3-convection-hard",
+  "topicId": "10-3-convection",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "hard",
+  "title": "Convection — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-3-convection-hard-q1",
+      "type": "mcq",
+      "question": "A student boils water at the top of a test tube while the bottom remains cool enough to hold. This experiment primarily demonstrates that:",
+      "options": [
+        "Water is a poor conductor and convection moves energy upwards",
+        "Convection is the only way heat moves in liquids",
+        "Glass is a perfect thermal insulator",
+        "Density increases when water is boiled"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the hot water at the top is less dense, it stays at the top. Since water is a poor conductor, very little energy reaches the bottom. **Common mistake:** Believing convection doesn't happen at all (it does, but only in the heated top portion)."
+    },
+    {
+      "id": "10-3-convection-hard-q2",
+      "type": "mcq",
+      "question": "During a sunny day at the coast, a 'sea breeze' blows from the sea towards the land. What is the cause of this convection current?",
+      "options": [
+        "Air above the land heats up, becomes less dense, and rises",
+        "The sea reflects all solar radiation, heating the air above it",
+        "Air above the sea becomes less dense and moves towards the land",
+        "High pressure over the land pushes air out to the sea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Land heats faster than the sea. The air above the land expands, rises, and cooler air from the sea moves in to replace it. **Common mistake:** Thinking the sea is the heat source during the day."
+    },
+    {
+      "id": "10-3-convection-hard-q3",
+      "type": "mcq",
+      "question": "Fiberglass insulation works by trapping small pockets of air. How does this specifically reduce energy transfer by convection?",
+      "options": [
+        "It prevents the air from moving and forming convection currents",
+        "It creates a vacuum between the glass fibers",
+        "It allows the air to conduct heat more efficiently",
+        "It reflects the infrared radiation back into the room"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air is a poor conductor, but it can transfer heat via convection if it moves. Trapping it (making it 'still air') stops the bulk movement and thus stops convection. **Common mistake:** Thinking the goal is to make the air a 'better' conductor."
+    },
+    {
+      "id": "10-3-convection-hard-q4",
+      "type": "mcq",
+      "question": "Which design feature of a vacuum flask is primarily responsible for stopping convection through the space between the inner and outer walls?",
+      "options": [
+        "The vacuum between the double glass walls",
+        "The silvered internal surfaces",
+        "The plastic outer casing",
+        "The cork support at the base"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection requires a medium (particles) to move energy. A vacuum has no particles, so convection cannot occur. **Common mistake:** Selecting silvered surfaces, which are meant to reduce radiation."
+    },
+    {
+      "id": "10-3-convection-hard-q5",
+      "type": "mcq",
+      "question": "In a house with a single heater, which placement and reason would lead to the most uniform temperature distribution?",
+      "options": [
+        "Floor level, because hot air rises and establishes a room-wide current",
+        "Ceiling level, because energy is closer to the roof and won't escape",
+        "In the middle of the wall, to balance conduction and radiation",
+        "Near a window, to maximize the temperature difference"
+      ],
+      "correctIndex": 0,
+      "explanation": "A heater at floor level ensures that the entire volume of air can participate in a convection loop as hot air rises. **Common mistake:** Thinking a ceiling heater is 'more efficient' because heat is already 'at the top'."
+    }
+  ]
+}

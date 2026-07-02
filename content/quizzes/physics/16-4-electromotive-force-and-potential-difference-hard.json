@@ -1,0 +1,77 @@
+{
+  "id": "16-4-electromotive-force-and-potential-difference-hard",
+  "topicId": "16-4-electromotive-force-and-potential-difference",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "hard",
+  "title": "Electromotive Force and Potential Difference — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-hard-q1",
+      "type": "mcq",
+      "question": "A battery provides $144\\text{ J}$ of energy to drive charge through a bulb. If the current is $0.40\\text{ A}$ and the bulb is on for $2.0\\text{ minutes}$, what is the potential difference across the bulb?",
+      "options": [
+        "$3.0\\text{ V}$",
+        "$1.2\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$12.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, calculate the charge $Q = I \\times t = 0.40\\text{ A} \\times 120\\text{ s} = 48\\text{ C}$. Then, $V = W / Q = 144\\text{ J} / 48\\text{ C} = 3.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-hard-q2",
+      "type": "mcq",
+      "question": "A source with an e.m.f. of $6.0\\text{ V}$ drives $2.0\\text{ C}$ of charge through a circuit. If $10\\text{ J}$ of energy is used by the components, how much energy was lost to internal resistance in the source?",
+      "options": [
+        "$2.0\\text{ J}$",
+        "$12.0\\text{ J}$",
+        "$8.0\\text{ J}$",
+        "$4.0\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total energy provided by the source $W_{total} = E \\times Q = 6.0\\text{ V} \\times 2.0\\text{ C} = 12.0\\text{ J}$. If components used $10\\text{ J}$, the energy lost is $12.0 - 10.0 = 2.0\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-hard-q3",
+      "type": "mcq",
+      "question": "Despite its name, 'electromotive force' is not a mechanical force measured in Newtons. Why is the term 'force' considered a potential misconception in physics?",
+      "options": [
+        "Because it represents energy per unit charge, not a push or pull",
+        "Because it only exists when current is not flowing",
+        "Because it is a vector quantity that points towards the positive terminal",
+        "Because it is only measured in static electricity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source notes that e.m.f. is not a force in the mechanical sense; it is a measure of the work done or energy provided per unit charge to drive the flow around a circuit.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-hard-q4",
+      "type": "mcq",
+      "question": "An electric motor converts $900\\text{ J}$ of electrical energy into $600\\text{ J}$ of kinetic energy and some heat. If $3.6\\text{ C}$ of charge passed through the motor, what is the potential difference across it?",
+      "options": [
+        "$250\\text{ V}$",
+        "$167\\text{ V}$",
+        "$83\\text{ V}$",
+        "$3240\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The potential difference depends on the total electrical energy input per unit charge. $V = W_{total} / Q = 900\\text{ J} / 3.6\\text{ C} = 250\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-hard-q5",
+      "type": "mcq",
+      "question": "A cell drives a current around a circuit containing a lamp. Which statement is correct regarding the work done?",
+      "options": [
+        "e.m.f. is work done by source on unit charge; p.d. is work done by unit charge on lamp",
+        "e.m.f. is work done by source on unit charge; p.d. is total work done by all charges",
+        "e.m.f. is work done by ammeter; p.d. is work done by voltmeter",
+        "p.d. is work done by source; e.m.f. is work done by the lamp"
+      ],
+      "correctIndex": 0,
+      "explanation": "e.m.f. is the work done by the source (energy provider) to move unit charge. p.d. is the work done by the charge as it passes through the energy user (lamp).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

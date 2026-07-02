@@ -1,0 +1,207 @@
+{
+  "id": "ch05-momentum-medium",
+  "topicId": "ch05-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "medium",
+  "title": "Chapter 5: Momentum — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-momentum-medium-q1",
+      "type": "mcq",
+      "question": "A soccer ball has a mass of $400\\text{ g}$ and is moving at $25\\text{ m/s}$. Calculate its momentum in SI units.",
+      "options": [
+        "$10\\text{ kg m/s}$",
+        "$10000\\text{ kg m/s}$",
+        "$100\\text{ kg m/s}$",
+        "$16\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kg: $400\\text{ g} = 0.4\\text{ kg}$. Then $p = 0.4 \\times 25 = 10\\text{ kg m/s}$. \n\n**Common mistake:** Using the mass in grams directly to get $10000$."
+    },
+    {
+      "id": "ch05-momentum-medium-q2",
+      "type": "mcq",
+      "question": "A bus has a mass of $8000\\text{ kg}$ and a momentum of $88000\\text{ kg m/s}$. What is the speed of the bus?",
+      "options": [
+        "$11\\text{ m/s}$",
+        "$0.09\\text{ m/s}$",
+        "$704000000\\text{ m/s}$",
+        "$80\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $p = mv$ gives $v = p/m$. $88000 / 8000 = 11\\text{ m/s}$. \n\n**Common mistake:** Multiplying the numbers ($704$ million) instead of dividing."
+    },
+    {
+      "id": "ch05-momentum-medium-q3",
+      "type": "mcq",
+      "question": "A car travelling at $12\\text{ m/s}$ has a momentum of $14400\\text{ kg m/s}$. Calculate the mass of the car.",
+      "options": [
+        "$1200\\text{ kg}$",
+        "$172800\\text{ kg}$",
+        "$1.2\\text{ kg}$",
+        "$14388\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $p = mv$ gives $m = p/v$. $14400 / 12 = 1200\\text{ kg}$. \n\n**Common mistake:** Multiplying velocity and momentum ($172800$)."
+    },
+    {
+      "id": "ch05-momentum-medium-q4",
+      "type": "mcq",
+      "question": "Two objects, A and B, are moving at the same velocity. Object A is more massive than object B. Which statement is correct?",
+      "options": [
+        "Object A has more momentum than object B",
+        "Object B has more momentum than object A",
+        "They have the same momentum because their velocities are equal",
+        "Neither object has momentum because the force is not stated"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since momentum is the product of mass and velocity, if velocity is constant, the object with the greater mass will have the greater momentum. \n\n**Common mistake:** Thinking that same speed means same momentum regardless of mass."
+    },
+    {
+      "id": "ch05-momentum-medium-q5",
+      "type": "mcq",
+      "question": "A car of mass $1000\\text{ kg}$ is travelling at $18\\text{ km/h}$. Calculate its momentum in $\\text{kg m/s}$.",
+      "options": [
+        "$5000\\text{ kg m/s}$",
+        "$18000\\text{ kg m/s}$",
+        "$300\\text{ kg m/s}$",
+        "$5\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First convert $18\\text{ km/h}$ to $\\text{m/s}$: $18 \\times (1000/3600) = 5\\text{ m/s}$. Then $p = 1000 \\times 5 = 5000\\text{ kg m/s}$. \n\n**Common mistake:** Using the speed in $\\text{km/h}$ directly ($18000$)."
+    },
+    {
+      "id": "ch05-momentum-medium-q6",
+      "type": "mcq",
+      "question": "A $0.4\\text{ kg}$ ball is kicked from rest and reaches a speed of $5\\text{ m/s}$. Calculate the impulse given to the ball.",
+      "options": [
+        "$2.0\\text{ N s}$",
+        "$12.5\\text{ N s}$",
+        "$0.08\\text{ N s}$",
+        "$5.4\\text{ N s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Impulse is the change in momentum: $Delta(mv) = 0.4\\text{ kg} \\times (5 - 0)\\text{ m/s} = 2.0\\text{ kg m/s}$ (or $N s$). \n\n**Common mistake:** Using only the speed ($5.0$) or mass ($0.4$) as the impulse."
+    },
+    {
+      "id": "ch05-momentum-medium-q7",
+      "type": "mcq",
+      "question": "A ball receives an impulse of $2.0\\text{ N s}$. If the average force applied was $100\\text{ N}$, how long was the contact time?",
+      "options": [
+        "$0.02\\text{ s}$",
+        "$50\\text{ s}$",
+        "$200\\text{ s}$",
+        "$0.5\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $FDelta t = Impulse$, so $Delta t = Impulse / F = 2.0 / 100 = 0.02\\text{ s}$. \n\n**Common mistake:** Multiplying the numbers ($200$) instead of dividing."
+    },
+    {
+      "id": "ch05-momentum-medium-q8",
+      "type": "mcq",
+      "question": "A car of mass $1000\\text{ kg}$ is travelling at $5\\text{ m/s}$ and comes to a complete stop. What is the change in its momentum?",
+      "options": [
+        "$5000\\text{ kg m/s}$",
+        "$200\\text{ kg m/s}$",
+        "$0.005\\text{ kg m/s}$",
+        "$1005\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Change in momentum $= mv - mu = 1000 \\times (0 - 5) = -5000\\text{ kg m/s}$. Magnitude is $5000\\text{ kg m/s}$. \n\n**Common mistake:** Dividing mass by velocity ($200$)."
+    },
+    {
+      "id": "ch05-momentum-medium-q9",
+      "type": "mcq",
+      "question": "Object X and Object Y undergo the same change in momentum. Object X stops in $0.1\\text{ s}$, while Object Y stops in $0.5\\text{ s}$. How do the forces acting on them compare?",
+      "options": [
+        "$The force on X is 5 \\times greater than on Y$",
+        "$The force on Y is 5 \\times greater than on X$",
+        "The forces are equal because the impulse is the same",
+        "The force on X is half that of Y"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $F = Delta p / t$, if time is $5$ \\times smaller ($0.1$ vs $0.5$), the force must be $5$ \\times larger. \n\n**Common mistake:** Assuming same impulse means same force regardless of time."
+    },
+    {
+      "id": "ch05-momentum-medium-q10",
+      "type": "mcq",
+      "question": "Which equation correctly represents the relationship between Force ($F$), mass ($m$), change in velocity ($Delta v$), and time ($t$)?",
+      "options": [
+        "$F = \\frac{m Delta v}{t}$",
+        "$F = m Delta v t$",
+        "$F = \\frac{m t}{Delta v}$",
+        "$F = \\frac{t}{m Delta v}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is derived from $F = Delta p / t$ where $Delta p = m Delta v$. So $F = m Delta v / t$. \n\n**Common mistake:** Placing time in the numerator or ignoring the division entirely."
+    },
+    {
+      "id": "ch05-momentum-medium-q11",
+      "type": "mcq",
+      "question": "Two ice skaters, A ($80\\text{ kg}$) and B ($50\\text{ kg}$), are stationary. They push each other off. Skater A moves at $0.5\\text{ m/s}$. What is the magnitude of Skater B's velocity?",
+      "options": [
+        "$0.8\\text{ m/s}$",
+        "$0.5\\text{ m/s}$",
+        "$0.3\\text{ m/s}$",
+        "$1.3\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial momentum is zero. After pushing off: $m_A v_A + m_B v_B = 0 implies (80 \\times 0.5) + (50 \\times v_B) = 0 implies 40 = -50 v_B$, so $|v_B| = 0.8\\text{ m/s}$. \n\n**Common mistake:** Thinking they move at the same speed regardless of mass."
+    },
+    {
+      "id": "ch05-momentum-medium-q12",
+      "type": "mcq",
+      "question": "A ball A ($0.12\\text{ kg}$) moves at $0.40\\text{ m/s}$ and hits stationary ball B ($0.09\\text{ kg}$). After collision, ball B moves forward at $0.40\\text{ m/s}$. Calculate the velocity of ball A.",
+      "options": [
+        "$0.10\\text{ m/s}$",
+        "$0.40\\text{ m/s}$",
+        "$0.08\\text{ m/s}$",
+        "$0.30\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total before $= 0.12 \\times 0.4 = 0.048$. Total after $= (0.12 \\times v) + (0.09 \\times 0.4) = 0.12v + 0.036$. $0.048 = 0.12v + 0.036 implies 0.012 = 0.12v implies v = 0.10\\text{ m/s}$. \n\n**Common mistake:** Assuming Ball A stops completely."
+    },
+    {
+      "id": "ch05-momentum-medium-q13",
+      "type": "mcq",
+      "question": "A car of mass $1200\\text{ kg}$ travelling at $8.0\\text{ m/s}$ hits a stationary lorry of mass $2800\\text{ kg}$. If they stick together, what is their speed immediately after collision?",
+      "options": [
+        "$2.4\\text{ m/s}$",
+        "$8.0\\text{ m/s}$",
+        "$4.0\\text{ m/s}$",
+        "$5.6\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total before $= 1200 \\times 8 = 9600\\text{ kg m/s}$. Combined mass $= 1200 + 2800 = 4000\\text{ kg}$. Speed $= 9600 / 4000 = 2.4\\text{ m/s}$. \n\n**Common mistake:** Using only the lorry's mass to calculate the final speed."
+    },
+    {
+      "id": "ch05-momentum-medium-q14",
+      "type": "mcq",
+      "question": "Two identical balls collide. Ball X is moving at $2\\text{ m/s}$ and Ball Y is at rest. If the collision is elastic and Ball X comes to a stop, what is the velocity of Ball Y?",
+      "options": [
+        "$2\\text{ m/s}$",
+        "$1\\text{ m/s}$",
+        "$0\\text{ m/s}$",
+        "$4\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the masses are identical, for momentum to be conserved ($m \\times 2 = m \\times v$), the second ball must take on the entire initial velocity of the first. \n\n**Common mistake:** Thinking the velocity is shared ($1\\text{ m/s}$ each)."
+    },
+    {
+      "id": "ch05-momentum-medium-q15",
+      "type": "mcq",
+      "question": "Object P moves East with $5\\text{ kg m/s}$ momentum. Object Q moves West with $5\\text{ kg m/s}$ momentum. What is the total momentum of the system?",
+      "options": [
+        "$0\\text{ kg m/s}$",
+        "$10\\text{ kg m/s}$ East",
+        "$10\\text{ kg m/s}$ West",
+        "$25\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector. Eastern direction is positive and Western is negative: $+5 + (-5) = 0$. \n\n**Common mistake:** Adding them as scalars to get $10$."
+    }
+  ]
+}

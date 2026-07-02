@@ -1,0 +1,272 @@
+{
+  "id": "ch06-energy-work-and-power-easy",
+  "topicId": "ch06-energy-work-and-power",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "easy",
+  "title": "Chapter 6: Energy, Work and Power — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch06-energy-work-and-power-easy-q1",
+      "type": "mcq",
+      "question": "In physics, what is the definition of energy?",
+      "options": [
+        "The capacity to do work",
+        "The rate of change of momentum",
+        "The force applied over a distance",
+        "The product of mass and acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is defined as the capacity or ability to do work. \n\n**Common mistake:** Confusing energy with power, which is the rate at which energy is used."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit of energy?",
+      "options": [
+        "joule ($J$)",
+        "watt ($W$)",
+        "newton ($N$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for all forms of energy is the joule ($J$). \n\n**Common mistake:** Selecting watts ($W$), which is the unit for power."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q3",
+      "type": "mcq",
+      "question": "Which form of energy is stored in the nuclei of atoms, such as uranium?",
+      "options": [
+        "Nuclear energy",
+        "Chemical potential energy",
+        "Electrostatic potential energy",
+        "Internal energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear energy is the energy released during a nuclear reaction and is found in the nuclei of atoms. \n\n**Common mistake:** Thinking it is chemical potential energy, which is energy stored in the bonds between atoms, not the nucleus itself."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q4",
+      "type": "mcq",
+      "question": "Which statement correctly describes the principle of conservation of energy?",
+      "options": [
+        "Energy cannot be created or destroyed, only converted or transferred",
+        "Energy is always lost as heat in every process",
+        "The total amount of energy in the universe is constantly increasing",
+        "Potential energy is always equal to kinetic energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The principle of conservation of energy states that energy cannot be created or destroyed; it can only be converted from one form to another or transferred. \n\n**Common mistake:** Thinking energy 'disappears' when a machine is inefficient; it is actually converted into less useful forms like thermal energy."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q5",
+      "type": "mcq",
+      "question": "In a Sankey diagram, which direction does the arrow for 'wasted energy' usually point?",
+      "options": [
+        "Downwards",
+        "To the right",
+        "To the left",
+        "Upwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a Sankey diagram, energy input is on the left, useful energy output points to the right, and wasted energy points downwards. \n\n**Common mistake:** Thinking the horizontal arrow represents wasted energy."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following best defines mechanical work in physics?",
+      "options": [
+        "The transfer of energy by a force acting on an object",
+        "The rate at which energy is used by a machine",
+        "The total amount of matter contained in an object",
+        "The force of gravity acting on a stationary mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is defined as mechanical energy transfer. It occurs when a force moves an object. **Common mistake:** Confusing work with power, which is the rate of doing work."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q7",
+      "type": "mcq",
+      "question": "What is the SI unit for work done?",
+      "options": [
+        "joule ($J$)",
+        "watt ($W$)",
+        "newton ($N$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since work done is equal to the energy transferred, it shares the same SI unit, the joule ($J$). **Common mistake:** Selecting the watt ($W$), which is the unit for power."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q8",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the mechanical work done by a constant force?",
+      "options": [
+        "$W = F \\times s$",
+        "$W = m \\times g$",
+        "$W = \\frac{1}{2}mv^2$",
+        "$W = \\frac{P}{t}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done is the product of the constant force $F$ and the distance moved $s$ in the direction of that force. **Common mistake:** Using the kinetic energy formula ($\\frac{1}{2}mv^2$) to find work done directly from mass and speed."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q9",
+      "type": "mcq",
+      "question": "One joule ($1\\text{ J}$) is defined as the work done by a force of:",
+      "options": [
+        "$1\\text{ N}$ moving an object $1\\text{ m}$ in the direction of the force",
+        "$10\\text{ N}$ moving an object $1\\text{ m}$ vertically upwards",
+        "$1\\text{ N}$ acting on a $1\\text{ kg}$ mass for $1\\text{ s}$",
+        "$1\\text{ W}$ acting on an object over a distance of $1\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, one joule is the work done when a force of one newton moves an object through a distance of one metre in the direction of the force. **Common mistake:** Thinking it depends on the mass of the object or the time taken."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q10",
+      "type": "mcq",
+      "question": "In which situation is there zero work done by the mentioned force?",
+      "options": [
+        "A person pushing a brick wall that remains stationary",
+        "A librarian pushing a trolley over a distance of $5\\text{ m}$",
+        "An crane lifting a $200\\text{ kg}$ load to a height of $30\\text{ m}$",
+        "A car braking and coming to a stop on a level road"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is only done if the force causes a displacement ($s > 0$). If the wall does not move, no work is done. **Common mistake:** Believing effort or 'feeling tired' from pushing always results in scientific work."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q11",
+      "type": "mcq",
+      "question": "Which statement best describes a renewable energy resource?",
+      "options": [
+        "It is replaced as quickly as it is used.",
+        "It can only be used once and then it is gone.",
+        "It does not produce any thermal energy.",
+        "It is always more efficient than non-renewable resources."
+      ],
+      "correctIndex": 0,
+      "explanation": "A renewable resource is one that is replaced as quickly as it is used, making it a reliable long-term source. \n\n**Common mistake:** Thinking 'renewable' means it produces no waste at all."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q12",
+      "type": "mcq",
+      "question": "Which of the following is an example of a non-renewable energy resource?",
+      "options": [
+        "Fossil fuels",
+        "Solar energy",
+        "Wind energy",
+        "Biofuels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fossil fuels (like coal, oil, and gas) are non-renewable because they take millions of years to form and are used up faster than they can be replaced. \n\n**Common mistake:** Confusing biofuels (renewable) with fossil fuels."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q13",
+      "type": "mcq",
+      "question": "A machine produces $35\\text{ J}$ of useful output energy for every $50\\text{ J}$ of total energy input. What is the efficiency of the machine?",
+      "options": [
+        "$70\\%$",
+        "$15\\%$",
+        "$1.4\\%$",
+        "$85\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula: $\\text{Efficiency} = (\\text{useful energy output} / \\text{energy input}) \\times 100\\%$. Here, $(35 / 50) \\times 100 = 70\\%$. \n\n**Common mistake:** Subtracting the values ($15\\%$) instead of dividing them."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q14",
+      "type": "mcq",
+      "question": "What is the primary advantage of using solar energy for electricity?",
+      "options": [
+        "It is a renewable resource that does not emit pollutants during use.",
+        "It works at maximum efficiency during the night.",
+        "It is the cheapest way to produce electricity in all climates.",
+        "It can produce energy using nuclear fission."
+      ],
+      "correctIndex": 0,
+      "explanation": "Solar energy is renewable and clean during the conversion process to electricity. \n\n**Common mistake:** Believing solar panels are $100\\%$ efficient or work effectively without sunlight."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q15",
+      "type": "mcq",
+      "question": "Which of these is a unit used to measure efficiency?",
+      "options": [
+        "Percentage (%)",
+        "joule (J)",
+        "watt (W)",
+        "newton (N)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency is a ratio of energy values and is usually expressed as a percentage. \n\n**Common mistake:** Selecting joules, which is a unit of energy, not the ratio."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q16",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of power?",
+      "options": [
+        "The work done or energy transferred per unit time",
+        "The total amount of energy stored in an object",
+        "The force applied to an object multiplied by distance",
+        "The rate of change of an object's acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is defined as the work done or energy transferred per unit time ($P = W / t$). \n\n**Common mistake:** Confusing power with work done, which is the total energy transferred, not the rate."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q17",
+      "type": "mcq",
+      "question": "What is the SI unit of power?",
+      "options": [
+        "watt ($W$)",
+        "joule ($J$)",
+        "newton ($N$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for power is the watt ($W$). \n\n**Common mistake:** Selecting the joule ($J$), which is the unit for energy and work."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q18",
+      "type": "mcq",
+      "question": "One watt ($1\\text{ W}$) is defined as the transfer of:",
+      "options": [
+        "one joule per second ($1\\text{ J/s}$)",
+        "one newton per second ($1\\text{ N/s}$)",
+        "ten joules per minute ($10\\text{ J/min}$)",
+        "one joule per metre ($1\\text{ J/m}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, $1\\text{ W} = 1\\text{ J/s}$. \n\n**Common mistake:** Thinking it relates force to time ($1\\text{ N/s}$) rather than energy."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q19",
+      "type": "mcq",
+      "question": "A force of $50\\text{ N}$ moves an object through a distance of $10\\text{ m}$ in $5\\text{ s}$. Calculate the power involved.",
+      "options": [
+        "$100\\text{ W}$",
+        "$500\\text{ W}$",
+        "$25\\text{ W}$",
+        "$2500\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done $W = F \\times s = 50 \\times 10 = 500\\text{ J}$. Power $P = W / t = 500 / 5 = 100\\text{ W}$. \n\n**Common mistake:** Providing the work done ($500\\text{ J}$) as the final answer for power."
+    },
+    {
+      "id": "ch06-energy-work-and-power-easy-q20",
+      "type": "mcq",
+      "question": "If two machines do the same amount of work, but Machine A finishes in half the time of Machine B, which statement is true?",
+      "options": [
+        "Machine A has twice the power of Machine B",
+        "Machine B has twice the power of Machine A",
+        "Both machines have the same power",
+        "Machine A has half the power of Machine B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $P = W / t$, completing the work in a shorter time (smaller $t$) results in higher power. \n\n**Common mistake:** Thinking that 'same work' implies 'same power' regardless of time."
+    }
+  ]
+}

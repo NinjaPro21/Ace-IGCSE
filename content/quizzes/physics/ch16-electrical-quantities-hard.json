@@ -1,0 +1,402 @@
+{
+  "id": "ch16-electrical-quantities-hard",
+  "topicId": "ch16-electrical-quantities",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "hard",
+  "title": "Chapter 16: Electrical Quantities — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch16-electrical-quantities-hard-q1",
+      "type": "mcq",
+      "question": "A steady current of $0.2\\text{ A}$ flows through a circuit for $2.0\\text{ hours}$. Calculate the total charge that passes any point in the circuit.",
+      "options": [
+        "$1440\\text{ C}$",
+        "$0.4\\text{ C}$",
+        "$24\\text{ C}$",
+        "$720\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time $t = 2.0\\text{ h} \\times 3600\\text{ s/h} = 7200\\text{ s}$. Charge $Q = I \\times t = 0.2\\text{ A} \\times 7200\\text{ s} = 1440\\text{ C}$. \n\n**Common mistake:** Multiplying $0.2$ by 120 minutes ($24\\text{ C}$) or just 2 hours ($0.4\\text{ C}$)."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q2",
+      "type": "mcq",
+      "question": "If a charge of $1.0\\text{ Coulomb}$ consists of approximately $6.25 \\times 10^{18}$ electrons, how many electrons pass a point every second when the current is $1.6\\text{ A}$?",
+      "options": [
+        "$1.0 \\times 10^{19}$",
+        "$6.25 \\times 10^{18}$",
+        "$3.9 \\times 10^{18}$",
+        "$1.6 \\times 10^{19}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A current of $1.6\\text{ A}$ means $1.6\\text{ C}$ passes every second. Total electrons $= 1.6 \\times (6.25 \\times 10^{18}) = 1.0 \\times 10^{19}$. \n\n**Common mistake:** Dividing the number of electrons by current instead of multiplying."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q3",
+      "type": "mcq",
+      "question": "How long will it take for $15\\text{ C}$ of charge to pass through a point if the current is $25\\text{ mA}$?",
+      "options": [
+        "$600\\text{ s}$",
+        "$0.375\\text{ s}$",
+        "$1.67\\text{ s}$",
+        "$0.6\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert current to Amperes: $25\\text{ mA} = 0.025\\text{ A}$. Using $t = Q / I$, $t = 15 / 0.025 = 600\\text{ s}$. \n\n**Common mistake:** Using $25$ as the current value without converting from milli-Amps."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q4",
+      "type": "mcq",
+      "question": "In a cathode ray tube, $3.0 \\times 10^{15}$ electrons strike the screen every second. Given the charge on one electron is $1.6 \\times 10^{-19}\\text{ C}$, what is the beam current?",
+      "options": [
+        "$4.8 \\times 10^{-4}\\text{ A}$",
+        "$1.9 \\times 10^{-34}\\text{ A}$",
+        "$5.3 \\times 10^{-35}\\text{ A}$",
+        "$1.875 \\times 10^{34}\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total charge per second $Q = \\text{number of electrons} \\times \\text{charge per electron} = (3.0 \\times 10^{15}) \\times (1.6 \\times 10^{-19}) = 4.8 \\times 10^{-4}\\text{ C}$. Since this is per second, the current is $4.8 \\times 10^{-4}\\text{ A}$. \n\n**Common mistake:** Multiplying the powers of ten incorrectly."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q5",
+      "type": "mcq",
+      "question": "What is the primary difference between direct current (d.c.) and alternating current (a.c.) in terms of charge movement?",
+      "options": [
+        "d.c. flows in one direction only, while a.c. periodically reverses direction",
+        "d.c. consists of protons flowing, while a.c. consists of electrons",
+        "a.c. can only travel through insulators, while d.c. requires conductors",
+        "d.c. current remains at a constant value, while a.c. current always increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, d.c. flows in one direction while a.c. reverses direction periodically. \n\n**Common mistake:** Thinking a.c. is 'stronger' or 'faster' rather than just changing direction."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q6",
+      "type": "mcq",
+      "question": "What specifically happens to a neutral atom to turn it into a positive ion?",
+      "options": [
+        "It loses electrons.",
+        "It gains protons.",
+        "It loses protons.",
+        "It gains electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in Section 19.1 and referenced in Section 16, a positive ion is formed when a neutral atom loses one or more of its negatively charged electrons. \n\n**Common mistake:** Thinking the addition of protons makes it positive; protons cannot be added or removed by simple chemical or physical friction."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q7",
+      "type": "mcq",
+      "question": "A student rubs an ebonite rod with fur and finds the rod becomes negatively charged. If the rod is then used to touch a neutral metal sphere, what occurs?",
+      "options": [
+        "Some electrons flow from the rod to the metal sphere.",
+        "The metal sphere becomes positively charged.",
+        "The metal sphere stays neutral because it is a conductor.",
+        "Protons flow from the sphere to the rod."
+      ],
+      "correctIndex": 0,
+      "explanation": "When the negatively charged rod (excess electrons) touches the conductor, some of those electrons flow onto the metal sphere. \n\n**Common mistake:** Thinking charge cannot be transferred from an insulator to a conductor."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q8",
+      "type": "mcq",
+      "question": "Based on the kinetic particle model and 'affinity for electrons', why does a silk cloth become negatively charged when rubbing a glass rod?",
+      "options": [
+        "Silk has a higher affinity for electrons and pulls them from the glass atoms.",
+        "The silk loses protons to the glass during the rubbing process.",
+        "The glass rod is a better conductor and pushes electrons into the silk.",
+        "Friction creates new electrons that settle on the surface of the silk."
+      ],
+      "correctIndex": 0,
+      "explanation": "Different materials have different affinities for electrons. When rubbed, the atoms at the surface are disturbed, and electrons move to the material with the stronger pull (affinity). \n\n**Common mistake:** Thinking that 'friction' is a substance that turns into charge."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q9",
+      "type": "mcq",
+      "question": "Which statement best explains why static charge remains on a polythene rod but not on a copper rod when both are held in a hand and rubbed?",
+      "options": [
+        "Copper is a conductor and allows the charge to flow through the hand to earth.",
+        "Polythene is a better conductor than copper.",
+        "Static electricity can only be produced on non-metals.",
+        "Copper cannot acquire a charge by friction because it has no affinity for electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "Charges produced on a conductor like copper immediately flow away (earth) through the person's body. On an insulator like polythene, the charges are 'static' and remain where they were produced. \n\n**Common mistake:** Believing metals cannot be charged at all."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q10",
+      "type": "mcq",
+      "question": "In a cloud, ice particles collide and the bottom of the cloud becomes negatively charged. This induces a positive charge on the ground. Which description of this induction is accurate?",
+      "options": [
+        "Electrons in the ground are repelled deeper into the earth by the cloud.",
+        "Protons are attracted to the surface of the ground from deep within.",
+        "The cloud 'sprays' positive ions onto the ground's surface.",
+        "The ground becomes neutral as electrons jump to the cloud."
+      ],
+      "correctIndex": 0,
+      "explanation": "Induction involves the movement of electrons within a material. The negative cloud base repels electrons in the ground, leaving the surface with a net positive charge. \n\n**Common mistake:** Thinking positive charges move to the surface."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q11",
+      "type": "mcq",
+      "question": "Which statement best describes the electric field lines around a charged conducting sphere?",
+      "options": [
+        "The lines are radial and perpendicular to the surface of the sphere",
+        "The lines are parallel to the surface of the sphere",
+        "The lines only exist inside the conducting sphere",
+        "The lines are directed from the centre of the sphere towards the south pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simple electric field patterns for a charged conducting sphere show lines that are radial (pointing straight out or in) and perpendicular to the surface.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q12",
+      "type": "mcq",
+      "question": "Two parallel plates are charged. Plate X is positive and Plate Y is negative. A beam of protons is fired horizontally between the plates. In which direction will the beam deflect?",
+      "options": [
+        "Towards Plate Y",
+        "Towards Plate X",
+        "It will not deflect",
+        "Into the page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protons are positively charged. The electric field direction is from the positive plate (X) to the negative plate (Y). Since positive charges experience a force in the direction of the field, the beam deflects towards Plate Y.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q13",
+      "type": "mcq",
+      "question": "What is the direction of the resultant electric field at the exact midpoint between two identical isolated positive charges?",
+      "options": [
+        "There is no electric field at this point (zero resultant)",
+        "Directed towards the charge on the left",
+        "Directed towards the charge on the right",
+        "Directed vertically upwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the midpoint between two identical like charges, the electric fields from each charge are equal in magnitude but opposite in direction. They cancel out, resulting in a zero field region.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q14",
+      "type": "mcq",
+      "question": "Why are electric field lines drawn such that they never cross each other?",
+      "options": [
+        "Because the field can only have one specific direction at any given point",
+        "Because the charges would neutralise if the lines crossed",
+        "Because lines only represent the path of electrons",
+        "Because the force on a neutral object is always zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the field line shows the direction of the force at that point. If lines crossed, the force would have two different directions at one point, which is physically impossible.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q15",
+      "type": "mcq",
+      "question": "A charged conducting sphere is placed in a vacuum. If a small positive test charge is moved from a distance of $10\\text{ cm}$ to $5\\text{ cm}$ from the centre of the sphere, how does the force on it change?",
+      "options": [
+        "The force increases because the field lines are more closely packed nearer the sphere",
+        "The force decreases because the test charge is now inside the field",
+        "The force remains constant because the sphere is a conductor",
+        "The force becomes zero at $5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines around a point charge or sphere are radial and become more closely packed (denser) as you get closer to the source, indicating a stronger field and thus a greater force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q16",
+      "type": "mcq",
+      "question": "A battery provides $144\\text{ J}$ of energy to drive charge through a bulb. If the current is $0.40\\text{ A}$ and the bulb is on for $2.0\\text{ minutes}$, what is the potential difference across the bulb?",
+      "options": [
+        "$3.0\\text{ V}$",
+        "$1.2\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$12.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, calculate the charge $Q = I \\times t = 0.40\\text{ A} \\times 120\\text{ s} = 48\\text{ C}$. Then, $V = W / Q = 144\\text{ J} / 48\\text{ C} = 3.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q17",
+      "type": "mcq",
+      "question": "A source with an e.m.f. of $6.0\\text{ V}$ drives $2.0\\text{ C}$ of charge through a circuit. If $10\\text{ J}$ of energy is used by the components, how much energy was lost to internal resistance in the source?",
+      "options": [
+        "$2.0\\text{ J}$",
+        "$12.0\\text{ J}$",
+        "$8.0\\text{ J}$",
+        "$4.0\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total energy provided by the source $W_{total} = E \\times Q = 6.0\\text{ V} \\times 2.0\\text{ C} = 12.0\\text{ J}$. If components used $10\\text{ J}$, the energy lost is $12.0 - 10.0 = 2.0\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q18",
+      "type": "mcq",
+      "question": "Despite its name, 'electromotive force' is not a mechanical force measured in Newtons. Why is the term 'force' considered a potential misconception in physics?",
+      "options": [
+        "Because it represents energy per unit charge, not a push or pull",
+        "Because it only exists when current is not flowing",
+        "Because it is a vector quantity that points towards the positive terminal",
+        "Because it is only measured in static electricity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source notes that e.m.f. is not a force in the mechanical sense; it is a measure of the work done or energy provided per unit charge to drive the flow around a circuit.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q19",
+      "type": "mcq",
+      "question": "An electric motor converts $900\\text{ J}$ of electrical energy into $600\\text{ J}$ of kinetic energy and some heat. If $3.6\\text{ C}$ of charge passed through the motor, what is the potential difference across it?",
+      "options": [
+        "$250\\text{ V}$",
+        "$167\\text{ V}$",
+        "$83\\text{ V}$",
+        "$3240\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The potential difference depends on the total electrical energy input per unit charge. $V = W_{total} / Q = 900\\text{ J} / 3.6\\text{ C} = 250\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q20",
+      "type": "mcq",
+      "question": "A cell drives a current around a circuit containing a lamp. Which statement is correct regarding the work done?",
+      "options": [
+        "e.m.f. is work done by source on unit charge; p.d. is work done by unit charge on lamp",
+        "e.m.f. is work done by source on unit charge; p.d. is total work done by all charges",
+        "e.m.f. is work done by ammeter; p.d. is work done by voltmeter",
+        "p.d. is work done by source; e.m.f. is work done by the lamp"
+      ],
+      "correctIndex": 0,
+      "explanation": "e.m.f. is the work done by the source (energy provider) to move unit charge. p.d. is the work done by the charge as it passes through the energy user (lamp).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q21",
+      "type": "mcq",
+      "question": "A heating coil is connected to a $240\\text{ V}$ supply and draws a current of $8.0\\text{ A}$. If the supply voltage is reduced to $210\\text{ V}$, what will be the new current, assuming the resistance remains constant?",
+      "options": [
+        "$7.0\\text{ A}$",
+        "$30\\text{ A}$",
+        "$7.3\\text{ A}$",
+        "$1.2\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $R = V/I = 240/8 = 30\\text{ }Omega$. New $I = V/R = 210/30 = 7.0\\text{ A}$. (Matches logic in Worked Example 16D). \n\n**Common mistake:** Calculating the change in voltage ($30\\text{ V}$) and subtracting that from the current."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q22",
+      "type": "mcq",
+      "question": "Two conductors, A and B, are made of the same material and have the same length. Conductor A has a resistance of $15.0\\text{ }Omega$ and Conductor B has a resistance of $3.3\\text{ }Omega$. What is the ratio of the cross-sectional area of B to A?",
+      "options": [
+        "$4.5$",
+        "$0.22$",
+        "$11.7$",
+        "$1.0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $R \\propto 1/A$ for constant length/material, $R_A / R_B = A_B / A_A$. Ratio $= 15.0 / 3.3 \\approx 4.5$. B is 4.5 \\times thicker. \n\n**Common mistake:** Calculating the ratio of resistances and assuming it is the ratio of A to B rather than B to A."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q23",
+      "type": "mcq",
+      "question": "As the potential difference across a filament lamp increases, the gradient of its $I-V$ graph decreases. What does this indicate about the resistance of the filament?",
+      "options": [
+        "The resistance increases as the filament gets hotter.",
+        "The resistance remains constant according to Ohm's Law.",
+        "The resistance decreases because more electrons are flowing.",
+        "The resistance becomes negative at high voltages."
+      ],
+      "correctIndex": 0,
+      "explanation": "A decreasing gradient on an $I-V$ graph means that for every unit increase in $V$, the increase in $I$ is getting smaller. This indicates the ratio $V/I$ (resistance) is increasing. \n\n**Common mistake:** Thinking a decreasing gradient always means a 'decreasing' physical quantity."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q24",
+      "type": "mcq",
+      "question": "A piece of resistance wire is melted down and recast into a new wire that is twice as long. If the total volume of the metal remains the same, how does the new resistance compare to the original?",
+      "options": [
+        "$It is four \\times larger.$",
+        "$It is two \\times larger.$",
+        "It is half as large.",
+        "It remains the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "If the length doubles ($L \\times 2$) and volume is constant, the cross-sectional area must halve ($A / 2$). Since $R \\propto L/A$, the new resistance is $2 / (1/2) = 4$ \\times the original. \n\n$**Common mistake:** Only considering the change in length and concluding it is 'two \\times larger'.$"
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q25",
+      "type": "mcq",
+      "question": "A metal wire is heated using a Bunsen burner. What effect does this have on the motion of its atoms and its electrical resistance?",
+      "options": [
+        "Atoms vibrate more vigorously; resistance increases.",
+        "Atoms move faster from end to end; resistance decreases.",
+        "Atoms vibrate less; resistance decreases.",
+        "Atoms expand in size; resistance stays the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing temperature causes atoms in a metal to vibrate more vigorously, which increases the frequency of collisions with moving electrons, thus increasing resistance. \n\n**Common mistake:** Thinking 'heat' makes it easier for current to flow like it does for fluids."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q26",
+      "type": "mcq",
+      "question": "A $3\\text{ kW}$ electric kettle is used for $20\\text{ minutes}$ and a $100\\text{ W}$ bulb is used for $5\\text{ hours}$. If the tariff is $27\\text{ cents/kWh}$, what is the total cost?",
+      "options": [
+        "$40.5\\text{ cents}$",
+        "$30.0\\text{ cents}$",
+        "$1.5\\text{ cents}$",
+        "$81.0\\text{ cents}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kettle energy: $3\\text{ kW} \\times (20/60)\\text{ h} = 1\\text{ kWh}$. Bulb energy: $0.1\\text{ kW} \\times 5\\text{ h} = 0.5\\text{ kWh}$. Total energy $= 1.5\\text{ kWh}$. Cost $= 1.5 \\times 27 = 40.5\\text{ cents}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q27",
+      "type": "mcq",
+      "question": "A laptop charger is rated at an output of $19\\text{ V}$ and $4.74\\text{ A}$. Calculate the energy it consumes in one month ($30\\text{ days}$) if it is used for $6\\text{ hours}$ each day.",
+      "options": [
+        "$16.2\\text{ kWh}$",
+        "$90\\text{ kWh}$",
+        "$5.4\\text{ kWh}$",
+        "$27\\text{ kWh}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power $= 19 \\times 4.74 \\approx 90\\text{ W} = 0.09\\text{ kW}$. Total hours $= 30 \\times 6 = 180\\text{ h}$. Energy $= 0.09\\text{ kW} \\times 180\\text{ h} = 16.2\\text{ kWh}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q28",
+      "type": "mcq",
+      "question": "A filament lamp rated at $40\\text{ W}$ converts $10\\%$ of its electrical energy into light. How much light energy is given off in $5.0\\text{ minutes}$?",
+      "options": [
+        "$1.2\\text{ kJ}$",
+        "$12\\text{ kJ}$",
+        "$4\\text{ J}$",
+        "$200\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total energy in $5$ mins: $40\\text{ W} \\times 300\\text{ s} = 12000\\text{ J}$. Useful light energy $= 10\\% \\times 12000 = 1200\\text{ J} = 1.2\\text{ kJ}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q29",
+      "type": "mcq",
+      "question": "A $2.16\\text{ kW}$ air conditioner is used for $1.5\\text{ hours}$ each day for $30\\text{ days}$. If electricity costs \n\n$$0.27$ per kWh, what is the total cost for the month?$",
+      "options": [
+        "$$\n26.24\n$$",
+        "$$\n0.87\n$$",
+        "$$\n17.50\n$$",
+        "$$\n52.48\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total energy $= 2.16\\text{ kW} \\times 1.5\\text{ h/day} \\times 30\\text{ days} = 97.2\\text{ kWh}$. Total cost $= 97.2 times$0.27 = $26.244$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-hard-q30",
+      "type": "mcq",
+      "question": "A heater coil has a resistance of $30\\text{ }Omega$ and is connected to a $240\\text{ V}$ supply. How much energy is dissipated by the coil in $10\\text{ seconds}$?",
+      "options": [
+        "$19200\\text{ J}$",
+        "$80\\text{ J}$",
+        "$1920\\text{ J}$",
+        "$7200\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current $I = V / R = 240 / 30 = 8\\text{ A}$. Power $P = IV = 8 \\times 240 = 1920\\text{ W}$. Energy $E = Pt = 1920 \\times 10 = 19200\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

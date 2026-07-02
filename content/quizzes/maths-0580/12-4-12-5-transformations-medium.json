@@ -1,0 +1,77 @@
+{
+  "id": "12-4-12-5-transformations-medium",
+  "topicId": "12-4-12-5-transformations",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "medium",
+  "title": "Transformations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-12-5-transformations-medium-q1",
+      "type": "mcq",
+      "question": "The point $A(1, 2)$ is reflected in the line $y = x$2$A'$.",
+      "options": [
+        "$(2, 1)$",
+        "$(-1, -2)$",
+        "$(1, -2)$",
+        "$(-2, 1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A reflection in the line $y = x$2$x$2$y$ coordinates of a point.\n\n**Common mistake:** The student might change the signs of the coordinates instead of swapping them, leading to $(-1, -2)$."
+    },
+    {
+      "id": "12-4-12-5-transformations-medium-q2",
+      "type": "mcq",
+      "question": "A square has vertices at $(1, 1), (3, 1), (3, 3),$ and $(1, 3)$. It is enlarged by scale factor $2$ using $(1, 1)$ as the centre of enlargement. Find the coordinates of the image of the vertex originally at $(3, 3)$.",
+      "options": [
+        "$(5, 5)$",
+        "$(6, 6)$",
+        "$(4, 4)$",
+        "$(2, 2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vector from the centre $(1, 1)$ to $(3, 3)$ is $\\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$. Multiplying this by scale factor $2$ gives $\\begin{pmatrix} 4 \\ 4 \\end{pmatrix}$. Adding this to the centre: $(1+4, 1+4) = (5, 5)$.\n\n**Common mistake:** A student might multiply the original coordinates by 2 to get $(6, 6)$, which only works if the centre of enlargement is the origin."
+    },
+    {
+      "id": "12-4-12-5-transformations-medium-q3",
+      "type": "mcq",
+      "question": "Point $B(5, 1)$ is rotated $90°$ clockwise about the point $(2, 1)$. Determine the coordinates of the image.",
+      "options": [
+        "$(2, -2)$",
+        "$(1, 5)$",
+        "$(2, 4)$",
+        "$(5, -2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vector from $(2, 1)$ to $(5, 1)$ is $\\begin{pmatrix} 3 \\ 0 \\end{pmatrix}$. Rotating this $90°$ clockwise gives $\\begin{pmatrix} 0 \\ -3 \\end{pmatrix}$. Adding to the centre: $(2+0, 1-3) = (2, -2)$.\n\n**Common mistake:** The student might rotate about the origin instead of the given centre $(2, 1)$."
+    },
+    {
+      "id": "12-4-12-5-transformations-medium-q4",
+      "type": "mcq",
+      "question": "Triangle $T$2$\\begin{pmatrix} 4 \\ -3 \\end{pmatrix}$ and then by $\\begin{pmatrix} -1 \\ 5 \\end{pmatrix}$. What is the single translation vector that represents this combined transformation?",
+      "options": [
+        "$\\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 \\ -8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -4 \\ -15 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combined translations are found by adding the individual translation vectors: $\\begin{pmatrix} 4 + (-1) \\ -3 + 5 \\end{pmatrix} = \\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** The student might subtract the vectors or multiply them incorrectly."
+    },
+    {
+      "id": "12-4-12-5-transformations-medium-q5",
+      "type": "mcq",
+      "question": "Find the equation of the mirror line that maps the point $(2, 5)$ onto $(2, -1)$.",
+      "options": [
+        "$y = 2$",
+        "$x = 2$",
+        "$y = 0$",
+        "$y = x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mirror line is the perpendicular bisector of the segment joining the two points. The midpoint is $(2, (5-1)/2) = (2, 2)$. Since the $x$2$y = 2$.\n\n**Common mistake:** A student might pick the $x$2$x=2$ or confuse the midpoint calculation."
+    }
+  ]
+}

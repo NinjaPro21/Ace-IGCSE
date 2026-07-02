@@ -1,0 +1,77 @@
+{
+  "id": "17-4-action-and-use-of-circuit-components-easy",
+  "topicId": "17-4-action-and-use-of-circuit-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "easy",
+  "title": "Action and Use of Circuit Components — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-4-action-and-use-of-circuit-components-easy-q1",
+      "type": "mcq",
+      "question": "Which component has a resistance that decreases significantly when the light intensity falling on it increases?",
+      "options": [
+        "Light-dependent resistor (LDR)",
+        "NTC thermistor",
+        "Fixed resistor",
+        "Semiconductor diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, an LDR is an environment-sensitive resistor whose resistance decreases as light intensity increases. A thermistor responds to temperature, not light.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-easy-q2",
+      "type": "mcq",
+      "question": "What is the primary function of an NTC thermistor in a circuit?",
+      "options": [
+        "Its resistance decreases as the temperature increases",
+        "Its resistance increases as the temperature increases",
+        "It allows current to flow in only one direction",
+        "It stores electrical charge for later use"
+      ],
+      "correctIndex": 0,
+      "explanation": "An NTC (Negative Temperature Coefficient) thermistor is defined as a resistor whose resistance decreases as its temperature increases. This allows it to be used in temperature-control circuits.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-easy-q3",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the output voltage $V_{out}$ in a potential divider circuit consisting of two resistors, $R_1$ and $R_2$, where $V_{out}$ is measured across $R_2$?",
+      "options": [
+        "$V_{out} = \\frac{R_2}{R_1 + R_2} \\times V_{in}$",
+        "$V_{out} = \\frac{R_1}{R_1 + R_2} \\times V_{in}$",
+        "$V_{out} = (R_1 + R_2) \\times V_{in}$",
+        "$V_{out} = \\frac{V_{in}}{R_1 + R_2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The potential divider equation states that the output voltage is proportional to the resistance it is measured across relative to the total resistance: $V_{out} = [R_2 / (R_1 + R_2)] \\times V_{in}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-easy-q4",
+      "type": "mcq",
+      "question": "LDRs and thermistors are examples of which type of circuit component?",
+      "options": [
+        "Input transducers",
+        "Output transducers",
+        "E.m.f. sources",
+        "Rectifiers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly label thermistors and LDRs as examples of input transducers because they convert environmental changes (heat or light) into electrical signals.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-easy-q5",
+      "type": "mcq",
+      "question": "What happens to the potential difference across a conductor in a series circuit if its resistance increases while the current remains constant?",
+      "options": [
+        "The potential difference increases",
+        "The potential difference decreases",
+        "The potential difference remains the same",
+        "The potential difference becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in the learning goals, the potential difference across an electrical conductor increases as its resistance increases for a constant current ($V=IR$).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

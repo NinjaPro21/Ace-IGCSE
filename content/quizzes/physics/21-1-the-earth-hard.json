@@ -1,0 +1,77 @@
+{
+  "id": "21-1-the-earth-hard",
+  "topicId": "21-1-the-earth",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "hard",
+  "title": "The Earth — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "21-1-the-earth-hard-q1",
+      "type": "mcq",
+      "question": "The Sun is $150$ million kilometres from the Earth. How long does it take for light from the Sun to reach the Earth? (Speed of light $= 3 \\times 10^{8}\\text{ m/s}$)",
+      "options": [
+        "8 minutes 20 seconds",
+        "8 seconds",
+        "1 hour",
+        "24 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "$t = \\frac{d}{v} = \\frac{150 \\times 10^{9}\\text{ m}}{3 \\times 10^{8}\\text{ m/s}} = 500\\text{ s}$, which is $8$ minutes and $20$ seconds.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-hard-q2",
+      "type": "mcq",
+      "question": "A geostationary satellite orbits $36000\\text{ km}$ above the Earth's surface. Given the Earth's radius is $6400\\text{ km}$, what is the radius of the satellite's orbit?",
+      "options": [
+        "$42400\\text{ km}$",
+        "$36000\\text{ km}$",
+        "$29600\\text{ km}$",
+        "$6400\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The orbital radius is the sum of the Earth's radius and the height above the surface: $6400 + 36000 = 42400\\text{ km}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-hard-q3",
+      "type": "mcq",
+      "question": "During the month of December, what are the conditions at the Antarctic Circle?",
+      "options": [
+        "24 hours of daytime",
+        "24 hours of night-time",
+        "12 hours of daytime and 12 hours of night-time",
+        "Frequent solar eclipses"
+      ],
+      "correctIndex": 0,
+      "explanation": "In December, the South Pole is tilted towards the Sun, resulting in constant daylight (24 hours) for the Antarctic Circle.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-hard-q4",
+      "type": "mcq",
+      "question": "The Earth orbits the Sun at an average distance of $1.5 \\times 10^{8}\\text{ km}$. Calculate the average orbital speed of the Earth in $\\text{km/h}$ (Assume $T = 8760\\text{ h}$ and use $pi = 3.14$).",
+      "options": [
+        "$\\approx 107000\\text{ km/h}$",
+        "$\\approx 30000\\text{ km/h}$",
+        "$\\approx 1600\\text{ km/h}$",
+        "$\\approx 3 \\times 10^{8}\\text{ km/h}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = \\frac{2pi r}{T} = \\frac{2 \\times 3.14 \\times 1.5 \\times 10^{8}}{8760} \\approx 107534\\text{ km/h}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-hard-q5",
+      "type": "mcq",
+      "question": "Which statement correctly describes the Earth's rotation and its effect on the stars observed from Earth?",
+      "options": [
+        "The Earth's rotation makes stars appear to move across the sky during the night",
+        "The stars move around the Earth once every 24 hours",
+        "The Earth's orbit causes stars to change position every hour",
+        "The Earth's axis tilt prevents us from seeing stars at the poles"
+      ],
+      "correctIndex": 0,
+      "explanation": "While stars are relatively fixed, the Earth's rotation on its axis creates the appearance of stars moving across the sky, similar to how the Sun 'rises' and 'sets'.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

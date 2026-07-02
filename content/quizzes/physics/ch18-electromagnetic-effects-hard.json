@@ -1,0 +1,402 @@
+{
+  "id": "ch18-electromagnetic-effects-hard",
+  "topicId": "ch18-electromagnetic-effects",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "Chapter 18: Electromagnetic Effects — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch18-electromagnetic-effects-hard-q1",
+      "type": "mcq",
+      "question": "A bar magnet is pushed entirely through a long solenoid at a constant speed. Why does the galvanometer deflection drop to zero when the magnet is exactly at the midlength point of the solenoid?",
+      "options": [
+        "There is no change in the magnetic flux linking the solenoid at that instant",
+        "The North and South poles of the magnet cancel each other out",
+        "The speed of the magnet becomes zero at the midpoint",
+        "The solenoid becomes magnetically saturated at the centre"
+      ],
+      "correctIndex": 0,
+      "explanation": "As noted in Worked Example 18A, at the instant the magnet passes the midpoint, the number of field lines entering equals those leaving a specific section, resulting in no net change in flux.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q2",
+      "type": "mcq",
+      "question": "Explain how Lenz's Law illustrates the principle of conservation of energy.",
+      "options": [
+        "Mechanical work done to overcome the repulsive force is converted into electrical energy",
+        "The induced current creates energy from the magnetic field",
+        "The magnet loses mass to provide the energy for the induced current",
+        "The solenoid uses thermal energy from the surroundings to generate the e.m.f."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the induced pole opposes the magnet's motion, the person must do work to move the magnet. This mechanical work is the source of the electrical energy produced.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q3",
+      "type": "mcq",
+      "question": "A magnet is dropped vertically through a coil. How does the second peak of the induced e.m.f. (as the magnet leaves) compare to the first peak (as it enters)?",
+      "options": [
+        "The second peak is higher and has opposite polarity",
+        "The second peak is lower and has the same polarity",
+        "Both peaks are identical in height and direction",
+        "The second peak is zero because the magnet is already moving"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the magnet falls, it accelerates due to gravity. It is moving faster when it leaves the coil than when it entered, leading to a higher rate of flux change and a larger e.m.f. peak.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q4",
+      "type": "mcq",
+      "question": "An aluminium disc is placed near a moving magnet. Although aluminium is non-magnetic, it is affected by the magnet's motion. Why?",
+      "options": [
+        "Eddy currents are induced in the disc, creating an opposing magnetic field",
+        "Aluminium becomes a permanent magnet through contact",
+        "The magnet exerts a purely electrostatic force on the disc",
+        "Aluminium is actually a magnetically soft material like iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aluminium is a conductor. The changing magnetic field from the moving magnet induces currents (eddy currents) in the disc, which then produce a magnetic field that interacts with the magnet.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q5",
+      "type": "mcq",
+      "question": "Which mathematical relationship correctly describes the magnitude of the induced e.m.f. according to Faraday's observations?",
+      "options": [
+        "e.m.f. is proportional to the rate of change of magnetic flux linkage",
+        "e.m.f. is equal to the total magnetic flux regardless of time",
+        "e.m.f. is inversely proportional to the number of turns",
+        "e.m.f. is proportional to the resistance of the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced e.m.f. is determined by the rate at which the magnetic field lines are cut (rate of change of flux) and the number of turns in the conductor.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q6",
+      "type": "mcq",
+      "question": "An a.c. generator produces an output with a frequency of $5.0\\text{ Hz}$. Calculate the time taken for one complete rotation of the coil.",
+      "options": [
+        "$0.2\\text{ s}$",
+        "$5.0\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$1.0\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The time for one cycle (period $T$) is the reciprocal of frequency: $T = 1/f = 1 / 5.0 = 0.2\\text{ s}$. \n\n**Common mistake:** Multiplying frequency by time or assuming the period is $1.0\\text{ s}$ by default."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q7",
+      "type": "mcq",
+      "question": "Why is the induced e.m.f. zero when the plane of the generator coil is vertical (perpendicular to the magnetic field)?",
+      "options": [
+        "The sides of the coil are moving parallel to the field lines and not cutting them.",
+        "The magnetic field is weakest at the top and bottom of the magnets.",
+        "The slip rings lose contact with the brushes in this position.",
+        "The current in the two sides of the coil cancels itself out."
+      ],
+      "correctIndex": 0,
+      "explanation": "When the coil is vertical, its motion is momentarily parallel to the magnetic field lines, meaning no lines are being cut and no e.m.f. is induced. \n\n**Common mistake:** Thinking the e.m.f. is maximum because the coil 'occupies' the most space between the poles."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q8",
+      "type": "mcq",
+      "question": "If a generator coil makes 1200 revolutions in one minute, what is the frequency of the alternating current produced?",
+      "options": [
+        "$20\\text{ Hz}$",
+        "$1200\\text{ Hz}$",
+        "$60\\text{ Hz}$",
+        "$0.05\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is cycles per second. $1200$ revolutions per minute $= 1200 / 60$ seconds $= 20$ cycles per second ($20\\text{ Hz}$). \n\n**Common mistake:** Using the 'per minute' value directly as hertz."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q9",
+      "type": "mcq",
+      "question": "Identify the correct energy conversion that takes place in a working a.c. generator.",
+      "options": [
+        "Mechanical energy $rightarrow$ Electrical energy",
+        "Electrical energy $rightarrow$ Mechanical energy",
+        "Chemical energy $rightarrow$ Electrical energy",
+        "Electrical energy $rightarrow$ Thermal energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "A generator uses the mechanical work of rotating a coil to produce electrical energy. \n\n**Common mistake:** Selecting Choice B, which describes the function of an electric motor."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q10",
+      "type": "mcq",
+      "question": "In a practical generator, the coil is often wound around a soft iron core. What is the purpose of this core?",
+      "options": [
+        "To concentrate the magnetic field lines through the coil.",
+        "To provide electrical insulation for the copper wires.",
+        "To allow the generator to produce direct current.",
+        "To reduce the weight of the rotating assembly."
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is easily magnetised and helps to concentrate the magnetic flux, increasing the strength of the magnetic field linking the coil. \n\n**Common mistake:** Thinking the iron core acts as a battery to store the electricity produced."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q11",
+      "type": "mcq",
+      "question": "In a magnetic relay, why is the armature (L) typically made of iron rather than steel?",
+      "options": [
+        "Iron is magnetically soft and loses its magnetism when current stops",
+        "Iron is magnetically hard and remains a permanent magnet",
+        "Iron is a better electrical conductor than steel",
+        "Iron is lighter and moves faster toward the magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron is magnetically soft, meaning it is easily magnetised and demagnetised. This allows the relay to release the armature immediately when the current is switched off.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q12",
+      "type": "mcq",
+      "question": "In a moving-coil loudspeaker, how is the magnetic component designed to maximize efficiency?",
+      "options": [
+        "The field lines are always at right angles to the current direction",
+        "The field lines are parallel to the current direction",
+        "The coil is made of a magnetically hard material like steel",
+        "The permanent magnet is replaced by a second coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The loudspeaker is designed so that magnetic field lines are always at right angles to the current direction, making the interaction much more efficient.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q13",
+      "type": "mcq",
+      "question": "What would be the consequence of replacing the iron core in a solenoid circuit breaker with a steel core?",
+      "options": [
+        "The circuit breaker would not reset after the current is switched off",
+        "The magnetic field would become too weak to move the switch",
+        "The current would flow in the opposite direction",
+        "The steel would melt due to higher resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steel is a magnetically hard material. Once magnetised by the current, it would remain a permanent magnet even after current stops, preventing the mechanism from releasing or resetting correctly.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q14",
+      "type": "mcq",
+      "question": "Two long parallel wires carry currents in the same direction. What interaction occurs between them due to their magnetic fields?",
+      "options": [
+        "They attract each other",
+        "They repel each other",
+        "They rotate around each other",
+        "There is no interaction because they are parallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that conductors carrying currents in the same direction attract each other due to the interaction of their magnetic fields.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q15",
+      "type": "mcq",
+      "question": "A current-carrying wire passes through a cardboard sheet. Points X, Y, and Z are at distances of $2\\text{ cm}$, $4\\text{ cm}$, and $6\\text{ cm}$ from the wire respectively. How do the field strengths compare?",
+      "options": [
+        "X > Y > Z",
+        "Z > Y > X",
+        "X = Y = Z",
+        "Y > X and Y > Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field strength is inversely related to distance from the wire. Therefore, the point closest to the wire (X) has the strongest field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q16",
+      "type": "mcq",
+      "question": "A beam of electrons travels from the bottom of the page towards the top. A magnetic field is directed into the page. What is the direction of the initial deflection of the electrons?",
+      "options": [
+        "Towards the right",
+        "Towards the left",
+        "Towards the top",
+        "Towards the bottom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conventional current is opposite to electron flow. Therefore, current is 'downwards'. Field is 'into page'. Using Fleming's left-hand rule: Field (Index) into page, Current (Middle) down, Thumb points right. \n\n**Common mistake:** Using the electron direction for the current finger, which gives the opposite result."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q17",
+      "type": "mcq",
+      "question": "How does the deflection of alpha ($u03b1$) particles compare to beta ($u03b2$) particles when they enter the same magnetic field at the same speed?",
+      "options": [
+        "They are deflected in opposite directions because they have opposite charges.",
+        "They are deflected in the same direction but by different amounts.",
+        "Only beta particles are deflected because alpha particles are too heavy.",
+        "Neither is deflected because they are not travelling in a wire."
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic fields exert forces on charged particles. Alpha particles are positive and beta particles are negative, so Fleming's left-hand rule (with current direction adjusted for charge) predicts opposite deflections. \n\n**Common mistake:** Thinking heavy alpha particles won't deflect at all."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q18",
+      "type": "mcq",
+      "question": "A current-carrying wire is placed perpendicular to a magnetic field. If the length of the wire inside the field is halved and the current is doubled, what happens to the force?",
+      "options": [
+        "The force remains the same.",
+        "The force is doubled.",
+        "The force is quadrupled.",
+        "The force is halved."
+      ],
+      "correctIndex": 0,
+      "explanation": "Force is proportional to both current and the length of the conductor in the field. Since $0.5 \\times 2 = 1$, the net effect is no change in force. \n\n**Common mistake:** Thinking force only depends on the properties of the magnet."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q19",
+      "type": "mcq",
+      "question": "Which statement accurately describes the magnetic field lines around two parallel wires carrying currents in opposite directions?",
+      "options": [
+        "The field lines between the wires are crowded, resulting in repulsion.",
+        "The field lines between the wires cancel out, resulting in attraction.",
+        "The field lines form a single loop around both wires, causing them to twist.",
+        "The field lines are unaffected by the other wire's presence."
+      ],
+      "correctIndex": 0,
+      "explanation": "When currents are in opposite directions, the magnetic fields between the wires point in the same direction, becoming 'crowded'. This creates a region of high magnetic pressure that pushes the wires apart. \n\n**Common mistake:** Thinking opposite directions lead to attraction like magnetic poles do."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q20",
+      "type": "mcq",
+      "question": "A beam of protons (positive charges) enters a magnetic field directed out of the page. The beam is deflected towards the bottom of the page. What was the initial direction of the proton beam?",
+      "options": [
+        "Towards the right",
+        "Towards the left",
+        "Into the page",
+        "Towards the top"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's left-hand rule: Thumb (Force) points down. First finger (Field) points out of page. The second finger (Current) points right. Since protons are positive, current is in the same direction as motion. \n\n**Common mistake:** Reversing the direction because of the 'out of page' field."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q21",
+      "type": "mcq",
+      "question": "A d.c. motor is connected to a battery. A student observes that the coil rotates clockwise. If the student then reverses the battery connections AND replaces the magnets with stronger ones, how will the motion change?",
+      "options": [
+        "The coil will rotate anticlockwise and faster",
+        "The coil will rotate clockwise and faster",
+        "The coil will rotate anticlockwise and at the same speed",
+        "The coil will rotate clockwise and slower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing the battery reverses the current, which reverses the direction (to anticlockwise). Stronger magnets increase the force, making it faster. So it will be anticlockwise and faster.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q22",
+      "type": "mcq",
+      "question": "In a d.c. motor, the current in the coil is reversed precisely when the coil reaches the vertical position. Why is this specific timing necessary?",
+      "options": [
+        "Because the forces on the sides of the coil are momentarily parallel to the field",
+        "Because the magnetic field is strongest at the vertical position",
+        "Because the commutator must change brushes to maintain a continuous loop",
+        "To prevent the permanent magnets from being demagnetised"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the vertical position, the commutator changes contact from one brush to the other, reversing current. This ensures that the force on each side of the coil always acts in a way that continues the same direction of rotation.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q23",
+      "type": "mcq",
+      "question": "A student measures the torque (turning effect) of a motor with different numbers of turns $N$ in the coil. If the torque is directly proportional to $N$, which graph would represent this relationship?",
+      "options": [
+        "A straight line passing through the origin",
+        "A horizontal line showing constant torque",
+        "A curve that gets flatter as $N$ increases",
+        "A straight line with a negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct proportionality between torque and the number of turns means that as $N$ increases, the torque increases at a constant rate, which is shown by a straight line through the origin ($0,0$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q24",
+      "type": "mcq",
+      "question": "A d.c. motor is being used to lift a mass. If the motor is stalled (the coil is held so it cannot rotate), what happens to the electrical energy input?",
+      "options": [
+        "It is converted mostly into thermal energy in the coil",
+        "It is stored as magnetic potential energy in the core",
+        "It is converted into gravitational potential energy of the mass",
+        "The circuit is automatically broken and no energy is used"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the motor cannot turn, no mechanical work is done. All the electrical energy input ($P=IV$) is dissipated as thermal energy due to the resistance of the wires ($P=I^2R$), often causing the motor to overheat.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q25",
+      "type": "mcq",
+      "question": "Which statement correctly describes the forces on the horizontal segments of a rectangular coil (AB and CD) as it rotates in a horizontal magnetic field?",
+      "options": [
+        "The forces are always equal and opposite, creating a couple",
+        "The forces are in the same direction, pushing the coil sideways",
+        "There is no force on these segments because they are parallel to the field",
+        "The forces alternate between attraction and repulsion every half-turn"
+      ],
+      "correctIndex": 0,
+      "explanation": "When segments AB and CD are perpendicular to the field, they experience forces in opposite directions (one up, one down). These two equal and opposite forces create the turning effect (a couple).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q26",
+      "type": "mcq",
+      "question": "An ideal transformer provides $12\\text{ V}$ to a model train that draws $0.8\\text{ A}$. If the input source is $240\\text{ V}$, calculate the current in the primary coil.",
+      "options": [
+        "$0.04\\text{ A}$",
+        "$16\\text{ A}$",
+        "$192\\text{ A}$",
+        "$0.025\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I_p V_p = I_s V_s$ for $100\\%$ efficiency: $I_p = (12 \\times 0.8) / 240 = 9.6 / 240 = 0.04\\text{ A}$. \n\n**Common mistake:** Multiplying the input voltage and output current directly."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q27",
+      "type": "mcq",
+      "question": "A student connects a battery to the primary coil of a transformer and a galvanometer to the secondary coil. What does the galvanometer show while the current is steady?",
+      "options": [
+        "The needle is not deflected (zero reading).",
+        "The needle remains deflected in one direction.",
+        "The needle oscillates back and forth.",
+        "The needle shows a maximum deflection."
+      ],
+      "correctIndex": 0,
+      "explanation": "Faraday discovered that a magnetic field can induce a current in another coil only when it is changing. A steady d.c. creates a constant field, so no current is induced in the secondary. \n\n**Common mistake:** Expecting a steady d.c. to produce a steady secondary voltage."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q28",
+      "type": "mcq",
+      "question": "Explain using the equation $P = I^2R$ why electricity is transmitted over long distances at very high voltages.",
+      "options": [
+        "High voltage allows for lower current, which reduces thermal energy loss in cables.",
+        "High voltage increases the resistance of the cables to push energy faster.",
+        "High voltage ensures the current is a.c. rather than d.c.",
+        "High voltage prevents electrons from colliding with metal atoms."
+      ],
+      "correctIndex": 0,
+      "explanation": "For a fixed power ($P=IV$), increasing voltage ($V$) reduces current ($I$). Since power loss in cables is $I^2R$, a smaller current significantly reduces heat loss. \n\n**Common mistake:** Thinking high voltage is used because it 'travels faster' through the wires."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q29",
+      "type": "mcq",
+      "question": "A power station produces $200\\text{ MW}$ of power at $2\\text{ kV}$. A step-up transformer increases this to $400\\text{ kV}$ for transmission. How much has the current decreased?",
+      "options": [
+        "By a factor of $200$",
+        "By a factor of $20$",
+        "By a factor of $400$",
+        "It has not changed, only the voltage changed."
+      ],
+      "correctIndex": 0,
+      "explanation": "The voltage is increased from $2000\\text{ V}$ to $400000\\text{ V}$, a factor of $200$. In an ideal transformer ($IV$ constant), the current must therefore decrease by the same factor of $200$. \n\n**Common mistake:** Calculating the difference ($398\\text{ kV}$) rather than the ratio."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-hard-q30",
+      "type": "mcq",
+      "question": "In the transmission of electricity from power stations to homes, what is the typical sequence of transformers used?",
+      "options": [
+        "Step-up at the power station, step-down at the end user",
+        "Step-down at the power station, step-up at the end user",
+        "Step-up at both locations",
+        "Step-down at both locations"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricity is stepped up to high voltages for efficient long-distance travel and then stepped down to safe levels ($240\\text{V}$ or $250\\text{V}$) for consumers. \n\n**Common mistake:** Thinking electricity should be stepped down immediately at the power plant for safety."
+    }
+  ]
+}

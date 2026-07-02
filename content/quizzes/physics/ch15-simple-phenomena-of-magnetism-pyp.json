@@ -1,0 +1,207 @@
+{
+  "id": "ch15-simple-phenomena-of-magnetism-pyp",
+  "topicId": "ch15-simple-phenomena-of-magnetism",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "pyp",
+  "title": "Chapter 15: Simple Phenomena of Magnetism — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q1",
+      "type": "mcq",
+      "question": "A student tests three different metal bars with a magnet. Which row correctly identifies the materials?nnBar | Reaction to N-pole | Reaction to S-polen--- | --- | ---n1 | Attracts | Attractsn2 | Repels | Attractsn3 | No reaction | No reaction",
+      "options": [
+        "1: Iron; 2: Magnet; 3: Copper",
+        "1: Magnet; 2: Iron; 3: Copper",
+        "1: Copper; 2: Magnet; 3: Iron",
+        "1: Iron; 2: Copper; 3: Magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bar 1 is attracted to both poles, indicating it is a magnetic material (Iron). Bar 2 repels one pole, so it must be a Magnet. Bar 3 has no reaction, so it is non-magnetic (Copper).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows a bar magnet inducing magnetism in an iron bar.n[Magnet N-S] ----> [Iron Bar End P - End Q]nWhich row describes the poles induced at P and Q?",
+      "options": [
+        "P: North; Q: South",
+        "P: South; Q: North",
+        "P: North; Q: North",
+        "P: South; Q: South"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the principle of induction, the end nearest the magnet's S-pole (End P) becomes an N-pole. Consequently, the farther end (End Q) becomes an S-pole.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q3",
+      "type": "mcq",
+      "question": "Which of these is a correct property of a permanent magnet?",
+      "options": [
+        "It attracts magnetic materials like iron and steel",
+        "It can only attract other permanent magnets",
+        "It loses its magnetism as soon as it is moved",
+        "It attracts non-magnetic materials like brass"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fundamental property of magnets is their ability to attract magnetic materials such as iron and steel. They do not attract non-magnetic materials like brass.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q4",
+      "type": "mcq",
+      "question": "The table shows the number of iron tacks picked up by three bars clamped to a magnet. nnBar | Number of tacks picked upn--- | ---nMetal 1 | 15nMetal 2 | 8nMetal 3 | 0nnWhich material is most likely Metal 3?",
+      "options": [
+        "Brass",
+        "Iron",
+        "Steel",
+        "Nickel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metal 3 picked up zero tacks, indicating it is a non-magnetic material. Brass is the non-magnetic material among the options provided.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q5",
+      "type": "mcq",
+      "question": "Which diagram correctly shows the direction in which a plotting compass points when placed near the North pole of a bar magnet?",
+      "options": [
+        "The compass needle points away from the North pole",
+        "The compass needle points towards the North pole",
+        "The compass needle points parallel to the magnet's side",
+        "The compass needle spins rapidly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic field lines are directed away from the North pole and towards the South pole. A compass needle aligns with these lines, so it points away from the N pole.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q6",
+      "type": "mcq",
+      "question": "A magnetic relay contains a magnet (M), an armature (L) and a stopper (S). Which combination of materials is best to ensure the relay works efficiently and safely?nn[Reference: Figure 15.20]",
+      "options": [
+        "M: Iron; L: Iron; S: Rubber",
+        "M: Iron; L: Copper; S: Rubber",
+        "M: Steel; L: Iron; S: Iron",
+        "M: Iron; L: Iron; S: Iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 3, M and L should be iron (magnetically soft) for quick response. S should be rubber to cushion the impact and prevent damage. \n\n**Common mistake:** Using copper for the armature (Choice B), which is non-magnetic."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q7",
+      "type": "mcq",
+      "question": "Identical magnets are clamped to the ends of three metal bars. The number of iron tacks picked up by each bar is shown below:nnMetal 1: 0 tacksnMetal 2: 12 tacksnMetal 3: 5 tacksnnIdentify the metals.nn[Reference: Figure 15.13]",
+      "options": [
+        "1: Brass; 2: Iron; 3: Steel",
+        "1: Iron; 2: Steel; 3: Brass",
+        "1: Brass; 2: Steel; 3: Iron",
+        "1: Steel; 2: Iron; 3: Brass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brass is non-magnetic (0 tacks). Iron is easiest to magnetise (12 tacks). Steel is harder to magnetise than iron (5 tacks). Matches 'Let's Practise 15.2' Answer 1. \n\n**Common mistake:** Thinking steel picks up more tacks than iron initially."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q8",
+      "type": "mcq",
+      "question": "A student carries out an experiment to compare two magnetic materials. The results are shown in the table. Which material is steel?nn| Material | Tacks held with magnet | Tacks held after magnet removed |n| :--- | :--- | :--- |n| A | 15 | 0 |n| B | 8 | 6 |n| C | 0 | 0 |n| D | 2 | 0 |",
+      "options": [
+        "Material B",
+        "Material A",
+        "Material C",
+        "Material D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steel is magnetically hard; it holds fewer tacks initially than iron but retains most of its magnetism (6 out of 8) when the magnet is removed. Material A is soft iron. \n\n**Common mistake:** Choosing Material A because it held the most tacks initially."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q9",
+      "type": "mcq",
+      "question": "Which statement about 'magnetically soft' materials is correct?",
+      "options": [
+        "They are easy to magnetise and lose their magnetism easily.",
+        "They are difficult to magnetise but retain their magnetism.",
+        "They cannot be magnetised under any circumstances.",
+        "They are used to make compass needles and door catches."
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetically soft materials, like iron, respond easily to magnetising fields but do not stay magnetised. \n\n**Common mistake:** Choice B, which describes magnetically 'hard' materials."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q10",
+      "type": "mcq",
+      "question": "A electromagnet is being used to lift scrap metal in a yard. Which material should the core be made of, and why?",
+      "options": [
+        "Soft iron, because it loses its magnetism when the current is switched off.",
+        "Steel, because it creates a very strong permanent magnet.",
+        "Soft iron, because it is the only material that can be magnetised by electricity.",
+        "Steel, because it is stronger and can lift heavier pieces of scrap."
+      ],
+      "correctIndex": 0,
+      "explanation": "For the crane to 'drop' the metal, the core must lose its magnetism when the current stops. Only a temporary magnet material like soft iron works. \n\n**Common mistake:** Choosing steel, which would keep the scrap metal stuck to the crane forever."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q11",
+      "type": "mcq",
+      "question": "A small compass is placed near the centre of a bar magnet as shown in Figure 15.19. In which direction will the compass needle point?",
+      "options": [
+        "Parallel to the magnet, pointing towards the South pole",
+        "Parallel to the magnet, pointing towards the North pole",
+        "Perpendicular to the magnet, pointing towards the top of the page",
+        "Perpendicular to the magnet, pointing towards the bottom of the page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the review question in the notes, the field lines at the side of a bar magnet travel from North to South, parallel to the magnet's length.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q12",
+      "type": "mcq",
+      "question": "Which diagram correctly represents the magnetic field pattern of a bar magnet?",
+      "options": [
+        "Curves directed away from the North pole and towards the South pole",
+        "Curves directed away from the South pole and towards the North pole",
+        "Straight lines pointing outwards from both poles",
+        "Concentric circles centred on the midpoint of the magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A standard bar magnet field consists of curves that exit the North pole and enter the South pole. Straight lines or concentric circles do not match this dipole pattern.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q13",
+      "type": "mcq",
+      "question": "A student uses a plotting compass to map the magnetic field of a bar magnet. Which statement correctly describes the procedure?",
+      "options": [
+        "The student marks points at the North end of the compass needle to trace the field direction",
+        "The student marks points at the South end of the compass needle to trace the field direction",
+        "The student must keep the compass at a fixed distance from the magnet at all times",
+        "The student must use a new compass for every new point marked"
+      ],
+      "correctIndex": 0,
+      "explanation": "To map field lines, one follows the North-seeking end of the compass needle, marking its position and moving the compass South-end to that mark to continue the line.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q14",
+      "type": "mcq",
+      "question": "A graph shows the magnetic field strength $B$ against the distance $d$ from the North pole of a magnet. Which of the following is true?",
+      "options": [
+        "The field strength $B$ decreases as distance $d$ increases",
+        "The field strength $B$ increases as distance $d$ increases",
+        "The field strength $B$ remains constant as distance $d$ increases",
+        "The field strength $B$ is zero at the North pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic force is strongest at the poles. As one moves further away (increasing $d$), the field lines spread out and the strength ($B$) decreases.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-pyp-q15",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies properties of magnetic field lines?nnDirection | Indication of Strengthn--- | ---nA. North to South | Spacing of linesnB. South to North | Spacing of linesnC. North to South | Colour of linesnD. South to North | Length of lines",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines travel from North to South, and their relative spacing (density) indicates the strength of the magnetic field in that region.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

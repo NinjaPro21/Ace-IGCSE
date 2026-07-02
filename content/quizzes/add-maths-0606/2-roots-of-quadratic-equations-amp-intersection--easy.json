@@ -1,0 +1,142 @@
+{
+  "id": "2-roots-of-quadratic-equations-amp-intersection--easy",
+  "topicId": "2-roots-of-quadratic-equations-amp-intersection-",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "easy",
+  "title": "Roots of Quadratic Equations & Intersection of a Line and a Curve — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q1",
+      "type": "mcq",
+      "question": "For a quadratic equation in the form a$x^{2}$+bx+c=0, state the formula for the discriminant Δ.",
+      "options": [
+        "$b^{2}$−4ac",
+        "$b^{2}$+4ac",
+        "$b^{2}$−4ac",
+        "4ac−b\n2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The discriminant Δ is the value under the square root in the quadratic formula, defined as $b^{2}$−4ac.\n\n**Common mistake:** Students often misremember the sign as positive ($b^{2}$+4ac) or include the square root symbol from the main quadratic formula."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q2",
+      "type": "mcq",
+      "question": "Calculate the discriminant Δ for the quadratic equation $x^{2}$−8x+16=0.",
+      "options": [
+        "0",
+        "128",
+        "-128",
+        "64"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Δ= b^{2}−4ac: $(-8)^{2}$−4(1)(16)=64−64=0.\n\n**Common mistake:** A common mistake is failing to square the negative sign correctly, resulting in −64−64=−128."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q3",
+      "type": "mcq",
+      "question": "What is the nature of the roots for a quadratic equation where the discriminant Δ is a negative value?",
+      "options": [
+        "No real roots",
+        "Two equal real roots",
+        "Two distinct real roots",
+        "Exactly one real root"
+      ],
+      "correctIndex": 0,
+      "explanation": "When Δ<0, the value under the square root in the quadratic formula is negative, meaning there are no real solutions.\n\n**Common mistake:** Confusion between Δ<0 and Δ=0 often leads students to select 'one real root'."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q4",
+      "type": "mcq",
+      "question": "Identify the nature of the roots for 2$x^{2}$+7x+3=0 by finding its discriminant.",
+      "options": [
+        "Two distinct real roots",
+        "Two equal real roots",
+        "No real roots",
+        "Exactly one real root"
+      ],
+      "correctIndex": 0,
+      "explanation": "Δ= 7^{2}−4(2)(3)=49−24=25. Since 25>0, the roots are real and distinct.\n\n**Common mistake:** Calculative errors in multiplication (e.g., 4×2×3=18) might lead to a different conclusion about the sign of Δ."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q5",
+      "type": "mcq",
+      "question": "State the condition for the quadratic equation a$x^{2}$+bx+c=0 to have two equal real roots.",
+      "options": [
+        "$b^{2}$−4ac=0",
+        "$b^{2}$−4ac>0",
+        "$b^{2}$−4ac<0",
+        "$b^{2}$=4ac+1"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the roots to be equal (repeated), the discriminant must be exactly zero, meaning the ± part of the quadratic formula disappears.\n\n**Common mistake:** Students may choose 'greater than zero', which describes distinct roots rather than equal roots."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q6",
+      "type": "mcq",
+      "question": "If the discriminant $Δ$ of the quadratic equation formed by substituting a linear equation into a curve's equation is exactly zero, how many points of intersection exist?",
+      "options": [
+        "Exactly one point (the line is a tangent)",
+        "Two distinct points of intersection",
+        "No points of intersection",
+        "An infinite number of points"
+      ],
+      "correctIndex": 0,
+      "explanation": "A discriminant of zero ($Δ = 0$) indicates that the resulting quadratic equation has only one repeated real root, meaning the line touches the curve at exactly one point.\n\n**Common mistake:** Students often confuse $Δ = 0$ with $Δ < 0$, leading them to believe there are no intersections, or they assume every line must cross a curve twice."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q7",
+      "type": "mcq",
+      "question": "Find the $x$2$y = 12$ and the curve $y = x^2 - 4$.",
+      "options": [
+        "$x = 4$ and $x = -4$",
+        "$x = 16$ and $x = -16$",
+        "$x = 2$ and $x = -2$",
+        "$x = 8$ and $x = -8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y = 12$ into the curve: $12 = x^2 - 4$, which gives $x^2 = 16$. Solving for $x$2$±4$.\n\n**Common mistake:** A common error is forgetting the negative root and providing only $x = 4$, or incorrectly adding 4 to 12 and getting $x^2 = 16$ but then dividing by 2 instead of taking the square root."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q8",
+      "type": "mcq",
+      "question": "Which quadratic equation is obtained by substituting the line $y = 3x + 2$ into the curve $y = x^2 + 5$?",
+      "options": [
+        "$x^2 - 3x + 3 = 0$",
+        "$x^2 + 3x + 7 = 0$",
+        "$x^2 - 3x - 3 = 0$",
+        "$x^2 + 3x - 7 = 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equating the expressions for $y$2$x^2 + 5 = 3x + 2$. Subtracting $3x$2$x^2 - 3x + 3 = 0$.\n\n**Common mistake:** Students often make sign errors when moving terms across the equals sign, often leading to $+3x$2$-7$."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q9",
+      "type": "mcq",
+      "question": "A line $y = k$2$y = (x - 2)² + 3$. State the value of $k$.",
+      "options": [
+        "3",
+        "2",
+        "-2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal tangent to a parabola must pass through its vertex. The vertex of $y = (x - 2)² + 3$ is at $(2, 3)$, so the horizontal line is $y = 3$.\n\n**Common mistake:** Picking the $x$2$y$-coordinate (3) for the horizontal line equation."
+    },
+    {
+      "id": "2-roots-of-quadratic-equations-amp-intersection--easy-q10",
+      "type": "mcq",
+      "question": "Given the line $y = x$2$y = x^2 - 6$, find the point of intersection in the third quadrant.",
+      "options": [
+        "(-2, -2)",
+        "(-3, -3)",
+        "(3, 3)",
+        "(-2, 2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $x^2 - 6 = x \\implies x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0$. The roots are $x = 3$ and $x = -2$. In the third quadrant, $x = -2$ and $y = -2$.\n\n**Common mistake:** Choosing the root $x = -3$ from incorrect factoring or failing to recognize that $y = x$ means coordinates must be identical."
+    }
+  ]
+}

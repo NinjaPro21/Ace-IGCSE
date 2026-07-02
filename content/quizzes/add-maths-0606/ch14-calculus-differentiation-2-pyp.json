@@ -17,7 +17,7 @@
         " $(1, e^3)$ and $(0,0)$ "
       ],
       "correctIndex": 0,
-      "explanation": "Differentiating using the product rule gives $\\frac{dy}{dx} = 2xe^{3x} + 3x^2e^{3x} = xe^{3x}(2 + 3x)$. Setting to $0$ gives $x = 0$ or $x = -\\frac{2}{3}$. Substituting these values back into the curve equation gives the coordinates $(0,0)$ and $(-\\frac{2}{3}, \\frac{4}{9e^2})$.\n\n**Common mistake:** Students frequently make a sign error when solving $2+3x=0$, getting $x=\\frac{2}{3}$ instead of $-\\frac{2}{3}$, leading to option B."
+      "explanation": "Differentiating using the product rule gives $\\frac{dy}{dx} = 2xe^{3x} + 3x^2e^{3x} = xe^{3x}(2 + 3x)$. Setting to^0 gives $x = 0$ or $x = -\\frac{2}{3}$. Substituting these values back into the curve equation gives the coordinates $(0,0)$ and $(-\\frac{2}{3}, \\frac{4}{9e^2})$.\n\n**Common mistake:** Students frequently make a sign error when solving $2+3x=0$, getting $x=\\frac{2}{3}$ instead of $-\\frac{2}{3}$, leading to option B."
     },
     {
       "id": "ch14-calculus-differentiation-2-q2",
@@ -56,7 +56,7 @@
         " $(e^2, \\frac{e^2}{2})$ "
       ],
       "correctIndex": 0,
-      "explanation": "By the quotient rule, $\\frac{dy}{dx} = \\frac{\\ln(x)(1) - x(\\frac{1}{x})}{(\\ln(x))^2} = \\frac{\\ln(x) - 1}{(\\ln(x))^2}$. Setting to $0$ gives $\\ln(x) - 1 = 0 \\implies \\ln(x) = 1 \\implies x = e$. Substituting $x = e$ back into $y = \\frac{x}{\\ln(x)}$ gives $y = \\frac{e}{1} = e$. Thus, the point is $(e, e)$.\n\n**Common mistake:** Students often confuse the value of $\\ln(e)$ as $0$ instead of $1$, which would lead them to look for undefined boundaries or get incorrect answers like option B."
+      "explanation": "By the quotient rule, $\\frac{dy}{dx} = \\frac{\\ln(x)(1) - x(\\frac{1}{x})}{(\\ln(x))^2} = \\frac{\\ln(x) - 1}{(\\ln(x))^2}$. Setting to^0 gives $\\ln(x) - 1 = 0 \\implies \\ln(x) = 1 \\implies x = e$. Substituting $x = e$ back into $y = \\frac{x}{\\ln(x)}$ gives $y = \\frac{e}{1} = e$. Thus, the point is $(e, e)$.\n\n**Common mistake:** Students often confuse the value of $\\ln(e)$ as^0 instead of^1, which would lead them to look for undefined boundaries or get incorrect answers like option B."
     },
     {
       "id": "ch14-calculus-differentiation-2-q5",

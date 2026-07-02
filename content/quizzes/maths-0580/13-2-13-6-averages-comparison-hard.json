@@ -1,0 +1,77 @@
+{
+  "id": "13-2-13-6-averages-comparison-hard",
+  "topicId": "13-2-13-6-averages-comparison",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "hard",
+  "title": "Averages & Comparison — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-2-13-6-averages-comparison-hard-q1",
+      "type": "mcq",
+      "question": "A frequency table for grouped data has intervals 30–39, 40–49, 50–59, and 60–69 with frequencies 7, 14, 21, and 9 respectively. Calculate an estimate of the mean.",
+      "options": [
+        "50.8",
+        "50.0",
+        "51.0",
+        "49.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use midpoints: 34.5, 44.5, 54.5, 64.5. Total $fx = (34.5 \\times 7) + (44.5 \\times 14) + (54.5 \\times 21) + (64.5 \\times 9) = 241.5 + 623 + 1144.5 + 580.5 = 2589.5$. Mean $= 2589.5 / 51 \\approx 50.8$.\n\n**Common mistake:** Using the upper or lower bounds of the classes instead of the midpoints to estimate the mean."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-hard-q2",
+      "type": "mcq",
+      "question": "In the previous grouped data (7, 14, 21, 9), identify the modal class.",
+      "options": [
+        "50–59",
+        "40–49",
+        "21",
+        "30–69"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modal class is the class interval with the highest frequency, which is 50–59 with a frequency of 21.\n\n**Common mistake:** Providing the frequency (21) as the modal class instead of the interval."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-hard-q3",
+      "type": "mcq",
+      "question": "The mean height of 12 men is 1.70 m, and the mean height of 8 women is 1.60 m. Calculate the combined mean height of the 20 people.",
+      "options": [
+        "1.66 m",
+        "1.65 m",
+        "1.68 m",
+        "1.70 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total height $= (12 \\times 1.70) + (8 \\times 1.60) = 20.4 + 12.8 = 33.2$. Combined mean $= 33.2 / 20 = 1.66$ m.\n\n**Common mistake:** Averaging the averages: $(1.70 + 1.60) / 2 = 1.65$ m, which fails to account for the different group sizes."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-hard-q4",
+      "type": "mcq",
+      "question": "Using a back-to-back stem-and-leaf diagram for coached and non-coached students, the coached group has a median of 26.5 and the non-coached group has a median of 17. What is the most reasonable conclusion?",
+      "options": [
+        "The coached group generally performed better than the non-coached group",
+        "All coached students scored higher than all non-coached students",
+        "The coaching made no difference to the performance",
+        "The non-coached group was more consistent"
+      ],
+      "correctIndex": 0,
+      "explanation": "A significantly higher median suggests that, on average, the coached group performed better.\n\n**Common mistake:** Concluding that coaching *caused* the higher scores (causation vs correlation) or that there was no overlap between the groups."
+    },
+    {
+      "id": "13-2-13-6-averages-comparison-hard-q5",
+      "type": "mcq",
+      "question": "The mean age of three people is 22, the median age is 20, and the range is 16. Find the age of the oldest person.",
+      "options": [
+        "31",
+        "15",
+        "20",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let ages be $a, 20, c$2$(a + 20 + c)/3 = 22 \\Rightarrow a+c = 46$. Range is 16, so $c - a = 16$. Solving: $2c = 62 \\Rightarrow c = 31$. Oldest is 31.\n\n**Common mistake:** Assuming the range must be centered around the median."
+    }
+  ]
+}

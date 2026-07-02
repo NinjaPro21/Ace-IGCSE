@@ -1,0 +1,77 @@
+{
+  "id": "16-6-electrical-energy-and-electrical-power-medium",
+  "topicId": "16-6-electrical-energy-and-electrical-power",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Electrical Energy and Electrical Power — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-medium-q1",
+      "type": "mcq",
+      "question": "An air conditioner is connected to a $240\\text{ V}$ supply and draws a current of $9.0\\text{ A}$. What is its power rating in kilowatts (kW)?",
+      "options": [
+        "$2.16\\text{ kW}$",
+        "$2160\\text{ kW}$",
+        "$26.7\\text{ kW}$",
+        "$0.037\\text{ kW}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, calculate power in watts: $P = IV = 240\\text{ V} \\times 9.0\\text{ A} = 2160\\text{ W}$. To convert to kW, divide by $1000$: $2160 / 1000 = 2.16\\text{ kW}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-medium-q2",
+      "type": "mcq",
+      "question": "A $40\\text{ W}$ light bulb is switched on for $5.0\\text{ minutes}$. How much electrical energy is transferred to the bulb in joules?",
+      "options": [
+        "$12000\\text{ J}$",
+        "$200\\text{ J}$",
+        "$8\\text{ J}$",
+        "$45\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $E = Pt$, where time must be in seconds: $t = 5 \\times 60 = 300\\text{ s}$. $E = 40\\text{ W} \\times 300\\text{ s} = 12000\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-medium-q3",
+      "type": "mcq",
+      "question": "A $3\\text{ kW}$ electric heater is used for $2.0\\text{ hours}$. How many kilowatt-hours (kWh) of energy does it consume?",
+      "options": [
+        "$6.0\\text{ kWh}$",
+        "$1.5\\text{ kWh}$",
+        "$1.0\\text{ kWh}$",
+        "$3.0\\text{ kWh}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy in kWh is calculated by $E = P \\times t$, where $P$ is in kW and $t is in hours$. $2E = 3\\text{ kW} \\times 2.0\\text{ h} = 6.0\\text{ kWh}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-medium-q4",
+      "type": "mcq",
+      "question": "If electricity costs $$0.27$ per kWh, what is the cost of using $1.5\\text{ kWh}$ of energy?$",
+      "options": [
+        "$$\n0.41\n$$",
+        "$$\n0.18\n$$",
+        "$$\n0.54\n$$",
+        "$$\n0.27\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cost = Energy used $times$ Tariff. $1.5\\text{ kWh} times$0.27 = $0.405$, which rounds to approximately \n\n$$0.412\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-6-electrical-energy-and-electrical-power-medium-q5",
+      "type": "mcq",
+      "question": "Which statement correctly describes the energy transfer in an electric circuit containing a lamp?",
+      "options": [
+        "Energy is transferred from the source to the lamp and then to the surroundings",
+        "Energy is created by the lamp and transferred to the surroundings",
+        "Energy is transferred from the surroundings into the battery",
+        "Energy only flows through the wires and is never transferred to the surroundings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that electric circuits transfer energy from a source to the circuit components and then into the surroundings (e.g., as light or thermal energy).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

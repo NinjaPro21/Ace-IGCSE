@@ -4,13 +4,13 @@ The discriminant ($\Delta = b^2 - 4ac$) determines the nature of the roots of a 
 
 ## Key formulas
 
-$$\Delta = b^2 - 4ac$$
+$$
+\Delta = b^2 - 4ac
+$$$\Delta > 0 \implies \text{Two distinct real roots}$
 
-$$\Delta > 0 \implies \text{Two distinct real roots}$$
+$\Delta = 0 \implies \text{One repeated root (tangent)}$ $\Delta < 0 \implies \text{No real roots}
 
-$$\Delta = 0 \implies \text{One repeated root (tangent)}$$
-
-$$\Delta < 0 \implies \text{No real roots}$$
+$$
 
 ## Steps / method
 
@@ -22,7 +22,7 @@ Extract the clear coefficients for $A$, $B$, and $C$, taking care to include ful
 
 Substitute these structural parameters directly into the discriminant expression: $B^2 - 4AC$.
 
-Set up the appropriate inequality or equation based on the requested condition ($&gt;0$, $=0$, or $&lt;0$) and solve for the unknown parameter.
+Set up the appropriate inequality or equation based on the requested condition ($>0$, $=0$, or $<0$) and solve for the unknown parameter.
 
 ### Key rule
 
@@ -34,9 +34,7 @@ The line $y = kx + 2$ is tangent to the curve $y = x^2 - 4x + 7$. Find $k$.
 
 Equate: $kx + 2 = x^2 - 4x + 7 \implies x^2 - (k + 4)x + 5 = 0$.
 
-For a tangent, $\Delta = 0$: $(k + 4)^2 - 20 = 0 \implies k + 4 = \pm 2\sqrt{5}$.
-
-So $k = -4 + 2\sqrt{5}$ or $k = -4 - 2\sqrt{5}$.
+For a tangent, $\Delta = 0$: $(k + 4)^2 - 20 = 0 \implies k + 4 = \pm 2\sqrt{5}$. So $k = -4 + 2\sqrt{5}$ or $k = -4 - 2\sqrt{5}$.
 
 ## Worked example — No intersection
 
@@ -46,12 +44,8 @@ Equate: $x + k = x^2 \implies x^2 - x - k = 0$. For no intersection, $\Delta = 1
 
 ## Examiner tip
 
-When a question states that a line and a curve &quot;do not intersect,&quot; set $b^2 - 4ac &lt; 0$. If it states they &quot;intersect,&quot; this implies both one or two points, so you must use $\Delta \ge 0$. Missing the equality condition loses marks.
+When a question states that a line and a curve "do not intersect," set $b^2 - 4ac < 0$. If it states they "intersect," this implies both one or two points, so you must use $\Delta \ge 0$. Missing the equality condition loses marks.
 
 ## Quick check
 
-If $\Delta &gt; 0$, then the quadratic equation has two distinct real roots.
-
-## Visual / interactive intent
-
-Reuse explorer: Discriminant/modulus slider. An interactive panel lets users adjust a line or curve. A live readout shows the calculating value of $b^2 - 4ac$ changing color (green for $&gt;0$, yellow for $=0$, red for $&lt;0$) alongside the visual tracking.
+If $\Delta > 0$, then the quadratic equation has two distinct real roots.

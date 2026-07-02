@@ -17,7 +17,7 @@
         "$x = 12$ or $x = -2$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up two linear equations: $2x - 5 = 7 \\implies 2x = 12 \\implies x = 6$, and $2x - 5 = -7 \\implies 2x = -2 \\implies x = -1$. Both solutions satisfy the original equation since the absolute value of both $7$ and $-7$ is $7$.\n\n**Common mistake:** Students commonly make a sign error when solving the negative case, writing $2x - 5 = -7 \\implies 2x = -2 \\implies x = 1$ instead of $-1$.",
+      "explanation": "Set up two linear equations: $2x - 5 = 7 \\implies 2x = 12 \\implies x = 6$, and $2x - 5 = -7 \\implies 2x = -2 \\implies x = -1$. Both solutions satisfy the original equation since the absolute value of both^7 and $-7$ is^7.\n\n**Common mistake:** Students commonly make a sign error when solving the negative case, writing $2x - 5 = -7 \\implies 2x = -2 \\implies x = 1$ instead of $-1$.",
       "variants": [
         {
           "question": "Determine the values of $x$ that satisfy the modulus equation $|2x - 3| = 5$.",
@@ -91,7 +91,7 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "By definition, the modulus of any real expression $|f(x)|$ must be greater than or equal to $0$. Since $-2$ is negative, there are no real solutions.\n\n**Common mistake:** Students often blindly follow algebraic procedures without checking validity, solving $x^2 - 4 = -2$ and $x^2 - 4 = 2$ to mistakenly conclude there are multiple solutions."
+      "explanation": "By definition, the modulus of any real expression $|f(x)|$ must be greater than or equal to^0. Since $-2$ is negative, there are no real solutions.\n\n**Common mistake:** Students often blindly follow algebraic procedures without checking validity, solving $x^2 - 4 = -2$ and $x^2 - 4 = 2$ to mistakenly conclude there are multiple solutions."
     },
     {
       "id": "ch04-equations-inequalities-and-graphs-q4",
@@ -104,7 +104,7 @@
         "$x < 5$ or $x > -5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression $|x| > 5$ represents all numbers whose distance from the origin is greater than $5$. This translates directly to the outer intervals $x > 5$ or $x < -5$.\n\n**Common mistake:** Students often confuse 'greater than' inequalities with 'less than' inequalities, incorrectly choosing the single bounded interval $-5 < x < 5$.",
+      "explanation": "The expression $|x| > 5$ represents all numbers whose distance from the origin is greater than^5. This translates directly to the outer intervals $x > 5$ or $x < -5$.\n\n**Common mistake:** Students often confuse 'greater than' inequalities with 'less than' inequalities, incorrectly choosing the single bounded interval $-5 < x < 5$.",
       "variants": [
         {
           "question": "Express the inequality $|x| > 3$ as a pair of separate linear inequalities without modulus signs.",

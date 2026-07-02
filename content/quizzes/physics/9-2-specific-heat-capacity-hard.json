@@ -1,0 +1,77 @@
+{
+  "id": "9-2-specific-heat-capacity-hard",
+  "topicId": "9-2-specific-heat-capacity",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "hard",
+  "title": "Specific Heat Capacity — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-specific-heat-capacity-hard-q1",
+      "type": "mcq",
+      "question": "An electric heating coil supplies $50\\text{ W}$ of power to a metal block of $0.60\\text{ kg}$. In $90\\text{ s}$, the temperature is raised from $20^\\circ\\text{C}$ to $45^\\circ\\text{C}$. Calculate the specific heat capacity.",
+      "options": [
+        "$300\\text{ J/(kg K)}$",
+        "$4500\\text{ J/(kg K)}$",
+        "$125\\text{ J/(kg K)}$",
+        "$83.3\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy $E = P \\times t = 50 \\times 90 = 4500\\text{ J}$. Temperature change $Delta theta = 25^\\circ\\text{C}$. $c = 4500 / (0.6 \\times 25) = 300\\text{ J/(kg K)}$. \n\n**Common mistake:** Using the final temperature ($45$) instead of the change ($25$)."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-hard-q2",
+      "type": "mcq",
+      "question": "In an experiment to measure the specific heat capacity of a metal block, the calculated value is often higher than the accepted textbook value. Why is this?",
+      "options": [
+        "Thermal energy is lost to the surroundings, so the recorded temperature rise is smaller than expected for the energy supplied",
+        "The metal block expands, which uses up some of the kinetic energy of the particles",
+        "The heater is more than 100% efficient at converting electrical energy to heat",
+        "The thermometer absorbs a significant amount of the energy meant for the block"
+      ],
+      "correctIndex": 0,
+      "explanation": "If heat is lost, the actual $Delta theta$ is smaller than it would be if all energy stayed in the block. Since $c \\propto 1/Delta theta$, a smaller $Delta theta$ makes the calculated $c$ larger. \n\n**Common mistake:** Thinking heat loss would make the calculated value lower."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-hard-q3",
+      "type": "mcq",
+      "question": "A $260\\text{ g}$ sample of liquid is heated in a copper calorimeter (mass $270\\text{ g}$, $c = 400\\text{ J/(kg K)}$). A heater supplies $14688\\text{ J}$. If the calorimeter absorbs $1296\\text{ J}$, calculate the specific heat capacity of the liquid if its temperature rises by $12\\text{ K}$.",
+      "options": [
+        "$4292\\text{ J/(kg K)}$",
+        "$4708\\text{ J/(kg K)}$",
+        "$1115\\text{ J/(kg K)}$",
+        "$3890\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy absorbed by liquid $= 14688 - 1296 = 13392\\text{ J}$. $c = 13392 / (0.26 \\times 12) \\approx 4292\\text{ J/(kg K)}$. \n\n**Common mistake:** Using the total energy ($14688$) without subtracting the energy absorbed by the calorimeter."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-hard-q4",
+      "type": "mcq",
+      "question": "A $25\\text{ W}$ electric kettle is used to heat $150\\text{ g}$ of water for five minutes. Calculate the rise in temperature. (Specific heat capacity of water $= 4000\\text{ J/(kg K)}$)",
+      "options": [
+        "$12.5^\\circ\\text{C}$",
+        "$0.21^\\circ\\text{C}$",
+        "$7500^\\circ\\text{C}$",
+        "$50^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$E = P \\times t = 25 \\times (5 \\times 60) = 7500\\text{ J}$. $Delta theta = E / (m \\times c) = 7500 / (0.15 \\times 4000) = 7500 / 600 = 12.5^\\circ\\text{C}$. \n\n**Common mistake:** Failing to convert five minutes to $300$ seconds."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-hard-q5",
+      "type": "mcq",
+      "question": "When comparing two blocks of the same mass, Block A has a higher specific heat capacity than Block B. If both are supplied with the same amount of thermal energy, which statement is true?",
+      "options": [
+        "Block B will have a greater temperature rise",
+        "Block A will have a greater temperature rise",
+        "Both blocks will reach the same final temperature",
+        "Block A will have a higher average particle speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $Delta theta = Delta E / (m \\times c)$, a higher $c$ results in a smaller $Delta theta$ for the same energy input. Therefore, Block B (lower $c$) rises more in temperature. \n\n**Common mistake:** Thinking a 'higher capacity' means it can reach a higher temperature more easily."
+    }
+  ]
+}

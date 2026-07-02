@@ -1,0 +1,77 @@
+{
+  "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp",
+  "topicId": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "pyp",
+  "title": "The Graph of a Function and its Inverse — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "The function f is defined by f(x)=2x+1 for x≥0. On the same axes, sketch y=f(x) and y= f^{-1}(x). Find the coordinates of the point of intersection.",
+      "options": [
+        "(−1,−1)",
+        "(1,1)",
+        "No intersection for x≥0",
+        "(0,1)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersection occurs where 2x+1=x \\implies x=−1. However, the domain is x≥0, so there is no intersection in the valid range.\n\n**Common mistake:** Failing to check the solution x=−1 against the given domain restriction x≥0."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "Given f(x)= x^{2}−4x+7 for x≥2. State the coordinates of the point where the graph of f meets the graph of $f^{-1}$.",
+      "options": [
+        "No real intersection",
+        "(2,3)",
+        "(3,4)",
+        "(2,2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $x^{2}$−4x+7=x \\implies $x^{2}$−5x+7=0. Discriminant Δ=25−28=−3. Since Δ<0, there are no real intersection points.\n\n**Common mistake:** Spending significant time finding the expression for $f^{-1}$and attempting to solve a more complex equation."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "The graph of y=f(x) is shown passing through (2,0) and (0,−4). Sketch the graph of y= f^{-1}(x) and find its gradient.",
+      "options": [
+        "0.5",
+        "2",
+        "-0.5",
+        "-2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inverse passes through (0,2) and (−4,0). Gradient m=(0−2)/(−4−0)=−2/−4=0.5.\n\n**Common mistake:** Using the gradient of the original line (2) as the gradient of the inverse, or miscalculating the $fraction.$"
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "The point (3,k) lies on the line y=x. If this point is an intersection of y=f(x) and y= f^{-1}(x), what is the value of k?",
+      "options": [
+        "3",
+        "0",
+        "9",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "Any point on the line y=x has equal x and y coordinates, so k must equal 3.\n\n**Common mistake:** Thinking k could be any value since f(x) is not explicitly defined."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "The graph of f is a curve starting at (2,5). Where does the reflected graph $f^{-1}$start?",
+      "options": [
+        "(5,2)",
+        "(2,5)",
+        "(−2,−5)",
+        "(0,0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection in y=x swaps the coordinates of every point, including the starting endpoint.\n\n**Common mistake:** Negating the coordinates or assuming the starting point remains fixed."
+    }
+  ]
+}

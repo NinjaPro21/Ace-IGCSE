@@ -1,0 +1,77 @@
+{
+  "id": "22-3-the-universe-hard",
+  "topicId": "22-3-the-universe",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "hard",
+  "title": "The Universe — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "22-3-the-universe-hard-q1",
+      "type": "mcq",
+      "question": "Calculate the approximate age of the Universe in seconds based on the current estimate of the Hubble constant ($H_0 = 2.2 \\times 10^{-18}\\text{ s}^{-1}$).",
+      "options": [
+        "$4.5 \\times 10^{17}\\text{ s}$",
+        "$2.2 \\times 10^{-18}\\text{ s}$",
+        "$1.4 \\times 10^{10}\\text{ s}$",
+        "$3.0 \\times 10^{8}\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The age of the Universe is represented by $d/v = 1/H_0$. So, $1 / (2.2 \\times 10^{-18}) \\approx 4.545 \\times 10^{17}\\text{ s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-hard-q2",
+      "type": "mcq",
+      "question": "A distant galaxy is observed to be receding at a speed of $1.1 \\times 10^{7}\\text{ m/s}$. Determine its distance from Earth in metres. (Use $H_0 = 2.2 \\times 10^{-18}\\text{ s}^{-1}$)",
+      "options": [
+        "$5.0 \\times 10^{24}\\text{ m}$",
+        "$2.4 \\times 10^{-25}\\text{ m}$",
+        "$2.0 \\times 10^{11}\\text{ m}$",
+        "$6.8 \\times 10^{24}\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$d = v / H_0$. Distance $d = (1.1 \\times 10^{7}) / (2.2 \\times 10^{-18}) = 0.5 \\times 10^{25} = 5.0 \\times 10^{24}\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-hard-q3",
+      "type": "mcq",
+      "question": "A star is $5$ light-years away from Earth. Which statement is correct regarding the light we observe from this star today?",
+      "options": [
+        "We see the light that was emitted by the star 5 years ago",
+        "The light takes 5 minutes to reach us",
+        "The star is 5 million kilometres away",
+        "The light is redshifted because it is in our own galaxy"
+      ],
+      "correctIndex": 0,
+      "explanation": "A light-year is the distance light travels in one year. Therefore, if a star is 5 light-years away, its light takes 5 years to reach Earth.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-hard-q4",
+      "type": "mcq",
+      "question": "How did the frequency of the CMBR change from its origin to the present day?",
+      "options": [
+        "It decreased as the wavelength increased",
+        "It increased as the wavelength increased",
+        "It remained the same as only distance changed",
+        "It increased as the Universe cooled"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the Universe expanded, the wavelength of the radiation increased (stretched). Since frequency is inversely proportional to wavelength, the frequency decreased.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-3-the-universe-hard-q5",
+      "type": "mcq",
+      "question": "According to the Big Bang Theory, what was the initial state of the Universe?",
+      "options": [
+        "A single point from which it expanded",
+        "A stable cloud of hydrogen and helium",
+        "A collection of billions of stationary galaxies",
+        "A massive black hole that began to shrink"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Big Bang Theory states that the Universe was created by expansion from a single point.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

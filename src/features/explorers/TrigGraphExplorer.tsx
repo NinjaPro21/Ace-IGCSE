@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react'
+import { MathText } from '@/components/MathText'
 import { GRAPH } from './graphTheme'
+import type { TrigPanel } from '@/lib/contentTypes'
 
 type TrigFn = 'sin' | 'cos' | 'tan'
 type ViewMode = 'graph' | 'modulus'
@@ -74,8 +76,147 @@ function buildCurveSegments(
   return segments
 }
 
-export function TrigGraphExplorer() {
-  const [view, setView] = useState<ViewMode>('graph')
+function SectorPanel({
+  angleUnit = 'rad',
+  focus = 'both',
+}: {
+  angleUnit?: 'deg' | 'rad'
+  focus?: 'length' | 'area' | 'both'
+}) {
+  const TAU = 2 * Math.PI
+  const [r, setR] = useState(3)
+  const [thetaDeg, setThetaDeg] = useState(60)
+  const [thetaRad, setThetaRad] = useState(1.2)
+
+  const useDeg = angleUnit === 'deg'
+  const theta = useDeg ? (thetaDeg * Math.PI) / 180 : thetaRad
+  const arcLen = useDeg ? ((thetaDeg / 360) * 2 * Math.PI * r) : r * thetaRad
+  const area = useDeg ? ((thetaDeg / 360) * Math.PI * r * r) : 0.5 * r * r * thetaRad
+  const perimeter = 2 * r + arcLen
+  const cx = 120
+  const cy = 120
+  const R = 18 * r
+  const isFullCircle = useDeg ? thetaDeg >= 359 : theta >= TAU - 0.02
+  const thetaDraw = isFullCircle ? TAU : Math.min(Math.max(theta, 0.05), TAU)
+  const endX = cx + R * Math.cos(-thetaDraw)
+  const endY = cy + R * Math.sin(-thetaDraw)
+  const largeArc = thetaDraw > Math.PI ? 1 : 0
+  const radMax = Number(TAU.toFixed(2))
+
+  const title =
+    focus === 'length'
+      ? 'Arc Length Explorer'
+      : focus === 'area'
+        ? 'Sector Area Explorer'
+        : 'Sector & Arc Explorer'
+
+  const intro =
+    focus === 'length' ? (
+      <MathText content="Drag $r$ and $\theta$ (radians). Arc length $s = r\theta$ and perimeter $P = 2r + s$ update live." />
+    ) : focus === 'area' ? (
+      <MathText content="Drag $r$ and $\theta$ (radians). Sector area $A = \frac{1}{2}r^2\theta$ updates live." />
+    ) : useDeg ? (
+      <MathText content="Drag $\theta$ (degrees) to see arc length $s = \dfrac{\theta}{360} \times 2\pi r$ and area $A = \dfrac{\theta}{360} \times \pi r^2$ update live." />
+    ) : (
+      <MathText content="Drag $\theta$ (radians) to see arc length $s = r\theta$ and area $A = \frac{1}{2}r^2\theta$ update live." />
+    )
+
+  return (
+    <section className="enlight-explorer">
+      <h2 className="enlight-explorer__title">{title}</h2>
+      <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+        {intro}
+      </p>
+      <div className="enlight-slider-group">
+        <label htmlFor="sec-r"><strong>r</strong> = {r}</label>
+        <input id="sec-r" type="range" min={1} max={5} step={0.5} value={r} onChange={(e) => setR(Number(e.target.value))} />
+      </div>
+      <div className="enlight-slider-group">
+        {useDeg ? (
+          <>
+            <label htmlFor="sec-t"><strong>θ</strong> = {thetaDeg}°</label>
+            <input id="sec-t" type="range" min={10} max={360} step={5} value={thetaDeg} onChange={(e) => setThetaDeg(Number(e.target.value))} />
+          </>
+        ) : (
+          <>
+            <label htmlFor="sec-t"><strong>θ</strong> = {thetaRad.toFixed(2)} rad</label>
+            <input id="sec-t" type="range" min={0.2} max={radMax} step={0.1} value={thetaRad} onChange={(e) => setThetaRad(Number(e.target.value))} />
+          </>
+        )}
+      </div>
+      <div className="enlight-discriminant-display" style={{ marginTop: 12 }}>
+        <div className="enlight-discriminant-display__value">
+          {focus === 'length' && (
+            <>
+              s = {arcLen.toFixed(2)}
+              <span style={{ margin: '0 10px', opacity: 0.45 }}>|</span>
+              P = {perimeter.toFixed(2)}
+            </>
+          )}
+          {focus === 'area' && <>A = {area.toFixed(2)}</>}
+          {focus === 'both' && (
+            <>
+              s = {arcLen.toFixed(2)}
+              <span style={{ margin: '0 10px', opacity: 0.45 }}>|</span>
+              A = {area.toFixed(2)}
+            </>
+          )}
+        </div>
+      </div>
+      <svg viewBox="0 0 240 240" className="enlight-graph-canvas" style={{ maxWidth: 280, marginTop: 16 }} role="img" aria-label="Circle sector">
+        <circle cx={cx} cy={cy} r={R} fill="none" stroke={GRAPH.grid} strokeWidth={1.5} />
+        {isFullCircle ? (
+          <circle
+            cx={cx}
+            cy={cy}
+            r={R}
+            fill={focus === 'length' ? 'none' : 'rgba(91,141,239,0.25)'}
+            stroke={focus === 'length' ? GRAPH.grid : '#5b8def'}
+            strokeWidth={focus === 'length' ? 1.5 : 2}
+          />
+        ) : (
+          <>
+            {focus !== 'length' && (
+              <path
+                d={`M ${cx} ${cy} L ${cx + R} ${cy} A ${R} ${R} 0 ${largeArc} 0 ${endX} ${endY} Z`}
+                fill="rgba(91,141,239,0.25)"
+                stroke="none"
+              />
+            )}
+            <line x1={cx} y1={cy} x2={cx + R} y2={cy} stroke="#d97706" strokeWidth={2} />
+            {!isFullCircle && (
+              <line x1={cx} y1={cy} x2={endX} y2={endY} stroke="#d97706" strokeWidth={2} />
+            )}
+            {!isFullCircle && (
+              <path
+                d={`M ${cx + R} ${cy} A ${R} ${R} 0 ${largeArc} 0 ${endX} ${endY}`}
+                fill="none"
+                stroke={focus === 'area' ? '#5b8def' : '#059669'}
+                strokeWidth={focus === 'length' ? 3.5 : 2}
+              />
+            )}
+          </>
+        )}
+      </svg>
+    </section>
+  )
+}
+
+export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
+  if (panels?.includes('sector-length') && panels.length === 1) {
+    return <SectorPanel angleUnit="rad" focus="length" />
+  }
+  if (panels?.includes('sector-area') && panels.length === 1) {
+    return <SectorPanel angleUnit="rad" focus="area" />
+  }
+  if (panels?.includes('sector-deg') && panels.length === 1) {
+    return <SectorPanel angleUnit="deg" focus="both" />
+  }
+  if (panels?.includes('sector') && panels.length === 1) {
+    return <SectorPanel angleUnit="rad" focus="both" />
+  }
+
+  const [view, setView] = useState<ViewMode>(panels?.includes('modulus') ? 'modulus' : 'graph')
   const [fn, setFn] = useState<TrigFn>('sin')
   const [modulusOn, setModulusOn] = useState(false)
   const [a, setA] = useState(1)

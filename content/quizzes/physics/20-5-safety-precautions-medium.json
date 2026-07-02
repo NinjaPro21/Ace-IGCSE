@@ -1,0 +1,77 @@
+{
+  "id": "20-5-safety-precautions-medium",
+  "topicId": "20-5-safety-precautions",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "medium",
+  "title": "Safety Precautions — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-5-safety-precautions-medium-q1",
+      "type": "mcq",
+      "question": "A student moves a radioactive source from $10\\text{ cm}$ away to $50\\text{ cm}$ away from their body. How does this affect the safety of the student?",
+      "options": [
+        "The risk decreases because the intensity of radiation reaching the body is lower.",
+        "The risk remains the same because the source strength is constant.",
+        "The risk increases because the radiation has more room to spread out.",
+        "The risk decreases only if the student is wearing a lead apron."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing distance from a source reduces the amount of radiation that hits a person, thereby reducing the risk of biological damage. \n\n**Common mistake:** Thinking that only shielding (like an apron) matters and distance does not."
+    },
+    {
+      "id": "20-5-safety-precautions-medium-q2",
+      "type": "mcq",
+      "question": "Which statement correctly compares the shielding requirements for different types of radiation?",
+      "options": [
+        "Gamma rays require much thicker shielding, like lead, than alpha particles.",
+        "Alpha particles are the most difficult to shield and require lead boxes.",
+        "Beta particles can be stopped by a single sheet of paper.",
+        "All types of nuclear radiation are stopped by thin plastic containers."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the properties in Chapter 20, gamma rays are highly penetrating and require dense shielding (lead), while alpha particles have very low penetrating power. \n\n**Common mistake:** Thinking alpha is the hardest to shield because it is the 'strongest' ioniser."
+    },
+    {
+      "id": "20-5-safety-precautions-medium-q3",
+      "type": "mcq",
+      "question": "How does the 'Time' factor in radiation safety work to protect a worker in a nuclear facility?",
+      "options": [
+        "By limiting the total duration they spend near a source, the total dose is reduced.",
+        "By ensuring they only work with sources that have very short half-lives.",
+        "By measuring how long it takes for the source to stop being radioactive.",
+        "By waiting for background radiation levels to drop to zero."
+      ],
+      "correctIndex": 0,
+      "explanation": "Safety protocols limit the time a person is exposed to radiation to ensure the total cumulative energy absorbed by the body remains within safe limits. \n\n**Common mistake:** Thinking time refers to the half-life of the source."
+    },
+    {
+      "id": "20-5-safety-precautions-medium-q4",
+      "type": "mcq",
+      "question": "In the context of storing radioactive materials, what does the word 'accessible' imply according to the safety notes?",
+      "options": [
+        "Sources should be stored where they are NOT easily reached by unauthorised people.",
+        "Sources must be kept in the middle of the room for easy reach.",
+        "All students should have easy access to the storage box for study.",
+        "The storage box should be kept open to prevent gas build-up."
+      ],
+      "correctIndex": 0,
+      "explanation": "Safety precautions involve storing materials securely so they are not 'accessible' to those who are not trained or authorised to handle them. \n\n**Common mistake:** Misinterpreting 'accessible' as a positive thing for convenience."
+    },
+    {
+      "id": "20-5-safety-precautions-medium-q5",
+      "type": "mcq",
+      "question": "Which precaution is best for a scientist working with a source that emits both beta particles and gamma rays?",
+      "options": [
+        "Using thick lead shielding and working from a distance.",
+        "Using a thin sheet of paper to block the emissions.",
+        "Wearing a pair of standard rubber gloves only.",
+        "Storing the source in a cardboard box when not in use."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since gamma rays are highly penetrating, thick lead shielding is required. Beta particles also require more than paper. Distance adds a second layer of protection. \n\n**Common mistake:** Thinking rubber gloves are enough to stop gamma or beta radiation."
+    }
+  ]
+}

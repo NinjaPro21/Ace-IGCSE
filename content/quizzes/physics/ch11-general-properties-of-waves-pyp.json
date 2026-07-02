@@ -1,0 +1,207 @@
+{
+  "id": "ch11-general-properties-of-waves-pyp",
+  "topicId": "ch11-general-properties-of-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "pyp",
+  "title": "Chapter 11: General Properties of Waves — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q1",
+      "type": "mcq",
+      "question": "What is transferred by a wave as it travels through a medium?",
+      "options": [
+        "Energy",
+        "Molecules",
+        "Matter",
+        "Force"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Review Section A, Question 1, waves transfer energy. \n\n**Common mistake:** Thinking matter or molecules are transferred (Choice B or C)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q2",
+      "type": "mcq",
+      "question": "As a transverse wave passes through a medium, how do the particles of the medium oscillate?",
+      "options": [
+        "Perpendicular to the direction of travel of the wave",
+        "Parallel to the direction of travel of the wave",
+        "In phase with the wave source only",
+        "With different frequencies across the medium"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Section A, Question 2. Transverse particles oscillate at right angles (perpendicular) to the wave direction. \n\n**Common mistake:** Selecting 'parallel,' which describes longitudinal waves."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q3",
+      "type": "mcq",
+      "question": "Which of the following is an example of longitudinal waves?",
+      "options": [
+        "Sound waves produced by a vibrating guitar string",
+        "Waves in a ripple tank",
+        "Light waves in air",
+        "A vibrating guitar string"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 3, the sound produced is longitudinal, whereas the string itself and ripple tank waves are transverse. \n\n**Common mistake:** Choosing 'light waves,' which are transverse."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q4",
+      "type": "mcq",
+      "question": "A student states that a wave source has a frequency of $2\\text{ Hz}$. What is the correct interpretation of this statement?",
+      "options": [
+        "Two complete waves pass a point every second",
+        "The wave takes two seconds to travel one metre",
+        "The particles move two centimetres up and down",
+        "There are two compressions in the entire length of the wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz ($\\text{Hz}$), which represents cycles or waves per second. $2\\text{ Hz}$ means two complete waves per second. \n\n**Common mistake:** Confusing hertz with wave speed (m/s)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q5",
+      "type": "mcq",
+      "question": "The diagram shows the instantaneous position of some particles in a medium. If the wave is transverse, describe the motion of these particles.nn[Reference: Figure 11.28]",
+      "options": [
+        "They oscillate up and down",
+        "They oscillate left and right",
+        "They move in the direction of the arrow",
+        "They move in a circular path"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a transverse wave, the particles oscillate perpendicular to the direction of travel (up and down if the wave is moving horizontally). \n\n**Common mistake:** Thinking the particles move horizontally with the wave (Choice C)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q6",
+      "type": "mcq",
+      "question": "A student states that a wave source has a frequency of $2\\text{ Hz}$. What is the correct interpretation of this statement?",
+      "options": [
+        "Two complete waves pass a point every second",
+        "The wave takes two seconds to travel one metre",
+        "The particles move two centimetres up and down",
+        "There are two compressions in the entire length of the wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "As per Review Section B, Question 1, a frequency of $2\\text{ Hz}$ means two complete waves per second. \n\n**Common mistake:** Confusing frequency with wave speed or amplitude."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q7",
+      "type": "mcq",
+      "question": "A displacement-time graph shows a maximum displacement of $0.006\\text{ cm}$ and a time for one full cycle of $0.02\\text{ s}$. If the wave speed is $2\\text{ cm/s}$, what is the wavelength?",
+      "options": [
+        "$0.04\\text{ cm}$",
+        "$0.006\\text{ cm}$",
+        "$0.02\\text{ cm}$",
+        "$0.012\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the graph, period $T = 0.02\\text{ s}$. Frequency $f = 1/T = 50\\text{ Hz}$. Wavelength $\\lambda = v / f = 2 / 50 = 0.04\\text{ cm}$. \n\n**Common mistake:** Selecting the amplitude ($0.006$) or period ($0.02$) as the wavelength."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q8",
+      "type": "mcq",
+      "question": "A vibrating dipper of frequency $3\\text{ Hz}$ produces water waves. If the wavelength is $4\\text{ cm}$, what is the speed of the waves?",
+      "options": [
+        "$12\\text{ cm/s}$",
+        "$0.75\\text{ cm/s}$",
+        "$1.33\\text{ cm/s}$",
+        "$7\\text{ cm/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda = 3 \\times 4 = 12\\text{ cm/s}$. Matches Review Section A, Q5. \n\n**Common mistake:** Dividing frequency by wavelength."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q9",
+      "type": "mcq",
+      "question": "What happens to the speed and amplitude of ocean waves as they move from deep water to shallower water near the shore?",
+      "options": [
+        "Speed decreases and amplitude increases",
+        "Speed increases and amplitude increases",
+        "Speed increases and amplitude decreases",
+        "Speed decreases and amplitude decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Review Section A, Question 6, in shallower water, the speed of waves decreases and the amplitude increases. \n\n**Common mistake:** Thinking speed increases as waves 'pile up' at the shore."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q10",
+      "type": "mcq",
+      "question": "A wave has an amplitude of $0.4\\text{ m}$ and a wavelength of $10.0\\text{ m}$. It travels at $5.0\\text{ m/s}$. What is the period of the wave?",
+      "options": [
+        "$2.0\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$50\\text{ s}$",
+        "$0.04\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = v / \\lambda = 5.0 / 10.0 = 0.5\\text{ Hz}$. Period $T = 1 / f = 1 / 0.5 = 2.0\\text{ s}$. \n\n**Common mistake:** Calculating frequency and stopping there ($0.5$)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q11",
+      "type": "mcq",
+      "question": "A diagram shows water waves approaching a gap in a barrier. The waves that pass through the gap are circular. Which change would cause the waves to be less circular?",
+      "options": [
+        "Increasing the width of the gap",
+        "Increasing the wavelength of the waves",
+        "Decreasing the width of the gap",
+        "Decreasing the frequency of the waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves spread out less (become less circular) when the gap becomes wider relative to the wavelength. If the gap is wide, only the ends of the wavefronts are affected.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q12",
+      "type": "mcq",
+      "question": "Water waves move from deep water into shallow water. The boundary is at an angle to the waves. Which row describes the change in speed and the change in direction of the waves?",
+      "options": [
+        "Speed: decreases; Direction: bends towards the normal",
+        "Speed: decreases; Direction: bends away from the normal",
+        "Speed: increases; Direction: bends towards the normal",
+        "Speed: increases; Direction: bends away from the normal"
+      ],
+      "correctIndex": 0,
+      "explanation": "As waves enter shallow water, they slow down. According to the laws of refraction, slowing down causes the waves to bend towards the normal.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q13",
+      "type": "mcq",
+      "question": "Which property of a wave is used to explain how a person can hear a conversation around a corner?",
+      "options": [
+        "Diffraction",
+        "Reflection",
+        "Refraction",
+        "Total internal reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves have long wavelengths that allow them to diffract (spread out) as they pass the edge of a wall or doorway, making them audible around corners.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q14",
+      "type": "mcq",
+      "question": "The diagram shows waves reflecting from a barrier. The angle between the incident wavefronts and the barrier is $30^circ$. What is the angle of reflection $r$?",
+      "options": [
+        "$30^circ$",
+        "$60^circ$",
+        "$90^circ$",
+        "$0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the wavefronts are at $30^circ$ to the barrier, the incident ray (perpendicular to wavefronts) is at $30^circ$ to the normal. By the law of reflection, $i = r = 30^circ$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-pyp-q15",
+      "type": "mcq",
+      "question": "Plane water waves pass through a gap in a barrier. Which wave feature does NOT change as the waves pass through?",
+      "options": [
+        "Wavelength",
+        "Direction of all parts of the wave",
+        "Shape of the wavefronts",
+        "The amplitude at the edges"
+      ],
+      "correctIndex": 0,
+      "explanation": "In diffraction, the wavelength remains constant before and after passing through the gap. The shape and direction change as the waves spread out.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

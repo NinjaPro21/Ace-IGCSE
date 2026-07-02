@@ -1,0 +1,402 @@
+{
+  "id": "ch05-trigonometry-medium",
+  "topicId": "ch05-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "medium",
+  "title": "Chapter 5: Trigonometry — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-trigonometry-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the length of the diagonal of a rectangle that has a length of $12\\text{ cm}$ and a width of $9\\text{ cm}$.",
+      "options": [
+        "$15\\text{ cm}$",
+        "$21\\text{ cm}$",
+        "$10.4\\text{ cm}$",
+        "$12.7\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagonal forms the hypotenuse of a right-angled triangle: $\\sqrt{12}² + 9^2 = \\sqrt{144} + 81 = \\sqrt{225} = 15$.\n\n**Common mistake:** A student might miscalculate $12^2$ as $24$ or $9^2$ as $18$, leading to an incorrect root."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q2",
+      "type": "mcq",
+      "question": "A $10\\text{ m}$ ladder leans against a vertical wall. If the foot of the ladder is $6\\text{ m}$ from the base of the wall, how far up the wall does the ladder reach?",
+      "options": [
+        "$8\\text{ m}$",
+        "$4\\text{ m}$",
+        "$11.7\\text{ m}$",
+        "$16\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ladder is the hypotenuse. Height $= \\sqrt{10}² - 6^2 = \\sqrt{100} - 36 = \\sqrt{64} = 8$.\n\n**Common mistake:** The student might treat the wall height as the hypotenuse and add the squares ($100 + 36 = 136$)."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q3",
+      "type": "mcq",
+      "question": "Point $A$2$(1, 2)$ and Point $B$2$(5, 5)$. Use Pythagoras' theorem to find the straight-line distance between these two points.",
+      "options": [
+        "$5$ units",
+        "$7$ units",
+        "$25$ units",
+        "$\\sqrt{7}$ units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horizontal distance $= 5 - 1 = 4$. Vertical distance $= 5 - 2 = 3$. Distance $= \\sqrt{4}² + 3^2 = \\sqrt{25} = 5$.\n\n**Common mistake:** A student might subtract the coordinates but forget to square them or take the root."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q4",
+      "type": "mcq",
+      "question": "An isosceles triangle has a base of $10\\text{ cm}$ and two equal sides of $13\\text{ cm}$. Calculate the perpendicular height of the triangle.",
+      "options": [
+        "$12\\text{ cm}$",
+        "$\\sqrt{69}\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$16.4\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The height bisects the base into two $5\\text{ cm}$ segments. Height $= \\sqrt{13}² - 5^2 = \\sqrt{169} - 25 = \\sqrt{144} = 12$.\n\n**Common mistake:** The student might use the full base length ($10$) in the calculation instead of half the base ($5$)."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q5",
+      "type": "mcq",
+      "question": "The diagonals of a rhombus are $16\\text{ cm}$ and $30\\text{ cm}$. Calculate the side length of the rhombus.",
+      "options": [
+        "$17\\text{ cm}$",
+        "$34\\text{ cm}$",
+        "$23\\text{ cm}$",
+        "$\\sqrt{1156}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonals of a rhombus bisect at $90°$. Triangle sides are $8$ and $15$. Side $= \\sqrt{8}² + 15^2 = \\sqrt{64} + 225 = \\sqrt{289} = 17$.\n\n**Common mistake:** A student might use the full diagonal lengths ($16$ and $30$) in the formula, leading to a side of $34$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q6",
+      "type": "mcq",
+      "question": "Calculate the length of the side $y$2$14\\text{ cm}$ and the angle adjacent to side $y$2$40°$.",
+      "options": [
+        "$10.7\\text{ cm}$",
+        "$9.00\\text{ cm}$",
+        "$11.7\\text{ cm}$",
+        "$21.8\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the cosine ratio: $\\cos 40° = y/14 \\Rightarrow y = 14 \\times \\cos 40° \\approx 10.725$.\n\n**Common mistake:** A student might use the sine ratio ($14 \\times \\sin 40°$) instead, finding the opposite side length."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q7",
+      "type": "mcq",
+      "question": "A right-angled triangle has an opposite side of $5\\text{ cm}$ and an adjacent side of $12\\text{ cm}$. Find the size of the angle $\\theta$ to 1 decimal place.",
+      "options": [
+        "$22.6°$",
+        "$67.4°$",
+        "$24.6°$",
+        "$20.9°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the tangent ratio: $\\tan \\theta = 5/12$. Therefore, $\\theta = \\tan^{-1}$(5/12) \\approx 22.619°2\n\n**Common mistake:** The student might use the inverse sine or cosine without calculating the hypotenuse first."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q8",
+      "type": "mcq",
+      "question": "Simplify the exact expression: $10 \\sin 30° + 4 \\cos 60°$.",
+      "options": [
+        "$7$",
+        "$14$",
+        "$5 + 2\\sqrt{3}$",
+        "$9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the exact values: $10(0.5) + 4(0.5) = 5 + 2 = 7$.\n\n**Common mistake:** A student might use $\\sqrt{3}/2$ for one of the values, making the expression much more complex."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q9",
+      "type": "mcq",
+      "question": "In a right-angled triangle, the angle is $35°$ and the opposite side is $8\\text{ cm}$. Calculate the length of the hypotenuse to 3 significant figures.",
+      "options": [
+        "$13.9\\text{ cm}$",
+        "$11.4\\text{ cm}$",
+        "$5.62\\text{ cm}$",
+        "$4.59\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the sine ratio: $\\sin 35° = 8/H \\Rightarrow H = 8 / \\sin 35° \\approx 13.947$.\n\n**Common mistake:** The student might multiply $8 \\times \\sin 35°$ instead of dividing, or use the tangent ratio."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q10",
+      "type": "mcq",
+      "question": "Determine the exact value of $(\\sin 45°) \\times (\\cos 45°)$.",
+      "options": [
+        "$0.5$",
+        "$1$",
+        "$\\sqrt{2}/2$",
+        "$0.25$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 45° = 1/\\sqrt{2}$ and $\\cos 45° = 1/\\sqrt{2}$. Multiplying them gives $(1/\\sqrt{2}) \\times (1/\\sqrt{2}) = 1/2 = 0.5$.\n\n**Common mistake:** A student might think the answer is $\\sqrt{2}$ because they are multiplying square roots."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q11",
+      "type": "mcq",
+      "question": "The bearing of a lighthouse from a ship is $310°$. Determine the bearing of the ship from the lighthouse.",
+      "options": [
+        "$130°$",
+        "$180°$",
+        "$490°$",
+        "$050°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the bearing is greater than $180°$, subtract $180°$ to find the back bearing: $310 - 180 = 130°$.\n\n**Common mistake:** The student might add $180°$ and fail to realize the bearing must be between $0°$ and $360°$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q12",
+      "type": "mcq",
+      "question": "A surveyor stands $45\\text{ m}$ away from the base of a building. He measures the angle of elevation to the roof to be $32°$. Calculate the height of the building to 3 significant figures.",
+      "options": [
+        "$28.1\\text{ m}$",
+        "$72.0\\text{ m}$",
+        "$23.8\\text{ m}$",
+        "$38.2\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the tangent ratio: $\\tan 32° = \\text{height} / 45$. Height $= 45 \\times \\tan 32° \\approx 28.12\\text{ m}$.\n\n**Common mistake:** The student might use the sine ratio instead of tangent, finding the slant distance to the roof instead of the vertical height."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q13",
+      "type": "mcq",
+      "question": "On a map where the scale is $1\\text{ cm to } 5\\text{ km}$, a forest is represented by a rectangle measuring $2\\text{ cm}$ by $3.5\\text{ cm}$. Calculate the actual area of the forest.",
+      "options": [
+        "$175\\text{ km}²$",
+        "$35\\text{ km}²$",
+        "$7\\text{ km}²$",
+        "$150\\text{ km}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual dimensions: $2 \\times 5 = 10\\text{ km}$ and $3.5 \\times 5 = 17.5\\text{ km}$. Area $= 10 \\times 17.5 = 175\\text{ km}²$.\n\n**Common mistake:** Students often find the map area ($7\\text{ cm}²$) and multiply by 5 once instead of multiplying by the scale factor squared ($5^2$)."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q14",
+      "type": "mcq",
+      "question": "A plane flies from $A$2$B$2$040°$. At $B$2$C$2$ABC$2$A, B,$ and $C$.",
+      "options": [
+        "$130°$",
+        "$50°$",
+        "$90°$",
+        "$140°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The North line at $B$2$A$2$AB$2$B$2$180 - 40 = 140°$ is incorrect; the alternate angle is $40°$. The angle between North and East is $90°$. Thus, angle $ABC = (180 - 40 \\text{ back bearing}) + 90$ is not it. Back bearing is $220°$. Bearing to East is $090°$. Angle $= 220 - 90 = 130°$.\n\n**Common mistake:** A student might assume the turn is $90°$ or miscalculate the relationship between the bearing and the turn."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q15",
+      "type": "mcq",
+      "question": "A man looking from a $15\\text{ m}$ high window sees a car at an angle of depression of $18°$. How far is the car from the base of the building?",
+      "options": [
+        "$46.2\\text{ m}$",
+        "$4.87\\text{ m}$",
+        "$48.5\\text{ m}$",
+        "$14.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle of depression equals the angle of elevation from the car ($18°)$. $2\\tan 18° = 15 / \\text{distance} \\Rightarrow \\text{distance} = 15 / \\tan 18° \\approx 46.16\\text{ m}$.\n\n**Common mistake:** The student might multiply $15 \\times \\tan 18°$ instead of dividing, which calculates the height if the distance were $15\\text{ m}$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q16",
+      "type": "mcq",
+      "question": "A rectangular box has base dimensions $12\\text{ cm}$ by $5\\text{ cm}$ and a height of $4\\text{ cm}$. Calculate the length of the internal diagonal.",
+      "options": [
+        "$13.6\\text{ cm}$",
+        "$13.0\\text{ cm}$",
+        "$21.0\\text{ cm}$",
+        "$\\sqrt{185}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal $= \\sqrt{12}² + 5^2 + 4^2 = \\sqrt{144} + 25 + 16 = \\sqrt{185} \\approx 13.60$.\n\n**Common mistake:** The student might calculate the base diagonal ($13$) and forget to incorporate the height ($4$) into the final root."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q17",
+      "type": "mcq",
+      "question": "A vertical pole of height $10\\text{ m}$ stands at corner $B$2$ABCD$2$AB = 20\\text{ m}$ and $BC = 15\\text{ m}$, calculate the angle of elevation of the top of the pole from the opposite corner $D$.",
+      "options": [
+        "$21.8°$",
+        "$26.6°$",
+        "$33.7°$",
+        "$68.2°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find base diagonal $BD = \\sqrt{20}² + 15^2 = 25\\text{ m}$. Then $\\tan \\theta = 10 / 25 = 0.4$, so $\\theta = \\tan^{-1}$(0.4) \\approx 21.8°2\n\n**Common mistake:** The student might use the side length $20$ or $15$ as the adjacent side instead of the diagonal $25$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q18",
+      "type": "mcq",
+      "question": "In a square-based pyramid, the base has side $8\\text{ cm}$ and the vertical height is $12\\text{ cm}$. Calculate the length of a slant edge from the vertex to a base corner.",
+      "options": [
+        "$13.3\\text{ cm}$",
+        "$12.6\\text{ cm}$",
+        "$14.4\\text{ cm}$",
+        "$\\sqrt{176}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half-diagonal of base $= 0.5 \\times \\sqrt{8}² + 8^2 = \\sqrt{32} \\approx 5.66$. Edge $= \\sqrt{12}² + 5.66^2 = \\sqrt{144} + 32 = \\sqrt{176} \\approx 13.27$.\n\n**Common mistake:** A student might use half the side ($4$) instead of the distance to the center (half-diagonal $\\sqrt{32}$)."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q19",
+      "type": "mcq",
+      "question": "A wedge is formed by a horizontal rectangle $ABRQ$2$PQRS$2$AB = 10\\text{ m}, BR = 6\\text{ m},$ and $RS = 3\\text{ m}$, find the length $AS$.",
+      "options": [
+        "$12.1\\text{ m}$",
+        "$10.4\\text{ m}$",
+        "$11.7\\text{ m}$",
+        "$19.0\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal of base $AR = \\sqrt{10}² + 6^2 = \\sqrt{136}$. $AS = √AR^2 + RS^2 = \\sqrt{136} + 3^2 = \\sqrt{145} \\approx 12.04$.\n\n**Common mistake:** The student may misidentify which lines are perpendicular in the 3D wedge configuration."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q20",
+      "type": "mcq",
+      "question": "A room has dimensions $6\\text{ m} \\times 4\\text{ m} \\times 3\\text{ m}$. Calculate the angle that the long diagonal makes with the largest face (the $6 \\times 4$ floor).",
+      "options": [
+        "$22.6°$",
+        "$36.9°$",
+        "$33.7°$",
+        "$26.6°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base diagonal $= \\sqrt{6}² + 4^2 = \\sqrt{52} \\approx 7.21$. $\\tan \\theta = 3 / 7.21 \\approx 0.416 \\Rightarrow \\theta \\approx 22.6°$.\n\n**Common mistake:** The student might use the wrong diagonal (from a smaller face) as the adjacent side."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q21",
+      "type": "mcq",
+      "question": "Solve the equation $\\tan x = 0.5$ for the interval $0° \\le x \\le 360°$. One solution is $26.6°$. Find the second solution.",
+      "options": [
+        "$206.6°$",
+        "$153.4°$",
+        "$333.4°$",
+        "$26.6°$ is the only solution"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the tangent function, additional solutions are found by adding or subtracting multiples of $180°$. $26.6 + 180 = 206.6°$.\n\n**Common mistake:** A student might use the sine symmetry rule and calculate $180 - 26.6 = 153.4°$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q22",
+      "type": "mcq",
+      "question": "If $\\cos 20° = 0.940$, find the two angles between $0°$ and $360°$ where the cosine value is $-0.940$.",
+      "options": [
+        "$160°$ and $200°$",
+        "$110°$ and $250°$",
+        "$20°$ and $340°$",
+        "$160°$ and $340°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cosine is negative in the 2nd and 3rd quadrants. The angles are $180 - 20 = 160°$ and $180 + 20 = 200°$.\n\n**Common mistake:** The student might only find one solution or use $360 - 20 = 340°$, which still results in a positive $0.940$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q23",
+      "type": "mcq",
+      "question": "Calculate the exact value of $\\sin 225°$ without a calculator.",
+      "options": [
+        "$-1/\\sqrt{2}$",
+        "$1/\\sqrt{2}$",
+        "$-1/2$",
+        "$-\\sqrt{3}/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 225° = \\sin(180° + 45°) = -\\sin 45°$. The exact value of $\\sin 45°$ is $1/\\sqrt{2}$, so the result is $-1/\\sqrt{2}$.\n\n**Common mistake:** The student might forget that sine is negative in the third quadrant."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q24",
+      "type": "mcq",
+      "question": "Given $\\sin x = -0.75$ and $0° \\le x \\le 360°$, find the two possible values of $x$ to 1 decimal place.",
+      "options": [
+        "$228.6°$ and $311.4°$",
+        "$48.6°$ and $131.4°$",
+        "$228.6°$ and $131.4°$",
+        "$221.4°$ and $318.6°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin^{-1}$(-0.75) \\approx -48.6°$. In the required range, the solutions are$180 - (-48.6) = 228.6°$and$360 + (-48.6) = 311.4°2\n\n**Common mistake:** Students often struggle with inverse sine returning a negative value and fail to map it correctly to the $0-360$ range."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q25",
+      "type": "mcq",
+      "question": "Simplify the expression $\\tan 240°$ to an exact value using your knowledge of trigonometric symmetries.",
+      "options": [
+        "$\\sqrt{3}$",
+        "$1/\\sqrt{3}$",
+        "$-\\sqrt{3}$",
+        "$-1/\\sqrt{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan(x + 180°) = \\tan x$2$\\tan 240° = \\tan(60° + 180°) = \\tan 60° = \\sqrt{3}$.\n\n**Common mistake:** A student might assume tangent is negative in the third quadrant, but it is actually positive because both sine and cosine are negative."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q26",
+      "type": "mcq",
+      "question": "In triangle ABC, side $b = 7$ cm, side $c = 5$ cm, and angle $A = 60°$. Calculate the length of side $a$.",
+      "options": [
+        "6.25 cm",
+        "39 cm",
+        "8.60 cm",
+        "5.47 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use Cosine Rule: $a^2 = 7^2 + 5^2 - (2 \\times 7 \\times 5 \\times \\cos 60°) = 49 + 25 - (70 \\times 0.5) = 74 - 35 = 39$. Thus $a = \\sqrt{39} \\approx 6.25$.\n\n**Common mistake:** The student might forget to take the square root at the final step, giving $39$ as the answer."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q27",
+      "type": "mcq",
+      "question": "Find the size of angle $B$2$a = 15$ cm, $b = 6$ cm, and angle $A = 120°$.",
+      "options": [
+        "20.3°",
+        "42.6°",
+        "24.5°",
+        "15.2°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use Sine Rule: $\\sin B / 6 = \\sin 120° / 15$. $\\sin B = (6 \\times 0.866) / 15 = 0.3464$. $B = \\sin^{-1}$(0.3464) \\approx 20.3°2\n\n**Common mistake:** The student might use the Cosine Rule by mistake even though an opposite pair is known."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q28",
+      "type": "mcq",
+      "question": "Calculate the largest angle in a triangle with sides $5$ cm, $6$ cm, and $7$ cm.",
+      "options": [
+        "78.5°",
+        "101.5°",
+        "60.0°",
+        "44.4°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Longest side $a = 7$. $\\cos A = (5^2 + 6^2 - 7^2) / (2 \\times 5 \\times 6) = (25 + 36 - 49) / 60 = 12 / 60 = 0.2$. $A = \\cos^{-1}$(0.2) \\approx 78.5°2\n\n**Common mistake:** Students may calculate one of the smaller angles instead of the one opposite the longest side."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q29",
+      "type": "mcq",
+      "question": "In triangle XYZ, $X = 61°$, $Y = 47°$, and side $y$2$7.2$ cm. Find the length of side $x$ (BC).",
+      "options": [
+        "8.61 cm",
+        "6.02 cm",
+        "7.88 cm",
+        "9.34 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use Sine Rule: $x / \\sin 61° = 7.2 / \\sin 47° \\Rightarrow x = (7.2 \\times \\sin 61°) / \\sin 47° \\approx 8.61$.\n\n**Common mistake:** The student might mislabel sides and angles, using $7.2$ as the numerator for $\\sin 61°$."
+    },
+    {
+      "id": "ch05-trigonometry-medium-q30",
+      "type": "mcq",
+      "question": "A triangle has sides of $8$ cm and $14$ cm with an included angle of $112°$. Calculate the third side to 3 significant figures.",
+      "options": [
+        "18.6 cm",
+        "16.1 cm",
+        "10.9 cm",
+        "21.4 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a^2 = 8^2 + 14^2 - (2 \\times 8 \\times 14 \\times \\cos 112°)$. $\\cos 112° \\approx -0.3746$. $a^2 = 64 + 196 - (224 \\times -0.3746) = 260 + 83.9 = 343.9$. $a = \\sqrt{343.9} \\approx 18.55$.\n\n**Common mistake:** Failure to handle the double negative ($- 2bc \\cos 112°$) correctly, subtracting the final term instead of adding it."
+    }
+  ]
+}

@@ -4,9 +4,11 @@ A mapping is a rule that relates elements from a domain to a range. For a mappin
 
 ## Key formulas
 
-$$\text{Domain: } X, \quad \text{Codomain: } Y$$
+$$
+\text{Domain: } X, \quad \text{Codomain: } Y
+$$
 
-$$f: x \mapsto y \quad \text{or} \quad f(x) = y \quad \text{where } x \in X$$
+$f: x \mapsto y \quad \text{or} \quad f(x) = y \quad \text{where } x \in X$
 
 ## Mapping types
 
@@ -55,7 +57,3 @@ Do not confuse $f^{-1}(x)$ (the inverse function) with $[f(x)]^{-1}$ (the recipr
 ## Quick check
 
 If a horizontal line crosses a function's graph more than once, then the function is classified as a **many-to-one** function.
-
-## Visual / interactive intent
-
-Function mapping diagram demo — sliders adjust domain boundaries while a mapping diagram updates dynamically.

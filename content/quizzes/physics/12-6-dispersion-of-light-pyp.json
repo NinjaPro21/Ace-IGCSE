@@ -1,0 +1,77 @@
+{
+  "id": "12-6-dispersion-of-light-pyp",
+  "topicId": "12-6-dispersion-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "pyp",
+  "title": "Dispersion of Light — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-6-dispersion-of-light-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a beam of white light entering a glass prism and being dispersed.n[Diagram: White light entering, ROYGBIV emerging]nWhich row correctly describes the colours at the top and bottom of the spectrum?",
+      "options": [
+        "Top: Red; Bottom: Violet",
+        "Top: Violet; Bottom: Red",
+        "Top: Green; Bottom: Blue",
+        "Top: Yellow; Bottom: Indigo"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a standard prism dispersion diagram, red light deviates the least and appears at the top, while violet light deviates the most and appears at the bottom.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-pyp-q2",
+      "type": "mcq",
+      "question": "Visible light of a single colour is used in an experiment. Which term is used to describe this light?",
+      "options": [
+        "Monochromatic",
+        "Achromatic",
+        "Dichromatic",
+        "Polychromatic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monochromatic light consists of a single frequency or wavelength and does not disperse when passed through a prism.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-pyp-q3",
+      "type": "mcq",
+      "question": "A student lists the colours of the spectrum: Red, Orange, X, Green, Blue, Indigo, Violet. What is colour X?",
+      "options": [
+        "Yellow",
+        "Cyan",
+        "Magenta",
+        "Pink"
+      ],
+      "correctIndex": 0,
+      "explanation": "The colours of the visible spectrum are Red, Orange, Yellow, Green, Blue, Indigo, and Violet. X represents Yellow.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-pyp-q4",
+      "type": "mcq",
+      "question": "Which property of light changes as it travels from air into the glass of a prism to cause dispersion?",
+      "options": [
+        "Speed",
+        "Frequency",
+        "The number of colours in the beam",
+        "The amplitude of the waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dispersion is caused because the speed of light in glass varies for different wavelengths. Frequency remains constant when a wave changes medium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-pyp-q5",
+      "type": "mcq",
+      "question": "The speed of light in a vacuum is $3.0 \\times 10^{8}\\text{ m/s}$. In a glass prism, red light travels at $2.0 \\times 10^{8}\\text{ m/s}$ and violet light travels at $1.9 \\times 10^{8}\\text{ m/s}$. What is the result of these different speeds?",
+      "options": [
+        "The white light is dispersed into a spectrum",
+        "Total internal reflection occurs for all colours",
+        "The light becomes monochromatic",
+        "The frequency of the violet light increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because different colours travel at different speeds in the glass, they are refracted by different amounts, resulting in the dispersion of white light into a spectrum.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

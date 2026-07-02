@@ -1,0 +1,337 @@
+{
+  "id": "ch10-transfer-of-thermal-energy-hard",
+  "topicId": "ch10-transfer-of-thermal-energy",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "hard",
+  "title": "Chapter 10: Transfer of Thermal Energy — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q1",
+      "type": "mcq",
+      "question": "In terms of the kinetic particle model, how does conduction occur in a non-metallic solid like glass?",
+      "options": [
+        "Vibrating molecules collide and pass on kinetic energy to their neighbors",
+        "Free electrons move rapidly through the structure carrying energy",
+        "The molecules move from the hot end to the cold end carrying energy",
+        "Infrared waves are emitted from molecule to molecule internally"
+      ],
+      "correctIndex": 0,
+      "explanation": "In non-metals, conduction occurs primarily through the vibration of particles. In metals, this is supplemented by the movement of free electrons. \n\n**Common mistake:** Attributing conduction in glass to free electrons, which are only present in conductors like metals."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q2",
+      "type": "mcq",
+      "question": "The temperature of the Earth is affected by the balance of radiation. What happens if the Earth receives energy from the Sun at a higher rate than it radiates it away?",
+      "options": [
+        "The Earth's temperature will increase",
+        "The Earth's temperature will decrease",
+        "The Earth's temperature will remain constant",
+        "The Earth will stop rotating to conserve energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the rate of energy absorption is greater than the rate of emission, the total internal energy increases, leading to a rise in temperature. \n\n**Common mistake:** Thinking that 'balance' is automatic and temperature never changes."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q3",
+      "type": "mcq",
+      "question": "Why is trapped, still air considered an excellent thermal insulator?",
+      "options": [
+        "Air is a gas (poor conductor) and trapping it prevents convection currents",
+        "Air molecules are too small to collide and transfer energy by conduction",
+        "Trapped air completely blocks all infrared radiation",
+        "Still air has zero internal energy at room temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gases are poor conductors because their particles are far apart. By trapping the air (e.g., in fiberglass), bulk movement is stopped, which prevents energy transfer by convection. \n\n**Common mistake:** Believing air is an insulator only because it is a gas, ignoring that moving air can still transfer heat effectively via convection."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q4",
+      "type": "mcq",
+      "question": "A cup of hot tea is left on a table. Which combination of processes explains how thermal energy escapes from the tea?",
+      "options": [
+        "Conduction through the cup, convection in the air, and radiation from the surface",
+        "Conduction through the air and radiation through the cup only",
+        "Convection through the cup and conduction from the surface only",
+        "Radiation only, because air is a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "As described in 'Let's Review', energy is lost through the cup walls (conduction), to the air above (convection), and to the surroundings (radiation). \n\n**Common mistake:** Focusing only on one process and ignoring the others."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q5",
+      "type": "mcq",
+      "question": "Two identical containers, X and Y, are filled with the same volume of water at $80^\\circ\\text{C}$. X is placed in a room at $20^\\circ\\text{C}$ and Y is placed in a room at $10^\\circ\\text{C}$. Which statement is correct after 5 minutes?",
+      "options": [
+        "Container Y has lost more thermal energy because the temperature difference is greater",
+        "Container X has lost more thermal energy because the room is warmer",
+        "Both containers have lost the same amount of energy because the initial water temperature is the same",
+        "Energy transfer in Y is slower because cold air is denser"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate of transfer depends on the temperature difference ($80-10 = 70$ for Y; $80-20 = 60$ for X). Since Y has a larger difference, it transfers energy more rapidly. \n\n**Common mistake:** Thinking that 'hotter' surroundings (X) would somehow pull more heat out."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q6",
+      "type": "mcq",
+      "question": "In a vacuum flask, which feature is specifically designed to stop thermal energy transfer by both conduction and convection through the sides?",
+      "options": [
+        "The vacuum between the double glass walls",
+        "The silvered internal surfaces of the glass",
+        "The plastic stopper at the top",
+        "The outer plastic casing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vacuum lacks particles, which are necessary for both conduction and convection to occur. Therefore, the vacuum layer effectively blocks both processes. \n\n**Common mistake:** Thinking the silvered surfaces block conduction; they are meant to reduce radiation."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q7",
+      "type": "mcq",
+      "question": "Double-glazed windows consist of two panes of glass with a layer of still air trapped between them. Why does this design reduce heat loss?",
+      "options": [
+        "Air is a very poor conductor and trapping it prevents convection",
+        "The double glass panes reflect infrared radiation back into the room",
+        "The two panes of glass are thicker and have higher heat capacity",
+        "The air between the panes creates a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air is a gas and therefore a poor conductor. By trapping the air, convection currents are prevented, making the still air an excellent insulator. \n\n**Common mistake:** Thinking air 'reflects' heat like a mirror."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q8",
+      "type": "mcq",
+      "question": "A student places an ice cube on a block of copper and another on a block of polystyrene. Both blocks are at room temperature. Why does the ice on the copper melt much faster?",
+      "options": [
+        "Copper conducts thermal energy from the surroundings to the ice more rapidly",
+        "Copper is naturally at a higher temperature than polystyrene",
+        "Copper has a much lower density, allowing heat to flow through it easily",
+        "Polystyrene generates 'cold' which keeps the ice frozen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Copper is an excellent conductor. It rapidly transfers thermal energy from its bulk (and the room) to the ice cube. Polystyrene is an insulator and transfers energy very slowly. \n\n**Common mistake:** Believing the metal 'is colder' or 'is hotter' than the room."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q9",
+      "type": "mcq",
+      "question": "Why is it incorrect to say that a space blanket 'warms' a person up?",
+      "options": [
+        "It only reduces the rate of energy loss; it does not produce energy",
+        "It reflects the person's coldness back to their body",
+        "It is made of metal which is a conductor and thus always feels cold",
+        "Blankets only work if they are made of thick wool"
+      ],
+      "correctIndex": 0,
+      "explanation": "A blanket is an insulator/reflector. It reduces the rate at which body heat is lost to the surroundings (via conduction, convection, and radiation) rather than 'creating' heat. \n\n**Common mistake:** Confusing the reduction of heat loss with the production of thermal energy."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q10",
+      "type": "mcq",
+      "question": "Which of the following describes the function of cork supports in a vacuum flask?",
+      "options": [
+        "They are poor conductors used to support the flask with minimal heat transfer",
+        "They are used to absorb any moisture that leaks from the stopper",
+        "They reflect radiation back into the vacuum space",
+        "They create the vacuum by sealing the glass walls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cork is a bad thermal conductor (insulator). It is used to support the inner glass container while minimizing the amount of heat that can conduct through the supports. \n\n**Common mistake:** Thinking cork is used for its 'softness' rather than its thermal properties."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q11",
+      "type": "mcq",
+      "question": "A copper saucepan filled with water is placed on an electric hot plate. Which sequence correctly describes the transfer of thermal energy until the water is uniformly hot?",
+      "options": [
+        "Conduction from the plate to the pan $rightarrow$ Conduction to the water $rightarrow$ Convection within the water",
+        "Radiation from the plate to the pan $rightarrow$ Convection to the water $rightarrow$ Conduction within the water",
+        "Convection from the plate to the pan $rightarrow$ Radiation within the water $rightarrow$ Conduction to the surface",
+        "Conduction from the plate to the pan $rightarrow$ Radiation to the water $rightarrow$ Evaporation at the surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is transferred from the hot plate to the solid pan and then to the adjacent water molecules by conduction. The rest of the water is then heated as convection currents form. \n\n**Common mistake:** Neglecting the initial conduction step through the solid metal of the pan."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q12",
+      "type": "mcq",
+      "question": "A vacuum flask uses cork or plastic supports between the inner and outer glass walls. What is the specific thermal reason for using these materials?",
+      "options": [
+        "They are poor conductors used to support the flask with minimal heat transfer",
+        "They are used to create the vacuum by sealing the gap between the walls",
+        "They reflect infrared radiation back into the liquid",
+        "They increase the specific heat capacity of the flask's structure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the inner flask must be physically supported, solid connections are needed. Cork and plastic are insulators (poor conductors), minimizing the 'leakage' of heat by conduction through these supports. \n\n**Common mistake:** Thinking the supports are there to affect radiation."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q13",
+      "type": "mcq",
+      "question": "Consider a car's cooling system where water is pumped around the engine and then through a radiator. How does the radiator primarily transfer energy to the outside air?",
+      "options": [
+        "Conduction to the metal fins and then convection to the air",
+        "Radiation from the water directly into the atmosphere",
+        "Evaporation of the water as it passes through the small pipes",
+        "The water absorbs 'cold' from the air by conduction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hot water conducts energy to the radiator's metal walls and fins. As air is blown over these fins, energy is transferred to the air, which then moves away via convection. \n\n**Common mistake:** Attributing the cooling solely to radiation because of the name 'radiator'."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q14",
+      "type": "mcq",
+      "question": "A student observes that on a cold night, a single pane of glass in a window feels much colder than a double-glazed pane. Why does the double-glazing feel warmer?",
+      "options": [
+        "The trapped air reduces the rate of conduction from the room to the outside",
+        "The double-glazing generates its own heat due to the pressure of the air",
+        "Radiation is completely blocked by the two layers of glass",
+        "The outer pane of glass is kept at room temperature by the inner pane"
+      ],
+      "correctIndex": 0,
+      "explanation": "The layer of still air is an insulator that slows down the transfer of thermal energy from the warm room to the cold outside air, keeping the inner glass pane closer to room temperature. \n\n**Common mistake:** Believing double-glazing works by 'blocking' the cold from entering."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q15",
+      "type": "mcq",
+      "question": "In a vacuum flask, which feature is designed to reduce energy transfer by all three methods (conduction, convection, and radiation)?",
+      "options": [
+        "None; different features target different methods",
+        "The vacuum space",
+        "The plastic stopper",
+        "The silvered surfaces"
+      ],
+      "correctIndex": 0,
+      "explanation": "There is no single feature that stops all three; the flask is a system. The vacuum targets conduction and convection, the silvering targets radiation, and the stopper/cork reduce conduction. \n\n**Common mistake:** Thinking the vacuum also stops radiation."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q16",
+      "type": "mcq",
+      "question": "A student boils water at the top of a test tube while the bottom remains cool enough to hold. This experiment primarily demonstrates that:",
+      "options": [
+        "Water is a poor conductor and convection moves energy upwards",
+        "Convection is the only way heat moves in liquids",
+        "Glass is a perfect thermal insulator",
+        "Density increases when water is boiled"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the hot water at the top is less dense, it stays at the top. Since water is a poor conductor, very little energy reaches the bottom. **Common mistake:** Believing convection doesn't happen at all (it does, but only in the heated top portion)."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q17",
+      "type": "mcq",
+      "question": "During a sunny day at the coast, a 'sea breeze' blows from the sea towards the land. What is the cause of this convection current?",
+      "options": [
+        "Air above the land heats up, becomes less dense, and rises",
+        "The sea reflects all solar radiation, heating the air above it",
+        "Air above the sea becomes less dense and moves towards the land",
+        "High pressure over the land pushes air out to the sea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Land heats faster than the sea. The air above the land expands, rises, and cooler air from the sea moves in to replace it. **Common mistake:** Thinking the sea is the heat source during the day."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q18",
+      "type": "mcq",
+      "question": "Fiberglass insulation works by trapping small pockets of air. How does this specifically reduce energy transfer by convection?",
+      "options": [
+        "It prevents the air from moving and forming convection currents",
+        "It creates a vacuum between the glass fibers",
+        "It allows the air to conduct heat more efficiently",
+        "It reflects the infrared radiation back into the room"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air is a poor conductor, but it can transfer heat via convection if it moves. Trapping it (making it 'still air') stops the bulk movement and thus stops convection. **Common mistake:** Thinking the goal is to make the air a 'better' conductor."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q19",
+      "type": "mcq",
+      "question": "Which design feature of a vacuum flask is primarily responsible for stopping convection through the space between the inner and outer walls?",
+      "options": [
+        "The vacuum between the double glass walls",
+        "The silvered internal surfaces",
+        "The plastic outer casing",
+        "The cork support at the base"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection requires a medium (particles) to move energy. A vacuum has no particles, so convection cannot occur. **Common mistake:** Selecting silvered surfaces, which are meant to reduce radiation."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q20",
+      "type": "mcq",
+      "question": "In a house with a single heater, which placement and reason would lead to the most uniform temperature distribution?",
+      "options": [
+        "Floor level, because hot air rises and establishes a room-wide current",
+        "Ceiling level, because energy is closer to the roof and won't escape",
+        "In the middle of the wall, to balance conduction and radiation",
+        "Near a window, to maximize the temperature difference"
+      ],
+      "correctIndex": 0,
+      "explanation": "A heater at floor level ensures that the entire volume of air can participate in a convection loop as hot air rises. **Common mistake:** Thinking a ceiling heater is 'more efficient' because heat is already 'at the top'."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q21",
+      "type": "mcq",
+      "question": "What is the requirement for an object to remain at a constant temperature in a room?",
+      "options": [
+        "It must transfer energy away at the same rate that it receives energy.",
+        "It must stop emitting radiation entirely.",
+        "It must be a perfect reflector of all incident radiation.",
+        "It must be at the same density as the surrounding air."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal equilibrium (constant temperature) is achieved when the rate of energy absorption equals the rate of energy emission. \n\n**Common mistake:** Thinking constant temperature means no energy is being exchanged."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q22",
+      "type": "mcq",
+      "question": "If the Earth receives energy from the Sun at a higher rate than it radiates energy back into space, what is the consequence?",
+      "options": [
+        "The temperature of the Earth will increase.",
+        "The temperature of the Earth will decrease.",
+        "The Earth will move further away from the Sun.",
+        "The rate of nuclear fusion in the Sun will decrease."
+      ],
+      "correctIndex": 0,
+      "explanation": "A net gain in energy (input > output) leads to an increase in the internal energy and thus a rise in temperature. \n\n**Common mistake:** Thinking the Earth would naturally 'vent' the extra energy without a temperature change."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q23",
+      "type": "mcq",
+      "question": "A vacuum flask has silvered internal surfaces. What is the specific purpose of this design feature?",
+      "options": [
+        "To reduce thermal energy transfer by radiation.",
+        "To reduce thermal energy transfer by conduction.",
+        "To prevent the formation of convection currents.",
+        "To increase the structural strength of the glass walls."
+      ],
+      "correctIndex": 0,
+      "explanation": "The silvered surfaces reflect infrared radiation back towards the source, minimizing energy loss or gain via radiation. \n\n**Common mistake:** Believing the silvering blocks conduction; that is the job of the vacuum."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q24",
+      "type": "mcq",
+      "question": "Space blankets are thin, shiny sheets used to keep people warm. Why are they effective even though they are very thin?",
+      "options": [
+        "They reflect the person's own body radiation back towards them.",
+        "They are made of a material with extremely high specific heat capacity.",
+        "They trap a thick layer of air to stop conduction.",
+        "They generate thermal energy through a chemical reaction with skin."
+      ],
+      "correctIndex": 0,
+      "explanation": "The shiny material acts as a reflector, sending emitted body heat back to the person instead of letting it escape to the surroundings. \n\n**Common mistake:** Thinking the blanket 'warms' the person by creating heat."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-hard-q25",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies factors affecting the rate of thermal energy transfer by radiation?",
+      "options": [
+        "Surface Temperature: Yes; Surface Area: Yes; Surface Colour: Yes",
+        "Surface Temperature: Yes; Surface Area: No; Surface Colour: Yes",
+        "Surface Temperature: No; Surface Area: Yes; Surface Colour: Yes",
+        "Surface Temperature: Yes; Surface Area: Yes; Surface Colour: No"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material identifies color, texture, surface area, and surface temperature as the primary factors. \n\n**Common mistake:** Forgetting that surface area plays a role in how much radiation can be emitted per second."
+    }
+  ]
+}

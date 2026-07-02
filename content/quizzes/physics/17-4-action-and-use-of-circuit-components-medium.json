@@ -1,0 +1,77 @@
+{
+  "id": "17-4-action-and-use-of-circuit-components-medium",
+  "topicId": "17-4-action-and-use-of-circuit-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "medium",
+  "title": "Action and Use of Circuit Components — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-4-action-and-use-of-circuit-components-medium-q1",
+      "type": "mcq",
+      "question": "A $6\\text{ V}$ cell is connected to a potentiometer (variable resistor) with a maximum resistance of $100\\text{ }Omega$. What is the output voltage when the sliding contact is exactly at the midpoint?",
+      "options": [
+        "$3.0\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$0\\text{ V}$",
+        "$1.5\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Worked Example 17F, when the contact is at the midpoint, the resistance is shared equally ($50\\text{ }Omega$ each). Thus, $V_{out} = (50/100) \\times 6 = 3.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-medium-q2",
+      "type": "mcq",
+      "question": "A potential divider consists of a fixed resistor $R_1 = 200\\text{ }Omega$ and a second resistor $R_2 = 600\\text{ }Omega$ connected to a $12\\text{ V}$ source. What is $V_{out}$ across $R_2$?",
+      "options": [
+        "$9.0\\text{ V}$",
+        "$3.0\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$4.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula: $V_{out} = [600 / (200 + 600)] \\times 12 = (600/800) \\times 12 = 0.75 \\times 12 = 9.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-medium-q3",
+      "type": "mcq",
+      "question": "In a potential divider circuit used to monitor temperature, a voltmeter is connected across a fixed resistor that is in series with a thermistor. If the temperature rises, what happens to the voltmeter reading?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It remains constant",
+        "It drops to zero immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "When temperature rises, the thermistor's resistance decreases. This reduces the thermistor's share of the total voltage, meaning the fixed resistor now receives a larger share of the voltage, so the voltmeter reading increases.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-medium-q4",
+      "type": "mcq",
+      "question": "A student uses a potentiometer to create a variable output voltage. If the sliding contact is moved to the end of the resistor connected directly to the positive terminal of the $9\\text{ V}$ source, what is the maximum $V_{out}$?",
+      "options": [
+        "$9\\text{ V}$",
+        "$0\\text{ V}$",
+        "$4.5\\text{ V}$",
+        "It depends on the resistance of the potentiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in Worked Example 17F, when the contact is at the far end (Point B), the output voltage is equal to the full input voltage of the source ($9\\text{ V}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-medium-q5",
+      "type": "mcq",
+      "question": "An LDR is used in a potential divider with a fixed resistor. In the dark, the LDR has very high resistance. In bright light, its resistance is very low. To have an output voltage that is HIGH in the dark, where should the LDR be placed?",
+      "options": [
+        "In the $R_2$ position (where $V_{out}$ is measured across it)",
+        "In the $R_1$ position (between the source and $V_{out}$)",
+        "In parallel with the battery",
+        "Between the voltmeter and the fixed resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A potential divider shares voltage based on resistance ratios. To get a high $V_{out}$ when resistance is high (darkness), you must measure the output across that specific component ($R_2$).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

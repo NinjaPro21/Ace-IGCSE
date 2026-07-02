@@ -1,0 +1,77 @@
+{
+  "id": "12-1-the-gradient-function-easy",
+  "topicId": "12-1-the-gradient-function",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "easy",
+  "title": "The Gradient Function — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-1-the-gradient-function-easy-q1",
+      "type": "mcq",
+      "question": "Given the curve $y = x^7$, find the gradient function $\\frac{dy}{dx}$.",
+      "options": [
+        "$7x^6$",
+        "$x^6$",
+        "$7x^8$",
+        "$7x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Applying the power rule $\\frac{d}{dx}(x^n) = nx^{n-1}$ with $n=7$ gives $7x^{7-1} = 7x^6$.\n\n**Common mistake:** Option C is a common error where the student increases the power by 1 (integration) instead of decreasing it."
+    },
+    {
+      "id": "12-1-the-gradient-function-easy-q2",
+      "type": "mcq",
+      "question": "Find the value of $f'(x)$ if $f(x) = 15$.",
+      "options": [
+        "$0$",
+        "$15$",
+        "$1$",
+        "$15x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of a constant is always zero because the gradient of a horizontal line is zero.\n\n**Common mistake:** Option B occurs if a student thinks the derivative of a constant is the constant itself, while Option D is the result of integration."
+    },
+    {
+      "id": "12-1-the-gradient-function-easy-q3",
+      "type": "mcq",
+      "question": "Differentiate $y = 4x^3$ with respect to $x$.",
+      "options": [
+        "$12x^2$",
+        "$4x^2$",
+        "$12x^3$",
+        "$x^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the rule $\\frac{d}{dx}(ax^n) = anx^{n-1}$, we get $4 \\times 3x^{3-1} = 12x^2$.\n\n**Common mistake:** Option B results from failing to multiply the coefficient by the original power."
+    },
+    {
+      "id": "12-1-the-gradient-function-easy-q4",
+      "type": "mcq",
+      "question": "What is the gradient of the straight line $y = 8x - 3$ at any point?",
+      "options": [
+        "$8$",
+        "$-3$",
+        "$8x$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a linear equation $y = mx + c$2$\\frac{dy}{dx}$ is the constant $m$2$m = 8$.\n\n**Common mistake:** Option B is the y-intercept, while Option C incorrectly keeps the variable $x$ in the gradient."
+    },
+    {
+      "id": "12-1-the-gradient-function-easy-q5",
+      "type": "mcq",
+      "question": "Find the gradient function for $y = \\frac{1}{2}x^4$.",
+      "options": [
+        "$2x^3$",
+        "$4x^3$",
+        "$\\frac{1}{2}x^3$",
+        "$2x^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying the power by the coefficient: $4 \\times \\frac{1}{2}x^{4-1} = 2x^3$.\n\n**Common mistake:** Option B ignores the $fraction$ coefficient $1/2$ during differentiation."
+    }
+  ]
+}

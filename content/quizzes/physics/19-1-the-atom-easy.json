@@ -1,0 +1,77 @@
+{
+  "id": "19-1-the-atom-easy",
+  "topicId": "19-1-the-atom",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "easy",
+  "title": "The Atom — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-1-the-atom-easy-q1",
+      "type": "mcq",
+      "question": "What are the two main parts of an atom according to the nuclear model?",
+      "options": [
+        "A positively charged nucleus and negatively charged electrons",
+        "A negatively charged nucleus and positively charged electrons",
+        "A positively charged nucleus and neutral electrons",
+        "A neutral nucleus and negatively charged electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, an atom consists of a positively charged nucleus and negatively charged electrons in orbit around it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-easy-q2",
+      "type": "mcq",
+      "question": "Which subatomic particle has a relative charge of $+1$?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "$alpha$-particle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 19.1 identifies the proton as having a relative charge of $+1$. Electrons are $-1$ and neutrons are $0$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-easy-q3",
+      "type": "mcq",
+      "question": "What is the relative mass of an electron compared to a proton?",
+      "options": [
+        "$1/2000$",
+        "$1/2$",
+        "$1$",
+        "$2000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state the approximate mass of an electron is $1/2000$ atomic mass units, whereas protons and neutrons are approximately $1$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-easy-q4",
+      "type": "mcq",
+      "question": "How does a neutral atom become a positive ion?",
+      "options": [
+        "By losing electrons",
+        "By gaining electrons",
+        "By losing protons",
+        "By gaining protons"
+      ],
+      "correctIndex": 0,
+      "explanation": "A neutral atom becomes a positive ion when it loses one or more negatively charged electrons.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-easy-q5",
+      "type": "mcq",
+      "question": "In nuclide notation $^A_Z X$, what does the letter $Z$ represent?",
+      "options": [
+        "Proton number",
+        "Nucleon number",
+        "Neutron number",
+        "Atomic mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the notation $^A_Z X$, $Z$ is the proton number and $A$ is the nucleon number.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

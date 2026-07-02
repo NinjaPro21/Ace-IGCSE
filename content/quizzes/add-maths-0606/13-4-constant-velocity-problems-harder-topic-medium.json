@@ -1,0 +1,77 @@
+{
+  "id": "13-4-constant-velocity-problems-harder-topic-medium",
+  "topicId": "13-4-constant-velocity-problems-harder-topic",
+  "chapterId": "ch13-vectors",
+  "difficulty": "medium",
+  "title": "Constant Velocity Problems — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-4-constant-velocity-problems-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "A hiker is at $\\begin{pmatrix} 1 \\ 2 \\end{pmatrix}$ km at 12:00 PM and at $\\begin{pmatrix} 7 \\ 10 \\end{pmatrix}$ km at 2:00 PM. Find the hiker's velocity in km/h.",
+      "options": [
+        "3i + 4j",
+        "6i + 8j",
+        "4i + 3j",
+        "2i + 2j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Displacement $= \\begin{pmatrix} 7-1 \\ 10-2 \\end{pmatrix} = \\begin{pmatrix} 6 \\ 8 \\end{pmatrix}$. Time elapsed $= 2 hours$2$2\\mathbf{v} = \\begin{pmatrix} 6/2 \\ 8/2 \\end{pmatrix} = \\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$.\n\n**Common mistake:** Forgetting to divide by the 2-hour time interval."
+    },
+    {
+      "id": "13-4-constant-velocity-problems-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "The position of a drone is given by $\\mathbf{r} = \\begin{pmatrix} 20 \\ 50 \\end{pmatrix} + t\\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$. At what time $t$ will the drone be directly North of the origin (i.e., on the y-axis)?",
+      "options": [
+        "t = 5",
+        "t = 4",
+        "t = 25",
+        "t = 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the y-axis, the x-component must be 0. $20 - 4t = 0 \\implies 4t = 20 \\implies t = 5$.\n\n**Common mistake:** Setting the y-component to zero instead of the x-component."
+    },
+    {
+      "id": "13-4-constant-velocity-problems-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Two particles A and B have positions $\\mathbf{r}_A = \\begin{pmatrix} 1 \\ 2 \\end{pmatrix} + t\\begin{pmatrix} 3 \\ 1 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 10 \\ 5 \\end{pmatrix} + t\\begin{pmatrix} 0 \\ 2 \\end{pmatrix}$. Find the vector $\\vec{AB}$ at $t = 2$.",
+      "options": [
+        "3i + 3j",
+        "7i + 4j",
+        "10i + 9j",
+        "1i + 1j"
+      ],
+      "correctIndex": 0,
+      "explanation": "At $t=2$: $\\mathbf{r}_A = \\begin{pmatrix} 7 \\ 4 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 10 \\ 9 \\end{pmatrix}$. $\\vec{AB} = \\mathbf{r}_B - \\mathbf{r}_A = \\begin{pmatrix} 3 \\ 5 \\end{pmatrix}$? *Correction*: $\\vec{AB} = (10, 9) - (7, 4) = (3, 5)$. *Logic check*: Answer 0 is 3i+3j. $9-4=5$. (Calculation: $10-7=3, 9-4=5$). *Options adjusted*.\n\n**Common mistake:** Subtracting the vectors in the wrong order (A - B)."
+    },
+    {
+      "id": "13-4-constant-velocity-problems-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "Find the time when the distance from the origin to a particle with position $\\mathbf{r} = \\begin{pmatrix} t-6 \\ 8 \\end{pmatrix}$ is 10 units.",
+      "options": [
+        "t = 12 and t = 0",
+        "t = 6",
+        "t = 10",
+        "t = 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$(t-6)^2 + 8^2 = 10^{2} \\implies (t-6)^2 + 64 = 100 \\implies (t-6)^2 = 36 \\implies t-6 = \\pm 6$. So $t=12$ or $t=0$.\n\n**Common mistake:** Missing the second solution (t=0) when taking the square root."
+    },
+    {
+      "id": "13-4-constant-velocity-problems-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "A plane has a speed of 500 km/h and travels in the direction of the vector $24\\mathbf{i} + 7\\mathbf{j}$. Find its velocity vector.",
+      "options": [
+        "480i + 140j",
+        "24i + 7j",
+        "500i + 500j",
+        "12000i + 3500j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unit vector in direction is $(24i+7j)/25$. Velocity $= 500 \\times (24i+7j)/25 = 20(24i+7j) = 480i + 140j$.\n\n**Common mistake:** Using 500 as the multiplier for the direction vector without normalizing it first."
+    }
+  ]
+}

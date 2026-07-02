@@ -1,0 +1,77 @@
+{
+  "id": "9-7-differentiation-pyp",
+  "topicId": "9-7-differentiation",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "pyp",
+  "title": "Differentiation — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-7-differentiation-pyp-q1",
+      "type": "mcq",
+      "question": "A curve has the equation $y = 2x^3 - 3x^2 - 12x + 1$. Work out the $x$-coordinates of the turning points.",
+      "options": [
+        "$2$ and $-1$",
+        "$-2$ and $1$",
+        "$0$ and $2$",
+        "$3$ and $-2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 6x - 12$. Set to zero: $6(x^2 - x - 2) = 0 \\Rightarrow (x - 2)(x + 1) = 0$. The $x$2$2$ and $-1$.\n\n**Common mistake:** The student might forget to divide by 6 before factoring or swap the signs in the factored brackets."
+    },
+    {
+      "id": "9-7-differentiation-pyp-q2",
+      "type": "mcq",
+      "question": "The velocity $v$2$t$2$v = 40t - 5t^2$. Find the acceleration when $t = 3$.",
+      "options": [
+        "$10$ m/s $2$",
+        "$75$ m/s $2$",
+        "$40$ m/s $2$",
+        "$15$ m/s$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the derivative of velocity: $a = \\frac{dv}{dt} = 40 - 10t$2$t = 3$, $a = 40 - 10(3) = 10$.\n\n**Common mistake:** The student may calculate the velocity at $t=3$ instead of the acceleration."
+    },
+    {
+      "id": "9-7-differentiation-pyp-q3",
+      "type": "mcq",
+      "question": "Hence, determine the nature of the turning point of $y = x^2 - 4x + 1$ at $(2, -3)$ by showing that point $A$ is a minimum point.",
+      "options": [
+        "$\\frac{d^2y}{dx^2} = 2$, which is positive",
+        "The $y$2$-3$ is negative",
+        "The gradient at $x=1$ is positive",
+        "$\\frac{dy}{dx} = 0$ at $x=2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To show a point is a minimum, the second derivative $\\frac{d^2y}{dx^2}$ must be positive. Here $\\frac{dy}{dx} = 2x - 4$ and $\\frac{d^2y}{dx^2} = 2$, which is greater than zero.\n\n**Common mistake:** The student might believe a negative $y$-value at the turning point automatically makes it a minimum."
+    },
+    {
+      "id": "9-7-differentiation-pyp-q4",
+      "type": "mcq",
+      "question": "Calculate the value of the gradient of the curve $y = 2x^3 - 4x^2 + 5x$2$x = 0.5$.",
+      "options": [
+        "$2.5$",
+        "$5$",
+        "$0$",
+        "$2.25$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 8x + 5$. At $x = 0.5$, $\\frac{dy}{dx} = 6(0.25) - 8(0.5) + 5 = 1.5 - 4 + 5 = 2.5$.\n\n**Common mistake:** The student might incorrectly square $0.5$ as $2.5$ or perform arithmetic errors during the addition/subtraction steps."
+    },
+    {
+      "id": "9-7-differentiation-pyp-q5",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x^3 - 6x^2 - 7x$. Give your answer correct to 2 decimal places.",
+      "options": [
+        "$-0.52$ and $4.52$",
+        "$0.52$ and $-4.52$",
+        "$-1$ and $7$",
+        "$-0.48$ and $4.48$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 12x - 7$. Use the quadratic formula: $x = \\frac{12 \\pm \\sqrt{144 - 4(3)(-7)}}{6} = \\frac{12 \\pm \\sqrt{228}}{6} \\approx 4.52, -0.52$.\n\n**Common mistake:** The student might find the roots of the original cubic equation ($y=0$) instead of the turning points ($dy/dx=0$)."
+    }
+  ]
+}

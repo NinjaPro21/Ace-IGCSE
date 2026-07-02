@@ -1,0 +1,77 @@
+{
+  "id": "1-4-sequences-pyp",
+  "topicId": "1-4-sequences",
+  "chapterId": "ch01-number",
+  "difficulty": "pyp",
+  "title": "Sequences — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-4-sequences-pyp-q1",
+      "type": "mcq",
+      "question": "The $n$2$5n - 2$. Write down an expression for the $(n+1)$-th term of this sequence in its simplest simplified algebraic form.",
+      "options": [
+        "$5n + 3$",
+        "$5n - 1$",
+        "$5n + 5$",
+        "$5n - 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $(n+1)$ in place of $n$2$5(n+1) - 2 = 5n + 5 - 2 = 5n + 3$.\n\n**Common mistake:** Students often mistakenly add 1 directly to the end of the expression instead of substituting, yielding $5n - 2 + 1 = 5n - 1$."
+    },
+    {
+      "id": "1-4-sequences-pyp-q2",
+      "type": "mcq",
+      "question": "Here are the first five terms of a sequence: $2, 6, 12, 20, 30$. Hence, find an expression for the $n$-th term of this sequence.",
+      "options": [
+        "$n^2 + n$",
+        "$n^2 + 1$",
+        "$2n^2$",
+        "$4n - 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The second differences are constantly 2, so the expression contains $1n^2$. Checking residuals: $2-1=1, 6-4=2, 12-9=3$. The residual pattern matches $n$2$n^2 + n$.\n\n**Common mistake:** Students may guess a linear formula like $4n-2$ based on the first difference, which breaks down for subsequent terms."
+    },
+    {
+      "id": "1-4-sequences-pyp-q3",
+      "type": "mcq",
+      "question": "The $n$2$n^2 - 3n + 8$. Show that the 10th term of this sequence is equal to 78.",
+      "options": [
+        "78",
+        "138",
+        "62",
+        "70"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $n = 10$ directly into the structural quadratic formula: $10^{2} - 3(10) + 8 = 100 - 30 + 8 = 78$.\n\n**Common mistake:** Students might multiply $3 \\times 10$ but add it instead of subtracting, yielding $100 + 30 + 8 = 138$."
+    },
+    {
+      "id": "1-4-sequences-pyp-q4",
+      "type": "mcq",
+      "question": "The first four terms of a sequence are $3, 6, 11, 18$. Find an expression for the $n$-th term of this sequence.",
+      "options": [
+        "$n^2 + 2$",
+        "$2n + 1$",
+        "$n^2 - 1$",
+        "$3n$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The terms are exactly 2 greater than the perfect square numbers ($1, 4, 9, 16$). Therefore, the $n$2$n^2 + 2$.\n\n**Common mistake:** Students may choose a simple multiplication rule like $3n$ because it works for the first two terms, ignoring the rest."
+    },
+    {
+      "id": "1-4-sequences-pyp-q5",
+      "type": "mcq",
+      "question": "The $n$2$\\frac{3}{n+2}$. Find the difference between the 1st term and the 4th term.",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "1st term ($n=1$): $\\frac{3}{1+2} = 1$. 4th term ($n=4$): $\\frac{3}{4+2} = \\frac{3}{6} = \\frac{1}{2}$. Difference: $1 - \\frac{1}{2} = \\frac{1}{2}$.\n\n**Common mistake:** Students often make errors when finding the common denominator of $\\frac{tional}{}$ terms or substitute the position incorrectly."
+    }
+  ]
+}

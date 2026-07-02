@@ -1,0 +1,77 @@
+{
+  "id": "6-2-6-3-quadratic-equations-medium",
+  "topicId": "6-2-6-3-quadratic-equations",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Quadratic Equations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-2-6-3-quadratic-equations-medium-q1",
+      "type": "mcq",
+      "question": "Solve the equation $2x^2 + 5x - 3 = 0$ by factorisation.",
+      "options": [
+        "$x = 0.5$ or $x = -3$",
+        "$x = -0.5$ or $x = 3$",
+        "$x = 1$ or $x = -1.5$",
+        "$x = -1$ or $x = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find two integers that multiply to $a \\times c = 2 \\times (-3) = -6$ and add up to $b = 5$. These numbers are $+6$ and $-1$. Split the middle term: $2x^2 + 6x - x - 3 = 0$. Factorise by grouping: $2x(x + 3) - 1(x + 3) = 0 \\implies (2x - 1)(x + 3) = 0$. Thus, $x = 0.5$ or $x = -3$.\n\n**Common mistake:** Students often flip the signs of the roots or incorrectly split the middle term using parameters that multiply to $+6$ instead of $-6$."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-medium-q2",
+      "type": "mcq",
+      "question": "Solve $x^2 - 3x - 5 = 0$ using the quadratic formula. Give your answers correct to 2 decimal places.",
+      "options": [
+        "$4.19$ or $-1.19$",
+        "$3.79$ or $-0.79$",
+        "$4.38$ or $-1.38$",
+        "$1.30$ or $-3.80$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute coefficients into the formula: $x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(-5)}}{2(1)} = \\frac{3 \\pm \\sqrt{9 + 20}}{2} = \\frac{3 \\pm \\sqrt{29}}{2}$. Since $\\sqrt{29} \\approx 5.385$, $x = \\frac{3 + 5.385}{2} = 4.19$ and $x = \\frac{3 - 5.385}{2} = -1.19$.\n\n**Common mistake:** Students often write $-3$ instead of $+3$ for the initial $-b$2$(-3)^2$ as $-9$ inside the radical."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-medium-q3",
+      "type": "mcq",
+      "question": "Solve the algebraic equation: $x(x - 4) = 12$.",
+      "options": [
+        "$x = 6$ or $x = -2$",
+        "$x = 4$ or $x = 12$",
+        "$x = -6$ or $x = 2$",
+        "$x = 3$ or $x = -4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand the bracket to get $x^2 - 4x = 12$. Rearrange all terms onto one side to match standard form: $x^2 - 4x - 12 = 0$. Factorising yields $(x - 6)(x + 2) = 0$, giving solutions $x = 6$ or $x = -2$.\n\n**Common mistake:** A critical structural error is setting individual components to 12 directly (e.g., assuming $x = 12$ or $x - 4 = 12$), which violates the zero-product rule."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-medium-q4",
+      "type": "mcq",
+      "question": "Solve the equation $x^2 + 8x + 5 = 0$ by completing the square. Leave your answer in exact surd form.",
+      "options": [
+        "$x = -4 \\pm \\sqrt{11}$",
+        "$x = -8 \\pm \\sqrt{11}$",
+        "$x = -4 \\pm \\sqrt{21}$",
+        "$x = 4 \\pm \\sqrt{11}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Complete the square: $(x + 4)^2 - 16 + 5 = 0 \\implies (x + 4)^2 - 11 = 0$. Isolate the perfect square: $(x + 4)^2 = 11$. Take the square root of both sides: $x + 4 = \\pm \\sqrt{11}$. Thus, $x = -4 \\pm \\sqrt{11}$.\n\n**Common mistake:** Students frequently make an error when shifting numbers to the right-hand side, accidentally computing $16 + 5 = 21$ instead of isolating properly."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-medium-q5",
+      "type": "mcq",
+      "question": "Find the range of values of $k$2$x^2 - 6x + k = 0$ has two distinct real solutions.",
+      "options": [
+        "$k < 9$",
+        "$k > 9$",
+        "$k < 36$",
+        "$k > 36$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an equation to have two distinct real solutions, its discriminant must be strictly positive: $\\Delta > 0$. Here, $\\Delta = (-6)^2 - 4(1)(k) = 36 - 4k$2$36 - 4k > 0 \\implies 36 > 4k \\implies k < 9$.\n\n**Common mistake:** Students often write $\\Delta \\geq 0$ blindly or fail to flip the inequality sign when dividing by a negative number."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "8-3-area-of-a-sector-harder-topic-hard",
+  "topicId": "8-3-area-of-a-sector-harder-topic",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "hard",
+  "title": "Area of a Sector — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-3-area-of-a-sector-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "A sector has radius^10 cm and angle $1.2$ radians. Calculate the area of the segment bounded by the arc and the chord. (Use $\\sin(1.2) \\approx 0.932$)",
+      "options": [
+        "$13.4$ cm^2",
+        "$60$ cm^2",
+        "$46.6$ cm^2",
+        "$6.7$ cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$A_{sector} = 0.5 \\times 100 \\times 1.2 = 60$. $A_{triangle} = 0.5 \\times 10^{2} \\times \\sin(1.2) = 50 \\times 0.932 = 46.6$. Segment = $60 - 46.6 = 13.4$ cm^2.\n\n**Common mistake:** Option C is the area of the triangle alone, while Option B is the area of the full sector."
+    },
+    {
+      "id": "8-3-area-of-a-sector-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "A wire of length $L = 80$ cm is bent to form a sector. Find the radius $r$ that maximizes the area of this sector.",
+      "options": [
+        "$20$ cm",
+        "$40$ cm",
+        "$10$ cm",
+        "$15$ cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = 2r + r\\theta = 80 \\implies \\theta = (80-2r)/r$2$A = 0.5r^2((80-2r)/r) = 40r - r^2$. $dA/dr = 40 - 2r = 0 \\implies r = 20$.\n\n**Common mistake:** Option B assumes the radius is half the wire length, ignoring the arc part of the perimeter."
+    },
+    {
+      "id": "8-3-area-of-a-sector-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "Two sectors, $S_1$ and $S_2$, have radii $r_1$ and $r_2$ respectively. If $r_2 = 1.5r_1$ and the area of $S_2$ is double the area of $S_1$, find the ratio of their angles $\\theta_2 : \\theta_1$.",
+      "options": [
+        "$8 : 9$",
+        "$4 : 3$",
+        "$2 : 3$",
+        "$1 : 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$0.5(1.5r_1)²\\theta_2 = 2(0.5r_1^2\\theta_1) \\implies 2.25\\theta_2 = 2\\theta_1 \\implies \\theta_2/\\theta_1 = 2/2.25 = 8/9$.\n\n**Common mistake:** Option B is the ratio if the student forgets to square the $1.5$ factor for the radius."
+    },
+    {
+      "id": "8-3-area-of-a-sector-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations for a sector: its arc length is^12 cm and its area is^54 cm^2. Find the central angle $\\theta$ in radians.",
+      "options": [
+        "$1.33$ radians",
+        "$9$ radians",
+        "$0.75$ radians",
+        "$1.5$ radians"
+      ],
+      "correctIndex": 0,
+      "explanation": "$54 = 0.5r(12) \\implies 6r = 54 \\implies r = 9$. Then $12 = 9\\theta \\implies \\theta = 12/9 = 1.33$ (to 3 s.f.).\n\n**Common mistake:** Option B is the value of the radius $r$2$\\theta$."
+    },
+    {
+      "id": "8-3-area-of-a-sector-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "A sector of a circle has a radius of $e$2$\\ln(9)$ radians. Find the exact area of the sector.",
+      "options": [
+        "$e^2 \\ln(3)$ cm^2",
+        "$e^2 \\ln(9)$ cm^2",
+        "$0.5 e^2 \\ln(3)$ cm^2",
+        "$2 e^2 \\ln(3)$ cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$A = 0.5 \\times e^2 \\times \\ln(9) = 0.5 \\times e^2 \\times 2\\ln(3) = e^2 \\ln(3)$ cm^2.\n\n**Common mistake:** Option B is the direct substitution without simplifying the coefficient into the logarithm power rule."
+    }
+  ]
+}

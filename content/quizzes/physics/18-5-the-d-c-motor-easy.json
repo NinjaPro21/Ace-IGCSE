@@ -1,0 +1,77 @@
+{
+  "id": "18-5-the-d-c-motor-easy",
+  "topicId": "18-5-the-d-c-motor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "easy",
+  "title": "The D.c. Motor — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-5-the-d-c-motor-easy-q1",
+      "type": "mcq",
+      "question": "What is the primary energy conversion that takes place in a d.c. motor?",
+      "options": [
+        "Electrical energy to mechanical energy",
+        "Mechanical energy to electrical energy",
+        "Chemical potential energy to electrical energy",
+        "Electrical energy to thermal energy only"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a d.c. motor is used to convert electrical energy into mechanical energy. A generator does the reverse (mechanical to electrical).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-easy-q2",
+      "type": "mcq",
+      "question": "What is the function of the split-ring commutator in a simple d.c. motor?",
+      "options": [
+        "To reverse the direction of the current in the coil every half a revolution",
+        "To provide a permanent magnetic field for the coil",
+        "To measure the amount of current flowing through the circuit",
+        "To increase the resistance of the coil as it spins"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states that the function of the split-ring commutator is to reverse the direction of the current in the coil every half a revolution to ensure the coil always turns in one direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-easy-q3",
+      "type": "mcq",
+      "question": "Which rule is used to determine the direction of the force acting on the coil in a d.c. motor?",
+      "options": [
+        "Fleming’s left-hand rule",
+        "Fleming’s right-hand rule",
+        "Right-hand grip rule",
+        "The law of conservation of momentum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notes specify that Fleming’s left-hand rule is used to determine the direction of the force (and thus rotation) in a motor. The right-hand rule is typically used for generators.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-easy-q4",
+      "type": "mcq",
+      "question": "Which part of a d.c. motor provides the contact between the external circuit and the rotating commutator?",
+      "options": [
+        "Carbon brushes",
+        "Permanent magnets",
+        "The armature",
+        "The iron core"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon brushes are the components in a motor that maintain electrical contact between the stationary external circuit and the rotating split-ring commutator.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-easy-q5",
+      "type": "mcq",
+      "question": "On what principle does a d.c. motor operate?",
+      "options": [
+        "A current-carrying coil in a magnetic field experiences a turning effect",
+        "A changing magnetic field induces an e.m.f. in a stationary coil",
+        "Like magnetic poles attract each other to produce motion",
+        "The heating effect of a current causes a gas to expand and turn a turbine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The operating principle of a d.c. motor is that a current-carrying wire coil placed between two poles of a strong magnet experiences a turning effect.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

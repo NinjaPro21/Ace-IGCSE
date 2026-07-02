@@ -1,0 +1,77 @@
+{
+  "id": "18-5-the-d-c-motor-pyp",
+  "topicId": "18-5-the-d-c-motor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "pyp",
+  "title": "The D.c. Motor — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-5-the-d-c-motor-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a simple d.c. motor. Which part is the split-ring commutator?n[Diagram showing magnets, coil, and four labelled parts A, B, C, D]",
+      "options": [
+        "The split ring connected to the coil ends",
+        "The permanent magnets on the sides",
+        "The rectangular coil of wire",
+        "The carbon brushes touching the ring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on standard IGCSE diagrams (like Fig 18.56), the split-ring commutator is the circular ring divided into two halves that rotates with the coil.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-pyp-q2",
+      "type": "mcq",
+      "question": "A student tests a motor and records the following data:nnTrial | Current / A | Resultn--- | --- | ---n1 | 1.0 | Rotates slowlyn2 | 2.0 | Rotates fastern3 | 0.0 | StationarynnWhat can be concluded from this data?",
+      "options": [
+        "The speed of rotation increases as the current increases",
+        "The motor requires a minimum of 2.0 A to function",
+        "The direction of rotation depends on the current magnitude",
+        "The current has no effect on the mechanical energy output"
+      ],
+      "correctIndex": 0,
+      "explanation": "The data clearly shows that increasing the current from 1.0 A to 2.0 A results in a faster rotation speed, supporting the theory that current affects the magnitude of the force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-pyp-q3",
+      "type": "mcq",
+      "question": "In a simple d.c. motor, the direction of the current in the motor coil is reversed every half-revolution. Which part of the motor enables this?",
+      "options": [
+        "Split-ring commutator",
+        "Brushes",
+        "Coil",
+        "Permanent magnets"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from the review section. The split-ring commutator is specifically designed to reverse current every 180 degrees of rotation.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-pyp-q4",
+      "type": "mcq",
+      "question": "Which row correctly identifies how to reverse the direction of the force on a current-carrying conductor in a magnetic field?",
+      "options": [
+        "Reverse the magnetic field OR reverse the current",
+        "Reverse the magnetic field AND reverse the current",
+        "Increase the current and keep field the same",
+        "Decrease the current and reverse the field"
+      ],
+      "correctIndex": 0,
+      "explanation": "To reverse the direction of the force, only one factor (current or field) must be reversed. Reversing both would result in the same original force direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-pyp-q5",
+      "type": "mcq",
+      "question": "A d.c. motor is used in a toy drone. Why are permanent magnets used in the motor?",
+      "options": [
+        "To provide a constant magnetic field for the coil to interact with",
+        "To ensure the motor always spins in an anticlockwise direction",
+        "To convert kinetic energy back into electrical energy for the battery",
+        "To act as a safety switch that breaks the circuit if it gets too hot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Permanent magnets provide the external magnetic field necessary for the current-carrying coil to experience a force (the motor effect).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

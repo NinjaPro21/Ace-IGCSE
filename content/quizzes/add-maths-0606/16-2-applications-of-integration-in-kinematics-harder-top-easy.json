@@ -1,0 +1,77 @@
+{
+  "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy",
+  "topicId": "16-2-applications-of-integration-in-kinematics-harder-top",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "easy",
+  "title": "Applications of integration in kinematics — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q1",
+      "type": "mcq",
+      "question": "A particle moves in a straight line with acceleration $a = 6$ m/s^2. If its initial velocity is 2 m/s, find its velocity $v$2$t$.",
+      "options": [
+        "v = 6t + 2",
+        "v = 3t^2 + 2",
+        "v = 6t",
+        "v = 6t - 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "v = ∫ a dt = ∫ 6 dt = 6t + c. At t=0, v=2, so c=2. Thus, v = 6t + 2.\n\n**Common mistake:** Thinking the velocity is the integral of the initial condition, or forgetting to add 'c'."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q2",
+      "type": "mcq",
+      "question": "The velocity of a particle is given by $v = 4t$2$s$2$t = 3$, assuming $s = 0$ at $t = 0$.",
+      "options": [
+        "18 m",
+        "12 m",
+        "36 m",
+        "9 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "s = ∫ v dt = ∫ 4t dt = 2t^2 + c. Since s=0 at t=0, c=0. At t=3, s = 2(3)$^2$ = 18.\n\n**Common mistake:** Multiplying velocity by time (4t * t) instead of integrating (2t^2)."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q3",
+      "type": "mcq",
+      "question": "An object has an acceleration of $a = 10$ m/s^2. What is the change in velocity between $t = 1$ and $t = 4$?",
+      "options": [
+        "30 m/s",
+        "40 m/s",
+        "10 m/s",
+        "50 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Change in velocity = ∫ from 1 to 4 (10) dt = [10t] from 1 to 4 = 40 - 10 = 30.\n\n**Common mistake:** Calculating the velocity at t=4 only (40) and ignoring the initial velocity at t=1."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q4",
+      "type": "mcq",
+      "question": "A particle starts from rest and moves with acceleration $a = 2t$2$t = 5$.",
+      "options": [
+        "25 m/s",
+        "10 m/s",
+        "50 m/s",
+        "5 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "v = ∫ 2t dt = t^2 + c. 'Starts from rest' means v=0 at t=0, so c=0. At t=5, v = 5$^2$ = 25.\n\n**Common mistake:** Using the formula v = u + at, which only applies for constant acceleration."
+    },
+    {
+      "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q5",
+      "type": "mcq",
+      "question": "If $v = 3t^2 - 1$ and the particle is at the origin when $t = 1$, find the expression for displacement $s$.",
+      "options": [
+        "s = t³ - t",
+        "s = t³ - t + 1",
+        "s = t³ - t - 1",
+        "s = 6t"
+      ],
+      "correctIndex": 0,
+      "explanation": "s = ∫ (3t^2 - 1) dt = t³ - t + c. At t=1, s=0: 1 - 1 + c = 0 => c = 0.\n\n**Common mistake:** Assuming c is always zero without checking the boundary conditions."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "4-2-forces-and-motion-hard",
+  "topicId": "4-2-forces-and-motion",
+  "chapterId": "ch04-forces",
+  "difficulty": "hard",
+  "title": "Forces and Motion — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-forces-and-motion-hard-q1",
+      "type": "mcq",
+      "question": "A speed–time graph for an object of mass $5.0\\text{ kg}$ shows the speed increasing from $0\\text{ m/s}$ to $12\\text{ m/s}$ in $4.0\\text{ s}$. Calculate the resultant force acting on the object.",
+      "options": [
+        "$15\\text{ N}$",
+        "$60\\text{ N}$",
+        "$3\\text{ N}$",
+        "$20\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration $a = (12 - 0) / 4 = 3.0\\text{ m/s}^2$. Resultant force $F = ma = 5.0 \\times 3.0 = 15\\text{ N}$. \n\n**Common mistake:** Multiplying mass by final speed ($5 \\times 12 = 60$) instead of by acceleration."
+    },
+    {
+      "id": "4-2-forces-and-motion-hard-q2",
+      "type": "mcq",
+      "question": "An object moves in a circular path. If the resultant force on the object increases while the object continues moving at the same speed, what must happen to its motion?",
+      "options": [
+        "It must move with a smaller radius",
+        "It must move with a larger radius",
+        "It will move in a straight line",
+        "Its speed will increase automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the note, if the resultant force increases and speed remains constant, the object must follow a path with a smaller radius. \n\n**Common mistake:** Thinking a larger force 'pushes' the object further out into a larger circle."
+    },
+    {
+      "id": "4-2-forces-and-motion-hard-q3",
+      "type": "mcq",
+      "question": "A resultant force acts on a moving object in a direction that is perpendicular to its velocity. What effect does this force have?",
+      "options": [
+        "It changes the direction of motion but not the speed",
+        "It increases the speed of the object",
+        "It decreases the speed of the object",
+        "It has no effect on the motion of the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "A perpendicular force changes the direction of the velocity vector (turning the object) but does not change the magnitude (speed). \n\n**Common mistake:** Believing a perpendicular force has 'no effect' on motion at all."
+    },
+    {
+      "id": "4-2-forces-and-motion-hard-q4",
+      "type": "mcq",
+      "question": "An object of mass $1.0\\text{ kg}$ falls through air. At a certain instant, the air resistance is $4.0\\text{ N}$. Calculate the acceleration of the object at this instant. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$6.0\\text{ m/s}^2$",
+        "$10.0\\text{ m/s}^2$",
+        "$4.0\\text{ m/s}^2$",
+        "$14.0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight $W = mg = 1.0 \\times 10 = 10\\text{ N}$. Resultant force $F_{net} = 10\\text{ N} - 4\\text{ N} = 6\\text{ N}$. Acceleration $a = F_{net} / m = 6 / 1 = 6.0\\text{ m/s}^2$. \n\n**Common mistake:** Using only the air resistance force ($4.0$) to calculate acceleration."
+    },
+    {
+      "id": "4-2-forces-and-motion-hard-q5",
+      "type": "mcq",
+      "question": "A lorry is pulled by two jeeps. Each jeep exerts a force of $3000\\text{ N}$ at an angle of $45^{circ}$ to the horizontal forward direction. What is the total resultant force pulling the lorry forward?",
+      "options": [
+        "$4243\\text{ N}$",
+        "$6000\\text{ N}$",
+        "$3000\\text{ N}$",
+        "$2121\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each jeep contributes a forward component of $3000 \\times cos(45^{circ}) = 2121.3\\text{ N}$. Total force $= 2121.3 \\times 2 = 4242.6\\text{ N}$ (\\approx $4243\\text{ N}$). \n\n**Common mistake:** Simple addition ($6000\\text{ N}$), which ignores the fact that the forces are not parallel."
+    }
+  ]
+}

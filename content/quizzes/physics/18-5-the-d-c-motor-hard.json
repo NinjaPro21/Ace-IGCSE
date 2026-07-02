@@ -1,0 +1,77 @@
+{
+  "id": "18-5-the-d-c-motor-hard",
+  "topicId": "18-5-the-d-c-motor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "The D.c. Motor — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-5-the-d-c-motor-hard-q1",
+      "type": "mcq",
+      "question": "A d.c. motor is connected to a battery. A student observes that the coil rotates clockwise. If the student then reverses the battery connections AND replaces the magnets with stronger ones, how will the motion change?",
+      "options": [
+        "The coil will rotate anticlockwise and faster",
+        "The coil will rotate clockwise and faster",
+        "The coil will rotate anticlockwise and at the same speed",
+        "The coil will rotate clockwise and slower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing the battery reverses the current, which reverses the direction (to anticlockwise). Stronger magnets increase the force, making it faster. So it will be anticlockwise and faster.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-hard-q2",
+      "type": "mcq",
+      "question": "In a d.c. motor, the current in the coil is reversed precisely when the coil reaches the vertical position. Why is this specific timing necessary?",
+      "options": [
+        "Because the forces on the sides of the coil are momentarily parallel to the field",
+        "Because the magnetic field is strongest at the vertical position",
+        "Because the commutator must change brushes to maintain a continuous loop",
+        "To prevent the permanent magnets from being demagnetised"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the vertical position, the commutator changes contact from one brush to the other, reversing current. This ensures that the force on each side of the coil always acts in a way that continues the same direction of rotation.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-hard-q3",
+      "type": "mcq",
+      "question": "A student measures the torque (turning effect) of a motor with different numbers of turns $N$ in the coil. If the torque is directly proportional to $N$, which graph would represent this relationship?",
+      "options": [
+        "A straight line passing through the origin",
+        "A horizontal line showing constant torque",
+        "A curve that gets flatter as $N$ increases",
+        "A straight line with a negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct proportionality between torque and the number of turns means that as $N$ increases, the torque increases at a constant rate, which is shown by a straight line through the origin ($0,0$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-hard-q4",
+      "type": "mcq",
+      "question": "A d.c. motor is being used to lift a mass. If the motor is stalled (the coil is held so it cannot rotate), what happens to the electrical energy input?",
+      "options": [
+        "It is converted mostly into thermal energy in the coil",
+        "It is stored as magnetic potential energy in the core",
+        "It is converted into gravitational potential energy of the mass",
+        "The circuit is automatically broken and no energy is used"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the motor cannot turn, no mechanical work is done. All the electrical energy input ($P=IV$) is dissipated as thermal energy due to the resistance of the wires ($P=I^2R$), often causing the motor to overheat.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-hard-q5",
+      "type": "mcq",
+      "question": "Which statement correctly describes the forces on the horizontal segments of a rectangular coil (AB and CD) as it rotates in a horizontal magnetic field?",
+      "options": [
+        "The forces are always equal and opposite, creating a couple",
+        "The forces are in the same direction, pushing the coil sideways",
+        "There is no force on these segments because they are parallel to the field",
+        "The forces alternate between attraction and repulsion every half-turn"
+      ],
+      "correctIndex": 0,
+      "explanation": "When segments AB and CD are perpendicular to the field, they experience forces in opposite directions (one up, one down). These two equal and opposite forces create the turning effect (a couple).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

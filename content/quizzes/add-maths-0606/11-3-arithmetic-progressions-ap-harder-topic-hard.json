@@ -1,0 +1,77 @@
+{
+  "id": "11-3-arithmetic-progressions-ap-harder-topic-hard",
+  "topicId": "11-3-arithmetic-progressions-ap-harder-topic",
+  "chapterId": "ch11-series",
+  "difficulty": "hard",
+  "title": "Arithmetic Progressions (AP) — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-arithmetic-progressions-ap-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "The 3rd term of an AP is 18 and the 7th term is 30. Calculate the sum of the first 10 terms.",
+      "options": [
+        "255",
+        "510",
+        "120",
+        "240"
+      ],
+      "correctIndex": 0,
+      "explanation": "a + 2d = 18 and a + 6d = 30. Subtracting: 4d = 12 => d = 3. Substituting: a = 12. S₁₀ = 5 [24 + 9(3)] = 5  = 255.\n\n**Common mistake:** Sign errors when solving simultaneous equations or miscalculating the first term."
+    },
+    {
+      "id": "11-3-arithmetic-progressions-ap-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "Find the number of terms in the arithmetic progression: 100, 97, 94, ..., 1.",
+      "options": [
+        "34",
+        "33",
+        "35",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1 = 100 + (n-1)(-3) => -99 = -3(n-1) => 33 = n-1 => n = 34.$\n\n**Common mistake:** Obtaining n = 33 by forgetting to add 1 at the final step."
+    },
+    {
+      "id": "11-3-arithmetic-progressions-ap-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "The sum of the first n terms of an AP with first term 2 and common difference 3 is 155. Find n.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "155 = n/2 [4 + $(n-1)^{3}$] => 310 = n [3n + 1] => 3n^2 + n - 310 = 0. Using quadratic formula or testing: 3(100) + 10 = 310. n = 10.\n\n**Common mistake:** Difficulty solving the resulting quadratic equation or arithmetic errors in clearing the $fraction.$"
+    },
+    {
+      "id": "11-3-arithmetic-progressions-ap-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "An AP has a first term of 1 and the sum of the first n terms is 120. If the n-th term is 15, find the value of n.",
+      "options": [
+        "15",
+        "12",
+        "16",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "S_n = n/2 (a + l) => 120 = n/2 (1 + 15) => 120 = 8n => n = 15.\n\n**Common mistake:** Using the more complex sum formula and getting stuck with two unknowns (n and d)."
+    },
+    {
+      "id": "11-3-arithmetic-progressions-ap-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "In an AP, the sum of the first 10 terms is 100 and the sum of the first 20 terms is 400. Find the common difference d.",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "1.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$100 = 5(2a + 9d) => 20 = 2a + 9d. 400 = 10(2a + 19d) => 40 = 2a + 19d. Subtracting: 20 = 10d => d = 2.$\n\n**Common mistake:** Algebraic errors in simplifying the sum formulas into linear equations."
+    }
+  ]
+}

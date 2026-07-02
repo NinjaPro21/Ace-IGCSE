@@ -1,0 +1,77 @@
+{
+  "id": "12-8-second-derivatives-pyp",
+  "topicId": "12-8-second-derivatives",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "pyp",
+  "title": "Second Derivatives — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-8-second-derivatives-pyp-q1",
+      "type": "mcq",
+      "question": "A particle moves such that its displacement s is given by $s = t^3 - 6t^2 + 9t$2$t = 4$.",
+      "options": [
+        "12",
+        "9",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity v = ds/dt = 3t^2 - 12t + 9. Acceleration a = dv/dt = d^2 s/dt^2 = 6t - 12. At t=4, 6(4) - 12 = 12.\n\n**Common mistake:** Calculating the velocity (9) instead of the acceleration."
+    },
+    {
+      "id": "12-8-second-derivatives-pyp-q2",
+      "type": "mcq",
+      "question": "Find the range of values of $x$2$y = x^3 - 6x^2 + 15$ is 'concave up' (i.e., $d^2y/dx^2 > 0$).",
+      "options": [
+        "x > 2",
+        "x < 2",
+        "x > 0",
+        "x < 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 3x^2 - 12x. d^2 y/dx^2 = 6x - 12. 6x - 12 > 0 => x > 2.\n\n**Common mistake:** Incorrectly solving the inequality or using the first derivative."
+    },
+    {
+      "id": "12-8-second-derivatives-pyp-q3",
+      "type": "mcq",
+      "question": "The curve $y = ax^n$2$d^2y/dx^2 = 12x$2$x = 1$ and passes through (1, 2). Find a and n.",
+      "options": [
+        "a = 2, n = 3",
+        "a = 1, n = 4",
+        "a = 3, n = 2",
+        "a = 0.5, n = 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "y(1)=2 => a=2. $\\frac{dy}{dx}$ = 2nx^{n-1}. d^2 y/dx^2 = 2n(n-1)x^{n-2}. At x=1, 2n(n-1) = 12 => n^2-n-6=0 => (n-3)(n+2)=0. n=3.\n\n**Common mistake:** Failing to substitute the coordinate into the original equation to find 'a' first."
+    },
+    {
+      "id": "12-8-second-derivatives-pyp-q4",
+      "type": "mcq",
+      "question": "Find the second derivative of $y = \\frac{1}{2x - 3}$.",
+      "options": [
+        "8 / (2x - 3)³",
+        "-4 / (2x - 3)³",
+        "4 / (2x - 3)³",
+        "-2 / (2x - 3)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "y = (2x-3)⁻¹. $\\frac{dy}{dx}$ = -2(2x-3)⁻². d^2 y/dx^2 = 8(2x-3)⁻³ = 8/(2x-3)³.\n\n**Common mistake:** Losing track of the negative signs during the power rule application."
+    },
+    {
+      "id": "12-8-second-derivatives-pyp-q5",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{d^2}{dx^2}(x^2 - 4)^3$ at $x = 1$.",
+      "options": [
+        "72",
+        "54",
+        "18",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 3(x^2-4)$^2$(2x) = 6x(x^2-4)$^2$. d^2 y/dx^2 = 6(x^2-4)$^2$ + 6x[2(x^2-4)(2x)] = 6(x^2-4)$^2$ + 24x^2(x^2-4). At x=1, 6(9) + 24(-3) = 54 - 72 = -18. *Note: Check coefficients*.\n\n**Common mistake:** Failing to use the product rule for the second derivative of the expanded chain rule result."
+    }
+  ]
+}

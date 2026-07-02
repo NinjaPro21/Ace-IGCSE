@@ -1,0 +1,77 @@
+{
+  "id": "16-5-resistance-medium",
+  "topicId": "16-5-resistance",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Resistance — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-5-resistance-medium-q1",
+      "type": "mcq",
+      "question": "A potential difference of $12\\text{ V}$ is applied across a resistor, and a current of $0.50\\text{ A}$ is measured. Calculate the resistance.",
+      "options": [
+        "$24\\text{ }Omega$",
+        "$6.0\\text{ }Omega$",
+        "$0.042\\text{ }Omega$",
+        "$12.5\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $R = V / I = 12 / 0.50 = 24\\text{ }Omega$. \n\n**Common mistake:** Multiplying $12$ by $0.5$ to get $6.0\\text{ }Omega$."
+    },
+    {
+      "id": "16-5-resistance-medium-q2",
+      "type": "mcq",
+      "question": "Two wires, X and Y, are made of the same material and have the same thickness. Wire X is twice as long as wire Y. How do their resistances compare?",
+      "options": [
+        "Resistance of X is twice the resistance of Y.",
+        "Resistance of X is half the resistance of Y.",
+        "$Resistance of X is four \\times the resistance of Y.$",
+        "Their resistances are equal."
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is directly proportional to the length of the wire. Doubling the length doubles the resistance. \n\n**Common mistake:** Thinking that 'thickness' is the only factor that matters."
+    },
+    {
+      "id": "16-5-resistance-medium-q3",
+      "type": "mcq",
+      "question": "A resistor has a resistance of $100\\text{ }Omega$. Calculate the potential difference required to produce a current of $20\\text{ mA}$ through it.",
+      "options": [
+        "$2.0\\text{ V}$",
+        "$5.0\\text{ V}$",
+        "$2000\\text{ V}$",
+        "$0.20\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert current to amperes: $20\\text{ mA} = 0.02\\text{ A}$. Then $V = IR = 0.02 \\times 100 = 2.0\\text{ V}$. \n\n**Common mistake:** Using $20$ directly without converting from mA, leading to $2000\\text{ V}$."
+    },
+    {
+      "id": "16-5-resistance-medium-q4",
+      "type": "mcq",
+      "question": "An $I-V$ graph for a component shows that when the potential difference is $5.0\\text{ V}$, the current is $0.25\\text{ A}$. What is the resistance at this point?",
+      "options": [
+        "$20\\text{ }Omega$",
+        "$1.25\\text{ }Omega$",
+        "$0.05\\text{ }Omega$",
+        "$4.0\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance $R = V / I = 5.0 / 0.25 = 20\\text{ }Omega$. \n\n**Common mistake:** Dividing current by voltage ($0.25 / 5 = 0.05$)."
+    },
+    {
+      "id": "16-5-resistance-medium-q5",
+      "type": "mcq",
+      "question": "Two copper wires have the same length, but wire B is thicker (has a larger cross-sectional area) than wire A. Which statement is correct?",
+      "options": [
+        "Wire B has a lower resistance than wire A.",
+        "Wire B has a higher resistance than wire A.",
+        "Wire B and wire A have the same resistance.",
+        "The resistance depends only on the material, so they are the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is inversely proportional to the cross-sectional area. A thicker wire allows current to flow more easily, thus having a lower resistance. \n\n**Common mistake:** Thinking a 'bigger' wire must have more of everything, including resistance."
+    }
+  ]
+}

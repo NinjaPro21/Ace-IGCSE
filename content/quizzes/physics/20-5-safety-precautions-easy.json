@@ -1,0 +1,77 @@
+{
+  "id": "20-5-safety-precautions-easy",
+  "topicId": "20-5-safety-precautions",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "easy",
+  "title": "Safety Precautions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-5-safety-precautions-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is a known negative effect of ionising nuclear radiation on living things?",
+      "options": [
+        "Cell mutation",
+        "Improved immunity",
+        "Increased bone density",
+        "Enhanced vision"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, ionising radiation can cause cell mutation, kill cells, or lead to cancer. \n\n**Common mistake:** Thinking radiation only causes immediate death; it can also cause long-term genetic mutations."
+    },
+    {
+      "id": "20-5-safety-precautions-easy-q2",
+      "type": "mcq",
+      "question": "What are the three primary ways to control and reduce exposure to ionising radiation?",
+      "options": [
+        "Time, Distance, and Shielding",
+        "Temperature, Pressure, and Volume",
+        "Mass, Weight, and Density",
+        "Light, Sound, and Heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state that exposure is controlled by limiting time, increasing distance from the source, and using appropriate shielding. \n\n**Common mistake:** Confusing safety factors with general physical properties like temperature."
+    },
+    {
+      "id": "20-5-safety-precautions-easy-q3",
+      "type": "mcq",
+      "question": "Which material is specifically recommended for making storage boxes to safely hold radioactive sources?",
+      "options": [
+        "Lead",
+        "Aluminium",
+        "Plastic",
+        "Cardboard"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lead box is suitable for storing radioactive sources because lead is a very dense material that provides effective shielding. \n\n**Common mistake:** Choosing aluminium, which is not thick or dense enough to block all types of radiation."
+    },
+    {
+      "id": "20-5-safety-precautions-easy-q4",
+      "type": "mcq",
+      "question": "Why are long-handled tongs used to pick up radioactive sources in a laboratory?",
+      "options": [
+        "To increase the distance between the source and the body.",
+        "To prevent the source from getting too hot.",
+        "To stop the source from reacting with the air.",
+        "To make it easier to see the small source."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing distance is a key safety precaution; using tongs ensures the user is not in direct contact and is as far away as practical. \n\n**Common mistake:** Thinking the tongs are used for heat protection."
+    },
+    {
+      "id": "20-5-safety-precautions-easy-q5",
+      "type": "mcq",
+      "question": "What can happen to a healthy cell if it is exposed to excessive ionising radiation?",
+      "options": [
+        "It may become cancerous.",
+        "It will always evaporate.",
+        "It turns into a radioactive isotope.",
+        "It becomes an electrical conductor."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that radiation can cause a healthy cell to become cancerous through damage and mutation. \n\n**Common mistake:** Believing the cell itself becomes a source of radiation."
+    }
+  ]
+}

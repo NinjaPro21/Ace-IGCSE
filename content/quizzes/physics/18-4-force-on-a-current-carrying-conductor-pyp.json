@@ -1,0 +1,77 @@
+{
+  "id": "18-4-force-on-a-current-carrying-conductor-pyp",
+  "topicId": "18-4-force-on-a-current-carrying-conductor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "pyp",
+  "title": "Force on a Current-carrying Conductor — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a current-carrying wire passing through a magnetic field. In which direction does the wire move?nn[Diagram: N-pole on left, S-pole on right, current arrow pointing into the page]",
+      "options": [
+        "Towards the bottom of the page",
+        "Towards the top of the page",
+        "Towards the N-pole",
+        "Towards the S-pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Review Section A, Question 2. Field is left to right, current is into the page. Fleming's left-hand rule gives a force towards the bottom. \n\n**Common mistake:** Thinking the wire is attracted to one of the poles."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-pyp-q2",
+      "type": "mcq",
+      "question": "A beam of electrons enters a magnetic field that is directed into the page. What is the initial direction of the deflection of the electrons?nn[Reference: Figure 18.51]",
+      "options": [
+        "Towards the top of the page",
+        "Towards the bottom of the page",
+        "Into the page",
+        "Out of the page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 4. For an electron beam moving right, conventional current is left. Field is into the page. FLHR: Field (index) in, Current (middle) left, Thumb points up. \n\n**Common mistake:** Selecting 'bottom of the page' by not reversing current for electrons."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-pyp-q3",
+      "type": "mcq",
+      "question": "A student has two parallel wires. When a current flows through them in the same direction, they attract. What happens if the current in one of the wires is reversed?",
+      "options": [
+        "The wires repel each other.",
+        "The wires still attract each other.",
+        "The force between them becomes zero.",
+        "The wires start to rotate."
+      ],
+      "correctIndex": 0,
+      "explanation": "If currents in the same direction attract, reversing one current creates the 'opposite' magnetic configuration, leading to repulsion. \n\n**Common mistake:** Thinking they still attract because they are both 'magnetic'."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-pyp-q4",
+      "type": "mcq",
+      "question": "A current-carrying coil is placed in a magnetic field as shown. In which direction do forces act on the sides of the coil to make it move?nn[Reference: Figure 18.50]",
+      "options": [
+        "Upwards on one side and downwards on the other, causing rotation.",
+        "Both sides are pushed outwards, expanding the coil.",
+        "The entire coil is pushed out of the magnetic field.",
+        "Both sides are pushed towards the axis XY."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 3. A coil in a magnetic field experiences opposite forces on its two sides (due to opposite current directions relative to the field), creating a turning effect. \n\n**Common mistake:** Thinking the whole coil moves in one linear direction."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-pyp-q5",
+      "type": "mcq",
+      "question": "Which change to a d.c. motor would NOT increase the turning effect on the coil?",
+      "options": [
+        "Reversing the direction of the current",
+        "Increasing the number of turns in the coil",
+        "Increasing the magnitude of the current",
+        "Using a stronger permanent magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing current changes the direction of the turning effect but not its magnitude. The other options all increase the force. \n\n**Common mistake:** Thinking reversal always counts as an 'increase' in some property."
+    }
+  ]
+}

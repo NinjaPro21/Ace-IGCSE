@@ -1,0 +1,77 @@
+{
+  "id": "15-1-magnets-and-their-properties-pyp",
+  "topicId": "15-1-magnets-and-their-properties",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "pyp",
+  "title": "Magnets and Their Properties — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-1-magnets-and-their-properties-pyp-q1",
+      "type": "mcq",
+      "question": "A student tests three different metal bars with a magnet. Which row correctly identifies the materials?nnBar | Reaction to N-pole | Reaction to S-polen--- | --- | ---n1 | Attracts | Attractsn2 | Repels | Attractsn3 | No reaction | No reaction",
+      "options": [
+        "1: Iron; 2: Magnet; 3: Copper",
+        "1: Magnet; 2: Iron; 3: Copper",
+        "1: Copper; 2: Magnet; 3: Iron",
+        "1: Iron; 2: Copper; 3: Magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bar 1 is attracted to both poles, indicating it is a magnetic material (Iron). Bar 2 repels one pole, so it must be a Magnet. Bar 3 has no reaction, so it is non-magnetic (Copper).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows a bar magnet inducing magnetism in an iron bar.n[Magnet N-S] ----> [Iron Bar End P - End Q]nWhich row describes the poles induced at P and Q?",
+      "options": [
+        "P: North; Q: South",
+        "P: South; Q: North",
+        "P: North; Q: North",
+        "P: South; Q: South"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the principle of induction, the end nearest the magnet's S-pole (End P) becomes an N-pole. Consequently, the farther end (End Q) becomes an S-pole.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-pyp-q3",
+      "type": "mcq",
+      "question": "Which of these is a correct property of a permanent magnet?",
+      "options": [
+        "It attracts magnetic materials like iron and steel",
+        "It can only attract other permanent magnets",
+        "It loses its magnetism as soon as it is moved",
+        "It attracts non-magnetic materials like brass"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fundamental property of magnets is their ability to attract magnetic materials such as iron and steel. They do not attract non-magnetic materials like brass.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-pyp-q4",
+      "type": "mcq",
+      "question": "The table shows the number of iron tacks picked up by three bars clamped to a magnet. nnBar | Number of tacks picked upn--- | ---nMetal 1 | 15nMetal 2 | 8nMetal 3 | 0nnWhich material is most likely Metal 3?",
+      "options": [
+        "Brass",
+        "Iron",
+        "Steel",
+        "Nickel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metal 3 picked up zero tacks, indicating it is a non-magnetic material. Brass is the non-magnetic material among the options provided.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-pyp-q5",
+      "type": "mcq",
+      "question": "Which diagram correctly shows the direction in which a plotting compass points when placed near the North pole of a bar magnet?",
+      "options": [
+        "The compass needle points away from the North pole",
+        "The compass needle points towards the North pole",
+        "The compass needle points parallel to the magnet's side",
+        "The compass needle spins rapidly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic field lines are directed away from the North pole and towards the South pole. A compass needle aligns with these lines, so it points away from the N pole.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

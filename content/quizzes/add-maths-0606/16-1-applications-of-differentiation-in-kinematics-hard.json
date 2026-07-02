@@ -1,0 +1,77 @@
+{
+  "id": "16-1-applications-of-differentiation-in-kinematics-hard",
+  "topicId": "16-1-applications-of-differentiation-in-kinematics",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "hard",
+  "title": "Applications of differentiation in kinematics — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-hard-q1",
+      "type": "mcq",
+      "question": "A particle moves such that its displacement from $O$2$s = t^3 - 6t^2 + 9t$2$4$ seconds.",
+      "options": [
+        "$8$ m",
+        "$4$ m",
+        "$12$ m",
+        "$10$ m"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = 3t^2 - 12t + 9 = 3(t-1)(t-3)$. Rests at $t=1, 3$. $s(0)=0, s(1)=4, s(3)=0, s(4)=4$. Distance = $|4-0| + |0-4| + |4-0| = 4 + 4 + 4 = 12$.\n\n**Common mistake:** Option B is the displacement at $t=4$, which ignores the distance covered during direction changes."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-hard-q2",
+      "type": "mcq",
+      "question": "The velocity of a particle is $v = t e^{-t}$. Find the maximum velocity reached by the particle.",
+      "options": [
+        "$e^{-1}$",
+        "$1$",
+        "$e$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a = \\frac{dv}{dt} = t(-e^{-t}) + e^{-t}(1) = e^{-t}(1 - t)$. $a = 0 \\implies t = 1$. $v(1) = 1 \\cdot e^{-1} = e^{-1}$.\n\n**Common mistake:** Option B is the time at which the maximum velocity occurs."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-hard-q3",
+      "type": "mcq",
+      "question": "Find the values of $t$2$s = \\cos(2t) + t^2$ is zero in the interval $0 \\le t \\le \\pi$.",
+      "options": [
+        "$\\frac{\\pi}{6}, \\frac{5\\pi}{6}$",
+        "$\\frac{\\pi}{3}, \\frac{2\\pi}{3}$",
+        "$\\frac{\\pi}{4}, \\frac{3\\pi}{4}$",
+        "$0, \\pi$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = -2\\sin(2t) + 2t \\implies a = -4\\cos(2t) + 2$. Set $a = 0 \\implies \\cos(2t) = 0.5 \\implies 2t = \\frac{\\pi}{3}, \\frac{5\\pi}{3} \\implies t = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$.\n\n**Common mistake:** Option B results from students finding the values of $2t$2$2$."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-hard-q4",
+      "type": "mcq",
+      "question": "A particle $P$2$O$2$s = t(t-4)^2$. Find the velocity of $P$2$O$.",
+      "options": [
+        "$16$ m/s",
+        "$0$ m/s",
+        "$-16$ m/s",
+        "$8$ m/s\n\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Returns to $O$2$s=0$. $t(t-4)^2 = 0 \\implies t=0, 4$. $v = (t-4)^2 + 2t(t-4)$. At $t=4$, $v = 0 + 0 = 0$. Wait, at $t=0$, $v=16$. Question asks for when it returns. At $t=4, v=0$.\n\n**Common mistake:** Option A is the initial velocity at $t=0$, not when it returns to $O$."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-hard-q5",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x^2 \\ln x$2$x$2$\\frac{dy}{dt}$ is zero.",
+      "options": [
+        "$e^{-0.5}$",
+        "$e$",
+        "$1$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dt} = \\frac{dy}{dx} \\cdot \\frac{dx}{dt}$. Since $\\frac{dx}{dt}$\ne 0$, we need$22\\frac{dy}{dx} = x^2(1/x) + 2x \\ln x = x(1 + 2\\ln x)21 + 2\\ln x = 0 \\implies \\ln x = -0.5 \\implies x = e^{-0.5}2\n\n**Common mistake:** Option C is chosen if the student incorrectly differentiates the function as just $x^2(1/x)$ or $2x \\ln x$."
+    }
+  ]
+}

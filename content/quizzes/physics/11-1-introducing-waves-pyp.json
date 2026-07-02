@@ -1,0 +1,77 @@
+{
+  "id": "11-1-introducing-waves-pyp",
+  "topicId": "11-1-introducing-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "pyp",
+  "title": "Introducing Waves — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-introducing-waves-pyp-q1",
+      "type": "mcq",
+      "question": "What is transferred by a wave as it travels through a medium?",
+      "options": [
+        "Energy",
+        "Molecules",
+        "Matter",
+        "Force"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Review Section A, Question 1, waves transfer energy. \n\n**Common mistake:** Thinking matter or molecules are transferred (Choice B or C)."
+    },
+    {
+      "id": "11-1-introducing-waves-pyp-q2",
+      "type": "mcq",
+      "question": "As a transverse wave passes through a medium, how do the particles of the medium oscillate?",
+      "options": [
+        "Perpendicular to the direction of travel of the wave",
+        "Parallel to the direction of travel of the wave",
+        "In phase with the wave source only",
+        "With different frequencies across the medium"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Section A, Question 2. Transverse particles oscillate at right angles (perpendicular) to the wave direction. \n\n**Common mistake:** Selecting 'parallel,' which describes longitudinal waves."
+    },
+    {
+      "id": "11-1-introducing-waves-pyp-q3",
+      "type": "mcq",
+      "question": "Which of the following is an example of longitudinal waves?",
+      "options": [
+        "Sound waves produced by a vibrating guitar string",
+        "Waves in a ripple tank",
+        "Light waves in air",
+        "A vibrating guitar string"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 3, the sound produced is longitudinal, whereas the string itself and ripple tank waves are transverse. \n\n**Common mistake:** Choosing 'light waves,' which are transverse."
+    },
+    {
+      "id": "11-1-introducing-waves-pyp-q4",
+      "type": "mcq",
+      "question": "A student states that a wave source has a frequency of $2\\text{ Hz}$. What is the correct interpretation of this statement?",
+      "options": [
+        "Two complete waves pass a point every second",
+        "The wave takes two seconds to travel one metre",
+        "The particles move two centimetres up and down",
+        "There are two compressions in the entire length of the wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz ($\\text{Hz}$), which represents cycles or waves per second. $2\\text{ Hz}$ means two complete waves per second. \n\n**Common mistake:** Confusing hertz with wave speed (m/s)."
+    },
+    {
+      "id": "11-1-introducing-waves-pyp-q5",
+      "type": "mcq",
+      "question": "The diagram shows the instantaneous position of some particles in a medium. If the wave is transverse, describe the motion of these particles.nn[Reference: Figure 11.28]",
+      "options": [
+        "They oscillate up and down",
+        "They oscillate left and right",
+        "They move in the direction of the arrow",
+        "They move in a circular path"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a transverse wave, the particles oscillate perpendicular to the direction of travel (up and down if the wave is moving horizontally). \n\n**Common mistake:** Thinking the particles move horizontally with the wave (Choice C)."
+    }
+  ]
+}

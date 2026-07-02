@@ -1,0 +1,77 @@
+{
+  "id": "12-4-12-5-transformations-easy",
+  "topicId": "12-4-12-5-transformations",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "easy",
+  "title": "Transformations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-12-5-transformations-easy-q1",
+      "type": "mcq",
+      "question": "A point $P(4, 7)$ is reflected in the $y$-axis. State the coordinates of its image.",
+      "options": [
+        "$(-4, 7)$",
+        "$(4, -7)$",
+        "$(-4, -7)$",
+        "$(7, 4)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection in the $y$2$x = 0$) changes the sign of the $x$2$y$-coordinate remains the same.\n\n**Common mistake:** A student might reflect in the $x$2$y$2$(4, -7)$."
+    },
+    {
+      "id": "12-4-12-5-transformations-easy-q2",
+      "type": "mcq",
+      "question": "Describe the movement represented by the translation vector $\\begin{pmatrix} -5 \\ 2 \\end{pmatrix}$.",
+      "options": [
+        "5 units left and 2 units up",
+        "5 units right and 2 units up",
+        "5 units left and 2 units down",
+        "2 units left and 5 units up"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a column vector, the top number represents horizontal movement (negative is left) and the bottom number represents vertical movement (positive is up).\n\n**Common mistake:** The student might confuse the $x$2$y$ components or misinterpret the negative sign as a downward movement."
+    },
+    {
+      "id": "12-4-12-5-transformations-easy-q3",
+      "type": "mcq",
+      "question": "A triangle with an area of $10$ cm $2$ is enlarged by a scale factor of $3$. What is the area of the resulting image?",
+      "options": [
+        "$90$ cm $2$",
+        "$30$ cm $2$",
+        "$100$ cm $2$",
+        "$60$ cm $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a shape is enlarged by scale factor $k$2$k^2$. Here, $10 \\times 3^2 = 10 \\times 9 = 90$.\n\n**Common mistake:** A common error is multiplying the area by the scale factor directly ($10 \\times 3 = 30$) instead of the square of the scale factor."
+    },
+    {
+      "id": "12-4-12-5-transformations-easy-q4",
+      "type": "mcq",
+      "question": "Identify the coordinates of the image of $(2, 3)$ after a $180°$ rotation about the origin $(0, 0)$.",
+      "options": [
+        "$(-2, -3)$",
+        "$(3, 2)$",
+        "$(-3, -2)$",
+        "$(2, -3)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A $180°$ rotation about the origin maps any point $(x, y)$ to $(-x, -y)$.\n\n**Common mistake:** The student might confuse this with a $90°$ rotation and swap the coordinates."
+    },
+    {
+      "id": "12-4-12-5-transformations-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following describes an enlargement that results in an image smaller than the original object?",
+      "options": [
+        "Scale factor $0.4$",
+        "Scale factor $-2$",
+        "Scale factor $1.5$",
+        "Scale factor $-1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An enlargement with a scale factor between $0$ and $1$ (or $-1$ and $0$) results in a reduction of the object's size.\n\n**Common mistake:** A student might think a negative scale factor like $-2$ means the image is smaller, whereas it actually indicates the image is on the opposite side of the center and larger."
+    }
+  ]
+}

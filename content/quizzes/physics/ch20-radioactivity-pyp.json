@@ -1,0 +1,337 @@
+{
+  "id": "ch20-radioactivity-pyp",
+  "topicId": "ch20-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "pyp",
+  "title": "Chapter 20: Radioactivity — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch20-radioactivity-pyp-q1",
+      "type": "mcq",
+      "question": "Which statement about background radiation is correct?",
+      "options": [
+        "It is present in the laboratory even when no radioactive source is being used.",
+        "It is produced by radioactive sources that have been left in the laboratory.",
+        "It consists only of radiation from the Sun's magnetic field.",
+        "It is another term for the radiation emitted by a Geiger-Müller tube."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q1, background radiation is ionising nuclear radiation in the laboratory when no source is present. \n\n**Common mistake:** Thinking it comes from 'leftover' sources in the lab."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q2",
+      "type": "mcq",
+      "question": "A radiation detector is used to measure the count rate at $10\\text{-minute}$ intervals with no source present. The readings are as follows:nn| Time interval | $0\\text{--}10\\text{ min}$ | $10\\text{--}20\\text{ min}$ | $20\\text{--}30\\text{ min}$ | $30\\text{--}40\\text{ min}$ |n| :--- | :--- | :--- | :--- | :--- |n| Counts | $198$ | $180$ | $175$ | $200$ |nnWhat is the average background count rate in counts per minute?",
+      "options": [
+        "$18.8\\text{ counts/min}$",
+        "$188\\text{ counts/min}$",
+        "$753\\text{ counts/min}$",
+        "$1.88\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total counts over 40 mins $= 198+180+175+200 = 753$. Average rate $= 753 / 40 = 18.825 \\approx 18.8\\text{ counts/min}$. \n\n**Common mistake:** Reporting the average per 10 mins ($188$) instead of per minute."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q3",
+      "type": "mcq",
+      "question": "According to the textbook, which of the following are two natural sources of background radiation?",
+      "options": [
+        "Radon gas in the air and cosmic rays from the Sun",
+        "Microwaves from WiFi and radio waves from stars",
+        "Heat from the Earth's core and visible light from the Sun",
+        "Sound from the atmosphere and magnetic fields from rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text explicitly lists radon gas and cosmic rays as sources. \n\n**Common mistake:** Choosing non-ionising radiation like WiFi microwaves."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q4",
+      "type": "mcq",
+      "question": "A student measures the radiation from an isotope for $20\\text{ minutes}$. The counter shows a total of $2800$ counts. If the background count is $25\\text{ counts/min}$, what is the count rate for the isotope alone?",
+      "options": [
+        "$115\\text{ counts/min}$",
+        "$140\\text{ counts/min}$",
+        "$2775\\text{ counts/min}$",
+        "$2300\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total rate $= 2800 / 20 = 140\\text{ cpm}$. Corrected rate $= 140 - 25 = 115\\text{ cpm}$. \n\n**Common mistake:** Subtracting 25 from the total counts ($2775$)."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q5",
+      "type": "mcq",
+      "question": "A student suggests that a radiation counter is faulty because the readings change slightly every second ($520, 515, 540$ counts/s) while measuring a steady source. What is the correct explanation?",
+      "options": [
+        "The process of radioactive emission is random.",
+        "The detector is being affected by local temperature changes.",
+        "The battery in the counter is running low.",
+        "The source is being used up very quickly."
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluctuations in count rate are a standard feature of the random and spontaneous nature of nuclear decay. \n\n**Common mistake:** Thinking the fluctuations indicate a technical error."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q6",
+      "type": "mcq",
+      "question": "The table shows the results of an experiment with three types of radiation.nn| Radiation | Stopped by paper? | Stopped by $5 \\text{ mm}$ Al? | Deflected by magnetic field? |n| :--- | :--- | :--- | :--- |n| 1 | Yes | Yes | Yes |n| 2 | No | Yes | Yes |n| 3 | No | No | No |nnWhich row correctly identifies the radiations?",
+      "options": [
+        "1: $alpha$, 2: $beta$, 3: $gamma$",
+        "1: $beta$, 2: $alpha$, 3: $gamma$",
+        "1: $alpha$, 2: $gamma$, 3: $beta$",
+        "1: $gamma$, 2: $beta$, 3: $alpha$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radiation 1 (stopped by paper) is Alpha. Radiation 2 (passes paper but stopped by Al) is Beta. Radiation 3 (passes Al and not deflected) is Gamma.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q7",
+      "type": "mcq",
+      "question": "A student records the count rate from a radioactive source every second for five seconds:n$520, 530, 510, 515, 540$.nWhat does this variation in readings demonstrate?",
+      "options": [
+        "The random nature of radioactive decay",
+        "The detector is faulty",
+        "The half-life is very short",
+        "Background radiation is increasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "As noted on page 335, the count rate readings from a nucleus change because emission is a random process.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q8",
+      "type": "mcq",
+      "question": "Which statement about $alpha$-particles is correct?",
+      "options": [
+        "They are the least penetrating of the nuclear emissions",
+        "They travel at the speed of light",
+        "They are not ionising",
+        "They have a negative charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct fact from the review questions: Alpha particles are the least penetrating nuclear emission.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q9",
+      "type": "mcq",
+      "question": "The diagram shows the paths of three types of radiation through an electric field.n[Path X deflects slightly to negative; Path Y goes straight; Path Z deflects strongly to positive]nWhich path represents $beta$-particles?",
+      "options": [
+        "Path Z",
+        "Path X",
+        "Path Y",
+        "None of the paths"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles are negative and are strongly attracted to the positive plate. Alpha (positive) deflects less towards the negative plate, and Gamma (neutral) goes straight.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q10",
+      "type": "mcq",
+      "question": "Which row correctly identifies a use of $gamma$-radiation and the reason why?",
+      "options": [
+        "Use: Medical imaging; Reason: High penetrating power",
+        "Use: Smoke detectors; Reason: High ionising power",
+        "Use: Tanning; Reason: Low penetrating power",
+        "Use: Thickness gauges; Reason: Stopped by paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma rays are used for medical imaging or cancer detection because they have high penetrating power and can escape the body to be detected.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q11",
+      "type": "mcq",
+      "question": "The following equation represents radioactive decay:n\n\n$$\n^{227}{89}Ac rightarrow ^{227}{90}Th + Y\n$$nWhat does$Y$ represent?",
+      "options": [
+        "$beta$-particle",
+        "$alpha$-particle",
+        "neutron",
+        "$gamma$-emission"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 6. The nucleon number is unchanged (227) and the proton number increased by 1 (89 to 90). This identifies $Y$ as a $beta$-particle. \n\n**Common mistake:** Selecting $alpha$-particle, which would require the nucleon number to drop by 4."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q12",
+      "type": "mcq",
+      "question": "Which statement about $alpha$-particles is correct according to the Review Questions?",
+      "options": [
+        "They are the least penetrating of the nuclear emissions.",
+        "They travel as electromagnetic waves.",
+        "They are not ionising nuclear radiation.",
+        "They consist of high-speed electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Review Section A, Question 3. $alpha$-particles are the most ionising but have the least penetrating ability (stopped by paper). \n\n**Common mistake:** Confusing $alpha$ properties with $gamma$ properties (Choice B)."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q13",
+      "type": "mcq",
+      "question": "According to the nuclide equation for the decay of Uranium-238, which particles are emitted?n\n\n$$\n^{238}{92}U rightarrow ^{234}_{90}Th + ...\n$$",
+      "options": [
+        "$alpha$-particle and $gamma$-radiation",
+        "$beta$-particle and $gamma$-radiation",
+        "Two protons and two neutrons only",
+        "One neutron and one positron"
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in the 'Let's Practise 20.3' answers, $^{238}U$ decays to $^{234}Th$ by emitting an $alpha$-particle and $gamma$-radiation. \n\n**Common mistake:** Forgetting that $gamma$-radiation often accompanies the emission of particles."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q14",
+      "type": "mcq",
+      "question": "A radioactive isotope decays by emitting $beta$-particles. What happens to an atom of the isotope when it decays?",
+      "options": [
+        "It changes into another element.",
+        "It gains electrons.",
+        "It loses electrons.",
+        "It becomes a $beta$-particle."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is Review Section A, Question 5. Because the proton number changes during $beta$-decay, the atom becomes a different element. \n\n**Common mistake:** Thinking the atom 'gains' electrons because the $beta$-particle is an electron; the electron is actually emitted from the nucleus."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q15",
+      "type": "mcq",
+      "question": "Which row in the table correctly shows the changes to the nucleus during alpha ($alpha$) decay?nn| | Nucleon number | Proton number |n| :--- | :--- | :--- |n| A | decreases by 4 | decreases by 2 |n| B | decreases by 2 | decreases by 4 |n| C | decreases by 4 | remains the same |n| D | remains the same | decreases by 2 |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $alpha$-decay, the nucleus loses 2 protons and 2 neutrons ($^4_2He$), so $A$ drops by 4 and $Z$ drops by 2. \n\n**Common mistake:** Row B, which swaps the changes for nucleon and proton numbers."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q16",
+      "type": "mcq",
+      "question": "The graph shows the decay curve of a radioactive isotope. n[Graph: Count rate vs Time. (0, 600), (2, 300), (4, 150), (6, 75)]nWhat is the half-life of the isotope?",
+      "options": [
+        "$2\\text{ hours}$",
+        "$4\\text{ hours}$",
+        "$6\\text{ hours}$",
+        "$300\\text{ hours}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Looking at the graph, the initial count rate of $600$ falls to $300$ (half) at $t = 2\\text{ hours}$. This is the half-life.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q17",
+      "type": "mcq",
+      "question": "Which statement about radioactive decay is correct?",
+      "options": [
+        "It is impossible to predict which specific nucleus will decay next",
+        "Heating a sample increases its half-life",
+        "The half-life depends on the chemical compound the isotope is in",
+        "The count rate from a source is always perfectly constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radioactive decay is a random and spontaneous process. We cannot predict which individual nucleus will decay.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q18",
+      "type": "mcq",
+      "question": "A radioactive source is used to monitor the thickness of paper in a factory. The source should have a long half-life. Why?",
+      "options": [
+        "So that the source does not need to be replaced frequently",
+        "So that the radiation can penetrate the paper more easily",
+        "So that the count rate is very high",
+        "So that it is safer for the workers to handle"
+      ],
+      "correctIndex": 0,
+      "explanation": "A long half-life ensures the activity remains relatively constant over time, providing consistent readings for the thickness gauge without needing frequent recalibration or replacement.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q19",
+      "type": "mcq",
+      "question": "A sample of isotope X has a half-life of $15\\text{ hours}$. The initial count rate is $1200\\text{ counts/min}$. What will be the approximate count rate at the end of $45\\text{ hours}$?",
+      "options": [
+        "$150\\text{ counts/min}$",
+        "$300\\text{ counts/min}$",
+        "$400\\text{ counts/min}$",
+        "$600\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Let's Practise 20.4 q1: $45\\text{ hours}$ is 3 half-lives ($45 / 15 = 3$). $1200 rightarrow 600 rightarrow 300 rightarrow 150$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q20",
+      "type": "mcq",
+      "question": "The background count in a lab is $22\\text{ counts/min}$. A detector is used to measure a source, and it shows a reading of $142\\text{ counts/min}$. What is the corrected count rate of the source?",
+      "options": [
+        "$120\\text{ counts/min}$",
+        "$164\\text{ counts/min}$",
+        "$71\\text{ counts/min}$",
+        "$142\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corrected count rate = Measured count rate - Background count rate. $142 - 22 = 120$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q21",
+      "type": "mcq",
+      "question": "A radioactive chemical decays by emitting beta ($beta$) particles and gamma ($gamma$) rays. What type of material should be used for the container to ensure safety?",
+      "options": [
+        "Lead",
+        "Plastic",
+        "Cardboard",
+        "Aluminium"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from Review Section A, Question 10. Only lead provides sufficient shielding for gamma rays. \n\n**Common mistake:** Selecting aluminium, which can stop beta but not gamma."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q22",
+      "type": "mcq",
+      "question": "In a safety experiment, the radiation count rate is measured at different distances from a source. Which graph correctly shows how the risk from radiation changes with distance?nn[Scenario: Count rate decreases as distance increases]",
+      "options": [
+        "A curve starting high and sloping downwards towards the x-axis",
+        "A straight line starting at the origin and sloping upwards",
+        "A horizontal line showing constant count rate",
+        "A vertical line at a fixed distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "As distance increases, the radiation intensity (and therefore count rate and risk) decreases. This is represented by a downward sloping curve. \n\n**Common mistake:** Selecting the upward line, which would mean it gets more dangerous as you move away."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q23",
+      "type": "mcq",
+      "question": "According to the Review Section, why should long tongs be used when handling radioactive sources?",
+      "options": [
+        "To minimise the dose of radiation to the hands by increasing distance.",
+        "Because radioactive sources are always very hot to the touch.",
+        "To prevent the source from being contaminated by oils from the skin.",
+        "Because the sources are too small to be picked up by fingers."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 3(c), tongs are a distance-increasing safety measure to reduce the radiation dose to the user. \n\n**Common mistake:** Thinking the main concern is 'contamination' rather than 'exposure'."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q24",
+      "type": "mcq",
+      "question": "Which of the following is listed in the sources as a way to control exposure to ionising radiation?",
+      "options": [
+        "Using shielding",
+        "Increasing the temperature of the lab",
+        "Washing the source with water",
+        "Keeping the source in a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'Let's Practise 20.5' answers list 'Time, Distance, and Shielding' as the three ways to control exposure. \n\n**Common mistake:** Thinking environmental changes like temperature or vacuum affect radiation safety."
+    },
+    {
+      "id": "ch20-radioactivity-pyp-q25",
+      "type": "mcq",
+      "question": "A table shows the effect of different materials on the count rate from a source. Which material is the best shield?nn| Material | Count rate (counts/min) |n| :--- | :--- |n| No shield | 500 |n| Paper | 498 |n| Aluminium ($5\\text{ mm}$) | 350 |n| Lead ($10\\text{ mm}$) | 40 |",
+      "options": [
+        "Lead ($10\\text{ mm}$)",
+        "Aluminium ($5\\text{ mm}$)",
+        "Paper",
+        "No shield"
+      ],
+      "correctIndex": 0,
+      "explanation": "The best shield results in the lowest count rate being detected. Lead reduced the rate from 500 to 40. \n\n**Common mistake:** Choosing 'No shield' because it has the 'highest' number."
+    }
+  ]
+}

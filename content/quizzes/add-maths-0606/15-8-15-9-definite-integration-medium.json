@@ -1,0 +1,90 @@
+{
+  "id": "15-8-15-9-definite-integration-medium",
+  "topicId": "15-8-15-9-definite-integration",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "medium",
+  "title": "Definite Integration — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-8-15-9-definite-integration-medium-q1",
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^{\\pi/6} \\sec^{2} x \\\\\\\\,dx.$.",
+      "options": [
+        "0.577",
+        "1",
+        "0.5",
+        "0.866"
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral of $\\sec^{2} x$ is $\\tan x$. Evaluating $[\\tan x]_0^{\\pi/6} = \\tan(\\pi/6) - \\tan 0 = 1/\\sqrt{3} \\approx 0.577$.\n\n**Common mistake:** Option D is the value of $\\cos(\\pi/6)$ rather than its tangent derivative."
+    },
+    {
+      "id": "15-8-15-9-definite-integration-medium-q2",
+      "type": "mcq",
+      "question": "Find the exact value of $\\int_0^4 \\sqrt{2x+1} \\\\\\\\,dx.$.",
+      "options": [
+        "8.67",
+        "13",
+        "26",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating yields $\\left[\\frac{1}{3}(2x+1)^{3/2}\\right]_0^4 = \\frac{1}{3}(27) - \\frac{1}{3}(1) = 9 - 0.33 = 8.67$.\n\n**Common mistake:** Option B results if the student fails to divide by the coefficient of $x$ (2) from the inner function."
+    },
+    {
+      "id": "15-8-15-9-definite-integration-medium-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^1 e^{3x} \\\\\\\\,dx.$ in terms of $e$.",
+      "options": [
+        "$\\frac{1}{3}(e^{3}-1)$",
+        "$e^{3}-1$",
+        "$\\frac{1}{3e^3}$",
+        "$3e^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral is $\\left[\\frac{1}{3}e^{3x}\\right]_0^1 = \\frac{1}{3}e^{3} - \\frac{1}{3}e^{0} = \\frac{1}{3}(e^{3}-1)$.\n\n**Common mistake:** Option B occurs if the student forgets the $\\frac{1}{3}$ multiplier or the lower bound evaluation."
+    },
+    {
+      "id": "15-8-15-9-definite-integration-medium-q4",
+      "type": "mcq",
+      "question": "Find the area of the region bounded by $y = x^2 - 4$ and the x-axis.",
+      "options": [
+        "32/3",
+        "16/3",
+        "8",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve crosses the x-axis at $x = \\pm 2$. $\\int_{-2}^{2} (x^2 - 4)\\\\\\\\,dx. = \\left[\\frac{x^3}{3} - 4x\\right]_{-2}^{2} = -\\frac{32}{3}$. Geometric area is $\\frac{32}{3}$.\n\n**Common mistake:** Integrating from 0 to 2 only, which gives half the area ($16/3$)."
+    },
+    {
+      "id": "15-8-15-9-definite-integration-medium-q5",
+      "type": "mcq",
+      "question": "Calculate the area of the region bounded by $y = 1/x$, $x = 1$ and $x = e^2$.",
+      "options": [
+        "2",
+        "$e^2$",
+        "1",
+        "$\\ln 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$[\\ln x]_1^{e^2} = \\ln(e^2) - \\ln(1) = 2 - 0 = 2$.\n\n**Common mistake:** Incorrectly evaluating $\\ln(e^2)$ as $e$ or $\\ln(1)$ as 1."
+    },
+    {
+      "id": "15-8-15-9-definite-integration-medium-q6",
+      "type": "mcq",
+      "question": "Find the area bounded by $y = \\sin x$ for $0 \\le x \\le \\pi$.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "$\\pi$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral of $\\sin x$ is $-\\cos x$. $[-\\cos x]_0^{\\pi} = -\\cos(\\pi) - (-\\cos 0) = -(-1) + 1 = 2$.\n\n**Common mistake:** Integrating from 0 to $2\\pi$, which would result in 0 due to the positive and negative areas cancelling."
+    }
+  ]
+}

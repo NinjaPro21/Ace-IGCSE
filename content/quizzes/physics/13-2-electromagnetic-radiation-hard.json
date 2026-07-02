@@ -1,0 +1,77 @@
+{
+  "id": "13-2-electromagnetic-radiation-hard",
+  "topicId": "13-2-electromagnetic-radiation",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "hard",
+  "title": "Electromagnetic Radiation — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-2-electromagnetic-radiation-hard-q1",
+      "type": "mcq",
+      "question": "Why must workers in a hospital be shielded by lead screens when using X-ray or gamma ray machines?",
+      "options": [
+        "They are ionising radiations that damage cells and DNA",
+        "They cause intense internal heating of the body",
+        "They reflect off walls and cause blindness",
+        "They turn into radio waves that interfere with equipment"
+      ],
+      "correctIndex": 0,
+      "explanation": "X-rays and gamma rays are ionising radiations. They have enough energy to damage living cells and cause mutations in DNA, which can lead to cancer. Shielding is required for protection.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "13-2-electromagnetic-radiation-hard-q2",
+      "type": "mcq",
+      "question": "Compare the uses of infrared (IR) and microwaves in heating. Which statement is correct?",
+      "options": [
+        "IR causes surface heating; microwaves cause internal heating",
+        "IR causes internal heating; microwaves cause surface heating",
+        "Both cause internal heating only",
+        "Both cause surface heating only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Infrared is absorbed at the surface and causes skin burns/heating. Microwaves penetrate deeper and cause internal heating of body cells.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "13-2-electromagnetic-radiation-hard-q3",
+      "type": "mcq",
+      "question": "Intruder alarms and thermal imaging cameras both detect which type of radiation emitted by the human body?",
+      "options": [
+        "Infrared",
+        "Ultraviolet",
+        "Microwaves",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "The human body naturally emits infrared radiation (heat). Intruder alarms and thermal cameras are designed to sense this specific region of the spectrum.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "13-2-electromagnetic-radiation-hard-q4",
+      "type": "mcq",
+      "question": "Which set of electromagnetic waves contains ONLY those that are considered highly ionising and dangerous to cell DNA?",
+      "options": [
+        "X-rays and Gamma rays",
+        "Ultraviolet and X-rays",
+        "Microwaves and Infrared",
+        "Gamma rays and Radio waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "X-rays and Gamma rays are the most energetic and are classified as ionising radiation. UV is damaging to surface cells but is generally less penetrating than X-rays/Gamma.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "13-2-electromagnetic-radiation-hard-q5",
+      "type": "mcq",
+      "question": "A geostationary satellite is used for direct television broadcasting. What type of radiation does it receive and transmit?",
+      "options": [
+        "Microwaves",
+        "Radio waves",
+        "Infrared",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Communication with artificial satellites, including geostationary ones used for TV, is performed using microwaves because they can pass through the atmosphere effectively.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

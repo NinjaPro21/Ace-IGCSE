@@ -1,0 +1,77 @@
+{
+  "id": "16-2-electric-field-hard",
+  "topicId": "16-2-electric-field",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "hard",
+  "title": "Electric Field — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-2-electric-field-hard-q1",
+      "type": "mcq",
+      "question": "Which statement best describes the electric field lines around a charged conducting sphere?",
+      "options": [
+        "The lines are radial and perpendicular to the surface of the sphere",
+        "The lines are parallel to the surface of the sphere",
+        "The lines only exist inside the conducting sphere",
+        "The lines are directed from the centre of the sphere towards the south pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simple electric field patterns for a charged conducting sphere show lines that are radial (pointing straight out or in) and perpendicular to the surface.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-hard-q2",
+      "type": "mcq",
+      "question": "Two parallel plates are charged. Plate X is positive and Plate Y is negative. A beam of protons is fired horizontally between the plates. In which direction will the beam deflect?",
+      "options": [
+        "Towards Plate Y",
+        "Towards Plate X",
+        "It will not deflect",
+        "Into the page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protons are positively charged. The electric field direction is from the positive plate (X) to the negative plate (Y). Since positive charges experience a force in the direction of the field, the beam deflects towards Plate Y.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-hard-q3",
+      "type": "mcq",
+      "question": "What is the direction of the resultant electric field at the exact midpoint between two identical isolated positive charges?",
+      "options": [
+        "There is no electric field at this point (zero resultant)",
+        "Directed towards the charge on the left",
+        "Directed towards the charge on the right",
+        "Directed vertically upwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the midpoint between two identical like charges, the electric fields from each charge are equal in magnitude but opposite in direction. They cancel out, resulting in a zero field region.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-hard-q4",
+      "type": "mcq",
+      "question": "Why are electric field lines drawn such that they never cross each other?",
+      "options": [
+        "Because the field can only have one specific direction at any given point",
+        "Because the charges would neutralise if the lines crossed",
+        "Because lines only represent the path of electrons",
+        "Because the force on a neutral object is always zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the field line shows the direction of the force at that point. If lines crossed, the force would have two different directions at one point, which is physically impossible.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-hard-q5",
+      "type": "mcq",
+      "question": "A charged conducting sphere is placed in a vacuum. If a small positive test charge is moved from a distance of $10\\text{ cm}$ to $5\\text{ cm}$ from the centre of the sphere, how does the force on it change?",
+      "options": [
+        "The force increases because the field lines are more closely packed nearer the sphere",
+        "The force decreases because the test charge is now inside the field",
+        "The force remains constant because the sphere is a conductor",
+        "The force becomes zero at $5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines around a point charge or sphere are radial and become more closely packed (denser) as you get closer to the source, indicating a stronger field and thus a greater force.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

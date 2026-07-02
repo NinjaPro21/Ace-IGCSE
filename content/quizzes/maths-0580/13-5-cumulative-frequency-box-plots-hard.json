@@ -1,0 +1,77 @@
+{
+  "id": "13-5-cumulative-frequency-box-plots-hard",
+  "topicId": "13-5-cumulative-frequency-box-plots",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "hard",
+  "title": "Cumulative Frequency & Box Plots — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-5-cumulative-frequency-box-plots-hard-q1",
+      "type": "mcq",
+      "question": "In an examination for 60 students, the pass mark is set so that two-thirds of the students pass. How do you find this pass mark on a cumulative frequency curve?",
+      "options": [
+        "Read the mark corresponding to a cumulative frequency of 20",
+        "Read the mark corresponding to a cumulative frequency of 40",
+        "Multiply the median mark by $2/3$",
+        "Find the 66th percentile on the marks axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $2/3$ pass, then $1/3$ fail. $1/3$ of 60 is 20. The pass mark is the value on the horizontal axis where cumulative frequency is 20.\n\n**Common mistake:** Reading the mark at 40 ($2/3$ of 60), which would actually be the mark where only $1/3$ of students pass."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-hard-q2",
+      "type": "mcq",
+      "question": "A cumulative frequency graph shows the marks of 140 students. If the pass mark is 30, how would you find the number of students who passed?",
+      "options": [
+        "Find 30 on the horizontal axis, read up to the curve, then subtract that frequency from 140",
+        "Find 30 on the vertical axis and read across to the marks axis",
+        "Divide 140 by 30 and multiply by 100",
+        "Find the median and add 30 to it"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve tells you how many students scored 30 OR LESS. To find those who passed (scored more than 30), you must subtract that number from the total.\n\n**Common mistake:** Reading the cumulative frequency at mark 30 and assuming that is the number of students who passed."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-hard-q3",
+      "type": "mcq",
+      "question": "Two cumulative frequency curves for 60 children and 60 adults are plotted on the same axes. If the adult curve is generally to the right of the children's curve, what can be inferred?",
+      "options": [
+        "The adults generally guessed higher values than the children",
+        "The children were more consistent than the adults",
+        "The children had a higher median value",
+        "There were more adults than children in the sample"
+      ],
+      "correctIndex": 0,
+      "explanation": "A curve further to the right indicates that the values on the horizontal axis are higher for the same cumulative frequency percentiles.\n\n**Common mistake:** Confusing the horizontal position with frequency, or assuming a 'higher' curve on the graph means higher values."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-hard-q4",
+      "type": "mcq",
+      "question": "The interquartile range of Group A is 29 and Group B is 26. Which group's data is more consistent?",
+      "options": [
+        "Group B",
+        "Group A",
+        "They are equally consistent",
+        "Consistency depends on the median, not the IQR"
+      ],
+      "correctIndex": 0,
+      "explanation": "A smaller interquartile range (26 vs 29) indicates that the middle $50\\%$ of the data is less spread out, meaning the results are more consistent.\n\n**Common mistake:** Thinking a larger range or IQR means 'better' or more 'consistent' performance."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-hard-q5",
+      "type": "mcq",
+      "question": "A cumulative frequency curve is drawn for car speeds. For the speed limit of $60\\text{ km/h}$, the cumulative frequency is 110 out of a total of 150 cars. How many cars exceeded the speed limit?",
+      "options": [
+        "40",
+        "110",
+        "73%",
+        "150"
+      ],
+      "correctIndex": 0,
+      "explanation": "110 cars were travelling at $60\\text{ km/h}$ or less. The remaining cars ($150 - 110 = 40$) were exceeding the limit.\n\n**Common mistake:** Providing 110 as the answer, which represents the number of law-abiding drivers."
+    }
+  ]
+}

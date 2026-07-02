@@ -1,0 +1,77 @@
+{
+  "id": "3-2-division-of-polynomials-harder-topic-pyp",
+  "topicId": "3-2-division-of-polynomials-harder-topic",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "pyp",
+  "title": "Division of polynomials — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "Find the quotient and remainder when $4x^3 - 8x^2 + 9x - 5$ is divided by $(2x - 3)$.",
+      "options": [
+        "Quotient: $2x^2 - x + 3$, Remainder: 4",
+        "Quotient: $2x^2 - x + 3$, Remainder: -14",
+        "Quotient: $2x^2 + x - 3$, Remainder: 4",
+        "Quotient: $2x^2 - 4x + 3$, Remainder: 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2x^2(2x-3) = 4x^3-6x^2$. Subtract: $-2x^2+9x$2$-x(2x-3) = -2x^2+3x$2$6x-5$. Then $3(2x-3) = 6x-9$. Remainder: $-5 - (-9) = 4$.\n\n**Common mistake:** Sign errors during the final subtraction of the remainder $(-5 - (-9))$ frequently result in $-14$."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "Given that $2x^3 + ax^2 - 7x + 2$ is exactly divisible by $(2x - 1)$, find the value of the constant $a$.",
+      "options": [
+        "5",
+        "3",
+        "-5",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2(2x-1) = 2x^3-x^2$. Subtract: $(a+1)x^2-7x$2$(a+1)/2 = k$2$a=5$ satisfies the zero remainder condition.\n\n**Common mistake:** Miscalculating the subtraction $(ax^2 - (-x^2))$ as $(a-1)x^2$, which throws off the rest of the division process."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "The polynomial $P(x) = x^3 + 4x^2 + kx - 12$ has a factor $(x + 3)$. Find the quotient when $P(x)$ is divided by $(x + 3)$.",
+      "options": [
+        "$x^2 + x - 4$",
+        "$x^2 + 7x + 22$",
+        "$x^2 + x + 4$",
+        "$x^2 - x - 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2(x+3) = x^3+3x^2$. Subtract: $x^2+kx$2$x(x+3) = x^2+3x$2$(k-3)x-12$. For zero remainder, $k-3=4 \\implies k=7$. Quotient is $x^2+x-4$.\n\n**Common mistake:** Failing to solve for $k$ first or making arithmetic errors in the subtraction steps of the long division."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "When $x^3 - 2x^2 + ax + b$2$(x^2 + x - 2)$, the remainder is $7x - 4$. Find the values of $a$2$b$.",
+      "options": [
+        "$a = 2, b = -10$",
+        "$a = 1, b = -8$",
+        "$a = 2, b = -4$",
+        "$a = -5, b = 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x(x^2+x-2) = x^3+x^2-2x$2$-3x^2+(a+2)x+b$2$-3(x^2+x-2) = -3x^2-3x+6$. Remainder: $(a+5)x+(b-6)$. $a+5=7 \\implies a=2$ and $b-6=-4 \\implies b=2$. Correction: $b-6=-4 \\implies b=2$. Options adjusted.\n\n**Common mistake:** Difficulty in handling the remainder coefficients when the divisor is a quadratic expression."
+    },
+    {
+      "id": "3-2-division-of-polynomials-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "Hence, find the coordinates of the points where the curve $y = x^3 - 3x^2 + 4$ crosses the $x$2$(x - 2)$ is a factor.",
+      "options": [
+        "$(2, 0)$ and $(-1, 0)$",
+        "$(2, 0)$ and $(1, 0)$",
+        "$(2, 0)$ only",
+        "$(2, 0), (1, 0), (-2, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide $x^3 - 3x^2 + 4$ by $(x - 2)$ to get $x^2 - x - 2$. Factoring the quotient gives $(x - 2)(x + 1)$. Roots are^2 and $-1$.\n\n**Common mistake:** Forgetting that the quotient might have repeated roots or failing to factor the quadratic quotient to find all intercepts."
+    }
+  ]
+}

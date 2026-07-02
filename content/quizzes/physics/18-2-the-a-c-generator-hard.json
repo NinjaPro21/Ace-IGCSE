@@ -1,0 +1,77 @@
+{
+  "id": "18-2-the-a-c-generator-hard",
+  "topicId": "18-2-the-a-c-generator",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "The A.c. Generator — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-2-the-a-c-generator-hard-q1",
+      "type": "mcq",
+      "question": "An a.c. generator produces an output with a frequency of $5.0\\text{ Hz}$. Calculate the time taken for one complete rotation of the coil.",
+      "options": [
+        "$0.2\\text{ s}$",
+        "$5.0\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$1.0\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The time for one cycle (period $T$) is the reciprocal of frequency: $T = 1/f = 1 / 5.0 = 0.2\\text{ s}$. \n\n**Common mistake:** Multiplying frequency by time or assuming the period is $1.0\\text{ s}$ by default."
+    },
+    {
+      "id": "18-2-the-a-c-generator-hard-q2",
+      "type": "mcq",
+      "question": "Why is the induced e.m.f. zero when the plane of the generator coil is vertical (perpendicular to the magnetic field)?",
+      "options": [
+        "The sides of the coil are moving parallel to the field lines and not cutting them.",
+        "The magnetic field is weakest at the top and bottom of the magnets.",
+        "The slip rings lose contact with the brushes in this position.",
+        "The current in the two sides of the coil cancels itself out."
+      ],
+      "correctIndex": 0,
+      "explanation": "When the coil is vertical, its motion is momentarily parallel to the magnetic field lines, meaning no lines are being cut and no e.m.f. is induced. \n\n**Common mistake:** Thinking the e.m.f. is maximum because the coil 'occupies' the most space between the poles."
+    },
+    {
+      "id": "18-2-the-a-c-generator-hard-q3",
+      "type": "mcq",
+      "question": "If a generator coil makes 1200 revolutions in one minute, what is the frequency of the alternating current produced?",
+      "options": [
+        "$20\\text{ Hz}$",
+        "$1200\\text{ Hz}$",
+        "$60\\text{ Hz}$",
+        "$0.05\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is cycles per second. $1200$ revolutions per minute $= 1200 / 60$ seconds $= 20$ cycles per second ($20\\text{ Hz}$). \n\n**Common mistake:** Using the 'per minute' value directly as hertz."
+    },
+    {
+      "id": "18-2-the-a-c-generator-hard-q4",
+      "type": "mcq",
+      "question": "Identify the correct energy conversion that takes place in a working a.c. generator.",
+      "options": [
+        "Mechanical energy $rightarrow$ Electrical energy",
+        "Electrical energy $rightarrow$ Mechanical energy",
+        "Chemical energy $rightarrow$ Electrical energy",
+        "Electrical energy $rightarrow$ Thermal energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "A generator uses the mechanical work of rotating a coil to produce electrical energy. \n\n**Common mistake:** Selecting Choice B, which describes the function of an electric motor."
+    },
+    {
+      "id": "18-2-the-a-c-generator-hard-q5",
+      "type": "mcq",
+      "question": "In a practical generator, the coil is often wound around a soft iron core. What is the purpose of this core?",
+      "options": [
+        "To concentrate the magnetic field lines through the coil.",
+        "To provide electrical insulation for the copper wires.",
+        "To allow the generator to produce direct current.",
+        "To reduce the weight of the rotating assembly."
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is easily magnetised and helps to concentrate the magnetic flux, increasing the strength of the magnetic field linking the coil. \n\n**Common mistake:** Thinking the iron core acts as a battery to store the electricity produced."
+    }
+  ]
+}

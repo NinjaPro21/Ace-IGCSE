@@ -1,0 +1,77 @@
+{
+  "id": "9-4-plotting-curves-easy",
+  "topicId": "9-4-plotting-curves",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Plotting Curves — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-4-plotting-curves-easy-q1",
+      "type": "mcq",
+      "question": "Determine the shape of the graph represented by the function $y = 10 - 3x^2$.",
+      "options": [
+        "An ∩-shaped curve with a maximum point",
+        "A ∪-shaped curve with a minimum point",
+        "A straight line sloping downwards",
+        "A curve with two branches and two asymptotes"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a quadratic function $y = ax^2 + bx + c$2$x^2$ ($a$) is negative, the curve is ∩-shaped and has a maximum turning point.\n\n**Common mistake:** A student might assume all quadratics are ∪-shaped or confuse the negative constant with a negative gradient of a linear graph."
+    },
+    {
+      "id": "9-4-plotting-curves-easy-q2",
+      "type": "mcq",
+      "question": "Identify the coordinates of the $y$2$y = x^3 + 5x^2 - 2x - 7$.",
+      "options": [
+        "$(0, -7)$",
+        "$(0, 1)$",
+        "$(-7, 0)$",
+        "$(0, 7)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The $y$2$x = 0$. Substituting $x = 0$ into the equation leaves only the constant term, $-7$.\n\n**Common mistake:** The student might provide the $x$-intercept or forget the negative sign of the constant."
+    },
+    {
+      "id": "9-4-plotting-curves-easy-q3",
+      "type": "mcq",
+      "question": "What is the equation of the horizontal asymptote for the exponential function $y = 3^x + 4$?",
+      "options": [
+        "$y = 4$",
+        "$y = 0$",
+        "$x = 0$",
+        "$y = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An exponential function of the form $y = a^x + c$2$y = c$2$a^x$ term can approach but never reach zero.\n\n**Common mistake:** The student may assume the asymptote is always the $x$2$y = 0$) regardless of the vertical shift."
+    },
+    {
+      "id": "9-4-plotting-curves-easy-q4",
+      "type": "mcq",
+      "question": "For the reciprocal function $y = 8/x$2$y$2$x$ becomes a very large positive number?",
+      "options": [
+        "$y$ approaches 0",
+        "$y$ approaches 8",
+        "$y$ approaches infinity",
+        "$y$ remains constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a reciprocal function $y = k/x$2$x$2$k/x$2$y = 0$.\n\n**Common mistake:** The student might think $y$2$k$."
+    },
+    {
+      "id": "9-4-plotting-curves-easy-q5",
+      "type": "mcq",
+      "question": "Which function represents exponential decay?",
+      "options": [
+        "$y = 5 \\cdot (0.2)^x$",
+        "$y = 0.2 \\cdot 5^x$",
+        "$y = x^2 + 0.2$",
+        "$y = 5x - 0.2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exponential decay occurs in functions of the form $y = ab^x$2$b$ is strictly between 0 and 1.\n\n**Common mistake:** A student may confuse the initial value $a$2$b$."
+    }
+  ]
+}

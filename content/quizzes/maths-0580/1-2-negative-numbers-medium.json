@@ -1,0 +1,77 @@
+{
+  "id": "1-2-negative-numbers-medium",
+  "topicId": "1-2-negative-numbers",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Negative Numbers — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-2-negative-numbers-medium-q1",
+      "type": "mcq",
+      "question": "Evaluate $(-4)^2 + 3 \\times (-5) - (-8)$.",
+      "options": [
+        "9",
+        "-1",
+        "-23",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate powers first: $(-4)^2 = 16$. Next multiply: $3 \\times (-5) = -15$. Substitute back: $16 + (-15) - (-8) = 16 - 15 + 8 = 1 + 8 = 9$.\n\n**Common mistake:** Students calculate $(-4)^2 = -16$, which changes the sum completely."
+    },
+    {
+      "id": "1-2-negative-numbers-medium-q2",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{-4 \\times (-6) + (-3) \\times 8}{-2 - (-4)}$.",
+      "options": [
+        "0",
+        "24",
+        "-24",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator calculations: $-4 \\times (-6) = 24$, and $-3 \\times 8 = -24$. Adding them gives $24 + (-24) = 0$. Denominator is $-2 + 4 = 2$. $0 \\div 2 = 0$.\n\n**Common mistake:** Students simplify the denominator incorrectly as $-2 - 4 = -6$."
+    },
+    {
+      "id": "1-2-negative-numbers-medium-q3",
+      "type": "mcq",
+      "question": "Find the value of $x$2$x = \\frac{-35 \\div (-5) - 12}{(-1)^5}$.",
+      "options": [
+        "5",
+        "-5",
+        "19",
+        "-19"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator division: $-35 \\div (-5) = 7$. Numerator becomes $7 - 12 = -5$. Denominator is $(-1)^5 = -1$. Final quotient: $-5 \\div (-1) = 5$.\n\n**Common mistake:** Students assume an odd power preserves a positive sign, taking $(-1)^5 = 1$."
+    },
+    {
+      "id": "1-2-negative-numbers-medium-q4",
+      "type": "mcq",
+      "question": "Simplify the continuous sequence calculation: $-2 \\times (-3)^2 - (-4) \\times (-2)$.",
+      "options": [
+        "-26",
+        "-10",
+        "10",
+        "26"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the index first: $(-3)^2 = 9$. Multiply: $-2 \\times 9 = -18$. Next, evaluate the second product: $(-4) \\times (-2) = 8$. Subtract the terms: $-18 - (8) = -26$.\n\n**Common mistake:** Multiplying $-2 \\times -3$ before squaring is a classic error that results in $6^2 = 36$."
+    },
+    {
+      "id": "1-2-negative-numbers-medium-q5",
+      "type": "mcq",
+      "question": "A submarine is at a depth of $-150\\text{ m}$. It rises by $45\\text{ m}$, and then drops by $60\\text{ m}$. Find its final position.",
+      "options": [
+        "-165 m",
+        "-135 m",
+        "-45 m",
+        "-255 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Track step changes mathematically: $-150 + 45 - 60 = -105 - 60 = -165\\text{ m}$.\n\n**Common mistake:** Students add all scalars together without tracking sign changes correctly."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "12-4-refraction-by-thin-lenses-medium",
+  "topicId": "12-4-refraction-by-thin-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "medium",
+  "title": "Refraction by Thin Lenses — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-refraction-by-thin-lenses-medium-q1",
+      "type": "mcq",
+      "question": "A student uses a magnifying glass to focus the Sun's rays onto a piece of paper. A small bright spot is formed when the lens is $12\\text{ cm}$ from the paper. What is the focal length of the lens?",
+      "options": [
+        "$12\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$24\\text{ cm}$",
+        "It cannot be determined without the Sun's distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the Sun is a distant object, its rays are parallel. These rays focus at the focal point, so the distance from the lens to the bright spot is the focal length.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-medium-q2",
+      "type": "mcq",
+      "question": "If a parallel beam of light is incident on a thin converging lens at an angle (not parallel to the principal axis), where will the rays meet?",
+      "options": [
+        "At a point on the focal plane",
+        "At the principal focus $F$",
+        "At the optical centre $C$",
+        "They will never meet because they diverge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rays that are parallel to each other but not to the principal axis are refracted to a point on the focal plane, rather than the specific principal focus $F$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-medium-q3",
+      "type": "mcq",
+      "question": "Lens X and Lens Y are both made of the same glass. Lens X has more curved surfaces than Lens Y. Which statement is correct?",
+      "options": [
+        "Lens X has a shorter focal length than Lens Y",
+        "Lens Y has a shorter focal length than Lens X",
+        "Both lenses have the same focal length",
+        "Lens X is a diverging lens and Lens Y is a converging lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increased curvature of a lens surface causes individual rays to refract by larger angles, which brings them to a focus closer to the lens (shorter focal length).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-medium-q4",
+      "type": "mcq",
+      "question": "What is the primary action of a thin diverging lens on a parallel beam of light?",
+      "options": [
+        "It causes light rays to spread out as if they came from a point",
+        "It causes light rays to converge to a single point",
+        "It reflects the light rays back towards the source",
+        "It has no effect on the direction of parallel rays"
+      ],
+      "correctIndex": 0,
+      "explanation": "A diverging lens is thinner in the centre and causes parallel light rays to diverge (spread out) from a point.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-medium-q5",
+      "type": "mcq",
+      "question": "How many focal points (principal focuses) does a single thin lens have?",
+      "options": [
+        "Two",
+        "One",
+        "Four",
+        "Zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lens has two focal points, one located on each side of the lens at an equal distance from the optical centre.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

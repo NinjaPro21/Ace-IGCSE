@@ -1,0 +1,207 @@
+{
+  "id": "ch02-motion-pyp",
+  "topicId": "ch02-motion",
+  "chapterId": "ch02-motion",
+  "difficulty": "pyp",
+  "title": "Chapter 2: Motion — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch02-motion-pyp-q1",
+      "type": "mcq",
+      "question": "A car travels from town A to town B, and then to town C. It takes 0.5 h to travel 50 km from A to B. It stops for 0.25 h in town B, then travels 30 km to town C in 1.25 h. What is the average speed for the whole journey?",
+      "options": [
+        "40 km/h",
+        "45 km/h",
+        "53 km/h",
+        "80 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Total distance = 50 + 30 = 80 km$. $Total time = 0.5 + 0.25 + 1.25 = 2.0 h$. $Average speed = 80 / 2.0 = 40 km/h$. \n\n**Common mistake:** Ignoring the time spent stopped at town B."
+    },
+    {
+      "id": "ch02-motion-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement correctly defines velocity?",
+      "options": [
+        "Speed in a given direction",
+        "Distance travelled per unit time",
+        "The change in speed per unit time",
+        "The total distance divided by the total time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is a vector quantity defined as speed in a specified direction. \n\n**Common mistake:** Defining speed (distance/time) without the directional component."
+    },
+    {
+      "id": "ch02-motion-pyp-q3",
+      "type": "mcq",
+      "question": "A speed–time graph shows a horizontal line at a speed of 12 m/s for 10 s. What is the distance travelled during this time?",
+      "options": [
+        "120 m",
+        "1.2 m",
+        "60 m",
+        "0 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is the area under the speed–time graph. For a horizontal line, it is a rectangle: $12 m/s \\times 10 s = 120 m$. \n\n**Common mistake:** Dividing speed by time to get $1.2 m$."
+    },
+    {
+      "id": "ch02-motion-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table is correct?",
+      "options": [
+        "Quantity: Acceleration; Type: Vector; Unit: $m/s^2$",
+        "Quantity: Speed; Type: Vector; Unit: $m/s$",
+        "Quantity: Velocity; Type: Scalar; Unit: $m/s$",
+        "Quantity: Distance; Type: Vector; Unit: $m$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is a change in velocity over time, making it a vector with unit $m/s^2$. \n\n**Common mistake:** Confusing speed (scalar) and velocity (vector) types."
+    },
+    {
+      "id": "ch02-motion-pyp-q5",
+      "type": "mcq",
+      "question": "A car accelerates uniformly from 5 m/s to 13 m/s in 4.0 s. What is its acceleration?",
+      "options": [
+        "2.0 $m/s^2$",
+        "0.5 $m/s^2$",
+        "0.8 $m/s^2$",
+        "1.25 $m/s^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a = (13 - 5) / 4.0 = 8 / 4 = 2.0 m/s^2$. \n\n**Common mistake:** Inverting the calculation to get $0.5$ ($4 / 8$)."
+    },
+    {
+      "id": "ch02-motion-pyp-q6",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies what the gradient and area under a speed–time graph represent?",
+      "options": [
+        "Gradient: Acceleration; Area: Distance",
+        "Gradient: Speed; Area: Acceleration",
+        "Gradient: Distance; Area: Acceleration",
+        "Gradient: Acceleration; Area: Speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the gradient of a speed–time graph is the rate of change of velocity (acceleration), and the area represents the product of speed and time (distance). \n\n**Common mistake:** Swapping the roles of gradient and area."
+    },
+    {
+      "id": "ch02-motion-pyp-q7",
+      "type": "mcq",
+      "question": "A speed–time graph for a car shows a straight line from $(0,0)$ to $(4\\text{ s}, 15\\text{ m/s})$. What distance does the car travel in these $4\\text{ s}$?",
+      "options": [
+        "$30\\text{ m}$",
+        "$60\\text{ m}$",
+        "$3.75\\text{ m}$",
+        "$15\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance = Area of the triangle under the speed–time graph $= 1/2 \\times base \\times height = 1/2 \\times 4 \\times 15 = 30\\text{ m}$. \n\n**Common mistake:** Simply multiplying base \\times height ($4 \\times 15 = 60$) without including the $1/2$ for a triangle."
+    },
+    {
+      "id": "ch02-motion-pyp-q8",
+      "type": "mcq",
+      "question": "Which speed–time graph represents an object that is decelerating non-uniformly?",
+      "options": [
+        "A line curving downwards with a changing gradient",
+        "A horizontal line above the x-axis",
+        "A straight line with a negative gradient",
+        "A straight line with a positive gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deceleration is a negative gradient. 'Non-uniform' means the gradient is changing, which is represented by a curve. \n\n**Common mistake:** Selecting a straight line with a negative gradient, which represents uniform deceleration."
+    },
+    {
+      "id": "ch02-motion-pyp-q9",
+      "type": "mcq",
+      "question": "A car travels at $15\\text{ m/s}$. The driver sees a hazard and takes $0.4\\text{ s}$ to react before applying the brakes. What is the 'thinking distance' represented on a speed–time graph?",
+      "options": [
+        "The area of a rectangle: $15\\text{ m/s} \\times 0.4\\text{ s} = 6\\text{ m}$",
+        "The gradient: $15 / 0.4 = 37.5\\text{ m}$",
+        "The area of a triangle: $1/2 \\times 15 \\times 0.4 = 3\\text{ m}$",
+        "The change in speed: $15 - 0 = 15\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "During reaction time, the car continues at constant speed. This part of the speed–time graph is a rectangle. $Distance = 15 \\times 0.4 = 6\\text{ m}$. \n\n**Common mistake:** Treating reaction time as an acceleration phase and using a triangle formula ($3\\text{ m}$)."
+    },
+    {
+      "id": "ch02-motion-pyp-q10",
+      "type": "mcq",
+      "question": "An object falls in a vacuum where there is no air resistance. Which graph describes its speed over time?",
+      "options": [
+        "A straight line with a constant positive gradient",
+        "A curved line that flattens out to a horizontal line",
+        "A horizontal line above the x-axis",
+        "A curved line that gets steeper over time"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, the only force is weight, so the object has a constant acceleration of $g = 10\\text{ m/s}^2$. Constant acceleration is a straight line with a constant gradient on a speed–time graph. \n\n**Common mistake:** Choosing the terminal velocity curve (flattening line), which only occurs with air resistance."
+    },
+    {
+      "id": "ch02-motion-pyp-q11",
+      "type": "mcq",
+      "question": "A skydiver falls through the air. Initially, his speed increases. What happens to his acceleration as he falls?",
+      "options": [
+        "It decreases until it becomes zero",
+        "It remains constant at $9.8\\text{ m/s}^2$",
+        "It increases as his speed increases",
+        "It remains constant at $0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air resistance increases with speed, reducing the resultant force and decreasing acceleration until terminal velocity is reached ($a = 0$). \n\n**Common mistake:** Confusing speed and acceleration; speed increases while acceleration decreases."
+    },
+    {
+      "id": "ch02-motion-pyp-q12",
+      "type": "mcq",
+      "question": "The diagram shows a speed–time graph for an object falling in a uniform gravitational field. Which section of the graph shows terminal velocity?",
+      "options": [
+        "The horizontal section",
+        "The straight diagonal section starting from the origin",
+        "The curved section between the diagonal and horizontal",
+        "The area under the whole graph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terminal velocity occurs when the speed is constant, shown as a horizontal line on a speed–time graph. \n\n**Common mistake:** Selecting the diagonal section, which represents constant acceleration."
+    },
+    {
+      "id": "ch02-motion-pyp-q13",
+      "type": "mcq",
+      "question": "Which statement describes the motion of an object falling in a vacuum near the Earth's surface?",
+      "options": [
+        "It falls with a constant acceleration of $9.8\\text{ m/s}^2$",
+        "It falls with a constant speed of $9.8\\text{ m/s}$",
+        "Its acceleration decreases as its speed increases",
+        "Heavier objects fall with greater acceleration than lighter objects"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, there is no air resistance to decrease acceleration, so it remains constant at $g$. \n\n**Common mistake:** Thinking terminal velocity applies in a vacuum."
+    },
+    {
+      "id": "ch02-motion-pyp-q14",
+      "type": "mcq",
+      "question": "A ball is thrown vertically upwards. At its highest point, what are its speed and acceleration? (Take $g = 10\\text{ m/s}^2$ and ignore air resistance)",
+      "options": [
+        "Speed: $0\\text{ m/s}$; Acceleration: $10\\text{ m/s}^2$ downwards",
+        "Speed: $0\\text{ m/s}$; Acceleration: $0\\text{ m/s}^2$",
+        "Speed: $10\\text{ m/s}$; Acceleration: $10\\text{ m/s}^2$ downwards",
+        "Speed: $0\\text{ m/s}$; Acceleration: $10\\text{ m/s}^2$ upwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the peak, the speed is momentarily zero. However, gravity ($g$) still acts on the ball, providing a constant acceleration of $10\\text{ m/s}^2$ downwards. \n\n**Common mistake:** Thinking acceleration is zero when speed is zero."
+    },
+    {
+      "id": "ch02-motion-pyp-q15",
+      "type": "mcq",
+      "question": "An object falling through air reaches terminal velocity. Which statement about the forces is correct?",
+      "options": [
+        "The weight is equal to the air resistance",
+        "The weight is greater than the air resistance",
+        "The air resistance is greater than the weight",
+        "There are no forces acting on the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terminal velocity is reached when the upward force of air resistance balances the downward force of weight, resulting in zero acceleration. \n\n**Common mistake:** Thinking air resistance must be greater than weight for the speed to stop increasing."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "9-2-coordinate-geometry-pyp",
+  "topicId": "9-2-coordinate-geometry",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "pyp",
+  "title": "Coordinate Geometry — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-coordinate-geometry-pyp-q1",
+      "type": "mcq",
+      "question": "Calculate the length of the line segment joining the points (−3,−2) and (5,4).",
+      "options": [
+        "10",
+        "\\sqrt{14}",
+        "8",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Length =\nsqrt(5−(−3)$)^{2}$+(4−(−2)$)^{2}$=\nsqrt$8^{2}$+$6^{2}$=\nsqrt100=10.\n\n**Common mistake:** A student might subtract the coordinates incorrectly (e.g., 5−3=2) due to a sign error."
+    },
+    {
+      "id": "9-2-coordinate-geometry-pyp-q2",
+      "type": "mcq",
+      "question": "Find the equation of the line which passes through the point (5,−2) and is parallel to the line y=4x+1.",
+      "options": [
+        "y=4x−22",
+        "y=4x+18",
+        "y=−0.25x−0.75",
+        "y=4x−20"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel lines have m=4. y−(−2)=4(x−5)\nRightarrowy+2=4x−20\nRightarrowy=4x−22.\n\n**Common mistake:** The student might change the gradient to −0.25 or incorrectly add/subtract constants."
+    },
+    {
+      "id": "9-2-coordinate-geometry-pyp-q3",
+      "type": "mcq",
+      "question": "The line 2y+x=6 is parallel to line L, which passes through (2,10). Work out the coordinates of the point where L crosses the y-axis.",
+      "options": [
+        "(0,11)",
+        "(0,6)",
+        "(0,4)",
+        "(11,0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$L^{1}$\nhas m=−0.5. L also has m=−0.5. y−10=−0.5(x−2)\nRightarrowy=−0.5x+11. y-intercept is (0,11).\n\n**Common mistake:** The student might use the gradient of −0.5 from the first equation but fail to account for the passing point (2,10)."
+    },
+    {
+      "id": "9-2-coordinate-geometry-pyp-q4",
+      "type": "mcq",
+      "question": "The midpoint of the line segment joining (a,7) and (10,b) is (3,4). Work out the values of a and b.",
+      "options": [
+        "a=−4,b=1",
+        "a=4,b=−1",
+        "a=3,b=4",
+        "a=−7,b=1"
+      ],
+      "correctIndex": 0,
+      "explanation": "(a+10)/2=3\nRightarrowa+10=6\nRightarrowa=−4. Also, (7+b)/2=4\nRightarrow7+b=8\nRightarrowb=1.\n\n**Common mistake:** The student might multiply the endpoint by 2 instead of the midpoint, or perform the addition incorrectly."
+    },
+    {
+      "id": "9-2-coordinate-geometry-pyp-q5",
+      "type": "mcq",
+      "question": "Show that the line joining (1,1) and (3,5) is perpendicular to the line joining (0,4) and (4,2). What is the product of their gradients?",
+      "options": [
+        "−1",
+        "1",
+        "−2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$m^{1}$\n=(5−1)/(3−1)=2$.$2m^{2}$$\n=(2−4)/(4−0)=−0.5. Product 2\ntimes−0.5=−1.\n\n**Common mistake:** The student might think the product should be 1 or fail to calculate one of the gradients correctly."
+    }
+  ]
+}

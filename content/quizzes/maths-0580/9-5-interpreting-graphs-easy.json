@@ -1,0 +1,77 @@
+{
+  "id": "9-5-interpreting-graphs-easy",
+  "topicId": "9-5-interpreting-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Interpreting Graphs — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-5-interpreting-graphs-easy-q1",
+      "type": "mcq",
+      "question": "A conversion graph is used to change Litres ($L$2$G$2$(0, 0)$ and $(50, 11)$. Use this to find the approximate value of $25$ Litres in Gallons.",
+      "options": [
+        "$5.5$ Gallons",
+        "$11$ Gallons",
+        "$2.2$ Gallons",
+        "$12.5$ Gallons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the graph is a straight line through the origin, we use proportion. $25$ is half of $50$, so the value in Gallons is half of $11$, which is $5.5$.\n\n**Common mistake:** A student might accidentally multiply $25$ by $11$ or divide $50$ by $25$ and think the answer is $2$."
+    },
+    {
+      "id": "9-5-interpreting-graphs-easy-q2",
+      "type": "mcq",
+      "question": "On a distance–time graph, what physical quantity is represented by the gradient of the line?",
+      "options": [
+        "Speed",
+        "Acceleration",
+        "Total distance",
+        "Time taken"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of a distance–time graph is calculated as $change in distance / change in time$, which is the definition of speed.\n\n**Common mistake:** Students often confuse distance–time graphs with speed–time graphs and answer 'acceleration'."
+    },
+    {
+      "id": "9-5-interpreting-graphs-easy-q3",
+      "type": "mcq",
+      "question": "In a speed–time graph, how is the total distance travelled determined?",
+      "options": [
+        "The area under the graph",
+        "The gradient of the line",
+        "The final value on the y-axis",
+        "The product of the maximum speed and total time"
+      ],
+      "correctIndex": 0,
+      "explanation": "For any speed–time graph, the distance travelled during a section of the journey is the area under the graph for that part of the journey.\n\n**Common mistake:** A student might pick the gradient, which actually represents acceleration on a speed–time graph."
+    },
+    {
+      "id": "9-5-interpreting-graphs-easy-q4",
+      "type": "mcq",
+      "question": "A bike rental shop charges a fixed fee of $15$ plus\n\n$5$ per hour. If a graph is drawn with Cost ($C$2$h$2$y$-intercept?",
+      "options": [
+        "$(0, 15)$",
+        "$(0, 5)$",
+        "$(15, 0)$",
+        "$(5, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fixed fee represents the cost when Time = 0. In the linear equation $C = 5h + 15$, the constant $15$ is the $y$-intercept.\n\n**Common mistake:** The student might identify the rate of change ($5$) as the intercept."
+    },
+    {
+      "id": "9-5-interpreting-graphs-easy-q5",
+      "type": "mcq",
+      "question": "A section of a speed–time graph is a straight line sloping downwards from left to right. What does this indicate about the object's motion?",
+      "options": [
+        "Constant deceleration",
+        "Constant speed",
+        "Increasing acceleration",
+        "The object is moving backwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "A downward slope on a speed–time graph indicates a negative gradient, which represents deceleration.\n\n**Common mistake:** A student might think the object is returning to the start, which would be true on a distance–time graph but not a speed–time graph."
+    }
+  ]
+}

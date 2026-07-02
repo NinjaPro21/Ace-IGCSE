@@ -1,0 +1,77 @@
+{
+  "id": "12-4-12-5-transformations-pyp",
+  "topicId": "12-4-12-5-transformations",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "pyp",
+  "title": "Transformations — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-12-5-transformations-pyp-q1",
+      "type": "mcq",
+      "question": "Describe fully the single transformation that maps triangle $A$2$(1, 1), (2, 1), (1, 2)$ onto triangle $B$2$(-1, -1), (-2, -1), (-1, -2)$.",
+      "options": [
+        "Rotation of $180°$ about the origin $(0, 0)$",
+        "Enlargement, scale factor $-1$, centre $(1, 1)$",
+        "Reflection in the line $y = -x$",
+        "Translation by vector $\\begin{pmatrix} -2 \\ -2 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coordinates $(x, y)$ have both been negated to $(-x, -y)$, which is the coordinate rule for a $180°$ rotation about the origin.\n\n**Common mistake:** A student might describe this as a reflection in both axes, which is correct but the question asks for a 'single' transformation."
+    },
+    {
+      "id": "12-4-12-5-transformations-pyp-q2",
+      "type": "mcq",
+      "question": "Triangle $P$2$Q$2$\\begin{pmatrix} 3 \\ -2 \\end{pmatrix}$. Triangle $Q$2$R$2$\\begin{pmatrix} -1 \\ 4 \\end{pmatrix}$. Describe the single transformation that maps $P$2$R$.",
+      "options": [
+        "Translation by vector $\\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$",
+        "Translation by vector $\\begin{pmatrix} 4 \\ 2 \\end{pmatrix}$",
+        "Rotation $180°$ about $(1, 1)$",
+        "Enlargement, scale factor $2$, centre $(0, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The single transformation for successive translations is the sum of the vectors: $\\begin{pmatrix} 3-1 \\ -2+4 \\end{pmatrix} = \\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** A student might subtract the vectors or only apply one of the translations."
+    },
+    {
+      "id": "12-4-12-5-transformations-pyp-q3",
+      "type": "mcq",
+      "question": "Find the coordinates of the image of point $(2, 5)$ after an enlargement with scale factor $2$ and centre $(1, 3)$.",
+      "options": [
+        "$(3, 7)$",
+        "$(4, 10)$",
+        "$(5, 9)$",
+        "$(3, 10)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vector from centre to point is $\\begin{pmatrix} 1 \\ 2 \\end{pmatrix}$. Scaled vector is $2 \\times \\begin{pmatrix} 1 \\ 2 \\end{pmatrix} = \\begin{pmatrix} 2 \\ 4 \\end{pmatrix}$. Image is $(1+2, 3+4) = (3, 7)$.\n\n**Common mistake:** The student might multiply the original coordinates by 2 and ignore the centre."
+    },
+    {
+      "id": "12-4-12-5-transformations-pyp-q4",
+      "type": "mcq",
+      "question": "Triangle $ABC$2$A'B'C'$ by a reflection in the line $x = 1$. If $A$2$(4, 3)$, work out the coordinates of $A'$.",
+      "options": [
+        "$(-2, 3)$",
+        "$(1, 3)$",
+        "$(-4, 3)$",
+        "$(6, 3)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The $x$2$A(4, 3)$ to the line $x = 1$ is $4 - 1 = 3$ units. The image is $3$ units on the other side: $1 - 3 = -2$. The $y$-coordinate stays 3.\n\n**Common mistake:** A student might subtract 1 from 4 incorrectly or think the image is at $x=1$."
+    },
+    {
+      "id": "12-4-12-5-transformations-pyp-q5",
+      "type": "mcq",
+      "question": "Hence, describe fully the single transformation equivalent to a reflection in the $x$2$y$-axis.",
+      "options": [
+        "Rotation $180°$ about $(0, 0)$",
+        "Reflection in the line $y = -x$",
+        "Reflection in the line $y = x$",
+        "Rotation $90°$ clockwise about $(0, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection in $x$2$(x, y) \\to (x, -y)$. Subsequent reflection in $y$2$(x, -y) \\to (-x, -y)$. This is a $180°$ rotation about the origin.\n\n**Common mistake:** A student might assume two reflections in different lines always result in another reflection."
+    }
+  ]
+}

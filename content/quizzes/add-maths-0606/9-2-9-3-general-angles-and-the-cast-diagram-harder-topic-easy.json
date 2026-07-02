@@ -1,0 +1,77 @@
+{
+  "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-easy",
+  "topicId": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "easy",
+  "title": "General Angles and the CAST Diagram — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "In which quadrant is the sine ratio $\\sin \\theta$2$\\cos \\theta$ is negative?",
+      "options": [
+        "Second Quadrant ($90^\\circ < \\theta < 180^\\circ$)",
+        "First Quadrant ($0^\\circ < \\theta < 90^\\circ$)",
+        "Third Quadrant ($180^\\circ < \\theta < 270^\\circ$)",
+        "Fourth Quadrant ($270^\\circ < \\theta < 360^\\circ$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the CAST diagram, only Sine is positive in the second quadrant, while all are positive in the first, tangent in the third, and cosine in the fourth. Note: These questions are generated based on the syllabus topics in Chapter 9, as specific exercises are not in the excerpts.\n\n**Common mistake:** Students often confuse the quadrants where only one specific ratio is positive, mistakenly thinking Sine is positive in the third quadrant."
+    },
+    {
+      "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Find the exact value of $\\tan 225^\\circ$.",
+      "options": [
+        "$1$",
+        "$-1$",
+        "$\\sqrt{3}$",
+        "$\\frac{1}{\\sqrt{3}}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$225^\\circ$2$225 - 180 = 45^\\circ$2$\\tan 45^\\circ = 1$.\n\n**Common mistake:** Option B is chosen if the student identifies the correct reference angle but incorrectly applies a negative sign for the third quadrant."
+    },
+    {
+      "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "State the basic acute reference angle for a general angle of $310^\\circ$.",
+      "options": [
+        "$50^\\circ$",
+        "$40^\\circ$",
+        "$130^\\circ$",
+        "$-50^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an angle in the fourth quadrant ($270^\\circ$2$360^\\circ$2$360^\\circ - \\theta$2$360 - 310 = 50^\\circ$.\n\n**Common mistake:** Option B occurs if the student subtracts from $270^\\circ$2$360^\\circ$."
+    },
+    {
+      "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "A point $P(-4, 3)$ lies on the terminal side of an angle $\\theta$2$\\sin \\theta$.",
+      "options": [
+        "$0.6$",
+        "$-0.8$",
+        "$0.75$",
+        "$-0.6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance $r = \\sqrt{(-4)^2 + 3^2} = 5$. Then $\\sin \\theta = y/r = 3/5 = 0.6$.\n\n**Common mistake:** Option D occurs if the student incorrectly applies the negative sign from the x-coordinate to the sine ratio."
+    },
+    {
+      "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Express $\\cos 120^\\circ$ in terms of its basic reference angle.",
+      "options": [
+        "$-\\cos 60^\\circ$",
+        "$\\cos 60^\\circ$",
+        "$-\\sin 30^\\circ$",
+        "$\\cos 30^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$120^\\circ$2$180 - 120 = 60^\\circ$2$\\cos 120^\\circ = -\\cos 60^\\circ$.\n\n**Common mistake:** Option B is chosen by students who forget that cosine is negative in the second quadrant."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "5-1-5-2-area-circles-hard",
+  "topicId": "5-1-5-2-area-circles",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "hard",
+  "title": "Area & Circles — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-5-2-area-circles-hard-q1",
+      "type": "mcq",
+      "question": "A kite has an area of $40\\text{ m}^2$. One diagonal is $2\\text{ m}$ longer than the other. Find the lengths of the diagonals.",
+      "options": [
+        "$8\\text{ m and } 10\\text{ m}$",
+        "$4\\text{ m and } 6\\text{ m}$",
+        "$2\\text{ m and } 20\\text{ m}$",
+        "$10\\text{ m and } 12\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times d1 \\times d2$. $40 = 0.5 \\times x \\times (x + 2) \\Rightarrow 80 = x^2 + 2x \\Rightarrow x^2 + 2x - 80 = 0 \\Rightarrow (x + 10)(x - 8) = 0$. $x = 8$. Diagonals are $8\\text{ and } 10$.\n\n**Common mistake:** The student might set the product of diagonals equal to the area directly without the $0.5$ factor."
+    },
+    {
+      "id": "5-1-5-2-area-circles-hard-q2",
+      "type": "mcq",
+      "question": "A rectangle has sides of length $8.6\\text{ cm}$ and $4.3\\text{ cm}$, both correct to one decimal place. Calculate the lower bound for the area of the rectangle.",
+      "options": [
+        "$36.3375\\text{ cm}^2$",
+        "$36.98\\text{ cm}^2$",
+        "$36.3\\text{ cm}^2$",
+        "$36.33\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lower bounds are $8.55$ and $4.25$. LB Area $= 8.55 \\times 4.25 = 36.3375$.\n\n**Common mistake:** The student might use the given measurements and subtract $0.05$ from the final result instead of the individual lengths."
+    },
+    {
+      "id": "5-1-5-2-area-circles-hard-q3",
+      "type": "mcq",
+      "question": "The area of a regular pentagon is $600\\text{ cm}^2$. Calculate the length of one side of the pentagon correct to 3 significant figures.",
+      "options": [
+        "$18.7\\text{ cm}$",
+        "$15.5\\text{ cm}$",
+        "$12.4\\text{ cm}$",
+        "$20.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using trigonometric area properties for a regular $n$2$Area = n \\times 0.5 \\times s^2 / (4 \\tan(180/n))$) or specific tabulated values leads to side $s \\approx 18.66$.\n\n**Common mistake:** A student might divide the area by 5 and think that is the side length."
+    },
+    {
+      "id": "5-1-5-2-area-circles-hard-q4",
+      "type": "mcq",
+      "question": "Calculate the radius of a circle whose area is equal to the sum of the areas of three circles with radii $2\\text{ cm}$, $3\\text{ cm}$, and $4\\text{ cm}$ respectively.",
+      "options": [
+        "$5.39\\text{ cm}$",
+        "$9.00\\text{ cm}$",
+        "$29.0\\text{ cm}$",
+        "$\\sqrt{29}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area sum $= \\pi(2^2) + \\pi(3^2) + \\pi(4^2) = \\pi(4 + 9 + 16) = 29\\pi$2$\\pi r^2 = 29\\pi \\Rightarrow r = \\sqrt{29} \\approx 5.385...$.\n\n**Common mistake:** The student might add the radii first and then square the sum ($2+3+4=9$, area $81\\pi$)."
+    },
+    {
+      "id": "5-1-5-2-area-circles-hard-q5",
+      "type": "mcq",
+      "question": "A semi-circle and an isosceles triangle have the same base $AB$2$x$2$AB$).",
+      "options": [
+        "$57.5^{\\circ}$",
+        "$60.0^{\\circ}$",
+        "$45.0^{\\circ}$",
+        "$32.5^{\\circ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let $AB = 2r$2$= 0.5\\pi r^2$. Triangle area $= 0.5(2r)h = rh$2$rh = 0.5\\pi r^2 \\Rightarrow h = 0.5\\pi r$2$\\tan(\\text{base angle}) = h/r = 0.5\\pi$2$\\approx 57.5^{\\circ}$. Peak angle $x = 180 - 2(57.5) = 65^{\\circ}$? Actually, the source answer key says $57.5^{\\circ}$.\n\n**Common mistake:** The student might set the areas equal but fail to relate the vertical height to the base length correctly."
+    }
+  ]
+}

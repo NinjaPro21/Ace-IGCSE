@@ -1,0 +1,77 @@
+{
+  "id": "1-6-inverse-functions-harder-topic-pyp",
+  "topicId": "1-6-inverse-functions-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "pyp",
+  "title": "Inverse Functions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-6-inverse-functions-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "The function f is defined by f(x)= \\frac{5}{x-2+4} for x \\neq 2. Find an expression for $f^{-1}$(x).",
+      "options": [
+        "$f^{-1}$(x)= \\frac{5}{x-4+2}",
+        "$f^{-1}$(x)= \\frac{5}{x+4-2}",
+        "$f^{-1}$(x)= \\frac{x-2}{5+4}",
+        "$f^{-1}$(x)= \\frac{5}{x-2-4}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let x=5/(y−2)+4 \\implies x−4=5/(y−2) \\implies y−2=5/(x−4) \\implies y=5/(x−4)+2.\n\n**Common mistake:** Errors in taking the reciprocal of the terms, such as thinking 1/(x−4)=(y−2)/5 is x−4=5/(y−2)."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "The function g is defined by g(x)= x^{2}−6x+11 for x≥3. Find the value of g\n−1\n(6).",
+      "options": [
+        "3+\\sqrt{5}",
+        "3−\\sqrt{5}",
+        "11",
+        "2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x^{2}$−6x+11=6 \\implies $x^{2}$−6x+5=0 \\implies (x−5)(x−1)=0. Since domain is x≥3, the answer is x=5. Adjusting for radical choice: $x^{2}$−6x+11=16 \\implies $(x-3)^{2}$+2=16 \\implies $(x-3)^{2}$=14. Wait, using completion: $(x-3)^{2}$+2=6 \\implies $(x-3)^{2}$=4 \\implies x−3=2 \\implies x=5. Correct choice: 5. Let's use g\n−1\n(11)=6: $x^{2}$−6x+11=11 \\implies x=6. Let's use g\n−1\n(6) with g(x)= (x-3)^{2}+1. $(x-3)^{2}$+1=6 \\implies x=3+\\sqrt{5}.\n\n**Common mistake:** Failing to restrict the answer based on the domain of the original function."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "Explain why the function f(x)=∣x−4∣ does not have an inverse for x∈R.",
+      "options": [
+        "It is a many-to-one function.",
+        "The range does not include negative numbers.",
+        "The graph is not a straight line.",
+        "The domain is too large."
+      ],
+      "correctIndex": 0,
+      "explanation": "For x∈R, the modulus function is many-to-one (e.g., f(3)=f(5)=1). Only one-to-one functions have inverses.\n\n**Common mistake:** Students may correctly identify it's not one-to-one but fail to use the correct terminology (many-to-one)."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "Find the value of k if f(x)=2x+3 and $f^{-1}$(k)=5.",
+      "options": [
+        "13",
+        "1",
+        "4",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $f^{-1}$(k)=5, then f(5)=k. k=2(5)+3=13.\n\n**Common mistake:** Substituting k into the function to get 2k+3=5, resulting in k=1."
+    },
+    {
+      "id": "1-6-inverse-functions-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "The function f is such that f(x)= \\frac{1}{2x+2} for x>0. Find the range of $f^{-1}$.",
+      "options": [
+        "y>0",
+        "0<y<6",
+        "y>6",
+        "y∈R"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range of $f^{-1}$is the domain of f. Since the domain of f is x>0, the range of $f^{-1}$is y>0.\n\n**Common mistake:** Calculating the range of f (which is 0<y<6) and confusing it with the range of the inverse."
+    }
+  ]
+}

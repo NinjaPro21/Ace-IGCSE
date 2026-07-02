@@ -1,0 +1,77 @@
+{
+  "id": "1-9-calculator-easy",
+  "topicId": "1-9-calculator",
+  "chapterId": "ch01-number",
+  "difficulty": "easy",
+  "title": "Calculator — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-9-calculator-easy-q1",
+      "type": "mcq",
+      "question": "Use your calculator to evaluate $\\frac{14.6 + 8.94}{2.5 \\times 0.4}$ exactly.",
+      "options": [
+        "23.54",
+        "18.176",
+        "2.354",
+        "24.12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the numerator first: $14.6 + 8.94 = 23.54$. Evaluate the denominator next: $2.5 \\times 0.4 = 1$. The resulting quotient is $23.54$.\n\n**Common mistake:** Omitting parentheses around the numerator during entry causes the calculator to compute $14.6 + (8.94 / 2.5) \\times 0.4$, which yields $18.176$."
+    },
+    {
+      "id": "1-9-calculator-easy-q2",
+      "type": "mcq",
+      "question": "Calculate the value of $\\sqrt{5.76} - 1.2^2$.",
+      "options": [
+        "0.96",
+        "0.24",
+        "0",
+        "1.2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Input the commands sequentially: $\\sqrt{5.76} = 2.4$ and $1.2^2 = 1.44$. The difference is $2.4 - 1.44 = 0.96$.\n\n**Common mistake:** Students often misinterpret square scales or mix up intermediate decimals during manual rounding checks."
+    },
+    {
+      "id": "1-9-calculator-easy-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{1}{0.125} + 3^4$ using a scientific calculator.",
+      "options": [
+        "89",
+        "19",
+        "85",
+        "20"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculate each individual component step-by-step: $1 / 0.125 = 8$ and $3^4 = 81$. Adding them together yields $8 + 81 = 89$.\n\n**Common mistake:** Students sometimes multiply the base by the exponent ($3 \\times 4 = 12$) instead of evaluating the true power."
+    },
+    {
+      "id": "1-9-calculator-easy-q4",
+      "type": "mcq",
+      "question": "Find the value of $\\frac{18.4}{4.6 - 2.1}$ using your calculator.",
+      "options": [
+        "7.36",
+        "1.9",
+        "4.35",
+        "6.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculate the denominator first: $4.6 - 2.1 = 2.5$. Dividing gives $18.4 / 2.5 = 7.36$.\n\n**Common mistake:** Without brackets, calculators process the line as $(18.4 / 4.6) - 2.1 = 4 - 2.1 = 1.9$."
+    },
+    {
+      "id": "1-9-calculator-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate $\\sqrt[3]{2.744}$ exactly on your calculator.",
+      "options": [
+        "1.4",
+        "1.14",
+        "0.14",
+        "1.96"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the cube root key, inputting $\\sqrt[3]{2.744}$ directly gives $1.4$.\n\n**Common mistake:** Students sometimes use the standard square root function by mistake, arriving at an incorrect decimal value."
+    }
+  ]
+}

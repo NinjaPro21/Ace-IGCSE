@@ -1,0 +1,77 @@
+{
+  "id": "19-3-nuclear-fission-and-nuclear-fusion-medium",
+  "topicId": "19-3-nuclear-fission-and-nuclear-fusion",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "medium",
+  "title": "Nuclear Fission and Nuclear Fusion — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-medium-q1",
+      "type": "mcq",
+      "question": "Which of the following equations represents a nuclear fusion reaction?",
+      "options": [
+        "$^2_1 H + ^2_1 H rightarrow ^3_2 He + ^1_0 n$",
+        "$^{239}{94} Pu + ^1_0 n rightarrow ^{137}{54} Xe + ^{103}{40} Zr + ^1_0 n$",
+        "$^{238}{92} U rightarrow ^{234}{90} Th + ^4_2 alpha$",
+        "$H_2 + O rightarrow H_2O$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first equation shows two light hydrogen nuclei ($^2_1 H$) combining to form a heavier helium nucleus, which is fusion. The second is fission, and the third is alpha decay.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-medium-q2",
+      "type": "mcq",
+      "question": "During a fission reaction of Plutonium-239 ($^{239}{94} Pu$), it is hit by a neutron ($^1_0 n$). What is the total nucleon number before the split?",
+      "options": [
+        "240",
+        "239",
+        "94",
+        "95"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total nucleons = 239 (from Pu) + 1 (from the neutron) = 240. \n\n**Common mistake:** ignoring the initiating neutron."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-medium-q3",
+      "type": "mcq",
+      "question": "Why is energy released during nuclear fission and fusion?",
+      "options": [
+        "The total mass before the reaction is greater than the total mass after",
+        "The total mass before the reaction is less than the total mass after",
+        "The number of protons increases significantly",
+        "The number of neutrons decreases to zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that energy is released because the total mass before the reaction is greater than the mass after; the 'lost' mass is converted into energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-medium-q4",
+      "type": "mcq",
+      "question": "In a fission reaction, a nucleus with 94 protons splits into two nuclei with 54 and 40 protons respectively. What can be concluded about the total charge?",
+      "options": [
+        "The total charge is conserved (+94 before and +94 after)",
+        "The total charge increases as energy is released",
+        "The total charge decreases by 4 units",
+        "Charge is not conserved in nuclear reactions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total charge (proton number) is conserved. $54 + 40 = 94$, which matches the initial proton number.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-medium-q5",
+      "type": "mcq",
+      "question": "Which statement correctly compares nuclear fission and nuclear fusion?",
+      "options": [
+        "Fission involves heavy nuclei splitting; fusion involves light nuclei joining",
+        "Fission involves light nuclei joining; fusion involves heavy nuclei splitting",
+        "Both involve joining light nuclei together",
+        "Both involve splitting heavy nuclei apart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fission is the splitting of a heavy nucleus, while fusion is the combining of lighter nuclei.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

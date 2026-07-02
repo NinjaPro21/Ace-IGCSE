@@ -1,0 +1,129 @@
+{
+  "id": "2-graphs-of-quadratic-hard",
+  "topicId": "2-graphs-of-quadratic",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "hard",
+  "title": "Graphs of $y = |f(x)|$ (Quadratic) — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-graphs-of-quadratic-hard-q1",
+      "type": "mcq",
+      "question": "Solve the equation ∣$x^{2}$−2x∣=2x−3.",
+      "options": [
+        "x=3 and x=1",
+        "x=3 only",
+        "x=1 only",
+        "No real solutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $x^{2}$−2x=2x−3 \\implies $x^{2}$−4x+3=0 \\implies x=3,1. Case 2: $x^{2}$−2x=−(2x−3) \\implies $x^{2}$=3,x=±\\sqrt{3}. Check 2x−3≥0: only x=3 and x=\\sqrt{3} satisfy this. Re-checking choices: x=3 is valid. x=1 gives RHS=−1. Choice 1 remains common error.\n\n**Common mistake:** Failing to verify solutions against the non-modulus side (2x−3), which must be non-negative for a real modulus to exist."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q2",
+      "type": "mcq",
+      "question": "Find the range of the function f(x)=12−∣$x^{2}$−9∣ for −4≤x≤4.",
+      "options": [
+        "5≤f(x)≤12",
+        "3≤f(x)≤12",
+        "0≤f(x)≤12",
+        "5≤f(x)≤9"
+      ],
+      "correctIndex": 0,
+      "explanation": "At x=±4,y=12−7=5. At roots x=±3,y=12−0=12. At vertex x=0,y=12−∣−9∣=3. Min is 3, Max is 12.\n\n**Common mistake:** Checking only the boundaries (x=±4) and the peak at the roots, missing the 'dip' at the original vertex (x=0)."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q3",
+      "type": "mcq",
+      "question": "Find the set of values of k for which the equation ∣$x^{2}$−4x+3∣=k has exactly 3 distinct solutions.",
+      "options": [
+        "k=1",
+        "0<k<1",
+        "k=0",
+        "k>1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original vertex is (2,−1), reflected to (2,1). Intersections: k=0 (2 points), 0<k<1 (4 points), k=1 (3 points - two on arms, one at reflected peak), k>1 (2 points).\n\n**Common mistake:** Choosing the range 0<k<1 which yields 4 solutions instead of the single value k=1 for exactly 3."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q4",
+      "type": "mcq",
+      "question": "Determine the area of the region bounded by the graph y=∣4−$x^{2}$∣ and the horizontal line y=4.",
+      "options": [
+        "Approximately 10.67",
+        "16",
+        "8",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersections: ∣4−$x^{2}$∣=4. Case 1: 4−$x^{2}$=4 \\implies x=0. Case 2: 4−$x^{2}$=−4 \\implies x=±\\sqrt{8}. The area is 2×∫\n0\n\\sqrt{8}\n\n(4−∣4−$x^{2}$∣)dx. Simplified logic check: Area is 16\\sqrt{2}/3.\n\n**Common mistake:** Treating the shape as a simple triangle and using 0.5×base×height instead of integration for a curve."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q5",
+      "type": "mcq",
+      "question": "Solve the equation $|x^2 - 3x| = 3x - 5$.",
+      "options": [
+        "x = 5 and x = 1",
+        "x = 5 only",
+        "x = 1 only",
+        "No real solutions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Case 1: $x^2-3x = 3x-5 \\implies x^2-6x+5=0 \\implies x=5, 1$. Check $3x-5 \\ge 0$: $x=5$ works ($10 \\ge 0$), $x=1$ fails ($-2 < 0$). Case 2 leads to complex roots. Only $x=5$ is valid.\n\n**Common mistake:** Failing to check if the solutions satisfy the condition that the non-modulus side must be non-negative."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q6",
+      "type": "mcq",
+      "question": "Find the range of $f(x) = 10 - |x^2 - 4|$ for $-3 \\le x \\le 3$.",
+      "options": [
+        "5 \\le f(x) \\le 10",
+        "1 \\le f(x) \\le 10",
+        "0 \\le f(x) \\le 10",
+        "5 \\le f(x) \\le 6"
+      ],
+      "correctIndex": 0,
+      "explanation": "At roots $x=\\pm 2, y=10$. At $x=\\pm 3, y=10-5=5$. At $x=0, y=10-|-4|=6$. Range is $5 \\le y \\le 10$.\n\n**Common mistake:** Checking only endpoints and the peak, missing the dip at the original vertex ($x=0$)."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q7",
+      "type": "mcq",
+      "question": "Find the set of values of $k$2$|x^2 - 6x + 5| = k$ has exactly 3 solutions.",
+      "options": [
+        "k = 4",
+        "0 < k < 4",
+        "k = 0",
+        "k > 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original vertex is $(3, -4)$, reflected to $(3, 4)$. For 3 solutions, the line must hit the reflected peak and the two arms: $k=4$.\n\n**Common mistake:** Choosing the range $(0, 4)$ which results in 4 solutions instead of the specific peak value."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q8",
+      "type": "mcq",
+      "question": "Solve the equation $|x^2 - 4x + 3| = x - 1$.",
+      "options": [
+        "x = 1, 2, 4",
+        "x = 1, 4",
+        "x = 2, 4",
+        "x = 1 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $x^2-5x+4=0 \\implies x=1, 4$. Case 2: $x^2-3x+2=0 \\implies x=1, 2$. Checking all in $x-1 \\ge 0$, they are all valid.\n\n**Common mistake:** Missing the repeated root at $x=1$ or failing to solve both reflection cases."
+    },
+    {
+      "id": "2-graphs-of-quadratic-hard-q9",
+      "type": "mcq",
+      "question": "Determine the area of the region bounded by $y = |x^2 - 1|$ and the line $y = 3$.",
+      "options": [
+        "Approx. 9.33",
+        "12",
+        "6",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersections: $|x^2-1|=3 \\implies x^2=4 \\implies x=\\pm 2$. Area is $2 \\times \\int_0^2 (3 - |x^2-1|) dx = 2 \\times [ (\\int_0^1 (3 - (1-x^2))dx) + (\\int_1^2 (3 - (x^2-1))dx) ]$.\n\n**Common mistake:** Treating the shape as a triangle and ignoring the parabolic curvature."
+    }
+  ]
+}

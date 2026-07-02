@@ -1,0 +1,207 @@
+{
+  "id": "ch11-general-properties-of-waves-hard",
+  "topicId": "ch11-general-properties-of-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "hard",
+  "title": "Chapter 11: General Properties of Waves — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch11-general-properties-of-waves-hard-q1",
+      "type": "mcq",
+      "question": "In the study of waves using a rope, what is the role of the 'rope particles' during the passage of a transverse wave?",
+      "options": [
+        "They provide a mechanism for energy transfer by vibrating about fixed positions.",
+        "They move from the source to the fixed end to deliver kinetic energy.",
+        "They remain at rest while infrared radiation carries the energy through them.",
+        "They expand and contract in size to create the wave shape."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rope particles vibrate up and down, transferring kinetic energy to their neighbors without moving down the rope themselves. \n\n**Common mistake:** Claiming the particles 'move to the end' (Choice B)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q2",
+      "type": "mcq",
+      "question": "A longitudinal wave passes through a medium. Which description of the particle motion is scientifically accurate?",
+      "options": [
+        "The particles oscillate parallel to the wave direction, creating rarefactions where they are further apart.",
+        "The particles move in a constant forward direction until they hit a boundary.",
+        "The particles oscillate perpendicular to the wave direction to create compressions.",
+        "The particles move faster in rarefactions than they do in compressions."
+      ],
+      "correctIndex": 0,
+      "explanation": "In longitudinal waves, particles oscillate parallel to the wave travel, resulting in regions of high density (compressions) and low density (rarefactions). \n\n**Common mistake:** Associating 'compressions' with perpendicular motion."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q3",
+      "type": "mcq",
+      "question": "Consider Figure 11.28, which shows particles in a medium. If the wave is longitudinal and moving to the right, how does a particle at the center of a rarefaction move?",
+      "options": [
+        "It oscillates back and forth along the horizontal axis.",
+        "It oscillates up and down along the vertical axis.",
+        "It remains perfectly stationary as a reference point.",
+        "It travels in a small circle clockwise."
+      ],
+      "correctIndex": 0,
+      "explanation": "Longitudinal waves involve vibrations parallel to the direction of propagation (horizontal in this case). \n\n**Common mistake:** Selecting vertical oscillation, which only occurs in transverse waves."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q4",
+      "type": "mcq",
+      "question": "A student observes a wave where the medium moves 'sideways' while the wave itself moves 'forward.' What can be concluded?",
+      "options": [
+        "The wave is transverse.",
+        "The wave is longitudinal.",
+        "The wave is transferring matter as well as energy.",
+        "The frequency of the wave must be very low."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the motion of the medium (sideways/perpendicular) is different from the direction of energy transfer (forward), the wave is transverse. \n\n**Common mistake:** Thinking that 'forward' travel automatically makes a wave longitudinal."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following would NOT change if a transverse wave was replaced by a longitudinal wave with the same frequency and energy?",
+      "options": [
+        "The fact that energy is transferred without matter moving from end to end.",
+        "The direction of the particles' vibration relative to the wave travel.",
+        "The presence of crests and troughs in the medium.",
+        "The mechanical nature of the vibration in the particles."
+      ],
+      "correctIndex": 0,
+      "explanation": "The fundamental property of all mechanical waves is the transfer of energy without transferring matter; this remains true regardless of whether the wave is transverse or longitudinal. \n\n**Common mistake:** Thinking that one type 'carries' matter while the other does not."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q6",
+      "type": "mcq",
+      "question": "Green light travels in a vacuum at $3.0 \\times 10^{8}\\text{ m/s}$ with a wavelength of $0.6\\text{ mu m}$. Calculate its frequency.",
+      "options": [
+        "$5.0 \\times 10^{14}\\text{ Hz}$",
+        "$5.0 \\times 10^{8}\\text{ Hz}$",
+        "$1.8 \\times 10^{2}\\text{ Hz}$",
+        "$2.0 \\times 10^{-15}\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$0.6\\text{ mu m} = 0.6 \\times 10^{-6}\\text{ m}$. $f = v / \\lambda = (3.0 \\times 10^{8}) / (0.6 \\times 10^{-6}) = 5.0 \\times 10^{14}\\text{ Hz}$. \n\n**Common mistake:** Incorrectly converting micrometres ($mu m$) to metres."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q7",
+      "type": "mcq",
+      "question": "A worker at a dock watches a wave crest pass from one pole to another. The poles are $12\\text{ m}$ apart and the crest takes $4\\text{ s}$ to travel between them. If the frequency is $2\\text{ Hz}$, what is the wavelength?",
+      "options": [
+        "$1.5\\text{ m}$",
+        "$3.0\\text{ m}$",
+        "$6.0\\text{ m}$",
+        "$24\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wave speed $v = \\text{distance} / \\text{time} = 12 / 4 = 3\\text{ m/s}$. Using $\\lambda = v / f = 3 / 2 = 1.5\\text{ m}$. \n\n**Common mistake:** Using the distance ($12\\text{ m}$) as the wavelength directly."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q8",
+      "type": "mcq",
+      "question": "A displacement-time graph for a particle in a wave shows one complete cycle every $0.02\\text{ s}$. If the wavelength is $4\\text{ cm}$, what is the wave speed?",
+      "options": [
+        "$2.0\\text{ m/s}$",
+        "$200\\text{ m/s}$",
+        "$0.0008\\text{ m/s}$",
+        "$0.5\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = 1 / T = 1 / 0.02 = 50\\text{ Hz}$. $\\lambda = 0.04\\text{ m}$. $v = f\\lambda = 50 \\times 0.04 = 2.0\\text{ m/s}$. \n\n**Common mistake:** Forgetting to convert the wavelength from cm to m."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q9",
+      "type": "mcq",
+      "question": "Which of the following correctly describes the relationship between displacement-distance and displacement-time graphs for a wave?",
+      "options": [
+        "Wavelength is determined from a displacement-distance graph; Period is determined from a displacement-time graph.",
+        "Wavelength is determined from a displacement-time graph; Period is determined from a displacement-distance graph.",
+        "Both graphs can be used to find wavelength directly.",
+        "Both graphs can be used to find the period directly."
+      ],
+      "correctIndex": 0,
+      "explanation": "A displacement-distance graph shows the wave's shape in space ($\\lambda$), while a displacement-time graph shows the history of one point over time ($T$). \n\n**Common mistake:** Swapping the properties determined from each graph."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q10",
+      "type": "mcq",
+      "question": "In Figure 11.29, the displacement-distance graph shows a wavelength of $5\\text{ m}$ and the displacement-time graph shows a period of $1.25\\text{ s}$. Calculate the speed of this wave.",
+      "options": [
+        "$4\\text{ m/s}$",
+        "$6.25\\text{ m/s}$",
+        "$0.25\\text{ m/s}$",
+        "$0.8\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency $f = 1 / T = 1 / 1.25 = 0.8\\text{ Hz}$. Speed $v = f\\lambda = 0.8 \\times 5 = 4\\text{ m/s}$. \n\n**Common mistake:** Multiplying period by wavelength ($1.25 \\times 5$) instead of frequency."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q11",
+      "type": "mcq",
+      "question": "A ripple tank experiment shows water waves crossing from a deep region to a shallow region. Which set of changes is correct?",
+      "options": [
+        "Speed: Decreases; Wavelength: Decreases; Frequency: Unchanged",
+        "Speed: Increases; Wavelength: Increases; Frequency: Unchanged",
+        "Speed: Decreases; Wavelength: Unchanged; Frequency: Decreases",
+        "Speed: Unchanged; Wavelength: Decreases; Frequency: Increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shallow water provides more resistance, decreasing wave speed. Because the source frequency is constant, the wavelength must decrease to satisfy $v = f\\lambda$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q12",
+      "type": "mcq",
+      "question": "Radio signals have much longer wavelengths than TV signals. Why is it easier to receive radio signals behind a hill than TV signals?",
+      "options": [
+        "Radio waves diffract more around the hill due to their longer wavelength",
+        "Radio waves reflect better off the atmosphere",
+        "TV signals travel faster and miss the receiver",
+        "Radio waves are longitudinal and travel through the hill"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves with longer wavelengths relative to the size of an obstacle (the hill) undergo more diffraction, curving more effectively to reach the area behind the obstacle.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q13",
+      "type": "mcq",
+      "question": "In a refraction experiment, waves travel from region X to region Y. The angle of incidence is $35^circ$ and the angle of refraction is $20^circ$. What can be concluded about the regions?",
+      "options": [
+        "Region Y is shallower than region X",
+        "Region Y is deeper than region X",
+        "The waves travel faster in region Y",
+        "The frequency is lower in region Y"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the angle of refraction ($20^circ$) is smaller than the angle of incidence ($35^circ$), the wave has bent towards the normal. This indicates the wave slowed down, meaning region Y is shallower.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q14",
+      "type": "mcq",
+      "question": "Which combination of wavelength $\\lambda$ and gap width $w$ will produce wavefronts that are nearly circular after passing through the gap?",
+      "options": [
+        "$\\lambda = 10\\text{ cm}, w = 2\\text{ cm}$",
+        "$\\lambda = 2\\text{ cm}, w = 10\\text{ cm}$",
+        "$\\lambda = 5\\text{ cm}, w = 20\\text{ cm}$",
+        "$\\lambda = 1\\text{ cm}, w = 15\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maximum diffraction (circular spreading) occurs when the wavelength is similar to or larger than the gap width. In the first option, the wavelength is much larger than the gap.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-hard-q15",
+      "type": "mcq",
+      "question": "When waves undergo reflection at a straight barrier, what happens to the frequency and the wavefront spacing?",
+      "options": [
+        "Frequency: Unchanged; Spacing: Unchanged",
+        "Frequency: Increases; Spacing: Decreases",
+        "Frequency: Unchanged; Spacing: Decreases",
+        "Frequency: Decreases; Spacing: Unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection involves only a change in direction. The wave speed and frequency remain constant; therefore, the distance between wavefronts (wavelength) does not change.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

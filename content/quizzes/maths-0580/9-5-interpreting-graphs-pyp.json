@@ -1,0 +1,77 @@
+{
+  "id": "9-5-interpreting-graphs-pyp",
+  "topicId": "9-5-interpreting-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "pyp",
+  "title": "Interpreting Graphs — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-5-interpreting-graphs-pyp-q1",
+      "type": "mcq",
+      "question": "The speed–time graph shows a train accelerating from rest to $30$ m/s in $20$ seconds. Work out the acceleration of the train in m/s $2$.",
+      "options": [
+        "$1.5$ m/s $2$",
+        "$0.67$ m/s $2$",
+        "$600$ m/s $2$",
+        "$10$ m/s $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the gradient of the speed–time graph. $m = (30 - 0) / (20 - 0) = 1.5$ m/s $2$.\n\n**Common mistake:** A student might divide time by speed ($20 / 30$) or multiply the two values together."
+    },
+    {
+      "id": "9-5-interpreting-graphs-pyp-q2",
+      "type": "mcq",
+      "question": "A car's motion is represented on a speed–time graph. It travels at a constant speed of $20$ m/s for $40$ seconds and then decelerates uniformly to rest in $10$ seconds. Calculate the total distance travelled.",
+      "options": [
+        "$900$ m",
+        "$1000$ m",
+        "$800$ m",
+        "$500$ m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance = Area of rectangle + Area of triangle = $(40 \\cdot 20) + (0.5 \\cdot 10 \\cdot 20) = 800 + 100 = 900$ m. Alternatively, Area of trapezium = $0.5 \\cdot (40 + 50) \\cdot 20 = 900$ m.\n\n**Common mistake:** The student might calculate the area of the rectangle only or fail to use the $0.5$ factor for the deceleration triangle."
+    },
+    {
+      "id": "9-5-interpreting-graphs-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows a speed–time graph of a bus. The bus accelerates from rest at a constant rate of $0.8$ m/s $2$. How long does it take the bus to reach a speed of $12$ m/s?",
+      "options": [
+        "$15$ seconds",
+        "$9.6$ seconds",
+        "$12.8$ seconds",
+        "$1.5$ seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration = $speed / time \\Rightarrow 0.8 = 12 / t \\Rightarrow t = 12 / 0.8 = 15$ seconds.\n\n**Common mistake:** The student might multiply $12$ by $0.8$ instead of dividing."
+    },
+    {
+      "id": "9-5-interpreting-graphs-pyp-q4",
+      "type": "mcq",
+      "question": "A cyclist travels $80$ km in $4$ hours. For the first $30$ km, the average speed was $20$ km/h. Work out the average speed for the remaining $50$ km of the journey.",
+      "options": [
+        "$20$ km/h",
+        "$25$ km/h",
+        "$12.5$ km/h",
+        "$15$ km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time 1 = $30 / 20 = 1.5$ hours. Remaining time = $4 - 1.5 = 2.5$ hours. Average speed 2 = $50 / 2.5 = 20$ km/h.\n\n**Common mistake:** A student might assume the time was split equally or simply average the two distances."
+    },
+    {
+      "id": "9-5-interpreting-graphs-pyp-q5",
+      "type": "mcq",
+      "question": "Two athletes, P and Q, run a $400$ m race. P runs at a constant speed and finishes in $50$ s. Q starts slowly but accelerates, finishing in $50$ s as well. Which statement is correct based on their distance–time graphs?",
+      "options": [
+        "The graph for P is a straight line, and the graph for Q is a curve.",
+        "Both graphs are straight lines since they finish at the same time.",
+        "The gradient of P's graph is lower than Q's at the finish line.",
+        "Q was in front for the entire duration of the race."
+      ],
+      "correctIndex": 0,
+      "explanation": "Constant speed results in a straight line on a distance–time graph. Acceleration results in a curve where the gradient (speed) increases over time.\n\n**Common mistake:** The student might think all distance–time graphs are linear regardless of acceleration."
+    }
+  ]
+}

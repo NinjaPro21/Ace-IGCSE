@@ -1,0 +1,77 @@
+{
+  "id": "15-10-15-11-area-under-a-curve-between-regions-easy",
+  "topicId": "15-10-15-11-area-under-a-curve-between-regions",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "easy",
+  "title": "Area Under a Curve & Between Regions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Find the area bounded by the curve $y = x^2$, the $x$2$x=0$ and $x=3$.",
+      "options": [
+        "9",
+        "3",
+        "27",
+        "4.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\int_0^3 x^2 dx = [x^3/3]_0^3 = 27/3 = 9$.\n\n**Common mistake:** Dividing the coefficient by 2 instead of 3.",
+      "id": "15-10-15-11-area-under-a-curve-between-regions-easy-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Calculate the area of the region bounded by $y = 4$, the $x$2$x=1$, and $x=5$.",
+      "options": [
+        "16",
+        "20",
+        "4",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a rectangle of height 4 and width $(5-1)=4$. Area $= 4 \\times 4 = 16$.\n\n**Common mistake:** Using the upper bound (5) as the width instead of the difference between bounds.",
+      "id": "15-10-15-11-area-under-a-curve-between-regions-easy-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the area under the curve $y = \\sqrt{x}$ from $x=0$ to $x=4$.",
+      "options": [
+        "16/3",
+        "8/3",
+        "4",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\int_0^4 x^{0.5} dx = [2/3 x^{1.5}]_0^4 = 2/3 (4^{1.5}) = 2/3 \\times 8 = 16/3$.\n\n**Common mistake:** Integrating correctly but failing to compute $4^{1.5}$ correctly.",
+      "id": "15-10-15-11-area-under-a-curve-between-regions-easy-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the area under $y = 1/x^2$ from $x=1$ to $x=2$.",
+      "options": [
+        "0.5",
+        "1",
+        "0.25",
+        "1.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$[-1/x]_1^2 = -0.5 - (-1) = 0.5$.\n\n**Common mistake:** Incorrectly applying logs to the integral of $1/x^2$.",
+      "id": "15-10-15-11-area-under-a-curve-between-regions-easy-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Evaluate the area under $y = e^x$2$x=0$ and $x=1$.",
+      "options": [
+        "e - 1",
+        "e",
+        "1",
+        "e + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\int_0^1 e^x dx = [e^x]_0^1 = e^1 - e^0 = e - 1$.\n\n**Common mistake:** Thinking the integral evaluates to $e$2$e^0 = 1$.",
+      "id": "15-10-15-11-area-under-a-curve-between-regions-easy-q5"
+    }
+  ]
+}

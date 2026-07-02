@@ -1,0 +1,77 @@
+{
+  "id": "3-1-mass-and-weight-hard",
+  "topicId": "3-1-mass-and-weight",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "hard",
+  "title": "Mass and Weight — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-1-mass-and-weight-hard-q1",
+      "type": "mcq",
+      "question": "An astronaut weighs $1200\\text{ N}$ on Earth ($g = 10\\text{ N/kg}$). The gravitational field strength on Jupiter is $22.9\\text{ N/kg}$. What is the astronaut's weight on Jupiter?",
+      "options": [
+        "$2748\\text{ N}$",
+        "$1200\\text{ N}$",
+        "$524\\text{ N}$",
+        "$27480\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Step 1: Find mass on Earth: $m = W / g = 1200 / 10 = 120\\text{ kg}$. Step 2: Weight on Jupiter $= m \\times g_{Jupiter} = 120\\text{ kg} \\times 22.9\\text{ N/kg} = 2748\\text{ N}$. \n\n**Common mistake:** Simply adding or subtracting values without calculating the mass first."
+    },
+    {
+      "id": "3-1-mass-and-weight-hard-q2",
+      "type": "mcq",
+      "question": "An astronaut is floating in open space while in orbit around the Earth. Which statement about the astronaut is correct?",
+      "options": [
+        "The astronaut still has both mass and weight",
+        "The astronaut has mass but zero weight",
+        "The astronaut has weight but zero mass",
+        "The astronaut has neither mass nor weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "An object has mass regardless of location. Even while floating, gravity still acts to keep the astronaut in orbit, meaning they still have weight (force). \n\n**Common mistake:** Thinking 'weightlessness' in space means the gravitational force is actually zero."
+    },
+    {
+      "id": "3-1-mass-and-weight-hard-q3",
+      "type": "mcq",
+      "question": "Which row correctly compares the properties of mass and weight?",
+      "options": [
+        "Mass: Scalar, constant with location; Weight: Vector, varies with location",
+        "Mass: Vector, varies with location; Weight: Scalar, constant with location",
+        "Mass: Measured in Newtons; Weight: Measured in kilograms",
+        "Mass: Measured with a spring balance; Weight: Measured with a beam balance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a scalar quantity that is constant everywhere. Weight is a vector (force) that changes based on local gravity. \n\n**Common mistake:** Swapping the types or the units for the two quantities."
+    },
+    {
+      "id": "3-1-mass-and-weight-hard-q4",
+      "type": "mcq",
+      "question": "A student uses a beam balance on the Moon to find the mass of a rock that was measured as $1.0\\text{ kg}$ on Earth. What will the balance show on the Moon?",
+      "options": [
+        "$1.0\\text{ kg}$",
+        "$0.16\\text{ kg}$",
+        "$6.0\\text{ kg}$",
+        "It will not work because there is no gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "A beam balance compares the gravitational pull on an unknown mass with known weights. Since gravity affects both sides equally, it measures the same mass ($1.0\\text{ kg}$) regardless of location. \n\n**Common mistake:** Thinking the reading will drop to $0.16\\text{ kg}$ because the Moon's gravity is $1/6$ of Earth's."
+    },
+    {
+      "id": "3-1-mass-and-weight-hard-q5",
+      "type": "mcq",
+      "question": "If the weight of an object is proportional to its mass, what does the gradient of a graph of Weight ($y$-axis) against Mass ($x$-axis) represent?",
+      "options": [
+        "Gravitational field strength ($g$)",
+        "The volume of the object",
+        "The density of the object",
+        "Acceleration of the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "From $W = mg$, the ratio $W/m$ is $g$. On a graph of $W$ vs $m$, this ratio is the gradient. \n\n**Common mistake:** Thinking the gradient represents density, which is mass per unit volume."
+    }
+  ]
+}

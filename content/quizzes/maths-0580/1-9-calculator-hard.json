@@ -1,0 +1,77 @@
+{
+  "id": "1-9-calculator-hard",
+  "topicId": "1-9-calculator",
+  "chapterId": "ch01-number",
+  "difficulty": "hard",
+  "title": "Calculator — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-9-calculator-hard-q1",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{\\sqrt{18.5^2 - 11.1^2}}{0.4 \\times 2.5^2}$ exactly using your calculator.",
+      "options": [
+        "5.92",
+        "14.8",
+        "2.368",
+        "9.25"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator: $\\sqrt{342.25 - 123.21} = \\sqrt{219.04} = 14.8$. Denominator: $0.4 \\times 6.25 = 2.5$. Quotient: $14.8 / 2.5 = 5.92$.\n\n**Common mistake:** Students frequently process power steps out of order or fail to isolate the entire denominator product within parentheses."
+    },
+    {
+      "id": "1-9-calculator-hard-q2",
+      "type": "mcq",
+      "question": "Find the value of $\\frac{15.6}{\\tan(40^\\circ) \\times \\cos(25^\\circ)}$, correct to 3 significant figures.",
+      "options": [
+        "20.5",
+        "20.49",
+        "17.2",
+        "21.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Denominator evaluates to $\\tan(40^\\circ) \\times \\cos(25^\\circ) \\approx 0.8391 \\times 0.9063 = 0.7605$. Then, $15.6 / 0.7605 \\approx 20.51$, which rounds to $20.5$ to 3 significant figures.\n\n**Common mistake:** Students often write down too many intermediate rounded decimals or write 4 significant figures like $20.49$."
+    },
+    {
+      "id": "1-9-calculator-hard-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{\\sqrt[3]{5.832} + 4.2^2}{2.5 \\times 10^{-2}}$ exactly using your calculator.",
+      "options": [
+        "777.6",
+        "19.44",
+        "0.1944",
+        "756"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator: $1.8 + 17.64 = 19.44$. Denominator: $0.025$. Perform division: $19.44 / 0.025 = 777.6$.\n\n**Common mistake:** Students often multiply by $10^{-2}$ at the top level instead of executing proper $\\frac{tional}{}$ division rules."
+    },
+    {
+      "id": "1-9-calculator-hard-q4",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{8.4 \\times 10^{7}}{(2.5 \\times 10^{3})^2}$ as an exact ordinary decimal value.",
+      "options": [
+        "13.44",
+        "13440",
+        "33.6",
+        "0.01344"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the denominator: $(2.5 \\times 10^{3})^2 = 6.25 \\times 10^{6}$. Divide the numbers: $\\frac{8.4 \\times 10^{7}}{6.25 \\times 10^{6}} = 1.344 \\times 10^{1} = 13.44$.\n\n**Common mistake:** Omitting parentheses around scientific notation terms leads the calculator to square only the power of ten."
+    },
+    {
+      "type": "mcq",
+      "question": "Use your calculator to evaluate $\\sqrt{(9.61 \\times 0.0065) \\div 0.2}$ correct to **3 significant figures**.",
+      "options": [
+        "$0.678$",
+        "$0.679$",
+        "$0.312$",
+        "$0.560$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enter the expression into the calculator precisely. The result is approximately $0.67848...$, which rounds to $0.678$ to 3 s.f..\n\n**Common mistake:** Rounding intermediate steps or failing to apply the cube root to the entire $\\frac{tion.}{}$",
+      "id": "1-9-calculator-hard-q5"
+    }
+  ]
+}

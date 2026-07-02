@@ -1,0 +1,77 @@
+{
+  "id": "18-5-the-d-c-motor-medium",
+  "topicId": "18-5-the-d-c-motor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "medium",
+  "title": "The D.c. Motor — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-5-the-d-c-motor-medium-q1",
+      "type": "mcq",
+      "question": "A student wants to reverse the direction of rotation of a d.c. motor. Which of the following single changes would achieve this?",
+      "options": [
+        "Reversing the direction of the magnetic field",
+        "Increasing the number of turns in the coil",
+        "Increasing the magnitude of the current",
+        "Reversing both the current and the magnetic field simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "To change the direction of rotation, you must reverse either the magnetic field or the current. Reversing both (Option D) would cancel out the change, keeping the rotation the same.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-medium-q2",
+      "type": "mcq",
+      "question": "Which set of changes would increase the speed at which a d.c. motor rotates?",
+      "options": [
+        "Increase the current and use stronger permanent magnets",
+        "Decrease the current and use more turns of wire in the coil",
+        "Increase the current and reverse the magnetic field poles",
+        "Decrease the number of turns and increase the current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The speed (turning effect) of a motor is increased by increasing the current, using a stronger magnetic field, or increasing the number of turns in the coil.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-medium-q3",
+      "type": "mcq",
+      "question": "In a d.c. motor diagram, if the current flows from the positive terminal into the left side of a horizontal coil and the North pole of the magnet is on the left, what is the direction of the force on the left side of the coil? (Use Fleming's LH rule)",
+      "options": [
+        "Upwards",
+        "Downwards",
+        "Towards the North pole",
+        "Towards the South pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's Left-Hand Rule: Field (Index finger) points North to South (left to right). Current (Middle finger) points into the page. The thumb (Force) points upwards. \n\n**Common mistake:** using the right hand."
+    },
+    {
+      "id": "18-5-the-d-c-motor-medium-q4",
+      "type": "mcq",
+      "question": "Why does a practical d.c. motor often have an iron core at the centre of its hundreds of turns of wire?",
+      "options": [
+        "To concentrate the magnetic field and increase the turning force",
+        "To act as an insulator and prevent short circuits",
+        "To reverse the current without needing a commutator",
+        "To reduce the weight of the motor for portable devices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Practical motors use soft iron cores to concentrate magnetic field lines, which significantly increases the magnetic flux and the resulting turning effect.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-5-the-d-c-motor-medium-q5",
+      "type": "mcq",
+      "question": "What would happen to the coil in a motor if the split-ring commutator was replaced by two continuous slip rings?",
+      "options": [
+        "The coil would oscillate back and forth every half-turn instead of spinning",
+        "The coil would spin much faster in one direction",
+        "The motor would convert to a generator producing d.c. current",
+        "The motor would not move at all because current could not reach the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without the commutator to reverse the current every half-turn, the force on the coil would change direction relative to the coil's position, causing it to oscillate or stop rather than spin continuously.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

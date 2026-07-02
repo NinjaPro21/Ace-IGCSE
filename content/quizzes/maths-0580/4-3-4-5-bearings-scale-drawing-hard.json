@@ -1,0 +1,77 @@
+{
+  "id": "4-3-4-5-bearings-scale-drawing-hard",
+  "topicId": "4-3-4-5-bearings-scale-drawing",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "hard",
+  "title": "Bearings & Scale Drawing — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-hard-q1",
+      "type": "mcq",
+      "question": "A ship sails $18\\text{ km}$ from $P$2$060°$ to $Q$2$24\\text{ km}$ from $Q$2$150°$ to $R$2$P$2$R$.",
+      "options": [
+        "$30\\text{ km}$",
+        "$42\\text{ km}$",
+        "$\\sqrt{252}\\text{ km}$",
+        "$32.4\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle between the bearings is $90°$ (back bearing of $060°$ is $240°$; $240 - 150 = 90°$). Use Pythagoras: $\\sqrt{18}² + 24^2 = \\sqrt{324} + 576 = \\sqrt{900} = 30$.\n\n**Common mistake:** A student might add the distances directly ($18 + 24 = 42$) or fail to identify that the path forms a right-angled triangle."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-hard-q2",
+      "type": "mcq",
+      "question": "From the top of a $100\\text{ m}$ tower, the angles of depression of two points $A$2$B$2$22°$ and $38°$ respectively. Calculate the distance between $A$2$B$.",
+      "options": [
+        "$119\\text{ m}$",
+        "$248\\text{ m}$",
+        "$128\\text{ m}$",
+        "$375\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance to $A = 100 / \\tan 22° \\approx 247.5\\text{ m}$. Distance to $B = 100 / \\tan 38° \\approx 128.0\\text{ m}$. Difference $= 247.5 - 128.0 = 119.5\\text{ m}$.\n\n**Common mistake:** A student might calculate the distances correctly but add them together instead of finding the difference between points on the same side."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-hard-q3",
+      "type": "mcq",
+      "question": "A map scale is $1 : 50000$. A lake covers an actual area of $12\\text{ km}²$. Calculate the area of the lake on the map in $\\text{cm}²$.",
+      "options": [
+        "$4.8\\text{ cm}²$",
+        "$24\\text{ cm}²$",
+        "$48\\text{ cm}²$",
+        "$0.48\\text{ cm}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scale: $1\\text{ cm} = 0.5\\text{ km}$. Area scale: $1\\text{ cm}² = (0.5)² = 0.25\\text{ km}²$. Map area $= 1.2 / 0.25 = 4.8\\text{ cm}²$. Wait, $12 / 0.25 = 48$. Checking: $12\\text{ km}² / 0.25\\text{ km}²/\\text{cm}² = 48\\text{ cm}²$.\n\n**Common mistake:** A student might divide the area by $50000$ only once or misplace the decimal point during the km to cm conversion."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-hard-q4",
+      "type": "mcq",
+      "question": "An aircraft is observed from a control tower at an altitude of $3\\text{ km}$ and a ground distance of $10\\text{ km}$ on a bearing of $025°$. Calculate the direct distance (3D) from the tower to the aircraft.",
+      "options": [
+        "$10.4\\text{ km}$",
+        "$13\\text{ km}$",
+        "$\\sqrt{109}\\text{ km}$",
+        "$7\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is 3D Pythagoras using the ground distance and altitude: $\\sqrt{10}² + 3^2 = \\sqrt{100} + 9 = \\sqrt{109} \\approx 10.44\\text{ km}$.\n\n**Common mistake:** The student might try to incorporate the bearing ($25°$) into the Pythagoras calculation unnecessarily."
+    },
+    {
+      "type": "mcq",
+      "question": "A ship sails 7 km on a bearing of 306° and then 11 km on a bearing of 070°. Calculate the direct distance from the start to the destination.",
+      "options": [
+        "$9.16\\text{ km}$",
+        "$10.4\\text{ km}$",
+        "$8.39\\text{ km}$",
+        "$13.0\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the Cosine Rule: $PX^2 = 7^2 + 11^2 - 2(7)(11)\\cos(56°)$. This gives $PX = \\sqrt{83.88} \\approx 9.16$ km.\n\n**Common mistake:** Incorrectly calculating the interior angle of the triangle from the bearings.",
+      "id": "4-3-4-5-bearings-scale-drawing-hard-q5"
+    }
+  ]
+}

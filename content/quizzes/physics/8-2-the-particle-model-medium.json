@@ -1,0 +1,77 @@
+{
+  "id": "8-2-the-particle-model-medium",
+  "topicId": "8-2-the-particle-model",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "medium",
+  "title": "The Particle Model — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-the-particle-model-medium-q1",
+      "type": "mcq",
+      "question": "A substance is at a temperature of $27^\\circ\\text{C}$. What is its temperature in kelvin (K)?",
+      "options": [
+        "$300\\text{ K}$",
+        "$246\\text{ K}$",
+        "$27\\text{ K}$",
+        "$327\\text{ K}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To convert from Celsius to Kelvin, add 273: $27 + 273 = 300\\text{ K}$. \n\n**Common mistake:** Subtracting 273 instead of adding it."
+    },
+    {
+      "id": "8-2-the-particle-model-medium-q2",
+      "type": "mcq",
+      "question": "What is Brownian motion?",
+      "options": [
+        "The random, zig-zag motion of small particles suspended in a fluid",
+        "The regular vibration of particles about a fixed position in a solid",
+        "The movement of particles from a region of high to low concentration",
+        "The increase in volume of a substance when it is heated"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brownian motion is the random, zig-zag motion of particles like smoke in air or pollen in water. \n\n**Common mistake:** Confusing it with diffusion (choice C) or thermal expansion (choice D)."
+    },
+    {
+      "id": "8-2-the-particle-model-medium-q3",
+      "type": "mcq",
+      "question": "Why does a gas have a much lower density than a solid or a liquid?",
+      "options": [
+        "Gas particles are much further apart, so there is less mass per unit volume",
+        "Gas particles themselves have less mass than solid particles",
+        "Gas particles are larger than solid particles",
+        "Attractive forces between gas particles are stronger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gases have a small number of particles per unit volume because the particles are far apart. \n\n**Common mistake:** Thinking gas particles are weightless or have 'zero mass'."
+    },
+    {
+      "id": "8-2-the-particle-model-medium-q4",
+      "type": "mcq",
+      "question": "How does increasing the temperature of a fluid affect the Brownian motion of particles suspended within it?",
+      "options": [
+        "The motion becomes more rapid and vigorous",
+        "The motion becomes more regular and slow",
+        "The motion stops completely",
+        "The motion is unaffected by temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher temperatures mean fluid molecules move faster and hit the suspended particles harder and more often, making Brownian motion more rapid. \n\n**Common mistake:** Thinking that 'motion' is only a property of the state and not the temperature value."
+    },
+    {
+      "id": "8-2-the-particle-model-medium-q5",
+      "type": "mcq",
+      "question": "Which of these correctly compares a $1\\text{ K}$ change in temperature to a $1^\\circ\\text{C}$ change?",
+      "options": [
+        "A change of $1\\text{ K}$ is exactly equal to a change of $1^\\circ\\text{C}$",
+        "A change of $1\\text{ K}$ is larger than a change of $1^\\circ\\text{C}$",
+        "A change of $1\\text{ K}$ is smaller than a change of $1^\\circ\\text{C}$",
+        "They cannot be compared because they use different scales"
+      ],
+      "correctIndex": 0,
+      "explanation": "One degree change on the Kelvin scale is exactly the same as one degree change on the Celsius scale. \n\n**Common mistake:** Thinking that because the scales start at different points, the size of their 'degrees' must be different."
+    }
+  ]
+}

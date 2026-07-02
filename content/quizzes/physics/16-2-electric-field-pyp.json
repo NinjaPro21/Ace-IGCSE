@@ -1,0 +1,77 @@
+{
+  "id": "16-2-electric-field-pyp",
+  "topicId": "16-2-electric-field",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "pyp",
+  "title": "Electric Field — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-2-electric-field-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows the electric field pattern around an isolated object. n[Diagram: Radial lines pointing inwards towards a central sphere]nWhat is the nature of the charge on the object?",
+      "options": [
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Magnetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric field lines are directed towards a negative charge. In the diagram, the arrows pointing inward identify the charge as negative.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-pyp-q2",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the direction of the electric field and the type of charge that follows it?",
+      "options": [
+        "Direction: Away from positive; Charge: Positive follows field",
+        "Direction: Towards positive; Charge: Positive follows field",
+        "Direction: Away from negative; Charge: Negative follows field",
+        "Direction: Towards positive; Charge: Negative follows field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines point away from positive charges. By definition, a positive charge experiences a force in the direction of these lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-pyp-q3",
+      "type": "mcq",
+      "question": "A student places a small charged plastic ball between two horizontal, oppositely charged plates. The ball stays stationary. Which statement is correct?",
+      "options": [
+        "The upward electric force is equal to the downward weight of the ball",
+        "There is no electric field between the plates",
+        "The ball must be electrically neutral",
+        "The magnetic field is cancelling the electric field"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the ball to be stationary, the forces must be balanced. The electric field exerts a force on the charge that must be equal and opposite to the gravitational force (weight).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-pyp-q4",
+      "type": "mcq",
+      "question": "Which diagram correctly represents the electric field between two identical negative charges placed near each other?",
+      "options": [
+        "Lines from both charges point inwards and bend away from the central gap",
+        "Lines from both charges point outwards and meet in the middle",
+        "Lines move in straight paths from one charge to the other",
+        "Concentric circles surround both charges together"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since both are negative, lines must point towards the charges. Because they are like charges, they repel, so the field lines bend away from the region between them.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-pyp-q5",
+      "type": "mcq",
+      "question": "A metal sphere is positively charged. What happens to the electric field pattern if the charge on the sphere is doubled?",
+      "options": [
+        "The number of field lines drawn increases",
+        "The field lines reverse direction",
+        "The field lines become parallel to each other",
+        "The field lines only exist inside the sphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "A stronger field is represented by a higher density of field lines. Doubling the charge increases the field strength, requiring more lines in the diagram.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

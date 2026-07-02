@@ -1,0 +1,77 @@
+{
+  "id": "9-3-changes-of-state-medium",
+  "topicId": "9-3-changes-of-state",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "medium",
+  "title": "Changes of State — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-3-changes-of-state-medium-q1",
+      "type": "mcq",
+      "question": "A student pours the same volume of water into a wide shallow dish and a tall narrow glass. Which will evaporate faster and why?",
+      "options": [
+        "The dish, because it has a larger surface area",
+        "The glass, because it has a smaller surface area",
+        "The dish, because the water is shallower",
+        "Both will evaporate at the same rate if the temperature is the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the surface area allows more particles to escape from the surface of the liquid, increasing the rate of evaporation. \n\n**Common mistake:** Thinking depth is the primary factor rather than surface area."
+    },
+    {
+      "id": "9-3-changes-of-state-medium-q2",
+      "type": "mcq",
+      "question": "Which of the following describes a similarity between boiling and evaporation?",
+      "options": [
+        "Both involve a liquid changing into a gas",
+        "Both occur at a fixed temperature",
+        "Both produce bubbles throughout the liquid",
+        "Both have a cooling effect on the remaining liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both processes are phase changes from liquid to gas. \n\n**Common mistake:** Only evaporation causes a cooling effect; boiling occurs at a constant temperature determined by the heat source."
+    },
+    {
+      "id": "9-3-changes-of-state-medium-q3",
+      "type": "mcq",
+      "question": "A cooling curve for a substance shows a horizontal line at $60^\\circ\\text{C}$. What does this value represent?",
+      "options": [
+        "The freezing point of the substance",
+        "The room temperature",
+        "The boiling point of the substance",
+        "The specific heat capacity of the substance"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line on a cooling curve indicates a change of state (e.g., liquid to solid), during which the temperature remains constant. \n\n**Common mistake:** Thinking the temperature must always drop while cooling."
+    },
+    {
+      "id": "9-3-changes-of-state-medium-q4",
+      "type": "mcq",
+      "question": "Why does a puddle of water dry up more quickly on a windy day?",
+      "options": [
+        "Air movement removes evaporated water vapor, preventing it from returning to the liquid",
+        "The wind increases the atmospheric pressure on the puddle",
+        "The wind supplies more thermal energy to the water",
+        "Wind makes the water molecules smaller and lighter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air movement (wind) carries away the vapor particles above the surface, making it easier for more particles to escape. \n\n**Common mistake:** Thinking wind 'heats up' the water through friction."
+    },
+    {
+      "id": "9-3-changes-of-state-medium-q5",
+      "type": "mcq",
+      "question": "During the process of boiling, the temperature of the water remains at $100^\\circ\\text{C}$ even though the heater is still on. What is the energy being used for?",
+      "options": [
+        "To overcome the attractive forces between the liquid particles",
+        "To increase the average kinetic energy of the particles",
+        "To make the individual water molecules expand in size",
+        "To heat up the surrounding air instead of the water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal energy is used to break the bonds (attractive forces) between molecules to allow them to escape as a gas. \n\n**Common mistake:** Thinking the energy increases the temperature/kinetic energy; temperature stays constant during a change of state."
+    }
+  ]
+}

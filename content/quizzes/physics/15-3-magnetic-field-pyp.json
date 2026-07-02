@@ -1,0 +1,77 @@
+{
+  "id": "15-3-magnetic-field-pyp",
+  "topicId": "15-3-magnetic-field",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "pyp",
+  "title": "Magnetic Field — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-3-magnetic-field-pyp-q1",
+      "type": "mcq",
+      "question": "A small compass is placed near the centre of a bar magnet as shown in Figure 15.19. In which direction will the compass needle point?",
+      "options": [
+        "Parallel to the magnet, pointing towards the South pole",
+        "Parallel to the magnet, pointing towards the North pole",
+        "Perpendicular to the magnet, pointing towards the top of the page",
+        "Perpendicular to the magnet, pointing towards the bottom of the page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the review question in the notes, the field lines at the side of a bar magnet travel from North to South, parallel to the magnet's length.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-pyp-q2",
+      "type": "mcq",
+      "question": "Which diagram correctly represents the magnetic field pattern of a bar magnet?",
+      "options": [
+        "Curves directed away from the North pole and towards the South pole",
+        "Curves directed away from the South pole and towards the North pole",
+        "Straight lines pointing outwards from both poles",
+        "Concentric circles centred on the midpoint of the magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A standard bar magnet field consists of curves that exit the North pole and enter the South pole. Straight lines or concentric circles do not match this dipole pattern.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-pyp-q3",
+      "type": "mcq",
+      "question": "A student uses a plotting compass to map the magnetic field of a bar magnet. Which statement correctly describes the procedure?",
+      "options": [
+        "The student marks points at the North end of the compass needle to trace the field direction",
+        "The student marks points at the South end of the compass needle to trace the field direction",
+        "The student must keep the compass at a fixed distance from the magnet at all times",
+        "The student must use a new compass for every new point marked"
+      ],
+      "correctIndex": 0,
+      "explanation": "To map field lines, one follows the North-seeking end of the compass needle, marking its position and moving the compass South-end to that mark to continue the line.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-pyp-q4",
+      "type": "mcq",
+      "question": "A graph shows the magnetic field strength $B$ against the distance $d$ from the North pole of a magnet. Which of the following is true?",
+      "options": [
+        "The field strength $B$ decreases as distance $d$ increases",
+        "The field strength $B$ increases as distance $d$ increases",
+        "The field strength $B$ remains constant as distance $d$ increases",
+        "The field strength $B$ is zero at the North pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic force is strongest at the poles. As one moves further away (increasing $d$), the field lines spread out and the strength ($B$) decreases.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-3-magnetic-field-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies properties of magnetic field lines?nnDirection | Indication of Strengthn--- | ---nA. North to South | Spacing of linesnB. South to North | Spacing of linesnC. North to South | Colour of linesnD. South to North | Length of lines",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines travel from North to South, and their relative spacing (density) indicates the strength of the magnetic field in that region.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

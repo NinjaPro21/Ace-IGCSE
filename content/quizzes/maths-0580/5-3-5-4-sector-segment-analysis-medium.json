@@ -1,0 +1,77 @@
+{
+  "id": "5-3-5-4-sector-segment-analysis-medium",
+  "topicId": "5-3-5-4-sector-segment-analysis",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "medium",
+  "title": "Sector & Segment Analysis — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-3-5-4-sector-segment-analysis-medium-q1",
+      "type": "mcq",
+      "question": "A sector of a circle with radius $12\\text{ cm}$ has an arc length of $14\\pi\\text{ cm}$. Calculate the central angle $\\theta$.",
+      "options": [
+        "$210°$",
+        "$105°$",
+        "$140°$",
+        "$70°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$14\\pi = \\frac{\\theta}{360} \\times 2\\pi(12) \\Rightarrow 14 = \\frac{24\\theta}{360} \\Rightarrow 14 = \\frac{\\theta}{15} \\Rightarrow \\theta = 210°$.\n\n**Common mistake:** Arithmetic errors during the rearrangement of the formula are common."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-medium-q2",
+      "type": "mcq",
+      "question": "Determine the area of a sector if the radius is $5\\text{ cm}$ and the arc length is $7.5\\text{ cm}$.",
+      "options": [
+        "$18.75\\text{ cm}^2$",
+        "$37.5\\text{ cm}^2$",
+        "$9.375\\text{ cm}^2$",
+        "$15.0\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find $\\theta$2$7.5 = \\frac{\\theta}{360} \\times 2\\pi(5) \\Rightarrow \\theta \\approx 85.94°$. Area $= \\frac{85.94}{360} \\times \\pi \\times 5^2 \\approx 18.75$. Alternatively, use $\\text{Area} = 0.5 \\times r \\times l = 0.5 \\times 5 \\times 7.5 = 18.75$.\n\n**Common mistake:** The student might multiply radius and arc length but forget to divide by 2."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-medium-q3",
+      "type": "mcq",
+      "question": "A chord of length $12\\text{ cm}$ is drawn in a circle of radius $10\\text{ cm}$. Calculate the shortest distance from the centre of the circle to the chord.",
+      "options": [
+        "$8\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$\\sqrt{136}\\text{ cm}$",
+        "$4\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance from the centre, half the chord ($6\\text{ cm}$), and the radius ($10\\text{ cm}$) form a right-angled triangle. Distance $= \\sqrt{10}^2 - 6^2 = \\sqrt{64} = 8$.\n\n**Common mistake:** The student might treat the distance as the hypotenuse and calculate $\\sqrt{10}^2 + 6^2$."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-medium-q4",
+      "type": "mcq",
+      "question": "Calculate the area of a segment where the radius is $8\\text{ cm}$ and the central angle is $90°$. (Use $\\pi = 3.142$)",
+      "options": [
+        "$18.3\\text{ cm}^2$",
+        "$50.3\\text{ cm}^2$",
+        "$32.0\\text{ cm}^2$",
+        "$14.3\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sector area $= 0.25 \\times \\pi \\times 8^2 = 16\\pi \\approx 50.27$. Triangle area $= 0.5 \\times 8 \\times 8 \\times \\sin(90°) = 32$. Segment area $= 50.27 - 32 = 18.27 \\approx 18.3$.\n\n**Common mistake:** A student might calculate the sector area and assume that is the segment area, or forget to subtract the triangle."
+    },
+    {
+      "id": "5-3-5-4-sector-segment-analysis-medium-q5",
+      "type": "mcq",
+      "question": "A circle has a minor arc of length $2\\pi\\text{ cm}$ and a major arc of length $22\\pi\\text{ cm}$. Find the radius of the circle.",
+      "options": [
+        "$12\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$24\\text{ cm}$",
+        "$3.82\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total circumference $= 2\\pi + 22\\pi = 24\\pi$2$C = 2\\pi r$2$24\\pi = 2\\pi r \\Rightarrow r = 12$.\n\n**Common mistake:** The student might use only one of the arc lengths as the full circumference."
+    }
+  ]
+}

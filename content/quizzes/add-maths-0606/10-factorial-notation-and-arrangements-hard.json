@@ -1,0 +1,142 @@
+{
+  "id": "10-factorial-notation-and-arrangements-hard",
+  "topicId": "10-factorial-notation-and-arrangements",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "hard",
+  "title": "Factorial Notation and Arrangements — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q1",
+      "type": "mcq",
+      "question": "Solve the equation (n + 1)! / (n - 1)! = 72 for positive integer n.",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 1)n = 72. n^2 + n - 72 = 0. (n + 9)(n - 8) = 0. Since n must be positive, n = 8.\n\n**Common mistake:** Choosing n = 9 because 9 × 8 = 72, but n is the smaller factor in n(n+1) if you aren't careful."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q2",
+      "type": "mcq",
+      "question": "Find the value of n if n! / (n - 2)! = 90.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "45"
+      ],
+      "correctIndex": 0,
+      "explanation": "n(n - 1) = 90. n^2 - n - 90 = 0. (n - 10)(n + 9) = 0. Since n > 0, n = 10.\n\n**Common mistake:** Identifying the answer as 9 (the other factor) instead of the larger value n."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q3",
+      "type": "mcq",
+      "question": "Simplify (2n)! / (2n - 2)!.",
+      "options": [
+        "4n^2 - 2n",
+        "2n",
+        "4n^2 - 4n",
+        "2n^2 - n"
+      ],
+      "correctIndex": 0,
+      "explanation": "(2n)(2n - 1)(2n - 2)! / (2n - 2)! = (2n)(2n - 1) = 4n^2 - 2n.\n\n**Common mistake:** Incorrectly expanding to (2n)(n-1) or making errors in the binomial multiplication."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q4",
+      "type": "mcq",
+      "question": "Solve for n: (n + 1)! = 12 × (n - 1)!.",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 1)n(n - 1)! = 12(n - 1)!. n(n + 1) = 12. n^2 + n - 12 = 0. (n + 4)(n - 3) = 0. Positive n = 3.\n\n**Common mistake:** Choosing n = 4, misidentifying which factor corresponds to which value in the product 3 × 4."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q5",
+      "type": "mcq",
+      "question": "Find the value of k such that 1 / n! + 1 / (n + 1)! = k / (n + 1)!.",
+      "options": [
+        "n + 2",
+        "n + 1",
+        "1",
+        "n"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply by (n + 1)!: (n + 1)! / n! + (n + 1)! / (n + 1)! = k. (n + 1) + 1 = k, so k = n + 2.\n\n**Common mistake:** Thinking k = 1 or incorrectly simplifying the first $fraction$ as n."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q6",
+      "type": "mcq",
+      "question": "Find the number of different arrangements of the 9 letters of the word $REARRANGE$ such that the two 'R's are at the ends of the arrangement.",
+      "options": [
+        "1260",
+        "3360",
+        "720",
+        "2520"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fix two 'R's at the ends. The remaining 7 letters are: {R, E, E, A, A, N, G}. Arrangements = $\\frac{7!}{2!2!} = \\frac{5040}{4} = 1260$.\n\n**Common mistake:** Option B is $\\frac{8!}{3!2!}$, which might occur if a student only fixes one 'R' or miscounts the remaining letters."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q7",
+      "type": "mcq",
+      "question": "Six books are to be arranged in a row. Two of these books are Math books and the rest are Science books. Find the number of ways the books can be arranged if the two Math books must not be next to each other.",
+      "options": [
+        "480",
+        "720",
+        "240",
+        "120"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total arrangements = $6! = 720$. Ways with Math books together = $5! \\times 2! = 240$. Ways not together = $720 - 240 = 480$.\n\n**Common mistake:** Option C is the number of ways they are together, which is the opposite of the question's requirement."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q8",
+      "type": "mcq",
+      "question": "How many 5-digit even numbers can be formed using the digits {1, 2, 3, 4, 5} once each?",
+      "options": [
+        "48",
+        "120",
+        "24",
+        "60"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the number to be even, the last digit must be 2 or 4 (2 choices). The remaining 4 digits can be arranged in $4! = 24$ ways. Total = $2 \\times 24 = 48$.\n\n**Common mistake:** Option B is $5!$, representing all possible 5-digit numbers without considering the even condition."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-hard-q9",
+      "type": "mcq",
+      "question": "A row of 6 seats is to be filled by 3 boys and 3 girls. Find the number of ways they can be seated if all the boys must sit together.",
+      "options": [
+        "144",
+        "720",
+        "36",
+        "72"
+      ],
+      "correctIndex": 0,
+      "explanation": "Treat the 3 boys as one block. We arrange 4 items (the block + 3 girls) in $4! = 24$ ways. Within the block, the 3 boys can be arranged in $3! = 6$ ways. Total = $24 \\times 6 = 144$.\n\n**Common mistake:** Option D occurs if the student correctly identifies the $4!$ arrangement but uses $2!$ instead of $3!$ for the internal boy arrangement."
+    },
+    {
+      "type": "mcq",
+      "question": "Find the number of ways the letters of the word 'ADDITIONAL' can be arranged if the two 'I's must NOT be together.",
+      "options": [
+        "362,880",
+        "453,600",
+        "90,720",
+        "1,814,400"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total arrangements: $10! / (2!2!2!) = 453600$. Arrangements where 'I's are together (treat 'II' as one block): $9! / (2!2!) = 90720$. Apart: $453600 - 90720 = 362880$.\n\n**Common mistake:** Forgetting to divide by the factorial of repeated letters (A, D, I).",
+      "id": "10-factorial-notation-and-arrangements-hard-q10"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "14-3-echoes-and-ultrasound-easy",
+  "topicId": "14-3-echoes-and-ultrasound",
+  "chapterId": "ch14-sound",
+  "difficulty": "easy",
+  "title": "Echoes and Ultrasound — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-3-echoes-and-ultrasound-easy-q1",
+      "type": "mcq",
+      "question": "What is an echo?",
+      "options": [
+        "The reflection of sound waves off a hard surface",
+        "The absorption of sound waves by a soft medium",
+        "The refraction of sound as it enters water",
+        "The vibration of a source at a frequency above $20\\text{ kHz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An echo is formed when sound waves are reflected off a hard surface and return to the listener. Absorption and refraction are different wave behaviours.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-easy-q2",
+      "type": "mcq",
+      "question": "Which frequency range defines ultrasound?",
+      "options": [
+        "Above $20000\\text{ Hz}$",
+        "Between $20\\text{ Hz}$ and $20000\\text{ Hz}$",
+        "Below $20\\text{ Hz}$",
+        "Exactly $340\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is defined as sound with a frequency higher than the upper limit of human hearing, which is $20000\\text{ Hz}$ (or $20\\text{ kHz}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-easy-q3",
+      "type": "mcq",
+      "question": "Which of these is a common application for echoes in maritime technology?",
+      "options": [
+        "Determining the depth of the sea",
+        "Sterilising the water in a tank",
+        "Increasing the speed of a ship",
+        "Changing the pitch of an engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Echoes are used in sonar and echo sounding to determine sea depth by measuring the time it takes for a sound pulse to reflect off the seabed.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-easy-q4",
+      "type": "mcq",
+      "question": "Which type of surface is best for producing a clear echo?",
+      "options": [
+        "A hard, flat surface",
+        "A soft, padded surface",
+        "An irregular, porous surface",
+        "A vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hard and flat surfaces reflect sound waves more efficiently, creating distinct echoes. Soft materials tend to absorb sound energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-easy-q5",
+      "type": "mcq",
+      "question": "What is the frequency limit above which sound is classified as 'ultrasound'?",
+      "options": [
+        "$20\\text{ kHz}$",
+        "$20\\text{ Hz}$",
+        "$2\\text{ kHz}$",
+        "$200000\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$20\\text{ kHz}$ is equivalent to $20000\\text{ Hz}$, which is the upper limit of human audibility.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

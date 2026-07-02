@@ -1,0 +1,77 @@
+{
+  "id": "1-3-number-facts-medium",
+  "topicId": "1-3-number-facts",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Number Facts — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-3-number-facts-medium-q1",
+      "type": "mcq",
+      "question": "Express 120 as a product of its prime factors in index notation.",
+      "options": [
+        "2³ × 3 × 5",
+        "2$^2$ × 3$^2$ × 5",
+        "2 × 3 × 4 × 5",
+        "2⁴ × 3 × 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use a factor tree: $120 = 2 \\times 60 = 2 \\times 2 \\times 30 = 2 \\times 2 \\times 2 \\times 15 = 2^3 \\times 3 \\times 5$.\n\n**Common mistake:** Students include non-prime factors like 4 or compute powers incorrectly."
+    },
+    {
+      "id": "1-3-number-facts-medium-q2",
+      "type": "mcq",
+      "question": "Find the LCM of 12, 15, and 18.",
+      "options": [
+        "180",
+        "360",
+        "90",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime factorisations: $12 = 2^2 \\times 3$, $15 = 3 \\times 5$, $18 = 2 \\times 3^2$. The LCM takes the highest power of all appearing primes: $2^2 \\times 3^2 \\times 5 = 4 \\times 9 \\times 5 = 180$.\n\n**Common mistake:** Students find a common multiple that is not the lowest, such as 360, or calculate the HCF (3)."
+    },
+    {
+      "id": "1-3-number-facts-medium-q3",
+      "type": "mcq",
+      "question": "Find the HCF of 56 and 84.",
+      "options": [
+        "28",
+        "14",
+        "7",
+        "168"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime factorisations: $56 = 2^3 \\times 7$ and $84 = 2^2 \\times 3 \\times 7$. The HCF takes the lowest power of common primes: $2^2 \\times 7 = 4 \\times 7 = 28$.\n\n**Common mistake:** Students pick 14 or 7, which are common factors but not the highest available factor."
+    },
+    {
+      "id": "1-3-number-facts-medium-q4",
+      "type": "mcq",
+      "question": "Two blinking neon lights flash at intervals of 15 seconds and 20 seconds respectively. If they flash together now, after how many minutes will they next flash together?",
+      "options": [
+        "1 minute",
+        "60 minutes",
+        "3 minutes",
+        "1.5 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the LCM of 15 and 20: $\\text{LCM}(15, 20) = 60\\text{ seconds}$. Convert seconds to minutes: $60\\text{ seconds} = 1\\text{ minute}$.\n\n**Common mistake:** Students give the answer directly in seconds (60) without converting to the requested unit of minutes."
+    },
+    {
+      "id": "1-3-number-facts-medium-q5",
+      "type": "mcq",
+      "question": "Given that $A = 2^3 \\times 3^2 \\times 5$ and $B = 2^2 \\times 3^3 \\times 7$, evaluate the HCF of $A$2$B$.",
+      "options": [
+        "36",
+        "108",
+        "7560",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the HCF, identify the lowest power of the common prime bases: $\\text{HCF} = 2^2 \\times 3^2 = 4 \\times 9 = 36$.\n\n**Common mistake:** Students take the highest powers instead, evaluating the LCM of the expressions."
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "ch14-sound-easy",
+  "topicId": "ch14-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "easy",
+  "title": "Chapter 14: Sound — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch14-sound-easy-q1",
+      "type": "mcq",
+      "question": "How is sound produced by a source?",
+      "options": [
+        "By a vibrating source",
+        "By a stationary source",
+        "By heating a medium",
+        "By reflecting light"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, sound is a form of energy produced by vibrating sources placed in a medium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q2",
+      "type": "mcq",
+      "question": "What is the typical range of frequencies audible to a healthy human ear?",
+      "options": [
+        "$20\\text{ Hz}$ to $20000\\text{ Hz}$",
+        "$0\\text{ Hz}$ to $20\\text{ Hz}$",
+        "$20000\\text{ Hz}$ to $2\\text{ MHz}$",
+        "$100\\text{ Hz}$ to $1\\text{ kHz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For humans, the audible sound range is defined as being from $20\\text{ Hz}$ to $20000\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q3",
+      "type": "mcq",
+      "question": "Which type of wave is a sound wave?",
+      "options": [
+        "Longitudinal",
+        "Transverse",
+        "Electromagnetic",
+        "Stationary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves are longitudinal waves because the direction of vibration of the particles is parallel to the direction of the wave travel.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q4",
+      "type": "mcq",
+      "question": "What is a region in a sound wave where the air pressure is higher than the surrounding air pressure called?",
+      "options": [
+        "A compression",
+        "A rarefaction",
+        "An amplitude",
+        "A crest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compressions are regions where air pressure is higher than the surrounding air pressure. Rarefactions are regions where it is lower.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q5",
+      "type": "mcq",
+      "question": "What is the SI unit for the frequency of a sound wave?",
+      "options": [
+        "Hertz (Hz)",
+        "Joule (J)",
+        "Metre (m)",
+        "Second (s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz (Hz), which represents the number of complete waves or vibrations per second.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following is essential for the transmission of sound waves?",
+      "options": [
+        "A material medium",
+        "A vacuum",
+        "A light source",
+        "A magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound is a mechanical wave that requires a medium (solid, liquid, or gas) to travel. \n\n**Common mistake:** Thinking sound can travel through a vacuum like electromagnetic waves do."
+    },
+    {
+      "id": "ch14-sound-easy-q7",
+      "type": "mcq",
+      "question": "What is the approximate speed of sound in air under standard conditions?",
+      "options": [
+        "$330\\text{ m/s}$",
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$1500\\text{ m/s}$",
+        "$330\\text{ km/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Table 14.2, the typical speed of sound in air is approximately $330\\text{ m/s}$. \n\n**Common mistake:** Confusing this with the speed of light ($3.0 \\times 10^{8}\\text{ m/s}$)."
+    },
+    {
+      "id": "ch14-sound-easy-q8",
+      "type": "mcq",
+      "question": "In which state of matter does sound generally travel the fastest?",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Plasmas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound travels fastest in solids (e.g., $5000\\text{ m/s}$ in iron) because the particles are closely packed, allowing vibrations to pass more efficiently. \n\n**Common mistake:** Believing sound travels faster in air because air is 'thinner'."
+    },
+    {
+      "id": "ch14-sound-easy-q9",
+      "type": "mcq",
+      "question": "Which of the following describes the nature of a sound wave?",
+      "options": [
+        "Longitudinal",
+        "Transverse",
+        "Electromagnetic",
+        "Surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves are longitudinal, meaning the direction of vibration is parallel to the direction of energy transfer. \n\n**Common mistake:** Selecting 'transverse,' which describes light or rope waves."
+    },
+    {
+      "id": "ch14-sound-easy-q10",
+      "type": "mcq",
+      "question": "Which of these is the correct SI unit for the speed of sound?",
+      "options": [
+        "metres per second ($\\text{m/s}$)",
+        "hertz ($\\text{Hz}$)",
+        "metres ($\\text{m}$)",
+        "seconds ($\\text{s}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is defined as distance per unit time, measured in $\\text{m/s}$. \n\n**Common mistake:** Using hertz ($\\text{Hz}$), which is the unit for frequency."
+    },
+    {
+      "id": "ch14-sound-easy-q11",
+      "type": "mcq",
+      "question": "What is an echo?",
+      "options": [
+        "The reflection of sound waves off a hard surface",
+        "The absorption of sound waves by a soft medium",
+        "The refraction of sound as it enters water",
+        "The vibration of a source at a frequency above $20\\text{ kHz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An echo is formed when sound waves are reflected off a hard surface and return to the listener. Absorption and refraction are different wave behaviours.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q12",
+      "type": "mcq",
+      "question": "Which frequency range defines ultrasound?",
+      "options": [
+        "Above $20000\\text{ Hz}$",
+        "Between $20\\text{ Hz}$ and $20000\\text{ Hz}$",
+        "Below $20\\text{ Hz}$",
+        "Exactly $340\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is defined as sound with a frequency higher than the upper limit of human hearing, which is $20000\\text{ Hz}$ (or $20\\text{ kHz}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q13",
+      "type": "mcq",
+      "question": "Which of these is a common application for echoes in maritime technology?",
+      "options": [
+        "Determining the depth of the sea",
+        "Sterilising the water in a tank",
+        "Increasing the speed of a ship",
+        "Changing the pitch of an engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Echoes are used in sonar and echo sounding to determine sea depth by measuring the time it takes for a sound pulse to reflect off the seabed.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q14",
+      "type": "mcq",
+      "question": "Which type of surface is best for producing a clear echo?",
+      "options": [
+        "A hard, flat surface",
+        "A soft, padded surface",
+        "An irregular, porous surface",
+        "A vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hard and flat surfaces reflect sound waves more efficiently, creating distinct echoes. Soft materials tend to absorb sound energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q15",
+      "type": "mcq",
+      "question": "What is the frequency limit above which sound is classified as 'ultrasound'?",
+      "options": [
+        "$20\\text{ kHz}$",
+        "$20\\text{ Hz}$",
+        "$2\\text{ kHz}$",
+        "$200000\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$20\\text{ kHz}$ is equivalent to $20000\\text{ Hz}$, which is the upper limit of human audibility.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-easy-q16",
+      "type": "mcq",
+      "question": "Which physical characteristic of a sound wave is directly related to its pitch?",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Speed",
+        "Wavelength"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the 'Let's Map It' section, pitch is related to the frequency of a sound wave. **Common mistake:** Confusing pitch with loudness, which is related to amplitude."
+    },
+    {
+      "id": "ch14-sound-easy-q17",
+      "type": "mcq",
+      "question": "Which characteristic of a sound wave determines how loud it is perceived to be?",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Period",
+        "Velocity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material states that loudness is related to the amplitude of a sound wave. **Common mistake:** Thinking that frequency (which determines pitch) affects loudness."
+    },
+    {
+      "id": "ch14-sound-easy-q18",
+      "type": "mcq",
+      "question": "What happens to a sound if the amplitude of its vibrations increases while the frequency remains the same?",
+      "options": [
+        "The sound becomes louder",
+        "The sound becomes higher in pitch",
+        "The sound becomes quieter",
+        "The sound becomes lower in pitch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the amplitude increases the loudness of the sound, while keeping frequency constant ensures the pitch does not change. **Common mistake:** Thinking that hitting an object harder makes the note higher."
+    },
+    {
+      "id": "ch14-sound-easy-q19",
+      "type": "mcq",
+      "question": "A sound wave is described as having a very high frequency. What would a listener observe about this sound?",
+      "options": [
+        "It has a high pitch",
+        "It is very loud",
+        "It travels faster than a low-frequency sound",
+        "It has a very large amplitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency determines pitch; therefore, a high frequency results in a high-pitched sound. **Common mistake:** Believing high-frequency sounds travel faster; the speed of sound is constant for all frequencies in the same medium."
+    },
+    {
+      "id": "ch14-sound-easy-q20",
+      "type": "mcq",
+      "question": "Which of these changes would definitely cause a sound to become higher in pitch?",
+      "options": [
+        "Increasing the number of vibrations per second",
+        "Increasing the maximum displacement of the particles",
+        "Using a microphone to amplify the sound",
+        "Increasing the distance between the source and the listener"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is the number of vibrations per second. Since pitch is related to frequency, increasing vibrations per second raises the pitch. **Common mistake:** Selecting choice B, which actually increases loudness."
+    }
+  ]
+}

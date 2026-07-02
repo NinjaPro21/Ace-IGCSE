@@ -1,0 +1,77 @@
+{
+  "id": "4-2-forces-and-motion-easy",
+  "topicId": "4-2-forces-and-motion",
+  "chapterId": "ch04-forces",
+  "difficulty": "easy",
+  "title": "Forces and Motion — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-forces-and-motion-easy-q1",
+      "type": "mcq",
+      "question": "What is the definition of a resultant force?",
+      "options": [
+        "A single force that has the same effect as all the forces acting on an object",
+        "The force produced only when an object is at rest",
+        "The force of gravity acting on a mass",
+        "The force of friction opposing motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "A resultant force is a single force that produces the same effect as two or more individual forces combined. \n\n**Common mistake:** Thinking the resultant force is only the largest single force acting on the body."
+    },
+    {
+      "id": "4-2-forces-and-motion-easy-q2",
+      "type": "mcq",
+      "question": "A toy boat has a forward thrust of $50\\text{ N}$ and resistive forces of $45\\text{ N}$ acting in the opposite direction. What is the resultant force?",
+      "options": [
+        "$5\\text{ N}$",
+        "$95\\text{ N}$",
+        "$45\\text{ N}$",
+        "$0.9\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant force is found by subtracting opposing forces: $50\\text{ N} - 45\\text{ N} = 5\\text{ N}$. \n\n**Common mistake:** Adding the forces together ($95\\text{ N}$) even though they act in opposite directions."
+    },
+    {
+      "id": "4-2-forces-and-motion-easy-q3",
+      "type": "mcq",
+      "question": "Which statement describes the motion of an object when the resultant force acting on it is zero?",
+      "options": [
+        "The object remains at rest or continues at a constant speed in a straight line",
+        "The object must be stationary",
+        "The object is constantly accelerating",
+        "The object is moving in a circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "When forces are balanced (resultant force is zero), an object does not change its motion; it either stays still or keeps moving at a steady speed in a straight line. \n\n**Common mistake:** Believing an object with zero resultant force cannot be moving."
+    },
+    {
+      "id": "4-2-forces-and-motion-easy-q4",
+      "type": "mcq",
+      "question": "When an object moves in a circular path at a constant speed, in which direction does the resultant force act?",
+      "options": [
+        "Towards the centre of the circle",
+        "In the direction of the object's velocity",
+        "Away from the centre of the circle",
+        "Opposite to the direction of motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "For circular motion, the resultant force must act perpendicular to the velocity, directed towards the centre of the path. \n\n**Common mistake:** Thinking the force acts in the direction the object is 'pointing' (tangent to the circle)."
+    },
+    {
+      "id": "4-2-forces-and-motion-easy-q5",
+      "type": "mcq",
+      "question": "What is the SI unit for a moment of a force?",
+      "options": [
+        "newton metre (N m)",
+        "newton (N)",
+        "kilogram (kg)",
+        "pascal (Pa)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$The SI unit for a moment is the newton metre (N m), which is force \\times perpendicular distance.$\n\n**Common mistake:** Using only Newtons (N), which is the unit for force, not its turning effect."
+    }
+  ]
+}

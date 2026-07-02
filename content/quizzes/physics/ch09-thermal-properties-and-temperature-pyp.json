@@ -1,0 +1,207 @@
+{
+  "id": "ch09-thermal-properties-and-temperature-pyp",
+  "topicId": "ch09-thermal-properties-and-temperature",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "pyp",
+  "title": "Chapter 9: Thermal Properties and Temperature — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a metal bridge with a gap at one end. Why is this gap necessary?",
+      "options": [
+        "To allow the bridge to expand on a hot day",
+        "To allow the bridge to contract on a hot day",
+        "To save money on building materials",
+        "To let water drain through the road surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaps are left in large solid structures like bridges to accommodate the increase in length caused by thermal expansion in the summer. **Common mistake:** Confusing expansion (hot) with contraction (cold)."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q2",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the thermal expansion of different states of matter?",
+      "options": [
+        "Gases: Most expansion; Solids: Least expansion",
+        "Gases: Least expansion; Solids: Most expansion",
+        "Gases: Most expansion; Liquids: Least expansion",
+        "Liquids: Most expansion; Solids: Least expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in the 'Let's Map It' section, gases expand the most and solids expand the least. **Common mistake:** Swapping the properties of liquids and solids."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q3",
+      "type": "mcq",
+      "question": "A graph is plotted showing how the volume of a substance changes with temperature. If the line has a steady positive gradient, what does this indicate?",
+      "options": [
+        "The substance is expanding at a uniform rate",
+        "The substance is contracting at a uniform rate",
+        "The substance is changing state from a liquid to a solid",
+        "The density of the substance is increasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A positive gradient means as temperature increases, volume increases, which is the definition of uniform thermal expansion. **Common mistake:** Thinking a positive gradient means density is increasing; density would actually be decreasing."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q4",
+      "type": "mcq",
+      "question": "What happens to the average distance between particles in a liquid when its temperature decreases?",
+      "options": [
+        "The average distance decreases",
+        "The average distance increases",
+        "The average distance remains the same",
+        "The particles grow closer together and stop moving"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cooling causes contraction, which means the particles move less vigorously and the average space between them gets smaller. **Common mistake:** Thinking that cooling makes particles move 'freely' and thus stay further apart."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q5",
+      "type": "mcq",
+      "question": "Which statement about thermal expansion is correct?",
+      "options": [
+        "Solids, liquids, and gases all expand when heated.",
+        "Only gases expand because they have weak forces.",
+        "Solids expand because their particles move from place to place.",
+        "Expansion only happens at the boiling point of a substance."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion is a general property of all states of matter, though the magnitude varies. **Common mistake:** Believing expansion is exclusive to gases or only occurs during a change of state."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q6",
+      "type": "mcq",
+      "question": "An experimental set-up is used to determine the specific heat capacity of a $1\\text{ kg}$ metal block. The heater is on for $500\\text{ s}$ with a current of $5\\text{ A}$ and voltage of $8\\text{ V}$. If the temperature rise is $50^\\circ\\text{C}$, what is the specific heat capacity?",
+      "options": [
+        "$400\\text{ J/(kg K)}$",
+        "$20000\\text{ J/(kg K)}$",
+        "$80\\text{ J/(kg K)}$",
+        "$2000\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy $E = IVt = 5 \\times 8 \\times 500 = 20000\\text{ J}$. $c = 20000 / (1 \\times 50) = 400\\text{ J/(kg K)}$. \n\n**Common mistake:** Dividing the energy by the time instead of the temperature change ($40$)."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q7",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the relationship between internal energy, kinetic energy, and temperature?",
+      "options": [
+        "Temperature Rise: Increases; Avg. Kinetic Energy: Increases; Internal Energy: Increases",
+        "Temperature Rise: Increases; Avg. Kinetic Energy: Decreases; Internal Energy: Increases",
+        "Temperature Rise: Decreases; Avg. Kinetic Energy: Same; Internal Energy: Increases",
+        "Temperature Rise: Same; Avg. Kinetic Energy: Increases; Internal Energy: Decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that higher temperature means particles gain kinetic energy, which in turn increases the internal energy. \n\n**Common mistake:** Thinking internal energy can increase while kinetic energy decreases."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q8",
+      "type": "mcq",
+      "question": "When a liquid is heated, its internal energy increases. According to the kinetic particle model, what happens to the molecules?",
+      "options": [
+        "The molecules move faster",
+        "The molecules expand",
+        "The molecules move slower",
+        "The molecules get heavier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heating increases the kinetic energy of the molecules, causing them to move faster. \n\n**Common mistake:** Thinking the molecules themselves expand; the substance expands because molecules move further apart."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q9",
+      "type": "mcq",
+      "question": "A $0.24\\text{ kg}$ brass cylinder is heated using a $2.0\\text{ kW}$ heater. Its temperature increases from $30^\\circ\\text{C}$ to $100^\\circ\\text{C}$ in $3.2\\text{ s}$. What is the specific heat capacity of brass?",
+      "options": [
+        "$381\\text{ J/(kg K)}$",
+        "$125\\text{ J/(kg K)}$",
+        "$169\\text{ J/(kg K)}$",
+        "$400\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$E = P \\times t = 2000\\text{ W} \\times 3.2\\text{ s} = 6400\\text{ J}$. $Delta theta = 100 - 30 = 70\\text{ K}$. $c = 6400 / (0.24 \\times 70) \\approx 381\\text{ J/(kg K)}$. \n\n**Common mistake:** Using $2.0$ instead of $2000$ for the power in watts."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q10",
+      "type": "mcq",
+      "question": "In an experiment to measure the specific heat capacity of a liquid, why is a polystyrene cup and a lid used?",
+      "options": [
+        "To reduce thermal energy loss to the surroundings",
+        "To prevent the liquid from evaporating",
+        "To ensure the heater is fully submerged",
+        "To increase the rate of temperature rise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Polystyrene is a good insulator. Using a cup and lid minimizes heat loss to the surroundings, making the measurement of $c$ more accurate. \n\n**Common mistake:** Thinking it is to 'prevent evaporation' primarily, though that is a minor secondary benefit."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q11",
+      "type": "mcq",
+      "question": "When a solid is melting, the temperature remains constant even though thermal energy is being supplied. Which of the following explains this observation?",
+      "options": [
+        "The energy is used to break the bonds between the particles",
+        "The solid is not absorbing any thermal energy",
+        "The solid molecules are moving faster",
+        "The solid is giving out thermal energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in Section A of the Review, energy supplied during a change of state is used to break intermolecular bonds rather than increasing kinetic energy (temperature). \n\n**Common mistake:** Thinking energy absorption stops during melting."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q12",
+      "type": "mcq",
+      "question": "Which statement about evaporation is correct?",
+      "options": [
+        "Evaporation causes cooling",
+        "Evaporation occurs at the boiling point",
+        "Evaporation occurs when a gas turns into a liquid",
+        "Evaporation occurs more slowly at higher temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation involves the loss of high-energy particles, which reduces the average kinetic energy and temperature of the remaining liquid. \n\n**Common mistake:** Believing evaporation only happens at $100^\\circ\\text{C}$."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q13",
+      "type": "mcq",
+      "question": "The graph shows the temperature of a substance as it is cooled. In which section is the substance solidifying?nn[Graph shows: A-B (sloping down), B-C (horizontal at $60^\\circ\\text{C}$), C-D (sloping down)]",
+      "options": [
+        "B to C",
+        "A to B",
+        "C to D",
+        "The entire graph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solidification (freezing) occurs at a constant temperature, represented by the horizontal plateau (B to C). \n\n**Common mistake:** Selecting the sloping sections where temperature is changing."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q14",
+      "type": "mcq",
+      "question": "A student wants wet clothes on a washing line to dry as quickly as possible. Which set of conditions should she choose?",
+      "options": [
+        "Hot, windy, and spread out",
+        "Cold, windy, and folded",
+        "Hot, still air, and folded",
+        "Cold, still air, and spread out"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation rate increases with temperature, air movement (wind), and surface area (spread out). \n\n**Common mistake:** Thinking folding clothes (smaller area) will help them dry."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-pyp-q15",
+      "type": "mcq",
+      "question": "Which row in the table correctly compares boiling and evaporation?nn| | Boiling | Evaporation |n| :--- | :--- | :--- |n| A | Throughout liquid | At surface only |n| B | At any temperature | At fixed temperature |n| C | No bubbles produced | Bubbles produced |n| D | Causes cooling | Temperature remains constant |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boiling occurs throughout the liquid, whereas evaporation is a surface phenomenon. \n\n**Common mistake:** Swapping the temperature properties in Row B."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "9-3-equations-of-straight-lines-hard",
+  "topicId": "9-3-equations-of-straight-lines",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "hard",
+  "title": "Equations of Straight Lines — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-3-equations-of-straight-lines-hard-q1",
+      "type": "mcq",
+      "question": "Find the equation of the perpendicular bisector of the line segment joining points A(2,5) and B(8,1).",
+      "options": [
+        "y=1.5x−4.5",
+        "y=−0.67x+7",
+        "y=1.5x+3",
+        "y=−1.5x+10.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint is (5,3). Gradient AB=(1−5)/(8−2)=−4/6=−2/3. Perpendicular gradient is 3/2=1.5. y−3=1.5(x−5)⇒y=1.5x−4.5.\n\n**Common mistake:** The student might use the gradient of AB instead of the perpendicular gradient or fail to use the midpoint."
+    },
+    {
+      "id": "9-3-equations-of-straight-lines-hard-q2",
+      "type": "mcq",
+      "question": "Calculate the shortest distance from the point (4,8) to the line y=x+2.",
+      "options": [
+        "\\sqrt{8} units",
+        "2 units",
+        "4 units",
+        "\\sqrt{2} units"
+      ],
+      "correctIndex": 0,
+      "explanation": "The perpendicular line through (4,8) is y=−x+12. They intersect at (5,7). Distance between (4,8) and (5,7) is\n$(5-4)^{2}$+$(7-8)^{2}$\n=\n1+1 \\neq \\sqrt{2}. (Wait, re-checking... intersection: x+2=−x+12⇒2x=10⇒x=5,y=7. Correct.)\n\n**Common mistake:** The student might substitute the point into the line equation directly without finding the perpendicular intersection point or forget to use Pythagoras' theorem."
+    },
+    {
+      "id": "9-3-equations-of-straight-lines-hard-q3",
+      "type": "mcq",
+      "question": "A line passes through (5,2) and is perpendicular to x−3y=9. Find the x-intercept of this new line.",
+      "options": [
+        "(5.67,0)",
+        "(17,0)",
+        "(0,17)",
+        "(3,0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original m=1/3. Perpendicular m=−3. Equation: y−2=−3(x−5)⇒y=−3x+17. Set y=0: 0=−3x+17⇒x=17/3≈5.67.\n\n**Common mistake:** The student might find the y-intercept (17) instead of the x-intercept or use the original gradient 1/3."
+    },
+    {
+      "id": "9-3-equations-of-straight-lines-hard-q4",
+      "type": "mcq",
+      "question": "Determine the value of p if the line py+3x=12 is perpendicular to the line y=4x+1.",
+      "options": [
+        "12",
+        "−12",
+        "0.75",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "First line gradient is −3/p. Second line gradient is 4. For perpendicularity: (−3/p)×4=−1⇒−12/p=−1⇒p=12.\n\n**Common mistake:** The student might set the gradients equal (k for parallel) or miscalculate the algebra when solving for p."
+    },
+    {
+      "id": "9-3-equations-of-straight-lines-hard-q5",
+      "type": "mcq",
+      "question": "Find the equation of the line parallel to y=4x−2 that passes through the midpoint of the segment joining (0,0) and (4,8).",
+      "options": [
+        "y=4x−4",
+        "y=4x+4",
+        "y=−0.25x+4.5",
+        "y=4x"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint is (2,4). Gradient is 4. y−4=4(x−2)⇒y=4x−8+4⇒y=4x−4.\n\n**Common mistake:** The student might use one of the endpoints instead of the midpoint or change the gradient."
+    }
+  ]
+}

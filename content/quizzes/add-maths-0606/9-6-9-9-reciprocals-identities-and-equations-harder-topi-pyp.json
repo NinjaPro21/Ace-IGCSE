@@ -1,0 +1,77 @@
+{
+  "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp",
+  "topicId": "9-6-9-9-reciprocals-identities-and-equations-harder-topi",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "pyp",
+  "title": "Reciprocals, Identities, and Equations — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q1",
+      "type": "mcq",
+      "question": "Solve the equation $2\\cos x = \\cot x$2$0^\\circ \\le x \\le 360^\\circ$.",
+      "options": [
+        "$30^\\circ, 90^\\circ, 150^\\circ, 270^\\circ$",
+        "$30^\\circ, 150^\\circ$",
+        "$90^\\circ, 270^\\circ$",
+        "$60^\\circ, 90^\\circ, 120^\\circ, 270^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2\\cos x = \\cos x / \\sin x \\implies \\cos x(2 - 1/\\sin x) = 0$. $\\cos x = 0$ gives $90, 270$; $\\sin x = 0.5$ gives $30, 150$.\n\n**Common mistake:** Option B is chosen if the student divides by $\\cos x$2$\\cos x = 0$."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q2",
+      "type": "mcq",
+      "question": "Show that $3\\cos^2 \\theta = 4\\sin \\theta + 4$ can be written as a quadratic in $\\sin \\theta$2$0^\\circ \\le \\theta \\le 360^\\circ$.",
+      "options": [
+        "$199.5^\\circ, 270^\\circ, 340.5^\\circ$",
+        "$90^\\circ, 210^\\circ, 330^\\circ$",
+        "$210^\\circ, 270^\\circ, 330^\\circ$",
+        "$270^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$3(1 - \\sin^2 \\theta) = 4\\sin \\theta + 4 \\implies 3\\sin^2 \\theta + 4\\sin \\theta + 1 = 0 \\implies (3\\sin \\theta + 1)(\\sin \\theta + 1) = 0$. $\\sin \\theta = -1/3$ ($199.5, 340.5$) or $-1$ ($270$).\n\n**Common mistake:** Option D occurs if the student ignores the root $\\sin \\theta = -1/3$ or incorrectly thinks it has no solution."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q3",
+      "type": "mcq",
+      "question": "Find the coordinates of the points of intersection of the curves $y = \\csc x$2$y = 2$ for $0 \\le x \\le \\pi$.",
+      "options": [
+        "$(\\frac{\\pi}{6}, 2)$ and $(\\frac{5\\pi}{6}, 2)$",
+        "$(\\frac{\\pi}{3}, 2)$ and $(\\frac{2\\pi}{3}, 2)$",
+        "$(\\frac{\\pi}{6}, 2)$ and $(\\frac{11\\pi}{6}, 2)$",
+        "$(\\frac{\\pi}{2}, 2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\csc x = 2 \\implies \\sin x = 0.5$. In the interval^0 to $\\pi$2$x = \\pi/6$ and $x = 5\\pi/6$.\n\n**Common mistake:** Option C includes a solution from outside the specified interval ($0$ to $\\pi$)."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q4",
+      "type": "mcq",
+      "question": "Find the set of values of $k$2$2\\sec x = k$ has no real solutions.",
+      "options": [
+        "$-2 < k < 2$",
+        "$k > 2$ or $k < -2$",
+        "$k = 0$",
+        "All real $k$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2/\\cos x = k \\implies \\cos x = 2/k$2$|\\cos x| \\le 1$, for no solutions we need $|2/k| > 1$, which means $|k| < 2$.\n\n**Common mistake:** Option B is the set of values for which solutions do exist, rather than the values for no solutions."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q5",
+      "type": "mcq",
+      "question": "Given that $\\tan A = p$2$\\sec^2 A$2$p$.",
+      "options": [
+        "$1 + p^2$",
+        "$1 - p^2$",
+        "$p^2$",
+        "$\\sqrt{1 + p^2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the identity $1 + \\tan^2 A = \\sec^2 A$2$p$2$\\tan A$2$1 + p^2$.\n\n**Common mistake:** Option D is $\\sec A$2$\\sec^2 A$ as requested."
+    }
+  ]
+}

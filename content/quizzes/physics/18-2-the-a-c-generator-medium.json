@@ -1,0 +1,77 @@
+{
+  "id": "18-2-the-a-c-generator-medium",
+  "topicId": "18-2-the-a-c-generator",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "medium",
+  "title": "The A.c. Generator — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-2-the-a-c-generator-medium-q1",
+      "type": "mcq",
+      "question": "An a.c. generator is rotated at a certain speed. If the speed of rotation is doubled, what happens to the maximum output voltage?",
+      "options": [
+        "It doubles.",
+        "It remains the same.",
+        "It is halved.",
+        "It increases by four times."
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in Figure 18.11, doubling the frequency ($f$) of rotation doubles the maximum output voltage ($E_0$). \n\n**Common mistake:** Thinking only the frequency changes while the peak voltage stays constant."
+    },
+    {
+      "id": "18-2-the-a-c-generator-medium-q2",
+      "type": "mcq",
+      "question": "At which position of the rotating coil is the induced e.m.f. at its maximum value?",
+      "options": [
+        "When the plane of the coil is parallel to the magnetic field lines.",
+        "When the plane of the coil is perpendicular to the magnetic field lines.",
+        "When the coil is stationary at its highest point.",
+        "When the magnetic field is weakest."
+      ],
+      "correctIndex": 0,
+      "explanation": "The induced e.m.f. is maximum when the coil is horizontal (parallel to the field) because the sides of the coil are cutting the magnetic field lines at the fastest rate. \n\n**Common mistake:** Thinking it is maximum when perpendicular, which is actually when the e.m.f. is zero."
+    },
+    {
+      "id": "18-2-the-a-c-generator-medium-q3",
+      "type": "mcq",
+      "question": "A bicycle dynamo is described as a 'fixed coil generator'. How does its construction differ from a simple a.c. generator?",
+      "options": [
+        "The magnets rotate while the coil remains stationary.",
+        "The coil rotates while the magnets remain stationary.",
+        "It produces d.c. instead of a.c.",
+        "It does not require a magnetic field to work."
+      ],
+      "correctIndex": 0,
+      "explanation": "In a bicycle dynamo (fixed coil design), magnets rotate with respect to fixed coils to induce current. \n\n**Common mistake:** Assuming all generators must have rotating coils."
+    },
+    {
+      "id": "18-2-the-a-c-generator-medium-q4",
+      "type": "mcq",
+      "question": "Which rule is used to determine the direction of the induced current in the coil of an a.c. generator?",
+      "options": [
+        "Fleming’s right-hand rule",
+        "Fleming’s left-hand rule",
+        "Right-hand grip rule",
+        "The Law of conservation of momentum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fleming’s right-hand rule is used for generators (induction), where the thumb is motion, first finger is field, and second finger is induced current. \n\n**Common mistake:** Using the left-hand rule, which is used for motors."
+    },
+    {
+      "id": "18-2-the-a-c-generator-medium-q5",
+      "type": "mcq",
+      "question": "Which row correctly describes the changes to the output of a generator if the number of turns in the coil is increased?",
+      "options": [
+        "Peak Voltage: Increases; Frequency: Unchanged",
+        "Peak Voltage: Decreases; Frequency: Increases",
+        "Peak Voltage: Increases; Frequency: Increases",
+        "Peak Voltage: Unchanged; Frequency: Unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the number of turns increases the magnitude of the induced e.m.f. but does not affect how many cycles occur per second (frequency). \n\n**Common mistake:** Thinking more turns makes the coil rotate faster/slower."
+    }
+  ]
+}

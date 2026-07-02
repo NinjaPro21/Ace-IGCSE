@@ -1,0 +1,77 @@
+{
+  "id": "20-4-half-life-easy",
+  "topicId": "20-4-half-life",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "easy",
+  "title": "Half-life — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-4-half-life-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of the half-life of a radioactive isotope?",
+      "options": [
+        "The time taken for half the nuclei of an isotope in a sample to decay",
+        "The time taken for all the nuclei in a sample to decay by half their mass",
+        "Half the time it takes for a radioactive sample to become completely safe",
+        "The time taken for the proton number of a nucleus to be halved"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half-life is defined as the time taken for half the nuclei of a radioactive isotope in a sample to decay. It is a constant characteristic for a specific isotope.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-easy-q2",
+      "type": "mcq",
+      "question": "A radioactive sample has a half-life of $10\\text{ minutes}$. If the initial count rate is $800\\text{ counts/s}$, what will the count rate be after $10\\text{ minutes}$?",
+      "options": [
+        "$400\\text{ counts/s}$",
+        "$200\\text{ counts/s}$",
+        "$0\\text{ counts/s}$",
+        "$790\\text{ counts/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the count rate falls by exactly half during one half-life period. $800 / 2 = 400$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-easy-q3",
+      "type": "mcq",
+      "question": "Which unit is commonly used to express the half-life of a radioactive substance?",
+      "options": [
+        "Any unit of time (e.g., seconds, hours, or years)",
+        "Becquerels (Bq) only",
+        "Counts per minute (cpm) only",
+        "Metres per second (m/s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half-life is a measure of time duration. Depending on the isotope, it can range from $\\frac{tions}{}$ of a second to billions of years.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-easy-q4",
+      "type": "mcq",
+      "question": "What happens to the half-life of a radioactive isotope as the sample gets smaller over time?",
+      "options": [
+        "It remains constant",
+        "It decreases because there are fewer atoms",
+        "It increases as the remaining atoms become more stable",
+        "It fluctuates randomly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The half-life is a constant property of a particular radioactive isotope and does not change regardless of the sample size or time elapsed.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-easy-q5",
+      "type": "mcq",
+      "question": "If a sample has a very 'long' half-life, what does this imply about its rate of decay?",
+      "options": [
+        "The nuclei decay very slowly",
+        "The nuclei decay very quickly",
+        "The sample is highly ionising",
+        "The sample does not emit any radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A long half-life means it takes a great deal of time for the activity to halve, indicating a slow rate of decay.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

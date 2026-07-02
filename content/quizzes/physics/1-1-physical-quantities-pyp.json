@@ -1,0 +1,77 @@
+{
+  "id": "1-1-physical-quantities-pyp",
+  "topicId": "1-1-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "pyp",
+  "title": "Physical Quantities — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-physical-quantities-pyp-q1",
+      "type": "mcq",
+      "question": "A student needs to measure a distance between two points that are between 0.7 m and 0.8 m apart. Which instrument provides a precision of 0.001 m?",
+      "options": [
+        "A metre rule",
+        "A half-metre rule",
+        "A ten-metre measuring tape",
+        "Vernier calipers"
+      ],
+      "correctIndex": 0,
+      "explanation": "A metre rule has a precision of 1 mm (0.001 m) and can measure up to 1 m. \n\n**Common mistake:** Thinking a ten-metre tape is needed; while it can measure the distance, its precision is often lower (cm) or the same, and the metre rule is standard for this range."
+    },
+    {
+      "id": "1-1-physical-quantities-pyp-q2",
+      "type": "mcq",
+      "question": "Which row correctly identifies a base quantity and its SI unit?",
+      "options": [
+        "Quantity: Mass; Unit: kilogram (kg)",
+        "Quantity: Weight; Unit: newton (N)",
+        "Quantity: Temperature; Unit: degree Celsius (°C)",
+        "Quantity: Time; Unit: minute (min)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is one of the seven base quantities, and its SI unit is the kilogram. \n\n**Common mistake:** Weight is a derived quantity (force), not a base quantity."
+    },
+    {
+      "id": "1-1-physical-quantities-pyp-q3",
+      "type": "mcq",
+      "question": "A stopwatch is used to time a runner. The human reaction time is approximately 0.4 s. Which measured time is most likely to be recorded to the appropriate number of decimal places?",
+      "options": [
+        "12.3 s",
+        "12 s",
+        "12.34 s",
+        "12.342 s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to human reaction time (0.3–0.5 s), we usually take readings to the nearest one decimal place. \n\n**Common mistake:** Recording to two decimal places (12.34 s) just because the stopwatch displays them."
+    },
+    {
+      "id": "1-1-physical-quantities-pyp-q4",
+      "type": "mcq",
+      "question": "What is the correct procedure for finding the volume of a large irregular stone that sinks?",
+      "options": [
+        "Use a displacement can and a measuring cylinder to find the displaced volume",
+        "Use a ruler to measure diameter and apply the sphere formula",
+        "Place the stone in a dry beaker and weigh it",
+        "Use a measuring cylinder with a sinker"
+      ],
+      "correctIndex": 0,
+      "explanation": "For large objects that sink, a displacement can is used; the volume of water overflowing into the measuring cylinder equals the stone's volume. \n\n**Common mistake:** Using a sinker is only necessary for floating objects."
+    },
+    {
+      "id": "1-1-physical-quantities-pyp-q5",
+      "type": "mcq",
+      "question": "Which of these factors does the period of a simple pendulum depend on?",
+      "options": [
+        "The length of the string",
+        "The mass of the bob",
+        "The material of the bob",
+        "The amplitude of the swing (for small angles)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period of a pendulum depends on its length; longer pendulums have longer periods. \n\n**Common mistake:** Incorrectly believing that a heavier mass will swing faster and decrease the period."
+    }
+  ]
+}

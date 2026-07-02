@@ -1,0 +1,77 @@
+{
+  "id": "9-1-linear-graphs-pyp",
+  "topicId": "9-1-linear-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "pyp",
+  "title": "Linear Graphs — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "A straight line passes through two points with coordinates **(2, 11)** and **(5, 23)**. Work out the equation of the line.",
+      "options": [
+        "$y = 4x + 3$",
+        "$y = 3x + 5$",
+        "$y = 4x + 11$",
+        "$y = 12x - 13$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = (23 - 11) / (5 - 2) = 12 / 3 = 4$. Using $y = 4x + c$2$11 = 4(2) + c \\implies c = 3$. Equation is $y = 4x + 3$.\n\n**Common mistake:** Using the coordinates of only one point and the origin to find a gradient.",
+      "id": "9-1-linear-graphs-pyp-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "The equation of a straight line is **$5x + 2y + 10 = 0$**. State the **coordinates** of the point where the line crosses the **y-axis**.",
+      "options": [
+        "(0, -5)",
+        "(0, 5)",
+        "(-2, 0)",
+        "(0, -10)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x = 0$ to find the y-intercept: $2y + 10 = 0 \\implies 2y = -10 \\implies y = -5$. The point is (0, -5).\n\n**Common mistake:** Finding the x-intercept (-2, 0) instead of the y-intercept.",
+      "id": "9-1-linear-graphs-pyp-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "A conversion graph for **Pounds (£) to Euros (€)** shows that £20 is €28. Tim spent **€154** on clothes. How many pounds (£) did he spend?",
+      "options": [
+        "£110",
+        "£100",
+        "£140",
+        "£215.60"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate is €1.4 per £1 ($28 / 20 = 1.4$). To find pounds: $154 / 1.4 = 110$. Or using the graph from the source: €154 corresponds to £110.\n\n**Common mistake:** Multiplying 154 by the conversion rate instead of dividing, leading to £215.60.",
+      "id": "9-1-linear-graphs-pyp-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "Which three inequalities define the shaded region **A** formed by the lines **$y = 2$**, **$y = 3x$2$x + y = 6$**?",
+      "options": [
+        "$y \\ge 2, y \\le 3x, x + y \\le 6$",
+        "$y \\le 2, y \\ge 3x, x + y \\le 6$",
+        "$y \\ge 2, y \\ge 3x, x + y \\ge 6$",
+        "$y > 2, y < 3x, x + y > 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Region A is above $y=2$, to the right of $y=3x$2$y \\le 3x$2$x+y=6$.\n\n**Common mistake:** Confusing the 'greater than' and 'less than' directions for diagonal lines.",
+      "id": "9-1-linear-graphs-pyp-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the **distance** between the points **(1, -4)** and **(-2, 0)**.",
+      "options": [
+        "5 units",
+        "25 units",
+        "7 units",
+        "4.24 units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance $= \\sqrt{((-2) - 1)^2 + (0 - (-4))^2} = \\sqrt{(-3)^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.\n\n**Common mistake:** Adding the coordinates instead of finding the difference, or forgetting to take the square root at the end.",
+      "id": "9-1-linear-graphs-pyp-q5"
+    }
+  ]
+}

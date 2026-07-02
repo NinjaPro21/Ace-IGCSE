@@ -1,0 +1,77 @@
+{
+  "id": "9-1-thermal-expansion-medium",
+  "topicId": "9-1-thermal-expansion",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "medium",
+  "title": "Thermal Expansion — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-thermal-expansion-medium-q1",
+      "type": "mcq",
+      "question": "Telephone wires are observed to hang more loosely on a hot summer day than on a cold winter day. Why is this?",
+      "options": [
+        "The wires expand and become longer in the heat",
+        "The weight of the wires increases with temperature",
+        "The air resistance is lower in the summer",
+        "The poles move closer together in the heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a hot day, the metal in the wires undergoes thermal expansion, making them longer and causing them to sag. **Common mistake:** Thinking the wires are 'stretching' due to weight; the change is primarily due to temperature expansion."
+    },
+    {
+      "id": "9-1-thermal-expansion-medium-q2",
+      "type": "mcq",
+      "question": "A fixed mass of gas is heated at a constant pressure. What happens to its density?",
+      "options": [
+        "Its density decreases",
+        "Its density increases",
+        "Its density remains the same",
+        "The density becomes zero at boiling point"
+      ],
+      "correctIndex": 0,
+      "explanation": "When heated, the gas expands (volume increases). Since $\\text{density} = \\text{mass} / \\text{volume}$ and the mass is fixed, an increase in volume leads to a decrease in density. **Common mistake:** Thinking density stays the same because it is the same gas."
+    },
+    {
+      "id": "9-1-thermal-expansion-medium-q3",
+      "type": "mcq",
+      "question": "A student compares the expansion of $100\\text{ cm}^3$ of air and $100\\text{ cm}^3$ of water when both are heated by $10^\\circ\\text{C}$. Which statement is correct?",
+      "options": [
+        "The air will expand much more than the water",
+        "The water will expand much more than the air",
+        "Both will expand by the same volume",
+        "Only the air will expand; water does not expand below $100^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material states that gases expand more than liquids for the same temperature rise. **Common mistake:** Thinking that because liquids are 'heavy', they must expand more visibly."
+    },
+    {
+      "id": "9-1-thermal-expansion-medium-q4",
+      "type": "mcq",
+      "question": "How does an increase in temperature affect the internal energy of a substance?",
+      "options": [
+        "Internal energy increases as particles gain kinetic energy",
+        "Internal energy decreases as bonds are broken",
+        "Internal energy remains constant during expansion",
+        "Internal energy only changes during a change of state"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temperature is a measure of the average kinetic energy of particles. A rise in temperature increases the internal energy because the particles move or vibrate faster. **Common mistake:** Confusing internal energy with 'heat', which is the energy in transit."
+    },
+    {
+      "id": "9-1-thermal-expansion-medium-q5",
+      "type": "mcq",
+      "question": "To join two metal parts very tightly, a process called 'shrink fitting' is used. This involves:",
+      "options": [
+        "Cooling one part so it contracts, fitting it, then letting it warm up",
+        "Heating both parts until they melt into one another",
+        "Applying a huge force to compress the metal particles",
+        "Polishing the surfaces until they are perfectly smooth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shrink fitting uses the principle that solids contract when cooled. One part is cooled to fit into a hole and then allowed to expand back to its original size for a tight fit. **Common mistake:** Thinking you must heat the parts to 'expand' them into one another; cooling for contraction is the key for the initial fit."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "4-6-three-dimensional-trigonometry-easy",
+  "topicId": "4-6-three-dimensional-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Three-Dimensional Trigonometry — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-6-three-dimensional-trigonometry-easy-q1",
+      "type": "mcq",
+      "question": "In three-dimensional trigonometry, how are problems typically solved using two-dimensional methods?",
+      "options": [
+        "By identifying and redrawing 2D triangles hidden inside the 3D shape",
+        "By using a completely different set of 3D trigonometric ratios",
+        "By ignoring the height of the object and solving only the base",
+        "By multiplying the 2D area by the 3D volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triangles in 3D problems are still two-dimensional; they are simply positioned on different planes (horizontal and vertical) within the shape.\n\n**Common mistake:** A student might incorrectly assume they need to learn new formulas specifically for 3D trigonometry."
+    },
+    {
+      "id": "4-6-three-dimensional-trigonometry-easy-q2",
+      "type": "mcq",
+      "question": "Identify the standard formula for finding the length of the interior diagonal $d$2$l, w,$ and $h$.",
+      "options": [
+        "$d = √l^2 + w^2 + h^2$",
+        "$d = l + w + h$",
+        "$d = √l^2 + w^2$",
+        "$d = (l \\times w) + h$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 3D version of Pythagoras’ theorem sums the squares of all three dimensions to find the longest internal diagonal.\n\n**Common mistake:** Students often apply only the 2D formula ($√l^2 + w^2$), which only calculates the diagonal of the base."
+    },
+    {
+      "id": "4-6-three-dimensional-trigonometry-easy-q3",
+      "type": "mcq",
+      "question": "In a right-angled triangular prism, the angle between a slant edge and the horizontal base is found using which trigonometric ratio if you know the vertical height and the horizontal distance?",
+      "options": [
+        "Tangent ($\\tan$)",
+        "Sine ($\\sin$)",
+        "Cosine ($\\cos$)",
+        "Pythagoras' Theorem"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertical height is the opposite side and the horizontal distance is the adjacent side; the ratio $O/A$ defines the tangent.\n\n**Common mistake:** The student might confuse which side is adjacent and which is opposite in the 3D perspective."
+    },
+    {
+      "id": "4-6-three-dimensional-trigonometry-easy-q4",
+      "type": "mcq",
+      "question": "What is the relationship between a vertical pole and any horizontal line drawn from its base on a level field?",
+      "options": [
+        "They are always perpendicular ($90°$)",
+        "They are always parallel",
+        "The angle depends on the length of the pole",
+        "They form an acute angle of $45°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, a vertical object is at right angles ($90°$) to a horizontal plane.\n\n**Common mistake:** A student might assume the angle changes based on the perspective or the observer's distance."
+    },
+    {
+      "type": "mcq",
+      "question": "Calculate the angle between the line joining $A(5, 0)$ and $B(7, 3)$ and the **x-axis**.",
+      "options": [
+        "$56.3°$",
+        "$33.7°$",
+        "$45.0°$",
+        "$60.0°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = (3-0)/(7-5) = 1.5$. Angle $\\theta = \\tan^{-1}(1.5) \\approx 56.3°$.\n\n**Common mistake:** Using the distance formula to find the length but forgetting to apply the inverse tangent of the slope.",
+      "id": "4-6-three-dimensional-trigonometry-easy-q5"
+    }
+  ]
+}

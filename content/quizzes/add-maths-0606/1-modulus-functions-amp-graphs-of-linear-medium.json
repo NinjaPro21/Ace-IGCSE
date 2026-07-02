@@ -1,0 +1,142 @@
+{
+  "id": "1-modulus-functions-amp-graphs-of-linear-medium",
+  "topicId": "1-modulus-functions-amp-graphs-of-linear",
+  "chapterId": "ch01-functions",
+  "difficulty": "medium",
+  "title": "Modulus Functions & Graphs of $y = |f(x)|$ — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q1",
+      "type": "mcq",
+      "question": "Solve the equation ∣2x−3∣=7.",
+      "options": [
+        "x=5 and x=−2",
+        "x=5 and x=2",
+        "x=2 and x=−5",
+        "x=5 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: 2x−3=7 \\implies 2x=10,x=5. Case 2: 2x−3=−7 \\implies 2x=−4,x=−2.\n\n**Common mistake:** Many students only solve for the positive case, missing the second solution, or make sign errors when solving the negative case."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q2",
+      "type": "mcq",
+      "question": "Find the range of the function f(x)=∣x∣−5 for the discrete domain\n−2,0,2,4.",
+      "options": [
+        "−3,−5,−1",
+        "−7,−5,−3,−1",
+        "−3,−5,3,1",
+        "2,0,2,4"
+      ],
+      "correctIndex": 0,
+      "explanation": "f(−2)=2−5=−3; f(0)=0−5=−5; f(2)=2−5=−3; f(4)=4−5=−1. The unique values are\n−3,−5,−1.\n\n**Common mistake:** Failing to evaluate ∣−2∣ as 2, leading to f(−2)=−2−5=−7."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q3",
+      "type": "mcq",
+      "question": "Solve the equation 10−∣x+1∣=6.",
+      "options": [
+        "x=3 and x=−5",
+        "x=3 only",
+        "x=−3 and x=5",
+        "x=15 and x=−17"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolate the modulus: ∣x+1∣=4. Case 1: x+1=4 \\implies x=3. Case 2: x+1=−4 \\implies x=−5.\n\n**Common mistake:** Errors in rearranging the equation, often leading to ∣x+1∣=16 or failing to consider the negative case."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q4",
+      "type": "mcq",
+      "question": "Determine the values of x for which ∣4x+12∣=4.",
+      "options": [
+        "x=−2 and x=−4",
+        "x=2 and x=4",
+        "x=−2 only",
+        "x=−8 and x=−16"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: 4x+12=4 \\implies 4x=−8,x=−2. Case 2: 4x+12=−4 \\implies 4x=−16,x=−4.\n\n**Common mistake:** Dividing by 4 incorrectly before expanding or making sign errors when subtracting 12 from 4."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q5",
+      "type": "mcq",
+      "question": "If f(x)=∣x−2∣, find the set of images for the object set\n0,1,2,3.",
+      "options": [
+        "0,1,2",
+        "2,1,0,1",
+        "−2,−1,0,1",
+        "2,1,0,5"
+      ],
+      "correctIndex": 0,
+      "explanation": "∣0−2∣=2,∣1−2∣=1,∣2−2∣=0,∣3−2∣=1. The set of unique images is\n0,1,2.\n\n**Common mistake:** Listing 1 twice in the set or failing to apply the modulus to ∣0−2∣ and ∣1−2∣."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q6",
+      "type": "mcq",
+      "question": "Find the range of the function f(x)=∣2x−6∣ for the domain 0\nlex\nle5.",
+      "options": [
+        "0\nlef(x)\nle6",
+        "4\nlef(x)\nle6",
+        "0\nlef(x)\nle4",
+        "0\nlef(x)\nle5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Endpoints: f(0)=6,f(5)=4. Vertex at x=3 gives f(3)=0. Range is .\n\n**Common mistake:** Checking only the endpoints and concluding the range is 4\nley\nle6."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q7",
+      "type": "mcq",
+      "question": "State the coordinates of the points where the graph of y=∣x−3∣−4 crosses the x-axis.",
+      "options": [
+        "(7,0) and (−1,0)",
+        "(3,0) and (4,0)",
+        "(7,0) and (1,0)",
+        "(0,−1) and (0,7)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set y=0: ∣x−3∣=4. Case 1: x−3=4 \\implies x=7. Case 2: x−3=−4 \\implies x=−1.\n\n**Common mistake:** Incorrectly identifying the intercepts from a rough sketch or solving for only one point."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q8",
+      "type": "mcq",
+      "question": "Find the gradients of the two straight branches that form the graph y=∣5x+10∣.",
+      "options": [
+        "5 and −5",
+        "5 and 10",
+        "1 and −1",
+        "10 and −10"
+      ],
+      "correctIndex": 0,
+      "explanation": "The branches are y=5x+10 and y=−(5x+10)=−5x−10. The gradients are 5 and -5.\n\n**Common mistake:** Confusing the gradient with the y-intercept or providing only the positive gradient."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q9",
+      "type": "mcq",
+      "question": "On the graph of y=∣x−2∣+1, find the y-coordinate when x=−3.",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute x=−3: y=∣−3−2∣+1=∣−5∣+1=5+1=6.\n\n**Common mistake:** Arithmetic errors in the subtraction or forgetting to add the 1 at the end."
+    },
+    {
+      "id": "1-modulus-functions-amp-graphs-of-linear-medium-q10",
+      "type": "mcq",
+      "question": "Determine the number of solutions to the equation ∣x+4∣=2 by considering its graph.",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The graph y=∣x+4∣ is a V-shape with vertex at (−4,0). The line y=2 intersects both arms of the V.\n\n**Common mistake:** Thinking there is only one solution because it's a 'single' equation."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "4-2-trigonometry-easy",
+  "topicId": "4-2-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Trigonometry — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-trigonometry-easy-q1",
+      "type": "mcq",
+      "question": "In a right-angled triangle, if the side opposite an angle $x$2$O$2$H$2$O/H$?",
+      "options": [
+        "$\\sin x$",
+        "$\\cos x$",
+        "$\\tan x$",
+        "$\\text{hypotenuse} x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse.\n\n**Common mistake:** Students often swap sine and cosine, thinking cosine is the opposite/hypotenuse ratio."
+    },
+    {
+      "id": "4-2-trigonometry-easy-q2",
+      "type": "mcq",
+      "question": "State the exact value of $\\tan 45°$.",
+      "options": [
+        "$1$",
+        "$0.5$",
+        "$\\sqrt{2}$",
+        "$1/\\sqrt{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a right-angled isosceles triangle with angles of $45°$, the opposite and adjacent sides are equal, making the ratio $1/1 = 1$.\n\n**Common mistake:** A student might confuse the value of $\\tan 45°$ with $\\sin 45°$ or $\\cos 45°$."
+    },
+    {
+      "id": "4-2-trigonometry-easy-q3",
+      "type": "mcq",
+      "question": "Which side of a right-angled triangle is always the denominator in the ratios for both $\\sin x$2$\\cos x$?",
+      "options": [
+        "The hypotenuse",
+        "The opposite side",
+        "The adjacent side",
+        "The vertical height"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both $\\sin x$2$O/H$2$\\cos x$2$A/H$) are calculated by dividing a side by the length of the hypotenuse.\n\n**Common mistake:** A student might choose the adjacent side, confusing the cosine ratio with the tangent ratio."
+    },
+    {
+      "id": "4-2-trigonometry-easy-q4",
+      "type": "mcq",
+      "question": "Identify the exact value of $\\cos 60°$.",
+      "options": [
+        "$0.5$",
+        "$\\sqrt{3}/2$",
+        "$1$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the properties of a $30-60-90$ triangle derived from an equilateral triangle, $\\cos 60° = 1/2$.\n\n**Common mistake:** Students frequently swap the values of $\\sin 60°$ and $\\cos 60°$, picking $\\sqrt{3}/2$ instead."
+    },
+    {
+      "id": "4-2-trigonometry-easy-q5",
+      "type": "mcq",
+      "question": "What is the result of calculating $\\sin 30°$ on a scientific calculator set to degrees?",
+      "options": [
+        "$0.5$",
+        "$0.866$",
+        "$1$",
+        "$-0.988$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The exact value of $\\sin 30°$ is $1/2$, which is $0.5$ in decimal form.\n\n**Common mistake:** A student might have their calculator in radians mode, yielding a completely different value like $-0.988$."
+    }
+  ]
+}

@@ -4,11 +4,11 @@ The laws of logarithms are algebraic rules that allow you to combine, split, or 
 
 ## Key formulas
 
-Product Law: $\log_a(xy) = \log_a(x) + \log_a(y)$
+$\log_a(xy) = \log_a x + \log_a y$
 
-Quotient Law: $\log_a\left(\frac{y}{x}\right) = \log_a(y) - \log_a(x)$
+$\log_a\left(\frac{x}{y}\right) = \log_a x - \log_a y$
 
-Power Law: $\log_a(x^k) = k \log_a(x)$
+$\log_a(x^n) = n\log_a x$
 
 ## Steps / method
 
@@ -43,5 +43,3 @@ A frequent error in exams is inventing false distribution laws, such as writing 
 ## Quick check
 
 If an expression is written as $2 \log_b(3) + \log_b(2)$, then using the laws of logarithms simplifies it completely to $\log_b(18)$.
-
-## Visual / interactive intent

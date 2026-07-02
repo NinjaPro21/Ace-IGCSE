@@ -5,5 +5,15 @@
   "title": "Equations of Straight Lines",
   "subtitle": "Section 2",
   "lessonMeta": "Point-Gradient Form · Slope-Intercept · General Form · Cambridge 0606 Ch.6",
-  "notesFile": "add-maths-0606/6-equations-of-straight-lines.md"
+  "notesFile": "add-maths-0606/6-equations-of-straight-lines.md",
+  "explorerId": "line-geometry",
+  "explorerPanels": [
+    "forms"
+  ],
+  "quizIds": {
+    "easy": "6-equations-of-straight-lines-easy",
+    "medium": "6-equations-of-straight-lines-medium",
+    "hard": "6-equations-of-straight-lines-hard",
+    "pyp": "6-equations-of-straight-lines-pyp"
+  }
 }

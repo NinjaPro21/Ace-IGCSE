@@ -1,0 +1,77 @@
+{
+  "id": "10-1-transfer-of-thermal-energy-medium",
+  "topicId": "10-1-transfer-of-thermal-energy",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "medium",
+  "title": "Transfer of Thermal Energy — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-transfer-of-thermal-energy-medium-q1",
+      "type": "mcq",
+      "question": "How does the temperature difference between two objects affect the rate of thermal energy transfer?",
+      "options": [
+        "The greater the temperature difference, the higher the rate of transfer",
+        "The rate of transfer is constant regardless of the temperature difference",
+        "The rate of transfer decreases as the temperature difference increases",
+        "The rate of transfer only depends on the surface area, not the temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A larger temperature gradient (difference) provides a stronger 'driving force' for energy to move, increasing the transfer rate. \n\n**Common mistake:** Thinking that heat flows at a steady speed regardless of how much hotter one object is compared to another."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-medium-q2",
+      "type": "mcq",
+      "question": "A metal spoon is placed in a hot cup of coffee. Which process is primarily responsible for the handle of the spoon getting hot?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction is the transfer of thermal energy through a solid (the metal spoon) as particles vibrate and pass energy to their neighbors. \n\n**Common mistake:** Selecting convection, which only occurs in fluids (liquids and gases)."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-medium-q3",
+      "type": "mcq",
+      "question": "Which statement correctly compares how energy is transferred in conduction and convection?",
+      "options": [
+        "Conduction involves vibrations; convection involves the bulk movement of the fluid",
+        "Conduction involves bulk movement; convection involves vibrations",
+        "Both processes involve the bulk movement of particles from hot to cold",
+        "Neither process requires the presence of matter to transfer energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction transfers energy through particle interactions (vibrations) without the particles moving to a new location, while convection involves the actual movement of the heated substance itself. \n\n**Common mistake:** Thinking particles in a solid 'travel' from the hot end to the cold end during conduction."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-medium-q4",
+      "type": "mcq",
+      "question": "An object is maintained at a constant temperature. What must be true about the energy it receives and the energy it transfers away?",
+      "options": [
+        "It must transfer energy away at the same rate that it receives energy",
+        "It must receive more energy than it transfers away",
+        "It must stop transferring energy entirely to stay at a constant temperature",
+        "It must be kept in a perfect vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, for an object to stay at a constant temperature, there must be a balance where the rate of energy gain equals the rate of energy loss. \n\n**Common mistake:** Thinking 'constant temperature' means no energy is being exchanged at all."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-medium-q5",
+      "type": "mcq",
+      "question": "Why does a piece of ice melt when placed on a table in a warm room?",
+      "options": [
+        "Thermal energy is transferred from the air and table to the ice",
+        "The ice releases 'cold' energy into the surroundings",
+        "The internal energy of the ice is naturally decreasing",
+        "Radiation from the ice is being absorbed by the table"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal energy flows from the higher temperature surroundings (air/table) to the lower temperature ice, providing the energy needed for the change of state. \n\n**Common mistake:** Scientifically inaccurate talk of 'cold' moving or being 'released'."
+    }
+  ]
+}

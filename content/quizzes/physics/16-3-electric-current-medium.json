@@ -1,0 +1,77 @@
+{
+  "id": "16-3-electric-current-medium",
+  "topicId": "16-3-electric-current",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Electric Current — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-3-electric-current-medium-q1",
+      "type": "mcq",
+      "question": "A charge of $120\\text{ C}$ passes through a lamp in $2.0\\text{ minutes}$. Calculate the current in the lamp.",
+      "options": [
+        "$1.0\\text{ A}$",
+        "$60\\text{ A}$",
+        "$240\\text{ A}$",
+        "$0.5\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I = Q / t$, we must first convert time to seconds: $2.0\\text{ min} = 120\\text{ s}$. Then $I = 120\\text{ C} / 120\\text{ s} = 1.0\\text{ A}$. \n\n**Common mistake:** Dividing by 2 minutes directly without converting to seconds."
+    },
+    {
+      "id": "16-3-electric-current-medium-q2",
+      "type": "mcq",
+      "question": "What happens to the current in a circuit if a larger amount of charge passes through a point in the same amount of time?",
+      "options": [
+        "The current increases",
+        "The current decreases",
+        "The current remains the same",
+        "The potential difference must decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $I = Q / t$, current is directly proportional to the amount of charge. More charge per second means a higher current. \n\n**Common mistake:** Thinking current depends only on the speed of the particles regardless of their quantity."
+    },
+    {
+      "id": "16-3-electric-current-medium-q3",
+      "type": "mcq",
+      "question": "A student measures a current of $0.5\\text{ A}$ flowing through a wire for $10\\text{ seconds}$. How much charge has passed through the wire?",
+      "options": [
+        "$5.0\\text{ C}$",
+        "$20\\text{ C}$",
+        "$0.05\\text{ C}$",
+        "$50\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging the formula gives $Q = I \\times t$. $Q = 0.5\\text{ A} \\times 10\\text{ s} = 5.0\\text{ C}$. \n\n**Common mistake:** Dividing current by time instead of multiplying."
+    },
+    {
+      "id": "16-3-electric-current-medium-q4",
+      "type": "mcq",
+      "question": "Which of the following correctly describes the conduction of electricity in a metal wire?",
+      "options": [
+        "It is due to the movement of free electrons",
+        "It is due to the movement of positive ions",
+        "It is due to the movement of protons",
+        "It is due to the movement of neutral atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explain that electrical conduction in metals involves the movement of free electrons. \n\n**Common mistake:** Believing that the metal atoms or positive ions move through the wire."
+    },
+    {
+      "id": "16-3-electric-current-medium-q5",
+      "type": "mcq",
+      "question": "How does the direction of electron flow compare to the direction of conventional current?",
+      "options": [
+        "They are in opposite directions",
+        "They are in the same direction",
+        "Electron flow is only present in a.c. circuits",
+        "Conventional current only exists in the battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conventional current flows from positive to negative, while the actual flow of free electrons is from the negative terminal to the positive terminal. \n\n**Common mistake:** Thinking both terms describe the same physical direction of movement."
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import { getTopicsForChapter } from '@/lib/contentLoader'
+import { getTopicsForChapter, getTopicSectionLabel } from '@/lib/contentLoader'
 import type { TopicMeta } from '@/lib/contentTypes'
+
+const QUIZ_TIERS = ['Easy', 'Medium', 'Hard', 'PYP'] as const
 
 interface LessonSidebarProps {
   topic: TopicMeta
@@ -9,38 +11,53 @@ interface LessonSidebarProps {
 }
 
 export function LessonSidebar({ topic, chapterTitle }: LessonSidebarProps) {
-  const { isNotesRead, getChapterQuizLevel, areChapterNotesComplete } = useMastery()
+  const { isNotesRead, getTopicQuizLevel } = useMastery()
   const chapterTopics = getTopicsForChapter(topic.chapterId)
-  const notesComplete = areChapterNotesComplete(topic.chapterId)
-  const done = notesComplete ? getChapterQuizLevel(topic.chapterId) : isNotesRead(topic.id) ? 1 : 0
+  const quizLevel = getTopicQuizLevel(topic.id)
 
   return (
     <aside className="enlight-lesson-sidebar">
       <span className="enlight-section-label">{chapterTitle}</span>
       <nav className="enlight-lesson-sidebar__nav" aria-label="Section navigation">
-        {chapterTopics.map((t) => (
-          <Link
-            key={t.id}
-            to={`/subjects/${topic.subjectId}/chapters/${topic.chapterId}/topics/${t.id}`}
-            className={`enlight-lesson-sidebar__link${
-              t.id === topic.id ? ' enlight-lesson-sidebar__link--active' : ''
-            }`}
-          >
-            {t.subtitle}
-          </Link>
-        ))}
+        {chapterTopics.map((t) => {
+          const topicQuizLevel = getTopicQuizLevel(t.id)
+          const done = topicQuizLevel >= 4
+          const inProgress = isNotesRead(t.id) || topicQuizLevel > 0
+          const sectionLabel = getTopicSectionLabel(topic.chapterId, t.id)
+          return (
+            <Link
+              key={t.id}
+              to={`/subjects/${topic.subjectId}/chapters/${topic.chapterId}/topics/${t.id}`}
+              className={`enlight-lesson-sidebar__link${
+                t.id === topic.id ? ' enlight-lesson-sidebar__link--active' : ''
+              }`}
+            >
+              <span className="enlight-lesson-sidebar__link-text">{sectionLabel}</span>
+              {done && <span className="enlight-lesson-sidebar__quiz-dot enlight-lesson-sidebar__quiz-dot--done" aria-label="Section mastered" />}
+              {!done && inProgress && topicQuizLevel >= 2 && (
+                <span className="enlight-lesson-sidebar__quiz-dot enlight-lesson-sidebar__quiz-dot--progress" aria-label="Quiz in progress" />
+              )}
+            </Link>
+          )
+        })}
       </nav>
       <div className="enlight-lesson-sidebar__tools">
-        <div className="enlight-checklist">
+        <div
+          className="enlight-checklist"
+          aria-label={`Quiz tiers: ${quizLevel} of 4 complete (Easy, Medium, Hard, PYP)`}
+        >
           <div className="enlight-checklist__steps" aria-hidden>
-            {[0, 1, 2, 3].map((i) => (
+            {QUIZ_TIERS.map((tier, i) => (
               <span
-                key={i}
-                className={`enlight-checklist__step${i < done ? ' enlight-checklist__step--done' : ''}`}
+                key={tier}
+                className={`enlight-checklist__step${quizLevel > i ? ' enlight-checklist__step--done' : ''}`}
+                title={tier}
               />
             ))}
           </div>
-          <span>Mastery {done}/4</span>
+          <span className="enlight-checklist__count" title="Easy → Medium → Hard → PYP">
+            Quiz {quizLevel}/4
+          </span>
         </div>
       </div>
     </aside>

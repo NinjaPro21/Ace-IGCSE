@@ -1,0 +1,77 @@
+{
+  "id": "5-laws-of-logarithms-medium",
+  "topicId": "5-laws-of-logarithms",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "medium",
+  "title": "Laws of Logarithms — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-laws-of-logarithms-medium-q1",
+      "type": "mcq",
+      "question": "If $\\log_a 2 = x$2$\\log_a 3 = y$2$\\log_a 12$ in terms of $x$2$y$.",
+      "options": [
+        "$2x + y$",
+        "$x^2 + y$",
+        "$x + 2y$",
+        "$2xy$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_a 12 = \\log_a (2^2 \\times 3) = \\log_a 2^2 + \\log_a 3 = 2 \\log_a 2 + \\log_a 3 = 2x + y$.\n\n**Common mistake:** Incorrectly factoring 12 or forgetting to use the power law on the $2^2$ term."
+    },
+    {
+      "id": "5-laws-of-logarithms-medium-q2",
+      "type": "mcq",
+      "question": "Simplify $2 \\lg 5 - \\lg 2.5$.",
+      "options": [
+        "1",
+        "$\\lg 2.5$",
+        "$\\lg 7.5$",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2 \\lg 5 = \\lg 5^2 = \\lg 25$. Then $\\lg 25 - \\lg 2.5 = \\lg(25 / 2.5) = \\lg 10 = 1$.\n\n**Common mistake:** Failing to apply the power law first or making arithmetic errors during the division."
+    },
+    {
+      "id": "5-laws-of-logarithms-medium-q3",
+      "type": "mcq",
+      "question": "Express $\\log_a \\sqrt{\\frac{x}{y}}$ in terms of $\\log_a x$2$\\log_a y$.",
+      "options": [
+        "$\\frac{1}{2} (\\log_a x - \\log_a y)$",
+        "$\\sqrt{\\log_a x - \\log_a y}$",
+        "$\\frac{1}{2} \\log_a x - \\log_a y$",
+        "$\\log_a x - \\frac{1}{2} \\log_a y$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_a (x/y)^{1/2} = \\frac{1}{2} \\log_a (x/y) = \\frac{1}{2} (\\log_a x - \\log_a y)$.\n\n**Common mistake:** Applying the square root only to the numerator or subtracting the logs before dealing with the exponent."
+    },
+    {
+      "id": "5-laws-of-logarithms-medium-q4",
+      "type": "mcq",
+      "question": "Find the value of $3 \\log_2 4 - \\log_2 16$.",
+      "options": [
+        "2",
+        "8",
+        "4",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$3(2) - 4 = 6 - 4 = 2$. Alternatively: $\\log_2 (4^3 / 16) = \\log_2 (64 / 16) = \\log_2 4 = 2$.\n\n**Common mistake:** Miscalculating the value of individual logarithms or failing to combine them correctly."
+    },
+    {
+      "id": "5-laws-of-logarithms-medium-q5",
+      "type": "mcq",
+      "question": "Solve for $x$2$\\log_5 x = \\log_5 2 + \\log_5 10 - \\log_5 4$.",
+      "options": [
+        "5",
+        "8",
+        "12",
+        "2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_5 x = \\log_5 (2 \\times 10 / 4) = \\log_5 (20 / 4) = \\log_5 5$. Thus $x = 5$.\n\n**Common mistake:** Combining the terms incorrectly, such as $\\log_5 (2 + 10 - 4) = \\log_5 8$."
+    }
+  ]
+}

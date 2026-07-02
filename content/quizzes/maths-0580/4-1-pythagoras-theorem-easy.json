@@ -1,0 +1,77 @@
+{
+  "id": "4-1-pythagoras-theorem-easy",
+  "topicId": "4-1-pythagoras-theorem",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Pythagoras’ Theorem — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-pythagoras-theorem-easy-q1",
+      "type": "mcq",
+      "question": "In a right-angled triangle, what name is given to the side that is opposite the $90°$ angle?",
+      "options": [
+        "The hypotenuse",
+        "The adjacent side",
+        "The opposite side",
+        "The vertical height"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the hypotenuse is the side opposite the right angle and is always the longest side of the triangle.\n\n**Common mistake:** A student might confuse the side names with trigonometric terms like 'opposite' or 'adjacent', which depend on the reference angle."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-easy-q2",
+      "type": "mcq",
+      "question": "A right-angled triangle has two shorter sides of length $6\\text{ cm}$ and $8\\text{ cm}$. Calculate the length of the hypotenuse.",
+      "options": [
+        "$10\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$\\sqrt{14}\\text{ cm}$",
+        "$100\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of $100$ is $10$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-easy-q3",
+      "type": "mcq",
+      "question": "The hypotenuse of a right-angled triangle is $13\\text{ cm}$ and one of the shorter sides is $5\\text{ cm}$. Find the length of the third side.",
+      "options": [
+        "$12\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$\\sqrt{194}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find a shorter side, subtract the square of the known side from the square of the hypotenuse: $13^2 - 5^2 = 169 - 25 = 144$. The square root is $12$.\n\n**Common mistake:** The student might add the squares ($169 + 25 = 194$) as if they were looking for the hypotenuse."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-easy-q4",
+      "type": "mcq",
+      "question": "Which formula is used to find the length of the interior diagonal $d$2$a$2$b$2$c$?",
+      "options": [
+        "$d = √a^2 + b^2 + c^2$",
+        "$d = a + b + c$",
+        "$d = √a^2 + b^2$",
+        "$d = a^2 + b^2 + c^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pythagoras' theorem in 3D is an extension of the 2D version, requiring the square root of the sum of the squares of all three dimensions.\n\n**Common mistake:** The student might use the 2D formula for the base diagonal only or forget the square root."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-easy-q5",
+      "type": "mcq",
+      "question": "Which set of side lengths represents a right-angled triangle according to the converse of Pythagoras' theorem?",
+      "options": [
+        "$7, 24, 25$",
+        "$5, 10, 12$",
+        "$3, 4, 6$",
+        "$8, 15, 18$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Check if $a^2 + b^2 = c^2$. $7^2 + 24^2 = 49 + 576 = 625$, and $25^2 = 625$. Since they are equal, it is right-angled.\n\n**Common mistake:** Students may assume any set of three increasing numbers is right-angled without testing the formula."
+    }
+  ]
+}

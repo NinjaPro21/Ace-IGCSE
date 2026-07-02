@@ -1,0 +1,77 @@
+{
+  "id": "9-2-coordinate-geometry-easy",
+  "topicId": "9-2-coordinate-geometry",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Coordinate Geometry — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-coordinate-geometry-easy-q1",
+      "type": "mcq",
+      "question": "Find the gradient of the straight line that passes through the points (4,10) and (8,2).",
+      "options": [
+        "−2",
+        "2",
+        "−0.5",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the gradient formula m=($y^{2}$\n−$y^{1}$\n)/($x^{2}$\n−$x^{1}$\n), we get (2−10)/(8−4)=−8/4=−2.\n\n**Common mistake:** A student might calculate\nDeltax/\nDeltay or fail to maintain consistency in the subtraction order between the numerator and denominator."
+    },
+    {
+      "id": "9-2-coordinate-geometry-easy-q2",
+      "type": "mcq",
+      "question": "Calculate the coordinates of the midpoint of the line segment joining the points (−2,4) and (6,12).",
+      "options": [
+        "(2,8)",
+        "(4,16)",
+        "(4,8)",
+        "(2,4)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The midpoint formula is (($x^{1}$\n+$x^{2}$\n)/2,($y^{1}$\n+$y^{2}$\n)/2). Substituting the values gives ((−2+6)/2,(4+12)/2)=(2,8).\n\n**Common mistake:** The student may forget to divide by 2 or subtract the coordinates instead of adding them."
+    },
+    {
+      "id": "9-2-coordinate-geometry-easy-q3",
+      "type": "mcq",
+      "question": "Determine the length of the line segment joining the points (5,1) and (13,7).",
+      "options": [
+        "10 units",
+        "14 units",
+        "\\sqrt{100} units",
+        "\\sqrt{14} units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the distance formula\nsqrt($x^{2}$\n−$x^{1}$\n$)^{2}$+($y^{2}$\n−$y^{1}$\n$)^{2}$, we get\nsqrt$(13-5)^{2}$+$(7-1)^{2}$=\nsqrt$8^{2}$+$6^{2}$=\nsqrt100=10.\n\n**Common mistake:** The student might add the coordinates directly or forget to take the square root at the end."
+    },
+    {
+      "id": "9-2-coordinate-geometry-easy-q4",
+      "type": "mcq",
+      "question": "Identify the y-intercept of the line represented by the equation 2x−3y=12.",
+      "options": [
+        "(0,−4)",
+        "(0,4)",
+        "(6,0)",
+        "(0,12)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Setting x=0 in the equation 2x−3y=12 gives −3y=12, which simplifies to y=−4.\n\n**Common mistake:** The student might pick the constant 12 or solve for the x-intercept by setting y=0 instead."
+    },
+    {
+      "id": "9-2-coordinate-geometry-easy-q5",
+      "type": "mcq",
+      "question": "What is the gradient of a straight line that is parallel to the x-axis?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horizontal lines have a constant y-value, meaning $y^{2}$\n−$y^{1}$\n=0. Since the numerator of the gradient formula is zero, the gradient is 0.\n\n**Common mistake:** The student may confuse horizontal and vertical lines, leading to an 'undefined' answer."
+    }
+  ]
+}

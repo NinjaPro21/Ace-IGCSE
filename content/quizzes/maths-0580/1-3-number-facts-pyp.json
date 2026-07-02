@@ -1,0 +1,77 @@
+{
+  "id": "1-3-number-facts-pyp",
+  "topicId": "1-3-number-facts",
+  "chapterId": "ch01-number",
+  "difficulty": "pyp",
+  "title": "Number Facts — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-3-number-facts-pyp-q1",
+      "type": "mcq",
+      "question": "Find the Highest Common Factor (HCF) of 140 and 210.",
+      "options": [
+        "70",
+        "35",
+        "10",
+        "420"
+      ],
+      "correctIndex": 0,
+      "explanation": "List prime factor models: $140 = 2^2 \\times 5 \\times 7$, $210 = 2 \\times 3 \\times 5 \\times 7$. $\\text{HCF} = 2 \\times 5 \\times 7 = 70$.\n\n**Common mistake:** Students calculate the LCM (420) or pick a common factor that is not the highest, like 35."
+    },
+    {
+      "id": "1-3-number-facts-pyp-q2",
+      "type": "mcq",
+      "question": "Find the Lowest Common Multiple (LCM) of 30 and 45.",
+      "options": [
+        "90",
+        "1350",
+        "15",
+        "180"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiples of 30: $30, 60, 90, 120$. Multiples of 45: $45, 90, 135$. The lowest shared multiple is 90.\n\n**Common mistake:** Students multiply 30 by 45 to get 1350, which is a multiple but not the lowest common multiple."
+    },
+    {
+      "id": "1-3-number-facts-pyp-q3",
+      "type": "mcq",
+      "question": "Write 252 as a product of its prime factors.",
+      "options": [
+        "2$^2$ × 3$^2$ × 7",
+        "2 × 3$^2$ × 14",
+        "4 × 9 × 7",
+        "2³ × 3 × 7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide by primes: $252 \\div 2 = 126 \\implies 126 \\div 2 = 63 \\implies 63 \\div 3 = 21 \\implies 21 \\div 3 = 7$. Thus, $252 = 2^2 \\times 3^2 \\times 7$.\n\n**Common mistake:** Students include composite numbers like 4, 9, or 14 in their final factor listing selection."
+    },
+    {
+      "id": "1-3-number-facts-pyp-q4",
+      "type": "mcq",
+      "question": "Find the HCF of $2^3 \\times 3 \\times 5^2$ and $2^2 \\times 3^2 \\times 7$.",
+      "options": [
+        "12",
+        "60",
+        "2520",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Identify common prime bases and take their lowest power: $2^2 \\times 3^1 = 4 \\times 3 = 12$.\n\n**Common mistake:** Students mix bases or select higher powers, calculating the LCM instead."
+    },
+    {
+      "id": "1-3-number-facts-pyp-q5",
+      "type": "mcq",
+      "question": "A bus to Town A leaves every 12 minutes. A bus to Town B leaves every 18 minutes. If they leave together at 09:00, find the next time they leave together.",
+      "options": [
+        "09:36",
+        "09:18",
+        "10:12",
+        "09:54"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the LCM of 12 and 18: $\\text{LCM}(12, 18) = 36\\text{ minutes}$. Add 36 minutes to 09:00 to get 09:36.\n\n**Common mistake:** Students add the two frequencies directly ($12 + 18 = 30$), yielding an incorrect time of 09:30."
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 import {
+  getChapter,
   getChapterMasteryPercent,
   getChaptersForSubject,
+  getTopic,
   getTopicsForChapter,
+  getAllSubjects,
 } from '@/lib/contentLoader'
 import type { ChapterMeta } from '@/lib/contentTypes'
 import type { UserProgress } from './MasteryEngine'
+import { STREAK_WINDOW_MS } from './MasteryEngine'
 import { getGlobalLevel, NOTES_MIN_SECONDS } from './levelSystem'
+import { getPersonalChapterInsights, countStuckChaptersBySubject } from './tutorInsights'
 
 export interface Achievement {
   id: string
@@ -37,6 +42,8 @@ export interface StreakDay {
   label: string
   active: boolean
   isToday: boolean
+  intensity: 0 | 1 | 2 | 3 | 4
+  xp: number
 }
 
 const ACHIEVEMENTS: Omit<Achievement, 'unlocked'>[] = [
@@ -95,6 +102,46 @@ export function getActivityStats(progress: UserProgress): ActivityStats {
   }
 }
 
+export interface DashboardStats {
+  notesCompleted: number
+  notesTotal: number
+  quizMasteryPercent: number
+  weakTopicCount: number
+  streakDays: number
+  longestStreak: number
+}
+
+export function getDashboardStats(progress: UserProgress): DashboardStats {
+  const notesMap = notesReadMap(progress)
+  let notesTotal = 0
+  let notesCompleted = 0
+  let masterySum = 0
+  let chapterCount = 0
+
+  for (const subject of getAllSubjects()) {
+    for (const chapter of getChaptersForSubject(subject.id)) {
+      chapterCount += 1
+      const quizLevel = progress.chapters[chapter.id]?.quizLevel ?? 0
+      masterySum += getChapterMasteryPercent(chapter.id, notesMap, quizLevel)
+      for (const topic of getTopicsForChapter(chapter.id)) {
+        notesTotal += 1
+        if (notesMap[topic.id]) notesCompleted += 1
+      }
+    }
+  }
+
+  const weakTopicCount = countStuckChaptersBySubject(getPersonalChapterInsights(progress), 3)
+
+  return {
+    notesCompleted,
+    notesTotal,
+    quizMasteryPercent: chapterCount === 0 ? 0 : Math.round(masterySum / chapterCount),
+    weakTopicCount,
+    streakDays: progress.streakDays,
+    longestStreak: progress.longestStreak ?? progress.streakDays,
+  }
+}
+
 export function getAchievements(progress: UserProgress): Achievement[] {
   const stats = getActivityStats(progress)
   const longest = progress.longestStreak ?? progress.streakDays
@@ -119,8 +166,17 @@ export function getAchievements(progress: UserProgress): Achievement[] {
   }))
 }
 
+function intensityFromXp(xp: number, active: boolean): 0 | 1 | 2 | 3 | 4 {
+  if (!active) return 0
+  if (xp <= 0) return 1
+  if (xp < 15) return 2
+  if (xp < 40) return 3
+  return 4
+}
+
 export function getStreakCalendar(progress: UserProgress, days = 14): StreakDay[] {
   const activeSet = new Set(progress.activeDates ?? [])
+  const xpByDate = progress.xpByDate ?? {}
   const today = new Date()
   const result: StreakDay[] = []
 
@@ -128,21 +184,43 @@ export function getStreakCalendar(progress: UserProgress, days = 14): StreakDay[
     const d = new Date(today)
     d.setDate(d.getDate() - i)
     const iso = d.toISOString().slice(0, 10)
+    const xp = xpByDate[iso] ?? 0
+    const active =
+      activeSet.has(iso) ||
+      xp > 0 ||
+      (i === 0 && progress.lastActiveDate === iso)
     result.push({
       date: iso,
       label: d.toLocaleDateString(undefined, { weekday: 'short' }).slice(0, 2),
-      active: activeSet.has(iso) || (i === 0 && progress.lastActiveDate === iso),
+      active,
       isToday: i === 0,
+      intensity: intensityFromXp(xp, active),
+      xp,
     })
   }
 
   return result
 }
 
+export function getStreakTimeRemaining(progress: UserProgress): number {
+  if (progress.streakDays === 0 || !progress.lastActiveAt) return 0
+  const elapsed = Date.now() - new Date(progress.lastActiveAt).getTime()
+  return Math.max(0, STREAK_WINDOW_MS - elapsed)
+}
+
+export function formatStreakCountdown(progress: UserProgress): string | null {
+  const ms = getStreakTimeRemaining(progress)
+  if (progress.streakDays === 0 || ms <= 0) return null
+  const h = Math.floor(ms / 3600000)
+  const m = Math.floor((ms % 3600000) / 60000)
+  if (h > 0) return `${h}h ${m}m left`
+  return `${m}m left`
+}
+
 export function isStreakAtRisk(progress: UserProgress): boolean {
-  if (progress.streakDays === 0) return false
-  const today = new Date().toISOString().slice(0, 10)
-  return progress.lastActiveDate !== today
+  if (progress.streakDays === 0 || !progress.lastActiveAt) return false
+  const remaining = getStreakTimeRemaining(progress)
+  return remaining > 0 && remaining <= 6 * 60 * 60 * 1000
 }
 
 export function getChapterProgressRows(
@@ -172,4 +250,101 @@ export function getSubjectSummary(subjectId: string, progress: UserProgress) {
       : Math.round(rows.reduce((sum, r) => sum + r.masteryPercent, 0) / rows.length)
 
   return { total: rows.length, mastered, inProgress, avgMastery, rows }
+}
+
+export interface ContinueStudying {
+  subjectId: string
+  chapterId: string
+  topicId: string
+  chapterTitle: string
+  topicTitle: string
+  topicPath: string
+}
+
+export function getContinueStudying(progress: UserProgress): ContinueStudying | null {
+  if (progress.lastVisitedTopicId && progress.lastVisitedChapterId && progress.lastVisitedSubjectId) {
+    const topic = getTopic(progress.lastVisitedTopicId)
+    const chapter = getChapter(progress.lastVisitedChapterId)
+    if (topic && chapter) {
+      return {
+        subjectId: progress.lastVisitedSubjectId,
+        chapterId: progress.lastVisitedChapterId,
+        topicId: progress.lastVisitedTopicId,
+        chapterTitle: chapter.title,
+        topicTitle: topic.title,
+        topicPath: `/subjects/${progress.lastVisitedSubjectId}/chapters/${progress.lastVisitedChapterId}/topics/${progress.lastVisitedTopicId}`,
+      }
+    }
+  }
+
+  let bestChapterId = ''
+  let bestDate = ''
+  for (const [chapterId, stats] of Object.entries(progress.chapterStats ?? {})) {
+    if (stats.lastVisited && stats.lastVisited >= bestDate) {
+      bestDate = stats.lastVisited
+      bestChapterId = chapterId
+    }
+  }
+  if (!bestChapterId) return null
+
+  const chapter = getChapter(bestChapterId)
+  if (!chapter) return null
+  const topics = getTopicsForChapter(bestChapterId)
+  const notesMap = notesReadMap(progress)
+  const nextTopic =
+    topics.find((t) => !notesMap[t.id]) ??
+    topics.find((t) => (progress.topics[t.id]?.quizLevel ?? 0) < 4) ??
+    topics[0]
+  if (!nextTopic) return null
+
+  return {
+    subjectId: chapter.subjectId,
+    chapterId: bestChapterId,
+    topicId: nextTopic.id,
+    chapterTitle: chapter.title,
+    topicTitle: nextTopic.title,
+    topicPath: `/subjects/${chapter.subjectId}/chapters/${bestChapterId}/topics/${nextTopic.id}`,
+  }
+}
+
+export function getTodayStudyMinutes(progress: UserProgress): number {
+  const today = new Date().toISOString().slice(0, 10)
+  const sec = progress.studySecByDate?.[today] ?? 0
+  return Math.round(sec / 60)
+}
+
+export interface WeeklyRecap {
+  xp: number
+  activeDays: number
+  streakDays: number
+  studyMinutes: number
+}
+
+export function getWeeklyRecap(progress: UserProgress): WeeklyRecap {
+  const calendar = getStreakCalendar(progress, 7)
+  const xp = calendar.reduce((sum, d) => sum + d.xp, 0)
+  const activeDays = calendar.filter((d) => d.active).length
+  const today = new Date()
+  let studySec = 0
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(today)
+    d.setDate(d.getDate() - i)
+    const iso = d.toISOString().slice(0, 10)
+    studySec += progress.studySecByDate?.[iso] ?? 0
+  }
+  return {
+    xp,
+    activeDays,
+    streakDays: progress.streakDays,
+    studyMinutes: Math.round(studySec / 60),
+  }
+}
+
+export function getWeakTopicLessonPath(chapterId: string): string | null {
+  const chapter = getChapter(chapterId)
+  if (!chapter) return null
+  const topics = getTopicsForChapter(chapterId)
+  const first = topics[0]
+  if (!first) return null
+  return `/subjects/${chapter.subjectId}/chapters/${chapterId}/topics/${first.id}`
 }

@@ -1,0 +1,77 @@
+{
+  "id": "7-4-constructions-hard",
+  "topicId": "7-4-constructions",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "hard",
+  "title": "Constructions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-4-constructions-hard-q1",
+      "type": "mcq",
+      "question": "An angle $XOY$2$80°$. A point $P$2$OX$2$OY$2$5\\text{ cm}$ from the vertex $O$2$POX$.",
+      "options": [
+        "$40°$",
+        "$80°$",
+        "$20°$",
+        "$50°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Points equidistant from two lines lie on the angle bisector. Bisecting $80°$ gives an angle of $40°$ from either line.\n\n**Common mistake:** The student might provide the distance ($5\\text{ cm}$) or a value related to a $90°$ construction."
+    },
+    {
+      "id": "7-4-constructions-hard-q2",
+      "type": "mcq",
+      "question": "In triangle $ABC$2$AB$2$BC$2$O$ has which property?",
+      "options": [
+        "It is equidistant from all three vertices $A, B,$ and $C$",
+        "It is equidistant from all three sides $AB, BC,$ and $AC$",
+        "It is the midpoint of the longest side",
+        "It is the vertex of a $90°$ angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection of perpendicular bisectors is the circumcentre, the point that is the same distance from every vertex.\n\n**Common mistake:** Students often confuse the properties of perpendicular bisectors (vertex distance) with angle bisectors (side distance)."
+    },
+    {
+      "id": "7-4-constructions-hard-q3",
+      "type": "mcq",
+      "question": "To construct a $15°$ angle using only a ruler and compasses, which sequence of constructions is most efficient?",
+      "options": [
+        "Equilateral triangle $\\rightarrow$2$\\rightarrow$ Angle bisector",
+        "Perpendicular bisector $\\rightarrow$2$\\rightarrow$ Angle bisector",
+        "Equilateral triangle $\\rightarrow$ Perpendicular bisector",
+        "Perpendicular bisector $\\rightarrow$ Angle bisector"
+      ],
+      "correctIndex": 0,
+      "explanation": "Construct $60°$ (equilateral triangle), bisect to get $30°$, then bisect again to get $15°$.\n\n**Common mistake:** The student might think bisecting $90°$ twice ($22.5°$) is part of the path to $15°$."
+    },
+    {
+      "id": "7-4-constructions-hard-q4",
+      "type": "mcq",
+      "question": "A regular hexagon is constructed inside a circle of radius $6\\text{ cm}$. What is the side length of the hexagon?",
+      "options": [
+        "$6\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$6\\pi\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A regular hexagon is composed of six equilateral triangles. Therefore, the side length is equal to the distance from the centre to the vertex (the radius).\n\n**Common mistake:** A student might try to use the circumference formula or assume the side is shorter than the radius."
+    },
+    {
+      "id": "7-4-constructions-hard-q5",
+      "type": "mcq",
+      "question": "Construct triangle $ABC$2$AB = 9\\text{ cm}, BC = 7\\text{ cm},$ and $AC = 5\\text{ cm}$. If the perpendicular bisector of $AB$2$BC$2$X$2$AX$2$BX$.",
+      "options": [
+        "$AX = BX$",
+        "$AX > BX$",
+        "$AX < BX$",
+        "$AX = 4.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Any point on the perpendicular bisector of a segment is equidistant from the two endpoints of that segment. Thus, $AX$2$BX$.\n\n**Common mistake:** The student might try to use trigonometry to solve for the length instead of applying the geometric locus property."
+    }
+  ]
+}

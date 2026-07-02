@@ -1,0 +1,77 @@
+{
+  "id": "7-3-circle-theorems-pyp",
+  "topicId": "7-3-circle-theorems",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "pyp",
+  "title": "Circle Theorems — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-3-circle-theorems-pyp-q1",
+      "type": "mcq",
+      "question": "Points $A, B, C$2$D$2$O$2$∠AOC = 124°$. Write down the size of $∠ABC$.",
+      "options": [
+        "$62°$",
+        "$248°$",
+        "$118°$",
+        "$56°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle at the centre is twice the angle at the circumference. $∠ABC = 124 ÷ 2 = 62°$.\n\n**Common mistake:** A student might multiply the angle by $2$ or subtract from $180°$ incorrectly."
+    },
+    {
+      "id": "7-3-circle-theorems-pyp-q2",
+      "type": "mcq",
+      "question": "Hence, using the value $∠ABC = 62°$, find the size of $∠ADC$2$ABCD$ is a cyclic quadrilateral.",
+      "options": [
+        "$118°$",
+        "$62°$",
+        "$298°$",
+        "$124°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite angles of a cyclic quadrilateral add up to $180°$. $180 - 62 = 118°$.\n\n**Common mistake:** The student might think opposite angles are equal ($62°$) or double the angle ($124°$)."
+    },
+    {
+      "id": "7-3-circle-theorems-pyp-q3",
+      "type": "mcq",
+      "question": "The line $XY$2$T$2$TA$2$48°$ with the tangent. Which theorem is used to show that $∠TBA = 48°$, where $B$ is a point on the major arc?",
+      "options": [
+        "Alternate Segment Theorem",
+        "Angle at the centre is twice the angle at circumference",
+        "Angles in the same segment are equal",
+        "Opposite angles in a cyclic quadrilateral sum to $180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Alternate Segment Theorem directly states that the angle between a tangent and a chord is equal to the angle in the alternate segment.\n\n**Common mistake:** Students often misidentify this as 'angles in the same segment' because both involve equality."
+    },
+    {
+      "id": "7-3-circle-theorems-pyp-q4",
+      "type": "mcq",
+      "question": "Calculate the size of angle $x$2$3y$2$y = 42$.",
+      "options": [
+        "$54°$",
+        "$126°$",
+        "$42°$",
+        "$138°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite angle $= 3 \\times 42 = 126°$. $x + 126 = 180 \\Rightarrow x = 54°$.\n\n**Common mistake:** The student may solve for $y$2$3$ or subtract from $180$."
+    },
+    {
+      "id": "7-3-circle-theorems-pyp-q5",
+      "type": "mcq",
+      "question": "Show that for any circle with centre $O$2$AB$2$ACB$2$90°$. What is the reason for this?",
+      "options": [
+        "Angle in a semi-circle is $90°$",
+        "Angles in the same segment are equal",
+        "Radius is perpendicular to the tangent",
+        "The sum of angles in a triangle is $180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a fundamental circle theorem: any angle subtended at the circumference by a diameter is a right angle.\n\n**Common mistake:** A student might pick a generic triangle property instead of the specific circle theorem required."
+    }
+  ]
+}

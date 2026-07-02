@@ -1,0 +1,77 @@
+{
+  "id": "15-6-integration-of-medium",
+  "topicId": "15-6-integration-of",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "medium",
+  "title": "Integration of $\\frac{1}{x}$ and $\\frac{1}{ax+b}$ — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-6-integration-of-medium-q1",
+      "type": "mcq",
+      "question": "Find $\\int \\frac{x + 2}{x} \\\\\\\\\\,dx.$.",
+      "options": [
+        "x + 2 ln|x| + c",
+        "ln|x^2 + 2x| + c",
+        "1 + 2/x^2 + c",
+        "x + ln|x| + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide the numerator by the denominator first: ∫ (1 + 2/x) dx = x + 2 ln|x| + c.\n\n**Common mistake:** Attempting to integrate the numerator and denominator separately."
+    },
+    {
+      "id": "15-6-integration-of-medium-q2",
+      "type": "mcq",
+      "question": "Evaluate $\\int \\frac{10}{3x + 2} \\\\\\\\\\,dx.$.",
+      "options": [
+        "10/3 ln|3x + 2| + c",
+        "10 ln|3x + 2| + c",
+        "30 ln|3x + 2| + c",
+        "3.33/x + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula: (k/a) ln|ax+b| = (10/3) ln|3x+2|.\n\n**Common mistake:** Multiplying by the coefficient 3 instead of dividing by it."
+    },
+    {
+      "id": "15-6-integration-of-medium-q3",
+      "type": "mcq",
+      "question": "Find the area under the curve $y = 1/x$2$x=2$ to $x=4$.",
+      "options": [
+        "ln 2",
+        "ln 4",
+        "0.5",
+        "ln 6"
+      ],
+      "correctIndex": 0,
+      "explanation": "∫ from 2 to 4 (1/x) dx = [ln x] from 2 to 4 = ln 4 - ln 2 = ln(4/2) = ln 2.\n\n**Common mistake:** Evaluating the difference as ln(4-2) = ln 2 (correct answer by coincidence) but failing the log laws in harder cases."
+    },
+    {
+      "id": "15-6-integration-of-medium-q4",
+      "type": "mcq",
+      "question": "If $f'(x) = \\frac{1}{x-1}$ and $f(2) = 5$, find $f(x)$.",
+      "options": [
+        "ln|x - 1| + 5",
+        "ln|x - 1|",
+        "ln|x - 1| + 4",
+        "1 / (x-1)$^2$ + 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "f(x) = ln|x-1| + c. At x=2, ln(1) + c = 5 => 0 + c = 5 => c = 5.\n\n**Common mistake:** Assuming c must be 0 because of the log value."
+    },
+    {
+      "id": "15-6-integration-of-medium-q5",
+      "type": "mcq",
+      "question": "Integrate $\\int (\\frac{1}{x} + e^x) \\\\\\\\\\,dx.$.",
+      "options": [
+        "ln|x| + e^x + c",
+        "ln|x| + xe^x + c",
+        "-1/x^2 + e^x + c",
+        "ln|x + e^x| + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrate each term separately.\n\n**Common mistake:** Combining the terms inside a single log incorrectly."
+    }
+  ]
+}

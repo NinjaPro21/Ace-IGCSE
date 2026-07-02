@@ -4,11 +4,14 @@ Vectors are mathematical quantities that have both a magnitude (size) and a dire
 
 ## Key formulas
 
-$$\text{Column Vector: } \mathbf{r} = \begin{pmatrix} x \\ y \end{pmatrix} = x\mathbf{i} + y\mathbf{j}$$
+$$
+\text{Column Vector: } \mathbf{r} = \begin{pmatrix} x \ \\ y \end{pmatrix} = x\mathbf{i} + y\mathbf{j}
 
-$$\text{Magnitude: } |\mathbf{r}| = \sqrt{x^2 + y^2}, \quad \text{Unit Vector: } \hat{\mathbf{r}} = \frac{\mathbf{r}}{|\mathbf{r}|} = \frac{1}{\sqrt{x^2 + y^2}}\begin{pmatrix} x \\ y \end{pmatrix}$$
+\text{Magnitude: } |\mathbf{r}| = \sqrt{x^2 + y^2}, \quad \text{Unit Vector: } \hat{\mathbf{r}} = \frac{\mathbf{r}}{|\mathbf{r}|} = \frac{1}{\sqrt{x^2 + y^2}}\begin{pmatrix} x \ \\ y \end{pmatrix}
 
-$$\text{Displacement Vector: } \vec{AB} = \vec{OB} - \vec{OA} = \mathbf{b} - \mathbf{a}$$
+\text{Displacement Vector: } \vec{AB} = \vec{OB} - \vec{OA} = \mathbf{b} - \mathbf{a}
+$$
+
 
 ## Steps / method
 
@@ -28,17 +31,21 @@ Displacement from $A$ to $B$ is $\vec{AB} = \mathbf{b} - \mathbf{a}$ — subtrac
 
 ## Worked example — Displacement vector
 
-Points $A$ and $B$ have position vectors $\mathbf{a} = \begin{pmatrix} 2 \\ 1 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 5 \\ 5 \end{pmatrix}$. Find $\vec{AB}$.
+Points $A$ and $B$ have position vectors $\mathbf{a} = \begin{pmatrix} 2 \ \\ 1 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 5 \ \\ 5 \end{pmatrix}$. Find $\vec{AB}$.
 
-$$\vec{AB} = \mathbf{b} - \mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$$
+$$
+\vec{AB} = \mathbf{b} - \mathbf{a} = \begin{pmatrix} 3 \ \\ 4 \end{pmatrix}
+$$
 
 ## Worked example — Magnitude and unit vector
 
 Find $|\vec{AB}|$ and a unit vector in the same direction.
 
-$$|\vec{AB}| = \sqrt{3^2 + 4^2} = 5$$
+$$
+|\vec{AB}| = \sqrt{3^2 + 4^2} = 5
 
-$$\hat{\mathbf{u}} = \frac{1}{5}\begin{pmatrix} 3 \\ 4 \end{pmatrix} = \begin{pmatrix} 0.6 \\ 0.8 \end{pmatrix}$$
+\hat{\mathbf{u}} = \frac{1}{5}\begin{pmatrix} 3 \ \\ 4 \end{pmatrix} = \begin{pmatrix} 0.6 \ \\ 0.8 \end{pmatrix}
+$$
 
 ## Examiner tip
 
@@ -47,7 +54,3 @@ Vectors are distinct from scalar numbers. In written exam papers, you must under
 ## Quick check
 
 If a vector is a unit vector, its total calculated magnitude must be exactly equal to 1.
-
-## Visual / interactive intent
-
-Reuse explorer: Coordinate geometry lab. Modified to work with vector arrows. Users can drag vector components on a grid, showing how adding vectors tail-to-tip forms a resultant vector while displaying coordinate calculations.

@@ -4,11 +4,9 @@ Advanced differentiation extends calculus beyond polynomial functions to include
 
 ## Key formulas
 
-$$\frac{d}{dx}(e^{ax+b}) = ae^{ax+b}, \quad \frac{d}{dx}(\ln(ax+b)) = \frac{a}{ax+b}$$
+$\frac{d}{dx}(e^x) = e^x$
 
-$$\frac{d}{dx}(\sin(ax+b)) = a\cos(ax+b), \quad \frac{d}{dx}(\cos(ax+b)) = -a\sin(ax+b)$$
-
-$$\frac{d}{dx}(\tan(ax+b)) = a\sec^2(ax+b)$$
+$\frac{d}{dx}(e^{f(x)}) = f'(x)e^{f(x)}$
 
 ## Steps / method
 
@@ -30,13 +28,17 @@ Differentiate the outer function while keeping the inner expression intact, then
 
 Differentiate $y = e^{3x - 1}$ and $y = \ln(2x + 5)$.
 
-$$\frac{dy}{dx} = 3e^{3x - 1}, \quad \frac{dy}{dx} = \frac{2}{2x + 5}$$
+$$
+\frac{dy}{dx} = 3e^{3x - 1}, \quad \frac{dy}{dx} = \frac{2}{2x + 5}
+$$
 
 ## Worked example — Trigonometric
 
 Differentiate $y = \sin(2x + \pi)$ and $y = \cos(4x)$.
 
-$$\frac{dy}{dx} = 2\cos(2x + \pi), \quad \frac{dy}{dx} = -4\sin(4x)$$
+$$
+\frac{dy}{dx} = 2\cos(2x + \pi), \quad \frac{dy}{dx} = -4\sin(4x)
+$$
 
 ## Examiner tip
 
@@ -45,7 +47,3 @@ Pay close attention to signs when differentiating trigonometric functions. Diffe
 ## Quick check
 
 If you differentiate the function $y = \cos(3x)$, its derivative is exactly equal to $\frac{dy}{dx} = -3\sin(3x)$.
-
-## Visual / interactive intent
-
-Reuse explorer: Calculus derivative tracer. Updated to include selectable options for exponential, logarithmic, and trigonometric parent curves, showing how the slopes of these curves change across different intervals.

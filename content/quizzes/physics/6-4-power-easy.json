@@ -1,0 +1,77 @@
+{
+  "id": "6-4-power-easy",
+  "topicId": "6-4-power",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "easy",
+  "title": "Power — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-4-power-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of power?",
+      "options": [
+        "The work done or energy transferred per unit time",
+        "The total amount of energy stored in an object",
+        "The force applied to an object multiplied by distance",
+        "The rate of change of an object's acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is defined as the work done or energy transferred per unit time ($P = W / t$). \n\n**Common mistake:** Confusing power with work done, which is the total energy transferred, not the rate."
+    },
+    {
+      "id": "6-4-power-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit of power?",
+      "options": [
+        "watt ($W$)",
+        "joule ($J$)",
+        "newton ($N$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for power is the watt ($W$). \n\n**Common mistake:** Selecting the joule ($J$), which is the unit for energy and work."
+    },
+    {
+      "id": "6-4-power-easy-q3",
+      "type": "mcq",
+      "question": "One watt ($1\\text{ W}$) is defined as the transfer of:",
+      "options": [
+        "one joule per second ($1\\text{ J/s}$)",
+        "one newton per second ($1\\text{ N/s}$)",
+        "ten joules per minute ($10\\text{ J/min}$)",
+        "one joule per metre ($1\\text{ J/m}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, $1\\text{ W} = 1\\text{ J/s}$. \n\n**Common mistake:** Thinking it relates force to time ($1\\text{ N/s}$) rather than energy."
+    },
+    {
+      "id": "6-4-power-easy-q4",
+      "type": "mcq",
+      "question": "A force of $50\\text{ N}$ moves an object through a distance of $10\\text{ m}$ in $5\\text{ s}$. Calculate the power involved.",
+      "options": [
+        "$100\\text{ W}$",
+        "$500\\text{ W}$",
+        "$25\\text{ W}$",
+        "$2500\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done $W = F \\times s = 50 \\times 10 = 500\\text{ J}$. Power $P = W / t = 500 / 5 = 100\\text{ W}$. \n\n**Common mistake:** Providing the work done ($500\\text{ J}$) as the final answer for power."
+    },
+    {
+      "id": "6-4-power-easy-q5",
+      "type": "mcq",
+      "question": "If two machines do the same amount of work, but Machine A finishes in half the time of Machine B, which statement is true?",
+      "options": [
+        "Machine A has twice the power of Machine B",
+        "Machine B has twice the power of Machine A",
+        "Both machines have the same power",
+        "Machine A has half the power of Machine B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $P = W / t$, completing the work in a shorter time (smaller $t$) results in higher power. \n\n**Common mistake:** Thinking that 'same work' implies 'same power' regardless of time."
+    }
+  ]
+}

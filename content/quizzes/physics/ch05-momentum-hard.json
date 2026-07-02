@@ -1,0 +1,207 @@
+{
+  "id": "ch05-momentum-hard",
+  "topicId": "ch05-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "hard",
+  "title": "Chapter 5: Momentum — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-momentum-hard-q1",
+      "type": "mcq",
+      "question": "A $0.5\\text{ kg}$ object starts from rest and accelerates uniformly at $2\\text{ m/s}^2$ for $6\\text{ s}$. What is its momentum at the end of the $6\\text{ s}$?",
+      "options": [
+        "$6\\text{ kg m/s}$",
+        "$12\\text{ kg m/s}$",
+        "$3\\text{ kg m/s}$",
+        "$1.5\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find final velocity: $v = u + at = 0 + (2 \\times 6) = 12\\text{ m/s}$. Then $p = mv = 0.5 \\times 12 = 6\\text{ kg m/s}$. \n\n**Common mistake:** Using the acceleration ($2$) instead of velocity to find momentum ($1.0$)."
+    },
+    {
+      "id": "ch05-momentum-hard-q2",
+      "type": "mcq",
+      "question": "Which of the following describes the momentum of an object that moves $10\\text{ m}$ North and then $10\\text{ m}$ South, returning to its starting point in $10\\text{ s}$?",
+      "options": [
+        "Its average momentum over the whole 10 s is zero",
+        "Its momentum was constant throughout the journey",
+        "Its total distance divided by time gives its momentum",
+        "Its momentum is a scalar because it returned to the start"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since displacement is zero, average velocity is zero, and thus average momentum is zero. Because momentum is a vector, directions matter. \n\n**Common mistake:** Confusing speed (scalar) with velocity (vector) when discussing momentum."
+    },
+    {
+      "id": "ch05-momentum-hard-q3",
+      "type": "mcq",
+      "question": "If a graph is plotted with Momentum ($y$-axis) against Velocity ($x$-axis) for a moving object, what does the gradient of the line represent?",
+      "options": [
+        "Mass",
+        "Force",
+        "Acceleration",
+        "Distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the equation $p = mv$, the ratio $p/v$ is the mass $m$. Therefore, the gradient ($Delta y / Delta x$) of a $p$ vs $v$ graph is mass. \n\n**Common mistake:** Thinking the gradient is acceleration, which would be true for a velocity-time graph."
+    },
+    {
+      "id": "ch05-momentum-hard-q4",
+      "type": "mcq",
+      "question": "An object A has mass $m$ and velocity $v$. Object B has mass $2m$ and the same momentum as object A. What is the velocity of object B?",
+      "options": [
+        "$0.5v$",
+        "$2v$",
+        "$v$",
+        "$4v$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $p_A = p_B$, then $m \\times v = 2m \\times v_B$. Dividing both sides by $2m$ gives $v_B = 0.5v$. \n\n**Common mistake:** Thinking doubling the mass also requires doubling the velocity to keep momentum constant."
+    },
+    {
+      "id": "ch05-momentum-hard-q5",
+      "type": "mcq",
+      "question": "Why is it harder to stop a massive fast-moving object than a light slow-moving one?",
+      "options": [
+        "The massive fast object has a much larger momentum",
+        "The massive object has more weight but less speed",
+        "The light object has a higher rate of change of momentum",
+        "Massive objects always have zero acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stopping an object requires removing its momentum. Since $p = mv$, a massive and fast object has a very large momentum, requiring more force or time to bring it to rest. \n\n**Common mistake:** Focusing only on the object's 'weight' (force of gravity) rather than its momentum (motion property)."
+    },
+    {
+      "id": "ch05-momentum-hard-q6",
+      "type": "mcq",
+      "question": "A resultant force of $16\\text{ N}$ acts for $5\\text{ s}$ on an object of mass $2\\text{ kg}$. What is the change in the object's speed?",
+      "options": [
+        "$40\\text{ m/s}$",
+        "$80\\text{ m/s}$",
+        "$10\\text{ m/s}$",
+        "$160\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Step 1: Impulse $= F \\times t = 16 \\times 5 = 80\\text{ N s}$. Step 2: Change in momentum $Delta p = Impulse = m Delta v$. So $80 = 2 \\times Delta v$, which means $Delta v = 40\\text{ m/s}$. \n\n**Common mistake:** Providing the impulse ($80$) as the speed change."
+    },
+    {
+      "id": "ch05-momentum-hard-q7",
+      "type": "mcq",
+      "question": "A basketball hits the ground 10 \\times in $20\\text{ seconds}$. Each collision results in a change in momentum of $15\\text{ kg m/s}$. What is the average force exerted by the ground on the ball?",
+      "options": [
+        "$7.5\\text{ N}$",
+        "$150\\text{ N}$",
+        "$300\\text{ N}$",
+        "$0.75\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total change in momentum $Delta p = 10 \\times 15 = 150\\text{ kg m/s}$. Total time $t = 20\\text{ s}$. Average Force $= Delta p / t = 150 / 20 = 7.5\\text{ N}$. \n\n**Common mistake:** Using only a single collision's momentum change ($15/20 = 0.75\\text{ N}$)."
+    },
+    {
+      "id": "ch05-momentum-hard-q8",
+      "type": "mcq",
+      "question": "A $0.4\\text{ kg}$ ball travels at $5\\text{ m/s}$, hits a wall, and rebounds in the opposite direction at $5\\text{ m/s}$. Calculate the magnitude of the impulse given to the ball.",
+      "options": [
+        "$4.0\\text{ N s}$",
+        "$0\\text{ N s}$",
+        "$2.0\\text{ N s}$",
+        "$8.0\\text{ N s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector. Taking initial direction as positive ($+5$), final velocity is $-5$. Change in momentum $= m(v - u) = 0.4 \\times (-5 - 5) = -4.0\\text{ kg m/s}$. Magnitude is $4.0$. \n\n**Common mistake:** Subtracting magnitudes to get zero or ignoring the rebound to get $2.0$."
+    },
+    {
+      "id": "ch05-momentum-hard-q9",
+      "type": "mcq",
+      "question": "A $2000\\text{ kg}$ empty freight car moving at $8\\text{ m/s}$ collides and sticks to a stationary $8000\\text{ kg}$ loaded car. What is the impulse exerted by the loaded car on the empty car during the collision?",
+      "options": [
+        "$12800\\text{ N s}$",
+        "$16000\\text{ N s}$",
+        "$3200\\text{ N s}$",
+        "$64000\\text{ N s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using conservation of momentum: $(2000 \\times 8) + 0 = (2000 + 8000) \\times V implies 16000 = 10000V implies V = 1.6\\text{ m/s}$. Impulse on empty car $= Delta p = m(v - u) = 2000(1.6 - 8) = -12800\\text{ N s}$. Magnitude is $12800$. \n\n**Common mistake:** Using the total initial momentum ($16000$) as the impulse on a single car."
+    },
+    {
+      "id": "ch05-momentum-hard-q10",
+      "type": "mcq",
+      "question": "Under what condition is the equation $F = ma$ exactly the same as $F = \\frac{Delta p}{Delta t}$?",
+      "options": [
+        "When the mass of the object does not change",
+        "Only when the object starts from rest",
+        "When the velocity of the object is constant",
+        "When air resistance is ignored"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note states $F = Delta p / Delta t$ is the same as $F = ma$ for special cases when the mass of the object does not change. If mass changes, the derivative of $mv$ includes a mass change term. \n\n**Common mistake:** Thinking they are always identical under all physics conditions."
+    },
+    {
+      "id": "ch05-momentum-hard-q11",
+      "type": "mcq",
+      "question": "A bullet of mass $0.05\\text{ kg}$ is fired into a wooden block of mass $1.95\\text{ kg}$ at rest. They move together at $15\\text{ m/s}$ after impact. With what speed did the bullet hit the block?",
+      "options": [
+        "$600\\text{ m/s}$",
+        "$15\\text{ m/s}$",
+        "$30\\text{ m/s}$",
+        "$585\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total after $= (0.05 + 1.95) \\times 15 = 2.0 \\times 15 = 30\\text{ kg m/s}$. Initial momentum $= 0.05 \\times u = 30$, so $u = 30 / 0.05 = 600\\text{ m/s}$. \n\n**Common mistake:** Multiplying $1.95 \\times 15$ and ignoring the bullet's mass in the final system."
+    },
+    {
+      "id": "ch05-momentum-hard-q12",
+      "type": "mcq",
+      "question": "An empty freight car ($2000\\text{ kg}$) moving at $8\\text{ m/s}$ collides and sticks to a stationary loaded car ($8000\\text{ kg}$). Calculate the change in momentum for the empty car.",
+      "options": [
+        "$-12800\\text{ kg m/s}$",
+        "$16000\\text{ kg m/s}$",
+        "$-16000\\text{ kg m/s}$",
+        "$0\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Final speed is $1.6\\text{ m/s}$. Change for empty car $= m(v-u) = 2000(1.6 - 8) = 2000(-6.4) = -12800\\text{ kg m/s}$. \n\n**Common mistake:** Thinking the car's momentum doesn't change because the 'system' is conserved."
+    },
+    {
+      "id": "ch05-momentum-hard-q13",
+      "type": "mcq",
+      "question": "Object A ($2\\text{ kg}$, $5\\text{ m/s}$) hits stationary Object B ($3\\text{ kg}$). Object A rebounds at $1\\text{ m/s}$ in the opposite direction. What is the final velocity of Object B?",
+      "options": [
+        "$4\\text{ m/s}$ forward",
+        "$2\\text{ m/s}$ forward",
+        "$3\\text{ m/s}$ forward",
+        "$4\\text{ m/s}$ backward"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $= 2 \\times 5 = 10$. Final $= (2 \\times -1) + (3 \\times v)$. $10 = -2 + 3v implies 12 = 3v implies v = 4\\text{ m/s}$ forward. \n\n**Common mistake:** Forgetting to use a negative sign for the rebound velocity."
+    },
+    {
+      "id": "ch05-momentum-hard-q14",
+      "type": "mcq",
+      "question": "Mass X is four \\times the mass of Y ($m_X = 4m_Y$). They are at rest and push away from each other. What is the ratio of their speeds ($v_X : v_Y$)?",
+      "options": [
+        "$1 : 4$",
+        "$4 : 1$",
+        "$1 : 1$",
+        "$1 : 16$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$4m \\times v_X = m \\times v_Y (ignoring signs for ratio)$. $2v_Y = 4v_X$, so the ratio is $1:4$. \n\n**Common mistake:** Thinking the heavier object moves faster."
+    },
+    {
+      "id": "ch05-momentum-hard-q15",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ object moving at $10\\text{ m/s}$ explodes into two $1.0\\text{ kg}$ pieces. One piece continues forward at $15\\text{ m/s}$. What is the velocity of the second piece?",
+      "options": [
+        "$5\\text{ m/s}$ forward",
+        "$5\\text{ m/s}$ backward",
+        "$10\\text{ m/s}$ forward",
+        "$0\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $= 2 \\times 10 = 20$. Final $= (1 \\times 15) + (1 \\times v)$. $20 = 15 + v implies v = 5\\text{ m/s}$ forward. \n\n**Common mistake:** Thinking the second piece must move backward to conserve momentum."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16-2-electric-field-medium",
+  "topicId": "16-2-electric-field",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Electric Field — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-2-electric-field-medium-q1",
+      "type": "mcq",
+      "question": "An electron is placed in an electric field where the field lines point from left to right. In which direction will the electron experience a force?",
+      "options": [
+        "To the left",
+        "To the right",
+        "Upwards",
+        "It will experience no force"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines show the direction of force on a positive charge. Since an electron is negative, it experiences a force in the opposite direction to the field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-medium-q2",
+      "type": "mcq",
+      "question": "Which diagram correctly describes the electric field between two oppositely charged parallel conducting plates?",
+      "options": [
+        "Parallel, equally spaced lines pointing from the positive to the negative plate",
+        "Parallel, equally spaced lines pointing from the negative to the positive plate",
+        "Circular lines originating from the centre of the plates",
+        "Lines that bend away from the centre gap between the plates"
+      ],
+      "correctIndex": 0,
+      "explanation": "The field between oppositely charged parallel plates is uniform, represented by parallel, equally spaced lines pointing from positive to negative.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-medium-q3",
+      "type": "mcq",
+      "question": "If the spacing between electric field lines in a certain region increases, what happens to the force experienced by a charge moved into that region?",
+      "options": [
+        "The force decreases",
+        "The force increases",
+        "The force remains constant",
+        "The force changes direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increased spacing between field lines indicates a weaker electric field. Therefore, a charge in that region will experience a smaller force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-medium-q4",
+      "type": "mcq",
+      "question": "A positive charge and a negative charge are placed near each other. How do the field lines between them behave?",
+      "options": [
+        "They curve from the positive charge to the negative charge",
+        "They curve from the negative charge to the positive charge",
+        "They point straight outwards from both charges and never meet",
+        "They form concentric circles around both charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines go away from positive and towards negative. In a pair of unlike charges, the lines curve from the positive charge to the negative one.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-medium-q5",
+      "type": "mcq",
+      "question": "Which of the following would experience the greatest force in a uniform electric field?",
+      "options": [
+        "A particle with a charge of $+2\\text{ C}$",
+        "A particle with a charge of $+1\\text{ C}$",
+        "A neutral atom",
+        "A particle with a charge of $-1\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The force in an electric field depends on the magnitude of the charge. A charge of $2\\text{ C}$ has the highest magnitude among the choices and will experience the most force.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

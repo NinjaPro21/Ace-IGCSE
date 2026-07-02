@@ -1,0 +1,77 @@
+{
+  "id": "12-5-ray-diagrams-for-thin-converging-lenses-pyp",
+  "topicId": "12-5-ray-diagrams-for-thin-converging-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "pyp",
+  "title": "Ray Diagrams for Thin Converging Lenses — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a thin converging lens used to produce a real image of an object. Which distance represents the focal length?nn[Diagram: Object at $O$, lens at $C$, principal focus at $F$, Image at $I$]",
+      "options": [
+        "Distance from the optical centre to $F$",
+        "Distance from the object to the lens",
+        "Distance from the object to the image",
+        "Distance from the focal point to the image"
+      ],
+      "correctIndex": 0,
+      "explanation": "Focal length is always the distance between the optical centre and the principal focus ($F$). \n\n**Common mistake:** Selecting the object-to-lens distance."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-pyp-q2",
+      "type": "mcq",
+      "question": "The image formed by a slide projector on a screen is:",
+      "options": [
+        "real, inverted and magnified.",
+        "real, inverted and diminished.",
+        "virtual, upright and diminished.",
+        "virtual, upright and magnified."
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Section A, Question 13. Slide projectors use the $f < u < 2f$ range to produce real, inverted, magnified images. \n\n**Common mistake:** Selecting 'virtual,' as we can see the image on a screen."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-pyp-q3",
+      "type": "mcq",
+      "question": "A thin converging lens is used to focus rays from the Sun onto a piece of paper. When the rays burn a hole in the paper, the distance between the lens and the paper is:",
+      "options": [
+        "equal to the focal length of the lens.",
+        "less than half the focal length.",
+        "equal to twice the focal length.",
+        "twice the object distance."
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Section A, Question 9. Parallel rays from a distant source (the Sun) converge at the focal point ($F$). \n\n**Common mistake:** Thinking the paper must be at $2f$."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-pyp-q4",
+      "type": "mcq",
+      "question": "An object is placed at the focal point of a converging lens. Where is the image formed?",
+      "options": [
+        "At infinity",
+        "At the optical centre",
+        "Between $f$ and $2f$",
+        "At $2f$ on the same side"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an object is at $F$, the refracted rays are parallel and never meet, meaning the image is formed at infinity. \n\n**Common mistake:** Thinking no image is 'produced' at all, which is functionally true but mathematically 'at infinity'."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-pyp-q5",
+      "type": "mcq",
+      "question": "A table shows different object distances $u$ for a lens with focal length $f = 20\\text{ cm}$. Which row correctly predicts the image characteristics?nn| Row | Object Distance $u$ | Image Type |n| :--- | :--- | :--- |n| A | $10\\text{ cm}$ | Virtual |n| B | $20\\text{ cm}$ | Real |n| C | $30\\text{ cm}$ | Virtual |n| D | $50\\text{ cm}$ | Magnified |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $f = 20\\text{ cm}$, any object closer than $20\\text{ cm}$ (Row A: $10\\text{ cm}$) produces a virtual image. Row B is at infinity, Row C is real, and Row D is diminished. \n\n**Common mistake:** Choosing Row D, because $50 > 20$, but objects beyond $2f$ ($40\\text{ cm}$) are diminished."
+    }
+  ]
+}

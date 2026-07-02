@@ -4,9 +4,11 @@ Logarithmic equations are mathematical expressions where the unknown variable is
 
 ## Key formulas
 
-$\log_a(f(x)) = k \implies f(x) = a^k$
+$\log_a(xy) = \log_a x + \log_a y$
 
-$\log_a(f(x)) = \log_a(g(x)) \implies f(x) = g(x)$
+$\log_a\left(\frac{x}{y}\right) = \log_a x - \log_a y$
+
+$\log_a(x^n) = n\log_a x$
 
 ## Steps / method
 
@@ -28,15 +30,11 @@ Solve $\log_2(x) + \log_2(x - 2) = 3$.
 
 Combine: $\log_2(x(x - 2)) = 3 \implies x^2 - 2x = 8 \implies (x - 4)(x + 2) = 0$.
 
-$x = 4$ is valid; $x = -2$ gives negative arguments — **reject**. Solution: $x = 4$.
+$x = 4$ is valid; $x = -2 gives negative arguments - **reject**$. $2x = 4$.
 
 ## Worked example — Equating arguments
 
-Solve $\log_5(2x + 1) = \log_5(x + 7)$.
-
-Equate arguments: $2x + 1 = x + 7 \implies x = 6$.
-
-Check: $\log_5(13) = \log_5(13)$ ✓.
+Solve $\log_5(2x + 1) = \log_5(x + 7)$. Equate arguments: $2x + 1 = x + 7 \implies x = 6$. Check: $\log_5(13) = \log_5(13)$ ✓.
 
 ## Examiner tip
 
@@ -45,5 +43,3 @@ Always check your final answers in the original equation's arguments. Even if yo
 ## Quick check
 
 If a solved logarithmic equation outputs a root value that creates a negative argument inside any original logarithm term, then that root must be rejected.
-
-## Visual / interactive intent

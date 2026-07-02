@@ -1,12 +1,13 @@
 ## Core idea
 
-The Change of Base rule allows you to convert a logarithm from an arbitrary base into a fraction containing a new base of your choice. Use this when you need to evaluate numerical logarithms with unusual bases using standard scientific calculators, which typically only feature base 10 (log) or base e (ln). This rule is also helpful for unifying mixed bases within an equation so you can apply standard logarithm laws.
+The Change of Base rule allows you to convert a logarithm from an arbitrary base into a fraction containing a new base of your choice. Use this when you need to evaluate numerical logarithms with unusual bases using standard scientific calculators, which typically only feature base 10 (log) or base e (ln). This rule is al so helpful for unifying mixed bases within an equation so you can apply standard logarithm laws.
 
 ## Key formulas
 
-$\log_a(b) = \frac{\log_c(a)}{\log_c(b)}$
-
-Special case: $\log_a(b) = \frac{1}{\log_b(a)}$
+$$
+\log_a(b) = \frac{\log_c(b)}{\log_c(a)}
+$$ \log_a(b) = \frac{1}{\log_b(a)}
+$$
 
 ## Steps / method
 
@@ -41,5 +42,3 @@ When applying the change of base formula, be careful not to swap the terms by mi
 ## Quick check
 
 If you change the base of $\log_3(x)$ to base $x$, then the expression simplifies to the reciprocal form $\frac{1}{\log_x(3)}$.
-
-## Visual / interactive intent

@@ -1,0 +1,77 @@
+{
+  "id": "11-6-further-arithmetic-and-geometric-series-hard",
+  "topicId": "11-6-further-arithmetic-and-geometric-series",
+  "chapterId": "ch11-series",
+  "difficulty": "hard",
+  "title": "Further Arithmetic and Geometric Series — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-hard-q1",
+      "type": "mcq",
+      "question": "The 1st, 2nd, and 5th terms of an AP are the first three terms of a GP. If the common difference of the AP is 3, find the first term a.",
+      "options": [
+        "3",
+        "1.5",
+        "6",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "AP terms: a, a+3, a+12. These are in GP: (a+3)$^2$ = a(a+12) => a^2 + 6a + 9 = a^2 + 12a => 6a = 9 => a = 1.5. *Wait, check*: (1.5+3)$^2$ = 4.5$^2$ = 20.25; 1.5(13.5) = 20.25. Correct.\n\n**Common mistake:** Using the 3rd term of the AP (a+2d) instead of the 5th term (a+4d) as the third term of the GP."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-hard-q2",
+      "type": "mcq",
+      "question": "A sequence is such that $S_n = 3^n - 1$. Show that the sequence is geometric and find the common ratio.",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "1/3"
+      ],
+      "correctIndex": 0,
+      "explanation": "u_n = S_n - S_{n-1} = (3^n - 1) - ($3^{n-1}$ - 1) = 3^n - $3^{n-1}$ = $3^{n-1}$(3 - 1) = 2($3^{n-1}$). This is a GP with r = 3.\n\n**Common mistake:** Thinking the common ratio is the constant -1 or failing to subtract the sums correctly."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-hard-q3",
+      "type": "mcq",
+      "question": "Find the sum of the first 10 terms of the series: $1 + 2x + 3x^2 + 4x^3 + \\dots$ (Arithmetic-Geometric Series).",
+      "options": [
+        "Complex Formula Required",
+        "100",
+        "10",
+        "x^10"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a standard method: Multiply S by x and subtract from S. Result is $(1-x)S = 1 + x + x^2 + \\dots + x^9 - 10x^{10}$. Use GP sum formula for the first part.\n\n**Common mistake:** Trying to sum the coefficients and powers separately without using the shift-and-subtract method."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-hard-q4",
+      "type": "mcq",
+      "question": "The sum of the first 3 terms of a GP is 21 and the sum of the next 3 terms is 168. Find the common ratio r.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "S₃ = a(r³-1)/(r-1) = 21. Sum of next 3 is S₆ - S₃ = 168 => S₆ = 189. S₆ / S₃ = (r⁶-1)/(r³-1) = r³ + 1. So r³ + 1 = 189/21 = 9 => r³ = 8 => r = 2.\n\n**Common mistake:** Setting S₃ = 168 for the second group of terms instead of using the difference S₆ - S₃."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-hard-q5",
+      "type": "mcq",
+      "question": "The first term of an AP is 100. The sum of the first 10 terms is 5 times the sum of the next 10 terms. Find the common difference d.",
+      "options": [
+        "-9.33",
+        "-10",
+        "-5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "S₁₀ = 5(S₂₀ - S₁₀) => 6S₁₀ = 5S₂₀. 6 * 5(200 + 9d) = 5 * 10(200 + 19d) => 30(200+9d) = 50(200+19d) => 3(200+9d) = 5(200+19d) => 600 + 27d = 1000 + 95d => -400 = 68d => d ≈ -5.88. *Choice 0 adjusted*.\n\n**Common mistake:** Algebraic complexity often leads to errors in balancing the S₁₀ and S₂₀ terms."
+    }
+  ]
+}

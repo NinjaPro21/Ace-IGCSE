@@ -1,0 +1,77 @@
+{
+  "id": "11-2-properties-of-wave-motion-pyp",
+  "topicId": "11-2-properties-of-wave-motion",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "pyp",
+  "title": "Properties of Wave Motion — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-2-properties-of-wave-motion-pyp-q1",
+      "type": "mcq",
+      "question": "A student states that a wave source has a frequency of $2\\text{ Hz}$. What is the correct interpretation of this statement?",
+      "options": [
+        "Two complete waves pass a point every second",
+        "The wave takes two seconds to travel one metre",
+        "The particles move two centimetres up and down",
+        "There are two compressions in the entire length of the wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "As per Review Section B, Question 1, a frequency of $2\\text{ Hz}$ means two complete waves per second. \n\n**Common mistake:** Confusing frequency with wave speed or amplitude."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-pyp-q2",
+      "type": "mcq",
+      "question": "A displacement-time graph shows a maximum displacement of $0.006\\text{ cm}$ and a time for one full cycle of $0.02\\text{ s}$. If the wave speed is $2\\text{ cm/s}$, what is the wavelength?",
+      "options": [
+        "$0.04\\text{ cm}$",
+        "$0.006\\text{ cm}$",
+        "$0.02\\text{ cm}$",
+        "$0.012\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the graph, period $T = 0.02\\text{ s}$. Frequency $f = 1/T = 50\\text{ Hz}$. Wavelength $\\lambda = v / f = 2 / 50 = 0.04\\text{ cm}$. \n\n**Common mistake:** Selecting the amplitude ($0.006$) or period ($0.02$) as the wavelength."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-pyp-q3",
+      "type": "mcq",
+      "question": "A vibrating dipper of frequency $3\\text{ Hz}$ produces water waves. If the wavelength is $4\\text{ cm}$, what is the speed of the waves?",
+      "options": [
+        "$12\\text{ cm/s}$",
+        "$0.75\\text{ cm/s}$",
+        "$1.33\\text{ cm/s}$",
+        "$7\\text{ cm/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda = 3 \\times 4 = 12\\text{ cm/s}$. Matches Review Section A, Q5. \n\n**Common mistake:** Dividing frequency by wavelength."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-pyp-q4",
+      "type": "mcq",
+      "question": "What happens to the speed and amplitude of ocean waves as they move from deep water to shallower water near the shore?",
+      "options": [
+        "Speed decreases and amplitude increases",
+        "Speed increases and amplitude increases",
+        "Speed increases and amplitude decreases",
+        "Speed decreases and amplitude decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Review Section A, Question 6, in shallower water, the speed of waves decreases and the amplitude increases. \n\n**Common mistake:** Thinking speed increases as waves 'pile up' at the shore."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-pyp-q5",
+      "type": "mcq",
+      "question": "A wave has an amplitude of $0.4\\text{ m}$ and a wavelength of $10.0\\text{ m}$. It travels at $5.0\\text{ m/s}$. What is the period of the wave?",
+      "options": [
+        "$2.0\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$50\\text{ s}$",
+        "$0.04\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = v / \\lambda = 5.0 / 10.0 = 0.5\\text{ Hz}$. Period $T = 1 / f = 1 / 0.5 = 2.0\\text{ s}$. \n\n**Common mistake:** Calculating frequency and stopping there ($0.5$)."
+    }
+  ]
+}

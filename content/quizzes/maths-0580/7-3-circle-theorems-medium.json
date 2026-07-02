@@ -1,0 +1,77 @@
+{
+  "id": "7-3-circle-theorems-medium",
+  "topicId": "7-3-circle-theorems",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "medium",
+  "title": "Circle Theorems — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-3-circle-theorems-medium-q1",
+      "type": "mcq",
+      "question": "A cyclic quadrilateral $ABCD$2$∠A = 2x + 10$ and $∠C = x + 50$. Determine the value of $x$.",
+      "options": [
+        "$40$",
+        "$120$",
+        "$60$",
+        "$30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite angles in a cyclic quadrilateral sum to $180°$. $(2x + 10) + (x + 50) = 180 \\Rightarrow 3x + 60 = 180 \\Rightarrow 3x = 120 \\Rightarrow x = 40$.\n\n**Common mistake:** The student might set the two angles equal to each other ($2x + 10 = x + 50$), which is not a general property of cyclic quadrilaterals."
+    },
+    {
+      "id": "7-3-circle-theorems-medium-q2",
+      "type": "mcq",
+      "question": "Two tangents are drawn from an external point $T$2$A$2$B$2$ATB = 40°$, calculate the size of angle $ABT$.",
+      "options": [
+        "$70°$",
+        "$40°$",
+        "$140°$",
+        "$80°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tangents from an external point are equal in length, so triangle $TAB$2$TA = TB$2$∠ABT = (180 - 40) ÷ 2 = 70°$.\n\n**Common mistake:** A student might assume the triangle is equilateral or forget to divide the remaining $140°$ by $2$."
+    },
+    {
+      "id": "7-3-circle-theorems-medium-q3",
+      "type": "mcq",
+      "question": "In the diagram, $O$2$BAC$2$x$2$BOC$2$250°$, find $x$.",
+      "options": [
+        "$55°$",
+        "$110°$",
+        "$125°$",
+        "$70°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle at the centre $BOC$2$360 - 250 = 110°$. The angle at the circumference is half of this: $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might divide the reflex angle ($250$) by $2$ to get $125°$ without realizing the theorem applies to the angle 'facing' the circumference point."
+    },
+    {
+      "id": "7-3-circle-theorems-medium-q4",
+      "type": "mcq",
+      "question": "A chord $PQ$2$P$2$64°$. According to the Alternate Segment Theorem, what is the size of the angle in the alternate segment subtended by chord $PQ$?",
+      "options": [
+        "$64°$",
+        "$128°$",
+        "$32°$",
+        "$116°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Alternate Segment Theorem states that the angle between a tangent and a chord is equal to the angle subtended by that chord in the alternate segment.\n\n**Common mistake:** The student might subtract the angle from $180°$ or double it, confusing it with the angle-at-centre theorem."
+    },
+    {
+      "id": "7-3-circle-theorems-medium-q5",
+      "type": "mcq",
+      "question": "In a circle with centre $O$2$OA$2$OB$2$AB$2$OAB = 25°$, calculate the angle subtended by arc $AB$ at the circumference.",
+      "options": [
+        "$65°$",
+        "$130°$",
+        "$25°$",
+        "$50°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triangle $OAB$2$OA=OB$2$∠OBA = 25°$. Angle at centre $∠AOB = 180 - (25+25) = 130°$. Angle at circumference is $130 ÷ 2 = 65°$.\n\n**Common mistake:** The student might think the angle at the circumference is equal to the base angle $25°$ or double it to $50°$."
+    }
+  ]
+}

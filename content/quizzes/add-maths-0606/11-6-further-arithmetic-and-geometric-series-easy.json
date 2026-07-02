@@ -1,0 +1,77 @@
+{
+  "id": "11-6-further-arithmetic-and-geometric-series-easy",
+  "topicId": "11-6-further-arithmetic-and-geometric-series",
+  "chapterId": "ch11-series",
+  "difficulty": "easy",
+  "title": "Further Arithmetic and Geometric Series — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-easy-q1",
+      "type": "mcq",
+      "question": "The first term of both an AP and a GP is 8. If the second term of the AP is 10 and the second term of the GP is 16, find the common difference (d) and the common ratio (r).",
+      "options": [
+        "d = 2, r = 2",
+        "d = 2, r = 8",
+        "d = 10, r = 2",
+        "d = 18, r = 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "For AP: 8 + d = 10 => d = 2. For GP: 8 × r = 16 => r = 2.\n\n**Common mistake:** Mixing up the operations for common difference (addition) and common ratio (multiplication)."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-easy-q2",
+      "type": "mcq",
+      "question": "Three numbers x, y, and z are in an AP. Which of the following relationships must be true?",
+      "options": [
+        "2y = x + z",
+        "y^2 = xz",
+        "y = x + z",
+        "y = (x + z) / 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an AP, the middle term is the arithmetic mean: y - x = z - y => 2y = x + z.\n\n**Common mistake:** Confusing the AP property with the GP property ($y^2 = xz$)."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-easy-q3",
+      "type": "mcq",
+      "question": "Three numbers x, y, and z are in a GP. Which of the following relationships must be true?",
+      "options": [
+        "y^2 = xz",
+        "2y = x + z",
+        "y = xz",
+        "y = (x + z) / 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a GP, the common ratio is constant: y/x = z/y => y^2 = xz.\n\n**Common mistake:** Confusing the GP property with the AP property ($2y = x + z$)."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-easy-q4",
+      "type": "mcq",
+      "question": "The first term of an AP is 5 and the common difference is 2. The first term of a GP is 5 and the common ratio is 2. Find the 3rd term of each.",
+      "options": [
+        "AP: 9, GP: 20",
+        "AP: 11, GP: 20",
+        "AP: 9, GP: 25",
+        "AP: 7, GP: 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "AP: 5 + 2(2) = 9. GP: 5 × 2$^2$ = 20.\n\n**Common mistake:** Arithmetic slips or using the wrong power for the common ratio ($r^{n-1}$)."
+    },
+    {
+      "id": "11-6-further-arithmetic-and-geometric-series-easy-q5",
+      "type": "mcq",
+      "question": "If the sum of the first n terms of a series is $S_n$2$u_5$?",
+      "options": [
+        "S₅ - S₄",
+        "S₅ / S₄",
+        "S₄ - S₅",
+        "5 × S₁"
+      ],
+      "correctIndex": 0,
+      "explanation": "The n-th term is always the difference between the sum of n terms and the sum of (n-1) terms.\n\n**Common mistake:** Trying to divide the sums or simply using $S_5$ as the term value."
+    }
+  ]
+}

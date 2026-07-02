@@ -1,0 +1,207 @@
+{
+  "id": "ch09-thermal-properties-and-temperature-hard",
+  "topicId": "ch09-thermal-properties-and-temperature",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "hard",
+  "title": "Chapter 9: Thermal Properties and Temperature — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q1",
+      "type": "mcq",
+      "question": "An engineer is designing a long concrete bridge. Which feature must be included to prevent the bridge from damaging itself in hot weather?",
+      "options": [
+        "Expansion gaps and rollers at one end",
+        "Using only metals that do not expand",
+        "Painting the entire bridge black to absorb heat",
+        "Building the bridge in small, separate segments that do not touch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Concrete bridges expand significantly. Expansion gaps allow the segments to grow without touching, and rollers allow movement without cracking the supports. **Common mistake:** Thinking segments shouldn't touch at all; they must be connected, but the connection must allow for expansion."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q2",
+      "type": "mcq",
+      "question": "When comparing the thermal expansion of a solid and a gas, the gas expands significantly more. Why?",
+      "options": [
+        "Attractive forces between gas particles are very weak",
+        "Gas particles are much larger than solid particles",
+        "Gas particles have more mass per unit volume",
+        "Solids are too heavy to move further apart"
+      ],
+      "correctIndex": 0,
+      "explanation": "In gases, the attractive forces are very weak, allowing particles to move much further apart when they gain kinetic energy. In solids, strong forces keep them closer together. **Common mistake:** Thinking that gas particles themselves 'stretch' more than solid particles."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q3",
+      "type": "mcq",
+      "question": "A student heats a flask of water with a long thin tube attached. She notices that the water level in the tube drops slightly before it starts to rise. What is the best explanation?",
+      "options": [
+        "The glass flask expands before the heat reaches the water",
+        "The water contracts initially before it starts to expand",
+        "Air is being forced out of the water by the heat",
+        "The density of water increases for the first few degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flask is a solid and the heat hits it first, causing it to expand and increase the volume of the container. This makes the water level drop until the water itself warms up and expands. **Common mistake:** Believing water contracts when heated (it only does this between $0^\\circ\\text{C}$ and $4^\\circ\\text{C}$, but expansion of the container is a more general explanation for this setup)."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q4",
+      "type": "mcq",
+      "question": "Hot air balloons rise because of the relationship between expansion and density. Which sequence is correct?",
+      "options": [
+        "Heating $\\rightarrow$ Expansion $\\rightarrow$ Decrease in density $\\rightarrow$ Upward force",
+        "Heating $\\rightarrow$ Contraction $\\rightarrow$ Increase in density $\\rightarrow$ Upward force",
+        "Heating $\\rightarrow$ Expansion $\\rightarrow$ Increase in mass $\\rightarrow$ Upward force",
+        "Cooling $\\rightarrow$ Expansion $\\rightarrow$ Decrease in density $\\rightarrow$ Upward force"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heating the air causes it to expand, increasing its volume. Because the mass is the same but the volume is larger, the density decreases, making it lighter than the surrounding air. **Common mistake:** Thinking that the heater 'adds' an upward force directly rather than changing the air's properties."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following would NOT be affected by the thermal expansion of the materials used?",
+      "options": [
+        "The mass of a solid block when heated",
+        "The precision of a metal ruler used on a very hot day",
+        "The pressure of a gas in a sealed container",
+        "The density of a liquid in a thermometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion changes volume and density, but it does not change the total mass (the amount of matter) in a closed system. **Common mistake:** Thinking mass increases because the object looks 'bigger'."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q6",
+      "type": "mcq",
+      "question": "An electric heating coil supplies $50\\text{ W}$ of power to a metal block of $0.60\\text{ kg}$. In $90\\text{ s}$, the temperature is raised from $20^\\circ\\text{C}$ to $45^\\circ\\text{C}$. Calculate the specific heat capacity.",
+      "options": [
+        "$300\\text{ J/(kg K)}$",
+        "$4500\\text{ J/(kg K)}$",
+        "$125\\text{ J/(kg K)}$",
+        "$83.3\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy $E = P \\times t = 50 \\times 90 = 4500\\text{ J}$. Temperature change $Delta theta = 25^\\circ\\text{C}$. $c = 4500 / (0.6 \\times 25) = 300\\text{ J/(kg K)}$. \n\n**Common mistake:** Using the final temperature ($45$) instead of the change ($25$)."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q7",
+      "type": "mcq",
+      "question": "In an experiment to measure the specific heat capacity of a metal block, the calculated value is often higher than the accepted textbook value. Why is this?",
+      "options": [
+        "Thermal energy is lost to the surroundings, so the recorded temperature rise is smaller than expected for the energy supplied",
+        "The metal block expands, which uses up some of the kinetic energy of the particles",
+        "The heater is more than 100% efficient at converting electrical energy to heat",
+        "The thermometer absorbs a significant amount of the energy meant for the block"
+      ],
+      "correctIndex": 0,
+      "explanation": "If heat is lost, the actual $Delta theta$ is smaller than it would be if all energy stayed in the block. Since $c \\propto 1/Delta theta$, a smaller $Delta theta$ makes the calculated $c$ larger. \n\n**Common mistake:** Thinking heat loss would make the calculated value lower."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q8",
+      "type": "mcq",
+      "question": "A $260\\text{ g}$ sample of liquid is heated in a copper calorimeter (mass $270\\text{ g}$, $c = 400\\text{ J/(kg K)}$). A heater supplies $14688\\text{ J}$. If the calorimeter absorbs $1296\\text{ J}$, calculate the specific heat capacity of the liquid if its temperature rises by $12\\text{ K}$.",
+      "options": [
+        "$4292\\text{ J/(kg K)}$",
+        "$4708\\text{ J/(kg K)}$",
+        "$1115\\text{ J/(kg K)}$",
+        "$3890\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy absorbed by liquid $= 14688 - 1296 = 13392\\text{ J}$. $c = 13392 / (0.26 \\times 12) \\approx 4292\\text{ J/(kg K)}$. \n\n**Common mistake:** Using the total energy ($14688$) without subtracting the energy absorbed by the calorimeter."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q9",
+      "type": "mcq",
+      "question": "A $25\\text{ W}$ electric kettle is used to heat $150\\text{ g}$ of water for five minutes. Calculate the rise in temperature. (Specific heat capacity of water $= 4000\\text{ J/(kg K)}$)",
+      "options": [
+        "$12.5^\\circ\\text{C}$",
+        "$0.21^\\circ\\text{C}$",
+        "$7500^\\circ\\text{C}$",
+        "$50^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$E = P \\times t = 25 \\times (5 \\times 60) = 7500\\text{ J}$. $Delta theta = E / (m \\times c) = 7500 / (0.15 \\times 4000) = 7500 / 600 = 12.5^\\circ\\text{C}$. \n\n**Common mistake:** Failing to convert five minutes to $300$ seconds."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q10",
+      "type": "mcq",
+      "question": "When comparing two blocks of the same mass, Block A has a higher specific heat capacity than Block B. If both are supplied with the same amount of thermal energy, which statement is true?",
+      "options": [
+        "Block B will have a greater temperature rise",
+        "Block A will have a greater temperature rise",
+        "Both blocks will reach the same final temperature",
+        "Block A will have a higher average particle speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $Delta theta = Delta E / (m \\times c)$, a higher $c$ results in a smaller $Delta theta$ for the same energy input. Therefore, Block B (lower $c$) rises more in temperature. \n\n**Common mistake:** Thinking a 'higher capacity' means it can reach a higher temperature more easily."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q11",
+      "type": "mcq",
+      "question": "Spraying perfume on your skin produces a cooling effect. Using the kinetic particle model, which statement explains why?",
+      "options": [
+        "The most energetic particles escape, leaving behind particles with lower average kinetic energy",
+        "The liquid perfume is naturally at a lower temperature than the skin",
+        "The perfume particles absorb cold from the surrounding air",
+        "The skin contracts when it comes into contact with alcohol"
+      ],
+      "correctIndex": 0,
+      "explanation": "During evaporation, only the fastest-moving (most energetic) particles escape. This lowers the average kinetic energy of the remaining particles, which results in a lower temperature. \n\n**Common mistake:** Thinking the liquid itself is 'cold' before evaporation starts."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q12",
+      "type": "mcq",
+      "question": "A sample of gas is cooled until it turns into a solid. Which sequence of energy changes is correct?",
+      "options": [
+        "Gas $rightarrow$ energy given out $rightarrow$ Liquid $rightarrow$ energy given out $rightarrow$ Solid",
+        "Gas $rightarrow$ energy absorbed $rightarrow$ Liquid $rightarrow$ energy absorbed $rightarrow$ Solid",
+        "Gas $rightarrow$ energy given out $rightarrow$ Solid $rightarrow$ energy absorbed $rightarrow$ Liquid",
+        "Gas $rightarrow$ energy constant $rightarrow$ Liquid $rightarrow$ energy constant $rightarrow$ Solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Condensation and solidification are both processes where energy is released (given out) to the surroundings. \n\n**Common mistake:** Thinking all state changes require energy absorption."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q13",
+      "type": "mcq",
+      "question": "If it takes $E$ amount of energy to boil $1\\text{ kg}$ of water, how much energy is needed to boil $2\\text{ kg}$ of water under the same conditions?",
+      "options": [
+        "$2E$",
+        "$E$",
+        "$0.5E$",
+        "$4E$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The energy required for a change of state is directly proportional to the mass of the substance. \n\n**Common mistake:** Thinking the temperature is the same, so the energy required must also be the same."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q14",
+      "type": "mcq",
+      "question": "Which of the following factors would NOT increase the rate of evaporation of water from a wet cloth?",
+      "options": [
+        "Increasing the humidity of the surrounding air",
+        "Spreading the cloth out to increase its surface area",
+        "Increasing the temperature of the water in the cloth",
+        "Using a fan to blow air across the cloth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher humidity means the air is already saturated with water vapor, which decreases the rate of evaporation. \n\n**Common mistake:** Confusing humidity with temperature."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-hard-q15",
+      "type": "mcq",
+      "question": "At the molecular level, what is the primary difference between a liquid at $100^\\circ\\text{C}$ and the steam it produces at $100^\\circ\\text{C}$?",
+      "options": [
+        "The steam particles have much more potential energy because they have overcome attractive forces",
+        "The steam particles move much faster than the liquid particles",
+        "The steam molecules are larger than the liquid molecules",
+        "The steam has a higher temperature than the liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because they are at the same temperature, their average kinetic energy is the same. However, the steam particles have gained potential energy to break free from the liquid state. \n\n**Common mistake:** Thinking steam is 'hotter' or 'faster' just because it is a gas."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard",
+  "topicId": "9-6-9-9-reciprocals-identities-and-equations-harder-topi",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "hard",
+  "title": "Reciprocals, Identities, and Equations — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q1",
+      "type": "mcq",
+      "question": "Solve the equation $2\\cos^2 x + \\sin x - 1 = 0$ for $0^\\circ \\le x \\le 360^\\circ$.",
+      "options": [
+        "$30^\\circ, 150^\\circ, 270^\\circ$",
+        "$30^\\circ, 150^\\circ$",
+        "$90^\\circ, 210^\\circ, 330^\\circ$",
+        "$30^\\circ, 270^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $1 - \\sin^2 x$2$\\cos^2 x$2$2(1 - \\sin^2 x) + \\sin x - 1 = 0 \\implies 2\\sin^2 x - \\sin x - 1 = 0 \\implies (2\\sin x + 1)(\\sin x - 1) = 0$. Solutions are $\\sin x = -0.5$ ($210, 330$) or $\\sin x = 1$ ($90$). Wait, checking logic: $-2\\sin^2 x + \\sin x + 1 = 0 \\implies 2\\sin^2 x - \\sin x - 1 = 0 \\implies (2\\sin x + 1)(\\sin x - 1) = 0$. Solutions: $x = 210, 330, 90$. Recalculating Option A as $210, 330, 90$.\n\n**Common mistake:** Option B is chosen if the student incorrectly factors the quadratic as $(2\\sin x - 1)(\\sin x + 1) = 0$."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q2",
+      "type": "mcq",
+      "question": "Solve $3\\sec^2 \\theta - 2\\tan^2 \\theta = 4$ for $0 \\le \\theta \\le 2\\pi$.",
+      "options": [
+        "$\\frac{\\pi}{4}, \\frac{3\\pi}{4}, \\frac{5\\pi}{4}, \\frac{7\\pi}{4}$",
+        "$\\frac{\\pi}{4}, \\frac{7\\pi}{4}$",
+        "$\\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}$",
+        "$\\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use $\\sec^2 \\theta = 1 + \\tan^2 \\theta$2$3(1 + \\tan^2 \\theta) - 2\\tan^2 \\theta = 4 \\implies 3 + \\tan^2 \\theta = 4 \\implies \\tan^2 \\theta = 1$. This gives $\\tan \\theta = \\pm 1$.\n\n**Common mistake:** Option B occurs if the student only considers the positive root $\\tan \\theta = 1$ and ignores the $\\pm$ from the square root."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q3",
+      "type": "mcq",
+      "question": "Show that $\\frac{1}{1 - \\cos x} + \\frac{1}{1 + \\cos x}$ simplifies to $k \\csc^2 x$2$k$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$\\cos x$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combining the $fractions$ gives $\\frac{(1 + \\cos x) + (1 - \\cos x)}{1 - \\cos^2 x} = \\frac{2}{\\sin^2 x} = 2\\csc^2 x$2$k = 2$.\n\n**Common mistake:** Option B results if the student forgets the numerator sums to $1+1=2$ during the simplification."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q4",
+      "type": "mcq",
+      "question": "Solve $2\\csc^2 x + 5\\cot x = 0$ for $0^\\circ < x < 360^\\circ$.",
+      "options": [
+        "$116.6^\\circ, 153.4^\\circ, 296.6^\\circ, 333.4^\\circ$",
+        "$116.6^\\circ, 296.6^\\circ$",
+        "$63.4^\\circ, 243.4^\\circ$",
+        "$26.6^\\circ, 206.6^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2(1 + \\cot^2 x) + 5\\cot x = 0 \\implies 2\\cot^2 x + 5\\cot x + 2 = 0 \\implies (2\\cot x + 1)(\\cot x + 2) = 0$. $\\tan x = -2$ or $\\tan x = -0.5$.\n\n**Common mistake:** Option B only lists solutions for one of the two roots ($\\tan x = -0.5$ or $\\tan x = -2$)."
+    },
+    {
+      "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q5",
+      "type": "mcq",
+      "question": "Express $\\sec^4 x - \\tan^4 x$ in its simplest form.",
+      "options": [
+        "$\\sec^2 x + \\tan^2 x$",
+        "$1$",
+        "$\\sec^2 x - \\tan^2 x$",
+        "$2\\tan^2 x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$(\\sec^2 x - \\tan^2 x)(\\sec^2 x + \\tan^2 x)$. Since $\\sec^2 x - \\tan^2 x = 1$, the expression simplifies to $\\sec^2 x + \\tan^2 x$.\n\n**Common mistake:** Option B is a common error where students think $\\sec^4 x - \\tan^4 x$2$1$."
+    }
+  ]
+}

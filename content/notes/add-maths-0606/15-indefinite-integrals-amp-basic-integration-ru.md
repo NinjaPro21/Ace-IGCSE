@@ -4,13 +4,11 @@ Integration is the mathematical reverse process of differentiation, often referr
 
 ## Key formulas
 
-$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (\text{valid for } n \neq -1)$$
+$\frac{d}{dx}(\sin x) = \cos x$
 
-$$\int (ax + b)^n \, dx = \frac{(ax + b)^{n+1}}{a(n+1)} + C \quad (\text{valid for } n \neq -1)$$
+$\frac{d}{dx}(\cos x) = -\sin x$
 
-$$\int e^{ax+b} \, dx = \frac{1}{a}e^{ax+b} + C, \quad \int \frac{1}{x} \, dx = \ln|x| + C, \quad \int \frac{1}{ax+b} \, dx = \frac{1}{a}\ln|ax+b| + C$$
-
-$$\int \sin(ax+b) \, dx = -\frac{1}{a}\cos(ax+b) + C, \quad \int \cos(ax+b) \, dx = \frac{1}{a}\sin(ax+b) + C$$
+$\frac{d}{dx}(\tan x) = \sec^2 x$
 
 ## Steps / method
 
@@ -32,13 +30,17 @@ Integration reverses differentiation. For $(ax+b)^n$, divide by both the new pow
 
 Find $\int (3x^2 - 4x + 1)\, dx$.
 
-$$\int (3x^2 - 4x + 1)\, dx = x^3 - 2x^2 + x + C$$
+$$
+\int (3x^2 - 4x + 1)\, dx = x^3 - 2x^2 + x + C
+$$
 
 ## Worked example — Exponential integral
 
 Find $\int e^{2x - 3}\, dx$.
 
-$$\int e^{2x - 3}\, dx = \frac{1}{2}e^{2x - 3} + C$$
+$$
+\int e^{2x - 3}\, dx = \frac{1}{2}e^{2x - 3} + C
+$$
 
 ## Examiner tip
 
@@ -47,5 +49,3 @@ Remember that the power rule does not work when the exponent is $-1$, such as fo
 ## Quick check
 
 If you integrate the function $y = e^{2x}$, the indefinite integral is equal to $\frac{1}{2}e^{2x} + C$.
-
-## Visual / interactive intent

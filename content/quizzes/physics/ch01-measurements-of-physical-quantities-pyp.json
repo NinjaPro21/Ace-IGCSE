@@ -1,0 +1,142 @@
+{
+  "id": "ch01-measurements-of-physical-quantities-pyp",
+  "topicId": "ch01-measurements-of-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "pyp",
+  "title": "Chapter 1: Measurements of Physical Quantities — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q1",
+      "type": "mcq",
+      "question": "A student needs to measure a distance between two points that are between 0.7 m and 0.8 m apart. Which instrument provides a precision of 0.001 m?",
+      "options": [
+        "A metre rule",
+        "A half-metre rule",
+        "A ten-metre measuring tape",
+        "Vernier calipers"
+      ],
+      "correctIndex": 0,
+      "explanation": "A metre rule has a precision of 1 mm (0.001 m) and can measure up to 1 m. \n\n**Common mistake:** Thinking a ten-metre tape is needed; while it can measure the distance, its precision is often lower (cm) or the same, and the metre rule is standard for this range."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q2",
+      "type": "mcq",
+      "question": "Which row correctly identifies a base quantity and its SI unit?",
+      "options": [
+        "Quantity: Mass; Unit: kilogram (kg)",
+        "Quantity: Weight; Unit: newton (N)",
+        "Quantity: Temperature; Unit: degree Celsius (°C)",
+        "Quantity: Time; Unit: minute (min)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is one of the seven base quantities, and its SI unit is the kilogram. \n\n**Common mistake:** Weight is a derived quantity (force), not a base quantity."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q3",
+      "type": "mcq",
+      "question": "A stopwatch is used to time a runner. The human reaction time is approximately 0.4 s. Which measured time is most likely to be recorded to the appropriate number of decimal places?",
+      "options": [
+        "12.3 s",
+        "12 s",
+        "12.34 s",
+        "12.342 s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to human reaction time (0.3–0.5 s), we usually take readings to the nearest one decimal place. \n\n**Common mistake:** Recording to two decimal places (12.34 s) just because the stopwatch displays them."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q4",
+      "type": "mcq",
+      "question": "What is the correct procedure for finding the volume of a large irregular stone that sinks?",
+      "options": [
+        "Use a displacement can and a measuring cylinder to find the displaced volume",
+        "Use a ruler to measure diameter and apply the sphere formula",
+        "Place the stone in a dry beaker and weigh it",
+        "Use a measuring cylinder with a sinker"
+      ],
+      "correctIndex": 0,
+      "explanation": "For large objects that sink, a displacement can is used; the volume of water overflowing into the measuring cylinder equals the stone's volume. \n\n**Common mistake:** Using a sinker is only necessary for floating objects."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q5",
+      "type": "mcq",
+      "question": "Which of these factors does the period of a simple pendulum depend on?",
+      "options": [
+        "The length of the string",
+        "The mass of the bob",
+        "The material of the bob",
+        "The amplitude of the swing (for small angles)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period of a pendulum depends on its length; longer pendulums have longer periods. \n\n**Common mistake:** Incorrectly believing that a heavier mass will swing faster and decrease the period."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q6",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a scalar and a vector quantity?",
+      "options": [
+        "Scalar: Mass; Vector: Weight",
+        "Scalar: Velocity; Vector: Speed",
+        "Scalar: Force; Vector: Momentum",
+        "Scalar: Acceleration; Vector: Energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass has magnitude only (scalar), while weight is a gravitational force (vector). \n\n**Common mistake:** Mixing up speed and velocity roles."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q7",
+      "type": "mcq",
+      "question": "The diagram shows two forces of $3\\text{ N}$ and $4\\text{ N}$ acting at right angles to each other. Which of the following is the correct magnitude of the resultant force?",
+      "options": [
+        "$5\\text{ N}$",
+        "$1\\text{ N}$",
+        "$7\\text{ N}$",
+        "$12\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant $= sqrt{3^2 + 4^2} = sqrt{25} = 5\\text{ N}$. This is a classic 3-4-5 triangle problem. \n\n**Common mistake:** Adding magnitudes to get $7\\text{ N}$ or subtracting to get $1\\text{ N}$."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q8",
+      "type": "mcq",
+      "question": "Two forces act on an object as shown in the diagram. Which arrow represents the resultant force?",
+      "options": [
+        "The diagonal of the rectangle formed by the two force arrows",
+        "An arrow pointing in the direction of the larger force",
+        "An arrow pointing in the direction of the smaller force",
+        "The sum of the lengths of the two arrows laid in a straight line"
+      ],
+      "correctIndex": 0,
+      "explanation": "When forces act at right angles, the resultant is the diagonal of the rectangle/parallelogram they form. \n\n**Common mistake:** Thinking the resultant only follows the larger force."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q9",
+      "type": "mcq",
+      "question": "An aircraft flies at $200\\text{ m/s}$ relative to the air. There is a wind of $50\\text{ m/s}$ blowing at right angles to the aircraft's path. Which calculation gives the aircraft's resultant speed?",
+      "options": [
+        "$sqrt{200^2 + 50^2}$",
+        "$200 + 50$",
+        "$200 - 50$",
+        "$(200 + 50) / 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the wind is at right angles, Pythagoras' theorem must be used to find the resultant velocity. \n\n**Common mistake:** Simple addition ($250$) or subtraction ($150$) which only applies to parallel vectors."
+    },
+    {
+      "id": "ch01-measurements-of-physical-quantities-pyp-q10",
+      "type": "mcq",
+      "question": "A student measures four physical quantities. Which one is a vector?",
+      "options": [
+        "The momentum of a moving car",
+        "The energy used by a light bulb",
+        "The density of a block of wood",
+        "The time taken for a pendulum to swing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is the product of mass (scalar) and velocity (vector), making it a vector quantity. \n\n**Common mistake:** Energy and density are often confused as vectors because they have 'size', but they have no direction."
+    }
+  ]
+}

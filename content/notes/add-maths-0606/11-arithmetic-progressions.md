@@ -4,11 +4,14 @@ An arithmetic progression (AP) is a sequence of numbers where each term is found
 
 ## Key formulas
 
-$$\text{nth Term: } u_n = a + (n - 1)d$$
+$$
+\text{nth Term: } u_n = a + (n - 1)d
 
-$$\text{Sum of first n terms: } S_n = \frac{n}{2}[2a + (n - 1)d] \quad \text{or} \quad S_n = \frac{n}{2}[a + l]$$
+\text{Sum of first n terms: } S_n = \frac{n}{2}[2a + (n - 1)d] \quad \text{or} \quad S_n = \frac{n}{2}[a + l]
 
-$$\text{Where: } a = \text{first term}, \,\, d = \text{common difference}, \,\, l = \text{last term}$$
+\text{Where: } a = \text{first term}, \,\, d = \text{common difference}, \,\, l = \text{last term}
+$$
+
 
 ## Steps / method
 
@@ -30,17 +33,23 @@ The common difference $d$ is constant throughout an AP. Use $u_n = a + (n-1)d$ f
 
 The AP $5, 8, 11, 14, \ldots$ has $a = 5$ and $d = 3$. Find the 20th term.
 
-$$u_{20} = 5 + (20 - 1) \times 3 = 5 + 57 = 62$$
-
+$$
+u_{20} = 5 + (20 - 1) \times 3 = 5 + 57 = 62
+$$
 The 20th term is **62**.
+
+
 
 ## Worked example — Sum of terms
 
 Find the sum of the first 10 terms of the AP with $a = 4$ and $d = 2$.
 
-$$S_{10} = \frac{10}{2}[2(4) + (10 - 1)(2)] = 5[8 + 18] = 130$$
-
+$$
+S_{10} = \frac{10}{2}[2(4) + (10 - 1)(2)] = 5[8 + 18] = 130
+$$
 The sum is **130**.
+
+
 
 ## Examiner tip
 
@@ -49,5 +58,3 @@ Be careful not to confuse the formula for the $n$-th term ($u_n$) with the formu
 ## Quick check
 
 If the common difference $d$ in an arithmetic sequence is negative, the terms will decrease in value as $n$ increases.
-
-## Visual / interactive intent

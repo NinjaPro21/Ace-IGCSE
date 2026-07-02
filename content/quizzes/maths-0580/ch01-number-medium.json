@@ -1,0 +1,597 @@
+{
+  "id": "ch01-number-medium",
+  "topicId": "ch01-number",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Chapter 1: Number — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch01-number-medium-q1",
+      "type": "mcq",
+      "question": "Calculate $\\frac{3.6 \\times 0.2 + 1.28}{0.4^2}$.",
+      "options": [
+        "12.5",
+        "5",
+        "8.75",
+        "3.125"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the numerator, multiply first: $3.6 \\times 0.2 = 0.72$. Add $1.28$ to get $2.0$. Square the denominator: $0.4^2 = 0.16$. Finally, calculate $2.0 \\div 0.16 = 12.5$.\n\n**Common mistake:** Students commonly write $0.4^2$ as $0.4 \\times 2 = 0.8$, yielding an incorrect quotient of 2.5."
+    },
+    {
+      "id": "ch01-number-medium-q2",
+      "type": "mcq",
+      "question": "Find the value of $\\frac{5}{8} \\div \\frac{3}{4} - \\frac{1}{6}$.",
+      "options": [
+        "2/3",
+        "5/6",
+        "11/24",
+        "7/12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perform division by multiplying by the reciprocal: $\\frac{5}{8} \\times \\frac{4}{3} = \\frac{20}{24} = \\frac{5}{6}$. Subtract the remaining $\\frac{tion:}{}$ $\\frac{5}{6} - \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$.\n\n**Common mistake:** Students might find a common denominator across all $\\frac{tions}{}$ before handling operations orders correctly."
+    },
+    {
+      "id": "ch01-number-medium-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\left(2 \\frac{1}{3} + 1 \\frac{1}{2}\\right) \\times \\frac{6}{23}$.",
+      "options": [
+        "1",
+        "23/6",
+        "7/6",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert mixed numbers to improper $\\frac{tions:}{}$ $\\frac{7}{3} + \\frac{3}{2} = \\frac{14}{6} + \\frac{9}{6} = \\frac{23}{6}$. Multiply by the scalar: $\\frac{23}{6} \\times \\frac{6}{23} = 1$.\n\n**Common mistake:** Students may add whole parts and $\\frac{tional}{}$ parts separately without adjusting denominators first."
+    },
+    {
+      "id": "ch01-number-medium-q4",
+      "type": "mcq",
+      "question": "Find the value of $4^2 \\times (5^2 - 18) \\div \\sqrt{64}$.",
+      "options": [
+        "14",
+        "112",
+        "7",
+        "28"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate inside brackets and indices: $5^2 - 18 = 25 - 18 = 7$. $4^2 = 16$ and $\\sqrt{64} = 8$. Solve terms left to right: $16 \\times 7 = 112$, then $112 \\div 8 = 14$.\n\n**Common mistake:** Students often evaluate $\\sqrt{64}$ first and divide the expression within brackets by it."
+    },
+    {
+      "id": "ch01-number-medium-q5",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{0.84 - 0.24 \\div 0.6}{0.2}$.",
+      "options": [
+        "2.2",
+        "3",
+        "1",
+        "4.2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Execute division in the numerator first: $0.24 \\div 0.6 = 0.4$. Perform subtraction: $0.84 - 0.4 = 0.44$. Divide the result by the denominator: $0.44 \\div 0.2 = 2.2$.\n\n**Common mistake:** Students routinely subtract first inside the numerator: $(0.84 - 0.24) \\div 0.6 = 0.6 \\div 0.6 = 1$."
+    },
+    {
+      "id": "ch01-number-medium-q6",
+      "type": "mcq",
+      "question": "Evaluate $(-4)^2 + 3 \\times (-5) - (-8)$.",
+      "options": [
+        "9",
+        "-1",
+        "-23",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate powers first: $(-4)^2 = 16$. Next multiply: $3 \\times (-5) = -15$. Substitute back: $16 + (-15) - (-8) = 16 - 15 + 8 = 1 + 8 = 9$.\n\n**Common mistake:** Students calculate $(-4)^2 = -16$, which changes the sum completely."
+    },
+    {
+      "id": "ch01-number-medium-q7",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{-4 \\times (-6) + (-3) \\times 8}{-2 - (-4)}$.",
+      "options": [
+        "0",
+        "24",
+        "-24",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator calculations: $-4 \\times (-6) = 24$, and $-3 \\times 8 = -24$. Adding them gives $24 + (-24) = 0$. Denominator is $-2 + 4 = 2$. $0 \\div 2 = 0$.\n\n**Common mistake:** Students simplify the denominator incorrectly as $-2 - 4 = -6$."
+    },
+    {
+      "id": "ch01-number-medium-q8",
+      "type": "mcq",
+      "question": "Find the value of $x$2$x = \\frac{-35 \\div (-5) - 12}{(-1)^5}$.",
+      "options": [
+        "5",
+        "-5",
+        "19",
+        "-19"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator division: $-35 \\div (-5) = 7$. Numerator becomes $7 - 12 = -5$. Denominator is $(-1)^5 = -1$. Final quotient: $-5 \\div (-1) = 5$.\n\n**Common mistake:** Students assume an odd power preserves a positive sign, taking $(-1)^5 = 1$."
+    },
+    {
+      "id": "ch01-number-medium-q9",
+      "type": "mcq",
+      "question": "Simplify the continuous sequence calculation: $-2 \\times (-3)^2 - (-4) \\times (-2)$.",
+      "options": [
+        "-26",
+        "-10",
+        "10",
+        "26"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the index first: $(-3)^2 = 9$. Multiply: $-2 \\times 9 = -18$. Next, evaluate the second product: $(-4) \\times (-2) = 8$. Subtract the terms: $-18 - (8) = -26$.\n\n**Common mistake:** Multiplying $-2 \\times -3$ before squaring is a classic error that results in $6^2 = 36$."
+    },
+    {
+      "id": "ch01-number-medium-q10",
+      "type": "mcq",
+      "question": "A submarine is at a depth of $-150\\text{ m}$. It rises by $45\\text{ m}$, and then drops by $60\\text{ m}$. Find its final position.",
+      "options": [
+        "-165 m",
+        "-135 m",
+        "-45 m",
+        "-255 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Track step changes mathematically: $-150 + 45 - 60 = -105 - 60 = -165\\text{ m}$.\n\n**Common mistake:** Students add all scalars together without tracking sign changes correctly."
+    },
+    {
+      "id": "ch01-number-medium-q11",
+      "type": "mcq",
+      "question": "Express 120 as a product of its prime factors in index notation.",
+      "options": [
+        "2³ × 3 × 5",
+        "2$^2$ × 3$^2$ × 5",
+        "2 × 3 × 4 × 5",
+        "2⁴ × 3 × 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use a factor tree: $120 = 2 \\times 60 = 2 \\times 2 \\times 30 = 2 \\times 2 \\times 2 \\times 15 = 2^3 \\times 3 \\times 5$.\n\n**Common mistake:** Students include non-prime factors like 4 or compute powers incorrectly."
+    },
+    {
+      "id": "ch01-number-medium-q12",
+      "type": "mcq",
+      "question": "Find the LCM of 12, 15, and 18.",
+      "options": [
+        "180",
+        "360",
+        "90",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime factorisations: $12 = 2^2 \\times 3$, $15 = 3 \\times 5$, $18 = 2 \\times 3^2$. The LCM takes the highest power of all appearing primes: $2^2 \\times 3^2 \\times 5 = 4 \\times 9 \\times 5 = 180$.\n\n**Common mistake:** Students find a common multiple that is not the lowest, such as 360, or calculate the HCF (3)."
+    },
+    {
+      "id": "ch01-number-medium-q13",
+      "type": "mcq",
+      "question": "Find the HCF of 56 and 84.",
+      "options": [
+        "28",
+        "14",
+        "7",
+        "168"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime factorisations: $56 = 2^3 \\times 7$ and $84 = 2^2 \\times 3 \\times 7$. The HCF takes the lowest power of common primes: $2^2 \\times 7 = 4 \\times 7 = 28$.\n\n**Common mistake:** Students pick 14 or 7, which are common factors but not the highest available factor."
+    },
+    {
+      "id": "ch01-number-medium-q14",
+      "type": "mcq",
+      "question": "Two blinking neon lights flash at intervals of 15 seconds and 20 seconds respectively. If they flash together now, after how many minutes will they next flash together?",
+      "options": [
+        "1 minute",
+        "60 minutes",
+        "3 minutes",
+        "1.5 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the LCM of 15 and 20: $\\text{LCM}(15, 20) = 60\\text{ seconds}$. Convert seconds to minutes: $60\\text{ seconds} = 1\\text{ minute}$.\n\n**Common mistake:** Students give the answer directly in seconds (60) without converting to the requested unit of minutes."
+    },
+    {
+      "id": "ch01-number-medium-q15",
+      "type": "mcq",
+      "question": "Given that $A = 2^3 \\times 3^2 \\times 5$ and $B = 2^2 \\times 3^3 \\times 7$, evaluate the HCF of $A$2$B$.",
+      "options": [
+        "36",
+        "108",
+        "7560",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the HCF, identify the lowest power of the common prime bases: $\\text{HCF} = 2^2 \\times 3^2 = 4 \\times 9 = 36$.\n\n**Common mistake:** Students take the highest powers instead, evaluating the LCM of the expressions."
+    },
+    {
+      "id": "ch01-number-medium-q16",
+      "type": "mcq",
+      "question": "Find the $n$2$-2, 3, 8, 13, 18, \\dots$",
+      "options": [
+        "$5n - 7$",
+        "$5n - 2$",
+        "$-2n + 5$",
+        "$5n + 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common difference is $3 - (-2) = 5$, giving a leading term of $5n$2$n=1$), find the constant $c$2$5(1) + c = -2 \\implies c = -7$. Thus, the expression is $5n - 7$.\n\n**Common mistake:** Students often use the first term directly as the constant, resulting in $5n - 2$, or match the common difference to the second term."
+    },
+    {
+      "id": "ch01-number-medium-q17",
+      "type": "mcq",
+      "question": "The first four terms of a sequence are $2, 9, 20, 35$. Given that the second differences are constant, find the coefficient of the $n^2$ term in its $n$-th term expression.",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "First differences: $9-2=7, 20-9=11, 35-20=15$. Second differences: $11-7=4, 15-11=4$. The coefficient of $n^2$ is half of the constant second difference: $4 \\div 2 = 2$.\n\n**Common mistake:** Students frequently forget to halve the second difference, selecting 4 instead of 2."
+    },
+    {
+      "id": "ch01-number-medium-q18",
+      "type": "mcq",
+      "question": "A geometric sequence has a second term of 6 and a third term of 18. Find the first term of this sequence.",
+      "options": [
+        "2",
+        "3",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common ratio $r = 18 \\div 6 = 3$. The first term $a$2$a \\times 3 = 6 \\implies a = 2$.\n\n**Common mistake:** Students may find the common ratio 3 and assume it is the first term, or subtract 3 from 6 instead of dividing."
+    },
+    {
+      "id": "ch01-number-medium-q19",
+      "type": "mcq",
+      "question": "The $n$2$n^2 - 4n$. Which term in this sequence has a value of 21?",
+      "options": [
+        "7th term",
+        "3rd term",
+        "21st term",
+        "5th term"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the quadratic equation: $n^2 - 4n = 21 \\implies n^2 - 4n - 21 = 0$. Factorising gives $(n-7)(n+3) = 0$. Since $n$2$n = 7$.\n\n**Common mistake:** Students might guess values or commit sign errors during factorisation, leading to options like $(n+7)(n-3) = 0$ yielding 3."
+    },
+    {
+      "id": "ch01-number-medium-q20",
+      "type": "mcq",
+      "question": "An exponential sequence is defined by the rule $3 \\times 2^{n-1}$. Find the sum of the 1st and 4th terms.",
+      "options": [
+        "27",
+        "15",
+        "24",
+        "51"
+      ],
+      "correctIndex": 0,
+      "explanation": "1st term ($n=1$): $3 \\times 2^0 = 3$. 4th term ($n=4$): $3 \\times 2^3 = 3 \\times 8 = 24$. Sum: $3 + 24 = 27$.\n\n**Common mistake:** Students may compute the 4th term as $(3 \\times 2)^3 = 216$ or evaluate $2^{4-1}$ incorrectly as $2^4=16$, leading to wrong sums."
+    },
+    {
+      "id": "ch01-number-medium-q21",
+      "type": "mcq",
+      "question": "A rectangular field has a length of $70\\text{ m}$ and a width of $40\\text{ m}$, both measured correct to the nearest $5\\text{ m}$. Calculate the upper bound of the perimeter of the field.",
+      "options": [
+        "230 m",
+        "220 m",
+        "240 m",
+        "225 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "The accuracy unit is $5\\text{ m}$, so the boundary variation is $\\pm 2.5\\text{ m}$. Upper bound of length = $72.5\\text{ m}$, upper bound of width = $42.5\\text{ m}$. Upper bound of perimeter = $2 \\times (72.5 + 42.5) = 2 \\times 115 = 230\\text{ m}$.\n\n**Common mistake:** Students often find the perimeter using the nominal values first ($2 \\times 110 = 220$) and then add 5 or 2.5 to the final perimeter answer, yielding 225 or 220."
+    },
+    {
+      "id": "ch01-number-medium-q22",
+      "type": "mcq",
+      "question": "The mass of a package is $x = 12.4\\text{ kg}$ correct to 1 decimal place. Complete the error interval statement for $x$.",
+      "options": [
+        "$12.35 \\le x < 12.45$",
+        "$12.35 < x \\le 12.45$",
+        "$12.4 \\le x < 12.5$",
+        "$12.39 \\le x < 12.41$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An accuracy of 1 decimal place means an interval steps of $0.1$. The variation is $\\pm 0.05$. Lower bound = $12.4 - 0.05 = 12.35$. Upper bound = $12.4 + 0.05 = 12.45$. The standard interval notation is $\\text{Lower Bound} \\le x < \\text{Upper Bound}$.\n\n**Common mistake:** Students often place the strict inequality sign at the lower bound or use the wrong degree of precision variation ($0.01$)."
+    },
+    {
+      "id": "ch01-number-medium-q23",
+      "type": "mcq",
+      "question": "Calculate the upper bound of the area of a square whose side length is given as $8.0\\text{ cm}$, correct to 1 decimal place.",
+      "options": [
+        "64.8025 cm $2$",
+        "64.0 cm $2$",
+        "64.8 cm $2$",
+        "65.61 cm $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The side accuracy is $0.1\\text{ cm}$, so the boundary variation is $\\pm 0.05\\text{ cm}$. The upper bound of the side length is $8.05\\text{ cm}$. The upper bound of the area is $8.05^2 = 64.8025\\text{ cm}^{2}$.\n\n**Common mistake:** Students may round the side to 8.5 instead of 8.05, leading to $8.5^2 = 72.25\\text{ cm}^{2}$, or square 8 first and then add 0.5."
+    },
+    {
+      "id": "ch01-number-medium-q24",
+      "type": "mcq",
+      "question": "A box contains 50 identical steel bolts. The total weight of the box contents is measured as $2.5\\text{ kg}$, correct to the nearest $0.1\\text{ kg}$. Find the lower bound for the mass of a single steel bolt in grams.",
+      "options": [
+        "49 g",
+        "50 g",
+        "48 g",
+        "51 g"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lower bound of total mass is $2.45\\text{ kg} = 2450\\text{ g}$. Divide by the exact count of items: $2450 \\div 50 = 49\\text{ g}$.\n\n**Common mistake:** Students often use nominal value $2500 \\div 50 = 50\\text{ g}$ or subtract $0.05$ from the individual component after dividing."
+    },
+    {
+      "type": "mcq",
+      "question": "If $x = 5$ and $y = 7$, both correct to **one significant figure**, find the largest possible value of $x + y$.",
+      "options": [
+        "$13$",
+        "$12$",
+        "$12.5$",
+        "$13.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the largest sum, use the upper bounds of both numbers: $5.5$ and $7.5$. The maximum value is $5.5 + 7.5 = 13$.\n\n**Common mistake:** Students often add the rounded numbers ($5+7=12$) or miscalculate the upper bound as $5.49$ instead of $5.5$.",
+      "id": "ch01-number-medium-q25"
+    },
+    {
+      "id": "ch01-number-medium-q26",
+      "type": "mcq",
+      "question": "Evaluate the exact $\\frac{tional}{}$ or integer value of $27^{-\\frac{2}{3}}$.",
+      "options": [
+        "$\\frac{1}{9}$",
+        "$$\n\\frac{1}{3}\n$$",
+        "-18",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the $\\frac{tional}{}$ index rules: $27^{-\\frac{2}{3}} = \\frac{1}{(27^{\\frac{1}{3}})^2}$. The cube root of 27 is 3, and squaring 3 gives 9. The reciprocal gives $\\frac{1}{9}$.\n\n**Common mistake:** Students often forget the negative sign's reciprocal operation or multiply $27 \\times -\\frac{2}{3}$ directly to get $-18$."
+    },
+    {
+      "id": "ch01-number-medium-q27",
+      "type": "mcq",
+      "question": "Solve the algebraic index equation for the variable $x$2$3^{2x-1} = 27$.",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "1.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert 27 to a base of 3: $27 = 3^3$. Equate the indices: $2x - 1 = 3 \\implies 2x = 4 \\implies x = 2$.\n\n**Common mistake:** Students may treat 27 as $3 \\times 9$ and equate indices incorrectly to 9 or 9/2."
+    },
+    {
+      "id": "ch01-number-medium-q28",
+      "type": "mcq",
+      "question": "Simplify the expression completely, ensuring no brackets remain: $(4x^4 y^{-2})^3$.",
+      "options": [
+        "$64x^{12} y^{-6}$",
+        "$12x^{12} y^{-6}$",
+        "$4x^{12} y^{-6}$",
+        "$64x^7 y^1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the power of 3 to each factor inside the brackets: $4^3 = 64$, $(x^4)^3 = x^{12}$, and $(y^{-2})^3 = y^{-6}$. This combines to $64x^{12} y^{-6}$.\n\n**Common mistake:** Students often forget to cube the numerical coefficient 4, leaving it as 4 or multiplying it by 3 to get 12."
+    },
+    {
+      "id": "ch01-number-medium-q29",
+      "type": "mcq",
+      "question": "Find the value of $w$2$\\frac{5^w}{5^{-3}} = 5^8$.",
+      "options": [
+        "5",
+        "11",
+        "-5",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify the left side using division subtraction laws: $w - (-3) = w + 3$. Equate this to the right side power: $w + 3 = 8 \\implies w = 5$.\n\n**Common mistake:** Students frequently overlook the double negative, calculating $w - 3 = 8 \\implies w = 11$."
+    },
+    {
+      "id": "ch01-number-medium-q30",
+      "type": "mcq",
+      "question": "Simplify the expression: $\\sqrt{36x^{16}}$.",
+      "options": [
+        "$6x^8$",
+        "$6x^4$",
+        "$18x^8$",
+        "$36x^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Take the square root of the coefficient: $\\sqrt{36} = 6$. Take the square root of the variable component by halving its exponent power: $(x^{16})^{\\frac{1}{12}} = x^8$. This results in $6x^8$.\n\n**Common mistake:** Students frequently square root the exponent number 16 to get 4, leading to the incorrect answer $6x^4$."
+    },
+    {
+      "id": "ch01-number-medium-q31",
+      "type": "mcq",
+      "question": "Calculate the value of $(2.5 \\times 10^{4}) \\times (6 \\times 10^{5})$, leaving your answer in standard form.",
+      "options": [
+        "$1.5 \\times 10^{10}$",
+        "$15 \\times 10^{9}$",
+        "$1.5 \\times 10^{9}$",
+        "$1.5 \\times 10^{20}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the coefficients and add the indices: $2.5 \\times 6 = 15$ and $10^{4} \\times 10^{5} = 10^{9}$. Converting $15 \\times 10^{9}$ to standard form gives $1.5 \\times 10^{10}$.\n\n**Common mistake:** Students often leave the final expression as $15 \\times 10^{9}$, failing to normalize the leading coefficient to be less than 10."
+    },
+    {
+      "id": "ch01-number-medium-q32",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{4.8 \\times 10^{3}}{1.2 \\times 10^{-2}}$ and express the result in standard form.",
+      "options": [
+        "$4 \\times 10^{5}$",
+        "$4 \\times 10^{1}$",
+        "$4 \\times 10^{4}$",
+        "$0.4 \\times 10^{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide coefficients and subtract indices: $4.8 / 1.2 = 4$ and $3 - (-2) = 5$, giving $4 \\times 10^{5}$.\n\n**Common mistake:** Students frequently make a sign error when subtracting negative indices, calculating $3 - 2 = 1$ instead of $3 - (-2) = 5$."
+    },
+    {
+      "id": "ch01-number-medium-q33",
+      "type": "mcq",
+      "question": "Find the value of $(3 \\times 10^{5}) + (4.2 \\times 10^{4})$, giving your answer in standard form.",
+      "options": [
+        "$3.42 \\times 10^{5}$",
+        "$7.2 \\times 10^{9}$",
+        "$7.2 \\times 10^{5}$",
+        "$3.42 \\times 10^{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert parameters to match exponents: $4.2 \\times 10^{4} = 0.42 \\times 10^{5}$. Then, add the coefficients: $(3 + 0.42) \\times 10^{5} = 3.42 \\times 10^{5}$.\n\n**Common mistake:** Students often add coefficients directly without matching power boundaries, resulting in wrong additions like $7.2 \\times 10^{5}$ or $7.2 \\times 10^{9}$."
+    },
+    {
+      "id": "ch01-number-medium-q34",
+      "type": "mcq",
+      "question": "Calculate $(8 \\times 10^{-4}) - (5 \\times 10^{-5})$, expressing the final value in standard form.",
+      "options": [
+        "$7.5 \\times 10^{-4}$",
+        "$3 \\times 10^{-4}$",
+        "$7.5 \\times 10^{-5}$",
+        "$3 \\times 10^{-9}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert to matching exponents: $5 \\times 10^{-5} = 0.5 \\times 10^{-4}$. Subtracting gives $(8 - 0.5) \\times 10^{-4} = 7.5 \\times 10^{-4}$.\n\n**Common mistake:** Students often subtract coefficients directly without adjusting indices, giving $3 \\times 10^{-4}$ or multiplying indices during subtraction."
+    },
+    {
+      "id": "ch01-number-medium-q35",
+      "type": "mcq",
+      "question": "Evaluate $(4 \\times 10^{3})^3$ and write your answer in standard form.",
+      "options": [
+        "$6.4 \\times 10^{10}$",
+        "$64 \\times 10^{9}$",
+        "$1.2 \\times 10^{10}$",
+        "$6.4 \\times 10^{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cube both components: $4^3 = 64$ and $(10^{3})^3 = 10^{9}$. Convert $64 \\times 10^{9}$ into standard form to obtain $6.4 \\times 10^{10}$.\n\n**Common mistake:** Students often multiply the coefficient by the exponent ($4 \\times 3 = 12$) or add exponents instead of multiplying them."
+    },
+    {
+      "id": "ch01-number-medium-q36",
+      "type": "mcq",
+      "question": "Simplify the compound radical expression $\\sqrt{18} + \\sqrt{50}$.",
+      "options": [
+        "$8\\sqrt{2}$",
+        "$\\sqrt{68}$",
+        "$4\\sqrt{2}$",
+        "$15\\sqrt{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify each surd term first: $\\sqrt{18} = 3\\sqrt{2}$ and \\sqrt{50} = 5\\sqrt{2}. Add them together to get $3\\sqrt{2} + 5\\sqrt{2} = 8\\sqrt{2}$.\n\n**Common mistake:** A classic error is adding values directly inside the roots together to obtain $\\sqrt{18+50} = \\sqrt{68}$."
+    },
+    {
+      "id": "ch01-number-medium-q37",
+      "type": "mcq",
+      "question": "Rationalise the denominator of the expression $\\frac{12}{\\sqrt{3}}$.",
+      "options": [
+        "$4\\sqrt{3}$",
+        "$12\\sqrt{3}$",
+        "4",
+        "$2\\sqrt{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the numerator and denominator by $\\sqrt{3}$ to rationalise: $\\frac{12 \\times \\sqrt{3}}{\\sqrt{3} \\times \\sqrt{3}} = \\frac{12\\sqrt{3}}{3} = 4\\sqrt{3}$.\n\n**Common mistake:** Students often forget to divide the original coefficient by the denominator integer, leaving the answer as $12\\sqrt{3}$."
+    },
+    {
+      "id": "ch01-number-medium-q38",
+      "type": "mcq",
+      "question": "Expand and simplify the brackets $(\\sqrt{5} + 2)(\\sqrt{5} - 2)$.",
+      "options": [
+        "1",
+        "3",
+        "$5 - 2\\sqrt{2}$",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "This maps to a difference of two squares style expansion: $(\\sqrt{5})^2 - (2)^2 = 5 - 4 = 1$.\n\n**Common mistake:** Students occasionally fail to evaluate the squares correctly, computing $5 - 2 = 3$ or omitting parts of the expansion steps."
+    },
+    {
+      "id": "ch01-number-medium-q39",
+      "type": "mcq",
+      "question": "Simplify the expression $\\sqrt{24} \\times \\sqrt{12}$, writing your answer in its simplest surd form $a\\sqrt{b}$.",
+      "options": [
+        "$12\\sqrt{2}$",
+        "$6\\sqrt{8}$",
+        "$2\\sqrt{72}$",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply parameters: $\\sqrt{24 \\times 12} = \\sqrt{288}$. Simplify by isolating the square factor $144$: $\\sqrt{144 \\times 2} = 12\\sqrt{2}$.\n\n**Common mistake:** Students often stop simplifying early, leaving non-prime compound factors under the square root sign like $6\\sqrt{8}$."
+    },
+    {
+      "id": "ch01-number-medium-q40",
+      "type": "mcq",
+      "question": "Rationalise the denominator of $\\frac{5}{2\\sqrt{5}}$.",
+      "options": [
+        "$\\frac{\\sqrt{5}}{2}$",
+        "$\\frac{5\\sqrt{5}}{2}$",
+        "$\\sqrt{5}$",
+        "$\\frac{5}{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both elements by $\\sqrt{5}$: $\\frac{5\\sqrt{5}}{2 \\times 5} = \\frac{5\\sqrt{5}}{10} = \\frac{\\sqrt{5}}{2}$.\n\n**Common mistake:** Students often forget to multiply the denominator's leading integer by 5, leading to answers like $\\frac{5\\sqrt{5}}{2}$."
+    },
+    {
+      "id": "ch01-number-medium-q41",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{\\sqrt{14.44}}{0.5^3}$ exactly using your calculator.",
+      "options": [
+        "30.4",
+        "7.6",
+        "15.2",
+        "3.8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the values of the components: $\\sqrt{14.44} = 3.8$ and $0.5^3 = 0.125$. Evaluating the $\\frac{tion}{}$ gives $3.8 / 0.125 = 30.4$.\n\n**Common mistake:** Students often multiply the base by the exponent ($0.5 \\times 3 = 1.5$), leading to incorrect values."
+    },
+    {
+      "id": "ch01-number-medium-q42",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{4.25}{\\sin(30^\\circ) + \\cos(60^\\circ)}$ using your calculator.",
+      "options": [
+        "4.25",
+        "8.5",
+        "2.125",
+        "4.91"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ensure your calculator is in degree mode. Evaluate the denominator: $\\sin(30^\\circ) = 0.5$ and $\\cos(60^\\circ) = 0.5$, so $0.5 + 0.5 = 1$. Thus, $4.25 / 1 = 4.25$.\n\n**Common mistake:** Calculators set to radian or gradian mode will generate entirely incorrect decimal outputs for trigonometric components."
+    },
+    {
+      "id": "ch01-number-medium-q43",
+      "type": "mcq",
+      "question": "Find the exact value of $\\frac{3.6 \\times 10^{5}}{1.2 \\times 10^{8}}$ using scientific calculator inputs.",
+      "options": [
+        "0.003",
+        "3000",
+        "0.03",
+        "0.0003"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perform the division directly using brackets or standard scientific buttons: $3.6 / 1.2 = 3$ and $10^{5} / 10^{8} = 10^{-3} = 0.003$.\n\n**Common mistake:** Leaving out brackets on the denominator can cause the calculator to multiply the entire expression by $10^{8}$ instead of dividing by it."
+    },
+    {
+      "id": "ch01-number-medium-q44",
+      "type": "mcq",
+      "question": "Use your calculator to evaluate $\\frac{4.5^2 - 1.5^2}{0.6}$, giving an exact integer output.",
+      "options": [
+        "30",
+        "18",
+        "27",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the numerator first: $4.5^2 - 1.5^2 = 20.25 - 2.25 = 18$. Then divide by $0.6$: $18 / 0.6 = 30$.\n\n**Common mistake:** Students frequently misorder calculations, evaluating $4.5^2 - (1.5^2 / 0.6)$ without proper structuring."
+    },
+    {
+      "id": "ch01-number-medium-q45",
+      "type": "mcq",
+      "question": "Evaluate $\\sqrt{\\frac{3.1 + 5.9}{0.1}}$ using your calculator.",
+      "options": [
+        "9.487",
+        "9",
+        "30",
+        "9.3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify inside the square root first: $(3.1 + 5.9) / 0.1 = 9 / 0.1 = 90$. Then evaluate the square root: $\\sqrt{90} \\approx 9.487$.\n\n**Common mistake:** Students often apply the radical symbol only to the numerator, calculating $\\frac{\\sqrt{9}}{0.1} = 30$."
+    }
+  ]
+}

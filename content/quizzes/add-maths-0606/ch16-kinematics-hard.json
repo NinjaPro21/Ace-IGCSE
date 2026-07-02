@@ -30,7 +30,7 @@
         "-6 m s⁻²"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity is $v = 6t^2 - 30t + 24$. To find when velocity is minimum, differentiate velocity to get acceleration: $a = 12t - 30$, and set the derivative of acceleration (which is $12$) to be checked, or set $a = 0$ to locate the stationary point of the quadratic velocity function. This gives $12t - 30 = 0 \\implies t = 2.5$. The acceleration at this exact minimum turning point of velocity must be 0 m s⁻².\n\n**Common mistake:** Option B occurs if a student attempts to calculate the minimum velocity value instead of answering for the acceleration value at that instant."
+      "explanation": "Velocity is $v = 6t^2 - 30t + 24$. To find when velocity is minimum, differentiate velocity to get acceleration: $a = 12t - 30$, and set the derivative of acceleration (which is^12) to be checked, or set $a = 0$ to locate the stationary point of the quadratic velocity function. This gives $12t - 30 = 0 \\implies t = 2.5$. The acceleration at this exact minimum turning point of velocity must be 0 m s⁻².\n\n**Common mistake:** Option B occurs if a student attempts to calculate the minimum velocity value instead of answering for the acceleration value at that instant."
     },
     {
       "id": "ch16-kinematics-q3",

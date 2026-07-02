@@ -1,0 +1,77 @@
+{
+  "id": "6-3-energy-resources-hard",
+  "topicId": "6-3-energy-resources",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "hard",
+  "title": "Energy Resources — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-3-energy-resources-hard-q1",
+      "type": "mcq",
+      "question": "A hoist with $60\\%$ efficiency is used to lift a $20\\text{ kg}$ crate vertically through $3\\text{ m}$. Calculate the total electrical energy input required. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$1000\\text{ J}$",
+        "$600\\text{ J}$",
+        "$360\\text{ J}$",
+        "$120\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Useful work = $mgh = 20 \\times 10 \\times 3 = 600\\text{ J}$. Energy Input = $Useful / \\text{Efficiency} = 600 / 0.6 = 1000\\text{ J}$. \n\n**Common mistake:** Multiplying $600$ by $0.6$ ($360$) instead of dividing."
+    },
+    {
+      "id": "6-3-energy-resources-hard-q2",
+      "type": "mcq",
+      "question": "A Sankey diagram for a light bulb shows an input of $100\\text{ J}$, with $10\\text{ J}$ pointing right as light and a large arrow pointing down. What does the downward arrow represent?",
+      "options": [
+        "$90\\text{ J}$ of wasted thermal energy",
+        "$10\\text{ J}$ of useful electrical energy",
+        "$110\\text{ J}$ of total energy output",
+        "The efficiency of the light bulb"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a Sankey diagram, the useful output points right and wasted energy points down. Wasted = $100 - 10 = 90\\text{ J}$. \n\n**Common mistake:** Thinking the downward arrow is the 'useful' part."
+    },
+    {
+      "id": "6-3-energy-resources-hard-q3",
+      "type": "mcq",
+      "question": "Which of the following describes the current state of research regarding nuclear fusion on Earth?",
+      "options": [
+        "Scientists are investigating how to use it to produce electrical energy on a large scale.",
+        "It is the main process used in all modern commercial power stations.",
+        "It has been abandoned because it produces too much carbon dioxide.",
+        "It is only possible to perform fusion in a vacuum flask."
+      ],
+      "correctIndex": 0,
+      "explanation": "Research is being carried out to investigate how fusion can be used for large-scale electrical energy. \n\n**Common mistake:** Believing fusion is already the standard method for electricity."
+    },
+    {
+      "id": "6-3-energy-resources-hard-q4",
+      "type": "mcq",
+      "question": "Based on the principle of conservation of energy, why does a roller coaster not continue its motion forever?",
+      "options": [
+        "Energy is dissipated as thermal energy due to friction and air resistance.",
+        "Gravitational potential energy is gradually destroyed as the coaster falls.",
+        "The total amount of energy in the system decreases over time.",
+        "The Sun's energy is not strong enough to maintain the motion."
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is conserved but is converted into less useful forms like heat (dissipated). It is not 'destroyed'. \n\n**Common mistake:** Thinking energy is used up or destroyed during the ride."
+    },
+    {
+      "id": "6-3-energy-resources-hard-q5",
+      "type": "mcq",
+      "question": "Which set of energy resources consists entirely of those that do NOT depend on the Sun?",
+      "options": [
+        "Geothermal, Nuclear, Tidal",
+        "Hydroelectric, Solar, Wind",
+        "Biofuels, Geothermal, Fossil fuels",
+        "Nuclear, Solar, Tidal"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the syllabus notes, the Sun is the source for all except geothermal, nuclear, and tidal resources. \n\n**Common mistake:** Including tidal or nuclear in Sun-dependent lists."
+    }
+  ]
+}

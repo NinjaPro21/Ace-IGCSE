@@ -1,0 +1,77 @@
+{
+  "id": "1-1-physical-quantities-medium",
+  "topicId": "1-1-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "medium",
+  "title": "Physical Quantities — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-physical-quantities-medium-q1",
+      "type": "mcq",
+      "question": "A student measures the time for 20 oscillations of a pendulum twice. The readings are 35.70 s and 34.98 s. What is the average period?",
+      "options": [
+        "1.767 s",
+        "35.34 s",
+        "1.785 s",
+        "0.566 s"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find the average time for 20 oscillations: (35.70+34.98)/2=35.34 s. Then, divide by 20 to find the period of one oscillation: 35.34/20=1.767 s. \n\n**Common mistake:** Students often stop after finding the average time for 20 oscillations (35.34 s) and forget to divide by the number of oscillations."
+    },
+    {
+      "id": "1-1-physical-quantities-medium-q2",
+      "type": "mcq",
+      "question": "Which set contains only derived quantities?",
+      "options": [
+        "Area, volume, speed",
+        "Mass, length, time",
+        "Speed, time, density",
+        "Weight, mass, volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derived quantities are calculated from base quantities; area (m2), volume (m3), and speed (m/s) are all derived. \n\n**Common mistake:** Including mass or time, which are base quantities."
+    },
+    {
+      "id": "1-1-physical-quantities-medium-q3",
+      "type": "mcq",
+      "question": "What is the correct way to express 0.000 000 01 m using a prefix?",
+      "options": [
+        "0.01mum",
+        "10 nm",
+        "0.1 mm",
+        "1mum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The prefix micro (mu) represents 10−6. Therefore, 0.00000001 m is 0.01times10−6m or 0.01mum. \n\n**Common mistake:** Selecting 10 nm, which is equivalent but requires moving the decimal further than requested by the standard prefix group."
+    },
+    {
+      "id": "1-1-physical-quantities-medium-q4",
+      "type": "mcq",
+      "question": "A digital stopwatch has a precision of 0.01 s. Why are readings typically recorded to the nearest 0.1 s?",
+      "options": [
+        "Due to human reaction time (0.3–0.5 s)",
+        "The screen is difficult to read",
+        "To simplify calculations",
+        "The battery runs out faster"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because starting and stopping the watch by hand involves human reaction time (about 0.3–0.5 s), the second decimal place is not reliable. \n\n**Common mistake:** Thinking the instrument itself is inaccurate; it is precise, but the operator introduces a random error."
+    },
+    {
+      "id": "1-1-physical-quantities-medium-q5",
+      "type": "mcq",
+      "question": "To find the density of a substance in SI units, how do you convert a value from g/cm3to kg/m3?",
+      "options": [
+        "Multiply by 1000",
+        "Divide by 1000",
+        "Multiply by 100",
+        "Divide by 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "1g/cm3=1000kg/m3. \n\n**Common mistake:** Dividing by 1000 because students think moving from 'grams' to 'kilograms' always requires division."
+    }
+  ]
+}

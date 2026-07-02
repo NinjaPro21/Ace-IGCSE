@@ -1,0 +1,142 @@
+{
+  "id": "ch03-mass-weight-and-density-medium",
+  "topicId": "ch03-mass-weight-and-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "medium",
+  "title": "Chapter 3: Mass, Weight and Density — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch03-mass-weight-and-density-medium-q1",
+      "type": "mcq",
+      "question": "An object has a weight of $150\\text{ N}$ on Earth. Calculate its mass if $g = 10\\text{ N/kg}$.",
+      "options": [
+        "$15\\text{ kg}$",
+        "$1500\\text{ kg}$",
+        "$1.5\\text{ kg}$",
+        "$150\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $W = mg$ to find mass: $m = W / g = 150\\text{ N} / 10\\text{ N/kg} = 15\\text{ kg}$. \n\n**Common mistake:** Multiplying $150$ by $10$ instead of dividing."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q2",
+      "type": "mcq",
+      "question": "A rock has a mass of $10\\text{ kg}$. The acceleration of free fall on the Moon is $1.6\\text{ m/s}^2$. What is the weight of the rock on the Moon?",
+      "options": [
+        "$16\\text{ N}$",
+        "$100\\text{ N}$",
+        "$6.25\\text{ N}$",
+        "$1.6\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight = mass $times$ acceleration of free fall. On the Moon: $10\\text{ kg} \\times 1.6\\text{ m/s}^2 = 16\\text{ N}$. \n\n**Common mistake:** Using the Earth's gravity ($100\\text{ N}$) or thinking mass changes on the Moon."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q3",
+      "type": "mcq",
+      "question": "A chocolate bar has a mass of $200\\text{ g}$. Calculate its weight on Earth ($g = 10\\text{ N/kg}$).",
+      "options": [
+        "$2.0\\text{ N}$",
+        "$20\\text{ N}$",
+        "$2000\\text{ N}$",
+        "$0.2\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kilograms: $200\\text{ g} = 0.2\\text{ kg}$. Then $W = mg = 0.2\\text{ kg} \\times 10\\text{ N/kg} = 2.0\\text{ N}$. \n\n**Common mistake:** Using $200$ directly in the formula without converting to SI units ($2000\\text{ N}$)."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q4",
+      "type": "mcq",
+      "question": "Which statement correctly describes gravitational field strength $g$?",
+      "options": [
+        "It is the gravitational force per unit mass",
+        "It is the total gravitational force on an object",
+        "It is the ratio of an object's mass to its weight",
+        "It is the speed at which an object falls in a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gravitational field strength $g$ is defined as the force per unit mass ($g = W / m$). \n\n**Common mistake:** Confusing the field strength with the total weight force itself."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q5",
+      "type": "mcq",
+      "question": "If an object is moved to a planet where the gravitational field is stronger than Earth's, what happens to its mass and weight?",
+      "options": [
+        "Mass stays the same, weight increases",
+        "Mass increases, weight increases",
+        "Mass increases, weight stays the same",
+        "Mass stays the same, weight stays the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a measure of the quantity of matter and does not change with location. Weight depends on $g$, so it increases in a stronger field. \n\n**Common mistake:** Believing that a stronger 'pull' also increases the amount of matter in the object."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q6",
+      "type": "mcq",
+      "question": "A measuring cylinder contains $20\\text{ cm}^3$ of water. When an irregular stone of mass $150\\text{ g}$ is submerged, the level rises to $50\\text{ cm}^3$. Calculate the density of the stone.",
+      "options": [
+        "$5.0\\text{ g/cm}^3$",
+        "$3.0\\text{ g/cm}^3$",
+        "$7.5\\text{ g/cm}^3$",
+        "$0.2\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume of stone $= 50 - 20 = 30\\text{ cm}^3$. Density $= 150\\text{ g} / 30\\text{ cm}^3 = 5.0\\text{ g/cm}^3$. \n\n**Common mistake:** Using the final water level ($50$) as the volume of the stone."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q7",
+      "type": "mcq",
+      "question": "To convert a density value from $g/cm^3$ to the SI unit $kg/m^3$, you should:",
+      "options": [
+        "Multiply by 1000",
+        "Divide by 1000",
+        "Multiply by 100",
+        "Divide by 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1\\text{ g/cm}^3$ is equivalent to $1000\\text{ kg/m}^3$. \n\n**Common mistake:** Dividing by 1000, which is the standard conversion for grams to kilograms alone."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q8",
+      "type": "mcq",
+      "question": "A measuring cylinder has a mass of $60.0\\text{ g}$. When $30\\text{ cm}^3$ of olive oil is poured into it, the total mass is $87.6\\text{ g}$. What is the density of the olive oil?",
+      "options": [
+        "$0.92\\text{ g/cm}^3$",
+        "$2.92\\text{ g/cm}^3$",
+        "$2.00\\text{ g/cm}^3$",
+        "$0.68\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass of oil $= 87.6 - 60.0 = 27.6\\text{ g}$. Density $= 27.6 / 30 = 0.92\\text{ g/cm}^3$. \n\n**Common mistake:** Using the total mass ($87.6$) instead of the mass of the liquid only."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q9",
+      "type": "mcq",
+      "question": "Liquid A (density $800\\text{ kg/m}^3$), Liquid B (density $1000\\text{ kg/m}^3$), and Liquid C (density $1200\\text{ kg/m}^3$) are immiscible. If poured into a cylinder, which order will they settle in from top to bottom?",
+      "options": [
+        "A, B, C",
+        "C, B, A",
+        "B, A, C",
+        "A, C, B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Immiscible liquids settle with the least dense on top and the most dense at the bottom. \n\n**Common mistake:** Reversing the order and placing the densest liquid on top."
+    },
+    {
+      "id": "ch03-mass-weight-and-density-medium-q10",
+      "type": "mcq",
+      "question": "An object floats in Seawater (density $1100\\text{ kg/m}^3$) but sinks in Paraffin (density $700\\text{ kg/m}^3$). What can be deduced about the object's density?",
+      "options": [
+        "It is between $700\\text{ kg/m}^3$ and $1100\\text{ kg/m}^3$",
+        "It is exactly $900\\text{ kg/m}^3$",
+        "It is greater than $1100\\text{ kg/m}^3$",
+        "It is less than $700\\text{ kg/m}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since it floats in seawater, its density $< 1100$. Since it sinks in paraffin, its density $> 700$. \n\n**Common mistake:** Assuming floating means it must be less dense than both liquids."
+    }
+  ]
+}

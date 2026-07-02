@@ -1,0 +1,77 @@
+{
+  "id": "14-2-transmission-of-sound-hard",
+  "topicId": "14-2-transmission-of-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "hard",
+  "title": "Transmission of Sound — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-transmission-of-sound-hard-q1",
+      "type": "mcq",
+      "question": "A sound source with a frequency of $1000\\text{ Hz}$ travels through air at $330\\text{ m/s}$. What is the distance between two consecutive compressions?",
+      "options": [
+        "$0.33\\text{ m}$",
+        "$3.03\\text{ m}$",
+        "$330000\\text{ m}$",
+        "$1.33\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance between consecutive compressions is the wavelength ($\\lambda$). Using $v = f\\lambda$, $\\lambda = v / f = 330 / 1000 = 0.33\\text{ m}$. \n\n**Common mistake:** Multiplying frequency and speed."
+    },
+    {
+      "id": "14-2-transmission-of-sound-hard-q2",
+      "type": "mcq",
+      "question": "Two observers stand $500\\text{ m}$ apart. They record the time for a sound to travel between them three times: $1.51\\text{ s}$, $1.55\\text{ s}$, and $1.50\\text{ s}$. Calculate the average speed of sound recorded.",
+      "options": [
+        "$329\\text{ m/s}$",
+        "$333\\text{ m/s}$",
+        "$500\\text{ m/s}$",
+        "$322\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average time $= (1.51 + 1.55 + 1.50) / 3 = 1.52\\text{ s}$. Average speed $= \\text{distance} / \\text{time} = 500 / 1.52 \\approx 329\\text{ m/s}$. \n\n**Common mistake:** Using only the first time value instead of calculating the average."
+    },
+    {
+      "id": "14-2-transmission-of-sound-hard-q3",
+      "type": "mcq",
+      "question": "An electric bell is ringing inside a sealed jar. As a vacuum pump removes the air, the sound gets quieter. Why would the sound not disappear completely if the bell is resting on the base of the jar?",
+      "options": [
+        "Vibrations are conducted through the solid base of the jar",
+        "The vacuum pump cannot remove all air molecules",
+        "Sound energy is converted into light which passes through the vacuum",
+        "The bell's magnetic field transmits the sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound requires a medium. While air is removed, the solid material of the base still provides a medium for vibrations to conduct to the surroundings. \n\n**Common mistake:** Thinking a vacuum blocks sound transmission through all paths, including solids."
+    },
+    {
+      "id": "14-2-transmission-of-sound-hard-q4",
+      "type": "mcq",
+      "question": "A student standing $495\\text{ m}$ from a large wall shouts and hears his own voice reflected. How long does it take for the sound to return to him? (Speed of sound in air $= 330\\text{ m/s}$)",
+      "options": [
+        "$3.0\\text{ s}$",
+        "$1.5\\text{ s}$",
+        "$0.67\\text{ s}$",
+        "$6.0\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance traveled is to the wall and back: $495 \\times 2 = 990\\text{ m}$. $\\text{Time} = 990 / 330 = 3.0\\text{ s}$. \n\n**Common mistake:** Calculating only the one-way time ($1.5\\text{ s}$)."
+    },
+    {
+      "id": "14-2-transmission-of-sound-hard-q5",
+      "type": "mcq",
+      "question": "According to the kinetic particle model, why is sound unable to travel through a vacuum?",
+      "options": [
+        "There are no particles to collide and pass on the vibrational energy",
+        "A vacuum has a density of zero, so the speed of sound becomes infinite",
+        "The absence of pressure causes the sound source to stop vibrating",
+        "A vacuum absorbs all mechanical energy and converts it to heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound transmission depends on the mechanical interaction and collision of particles. In a vacuum, there are no particles to transmit these vibrations. \n\n**Common mistake:** Thinking the speed becomes zero rather than the wave being impossible to form."
+    }
+  ]
+}

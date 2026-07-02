@@ -1,0 +1,77 @@
+{
+  "id": "14-4-pitch-and-loudness-hard",
+  "topicId": "14-4-pitch-and-loudness",
+  "chapterId": "ch14-sound",
+  "difficulty": "hard",
+  "title": "Pitch and Loudness — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-pitch-and-loudness-hard-q1",
+      "type": "mcq",
+      "question": "Which set of changes to a sound wave would result in a note that is both quieter and lower in pitch?",
+      "options": [
+        "Decrease the amplitude and increase the period",
+        "Decrease the amplitude and decrease the period",
+        "Increase the amplitude and increase the period",
+        "Increase the amplitude and decrease the period"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quieter requires a smaller amplitude. Lower pitch requires a lower frequency, which is equivalent to a longer (increased) period ($f = 1/T$). **Common mistake:** Thinking a lower pitch requires a smaller period."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-hard-q2",
+      "type": "mcq",
+      "question": "In terms of particle motion, what is the difference between a loud high-pitched sound and a quiet high-pitched sound?",
+      "options": [
+        "Both have the same frequency, but the loud sound has a larger maximum displacement",
+        "The loud sound has more vibrations per second than the quiet sound",
+        "The quiet sound travels through the medium at a lower speed",
+        "The loud sound has a larger wavelength than the quiet sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-pitched sounds have the same frequency. The 'loudness' difference is due to amplitude, which is the maximum displacement of the particles. **Common mistake:** Thinking loudness changes the wavelength or speed of the note."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-hard-q3",
+      "type": "mcq",
+      "question": "A sound wave transfers energy from a source to a receiver. If the energy transferred per second increases without changing the number of waves per second, what happens to the sound?",
+      "options": [
+        "It becomes louder but the pitch remains the same",
+        "It becomes higher in pitch but the loudness remains the same",
+        "Both the loudness and the pitch increase",
+        "The speed of the sound increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increased energy at the same frequency increases the amplitude (loudness) but leaves the pitch unchanged. **Common mistake:** Thinking that higher energy always implies a 'faster' vibration/higher pitch."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-hard-q4",
+      "type": "mcq",
+      "question": "Wave A has a period of $0.01\\text{ s}$ and Wave B has a period of $0.02\\text{ s}$. If both waves have the same amplitude, which statement is correct?",
+      "options": [
+        "Wave A has a higher pitch than Wave B, and both have the same loudness",
+        "Wave B has a higher pitch than Wave A, and Wave A is louder",
+        "Wave A has a lower pitch than Wave B, and Wave B is louder",
+        "Both waves have the same pitch and the same loudness"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = 1/T$, so Wave A has a frequency of $100\\text{ Hz}$ and Wave B has $50\\text{ Hz}$. Therefore, A has a higher pitch. **Common mistake:** Thinking a larger period ($0.02$) results in a higher frequency."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-hard-q5",
+      "type": "mcq",
+      "question": "When a guitarist plucks a string harder, the resulting sound eventually dies away. Which property of the sound wave changes most significantly as the sound fades?",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Wavelength",
+        "Speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "As a sound fades or 'dies away', it becomes quieter, which means its amplitude is decreasing. **Common mistake:** Thinking the note changes pitch (frequency) as it gets quieter."
+    }
+  ]
+}

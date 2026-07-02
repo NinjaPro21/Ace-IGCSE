@@ -115,3 +115,49 @@ export function sortByDifficulty(insights: ChapterInsight[]): ChapterInsight[] {
 export function getStuckChapters(insights: ChapterInsight[], limit = 5): ChapterInsight[] {
   return sortByDifficulty(insights).slice(0, limit)
 }
+
+export interface SubjectWeakTopics {
+  subjectId: string
+  subjectName: string
+  chapters: ChapterInsight[]
+}
+
+/** Top N weakest chapters per subject — keeps progress review uncluttered. */
+export function getStuckChaptersBySubject(
+  insights: ChapterInsight[],
+  perSubjectLimit = 3,
+): SubjectWeakTopics[] {
+  const ranked = sortByDifficulty(insights)
+  const bySubject = new Map<string, ChapterInsight[]>()
+
+  for (const row of ranked) {
+    if (!row.subjectId) continue
+    const list = bySubject.get(row.subjectId) ?? []
+    if (list.length >= perSubjectLimit) continue
+    list.push(row)
+    bySubject.set(row.subjectId, list)
+  }
+
+  const subjectOrder = getAllSubjects().map((s) => s.id)
+  return [...bySubject.entries()]
+    .sort(([a], [b]) => {
+      const ai = subjectOrder.indexOf(a)
+      const bi = subjectOrder.indexOf(b)
+      return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi)
+    })
+    .map(([subjectId, chapters]) => ({
+      subjectId,
+      subjectName: chapters[0]?.subjectName ?? subjectId,
+      chapters,
+    }))
+}
+
+export function countStuckChaptersBySubject(
+  insights: ChapterInsight[],
+  perSubjectLimit = 3,
+): number {
+  return getStuckChaptersBySubject(insights, perSubjectLimit).reduce(
+    (sum, group) => sum + group.chapters.length,
+    0,
+  )
+}

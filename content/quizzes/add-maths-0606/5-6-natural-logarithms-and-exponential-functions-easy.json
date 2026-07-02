@@ -1,0 +1,77 @@
+{
+  "id": "5-6-natural-logarithms-and-exponential-functions-easy",
+  "topicId": "5-6-natural-logarithms-and-exponential-functions",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "easy",
+  "title": "Natural Logarithms and Exponential Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-easy-q1",
+      "type": "mcq",
+      "question": "Simplify the expression $\\ln e^5$.",
+      "options": [
+        "5",
+        "e⁵",
+        "1",
+        "ln 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, $\\ln x$2$e^x$2$\\ln e^k = k$.\n\n**Common mistake:** Students may confuse the base and think the answer is $e^5$ or assume $\\ln e$ cancels out to leave 1."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-easy-q2",
+      "type": "mcq",
+      "question": "Convert the exponential equation $e^x = 12$ into logarithmic form.",
+      "options": [
+        "x = \\ln 12",
+        "x = \\log 12",
+        "$12 = \\ln x$",
+        "x = e^{12}"
+      ],
+      "correctIndex": 0,
+      "explanation": "The natural logarithm $\\ln$2$e$2$e^x = y$2$x = \\ln y$.\n\n**Common mistake:** A student might use $\\log$2$\\ln$2$e$)."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-easy-q3",
+      "type": "mcq",
+      "question": "Find the value of $f(e^2)$ given that $f(x) = \\ln x$.",
+      "options": [
+        "2",
+        "e",
+        "1",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substituting $e^2$ into the function gives $f(e^2) = \\ln e^2 = 2$.\n\n**Common mistake:** Students might mistakenly think $\\ln e^2$ equals $e$ or simply 1."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-easy-q4",
+      "type": "mcq",
+      "question": "State the value of $\\ln 1$.",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "Any logarithm of 1, regardless of the base, is always 0 because $e^0 = 1$.\n\n**Common mistake:** It is a common error to think $\\ln 1 = 1$ by confusing it with $\\ln e$."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate $e^{\\ln 7.5}$.",
+      "options": [
+        "7.5",
+        "e^{7.5}",
+        "\\ln 7.5",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $e^x$2$\\ln x$2$e^{\\ln k} = k$.\n\n**Common mistake:** Students may try to calculate $e$ to a power and get lost in decimal approximations."
+    }
+  ]
+}

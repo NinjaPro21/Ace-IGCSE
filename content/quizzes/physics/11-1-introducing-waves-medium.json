@@ -1,0 +1,77 @@
+{
+  "id": "11-1-introducing-waves-medium",
+  "topicId": "11-1-introducing-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "medium",
+  "title": "Introducing Waves — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-introducing-waves-medium-q1",
+      "type": "mcq",
+      "question": "A rope wave is traveling horizontally from left to right. In which direction do the individual particles of the rope move?",
+      "options": [
+        "Up and down only",
+        "Left and right only",
+        "In a circle",
+        "Along with the wave to the right"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rope waves are transverse; while the wave (energy) travels sideways, the rope particles themselves only move up and down. \n\n**Common mistake:** Believing the particles move in the same direction as the wave (longitudinal behavior)."
+    },
+    {
+      "id": "11-1-introducing-waves-medium-q2",
+      "type": "mcq",
+      "question": "What does a frequency of $2\\text{ Hz}$ mean for a vibrating source?",
+      "options": [
+        "It makes two complete oscillations per second",
+        "It takes two seconds to complete one oscillation",
+        "The wave travels two metres every second",
+        "The wave has a height of two centimetres"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is the number of complete waves or oscillations produced per unit time; $2\\text{ Hz}$ means two cycles every second. \n\n**Common mistake:** Confusing frequency with period, which is the time for one oscillation (0.5 s in this case)."
+    },
+    {
+      "id": "11-1-introducing-waves-medium-q3",
+      "type": "mcq",
+      "question": "Compare the motion of particles in a longitudinal wave and a transverse wave. Which statement is correct?",
+      "options": [
+        "Both involve oscillations, but the directions relative to the wave travel are different.",
+        "Longitudinal particles move in circles; transverse particles move in straight lines.",
+        "Transverse waves require a medium, but longitudinal waves do not.",
+        "Only transverse waves can transfer energy without matter."
+      ],
+      "correctIndex": 0,
+      "explanation": "Both wave types involve periodic oscillations that transfer energy; the distinction is whether the oscillation is parallel (longitudinal) or perpendicular (transverse) to the wave direction. \n\n**Common mistake:** Thinking one type is 'better' at transferring energy than the other."
+    },
+    {
+      "id": "11-1-introducing-waves-medium-q4",
+      "type": "mcq",
+      "question": "A slinky is stretched out on a floor. To produce a longitudinal pulse, in which direction should the student move the end of the slinky?",
+      "options": [
+        "Forward and backward along the line of the slinky",
+        "Side to side at a right angle to the slinky",
+        "Up and down away from the floor",
+        "In a clockwise circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "To create a longitudinal wave, the vibration must be parallel to the direction of propagation, which is achieved by moving the end forward and backward. \n\n**Common mistake:** Moving it side-to-side, which would produce a transverse wave."
+    },
+    {
+      "id": "11-1-introducing-waves-medium-q5",
+      "type": "mcq",
+      "question": "How is energy transferred from a moving hand (source) to a rope particle further away?",
+      "options": [
+        "Kinetic energy is passed between adjacent rope particles as the wave progresses.",
+        "The hand throws rope molecules toward the far end.",
+        "The energy is converted into magnetic potential energy in the rope.",
+        "Air molecules carry the energy alongside the rope."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, the kinetic energy from the source is transferred to rope particles near it, which then pass it to particles further away as the wave progresses. \n\n**Common mistake:** Thinking the energy travels independently of the particles."
+    }
+  ]
+}

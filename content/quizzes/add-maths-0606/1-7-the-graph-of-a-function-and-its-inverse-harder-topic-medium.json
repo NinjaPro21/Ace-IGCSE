@@ -1,0 +1,77 @@
+{
+  "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium",
+  "topicId": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "medium",
+  "title": "The Graph of a Function and its Inverse — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "The graph of y=f(x) is a straight line passing through (0,4) and (2,0). Find the coordinates of the points where y= f^{-1}(x) crosses the axes.",
+      "options": [
+        "(0,2) and (4,0)",
+        "(0,4) and (2,0)",
+        "(0,−4) and (−2,0)",
+        "(2,2) and (4,4)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original points are (0,4) and (2,0). Swapping gives (4,0) and (0,2) for the inverse graph.\n\n**Common mistake:** Providing the original intercepts instead of the swapped ones."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "A function f(x)=2x−6 and its inverse $f^{-1}$(x) are plotted. Calculate the coordinates of their point of intersection.",
+      "options": [
+        "(6,6)",
+        "(3,3)",
+        "(0,0)",
+        "(2,2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection occurs where f(x)=x. 2x−6=x \\implies x=6. Since it's on y=x, the point is (6,6).\n\n**Common mistake:** Students often spend time finding $f^{-1}$(x)=(x+6)/2 and solving (x+6)/2=2x−6, which is correct but more prone to error than solving f(x)=x."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "The graph of y=f(x) has a domain of x≥0 and a range of y≥3. Describe the domain and range of the reflected graph y= f^{-1}(x).",
+      "options": [
+        "Domain x≥3, Range y≥0",
+        "Domain x≥0, Range y≥3",
+        "Domain x≤0, Range y≤3",
+        "Domain x≥3, Range y≥3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reflection swaps domain and range: the original domain becomes the new range, and the original range becomes the new domain.\n\n**Common mistake:** Failing to swap the restrictions, leading to incorrect domain and range for the inverse function."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "If the graph of y=f(x) is a curve that is concave up, what is the shape of the graph y= f^{-1}(x)?",
+      "options": [
+        "Concave left or right (mirrored curve)",
+        "Concave down",
+        "A straight line",
+        "A circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "A reflection in y=x changes vertical curvature into horizontal curvature relative to the axes.\n\n**Common mistake:** Thinking a concave up curve must reflect to a concave down curve (which is a reflection in the x-axis)."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Find the y-intercept of y= f^{-1}(x) given that f(x)=3x−12.",
+      "options": [
+        "4",
+        "12",
+        "-4",
+        "-12"
+      ],
+      "correctIndex": 0,
+      "explanation": "The y-intercept of $f^{-1}$is the x-intercept of f. Set 3x−12=0 \\implies x=4.\n\n**Common mistake:** Identifying the y-intercept of f (-12) as the y-intercept of $f^{-1}$."
+    }
+  ]
+}

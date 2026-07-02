@@ -1,0 +1,77 @@
+{
+  "id": "18-1-electromagnetic-induction-easy",
+  "topicId": "18-1-electromagnetic-induction",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "easy",
+  "title": "Electromagnetic Induction — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-1-electromagnetic-induction-easy-q1",
+      "type": "mcq",
+      "question": "What is the name of the process where an electromotive force (e.m.f.) is produced in a conductor due to its movement across a magnetic field?",
+      "options": [
+        "Electromagnetic induction",
+        "The motor effect",
+        "Magnetic saturation",
+        "Electrostatic discharge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electromagnetic induction is defined as the process of inducing an e.m.f. when a conductor moves across a magnetic field or experiences a changing magnetic field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-easy-q2",
+      "type": "mcq",
+      "question": "Which instrument is typically used in a laboratory to detect the presence of a small induced current in a circuit?",
+      "options": [
+        "Galvanometer",
+        "Voltmeter",
+        "Newton meter",
+        "Barometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "As seen in Figure 18.6, a galvanometer is the instrument used to show the deflection caused by small induced currents.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-easy-q3",
+      "type": "mcq",
+      "question": "What happens to the reading on a galvanometer if a bar magnet is held perfectly stationary inside a solenoid?",
+      "options": [
+        "The reading remains at zero",
+        "The reading shows a maximum positive value",
+        "The reading shows a maximum negative value",
+        "The needle oscillates back and forth"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, no e.m.f. is generated if the magnet is stationary because there is no change in the magnetic flux linking the coil.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-easy-q4",
+      "type": "mcq",
+      "question": "Which of these changes will increase the magnitude of the induced e.m.f. in a solenoid?",
+      "options": [
+        "Moving the magnet faster into the coil",
+        "Using a magnet with a weaker magnetic field",
+        "Decreasing the number of turns in the solenoid",
+        "Keeping the magnet stationary near the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moving the magnet at a higher speed increases the rate of change of magnetic flux, which directly increases the magnitude of the induced e.m.f.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-easy-q5",
+      "type": "mcq",
+      "question": "If moving the North pole of a magnet into a solenoid causes a galvanometer needle to deflect to the left, what will happen if the North pole is pulled out?",
+      "options": [
+        "The needle will deflect to the right",
+        "The needle will still deflect to the left",
+        "The needle will not move at all",
+        "The needle will spin in a full circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing the direction of motion reverses the direction of the induced current and e.m.f., leading to a deflection in the opposite direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

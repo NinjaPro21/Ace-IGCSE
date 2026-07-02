@@ -1,0 +1,77 @@
+{
+  "id": "12-1-the-gradient-function-pyp",
+  "topicId": "12-1-the-gradient-function",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "pyp",
+  "title": "The Gradient Function — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-1-the-gradient-function-pyp-q1",
+      "type": "mcq",
+      "question": "The equation of a curve is $y = 2x^2 - 12x + 7$. Find the coordinates of the point on the curve where the gradient is^8.",
+      "options": [
+        "$(5, -3)$",
+        "$(5, 7)$",
+        "$(2, -9)$",
+        "$(5, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 4x - 12$. Setting $4x - 12 = 8 \\implies 4x = 20 \\implies x = 5$. At $x=5$, $y = 2(25) - 12(5) + 7 = 50 - 60 + 7 = -3$.\n\n**Common mistake:** Option B uses the $x$2$y$ coordinate."
+    },
+    {
+      "id": "12-1-the-gradient-function-pyp-q2",
+      "type": "mcq",
+      "question": "Show that the gradient of the curve $y = 3x + \\frac{12}{x}$ is zero when $x = 2$. Find the other value of $x$ for which the gradient is zero.",
+      "options": [
+        "$-2$",
+        "$2$",
+        "$4$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3 - 12x^{-2} = 3 - \\frac{12}{x^2}$. Setting $3 - \\frac{12}{x^2} = 0 \\implies \\frac{12}{x^2} = 3 \\implies x^2 = 4 \\implies x = \\pm 2$.\n\n**Common mistake:** Option B is the value already given in the 'show that' part of the stem, failing to find the 'other' value."
+    },
+    {
+      "id": "12-1-the-gradient-function-pyp-q3",
+      "type": "mcq",
+      "question": "A curve has the equation $y = ax^3 + 3x^2$. Given that the gradient of the curve at $x = 1$ is^12, find the value of the constant $a$.",
+      "options": [
+        "$2$",
+        "$3$",
+        "$6$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3ax^2 + 6x$2$x = 1$, $3a(1) + 6(1) = 12 \\implies 3a + 6 = 12 \\implies 3a = 6 \\implies a = 2$.\n\n**Common mistake:** Option B is chosen if the student forgets the factor of 3 from the power rule for $x^3$."
+    },
+    {
+      "id": "12-1-the-gradient-function-pyp-q4",
+      "type": "mcq",
+      "question": "Find the set of values of $x$2$y = 2x^3 - 6x$2$18$.",
+      "options": [
+        "$x < -2$ or $x > 2$",
+        "$-2 < x < 2$",
+        "$x > 2$",
+        "$x > 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 6$. Setting $6x^2 - 6 > 18 \\implies 6x^2 > 24 \\implies x^2 > 4 \\implies x < -2$ or $x > 2$.\n\n**Common mistake:** Option C misses the negative region of the inequality solution."
+    },
+    {
+      "id": "12-1-the-gradient-function-pyp-q5",
+      "type": "mcq",
+      "question": "Find the exact coordinates of the point on the curve $y = x^2 - \\frac{16}{x}$ where the gradient is^8.",
+      "options": [
+        "$(2, -4)$",
+        "$(2, 4)$",
+        "$(4, 12)$",
+        "$(1, -15)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 2x + 16x^{-2} = 2x + \\frac{16}{x^2}$. At $x=2$, the gradient is $4 + 4 = 8$. The y-coordinate is $2^2 - 16/2 = 4 - 8 = -4$.\n\n**Common mistake:** Option B is a sign error in calculating the $y$ coordinate."
+    }
+  ]
+}

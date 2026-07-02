@@ -1,0 +1,77 @@
+{
+  "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy",
+  "topicId": "14-2-derivatives-of-logarithmic-functions-harder-topic",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "easy",
+  "title": "Derivatives of Logarithmic Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "Find the derivative of $y = \\ln(5x)$ with respect to $x$.",
+      "options": [
+        "1/x",
+        "5/x",
+        "1/5x",
+        "5 ln x"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the chain rule: $\\frac{dy}{dx}$ = (derivative of 5x) / 5x = 5/5x = 1/x. Alternatively, ln(5x) = ln 5 + ln x, and the derivative of a constant (ln 5) is 0.\n\n**Common mistake:** Thinking the answer is 5/x, forgetting that the 5 in the numerator and denominator cancels out."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Differentiate $y = \\ln(x + 3)$.",
+      "options": [
+        "1 / (x + 3)",
+        "3 / (x + 3)",
+        "1/x",
+        "ln 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of ln[f(x)] is f'(x)/f(x). Here, f(x) = x + 3 and f'(x) = 1.\n\n**Common mistake:** Incorrectly differentiating the constant 3 inside the log as if it were a multiplier."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "What is the derivative of $y = 4 \\ln x$?",
+      "options": [
+        "4/x",
+        "1/4x",
+        "4/x^2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The constant multiplier remains: $\\frac{dy}{dx}$ = 4 * (1/x) = 4/x.\n\n**Common mistake:** Moving the 4 to the denominator, resulting in 1/4x."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Find $f'(x)$ if $f(x) = \\ln(x^2)$.",
+      "options": [
+        "2/x",
+        "1/x^2",
+        "2x",
+        "2/x^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify first: ln(x^2) = 2 ln x. Derivative = 2/x. Using chain rule: (2x)/x^2 = 2/x.\n\n**Common mistake:** Applying the power rule for polynomials incorrectly to get 2x or 1/x^2."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate the derivative of $y = \\ln x$2$x = 2$.",
+      "options": [
+        "0.5",
+        "2",
+        "0",
+        "ln 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 1/x. At x = 2, the value is 1/2 = 0.5.\n\n**Common mistake:** Substituting 2 into the original function instead of the derivative."
+    }
+  ]
+}

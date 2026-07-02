@@ -1,0 +1,77 @@
+{
+  "id": "4-1-forces-hard",
+  "topicId": "4-1-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "hard",
+  "title": "Forces — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-forces-hard-q1",
+      "type": "mcq",
+      "question": "A spring has an original length of $25.0\\text{ cm}$ and a spring constant of $2.0\\text{ N/cm}$. If a $10\\text{ N}$ weight is attached, what is the new total length of the spring?",
+      "options": [
+        "$30.0\\text{ cm}$",
+        "$5.0\\text{ cm}$",
+        "$20.0\\text{ cm}$",
+        "$50.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find extension: $x = F / k = 10\\text{ N} / 2.0\\text{ N/cm} = 5.0\\text{ cm}$. New length $l = l_0 + x = 25.0 + 5.0 = 30.0\\text{ cm}$. \n\n**Common mistake:** Providing the extension ($5.0\\text{ cm}$) as the final answer instead of the total length."
+    },
+    {
+      "id": "4-1-forces-hard-q2",
+      "type": "mcq",
+      "question": "What happens to a spring once it is stretched beyond its 'limit of proportionality'?",
+      "options": [
+        "The extension is no longer directly proportional to the load",
+        "The spring constant becomes zero",
+        "The spring will always return to its original shape",
+        "The load–extension graph becomes a horizontal line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beyond the limit of proportionality, the graph is no longer a straight line, and Hooke's Law no longer applies. \n\n**Common mistake:** Thinking the spring breaks immediately; it simply stops behaving proportionally."
+    },
+    {
+      "id": "4-1-forces-hard-q3",
+      "type": "mcq",
+      "question": "A student plots a graph of Extension ($y$-axis) against Load ($x$-axis). What does the gradient of this graph represent?",
+      "options": [
+        "The reciprocal of the spring constant ($\\frac{1}{k}$)",
+        "The spring constant ($k$)",
+        "The original length of the spring",
+        "The limit of proportionality"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $k = Load / Extension$, a graph of Extension / Load has a gradient of $1/k$. \n\n**Common mistake:** Assuming the gradient is always $k$ regardless of which quantity is on which axis."
+    },
+    {
+      "id": "4-1-forces-hard-q4",
+      "type": "mcq",
+      "question": "A spring is stretched by $2.0\\text{ cm}$ by a $4\\text{ N}$ load. If the same spring is stretched to a total extension of $8.0\\text{ cm}$ (within the limit of proportionality), what is the new load?",
+      "options": [
+        "$16\\text{ N}$",
+        "$8\\text{ N}$",
+        "$32\\text{ N}$",
+        "$12\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The extension increased by a factor of 4 ($8/2$). Since $F \\propto x$, the load must also increase by a factor of 4: $4\\text{ N} \\times 4 = 16\\text{ N}$. \n\n**Common mistake:** Adding $4\\text{ N}$ to the original load to get $8\\text{ N}$ instead of using proportionality."
+    },
+    {
+      "id": "4-1-forces-hard-q5",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ mass is hung from a spring with $k = 4.0\\text{ N/cm}$. Calculate the extension in centimetres. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$5.0\\text{ cm}$",
+        "$0.5\\text{ cm}$",
+        "$8.0\\text{ cm}$",
+        "$2.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find weight: $W = 2.0 \\times 10 = 20\\text{ N}$. Then $x = W / k = 20\\text{ N} / 4.0\\text{ N/cm} = 5.0\\text{ cm}$. \n\n**Common mistake:** Using the mass ($2.0$) in the spring formula directly without converting it to weight ($20\\text{ N}$)."
+    }
+  ]
+}

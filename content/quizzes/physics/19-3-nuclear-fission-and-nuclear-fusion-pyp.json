@@ -1,0 +1,77 @@
+{
+  "id": "19-3-nuclear-fission-and-nuclear-fusion-pyp",
+  "topicId": "19-3-nuclear-fission-and-nuclear-fusion",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "pyp",
+  "title": "Nuclear Fission and Nuclear Fusion — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-pyp-q1",
+      "type": "mcq",
+      "question": "The table compares two nuclear processes. Which row is correct?nn| Row | Process | Description |n| :--- | :--- | :--- |n| A | Fission | Lighter nuclei combine to form heavier nucleus |n| B | Fusion | Heavy nucleus splits into lighter nuclei |n| C | Fission | Total mass before is greater than total mass after |n| D | Fusion | Total nucleon number decreases during the reaction |",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "In both fission and fusion, energy release means total mass before > total mass after. A and B are swapped definitions. D is incorrect because nucleon number is conserved.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-pyp-q2",
+      "type": "mcq",
+      "question": "The equation shows a nuclear reaction: $^{239}{94} Pu + ^1_0 n rightarrow ^{137}{54} Xe + ^{103}_{40} Zr + X ^1_0 n$. nWhat is the value of $X$ that balances the nucleon number?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total nucleons before = $239 + 1 = 240$. Total nucleons after = $137 + 103 + X(1) = 240 + X$. For balance, $X = 0$. (Note: Based on the specific example provided in Table 19.2).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-pyp-q3",
+      "type": "mcq",
+      "question": "Which process occurs in the Sun to release energy and what is the main fuel used?",
+      "options": [
+        "Nuclear fusion of hydrogen",
+        "Nuclear fission of uranium",
+        "Nuclear fusion of helium",
+        "Chemical combustion of methane"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sun releases energy by nuclear fusion. The primary fuel is hydrogen, which combines to form helium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-pyp-q4",
+      "type": "mcq",
+      "question": "A heavy nucleus splits into two lighter nuclei. Which statement about the energy released is correct?",
+      "options": [
+        "The energy comes from a decrease in total mass",
+        "The energy comes from an increase in total nucleon number",
+        "The energy comes from a decrease in total charge",
+        "The energy is absorbed from the surroundings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is released in fission because the total mass before is greater than the total mass after. Energy is released, not absorbed.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-3-nuclear-fission-and-nuclear-fusion-pyp-q5",
+      "type": "mcq",
+      "question": "Nuclear fusion is described as the 'combining of nuclei'. Why is it difficult to achieve on Earth for energy production?",
+      "options": [
+        "It requires extremely high temperatures to overcome repulsion",
+        "It requires a heavy nucleus like Plutonium",
+        "It does not release as much energy as fission",
+        "It results in no change in mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "While not detailed in the snippets, the context of 'research being carried out' and the Sun/Hydrogen bomb examples implies the extreme conditions (high temperature/pressure) needed to force positive nuclei together. (Note: Option A is standard physics knowledge consistent with the 'Sun' context in sources).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

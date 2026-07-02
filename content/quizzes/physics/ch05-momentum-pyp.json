@@ -1,0 +1,207 @@
+{
+  "id": "ch05-momentum-pyp",
+  "topicId": "ch05-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "pyp",
+  "title": "Chapter 5: Momentum — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-momentum-pyp-q1",
+      "type": "mcq",
+      "question": "A truck of mass $10000\\text{ kg}$ is moving at $5.0\\text{ m/s}$. Calculate the momentum of the truck.",
+      "options": [
+        "$5.0 \\times 10^{4}\\text{ kg m/s}$",
+        "$5.0 \\times 10^{-4}\\text{ kg m/s}$",
+        "$2.0 \\times 10^{3}\\text{ kg m/s}$",
+        "$2.5 \\times 10^{5}\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$p = 10000 \\times 5 = 50000 = 5.0 \\times 10^{4}\\text{ kg m/s}$. \n\n**Common mistake:** Incorrect use of standard form or dividing mass by velocity ($2000$)."
+    },
+    {
+      "id": "ch05-momentum-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement about momentum is correct?",
+      "options": [
+        "Momentum is the product of mass and velocity.",
+        "Momentum is the product of mass and speed.",
+        "Momentum is the ratio of mass to velocity.",
+        "Momentum is the ratio of velocity to mass."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material specifically defines momentum as the product of mass and velocity. \n\n**Common mistake:** Selecting 'speed' instead of 'velocity'; velocity includes direction, which is vital for the vector nature of momentum."
+    },
+    {
+      "id": "ch05-momentum-pyp-q3",
+      "type": "mcq",
+      "question": "Two identical arrows are moving towards a target. Arrow A is moving faster than Arrow B. Which arrow has more momentum?",
+      "options": [
+        "Arrow A",
+        "Arrow B",
+        "They both have the same momentum",
+        "It depends on the height of the target"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the arrows are identical, they have the same mass. Because Arrow A has a higher velocity, it must have more momentum ($p = mv$). \n\n**Common mistake:** Thinking that identical objects always have identical momentum regardless of speed."
+    },
+    {
+      "id": "ch05-momentum-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes momentum?",
+      "options": [
+        "Type: Vector; Unit: $\\text{kg m/s}$",
+        "Type: Scalar; Unit: $\\text{kg m/s}$",
+        "Type: Vector; Unit: $\\text{N s}^2$",
+        "Type: Scalar; Unit: $\\text{J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector quantity and its standard SI unit is $\\text{kg m/s}$. \n\n**Common mistake:** Thinking momentum is a scalar or confusing its unit with energy ($\\text{J}$)."
+    },
+    {
+      "id": "ch05-momentum-pyp-q5",
+      "type": "mcq",
+      "question": "A toy car of mass $0.2\\text{ kg}$ is travelling at $3\\text{ m/s}$. What is its momentum?",
+      "options": [
+        "$0.6\\text{ kg m/s}$",
+        "$15\\text{ kg m/s}$",
+        "$1.5\\text{ kg m/s}$",
+        "$6.0\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$p = 0.2 \\times 3 = 0.6\\text{ kg m/s}$. \n\n**Common mistake:** Dividing $3$ by $0.2$ to get $15$."
+    },
+    {
+      "id": "ch05-momentum-pyp-q6",
+      "type": "mcq",
+      "question": "Which statement correctly defines impulse?",
+      "options": [
+        "Impulse = force $times$ time for which force acts",
+        "Impulse = mass $times$ velocity",
+        "Impulse = mass $times$ acceleration",
+        "Impulse = force $times$ distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "As seen in typical Cambridge multiple-choice papers, impulse is defined as the force multiplied by the duration of its action. \n\n**Common mistake:** Mixing up impulse with work done ($Fd$)."
+    },
+    {
+      "id": "ch05-momentum-pyp-q7",
+      "type": "mcq",
+      "question": "Which of the following is equivalent to the resultant force acting on a body?",
+      "options": [
+        "The change in momentum per unit time",
+        "The total change in momentum",
+        "The product of mass and final velocity",
+        "The work done divided by time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Newton's second law in terms of momentum states that force is equal to the rate of change of momentum (change per unit time). \n\n**Common mistake:** Selecting 'total change', which defines impulse, not force."
+    },
+    {
+      "id": "ch05-momentum-pyp-q8",
+      "type": "mcq",
+      "question": "A $0.5\\text{ kg}$ object experiences a force of $10\\text{ N}$ for $2.0\\text{ s}$. What is the final momentum of the object if it started from rest?",
+      "options": [
+        "$20\\text{ kg m/s}$",
+        "$10\\text{ kg m/s}$",
+        "$5\\text{ kg m/s}$",
+        "$40\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Change in momentum (Impulse) $= F \\times t = 10 \\times 2 = 20\\text{ kg m/s}$. Since it started from rest, final momentum is $20$. \n\n**Common mistake:** Dividing force by time ($5$) or mass by time ($0.25$)."
+    },
+    {
+      "id": "ch05-momentum-pyp-q9",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the units for momentum and impulse?",
+      "options": [
+        "Momentum: $kg m/s$; Impulse: $N s$",
+        "Momentum: $N s$; Impulse: $N/s$",
+        "Momentum: $kg m/s^2$; Impulse: $N s$",
+        "Momentum: $kg m/s$; Impulse: $J$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum ($mv$) is $kg m/s$ and Impulse ($Ft$) is $N s$. These two units are physically equivalent. \n\n**Common mistake:** Using $kg m/s^2$ which is the unit for force (Newtons)."
+    },
+    {
+      "id": "ch05-momentum-pyp-q10",
+      "type": "mcq",
+      "question": "A sponge falls and reaches terminal velocity. Which statement about the impulse acting on the sponge during terminal velocity is correct?",
+      "options": [
+        "The net impulse is zero because the resultant force is zero",
+        "The impulse is equal to the weight multiplied by time",
+        "The impulse is increasing as the sponge falls",
+        "The impulse is equal to the mass multiplied by the acceleration of gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "At terminal velocity, the resultant force is zero. Since $Impulse = F_{net} \\times t$, if $F_{net} = 0$, the resultant impulse is also zero. \n\n**Common mistake:** Thinking weight continues to provide a net impulse even when air resistance balances it."
+    },
+    {
+      "id": "ch05-momentum-pyp-q11",
+      "type": "mcq",
+      "question": "A car of mass $1200\\text{ kg}$ travelling at $8.0\\text{ m/s}$ collides with a stationary lorry of mass $2800\\text{ kg}$. The two vehicles stick together. What is their speed immediately after the collision?",
+      "options": [
+        "$2.4\\text{ m/s}$",
+        "$3.4\\text{ m/s}$",
+        "$4.0\\text{ m/s}$",
+        "$4.8\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from the worked example: $(1200 \\times 8) / (1200 + 2800) = 9600 / 4000 = 2.4\\text{ m/s}$. \n\n**Common mistake:** Dividing by the mass of the lorry only ($3.4$)."
+    },
+    {
+      "id": "ch05-momentum-pyp-q12",
+      "type": "mcq",
+      "question": "A bullet of mass $0.05\\text{ kg}$ is fired into a wooden block of mass $1.95\\text{ kg}$ resting on a frictionless surface. They stick together and move at $15\\text{ m/s}$. What was the bullet's initial speed?",
+      "options": [
+        "$600\\text{ m/s}$",
+        "$15\\text{ m/s}$",
+        "$300\\text{ m/s}$",
+        "$585\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conservation of momentum: $m_b u = (m_b + m_{block}) v$. $0.05 u = 2.0 \\times 15 = 30$, so $u = 600\\text{ m/s}$. \n\n**Common mistake:** Using the block's mass only."
+    },
+    {
+      "id": "ch05-momentum-pyp-q13",
+      "type": "mcq",
+      "question": "Skater A ($80\\text{ kg}$) and Skater B ($50\\text{ kg}$) push each other off from rest. A moves at $0.5\\text{ m/s}$. What is the velocity of B?",
+      "options": [
+        "$-0.8\\text{ m/s}$",
+        "$0.8\\text{ m/s}$",
+        "$-0.5\\text{ m/s}$",
+        "$-0.3\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total momentum must remain zero: $(80 \\times 0.5) + (50 \\times v_B) = 0 implies 40 + 50v_B = 0 implies v_B = -0.8\\text{ m/s}$. \n\n**Common mistake:** Ignoring the negative sign which indicates the opposite direction."
+    },
+    {
+      "id": "ch05-momentum-pyp-q14",
+      "type": "mcq",
+      "question": "The diagram shows an empty freight car ($2000\\text{ kg}$) moving at $8\\text{ m/s}$ colliding with a stationary car ($8000\\text{ kg}$). With what speed do the combined cars move?",
+      "options": [
+        "$1.6\\text{ m/s}$",
+        "$2.0\\text{ m/s}$",
+        "$8.0\\text{ m/s}$",
+        "$10\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total momentum $= 2000 \\times 8 = 16000$. Combined mass $= 10000$. Speed $= 16000 / 10000 = 1.6\\text{ m/s}$. \n\n**Common mistake:** Adding the speeds instead of momentum."
+    },
+    {
+      "id": "ch05-momentum-pyp-q15",
+      "type": "mcq",
+      "question": "A table shows the momentum of two objects before and after a collision in a closed system. Which set of values is correct?",
+      "options": [
+        "Before: $10\\text{, } 0$; After: $4\\text{, } 6$",
+        "Before: $10\\text{, } 5$; After: $10\\text{, } 10$",
+        "Before: $5\\text{, } 5$; After: $0\\text{, } 5$",
+        "Before: $20\\text{, } 0$; After: $10\\text{, } 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an isolated system, the sum of momentum before ($10+0=10$) must equal the sum after ($4+6=10$). \n\n**Common mistake:** Choosing a set where the values increase, which violates conservation."
+    }
+  ]
+}

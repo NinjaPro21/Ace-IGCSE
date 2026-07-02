@@ -1,0 +1,77 @@
+{
+  "id": "8-2-changing-the-subject-hard",
+  "topicId": "8-2-changing-the-subject",
+  "chapterId": "ch02-algebra",
+  "difficulty": "hard",
+  "title": "Changing the Subject — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-changing-the-subject-hard-q1",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $x$2$x$ appears multiple times:\n\n$y = \\frac{x + 3}{x - 2}$",
+      "options": [
+        "$x = \\frac{2y + 3}{y - 1}$",
+        "$x = \\frac{2y - 3}{y + 1}$",
+        "$x = \\frac{3 - 2y}{y - 1}$",
+        "$x = \\frac{2y + 3}{y + 1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both sides by $(x - 2)$ to eliminate the denominator: $y(x - 2) = x + 3$. Expand the left side: $yx - 2y = x + 3$. Rearrange to group all terms with $x$2$yx - x = 2y + 3$. Factorise out $x$2$x(y - 1) = 2y + 3$. Divide by $(y - 1)$ to get the final subject: $x = \\frac{2y + 3}{y - 1}$.\n\n**Common mistake:** The primary error in this style of question is failing to gather all terms involving the target variable on one side so that it can be factorised out safely."
+    },
+    {
+      "id": "8-2-changing-the-subject-hard-q2",
+      "type": "mcq",
+      "question": "Make $p$ the subject of the formula:\n\n$q = \\frac{2p - 1}{p + 3}$",
+      "options": [
+        "$p = \\frac{3q + 1}{2 - q}$",
+        "$p = \\frac{3q - 1}{2 + q}$",
+        "$p = \\frac{1 - 3q}{q - 2}$",
+        "$p = \\frac{3q + 1}{q - 2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both sides by $(p + 3)$: $q(p + 3) = 2p - 1$. Expand: $qp + 3q = 2p - 1$. Collect all terms involving $p$2$3q + 1 = 2p - qp$2$p$2$3q + 1 = p(2 - q)$. Divide by $(2 - q)$ to finish: $p = \\frac{3q + 1}{2 - q}$.\n\n**Common mistake:** Sign errors are common when moving terms across the equals sign, especially when dealing with negative coefficients or constants."
+    },
+    {
+      "id": "8-2-changing-the-subject-hard-q3",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $x$ the subject:\n\n$y = 5 - \\frac{2}{x^2}$",
+      "options": [
+        "$x = \\pm\\sqrt{\\frac{2}{5 - y}}$",
+        "$x = \\pm\\sqrt{\\frac{5 - y}{2}}$",
+        "$x = \\frac{2}{5 - y}$",
+        "$x = \\pm\\sqrt{\\frac{2}{y - 5}}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolate the $\\frac{tional}{}$ term by rearranging: $\\frac{2}{x^2} = 5 - y$2$x^2$: $2 = x^2(5 - y) \\implies x^2 = \\frac{2}{5 - y}$. Take the square root of both sides, keeping both signs: $x = \\pm\\sqrt{\\frac{2}{5 - y}}$.\n\n**Common mistake:** Students frequently mismanage the negative sign attached to the $\\frac{tion}{}$, or forget to apply a square root at the final stage."
+    },
+    {
+      "id": "8-2-changing-the-subject-hard-q4",
+      "type": "mcq",
+      "question": "Make $c$ the subject of the formula:\n\nE = mc^2",
+      "options": [
+        "$c = \\pm\\sqrt{\\frac{E}{m}}$",
+        "$c = \\left(\\frac{E}{m}\\right)^2$",
+        "$c = \\pm\\sqrt{Em}$",
+        "$c = \\frac{\\sqrt{E}}{m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide both sides by $m$2$c^2$: $\\frac{E}{m} = c^2$. Take the square root of both sides to isolate $c$2$c = \\pm\\sqrt{\\frac{E}{m}}$.\n\n**Common mistake:** Many students leave out the negative alternative ($\\pm$) when introducing a square root into a purely algebraic formula arrangement."
+    },
+    {
+      "id": "8-2-changing-the-subject-hard-q5",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $x$ the subject:\n\n$y = \\frac{ax + b}{cx + d}$",
+      "options": [
+        "$x = \\frac{b - yd}{cy - a}$",
+        "$x = \\frac{yd - b}{cy - a}$",
+        "$x = \\frac{yd - b}{a - cy}$",
+        "$x = \\frac{b + yd}{cy + a}$"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiply both sides by $(cx + d)$: $y(cx + d) = ax + b$2$cyx + dy = ax + b$2$x$2$dy - b = ax - cyx$2$x$2$dy - b = x(a - cy)$. Divide to make $x$2$x = \\frac{dy - b}{a - cy}$ or equivalently $x = \\frac{b - dy}{cy - a}$. Looking at our options, $\\frac{yd - b}{a - cy}$ matches option C precisely.\n\n**Common mistake:** When terms are moved around, signs are often mismatched. Factorising expression frameworks carefully ensures signs remain completely accurate."
+    }
+  ]
+}

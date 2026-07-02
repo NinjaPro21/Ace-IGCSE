@@ -1,0 +1,402 @@
+{
+  "id": "ch05-trigonometry-pyp",
+  "topicId": "ch05-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "pyp",
+  "title": "Chapter 5: Trigonometry — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-trigonometry-pyp-q1",
+      "type": "mcq",
+      "question": "Calculate the direct distance from the starting point if a man walks $15\\text{ km}$ due North and then $20\\text{ km}$ due East.",
+      "options": [
+        "$25\\text{ km}$",
+        "$35\\text{ km}$",
+        "$\\sqrt{35}\\text{ km}$",
+        "$625\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The North and East paths form the legs of a right triangle. Distance $= \\sqrt{15}² + 20^2 = \\sqrt{225} + 400 = \\sqrt{625} = 25$.\n\n**Common mistake:** A student may add the distances ($35$) or provide the square of the distance ($625$)."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q2",
+      "type": "mcq",
+      "question": "The diagonal of a square is $12\\text{ cm}$. Work out the length of one side of the square, giving your answer to 3 significant figures.",
+      "options": [
+        "$8.49\\text{ cm}$",
+        "$16.97\\text{ cm}$",
+        "$6.00\\text{ cm}$",
+        "$72.00\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let side be $s$2$s^2 + s^2 = 12^2 \\Rightarrow 2s^2 = 144 \\Rightarrow s^2 = 72 \\Rightarrow s = \\sqrt{72} \\approx 8.485$.\n\n**Common mistake:** The student might divide $12$ by $2$ or assume the side is $12$ and find the diagonal instead."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q3",
+      "type": "mcq",
+      "question": "A square-based pyramid $VABCD$2$10\\text{ cm}$ and a slant edge $VA = 13\\text{ cm}$. Find the vertical height of the pyramid.",
+      "options": [
+        "$10.9\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$\\sqrt{69}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal of base $= \\sqrt{10}² + 10^{2} = \\sqrt{200} = 10\\sqrt{2}$. Half diagonal $= 5\\sqrt{2}$. Height $= \\sqrt{13}² - (5\\sqrt{2})² = \\sqrt{169} - 50 = \\sqrt{119} \\approx 10.91$.\n\n**Common mistake:** The student might use half of the side ($5$) instead of the distance to the center (half-diagonal $5\\sqrt{2}$)."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q4",
+      "type": "mcq",
+      "question": "Triangle $ABC$2$AB = \\sqrt{12}\\text{ cm}$ and $BC = \\sqrt{48}\\text{ cm}$. If $∠ABC = 90°$, find the exact length of $AC$.",
+      "options": [
+        "$\\sqrt{60}\\text{ cm}$",
+        "$60\\text{ cm}$",
+        "$7.75\\text{ cm}$",
+        "$\\sqrt{36}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$AC^2 = (\\sqrt{12})² + (\\sqrt{48})² = 12 + 48 = 60$. Therefore $AC = \\sqrt{60}$.\n\n**Common mistake:** The student might try to add the square roots directly ($\\sqrt{12} + \\sqrt{48}$) instead of squaring them first."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q5",
+      "type": "mcq",
+      "question": "A thin wire of length $20\\text{ cm}$ is bent to form the two shorter sides of a right-angled triangle. If one of these sides is $x\\text{ cm}$, write an expression for the length of the hypotenuse.",
+      "options": [
+        "$√x^2 + (20 - x)²$",
+        "$√x^2 + 20^2$",
+        "$20 - x$",
+        "$x + (20 - x)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the sum of the two legs is $20$, and one is $x$2$(20-x)$. The hypotenuse is the square root of the sum of their squares.\n\n**Common mistake:** A student might assume the hypotenuse is the total length of the wire or ignore the 'shorter sides' wording."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q6",
+      "type": "mcq",
+      "question": "Calculate the length of side $x$2$25.4°$ and the adjacent side is $10\\text{ cm}$. Give your answer correct to 3 significant figures.",
+      "options": [
+        "$4.75\\text{ cm}$",
+        "$4.29\\text{ cm}$",
+        "$9.03\\text{ cm}$",
+        "$23.2\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the tangent ratio: $\\tan 25.4° = x/10 \\Rightarrow x = 10 \\times \\tan 25.4° \\approx 4.748$. Rounded to 3 s.f., $x = 4.75$.\n\n**Common mistake:** The student may use the sine ratio instead of the tangent ratio, resulting in $4.29$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q7",
+      "type": "mcq",
+      "question": "The angle of elevation of the top of a building from a point $20\\text{ m}$ away from its base is $65°$. Work out the height of the building.",
+      "options": [
+        "$42.9\\text{ m}$",
+        "$18.1\\text{ m}$",
+        "$8.45\\text{ m}$",
+        "$47.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan 65° = \\text{height}/20 \\Rightarrow \\text{height} = 20 \\tan 65° \\approx 42.89$.\n\n**Common mistake:** A student might use $20 \\sin 65°$, which would give the direct distance to the top (hypotenuse) instead of the vertical height."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q8",
+      "type": "mcq",
+      "question": "Without using a calculator, show that the expression $\\frac{\\sin 30° + \\tan 45°}{\\sin 90°}$ simplifies to an exact value. What is this value?",
+      "options": [
+        "$1.5$",
+        "$1.866$",
+        "$2$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute exact values: $(0.5 + 1) / 1 = 1.5$.\n\n**Common mistake:** The student might think $\\sin 90° = 0$, leading to an undefined error, or $\\tan 45° = 0.5$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q9",
+      "type": "mcq",
+      "question": "Hence, find the size of the angle $x$2$14\\text{ cm}$ and the adjacent side is $7\\text{ cm}$.",
+      "options": [
+        "$60°$",
+        "$30°$",
+        "$45°$",
+        "$90°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\cos x = 7/14 = 1/2$. We know from exact values that $\\cos 60° = 1/2$, so $x = 60°$.\n\n**Common mistake:** A student might use the sine ratio and find $x = 30°$ instead."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q10",
+      "type": "mcq",
+      "question": "Work out the length of $PR$2$PQR$2$∠Q = 90°, ∠R = 31.7°,$ and $QR = 0.81\\text{ cm}$. Give your answer to 3 significant figures.",
+      "options": [
+        "$0.952\\text{ cm}$",
+        "$0.689\\text{ cm}$",
+        "$1.31\\text{ cm}$",
+        "$0.426\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$QR$2$∠R$2$\\cos 31.7° = 0.81/PR \\Rightarrow PR = 0.81 / \\cos 31.7° \\approx 0.9519$. Rounded to 3 s.f., $0.952$.\n\n**Common mistake:** The student might multiply $0.81 \\times \\cos 31.7°$ instead of dividing."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q11",
+      "type": "mcq",
+      "question": "Point $B$2$134°$ from Point $A$2$A$2$B$.",
+      "options": [
+        "$314°$",
+        "$046°$",
+        "$226°$",
+        "$224°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The back bearing is $134 + 180 = 314°$.\n\n**Common mistake:** A student might subtract $134$ from $180$ or $360$ incorrectly."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q12",
+      "type": "mcq",
+      "question": "A scale drawing is made of a triangular field $PQR$2$PQ = 7\\text{ cm}, QR = 5\\text{ cm},$ and $PR = 6\\text{ cm}$ on the drawing. If the scale is $1 : 2000$, calculate the actual length of the longest side of the field in metres.",
+      "options": [
+        "$140\\text{ m}$",
+        "$14000\\text{ m}$",
+        "$120\\text{ m}$",
+        "$70\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Longest side on drawing is $7\\text{ cm}$. Actual length $= 7 \\times 2000 = 14000\\text{ cm}$. Converting to metres: $14000 / 100 = 140\\text{ m}$.\n\n**Common mistake:** A student might leave the answer in centimetres or use the $5\\text{ cm}$ side by mistake."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q13",
+      "type": "mcq",
+      "question": "Calculate the angle of elevation of the sun if a vertical pole of height $2.5\\text{ m}$ casts a shadow $4\\text{ m}$ long on horizontal ground.",
+      "options": [
+        "$32.0°$",
+        "$58.0°$",
+        "$38.7°$",
+        "$51.3°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan \\theta = \\text{height} / \\text{shadow} = 2.5 / 4 = 0.625$. $\\theta = \\tan^{-1}$(0.625) \\approx 32.0°2\n\n**Common mistake:** The student might swap the height and shadow values, calculating the angle between the pole and the sun's rays ($58°$)."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q14",
+      "type": "mcq",
+      "question": "A ship sails from $A$2$B$2$042°$ for $22\\text{ km}$, then to $C$2$090°$ for $30\\text{ km}$. Which calculation shows the total distance East the ship has moved from its starting point?",
+      "options": [
+        "$22 \\sin 42° + 30$",
+        "$22 \\cos 42° + 30$",
+        "$22 \\tan 42° + 30$",
+        "$22 + 30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Eastward component of the first leg is $22 \\sin 42°$. The second leg is due East, so its full $30\\text{ km}$ is added.\n\n**Common mistake:** A student might use cosine (calculating the Northward move) or simply add the scalars without trigonometry."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q15",
+      "type": "mcq",
+      "question": "Hence, find the bearing of San Diego ($S$2$F$2$S$2$426\\text{ km}$ from Las Vegas ($L$2$F$2$507\\text{ km}$ from $S$2$L$2$F$2$100°$, and angle $FLS = 75°$.",
+      "options": [
+        "$154°$",
+        "$025°$",
+        "$175°$",
+        "$125°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on source 148, using the sine rule in triangle $FLS$2$LFS$2$100°$ bearing leads to a result of approximately $154.3°$.\n\n**Common mistake:** The student might assume triangle $FLS$2$75°$ directly to the bearing."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q16",
+      "type": "mcq",
+      "question": "VABCD is a pyramid with a rectangular base. $AB = 12\\text{ m}, BC = 9\\text{ m}$ and the vertical height is $10\\text{ m}$. Calculate the length of the slant edge $VB$.",
+      "options": [
+        "$12.5\\text{ m}$",
+        "$15.0\\text{ m}$",
+        "$25.0\\text{ m}$",
+        "$\\sqrt{181}\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal $AC = \\sqrt{12}² + 9^2 = 15$. Half-diagonal $OB = 7.5$. $VB = \\sqrt{10}² + 7.5^2 = \\sqrt{156}.25 = 12.5$.\n\n**Common mistake:** A student might add the vertical height to the side length directly ($12+10$) or forget to halve the base diagonal."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q17",
+      "type": "mcq",
+      "question": "Hence, find the angle between the slant edge $VB$2$AB=12, BC=9, height=10$).",
+      "options": [
+        "$53.1°$",
+        "$36.9°$",
+        "$41.8°$",
+        "$48.2°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan \\theta = 10 / 7.5 = 1.33 \\Rightarrow \\theta \\approx 53.13°$.\n\n**Common mistake:** The student might use the full diagonal ($15$) as the adjacent side, resulting in an angle of $33.7°$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q18",
+      "type": "mcq",
+      "question": "A cuboid has a square base of side $7\\text{ cm}$ and a height of $11\\text{ cm}$. Calculate the angle that the interior diagonal makes with the vertical edge.",
+      "options": [
+        "$42.0°$",
+        "$48.0°$",
+        "$32.5°$",
+        "$58.0°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base diagonal $= \\sqrt{7}² + 7^2 = \\sqrt{98} \\approx 9.90. The angle with the vertical edge is the complement of the angle with the base$2$2\\tan \\theta = 9.90 / 11 \\approx 0.9 \\Rightarrow \\theta \\approx 42.0°$.\n\n**Common mistake:** Students often calculate the angle with the horizontal base ($48°$) instead of the angle with the vertical edge."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q19",
+      "type": "mcq",
+      "question": "Show that the distance between the point $(2, 3, 4)$ and the origin $(0, 0, 0)$ is $\\sqrt{29}$. What is the angle this line makes with the $xy$-plane?",
+      "options": [
+        "$48.0°$",
+        "$42.0°$",
+        "$36.1°$",
+        "$53.9°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance to origin $= \\sqrt{2}² + 3^2 + 4^2 = \\sqrt{29}$. Distance on $xy$2$= \\sqrt{2}² + 3^2 = \\sqrt{13}$. $\\sin \\theta = 4 / \\sqrt{29} \\Rightarrow \\theta = \\sin^{-1}$(0.743) \\approx 48.0°2\n\n**Common mistake:** The student might divide by the ground distance $\\sqrt{13}$ but use the wrong trigonometric ratio."
+    },
+    {
+      "type": "mcq",
+      "question": "A rectangular box has edges of 4 cm, 6 cm and 8 cm. Find the angle a diagonal of the box makes with the largest face.",
+      "options": [
+        "$21.8°$",
+        "$26.6°$",
+        "$30.0°$",
+        "$18.4°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal of largest face ($6 \\times 8$) is 10 cm. Let diagonal of box be $D = \\sqrt{10^{2} + 4^2}$. Angle $\\theta = \\tan^{-1}(4/10) \\approx 21.8°$.\n\n**Common mistake:** Using the wrong face for the reference diagonal, which changes the base of the triangle.",
+      "id": "ch05-trigonometry-pyp-q20"
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q21",
+      "type": "mcq",
+      "question": "Solve the equation $\\sin x = -0.5$ for $0° \\le x \\le 360°$.",
+      "options": [
+        "$210°, 330°$",
+        "$150°, 210°$",
+        "$30°, 150°$",
+        "$210°, 240°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 30° = 0.5$. Sine is negative in the 3rd and 4th quadrants. $180 + 30 = 210°$ and $360 - 30 = 330°$.\n\n**Common mistake:** A student might provide the positive solutions ($30°, 150°$) despite the equation specifying $-0.5$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q22",
+      "type": "mcq",
+      "question": "Work out the exact value of $\\sin 150° + \\cos 330°$.",
+      "options": [
+        "$0.5 + \\sqrt{3}/2$",
+        "$1.366$",
+        "$1$",
+        "$0.5 - \\sqrt{3}/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 150° = \\sin 30° = 0.5$. $\\cos 330° = \\cos 30° = \\sqrt{3}/2$. The sum is $0.5 + \\sqrt{3}/2$.\n\n**Common mistake:** The student might assume $\\cos 330°$ is negative or use $\\sin 60°$ for the calculation."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q23",
+      "type": "mcq",
+      "question": "A graph of $y = f(x)$ is shown for $0° \\le x \\le 360°$. The graph crosses the $x$2$90°$ and $270°$, and has its minimum point at $(180°, -1)$. Identify the function.",
+      "options": [
+        "$\\cos x$",
+        "$\\sin x$",
+        "$\\tan x$",
+        "$-\\sin x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cosine graph starts at $(0, 1)$, crosses at $90°$, reaches its minimum of $-1$ at $180°$, and crosses again at $270°$.\n\n**Common mistake:** The student may choose sine, which starts at $(0,0)$ and has its minimum at $270°$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q24",
+      "type": "mcq",
+      "question": "Solve the equation $\\tan(x - 45°) = 1$ for $0° \\le x \\le 360°$.",
+      "options": [
+        "$90°, 270°$",
+        "$45°, 225°$",
+        "$90°, 180°$",
+        "$0°, 180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $\\tan \\theta = 1$, then $\\theta = 45°, 225°$. So $x - 45 = 45 \\Rightarrow x = 90°$ and $x - 45 = 225 \\Rightarrow x = 270°$.\n\n**Common mistake:** The student might think the solutions are simply $45°$ and $225°$, forgetting to add the $45°$ shift to each root."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q25",
+      "type": "mcq",
+      "question": "Show that the equation $\\sin x = \\sin(180° - x)$ is true for all $x$2$\\sin 35° = 0.574$, what is the value of $\\sin 145°$?",
+      "options": [
+        "$0.574$",
+        "$-0.574$",
+        "$0.426$",
+        "$0.819$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the symmetry rule $\\sin x = \\sin(180° - x)$, the values are identical. $180 - 35 = 145$, so $\\sin 145° = 0.574$.\n\n**Common mistake:** The student might assume a sign change is necessary for angles greater than $90°$ in the sine function."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q26",
+      "type": "mcq",
+      "question": "In triangle ABC, angle $A = 62°$, side $a = 8$ cm, and side $c = 7$ cm. Calculate angle $C$.",
+      "options": [
+        "50.6°",
+        "62.0°",
+        "67.4°",
+        "129.4°"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin C / 7 = \\sin 62° / 8 \\Rightarrow \\sin C = (7 \\times 0.8829) / 8 = 0.7725$. $C = \\sin^{-1}$(0.7725) \\approx 50.6°2\n\n**Common mistake:** The student might select $67.4$ which is the third angle, or multiply $7 \\times \\sin 62$ without dividing by $8$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q27",
+      "type": "mcq",
+      "question": "Calculate the length of side BC in a triangle where $AB = 4$ cm, $AC = 7$ cm, and angle $A = 57°$.",
+      "options": [
+        "5.87 cm",
+        "6.32 cm",
+        "34.4 cm",
+        "8.12 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a^2 = 4^2 + 7^2 - (2 \\times 4 \\times 7 \\times \\cos 57°) = 16 + 49 - (56 \\times 0.5446) = 65 - 30.5 = 34.5$. $a = \\sqrt{34.5} \\approx 5.87$.\n\n**Common mistake:** Arithmetic errors in the final subtraction before the square root are frequent."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q28",
+      "type": "mcq",
+      "question": "A ship sails $7$ km on a bearing of $306°$ and then $11$ km on a bearing of $070°$. Which rule is primarily used to find the direct distance from start to finish?",
+      "options": [
+        "The Cosine Rule",
+        "The Sine Rule",
+        "Pythagoras' Theorem",
+        "The Area Sine Rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a typical SAS (Side-Angle-Side) problem. Once you find the internal angle between the two paths using bearings, you use the Cosine Rule to find the missing side.\n\n**Common mistake:** A student might assume every bearing problem uses the Sine Rule."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q29",
+      "type": "mcq",
+      "question": "In triangle ABC, side $a = 7$ cm and side $b = 14$ cm. If angle $C = 80°$, calculate the area of the triangle.",
+      "options": [
+        "48.3 cm $2$",
+        "98.0 cm $2$",
+        "49.0 cm $2$",
+        "17.0 cm $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times 7 \\times 14 \\times \\sin 80° = 49 \\times 0.9848 \\approx 48.3$.\n\n**Common mistake:** The student might forget to halve the product ($0.5$), resulting in $96.5$."
+    },
+    {
+      "id": "ch05-trigonometry-pyp-q30",
+      "type": "mcq",
+      "question": "Given a triangle with sides $3, 4,$ and $6$, find the value of the cosine of the largest angle.",
+      "options": [
+        "-0.458",
+        "0.000",
+        "0.250",
+        "-0.500"
+      ],
+      "correctIndex": 0,
+      "explanation": "Largest angle opposite $6$. $\\cos A = (3^2 + 4^2 - 6^2) / (2 \\times 3 \\times 4) = (9 + 16 - 36) / 24 = -11 / 24 \\approx -0.4583$.\n\n**Common mistake:** The student might use the wrong sides in the formula or conclude it is right-angled because $3^2+4^2=25$ is close to $6^2=36$."
+    }
+  ]
+}

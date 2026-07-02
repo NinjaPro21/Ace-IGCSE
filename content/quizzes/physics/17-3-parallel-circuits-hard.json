@@ -1,0 +1,77 @@
+{
+  "id": "17-3-parallel-circuits-hard",
+  "topicId": "17-3-parallel-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "hard",
+  "title": "Parallel Circuits — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-3-parallel-circuits-hard-q1",
+      "type": "mcq",
+      "question": "A circuit contains three resistors in parallel: $4\\text{ }Omega$, $6\\text{ }Omega$, and $12\\text{ }Omega$. Calculate the combined resistance of this arrangement.",
+      "options": [
+        "$2\\text{ }Omega$",
+        "$22\\text{ }Omega$",
+        "$6\\text{ }Omega$",
+        "$0.5\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1/R = 1/4 + 1/6 + 1/12 = 3/12 + 2/12 + 1/12 = 6/12 = 1/2$. Thus $R = 2\\text{ }Omega$. \n\n**Common mistake:** Calculating the reciprocal but forgetting to invert it at the end."
+    },
+    {
+      "id": "17-3-parallel-circuits-hard-q2",
+      "type": "mcq",
+      "question": "A $5\\text{ V}$ cell is connected to two resistors in parallel. The current in the first branch is $0.1\\text{ A}$ and the total current from the cell is $0.4\\text{ A}$. Determine the resistance of the second resistor.",
+      "options": [
+        "$16.7\\text{ }Omega$",
+        "$50\\text{ }Omega$",
+        "$12.5\\text{ }Omega$",
+        "$20\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current in second branch $I_2 = I_{total} - I_1 = 0.4 - 0.1 = 0.3\\text{ A}$. Since $V=5\\text{V}$, $R_2 = 5 / 0.3 \\approx 16.7\\text{ }Omega$. (Based on logic in Practise 17.2/3 Q1). \n\n**Common mistake:** Using the total current to find the resistance ($5/0.4 = 12.5$)."
+    },
+    {
+      "id": "17-3-parallel-circuits-hard-q3",
+      "type": "mcq",
+      "question": "In a complex parallel circuit, branch 1 has resistance $R$ and branch 2 has resistance $2R$. If an ammeter in the main circuit reads $0.9\\text{ A}$, what is the current in branch 2?",
+      "options": [
+        "$0.3\\text{ A}$",
+        "$0.6\\text{ A}$",
+        "$0.45\\text{ A}$",
+        "$0.9\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current splits inversely to resistance. $I_1 = 2I_2$. Since $I_1 + I_2 = 0.9$, then $3I_2 = 0.9 implies I_2 = 0.3\\text{ A}$. \n\n**Common mistake:** Thinking the branch with $2R$ gets double the current ($0.6\\text{ A}$)."
+    },
+    {
+      "id": "17-3-parallel-circuits-hard-q4",
+      "type": "mcq",
+      "question": "Three identical resistors are connected in parallel to a battery. If one resistor is removed from the circuit, what happens to the total current and the total resistance?",
+      "options": [
+        "Total current decreases; total resistance increases.",
+        "Total current increases; total resistance decreases.",
+        "Total current decreases; total resistance decreases.",
+        "Both remain the same because the voltage is constant."
+      ],
+      "correctIndex": 0,
+      "explanation": "Removing a parallel branch increases the combined resistance (fewer paths). Since $I = V/R$, and $V$ is constant, the total current decreases. \n\n**Common mistake:** Thinking removing a component always decreases resistance."
+    },
+    {
+      "id": "17-3-parallel-circuits-hard-q5",
+      "type": "mcq",
+      "question": "A $12\\text{ V}$ battery is connected to a parallel combination of $100\\text{ }Omega$ and $400\\text{ }Omega$. Calculate the combined resistance if a third $100\\text{ }Omega$ resistor is added in parallel to the first two.",
+      "options": [
+        "$44.4\\text{ }Omega$",
+        "$80\\text{ }Omega$",
+        "$600\\text{ }Omega$",
+        "$50\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1/R = 1/100 + 1/400 + 1/100 = 4/400 + 1/400 + 4/400 = 9/400$. $R = 400/9 \\approx 44.4\\text{ }Omega$. \n\n**Common mistake:** Adding the third resistor in series to the parallel pair."
+    }
+  ]
+}

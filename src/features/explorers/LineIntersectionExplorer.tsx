@@ -16,10 +16,6 @@ function toSvgY(y: number) {
   return H - ((y - Y_MIN) / (Y_MAX - Y_MIN)) * H
 }
 
-function clamp(v: number, lo: number, hi: number) {
-  return Math.max(lo, Math.min(hi, v))
-}
-
 /** Build SVG polyline points for y = Ax²+Bx+C, clipping to view. */
 function buildCurvePath(A: number, B: number, C: number): string {
   const pts: string[] = []
@@ -31,15 +27,11 @@ function buildCurvePath(A: number, B: number, C: number): string {
   return pts.join(' ')
 }
 
-/** Build SVG polyline points for y = mx + d, clipping to view. */
-function buildLinePath(m: number, d: number): string {
-  const pts: string[] = []
-  for (const xi of [X_MIN, X_MAX]) {
-    const y = m * xi + d
-    const yc = clamp(y, Y_MIN - 2, Y_MAX + 2)
-    pts.push(`${toSvgX(xi).toFixed(2)},${toSvgY(yc).toFixed(2)}`)
-  }
-  return pts.join(' ')
+function formatLineLabel(m: number, d: number): string {
+  if (m === 0) return d === 0 ? 'y = 0' : `y = ${d}`
+  const mPart = m === 1 ? 'x' : m === -1 ? '−x' : `${m}x`
+  if (d === 0) return `y = ${mPart}`
+  return d > 0 ? `y = ${mPart} + ${d}` : `y = ${mPart} − ${Math.abs(d)}`
 }
 
 /**
@@ -87,7 +79,6 @@ export function LineIntersectionExplorer() {
   const lineColor = INTERSECTION_COLORS[intersectionCase]
 
   const curvePath = useMemo(() => buildCurvePath(A, B, C), [])
-  const linePath = useMemo(() => buildLinePath(m, d), [m, d])
 
   const intersectionLabel =
     intersectionCase === 'two'
@@ -105,7 +96,7 @@ export function LineIntersectionExplorer() {
 
   // Build label for fixed curve
   const curveLabel = `y = x² − 2x − 1`
-  const lineLabel = `y = ${m === 0 ? '' : m === 1 ? '' : m === -1 ? '−' : m}${m !== 0 ? 'x' : ''}${d >= 0 ? (m !== 0 ? ' + ' : '') + d : ' − ' + Math.abs(d)}`
+  const lineLabel = formatLineLabel(m, d)
 
   return (
     <section className="enlight-explorer" id="line-intersection-explorer">
@@ -118,9 +109,9 @@ export function LineIntersectionExplorer() {
         <strong>Δ = (B − m)² − 4A(C − d)</strong> tells you how many times the line meets the curve.
       </p>
 
-      <div className="enlight-explorer__layout">
+      <div className="enlight-explorer__layout line-explorer__layout">
         {/* Controls */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+        <div className="line-explorer__controls">
           {/* Curve label */}
           <div className="enlight-discriminant-display">
             <div className="enlight-discriminant-display__label" style={{ marginBottom: 2 }}>
@@ -171,7 +162,7 @@ export function LineIntersectionExplorer() {
           </div>
 
           {intersectionCase === 'two' && xs.length === 2 && (
-            <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)' }}>
+            <div className="line-explorer__coords">
               <strong>x =</strong>{' '}
               {xs
                 .map((x) => x.toFixed(2))
@@ -180,13 +171,14 @@ export function LineIntersectionExplorer() {
             </div>
           )}
           {intersectionCase === 'one' && xs.length === 1 && (
-            <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)' }}>
+            <div className="line-explorer__coords">
               <strong>x =</strong> {xs[0].toFixed(2)} (tangent point)
             </div>
           )}
         </div>
 
         {/* SVG Canvas */}
+        <div className="line-explorer__graph-wrap">
         <svg
           className="enlight-graph-canvas"
           viewBox={`0 0 ${W} ${H}`}
@@ -236,13 +228,14 @@ export function LineIntersectionExplorer() {
             strokeLinecap="round"
           />
 
-          {/* Straight line */}
-          <polyline
-            points={linePath}
-            fill="none"
+          {/* Straight line — viewBox clips endpoints naturally */}
+          <line
+            x1={toSvgX(X_MIN)}
+            y1={toSvgY(m * X_MIN + d)}
+            x2={toSvgX(X_MAX)}
+            y2={toSvgY(m * X_MAX + d)}
             stroke={lineColor}
             strokeWidth={2.5}
-            strokeLinecap="round"
             strokeDasharray={intersectionCase === 'zero' ? '6 4' : undefined}
             style={{ transition: 'stroke 0.25s' }}
           />
@@ -274,6 +267,7 @@ export function LineIntersectionExplorer() {
               )
             })}
         </svg>
+        </div>
       </div>
     </section>
   )

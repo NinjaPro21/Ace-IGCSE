@@ -1,0 +1,336 @@
+{
+  "id": "ch06-mensuration-pyp",
+  "topicId": "ch06-mensuration",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "pyp",
+  "title": "Chapter 6: Mensuration — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch06-mensuration-pyp-q1",
+      "type": "mcq",
+      "question": "Mrs. Smith bought 150 bagels for 54 cents each. She sold them all for 85 cents each. Calculate her total profit.",
+      "options": [
+        "$$\n46.50\n$$",
+        "$$\n127.50\n$$",
+        "$$\n81.00\n$$",
+        "$$\n31.00\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Profit per bagel = $85 - 54 = 31$ cents. Total profit = $150 \\times 31 = 4650$ cents = \n\n$46.50$ [20, 21].\n\n**Common mistake:** The student might provide the profit in cents (4650) without converting to dollars, or only calculate the total sales amount."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q2",
+      "type": "mcq",
+      "question": "In 2019, Patrick had a salary of $$32000$. This was an increase of $2$ on his salary in 2017. Calculate his salary in 2017 to the nearest cent.$",
+      "options": [
+        "$$\n29357.80\n$$",
+        "$$\n29120.00\n$$",
+        "$$\n34880.00\n$$",
+        "$$\n30000.00\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let 2017 salary be $x$2$1.09x = 32000 \\rightarrow x = 32000 ÷ 1.09 \\approx$2$[22, 23].$\n\n**Common mistake:** Students often calculate $9\\%$ of \n\n$32000$ and subtract it, resulting in\n\n$$291202"
+    },
+    {
+      "id": "ch06-mensuration-pyp-q3",
+      "type": "mcq",
+      "question": "Edward invests $$204$ for four years at a rate of $2$ per year compound interest. Calculate, to the nearest cent, how much money he has at the end of these four years.$",
+      "options": [
+        "$$\n257.55\n$$",
+        "$$\n252.96\n$$",
+        "$$\n216.24\n$$",
+        "$$\n248.88\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Amount = 204 \\times (1.06)^4 = 204 \\times 1.26247... =$257.5452...$, which rounds to$2$257.55$ [22, 23].\n\n**Common mistake:** Rounding early in the calculation could lead to $$257.54$, which is slightly inaccurate.$"
+    },
+    {
+      "id": "ch06-mensuration-pyp-q4",
+      "type": "mcq",
+      "question": "A plane flies $2730$ km from Paris to Istanbul. It departs Paris at $10:23$ and arrives in Istanbul at $15:48$. Given that Istanbul time is 2 hours ahead of Paris, calculate the average speed of the plane.",
+      "options": [
+        "$799$ km/h",
+        "$504$ km/h",
+        "$618$ km/h",
+        "$390$ km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Duration = Arrival time - Departure time - Time difference. $15:48 - 10:23 = 5$ hours 25 minutes. Subtract 2 hours = 3 hours 25 minutes. $3$ hours $25$ mins = $3 + 25/60 = 3.4166...$ hours. Speed = $2730 ÷ 3.4166... \\approx 799$ km/h [23, 24].\n\n**Common mistake:** Students often forget to subtract the time difference, using 5 hours 25 minutes for the calculation."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q5",
+      "type": "mcq",
+      "question": "Halima sells apples for $$0.45$ per kilogram. She reduces this price by $2$. Calculate the new price per kilogram.$",
+      "options": [
+        "$$\n0.36\n$$",
+        "$$\n0.09\n$$",
+        "$$\n0.35\n$$",
+        "$$\n0.54\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reduction = $20\\%$ of \n\n$0.45 = 0.2 \\times 0.45 =$0.09$. New price =$\n\n$0.45 -$0.09 =$0.36$ [23, 25].\n\n**Common mistake:** The student might provide the amount of reduction (\n$$0.09$) instead of the new price.$"
+    },
+    {
+      "id": "ch06-mensuration-pyp-q6",
+      "type": "mcq",
+      "question": "The International Space Station (ISS) made $10000$ orbits of the Earth and travelled a distance of $4.259 \\times 10^{8}$ kilometres. If the orbit is a circle, calculate the radius of the orbit correct to the nearest ten kilometres.",
+      "options": [
+        "$6780\\text{ km}$",
+        "$42590\\text{ km}$",
+        "$13560\\text{ km}$",
+        "$678\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance per orbit $= 4.259 \\times 10^{8} \\div 10000 = 42590\\text{ km}$. $C = 2\\pi r \\Rightarrow 42590 = 2\\pi r \\Rightarrow r \\approx 6778.4$. Nearest ten is $6780\\text{ km}$.\n\n**Common mistake:** Rounding early or using the total distance as the circumference for a single orbit."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q7",
+      "type": "mcq",
+      "question": "A shape is made by removing a small semi-circle from a large semi-circle. On the large semi-circle diameter $AB$2$M$2$AM = MB = 10\\text{ cm}$. If the small semi-circle has diameter $AM$2$\\pi$.",
+      "options": [
+        "$37.5\\pi\\text{ cm}^2$",
+        "$50\\pi\\text{ cm}^2$",
+        "$12.5\\pi\\text{ cm}^2$",
+        "$75\\pi\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Large radius $= 10$, area $= 0.5\\pi(10^{2}) = 50\\pi$2$= 5$, area $= 0.5\\pi(5^2) = 12.5\\pi$2$= 50\\pi - 12.5\\pi = 37.5\\pi$.\n\n**Common mistake:** The student might subtract the small circle area from the full large circle instead of using semi-circles."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q8",
+      "type": "mcq",
+      "question": "A car tyre has an outer diameter of $30\\text{ cm}$. How many times will the tyre rotate on a journey of $5\\text{ km}$? Give your answer to the nearest whole number.",
+      "options": [
+        "$5305$",
+        "$1667$",
+        "$10610$",
+        "$531$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Circumference $= \\pi \\times 30 = 30\\pi\\text{ cm} \\approx 94.25\\text{ cm}$. Distance $= 500000\\text{ cm}$. Rotations $= 500000 \\div (30\\pi) \\approx 5305.16$.\n\n**Common mistake:** The student might fail to convert $5\\text{ km}$ to centimetres correctly or divide by diameter instead of circumference."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q9",
+      "type": "mcq",
+      "question": "A square is inscribed in a circle of radius $7\\text{ cm}$. Find the area of the square.",
+      "options": [
+        "$98\\text{ cm}^2$",
+        "$49\\text{ cm}^2$",
+        "$196\\text{ cm}^2$",
+        "$154\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagonal of the inscribed square is equal to the diameter of the circle, $14\\text{ cm}$. Area $= 0.5 \\times \\text{diagonal}^2 = 0.5 \\times 14^2 = 98\\text{ cm}^2$.\n\n**Common mistake:** The student might assume the side of the square is $7\\text{ cm}$ (the radius), leading to an area of $49$."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q10",
+      "type": "mcq",
+      "question": "In triangle $ABC$2$AB = 8\\text{ cm}$, $AC = 10\\text{ cm}$, and $BC = 14\\text{ cm}$. Given angle $ACB = 29.2^{\\circ}$, calculate the area of triangle $ABC$.",
+      "options": [
+        "$34.2\\text{ cm}^2$",
+        "$40.0\\text{ cm}^2$",
+        "$56.0\\text{ cm}^2$",
+        "$68.4\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times AC \\times BC \\times \\sin(ACB) = 0.5 \\times 10 \\times 14 \\times \\sin 29.2^{\\circ} \\approx 34.15$.\n\n**Common mistake:** Using the wrong pair of sides for the given angle; for angle $C$2$a$2$b$2$BC$2$AC$) must be used."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q11",
+      "type": "mcq",
+      "question": "Points $A$2$B$2$O$2$10\\text{ cm}$. If angle $AOB = 70°$, calculate the arc length $AB$.",
+      "options": [
+        "$12.2\\text{ cm}$",
+        "$61.1\\text{ cm}$",
+        "$10.3\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arc length $= \\frac{70}{360} \\times 2 \\times \\pi \\times 10 \\approx 12.217$.\n\n**Common mistake:** The student might calculate the area ($61.1$) instead of the length."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q12",
+      "type": "mcq",
+      "question": "Hence, using the radius of $10\\text{ cm}$ and angle of $70°$, find the area of the minor sector $AOB$.",
+      "options": [
+        "$61.1\\text{ cm}^2$",
+        "$12.2\\text{ cm}^2$",
+        "$31.5\\text{ cm}^2$",
+        "$50.3\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sector area $= \\frac{70}{360} \\times \\pi \\times 10^{2} \\approx 61.086$.\n\n**Common mistake:** The student may use the diameter ($20$) instead of the radius squared ($100$)."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q13",
+      "type": "mcq",
+      "question": "A minor arc $MN$2$18\\text{ cm}$ is part of a circle with radius $10\\text{ cm}$. Calculate the angle $MON$ correct to 1 decimal place.",
+      "options": [
+        "$103.1°$",
+        "$18.0°$",
+        "$1.8°$",
+        "$206.3°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$18 = \\frac{\\theta}{360} \\times 2\\pi(10) \\Rightarrow 18 = \\frac{\\theta\\pi}{18} \\Rightarrow \\theta = 324/\\pi \\approx 103.13°$.\n\n**Common mistake:** The student might forget to include the factor of $2$ for the circumference formula."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q14",
+      "type": "mcq",
+      "question": "The points $X$2$Y$2$O$2$8\\text{ cm}$. Given angle $XOY = 80°$, calculate the length of the chord $XY$.",
+      "options": [
+        "$10.3\\text{ cm}$",
+        "$11.2\\text{ cm}$",
+        "$8.00\\text{ cm}$",
+        "$12.3\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the sine rule in triangle $XOY$2$XY = 2 \\times 8 \\times \\sin(40°) \\approx 10.28$.\n\n**Common mistake:** A student might assume the triangle is equilateral and pick $8\\text{ cm}$."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q15",
+      "type": "mcq",
+      "question": "Find the area of the minor segment of the circle cut off by chord $XY$2$r=8$ and $\\theta=80°$).",
+      "options": [
+        "$13.2\\text{ cm}^2$",
+        "$44.7\\text{ cm}^2$",
+        "$31.5\\text{ cm}^2$",
+        "$11.2\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sector area $= \\frac{80}{360} \\times \\pi \\times 8^2 \\approx 44.68$. Triangle area $= 0.5 \\times 8 \\times 8 \\times \\sin 80° \\approx 31.51$. Segment area $= 44.68 - 31.51 = 13.17$.\n\n**Common mistake:** The student might calculate the triangle area ($31.5$) or sector area ($44.7$) and stop there."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q16",
+      "type": "mcq",
+      "question": "A piece of wood is a prism with a right-angled triangular cross-section of sides $9\\text{ cm}, 12\\text{ cm},$ and $15\\text{ cm}$. If the length of the wood is $25\\text{ cm}$, calculate its volume.",
+      "options": [
+        "$1350\\text{ cm}^3$",
+        "$2700\\text{ cm}^3$",
+        "$1008\\text{ cm}^3$",
+        "$1687\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area of triangle $= 0.5 \\times 9 \\times 12 = 54$. Volume $= 54 \\times 25 = 1350\\text{ cm}^3$.\n\n**Common mistake:** The student might use the longest side ($15$) in the triangle area calculation by mistake."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q17",
+      "type": "mcq",
+      "question": "A rectangular box without a lid is built using small cubes. If the internal dimensions are $3 \\times 3 \\times 3$, how many small cubes are touching the sides or the bottom?",
+      "options": [
+        "$25$",
+        "$27$",
+        "$19$",
+        "$13$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total cubes in $3 \\times 3 \\times 3$ is 27. The only cubes NOT touching the sides/bottom are the $2 \\times 1$ cubes in the center top layer? No, in a $3 \\times 3 \\times 3$, only the $1 \\times 1 \\times 2$ center cubes in an open box. Cubes touching $= 27 - 2 = 25$.\n\n**Common mistake:** Miscounting the center core cubes that are not in contact with any 'walls' of the box."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q18",
+      "type": "mcq",
+      "question": "A solid metal sphere of radius $5\\text{ cm}$ is melted down and recast into a solid cube. Find the length of a side of the cube correct to 2 decimal places.",
+      "options": [
+        "$8.06\\text{ cm}$",
+        "$5.00\\text{ cm}$",
+        "$7.38\\text{ cm}$",
+        "$10.00\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sphere Volume $= \\frac{4}{3}\\pi(5^3) \\approx 523.598$. $s^3 = 523.598 \\Rightarrow s = \\sqrt{523.598} \\approx 8.059$.\n\n**Common mistake:** The student might assume the side of the cube is equal to the radius or diameter of the sphere."
+    },
+    {
+      "type": "mcq",
+      "question": "A piece of wood is a prism with a right-angled triangular cross-section of sides 9 cm, 12 cm and 15 cm. If the length is 25 cm, calculate its volume.",
+      "options": [
+        "$1350\\text{ cm}^3$",
+        "$2700\\text{ cm}^3$",
+        "$1008\\text{ cm}^3$",
+        "$1687.5\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume = base area $\\times$2$= 0.5 \\times 9 \\times 12 = 54$. Volume $= 54 \\times 25 = 1350\\text{ cm}^3$.\n\n**Common mistake:** Using the hypotenuse (15) in the triangle area calculation ($0.5 \\times 12 \\times 15$).",
+      "id": "ch06-mensuration-pyp-q19"
+    },
+    {
+      "type": "mcq",
+      "question": "The ISS made 10,000 circular orbits travelling $4.259 \\times 10^{8}$ km. Calculate the radius of the orbit to the nearest ten kilometres.",
+      "options": [
+        "$6780\\text{ km}$",
+        "$6770\\text{ km}$",
+        "$6790\\text{ km}$",
+        "$6800\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "One orbit $= 42590 km$2$2C = 2\\pi r \\implies 42590 = 2\\pi r \\implies r \\approx 6778.4$. Rounds to $6780$.\n\n**Common mistake:** Rounding to the nearest whole number (6778) instead of the nearest ten (6780).",
+      "id": "ch06-mensuration-pyp-q20"
+    },
+    {
+      "id": "ch06-mensuration-pyp-q21",
+      "type": "mcq",
+      "question": "A car is an enlargement of a model, the scale factor being $10$. If the windscreen of the model has an area of $100\\text{ cm}^2$, find the area of the windscreen on the actual car in $\\text{m}^2$.",
+      "options": [
+        "$1\\text{ m}^2$",
+        "$10\\text{ m}^2$",
+        "$0.1\\text{ m}^2$",
+        "$10000\\text{ m}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scale factor $k = 10$, so area ratio $k^2 = 100$. Area of car windscreen $= 100 \\times 100 = 10000\\text{ cm}^2$. Since $1\\text{ m}^2 = 10000\\text{ cm}^2$, the area is $1\\text{ m}^2$.\n\n**Common mistake:** The student may correctly find $10000$ but fail to convert $\\text{cm}^2$ to $\\text{m}^2$ correctly (dividing by $100$ instead of $100^2$)."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q22",
+      "type": "mcq",
+      "question": "The surface areas of two similar jugs are $50\\text{ cm}^2$ and $450\\text{ cm}^2$ respectively. If the height of the larger jug is $10\\text{ cm}$, find the height of the smaller jug.",
+      "options": [
+        "$3.33\\text{ cm}$",
+        "$1.11\\text{ cm}$",
+        "$5.00\\text{ cm}$",
+        "$30.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 450/50 = 9$. Linear scale factor $k = 3$. Height of smaller jug $= 10 / 3 \\approx 3.33\\text{ cm}$.\n\n**Common mistake:** Dividing the height by the area ratio ($9$) instead of the linear scale factor ($3$)."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q23",
+      "type": "mcq",
+      "question": "A conical tank full of acid is similar to a conical beaker. The beaker can be filled from the tank exactly $1728$ times. If the base radius of the beaker is $8\\text{ cm}$, find the radius of the tank.",
+      "options": [
+        "$96\\text{ cm}$",
+        "$138.2\\text{ cm}$",
+        "$48\\text{ cm}$",
+        "$28.8\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume ratio $k^3 = 1728$. Linear scale factor $k = \\sqrt{1728} = 12$. Tank radius $= 8 \\times 12 = 96\\text{ cm}$.\n\n**Common mistake:** Dividing the radius by 12 or attempting to use the square root instead of the cube root."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q24",
+      "type": "mcq",
+      "question": "In triangle $PQR$2$S$2$PR$2$T$2$PQ$2$ST$2$RQ$2$PT = 5\\text{ cm}$ and $TQ = 2\\text{ cm}$, and the length of $ST$2$4\\text{ cm}$, calculate the length of $RQ$.",
+      "options": [
+        "$5.6\\text{ cm}$",
+        "$1.6\\text{ cm}$",
+        "$10.0\\text{ cm}$",
+        "$7.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$PQ = 5 + 2 = 7\\text{ cm}$. Linear scale factor $k = PQ/PT = 7/5 = 1.4$. Therefore, $RQ = 4 \\times 1.4 = 5.6\\text{ cm}$.\n\n**Common mistake:** Using the segment $TQ$2$2\\text{ cm}$) in the ratio calculation instead of the full side length $PQ$."
+    },
+    {
+      "id": "ch06-mensuration-pyp-q25",
+      "type": "mcq",
+      "question": "The radii of two spheres are in the ratio $2 : 5$. If the volume of the smaller sphere is $16\\text{ cm}^3$, calculate the volume of the larger sphere.",
+      "options": [
+        "$250\\text{ cm}^3$",
+        "$100\\text{ cm}^3$",
+        "$40\\text{ cm}^3$",
+        "$2000\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear ratio is $2 : 5$. Volume ratio is $2^3 : 5^3 = 8 : 125$. Larger volume $= 16 \\times (125 / 8) = 2 \\times 125 = 250\\text{ cm}^3$.\n\n**Common mistake:** Squaring the radius ratio ($4 : 25$) and applying it to volume, resulting in $100\\text{ cm}^3$."
+    }
+  ]
+}

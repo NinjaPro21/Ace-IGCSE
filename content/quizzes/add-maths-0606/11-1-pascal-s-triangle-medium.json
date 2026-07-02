@@ -1,0 +1,77 @@
+{
+  "id": "11-1-pascal-s-triangle-medium",
+  "topicId": "11-1-pascal-s-triangle",
+  "chapterId": "ch11-series",
+  "difficulty": "medium",
+  "title": "Pascal’s Triangle — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-pascal-s-triangle-medium-q1",
+      "type": "mcq",
+      "question": "Find the coefficients for the expansion of $(x + y)^5$ using Pascal's triangle.",
+      "options": [
+        "1, 5, 10, 10, 5, 1",
+        "1, 4, 6, 4, 1",
+        "1, 6, 15, 20, 15, 6, 1",
+        "5, 10, 15, 10, 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coefficients for the power 5 are found in Row 5: 1, 5, 10, 10, 5, 1.\n\n**Common mistake:** Using Row 4 or Row 6 by miscounting the start of the triangle."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-medium-q2",
+      "type": "mcq",
+      "question": "What are the two numbers that sum up to 15 in the 6th row of Pascal’s triangle?",
+      "options": [
+        "5 and 10",
+        "6 and 9",
+        "7 and 8",
+        "1 and 14"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each term is the sum of the two terms above it. In Row 5, the terms are 1, 5, 10... so 5 + 10 = 15 in Row 6.\n\n**Common mistake:** Arithmetic errors or looking at the wrong row for the parent numbers."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-medium-q3",
+      "type": "mcq",
+      "question": "Determine the value of the 3rd term in Row 7.",
+      "options": [
+        "21",
+        "15",
+        "7",
+        "35"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row 6: 1, 6, 15, 20... Row 7: 1, (1+6)=7, (6+15)=21.\n\n**Common mistake:** Using Row 6 values directly or miscalculating the sum of 6 and 15."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-medium-q4",
+      "type": "mcq",
+      "question": "If the coefficients of $(1+x)^n$ are symmetrical, and the middle two terms are both 35, what is the value of n?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "35"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two identical middle terms occur in odd-numbered rows. Row 7 is 1, 7, 21, 35, 35, 21, 7, 1.\n\n**Common mistake:** Thinking the middle terms must be unique, which only happens in even-numbered rows."
+    },
+    {
+      "id": "11-1-pascal-s-triangle-medium-q5",
+      "type": "mcq",
+      "question": "Calculate the sum of the numbers in the 6th row of Pascal's triangle.",
+      "options": [
+        "64",
+        "32",
+        "128",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum of Row 6 = 2⁶ = 64.\n\n**Common mistake:** Calculating 6 squared (36) or 2 to the power of 5 (32)."
+    }
+  ]
+}

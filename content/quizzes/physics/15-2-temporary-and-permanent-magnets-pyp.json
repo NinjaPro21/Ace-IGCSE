@@ -1,0 +1,77 @@
+{
+  "id": "15-2-temporary-and-permanent-magnets-pyp",
+  "topicId": "15-2-temporary-and-permanent-magnets",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "pyp",
+  "title": "Temporary and Permanent Magnets — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-2-temporary-and-permanent-magnets-pyp-q1",
+      "type": "mcq",
+      "question": "A magnetic relay contains a magnet (M), an armature (L) and a stopper (S). Which combination of materials is best to ensure the relay works efficiently and safely?nn[Reference: Figure 15.20]",
+      "options": [
+        "M: Iron; L: Iron; S: Rubber",
+        "M: Iron; L: Copper; S: Rubber",
+        "M: Steel; L: Iron; S: Iron",
+        "M: Iron; L: Iron; S: Iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 3, M and L should be iron (magnetically soft) for quick response. S should be rubber to cushion the impact and prevent damage. \n\n**Common mistake:** Using copper for the armature (Choice B), which is non-magnetic."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-pyp-q2",
+      "type": "mcq",
+      "question": "Identical magnets are clamped to the ends of three metal bars. The number of iron tacks picked up by each bar is shown below:nnMetal 1: 0 tacksnMetal 2: 12 tacksnMetal 3: 5 tacksnnIdentify the metals.nn[Reference: Figure 15.13]",
+      "options": [
+        "1: Brass; 2: Iron; 3: Steel",
+        "1: Iron; 2: Steel; 3: Brass",
+        "1: Brass; 2: Steel; 3: Iron",
+        "1: Steel; 2: Iron; 3: Brass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brass is non-magnetic (0 tacks). Iron is easiest to magnetise (12 tacks). Steel is harder to magnetise than iron (5 tacks). Matches 'Let's Practise 15.2' Answer 1. \n\n**Common mistake:** Thinking steel picks up more tacks than iron initially."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-pyp-q3",
+      "type": "mcq",
+      "question": "A student carries out an experiment to compare two magnetic materials. The results are shown in the table. Which material is steel?nn| Material | Tacks held with magnet | Tacks held after magnet removed |n| :--- | :--- | :--- |n| A | 15 | 0 |n| B | 8 | 6 |n| C | 0 | 0 |n| D | 2 | 0 |",
+      "options": [
+        "Material B",
+        "Material A",
+        "Material C",
+        "Material D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steel is magnetically hard; it holds fewer tacks initially than iron but retains most of its magnetism (6 out of 8) when the magnet is removed. Material A is soft iron. \n\n**Common mistake:** Choosing Material A because it held the most tacks initially."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-pyp-q4",
+      "type": "mcq",
+      "question": "Which statement about 'magnetically soft' materials is correct?",
+      "options": [
+        "They are easy to magnetise and lose their magnetism easily.",
+        "They are difficult to magnetise but retain their magnetism.",
+        "They cannot be magnetised under any circumstances.",
+        "They are used to make compass needles and door catches."
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetically soft materials, like iron, respond easily to magnetising fields but do not stay magnetised. \n\n**Common mistake:** Choice B, which describes magnetically 'hard' materials."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-pyp-q5",
+      "type": "mcq",
+      "question": "A electromagnet is being used to lift scrap metal in a yard. Which material should the core be made of, and why?",
+      "options": [
+        "Soft iron, because it loses its magnetism when the current is switched off.",
+        "Steel, because it creates a very strong permanent magnet.",
+        "Soft iron, because it is the only material that can be magnetised by electricity.",
+        "Steel, because it is stronger and can lift heavier pieces of scrap."
+      ],
+      "correctIndex": 0,
+      "explanation": "For the crane to 'drop' the metal, the core must lose its magnetism when the current stops. Only a temporary magnet material like soft iron works. \n\n**Common mistake:** Choosing steel, which would keep the scrap metal stuck to the crane forever."
+    }
+  ]
+}

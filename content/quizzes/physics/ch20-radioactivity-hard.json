@@ -1,0 +1,337 @@
+{
+  "id": "ch20-radioactivity-hard",
+  "topicId": "ch20-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "hard",
+  "title": "Chapter 20: Radioactivity — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch20-radioactivity-hard-q1",
+      "type": "mcq",
+      "question": "A teacher measures background radiation and gets $440\\text{ counts}$ over $20\\text{ minutes}$. She then measures a radioactive source for $30\\text{ seconds}$ and records $1243\\text{ counts}$. Calculate the corrected count rate of the source in counts per minute.",
+      "options": [
+        "$2464\\text{ counts/min}$",
+        "$2486\\text{ counts/min}$",
+        "$1221\\text{ counts/min}$",
+        "$802\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Background rate $= 440 / 20 = 22\\text{ cpm}$. Source measured rate $= 1243 / 0.5\\text{ min} = 2486\\text{ cpm}$. Corrected rate $= 2486 - 22 = 2464\\text{ cpm}$. \n\n**Common mistake:** Not converting the 30-second measurement to a per-minute rate before subtracting."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q2",
+      "type": "mcq",
+      "question": "In an experiment, the total number of counts from a radioactive source was measured for $5.0\\text{ minutes}$ as $120$ counts. If the background count is known to be $20\\text{ counts/min}$, what is the corrected count rate for the source alone?",
+      "options": [
+        "$4\\text{ counts/min}$",
+        "$24\\text{ counts/min}$",
+        "$100\\text{ counts/min}$",
+        "$20\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Let's Practise 20.1 Q4. Total rate $= 120 / 5 = 24\\text{ cpm}$. Corrected rate $= 24 - 20 = 4\\text{ cpm}$. \n\n**Common mistake:** Subtracting 20 from 120 directly ($100$), forgetting to use the rate per minute."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q3",
+      "type": "mcq",
+      "question": "A detector is used to monitor a storage area for leaks. The average background is $30\\text{ counts/min}$. The detector currently shows readings of $31, 33, 29, 32$ over four minutes. What can be concluded?",
+      "options": [
+        "No significant leak is detected; the variations are due to the random nature of radiation.",
+        "A small leak is present because three out of four readings are above 30.",
+        "The detector is faulty as it should show exactly 30 every minute.",
+        "The background radiation has permanently increased in this area."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because radioactive emission is random, individual one-minute counts will fluctuate around the average. Small variations (like 31 or 29) are expected and do not indicate a leak. \n\n**Common mistake:** Thinking any value above the average confirms the presence of an extra source."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q4",
+      "type": "mcq",
+      "question": "A student measures an average background of $20\\text{ counts/min}$. With a source present, the counter shows $3000\\text{ counts}$ in $15\\text{ minutes}$. What percentage of the total detected counts during this time was due to background radiation?",
+      "options": [
+        "$10\\%$",
+        "$6.7\\%$",
+        "$15\\%$",
+        "$20\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total counts in 15 mins $= 3000$. Background counts in 15 mins $= 20 \\times 15 = 300$. Percentage $= (300 / 3000) \\times 100 = 10\\%$. \n\n**Common mistake:** Using the rates (20 and 200) incorrectly in the ratio."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q5",
+      "type": "mcq",
+      "question": "Which procedure correctly describes how to determine the corrected count rate for a radioactive source in a school lab?",
+      "options": [
+        "Measure average background for several minutes, measure the source rate, then subtract the background average from the source rate.",
+        "Measure the source rate, then move the source away and subtract that new value from the first measurement.",
+        "Subtract the source's rate from the background rate to find the net ionisation.",
+        "Divide the total counts by the number of natural sources identified in the area."
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct experimental procedure is to first determine the average background rate with no source present, then measure the total rate with the source, and subtract the background. \n\n**Common mistake:** Thinking you subtract the source from the background."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q6",
+      "type": "mcq",
+      "question": "Which property of $alpha$-particles best explains why they have a very strong ionising effect compared to $beta$-particles?",
+      "options": [
+        "They have a larger charge and greater mass",
+        "They travel at the speed of light",
+        "They have a smaller size, allowing more collisions",
+        "They are neutral and do not repel electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles have a $+2$ charge and a large mass (4 units). Their high charge and kinetic energy make them very effective at knocking electrons off atoms, causing strong ionisation.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q7",
+      "type": "mcq",
+      "question": "A beam containing $alpha$, $beta$, and $gamma$ radiation enters a magnetic field directed into the page. Which statement correctly describes the deflection of $beta$-particles?",
+      "options": [
+        "They deflect more than $alpha$-particles and in the opposite direction",
+        "They deflect less than $alpha$-particles because they are smaller",
+        "They deflect in the same direction as $alpha$-particles",
+        "They do not deflect because their mass is too small"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles are negative and have very little mass compared to alpha particles. They deflect in the opposite direction to alpha (which are positive) and much more significantly due to their low mass.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q8",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the nature and property of $beta$-particles?nn| Nature | Ionising Effect | Penetrating Power |n| :--- | :--- | :--- |n| A. Electron | Medium | Medium |n| B. Helium Nucleus | Strong | Weak |n| C. EM Wave | Weak | Strong |n| D. Electron | Weak | Strong |",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles are electrons. According to Table 20.2, they have a medium ionising effect and medium penetrating power (stopped by aluminium).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q9",
+      "type": "mcq",
+      "question": "In a cloud chamber, $alpha$-particles produce short, thick, straight tracks. What does the 'thick' nature of these tracks indicate?",
+      "options": [
+        "High ionisation density",
+        "High speed of travel",
+        "Weak penetrating power",
+        "Lack of electric charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thick tracks indicate that many ions are being produced in a small area, which is a result of the strong ionising effect of alpha particles.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q10",
+      "type": "mcq",
+      "question": "A radioactive source emits radiation that can pass through a sheet of paper but is stopped by $5 \\text{ mm}$ of aluminium. Which radiation is being emitted?",
+      "options": [
+        "$beta$-particles only",
+        "$alpha$-particles only",
+        "$alpha$ and $beta$-particles",
+        "$gamma$-rays and $alpha$-particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since it passes paper, it is not just alpha. Since it is stopped by $5 \\text{ mm}$ of aluminium, it matches the properties of beta particles. Gamma would have passed through.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q11",
+      "type": "mcq",
+      "question": "A nucleus $X$ undergoes a sequence of decays: first an $alpha$-decay, then a $beta$-decay. If the original nucleus was $^{238}{92}X$, what are the coordinates $(A, Z)$ of the final nucleus?",
+      "options": [
+        "$(234, 91)$",
+        "$(234, 89)$",
+        "$(238, 93)$",
+        "$(234, 90)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Step 1 ($alpha$): $A rightarrow 234, Z rightarrow 90$. Step 2 ($beta$): $A rightarrow 234$ (unchanged), $Z rightarrow 91$ ($90+1$). Result is $(234, 91)$. \n\n**Common mistake:** Forgetting to increase $Z$ in the second step."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q12",
+      "type": "mcq",
+      "question": "In a nuclear equation, a parent nucleus $^{A}{Z}P$ decays into a daughter nucleus $^{A-4}{Z-2}D$. What else must be produced to satisfy the conservation of nucleon number and charge?",
+      "options": [
+        "A helium-4 nucleus ($^4_2He$)",
+        "A high-speed electron ($^0{-1}e$)",
+        "A single neutron ($^1_0n$)",
+        "Two protons and two electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The change in $A$ (-4) and $Z$ (-2) corresponds exactly to the emission of an $alpha$-particle, which is a helium nucleus $^{4}{2}He$. \n\n**Common mistake:** Selecting Choice D; although an $alpha$-particle has 2 protons, it contains 2 neutrons, not 2 electrons."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q13",
+      "type": "mcq",
+      "question": "Consider the $beta$-decay of Cobalt-60: $^{60}{27}Co rightarrow ^{60}{28}Ni + ^{0}{-1}beta + gamma$. Why is the nucleon number of Nickel the same as Cobalt?",
+      "options": [
+        "A neutron was converted into a proton, keeping the total number of nucleons constant.",
+        "The $beta$-particle has a mass of 1, which balances the equation.",
+        "Nickel and Cobalt are isotopes of each other.",
+        "Gamma radiation carries away the extra nucleons."
+      ],
+      "correctIndex": 0,
+      "explanation": "$beta$-decay involves a neutron changing into a proton. Since both are nucleons, the total count $A$ does not change. \n\n**Common mistake:** Thinking the $beta$-particle (electron) comes from the outer shells of the atom."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q14",
+      "type": "mcq",
+      "question": "An unknown nucleus decays into $^{210}{84}Po$ after emitting a single $beta$-particle. What was the nuclide notation of the original parent nucleus?",
+      "options": [
+        "$^{210}{83}Bi$",
+        "$^{210}{85}At$",
+        "$^{214}{86}Rn$",
+        "$^{206}{82}Pb$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $beta$-decay, $A$ is constant and $Z{daughter} = Z_{parent} + 1$. Therefore, $Z_{parent} = 84 - 1 = 83$. The nucleon number remains 210. \n\n**Common mistake:** Choosing $^{210}{85}At$ by applying the increase to the parent instead of the daughter."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q15",
+      "type": "mcq",
+      "question": "A radioactive sample is monitored. The count rate is observed to be fluctuating significantly around an average value. What does this provide evidence for?",
+      "options": [
+        "The random nature of radioactive decay.",
+        "The sample is reaching its terminal half-life.",
+        "The detector is being affected by an electric field.",
+        "The decay is spontaneous but not random."
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluctuations in the count rate are a direct consequence of the random nature of decay; we cannot predict when a specific atom will emit radiation. \n\n**Common mistake:** Assuming fluctuations mean the detector is inaccurate or faulty."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q16",
+      "type": "mcq",
+      "question": "A detector is placed near a source. The background count is $30\\text{ counts/min}$. The total measured count rate is $750\\text{ counts/min}$. The half-life is $10\\text{ min}$. What will the total measured count rate be after $20\\text{ min}$?",
+      "options": [
+        "$210\\text{ counts/min}$",
+        "$180\\text{ counts/min}$",
+        "$187.5\\text{ counts/min}$",
+        "$225\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find the corrected initial rate: $750 - 30 = 720$. After two half-lives ($20\\text{ mins}$), the corrected rate is $720 / 4 = 180$. Add the background back for the total reading: $180 + 30 = 210$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q17",
+      "type": "mcq",
+      "question": "Cobalt-60 has a half-life of $5.3\\text{ years}$. If a source containing $16\\text{ mg}$ of Cobalt-60 is monitored, how long will it take for the mass of Cobalt-60 to decrease to $1\\text{ mg}$?",
+      "options": [
+        "$21.2\\text{ years}$",
+        "$15.9\\text{ years}$",
+        "$10.6\\text{ years}$",
+        "$84.8\\text{ years}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the number of half-lives: $16 rightarrow 8 rightarrow 4 rightarrow 2 rightarrow 1$. This is 4 half-lives. Total time $= 4 \\times 5.3 = 21.2\\text{ years}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q18",
+      "type": "mcq",
+      "question": "A sample of radioactive isotope is found to have $1000$ undecayed nuclei. Exactly $3$ half-lives ago, how many undecayed nuclei were present in this same sample?",
+      "options": [
+        "$8000$",
+        "$3000$",
+        "$4000$",
+        "$125$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Working backwards, double the number for each half-life: $1000 rightarrow 2000 rightarrow 4000 rightarrow 8000$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q19",
+      "type": "mcq",
+      "question": "Technetium-99m has a half-life of $6\\text{ hours}$. It is used in hospitals as a tracer. If a patient is injected with a dose having an activity of $160\\text{ units}$, what is its activity $24\\text{ hours}$ later?",
+      "options": [
+        "$10\\text{ units}$",
+        "$40\\text{ units}$",
+        "$20\\text{ units}$",
+        "$6.6\\text{ units}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$24\\text{ hours}$ is 4 half-lives ($24 / 6 = 4$). $160 rightarrow 80 rightarrow 40 rightarrow 20 rightarrow 10$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q20",
+      "type": "mcq",
+      "question": "In a decay experiment, the initial corrected count rate is $N$. After $3$ half-lives, what is the ratio of the number of decayed nuclei to the number of remaining undecayed nuclei?",
+      "options": [
+        "$7 : 1$",
+        "$8 : 1$",
+        "$1 : 7$",
+        "$1 : 8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After 3 half-lives, $1/8$ of the original sample remains (undecayed). This means $7/8$ has decayed. The ratio of decayed to undecayed is $(7/8) : (1/8) = 7:1$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q21",
+      "type": "mcq",
+      "question": "Why is an alpha-emitting source considered extremely hazardous if ingested (swallowed), despite alpha radiation having very low penetrating power?",
+      "options": [
+        "Its strong ionising effect causes massive damage to internal cells.",
+        "It will penetrate through the skin from the inside out.",
+        "It turns the water in the body into heavy water.",
+        "It loses its radioactivity once it enters the stomach."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles are the most ionising. If they are inside the body, there is no shielding (like skin or air) to stop them, and they cause severe damage to internal cell DNA. \n\n**Common mistake:** Thinking the 'low penetration' makes it safe inside the body too."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q22",
+      "type": "mcq",
+      "question": "A technician needs to move a gamma source. Which procedure follows all the safety principles of Time, Distance, and Shielding?",
+      "options": [
+        "Use long tongs to move the source quickly from a lead container to a lead-lined room.",
+        "Hold the source by hand to move it as fast as possible to save time.",
+        "Place the source in a plastic bag and carry it for 10 minutes to the storage area.",
+        "Keep the source in an open room but stay 2 metres away for the whole day."
+      ],
+      "correctIndex": 0,
+      "explanation": "Using tongs (Distance), moving quickly (Time), and using lead (Shielding) addresses all three safety pillars. \n\n**Common mistake:** Prioritising only 'Time' (Choice B) and ignoring the direct exposure to the hands."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q23",
+      "type": "mcq",
+      "question": "How specifically does ionising radiation lead to the formation of cancerous cells?",
+      "options": [
+        "By damaging the DNA inside a cell, causing it to grow and divide uncontrollably.",
+        "By making the cell nucleus so heavy that it falls out of the cell.",
+        "By increasing the temperature of the cell until it boils.",
+        "By turning the cell's electrons into protons."
+      ],
+      "correctIndex": 0,
+      "explanation": "Ionising radiation can cause mutations in the cell's genetic material (DNA). If the damage isn't repaired correctly, the cell can become cancerous. \n\n**Common mistake:** Thinking radiation 'cooks' cells like a microwave; while it carries energy, the cancer risk is from specific DNA damage."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q24",
+      "type": "mcq",
+      "question": "If a storage box for a source that emits beta particles and gamma rays is made of $5\\text{ cm}$ of lead, what is the primary reason for this thickness?",
+      "options": [
+        "To reduce the intensity of highly penetrating gamma radiation.",
+        "To prevent the lead from becoming radioactive itself.",
+        "To stop the alpha particles from escaping through the gaps.",
+        "To ensure the box is heavy enough that it cannot be moved."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thick lead is required because gamma rays are highly penetrating and difficult to stop. Beta would be stopped by much less, but the gamma needs the full $5\\text{ cm}$. \n\n**Common mistake:** Thinking the lead is meant to stop alpha particles."
+    },
+    {
+      "id": "ch20-radioactivity-hard-q25",
+      "type": "mcq",
+      "question": "A school lab has a source that has been used for many years. Why must it be stored in a 'lead box' even if its count rate has decreased over time?",
+      "options": [
+        "To prevent unnecessary exposure to background radiation and remaining source emissions.",
+        "To keep the source at a constant temperature so the half-life doesn't change.",
+        "Because the lead box acts as a battery to recharge the source.",
+        "To prevent the source from floating away due to its low density."
+      ],
+      "correctIndex": 0,
+      "explanation": "Regardless of the source's current strength, it must be shielded to prevent any unnecessary exposure to people in the building. \n\n**Common mistake:** Believing that external factors like temperature (Choice B) affect the rate of decay."
+    }
+  ]
+}

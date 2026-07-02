@@ -1,0 +1,77 @@
+{
+  "id": "9-1-basic-trigonometry-0-pyp",
+  "topicId": "9-1-basic-trigonometry-0",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "pyp",
+  "title": "Basic Trigonometry (0° to 90°) — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-basic-trigonometry-0-pyp-q1",
+      "type": "mcq",
+      "question": "Given that cos θ = p, where θ is acute, express tan(90° - θ) in terms of p.",
+      "options": [
+        "p / \\sqrt{1 - p^2}",
+        "\\sqrt{1 - p^2} / p",
+        "1 / p",
+        "p"
+      ],
+      "correctIndex": 0,
+      "explanation": "tan(90° - θ) = cot θ = Adj / Opp. Since cos θ = p/1, Adj = p and Opp = \\sqrt{1 - p^2}. So tan(90° - θ) = p / \\sqrt{1 - p^2}.\n\n**Common mistake:** Calculating tan θ instead of tan(90° - θ)."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-pyp-q2",
+      "type": "mcq",
+      "question": "Find the value of x between 0° and 90° such that 2 sin x = tan x.",
+      "options": [
+        "60°",
+        "30°",
+        "45°",
+        "0°"
+      ],
+      "correctIndex": 0,
+      "explanation": "2 sin x = sin x / cos x. Dividing by sin x (x ≠ 0): 2 = 1 / cos x, so cos x = 0.5. x = 60°.\n\n**Common mistake:** Failing to divide by sin x correctly or misidentifying the root of cos x = 0.5."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-pyp-q3",
+      "type": "mcq",
+      "question": "An angle θ satisfies sin θ = 3/5. Find the value of 5 cos θ + 4 tan θ.",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opp=3, Hyp=5, so Adj=4. cos θ = 4/5 and tan θ = 3/4. Value = 5(4/5) + 4(3/4) = 4 + 3 = 7.\n\n**Common mistake:** Arithmetic errors in the final substitution or misidentifying the adjacent side length."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-pyp-q4",
+      "type": "mcq",
+      "question": "Solve the equation 3 sin x = 2 cos^2 x for an acute angle x.",
+      "options": [
+        "30°",
+        "60°",
+        "19.5°",
+        "41.8°"
+      ],
+      "correctIndex": 0,
+      "explanation": "3 sin x = 2(1 - sin^2 x) => 2 sin^2 x + 3 sin x - 2 = 0. Factoring: (2 sin x - 1)(sin x + 2) = 0. sin x = 0.5 => x = 30°.\n\n**Common mistake:** Errors in the quadratic substitution or attempting to solve for the invalid root sin x = -2."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-pyp-q5",
+      "type": "mcq",
+      "question": "In a right-angled triangle ABC, angle B = 90°, AB = 7 cm and BC = 24 cm. Find sin A.",
+      "options": [
+        "24/25",
+        "7/25",
+        "24/7",
+        "7/24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hypotenuse AC = \\sqrt{7$^2$ + 24$^2$} = 25 cm. sin A = Opposite / Hypotenuse = BC / AC = 24 / 25.\n\n**Common mistake:** Calculating sin C (7/25) instead of sin A."
+    }
+  ]
+}

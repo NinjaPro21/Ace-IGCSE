@@ -1,0 +1,77 @@
+{
+  "id": "20-3-radioactive-decay-pyp",
+  "topicId": "20-3-radioactive-decay",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "pyp",
+  "title": "Radioactive Decay — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-3-radioactive-decay-pyp-q1",
+      "type": "mcq",
+      "question": "The following equation represents radioactive decay:n\n\n$$\n^{227}{89}Ac rightarrow ^{227}{90}Th + Y\n$$nWhat does$Y$ represent?",
+      "options": [
+        "$beta$-particle",
+        "$alpha$-particle",
+        "neutron",
+        "$gamma$-emission"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 6. The nucleon number is unchanged (227) and the proton number increased by 1 (89 to 90). This identifies $Y$ as a $beta$-particle. \n\n**Common mistake:** Selecting $alpha$-particle, which would require the nucleon number to drop by 4."
+    },
+    {
+      "id": "20-3-radioactive-decay-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement about $alpha$-particles is correct according to the Review Questions?",
+      "options": [
+        "They are the least penetrating of the nuclear emissions.",
+        "They travel as electromagnetic waves.",
+        "They are not ionising nuclear radiation.",
+        "They consist of high-speed electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Review Section A, Question 3. $alpha$-particles are the most ionising but have the least penetrating ability (stopped by paper). \n\n**Common mistake:** Confusing $alpha$ properties with $gamma$ properties (Choice B)."
+    },
+    {
+      "id": "20-3-radioactive-decay-pyp-q3",
+      "type": "mcq",
+      "question": "According to the nuclide equation for the decay of Uranium-238, which particles are emitted?n\n\n$$\n^{238}{92}U rightarrow ^{234}_{90}Th + ...\n$$",
+      "options": [
+        "$alpha$-particle and $gamma$-radiation",
+        "$beta$-particle and $gamma$-radiation",
+        "Two protons and two neutrons only",
+        "One neutron and one positron"
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in the 'Let's Practise 20.3' answers, $^{238}U$ decays to $^{234}Th$ by emitting an $alpha$-particle and $gamma$-radiation. \n\n**Common mistake:** Forgetting that $gamma$-radiation often accompanies the emission of particles."
+    },
+    {
+      "id": "20-3-radioactive-decay-pyp-q4",
+      "type": "mcq",
+      "question": "A radioactive isotope decays by emitting $beta$-particles. What happens to an atom of the isotope when it decays?",
+      "options": [
+        "It changes into another element.",
+        "It gains electrons.",
+        "It loses electrons.",
+        "It becomes a $beta$-particle."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is Review Section A, Question 5. Because the proton number changes during $beta$-decay, the atom becomes a different element. \n\n**Common mistake:** Thinking the atom 'gains' electrons because the $beta$-particle is an electron; the electron is actually emitted from the nucleus."
+    },
+    {
+      "id": "20-3-radioactive-decay-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly shows the changes to the nucleus during alpha ($alpha$) decay?nn| | Nucleon number | Proton number |n| :--- | :--- | :--- |n| A | decreases by 4 | decreases by 2 |n| B | decreases by 2 | decreases by 4 |n| C | decreases by 4 | remains the same |n| D | remains the same | decreases by 2 |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $alpha$-decay, the nucleus loses 2 protons and 2 neutrons ($^4_2He$), so $A$ drops by 4 and $Z$ drops by 2. \n\n**Common mistake:** Row B, which swaps the changes for nucleon and proton numbers."
+    }
+  ]
+}

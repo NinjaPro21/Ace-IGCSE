@@ -1,0 +1,77 @@
+{
+  "id": "4-3-turning-effect-of-forces-pyp",
+  "topicId": "4-3-turning-effect-of-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "pyp",
+  "title": "Turning Effect of Forces — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-turning-effect-of-forces-pyp-q1",
+      "type": "mcq",
+      "question": "Which statement describes an object in equilibrium?",
+      "options": [
+        "The resultant force and the resultant moment are both zero",
+        "The resultant force is zero, but there is a resultant moment",
+        "The resultant moment is zero, but there is a resultant force",
+        "There are no forces acting on the object at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equilibrium requires two conditions: the net force must be zero (no translation) and the net moment must be zero (no rotation). \n\n**Common mistake:** Selecting choice D; forces can act on an object in equilibrium as long as they are balanced."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-pyp-q2",
+      "type": "mcq",
+      "question": "A uniform beam is pivoted at its centre. Two weights are placed on the beam as shown. nn| Weight 1 (N) | Distance 1 (cm) | Weight 2 (N) | Distance 2 (cm) |n| :--- | :--- | :--- | :--- |n| 2.0 | 40 | 4.0 | X |nnIf the beam is balanced, what is the value of distance X?",
+      "options": [
+        "$20\\text{ cm}$",
+        "$40\\text{ cm}$",
+        "$80\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2.0 \\times 40 = 4.0 \\times X Rightarrow 80 = 4X Rightarrow X = 20\\text{ cm}$. \n\n**Common mistake:** Thinking that if one weight is double the other, the distance must also be double ($80\\text{ cm}$), whereas it should be half."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows a girl and her brother on a see-saw in equilibrium. The girl weighs $500\\text{ N}$ and is $3.5\\text{ m}$ from the pivot. The brother is at a distance $d$. If the brother weighs $700\\text{ N}$, what is the total clockwise moment about the pivot?",
+      "options": [
+        "$1750\\text{ N m}$",
+        "$700\\text{ N m}$",
+        "$2450\\text{ N m}$",
+        "$0\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In equilibrium, the clockwise moment equals the anticlockwise moment. ACW moment (girl) $= 500 \\times 3.5 = 1750\\text{ N m}$. Therefore, the CW moment must also be $1750\\text{ N m}$. \n\n**Common mistake:** Providing the resultant moment ($0$) instead of the individual clockwise moment."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-pyp-q4",
+      "type": "mcq",
+      "question": "A force is applied to a spanner to tighten a nut. Which diagram shows the distance that should be used to calculate the moment of the force?",
+      "options": [
+        "The perpendicular distance from the centre of the nut to the line of action of the force",
+        "The total length of the spanner handle from end to end",
+        "The distance from the person's hand to the end of the spanner",
+        "The straight-line distance from the nut to the point where the force starts"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the moment is calculated using the perpendicular distance from the pivot (the nut) to the force's line of action. \n\n**Common mistake:** Using the total length of the tool, which might not be perpendicular to the force."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-pyp-q5",
+      "type": "mcq",
+      "question": "A $3000\\text{ N}$ load is balanced on a crane arm. If the load is replaced by a new load of $1800\\text{ N}$, what happens to the distance required to keep the crane balanced using the same counterweight?",
+      "options": [
+        "The distance of the load from the pivot must increase",
+        "The distance of the load from the pivot must decrease",
+        "The distance of the counterweight must decrease",
+        "The crane cannot be balanced with a lighter load"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the new load is lighter ($1800 < 3000$), it must be placed further from the pivot to produce the same moment as before to balance the fixed counterweight ($Moment = F \\times d$). \n\n**Common mistake:** Thinking a lighter weight should be moved closer to the pivot."
+    }
+  ]
+}

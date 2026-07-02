@@ -1,0 +1,77 @@
+{
+  "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy",
+  "topicId": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "easy",
+  "title": "Sketching Graphs of Cubic Polynomials and their Moduli — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q1",
+      "type": "mcq",
+      "question": "If a cubic function $f(x)$ has roots at $x = -2, 1,$ and^3, where does the graph of $y = |f(x)|$ meet the $x$-axis?",
+      "options": [
+        "At $x = -2, 1, 3$",
+        "At $x = 2, -1, -3$",
+        "At $x = 0$ only",
+        "It never meets the x-axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modulus transformation $y = |f(x)|$ reflects negative $y$2$x$2$y=0$).\n\n**Common mistake:** Students may mistakenly reflect the $x$-coordinates as well, leading to the wrong sign for the intercepts."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q2",
+      "type": "mcq",
+      "question": "Determine the $y$2$y = |x(x-2)(x+3)|$.",
+      "options": [
+        "0",
+        "6",
+        "-6",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x = 0$: $y = |0(0-2)(0+3)| = |0| = 0$.\n\n**Common mistake:** Calculating the product of the constants inside the brackets (-6) and then taking the modulus, forgetting the factor of $x$ outside."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q3",
+      "type": "mcq",
+      "question": "What is the minimum possible value for any point on the graph of $y = |f(x)|$ where $f(x)$ is a cubic polynomial?",
+      "options": [
+        "0",
+        "The y-intercept",
+        "Negative infinity",
+        "Depends on the leading coefficient"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the absolute value of any real expression is greater than or equal to zero.\n\n**Common mistake:** Confusing the range of the modulus graph with the range of the original cubic, which goes to negative infinity."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q4",
+      "type": "mcq",
+      "question": "If the cubic graph $y = (x-1)^2(x+2)$ is reflected in the $x$2$x$-intercepts will be shown?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The roots are $x=1$ (repeated) and $x=-2$. The modulus does not change the number of roots.\n\n**Common mistake:** Thinking the repeated root at $x=1$ counts as two distinct points on the axis."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q5",
+      "type": "mcq",
+      "question": "Identify the basic shape of a cubic graph $y = x^3$ after applying the modulus $y = |x^3|$.",
+      "options": [
+        "A U-shape similar to a parabola",
+        "A V-shape",
+        "A horizontal line",
+        "An S-shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "The negative left arm of $x^3$ is reflected upward, creating a symmetric U-like curve (though steeper than a standard parabola).\n\n**Common mistake:** Assuming it becomes a V-shape, which is typical for linear modulus functions but not cubics."
+    }
+  ]
+}

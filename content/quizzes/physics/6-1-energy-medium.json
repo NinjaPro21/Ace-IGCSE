@@ -1,0 +1,77 @@
+{
+  "id": "6-1-energy-medium",
+  "topicId": "6-1-energy",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "medium",
+  "title": "Energy — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-1-energy-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the kinetic energy of a car with a mass of $1000\\text{ kg}$ travelling at a speed of $10\\text{ m/s}$.",
+      "options": [
+        "$50 000\\text{ J}$",
+        "$100 000\\text{ J}$",
+        "$10 000\\text{ J}$",
+        "$5 000\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $E_k = \\frac{1}{2}mv^2$: $E_k = 0.5 \\times 1000 \\times 10^{2} = 500 \\times 100 = 50 000\\text{ J}$. \n\n**Common mistake:** Forgetting to square the velocity ($5000\\text{ J}$) or forgetting the $\\frac{1}{2}$ ($100 000\\text{ J}$)."
+    },
+    {
+      "id": "6-1-energy-medium-q2",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ package is lifted vertically by $5.0\\text{ m}$. Calculate the gain in its gravitational potential energy ($g = 10\\text{ N/kg}$).",
+      "options": [
+        "$100\\text{ J}$",
+        "$10\\text{ J}$",
+        "$20\\text{ J}$",
+        "$50\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $Delta E_p = mgDelta h$: $E_p = 2.0 \\times 10 \\times 5.0 = 100\\text{ J}$. \n\n**Common mistake:** Dividing the values instead of multiplying them."
+    },
+    {
+      "id": "6-1-energy-medium-q3",
+      "type": "mcq",
+      "question": "What are the main energy conversions that take place when a light bulb is connected to a battery?",
+      "options": [
+        "Chemical $rightarrow$ Electrical $rightarrow$ Light and Heat",
+        "Electrical $rightarrow$ Chemical $rightarrow$ Light",
+        "Kinetic $rightarrow$ Electrical $rightarrow$ Light",
+        "Light $rightarrow$ Electrical $rightarrow$ Thermal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The battery stores chemical potential energy, which converts to electrical energy in the circuit, then to light and thermal (heat) energy in the bulb. \n\n**Common mistake:** Omitting the thermal energy part; light bulbs always generate heat."
+    },
+    {
+      "id": "6-1-energy-medium-q4",
+      "type": "mcq",
+      "question": "Two identical balls are rolling. Ball A moves at $2\\text{ m/s}$ and Ball B moves at $4\\text{ m/s}$. How does the kinetic energy of Ball B compare to Ball A?",
+      "options": [
+        "$It is 4 \\times greater$",
+        "$It is 2 \\times greater$",
+        "$It is 8 \\times greater$",
+        "It is the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because $E_k \\propto v^2$, doubling the speed ($2 rightarrow 4$) increases the kinetic energy by $2^2 = 4$ times. \n\n**Common mistake:** Thinking speed and kinetic energy are directly proportional, which would mean it only doubles."
+    },
+    {
+      "id": "6-1-energy-medium-q5",
+      "type": "mcq",
+      "question": "For a swinging ideal pendulum in a vacuum, which statement is true about its energy at the highest point of its swing?",
+      "options": [
+        "It has maximum gravitational potential energy and zero kinetic energy",
+        "It has maximum kinetic energy and zero gravitational potential energy",
+        "Its kinetic energy is equal to its gravitational potential energy",
+        "It has zero total energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the highest point, the pendulum momentarily stops, so $v=0$ and $KE=0$. All its energy is stored as gravitational potential energy. \n\n**Common mistake:** Thinking it has maximum kinetic energy at the top; that occurs at the lowest point (bottom of the swing)."
+    }
+  ]
+}

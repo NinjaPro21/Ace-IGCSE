@@ -30,7 +30,7 @@
         " $x = 4, y = \\frac{1}{2}$ "
       ],
       "correctIndex": 0,
-      "explanation": "From the first equation, $\\log_2\\left(\\frac{x}{y}\\right) = 3 \\implies x = 8y$ . From the second equation, $3^x = 3^{2(y+2)} \\implies x = 2y + 4$ . Equating them gives $8y = 2y + 4 \\implies 6y = 4 \\implies y = \\frac{4}{7}$ . Substituting back yields $x = 8\\left(\\frac{4}{7}\\right) = \\frac{32}{7}$ .\n\n**Common mistake:** Students often make a mistake on the second equation by setting $x = y + 2$ instead of converting $9$ to $3^2$ , leading to completely wrong coordinates."
+      "explanation": "From the first equation, $\\log_2\\left(\\frac{x}{y}\\right) = 3 \\implies x = 8y$ . From the second equation, $3^x = 3^{2(y+2)} \\implies x = 2y + 4$ . Equating them gives $8y = 2y + 4 \\implies 6y = 4 \\implies y = \\frac{4}{7}$ . Substituting back yields $x = 8\\left(\\frac{4}{7}\\right) = \\frac{32}{7}$ .\n\n**Common mistake:** Students often make a mistake on the second equation by setting $x = y + 2$ instead of converting^9 to $3^2$ , leading to completely wrong coordinates."
     },
     {
       "id": "ch05-logarithms-q3",
@@ -43,7 +43,7 @@
         " $x = 4$ "
       ],
       "correctIndex": 0,
-      "explanation": "Change the base of the second term: $\\log_{16}(x + 6) = \\frac{\\log_4(x + 6)}{\\log_4(16)} = \\frac{\\log_4(x + 6)}{2}$ . Substituting this back gives $\\log_4(x) - \\frac{1}{2}\\log_4(x + 6) = 0 \\implies 2\\log_4(x) = \\log_4(x + 6) \\implies x^2 = x + 6$ . Solving $x^2 - x - 6 = 0$ yields $(x-3)(x+2)=0$ . Since $x > 0$ , $x = 3$ .\n\n**Common mistake:** Students often fail to rewrite the index correctly, treating the denominator factor of $2$ as a multiplier rather than a divisor, or forgetting to square the argument $x$ ."
+      "explanation": "Change the base of the second term: $\\log_{16}(x + 6) = \\frac{\\log_4(x + 6)}{\\log_4(16)} = \\frac{\\log_4(x + 6)}{2}$ . Substituting this back gives $\\log_4(x) - \\frac{1}{2}\\log_4(x + 6) = 0 \\implies 2\\log_4(x) = \\log_4(x + 6) \\implies x^2 = x + 6$ . Solving $x^2 - x - 6 = 0$ yields $(x-3)(x+2)=0$ . Since $x > 0$ , $x = 3$ .\n\n**Common mistake:** Students often fail to rewrite the index correctly, treating the denominator factor of^2 as a multiplier rather than a divisor, or forgetting to square the argument $x$ ."
     },
     {
       "id": "ch05-logarithms-q4",

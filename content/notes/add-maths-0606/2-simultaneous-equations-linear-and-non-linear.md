@@ -4,9 +4,12 @@ Simultaneous equations involving one linear equation and one non-linear equation
 
 ## Key formulas
 
-$$\text{Linear: } y = mx + c$$
+$$
+\text{Linear: } y = mx + c
 
-$$\text{Non-Linear: } ay^2 + bxy + cx^2 + dx + ey + f = 0$$
+\text{Non-Linear: } ay^2 + bxy + cx^2 + dx + ey + f = 0
+$$
+
 
 ## Steps / method
 
@@ -49,7 +52,3 @@ Always substitute your solved variable values back into the linear equation rath
 ## Quick check
 
 If the resulting quadratic equation has a discriminant equal to zero, then the line touches the curve at exactly one point.
-
-## Visual / interactive intent
-
-New explorer: Line-curve intersection sandbox. A graph showing a fixed curve and an adjustable straight line via sliders for gradient and intercept. As the line moves, intersection points are labeled dynamically, and a side panel updates the algebraic expansion steps in real-time.

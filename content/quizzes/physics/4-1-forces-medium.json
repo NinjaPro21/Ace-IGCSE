@@ -1,0 +1,77 @@
+{
+  "id": "4-1-forces-medium",
+  "topicId": "4-1-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "medium",
+  "title": "Forces — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-forces-medium-q1",
+      "type": "mcq",
+      "question": "A spring has an original length of $16.0\\text{ cm}$. When a load of $2.0\\text{ N}$ is attached, the length becomes $20.0\\text{ cm}$. Calculate the extension.",
+      "options": [
+        "$4.0\\text{ cm}$",
+        "$36.0\\text{ cm}$",
+        "$20.0\\text{ cm}$",
+        "$10.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extension $x = l - l_0 = 20.0\\text{ cm} - 16.0\\text{ cm} = 4.0\\text{ cm}$. \n\n**Common mistake:** Adding the lengths together instead of subtracting the original length from the new length."
+    },
+    {
+      "id": "4-1-forces-medium-q2",
+      "type": "mcq",
+      "question": "A force of $10\\text{ N}$ stretches a spring by $50\\text{ mm}$. Calculate the spring constant $k$.",
+      "options": [
+        "$0.2\\text{ N/mm}$",
+        "$500\\text{ N/mm}$",
+        "$5.0\\text{ N/mm}$",
+        "$2.0\\text{ N/mm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $k = F / x$: $k = 10\\text{ N} / 50\\text{ mm} = 0.2\\text{ N/mm}$. \n\n**Common mistake:** Multiplying force and extension ($500$) instead of dividing force by extension."
+    },
+    {
+      "id": "4-1-forces-medium-q3",
+      "type": "mcq",
+      "question": "If spring A has a steeper gradient on a load–extension graph than spring B, which statement is correct?",
+      "options": [
+        "Spring A has a larger spring constant than spring B",
+        "Spring A is more easily stretched than spring B",
+        "Spring B has a larger spring constant than spring A",
+        "Spring A and spring B have the same stiffness"
+      ],
+      "correctIndex": 0,
+      "explanation": "A steeper gradient on a Load ($F$) vs Extension ($x$) graph means a higher ratio of $F/x$, which is a larger spring constant. \n\n**Common mistake:** Thinking a steeper line means it is 'easier' to stretch; it actually means it is 'stiffer' and harder to stretch."
+    },
+    {
+      "id": "4-1-forces-medium-q4",
+      "type": "mcq",
+      "question": "A bag of sugar has a mass of $1\\text{ kg}$. Calculate its weight on Earth to determine the force it would exert on a spring. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$10\\text{ N}$",
+        "$1\\text{ N}$",
+        "$0.1\\text{ N}$",
+        "$10\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = mg = 1\\text{ kg} \\times 10\\text{ N/kg} = 10\\text{ N}$. \n\n**Common mistake:** Confusing mass and weight and thinking the force is $1\\text{ N}$."
+    },
+    {
+      "id": "4-1-forces-medium-q5",
+      "type": "mcq",
+      "question": "A spring with $k = 0.2\\text{ N/mm}$ is stretched by a watermelon that has a weight of $15\\text{ N}$. What is the extension produced?",
+      "options": [
+        "$75\\text{ mm}$",
+        "$3.0\\text{ mm}$",
+        "$0.013\\text{ mm}$",
+        "$15.2\\text{ mm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $k = F/x$ gives $x = F / k = 15\\text{ N} / 0.2\\text{ N/mm} = 75\\text{ mm}$. \n\n**Common mistake:** Multiplying the spring constant by the force ($3.0$)."
+    }
+  ]
+}

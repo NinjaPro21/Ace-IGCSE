@@ -1,0 +1,77 @@
+{
+  "id": "16-4-electromotive-force-and-potential-difference-medium",
+  "topicId": "16-4-electromotive-force-and-potential-difference",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "medium",
+  "title": "Electromotive Force and Potential Difference — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-medium-q1",
+      "type": "mcq",
+      "question": "A charge of $4.0 \\times 10^{4}\\text{ C}$ flows through an electric heater. If $8.0\\text{ MJ}$ of electrical energy is converted into thermal energy, what is the potential difference across the heater?",
+      "options": [
+        "$200\\text{ V}$",
+        "$20\\text{ V}$",
+        "$320\\text{ V}$",
+        "$500\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potential difference $V = W / Q$. $8.0\\text{ MJ}$ is $8.0 \\times 10^{6}\\text{ J}$. Thus, $V = (8.0 \\times 10^{6}) / (4.0 \\times 10^{4}) = 200\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-medium-q2",
+      "type": "mcq",
+      "question": "A current of $0.50\\text{ A}$ flows through a bulb for $2.0\\text{ minutes}$. If the potential difference across the bulb is $12\\text{ V}$, how much energy is dissipated?",
+      "options": [
+        "$720\\text{ J}$",
+        "$12\\text{ J}$",
+        "$60\\text{ J}$",
+        "$120\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find charge $Q = I \\times t = 0.50\\text{ A} \\times 120\\text{ s} = 60\\text{ C}$. Then, $W = V \\times Q = 12\\text{ V} \\times 60\\text{ C} = 720\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-medium-q3",
+      "type": "mcq",
+      "question": "Which statement correctly describes the difference between electromotive force (e.m.f.) and potential difference (p.d.)?",
+      "options": [
+        "e.m.f. relates to energy supplied by the source; p.d. relates to energy used by a component",
+        "e.m.f. is measured in Newtons; p.d. is measured in Volts",
+        "e.m.f. is used for parallel circuits; p.d. is used for series circuits",
+        "e.m.f. is the total current; p.d. is the current through one branch"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, e.m.f. is the work done by a source to move a unit charge around a circuit, while p.d. is the work done by a unit charge passing through a specific component.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-medium-q4",
+      "type": "mcq",
+      "question": "A student measures the potential difference across a resistor using an analogue voltmeter. If the work done to move $2.0\\text{ C}$ of charge through the resistor is $10\\text{ J}$, what should the voltmeter read?",
+      "options": [
+        "$5.0\\text{ V}$",
+        "$20.0\\text{ V}$",
+        "$0.2\\text{ V}$",
+        "$10.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reading on the voltmeter is the potential difference $V = W / Q = 10\\text{ J} / 2.0\\text{ C} = 5.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-4-electromotive-force-and-potential-difference-medium-q5",
+      "type": "mcq",
+      "question": "One volt is equivalent to which of the following combinations of units?",
+      "options": [
+        "One joule per coulomb ($1\\text{ J/C}$)",
+        "One coulomb per second ($1\\text{ C/s}$)",
+        "One joule per second ($1\\text{ J/s}$)",
+        "One ampere per ohm ($1\\text{ A/}Omega$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $V = W / Q$ (energy per unit charge), the volt is defined as one joule per coulomb.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

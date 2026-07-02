@@ -1,0 +1,77 @@
+{
+  "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium",
+  "topicId": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "medium",
+  "title": "Sketching Graphs of Cubic Polynomials and their Moduli — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q1",
+      "type": "mcq",
+      "question": "Sketch the graph of $y = |(x-1)(x-2)(x-3)|$. How many 'humps' (local maxima) are created between the roots?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original cubic has one local maximum and one local minimum. When reflected, the minimum becomes a second local maximum between the roots.\n\n**Common mistake:** Only counting the single local maximum from the original cubic and ignoring the reflected peak."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q2",
+      "type": "mcq",
+      "question": "Find the $y$2$y = |(x+1)(x-2)(x-4)|$.",
+      "options": [
+        "8",
+        "-8",
+        "1",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "At $x=0, y = |(1)(-2)(-4)| = |8| = 8$.\n\n**Common mistake:** Failing to apply the modulus and leaving the intercept as -8."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q3",
+      "type": "mcq",
+      "question": "The cubic $f(x)$ has roots at $-4, 0,$ and^4. Describe the end behavior of the graph $y = |f(x)|$ as $x \\to \\infty$2$x \\to -\\infty$.",
+      "options": [
+        "Both ends approach $+\\infty$",
+        "One approaches $+\\infty$2$-\\infty$",
+        "Both ends approach 0",
+        "One end approaches $+\\infty$, one approaches 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because of the modulus, all large negative outputs are reflected to positive values. Thus, both ends of the graph rise.\n\n**Common mistake:** Using the end behavior of a standard cubic, where the ends go in opposite directions."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q4",
+      "type": "mcq",
+      "question": "For the graph $y = |(x+2)^2(x-3)|$, at which root does the graph merely touch the $x$-axis without crossing?",
+      "options": [
+        "x = -2",
+        "x = 3",
+        "x = 0",
+        "It crosses at both roots"
+      ],
+      "correctIndex": 0,
+      "explanation": "A repeated root of even multiplicity (squared) causes the graph to touch the axis and turn back. The modulus keeps this behavior on the positive side.\n\n**Common mistake:** Thinking the modulus makes the graph cross at every root regardless of multiplicity."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q5",
+      "type": "mcq",
+      "question": "Determine the number of solutions to the equation $|(x-1)(x-2)(x-3)| = 0$.",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation is zero only at the roots of the cubic expression: $x=1, 2,$ and^3.\n\n**Common mistake:** Thinking the modulus doubles the number of solutions for a 'zero' equation."
+    }
+  ]
+}

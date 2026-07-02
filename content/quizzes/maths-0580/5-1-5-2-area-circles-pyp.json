@@ -1,0 +1,77 @@
+{
+  "id": "5-1-5-2-area-circles-pyp",
+  "topicId": "5-1-5-2-area-circles",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "pyp",
+  "title": "Area & Circles — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-5-2-area-circles-pyp-q1",
+      "type": "mcq",
+      "question": "The International Space Station (ISS) made $10000$ orbits of the Earth and travelled a distance of $4.259 \\times 10^{8}$ kilometres. If the orbit is a circle, calculate the radius of the orbit correct to the nearest ten kilometres.",
+      "options": [
+        "$6780\\text{ km}$",
+        "$42590\\text{ km}$",
+        "$13560\\text{ km}$",
+        "$678\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance per orbit $= 4.259 \\times 10^{8} \\div 10000 = 42590\\text{ km}$. $C = 2\\pi r \\Rightarrow 42590 = 2\\pi r \\Rightarrow r \\approx 6778.4$. Nearest ten is $6780\\text{ km}$.\n\n**Common mistake:** Rounding early or using the total distance as the circumference for a single orbit."
+    },
+    {
+      "id": "5-1-5-2-area-circles-pyp-q2",
+      "type": "mcq",
+      "question": "A shape is made by removing a small semi-circle from a large semi-circle. On the large semi-circle diameter $AB$2$M$2$AM = MB = 10\\text{ cm}$. If the small semi-circle has diameter $AM$2$\\pi$.",
+      "options": [
+        "$37.5\\pi\\text{ cm}^2$",
+        "$50\\pi\\text{ cm}^2$",
+        "$12.5\\pi\\text{ cm}^2$",
+        "$75\\pi\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Large radius $= 10$, area $= 0.5\\pi(10^{2}) = 50\\pi$2$= 5$, area $= 0.5\\pi(5^2) = 12.5\\pi$2$= 50\\pi - 12.5\\pi = 37.5\\pi$.\n\n**Common mistake:** The student might subtract the small circle area from the full large circle instead of using semi-circles."
+    },
+    {
+      "id": "5-1-5-2-area-circles-pyp-q3",
+      "type": "mcq",
+      "question": "A car tyre has an outer diameter of $30\\text{ cm}$. How many times will the tyre rotate on a journey of $5\\text{ km}$? Give your answer to the nearest whole number.",
+      "options": [
+        "$5305$",
+        "$1667$",
+        "$10610$",
+        "$531$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Circumference $= \\pi \\times 30 = 30\\pi\\text{ cm} \\approx 94.25\\text{ cm}$. Distance $= 500000\\text{ cm}$. Rotations $= 500000 \\div (30\\pi) \\approx 5305.16$.\n\n**Common mistake:** The student might fail to convert $5\\text{ km}$ to centimetres correctly or divide by diameter instead of circumference."
+    },
+    {
+      "id": "5-1-5-2-area-circles-pyp-q4",
+      "type": "mcq",
+      "question": "A square is inscribed in a circle of radius $7\\text{ cm}$. Find the area of the square.",
+      "options": [
+        "$98\\text{ cm}^2$",
+        "$49\\text{ cm}^2$",
+        "$196\\text{ cm}^2$",
+        "$154\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagonal of the inscribed square is equal to the diameter of the circle, $14\\text{ cm}$. Area $= 0.5 \\times \\text{diagonal}^2 = 0.5 \\times 14^2 = 98\\text{ cm}^2$.\n\n**Common mistake:** The student might assume the side of the square is $7\\text{ cm}$ (the radius), leading to an area of $49$."
+    },
+    {
+      "id": "5-1-5-2-area-circles-pyp-q5",
+      "type": "mcq",
+      "question": "In triangle $ABC$2$AB = 8\\text{ cm}$, $AC = 10\\text{ cm}$, and $BC = 14\\text{ cm}$. Given angle $ACB = 29.2^{\\circ}$, calculate the area of triangle $ABC$.",
+      "options": [
+        "$34.2\\text{ cm}^2$",
+        "$40.0\\text{ cm}^2$",
+        "$56.0\\text{ cm}^2$",
+        "$68.4\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times AC \\times BC \\times \\sin(ACB) = 0.5 \\times 10 \\times 14 \\times \\sin 29.2^{\\circ} \\approx 34.15$.\n\n**Common mistake:** Using the wrong pair of sides for the given angle; for angle $C$2$a$2$b$2$BC$2$AC$) must be used."
+    }
+  ]
+}

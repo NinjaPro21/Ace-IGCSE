@@ -1,0 +1,77 @@
+{
+  "id": "6-4-power-pyp",
+  "topicId": "6-4-power",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "pyp",
+  "title": "Power — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-4-power-pyp-q1",
+      "type": "mcq",
+      "question": "A machine is able to lift $200\\text{ kg}$ of bricks vertically up to a height of $30\\text{ m}$ above the ground in $50\\text{ s}$. What is the power of the machine? (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$1.2\\text{ kW}$",
+        "$0.12\\text{ kW}$",
+        "$6.0\\text{ kW}$",
+        "$300\\text{ kW}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = mgh = 200 \\times 10 \\times 30 = 60000\\text{ J}$. Power $= 60000 / 50 = 1200\\text{ W} = 1.2\\text{ kW}$. \n\n**Common mistake:** Using the mass directly ($200 \\times 30 / 50 = 120\\text{ W}$) without multiplying by $g$."
+    },
+    {
+      "id": "6-4-power-pyp-q2",
+      "type": "mcq",
+      "question": "Which equation correctly represents the power $P$ of a device in terms of work done $W$, energy converted $Delta E$, and time $t$?",
+      "options": [
+        "$P = \\frac{W}{t} = \\frac{Delta E}{t}$",
+        "$P = W \\times t = Delta E \\times t$",
+        "$P = \\frac{t}{W} = \\frac{t}{Delta E}$",
+        "$P = W - t = Delta E - t$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is defined as work done or energy converted divided by the time taken. \n\n**Common mistake:** Multiplying work and time, which does not represent a standard physical rate."
+    },
+    {
+      "id": "6-4-power-pyp-q3",
+      "type": "mcq",
+      "question": "The table lists data for four power stations. Which station has the highest efficiency?nn| Station | Energy Input (J) | Useful Output (J) |n| :--- | :--- | :--- |n| P | $10.8 \\times 10^{14}$ | $3.28 \\times 10^{14}$ |n| Q | $17.1 \\times 10^{14}$ | $2.13 \\times 10^{14}$ |n| R | $2.5 \\times 10^{14}$ | $1.01 \\times 10^{14}$ |n| S | $2.1 \\times 10^{14}$ | $0.75 \\times 10^{14}$ |",
+      "options": [
+        "Station R",
+        "Station P",
+        "Station Q",
+        "Station S"
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency calculations: P=30.4%, Q=12.5%, R=40.4%, S=35.7%. Station R is the highest. \n\n**Common mistake:** Selecting the station with the largest output (P) without comparing it to the input."
+    },
+    {
+      "id": "6-4-power-pyp-q4",
+      "type": "mcq",
+      "question": "A motor has a power output of $500\\text{ W}$. How much work does it do in $20\\text{ s}$?",
+      "options": [
+        "$10000\\text{ J}$",
+        "$25\\text{ J}$",
+        "$520\\text{ J}$",
+        "$100\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$W = P \\times t = 500 \\times 20 = 10000\\text{ J}$. \n\n**Common mistake:** Dividing power by time ($500/20 = 25$)."
+    },
+    {
+      "id": "6-4-power-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the units for Work and Power?",
+      "options": [
+        "Work: Joule ($J$); Power: Watt ($W$)",
+        "Work: Watt ($W$); Power: Joule ($J$)",
+        "Work: Newton ($N$); Power: Watt ($W$)",
+        "Work: Joule ($J$); Power: Newton-metre ($Nm$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work (energy) is measured in Joules; Power (rate) is measured in Watts. \n\n**Common mistake:** Swapping the units for work and power."
+    }
+  ]
+}

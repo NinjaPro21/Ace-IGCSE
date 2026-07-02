@@ -1,0 +1,77 @@
+{
+  "id": "10-1-transfer-of-thermal-energy-pyp",
+  "topicId": "10-1-transfer-of-thermal-energy",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "pyp",
+  "title": "Transfer of Thermal Energy — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-transfer-of-thermal-energy-pyp-q1",
+      "type": "mcq",
+      "question": "According to the kinetic theory of matter, thermal energy is transferred from the hot end of a glass rod to the cold end when the molecules from the hot end:",
+      "options": [
+        "emit infrared radiation to the cold end",
+        "move from place to place so that they collide with the colder molecules",
+        "move to the cold end",
+        "vibrate more vigorously and pass on the energy to the neighbouring molecules"
+      ],
+      "correctIndex": 3,
+      "explanation": "Directly from 'Let's Review' Q1. Conduction in a solid involves the transfer of vibrational energy between adjacent particles. \n\n**Common mistake:** Thinking molecules in a solid move from one end to the other."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-pyp-q2",
+      "type": "mcq",
+      "question": "In a vacuum flask, the vacuum between the double walls prevents thermal energy transfer by:",
+      "options": [
+        "conduction only",
+        "conduction and convection",
+        "convection only",
+        "radiation only"
+      ],
+      "correctIndex": 1,
+      "explanation": "From 'Let's Review' Q3. Conduction and convection both require a material medium (particles). A vacuum lacks these, so it blocks both processes. \n\n**Common mistake:** Thinking a vacuum also blocks radiation, which can actually pass through empty space."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows two blocks of the same metal. Block A is at $40^\\circ\\text{C}$ and Block B is at $20^\\circ\\text{C}$. They are brought into contact. In which direction does the thermal energy flow?",
+      "options": [
+        "From A to B",
+        "From B to A",
+        "There is no flow of energy",
+        "The direction depends on the mass of the blocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The general principle states energy is transferred from higher temperature to lower temperature. \n\n**Common mistake:** Confusing temperature with mass or volume."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-pyp-q4",
+      "type": "mcq",
+      "question": "In a hot water tank, the heating element should be placed at the bottom because:",
+      "options": [
+        "conduction cannot take place when the heater is at the top",
+        "infrared radiation travels faster in the upward direction",
+        "the heated water will rise and this will form convection currents",
+        "the heater must be covered by water at all times"
+      ],
+      "correctIndex": 2,
+      "explanation": "From 'Let's Review' Q2. Heated water becomes less dense and rises, allowing cold water to sink and be heated, creating a convection current that heats the whole tank. \n\n**Common mistake:** Thinking conduction is the main way a large tank of water is heated."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies how the rate of thermal energy transfer is affected?",
+      "options": [
+        "Temp. Difference: Increase; Surface Area: Increase; Rate: Increase",
+        "Temp. Difference: Decrease; Surface Area: Increase; Rate: Same",
+        "Temp. Difference: Increase; Surface Area: Decrease; Rate: Increase",
+        "Temp. Difference: Same; Surface Area: Increase; Rate: Decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate of transfer increases with both a larger temperature difference and a larger surface area. \n\n**Common mistake:** Thinking that decreasing the area would increase the rate because it is 'more concentrated'."
+    }
+  ]
+}

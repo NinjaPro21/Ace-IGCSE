@@ -1,0 +1,77 @@
+{
+  "id": "9-4-plotting-curves-medium",
+  "topicId": "9-4-plotting-curves",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "medium",
+  "title": "Plotting Curves — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-4-plotting-curves-medium-q1",
+      "type": "mcq",
+      "question": "A curve has the equation $y = 2x^3 - 16$. Find the coordinates of the point where the curve crosses the $x$-axis.",
+      "options": [
+        "$(2, 0)$",
+        "$(8, 0)$",
+        "$(0, -16)$",
+        "$(\\sqrt{16}, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the $x$2$y = 0$: $0 = 2x^3 - 16 \\Rightarrow 2x^3 = 16 \\Rightarrow x^3 = 8 \\Rightarrow x = 2$.\n\n**Common mistake:** The student might forget to divide by 2 before taking the cube root or provide the $y$-intercept instead."
+    },
+    {
+      "id": "9-4-plotting-curves-medium-q2",
+      "type": "mcq",
+      "question": "Calculate the value of $y$2$y = 3 \\cdot 2^x$2$x = 4$.",
+      "options": [
+        "$48$",
+        "$24$",
+        "$16$",
+        "$12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 4$ into the function: $y = 3 \\cdot 2⁴ = 3 \\cdot 16 = 48$.\n\n**Common mistake:** The student might multiply 3 and 2 first to get $6⁴$, which violates the order of operations (indices before multiplication)."
+    },
+    {
+      "id": "9-4-plotting-curves-medium-q3",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x^2 + 2x - 15$.",
+      "options": [
+        "$(3, 0)$ and $(-5, 0)$",
+        "$(-3, 0)$ and $(5, 0)$",
+        "$(0, -15)$",
+        "$(1, 0)$ and $(-15, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factorise the quadratic: $y = (x - 3)(x + 5)$. Setting $y = 0$ gives $x = 3$ and $x = -5$.\n\n**Common mistake:** The student may identify the correct numbers from factorisation but use the wrong signs for the intercepts."
+    },
+    {
+      "id": "9-4-plotting-curves-medium-q4",
+      "type": "mcq",
+      "question": "The function $y = k/x^2$ passes through the point $(2, 5)$. Determine the value of the constant $k$.",
+      "options": [
+        "$20$",
+        "$10$",
+        "$2.5$",
+        "$1.25$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the point $(2, 5)$ into the equation: $5 = k/2^2 \\Rightarrow 5 = k/4 \\Rightarrow k = 20$.\n\n**Common mistake:** The student might forget to square the $x$-coordinate or divide by 2 instead of 4."
+    },
+    {
+      "id": "9-4-plotting-curves-medium-q5",
+      "type": "mcq",
+      "question": "Identify the coordinates of the turning point for the quadratic function $y = (x + 6)² - 4$.",
+      "options": [
+        "$(-6, -4)$",
+        "$(6, -4)$",
+        "$(-6, 4)$",
+        "$(0, 32)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a quadratic is in the form $y = (x - a)² + b$2$(a, b)$. Here, $a = -6$ and $b = -4$.\n\n**Common mistake:** The student might use the sign inside the bracket directly, leading to $(6, -4)$."
+    }
+  ]
+}

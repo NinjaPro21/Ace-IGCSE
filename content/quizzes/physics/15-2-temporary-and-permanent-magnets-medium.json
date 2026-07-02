@@ -1,0 +1,77 @@
+{
+  "id": "15-2-temporary-and-permanent-magnets-medium",
+  "topicId": "15-2-temporary-and-permanent-magnets",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "medium",
+  "title": "Temporary and Permanent Magnets — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-2-temporary-and-permanent-magnets-medium-q1",
+      "type": "mcq",
+      "question": "Two metal bars, P and Q, are tested with a magnet. Bar P picks up many paper clips but drops them all when the magnet is removed. Bar Q picks up fewer clips but keeps most of them. What are materials P and Q?",
+      "options": [
+        "P: Soft iron; Q: Steel",
+        "P: Steel; Q: Soft iron",
+        "P: Brass; Q: Iron",
+        "P: Copper; Q: Steel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron (P) is easy to magnetise (picks up many clips) but loses magnetism easily (temporary). Steel (Q) is harder to magnetise (fewer clips initially) but retains it (permanent). \n\n**Common mistake:** Swapping the properties of iron and steel."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-medium-q2",
+      "type": "mcq",
+      "question": "Why is soft iron, rather than steel, used for the core of an electromagnet?",
+      "options": [
+        "It is easily magnetised and easily demagnetised",
+        "It produces a permanent magnetic field",
+        "It is a better conductor of electricity than steel",
+        "It is cheaper and more widely available"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is 'magnetically soft,' meaning it responds quickly to the presence or absence of a magnetic field, which is essential for switching an electromagnet on and off. \n\n**Common mistake:** Thinking steel is used because it makes a 'stronger' permanent electromagnet."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-medium-q3",
+      "type": "mcq",
+      "question": "Compare the magnetic properties of iron and steel according to the 'Let's Investigate' results.",
+      "options": [
+        "Iron is easier to magnetise but harder to keep magnetised than steel.",
+        "Steel is easier to magnetise and keep magnetised than iron.",
+        "Iron and steel have identical magnetic properties.",
+        "Steel loses its magnetism immediately when the magnet is removed."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source deduction states 'Iron loses its magnetism easily, but steel does not.' Iron is also shown picking up more tacks initially, meaning it is easier to magnetise. \n\n**Common mistake:** Believing steel is the 'best' at everything; iron is actually easier to magnetise."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-medium-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a magnetically soft material and its property?",
+      "options": [
+        "Material: Soft iron; Property: Easy to magnetise",
+        "Material: Steel; Property: Difficult to magnetise",
+        "Material: Brass; Property: Non-magnetic",
+        "Material: Soft iron; Property: Difficult to magnetise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is the standard example of a magnetically soft material, characterized by being easy to magnetise and demagnetise. \n\n**Common mistake:** Row B is a correct fact about steel, but steel is magnetically 'hard', not 'soft'."
+    },
+    {
+      "id": "15-2-temporary-and-permanent-magnets-medium-q5",
+      "type": "mcq",
+      "question": "A student wants to make a compass needle. Which material should they use and why?",
+      "options": [
+        "Steel, because it will retain its magnetism as a permanent magnet.",
+        "Soft iron, because it can be easily magnetised by the Earth.",
+        "Brass, because it is not affected by other magnets.",
+        "Copper, because it is a very good conductor."
+      ],
+      "correctIndex": 0,
+      "explanation": "A compass needle must be a permanent magnet so that it remains magnetised without an external source. Steel is the best choice for this. \n\n**Common mistake:** Choosing iron, which would lose its magnetism and stop working as a compass."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "3-2-density-easy",
+  "topicId": "3-2-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "easy",
+  "title": "Density — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-density-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of density?",
+      "options": [
+        "Mass per unit volume",
+        "Weight per unit area",
+        "Volume per unit mass",
+        "Force per unit volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density is defined as the amount of mass packed into a given space, specifically mass per unit volume. \n\n**Common mistake:** Confusing it with pressure, which is force per unit area."
+    },
+    {
+      "id": "3-2-density-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for density?",
+      "options": [
+        "$kg/m^3$",
+        "$g/cm^3$",
+        "$N/m^2$",
+        "$kg/m^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for density is kilograms per cubic metre ($kg/m^3$). \n\n**Common mistake:** While $g/cm^3$ is often used in labs, it is not the official SI unit."
+    },
+    {
+      "id": "3-2-density-easy-q3",
+      "type": "mcq",
+      "question": "An object has a mass of $100\\text{ g}$ and a volume of $20\\text{ cm}^3$. What is its density?",
+      "options": [
+        "$5.0\\text{ g/cm}^3$",
+        "$2000\\text{ g/cm}^3$",
+        "$0.2\\text{ g/cm}^3$",
+        "$80\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $rho = m / V$: $100\\text{ g} / 20\\text{ cm}^3 = 5.0\\text{ g/cm}^3$. \n\n**Common mistake:** Multiplying the values instead of dividing mass by volume."
+    },
+    {
+      "id": "3-2-density-easy-q4",
+      "type": "mcq",
+      "question": "Under what condition will an object float on water?",
+      "options": [
+        "If its density is less than the density of water",
+        "If its mass is less than the mass of water",
+        "If its volume is greater than the volume of water",
+        "If its density is greater than the density of water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substances that have lower densities than water will float on it. \n\n**Common mistake:** Thinking that a 'heavy' object (large mass) will always sink, regardless of its volume/density."
+    },
+    {
+      "id": "3-2-density-easy-q5",
+      "type": "mcq",
+      "question": "If a block of uniform metal is broken into two equal parts, what happens to the density of each part?",
+      "options": [
+        "It remains the same as the original block",
+        "It is halved",
+        "It is doubled",
+        "It becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density is a property of the material. Since both mass and volume are halved, the ratio $m/V$ remains constant. \n\n**Common mistake:** Thinking that because the object is smaller, its density must also decrease."
+    }
+  ]
+}

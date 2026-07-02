@@ -1,0 +1,77 @@
+{
+  "id": "6-3-energy-resources-easy",
+  "topicId": "6-3-energy-resources",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "easy",
+  "title": "Energy Resources — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-3-energy-resources-easy-q1",
+      "type": "mcq",
+      "question": "Which statement best describes a renewable energy resource?",
+      "options": [
+        "It is replaced as quickly as it is used.",
+        "It can only be used once and then it is gone.",
+        "It does not produce any thermal energy.",
+        "It is always more efficient than non-renewable resources."
+      ],
+      "correctIndex": 0,
+      "explanation": "A renewable resource is one that is replaced as quickly as it is used, making it a reliable long-term source. \n\n**Common mistake:** Thinking 'renewable' means it produces no waste at all."
+    },
+    {
+      "id": "6-3-energy-resources-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is an example of a non-renewable energy resource?",
+      "options": [
+        "Fossil fuels",
+        "Solar energy",
+        "Wind energy",
+        "Biofuels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fossil fuels (like coal, oil, and gas) are non-renewable because they take millions of years to form and are used up faster than they can be replaced. \n\n**Common mistake:** Confusing biofuels (renewable) with fossil fuels."
+    },
+    {
+      "id": "6-3-energy-resources-easy-q3",
+      "type": "mcq",
+      "question": "A machine produces $35\\text{ J}$ of useful output energy for every $50\\text{ J}$ of total energy input. What is the efficiency of the machine?",
+      "options": [
+        "$70\\%$",
+        "$15\\%$",
+        "$1.4\\%$",
+        "$85\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula: $\\text{Efficiency} = (\\text{useful energy output} / \\text{energy input}) \\times 100\\%$. Here, $(35 / 50) \\times 100 = 70\\%$. \n\n**Common mistake:** Subtracting the values ($15\\%$) instead of dividing them."
+    },
+    {
+      "id": "6-3-energy-resources-easy-q4",
+      "type": "mcq",
+      "question": "What is the primary advantage of using solar energy for electricity?",
+      "options": [
+        "It is a renewable resource that does not emit pollutants during use.",
+        "It works at maximum efficiency during the night.",
+        "It is the cheapest way to produce electricity in all climates.",
+        "It can produce energy using nuclear fission."
+      ],
+      "correctIndex": 0,
+      "explanation": "Solar energy is renewable and clean during the conversion process to electricity. \n\n**Common mistake:** Believing solar panels are $100\\%$ efficient or work effectively without sunlight."
+    },
+    {
+      "id": "6-3-energy-resources-easy-q5",
+      "type": "mcq",
+      "question": "Which of these is a unit used to measure efficiency?",
+      "options": [
+        "Percentage (%)",
+        "joule (J)",
+        "watt (W)",
+        "newton (N)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency is a ratio of energy values and is usually expressed as a percentage. \n\n**Common mistake:** Selecting joules, which is a unit of energy, not the ratio."
+    }
+  ]
+}

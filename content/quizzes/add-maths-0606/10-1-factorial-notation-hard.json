@@ -1,0 +1,77 @@
+{
+  "id": "10-1-factorial-notation-hard",
+  "topicId": "10-1-factorial-notation",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "hard",
+  "title": "Factorial Notation — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-factorial-notation-hard-q1",
+      "type": "mcq",
+      "question": "Solve the equation (n + 1)! / (n - 1)! = 72 for positive integer n.",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 1)n = 72. n^2 + n - 72 = 0. (n + 9)(n - 8) = 0. Since n must be positive, n = 8.\n\n**Common mistake:** Choosing n = 9 because 9 × 8 = 72, but n is the smaller factor in n(n+1) if you aren't careful."
+    },
+    {
+      "id": "10-1-factorial-notation-hard-q2",
+      "type": "mcq",
+      "question": "Find the value of n if n! / (n - 2)! = 90.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "45"
+      ],
+      "correctIndex": 0,
+      "explanation": "n(n - 1) = 90. n^2 - n - 90 = 0. (n - 10)(n + 9) = 0. Since n > 0, n = 10.\n\n**Common mistake:** Identifying the answer as 9 (the other factor) instead of the larger value n."
+    },
+    {
+      "id": "10-1-factorial-notation-hard-q3",
+      "type": "mcq",
+      "question": "Simplify (2n)! / (2n - 2)!.",
+      "options": [
+        "4n^2 - 2n",
+        "2n",
+        "4n^2 - 4n",
+        "2n^2 - n"
+      ],
+      "correctIndex": 0,
+      "explanation": "(2n)(2n - 1)(2n - 2)! / (2n - 2)! = (2n)(2n - 1) = 4n^2 - 2n.\n\n**Common mistake:** Incorrectly expanding to (2n)(n-1) or making errors in the binomial multiplication."
+    },
+    {
+      "id": "10-1-factorial-notation-hard-q4",
+      "type": "mcq",
+      "question": "Solve for n: (n + 1)! = 12 × (n - 1)!.",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 1)n(n - 1)! = 12(n - 1)!. n(n + 1) = 12. n^2 + n - 12 = 0. (n + 4)(n - 3) = 0. Positive n = 3.\n\n**Common mistake:** Choosing n = 4, misidentifying which factor corresponds to which value in the product 3 × 4."
+    },
+    {
+      "id": "10-1-factorial-notation-hard-q5",
+      "type": "mcq",
+      "question": "Find the value of k such that 1 / n! + 1 / (n + 1)! = k / (n + 1)!.",
+      "options": [
+        "n + 2",
+        "n + 1",
+        "1",
+        "n"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply by (n + 1)!: (n + 1)! / n! + (n + 1)! / (n + 1)! = k. (n + 1) + 1 = k, so k = n + 2.\n\n**Common mistake:** Thinking k = 1 or incorrectly simplifying the first $fraction$ as n."
+    }
+  ]
+}

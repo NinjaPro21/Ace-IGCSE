@@ -1,0 +1,77 @@
+{
+  "id": "3-1-mass-and-weight-pyp",
+  "topicId": "3-1-mass-and-weight",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "pyp",
+  "title": "Mass and Weight — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-1-mass-and-weight-pyp-q1",
+      "type": "mcq",
+      "question": "Which of the following statements is correct?",
+      "options": [
+        "The mass of an object does not change with location.",
+        "The weight of an object can be measured with a beam balance.",
+        "The mass of an object can be measured with a spring balance.",
+        "The weight of an object can never change."
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a measure of the amount of matter and is constant. \n\n**Common mistake:** Thinking weight is measured with a beam balance; a beam balance is used for comparing masses/weights."
+    },
+    {
+      "id": "3-1-mass-and-weight-pyp-q2",
+      "type": "mcq",
+      "question": "A rock on the Moon has a mass of $0.5\\text{ kg}$. It is brought to the Earth, where the gravitational field strength is stronger. On the Earth, the rock will have:",
+      "options": [
+        "the same mass and more weight.",
+        "less mass and less weight.",
+        "less mass and the same weight.",
+        "the same mass and the same weight."
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is constant ($0.5\\text{ kg}$). Because Earth's $g$ is stronger than the Moon's, the weight ($W=mg$) will be greater on Earth. \n\n**Common mistake:** Thinking the mass will increase because the 'weight' feels heavier."
+    },
+    {
+      "id": "3-1-mass-and-weight-pyp-q3",
+      "type": "mcq",
+      "question": "Which statement correctly defines weight?",
+      "options": [
+        "A gravitational force on an object that has mass",
+        "A measure of the quantity of matter in an object",
+        "The force per unit mass in a gravitational field",
+        "The resistance of an object to a change in its motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight is defined as the effect of a gravitational field on a mass, resulting in a force. \n\n**Common mistake:** Confusing the definition of weight with the definition of mass (quantity of matter)."
+    },
+    {
+      "id": "3-1-mass-and-weight-pyp-q4",
+      "type": "mcq",
+      "question": "Planetary data shows that Venus has a gravitational field strength $g$ very similar to Earth's ($10\\text{ N/kg}$). If an explorer has a weight of $800\\text{ N}$ on Earth, what is the best estimate for their weight on Venus?",
+      "options": [
+        "$720\\text{ N}$",
+        "$80\\text{ N}$",
+        "$800\\text{ kg}$",
+        "$150\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since Venus has a $g$ value similar to Earth's, the explorer's weight ($W=mg$) will be close to their Earth weight ($800\\text{ N}$). $720\\text{ N}$ is the most plausible estimate among the choices. \n\n**Common mistake:** Selecting $800\\text{ kg}$, which incorrectly uses mass units for weight."
+    },
+    {
+      "id": "3-1-mass-and-weight-pyp-q5",
+      "type": "mcq",
+      "question": "Gravitational field strength $g$ is equivalent to which other physical quantity for an object in free-fall?",
+      "options": [
+        "Acceleration of free fall",
+        "Average speed",
+        "Resultant force",
+        "Total momentum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gravitational field strength $g$ is numerically equivalent to the acceleration of free fall in a uniform gravitational field. \n\n**Common mistake:** Thinking it is equivalent to the resultant force, which only equals $g$ if the mass is exactly $1\\text{ kg}$ ($F = mg$)."
+    }
+  ]
+}

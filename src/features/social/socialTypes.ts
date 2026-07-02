@@ -1,5 +1,7 @@
 export type GroupType = 'school' | 'clan'
 
+export const MAX_CLANS = 3
+
 export interface SchoolGroup {
   id: string
   name: string
@@ -14,15 +16,20 @@ export interface LeaderboardEntry {
   avatarUrl?: string
   xp: number
   streakDays: number
+  longestStreak: number
   level: number
+  score: number
   isYou?: boolean
+  achievementIds?: string[]
+  isFriend?: boolean
 }
 
 export interface PendingGroupAction {
-  action: 'create' | 'join'
+  action: 'create' | 'joinClan' | 'joinSchool'
   name?: string
   type?: GroupType
   inviteCode?: string
+  schoolId?: string
 }
 
 export interface AuthUser {
@@ -46,6 +53,6 @@ export function normalizeInviteCode(raw: string): string {
   return raw.trim().toUpperCase().replace(/\s+/g, '')
 }
 
-export function isValidInviteCode(code: string): boolean {
-  return /^(SCH|CLN)-[A-Z0-9]{6}$/.test(code)
+export function isValidClanInviteCode(code: string): boolean {
+  return /^CLN-[A-Z0-9]{6}$/.test(code)
 }

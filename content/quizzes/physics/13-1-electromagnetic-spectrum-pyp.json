@@ -1,0 +1,77 @@
+{
+  "id": "13-1-electromagnetic-spectrum-pyp",
+  "topicId": "13-1-electromagnetic-spectrum",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "pyp",
+  "title": "Electromagnetic Spectrum — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-electromagnetic-spectrum-pyp-q1",
+      "type": "mcq",
+      "question": "Which statement about electromagnetic waves is correct?",
+      "options": [
+        "In vacuum, all electromagnetic waves travel at the same high speed.",
+        "All electromagnetic waves are harmful to people.",
+        "All electromagnetic waves have the same wavelengths.",
+        "In vacuum, visible light travels faster than all the other electromagnetic waves."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from Review Section A, Question 1. All EM waves have the same speed ($3.0 \\times 10^{8}\\text{ m/s}$) in a vacuum. \n\n**Common mistake:** Selecting Choice D, believing light is the 'fastest' part."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows the regions of the electromagnetic spectrum. What are the labels A and B?nnRadio waves | Microwaves | A | Visible light | B | X-rays | Gamma rays",
+      "options": [
+        "A: Infrared; B: Ultraviolet",
+        "A: Ultraviolet; B: Infrared",
+        "A: X-rays; B: Microwaves",
+        "A: Gamma rays; B: Radio waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the mnemonic 'Rugby Match Is Very Unlike Xylophone Game', the order is Radio, Micro, Infra (A), Visible, Ultra (B), X-ray, Gamma. \n\n**Common mistake:** Swapping Infrared and Ultraviolet."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-pyp-q3",
+      "type": "mcq",
+      "question": "A radio wave signal is sent from Earth to the Moon and reflected back. The time taken is $2.5\\text{ s}$. If the speed of the wave is $3.0 \\times 10^{8}\\text{ m/s}$, what is the distance to the Moon?",
+      "options": [
+        "$3.75 \\times 10^{8}\\text{ m}$",
+        "$7.5 \\times 10^{8}\\text{ m}$",
+        "$1.2 \\times 10^{8}\\text{ m}$",
+        "$3.0 \\times 10^{8}\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance $= v \\times t = (3.0 \\times 10^{8}) \\times 2.5 = 7.5 \\times 10^{8}\\text{ m}$. Since this is for the return trip, the distance to the Moon is half: $3.75 \\times 10^{8}\\text{ m}$. \n\n**Common mistake:** Forgetting to divide the total distance by 2."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the properties of Radio waves compared to Gamma rays?",
+      "options": [
+        "Wavelength: Longer; Frequency: Lower; Speed in vacuum: Same",
+        "Wavelength: Shorter; Frequency: Higher; Speed in vacuum: Same",
+        "Wavelength: Longer; Frequency: Higher; Speed in vacuum: Faster",
+        "Wavelength: Shorter; Frequency: Lower; Speed in vacuum: Slower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radio waves are at the beginning of the spectrum (long $\\lambda$, low $f$), while Gamma rays are at the end (short $\\lambda$, high $f$). Speed is the same for all. \n\n**Common mistake:** Thinking Radio waves are 'slower' because they have lower frequency."
+    },
+    {
+      "id": "13-1-electromagnetic-spectrum-pyp-q5",
+      "type": "mcq",
+      "question": "A student measures the frequency of a signal to be $10\\text{ MHz}$. What is the wavelength of this signal in a vacuum?",
+      "options": [
+        "$30\\text{ m}$",
+        "$3.0\\text{ m}$",
+        "$300\\text{ m}$",
+        "$0.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = 10 \\times 10^{6}\\text{ Hz} = 10^{7}\\text{ Hz}$. $\\lambda = v/f = (3.0 \\times 10^{8}) / 10^{7} = 30\\text{ m}$. \n\n**Common mistake:** Using $10$ directly without the 'Mega' ($10^{6}$) factor."
+    }
+  ]
+}

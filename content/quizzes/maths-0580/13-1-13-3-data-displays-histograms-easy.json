@@ -1,0 +1,77 @@
+{
+  "id": "13-1-13-3-data-displays-histograms-easy",
+  "topicId": "13-1-13-3-data-displays-histograms",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Data Displays & Histograms — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-13-3-data-displays-histograms-easy-q1",
+      "type": "mcq",
+      "question": "In a pictogram showing pizza sales, one full circle represents 4 pizzas. If Tuesday shows two and a half circles, how many pizzas were sold?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the key, one full circle is 4 pizzas. Two full circles represent $2 \\times 4 = 8$ pizzas, and half a circle represents 2 pizzas. Total $= 8 + 2 = 10$.\n\n**Common mistake:** Students may miscount half a symbol as 1 item instead of half of the value designated in the key."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-easy-q2",
+      "type": "mcq",
+      "question": "What must every pictogram and stem-and-leaf diagram include so that the reader knows how to interpret the symbols or numbers?",
+      "options": [
+        "A key",
+        "A title in red ink",
+        "A calculator tip",
+        "An x-axis and y-axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every pictogram and stem-and-leaf diagram requires a key to explain what each picture, symbol, or digit combination represents.\n\n**Common mistake:** Forgetting the key is a frequent error that makes the data display meaningless to an external reader."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-easy-q3",
+      "type": "mcq",
+      "question": "In a standard bar chart, what does the height of each individual bar represent?",
+      "options": [
+        "Frequency",
+        "Class width",
+        "Frequency density",
+        "Cumulative frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a standard bar chart, the frequency is shown by the height of each bar.\n\n**Common mistake:** Confusing standard bar charts with histograms, where the height represents frequency density rather than absolute frequency."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-easy-q4",
+      "type": "mcq",
+      "question": "How is a frequency polygon constructed from a frequency chart or histogram?",
+      "options": [
+        "By joining the midpoints of the tops of the bars with straight lines",
+        "By drawing a smooth curve through all the data points",
+        "By shading the area between the bars",
+        "By connecting the bottom-left corner of each bar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A frequency polygon is drawn by joining the midpoints of the tops of the bars with straight lines.\n\n**Common mistake:** Students often try to draw a smooth curve (similar to a cumulative frequency graph) instead of using straight line segments."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-easy-q5",
+      "type": "mcq",
+      "question": "State the standard formula used to calculate the angle of a sector in a pie chart.",
+      "options": [
+        "(Frequency / Total) × 360°",
+        "(Frequency / 360) × 100",
+        "Frequency × Class Width",
+        "(Total / Frequency) × 180°"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the angle for a sector, you divide the specific category frequency by the total frequency and multiply by 360°.\n\n**Common mistake:** Multiplying by 100 instead of 360, which calculates the percentage instead of the required angle."
+    }
+  ]
+}

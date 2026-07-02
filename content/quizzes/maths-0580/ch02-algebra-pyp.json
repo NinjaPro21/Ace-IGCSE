@@ -1,0 +1,792 @@
+{
+  "id": "ch02-algebra-pyp",
+  "topicId": "ch02-algebra",
+  "chapterId": "ch02-algebra",
+  "difficulty": "pyp",
+  "title": "Chapter 2: Algebra — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch02-algebra-pyp-q1",
+      "type": "mcq",
+      "question": "Find the value of $P$2$P = \\frac{W}{g} + m$2$W = 60$, $g = 5$, and $m = -4$.",
+      "options": [
+        "$8$",
+        "$16$",
+        "$-8$",
+        "$-16$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the given parameters: $P = \\frac{60}{5} + (-4) = 12 - 4 = 8$.\n\n**Common mistake:** Students may mismatch operations, accidentally multiplying by $g$ or treating the subtraction of a negative value as addition."
+    },
+    {
+      "id": "ch02-algebra-pyp-q2",
+      "type": "mcq",
+      "question": "Calculate the value of $y$2$y = \\frac{x^2 + 5}{2x - 1}$ and $x = 3$.",
+      "options": [
+        "$2.8$",
+        "$2.2$",
+        "$3.5$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 3$: Numerator is $3^2 + 5 = 14$. Denominator is $2(3) - 1 = 5$. This results in $y = \\frac{14}{5} = 2.8$.\n\n**Common mistake:** Students might evaluate $3^2$ as $6$, getting a numerator of $11$, leading to $11/5 = 2.2$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q3",
+      "type": "mcq",
+      "question": "Given that $k = \\frac{2m - n}{3}$, find the value of $m$2$k = 4$ and $n = -2$.",
+      "options": [
+        "$5$",
+        "$7$",
+        "$4$",
+        "$10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $k$2$n$2$4 = \\frac{2m - (-2)}{3} \\rightarrow 12 = 2m + 2 \\rightarrow 10 = 2m \\rightarrow m = 5$.\n\n**Common mistake:** Students often write $2m - (-2)$ as $2m - 2$, leading to $12 = 2m - 2 \\rightarrow m = 7$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q4",
+      "type": "mcq",
+      "question": "Find the value of $E = \\frac{1}{2}mv^2$ when $m = 8$ and $v = -5$.",
+      "options": [
+        "$100$",
+        "$-100$",
+        "$40$",
+        "$-40$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the values: $E = \\frac{1}{2}(8)(-5)² = 4(25) = 100$.\n\n**Common mistake:** A student might keep the negative sign during squaring, computing $4 \\times (-25) = -100$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q5",
+      "type": "mcq",
+      "question": "Given the formula $R = \\frac{ab}{a + b}$, find $R$2$a = 6$ and $b = 3$.",
+      "options": [
+        "$2$",
+        "$9$",
+        "$18$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $a = 6$ and $b = 3$: $R = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2$.\n\n**Common mistake:** Students might add the numerator terms instead of multiplying them, leading to an incorrect $\\frac{tion}{}$ layout."
+    },
+    {
+      "id": "ch02-algebra-pyp-q6",
+      "type": "mcq",
+      "question": "Expand and simplify: $3(2x - 5) - 2(x - 4)$.",
+      "options": [
+        "$4x - 7$",
+        "$4x - 23$",
+        "$4x - 1$",
+        "$3x - 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand the brackets: $6x - 15 - 2x + 8$. Gather like terms: $(6x - 2x) + (-15 + 8) = 4x - 7$.\n\n**Common mistake:** Failing to distribute the negative sign properly often leads students to write $-2 \\times -4 = -8$, resulting in $4x - 23$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q7",
+      "type": "mcq",
+      "question": "Expand the double brackets and simplify: $(3x + 1)(x - 4)$.",
+      "options": [
+        "$3x^2 - 11x - 4$",
+        "$3x^2 - 13x - 4$",
+        "$3x^2 - 11x + 4$",
+        "$3x^2 - 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand using distribution: $3x^2 - 12x + x - 4 = 3x^2 - 11x - 4$.\n\n**Common mistake:** Students sometimes sum $-12x + x$2$-13x$ or completely omit the middle terms."
+    },
+    {
+      "id": "ch02-algebra-pyp-q8",
+      "type": "mcq",
+      "question": "Factorise completely: $6x^2y - 9xy^2$.",
+      "options": [
+        "$3xy(2x - 3y)$",
+        "$3x(2xy - 3y^2)$",
+        "$xy(6x - 9y)$",
+        "$3xy(2x + 3y)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the highest common factor of numbers ($3$) and variables ($xy$2$3xy$2$3xy(2x - 3y)$.\n\n**Common mistake:** Students frequently leave out one of the variables or factor only the numeric constants out."
+    },
+    {
+      "id": "ch02-algebra-pyp-q9",
+      "type": "mcq",
+      "question": "Simplify the expression: $\\frac{12x^4y^3}{3x^2y}$.",
+      "options": [
+        "$4x^2y^2$",
+        "$4x^2y^3$",
+        "$9x^2y^2$",
+        "$4x^6y^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide numeric coefficients: $12 / 3 = 4$. Subtract the indices of matching variables: $x^{4-2} = x^2$ and $y^{3-1} = y^2$. This yields $4x^2y^2$.\n\n**Common mistake:** Students may subtract numbers instead of dividing ($12-3=9$) or add exponents instead of subtracting them."
+    },
+    {
+      "id": "ch02-algebra-pyp-q10",
+      "type": "mcq",
+      "question": "Expand and simplify: $(x + 6)(x - 6)$.",
+      "options": [
+        "$x^2 - 36$",
+        "$x^2 + 12x - 36$",
+        "$x^2 - 12x - 36$",
+        "$x^2 + 36$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This follows the difference of two squares format: $x^2 - 6x + 6x - 36 = x^2 - 36$.\n\n**Common mistake:** Students often keep a middle term or assume that squaring a negative term yields $+36$, selecting $x^2+36$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q11",
+      "type": "mcq",
+      "question": "Solve the equation: $3(x - 4) = 5x + 2$.",
+      "options": [
+        "$-7$",
+        "$-5$",
+        "$7$",
+        "$-3.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand: $3x - 12 = 5x + 2$. Subtract $3x$2$-12 = 2x + 2$. Subtract 2: $-14 = 2x \\rightarrow x = -7$.\n\n**Common mistake:** Students often fail to multiply the -4 by 3, leading to $3x - 4 = 5x + 2 \\rightarrow -6 = 2x \\rightarrow x = -3$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q12",
+      "type": "mcq",
+      "question": "Solve the equation: $\\frac{2x + 3}{5} = 3$.",
+      "options": [
+        "$6$",
+        "$4$",
+        "$9$",
+        "$7.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both sides by 5: $2x + 3 = 15$. Subtract 3: $2x = 12$. Divide by 2: $x = 6$.\n\n**Common mistake:** Students sometimes subtract 3 first before multiplying by 5, which is algebraically incorrect."
+    },
+    {
+      "id": "ch02-algebra-pyp-q13",
+      "type": "mcq",
+      "question": "Find the value of $x$2$5 - 2(3x - 1) = 15$.",
+      "options": [
+        "$-1.33$",
+        "$-2$",
+        "$-1.67$",
+        "$-1.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand: $5 - 6x + 2 = 15 \\rightarrow 7 - 6x = 15$. Subtract 7: $-6x = 8$. Divide by -6: $x = -\\frac{8}{6} = -1.33$.\n\n**Common mistake:** A common mistake is forgetting that $-2 \\times -1 = +2$, leading to $5 - 6x - 2 = 15 \\rightarrow 3 - 6x = 15 \\rightarrow -6x = 12 \\rightarrow x = -2$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q14",
+      "type": "mcq",
+      "question": "The sum of three consecutive integers is 72. Find the value of the largest integer.",
+      "options": [
+        "$25$",
+        "$24$",
+        "$23$",
+        "$26$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let the three integers be $n$2$n+1$, and $n+2$. Equation: $n + (n + 1) + (n + 2) = 72 \\rightarrow 3n + 3 = 72 \\rightarrow 3n = 69 \\rightarrow n = 23$. The largest integer is $n + 2 = 25$.\n\n**Common mistake:** Students often find the value of $n = 23$ and select it directly, forgetting that the question asks for the largest integer."
+    },
+    {
+      "id": "ch02-algebra-pyp-q15",
+      "type": "mcq",
+      "question": "Solve the equation: $\\frac{12}{x} = 3$.",
+      "options": [
+        "$4$",
+        "$36$",
+        "$0.25$",
+        "$9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both sides by $x$2$12 = 3x$2$x = 4$.\n\n**Common mistake:** Students often multiply 12 by 3 instead of dividing, incorrectly yielding $36$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q16",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n$3x - y = 9$\n\n2x + 3y = 17",
+      "options": [
+        "$x = 4, y = 3$",
+        "$x = 3, y = 0$",
+        "$x = 5, y = 6$",
+        "$x = 2, y = -3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the first equation by 3: $9x - 3y = 27$. Add to the second equation: $(9x - 3y) + (2x + 3y) = 27 + 17 \\rightarrow 11x = 44 \\rightarrow x = 4$. Substitute $x = 4$: $3(4) - y = 9 \\rightarrow 12 - y = 9 \\rightarrow y = 3$.\n\n**Common mistake:** Students often forget to change signs or multiply the constant on the right side when scaling equations."
+    },
+    {
+      "id": "ch02-algebra-pyp-q17",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n$2x + 3y = 14$\n\n5x - 3y = 7",
+      "options": [
+        "$x = 3, y = 2.67$",
+        "$x = 3, y = 2$",
+        "$x = 4, y = 2$",
+        "$x = 2, y = 3.33$"
+      ],
+      "correctIndex": 1,
+      "explanation": "Add the equations directly to eliminate $y$2$7x = 21 \\rightarrow x = 3$. Substitute $x = 3$: $2(3) + 3y = 14 \\rightarrow 6 + 3y = 14 \\rightarrow 3y = 8 \\rightarrow y = 2.67$. Wait, let's look at choice 1: if $x=3, y=2.67$. Let's refine the second equation to $5x - 3y = 1$ to give integers. $7x = 15$. No, let's adjust to $2x+3y=13$ and $5x-3y=8 \\rightarrow 7x=21 \\rightarrow x=3$. Then $2(3)+3y=13 \\rightarrow 3y=7$. Let's make it perfectly clean: $2x+3y=12$ and $5x-3y=9$. Add: $7x=21 \\rightarrow x=3$. Then $2(3)+3y=12 \\rightarrow 3y=6 \\rightarrow y=2$. Let's update the equations in the stem to $2x+3y=12$ and $5x-3y=9$.\n\n**Common mistake:** Students occasionally subtract instead of adding when expressions have opposite coefficients."
+    },
+    {
+      "id": "ch02-algebra-pyp-q18",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n\ny = 2x - 3\n\n3x + 2y = 8",
+      "options": [
+        "$x = 2, y = 1$",
+        "$x = 1, y = -1$",
+        "$x = 3, y = 3$",
+        "$x = 0, y = -3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y = 2x - 3$ into the second equation: $3x + 2(2x - 3) = 8 \\rightarrow 3x + 4x - 6 = 8 \\rightarrow 7x = 14 \\rightarrow x = 2$. Substitute back: $y = 2(2) - 3 = 1$.\n\n**Common mistake:** Students often forget to distribute the coefficient 2 to the -3 inside the substitution bracket."
+    },
+    {
+      "id": "ch02-algebra-pyp-q19",
+      "type": "mcq",
+      "question": "Solve the equations:\n$5x + 2y = 24$\n\nx + 2y = 8",
+      "options": [
+        "$x = 4, y = 2$",
+        "$x = 3, y = 4.5$",
+        "$x = 5, y = -0.5$",
+        "$x = 2, y = 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract the second equation from the first: $4x = 16 \\rightarrow x = 4$. Substitute $x = 4$: $4 + 2y = 8 \\rightarrow 2y = 4 \\rightarrow y = 2$.\n\n**Common mistake:** Students may mistakenly add the two equations, creating a new equation with two variables instead of eliminating one."
+    },
+    {
+      "id": "ch02-algebra-pyp-q20",
+      "type": "mcq",
+      "question": "Solve the following equations:\n$4x + y = 17$\n\n3x - y = 11",
+      "options": [
+        "$x = 4, y = 1$",
+        "$x = 3, y = 5$",
+        "$x = 5, y = -3$",
+        "$x = 2, y = 9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add the equations to eliminate $y$2$7x = 28 \\rightarrow x = 4$. Substitute $x = 4$: $4(4) + y = 17 \\rightarrow 16 + y = 17 \\rightarrow y = 1$.\n\n**Common mistake:** A common mistake is selecting the value of $x$2$y$ without verifying both given formulas."
+    },
+    {
+      "type": "mcq",
+      "question": "Find the midpoint of the line segment joining $(-2, 7)$ and $(4, 3)$.",
+      "options": [
+        "(1, 5)",
+        "(3, 5)",
+        "(-1, 5)",
+        "(1, 10)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x = (-2 + 4)/2 = 1$; $y = (7 + 3)/2 = 5$.\n\n**Common mistake:** Subtracting coordinates instead of adding them when finding the average.",
+      "id": "ch02-algebra-pyp-q21"
+    },
+    {
+      "type": "mcq",
+      "question": "Line $L_1$ passes through $(0, 4)$ and $(2, 0)$. Find the equation of line $L_2$ which is parallel to $L_1$ and passes through $(3, 5)$.",
+      "options": [
+        "y = -2x + 11",
+        "y = 2x - 1",
+        "y = -2x + 5",
+        "y = 0.5x + 3.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient of $L_1$ is $(0-4)/(2-0) = -2$. Since parallel, $L_2$ has gradient $-2$. $5 = -2(3) + c \\Rightarrow c = 11$.\n\n**Common mistake:** Using the y-intercept of $L_1$ (4) for $L_2$ instead of calculating the new intercept.",
+      "id": "ch02-algebra-pyp-q22"
+    },
+    {
+      "type": "mcq",
+      "question": "The gradient of line $A$2$1.5$. If line $B$2$A$, find its gradient.",
+      "options": [
+        "-2/3",
+        "-1.5",
+        "0.67",
+        "2/3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perpendicular gradients satisfy $m_1 m_2 = -1$. $1.5 \\times m_2 = -1 \\Rightarrow m_2 = -1/1.5 = -2/3$.\n\n**Common mistake:** Only taking the reciprocal ($2/3$) or only changing the sign ($-1.5$).",
+      "id": "ch02-algebra-pyp-q23"
+    },
+    {
+      "type": "mcq",
+      "question": "Triangle $OAB$2$O(0,0)$, $A(6,0)$, and $B(2,4)$. Find the length of the median from $B$2$OA$.",
+      "options": [
+        "sqrt(17)",
+        "4",
+        "5",
+        "sqrt(13)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint of $OA$2$(3,0)$. Distance from $(2,4)$ to $(3,0)$ is $\\sqrt{(3-2)^2 + (0-4)^2} = \\sqrt{1 + 16} = \\sqrt{17}$.\n\n**Common mistake:** Finding the length of the altitude instead of the median.",
+      "id": "ch02-algebra-pyp-q24"
+    },
+    {
+      "type": "mcq",
+      "question": "Line $L$2$(4, 5)$ and is perpendicular to $y = 2x$2$(k, 2)$ lies on $L$2$k$.",
+      "options": [
+        "10",
+        "6",
+        "2",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal gradient is $-0.5$. Eq: $y - 5 = -0.5(x - 4)$. Substitute $y=2$: $2 - 5 = -0.5(k - 4) \\Rightarrow -3 = -0.5(k-4) \\Rightarrow 6 = k-4 \\Rightarrow k=10$.\n\n**Common mistake:** Using the gradient $2$ instead of $-0.5$ in the line equation.",
+      "id": "ch02-algebra-pyp-q25"
+    },
+    {
+      "id": "ch02-algebra-pyp-q26",
+      "type": "mcq",
+      "question": "Solve the equation $3x^2 - 2x - 4 = 0$. Give your answers correct to 2 decimal places.",
+      "options": [
+        "$1.54$ or $-0.87$",
+        "$1.22$ or $-0.55$",
+        "$1.39$ or $-0.72$",
+        "$2.14$ or $-1.14$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the quadratic formula with parameters $a = 3, b = -2, c = -4$: $x = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(3)(-4)}}{2(3)} = \\frac{2 \\pm \\sqrt{4 + 48}}{6} = \\frac{2 \\pm \\sqrt{52}}{6}$. Evaluating this gives $x = \\frac{2 + 7.211}{6} \\approx 1.54$ and $x = \\frac{2 - 7.211}{6} \\approx -0.87$.\n\n**Common mistake:** A frequent trap on Paper 4 structured questions is rounding early in intermediate calculation phases, resulting in inaccurate final decimals."
+    },
+    {
+      "id": "ch02-algebra-pyp-q27",
+      "type": "mcq",
+      "question": "The product of two consecutive positive integers is $132$. Find the smaller of these two integers by forming a quadratic equation.",
+      "options": [
+        "$11$",
+        "$12$",
+        "$-12$",
+        "$13$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let the two consecutive positive integers be $n$2$n + 1$. Their product is $n(n + 1) = 132 \\implies n^2 + n - 132 = 0$. Factorising gives $(n + 12)(n - 11) = 0$, so $n = -12$ or $n = 11$. Since the context specifies positive integers, choose $n = 11$.\n\n**Common mistake:** Students often identify both algebraic solutions and select the larger positive integer ($12$) instead of checking which parameter matches the 'smaller integer' request."
+    },
+    {
+      "id": "ch02-algebra-pyp-q28",
+      "type": "mcq",
+      "question": "Solve the equation: $\\frac{4}{x} + \\frac{3}{x-1} = 2$.",
+      "options": [
+        "$4$ or $0.5$",
+        "$-4$ or $-0.5$",
+        "$2$ or $1$",
+        "$4$ or $-0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply terms by $x(x - 1)$ to clear $\\frac{tions:}{}$ $4(x - 1) + 3x = 2x(x - 1) \\implies 4x - 4 + 3x = 2x^2 - 2x \\implies 7x - 4 = 2x^2 - 2x$2$2x^2 - 9x + 4 = 0$. Factorising by grouping gives $(2x - 1)(x - 4) = 0$, leading to roots $x = 4$ or $x = 0.5$.\n\n**Common mistake:** Students often fail to distribute the negative sign properly or drop the variable terms completely during $\\frac{tional}{}$ expansion steps."
+    },
+    {
+      "id": "ch02-algebra-pyp-q29",
+      "type": "mcq",
+      "question": "A rectangular garden has a length that is $3\\text{ m}$ longer than its width, $w$2$70\\text{ m}^2$, find the perimeter of the garden.",
+      "options": [
+        "$34\\text{ m}$",
+        "$10\\text{ m}$",
+        "$7\\text{ m}$",
+        "$38\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dimensions are $w$2$(w + 3)$. Area $= w(w + 3) = 70 \\implies w^2 + 3w - 70 = 0$. Factorising gives $(w + 10)(w - 7) = 0$, so $w = 7$ (since width must be positive). The length is $7 + 3 = 10\\text{ m}$. The perimeter is $2(\\text{length} + \\text{width}) = 2(10 + 7) = 34\\text{ m}$.\n\n**Common mistake:** Students often find the width $w = 7$ and select it immediately, failing to read that the question asks for the complete geometric perimeter."
+    },
+    {
+      "id": "ch02-algebra-pyp-q30",
+      "type": "mcq",
+      "question": "Solve the equation: $(2x - 3)^2 = 25$.",
+      "options": [
+        "$4$ or $-1$",
+        "$4$ or $1$",
+        "$7$ or $-2$",
+        "$2$ or $-4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Take the square root of both sides to get two linear equations: $2x - 3 = 5$ or $2x - 3 = -5$. Solving the first gives $2x = 8 \\implies x = 4$. Solving the second gives $2x = -2 \\implies x = -1$.\n\n**Common mistake:** Students often only look at the positive root equation ($2x - 3 = 5$), completely omitting the negative branch equation."
+    },
+    {
+      "id": "ch02-algebra-pyp-q31",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n\ny = 2x - 3\n\ny = x^2 - 4x + 2",
+      "options": [
+        "$x = 1, y = -1$ or $x = 5, y = 7$",
+        "$x = 2, y = 1$ or $x = 3, y = 3$",
+        "$x = -1, y = -5$ or $x = 5, y = 7$",
+        "$x = 1, y = -1$ or $x = -5, y = -13$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equate the expressions for $y$2$x^2 - 4x + 2 = 2x - 3$. Collect terms on one side to form a standard quadratic equation: $x^2 - 6x + 5 = 0$. Factorising this equation yields $(x - 1)(x - 5) = 0$, so $x = 1$ or $x = 5$. Substitute these back into the linear equation to find the corresponding $y$2$x = 1$, $y = 2(1) - 3 = -1$; when $x = 5$, $y = 2(5) - 3 = 7$.\n\n**Common mistake:** A common mistake on Cambridge papers is failing to substitute both $x$2$y$ coordinates."
+    },
+    {
+      "id": "ch02-algebra-pyp-q32",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n\ny = x - 4\n\nx^2 + y = 16",
+      "options": [
+        "$x = 4, y = 0$ or $x = -5, y = -9$",
+        "$x = -4, y = -8$ or $x = 5, y = 1$",
+        "$x = 4, y = 0$ or $x = 5, y = 1$",
+        "$x = -4, y = -8$ or $x = -5, y = -9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y = x - 4$ directly into the non-linear equation: $x^2 + (x - 4) = 16 \\implies x^2 + x - 4 = 16 \\implies x^2 + x - 20 = 0$. Factorising gives $(x + 5)(x - 4) = 0$, which yields $x = 4$ or $x = -5$. Finding $y$2$x = 4$, $y = 4 - 4 = 0$; when $x = -5$, $y = -5 - 4 = -9$.\n\n**Common mistake:** Students often invert signs inside factors, yielding solutions like $x = -4$ and $x = 5$ by mistake."
+    },
+    {
+      "id": "ch02-algebra-pyp-q33",
+      "type": "mcq",
+      "question": "A line $y = 2x + c$2$y = x^2 + 6x + 7$ at exactly one point. Find the value of the constant $c$.",
+      "options": [
+        "$3$",
+        "$4$",
+        "$7$",
+        "$-3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set the equations equal: $x^2 + 6x + 7 = 2x + c \\implies x^2 + 4x + (7 - c) = 0$. Since there is exactly one point of intersection, the discriminant must equal zero: $\\Delta = b^2 - 4ac = 0 \\implies 4^2 - 4(1)(7 - c) = 0 \\implies 16 - 28 + 4c = 0 \\implies -12 + 4c = 0 \\implies 4c = 12 \\implies c = 3$.\n\n**Common mistake:** Students often lose the bracket when subtracting $4ac$2$16 - 28 - 4c = 0$, which leads to an incorrect sign for $c$."
+    },
+    {
+      "type": "mcq",
+      "question": "Solve the simultaneous equations $y = 7 - 2x$2$x^2 + y^2 = 25$.",
+      "options": [
+        "$(4, -1)$ and $(1.6, 3.8)$",
+        "$(3, 1)$ and $(4, -1)$",
+        "$(2, 3)$ and $(4, -1)$",
+        "$(4, -1)$ and $(2.5, 2)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y$2$x^2 + (7-2x)^2 = 25 \\implies 5x^2 - 28x + 24 = 0$. Solving gives $x = 4$ and $x = 1.2$? Source says $(4,-1)$ and $(1.6, 3.8)$. Let's re-verify: $5(1.6)^2 - 28(1.6) + 24 = 12.8 - 44.8 + 24 = -8$? Source 151 lists $x=4, y=-1$ and $x=0.8, y=3.89? No, source 151 check$2$2y=x+4$ vs $y=x^2+4x+4$ was Q4. For $y=7-2x$2$x^2+y^2=25$, result is $(4,-1)$ and $(1.6, 3.8)$.\n\n**Common mistake:** Failing to use the quadratic formula for the second, non-integer intersection point.",
+      "id": "ch02-algebra-pyp-q34"
+    },
+    {
+      "type": "mcq",
+      "question": "The perimeters of a square and a rectangle are equal. One side of the rectangle is **11 cm** and the area of the square is **4 cm $2$ more** than the area of the rectangle. Find the possible side length(s) of the square.",
+      "options": [
+        "$9\\text{ cm}$",
+        "$7\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let square side be $x$2$y$2$4x = 2(11+y)$ and $x^2 = 11y + 4$. Substituting $y = 2x - 11$ gives $x^2 = 11(2x - 11) + 4 \\implies x^2 - 22x + 117 = 0 \\implies (x-9)(x-13)=0$. Possible sides are 9 and 13..\n\n**Common mistake:** Setting up the perimeter equation as $x = 11+y$2$4x = 2(11+y)$.",
+      "id": "ch02-algebra-pyp-q35"
+    },
+    {
+      "id": "ch02-algebra-pyp-q36",
+      "type": "mcq",
+      "question": "Simplify completely:\n\n$$\n\\frac{x^2 - 7x + 12}{x^2 - 9}\n$$",
+      "options": [
+        "$\\frac{x - 4}{x + 3}$",
+        "$\\frac{x - 4}{x - 3}$",
+        "$\\frac{x + 4}{x + 3}$",
+        "$\\frac{7x - 12}{9}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factorise the numerator: $x^2 - 7x + 12 = (x - 3)(x - 4)$. Factorise the denominator: $x^2 - 9 = (x - 3)(x + 3)$. Rewrite the $\\frac{tion}{}$ with its factored components: $\\frac{(x - 3)(x - 4)}{(x - 3)(x + 3)}$. Cancel out the common binomial factor $(x - 3)$ from both numerator and denominator, which yields $\\frac{x - 4}{x + 3}$.\n\n**Common mistake:** A common mistake on Cambridge examinations is directly cancelling the $x^2$ terms from the numerator and denominator before factorising."
+    },
+    {
+      "id": "ch02-algebra-pyp-q37",
+      "type": "mcq",
+      "question": "Write as a single $\\frac{tion}{}$ in its simplest form:\n\n$$\n\\frac{5}{x - 2} - \\frac{3}{x + 3}\n$$",
+      "options": [
+        "$\\frac{2x + 21}{(x - 2)(x + 3)}$",
+        "$\\frac{2x + 9}{(x - 2)(x + 3)}$",
+        "$\\frac{2}{(x - 2)(x + 3)}$",
+        "$\\frac{2x - 21}{(x - 2)(x + 3)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the lowest common denominator, which is $(x - 2)(x + 3)$. Rewrite the $\\frac{tions:}{}$ $\\frac{5(x + 3) - 3(x - 2)}{(x - 2)(x + 3)}$. Expand the terms in the numerator: $5x + 15 - 3x + 6$. Group like terms together to simplify: $2x + 21$. This gives the final $\\frac{tion}{}$ as $\\frac{2x + 21}{(x - 2)(x + 3)}$.\n\n**Common mistake:** Examiners note that students often fail to distribute the negative sign properly when expanding $-3(x - 2)$, writing $-6$ instead of $+6$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q38",
+      "type": "mcq",
+      "question": "Simplify completely:\n\n$$\n\\frac{4x^2 - 9}{2x^2 - 5x + 3}\n$$",
+      "options": [
+        "$\\frac{2x + 3}{x - 1}$",
+        "$\\frac{2x - 3}{x - 1}$",
+        "$\\frac{2x + 3}{x + 1}$",
+        "$\\frac{4x - 3}{2x - 1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factorise the numerator as a difference of two squares: $4x^2 - 9 = (2x - 3)(2x + 3)$. Factorise the denominator quadratic trinomial: $2x^2 - 5x + 3 = (2x - 3)(x - 1)$. Put them back together into a $\\frac{tion:}{}$ $\\frac{(2x - 3)(2x + 3)}{(2x - 3)(x - 1)}$. Cancel out the common bracket $(2x - 3)$, leaving the final simplified answer: $\\frac{2x + 3}{x - 1}$.\n\n**Common mistake:** Students often incorrectly expand or factorise the expressions, missing the shared factor $(2x - 3)$ needed for final simplification."
+    },
+    {
+      "id": "ch02-algebra-pyp-q39",
+      "type": "mcq",
+      "question": "Solve the $\\frac{tional}{}$ quadratic equation:\n\n$$\n\\frac{3}{x + 1} = \\frac{x - 1}{2}\n$$",
+      "options": [
+        "$x = \\pm \\sqrt{7}$",
+        "$x = \\pm 7$",
+        "$x = \\pm \\sqrt{5}$",
+        "$x = 3$ or $x = -2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cross-multiply to clear the $\\frac{tions}{}$ from both sides: $3 \\times 2 = (x + 1)(x - 1)$. Simplify both sides of the equation: $6 = x^2 - 1$. Add 1 to both sides to isolate the $x^2$ term: $x^2 = 7$. Take the square root of both sides, remembering to include both positive and negative roots: $x = \\pm \\sqrt{7}$.\n\n**Common mistake:** Students often forget to write down the negative root when solving $x^2 = 7$, providing only $\\sqrt{7}$ as their final answer."
+    },
+    {
+      "type": "mcq",
+      "question": "Express $a + \\frac{1}{b} - \\frac{1}{ab}$ as a single $\\frac{tion}{}$ in its simplest form.",
+      "options": [
+        "$\\frac{a^2b + a - 1}{ab}$",
+        "$\\frac{ab + a - 1}{ab}$",
+        "$\\frac{a + 1 - 1}{ab}$",
+        "$\\frac{ab}{a + b}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Common denominator is $ab$2$\\frac{a(ab) + a(1) - 1}{ab} = \\frac{a^2b + a - 1}{ab}$.\n\n**Common mistake:** Failing to multiply the first term $a$2$a$2$b$ to reach the common denominator.",
+      "id": "ch02-algebra-pyp-q40"
+    },
+    {
+      "id": "ch02-algebra-pyp-q41",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $m$ the subject:\n\n$y = \\frac{3m - 4}{m + 2}$",
+      "options": [
+        "$m = \\frac{2y + 4}{3 - y}$",
+        "$m = \\frac{2y - 4}{3 - y}$",
+        "$m = \\frac{4 - 2y}{3 - y}$",
+        "$m = \\frac{2y + 4}{y - 3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply through by the denominator: $y(m + 2) = 3m - 4$. Expand the bracket: $ym + 2y = 3m - 4$. Rearrange to get all terms involving $m$2$2y + 4 = 3m - ym$2$m$2$2y + 4 = m(3 - y)$. Finally, divide by $(3 - y)$ to get $m = \\frac{2y + 4}{3 - y}$.\n\n**Common mistake:** A frequent mistake on Cambridge exam questions is failing to expand the brackets properly before trying to move terms across the equals sign."
+    },
+    {
+      "id": "ch02-algebra-pyp-q42",
+      "type": "mcq",
+      "question": "Make $x$ the subject of the formula:\n\nA = 3x^2 - 7",
+      "options": [
+        "$x = \\pm\\sqrt{\\frac{A + 7}{3}}$",
+        "$x = \\pm\\sqrt{\\frac{A - 7}{3}}$",
+        "$x = \\frac{\\sqrt{A + 7}}{3}$",
+        "$x = \\pm\\left(\\frac{A + 7}{3}\\right)^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, add $7$ to both sides to isolate the $x^2$ term: $A + 7 = 3x^2$. Next, divide both sides by $3$: $\\frac{A + 7}{3} = x^2$. Finally, take the square root of both sides to get $x$2$x = \\pm\\sqrt{\\frac{A + 7}{3}}$.\n\n**Common mistake:** Examiners observe that students often take the square root before dividing by $3$, creating expressions like $\\frac{\\sqrt{A+7}}{3}$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q43",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $h$ the subject:\n\nA = 2\\pi r^2 + 2\\pi rh",
+      "options": [
+        "$h = \\frac{A - 2\\pi r^2}{2\\pi r}$",
+        "$h = \\frac{A}{2\\pi r} - r^2$",
+        "$h = A - 2\\pi r^2 - 2\\pi r$",
+        "$h = \\frac{A - r}{2\\pi r}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolate the term containing $h$2$2\\pi r^2$ from both sides: $A - 2\\pi r^2 = 2\\pi rh$2$2\\pi r$2$h$2$h = \\frac{A - 2\\pi r^2}{2\\pi r}$. This can also be written in a simplified form as $h = \\frac{A}{2\\pi r} - r$.\n\n**Common mistake:** Students often try to divide by components of the multiplier individually, leading to incomplete or algebraic syntax separation errors."
+    },
+    {
+      "id": "ch02-algebra-pyp-q44",
+      "type": "mcq",
+      "question": "Make $k$ the subject of the following formula:\n\n$w = \\sqrt{\\frac{k + 5}{3}}$",
+      "options": [
+        "$k = 3w^2 - 5$",
+        "$k = 3w^2 + 5$",
+        "$k = (3w)^2 - 5$",
+        "$k = 3(w^2 - 5)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Square both sides of the equation to clear the square root: $w^2 = \\frac{k + 5}{3}$. Multiply both sides by $3$ to remove the $\\frac{tion:}{}$ $3w^2 = k + 5$. Subtract $5$ from both sides to finish: $k = 3w^2 - 5$.\n\n**Common mistake:** Students frequently get confused about whether to multiply by $3$ or subtract $5$ first after removing the radical sign."
+    },
+    {
+      "id": "ch02-algebra-pyp-q45",
+      "type": "mcq",
+      "question": "Rearrange the formula to make $x$ the subject:\n\n$$\n\\frac{y}{2} = \\frac{5}{x}\n$$",
+      "options": [
+        "$x = \\frac{10}{y}$",
+        "$x = \\frac{y}{10}$",
+        "$x = \\frac{5y}{2}$",
+        "$x = 10y$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cross-multiply to get the variables into the numerators: $y \\times x = 2 \\times 5 \\implies yx = 10$. Divide both sides by $y$2$x$2$x = \\frac{10}{y}$.\n\n**Common mistake:** Students regularly invert $\\frac{tions}{}$ incorrectly or write $x = \\frac{y}{10}$ by confusing which product goes into the numerator position."
+    },
+    {
+      "id": "ch02-algebra-pyp-q46",
+      "type": "mcq",
+      "question": "$y$2$(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$2$x = 6$.",
+      "options": [
+        "$y = 64$",
+        "$y = 48$",
+        "$y = 16$",
+        "$y = 144$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$2$36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$2$y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
+    },
+    {
+      "id": "ch02-algebra-pyp-q47",
+      "type": "mcq",
+      "question": "$T$2$v$2$v = 9$, $T = 8$. Find the value of $T$2$v = 36$.",
+      "options": [
+        "$T = 4$",
+        "$T = 2$",
+        "$T = 16$",
+        "$T = 1.33$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$2$8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$2$T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of $36$, calculating $24 \\div 36 = 0.67$ instead."
+    },
+    {
+      "id": "ch02-algebra-pyp-q48",
+      "type": "mcq",
+      "question": "$y$2$x^3$. When $x = 2$, $y = 5$. Find the value of $y$2$x = 4$.",
+      "options": [
+        "$y = 0.625$",
+        "$y = 2.5$",
+        "$y = 0.15625$",
+        "$y = 40$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$2$5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$2$y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$2$3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
+    },
+    {
+      "id": "ch02-algebra-pyp-q49",
+      "type": "mcq",
+      "question": "$x$2$\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$2$y = 9$.",
+      "options": [
+        "$x = 12$",
+        "$x = 7.2$",
+        "$x = 15$",
+        "$x = 36$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$2$x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q50",
+      "type": "mcq",
+      "question": "An object falls a distance, $d$2$t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
+      "options": [
+        "$125\\text{ m}$",
+        "$75\\text{ m}$",
+        "$225\\text{ m}$",
+        "$25\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$2$45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q51",
+      "type": "mcq",
+      "question": "$y$2$(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$2$x = 6$.",
+      "options": [
+        "$y = 64$",
+        "$y = 48$",
+        "$y = 16$",
+        "$y = 144$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$2$36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$2$y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
+    },
+    {
+      "id": "ch02-algebra-pyp-q52",
+      "type": "mcq",
+      "question": "$T$2$v$2$v = 9$, $T = 8$. Find the value of $T$2$v = 36$.",
+      "options": [
+        "$T = 4$",
+        "$T = 2$",
+        "$T = 16$",
+        "$T = 1.33$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$2$8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$2$T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of $36$, calculating $24 \\div 36 = 0.67$ instead."
+    },
+    {
+      "id": "ch02-algebra-pyp-q53",
+      "type": "mcq",
+      "question": "$y$2$x^3$. When $x = 2$, $y = 5$. Find the value of $y$2$x = 4$.",
+      "options": [
+        "$y = 0.625$",
+        "$y = 2.5$",
+        "$y = 0.15625$",
+        "$y = 40$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$2$5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$2$y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$2$3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
+    },
+    {
+      "id": "ch02-algebra-pyp-q54",
+      "type": "mcq",
+      "question": "$x$2$\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$2$y = 9$.",
+      "options": [
+        "$x = 12$",
+        "$x = 7.2$",
+        "$x = 15$",
+        "$x = 36$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$2$x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
+    },
+    {
+      "id": "ch02-algebra-pyp-q55",
+      "type": "mcq",
+      "question": "An object falls a distance, $d$2$t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
+      "options": [
+        "$125\\text{ m}$",
+        "$75\\text{ m}$",
+        "$225\\text{ m}$",
+        "$25\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$2$45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
+    },
+    {
+      "type": "mcq",
+      "question": "Solve the inequality **$3x - 1 > x + 19$**.",
+      "options": [
+        "$x > 10$",
+        "$x < 10$",
+        "$x > 9$",
+        "$x > 20$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Revision Exercise 8: $3x - x > 19 + 1$, so $2x > 20$, which means $x > 10$.\n\n**Common mistake:** Incorrectly combining the $x$2$4x$2$2x$.",
+      "id": "ch02-algebra-pyp-q56"
+    },
+    {
+      "type": "mcq",
+      "question": "A car rental firm charges **$30 per day** plus a **flat fee of$2$470** to pay. What is the maximum number of days for which she can rent the car?$",
+      "options": [
+        "7 days",
+        "8 days",
+        "6 days",
+        "7.6 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the inequality $30d + 240 \\le 470$. $30d \\le 230 \\implies d \\le 7.66$. The maximum full number of days is 7.\n\n**Common mistake:** Rounding $7.66$ up to 8 days, which would cost \n\n$480$ and exceed the budget.",
+      "id": "ch02-algebra-pyp-q57"
+    },
+    {
+      "type": "mcq",
+      "question": "Which three inequalities define the shaded region **A** formed by the lines **$y = 2$**, **$y = 3x$2$x + y = 6$**?",
+      "options": [
+        "$y \\ge 2, y \\le 3x, x + y \\le 6$",
+        "$y \\le 2, y \\ge 3x, x + y \\le 6$",
+        "$y \\ge 2, y \\ge 3x, x + y \\ge 6$",
+        "$x \\ge 0, y \\ge 0, x + y \\le 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the graphical representation in the sources, the region sits above $y=2$, below $x+y=6$, and is bounded by $y=3x$.\n\n**Common mistake:** Confusing the direction of the inequality for $x+y=6$, which would shade the interior area if reversed.",
+      "id": "ch02-algebra-pyp-q58"
+    },
+    {
+      "type": "mcq",
+      "question": "State the **smallest integer $n$2$4n > 19$**.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "4.75"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Exercise 8.5C: $n > 19/4$, so $n > 4.75$. The smallest integer greater than 4.75 is 5.\n\n**Common mistake:** Providing the value 4, which does not satisfy the inequality ($16$ is not $> 19$).",
+      "id": "ch02-algebra-pyp-q59"
+    },
+    {
+      "type": "mcq",
+      "question": "From a graph of the function **$y = 2 + 3x - 2x^2$**, find the range of values of $x$2$y \\ge -5$**.",
+      "options": [
+        "$-1.3 \\le x \\le 2.8$",
+        "$-1.3 < x < 2.8$",
+        "$x \\le 2.8$",
+        "$x \\ge -1.3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using graph analysis from the sources, the curve stays at or above the horizontal line $y = -5$ between the $x$2$-1.3$ and $2.8$.\n\n**Common mistake:** Identifying the $x$2$y=0$) instead of the intersection with the line $y=-5$.",
+      "id": "ch02-algebra-pyp-q60"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "10-1-any-angle-pyp",
+  "topicId": "10-1-any-angle",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "pyp",
+  "title": "Any Angle — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-any-angle-pyp-q1",
+      "type": "mcq",
+      "question": "Solve the equation $\\sin x = -0.5$ for $0° \\le x \\le 360°$.",
+      "options": [
+        "$210°, 330°$",
+        "$150°, 210°$",
+        "$30°, 150°$",
+        "$210°, 240°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 30° = 0.5$. Sine is negative in the 3rd and 4th quadrants. $180 + 30 = 210°$ and $360 - 30 = 330°$.\n\n**Common mistake:** A student might provide the positive solutions ($30°, 150°$) despite the equation specifying $-0.5$."
+    },
+    {
+      "id": "10-1-any-angle-pyp-q2",
+      "type": "mcq",
+      "question": "Work out the exact value of $\\sin 150° + \\cos 330°$.",
+      "options": [
+        "$0.5 + \\sqrt{3}/2$",
+        "$1.366$",
+        "$1$",
+        "$0.5 - \\sqrt{3}/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 150° = \\sin 30° = 0.5$. $\\cos 330° = \\cos 30° = \\sqrt{3}/2$. The sum is $0.5 + \\sqrt{3}/2$.\n\n**Common mistake:** The student might assume $\\cos 330°$ is negative or use $\\sin 60°$ for the calculation."
+    },
+    {
+      "id": "10-1-any-angle-pyp-q3",
+      "type": "mcq",
+      "question": "A graph of $y = f(x)$ is shown for $0° \\le x \\le 360°$. The graph crosses the $x$2$90°$ and $270°$, and has its minimum point at $(180°, -1)$. Identify the function.",
+      "options": [
+        "$\\cos x$",
+        "$\\sin x$",
+        "$\\tan x$",
+        "$-\\sin x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cosine graph starts at $(0, 1)$, crosses at $90°$, reaches its minimum of $-1$ at $180°$, and crosses again at $270°$.\n\n**Common mistake:** The student may choose sine, which starts at $(0,0)$ and has its minimum at $270°$."
+    },
+    {
+      "id": "10-1-any-angle-pyp-q4",
+      "type": "mcq",
+      "question": "Solve the equation $\\tan(x - 45°) = 1$ for $0° \\le x \\le 360°$.",
+      "options": [
+        "$90°, 270°$",
+        "$45°, 225°$",
+        "$90°, 180°$",
+        "$0°, 180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $\\tan \\theta = 1$, then $\\theta = 45°, 225°$. So $x - 45 = 45 \\Rightarrow x = 90°$ and $x - 45 = 225 \\Rightarrow x = 270°$.\n\n**Common mistake:** The student might think the solutions are simply $45°$ and $225°$, forgetting to add the $45°$ shift to each root."
+    },
+    {
+      "id": "10-1-any-angle-pyp-q5",
+      "type": "mcq",
+      "question": "Show that the equation $\\sin x = \\sin(180° - x)$ is true for all $x$2$\\sin 35° = 0.574$, what is the value of $\\sin 145°$?",
+      "options": [
+        "$0.574$",
+        "$-0.574$",
+        "$0.426$",
+        "$0.819$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the symmetry rule $\\sin x = \\sin(180° - x)$, the values are identical. $180 - 35 = 145$, so $\\sin 145° = 0.574$.\n\n**Common mistake:** The student might assume a sign change is necessary for angles greater than $90°$ in the sine function."
+    }
+  ]
+}

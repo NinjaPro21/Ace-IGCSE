@@ -1,0 +1,77 @@
+{
+  "id": "8-2-length-of-an-arc-harder-topic-medium",
+  "topicId": "8-2-length-of-an-arc-harder-topic",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "medium",
+  "title": "Length of an Arc — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Find the length of an arc that subtends an angle of $45^\\circ$2$\\pi = 3.142$)",
+      "options": [
+        "6.28 cm",
+        "360 cm",
+        "12.57 cm",
+        "2.00 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert $45^\\circ$2$45 \\times (\\pi / 180) = \\pi / 4$. Arc length $s = 8 \\times (\\pi / 4) = 2\\pi \\approx 6.284$ cm.\n\n**Common mistake:** Calculating $8 \\times 45 = 360$ cm, forgetting to convert the degree measure."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "A sector has a radius of 5 cm and an angle of 1.2 radians. Calculate the perimeter of the sector.",
+      "options": [
+        "16 cm",
+        "6 cm",
+        "11 cm",
+        "31.4 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arc length $s = 5 \\times 1.2 = 6$ cm. Perimeter $P = s + 2r = 6 + 10 = 16$ cm.\n\n**Common mistake:** Giving the arc length (6 cm) as the final answer and forgetting to add the two radii."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "The perimeter of a sector is 24 cm. If the radius is 9 cm, find the angle of the sector in radians.",
+      "options": [
+        "0.667",
+        "1.50",
+        "2.67",
+        "0.50"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P = r\\theta + 2r \\implies 24 = 9\\theta + 18 \\implies 6 = 9\\theta \\implies \\theta = 2/3 \\approx 0.667$.\n\n**Common mistake:** Subtracting only one radius from the perimeter, or dividing the perimeter directly by the radius."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "In a circle of radius 10 cm, find the length of the major arc subtended by a central angle of 2 radians.",
+      "options": [
+        "42.8 cm",
+        "20 cm",
+        "62.8 cm",
+        "10 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total angle is $2\\pi$2$= 2\\pi - 2 \\approx 4.283$ rad. Major arc $= 10 \\times 4.283 = 42.83$ cm.\n\n**Common mistake:** Calculating the minor arc (20 cm) instead of the major arc."
+    },
+    {
+      "id": "8-2-length-of-an-arc-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Find the angle in radians of a sector whose arc length is equal to its diameter.",
+      "options": [
+        "2",
+        "1",
+        "$\\pi$",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arc length $s = 2r$2$s = r\\theta$2$2r = r\\theta \\implies \\theta = 2$ radians.\n\n**Common mistake:** Thinking the angle must involve $\\pi$ or concluding the angle is 1 rad."
+    }
+  ]
+}

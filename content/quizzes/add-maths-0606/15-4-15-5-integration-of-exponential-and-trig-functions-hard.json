@@ -1,0 +1,77 @@
+{
+  "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard",
+  "topicId": "15-4-15-5-integration-of-exponential-and-trig-functions",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "hard",
+  "title": "Integration of Exponential and Trig Functions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q1",
+      "type": "mcq",
+      "question": "Evaluate the definite integral $\\int_{0}^{\\ln 3} (e^{2x} + e^x) dx$ .",
+      "options": [
+        "$6$",
+        "$12$",
+        "$4$",
+        "$10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating gives $[0.5e^{2x} + e^x]0^{\\ln 3} = (0.5(9) + 3) - (0.5(1) + 1) = 7.5 - 1.5 = 6$.\n\n**Common mistake:** Option C occurs if the student forgets to subtract the lower bound ($x=0$) evaluation from the upper bound."
+    },
+    {
+      "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q2",
+      "type": "mcq",
+      "question": "Find $\\int (e^x - 1)^2 dx$ .",
+      "options": [
+        "$0.5e^{2x} - 2e^x + x + c$",
+        "$\\frac{1}{3}(e^x - 1)^3 + c$",
+        "$0.5e^{2x} - 2e^x + c$",
+        "$e^{2x} - 2e^x + x + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand the bracket first: $(e^x - 1)^2 = e^{2x} - 2e^x + 1$. Integrating term by term gives $0.5e^{2x} - 2e^x + x + c$.\n\n**Common mistake:** Option B is an incorrect application of the chain rule reversed for powers, which only works for linear $ax+b$ inner functions."
+    },
+    {
+      "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\int \\frac{e^{4x} + 2}{e^{2x}} dx$ .",
+      "options": [
+        "$0.5e^{2x} - e^{-2x} + c$",
+        "$e^{2x} - e^{-2x} + c$",
+        "$0.5e^{2x} + 2e^{-2x} + c$",
+        "$0.5e^{2x} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify the $fraction$ to $\\int (e^{2x} + 2e^{-2x}) dx$2$\\frac{1}{2}e^{2x} + \\frac{2}{-2}e^{-2x} = 0.5e^{2x} - e^{-2x} + c$.\n\n**Common mistake:** Option C is a sign error during the integration of the second term."
+    },
+    {
+      "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q4",
+      "type": "mcq",
+      "question": "Find the area of the region bounded by the curve $y = 2\\sin(2x)$, the $x$2$x=0$ and $x=\\frac{\\pi}{4}$ .",
+      "options": [
+        "$1$",
+        "$2$",
+        "$0.5$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area = $\\int_0^{\\pi/4} 2\\sin(2x) dx = [-\\cos(2x)]0^{\\pi/4} = -\\cos(\\pi/2) - (-\\cos 0) = 0 - (-1) = 1$.\n\n**Common mistake:** Option D occurs if a student incorrectly evaluates the bounds or thinks the area over this interval cancels out."
+    },
+    {
+      "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q5",
+      "type": "mcq",
+      "question": "A function $f(x)$ is such that $f''(x) = 4e^{2x} - \\sin x$2$f'(0) = 3$ and $f(0) = 5$, find $f(x)$.",
+      "options": [
+        "$e^{2x} + \\sin x + x + 4$",
+        "$e^{2x} - \\sin x + x + 4$",
+        "$e^{2x} + \\sin x + 5$",
+        "$4e^{2x} + \\sin x + 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f'(x) = 2e^{2x} + \\cos x + c$2$3 = 2(1) + 1 + c \\implies c = 0$. $f(x) = e^{2x} + \\sin x + d$2$5 = 1 + 0 + d \\implies d = 4$.\n\n**Common mistake:** Option B results from a sign error when integrating cosine back to sine."
+    }
+  ]
+}

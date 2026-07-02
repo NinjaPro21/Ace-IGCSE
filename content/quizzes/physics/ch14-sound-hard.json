@@ -1,0 +1,272 @@
+{
+  "id": "ch14-sound-hard",
+  "topicId": "ch14-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "hard",
+  "title": "Chapter 14: Sound — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch14-sound-hard-q1",
+      "type": "mcq",
+      "question": "A ringing electric bell is placed in a jar. As the air is pumped out of the jar, the sound gets fainter and eventually disappears. What does this demonstrate?",
+      "options": [
+        "Sound waves require a medium for propagation",
+        "The frequency of sound decreases in a vacuum",
+        "Sound waves are reflected by the walls of the jar",
+        "The bell stops vibrating in a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves need a medium (solid, liquid, or gas) to travel. In a vacuum, there are no particles to collide and transfer energy, so sound cannot travel.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q2",
+      "type": "mcq",
+      "question": "If the frequency of a vibrating source is increased from $200\\text{ Hz}$ to $400\\text{ Hz}$, how does the period of the sound wave change?",
+      "options": [
+        "It is halved",
+        "It is doubled",
+        "It remains constant",
+        "It increases by $200\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Period ($T$) and frequency ($f$) are inversely related ($T = 1/f$). Doubling the frequency halves the period.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q3",
+      "type": "mcq",
+      "question": "A loudspeaker diaphragm moves forward, then backward. What specific change does the forward motion create in the air immediately in front of it?",
+      "options": [
+        "A compression (high pressure)",
+        "A rarefaction (low pressure)",
+        "A transverse trough",
+        "A vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the diaphragm moves forward, it pushes air molecules together, creating a region of higher pressure known as a compression.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q4",
+      "type": "mcq",
+      "question": "Which row correctly compares a $50\\text{ Hz}$ sound wave and a $15000\\text{ Hz}$ sound wave in air?",
+      "options": [
+        "$15000\\text{ Hz}$ has a higher pitch and shorter wavelength",
+        "$50\\text{ Hz}$ has a higher pitch and longer wavelength",
+        "$15000\\text{ Hz}$ travels much faster than $50\\text{ Hz}$",
+        "$50\\text{ Hz}$ is ultrasound; $15000\\text{ Hz}$ is audible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher frequency corresponds to higher pitch. Since speed ($v$) is constant in the same medium, a higher frequency must have a shorter wavelength ($\\lambda$) per $v = f\\lambda$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q5",
+      "type": "mcq",
+      "question": "A student blows a special whistle that produces sound at $15\\text{ Hz}$. The student hears nothing, but a nearby sensor detects a wave. Why is the sound not heard?",
+      "options": [
+        "The frequency is below the human lower limit of audibility",
+        "The amplitude is too low to be measured",
+        "The whistle only produces transverse waves",
+        "Sound cannot travel through air at frequencies below $20\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The human audible range starts at $20\\text{ Hz}$. $15\\text{ Hz}$ is too low for the human ear to detect.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q6",
+      "type": "mcq",
+      "question": "A sound source with a frequency of $1000\\text{ Hz}$ travels through air at $330\\text{ m/s}$. What is the distance between two consecutive compressions?",
+      "options": [
+        "$0.33\\text{ m}$",
+        "$3.03\\text{ m}$",
+        "$330000\\text{ m}$",
+        "$1.33\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance between consecutive compressions is the wavelength ($\\lambda$). Using $v = f\\lambda$, $\\lambda = v / f = 330 / 1000 = 0.33\\text{ m}$. \n\n**Common mistake:** Multiplying frequency and speed."
+    },
+    {
+      "id": "ch14-sound-hard-q7",
+      "type": "mcq",
+      "question": "Two observers stand $500\\text{ m}$ apart. They record the time for a sound to travel between them three times: $1.51\\text{ s}$, $1.55\\text{ s}$, and $1.50\\text{ s}$. Calculate the average speed of sound recorded.",
+      "options": [
+        "$329\\text{ m/s}$",
+        "$333\\text{ m/s}$",
+        "$500\\text{ m/s}$",
+        "$322\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average time $= (1.51 + 1.55 + 1.50) / 3 = 1.52\\text{ s}$. Average speed $= \\text{distance} / \\text{time} = 500 / 1.52 \\approx 329\\text{ m/s}$. \n\n**Common mistake:** Using only the first time value instead of calculating the average."
+    },
+    {
+      "id": "ch14-sound-hard-q8",
+      "type": "mcq",
+      "question": "An electric bell is ringing inside a sealed jar. As a vacuum pump removes the air, the sound gets quieter. Why would the sound not disappear completely if the bell is resting on the base of the jar?",
+      "options": [
+        "Vibrations are conducted through the solid base of the jar",
+        "The vacuum pump cannot remove all air molecules",
+        "Sound energy is converted into light which passes through the vacuum",
+        "The bell's magnetic field transmits the sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound requires a medium. While air is removed, the solid material of the base still provides a medium for vibrations to conduct to the surroundings. \n\n**Common mistake:** Thinking a vacuum blocks sound transmission through all paths, including solids."
+    },
+    {
+      "id": "ch14-sound-hard-q9",
+      "type": "mcq",
+      "question": "A student standing $495\\text{ m}$ from a large wall shouts and hears his own voice reflected. How long does it take for the sound to return to him? (Speed of sound in air $= 330\\text{ m/s}$)",
+      "options": [
+        "$3.0\\text{ s}$",
+        "$1.5\\text{ s}$",
+        "$0.67\\text{ s}$",
+        "$6.0\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance traveled is to the wall and back: $495 \\times 2 = 990\\text{ m}$. $\\text{Time} = 990 / 330 = 3.0\\text{ s}$. \n\n**Common mistake:** Calculating only the one-way time ($1.5\\text{ s}$)."
+    },
+    {
+      "id": "ch14-sound-hard-q10",
+      "type": "mcq",
+      "question": "According to the kinetic particle model, why is sound unable to travel through a vacuum?",
+      "options": [
+        "There are no particles to collide and pass on the vibrational energy",
+        "A vacuum has a density of zero, so the speed of sound becomes infinite",
+        "The absence of pressure causes the sound source to stop vibrating",
+        "A vacuum absorbs all mechanical energy and converts it to heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound transmission depends on the mechanical interaction and collision of particles. In a vacuum, there are no particles to transmit these vibrations. \n\n**Common mistake:** Thinking the speed becomes zero rather than the wave being impossible to form."
+    },
+    {
+      "id": "ch14-sound-hard-q11",
+      "type": "mcq",
+      "question": "A sonar chart shows a transmitted pulse at $t = 0\\text{ s}$ and its reflected echo at $t = 0.8\\text{ s}$. The speed of sound in water is $1500\\text{ m/s}$. Calculate the depth of the seabed.",
+      "options": [
+        "$600\\text{ m}$",
+        "$1200\\text{ m}$",
+        "$300\\text{ m}$",
+        "$900\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depth $d = \\frac{v \\times t}{2} = \\frac{1500 \\times 0.8}{2} = 600\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q12",
+      "type": "mcq",
+      "question": "The speed of ultrasound in tissue is $1540\\text{ m/s}$. If a scanner uses a wavelength of $0.5\\text{ mm}$, what is the frequency of the ultrasound?",
+      "options": [
+        "$3.08 \\times 10^{6}\\text{ Hz}$",
+        "$3.08 \\times 10^{3}\\text{ Hz}$",
+        "$7.7 \\times 10^{5}\\text{ Hz}$",
+        "$770\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, $f = \\frac{v}{\\lambda} = \\frac{1540}{0.0005} = 3.08 \\times 10^{6}\\text{ Hz}$ (or $3.08\\text{ MHz}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q13",
+      "type": "mcq",
+      "question": "A ship is $60\\text{ m}$ above the seabed. How long will it take to detect an echo if the speed of sound in water is $1500\\text{ m/s}$?",
+      "options": [
+        "$0.08\\text{ s}$",
+        "$0.04\\text{ s}$",
+        "$0.16\\text{ s}$",
+        "$0.20\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$t = \\frac{2d}{v} = \\frac{2 \\times 60}{1500} = \\frac{120}{1500} = 0.08\\text{ s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q14",
+      "type": "mcq",
+      "question": "A sound wave is reflected from a wall that is $L$ metres away. If the speed of sound is $v$, which expression represents the time interval between the sound being made and the echo being heard?",
+      "options": [
+        "$\\frac{2L}{v}$",
+        "$\\frac{L}{v}$",
+        "$\\frac{v}{2L}$",
+        "$\\frac{v}{L}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sound travels to the wall ($L$) and back ($L$), total distance $2L$. Since $\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$, the time is $\\frac{2L}{v}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q15",
+      "type": "mcq",
+      "question": "A pulse of ultrasound is used to measure the thickness of a steel plate. The pulse takes $2.0 \\times 10^{-5}\\text{ s}$ to travel through the plate and reflect back. If the speed of sound in steel is $5000\\text{ m/s}$, how thick is the plate?",
+      "options": [
+        "$5.0\\text{ cm}$",
+        "$10.0\\text{ cm}$",
+        "$2.5\\text{ cm}$",
+        "$0.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$d = \\frac{vt}{2} = \\frac{5000 \\times 2.0 \\times 10^{-5}}{2} = \\frac{0.1}{2} = 0.05\\text{ m} = 5.0\\text{ cm}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-hard-q16",
+      "type": "mcq",
+      "question": "Which set of changes to a sound wave would result in a note that is both quieter and lower in pitch?",
+      "options": [
+        "Decrease the amplitude and increase the period",
+        "Decrease the amplitude and decrease the period",
+        "Increase the amplitude and increase the period",
+        "Increase the amplitude and decrease the period"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quieter requires a smaller amplitude. Lower pitch requires a lower frequency, which is equivalent to a longer (increased) period ($f = 1/T$). **Common mistake:** Thinking a lower pitch requires a smaller period."
+    },
+    {
+      "id": "ch14-sound-hard-q17",
+      "type": "mcq",
+      "question": "In terms of particle motion, what is the difference between a loud high-pitched sound and a quiet high-pitched sound?",
+      "options": [
+        "Both have the same frequency, but the loud sound has a larger maximum displacement",
+        "The loud sound has more vibrations per second than the quiet sound",
+        "The quiet sound travels through the medium at a lower speed",
+        "The loud sound has a larger wavelength than the quiet sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-pitched sounds have the same frequency. The 'loudness' difference is due to amplitude, which is the maximum displacement of the particles. **Common mistake:** Thinking loudness changes the wavelength or speed of the note."
+    },
+    {
+      "id": "ch14-sound-hard-q18",
+      "type": "mcq",
+      "question": "A sound wave transfers energy from a source to a receiver. If the energy transferred per second increases without changing the number of waves per second, what happens to the sound?",
+      "options": [
+        "It becomes louder but the pitch remains the same",
+        "It becomes higher in pitch but the loudness remains the same",
+        "Both the loudness and the pitch increase",
+        "The speed of the sound increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increased energy at the same frequency increases the amplitude (loudness) but leaves the pitch unchanged. **Common mistake:** Thinking that higher energy always implies a 'faster' vibration/higher pitch."
+    },
+    {
+      "id": "ch14-sound-hard-q19",
+      "type": "mcq",
+      "question": "Wave A has a period of $0.01\\text{ s}$ and Wave B has a period of $0.02\\text{ s}$. If both waves have the same amplitude, which statement is correct?",
+      "options": [
+        "Wave A has a higher pitch than Wave B, and both have the same loudness",
+        "Wave B has a higher pitch than Wave A, and Wave A is louder",
+        "Wave A has a lower pitch than Wave B, and Wave B is louder",
+        "Both waves have the same pitch and the same loudness"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = 1/T$, so Wave A has a frequency of $100\\text{ Hz}$ and Wave B has $50\\text{ Hz}$. Therefore, A has a higher pitch. **Common mistake:** Thinking a larger period ($0.02$) results in a higher frequency."
+    },
+    {
+      "id": "ch14-sound-hard-q20",
+      "type": "mcq",
+      "question": "When a guitarist plucks a string harder, the resulting sound eventually dies away. Which property of the sound wave changes most significantly as the sound fades?",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Wavelength",
+        "Speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "As a sound fades or 'dies away', it becomes quieter, which means its amplitude is decreasing. **Common mistake:** Thinking the note changes pitch (frequency) as it gets quieter."
+    }
+  ]
+}

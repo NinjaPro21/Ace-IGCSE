@@ -1,0 +1,272 @@
+{
+  "id": "ch04-forces-hard",
+  "topicId": "ch04-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "hard",
+  "title": "Chapter 4: Forces — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch04-forces-hard-q1",
+      "type": "mcq",
+      "question": "A spring has an original length of $25.0\\text{ cm}$ and a spring constant of $2.0\\text{ N/cm}$. If a $10\\text{ N}$ weight is attached, what is the new total length of the spring?",
+      "options": [
+        "$30.0\\text{ cm}$",
+        "$5.0\\text{ cm}$",
+        "$20.0\\text{ cm}$",
+        "$50.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find extension: $x = F / k = 10\\text{ N} / 2.0\\text{ N/cm} = 5.0\\text{ cm}$. New length $l = l_0 + x = 25.0 + 5.0 = 30.0\\text{ cm}$. \n\n**Common mistake:** Providing the extension ($5.0\\text{ cm}$) as the final answer instead of the total length."
+    },
+    {
+      "id": "ch04-forces-hard-q2",
+      "type": "mcq",
+      "question": "What happens to a spring once it is stretched beyond its 'limit of proportionality'?",
+      "options": [
+        "The extension is no longer directly proportional to the load",
+        "The spring constant becomes zero",
+        "The spring will always return to its original shape",
+        "The load–extension graph becomes a horizontal line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beyond the limit of proportionality, the graph is no longer a straight line, and Hooke's Law no longer applies. \n\n**Common mistake:** Thinking the spring breaks immediately; it simply stops behaving proportionally."
+    },
+    {
+      "id": "ch04-forces-hard-q3",
+      "type": "mcq",
+      "question": "A student plots a graph of Extension ($y$-axis) against Load ($x$-axis). What does the gradient of this graph represent?",
+      "options": [
+        "The reciprocal of the spring constant ($\\frac{1}{k}$)",
+        "The spring constant ($k$)",
+        "The original length of the spring",
+        "The limit of proportionality"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $k = Load / Extension$, a graph of Extension / Load has a gradient of $1/k$. \n\n**Common mistake:** Assuming the gradient is always $k$ regardless of which quantity is on which axis."
+    },
+    {
+      "id": "ch04-forces-hard-q4",
+      "type": "mcq",
+      "question": "A spring is stretched by $2.0\\text{ cm}$ by a $4\\text{ N}$ load. If the same spring is stretched to a total extension of $8.0\\text{ cm}$ (within the limit of proportionality), what is the new load?",
+      "options": [
+        "$16\\text{ N}$",
+        "$8\\text{ N}$",
+        "$32\\text{ N}$",
+        "$12\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The extension increased by a factor of 4 ($8/2$). Since $F \\propto x$, the load must also increase by a factor of 4: $4\\text{ N} \\times 4 = 16\\text{ N}$. \n\n**Common mistake:** Adding $4\\text{ N}$ to the original load to get $8\\text{ N}$ instead of using proportionality."
+    },
+    {
+      "id": "ch04-forces-hard-q5",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ mass is hung from a spring with $k = 4.0\\text{ N/cm}$. Calculate the extension in centimetres. (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$5.0\\text{ cm}$",
+        "$0.5\\text{ cm}$",
+        "$8.0\\text{ cm}$",
+        "$2.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find weight: $W = 2.0 \\times 10 = 20\\text{ N}$. Then $x = W / k = 20\\text{ N} / 4.0\\text{ N/cm} = 5.0\\text{ cm}$. \n\n**Common mistake:** Using the mass ($2.0$) in the spring formula directly without converting it to weight ($20\\text{ N}$)."
+    },
+    {
+      "id": "ch04-forces-hard-q6",
+      "type": "mcq",
+      "question": "A speed–time graph for an object of mass $5.0\\text{ kg}$ shows the speed increasing from $0\\text{ m/s}$ to $12\\text{ m/s}$ in $4.0\\text{ s}$. Calculate the resultant force acting on the object.",
+      "options": [
+        "$15\\text{ N}$",
+        "$60\\text{ N}$",
+        "$3\\text{ N}$",
+        "$20\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration $a = (12 - 0) / 4 = 3.0\\text{ m/s}^2$. Resultant force $F = ma = 5.0 \\times 3.0 = 15\\text{ N}$. \n\n**Common mistake:** Multiplying mass by final speed ($5 \\times 12 = 60$) instead of by acceleration."
+    },
+    {
+      "id": "ch04-forces-hard-q7",
+      "type": "mcq",
+      "question": "An object moves in a circular path. If the resultant force on the object increases while the object continues moving at the same speed, what must happen to its motion?",
+      "options": [
+        "It must move with a smaller radius",
+        "It must move with a larger radius",
+        "It will move in a straight line",
+        "Its speed will increase automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the note, if the resultant force increases and speed remains constant, the object must follow a path with a smaller radius. \n\n**Common mistake:** Thinking a larger force 'pushes' the object further out into a larger circle."
+    },
+    {
+      "id": "ch04-forces-hard-q8",
+      "type": "mcq",
+      "question": "A resultant force acts on a moving object in a direction that is perpendicular to its velocity. What effect does this force have?",
+      "options": [
+        "It changes the direction of motion but not the speed",
+        "It increases the speed of the object",
+        "It decreases the speed of the object",
+        "It has no effect on the motion of the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "A perpendicular force changes the direction of the velocity vector (turning the object) but does not change the magnitude (speed). \n\n**Common mistake:** Believing a perpendicular force has 'no effect' on motion at all."
+    },
+    {
+      "id": "ch04-forces-hard-q9",
+      "type": "mcq",
+      "question": "An object of mass $1.0\\text{ kg}$ falls through air. At a certain instant, the air resistance is $4.0\\text{ N}$. Calculate the acceleration of the object at this instant. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$6.0\\text{ m/s}^2$",
+        "$10.0\\text{ m/s}^2$",
+        "$4.0\\text{ m/s}^2$",
+        "$14.0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight $W = mg = 1.0 \\times 10 = 10\\text{ N}$. Resultant force $F_{net} = 10\\text{ N} - 4\\text{ N} = 6\\text{ N}$. Acceleration $a = F_{net} / m = 6 / 1 = 6.0\\text{ m/s}^2$. \n\n**Common mistake:** Using only the air resistance force ($4.0$) to calculate acceleration."
+    },
+    {
+      "id": "ch04-forces-hard-q10",
+      "type": "mcq",
+      "question": "A lorry is pulled by two jeeps. Each jeep exerts a force of $3000\\text{ N}$ at an angle of $45^{circ}$ to the horizontal forward direction. What is the total resultant force pulling the lorry forward?",
+      "options": [
+        "$4243\\text{ N}$",
+        "$6000\\text{ N}$",
+        "$3000\\text{ N}$",
+        "$2121\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each jeep contributes a forward component of $3000 \\times cos(45^{circ}) = 2121.3\\text{ N}$. Total force $= 2121.3 \\times 2 = 4242.6\\text{ N}$ (\\approx $4243\\text{ N}$). \n\n**Common mistake:** Simple addition ($6000\\text{ N}$), which ignores the fact that the forces are not parallel."
+    },
+    {
+      "id": "ch04-forces-hard-q11",
+      "type": "mcq",
+      "question": "A uniform metre rule balances at the $70\\text{ cm}$ mark when a $2.5\\text{ N}$ weight is hung at the $80\\text{ cm}$ mark. What is the weight of the ruler? (Note: The centre of gravity is at $50\\text{ cm}$)",
+      "options": [
+        "$1.25\\text{ N}$",
+        "$2.5\\text{ N}$",
+        "$5.0\\text{ N}$",
+        "$0.625\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clockwise moment $= 2.5 \\times (80 - 70) = 25\\text{ N cm}$. The weight of the ruler acts at $50\\text{ cm}$. Anticlockwise moment $= W \\times (70 - 50) = 20W$. $20W = 25$, so $W = 1.25\\text{ N}$. \n\n**Common mistake:** Forgetting that the weight of a uniform object acts through its centre of gravity."
+    },
+    {
+      "id": "ch04-forces-hard-q12",
+      "type": "mcq",
+      "question": "A $10.0\\text{ m}$ long pole lies on the ground. Its weight of $800\\text{ N}$ acts at a point $4.0\\text{ m}$ from end A. Calculate the minimum vertical force $F$ needed at end B to lift that end off the ground.",
+      "options": [
+        "$320\\text{ N}$",
+        "$800\\text{ N}$",
+        "$2000\\text{ N}$",
+        "$480\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When lifting end B, end A acts as the pivot. Clockwise moment (weight) $= 800\\text{ N} \\times 4.0\\text{ m} = 3200\\text{ N m}$. Anticlockwise moment (force $F$) $= F \\times 10.0\\text{ m}$. $10F = 3200$, so $F = 320\\text{ N}$. \n\n**Common mistake:** Using the distance from the weight to end B ($6.0\\text{ m}$) as the pivot distance for the lifting force."
+    },
+    {
+      "id": "ch04-forces-hard-q13",
+      "type": "mcq",
+      "question": "An object is subjected to two moments: $10\\text{ N m}$ anticlockwise and $14\\text{ N m}$ clockwise. What is the resultant moment?",
+      "options": [
+        "$4\\text{ N m}$ clockwise",
+        "$4\\text{ N m}$ anticlockwise",
+        "$24\\text{ N m}$ clockwise",
+        "$1.4\\text{ N m}$ clockwise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant moment is the difference between opposing moments: $14 - 10 = 4\\text{ N m}$ in the direction of the larger moment (clockwise). \n\n**Common mistake:** Adding the two moments together to get $24\\text{ N m}$."
+    },
+    {
+      "id": "ch04-forces-hard-q14",
+      "type": "mcq",
+      "question": "A non-uniform beam is $2.0\\text{ m}$ long and is pivoted at its centre. It balances when a $60\\text{ N}$ weight is $0.2\\text{ m}$ from the pivot on one side and a $40\\text{ N}$ weight is $0.6\\text{ m}$ from the pivot on the other side. What is the moment produced by the beam's own weight?",
+      "options": [
+        "$12\\text{ N m}$",
+        "$0\\text{ N m}$",
+        "$24\\text{ N m}$",
+        "$36\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moment 1 $= 60 \\times 0.2 = 12\\text{ N m}$ (ACW). Moment 2 $= 40 \\times 0.6 = 24\\text{ N m}$ (CW). For the beam to balance, its own weight must provide a moment of $24 - 12 = 12\\text{ N m}$ in the anticlockwise direction. \n\n**Common mistake:** Assuming the beam's weight always acts through the pivot and provides zero moment."
+    },
+    {
+      "id": "ch04-forces-hard-q15",
+      "type": "mcq",
+      "question": "A crane arm carries a $3000\\text{ N}$ load at a distance of $10\\text{ m}$ from the pivot. It is balanced by a concrete block of weight $W$ at a distance of $4\\text{ m}$ on the opposite side. Calculate $W$.",
+      "options": [
+        "$7500\\text{ N}$",
+        "$1200\\text{ N}$",
+        "$30000\\text{ N}$",
+        "$1500\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Principle of Moments: $3000\\text{ N} \\times 10\\text{ m} = W \\times 4\\text{ m}$. $30000 = 4W$, so $W = 7500\\text{ N}$. \n\n**Common mistake:** Multiplying $3000 \\times 4$ ($12000$) or dividing $3000 / 10$ ($300$)."
+    },
+    {
+      "id": "ch04-forces-hard-q16",
+      "type": "mcq",
+      "question": "A non-uniform beam is $2.0\\text{ m}$ long. It balances at its midpoint when a $60\\text{ N}$ weight is $0.2\\text{ m}$ from the pivot on one side and a $40\\text{ N}$ weight is $0.6\\text{ m}$ from the pivot on the other side. What is the moment produced by the beam's weight about the pivot?",
+      "options": [
+        "$12\\text{ N m}$",
+        "$0\\text{ N m}$",
+        "$24\\text{ N m}$",
+        "$36\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACW moment from weight 1 $= 60 \\times 0.2 = 12\\text{ N m}$. CW moment from weight 2 $= 40 \\times 0.6 = 24\\text{ N m}$. For equilibrium, the beam's own weight must provide an ACW moment of $24 - 12 = 12\\text{ N m}$. \n\n**Common mistake:** Assuming weight always acts through the pivot in every balance problem."
+    },
+    {
+      "id": "ch04-forces-hard-q17",
+      "type": "mcq",
+      "question": "In the experiment to locate the centre of gravity of a lamina, why is it important to make the holes near the edge and as far apart as possible?",
+      "options": [
+        "To increase the accuracy of the intersection point",
+        "To make the lamina lighter and easier to hang",
+        "To move the centre of gravity closer to the edge",
+        "To ensure the plumb line does not touch the retort stand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having holes far apart creates lines that intersect at larger angles, making the intersection point (the COG) easier to identify accurately. \n\n**Common mistake:** Thinking the position of holes actually changes where the COG is located."
+    },
+    {
+      "id": "ch04-forces-hard-q18",
+      "type": "mcq",
+      "question": "A uniform metre rule is pivoted at the $70\\text{ cm}$ mark. It balances horizontally when a $2.5\\text{ N}$ weight is hung at the $80\\text{ cm}$ mark. Calculate the weight of the ruler.",
+      "options": [
+        "$1.25\\text{ N}$",
+        "$2.5\\text{ N}$",
+        "$5.0\\text{ N}$",
+        "$0.625\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rule's weight $W$ acts at the $50\\text{ cm}$ mark ($20\\text{ cm}$ from pivot). The $2.5\\text{ N}$ load is $10\\text{ cm} from the pivot$. $2W \\times 20 = 2.5 \\times 10 Rightarrow 20W = 25 Rightarrow W = 1.25\\text{ N}$. \n\n**Common mistake:** Using the full $50\\text{ cm}$ or $70\\text{ cm}$ length as the distance instead of the distance from the pivot."
+    },
+    {
+      "id": "ch04-forces-hard-q19",
+      "type": "mcq",
+      "question": "A tall cylinder is half-filled with water and placed on a plank. As the plank is tilted, at what point will the cylinder tip over?",
+      "options": [
+        "When the vertical line from its centre of gravity falls outside the edge of its base",
+        "As soon as the plank reaches an angle of $45^{circ}$",
+        "When the water surface is no longer parallel to the base",
+        "When the centre of gravity reaches the highest possible point"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regardless of the contents, an object topples the moment its centre of gravity's line of action passes the edge of the base. \n\n**Common mistake:** Thinking the liquid's movement prevents toppling; it actually shifts the COG and usually makes it topple sooner."
+    },
+    {
+      "id": "ch04-forces-hard-q20",
+      "type": "mcq",
+      "question": "Which change would most effectively increase the stability of a racing car?",
+      "options": [
+        "Increasing the track width (distance between wheels) and lowering the engine position",
+        "Using a lighter material for the chassis and a heavier spoiler on top",
+        "Increasing the wheel diameter and reducing the fuel tank size",
+        "Moving the driver's seat further back and higher up"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lowering the engine lowers the COG, and increasing the track width increases the base area, both maximizing stability. \n\n**Common mistake:** Thinking speed-related parts like spoilers always improve balance/stability in a stationary sense."
+    }
+  ]
+}

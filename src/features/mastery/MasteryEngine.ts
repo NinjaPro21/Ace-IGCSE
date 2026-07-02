@@ -2,6 +2,8 @@ import type { Difficulty } from '@/lib/contentTypes'
 
 import { getTopicsForChapter } from '@/lib/contentLoader'
 
+import type { ConceptMissRecord, QuizAttemptRecord, QuizMistakeLogResult, RecordQuizFinishInput } from '@/features/quiz/quizAttemptTypes'
+
 import { getGlobalLevel, getLevelProfile, NOTES_MIN_SECONDS, XP_REWARDS, type LevelProfile } from './levelSystem'
 
 import {
@@ -33,6 +35,16 @@ export interface TopicProgress {
   notesRead?: boolean
 
   timeSpentSec?: number
+
+  quizLevel?: MasteryLevel
+
+  easyScore?: number
+
+  mediumScore?: number
+
+  hardScore?: number
+
+  pypComplete?: boolean
 
 }
 
@@ -82,9 +94,17 @@ export interface UserProgress {
 
   lastActiveDate: string
 
+  /** ISO timestamp of last study activity — streak expires after 24h without activity */
+
+  lastActiveAt?: string
+
   /** ISO dates (YYYY-MM-DD) when the user studied — kept to last 90 days */
 
   activeDates: string[]
+
+  /** XP earned per calendar day (YYYY-MM-DD) for period leaderboards */
+
+  xpByDate?: Record<string, number>
 
   displayName: string
 
@@ -94,6 +114,28 @@ export interface UserProgress {
 
   chapterStats: Record<string, ChapterStats>
 
+  /** Lifetime miss counts keyed by concept (topic/chapter + question id). */
+  conceptMisses?: Record<string, ConceptMissRecord>
+
+  /** Recent quiz attempts for history / mistake log (newest first). */
+  quizAttempts?: QuizAttemptRecord[]
+
+  lastVisitedTopicId?: string
+
+  lastVisitedChapterId?: string
+
+  lastVisitedSubjectId?: string
+
+  dailyGoalMin?: number
+
+  achievementIds?: string[]
+
+  subjects?: string[]
+
+  onboardingComplete?: boolean
+
+  studySecByDate?: Record<string, number>
+
 }
 
 
@@ -101,6 +143,9 @@ export interface UserProgress {
 const STORAGE_KEY = 'enlight-progress-v2'
 
 const MAX_ACTIVE_DATES = 90
+const MAX_QUIZ_ATTEMPTS = 150
+
+export const STREAK_WINDOW_MS = 24 * 60 * 60 * 1000
 
 
 
@@ -112,6 +157,29 @@ function todayISO(): string {
 
   return new Date().toISOString().slice(0, 10)
 
+}
+
+function awardXp(state: UserProgress, amount: number): UserProgress {
+  const today = todayISO()
+  const xpByDate = { ...(state.xpByDate ?? {}) }
+  xpByDate[today] = (xpByDate[today] ?? 0) + amount
+  const trimmed: Record<string, number> = {}
+  for (const key of Object.keys(xpByDate).sort().slice(-90)) {
+    trimmed[key] = xpByDate[key]
+  }
+  return { ...state, xp: state.xp + amount, xpByDate: trimmed }
+}
+
+function addStudySec(state: UserProgress, seconds: number): UserProgress {
+  if (seconds <= 0) return state
+  const today = todayISO()
+  const studySecByDate = { ...(state.studySecByDate ?? {}) }
+  studySecByDate[today] = (studySecByDate[today] ?? 0) + seconds
+  const trimmed: Record<string, number> = {}
+  for (const key of Object.keys(studySecByDate).sort().slice(-90)) {
+    trimmed[key] = studySecByDate[key]
+  }
+  return { ...state, studySecByDate: trimmed }
 }
 
 
@@ -175,6 +243,12 @@ function normalizeState(parsed: Partial<UserProgress>): UserProgress {
     chapters: parsed.chapters ?? {},
 
     chapterStats: parsed.chapterStats ?? {},
+
+    conceptMisses: parsed.conceptMisses ?? {},
+
+    quizAttempts: parsed.quizAttempts ?? [],
+
+    xpByDate: parsed.xpByDate ?? {},
 
   }
 
@@ -258,51 +332,63 @@ function recordActiveDay(state: UserProgress): UserProgress {
 
 
 
+function applyStreakExpiry(state: UserProgress): UserProgress {
+
+  if (state.streakDays === 0 || !state.lastActiveAt) return state
+
+  const elapsed = Date.now() - new Date(state.lastActiveAt).getTime()
+
+  if (elapsed > STREAK_WINDOW_MS) {
+
+    return { ...state, streakDays: 0 }
+
+  }
+
+  return state
+
+}
+
+
+
 function touchStreak(state: UserProgress): UserProgress {
+
+  const expired = applyStreakExpiry(state)
 
   const today = todayISO()
 
-  if (state.lastActiveDate === today) {
-
-    return recordActiveDay(state)
-
-  }
+  let streak = expired.streakDays
 
 
 
-  const yesterday = new Date()
-
-  yesterday.setDate(yesterday.getDate() - 1)
-
-  const yesterdayStr = yesterday.toISOString().slice(0, 10)
-
-
-
-  let streak = state.streakDays
-
-  if (state.lastActiveDate === yesterdayStr) {
-
-    streak += 1
-
-  } else if (state.lastActiveDate !== today) {
+  if (!expired.lastActiveAt || streak === 0) {
 
     streak = 1
 
+  } else if (expired.lastActiveDate === today) {
+
+    // same calendar day — keep streak count
+
+  } else {
+
+    streak += 1
+
   }
 
 
 
-  const longestStreak = Math.max(state.longestStreak, streak)
+  const longestStreak = Math.max(expired.longestStreak, streak)
 
   return recordActiveDay({
 
-    ...state,
+    ...expired,
 
     streakDays: streak,
 
     longestStreak,
 
     lastActiveDate: today,
+
+    lastActiveAt: new Date().toISOString(),
 
   })
 
@@ -398,6 +484,36 @@ function areChapterNotesComplete(state: UserProgress, chapterId: string): boolea
 
 
 
+function syncChapterFromTopics(state: UserProgress, chapterId: string): UserProgress {
+
+  const topics = getTopicsForChapter(chapterId)
+
+  if (topics.length === 0) return state
+
+  const levels = topics.map((t) => state.topics[t.id]?.quizLevel ?? 0)
+
+  const quizLevel = Math.min(...levels) as MasteryLevel
+
+  const ch = ensureChapter(state, chapterId)
+
+  return {
+
+    ...state,
+
+    chapters: {
+
+      ...state.chapters,
+
+      [chapterId]: { ...ch, quizLevel: Math.max(ch.quizLevel, quizLevel) as MasteryLevel },
+
+    },
+
+  }
+
+}
+
+
+
 function syncChapterQuizUnlock(state: UserProgress, chapterId: string): UserProgress {
 
   if (!areChapterNotesComplete(state, chapterId)) return state
@@ -440,9 +556,37 @@ export class MasteryEngine {
 
       this.state = { ...this.state, topics: repairedTopics }
 
+    }
+
+    const expired = applyStreakExpiry(this.state)
+
+    if (expired.streakDays !== this.state.streakDays) {
+
+      this.state = expired
+
       saveState(this.state)
 
     }
+
+  }
+
+
+
+  checkStreakExpiry(): boolean {
+
+    const expired = applyStreakExpiry(this.state)
+
+    if (expired.streakDays !== this.state.streakDays) {
+
+      this.state = expired
+
+      saveState(this.state)
+
+      return true
+
+    }
+
+    return false
 
   }
 
@@ -458,13 +602,13 @@ export class MasteryEngine {
 
   replaceState(state: UserProgress): void {
 
-    this.state = normalizeState({
+    this.state = applyStreakExpiry(normalizeState({
 
       ...state,
 
       topics: repairTopics(state.topics ?? {}),
 
-    })
+    }))
 
     saveState(this.state)
 
@@ -522,6 +666,68 @@ export class MasteryEngine {
 
     }
 
+    this.state = addStudySec(this.state, seconds)
+
+    saveState(this.state)
+
+  }
+
+
+
+  recordLastVisited(subjectId: string, chapterId: string, topicId: string): void {
+
+    this.state = {
+
+      ...this.state,
+
+      lastVisitedSubjectId: subjectId,
+
+      lastVisitedChapterId: chapterId,
+
+      lastVisitedTopicId: topicId,
+
+    }
+
+    saveState(this.state)
+
+  }
+
+
+
+  setDailyGoal(minutes: number): void {
+
+    this.state = { ...this.state, dailyGoalMin: minutes }
+
+    saveState(this.state)
+
+  }
+
+
+
+  setSubjects(subjects: string[]): void {
+
+    this.state = { ...this.state, subjects }
+
+    saveState(this.state)
+
+  }
+
+
+
+  setOnboardingComplete(): void {
+
+    this.state = { ...this.state, onboardingComplete: true }
+
+    saveState(this.state)
+
+  }
+
+
+
+  syncAchievementIds(ids: string[]): void {
+
+    this.state = { ...this.state, achievementIds: ids }
+
     saveState(this.state)
 
   }
@@ -530,7 +736,60 @@ export class MasteryEngine {
 
   getChapterQuizLevel(chapterId: string): MasteryLevel {
 
-    return ensureChapter(this.state, chapterId).quizLevel
+    const topics = getTopicsForChapter(chapterId)
+
+    if (topics.length === 0) {
+
+      return ensureChapter(this.state, chapterId).quizLevel
+
+    }
+
+    const levels = topics.map((t) => this.state.topics[t.id]?.quizLevel ?? 0)
+
+    const total = levels.reduce<number>((sum, n) => sum + n, 0)
+
+    const avg = total / levels.length
+
+    return Math.floor(avg) as MasteryLevel
+
+  }
+
+
+
+  getTopicQuizLevel(topicId: string): MasteryLevel {
+
+    return (this.state.topics[topicId]?.quizLevel ?? 0) as MasteryLevel
+
+  }
+
+
+
+  canTakeTopicQuiz(topicId: string, difficulty: Difficulty): boolean {
+    const level = this.getTopicQuizLevel(topicId)
+
+    switch (difficulty) {
+
+      case 'easy':
+
+        return true
+
+      case 'medium':
+
+        return level >= 2
+
+      case 'hard':
+
+        return level >= 3
+
+      case 'pyp':
+
+        return level >= 3
+
+      default:
+
+        return false
+
+    }
 
   }
 
@@ -680,19 +939,17 @@ export class MasteryEngine {
 
     this.state = touchStreak(this.state)
 
-
+    this.state = awardXp(this.state, XP_REWARDS.notesRead)
 
     this.state = {
 
       ...this.state,
 
-      xp: this.state.xp + XP_REWARDS.notesRead,
-
       topics: {
 
         ...this.state.topics,
 
-        [topicId]: { ...topic, notesRead: true },
+        [topicId]: { ...topic, notesRead: true, quizLevel: Math.max(topic.quizLevel ?? 0, 1) as MasteryLevel },
 
       },
 
@@ -772,6 +1029,8 @@ export class MasteryEngine {
 
     }
 
+    this.state = addStudySec(this.state, seconds)
+
     saveState(this.state)
 
   }
@@ -833,6 +1092,7 @@ export class MasteryEngine {
 
 
     this.state = touchStreak(this.state)
+    this.state = awardXp(this.state, xpGain)
 
     const ch = ensureChapter(this.state, chapterId)
 
@@ -872,8 +1132,6 @@ export class MasteryEngine {
 
       ...this.state,
 
-      xp: this.state.xp + xpGain,
-
       chapters: { ...this.state.chapters, [chapterId]: updated },
 
       chapterStats: { ...this.state.chapterStats, [chapterId]: updatedStats },
@@ -899,6 +1157,272 @@ export class MasteryEngine {
 
 
     return xpGain
+
+  }
+
+
+
+  recordTopicQuizResult(
+
+    topicId: string,
+
+    chapterId: string,
+
+    difficulty: Difficulty,
+
+    scorePercent: number,
+
+    passed: boolean,
+
+  ): number {
+
+    const score = Math.min(100, Math.max(0, scorePercent))
+
+    const stats = ensureChapterStats(this.state, chapterId)
+
+    const updatedStats: ChapterStats = {
+
+      ...stats,
+
+      quizAttempts: stats.quizAttempts + 1,
+
+      quizFails: passed ? stats.quizFails : stats.quizFails + 1,
+
+      lastVisited: todayISO(),
+
+    }
+
+
+
+    if (!passed) {
+
+      this.state = {
+
+        ...this.state,
+
+        chapterStats: { ...this.state.chapterStats, [chapterId]: updatedStats },
+
+      }
+
+      saveState(this.state)
+
+      return 0
+
+    }
+
+
+
+    const xpGain = XP_REWARDS[difficulty]
+
+    const levelBefore = getGlobalLevel(this.state.xp)
+
+
+
+    this.state = touchStreak(this.state)
+
+    this.state = awardXp(this.state, xpGain)
+
+
+
+    const topic = ensureTopic(this.state, topicId)
+
+    const updatedTopic: TopicProgress = { ...topic }
+
+
+
+    if (difficulty === 'easy') {
+
+      updatedTopic.easyScore = score
+
+      if ((topic.quizLevel ?? 0) < 2) updatedTopic.quizLevel = 2
+
+    } else if (difficulty === 'medium') {
+
+      updatedTopic.mediumScore = score
+
+      if ((topic.quizLevel ?? 0) < 3) updatedTopic.quizLevel = 3
+
+    } else if (difficulty === 'hard') {
+
+      updatedTopic.hardScore = score
+
+      if ((topic.quizLevel ?? 0) < 4) updatedTopic.quizLevel = 4
+
+    } else if (difficulty === 'pyp') {
+
+      updatedTopic.pypComplete = true
+
+      updatedTopic.quizLevel = 4
+
+    }
+
+
+
+    this.state = {
+
+      ...this.state,
+
+      topics: { ...this.state.topics, [topicId]: updatedTopic },
+
+      chapterStats: { ...this.state.chapterStats, [chapterId]: updatedStats },
+
+    }
+
+    this.state = syncChapterFromTopics(this.state, chapterId)
+
+    saveState(this.state)
+
+
+
+    const levelAfter = getGlobalLevel(this.state.xp)
+
+    if (levelAfter > levelBefore) {
+
+      window.dispatchEvent(
+
+        new CustomEvent('enlight-level-up', { detail: { level: levelAfter } }),
+
+      )
+
+    }
+
+
+
+    return xpGain
+
+  }
+
+
+
+  recordQuizFinish(input: RecordQuizFinishInput): QuizMistakeLogResult {
+
+    const log = this.recordQuizMistakes(input)
+
+    const attempt: QuizAttemptRecord = {
+
+      id: `${Date.now()}-${input.quizId}`,
+
+      at: new Date().toISOString(),
+
+      subjectId: input.subjectId,
+
+      chapterId: input.chapterId,
+
+      topicId: input.topicId,
+
+      quizId: input.quizId,
+
+      quizTitle: input.quizTitle,
+
+      difficulty: input.difficulty,
+
+      scorePercent: input.scorePercent,
+
+      passed: input.passed,
+
+      questionCount: input.questionCount,
+
+      correctCount: input.correctCount,
+
+      mistakes: log.entries,
+
+    }
+
+    const quizAttempts = [attempt, ...(this.state.quizAttempts ?? [])].slice(0, MAX_QUIZ_ATTEMPTS)
+
+    this.state = { ...this.state, quizAttempts }
+
+    saveState(this.state)
+
+    return log
+
+  }
+
+
+
+  recordQuizMistakes(input: RecordQuizFinishInput): QuizMistakeLogResult {
+
+    const now = new Date().toISOString()
+
+    const conceptMisses = { ...(this.state.conceptMisses ?? {}) }
+
+    const scopeMisses = new Map<string, { label: string; count: number }>()
+
+    const entries = input.mistakes.map((m) => {
+
+      const prev = conceptMisses[m.conceptKey]
+
+      const totalMisses = (prev?.missCount ?? 0) + 1
+
+      conceptMisses[m.conceptKey] = {
+
+        conceptKey: m.conceptKey,
+
+        conceptLabel: m.conceptLabel,
+
+        scopeId: m.scopeId,
+
+        missCount: totalMisses,
+
+        lastAt: now,
+
+      }
+
+
+
+      const scopeBucket = scopeMisses.get(m.scopeId) ?? { label: m.conceptLabel, count: 0 }
+
+      scopeBucket.count += 1
+
+      scopeMisses.set(m.scopeId, scopeBucket)
+
+
+
+      return {
+
+        questionId: m.questionId,
+
+        questionText: m.questionText,
+
+        conceptKey: m.conceptKey,
+
+        conceptLabel: m.conceptLabel,
+
+        selectedIndex: m.selectedIndex,
+
+        correctIndex: m.correctIndex,
+
+        selectedLabel: m.selectedLabel,
+
+        correctLabel: m.correctLabel,
+
+        explanation: m.explanation,
+
+        totalMisses,
+
+        isRepeatConcept: totalMisses > 2,
+
+      }
+
+    })
+
+
+
+    this.state = { ...this.state, conceptMisses }
+
+    saveState(this.state)
+
+
+
+    const hotSubtopics = [...scopeMisses.entries()]
+
+      .filter(([, v]) => v.count >= 2)
+
+      .map(([scopeId, v]) => ({ scopeId, label: v.label, missCount: v.count }))
+
+
+
+    return { entries, hotSubtopics }
 
   }
 

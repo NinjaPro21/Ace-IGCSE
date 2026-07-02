@@ -1,0 +1,402 @@
+{
+  "id": "ch18-electromagnetic-effects-medium",
+  "topicId": "ch18-electromagnetic-effects",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "medium",
+  "title": "Chapter 18: Electromagnetic Effects — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch18-electromagnetic-effects-medium-q1",
+      "type": "mcq",
+      "question": "A student moves a magnet into a coil with $100$ turns at speed $v$. If they then use a coil with $200$ turns and move the same magnet at speed $2v$, what happens to the induced e.m.f.?",
+      "options": [
+        "It increases by a factor of 4",
+        "It increases by a factor of 2",
+        "It remains the same",
+        "It decreases by half"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both speed and the number of turns are factors that affect the magnitude. Doubling both will result in an induced e.m.f. that is four \\times larger ($2 \\times 2 = 4$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q2",
+      "type": "mcq",
+      "question": "According to the principle that induced e.m.f. opposes the change causing it, which pole is induced at the end of a solenoid when a South pole (S) of a magnet is moved toward it?",
+      "options": [
+        "South pole (S)",
+        "North pole (N)",
+        "No pole is induced",
+        "Both N and S poles simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lenz's Law states the induced e.m.f. opposes the change. To oppose a South pole moving toward it, the solenoid end must become a South pole to create a repulsive force.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q3",
+      "type": "mcq",
+      "question": "Which of the following does NOT affect the magnitude of the induced e.m.f. in a circuit undergoing electromagnetic induction?",
+      "options": [
+        "The electrical resistance of the wire in the coil",
+        "The strength of the magnetic field",
+        "The speed at which the magnetic field lines are cut",
+        "The number of turns in the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude of induced e.m.f. depends on the rate of cutting flux and number of turns. Resistance affects the induced current magnitude ($I = V/R$), but not the e.m.f. itself.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q4",
+      "type": "mcq",
+      "question": "A student replaces a hollow solenoid with one containing a soft iron core. How does this affect the galvanometer reading when a magnet is moved near it?",
+      "options": [
+        "The deflection increases because the core concentrates the magnetic field",
+        "The deflection decreases because iron is a magnetic material",
+        "The deflection stays the same because e.m.f. only depends on speed",
+        "The needle stops moving because iron blocks the magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "A soft iron core concentrates the magnetic field lines, increasing the magnetic flux linking the solenoid and thus increasing the induced e.m.f.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q5",
+      "type": "mcq",
+      "question": "What is the purpose of slip rings in a simple a.c. generator?",
+      "options": [
+        "To allow the transfer of alternating current to an external circuit",
+        "To reverse the direction of current every half revolution",
+        "To increase the strength of the permanent magnets",
+        "To provide a direct current output to a battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slip rings (connected to brushes) are the components that allow the induced alternating current in the rotating coil to be transferred to the external circuit.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q6",
+      "type": "mcq",
+      "question": "An a.c. generator is rotated at a certain speed. If the speed of rotation is doubled, what happens to the maximum output voltage?",
+      "options": [
+        "It doubles.",
+        "It remains the same.",
+        "It is halved.",
+        "It increases by four times."
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in Figure 18.11, doubling the frequency ($f$) of rotation doubles the maximum output voltage ($E_0$). \n\n**Common mistake:** Thinking only the frequency changes while the peak voltage stays constant."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q7",
+      "type": "mcq",
+      "question": "At which position of the rotating coil is the induced e.m.f. at its maximum value?",
+      "options": [
+        "When the plane of the coil is parallel to the magnetic field lines.",
+        "When the plane of the coil is perpendicular to the magnetic field lines.",
+        "When the coil is stationary at its highest point.",
+        "When the magnetic field is weakest."
+      ],
+      "correctIndex": 0,
+      "explanation": "The induced e.m.f. is maximum when the coil is horizontal (parallel to the field) because the sides of the coil are cutting the magnetic field lines at the fastest rate. \n\n**Common mistake:** Thinking it is maximum when perpendicular, which is actually when the e.m.f. is zero."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q8",
+      "type": "mcq",
+      "question": "A bicycle dynamo is described as a 'fixed coil generator'. How does its construction differ from a simple a.c. generator?",
+      "options": [
+        "The magnets rotate while the coil remains stationary.",
+        "The coil rotates while the magnets remain stationary.",
+        "It produces d.c. instead of a.c.",
+        "It does not require a magnetic field to work."
+      ],
+      "correctIndex": 0,
+      "explanation": "In a bicycle dynamo (fixed coil design), magnets rotate with respect to fixed coils to induce current. \n\n**Common mistake:** Assuming all generators must have rotating coils."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q9",
+      "type": "mcq",
+      "question": "Which rule is used to determine the direction of the induced current in the coil of an a.c. generator?",
+      "options": [
+        "Fleming’s right-hand rule",
+        "Fleming’s left-hand rule",
+        "Right-hand grip rule",
+        "The Law of conservation of momentum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fleming’s right-hand rule is used for generators (induction), where the thumb is motion, first finger is field, and second finger is induced current. \n\n**Common mistake:** Using the left-hand rule, which is used for motors."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q10",
+      "type": "mcq",
+      "question": "Which row correctly describes the changes to the output of a generator if the number of turns in the coil is increased?",
+      "options": [
+        "Peak Voltage: Increases; Frequency: Unchanged",
+        "Peak Voltage: Decreases; Frequency: Increases",
+        "Peak Voltage: Increases; Frequency: Increases",
+        "Peak Voltage: Unchanged; Frequency: Unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the number of turns increases the magnitude of the induced e.m.f. but does not affect how many cycles occur per second (frequency). \n\n**Common mistake:** Thinking more turns makes the coil rotate faster/slower."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q11",
+      "type": "mcq",
+      "question": "A student measures the magnetic field strength at different distances from a straight wire. Which statement is correct?",
+      "options": [
+        "The field is stronger closer to the wire",
+        "The field is stronger further from the wire",
+        "The field strength is the same at all distances",
+        "The field only exists at the surface of the wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "The strength of the magnetic field around a wire decreases as the distance from the wire increases.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q12",
+      "type": "mcq",
+      "question": "Which of the following changes will NOT increase the strength of the magnetic field produced by a solenoid?",
+      "options": [
+        "Using a longer wire with the same number of turns",
+        "Increasing the magnitude of the current",
+        "Increasing the number of turns per unit length",
+        "Placing a soft iron core inside the solenoid"
+      ],
+      "correctIndex": 0,
+      "explanation": "To increase strength, you must increase current, increase turns per unit length, or add a soft iron core. Simply using a longer wire without changing these factors does not increase the field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q13",
+      "type": "mcq",
+      "question": "In a solenoid carrying a current, where is the magnetic field the strongest and most uniform?",
+      "options": [
+        "Inside the centre of the coil",
+        "Near the outside surface of the wires",
+        "Exactly at the two ends of the coil",
+        "At a distance of $10\\text{ cm}$ from the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnetic field is strongest and most uniform inside the centre of the solenoid where the field lines are parallel and closely spaced.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q14",
+      "type": "mcq",
+      "question": "A student uses a plotting compass to map the field of a solenoid. If the current flows clockwise when viewed from one end, what pole is created at that end?",
+      "options": [
+        "South pole (S)",
+        "North pole (N)",
+        "No pole is created",
+        "The pole depends on the voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the right-hand grip rule for solenoids: if the fingers follow the clockwise current, the thumb points away, identifying that end as a South pole. (The 'S' can be drawn with arrows following the clockwise loop).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q15",
+      "type": "mcq",
+      "question": "What is the primary function of the soft iron core in an electromagnet?",
+      "options": [
+        "To concentrate the magnetic field lines",
+        "To provide electrical insulation for the coil",
+        "To reverse the direction of the current",
+        "To increase the resistance of the circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "A soft iron core is used because it is easily magnetised and concentrates the magnetic field lines, making the electromagnet much stronger.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q16",
+      "type": "mcq",
+      "question": "A wire carries current into the page and is placed between two magnetic poles (North on the left, South on the right). In which direction is the force on the wire?",
+      "options": [
+        "Towards the bottom of the page",
+        "Towards the top of the page",
+        "Towards the left",
+        "Towards the right"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's left-hand rule: First finger (Field) points right (N to S). Second finger (Current) points into the page. The thumb (Force) points downwards. \n\n**Common mistake:** Thinking the field flows from South to North, which would flip the answer to 'upwards'."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q17",
+      "type": "mcq",
+      "question": "If you reverse both the direction of the current and the direction of the magnetic field, what happens to the direction of the force on the conductor?",
+      "options": [
+        "The force remains in the same direction.",
+        "The force direction is reversed.",
+        "The force becomes zero.",
+        "The force direction turns by $90^circ$."
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing one factor (current or field) reverses the force. Reversing both factors results in two 'reversals', effectively keeping the force in its original direction. \n\n**Common mistake:** Thinking that reversing more things always changes the outcome."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q18",
+      "type": "mcq",
+      "question": "Two parallel wires carry currents in the same direction. What is the magnetic interaction between them?",
+      "options": [
+        "They attract each other.",
+        "They repel each other.",
+        "There is no force between them.",
+        "They rotate around each other."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the Quick Revision Guide, conductors carrying currents in the same direction attract each other. \n\n**Common mistake:** Thinking like charges (same current direction) repel, but this is a magnetic interaction, not an electrostatic one."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q19",
+      "type": "mcq",
+      "question": "A moving-coil loudspeaker uses the motor effect. How is the force on the coil changed to produce sound?",
+      "options": [
+        "By using a varying current that changes direction periodically",
+        "By rotating the permanent magnets inside the cone",
+        "By increasing the resistance of the coil as it moves",
+        "By changing the shape of the soft iron core"
+      ],
+      "correctIndex": 0,
+      "explanation": "The loudspeaker uses the interaction between a fixed magnetic field and a varying current to create a vibration (force) that moves the cone. \n\n**Common mistake:** Believing the magnets move; in most designs, the magnets are permanent and fixed while the coil moves."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q20",
+      "type": "mcq",
+      "question": "To increase the force on a wire in a magnetic field without changing the current, a student should:",
+      "options": [
+        "Use a stronger magnet.",
+        "Use a thinner wire of the same length.",
+        "Reverse the battery connections.",
+        "Place the wire parallel to the magnetic field."
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude of the force depends on the strength of the magnetic field and the current. If the current is constant, a stronger magnet is required. \n\n**Common mistake:** Thinking reversing the battery increases force; it only changes the direction."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q21",
+      "type": "mcq",
+      "question": "A student wants to reverse the direction of rotation of a d.c. motor. Which of the following single changes would achieve this?",
+      "options": [
+        "Reversing the direction of the magnetic field",
+        "Increasing the number of turns in the coil",
+        "Increasing the magnitude of the current",
+        "Reversing both the current and the magnetic field simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "To change the direction of rotation, you must reverse either the magnetic field or the current. Reversing both (Option D) would cancel out the change, keeping the rotation the same.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q22",
+      "type": "mcq",
+      "question": "Which set of changes would increase the speed at which a d.c. motor rotates?",
+      "options": [
+        "Increase the current and use stronger permanent magnets",
+        "Decrease the current and use more turns of wire in the coil",
+        "Increase the current and reverse the magnetic field poles",
+        "Decrease the number of turns and increase the current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The speed (turning effect) of a motor is increased by increasing the current, using a stronger magnetic field, or increasing the number of turns in the coil.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q23",
+      "type": "mcq",
+      "question": "In a d.c. motor diagram, if the current flows from the positive terminal into the left side of a horizontal coil and the North pole of the magnet is on the left, what is the direction of the force on the left side of the coil? (Use Fleming's LH rule)",
+      "options": [
+        "Upwards",
+        "Downwards",
+        "Towards the North pole",
+        "Towards the South pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's Left-Hand Rule: Field (Index finger) points North to South (left to right). Current (Middle finger) points into the page. The thumb (Force) points upwards. \n\n**Common mistake:** using the right hand."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q24",
+      "type": "mcq",
+      "question": "Why does a practical d.c. motor often have an iron core at the centre of its hundreds of turns of wire?",
+      "options": [
+        "To concentrate the magnetic field and increase the turning force",
+        "To act as an insulator and prevent short circuits",
+        "To reverse the current without needing a commutator",
+        "To reduce the weight of the motor for portable devices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Practical motors use soft iron cores to concentrate magnetic field lines, which significantly increases the magnetic flux and the resulting turning effect.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q25",
+      "type": "mcq",
+      "question": "What would happen to the coil in a motor if the split-ring commutator was replaced by two continuous slip rings?",
+      "options": [
+        "The coil would oscillate back and forth every half-turn instead of spinning",
+        "The coil would spin much faster in one direction",
+        "The motor would convert to a generator producing d.c. current",
+        "The motor would not move at all because current could not reach the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without the commutator to reverse the current every half-turn, the force on the coil would change direction relative to the coil's position, causing it to oscillate or stop rather than spin continuously.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q26",
+      "type": "mcq",
+      "question": "A transformer has $100$ turns in the primary coil and $500$ turns in the secondary coil. If the primary voltage is $12\\text{ V}$, what is the secondary voltage?",
+      "options": [
+        "$60\\text{ V}$",
+        "$2.4\\text{ V}$",
+        "$120\\text{ V}$",
+        "$600\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the transformer equation $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$, we get $V_s = V_p \\times (N_s / N_p) = 12 \\times (500 / 100) = 60\\text{ V}$. \n\n**Common mistake:** Inverting the turns ratio and dividing $12$ by $5$."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q27",
+      "type": "mcq",
+      "question": "A transformer is used to provide a $15\\text{ V}$ output from a $240\\text{ V}$ mains supply. If the primary coil has $6400$ turns, calculate the number of turns on the secondary coil.",
+      "options": [
+        "$400$",
+        "$102400$",
+        "$26.7$",
+        "$96000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 8: $N_s = N_p \\times (V_s / V_p) = 6400 \\times (15 / 240) = 400$ turns. \n\n**Common mistake:** Multiplying by the ratio $240/15$ instead of $15/240$."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q28",
+      "type": "mcq",
+      "question": "Which of the following correctly describes a step-up transformer in terms of its coils?",
+      "options": [
+        "It has more turns in the secondary coil than in the primary coil.",
+        "It has more turns in the primary coil than in the secondary coil.",
+        "It has a thicker wire in the primary coil.",
+        "It can only be used with a battery (d.c. source)."
+      ],
+      "correctIndex": 0,
+      "explanation": "A step-up transformer increases voltage, which means $V_s > V_p$. According to the ratio, this requires $N_s > N_p$. \n\n**Common mistake:** Swapping the primary and secondary turn requirements."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q29",
+      "type": "mcq",
+      "question": "Assuming a transformer is $100\\%$ efficient, what is the relationship between the primary power ($P_p$) and secondary power ($P_s$)?",
+      "options": [
+        "$P_p = P_s$",
+        "$P_s$ is always greater than $P_p$",
+        "$P_p = I_p V_s$",
+        "$P_s = I_s V_p$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For $100\\%$ efficiency, $I_p V_p = I_s V_s$, which means power input equals power output ($P_p = P_s$). \n\n**Common mistake:** Thinking a step-up transformer 'creates' extra power."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-medium-q30",
+      "type": "mcq",
+      "question": "Why is the soft iron core of a transformer often 'laminated' (made of thin sheets glued together)?",
+      "options": [
+        "To reduce energy loss as thermal energy in the core",
+        "To prevent the coils from touching each other",
+        "To make the transformer lighter for transport",
+        "To increase the resistance of the primary coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lamination is a feature used to improve efficiency by reducing internal currents that cause heating in the core. \n\n**Common mistake:** Believing lamination is just for structural support."
+    }
+  ]
+}

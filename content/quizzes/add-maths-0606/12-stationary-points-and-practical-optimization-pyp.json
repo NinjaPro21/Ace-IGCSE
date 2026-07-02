@@ -1,0 +1,142 @@
+{
+  "id": "12-stationary-points-and-practical-optimization-pyp",
+  "topicId": "12-stationary-points-and-practical-optimization",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "pyp",
+  "title": "Stationary Points and Practical Optimization — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q1",
+      "type": "mcq",
+      "question": "Find the coordinates of the stationary points on the curve $y = x^3 - 6x^2 + 9x + 5$.",
+      "options": [
+        "$(1, 9)$ and $(3, 5)$",
+        "$(1, 9)$ and $(3, 0)$",
+        "$(1, 5)$ and $(3, 9)$",
+        "$(1, 0)$ and $(3, 5)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$. At $x=1, y = 1-6+9+5 = 9$. At $x=3, y = 27-54+27+5 = 5$.\n\n**Common mistake:** Option B is a common error where the student calculates the derivative value at $x=3$ instead of the function value $y$."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q2",
+      "type": "mcq",
+      "question": "The curve $y = ax^2 + \\frac{b}{x}$ has a stationary point at the point $(1, 6)$. Find the values of $a$2$b$.",
+      "options": [
+        "$a = 2, b = 4$",
+        "$a = 4, b = 2$",
+        "$a = 3, b = 3$",
+        "$a = 1, b = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "At $(1,6): a + b = 6$. $\\frac{dy}{dx} = 2ax - \\frac{b}{x^2}$. At $x=1, 2a - b = 0 \\implies b = 2a$2$a+b=6$ gives $3a = 6 \\implies a = 2, b = 4$.\n\n**Common mistake:** Option B swaps the values of $a$2$b$ due to an error in the final substitution step."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q3",
+      "type": "mcq",
+      "question": "Show that the curve $y = x + \\frac{9}{x}$ has two stationary points and determine the nature of each.",
+      "options": [
+        "$(3, 6)$ is a Minimum, $(-3, -6)$ is a Maximum",
+        "$(3, 6)$ is a Maximum, $(-3, -6)$ is a Minimum",
+        "Both are Minimum points",
+        "Both are Maximum points"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 1 - 9x^{-2} = 0 \\implies x^2 = 9 \\implies x = \\pm 3$. $\\frac{d^2y}{dx^2} = 18x^{-3} = \\frac{18}{x^3}$. At $x=3, y'' = 18/27 > 0$ (Min). At $x=-3, y'' = -18/27 < 0$ (Max).\n\n**Common mistake:** Option B is a logical error where students assume higher $y$-values always correspond to maximums."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q4",
+      "type": "mcq",
+      "question": "Given that the curve $y = x^3 - 3x^2 + kx$2$x = 2$, find the value of $k$ and the coordinates of the other stationary point.",
+      "options": [
+        "$k = 0, (0, 0)$",
+        "$k = 4, (0, 0)$",
+        "$k = 0, (1, -2)$",
+        "$k = 2, (1, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 6x + k$2$x=2, 3(4) - 6(2) + k = 12 - 12 + k = 0$, so $k = 0$. $\\frac{dy}{dx} = 3x^2 - 6x = 3x(x-2)$. Other root is $x=0$. At $x=0, y=0$.\n\n**Common mistake:** Option C results from a calculation error when finding the other root of the quadratic derivative."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q5",
+      "type": "mcq",
+      "question": "Find the set of values of $x$2$y = 2x^3 - 15x^2 + 24x$ is decreasing.",
+      "options": [
+        "$1 < x < 4$",
+        "$x < 1$ or $x > 4$",
+        "$x > 4$",
+        "$x < 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A curve decreases when $\\frac{dy}{dx} < 0$. $\\frac{dy}{dx} = 6x^2 - 30x + 24 = 6(x^2 - 5x + 4) = 6(x-1)(x-4)$. This is negative between the roots^1 and^4.\n\n**Common mistake:** Option B is the region where the curve is increasing, which students often provide when they misinterpret the question or inequality sign."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q6",
+      "type": "mcq",
+      "question": "The total surface area $A$2$A = 2\\pi r^2 + \\frac{2000}{r}$. Find the value of $r$2$A$ is a minimum.",
+      "options": [
+        "5.42",
+        "10",
+        "7.98",
+        "2.50"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dA/dr = 4\\pi r - 2000/r^2 = 0 \\implies 4\\pi r^3 = 2000 \\implies r^3 = 500/\\pi \\approx 159.15 \\implies r \\approx 5.42$.\n\n**Common mistake:** Mismanaging the power of $r$2$r^2$ instead of $r^3$."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q7",
+      "type": "mcq",
+      "question": "A rectangular enclosure is divided into three equal sections by two internal fences parallel to the width $w$. If the total length of fencing is 120 m, find the maximum total area.",
+      "options": [
+        "450 m^2",
+        "900 m^2",
+        "600 m^2",
+        "300 m^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$2L + 4w = 120 \\implies L = 60 - 2w$2$A = Lw = w(60 - 2w) = 60w - 2w^2$. $dA/dw = 60 - 4w = 0 \\implies w = 15$. $A = 15(30) = 450$.\n\n**Common mistake:** Forgetting the two internal fences and only using $2L + 2w = 120$."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q8",
+      "type": "mcq",
+      "question": "Show that the volume of an open cylinder of radius $r$2$^2$ is $V = 150r - 0.5\\pi r^3$. Find the maximum volume.",
+      "options": [
+        "564 cm³",
+        "300 cm³",
+        "150 cm³",
+        "1000 cm³"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dV/dr = 150 - 1.5\\pi r^2 = 0 \\implies r^2 = 100/\\pi \\implies r = 10/\\sqrt{\\pi} \\approx 5.64$. Max $V = 150(5.64) - 0.5\\pi(5.64)^3 \\approx 564.19$.\n\n**Common mistake:** Using the radius value as the volume instead of substituting it back into the formula."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q9",
+      "type": "mcq",
+      "question": "The cost of fuel for a boat is $v^2/10$ per hour, where^2 is speed in km/h. Other costs are\n$$40$ per hour. Find the speed that minimizes cost per kilometer.$",
+      "options": [
+        "20 km/h",
+        "40 km/h",
+        "10 km/h",
+        "30 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cost per km $C = (\\text{Cost per hr}) / v = (v^2/10 + 40) / v = v/10 + 40/v$2$dC/dv = 1/10 - 40/v^2 = 0 \\implies v^2 = 400 \\implies v = 20$.\n\n**Common mistake:** Minimizing cost per hour ($v=0$) instead of cost per unit distance ($v=20$)."
+    },
+    {
+      "id": "12-stationary-points-and-practical-optimization-pyp-q10",
+      "type": "mcq",
+      "question": "A point $P(x, y)$ lies on the curve $y = 4/x^2$. Find the coordinates of $P$ such that the distance from the origin is a minimum.",
+      "options": [
+        "(\\sqrt{2}, 2)",
+        "(1, 4)",
+        "(2, 1)",
+        "(\\sqrt{2}, \\sqrt{2})"
+      ],
+      "correctIndex": 0,
+      "explanation": "$D^2 = x^2 + (4/x^2)^2 = x^2 + 16/x^4$. $d(D^2)/dx = 2x - 64/x^5 = 0 \\implies 2x^6 = 64 \\implies x^6 = 32 \\implies x = 32^{1/6} \\approx \\sqrt{2}$. $y = 4/(\\sqrt{2})^2 = 4/2 = 2$.\n\n**Common mistake:** Incorrectly differentiating $16/x^4$, often leading to $x^3$ or $x^4$ results."
+    }
+  ]
+}

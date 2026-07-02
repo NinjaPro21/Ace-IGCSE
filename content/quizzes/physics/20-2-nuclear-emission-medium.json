@@ -1,0 +1,77 @@
+{
+  "id": "20-2-nuclear-emission-medium",
+  "topicId": "20-2-nuclear-emission",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "medium",
+  "title": "Nuclear Emission — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-2-nuclear-emission-medium-q1",
+      "type": "mcq",
+      "question": "Which of the following correctly ranks the types of radiation from MOST ionising to LEAST ionising?",
+      "options": [
+        "$alpha > beta > gamma$",
+        "$gamma > beta > alpha$",
+        "$beta > alpha > gamma$",
+        "$alpha > gamma > beta$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles have the strongest ionising effect, followed by beta, with gamma rays having the least ionising effect.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-medium-q2",
+      "type": "mcq",
+      "question": "A student places a few millimetres of aluminium between a radioactive source and a detector. The count rate drops significantly but does not reach the background level. Which radiation is likely being stopped by the aluminium?",
+      "options": [
+        "$beta$-particles",
+        "$alpha$-particles",
+        "$gamma$-rays",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles have medium penetrating ability and are stopped by a few millimetres of aluminium. Alpha would have been stopped by paper, and gamma would pass through the aluminium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-medium-q3",
+      "type": "mcq",
+      "question": "In an electric field, which direction will $alpha$-particles deflect?",
+      "options": [
+        "Towards the negative plate",
+        "Towards the positive plate",
+        "They will not deflect",
+        "Parallel to the plates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since alpha particles are positively charged ($+2$), they are attracted to and deflect towards the negative plate in an electric field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-medium-q4",
+      "type": "mcq",
+      "question": "Which statement compares the speeds of nuclear emissions correctly?",
+      "options": [
+        "$gamma$-rays travel at the speed of light",
+        "$alpha$-particles travel faster than $beta$-particles",
+        "All three travel at $3.0 \\times 10^{8} \\text{ m/s}$",
+        "$beta$-particles are the slowest because they have mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma rays are electromagnetic radiation and travel at the speed of light in a vacuum ($3.0 \\times 10^{8} \\text{ m/s}$). Alpha and beta particles travel at high speeds but slower than light.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-medium-q5",
+      "type": "mcq",
+      "question": "Why is $gamma$-radiation not deflected by electric or magnetic fields?",
+      "options": [
+        "It has no electric charge",
+        "It travels too fast to be affected",
+        "It has too much mass to move",
+        "It is absorbed by the field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma rays are electromagnetic waves with zero charge. Only charged particles (alpha and beta) experience forces in electric or magnetic fields.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

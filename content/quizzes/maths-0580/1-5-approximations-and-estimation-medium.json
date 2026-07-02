@@ -1,0 +1,77 @@
+{
+  "id": "1-5-approximations-and-estimation-medium",
+  "topicId": "1-5-approximations-and-estimation",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Approximations and Estimation — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-approximations-and-estimation-medium-q1",
+      "type": "mcq",
+      "question": "A rectangular field has a length of $70\\text{ m}$ and a width of $40\\text{ m}$, both measured correct to the nearest $5\\text{ m}$. Calculate the upper bound of the perimeter of the field.",
+      "options": [
+        "230 m",
+        "220 m",
+        "240 m",
+        "225 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "The accuracy unit is $5\\text{ m}$, so the boundary variation is $\\pm 2.5\\text{ m}$. Upper bound of length = $72.5\\text{ m}$, upper bound of width = $42.5\\text{ m}$. Upper bound of perimeter = $2 \\times (72.5 + 42.5) = 2 \\times 115 = 230\\text{ m}$.\n\n**Common mistake:** Students often find the perimeter using the nominal values first ($2 \\times 110 = 220$) and then add 5 or 2.5 to the final perimeter answer, yielding 225 or 220."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-medium-q2",
+      "type": "mcq",
+      "question": "The mass of a package is $x = 12.4\\text{ kg}$ correct to 1 decimal place. Complete the error interval statement for $x$.",
+      "options": [
+        "$12.35 \\le x < 12.45$",
+        "$12.35 < x \\le 12.45$",
+        "$12.4 \\le x < 12.5$",
+        "$12.39 \\le x < 12.41$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An accuracy of 1 decimal place means an interval steps of $0.1$. The variation is $\\pm 0.05$. Lower bound = $12.4 - 0.05 = 12.35$. Upper bound = $12.4 + 0.05 = 12.45$. The standard interval notation is $\\text{Lower Bound} \\le x < \\text{Upper Bound}$.\n\n**Common mistake:** Students often place the strict inequality sign at the lower bound or use the wrong degree of precision variation ($0.01$)."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-medium-q3",
+      "type": "mcq",
+      "question": "Calculate the upper bound of the area of a square whose side length is given as $8.0\\text{ cm}$, correct to 1 decimal place.",
+      "options": [
+        "64.8025 cm $2$",
+        "64.0 cm $2$",
+        "64.8 cm $2$",
+        "65.61 cm $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The side accuracy is $0.1\\text{ cm}$, so the boundary variation is $\\pm 0.05\\text{ cm}$. The upper bound of the side length is $8.05\\text{ cm}$. The upper bound of the area is $8.05^2 = 64.8025\\text{ cm}^{2}$.\n\n**Common mistake:** Students may round the side to 8.5 instead of 8.05, leading to $8.5^2 = 72.25\\text{ cm}^{2}$, or square 8 first and then add 0.5."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-medium-q4",
+      "type": "mcq",
+      "question": "A box contains 50 identical steel bolts. The total weight of the box contents is measured as $2.5\\text{ kg}$, correct to the nearest $0.1\\text{ kg}$. Find the lower bound for the mass of a single steel bolt in grams.",
+      "options": [
+        "49 g",
+        "50 g",
+        "48 g",
+        "51 g"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lower bound of total mass is $2.45\\text{ kg} = 2450\\text{ g}$. Divide by the exact count of items: $2450 \\div 50 = 49\\text{ g}$.\n\n**Common mistake:** Students often use nominal value $2500 \\div 50 = 50\\text{ g}$ or subtract $0.05$ from the individual component after dividing."
+    },
+    {
+      "type": "mcq",
+      "question": "If $x = 5$ and $y = 7$, both correct to **one significant figure**, find the largest possible value of $x + y$.",
+      "options": [
+        "$13$",
+        "$12$",
+        "$12.5$",
+        "$13.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the largest sum, use the upper bounds of both numbers: $5.5$ and $7.5$. The maximum value is $5.5 + 7.5 = 13$.\n\n**Common mistake:** Students often add the rounded numbers ($5+7=12$) or miscalculate the upper bound as $5.49$ instead of $5.5$.",
+      "id": "1-5-approximations-and-estimation-medium-q5"
+    }
+  ]
+}

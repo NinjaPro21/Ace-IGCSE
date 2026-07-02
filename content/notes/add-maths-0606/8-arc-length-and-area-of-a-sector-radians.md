@@ -4,11 +4,14 @@ Circular measure uses radians—where an angle is measured by the length of the 
 
 ## Key formulas
 
-$$\theta_{\text{radians}} = \theta_{\text{degrees}} \times \frac{\pi}{180^\circ}$$
+$$
+\theta_{\text{radians}} = \theta_{\text{degrees}} \times \frac{\pi}{180^\circ}
 
-$$\text{Arc Length: } s = r\theta \quad (\text{where } \theta \text{ is in radians})$$
+\text{Arc Length: } s = r\theta \quad (\text{where } \theta \text{ is in radians})
 
-$$\text{Area of Sector: } A = \frac{1}{2}r^2\theta \quad (\text{where } \theta \text{ is in radians})$$
+\text{Area of Sector: } A = \frac{1}{2}r^2\theta \quad (\text{where } \theta \text{ is in radians})
+$$
+
 
 ## Steps / method
 
@@ -28,13 +31,17 @@ Radians only: $s = r\theta$ and $A = \frac{1}{2}r^2\theta$. Convert degrees with
 
 A sector has radius $6$ cm and central angle $\frac{\pi}{3}$ radians. Find the arc length.
 
-$$s = r\theta = 6 \times \frac{\pi}{3} = 2\pi \text{ cm}$$
+$$
+s = r\theta = 6 \times \frac{\pi}{3} = 2\pi \text{ cm}
+$$
 
 ## Worked example — Sector area
 
 Find the area of a sector with radius $10$ cm and angle $1.2$ radians.
 
-$$A = \frac{1}{2}r^2\theta = \frac{1}{2}(10)^2(1.2) = 60 \text{ cm}^2$$
+$$
+A = \frac{1}{2}r^2\theta = \frac{1}{2}(10)^2(1.2) = 60 \text{ cm}^2
+$$
 
 ## Examiner tip
 
@@ -43,7 +50,3 @@ Always make sure your calculator is switched to Radian (RAD) mode when evaluatin
 ## Quick check
 
 If a sector has a central angle of exactly $\theta = 2$ radians, then the arc length is equal to twice the length of its radius.
-
-## Visual / interactive intent
-
-Reuse explorer: Trig demo. A sector graphics tool where dragging a slider changes the central angle $\theta$ from 0 to $2\pi$. The arc length and area adjust dynamically, contrasting the simple radian formulas against the more complex degree equivalents.

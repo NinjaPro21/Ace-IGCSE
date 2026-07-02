@@ -1,0 +1,207 @@
+{
+  "id": "13-vector-notation-position-vectors-and-geometry-easy",
+  "topicId": "13-vector-notation-position-vectors-and-geometry",
+  "chapterId": "ch13-vectors",
+  "difficulty": "easy",
+  "title": "Vector Notation, Position Vectors, and Geometry — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q1",
+      "type": "mcq",
+      "question": "Find the magnitude of the vector a=8i−15j .",
+      "options": [
+        "17",
+        "23",
+        "7",
+        "289"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude is calculated using ∣xi+yj∣=\n(\n\n$x^{2}$+$y^{2}$). Here,\n(\n\n$8^{2}$+$(-15)^{2}$)=\n(\n\n64+225)=\n(\n\n289)=17.\n\n**Common mistake:** Option B is obtained by simply adding the components (8 + 15) without squaring and taking the root."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q2",
+      "type": "mcq",
+      "question": "Write the column vector\nbeginpmatrix−$3^{4}$endpmatrix in i,j notation.",
+      "options": [
+        "−3i+4j",
+        "3i−4j",
+        "4i−3j",
+        "−3i−4j"
+      ],
+      "correctIndex": 0,
+      "explanation": "A column vector\nbeginpmatrixx\ny\nendpmatrix corresponds directly to xi+yj.\n\n**Common mistake:** Option C is a common error where the student swaps the x and y components."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q3",
+      "type": "mcq",
+      "question": "Find the unit vector in the direction of 5j .",
+      "options": [
+        "j",
+        "5j",
+        "1/5j",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "A unit vector has a magnitude of 1. Dividing 5j by its magnitude (5) gives j.\n\n**Common mistake:** Option B is the vector itself, not the unit vector."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the magnitude of the vector v=−6i−8j .",
+      "options": [
+        "10",
+        "−14",
+        "14",
+        "100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude is\n(\n\n$(-6)^{2}$+$(-8)^{2}$)=\n(\n\n36+64)=\n(\n\n100)=10.\n\n**Common mistake:** Option B occurs if a student incorrectly carries the negative signs outside the squares."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q5",
+      "type": "mcq",
+      "question": "If p=2i+3j , find the vector 4p .",
+      "options": [
+        "8i+12j",
+        "6i+7j",
+        "8i+3j",
+        "2i+12j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply each component by the scalar: 4(2i)+4(3j)=8i+12j.\n\n**Common mistake:** Option B is p+4 applied to the coefficients, confusing scalar multiplication with addition."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q6",
+      "type": "mcq",
+      "question": "If point A has coordinates (3, -4), what is its position vector $\\vec{OA}$ in component form?",
+      "options": [
+        "3i - 4j",
+        "-3i + 4j",
+        "3i + 4j",
+        "-4i + 3j"
+      ],
+      "correctIndex": 0,
+      "explanation": "A position vector $\\vec{OA}$ is simply the vector from the origin to the point A, using the coordinates as components.\n\n**Common mistake:** Swapping the x and y components or missing the negative sign."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q7",
+      "type": "mcq",
+      "question": "Find the magnitude of the position vector $\\mathbf{r} = \\begin{pmatrix} 5 \\ 12 \\end{pmatrix}$.",
+      "options": [
+        "13",
+        "17",
+        "7",
+        "169"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude $= \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.\n\n**Common mistake:** Simply adding the components (17) instead of using Pythagoras' theorem."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q8",
+      "type": "mcq",
+      "question": "Given $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, which expression represents the vector $\\vec{AB}$?",
+      "options": [
+        "b - a",
+        "a - b",
+        "a + b",
+        "b + a"
+      ],
+      "correctIndex": 0,
+      "explanation": "By vector addition, $\\vec{OA} + \\vec{AB} = \\vec{OB}$. Thus, $\\vec{AB} = \\vec{OB} - \\vec{OA} = \\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Reversing the subtraction to $a - b$."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q9",
+      "type": "mcq",
+      "question": "Find the position vector of the midpoint of the line segment joining $P(2, 6)$ and $Q(8, 2)$.",
+      "options": [
+        "5i + 4j",
+        "10i + 8j",
+        "3i - 2j",
+        "6i + 4j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint $= ( (2+8)/2, (6+2)/2 ) = (5, 4)$. The vector is $5i + 4j$.\n\n**Common mistake:** Adding the coordinates but forgetting to divide by 2."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q10",
+      "type": "mcq",
+      "question": "If $\\vec{OP} = \\begin{pmatrix} k \\ 8 \\end{pmatrix}$ has a magnitude of 10, find the positive value of k.",
+      "options": [
+        "6",
+        "2",
+        "18",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "$k^2 + 8^2 = 10^{2} \\implies k^2 + 64 = 100 \\implies k^2 = 36 \\implies k = 6$.\n\n**Common mistake:** Thinking $k + 8 = 10$ and concluding $k = 2$."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q11",
+      "type": "mcq",
+      "question": "In the triangle $OAB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "$\\mathbf{b} - \\mathbf{a}$",
+        "$\\mathbf{a} - \\mathbf{b}$",
+        "$\\mathbf{a} + \\mathbf{b}$",
+        "$\\mathbf{b} + \\mathbf{a}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To go from $A$2$B$2$A$2$O$2$-\\mathbf{a}$) and then $O$2$B$2$\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q12",
+      "type": "mcq",
+      "question": "If $\\vec{PQ} = 3\\mathbf{u} - 2\\mathbf{v}$, find the vector $\\vec{QP}$.",
+      "options": [
+        "$2\\mathbf{v} - 3\\mathbf{u}$",
+        "$3\\mathbf{u} + 2\\mathbf{v}$",
+        "$-3\\mathbf{u} - 2\\mathbf{v}$",
+        "$3\\mathbf{v} - 2\\mathbf{u}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vector $\\vec{QP}$ is the negative of $\\vec{PQ}$, so $-(3\\mathbf{u} - 2\\mathbf{v}) = -3\\mathbf{u} + 2\\mathbf{v}$.\n\n**Common mistake:** Option C results from a sign error where the student only negates the first term."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q13",
+      "type": "mcq",
+      "question": "Given that $\\vec{OM} = \\mathbf{m}$ and $\\vec{ON} = \\mathbf{n}$, find the position vector of the midpoint of $MN$.",
+      "options": [
+        "$0.5(\\mathbf{m} + \\mathbf{n})$",
+        "$\\mathbf{n} - \\mathbf{m}$",
+        "$0.5(\\mathbf{n} - \\mathbf{m})$",
+        "$\\mathbf{m} + \\mathbf{n}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The position vector of the midpoint is the average of the position vectors of the endpoints: $0.5(\\mathbf{m} + \\mathbf{n})$.\n\n**Common mistake:** Option C is the vector representing half the displacement from $M$2$N$, not the position vector from the origin."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q14",
+      "type": "mcq",
+      "question": "Vectors $\\mathbf{p}$ and $\\mathbf{q}$ are not parallel. If $k\\mathbf{p} = 5\\mathbf{p}$, state the value of $k$.",
+      "options": [
+        "$5$",
+        "$0$",
+        "$-5$",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $\\mathbf{p}$ is a non-zero vector, we can equate the coefficients directly to find $k = 5$.\n\n**Common mistake:** Option B might be chosen if the student confuses the property of non-parallel vectors ($a\\mathbf{p} + b\\mathbf{q} = 0 \\implies a=b=0$)."
+    },
+    {
+      "id": "13-vector-notation-position-vectors-and-geometry-easy-q15",
+      "type": "mcq",
+      "question": "In a parallelogram $ABCD$2$\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "options": [
+        "$\\mathbf{q}$",
+        "$\\mathbf{p}$",
+        "$\\mathbf{p} + \\mathbf{q}$",
+        "$-\\mathbf{q}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$2$BC$."
+    }
+  ]
+}

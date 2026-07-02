@@ -1,0 +1,77 @@
+{
+  "id": "16-3-electric-current-hard",
+  "topicId": "16-3-electric-current",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "hard",
+  "title": "Electric Current — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-3-electric-current-hard-q1",
+      "type": "mcq",
+      "question": "A steady current of $0.2\\text{ A}$ flows through a circuit for $2.0\\text{ hours}$. Calculate the total charge that passes any point in the circuit.",
+      "options": [
+        "$1440\\text{ C}$",
+        "$0.4\\text{ C}$",
+        "$24\\text{ C}$",
+        "$720\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time $t = 2.0\\text{ h} \\times 3600\\text{ s/h} = 7200\\text{ s}$. Charge $Q = I \\times t = 0.2\\text{ A} \\times 7200\\text{ s} = 1440\\text{ C}$. \n\n**Common mistake:** Multiplying $0.2$ by 120 minutes ($24\\text{ C}$) or just 2 hours ($0.4\\text{ C}$)."
+    },
+    {
+      "id": "16-3-electric-current-hard-q2",
+      "type": "mcq",
+      "question": "If a charge of $1.0\\text{ Coulomb}$ consists of approximately $6.25 \\times 10^{18}$ electrons, how many electrons pass a point every second when the current is $1.6\\text{ A}$?",
+      "options": [
+        "$1.0 \\times 10^{19}$",
+        "$6.25 \\times 10^{18}$",
+        "$3.9 \\times 10^{18}$",
+        "$1.6 \\times 10^{19}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A current of $1.6\\text{ A}$ means $1.6\\text{ C}$ passes every second. Total electrons $= 1.6 \\times (6.25 \\times 10^{18}) = 1.0 \\times 10^{19}$. \n\n**Common mistake:** Dividing the number of electrons by current instead of multiplying."
+    },
+    {
+      "id": "16-3-electric-current-hard-q3",
+      "type": "mcq",
+      "question": "How long will it take for $15\\text{ C}$ of charge to pass through a point if the current is $25\\text{ mA}$?",
+      "options": [
+        "$600\\text{ s}$",
+        "$0.375\\text{ s}$",
+        "$1.67\\text{ s}$",
+        "$0.6\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert current to Amperes: $25\\text{ mA} = 0.025\\text{ A}$. Using $t = Q / I$, $t = 15 / 0.025 = 600\\text{ s}$. \n\n**Common mistake:** Using $25$ as the current value without converting from milli-Amps."
+    },
+    {
+      "id": "16-3-electric-current-hard-q4",
+      "type": "mcq",
+      "question": "In a cathode ray tube, $3.0 \\times 10^{15}$ electrons strike the screen every second. Given the charge on one electron is $1.6 \\times 10^{-19}\\text{ C}$, what is the beam current?",
+      "options": [
+        "$4.8 \\times 10^{-4}\\text{ A}$",
+        "$1.9 \\times 10^{-34}\\text{ A}$",
+        "$5.3 \\times 10^{-35}\\text{ A}$",
+        "$1.875 \\times 10^{34}\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total charge per second $Q = \\text{number of electrons} \\times \\text{charge per electron} = (3.0 \\times 10^{15}) \\times (1.6 \\times 10^{-19}) = 4.8 \\times 10^{-4}\\text{ C}$. Since this is per second, the current is $4.8 \\times 10^{-4}\\text{ A}$. \n\n**Common mistake:** Multiplying the powers of ten incorrectly."
+    },
+    {
+      "id": "16-3-electric-current-hard-q5",
+      "type": "mcq",
+      "question": "What is the primary difference between direct current (d.c.) and alternating current (a.c.) in terms of charge movement?",
+      "options": [
+        "d.c. flows in one direction only, while a.c. periodically reverses direction",
+        "d.c. consists of protons flowing, while a.c. consists of electrons",
+        "a.c. can only travel through insulators, while d.c. requires conductors",
+        "d.c. current remains at a constant value, while a.c. current always increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, d.c. flows in one direction while a.c. reverses direction periodically. \n\n**Common mistake:** Thinking a.c. is 'stronger' or 'faster' rather than just changing direction."
+    }
+  ]
+}

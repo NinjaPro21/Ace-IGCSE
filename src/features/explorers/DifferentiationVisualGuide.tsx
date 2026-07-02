@@ -37,10 +37,55 @@ const PANEL_META: Record<Tab, { label: string; title: string; intro: string }> =
     title: 'Derivative Rules',
     intro: 'Quick reference for power, chain, product, quotient, and transcendental derivatives.',
   },
+  chain: {
+    label: 'Chain rule',
+    title: 'Chain Rule — (ax + b)ⁿ',
+    intro: 'Differentiate a linear power: bring down n, reduce power by 1, multiply by a.',
+  },
   transcendental: {
     label: 'Exp · log · trig',
     title: 'Transcendental Derivatives',
     intro: 'See how eˣ, ln x, and sin/cos relate to their derivatives — Ch.14 focus.',
+  },
+  trig: {
+    label: 'Sin · cos · tan',
+    title: 'Trigonometric Derivatives',
+    intro: 'sin → cos, cos → −sin, tan → sec² — with the chain rule for ax + b.',
+  },
+  power: {
+    label: 'Power rule',
+    title: 'Power Rule',
+    intro: 'Multiply by the power, then subtract 1 from the power.',
+  },
+  product: {
+    label: 'Product rule',
+    title: 'Product Rule',
+    intro: 'First × derivative of second + second × derivative of first.',
+  },
+  quotient: {
+    label: 'Quotient rule',
+    title: 'Quotient Rule',
+    intro: 'Bottom × derivative of top − top × derivative of bottom, all over bottom squared.',
+  },
+  approx: {
+    label: 'Small changes',
+    title: 'Small Increments',
+    intro: 'For a tiny change in x, δy ≈ (dy/dx) × δx.',
+  },
+  exponential: {
+    label: 'Exponential',
+    title: 'Exponential Derivatives',
+    intro: 'eˣ is its own derivative; for e^(ax+b), multiply by a.',
+  },
+  logarithm: {
+    label: 'Logarithm',
+    title: 'Logarithmic Derivatives',
+    intro: 'd/dx ln x = 1/x; for ln(ax+b), put a in the numerator.',
+  },
+  cheatsheet: {
+    label: 'Cheat sheet',
+    title: 'Differentiation Cheat Sheet',
+    intro: 'All Ch.12–14 derivative rules in one place — use as a quick reference at the end of the chapter.',
   },
 }
 
@@ -58,8 +103,26 @@ function renderPanel(tab: Tab) {
       return <OptimizationPanel />
     case 'rules':
       return <RulesPanel />
+    case 'chain':
+      return <ChainRulePanel />
     case 'transcendental':
       return <TranscendentalPanel />
+    case 'trig':
+      return <TrigDerivPanel />
+    case 'power':
+      return <FormulaRefPanel titles={['Power rule', 'Constants']} />
+    case 'product':
+      return <FormulaRefPanel titles={['Product rule']} />
+    case 'quotient':
+      return <FormulaRefPanel titles={['Quotient rule']} />
+    case 'approx':
+      return <ApproxFormulaPanel />
+    case 'exponential':
+      return <FormulaRefPanel titles={['Exponential']} intro="The derivative of e^(ax+b) equals the original, scaled by a." />
+    case 'logarithm':
+      return <FormulaRefPanel titles={['Logarithm']} intro="Inner derivative over the inner expression." />
+    case 'cheatsheet':
+      return <CheatsheetPanel />
   }
 }
 
@@ -908,8 +971,8 @@ const RULES = [
   {
     title: 'Quotient rule',
     formula: 'd/dx (u/v) = (v·u′ − u·v′) / v²',
-    note: 'Watch the minus sign in the numerator.',
-    example: 'd/dx (x/(x+1)) = 1/(x+1)²',
+    note: 'Bottom × deriv of top − top × deriv of bottom. Watch the minus sign.',
+    example: 'd/dx (3x/(x−2)) = −6/(x−2)²',
     color: '#be123c',
   },
   {
@@ -929,9 +992,23 @@ const RULES = [
   {
     title: 'Sine & cosine',
     formula: 'd/dx sin(ax+b) = a·cos(ax+b)\nd/dx cos(ax+b) = −a·sin(ax+b)',
-    note: 'Cos differentiates to minus sine — watch the sign!',
-    example: 'd/dx cos(4x) = −4sin(4x)',
+    note: 'Identify a from the coefficient of x. Cos → minus sine.',
+    example: 'd/dx sin(2x+1) = 2cos(2x+1)',
     color: '#6366f1',
+  },
+  {
+    title: 'Tangent',
+    formula: 'd/dx tan(ax+b) = a·sec²(ax+b)',
+    note: 'Same chain-rule pattern as sin and cos.',
+    example: 'd/dx tan(3x) = 3sec²(3x)',
+    color: '#4f46e5',
+  },
+  {
+    title: 'Trig powers',
+    formula: 'd/dx sinⁿx = n·sinⁿ⁻¹x·cos x',
+    note: 'Rewrite sin²x as (sin x)² — power rule + chain rule.',
+    example: 'd/dx sin³x = 3sin²x cos x',
+    color: '#818cf8',
   },
   {
     title: 'Constants',
@@ -944,95 +1021,174 @@ const RULES = [
 
 type TransType = 'exp' | 'log' | 'trig'
 
-const TRANS_META: Record<
-  TransType,
-  {
-    f: (x: number) => number
-    fp: (x: number) => number
-    fLabel: string
-    fpLabel: string
-    xMin: number
-    xMax: number
-    yMin: number
-    yMax: number
-    rule: string
-    example: string
-  }
-> = {
+const TRANS_META: Record<TransType, { rule: string; example: string }> = {
   exp: {
-    f: (x) => Math.exp(x * 0.5),
-    fp: (x) => 0.5 * Math.exp(x * 0.5),
-    fLabel: 'y = e^0.5x',
-    fpLabel: "y' = 0.5e^0.5x",
-    xMin: -4,
-    xMax: 4,
-    yMin: 0,
-    yMax: 8,
     rule: 'd/dx (e^(ax+b)) = ae^(ax+b)',
     example: 'd/dx (e^(3x−1)) = 3e^(3x−1)',
   },
   log: {
-    f: (x) => Math.log(x),
-    fp: (x) => 1 / x,
-    fLabel: 'y = ln x',
-    fpLabel: "y' = 1/x",
-    xMin: 0.1,
-    xMax: 6,
-    yMin: -2.5,
-    yMax: 2,
     rule: 'd/dx (ln(ax+b)) = a/(ax+b)',
     example: 'd/dx (ln(2x+5)) = 2/(2x+5)',
   },
   trig: {
-    f: (x) => Math.sin(x),
-    fp: (x) => Math.cos(x),
-    fLabel: 'y = sin x',
-    fpLabel: "y' = cos x",
-    xMin: -6.28,
-    xMax: 6.28,
-    yMin: -1.5,
-    yMax: 1.5,
-    rule: 'd/dx sin x = cos x,  d/dx cos x = −sin x',
-    example: 'd/dx cos(4x) = −4sin(4x)',
+    rule: 'd/dx sin(ax+b) = a cos(ax+b)\nd/dx cos(ax+b) = −a sin(ax+b)\nd/dx tan(ax+b) = a sec²(ax+b)',
+    example: 'd/dx sin(2x+1) = 2cos(2x+1)',
   },
 }
 
-function TransGraph({
-  fn,
-  fp,
-  cfg,
-}: {
-  fn: (x: number) => number
-  fp: (x: number) => number
-  cfg: (typeof TRANS_META)[TransType]
-}) {
-  const fPath = useMemo(() => buildPath(fn, cfg.xMin, cfg.xMax, cfg.yMin, cfg.yMax, H), [fn, fp, cfg])
-  const fpPath = useMemo(() => buildPath(fp, cfg.xMin, cfg.xMax, cfg.yMin, cfg.yMax, H_SMALL), [fn, fp, cfg])
+function ChainRulePanel() {
+  const steps = [
+    { n: '1', text: 'Rewrite as [f(x)]ⁿ — here f(x) = ax + b' },
+    { n: '2', text: 'Bring down n and reduce the power by 1' },
+    { n: '3', text: 'Multiply by f′(x) = a' },
+    { n: '4', text: 'Check: inside must be linear for the quick ax + b pattern' },
+  ]
 
   return (
-    <div className="enlight-trans-graphs">
-      <div className="enlight-trans-graph-block">
-        <div className="enlight-trans-graph-block__label">{cfg.fLabel}</div>
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Function graph">
-          <GraphGrid xMin={cfg.xMin} xMax={cfg.xMax} yMin={cfg.yMin} yMax={cfg.yMax} h={H} xTicks={[]} yTicks={[]} />
-          <polyline points={fPath} fill="none" stroke="#0891b2" strokeWidth={2.5} strokeLinecap="round" />
-        </svg>
+    <div className="enlight-diff-rules">
+      <p className="enlight-diff-panel__intro">
+        Mirror of ∫(ax + b)ⁿ integration — differentiate the outer power, then multiply by the derivative of the inside.
+      </p>
+      <div className="enlight-diff-steps">
+        {steps.map((s) => (
+          <div key={s.n} className="enlight-diff-step">
+            <span className="enlight-diff-step__num">{s.n}</span>
+            <span>{s.text}</span>
+          </div>
+        ))}
       </div>
-      <div className="enlight-trans-graph-block">
-        <div className="enlight-trans-graph-block__label">{cfg.fpLabel}</div>
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H_SMALL}`} role="img" aria-label="Derivative graph">
-          <GraphGrid xMin={cfg.xMin} xMax={cfg.xMax} yMin={cfg.yMin} yMax={cfg.yMax} h={H_SMALL} xTicks={[]} yTicks={[]} />
-          <polyline points={fpPath} fill="none" stroke="#7c3aed" strokeWidth={2.5} strokeLinecap="round" />
-        </svg>
+      <div className="enlight-guide-calc" style={{ marginTop: 14 }}>
+        <div>d/dx (2x + 1)⁵ = <strong>10(2x + 1)⁴</strong></div>
+        <div className="enlight-guide-calc__note">5(2x + 1)⁴ × 2 — power rule on the outside, ×2 from the inner derivative.</div>
+      </div>
+      <div className="enlight-diff-rules-grid" style={{ marginTop: 14 }}>
+        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#7c3aed' }}>
+          <div className="enlight-diff-rule-card__title" style={{ color: '#7c3aed' }}>
+            Chain rule
+          </div>
+          <div className="enlight-diff-rule-card__formula">d/dx [f(x)]ⁿ = n[f(x)]ⁿ⁻¹ · f′(x)</div>
+          <div className="enlight-diff-rule-card__example">d/dx (3x − 2)⁻² = −2(3x − 2)⁻³ × 3</div>
+        </div>
       </div>
     </div>
   )
 }
 
+type TrigKind = 'sin' | 'cos' | 'tan'
+
+const TRIG_META: Record<TrigKind, { rule: string; example: string }> = {
+  sin: {
+    rule: 'd/dx sin(ax+b) = a cos(ax+b)',
+    example: 'd/dx sin(2x+1) = 2cos(2x+1)',
+  },
+  cos: {
+    rule: 'd/dx cos(ax+b) = −a sin(ax+b)',
+    example: 'd/dx cos(5x) = −5sin(5x)',
+  },
+  tan: {
+    rule: 'd/dx tan(ax+b) = a sec²(ax+b)',
+    example: 'd/dx tan(3x) = 3sec²(3x)',
+  },
+}
+
+function TrigDerivPanel() {
+  const [kind, setKind] = useState<TrigKind>('sin')
+  const cfg = TRIG_META[kind]
+
+  return (
+    <div className="enlight-diff-trans">
+      <p className="enlight-diff-panel__intro">Trigonometric derivatives only — radians throughout. Watch the minus on cos.</p>
+      <div className="enlight-diff-opt-tabs">
+        {(
+          [
+            ['sin', 'Sine'],
+            ['cos', 'Cosine'],
+            ['tan', 'Tangent'],
+          ] as const
+        ).map(([id, label]) => (
+          <button
+            key={id}
+            type="button"
+            className={`enlight-diff-opt-tabs__btn${kind === id ? ' enlight-diff-opt-tabs__btn--active' : ''}`}
+            onClick={() => setKind(id)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+      <div className="enlight-diff-rules-grid">
+        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#6366f1' }}>
+          <div className="enlight-diff-rule-card__title" style={{ color: '#6366f1' }}>
+            {kind === 'sin' ? 'Sine' : kind === 'cos' ? 'Cosine' : 'Tangent'}
+          </div>
+          <div className="enlight-diff-rule-card__formula">{cfg.rule}</div>
+          <div className="enlight-diff-rule-card__example">e.g. {cfg.example}</div>
+        </div>
+      </div>
+      <div className="enlight-guide-calc" style={{ marginTop: 14 }}>
+        <div className="enlight-guide-calc__note">Toggle <strong>With constant $k$</strong> on formula cards above for $k\sin(ax+b)$ forms.</div>
+      </div>
+    </div>
+  )
+}
+
+function FormulaRefPanel({ titles, intro }: { titles: string[]; intro?: string }) {
+  const items = RULES.filter((r) => titles.includes(r.title))
+
+  return (
+    <div className="enlight-diff-rules">
+      {intro ? <p className="enlight-diff-panel__intro">{intro}</p> : null}
+      <div className="enlight-diff-rules-grid">
+        {items.map((r) => (
+          <div key={r.title} className="enlight-diff-rule-card" style={{ borderLeftColor: r.color }}>
+            <div className="enlight-diff-rule-card__title" style={{ color: r.color }}>
+              {r.title}
+            </div>
+            <div className="enlight-diff-rule-card__formula">{r.formula}</div>
+            {r.note ? <div className="enlight-diff-rule-card__note">{r.note}</div> : null}
+            <div className="enlight-diff-rule-card__example">e.g. {r.example}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function ApproxFormulaPanel() {
+  return (
+    <div className="enlight-diff-rules">
+      <p className="enlight-diff-panel__intro">For a very small change δx, use the gradient at the original point.</p>
+      <div className="enlight-diff-rules-grid">
+        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#0891b2' }}>
+          <div className="enlight-diff-rule-card__title" style={{ color: '#0891b2' }}>
+            Small increments
+          </div>
+          <div className="enlight-diff-rule-card__formula">δy ≈ (dy/dx) × δx</div>
+          <div className="enlight-diff-rule-card__note">Approximate value ≈ y_old + δy</div>
+          <div className="enlight-diff-rule-card__example">e.g. if x increases by 0.01, multiply dy/dx by 0.01</div>
+        </div>
+        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#d97706' }}>
+          <div className="enlight-diff-rule-card__title" style={{ color: '#d97706' }}>
+            Percentage change
+          </div>
+          <div className="enlight-diff-rule-card__formula">If x increases by p%, then δx = (p/100) × x</div>
+          <div className="enlight-diff-rule-card__note">Percentage change in y = (δy/y) × 100</div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function CheatsheetPanel() {
+  return <RulesPanel />
+}
+
 function TranscendentalPanel() {
   const [kind, setKind] = useState<TransType>('exp')
   const cfg = TRANS_META[kind]
-  const transcendentalRules = RULES.filter((r) => ['Exponential', 'Logarithm', 'Sine & cosine'].includes(r.title))
+  const transcendentalRules = RULES.filter((r) =>
+    ['Exponential', 'Logarithm', 'Sine & cosine', 'Tangent', 'Trig powers'].includes(r.title),
+  )
 
   return (
     <div className="enlight-diff-trans">
@@ -1054,7 +1210,6 @@ function TranscendentalPanel() {
           </button>
         ))}
       </div>
-      <TransGraph fn={cfg.f} fp={cfg.fp} cfg={cfg} />
       <div className="enlight-guide-calc">
         <div>
           <strong>Rule:</strong> {cfg.rule}
@@ -1079,7 +1234,7 @@ function TranscendentalPanel() {
 }
 
 function RulesPanel({ filter }: { filter?: 'all' | 'transcendental' }) {
-  const transcendentalTitles = new Set(['Exponential', 'Logarithm', 'Sine & cosine'])
+  const transcendentalTitles = new Set(['Exponential', 'Logarithm', 'Sine & cosine', 'Tangent', 'Trig powers'])
   const items = filter === 'transcendental' ? RULES.filter((r) => transcendentalTitles.has(r.title)) : RULES
 
   return (

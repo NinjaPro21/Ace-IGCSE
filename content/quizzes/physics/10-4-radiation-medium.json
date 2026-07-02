@@ -1,0 +1,77 @@
+{
+  "id": "10-4-radiation-medium",
+  "topicId": "10-4-radiation",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "medium",
+  "title": "Radiation — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-4-radiation-medium-q1",
+      "type": "mcq",
+      "question": "Two identical containers are filled with hot water at $90^\\circ\\text{C}$. Container A is painted dull black and Container B is polished silver. Which container will cool down to room temperature more quickly?",
+      "options": [
+        "Container A, because it is a better emitter of radiation.",
+        "Container B, because it is a better reflector of radiation.",
+        "Container A, because it absorbs 'cold' from the room faster.",
+        "Both will cool at the same rate if they are in the same room."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dull black surfaces are not only good absorbers but also excellent emitters of infrared radiation. \n\n**Common mistake:** Thinking that black only relates to absorption and not emission."
+    },
+    {
+      "id": "10-4-radiation-medium-q2",
+      "type": "mcq",
+      "question": "How does the surface temperature of an object affect its rate of radiation emission?",
+      "options": [
+        "The higher the surface temperature, the higher the rate of emission.",
+        "The higher the surface temperature, the lower the rate of emission.",
+        "Temperature does not affect the rate of radiation emission.",
+        "Emission only occurs once a specific threshold temperature is reached."
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate of emission of radiation depends directly on the surface temperature of the object. \n\n**Common mistake:** Thinking the color is more important than the temperature for the rate of energy loss."
+    },
+    {
+      "id": "10-4-radiation-medium-q3",
+      "type": "mcq",
+      "question": "A student wears dark-colored clothes on a very hot, sunny day. Why do they feel hotter than someone wearing white clothes?",
+      "options": [
+        "Dark colors are better absorbers of infrared radiation from the Sun.",
+        "Dark colors are better conductors of heat from the air.",
+        "Dark colors prevent the body from emitting its own radiation.",
+        "Dark colors create their own thermal energy when exposed to light."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dark-colored clothes absorb a higher percentage of the Sun's incident infrared radiation. \n\n**Common mistake:** Attributing the heat gain to conduction from the air rather than radiation from the Sun."
+    },
+    {
+      "id": "10-4-radiation-medium-q4",
+      "type": "mcq",
+      "question": "Which of the following factors would NOT increase the rate at which an object emits radiation?",
+      "options": [
+        "Decreasing the surface area of the object.",
+        "Increasing the surface temperature of the object.",
+        "Painting the object dull black.",
+        "Increasing the surface area of the object."
+      ],
+      "correctIndex": 0,
+      "explanation": "Decreasing surface area reduces the amount of space available for radiation to escape, thus decreasing the rate. \n\n**Common mistake:** Thinking a smaller, 'concentrated' surface emits faster."
+    },
+    {
+      "id": "10-4-radiation-medium-q5",
+      "type": "mcq",
+      "question": "In an experiment comparing the absorption of heat by two surfaces, two thermometers are placed at equal distances from a heater. One is covered in black foil and the other in silver foil. What will be observed?",
+      "options": [
+        "The black foil thermometer shows a faster temperature rise.",
+        "The silver foil thermometer shows a faster temperature rise.",
+        "Both thermometers will show the same temperature rise.",
+        "The silver foil thermometer will show a temperature decrease."
+      ],
+      "correctIndex": 0,
+      "explanation": "The black surface absorbs more infrared radiation per second than the silver surface, leading to a faster temperature increase. \n\n**Common mistake:** Thinking the silver foil 'focuses' the heat into the thermometer."
+    }
+  ]
+}

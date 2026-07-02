@@ -43,7 +43,7 @@
         "$x \\le 1$ or $x \\ge 3$"
       ],
       "correctIndex": 0,
-      "explanation": "This expands to $-4 \\le x^2 - 5 \\le 4$. Adding $5$ to all components yields $1 \\le x^2 \\le 9$. Taking the square root creates two distinct valid domains: $1 \\le x \\le 3$ for positive values, and $-3 \\le x \\le -1$ for negative values.\n\n**Common mistake:** Students often forget that squaring or square-rooting inequalities involving negative values requires split intervals, leading them to mistakenly choose the continuous interval $-3 \\le x \\le 3$."
+      "explanation": "This expands to $-4 \\le x^2 - 5 \\le 4$. Adding^5 to all components yields $1 \\le x^2 \\le 9$. Taking the square root creates two distinct valid domains: $1 \\le x \\le 3$ for positive values, and $-3 \\le x \\le -1$ for negative values.\n\n**Common mistake:** Students often forget that squaring or square-rooting inequalities involving negative values requires split intervals, leading them to mistakenly choose the continuous interval $-3 \\le x \\le 3$."
     }
   ]
 }

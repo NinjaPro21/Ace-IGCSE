@@ -1,0 +1,77 @@
+{
+  "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-medium",
+  "topicId": "14-3-derivatives-of-trigonometric-functions-harder-topic",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "medium",
+  "title": "Derivatives of Trigonometric Functions — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Differentiate y= x^{2}cosx with respect to x.",
+      "options": [
+        "2x\ncosx−$x^{2}$sinx",
+        "−2x\nsinx",
+        "2x\ncosx+$x^{2}$sinx",
+        "$x^{2}$sinx−2x\ncosx"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the product rule u$\\frac{dv}{dx} + v\n\n$$\\frac{du}{dx}$ with u= x^{2} and v= \ncosx:\\frac{dy}{dx}=x^{2}(-\\sin x)$\nsinx)+\ncosx(2x)=2x\ncosx−$x^{2}$sinx.\n\n**Common mistake:** Option B is a common error where the student simply multiplies the derivatives of the two parts together."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Find the derivative of y=\n\\sin^{3}$x.",
+      "options": [
+        "3\n\\sin^{2}$x\ncosx",
+        "3\n\\sin^{2}$x",
+        "−3\n\\sin^{2}$x\ncosx",
+        "3\n\\cos^{2}$x"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the chain rule on (\nsinx$)^{3}$: 3(\nsinx$)^{2}$times$\\frac{d}{dx}($\nsinx)=3\n\\sin^{2}$x\ncosx.\n\n**Common mistake:** Option B results from only applying the power rule and forgetting to multiply by the derivative of the inner function."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Find the gradient of the curve y=\ntan(2x) at the point where x= \\frac{\\pi}{8}.",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}=2$\n\\sec^{2}$(2x). At x= \\frac{\\pi}{8}, 2x= \\frac{\\pi}{4}.\n\\sec^{2}$($\\frac{\\pi}{4}$)=2. Thus 2\ntimes2=4.\n\n**Common mistake:** Option B occurs if the student forgets the multiplier 2 from the chain rule derivative of the argument."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "Differentiate y= \\frac{\\sin x}{x} with respect to x.",
+      "options": [
+        "$\\frac{x\\cos x - \\sin x}{x^2}$\n2",
+        "$\\cos x$",
+        "$\\frac{\\sin x - x\\cos x}{x^2}$\n2",
+        "$\\frac{x\\cos x + \\sin x}{x^2}$\n2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the quotient rule $\\frac{vu' - uv'}{v^2}$: $\\frac{x(\\cos x) - \\sin x(1)}{x^2} = \\frac{x\\cos x - \\sin x}{x^2}$.\n\n**Common mistake:** Option B is a conceptual error where students differentiate the numerator and denominator independently."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Find the equation of the tangent to the curve y=\ncos(2x) at the point where x= \\frac{\\pi}{4}.",
+      "options": [
+        "y=−2x+$\\frac{\\pi}{2}$",
+        "y=2x−$\\frac{\\pi}{2}$",
+        "y=−2x",
+        "y=0"
+      ],
+      "correctIndex": 0,
+      "explanation": "At x= \\frac{\\pi}{4},y=\ncos($\\frac{\\pi}{2}$)=0.$\\frac{dy}{dx}=-2$\nsin(2x). At x= \\frac{\\pi}{4},m=−2\nsin($\\frac{\\pi}{2}$)=−2. y−0=−2(x−$\\frac{\\pi}{4}$) \\implies y=−2x+$\\frac{\\pi}{2}$.\n\n**Common mistake:** Option D occurs if the student confuses the y-value of the point with the gradient of the tangent."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "10-2-conduction-hard",
+  "topicId": "10-2-conduction",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "hard",
+  "title": "Conduction — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-2-conduction-hard-q1",
+      "type": "mcq",
+      "question": "In a vacuum flask, which feature is specifically designed to stop thermal energy transfer by both conduction and convection through the sides?",
+      "options": [
+        "The vacuum between the double glass walls",
+        "The silvered internal surfaces of the glass",
+        "The plastic stopper at the top",
+        "The outer plastic casing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vacuum lacks particles, which are necessary for both conduction and convection to occur. Therefore, the vacuum layer effectively blocks both processes. \n\n**Common mistake:** Thinking the silvered surfaces block conduction; they are meant to reduce radiation."
+    },
+    {
+      "id": "10-2-conduction-hard-q2",
+      "type": "mcq",
+      "question": "Double-glazed windows consist of two panes of glass with a layer of still air trapped between them. Why does this design reduce heat loss?",
+      "options": [
+        "Air is a very poor conductor and trapping it prevents convection",
+        "The double glass panes reflect infrared radiation back into the room",
+        "The two panes of glass are thicker and have higher heat capacity",
+        "The air between the panes creates a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air is a gas and therefore a poor conductor. By trapping the air, convection currents are prevented, making the still air an excellent insulator. \n\n**Common mistake:** Thinking air 'reflects' heat like a mirror."
+    },
+    {
+      "id": "10-2-conduction-hard-q3",
+      "type": "mcq",
+      "question": "A student places an ice cube on a block of copper and another on a block of polystyrene. Both blocks are at room temperature. Why does the ice on the copper melt much faster?",
+      "options": [
+        "Copper conducts thermal energy from the surroundings to the ice more rapidly",
+        "Copper is naturally at a higher temperature than polystyrene",
+        "Copper has a much lower density, allowing heat to flow through it easily",
+        "Polystyrene generates 'cold' which keeps the ice frozen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Copper is an excellent conductor. It rapidly transfers thermal energy from its bulk (and the room) to the ice cube. Polystyrene is an insulator and transfers energy very slowly. \n\n**Common mistake:** Believing the metal 'is colder' or 'is hotter' than the room."
+    },
+    {
+      "id": "10-2-conduction-hard-q4",
+      "type": "mcq",
+      "question": "Why is it incorrect to say that a space blanket 'warms' a person up?",
+      "options": [
+        "It only reduces the rate of energy loss; it does not produce energy",
+        "It reflects the person's coldness back to their body",
+        "It is made of metal which is a conductor and thus always feels cold",
+        "Blankets only work if they are made of thick wool"
+      ],
+      "correctIndex": 0,
+      "explanation": "A blanket is an insulator/reflector. It reduces the rate at which body heat is lost to the surroundings (via conduction, convection, and radiation) rather than 'creating' heat. \n\n**Common mistake:** Confusing the reduction of heat loss with the production of thermal energy."
+    },
+    {
+      "id": "10-2-conduction-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following describes the function of cork supports in a vacuum flask?",
+      "options": [
+        "They are poor conductors used to support the flask with minimal heat transfer",
+        "They are used to absorb any moisture that leaks from the stopper",
+        "They reflect radiation back into the vacuum space",
+        "They create the vacuum by sealing the glass walls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cork is a bad thermal conductor (insulator). It is used to support the inner glass container while minimizing the amount of heat that can conduct through the supports. \n\n**Common mistake:** Thinking cork is used for its 'softness' rather than its thermal properties."
+    }
+  ]
+}

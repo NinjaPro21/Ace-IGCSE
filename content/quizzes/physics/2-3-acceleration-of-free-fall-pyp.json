@@ -1,0 +1,77 @@
+{
+  "id": "2-3-acceleration-of-free-fall-pyp",
+  "topicId": "2-3-acceleration-of-free-fall",
+  "chapterId": "ch02-motion",
+  "difficulty": "pyp",
+  "title": "Acceleration of Free Fall — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-3-acceleration-of-free-fall-pyp-q1",
+      "type": "mcq",
+      "question": "A skydiver falls through the air. Initially, his speed increases. What happens to his acceleration as he falls?",
+      "options": [
+        "It decreases until it becomes zero",
+        "It remains constant at $9.8\\text{ m/s}^2$",
+        "It increases as his speed increases",
+        "It remains constant at $0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air resistance increases with speed, reducing the resultant force and decreasing acceleration until terminal velocity is reached ($a = 0$). \n\n**Common mistake:** Confusing speed and acceleration; speed increases while acceleration decreases."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows a speed–time graph for an object falling in a uniform gravitational field. Which section of the graph shows terminal velocity?",
+      "options": [
+        "The horizontal section",
+        "The straight diagonal section starting from the origin",
+        "The curved section between the diagonal and horizontal",
+        "The area under the whole graph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terminal velocity occurs when the speed is constant, shown as a horizontal line on a speed–time graph. \n\n**Common mistake:** Selecting the diagonal section, which represents constant acceleration."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-pyp-q3",
+      "type": "mcq",
+      "question": "Which statement describes the motion of an object falling in a vacuum near the Earth's surface?",
+      "options": [
+        "It falls with a constant acceleration of $9.8\\text{ m/s}^2$",
+        "It falls with a constant speed of $9.8\\text{ m/s}$",
+        "Its acceleration decreases as its speed increases",
+        "Heavier objects fall with greater acceleration than lighter objects"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, there is no air resistance to decrease acceleration, so it remains constant at $g$. \n\n**Common mistake:** Thinking terminal velocity applies in a vacuum."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-pyp-q4",
+      "type": "mcq",
+      "question": "A ball is thrown vertically upwards. At its highest point, what are its speed and acceleration? (Take $g = 10\\text{ m/s}^2$ and ignore air resistance)",
+      "options": [
+        "Speed: $0\\text{ m/s}$; Acceleration: $10\\text{ m/s}^2$ downwards",
+        "Speed: $0\\text{ m/s}$; Acceleration: $0\\text{ m/s}^2$",
+        "Speed: $10\\text{ m/s}$; Acceleration: $10\\text{ m/s}^2$ downwards",
+        "Speed: $0\\text{ m/s}$; Acceleration: $10\\text{ m/s}^2$ upwards"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the peak, the speed is momentarily zero. However, gravity ($g$) still acts on the ball, providing a constant acceleration of $10\\text{ m/s}^2$ downwards. \n\n**Common mistake:** Thinking acceleration is zero when speed is zero."
+    },
+    {
+      "id": "2-3-acceleration-of-free-fall-pyp-q5",
+      "type": "mcq",
+      "question": "An object falling through air reaches terminal velocity. Which statement about the forces is correct?",
+      "options": [
+        "The weight is equal to the air resistance",
+        "The weight is greater than the air resistance",
+        "The air resistance is greater than the weight",
+        "There are no forces acting on the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terminal velocity is reached when the upward force of air resistance balances the downward force of weight, resulting in zero acceleration. \n\n**Common mistake:** Thinking air resistance must be greater than weight for the speed to stop increasing."
+    }
+  ]
+}

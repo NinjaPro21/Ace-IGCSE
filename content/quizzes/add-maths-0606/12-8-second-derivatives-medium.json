@@ -1,0 +1,77 @@
+{
+  "id": "12-8-second-derivatives-medium",
+  "topicId": "12-8-second-derivatives",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "medium",
+  "title": "Second Derivatives — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-8-second-derivatives-medium-q1",
+      "type": "mcq",
+      "question": "Find $f''(2)$ if $f(x) = x^4 - 5x$.",
+      "options": [
+        "48",
+        "32",
+        "12",
+        "27"
+      ],
+      "correctIndex": 0,
+      "explanation": "f'(x) = 4x³ - 5. f''(x) = 12x^2. f''(2) = 12(4) = 48.\n\n**Common mistake:** Incorrectly calculating 12x^2 as 24x or failing to substitute the value 2 correctly."
+    },
+    {
+      "id": "12-8-second-derivatives-medium-q2",
+      "type": "mcq",
+      "question": "If $d^2y/dx^2 = 12x - 4$, find the value of $x$ for which the second derivative is zero.",
+      "options": [
+        "1/3",
+        "3",
+        "4",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "12x - 4 = 0 => 12x = 4 => x = 4/12 = 1/3.\n\n**Common mistake:** Arithmetic errors, such as 4/12 = 3."
+    },
+    {
+      "id": "12-8-second-derivatives-medium-q3",
+      "type": "mcq",
+      "question": "A curve has a stationary point at $x = 3$. If $d^2y/dx^2 = 2x - 10$ at this point, identify the nature of the stationary point.",
+      "options": [
+        "Maximum",
+        "Minimum",
+        "Point of Inflection",
+        "Cannot be determined"
+      ],
+      "correctIndex": 0,
+      "explanation": "At x=3, d^2 y/dx^2 = 2(3) - 10 = -4. Since the second derivative is negative, the point is a maximum.\n\n**Common mistake:** Thinking a negative result implies a minimum point."
+    },
+    {
+      "id": "12-8-second-derivatives-medium-q4",
+      "type": "mcq",
+      "question": "Differentiate $y = (3x + 1)^4$ twice with respect to x.",
+      "options": [
+        "108(3x + 1)$^2$",
+        "12(3x + 1)$^2$",
+        "36(3x + 1)$^2$",
+        "4(3x + 1)³"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 4(3x+1)³ × 3 = 12(3x+1)³. d^2 y/dx^2 = 36(3x+1)$^2$ × 3 = 108(3x+1)$^2$.\n\n**Common mistake:** Forgetting the chain rule coefficient (3) during the second differentiation step."
+    },
+    {
+      "id": "12-8-second-derivatives-medium-q5",
+      "type": "mcq",
+      "question": "Given $y = x + 1/x$2$d^2y/dx^2$.",
+      "options": [
+        "2 / x³",
+        "1 - 1/x^2",
+        "-1 / x^2",
+        "-2 / x³"
+      ],
+      "correctIndex": 0,
+      "explanation": "y = x + x^{-1}2\\frac{dy}{dx}$= 1 - x⁻². d$2$y/dx$2$= 2x⁻³ = 2/x^3.$\n\n**Common mistake:** Sign errors when differentiating negative exponents, leading to -2/x³."
+    }
+  ]
+}

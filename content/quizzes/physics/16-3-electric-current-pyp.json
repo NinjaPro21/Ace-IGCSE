@@ -1,0 +1,77 @@
+{
+  "id": "16-3-electric-current-pyp",
+  "topicId": "16-3-electric-current",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "pyp",
+  "title": "Electric Current — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-3-electric-current-pyp-q1",
+      "type": "mcq",
+      "question": "Which equation correctly shows the relationship between electric current $I$, charge $Q$ and time $t$?",
+      "options": [
+        "$I = Q / t$",
+        "$I = Q u00d7 t$",
+        "$Q = I / t$",
+        "$t = I u00d7 Q$"
+      ],
+      "correctIndex": 0,
+      "explanation": "As defined in the syllabus map and subtopic notes, the relationship is $I = Q / t$. \n\n**Common mistake:** Selecting $I = Q u00d7 t$ (Option B)."
+    },
+    {
+      "id": "16-3-electric-current-pyp-q2",
+      "type": "mcq",
+      "question": "A student wants to measure the current in a circuit. How should they connect the ammeter?",
+      "options": [
+        "In series with the component",
+        "In parallel with the component",
+        "Between the positive terminal and the earth",
+        "Across the terminals of the battery only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on standard circuit diagrams in the text, an ammeter must be connected in series so that all the current flows through it. \n\n**Common mistake:** Connecting it in parallel (the method for voltmeters)."
+    },
+    {
+      "id": "16-3-electric-current-pyp-q3",
+      "type": "mcq",
+      "question": "In a laboratory experiment, $2.0 \\times 10^{20}$ electrons pass a point in a wire in $1.0\\text{ minute}$. Given the charge of an electron is $1.6 \\times 10^{-19}\\text{ C}$, what is the current?",
+      "options": [
+        "$0.53\\text{ A}$",
+        "$32\\text{ A}$",
+        "$1.25\\text{ A}$",
+        "$0.032\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Question 4(b). Total charge $Q = (2.0 \\times 10^{20}) \\times (1.6 \\times 10^{-19}) = 32\\text{ C}$. Current $I = 32\\text{ C} / 60\\text{ s} u2248 0.53\\text{ A}$. \n\n**Common mistake:** Using 1 minute as the divisor instead of 60 seconds."
+    },
+    {
+      "id": "16-3-electric-current-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows a circuit with a battery and a lamp. Which arrow correctly represents the direction of the flow of electrons?nn[Diagram: Battery with (+) and (-) terminals, arrows A and B around the loop]",
+      "options": [
+        "Arrow moving from negative to positive terminal",
+        "Arrow moving from positive to negative terminal",
+        "Arrow pointing into the positive terminal only",
+        "Arrow pointing out of both terminals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Free electrons are negative and are repelled by the negative terminal and attracted to the positive terminal. \n\n**Common mistake:** Selecting the positive-to-negative direction (conventional current)."
+    },
+    {
+      "id": "16-3-electric-current-pyp-q5",
+      "type": "mcq",
+      "question": "According to the student book, approximately how many electrons are required to make up $1.0\\text{ Coulomb}$ of charge?",
+      "options": [
+        "$6.25 u00d7 10^{18}$",
+        "$1.60 u00d7 10^{-19}$",
+        "$3.00 u00d7 10^{8}$",
+        "$6.00 u00d7 10^{23}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a fact stated in the 'Let's Practise' answers for section 16.3. \n\n**Common mistake:** Choosing the value of the charge on a single electron ($1.6 u00d7 10^{-19}$)."
+    }
+  ]
+}

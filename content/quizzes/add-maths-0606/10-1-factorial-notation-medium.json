@@ -1,0 +1,77 @@
+{
+  "id": "10-1-factorial-notation-medium",
+  "topicId": "10-1-factorial-notation",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "medium",
+  "title": "Factorial Notation — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-factorial-notation-medium-q1",
+      "type": "mcq",
+      "question": "Find the value of n if n! = 720.",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "1! = 1, 2! = 2, 3! = 6, 4! = 24, 5! = 120, 6! = 720.\n\n**Common mistake:** Guessing 5 or 10 without performing sequential multiplication."
+    },
+    {
+      "id": "10-1-factorial-notation-medium-q2",
+      "type": "mcq",
+      "question": "Simplify the algebraic expression (n + 2)! / n!.",
+      "options": [
+        "n^2 + 3n + 2",
+        "n + 2",
+        "2",
+        "n^2 + 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 2)! / n! = [(n + 2)(n + 1)n!] / n! = (n + 2)(n + 1) = n^2 + 3n + 2.\n\n**Common mistake:** Simplifying the $fraction$ to just (n + 2) or n^2 + 2."
+    },
+    {
+      "id": "10-1-factorial-notation-medium-q3",
+      "type": "mcq",
+      "question": "Evaluate the numerical expression 10! / (8! × 2!).",
+      "options": [
+        "45",
+        "90",
+        "5",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "10! / (8! × 2!) = (10 × 9 × 8!) / (8! × 2) = (10 × 9) / 2 = 90 / 2 = 45.\n\n**Common mistake:** Forgetting to divide by 2! (which is 2), resulting in 90."
+    },
+    {
+      "id": "10-1-factorial-notation-medium-q4",
+      "type": "mcq",
+      "question": "Solve for x: (x + 1)! = 6x!.",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "(x + 1)x! = 6x!. Dividing both sides by x! gives x + 1 = 6, so x = 5.\n\n**Common mistake:** Thinking x = 6 by directly matching the coefficient with the argument."
+    },
+    {
+      "id": "10-1-factorial-notation-medium-q5",
+      "type": "mcq",
+      "question": "Simplify n! / (n - 1)! + (n + 1)! / n!.",
+      "options": [
+        "2n + 1",
+        "2n",
+        "n^2 + n",
+        "n + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "n! / (n - 1)! = n and (n + 1)! / n! = n + 1. The sum is n + (n + 1) = 2n + 1.\n\n**Common mistake:** Arithmetic slips when simplifying each $fraction$ individually."
+    }
+  ]
+}

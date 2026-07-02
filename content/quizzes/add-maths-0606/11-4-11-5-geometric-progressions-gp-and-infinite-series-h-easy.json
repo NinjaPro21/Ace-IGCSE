@@ -1,0 +1,77 @@
+{
+  "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-easy",
+  "topicId": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h",
+  "chapterId": "ch11-series",
+  "difficulty": "easy",
+  "title": "Geometric Progressions (GP) and Infinite Series — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-easy-q1",
+      "type": "mcq",
+      "question": "The first term of a geometric progression is^5 and the common ratio is^2. Find the^6 th term.",
+      "options": [
+        "$160$",
+        "$320$",
+        "$64$",
+        "$80$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $u_n = ar^{n-1}$, we have $u_6 = 5(2)^{6-1} = 5(2^5) = 5 \\times 32 = 160$.\n\n**Common mistake:** Option B results from using $n$2$n-1$ as the power: $5(2^6) = 320$."
+    },
+    {
+      "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-easy-q2",
+      "type": "mcq",
+      "question": "Find the common ratio $r$2$12$ and the second term is^4.",
+      "options": [
+        "$1/3$",
+        "$3$",
+        "$-8$",
+        "$1/4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common ratio $r$2$r = 4/12 = 1/3$.\n\n**Common mistake:** Option B is the result of dividing the first term by the second term, confusing the order of the ratio."
+    },
+    {
+      "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-easy-q3",
+      "type": "mcq",
+      "question": "Calculate the sum to infinity of a geometric series with first term^10 and common ratio $0.6$.",
+      "options": [
+        "$25$",
+        "$16.67$",
+        "$6$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $S_{\\infty} = a/(1-r)$, we get $S_{\\infty} = 10 / (1 - 0.6) = 10 / 0.4 = 25$.\n\n**Common mistake:** Option C is simply the product $ar$, which does not represent a sum of any kind."
+    },
+    {
+      "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-easy-q4",
+      "type": "mcq",
+      "question": "In a geometric progression, the second term is^10 and the common ratio is^5. Find the first term $a$.",
+      "options": [
+        "$2$",
+        "$50$",
+        "$5$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $u_2 = ar$2$10 = a(5) \\implies a = 2$.\n\n**Common mistake:** Option B occurs if the student multiplies the second term by the ratio instead of dividing by it."
+    },
+    {
+      "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-easy-q5",
+      "type": "mcq",
+      "question": "For which of the following common ratios $r$ does a geometric series converge?",
+      "options": [
+        "$r = 0.8$",
+        "$r = 1.5$",
+        "$r = -1.2$",
+        "$r = -2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A geometric series converges if and only if the magnitude of the common ratio is less than^1 ($|r| < 1$).\n\n**Common mistake:** Students often forget that the condition applies to the absolute value, mistakenly thinking $r = -1.2$ converges because it is negative."
+    }
+  ]
+}

@@ -12,9 +12,9 @@
       "question": "The line $y = mx - 5$ is a tangent to the curve $y = x² - 2x - 1$. Find the possible values of the gradient $m$.",
       "options": [
         "$2$ and $-6$",
-        "$-2$ and $6$",
+        "$-2$ and^6",
         "$4$ and $-4$",
-        "$0$ and $4$"
+        "$0$ and^4"
       ],
       "correctIndex": 0,
       "explanation": "Equate equations: $x² - 2x - 1 = mx - 5 \\implies x² - (2 + m)x + 4 = 0$. Since the line is a tangent, $\\Delta = 0 \\implies [-(2 + m)]² - 4(1)(4) = 0 \\implies (2 + m)² = 16 \\implies 2 + m = \\pm 4$, so $m = 2$ or $m = -6$.\n\n**Common mistake:** Students often expand $(2+m)²$ incorrectly or forget that moving $-mx$ makes the linear coefficient $-(2+m)$, leading to incorrect expressions like $(2-m)² = 16$.",
@@ -23,9 +23,9 @@
           "question": "The line $y = mx - 4$ is a tangent to the curve $y = x² - 2x$. Find the possible values of the gradient $m$.",
           "options": [
             "$2$ and $-6$",
-            "$-2$ and $6$",
+            "$-2$ and^6",
             "$4$ and $-4$",
-            "$0$ and $4$"
+            "$0$ and^4"
           ],
           "correctIndex": 0,
           "explanation": "$x² - 2x = mx - 4 \\implies x² - (2+m)x + 4 = 0$. $\\Delta = 0$: $(2+m)² = 16$, so $m = 2$ or $m = -6$."
@@ -34,9 +34,9 @@
           "question": "The line $y = mx - 9$ is a tangent to the curve $y = x² - 4x$. Find the possible values of the gradient $m$.",
           "options": [
             "$2$ and $-10$",
-            "$-2$ and $10$",
+            "$-2$ and^10",
             "$4$ and $-4$",
-            "$0$ and $8$"
+            "$0$ and^8"
           ],
           "correctIndex": 0,
           "explanation": "$x² - 4x = mx - 9 \\implies x² - (4+m)x + 9 = 0$. $\\Delta = 0$: $(4+m)² = 36$, so $m = 2$ or $m = -10$."
@@ -46,8 +46,8 @@
           "options": [
             "$4$ and $-4$",
             "$2$ and $-6$",
-            "$-2$ and $6$",
-            "$0$ and $4$"
+            "$-2$ and^6",
+            "$0$ and^4"
           ],
           "correctIndex": 0,
           "explanation": "$x² - 5 = mx - 1 \\implies x² - mx - 4 = 0$. $\\Delta = 0$: $m² = 16$, so $m = 4$ or $m = -4$."
@@ -56,7 +56,7 @@
           "question": "The line $y = mx - 9$ is a tangent to the curve $y = x² - 6x$. Find the possible values of the gradient $m$.",
           "options": [
             "$0$ and $-12$",
-            "$0$ and $12$",
+            "$0$ and^12",
             "$4$ and $-4$",
             "$2$ and $-6$"
           ],

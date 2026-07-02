@@ -1,0 +1,77 @@
+{
+  "id": "14-1-what-is-sound-easy",
+  "topicId": "14-1-what-is-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "easy",
+  "title": "What Is Sound? — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-what-is-sound-easy-q1",
+      "type": "mcq",
+      "question": "How is sound produced by a source?",
+      "options": [
+        "By a vibrating source",
+        "By a stationary source",
+        "By heating a medium",
+        "By reflecting light"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, sound is a form of energy produced by vibrating sources placed in a medium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-easy-q2",
+      "type": "mcq",
+      "question": "What is the typical range of frequencies audible to a healthy human ear?",
+      "options": [
+        "$20\\text{ Hz}$ to $20000\\text{ Hz}$",
+        "$0\\text{ Hz}$ to $20\\text{ Hz}$",
+        "$20000\\text{ Hz}$ to $2\\text{ MHz}$",
+        "$100\\text{ Hz}$ to $1\\text{ kHz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For humans, the audible sound range is defined as being from $20\\text{ Hz}$ to $20000\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-easy-q3",
+      "type": "mcq",
+      "question": "Which type of wave is a sound wave?",
+      "options": [
+        "Longitudinal",
+        "Transverse",
+        "Electromagnetic",
+        "Stationary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves are longitudinal waves because the direction of vibration of the particles is parallel to the direction of the wave travel.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-easy-q4",
+      "type": "mcq",
+      "question": "What is a region in a sound wave where the air pressure is higher than the surrounding air pressure called?",
+      "options": [
+        "A compression",
+        "A rarefaction",
+        "An amplitude",
+        "A crest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compressions are regions where air pressure is higher than the surrounding air pressure. Rarefactions are regions where it is lower.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-easy-q5",
+      "type": "mcq",
+      "question": "What is the SI unit for the frequency of a sound wave?",
+      "options": [
+        "Hertz (Hz)",
+        "Joule (J)",
+        "Metre (m)",
+        "Second (s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz (Hz), which represents the number of complete waves or vibrations per second.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

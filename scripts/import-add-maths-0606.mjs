@@ -6,6 +6,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { execSync } from 'child_process'
+import { prepareMathContent } from '../src/lib/mathMarkdown.ts'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
@@ -327,10 +328,10 @@ while ((m = questionRegex.exec(quizFullText)) !== null) {
   list.push({
     id: `${ch.id}-q${list.length + 1}`,
     type: 'mcq',
-    question: stem.replace(/\\"/g, '"').replace(/\\n/g, '\n'),
-    options,
+    question: prepareMathContent(stem.replace(/\\"/g, '"').replace(/\\n/g, '\n'), 'quiz'),
+    options: options.map((o) => prepareMathContent(o, 'quiz')),
     correctIndex: parseInt(correctIndex, 10),
-    ...(expl ? { explanation: expl } : {}),
+    ...(expl ? { explanation: prepareMathContent(expl, 'quiz') } : {}),
   })
 }
 
@@ -346,56 +347,96 @@ function writeMd(rel, data) {
   fs.writeFileSync(p, data, 'utf8')
 }
 
-writeJson(`subjects/${subjectId}.json`, {
-  id: subjectId,
-  name: 'Additional Mathematics',
-  code: '0606',
-  syllabus: 'IGCSE ADDITIONAL MATHEMATICS 0606',
-  description:
-    'Notes, chapter quizzes, and mastery progression — study topic by topic, then test yourself on the full chapter.',
-  chapterIds: chapters.map((c) => c.id),
-})
+function readExistingTopic(topicId) {
+  const p = path.join(contentRoot, `topics/${subjectId}/${topicId}.json`)
+  if (!fs.existsSync(p)) return null
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'))
+  } catch {
+    return null
+  }
+}
 
-for (const ch of chapters) {
-  const hasQuizzes = Boolean(questionsByChapter[ch.id])
-  writeJson(`chapters/${subjectId}/${ch.id}.json`, {
-    id: ch.id,
-    subjectId,
-    number: ch.number,
-    title: ch.title,
-    badge: `CH.${ch.number} ${ch.title.toUpperCase().slice(0, 14)}`,
-    summary: ch.topics.map((t) => t.title.split('(')[0].trim()).join(' · ').slice(0, 120),
-    topicIds: ch.topics.map((t) => t.id),
-    accentColor: ACCENTS[(ch.number - 1) % ACCENTS.length],
-    hasChapterQuiz: hasQuizzes,
+function readExistingChapter(chId) {
+  const p = path.join(contentRoot, `chapters/${subjectId}/${chId}.json`)
+  if (!fs.existsSync(p)) return null
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'))
+  } catch {
+    return null
+  }
+}
+
+const notesOnly = process.argv.includes('--notes-only')
+
+if (!notesOnly) {
+  writeJson(`subjects/${subjectId}.json`, {
+    id: subjectId,
+    name: 'Additional Mathematics',
+    code: '0606',
+    syllabus: 'IGCSE ADDITIONAL MATHEMATICS 0606',
+    description:
+      'Notes, chapter quizzes, and mastery progression — study topic by topic, then test yourself on the full chapter.',
+    chapterIds: chapters.map((c) => c.id),
   })
 
-  for (const topic of ch.topics) {
-    const quizIds =
-      topic.isChapterQuizAnchor && hasQuizzes
-        ? {
-            easy: `${ch.id}-easy`,
-            medium: `${ch.id}-medium`,
-            hard: `${ch.id}-hard`,
-            pyp: `${ch.id}-pyp`,
-          }
-        : undefined
-
-    writeJson(`topics/${subjectId}/${topic.id}.json`, {
-      id: topic.id,
+  for (const ch of chapters) {
+    const hasQuizzes = Boolean(questionsByChapter[ch.id])
+    const existingCh = readExistingChapter(ch.id)
+    writeJson(`chapters/${subjectId}/${ch.id}.json`, {
+      ...(existingCh ?? {}),
+      id: ch.id,
       subjectId,
-      chapterId: ch.id,
-      title: topic.title,
-      subtitle: topic.subtitle,
-      notesFile: topic.notesFile,
-      ...(topic.isChapterQuizAnchor ? { isChapterQuizAnchor: true } : {}),
-      ...(quizIds ? { quizIds } : {}),
+      number: ch.number,
+      title: ch.title,
+      badge: existingCh?.badge ?? `CH.${ch.number} ${ch.title.toUpperCase().slice(0, 14)}`,
+      summary:
+        existingCh?.summary ??
+        ch.topics.map((t) => t.title.split('(')[0].trim()).join(' · ').slice(0, 120),
+      topicIds: ch.topics.map((t) => t.id),
+      accentColor: existingCh?.accentColor ?? ACCENTS[(ch.number - 1) % ACCENTS.length],
+      hasChapterQuiz: existingCh?.hasChapterQuiz ?? hasQuizzes,
     })
+
+    for (const topic of ch.topics) {
+      const existing = readExistingTopic(topic.id)
+      const quizIds =
+        existing?.quizIds ??
+        (topic.isChapterQuizAnchor && hasQuizzes
+          ? {
+              easy: `${ch.id}-easy`,
+              medium: `${ch.id}-medium`,
+              hard: `${ch.id}-hard`,
+              pyp: `${ch.id}-pyp`,
+            }
+          : undefined)
+
+      writeJson(`topics/${subjectId}/${topic.id}.json`, {
+        ...(existing ?? {}),
+        id: topic.id,
+        subjectId,
+        chapterId: ch.id,
+        title: topic.title,
+        subtitle: existing?.subtitle ?? topic.subtitle,
+        notesFile: topic.notesFile,
+        ...(existing?.lessonMeta ? { lessonMeta: existing.lessonMeta } : {}),
+        ...(existing?.explorerId ? { explorerId: existing.explorerId } : {}),
+        ...(existing?.explorerPanels ? { explorerPanels: existing.explorerPanels } : {}),
+        ...(existing?.lessonNav ? { lessonNav: existing.lessonNav } : {}),
+        ...(topic.isChapterQuizAnchor ? { isChapterQuizAnchor: true } : {}),
+        ...(quizIds ? { quizIds } : {}),
+      })
+    }
   }
 }
 
 for (const section of noteSections) {
   writeMd(`notes/${subjectId}/${section.topicId}.md`, sectionToMarkdown(section))
+}
+
+if (notesOnly) {
+  console.log('Notes refreshed:', noteSections.length, 'sections')
+  process.exit(0)
 }
 
 for (const [chId, tiers] of Object.entries(questionsByChapter)) {
@@ -417,6 +458,8 @@ for (const [chId, tiers] of Object.entries(questionsByChapter)) {
 console.log('Chapters:', chapters.length)
 console.log('Note sections:', noteSections.length)
 console.log('Chapters with quizzes:', Object.keys(questionsByChapter).length)
+console.log('NOTE: Chapter quiz files bundle all section questions. For per-section quizzes run:')
+console.log('  node scripts/reimportTopicQuizzes.mjs')
 for (const [chId, tiers] of Object.entries(questionsByChapter)) {
   console.log(`  ${chId}:`, Object.entries(tiers).map(([d, q]) => `${d}=${q.length}`).join(', '))
 }

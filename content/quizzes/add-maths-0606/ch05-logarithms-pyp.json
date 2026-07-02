@@ -17,7 +17,7 @@
         " $x = 2$ or $x = 3$ "
       ],
       "correctIndex": 0,
-      "explanation": "Combine the left side using the product rule: $\\log_a((x + 2)(x - 3)) = \\log_a(6) \\implies x^2 - x - 6 = 6 \\implies x^2 - x - 12 = 0$ . Factorizing gives $(x - 4)(x + 3) = 0 \\implies x = 4$ or $x = -3$ . The solution $x = -3$ is extraneous because it produces negative arguments. Thus, $x = 4$ only.\n\n**Common mistake:** Students frequently make a sign calculation error when moving $6$ over, or they forget to eliminate the negative root $x = -3$ entirely."
+      "explanation": "Combine the left side using the product rule: $\\log_a((x + 2)(x - 3)) = \\log_a(6) \\implies x^2 - x - 6 = 6 \\implies x^2 - x - 12 = 0$ . Factorizing gives $(x - 4)(x + 3) = 0 \\implies x = 4$ or $x = -3$ . The solution $x = -3$ is extraneous because it produces negative arguments. Thus, $x = 4$ only.\n\n**Common mistake:** Students frequently make a sign calculation error when moving^6 over, or they forget to eliminate the negative root $x = -3$ entirely."
     },
     {
       "id": "ch05-logarithms-q2",
@@ -69,7 +69,7 @@
         " $x < 2$ "
       ],
       "correctIndex": 0,
-      "explanation": "Recognize that $0.216 = 0.6^3$ . The inequality is $0.6^x < 0.6^3$ . Since the base $0.6$ is between $0$ and $1$ , the exponential function is strictly decreasing, which reverses the inequality sign, yielding $x > 3$ .\n\n**Common mistake:** Students regularly forget to reverse the inequality sign when dealing with a fractional base between $0$ and $1$ , which leads them to select option B."
+      "explanation": "Recognize that $0.216 = 0.6^3$ . The inequality is $0.6^x < 0.6^3$ . Since the base $0.6$ is between^0 and^1 , the exponential function is strictly decreasing, which reverses the inequality sign, yielding $x > 3$ .\n\n**Common mistake:** Students regularly forget to reverse the inequality sign when dealing with a fractional base between^0 and^1 , which leads them to select option B."
     }
   ]
 }

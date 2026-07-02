@@ -1,0 +1,77 @@
+{
+  "id": "20-4-half-life-pyp",
+  "topicId": "20-4-half-life",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "pyp",
+  "title": "Half-life — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-4-half-life-pyp-q1",
+      "type": "mcq",
+      "question": "The graph shows the decay curve of a radioactive isotope. n[Graph: Count rate vs Time. (0, 600), (2, 300), (4, 150), (6, 75)]nWhat is the half-life of the isotope?",
+      "options": [
+        "$2\\text{ hours}$",
+        "$4\\text{ hours}$",
+        "$6\\text{ hours}$",
+        "$300\\text{ hours}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Looking at the graph, the initial count rate of $600$ falls to $300$ (half) at $t = 2\\text{ hours}$. This is the half-life.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement about radioactive decay is correct?",
+      "options": [
+        "It is impossible to predict which specific nucleus will decay next",
+        "Heating a sample increases its half-life",
+        "The half-life depends on the chemical compound the isotope is in",
+        "The count rate from a source is always perfectly constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radioactive decay is a random and spontaneous process. We cannot predict which individual nucleus will decay.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-pyp-q3",
+      "type": "mcq",
+      "question": "A radioactive source is used to monitor the thickness of paper in a factory. The source should have a long half-life. Why?",
+      "options": [
+        "So that the source does not need to be replaced frequently",
+        "So that the radiation can penetrate the paper more easily",
+        "So that the count rate is very high",
+        "So that it is safer for the workers to handle"
+      ],
+      "correctIndex": 0,
+      "explanation": "A long half-life ensures the activity remains relatively constant over time, providing consistent readings for the thickness gauge without needing frequent recalibration or replacement.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-pyp-q4",
+      "type": "mcq",
+      "question": "A sample of isotope X has a half-life of $15\\text{ hours}$. The initial count rate is $1200\\text{ counts/min}$. What will be the approximate count rate at the end of $45\\text{ hours}$?",
+      "options": [
+        "$150\\text{ counts/min}$",
+        "$300\\text{ counts/min}$",
+        "$400\\text{ counts/min}$",
+        "$600\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Let's Practise 20.4 q1: $45\\text{ hours}$ is 3 half-lives ($45 / 15 = 3$). $1200 rightarrow 600 rightarrow 300 rightarrow 150$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-4-half-life-pyp-q5",
+      "type": "mcq",
+      "question": "The background count in a lab is $22\\text{ counts/min}$. A detector is used to measure a source, and it shows a reading of $142\\text{ counts/min}$. What is the corrected count rate of the source?",
+      "options": [
+        "$120\\text{ counts/min}$",
+        "$164\\text{ counts/min}$",
+        "$71\\text{ counts/min}$",
+        "$142\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corrected count rate = Measured count rate - Background count rate. $142 - 22 = 120$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "14-4-tree-diagrams-easy",
+  "topicId": "14-4-tree-diagrams",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Tree Diagrams — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-tree-diagrams-easy-q1",
+      "type": "mcq",
+      "question": "A fair coin is tossed twice. What is the probability of obtaining two heads?",
+      "options": [
+        "0.25",
+        "0.5",
+        "0.75",
+        "0.125"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the tosses are independent, multiply the probability of heads for each toss: $0.5 \\times 0.5 = 0.25$.\n\n**Common mistake:** Students often add the probabilities ($0.5 + 0.5 = 1$) instead of multiplying them."
+    },
+    {
+      "id": "14-4-tree-diagrams-easy-q2",
+      "type": "mcq",
+      "question": "On a probability tree diagram, what is the sum of the probabilities on any set of branches coming from a single point?",
+      "options": [
+        "1",
+        "0.5",
+        "100",
+        "The total frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sum of the probabilities on any set of branches leading from a single point must always equal 1.\n\n**Common mistake:** Students may think the sum can exceed 1 if there are many branches."
+    },
+    {
+      "id": "14-4-tree-diagrams-easy-q3",
+      "type": "mcq",
+      "question": "A bag contains 7 black discs and 3 white discs. A disc is chosen, replaced, and then a second is chosen. What is the probability that both are white?",
+      "options": [
+        "9/100",
+        "3/10",
+        "6/10",
+        "9/10"
+      ],
+      "correctIndex": 0,
+      "explanation": "With replacement, $P(W) = 3/10 each time$2$2P(W, W) = 3/10 \\times 3/10 = 9/100$.\n\n**Common mistake:** Failing to square the probability and just providing the single-event probability."
+    },
+    {
+      "id": "14-4-tree-diagrams-easy-q4",
+      "type": "mcq",
+      "question": "In a 2-stage tree diagram for 'Rain' (0.3) and 'No Rain' (0.7), what is the probability of the sequence (Rain, No Rain)?",
+      "options": [
+        "0.21",
+        "0.49",
+        "0.09",
+        "1.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply along the path: $0.3 \\times 0.7 = 0.21$.\n\n**Common mistake:** Multiplying the wrong branch values or adding them."
+    },
+    {
+      "id": "14-4-tree-diagrams-easy-q5",
+      "type": "mcq",
+      "question": "A spinner numbered 1-4 is spun twice. How many total end-outcomes (leaf nodes) will the tree diagram have?",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of outcomes is the product of the possibilities at each stage: $4 \\times 4 = 16$.\n\n**Common mistake:** Adding the possibilities ($4+4=8$) instead of multiplying."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "ch17-electrical-circuits-and-electrical-safety-pyp",
+  "topicId": "ch17-electrical-circuits-and-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "pyp",
+  "title": "Chapter 17: Electrical Circuits and Electrical Safety — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q1",
+      "type": "mcq",
+      "question": "A resistor converts $350\\text{ J}$ of electrical energy when a p.d. of $7\\text{ V}$ is applied. What is the amount of charge that flows through it?",
+      "options": [
+        "$50\\text{ C}$",
+        "$0.02\\text{ C}$",
+        "$350\\text{ C}$",
+        "$2450\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 1. Using $Q = W / V$, $Q = 350 / 7 = 50\\text{ C}$. \n\n**Common mistake:** Multiplying $350$ by $7$ instead of dividing."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q2",
+      "type": "mcq",
+      "question": "The reading on an ammeter in a simple circuit is $1.0\\text{ A}$. Which of the following sets of voltmeter reading and resistance is consistent with this current?",
+      "options": [
+        "Voltmeter: $10\\text{ V}$; Resistance: $10\\text{ }Omega$",
+        "Voltmeter: $1\\text{ V}$; Resistance: $2\\text{ }Omega$",
+        "Voltmeter: $4\\text{ V}$; Resistance: $0.25\\text{ }Omega$",
+        "Voltmeter: $12\\text{ V}$; Resistance: $6\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 3. According to $V = IR$, if $I = 1.0\\text{ A}$, then $V$ must equal $R$. Only Choice A ($10 = 1 \\times 10$) satisfies this. \n\n**Common mistake:** Selecting Choice D because $12$ and $6$ are common numbers in electricity problems."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q3",
+      "type": "mcq",
+      "question": "A $V-I$ graph for two conductors, A and B, shows that both lines are straight and pass through the origin. Conductor A has a steeper gradient (larger $V$ for the same $I$) than Conductor B. What can be deduced?",
+      "options": [
+        "Conductor A has a higher resistance than Conductor B.",
+        "Conductor B has a higher resistance than Conductor A.",
+        "Both conductors have the same resistance.",
+        "Neither conductor obeys Ohm's Law."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 6. Resistance $R$ is the ratio $V/I$. A steeper gradient on a $V-I$ graph means a higher ratio and thus higher resistance. \n\n**Common mistake:** Swapping the relationship if the graph is $I-V$ instead of $V-I$."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q4",
+      "type": "mcq",
+      "question": "Which circuit set-up cannot be used to determine the resistance of a resistor R?",
+      "options": [
+        "A voltmeter connected in series with the resistor",
+        "An ammeter in series and a voltmeter in parallel",
+        "A digital multimeter set to the ohmmeter function",
+        "Measuring the p.d. and current separately and calculating the ratio"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 2. A voltmeter has very high resistance; if placed in series, it will block almost all current, making it impossible to determine the resistor's normal properties. \n\n**Common mistake:** Thinking voltmeters can be placed anywhere in a circuit."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q5",
+      "type": "mcq",
+      "question": "A student measures the current in a wire to be $0.53\\text{ A}$ over a period of $1.0\\text{ minute}$. Given the charge of one electron is $1.6 \\times 10^{-19}\\text{ C}$, how many electrons passed through the wire?",
+      "options": [
+        "$2.0 \\times 10^{20}$",
+        "$32$",
+        "$3.3 \\times 10^{18}$",
+        "$6.25 \\times 10^{18}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 4(b). $Q = I \\times t = 0.53 \\times 60 \\approx 32\\text{ C}$. Number of electrons $= 32 / (1.6 \\times 10^{-19}) = 2.0 \\times 10^{20}$. \n\n**Common mistake:** Using $1.0$ second as the time instead of $60$ seconds."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q6",
+      "type": "mcq",
+      "question": "A diagram shows three identical resistors connected in series to a $6\\text{ V}$ battery. What is the potential difference between the start of the first resistor and the end of the second resistor?",
+      "options": [
+        "$4\\text{ V}$",
+        "$2\\text{ V}$",
+        "$3\\text{ V}$",
+        "$6\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Let's Review Section A, Question 1. The total $6\\text{ V}$ is shared equally among three resistors ($2\\text{ V}$ each). Across two resistors, the p.d. is $2 + 2 = 4\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q7",
+      "type": "mcq",
+      "question": "Which row correctly describes the current and the potential difference in a series circuit with two different resistors?",
+      "options": [
+        "Current: Same at all points; P.d.: Shared between resistors",
+        "Current: Shared between resistors; P.d.: Same across each resistor",
+        "Current: Same at all points; P.d.: Same across each resistor",
+        "Current: Shared between resistors; P.d.: Shared between resistors"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in the sources, the current in a series circuit is constant at all points, while the total potential difference is equal to the sum of individual p.d.s.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q8",
+      "type": "mcq",
+      "question": "The p.d. across a $4\\text{ }Omega$ resistor connected in series is $2\\text{ V}$. If the total potential difference for the whole circuit is $10\\text{ V}$, what is the resistance of the rest of the circuit components combined?",
+      "options": [
+        "$16\\text{ }Omega$",
+        "$8\\text{ }Omega$",
+        "$20\\text{ }Omega$",
+        "$4\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find current: $I = V / R = 2 / 4 = 0.5\\text{ A}$. In series, current is the same. The rest of the circuit has p.d. $= 10 - 2 = 8\\text{ V}$. Resistance $= V / I = 8 / 0.5 = 16\\text{ }Omega$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q9",
+      "type": "mcq",
+      "question": "Three ammeters are placed at different points in a series circuit containing two non-identical resistors. Ammeter 1 reads $0.4\\text{ A}$. What do Ammeter 2 and Ammeter 3 read?",
+      "options": [
+        "Both read $0.4\\text{ A}$",
+        "Ammeter 2 reads $0.2\\text{ A}$ and Ammeter 3 reads $0.2\\text{ A}$",
+        "Ammeter 2 reads $0.4\\text{ A}$ and Ammeter 3 reads $0.8\\text{ A}$",
+        "The readings depend on the values of the resistors"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the principle of series circuits, the current is constant throughout the single loop. All ammeters in the same series circuit will provide the same reading.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q10",
+      "type": "mcq",
+      "question": "Which graph correctly shows the relationship between total resistance $R_T$ and the number $n$ of identical $5\\text{ }Omega$ resistors added in series?",
+      "options": [
+        "A straight line with a positive gradient starting from the origin",
+        "A straight horizontal line",
+        "A curve that gets steeper as $n$ increases",
+        "A straight line with a negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $R_T = n \\times R_{individual}$, total resistance is directly proportional to the number of identical resistors. This is represented by a straight line through the origin.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q11",
+      "type": "mcq",
+      "question": "The diagram shows a parallel circuit with three resistors ($4\\text{ }Omega, 6\\text{ }Omega, 3\\text{ }Omega$). The reading on ammeter $A_2$ is $1\\text{ A}$ and on $A_4$ (main circuit) is $3\\text{ A}$. What are the readings on $A_1$ and $A_3$?nn[Reference: Figure 17.50]",
+      "options": [
+        "$A_1: 0\\text{ A}; A_3: 2\\text{ A}$",
+        "$A_1: 3\\text{ A}; A_3: 1\\text{ A}$",
+        "$A_1: 1.5\\text{ A}; A_3: 0.5\\text{ A}$",
+        "$A_1: 2\\text{ A}; A_3: 1\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q2. The voltage across the $6\\text{ }Omega$ resistor is $1\\text{ A} \\times 6\\text{ }Omega = 6\\text{ V}$. Current $A_3 = 6\\text{ V} / 3\\text{ }Omega = 2\\text{ A}$. Since $A_4$ is $3\\text{ A}$ and $A_2+A_3 = 1+2=3$, the current through $A_1$ must be $0\\text{ A}$. \n\n**Common mistake:** Choosing Choice B, assuming currents are shared equally."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q12",
+      "type": "mcq",
+      "question": "A resistor $R_1$ is connected to a $6\\text{ V}$ source, and the ammeter reads $2\\text{ A}$. A second resistor $R_2$ is then connected in parallel with $R_1$, and the ammeter reading increases to $3\\text{ A}$. What is the resistance of $R_2$?",
+      "options": [
+        "$6\\text{ }Omega$",
+        "$3\\text{ }Omega$",
+        "$2\\text{ }Omega$",
+        "$9\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Q3. The p.d. across $R_2$ is $6\\text{ V}$. The current through $R_2$ is $3\\text{ A} - 2\\text{ A} = 1\\text{ A}$. Resistance $R_2 = 6\\text{ V} / 1\\text{ A} = 6\\text{ }Omega$. \n\n**Common mistake:** Using the total current ($3\\text{ A}$) to find $R_2$ directly ($6/3=2$)."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q13",
+      "type": "mcq",
+      "question": "Which of the following combinations of resistors ($1\\text{ }Omega, 2\\text{ }Omega, 3\\text{ }Omega, 4\\text{ }Omega$) has the lowest combined resistance?",
+      "options": [
+        "All resistors connected in parallel",
+        "All resistors connected in series",
+        "The $4\\text{ }Omega$ resistor alone",
+        "A parallel combination of $3\\text{ }Omega$ and $4\\text{ }Omega$ connected in series with $1\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q4. The combined resistance of resistors in parallel is always less than the smallest individual resistor in the group. \n\n**Common mistake:** Thinking a complex series-parallel combination could be lower."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q14",
+      "type": "mcq",
+      "question": "In a circuit with multiple parallel resistors of equal resistance $R$, which statement correctly relates the source current $I$ and branch currents $I_2$ and $I_3$?nn[Reference: Figure 17.53]",
+      "options": [
+        "$I = I_1 = I_4 = I_2 + I_3$",
+        "$I = I_1 = I_2 = I_3 + I_4$",
+        "$I > I_1 > I_4$ and $I_2 = I_1$",
+        "$I > I_1 > I_4$ and $I_4 = I_2 + I_3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Q8. Current $I$ entering the parallel section is the same as current $I_4$ leaving it, and it is the sum of the currents in the individual branches ($I_2$ and $I_3$). \n\n**Common mistake:** Thinking current magnitude decreases after every junction."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q15",
+      "type": "mcq",
+      "question": "A $12\\text{ V}$ power source is connected to a parallel combination of a $3\\text{ }Omega$ and a $6\\text{ }Omega$ resistor. What is the current flowing through the $6\\text{ }Omega$ resistor?",
+      "options": [
+        "$2.0\\text{ A}$",
+        "$4.0\\text{ A}$",
+        "$6.0\\text{ A}$",
+        "$1.2\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q1(d). Current $I = V / R = 12 / 6 = 2.0\\text{ A}$. \n\n**Common mistake:** Calculating total resistance ($2\\text{ }Omega$) and finding total current ($6\\text{ A}$) instead of branch current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q16",
+      "type": "mcq",
+      "question": "The diagram shows a potential divider circuit used to detect the level of sunlight. The resistance of the LDR is $1\\text{ M}Omega$ in the dark and $100\\text{ }Omega$ in bright sunlight. n[Circuit: $12\\text{ V}$ source, $500\\text{ k}Omega$ fixed resistor $R_1$, LDR $R_2$, Voltmeter across LDR]nWhat is the approximate voltmeter reading in bright sunlight?",
+      "options": [
+        "$0\\text{ V}$",
+        "$4\\text{ V}$",
+        "$8\\text{ V}$",
+        "$12\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In bright sunlight, LDR resistance is only $100\\text{ }Omega$. This is negligible compared to $500000\\text{ }Omega$. Therefore, the LDR takes almost none of the $12\\text{ V}$ supply, and the reading is approximately $0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q17",
+      "type": "mcq",
+      "question": "Which of the following describes the relationship between the potential differences and resistances in a series circuit containing two resistors $R_1$ and $R_2$?",
+      "options": [
+        "$\\frac{R_1}{R_2} = \\frac{V_1}{V_2}$",
+        "$R_1 \\times V_1 = R_2 \\times V_2$",
+        "$V_1 + R_1 = V_2 + R_2$",
+        "$\\frac{R_1}{V_2} = \\frac{R_2}{V_1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in the potential divider map, in a series circuit, the ratio of the resistances is equal to the ratio of the potential differences across them: $R_1 / R_2 = V_1 / V_2$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q18",
+      "type": "mcq",
+      "question": "A diagram shows three identical resistors connected in series to a $6\\text{ V}$ battery. What is the voltage reading of a voltmeter connected across two of the resistors?",
+      "options": [
+        "$4\\text{ V}$",
+        "$2\\text{ V}$",
+        "$3\\text{ V}$",
+        "$6\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the resistors are identical, each takes $1/3$ of the total voltage ($2\\text{ V}$ each). A voltmeter across two resistors will read $2 + 2 = 4\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q19",
+      "type": "mcq",
+      "question": "A student connects a thermistor in a potential divider circuit. The resistance of this thermistor decreases with an increase in its temperature. What happens to the voltmeter reading across the thermistor when it is heated?",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It stays the same",
+        "It increases and then decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "When heated, the thermistor's resistance decreases. In a series potential divider, a component with lower resistance takes a smaller share of the total voltage, so the voltmeter reading across it decreases.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q20",
+      "type": "mcq",
+      "question": "A potentiometer with a maximum resistance of $100\\text{ }Omega$ is connected to a $6\\text{ V}$ supply. The sliding contact is moved from one end (Point A) to the other end (Point B). What is the range of the output voltage $V_{out}$?",
+      "options": [
+        "$0\\text{ V to } 6\\text{ V}$",
+        "$3\\text{ V to } 6\\text{ V}$",
+        "$0\\text{ V to } 3\\text{ V}$",
+        "$6\\text{ V at all points}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Worked Example 17F, at Point A the resistance across the output is zero ($V_{out} = 0\\text{ V}$). At Point B, the output is across the full resistance ($V_{out} = 6\\text{ V}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q21",
+      "type": "mcq",
+      "question": "An appliance has a normal operating current of $7\\text{ A}$. Which fuse rating should be used to protect the appliance in the event of a fault?",
+      "options": [
+        "$13\\text{ A}$",
+        "$5\\text{ A}$",
+        "$3\\text{ A}$",
+        "$1\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 5. The fuse must be greater than the operating current ($7\\text{ A}$), so $13\\text{ A}$ is the correct choice. \n\n**Common mistake:** Choosing a rating lower than the current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q22",
+      "type": "mcq",
+      "question": "Which safety precaution primarily reduces the risk of an electrical fire if a device becomes faulty?",
+      "options": [
+        "Trip switch",
+        "Earth wire",
+        "Insulation",
+        "Two-pin plug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Question 6. A trip switch (or fuse) cuts off excessive current, preventing wires from overheating and catching fire. \n\n**Common mistake:** Selecting earth wire, which mainly prevents electric shock rather than fires."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q23",
+      "type": "mcq",
+      "question": "According to the 'Let’s Practise' section, why do some appliances use a three-pin plug while others use a two-pin plug?",
+      "options": [
+        "Three-pin plugs are used for appliances requiring an earth wire; two-pin plugs are for double-insulated appliances.",
+        "Two-pin plugs are used for high-voltage industrial machinery.",
+        "Three-pin plugs are only used for alternating current (a.c.) devices.",
+        "Two-pin plugs include an internal battery for emergency power."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Practise 17.5, Question 3. Double-insulated (plastic case) devices don't need earthing, while metal-cased ones do. \n\n**Common mistake:** Thinking the number of pins is related to the voltage level."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q24",
+      "type": "mcq",
+      "question": "An electrician uses a voltmeter to test a faulty circuit. The table shows the readings. What is the most likely reason for the $0\\text{ V}$ reading between points B and C?nn| Points | P.d. across points |n| :--- | :--- |n| A and B | $40\\text{ V}$ |n| B and C | $0\\text{ V}$ |n| D and E | $100\\text{ V}$ |",
+      "options": [
+        "There is no resistance between points B and C.",
+        "The circuit is broken (open) between B and C.",
+        "The fuse has blown at point B.",
+        "The potential difference is being absorbed by the earth wire."
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 4. According to $V = IR$, if resistance is zero, the potential difference across that section will also be zero. \n\n**Common mistake:** Thinking a $0\\text{ V}$ reading means the 'electricity is off' entirely."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-pyp-q25",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the function of each wire in a mains supply?nn| | Live Wire | Neutral Wire | Earth Wire |n| :--- | :--- | :--- | :--- |n| A | Carries high potential | Completes the circuit | Safety path |n| B | Safety path | Completes the circuit | Carries high potential |n| C | Completes the circuit | Carries high potential | Safety path |n| D | Carries high potential | Safety path | Completes the circuit |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "The live wire provides the alternating potential, the neutral wire completes the loop, and the earth wire is for safety. \n\n**Common mistake:** Swapping the functions of the neutral and earth wires."
+    }
+  ]
+}

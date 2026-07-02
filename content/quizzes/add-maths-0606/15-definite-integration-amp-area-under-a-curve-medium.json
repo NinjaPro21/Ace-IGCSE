@@ -1,0 +1,155 @@
+{
+  "id": "15-definite-integration-amp-area-under-a-curve-medium",
+  "topicId": "15-definite-integration-amp-area-under-a-curve",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "medium",
+  "title": "Definite Integration & Area Under a Curve — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q1",
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^{\\pi/6}\n\n\\sec^{2} x\n\\\\\\\\,dx.",
+      "options": [
+        "0.577",
+        "1",
+        "0.5",
+        "0.866"
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral of\n\\sec^{2} x is\ntanx. Evaluating [\ntanx]\n0\npi/6\n\n=\ntan(\npi/6)−\ntan0=1/\\sqrt3\napprox0.577.\n\n**Common mistake:** Option D is the value of\ncos(\npi/6) rather than its tangent derivative."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q2",
+      "type": "mcq",
+      "question": "Find the exact value of\n of $\\int_0^{4} \\sqrt2x+1\n\\\\\\\\,dx.",
+      "options": [
+        "8.67",
+        "13",
+        "26",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating yields [$\\frac{1}{3$(2x+$1^{1}$$}$.5\n]\n$0^{4}$\n=1/3(27)−1/3(1)=9−0.33=8.67.\n\n**Common mistake:** Option B results if the student fails to divide by the coefficient of x (2) from the inner function."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\int_0^1\n\ne^{3x}\n\\\\\\\\,dx. in terms of e.",
+      "options": [
+        "$\\frac{1}{3}(e^{3}-1)$",
+        "$e^{3}$−1",
+        "$\\frac{1}{3e}$\n3",
+        "3e\n3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The integral is [$\\frac{1}{3e}$\n3x\n]\n$0^{1}$\n= \\frac{1}{3e^{3}$-}$\n\n$\\frac{1}{3$ e^{0}$=}\n$$\n$\\frac{1}{3}(e^{3}$-1}$).\n$$\n\n**Common mistake:** Option B occurs if the student forgets the \\frac{1}{a} multiplier 1/a or the lower bound evaluation."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q4",
+      "type": "mcq",
+      "question": "Find the area of the region bounded by $y = x^2 - 4$ and the x-axis.",
+      "options": [
+        "32/3",
+        "16/3",
+        "8",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve crosses the x-axis at x = ±2. Integral from -2 to 2 of (x^2 - 4) is [x³/3 - 4x] = (8/3 - 8) - (-8/3 + 8) = -32/3. Geometric area is 32/3.\n\n**Common mistake:** Integrating from 0 to 2 only, which gives half the area (16/3)."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q5",
+      "type": "mcq",
+      "question": "Calculate the area of the region bounded by $y = 1/x$2$x = 1$ and $x = e^2$.",
+      "options": [
+        "2",
+        "e^2",
+        "1",
+        "ln 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "[ln x] from 1 to e^2 = ln(e^2) - ln(1) = 2 - 0 = 2.\n\n**Common mistake:** Incorrectly evaluating ln(e^2) as e or ln(1) as 1."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q6",
+      "type": "mcq",
+      "question": "Find the area bounded by $y = \\sin x$2$0 \\le x \\le \\pi$.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "π"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integral of sin x is -cos x. [-cos x] from 0 to π = -cos(π) - (-cos 0) = -(-1) + 1 = 2.\n\n**Common mistake:** Integrating from 0 to 2π, which would result in 0 due to the positive and negative areas cancelling."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q7",
+      "type": "mcq",
+      "question": "Find the area of the region bounded by the curves $y = x^2$ and $y = x$.",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersection at x=0, 1. Area = ∫ from 0 to 1 (x - x^2) dx = [x^2/2 - x³/3] = 1/2 - 1/3 = 1/6.\n\n**Common mistake:** Subtracting the functions in the wrong order (x^2 - x), leading to a negative result."
+    },
+    {
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q8",
+      "type": "mcq",
+      "question": "Determine the area of the region enclosed by $y = \\sqrt{x}$ and $y = x^2$.",
+      "options": [
+        "1/3",
+        "2/3",
+        "1/6",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersection at x=0, 1. Area = ∫ from 0 to 1 (x^{0.5} - x^2) dx = [x^{1.5}/1.5 - x³/3] = 2/3 - 1/3 = 1/3.\n\n**Common mistake:** Arithmetic errors when dealing with the \\frac{1}{a} power 1.5 (3/2)."
+    },
+    {
+      "type": "mcq",
+      "question": "Find the area of the region bounded by $y = x^2 - 4$ and the $x$-axis.",
+      "options": [
+        "10.67",
+        "5.33",
+        "16",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersects $x$2$x = \\pm 2$. $\\int_{-2}^2 (x^2-4) dx = [x^3/3 - 4x]_{-2}^2 = (8/3-8) - (-8/3+8) = -10.67$. Area is 10.67.\n\n**Common mistake:** Integrating from 0 to 4 instead of between the roots.",
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q9"
+    },
+    {
+      "type": "mcq",
+      "question": "Calculate the area of the region enclosed by $y = 2x$2$y = x^2$ for $x \\ge 0$.",
+      "options": [
+        "4/3",
+        "2/3",
+        "1",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intersects at $x^2=2x \\Rightarrow x=0, 2$. Area $= \\int_0^2 (2x-x^2) dx = [x^2 - x^3/3]_0^2 = 4 - 8/3 = 4/3$.\n\n**Common mistake:** Integrating from 0 to 1 or using $x^2 - 2x$, leading to a sign error.",
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q10"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the area under the curve $y = \\cos x$2$x=0$ to $x=\\pi/2$.",
+      "options": [
+        "1",
+        "0",
+        "pi/2",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$[\\sin x]_0^{\\pi/2} = \\sin(\\pi/2) - \\sin 0 = 1$.\n\n**Common mistake:** Evaluating $\\cos(\\pi/2)$ and $\\cos(0)$ instead of the integral result.",
+      "id": "15-definite-integration-amp-area-under-a-curve-medium-q11"
+    }
+  ]
+}

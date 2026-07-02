@@ -10,6 +10,7 @@ import {
 import type { Difficulty } from '@/lib/contentTypes'
 import { trackChapterNotesComplete, trackLevelUp, trackQuizComplete } from '@/lib/analytics'
 import { masteryEngine, type MasteryLevel, type UserProgress } from './MasteryEngine'
+import type { QuizMistakeLogResult, RecordQuizFinishInput } from '@/features/quiz/quizAttemptTypes'
 import { NOTES_MIN_SECONDS } from './levelSystem'
 import type { Achievement, ActivityStats, StreakDay } from './progressStats'
 import type { LevelProfile } from './levelSystem'
@@ -31,6 +32,8 @@ interface MasteryContextValue {
   shouldShowChapterPopout: (chapterId: string) => boolean
   markChapterPopoutSeen: (chapterId: string) => void
   canTakeChapterQuiz: (chapterId: string, difficulty: Difficulty) => boolean
+  getTopicQuizLevel: (topicId: string) => MasteryLevel
+  canTakeTopicQuiz: (topicId: string, difficulty: Difficulty) => boolean
   markNotesRead: (topicId: string, chapterId: string) => boolean
   recordChapterQuizResult: (
     chapterId: string,
@@ -38,6 +41,14 @@ interface MasteryContextValue {
     scorePercent: number,
     passed: boolean,
   ) => number
+  recordTopicQuizResult: (
+    topicId: string,
+    chapterId: string,
+    difficulty: Difficulty,
+    scorePercent: number,
+    passed: boolean,
+  ) => number
+  recordQuizFinish: (input: RecordQuizFinishInput) => QuizMistakeLogResult
   setDisplayName: (name: string) => void
   getTopicNotesReadMap: () => Record<string, boolean>
   refresh: () => void
@@ -54,6 +65,13 @@ export function MasteryProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     return masteryEngine.subscribe(refresh)
+  }, [refresh])
+
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      if (masteryEngine.checkStreakExpiry()) refresh()
+    }, 60000)
+    return () => window.clearInterval(id)
   }, [refresh])
 
   useEffect(() => {
@@ -85,6 +103,11 @@ export function MasteryProvider({ children }: { children: ReactNode }) {
     (id: string, d: Difficulty) => masteryEngine.canTakeChapterQuiz(id, d),
     [],
   )
+  const canTakeTopicQuiz = useCallback(
+    (id: string, d: Difficulty) => masteryEngine.canTakeTopicQuiz(id, d),
+    [],
+  )
+  const getTopicQuizLevel = useCallback((id: string) => masteryEngine.getTopicQuizLevel(id), [])
   const markNotesRead = useCallback(
     (topicId: string, chapterId: string) => {
       const chapterJustCompleted = masteryEngine.markNotesRead(topicId, chapterId)
@@ -98,11 +121,35 @@ export function MasteryProvider({ children }: { children: ReactNode }) {
     (id: string, d: Difficulty, score: number, passed: boolean) => {
       const xpGain = masteryEngine.recordChapterQuizResult(id, d, score, passed)
       trackQuizComplete(id, d, score, passed)
+      if (passed) {
+        window.dispatchEvent(
+          new CustomEvent('enlight-quiz-pass', { detail: { tier: d, xp: xpGain } }),
+        )
+      }
       masteryEngine.notify()
       return xpGain
     },
     [],
   )
+  const recordTopicQuizResult = useCallback(
+    (topicId: string, chapterId: string, d: Difficulty, score: number, passed: boolean) => {
+      const xpGain = masteryEngine.recordTopicQuizResult(topicId, chapterId, d, score, passed)
+      trackQuizComplete(chapterId, d, score, passed)
+      if (passed) {
+        window.dispatchEvent(
+          new CustomEvent('enlight-quiz-pass', { detail: { tier: d, xp: xpGain } }),
+        )
+      }
+      masteryEngine.notify()
+      return xpGain
+    },
+    [],
+  )
+  const recordQuizFinish = useCallback((input: RecordQuizFinishInput) => {
+    const result = masteryEngine.recordQuizFinish(input)
+    masteryEngine.notify()
+    return result
+  }, [])
   const setDisplayName = useCallback((name: string) => {
     masteryEngine.setDisplayName(name)
     masteryEngine.notify()
@@ -130,13 +177,17 @@ export function MasteryProvider({ children }: { children: ReactNode }) {
       shouldShowChapterPopout,
       markChapterPopoutSeen,
       canTakeChapterQuiz,
+      getTopicQuizLevel,
+      canTakeTopicQuiz,
       markNotesRead,
       recordChapterQuizResult,
+      recordTopicQuizResult,
+      recordQuizFinish,
       setDisplayName,
       getTopicNotesReadMap,
       refresh,
     }),
-    [progress, isNotesRead, getTopicTimeSpent, hasTopicStudyTime, getChapterQuizLevel, areChapterNotesComplete, shouldShowChapterPopout, markChapterPopoutSeen, canTakeChapterQuiz, markNotesRead, recordChapterQuizResult, setDisplayName, getTopicNotesReadMap, refresh],
+    [progress, isNotesRead, getTopicTimeSpent, hasTopicStudyTime, getChapterQuizLevel, areChapterNotesComplete, shouldShowChapterPopout, markChapterPopoutSeen, canTakeChapterQuiz, getTopicQuizLevel, canTakeTopicQuiz, markNotesRead, recordChapterQuizResult, recordTopicQuizResult, recordQuizFinish, setDisplayName, getTopicNotesReadMap, refresh],
   )
 
   return <MasteryContext.Provider value={value}>{children}</MasteryContext.Provider>

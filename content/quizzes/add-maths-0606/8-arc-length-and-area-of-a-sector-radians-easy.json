@@ -1,0 +1,345 @@
+{
+  "id": "8-arc-length-and-area-of-a-sector-radians-easy",
+  "topicId": "8-arc-length-and-area-of-a-sector-radians",
+  "chapterId": "ch08-circular-measure",
+  "difficulty": "easy",
+  "title": "Arc Length and Area of a Sector (Radians) — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q1",
+      "type": "mcq",
+      "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+      "options": [
+        "$\\frac{5\\pi}{6}$",
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{5\\pi}{3}$",
+        "$\\frac{3\\pi}{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $150 \\times \\frac{\\pi}{180} = \\frac{15}{18}\\pi = \\frac{5}{6}\\pi$.\n\n**Common mistake:** A student might multiply by $\\frac{180}{\\pi}$ instead, leading to an extremely large value, or simplify the $fraction$ $15/18$ incorrectly.",
+      "variants": [
+        {
+          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{4}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{1}{6}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "\\pi",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
+        }
+      ]
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q2",
+      "type": "mcq",
+      "question": "Express the angle $\\frac{4\\pi}{3}$ radians in degrees.",
+      "options": [
+        "$240^\\circ$",
+        "$120^\\circ$",
+        "$210^\\circ$",
+        "$300^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To convert radians to degrees, replace $\\pi$2$180^\\circ$2$\\frac{4 \\times 180}{3} = 4 \\times 60 = 240^\\circ$.\n\n**Common mistake:** Students may divide 180 by 4 or miscalculate the multiplication $4 \\times 60$."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q3",
+      "type": "mcq",
+      "question": "Define the term '1 radian'.",
+      "options": [
+        "The angle subtended at the centre of a circle by an arc equal in length to the radius.",
+        "The angle subtended at the centre of a circle by a chord equal in length to the radius.",
+        "The angle formed by half of a semi-circle.",
+        "The ratio of the circumference to the diameter of a circle."
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, one radian is the angle subtended at the centre of a circle by an arc whose length is equal to the radius of the circle.\n\n**Common mistake:** Confusing the arc length with a chord length is a common conceptual error in the definition."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q4",
+      "type": "mcq",
+      "question": "Find the degree measure of $\\frac{\\pi}{12}$ radians.",
+      "options": [
+        "$15^\\circ$",
+        "$12^\\circ$",
+        "$30^\\circ$",
+        "$24^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert by substituting $180^\\circ$2$\\pi$2$180 / 12 = 15^\\circ$.\n\n**Common mistake:** A student might divide 360 by 12 or simply guess a small angle value."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q5",
+      "type": "mcq",
+      "question": "Convert $315^\\circ$ to radians.",
+      "options": [
+        "$\\frac{7\\pi}{4}$",
+        "$\\frac{5\\pi}{4}$",
+        "$\\frac{3\\pi}{2}$",
+        "$\\frac{11\\pi}{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$315 \\times \\frac{\\pi}{180} = \\frac{63}{36}\\pi = \\frac{7}{4}\\pi$.\n\n**Common mistake:** Simplifying the $fraction$ $315/180$ incorrectly or confusing it with $225^\\circ$2$5\\pi/4$).",
+      "variants": [
+        {
+          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{4}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{1}{6}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "\\pi",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
+        }
+      ]
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q6",
+      "type": "mcq",
+      "question": "In the formula $s = r\\theta$2$\\theta$ be measured in?",
+      "options": [
+        "Radians",
+        "Degrees",
+        "Gradients",
+        "Minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The simple relationship $s = r\\theta$ is only valid when the angle is measured in radians.\n\n**Common mistake:** Using degrees directly in the formula without converting to radians first."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q7",
+      "type": "mcq",
+      "question": "Find the length of an arc of a circle with radius 6 cm that subtends an angle of 1.5 radians at the centre.",
+      "options": [
+        "9 cm",
+        "4 cm",
+        "12 cm",
+        "7.5 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $s = r\\theta$2$s = 6 \\times 1.5 = 9$ cm.\n\n**Common mistake:** Dividing the radius by the angle instead of multiplying."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q8",
+      "type": "mcq",
+      "question": "An arc of length 10 cm subtends an angle of 2 radians at the centre of a circle. Find the radius of the circle.",
+      "options": [
+        "5 cm",
+        "20 cm",
+        "0.2 cm",
+        "8 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "$r = s / \\theta = 10 / 2 = 5$ cm.\n\n**Common mistake:** Multiplying the arc length and angle together."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q9",
+      "type": "mcq",
+      "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+      "options": [
+        "$\\pi/3$",
+        "$\\pi/6$",
+        "$3\\pi$",
+        "$\\pi/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$60 \\times (\\pi / 180) = \\pi / 3$.\n\n**Common mistake:** Using the wrong conversion factor, such as $180 / \\pi$.",
+      "variants": [
+        {
+          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "\\pi"
+          ],
+          "correctIndex": 0,
+          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{4}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n$$",
+            "$$\n\\frac{1}{6}\\pi\n$$",
+            "$$\n\\frac{2}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
+        },
+        {
+          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "options": [
+            "$$\n\\frac{5}{6}\\pi\n$$",
+            "\\pi",
+            "$$\n\\frac{2}{3}\\pi\n$$",
+            "$$\n\\frac{5}{3}\\pi\n$$"
+          ],
+          "correctIndex": 0,
+          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
+        }
+      ]
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q10",
+      "type": "mcq",
+      "question": "Find the length of the arc of a semicircle with radius $r$.",
+      "options": [
+        "$\\pi r$",
+        "$2\\pi r$",
+        "$\\pi r^2$",
+        "$0.5\\pi r$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle of a semicircle is $\\pi radians$2$2s = r \\times \\pi = \\pi r$.\n\n**Common mistake:** Providing the full circumference ($2\\pi r$) instead of the arc of the semicircle."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q11",
+      "type": "mcq",
+      "question": "A sector of a circle has a radius of^12 cm and a central angle of $0.5$ radians. Calculate the area of the sector.",
+      "options": [
+        "$36$ cm^2",
+        "$72$ cm^2",
+        "$3$ cm^2",
+        "$144$ cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $A = 0.5r^2\\theta$2$A = 0.5 \\times 12^2 \\times 0.5 = 0.25 \\times 144 = 36$ cm^2.\n\n**Common mistake:** Option B is a common mistake where the student forgets the $0.5$ factor in the formula."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q12",
+      "type": "mcq",
+      "question": "The area of a sector is^25 cm^2 and the radius of the circle is^5 cm. Find the angle of the sector in radians.",
+      "options": [
+        "$2$ radians",
+        "$1$ radian",
+        "$0.5$ radians",
+        "$10$ radians"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $A = 0.5r^2\\theta$2$25 = 0.5 \\times 5^2 \\times \\theta \\implies 25 = 12.5\\theta$2$\\theta = 2$ radians.\n\n**Common mistake:** Option D occurs if the student forgets to square the radius, solving $25 = 0.5 \\times 5 \\times \\theta$."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q13",
+      "type": "mcq",
+      "question": "Find the radius of a sector which has an area of^12 cm^2 and a central angle of $1.5$ radians.",
+      "options": [
+        "$4$ cm",
+        "$16$ cm",
+        "$8$ cm",
+        "$2$ cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $A = 0.5r^2\\theta$2$12 = 0.5 \\times r^2 \\times 1.5 \\implies 12 = 0.75r^2 \\implies r^2 = 16$, so $r = 4$ cm.\n\n**Common mistake:** Option B is the value of $r^2$, where the student forgets to take the square root."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q14",
+      "type": "mcq",
+      "question": "A circle has a diameter of^20 cm. Find the area of a sector with a central angle of $0.4$ radians.",
+      "options": [
+        "$20$ cm^2",
+        "$80$ cm^2",
+        "$40$ cm^2",
+        "$4$ cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The radius is $10 cm$2$2A = 0.5 \\times 10^{2} \\times 0.4 = 50 \\times 0.4 = 20$ cm^2.\n\n**Common mistake:** Option B uses the diameter as the radius in the formula: $0.5 \\times 20^2 \\times 0.4 = 80$."
+    },
+    {
+      "id": "8-arc-length-and-area-of-a-sector-radians-easy-q15",
+      "type": "mcq",
+      "question": "Convert an angle of^60° to radians and find the area of a sector with radius^6 cm.",
+      "options": [
+        "$3\\pi$2$^2$",
+        "$6\\pi$2$^2$",
+        "$1.5\\pi$2$^2$",
+        "$1080$ cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$60$° is $\\pi/3 radians$2$2A = 0.5 \\times 6^2 \\times (\\pi/3) = 18 \\times (\\pi/3) = 6\\pi$2$0.5 \\times 36 \\times \\pi/3 = 18 \\times \\pi/3 = 6\\pi$2$0.5 \\times 36 = 18$. $18/3 = 6$. The correct answer is $6\\pi$2$6\\pi$.\n\n**Common mistake:** Option D occurs if the student uses the degree value directly in the formula without converting to radians."
+    }
+  ]
+}

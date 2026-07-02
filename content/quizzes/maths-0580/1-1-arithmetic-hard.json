@@ -1,0 +1,77 @@
+{
+  "id": "1-1-arithmetic-hard",
+  "topicId": "1-1-arithmetic",
+  "chapterId": "ch01-number",
+  "difficulty": "hard",
+  "title": "Arithmetic — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-arithmetic-hard-q1",
+      "type": "mcq",
+      "question": "Calculate the exact value of $\\frac{\\sqrt[3]{0.027} + (0.2)^2}{1-0.91}$.",
+      "options": [
+        "34/9",
+        "3.4",
+        "3.7",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate components: $\\sqrt[3]{0.027} = 0.3$ and $(0.2)^2 = 0.04$. The numerator sums to $0.3 + 0.04 = 0.34$. The denominator is $1 - 0.91 = 0.09$. Thus, $\\frac{0.34}{0.09} = \\frac{34}{9}$.\n\n**Common mistake:** Students commonly write $(0.2)^2$ as $0.4$, adding to find $0.7$ in the numerator."
+    },
+    {
+      "id": "1-1-arithmetic-hard-q2",
+      "type": "mcq",
+      "question": "Simplify the numerical expression completely: $\\frac{4 \\frac{2}{5} \\div \\left(1 \\frac{1}{10} - \\frac{2}{5}\\right)}{2^3 - 3}$.",
+      "options": [
+        "$1 \\frac{9}{35}$",
+        "2",
+        "8/5",
+        "45/7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brackets: $\\frac{11}{10} - \\frac{4}{10} = \\frac{7}{10}$. Numerator division: $\\frac{22}{5} \\div \\frac{7}{10} = \\frac{22}{5} \\times \\frac{10}{7} = \\frac{44}{7}$. Denominator: $8 - 3 = 5$. Total $\\frac{tion:}{}$ $\\frac{44}{7} \\div 5 = \\frac{44}{35} = 1 \\frac{9}{35}$.\n\n**Common mistake:** Students confuse the order of operators inside the bracket or invert $\\frac{tions}{}$ poorly."
+    },
+    {
+      "id": "1-1-arithmetic-hard-q3",
+      "type": "mcq",
+      "question": "Calculate the exact $\\frac{tional}{}$ value of $\\left(3.25 - 1 \\frac{7}{8}\\right) \\div 0.75 + \\frac{4}{3}$.",
+      "options": [
+        "19/6",
+        "25/8",
+        "13/4",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert to $\\frac{tions:}{}$ $3.25 = \\frac{13}{4} = \\frac{26}{8}$, so $\\frac{26}{8} - \\frac{15}{8} = \\frac{11}{8}$. Divide by $0.75 = \\frac{3}{4}$: $\\frac{11}{8} \\times \\frac{4}{3} = \\frac{11}{6}$. Add $\\frac{4}{3} = \\frac{8}{6}$ to find $\\frac{19}{6}$.\n\n**Common mistake:** Mixing decimal rounding and precise $\\frac{tions}{}$ mid-step causes slight rounding discrepancies."
+    },
+    {
+      "id": "1-1-arithmetic-hard-q4",
+      "type": "mcq",
+      "question": "Find the value of $x$2$\\frac{5 \\times 4^2 - x}{3^2 + 1} = 7$.",
+      "options": [
+        "10",
+        "15",
+        "5",
+        "25"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate known quantities: Denominator $3^2 + 1 = 10$. Numerator terms: $5 \\times 16 = 80$. The equation becomes $\\frac{80 - x}{10} = 7 \\implies 80 - x = 70 \\implies x = 10$.\n\n**Common mistake:** Students resolve the index after scaling, evaluating $(5 \\times 4)^2 = 400$."
+    },
+    {
+      "id": "1-1-arithmetic-hard-q5",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{\\sqrt{2.25} \\times 1.2 - 0.64}{0.2^3}$.",
+      "options": [
+        "145",
+        "14.5",
+        "116",
+        "29"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate square root: $\\sqrt{2.25} = 1.5$. Multiply: $1.5 \\times 1.2 = 1.8$. Subtract: $1.8 - 0.64 = 1.16$. Denominator cube: $0.2^3 = 0.008$. Complete division: $1.16 \\div 0.008 = 145$.\n\n**Common mistake:** Students commonly state $0.2^3 = 0.08$ or $0.6$, shifting the decimal point systematically."
+    }
+  ]
+}

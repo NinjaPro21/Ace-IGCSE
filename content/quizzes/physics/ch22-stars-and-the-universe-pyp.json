@@ -1,0 +1,207 @@
+{
+  "id": "ch22-stars-and-the-universe-pyp",
+  "topicId": "ch22-stars-and-the-universe",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "pyp",
+  "title": "Chapter 22: Stars and the Universe — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q1",
+      "type": "mcq",
+      "question": "A student lists four energy resources: n1. Nuclear energyn2. Geothermal energyn3. Solar energyn4. Tidal energynnWhich of these resources does NOT have the Sun as its source?",
+      "options": [
+        "1, 2, and 4 only",
+        "1 and 3 only",
+        "2 and 4 only",
+        "All of them"
+      ],
+      "correctIndex": 0,
+      "explanation": "This follows the 'odd one out' logic from the Review questions. Geothermal, nuclear, and tidal are the specific exceptions mentioned as not originating from the Sun.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q2",
+      "type": "mcq",
+      "question": "Light from the Sun takes $8$ minutes and $20$ seconds to reach Earth. What is the approximate distance from the Sun to the Earth? (Speed of light $= 3.0 \\times 10^{8}$ m/s)",
+      "options": [
+        "$1.5 \\times 10^{8} \\text{ km}$",
+        "$1.5 \\times 10^{8} \\text{ m}$",
+        "$3.0 \\times 10^{8} \\text{ km}$",
+        "$1.5 \\times 10^{12} \\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$8 \\text{ min } 20 \\text{ s} = 500 \\text{ s}$. Distance $= v \\times t = (3.0 \\times 10^{8}) \\times 500 = 1.5 \\times 10^{11} \\text{ m} = 1.5 \\times 10^{8} \\text{ km}$. \n\n**Common mistake:** Choosing the value in metres without checking the units."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q3",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the Sun's fuel and the process that releases its energy?",
+      "options": [
+        "Fuel: Hydrogen; Process: Fusion",
+        "Fuel: Helium; Process: Fission",
+        "Fuel: Hydrogen; Process: Fission",
+        "Fuel: Uranium; Process: Fusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stars like the Sun fuse hydrogen into helium. \n\n**Common mistake:** Swapping fusion and fission or choosing Uranium, which is the fuel for Earth's power plants."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q4",
+      "type": "mcq",
+      "question": "In a nuclear fusion reaction in the Sun, the total mass of the products is $M_p$ and the total mass of the reactants is $M_r$. Which statement is correct?",
+      "options": [
+        "$M_r > M_p$",
+        "$M_r < M_p$",
+        "$M_r = M_p$",
+        "$M_r = 2M_p$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy release requires the initial mass (reactants) to be greater than the final mass (products). The difference is converted to energy. \n\n**Common mistake:** Thinking mass is conserved exactly in nuclear reactions."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q5",
+      "type": "mcq",
+      "question": "The Sun's diameter is about $100$ \\times that of the Earth. What can be concluded about the Sun's gravitational field compared to the Earth's?",
+      "options": [
+        "It is much stronger due to the Sun's massive size",
+        "It is the same because they are in the same system",
+        "It is weaker because the Sun is made of gas",
+        "It only acts on the Sun's surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the Sun's massive size produces a strong gravitational field. \n\n**Common mistake:** Thinking gaseous bodies have weaker gravity than solid ones regardless of mass."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q6",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a star type and its description?nn| Row | Star Type | Description |n| :--- | :--- | :--- |n| A | White dwarf | The cooling remains of an average star |n| B | Nebula | An exploding massive star |n| C | Red giant | A star in its earliest stage of formation |n| D | Supernova | The cloud of gas blown away from a dying star |",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row A is correct based on the Let's Review section. A nebula is a cloud, a supernova is an explosion, and a red giant is a late-stage star.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q7",
+      "type": "mcq",
+      "question": "The Milky Way has an approximate diameter of 100,000 light years. Which statement about it is correct?",
+      "options": [
+        "It is one of many billions of galaxies in the Universe",
+        "It is the only galaxy that contains a massive star",
+        "It is the largest object in the known Universe",
+        "It is a natural satellite of the Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Milky Way is our galaxy and is just one of billions of galaxies. The Universe itself is the largest entity.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q8",
+      "type": "mcq",
+      "question": "Which of the following lists astronomical objects in the correct order of size, from LARGEST to SMALLEST?",
+      "options": [
+        "Universe, Milky Way, Sun, Jupiter",
+        "Universe, Sun, Milky Way, Jupiter",
+        "Milky Way, Universe, Sun, Jupiter",
+        "Jupiter, Sun, Milky Way, Universe"
+      ],
+      "correctIndex": 0,
+      "explanation": "This follows the scale taught in Chapter 22: the Universe contains galaxies, which contain stars, which are larger than planets.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q9",
+      "type": "mcq",
+      "question": "A massive star undergoes several stages at the end of its life. What is the correct sequence?",
+      "options": [
+        "Red supergiant $rightarrow$ supernova $rightarrow$ neutron star",
+        "Red giant $rightarrow$ white dwarf $rightarrow$ black dwarf",
+        "Nebula $rightarrow$ protostar $rightarrow$ planetary nebula",
+        "Supernova $rightarrow$ red supergiant $rightarrow$ black hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "The life cycle of a massive star concludes with the red supergiant stage, followed by a supernova and then a neutron star or black hole.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q10",
+      "type": "mcq",
+      "question": "When the hydrogen fuel of an average star is exhausted, it eventually forms a white dwarf. Which stage immediately precedes the white dwarf stage?",
+      "options": [
+        "Planetary nebula",
+        "Supernova",
+        "Protostar",
+        "Black hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "After the red giant phase, the star sheds its outer layers as a planetary nebula, leaving the core to remain as a white dwarf.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q11",
+      "type": "mcq",
+      "question": "Which of the following lists astronomical objects in the correct order of size, from LARGEST to SMALLEST?",
+      "options": [
+        "Universe, Milky Way, Sun, Jupiter",
+        "Milky Way, Universe, Sun, Jupiter",
+        "Universe, Sun, Milky Way, Jupiter",
+        "Jupiter, Sun, Milky Way, Universe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Universe contains galaxies (like the Milky Way), which contain stars (like the Sun), which are orbited by planets (like Jupiter).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q12",
+      "type": "mcq",
+      "question": "The astronomer Hubble plotted a graph to show the relationship between galaxies and Earth. What were the axes and the shape of his graph?",
+      "options": [
+        "Speed vs Distance; straight line through the origin",
+        "Distance vs Time; horizontal line",
+        "Redshift vs Temperature; downward curve",
+        "Mass vs Speed; straight line with negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hubble plotted recession speed against distance, obtaining a straight line through the origin. This relationship defines the Hubble constant.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q13",
+      "type": "mcq",
+      "question": "Which two observations provide the strongest evidence for the Big Bang Theory?",
+      "options": [
+        "Redshift and CMBR",
+        "Solar eclipses and Tides",
+        "Nuclear fission and Fusion",
+        "Reflection and Refraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources identify redshift and Cosmic Microwave Background Radiation (CMBR) as the two primary pieces of evidence supporting the Big Bang Theory.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q14",
+      "type": "mcq",
+      "question": "What is the current estimated value of the Hubble constant, $H_0$?",
+      "options": [
+        "$2.2 \\times 10^{-18}\\text{ per second}$",
+        "$3.0 \\times 10^{8}\\text{ per second}$",
+        "$9.5 \\times 10^{15}\\text{ per second}$",
+        "$1.5 \\times 10^{11}\\text{ per second}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state that the current estimate for $H_0$ is $2.2 \\times 10^{-18}$ per second.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch22-stars-and-the-universe-pyp-q15",
+      "type": "mcq",
+      "question": "Which statement about light-years is correct?",
+      "options": [
+        "A light-year is a unit of distance",
+        "A light-year is a unit of time",
+        "A light-year is the speed of light in one year",
+        "A light-year is the age of the Universe"
+      ],
+      "correctIndex": 0,
+      "explanation": "A light-year is a unit for measuring distance, not time. It represents the distance light travels in one year.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

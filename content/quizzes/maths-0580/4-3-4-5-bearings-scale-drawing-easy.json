@@ -1,0 +1,77 @@
+{
+  "id": "4-3-4-5-bearings-scale-drawing-easy",
+  "topicId": "4-3-4-5-bearings-scale-drawing",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Bearings & Scale Drawing — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is a correct three-figure bearing for a point exactly North-West of a starting position?",
+      "options": [
+        "$315°$",
+        "$045°$",
+        "$225°$",
+        "$135°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bearings are measured clockwise from North ($000°$). North-West is three-quarters of the way around ($270°$ for West + $45°$), totaling $315°$.\n\n**Common mistake:** A student might measure anticlockwise from North or confuse North-West with South-West ($225°$)."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-easy-q2",
+      "type": "mcq",
+      "question": "The bearing of Town $Y$2$X$2$072°$. Calculate the bearing of Town $X$2$Y$.",
+      "options": [
+        "$252°$",
+        "$108°$",
+        "$072°$",
+        "$288°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the back bearing when the initial bearing is less than $180°$, add $180°$. $72 + 180 = 252°$.\n\n**Common mistake:** The student might subtract the angle from $180°$ (finding the supplementary angle) instead of adding it to the North line."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-easy-q3",
+      "type": "mcq",
+      "question": "An observer looks at the top of a flagpole. Which term describes the angle between their horizontal line of sight and their line of sight to the top of the pole?",
+      "options": [
+        "Angle of elevation",
+        "Angle of depression",
+        "A three-figure bearing",
+        "A vertical gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle measured upward from the horizontal to an object is defined as the angle of elevation.\n\n**Common mistake:** Students may confuse elevation (upward) with depression (downward)."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-easy-q4",
+      "type": "mcq",
+      "question": "A map has a scale of $1 : 25000$. What actual distance in kilometres is represented by $4\\text{ cm}$ on the map?",
+      "options": [
+        "$1\\text{ km}$",
+        "$100\\text{ km}$",
+        "$0.1\\text{ km}$",
+        "$4\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$4\\text{ cm} \\times 25000 = 100000\\text{ cm}$. Converting to km: $100000 ÷ 100 ÷ 1000 = 1\\text{ km}$.\n\n**Common mistake:** A student might miscalculate the number of zeros when converting from centimetres to kilometres."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-easy-q5",
+      "type": "mcq",
+      "question": "John is at the top of a cliff looking down at a boat. The angle between the horizontal and his line of sight to the boat is $25°$. What is this angle called?",
+      "options": [
+        "Angle of depression",
+        "Angle of elevation",
+        "Bearing",
+        "Acute intercept"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles measured downward from the horizontal to an object are angles of depression.\n\n**Common mistake:** A student might assume any angle involving height is 'elevation' regardless of the direction of sight."
+    }
+  ]
+}

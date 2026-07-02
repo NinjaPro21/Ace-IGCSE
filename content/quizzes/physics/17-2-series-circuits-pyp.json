@@ -1,0 +1,77 @@
+{
+  "id": "17-2-series-circuits-pyp",
+  "topicId": "17-2-series-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "pyp",
+  "title": "Series Circuits — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-2-series-circuits-pyp-q1",
+      "type": "mcq",
+      "question": "A diagram shows three identical resistors connected in series to a $6\\text{ V}$ battery. What is the potential difference between the start of the first resistor and the end of the second resistor?",
+      "options": [
+        "$4\\text{ V}$",
+        "$2\\text{ V}$",
+        "$3\\text{ V}$",
+        "$6\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Let's Review Section A, Question 1. The total $6\\text{ V}$ is shared equally among three resistors ($2\\text{ V}$ each). Across two resistors, the p.d. is $2 + 2 = 4\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-pyp-q2",
+      "type": "mcq",
+      "question": "Which row correctly describes the current and the potential difference in a series circuit with two different resistors?",
+      "options": [
+        "Current: Same at all points; P.d.: Shared between resistors",
+        "Current: Shared between resistors; P.d.: Same across each resistor",
+        "Current: Same at all points; P.d.: Same across each resistor",
+        "Current: Shared between resistors; P.d.: Shared between resistors"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in the sources, the current in a series circuit is constant at all points, while the total potential difference is equal to the sum of individual p.d.s.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-pyp-q3",
+      "type": "mcq",
+      "question": "The p.d. across a $4\\text{ }Omega$ resistor connected in series is $2\\text{ V}$. If the total potential difference for the whole circuit is $10\\text{ V}$, what is the resistance of the rest of the circuit components combined?",
+      "options": [
+        "$16\\text{ }Omega$",
+        "$8\\text{ }Omega$",
+        "$20\\text{ }Omega$",
+        "$4\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find current: $I = V / R = 2 / 4 = 0.5\\text{ A}$. In series, current is the same. The rest of the circuit has p.d. $= 10 - 2 = 8\\text{ V}$. Resistance $= V / I = 8 / 0.5 = 16\\text{ }Omega$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-pyp-q4",
+      "type": "mcq",
+      "question": "Three ammeters are placed at different points in a series circuit containing two non-identical resistors. Ammeter 1 reads $0.4\\text{ A}$. What do Ammeter 2 and Ammeter 3 read?",
+      "options": [
+        "Both read $0.4\\text{ A}$",
+        "Ammeter 2 reads $0.2\\text{ A}$ and Ammeter 3 reads $0.2\\text{ A}$",
+        "Ammeter 2 reads $0.4\\text{ A}$ and Ammeter 3 reads $0.8\\text{ A}$",
+        "The readings depend on the values of the resistors"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the principle of series circuits, the current is constant throughout the single loop. All ammeters in the same series circuit will provide the same reading.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-pyp-q5",
+      "type": "mcq",
+      "question": "Which graph correctly shows the relationship between total resistance $R_T$ and the number $n$ of identical $5\\text{ }Omega$ resistors added in series?",
+      "options": [
+        "A straight line with a positive gradient starting from the origin",
+        "A straight horizontal line",
+        "A curve that gets steeper as $n$ increases",
+        "A straight line with a negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $R_T = n \\times R_{individual}$, total resistance is directly proportional to the number of identical resistors. This is represented by a straight line through the origin.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

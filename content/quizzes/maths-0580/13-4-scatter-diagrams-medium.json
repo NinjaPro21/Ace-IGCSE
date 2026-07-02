@@ -1,0 +1,77 @@
+{
+  "id": "13-4-scatter-diagrams-medium",
+  "topicId": "13-4-scatter-diagrams",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "medium",
+  "title": "Scatter Diagrams — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-4-scatter-diagrams-medium-q1",
+      "type": "mcq",
+      "question": "A scatter diagram shows a connection where pears sold at a high price had low quantities sold, and pears sold at a low price had high quantities sold. What correlation is this?",
+      "options": [
+        "Negative correlation",
+        "Positive correlation",
+        "No correlation",
+        "Weak positive correlation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources show that as the price of pears increased, the number sold went down, which is a negative connection.\n\n**Common mistake:** The student might assume any 'connection' is positive without looking at the direction of the change."
+    },
+    {
+      "id": "13-4-scatter-diagrams-medium-q2",
+      "type": "mcq",
+      "question": "Which of the following pairs of data is most likely to show NO correlation?",
+      "options": [
+        "Newspaper sales and temperature",
+        "Maths marks and Science marks",
+        "Ice cream sales and weather temperature",
+        "Height of a boy and his age"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state and show a scatter diagram for 'newspaper sales and temperature' as an example of no connection.\n\n**Common mistake:** A student might assume that all real-world data sets must have some sort of correlation."
+    },
+    {
+      "id": "13-4-scatter-diagrams-medium-q3",
+      "type": "mcq",
+      "question": "If a student scores 52 in a Physics test and the scatter diagram shows a strong positive correlation with Maths marks, how should their Maths mark be estimated?",
+      "options": [
+        "By drawing a line of best fit and finding the corresponding Maths value for Physics = 52",
+        "By taking the average of all other students' Maths marks",
+        "By assuming the Maths mark is exactly the same as the Physics mark (52)",
+        "By multiplying the Physics mark by a scale factor of 1.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in the example of 'Sakura,' the line of best fit is used to estimate a missing result by finding the corresponding value on the opposite axis.\n\n**Common mistake:** Students may try to guess a number without using the line of best fit, leading to inaccurate results."
+    },
+    {
+      "id": "13-4-scatter-diagrams-medium-q4",
+      "type": "mcq",
+      "question": "What distinguishes a 'weak' correlation from a 'strong' correlation visually?",
+      "options": [
+        "The points in a weak correlation are more scattered and further from the trend line",
+        "A weak correlation always slopes downwards",
+        "A strong correlation has fewer data points than a weak one",
+        "There is no visual difference; the terms are based on the variables used"
+      ],
+      "correctIndex": 0,
+      "explanation": "When correlation is strong, points are bunched close to the line; when it is weak, they are more scattered.\n\n**Common mistake:** Students may think 'weak' refers only to the size of the values on the axes rather than the scatter of the points."
+    },
+    {
+      "id": "13-4-scatter-diagrams-medium-q5",
+      "type": "mcq",
+      "question": "Why is it generally not possible to be 'very accurate' when using scatter diagrams to estimate values?",
+      "options": [
+        "Because the line of best fit is an approximation and points are scattered",
+        "Because the axes are usually drawn with incorrect scales",
+        "Because scatter diagrams only work for integers",
+        "Because computers are required for any statistical accuracy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state it is not possible to be very accurate; it is more reasonable to provide a range of values (e.g., 'between 30 and 36').\n\n**Common mistake:** Students often provide a single, exact number and lose marks for not acknowledging the inherent uncertainty in the estimate."
+    }
+  ]
+}

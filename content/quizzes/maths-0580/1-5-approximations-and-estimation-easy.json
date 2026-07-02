@@ -1,0 +1,77 @@
+{
+  "id": "1-5-approximations-and-estimation-easy",
+  "topicId": "1-5-approximations-and-estimation",
+  "chapterId": "ch01-number",
+  "difficulty": "easy",
+  "title": "Approximations and Estimation — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-approximations-and-estimation-easy-q1",
+      "type": "mcq",
+      "question": "Round the continuous decimal value $48.276$ correct to 2 significant figures.",
+      "options": [
+        "48",
+        "48.28",
+        "48.3",
+        "50"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first two significant figures are 4 and 8. The next digit is 2, which is less than 5, so round down to 48.\n\n**Common mistake:** Students frequently confuse significant figures with decimal places, choosing 48.28 or 48.3 instead."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-easy-q2",
+      "type": "mcq",
+      "question": "Write the number $0.0070452$ correct to 3 significant figures.",
+      "options": [
+        "0.00705",
+        "0.007",
+        "0.00704",
+        "0.007045"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leading zeros are not significant. The first three significant digits are 7, 0, and 4. The following digit is 5, so round up to 0.00705.\n\n**Common mistake:** Students often count leading zeros as significant digits, which results in choices like 0.007."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-easy-q3",
+      "type": "mcq",
+      "question": "A length of rope is measured as $38\\text{ cm}$, correct to the nearest centimetre. Write down the lower bound of this length.",
+      "options": [
+        "37.5 cm",
+        "38.5 cm",
+        "37.0 cm",
+        "37.95 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The degree of accuracy is $1\\text{ cm}$. Half of this unit is $0.5\\text{ cm}$. Subtract $0.5$ from the value to find the lower bound: $38 - 0.5 = 37.5\\text{ cm}$.\n\n**Common mistake:** Students may subtract a full unit or a tenth of a unit instead of half the unit, giving 37.0 or 37.95."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-easy-q4",
+      "type": "mcq",
+      "question": "Estimate the value of $\\frac{61.4 \\times 2.95}{19.7}$ by rounding each number to 1 significant figure.",
+      "options": [
+        "9",
+        "9.21",
+        "6",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Round each value to 1 significant figure: $61.4 \\to 60$, $2.95 \\to 3$, $19.7 \\to 20$. Evaluate: $\\frac{60 \\times 3}{20} = \\frac{180}{20} = 9$.\n\n**Common mistake:** Students may calculate the exact answer ($9.21$) on their calculator instead of estimating, violating the question prompt instructions."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-easy-q5",
+      "type": "mcq",
+      "question": "The mass of a structural beam is recorded as $450\\text{ kg}$, correct to the nearest $10\\text{ kg}$. Write down the upper bound of this mass.",
+      "options": [
+        "455 kg",
+        "460 kg",
+        "454.9 kg",
+        "450.5 kg"
+      ],
+      "correctIndex": 0,
+      "explanation": "The degree of accuracy is $10\\text{ kg}$. Half of this unit is $5\\text{ kg}$. Add $5$ to the recorded mass to get the upper bound: $450 + 5 = 455\\text{ kg}$.\n\n**Common mistake:** Students often write 454.9 to avoid including 455, but in IGCSE limits, the boundary value itself is used as the upper limit."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2-5-roots-of-quadratic-equations-pyp",
+  "topicId": "2-5-roots-of-quadratic-equations",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "pyp",
+  "title": "Roots of Quadratic Equations — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-5-roots-of-quadratic-equations-pyp-q1",
+      "type": "mcq",
+      "question": "Find the set of values of k for which the equation $x^{2}$+(k−2)x+9=0 has no real roots.",
+      "options": [
+        "−4<k<8",
+        "k<−4 or k>8",
+        "−8<k<4",
+        "k=8,−4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Δ<0 \\implies $(k-2)^{2}$−36<0 \\implies (k−2−6)(k−2+6)<0 \\implies (k−8)(k+4)<0. The set is between −4 and 8.\n\n**Common mistake:** Errors in expanding $(k-2)^{2}$ or identifying the range from the quadratic inequality incorrectly."
+    },
+    {
+      "id": "2-5-roots-of-quadratic-equations-pyp-q2",
+      "type": "mcq",
+      "question": "The quadratic equation 3$x^{2}$−px+12=0 has equal roots. Find the possible values of p.",
+      "options": [
+        "±12",
+        "12 only",
+        "±6",
+        "±144"
+      ],
+      "correctIndex": 0,
+      "explanation": "For equal roots, $(-p)^{2}$−4(3)(12)=0 \\implies $p^{2}$−144=0 \\implies p=±12.\n\n**Common mistake:** Failing to consider the negative root or incorrectly calculating 4×3×12."
+    },
+    {
+      "id": "2-5-roots-of-quadratic-equations-pyp-q3",
+      "type": "mcq",
+      "question": "Find the range of values of m for which the equation $x^{2}$+mx+(m+3)=0 has two distinct real roots.",
+      "options": [
+        "m<−2 or m>6",
+        "−2<m<6",
+        "m<−6 or m>2",
+        "m>6 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Δ>0 \\implies $m^{2}$−4(m+3)>0 \\implies $m^{2}$−4m−12>0 \\implies (m−6)(m+2)>0. Region is outside −2 and 6.\n\n**Common mistake:** Selecting the region between the roots (−2,6) or making factoring errors."
+    },
+    {
+      "id": "2-5-roots-of-quadratic-equations-pyp-q4",
+      "type": "mcq",
+      "question": "Show that the equation $x^{2}$+(k+2)x+k=0 has two distinct real roots for all real values of k. Determine the expression for Δ.",
+      "options": [
+        "$k^{2}$+4",
+        "$k^{2}$+4k+4",
+        "$k^{2}$−4k+4",
+        "$k^{2}$+8k+4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Δ= (k+2)^{2}−4(1)k= k^{2}+4k+4−4k= k^{2}+4. Since $k^{2}$+4 is always positive, there are always two distinct roots.\n\n**Common mistake:** Miscalculating the expansion of $(k+2)^{2}$ or failing to subtract 4k correctly."
+    },
+    {
+      "id": "2-5-roots-of-quadratic-equations-pyp-q5",
+      "type": "mcq",
+      "question": "Find the set of values of k for which the equation 2$x^{2}$+4x+(k−3)=0 has real roots.",
+      "options": [
+        "k≤5",
+        "k≥5",
+        "k<5",
+        "k≤2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Δ≥0 \\implies $4^{2}$−4(2)(k−3)≥0 \\implies 16−8k+24≥0 \\implies 40≥8k \\implies k≤5.\n\n**Common mistake:** Arithmetic errors in distribution or incorrectly using 'greater than' for the final range."
+    }
+  ]
+}

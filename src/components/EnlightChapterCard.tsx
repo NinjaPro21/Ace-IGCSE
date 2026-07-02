@@ -31,7 +31,9 @@ export function EnlightChapterCard({ chapter, status, masteryPercent }: EnlightC
 
   return (
     <Link to={to} className="enlight-card enlight-card--chapter enlight-card--hover">
-      <span className="enlight-chapter-card__badge">Chapter {chapter.number}</span>
+      <span className="enlight-chapter-card__badge">
+        {chapter.number === 0 ? 'Calculator' : `Chapter ${chapter.number}`}
+      </span>
       <h3 className="enlight-chapter-card__title">{chapter.title}</h3>
       <p className="enlight-chapter-card__summary">{chapter.summary}</p>
       {masteryPercent !== undefined && masteryPercent > 0 && (

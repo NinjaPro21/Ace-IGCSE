@@ -1,0 +1,77 @@
+{
+  "id": "17-3-parallel-circuits-medium",
+  "topicId": "17-3-parallel-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "medium",
+  "title": "Parallel Circuits — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-3-parallel-circuits-medium-q1",
+      "type": "mcq",
+      "question": "Two resistors, each with a resistance of $10\\text{ }Omega$, are connected in parallel. What is their combined resistance?",
+      "options": [
+        "$5\\text{ }Omega$",
+        "$10\\text{ }Omega$",
+        "$20\\text{ }Omega$",
+        "$1\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $1/R = 1/R_1 + 1/R_2$, we get $1/10 + 1/10 = 2/10 = 1/5$. Therefore, $R = 5\\text{ }Omega$. \n\n**Common mistake:** Adding them directly like series resistors to get $20\\text{ }Omega$."
+    },
+    {
+      "id": "17-3-parallel-circuits-medium-q2",
+      "type": "mcq",
+      "question": "In a parallel circuit with a $12\\text{ V}$ battery, Branch A has a $6\\text{ }Omega$ resistor and Branch B has a $12\\text{ }Omega$ resistor. Which statement about the currents is correct?",
+      "options": [
+        "The current in Branch A is twice the current in Branch B.",
+        "The current in Branch B is twice the current in Branch A.",
+        "The currents in both branches are equal.",
+        "The total current is $1\\text{ A}$."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $V$ is constant ($12\\text{ V}$), $I = V/R$. $I_A = 12/6 = 2\\text{ A}$ and $I_B = 12/12 = 1\\text{ A}$. \n\n**Common mistake:** Thinking higher resistance ($12\\text{ }Omega$) results in higher current."
+    },
+    {
+      "id": "17-3-parallel-circuits-medium-q3",
+      "type": "mcq",
+      "question": "A $6.0\\text{ V}$ cell is connected to a $6\\text{ }Omega$ and a $30\\text{ }Omega$ resistor in parallel. Calculate the total current flowing from the source.",
+      "options": [
+        "$1.2\\text{ A}$",
+        "$0.8\\text{ A}$",
+        "$0.2\\text{ A}$",
+        "$5.0\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current in first branch $I_1 = 6/6 = 1.0\\text{ A}$. Current in second branch $I_2 = 6/30 = 0.2\\text{ A}$. Total current $I = 1.0 + 0.2 = 1.2\\text{ A}$. (Matches logic in Review Q2). \n\n**Common mistake:** Dividing voltage by the sum of resistances ($6/36$)."
+    },
+    {
+      "id": "17-3-parallel-circuits-medium-q4",
+      "type": "mcq",
+      "question": "According to the 'Helpful Notes', if $R_1$ is $10\\text{ }Omega$ and $R_2$ is $20\\text{ }Omega$ in a parallel circuit, what is the ratio of the potential differences $V_1 / V_2$?",
+      "options": [
+        "$1.0$",
+        "$0.5$",
+        "$2.0$",
+        "$4.0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallel circuit, $V_1 = V_2$ regardless of the resistance values. Therefore, the ratio is always $1$. \n\n**Common mistake:** Thinking the voltage ratio must match the resistance ratio."
+    },
+    {
+      "id": "17-3-parallel-circuits-medium-q5",
+      "type": "mcq",
+      "question": "A battery provides a total current of $1.5\\text{ A}$ to three identical lamps connected in parallel. What is the current through each lamp?",
+      "options": [
+        "$0.5\\text{ A}$",
+        "$1.5\\text{ A}$",
+        "$4.5\\text{ A}$",
+        "$0.3\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In parallel, total current is shared. If lamps are identical, they each take $1.5 / 3 = 0.5\\text{ A}$. \n\n**Common mistake:** Thinking each lamp draws the full $1.5\\text{ A}$ from the battery."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "10-2-conduction-pyp",
+  "topicId": "10-2-conduction",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "pyp",
+  "title": "Conduction — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-2-conduction-pyp-q1",
+      "type": "mcq",
+      "question": "According to the kinetic theory of matter, thermal energy is transferred from the hot end of a glass rod to the cold end when the molecules from the hot end:",
+      "options": [
+        "vibrate more vigorously and pass on the energy to the neighbouring molecules",
+        "emit infrared radiation to the cold end",
+        "move from place to place so that they collide with the colder molecules",
+        "move to the cold end"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a solid like glass, conduction occurs through the transmission of vibrational energy between adjacent particles. \n\n**Common mistake:** Thinking molecules in a solid move from one end to the other (Choice D)."
+    },
+    {
+      "id": "10-2-conduction-pyp-q2",
+      "type": "mcq",
+      "question": "In a vacuum flask, the vacuum between the double walls prevents thermal energy transfer by:",
+      "options": [
+        "conduction and convection",
+        "conduction only",
+        "convection only",
+        "radiation only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction and convection both require a material medium (particles). A vacuum lacks these, so it blocks both processes. \n\n**Common mistake:** Thinking a vacuum also blocks radiation, which can actually pass through empty space."
+    },
+    {
+      "id": "10-2-conduction-pyp-q3",
+      "type": "mcq",
+      "question": "The table shows the thermal conductivity of four materials. Which material would allow thermal energy to pass through it at the slowest rate?nn| Material | Conductivity Rating |n| :--- | :--- |n| P | Best conductor |n| Q | Good conductor |n| R | Poor conductor |n| S | Best insulator |",
+      "options": [
+        "Material S",
+        "Material P",
+        "Material Q",
+        "Material R"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'best insulator' is the 'worst conductor', meaning it has the lowest rate of thermal energy transfer. \n\n**Common mistake:** Selecting Material P, which allows heat to pass the fastest."
+    },
+    {
+      "id": "10-2-conduction-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a conductor and an insulator?",
+      "options": [
+        "Conductor: Copper; Insulator: Polystyrene",
+        "Conductor: Steel; Insulator: Aluminum",
+        "Conductor: Air; Insulator: Glass",
+        "Conductor: Fibreglass; Insulator: Copper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Copper is a metal and a good conductor; polystyrene is a plastic that contains air and is a good insulator. \n\n**Common mistake:** Identifying air as a conductor; it is a gas and a very poor conductor."
+    },
+    {
+      "id": "10-2-conduction-pyp-q5",
+      "type": "mcq",
+      "question": "A student heats water in a test tube. He holds the bottom of the tube with his hand while the water at the top is boiling. He does not feel the heat. What does this experiment demonstrate?",
+      "options": [
+        "Water is a poor conductor of thermal energy",
+        "Glass is a perfect thermal insulator",
+        "Convection only moves heat downwards",
+        "Thermal energy cannot travel through liquids"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water is a poor thermal conductor. Because convection moves the hot water upwards, the thermal energy does not conduct efficiently down to the bottom of the tube. \n\n**Common mistake:** Thinking glass is a 'perfect' insulator; it still conducts, just poorly."
+    }
+  ]
+}

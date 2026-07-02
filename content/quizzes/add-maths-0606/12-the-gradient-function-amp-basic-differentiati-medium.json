@@ -1,0 +1,272 @@
+{
+  "id": "12-the-gradient-function-amp-basic-differentiati-medium",
+  "topicId": "12-the-gradient-function-amp-basic-differentiati",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "medium",
+  "title": "The Gradient Function & Basic Differentiation Rules — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q1",
+      "type": "mcq",
+      "question": "Find the gradient of the curve $y = 3x^2 - 5x + 2$ at the point where $x = 2$.",
+      "options": [
+        "$7$",
+        "$12$",
+        "$1$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x - 5$. Substituting $x = 2$: $6(2) - 5 = 12 - 5 = 7$.\n\n**Common mistake:** Option B is just the value of the first term $6x$2$x=2$, forgetting to subtract^5."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q2",
+      "type": "mcq",
+      "question": "Differentiate $y = \\frac{6}{x}$ with respect to $x$.",
+      "options": [
+        "$-\\frac{6}{x^2}$",
+        "$\\frac{6}{x^2}$",
+        "$-6x$",
+        "$6\\ln(x)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite as $y = 6x^{-1}$. Then $\\frac{dy}{dx} = -6x^{-2} = -\\frac{6}{x^2}$.\n\n**Common mistake:** Option B is a sign error, forgetting that the exponent $-1$ becomes a negative multiplier."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q3",
+      "type": "mcq",
+      "question": "If $f(x) = 2\\sqrt{x}$, find the value of $f'(9)$.",
+      "options": [
+        "$\\frac{1}{3}$",
+        "$3$",
+        "$\\frac{1}{6}$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f(x) = 2x^{1/2} \\implies f'(x) = 2(\\frac{1}{2})x^{-1/2} = \\frac{1}{\\sqrt{x}}$. At $x=9$, $f'(9) = \\frac{1}{\\sqrt{9}} = \\frac{1}{3}$.\n\n**Common mistake:** Option B occurs if a student thinks the derivative is simply the square root of $x$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q4",
+      "type": "mcq",
+      "question": "Find the value of $x$2$y = x^2 - 6x$2$4$.",
+      "options": [
+        "$5$",
+        "$10$",
+        "$2$",
+        "$-1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 2x - 6$. Setting $2x - 6 = 4 \\implies 2x = 10 \\implies x = 5$.\n\n**Common mistake:** Option B results from forgetting to divide by 2 in the final step."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q5",
+      "type": "mcq",
+      "question": "Differentiate $y = (x + 4)(x - 2)$ with respect to $x$.",
+      "options": [
+        "$2x + 2$",
+        "$2x - 2$",
+        "$1$",
+        "$x^2 + 2x - 8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand first: $y = x^2 + 2x - 8$. Then $\\frac{dy}{dx} = 2x + 2$.\n\n**Common mistake:** Option B is a sign error during the expansion or differentiation of the middle term."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q6",
+      "type": "mcq",
+      "question": "Find the gradient of the curve $y = (3x^2 - 2)^4$ at the point where $x = 1$.",
+      "options": [
+        "24",
+        "4",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dy/dx = 4(3x^2 - 2)³ \\times (6x) = 24x(3x^2 - 2)³$. At $x=1$, $24(1)(3-2)³ = 24$.\n\n**Common mistake:** Only calculating the value of the function (1) instead of the derivative."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q7",
+      "type": "mcq",
+      "question": "Differentiate $y = \\frac{1}{(2x + 3)^2}$ using the chain rule.",
+      "options": [
+        "-4 / (2x + 3)³",
+        "-2 / (2x + 3)³",
+        "4 / (2x + 3)³",
+        "-4 / (2x + 3)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$y = (2x+3)^{-2}$. $dy/dx = -2(2x+3)^{-3} \\times 2 = -4(2x+3)^{-3}$.\n\n**Common mistake:** Incorrectly decreasing the power to $-1$ instead of $-3$ when differentiating a negative exponent."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q8",
+      "type": "mcq",
+      "question": "Find $dy/dx$2$y = (5 - x^3)^7$.",
+      "options": [
+        "-21x^2(5 - x³)⁶",
+        "7(5 - x³)⁶",
+        "-3x^2(5 - x³)⁶",
+        "21x^2(5 - x³)⁶"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derivative $= 7(5 - x^3)^6 \\times (-3x^2) = -21x^2(5 - x^3)^6$.\n\n**Common mistake:** Sign errors resulting from the $-x^3$ term."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q9",
+      "type": "mcq",
+      "question": "If $y = \\sqrt{x^2 + 4x}$, find the derivative with respect to x.",
+      "options": [
+        "(x + 2) / \\sqrt{x^2 + 4x}",
+        "(2x + 4) / \\sqrt{x^2 + 4x}",
+        "1 / (2\\sqrt{x^2 + 4x})",
+        "x / \\sqrt{x^2 + 4x}"
+      ],
+      "correctIndex": 0,
+      "explanation": "$dy/dx = \\frac{1}{2}(x^2+4x)^{-1/2} \\times (2x+4) = \\frac{2x+4}{2\\sqrt{x^2+4x}} = \\frac{x+2}{\\sqrt{x^2+4x}}$.\n\n**Common mistake:** Failing to simplify the 2 in the numerator and denominator."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q10",
+      "type": "mcq",
+      "question": "Differentiate $y = (ax + b)^n$ where a, b, and n are constants.",
+      "options": [
+        "an(ax + b)^{n-1}",
+        "n(ax + b)^{n-1}",
+        "a(ax + b)^{n-1}",
+        "anx(ax + b)^{n-1}"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is the general form: $\\frac{dy}{dx} = n(ax+b)^{n-1} \\times a$.\n\n**Common mistake:** Leaving out the coefficient 'a' from the final result."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q11",
+      "type": "mcq",
+      "question": "Differentiate $y = x^2(3x - 1)^4$ with respect to $x$.",
+      "options": [
+        "$2x(3x - 1)^3(9x - 1)$",
+        "$12x^2(3x - 1)^3$",
+        "$2x(3x - 1)^4 + 12x^2(3x - 1)^3$",
+        "$6x(3x - 1)^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x^2[4(3x-1)^3(3)] + (3x-1)^4[2x] = 12x^2(3x-1)^3 + 2x(3x-1)^4 = 2x(3x-1)^3 [6x + (3x-1)] = 2x(3x-1)^3(9x-1)$.\n\n**Common mistake:** Option C is the unsimplified form; Option A is the correct factored form. Option B neglects the second half of the product rule."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q12",
+      "type": "mcq",
+      "question": "Find the gradient of the curve $y = x\\sqrt{2x + 5}$ at the point where $x = 2$.",
+      "options": [
+        "$3.67$",
+        "$3$",
+        "$0.67$",
+        "$2.33$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x[\\frac{1}{2}(2x+5)^{-1/2}(2)] + \\sqrt{2x+5} = \\frac{x}{\\sqrt{2x+5}} + \\sqrt{2x+5}$. At $x=2$: $2/3 + 3 = 3.67$.\n\n**Common mistake:** Option B is just the value of the second term $\\sqrt{2x+5}$, neglecting the first term derived from the product rule."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q13",
+      "type": "mcq",
+      "question": "Differentiate $y = (x^2 + 1)(x - 2)^3$ and find the value of $x$2$\\frac{dy}{dx} = 0$ at $x=2$.",
+      "options": [
+        "$2$",
+        "$0$",
+        "$1$",
+        "$-1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = (x^2+1)[3(x-2)^2] + (x-2)^3[2x] = (x-2)^2 [ 3(x^2+1) + 2x(x-2) ]$. When $x=2$, the factor $(x-2)^2$ is^0, so the gradient is^0.\n\n**Common mistake:** Option C might be chosen if a student attempts to solve the bracketed quadratic instead of recognizing the obvious root at $x=2$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q14",
+      "type": "mcq",
+      "question": "Find the derivative of $y = x^3(x^2 + 4)^{-1}$.",
+      "options": [
+        "$\\frac{x^2(x^2 + 12)}{(x^2 + 4)^2}$",
+        "$\\frac{3x^2}{2x}$",
+        "$\\frac{x^2(5x^2 + 12)}{(x^2 + 4)^2}$",
+        "$3x^2(x^2+4)^{-1}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x^3[-(x^2+4)^{-2}(2x)] + (x^2+4)^{-1}(3x^2) = \\frac{-2x^4 + 3x^2(x^2+4)}{(x^2+4)^2} = \\frac{x^4 + 12x^2}{(x^2+4)^2} = \\frac{x^2(x^2+12)}{(x^2+4)^2}$.\n\n**Common mistake:** Option D is a common error where the student only differentiates the first term and leaves the second as is."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q15",
+      "type": "mcq",
+      "question": "Given $y = x^2 \\ln x$2$x = e$.",
+      "options": [
+        "$3e$",
+        "$2e$",
+        "$e$",
+        "$2e + 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x^2(\\frac{1}{x}) + (\\ln x)(2x) = x + 2x \\ln x$2$x=e$2$e + 2e \\ln e = e + 2e(1) = 3e$.\n\n**Common mistake:** Option B occurs if the student only differentiates the $\\ln x$2$1/x$2$x^2(1/x) = x$2$2x \\ln x$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q16",
+      "type": "mcq",
+      "question": "Find the derivative of $y = (x + 2) / (x - 2)$.",
+      "options": [
+        "-4 / (x - 2)$^2$",
+        "4 / (x - 2)$^2$",
+        "0",
+        "-4 / (x + 2)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 1, v' = 1. $\\frac{dy}{dx}$ = [(x-2)(1) - (x+2)(1)] / (x-2)$^2$ = [x - 2 - x - 2] / (x-2)$^2$ = -4 / (x-2)$^2$.\n\n**Common mistake:** Arithmetic errors in the numerator resulting in 0 or $+4$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q17",
+      "type": "mcq",
+      "question": "Differentiate $y = \\sqrt{x} / (x + 1)$.",
+      "options": [
+        "(1 - x) / (2\\sqrt{x}(x + 1)$^2$)",
+        "(1 + x) / (2\\sqrt{x}(x + 1)$^2$)",
+        "1 / (2\\sqrt{x}(x + 1))",
+        "x / (x + 1)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 1/(2√x), v' = 1. $\\frac{dy}{dx}$ = [(x+1)/(2√x) - √x] / (x+1)$^2$ = [(x+1 - 2x) / 2√x] / (x+1)$^2$ = (1-x) / (2√x(x+1)$^2$).\n\n**Common mistake:** Struggling to find a common denominator for the terms in the numerator."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q18",
+      "type": "mcq",
+      "question": "Find the gradient of the curve $y = x^2 / (2x - 1)$ at the point where $x = 1$.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "-1"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 2x, v' = 2. $\\frac{dy}{dx}$ = [(2x-1)(2x) - x^2(2)] / (2x-1)$^2$ = [4x^2 - 2x - 2x^2] / (2x-1)$^2$ = (2x^2 - 2x) / (2x-1)$^2$. At x=1, (2-2)/1 = 0.\n\n**Common mistake:** Arithmetic errors when calculating the numerator at the specific point $x=1$."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q19",
+      "type": "mcq",
+      "question": "Determine $dy/dx$2$y = (3x + 1) / (x^2 + 2)$.",
+      "options": [
+        "(-3x^2 - 2x + 6) / (x^2 + 2)$^2$",
+        "(3x^2 + 2x + 6) / (x^2 + 2)$^2$",
+        "3 / 2x",
+        "(3x^2 - 2x - 6) / (x^2 + 2)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 3, v' = 2x. $\\frac{dy}{dx}$ = [(x^2+2)(3) - (3x+1)(2x)] / (x^2+2)$^2$ = [3x^2 + 6 - 6x^2 - 2x] / (x^2+2)$^2$ = (-3x^2 - 2x + 6) / (x^2+2)$^2$.\n\n**Common mistake:** Incorrectly distributing the $2x$2$(3x+1)$ term, particularly the negative sign."
+    },
+    {
+      "id": "12-the-gradient-function-amp-basic-differentiati-medium-q20",
+      "type": "mcq",
+      "question": "Solve for $x$2$y = x / (x^2 + 1)$ is zero.",
+      "options": [
+        "x = ±1",
+        "x = 0",
+        "x = 1 only",
+        "No solution"
+      ],
+      "correctIndex": 0,
+      "explanation": "u' = 1, v' = 2x. $\\frac{dy}{dx}$ = [(x^2+1)(1) - x(2x)] / (x^2+1)$^2$ = (1 - x^2) / (x^2+1)$^2$. Set to 0: $1 - x^2 = 0$, so $x = ±1$.\n\n**Common mistake:** Only identifying $x = 1$ and missing the negative root."
+    }
+  ]
+}

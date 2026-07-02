@@ -1,0 +1,77 @@
+{
+  "id": "1-4-sequences-easy",
+  "topicId": "1-4-sequences",
+  "chapterId": "ch01-number",
+  "difficulty": "easy",
+  "title": "Sequences — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-4-sequences-easy-q1",
+      "type": "mcq",
+      "question": "The first four terms of an arithmetic sequence are $5, 12, 19, 26$. Find the next term in this sequence.",
+      "options": [
+        "33",
+        "31",
+        "27",
+        "35"
+      ],
+      "correctIndex": 0,
+      "explanation": "Identify the common difference by subtracting consecutive terms: $12 - 5 = 7$. Add 7 to the fourth term to get the fifth term: $26 + 7 = 33$.\n\n**Common mistake:** Students might miscalculate the common difference as 6, leading to $26 + 6 = 32$, or mistakenly add 1 to the last term."
+    },
+    {
+      "id": "1-4-sequences-easy-q2",
+      "type": "mcq",
+      "question": "Find the 20th term of the sequence whose $n$2$4n - 3$.",
+      "options": [
+        "77",
+        "83",
+        "20",
+        "80"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $n = 20$ into the expression: $4(20) - 3 = 80 - 3 = 77$.\n\n**Common mistake:** Students may perform the multiplication incorrectly or calculate $4 \\times 20 = 80$ and forget to subtract 3, leading to 80."
+    },
+    {
+      "id": "1-4-sequences-easy-q3",
+      "type": "mcq",
+      "question": "The first four terms of a geometric sequence are $3, 12, 48, 192$. State the common ratio of this sequence.",
+      "options": [
+        "4",
+        "9",
+        "3",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide any term by its preceding term to find the common ratio: $12 \\div 3 = 4$.\n\n**Common mistake:** Students may subtract the first two terms ($12 - 3 = 9$) thinking it is an arithmetic sequence, choosing 9."
+    },
+    {
+      "id": "1-4-sequences-easy-q4",
+      "type": "mcq",
+      "question": "The $n$2$n^2 + 5$. Find the 6th term of this sequence.",
+      "options": [
+        "41",
+        "17",
+        "36",
+        "47"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $n = 6$ into the rule: $6^2 + 5 = 36 + 5 = 41$.\n\n**Common mistake:** Students may calculate $6 \\times 2 + 5 = 17$ by treating the exponent as a multiplier."
+    },
+    {
+      "id": "1-4-sequences-easy-q5",
+      "type": "mcq",
+      "question": "A cubic sequence has an $n$2$n^3 - 2$. Find the 3rd term.",
+      "options": [
+        "25",
+        "7",
+        "27",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $n = 3$ into the formula: $3^3 - 2 = 27 - 2 = 25$.\n\n**Common mistake:** Students may calculate $3 \\times 3 - 2 = 7$ by multiplying the base by the exponent index instead of cubing it."
+    }
+  ]
+}

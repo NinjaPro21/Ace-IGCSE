@@ -1,0 +1,337 @@
+{
+  "id": "ch17-electrical-circuits-and-electrical-safety-medium",
+  "topicId": "ch17-electrical-circuits-and-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "medium",
+  "title": "Chapter 17: Electrical Circuits and Electrical Safety — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q1",
+      "type": "mcq",
+      "question": "A potential difference of $6.0\\text{ V}$ is applied across a resistor, and an ammeter measures a current of $0.5\\text{ A}$. Calculate the resistance of the component.",
+      "options": [
+        "$12\\text{ }Omega$",
+        "$3.0\\text{ }Omega$",
+        "$0.083\\text{ }Omega$",
+        "$6.5\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $R = V / I$, the resistance is $6.0 / 0.5 = 12\\text{ }Omega$. \n\n**Common mistake:** Multiplying $6$ and $0.5$ to get $3.0\\text{ }Omega$."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q2",
+      "type": "mcq",
+      "question": "In a circuit diagram, how must an ammeter and a voltmeter be connected to measure the properties of a lamp?",
+      "options": [
+        "Ammeter in series; Voltmeter in parallel",
+        "Ammeter in parallel; Voltmeter in series",
+        "Both components in series",
+        "Both components in parallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ammeter must be in series to measure the current flowing 'through' the lamp, while a voltmeter must be in parallel to measure the p.d. 'across' it. \n\n**Common mistake:** Swapping the two, which can blow a fuse or result in incorrect readings."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q3",
+      "type": "mcq",
+      "question": "A student uses a rheostat (variable resistor) in a circuit with a lamp. If the student moves the sliding contact to increase the resistance, what is the effect on the lamp?",
+      "options": [
+        "The lamp becomes dimmer because the current decreases.",
+        "The lamp becomes brighter because the voltage increases.",
+        "The lamp's brightness remains the same.",
+        "The lamp will blow because of the extra resistance."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing resistance in a circuit reduces the current flowing through it (if the voltage source is constant), making the lamp dimmer. \n\n**Common mistake:** Thinking higher resistance 'pushes' more energy into the lamp."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q4",
+      "type": "mcq",
+      "question": "Which statement correctly describes the $I-V$ characteristic of a filament lamp?",
+      "options": [
+        "The resistance increases as the potential difference increases.",
+        "The resistance remains constant regardless of the voltage.",
+        "The graph of current against voltage is a straight line through the origin.",
+        "The resistance decreases as the lamp gets hotter."
+      ],
+      "correctIndex": 0,
+      "explanation": "As the potential difference across a filament lamp increases, it gets hotter, which causes its resistance to increase. This is shown by a curve with a decreasing gradient. \n\n**Common mistake:** Assuming the lamp follows Ohm's Law and has a constant resistance."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q5",
+      "type": "mcq",
+      "question": "A diode is placed in a circuit with an alternating current (a.c.) power supply. What is the observed effect on the current?",
+      "options": [
+        "The current is rectified and flows in only one direction.",
+        "The current is blocked completely in both directions.",
+        "The current alternates faster than before.",
+        "The voltage of the supply is doubled."
+      ],
+      "correctIndex": 0,
+      "explanation": "A diode only allows current to flow when it is forward-biased, effectively turning a.c. into a 'rectified' pulsed d.c. \n\n**Common mistake:** Thinking the diode 'smooths' the current into a steady line; it only restricts the direction."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q6",
+      "type": "mcq",
+      "question": "A $12\\text{ V}$ battery is connected in series with two resistors of $4\\text{ }Omega$ and $8\\text{ }Omega$. What is the current flowing from the battery?",
+      "options": [
+        "$1.0\\text{ A}$",
+        "$1.5\\text{ A}$",
+        "$3.0\\text{ A}$",
+        "$12.0\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find the total resistance $R = 4 + 8 = 12\\text{ }Omega$. Then use $I = V / R = 12 / 12 = 1.0\\text{ A}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q7",
+      "type": "mcq",
+      "question": "Two resistors are connected in series. Resistor A has a resistance of $10\\text{ }Omega$ and Resistor B has a resistance of $20\\text{ }Omega$. Which statement correctly describes the potential difference (p.d.) across them?",
+      "options": [
+        "The p.d. across Resistor B is twice the p.d. across Resistor A",
+        "The p.d. across Resistor A is twice the p.d. across Resistor B",
+        "The p.d. is the same across both resistors",
+        "The p.d. across Resistor B is half the p.d. across Resistor A"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series circuit, $V = IR$. Since $I$ is constant, the p.d. is proportional to resistance. As noted in the sources, a larger resistance has a greater p.d. across it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q8",
+      "type": "mcq",
+      "question": "A student adds a third resistor in series to a circuit that already has two resistors. What is the effect on the total resistance and the current?",
+      "options": [
+        "Total resistance increases, current decreases",
+        "Total resistance decreases, current increases",
+        "Total resistance increases, current increases",
+        "Total resistance remains the same, current decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding more resistors in series increases the total resistance ($R_T = R_1 + R_2 + R_3$). Since $I = V / R_T$, an increase in resistance leads to a decrease in current.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q9",
+      "type": "mcq",
+      "question": "A $6\\text{ V}$ cell is connected to two identical resistors in series. What is the potential difference across one of the resistors?",
+      "options": [
+        "$3\\text{ V}$",
+        "$6\\text{ V}$",
+        "$12\\text{ V}$",
+        "$0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Identical resistors in series share the total voltage equally. $6\\text{ V} / 2 = 3\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q10",
+      "type": "mcq",
+      "question": "A $5\\text{ }Omega$ resistor and a $15\\text{ }Omega$ resistor are connected in series. If the p.d. across the $5\\text{ }Omega$ resistor is $2\\text{ V}$, what is the p.d. across the $15\\text{ }Omega$ resistor?",
+      "options": [
+        "$6\\text{ V}$",
+        "$2\\text{ V}$",
+        "$4\\text{ V}$",
+        "$10\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ratio of p.d.s equals the ratio of resistances: $V_1 / R_1 = V_2 / R_2$. Thus $2 / 5 = V_2 / 15$, which gives $V_2 = 6\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q11",
+      "type": "mcq",
+      "question": "Two resistors, each with a resistance of $10\\text{ }Omega$, are connected in parallel. What is their combined resistance?",
+      "options": [
+        "$5\\text{ }Omega$",
+        "$10\\text{ }Omega$",
+        "$20\\text{ }Omega$",
+        "$1\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $1/R = 1/R_1 + 1/R_2$, we get $1/10 + 1/10 = 2/10 = 1/5$. Therefore, $R = 5\\text{ }Omega$. \n\n**Common mistake:** Adding them directly like series resistors to get $20\\text{ }Omega$."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q12",
+      "type": "mcq",
+      "question": "In a parallel circuit with a $12\\text{ V}$ battery, Branch A has a $6\\text{ }Omega$ resistor and Branch B has a $12\\text{ }Omega$ resistor. Which statement about the currents is correct?",
+      "options": [
+        "The current in Branch A is twice the current in Branch B.",
+        "The current in Branch B is twice the current in Branch A.",
+        "The currents in both branches are equal.",
+        "The total current is $1\\text{ A}$."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $V$ is constant ($12\\text{ V}$), $I = V/R$. $I_A = 12/6 = 2\\text{ A}$ and $I_B = 12/12 = 1\\text{ A}$. \n\n**Common mistake:** Thinking higher resistance ($12\\text{ }Omega$) results in higher current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q13",
+      "type": "mcq",
+      "question": "A $6.0\\text{ V}$ cell is connected to a $6\\text{ }Omega$ and a $30\\text{ }Omega$ resistor in parallel. Calculate the total current flowing from the source.",
+      "options": [
+        "$1.2\\text{ A}$",
+        "$0.8\\text{ A}$",
+        "$0.2\\text{ A}$",
+        "$5.0\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current in first branch $I_1 = 6/6 = 1.0\\text{ A}$. Current in second branch $I_2 = 6/30 = 0.2\\text{ A}$. Total current $I = 1.0 + 0.2 = 1.2\\text{ A}$. (Matches logic in Review Q2). \n\n**Common mistake:** Dividing voltage by the sum of resistances ($6/36$)."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q14",
+      "type": "mcq",
+      "question": "According to the 'Helpful Notes', if $R_1$ is $10\\text{ }Omega$ and $R_2$ is $20\\text{ }Omega$ in a parallel circuit, what is the ratio of the potential differences $V_1 / V_2$?",
+      "options": [
+        "$1.0$",
+        "$0.5$",
+        "$2.0$",
+        "$4.0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallel circuit, $V_1 = V_2$ regardless of the resistance values. Therefore, the ratio is always $1$. \n\n**Common mistake:** Thinking the voltage ratio must match the resistance ratio."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q15",
+      "type": "mcq",
+      "question": "A battery provides a total current of $1.5\\text{ A}$ to three identical lamps connected in parallel. What is the current through each lamp?",
+      "options": [
+        "$0.5\\text{ A}$",
+        "$1.5\\text{ A}$",
+        "$4.5\\text{ A}$",
+        "$0.3\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In parallel, total current is shared. If lamps are identical, they each take $1.5 / 3 = 0.5\\text{ A}$. \n\n**Common mistake:** Thinking each lamp draws the full $1.5\\text{ A}$ from the battery."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q16",
+      "type": "mcq",
+      "question": "A $6\\text{ V}$ cell is connected to a potentiometer (variable resistor) with a maximum resistance of $100\\text{ }Omega$. What is the output voltage when the sliding contact is exactly at the midpoint?",
+      "options": [
+        "$3.0\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$0\\text{ V}$",
+        "$1.5\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Worked Example 17F, when the contact is at the midpoint, the resistance is shared equally ($50\\text{ }Omega$ each). Thus, $V_{out} = (50/100) \\times 6 = 3.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q17",
+      "type": "mcq",
+      "question": "A potential divider consists of a fixed resistor $R_1 = 200\\text{ }Omega$ and a second resistor $R_2 = 600\\text{ }Omega$ connected to a $12\\text{ V}$ source. What is $V_{out}$ across $R_2$?",
+      "options": [
+        "$9.0\\text{ V}$",
+        "$3.0\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$4.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula: $V_{out} = [600 / (200 + 600)] \\times 12 = (600/800) \\times 12 = 0.75 \\times 12 = 9.0\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q18",
+      "type": "mcq",
+      "question": "In a potential divider circuit used to monitor temperature, a voltmeter is connected across a fixed resistor that is in series with a thermistor. If the temperature rises, what happens to the voltmeter reading?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It remains constant",
+        "It drops to zero immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "When temperature rises, the thermistor's resistance decreases. This reduces the thermistor's share of the total voltage, meaning the fixed resistor now receives a larger share of the voltage, so the voltmeter reading increases.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q19",
+      "type": "mcq",
+      "question": "A student uses a potentiometer to create a variable output voltage. If the sliding contact is moved to the end of the resistor connected directly to the positive terminal of the $9\\text{ V}$ source, what is the maximum $V_{out}$?",
+      "options": [
+        "$9\\text{ V}$",
+        "$0\\text{ V}$",
+        "$4.5\\text{ V}$",
+        "It depends on the resistance of the potentiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "As shown in Worked Example 17F, when the contact is at the far end (Point B), the output voltage is equal to the full input voltage of the source ($9\\text{ V}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q20",
+      "type": "mcq",
+      "question": "An LDR is used in a potential divider with a fixed resistor. In the dark, the LDR has very high resistance. In bright light, its resistance is very low. To have an output voltage that is HIGH in the dark, where should the LDR be placed?",
+      "options": [
+        "In the $R_2$ position (where $V_{out}$ is measured across it)",
+        "In the $R_1$ position (between the source and $V_{out}$)",
+        "In parallel with the battery",
+        "Between the voltmeter and the fixed resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A potential divider shares voltage based on resistance ratios. To get a high $V_{out}$ when resistance is high (darkness), you must measure the output across that specific component ($R_2$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q21",
+      "type": "mcq",
+      "question": "An electric heater is rated at $1.2\\text{ kW}$ and operates on a $240\\text{ V}$ mains supply. Calculate the current flowing through it.",
+      "options": [
+        "$5.0\\text{ A}$",
+        "$2.0\\text{ A}$",
+        "$288\\text{ A}$",
+        "$0.2\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I = P / V$, we have $1200\\text{ W} / 240\\text{ V} = 5.0\\text{ A}$. \n\n**Common mistake:** Failing to convert $1.2\\text{ kW}$ to $1200\\text{ W}$."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q22",
+      "type": "mcq",
+      "question": "For the $5.0\\text{ A}$ heater in the previous question, which fuse rating is the most appropriate to use in the plug?",
+      "options": [
+        "$13\\text{ A}$",
+        "$3\\text{ A}$",
+        "$5\\text{ A}$",
+        "$1\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuse rating should be slightly higher than the normal operating current. While $5\\text{ A}$ is the current, a $13\\text{ A}$ fuse is a standard safe choice to avoid nuisance blowing during minor surges. \n\n**Common mistake:** Choosing a fuse with a rating lower than the operating current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q23",
+      "type": "mcq",
+      "question": "What is the primary danger of 'overloading' a single mains socket with multiple high-power appliances using an extension lead?",
+      "options": [
+        "The cables may overheat and cause an electrical fire.",
+        "The potential difference of the entire house will decrease.",
+        "The appliances will convert electrical energy back into chemical energy.",
+        "The earth wire will start to carry the full load current constantly."
+      ],
+      "correctIndex": 0,
+      "explanation": "Overloading causes excess current to flow through the supply cables, leading to overheating and potential fires. \n\n**Common mistake:** Thinking the voltage simply 'splits' and makes things run slower without damage."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q24",
+      "type": "mcq",
+      "question": "Why is a trip switch (circuit breaker) considered more convenient than a standard fuse?",
+      "options": [
+        "It can be reset easily without needing to be replaced.",
+        "It allows more current to flow than the wires can handle.",
+        "It converts a.c. into d.c. for safer use.",
+        "It eliminates the need for an earth wire in metal appliances."
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike fuses which must be replaced once they melt, a trip switch can simply be flipped back to the 'on' position once the fault is cleared. \n\n**Common mistake:** Believing trip switches are 'stronger' or change the type of current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-medium-q25",
+      "type": "mcq",
+      "question": "Compare the hazards of damaged insulation and damp conditions. Which statement is correct?",
+      "options": [
+        "Both increase the risk of electric shock and short circuits.",
+        "Damaged insulation only affects power consumption, while dampness causes shocks.",
+        "Damp conditions only affect the fuse, while insulation affects the earth wire.",
+        "Neither is hazardous if the appliance is double-insulated."
+      ],
+      "correctIndex": 0,
+      "explanation": "Both damaged insulation (exposing live wires) and dampness (creating conduction paths) significantly increase the risk of severe electric shocks. \n\n**Common mistake:** Thinking double insulation makes dampness 'safe'—water can still enter and bypass insulation."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ch15-simple-phenomena-of-magnetism-medium",
+  "topicId": "ch15-simple-phenomena-of-magnetism",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "medium",
+  "title": "Chapter 15: Simple Phenomena of Magnetism — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q1",
+      "type": "mcq",
+      "question": "What is the name of the process where a magnetic material becomes a magnet when it is placed near a permanent magnet?",
+      "options": [
+        "Induced magnetism",
+        "Magnetic conduction",
+        "Electrostatic charge",
+        "Thermal expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced magnetism is the process where a magnet induces magnetism in a magnetic material (like an iron bar) by being near it or in contact with it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q2",
+      "type": "mcq",
+      "question": "An N pole of a bar magnet is brought near to end A of an unmagnetised iron bar. What pole is induced at end A?",
+      "options": [
+        "South pole",
+        "North pole",
+        "No pole is induced",
+        "A North pole and a South pole simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "In induction, the pole induced at the nearer end of the magnetic material is always the opposite of the pole of the inducing magnet. Thus, an N pole induces a South pole at the nearer end.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q3",
+      "type": "mcq",
+      "question": "According to the kinetic particle model (as applied to magnetism), what are 'magnetic domains'?",
+      "options": [
+        "Groups of atoms that behave like tiny magnets",
+        "Regions in space where the magnetic field is zero",
+        "The physical ends of a bar magnet",
+        "The atoms of non-magnetic materials"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic materials contain 'magnetic domains,' where each domain behaves like a small magnet. In an unmagnetised bar, these domains point in random directions.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q4",
+      "type": "mcq",
+      "question": "A student performs an experiment where paper clips are attracted to a magnet. The first paper clip then attracts a second paper clip. Why does this happen?",
+      "options": [
+        "The first paper clip has become an induced magnet",
+        "The second paper clip is a permanent magnet",
+        "The force of the original magnet passes through the first clip without changing it",
+        "Paper clips are naturally magnets even without a nearby field"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the first paper clip is attracted to the magnet, it becomes an induced magnet, which allows it to attract further paper clips.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q5",
+      "type": "mcq",
+      "question": "Which of the following would be the best way to verify if a metal bar is a permanent magnet rather than just a magnetic material?",
+      "options": [
+        "Check if it can repel the pole of another known magnet",
+        "Check if it is attracted to the N pole of a magnet",
+        "Check if it is attracted to the S pole of a magnet",
+        "Check if it can pick up iron filings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repulsion is the only sure test for magnetism. A magnetic material will be attracted to both poles of a magnet, but only another magnet can experience repulsion.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q6",
+      "type": "mcq",
+      "question": "Two metal bars, P and Q, are tested with a magnet. Bar P picks up many paper clips but drops them all when the magnet is removed. Bar Q picks up fewer clips but keeps most of them. What are materials P and Q?",
+      "options": [
+        "P: Soft iron; Q: Steel",
+        "P: Steel; Q: Soft iron",
+        "P: Brass; Q: Iron",
+        "P: Copper; Q: Steel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron (P) is easy to magnetise (picks up many clips) but loses magnetism easily (temporary). Steel (Q) is harder to magnetise (fewer clips initially) but retains it (permanent). \n\n**Common mistake:** Swapping the properties of iron and steel."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q7",
+      "type": "mcq",
+      "question": "Why is soft iron, rather than steel, used for the core of an electromagnet?",
+      "options": [
+        "It is easily magnetised and easily demagnetised",
+        "It produces a permanent magnetic field",
+        "It is a better conductor of electricity than steel",
+        "It is cheaper and more widely available"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is 'magnetically soft,' meaning it responds quickly to the presence or absence of a magnetic field, which is essential for switching an electromagnet on and off. \n\n**Common mistake:** Thinking steel is used because it makes a 'stronger' permanent electromagnet."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q8",
+      "type": "mcq",
+      "question": "Compare the magnetic properties of iron and steel according to the 'Let's Investigate' results.",
+      "options": [
+        "Iron is easier to magnetise but harder to keep magnetised than steel.",
+        "Steel is easier to magnetise and keep magnetised than iron.",
+        "Iron and steel have identical magnetic properties.",
+        "Steel loses its magnetism immediately when the magnet is removed."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source deduction states 'Iron loses its magnetism easily, but steel does not.' Iron is also shown picking up more tacks initially, meaning it is easier to magnetise. \n\n**Common mistake:** Believing steel is the 'best' at everything; iron is actually easier to magnetise."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q9",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a magnetically soft material and its property?",
+      "options": [
+        "Material: Soft iron; Property: Easy to magnetise",
+        "Material: Steel; Property: Difficult to magnetise",
+        "Material: Brass; Property: Non-magnetic",
+        "Material: Soft iron; Property: Difficult to magnetise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soft iron is the standard example of a magnetically soft material, characterized by being easy to magnetise and demagnetise. \n\n**Common mistake:** Row B is a correct fact about steel, but steel is magnetically 'hard', not 'soft'."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q10",
+      "type": "mcq",
+      "question": "A student wants to make a compass needle. Which material should they use and why?",
+      "options": [
+        "Steel, because it will retain its magnetism as a permanent magnet.",
+        "Soft iron, because it can be easily magnetised by the Earth.",
+        "Brass, because it is not affected by other magnets.",
+        "Copper, because it is a very good conductor."
+      ],
+      "correctIndex": 0,
+      "explanation": "A compass needle must be a permanent magnet so that it remains magnetised without an external source. Steel is the best choice for this. \n\n**Common mistake:** Choosing iron, which would lose its magnetism and stop working as a compass."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q11",
+      "type": "mcq",
+      "question": "A plotting compass is placed near the North pole of a bar magnet. In which direction does the North-seeking end of the compass needle point?",
+      "options": [
+        "Away from the North pole",
+        "Towards the North pole",
+        "Towards the centre of the magnet",
+        "It spins continuously"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic field lines go away from the North pole. The compass needle aligns with these lines, so its North pole is repelled by the magnet's North pole.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q12",
+      "type": "mcq",
+      "question": "When a student replaces a bar magnet with a stronger one, how should the diagram of the magnetic field change?",
+      "options": [
+        "More field lines should be drawn in the same area",
+        "The lines should be drawn further apart",
+        "The lines should point from South to North",
+        "The lines should be perfectly straight"
+      ],
+      "correctIndex": 0,
+      "explanation": "A stronger magnetic field is represented by a higher density of field lines, meaning more lines are drawn in the same space.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q13",
+      "type": "mcq",
+      "question": "A compass is placed at the midpoint of a bar magnet, just above its side. According to Figure 15.19, which way will the needle point?",
+      "options": [
+        "Parallel to the magnet, pointing towards the South pole",
+        "Parallel to the magnet, pointing towards the North pole",
+        "Perpendicular to the magnet, pointing away from it",
+        "Perpendicular to the magnet, pointing towards it"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the middle of the magnet, the field lines are parallel to the magnet's length and travel from the North end toward the South end.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q14",
+      "type": "mcq",
+      "question": "Which of the following describes a 'uniform' magnetic field, such as the one found between two wide, opposite magnetic poles?",
+      "options": [
+        "Straight, parallel, and equally spaced field lines",
+        "Circular field lines centered on the poles",
+        "Lines that bend away from the centre",
+        "A region where there are no field lines"
+      ],
+      "correctIndex": 0,
+      "explanation": "A uniform field has the same strength and direction at all points, which is represented by straight, parallel, and equally spaced lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch15-simple-phenomena-of-magnetism-medium-q15",
+      "type": "mcq",
+      "question": "A student uses iron filings to observe a magnetic field. What is a disadvantage of this method compared to using a plotting compass?",
+      "options": [
+        "Filings do not show the direction of the field",
+        "Filings do not show the shape of the field",
+        "Filings only work with very weak magnets",
+        "Filings can only be used once"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron filings align to show the shape and pattern of the field but they do not have a North/South orientation to show the field's direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

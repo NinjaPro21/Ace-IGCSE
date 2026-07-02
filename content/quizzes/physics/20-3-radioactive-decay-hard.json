@@ -1,0 +1,77 @@
+{
+  "id": "20-3-radioactive-decay-hard",
+  "topicId": "20-3-radioactive-decay",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "hard",
+  "title": "Radioactive Decay — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-3-radioactive-decay-hard-q1",
+      "type": "mcq",
+      "question": "A nucleus $X$ undergoes a sequence of decays: first an $alpha$-decay, then a $beta$-decay. If the original nucleus was $^{238}{92}X$, what are the coordinates $(A, Z)$ of the final nucleus?",
+      "options": [
+        "$(234, 91)$",
+        "$(234, 89)$",
+        "$(238, 93)$",
+        "$(234, 90)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Step 1 ($alpha$): $A rightarrow 234, Z rightarrow 90$. Step 2 ($beta$): $A rightarrow 234$ (unchanged), $Z rightarrow 91$ ($90+1$). Result is $(234, 91)$. \n\n**Common mistake:** Forgetting to increase $Z$ in the second step."
+    },
+    {
+      "id": "20-3-radioactive-decay-hard-q2",
+      "type": "mcq",
+      "question": "In a nuclear equation, a parent nucleus $^{A}{Z}P$ decays into a daughter nucleus $^{A-4}{Z-2}D$. What else must be produced to satisfy the conservation of nucleon number and charge?",
+      "options": [
+        "A helium-4 nucleus ($^4_2He$)",
+        "A high-speed electron ($^0{-1}e$)",
+        "A single neutron ($^1_0n$)",
+        "Two protons and two electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The change in $A$ (-4) and $Z$ (-2) corresponds exactly to the emission of an $alpha$-particle, which is a helium nucleus $^{4}{2}He$. \n\n**Common mistake:** Selecting Choice D; although an $alpha$-particle has 2 protons, it contains 2 neutrons, not 2 electrons."
+    },
+    {
+      "id": "20-3-radioactive-decay-hard-q3",
+      "type": "mcq",
+      "question": "Consider the $beta$-decay of Cobalt-60: $^{60}{27}Co rightarrow ^{60}{28}Ni + ^{0}{-1}beta + gamma$. Why is the nucleon number of Nickel the same as Cobalt?",
+      "options": [
+        "A neutron was converted into a proton, keeping the total number of nucleons constant.",
+        "The $beta$-particle has a mass of 1, which balances the equation.",
+        "Nickel and Cobalt are isotopes of each other.",
+        "Gamma radiation carries away the extra nucleons."
+      ],
+      "correctIndex": 0,
+      "explanation": "$beta$-decay involves a neutron changing into a proton. Since both are nucleons, the total count $A$ does not change. \n\n**Common mistake:** Thinking the $beta$-particle (electron) comes from the outer shells of the atom."
+    },
+    {
+      "id": "20-3-radioactive-decay-hard-q4",
+      "type": "mcq",
+      "question": "An unknown nucleus decays into $^{210}{84}Po$ after emitting a single $beta$-particle. What was the nuclide notation of the original parent nucleus?",
+      "options": [
+        "$^{210}{83}Bi$",
+        "$^{210}{85}At$",
+        "$^{214}{86}Rn$",
+        "$^{206}{82}Pb$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $beta$-decay, $A$ is constant and $Z{daughter} = Z_{parent} + 1$. Therefore, $Z_{parent} = 84 - 1 = 83$. The nucleon number remains 210. \n\n**Common mistake:** Choosing $^{210}{85}At$ by applying the increase to the parent instead of the daughter."
+    },
+    {
+      "id": "20-3-radioactive-decay-hard-q5",
+      "type": "mcq",
+      "question": "A radioactive sample is monitored. The count rate is observed to be fluctuating significantly around an average value. What does this provide evidence for?",
+      "options": [
+        "The random nature of radioactive decay.",
+        "The sample is reaching its terminal half-life.",
+        "The detector is being affected by an electric field.",
+        "The decay is spontaneous but not random."
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluctuations in the count rate are a direct consequence of the random nature of decay; we cannot predict when a specific atom will emit radiation. \n\n**Common mistake:** Assuming fluctuations mean the detector is inaccurate or faulty."
+    }
+  ]
+}

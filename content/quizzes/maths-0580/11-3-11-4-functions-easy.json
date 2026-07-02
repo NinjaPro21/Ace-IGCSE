@@ -1,0 +1,77 @@
+{
+  "id": "11-3-11-4-functions-easy",
+  "topicId": "11-3-11-4-functions",
+  "chapterId": "ch07-sets-functions-logical-systems",
+  "difficulty": "easy",
+  "title": "Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-11-4-functions-easy-q1",
+      "type": "mcq",
+      "question": "In function notation, how should the statement $f : x \\mapsto x^2 + 4$ be interpreted?",
+      "options": [
+        "Function $f$2$x$2$x^2 + 4$",
+        "Function $f$2$x$2$x^2 + 4$",
+        "The coordinates of $f$2$x$2$x^2 + 4$",
+        "Function $f$2$x$ is the square root of 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the mapping notation $f : x \\mapsto x^2 + 4$ is interpreted as 'function $f$2$x$2$x^2 + 4$'.\n\n**Common mistake:** Students may mistake the colon and arrow as representing a ratio or a simple equation rather than a mapping instruction."
+    },
+    {
+      "id": "11-3-11-4-functions-easy-q2",
+      "type": "mcq",
+      "question": "If $f(x) = 3x - 1$, calculate the value of $f(2)$.",
+      "options": [
+        "5",
+        "7",
+        "4",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = 2$ into the function: $f(2) = 3(2) - 1 = 6 - 1 = 5$.\n\n**Common mistake:** A student might accidentally add 1 instead of subtracting, or multiply the whole expression by 2."
+    },
+    {
+      "id": "11-3-11-4-functions-easy-q3",
+      "type": "mcq",
+      "question": "What is the mathematical term for the set of all possible output values of a function?",
+      "options": [
+        "Range",
+        "Domain",
+        "Inverse",
+        "Composite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define the 'Domain' as the set of input values and the 'Range' as the set of output values.\n\n**Common mistake:** Students often swap the definitions of domain and range."
+    },
+    {
+      "id": "11-3-11-4-functions-easy-q4",
+      "type": "mcq",
+      "question": "Which type of mapping is NOT allowed to be defined as a function?",
+      "options": [
+        "One-to-many",
+        "One-to-one",
+        "Many-to-one",
+        "Constant mapping"
+      ],
+      "correctIndex": 0,
+      "explanation": "Functions are not allowed to be one-to-many, which would imply that one input value gives more than one output value.\n\n**Common mistake:** Students may assume many-to-one mappings (like $x^2$) are not functions, but they are; only one-to-many is prohibited."
+    },
+    {
+      "id": "11-3-11-4-functions-easy-q5",
+      "type": "mcq",
+      "question": "Given $g(x) = x + 5$, identify the correct inverse function $g^{-1}(x)$.",
+      "options": [
+        "$x - 5$",
+        "$5 - x$",
+        "$1 / (x + 5)$",
+        "$-5x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the inverse of adding 5, you perform the inverse operation, which is subtracting 5.\n\n**Common mistake:** A student might use the reciprocal ($1/f(x)$) thinking it is the inverse function notation."
+    }
+  ]
+}

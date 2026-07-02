@@ -1,0 +1,77 @@
+{
+  "id": "22-2-stars-pyp",
+  "topicId": "22-2-stars",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "pyp",
+  "title": "Stars — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "22-2-stars-pyp-q1",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a star type and its description?nn| Row | Star Type | Description |n| :--- | :--- | :--- |n| A | White dwarf | The cooling remains of an average star |n| B | Nebula | An exploding massive star |n| C | Red giant | A star in its earliest stage of formation |n| D | Supernova | The cloud of gas blown away from a dying star |",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Row A is correct based on the Let's Review section. A nebula is a cloud, a supernova is an explosion, and a red giant is a late-stage star.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-2-stars-pyp-q2",
+      "type": "mcq",
+      "question": "The Milky Way has an approximate diameter of 100,000 light years. Which statement about it is correct?",
+      "options": [
+        "It is one of many billions of galaxies in the Universe",
+        "It is the only galaxy that contains a massive star",
+        "It is the largest object in the known Universe",
+        "It is a natural satellite of the Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Milky Way is our galaxy and is just one of billions of galaxies. The Universe itself is the largest entity.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-2-stars-pyp-q3",
+      "type": "mcq",
+      "question": "Which of the following lists astronomical objects in the correct order of size, from LARGEST to SMALLEST?",
+      "options": [
+        "Universe, Milky Way, Sun, Jupiter",
+        "Universe, Sun, Milky Way, Jupiter",
+        "Milky Way, Universe, Sun, Jupiter",
+        "Jupiter, Sun, Milky Way, Universe"
+      ],
+      "correctIndex": 0,
+      "explanation": "This follows the scale taught in Chapter 22: the Universe contains galaxies, which contain stars, which are larger than planets.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-2-stars-pyp-q4",
+      "type": "mcq",
+      "question": "A massive star undergoes several stages at the end of its life. What is the correct sequence?",
+      "options": [
+        "Red supergiant $rightarrow$ supernova $rightarrow$ neutron star",
+        "Red giant $rightarrow$ white dwarf $rightarrow$ black dwarf",
+        "Nebula $rightarrow$ protostar $rightarrow$ planetary nebula",
+        "Supernova $rightarrow$ red supergiant $rightarrow$ black hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "The life cycle of a massive star concludes with the red supergiant stage, followed by a supernova and then a neutron star or black hole.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-2-stars-pyp-q5",
+      "type": "mcq",
+      "question": "When the hydrogen fuel of an average star is exhausted, it eventually forms a white dwarf. Which stage immediately precedes the white dwarf stage?",
+      "options": [
+        "Planetary nebula",
+        "Supernova",
+        "Protostar",
+        "Black hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "After the red giant phase, the star sheds its outer layers as a planetary nebula, leaving the core to remain as a white dwarf.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

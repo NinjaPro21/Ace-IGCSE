@@ -1,0 +1,77 @@
+{
+  "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard",
+  "topicId": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "hard",
+  "title": "Graphs of $y = |f(x)|$ where $f(x)$ is Linear — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "Find the area of the region enclosed by the graph y=∣x−2∣ and the horizontal line y=4.",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "The triangle has vertex at (2,0) and base on y=4. Intersections: ∣x−2∣=4 \\implies x=6,−2. Base width =8, Height =4. Area =0.5×8×4=16.\n\n**Common mistake:** Failing to calculate the correct base width or forgetting the 0.5 factor for the triangle area."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "The graph y=∣ax+b∣ has a vertex at (4,0) and passes through the point (0,8). Find the values of a and b where a>0.",
+      "options": [
+        "a=2,b=−8",
+        "a=4,b=2",
+        "a=2,b=8",
+        "a=8,b=−4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vertex at x=4 \\implies b=−4a. Point (0,8) \\implies ∣b∣=8. Since a>0,b=−8 and a=2.\n\n**Common mistake:** Incorrectly relating the vertex to the parameters or choosing the wrong sign for b."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "Find the range of the function y=10−∣x+3∣ for the domain −5\nlex\nle0.",
+      "options": [
+        "7\nley\nle10",
+        "8\nley\nle10",
+        "0\nley\nle10",
+        "7\nley\nle8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Endpoints: x=−5,y=8; x=0,y=7. Vertex at x=−3 is within domain, where y=10. Range: .\n\n**Common mistake:** Only checking endpoints and missing the maximum value at the vertex."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "Find the set of values of k for which the line y=k intersects the graph y=∣2x−8∣+5 at exactly two distinct points.",
+      "options": [
+        "k>5",
+        "k<5",
+        "k=5",
+        "k \\ge 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The graph has a minimum at (4,5). Any line above the vertex (y>5) will cross both arms.\n\n**Common mistake:** Including the value 5 (where there is only one intersection point at the vertex)."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "Find the exact coordinates of the points of intersection of the graphs y=∣x−1∣ and y=∣2x+4∣.",
+      "options": [
+        "(−5,6) and (−1,2)",
+        "(5,4) and (1,0)",
+        "(−5,6) only",
+        "(−1,2) only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: x−1=2x+4 \\implies x=−5,y=6. Case 2: x−1=−(2x+4) \\implies 3x=−3,x=−1,y=2.\n\n**Common mistake:** Failing to consider both algebraic cases or miscalculating the y-coordinates."
+    }
+  ]
+}

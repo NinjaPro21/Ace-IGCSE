@@ -1,0 +1,77 @@
+{
+  "id": "20-1-detection-of-radioactivity-pyp",
+  "topicId": "20-1-detection-of-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "pyp",
+  "title": "Detection of Radioactivity — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-1-detection-of-radioactivity-pyp-q1",
+      "type": "mcq",
+      "question": "Which statement about background radiation is correct?",
+      "options": [
+        "It is present in the laboratory even when no radioactive source is being used.",
+        "It is produced by radioactive sources that have been left in the laboratory.",
+        "It consists only of radiation from the Sun's magnetic field.",
+        "It is another term for the radiation emitted by a Geiger-Müller tube."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q1, background radiation is ionising nuclear radiation in the laboratory when no source is present. \n\n**Common mistake:** Thinking it comes from 'leftover' sources in the lab."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-pyp-q2",
+      "type": "mcq",
+      "question": "A radiation detector is used to measure the count rate at $10\\text{-minute}$ intervals with no source present. The readings are as follows:nn| Time interval | $0\\text{--}10\\text{ min}$ | $10\\text{--}20\\text{ min}$ | $20\\text{--}30\\text{ min}$ | $30\\text{--}40\\text{ min}$ |n| :--- | :--- | :--- | :--- | :--- |n| Counts | $198$ | $180$ | $175$ | $200$ |nnWhat is the average background count rate in counts per minute?",
+      "options": [
+        "$18.8\\text{ counts/min}$",
+        "$188\\text{ counts/min}$",
+        "$753\\text{ counts/min}$",
+        "$1.88\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total counts over 40 mins $= 198+180+175+200 = 753$. Average rate $= 753 / 40 = 18.825 \\approx 18.8\\text{ counts/min}$. \n\n**Common mistake:** Reporting the average per 10 mins ($188$) instead of per minute."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-pyp-q3",
+      "type": "mcq",
+      "question": "According to the textbook, which of the following are two natural sources of background radiation?",
+      "options": [
+        "Radon gas in the air and cosmic rays from the Sun",
+        "Microwaves from WiFi and radio waves from stars",
+        "Heat from the Earth's core and visible light from the Sun",
+        "Sound from the atmosphere and magnetic fields from rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text explicitly lists radon gas and cosmic rays as sources. \n\n**Common mistake:** Choosing non-ionising radiation like WiFi microwaves."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-pyp-q4",
+      "type": "mcq",
+      "question": "A student measures the radiation from an isotope for $20\\text{ minutes}$. The counter shows a total of $2800$ counts. If the background count is $25\\text{ counts/min}$, what is the count rate for the isotope alone?",
+      "options": [
+        "$115\\text{ counts/min}$",
+        "$140\\text{ counts/min}$",
+        "$2775\\text{ counts/min}$",
+        "$2300\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total rate $= 2800 / 20 = 140\\text{ cpm}$. Corrected rate $= 140 - 25 = 115\\text{ cpm}$. \n\n**Common mistake:** Subtracting 25 from the total counts ($2775$)."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-pyp-q5",
+      "type": "mcq",
+      "question": "A student suggests that a radiation counter is faulty because the readings change slightly every second ($520, 515, 540$ counts/s) while measuring a steady source. What is the correct explanation?",
+      "options": [
+        "The process of radioactive emission is random.",
+        "The detector is being affected by local temperature changes.",
+        "The battery in the counter is running low.",
+        "The source is being used up very quickly."
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluctuations in count rate are a standard feature of the random and spontaneous nature of nuclear decay. \n\n**Common mistake:** Thinking the fluctuations indicate a technical error."
+    }
+  ]
+}

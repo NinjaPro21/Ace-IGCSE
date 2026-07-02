@@ -1,0 +1,77 @@
+{
+  "id": "13-2-position-vectors-easy",
+  "topicId": "13-2-position-vectors",
+  "chapterId": "ch13-vectors",
+  "difficulty": "easy",
+  "title": "Position Vectors — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-2-position-vectors-easy-q1",
+      "type": "mcq",
+      "question": "If point A has coordinates (3, -4), what is its position vector $\\vec{OA}$ in component form?",
+      "options": [
+        "3i - 4j",
+        "-3i + 4j",
+        "3i + 4j",
+        "-4i + 3j"
+      ],
+      "correctIndex": 0,
+      "explanation": "A position vector $\\vec{OA}$ is simply the vector from the origin to the point A, using the coordinates as components.\n\n**Common mistake:** Swapping the x and y components or missing the negative sign."
+    },
+    {
+      "id": "13-2-position-vectors-easy-q2",
+      "type": "mcq",
+      "question": "Find the magnitude of the position vector $\\mathbf{r} = \\begin{pmatrix} 5 \\ 12 \\end{pmatrix}$.",
+      "options": [
+        "13",
+        "17",
+        "7",
+        "169"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude $= \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.\n\n**Common mistake:** Simply adding the components (17) instead of using Pythagoras' theorem."
+    },
+    {
+      "id": "13-2-position-vectors-easy-q3",
+      "type": "mcq",
+      "question": "Given $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, which expression represents the vector $\\vec{AB}$?",
+      "options": [
+        "b - a",
+        "a - b",
+        "a + b",
+        "b + a"
+      ],
+      "correctIndex": 0,
+      "explanation": "By vector addition, $\\vec{OA} + \\vec{AB} = \\vec{OB}$. Thus, $\\vec{AB} = \\vec{OB} - \\vec{OA} = \\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Reversing the subtraction to $a - b$."
+    },
+    {
+      "id": "13-2-position-vectors-easy-q4",
+      "type": "mcq",
+      "question": "Find the position vector of the midpoint of the line segment joining $P(2, 6)$ and $Q(8, 2)$.",
+      "options": [
+        "5i + 4j",
+        "10i + 8j",
+        "3i - 2j",
+        "6i + 4j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint $= ( (2+8)/2, (6+2)/2 ) = (5, 4)$. The vector is $5i + 4j$.\n\n**Common mistake:** Adding the coordinates but forgetting to divide by 2."
+    },
+    {
+      "id": "13-2-position-vectors-easy-q5",
+      "type": "mcq",
+      "question": "If $\\vec{OP} = \\begin{pmatrix} k \\ 8 \\end{pmatrix}$ has a magnitude of 10, find the positive value of k.",
+      "options": [
+        "6",
+        "2",
+        "18",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "$k^2 + 8^2 = 10^{2} \\implies k^2 + 64 = 100 \\implies k^2 = 36 \\implies k = 6$.\n\n**Common mistake:** Thinking $k + 8 = 10$ and concluding $k = 2$."
+    }
+  ]
+}

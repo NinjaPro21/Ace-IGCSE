@@ -1,0 +1,77 @@
+{
+  "id": "14-4-pitch-and-loudness-easy",
+  "topicId": "14-4-pitch-and-loudness",
+  "chapterId": "ch14-sound",
+  "difficulty": "easy",
+  "title": "Pitch and Loudness — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-pitch-and-loudness-easy-q1",
+      "type": "mcq",
+      "question": "Which physical characteristic of a sound wave is directly related to its pitch?",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Speed",
+        "Wavelength"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the 'Let's Map It' section, pitch is related to the frequency of a sound wave. **Common mistake:** Confusing pitch with loudness, which is related to amplitude."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-easy-q2",
+      "type": "mcq",
+      "question": "Which characteristic of a sound wave determines how loud it is perceived to be?",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Period",
+        "Velocity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material states that loudness is related to the amplitude of a sound wave. **Common mistake:** Thinking that frequency (which determines pitch) affects loudness."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-easy-q3",
+      "type": "mcq",
+      "question": "What happens to a sound if the amplitude of its vibrations increases while the frequency remains the same?",
+      "options": [
+        "The sound becomes louder",
+        "The sound becomes higher in pitch",
+        "The sound becomes quieter",
+        "The sound becomes lower in pitch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the amplitude increases the loudness of the sound, while keeping frequency constant ensures the pitch does not change. **Common mistake:** Thinking that hitting an object harder makes the note higher."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-easy-q4",
+      "type": "mcq",
+      "question": "A sound wave is described as having a very high frequency. What would a listener observe about this sound?",
+      "options": [
+        "It has a high pitch",
+        "It is very loud",
+        "It travels faster than a low-frequency sound",
+        "It has a very large amplitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency determines pitch; therefore, a high frequency results in a high-pitched sound. **Common mistake:** Believing high-frequency sounds travel faster; the speed of sound is constant for all frequencies in the same medium."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-easy-q5",
+      "type": "mcq",
+      "question": "Which of these changes would definitely cause a sound to become higher in pitch?",
+      "options": [
+        "Increasing the number of vibrations per second",
+        "Increasing the maximum displacement of the particles",
+        "Using a microphone to amplify the sound",
+        "Increasing the distance between the source and the listener"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is the number of vibrations per second. Since pitch is related to frequency, increasing vibrations per second raises the pitch. **Common mistake:** Selecting choice B, which actually increases loudness."
+    }
+  ]
+}

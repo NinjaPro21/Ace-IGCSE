@@ -1,0 +1,402 @@
+{
+  "id": "ch05-trigonometry-easy",
+  "topicId": "ch05-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "easy",
+  "title": "Chapter 5: Trigonometry — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-trigonometry-easy-q1",
+      "type": "mcq",
+      "question": "In a right-angled triangle, what name is given to the side that is opposite the $90°$ angle?",
+      "options": [
+        "The hypotenuse",
+        "The adjacent side",
+        "The opposite side",
+        "The vertical height"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the hypotenuse is the side opposite the right angle and is always the longest side of the triangle.\n\n**Common mistake:** A student might confuse the side names with trigonometric terms like 'opposite' or 'adjacent', which depend on the reference angle."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q2",
+      "type": "mcq",
+      "question": "A right-angled triangle has two shorter sides of length $6\\text{ cm}$ and $8\\text{ cm}$. Calculate the length of the hypotenuse.",
+      "options": [
+        "$10\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$\\sqrt{14}\\text{ cm}$",
+        "$100\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of $100$ is $10$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q3",
+      "type": "mcq",
+      "question": "The hypotenuse of a right-angled triangle is $13\\text{ cm}$ and one of the shorter sides is $5\\text{ cm}$. Find the length of the third side.",
+      "options": [
+        "$12\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$\\sqrt{194}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find a shorter side, subtract the square of the known side from the square of the hypotenuse: $13^2 - 5^2 = 169 - 25 = 144$. The square root is $12$.\n\n**Common mistake:** The student might add the squares ($169 + 25 = 194$) as if they were looking for the hypotenuse."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q4",
+      "type": "mcq",
+      "question": "Which formula is used to find the length of the interior diagonal $d$2$a$2$b$2$c$?",
+      "options": [
+        "$d = √a^2 + b^2 + c^2$",
+        "$d = a + b + c$",
+        "$d = √a^2 + b^2$",
+        "$d = a^2 + b^2 + c^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pythagoras' theorem in 3D is an extension of the 2D version, requiring the square root of the sum of the squares of all three dimensions.\n\n**Common mistake:** The student might use the 2D formula for the base diagonal only or forget the square root."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q5",
+      "type": "mcq",
+      "question": "Which set of side lengths represents a right-angled triangle according to the converse of Pythagoras' theorem?",
+      "options": [
+        "$7, 24, 25$",
+        "$5, 10, 12$",
+        "$3, 4, 6$",
+        "$8, 15, 18$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Check if $a^2 + b^2 = c^2$. $7^2 + 24^2 = 49 + 576 = 625$, and $25^2 = 625$. Since they are equal, it is right-angled.\n\n**Common mistake:** Students may assume any set of three increasing numbers is right-angled without testing the formula."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q6",
+      "type": "mcq",
+      "question": "In a right-angled triangle, if the side opposite an angle $x$2$O$2$H$2$O/H$?",
+      "options": [
+        "$\\sin x$",
+        "$\\cos x$",
+        "$\\tan x$",
+        "$\\text{hypotenuse} x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse.\n\n**Common mistake:** Students often swap sine and cosine, thinking cosine is the opposite/hypotenuse ratio."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q7",
+      "type": "mcq",
+      "question": "State the exact value of $\\tan 45°$.",
+      "options": [
+        "$1$",
+        "$0.5$",
+        "$\\sqrt{2}$",
+        "$1/\\sqrt{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a right-angled isosceles triangle with angles of $45°$, the opposite and adjacent sides are equal, making the ratio $1/1 = 1$.\n\n**Common mistake:** A student might confuse the value of $\\tan 45°$ with $\\sin 45°$ or $\\cos 45°$."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q8",
+      "type": "mcq",
+      "question": "Which side of a right-angled triangle is always the denominator in the ratios for both $\\sin x$2$\\cos x$?",
+      "options": [
+        "The hypotenuse",
+        "The opposite side",
+        "The adjacent side",
+        "The vertical height"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both $\\sin x$2$O/H$2$\\cos x$2$A/H$) are calculated by dividing a side by the length of the hypotenuse.\n\n**Common mistake:** A student might choose the adjacent side, confusing the cosine ratio with the tangent ratio."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q9",
+      "type": "mcq",
+      "question": "Identify the exact value of $\\cos 60°$.",
+      "options": [
+        "$0.5$",
+        "$\\sqrt{3}/2$",
+        "$1$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the properties of a $30-60-90$ triangle derived from an equilateral triangle, $\\cos 60° = 1/2$.\n\n**Common mistake:** Students frequently swap the values of $\\sin 60°$ and $\\cos 60°$, picking $\\sqrt{3}/2$ instead."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q10",
+      "type": "mcq",
+      "question": "What is the result of calculating $\\sin 30°$ on a scientific calculator set to degrees?",
+      "options": [
+        "$0.5$",
+        "$0.866$",
+        "$1$",
+        "$-0.988$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The exact value of $\\sin 30°$ is $1/2$, which is $0.5$ in decimal form.\n\n**Common mistake:** A student might have their calculator in radians mode, yielding a completely different value like $-0.988$."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q11",
+      "type": "mcq",
+      "question": "Which of the following is a correct three-figure bearing for a point exactly North-West of a starting position?",
+      "options": [
+        "$315°$",
+        "$045°$",
+        "$225°$",
+        "$135°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bearings are measured clockwise from North ($000°$). North-West is three-quarters of the way around ($270°$ for West + $45°$), totaling $315°$.\n\n**Common mistake:** A student might measure anticlockwise from North or confuse North-West with South-West ($225°$)."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q12",
+      "type": "mcq",
+      "question": "The bearing of Town $Y$2$X$2$072°$. Calculate the bearing of Town $X$2$Y$.",
+      "options": [
+        "$252°$",
+        "$108°$",
+        "$072°$",
+        "$288°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the back bearing when the initial bearing is less than $180°$, add $180°$. $72 + 180 = 252°$.\n\n**Common mistake:** The student might subtract the angle from $180°$ (finding the supplementary angle) instead of adding it to the North line."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q13",
+      "type": "mcq",
+      "question": "An observer looks at the top of a flagpole. Which term describes the angle between their horizontal line of sight and their line of sight to the top of the pole?",
+      "options": [
+        "Angle of elevation",
+        "Angle of depression",
+        "A three-figure bearing",
+        "A vertical gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle measured upward from the horizontal to an object is defined as the angle of elevation.\n\n**Common mistake:** Students may confuse elevation (upward) with depression (downward)."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q14",
+      "type": "mcq",
+      "question": "A map has a scale of $1 : 25000$. What actual distance in kilometres is represented by $4\\text{ cm}$ on the map?",
+      "options": [
+        "$1\\text{ km}$",
+        "$100\\text{ km}$",
+        "$0.1\\text{ km}$",
+        "$4\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$4\\text{ cm} \\times 25000 = 100000\\text{ cm}$. Converting to km: $100000 ÷ 100 ÷ 1000 = 1\\text{ km}$.\n\n**Common mistake:** A student might miscalculate the number of zeros when converting from centimetres to kilometres."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q15",
+      "type": "mcq",
+      "question": "John is at the top of a cliff looking down at a boat. The angle between the horizontal and his line of sight to the boat is $25°$. What is this angle called?",
+      "options": [
+        "Angle of depression",
+        "Angle of elevation",
+        "Bearing",
+        "Acute intercept"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles measured downward from the horizontal to an object are angles of depression.\n\n**Common mistake:** A student might assume any angle involving height is 'elevation' regardless of the direction of sight."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q16",
+      "type": "mcq",
+      "question": "In three-dimensional trigonometry, how are problems typically solved using two-dimensional methods?",
+      "options": [
+        "By identifying and redrawing 2D triangles hidden inside the 3D shape",
+        "By using a completely different set of 3D trigonometric ratios",
+        "By ignoring the height of the object and solving only the base",
+        "By multiplying the 2D area by the 3D volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triangles in 3D problems are still two-dimensional; they are simply positioned on different planes (horizontal and vertical) within the shape.\n\n**Common mistake:** A student might incorrectly assume they need to learn new formulas specifically for 3D trigonometry."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q17",
+      "type": "mcq",
+      "question": "Identify the standard formula for finding the length of the interior diagonal $d$2$l, w,$ and $h$.",
+      "options": [
+        "$d = √l^2 + w^2 + h^2$",
+        "$d = l + w + h$",
+        "$d = √l^2 + w^2$",
+        "$d = (l \\times w) + h$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 3D version of Pythagoras’ theorem sums the squares of all three dimensions to find the longest internal diagonal.\n\n**Common mistake:** Students often apply only the 2D formula ($√l^2 + w^2$), which only calculates the diagonal of the base."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q18",
+      "type": "mcq",
+      "question": "In a right-angled triangular prism, the angle between a slant edge and the horizontal base is found using which trigonometric ratio if you know the vertical height and the horizontal distance?",
+      "options": [
+        "Tangent ($\\tan$)",
+        "Sine ($\\sin$)",
+        "Cosine ($\\cos$)",
+        "Pythagoras' Theorem"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertical height is the opposite side and the horizontal distance is the adjacent side; the ratio $O/A$ defines the tangent.\n\n**Common mistake:** The student might confuse which side is adjacent and which is opposite in the 3D perspective."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q19",
+      "type": "mcq",
+      "question": "What is the relationship between a vertical pole and any horizontal line drawn from its base on a level field?",
+      "options": [
+        "They are always perpendicular ($90°$)",
+        "They are always parallel",
+        "The angle depends on the length of the pole",
+        "They form an acute angle of $45°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, a vertical object is at right angles ($90°$) to a horizontal plane.\n\n**Common mistake:** A student might assume the angle changes based on the perspective or the observer's distance."
+    },
+    {
+      "type": "mcq",
+      "question": "Calculate the angle between the line joining $A(5, 0)$ and $B(7, 3)$ and the **x-axis**.",
+      "options": [
+        "$56.3°$",
+        "$33.7°$",
+        "$45.0°$",
+        "$60.0°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = (3-0)/(7-5) = 1.5$. Angle $\\theta = \\tan^{-1}(1.5) \\approx 56.3°$.\n\n**Common mistake:** Using the distance formula to find the length but forgetting to apply the inverse tangent of the slope.",
+      "id": "ch05-trigonometry-easy-q20"
+    },
+    {
+      "id": "ch05-trigonometry-easy-q21",
+      "type": "mcq",
+      "question": "According to the unit circle definition, if a point $P(x, y)$ moves around a circle of radius 1, which trigonometric ratio is represented by the $y$2$P$?",
+      "options": [
+        "$\\sin \\theta$",
+        "$\\cos \\theta$",
+        "$\\tan \\theta$",
+        "The radius"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a unit circle with radius 1, the $y$2$P$2$\\theta$2$\\sin \\theta$.\n\n**Common mistake:** Students often swap the coordinates, thinking the $x$2$y$-coordinate is cosine."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q22",
+      "type": "mcq",
+      "question": "At which of the following angles is the function $y = \\tan x$ undefined (resulting in an asymptote)?",
+      "options": [
+        "$90°$",
+        "$0°$",
+        "$180°$",
+        "$360°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tangent function is undefined when the $x$2$90°$ and $270°$.\n\n**Common mistake:** A student might confuse the asymptotes of tangent with the roots of the sine function ($0°, 180°, 360°$)."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q23",
+      "type": "mcq",
+      "question": "Using the symmetry of the sine graph, if $\\sin 40° = 0.643$, find another angle between $0°$ and $180°$ that has the same sine value.",
+      "options": [
+        "$140°$",
+        "$50°$",
+        "$220°$",
+        "$320°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sine curve has reflective symmetry about $x = 90°$, meaning $\\sin x = \\sin(180° - x)$. Thus, $\\sin 140° = \\sin 40°$.\n\n**Common mistake:** Students may subtract from $90°$ or $360°$ incorrectly instead of using the $180°$ rule."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q24",
+      "type": "mcq",
+      "question": "Which general rule explains why $\\cos(-30°) = \\cos 30°$?",
+      "options": [
+        "$\\cos(-x) = \\cos x$",
+        "$\\cos(-x) = -\\cos x$",
+        "$\\cos x = \\cos(180° - x)$",
+        "$\\cos x = \\sin(90° - x)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cosine graph has reflective symmetry about the $y$2$\\cos(-x) = \\cos x$.\n\n**Common mistake:** Students often assume all trigonometric functions behave the same and might think $\\cos(-x) = -\\cos x$, which is actually the rule for sine."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q25",
+      "type": "mcq",
+      "question": "State the exact value of $\\cos 120°$.",
+      "options": [
+        "$-0.5$",
+        "$0.5$",
+        "$-0.866$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the unit circle or the rule $\\cos x = -\\cos(180° - x)$ for obtuse angles, $\\cos 120° = -\\cos 60° = -0.5$.\n\n**Common mistake:** The student may forget the negative sign, as cosine is negative in the second quadrant."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q26",
+      "type": "mcq",
+      "question": "In triangle ABC, side $a = 10$, angle $A = 30°$, and angle $B = 45°$. Which rule is most appropriate to find side $b$?",
+      "options": [
+        "The Sine Rule",
+        "The Cosine Rule",
+        "Pythagoras' Theorem",
+        "The Tangent Rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "You know an opposite pair (side $a$2$A$2$B$), which is the standard criteria for the Sine Rule.\n\n**Common mistake:** Students may try to use Pythagoras' Theorem even though the triangle is not right-angled."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q27",
+      "type": "mcq",
+      "question": "Which of the following configurations requires the use of the Cosine Rule to find the first unknown part?",
+      "options": [
+        "Three sides are known (SSS)",
+        "Two angles and one side are known (AAS)",
+        "One side and its opposite angle are known",
+        "Two sides and a non-included angle are known"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Cosine Rule is specifically used when all three sides (SSS) or two sides and the included angle (SAS) are known.\n\n**Common mistake:** Students often think the Sine Rule is the 'universal' rule for all non-right triangles."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q28",
+      "type": "mcq",
+      "question": "In the Cosine Rule formula $a^2 = b^2 + c^2 - 2bc \\cos A$2$A$2$a$?",
+      "options": [
+        "The angle opposite side $a$",
+        "The angle adjacent to side $a$",
+        "The largest angle in the triangle",
+        "The angle between sides $a$2$b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In both Sine and Cosine rules, the letter $a$2$A$.\n\n**Common mistake:** Confusion often arises between which angle is 'opposite' and which is 'included'."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q29",
+      "type": "mcq",
+      "question": "Calculate the value of side $c$2$\\frac{c}{\\sin 50°} = \\frac{7}{\\sin 60°}$.",
+      "options": [
+        "6.19",
+        "7.92",
+        "5.36",
+        "9.14"
+      ],
+      "correctIndex": 0,
+      "explanation": "$c = (7 \\times \\sin 50°) / \\sin 60° = (7 \\times 0.766) / 0.866 \\approx 6.19$.\n\n**Common mistake:** A student might cross-multiply incorrectly or use $\\cos$2$\\sin$."
+    },
+    {
+      "id": "ch05-trigonometry-easy-q30",
+      "type": "mcq",
+      "question": "Given $\\cos x = -0.5$ in the Cosine Rule, what does this tell you about the nature of the angle $x$?",
+      "options": [
+        "It is an obtuse angle ($120°$)",
+        "It is an acute angle ($60°$)",
+        "It is a right angle ($90°$)",
+        "The triangle is impossible"
+      ],
+      "correctIndex": 0,
+      "explanation": "A negative cosine value indicates that the angle is obtuse (between $90°$ and $180°$). Specifically, $\\cos 120° = -0.5$.\n\n**Common mistake:** Students may ignore the negative sign and provide the acute reference angle $60°$."
+    }
+  ]
+}

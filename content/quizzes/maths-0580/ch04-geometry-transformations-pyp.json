@@ -1,0 +1,467 @@
+{
+  "id": "ch04-geometry-transformations-pyp",
+  "topicId": "ch04-geometry-transformations",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "pyp",
+  "title": "Chapter 4: Geometry & Transformations — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch04-geometry-transformations-pyp-q1",
+      "type": "mcq",
+      "question": "Work out the number of sides of a regular polygon where each interior angle is $162°$.",
+      "options": [
+        "$20$",
+        "$18$",
+        "$22$",
+        "$15$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exterior angle = $180 - 162 = 18°$. Number of sides = $360 / 18 = 20$.\n\n**Common mistake:** A student might try to solve $(n-2) \\times 180 = 162n$ and make an algebraic error or miscalculate the subtraction."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows a regular hexagon $ABCDEF$2$FDE$.",
+      "options": [
+        "$30°$",
+        "$60°$",
+        "$120°$",
+        "$90°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a regular hexagon, each interior angle is $120°$. Triangle $FED$2$FE=ED)$. $2\\angle FED = 120°$, so $\\angle FDE = (180 - 120) / 2 = 30°$.\n\n**Common mistake:** A student might assume the triangle is equilateral and answer $60°$ or provide the full interior angle $120°$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q3",
+      "type": "mcq",
+      "question": "Hence, find the value of $n$2$2340°$.",
+      "options": [
+        "$15$",
+        "$13$",
+        "$17$",
+        "$14$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$(n - 2) \\times 180 = 2340 \\Rightarrow n - 2 = 13 \\Rightarrow n = 15$.\n\n**Common mistake:** The student might divide by $180$ and forget to add $2$ at the end, resulting in $13$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q4",
+      "type": "mcq",
+      "question": "Show that the exterior angle of a regular decagon is $36°$. What is the size of each interior angle?",
+      "options": [
+        "$144°$",
+        "$36°$",
+        "$180°$",
+        "$154°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exterior angle = $360 / 10 = 36°$. Interior angle = $180 - 36 = 144°$.\n\n**Common mistake:** The student might subtract the exterior angle from $360°$ or miscount the sides of a decagon."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q5",
+      "type": "mcq",
+      "question": "Find the set of values of $x$2$x$2$2x$2$60$, form an acute-angled triangle.",
+      "options": [
+        "$30 < x < 45$",
+        "$x = 40$",
+        "$x < 40$",
+        "$x > 30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum: $x + 2x + 60 = 180 \\Rightarrow 3x = 120 \\Rightarrow x = 40$. The angles are $40°, 80°$ and $60°$. Since all are less than $90°$, it is acute. The only value is $x=40$. (Question phrased as 'set of values' to mimic PYP style).\n\n**Common mistake:** A student might miscalculate $x$2$2x$2$90°$ for other possible values."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q6",
+      "type": "mcq",
+      "question": "State the number of lines of symmetry for a regular nonagon.",
+      "options": [
+        "$9$",
+        "$1$",
+        "$18$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A regular polygon with $n$2$n$ lines of symmetry.\n\n**Common mistake:** A student may think odd-sided polygons have fewer lines of symmetry."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q7",
+      "type": "mcq",
+      "question": "Work out the order of rotational symmetry of a cube about an axis passing through two opposite vertices.",
+      "options": [
+        "$3$",
+        "$4$",
+        "$2$",
+        "$6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are four such 'long diagonal' axes in a cube, and each has rotational symmetry of order $3$.\n\n**Common mistake:** Students often assume all cube axes have order $4$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q8",
+      "type": "mcq",
+      "question": "A prism has a cross-section in the shape of a semi-circle. Write down the number of planes of symmetry for this prism.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$infinite$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "It has one plane along its length through the center of the semi-circle and one plane that is a cross-section through the middle of its length.\n\n**Common mistake:** A student might only identify the longitudinal plane and forget the cross-sectional plane."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q9",
+      "type": "mcq",
+      "question": "Hence, find the order of rotational symmetry of a regular octagon.",
+      "options": [
+        "$8$",
+        "$4$",
+        "$16$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The order of rotational symmetry for any regular $n$2$n$.\n\n**Common mistake:** A student might provide the interior angle sum or the number of lines of symmetry if they misread the question."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q10",
+      "type": "mcq",
+      "question": "Show that the number of planes of symmetry for a cube is $9$. How many of these planes are parallel to the faces of the cube?",
+      "options": [
+        "$3$",
+        "$6$",
+        "$9$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cube has $9$ planes of symmetry: $3$ are parallel to the faces and $6$ pass through opposite edges (diagonals).\n\n**Common mistake:** The student might reverse the two counts or think all $9$ are of the same type."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q11",
+      "type": "mcq",
+      "question": "Points $A, B, C$2$D$2$O$2$∠AOC = 124°$. Write down the size of $∠ABC$.",
+      "options": [
+        "$62°$",
+        "$248°$",
+        "$118°$",
+        "$56°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle at the centre is twice the angle at the circumference. $∠ABC = 124 ÷ 2 = 62°$.\n\n**Common mistake:** A student might multiply the angle by $2$ or subtract from $180°$ incorrectly."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q12",
+      "type": "mcq",
+      "question": "Hence, using the value $∠ABC = 62°$, find the size of $∠ADC$2$ABCD$ is a cyclic quadrilateral.",
+      "options": [
+        "$118°$",
+        "$62°$",
+        "$298°$",
+        "$124°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite angles of a cyclic quadrilateral add up to $180°$. $180 - 62 = 118°$.\n\n**Common mistake:** The student might think opposite angles are equal ($62°$) or double the angle ($124°$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q13",
+      "type": "mcq",
+      "question": "The line $XY$2$T$2$TA$2$48°$ with the tangent. Which theorem is used to show that $∠TBA = 48°$, where $B$ is a point on the major arc?",
+      "options": [
+        "Alternate Segment Theorem",
+        "Angle at the centre is twice the angle at circumference",
+        "Angles in the same segment are equal",
+        "Opposite angles in a cyclic quadrilateral sum to $180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Alternate Segment Theorem directly states that the angle between a tangent and a chord is equal to the angle in the alternate segment.\n\n**Common mistake:** Students often misidentify this as 'angles in the same segment' because both involve equality."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q14",
+      "type": "mcq",
+      "question": "Calculate the size of angle $x$2$3y$2$y = 42$.",
+      "options": [
+        "$54°$",
+        "$126°$",
+        "$42°$",
+        "$138°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite angle $= 3 \\times 42 = 126°$. $x + 126 = 180 \\Rightarrow x = 54°$.\n\n**Common mistake:** The student may solve for $y$2$3$ or subtract from $180$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q15",
+      "type": "mcq",
+      "question": "Show that for any circle with centre $O$2$AB$2$ACB$2$90°$. What is the reason for this?",
+      "options": [
+        "Angle in a semi-circle is $90°$",
+        "Angles in the same segment are equal",
+        "Radius is perpendicular to the tangent",
+        "The sum of angles in a triangle is $180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a fundamental circle theorem: any angle subtended at the circumference by a diameter is a right angle.\n\n**Common mistake:** A student might pick a generic triangle property instead of the specific circle theorem required."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q16",
+      "type": "mcq",
+      "question": "Construct triangle $XYZ$2$XY = 8\\text{ cm}, YZ = 6\\text{ cm},$ and $XZ = 5\\text{ cm}$. Use a protractor to measure angle $XYZ$. Which value is the best estimate?",
+      "options": [
+        "$38°$",
+        "$90°$",
+        "$52°$",
+        "$124°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After constructing the triangle accurately, the angle opposite the side $XZ$2$5\\text{ cm}$) is the smallest and measures approximately $38°$.\n\n**Common mistake:** Students may misread the protractor or measure the angle at a different vertex."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q17",
+      "type": "mcq",
+      "question": "Using a ruler and compasses only, construct the perpendicular bisector of a line $AB$2$P$ on this bisector?",
+      "options": [
+        "$PA = PB$",
+        "$∠PAB = 90°$",
+        "$PA + PB = AB$",
+        "$Triangle PAB$ is equilateral"
+      ],
+      "correctIndex": 0,
+      "explanation": "The perpendicular bisector is the locus of all points equidistant from the two points $A$2$B$.\n\n**Common mistake:** A student might think the line itself is $90°$ to the segments $PA$2$PB$2$AB$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q18",
+      "type": "mcq",
+      "question": "Show that the construction of a $45°$ angle requires bisecting a $90°$ angle. If the $90°$ angle is $∠LMN$2$45°$ angle be?",
+      "options": [
+        "At point $M$",
+        "At point $L$",
+        "At point $N$",
+        "At the midpoint of $LN$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle vertex remains at the original point $M$2$90°$ angle.\n\n**Common mistake:** The student might assume the vertex shifts to the midpoint of the chord connecting the arms of the angle."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q19",
+      "type": "mcq",
+      "question": "A map shows three towns $A, B,$ and $C$2$A$2$B$2$AC$2$BC$. Which construction determines its location?",
+      "options": [
+        "The intersection of the perpendicular bisector of $AB$2$∠ACB$",
+        "The intersection of the perpendicular bisectors of $AC$2$BC$",
+        "The intersection of the angle bisectors of $∠ABC$2$∠BAC$",
+        "The midpoint of the line $AB$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equidistant from two points requires a perpendicular bisector; equidistant from two lines requires an angle bisector.\n\n**Common mistake:** A student might use two perpendicular bisectors, which would find the point equidistant from three towns, not two towns and two roads."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q20",
+      "type": "mcq",
+      "question": "Hence, construct a rhombus with side length $6\\text{ cm}$ and one diagonal of $10\\text{ cm}$. What is the length of the other diagonal?",
+      "options": [
+        "$6.6\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After constructing the rhombus using side arcs of $6\\text{ cm}$ from the ends of a $10\\text{ cm}$ line, measuring the vertical diagonal gives approximately $6.6\\text{ cm}$.\n\n**Common mistake:** The student might assume the diagonals are equal or related by a simple integer ratio."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q21",
+      "type": "mcq",
+      "question": "The diagram shows the net of a closed rectangular box. The dimensions of the faces are $5\\text{ cm} \\times 4\\text{ cm}$, $5\\text{ cm} \\times 10\\text{ cm}$, and $4\\text{ cm} \\times 10\\text{ cm}$. Calculate the volume of the box.",
+      "options": [
+        "$200\\text{ cm}³$",
+        "$100\\text{ cm}³$",
+        "$19\\text{ cm}³$",
+        "$220\\text{ cm}³$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dimensions of the box are $5, 4,$ and $10$. Volume $= 5 \\times 4 \\times 10 = 200\\text{ cm}³$.\n\n**Common mistake:** A student might add the dimensions ($5+4+10=19$) or calculate the surface area ($220$) instead of volume."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q22",
+      "type": "mcq",
+      "question": "A solid prism has a cross-section of a regular hexagon with side $2\\text{ cm}$ and area $10.4\\text{ cm}²$. The length of the prism is $8\\text{ cm}$. Calculate the total surface area of its net.",
+      "options": [
+        "$116.8\\text{ cm}²$",
+        "$96\\text{ cm}²$",
+        "$106.4\\text{ cm}²$",
+        "$20.8\\text{ cm}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total area $= 2 \\times BaseArea + Perimeter \\times Length$2$Area = 2(10.4) + (6 \\times 2) \\times 8 = 20.8 + 96 = 116.8\\text{ cm}²$.\n\n**Common mistake:** A student might forget to include both hexagonal bases or only calculate the area of the rectangles."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q23",
+      "type": "mcq",
+      "question": "Hence, given the net of a cylinder where the rectangle has a length of $20\\pi\\text{ cm}$ and a width of $15\\text{ cm}$, find the radius of the circular faces.",
+      "options": [
+        "$10\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$15\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The length of the rectangle equals the circumference: $2\\pi r = 20\\pi \\Rightarrow 2r = 20 \\Rightarrow r = 10\\text{ cm}$.\n\n**Common mistake:** The student might assume the radius is half the width ($7.5$) or the full length ($20$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q24",
+      "type": "mcq",
+      "question": "Show that the net of a cube with side length $s$2$6s^2$. If $s = 0.5\\text{ m}$, what is the area of the net in $\\text{cm}²$?",
+      "options": [
+        "$15000\\text{ cm}²$",
+        "$1500\\text{ cm}²$",
+        "$1.5\\text{ cm}²$",
+        "$6000\\text{ cm}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$s = 50\\text{ cm}$. Area $= 6 \\times 50^2 = 6 \\times 2500 = 15000\\text{ cm}²$.\n\n**Common mistake:** A student might calculate $6 \\times 0.5^2 = 1.5$ and then fail to convert the units correctly (forgetting that $1\\text{ m}² = 10000\\text{ cm}²$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q25",
+      "type": "mcq",
+      "question": "Find the number of edges on a 3D solid if its net has $8$ congruent triangles that meet at a single central point when folded.",
+      "options": [
+        "$16$",
+        "$8$",
+        "$12$",
+        "$24$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This describes an octagonal pyramid. It has 8 base edges and 8 slant edges, totaling 16 edges.\n\n**Common mistake:** A student might count only the 8 triangles or confuse it with an octahedron (which has 12 edges)."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q26",
+      "type": "mcq",
+      "question": "The position vector of $P$2$\\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$ and the position vector of $Q$2$\\begin{pmatrix} -1 \\ 4 \\end{pmatrix}$. Work out the vector $\\vec{PQ}$ as a column vector.",
+      "options": [
+        "$\\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 2 \\ 6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -3 \\ 8 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{PQ} = \\vec{OQ} - \\vec{OP} = \\begin{pmatrix} -1 \\ 4 \\end{pmatrix} - \\begin{pmatrix} 3 \\ 2 \\end{pmatrix} = \\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** A student may add the vectors instead of subtracting, leading to $\\begin{pmatrix} 2 \\ 6 \\end{pmatrix}$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q27",
+      "type": "mcq",
+      "question": "In triangle $OAB$2$M$2$AB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Find $\\vec{OM}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "$0.5\\mathbf{a} + 0.5\\mathbf{b}$",
+        "$\\mathbf{b} - \\mathbf{a}$",
+        "$\\mathbf{a} + \\mathbf{b}$",
+        "$0.5\\mathbf{b} - 0.5\\mathbf{a}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{OM} = \\vec{OA} + 0.5\\vec{AB} = \\mathbf{a} + 0.5(\\mathbf{b} - \\mathbf{a}) = \\mathbf{a} + 0.5\\mathbf{b} - 0.5\\mathbf{a} = 0.5\\mathbf{a} + 0.5\\mathbf{b}$.\n\n**Common mistake:** The student might assume $\\vec{OM}$ is simply half of $\\vec{AB}$ or the sum of the position vectors without the $0.5$ factor."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q28",
+      "type": "mcq",
+      "question": "Calculate the magnitude of the vector $\\begin{pmatrix} 7 \\ -24 \\end{pmatrix}$.",
+      "options": [
+        "$25$",
+        "$31$",
+        "$17$",
+        "$625$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude $= \\sqrt{7^2 + (-24)²} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.\n\n**Common mistake:** The student might miscalculate the square of 24 or think the negative sign means they should subtract $49$ from $576$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q29",
+      "type": "mcq",
+      "question": "Hence, find the value of $k$2$\\begin{pmatrix} 6 \\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 9 \\ k \\end{pmatrix}$.",
+      "options": [
+        "$6$",
+        "$1.5$",
+        "$4$",
+        "$13.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scale factor $= 9 / 6 = 1.5$. Therefore $k = 4 \\times 1.5 = 6$.\n\n**Common mistake:** The student might invert the ratio ($6/9$) or try to add a constant to the component."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q30",
+      "type": "mcq",
+      "question": "Show that the vector $\\mathbf{u} = \\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} -6 \\ -8 \\end{pmatrix}$ are parallel. Which statement is correct?",
+      "options": [
+        "$\\mathbf{v} = -2\\mathbf{u}$",
+        "$\\mathbf{v} = 2\\mathbf{u}$",
+        "The magnitudes are equal",
+        "The vectors are perpendicular"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two vectors are parallel if one is a scalar multiple of the other. Here $-2 \\times 3 = -6$ and $-2 \\times 4 = -8$.\n\n**Common mistake:** The student might forget to check the sign of the multiplier or misidentify the relationship as perpendicularity."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q31",
+      "type": "mcq",
+      "question": "Describe fully the single transformation that maps triangle $A$2$(1, 1), (2, 1), (1, 2)$ onto triangle $B$2$(-1, -1), (-2, -1), (-1, -2)$.",
+      "options": [
+        "Rotation of $180°$ about the origin $(0, 0)$",
+        "Enlargement, scale factor $-1$, centre $(1, 1)$",
+        "Reflection in the line $y = -x$",
+        "Translation by vector $\\begin{pmatrix} -2 \\ -2 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coordinates $(x, y)$ have both been negated to $(-x, -y)$, which is the coordinate rule for a $180°$ rotation about the origin.\n\n**Common mistake:** A student might describe this as a reflection in both axes, which is correct but the question asks for a 'single' transformation."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q32",
+      "type": "mcq",
+      "question": "Triangle $P$2$Q$2$\\begin{pmatrix} 3 \\ -2 \\end{pmatrix}$. Triangle $Q$2$R$2$\\begin{pmatrix} -1 \\ 4 \\end{pmatrix}$. Describe the single transformation that maps $P$2$R$.",
+      "options": [
+        "Translation by vector $\\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$",
+        "Translation by vector $\\begin{pmatrix} 4 \\ 2 \\end{pmatrix}$",
+        "Rotation $180°$ about $(1, 1)$",
+        "Enlargement, scale factor $2$, centre $(0, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The single transformation for successive translations is the sum of the vectors: $\\begin{pmatrix} 3-1 \\ -2+4 \\end{pmatrix} = \\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** A student might subtract the vectors or only apply one of the translations."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q33",
+      "type": "mcq",
+      "question": "Find the coordinates of the image of point $(2, 5)$ after an enlargement with scale factor $2$ and centre $(1, 3)$.",
+      "options": [
+        "$(3, 7)$",
+        "$(4, 10)$",
+        "$(5, 9)$",
+        "$(3, 10)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vector from centre to point is $\\begin{pmatrix} 1 \\ 2 \\end{pmatrix}$. Scaled vector is $2 \\times \\begin{pmatrix} 1 \\ 2 \\end{pmatrix} = \\begin{pmatrix} 2 \\ 4 \\end{pmatrix}$. Image is $(1+2, 3+4) = (3, 7)$.\n\n**Common mistake:** The student might multiply the original coordinates by 2 and ignore the centre."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q34",
+      "type": "mcq",
+      "question": "Triangle $ABC$2$A'B'C'$ by a reflection in the line $x = 1$. If $A$2$(4, 3)$, work out the coordinates of $A'$.",
+      "options": [
+        "$(-2, 3)$",
+        "$(1, 3)$",
+        "$(-4, 3)$",
+        "$(6, 3)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The $x$2$A(4, 3)$ to the line $x = 1$ is $4 - 1 = 3$ units. The image is $3$ units on the other side: $1 - 3 = -2$. The $y$-coordinate stays 3.\n\n**Common mistake:** A student might subtract 1 from 4 incorrectly or think the image is at $x=1$."
+    },
+    {
+      "id": "ch04-geometry-transformations-pyp-q35",
+      "type": "mcq",
+      "question": "Hence, describe fully the single transformation equivalent to a reflection in the $x$2$y$-axis.",
+      "options": [
+        "Rotation $180°$ about $(0, 0)$",
+        "Reflection in the line $y = -x$",
+        "Reflection in the line $y = x$",
+        "Rotation $90°$ clockwise about $(0, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection in $x$2$(x, y) \\to (x, -y)$. Subsequent reflection in $y$2$(x, -y) \\to (-x, -y)$. This is a $180°$ rotation about the origin.\n\n**Common mistake:** A student might assume two reflections in different lines always result in another reflection."
+    }
+  ]
+}

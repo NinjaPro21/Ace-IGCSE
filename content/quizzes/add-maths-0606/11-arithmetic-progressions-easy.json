@@ -1,0 +1,77 @@
+{
+  "id": "11-arithmetic-progressions-easy",
+  "topicId": "11-arithmetic-progressions",
+  "chapterId": "ch11-series",
+  "difficulty": "easy",
+  "title": "Arithmetic Progressions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-arithmetic-progressions-easy-q1",
+      "type": "mcq",
+      "question": "Find the common difference of the arithmetic progression: 7, 11, 15, 19, ...",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common difference d = 11 - 7 = 4.\n\n**Common mistake:** Subtracting the first term from the second in the wrong order or assuming a different sequence type."
+    },
+    {
+      "id": "11-arithmetic-progressions-easy-q2",
+      "type": "mcq",
+      "question": "Calculate the 10th term of the AP where the first term is 4 and the common difference is 3.",
+      "options": [
+        "31",
+        "34",
+        "30",
+        "27"
+      ],
+      "correctIndex": 0,
+      "explanation": "u₁₀ = a + 9d = 4 + 9(3) = 4 + 27 = 31.\n\n**Common mistake:** Using (n) instead of (n-1) in the formula, leading to 4 + 10(3) = 34."
+    },
+    {
+      "id": "11-arithmetic-progressions-easy-q3",
+      "type": "mcq",
+      "question": "Find the 5th term of the sequence with first term 5 and common difference -2.",
+      "options": [
+        "-3",
+        "3",
+        "1",
+        "-5"
+      ],
+      "correctIndex": 0,
+      "explanation": "u₅ = 5 + 4(-2) = 5 - 8 = -3.\n\n**Common mistake:** Adding the common difference instead of subtracting it, or using the wrong term index."
+    },
+    {
+      "id": "11-arithmetic-progressions-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the sum of the first 5 terms of the AP: 2, 4, 6, 8, ...",
+      "options": [
+        "30",
+        "20",
+        "10",
+        "40"
+      ],
+      "correctIndex": 0,
+      "explanation": "S₅ = 5/2 [2(2) + 4(2)] = 2.5 [4 + 8] = 2.5(12) = 30. Alternatively: 2+4+6+8+10 = 30.\n\n**Common mistake:** Forgetting to multiply by n/2 or miscounting the 5th term."
+    },
+    {
+      "id": "11-arithmetic-progressions-easy-q5",
+      "type": "mcq",
+      "question": "If the first term is 10 and the common difference is 5, which term is equal to 25?",
+      "options": [
+        "The 4th term",
+        "The 3rd term",
+        "The 5th term",
+        "The 2nd term"
+      ],
+      "correctIndex": 0,
+      "explanation": "25 = 10 + $(n-1)^{5}$ => 15 = $(n-1)^{5}$ => 3 = n-1 => n = 4.\n\n**Common mistake:** Incorrectly identifying n=3 because 3 x 5 = 15, forgetting the first term offset."
+    }
+  ]
+}

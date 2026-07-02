@@ -1,0 +1,77 @@
+{
+  "id": "19-2-the-nucleus-hard",
+  "topicId": "19-2-the-nucleus",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "hard",
+  "title": "The Nucleus — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-2-the-nucleus-hard-q1",
+      "type": "mcq",
+      "question": "A neutral atom of $^{14}_6 C$ loses one electron to become an ion. What is the composition of the resulting ion?",
+      "options": [
+        "6 protons, 8 neutrons, 5 electrons",
+        "6 protons, 8 neutrons, 6 electrons",
+        "5 protons, 8 neutrons, 6 electrons",
+        "6 protons, 14 neutrons, 5 electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "A positive ion is formed when a neutral atom loses an electron. $^{14}6 C$ has 6 protons, 8 neutrons ($14-6$), and originally 6 electrons. After losing one, it has 5 electrons. \n\n**Common mistake:** Thinking a proton is lost to become an ion."
+    },
+    {
+      "id": "19-2-the-nucleus-hard-q2",
+      "type": "mcq",
+      "question": "An atom is described as having $Z=11$ and $A=23$. If this atom gains an electron, what is the charge and composition of the resulting particle?",
+      "options": [
+        "Negative ion; 11 protons, 12 neutrons, 12 electrons",
+        "Positive ion; 11 protons, 12 neutrons, 10 electrons",
+        "Neutral atom; 11 protons, 23 neutrons, 11 electrons",
+        "Negative ion; 12 protons, 11 neutrons, 12 electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaining an electron makes it a negative ion. It has 11 protons ($Z$), 12 neutrons ($23-11$), and 12 electrons ($11+1$). \n\n**Common mistake:** Changing the number of neutrons or protons when adding an electron."
+    },
+    {
+      "id": "19-2-the-nucleus-hard-q3",
+      "type": "mcq",
+      "question": "Why do isotopes of the same element exhibit identical chemical properties?",
+      "options": [
+        "They have the same number of protons and electrons.",
+        "They have the same number of nucleons in the nucleus.",
+        "They have the same number of neutrons and protons.",
+        "They have the same approximate mass."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chemical properties are determined by the arrangement of electrons, which depends on the proton number. Since isotopes have the same proton number, they have the same electron count in neutral atoms. \n\n**Common mistake:** Thinking chemical properties depend on the mass."
+    },
+    {
+      "id": "19-2-the-nucleus-hard-q4",
+      "type": "mcq",
+      "question": "The nucleus of an atom contains 92 protons and 146 neutrons. What is the total number of nucleons and the total relative charge of the nucleus?",
+      "options": [
+        "Nucleons: 238; Charge: +92",
+        "Nucleons: 146; Charge: +92",
+        "Nucleons: 238; Charge: 0",
+        "Nucleons: 92; Charge: +238"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total nucleons $A = 92 + 146 = 238$. The charge of the nucleus comes only from protons (+1 each), while neutrons are neutral, so nuclear charge is +92. \n\n**Common mistake:** Thinking the nucleus is neutral because the atom is neutral."
+    },
+    {
+      "id": "19-2-the-nucleus-hard-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies an atom that is a positive ion?nn| Atom | Protons | Neutrons | Electrons |n| :--- | :--- | :--- | :--- |n| W | 6 | 6 | 6 |n| X | 7 | 7 | 10 |n| Y | 11 | 12 | 10 |n| Z | 17 | 18 | 17 |",
+      "options": [
+        "Atom Y",
+        "Atom W",
+        "Atom X",
+        "Atom Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "An atom is a positive ion if it has more protons (+) than electrons (-). Atom Y has 11 protons and 10 electrons. \n\n**Common mistake:** Selecting Atom X, which is a negative ion (more electrons than protons)."
+    }
+  ]
+}

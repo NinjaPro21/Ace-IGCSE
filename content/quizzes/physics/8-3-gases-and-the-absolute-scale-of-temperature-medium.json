@@ -1,0 +1,77 @@
+{
+  "id": "8-3-gases-and-the-absolute-scale-of-temperature-medium",
+  "topicId": "8-3-gases-and-the-absolute-scale-of-temperature",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "medium",
+  "title": "Gases and the Absolute Scale of Temperature — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-medium-q1",
+      "type": "mcq",
+      "question": "A sample of gas has a volume of $200\\text{ cm}^3$ at a pressure of $1.0 \\times 10^{5}\\text{ Pa}$. If it is compressed to $50\\text{ cm}^3$ at constant temperature, what is the new pressure?",
+      "options": [
+        "$4.0 \\times 10^{5}\\text{ Pa}$",
+        "$2.5 \\times 10^{4}\\text{ Pa}$",
+        "$5.0 \\times 10^{5}\\text{ Pa}$",
+        "$1.0 \\times 10^{5}\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $p_1V_1 = p_2V_2$: $(1.0 \\times 10^{5}) \\times 200 = p_2 \\times 50$. Solving gives $p_2 = 4.0 \\times 10^{5}\\text{ Pa}$. **Common mistake:** Multiplying $1.0 \\times 10^{5}$ by the ratio $50/200$, leading to $2.5 \\times 10^{4}$."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-medium-q2",
+      "type": "mcq",
+      "question": "Why does the pressure of a gas increase when it is heated in a sealed container of fixed volume?",
+      "options": [
+        "Particles move faster and hit the walls more often and with more force",
+        "The particles expand and take up more space within the container",
+        "The number of gas particles increases as they gain energy",
+        "The attractive forces between the particles become stronger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher temperature increases the average kinetic energy. Particles move faster, resulting in more frequent and more forceful collisions with the walls. **Common mistake:** Thinking the particles themselves 'grow' or 'expand' in size."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-medium-q3",
+      "type": "mcq",
+      "question": "Which of the following temperature changes is identical to a rise of $20\\text{ K}$?",
+      "options": [
+        "A rise of $20^\\circ\\text{C}$",
+        "A rise of $293^\\circ\\text{C}$",
+        "A rise of $253^\\circ\\text{C}$",
+        "A rise of $273^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The size of one kelvin is exactly the same as the size of one degree Celsius; therefore, any *change* in temperature is equal on both scales. **Common mistake:** Trying to add 273 to the 'change' value itself."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-medium-q4",
+      "type": "mcq",
+      "question": "A gas is held at a constant temperature. Which graph correctly represents the relationship between its pressure $p$ and its volume $V$?",
+      "options": [
+        "A curve showing that as $V$ increases, $p$ decreases",
+        "A straight line through the origin with a positive gradient",
+        "A straight line with a negative gradient that hits the axes",
+        "A horizontal straight line at the atmospheric pressure level"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $p \\times V = \\text{constant}$, the graph is a hyperbola (a curve that never reaches zero). **Common mistake:** Thinking it is a straight line; a straight line only occurs if you plot $p$ against $1/V$."
+    },
+    {
+      "id": "8-3-gases-and-the-absolute-scale-of-temperature-medium-q5",
+      "type": "mcq",
+      "question": "A substance is at a temperature of $-10^\\circ\\text{C}$. What is its temperature in kelvin?",
+      "options": [
+        "$263\\text{ K}$",
+        "$283\\text{ K}$",
+        "$-10\\text{ K}$",
+        "$-283\\text{ K}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temperature in $\\text{K} = -10 + 273 = 263\\text{ K}$. **Common mistake:** Subtracting 10 from 273 to get 263 is correct, but adding 10 by mistake would lead to 283."
+    }
+  ]
+}

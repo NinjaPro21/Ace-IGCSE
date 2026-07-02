@@ -1,0 +1,77 @@
+{
+  "id": "10-4-radiation-pyp",
+  "topicId": "10-4-radiation",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "pyp",
+  "title": "Radiation — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-4-radiation-pyp-q1",
+      "type": "mcq",
+      "question": "Thermal energy from the Sun reaches the Earth through space. Which statement explains why this transfer cannot be by conduction or convection?",
+      "options": [
+        "There are no particles in the vacuum of space.",
+        "The Sun is at a higher temperature than the Earth.",
+        "Infrared radiation travels faster than the speed of sound.",
+        "The Sun's gravitational field is too strong for convection."
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction and convection require a material medium (particles). Space is a vacuum, so only radiation can transfer energy. \n\n**Common mistake:** Thinking radiation is just 'stronger' than the other methods."
+    },
+    {
+      "id": "10-4-radiation-pyp-q2",
+      "type": "mcq",
+      "question": "The hot pipes at the back of a refrigerator are painted black. What is the physical reason for this?",
+      "options": [
+        "Black surfaces are better emitters of radiation than white surfaces.",
+        "Black surfaces are better absorbers of radiation from the room.",
+        "Black paint is a better conductor of heat than white paint.",
+        "Black surfaces prevent the pipes from expanding too much."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dull black surfaces are efficient emitters, which helps the refrigerator dissipate heat to the surroundings more effectively. \n\n**Common mistake:** Thinking the black color is meant to 'absorb' heat from inside the pipes."
+    },
+    {
+      "id": "10-4-radiation-pyp-q3",
+      "type": "mcq",
+      "question": "A student plots a graph of the temperature of water in two identical cans, one black and one silver, as they cool. Which description of the graph is correct?",
+      "options": [
+        "The curve for the black can is steeper than for the silver can.",
+        "The curve for the silver can is steeper than for the black can.",
+        "Both cans will show identical straight lines.",
+        "The curves will cross each other halfway through the cooling process."
+      ],
+      "correctIndex": 0,
+      "explanation": "The black can emits radiation more rapidly, meaning its temperature drops faster, resulting in a steeper gradient on the cooling curve. \n\n**Common mistake:** Thinking the silver can's curve is steeper because it is 'shinier'."
+    },
+    {
+      "id": "10-4-radiation-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the properties of a dull black surface compared to a shiny white surface?",
+      "options": [
+        "Absorption: Better; Emission: Better; Reflection: Worse",
+        "Absorption: Worse; Emission: Better; Reflection: Better",
+        "Absorption: Better; Emission: Worse; Reflection: Worse",
+        "Absorption: Worse; Emission: Worse; Reflection: Better"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dull black surfaces are the best absorbers and emitters but the worst reflectors. \n\n**Common mistake:** Thinking a 'good absorber' must be a 'poor emitter'."
+    },
+    {
+      "id": "10-4-radiation-pyp-q5",
+      "type": "mcq",
+      "question": "Which feature of a vacuum flask is designed to reduce thermal energy transfer by radiation?",
+      "options": [
+        "Silvered surfaces",
+        "The vacuum space",
+        "Plastic stopper",
+        "Cork supports"
+      ],
+      "correctIndex": 0,
+      "explanation": "Silvered surfaces reflect infrared radiation, whereas the vacuum blocks conduction and convection. \n\n**Common mistake:** Selecting 'vacuum' for radiation; radiation can actually pass through a vacuum."
+    }
+  ]
+}

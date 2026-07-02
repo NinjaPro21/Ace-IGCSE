@@ -1,0 +1,337 @@
+{
+  "id": "ch10-transfer-of-thermal-energy-medium",
+  "topicId": "ch10-transfer-of-thermal-energy",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "medium",
+  "title": "Chapter 10: Transfer of Thermal Energy — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q1",
+      "type": "mcq",
+      "question": "How does the temperature difference between two objects affect the rate of thermal energy transfer?",
+      "options": [
+        "The greater the temperature difference, the higher the rate of transfer",
+        "The rate of transfer is constant regardless of the temperature difference",
+        "The rate of transfer decreases as the temperature difference increases",
+        "The rate of transfer only depends on the surface area, not the temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A larger temperature gradient (difference) provides a stronger 'driving force' for energy to move, increasing the transfer rate. \n\n**Common mistake:** Thinking that heat flows at a steady speed regardless of how much hotter one object is compared to another."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q2",
+      "type": "mcq",
+      "question": "A metal spoon is placed in a hot cup of coffee. Which process is primarily responsible for the handle of the spoon getting hot?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction is the transfer of thermal energy through a solid (the metal spoon) as particles vibrate and pass energy to their neighbors. \n\n**Common mistake:** Selecting convection, which only occurs in fluids (liquids and gases)."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q3",
+      "type": "mcq",
+      "question": "Which statement correctly compares how energy is transferred in conduction and convection?",
+      "options": [
+        "Conduction involves vibrations; convection involves the bulk movement of the fluid",
+        "Conduction involves bulk movement; convection involves vibrations",
+        "Both processes involve the bulk movement of particles from hot to cold",
+        "Neither process requires the presence of matter to transfer energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction transfers energy through particle interactions (vibrations) without the particles moving to a new location, while convection involves the actual movement of the heated substance itself. \n\n**Common mistake:** Thinking particles in a solid 'travel' from the hot end to the cold end during conduction."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q4",
+      "type": "mcq",
+      "question": "An object is maintained at a constant temperature. What must be true about the energy it receives and the energy it transfers away?",
+      "options": [
+        "It must transfer energy away at the same rate that it receives energy",
+        "It must receive more energy than it transfers away",
+        "It must stop transferring energy entirely to stay at a constant temperature",
+        "It must be kept in a perfect vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, for an object to stay at a constant temperature, there must be a balance where the rate of energy gain equals the rate of energy loss. \n\n**Common mistake:** Thinking 'constant temperature' means no energy is being exchanged at all."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q5",
+      "type": "mcq",
+      "question": "Why does a piece of ice melt when placed on a table in a warm room?",
+      "options": [
+        "Thermal energy is transferred from the air and table to the ice",
+        "The ice releases 'cold' energy into the surroundings",
+        "The internal energy of the ice is naturally decreasing",
+        "Radiation from the ice is being absorbed by the table"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal energy flows from the higher temperature surroundings (air/table) to the lower temperature ice, providing the energy needed for the change of state. \n\n**Common mistake:** Scientifically inaccurate talk of 'cold' moving or being 'released'."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q6",
+      "type": "mcq",
+      "question": "Why are metals significantly better thermal conductors than non-metals?",
+      "options": [
+        "They contain free electrons that move rapidly and carry energy",
+        "Their particles are much larger than non-metal particles",
+        "They have a higher density than all non-metals",
+        "They do not vibrate when they are heated"
+      ],
+      "correctIndex": 0,
+      "explanation": "In metals, the vibration of particles is supplemented by free electrons that move quickly through the lattice, colliding with distant particles and transferring energy much faster. \n\n**Common mistake:** Attributing the conductivity solely to density."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q7",
+      "type": "mcq",
+      "question": "Explain why a stone floor feels colder to bare feet than a carpet, even when both are at the same room temperature.",
+      "options": [
+        "Stone is a better conductor and removes energy from the feet faster",
+        "The carpet is at a higher temperature than the stone floor",
+        "The stone floor has a higher specific heat capacity than the carpet",
+        "The carpet generates its own thermal energy through friction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because stone is a better thermal conductor, it transfers thermal energy away from your feet more rapidly than a carpet does, creating the sensation of cold. \n\n**Common mistake:** Assuming the two objects must be at different temperatures."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q8",
+      "type": "mcq",
+      "question": "A student observes that the handles of metal cooking pots are often made of plastic. What is the physical reason for this?",
+      "options": [
+        "Plastic is a poor conductor, preventing heat from reaching the hand",
+        "Plastic has a very low melting point",
+        "Plastic reflects infrared radiation from the stove",
+        "Plastic increases the rate of convection in the pot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plastic is a thermal insulator (poor conductor). Using it for handles ensures that thermal energy from the hot pot does not conduct easily to the user's hand. \n\n**Common mistake:** Thinking the plastic 'absorbs' the heat; it actually 'resists' the flow of heat."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q9",
+      "type": "mcq",
+      "question": "Based on the data in Table 10.2, which material would be the most effective as an insulator for a house?",
+      "options": [
+        "Fibreglass",
+        "Steel",
+        "Copper",
+        "Ice"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Table 10.2, fibreglass is listed among the worst conductors (best insulators) because it contains trapped air. \n\n**Common mistake:** Choosing steel, which is actually a relatively good conductor compared to the others."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q10",
+      "type": "mcq",
+      "question": "Which statement correctly compares the thermal conductivity of liquids and gases?",
+      "options": [
+        "Liquids are generally better thermal conductors than gases",
+        "Gases are generally better thermal conductors than liquids",
+        "Both have the same thermal conductivity as they are both fluids",
+        "Gases have zero thermal conductivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquids are better conductors than gases because their particles are closer together, making collisions and energy transfer more frequent. \n\n**Common mistake:** Believing the 'Quick Check' was true (it stated gases are better, but the answer key marks it false)."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q11",
+      "type": "mcq",
+      "question": "A student has two identical metal cans, one painted shiny white and the other dull black. If both are filled with boiling water, which statement correctly describes their cooling?",
+      "options": [
+        "The dull black can cools faster because it is a better emitter of radiation",
+        "The shiny white can cools faster because it reflects heat back inside",
+        "Both cans cool at the same rate because they are made of the same metal",
+        "The shiny white can cools faster because it is a better absorber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dull black surfaces are excellent emitters of infrared radiation, meaning the black can will lose thermal energy to the surroundings more rapidly than the shiny white one. \n\n**Common mistake:** Thinking that 'shiny' surfaces lose heat faster because they are 'brighter'."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q12",
+      "type": "mcq",
+      "question": "In a vacuum flask, the vacuum between the double walls is effective at stopping which processes of energy transfer?",
+      "options": [
+        "Conduction and convection only",
+        "Radiation only",
+        "Conduction only",
+        "Conduction, convection, and radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduction and convection both require a material medium (particles) to transfer energy. A vacuum has no particles, so it blocks both. Radiation can still pass through a vacuum. \n\n**Common mistake:** Thinking a vacuum blocks all three forms of heat transfer."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q13",
+      "type": "mcq",
+      "question": "A stone floor feels much colder to bare feet than a carpet, even if they are at the same room temperature. What is the physical explanation for this?",
+      "options": [
+        "Stone is a better conductor and removes energy from the feet faster",
+        "The carpet is at a naturally higher temperature than the stone",
+        "Stone has a lower specific heat capacity than carpet",
+        "The carpet generates thermal energy through friction with the feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because stone is a superior thermal conductor compared to carpet, it conducts thermal energy away from your skin much faster, which the brain perceives as 'cold'. \n\n**Common mistake:** Assuming the two objects must be at different temperatures."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q14",
+      "type": "mcq",
+      "question": "Space blankets are made of a thin, shiny, silvery material. How do they keep a person warm in an emergency?",
+      "options": [
+        "They reflect the person's own body radiation back towards them",
+        "They are thick enough to prevent all convection from occurring",
+        "They generate thermal energy through a chemical reaction with the air",
+        "The silvery material is an excellent conductor that spreads heat evenly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The shiny silvery surface is a poor emitter but an excellent reflector of infrared radiation. It reflects the heat emitted by the person's body back to them. \n\n**Common mistake:** Thinking the blanket 'warms' the person by creating its own heat."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q15",
+      "type": "mcq",
+      "question": "Trapped 'still air' is used as an insulator in materials like fibreglass and polystyrene. Why must the air be 'still' to be an effective insulator?",
+      "options": [
+        "To prevent thermal energy transfer by convection",
+        "To make the air a better conductor of thermal energy",
+        "Because moving air has zero internal energy",
+        "Still air is more dense and reflects all radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "While air is a poor conductor, it can still transfer heat effectively if it is allowed to move in convection currents. Trapping it prevents this bulk movement. \n\n**Common mistake:** Thinking the goal is to make the air more 'dense'."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q16",
+      "type": "mcq",
+      "question": "Why does convection NOT occur when a solid is heated?",
+      "options": [
+        "The particles are not free to move from place to place",
+        "Solids are too dense to allow any energy transfer",
+        "The particles in a solid do not expand when heated",
+        "Solids reflect all thermal energy via radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection requires the actual movement of particles. In a solid, particles only vibrate about fixed positions and cannot flow. **Common mistake:** Believing solids are too 'thick' for any heat process."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q17",
+      "type": "mcq",
+      "question": "Where is the best position to place the cooling unit in a refrigerator to ensure the whole space is cooled efficiently?",
+      "options": [
+        "At the top",
+        "At the bottom",
+        "On the side walls",
+        "In the middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Placing the cooler at the top allows the cold, dense air to sink, creating a convection current that cools the entire fridge. **Common mistake:** Placing it at the bottom, where the cold air would just stay at the bottom."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q18",
+      "type": "mcq",
+      "question": "According to the 'Quick Check' in the source material, why do hot air balloons rise?",
+      "options": [
+        "Hot air is less dense than cold air",
+        "The fire produces an upward thrust force",
+        "Hot air has more mass than cold air",
+        "Air molecules move in a regular lattice when heated"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heating the air inside the balloon makes it expand and become less dense than the surrounding cooler air, resulting in an upward force. **Common mistake:** Confusing density changes with 'thrust' from the burner."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q19",
+      "type": "mcq",
+      "question": "A student heats a beaker of water at the bottom. Which description of the resulting convection current is correct?",
+      "options": [
+        "Hot water at the bottom rises; cold water at the top sinks to replace it",
+        "Hot water stays at the bottom and conducts heat upwards",
+        "The water circulates in a clockwise direction only",
+        "Cold water at the top is heated by radiation from the bottom"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heated water expands and rises, while the cooler, denser water at the top sinks to take its place, forming a loop. **Common mistake:** Thinking the water simply stays in place and 'conducts' the heat."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q20",
+      "type": "mcq",
+      "question": "If a fluid is prevented from expanding when heated, how would this affect convection?",
+      "options": [
+        "Convection would not occur because there would be no change in density",
+        "Convection would occur faster because pressure would increase",
+        "Convection would only occur downwards",
+        "Convection would happen through vibrations instead"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection relies on density differences caused by thermal expansion. Without expansion, the density remains uniform and no rising/sinking occurs. **Common mistake:** Thinking pressure alone can drive a convection current."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q21",
+      "type": "mcq",
+      "question": "Two identical containers are filled with hot water at $90^\\circ\\text{C}$. Container A is painted dull black and Container B is polished silver. Which container will cool down to room temperature more quickly?",
+      "options": [
+        "Container A, because it is a better emitter of radiation.",
+        "Container B, because it is a better reflector of radiation.",
+        "Container A, because it absorbs 'cold' from the room faster.",
+        "Both will cool at the same rate if they are in the same room."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dull black surfaces are not only good absorbers but also excellent emitters of infrared radiation. \n\n**Common mistake:** Thinking that black only relates to absorption and not emission."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q22",
+      "type": "mcq",
+      "question": "How does the surface temperature of an object affect its rate of radiation emission?",
+      "options": [
+        "The higher the surface temperature, the higher the rate of emission.",
+        "The higher the surface temperature, the lower the rate of emission.",
+        "Temperature does not affect the rate of radiation emission.",
+        "Emission only occurs once a specific threshold temperature is reached."
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate of emission of radiation depends directly on the surface temperature of the object. \n\n**Common mistake:** Thinking the color is more important than the temperature for the rate of energy loss."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q23",
+      "type": "mcq",
+      "question": "A student wears dark-colored clothes on a very hot, sunny day. Why do they feel hotter than someone wearing white clothes?",
+      "options": [
+        "Dark colors are better absorbers of infrared radiation from the Sun.",
+        "Dark colors are better conductors of heat from the air.",
+        "Dark colors prevent the body from emitting its own radiation.",
+        "Dark colors create their own thermal energy when exposed to light."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dark-colored clothes absorb a higher percentage of the Sun's incident infrared radiation. \n\n**Common mistake:** Attributing the heat gain to conduction from the air rather than radiation from the Sun."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q24",
+      "type": "mcq",
+      "question": "Which of the following factors would NOT increase the rate at which an object emits radiation?",
+      "options": [
+        "Decreasing the surface area of the object.",
+        "Increasing the surface temperature of the object.",
+        "Painting the object dull black.",
+        "Increasing the surface area of the object."
+      ],
+      "correctIndex": 0,
+      "explanation": "Decreasing surface area reduces the amount of space available for radiation to escape, thus decreasing the rate. \n\n**Common mistake:** Thinking a smaller, 'concentrated' surface emits faster."
+    },
+    {
+      "id": "ch10-transfer-of-thermal-energy-medium-q25",
+      "type": "mcq",
+      "question": "In an experiment comparing the absorption of heat by two surfaces, two thermometers are placed at equal distances from a heater. One is covered in black foil and the other in silver foil. What will be observed?",
+      "options": [
+        "The black foil thermometer shows a faster temperature rise.",
+        "The silver foil thermometer shows a faster temperature rise.",
+        "Both thermometers will show the same temperature rise.",
+        "The silver foil thermometer will show a temperature decrease."
+      ],
+      "correctIndex": 0,
+      "explanation": "The black surface absorbs more infrared radiation per second than the silver surface, leading to a faster temperature increase. \n\n**Common mistake:** Thinking the silver foil 'focuses' the heat into the thermometer."
+    }
+  ]
+}

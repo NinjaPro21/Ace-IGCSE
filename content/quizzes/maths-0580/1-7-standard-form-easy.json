@@ -1,0 +1,77 @@
+{
+  "id": "1-7-standard-form-easy",
+  "topicId": "1-7-standard-form",
+  "chapterId": "ch01-number",
+  "difficulty": "easy",
+  "title": "Standard Form — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-standard-form-easy-q1",
+      "type": "mcq",
+      "question": "Write the number $0.00045$ in standard scientific notation form.",
+      "options": [
+        "$4.5 \\times 10^{-4}$",
+        "$4.5 \\times 10^{-3}$",
+        "$45 \\times 10^{-5}$",
+        "$4.5 \\times 10^{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To write $0.00045$ in standard form, shift the decimal point 4 places to the right to obtain $4.5$, which corresponds to a power of $10^{-4}$.\n\n**Common mistake:** Students often miscount the number of zeros or decimal shifts, leading to an incorrect power of ten like $10^{-3}$."
+    },
+    {
+      "id": "1-7-standard-form-easy-q2",
+      "type": "mcq",
+      "question": "Express $3.21 \\times 10^{5}$ as an ordinary decimal number.",
+      "options": [
+        "321000",
+        "32100",
+        "3210000",
+        "0.0000321"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying $3.21$ by $10^{5}$ shifts the decimal point 5 places to the right, yielding $321000$.\n\n**Common mistake:** Students sometimes add 5 zeros directly after the decimal point or after the integer digit without shifting appropriately."
+    },
+    {
+      "id": "1-7-standard-form-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following numbers is written correctly in standard form?",
+      "options": [
+        "$7.05 \\times 10^{-6}$",
+        "$0.54 \\times 10^{3}$",
+        "$12.3 \\times 10^{4}$",
+        "$6 \\times 5^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard form requires a number $A \\times 10^n$2$1 \\le A < 10$ and $n$2$7.05 \\times 10^{-6}$ satisfies this condition.\n\n**Common mistake:** Students often accept values where the leading coefficient is greater than or equal to 10, or less than 1."
+    },
+    {
+      "id": "1-7-standard-form-easy-q4",
+      "type": "mcq",
+      "question": "Convert $86400000$ into standard scientific form.",
+      "options": [
+        "$8.64 \\times 10^{7}$",
+        "$8.64 \\times 10^{6}$",
+        "$86.4 \\times 10^{6}$",
+        "$8.64 \\times 10^{-7}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The decimal point shifts 7 places to the left to get $8.64$, which yields $8.64 \\times 10^{7}$.\n\n**Common mistake:** Students frequently miscount the total place value shifts, confusing $10^{6}$ with $10^{7}$."
+    },
+    {
+      "id": "1-7-standard-form-easy-q5",
+      "type": "mcq",
+      "question": "Write $1.02 \\times 10^{-3}$ as an ordinary decimal number.",
+      "options": [
+        "0.00102",
+        "0.0102",
+        "0.000102",
+        "1020"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying by $10^{-3}$ shifts the decimal point 3 places to the left, which results in $0.00102$.\n\n**Common mistake:** Students often add exactly 3 zeros before the number without accounting for the position of the original decimal point."
+    }
+  ]
+}

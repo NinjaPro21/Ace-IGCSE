@@ -1,0 +1,77 @@
+{
+  "id": "12-3-the-product-rule-harder-topic-easy",
+  "topicId": "12-3-the-product-rule-harder-topic",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "easy",
+  "title": "The Product Rule — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-3-the-product-rule-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "Given that $y = uv$2$u$2$v$2$x$2$\\frac{dy}{dx}$ according to the product rule.",
+      "options": [
+        "$u \\frac{dv}{dx} + v \\frac{du}{dx}$",
+        "$u \\frac{dv}{dx} - v \\frac{du}{dx}$",
+        "$\\frac{du}{dx} \\times \\frac{dv}{dx}$",
+        "$v \\frac{dv}{dx} + u \\frac{du}{dx}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The product rule states that the derivative of a product is the first function times the derivative of the second, plus the second function times the derivative of the first.\n\n**Common mistake:** Option C is a common conceptual error where students think they can simply multiply the individual derivatives together."
+    },
+    {
+      "id": "12-3-the-product-rule-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Use the product rule to differentiate $y = x^4(x + 2)$.",
+      "options": [
+        "$5x^4 + 8x^3$",
+        "$4x^3$",
+        "$x^4 + 2$",
+        "$x^4 + 4x^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let $u = x^4$ and $v = x+2$. Then $\\frac{dy}{dx} = x^4(1) + (x+2)(4x^3) = x^4 + 4x^4 + 8x^3 = 5x^4 + 8x^3$.\n\n**Common mistake:** Option B occurs if the student only differentiates the first part of the product and ignores the second."
+    },
+    {
+      "id": "12-3-the-product-rule-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "Differentiate $f(x) = x \\cdot g(x)$ at the point where $x = 3$, given that $g(3) = 10$ and $g'(3) = 4$.",
+      "options": [
+        "$22$",
+        "$12$",
+        "$30$",
+        "$40$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f'(x) = x \\cdot g'(x) + g(x) \\cdot 1$. Substituting $x=3$: $f'(3) = 3(4) + 10(1) = 12 + 10 = 22$.\n\n**Common mistake:** Option B results from only calculating $x \\cdot g'(x)$ and forgetting the $g(x)$ term from the product rule."
+    },
+    {
+      "id": "12-3-the-product-rule-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Find the derivative of $y = 5x^2(x - 3)$.",
+      "options": [
+        "$15x^2 - 30x$",
+        "$10x$",
+        "$5x^2 - 15x$",
+        "$10x^2 - 30x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the product rule: $5x^2(1) + (x-3)(10x) = 5x^2 + 10x^2 - 30x = 15x^2 - 30x$.\n\n**Common mistake:** Option D occurs if the student fails to sum the $x^2$ terms correctly after applying the rule."
+    },
+    {
+      "id": "12-3-the-product-rule-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Differentiate $y = (x+1)\\sqrt{x}$ and find the value of $\\frac{dy}{dx}$ at $x=1$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$1.5$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = (x+1)(\\frac{1}{2\\sqrt{x}}) + \\sqrt{x}(1)$. At $x=1$, this is $(2)(\\frac{1}{2}) + 1 = 1 + 1 = 2$.\n\n**Common mistake:** Option C occurs if the student forgets to add the second part of the product rule ($\\sqrt{x} \\cdot 1$)."
+    }
+  ]
+}

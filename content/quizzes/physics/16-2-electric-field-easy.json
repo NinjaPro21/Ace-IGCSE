@@ -1,0 +1,77 @@
+{
+  "id": "16-2-electric-field-easy",
+  "topicId": "16-2-electric-field",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "easy",
+  "title": "Electric Field — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-2-electric-field-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of an electric field?",
+      "options": [
+        "A region in which an electric charge experiences a force",
+        "A region where magnetic materials experience a force",
+        "The flow of electrons through a metal conductor",
+        "The energy provider in a complete circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electric field is defined as a region in which an electric charge experiences a force. A magnetic field affects magnetic materials, and electron flow is electric current.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-easy-q2",
+      "type": "mcq",
+      "question": "In which direction do electric field lines always point near a positive point charge?",
+      "options": [
+        "Radially away from the charge",
+        "Radially towards the charge",
+        "In concentric circles around the charge",
+        "From the south pole to the north pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric field lines are directed away from a positive charge. Direction towards the charge describes a negative charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-easy-q3",
+      "type": "mcq",
+      "question": "What determines the direction of an electric field at a specific point?",
+      "options": [
+        "The direction of the force on a positive charge at that point",
+        "The direction of the force on a negative charge at that point",
+        "The direction of the conventional current flow",
+        "The direction of the electron flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The direction of an electric field at a point is defined as the direction of the force on a positive charge at that point.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-easy-q4",
+      "type": "mcq",
+      "question": "How is the strength of an electric field represented in a field line diagram?",
+      "options": [
+        "By the spacing of the field lines",
+        "By the length of the arrows",
+        "By the thickness of the lines",
+        "By the colour of the charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Just like magnetic fields, the spacing of the lines indicates the strength of the field; closer lines represent a stronger field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "16-2-electric-field-easy-q5",
+      "type": "mcq",
+      "question": "Which direction do electric field lines point for an isolated negative charge?",
+      "options": [
+        "Directed towards the negative charge",
+        "Directed away from the negative charge",
+        "Parallel to the surface of the charge",
+        "They do not have a specific direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric field lines are directed towards a negative charge. This is because they show the direction of force on a positive test charge, which would be attracted.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

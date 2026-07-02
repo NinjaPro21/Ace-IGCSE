@@ -1,0 +1,77 @@
+{
+  "id": "12-2-refraction-of-light-easy",
+  "topicId": "12-2-refraction-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "easy",
+  "title": "Refraction of Light — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-2-refraction-of-light-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following describes the term 'refraction'?",
+      "options": [
+        "The bending of light as it passes from one optical medium to another",
+        "The rebounding of light at a surface",
+        "The splitting of white light into a spectrum of colours",
+        "The spreading out of light as it passes through a narrow gap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Refraction is defined as the bending of light caused by a change in speed as it crosses the boundary between two optical media. Rebounding is reflection, and splitting is dispersion.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-easy-q2",
+      "type": "mcq",
+      "question": "In which direction does a light ray bend when it enters an optically denser medium (such as glass) from air at an angle?",
+      "options": [
+        "Towards the normal",
+        "Away from the normal",
+        "Along the boundary surface",
+        "It does not bend at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Light slows down in an optically denser medium, which causes the light ray to bend towards the normal line.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-easy-q3",
+      "type": "mcq",
+      "question": "What happens to a light ray that travels from one medium to another exactly along the normal?",
+      "options": [
+        "It passes through without being refracted",
+        "It bends 90 degrees towards the normal",
+        "It is totally reflected back into the first medium",
+        "It stops at the boundary"
+      ],
+      "correctIndex": 0,
+      "explanation": "A light ray that travels along the normal (angle of incidence = $0^circ$) does not bend, although its speed still changes.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-easy-q4",
+      "type": "mcq",
+      "question": "Which formula represents Snell's Law for the refractive index $n$?",
+      "options": [
+        "$n = \\frac{sin i}{sin r}$",
+        "$n = \\frac{sin r}{sin i}$",
+        "$n = i \\times r$",
+        "$n = i + r$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Snell's Law states that the constant ratio of the sine of the angle of incidence ($i$) to the sine of the angle of refraction ($r$) is the refractive index ($n$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-2-refraction-of-light-easy-q5",
+      "type": "mcq",
+      "question": "What is the SI unit for the refractive index of a material?",
+      "options": [
+        "It has no unit",
+        "Degrees ($^circ$)",
+        "Metres per second (m/s)",
+        "Newtons (N)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The refractive index is a ratio of two identical quantities (either sines of angles or speeds), so the units cancel out, leaving a dimensionless number.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

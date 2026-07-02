@@ -1,0 +1,142 @@
+{
+  "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard",
+  "topicId": "9-trigonometric-ratios-of-general-angles-amp-gra",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "hard",
+  "title": "Trigonometric Ratios of General Angles & Graphs — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q1",
+      "type": "mcq",
+      "question": "Given that sin θ = k, express tan θ in terms of k for an acute angle θ.",
+      "options": [
+        "k / \\sqrt{1 - k^2}",
+        "\\sqrt{1 - k^2} / k",
+        "k / (1 - k)",
+        "1 / k"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin θ = k/1 (Opp/Hyp). Adj = \\sqrt{1$^2$ - k^2}. tan θ = Opp / Adj = k / \\sqrt{1 - k^2}.\n\n**Common mistake:** Failing to use the Pythagorean theorem to find the expression for the adjacent side."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q2",
+      "type": "mcq",
+      "question": "If tan θ = x, find the value of (sin θ)(cos θ) in terms of x.",
+      "options": [
+        "x / (1 + x^2)",
+        "x / \\sqrt{1 + x^2}",
+        "x^2 / (1 + x^2)",
+        "1 / (1 + x^2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opp = x, Adj = 1, Hyp = \\sqrt{1 + x^2}. sin θ cos θ = (x / Hyp) * (1 / Hyp) = x / Hyp^2 = x / (1 + x^2).\n\n**Common mistake:** Forgetting to square the square root in the denominator when multiplying the ratios."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q3",
+      "type": "mcq",
+      "question": "Solve for acute x: tan(2x + 10°) = 1.",
+      "options": [
+        "17.5°",
+        "45°",
+        "35°",
+        "22.5°"
+      ],
+      "correctIndex": 0,
+      "explanation": "2x + 10° = 45° (since tan 45° = 1). 2x = 35° so x = 17.5°.\n\n**Common mistake:** Setting 2x + 10° = 1 instead of 45°, or making a subtraction error."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q4",
+      "type": "mcq",
+      "question": "A ladder 10 m long leans against a wall. The foot of the ladder is 6 m from the wall. Find the angle the ladder makes with the ground.",
+      "options": [
+        "53.1°",
+        "36.9°",
+        "31.0°",
+        "59.0°"
+      ],
+      "correctIndex": 0,
+      "explanation": "cos θ = Adjacent / Hypotenuse = 6 / 10 = 0.6. θ = cos^{-1}$(0.6) ≈ 53.1°.$\n\n**Common mistake:** Using the sine ratio (6/10) which would find the angle at the top of the ladder."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q5",
+      "type": "mcq",
+      "question": "If sin θ = 2 cos θ and θ is acute, find the exact value of sin θ.",
+      "options": [
+        "2/\\sqrt{5}",
+        "1/\\sqrt{5}",
+        "2/3",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin θ / cos θ = 2, so tan θ = 2/1 (Opp/Adj). Hyp = \\sqrt{5}. sin θ = Opp / Hyp = 2 / \\sqrt{5}.\n\n**Common mistake:** Mistakenly concluding sin θ = 2, which is impossible."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q6",
+      "type": "mcq",
+      "question": "Solve the equation $4\\sin^2 \\theta - 1 = 0$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+      "options": [
+        "$30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ$",
+        "$30^\\circ, 150^\\circ$",
+        "$30^\\circ, 330^\\circ$",
+        "$60^\\circ, 120^\\circ, 240^\\circ, 300^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin^2 \\theta = 1/4 \\implies \\sin \\theta = \\pm 0.5$. This yields reference angles of $30^\\circ$ in all four quadrants.\n\n**Common mistake:** Option B is chosen if the student only considers the positive square root $\\sin \\theta = 0.5$."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q7",
+      "type": "mcq",
+      "question": "Find all values of $x$2$0 < x < 180^\\circ$2$\\cos(2x + 40^\\circ) = -0.5$.",
+      "options": [
+        "$40^\\circ, 100^\\circ$",
+        "$80^\\circ, 200^\\circ$",
+        "$20^\\circ, 140^\\circ$",
+        "$40^\\circ, 140^\\circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reference angle is $60^\\circ$2$120^\\circ$2$240^\\circ$2$2x + 40 = 120 \\implies x = 40^\\circ$2$2x + 40 = 240 \\implies x = 100^\\circ$.\n\n**Common mistake:** Option C results from incorrect algebraic manipulation after finding the correct quadrant angles."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q8",
+      "type": "mcq",
+      "question": "Determine the number of solutions to the equation $|3\\cos 2x| = 2$ for $0 \\le x \\le \\pi$.",
+      "options": [
+        "$4$",
+        "$2$",
+        "$8$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This implies $\\cos 2x = \\pm 2/3$. For $0 \\le 2x \\le 2\\pi$2$\\cos 2x$2$2/3$ twice and $-2/3$ twice, totaling 4 solutions.\n\n**Common mistake:** Option B occurs if the student ignores the modulus and only solves $\\cos 2x = 2/3$."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q9",
+      "type": "mcq",
+      "question": "Given $\\sin \\theta = a$2$\\cos \\theta = b$2$\\tan(\\theta - 180^\\circ)$.",
+      "options": [
+        "$\\frac{a}{b}$",
+        "$-\\frac{a}{b}$",
+        "$\\frac{b}{a}$",
+        "$-\\frac{b}{a}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan(\\theta - 180^\\circ) = \\tan \\theta$2$180^\\circ$2$\\sin \\theta / \\cos \\theta = a/b$.\n\n**Common mistake:** Option B is chosen by students who think the sign of tangent flips when moving back by $180^\\circ$."
+    },
+    {
+      "id": "9-trigonometric-ratios-of-general-angles-amp-gra-hard-q10",
+      "type": "mcq",
+      "question": "Solve $3\\tan^2 x - 1 = 0$ for $-\\pi < x < \\pi$.",
+      "options": [
+        "$\\pm \\frac{\\pi}{6}, \\pm \\frac{5\\pi}{6}$",
+        "$\\frac{\\pi}{6}, \\frac{5\\pi}{6}$",
+        "$\\pm \\frac{\\pi}{3}, \\pm \\frac{2\\pi}{3}$",
+        "$\\frac{\\pi}{3}, \\frac{2\\pi}{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan x = \\pm 1/\\sqrt{3}$. The reference angle is $\\pi/6$. Solutions in the range are $\\pm\\pi/6$ (Q1, Q4) and $\\pm5\\pi/6$ (Q2, Q3).\n\n**Common mistake:** Option C uses the reference angle for $1/\\sqrt{3}$ as $\\pi/3$ instead of $\\pi/6$."
+    }
+  ]
+}

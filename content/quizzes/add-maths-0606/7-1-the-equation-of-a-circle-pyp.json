@@ -1,0 +1,77 @@
+{
+  "id": "7-1-the-equation-of-a-circle-pyp",
+  "topicId": "7-1-the-equation-of-a-circle",
+  "chapterId": "ch07-coordinate-geometry-of-the-circle",
+  "difficulty": "pyp",
+  "title": "The Equation of a Circle — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-1-the-equation-of-a-circle-pyp-q1",
+      "type": "mcq",
+      "question": "Find the coordinates of the centre and the radius of the circle $x^2 + y^2 + 10x - 12y + 45 = 0$.",
+      "options": [
+        "Centre $(-5, 6)$, Radius 4",
+        "Centre $(5, -6)$, Radius 16",
+        "Centre $(-5, 6)$, Radius 16",
+        "Centre $(5, -6)$, Radius 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "$(x+5)² - 25 + (y-6)² - 36 + 45 = 0 \\Rightarrow (x+5)² + (y-6)² = 16$. Centre is $(-5, 6)$ and radius $r = \\sqrt{16} = 4$.\n\n**Common mistake:** Failing to calculate the square root of 16 to find the radius, or reversing the signs of the centre coordinates."
+    },
+    {
+      "id": "7-1-the-equation-of-a-circle-pyp-q2",
+      "type": "mcq",
+      "question": "Show that the point $P(7, 1)$ lies on the circle $(x - 3)² + (y + 2)² = 25$.",
+      "options": [
+        "LHS $= (7-3)² + (1+2)² = 4^2 + 3^2 = 25 = RHS$",
+        "LHS $= (7+3)$^2$+ (1-2)$^2$= 100 + 1 = 101$\neq 25\n\n$$",
+        "LHS $= 7$^2$+ 1$^2$= 50$\neq 25\n\n$$",
+        "LHS $= (7-3) + (1+2) = 7$\neq 25\n\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x=7$ and $y=1$ into the left-hand side of the equation. $4^2 + 3^2 = 16 + 9 = 25$. Since LHS equals RHS, the point is on the circle.\n\n**Common mistake:** Substituting coordinates into the wrong variables or forgetting to square the differences."
+    },
+    {
+      "id": "7-1-the-equation-of-a-circle-pyp-q3",
+      "type": "mcq",
+      "question": "The points $A(-1, -2)$ and $B(5, 6)$ are the endpoints of a diameter of a circle. Find the equation of the circle.",
+      "options": [
+        "$(x - 2)² + (y - 2)² = 25$",
+        "$(x + 1)² + (y + 2)² = 100$",
+        "$(x - 3)² + (y - 4)² = 25$",
+        "$(x - 2)² + (y - 2)² = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Centre is midpoint $(( -1+5)/2, (-2+6)/2) = (2, 2)$. Diameter length is $\\sqrt{(5-(-1})² + (6-(-2))²) = \\sqrt{6}² + 8^2 = 10$, so $r=5$. Eq: $(x-2)² + (y-2)² = 25$.\n\n**Common mistake:** Using the diameter length 10 as the radius $r$ in the equation formula."
+    },
+    {
+      "id": "7-1-the-equation-of-a-circle-pyp-q4",
+      "type": "mcq",
+      "question": "Find the set of values of $k$2$y = 2x + k$2$x^2 + y^2 = 5$.",
+      "options": [
+        "$k = 5$ or $k = -5$",
+        "$k = 25$ or $k = -25$",
+        "$-5 < k < 5$",
+        "$k = \\sqrt{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2 + (2x+k)² = 5 \\Rightarrow 5x^2 + 4kx + k^2 - 5 = 0$. For tangency, $\\Delta = (4k)² - 4(5)(k^2-5) = 0 \\Rightarrow 16k^2 - 20k^2 + 100 = 0 \\Rightarrow 4k^2 = 100 \\Rightarrow k = \\pm 5$.\n\n**Common mistake:** Confusing the condition for tangency ($\\Delta = 0$) with the condition for intersection ($\\Delta > 0$)."
+    },
+    {
+      "id": "7-1-the-equation-of-a-circle-pyp-q5",
+      "type": "mcq",
+      "question": "Hence, find the coordinates of the points where the circle $x^2 + y^2 - 4x - 6y + 4 = 0$ crosses the $x$-axis.",
+      "options": [
+        "$(2, 0)$ only",
+        "$(0, 2)$ and $(0, 2)$",
+        "$(2 + \\sqrt{3}, 0)$ and $(2 - \\sqrt{3}, 0)$",
+        "$(4, 0)$ and $(0, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the $x$2$y = 0$. So $x^2 - 4x + 4 = 0 \\Rightarrow (x-2)² = 0 \\Rightarrow x = 2$. The only point is $(2, 0)$, where the circle is tangent to the axis.\n\n**Common mistake:** Applying the quadratic formula and making a calculation error that leads to two distinct roots."
+    }
+  ]
+}

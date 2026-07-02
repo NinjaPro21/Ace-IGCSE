@@ -1,0 +1,207 @@
+{
+  "id": "ch19-nuclear-model-of-the-atom-hard",
+  "topicId": "ch19-nuclear-model-of-the-atom",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "hard",
+  "title": "Chapter 19: Nuclear Model of the Atom — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q1",
+      "type": "mcq",
+      "question": "In the $alpha$-particle scattering experiment, why are some $alpha$-particles deflected at very large angles?",
+      "options": [
+        "They pass very close to the small, positively charged nucleus",
+        "They collide with the much heavier electrons in the orbits",
+        "They are attracted by the negative charge of the nucleus",
+        "The gold atoms are arranged in a perfectly regular lattice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deflection occurs because $alpha$-particles (which are positive) are repelled by the positive charge concentrated in the nucleus when they get too close.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q2",
+      "type": "mcq",
+      "question": "If an atom with nuclide notation $^{14}6 C$ becomes a negative ion with a charge of $-2$, what is its new composition?",
+      "options": [
+        "6 protons, 8 neutrons, 8 electrons",
+        "6 protons, 8 neutrons, 4 electrons",
+        "4 protons, 8 neutrons, 6 electrons",
+        "8 protons, 6 neutrons, 10 electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The proton number (6) and neutron number ($14-6=8$) remain constant. A $-2$ charge means it has gained 2 extra electrons, so $6 + 2 = 8$ electrons.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q3",
+      "type": "mcq",
+      "question": "Which of the following describes the 'Quantum Model' of the atom proposed in 1926?",
+      "options": [
+        "Electrons move in 'clouds' around the nucleus",
+        "Electrons move in fixed circular orbits like planets",
+        "The atom is a 'plum pudding' of positive and negative charges",
+        "The nucleus contains only protons and no neutrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Figure 19.6 shows that the quantum model suggests electrons move in clouds rather than fixed circular orbits.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q4",
+      "type": "mcq",
+      "question": "Compare the mass and charge of a nucleus of $^{35}{17}Cl$ with a nucleus of $^{37}_{17}Cl$. Which statement is true?",
+      "options": [
+        "They have the same charge but different masses",
+        "They have the same mass but different charges",
+        "They have different charges and different masses",
+        "They have the same mass and the same charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both nuclei have 17 protons, so they have the same positive charge. However, $^{37}Cl$ has more neutrons, so its nucleus has a greater mass.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q5",
+      "type": "mcq",
+      "question": "An $alpha$-particle consists of 2 protons and 2 neutrons. What is its relative charge and approximate relative mass?",
+      "options": [
+        "Charge: $+2$; Mass: $4$",
+        "Charge: $+4$; Mass: $+2$",
+        "Charge: $0$; Mass: $4$",
+        "Charge: $+2$; Mass: $1/2000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "With 2 protons, the charge is $+2$. With 4 nucleons (2p + 2n), the mass is approximately 4 atomic mass units.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q6",
+      "type": "mcq",
+      "question": "A neutral atom of $^{14}_6 C$ loses one electron to become an ion. What is the composition of the resulting ion?",
+      "options": [
+        "6 protons, 8 neutrons, 5 electrons",
+        "6 protons, 8 neutrons, 6 electrons",
+        "5 protons, 8 neutrons, 6 electrons",
+        "6 protons, 14 neutrons, 5 electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "A positive ion is formed when a neutral atom loses an electron. $^{14}6 C$ has 6 protons, 8 neutrons ($14-6$), and originally 6 electrons. After losing one, it has 5 electrons. \n\n**Common mistake:** Thinking a proton is lost to become an ion."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q7",
+      "type": "mcq",
+      "question": "An atom is described as having $Z=11$ and $A=23$. If this atom gains an electron, what is the charge and composition of the resulting particle?",
+      "options": [
+        "Negative ion; 11 protons, 12 neutrons, 12 electrons",
+        "Positive ion; 11 protons, 12 neutrons, 10 electrons",
+        "Neutral atom; 11 protons, 23 neutrons, 11 electrons",
+        "Negative ion; 12 protons, 11 neutrons, 12 electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaining an electron makes it a negative ion. It has 11 protons ($Z$), 12 neutrons ($23-11$), and 12 electrons ($11+1$). \n\n**Common mistake:** Changing the number of neutrons or protons when adding an electron."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q8",
+      "type": "mcq",
+      "question": "Why do isotopes of the same element exhibit identical chemical properties?",
+      "options": [
+        "They have the same number of protons and electrons.",
+        "They have the same number of nucleons in the nucleus.",
+        "They have the same number of neutrons and protons.",
+        "They have the same approximate mass."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chemical properties are determined by the arrangement of electrons, which depends on the proton number. Since isotopes have the same proton number, they have the same electron count in neutral atoms. \n\n**Common mistake:** Thinking chemical properties depend on the mass."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q9",
+      "type": "mcq",
+      "question": "The nucleus of an atom contains 92 protons and 146 neutrons. What is the total number of nucleons and the total relative charge of the nucleus?",
+      "options": [
+        "Nucleons: 238; Charge: +92",
+        "Nucleons: 146; Charge: +92",
+        "Nucleons: 238; Charge: 0",
+        "Nucleons: 92; Charge: +238"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total nucleons $A = 92 + 146 = 238$. The charge of the nucleus comes only from protons (+1 each), while neutrons are neutral, so nuclear charge is +92. \n\n**Common mistake:** Thinking the nucleus is neutral because the atom is neutral."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q10",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies an atom that is a positive ion?nn| Atom | Protons | Neutrons | Electrons |n| :--- | :--- | :--- | :--- |n| W | 6 | 6 | 6 |n| X | 7 | 7 | 10 |n| Y | 11 | 12 | 10 |n| Z | 17 | 18 | 17 |",
+      "options": [
+        "Atom Y",
+        "Atom W",
+        "Atom X",
+        "Atom Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "An atom is a positive ion if it has more protons (+) than electrons (-). Atom Y has 11 protons and 10 electrons. \n\n**Common mistake:** Selecting Atom X, which is a negative ion (more electrons than protons)."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q11",
+      "type": "mcq",
+      "question": "Consider the fusion reaction: $^2_1 H + ^2_1 H rightarrow ^3_2 He + X$. Identify particle $X$.",
+      "options": [
+        "A neutron ($^1_0 n$)",
+        "A proton ($^1_1 H$)",
+        "An alpha particle ($^4_2 alpha$)",
+        "An electron ($^0_{-1} e$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using conservation: Total nucleons before = $2+2=4$. Nucleons after = $3 + X_{nucleon}$. So $X$ has 1 nucleon. Total protons before = $1+1=2$. Protons after = $2 + X_{proton}$. So $X$ has 0 protons. Particle $^1_0 X$ is a neutron.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q12",
+      "type": "mcq",
+      "question": "A Plutonium-239 nucleus ($^{239}{94} Pu$) undergoes fission after absorbing a neutron. It produces Xenon-137 ($^{137}{54} Xe$) and another nucleus. What is the proton number of the second nucleus produced?",
+      "options": [
+        "40",
+        "41",
+        "39",
+        "94"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total protons before = 94. Protons after = 54 + $Z_{unknown}$. $Z = 94 - 54 = 40$. Note: the neutron has 0 protons, so it doesn't change the charge count.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q13",
+      "type": "mcq",
+      "question": "If a nuclear reaction releases energy, how does the final total mass ($M_f$) compare to the initial total mass ($M_i$)?",
+      "options": [
+        "$M_i > M_f$",
+        "$M_i < M_f$",
+        "$M_i = M_f$",
+        "$M_i = 2M_f$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For energy to be released in these reactions, the initial mass must be greater than the final mass ($M_i > M_f$). The missing mass is the source of the released energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q14",
+      "type": "mcq",
+      "question": "Which of these is a correct description of the requirements for nuclear fusion compared to fission?",
+      "options": [
+        "Fusion requires light nuclei; Fission requires heavy nuclei",
+        "Fusion requires heavy nuclei; Fission requires light nuclei",
+        "Fusion only happens in power plants; Fission only happens in stars",
+        "Both require a neutron to initiate the process every time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fusion involves lighter nuclei (like hydrogen) combining, whereas fission involves heavy nuclei (like plutonium or uranium) splitting.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch19-nuclear-model-of-the-atom-hard-q15",
+      "type": "mcq",
+      "question": "In the context of the Sun, what is the initial state of the material before fusion releases energy?",
+      "options": [
+        "A cloud of dust and gas",
+        "A solid iron core",
+        "Liquid water",
+        "Pure oxygen gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stars like the Sun form when a cloud of dust and gas clumps together due to gravity, eventually leading to fusion. The cloud is mainly hydrogen and helium.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

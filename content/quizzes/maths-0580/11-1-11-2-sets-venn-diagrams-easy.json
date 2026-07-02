@@ -1,0 +1,77 @@
+{
+  "id": "11-1-11-2-sets-venn-diagrams-easy",
+  "topicId": "11-1-11-2-sets-venn-diagrams",
+  "chapterId": "ch07-sets-functions-logical-systems",
+  "difficulty": "easy",
+  "title": "Sets & Venn Diagrams — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-easy-q1",
+      "type": "mcq",
+      "question": "Which set notation symbol represents the 'intersection' of two sets (elements that belong to both set A and set B)?",
+      "options": [
+        "$\\cap$",
+        "$\\cup$",
+        "$\\subseteq$",
+        "$\\in$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol $\\cap$ means 'intersection', representing items that share a particular property in both A and B.\n\n**Common mistake:** Students often confuse $\\cap$2$\\cup$ (union/or)."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-easy-q2",
+      "type": "mcq",
+      "question": "What does the notation $A'$ represent in a Venn diagram?",
+      "options": [
+        "The complement of set A (all elements not in A)",
+        "The number of elements in set A",
+        "The universal set containing A",
+        "The empty set inside A"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol $A'$ means 'the complement of set A', which includes all elements in the universal set that are not in set A.\n\n**Common mistake:** Students may think it means 'only A' or includes the elements of A."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-easy-q3",
+      "type": "mcq",
+      "question": "If $b$ is a member of set X, which mathematical statement is correct?",
+      "options": [
+        "$b \\in X$",
+        "$b$\notin X\n\n$$",
+        "$b \\subseteq X$",
+        "$n(b) = X$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol $\\in$ means 'is an element of' or 'belongs to'.\n\n**Common mistake:** Confusing the element symbol $\\in$2$\\subseteq$."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-easy-q4",
+      "type": "mcq",
+      "question": "How is the number of elements in set A written in set notation?",
+      "options": [
+        "$n(A)$",
+        "$\\mathscr{E}(A)$",
+        "$A \\cup 0$",
+        "$\\emptyset(A)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol $n(A)$ means 'the number of elements in set A'.\n\n**Common mistake:** Using $\\mathscr{E}$ which actually represents the 'universal set'."
+    },
+    {
+      "id": "11-1-11-2-sets-venn-diagrams-easy-q5",
+      "type": "mcq",
+      "question": "According to shading rules, how do you correctly represent the union $A \\cup B$ on a Venn diagram?",
+      "options": [
+        "Shade the whole of set A and the whole of set B",
+        "Shade only the overlapping middle section",
+        "Shade only the region outside both circles",
+        "Shade set A but remove the part in set B"
+      ],
+      "correctIndex": 0,
+      "explanation": "To shade the union $A \\cup B$, you shade the whole of the first set and then the whole of the second set.\n\n**Common mistake:** Only shading the intersection (the part they have in common)."
+    }
+  ]
+}

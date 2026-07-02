@@ -1,0 +1,77 @@
+{
+  "id": "2-1-speed-velocity-and-acceleration-pyp",
+  "topicId": "2-1-speed-velocity-and-acceleration",
+  "chapterId": "ch02-motion",
+  "difficulty": "pyp",
+  "title": "Speed, Velocity and Acceleration — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-1-speed-velocity-and-acceleration-pyp-q1",
+      "type": "mcq",
+      "question": "A car travels from town A to town B, and then to town C. It takes 0.5 h to travel 50 km from A to B. It stops for 0.25 h in town B, then travels 30 km to town C in 1.25 h. What is the average speed for the whole journey?",
+      "options": [
+        "40 km/h",
+        "45 km/h",
+        "53 km/h",
+        "80 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Total distance = 50 + 30 = 80 km$. $Total time = 0.5 + 0.25 + 1.25 = 2.0 h$. $Average speed = 80 / 2.0 = 40 km/h$. \n\n**Common mistake:** Ignoring the time spent stopped at town B."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement correctly defines velocity?",
+      "options": [
+        "Speed in a given direction",
+        "Distance travelled per unit time",
+        "The change in speed per unit time",
+        "The total distance divided by the total time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is a vector quantity defined as speed in a specified direction. \n\n**Common mistake:** Defining speed (distance/time) without the directional component."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-pyp-q3",
+      "type": "mcq",
+      "question": "A speed–time graph shows a horizontal line at a speed of 12 m/s for 10 s. What is the distance travelled during this time?",
+      "options": [
+        "120 m",
+        "1.2 m",
+        "60 m",
+        "0 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is the area under the speed–time graph. For a horizontal line, it is a rectangle: $12 m/s \\times 10 s = 120 m$. \n\n**Common mistake:** Dividing speed by time to get $1.2 m$."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table is correct?",
+      "options": [
+        "Quantity: Acceleration; Type: Vector; Unit: $m/s^2$",
+        "Quantity: Speed; Type: Vector; Unit: $m/s$",
+        "Quantity: Velocity; Type: Scalar; Unit: $m/s$",
+        "Quantity: Distance; Type: Vector; Unit: $m$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is a change in velocity over time, making it a vector with unit $m/s^2$. \n\n**Common mistake:** Confusing speed (scalar) and velocity (vector) types."
+    },
+    {
+      "id": "2-1-speed-velocity-and-acceleration-pyp-q5",
+      "type": "mcq",
+      "question": "A car accelerates uniformly from 5 m/s to 13 m/s in 4.0 s. What is its acceleration?",
+      "options": [
+        "2.0 $m/s^2$",
+        "0.5 $m/s^2$",
+        "0.8 $m/s^2$",
+        "1.25 $m/s^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a = (13 - 5) / 4.0 = 8 / 4 = 2.0 m/s^2$. \n\n**Common mistake:** Inverting the calculation to get $0.5$ ($4 / 8$)."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
+import type { SeriesGuidePanel } from '@/lib/contentTypes'
 
-type Tab = 'binomial' | 'ap' | 'gp'
+type Tab = SeriesGuidePanel
 
 function buildPascal(maxN: number): number[][] {
   const tri: number[][] = [[1]]
@@ -381,39 +382,46 @@ function GpPanel() {
   )
 }
 
-export function SeriesVisualGuide() {
-  const [tab, setTab] = useState<Tab>('binomial')
+export function SeriesVisualGuide({ panels }: { panels?: SeriesGuidePanel[] }) {
+  const available = panels?.length ? panels : (['binomial', 'ap', 'gp'] as SeriesGuidePanel[])
+  const [tab, setTab] = useState<Tab>(available[0] ?? 'ap')
+  const current = available.includes(tab) ? tab : available[0]
+
+  const tabOptions = (
+    [
+      { id: 'binomial' as const, label: "Pascal & Binomial" },
+      { id: 'ap' as const, label: 'Arithmetic (AP)' },
+      { id: 'gp' as const, label: 'Geometric (GP)' },
+    ] as const
+  ).filter((t) => available.includes(t.id))
 
   return (
     <section className="enlight-explorer enlight-series-guide">
       <h2 className="enlight-explorer__title">Series Visual Guide</h2>
       <p className="enlight-body-text enlight-series-guide__intro">
-        Interactive diagrams for Pascal&apos;s triangle, binomial expansions, arithmetic progressions, and geometric
-        series — including when a sum to infinity exists.
+        {available.includes('binomial')
+          ? "Interactive diagrams for Pascal's triangle, binomial expansions, arithmetic progressions, and geometric series."
+          : 'Arithmetic and geometric sequences — common difference and common ratio visualised.'}
       </p>
 
-      <div className="enlight-series-tabs">
-        {(
-          [
-            ['binomial', "Pascal & Binomial"],
-            ['ap', 'Arithmetic (AP)'],
-            ['gp', 'Geometric (GP)'],
-          ] as const
-        ).map(([id, label]) => (
-          <button
-            key={id}
-            type="button"
-            className={`enlight-series-tabs__btn${tab === id ? ' enlight-series-tabs__btn--active' : ''}`}
-            onClick={() => setTab(id)}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
+      {tabOptions.length > 1 && (
+        <div className="enlight-series-tabs">
+          {tabOptions.map(({ id, label }) => (
+            <button
+              key={id}
+              type="button"
+              className={`enlight-series-tabs__btn${current === id ? ' enlight-series-tabs__btn--active' : ''}`}
+              onClick={() => setTab(id)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
 
-      {tab === 'binomial' && <BinomialPanel />}
-      {tab === 'ap' && <ApPanel />}
-      {tab === 'gp' && <GpPanel />}
+      {current === 'binomial' && <BinomialPanel />}
+      {current === 'ap' && <ApPanel />}
+      {current === 'gp' && <GpPanel />}
     </section>
   )
 }

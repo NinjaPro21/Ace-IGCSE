@@ -1,0 +1,77 @@
+{
+  "id": "11-2-properties-of-wave-motion-hard",
+  "topicId": "11-2-properties-of-wave-motion",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "hard",
+  "title": "Properties of Wave Motion — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-2-properties-of-wave-motion-hard-q1",
+      "type": "mcq",
+      "question": "Green light travels in a vacuum at $3.0 \\times 10^{8}\\text{ m/s}$ with a wavelength of $0.6\\text{ mu m}$. Calculate its frequency.",
+      "options": [
+        "$5.0 \\times 10^{14}\\text{ Hz}$",
+        "$5.0 \\times 10^{8}\\text{ Hz}$",
+        "$1.8 \\times 10^{2}\\text{ Hz}$",
+        "$2.0 \\times 10^{-15}\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$0.6\\text{ mu m} = 0.6 \\times 10^{-6}\\text{ m}$. $f = v / \\lambda = (3.0 \\times 10^{8}) / (0.6 \\times 10^{-6}) = 5.0 \\times 10^{14}\\text{ Hz}$. \n\n**Common mistake:** Incorrectly converting micrometres ($mu m$) to metres."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-hard-q2",
+      "type": "mcq",
+      "question": "A worker at a dock watches a wave crest pass from one pole to another. The poles are $12\\text{ m}$ apart and the crest takes $4\\text{ s}$ to travel between them. If the frequency is $2\\text{ Hz}$, what is the wavelength?",
+      "options": [
+        "$1.5\\text{ m}$",
+        "$3.0\\text{ m}$",
+        "$6.0\\text{ m}$",
+        "$24\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wave speed $v = \\text{distance} / \\text{time} = 12 / 4 = 3\\text{ m/s}$. Using $\\lambda = v / f = 3 / 2 = 1.5\\text{ m}$. \n\n**Common mistake:** Using the distance ($12\\text{ m}$) as the wavelength directly."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-hard-q3",
+      "type": "mcq",
+      "question": "A displacement-time graph for a particle in a wave shows one complete cycle every $0.02\\text{ s}$. If the wavelength is $4\\text{ cm}$, what is the wave speed?",
+      "options": [
+        "$2.0\\text{ m/s}$",
+        "$200\\text{ m/s}$",
+        "$0.0008\\text{ m/s}$",
+        "$0.5\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = 1 / T = 1 / 0.02 = 50\\text{ Hz}$. $\\lambda = 0.04\\text{ m}$. $v = f\\lambda = 50 \\times 0.04 = 2.0\\text{ m/s}$. \n\n**Common mistake:** Forgetting to convert the wavelength from cm to m."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-hard-q4",
+      "type": "mcq",
+      "question": "Which of the following correctly describes the relationship between displacement-distance and displacement-time graphs for a wave?",
+      "options": [
+        "Wavelength is determined from a displacement-distance graph; Period is determined from a displacement-time graph.",
+        "Wavelength is determined from a displacement-time graph; Period is determined from a displacement-distance graph.",
+        "Both graphs can be used to find wavelength directly.",
+        "Both graphs can be used to find the period directly."
+      ],
+      "correctIndex": 0,
+      "explanation": "A displacement-distance graph shows the wave's shape in space ($\\lambda$), while a displacement-time graph shows the history of one point over time ($T$). \n\n**Common mistake:** Swapping the properties determined from each graph."
+    },
+    {
+      "id": "11-2-properties-of-wave-motion-hard-q5",
+      "type": "mcq",
+      "question": "In Figure 11.29, the displacement-distance graph shows a wavelength of $5\\text{ m}$ and the displacement-time graph shows a period of $1.25\\text{ s}$. Calculate the speed of this wave.",
+      "options": [
+        "$4\\text{ m/s}$",
+        "$6.25\\text{ m/s}$",
+        "$0.25\\text{ m/s}$",
+        "$0.8\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency $f = 1 / T = 1 / 1.25 = 0.8\\text{ Hz}$. Speed $v = f\\lambda = 0.8 \\times 5 = 4\\text{ m/s}$. \n\n**Common mistake:** Multiplying period by wavelength ($1.25 \\times 5$) instead of frequency."
+    }
+  ]
+}

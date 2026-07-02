@@ -1,0 +1,77 @@
+{
+  "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium",
+  "topicId": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "medium",
+  "title": "Maximum and Minimum Values of a Quadratic Function — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q1",
+      "type": "mcq",
+      "question": "Find the minimum value of the quadratic function y= x^{2}−8x+20.",
+      "options": [
+        "4",
+        "8",
+        "20",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "The x-coordinate of the vertex is x=−b/2a=8/2=4. Substituting x=4 into the function: y= 4^{2}−8(4)+20=16−32+20=4.\n\n**Common mistake:** Finding the x-coordinate of the vertex (4) but forgetting to substitute it back into the function to find the actual minimum value."
+    },
+    {
+      "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q2",
+      "type": "mcq",
+      "question": "By completing the square, find the vertex of f(x)= x^{2}+6x−1.",
+      "options": [
+        "(-3, -10)",
+        "(3, -10)",
+        "(-3, 8)",
+        "(3, 8)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^{2}$+6x−1= (x+3)^{2}−9−1= (x+3)^{2}−10. The vertex is (−3,−10).\n\n**Common mistake:** Arithmetic errors during completion of the square, such as adding (b/2$)^{2}$instead of subtracting it from the constant term."
+    },
+    {
+      "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q3",
+      "type": "mcq",
+      "question": "Determine the maximum value of the function g(x)=15−$(x+2)^{2}$.",
+      "options": [
+        "15",
+        "-2",
+        "2",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "The function is in the form k−$(x-h)^{2}$. The maximum value is k=15.\n\n**Common mistake:** Picking the constant from inside the bracket or trying to expand the expression and making a calculation error."
+    },
+    {
+      "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q4",
+      "type": "mcq",
+      "question": "A quadratic function has a vertex at (2,−5). If the function is written as y= (x-h)^{2}+k, find the value of k.",
+      "options": [
+        "-5",
+        "2",
+        "-2",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "In vertex form, k represents the y-coordinate of the vertex point.\n\n**Common mistake:** Confusing the h and k values or misidentifying the coordinates from the provided vertex."
+    },
+    {
+      "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q5",
+      "type": "mcq",
+      "question": "Find the range of the function f(x)= (x-1)^{2}+3 for all real values of x.",
+      "options": [
+        "f(x)≥3",
+        "f(x)≥1",
+        "f(x)≤3",
+        "f(x)∈R"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the parabola opens upwards and has a minimum y-coordinate of 3, the output values must be 3 or greater.\n\n**Common mistake:** Using the x-coordinate (1) as the range boundary or incorrectly choosing 'less than' for an upward-opening parabola."
+    }
+  ]
+}

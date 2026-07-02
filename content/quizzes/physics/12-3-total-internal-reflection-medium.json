@@ -1,0 +1,77 @@
+{
+  "id": "12-3-total-internal-reflection-medium",
+  "topicId": "12-3-total-internal-reflection",
+  "chapterId": "ch12-light",
+  "difficulty": "medium",
+  "title": "Total Internal Reflection — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-3-total-internal-reflection-medium-q1",
+      "type": "mcq",
+      "question": "A certain type of glass has a refractive index of $1.50$. Calculate its critical angle.",
+      "options": [
+        "$41.8^circ$",
+        "$48.8^circ$",
+        "$30.0^circ$",
+        "$90.0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $sin c = \\frac{1}{n} = \\frac{1}{1.5} \\approx 0.667$. The inverse sine of $0.667$ is $41.8^circ$. \n\n**Common mistake:** using $n=1.33$ (water), which gives $48.8^circ$."
+    },
+    {
+      "id": "12-3-total-internal-reflection-medium-q2",
+      "type": "mcq",
+      "question": "The critical angle for a specific liquid is $48.8^circ$. What is the refractive index of this liquid?",
+      "options": [
+        "$1.33$",
+        "$1.50$",
+        "$2.42$",
+        "$0.75$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $n = \\frac{1}{sin(48.8^circ)} \\approx \\frac{1}{0.752} \\approx 1.33$. \n\n**Common mistake:** calculating $sin(48.8)$ and stopping at $0.75$."
+    },
+    {
+      "id": "12-3-total-internal-reflection-medium-q3",
+      "type": "mcq",
+      "question": "In an optical fibre, why does light stay inside the core even when the fibre is bent?",
+      "options": [
+        "The light hits the boundary at an angle greater than the critical angle.",
+        "The core is made of a material that absorbs all external light.",
+        "The speed of light increases, forcing it to curve with the pipe.",
+        "The outer cladding acts as a mirror that reflects light at any angle."
+      ],
+      "correctIndex": 0,
+      "explanation": "Light is transmitted via a series of total internal reflections because the angle of incidence at the core-cladding boundary remains greater than the critical angle. \n\n**Common mistake:** thinking the cladding is a simple metallic mirror."
+    },
+    {
+      "id": "12-3-total-internal-reflection-medium-q4",
+      "type": "mcq",
+      "question": "A ray of light is traveling inside a diamond ($n=2.42$). What is the critical angle for diamond?",
+      "options": [
+        "$24.4^circ$",
+        "$41.8^circ$",
+        "$65.6^circ$",
+        "$90.0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$sin c = \\frac{1}{2.42} \\approx 0.413$. $c = arcsin(0.413) \\approx 24.4^circ$. \n\n**Common mistake:** assuming all critical angles are around $42^circ$ like standard glass."
+    },
+    {
+      "id": "12-3-total-internal-reflection-medium-q5",
+      "type": "mcq",
+      "question": "If the angle of incidence is exactly equal to the critical angle, which of the following is true?",
+      "options": [
+        "The light ray travels along the boundary between the two media.",
+        "The light ray is totally reflected back into the first medium.",
+        "The light ray passes into the second medium without bending.",
+        "The light ray is completely absorbed by the boundary."
+      ],
+      "correctIndex": 0,
+      "explanation": "When $i = c$, the angle of refraction is $90^circ$, meaning the ray travels along the interface (boundary). \n\n**Common mistake:** thinking total internal reflection starts 'at' the critical angle rather than 'above' it."
+    }
+  ]
+}

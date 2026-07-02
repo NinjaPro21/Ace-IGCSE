@@ -1,0 +1,142 @@
+{
+  "id": "ch07-sets-functions-logical-systems-medium",
+  "topicId": "ch07-sets-functions-logical-systems",
+  "chapterId": "ch07-sets-functions-logical-systems",
+  "difficulty": "medium",
+  "title": "Chapter 7: Sets, Functions & Logical Systems — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q1",
+      "type": "mcq",
+      "question": "Given $\\mathscr{E} = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, $A = \\{1, 3, 5\\}$ and $B = \\{5, 6, 7\\}$, list the members of the set $A \\cap B$.",
+      "options": [
+        "$\\{5\\}$",
+        "$\\{1, 3, 5, 6, 7\\}$",
+        "$\\{2, 4, 8\\}$",
+        "$\\{1, 3, 6, 7\\}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection $A \\cap B$ contains only the elements common to both sets, which is 5.\n\n**Common mistake:** Listing all elements from both sets as if it were a union."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q2",
+      "type": "mcq",
+      "question": "If $n(A) = 10$, $n(B) = 13$, and $n(A \\cap B) = 5$, calculate the value of $n(A \\cup B)$.",
+      "options": [
+        "18",
+        "23",
+        "28",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the logical formula: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 10 + 13 - 5 = 18$.\n\n**Common mistake:** Adding the totals of A and B without subtracting the intersection, leading to double-counting."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q3",
+      "type": "mcq",
+      "question": "Which notation describes a region where elements are in set A but are NOT in set B?",
+      "options": [
+        "$A \\cap B'$",
+        "$A \\cup B'$",
+        "$A' \\cap B$",
+        "$(A \\cap B)'$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The intersection of A and the complement of B ($A \\cap B'$) describes elements inside A but outside B.\n\n**Common mistake:** Using $A' \\cap B$, which describes elements that are in B but not in A."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q4",
+      "type": "mcq",
+      "question": "In a group of 30 students, 18 play basketball and 14 play hockey. If 5 students play neither sport, how many play both?",
+      "options": [
+        "7",
+        "2",
+        "12",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total = (B only) + (H only) + (Both) + (Neither). $30 = (18-x) + (14-x) + x + 5 \\Rightarrow 30 = 37 - x \\Rightarrow x = 7$.\n\n**Common mistake:** Subtracting the 'neither' count from the total and then averaging the remaining sports."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q5",
+      "type": "mcq",
+      "question": "What is the set $A$2$A = \\{x: x \\text{ is an integer, } 2 \\le x < 6\\}$?",
+      "options": [
+        "$\\{2, 3, 4, 5\\}$",
+        "$\\{2, 3, 4, 5, 6\\}$",
+        "$\\{3, 4, 5\\}$",
+        "$\\{3, 4, 5, 6\\}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notation includes 2 (due to $\\le$2$<$).\n\n**Common mistake:** Including the upper boundary 6 when the symbol is strictly less than ($<$)."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q6",
+      "type": "mcq",
+      "question": "If $f(x) = 3x + 2$ and $g(x) = x^2$, determine the composite function $fg(x)$.",
+      "options": [
+        "$3x^2 + 2$",
+        "$(3x + 2)^2$",
+        "$3x^2 + 6$",
+        "$9x^2 + 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the composite function $fg(x)$, function $g$2$f$2$f[g(x)] = f(x^2) = 3(x^2) + 2$.\n\n**Common mistake:** Students often perform the functions in the wrong order, finding $gf(x)$ instead of $fg(x)$."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q7",
+      "type": "mcq",
+      "question": "Find the value of $x$2$f(x) = 1$, given that $f(x) = 3x - 1$.",
+      "options": [
+        "$2/3$",
+        "$0$",
+        "$2$",
+        "$1/3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set the function equal to 1: $3x - 1 = 1$. Adding 1 to both sides gives $3x = 2$, so $x = 2/3$.\n\n**Common mistake:** Students might substitute 1 for $x$2$f(1)$) instead of solving the equation."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q8",
+      "type": "mcq",
+      "question": "Determine the inverse of the function $f(x) = 5x - 2$.",
+      "options": [
+        "$(x + 2) / 5$",
+        "$(x - 2) / 5$",
+        "$5x + 2$",
+        "$x/5 + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the algebraic method: let $y = 5x - 2$, then swap $x$2$y$2$x = 5y - 2$. Solving for $y$2$x + 2 = 5y$2$y = (x + 2) / 5$.\n\n**Common mistake:** Errors in signs during rearrangement (e.g., subtracting 2 instead of adding) are common."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q9",
+      "type": "mcq",
+      "question": "If the domain of the function $y = 2x^2 + 7$ is $\\{1, 2, 5\\}$, what is the corresponding range?",
+      "options": [
+        "$\\{9, 15, 57\\}$",
+        "$\\{11, 19, 107\\}$",
+        "$\\{1, 2, 5\\}$",
+        "$\\{18, 30, 114\\}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute each domain value into the function: $2(1)^2 + 7 = 9$; $2(2)^2 + 7 = 15$; $2(5)^2 + 7 = 57$.\n\n**Common mistake:** Calculating $2x$2$4x^2$) instead of following the correct order of operations (Indices before Multiplication)."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-medium-q10",
+      "type": "mcq",
+      "question": "A function maps $\\{2, 5, 9\\}$ onto $\\{2, 11, 23\\}$. Which of the following rules describes this mapping?",
+      "options": [
+        "$f(x) = 3x - 4$",
+        "$f(x) = 2x + 1$",
+        "$f(x) = x^2 - 2$",
+        "$f(x) = 4x - 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Testing values: $3(2)-4 = 2$; $3(5)-4 = 11$; $3(9)-4 = 23$. The rule matches.\n\n**Common mistake:** Testing only the first value and assuming the rule holds for the entire set."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "13-5-cumulative-frequency-box-plots-pyp",
+  "topicId": "13-5-cumulative-frequency-box-plots",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "pyp",
+  "title": "Cumulative Frequency & Box Plots — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-5-cumulative-frequency-box-plots-pyp-q1",
+      "type": "mcq",
+      "question": "The mass of 200 cupcakes is checked. The cumulative frequency curve shows that the cumulative frequency at $113\\text{ g}$ is 50 and at $117\\text{ g}$ is 150. Calculate the interquartile range.",
+      "options": [
+        "4 g",
+        "100 g",
+        "115 g",
+        "2 g"
+      ],
+      "correctIndex": 0,
+      "explanation": "LQ ($25\\%$) is at $200/4 = 50$, which corresponds to $113\\text{ g}$. UQ ($75\\%$) is at $150$, which corresponds to $117\\text{ g}$. IQR $= 117 - 113 = 4\\text{ g}$.\n\n**Common mistake:** Subtracting the cumulative frequencies ($150-50=100$) instead of the actual masses."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-pyp-q2",
+      "type": "mcq",
+      "question": "From the cupcake data ($N=200$), how many cupcakes had a mass greater than $116\\text{ g}$ if the cumulative frequency at $116\\text{ g}$ was 120?",
+      "options": [
+        "80",
+        "120",
+        "60%",
+        "40"
+      ],
+      "correctIndex": 0,
+      "explanation": "Number greater than 116 $= \\text{Total} - \\text{CF at 116} = 200 - 120 = 80$.\n\n**Common mistake:** Failing to subtract from the total population of 200."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-pyp-q3",
+      "type": "mcq",
+      "question": "The speeds of 150 cars are recorded. Use the cumulative frequency curve to find the median speed if the 75th car on the list has a speed of $63\\text{ km/h}$.",
+      "options": [
+        "63 km/h",
+        "75 km/h",
+        "60 km/h",
+        "150 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "The median for 150 cars is the speed of the 75th car. The question states this speed is $63\\text{ km/h}$.\n\n**Common mistake:** Assuming the median is 75 (the position) instead of the speed value."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-pyp-q4",
+      "type": "mcq",
+      "question": "In a survey of 100 people, the cumulative frequency at the pass mark of 37 was 20. If three-fifths of the people passed, what was the pass mark?",
+      "options": [
+        "37",
+        "40",
+        "60",
+        "20"
+      ],
+      "correctIndex": 1,
+      "explanation": "If $3/5$ passed, then $2/5$ failed. $2/5$ of 100 is 40. We need to find the mark where CF is 40. (This question uses logic from). Note: Given Option A was a distractor from the stem, 40 is the intended reading point.\n\n**Common mistake:** Confusing the number of people who failed with the pass mark itself."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-pyp-q5",
+      "type": "mcq",
+      "question": "Which statistical diagram uses a box to represent the interquartile range and 'whiskers' to show the range of the data?",
+      "options": [
+        "Box plot",
+        "Histogram",
+        "Cumulative frequency curve",
+        "Scatter diagram"
+      ],
+      "correctIndex": 0,
+      "explanation": "A box plot (or box-and-whisker diagram) is the standard way to visually represent the median, quartiles, and range based on cumulative frequency data.\n\n**Common mistake:** Confusing the box plot with the cumulative frequency curve itself."
+    }
+  ]
+}

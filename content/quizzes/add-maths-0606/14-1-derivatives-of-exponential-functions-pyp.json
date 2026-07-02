@@ -1,0 +1,77 @@
+{
+  "id": "14-1-derivatives-of-exponential-functions-pyp",
+  "topicId": "14-1-derivatives-of-exponential-functions",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "pyp",
+  "title": "Derivatives of Exponential Functions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-derivatives-of-exponential-functions-pyp-q1",
+      "type": "mcq",
+      "question": "Show that the derivative of $y = x^3 e^{-x}$ is zero when $x = 3$. Hence, find the exact coordinates of the stationary point.",
+      "options": [
+        "$(3, 27e^{-3})$",
+        "$(3, 9e^{-3})$",
+        "$(3, 0)$",
+        "$(3, 27)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x^3(-e^{-x}) + 3x^2 e^{-x} = x^2 e^{-x}(3 - x)$. This is zero at $x=3$. Substituting $x=3$ into $y$2$y = 3^3 e^{-3} = 27e^{-3}$.\n\n**Common mistake:** Option C is a common mistake where students assume the curve hits the $x$-axis at the stationary point."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-pyp-q2",
+      "type": "mcq",
+      "question": "The equation of a curve is $y = e^{2x} - 4e^x$2$x$2$y$ is an increasing function.",
+      "options": [
+        "$x > \\ln 2$",
+        "$x < \\ln 2$",
+        "$x > 0$",
+        "$x > 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$y$2$\\frac{dy}{dx} > 0$. $2e^{2x} - 4e^x > 0 \\implies 2e^x(e^x - 2) > 0$. Since $2e^x$2$e^x > 2$, so $x > \\ln 2$.\n\n**Common mistake:** Option B is the set of values for which the function is decreasing."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-pyp-q3",
+      "type": "mcq",
+      "question": "Find the coordinates of the point on the curve $y = 3e^x + 2e^{-x}$ where the gradient is^1.",
+      "options": [
+        "$(0, 5)$",
+        "$(\\ln(\\frac{2}{3}), 4\\sqrt{6})$",
+        "$(\\ln(\\frac{1}{3}), 5)$",
+        "$(0, 1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3e^x - 2e^{-x} = 1$. Multiply by $e^x$2$3(e^x)^2 - e^x - 2 = 0 \\implies (3e^x + 2)(e^x - 1) = 0$. $e^x = 1 \\implies x = 0$. At $x=0, y = 3(1) + 2(1) = 5$.\n\n**Common mistake:** Option B occurs if the student makes an error in factoring the quadratic or uses the wrong quadratic formula parameters."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-pyp-q4",
+      "type": "mcq",
+      "question": "A curve has the equation $y = x^2 e^{k-x}$. Given that the stationary point occurs at $x = 2$ and the $y$2$4$, find the value of the constant $k$.",
+      "options": [
+        "$2$",
+        "$0$",
+        "$\\ln 4$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "At $x=2, y=4$: $4 = 2^2 e^{k-2} \\implies 4 = 4e^{k-2} \\implies 1 = e^{k-2} \\implies k-2 = 0 \\implies k = 2$.\n\n**Common mistake:** Option B occurs if a student assumes $k$ must be zero to make the exponent simple."
+    },
+    {
+      "id": "14-1-derivatives-of-exponential-functions-pyp-q5",
+      "type": "mcq",
+      "question": "Find the equation of the normal to the curve $y = e^{3x}$ at the point $(0, 1)$.",
+      "options": [
+        "$3y + x = 3$",
+        "$y = 3x + 1$",
+        "$y = -3x + 1$",
+        "$3y - x = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3e^{3x}$. At $x=0, m_t = 3$. Normal gradient $m_n = -1/3$. $y - 1 = -1/3(x - 0) \\implies 3y - 3 = -x \\implies 3y + x = 3$.\n\n**Common mistake:** Option B is the equation of the tangent; Option C uses the negative gradient but fails the reciprocal rule."
+    }
+  ]
+}

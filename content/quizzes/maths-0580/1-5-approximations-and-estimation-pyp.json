@@ -1,0 +1,77 @@
+{
+  "id": "1-5-approximations-and-estimation-pyp",
+  "topicId": "1-5-approximations-and-estimation",
+  "chapterId": "ch01-number",
+  "difficulty": "pyp",
+  "title": "Approximations and Estimation — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-approximations-and-estimation-pyp-q1",
+      "type": "mcq",
+      "question": "The mass, $m$2$4200\\text{ kg}$, correct to the nearest $100\\text{ kg}$. Complete the inequality showing the error bounds for $m$.",
+      "options": [
+        "$4150 \\le m < 4250$",
+        "$4100 \\le m < 4300$",
+        "$4150 < m \\le 4250$",
+        "$4195 \\le m < 4205$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The precision unit is $100\\text{ kg}$, so the variation is $\\pm 50\\text{ kg}$. Lower limit: $4200 - 50 = 4150$. Upper limit: $4200 + 50 = 4250$. Thus, $4150 \\le m < 4250$.\n\n**Common mistake:** Students often use the full unit value ($100\\text{ kg}$) for the boundary shift, resulting in $4100$ and $4300$."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-pyp-q2",
+      "type": "mcq",
+      "question": "A running track has a measured lap length of $400\\text{ m}$, correct to the nearest metre. An athlete runs exactly 4 laps. Find the upper bound of the total distance run.",
+      "options": [
+        "1602 m",
+        "1600 m",
+        "1604 m",
+        "1601 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Upper bound of 1 lap is $400.5\\text{ m}$. Total distance upper bound = $4 \\times 400.5 = 1602\\text{ m}$.\n\n**Common mistake:** Students may calculate $4 \\times 400 = 1600$ and add 0.5 to the end, getting 1600.5 or 1601."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-pyp-q3",
+      "type": "mcq",
+      "question": "The side of a regular hexagon is measured as $6.5\\text{ cm}$, correct to the nearest millimetre ($0.1\\text{ cm}$). Write down the lower bound of the perimeter of this hexagon.",
+      "options": [
+        "38.7 cm",
+        "39.0 cm",
+        "38.4 cm",
+        "36.0 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lower bound of side length is $6.45\\text{ cm}$. A hexagon has 6 equal sides, so the minimum perimeter is $6 \\times 6.45 = 38.7\\text{ cm}$.\n\n**Common mistake:** Students may interpret the accuracy as $1\\text{ cm}$ instead of $0.1\\text{ cm}$ or make multiplication errors."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-pyp-q4",
+      "type": "mcq",
+      "question": "Light travels at a speed of $3.00 \\times 10^{8}\\text{ m/s}$ correct to 3 significant figures. Find the lower bound of this speed parameter, writing your answer in scientific notation.",
+      "options": [
+        "$2.995 \\times 10^{8}\\text{ m/s}$",
+        "$2.99 \\times 10^{8}\\text{ m/s}$",
+        "$2.95 \\times 10^{8}\\text{ m/s}$",
+        "$3.005 \\times 10^{8}\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 3rd significant figure is in the hundredths place ($0.01$). Half of this place value is $0.005$. Subtracting from $3.00$ gives $2.995$, so the lower bound is $2.995 \\times 10^{8}\\text{ m/s}$.\n\n**Common mistake:** Students often truncate down to $2.99$ without preserving the half-unit value precision boundary."
+    },
+    {
+      "id": "1-5-approximations-and-estimation-pyp-q5",
+      "type": "mcq",
+      "question": "Calculate an estimate for the value of $\\frac{18.95 \\times 4.12}{0.196}$, rounding each constituent value to 1 significant figure as an initial step.",
+      "options": [
+        "400",
+        "380",
+        "40",
+        "200"
+      ],
+      "correctIndex": 0,
+      "explanation": "Round values: $18.95 \\to 20$, $4.12 \\to 4$, $0.196 \\to 0.2$. Perform calculation: $\\frac{20 \\times 4}{0.2} = \\frac{80}{0.2} = 400$.\n\n**Common mistake:** Students frequently make decimal placement errors when dividing by $0.2$, choosing 40 instead of 400."
+    }
+  ]
+}

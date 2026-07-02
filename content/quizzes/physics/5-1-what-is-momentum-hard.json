@@ -1,0 +1,77 @@
+{
+  "id": "5-1-what-is-momentum-hard",
+  "topicId": "5-1-what-is-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "hard",
+  "title": "What Is Momentum? — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-what-is-momentum-hard-q1",
+      "type": "mcq",
+      "question": "A $0.5\\text{ kg}$ object starts from rest and accelerates uniformly at $2\\text{ m/s}^2$ for $6\\text{ s}$. What is its momentum at the end of the $6\\text{ s}$?",
+      "options": [
+        "$6\\text{ kg m/s}$",
+        "$12\\text{ kg m/s}$",
+        "$3\\text{ kg m/s}$",
+        "$1.5\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find final velocity: $v = u + at = 0 + (2 \\times 6) = 12\\text{ m/s}$. Then $p = mv = 0.5 \\times 12 = 6\\text{ kg m/s}$. \n\n**Common mistake:** Using the acceleration ($2$) instead of velocity to find momentum ($1.0$)."
+    },
+    {
+      "id": "5-1-what-is-momentum-hard-q2",
+      "type": "mcq",
+      "question": "Which of the following describes the momentum of an object that moves $10\\text{ m}$ North and then $10\\text{ m}$ South, returning to its starting point in $10\\text{ s}$?",
+      "options": [
+        "Its average momentum over the whole 10 s is zero",
+        "Its momentum was constant throughout the journey",
+        "Its total distance divided by time gives its momentum",
+        "Its momentum is a scalar because it returned to the start"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since displacement is zero, average velocity is zero, and thus average momentum is zero. Because momentum is a vector, directions matter. \n\n**Common mistake:** Confusing speed (scalar) with velocity (vector) when discussing momentum."
+    },
+    {
+      "id": "5-1-what-is-momentum-hard-q3",
+      "type": "mcq",
+      "question": "If a graph is plotted with Momentum ($y$-axis) against Velocity ($x$-axis) for a moving object, what does the gradient of the line represent?",
+      "options": [
+        "Mass",
+        "Force",
+        "Acceleration",
+        "Distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the equation $p = mv$, the ratio $p/v$ is the mass $m$. Therefore, the gradient ($Delta y / Delta x$) of a $p$ vs $v$ graph is mass. \n\n**Common mistake:** Thinking the gradient is acceleration, which would be true for a velocity-time graph."
+    },
+    {
+      "id": "5-1-what-is-momentum-hard-q4",
+      "type": "mcq",
+      "question": "An object A has mass $m$ and velocity $v$. Object B has mass $2m$ and the same momentum as object A. What is the velocity of object B?",
+      "options": [
+        "$0.5v$",
+        "$2v$",
+        "$v$",
+        "$4v$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $p_A = p_B$, then $m \\times v = 2m \\times v_B$. Dividing both sides by $2m$ gives $v_B = 0.5v$. \n\n**Common mistake:** Thinking doubling the mass also requires doubling the velocity to keep momentum constant."
+    },
+    {
+      "id": "5-1-what-is-momentum-hard-q5",
+      "type": "mcq",
+      "question": "Why is it harder to stop a massive fast-moving object than a light slow-moving one?",
+      "options": [
+        "The massive fast object has a much larger momentum",
+        "The massive object has more weight but less speed",
+        "The light object has a higher rate of change of momentum",
+        "Massive objects always have zero acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stopping an object requires removing its momentum. Since $p = mv$, a massive and fast object has a very large momentum, requiring more force or time to bring it to rest. \n\n**Common mistake:** Focusing only on the object's 'weight' (force of gravity) rather than its momentum (motion property)."
+    }
+  ]
+}

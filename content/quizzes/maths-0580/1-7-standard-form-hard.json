@@ -1,0 +1,77 @@
+{
+  "id": "1-7-standard-form-hard",
+  "topicId": "1-7-standard-form",
+  "chapterId": "ch01-number",
+  "difficulty": "hard",
+  "title": "Standard Form — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-standard-form-hard-q1",
+      "type": "mcq",
+      "question": "A planet is approximately $1.44 \\times 10^{8}\\text{ km}$ from its star. A spaceship travels at a uniform speed of $2.4 \\times 10^{4}\\text{ km/h}$. Find the total time taken for the journey in days, expressing the answer in standard form.",
+      "options": [
+        "$2.5 \\times 10^{2}$",
+        "$6 \\times 10^{3}$",
+        "$2.5 \\times 10^{3}$",
+        "$6 \\times 10^{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time in hours is $\\frac{1.44 \\times 10^{8}}{2.4 \\times 10^{4}} = 6000\\text{ hours}$. Convert hours to days by dividing by $24$: $6000 / 24 = 250\\text{ days} = 2.5 \\times 10^{2}$.\n\n**Common mistake:** Students often forget to perform the final conversion from hours to days, leaving the answer as $6 \\times 10^{3}$."
+    },
+    {
+      "id": "1-7-standard-form-hard-q2",
+      "type": "mcq",
+      "question": "The mass of an atom of hydrogen is $1.67 \\times 10^{-24}\\text{ g}$. Find the combined mass of $3 \\times 10^{22}$ atoms of hydrogen, giving your answer in ordinary standard decimal notation.",
+      "options": [
+        "0.0501",
+        "0.501",
+        "0.00501",
+        "5.01"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the values: $(1.67 \\times 10^{-24}) \\times (3 \\times 10^{22}) = 5.01 \\times 10^{-2}\\text{ g}$. Written as an ordinary number, this equals $0.0501$.\n\n**Common mistake:** Students often miscalculate the index addition $-24 + 22$, incorrectly evaluating it as $-3$ or $+2$."
+    },
+    {
+      "id": "1-7-standard-form-hard-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{(6 \\times 10^{4}) + (9 \\times 10^{3})}{3 \\times 10^{-2}}$, giving your final answer in standard form.",
+      "options": [
+        "$2.3 \\times 10^{6}$",
+        "$2.3 \\times 10^{2}$",
+        "$5 \\times 10^{6}$",
+        "$2.3 \\times 10^{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify the numerator: $60000 + 9000 = 69000 = 6.9 \\times 10^{4}$. Divide by the denominator: $\\frac{6.9 \\times 10^{4}}{3 \\times 10^{-2}} = 2.3 \\times 10^{4 - (-2)} = 2.3 \\times 10^{6}$.\n\n**Common mistake:** Students frequently drop individual terms or handle index subtractions incorrectly, leading to solutions like $2.3 \\times 10^{2}$."
+    },
+    {
+      "id": "1-7-standard-form-hard-q4",
+      "type": "mcq",
+      "question": "The total volume of water in a lake is $4.5 \\times 10^{7}\\text{ m}^3$. A treatment facility purifies $7.5 \\times 10^{3}\\text{ litres}$ of water per second. Given that $1\\text{ m}^3 = 1000\\text{ litres}$, find how many seconds it takes to treat the entire lake, in standard form.",
+      "options": [
+        "$6 \\times 10^{6}$",
+        "$6 \\times 10^{3}$",
+        "$3.375 \\times 10^{11}$",
+        "$6 \\times 10^{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total lake volume in litres is $(4.5 \\times 10^{7}) \\times 1000 = 4.5 \\times 10^{10}\\text{ litres}$. Divide by rate: $\\frac{4.5 \\times 10^{10}}{7.5 \\times 10^{3}} = 0.6 \\times 10^{7} = 6 \\times 10^{6}\\text{ seconds}$.\n\n**Common mistake:** Students often forget to multiply by $1000$ to convert cubic meters to litres, obtaining $6 \\times 10^{3}$."
+    },
+    {
+      "id": "1-7-standard-form-hard-q5",
+      "type": "mcq",
+      "question": "If $x = 2 \\times 10^{-3}$ and $y = 5 \\times 10^{-4}$, evaluate the value of $\\frac{1}{x+y}$ in standard form.",
+      "options": [
+        "$4 \\times 10^{2}$",
+        "$4 \\times 10^{-2}$",
+        "$1.43 \\times 10^{2}$",
+        "$4 \\times 10^{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum the denominator terms: $x + y = 0.002 + 0.0005 = 0.0025 = 2.5 \\times 10^{-3}$. Take the reciprocal: $\\frac{1}{2.5 \\times 10^{-3}} = 0.4 \\times 10^{3} = 4 \\times 10^{2}$.\n\n**Common mistake:** Students sometimes perform individual divisions or handle the shift from $0.4 \\times 10^{3}$ to $4 \\times 10^{2}$ incorrectly."
+    }
+  ]
+}

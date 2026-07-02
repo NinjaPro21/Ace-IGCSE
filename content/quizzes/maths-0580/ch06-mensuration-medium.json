@@ -1,0 +1,337 @@
+{
+  "id": "ch06-mensuration-medium",
+  "topicId": "ch06-mensuration",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "medium",
+  "title": "Chapter 6: Mensuration — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch06-mensuration-medium-q1",
+      "type": "mcq",
+      "question": "Divide $$60$ between two people, A and B, in the ratio $2$. How much does person B receive?$",
+      "options": [
+        "$$\n35\n$$",
+        "$$\n25\n$$",
+        "$$\n5\n$$",
+        "$$\n42\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total parts = $5 + 7 = 12$. Each part = \n\n$60 ÷ 12 =$5$. Person B receives 7 parts:$7 \\times $2$35$[8].$\n\n**Common mistake:** The student might calculate the share for person A (\n$$25$) instead of person B.$"
+    },
+    {
+      "id": "ch06-mensuration-medium-q2",
+      "type": "mcq",
+      "question": "In a sale, a jacket costing $$40$ is reduced by $2$. What is the sale price?$",
+      "options": [
+        "$$\n32\n$$",
+        "$$\n8\n$$",
+        "$$\n20\n$$",
+        "$$\n48\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A reduction of $20\\%$ means the new price is $80\\%$ of the original. $0.8 \\times$2$32$. Alternatively, $20\\%$ of \n\n$40$ is $2$8$, and$\n\n$40 -$8 =$32$ [9, 10].\n\n**Common mistake:** A student might calculate the discount amount (\n$$8$) and provide that as the final answer.$"
+    },
+    {
+      "id": "ch06-mensuration-medium-q3",
+      "type": "mcq",
+      "question": "Using the exchange rate $1 = 0.31$ Dinars, convert\n$$22.50$ into Dinars.$",
+      "options": [
+        "$6.98$ Dinars",
+        "$72.58$ Dinars",
+        "$0.01$ Dinars",
+        "$6.75$ Dinars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the amount in dollars by the exchange rate: $$22.50 \\times 0.31 = 6.975$, which rounds to $2$ Dinars [11, 12].$\n\n**Common mistake:** A student might divide the dollar amount by $0.31$ instead of multiplying."
+    },
+    {
+      "id": "ch06-mensuration-medium-q4",
+      "type": "mcq",
+      "question": "Calculate the simple interest earned on $$1200$ invested for $2$ years at a rate of $2$ per year.$",
+      "options": [
+        "$$\n72\n$$",
+        "$$\n36\n$$",
+        "$$\n1272\n$$",
+        "$$\n7.20\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$I = (P \\times R \\times T) / 100 = (1200 \\times 3 \\times 2) / 100 = 7200 / 100 =$72$[3].$\n\n**Common mistake:** The student might provide the total amount in the account (\n\n$$1272$) instead of just the interest earned.$"
+    },
+    {
+      "id": "ch06-mensuration-medium-q5",
+      "type": "mcq",
+      "question": "Find the number of hours and minutes between $11:25$ and $13:10$.",
+      "options": [
+        "1 hour 45 minutes",
+        "2 hours 15 minutes",
+        "1 hour 15 minutes",
+        "2 hours 45 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "From 11:25 to 12:25 is 1 hour. From 12:25 to 13:10 is an additional 45 minutes. Total = 1 hour 45 minutes [5, 13].\n\n**Common mistake:** A common error is treating the minutes as base-100, calculating $13.10 - 11.25 = 1.85$ and answering 1 hour 85 minutes."
+    },
+    {
+      "id": "ch06-mensuration-medium-q6",
+      "type": "mcq",
+      "question": "A trapezium has an area of $105\\text{ cm}^2$ and parallel sides of length $5\\text{ cm}$ and $9\\text{ cm}$. Find the perpendicular distance between the parallel sides.",
+      "options": [
+        "$15\\text{ cm}$",
+        "$7.5\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$30\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$105 = 0.5 \\times (5 + 9) \\times h \\Rightarrow 105 = 7h \\Rightarrow h = 15\\text{ cm}$.\n\n**Common mistake:** A student might forget to divide the sum of parallel sides by 2 before solving for $h$."
+    },
+    {
+      "id": "ch06-mensuration-medium-q7",
+      "type": "mcq",
+      "question": "A rectangular field is $400\\text{ m}$ long and has an area of $6$ hectares. Calculate the perimeter of the field ($1\\text{ hectare} = 10000\\text{ m}^2$).",
+      "options": [
+        "$1100\\text{ m}$",
+        "$550\\text{ m}$",
+        "$800\\text{ m}$",
+        "$150\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 60000\\text{ m}^2$. Width $= 60000 \\div 400 = 150\\text{ m}$. Perimeter $= 2(400 + 150) = 1100\\text{ m}$.\n\n**Common mistake:** A common mistake is finding the width and assuming it is the final answer for the perimeter."
+    },
+    {
+      "id": "ch06-mensuration-medium-q8",
+      "type": "mcq",
+      "question": "Find the radius of a circle that has a circumference of $20\\text{ m}$. Give your answer to 3 significant figures.",
+      "options": [
+        "$3.18\\text{ m}$",
+        "$6.37\\text{ m}$",
+        "$10.0\\text{ m}$",
+        "$12.7\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$C = 2\\pi r \\Rightarrow 20 = 2\\pi r \\Rightarrow r = 10 \\div \\pi \\approx 3.183...$, so $3.18\\text{ m}$ (3 s.f.).\n\n**Common mistake:** The student might divide by $\\pi$2$6.37$."
+    },
+    {
+      "id": "ch06-mensuration-medium-q9",
+      "type": "mcq",
+      "question": "A circle of radius $5\\text{ cm}$ is inscribed inside a square. Calculate the shaded area remaining in the square after the circle is removed.",
+      "options": [
+        "$21.5\\text{ cm}^2$",
+        "$78.5\\text{ cm}^2$",
+        "$100\\text{ cm}^2$",
+        "$4.29\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Side of square $= 2 \\times \\text{radius} = 10\\text{ cm}$. Square area $= 100$. Circle area $= \\pi \\times 5^2 \\approx 78.54$. Shaded area $= 100 - 78.54 = 21.46 \\approx 21.5$.\n\n**Common mistake:** The student might think the side of the square is equal to the radius instead of the diameter."
+    },
+    {
+      "id": "ch06-mensuration-medium-q10",
+      "type": "mcq",
+      "question": "Calculate the area of $\\Delta ABC$2$a = 7\\text{ cm}$, side $b = 14\\text{ cm}$, and angle $C = 80^{\\circ}$.",
+      "options": [
+        "$48.3\\text{ cm}^2$",
+        "$98.0\\text{ cm}^2$",
+        "$49.0\\text{ cm}^2$",
+        "$17.0\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times a \\times b \\times \\sin C = 0.5 \\times 7 \\times 14 \\times \\sin 80^{\\circ} \\approx 48.256$.\n\n**Common mistake:** The student might forget the $0.5$ in the formula or assume it is a right-angled triangle."
+    },
+    {
+      "id": "ch06-mensuration-medium-q11",
+      "type": "mcq",
+      "question": "A sector of a circle with radius $12\\text{ cm}$ has an arc length of $14\\pi\\text{ cm}$. Calculate the central angle $\\theta$.",
+      "options": [
+        "$210°$",
+        "$105°$",
+        "$140°$",
+        "$70°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$14\\pi = \\frac{\\theta}{360} \\times 2\\pi(12) \\Rightarrow 14 = \\frac{24\\theta}{360} \\Rightarrow 14 = \\frac{\\theta}{15} \\Rightarrow \\theta = 210°$.\n\n**Common mistake:** Arithmetic errors during the rearrangement of the formula are common."
+    },
+    {
+      "id": "ch06-mensuration-medium-q12",
+      "type": "mcq",
+      "question": "Determine the area of a sector if the radius is $5\\text{ cm}$ and the arc length is $7.5\\text{ cm}$.",
+      "options": [
+        "$18.75\\text{ cm}^2$",
+        "$37.5\\text{ cm}^2$",
+        "$9.375\\text{ cm}^2$",
+        "$15.0\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find $\\theta$2$7.5 = \\frac{\\theta}{360} \\times 2\\pi(5) \\Rightarrow \\theta \\approx 85.94°$. Area $= \\frac{85.94}{360} \\times \\pi \\times 5^2 \\approx 18.75$. Alternatively, use $\\text{Area} = 0.5 \\times r \\times l = 0.5 \\times 5 \\times 7.5 = 18.75$.\n\n**Common mistake:** The student might multiply radius and arc length but forget to divide by 2."
+    },
+    {
+      "id": "ch06-mensuration-medium-q13",
+      "type": "mcq",
+      "question": "A chord of length $12\\text{ cm}$ is drawn in a circle of radius $10\\text{ cm}$. Calculate the shortest distance from the centre of the circle to the chord.",
+      "options": [
+        "$8\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$\\sqrt{136}\\text{ cm}$",
+        "$4\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance from the centre, half the chord ($6\\text{ cm}$), and the radius ($10\\text{ cm}$) form a right-angled triangle. Distance $= \\sqrt{10}^2 - 6^2 = \\sqrt{64} = 8$.\n\n**Common mistake:** The student might treat the distance as the hypotenuse and calculate $\\sqrt{10}^2 + 6^2$."
+    },
+    {
+      "id": "ch06-mensuration-medium-q14",
+      "type": "mcq",
+      "question": "Calculate the area of a segment where the radius is $8\\text{ cm}$ and the central angle is $90°$. (Use $\\pi = 3.142$)",
+      "options": [
+        "$18.3\\text{ cm}^2$",
+        "$50.3\\text{ cm}^2$",
+        "$32.0\\text{ cm}^2$",
+        "$14.3\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sector area $= 0.25 \\times \\pi \\times 8^2 = 16\\pi \\approx 50.27$. Triangle area $= 0.5 \\times 8 \\times 8 \\times \\sin(90°) = 32$. Segment area $= 50.27 - 32 = 18.27 \\approx 18.3$.\n\n**Common mistake:** A student might calculate the sector area and assume that is the segment area, or forget to subtract the triangle."
+    },
+    {
+      "id": "ch06-mensuration-medium-q15",
+      "type": "mcq",
+      "question": "A circle has a minor arc of length $2\\pi\\text{ cm}$ and a major arc of length $22\\pi\\text{ cm}$. Find the radius of the circle.",
+      "options": [
+        "$12\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$24\\text{ cm}$",
+        "$3.82\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total circumference $= 2\\pi + 22\\pi = 24\\pi$2$C = 2\\pi r$2$24\\pi = 2\\pi r \\Rightarrow r = 12$.\n\n**Common mistake:** The student might use only one of the arc lengths as the full circumference."
+    },
+    {
+      "id": "ch06-mensuration-medium-q16",
+      "type": "mcq",
+      "question": "Calculate the height of a cylinder that has a volume of $500\\text{ cm}^3$ and a base radius of $8\\text{ cm}$. Give your answer correct to 3 significant figures.",
+      "options": [
+        "$2.49\\text{ cm}$",
+        "$7.81\\text{ cm}$",
+        "$1.99\\text{ cm}$",
+        "$6.25\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$V = \\pi r^2 h \\Rightarrow 500 = \\pi \\times 8^2 \\times h \\Rightarrow 500 = 64\\pi h$2$h = 500 / (64\\pi) \\approx 2.486...$, which rounds to $2.49$.\n\n**Common mistake:** A student might divide the volume by the radius only once or forget to include $\\pi$ in the division."
+    },
+    {
+      "id": "ch06-mensuration-medium-q17",
+      "type": "mcq",
+      "question": "Find the total surface area of a solid cone with a radius of $4\\text{ cm}$ and a vertical height of $3\\text{ cm}$. (Use $\\pi = 3.142$)",
+      "options": [
+        "$113.1\\text{ cm}^2$",
+        "$62.8\\text{ cm}^2$",
+        "$37.7\\text{ cm}^2$",
+        "$150.8\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find slant height $l = \\sqrt{3^2 + 4^2} = 5$. Curved area $= \\pi rl = \\pi(4)(5) = 20\\pi$2$= \\pi r^2 = 16\\pi$2$= 36\\pi \\approx 113.1$.\n\n**Common mistake:** The student might use the vertical height ($3$) in the surface area formula instead of the slant height ($5$)."
+    },
+    {
+      "id": "ch06-mensuration-medium-q18",
+      "type": "mcq",
+      "question": "A square-based pyramid has a base side of $5\\text{ m}$ and a vertical height of $4\\text{ m}$. Calculate its volume.",
+      "options": [
+        "$33.3\\text{ m}^3$",
+        "$100\\text{ m}^3$",
+        "$66.7\\text{ m}^3$",
+        "$20\\text{ m}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume $= \\frac{1}{3} \\times \\text{base area} \\times \\text{height} = \\frac{1}{3} \\times (5 \\times 5) \\times 4 = \\frac{100}{3} \\approx 33.3$.\n\n**Common mistake:** The student might multiply base area by height and forget the one-third factor."
+    },
+    {
+      "id": "ch06-mensuration-medium-q19",
+      "type": "mcq",
+      "question": "Determine the total surface area of a solid hemisphere with a radius of $7\\text{ cm}$ in terms of $\\pi$.",
+      "options": [
+        "$147\\pi\\text{ cm}^2$",
+        "$98\\pi\\text{ cm}^2$",
+        "$49\\pi\\text{ cm}^2$",
+        "$196\\pi\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curved area $= 2\\pi r^2 = 98\\pi$2$= \\pi r^2 = 49\\pi$2$= 147\\pi$.\n\n**Common mistake:** A student might only calculate the curved surface area ($98\\pi$) and forget to add the circular base."
+    },
+    {
+      "id": "ch06-mensuration-medium-q20",
+      "type": "mcq",
+      "question": "If $3$ litres of oil are removed from an upright cylindrical can, the level falls by $10\\text{ cm}$. Find the radius of the can in centimetres ($1\\text{ litre} = 1000\\text{ cm}^3$).",
+      "options": [
+        "$9.77\\text{ cm}$",
+        "$30.0\\text{ cm}$",
+        "$3.18\\text{ cm}$",
+        "$5.46\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume removed $= 3000\\text{ cm}^3$. $\\pi r^2 h = 3000 \\Rightarrow \\pi r^2 (10) = 3000 \\Rightarrow r^2 = 300 / \\pi \\approx 95.49$. $r = \\sqrt{95.49} \\approx 9.77$.\n\n**Common mistake:** The student might fail to convert litres to $\\text{cm}^3$ correctly, using $3$ instead of $3000$."
+    },
+    {
+      "id": "ch06-mensuration-medium-q21",
+      "type": "mcq",
+      "question": "In a diagram, triangle $ADE$2$ABC$2$DE$2$BC$2$AD = 2\\text{ cm}, AB = 6\\text{ cm},$ and $DE = 5\\text{ cm}$, find the length of $BC$.",
+      "options": [
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$7.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The linear scale factor $k = AB/AD = 6/2 = 3$. Therefore, $BC = DE \\times 3 = 5 \\times 3 = 15\\text{ cm}$.\n\n**Common mistake:** The student might use the length $BD$2$4\\text{ cm}$) as the scale factor instead of the full side $AB$."
+    },
+    {
+      "id": "ch06-mensuration-medium-q22",
+      "type": "mcq",
+      "question": "Two similar triangles have areas of $18\\text{ cm}^2$ and $32\\text{ cm}^2$. If the base of the smaller triangle is $6\\text{ cm}$, find the base of the larger triangle.",
+      "options": [
+        "$8\\text{ cm}$",
+        "$10.7\\text{ cm}$",
+        "$10.5\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 32/18 = 16/9$. Linear scale factor $k = \\sqrt{16/9} = 4/3$. Base $= 6 \\times (4/3) = 8\\text{ cm}$.\n\n**Common mistake:** A student might multiply the base by the area ratio ($32/18$) directly without taking the square root."
+    },
+    {
+      "id": "ch06-mensuration-medium-q23",
+      "type": "mcq",
+      "question": "The surface areas of two similar cylinders are in the ratio $4 : 9$. If the smaller cylinder has a height of $10\\text{ cm}$, what is the height of the larger cylinder?",
+      "options": [
+        "$15\\text{ cm}$",
+        "$22.5\\text{ cm}$",
+        "$12.5\\text{ cm}$",
+        "$13.3\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 9/4$. Linear scale factor $k = \\sqrt{9/4} = 1.5$. Height $= 10 \\times 1.5 = 15\\text{ cm}$.\n\n**Common mistake:** Students may treat the area ratio as the linear ratio and calculate $10 \\times (9/4) = 22.5$."
+    },
+    {
+      "id": "ch06-mensuration-medium-q24",
+      "type": "mcq",
+      "question": "Two similar jugs have heights of $4\\text{ cm}$ and $6\\text{ cm}$. If the capacity of the smaller jug is $50\\text{ cm}^3$, find the capacity of the larger jug.",
+      "options": [
+        "$168.75\\text{ cm}^3$",
+        "$112.5\\text{ cm}^3$",
+        "$75\\text{ cm}^3$",
+        "$150\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear scale factor $k = 6/4 = 1.5$. Volume scale factor $k^3 = 1.5^3 = 3.375$. Capacity $= 50 \\times 3.375 = 168.75\\text{ cm}^3$.\n\n**Common mistake:** The student might multiply the capacity by the height ratio ($1.5$) or its square ($2.25$)."
+    },
+    {
+      "id": "ch06-mensuration-medium-q25",
+      "type": "mcq",
+      "question": "The areas of the bases of two similar statues are in the ratio $4 : 25$. Find the ratio of their volumes.",
+      "options": [
+        "$8 : 125$",
+        "$2 : 5$",
+        "$4 : 125$",
+        "$16 : 625$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 25/4$, so $k = 5/2$. Volume ratio $k^3 = (5/2)^3 = 125/8$.\n\n**Common mistake:** A common mistake is cubing the area ratio ($4^3 : 25^3$) instead of first finding the linear scale factor."
+    }
+  ]
+}

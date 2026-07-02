@@ -4,6 +4,8 @@ import { getGlobalLevel, NOTES_MIN_SECONDS } from '@/features/mastery/levelSyste
 import { db } from '@/lib/firebase'
 import {
   addDoc,
+  arrayRemove,
+  arrayUnion,
   collection,
   doc,
   getDoc,
@@ -16,7 +18,12 @@ import {
   where,
 } from 'firebase/firestore'
 import type { AuthUser, LeaderboardEntry, SchoolGroup } from './socialTypes'
-import { generateInviteCode, normalizeInviteCode, type GroupType } from './socialTypes'
+import { MAX_CLANS, generateInviteCode, normalizeInviteCode, type GroupType } from './socialTypes'
+import {
+  sumXpInPeriod,
+  type LeaderboardMetric,
+  type LeaderboardPeriod,
+} from './leaderboardUtils'
 
 /** Firestore rejects `undefined` anywhere in a document — strip recursively before writes. */
 function stripUndefined<T>(value: T): T {
@@ -57,13 +64,27 @@ export interface CloudProfile {
   streakDays: number
   longestStreak: number
   lastActiveDate: string | null
+  lastActiveAt: string | null
   activeDates: string[]
   progress: Partial<UserProgress>
   schoolId: string | null
+  clanIds: string[]
+  createdAt: string | null
+  bio?: string | null
+  examYear?: number | null
+  subjects?: string[]
+  privacy?: 'public' | 'friends' | 'school'
+  showOnLeaderboard?: boolean
+  dailyGoalMin?: number | null
+  achievementIds?: string[]
+  friendIds?: string[]
+  friendCode?: string | null
+  showStudyActivity?: boolean
 }
 
-function docToProfile(id: string, data: Record<string, unknown>): CloudProfile {
+export function docToProfile(id: string, data: Record<string, unknown>): CloudProfile {
   const progress = (data.progress as Partial<UserProgress>) ?? {}
+  const clanIds = (data.clanIds as string[]) ?? []
   return {
     id,
     email: (data.email as string) ?? null,
@@ -73,9 +94,24 @@ function docToProfile(id: string, data: Record<string, unknown>): CloudProfile {
     streakDays: (data.streakDays as number) ?? 0,
     longestStreak: (data.longestStreak as number) ?? 0,
     lastActiveDate: (data.lastActiveDate as string) ?? null,
+    lastActiveAt: (data.lastActiveAt as string) ?? null,
     activeDates: (data.activeDates as string[]) ?? [],
     progress,
     schoolId: (data.schoolId as string) ?? null,
+    clanIds,
+    createdAt:
+      (data.createdAt as { toDate?: () => Date })?.toDate?.()?.toISOString() ??
+      (typeof data.createdAt === 'string' ? data.createdAt : null),
+    bio: (data.bio as string) ?? null,
+    examYear: (data.examYear as number) ?? null,
+    subjects: (data.subjects as string[]) ?? [],
+    privacy: (data.privacy as CloudProfile['privacy']) ?? 'friends',
+    showOnLeaderboard: data.showOnLeaderboard !== false,
+    dailyGoalMin: (data.dailyGoalMin as number) ?? null,
+    achievementIds: (data.achievementIds as string[]) ?? [],
+    friendIds: (data.friendIds as string[]) ?? [],
+    friendCode: (data.friendCode as string) ?? null,
+    showStudyActivity: data.showStudyActivity !== false,
   }
 }
 
@@ -95,12 +131,39 @@ export function cloudRowToUserProgress(row: CloudProfile): UserProgress {
     streakDays: Math.max(row.streakDays ?? 0, embedded.streakDays ?? 0),
     longestStreak: Math.max(row.longestStreak ?? 0, embedded.longestStreak ?? 0),
     lastActiveDate: embedded.lastActiveDate ?? row.lastActiveDate ?? '',
+    lastActiveAt: row.lastActiveAt ?? embedded.lastActiveAt ?? '',
     activeDates: embedded.activeDates ?? row.activeDates ?? [],
     displayName: embedded.displayName ?? row.displayName ?? '',
     topics: embedded.topics ?? {},
     chapters: embedded.chapters ?? {},
     chapterStats: embedded.chapterStats ?? {},
+    conceptMisses: embedded.conceptMisses ?? {},
+    quizAttempts: embedded.quizAttempts ?? [],
+    xpByDate: mergeXpByDate(embedded.xpByDate, row.progress?.xpByDate),
+    studySecByDate: embedded.studySecByDate ?? {},
+    lastVisitedTopicId: embedded.lastVisitedTopicId,
+    lastVisitedChapterId: embedded.lastVisitedChapterId,
+    lastVisitedSubjectId: embedded.lastVisitedSubjectId,
+    dailyGoalMin: embedded.dailyGoalMin,
+    achievementIds: embedded.achievementIds ?? [],
+    subjects: embedded.subjects ?? [],
+    onboardingComplete: embedded.onboardingComplete,
   }
+}
+
+function mergeXpByDate(
+  a?: Record<string, number>,
+  b?: Record<string, number>,
+): Record<string, number> {
+  const merged: Record<string, number> = { ...b }
+  for (const [date, xp] of Object.entries(a ?? {})) {
+    merged[date] = Math.max(xp, merged[date] ?? 0)
+  }
+  const trimmed: Record<string, number> = {}
+  for (const key of Object.keys(merged).sort().slice(-90)) {
+    trimmed[key] = merged[key]
+  }
+  return trimmed
 }
 
 export function mergeUserProgress(local: UserProgress, remote: UserProgress): UserProgress {
@@ -113,6 +176,14 @@ export function mergeUserProgress(local: UserProgress, remote: UserProgress): Us
     topics[id] = {
       notesRead: (localComplete || remoteComplete) && timeSpentSec >= NOTES_MIN_SECONDS,
       timeSpentSec,
+      quizLevel: Math.max(
+        t.quizLevel ?? 0,
+        remoteT?.quizLevel ?? 0,
+      ) as import('@/features/mastery/MasteryEngine').MasteryLevel,
+      easyScore: Math.max(t.easyScore ?? 0, remoteT?.easyScore ?? 0),
+      mediumScore: Math.max(t.mediumScore ?? 0, remoteT?.mediumScore ?? 0),
+      hardScore: Math.max(t.hardScore ?? 0, remoteT?.hardScore ?? 0),
+      pypComplete: Boolean(t.pypComplete || remoteT?.pypComplete),
     }
   }
 
@@ -138,16 +209,58 @@ export function mergeUserProgress(local: UserProgress, remote: UserProgress): Us
     }
   }
 
+  const xpByDate = mergeXpByDate(local.xpByDate, remote.xpByDate)
+  const studySecByDate = mergeXpByDate(local.studySecByDate, remote.studySecByDate)
+
+  const conceptMisses = { ...remote.conceptMisses }
+  for (const [key, record] of Object.entries(local.conceptMisses ?? {})) {
+    const remoteRecord = remote.conceptMisses?.[key]
+    conceptMisses[key] = {
+      ...record,
+      missCount: Math.max(record.missCount, remoteRecord?.missCount ?? 0),
+      lastAt:
+        (record.lastAt ?? '') >= (remoteRecord?.lastAt ?? '')
+          ? record.lastAt
+          : remoteRecord?.lastAt ?? record.lastAt,
+    }
+  }
+
+  const quizAttempts = [...(local.quizAttempts ?? []), ...(remote.quizAttempts ?? [])]
+    .sort((a, b) => b.at.localeCompare(a.at))
+    .filter((a, i, arr) => arr.findIndex((x) => x.id === a.id) === i)
+    .slice(0, 150)
+
+  const lastActiveAt =
+    !local.lastActiveAt
+      ? remote.lastActiveAt ?? ''
+      : !remote.lastActiveAt
+        ? local.lastActiveAt
+        : local.lastActiveAt >= remote.lastActiveAt
+          ? local.lastActiveAt
+          : remote.lastActiveAt
+
   return {
     xp: Math.max(local.xp, remote.xp),
     streakDays: Math.max(local.streakDays, remote.streakDays),
     longestStreak: Math.max(local.longestStreak, remote.longestStreak),
     lastActiveDate: local.lastActiveDate >= remote.lastActiveDate ? local.lastActiveDate : remote.lastActiveDate,
+    lastActiveAt,
     activeDates,
     displayName: remote.displayName || local.displayName,
     topics,
     chapters,
     chapterStats,
+    conceptMisses,
+    quizAttempts,
+    xpByDate,
+    studySecByDate,
+    lastVisitedTopicId: local.lastVisitedTopicId ?? remote.lastVisitedTopicId,
+    lastVisitedChapterId: local.lastVisitedChapterId ?? remote.lastVisitedChapterId,
+    lastVisitedSubjectId: local.lastVisitedSubjectId ?? remote.lastVisitedSubjectId,
+    dailyGoalMin: local.dailyGoalMin ?? remote.dailyGoalMin,
+    achievementIds: [...new Set([...(local.achievementIds ?? []), ...(remote.achievementIds ?? [])])],
+    subjects: local.subjects?.length ? local.subjects : remote.subjects,
+    onboardingComplete: Boolean(local.onboardingComplete || remote.onboardingComplete),
   }
 }
 
@@ -165,10 +278,12 @@ export async function upsertProfile(
 ): Promise<void> {
   if (!db) return
 
+  const profileRef = doc(db, 'profiles', userId)
+  const existingSnap = await getDoc(profileRef)
   const snapshots = await recordPlatformSync(userId, progress)
 
   await setDoc(
-    doc(db, 'profiles', userId),
+    profileRef,
     stripUndefined({
       email: meta?.email ?? null,
       displayName: progress.displayName || meta?.displayName || null,
@@ -177,6 +292,7 @@ export async function upsertProfile(
       streakDays: progress.streakDays,
       longestStreak: progress.longestStreak,
       lastActiveDate: progress.lastActiveDate || null,
+      lastActiveAt: progress.lastActiveAt || null,
       activeDates: progress.activeDates,
       syncedStudySec: snapshots.syncedStudySec,
       syncedQuizAttempts: snapshots.syncedQuizAttempts,
@@ -184,36 +300,109 @@ export async function upsertProfile(
         topics: progress.topics,
         chapters: progress.chapters,
         chapterStats: progress.chapterStats,
+        conceptMisses: progress.conceptMisses,
+        quizAttempts: progress.quizAttempts,
         displayName: progress.displayName,
         lastActiveDate: progress.lastActiveDate,
+        lastActiveAt: progress.lastActiveAt,
         activeDates: progress.activeDates,
+        xpByDate: progress.xpByDate,
+        studySecByDate: progress.studySecByDate,
+        lastVisitedTopicId: progress.lastVisitedTopicId,
+        lastVisitedChapterId: progress.lastVisitedChapterId,
+        lastVisitedSubjectId: progress.lastVisitedSubjectId,
+        dailyGoalMin: progress.dailyGoalMin,
+        achievementIds: progress.achievementIds,
+        subjects: progress.subjects,
+        onboardingComplete: progress.onboardingComplete,
       },
+      dailyGoalMin: progress.dailyGoalMin ?? null,
+      achievementIds: progress.achievementIds ?? [],
+      subjects: progress.subjects ?? [],
+      ...(!existingSnap.exists() ? { createdAt: serverTimestamp() } : {}),
       updatedAt: serverTimestamp(),
     }),
     { merge: true },
   )
 }
 
-export async function fetchSchool(schoolId: string): Promise<SchoolGroup | null> {
+async function countGroupMembers(groupId: string, type: GroupType): Promise<number> {
+  if (!db) return 0
+  if (type === 'school') {
+    const snap = await getDocs(query(collection(db, 'profiles'), where('schoolId', '==', groupId)))
+    return snap.size
+  }
+  const snap = await getDocs(query(collection(db, 'profiles'), where('clanIds', 'array-contains', groupId)))
+  return snap.size
+}
+
+function normalizeGroupName(name: string): string {
+  return name.trim().toLowerCase().replace(/\s+/g, ' ')
+}
+
+/** Case-insensitive duplicate check within the same group type. */
+export async function isGroupNameTaken(name: string, type: GroupType): Promise<boolean> {
+  if (!db) return false
+  const target = normalizeGroupName(name)
+  const snap = await getDocs(query(collection(db, 'schools'), where('type', '==', type), limit(200)))
+  return snap.docs.some((d) => normalizeGroupName(String(d.data().name ?? '')) === target)
+}
+
+export async function fetchGroup(groupId: string): Promise<SchoolGroup | null> {
   if (!db) return null
-  const snap = await getDoc(doc(db, 'schools', schoolId))
+  const snap = await getDoc(doc(db, 'schools', groupId))
   if (!snap.exists()) return null
   const data = snap.data()
-
-  const membersSnap = await getDocs(
-    query(collection(db, 'profiles'), where('schoolId', '==', schoolId)),
-  )
-
+  const type = data.type as GroupType
   return {
     id: snap.id,
     name: data.name as string,
-    type: data.type as GroupType,
+    type,
     inviteCode: data.inviteCode as string,
-    memberCount: membersSnap.size,
+    memberCount: await countGroupMembers(snap.id, type),
   }
 }
 
-export async function createSchool(
+/** @deprecated use fetchGroup */
+export async function fetchSchool(schoolId: string): Promise<SchoolGroup | null> {
+  return fetchGroup(schoolId)
+}
+
+export async function fetchPublicSchools(): Promise<SchoolGroup[]> {
+  if (!db) return []
+  const q = query(
+    collection(db, 'schools'),
+    where('type', '==', 'school'),
+    orderBy('name'),
+    limit(100),
+  )
+  const snap = await getDocs(q)
+  const memberCounts = await Promise.all(
+    snap.docs.map((d) => countGroupMembers(d.id, 'school')),
+  )
+  return snap.docs.map((d, i) => {
+    const data = d.data()
+    return {
+      id: d.id,
+      name: data.name as string,
+      type: 'school' as const,
+      inviteCode: data.inviteCode as string,
+      memberCount: memberCounts[i],
+    }
+  }).reduce<SchoolGroup[]>((acc, school) => {
+    const key = school.name.trim().toLowerCase()
+    const existing = acc.find((s) => s.name.trim().toLowerCase() === key)
+    if (!existing) {
+      acc.push(school)
+    } else if ((school.memberCount ?? 0) > (existing.memberCount ?? 0)) {
+      const idx = acc.indexOf(existing)
+      acc[idx] = school
+    }
+    return acc
+  }, [])
+}
+
+export async function createGroup(
   userId: string,
   name: string,
   type: GroupType,
@@ -221,39 +410,97 @@ export async function createSchool(
 ): Promise<SchoolGroup> {
   if (!db) throw new Error('Firebase is not configured')
 
+  const trimmed = name.trim()
+  if (!trimmed) throw new Error('Name is required')
+  if (await isGroupNameTaken(trimmed, type)) {
+    throw new Error(
+      type === 'school'
+        ? 'A school with this name already exists — search the list and join it instead.'
+        : 'A clan with this name already exists — pick a different name.',
+    )
+  }
+
   const code = inviteCode ?? generateInviteCode(type)
   const ref = await addDoc(collection(db, 'schools'), {
-    name: name.trim(),
+    name: trimmed,
+    nameNormalized: normalizeGroupName(trimmed),
     type,
     inviteCode: code,
     createdBy: userId,
     createdAt: serverTimestamp(),
   })
 
-  await joinSchool(userId, ref.id)
-  const group = await fetchSchool(ref.id)
+  if (type === 'school') {
+    await joinSchoolById(userId, ref.id)
+  } else {
+    await joinClanById(userId, ref.id)
+  }
+
+  const group = await fetchGroup(ref.id)
   if (!group) throw new Error('Failed to load group')
   return group
 }
 
-export async function joinSchoolByCode(userId: string, rawCode: string): Promise<SchoolGroup> {
+/** @deprecated use createGroup */
+export async function createSchool(
+  userId: string,
+  name: string,
+  type: GroupType,
+  inviteCode?: string,
+): Promise<SchoolGroup> {
+  return createGroup(userId, name, type, inviteCode)
+}
+
+export async function joinSchoolById(userId: string, schoolId: string): Promise<SchoolGroup> {
+  if (!db) throw new Error('Firebase is not configured')
+  const group = await fetchGroup(schoolId)
+  if (!group) throw new Error('School not found')
+  if (group.type !== 'school') throw new Error('That group is a clan — use an invite code to join clans')
+
+  await setDoc(doc(db, 'profiles', userId), { schoolId }, { merge: true })
+  return { ...group, memberCount: (group.memberCount ?? 0) + 1 }
+}
+
+export async function joinClanByCode(userId: string, rawCode: string): Promise<SchoolGroup> {
   if (!db) throw new Error('Firebase is not configured')
   const inviteCode = normalizeInviteCode(rawCode)
 
   const q = query(collection(db, 'schools'), where('inviteCode', '==', inviteCode), limit(1))
   const snap = await getDocs(q)
-  if (snap.empty) throw new Error('No school or clan found with that invite code')
+  if (snap.empty) throw new Error('No clan found with that invite code')
 
-  const schoolDoc = snap.docs[0]
-  await joinSchool(userId, schoolDoc.id)
-  const group = await fetchSchool(schoolDoc.id)
-  if (!group) throw new Error('Failed to load group')
+  const clanDoc = snap.docs[0]
+  const data = clanDoc.data()
+  if (data.type !== 'clan') {
+    throw new Error('Schools are joined from the list — only clans use invite codes')
+  }
+
+  return joinClanById(userId, clanDoc.id)
+}
+
+async function joinClanById(userId: string, clanId: string): Promise<SchoolGroup> {
+  if (!db) throw new Error('Firebase is not configured')
+
+  const profileSnap = await getDoc(doc(db, 'profiles', userId))
+  const clanIds = (profileSnap.data()?.clanIds as string[]) ?? []
+  if (clanIds.includes(clanId)) {
+    const existing = await fetchGroup(clanId)
+    if (!existing) throw new Error('Clan not found')
+    return existing
+  }
+  if (clanIds.length >= MAX_CLANS) {
+    throw new Error(`You can only join up to ${MAX_CLANS} clans — leave one first`)
+  }
+
+  await setDoc(doc(db, 'profiles', userId), { clanIds: arrayUnion(clanId) }, { merge: true })
+  const group = await fetchGroup(clanId)
+  if (!group) throw new Error('Failed to load clan')
   return group
 }
 
-async function joinSchool(userId: string, schoolId: string): Promise<void> {
-  if (!db) return
-  await setDoc(doc(db, 'profiles', userId), { schoolId }, { merge: true })
+/** @deprecated use joinClanByCode */
+export async function joinSchoolByCode(userId: string, rawCode: string): Promise<SchoolGroup> {
+  return joinClanByCode(userId, rawCode)
 }
 
 export async function leaveSchool(userId: string): Promise<void> {
@@ -261,38 +508,132 @@ export async function leaveSchool(userId: string): Promise<void> {
   await setDoc(doc(db, 'profiles', userId), { schoolId: null }, { merge: true })
 }
 
+export async function leaveClan(userId: string, clanId: string): Promise<void> {
+  if (!db) return
+  await setDoc(doc(db, 'profiles', userId), { clanIds: arrayRemove(clanId) }, { merge: true })
+}
+
 export async function fetchLeaderboard(
-  schoolId: string,
+  groupId: string,
+  groupType: GroupType,
   currentUserId: string,
+  options?: { metric?: LeaderboardMetric; period?: LeaderboardPeriod },
 ): Promise<LeaderboardEntry[]> {
   if (!db) return []
 
-  const q = query(
-    collection(db, 'profiles'),
-    where('schoolId', '==', schoolId),
-    orderBy('xp', 'desc'),
-    limit(25),
-  )
+  const metric = options?.metric ?? 'xp'
+  const period = options?.period ?? 'all'
+
+  const q =
+    groupType === 'school'
+      ? query(collection(db, 'profiles'), where('schoolId', '==', groupId), limit(50))
+      : query(
+          collection(db, 'profiles'),
+          where('clanIds', 'array-contains', groupId),
+          limit(50),
+        )
+
   const snap = await getDocs(q)
 
-  return snap.docs.map((d, index) => {
+  const rows: LeaderboardEntry[] = snap.docs.map((d, index) => {
     const row = d.data()
     const xp = (row.xp as number) ?? 0
+    const progress = (row.progress as Partial<UserProgress>) ?? {}
+    const xpByDate = mergeXpByDate(progress.xpByDate as Record<string, number> | undefined)
+    const longestStreak = (row.longestStreak as number) ?? 0
+    const streakDays = (row.streakDays as number) ?? 0
+    const score =
+      metric === 'longestStreak'
+        ? longestStreak
+        : sumXpInPeriod(xpByDate, period, xp)
+
     return {
       userId: d.id,
       displayName: (row.displayName as string) ?? `Student ${index + 1}`,
       avatarUrl: (row.avatarUrl as string) ?? undefined,
       xp,
-      streakDays: (row.streakDays as number) ?? 0,
+      streakDays,
+      longestStreak,
       level: getGlobalLevel(xp),
+      score,
       isYou: d.id === currentUserId,
     }
   })
+
+  rows.sort((a, b) => b.score - a.score)
+  return rows.slice(0, 25)
+}
+
+export async function fetchFriendsLeaderboard(
+  friendIds: string[],
+  currentUserId: string,
+  options?: { metric?: LeaderboardMetric; period?: LeaderboardPeriod },
+): Promise<LeaderboardEntry[]> {
+  if (!db || friendIds.length === 0) return []
+
+  const metric = options?.metric ?? 'xp'
+  const period = options?.period ?? 'all'
+  const ids = [...new Set([currentUserId, ...friendIds])]
+
+  const profiles = await Promise.all(ids.map((id) => getDoc(doc(db!, 'profiles', id))))
+  const rows: LeaderboardEntry[] = profiles
+    .filter((p) => p.exists())
+    .map((d, index) => {
+      const row = d.data()!
+      const xp = (row.xp as number) ?? 0
+      const progress = (row.progress as Partial<UserProgress>) ?? {}
+      const xpByDate = mergeXpByDate(progress.xpByDate as Record<string, number> | undefined)
+      const longestStreak = (row.longestStreak as number) ?? 0
+      const streakDays = (row.streakDays as number) ?? 0
+      const score =
+        metric === 'longestStreak' ? longestStreak : sumXpInPeriod(xpByDate, period, xp)
+
+      return {
+        userId: d.id,
+        displayName: (row.displayName as string) ?? `Student ${index + 1}`,
+        avatarUrl: (row.avatarUrl as string) ?? undefined,
+        xp,
+        streakDays,
+        longestStreak,
+        level: getGlobalLevel(xp),
+        score,
+        isYou: d.id === currentUserId,
+        achievementIds: (row.achievementIds as string[]) ?? [],
+      }
+    })
+
+  rows.sort((a, b) => b.score - a.score)
+  return rows
+}
+
+export async function updateProfileExtras(
+  userId: string,
+  extras: Partial<Pick<CloudProfile, 'bio' | 'examYear' | 'subjects' | 'privacy' | 'showOnLeaderboard' | 'dailyGoalMin' | 'showStudyActivity'>>,
+): Promise<void> {
+  if (!db) return
+  await setDoc(doc(db, 'profiles', userId), stripUndefined(extras), { merge: true })
 }
 
 export async function fetchSchoolMemberProfiles(schoolId: string): Promise<CloudProfile[]> {
   if (!db) return []
 
   const snap = await getDocs(query(collection(db, 'profiles'), where('schoolId', '==', schoolId)))
+  return snap.docs.map((d) => docToProfile(d.id, d.data()))
+}
+
+export async function fetchClanMemberProfiles(clanId: string): Promise<CloudProfile[]> {
+  if (!db) return []
+
+  const snap = await getDocs(
+    query(collection(db, 'profiles'), where('clanIds', 'array-contains', clanId)),
+  )
+  return snap.docs.map((d) => docToProfile(d.id, d.data()))
+}
+
+/** Admin-only — requires Firestore `admins/{uid}` doc or matching rules. */
+export async function fetchAllProfilesForAdmin(): Promise<CloudProfile[]> {
+  if (!db) return []
+
+  const snap = await getDocs(query(collection(db, 'profiles'), limit(500)))
   return snap.docs.map((d) => docToProfile(d.id, d.data()))
 }

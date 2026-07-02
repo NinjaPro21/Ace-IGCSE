@@ -1,0 +1,77 @@
+{
+  "id": "9-1-thermal-expansion-easy",
+  "topicId": "9-1-thermal-expansion",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "easy",
+  "title": "Thermal Expansion — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-thermal-expansion-easy-q1",
+      "type": "mcq",
+      "question": "What happens to the volume of most materials when they are heated?",
+      "options": [
+        "The volume increases (expansion)",
+        "The volume decreases (contraction)",
+        "The volume remains constant",
+        "The volume depends only on the atmospheric pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion is the increase in volume of a material as its temperature rises. **Common mistake:** Thinking that 'expansion' only applies to gases; it applies to solids and liquids as well."
+    },
+    {
+      "id": "9-1-thermal-expansion-easy-q2",
+      "type": "mcq",
+      "question": "Which state of matter typically expands the most when heated by the same increase in temperature?",
+      "options": [
+        "Gases",
+        "Liquids",
+        "Solids",
+        "They all expand by the same amount"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, gases expand more than liquids, and liquids expand more than solids for the same temperature rise. **Common mistake:** Thinking solids expand most because they feel 'stronger'."
+    },
+    {
+      "id": "9-1-thermal-expansion-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following is a common application of the thermal expansion of liquids?",
+      "options": [
+        "Liquid-in-glass thermometers",
+        "Bimetallic strips in heaters",
+        "The cooling system of a car",
+        "Bridges with expansion gaps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquid-in-glass thermometers work because the liquid inside expands as it gets hotter, moving up the scale. **Common mistake:** Selecting bridge gaps, which is a method to manage expansion in solids, not an application of liquid expansion."
+    },
+    {
+      "id": "9-1-thermal-expansion-easy-q4",
+      "type": "mcq",
+      "question": "According to the kinetic particle model, why do solids expand when heated?",
+      "options": [
+        "The particles vibrate more vigorously and move further apart",
+        "The individual particles grow in size as they gain energy",
+        "The number of particles increases as heat is added",
+        "The particles stop vibrating and start moving from place to place"
+      ],
+      "correctIndex": 0,
+      "explanation": "When heated, particles gain kinetic energy and vibrate more vigorously, which causes them to take up more space and move further apart. **Common mistake:** Thinking that the particles themselves get larger; the particles stay the same size, but the space between them increases."
+    },
+    {
+      "id": "9-1-thermal-expansion-easy-q5",
+      "type": "mcq",
+      "question": "What is a common consequence of thermal expansion in metal railway tracks?",
+      "options": [
+        "The tracks can buckle on a very hot day",
+        "The tracks become much heavier in the summer",
+        "The tracks contract and break during the day",
+        "The tracks lose their magnetic properties"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion causes rails to become longer; if there is no room for this expansion, the force can cause the tracks to buckle. **Common mistake:** Thinking heat increases the mass or 'weight' of the tracks."
+    }
+  ]
+}

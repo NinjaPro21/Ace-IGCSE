@@ -1,0 +1,77 @@
+{
+  "id": "17-4-action-and-use-of-circuit-components-hard",
+  "topicId": "17-4-action-and-use-of-circuit-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "hard",
+  "title": "Action and Use of Circuit Components — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-4-action-and-use-of-circuit-components-hard-q1",
+      "type": "mcq",
+      "question": "A potential divider contains a thermistor and a $100\\text{ }Omega$ fixed resistor connected to a $6\\text{ V}$ cell. The thermistor resistance is $500\\text{ }Omega$ at $0^\\circ\\text{C}$ and $50\\text{ }Omega$ at $100^\\circ\\text{C}$. What is the voltmeter reading across the thermistor at $100^\\circ\\text{C}$?",
+      "options": [
+        "$2.0\\text{ V}$",
+        "$4.0\\text{ V}$",
+        "$1.0\\text{ V}$",
+        "$5.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "At $100^\\circ\\text{C}$, $R_{therm} = 50\\text{ }Omega$ and $R_{fixed} = 100\\text{ }Omega$. Total $R = 150\\text{ }Omega$. $V_{out} = (50 / 150) \\times 6 = 1/3 \\times 6 = 2.0\\text{ V}$. (Note: The Practice 17.4 q1 in the source asks for the reading across the fixed resistor, which would be $4.0\\text{ V}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-hard-q2",
+      "type": "mcq",
+      "question": "A potential divider has a variable resistor $R_1$ (range $0\\text{--}4\\text{ }Omega$) and a fixed resistor $R_2 = 6\\text{ }Omega$ connected to a $12\\text{ V}$ source. What are the minimum and maximum possible values of $V_{out}$ measured across $R_2$?",
+      "options": [
+        "$7.2\\text{ V and } 12\\text{ V}$",
+        "$0\\text{ V and } 7.2\\text{ V}$",
+        "$0\\text{ V and } 12\\text{ V}$",
+        "$6\\text{ V and } 12\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Max $V_{out}$ is when $R_1 = 0$: $V = (6/6) \\times 12 = 12\\text{ V}$. Min $V_{out}$ is when $R_1 = 4$: $V = [6 / (4+6)] \\times 12 = 0.6 \\times 12 = 7.2\\text{ V}$. This matches logic from Review Q9.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-hard-q3",
+      "type": "mcq",
+      "question": "A student wants to design a circuit that turns on a lamp when the temperature falls below a certain level. Which arrangement of a thermistor and a relay would be most appropriate?",
+      "options": [
+        "Thermistor in a potential divider to activate a relay when its resistance is high",
+        "Thermistor in a potential divider to activate a relay when its resistance is low",
+        "Thermistor connected in series with the lamp and a d.c. supply",
+        "Thermistor used as a fuse to break the circuit when it gets too cold"
+      ],
+      "correctIndex": 0,
+      "explanation": "When it gets cold, a thermistor's resistance increases. A potential divider can be used to provide enough voltage to a relay to switch on a secondary high-power lamp circuit once that resistance threshold is reached.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-hard-q4",
+      "type": "mcq",
+      "question": "A potential divider uses a $9\\text{ V}$ source, a $24\\text{ }Omega$ fixed resistor, and a variable resistor ($0\\text{--}12\\text{ }Omega$). To obtain a $V_{out}$ that can vary from $0\\text{ V}$ to $3\\text{ V}$, how should the variable resistor be connected?",
+      "options": [
+        "Measure $V_{out}$ across the variable resistor which is in series with the fixed resistor",
+        "Measure $V_{out}$ across the fixed resistor which is in series with the variable resistor",
+        "Connect both resistors in parallel with the voltmeter",
+        "The desired range is impossible with these components"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $V_{out}$ is across the variable resistor $R_{var}$: at $0\\text{ }Omega, V_{out} = 0\\text{ V}$. At $12\\text{ }Omega, V_{out} = [12 / (12 + 24)] \\times 9 = (12/36) \\times 9 = 1/3 \\times 9 = 3\\text{ V}$. This confirms the design from Review Section B Q5.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-4-action-and-use-of-circuit-components-hard-q5",
+      "type": "mcq",
+      "question": "A $12\\text{ V}$ supply is connected to a $500\\text{ k}Omega$ resistor and an LDR in series. In the dark, the LDR resistance is $1\\text{ M}Omega$. What is the potential difference across the LDR in the dark?",
+      "options": [
+        "$8.0\\text{ V}$",
+        "$4.0\\text{ V}$",
+        "$12.0\\text{ V}$",
+        "$6.0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1\\text{ M}Omega = 1000\\text{ k}Omega$. Using the formula: $V_{LDR} = [1000 / (500 + 1000)] \\times 12 = (1000 / 1500) \\times 12 = 2/3 \\times 12 = 8.0\\text{ V}$. This matches the logic for Review Q10.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

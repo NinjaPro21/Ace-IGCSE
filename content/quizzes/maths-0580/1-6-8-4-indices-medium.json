@@ -1,0 +1,77 @@
+{
+  "id": "1-6-8-4-indices-medium",
+  "topicId": "1-6-8-4-indices",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Indices — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-6-8-4-indices-medium-q1",
+      "type": "mcq",
+      "question": "Evaluate the exact $\\frac{tional}{}$ or integer value of $27^{-\\frac{2}{3}}$.",
+      "options": [
+        "$\\frac{1}{9}$",
+        "$$\n\\frac{1}{3}\n$$",
+        "-18",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the $\\frac{tional}{}$ index rules: $27^{-\\frac{2}{3}} = \\frac{1}{(27^{\\frac{1}{3}})^2}$. The cube root of 27 is 3, and squaring 3 gives 9. The reciprocal gives $\\frac{1}{9}$.\n\n**Common mistake:** Students often forget the negative sign's reciprocal operation or multiply $27 \\times -\\frac{2}{3}$ directly to get $-18$."
+    },
+    {
+      "id": "1-6-8-4-indices-medium-q2",
+      "type": "mcq",
+      "question": "Solve the algebraic index equation for the variable $x$2$3^{2x-1} = 27$.",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "1.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert 27 to a base of 3: $27 = 3^3$. Equate the indices: $2x - 1 = 3 \\implies 2x = 4 \\implies x = 2$.\n\n**Common mistake:** Students may treat 27 as $3 \\times 9$ and equate indices incorrectly to 9 or 9/2."
+    },
+    {
+      "id": "1-6-8-4-indices-medium-q3",
+      "type": "mcq",
+      "question": "Simplify the expression completely, ensuring no brackets remain: $(4x^4 y^{-2})^3$.",
+      "options": [
+        "$64x^{12} y^{-6}$",
+        "$12x^{12} y^{-6}$",
+        "$4x^{12} y^{-6}$",
+        "$64x^7 y^1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the power of 3 to each factor inside the brackets: $4^3 = 64$, $(x^4)^3 = x^{12}$, and $(y^{-2})^3 = y^{-6}$. This combines to $64x^{12} y^{-6}$.\n\n**Common mistake:** Students often forget to cube the numerical coefficient 4, leaving it as 4 or multiplying it by 3 to get 12."
+    },
+    {
+      "id": "1-6-8-4-indices-medium-q4",
+      "type": "mcq",
+      "question": "Find the value of $w$2$\\frac{5^w}{5^{-3}} = 5^8$.",
+      "options": [
+        "5",
+        "11",
+        "-5",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify the left side using division subtraction laws: $w - (-3) = w + 3$. Equate this to the right side power: $w + 3 = 8 \\implies w = 5$.\n\n**Common mistake:** Students frequently overlook the double negative, calculating $w - 3 = 8 \\implies w = 11$."
+    },
+    {
+      "id": "1-6-8-4-indices-medium-q5",
+      "type": "mcq",
+      "question": "Simplify the expression: $\\sqrt{36x^{16}}$.",
+      "options": [
+        "$6x^8$",
+        "$6x^4$",
+        "$18x^8$",
+        "$36x^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Take the square root of the coefficient: $\\sqrt{36} = 6$. Take the square root of the variable component by halving its exponent power: $(x^{16})^{\\frac{1}{12}} = x^8$. This results in $6x^8$.\n\n**Common mistake:** Students frequently square root the exponent number 16 to get 4, leading to the incorrect answer $6x^4$."
+    }
+  ]
+}

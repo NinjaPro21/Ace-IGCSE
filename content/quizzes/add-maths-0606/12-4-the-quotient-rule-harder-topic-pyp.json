@@ -1,0 +1,77 @@
+{
+  "id": "12-4-the-quotient-rule-harder-topic-pyp",
+  "topicId": "12-4-the-quotient-rule-harder-topic",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "pyp",
+  "title": "The Quotient Rule — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "Differentiate $y = \\frac{3x - 2}{2x + 3}$ and hence find the approximate change in y when x increases from 1 to 1.02.",
+      "options": [
+        "0.0104",
+        "0.02",
+        "0.52",
+        "0.13"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = [3(2x+3) - 2(3x-2)] / (2x+3)$^2$ = [6x+9-6x+4] / (2x+3)$^2$ = 13 / (2x+3)$^2$. At x=1, $\\frac{dy}{dx}$ = 13/25 = 0.52. δy ≈ 0.52 * 0.02 = 0.0104.\n\n**Common mistake:** Miscalculating the constant in the numerator as 5 instead of 13."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "Find the equation of the tangent to the curve $y = \\frac{x + 1}{x - 1}$ at the point where $x = 2$.",
+      "options": [
+        "y = -2x + 7",
+        "y = -2x + 3",
+        "y = 2x - 1",
+        "y = -0.5x + 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "y(2) = 3. $\\frac{dy}{dx}$ = [(x-1) - (x+1)] / (x-1)$^2$ = -2 / (x-1)$^2$. At x=2, m = -2. y - 3 = -2(x - 2) => y = -2x + 7.\n\n**Common mistake:** Arithmetic errors in the gradient calculation or the point-slope formula."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "Show that the derivative of $y = \\frac{2x}{x^2 + 4}$ is $\\frac{8 - 2x^2}{(x^2 + 4)^2}$. Find the range of x for which y is increasing.",
+      "options": [
+        "-2 < x < 2",
+        "x > 2",
+        "x < -2",
+        "All real x"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing means $\\frac{dy}{dx}$ > 0. So 8 - 2x^2 > 0 => x^2 < 4 => -2 < x < 2.\n\n**Common mistake:** Incorrectly solving the quadratic inequality $8 - 2x^2 > 0$."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "Given $y = \\frac{x^2}{x + k}$, find $dy/dx$2$x = 4$.",
+      "options": [
+        "k = -2",
+        "k = 2",
+        "k = 4",
+        "k = 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = [2x(x+k) - x^2] / (x+k)$^2$ = (x^2 + 2kx) / (x+k)$^2$. At x=4, 16 + 8k = 0 => k = -2.\n\n**Common mistake:** Forgetting to set the derivative to zero for a stationary point."
+    },
+    {
+      "id": "12-4-the-quotient-rule-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "Find the coordinates of the point on the curve $y = \\frac{x - 1}{x^2}$ where the tangent is horizontal.",
+      "options": [
+        "(2, 0.25)",
+        "(1, 0)",
+        "(0, Undefined)",
+        "(-2, -0.75)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = [x^2(1) - $(x-1)^{2}$ x] / x⁴ = [x^2 - 2x^2 + 2x] / x⁴ = (2x - x^2) / x⁴. Set to 0: x(2-x) = 0. Since x≠0, x=2. y = (2-1)/4 = 0.25.\n\n**Common mistake:** Including the invalid point x=0 as a stationary point."
+    }
+  ]
+}

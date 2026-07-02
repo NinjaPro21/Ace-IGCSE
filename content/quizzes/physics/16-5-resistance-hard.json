@@ -1,0 +1,77 @@
+{
+  "id": "16-5-resistance-hard",
+  "topicId": "16-5-resistance",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "hard",
+  "title": "Resistance — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-5-resistance-hard-q1",
+      "type": "mcq",
+      "question": "A heating coil is connected to a $240\\text{ V}$ supply and draws a current of $8.0\\text{ A}$. If the supply voltage is reduced to $210\\text{ V}$, what will be the new current, assuming the resistance remains constant?",
+      "options": [
+        "$7.0\\text{ A}$",
+        "$30\\text{ A}$",
+        "$7.3\\text{ A}$",
+        "$1.2\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $R = V/I = 240/8 = 30\\text{ }Omega$. New $I = V/R = 210/30 = 7.0\\text{ A}$. (Matches logic in Worked Example 16D). \n\n**Common mistake:** Calculating the change in voltage ($30\\text{ V}$) and subtracting that from the current."
+    },
+    {
+      "id": "16-5-resistance-hard-q2",
+      "type": "mcq",
+      "question": "Two conductors, A and B, are made of the same material and have the same length. Conductor A has a resistance of $15.0\\text{ }Omega$ and Conductor B has a resistance of $3.3\\text{ }Omega$. What is the ratio of the cross-sectional area of B to A?",
+      "options": [
+        "$4.5$",
+        "$0.22$",
+        "$11.7$",
+        "$1.0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $R \\propto 1/A$ for constant length/material, $R_A / R_B = A_B / A_A$. Ratio $= 15.0 / 3.3 \\approx 4.5$. B is 4.5 \\times thicker. \n\n**Common mistake:** Calculating the ratio of resistances and assuming it is the ratio of A to B rather than B to A."
+    },
+    {
+      "id": "16-5-resistance-hard-q3",
+      "type": "mcq",
+      "question": "As the potential difference across a filament lamp increases, the gradient of its $I-V$ graph decreases. What does this indicate about the resistance of the filament?",
+      "options": [
+        "The resistance increases as the filament gets hotter.",
+        "The resistance remains constant according to Ohm's Law.",
+        "The resistance decreases because more electrons are flowing.",
+        "The resistance becomes negative at high voltages."
+      ],
+      "correctIndex": 0,
+      "explanation": "A decreasing gradient on an $I-V$ graph means that for every unit increase in $V$, the increase in $I$ is getting smaller. This indicates the ratio $V/I$ (resistance) is increasing. \n\n**Common mistake:** Thinking a decreasing gradient always means a 'decreasing' physical quantity."
+    },
+    {
+      "id": "16-5-resistance-hard-q4",
+      "type": "mcq",
+      "question": "A piece of resistance wire is melted down and recast into a new wire that is twice as long. If the total volume of the metal remains the same, how does the new resistance compare to the original?",
+      "options": [
+        "$It is four \\times larger.$",
+        "$It is two \\times larger.$",
+        "It is half as large.",
+        "It remains the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "If the length doubles ($L \\times 2$) and volume is constant, the cross-sectional area must halve ($A / 2$). Since $R \\propto L/A$, the new resistance is $2 / (1/2) = 4$ \\times the original. \n\n$**Common mistake:** Only considering the change in length and concluding it is 'two \\times larger'.$"
+    },
+    {
+      "id": "16-5-resistance-hard-q5",
+      "type": "mcq",
+      "question": "A metal wire is heated using a Bunsen burner. What effect does this have on the motion of its atoms and its electrical resistance?",
+      "options": [
+        "Atoms vibrate more vigorously; resistance increases.",
+        "Atoms move faster from end to end; resistance decreases.",
+        "Atoms vibrate less; resistance decreases.",
+        "Atoms expand in size; resistance stays the same."
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing temperature causes atoms in a metal to vibrate more vigorously, which increases the frequency of collisions with moving electrons, thus increasing resistance. \n\n**Common mistake:** Thinking 'heat' makes it easier for current to flow like it does for fluids."
+    }
+  ]
+}

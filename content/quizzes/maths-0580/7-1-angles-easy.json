@@ -1,0 +1,77 @@
+{
+  "id": "7-1-angles-easy",
+  "topicId": "7-1-angles",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "easy",
+  "title": "Angles — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-1-angles-easy-q1",
+      "type": "mcq",
+      "question": "Three angles lie on a straight line. If two of the angles are $45°$ and $72°$, calculate the size of the third angle.",
+      "options": [
+        "$63°$",
+        "$117°$",
+        "$243°$",
+        "$180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles on a straight line add up to $180°$. Therefore, the third angle is $180 - (45 + 72) = 63°$.\n\n**Common mistake:** A student might subtract the sum from $360°$ (angles at a point) or simply add the two given angles and stop at $117°$."
+    },
+    {
+      "id": "7-1-angles-easy-q2",
+      "type": "mcq",
+      "question": "What is the sum of the exterior angles of any convex polygon?",
+      "options": [
+        "$360°$",
+        "$180°$",
+        "$(n - 2) \\times 180°$",
+        "$540°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By geometric rule, the exterior angles of any polygon always add up to exactly $360°$.\n\n**Common mistake:** The student might confuse exterior angles with the formula for interior angles or the sum of angles on a line."
+    },
+    {
+      "id": "7-1-angles-easy-q3",
+      "type": "mcq",
+      "question": "In a pair of parallel lines intersected by a transversal, which type of angles are always equal and form a 'Z' shape?",
+      "options": [
+        "Alternate angles",
+        "Corresponding angles",
+        "Co-interior angles",
+        "Vertically opposite angles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternate angles are found in a 'Z' shape between parallel lines and are equal to each other.\n\n**Common mistake:** Students often confuse alternate angles with corresponding angles (which form an 'F' shape)."
+    },
+    {
+      "id": "7-1-angles-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the sum of the interior angles of a pentagon.",
+      "options": [
+        "$540°$",
+        "$360°$",
+        "$720°$",
+        "$108°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $(n - 2) \\times 180°$ for a 5-sided polygon: $(5 - 2) \\times 180 = 3 \\times 180 = 540°$.\n\n**Common mistake:** The student might provide the size of a single interior angle ($108°$) or use the quadrilateral sum ($360°$)."
+    },
+    {
+      "id": "7-1-angles-easy-q5",
+      "type": "mcq",
+      "question": "Two lines intersect. If one angle is $135°$, what is the size of its vertically opposite angle?",
+      "options": [
+        "$135°$",
+        "$45°$",
+        "$225°$",
+        "$360°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vertically opposite angles are always equal.\n\n**Common mistake:** The student might subtract from $180°$ assuming they are on a straight line."
+    }
+  ]
+}

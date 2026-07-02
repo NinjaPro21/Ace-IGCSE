@@ -1,0 +1,77 @@
+{
+  "id": "13-1-13-3-data-displays-histograms-pyp",
+  "topicId": "13-1-13-3-data-displays-histograms",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "pyp",
+  "title": "Data Displays & Histograms — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-13-3-data-displays-histograms-pyp-q1",
+      "type": "mcq",
+      "question": "A pie chart represents the results of an opinion poll of 2000 people. If the angle for the 'Undecided' sector is 18°, calculate the number of people who answered 'Undecided'.",
+      "options": [
+        "100",
+        "36",
+        "200",
+        "180"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Exercise 13.1B: Number $= (18 / 360) \\times 2000 = 0.05 \\times 2000 = 100$.\n\n**Common mistake:** Treating the 18° as 18% of 2000, which would result in 360."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-pyp-q2",
+      "type": "mcq",
+      "question": "The masses of 50 carrots were recorded. Grouped data results show a modal class of 100-110 grams. What does this mean?",
+      "options": [
+        "The interval 100-110 has the highest frequency",
+        "The median mass is exactly 105 grams",
+        "The mean mass is 105 grams",
+        "Every carrot in the field weighed between 100 and 110 grams"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modal class in grouped data is the class interval with the highest frequency.\n\n**Common mistake:** Trying to find an exact 'mode' value (like 105) when the original raw data is not available."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-pyp-q3",
+      "type": "mcq",
+      "question": "A histogram represents the speeds (v) of cars. For the interval 30 < v ≤ 50, the frequency is 27. Calculate the frequency density for this bar.",
+      "options": [
+        "1.35",
+        "0.9",
+        "2.7",
+        "0.54"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class width $= 50 - 30 = 20$. Frequency density $= 27 / 20 = 1.35$.\n\n**Common mistake:** Using the upper bound (50) as the width instead of the difference between the bounds (20)."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-pyp-q4",
+      "type": "mcq",
+      "question": "Given a data set with 25 marks, a stem-and-leaf diagram is drawn. Which specific mark in the ordered list represents the median?",
+      "options": [
+        "The 13th mark",
+        "The 12.5th mark",
+        "The 12th mark",
+        "The average of the 12th and 13th marks"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an odd number of items (n=25), the median is the middle item: $(25 + 1) / 2 = 13$ th mark.\n\n**Common mistake:** Picking the 12th mark or trying to average two values when there is a single middle term."
+    },
+    {
+      "id": "13-1-13-3-data-displays-histograms-pyp-q5",
+      "type": "mcq",
+      "question": "In a pie chart where the ratio of quantities A : B : C is 2 : 3 : 4, what is the size of the angle for quantity C?",
+      "options": [
+        "160°",
+        "80°",
+        "120°",
+        "40°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total parts $= 2 + 3 + 4 = 9$. One part $= 360 / 9 = 40°$. Quantity C is 4 parts: $4 \\times 40 = 160°$.\n\n**Common mistake:** Dividing 360 by 4 instead of the total number of parts in the ratio."
+    }
+  ]
+}

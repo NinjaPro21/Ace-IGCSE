@@ -1,0 +1,77 @@
+{
+  "id": "20-1-detection-of-radioactivity-hard",
+  "topicId": "20-1-detection-of-radioactivity",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "hard",
+  "title": "Detection of Radioactivity — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-1-detection-of-radioactivity-hard-q1",
+      "type": "mcq",
+      "question": "A teacher measures background radiation and gets $440\\text{ counts}$ over $20\\text{ minutes}$. She then measures a radioactive source for $30\\text{ seconds}$ and records $1243\\text{ counts}$. Calculate the corrected count rate of the source in counts per minute.",
+      "options": [
+        "$2464\\text{ counts/min}$",
+        "$2486\\text{ counts/min}$",
+        "$1221\\text{ counts/min}$",
+        "$802\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Background rate $= 440 / 20 = 22\\text{ cpm}$. Source measured rate $= 1243 / 0.5\\text{ min} = 2486\\text{ cpm}$. Corrected rate $= 2486 - 22 = 2464\\text{ cpm}$. \n\n**Common mistake:** Not converting the 30-second measurement to a per-minute rate before subtracting."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-hard-q2",
+      "type": "mcq",
+      "question": "In an experiment, the total number of counts from a radioactive source was measured for $5.0\\text{ minutes}$ as $120$ counts. If the background count is known to be $20\\text{ counts/min}$, what is the corrected count rate for the source alone?",
+      "options": [
+        "$4\\text{ counts/min}$",
+        "$24\\text{ counts/min}$",
+        "$100\\text{ counts/min}$",
+        "$20\\text{ counts/min}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Let's Practise 20.1 Q4. Total rate $= 120 / 5 = 24\\text{ cpm}$. Corrected rate $= 24 - 20 = 4\\text{ cpm}$. \n\n**Common mistake:** Subtracting 20 from 120 directly ($100$), forgetting to use the rate per minute."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-hard-q3",
+      "type": "mcq",
+      "question": "A detector is used to monitor a storage area for leaks. The average background is $30\\text{ counts/min}$. The detector currently shows readings of $31, 33, 29, 32$ over four minutes. What can be concluded?",
+      "options": [
+        "No significant leak is detected; the variations are due to the random nature of radiation.",
+        "A small leak is present because three out of four readings are above 30.",
+        "The detector is faulty as it should show exactly 30 every minute.",
+        "The background radiation has permanently increased in this area."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because radioactive emission is random, individual one-minute counts will fluctuate around the average. Small variations (like 31 or 29) are expected and do not indicate a leak. \n\n**Common mistake:** Thinking any value above the average confirms the presence of an extra source."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-hard-q4",
+      "type": "mcq",
+      "question": "A student measures an average background of $20\\text{ counts/min}$. With a source present, the counter shows $3000\\text{ counts}$ in $15\\text{ minutes}$. What percentage of the total detected counts during this time was due to background radiation?",
+      "options": [
+        "$10\\%$",
+        "$6.7\\%$",
+        "$15\\%$",
+        "$20\\%$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total counts in 15 mins $= 3000$. Background counts in 15 mins $= 20 \\times 15 = 300$. Percentage $= (300 / 3000) \\times 100 = 10\\%$. \n\n**Common mistake:** Using the rates (20 and 200) incorrectly in the ratio."
+    },
+    {
+      "id": "20-1-detection-of-radioactivity-hard-q5",
+      "type": "mcq",
+      "question": "Which procedure correctly describes how to determine the corrected count rate for a radioactive source in a school lab?",
+      "options": [
+        "Measure average background for several minutes, measure the source rate, then subtract the background average from the source rate.",
+        "Measure the source rate, then move the source away and subtract that new value from the first measurement.",
+        "Subtract the source's rate from the background rate to find the net ionisation.",
+        "Divide the total counts by the number of natural sources identified in the area."
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct experimental procedure is to first determine the average background rate with no source present, then measure the total rate with the source, and subtract the background. \n\n**Common mistake:** Thinking you subtract the source from the background."
+    }
+  ]
+}

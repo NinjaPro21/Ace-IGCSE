@@ -1,0 +1,77 @@
+{
+  "id": "13-3-electromagnetic-radiation-in-communication-medium",
+  "topicId": "13-3-electromagnetic-radiation-in-communication",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "medium",
+  "title": "Electromagnetic Radiation in Communication — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the time taken for a microwave signal to reach a geostationary satellite at an altitude of $36000\\text{ km}$. ($c = 3.0 \\times 10^{8}\\text{ m/s}$)",
+      "options": [
+        "$0.12\\text{ s}$",
+        "$1.2\\text{ s}$",
+        "$0.24\\text{ s}$",
+        "$0.012\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $t = s/v$, $t = 36000000\\text{ m} / 300000000\\text{ m/s} = 0.12\\text{ s}$. \n\n**Common mistake:** Forgetting to convert km to m, resulting in a much smaller value."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-medium-q2",
+      "type": "mcq",
+      "question": "Why is it an advantage that mobile phones use microwaves rather than long-wavelength radio waves?",
+      "options": [
+        "Microwaves require only a short aerial",
+        "Microwaves are less harmful to the brain",
+        "Microwaves can travel through hills",
+        "Microwaves do not require a line-of-sight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states that for microwaves used in mobile phones, only a short aerial is needed. \n\n**Common mistake:** Thinking microwaves are completely harmless; excessive exposure can cause internal heating."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-medium-q3",
+      "type": "mcq",
+      "question": "Which statement correctly describes a benefit of digital signaling over long distances?",
+      "options": [
+        "The signal can be regenerated without including noise",
+        "The signal travels much faster than an analogue signal",
+        "The signal is immune to all forms of interference",
+        "Digital signals do not require a medium to travel"
+      ],
+      "correctIndex": 0,
+      "explanation": "A major benefit of digital signaling is that the signal can be regenerated cleanly at stations, whereas analogue signals amplify noise. \n\n**Common mistake:** Thinking digital signals travel faster; both travel at the speed of light."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-medium-q4",
+      "type": "mcq",
+      "question": "Compared to copper wires, optical fibres are better for telecommunication because:",
+      "options": [
+        "They carry more information and have less signal loss",
+        "They are cheaper to manufacture and install",
+        "They use sound waves which are safer for the environment",
+        "They work even when there is a complete power failure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical fibres can carry more data and experience lower signal loss than traditional copper wires. \n\n**Common mistake:** Selecting Choice B; while glass is common, the precision of optical fibre systems is often more expensive."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-medium-q5",
+      "type": "mcq",
+      "question": "What happens to a signal when it is 'regenerated' in a digital system?",
+      "options": [
+        "The original pulses are identified and a clean new signal is produced",
+        "The signal is amplified along with any noise it picked up",
+        "The signal is converted into an analogue wave for the next stage",
+        "The frequency of the signal is doubled to increase speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regeneration involves creating a fresh version of the digital pulses (0s and 1s), removing any distortion or noise. \n\n**Common mistake:** Thinking it is just simple amplification."
+    }
+  ]
+}

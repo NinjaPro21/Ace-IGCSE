@@ -1,0 +1,77 @@
+{
+  "id": "10-1-factorial-notation-pyp",
+  "topicId": "10-1-factorial-notation",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "pyp",
+  "title": "Factorial Notation — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-factorial-notation-pyp-q1",
+      "type": "mcq",
+      "question": "Find the value of the positive integer n such that (n + 1)! / (n - 1)! = 132.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 1)n = 132. n^2 + n - 132 = 0. (n + 12)(n - 11) = 0. n = 11.\n\n**Common mistake:** Using n = 12, which would result in 12 × 13 = 156."
+    },
+    {
+      "id": "10-1-factorial-notation-pyp-q2",
+      "type": "mcq",
+      "question": "Evaluate 10! / (7! × 3!).",
+      "options": [
+        "120",
+        "720",
+        "210",
+        "60"
+      ],
+      "correctIndex": 0,
+      "explanation": "(10 × 9 × 8) / (3 × 2 × 1) = 720 / 6 = 120.\n\n**Common mistake:** Arithmetic errors during the division of 720 by 6."
+    },
+    {
+      "id": "10-1-factorial-notation-pyp-q3",
+      "type": "mcq",
+      "question": "Express (n + 3) × (n + 2)! as a single factorial expression.",
+      "options": [
+        "(n + 3)!",
+        "n!",
+        "(n + 5)!",
+        "(n + 2)!"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, m × (m - 1)! = m!. Here m = n + 3.\n\n**Common mistake:** Thinking the terms cannot be combined into a single factorial."
+    },
+    {
+      "id": "10-1-factorial-notation-pyp-q4",
+      "type": "mcq",
+      "question": "Given that k! = 120, find the value of (k - 1)!.",
+      "options": [
+        "24",
+        "120",
+        "6",
+        "720"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since 120 = 5!, k = 5. Therefore (k - 1)! = 4! = 24.\n\n**Common mistake:** Calculating (120 - 1)! or incorrectly identifying k as 6."
+    },
+    {
+      "id": "10-1-factorial-notation-pyp-q5",
+      "type": "mcq",
+      "question": "Solve for n: n! / (n - 3)! = 336.",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "n(n - 1)(n - 2) = 336. Testing values: 8 × 7 × 6 = 336. Thus n = 8.\n\n**Common mistake:** Identifying the smallest factor (6) as n instead of the largest."
+    }
+  ]
+}

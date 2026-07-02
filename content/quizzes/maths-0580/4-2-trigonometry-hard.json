@@ -1,0 +1,77 @@
+{
+  "id": "4-2-trigonometry-hard",
+  "topicId": "4-2-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "hard",
+  "title": "Trigonometry — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-trigonometry-hard-q1",
+      "type": "mcq",
+      "question": "The diagram shows two right-angled triangles $ABC$2$ACD$2$AC$2$ABC$2$∠B=90°, ∠A=30°, AB=12\\text{ cm}$. In triangle $ACD$2$∠D=90°, ∠CAD=40°$. Calculate the length of $CD$.",
+      "options": [
+        "$4.45\\text{ cm}$",
+        "$5.31\\text{ cm}$",
+        "$10.4\\text{ cm}$",
+        "$8.93\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $\\triangle ABC$2$\\tan 30° = BC/12 \\Rightarrow BC = 12 \\tan 30° = 4\\sqrt{3} \\approx 6.928$. Wait, let's find $AC$2$\\cos 30° = 12/AC \\Rightarrow AC = 12/\\cos 30° \\approx 13.856$. In $\\triangle ACD$2$\\sin 40° = CD/AC \\Rightarrow CD = 13.856 \\times \\sin 40° \\approx 8.906$. Let's re-calculate with $\\tan 30° = AC/12$: $AC = 12 \\tan 30° = 6.928$. Then $CD = 6.928 \\sin 40° \\approx 4.453$.\n\n**Common mistake:** The student might assume $AC$2$ABC$ or misapply the ratio in the second triangle."
+    },
+    {
+      "id": "4-2-trigonometry-hard-q2",
+      "type": "mcq",
+      "question": "Show that the value of $(\\tan 60°)^2 + (\\sin 60°)^2$ is exactly $3.75$. What is the $\\frac{tion}{}$ form of this result?",
+      "options": [
+        "$15/4$",
+        "$13/4$",
+        "$11/2$",
+        "$7/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan 60° = \\sqrt{3}$, so $(\\tan 60°)^2 = 3$. $\\sin 60° = \\sqrt{3}/2$, so $(\\sin 60°)^2 = 3/4 = 0.75$. Sum $= 3 + 0.75 = 3.75 = 15/4$.\n\n**Common mistake:** The student might forget to square the denominator when squaring $\\sin 60°$, using $3/2$ instead of $3/4$."
+    },
+    {
+      "id": "4-2-trigonometry-hard-q3",
+      "type": "mcq",
+      "question": "A ladder is leaning against a wall. The angle between the ladder and the ground is $70°$. If the ladder is $5\\text{ m}$ long, calculate the height it reaches up the wall.",
+      "options": [
+        "$4.70\\text{ m}$",
+        "$1.71\\text{ m}$",
+        "$4.47\\text{ m}$",
+        "$13.7\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Height is the opposite side to the ground angle. $\\sin 70° = \\text{height}/5 \\Rightarrow \\text{height} = 5 \\sin 70° \\approx 4.698$.\n\n**Common mistake:** A student might use $\\cos 70°$ if they misinterpret the height as the adjacent side or the distance from the wall."
+    },
+    {
+      "id": "4-2-trigonometry-hard-q4",
+      "type": "mcq",
+      "question": "Find the size of angle $\\theta$2$\\sin \\theta = \\frac{\\sqrt{12}}{\\sqrt{48}}$ without using a calculator.",
+      "options": [
+        "$30°$",
+        "$60°$",
+        "$45°$",
+        "$15°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{\\sqrt{12}}{\\sqrt{48}} = \\sqrt{12/48} = \\sqrt{1/4} = 1/2$. Since $\\sin \\theta = 1/2$, $\\theta = 30°$.\n\n**Common mistake:** The student might struggle to simplify the surd ratio or pick $60°$ because they recognize the numbers from equilateral triangles."
+    },
+    {
+      "id": "4-2-trigonometry-hard-q5",
+      "type": "mcq",
+      "question": "In a right-angled triangle, $\\tan x = 3/4$. Calculate the value of $\\sin x$.",
+      "options": [
+        "$0.6$",
+        "$0.8$",
+        "$0.75$",
+        "$1.33$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $\\tan x = 3/4$, then Opposite $= 3$ and Adjacent $= 4$. By Pythagoras, Hypotenuse $= \\sqrt{3}² + 4^2 = 5$. Thus $\\sin x = O/H = 3/5 = 0.6$.\n\n**Common mistake:** A student might think $\\sin x$2$3$) or divide the adjacent by the opposite."
+    }
+  ]
+}

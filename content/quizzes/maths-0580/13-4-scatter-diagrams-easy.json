@@ -1,0 +1,77 @@
+{
+  "id": "13-4-scatter-diagrams-easy",
+  "topicId": "13-4-scatter-diagrams",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Scatter Diagrams — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-4-scatter-diagrams-easy-q1",
+      "type": "mcq",
+      "question": "What is the primary purpose of a scatter diagram in statistics?",
+      "options": [
+        "To see if there is a connection or relationship between two sets of data",
+        "To calculate the exact mean of a grouped data set",
+        "To display the frequency of a single discrete variable",
+        "To show the cumulative total of a data set over time"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a scatter diagram is used when you want to know if there is a connection or relationship between two sets of data.\n\n**Common mistake:** Students often confuse scatter diagrams with bar charts or line graphs meant for single-variable trends."
+    },
+    {
+      "id": "13-4-scatter-diagrams-easy-q2",
+      "type": "mcq",
+      "question": "In a scatter diagram, how is the data typically plotted?",
+      "options": [
+        "One set of data on the horizontal axis and the other on the vertical axis",
+        "Both sets of data as bars side-by-side on the vertical axis",
+        "The frequency on the vertical axis and categories on the horizontal axis",
+        "As a series of connected points representing a time sequence"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define a scatter diagram as a graph where one set of data is plotted on the horizontal axis and the other on the vertical axis.\n\n**Common mistake:** Students sometimes try to plot frequency on one axis, which is for bar charts or histograms, not scatter diagrams."
+    },
+    {
+      "id": "13-4-scatter-diagrams-easy-q3",
+      "type": "mcq",
+      "question": "When the points on a scatter diagram are bunched close to a line sloping upwards to the right, what type of correlation is this?",
+      "options": [
+        "Strong positive correlation",
+        "Weak negative correlation",
+        "Strong negative correlation",
+        "No correlation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correlation is positive when points slope upwards to the right, and it is strong when the points are bunched close to a line.\n\n**Common mistake:** A student might identify the 'positive' direction correctly but describe it as 'weak' if they do not recognize the proximity of the points to the trend line."
+    },
+    {
+      "id": "13-4-scatter-diagrams-easy-q4",
+      "type": "mcq",
+      "question": "What does a 'negative correlation' indicate about the relationship between two variables?",
+      "options": [
+        "As one variable increases, the other decreases",
+        "Both variables increase together",
+        "There is no connection between the variables",
+        "The data is plotted incorrectly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negative correlation is represented by a line sloping downwards to the right, meaning as the x-value increases, the y-value decreases.\n\n**Common mistake:** Students often confuse negative correlation with 'no correlation,' thinking that 'negative' means there is no relationship."
+    },
+    {
+      "id": "13-4-scatter-diagrams-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following describes a 'line of best fit'?",
+      "options": [
+        "A line through the points with roughly an equal number of points on each side",
+        "A line that connects the first and last points in a data set",
+        "A line that passes through every single point on the scatter diagram",
+        "A horizontal line representing the mean of the vertical data"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line of best fit is drawn through the midst of the points so that there are roughly an equal number of points on each side.\n\n**Common mistake:** Students often try to force the line through the origin (0,0) or connect the points like a dot-to-dot drawing."
+    }
+  ]
+}

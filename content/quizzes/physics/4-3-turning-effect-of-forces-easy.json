@@ -1,0 +1,77 @@
+{
+  "id": "4-3-turning-effect-of-forces-easy",
+  "topicId": "4-3-turning-effect-of-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "easy",
+  "title": "Turning Effect of Forces — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-turning-effect-of-forces-easy-q1",
+      "type": "mcq",
+      "question": "What is the name given to the turning effect of a force?",
+      "options": [
+        "Moment",
+        "Momentum",
+        "Resultant",
+        "Equilibrium"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turning effect of a force is known as the moment of a force. \n\n**Common mistake:** Confusing 'moment' with 'momentum', which is the product of mass and velocity."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for the moment of a force?",
+      "options": [
+        "newton metre (N m)",
+        "newton (N)",
+        "joule (J)",
+        "newton per metre (N/m)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit for a moment is the newton metre (N m). \n\n**Common mistake:** Selecting Newtons (N), which is the unit for force, not its turning effect."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-easy-q3",
+      "type": "mcq",
+      "question": "Which two factors determine the size of a moment?",
+      "options": [
+        "Force and perpendicular distance from the pivot",
+        "Force and mass",
+        "Weight and gravity",
+        "Distance and time"
+      ],
+      "correctIndex": 0,
+      "explanation": "A moment is calculated by multiplying the force by the perpendicular distance from the pivot. \n\n**Common mistake:** Using the total length of an object instead of the distance specifically from the pivot point."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-easy-q4",
+      "type": "mcq",
+      "question": "According to the principle of moments, what must be true for an object to be in equilibrium?",
+      "options": [
+        "The sum of clockwise moments equals the sum of anticlockwise moments",
+        "The resultant force must be greater than zero",
+        "All forces must act in the same direction",
+        "The object must be stationary at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an object in equilibrium, the total clockwise moment must equal the total anticlockwise moment about the same pivot. \n\n**Common mistake:** Thinking equilibrium only requires balanced forces, but it also requires balanced moments."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-easy-q5",
+      "type": "mcq",
+      "question": "A force of $10\\text{ N}$ acts at a perpendicular distance of $2.0\\text{ m}$ from a pivot. Calculate the moment.",
+      "options": [
+        "$20\\text{ N m}$",
+        "$5\\text{ N m}$",
+        "$12\\text{ N m}$",
+        "$200\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moment $= Force \\times distance = 10\\text{ N} \\times 2.0\\text{ m} = 20\\text{ N m}$. \n\n**Common mistake:** Dividing the force by distance instead of multiplying."
+    }
+  ]
+}

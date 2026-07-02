@@ -1,0 +1,77 @@
+{
+  "id": "14-5-14-6-advanced-probability-easy",
+  "topicId": "14-5-14-6-advanced-probability",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Advanced Probability — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-5-14-6-advanced-probability-easy-q1",
+      "type": "mcq",
+      "question": "In the context of Venn diagrams, what does the notation $P(A \\cap B)$ represents?",
+      "options": [
+        "The probability of event A AND event B both happening",
+        "The probability of event A OR event B happening",
+        "The probability of event A happening given that B occurred",
+        "The probability of everything outside of A and B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol $\\cap$ means intersection, which in probability represents the chance of both events occurring simultaneously.\n\n**Common mistake:** Students often confuse the intersection symbol ($\\cap$2$\\cup$)."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-easy-q2",
+      "type": "mcq",
+      "question": "A Venn diagram shows 7 cats like only Food A, 5 like only Food B, 16 like both, and 2 like neither. What is the probability that a randomly selected cat likes both foods?",
+      "options": [
+        "16/30",
+        "16/28",
+        "7/30",
+        "21/30"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total cats $= 7 + 5 + 16 + 2 = 30$. The number who like both is 16. Thus, $P = 16/30$.\n\n**Common mistake:** Using only the cats who like Food A or Food B (28) as the denominator instead of the entire universal set (30)."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following defines 'conditional probability'?",
+      "options": [
+        "The probability of an event occurring given that another event has already occurred",
+        "The probability of two independent events happening one after the other",
+        "The sum of all probabilities in a Venn diagram",
+        "The probability of an event NOT happening"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conditional probability is the probability of event A, given that event B has already occurred, written as $P(A|B)$.\n\n**Common mistake:** Confusing conditional probability with the probability of combined independent events."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-easy-q4",
+      "type": "mcq",
+      "question": "In a group of 50 people, 26 chose Rainbow Trout and 24 chose Chicken Curry. If 17 of the trout-eaters chose Cheesecake, what is the probability a person chose Cheesecake given they chose Rainbow Trout?",
+      "options": [
+        "17/26",
+        "17/50",
+        "26/50",
+        "17/27"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(\\text{Cheesecake} | \\text{Trout}) = \\text{Number who chose both} / \\text{Total who chose Trout} = 17 / 26$.\n\n**Common mistake:** Using the total population (50) as the denominator instead of the specific condition (those who chose Trout)."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-easy-q5",
+      "type": "mcq",
+      "question": "If $P(A) = 0.8$, $P(B) = 0.7$, and $P(A \\cap B) = 0.5$, calculate $P(A \\cup B)$.",
+      "options": [
+        "1.0",
+        "1.5",
+        "0.6",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$, we get $0.8 + 0.7 - 0.5 = 1.0$.\n\n**Common mistake:** Simply adding $P(A)$ and $P(B)$ without subtracting the intersection, which results in a probability greater than 1."
+    }
+  ]
+}

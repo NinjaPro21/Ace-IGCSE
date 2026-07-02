@@ -1,6 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import {
+  DEFAULT_POMODORO,
+  loadPomodoroSettings,
+  savePomodoroSettings,
+  type PomodoroSettings,
+} from '@/lib/pomodoroSettings'
 
-const DEFAULT_SECONDS = 25 * 60
+export type PomodoroPhase = 'work' | 'break'
 
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60)
@@ -12,14 +18,22 @@ export interface PomodoroState {
   display: string
   running: boolean
   finished: boolean
+  phase: PomodoroPhase
+  settings: PomodoroSettings
+  setWorkMinutes: (minutes: number) => void
+  setBreakMinutes: (minutes: number) => void
   start: () => void
   pause: () => void
   reset: () => void
   toggle: () => void
 }
 
-export function usePomodoro(initialSeconds = DEFAULT_SECONDS): PomodoroState {
-  const [secondsLeft, setSecondsLeft] = useState(initialSeconds)
+export function usePomodoro(initialSettings?: PomodoroSettings): PomodoroState {
+  const [settings, setSettings] = useState<PomodoroSettings>(
+    () => initialSettings ?? loadPomodoroSettings(),
+  )
+  const [phase, setPhase] = useState<PomodoroPhase>('work')
+  const [secondsLeft, setSecondsLeft] = useState(() => settings.workMinutes * 60)
   const [running, setRunning] = useState(false)
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
 
@@ -29,6 +43,33 @@ export function usePomodoro(initialSeconds = DEFAULT_SECONDS): PomodoroState {
       intervalRef.current = null
     }
   }, [])
+
+  const applySettings = useCallback(
+    (next: PomodoroSettings) => {
+      setSettings(next)
+      savePomodoroSettings(next)
+      setRunning(false)
+      setPhase('work')
+      setSecondsLeft(next.workMinutes * 60)
+    },
+    [],
+  )
+
+  const setWorkMinutes = useCallback(
+    (minutes: number) => {
+      const next = { ...settings, workMinutes: Math.min(90, Math.max(1, Math.round(minutes))) }
+      applySettings(next)
+    },
+    [applySettings, settings],
+  )
+
+  const setBreakMinutes = useCallback(
+    (minutes: number) => {
+      const next = { ...settings, breakMinutes: Math.min(30, Math.max(1, Math.round(minutes))) }
+      applySettings(next)
+    },
+    [applySettings, settings],
+  )
 
   useEffect(() => {
     if (running && secondsLeft > 0) {
@@ -47,33 +88,58 @@ export function usePomodoro(initialSeconds = DEFAULT_SECONDS): PomodoroState {
     return clear
   }, [running, secondsLeft, clear])
 
+  const prevRunning = useRef(false)
+  useEffect(() => {
+    if (running) prevRunning.current = true
+  }, [running])
+
+  useEffect(() => {
+    if (secondsLeft !== 0 || running || !prevRunning.current) return
+    prevRunning.current = false
+    if (phase === 'work') {
+      setPhase('break')
+      setSecondsLeft(settings.breakMinutes * 60)
+    } else {
+      setPhase('work')
+      setSecondsLeft(settings.workMinutes * 60)
+    }
+  }, [secondsLeft, running, phase, settings.breakMinutes, settings.workMinutes])
+
+  const reset = useCallback(() => {
+    setRunning(false)
+    setPhase('work')
+    setSecondsLeft(settings.workMinutes * 60)
+  }, [settings.workMinutes])
+
   const start = useCallback(() => {
     if (secondsLeft > 0) setRunning(true)
   }, [secondsLeft])
 
   const pause = useCallback(() => setRunning(false), [])
 
-  const reset = useCallback(() => {
-    setRunning(false)
-    setSecondsLeft(initialSeconds)
-  }, [initialSeconds])
-
   const toggle = useCallback(() => {
     if (secondsLeft === 0) {
-      setSecondsLeft(initialSeconds)
+      setPhase('work')
+      setSecondsLeft(settings.workMinutes * 60)
       setRunning(true)
     } else {
       setRunning((r) => !r)
     }
-  }, [secondsLeft, initialSeconds])
+  }, [secondsLeft, settings.workMinutes])
 
   return {
     display: formatTime(secondsLeft),
     running,
-    finished: secondsLeft === 0,
+    finished: secondsLeft === 0 && !running,
+    phase,
+    settings,
+    setWorkMinutes,
+    setBreakMinutes,
     start,
     pause,
     reset,
     toggle,
   }
 }
+
+export { DEFAULT_POMODORO }

@@ -1,0 +1,77 @@
+{
+  "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-easy",
+  "topicId": "14-3-derivatives-of-trigonometric-functions-harder-topic",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "easy",
+  "title": "Derivatives of Trigonometric Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-easy-q1",
+      "type": "mcq",
+      "question": "Find the gradient function$\\frac{dy}{dx}$ for the curve y=\nsin(5x).",
+      "options": [
+        "5\ncos(5x)",
+        "cos(5x)",
+        "−5\ncos(5x)",
+        "5x\ncos(5x−1)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the rule$\\frac{d}{dx}($\nsin(ax))=a\ncos(ax), the coefficient of x becomes a multiplier outside the trigonometric function.\n\n**Common mistake:** Option D is an error where the student incorrectly applies the power rule for polynomials to a trigonometric function."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-easy-q2",
+      "type": "mcq",
+      "question": "Differentiate y=4\ncosx−3 with respect to x.",
+      "options": [
+        "−4\nsinx",
+        "4\nsinx",
+        "−4\nsinx−3",
+        "−4\ncosx"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of\ncosx is −\nsinx, and the derivative of the constant −3 is 0. Multiplying by the coefficient 4 yields −4\nsinx.\n\n**Common mistake:** Option B ignores the sign change required when differentiating the cosine function."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-easy-q3",
+      "type": "mcq",
+      "question": "Calculate the value of the gradient of y=\ntanx at the point where x= \\frac{\\pi}{4}.",
+      "options": [
+        "2",
+        "1",
+        "sqrt2",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = $\n\\sec^{2} x. At x= \\frac{\\pi}{4},\ncos($\\frac{\\pi}{4}$)= \\frac{1}{sqrt2}, so\nsec($\\frac{\\pi}{4}$)=\\sqrt2. Thus,\n\\sec^{2}$($\\frac{\\pi}{4}$)=2.\n\n**Common mistake:** Option B is the value of the function\ntan($\\frac{\\pi}{4}$), not the value of its derivative."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-easy-q4",
+      "type": "mcq",
+      "question": "Find the derivative of y=2\nsin(3x+1).",
+      "options": [
+        "6\ncos(3x+1)",
+        "2\ncos(3x+1)",
+        "−6\ncos(3x+1)",
+        "6\nsin(3x+1)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Applying the chain rule,$\\frac{d}{dx}[2$\nsin(3x+1)]=2\ntimes\ncos(3x+1)\ntimes3=6\ncos(3x+1).\n\n**Common mistake:** Option B occurs if the student forgets to multiply by the derivative of the inner function (3)."
+    },
+    {
+      "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-easy-q5",
+      "type": "mcq",
+      "question": "Given f(x)=\ncos(x−$\\frac{\\pi}{2}$), find f\n′\n(x).",
+      "options": [
+        "−\nsin(x−$\\frac{\\pi}{2}$)",
+        "sin(x−$\\frac{\\pi}{2}$)",
+        "cos(x)",
+        "−\ncos(x)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of\ncosu is −\nsinu$\\frac{du}{dx}$. Here$\\frac{du}{dx} = 1$, so the derivative is −\nsin(x−$\\frac{\\pi}{2}$).\n\n**Common mistake:** Option B results from neglecting the negative sign in the derivative of cosine."
+    }
+  ]
+}

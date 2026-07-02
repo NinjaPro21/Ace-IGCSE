@@ -1,0 +1,77 @@
+{
+  "id": "4-2-forces-and-motion-medium",
+  "topicId": "4-2-forces-and-motion",
+  "chapterId": "ch04-forces",
+  "difficulty": "medium",
+  "title": "Forces and Motion — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-forces-and-motion-medium-q1",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ mass is acted upon by a resultant force of $6.0\\text{ N}$. Calculate the acceleration of the mass.",
+      "options": [
+        "$3.0\\text{ m/s}^2$",
+        "$12.0\\text{ m/s}^2$",
+        "$0.33\\text{ m/s}^2$",
+        "$8.0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $F = ma$, acceleration $a = F / m = 6.0 / 2.0 = 3.0\\text{ m/s}^2$. \n\n**Common mistake:** Multiplying the mass and force to get $12.0$ instead of dividing."
+    },
+    {
+      "id": "4-2-forces-and-motion-medium-q2",
+      "type": "mcq",
+      "question": "An object of mass $500\\text{ g}$ accelerates at $2.0\\text{ m/s}^2$. What is the resultant force acting on it?",
+      "options": [
+        "$1.0\\text{ N}$",
+        "$1000\\text{ N}$",
+        "$250\\text{ N}$",
+        "$0.25\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kg: $500\\text{ g} = 0.5\\text{ kg}$. Then $F = ma = 0.5 \\times 2.0 = 1.0\\text{ N}$. \n\n**Common mistake:** Using the mass in grams ($500 \\times 2 = 1000\\text{ N}$) without converting to SI units."
+    },
+    {
+      "id": "4-2-forces-and-motion-medium-q3",
+      "type": "mcq",
+      "question": "A constant force of $12\\text{ N}$ is applied to a box of mass $4.0\\text{ kg}$ on a rough floor. If the box accelerates at $2.0\\text{ m/s}^2$, what is the frictional force?",
+      "options": [
+        "$4.0\\text{ N}$",
+        "$8.0\\text{ N}$",
+        "$20.0\\text{ N}$",
+        "$3.0\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant force $F_{net} = ma = 4.0 \\times 2.0 = 8.0\\text{ N}$. Since $F_{net} = F_{applied} - F_{friction}$, then $8 = 12 - F_{friction}$, so $F_{friction} = 4.0\\text{ N}$. \n\n**Common mistake:** Identifying the acceleration ($2.0$) or the resultant force ($8.0$) as the frictional force."
+    },
+    {
+      "id": "4-2-forces-and-motion-medium-q4",
+      "type": "mcq",
+      "question": "A resultant force of $4\\text{ N}$ causes an object to accelerate at $2\\text{ m/s}^2$. What force is needed to make the same object accelerate at $3\\text{ m/s}^2$?",
+      "options": [
+        "$6\\text{ N}$",
+        "$8\\text{ N}$",
+        "$12\\text{ N}$",
+        "$2\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass of object $m = F / a = 4 / 2 = 2\\text{ kg}$. New force required $F = ma = 2 \\times 3 = 6\\text{ N}$. \n\n**Common mistake:** Adding $1\\text{ N}$ to the force because the acceleration increased by $1$."
+    },
+    {
+      "id": "4-2-forces-and-motion-medium-q5",
+      "type": "mcq",
+      "question": "Which of these is a correct statement about friction?",
+      "options": [
+        "Friction can cause heating in moving parts",
+        "There is no friction in liquids or gases",
+        "Friction only acts on objects that are moving",
+        "Friction always acts in the same direction as the applied force"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friction is a force that opposes motion and can generate thermal energy (heating). \n\n**Common mistake:** Thinking fluids (liquids/gases) don't have friction; they experience drag and viscosity."
+    }
+  ]
+}

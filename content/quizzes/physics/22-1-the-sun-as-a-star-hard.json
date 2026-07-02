@@ -1,0 +1,77 @@
+{
+  "id": "22-1-the-sun-as-a-star-hard",
+  "topicId": "22-1-the-sun-as-a-star",
+  "chapterId": "ch22-stars-and-the-universe",
+  "difficulty": "hard",
+  "title": "The Sun as a Star — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "22-1-the-sun-as-a-star-hard-q1",
+      "type": "mcq",
+      "question": "Why is mass 'lost' during the nuclear fusion reactions occurring within the Sun?",
+      "options": [
+        "The mass is converted into energy",
+        "The mass is ejected as solar wind",
+        "The mass is turned into dark matter",
+        "The mass is used to create new protons"
+      ],
+      "correctIndex": 0,
+      "explanation": "In nuclear fusion, the total mass before the reaction is slightly greater than the total mass after; this 'missing' mass is converted into energy. \n\n**Common mistake:** Thinking the mass simply disappears or is physically thrown away."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-hard-q2",
+      "type": "mcq",
+      "question": "The Sun is currently a stable 'average' star. What is predicted to happen to its size when the hydrogen in its core is eventually used up?",
+      "options": [
+        "It will expand and become a red giant",
+        "It will immediately explode as a supernova",
+        "It will collapse instantly into a black hole",
+        "It will stay the same size but turn blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the life cycle of an average star in the sources, after the hydrogen is used up, it expands into a red giant. Supernovas and black holes only occur for massive stars.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-hard-q3",
+      "type": "mcq",
+      "question": "What is the approximate surface temperature of the Sun?",
+      "options": [
+        "$6000 \\text{ K}$",
+        "$273 \\text{ K}$",
+        "$1000 \\text{ K}$",
+        "$15 \\text{ million K}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The surface temperature of the Sun is approximately $6000 \\text{ K}$ (Kelvin). \n\n**Common mistake:** Confusing the surface temperature with the core temperature ($15 \\text{ million K}$)."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-hard-q4",
+      "type": "mcq",
+      "question": "How does the Sun's gravitational field strength change as the distance from the Sun increases?",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It remains constant",
+        "It becomes zero as soon as you leave the atmosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the Sun’s gravitational field decreases with distance. \n\n**Common mistake:** Thinking gravity is constant throughout space."
+    },
+    {
+      "id": "22-1-the-sun-as-a-star-hard-q5",
+      "type": "mcq",
+      "question": "Which statement about the conservation of nucleons during fusion in the Sun is correct?",
+      "options": [
+        "The total number of nucleons remains constant",
+        "The number of protons increases while neutrons decrease",
+        "The total number of nucleons decreases as mass is lost",
+        "Nucleons are destroyed to release gamma radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "In nuclear equations for fission and fusion, the total nucleon number before is equal to the total after. \n\n**Common mistake:** Thinking mass-loss means nucleon-loss (only the total mass changes, not the count of nucleons)."
+    }
+  ]
+}

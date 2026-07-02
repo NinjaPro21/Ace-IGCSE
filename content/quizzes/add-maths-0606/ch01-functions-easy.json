@@ -148,7 +148,7 @@
         "$0 \\le f(x) \\le 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Since the minimum value of $x²$ for $x \\ge 0$ is $0$, the minimum value of $f(x)$ is $0 + 3 = 3$, making the range $f(x) \\ge 3$.\n\n**Common mistake:** Students frequently copy the domain inequality boundary directly without applying the function's transformation, choosing $f(x) \\ge 0$.",
+      "explanation": "Since the minimum value of $x²$ for $x \\ge 0$ is^0, the minimum value of $f(x)$ is $0 + 3 = 3$, making the range $f(x) \\ge 3$.\n\n**Common mistake:** Students frequently copy the domain inequality boundary directly without applying the function's transformation, choosing $f(x) \\ge 0$.",
       "variants": [
         {
           "question": "Given the function $f(x) = x² + 2$ for the domain $x \\ge 0$, state the range of $f$.",
@@ -159,7 +159,7 @@
             "$0 \\le f(x) \\le 2$"
           ],
           "correctIndex": 0,
-          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 2$."
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is^0, so range is $f(x) \\ge 2$."
         },
         {
           "question": "Given the function $f(x) = x² + 5$ for the domain $x \\ge 0$, state the range of $f$.",
@@ -170,7 +170,7 @@
             "$0 \\le f(x) \\le 5$"
           ],
           "correctIndex": 0,
-          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 5$."
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is^0, so range is $f(x) \\ge 5$."
         },
         {
           "question": "Given the function $f(x) = x² + 7$ for the domain $x \\ge 0$, state the range of $f$.",
@@ -181,7 +181,7 @@
             "$0 \\le f(x) \\le 7$"
           ],
           "correctIndex": 0,
-          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 7$."
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is^0, so range is $f(x) \\ge 7$."
         },
         {
           "question": "Given the function $f(x) = x² + 1$ for the domain $x \\ge 0$, state the range of $f$.",
@@ -192,7 +192,7 @@
             "$0 \\le f(x) \\le 1$"
           ],
           "correctIndex": 0,
-          "explanation": "Minimum of $x²$ on $x \\ge 0$ is $0$, so range is $f(x) \\ge 1$."
+          "explanation": "Minimum of $x²$ on $x \\ge 0$ is^0, so range is $f(x) \\ge 1$."
         }
       ]
     },

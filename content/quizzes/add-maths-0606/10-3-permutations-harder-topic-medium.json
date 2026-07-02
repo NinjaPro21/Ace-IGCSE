@@ -1,0 +1,77 @@
+{
+  "id": "10-3-permutations-harder-topic-medium",
+  "topicId": "10-3-permutations-harder-topic",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "medium",
+  "title": "Permutations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-3-permutations-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "How many 4-digit numbers can be formed using the digits {1, 2, 3, 4, 5, 6} if each digit can be used only once?",
+      "options": [
+        "360",
+        "24",
+        "720",
+        "1296"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^6\\text{P}_4 = 6 \\times 5 \\times 4 \\times 3 = 360$.\n\n**Common mistake:** Calculating $6^4 = 1296$ (allowing repetition) or $4! = 24$."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Five people (A, B, C, D, E) are to be seated in a row. How many arrangements are possible if A and B must sit next to each other?",
+      "options": [
+        "48",
+        "24",
+        "120",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Treat (AB) as one unit. There are now 4 units to arrange (4!). Within the unit, A and B can be arranged in 2! ways. Total $= 4! \\times 2! = 24 \\times 2 = 48$.\n\n**Common mistake:** Forgetting to multiply by 2! for the internal arrangement of A and B, or treating them as a single fixed unit (24)."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "In how many ways can the letters of the word 'TABLE' be arranged if the first letter must be a vowel?",
+      "options": [
+        "48",
+        "24",
+        "120",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vowels are A and E (2 choices). The remaining 4 letters can be arranged in $4! = 24$ ways. Total $= 2 \\times 24 = 48$.\n\n**Common mistake:** Calculating only the arrangement of the 4 consonants (24) or forgetting there are two vowels."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "Find the number of ways 3 people can be chosen and seated from a group of 10 people.",
+      "options": [
+        "720",
+        "120",
+        "30",
+        "1000"
+      ],
+      "correctIndex": 0,
+      "explanation": "$^{10}\\text{P}_3 = 10 \\times 9 \\times 8 = 720$.\n\n**Common mistake:** Using combinations ($^{10}\\text{C}_3 = 120$) when the problem implies seating order matters."
+    },
+    {
+      "id": "10-3-permutations-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Solve for $n$2$^n\\text{P}_2 = 5 \\times ^{(n-1)}\\text{P}_1$.",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(n-1) = 5(n-1)$. Dividing by $(n-1)$ gives $n = 5$.\n\n**Common mistake:** Errors in expanding the permutation notation algebraically."
+    }
+  ]
+}

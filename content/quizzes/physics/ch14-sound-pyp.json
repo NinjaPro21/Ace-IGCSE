@@ -1,0 +1,272 @@
+{
+  "id": "ch14-sound-pyp",
+  "topicId": "ch14-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "pyp",
+  "title": "Chapter 14: Sound — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch14-sound-pyp-q1",
+      "type": "mcq",
+      "question": "Which of the following is required for sound energy to be transferred from a vibrating bell to an observer?",
+      "options": [
+        "A material medium",
+        "A vacuum",
+        "A transverse wave motion",
+        "A magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves need a medium (solid, liquid, or gas) to travel because they propagate through the interaction and collision of particles.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q2",
+      "type": "mcq",
+      "question": "A Slinky is used to demonstrate sound waves. A student pushes and pulls one end. Which part of the Slinky represents a 'rarefaction'?",
+      "options": [
+        "The region where the coils are furthest apart",
+        "The region where the coils are closest together",
+        "The region moving at the highest speed",
+        "The fixed end of the Slinky"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a longitudinal wave, rarefactions are the regions where the medium is spread out (lower pressure/density).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q3",
+      "type": "mcq",
+      "question": "The table shows four different frequencies. Which frequency is ultrasound?nnFrequency | Valuen--- | ---nA | $10\\text{ Hz}$nB | $1000\\text{ Hz}$nC | $15\\text{ kHz}$nD | $30\\text{ kHz}$",
+      "options": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is defined as sound with a frequency higher than the upper limit of human hearing, which is $20\\text{ kHz}$. $30\\text{ kHz}$ is ultrasound.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q4",
+      "type": "mcq",
+      "question": "Which row correctly compares the nature of sound waves and light waves?",
+      "options": [
+        "Sound: Longitudinal; Light: Transverse",
+        "Sound: Transverse; Light: Longitudinal",
+        "Sound: Requires medium; Light: Requires medium",
+        "Sound: Electromagnetic; Light: Mechanical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound is a mechanical longitudinal wave requiring a medium. Light is an electromagnetic transverse wave that can travel in a vacuum.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q5",
+      "type": "mcq",
+      "question": "A graph shows how the air pressure varies with distance from a sound source. A peak on the graph represents a maximum pressure. What is occurring at this position?",
+      "options": [
+        "A compression",
+        "A rarefaction",
+        "The speed of sound is zero",
+        "A trough of a transverse wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compressions are defined as regions where the pressure is higher than the surrounding atmospheric pressure.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q6",
+      "type": "mcq",
+      "question": "Astronauts on the Moon see an asteroid crash into the surface. Why do they not hear the explosion?",
+      "options": [
+        "Sound waves are unable to travel from the Moon's surface to the spaceship.",
+        "All the sound waves are absorbed by the surface of the Moon.",
+        "The sound waves are reflected from the surface of the spaceship.",
+        "The distance is too small for a sound wave to form."
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves require a material medium. Since there is no air (vacuum) between the crash site and the ship, sound cannot travel. \n\n**Common mistake:** Believing the sound is absorbed by the Moon's surface."
+    },
+    {
+      "id": "ch14-sound-pyp-q7",
+      "type": "mcq",
+      "question": "Using the data provided, which statement correctly describes the speed of sound?nn| Substance | Density ($g/cm^3$) | Speed of sound ($m/s$) |n| :--- | :--- | :--- |n| Lead | 11.3 | 1200 |n| Iron | 7.87 | 5000 |n| Oxygen | 0.00143 | 320 |n| Air | 0.00129 | 330 |",
+      "options": [
+        "$Sound travels about 4 \\times faster in iron than in lead.$",
+        "The denser the substance, the lower the speed of sound.",
+        "Sound travels fastest in oxygen.",
+        "Sound travels at the same speed in all gases."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Table 14.2, speed in iron ($5000$) divided by speed in lead ($1200$) is $\\approx 4.17$. \n\n**Common mistake:** Selecting B, even though lead is denser than iron but has a much lower sound speed."
+    },
+    {
+      "id": "ch14-sound-pyp-q8",
+      "type": "mcq",
+      "question": "Observer A fires a flashgun, and Observer B, $500\\text{ m}$ away, starts a stopwatch when she sees the flash. She stops it when she hears the sound $1.52\\text{ s}$ later. What is the calculated speed of sound?",
+      "options": [
+        "$329\\text{ m/s}$",
+        "$330\\text{ m/s}$",
+        "$760\\text{ m/s}$",
+        "$340\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\text{Speed} = \\text{distance} / \\text{time} = 500 / 1.52 \\approx 329\\text{ m/s}$. \n\n**Common mistake:** Assuming the speed is exactly $330\\text{ m/s}$ without using the experimental data."
+    },
+    {
+      "id": "ch14-sound-pyp-q9",
+      "type": "mcq",
+      "question": "In which of the following media will sound travel with the lowest speed?",
+      "options": [
+        "Oxygen",
+        "Iron",
+        "Water",
+        "Lead"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Table 14.2, sound travels slowest in oxygen ($320\\text{ m/s}$), which is a gas. \n\n**Common mistake:** Thinking lead is the slowest because it is the densest solid listed."
+    },
+    {
+      "id": "ch14-sound-pyp-q10",
+      "type": "mcq",
+      "question": "A ringing electric bell is suspended by a string inside a jar. A vacuum pump is used to remove the air. What is the observation and its reason?",
+      "options": [
+        "Loudness decreases because sound needs a medium.",
+        "Loudness increases because there is no air to block it.",
+        "Pitch decreases because the frequency drops in a vacuum.",
+        "The bell stops vibrating because of the lack of air pressure."
+      ],
+      "correctIndex": 0,
+      "explanation": "As air is removed, the medium for sound transmission is lost, causing the loudness to decrease. \n\n**Common mistake:** Thinking the pitch changes or the bell stops vibrating."
+    },
+    {
+      "id": "ch14-sound-pyp-q11",
+      "type": "mcq",
+      "question": "Which row correctly identifies the nature of ultrasound and a typical use?",
+      "options": [
+        "Nature: Longitudinal wave; Use: Medical imaging",
+        "Nature: Transverse wave; Use: Medical imaging",
+        "Nature: Electromagnetic wave; Use: Sterilising water",
+        "Nature: Longitudinal wave; Use: Radio communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is a high-frequency sound wave, which is longitudinal. It is widely used in medical imaging (prenatal scans).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q12",
+      "type": "mcq",
+      "question": "A sonar system on a boat sends a pulse of sound and receives an echo from a shoal of fish $0.2\\text{ s}$ later. The speed of sound in water is $1500\\text{ m/s}$. What is the distance to the shoal of fish?",
+      "options": [
+        "$150\\text{ m}$",
+        "$300\\text{ m}$",
+        "$75\\text{ m}$",
+        "$600\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$d = \\frac{vt}{2} = \\frac{1500 \\times 0.2}{2} = 150\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q13",
+      "type": "mcq",
+      "question": "Which frequency is ultrasound?",
+      "options": [
+        "$30\\text{ kHz}$",
+        "$15\\text{ kHz}$",
+        "$2000\\text{ Hz}$",
+        "$10\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is frequency $> 20\\text{ kHz}$. $30\\text{ kHz}$ fits this definition. $15\\text{ kHz}$ is audible to some humans.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q14",
+      "type": "mcq",
+      "question": "A sound wave of frequency $10\\text{ kHz}$ is sent into a lake. Which row is correct?nnType of wave | Can humans hear it?n--- | ---nA. Audible sound | YesnB. Ultrasound | NonC. Infrasound | NonD. Audible sound | No",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "$10\\text{ kHz}$ ($10000\\text{ Hz}$) is within the human audible range ($20\\text{ Hz}$ to $20000\\text{ Hz}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q15",
+      "type": "mcq",
+      "question": "The diagram shows a transmitted sound pulse and its reflected echo from a reef. n[Diagram: Intensity peaks at $t=0.0\\text{ s}$ and $t=1.2\\text{ s}$]nIf the speed of sound in water is $1500\\text{ m/s}$, how far away is the reef?",
+      "options": [
+        "$900\\text{ m}$",
+        "$1800\\text{ m}$",
+        "$450\\text{ m}$",
+        "$2250\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance $d = \\frac{1500 \\times 1.2}{2} = 900\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch14-sound-pyp-q16",
+      "type": "mcq",
+      "question": "A guitar plays a louder note but at a lower pitch compared to a violin. Which of the following is correct?",
+      "options": [
+        "Violin's amplitude: Lower; Guitar's frequency: Lower",
+        "Violin's amplitude: Higher; Guitar's frequency: Higher",
+        "Violin's amplitude: Higher; Guitar's frequency: Lower",
+        "Violin's amplitude: Lower; Guitar's frequency: Higher"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Section A, Q4. The guitar is louder (higher amp), so the violin has lower amp. The guitar is lower pitch, so its frequency is lower. **Common mistake:** Swapping the properties of the two instruments."
+    },
+    {
+      "id": "ch14-sound-pyp-q17",
+      "type": "mcq",
+      "question": "An oscilloscope is used to show the waveforms of two different sounds. Wave 1 has peaks that are taller than Wave 2, and the peaks in Wave 1 are closer together than in Wave 2. Which statement is correct?",
+      "options": [
+        "Wave 1 is louder and has a higher pitch than Wave 2",
+        "Wave 1 is quieter and has a lower pitch than Wave 2",
+        "Wave 1 is louder and has a lower pitch than Wave 2",
+        "Wave 1 is quieter and has a higher pitch than Wave 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taller peaks mean larger amplitude (louder). Peaks closer together mean higher frequency (higher pitch). **Common mistake:** Thinking 'closer together' means a longer period and lower pitch."
+    },
+    {
+      "id": "ch14-sound-pyp-q18",
+      "type": "mcq",
+      "question": "A student strikes a tuning fork and then strikes it again more forcefully. What is the effect on the sound produced?",
+      "options": [
+        "The loudness increases but the pitch stays the same",
+        "The pitch increases but the loudness stays the same",
+        "Both the pitch and the loudness increase",
+        "The speed of the sound increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Striking the fork more forcefully provides more energy, increasing amplitude/loudness. The frequency (pitch) is a property of the fork's physical dimensions. **Common mistake:** Thinking 'force' determines the note's frequency."
+    },
+    {
+      "id": "ch14-sound-pyp-q19",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies how to produce a sound with a higher pitch and a sound with a higher loudness?nn| | To increase pitch | To increase loudness |n| :--- | :--- | :--- |n| A | Increase frequency | Increase amplitude |n| B | Increase amplitude | Increase frequency |n| C | Decrease frequency | Decrease amplitude |n| D | Increase wavelength | Decrease period |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch is defined by frequency and loudness by amplitude. **Common mistake:** Row B, which swaps the two fundamental definitions."
+    },
+    {
+      "id": "ch14-sound-pyp-q20",
+      "type": "mcq",
+      "question": "A musician shortens the length of a vibrating string on a violin. What is the effect on the sound produced?",
+      "options": [
+        "The frequency increases and the pitch becomes higher",
+        "The amplitude increases and the sound becomes louder",
+        "The wavelength increases and the pitch becomes lower",
+        "The speed of sound in air increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shortening the string causes it to vibrate faster (higher frequency), which results in a higher pitch. **Common mistake:** Thinking that shortening the string makes it 'louder'."
+    }
+  ]
+}

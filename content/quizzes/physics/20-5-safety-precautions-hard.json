@@ -1,0 +1,77 @@
+{
+  "id": "20-5-safety-precautions-hard",
+  "topicId": "20-5-safety-precautions",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "hard",
+  "title": "Safety Precautions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-5-safety-precautions-hard-q1",
+      "type": "mcq",
+      "question": "Why is an alpha-emitting source considered extremely hazardous if ingested (swallowed), despite alpha radiation having very low penetrating power?",
+      "options": [
+        "Its strong ionising effect causes massive damage to internal cells.",
+        "It will penetrate through the skin from the inside out.",
+        "It turns the water in the body into heavy water.",
+        "It loses its radioactivity once it enters the stomach."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles are the most ionising. If they are inside the body, there is no shielding (like skin or air) to stop them, and they cause severe damage to internal cell DNA. \n\n**Common mistake:** Thinking the 'low penetration' makes it safe inside the body too."
+    },
+    {
+      "id": "20-5-safety-precautions-hard-q2",
+      "type": "mcq",
+      "question": "A technician needs to move a gamma source. Which procedure follows all the safety principles of Time, Distance, and Shielding?",
+      "options": [
+        "Use long tongs to move the source quickly from a lead container to a lead-lined room.",
+        "Hold the source by hand to move it as fast as possible to save time.",
+        "Place the source in a plastic bag and carry it for 10 minutes to the storage area.",
+        "Keep the source in an open room but stay 2 metres away for the whole day."
+      ],
+      "correctIndex": 0,
+      "explanation": "Using tongs (Distance), moving quickly (Time), and using lead (Shielding) addresses all three safety pillars. \n\n**Common mistake:** Prioritising only 'Time' (Choice B) and ignoring the direct exposure to the hands."
+    },
+    {
+      "id": "20-5-safety-precautions-hard-q3",
+      "type": "mcq",
+      "question": "How specifically does ionising radiation lead to the formation of cancerous cells?",
+      "options": [
+        "By damaging the DNA inside a cell, causing it to grow and divide uncontrollably.",
+        "By making the cell nucleus so heavy that it falls out of the cell.",
+        "By increasing the temperature of the cell until it boils.",
+        "By turning the cell's electrons into protons."
+      ],
+      "correctIndex": 0,
+      "explanation": "Ionising radiation can cause mutations in the cell's genetic material (DNA). If the damage isn't repaired correctly, the cell can become cancerous. \n\n**Common mistake:** Thinking radiation 'cooks' cells like a microwave; while it carries energy, the cancer risk is from specific DNA damage."
+    },
+    {
+      "id": "20-5-safety-precautions-hard-q4",
+      "type": "mcq",
+      "question": "If a storage box for a source that emits beta particles and gamma rays is made of $5\\text{ cm}$ of lead, what is the primary reason for this thickness?",
+      "options": [
+        "To reduce the intensity of highly penetrating gamma radiation.",
+        "To prevent the lead from becoming radioactive itself.",
+        "To stop the alpha particles from escaping through the gaps.",
+        "To ensure the box is heavy enough that it cannot be moved."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thick lead is required because gamma rays are highly penetrating and difficult to stop. Beta would be stopped by much less, but the gamma needs the full $5\\text{ cm}$. \n\n**Common mistake:** Thinking the lead is meant to stop alpha particles."
+    },
+    {
+      "id": "20-5-safety-precautions-hard-q5",
+      "type": "mcq",
+      "question": "A school lab has a source that has been used for many years. Why must it be stored in a 'lead box' even if its count rate has decreased over time?",
+      "options": [
+        "To prevent unnecessary exposure to background radiation and remaining source emissions.",
+        "To keep the source at a constant temperature so the half-life doesn't change.",
+        "Because the lead box acts as a battery to recharge the source.",
+        "To prevent the source from floating away due to its low density."
+      ],
+      "correctIndex": 0,
+      "explanation": "Regardless of the source's current strength, it must be shielded to prevent any unnecessary exposure to people in the building. \n\n**Common mistake:** Believing that external factors like temperature (Choice B) affect the rate of decay."
+    }
+  ]
+}

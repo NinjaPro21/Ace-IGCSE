@@ -1,0 +1,77 @@
+{
+  "id": "9-1-basic-trigonometry-0-hard",
+  "topicId": "9-1-basic-trigonometry-0",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "hard",
+  "title": "Basic Trigonometry (0° to 90°) — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-basic-trigonometry-0-hard-q1",
+      "type": "mcq",
+      "question": "Given that sin θ = k, express tan θ in terms of k for an acute angle θ.",
+      "options": [
+        "k / \\sqrt{1 - k^2}",
+        "\\sqrt{1 - k^2} / k",
+        "k / (1 - k)",
+        "1 / k"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin θ = k/1 (Opp/Hyp). Adj = \\sqrt{1$^2$ - k^2}. tan θ = Opp / Adj = k / \\sqrt{1 - k^2}.\n\n**Common mistake:** Failing to use the Pythagorean theorem to find the expression for the adjacent side."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-hard-q2",
+      "type": "mcq",
+      "question": "If tan θ = x, find the value of (sin θ)(cos θ) in terms of x.",
+      "options": [
+        "x / (1 + x^2)",
+        "x / \\sqrt{1 + x^2}",
+        "x^2 / (1 + x^2)",
+        "1 / (1 + x^2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opp = x, Adj = 1, Hyp = \\sqrt{1 + x^2}. sin θ cos θ = (x / Hyp) * (1 / Hyp) = x / Hyp^2 = x / (1 + x^2).\n\n**Common mistake:** Forgetting to square the square root in the denominator when multiplying the ratios."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-hard-q3",
+      "type": "mcq",
+      "question": "Solve for acute x: tan(2x + 10°) = 1.",
+      "options": [
+        "17.5°",
+        "45°",
+        "35°",
+        "22.5°"
+      ],
+      "correctIndex": 0,
+      "explanation": "2x + 10° = 45° (since tan 45° = 1). 2x = 35° so x = 17.5°.\n\n**Common mistake:** Setting 2x + 10° = 1 instead of 45°, or making a subtraction error."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-hard-q4",
+      "type": "mcq",
+      "question": "A ladder 10 m long leans against a wall. The foot of the ladder is 6 m from the wall. Find the angle the ladder makes with the ground.",
+      "options": [
+        "53.1°",
+        "36.9°",
+        "31.0°",
+        "59.0°"
+      ],
+      "correctIndex": 0,
+      "explanation": "cos θ = Adjacent / Hypotenuse = 6 / 10 = 0.6. θ = cos^{-1}$(0.6) ≈ 53.1°.$\n\n**Common mistake:** Using the sine ratio (6/10) which would find the angle at the top of the ladder."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-hard-q5",
+      "type": "mcq",
+      "question": "If sin θ = 2 cos θ and θ is acute, find the exact value of sin θ.",
+      "options": [
+        "2/\\sqrt{5}",
+        "1/\\sqrt{5}",
+        "2/3",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin θ / cos θ = 2, so tan θ = 2/1 (Opp/Adj). Hyp = \\sqrt{5}. sin θ = Opp / Hyp = 2 / \\sqrt{5}.\n\n**Common mistake:** Mistakenly concluding sin θ = 2, which is impossible."
+    }
+  ]
+}

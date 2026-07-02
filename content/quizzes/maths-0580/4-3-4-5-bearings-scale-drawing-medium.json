@@ -1,0 +1,77 @@
+{
+  "id": "4-3-4-5-bearings-scale-drawing-medium",
+  "topicId": "4-3-4-5-bearings-scale-drawing",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "medium",
+  "title": "Bearings & Scale Drawing — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-medium-q1",
+      "type": "mcq",
+      "question": "The bearing of a lighthouse from a ship is $310°$. Determine the bearing of the ship from the lighthouse.",
+      "options": [
+        "$130°$",
+        "$180°$",
+        "$490°$",
+        "$050°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the bearing is greater than $180°$, subtract $180°$ to find the back bearing: $310 - 180 = 130°$.\n\n**Common mistake:** The student might add $180°$ and fail to realize the bearing must be between $0°$ and $360°$."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-medium-q2",
+      "type": "mcq",
+      "question": "A surveyor stands $45\\text{ m}$ away from the base of a building. He measures the angle of elevation to the roof to be $32°$. Calculate the height of the building to 3 significant figures.",
+      "options": [
+        "$28.1\\text{ m}$",
+        "$72.0\\text{ m}$",
+        "$23.8\\text{ m}$",
+        "$38.2\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the tangent ratio: $\\tan 32° = \\text{height} / 45$. Height $= 45 \\times \\tan 32° \\approx 28.12\\text{ m}$.\n\n**Common mistake:** The student might use the sine ratio instead of tangent, finding the slant distance to the roof instead of the vertical height."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-medium-q3",
+      "type": "mcq",
+      "question": "On a map where the scale is $1\\text{ cm to } 5\\text{ km}$, a forest is represented by a rectangle measuring $2\\text{ cm}$ by $3.5\\text{ cm}$. Calculate the actual area of the forest.",
+      "options": [
+        "$175\\text{ km}²$",
+        "$35\\text{ km}²$",
+        "$7\\text{ km}²$",
+        "$150\\text{ km}²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual dimensions: $2 \\times 5 = 10\\text{ km}$ and $3.5 \\times 5 = 17.5\\text{ km}$. Area $= 10 \\times 17.5 = 175\\text{ km}²$.\n\n**Common mistake:** Students often find the map area ($7\\text{ cm}²$) and multiply by 5 once instead of multiplying by the scale factor squared ($5^2$)."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-medium-q4",
+      "type": "mcq",
+      "question": "A plane flies from $A$2$B$2$040°$. At $B$2$C$2$ABC$2$A, B,$ and $C$.",
+      "options": [
+        "$130°$",
+        "$50°$",
+        "$90°$",
+        "$140°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The North line at $B$2$A$2$AB$2$B$2$180 - 40 = 140°$ is incorrect; the alternate angle is $40°$. The angle between North and East is $90°$. Thus, angle $ABC = (180 - 40 \\text{ back bearing}) + 90$ is not it. Back bearing is $220°$. Bearing to East is $090°$. Angle $= 220 - 90 = 130°$.\n\n**Common mistake:** A student might assume the turn is $90°$ or miscalculate the relationship between the bearing and the turn."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-medium-q5",
+      "type": "mcq",
+      "question": "A man looking from a $15\\text{ m}$ high window sees a car at an angle of depression of $18°$. How far is the car from the base of the building?",
+      "options": [
+        "$46.2\\text{ m}$",
+        "$4.87\\text{ m}$",
+        "$48.5\\text{ m}$",
+        "$14.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle of depression equals the angle of elevation from the car ($18°)$. $2\\tan 18° = 15 / \\text{distance} \\Rightarrow \\text{distance} = 15 / \\tan 18° \\approx 46.16\\text{ m}$.\n\n**Common mistake:** The student might multiply $15 \\times \\tan 18°$ instead of dividing, which calculates the height if the distance were $15\\text{ m}$."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1-2-scalars-and-vectors-medium",
+  "topicId": "1-2-scalars-and-vectors",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "medium",
+  "title": "Scalars and Vectors — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-2-scalars-and-vectors-medium-q1",
+      "type": "mcq",
+      "question": "Two forces act on a point in opposite directions. Force A is $15\\text{ N}$ to the right and Force B is $20\\text{ N}$ to the left. What is the resultant force?",
+      "options": [
+        "$5\\text{ N}$ to the left",
+        "$5\\text{ N}$ to the right",
+        "$35\\text{ N}$ to the left",
+        "$0\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taking right as positive: $(+15\\text{ N}) + (-20\\text{ N}) = -5\\text{ N}$, which means $5\\text{ N}$ to the left. \n\n**Common mistake:** Adding magnitudes to get $35\\text{ N}$ without accounting for opposite directions."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-medium-q2",
+      "type": "mcq",
+      "question": "Two forces, one of $15\\text{ N}$ and one of $20\\text{ N}$, act at right angles to each other on a box. Calculate the magnitude of the resultant force.",
+      "options": [
+        "$25\\text{ N}$",
+        "$35\\text{ N}$",
+        "$5\\text{ N}$",
+        "$300\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Pythagoras' theorem: $R = sqrt{15^2 + 20^2} = sqrt{225 + 400} = sqrt{625} = 25\\text{ N}$. \n\n**Common mistake:** Simply adding the two values to get $35\\text{ N}$, which only works if they are parallel."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-medium-q3",
+      "type": "mcq",
+      "question": "A runner moves $5\\text{ km}$ North and then $7\\text{ km}$ South. What are her total distance and final displacement?",
+      "options": [
+        "Distance: $12\\text{ km}$; Displacement: $2\\text{ km}$ South",
+        "Distance: $12\\text{ km}$; Displacement: $12\\text{ km}$ North",
+        "Distance: $2\\text{ km}$; Displacement: $2\\text{ km}$ South",
+        "Distance: $12\\text{ km}$; Displacement: $2\\text{ km}$ North"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is scalar (total path): $5 + 7 = 12\\text{ km}$. Displacement is vector (change in position): $+5\\text{ (N)} + -7\\text{ (S)} = -2\\text{ km}$, or $2\\text{ km}$ South. \n\n**Common mistake:** Confusing distance (scalar) with displacement (vector) and giving the same value for both."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-medium-q4",
+      "type": "mcq",
+      "question": "When using the parallelogram method to find the resultant of two vectors starting from the same point, what represents the resultant vector?",
+      "options": [
+        "The diagonal of the parallelogram from the point of origin",
+        "The sum of the lengths of all four sides",
+        "The shorter side of the parallelogram",
+        "The perimeter of the shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the parallelogram method, the resultant is represented by the diagonal starting from the origin point of the two vectors. \n\n**Common mistake:** Measuring a side of the parallelogram instead of the diagonal."
+    },
+    {
+      "id": "1-2-scalars-and-vectors-medium-q5",
+      "type": "mcq",
+      "question": "Two forces $F_1 = 4\\text{ N}$ (horizontal) and $F_2 = 3\\text{ N}$ (vertical) act on an object. What is the angle $theta$ of the resultant force relative to the horizontal force?",
+      "options": [
+        "$36.9^{circ}$",
+        "$53.1^{circ}$",
+        "$90^{circ}$",
+        "$45^{circ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using trigonometry: $tan theta = Opposite / Adjacent = 3 / 4$. $theta = arctan(0.75) = 36.9^{circ}$. \n\n**Common mistake:** Swapping the opposite and adjacent sides, leading to an incorrect angle of $53.1^{circ}$."
+    }
+  ]
+}

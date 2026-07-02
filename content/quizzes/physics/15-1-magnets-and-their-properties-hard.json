@@ -1,0 +1,77 @@
+{
+  "id": "15-1-magnets-and-their-properties-hard",
+  "topicId": "15-1-magnets-and-their-properties",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "hard",
+  "title": "Magnets and Their Properties — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-1-magnets-and-their-properties-hard-q1",
+      "type": "mcq",
+      "question": "A piece of wood is placed between the North pole of a magnet and two iron nails. It is observed that the nails are still attracted to the magnet. Why?",
+      "options": [
+        "Wood is non-magnetic and does not block magnetic fields",
+        "The wood becomes an induced magnet and attracts the nails",
+        "The nails are permanent magnets themselves",
+        "The magnet is strong enough to turn wood into a magnetic material"
+      ],
+      "correctIndex": 0,
+      "explanation": "As noted in Worked Example 15.1, wood is a non-magnetic material. It does not completely block the magnetic field, allowing the magnet to still induce magnetism in the nails behind it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-hard-q2",
+      "type": "mcq",
+      "question": "Two iron nails are held by their heads against the North pole of a bar magnet. It is observed that the pointed tips of the nails spread away from each other. What explains this?",
+      "options": [
+        "The tips both become induced North poles and repel each other",
+        "The tips both become induced South poles and repel each other",
+        "One tip becomes a North pole and the other a South pole",
+        "The magnet's field pushes the nails apart mechanically"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heads (near the N pole) become induced South poles. The tips (farther ends) both become induced North poles. Since like poles repel, the two North-pole tips push away from each other.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-hard-q3",
+      "type": "mcq",
+      "question": "What happens if a permanent bar magnet is broken exactly in half across its middle?",
+      "options": [
+        "Two smaller magnets are formed, each with a North and a South pole",
+        "One piece becomes a North-only magnet and the other a South-only magnet",
+        "Both pieces lose their magnetism completely",
+        "The pieces become unmagnetised magnetic materials"
+      ],
+      "correctIndex": 0,
+      "explanation": "Breaking a magnet does not separate the poles; instead, the magnetic domains at the break align to form new poles, resulting in two complete magnets.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-hard-q4",
+      "type": "mcq",
+      "question": "Three metal bars (X, Y, and Z) are tested. Bar X attracts bar Y. Bar Y repels bar Z. What can be concluded with certainty?",
+      "options": [
+        "Bars Y and Z are permanent magnets",
+        "All three bars are permanent magnets",
+        "Bar X must be a permanent magnet",
+        "Bar Z is an unmagnetised magnetic material"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repulsion is the only sure test for a magnet. Since Y and Z repel each other, they must both be magnets. X attracts Y, but X could be either a magnet or just a magnetic material.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-hard-q5",
+      "type": "mcq",
+      "question": "In the process of magnetisation, what happens to the internal structure of a magnetic material?",
+      "options": [
+        "The randomly oriented magnetic domains align in one direction",
+        "Individual atoms are physically moved to the ends of the bar",
+        "Non-magnetic atoms are converted into magnetic atoms",
+        "The material loses electrons to the inducing magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetisation occurs when the magnetic domains, which are initially pointing in random directions, are forced to align in one direction by an external field.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

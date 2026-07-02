@@ -1,0 +1,77 @@
+{
+  "id": "12-4-refraction-by-thin-lenses-pyp",
+  "topicId": "12-4-refraction-by-thin-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "pyp",
+  "title": "Refraction by Thin Lenses — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-4-refraction-by-thin-lenses-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a ray of light passing through a thin converging lens. Which labelled distance is the focal length $f$?n[Diagram showing rays parallel to axis meeting at F]",
+      "options": [
+        "The distance from the optical centre to the principal focus",
+        "The distance from the principal focus to the focal plane",
+        "The distance across the widest part of the lens",
+        "The distance from the object to the lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard IGCSE diagrams identify $f$ as the distance from the centre of the lens to the point where parallel rays meet.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-pyp-q2",
+      "type": "mcq",
+      "question": "A student measures the size of the bright spot formed by a lens at different distances $d$ from a piece of paper.nn$d / \\text{ cm}$ | $5$ | $10$ | $15$ | $20$n--- | --- | --- | --- | ---nSpot diameter / $\\text{mm}$ | $8$ | $4$ | $1$ | $5$nnWhat is the approximate focal length of the lens?",
+      "options": [
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$20\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The focal point is the point where the spot is smallest and brightest. According to the data, this occurs at a distance of $15\\text{ cm}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-pyp-q3",
+      "type": "mcq",
+      "question": "Which diagram correctly shows parallel rays of light passing through a diverging lens?",
+      "options": [
+        "Rays bending away from each other as if starting from a point behind the lens",
+        "Rays bending towards each other to meet at a point",
+        "Rays passing through without any change in direction",
+        "Rays reflecting off the front surface of the lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "A diverging lens causes parallel incident rays to spread out, and their paths can be traced back to a virtual focal point on the same side as the incident light.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-pyp-q4",
+      "type": "mcq",
+      "question": "In a converging lens, what is the 'focal plane'?",
+      "options": [
+        "A plane perpendicular to the principal axis passing through the focal point",
+        "The flat surface of the lens",
+        "The plane containing the principal axis",
+        "The surface on which the lens is placed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The focal plane is defined as the plane that passes through the focal point $F$ and is perpendicular to the principal axis.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-4-refraction-by-thin-lenses-pyp-q5",
+      "type": "mcq",
+      "question": "Light of a single frequency is used with a thin converging lens. Which term describes this light?",
+      "options": [
+        "Monochromatic",
+        "Dispersed",
+        "Divergent",
+        "Polychromatic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visible light of a single frequency (one colour) is described as monochromatic. Polychromatic light like white light contains many frequencies.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

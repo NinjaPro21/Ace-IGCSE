@@ -1,0 +1,77 @@
+{
+  "id": "4-1-solving-equations-of-the-type-f-x-g-x-medium",
+  "topicId": "4-1-solving-equations-of-the-type-f-x-g-x",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "medium",
+  "title": "Solving Equations of the type $|f(x)| = g(x)$ — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-solving-equations-of-the-type-f-x-g-x-medium-q1",
+      "type": "mcq",
+      "question": "Solve the equation $|2x - 5| = |x + 4|$.",
+      "options": [
+        "x = 9 and x = 1/3",
+        "x = 9 and x = -1/3",
+        "x = 1 and x = -9",
+        "x = 4.5 and x = -4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $2x-5 = x+4 \\implies x=9$. Case 2: $2x-5 = -(x+4) \\implies 2x-5 = -x-4 \\implies 3x=1 \\implies x=1/3$.\n\n**Common mistake:** Neglecting to distribute the negative sign across both terms in the bracket, e.g., using $-x+4$ instead of $-x-4$."
+    },
+    {
+      "id": "4-1-solving-equations-of-the-type-f-x-g-x-medium-q2",
+      "type": "mcq",
+      "question": "Find the set of values of x for which $|3x + 2| = |2x - 8|$.",
+      "options": [
+        "x = -10 and x = 1.2",
+        "x = 10 and x = -1.2",
+        "x = -6 and x = 2",
+        "x = -10 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $3x+2 = 2x-8 \\implies x=-10$. Case 2: $3x+2 = -(2x-8) \\implies 3x+2 = -2x+8 \\implies 5x=6 \\implies x=1.2$.\n\n**Common mistake:** Arithmetic slips when handling the subtraction of terms across the equals sign."
+    },
+    {
+      "id": "4-1-solving-equations-of-the-type-f-x-g-x-medium-q3",
+      "type": "mcq",
+      "question": "Solve $|5x - 1| = |x + 11|$.",
+      "options": [
+        "x = 3 and x = -1.67",
+        "x = 3 and x = 2",
+        "x = 2.5 and x = -11",
+        "x = -3 and x = 1.67"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $5x-1 = x+11 \\implies 4x=12 \\implies x=3$. Case 2: $5x-1 = -x-11 \\implies 6x=-10 \\implies x=-5/3 \\approx -1.67$.\n\n**Common mistake:** Dividing 12 by 5 instead of 4, or 10 by 5 instead of 6."
+    },
+    {
+      "id": "4-1-solving-equations-of-the-type-f-x-g-x-medium-q4",
+      "type": "mcq",
+      "question": "Solve the equation $|x - 7| = |4x + 8|$.",
+      "options": [
+        "x = -5 and x = -0.2",
+        "x = 5 and x = 0.2",
+        "x = -3 and x = 15",
+        "x = -5 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $x-7 = 4x+8 \\implies -3x=15 \\implies x=-5$. Case 2: $x-7 = -4x-8 \\implies 5x=-1 \\implies x=-0.2$.\n\n**Common mistake:** Sign errors while isolating x, particularly when dealing with $-3x = 15$."
+    },
+    {
+      "id": "4-1-solving-equations-of-the-type-f-x-g-x-medium-q5",
+      "type": "mcq",
+      "question": "Find the solutions for $|2x + 10| = |3 - x|$.",
+      "options": [
+        "x = -2.33 and x = -13",
+        "x = 2.33 and x = 13",
+        "x = -7 and x = 13",
+        "x = -2.33 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $2x+10 = 3-x \\implies 3x=-7 \\implies x=-7/3$. Case 2: $2x+10 = -(3-x) \\implies 2x+10 = -3+x \\implies x=-13$.\n\n**Common mistake:** Incorrectly distributing the negative sign in Case 2, treating $-(3-x)$ as $-3-x$."
+    }
+  ]
+}

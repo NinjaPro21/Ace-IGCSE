@@ -1,0 +1,77 @@
+{
+  "id": "17-1-circuit-diagrams-and-components-pyp",
+  "topicId": "17-1-circuit-diagrams-and-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "pyp",
+  "title": "Circuit Diagrams and Components — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-1-circuit-diagrams-and-components-pyp-q1",
+      "type": "mcq",
+      "question": "A resistor converts $350\\text{ J}$ of electrical energy when a p.d. of $7\\text{ V}$ is applied. What is the amount of charge that flows through it?",
+      "options": [
+        "$50\\text{ C}$",
+        "$0.02\\text{ C}$",
+        "$350\\text{ C}$",
+        "$2450\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 1. Using $Q = W / V$, $Q = 350 / 7 = 50\\text{ C}$. \n\n**Common mistake:** Multiplying $350$ by $7$ instead of dividing."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-pyp-q2",
+      "type": "mcq",
+      "question": "The reading on an ammeter in a simple circuit is $1.0\\text{ A}$. Which of the following sets of voltmeter reading and resistance is consistent with this current?",
+      "options": [
+        "Voltmeter: $10\\text{ V}$; Resistance: $10\\text{ }Omega$",
+        "Voltmeter: $1\\text{ V}$; Resistance: $2\\text{ }Omega$",
+        "Voltmeter: $4\\text{ V}$; Resistance: $0.25\\text{ }Omega$",
+        "Voltmeter: $12\\text{ V}$; Resistance: $6\\text{ }Omega$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 3. According to $V = IR$, if $I = 1.0\\text{ A}$, then $V$ must equal $R$. Only Choice A ($10 = 1 \\times 10$) satisfies this. \n\n**Common mistake:** Selecting Choice D because $12$ and $6$ are common numbers in electricity problems."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-pyp-q3",
+      "type": "mcq",
+      "question": "A $V-I$ graph for two conductors, A and B, shows that both lines are straight and pass through the origin. Conductor A has a steeper gradient (larger $V$ for the same $I$) than Conductor B. What can be deduced?",
+      "options": [
+        "Conductor A has a higher resistance than Conductor B.",
+        "Conductor B has a higher resistance than Conductor A.",
+        "Both conductors have the same resistance.",
+        "Neither conductor obeys Ohm's Law."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 6. Resistance $R$ is the ratio $V/I$. A steeper gradient on a $V-I$ graph means a higher ratio and thus higher resistance. \n\n**Common mistake:** Swapping the relationship if the graph is $I-V$ instead of $V-I$."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-pyp-q4",
+      "type": "mcq",
+      "question": "Which circuit set-up cannot be used to determine the resistance of a resistor R?",
+      "options": [
+        "A voltmeter connected in series with the resistor",
+        "An ammeter in series and a voltmeter in parallel",
+        "A digital multimeter set to the ohmmeter function",
+        "Measuring the p.d. and current separately and calculating the ratio"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 2. A voltmeter has very high resistance; if placed in series, it will block almost all current, making it impossible to determine the resistor's normal properties. \n\n**Common mistake:** Thinking voltmeters can be placed anywhere in a circuit."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-pyp-q5",
+      "type": "mcq",
+      "question": "A student measures the current in a wire to be $0.53\\text{ A}$ over a period of $1.0\\text{ minute}$. Given the charge of one electron is $1.6 \\times 10^{-19}\\text{ C}$, how many electrons passed through the wire?",
+      "options": [
+        "$2.0 \\times 10^{20}$",
+        "$32$",
+        "$3.3 \\times 10^{18}$",
+        "$6.25 \\times 10^{18}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Question 4(b). $Q = I \\times t = 0.53 \\times 60 \\approx 32\\text{ C}$. Number of electrons $= 32 / (1.6 \\times 10^{-19}) = 2.0 \\times 10^{20}$. \n\n**Common mistake:** Using $1.0$ second as the time instead of $60$ seconds."
+    }
+  ]
+}

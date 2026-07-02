@@ -1,0 +1,77 @@
+{
+  "id": "15-6-integration-of-easy",
+  "topicId": "15-6-integration-of",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "easy",
+  "title": "Integration of $\\frac{1}{x}$ and $\\frac{1}{ax+b}$ — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-6-integration-of-easy-q1",
+      "type": "mcq",
+      "question": "Find the indefinite integral $\\int \\frac{3}{x} \\\\\\\\\\,dx.$.",
+      "options": [
+        "3 ln|x| + c",
+        "ln|3x| + c",
+        "-3/x^2 + c",
+        "3/x^2 + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constants can be moved outside the integral: 3 ∫ (1/x) dx = 3 ln|x| + c.\n\n**Common mistake:** Attempting to use the power rule and getting an undefined or incorrect result like -3/x^2."
+    },
+    {
+      "id": "15-6-integration-of-easy-q2",
+      "type": "mcq",
+      "question": "Evaluate $\\int \\frac{1}{x + 5} \\\\\\\\\\,dx.$.",
+      "options": [
+        "ln|x + 5| + c",
+        "1 / (x + 5)$^2$ + c",
+        "ln|x| + 5 + c",
+        "5 ln|x| + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the form 1/(ax+b), if a=1, the integral is simply ln|ax+b|.\n\n**Common mistake:** Integrating the constant 5 separately from the x term."
+    },
+    {
+      "id": "15-6-integration-of-easy-q3",
+      "type": "mcq",
+      "question": "Find $\\int \\frac{1}{2x - 3} \\\\\\\\\\,dx.$.",
+      "options": [
+        "0.5 ln|2x - 3| + c",
+        "ln|2x - 3| + c",
+        "2 ln|2x - 3| + c",
+        "-1 / (2x - 3)$^2$ + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide by the coefficient of x (which is 2), resulting in 1/2 ln|2x-3|.\n\n**Common mistake:** Forgetting to divide by the coefficient 2."
+    },
+    {
+      "id": "15-6-integration-of-easy-q4",
+      "type": "mcq",
+      "question": "Integrate $\\int \\frac{4}{1 - x} \\\\\\\\\\,dx.$.",
+      "options": [
+        "-4 ln|1 - x| + c",
+        "4 ln|1 - x| + c",
+        "ln|4 - 4x| + c",
+        "-ln|1 - x| + c"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coefficient of x is -1. 4 / (-1) * ln|1-x| = -4 ln|1-x|.\n\n**Common mistake:** Ignoring the negative sign attached to the x term."
+    },
+    {
+      "id": "15-6-integration-of-easy-q5",
+      "type": "mcq",
+      "question": "What is the value of $\\int_1^e \\frac{1}{x} \\\\\\\\\\,dx.$?",
+      "options": [
+        "1",
+        "0",
+        "e",
+        "ln 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "[ln|x|] from 1 to e = ln e - ln 1 = 1 - 0 = 1.\n\n**Common mistake:** Incorrectly evaluating ln e as 0 or ln 1 as 1."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ch08-kinetic-particle-model-of-matter-pyp",
+  "topicId": "ch08-kinetic-particle-model-of-matter",
+  "chapterId": "ch08-kinetic-particle-model-of-matter",
+  "difficulty": "pyp",
+  "title": "Chapter 8: Kinetic Particle Model of Matter — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows the arrangement of particles in the three states of matter.nnState 1: Particles far apart, random arrangement.nState 2: Particles closely packed, regular pattern.nState 3: Particles close together, random arrangement.nnWhich row correctly identifies the states?",
+      "options": [
+        "1: Gas; 2: Solid; 3: Liquid",
+        "1: Liquid; 2: Solid; 3: Gas",
+        "1: Gas; 2: Liquid; 3: Solid",
+        "1: Solid; 2: Liquid; 3: Gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gas particles are far apart (1), solid particles are in a regular lattice (2), and liquid particles are close but random (3). \n\n**Common mistake:** Swapping the definitions of liquids and solids."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q2",
+      "type": "mcq",
+      "question": "Which of the following describes the process of condensation?",
+      "options": [
+        "A gas changing to a liquid",
+        "A liquid changing to a gas",
+        "A solid changing to a liquid",
+        "A liquid changing to a solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Condensation is defined as the change of state from gas to liquid. \n\n**Common mistake:** Confusing it with evaporation (liquid to gas)."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q3",
+      "type": "mcq",
+      "question": "A student is heating a piece of ice. The graph shows how the temperature changes with time. Which part of the graph shows the ice is melting?",
+      "options": [
+        "A horizontal line at $0^\\circ\\text{C}$",
+        "A line with a steady positive gradient",
+        "A horizontal line at $100^\\circ\\text{C}$",
+        "A line with a decreasing gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Melting occurs at a constant temperature ($0^\\circ\\text{C}$ for pure water), shown as a horizontal plateau on a temperature-time graph. \n\n**Common mistake:** Selecting the $100^\\circ\\text{C}$ line, which represents boiling."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q4",
+      "type": "mcq",
+      "question": "What happens to the average speed of gas particles as the temperature of the gas is decreased?",
+      "options": [
+        "The average speed decreases.",
+        "The average speed increases.",
+        "The average speed remains the same.",
+        "The particles stop moving immediately."
+      ],
+      "correctIndex": 0,
+      "explanation": "Temperature is a measure of the average kinetic energy of the particles; therefore, lowering the temperature reduces their average speed. \n\n**Common mistake:** Thinking speed increases because particles 'clump' together."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the properties of a gas?",
+      "options": [
+        "Fixed Shape: No; Fixed Volume: No; Compressible: Yes",
+        "Fixed Shape: Yes; Fixed Volume: Yes; Compressible: No",
+        "Fixed Shape: No; Fixed Volume: Yes; Compressible: No",
+        "Fixed Shape: No; Fixed Volume: No; Compressible: No"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gases have no fixed shape, no fixed volume, and are compressible. \n\n**Common mistake:** Thinking gases have a fixed volume like liquids."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q6",
+      "type": "mcq",
+      "question": "The diagram shows a smoke cell used to observe Brownian motion. What is observed through the microscope?",
+      "options": [
+        "Bright specks of light moving in a random zig-zag path",
+        "Air molecules moving at high speed in all directions",
+        "Smoke particles vibrating about fixed positions",
+        "A regular pattern of smoke particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under a microscope, smoke particles appear as bright specks reflecting light, moving randomly due to collisions with air molecules. \n\n**Common mistake:** Claiming to see the actual 'air molecules', which are too small to be seen with a light microscope."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q7",
+      "type": "mcq",
+      "question": "Which of the following is correct for the absolute scale of temperature?",
+      "options": [
+        "The temperature of pure melting ice is $273\\text{ K}$",
+        "The temperature of pure boiling water is $100\\text{ K}$",
+        "Absolute zero is $273\\text{ K}$",
+        "The Kelvin scale can have negative values"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the Kelvin scale, $0^\\circ\\text{C}$ (melting ice) is equivalent to $273\\text{ K}$. \n\n**Common mistake:** Thinking absolute zero is $273\\text{ K}$; it is $0\\text{ K}$."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q8",
+      "type": "mcq",
+      "question": "The table below shows the characteristics of particles in three states of matter. Which row represents a liquid?nn| Row | Arrangement | Spacing | Motion |n| :--- | :--- | :--- | :--- |n| A | Regular | Close | Vibrating |n| B | Random | Close | Moving past each other |n| C | Random | Far apart | Moving freely |n| D | Regular | Far apart | Stationary |",
+      "options": [
+        "Row B",
+        "Row A",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquids have particles that are close together but randomly arranged and able to move past one another. \n\n**Common mistake:** Selecting Row C, which describes the properties of a gas."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q9",
+      "type": "mcq",
+      "question": "Which statement about absolute zero is NOT correct?",
+      "options": [
+        "The lowest temperature on the Celsius scale is $0^\\circ\\text{C}$",
+        "$-273^\\circ\\text{C}$ is the coldest temperature possible",
+        "Ice melts at approximately $273\\text{ K}$",
+        "At absolute zero, particles have the least kinetic energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Celsius scale can go well below $0^\\circ\\text{C}$, down to $-273^\\circ\\text{C}$. \n\n**Common mistake:** Believing the Celsius scale ends at $0^\\circ\\text{C}$ simply because that is where water freezes."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q10",
+      "type": "mcq",
+      "question": "A student decreases the temperature of a gas in a sealed container of constant volume. Which property of the gas particles also decreases?",
+      "options": [
+        "Average speed",
+        "Total number of particles",
+        "Size of each particle",
+        "Number of particles per unit volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temperature is a measure of average kinetic energy; decreasing it means the particles move with lower average speed. \n\n**Common mistake:** Thinking that cooling a gas makes the actual particles 'shrink' in size."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q11",
+      "type": "mcq",
+      "question": "A sample of gas at an atmospheric pressure of $1.0 \\times 10^{5}\\text{ Pa}$ has a volume of $100\\text{ cm}^3$. What is the pressure of the gas when its volume is reduced to $85\\text{ cm}^3$ at constant temperature?",
+      "options": [
+        "$1.2 \\times 10^{5}\\text{ Pa}$",
+        "$1.0 \\times 10^{5}\\text{ Pa}$",
+        "$8.5 \\times 10^{4}\\text{ Pa}$",
+        "$1.5 \\times 10^{5}\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $p_1V_1 = p_2V_2$: $10^{5} \\times 100 = p_2 \\times 85$. $p_2 = 10^{7} / 85 \\approx 117647\\text{ Pa}$, which rounds to $1.2 \\times 10^{5}\\text{ Pa}$. **Common mistake:** Multiplying $10^{5}$ by $0.85$ to get $8.5 \\times 10^{4}$."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q12",
+      "type": "mcq",
+      "question": "Which of the following is correct for the absolute scale of temperature?",
+      "options": [
+        "The temperature of pure melting ice is $273\\text{ K}$",
+        "The temperature of pure boiling water is $100\\text{ K}$",
+        "Absolute zero is $273\\text{ K}$",
+        "The Kelvin scale can have negative values"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the Kelvin scale, $0^\\circ\\text{C}$ (melting ice) is equivalent to $273\\text{ K}$. **Common mistake:** Thinking absolute zero is $273\\text{ K}$; it is actually $0\\text{ K}$."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q13",
+      "type": "mcq",
+      "question": "A gas is heated in a sealed container of constant volume. Which of the following properties of the gas will NOT increase?",
+      "options": [
+        "The number of particles per unit volume",
+        "The average speed of the gas particles",
+        "The pressure of the gas",
+        "The temperature of the gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the volume and the mass (number of particles) are both constant, the number of particles per unit volume cannot change. **Common mistake:** Thinking particles 'spread out' when heated, which would only happen if the container could expand."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q14",
+      "type": "mcq",
+      "question": "The diagram shows a balloon in a sealed jar. When air is removed from the jar, the balloon expands. Which relationship does this demonstrate?",
+      "options": [
+        "As external pressure decreases, volume increases",
+        "As temperature increases, volume increases",
+        "As mass increases, pressure increases",
+        "As density increases, volume increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Removing air from the jar reduces the pressure outside the balloon. The fixed mass of air inside the balloon then expands until the pressures balance. **Common mistake:** Thinking temperature must have changed to make the balloon grow."
+    },
+    {
+      "id": "ch08-kinetic-particle-model-of-matter-pyp-q15",
+      "type": "mcq",
+      "question": "A table lists the temperatures of four substances. Which substance has the highest temperature?nn| Substance | Temperature |n| :--- | :--- |n| P | $100^\\circ\\text{C}$ |n| Q | $350\\text{ K}$ |n| R | $273\\text{ K}$ |n| S | $0^\\circ\\text{C}$ |",
+      "options": [
+        "Substance P",
+        "Substance Q",
+        "Substance R",
+        "Substance S"
+      ],
+      "correctIndex": 0,
+      "explanation": "$100^\\circ\\text{C} = 373\\text{ K}$. Since $373 > 350 > 273$, Substance P is the hottest. **Common mistake:** Thinking $350$ is the largest numerical value and thus the highest temperature without checking units."
+    }
+  ]
+}

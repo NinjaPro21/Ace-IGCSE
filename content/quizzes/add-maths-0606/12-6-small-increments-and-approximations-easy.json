@@ -1,0 +1,77 @@
+{
+  "id": "12-6-small-increments-and-approximations-easy",
+  "topicId": "12-6-small-increments-and-approximations",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "easy",
+  "title": "Small Increments and Approximations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-6-small-increments-and-approximations-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following formulas represents the approximate change in $y$2$\\delta y$2$x$2$\\delta x$)?",
+      "options": [
+        "δy ≈ ($\\frac{dy}{dx}$) δx",
+        "δy ≈ δx / ($\\frac{dy}{dx}$)",
+        "δy ≈ ($\\frac{dy}{dx}$) + δx",
+        "δy ≈ d^2 y/dx^2 δx"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the definition of a derivative as a limit, the ratio of small changes is approximately the gradient of the tangent at that point.\n\n**Common mistake:** Dividing the change in x by the derivative instead of multiplying."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-easy-q2",
+      "type": "mcq",
+      "question": "Given $y = x^2$ and $dy/dx = 2x$2$y$2$x$ increases from 5 to 5.1.",
+      "options": [
+        "1.0",
+        "0.1",
+        "10",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "δx = 5.1 - 5 = 0.1. At x = 5, $\\frac{dy}{dx}$ = 10. δy ≈ 10(0.1) = 1.0.\n\n**Common mistake:** Calculating the actual change (5.1$^2$ - 5$^2$ = 1.01) instead of the approximation, or miscalculating the derivative."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-easy-q3",
+      "type": "mcq",
+      "question": "If $dy/dx = 4$ at $x = 2$, and $x$2$h$2$y$2$y$ was 10?",
+      "options": [
+        "10 + 4h",
+        "10 + h",
+        "4 + 10h",
+        "14h"
+      ],
+      "correctIndex": 0,
+      "explanation": "New y ≈ original y + δy. Since δy ≈ ($\\frac{dy}{dx}$)h, new y ≈ 10 + 4h.\n\n**Common mistake:** Adding only the derivative (4) or only the increment (h) to the original value."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-easy-q4",
+      "type": "mcq",
+      "question": "Find the approximate change in the area $A$2$A = x^2$) when its side $x$ increases from 10 cm to 10.02 cm.",
+      "options": [
+        "0.4 cm^2",
+        "0.04 cm^2",
+        "0.2 cm^2",
+        "20 cm^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "dA/dx = 2x. At x=10, dA/dx = 20. δx = 0.02. δA ≈ 20(0.02) = 0.4.\n\n**Common mistake:** Using the formula for perimeter ($4x$) or forgetting to multiply by the derivative."
+    },
+    {
+      "id": "12-6-small-increments-and-approximations-easy-q5",
+      "type": "mcq",
+      "question": "A function $y = f(x)$ has a derivative of 3 at $x=a$2$x$2$y$.",
+      "options": [
+        "-0.03",
+        "0.03",
+        "-0.01",
+        "2.99"
+      ],
+      "correctIndex": 0,
+      "explanation": "δx = -0.01. δy ≈ (3)(-0.01) = -0.03.\n\n**Common mistake:** Forgetting the negative sign when the variable decreases."
+    }
+  ]
+}

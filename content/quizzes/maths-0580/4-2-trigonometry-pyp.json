@@ -1,0 +1,77 @@
+{
+  "id": "4-2-trigonometry-pyp",
+  "topicId": "4-2-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "pyp",
+  "title": "Trigonometry — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-trigonometry-pyp-q1",
+      "type": "mcq",
+      "question": "Calculate the length of side $x$2$25.4°$ and the adjacent side is $10\\text{ cm}$. Give your answer correct to 3 significant figures.",
+      "options": [
+        "$4.75\\text{ cm}$",
+        "$4.29\\text{ cm}$",
+        "$9.03\\text{ cm}$",
+        "$23.2\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the tangent ratio: $\\tan 25.4° = x/10 \\Rightarrow x = 10 \\times \\tan 25.4° \\approx 4.748$. Rounded to 3 s.f., $x = 4.75$.\n\n**Common mistake:** The student may use the sine ratio instead of the tangent ratio, resulting in $4.29$."
+    },
+    {
+      "id": "4-2-trigonometry-pyp-q2",
+      "type": "mcq",
+      "question": "The angle of elevation of the top of a building from a point $20\\text{ m}$ away from its base is $65°$. Work out the height of the building.",
+      "options": [
+        "$42.9\\text{ m}$",
+        "$18.1\\text{ m}$",
+        "$8.45\\text{ m}$",
+        "$47.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan 65° = \\text{height}/20 \\Rightarrow \\text{height} = 20 \\tan 65° \\approx 42.89$.\n\n**Common mistake:** A student might use $20 \\sin 65°$, which would give the direct distance to the top (hypotenuse) instead of the vertical height."
+    },
+    {
+      "id": "4-2-trigonometry-pyp-q3",
+      "type": "mcq",
+      "question": "Without using a calculator, show that the expression $\\frac{\\sin 30° + \\tan 45°}{\\sin 90°}$ simplifies to an exact value. What is this value?",
+      "options": [
+        "$1.5$",
+        "$1.866$",
+        "$2$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute exact values: $(0.5 + 1) / 1 = 1.5$.\n\n**Common mistake:** The student might think $\\sin 90° = 0$, leading to an undefined error, or $\\tan 45° = 0.5$."
+    },
+    {
+      "id": "4-2-trigonometry-pyp-q4",
+      "type": "mcq",
+      "question": "Hence, find the size of the angle $x$2$14\\text{ cm}$ and the adjacent side is $7\\text{ cm}$.",
+      "options": [
+        "$60°$",
+        "$30°$",
+        "$45°$",
+        "$90°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\cos x = 7/14 = 1/2$. We know from exact values that $\\cos 60° = 1/2$, so $x = 60°$.\n\n**Common mistake:** A student might use the sine ratio and find $x = 30°$ instead."
+    },
+    {
+      "id": "4-2-trigonometry-pyp-q5",
+      "type": "mcq",
+      "question": "Work out the length of $PR$2$PQR$2$∠Q = 90°, ∠R = 31.7°,$ and $QR = 0.81\\text{ cm}$. Give your answer to 3 significant figures.",
+      "options": [
+        "$0.952\\text{ cm}$",
+        "$0.689\\text{ cm}$",
+        "$1.31\\text{ cm}$",
+        "$0.426\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$QR$2$∠R$2$\\cos 31.7° = 0.81/PR \\Rightarrow PR = 0.81 / \\cos 31.7° \\approx 0.9519$. Rounded to 3 s.f., $0.952$.\n\n**Common mistake:** The student might multiply $0.81 \\times \\cos 31.7°$ instead of dividing."
+    }
+  ]
+}

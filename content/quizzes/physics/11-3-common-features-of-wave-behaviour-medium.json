@@ -1,0 +1,77 @@
+{
+  "id": "11-3-common-features-of-wave-behaviour-medium",
+  "topicId": "11-3-common-features-of-wave-behaviour",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "medium",
+  "title": "Common Features of Wave Behaviour — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-common-features-of-wave-behaviour-medium-q1",
+      "type": "mcq",
+      "question": "A student narrows the gap in a barrier in a ripple tank. What effect does this have on the diffraction of the water waves?",
+      "options": [
+        "The waves spread out more",
+        "The waves spread out less",
+        "The wavelength increases",
+        "The wave speed increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the gap size decreases relative to the wavelength, the curvature of the diffracted wavefronts increases, meaning the waves spread out more.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-medium-q2",
+      "type": "mcq",
+      "question": "Water waves in a deep region have a wavelength of $4.0\\text{ cm}$. They enter a shallow region where their speed is halved. What is the new wavelength?",
+      "options": [
+        "$2.0\\text{ cm}$",
+        "$4.0\\text{ cm}$",
+        "$8.0\\text{ cm}$",
+        "$0.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, since frequency $f$ is constant, speed $v$ is directly proportional to wavelength $\\lambda$. If speed is halved, wavelength is also halved ($4.0 / 2 = 2.0\\text{ cm}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-medium-q3",
+      "type": "mcq",
+      "question": "Which diagram correctly describes waves passing from deep to shallow water?",
+      "options": [
+        "Wavefronts move closer together in shallow water",
+        "Wavefronts move further apart in shallow water",
+        "Wavefronts bend away from the normal",
+        "Wavefronts increase in speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves travel slower in shallow water. Since $v = f\\lambda$ and $f$ is constant, the wavelength $\\lambda$ (the distance between wavefronts) must decrease.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-medium-q4",
+      "type": "mcq",
+      "question": "Waves approach a single edge. Which condition results in the greatest amount of diffraction (curving around the edge)?",
+      "options": [
+        "Long wavelength",
+        "Short wavelength",
+        "High wave speed",
+        "High frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "For diffraction at an edge, a longer wavelength causes a greater curvature effect, allowing more of the wave to spread behind the barrier.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-medium-q5",
+      "type": "mcq",
+      "question": "What occurs when plane waves strike a straight barrier at an angle of incidence of $0^circ$?",
+      "options": [
+        "The waves reflect back along their original path",
+        "The waves are refracted towards the normal",
+        "The waves undergo maximum diffraction",
+        "The wavelength of the reflected waves doubles"
+      ],
+      "correctIndex": 0,
+      "explanation": "An angle of incidence of $0^circ$ means the waves hit the barrier head-on. They reflect directly back. Refraction and diffraction require boundaries between media or gaps/edges.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

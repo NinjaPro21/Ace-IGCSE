@@ -1,0 +1,77 @@
+{
+  "id": "2-quadratic-inequalities-hard",
+  "topicId": "2-quadratic-inequalities",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "hard",
+  "title": "Quadratic Inequalities — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-quadratic-inequalities-hard-q1",
+      "type": "mcq",
+      "question": "Find the set of values of x such that 3$x^{2}$+10x<8.",
+      "options": [
+        "−4<x<2/3",
+        "x<−4 or x>2/3",
+        "−2/3<x<4",
+        "x<−2/3 or x>4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange: 3$x^{2}$+10x−8<0. Factorize: (3x−2)(x+4)<0. Critical values are 2/3 and −4. The region is between them.\n\n**Common mistake:** Errors in the quadratic factorization or misinterpreting 'less than' as an 'outside' region."
+    },
+    {
+      "id": "2-quadratic-inequalities-hard-q2",
+      "type": "mcq",
+      "question": "Solve the inequality $(x-1)^{2}$≤4.",
+      "options": [
+        "−1≤x≤3",
+        "x≤3",
+        "x≤−1 or x≥3",
+        "−3≤x≤1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand and rearrange: $x^{2}$−2x+1≤4 \\implies $x^{2}$−2x−3≤0 \\implies (x−3)(x+1)≤0. Roots are 3 and −1.\n\n**Common mistake:** Only solving x−1≤2, leading to x≤3, and ignoring the negative square root case."
+    },
+    {
+      "id": "2-quadratic-inequalities-hard-q3",
+      "type": "mcq",
+      "question": "Solve the inequality x(2x+1)>10.",
+      "options": [
+        "x<−2.5 or x>2",
+        "−2.5<x<2",
+        "x<−2 or x>2.5",
+        "−2<x<2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand: 2$x^{2}$+x−10>0. Factorize: (2x+5)(x−2)>0. Critical values are −2.5 and 2. The solution is outside these roots.\n\n**Common mistake:** Misidentifying the roots from the factors (e.g., +2.5 and −2) or selecting the region between the roots."
+    },
+    {
+      "id": "2-quadratic-inequalities-hard-q4",
+      "type": "mcq",
+      "question": "Find the range of values of x that satisfy$\\frac{$x^{2}$-52≤x+5}{}$.",
+      "options": [
+        "−3≤x≤5",
+        "x≤−3 or x≥5",
+        "−5≤x≤3",
+        "x≤−5 or x≥3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply by 2: $x^{2}$−5≤2x+10. Rearrange: $x^{2}$−2x−15≤0. Factor: (x−5)(x+3)≤0. Roots are 5 and −3.\n\n**Common mistake:** Failing to multiply both terms on the RHS by 2, or algebraic slips during the simplification to standard quadratic form."
+    },
+    {
+      "id": "2-quadratic-inequalities-hard-q5",
+      "type": "mcq",
+      "question": "Solve the inequality 4−$(x-2)^{2}$>0.",
+      "options": [
+        "0<x<4",
+        "x<0 or x>4",
+        "x<4",
+        "−2<x<2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange: $(x-2)^{2}$<4. Expand and simplify: $x^{2}$−4x+4<4 \\implies $x^{2}$−4x<0 \\implies x(x−4)<0. Roots are 0 and 4.\n\n**Common mistake:** Students may struggle with the subtraction, often getting −$x^{2}$+4x>0 and forgetting to check the range correctly."
+    }
+  ]
+}

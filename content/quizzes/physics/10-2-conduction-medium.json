@@ -1,0 +1,77 @@
+{
+  "id": "10-2-conduction-medium",
+  "topicId": "10-2-conduction",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "medium",
+  "title": "Conduction — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-2-conduction-medium-q1",
+      "type": "mcq",
+      "question": "Why are metals significantly better thermal conductors than non-metals?",
+      "options": [
+        "They contain free electrons that move rapidly and carry energy",
+        "Their particles are much larger than non-metal particles",
+        "They have a higher density than all non-metals",
+        "They do not vibrate when they are heated"
+      ],
+      "correctIndex": 0,
+      "explanation": "In metals, the vibration of particles is supplemented by free electrons that move quickly through the lattice, colliding with distant particles and transferring energy much faster. \n\n**Common mistake:** Attributing the conductivity solely to density."
+    },
+    {
+      "id": "10-2-conduction-medium-q2",
+      "type": "mcq",
+      "question": "Explain why a stone floor feels colder to bare feet than a carpet, even when both are at the same room temperature.",
+      "options": [
+        "Stone is a better conductor and removes energy from the feet faster",
+        "The carpet is at a higher temperature than the stone floor",
+        "The stone floor has a higher specific heat capacity than the carpet",
+        "The carpet generates its own thermal energy through friction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because stone is a better thermal conductor, it transfers thermal energy away from your feet more rapidly than a carpet does, creating the sensation of cold. \n\n**Common mistake:** Assuming the two objects must be at different temperatures."
+    },
+    {
+      "id": "10-2-conduction-medium-q3",
+      "type": "mcq",
+      "question": "A student observes that the handles of metal cooking pots are often made of plastic. What is the physical reason for this?",
+      "options": [
+        "Plastic is a poor conductor, preventing heat from reaching the hand",
+        "Plastic has a very low melting point",
+        "Plastic reflects infrared radiation from the stove",
+        "Plastic increases the rate of convection in the pot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plastic is a thermal insulator (poor conductor). Using it for handles ensures that thermal energy from the hot pot does not conduct easily to the user's hand. \n\n**Common mistake:** Thinking the plastic 'absorbs' the heat; it actually 'resists' the flow of heat."
+    },
+    {
+      "id": "10-2-conduction-medium-q4",
+      "type": "mcq",
+      "question": "Based on the data in Table 10.2, which material would be the most effective as an insulator for a house?",
+      "options": [
+        "Fibreglass",
+        "Steel",
+        "Copper",
+        "Ice"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Table 10.2, fibreglass is listed among the worst conductors (best insulators) because it contains trapped air. \n\n**Common mistake:** Choosing steel, which is actually a relatively good conductor compared to the others."
+    },
+    {
+      "id": "10-2-conduction-medium-q5",
+      "type": "mcq",
+      "question": "Which statement correctly compares the thermal conductivity of liquids and gases?",
+      "options": [
+        "Liquids are generally better thermal conductors than gases",
+        "Gases are generally better thermal conductors than liquids",
+        "Both have the same thermal conductivity as they are both fluids",
+        "Gases have zero thermal conductivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquids are better conductors than gases because their particles are closer together, making collisions and energy transfer more frequent. \n\n**Common mistake:** Believing the 'Quick Check' was true (it stated gases are better, but the answer key marks it false)."
+    }
+  ]
+}

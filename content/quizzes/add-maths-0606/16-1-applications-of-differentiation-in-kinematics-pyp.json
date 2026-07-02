@@ -1,0 +1,77 @@
+{
+  "id": "16-1-applications-of-differentiation-in-kinematics-pyp",
+  "topicId": "16-1-applications-of-differentiation-in-kinematics",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "pyp",
+  "title": "Applications of differentiation in kinematics — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-pyp-q1",
+      "type": "mcq",
+      "question": "A particle $P$2$t$2$O$2$s$2$s = 2t^3 - 15t^2 + 24t$2$t$2$P$ is negative.",
+      "options": [
+        "$1 < t < 4$",
+        "$t < 1$ or $t > 4$",
+        "$t > 4$",
+        "$0 < t < 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = 6t^2 - 30t + 24 = 6(t^2 - 5t + 4) = 6(t-1)(t-4)$. The quadratic is negative between its roots, $1$ and^4.\n\n**Common mistake:** Option B is the set of values for which the velocity is positive."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-pyp-q2",
+      "type": "mcq",
+      "question": "Show that the acceleration of a particle with velocity $v = 5 + 4e^{-2t}$ is always negative. Find the velocity of the particle as $t \\to \\infty$.",
+      "options": [
+        "$5$ m/s",
+        "$0$ m/s",
+        "$9$ m/s",
+        "$-8$ m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a = -8e^{-2t}$. Since $e^{-2t} > 0$, $a < 0$ for all $t$2$t \\to \\infty$2$e^{-2t} \\to 0$, so $v \\to 5$.\n\n**Common mistake:** Option B is chosen if the student assumes the particle stops completely at infinity."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-pyp-q3",
+      "type": "mcq",
+      "question": "A particle moves along a straight line so that its displacement from $O$2$s = t^2 - 6t + 5$. Find the time at which its speed is^4 m/s.",
+      "options": [
+        "$5$ s or^1 s",
+        "$5$ s",
+        "$2$ s",
+        "$3$ s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = 2t - 6$. Speed is $|v| = 4 \\implies 2t - 6 = 4$ or $2t - 6 = -4$. This gives $t = 5$ or $t = 1$.\n\n**Common mistake:** Option B misses the solution where the velocity is negative but the speed is 4."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-pyp-q4",
+      "type": "mcq",
+      "question": "Find the maximum displacement from $O$2$v = 12t - 3t^2$, given $s = 0$ at $t = 0$.",
+      "options": [
+        "$32$ m",
+        "$4$ m",
+        "$16$ m",
+        "$64$ m"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = 0 \\implies 3t(4-t) = 0 \\implies t = 4$. $s = \\int v dt = 6t^2 - t^3 + c$2$t=0, s=0 \\implies c=0$. At $t=4, s = 6(16) - 64 = 96 - 64 = 32$.\n\n**Common mistake:** Option B is the time at which maximum displacement occurs, not the displacement itself."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-pyp-q5",
+      "type": "mcq",
+      "question": "The velocity of a particle is given by $v = 3\\cos(t) - 1$ for $0 \\le t \\le \\pi$2$-1.5$ m/s^2.",
+      "options": [
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{4}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a = \\frac{dv}{dt} = -3\\sin(t)$. Set $-3\\sin(t) = -1.5 \\implies \\sin(t) = 0.5 \\implies t = \\frac{\\pi}{6}$.\n\n**Common mistake:** Option B occurs if the student confuses the values for sine and cosine."
+    }
+  ]
+}

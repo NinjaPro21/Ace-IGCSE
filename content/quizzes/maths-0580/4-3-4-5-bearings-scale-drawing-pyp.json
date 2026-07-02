@@ -1,0 +1,77 @@
+{
+  "id": "4-3-4-5-bearings-scale-drawing-pyp",
+  "topicId": "4-3-4-5-bearings-scale-drawing",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "pyp",
+  "title": "Bearings & Scale Drawing — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-pyp-q1",
+      "type": "mcq",
+      "question": "Point $B$2$134°$ from Point $A$2$A$2$B$.",
+      "options": [
+        "$314°$",
+        "$046°$",
+        "$226°$",
+        "$224°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The back bearing is $134 + 180 = 314°$.\n\n**Common mistake:** A student might subtract $134$ from $180$ or $360$ incorrectly."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-pyp-q2",
+      "type": "mcq",
+      "question": "A scale drawing is made of a triangular field $PQR$2$PQ = 7\\text{ cm}, QR = 5\\text{ cm},$ and $PR = 6\\text{ cm}$ on the drawing. If the scale is $1 : 2000$, calculate the actual length of the longest side of the field in metres.",
+      "options": [
+        "$140\\text{ m}$",
+        "$14000\\text{ m}$",
+        "$120\\text{ m}$",
+        "$70\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Longest side on drawing is $7\\text{ cm}$. Actual length $= 7 \\times 2000 = 14000\\text{ cm}$. Converting to metres: $14000 / 100 = 140\\text{ m}$.\n\n**Common mistake:** A student might leave the answer in centimetres or use the $5\\text{ cm}$ side by mistake."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-pyp-q3",
+      "type": "mcq",
+      "question": "Calculate the angle of elevation of the sun if a vertical pole of height $2.5\\text{ m}$ casts a shadow $4\\text{ m}$ long on horizontal ground.",
+      "options": [
+        "$32.0°$",
+        "$58.0°$",
+        "$38.7°$",
+        "$51.3°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan \\theta = \\text{height} / \\text{shadow} = 2.5 / 4 = 0.625$. $\\theta = \\tan^{-1}$(0.625) \\approx 32.0°2\n\n**Common mistake:** The student might swap the height and shadow values, calculating the angle between the pole and the sun's rays ($58°$)."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-pyp-q4",
+      "type": "mcq",
+      "question": "A ship sails from $A$2$B$2$042°$ for $22\\text{ km}$, then to $C$2$090°$ for $30\\text{ km}$. Which calculation shows the total distance East the ship has moved from its starting point?",
+      "options": [
+        "$22 \\sin 42° + 30$",
+        "$22 \\cos 42° + 30$",
+        "$22 \\tan 42° + 30$",
+        "$22 + 30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Eastward component of the first leg is $22 \\sin 42°$. The second leg is due East, so its full $30\\text{ km}$ is added.\n\n**Common mistake:** A student might use cosine (calculating the Northward move) or simply add the scalars without trigonometry."
+    },
+    {
+      "id": "4-3-4-5-bearings-scale-drawing-pyp-q5",
+      "type": "mcq",
+      "question": "Hence, find the bearing of San Diego ($S$2$F$2$S$2$426\\text{ km}$ from Las Vegas ($L$2$F$2$507\\text{ km}$ from $S$2$L$2$F$2$100°$, and angle $FLS = 75°$.",
+      "options": [
+        "$154°$",
+        "$025°$",
+        "$175°$",
+        "$125°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on source 148, using the sine rule in triangle $FLS$2$LFS$2$100°$ bearing leads to a result of approximately $154.3°$.\n\n**Common mistake:** The student might assume triangle $FLS$2$75°$ directly to the bearing."
+    }
+  ]
+}

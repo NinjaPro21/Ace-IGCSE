@@ -1,0 +1,142 @@
+{
+  "id": "ch07-pressure-easy",
+  "topicId": "ch07-pressure",
+  "chapterId": "ch07-pressure",
+  "difficulty": "easy",
+  "title": "Chapter 7: Pressure — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch07-pressure-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of pressure?",
+      "options": [
+        "Force per unit area",
+        "Mass per unit volume",
+        "Energy transferred per unit time",
+        "Force multiplied by distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure is defined as the force acting on an object per unit area ($p = F/A$). \n\n**Common mistake:** Confusing it with density, which is mass per unit volume."
+    },
+    {
+      "id": "ch07-pressure-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit of pressure?",
+      "options": [
+        "pascal ($Pa$)",
+        "newton ($N$)",
+        "joule ($J$)",
+        "watt ($W$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for pressure is the pascal ($Pa$), which is equal to one newton per square metre ($1\\text{ N/m}^2$). \n\n**Common mistake:** Selecting newtons ($N$), which is the unit for force alone."
+    },
+    {
+      "id": "ch07-pressure-easy-q3",
+      "type": "mcq",
+      "question": "Calculate the pressure exerted by a force of $100\\text{ N}$ acting on an area of $2.0\\text{ m}^2$.",
+      "options": [
+        "$50\\text{ Pa}$",
+        "$200\\text{ Pa}$",
+        "$0.02\\text{ Pa}$",
+        "$20\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $p = F / A$: $100\\text{ N} / 2.0\\text{ m}^2 = 50\\text{ Pa}$. \n\n**Common mistake:** Multiplying force and area ($200$) instead of dividing."
+    },
+    {
+      "id": "ch07-pressure-easy-q4",
+      "type": "mcq",
+      "question": "If the contact area between two objects is doubled while the applied force remains the same, what happens to the pressure?",
+      "options": [
+        "It is halved",
+        "It is doubled",
+        "It remains the same",
+        "It increases four times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since pressure is inversely proportional to area ($p \\propto 1/A$), doubling the area results in half the pressure. \n\n**Common mistake:** Thinking pressure increases when area increases."
+    },
+    {
+      "id": "ch07-pressure-easy-q5",
+      "type": "mcq",
+      "question": "Why does a sharp knife cut more easily than a blunt one?",
+      "options": [
+        "The sharp edge has a smaller area, resulting in greater pressure",
+        "The sharp edge has a larger area, resulting in greater pressure",
+        "The blunt edge exerts a larger force on the object",
+        "The sharp edge is made of a denser material"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sharp edge has a very small contact area. For the same force, this smaller area creates a much higher pressure, allowing it to cut through material. \n\n**Common mistake:** Believing the knife is simply 'harder' or 'heavier'."
+    },
+    {
+      "id": "ch07-pressure-easy-q6",
+      "type": "mcq",
+      "question": "How does the pressure in a liquid change as the depth increases?",
+      "options": [
+        "The pressure increases",
+        "The pressure decreases",
+        "The pressure remains constant",
+        "The pressure becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure beneath the surface of a liquid increases with depth because there is more weight of liquid above the point. \n\n**Common mistake:** Thinking pressure is only affected by the surface area of the liquid."
+    },
+    {
+      "id": "ch07-pressure-easy-q7",
+      "type": "mcq",
+      "question": "Which of the following is the correct equation for the change in pressure ($Delta p$) in a liquid?",
+      "options": [
+        "$Delta p = rho g Delta h$",
+        "$Delta p = F / A$",
+        "$Delta p = m / V$",
+        "$Delta p = m g h$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The formula $Delta p = rho g Delta h$ relates change in pressure to density, gravity, and change in depth. \n\n**Common mistake:** Using $F/A$, which is the general definition of pressure but not specific to depth in a fluid."
+    },
+    {
+      "id": "ch07-pressure-easy-q8",
+      "type": "mcq",
+      "question": "What does the symbol $rho$ (rho) represent in the liquid pressure formula?",
+      "options": [
+        "The density of the liquid",
+        "The weight of the liquid",
+        "The depth from the surface",
+        "The gravitational field strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "In physics, the Greek letter $rho$ is the standard symbol for the density of a substance. \n\n**Common mistake:** Confusing $rho$ with $p$ (pressure) due to their visual similarity."
+    },
+    {
+      "id": "ch07-pressure-easy-q9",
+      "type": "mcq",
+      "question": "A diver is swimming in a pool. At which point is the pressure the greatest?",
+      "options": [
+        "At the very bottom of the pool",
+        "At the surface of the water",
+        "Halfway between the surface and the bottom",
+        "Pressure is the same everywhere in the pool"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure is directly proportional to depth; therefore, it is highest at the deepest point. \n\n**Common mistake:** Thinking pressure is higher at the surface where air meets water."
+    },
+    {
+      "id": "ch07-pressure-easy-q10",
+      "type": "mcq",
+      "question": "What is the standard SI unit for measuring the pressure in a liquid?",
+      "options": [
+        "pascal (Pa)",
+        "newton (N)",
+        "kilogram per cubic metre ($kg/m^3$)",
+        "joule (J)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pascal (Pa) is the SI unit for all types of pressure, including liquid pressure. \n\n**Common mistake:** Selecting $kg/m^3$, which is the unit for density."
+    }
+  ]
+}

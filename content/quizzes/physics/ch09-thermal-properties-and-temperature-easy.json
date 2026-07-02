@@ -1,0 +1,207 @@
+{
+  "id": "ch09-thermal-properties-and-temperature-easy",
+  "topicId": "ch09-thermal-properties-and-temperature",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "easy",
+  "title": "Chapter 9: Thermal Properties and Temperature — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q1",
+      "type": "mcq",
+      "question": "What happens to the volume of most materials when they are heated?",
+      "options": [
+        "The volume increases (expansion)",
+        "The volume decreases (contraction)",
+        "The volume remains constant",
+        "The volume depends only on the atmospheric pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion is the increase in volume of a material as its temperature rises. **Common mistake:** Thinking that 'expansion' only applies to gases; it applies to solids and liquids as well."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q2",
+      "type": "mcq",
+      "question": "Which state of matter typically expands the most when heated by the same increase in temperature?",
+      "options": [
+        "Gases",
+        "Liquids",
+        "Solids",
+        "They all expand by the same amount"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, gases expand more than liquids, and liquids expand more than solids for the same temperature rise. **Common mistake:** Thinking solids expand most because they feel 'stronger'."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following is a common application of the thermal expansion of liquids?",
+      "options": [
+        "Liquid-in-glass thermometers",
+        "Bimetallic strips in heaters",
+        "The cooling system of a car",
+        "Bridges with expansion gaps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquid-in-glass thermometers work because the liquid inside expands as it gets hotter, moving up the scale. **Common mistake:** Selecting bridge gaps, which is a method to manage expansion in solids, not an application of liquid expansion."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q4",
+      "type": "mcq",
+      "question": "According to the kinetic particle model, why do solids expand when heated?",
+      "options": [
+        "The particles vibrate more vigorously and move further apart",
+        "The individual particles grow in size as they gain energy",
+        "The number of particles increases as heat is added",
+        "The particles stop vibrating and start moving from place to place"
+      ],
+      "correctIndex": 0,
+      "explanation": "When heated, particles gain kinetic energy and vibrate more vigorously, which causes them to take up more space and move further apart. **Common mistake:** Thinking that the particles themselves get larger; the particles stay the same size, but the space between them increases."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q5",
+      "type": "mcq",
+      "question": "What is a common consequence of thermal expansion in metal railway tracks?",
+      "options": [
+        "The tracks can buckle on a very hot day",
+        "The tracks become much heavier in the summer",
+        "The tracks contract and break during the day",
+        "The tracks lose their magnetic properties"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal expansion causes rails to become longer; if there is no room for this expansion, the force can cause the tracks to buckle. **Common mistake:** Thinking heat increases the mass or 'weight' of the tracks."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of internal energy?",
+      "options": [
+        "The total energy of all the particles in a substance",
+        "The energy stored in the nucleus of an atom",
+        "The energy required to change the state of a substance",
+        "The average speed of the particles in a substance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Internal energy is defined as the total energy of all the particles in a substance. \n\n**Common mistake:** Confusing internal energy with temperature, which is only a measure of the average kinetic energy of the particles."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q7",
+      "type": "mcq",
+      "question": "What is the standard SI unit for specific heat capacity?",
+      "options": [
+        "$\\text{J/(kg K)}$",
+        "$\\text{J/kg}$",
+        "$\\text{J/K}$",
+        "$\\text{W/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specific heat capacity is energy per unit mass per unit temperature change, so the unit is $\\text{J/(kg K)}$. \n\n**Common mistake:** Using $\\text{J/kg}$, which is the unit for specific latent heat."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q8",
+      "type": "mcq",
+      "question": "How is a rise in the temperature of an object described in terms of its particles?",
+      "options": [
+        "An increase in the average kinetic energies of all the particles",
+        "An increase in the size of each individual particle",
+        "An increase in the total number of particles",
+        "A change in the chemical bonds between the particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the kinetic particle model, an increase in temperature means the particles have gained kinetic energy and move or vibrate more rapidly. \n\n**Common mistake:** Thinking the particles themselves expand; it is the space between them that increases during expansion."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q9",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the specific heat capacity $c$?",
+      "options": [
+        "$c = \\frac{Delta E}{m Delta theta}$",
+        "$c = m \\times g \\times Delta h$",
+        "$c = P \\times t$",
+        "$c = \\frac{m}{Delta E \\times Delta theta}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specific heat capacity $c$ is the thermal energy $Delta E$ divided by the product of mass $m$ and temperature change $Delta theta$. \n\n**Common mistake:** Forgetting to divide by both mass and temperature change."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q10",
+      "type": "mcq",
+      "question": "What does a horizontal line on a cooling curve represent during a change of state?",
+      "options": [
+        "The temperature remains constant while energy is being released",
+        "The internal energy of the substance is zero",
+        "The substance is expanding at a constant rate",
+        "The particles have stopped vibrating entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "During a change of state, such as freezing, temperature stays constant even though thermal energy is transferred to the surroundings. \n\n**Common mistake:** Thinking that if the temperature is constant, no energy is being transferred."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q11",
+      "type": "mcq",
+      "question": "Which process describes a liquid changing into a gas at a temperature below its boiling point?",
+      "options": [
+        "Evaporation",
+        "Boiling",
+        "Condensation",
+        "Solidification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation is the process where a liquid changes into a gas and it can occur at any temperature. \n\n**Common mistake:** Boiling also changes liquid to gas, but it only happens at a specific fixed temperature."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q12",
+      "type": "mcq",
+      "question": "What is the term for a gas changing into a liquid?",
+      "options": [
+        "Condensation",
+        "Melting",
+        "Boiling",
+        "Freezing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Condensation is the change of state from gas to liquid. \n\n**Common mistake:** Melting is the change from solid to liquid."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q13",
+      "type": "mcq",
+      "question": "Where does evaporation take place in a liquid?",
+      "options": [
+        "Only at the surface",
+        "Throughout the entire liquid",
+        "Only at the bottom of the container",
+        "At the center of the liquid only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporation happens only at the surface of a liquid. \n\n**Common mistake:** Boiling occurs throughout the entire depth of the liquid."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q14",
+      "type": "mcq",
+      "question": "What is the melting point of pure water at standard atmospheric pressure?",
+      "options": [
+        "$0^\\circ\\text{C}$",
+        "$100^\\circ\\text{C}$",
+        "$273^\\circ\\text{C}$",
+        "$373^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pure ice melts at $0^\\circ\\text{C}$. \n\n**Common mistake:** $100^\\circ\\text{C}$ is the boiling point of water."
+    },
+    {
+      "id": "ch09-thermal-properties-and-temperature-easy-q15",
+      "type": "mcq",
+      "question": "In which process is thermal energy given out to the surroundings?",
+      "options": [
+        "Solidification",
+        "Melting",
+        "Boiling",
+        "Evaporation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solidification (freezing) and condensation are processes that release energy. \n\n**Common mistake:** Melting requires an input of energy to break bonds."
+    }
+  ]
+}

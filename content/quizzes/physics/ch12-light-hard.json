@@ -1,0 +1,402 @@
+{
+  "id": "ch12-light-hard",
+  "topicId": "ch12-light",
+  "chapterId": "ch12-light",
+  "difficulty": "hard",
+  "title": "Chapter 12: Light — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch12-light-hard-q1",
+      "type": "mcq",
+      "question": "An observer's eyes are $400\\text{ cm}$ from a plane mirror. A test card is placed $1300\\text{ cm}$ from the mirror, directly behind the observer. What is the distance from the observer's eyes to the image of the test card?",
+      "options": [
+        "$1700\\text{ cm}$",
+        "$900\\text{ cm}$",
+        "$1300\\text{ cm}$",
+        "$2600\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The image of the card is $1300\\text{ cm}$ behind the mirror. The eyes are $400\\text{ cm}$ in front of the mirror. The total distance is $400 + 1300 = 1700\\text{ cm}$. \n\n**Common mistake:** subtracting the distances to get $900\\text{ cm}$."
+    },
+    {
+      "id": "ch12-light-hard-q2",
+      "type": "mcq",
+      "question": "A student moves towards a plane mirror at a speed of $2.0\\text{ m/s}$. At what speed does the distance between the student and their image decrease?",
+      "options": [
+        "$4.0\\text{ m/s}$",
+        "$2.0\\text{ m/s}$",
+        "$1.0\\text{ m/s}$",
+        "$0\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the student moves $2.0\\text{ m/s}$ toward the mirror, the image also moves $2.0\\text{ m/s}$ toward the mirror from the other side. The relative speed of approach is $2.0 + 2.0 = 4.0\\text{ m/s}$. \n\n**Common mistake:** thinking the speed of approach is just the student's speed."
+    },
+    {
+      "id": "ch12-light-hard-q3",
+      "type": "mcq",
+      "question": "A bus driver looks into a $20\\text{ cm}$ wide plane mirror $50\\text{ cm}$ in front of him. If the rear of the bus is $500\\text{ cm}$ directly behind the mirror, calculate the width of his rear field of vision.",
+      "options": [
+        "$220\\text{ cm}$",
+        "$200\\text{ cm}$",
+        "$180\\text{ cm}$",
+        "$240\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using similar triangles, the ratio is $20/50 = 0.4$. The total distance from the eye to the rear of the bus is $50 + 500 = 550\\text{ cm}$. Field width $= 550 \\times 0.4 = 220\\text{ cm}$. \n\n**Common mistake:** failing to add the $50\\text{ cm}$ eye-to-mirror distance to the $500\\text{ cm}$ mirror-to-rear distance."
+    },
+    {
+      "id": "ch12-light-hard-q4",
+      "type": "mcq",
+      "question": "Which statement best explains the difference between reflection from a polished metal surface and from a sheet of white paper?",
+      "options": [
+        "Metal causes regular reflection; paper causes diffuse reflection due to its rough surface.",
+        "The Law of Reflection only applies to regular reflection on metal.",
+        "White paper does not follow the Law of Reflection because it absorbs all light.",
+        "Diffuse reflection occurs only when light is of a single colour."
+      ],
+      "correctIndex": 0,
+      "explanation": "A polished surface reflects rays in a single direction (regular), whereas a rough surface like paper scatters rays in many directions (diffuse). The Law of Reflection still applies to each individual ray. \n\n**Common mistake:** believing paper doesn't reflect light at all."
+    },
+    {
+      "id": "ch12-light-hard-q5",
+      "type": "mcq",
+      "question": "In a ray diagram for a plane mirror, which statement correctly describes the paths of the light rays?",
+      "options": [
+        "The virtual rays behind the mirror are represented by dotted lines.",
+        "Light rays actually originate from the image position behind the mirror.",
+        "The incident ray and the reflected ray are on the same side of the normal.",
+        "The image is always found where the real incident rays intersect."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since no light actually passes through the mirror, virtual rays are shown as dotted lines to indicate they are constructions. \n\n**Common mistake:** thinking light physically travels behind the mirror to the image position."
+    },
+    {
+      "id": "ch12-light-hard-q6",
+      "type": "mcq",
+      "question": "A ray of light is partially reflected and partially refracted at the surface of a glass block ($n = 1.60$). If the angle of incidence is $30^circ$, what is the angle between the reflected ray and the refracted ray?",
+      "options": [
+        "$131.8^circ$",
+        "$48.2^circ$",
+        "$60.0^circ$",
+        "$11.8^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angle of reflection = $30^circ$. Using $1.6 = \\frac{sin 30}{sin r}$, $sin r = 0.3125 rightarrow r \\approx 18.2^circ$. The angle between them is $180^circ - (30^circ + 18.2^circ) = 131.8^circ$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q7",
+      "type": "mcq",
+      "question": "Light passes through a rectangular glass block with parallel sides. The ray enters from air at an angle $i$ and emerges back into air at angle $y$. Which statement is true based on the principle of reversibility?",
+      "options": [
+        "The emergent ray is parallel to the incident ray ($y = i$)",
+        "The emergent ray bends towards the normal ($y < i$)",
+        "The emergent ray is perpendicular to the incident ray",
+        "The speed of light in the block is independent of the refractive index"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the sides are parallel, the bending at the first surface is exactly reversed at the second surface, making the emergent ray parallel to the incident ray.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q8",
+      "type": "mcq",
+      "question": "Material A has a refractive index of $1.4$ and Material B has a refractive index of $1.6$. Light travels from A into B. Which statement correctly describes the change?",
+      "options": [
+        "The light slows down and bends towards the normal",
+        "The light speeds up and bends away from the normal",
+        "The light slows down and bends away from the normal",
+        "The light speeds up and bends towards the normal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since Material B has a higher refractive index than A, it is optically denser. Light traveling into a denser medium slows down and bends towards the normal.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q9",
+      "type": "mcq",
+      "question": "Which of the following is true regarding 'optical density' compared to 'mass density'?",
+      "options": [
+        "Optical density is related to the speed of light, not the mass per unit volume",
+        "A material with high mass density always has a high refractive index",
+        "Optical density is measured in $\\text{kg/m}^3$",
+        "Refraction only depends on mass density"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical density refers to the ability of a medium to slow down light. As noted in the text, liquid paraffin is optically denser than water (higher $n$) but has a lower mass density.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q10",
+      "type": "mcq",
+      "question": "If the angle of incidence in air is $60^circ$ and the angle of refraction in a block is $35.3^circ$, what is the speed of light in this block? (Take $sin 60^circ = 0.866$, $sin 35.3^circ = 0.578$)",
+      "options": [
+        "$2.0 \\times 10^{8}\\text{ m/s}$",
+        "$1.5 \\times 10^{8}\\text{ m/s}$",
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$2.4 \\times 10^{8}\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find $n = \\frac{0.866}{0.578} \\approx 1.5$. Then $v = \\frac{c}{n} = \\frac{3.0 \\times 10^{8}}{1.5} = 2.0 \\times 10^{8}\\text{ m/s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q11",
+      "type": "mcq",
+      "question": "A light ray is incident perpendicularly on one face of a $45^circ-90^circ-45^circ$ glass prism ($n=1.5$). What happens when the ray hits the hypotenuse face inside the prism?",
+      "options": [
+        "Total internal reflection occurs because the angle of incidence is $45^circ$.",
+        "The ray refracts into the air because glass is denser than air.",
+        "The ray travels along the hypotenuse because the angle of incidence is $42^circ$.",
+        "The ray is reflected because $45^circ$ is less than the critical angle."
+      ],
+      "correctIndex": 0,
+      "explanation": "For $n=1.5$, $c \\approx 42^circ$. Inside the prism, the ray hits the second face at $45^circ$. Since $45^circ > 42^circ$, total internal reflection occurs. \n\n**Common mistake:** thinking the angle of incidence is $90^circ$ because it entered perpendicularly."
+    },
+    {
+      "id": "ch12-light-hard-q12",
+      "type": "mcq",
+      "question": "Based on Worked Example 12B, why are optical fibres superior to copper wires for telecommunications?",
+      "options": [
+        "They can carry more information and have less signal loss.",
+        "They are cheaper because they are made of standard glass.",
+        "They transmit signals at the speed of sound, which is safer.",
+        "They do not require total internal reflection to work."
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical fibres can carry significantly more data than copper wires and experience much lower energy loss over long distances. \n\n**Common mistake:** thinking signal speed is the only benefit."
+    },
+    {
+      "id": "ch12-light-hard-q13",
+      "type": "mcq",
+      "question": "Two media have refractive indices $n_1 = 1.6$ and $n_2 = 1.4$. If light travels from medium 1 to medium 2, what is the critical angle for this boundary?",
+      "options": [
+        "$61.0^circ$",
+        "$38.7^circ$",
+        "$41.8^circ$",
+        "$52.4^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For two media, $sin c = \\frac{n_2}{n_1} = \\frac{1.4}{1.6} = 0.875$. $c = arcsin(0.875) \\approx 61.0^circ$. \n\n**Common mistake:** always using $1.0$ as the numerator for the less dense medium."
+    },
+    {
+      "id": "ch12-light-hard-q14",
+      "type": "mcq",
+      "question": "A diver looks up from under the water ($n=1.33$). He can only see the sky through a circular 'window' on the surface. Beyond a certain angle, he only sees a reflection of the sea floor. What is the half-angle of this 'window'?",
+      "options": [
+        "$48.8^circ$",
+        "$41.2^circ$",
+        "$90.0^circ$",
+        "$24.4^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'window' is defined by the critical angle. For water, $sin c = \\frac{1}{1.33} Rightarrow c \\approx 48.8^circ$. Beyond this angle, total internal reflection occurs. \n\n**Common mistake:** subtracting $48.8$ from $90$ to get $41.2$."
+    },
+    {
+      "id": "ch12-light-hard-q15",
+      "type": "mcq",
+      "question": "If the speed of light in a medium is $2.0 \\times 10^{8}\\text{ m/s}$, what is the critical angle for light traveling from this medium to a vacuum? (Speed of light in vacuum $= 3.0 \\times 10^{8}\\text{ m/s}$)",
+      "options": [
+        "$41.8^circ$",
+        "$48.6^circ$",
+        "$30.0^circ$",
+        "$0.67^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, $n = \\frac{c}{v} = \\frac{3.0}{2.0} = 1.5$. Then, $sin c = \\frac{1}{1.5} = 0.667 Rightarrow c \\approx 41.8^circ$. \n\n**Common mistake:** using the speed ratio directly as the angle ($0.67$)."
+    },
+    {
+      "id": "ch12-light-hard-q16",
+      "type": "mcq",
+      "question": "Why does a thin converging lens refract light more at its outermost parts than in the middle?",
+      "options": [
+        "The incident angles are different due to the curved surface",
+        "The outer part of the lens is made of denser glass",
+        "Light travels faster through the edges of the lens",
+        "The middle of the lens is perfectly flat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the surfaces are curved, light rays hitting different parts of the surface have different incident angles, leading to different angles of refraction. The angle is largest at the edges.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q17",
+      "type": "mcq",
+      "question": "A beam of light parallel to the principal axis enters a diverging lens. The rays emerge and appear to come from a point $20\\text{ cm}$ behind the lens. What is the focal length?",
+      "options": [
+        "$20\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$40\\text{ cm}$",
+        "It is impossible to determine for a diverging lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a diverging lens, the principal focus is the virtual point from which parallel incident rays appear to diverge. The distance to this point is the focal length.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q18",
+      "type": "mcq",
+      "question": "Which of the following would produce the smallest focal length in a converging lens?",
+      "options": [
+        "High optical density material and high surface curvature",
+        "Low optical density material and high surface curvature",
+        "High optical density material and low surface curvature",
+        "Low optical density material and low surface curvature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both high optical density (refractive index) and high curvature increase the bending of light, bringing the focal point closer to the optical centre.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q19",
+      "type": "mcq",
+      "question": "If a thin converging lens is described as being 'powerful', what can you deduce about its physical properties?",
+      "options": [
+        "It has a short focal length and high curvature",
+        "It has a long focal length and low curvature",
+        "It is very large in diameter",
+        "It is made of a reflecting material"
+      ],
+      "correctIndex": 0,
+      "explanation": "In optics, a lens that converges rays strongly (is powerful) has a short focal length, which is usually achieved by having highly curved surfaces.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q20",
+      "type": "mcq",
+      "question": "A parallel beam of light passes through a converging lens. In which plane must a screen be placed to see the rays focused to a line rather than a single point?",
+      "options": [
+        "The focal plane, if the incident rays are not parallel to the axis",
+        "The vertical plane of the lens",
+        "The principal axis",
+        "The focal plane, if the incident rays are parallel to the axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "If rays are parallel to each other but tilted relative to the principal axis, they focus to a point on the focal plane. If a beam consists of many such tilted rays, they could form a line on that plane.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q21",
+      "type": "mcq",
+      "question": "A slide projector forms a magnified image on a screen $2.0\\text{ m}$ away. If the slide is $5.0\\text{ cm}$ from the lens, what must be true about the focal length of the lens?",
+      "options": [
+        "The focal length is slightly less than $5.0\\text{ cm}$.",
+        "The focal length is exactly $5.0\\text{ cm}$.",
+        "The focal length is greater than $5.0\\text{ cm}$.",
+        "The focal length is exactly $2.0\\text{ m}$."
+      ],
+      "correctIndex": 0,
+      "explanation": "A projector forms a real magnified image when the object is between $f$ and $2f$. Thus $f < 5.0\\text{ cm} < 2f$, meaning $f$ is less than $5.0\\text{ cm}$. \n\n**Common mistake:** Thinking $f$ must be greater than the object distance, which would produce a virtual image."
+    },
+    {
+      "id": "ch12-light-hard-q22",
+      "type": "mcq",
+      "question": "In a ray diagram, three specific rays are often drawn to locate an image. Which of the following rays is NOT correctly described?",
+      "options": [
+        "A ray through the focal point on the object side refracts to be parallel to the axis.",
+        "A ray parallel to the principal axis refracts through the principal focus.",
+        "A ray through the optical centre passes straight through.",
+        "A ray through the focal point on the object side refracts through the focal point on the image side."
+      ],
+      "correctIndex": 3,
+      "explanation": "A ray passing through the focal point ($F$) on the object side refracts to become parallel to the principal axis, not through the other focal point. \n\n**Common mistake:** Thinking all rays eventually pass through a focal point."
+    },
+    {
+      "id": "ch12-light-hard-q23",
+      "type": "mcq",
+      "question": "A student views a virtual image through a converging lens. When she moves the object further from the lens (but still within the focal length), how does the image change?",
+      "options": [
+        "The image remains virtual but becomes more magnified.",
+        "The image becomes real and inverted.",
+        "The image remains virtual but becomes diminished.",
+        "The image disappears completely."
+      ],
+      "correctIndex": 0,
+      "explanation": "As $u$ increases toward $f$ while remaining less than $f$, the virtual image produced by a magnifying glass becomes larger and moves further away. \n\n**Common mistake:** Thinking the image becomes real as soon as the object moves."
+    },
+    {
+      "id": "ch12-light-hard-q24",
+      "type": "mcq",
+      "question": "An object of height $2\\text{ cm}$ is placed $30\\text{ cm}$ from a lens with $f = 10\\text{ cm}$. Calculate the height of the real image formed if it is $15\\text{ cm}$ from the lens.",
+      "options": [
+        "$1\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$0.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnification $M = v / u = 15 / 30 = 0.5$. Image height $= 2\\text{ cm} \\times 0.5 = 1\\text{ cm}$. \n\n**Common mistake:** Multiplying by 2 ($v/u$ inverted), leading to $4\\text{ cm}$."
+    },
+    {
+      "id": "ch12-light-hard-q25",
+      "type": "mcq",
+      "question": "Which of the following sets of conditions will produce an image that can be captured on a piece of paper?",
+      "options": [
+        "$u = 1.5f$ and $u = 3f$",
+        "$u = 0.5f$ and $u = 1.5f$",
+        "$u = 0.8f$ only",
+        "$u = 2f$ and $u = 0.5f$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Real images can be captured on a screen; these occur when the object distance $u > f$. Both $1.5f$ and $3f$ satisfy this. \n\n**Common mistake:** Thinking virtual images ($u < f$) can be projected onto paper."
+    },
+    {
+      "id": "ch12-light-hard-q26",
+      "type": "mcq",
+      "question": "In the context of dispersion by a prism, which colour of light travels the fastest through the glass material?",
+      "options": [
+        "Red",
+        "Violet",
+        "Green",
+        "Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red light is refracted the least because it travels faster in glass than the other colours of the visible spectrum. Violet travels the slowest.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q27",
+      "type": "mcq",
+      "question": "Based on the trends in the visible spectrum, which of these statements is correct as you move from the red end to the violet end?",
+      "options": [
+        "Frequency increases and wavelength decreases",
+        "Frequency decreases and wavelength increases",
+        "Both frequency and wavelength increase",
+        "Both frequency and wavelength decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spectrum is ordered ROYGBIV. Moving towards violet, the frequency increases while the wavelength decreases (following $c = f\\lambda$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q28",
+      "type": "mcq",
+      "question": "Why does violet light appear at the bottom of the dispersed spectrum when a prism is used?",
+      "options": [
+        "It slowed down the most, leading to the greatest deviation",
+        "It has the longest wavelength and is thus harder to bend",
+        "It has the lowest frequency and refracts less than red light",
+        "The prism material is more transparent to violet than to red"
+      ],
+      "correctIndex": 0,
+      "explanation": "Refraction is caused by a change in speed. Since violet light travels the slowest in glass, it undergoes the greatest change in speed and thus the greatest deviation (bending).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q29",
+      "type": "mcq",
+      "question": "If monochromatic green light is shone through a glass prism, what will be observed on a screen behind the prism?",
+      "options": [
+        "A single green band that has shifted position",
+        "A spectrum of colours ranging from red to violet",
+        "A mix of blue and yellow bands",
+        "No light at all because green light cannot pass through a prism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the light is monochromatic (single frequency), it will refract but it will not disperse into multiple colours. It will simply appear as a single green band.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-hard-q30",
+      "type": "mcq",
+      "question": "Which colour of light will have the smallest angle of refraction $r$ when entering a glass block from air at a fixed angle of incidence $i$?",
+      "options": [
+        "Violet",
+        "Red",
+        "Orange",
+        "Yellow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Violet bends the most towards the normal (largest deviation), which means it has the smallest angle of refraction $r$ compared to red light.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

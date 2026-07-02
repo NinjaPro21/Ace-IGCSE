@@ -1,0 +1,77 @@
+{
+  "id": "12-3-total-internal-reflection-easy",
+  "topicId": "12-3-total-internal-reflection",
+  "chapterId": "ch12-light",
+  "difficulty": "easy",
+  "title": "Total Internal Reflection — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-3-total-internal-reflection-easy-q1",
+      "type": "mcq",
+      "question": "What is meant by the term 'critical angle'?",
+      "options": [
+        "The angle of incidence that produces an angle of refraction of $90^circ$.",
+        "The angle of refraction when the angle of incidence is $90^circ$.",
+        "The angle at which light is completely absorbed by a medium.",
+        "The maximum angle at which light can enter an optical fibre."
+      ],
+      "correctIndex": 0,
+      "explanation": "The critical angle is defined as the specific angle of incidence in an optically denser medium that results in an angle of refraction of $90^circ$. \n\n**Common mistake:** confusing it with the angle of refraction itself."
+    },
+    {
+      "id": "12-3-total-internal-reflection-easy-q2",
+      "type": "mcq",
+      "question": "Which condition must be met for total internal reflection to occur?",
+      "options": [
+        "Light must travel from an optically denser medium to a less dense medium.",
+        "Light must travel from an optically less dense medium to a denser medium.",
+        "The angle of incidence must be exactly $90^circ$.",
+        "The medium must be a polished metal surface."
+      ],
+      "correctIndex": 0,
+      "explanation": "Total internal reflection can only occur when light passes from an optically denser medium (like glass) towards a less dense medium (like air). \n\n**Common mistake:** thinking it can happen when light enters a denser medium."
+    },
+    {
+      "id": "12-3-total-internal-reflection-easy-q3",
+      "type": "mcq",
+      "question": "What happens to a light ray when the angle of incidence is greater than the critical angle?",
+      "options": [
+        "The ray is totally internally reflected back into the denser medium.",
+        "The ray is refracted at $90^circ$ along the boundary.",
+        "The ray passes through the boundary and speeds up.",
+        "The ray is absorbed and converted into thermal energy."
+      ],
+      "correctIndex": 0,
+      "explanation": "When $i > c$, no refraction occurs and all the light is reflected back into the original medium. \n\n**Common mistake:** thinking the ray still refracts but at a larger angle."
+    },
+    {
+      "id": "12-3-total-internal-reflection-easy-q4",
+      "type": "mcq",
+      "question": "Which formula relates the refractive index $n$ and the critical angle $c$?",
+      "options": [
+        "$n = \\frac{1}{sin c}$",
+        "$n = sin c$",
+        "$n = \\frac{sin r}{sin i}$",
+        "$n = 1 - sin c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The relationship is given by the equation $n = \\frac{1}{sin c}$. \n\n**Common mistake:** forgetting the reciprocal and using $n = sin c$."
+    },
+    {
+      "id": "12-3-total-internal-reflection-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following is a primary application of total internal reflection?",
+      "options": [
+        "Optical fibres in telecommunications",
+        "Magnifying glasses",
+        "Spectacle lenses",
+        "Shadow formation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical fibres use total internal reflection to transmit signals over long distances. \n\n**Common mistake:** selecting magnifying glasses, which use refraction by lenses."
+    }
+  ]
+}

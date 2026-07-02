@@ -1,0 +1,77 @@
+{
+  "id": "10-4-combinations-harder-topic-hard",
+  "topicId": "10-4-combinations-harder-topic",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "hard",
+  "title": "Combinations — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-4-combinations-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "A committee of 3 is chosen from 6 lawyers and 4 doctors. Find the number of ways the committee can be formed if it must contain at least one doctor.",
+      "options": [
+        "100",
+        "120",
+        "20",
+        "80"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total ways to choose 3 is $^{10}C_3 = 120$. Ways with no doctors (only lawyers) is $^6C_3 = 20$. At least one doctor = $120 - 20 = 100$.\n\n**Common mistake:** Option B is the total number of committees possible, failing to exclude those with zero doctors."
+    },
+    {
+      "id": "10-4-combinations-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "In how many ways can 4 people be chosen from 10 if two of the people, Alice and Bob, refuse to serve together on the same committee?",
+      "options": [
+        "182",
+        "210",
+        "28",
+        "154"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total ways $^{10}C_4 = 210$. Ways they are together: select Alice and Bob, then 2 more from 8: $^8C_2 = 28$. Not together = $210 - 28 = 182$.\n\n**Common mistake:** Option C is the number of ways they are together, which is the exact opposite of the constraint."
+    },
+    {
+      "id": "10-4-combinations-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "Find the number of ways to choose at least one item from a collection of 7 distinct items.",
+      "options": [
+        "127",
+        "128",
+        "49",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each item can either be chosen or not ($2^7$ total subsets). Subtract 1 for the empty set (choosing zero items): $128 - 1 = 127$.\n\n**Common mistake:** Option B is $2^7$, which incorrectly includes the case where no items are selected."
+    },
+    {
+      "id": "10-4-combinations-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "Calculate the number of ways to select 5 students from a class of 20 to represent the school, if 2 specific students are best friends and must either both be selected or neither be selected.",
+      "options": [
+        "9,384",
+        "15,504",
+        "4,896",
+        "816"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1 (Both chosen): Choose 3 more from 18 ($^{18}C_3 = 816$). Case 2 (Neither chosen): Choose 5 from 18 ($^{18}C_5 = 8568$). Total = $816 + 8568 = 9384$.\n\n**Common mistake:** Option B is $^{20}C_5$, the total ways without the friendship constraint."
+    },
+    {
+      "type": "mcq",
+      "question": "A committee of 5 is to be chosen from 6 men and 4 women. How many ways can this be done if there must be at least one man and at least one woman?",
+      "options": [
+        "246",
+        "252",
+        "210",
+        "120"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total ways: $^{10}C_5 = 252$. Subtract case with all men ($^6C_5 = 6$). All women is impossible as there are only 4. $252 - 6 = 246$.\n\n**Common mistake:** Failing to consider all possible gender distributions (1M4W, 2M3W, 3M2W, 4M1W).",
+      "id": "10-4-combinations-harder-topic-hard-q5"
+    }
+  ]
+}

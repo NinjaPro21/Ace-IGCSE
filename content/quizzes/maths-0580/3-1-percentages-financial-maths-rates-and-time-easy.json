@@ -1,0 +1,77 @@
+{
+  "id": "3-1-percentages-financial-maths-rates-and-time-easy",
+  "topicId": "3-1-percentages-financial-maths-rates-and-time",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "easy",
+  "title": "Percentages, Financial Maths, Rates, and Time — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-1-percentages-financial-maths-rates-and-time-easy-q1",
+      "type": "mcq",
+      "question": "Simplify the ratio $15 : 25 : 40$ to its simplest form.",
+      "options": [
+        "$3 : 5 : 8$",
+        "$5 : 5 : 8$",
+        "$3 : 5 : 10$",
+        "$1 : 2 : 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To simplify the ratio, divide each part by the highest common factor, which is 5. $15 ÷ 5 = 3$, $25 ÷ 5 = 5$, and $40 ÷ 5 = 8$ [1].\n\n**Common mistake:** Students may only divide the first two numbers or use a factor that doesn't go into all three parts."
+    },
+    {
+      "id": "3-1-percentages-financial-maths-rates-and-time-easy-q2",
+      "type": "mcq",
+      "question": "Convert $80\\%$ into a $\\frac{tion}{}$ in its simplest form.",
+      "options": [
+        "$4/5$",
+        "$8/10$",
+        "$80/100$",
+        "$3/4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$80\\% = 80/100$. Dividing both the numerator and denominator by 20 gives $4/5$ [2].\n\n**Common mistake:** A student might leave the $\\frac{tion}{}$ as $8/10$, forgetting to simplify it fully."
+    },
+    {
+      "id": "3-1-percentages-financial-maths-rates-and-time-easy-q3",
+      "type": "mcq",
+      "question": "What does the letter '$R$2$I = (P \\times R \\times T) / 100$?",
+      "options": [
+        "The percentage rate of interest per year",
+        "The total amount of interest paid",
+        "The principal sum of money",
+        "The number of years"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the simple interest formula, $P$2$R$2$T$ is the time in years [3].\n\n**Common mistake:** Students often confuse the Rate ($R$2$I$)."
+    },
+    {
+      "id": "3-1-percentages-financial-maths-rates-and-time-easy-q4",
+      "type": "mcq",
+      "question": "Convert $9:30$ p.m. into the 24-hour clock format.",
+      "options": [
+        "$21:30$",
+        "$09:30$",
+        "$19:30$",
+        "$22:30$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To convert p.m. times to the 24-hour clock, add 12 to the hour: $9 + 12 = 21$. So, the time is $21:30$ [4, 5].\n\n**Common mistake:** A student might simply write $09:30$, which represents a.m. in the 24-hour clock."
+    },
+    {
+      "id": "3-1-percentages-financial-maths-rates-and-time-easy-q5",
+      "type": "mcq",
+      "question": "Find the speed of an object that travels a distance of $600$ km in $8$ hours.",
+      "options": [
+        "$75$ km/h",
+        "$4800$ km/h",
+        "$0.013$ km/h",
+        "$80$ km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed = distance ÷ time. $600 ÷ 8 = 75$ km/h [6, 7].\n\n**Common mistake:** Students may accidentally multiply the two numbers instead of dividing."
+    }
+  ]
+}

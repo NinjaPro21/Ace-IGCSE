@@ -1,0 +1,77 @@
+{
+  "id": "15-1-magnets-and-their-properties-medium",
+  "topicId": "15-1-magnets-and-their-properties",
+  "chapterId": "ch15-simple-phenomena-of-magnetism",
+  "difficulty": "medium",
+  "title": "Magnets and Their Properties — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-1-magnets-and-their-properties-medium-q1",
+      "type": "mcq",
+      "question": "What is the name of the process where a magnetic material becomes a magnet when it is placed near a permanent magnet?",
+      "options": [
+        "Induced magnetism",
+        "Magnetic conduction",
+        "Electrostatic charge",
+        "Thermal expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced magnetism is the process where a magnet induces magnetism in a magnetic material (like an iron bar) by being near it or in contact with it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-medium-q2",
+      "type": "mcq",
+      "question": "An N pole of a bar magnet is brought near to end A of an unmagnetised iron bar. What pole is induced at end A?",
+      "options": [
+        "South pole",
+        "North pole",
+        "No pole is induced",
+        "A North pole and a South pole simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "In induction, the pole induced at the nearer end of the magnetic material is always the opposite of the pole of the inducing magnet. Thus, an N pole induces a South pole at the nearer end.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-medium-q3",
+      "type": "mcq",
+      "question": "According to the kinetic particle model (as applied to magnetism), what are 'magnetic domains'?",
+      "options": [
+        "Groups of atoms that behave like tiny magnets",
+        "Regions in space where the magnetic field is zero",
+        "The physical ends of a bar magnet",
+        "The atoms of non-magnetic materials"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic materials contain 'magnetic domains,' where each domain behaves like a small magnet. In an unmagnetised bar, these domains point in random directions.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-medium-q4",
+      "type": "mcq",
+      "question": "A student performs an experiment where paper clips are attracted to a magnet. The first paper clip then attracts a second paper clip. Why does this happen?",
+      "options": [
+        "The first paper clip has become an induced magnet",
+        "The second paper clip is a permanent magnet",
+        "The force of the original magnet passes through the first clip without changing it",
+        "Paper clips are naturally magnets even without a nearby field"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the first paper clip is attracted to the magnet, it becomes an induced magnet, which allows it to attract further paper clips.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "15-1-magnets-and-their-properties-medium-q5",
+      "type": "mcq",
+      "question": "Which of the following would be the best way to verify if a metal bar is a permanent magnet rather than just a magnetic material?",
+      "options": [
+        "Check if it can repel the pole of another known magnet",
+        "Check if it is attracted to the N pole of a magnet",
+        "Check if it is attracted to the S pole of a magnet",
+        "Check if it can pick up iron filings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repulsion is the only sure test for magnetism. A magnetic material will be attracted to both poles of a magnet, but only another magnet can experience repulsion.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

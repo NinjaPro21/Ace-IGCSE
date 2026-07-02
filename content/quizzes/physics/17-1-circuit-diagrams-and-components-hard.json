@@ -1,0 +1,77 @@
+{
+  "id": "17-1-circuit-diagrams-and-components-hard",
+  "topicId": "17-1-circuit-diagrams-and-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "hard",
+  "title": "Circuit Diagrams and Components — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-1-circuit-diagrams-and-components-hard-q1",
+      "type": "mcq",
+      "question": "A potential divider consists of a $100\\text{ }Omega$ fixed resistor and a thermistor connected to a $6\\text{ V}$ source. At $0^\\circ\\text{C}$, the thermistor resistance is $500\\text{ }Omega$. What is the output voltage across the $100\\text{ }Omega$ resistor?",
+      "options": [
+        "$1.0\\text{ V}$",
+        "$5.0\\text{ V}$",
+        "$6.0\\text{ V}$",
+        "$1.2\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the potential divider formula: $V_{out} = (R_1 / (R_1 + R_2)) \\times V_{in} = (100 / (100 + 500)) \\times 6 = (100 / 600) \\times 6 = 1.0\\text{ V}$. \n\n**Common mistake:** Calculating the voltage across the thermistor ($5.0\\text{ V}$) instead of the resistor."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-hard-q2",
+      "type": "mcq",
+      "question": "A circuit contains a battery and an LED. If the battery's terminals are reversed, what will happen to the LED?",
+      "options": [
+        "The LED will not light up because it is now reverse-biased.",
+        "The LED will light up with a different colour.",
+        "The LED will become much brighter before burning out.",
+        "The LED will continue to function normally."
+      ],
+      "correctIndex": 0,
+      "explanation": "An LED (Light-Emitting Diode) only conducts and emits light when forward-biased. Reversing the terminals prevents current from flowing. \n\n**Common mistake:** Thinking the LED is like a filament lamp, which works regardless of direction."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-hard-q3",
+      "type": "mcq",
+      "question": "How does the 'rectified' current produced by a diode in an a.c. circuit compare to a standard direct current (d.c.) from a battery?",
+      "options": [
+        "The rectified current is periodic and intermittent, whereas d.c. is steady.",
+        "The rectified current is much stronger than battery d.c.",
+        "They are identical in every way.",
+        "The rectified current still reverses direction every half cycle."
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard d.c. provides a constant flow, while a single diode in an a.c. circuit produces pulses of current in one direction with gaps in between. \n\n**Common mistake:** Thinking 'rectified' means the current is no longer periodic."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-hard-q4",
+      "type": "mcq",
+      "question": "A battery provides $0.6\\text{ J}$ of energy to drive $0.4\\text{ C}$ of charge around a complete circuit. Calculate the electromotive force (e.m.f.) of the battery.",
+      "options": [
+        "$1.5\\text{ V}$",
+        "$0.24\\text{ V}$",
+        "$0.67\\text{ V}$",
+        "$2.4\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $E = W / Q$, the e.m.f. is $0.6 / 0.4 = 1.5\\text{ V}$. (Matches logic in Worked Example 16B). \n\n**Common mistake:** Multiplying the values ($0.6 \\times 0.4$) to get $0.24$."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following would cause the gradient of an $I-V$ graph for a metallic conductor to stay constant?",
+      "options": [
+        "Keeping the temperature of the conductor constant",
+        "Increasing the potential difference at a very high rate",
+        "Using a thinner wire of the same material",
+        "Replacing the conductor with a semiconductor diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "A constant gradient indicates constant resistance (Ohmic behavior). Metals typically only show this if their temperature remains steady. \n\n**Common mistake:** Thinking that 'any' metal conductor always has a constant gradient."
+    }
+  ]
+}

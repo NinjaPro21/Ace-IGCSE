@@ -1,0 +1,77 @@
+{
+  "id": "17-5-electrical-safety-easy",
+  "topicId": "17-5-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "easy",
+  "title": "Electrical Safety — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-5-electrical-safety-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is a primary hazard associated with using electrical appliances in damp or wet conditions?",
+      "options": [
+        "Electric shock because water is a good conductor of electricity.",
+        "The appliance consuming more power than usual.",
+        "The magnetic field of the appliance becoming too strong.",
+        "The potential difference of the supply increasing significantly."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, damp conditions are a hazard because water conducts electricity, which can lead to electric shocks. \n\n**Common mistake:** Thinking water increases the 'power' of the device rather than creating a dangerous conduction path."
+    },
+    {
+      "id": "17-5-electrical-safety-easy-q2",
+      "type": "mcq",
+      "question": "Where must a switch always be connected in a mains circuit to ensure safety?",
+      "options": [
+        "In the live wire (line wire).",
+        "In the neutral wire.",
+        "In the earth wire.",
+        "Anywhere in the circuit loop."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that a switch must be connected to the live wire so that when it is opened, the appliance is isolated from the high-voltage supply. \n\n**Common mistake:** Connecting it to the neutral wire, which breaks the circuit but leaves the appliance 'live'."
+    },
+    {
+      "id": "17-5-electrical-safety-easy-q3",
+      "type": "mcq",
+      "question": "What happens when a fuse 'blows' due to excessive current?",
+      "options": [
+        "The thin wire inside melts and breaks the circuit.",
+        "The fuse increases its resistance to stop the flow of charge.",
+        "The fuse reverses the direction of the current.",
+        "The fuse sends the extra energy into the earth wire."
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuse is a safety feature that contains a thin wire that melts if the current is too high, thus breaking the circuit. \n\n**Common mistake:** Thinking the fuse 'slows down' the current without breaking the path."
+    },
+    {
+      "id": "17-5-electrical-safety-easy-q4",
+      "type": "mcq",
+      "question": "What is the function of the earth wire in an electrical appliance?",
+      "options": [
+        "To provide a safe path for current to flow to the ground if a fault occurs.",
+        "To carry current back to the power station under normal conditions.",
+        "To measure the amount of electrical energy used by the device.",
+        "To provide the potential difference needed for the device to work."
+      ],
+      "correctIndex": 0,
+      "explanation": "The earth wire is a safety feature that conducts current to the ground if the live wire touches the metal casing. \n\n**Common mistake:** Confusing its role with the neutral wire, which completes the normal circuit path."
+    },
+    {
+      "id": "17-5-electrical-safety-easy-q5",
+      "type": "mcq",
+      "question": "Which term describes an appliance with an outer casing made of non-conducting material that does not require an earth wire?",
+      "options": [
+        "Double-insulated",
+        "Rectified",
+        "Ohmic",
+        "Superconducting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Appliances with non-conducting casings are called 'double-insulated' because the casing itself acts as a second layer of safety. \n\n**Common mistake:** Thinking all metal appliances are double-insulated."
+    }
+  ]
+}

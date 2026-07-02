@@ -1,0 +1,77 @@
+{
+  "id": "21-1-the-earth-medium",
+  "topicId": "21-1-the-earth",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "medium",
+  "title": "The Earth — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "21-1-the-earth-medium-q1",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the average orbital speed $v$ of the Earth around the Sun?",
+      "options": [
+        "$v = \\frac{2pi r}{T}$",
+        "$v = \\frac{r}{T}$",
+        "$v = \\frac{2pi T}{r}$",
+        "$v = pi r^2 T$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The average orbital speed is calculated by dividing the total distance of one orbit (circumference, $2pi r$) by the time taken ($T$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-medium-q2",
+      "type": "mcq",
+      "question": "In December, the South Pole is tilted towards the Sun. What season is it in the Southern Hemisphere?",
+      "options": [
+        "Summer",
+        "Winter",
+        "Autumn",
+        "Spring"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a pole is tilted towards the Sun, that hemisphere experiences longer days and more direct sunlight, which is summer.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-medium-q3",
+      "type": "mcq",
+      "question": "The Earth's radius is approximately $6400\\text{ km}$. Calculate the distance a point on the equator travels during one full rotation of the Earth.",
+      "options": [
+        "$40200\\text{ km}$",
+        "$20100\\text{ km}$",
+        "$6400\\text{ km}$",
+        "$12800\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance is the circumference: $C = 2pi r = 2 \\times 3.14 \\times 6400 \\approx 40212\\text{ km}$. Option A is the closest plausible estimate.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-medium-q4",
+      "type": "mcq",
+      "question": "If the Earth takes approximately $365$ days to orbit the Sun, how many hours is this approximately?",
+      "options": [
+        "$8760$ hours",
+        "$365$ hours",
+        "$1000$ hours",
+        "$24$ hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "$365 \\text{ days} \\times 24 \\text{ hours/day} = 8760 \\text{ hours}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "21-1-the-earth-medium-q5",
+      "type": "mcq",
+      "question": "What is the approximate time taken for the Moon to complete one orbit around the Earth?",
+      "options": [
+        "1 month",
+        "1 year",
+        "24 hours",
+        "1 week"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources note that the Moon orbits the Earth approximately once a month (roughly 27 to 28 days).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

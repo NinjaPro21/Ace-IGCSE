@@ -1,0 +1,77 @@
+{
+  "id": "2-quadratic-inequalities-medium",
+  "topicId": "2-quadratic-inequalities",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "medium",
+  "title": "Quadratic Inequalities — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-quadratic-inequalities-medium-q1",
+      "type": "mcq",
+      "question": "Solve the inequality $x^{2}$−5x+6>0.",
+      "options": [
+        "x<2 or x>3",
+        "2<x<3",
+        "x<−3 or x>−2",
+        "−3<x<−2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factorize to (x−2)(x−3)>0. The critical values are 2 and 3. Since the parabola opens up and we want the part above the x-axis, the solutions are outside the roots.\n\n**Common mistake:** Incorrectly factoring the quadratic as (x+2)(x+3) or (x−6)(x+1) and choosing roots based on those errors."
+    },
+    {
+      "id": "2-quadratic-inequalities-medium-q2",
+      "type": "mcq",
+      "question": "Find the set of values of x satisfying $x^{2}$+4x−12≤0.",
+      "options": [
+        "−6≤x≤2",
+        "x≤−6 or x≥2",
+        "−2≤x≤6",
+        "x≤−2 or x≥6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factorize to (x+6)(x−2)≤0. Critical values are −6 and 2. The 'less than or equal' region is between these values.\n\n**Common mistake:** Selecting the 'outside' region or misinterpreting the factors to give roots +6 and −2."
+    },
+    {
+      "id": "2-quadratic-inequalities-medium-q3",
+      "type": "mcq",
+      "question": "Solve the inequality 2$x^{2}$+x−3<0.",
+      "options": [
+        "−1.5<x<1",
+        "x<−1.5 or x>1",
+        "−1<x<1.5",
+        "x<−1 or x>1.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factorize: (2x+3)(x−1)<0. Roots are −1.5 and 1. The region required is between these roots.\n\n**Common mistake:** Difficulties in factoring non-monic quadratics often lead to the wrong critical values."
+    },
+    {
+      "id": "2-quadratic-inequalities-medium-q4",
+      "type": "mcq",
+      "question": "Solve the inequality $x^{2}$>4x.",
+      "options": [
+        "x<0 or x>4",
+        "0<x<4",
+        "x>4 only",
+        "x<4 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange to $x^{2}$−4x>0, then x(x−4)>0. Critical values are 0 and 4. The solution is outside the roots.\n\n**Common mistake:** Dividing both sides by x to get x>4, which incorrectly removes the solution x<0 and is mathematically invalid when x could be negative."
+    },
+    {
+      "id": "2-quadratic-inequalities-medium-q5",
+      "type": "mcq",
+      "question": "Solve the inequality 15−2x−$x^{2}$≥0.",
+      "options": [
+        "−5≤x≤3",
+        "x≤−5 or x≥3",
+        "−3≤x≤5",
+        "x≤−3 or x≥5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply by −1 and flip the sign: $x^{2}$+2x−15≤0. Factoring gives (x+5)(x−3)≤0. The region is between −5 and 3.\n\n**Common mistake:** Failing to flip the inequality sign when multiplying by −1 to make the $x^{2}$coefficient positive."
+    }
+  ]
+}

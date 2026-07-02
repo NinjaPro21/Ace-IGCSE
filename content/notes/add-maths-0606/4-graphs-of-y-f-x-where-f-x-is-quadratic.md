@@ -4,19 +4,21 @@ The graph of y=∣f(x)∣ where f(x) is a quadratic function represents a parabo
 
 ## Key formulas
 
-Quadratic function: f(x)=ax2+bx+c
+$$
+f(x) = ax^2 + bx + c
 
-Modulus transformation: y=∣ax2+bx+c∣
+y = |ax^2 + bx + c|
+$$
 
 ## Steps / method
 
-Sketch the standard base quadratic parabola y=ax2+bx+c using a light pencil guide line, plotting its intercepts and turning point.
+Sketch the standard base quadratic parabola $y = ax^2 + bx + c$ using a light pencil guide line, plotting its intercepts and turning point.
 
-Locate the real roots (x-intercepts) where the parabola crosses the horizontal axis; if there are no x-intercepts, the graph requires no reflection.
+Locate the real roots ($x$-intercepts) where the parabola crosses the horizontal axis; if there are no $x$-intercepts, the graph requires no reflection.
 
-Keep the portions of the parabola that lie above or on the x-axis completely unchanged.
+Keep the portions of the parabola that lie above or on the $x$-axis completely unchanged.
 
-Take the middle loop or outer segments that drop below the x-axis (y&lt;0) and reflect them vertically upward across the x-axis, erasing the old lower guide lines.
+Take the middle loop or outer segments that drop below the $x$-axis ($y < 0$) and reflect them vertically upward across the $x$-axis, erasing the old lower guide lines.
 
 ### Key rule
 
@@ -45,7 +47,3 @@ When drawing reflected quadratic graphs in exams, make sure you don't round off 
 ## Quick check
 
 If a quadratic graph is completely reflected using a modulus operator, then any sharp point where it reflects off the x-axis is called a cusp.
-
-## Visual / interactive intent
-
-Reuse explorer — Discriminant/modulus slider. Features a quadratic parabola with interactive adjustment sliders for coefficients a,b,c. Activating the modulus switch runs an animation that reflects the lower loop upward, showing how the turning point coordinates flip signs.

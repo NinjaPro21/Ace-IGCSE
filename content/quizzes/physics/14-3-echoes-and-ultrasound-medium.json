@@ -1,0 +1,77 @@
+{
+  "id": "14-3-echoes-and-ultrasound-medium",
+  "topicId": "14-3-echoes-and-ultrasound",
+  "chapterId": "ch14-sound",
+  "difficulty": "medium",
+  "title": "Echoes and Ultrasound — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-3-echoes-and-ultrasound-medium-q1",
+      "type": "mcq",
+      "question": "A sound pulse is sent from a ship towards the seabed. The echo is received $0.4\\text{ s}$ later. If the speed of sound in water is $1500\\text{ m/s}$, what is the depth of the sea?",
+      "options": [
+        "$300\\text{ m}$",
+        "$600\\text{ m}$",
+        "$150\\text{ m}$",
+        "$750\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $d = \\frac{vt}{2}$, we have $d = \\frac{1500 \\times 0.4}{2} = 300\\text{ m}$. \n\n**Common mistake:** forgetting to divide by 2 for the return trip."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-medium-q2",
+      "type": "mcq",
+      "question": "Why is ultrasound preferred over X-rays for prenatal scanning of a foetus?",
+      "options": [
+        "It is less hazardous due to lower energy",
+        "It travels faster through body tissue",
+        "It has a longer wavelength for better detail",
+        "It can travel through a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is non-ionising and considered safer for prenatal scanning because it carries less energy than hazardous X-rays.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-medium-q3",
+      "type": "mcq",
+      "question": "A student stands $165\\text{ m}$ from a tall wall and claps. If the speed of sound is $330\\text{ m/s}$, how long after the clap will the student hear the echo?",
+      "options": [
+        "$1.0\\text{ s}$",
+        "$0.5\\text{ s}$",
+        "$2.0\\text{ s}$",
+        "$1.5\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance $= 2 \\times 165 = 330\\text{ m}$. Time $= \\frac{\\text{distance}}{\\text{speed}} = \\frac{330}{330} = 1.0\\text{ s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-medium-q4",
+      "type": "mcq",
+      "question": "A dog whistle produces a frequency of $25\\text{ kHz}$. Why can a dog hear this while a human cannot?",
+      "options": [
+        "The frequency is within the dog's audible range but above the human limit",
+        "The sound travels faster towards the dog",
+        "The amplitude of the sound is too low for human ears",
+        "Humans can only hear longitudinal waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Humans have an upper audible limit of $20\\text{ kHz}$. Dogs can detect frequencies higher than this, making $25\\text{ kHz}$ audible to them but silent to humans.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-medium-q5",
+      "type": "mcq",
+      "question": "An ultrasound scanner uses a frequency of $2\\text{ MHz}$. What is this frequency in hertz?",
+      "options": [
+        "$2 \\times 10^{6}\\text{ Hz}$",
+        "$2 \\times 10^{3}\\text{ Hz}$",
+        "$2 \\times 10^{9}\\text{ Hz}$",
+        "$2000\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The prefix 'mega' (M) stands for $10^{6}$ (one million). So $2\\text{ MHz} = 2000000\\text{ Hz}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

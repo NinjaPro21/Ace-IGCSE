@@ -1,0 +1,142 @@
+{
+  "id": "5-7-converting-non-linear-laws-to-linear-form-medium",
+  "topicId": "5-7-converting-non-linear-laws-to-linear-form",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "medium",
+  "title": "Converting Non-Linear Laws to Linear Form — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q1",
+      "type": "mcq",
+      "question": "The variables $x$2$y$2$y = kx^3$. When $\\lg y$2$\\lg x$2$k$.",
+      "options": [
+        "100",
+        "2",
+        "10",
+        "e^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg y = 3\\lg x + \\lg k$2$c = \\lg k = 2$, so $k = 10^{2} = 100$.\n\n**Common mistake:** Students often use the natural base $e$2$e^2$) instead of base 10 when the question specifies $\\lg$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q2",
+      "type": "mcq",
+      "question": "A graph of $\\ln y$2$x$2$(0, 5)$. Express $y$2$x$.",
+      "options": [
+        "$y = e^5 e^{-0.4x}$",
+        "$y = 5e^{-0.4x}$",
+        "$y = -0.4x + 5$",
+        "$y = e^{-0.4} e^{5x}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The linear equation is $\\ln y = -0.4x + 5$. Converting to exponential form gives $y = e^{-0.4x + 5} = e^5 e^{-0.4x}$.\n\n**Common mistake:** Students may forget to apply the exponential function to the intercept, resulting in $y = -0.4x + 5$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q3",
+      "type": "mcq",
+      "question": "Convert the equation $y = \\frac{a}{x^2} + b$2$Y = mX + c$2$Y = y$2$X$2$m$?",
+      "options": [
+        "$X = \\frac{1}{x^2}$ and $m = a$",
+        "$X = x^2$ and $m = a$",
+        "$X = \\frac{1}{x}$ and $m = a$",
+        "$X = \\frac{1}{x^2}$ and $m = b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation is already in the form $y = a(\\frac{1}{x^2}) + b$2$Y = y, X = \\frac{1}{x^2}$, and the gradient is $a$.\n\n**Common mistake:** A student might confuse the gradient $a$2$b$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q4",
+      "type": "mcq",
+      "question": "A straight line is obtained by plotting $\\lg y$2$\\lg x$2$(0, 1)$ and $(2, 7)$. Find the value of $n$2$y = ax^n$.",
+      "options": [
+        "3",
+        "6",
+        "10",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of the linear plot is $m = \\frac{7-1}{2-0} = 3$. In the law $\\lg y = n\\lg x + \\lg a$2$m$2$n$.\n\n**Common mistake:** The student might use the $y$-coordinates directly without calculating the slope of the change."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q5",
+      "type": "mcq",
+      "question": "The law $xy = ax + b$2$y$2$\\frac{1}{x}$. Identify the gradient and the vertical intercept of this line.",
+      "options": [
+        "Gradient = $b$2$a$",
+        "Gradient = $a$2$b$",
+        "Gradient = $1$, Intercept = $a$",
+        "Gradient = $b$2$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide $xy = ax + b$2$x$2$y = a + \\frac{b}{x}$, which is $y = b(\\frac{1}{x}) + a$2$m = b$2$c = a$.\n\n**Common mistake:** Failing to rearrange the terms correctly to match the requested $y$2$1/x$ format."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q6",
+      "type": "mcq",
+      "question": "A graph of $xy$2$x^2$ is a straight line with gradient 3 and intercept 7. Find the equation for $y$2$x$.",
+      "options": [
+        "$y = 3x + \\frac{7}{x}$",
+        "$y = 3x^2 + 7$",
+        "$y = 3x^3 + 7x$",
+        "$y = \\frac{3}{x} + 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The linear equation is $xy = 3x^2 + 7$. Dividing both sides by $x$2$y = 3x + \\frac{7}{x}$.\n\n**Common mistake:** Forgetting to divide the intercept term by $x$2$y$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q7",
+      "type": "mcq",
+      "question": "The variables $x$2$y$2$y = ab^x$2$\\ln y$2$x$2$(0, 2)$ and $(4, 10)$. Find the value of $b$.",
+      "options": [
+        "$e^2$",
+        "2",
+        "$e^8$",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\ln y = x \\ln b + \\ln a$2$m = \\ln b = \\frac{10-2}{4-0} = 2$. Therefore, $b = e^2$.\n\n**Common mistake:** Identifying the gradient as $b$2$\\ln b$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q8",
+      "type": "mcq",
+      "question": "Transform $y = \\frac{a}{x} + bx$2$Y = mX + c$2$Y = x y$2$X$2$m$?",
+      "options": [
+        "$X = x^2$ and $m = b$",
+        "$X = x$2$m = a$",
+        "$X = x^2$ and $m = a$",
+        "$X = \\frac{1}{x}$ and $m = b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying by $x$2$xy = a + bx^2$. Rearranging to $Y = mX + c$2$xy = b(x^2) + a$2$X = x^2$ and $m = b$.\n\n**Common mistake:** Misidentifying the gradient as $a$ because it is the first constant mentioned in the original equation."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q9",
+      "type": "mcq",
+      "question": "The law $y = k x^n$2$\\lg y$2$\\lg x$2$(1, 3)$, find the value of $k$.",
+      "options": [
+        "10⁵",
+        "10³",
+        "5",
+        "0.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg y = -2 \\lg x + \\lg k$2$(1, 3)$ gives $3 = -2(1) + \\lg k \\Rightarrow \\lg k = 5 \\Rightarrow k = 10^{5}$.\n\n**Common mistake:** Substituting the coordinates directly into $y = k x^n$2$\\lg y = m \\lg x + c$."
+    },
+    {
+      "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q10",
+      "type": "mcq",
+      "question": "A straight line is obtained by plotting $\\frac{1}{y}$ against $x^2$. The line has a gradient of 0.4 and passes through $(5, 3)$. Find $y$2$x=0$.",
+      "options": [
+        "1",
+        "3",
+        "0.4",
+        "2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear eq: $\\frac{1}{y} - 3 = 0.4(x^2 - 5) \\Rightarrow \\frac{1}{y} = 0.4x^2 + 1$. When $x=0, \\frac{1}{y} = 1 \\Rightarrow y = 1$.\n\n**Common mistake:** Assuming the intercept is 3 because the point provided is $(5, 3)$."
+    }
+  ]
+}

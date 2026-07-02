@@ -1,0 +1,77 @@
+{
+  "id": "17-5-electrical-safety-medium",
+  "topicId": "17-5-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "medium",
+  "title": "Electrical Safety — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-5-electrical-safety-medium-q1",
+      "type": "mcq",
+      "question": "An electric heater is rated at $1.2\\text{ kW}$ and operates on a $240\\text{ V}$ mains supply. Calculate the current flowing through it.",
+      "options": [
+        "$5.0\\text{ A}$",
+        "$2.0\\text{ A}$",
+        "$288\\text{ A}$",
+        "$0.2\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I = P / V$, we have $1200\\text{ W} / 240\\text{ V} = 5.0\\text{ A}$. \n\n**Common mistake:** Failing to convert $1.2\\text{ kW}$ to $1200\\text{ W}$."
+    },
+    {
+      "id": "17-5-electrical-safety-medium-q2",
+      "type": "mcq",
+      "question": "For the $5.0\\text{ A}$ heater in the previous question, which fuse rating is the most appropriate to use in the plug?",
+      "options": [
+        "$13\\text{ A}$",
+        "$3\\text{ A}$",
+        "$5\\text{ A}$",
+        "$1\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuse rating should be slightly higher than the normal operating current. While $5\\text{ A}$ is the current, a $13\\text{ A}$ fuse is a standard safe choice to avoid nuisance blowing during minor surges. \n\n**Common mistake:** Choosing a fuse with a rating lower than the operating current."
+    },
+    {
+      "id": "17-5-electrical-safety-medium-q3",
+      "type": "mcq",
+      "question": "What is the primary danger of 'overloading' a single mains socket with multiple high-power appliances using an extension lead?",
+      "options": [
+        "The cables may overheat and cause an electrical fire.",
+        "The potential difference of the entire house will decrease.",
+        "The appliances will convert electrical energy back into chemical energy.",
+        "The earth wire will start to carry the full load current constantly."
+      ],
+      "correctIndex": 0,
+      "explanation": "Overloading causes excess current to flow through the supply cables, leading to overheating and potential fires. \n\n**Common mistake:** Thinking the voltage simply 'splits' and makes things run slower without damage."
+    },
+    {
+      "id": "17-5-electrical-safety-medium-q4",
+      "type": "mcq",
+      "question": "Why is a trip switch (circuit breaker) considered more convenient than a standard fuse?",
+      "options": [
+        "It can be reset easily without needing to be replaced.",
+        "It allows more current to flow than the wires can handle.",
+        "It converts a.c. into d.c. for safer use.",
+        "It eliminates the need for an earth wire in metal appliances."
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike fuses which must be replaced once they melt, a trip switch can simply be flipped back to the 'on' position once the fault is cleared. \n\n**Common mistake:** Believing trip switches are 'stronger' or change the type of current."
+    },
+    {
+      "id": "17-5-electrical-safety-medium-q5",
+      "type": "mcq",
+      "question": "Compare the hazards of damaged insulation and damp conditions. Which statement is correct?",
+      "options": [
+        "Both increase the risk of electric shock and short circuits.",
+        "Damaged insulation only affects power consumption, while dampness causes shocks.",
+        "Damp conditions only affect the fuse, while insulation affects the earth wire.",
+        "Neither is hazardous if the appliance is double-insulated."
+      ],
+      "correctIndex": 0,
+      "explanation": "Both damaged insulation (exposing live wires) and dampness (creating conduction paths) significantly increase the risk of severe electric shocks. \n\n**Common mistake:** Thinking double insulation makes dampness 'safe'—water can still enter and bypass insulation."
+    }
+  ]
+}

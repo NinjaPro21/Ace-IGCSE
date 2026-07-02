@@ -43,7 +43,7 @@
         "$f(x) > 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $x > 2$, the denominator $x - 2$ is strictly positive, making $\\frac{3}{x-2} > 0$. Adding $1$ means $f(x)$ must be strictly greater than $1$.\n\n**Common mistake:** Students often identify the horizontal asymptote and give the range as $f(x) \neq 1$, overlooking that the domain restriction $x > 2$ cuts off half of the rational function's graph."
+      "explanation": "Since $x > 2$, the denominator $x - 2$ is strictly positive, making $\\frac{3}{x-2} > 0$. Adding^1 means $f(x)$ must be strictly greater than^1.\n\n**Common mistake:** Students often identify the horizontal asymptote and give the range as $f(x) \neq 1$, overlooking that the domain restriction $x > 2$ cuts off half of the rational function's graph."
     },
     {
       "id": "ch01-functions-q4",

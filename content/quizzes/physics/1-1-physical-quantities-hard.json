@@ -1,0 +1,77 @@
+{
+  "id": "1-1-physical-quantities-hard",
+  "topicId": "1-1-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "hard",
+  "title": "Physical Quantities — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-physical-quantities-hard-q1",
+      "type": "mcq",
+      "question": "A pair of vernier calipers shows a reading of 0.03 cm when the jaws are closed. When measuring a ball bearing, the main scale reads 3.1 cm and the 4th vernier mark coincides with the main scale. What is the corrected diameter?",
+      "options": [
+        "3.11 cm",
+        "3.14 cm",
+        "3.17 cm",
+        "3.07 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Observed reading = 3.1+0.04=3.14 cm. Zero error is +0.03 cm. Corrected reading = Observed reading − zero error = 3.14−(+0.03)=3.11 cm. \n\n**Common mistake:** Adding the zero error (3.17 cm) instead of subtracting it."
+    },
+    {
+      "id": "1-1-physical-quantities-hard-q2",
+      "type": "mcq",
+      "question": "A student needs to measure the volume of a small piece of cork that floats. Which method is most effective?",
+      "options": [
+        "Use a measuring cylinder with a heavy metal sinker",
+        "Use a displacement can with the cork alone",
+        "Multiply the length, breadth and height of the irregular cork",
+        "Measure the volume of water the cork displaces while floating"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sinker ensures the floating object is totally immersed in water, allowing the displacement method (Vtotal−Vsinker) to work. \n\n**Common mistake:** Using the displacement method without a sinker, which only measures the volume of the submerged portion of the cork."
+    },
+    {
+      "id": "1-1-physical-quantities-hard-q3",
+      "type": "mcq",
+      "question": "If the square of the period of a pendulum (T2) is directly proportional to its length (l), what does a graph of T against l look like?",
+      "options": [
+        "A curve with an increasing gradient",
+        "A straight line passing through the origin",
+        "A horizontal line",
+        "A curve with a decreasing gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since T2proptol, then Tproptosqrtl. This relationship produces a curve where the period increases with length but not linearly. \n\n**Common mistake:** Assuming that because they are proportional, the graph of T vs l must be a straight line."
+    },
+    {
+      "id": "1-1-physical-quantities-hard-q4",
+      "type": "mcq",
+      "question": "The world’s smallest playable guitar is 10mum long. Express this length in standard form in metres.",
+      "options": [
+        "1.0times10−5m",
+        "1.0times10−6m",
+        "1.0times10−4m",
+        "1.0times10−7m"
+      ],
+      "correctIndex": 0,
+      "explanation": "10mum=10times10−6m=1.0times10−5m. \n\n**Common mistake:** Using 10−6as the power (1.0times10−6m), forgetting that '10' adds another power of 10 to the result."
+    },
+    {
+      "id": "1-1-physical-quantities-hard-q5",
+      "type": "mcq",
+      "question": "A measuring cylinder contains 20 cm3of water. When ten identical steel balls are immersed, the level rises to 50 cm3. If one ball has a mass of 27 g, what is the density of the steel in g/cm3?",
+      "options": [
+        "9.0",
+        "0.9",
+        "8.1",
+        "13.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total volume of 10 balls = 50−20=30cm3. Volume of 1 ball = 30/10=3cm3. Density = mass/volume=27/3=9.0g/cm3. \n\n**Common mistake:** Using the total volume (30) with the single mass (27) to get 0.9 g/cm3."
+    }
+  ]
+}

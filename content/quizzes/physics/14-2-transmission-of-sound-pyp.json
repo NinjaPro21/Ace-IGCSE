@@ -1,0 +1,77 @@
+{
+  "id": "14-2-transmission-of-sound-pyp",
+  "topicId": "14-2-transmission-of-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "pyp",
+  "title": "Transmission of Sound — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-transmission-of-sound-pyp-q1",
+      "type": "mcq",
+      "question": "Astronauts on the Moon see an asteroid crash into the surface. Why do they not hear the explosion?",
+      "options": [
+        "Sound waves are unable to travel from the Moon's surface to the spaceship.",
+        "All the sound waves are absorbed by the surface of the Moon.",
+        "The sound waves are reflected from the surface of the spaceship.",
+        "The distance is too small for a sound wave to form."
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves require a material medium. Since there is no air (vacuum) between the crash site and the ship, sound cannot travel. \n\n**Common mistake:** Believing the sound is absorbed by the Moon's surface."
+    },
+    {
+      "id": "14-2-transmission-of-sound-pyp-q2",
+      "type": "mcq",
+      "question": "Using the data provided, which statement correctly describes the speed of sound?nn| Substance | Density ($g/cm^3$) | Speed of sound ($m/s$) |n| :--- | :--- | :--- |n| Lead | 11.3 | 1200 |n| Iron | 7.87 | 5000 |n| Oxygen | 0.00143 | 320 |n| Air | 0.00129 | 330 |",
+      "options": [
+        "$Sound travels about 4 \\times faster in iron than in lead.$",
+        "The denser the substance, the lower the speed of sound.",
+        "Sound travels fastest in oxygen.",
+        "Sound travels at the same speed in all gases."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Table 14.2, speed in iron ($5000$) divided by speed in lead ($1200$) is $\\approx 4.17$. \n\n**Common mistake:** Selecting B, even though lead is denser than iron but has a much lower sound speed."
+    },
+    {
+      "id": "14-2-transmission-of-sound-pyp-q3",
+      "type": "mcq",
+      "question": "Observer A fires a flashgun, and Observer B, $500\\text{ m}$ away, starts a stopwatch when she sees the flash. She stops it when she hears the sound $1.52\\text{ s}$ later. What is the calculated speed of sound?",
+      "options": [
+        "$329\\text{ m/s}$",
+        "$330\\text{ m/s}$",
+        "$760\\text{ m/s}$",
+        "$340\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\text{Speed} = \\text{distance} / \\text{time} = 500 / 1.52 \\approx 329\\text{ m/s}$. \n\n**Common mistake:** Assuming the speed is exactly $330\\text{ m/s}$ without using the experimental data."
+    },
+    {
+      "id": "14-2-transmission-of-sound-pyp-q4",
+      "type": "mcq",
+      "question": "In which of the following media will sound travel with the lowest speed?",
+      "options": [
+        "Oxygen",
+        "Iron",
+        "Water",
+        "Lead"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Table 14.2, sound travels slowest in oxygen ($320\\text{ m/s}$), which is a gas. \n\n**Common mistake:** Thinking lead is the slowest because it is the densest solid listed."
+    },
+    {
+      "id": "14-2-transmission-of-sound-pyp-q5",
+      "type": "mcq",
+      "question": "A ringing electric bell is suspended by a string inside a jar. A vacuum pump is used to remove the air. What is the observation and its reason?",
+      "options": [
+        "Loudness decreases because sound needs a medium.",
+        "Loudness increases because there is no air to block it.",
+        "Pitch decreases because the frequency drops in a vacuum.",
+        "The bell stops vibrating because of the lack of air pressure."
+      ],
+      "correctIndex": 0,
+      "explanation": "As air is removed, the medium for sound transmission is lost, causing the loudness to decrease. \n\n**Common mistake:** Thinking the pitch changes or the bell stops vibrating."
+    }
+  ]
+}

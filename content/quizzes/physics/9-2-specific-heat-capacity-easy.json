@@ -1,0 +1,77 @@
+{
+  "id": "9-2-specific-heat-capacity-easy",
+  "topicId": "9-2-specific-heat-capacity",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "easy",
+  "title": "Specific Heat Capacity — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-specific-heat-capacity-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of internal energy?",
+      "options": [
+        "The total energy of all the particles in a substance",
+        "The energy stored in the nucleus of an atom",
+        "The energy required to change the state of a substance",
+        "The average speed of the particles in a substance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Internal energy is defined as the total energy of all the particles in a substance. \n\n**Common mistake:** Confusing internal energy with temperature, which is only a measure of the average kinetic energy of the particles."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-easy-q2",
+      "type": "mcq",
+      "question": "What is the standard SI unit for specific heat capacity?",
+      "options": [
+        "$\\text{J/(kg K)}$",
+        "$\\text{J/kg}$",
+        "$\\text{J/K}$",
+        "$\\text{W/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specific heat capacity is energy per unit mass per unit temperature change, so the unit is $\\text{J/(kg K)}$. \n\n**Common mistake:** Using $\\text{J/kg}$, which is the unit for specific latent heat."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-easy-q3",
+      "type": "mcq",
+      "question": "How is a rise in the temperature of an object described in terms of its particles?",
+      "options": [
+        "An increase in the average kinetic energies of all the particles",
+        "An increase in the size of each individual particle",
+        "An increase in the total number of particles",
+        "A change in the chemical bonds between the particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the kinetic particle model, an increase in temperature means the particles have gained kinetic energy and move or vibrate more rapidly. \n\n**Common mistake:** Thinking the particles themselves expand; it is the space between them that increases during expansion."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-easy-q4",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the specific heat capacity $c$?",
+      "options": [
+        "$c = \\frac{Delta E}{m Delta theta}$",
+        "$c = m \\times g \\times Delta h$",
+        "$c = P \\times t$",
+        "$c = \\frac{m}{Delta E \\times Delta theta}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specific heat capacity $c$ is the thermal energy $Delta E$ divided by the product of mass $m$ and temperature change $Delta theta$. \n\n**Common mistake:** Forgetting to divide by both mass and temperature change."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-easy-q5",
+      "type": "mcq",
+      "question": "What does a horizontal line on a cooling curve represent during a change of state?",
+      "options": [
+        "The temperature remains constant while energy is being released",
+        "The internal energy of the substance is zero",
+        "The substance is expanding at a constant rate",
+        "The particles have stopped vibrating entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "During a change of state, such as freezing, temperature stays constant even though thermal energy is transferred to the surroundings. \n\n**Common mistake:** Thinking that if the temperature is constant, no energy is being transferred."
+    }
+  ]
+}

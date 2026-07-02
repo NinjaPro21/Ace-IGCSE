@@ -1,0 +1,77 @@
+{
+  "id": "20-3-radioactive-decay-medium",
+  "topicId": "20-3-radioactive-decay",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "medium",
+  "title": "Radioactive Decay — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-3-radioactive-decay-medium-q1",
+      "type": "mcq",
+      "question": "A nucleus of $^{238}{92}U$ undergoes alpha ($alpha$) decay. What are the nucleon number and proton number of the resulting thorium (Th) nucleus?",
+      "options": [
+        "Nucleon number: 234; Proton number: 90",
+        "Nucleon number: 236; Proton number: 90",
+        "Nucleon number: 234; Proton number: 92",
+        "Nucleon number: 242; Proton number: 94"
+      ],
+      "correctIndex": 0,
+      "explanation": "$alpha$-decay reduces $A$ by 4 ($238 - 4 = 234$) and $Z$ by 2 ($92 - 2 = 90$). \n\n**Common mistake:** Subtracting 2 from both numbers."
+    },
+    {
+      "id": "20-3-radioactive-decay-medium-q2",
+      "type": "mcq",
+      "question": "The isotope $^{137}{55}Cs$ decays by emitting a beta ($beta$) particle. What is the composition of the new nucleus formed?",
+      "options": [
+        "137 nucleons and 56 protons",
+        "137 nucleons and 54 protons",
+        "136 nucleons and 55 protons",
+        "138 nucleons and 56 protons"
+      ],
+      "correctIndex": 0,
+      "explanation": "In $beta$-decay, the nucleon number remains the same (137) and the proton number increases by 1 ($55 + 1 = 56$). \n\n**Common mistake:** Decreasing the proton number instead of increasing it."
+    },
+    {
+      "id": "20-3-radioactive-decay-medium-q3",
+      "type": "mcq",
+      "question": "Which of the following describes why certain isotopes are radioactive?",
+      "options": [
+        "They have massive nuclei or an excess of neutrons.",
+        "They have an equal number of protons and neutrons.",
+        "They have too many electrons in their outer shells.",
+        "They are located near the surface of a material."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources note that isotopes with massive nuclei (large proton/nucleon numbers) or those with excess neutrons are often unstable and radioactive. \n\n**Common mistake:** Thinking chemical reactivity or electron count determines radioactivity."
+    },
+    {
+      "id": "20-3-radioactive-decay-medium-q4",
+      "type": "mcq",
+      "question": "Compare the change in the number of neutrons during $alpha$ and $beta$ decay. Which statement is correct?",
+      "options": [
+        "$alpha$ decay loses 2 neutrons; $beta$ decay loses 1 neutron.",
+        "$alpha$ decay loses 4 neutrons; $beta$ decay gains 1 neutron.",
+        "Both decays result in a loss of 2 neutrons.",
+        "$alpha$ decay loses 2 neutrons; $beta$ decay remains unchanged."
+      ],
+      "correctIndex": 0,
+      "explanation": "$alpha$ is $^4_2He$ (2p, 2n), so the nucleus loses 2 neutrons. In $beta$-decay, a neutron turns into a proton, so the number of neutrons decreases by 1. \n\n**Common mistake:** Thinking $beta$-decay doesn't change the number of neutrons because $A$ is constant."
+    },
+    {
+      "id": "20-3-radioactive-decay-medium-q5",
+      "type": "mcq",
+      "question": "A radioactive source is placed in a cloud chamber. The tracks are straight, thick, and very short. Which type of decay is occurring?",
+      "options": [
+        "Alpha ($alpha$) decay",
+        "Beta ($beta$) decay",
+        "Gamma ($gamma$) emission",
+        "X-ray emission"
+      ],
+      "correctIndex": 0,
+      "explanation": "$alpha$-particles have high kinetic energy and strong ionising effects but low penetrating power, leading to short, thick tracks. \n\n**Common mistake:** Choosing $beta$-decay, which produces thin, curly tracks."
+    }
+  ]
+}

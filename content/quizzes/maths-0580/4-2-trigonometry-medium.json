@@ -1,0 +1,77 @@
+{
+  "id": "4-2-trigonometry-medium",
+  "topicId": "4-2-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "medium",
+  "title": "Trigonometry — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-2-trigonometry-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the length of the side $y$2$14\\text{ cm}$ and the angle adjacent to side $y$2$40°$.",
+      "options": [
+        "$10.7\\text{ cm}$",
+        "$9.00\\text{ cm}$",
+        "$11.7\\text{ cm}$",
+        "$21.8\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the cosine ratio: $\\cos 40° = y/14 \\Rightarrow y = 14 \\times \\cos 40° \\approx 10.725$.\n\n**Common mistake:** A student might use the sine ratio ($14 \\times \\sin 40°$) instead, finding the opposite side length."
+    },
+    {
+      "id": "4-2-trigonometry-medium-q2",
+      "type": "mcq",
+      "question": "A right-angled triangle has an opposite side of $5\\text{ cm}$ and an adjacent side of $12\\text{ cm}$. Find the size of the angle $\\theta$ to 1 decimal place.",
+      "options": [
+        "$22.6°$",
+        "$67.4°$",
+        "$24.6°$",
+        "$20.9°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the tangent ratio: $\\tan \\theta = 5/12$. Therefore, $\\theta = \\tan^{-1}$(5/12) \\approx 22.619°2\n\n**Common mistake:** The student might use the inverse sine or cosine without calculating the hypotenuse first."
+    },
+    {
+      "id": "4-2-trigonometry-medium-q3",
+      "type": "mcq",
+      "question": "Simplify the exact expression: $10 \\sin 30° + 4 \\cos 60°$.",
+      "options": [
+        "$7$",
+        "$14$",
+        "$5 + 2\\sqrt{3}$",
+        "$9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute the exact values: $10(0.5) + 4(0.5) = 5 + 2 = 7$.\n\n**Common mistake:** A student might use $\\sqrt{3}/2$ for one of the values, making the expression much more complex."
+    },
+    {
+      "id": "4-2-trigonometry-medium-q4",
+      "type": "mcq",
+      "question": "In a right-angled triangle, the angle is $35°$ and the opposite side is $8\\text{ cm}$. Calculate the length of the hypotenuse to 3 significant figures.",
+      "options": [
+        "$13.9\\text{ cm}$",
+        "$11.4\\text{ cm}$",
+        "$5.62\\text{ cm}$",
+        "$4.59\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the sine ratio: $\\sin 35° = 8/H \\Rightarrow H = 8 / \\sin 35° \\approx 13.947$.\n\n**Common mistake:** The student might multiply $8 \\times \\sin 35°$ instead of dividing, or use the tangent ratio."
+    },
+    {
+      "id": "4-2-trigonometry-medium-q5",
+      "type": "mcq",
+      "question": "Determine the exact value of $(\\sin 45°) \\times (\\cos 45°)$.",
+      "options": [
+        "$0.5$",
+        "$1$",
+        "$\\sqrt{2}/2$",
+        "$0.25$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 45° = 1/\\sqrt{2}$ and $\\cos 45° = 1/\\sqrt{2}$. Multiplying them gives $(1/\\sqrt{2}) \\times (1/\\sqrt{2}) = 1/2 = 0.5$.\n\n**Common mistake:** A student might think the answer is $\\sqrt{2}$ because they are multiplying square roots."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "10-1-transfer-of-thermal-energy-hard",
+  "topicId": "10-1-transfer-of-thermal-energy",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "hard",
+  "title": "Transfer of Thermal Energy — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-transfer-of-thermal-energy-hard-q1",
+      "type": "mcq",
+      "question": "In terms of the kinetic particle model, how does conduction occur in a non-metallic solid like glass?",
+      "options": [
+        "Vibrating molecules collide and pass on kinetic energy to their neighbors",
+        "Free electrons move rapidly through the structure carrying energy",
+        "The molecules move from the hot end to the cold end carrying energy",
+        "Infrared waves are emitted from molecule to molecule internally"
+      ],
+      "correctIndex": 0,
+      "explanation": "In non-metals, conduction occurs primarily through the vibration of particles. In metals, this is supplemented by the movement of free electrons. \n\n**Common mistake:** Attributing conduction in glass to free electrons, which are only present in conductors like metals."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-hard-q2",
+      "type": "mcq",
+      "question": "The temperature of the Earth is affected by the balance of radiation. What happens if the Earth receives energy from the Sun at a higher rate than it radiates it away?",
+      "options": [
+        "The Earth's temperature will increase",
+        "The Earth's temperature will decrease",
+        "The Earth's temperature will remain constant",
+        "The Earth will stop rotating to conserve energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the rate of energy absorption is greater than the rate of emission, the total internal energy increases, leading to a rise in temperature. \n\n**Common mistake:** Thinking that 'balance' is automatic and temperature never changes."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-hard-q3",
+      "type": "mcq",
+      "question": "Why is trapped, still air considered an excellent thermal insulator?",
+      "options": [
+        "Air is a gas (poor conductor) and trapping it prevents convection currents",
+        "Air molecules are too small to collide and transfer energy by conduction",
+        "Trapped air completely blocks all infrared radiation",
+        "Still air has zero internal energy at room temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gases are poor conductors because their particles are far apart. By trapping the air (e.g., in fiberglass), bulk movement is stopped, which prevents energy transfer by convection. \n\n**Common mistake:** Believing air is an insulator only because it is a gas, ignoring that moving air can still transfer heat effectively via convection."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-hard-q4",
+      "type": "mcq",
+      "question": "A cup of hot tea is left on a table. Which combination of processes explains how thermal energy escapes from the tea?",
+      "options": [
+        "Conduction through the cup, convection in the air, and radiation from the surface",
+        "Conduction through the air and radiation through the cup only",
+        "Convection through the cup and conduction from the surface only",
+        "Radiation only, because air is a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "As described in 'Let's Review', energy is lost through the cup walls (conduction), to the air above (convection), and to the surroundings (radiation). \n\n**Common mistake:** Focusing only on one process and ignoring the others."
+    },
+    {
+      "id": "10-1-transfer-of-thermal-energy-hard-q5",
+      "type": "mcq",
+      "question": "Two identical containers, X and Y, are filled with the same volume of water at $80^\\circ\\text{C}$. X is placed in a room at $20^\\circ\\text{C}$ and Y is placed in a room at $10^\\circ\\text{C}$. Which statement is correct after 5 minutes?",
+      "options": [
+        "Container Y has lost more thermal energy because the temperature difference is greater",
+        "Container X has lost more thermal energy because the room is warmer",
+        "Both containers have lost the same amount of energy because the initial water temperature is the same",
+        "Energy transfer in Y is slower because cold air is denser"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate of transfer depends on the temperature difference ($80-10 = 70$ for Y; $80-20 = 60$ for X). Since Y has a larger difference, it transfers energy more rapidly. \n\n**Common mistake:** Thinking that 'hotter' surroundings (X) would somehow pull more heat out."
+    }
+  ]
+}

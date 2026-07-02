@@ -1,0 +1,77 @@
+{
+  "id": "9-graphs-of-modulus-trigonometric-functions-easy",
+  "topicId": "9-graphs-of-modulus-trigonometric-functions",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "easy",
+  "title": "Graphs of Modulus Trigonometric Functions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-easy-q1",
+      "type": "mcq",
+      "question": "What is the amplitude of the trigonometric function $y = 4 \\cos x$?",
+      "options": [
+        "4",
+        "1",
+        "8",
+        "360°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The amplitude is the absolute value of the coefficient of the trigonometric term, which represents the maximum displacement from the equilibrium position.\n\n**Common mistake:** Confusing amplitude with the period or giving the total height (range) of the graph (8) instead of the amplitude."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-easy-q2",
+      "type": "mcq",
+      "question": "State the period of the function $y = \\tan x$.",
+      "options": [
+        "180° (or π rad)",
+        "360° (or 2π rad)",
+        "90°",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike sine and cosine, which have a period of 360°, the tangent function repeats every 180°.\n\n**Common mistake:** Assuming all basic trigonometric functions have a period of 360°."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-easy-q3",
+      "type": "mcq",
+      "question": "If the graph of $y = \\sin x$ is shifted upwards by 3 units, what is its new maximum value?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original maximum of $\\sin x$2$1 + 3 = 4$.\n\n**Common mistake:** Thinking the amplitude increases to 3 or 4, rather than the entire graph shifting."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-easy-q4",
+      "type": "mcq",
+      "question": "Describe the effect of the modulus in the graph $y = |\\cos x|$.",
+      "options": [
+        "All parts of the graph below the x-axis are reflected in the x-axis.",
+        "The graph is shifted horizontally by 90°.",
+        "The amplitude is doubled.",
+        "The graph becomes a straight line."
+      ],
+      "correctIndex": 0,
+      "explanation": "The modulus transformation $y = |f(x)|$ reflects negative $y$-values into positive ones while maintaining the positive sections.\n\n**Common mistake:** Thinking the modulus only affects the $x$-values or shifts the graph vertically."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-easy-q5",
+      "type": "mcq",
+      "question": "What is the period of $y = \\sin 2x$?",
+      "options": [
+        "180°",
+        "360°",
+        "720°",
+        "90°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period of $\\sin bx$2$360/b$2$360/2 = 180$.\n\n**Common mistake:** Multiplying the period by 2 instead of dividing, resulting in 720°."
+    }
+  ]
+}

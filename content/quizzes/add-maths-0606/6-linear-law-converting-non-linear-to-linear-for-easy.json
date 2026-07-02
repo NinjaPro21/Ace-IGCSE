@@ -1,0 +1,77 @@
+{
+  "id": "6-linear-law-converting-non-linear-to-linear-for-easy",
+  "topicId": "6-linear-law-converting-non-linear-to-linear-for",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "easy",
+  "title": "Linear Law (Converting Non-Linear to Linear Form) — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The equation $y = ax^n$2$Y = mX + c$2$Y$2$X$.",
+      "options": [
+        "Y = lg y, X = lg x",
+        "Y = y, X = x^n",
+        "Y = lg y, X = x",
+        "Y = y, X = lg x"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taking logarithms of both sides: $\\lg y = \\lg(ax^n) \\Rightarrow \\lg y = n \\lg x + \\lg a$2$Y = mX + c$2$Y = \\lg y$2$X = \\lg x$.\n\n**Common mistake:** Option C is a common error where students confuse the power law ($y=ax^n$2$y=Ab^x$).",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-easy-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Transform the exponential equation $y = Ab^x$2$Y = mX + c$. What does the y-intercept represent?",
+      "options": [
+        "lg A",
+        "A",
+        "lg b",
+        "b"
+      ],
+      "correctIndex": 0,
+      "explanation": "Logarithm form: $\\lg y = x \\lg b + \\lg A$2$\\lg A$.\n\n**Common mistake:** Option B is chosen if the student forgets that the intercept in the linear graph is the log of the original constant.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-easy-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "In the linear form of $y = ax^2 + bx$2$Y$) to obtain a straight line?",
+      "options": [
+        "y/x",
+        "y",
+        "lg y",
+        "y/x^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dividing the original equation by $x$2$y/x = ax + b$2$Y = mX + c$2$Y = y/x$.\n\n**Common mistake:** Option C results from students reflexively using logarithms for any non-linear conversion.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-easy-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "The variables $x$2$y$2$y = \\frac{a}{x} + b$2$y$2$X$2$X$?",
+      "options": [
+        "1/x",
+        "x",
+        "x^2",
+        "lg x"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation is already in the form $y = a(1/x) + b$2$Y = mX + c$2$X = 1/x$.\n\n**Common mistake:** Option B occurs if a student attempts to plot the raw variables, which would produce a hyperbola, not a line.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-easy-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "If the graph of $\\lg y$2$x$2$x$2$y$?",
+      "options": [
+        "Exponential ($y = Ab^x$)",
+        "Power ($y = ax^n$)",
+        "Quadratic ($y = ax^2 + b$)",
+        "Reciprocal ($y = a/x + b$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linearizing $y = Ab^x$2$\\lg y = x \\lg b + \\lg A$2$\\lg y$2$x$.\n\n**Common mistake:** Option B is chosen if the student forgets that the power law requires $\\lg x$ on the horizontal axis.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-easy-q5"
+    }
+  ]
+}

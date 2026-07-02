@@ -1,0 +1,77 @@
+{
+  "id": "21-2-the-solar-system-hard",
+  "topicId": "21-2-the-solar-system",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "hard",
+  "title": "The Solar System — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "21-2-the-solar-system-hard-q1",
+      "type": "mcq",
+      "question": "A comet travels in an elliptical orbit around the Sun. At which point in its orbit does it have the least gravitational potential energy (GPE)?",
+      "options": [
+        "When it is closest to the Sun",
+        "When it is furthest from the Sun",
+        "When it is at the midpoint of its orbit",
+        "GPE is constant throughout the orbit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The text states that a comet has the greatest GPE when it is furthest away, meaning it has the least GPE when it is closest to the Sun. \n\n**Common mistake:** Confusing least GPE with least kinetic energy."
+    },
+    {
+      "id": "21-2-the-solar-system-hard-q2",
+      "type": "mcq",
+      "question": "The International Space Station orbits $410$ km above Earth's surface in $92$ minutes. Using a radius of Earth = $6400$ km, calculate its average orbital speed.",
+      "options": [
+        "$7740$ m/s",
+        "$74$ m/s",
+        "$4650$ m/s",
+        "$123$ m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total radius $r = 6400 + 410 = 6810$ km. Speed $v = 2\\pi r / T$. $T = 92 \\times 60 = 5520 s$. $2v = (2 \\times 3.142 \\times 6810000) / 5520 \\approx 7740$ m/s. \n\n**Common mistake:** Using only the altitude ($410$ km) as the radius."
+    },
+    {
+      "id": "21-2-the-solar-system-hard-q3",
+      "type": "mcq",
+      "question": "When a cloud of dust and gas clumps together to form the Solar System, which energy conversion primarily occurs?",
+      "options": [
+        "Gravitational potential energy to kinetic energy",
+        "Chemical energy to light energy",
+        "Kinetic energy to nuclear energy",
+        "Thermal energy to gravitational potential energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "As material clumps together under gravity, its gravitational potential energy is converted into kinetic energy and eventually thermal energy. \n\n**Common mistake:** Thinking nuclear fusion is the first step in clumping."
+    },
+    {
+      "id": "21-2-the-solar-system-hard-q4",
+      "type": "mcq",
+      "question": "Which of the following factors explains why planets further from the Sun have slower orbital speeds?",
+      "options": [
+        "The Sun's gravitational field strength is weaker at greater distances.",
+        "Outer planets have much larger masses than inner planets.",
+        "The outer planets are made of gas which experiences more friction.",
+        "The Sun's light pressure pushes them slower."
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sun's gravitational field decreases with distance, requiring a lower orbital speed to maintain a stable orbit. \n\n**Common mistake:** Thinking mass is the primary reason for slower speed."
+    },
+    {
+      "id": "21-2-the-solar-system-hard-q5",
+      "type": "mcq",
+      "question": "An object is in an elliptical orbit. Why does it travel faster when it is closer to the Sun?",
+      "options": [
+        "Loss in gravitational potential energy results in a gain in kinetic energy.",
+        "The Sun's magnetic field pulls it harder.",
+        "The object loses mass as it gets hotter.",
+        "The vacuum of space is thinner near the Sun."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the principle of conservation of energy, as the object moves closer to the Sun, its GPE decreases and is converted into kinetic energy, increasing its speed. \n\n**Common mistake:** Thinking the speed increases because the 'pull' is simply stronger without referencing energy stores."
+    }
+  ]
+}

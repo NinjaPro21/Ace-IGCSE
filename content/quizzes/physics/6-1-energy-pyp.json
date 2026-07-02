@@ -1,0 +1,77 @@
+{
+  "id": "6-1-energy-pyp",
+  "topicId": "6-1-energy",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "pyp",
+  "title": "Energy — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-1-energy-pyp-q1",
+      "type": "mcq",
+      "question": "A car screeches to a stop to avoid a collision on a level road. Which energy changes have occurred?",
+      "options": [
+        "Kinetic energy $rightarrow$ sound and thermal energy",
+        "Kinetic energy $rightarrow$ thermal energy only",
+        "Kinetic energy $rightarrow$ sound energy only",
+        "Kinetic energy $rightarrow$ light and sound energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The movement (KE) is transferred by friction into heat (thermal) in the brakes/tires and sound energy. \n\n**Common mistake:** Ignoring sound energy, which is clearly heard when a car 'screeches'."
+    },
+    {
+      "id": "6-1-energy-pyp-q2",
+      "type": "mcq",
+      "question": "A $0.8\\text{ kg}$ brick is dropped from a building. It reaches the ground with a kinetic energy of $240\\text{ J}$. How tall is the building? ($g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$30\\text{ m}$",
+        "$19\\text{ m}$",
+        "$192\\text{ m}$",
+        "$300\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $GPE = Final KE = 240\\text{ J}$. Using $mgh = 240$: $0.8 \\times 10 \\times h = 240 rightarrow 8h = 240 rightarrow h = 30\\text{ m}$. \n\n**Common mistake:** Multiplying $240 \\times 0.8$ instead of dividing by the weight."
+    },
+    {
+      "id": "6-1-energy-pyp-q3",
+      "type": "mcq",
+      "question": "Which of the following energy resources is the 'odd one out' compared to the others?",
+      "options": [
+        "Nuclear energy",
+        "Geothermal energy",
+        "Wind energy",
+        "Solar energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear energy is usually considered non-renewable, whereas wind, solar, and geothermal are renewable resources. \n\n**Common mistake:** Thinking geothermal is the odd one because it comes from the ground like nuclear materials."
+    },
+    {
+      "id": "6-1-energy-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows a simple pendulum displaced to point R, $2.0\\text{ cm}$ above its lowest point P. If air resistance is negligible, what is the gain in potential energy of the $10\\text{ g}$ bob at R? ($g = 10\\text{ N/kg}$)",
+      "options": [
+        "$0.002\\text{ J}$",
+        "$200\\text{ J}$",
+        "$20\\text{ J}$",
+        "$0.2\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$m = 0.01\\text{ kg}$, $h = 0.02\\text{ m}$. $E_p = 0.01 \\times 10 \\times 0.02 = 0.002\\text{ J}$. \n\n**Common mistake:** Failing to convert grams to kg and cm to m ($10 \\times 10 \\times 2 = 200$)."
+    },
+    {
+      "id": "6-1-energy-pyp-q5",
+      "type": "mcq",
+      "question": "Using the principle of conservation of energy, what determines the maximum speed of a swinging ideal pendulum?",
+      "options": [
+        "The initial height from which it is released",
+        "The mass of the pendulum bob",
+        "The material the bob is made from",
+        "The length of the string only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $mgh = \\frac{1}{2}mv^2$, the mass $m$ cancels out ($gh = \\frac{1}{2}v^2$). Thus, speed $v$ only depends on gravity $g$ and the change in height $h$. \n\n**Common mistake:** Thinking a heavier bob will swing faster."
+    }
+  ]
+}

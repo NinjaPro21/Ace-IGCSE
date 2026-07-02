@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import { usePomodoro } from '@/hooks/usePomodoro'
+import { getTopicsForChapter } from '@/lib/contentLoader'
+import { PomodoroControl } from '@/components/PomodoroControl'
 import type { TopicMeta } from '@/lib/contentTypes'
 
 interface LessonTopBarProps {
@@ -19,10 +20,17 @@ export function LessonTopBar({
   onFontIncrease,
 }: LessonTopBarProps) {
   const { isNotesRead, getChapterQuizLevel, areChapterNotesComplete } = useMastery()
+  const chapterTopics = getTopicsForChapter(topic.chapterId)
+  const notesReadCount = chapterTopics.filter((t) => isNotesRead(t.id)).length
   const notesComplete = areChapterNotesComplete(topic.chapterId)
-  const done = notesComplete ? getChapterQuizLevel(topic.chapterId) : isNotesRead(topic.id) ? 1 : 0
+  const quizLevel = getChapterQuizLevel(topic.chapterId)
+  const done = notesComplete ? quizLevel : notesReadCount
+  const totalSteps = notesComplete ? 4 : Math.max(chapterTopics.length, 1)
+  const checklistLabel = notesComplete ? `Quiz ${done}/4` : `Sections ${done}/${totalSteps}`
+  const checklistAria = notesComplete
+    ? `Quiz progress: ${done} of 4 tiers complete`
+    : `Notes progress: ${done} of ${totalSteps} sections read`
 
-  const { display, running, finished, toggle, reset } = usePomodoro()
   const barRef = useRef<HTMLDivElement>(null)
 
   // Add shadow when page is scrolled
@@ -35,12 +43,6 @@ export function LessonTopBar({
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
-
-  const timerTitle = finished
-    ? 'Session complete! Double-click to reset.'
-    : running
-      ? 'Click to pause · Double-click to reset'
-      : 'Click to start · Double-click to reset'
 
   return (
     <div ref={barRef} className="enlight-lesson-topbar">
@@ -72,25 +74,12 @@ export function LessonTopBar({
             A+
           </button>
 
-          {/* Pomodoro timer */}
-          <button
-            type="button"
-            className={`enlight-timer${running ? ' enlight-timer--running' : ''}${finished ? ' enlight-timer--finished' : ''}`}
-            onClick={toggle}
-            onDoubleClick={(e) => { e.preventDefault(); reset() }}
-            title={timerTitle}
-            aria-label={`Pomodoro timer: ${display}. ${timerTitle}`}
-          >
-            <span className="enlight-timer__icon" aria-hidden>
-              {finished ? '✓' : running ? '⏸' : '▶'}
-            </span>
-            <span className="enlight-timer__display">{display}</span>
-          </button>
+          <PomodoroControl />
 
-          {/* Mastery checklist */}
-          <div className="enlight-checklist" aria-label={`Mastery: ${done} of 4 levels complete`}>
+          {/* Session progress: sections read, then quiz tiers */}
+          <div className="enlight-checklist" aria-label={checklistAria}>
             <div className="enlight-checklist__steps">
-              {[0, 1, 2, 3].map((i) => (
+              {Array.from({ length: totalSteps }, (_, i) => (
                 <span
                   key={i}
                   className={`enlight-checklist__step${i < done ? ' enlight-checklist__step--done' : ''}`}
@@ -98,7 +87,7 @@ export function LessonTopBar({
                 />
               ))}
             </div>
-            <span className="enlight-checklist__count">✓ {done}/4</span>
+            <span className="enlight-checklist__count">{checklistLabel}</span>
           </div>
         </div>
       </div>

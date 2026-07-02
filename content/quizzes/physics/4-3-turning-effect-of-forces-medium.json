@@ -1,0 +1,77 @@
+{
+  "id": "4-3-turning-effect-of-forces-medium",
+  "topicId": "4-3-turning-effect-of-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "medium",
+  "title": "Turning Effect of Forces — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-turning-effect-of-forces-medium-q1",
+      "type": "mcq",
+      "question": "A see-saw is balanced. A girl weighing $500\\text{ N}$ sits $3.5\\text{ m}$ from the pivot. Her brother weighs $700\\text{ N}$. How far from the pivot must he sit to maintain equilibrium?",
+      "options": [
+        "$2.5\\text{ m}$",
+        "$4.9\\text{ m}$",
+        "$3.5\\text{ m}$",
+        "$1.4\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Principle of Moments: $500 \\times 3.5 = 700 \\times d$. So, $1750 = 700d$, and $d = 2.5\\text{ m}$. \n\n**Common mistake:** Thinking the distances must be equal ($3.5\\text{ m}$) regardless of the different weights."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-medium-q2",
+      "type": "mcq",
+      "question": "Calculate the moment of a $10.0\\text{ N}$ weight placed at the $20\\text{ cm}$ mark of a metre rule that is pivoted at the $50\\text{ cm}$ mark.",
+      "options": [
+        "$3.0\\text{ N m}$",
+        "$2.0\\text{ N m}$",
+        "$5.0\\text{ N m}$",
+        "$300\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance from pivot $= 50 - 20 = 30\\text{ cm} = 0.3\\text{ m}$. Moment $= 10.0\\text{ N} \\times 0.3\\text{ m} = 3.0\\text{ N m}$. \n\n**Common mistake:** Using the position on the ruler ($20\\text{ cm}$) as the distance from the pivot instead of calculating the difference."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-medium-q3",
+      "type": "mcq",
+      "question": "A student applies a force of $50\\text{ N}$ to a wrench at a distance of $40\\text{ cm}$ from the bolt. Calculate the turning effect in SI units.",
+      "options": [
+        "$20\\text{ N m}$",
+        "$2000\\text{ N m}$",
+        "$1.25\\text{ N m}$",
+        "$0.8\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First convert distance to metres: $40\\text{ cm} = 0.4\\text{ m}$. Moment $= 50\\text{ N} \\times 0.4\\text{ m} = 20\\text{ N m}$. \n\n**Common mistake:** Multiplying $50 \\times 40$ without converting to SI units, resulting in $2000$."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-medium-q4",
+      "type": "mcq",
+      "question": "Which of these changes would double the moment of a force acting on a door?",
+      "options": [
+        "Doubling the distance from the hinges at which the force is applied",
+        "Doubling both the force and the distance from the hinges",
+        "Moving the pivot to the centre of the door",
+        "Applying the force at a $45^{circ}$ angle instead of $90^{circ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since Moment $= F \\times d$, doubling the distance $d$ while keeping force $F$ constant will double the moment. \n\n**Common mistake:** Doubling both $F$ and $d$ would quadruple the moment ($2 \\times 2 = 4$)."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-medium-q5",
+      "type": "mcq",
+      "question": "A uniform metre rule is pivoted at its midpoint ($50\\text{ cm}$). An $8.0\\text{ N}$ weight is placed at the $20\\text{ cm}$ mark. Where should a $10.0\\text{ N}$ weight be placed to balance it?",
+      "options": [
+        "At the $74\\text{ cm}$ mark",
+        "At the $24\\text{ cm}$ mark",
+        "At the $80\\text{ cm}$ mark",
+        "At the $30\\text{ cm}$ mark"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACW moment $= 8.0 \\times (50 - 20) = 240\\text{ N cm}$. For balance, $10.0 \\times d = 240$, so $d = 24\\text{ cm}$ to the right of the pivot. Position $= 50 + 24 = 74\\text{ cm}$. \n\n**Common mistake:** Giving the distance ($24\\text{ cm}$) as the final answer instead of the position on the rule."
+    }
+  ]
+}

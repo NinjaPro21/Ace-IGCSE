@@ -1,0 +1,77 @@
+{
+  "id": "9-6-graphical-solutions-easy",
+  "topicId": "9-6-graphical-solutions",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Graphical Solutions — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-6-graphical-solutions-easy-q1",
+      "type": "mcq",
+      "question": "If the graphs of $y = f(x)$ and $y = g(x)$ intersect at the point $(4, 7)$, what is the solution to the equation $f(x) = g(x)$?",
+      "options": [
+        "$x = 4$",
+        "$x = 7$",
+        "$(4, 7)$",
+        "$x = 11$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The solution to the equation $f(x) = g(x)$ is the $x$-coordinate of the point where the two graphs intersect.\n\n**Common mistake:** A student might incorrectly provide the $y$2$x$-value."
+    },
+    {
+      "id": "9-6-graphical-solutions-easy-q2",
+      "type": "mcq",
+      "question": "To solve the equation $x^2 - 5x = 4$ graphically, you should plot the graph of $y = x^2 - 5x$ and which other line?",
+      "options": [
+        "$y = 4$",
+        "$y = -4$",
+        "$x = 4$",
+        "$y = 5x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation is solved by finding the intersection of the curve representing the left side ($y = x^2 - 5x$2$y = 4$).\n\n**Common mistake:** The student might confuse the vertical line $x = 4$ with the horizontal line $y = 4$."
+    },
+    {
+      "id": "9-6-graphical-solutions-easy-q3",
+      "type": "mcq",
+      "question": "How many solutions are there for the equation $x^2 + 2 = -3$ if solved graphically?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The graph of $y = x^2 + 2$ is a $\\cup$2$(0, 2)$, which never intersects the horizontal line $y = -3$.\n\n**Common mistake:** A student might assume all quadratic equations have two solutions without considering if the graphs actually intersect."
+    },
+    {
+      "id": "9-6-graphical-solutions-easy-q4",
+      "type": "mcq",
+      "question": "The lines $y = x + 2$ and $y = 6 - x$2$(2, 4)$. State the values of $x$2$y$ that satisfy both equations simultaneously.",
+      "options": [
+        "$x = 2, y = 4$",
+        "$x = 4, y = 2$",
+        "$x = 2, y = 6$",
+        "$x = 0, y = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The point of intersection $(x, y)$ of two lines provides the simultaneous solution to the system of equations.\n\n**Common mistake:** The student might swap the $x$2$y$ values."
+    },
+    {
+      "id": "9-6-graphical-solutions-easy-q5",
+      "type": "mcq",
+      "question": "Given a curve $y = f(x)$, the roots of the equation $f(x) = 0$ are found where the curve crosses which axis?",
+      "options": [
+        "The $x$-axis",
+        "The $y$-axis",
+        "The line $y = x$",
+        "The origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation $f(x) = 0$ corresponds to the points where the graph intersects the line $y = 0$, which is the $x$-axis.\n\n**Common mistake:** Students often confuse the $x$2$y$-intercept (the constant term)."
+    }
+  ]
+}

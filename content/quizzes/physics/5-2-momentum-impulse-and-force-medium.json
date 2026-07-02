@@ -1,0 +1,77 @@
+{
+  "id": "5-2-momentum-impulse-and-force-medium",
+  "topicId": "5-2-momentum-impulse-and-force",
+  "chapterId": "ch05-momentum",
+  "difficulty": "medium",
+  "title": "Momentum, Impulse and Force — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-2-momentum-impulse-and-force-medium-q1",
+      "type": "mcq",
+      "question": "A $0.4\\text{ kg}$ ball is kicked from rest and reaches a speed of $5\\text{ m/s}$. Calculate the impulse given to the ball.",
+      "options": [
+        "$2.0\\text{ N s}$",
+        "$12.5\\text{ N s}$",
+        "$0.08\\text{ N s}$",
+        "$5.4\\text{ N s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Impulse is the change in momentum: $Delta(mv) = 0.4\\text{ kg} \\times (5 - 0)\\text{ m/s} = 2.0\\text{ kg m/s}$ (or $N s$). \n\n**Common mistake:** Using only the speed ($5.0$) or mass ($0.4$) as the impulse."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-medium-q2",
+      "type": "mcq",
+      "question": "A ball receives an impulse of $2.0\\text{ N s}$. If the average force applied was $100\\text{ N}$, how long was the contact time?",
+      "options": [
+        "$0.02\\text{ s}$",
+        "$50\\text{ s}$",
+        "$200\\text{ s}$",
+        "$0.5\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $FDelta t = Impulse$, so $Delta t = Impulse / F = 2.0 / 100 = 0.02\\text{ s}$. \n\n**Common mistake:** Multiplying the numbers ($200$) instead of dividing."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-medium-q3",
+      "type": "mcq",
+      "question": "A car of mass $1000\\text{ kg}$ is travelling at $5\\text{ m/s}$ and comes to a complete stop. What is the change in its momentum?",
+      "options": [
+        "$5000\\text{ kg m/s}$",
+        "$200\\text{ kg m/s}$",
+        "$0.005\\text{ kg m/s}$",
+        "$1005\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Change in momentum $= mv - mu = 1000 \\times (0 - 5) = -5000\\text{ kg m/s}$. Magnitude is $5000\\text{ kg m/s}$. \n\n**Common mistake:** Dividing mass by velocity ($200$)."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-medium-q4",
+      "type": "mcq",
+      "question": "Object X and Object Y undergo the same change in momentum. Object X stops in $0.1\\text{ s}$, while Object Y stops in $0.5\\text{ s}$. How do the forces acting on them compare?",
+      "options": [
+        "$The force on X is 5 \\times greater than on Y$",
+        "$The force on Y is 5 \\times greater than on X$",
+        "The forces are equal because the impulse is the same",
+        "The force on X is half that of Y"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $F = Delta p / t$, if time is $5$ \\times smaller ($0.1$ vs $0.5$), the force must be $5$ \\times larger. \n\n**Common mistake:** Assuming same impulse means same force regardless of time."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-medium-q5",
+      "type": "mcq",
+      "question": "Which equation correctly represents the relationship between Force ($F$), mass ($m$), change in velocity ($Delta v$), and time ($t$)?",
+      "options": [
+        "$F = \\frac{m Delta v}{t}$",
+        "$F = m Delta v t$",
+        "$F = \\frac{m t}{Delta v}$",
+        "$F = \\frac{t}{m Delta v}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is derived from $F = Delta p / t$ where $Delta p = m Delta v$. So $F = m Delta v / t$. \n\n**Common mistake:** Placing time in the numerator or ignoring the division entirely."
+    }
+  ]
+}

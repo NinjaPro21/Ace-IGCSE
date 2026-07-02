@@ -1,0 +1,77 @@
+{
+  "id": "5-2-laws-of-logarithms-harder-topic-pyp",
+  "topicId": "5-2-laws-of-logarithms-harder-topic",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "pyp",
+  "title": "Laws of Logarithms — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-2-laws-of-logarithms-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "Solve for $x$2$2 \\log_3 x - \\log_3 (x-2) = 2$.",
+      "options": [
+        "x = 3 and x = 6",
+        "x = 3 only",
+        "x = 6 only",
+        "x = 9"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_3 (x^2 / (x-2)) = 2 \\implies x^2 / (x-2) = 3^2 = 9$. $x^2 = 9x - 18 \\implies x^2 - 9x + 18 = 0 \\implies (x-3)(x-6)=0$. Both are valid.\n\n**Common mistake:** Neglecting the base conversion ($3^2 = 9$) or making factoring errors in the resulting quadratic."
+    },
+    {
+      "id": "5-2-laws-of-logarithms-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "Given that $\\lg a = p$2$\\lg b = q$2$\\lg (100a/b^3)$ in terms of $p$2$q$.",
+      "options": [
+        "$2 + p - 3q$",
+        "$100 + p - 3q$",
+        "$2 + p - q^3$",
+        "$p - 3q$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg 100 + \\lg a - \\lg b^3 = 2 + p - 3q$.\n\n**Common mistake:** Writing 100 instead of 2 for $\\lg 100$ or forgetting the coefficient 3 for the $q$ term."
+    },
+    {
+      "id": "5-2-laws-of-logarithms-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "Find the value of $x$2$\\log_2 x + \\log_2 (x+2) = 3$.",
+      "options": [
+        "2",
+        "-4",
+        "2 and -4",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_2 (x(x+2)) = 3 \\implies x^2 + 2x = 2^3 = 8 \\implies x^2 + 2x - 8 = 0 \\implies (x+4)(x-2)=0$. Since $x>0$, $x=2$ is the only solution.\n\n**Common mistake:** Including the negative solution $x = -4$, which is outside the domain of the original logarithmic terms."
+    },
+    {
+      "id": "5-2-laws-of-logarithms-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "Simplify the expression $\\frac{1}{2} \\log_a 16 - 3 \\log_a 2 + \\log_a 4$.",
+      "options": [
+        "$\\log_a 2$",
+        "$\\log_a 4$",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_a 4 - \\log_a 8 + \\log_a 4 = \\log_a (16 / 8) = \\log_a 2$.\n\n**Common mistake:** Arithmetic slips when combining the terms after applying the power law."
+    },
+    {
+      "id": "5-2-laws-of-logarithms-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "Given $2 \\log_x y = 3$, express $y$2$x$.",
+      "options": [
+        "$y = x^{3/2}$",
+        "$y = x^6$",
+        "$y = \\sqrt{x^3}$",
+        "$y = 3x/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\log_x y^2 = 3 \\implies y^2 = x^3 \\implies y = x^{3/2}$. Choice 2 is also equivalent ($y = \\sqrt{x^3}$).\n\n**Common mistake:** Treating the coefficient 2 as a multiplier for $y$ instead of an exponent."
+    }
+  ]
+}

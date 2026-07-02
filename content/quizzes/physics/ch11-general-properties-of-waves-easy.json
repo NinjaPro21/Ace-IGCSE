@@ -1,0 +1,207 @@
+{
+  "id": "ch11-general-properties-of-waves-easy",
+  "topicId": "ch11-general-properties-of-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "easy",
+  "title": "Chapter 11: General Properties of Waves — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch11-general-properties-of-waves-easy-q1",
+      "type": "mcq",
+      "question": "What do waves transfer from one point to another without transferring matter?",
+      "options": [
+        "Energy",
+        "Molecules",
+        "Force",
+        "Mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, waves are a mechanism for the transfer of energy from a source to other points without the bulk movement of the medium itself. \n\n**Common mistake:** Thinking that the actual particles of the medium travel along with the wave."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q2",
+      "type": "mcq",
+      "question": "In which type of wave is the direction of vibration perpendicular to the direction of the wave's travel?",
+      "options": [
+        "Transverse waves",
+        "Longitudinal waves",
+        "Sound waves",
+        "Pressure waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transverse waves are defined as those where the particles of the medium oscillate at right angles ($90^circ$) to the direction of wave propagation. \n\n**Common mistake:** Confusing this with longitudinal waves, where vibration is parallel."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q3",
+      "type": "mcq",
+      "question": "Which of the following is an example of a longitudinal wave?",
+      "options": [
+        "Sound waves",
+        "Light waves",
+        "Rope waves",
+        "Water waves in a ripple tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves are the most common example of longitudinal waves, where the vibration is parallel to the direction of travel. \n\n**Common mistake:** Selecting light waves, which are transverse."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q4",
+      "type": "mcq",
+      "question": "If a wave is described as a 'periodic motion,' what does this mean?",
+      "options": [
+        "The motion is repeated at regular intervals",
+        "The motion happens only once",
+        "The wave travels at a changing speed",
+        "The particles move in a random manner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wave motion is described as periodic because it consists of vibrations or patterns that repeat at regular intervals. \n\n**Common mistake:** Thinking periodic means 'fast' or 'constant speed' only."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q5",
+      "type": "mcq",
+      "question": "Which term describes a region in a longitudinal wave where the particles are closest together?",
+      "options": [
+        "Compression",
+        "Rarefaction",
+        "Crest",
+        "Trough"
+      ],
+      "correctIndex": 0,
+      "explanation": "In longitudinal waves, energy is transferred via a series of compressions (where particles are packed together) and rarefactions (where they are spread out). \n\n**Common mistake:** Using the term 'crest,' which refers to the peak of a transverse wave."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following defines the amplitude of a wave?",
+      "options": [
+        "The maximum displacement of a particle from its rest position",
+        "The distance between two successive crests",
+        "The number of complete waves produced per second",
+        "The distance travelled by a wave in one second"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amplitude is the maximum displacement from the equilibrium or rest position. \n\n**Common mistake:** Confusing amplitude with wavelength, which is the distance between successive points in phase."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q7",
+      "type": "mcq",
+      "question": "What is the SI unit for the frequency of a wave?",
+      "options": [
+        "hertz (Hz)",
+        "metres (m)",
+        "seconds (s)",
+        "metres per second (m/s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz (Hz), representing the number of cycles per second. \n\n**Common mistake:** Selecting seconds, which is the unit for the period (T)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q8",
+      "type": "mcq",
+      "question": "In the wave equation $v = f\\lambda$, what does the symbol $\\lambda$ (\\lambda) represent?",
+      "options": [
+        "Wavelength",
+        "Wave speed",
+        "Frequency",
+        "Period"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Greek letter $\\lambda$ is the standard symbol for wavelength. \n\n**Common mistake:** Confusing $\\lambda$ with $v$ (velocity)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q9",
+      "type": "mcq",
+      "question": "A wave has a frequency of $10\\text{ Hz}$ and a wavelength of $2.0\\text{ m}$. Calculate its speed.",
+      "options": [
+        "$20\\text{ m/s}$",
+        "$5\\text{ m/s}$",
+        "$0.2\\text{ m/s}$",
+        "$12\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda = 10 \\times 2.0 = 20\\text{ m/s}$. \n\n**Common mistake:** Dividing frequency by wavelength instead of multiplying."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q10",
+      "type": "mcq",
+      "question": "What is meant by the 'period' of a wave?",
+      "options": [
+        "The time taken for one complete oscillation",
+        "The distance between two consecutive troughs",
+        "The number of waves passing a point in one second",
+        "The height of a crest above the rest position"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period (T) is the time required for one full cycle or oscillation. \n\n**Common mistake:** Confusing period with frequency, which is the 'number' of oscillations per unit time."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q11",
+      "type": "mcq",
+      "question": "What is the name of the effect where waves spread out after passing through a gap or around an edge?",
+      "options": [
+        "Diffraction",
+        "Reflection",
+        "Refraction",
+        "Dispersion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diffraction is defined as the spreading out of waves when they encounter gaps and edges. Reflection is bouncing, and refraction is bending due to speed changes.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q12",
+      "type": "mcq",
+      "question": "When water waves are reflected from a straight barrier, how does the wavelength change?",
+      "options": [
+        "It remains the same",
+        "It increases",
+        "It decreases",
+        "It becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "In reflection, the waves bounce off the surface without changing shape or speed; therefore, the distance between wavefronts (wavelength) remains the same.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q13",
+      "type": "mcq",
+      "question": "In a ripple tank, what happens to the direction of a wave when it enters shallower water at an angle?",
+      "options": [
+        "It bends towards the normal",
+        "It bends away from the normal",
+        "It continues in a straight line",
+        "It reflects back immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves travel slower in shallow water. When entering a medium where they travel slower at an angle, they undergo refraction and bend towards the normal.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q14",
+      "type": "mcq",
+      "question": "Which wave property remains constant when a wave passes from deep water into shallow water?",
+      "options": [
+        "Frequency",
+        "Speed",
+        "Wavelength",
+        "Direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is determined by the source and does not change when the wave enters a new medium. Speed and wavelength both decrease in shallower water.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-easy-q15",
+      "type": "mcq",
+      "question": "For the reflection of water waves, what is the relationship between the angle of incidence $i$ and the angle of reflection $r$?",
+      "options": [
+        "$i = r$",
+        "$i > r$",
+        "$i < r$",
+        "$i + r = 90^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection ($i = r$).\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

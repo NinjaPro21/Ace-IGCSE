@@ -1,0 +1,77 @@
+{
+  "id": "1-6-8-4-indices-easy",
+  "topicId": "1-6-8-4-indices",
+  "chapterId": "ch01-number",
+  "difficulty": "easy",
+  "title": "Indices — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-6-8-4-indices-easy-q1",
+      "type": "mcq",
+      "question": "Simplify the expression: $m^4 \\times m^5$.",
+      "options": [
+        "$m^9$",
+        "$m^{20}$",
+        "$2m^9$",
+        "$m^1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the first law of indices, when multiplying identical bases, add their exponents: $4 + 5 = 9$, resulting in $m^9$.\n\n**Common mistake:** Students frequently multiply the exponent powers together instead of adding them, yielding $m^{20}$."
+    },
+    {
+      "id": "1-6-8-4-indices-easy-q2",
+      "type": "mcq",
+      "question": "Simplify the expression: $p^{12} \\div p^3$.",
+      "options": [
+        "$p^9$",
+        "$p^4$",
+        "$p^{15}$",
+        "$p^{36}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When dividing expressions with identical bases, subtract the power index of the denominator from the numerator: $12 - 3 = 9$, resulting in $p^9$.\n\n**Common mistake:** Students often divide the exponent parameters directly, leading to $12 \\div 3 = 4$, which produces $p^4$."
+    },
+    {
+      "id": "1-6-8-4-indices-easy-q3",
+      "type": "mcq",
+      "question": "Evaluate the exact numerical value of $7^0$.",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "-7"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, any non-zero base raised to the power of zero is always equal to 1.\n\n**Common mistake:** Students commonly assume that a zero power evaluates to zero, selecting 0."
+    },
+    {
+      "id": "1-6-8-4-indices-easy-q4",
+      "type": "mcq",
+      "question": "Simplify the expression: $(x^3)^4$.",
+      "options": [
+        "$x^{12}$",
+        "$x^7$",
+        "$3x^4$",
+        "$x^{81}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an exponential term is raised to another power, multiply the indices together: $3 \\times 4 = 12$, giving $x^{12}$.\n\n**Common mistake:** Students often add the powers ($3+4=7$) or raise the power to the power ($3^4 = 81$)."
+    },
+    {
+      "id": "1-6-8-4-indices-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate the exact numerical value of $4^{-2}$.",
+      "options": [
+        "$\\frac{1}{16}$",
+        "-16",
+        "-8",
+        "$\\frac{1}{8}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A negative index represents the reciprocal of the positive power: $4^{-2} = \\frac{1}{4^2} = \\frac{1}{16}$.\n\n**Common mistake:** Students frequently multiply the base by the negative power index, arriving at $-8$ or $-16$."
+    }
+  ]
+}

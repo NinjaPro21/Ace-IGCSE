@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
+import { GraphAxes, createGraphMapper } from './GraphAxes'
+import type { FnGuidePanel } from '@/lib/contentTypes'
 
-type Tab = 'types' | 'mapping' | 'composite'
+type Tab = FnGuidePanel
 
 function Arrow({ x1, y1, x2, y2, color }: { x1: number; y1: number; x2: number; y2: number; color: string }) {
   return (
@@ -187,8 +189,90 @@ function CompositeFlowPanel() {
   )
 }
 
-export function FunctionsVisualGuide() {
-  const [tab, setTab] = useState<Tab>('types')
+function InverseReflectionPanel() {
+  const [x, setX] = useState(2)
+  const fx = 0.5 * x + 1
+  const W = 420
+  const H = 280
+  const X_MIN = -1
+  const X_MAX = 5
+  const Y_MIN = -2
+  const Y_MAX = 5
+  const mapper = useMemo(
+    () => createGraphMapper(W, H, X_MIN, X_MAX, Y_MIN, Y_MAX),
+    [],
+  )
+  const { toX, toY } = mapper
+
+  const fPath = useMemo(() => {
+    const pts: string[] = []
+    for (let xi = X_MIN; xi <= X_MAX; xi += 0.08) {
+      const y = 0.5 * xi + 1
+      if (y < Y_MIN - 0.5 || y > Y_MAX + 0.5) continue
+      pts.push(`${toX(xi).toFixed(1)},${toY(y).toFixed(1)}`)
+    }
+    return pts.join(' ')
+  }, [toX, toY])
+
+  const invPath = useMemo(() => {
+    const pts: string[] = []
+    for (let xi = X_MIN; xi <= X_MAX; xi += 0.08) {
+      const y = 2 * xi - 2
+      if (y < Y_MIN - 0.5 || y > Y_MAX + 0.5) continue
+      pts.push(`${toX(xi).toFixed(1)},${toY(y).toFixed(1)}`)
+    }
+    return pts.join(' ')
+  }, [toX, toY])
+
+  const diagPath = useMemo(() => {
+    const lo = Math.max(X_MIN, Y_MIN)
+    const hi = Math.min(X_MAX, Y_MAX)
+    return `${toX(lo).toFixed(1)},${toY(lo).toFixed(1)} ${toX(hi).toFixed(1)},${toY(hi).toFixed(1)}`
+  }, [toX, toY])
+
+  return (
+    <div>
+      <p className="enlight-fn-inverse__intro">
+        <strong>f(x) = 0.5x + 1</strong> and its inverse <strong>f⁻¹(x) = 2x − 2</strong> are reflections in the
+        line <strong>y = x</strong>.
+      </p>
+      <div className="enlight-slider-group">
+        <label htmlFor="inv-x"><strong>x</strong> = {x}</label>
+        <input id="inv-x" type="range" min={-0.5} max={4.5} step={0.25} value={x} onChange={(e) => setX(Number(e.target.value))} />
+      </div>
+      <p className="enlight-fn-inverse__readout">
+        ({x}, {fx.toFixed(2)}) on <span style={{ color: '#5b8def' }}>f</span> ↔ ({fx.toFixed(2)}, {x}) on{' '}
+        <span style={{ color: '#059669' }}>f⁻¹</span>
+      </p>
+      <div className="enlight-fn-inverse__legend">
+        <span><i style={{ background: '#5b8def' }} /> f(x) = 0.5x + 1</span>
+        <span><i style={{ background: '#059669' }} /> f⁻¹(x) = 2x − 2</span>
+        <span><i style={{ background: '#94a3b8', opacity: 0.7 }} /> y = x</span>
+      </div>
+      <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Inverse function reflection">
+        <GraphAxes mapper={mapper} gridX={12} gridY={10} />
+        <polyline points={diagPath} fill="none" stroke="#94a3b8" strokeWidth={1.5} strokeDasharray="5 4" />
+        <text x={toX(4.2)} y={toY(4.2) - 8} fontSize={10} fill="#78716c">y = x</text>
+        <polyline points={fPath} fill="none" stroke="#5b8def" strokeWidth={2.5} />
+        <polyline points={invPath} fill="none" stroke="#059669" strokeWidth={2.5} />
+        <line x1={toX(x)} y1={toY(fx)} x2={toX(fx)} y2={toY(x)} stroke="#d97706" strokeWidth={1.5} strokeDasharray="4 3" />
+        <circle cx={toX(x)} cy={toY(fx)} r={6} fill="#5b8def" stroke="#fff" strokeWidth={2} />
+        <circle cx={toX(fx)} cy={toY(x)} r={6} fill="#059669" stroke="#fff" strokeWidth={2} />
+      </svg>
+    </div>
+  )
+}
+
+export function FunctionsVisualGuide({ panels }: { panels?: FnGuidePanel[] }) {
+  const allTabs: { id: Tab; label: string }[] = [
+    { id: 'types', label: 'Mapping types' },
+    { id: 'mapping', label: 'Mapping diagram' },
+    { id: 'composite', label: 'Composite flow' },
+    { id: 'inverse', label: 'Inverse reflection' },
+  ]
+  const activeTabs = panels?.length ? allTabs.filter((t) => panels.includes(t.id)) : allTabs
+  const [tab, setTab] = useState<Tab>(activeTabs[0]?.id ?? 'types')
+  const currentTab = activeTabs.some((t) => t.id === tab) ? tab : activeTabs[0]?.id ?? 'types'
 
   return (
     <section className="enlight-explorer enlight-fn-guide">
@@ -198,28 +282,25 @@ export function FunctionsVisualGuide() {
         functions.
       </p>
 
-      <div className="enlight-fn-tabs">
-        {(
-          [
-            ['types', 'Mapping types'],
-            ['mapping', 'Mapping diagram'],
-            ['composite', 'Composite flow'],
-          ] as const
-        ).map(([id, label]) => (
-          <button
-            key={id}
-            type="button"
-            className={`enlight-fn-tabs__btn${tab === id ? ' enlight-fn-tabs__btn--active' : ''}`}
-            onClick={() => setTab(id)}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
+      {activeTabs.length > 1 && (
+        <div className="enlight-fn-tabs">
+          {activeTabs.map(({ id, label }) => (
+            <button
+              key={id}
+              type="button"
+              className={`enlight-fn-tabs__btn${currentTab === id ? ' enlight-fn-tabs__btn--active' : ''}`}
+              onClick={() => setTab(id)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
 
-      {tab === 'types' && <MappingTypesPanel />}
-      {tab === 'mapping' && <MappingDiagramPanel />}
-      {tab === 'composite' && <CompositeFlowPanel />}
+      {currentTab === 'types' && <MappingTypesPanel />}
+      {currentTab === 'mapping' && <MappingDiagramPanel />}
+      {currentTab === 'composite' && <CompositeFlowPanel />}
+      {currentTab === 'inverse' && <InverseReflectionPanel />}
     </section>
   )
 }

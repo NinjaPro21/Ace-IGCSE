@@ -1,0 +1,77 @@
+{
+  "id": "3-2-map-scales-pyp",
+  "topicId": "3-2-map-scales",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "pyp",
+  "title": "Map Scales — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-map-scales-pyp-q1",
+      "type": "mcq",
+      "question": "The scale of a map is $1 : 25\\,000$. The actual distance between two points is $11.5\\text{ km}$. Calculate the distance between these two points on the map, giving your answer in centimeters.",
+      "options": [
+        "$46\\text{ cm}$",
+        "$4.6\\text{ cm}$",
+        "$28.75\\text{ cm}$",
+        "$460\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert kilometers to centimeters: $11.5\\text{ km} = 11.5 \\times 100\\,000 = 1\\,150\\,000\\text{ cm}$. Map distance = $1\\,150\\,000 \\div 25\\,000 = 46\\text{ cm}$.\n\n**Common mistake:** Dividing $11.5$ by $25$ directly without performing full conversion of kilometers to centimeters."
+    },
+    {
+      "id": "3-2-map-scales-pyp-q2",
+      "type": "mcq",
+      "question": "A map has a scale of $1 : 50\\,000$. A park has an area of $18\\text{ cm}^2$ on the map. Calculate the actual area of the park in square kilometers ($\\text{km}^2$).",
+      "options": [
+        "$4.5\\text{ km}^2$",
+        "$9\\text{ km}^2$",
+        "$0.45\\text{ km}^2$",
+        "$45\\text{ km}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear scale: $1\\text{ cm} : 50\\,000\\text{ cm} \\implies 1\\text{ cm} : 0.5\\text{ km}$. Area scale factor: $1\\text{ cm}^2 : (0.5\\text{ km})^2 = 0.25\\text{ km}^2$. Actual Area = $18 \\times 0.25 = 4.5\\text{ km}^2$.\n\n**Common mistake:** Multiplying $18$ by $0.5$ directly, forgetting to square the linear conversion factor for area questions."
+    },
+    {
+      "id": "3-2-map-scales-pyp-q3",
+      "type": "mcq",
+      "question": "A map scale is given as $1 : 200\\,000$. Find the actual distance, in kilometers, represented by a line of length $8.5\\text{ cm}$ on the map.",
+      "options": [
+        "$17\\text{ km}$",
+        "$170\\text{ km}$",
+        "$1.7\\text{ km}$",
+        "$1700\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual distance in cm = $8.5 \\times 200\\,000 = 1\\,700\\,000\\text{ cm}$. Convert to km by dividing by $100\\,000$: $1\\,700\\,000 \\div 100\\,000 = 17\\text{ km}$.\n\n**Common mistake:** Miscounting zeros or dividing by $10\\,000$ instead of $100\\,000$, yielding $170\\text{ km}$."
+    },
+    {
+      "id": "3-2-map-scales-pyp-q4",
+      "type": "mcq",
+      "question": "A running track is represented on a map of scale $1 : 10\\,000$ by an area of $12\\text{ cm}^2$. What is the area of the track on a map of scale $1 : 50\\,000$?",
+      "options": [
+        "$0.48\\text{ cm}^2$",
+        "$2.4\\text{ cm}^2$",
+        "$0.048\\text{ cm}^2$",
+        "$60\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The linear ratio between the scales is $10\\,000 / 50\\,000 = \\frac{1}{5}$. Since the new map is less detailed (smaller scale), lengths scale down by $\\frac{1}{5}$ and areas scale down by $(\\frac{1}{5})^2 = \\frac{1}{25}$. New map area = $12 \\div 25 = 0.48\\text{ cm}^2$.\n\n**Common mistake:** Dividing the area by $5$ instead of $25$, or multiplying by 5 instead of dividing."
+    },
+    {
+      "id": "3-2-map-scales-pyp-q5",
+      "type": "mcq",
+      "question": "The distance between two points on a map is $6.5\\text{ cm}$. The actual distance is $1.3\\text{ km}$. Find the scale of the map in the form $1 : n$.",
+      "options": [
+        "$1 : 20\\,000$",
+        "$1 : 200\\,000$",
+        "$1 : 2\\,000$",
+        "$1 : 50\\,000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert actual distance to cm: $1.3\\text{ km} = 130\\,000\\text{ cm}$. Scale ratio: $6.5 : 130\\,000$. Divide both sides by $6.5$: $1 : 20\\,000$.\n\n**Common mistake:** Incorrectly dividing $130\\,000$ by $6.5$ due to mental arithmetic errors, leading to incorrect powers of 10."
+    }
+  ]
+}

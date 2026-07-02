@@ -1,0 +1,77 @@
+{
+  "id": "3-1-mass-and-weight-easy",
+  "topicId": "3-1-mass-and-weight",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "easy",
+  "title": "Mass and Weight — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-1-mass-and-weight-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following correctly defines the mass of an object?",
+      "options": [
+        "A measure of the quantity of matter in an object",
+        "A gravitational force acting on an object",
+        "The volume of space occupied by an object",
+        "The product of an object's weight and gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is defined as a measure of the quantity of matter in an object at rest relative to the observer. \n\n**Common mistake:** Confusing mass with weight, which is the force caused by gravity."
+    },
+    {
+      "id": "3-1-mass-and-weight-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for weight?",
+      "options": [
+        "newton ($N$)",
+        "kilogram ($kg$)",
+        "kilogram per cubic metre ($kg/m^3$)",
+        "joule ($J$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight is a force, and the SI unit for all forces is the newton ($N$). \n\n**Common mistake:** Selecting kilograms ($kg$), which is the SI unit for mass."
+    },
+    {
+      "id": "3-1-mass-and-weight-easy-q3",
+      "type": "mcq",
+      "question": "A bag of rice has a mass of $5\\text{ kg}$. Taking $g = 10\\text{ N/kg}$, what is its weight on Earth?",
+      "options": [
+        "$50\\text{ N}$",
+        "$0.5\\text{ N}$",
+        "$5\\text{ N}$",
+        "$50\\text{ kg}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $W = mg$: $W = 5\\text{ kg} \\times 10\\text{ N/kg} = 50\\text{ N}$. \n\n**Common mistake:** Forgetting to multiply by $g$ and thinking the weight is simply $5\\text{ N}$."
+    },
+    {
+      "id": "3-1-mass-and-weight-easy-q4",
+      "type": "mcq",
+      "question": "How does the mass of an object change when it is moved from the Earth to the Moon?",
+      "options": [
+        "It remains constant",
+        "It decreases because gravity is weaker",
+        "It increases because the Moon is smaller",
+        "It becomes zero in space"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mass of a body is not affected by changes in the physical environment like location because the quantity of matter remains the same. \n\n**Common mistake:** Thinking mass decreases because weight decreases on the Moon."
+    },
+    {
+      "id": "3-1-mass-and-weight-easy-q5",
+      "type": "mcq",
+      "question": "Which instrument is typically used to measure or compare the masses of objects?",
+      "options": [
+        "Beam balance",
+        "Spring balance",
+        "Measuring cylinder",
+        "Metre rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Masses and weights may be compared using a balance, such as a simple beam balance or an electronic balance. \n\n**Common mistake:** Selecting a spring balance, which is primarily designed to measure weight (force)."
+    }
+  ]
+}

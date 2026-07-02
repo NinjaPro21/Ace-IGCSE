@@ -1,0 +1,77 @@
+{
+  "id": "6-1-energy-hard",
+  "topicId": "6-1-energy",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "hard",
+  "title": "Energy — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-1-energy-hard-q1",
+      "type": "mcq",
+      "question": "A $2.0\\text{ kg}$ flower pot falls from a height of $45\\text{ m}$ in a vacuum. Calculate its speed just before it hits the ground. ($g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$30\\text{ m/s}$",
+        "$900\\text{ m/s}$",
+        "$45\\text{ m/s}$",
+        "$20\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial $GPE = mgh = 2 \\times 10 \\times 45 = 900\\text{ J}$. This converts to $KE$: $900 = \\frac{1}{2}mv^2 rightarrow 900 = 0.5 \\times 2 \\times v^2 rightarrow v^2 = 900 rightarrow v = 30\\text{ m/s}$. \n\n**Common mistake:** Providing the value of $v^2$ ($900$) as the speed."
+    },
+    {
+      "id": "6-1-energy-hard-q2",
+      "type": "mcq",
+      "question": "A bullet of mass $20\\text{ g}$ travels at a speed of $1200\\text{ m/s}$. Calculate its kinetic energy.",
+      "options": [
+        "$14 400\\text{ J}$",
+        "$24 000\\text{ J}$",
+        "$14.4\\text{ J}$",
+        "$28 800\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kg: $20\\text{ g} = 0.02\\text{ kg}$. Then $E_k = 0.5 \\times 0.02 \\times 1200^2 = 0.01 \\times 1 440 000 = 14 400\\text{ J}$. \n\n**Common mistake:** Using mass in grams ($20$) directly in the formula, leading to an answer $1000$ \\times too large."
+    },
+    {
+      "id": "6-1-energy-hard-q3",
+      "type": "mcq",
+      "question": "A roller coaster descends from $30\\text{ m}$ to $10\\text{ m}$ above the ground. If $20\\%$ of the gravitational potential energy lost is dissipated as heat and sound, what happens to the remaining $80\\%$?",
+      "options": [
+        "It is converted into kinetic energy",
+        "It is destroyed according to the efficiency law",
+        "It remains as gravitational potential energy",
+        "It is converted into chemical energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The principle of conservation of energy states total energy is constant. If $20\\%$ is wasted, the rest ($80\\%$) of the lost potential energy must convert into kinetic energy. \n\n**Common mistake:** Thinking the $80\\%$ refers to the total energy at the start rather than just the lost portion."
+    },
+    {
+      "id": "6-1-energy-hard-q4",
+      "type": "mcq",
+      "question": "An ideal pendulum in a vacuum is displaced and released. Why will it swing forever?",
+      "options": [
+        "The total amount of energy is conserved and no energy is dissipated",
+        "Gravitational potential energy is continuously created",
+        "Kinetic energy increases every time it reaches the midpoint",
+        "The force of gravity is zero at the bottom of the swing"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an 'ideal' system in a vacuum, there is no air resistance or friction. Energy only converts between GPE and KE without being dissipated to the surroundings. \n\n**Common mistake:** Believing energy is being 'added' to keep it moving."
+    },
+    {
+      "id": "6-1-energy-hard-q5",
+      "type": "mcq",
+      "question": "A robot waiter uses electrical energy to move food at a constant height. One guest says 'The electrical energy is used up as the robot moves'. Why is this explanation scientifically incorrect?",
+      "options": [
+        "Energy cannot be used up; it must be converted to other forms",
+        "The robot is not doing any work if the height is constant",
+        "The electrical energy is converted into extra gravitational potential energy",
+        "Electrical energy is only used to power the flashing lights"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the principle of conservation of energy, energy is never 'used up' or destroyed; it is converted (e.g., to KE or thermal energy). \n\n**Common mistake:** Using the everyday term 'using up energy' in a strict scientific context."
+    }
+  ]
+}

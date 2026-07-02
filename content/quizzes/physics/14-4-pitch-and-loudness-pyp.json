@@ -1,0 +1,77 @@
+{
+  "id": "14-4-pitch-and-loudness-pyp",
+  "topicId": "14-4-pitch-and-loudness",
+  "chapterId": "ch14-sound",
+  "difficulty": "pyp",
+  "title": "Pitch and Loudness — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-4-pitch-and-loudness-pyp-q1",
+      "type": "mcq",
+      "question": "A guitar plays a louder note but at a lower pitch compared to a violin. Which of the following is correct?",
+      "options": [
+        "Violin's amplitude: Lower; Guitar's frequency: Lower",
+        "Violin's amplitude: Higher; Guitar's frequency: Higher",
+        "Violin's amplitude: Higher; Guitar's frequency: Lower",
+        "Violin's amplitude: Lower; Guitar's frequency: Higher"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Section A, Q4. The guitar is louder (higher amp), so the violin has lower amp. The guitar is lower pitch, so its frequency is lower. **Common mistake:** Swapping the properties of the two instruments."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-pyp-q2",
+      "type": "mcq",
+      "question": "An oscilloscope is used to show the waveforms of two different sounds. Wave 1 has peaks that are taller than Wave 2, and the peaks in Wave 1 are closer together than in Wave 2. Which statement is correct?",
+      "options": [
+        "Wave 1 is louder and has a higher pitch than Wave 2",
+        "Wave 1 is quieter and has a lower pitch than Wave 2",
+        "Wave 1 is louder and has a lower pitch than Wave 2",
+        "Wave 1 is quieter and has a higher pitch than Wave 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taller peaks mean larger amplitude (louder). Peaks closer together mean higher frequency (higher pitch). **Common mistake:** Thinking 'closer together' means a longer period and lower pitch."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-pyp-q3",
+      "type": "mcq",
+      "question": "A student strikes a tuning fork and then strikes it again more forcefully. What is the effect on the sound produced?",
+      "options": [
+        "The loudness increases but the pitch stays the same",
+        "The pitch increases but the loudness stays the same",
+        "Both the pitch and the loudness increase",
+        "The speed of the sound increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Striking the fork more forcefully provides more energy, increasing amplitude/loudness. The frequency (pitch) is a property of the fork's physical dimensions. **Common mistake:** Thinking 'force' determines the note's frequency."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies how to produce a sound with a higher pitch and a sound with a higher loudness?nn| | To increase pitch | To increase loudness |n| :--- | :--- | :--- |n| A | Increase frequency | Increase amplitude |n| B | Increase amplitude | Increase frequency |n| C | Decrease frequency | Decrease amplitude |n| D | Increase wavelength | Decrease period |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch is defined by frequency and loudness by amplitude. **Common mistake:** Row B, which swaps the two fundamental definitions."
+    },
+    {
+      "id": "14-4-pitch-and-loudness-pyp-q5",
+      "type": "mcq",
+      "question": "A musician shortens the length of a vibrating string on a violin. What is the effect on the sound produced?",
+      "options": [
+        "The frequency increases and the pitch becomes higher",
+        "The amplitude increases and the sound becomes louder",
+        "The wavelength increases and the pitch becomes lower",
+        "The speed of sound in air increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shortening the string causes it to vibrate faster (higher frequency), which results in a higher pitch. **Common mistake:** Thinking that shortening the string makes it 'louder'."
+    }
+  ]
+}

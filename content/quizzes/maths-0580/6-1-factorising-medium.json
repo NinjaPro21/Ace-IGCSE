@@ -1,0 +1,77 @@
+{
+  "id": "6-1-factorising-medium",
+  "topicId": "6-1-factorising",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Factorising — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-1-factorising-medium-q1",
+      "type": "mcq",
+      "question": "Factorise completely: $xy - 3x + 2y - 6$.",
+      "options": [
+        "$(x + 2)(y - 3)$",
+        "$(x - 3)(y + 2)$",
+        "$(x - 2)(y - 3)$",
+        "$(x + 2)(y + 3)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Group the expression into two pairs: $(xy - 3x) + (2y - 6)$. Factorise each pair: $x(y - 3) + 2(y - 3)$. Since $(y - 3)$ is a common binomial factor, factor it out to get $(x + 2)(y - 3)$.\n\n**Common mistake:** Students may mismatch signs when grouping, resulting in non-identical brackets like $(y-3)$ and $(y+3)$."
+    },
+    {
+      "id": "6-1-factorising-medium-q2",
+      "type": "mcq",
+      "question": "Factorise completely: $6am - 3an - 2bm + bn$.",
+      "options": [
+        "$(3a - b)(2m - n)$",
+        "$(3a + b)(2m - n)$",
+        "$(3a - b)(2m + n)$",
+        "$(6a - 2b)(m - n)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Group the terms into pairs: $(6am - 3an) - (2bm - bn)$. Extract the HCF from each pair: $3a(2m - n) - b(2m - n)$. Notice that extracting $-b$2$(3a - b)(2m - n)$.\n\n**Common mistake:** Failing to change the sign inside the second bracket when factoring out a negative factor (e.g., leaving it as $-b(2m + n)$)."
+    },
+    {
+      "id": "6-1-factorising-medium-q3",
+      "type": "mcq",
+      "question": "Factorise completely: $x^2 - 7x + 12$.",
+      "options": [
+        "$(x - 3)(x - 4)$",
+        "$(x - 2)(x - 5)$",
+        "$(x + 3)(x + 4)$",
+        "$(x - 1)(x - 12)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$2$-7x$."
+    },
+    {
+      "type": "mcq",
+      "question": "Factorise by grouping: $6m + 4n - 9km - 6kn$.",
+      "options": [
+        "$(2 - 3k)(3m + 2n)$",
+        "$(2 + 3k)(3m - 2n)$",
+        "$(3m + 2n)(2k - 3)$",
+        "$2(3m + 2n) - 3k(3m - 2n)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Group the first two terms $2(3m + 2n)$ and the last two terms $-3k(3m + 2n)$. Factor out the common bracket $(3m + 2n)$ to get $(2 - 3k)(3m + 2n)$.\n\n**Common mistake:** Incorrectly handling the negative sign when factoring out $-3k$, leading to sign errors inside the second bracket.",
+      "id": "6-1-factorising-medium-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Factorise the quadratic expression: $x^2 + 5x + 6$.",
+      "options": [
+        "$(x + 2)(x + 3)$",
+        "$(x + 1)(x + 6)$",
+        "$(x - 2)(x - 3)$",
+        "$(x + 5)(x + 1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find two numbers that multiply to 6 and add to 5; these are 2 and 3.\n\n**Common mistake:** Choosing 1 and 6, which multiply to 6 but add to 7.",
+      "id": "6-1-factorising-medium-q5"
+    }
+  ]
+}

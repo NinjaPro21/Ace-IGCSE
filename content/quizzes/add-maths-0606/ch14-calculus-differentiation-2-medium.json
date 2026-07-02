@@ -69,7 +69,7 @@
         " $-1$ "
       ],
       "correctIndex": 0,
-      "explanation": "Using the product rule, $\\frac{dy}{dx} = -3e^{-3x}(x^2 + 1) + e^{-3x}(2x)$. Substituting $x = 0$ gives $-3e^{0}(0 + 1) + e^{0}(0) = -3(1) + 0 = -3$.\n\n**Common mistake:** Students often evaluate $e^0$ as $0$ instead of $1$, which would cause them to incorrectly evaluate the whole expression as $0$ (option C)."
+      "explanation": "Using the product rule, $\\frac{dy}{dx} = -3e^{-3x}(x^2 + 1) + e^{-3x}(2x)$. Substituting $x = 0$ gives $-3e^{0}(0 + 1) + e^{0}(0) = -3(1) + 0 = -3$.\n\n**Common mistake:** Students often evaluate $e^0$ as^0 instead of^1, which would cause them to incorrectly evaluate the whole expression as^0 (option C)."
     }
   ]
 }

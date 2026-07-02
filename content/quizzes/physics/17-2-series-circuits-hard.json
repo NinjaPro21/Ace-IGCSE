@@ -1,0 +1,77 @@
+{
+  "id": "17-2-series-circuits-hard",
+  "topicId": "17-2-series-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "hard",
+  "title": "Series Circuits — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-2-series-circuits-hard-q1",
+      "type": "mcq",
+      "question": "Three resistors ($2\\text{ }Omega, 4\\text{ }Omega, 6\\text{ }Omega$) are connected in series with a $12\\text{ V}$ battery. Calculate the power dissipated by the $4\\text{ }Omega$ resistor.",
+      "options": [
+        "$4.0\\text{ W}$",
+        "$2.0\\text{ W}$",
+        "$12.0\\text{ W}$",
+        "$1.0\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total $R = 2 + 4 + 6 = 12\\text{ }Omega$. Current $I = 12 / 12 = 1\\text{ A}$. Power $P = I^2R$ (or $IV$). P.d. across $4\\text{ }Omega$ is $1 \\times 4 = 4\\text{ V}$. $P = 1\\text{ A} \\times 4\\text{ V} = 4.0\\text{ W}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-hard-q2",
+      "type": "mcq",
+      "question": "A series circuit consists of a source and two resistors. Resistor A has twice the resistance of Resistor B. What is the ratio of the potential difference across A to that across B?",
+      "options": [
+        "$2 : 1$",
+        "$1 : 2$",
+        "$1 : 1$",
+        "$4 : 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In series, $V_A = IR_A$ and $V_B = IR_B$. Since the current $I$ is the same, $V_A / V_B = R_A / R_B$. If $R_A = 2R_B$, then $V_A = 2V_B$, giving a $2 : 1$ ratio.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-hard-q3",
+      "type": "mcq",
+      "question": "A student adds a second identical battery in series to a circuit containing a single lamp. How does this affect the current in the circuit and the brightness of the lamp?",
+      "options": [
+        "Current increases and brightness increases",
+        "Current decreases and brightness increases",
+        "Current increases and brightness remains same",
+        "Current remains same and brightness decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding batteries in series increases the total e.m.f. ($V_{total} = V_1 + V_2$). Since $I = V_{total} / R$, the current increases, making the lamp brighter.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-hard-q4",
+      "type": "mcq",
+      "question": "A potential divider consists of two resistors, $R_1 = 200\\text{ }Omega$ and $R_2 = 600\\text{ }Omega$, connected in series with a $12\\text{ V}$ source. What is the output voltage measured across $R_2$?",
+      "options": [
+        "$9\\text{ V}$",
+        "$3\\text{ V}$",
+        "$6\\text{ V}$",
+        "$4\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the potential divider formula: $V_{out} = [R_2 / (R_1 + R_2)] \\times V_{in} = [600 / (200 + 600)] \\times 12 = 0.75 \\times 12 = 9\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-hard-q5",
+      "type": "mcq",
+      "question": "In a series circuit, the total resistance is $50\\text{ }Omega$. When an additional resistor of $10\\text{ }Omega$ is added in series, the current drops by $0.1\\text{ A}$. What was the original e.m.f. of the source?",
+      "options": [
+        "$30\\text{ V}$",
+        "$5\\text{ V}$",
+        "$60\\text{ V}$",
+        "$10\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Original: $I_1 = V / 50$. New: $I_2 = V / 60$. We know $I_1 - I_2 = 0.1$. So $V/50 - V/60 = 0.1 rightarrow (6V - 5V) / 300 = 0.1 rightarrow V / 300 = 0.1$, so $V = 30\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

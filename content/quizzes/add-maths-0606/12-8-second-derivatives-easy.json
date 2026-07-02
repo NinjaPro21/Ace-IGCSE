@@ -1,0 +1,77 @@
+{
+  "id": "12-8-second-derivatives-easy",
+  "topicId": "12-8-second-derivatives",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "easy",
+  "title": "Second Derivatives — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-8-second-derivatives-easy-q1",
+      "type": "mcq",
+      "question": "If $y = x^4 + 3x^2$, find the second derivative $\\frac{d^2y}{dx^2}$.",
+      "options": [
+        "12x^2 + 6",
+        "4x³ + 6x",
+        "12x + 6",
+        "x⁴ + 3x^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "First derivative $\\frac{dy}{dx}$ = 4x³ + 6x. Differentiating again, d^2 y/dx^2 = 12x^2 + 6.\n\n**Common mistake:** Providing the first derivative (4x³ + 6x) as the final answer."
+    },
+    {
+      "id": "12-8-second-derivatives-easy-q2",
+      "type": "mcq",
+      "question": "Given $f(x) = 5x^3 - 2x + 10$, find $f''(x)$.",
+      "options": [
+        "30x",
+        "15x^2 - 2",
+        "30",
+        "15x"
+      ],
+      "correctIndex": 0,
+      "explanation": "f'(x) = 15x^2 - 2. f''(x) = 30x.\n\n**Common mistake:** Losing the variable x during the second differentiation, leading to a constant 30."
+    },
+    {
+      "id": "12-8-second-derivatives-easy-q3",
+      "type": "mcq",
+      "question": "Find the value of $d^2y/dx^2$ for $y = 2x^5$ at the point where $x = 1$.",
+      "options": [
+        "40",
+        "10",
+        "20",
+        "80"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 10x⁴. d^2 y/dx^2 = 40x³. At x=1, 40(1)³ = 40.\n\n**Common mistake:** Evaluating the first derivative at x=1 (10) instead of the second derivative."
+    },
+    {
+      "id": "12-8-second-derivatives-easy-q4",
+      "type": "mcq",
+      "question": "If $y = 7x + 5$, what is the second derivative?",
+      "options": [
+        "0",
+        "7",
+        "5",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 7. The derivative of a constant (7) is 0.\n\n**Common mistake:** Thinking the second derivative is the same as the first derivative (7)."
+    },
+    {
+      "id": "12-8-second-derivatives-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following notations represents the second derivative?",
+      "options": [
+        "d^2 y / dx^2",
+        "($\\frac{dy}{dx}$)$^2$",
+        "dy^2 / dx^2",
+        "d^2 y / d^2 x"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard Leibniz notation for the second derivative is d^2 y / dx^2.\n\n**Common mistake:** Confusing the notation with squaring the first derivative."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "10-5-applications-and-consequences-of-thermal-energy-tran-pyp",
+  "topicId": "10-5-applications-and-consequences-of-thermal-energy-tran",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "pyp",
+  "title": "Applications and Consequences of Thermal Energy Transfer — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-pyp-q1",
+      "type": "mcq",
+      "question": "A vacuum flask is used to keep a cold drink cool. Which row correctly identifies the function of the vacuum and the silvered surfaces?",
+      "options": [
+        "Vacuum: Stops conduction/convection; Silvering: Reflects external radiation",
+        "Vacuum: Stops radiation; Silvering: Stops conduction",
+        "Vacuum: Stops convection only; Silvering: Stops all heat transfer",
+        "Vacuum: Reflects radiation; Silvering: Stops convection"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vacuum removes particles needed for conduction and convection. The silvering reflects infrared radiation from the surroundings away from the cold drink. \n\n**Common mistake:** Swapping the roles of the vacuum and the silvered surfaces."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-pyp-q2",
+      "type": "mcq",
+      "question": "Which set of conditions for a house in a cold climate would result in the lowest rate of thermal energy loss?",
+      "options": [
+        "Double-glazed windows and fibreglass in the roof",
+        "Large single-pane windows and a black roof",
+        "Open ventilation and metal external walls",
+        "Thin wooden walls and no ceiling insulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Double-glazing and fibreglass both utilize trapped air as an insulator to significantly reduce conduction and convection losses. \n\n**Common mistake:** Thinking a black roof is better for keeping heat 'in'; it would actually emit more radiation."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-pyp-q3",
+      "type": "mcq",
+      "question": "The table shows the thermal conductivity of four materials. Based on this, which material should be used for the base of a frying pan and which for the handle?nn| Material | Conductivity |n| :--- | :--- |n| P | Very High |n| Q | Medium |n| R | Low |n| S | Very Low |",
+      "options": [
+        "Base: P; Handle: S",
+        "Base: S; Handle: P",
+        "Base: Q; Handle: R",
+        "Base: P; Handle: Q"
+      ],
+      "correctIndex": 0,
+      "explanation": "The base needs to conduct heat quickly to the food (P), while the handle needs to be an insulator to protect the user (S). \n\n**Common mistake:** Choosing 'Very High' (P) for both, which would result in a burnt hand."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-pyp-q4",
+      "type": "mcq",
+      "question": "A graph is plotted showing the temperature of hot water in two identical flasks over time. Flask A is silvered and Flask B is black. Which description of the graph is correct?",
+      "options": [
+        "The line for Flask B has a steeper negative gradient than Flask A",
+        "The line for Flask A has a steeper negative gradient than Flask B",
+        "Both flasks will show identical horizontal lines",
+        "The lines will have a positive gradient as the water warms up"
+      ],
+      "correctIndex": 0,
+      "explanation": "The black flask (B) is a better emitter of radiation, so it loses energy faster. This results in a steeper temperature drop (gradient) on the graph. \n\n**Common mistake:** Thinking the silver flask cools faster because it 'reflects' heat outwards."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-pyp-q5",
+      "type": "mcq",
+      "question": "Why does wearing several layers of thin clothing keep a person warmer than one single layer of thick clothing?",
+      "options": [
+        "Thin layers trap layers of still air which are good insulators",
+        "Thin layers are better at absorbing infrared radiation from the skin",
+        "The friction between the multiple layers creates extra thermal energy",
+        "Multiple layers increase the total mass and thus the heat capacity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The air trapped between the thin layers acts as an excellent insulator, preventing heat loss by conduction and convection. \n\n**Common mistake:** Thinking the material itself provides the heat rather than just preventing its loss."
+    }
+  ]
+}

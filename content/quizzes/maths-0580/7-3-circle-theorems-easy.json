@@ -1,0 +1,77 @@
+{
+  "id": "7-3-circle-theorems-easy",
+  "topicId": "7-3-circle-theorems",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "easy",
+  "title": "Circle Theorems — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-3-circle-theorems-easy-q1",
+      "type": "mcq",
+      "question": "A triangle is drawn inside a circle such that one side is the diameter. If one of the other angles is $34°$, calculate the size of the third angle.",
+      "options": [
+        "$56°$",
+        "$90°$",
+        "$146°$",
+        "$112°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle in a semi-circle is always $90°$. Therefore, the third angle is $180 - 90 - 34 = 56°$.\n\n**Common mistake:** A student might forget that the angle at the circumference subtended by a diameter is $90°$ and try to divide $146$ by $2$ instead."
+    },
+    {
+      "id": "7-3-circle-theorems-easy-q2",
+      "type": "mcq",
+      "question": "In a circle with centre $O$2$AB$2$110°$. Calculate the angle at the circumference subtended by the same arc.",
+      "options": [
+        "$55°$",
+        "$220°$",
+        "$70°$",
+        "$90°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle at the centre is twice the angle at the circumference. So, $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might multiply by $2$ instead of dividing, or subtract from $180°$."
+    },
+    {
+      "id": "7-3-circle-theorems-easy-q3",
+      "type": "mcq",
+      "question": "Identify the relationship between opposite angles in a cyclic quadrilateral.",
+      "options": [
+        "They sum to $180°$",
+        "They are equal to each other",
+        "They sum to $360°$",
+        "They are complementary ($90°$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By circle theorem, the opposite angles of a cyclic quadrilateral (a four-sided shape with all vertices on the circumference) are supplementary.\n\n**Common mistake:** Students often assume opposite angles are equal, which is only true for specific shapes like rectangles or parallelograms."
+    },
+    {
+      "id": "7-3-circle-theorems-easy-q4",
+      "type": "mcq",
+      "question": "Points $P, Q, R,$ and $S$2$PQS = 42°$, what is the size of angle $PRS$?",
+      "options": [
+        "$42°$",
+        "$84°$",
+        "$21°$",
+        "$138°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles in the same segment (subtended by the same arc $PS$2$∠PRS = ∠PQS = 42°$.\n\n**Common mistake:** The student might assume the angle at the circumference is half of the given angle or double it."
+    },
+    {
+      "id": "7-3-circle-theorems-easy-q5",
+      "type": "mcq",
+      "question": "A tangent meets a radius at the point of contact on the circumference. What is the size of the angle formed between them?",
+      "options": [
+        "$90°$",
+        "$180°$",
+        "$45°$",
+        "It depends on the circle size"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tangent to a circle is always perpendicular ($90°$) to the radius at the point of contact.\n\n**Common mistake:** A student might think the angle changes based on the gradient of the tangent."
+    }
+  ]
+}

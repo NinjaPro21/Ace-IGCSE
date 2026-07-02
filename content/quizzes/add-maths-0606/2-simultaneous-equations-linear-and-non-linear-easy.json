@@ -1,0 +1,77 @@
+{
+  "id": "2-simultaneous-equations-linear-and-non-linear-easy",
+  "topicId": "2-simultaneous-equations-linear-and-non-linear",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "easy",
+  "title": "Simultaneous Equations (Linear and Non-Linear) — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-simultaneous-equations-linear-and-non-linear-easy-q1",
+      "type": "mcq",
+      "question": "Given the equations y=x+3 and y= x^{2}−9, which of the following quadratic equations is obtained by substituting the linear equation into the non-linear equation?",
+      "options": [
+        "$x^{2}$−x−12=0",
+        "$x^{2}$+x+12=0",
+        "$x^{2}$−x−6=0",
+        "$x^{2}$+x−12=0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute y=x+3 into the second equation: x+3= x^{2}−9. Rearranging to one side gives $x^{2}$−x−12=0.\n\n**Common mistake:** Students often make sign errors when moving terms across the equals sign, resulting in $x^{2}$+x−12=0 or similar variations."
+    },
+    {
+      "id": "2-simultaneous-equations-linear-and-non-linear-easy-q2",
+      "type": "mcq",
+      "question": "One solution to the system y=2x−1 and xy=6 has an x-coordinate of 2. Find the corresponding y-coordinate.",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since (x,y) must satisfy both equations, substitute x=2 into xy=6 to get 2y=6, so y=3.\n\n**Common mistake:** A student might substitute into the linear equation y=2(2)−1=3 correctly, but if they pick a different option, it's usually due to a calculation error like 2(2)+1=5."
+    },
+    {
+      "id": "2-simultaneous-equations-linear-and-non-linear-easy-q3",
+      "type": "mcq",
+      "question": "Which of these points is a solution to the simultaneous equations x+y=5 and y= x^{2}−1?",
+      "options": [
+        "(2, 3)",
+        "(3, 2)",
+        "(1, 4)",
+        "(2, 5)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Check (2, 3): 2+3=5 (correct) and 3= 2^{2}−1 (correct).\n\n**Common mistake:** Students may find a point that only satisfies the linear equation (like (1, 4)) and fail to check it against the second equation."
+    },
+    {
+      "id": "2-simultaneous-equations-linear-and-non-linear-easy-q4",
+      "type": "mcq",
+      "question": "To solve 2x+y=8 and y=3$x^{2}$−x+2, what is the most efficient first step?",
+      "options": [
+        "Substitute y=8−2x into the quadratic equation.",
+        "Substitute x=(8−y)/2 into the quadratic equation.",
+        "Square the linear equation.",
+        "Subtract the linear equation from the quadratic equation."
+      ],
+      "correctIndex": 0,
+      "explanation": "Expressing the linear variable with a coefficient of 1 (here, y) in terms of the other is the standard substitution method.\n\n**Common mistake:** Choosing to isolate x instead of y leads to working with $fractions$, which increases the likelihood of arithmetic errors."
+    },
+    {
+      "id": "2-simultaneous-equations-linear-and-non-linear-easy-q5",
+      "type": "mcq",
+      "question": "If y=k is a horizontal line and y= x^{2}+4, find the value of k for which there is only one point of intersection.",
+      "options": [
+        "4",
+        "0",
+        "-4",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The quadratic $x^{2}$+4 has its minimum vertex at (0,4). A horizontal line only touches it at one point if it passes through this vertex.\n\n**Common mistake:** Picking 0 because they assume 'one solution' means the x-intercepts of a standard parabola."
+    }
+  ]
+}

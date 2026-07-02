@@ -1,0 +1,77 @@
+{
+  "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-hard",
+  "topicId": "14-2-derivatives-of-logarithmic-functions-harder-topic",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "hard",
+  "title": "Derivatives of Logarithmic Functions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "Find the derivative of $y = \\ln\\left(\\frac{x+1}{x-1}\\right)$.",
+      "options": [
+        "-2 / (x^2 - 1)",
+        "2 / (x^2 - 1)",
+        "1 / (x+1) - 1 / (x-1)",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: ln(x+1) - ln(x-1). Derivative = 1/(x+1) - 1/(x-1) = [(x-1) - (x+1)] / (x^2-1) = -2 / (x^2-1).\n\n**Common mistake:** Attempting to use the quotient rule inside the logarithm without expanding it first."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "Differentiate $y = \\ln(\\sqrt{x^2 + 1})$.",
+      "options": [
+        "x / (x^2 + 1)",
+        "1 / (x^2 + 1)",
+        "2x / (x^2 + 1)",
+        "1 / (2\\sqrt{x^2 + 1})"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: 0.5 ln(x^2 + 1). Derivative = 0.5 * (2x / (x^2 + 1)) = x / (x^2 + 1).\n\n**Common mistake:** Failing to account for the square root power (0.5) when differentiating."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "Find the equation of the tangent to $y = \\ln x$2$y = 0$.",
+      "options": [
+        "y = x - 1",
+        "y = x",
+        "y = x + 1",
+        "y = 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "y = 0 implies ln x = 0, so x = 1. $\\frac{dy}{dx}$ = 1/x; at x=1, m = 1. Equation: y - 0 = 1(x - 1) => y = x - 1.\n\n**Common mistake:** Using x=0 as the point, which is impossible as ln 0 is undefined."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "Determine $dy/dx$2$y = \\ln(x e^x)$.",
+      "options": [
+        "1/x + 1",
+        "e^x / x",
+        "1 / (x e^x)",
+        "x + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: ln x + ln(e^x) = ln x + x. Derivative = 1/x + 1.\n\n**Common mistake:** Using the product rule unnecessarily or incorrectly differentiating the e^x term."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "Find the stationary point of the curve $y = \\ln x - x$.",
+      "options": [
+        "(1, -1)",
+        "(1, 0)",
+        "(e, 0)",
+        "No stationary points"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 1/x - 1. Set to 0: 1/x = 1 => x = 1. y = ln 1 - 1 = -1.\n\n**Common mistake:** Mistakenly identifying the stationary point as (1, 0)."
+    }
+  ]
+}

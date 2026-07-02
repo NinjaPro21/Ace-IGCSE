@@ -1,0 +1,337 @@
+{
+  "id": "ch17-electrical-circuits-and-electrical-safety-easy",
+  "topicId": "ch17-electrical-circuits-and-electrical-safety",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "easy",
+  "title": "Chapter 17: Electrical Circuits and Electrical Safety — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q1",
+      "type": "mcq",
+      "question": "What is the primary function of a dry cell or battery in an electrical circuit?",
+      "options": [
+        "To provide energy to drive the charge around the circuit",
+        "To measure the amount of current flowing through a wire",
+        "To increase the resistance of the circuit components",
+        "To prevent the flow of electrons in a specific direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a battery or dry cell is an energy provider that supplies the energy to drive a charge around the circuit. \n\n**Common mistake:** Thinking the battery 'creates' the electrons, rather than providing the energy to move them."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q2",
+      "type": "mcq",
+      "question": "Which component is specifically designed to allow current to flow in only one direction?",
+      "options": [
+        "Diode",
+        "Fixed resistor",
+        "Filament lamp",
+        "Voltmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A semiconductor diode only allows current to flow in one direction. \n\n**Common mistake:** Selecting a resistor, which allows current to flow in either direction, although it opposes the flow."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q3",
+      "type": "mcq",
+      "question": "Which instrument is used to measure the potential difference (p.d.) across a circuit component?",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Ohmmeter",
+        "Potentiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material states that a voltmeter is used to measure the electromotive force (e.m.f.) of a cell or the potential difference (p.d.) across a component. \n\n**Common mistake:** Confusing it with an ammeter, which measures current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q4",
+      "type": "mcq",
+      "question": "What happens to the current in a circuit when a switch is opened?",
+      "options": [
+        "The circuit is broken and current stops flowing.",
+        "The current reverses its direction of flow.",
+        "The resistance of the circuit becomes zero.",
+        "The battery begins to charge itself."
+      ],
+      "correctIndex": 0,
+      "explanation": "Opening a switch breaks the circuit, creating a gap that prevents the flow of charge. \n\n**Common mistake:** Thinking an 'open' switch means the path is 'open' for current to travel through."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following is the standard SI unit for electrical resistance?",
+      "options": [
+        "ohm ($Omega$)",
+        "volt (V)",
+        "ampere (A)",
+        "joule (J)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is measured in ohms, represented by the Greek letter $Omega$. \n\n**Common mistake:** Selecting the ampere, which is the unit for electric current."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q6",
+      "type": "mcq",
+      "question": "In a series circuit, what is the value of the electric current at different points in the circuit?",
+      "options": [
+        "It is the same at every point",
+        "It is highest near the positive terminal",
+        "It is highest near the negative terminal",
+        "It is shared between the components"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the current in a series circuit is the same at every point. \n\n**Common mistake:** thinking current is 'used up' by components."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q7",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the combined resistance $R$ of two resistors, $R_1$ and $R_2$, connected in series?",
+      "options": [
+        "$R = R_1 + R_2$",
+        "$R = R_1 \\times R_2$",
+        "$1/R = 1/R_1 + 1/R_2$",
+        "$R = R_1 - R_2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the combined resistance of resistors in series is the sum of all the individual resistances. The reciprocal formula is used for parallel circuits.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q8",
+      "type": "mcq",
+      "question": "What happens to the remaining lamps in a series circuit if one of the lamps blows?",
+      "options": [
+        "They all go out because the circuit is broken",
+        "They stay lit but become dimmer",
+        "They stay lit and become brighter",
+        "Only the lamps before the blown one stay lit"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series circuit, there is only one path for the current. If any component fails, the circuit becomes open (broken) and no current can flow. This is mentioned as a disadvantage in the sources.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q9",
+      "type": "mcq",
+      "question": "A $9\\text{ V}$ battery is connected to two lamps in series. If the potential difference (p.d.) across the first lamp is $5\\text{ V}$, what is the p.d. across the second lamp?",
+      "options": [
+        "$4\\text{ V}$",
+        "$9\\text{ V}$",
+        "$14\\text{ V}$",
+        "$5\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the sum of the potential differences across components in a series circuit is equal to the total e.m.f. of the source ($5 + 4 = 9\\text{ V}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q10",
+      "type": "mcq",
+      "question": "Which electrical unit is used to measure resistance?",
+      "options": [
+        "Ohm ($Omega$)",
+        "Volt (V)",
+        "Ampere (A)",
+        "Watt (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ohm ($Omega$) is the unit of resistance. The volt is for potential difference, the ampere for current, and the watt for power.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q11",
+      "type": "mcq",
+      "question": "In a parallel circuit, what is true about the potential difference (p.d.) across each branch?",
+      "options": [
+        "The p.d. across each branch is the same as the source e.m.f.",
+        "The sum of the p.d. across each branch equals the source e.m.f.",
+        "The p.d. decreases as more branches are added.",
+        "The branch with the highest resistance has the highest p.d."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the Law of potential difference in parallel circuits, $V_E = V_1 = V_2$. Each branch receives the full voltage of the source. \n\n**Common mistake:** Thinking potential difference is shared as it is in series circuits."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q12",
+      "type": "mcq",
+      "question": "How is the total current from the source related to the individual branch currents in a parallel circuit?",
+      "options": [
+        "The total current is the sum of the currents in each branch.",
+        "The total current is equal to the current in the smallest branch.",
+        "The total current is the average of all branch currents.",
+        "The total current is the same as the current in any single branch."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the current from the source is larger than the current in each branch, specifically $I = I_1 + I_2$. \n\n**Common mistake:** Thinking current remains constant throughout the circuit like in series."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q13",
+      "type": "mcq",
+      "question": "Which of the following is a major advantage of connecting lamps in parallel rather than in series?",
+      "options": [
+        "Each lamp can be controlled by its own switch independently.",
+        "The total resistance of the circuit increases.",
+        "The battery will last much longer.",
+        "If one lamp fails, all other lamps in the circuit will turn off."
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallel circuit, components can be switched on or off independently. If one component breaks, the others still have a complete circuit path. \n\n**Common mistake:** Believing parallel circuits are safer because they have higher resistance (they actually have lower)."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q14",
+      "type": "mcq",
+      "question": "A parallel circuit has two branches. One branch has a current of $0.4\\text{ A}$ and the other has $0.6\\text{ A}$. What is the total current from the battery?",
+      "options": [
+        "$1.0\\text{ A}$",
+        "$0.2\\text{ A}$",
+        "$0.5\\text{ A}$",
+        "$0.24\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total current is the sum of branch currents: $0.4 + 0.6 = 1.0\\text{ A}$. \n\n**Common mistake:** Subtracting the currents instead of adding them."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q15",
+      "type": "mcq",
+      "question": "What happens to the combined resistance of a circuit when an additional resistor is added in parallel?",
+      "options": [
+        "The combined resistance decreases.",
+        "The combined resistance increases.",
+        "The combined resistance remains the same.",
+        "The combined resistance becomes zero."
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding more paths for the current to flow reduces the overall opposition to the flow of charge. \n\n**Common mistake:** Thinking more components always means more resistance."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q16",
+      "type": "mcq",
+      "question": "Which component has a resistance that decreases significantly when the light intensity falling on it increases?",
+      "options": [
+        "Light-dependent resistor (LDR)",
+        "NTC thermistor",
+        "Fixed resistor",
+        "Semiconductor diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, an LDR is an environment-sensitive resistor whose resistance decreases as light intensity increases. A thermistor responds to temperature, not light.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q17",
+      "type": "mcq",
+      "question": "What is the primary function of an NTC thermistor in a circuit?",
+      "options": [
+        "Its resistance decreases as the temperature increases",
+        "Its resistance increases as the temperature increases",
+        "It allows current to flow in only one direction",
+        "It stores electrical charge for later use"
+      ],
+      "correctIndex": 0,
+      "explanation": "An NTC (Negative Temperature Coefficient) thermistor is defined as a resistor whose resistance decreases as its temperature increases. This allows it to be used in temperature-control circuits.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q18",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the output voltage $V_{out}$ in a potential divider circuit consisting of two resistors, $R_1$ and $R_2$, where $V_{out}$ is measured across $R_2$?",
+      "options": [
+        "$V_{out} = \\frac{R_2}{R_1 + R_2} \\times V_{in}$",
+        "$V_{out} = \\frac{R_1}{R_1 + R_2} \\times V_{in}$",
+        "$V_{out} = (R_1 + R_2) \\times V_{in}$",
+        "$V_{out} = \\frac{V_{in}}{R_1 + R_2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The potential divider equation states that the output voltage is proportional to the resistance it is measured across relative to the total resistance: $V_{out} = [R_2 / (R_1 + R_2)] \\times V_{in}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q19",
+      "type": "mcq",
+      "question": "LDRs and thermistors are examples of which type of circuit component?",
+      "options": [
+        "Input transducers",
+        "Output transducers",
+        "E.m.f. sources",
+        "Rectifiers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly label thermistors and LDRs as examples of input transducers because they convert environmental changes (heat or light) into electrical signals.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q20",
+      "type": "mcq",
+      "question": "What happens to the potential difference across a conductor in a series circuit if its resistance increases while the current remains constant?",
+      "options": [
+        "The potential difference increases",
+        "The potential difference decreases",
+        "The potential difference remains the same",
+        "The potential difference becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in the learning goals, the potential difference across an electrical conductor increases as its resistance increases for a constant current ($V=IR$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q21",
+      "type": "mcq",
+      "question": "Which of the following is a primary hazard associated with using electrical appliances in damp or wet conditions?",
+      "options": [
+        "Electric shock because water is a good conductor of electricity.",
+        "The appliance consuming more power than usual.",
+        "The magnetic field of the appliance becoming too strong.",
+        "The potential difference of the supply increasing significantly."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, damp conditions are a hazard because water conducts electricity, which can lead to electric shocks. \n\n**Common mistake:** Thinking water increases the 'power' of the device rather than creating a dangerous conduction path."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q22",
+      "type": "mcq",
+      "question": "Where must a switch always be connected in a mains circuit to ensure safety?",
+      "options": [
+        "In the live wire (line wire).",
+        "In the neutral wire.",
+        "In the earth wire.",
+        "Anywhere in the circuit loop."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that a switch must be connected to the live wire so that when it is opened, the appliance is isolated from the high-voltage supply. \n\n**Common mistake:** Connecting it to the neutral wire, which breaks the circuit but leaves the appliance 'live'."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q23",
+      "type": "mcq",
+      "question": "What happens when a fuse 'blows' due to excessive current?",
+      "options": [
+        "The thin wire inside melts and breaks the circuit.",
+        "The fuse increases its resistance to stop the flow of charge.",
+        "The fuse reverses the direction of the current.",
+        "The fuse sends the extra energy into the earth wire."
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuse is a safety feature that contains a thin wire that melts if the current is too high, thus breaking the circuit. \n\n**Common mistake:** Thinking the fuse 'slows down' the current without breaking the path."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q24",
+      "type": "mcq",
+      "question": "What is the function of the earth wire in an electrical appliance?",
+      "options": [
+        "To provide a safe path for current to flow to the ground if a fault occurs.",
+        "To carry current back to the power station under normal conditions.",
+        "To measure the amount of electrical energy used by the device.",
+        "To provide the potential difference needed for the device to work."
+      ],
+      "correctIndex": 0,
+      "explanation": "The earth wire is a safety feature that conducts current to the ground if the live wire touches the metal casing. \n\n**Common mistake:** Confusing its role with the neutral wire, which completes the normal circuit path."
+    },
+    {
+      "id": "ch17-electrical-circuits-and-electrical-safety-easy-q25",
+      "type": "mcq",
+      "question": "Which term describes an appliance with an outer casing made of non-conducting material that does not require an earth wire?",
+      "options": [
+        "Double-insulated",
+        "Rectified",
+        "Ohmic",
+        "Superconducting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Appliances with non-conducting casings are called 'double-insulated' because the casing itself acts as a second layer of safety. \n\n**Common mistake:** Thinking all metal appliances are double-insulated."
+    }
+  ]
+}

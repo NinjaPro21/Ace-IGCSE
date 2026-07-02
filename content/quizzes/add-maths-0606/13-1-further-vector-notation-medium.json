@@ -1,0 +1,77 @@
+{
+  "id": "13-1-further-vector-notation-medium",
+  "topicId": "13-1-further-vector-notation",
+  "chapterId": "ch13-vectors",
+  "difficulty": "medium",
+  "title": "Further Vector Notation — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-1-further-vector-notation-medium-q1",
+      "type": "mcq",
+      "question": "Given u=3i−j and v=i+4j , find the magnitude of u+2v .",
+      "options": [
+        "(\n\n74)",
+        "(\n\n50)",
+        "5i+7j",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "u+2v=(3i−j)+(2i+8j)=5i+7j. Magnitude is\n(\n\n$5^{2}$+$7^{2}$)=\n(\n\n25+49)=\n(\n\n74).\n\n**Common mistake:** Option C is the vector itself, whereas the question asks for the magnitude."
+    },
+    {
+      "id": "13-1-further-vector-notation-medium-q2",
+      "type": "mcq",
+      "question": "Find the value of the constant k such that ∣ki+12j∣=13 , where k>0 .",
+      "options": [
+        "5",
+        "1",
+        "25",
+        "(\n\n313)"
+      ],
+      "correctIndex": 0,
+      "explanation": "(\n\n$k^{2}$+1$2^{2}$)=13⟹$k^{2}$+144=169⟹$k^{2}$=25⟹k=5.\n\n**Common mistake:** Option D is\n(\n\n1$3^{2}$+1$2^{2}$), incorrectly adding squares of the magnitude and a component."
+    },
+    {
+      "id": "13-1-further-vector-notation-medium-q3",
+      "type": "mcq",
+      "question": "Find the unit vector in the direction of b=7i+24j .",
+      "options": [
+        "7/25i+24/25j",
+        "1/25(7i−24j)",
+        "7i+24j",
+        "0.28i+0.96j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnitude is\n(\n\n$7^{2}$+2$4^{2}$)=25. Unit vector is b/25=7/25i+24/25j. Note: Option D is also numerically correct but standard $fraction$ form is preferred.\n\n**Common mistake:** Option B is chosen if the student incorrectly applies a sign change to the j component."
+    },
+    {
+      "id": "13-1-further-vector-notation-medium-q4",
+      "type": "mcq",
+      "question": "Vector\nAB\nhas a starting point A(2,5) and an ending point B(5,9). Express\nAB\nin i,j form.",
+      "options": [
+        "3i+4j",
+        "7i+14j",
+        "−3i−4j",
+        "4i+3j"
+      ],
+      "correctIndex": 0,
+      "explanation": "AB\n=(5−2)i+(9−5)j=3i+4j.\n\n**Common mistake:** Option B is A+B, which does not represent the displacement vector."
+    },
+    {
+      "id": "13-1-further-vector-notation-medium-q5",
+      "type": "mcq",
+      "question": "Find the vector of magnitude 20 that is in the direction of 3i−4j .",
+      "options": [
+        "12i−16j",
+        "60i−80j",
+        "3i−4j",
+        "15i−20j"
+      ],
+      "correctIndex": 0,
+      "explanation": "The unit vector is 1/5(3i−4j)=0.6i−0.8j. Multiplying by magnitude 20 gives 12i−16j.\n\n**Common mistake:** Option B is 20×(3i−4j), forgetting to normalize to a unit vector first."
+    }
+  ]
+}

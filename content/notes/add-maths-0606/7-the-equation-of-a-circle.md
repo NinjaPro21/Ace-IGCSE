@@ -4,9 +4,12 @@ A circle is defined as the locus of all points that are a fixed distance (the ra
 
 ## Key formulas
 
-$$\text{Standard Form: } (x - h)^2 + (y - k)^2 = r^2 \quad (\text{Center: } (h,k), \text{ Radius: } r)$$
+$$
+\text{Standard Form: } (x - h)^2 + (y - k)^2 = r^2 \quad (\text{Center: } (h,k), \text{ Radius: } r)
 
-$$\text{General Form: } x^2 + y^2 + 2gx + 2fy + c = 0 \quad (\text{Center: } (-g, -f), \text{ Radius: } \sqrt{g^2 + f^2 - c})$$
+\text{General Form: } x^2 + y^2 + 2gx + 2fy + c = 0 \quad (\text{Center: } (-g, -f), \text{ Radius: } \sqrt{g^2 + f^2 - c})
+$$
+
 
 ## Steps / method
 
@@ -26,19 +29,13 @@ From $(x - h)^2 + (y - k)^2 = r^2$, centre $= (h, k)$ and radius $= r$. Watch th
 
 ## Worked example — Standard to centre and radius
 
-Find the centre and radius of $(x - 2)^2 + (y + 5)^2 = 49$.
-
-Centre $= (2, -5)$, radius $= \sqrt{49} = 7$.
+Find the centre and radius of $(x - 2)^2 + (y + 5)^2 = 49$. Centre $= (2, -5)$, radius $= \sqrt{49} = 7$.
 
 ## Worked example — Completing the square
 
-Find the centre and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$.
+Find the centre and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$. Group terms: $(x^2 - 6x) + (y^2 + 4y) = 12$. Complete the square: $(x - 3)^2 - 9 + (y + 2)^2 - 4 = 12$.
 
-$$(x^2 - 6x) + (y^2 + 4y) = 12$$
-
-$$(x - 3)^2 - 9 + (y + 2)^2 - 4 = 12 \implies (x - 3)^2 + (y + 2)^2 = 25$$
-
-Centre $= (3, -2)$, radius $= 5$.
+Simplify: $(x - 3)^2 + (y + 2)^2 = 25$ — centre $= (3, -2)$, radius $= 5$.
 
 ## Examiner tip
 
@@ -47,7 +44,3 @@ Watch out for the signs of the center coordinates. In the equation $(x + 3)^2 + 
 ## Quick check
 
 If the constant value on the right-hand side of a completed circle equation is negative or zero, no real physical circle can exist.
-
-## Visual / interactive intent
-
-Reuse explorer: Vertex form shifting tool. Modified to control a circle. Sliders for $h$, $k$, and $r$ dynamically scale and shift the circle across quadrants, showing updates to both the standard equation and expanded general form.

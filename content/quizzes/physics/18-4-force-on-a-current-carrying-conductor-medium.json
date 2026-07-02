@@ -1,0 +1,77 @@
+{
+  "id": "18-4-force-on-a-current-carrying-conductor-medium",
+  "topicId": "18-4-force-on-a-current-carrying-conductor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "medium",
+  "title": "Force on a Current-carrying Conductor — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-medium-q1",
+      "type": "mcq",
+      "question": "A wire carries current into the page and is placed between two magnetic poles (North on the left, South on the right). In which direction is the force on the wire?",
+      "options": [
+        "Towards the bottom of the page",
+        "Towards the top of the page",
+        "Towards the left",
+        "Towards the right"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's left-hand rule: First finger (Field) points right (N to S). Second finger (Current) points into the page. The thumb (Force) points downwards. \n\n**Common mistake:** Thinking the field flows from South to North, which would flip the answer to 'upwards'."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-medium-q2",
+      "type": "mcq",
+      "question": "If you reverse both the direction of the current and the direction of the magnetic field, what happens to the direction of the force on the conductor?",
+      "options": [
+        "The force remains in the same direction.",
+        "The force direction is reversed.",
+        "The force becomes zero.",
+        "The force direction turns by $90^circ$."
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing one factor (current or field) reverses the force. Reversing both factors results in two 'reversals', effectively keeping the force in its original direction. \n\n**Common mistake:** Thinking that reversing more things always changes the outcome."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-medium-q3",
+      "type": "mcq",
+      "question": "Two parallel wires carry currents in the same direction. What is the magnetic interaction between them?",
+      "options": [
+        "They attract each other.",
+        "They repel each other.",
+        "There is no force between them.",
+        "They rotate around each other."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the Quick Revision Guide, conductors carrying currents in the same direction attract each other. \n\n**Common mistake:** Thinking like charges (same current direction) repel, but this is a magnetic interaction, not an electrostatic one."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-medium-q4",
+      "type": "mcq",
+      "question": "A moving-coil loudspeaker uses the motor effect. How is the force on the coil changed to produce sound?",
+      "options": [
+        "By using a varying current that changes direction periodically",
+        "By rotating the permanent magnets inside the cone",
+        "By increasing the resistance of the coil as it moves",
+        "By changing the shape of the soft iron core"
+      ],
+      "correctIndex": 0,
+      "explanation": "The loudspeaker uses the interaction between a fixed magnetic field and a varying current to create a vibration (force) that moves the cone. \n\n**Common mistake:** Believing the magnets move; in most designs, the magnets are permanent and fixed while the coil moves."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-medium-q5",
+      "type": "mcq",
+      "question": "To increase the force on a wire in a magnetic field without changing the current, a student should:",
+      "options": [
+        "Use a stronger magnet.",
+        "Use a thinner wire of the same length.",
+        "Reverse the battery connections.",
+        "Place the wire parallel to the magnetic field."
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude of the force depends on the strength of the magnetic field and the current. If the current is constant, a stronger magnet is required. \n\n**Common mistake:** Thinking reversing the battery increases force; it only changes the direction."
+    }
+  ]
+}

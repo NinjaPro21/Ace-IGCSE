@@ -1,0 +1,77 @@
+{
+  "id": "5-6-natural-logarithms-and-exponential-functions-medium",
+  "topicId": "5-6-natural-logarithms-and-exponential-functions",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "medium",
+  "title": "Natural Logarithms and Exponential Functions — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-medium-q1",
+      "type": "mcq",
+      "question": "Solve the equation $e^{x-3} = 4$, giving your answer in terms of natural logarithms.",
+      "options": [
+        "x = \\ln 4 + 3",
+        "x = \\ln 4 - 3",
+        "x = \\ln 1",
+        "x = e^4 + 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taking natural logs of both sides gives $x - 3 = \\ln 4$, then add 3 to both sides.\n\n**Common mistake:** Subtracting 3 instead of adding it when isolating $x$ is a common sign error."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-medium-q2",
+      "type": "mcq",
+      "question": "Simplify the expression $2\\ln x + \\ln y - \\ln z$.",
+      "options": [
+        "$\\ln (\\frac{x^2 y}{z})$",
+        "\\ln (x^2 + y - z)",
+        "$\\ln (\\frac{2xy}{z})$",
+        "$2\\ln (\\frac{y}{z})$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apply the power law ($2\\ln x = \\ln x^2$), the product law, and the quotient law.\n\n**Common mistake:** Treating the coefficients as multipliers outside the log ($2\\ln$) or adding the terms inside the log."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-medium-q3",
+      "type": "mcq",
+      "question": "Solve the equation $\\ln(2x + 5) = 2$. Give your answer in terms of $e$.",
+      "options": [
+        "$x = \\frac{e^2 - 5}{2}$",
+        "$x = \\frac{e^2 + 5}{2}$",
+        "x = e^2 - 5",
+        "$x = \\frac{2 - 5}{e}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite in exponential form: $2x + 5 = e^2$, then solve for $x$ by subtracting 5 and dividing by 2.\n\n**Common mistake:** A student might forget to divide the entire expression $(e^2 - 5)$ by 2."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-medium-q4",
+      "type": "mcq",
+      "question": "Given that $\\ln a = p$2$\\ln b = q$2$\\ln(\\frac{\\sqrt{a}}{b^3})$ in terms of $p$2$q$.",
+      "options": [
+        "$$\n\\frac{1}{2}p - 3q\n$$",
+        "2p - 3q",
+        "$$\n\\frac{1}{2}p + 3q\n$$",
+        "\\sqrt{p} - q^3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using laws of logs: $\\ln a^{1/2} - \\ln b^3 = \\frac{1}{2}\\ln a - 3\\ln b = \\frac{1}{2}p - 3q$.\n\n**Common mistake:** Applying the square root to $p$2$1/2$ is a frequent error with powers."
+    },
+    {
+      "id": "5-6-natural-logarithms-and-exponential-functions-medium-q5",
+      "type": "mcq",
+      "question": "Solve $e^{2x} = 25$.",
+      "options": [
+        "x = \\ln 5",
+        "x = \\ln 25",
+        "x = 5",
+        "$x = \\frac{\\ln 25}{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taking $\\ln$2$2x = \\ln 25$. Since $\\ln 25 = \\ln 5^2 = 2\\ln 5$, then $2x = 2\\ln 5$, so $x = \\ln 5$.\n\n**Common mistake:** Forgetting that $\\ln 25$ can be simplified further to reach the most concise answer."
+    }
+  ]
+}

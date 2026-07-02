@@ -1,0 +1,77 @@
+{
+  "id": "13-3-electromagnetic-radiation-in-communication-pyp",
+  "topicId": "13-3-electromagnetic-radiation-in-communication",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "pyp",
+  "title": "Electromagnetic Radiation in Communication — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-pyp-q1",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a property of digital and analogue signals?nn| | Analogue Signal | Digital Signal |n| :--- | :--- | :--- |n| A | Continuous values | Fixed values only |n| B | Fixed values only | Continuous values |n| C | High frequency only | Low frequency only |n| D | No noise | Includes noise |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from the Syllabus Map and Map It sections: Analogue is continuous, while digital is fixed. \n\n**Common mistake:** Swapping the two properties."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-pyp-q2",
+      "type": "mcq",
+      "question": "Microwaves are used for satellite communication. Why are they chosen for this application?",
+      "options": [
+        "They can pass through the Earth's atmosphere without being reflected",
+        "They travel faster than radio waves in a vacuum",
+        "They are completely unaffected by noise and interference",
+        "They have very long wavelengths that can curve around the Earth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microwaves can penetrate the atmosphere to reach satellites, whereas some radio frequencies are reflected. \n\n**Common mistake:** Thinking microwaves travel faster than other EM waves."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-pyp-q3",
+      "type": "mcq",
+      "question": "A digital signal is transmitted over a long distance. During transmission, the signal becomes weak and picks up noise. What happens at a regenerator station?nn[Diagram: Shows a messy pulse becoming a clean square pulse]",
+      "options": [
+        "The circuit produces a clean version of the original signal",
+        "The noise is amplified to make the signal louder",
+        "The signal is slowed down to improve accuracy",
+        "The signal is turned into a continuous analogue wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "A regenerator station identifies the digital 1s and 0s and produces a new, noise-free signal. \n\n**Common mistake:** Thinking the station just 'cleans' the existing signal rather than creating a new one."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-pyp-q4",
+      "type": "mcq",
+      "question": "Which types of electromagnetic radiation are used in optical fibre communication?",
+      "options": [
+        "Visible light and infrared",
+        "Microwaves and radio waves",
+        "Infrared and microwaves",
+        "Visible light and ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visible light and infrared are the standard regions used for optical fibres. \n\n**Common mistake:** Selecting Row C, as microwaves are common for other communications."
+    },
+    {
+      "id": "13-3-electromagnetic-radiation-in-communication-pyp-q5",
+      "type": "mcq",
+      "question": "A geostationary satellite orbits at a height where the time for one orbit is 24 hours. What is the average orbital speed if the orbit radius is $42000\\text{ km}$?",
+      "options": [
+        "$3100\\text{ m/s}$",
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$1750\\text{ m/s}$",
+        "$36000\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = (2\\pi r) / t = (2 \\times 3.14 \\times 42000000) / (24 \\times 3600) \\approx 3054\\text{ m/s} \\approx 3100\\text{ m/s}$. \n\n**Common mistake:** Using the altitude instead of the orbital radius, or failing to convert time to seconds."
+    }
+  ]
+}

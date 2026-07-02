@@ -1,0 +1,77 @@
+{
+  "id": "6-2-6-3-quadratic-equations-easy",
+  "topicId": "6-2-6-3-quadratic-equations",
+  "chapterId": "ch02-algebra",
+  "difficulty": "easy",
+  "title": "Quadratic Equations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-2-6-3-quadratic-equations-easy-q1",
+      "type": "mcq",
+      "question": "Identify the coefficients $a$2$b$2$c$2$3x - 5 = 2x^2$ is written in standard form $ax^2 + bx + c = 0$ where $a > 0$.",
+      "options": [
+        "$a = 2, b = -3, c = 5$",
+        "$a = 2, b = 3, c = -5$",
+        "$a = -2, b = 3, c = -5$",
+        "$a = 2, b = -3, c = -5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To rewrite $3x - 5 = 2x^2$ into standard general form $ax^2 + bx + c = 0$ with $a > 0$, shift all terms to the right side: $2x^2 - 3x + 5 = 0$. Comparing this with standard form reveals that $a = 2$, $b = -3$, and $c = 5$.\n\n**Common mistake:** Students often fail to change the signs of terms when moving them across the equals sign, incorrectly matching $b = 3$ and $c = -5$."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-easy-q2",
+      "type": "mcq",
+      "question": "Solve the quadratic equation $x^2 - 7x + 10 = 0$ by factorisation.",
+      "options": [
+        "$x = 2$ or $x = 5$",
+        "$x = -2$ or $x = -5$",
+        "$x = -2$ or $x = 5$",
+        "$x = 1$ or $x = 10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find two integers that multiply to give $+10$ and add to give $-7$. These numbers are $-2$ and $-5$. The factorised equation is $(x - 2)(x - 5) = 0$. Setting each factor to zero yields $x = 2$ or $x = 5$.\n\n**Common mistake:** Students commonly make a sign error after finding the factors, choosing $x = -2$ or $x = -5$ because those were the values inside the brackets."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-easy-q3",
+      "type": "mcq",
+      "question": "Find the solutions to the quadratic equation $4x^2 - 9 = 0$.",
+      "options": [
+        "$x = 1.5$ or $x = -1.5$",
+        "$x = 2.25$ or $x = -2.25$",
+        "$x = 3$ or $x = -3$",
+        "$x = 0.75$ or $x = -0.75$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This can be solved by isolating $x^2$: $4x^2 = 9 \\implies x^2 = \\frac{9}{4}$. Taking the square root of both sides gives $x = \\pm \\sqrt{\\frac{9}{4}} = \\pm \\frac{3}{2} = \\pm 1.5$. It can also be solved using the difference of two squares: $(2x-3)(2x+3)=0$.\n\n**Common mistake:** Students frequently forget to compute both the positive and negative square roots, or they divide $9$ by $4$ incorrectly."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-easy-q4",
+      "type": "mcq",
+      "question": "Express the expression $x^2 + 6x - 2$ in the completed square form $(x + a)^2 + b$.",
+      "options": [
+        "$(x + 3)^2 - 11$",
+        "$(x + 3)^2 - 2$",
+        "$(x + 3)^2 - 5$",
+        "$(x + 6)^2 - 38$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Halve the coefficient of $x$2$3$, giving $(x + 3)^2$. Expanding $(x + 3)^2$ produces $x^2 + 6x + 9$. To match the original expression, subtract $9$ and then subtract $2$: $(x + 3)^2 - 9 - 2 = (x + 3)^2 - 11$.\n\n**Common mistake:** Students often add the squared term instead of subtracting it, leading to incorrect constants like $-2$ or $-5$."
+    },
+    {
+      "id": "6-2-6-3-quadratic-equations-easy-q5",
+      "type": "mcq",
+      "question": "For the quadratic equation $2x^2 - 4x - 3 = 0$, calculate the value of the discriminant, $\\Delta = b^2 - 4ac$.",
+      "options": [
+        "$40$",
+        "$-8$",
+        "$8$",
+        "$28$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $a = 2$, $b = -4$, and $c = -3$ into the discriminant formula: $\\Delta = (-4)^2 - 4(2)(-3) = 16 - (-24) = 16 + 24 = 40$.\n\n**Common mistake:** A classic mistake is failing to apply the double-negative property when multiplying $-4ac$2$c$2$16 - 24 = -8$."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "2-graphs-of-quadratic-medium",
+  "topicId": "2-graphs-of-quadratic",
+  "chapterId": "ch02-simultaneous-equations-and-quadratics",
+  "difficulty": "medium",
+  "title": "Graphs of $y = |f(x)|$ (Quadratic) — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-graphs-of-quadratic-medium-q1",
+      "type": "mcq",
+      "question": "Find the range of the function y=∣$x^{2}$−4∣ for all real values of x.",
+      "options": [
+        "y≥0",
+        "y≥−4",
+        "y≤4",
+        "y∈R"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modulus function ∣f(x)∣ can never be negative. Since the original quadratic reaches the x-axis, the minimum is 0. Range is y≥0.\n\n**Common mistake:** Assuming the range is y≥4 because that is where the reflected vertex lies, ignoring the points on the x-axis."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q2",
+      "type": "mcq",
+      "question": "Solve the equation ∣$x^{2}$−7∣=2.",
+      "options": [
+        "x=±3 and x=±\\sqrt{5}",
+        "x=±3 only",
+        "x=3 and x=5",
+        "x=±\\sqrt{9} and x=±\\sqrt{5}"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $x^{2}$−7=2 \\implies $x^{2}$=9,x=±3. Case 2: $x^{2}$−7=−2 \\implies $x^{2}$=5,x=±\\sqrt{5}.\n\n**Common mistake:** Only solving for the positive case (x=±3) and missing the two solutions from the negative reflection."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q3",
+      "type": "mcq",
+      "question": "The graph of y=∣$x^{2}$−6x+5∣ is drawn. Find the y-coordinate of the local maximum created by the modulus reflection.",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original vertex is at x=−b/2a=3. f(3)= 3^{2}−6(3)+5=−4. The reflection makes this y=4.\n\n**Common mistake:** Miscalculating the vertex x-coordinate as 6 or -3, leading to an incorrect y value."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q4",
+      "type": "mcq",
+      "question": "At how many points does the line y=5 intersect the graph of y=∣$x^{2}$−1∣?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reflected vertex is at (0,1). Since the line y=5 is above this peak, it intersects each outer arm once, totaling 2 points.\n\n**Common mistake:** Assuming all lines above y=0 intersect a modulus quadratic four times, forgetting that the line might be above the reflected peak."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q5",
+      "type": "mcq",
+      "question": "Identify the set of values of x for which ∣$x^{2}$−10∣=6.",
+      "options": [
+        "±4,±2",
+        "4,2",
+        "±4 only",
+        "±\\sqrt{16},±\\sqrt{4}"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^{2}$−10=6 \\implies $x^{2}=16,x=±4$. $2x^{2}$−10=−6 \\implies $x^{2}$=4,x=±2.\n\n**Common mistake:** Sign errors when moving the 10, often resulting in $x^{2}$=4 only."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q6",
+      "type": "mcq",
+      "question": "Find the range of the function $y = |x^2 - 9|$ for all real values of $x$.",
+      "options": [
+        "$y \\ge 0$",
+        "$y \\ge -9$",
+        "$y \\le 9$",
+        "$y \\in \\mathbb{R}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the absolute value is always non-negative. Since the original quadratic crosses the $x$2$y$ is 0.\n\n**Common mistake:** Assuming the range starts at 9 (the reflected vertex) and ignoring the roots on the axis."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q7",
+      "type": "mcq",
+      "question": "Solve the equation $|x^2 - 5| = 4$.",
+      "options": [
+        "$x = \\pm 3$ and $x = \\pm 1$",
+        "$x = \\pm 3$ only",
+        "$x = 3$ and $x = 1$",
+        "$x = \\pm \\sqrt{1}$ only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $x^2 - 5 = 4 \\implies x^2 = 9, x = \\pm 3$. Case 2: $x^2 - 5 = -4 \\implies x^2 = 1, x = \\pm 1$.\n\n**Common mistake:** Only solving for the positive case and missing the solutions that arise from the negative reflection."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q8",
+      "type": "mcq",
+      "question": "The graph of $y = |x^2 - 4x + 3|$ is drawn. Find the $y$-coordinate of the local maximum point between the roots.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertex of $x^2 - 4x + 3$ is at $x = 2$. $f(2) = 2^2 - 4(2) + 3 = -1$. The reflected maximum is $|-1| = 1$.\n\n**Common mistake:** Miscalculating the vertex x-coordinate or failing to reflect the negative minimum value."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q9",
+      "type": "mcq",
+      "question": "At how many points does the line $y = 10$ intersect the graph of $y = |x^2 - 1|$?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reflected vertex is at $(0, 1)$. Since $y=10$ is above this peak, it only intersects the two outer arms of the graph.\n\n**Common mistake:** Assuming every line above the x-axis intersects a modulus quadratic four times."
+    },
+    {
+      "id": "2-graphs-of-quadratic-medium-q10",
+      "type": "mcq",
+      "question": "Find the values of $x$2$|x^2 - 10| = 6$.",
+      "options": [
+        "$\\pm 4, \\pm 2$",
+        "$4, 2$",
+        "$\\pm 4$ only",
+        "$\\pm \\sqrt{6}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x^2 - 10 = 6 \\implies x^2 = 16, x = \\pm 4$. $x^2 - 10 = -6 \\implies x^2 = 4, x = \\pm 2$.\n\n**Common mistake:** Sign errors when moving constants, often missing one set of solutions."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "19-2-the-nucleus-medium",
+  "topicId": "19-2-the-nucleus",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "medium",
+  "title": "The Nucleus — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-2-the-nucleus-medium-q1",
+      "type": "mcq",
+      "question": "A nucleus is represented by the notation $^{35}_{17}Cl$. Calculate the number of neutrons in this nucleus.",
+      "options": [
+        "18",
+        "17",
+        "35",
+        "52"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of neutrons is found by subtracting the proton number from the nucleon number: $A - Z = 35 - 17 = 18$. \n\n**Common mistake:** Thinking 17 is the number of neutrons."
+    },
+    {
+      "id": "19-2-the-nucleus-medium-q2",
+      "type": "mcq",
+      "question": "Which of the following pairs of nuclides are isotopes of the same element?",
+      "options": [
+        "$^{12}6 C$ and $^{14}6 C$",
+        "$^{14}6 C$ and $^{14}7 N$",
+        "$^{35}{17} Cl$ and $^{37}{18} Ar$",
+        "$^1_1 H$ and $^4_2 He$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes must have the same proton number (bottom number). Both $^{12}6 C$ and $^{14}6 C$ have 6 protons. \n\n**Common mistake:** Choosing nuclides with the same nucleon number (top number), which are different elements."
+    },
+    {
+      "id": "19-2-the-nucleus-medium-q3",
+      "type": "mcq",
+      "question": "A neutral atom has 13 electrons and a nucleon number of 27. How many neutrons does its nucleus contain?",
+      "options": [
+        "14",
+        "13",
+        "27",
+        "40"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a neutral atom, the number of protons equals the number of electrons (13). Neutrons = Nucleon number − Protons = $27 - 13 = 14$. \n\n**Common mistake:** Using 13 as the number of neutrons."
+    },
+    {
+      "id": "19-2-the-nucleus-medium-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly compares the approximate masses of atomic particles?",
+      "options": [
+        "Proton: 1; Neutron: 1; Electron: 1/2000",
+        "Proton: 1; Neutron: 0; Electron: 1/2000",
+        "Proton: 1/2000; Neutron: 1/2000; Electron: 1",
+        "Proton: 1; Neutron: 1; Electron: 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 19.1 states that protons and neutrons have an approximate mass of 1 atomic mass unit, while electrons are much lighter at 1/2000. \n\n**Common mistake:** Thinking neutrons have no mass because they have no charge."
+    },
+    {
+      "id": "19-2-the-nucleus-medium-q5",
+      "type": "mcq",
+      "question": "An atom has 19 protons and 21 neutrons. What is its nuclide notation?",
+      "options": [
+        "$^{40}{19}X$",
+        "$^{21}{19}X$",
+        "$^{19}{21}X$",
+        "$^{19}{40}X$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nucleon number $A = 19 + 21 = 40$. Proton number $Z = 19$. The notation is $^A_Z X$. \n\n**Common mistake:** Using the neutron number as the top number."
+    }
+  ]
+}

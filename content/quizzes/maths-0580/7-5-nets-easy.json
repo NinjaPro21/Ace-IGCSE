@@ -1,0 +1,77 @@
+{
+  "id": "7-5-nets-easy",
+  "topicId": "7-5-nets",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "easy",
+  "title": "Nets — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-5-nets-easy-q1",
+      "type": "mcq",
+      "question": "Which 3D solid is formed by a net consisting of four equilateral triangles?",
+      "options": [
+        "A triangular pyramid (tetrahedron)",
+        "A square-based pyramid",
+        "A triangular prism",
+        "A cube"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tetrahedron is a 3D shape with four triangular faces. If all four triangles are equilateral and meet at vertices, they fold into a triangular pyramid.\n\n**Common mistake:** Students may confuse a triangular pyramid with a triangular prism, which requires two triangles and three rectangles."
+    },
+    {
+      "id": "7-5-nets-easy-q2",
+      "type": "mcq",
+      "question": "A cube net is composed of several identical squares. How many squares must the net contain?",
+      "options": [
+        "$6$",
+        "$4$",
+        "$8$",
+        "$12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, a cube has six square faces; therefore, its flattened net must consist of exactly six squares.\n\n**Common mistake:** A student might pick 12 by confusing the number of faces with the number of edges on a cube."
+    },
+    {
+      "id": "7-5-nets-easy-q3",
+      "type": "mcq",
+      "question": "In the net of a closed cuboid, how many pairs of identical rectangles are there?",
+      "options": [
+        "$3$ pairs",
+        "$2$ pairs",
+        "$6$ pairs",
+        "$0$ pairs"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cuboid has three pairs of opposite, identical faces (e.g., top/bottom, front/back, left/right).\n\n**Common mistake:** The student might think all six faces are unique or that only two faces are the same as in a square-based prism."
+    },
+    {
+      "id": "7-5-nets-easy-q4",
+      "type": "mcq",
+      "question": "Which shape's net consists of one rectangle and two congruent circles?",
+      "options": [
+        "A cylinder",
+        "A cone",
+        "A sphere",
+        "A prism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curved surface of a cylinder unrolls into a rectangle, while the two flat ends are circular.\n\n**Common mistake:** A student might choose a cone, which has a net consisting of a circle and a sector (not a rectangle)."
+    },
+    {
+      "id": "7-5-nets-easy-q5",
+      "type": "mcq",
+      "question": "If a net of a cube is arranged in a straight row of four squares with one square attached to the side of the second and one to the side of the third, what is this common net shape called?",
+      "options": [
+        "A T-shape net",
+        "A cross net",
+        "An L-shape net",
+        "A Z-shape net"
+      ],
+      "correctIndex": 1,
+      "explanation": "This arrangement, often called the 'Latin Cross' net, is the most common representation used to visualize a cube's faces.\n\n**Common mistake:** Students might call it a T-shape if the 'arms' are at the very top, but the standard centered arrangement is a cross."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "20-2-nuclear-emission-pyp",
+  "topicId": "20-2-nuclear-emission",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "pyp",
+  "title": "Nuclear Emission — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-2-nuclear-emission-pyp-q1",
+      "type": "mcq",
+      "question": "The table shows the results of an experiment with three types of radiation.nn| Radiation | Stopped by paper? | Stopped by $5 \\text{ mm}$ Al? | Deflected by magnetic field? |n| :--- | :--- | :--- | :--- |n| 1 | Yes | Yes | Yes |n| 2 | No | Yes | Yes |n| 3 | No | No | No |nnWhich row correctly identifies the radiations?",
+      "options": [
+        "1: $alpha$, 2: $beta$, 3: $gamma$",
+        "1: $beta$, 2: $alpha$, 3: $gamma$",
+        "1: $alpha$, 2: $gamma$, 3: $beta$",
+        "1: $gamma$, 2: $beta$, 3: $alpha$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radiation 1 (stopped by paper) is Alpha. Radiation 2 (passes paper but stopped by Al) is Beta. Radiation 3 (passes Al and not deflected) is Gamma.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-pyp-q2",
+      "type": "mcq",
+      "question": "A student records the count rate from a radioactive source every second for five seconds:n$520, 530, 510, 515, 540$.nWhat does this variation in readings demonstrate?",
+      "options": [
+        "The random nature of radioactive decay",
+        "The detector is faulty",
+        "The half-life is very short",
+        "Background radiation is increasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "As noted on page 335, the count rate readings from a nucleus change because emission is a random process.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-pyp-q3",
+      "type": "mcq",
+      "question": "Which statement about $alpha$-particles is correct?",
+      "options": [
+        "They are the least penetrating of the nuclear emissions",
+        "They travel at the speed of light",
+        "They are not ionising",
+        "They have a negative charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct fact from the review questions: Alpha particles are the least penetrating nuclear emission.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows the paths of three types of radiation through an electric field.n[Path X deflects slightly to negative; Path Y goes straight; Path Z deflects strongly to positive]nWhich path represents $beta$-particles?",
+      "options": [
+        "Path Z",
+        "Path X",
+        "Path Y",
+        "None of the paths"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta particles are negative and are strongly attracted to the positive plate. Alpha (positive) deflects less towards the negative plate, and Gamma (neutral) goes straight.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-pyp-q5",
+      "type": "mcq",
+      "question": "Which row correctly identifies a use of $gamma$-radiation and the reason why?",
+      "options": [
+        "Use: Medical imaging; Reason: High penetrating power",
+        "Use: Smoke detectors; Reason: High ionising power",
+        "Use: Tanning; Reason: Low penetrating power",
+        "Use: Thickness gauges; Reason: Stopped by paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma rays are used for medical imaging or cancer detection because they have high penetrating power and can escape the body to be detected.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

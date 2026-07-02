@@ -1,0 +1,77 @@
+{
+  "id": "1-2-negative-numbers-easy",
+  "topicId": "1-2-negative-numbers",
+  "chapterId": "ch01-number",
+  "difficulty": "easy",
+  "title": "Negative Numbers — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-2-negative-numbers-easy-q1",
+      "type": "mcq",
+      "question": "Evaluate $-12 - (-7) + (-4)$.",
+      "options": [
+        "-9",
+        "-23",
+        "-1",
+        "-15"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify sign pairs: $-12 + 7 - 4$. Work from left to right: $-12 + 7 = -5$. Then $-5 - 4 = -9$.\n\n**Common mistake:** Students combine $-(-7)$ to a negative, tracking the sequence as $-12 - 7 - 4 = -23$."
+    },
+    {
+      "id": "1-2-negative-numbers-easy-q2",
+      "type": "mcq",
+      "question": "Calculate $(-3) \\times 4 \\times (-2)$.",
+      "options": [
+        "24",
+        "-24",
+        "14",
+        "-10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply step by step: $(-3) \\times 4 = -12$. Then $(-12) \\times (-2) = 24$, since a negative times a negative equals a positive.\n\n**Common mistake:** Students fail to flip the product sign when multiplying the second negative factor."
+    },
+    {
+      "id": "1-2-negative-numbers-easy-q3",
+      "type": "mcq",
+      "question": "Find the value of $(-5)^2 - (-2)^3$.",
+      "options": [
+        "33",
+        "17",
+        "-33",
+        "-17"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate the terms: $(-5)^2 = 25$ and $(-2)^3 = -8$. The expression becomes $25 - (-8) = 25 + 8 = 33$.\n\n**Common mistake:** Students think $(-5)^2 = -25$ or that $(-2)^3 = 8$, leading to algebraic sign dropouts."
+    },
+    {
+      "id": "1-2-negative-numbers-easy-q4",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{-18 - 6}{-4 + (-2)}$.",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify the top: $-18 - 6 = -24$. Simplify the bottom: $-4 - 2 = -6$. Dividing two negative numbers yields a positive quotient: $-24 \\div -6 = 4$.\n\n**Common mistake:** Students apply a double negative rule in the numerator to get $-18 + 6 = -12$."
+    },
+    {
+      "id": "1-2-negative-numbers-easy-q5",
+      "type": "mcq",
+      "question": "The temperature drops from $5^\\circ\\text{C}$ by $12^\\circ\\text{C}$. Find the final temperature.",
+      "options": [
+        "-7°C",
+        "-17°C",
+        "7°C",
+        "-6°C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the subtraction calculation: $5 - 12 = -7^\\circ\\text{C}$.\n\n**Common mistake:** Students inverse the subtraction components or compute $5 - (-12) = 17^\\circ\\text{C}$."
+    }
+  ]
+}

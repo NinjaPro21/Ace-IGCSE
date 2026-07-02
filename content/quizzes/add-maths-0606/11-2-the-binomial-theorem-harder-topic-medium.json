@@ -1,0 +1,77 @@
+{
+  "id": "11-2-the-binomial-theorem-harder-topic-medium",
+  "topicId": "11-2-the-binomial-theorem-harder-topic",
+  "chapterId": "ch11-series",
+  "difficulty": "medium",
+  "title": "The Binomial Theorem — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the coefficient of $x^3$ in the expansion of $(2 - x)^7$.",
+      "options": [
+        "-560",
+        "560",
+        "-35",
+        "-280"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term is $\\binom{7}{3}(2)^4(-x)^3 = 35 \\times 16 \\times (-x^3) = -560x^3$.\n\n**Common mistake:** Option B ignores the negative sign from the $(-x)^3$ part of the expansion."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Find the constant term in the expansion of $(x + \\frac{2}{x})^4$.",
+      "options": [
+        "24",
+        "6",
+        "16",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "The constant term occurs when the powers of $x$2$\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + ...$, find the values of $n$2$p$.",
+      "options": [
+        "n = 6, p = 4",
+        "n = 4, p = 6",
+        "n = 8, p = 3",
+        "n = 12, p = 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$np = 24$ and $\\frac{n(n-1)}{2}p^2 = 240$. Substituting $p = 24/n$2$\\frac{n(n-1)}{2}(\\frac{576}{n^2}) = 240 \\implies 288(n-1) = 240n \\implies 48n = 288 \\implies n=6, p=4$.\n\n**Common mistake:** Option B swaps the values of $n$2$p$ without checking both equations."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "Find the first three terms of $(1 - \\frac{x}{2})^8$ in ascending powers of $x$.",
+      "options": [
+        "1 - 4x + 7x^2",
+        "1 - 4x + 28x^2",
+        "1 + 4x + 7x^2",
+        "1 - 4x - 7x^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terms: $1 + \\binom{8}{1}(-\\frac{x}{2}) + \\binom{8}{2}(-\\frac{x}{2})^2 = 1 - 4x + 28(\\frac{x^2}{4}) = 1 - 4x + 7x^2$.\n\n**Common mistake:** Option B fails to square the $1/2$ in the denominator for the $x^2$ term."
+    },
+    {
+      "id": "11-2-the-binomial-theorem-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Determine the coefficient of $x^3$ in the expansion of $(x^2 + \\frac{k}{x})^3$.",
+      "options": [
+        "3k",
+        "k³",
+        "3k^2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expanding: $(x^2)^3 + 3(x^2)^2(\\frac{k}{x}) + 3(x^2)(\\frac{k}{x})^2 + (\\frac{k}{x})^3 = x^6 + 3kx^3 + 3k^2 + k^3/x^3$. The coefficient is $3k$.\n\n**Common mistake:** Option B picks the constant term or a term with a different power of $x$."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "9-1-basic-trigonometry-0-medium",
+  "topicId": "9-1-basic-trigonometry-0",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "medium",
+  "title": "Basic Trigonometry (0° to 90°) — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-basic-trigonometry-0-medium-q1",
+      "type": "mcq",
+      "question": "Given that tan θ = 0.75 and θ is acute, find the value of cos θ.",
+      "options": [
+        "0.8",
+        "0.6",
+        "0.25",
+        "1.33"
+      ],
+      "correctIndex": 0,
+      "explanation": "tan θ = 3/4 (Opp/Adj). Using Pythagoras, Hypotenuse = 5. cos θ = Adj / Hyp = 4 / 5 = 0.8.\n\n**Common mistake:** Assuming cos θ is the reciprocal of tan θ or making an error in calculating the hypotenuse."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-medium-q2",
+      "type": "mcq",
+      "question": "Simplify the expression (sin θ) / (tan θ).",
+      "options": [
+        "cos θ",
+        "sin^2 θ",
+        "1 / cos θ",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin θ / (sin θ / cos θ) = sin θ * (cos θ / sin θ) = cos θ.\n\n**Common mistake:** Incorrectly simplifying the $fraction$ as 1 or sin θ * tan θ."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-medium-q3",
+      "type": "mcq",
+      "question": "In a right-angled triangle, if cos θ = 5/13, find tan θ.",
+      "options": [
+        "12/5",
+        "12/13",
+        "5/12",
+        "13/5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adj = 5, Hyp = 13. Opp = \\sqrt{13$^2$ - 5$^2$} = 12. tan θ = Opp / Adj = 12 / 5.\n\n**Common mistake:** Mixing up the sides for the tangent ratio, resulting in 5/12."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-medium-q4",
+      "type": "mcq",
+      "question": "If sin A = cos B and A and B are acute angles, what is the value of A + B?",
+      "options": [
+        "90°",
+        "180°",
+        "45°",
+        "0°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since sin A = cos(90° - A), the condition sin A = cos B implies B = 90° - A, or A + B = 90°.\n\n**Common mistake:** Assuming A and B must be equal (45°), which is only one specific case."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-medium-q5",
+      "type": "mcq",
+      "question": "Calculate the value of (sin 60°)$^2$ + (cos 60°)$^2$.",
+      "options": [
+        "1",
+        "0.5",
+        "0.75",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The identity sin^2 θ + cos^2 θ = 1 holds for all angles.\n\n**Common mistake:** Spending time calculating (\\sqrt{3}/2)$^2$ and (1/2)$^2$ instead of using the identity directly."
+    }
+  ]
+}

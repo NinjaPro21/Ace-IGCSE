@@ -1,0 +1,207 @@
+{
+  "id": "ch05-momentum-easy",
+  "topicId": "ch05-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "easy",
+  "title": "Chapter 5: Momentum — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch05-momentum-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of momentum?",
+      "options": [
+        "The product of mass and velocity",
+        "The product of force and time",
+        "The product of mass and acceleration",
+        "The ratio of distance to time"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, momentum $p$ is calculated as mass $m$ multiplied by velocity $v$. \n\n**Common mistake:** Confusing it with force ($F = ma$) or impulse ($F Delta t$)."
+    },
+    {
+      "id": "ch05-momentum-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for momentum?",
+      "options": [
+        "kilogram metre per second ($\\text{kg m/s}$)",
+        "newton metre ($\\text{N m}$)",
+        "joule ($\\text{J}$)",
+        "kilogram per cubic metre ($\\text{kg/m}^3$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since momentum is mass ($\\text{kg}$) \\times velocity ($\\text{m/s}$), its unit is $\\text{kg m/s}$. \n\n**Common mistake:** Selecting $\\text{N m}$, which is the unit for a moment of a force."
+    },
+    {
+      "id": "ch05-momentum-easy-q3",
+      "type": "mcq",
+      "question": "Which type of physical quantity is momentum?",
+      "options": [
+        "Vector quantity",
+        "Scalar quantity",
+        "Base quantity",
+        "Constant quantity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector quantity because it is the product of mass (scalar) and velocity (vector), meaning it has both magnitude and direction. \n\n**Common mistake:** Thinking it is a scalar like speed or mass."
+    },
+    {
+      "id": "ch05-momentum-easy-q4",
+      "type": "mcq",
+      "question": "A runner of mass $50\\text{ kg}$ is running at a velocity of $4\\text{ m/s}$. Calculate the runner's momentum.",
+      "options": [
+        "$200\\text{ kg m/s}$",
+        "$12.5\\text{ kg m/s}$",
+        "$54\\text{ kg m/s}$",
+        "$0.08\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $p = mv$: $50\\text{ kg} \\times 4\\text{ m/s} = 200\\text{ kg m/s}$. \n\n**Common mistake:** Dividing mass by velocity ($12.5$) instead of multiplying."
+    },
+    {
+      "id": "ch05-momentum-easy-q5",
+      "type": "mcq",
+      "question": "Which two physical quantities determine the momentum of an object?",
+      "options": [
+        "Mass and velocity",
+        "Mass and acceleration",
+        "Weight and speed",
+        "Force and distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The formula $p = mv$ shows that an object's momentum depends entirely on how much matter it has (mass) and how fast it is moving in a specific direction (velocity). \n\n**Common mistake:** Including acceleration, which determines the change in momentum, not the momentum itself."
+    },
+    {
+      "id": "ch05-momentum-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following is the correct word equation for impulse?",
+      "options": [
+        "Impulse = Force $times$ time",
+        "Impulse = Mass $times$ acceleration",
+        "Impulse = Momentum $times$ velocity",
+        "Impulse = Force $div$ distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Impulse is defined as the product of the average force acting on an object and the time for which it acts. \n\n**Common mistake:** Confusing it with momentum ($mv$) or work done ($Fd$)."
+    },
+    {
+      "id": "ch05-momentum-easy-q7",
+      "type": "mcq",
+      "question": "What is the SI unit for impulse?",
+      "options": [
+        "newton second ($N s$)",
+        "joule ($J$)",
+        "watt ($W$)",
+        "newton per metre ($N/m$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since impulse is Force ($N$) $times$ time ($s$), its unit is the newton second ($N s$). It is also equivalent to $kg m/s$. \n\n**Common mistake:** Using units of force ($N$) or energy ($J$)."
+    },
+    {
+      "id": "ch05-momentum-easy-q8",
+      "type": "mcq",
+      "question": "How is the resultant force related to momentum?",
+      "options": [
+        "Force is the change in momentum per unit time",
+        "Force is the product of mass and impulse",
+        "Force is the total change in momentum",
+        "Force is momentum divided by mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the resultant force $F$ is the rate of change of momentum: $F = Delta p / Delta t$. \n\n**Common mistake:** Thinking force is just the total 'change' in momentum without considering time."
+    },
+    {
+      "id": "ch05-momentum-easy-q9",
+      "type": "mcq",
+      "question": "A student kicks a ball with an average force of $150\\text{ N}$. The contact time is $0.040\\text{ s}$. Calculate the impulse.",
+      "options": [
+        "$6.0\\text{ N s}$",
+        "$3750\\text{ N s}$",
+        "$150.04\\text{ N s}$",
+        "$0.00027\\text{ N s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $Impulse = F \\times t$: $150\\text{ N} \\times 0.040\\text{ s} = 6.0\\text{ N s}$. \n\n**Common mistake:** Dividing force by time ($3750$) instead of multiplying."
+    },
+    {
+      "id": "ch05-momentum-easy-q10",
+      "type": "mcq",
+      "question": "In car safety, why are crumple zones designed to increase the time of a collision?",
+      "options": [
+        "To decrease the average force acting on the passengers",
+        "To increase the total change in momentum",
+        "To increase the final velocity of the car",
+        "To decrease the total impulse of the crash"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a fixed change in momentum (impulse), increasing the time interval $Delta t$ reduces the average force $F$ because $F = Delta p / Delta t$. \n\n**Common mistake:** Thinking it changes the total impulse; the impulse remains the same because the change in velocity is the same."
+    },
+    {
+      "id": "ch05-momentum-easy-q11",
+      "type": "mcq",
+      "question": "Which of the following best describes the principle of conservation of momentum?",
+      "options": [
+        "The total momentum before a collision equals the total momentum after the collision",
+        "The total energy before a collision equals the total energy after the collision",
+        "The velocity of each object remains constant after a collision",
+        "The mass of a system decreases after a collision"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note states that when moving objects collide, the total momentum before and after the collision is the same. \n\n**Common mistake:** Confusing this with the conservation of energy, which is a different principle."
+    },
+    {
+      "id": "ch05-momentum-easy-q12",
+      "type": "mcq",
+      "question": "What must be true for the total momentum of a system of two colliding objects to be conserved?",
+      "options": [
+        "No external resultant forces act on the system",
+        "The objects must have the same mass",
+        "The objects must stick together after the collision",
+        "The objects must be moving in the same direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is conserved in an isolated system where only internal forces between the objects act. \n\n**Common mistake:** Thinking objects must stick together for momentum to be conserved; conservation applies to all collision types."
+    },
+    {
+      "id": "ch05-momentum-easy-q13",
+      "type": "mcq",
+      "question": "Two objects with equal and opposite momentum collide and stick together. What is their final total momentum?",
+      "options": [
+        "$0\\text{ kg m/s}$",
+        "The sum of their masses multiplied by gravity",
+        "Double the initial momentum of one object",
+        "The product of their two initial velocities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since momentum is a vector, 'equal and opposite' means the total initial momentum is zero ($p + (-p) = 0$). By conservation, the final momentum must also be zero. \n\n**Common mistake:** Forgetting direction and simply adding the magnitudes."
+    },
+    {
+      "id": "ch05-momentum-easy-q14",
+      "type": "mcq",
+      "question": "A system consists of Object A ($2.0\\text{ kg}$ at $3.0\\text{ m/s}$) and Object B ($1.0\\text{ kg}$ at rest). What is the total momentum of this system?",
+      "options": [
+        "$6.0\\text{ kg m/s}$",
+        "$3.0\\text{ kg m/s}$",
+        "$2.0\\text{ kg m/s}$",
+        "$0\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total momentum $= (2.0 \\times 3.0) + (1.0 \\times 0) = 6.0\\text{ kg m/s}$. \n\n**Common mistake:** Adding the masses first and then multiplying by speed, which would give a different result if both were moving."
+    },
+    {
+      "id": "ch05-momentum-easy-q15",
+      "type": "mcq",
+      "question": "Which physical property is strictly conserved in every collision in an isolated system?",
+      "options": [
+        "Total momentum",
+        "Total kinetic energy",
+        "Total speed",
+        "Individual velocities"
+      ],
+      "correctIndex": 0,
+      "explanation": "The principle of conservation of momentum states that total momentum is always conserved in such interactions. \n\n**Common mistake:** Believing kinetic energy is always conserved; energy is often 'wasted' as heat or sound in inelastic collisions."
+    }
+  ]
+}

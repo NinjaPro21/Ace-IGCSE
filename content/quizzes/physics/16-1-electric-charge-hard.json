@@ -1,0 +1,77 @@
+{
+  "id": "16-1-electric-charge-hard",
+  "topicId": "16-1-electric-charge",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "hard",
+  "title": "Electric Charge — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-1-electric-charge-hard-q1",
+      "type": "mcq",
+      "question": "What specifically happens to a neutral atom to turn it into a positive ion?",
+      "options": [
+        "It loses electrons.",
+        "It gains protons.",
+        "It loses protons.",
+        "It gains electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "As stated in Section 19.1 and referenced in Section 16, a positive ion is formed when a neutral atom loses one or more of its negatively charged electrons. \n\n**Common mistake:** Thinking the addition of protons makes it positive; protons cannot be added or removed by simple chemical or physical friction."
+    },
+    {
+      "id": "16-1-electric-charge-hard-q2",
+      "type": "mcq",
+      "question": "A student rubs an ebonite rod with fur and finds the rod becomes negatively charged. If the rod is then used to touch a neutral metal sphere, what occurs?",
+      "options": [
+        "Some electrons flow from the rod to the metal sphere.",
+        "The metal sphere becomes positively charged.",
+        "The metal sphere stays neutral because it is a conductor.",
+        "Protons flow from the sphere to the rod."
+      ],
+      "correctIndex": 0,
+      "explanation": "When the negatively charged rod (excess electrons) touches the conductor, some of those electrons flow onto the metal sphere. \n\n**Common mistake:** Thinking charge cannot be transferred from an insulator to a conductor."
+    },
+    {
+      "id": "16-1-electric-charge-hard-q3",
+      "type": "mcq",
+      "question": "Based on the kinetic particle model and 'affinity for electrons', why does a silk cloth become negatively charged when rubbing a glass rod?",
+      "options": [
+        "Silk has a higher affinity for electrons and pulls them from the glass atoms.",
+        "The silk loses protons to the glass during the rubbing process.",
+        "The glass rod is a better conductor and pushes electrons into the silk.",
+        "Friction creates new electrons that settle on the surface of the silk."
+      ],
+      "correctIndex": 0,
+      "explanation": "Different materials have different affinities for electrons. When rubbed, the atoms at the surface are disturbed, and electrons move to the material with the stronger pull (affinity). \n\n**Common mistake:** Thinking that 'friction' is a substance that turns into charge."
+    },
+    {
+      "id": "16-1-electric-charge-hard-q4",
+      "type": "mcq",
+      "question": "Which statement best explains why static charge remains on a polythene rod but not on a copper rod when both are held in a hand and rubbed?",
+      "options": [
+        "Copper is a conductor and allows the charge to flow through the hand to earth.",
+        "Polythene is a better conductor than copper.",
+        "Static electricity can only be produced on non-metals.",
+        "Copper cannot acquire a charge by friction because it has no affinity for electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "Charges produced on a conductor like copper immediately flow away (earth) through the person's body. On an insulator like polythene, the charges are 'static' and remain where they were produced. \n\n**Common mistake:** Believing metals cannot be charged at all."
+    },
+    {
+      "id": "16-1-electric-charge-hard-q5",
+      "type": "mcq",
+      "question": "In a cloud, ice particles collide and the bottom of the cloud becomes negatively charged. This induces a positive charge on the ground. Which description of this induction is accurate?",
+      "options": [
+        "Electrons in the ground are repelled deeper into the earth by the cloud.",
+        "Protons are attracted to the surface of the ground from deep within.",
+        "The cloud 'sprays' positive ions onto the ground's surface.",
+        "The ground becomes neutral as electrons jump to the cloud."
+      ],
+      "correctIndex": 0,
+      "explanation": "Induction involves the movement of electrons within a material. The negative cloud base repels electrons in the ground, leaving the surface with a net positive charge. \n\n**Common mistake:** Thinking positive charges move to the surface."
+    }
+  ]
+}

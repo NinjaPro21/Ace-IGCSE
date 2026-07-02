@@ -1,0 +1,402 @@
+{
+  "id": "ch18-electromagnetic-effects-easy",
+  "topicId": "ch18-electromagnetic-effects",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "easy",
+  "title": "Chapter 18: Electromagnetic Effects — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch18-electromagnetic-effects-easy-q1",
+      "type": "mcq",
+      "question": "What is the name of the process where an electromotive force (e.m.f.) is produced in a conductor due to its movement across a magnetic field?",
+      "options": [
+        "Electromagnetic induction",
+        "The motor effect",
+        "Magnetic saturation",
+        "Electrostatic discharge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electromagnetic induction is defined as the process of inducing an e.m.f. when a conductor moves across a magnetic field or experiences a changing magnetic field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q2",
+      "type": "mcq",
+      "question": "Which instrument is typically used in a laboratory to detect the presence of a small induced current in a circuit?",
+      "options": [
+        "Galvanometer",
+        "Voltmeter",
+        "Newton meter",
+        "Barometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "As seen in Figure 18.6, a galvanometer is the instrument used to show the deflection caused by small induced currents.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q3",
+      "type": "mcq",
+      "question": "What happens to the reading on a galvanometer if a bar magnet is held perfectly stationary inside a solenoid?",
+      "options": [
+        "The reading remains at zero",
+        "The reading shows a maximum positive value",
+        "The reading shows a maximum negative value",
+        "The needle oscillates back and forth"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, no e.m.f. is generated if the magnet is stationary because there is no change in the magnetic flux linking the coil.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q4",
+      "type": "mcq",
+      "question": "Which of these changes will increase the magnitude of the induced e.m.f. in a solenoid?",
+      "options": [
+        "Moving the magnet faster into the coil",
+        "Using a magnet with a weaker magnetic field",
+        "Decreasing the number of turns in the solenoid",
+        "Keeping the magnet stationary near the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moving the magnet at a higher speed increases the rate of change of magnetic flux, which directly increases the magnitude of the induced e.m.f.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q5",
+      "type": "mcq",
+      "question": "If moving the North pole of a magnet into a solenoid causes a galvanometer needle to deflect to the left, what will happen if the North pole is pulled out?",
+      "options": [
+        "The needle will deflect to the right",
+        "The needle will still deflect to the left",
+        "The needle will not move at all",
+        "The needle will spin in a full circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reversing the direction of motion reverses the direction of the induced current and e.m.f., leading to a deflection in the opposite direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q6",
+      "type": "mcq",
+      "question": "Which components of an a.c. generator allow the transfer of the induced alternating current to an external circuit?",
+      "options": [
+        "Slip rings and brushes",
+        "Split-ring commutator and brushes",
+        "A soft iron core and a solenoid",
+        "Permanent magnets and a coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, slip rings and carbon brushes are the specific components that allow the transfer of induced alternating current from the rotating coil to the external circuit. \n\n**Common mistake:** Confusing slip rings with a split-ring commutator, which is used in d.c. motors to reverse current direction."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q7",
+      "type": "mcq",
+      "question": "What type of current is produced by a simple generator where the coil rotates between fixed magnets?",
+      "options": [
+        "Alternating current (a.c.)",
+        "Direct current (d.c.)",
+        "Electrostatic current",
+        "Constant magnetic current"
+      ],
+      "correctIndex": 0,
+      "explanation": "A simple generator with slip rings produces alternating current (a.c.), which periodically reverses direction. \n\n**Common mistake:** Thinking all generators produce d.c. like a battery."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q8",
+      "type": "mcq",
+      "question": "Which instrument is used to detect the small induced current in a laboratory generator experiment?",
+      "options": [
+        "Galvanometer",
+        "Voltmeter",
+        "Barometer",
+        "Ohmmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A galvanometer is used to detect and show the direction of small induced currents. \n\n**Common mistake:** Selecting a voltmeter, which measures potential difference but is not specifically designed to show small current direction changes."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q9",
+      "type": "mcq",
+      "question": "What is the standard SI unit for frequency, which describes the number of cycles per second in an a.c. output?",
+      "options": [
+        "hertz ($\\text{Hz}$)",
+        "ampere ($\\text{A}$)",
+        "volt ($\\text{V}$)",
+        "joule ($\\text{J}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is measured in hertz ($\\text{Hz}$), where $1\\text{ Hz}$ means one complete cycle per second. \n\n**Common mistake:** Using amperes, which is the unit for the current itself."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q10",
+      "type": "mcq",
+      "question": "In a simple a.c. generator, what happens to the e.m.f. when the coil is stationary inside the magnetic field?",
+      "options": [
+        "The e.m.f. is zero.",
+        "The e.m.f. is at its maximum value.",
+        "The e.m.f. becomes constant d.c.",
+        "The e.m.f. depends only on the magnet strength."
+      ],
+      "correctIndex": 0,
+      "explanation": "An e.m.f. is only induced when there is relative motion between the conductor and the magnetic field (cutting field lines). If stationary, no e.m.f. is generated. \n\n**Common mistake:** Thinking the presence of a magnet alone is enough to produce electricity."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q11",
+      "type": "mcq",
+      "question": "What is the shape of the magnetic field lines around a long, straight current-carrying wire?",
+      "options": [
+        "Concentric circles centred on the wire",
+        "Straight lines parallel to the wire",
+        "Radial lines pointing away from the wire",
+        "An elliptical loop around the ends of the wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the magnetic field due to a current in a long straight wire consists of concentric circles centred on the wire.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q12",
+      "type": "mcq",
+      "question": "What is the effect on the magnetic field around a wire if the direction of the electric current is reversed?",
+      "options": [
+        "The direction of the magnetic field lines is reversed",
+        "The magnetic field disappears completely",
+        "The strength of the magnetic field increases",
+        "The shape of the field lines changes to squares"
+      ],
+      "correctIndex": 0,
+      "explanation": "The direction of the current affects the direction of the magnetic field; reversing the current reverses the direction of the field lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q13",
+      "type": "mcq",
+      "question": "Which component consists of a long coil of wire that produces a magnetic field similar to that of a bar magnet when current flows through it?",
+      "options": [
+        "Solenoid",
+        "Potentiometer",
+        "Fixed resistor",
+        "Galvanometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A solenoid is a coil of wire that, when carrying current, produces a magnetic field pattern very similar to a bar magnet.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q14",
+      "type": "mcq",
+      "question": "How can the direction of the magnetic field around a straight wire be determined if the direction of the current is known?",
+      "options": [
+        "Using the right-hand grip rule",
+        "Using Fleming's left-hand rule",
+        "Using Lenz's Law",
+        "Using the law of reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "The right-hand grip rule is the standard method to relate current direction (thumb) to magnetic field direction (fingers) for a straight wire.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q15",
+      "type": "mcq",
+      "question": "Which of these devices specifically uses the magnetic effect of a current to operate?",
+      "options": [
+        "Relay",
+        "Filament lamp",
+        "Electric kettle",
+        "Thermistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relays and loudspeakers are explicitly listed as devices that use the magnetic effect of a current.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q16",
+      "type": "mcq",
+      "question": "What is the name of the effect where a force acts on a conductor carrying a current in a magnetic field?",
+      "options": [
+        "The motor effect",
+        "Electromagnetic induction",
+        "The generator effect",
+        "Electrostatic attraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the 'motor effect' describes the force that acts on a current-carrying conductor when placed in a magnetic field. \n\n**Common mistake:** Confusing it with electromagnetic induction, which is the process of generating an e.m.f. via a changing magnetic field."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q17",
+      "type": "mcq",
+      "question": "In Fleming’s left-hand rule, what does the first finger represent?",
+      "options": [
+        "The direction of the magnetic field",
+        "The direction of the current",
+        "The direction of the force (motion)",
+        "The direction of electron flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that in Fleming's left-hand rule, the first finger represents the direction of the magnetic field (from North to South). \n\n**Common mistake:** Thinking the first finger represents current, which is actually represented by the second finger."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q18",
+      "type": "mcq",
+      "question": "Which of the following conditions results in zero force on a current-carrying wire in a magnetic field?",
+      "options": [
+        "The wire is parallel to the magnetic field lines.",
+        "The wire is perpendicular to the magnetic field lines.",
+        "The current in the wire is very high.",
+        "The magnetic field is provided by permanent magnets."
+      ],
+      "correctIndex": 0,
+      "explanation": "The motor effect only occurs when the conductor is not parallel to the field lines; if parallel, no field lines are cut and the force is zero. \n\n**Common mistake:** Thinking the force is zero when the wire is perpendicular, which is actually when the force is at its maximum."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q19",
+      "type": "mcq",
+      "question": "What happens to the magnitude of the force on a wire if the current flowing through it is increased?",
+      "options": [
+        "The force increases.",
+        "The force decreases.",
+        "The force remains the same.",
+        "The force direction reverses."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source notes that the force produced by the motor effect can be increased by increasing the magnitude of the current. \n\n**Common mistake:** Thinking that only the magnet strength affects the force."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q20",
+      "type": "mcq",
+      "question": "Which finger in Fleming's left-hand rule represents the direction of the conventional current?",
+      "options": [
+        "The second finger",
+        "The thumb",
+        "The first finger",
+        "The little finger"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Fleming's left-hand rule, the second finger represents the direction of the current. \n\n**Common mistake:** Using the thumb for current, whereas the thumb represents the force or resulting motion."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q21",
+      "type": "mcq",
+      "question": "What is the primary energy conversion that takes place in a d.c. motor?",
+      "options": [
+        "Electrical energy to mechanical energy",
+        "Mechanical energy to electrical energy",
+        "Chemical potential energy to electrical energy",
+        "Electrical energy to thermal energy only"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a d.c. motor is used to convert electrical energy into mechanical energy. A generator does the reverse (mechanical to electrical).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q22",
+      "type": "mcq",
+      "question": "What is the function of the split-ring commutator in a simple d.c. motor?",
+      "options": [
+        "To reverse the direction of the current in the coil every half a revolution",
+        "To provide a permanent magnetic field for the coil",
+        "To measure the amount of current flowing through the circuit",
+        "To increase the resistance of the coil as it spins"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states that the function of the split-ring commutator is to reverse the direction of the current in the coil every half a revolution to ensure the coil always turns in one direction.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q23",
+      "type": "mcq",
+      "question": "Which rule is used to determine the direction of the force acting on the coil in a d.c. motor?",
+      "options": [
+        "Fleming’s left-hand rule",
+        "Fleming’s right-hand rule",
+        "Right-hand grip rule",
+        "The law of conservation of momentum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notes specify that Fleming’s left-hand rule is used to determine the direction of the force (and thus rotation) in a motor. The right-hand rule is typically used for generators.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q24",
+      "type": "mcq",
+      "question": "Which part of a d.c. motor provides the contact between the external circuit and the rotating commutator?",
+      "options": [
+        "Carbon brushes",
+        "Permanent magnets",
+        "The armature",
+        "The iron core"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon brushes are the components in a motor that maintain electrical contact between the stationary external circuit and the rotating split-ring commutator.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q25",
+      "type": "mcq",
+      "question": "On what principle does a d.c. motor operate?",
+      "options": [
+        "A current-carrying coil in a magnetic field experiences a turning effect",
+        "A changing magnetic field induces an e.m.f. in a stationary coil",
+        "Like magnetic poles attract each other to produce motion",
+        "The heating effect of a current causes a gas to expand and turn a turbine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The operating principle of a d.c. motor is that a current-carrying wire coil placed between two poles of a strong magnet experiences a turning effect.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q26",
+      "type": "mcq",
+      "question": "Which of the following are the three main components of a simple transformer?",
+      "options": [
+        "Primary coil, secondary coil, and soft iron core",
+        "Split-ring commutator, brushes, and magnets",
+        "Slip rings, armature, and core",
+        "Ammeter, voltmeter, and battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a transformer consists of a primary coil and a secondary coil wound around a soft iron core. \n\n**Common mistake:** Confusing transformer components with those of a motor (commutator) or generator (slip rings)."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q27",
+      "type": "mcq",
+      "question": "What is the primary function of a step-down transformer?",
+      "options": [
+        "To decrease the output voltage compared to the input voltage",
+        "To increase the output voltage compared to the input voltage",
+        "To convert direct current (d.c.) into alternating current (a.c.)",
+        "To store electrical energy for later use"
+      ],
+      "correctIndex": 0,
+      "explanation": "As used for voltage transformations, a step-down transformer reduces the voltage from the primary to the secondary side. \n\n**Common mistake:** Thinking a transformer changes the type of current (e.g., d.c. to a.c.)."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q28",
+      "type": "mcq",
+      "question": "Which material is used for the core of a transformer because it is easily magnetised and demagnetised?",
+      "options": [
+        "Soft iron",
+        "Steel",
+        "Copper",
+        "Rubber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material states that transformers use a soft iron core to concentrate the magnetic field lines. \n\n**Common mistake:** Selecting steel, which is 'magnetically hard' and retains its magnetism, making it unsuitable for a changing field."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q29",
+      "type": "mcq",
+      "question": "To which part of the transformer is the input alternating current (a.c.) supply connected?",
+      "options": [
+        "Primary coil",
+        "Secondary coil",
+        "Soft iron core",
+        "Laminated insulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The primary coil ($p$) is the input side of the transformer where the a.c. source is connected. \n\n**Common mistake:** Thinking the input goes to the secondary coil."
+    },
+    {
+      "id": "ch18-electromagnetic-effects-easy-q30",
+      "type": "mcq",
+      "question": "What is the standard SI unit for potential difference, which a transformer is designed to change?",
+      "options": [
+        "volt (V)",
+        "ampere (A)",
+        "ohm ($u03a9$)",
+        "watt (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potential difference (voltage) is measured in volts (V). \n\n**Common mistake:** Selecting the watt, which is the unit for power."
+    }
+  ]
+}

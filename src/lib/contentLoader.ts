@@ -15,10 +15,10 @@ const topicModules = import.meta.glob('@content/topics/**/*.json', {
   import: 'default',
 }) as Record<string, TopicMeta>
 
-const quizModules = import.meta.glob('@content/quizzes/**/*.json', {
-  eager: true,
+/** Lazy-loaded — keeps quiz JSON out of the initial bundle. */
+const quizLoaders = import.meta.glob('@content/quizzes/**/*.json', {
   import: 'default',
-}) as Record<string, QuizData>
+}) as Record<string, () => Promise<QuizData>>
 
 const noteModules = import.meta.glob('@content/notes/**/*.md', {
   eager: true,
@@ -29,12 +29,54 @@ const noteModules = import.meta.glob('@content/notes/**/*.md', {
 const subjects: SubjectMeta[] = Object.values(subjectModules)
 const chapters: ChapterMeta[] = Object.values(chapterModules)
 const topics: TopicMeta[] = Object.values(topicModules)
-const quizzes: QuizData[] = Object.values(quizModules)
 
 const notesMap: Record<string, string> = {}
 for (const [filePath, content] of Object.entries(noteModules)) {
   const match = filePath.match(/notes\/(.+\.md)$/)
   if (match) notesMap[match[1]] = content
+}
+
+const quizLoaderById = new Map<string, () => Promise<QuizData>>()
+for (const [filePath, loader] of Object.entries(quizLoaders)) {
+  const match = filePath.match(/quizzes\/(?:[^/]+\/)?([^/]+)\.json$/)
+  if (match) quizLoaderById.set(match[1], loader)
+}
+
+const quizCache = new Map<string, QuizData>()
+const quizLoadPromises = new Map<string, Promise<QuizData | undefined>>()
+
+function quizIdFromTopic(topic: TopicMeta, difficulty: QuizData['difficulty']): string | undefined {
+  return topic.quizIds?.[difficulty]
+}
+
+export async function loadQuiz(quizId: string): Promise<QuizData | undefined> {
+  const cached = quizCache.get(quizId)
+  if (cached) return cached
+
+  const pending = quizLoadPromises.get(quizId)
+  if (pending) return pending
+
+  const loader = quizLoaderById.get(quizId)
+  if (!loader) return undefined
+
+  const promise = loader()
+    .then((quiz) => {
+      quizCache.set(quizId, quiz)
+      quizLoadPromises.delete(quizId)
+      return quiz
+    })
+    .catch(() => {
+      quizLoadPromises.delete(quizId)
+      return undefined
+    })
+
+  quizLoadPromises.set(quizId, promise)
+  return promise
+}
+
+/** Returns cached quiz only (sync). Use loadQuiz for guaranteed fetch. */
+export function getQuiz(quizId: string): QuizData | undefined {
+  return quizCache.get(quizId)
 }
 
 export function getAllSubjects(): SubjectMeta[] {
@@ -67,33 +109,64 @@ export function getTopicsForChapter(chapterId: string): TopicMeta[] {
     .filter((t): t is TopicMeta => Boolean(t))
 }
 
+export function getTopicSectionNumber(chapterId: string, topicId: string): number {
+  const chapterTopics = getTopicsForChapter(chapterId)
+  const idx = chapterTopics.findIndex((t) => t.id === topicId)
+  return idx >= 0 ? idx + 1 : 1
+}
+
+export function getTopicSectionLabel(chapterId: string, topicId: string): string {
+  return `Section ${getTopicSectionNumber(chapterId, topicId)}`
+}
+
 export function getChapterQuizAnchor(chapterId: string): TopicMeta | undefined {
   return getTopicsForChapter(chapterId).find((t) => t.isChapterQuizAnchor)
 }
 
-export function getQuiz(quizId: string): QuizData | undefined {
-  return quizzes.find((q) => q.id === quizId)
-}
-
-export function getQuizByChapterAndDifficulty(
-  chapterId: string,
-  difficulty: QuizData['difficulty'],
-): QuizData | undefined {
-  const anchor = getChapterQuizAnchor(chapterId)
-  if (!anchor?.quizIds) return undefined
-  const quizId = anchor.quizIds[difficulty]
-  return getQuiz(quizId)
-}
-
-/** @deprecated Use getQuizByChapterAndDifficulty for chapter-scoped quizzes */
-export function getQuizByTopicAndDifficulty(
+export async function getQuizByTopicAndDifficulty(
   topicId: string,
   difficulty: QuizData['difficulty'],
-): QuizData | undefined {
+): Promise<QuizData | undefined> {
   const topic = getTopic(topicId)
   if (!topic?.quizIds) return undefined
-  const quizId = topic.quizIds[difficulty]
-  return getQuiz(quizId)
+  const quizId = quizIdFromTopic(topic, difficulty)
+  if (!quizId) return undefined
+  return loadQuiz(quizId)
+}
+
+export async function getQuizByChapterAndDifficulty(
+  chapterId: string,
+  difficulty: QuizData['difficulty'],
+): Promise<QuizData | undefined> {
+  const chapter = getChapter(chapterId)
+  if (!chapter) return undefined
+
+  const chapterTopics = getTopicsForChapter(chapterId)
+  const mergedQuestions: QuizData['questions'] = []
+  let passPercent = 70
+
+  for (const topic of chapterTopics) {
+    const quiz = await getQuizByTopicAndDifficulty(topic.id, difficulty)
+    if (!quiz) continue
+    passPercent = quiz.passPercent
+    mergedQuestions.push(...quiz.questions)
+  }
+
+  if (mergedQuestions.length === 0) {
+    const anchor = getChapterQuizAnchor(chapterId)
+    if (!anchor?.quizIds) return undefined
+    return loadQuiz(anchor.quizIds[difficulty])
+  }
+
+  return {
+    id: `${chapterId}-${difficulty}-merged`,
+    topicId: chapterId,
+    chapterId,
+    difficulty,
+    title: `Chapter ${chapter.number}: ${chapter.title} — ${difficulty === 'pyp' ? 'PYP' : difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}`,
+    passPercent,
+    questions: mergedQuestions,
+  }
 }
 
 export function getNotesForTopic(topic: TopicMeta): string {

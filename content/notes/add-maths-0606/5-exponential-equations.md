@@ -4,9 +4,11 @@ Exponential equations are mathematical statements where the unknown variable is 
 
 ## Key formulas
 
-$$a^x = b \implies \log(a^x) = \log(b) \implies x\log(a) = \log(b) \implies x = \frac{\log(b)}{\log(a)}$$
+$\log_a(xy) = \log_a x + \log_a y$
 
-$$p(a^x)^2 + q(a^x) + r = 0 \implies pu^2 + qu + r = 0 \quad \text{where } u = a^x$$
+$\log_a\left(\frac{x}{y}\right) = \log_a x - \log_a y$
+
+$\log_a(x^n) = n\log_a x$
 
 ## Steps / method
 
@@ -32,9 +34,7 @@ Take $\log$ of both sides: $x\log 3 = \log 27 = \log 3^3 = 3\log 3$. So $x = 3$.
 
 Solve $2^{2x} - 5 \cdot 2^x + 4 = 0$.
 
-Let $u = 2^x$: $u^2 - 5u + 4 = 0 \implies (u - 1)(u - 4) = 0$. So $u = 1$ or $u = 4$.
-
-$2^x = 1 \implies x = 0$; $2^x = 4 \implies x = 2$.
+Let $u = 2^x$: $u^2 - 5u + 4 = 0 \implies (u - 1)(u - 4) = 0$. So $u = 1$ or $u = 4$. $2^x = 1 \implies x = 0$; $2^x = 4 \implies x = 2$.
 
 ## Examiner tip
 
@@ -43,7 +43,3 @@ When solving exponential equations that simplify to a quadratic format (e.g., eq
 ## Quick check
 
 If you solve an exponential equation and get a step where 2x=−5, then you must state that this branch has no real solution.
-
-## Visual / interactive intent
-
-New explorer — Quadratic exponential solver simulator. Features an equation workspace that tracks hidden quadratic transformations. Users change coefficients using sliders, and the system highlights step-by-step substitutions, explicitly showing why negative quadratic outcomes fail when converted back to exponential terms.

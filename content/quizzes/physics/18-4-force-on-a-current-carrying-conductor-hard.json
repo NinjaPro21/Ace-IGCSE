@@ -1,0 +1,77 @@
+{
+  "id": "18-4-force-on-a-current-carrying-conductor-hard",
+  "topicId": "18-4-force-on-a-current-carrying-conductor",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "Force on a Current-carrying Conductor — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-hard-q1",
+      "type": "mcq",
+      "question": "A beam of electrons travels from the bottom of the page towards the top. A magnetic field is directed into the page. What is the direction of the initial deflection of the electrons?",
+      "options": [
+        "Towards the right",
+        "Towards the left",
+        "Towards the top",
+        "Towards the bottom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conventional current is opposite to electron flow. Therefore, current is 'downwards'. Field is 'into page'. Using Fleming's left-hand rule: Field (Index) into page, Current (Middle) down, Thumb points right. \n\n**Common mistake:** Using the electron direction for the current finger, which gives the opposite result."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-hard-q2",
+      "type": "mcq",
+      "question": "How does the deflection of alpha ($u03b1$) particles compare to beta ($u03b2$) particles when they enter the same magnetic field at the same speed?",
+      "options": [
+        "They are deflected in opposite directions because they have opposite charges.",
+        "They are deflected in the same direction but by different amounts.",
+        "Only beta particles are deflected because alpha particles are too heavy.",
+        "Neither is deflected because they are not travelling in a wire."
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic fields exert forces on charged particles. Alpha particles are positive and beta particles are negative, so Fleming's left-hand rule (with current direction adjusted for charge) predicts opposite deflections. \n\n**Common mistake:** Thinking heavy alpha particles won't deflect at all."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-hard-q3",
+      "type": "mcq",
+      "question": "A current-carrying wire is placed perpendicular to a magnetic field. If the length of the wire inside the field is halved and the current is doubled, what happens to the force?",
+      "options": [
+        "The force remains the same.",
+        "The force is doubled.",
+        "The force is quadrupled.",
+        "The force is halved."
+      ],
+      "correctIndex": 0,
+      "explanation": "Force is proportional to both current and the length of the conductor in the field. Since $0.5 \\times 2 = 1$, the net effect is no change in force. \n\n**Common mistake:** Thinking force only depends on the properties of the magnet."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-hard-q4",
+      "type": "mcq",
+      "question": "Which statement accurately describes the magnetic field lines around two parallel wires carrying currents in opposite directions?",
+      "options": [
+        "The field lines between the wires are crowded, resulting in repulsion.",
+        "The field lines between the wires cancel out, resulting in attraction.",
+        "The field lines form a single loop around both wires, causing them to twist.",
+        "The field lines are unaffected by the other wire's presence."
+      ],
+      "correctIndex": 0,
+      "explanation": "When currents are in opposite directions, the magnetic fields between the wires point in the same direction, becoming 'crowded'. This creates a region of high magnetic pressure that pushes the wires apart. \n\n**Common mistake:** Thinking opposite directions lead to attraction like magnetic poles do."
+    },
+    {
+      "id": "18-4-force-on-a-current-carrying-conductor-hard-q5",
+      "type": "mcq",
+      "question": "A beam of protons (positive charges) enters a magnetic field directed out of the page. The beam is deflected towards the bottom of the page. What was the initial direction of the proton beam?",
+      "options": [
+        "Towards the right",
+        "Towards the left",
+        "Into the page",
+        "Towards the top"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's left-hand rule: Thumb (Force) points down. First finger (Field) points out of page. The second finger (Current) points right. Since protons are positive, current is in the same direction as motion. \n\n**Common mistake:** Reversing the direction because of the 'out of page' field."
+    }
+  ]
+}

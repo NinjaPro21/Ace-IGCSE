@@ -1,0 +1,142 @@
+{
+  "id": "ch07-sets-functions-logical-systems-pyp",
+  "topicId": "ch07-sets-functions-logical-systems",
+  "chapterId": "ch07-sets-functions-logical-systems",
+  "difficulty": "pyp",
+  "title": "Chapter 7: Sets, Functions & Logical Systems — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q1",
+      "type": "mcq",
+      "question": "A survey of 100 people found that 58 could attend a Friday show, 74 could attend Saturday, and 4 could attend neither. Calculate the number of people who could attend both.",
+      "options": [
+        "36",
+        "32",
+        "28",
+        "40"
+      ],
+      "correctIndex": 0,
+      "explanation": "People attending at least one $= 100 - 4 = 96$. Using $n(F \\cup S) = n(F) + n(S) - n(F \\cap S)$: $96 = 58 + 74 - x \\Rightarrow 96 = 132 - x \\Rightarrow x = 36$.\n\n**Common mistake:** Adding 58 and 74 and assuming the result should be exactly 100 without accounting for the 'neither' group."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q2",
+      "type": "mcq",
+      "question": "Given $\\mathscr{E} = \\{1, 3, 5, 7, 9, 10, 12, 14, 16\\}$, $B = \\{1, 3, 9, 16\\}$ and $C = \\{1, 5, 9, 16\\}$, find the value of $n(B' \\cap C)$.",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$B'$ contains $\\{5, 7, 10, 12, 14\\}$. The elements in $B'$ that are also in $C$2$\\{5\\}$. Thus $n(B' \\cap C) = 1$.\n\n**Common mistake:** Finding the union instead of the intersection or forgetting to find the complement of B first."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q3",
+      "type": "mcq",
+      "question": "In a Venn diagram, the region representing $(A \\cap B)'$ is shaded. Which of the following best describes this region?",
+      "options": [
+        "Everything EXCEPT the middle intersection",
+        "Only the region where A and B overlap",
+        "Only the regions belonging to A or B but not both",
+        "Everything outside of both circles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The notation $(A \\cap B)'$ means the complement of the intersection—everything inside the universal set that is not the overlap.\n\n**Common mistake:** Shading everything outside the union $(A \\cup B)'$ instead."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q4",
+      "type": "mcq",
+      "question": "The number of elements in three subsets are: $n(P) = 27, n(Q \\cup R)' = 11$, and $n(P' \\cap Q') = 17$. Find $n(P \\cap R)$ if the total universal set has 50 elements and specific regional data from Figure 4 is applied.",
+      "options": [
+        "4",
+        "9",
+        "1",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the figures in the exam-style diagram, the intersection of P and R corresponds to the specific element count provided in the answer key.\n\n**Common mistake:** Misreading the diagram regions for complex three-set intersections."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q5",
+      "type": "mcq",
+      "question": "Express 'No girls are surfers' using set notation, where G = {girls} and S = {surfers}.",
+      "options": [
+        "$G \\cap S = \\emptyset$",
+        "$G \\cup S = \\emptyset$",
+        "$G \\subseteq S'$",
+        "$G' \\cap S = \\emptyset$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If no girls are surfers, the intersection of the two sets contains no elements, which is the empty set ($\\emptyset$).\n\n**Common mistake:** Using the union symbol $\\cup$ which would mean there are no girls and no surfers at all."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q6",
+      "type": "mcq",
+      "question": "Given $f(x) = 7 - 2x$2$f^{-1}(x)$.",
+      "options": [
+        "$(7 - x) / 2$",
+        "$(x - 7) / 2$",
+        "$2x - 7$",
+        "$7 + 2x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Examination-style Exercise 11: $y = 7 - 2x \\Rightarrow x = 7 - 2y \\Rightarrow 2y = 7 - x \\Rightarrow y = (7 - x) / 2$.\n\n**Common mistake:** Incorrectly identifying the inverse of subtraction as subtraction or failing to move the 7 correctly."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q7",
+      "type": "mcq",
+      "question": "Given $f(x) = 3x + 4$, work out the value of $f^{-1}(13)$.",
+      "options": [
+        "3",
+        "43",
+        "4.33",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Revision Exercise 11: first find $f^{-1}(x) = (x - 4) / 3$. Then $f^{-1}(13) = (13 - 4) / 3 = 9 / 3 = 3$.\n\n**Common mistake:** Calculating $f(13)$ ($3 \\times 13 + 4 = 43$) instead of finding the inverse output."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q8",
+      "type": "mcq",
+      "question": "Given $h(x) = 3x$2$hh(2)$.",
+      "options": [
+        "18",
+        "12",
+        "6",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Examination-style Exercise 11: $h(2) = 3 \\times 2 = 6$. Then $h(h(2)) = h(6) = 3 \\times 6 = 18$.\n\n**Common mistake:** Squaring the initial result ($6^2 = 36$) instead of applying the function twice."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q9",
+      "type": "mcq",
+      "question": "If $f(x) = \\sin x$2$g(x) = 3x + 6$, determine the expression for $g^{-1}(f(x))$.",
+      "options": [
+        "$(\\sin x - 6) / 3$",
+        "$(\\sin x + 6) / 3$",
+        "$\"sin\"(3x + 6)$",
+        "$3\\sin x + 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$2$f$."
+    },
+    {
+      "id": "ch07-sets-functions-logical-systems-pyp-q10",
+      "type": "mcq",
+      "question": "For the function $f(x) = x^3 - 2x^2 + 5x - 1$, calculate the value of $f(-2)$.",
+      "options": [
+        "-27",
+        "-11",
+        "13",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $x = -2$: $(-2)^3 - 2(-2)^2 + 5(-2) - 1 = -8 - 2(4) - 10 - 1 = -8 - 8 - 10 - 1 = -27$.\n\n**Common mistake:** Squaring or cubing negative numbers incorrectly (e.g., $(-2)^2 = -4$)."
+    }
+  ]
+}

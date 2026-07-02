@@ -1,0 +1,77 @@
+{
+  "id": "5-introduction-to-logarithms-easy",
+  "topicId": "5-introduction-to-logarithms",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "easy",
+  "title": "Introduction to Logarithms — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-introduction-to-logarithms-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the logarithmic form of the index equation $2^5 = 32$?",
+      "options": [
+        "$\\log_2 32 = 5$",
+        "$\\log_5 32 = 2$",
+        "$\\log_{32} 2 = 5$",
+        "$\\log_2 5 = 32$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The base of the power (2) becomes the base of the logarithm, and the result (32) becomes the argument. Thus, $\\log_2 32 = 5$.\n\n**Common mistake:** Students often swap the positions of the base and the exponent in the logarithmic form."
+    },
+    {
+      "id": "5-introduction-to-logarithms-easy-q2",
+      "type": "mcq",
+      "question": "Convert the logarithmic equation $\\log_3 81 = 4$ into its equivalent index form.",
+      "options": [
+        "$3^4 = 81$",
+        "$4^3 = 81$",
+        "$81^{1/4} = 3$",
+        "$81^3 = 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The base (3) raised to the result (4) equals the argument (81).\n\n**Common mistake:** Confusing the base of the log with the result, leading to $4^3 = 81$."
+    },
+    {
+      "id": "5-introduction-to-logarithms-easy-q3",
+      "type": "mcq",
+      "question": "Evaluate the value of $\\log_{10} 1000$.",
+      "options": [
+        "3",
+        "2",
+        "10",
+        "100"
+      ],
+      "correctIndex": 0,
+      "explanation": "We ask: 10 raised to what power is 1000? Since $10^{3} = 1000$, the answer is 3.\n\n**Common mistake:** Miscounting the zeros and choosing 2 or assuming the answer is a multiple of 10."
+    },
+    {
+      "id": "5-introduction-to-logarithms-easy-q4",
+      "type": "mcq",
+      "question": "What is the value of $\\log_a 1$ for any valid base $a$?",
+      "options": [
+        "0",
+        "1",
+        "a",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the laws of indices, $a^0 = 1$ for any $a$\neq 0$. Therefore,$\\log_a 1 = 02\n\n**Common mistake:** Thinking the answer is 1, confusing it with the identity $\\log_a a = 1$."
+    },
+    {
+      "id": "5-introduction-to-logarithms-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate $\\lg 0.01$.",
+      "options": [
+        "-2",
+        "2",
+        "-1",
+        "0.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg$2$0.01 = 10^{-2}$, so $\\lg 10^{-2} = -2$.\n\n**Common mistake:** Providing the positive value 2 or confusing the number of decimal places."
+    }
+  ]
+}

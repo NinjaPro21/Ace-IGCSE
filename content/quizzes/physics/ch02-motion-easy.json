@@ -1,0 +1,207 @@
+{
+  "id": "ch02-motion-easy",
+  "topicId": "ch02-motion",
+  "chapterId": "ch02-motion",
+  "difficulty": "easy",
+  "title": "Chapter 2: Motion — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch02-motion-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of speed?",
+      "options": [
+        "Distance travelled per unit time",
+        "Speed in a given direction",
+        "Change of velocity per unit time",
+        "Total length covered by a moving object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is defined as the distance travelled per unit time. \n\n**Common mistake:** Velocity is often confused with speed, but velocity includes a specified direction."
+    },
+    {
+      "id": "ch02-motion-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for acceleration?",
+      "options": [
+        "$m/s^2$",
+        "$m/s$",
+        "$km/h$",
+        "$kg m/s$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit for acceleration is metres per second squared ($m/s^2$). \n\n**Common mistake:** $m/s$ is the unit for speed and velocity, not acceleration."
+    },
+    {
+      "id": "ch02-motion-easy-q3",
+      "type": "mcq",
+      "question": "Which of these quantities is a scalar?",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is a scalar quantity because it has magnitude only. \n\n**Common mistake:** Velocity and acceleration are vectors because they require direction to be fully defined."
+    },
+    {
+      "id": "ch02-motion-easy-q4",
+      "type": "mcq",
+      "question": "A toy car travels 96 m in 12 s. What is its average speed?",
+      "options": [
+        "8 m/s",
+        "1152 m/s",
+        "0.125 m/s",
+        "108 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $Average speed = total distance / total time$, we get $96 m / 12 s = 8 m/s$. \n\n**Common mistake:** Multiplying the numbers instead of dividing them."
+    },
+    {
+      "id": "ch02-motion-easy-q5",
+      "type": "mcq",
+      "question": "What does a horizontal line on a distance–time graph represent?",
+      "options": [
+        "The object is at rest",
+        "The object is moving at constant speed",
+        "The object is accelerating",
+        "The object is decelerating"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line on a distance–time graph means the distance does not change as time passes, so the object is stationary. \n\n**Common mistake:** Thinking it means constant speed, which is represented by a horizontal line on a speed–time graph."
+    },
+    {
+      "id": "ch02-motion-easy-q6",
+      "type": "mcq",
+      "question": "What physical quantity is represented by the gradient of a distance–time graph?",
+      "options": [
+        "Speed",
+        "Acceleration",
+        "Distance travelled",
+        "Time taken"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gradient of a distance–time graph ($Delta y / Delta x$) represents the change in distance over the change in time, which is speed. \n\n**Common mistake:** Students often confuse distance–time and speed–time graphs, incorrectly stating that the gradient represents acceleration."
+    },
+    {
+      "id": "ch02-motion-easy-q7",
+      "type": "mcq",
+      "question": "On a speed–time graph, what does a horizontal line above the x-axis represent?",
+      "options": [
+        "Constant speed",
+        "The object is at rest",
+        "Uniform acceleration",
+        "Changing acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line on a speed–time graph shows that the speed is not changing as time passes, meaning the object has zero acceleration and constant speed. \n\n**Common mistake:** Thinking the object is at rest; an object at rest is represented by a horizontal line specifically on the x-axis ($speed = 0$)."
+    },
+    {
+      "id": "ch02-motion-easy-q8",
+      "type": "mcq",
+      "question": "Which feature of a speed–time graph is used to determine the distance travelled by an object?",
+      "options": [
+        "The area under the graph",
+        "The gradient of the line",
+        "The y-intercept",
+        "The total length of the line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The area under a speed–time graph represents the product of speed and time, which equals the total distance travelled. \n\n**Common mistake:** Using the gradient to find distance; the gradient represents the rate of change of speed (acceleration)."
+    },
+    {
+      "id": "ch02-motion-easy-q9",
+      "type": "mcq",
+      "question": "What does a horizontal line on a distance–time graph indicate about an object's motion?",
+      "options": [
+        "The object is stationary (at rest)",
+        "The object is moving at constant speed",
+        "The object is accelerating",
+        "The object is decelerating"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the line is horizontal on a distance–time graph, the distance from the starting point remains constant, meaning the object is not moving. \n\n**Common mistake:** Confusing this with a speed–time graph where a horizontal line means constant motion."
+    },
+    {
+      "id": "ch02-motion-easy-q10",
+      "type": "mcq",
+      "question": "A straight diagonal line with a constant positive gradient on a speed–time graph represents:",
+      "options": [
+        "Uniform acceleration",
+        "Constant speed",
+        "Non-uniform acceleration",
+        "Uniform deceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the gradient of a speed–time graph. A straight diagonal line indicates a constant rate of change in speed, which is uniform acceleration. \n\n**Common mistake:** Selecting 'constant speed' because the line is straight; constant speed is a flat, horizontal line."
+    },
+    {
+      "id": "ch02-motion-easy-q11",
+      "type": "mcq",
+      "question": "What is the approximate constant value for the acceleration of free fall $g$ near the surface of the Earth?",
+      "options": [
+        "$9.8\\text{ m/s}^2$",
+        "$10\\text{ N/kg}$",
+        "$1.6\\text{ m/s}^2$",
+        "$0\\text{ m/s}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The acceleration of free fall $g$ for an object near the surface of the Earth is approximately constant at $9.8\\text{ m/s}^2$. \n\n**Common mistake:** Choosing $1.6\\text{ m/s}^2$, which is the value for the Moon."
+    },
+    {
+      "id": "ch02-motion-easy-q12",
+      "type": "mcq",
+      "question": "Which force is the only one acting on an object during 'free fall' in a vacuum?",
+      "options": [
+        "Weight",
+        "Air resistance",
+        "Friction",
+        "Magnetic force"
+      ],
+      "correctIndex": 0,
+      "explanation": "An object can only be in free fall if the only force acting on it is its own weight, typically observed in a vacuum where air resistance is absent. \n\n**Common mistake:** Thinking air resistance always acts; it is absent in a vacuum."
+    },
+    {
+      "id": "ch02-motion-easy-q13",
+      "type": "mcq",
+      "question": "What does a straight diagonal line with a constant gradient on a speed–time graph represent for a falling object?",
+      "options": [
+        "Constant acceleration",
+        "Terminal velocity",
+        "Decreasing speed",
+        "At rest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without air resistance, an object falls with constant acceleration, which is shown as a straight diagonal line on a speed–time graph. \n\n**Common mistake:** Confusing this with terminal velocity, which is a horizontal line."
+    },
+    {
+      "id": "ch02-motion-easy-q14",
+      "type": "mcq",
+      "question": "An object is dropped from rest in a vacuum. What is its speed after $1.0\\text{ s}$? (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$10\\text{ m/s}$",
+        "$1.0\\text{ m/s}$",
+        "$20\\text{ m/s}$",
+        "$5\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = gt$, $v = 10 \\times 1 = 10\\text{ m/s}$. \n\n**Common mistake:** Thinking the speed remains constant at $10\\text{ m/s}$ regardless of time."
+    },
+    {
+      "id": "ch02-motion-easy-q15",
+      "type": "mcq",
+      "question": "When an object reaches terminal velocity, what is its acceleration?",
+      "options": [
+        "$0\\text{ m/s}^2$",
+        "$9.8\\text{ m/s}^2$",
+        "$10\\text{ m/s}^2$",
+        "Increasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "At terminal velocity, the air resistance equals the weight, the resultant force is zero, and thus acceleration is $0\\text{ m/s}^2$. \n\n**Common mistake:** Thinking the acceleration is $10\\text{ m/s}^2$ at all times during a fall."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+## Core idea
+
+Every magnet has a region of space around it where magnetic forces can be detected, known as a magnetic field. Any magnetic material or magnetic pole placed within this field will experience a force.
+
+Earth’s Magnetic Field
+
+The Earth behaves like a giant bar magnet and possesses its own magnetic field. This explains why a freely suspended magnet always points in a north–south direction: it is aligning itself with the Earth's magnetic field lines.
+
+Visualising Magnetic Fields
+
+Since magnetic fields are invisible, they are represented using magnetic field lines. The arrangement of these lines is called a magnetic field pattern.
+
+Direction: Magnetic field lines leave the North (N) pole and enter the South (S) pole. Formally, the direction at any point is the direction of the force that would act on a North pole placed at that point.
+
+Strength: The relative strength of the magnetic force is shown by how closely packed the field lines are. Lines are most concentrated at the poles, where the magnetic force is strongest.
+
+Interactions: Magnetic forces are the result of interactions between different magnetic fields (e.g., between a bar magnet and a compass needle).
+
+Plotting a Magnetic Field
+
+A plotting compass—which is itself a tiny magnet—can be used to map the field lines around a bar magnet.
+
+Method for Plotting Field Lines:
+
+Setup: Place a bar magnet at the centre of a piece of paper and trace its outline.
+
+Marking Dots: Place a compass near one pole. Mark the positions of the North and South ends of the needle with pencil dots.
+
+Moving the Compass: Move the compass so its South end is exactly on the dot previously occupied by the North end. Mark the new position of the North end.
+
+Creating the Line: Repeat this process until the compass reaches the other pole. Join the dots to reveal a single magnetic field line.
+
+Adding Detail: Repeat from different starting points to draw a complete, symmetrical field pattern.
+
+## Graphs & diagrams
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 320 160" width="320" height="160" role="img" aria-label="Magnetic field between poles">
+      <rect x="40" y="50" width="30" height="60" fill="#fecaca" stroke="#dc2626"/>
+      <text x="55" y="85" text-anchor="middle" font-size="12" fill="#991b1b">N</text>
+      <rect x="250" y="50" width="30" height="60" fill="#bfdbfe" stroke="#2563eb"/>
+      <text x="265" y="85" text-anchor="middle" font-size="12" fill="#1e3a8a">S</text>
+      <path d="M75 60 Q160 30 245 60" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#mf)"/>
+      <path d="M75 80 Q160 80 245 80" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#mf)"/>
+      <path d="M75 100 Q160 130 245 100" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#mf)"/>
+      <defs><marker id="mf" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
+    </svg><p class="enlight-physics-diagram__caption">Magnetic field lines — leave the N pole and enter the S pole; lines show direction and strength.</p></div>
+
+## Quick check
+
+In which direction do magnetic field lines always point?
+
+How can you tell from a diagram where a magnetic field is the strongest?
+
+True or False: A piece of wood placed in a magnetic field will experience a magnetic force. (Answer: False; wood is a non-magnetic material)

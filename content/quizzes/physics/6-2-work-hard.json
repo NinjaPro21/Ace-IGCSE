@@ -1,0 +1,77 @@
+{
+  "id": "6-2-work-hard",
+  "topicId": "6-2-work",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "hard",
+  "title": "Work — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-2-work-hard-q1",
+      "type": "mcq",
+      "question": "A $1.5\\text{ kg}$ model car is pulled $1.2\\text{ m}$ up a slope by a $10\\text{ N}$ force parallel to the slope. If the vertical height gained is $0.6\\text{ m}$, calculate the work done by the $10\\text{ N}$ force.",
+      "options": [
+        "$12\\text{ J}$",
+        "$9\\text{ J}$",
+        "$18\\text{ J}$",
+        "$21\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The work done by the specific $10\\text{ N}$ force is $F \\times \\text{distance along the slope} = 10\\text{ N} \\times 1.2\\text{ m} = 12\\text{ J}$. **Common mistake:** Calculating the potential energy gain ($1.5 \\times 10 \\times 0.6 = 9\\text{ J}$) and identifying it as the work done by the pulling force."
+    },
+    {
+      "id": "6-2-work-hard-q2",
+      "type": "mcq",
+      "question": "A student carries books weighing $20\\text{ N}$ while walking at a constant speed across a horizontal floor for $10\\text{ m}$. How much work is done by the **upward** force $F$ the student exerts on the books?",
+      "options": [
+        "$0\\text{ J}$",
+        "$200\\text{ J}$",
+        "$2\\text{ J}$",
+        "$20\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is force \\times distance moved **in the direction of the force**. The force $F$ is upward, but the distance moved is horizontal ($90^{circ}$ away). Thus, the distance moved in the direction of $F$ is zero. **Common mistake:** Simply multiplying $20\\text{ N} \\times 10\\text{ m}$ to get $200\\text{ J}$."
+    },
+    {
+      "id": "6-2-work-hard-q3",
+      "type": "mcq",
+      "question": "An object of mass $2\\text{ kg}$ is initially at rest. A resultant force does $100\\text{ J}$ of work on it. Assuming no energy is dissipated, calculate its final speed.",
+      "options": [
+        "$10\\text{ m/s}$",
+        "$50\\text{ m/s}$",
+        "$100\\text{ m/s}$",
+        "$7.07\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done is transferred to kinetic energy ($E_k$): $100\\text{ J} = \\frac{1}{2}mv^2$. $100 = 0.5 \\times 2 \\times v^2 Rightarrow v^2 = 100 Rightarrow v = 10\\text{ m/s}$. **Common mistake:** Thinking the work done is equal to the speed directly ($100$) or ignoring the $1/2$ in the formula."
+    },
+    {
+      "id": "6-2-work-hard-q4",
+      "type": "mcq",
+      "question": "A machine lifts $200\\text{ kg}$ of bricks vertically through $30\\text{ m}$ in $50\\text{ s}$. How much mechanical work is performed by the machine? (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$60000\\text{ J}$",
+        "$6000\\text{ J}$",
+        "$1.2\\text{ kJ}$",
+        "$300000\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work $= F \\times s = (mg) \\times h = 200 \\times 10 \\times 30 = 60000\\text{ J}$. **Common mistake:** Including the time ($50\\text{ s}$) in the calculation, which results in power ($1200\\text{ W}$) rather than work."
+    },
+    {
+      "id": "6-2-work-hard-q5",
+      "type": "mcq",
+      "question": "A person pulls a box with a force $F$. If the work done is transferred into both kinetic energy and thermal energy (due to friction), which statement is correct?",
+      "options": [
+        "$Work = Delta E_k + \\text{Thermal Energy}$",
+        "$Work = Delta E_k - \\text{Thermal Energy}$",
+        "$Work = \\text{Thermal Energy}$ only",
+        "The principle of conservation of energy does not apply here"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total work done by the applied force is the total energy transferred, which is divided between the increase in kinetic energy and the energy dissipated as heat. **Common mistake:** Thinking work only relates to the 'useful' energy ($E_k$) and ignoring friction."
+    }
+  ]
+}

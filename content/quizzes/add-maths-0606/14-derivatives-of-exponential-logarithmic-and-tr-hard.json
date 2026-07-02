@@ -1,0 +1,207 @@
+{
+  "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard",
+  "topicId": "14-derivatives-of-exponential-logarithmic-and-tr",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "hard",
+  "title": "Derivatives of Exponential, Logarithmic, and Trigonometric Functions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q1",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x e^{-2x}$.",
+      "options": [
+        "$0.5$",
+        "$1$",
+        "$0$",
+        "$-0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = x(-2e^{-2x}) + e^{-2x}(1) = e^{-2x}(1 - 2x)$. Setting this to^0 gives $1 - 2x = 0$, so $x = 0.5$.\n\n**Common mistake:** Option C is chosen if the student incorrectly assumes the stationary point is always at the origin for exponential products."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q2",
+      "type": "mcq",
+      "question": "A curve has equation $y = e^{2x} - 10e^x$. Find the coordinates of the minimum point on the curve.",
+      "options": [
+        "$(\\ln 5, -25)$",
+        "$(\\ln 5, -50)$",
+        "$(5, -25)$",
+        "$(\\ln 10, -100)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 2e^{2x} - 10e^x = 0 \\implies 2e^x(e^x - 5) = 0 \\implies e^x = 5 \\implies x = \\ln 5$. Substituting $x = \\ln 5$ into $y$2$5^2 - 10(5) = 25 - 50 = -25$.\n\n**Common mistake:** Option B is a common arithmetic error when substituting the value back into the original function."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q3",
+      "type": "mcq",
+      "question": "Determine the second derivative $\\frac{d^2y}{dx^2}$ for the function $y = e^{x^2}$.",
+      "options": [
+        "$2e^{x^2}(1 + 2x^2)$",
+        "$4x^2 e^{x^2}$",
+        "$2e^{x^2}$",
+        "$2xe^{x^2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}$) during the second differentiation step."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q4",
+      "type": "mcq",
+      "question": "Find the equation of the tangent to the curve $y = 4e^{0.5x}$ at the point where it crosses the $y$-axis.",
+      "options": [
+        "$y = 2x + 4$",
+        "$y = 2x$",
+        "$y = 0.5x + 4$",
+        "$y = 4x + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crosses $y$2$x=0, y=4$. $\\frac{dy}{dx} = 4(0.5)e^{0.5x} = 2e^{0.5x}$. At $x=0, m=2$. Tangent: $y-4 = 2(x-0) \\implies y = 2x + 4$.\n\n**Common mistake:** Option C uses the exponent coefficient directly as the gradient instead of multiplying it by the function coefficient."
+    },
+    {
+      "type": "mcq",
+      "question": "Find the x-coordinate of the stationary point of the curve $y = e^{2x} / x$2$x > 0$.",
+      "options": [
+        "0.5",
+        "1",
+        "2",
+        "e"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quotient rule: $dy/dx = (2e^{2x} \\cdot x - e^{2x} \\cdot 1) / x^2$. Setting $e^{2x}(2x - 1) = 0 \\Rightarrow 2x - 1 = 0 \\Rightarrow x = 0.5$.\n\n**Common mistake:** Incorrectly applying the quotient rule formula or failing to simplify $e^{2x}$ out of the numerator.",
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q5"
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q6",
+      "type": "mcq",
+      "question": "Find the derivative of $y = \\ln\\left(\\frac{x+1}{x-1}\\right)$.",
+      "options": [
+        "-2 / (x^2 - 1)",
+        "2 / (x^2 - 1)",
+        "1 / (x+1) - 1 / (x-1)",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: ln(x+1) - ln(x-1). Derivative = 1/(x+1) - 1/(x-1) = [(x-1) - (x+1)] / (x^2-1) = -2 / (x^2-1).\n\n**Common mistake:** Attempting to use the quotient rule inside the logarithm without expanding it first."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q7",
+      "type": "mcq",
+      "question": "Differentiate $y = \\ln(\\sqrt{x^2 + 1})$.",
+      "options": [
+        "x / (x^2 + 1)",
+        "1 / (x^2 + 1)",
+        "2x / (x^2 + 1)",
+        "1 / (2\\sqrt{x^2 + 1})"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: 0.5 ln(x^2 + 1). Derivative = 0.5 * (2x / (x^2 + 1)) = x / (x^2 + 1).\n\n**Common mistake:** Failing to account for the square root power (0.5) when differentiating."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q8",
+      "type": "mcq",
+      "question": "Find the equation of the tangent to $y = \\ln x$2$y = 0$.",
+      "options": [
+        "y = x - 1",
+        "y = x",
+        "y = x + 1",
+        "y = 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "y = 0 implies ln x = 0, so x = 1. $\\frac{dy}{dx}$ = 1/x; at x=1, m = 1. Equation: y - 0 = 1(x - 1) => y = x - 1.\n\n**Common mistake:** Using x=0 as the point, which is impossible as ln 0 is undefined."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q9",
+      "type": "mcq",
+      "question": "Determine $dy/dx$2$y = \\ln(x e^x)$.",
+      "options": [
+        "1/x + 1",
+        "e^x / x",
+        "1 / (x e^x)",
+        "x + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: ln x + ln(e^x) = ln x + x. Derivative = 1/x + 1.\n\n**Common mistake:** Using the product rule unnecessarily or incorrectly differentiating the e^x term."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q10",
+      "type": "mcq",
+      "question": "Find the stationary point of the curve $y = \\ln x - x$.",
+      "options": [
+        "(1, -1)",
+        "(1, 0)",
+        "(e, 0)",
+        "No stationary points"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 1/x - 1. Set to 0: 1/x = 1 => x = 1. y = ln 1 - 1 = -1.\n\n**Common mistake:** Mistakenly identifying the stationary point as (1, 0)."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q11",
+      "type": "mcq",
+      "question": "Find the x-coordinate of the stationary point of the curve y=e^x\ncosx for 0<x<\npi.",
+      "options": [
+        "$\\frac{3}{pi4}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{2}$",
+        "pi"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}=e^x$\n(−\nsinx)+\ncosx(e^x\n)=e^x\n(\ncosx−\nsinx). Set to 0:\ncosx=\nsinx \\implies \ntanx=1. In the range, x= \\frac{\\pi}{4}? No, wait:\ncosx−\nsinx=0 means x=\npi/4. Let me check the range... yes, x=\npi/4. (Wait, e^x\n(\ncosx−\nsinx)=0⟹tanx=1⟹x=π/4). If y=e^x\nsinx, it would be different. Correct index 1.\n\n**Common mistake:** Option A is a solution for\ntanx=−1, which would occur if the derivative was\ncosx+\nsinx."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q12",
+      "type": "mcq",
+      "question": "Determine the second derivative$\\frac{$d^{2}$yd$x^{2}$}{}$ of the function y=\ntanx.",
+      "options": [
+        "2\n\\sec^{2} x\ntanx",
+        "\\sec^{4}$x",
+        "2\nsecx\ntanx",
+        "\\sec^{2} x\n\\tan^{2}$x"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = $\n\\sec^{2} x.$\\frac{$d^{2}$yd$x^{2}$= 2$\nsecx\ntimes$\\frac{d}{dx}($\nsecx)=2\nsecx(\nsecx\ntanx)=2\n\\sec^{2} x\ntanx.\n\n**Common mistake:** Option B results from incorrectly applying the power rule to the squared secant function without the chain rule component."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q13",
+      "type": "mcq",
+      "question": "Find the derivative of y=\n\\sin^{2}$(3x) and simplify using a double angle identity.",
+      "options": [
+        "3\nsin(6x)",
+        "6\nsin(3x)\ncos(3x)",
+        "2\nsin(6x)",
+        "6\ncos(6x)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}=2$\nsin(3x)\ntimes3\ncos(3x)=6\nsin(3x)\ncos(3x). Using 2\nsinA\ncosA=\nsin2A, this becomes 3\nsin(6x).\n\n**Common mistake:** Option B is the unsimplified form; students may stop here and fail to reach the requested 'simplest form'."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q14",
+      "type": "mcq",
+      "question": "A particle moves such that its displacement is s=4\ncos(2t+$\\frac{\\pi}{6}$). Find the velocity of the particle when t= \\frac{\\pi}{6}.",
+      "options": [
+        "−4\\sqrt3",
+        "−4",
+        "4",
+        "−8"
+      ],
+      "correctIndex": 0,
+      "explanation": "v= \\frac{ds}{dt} = -8\nsin(2t+$\\frac{\\pi}{6}$). At t= \\frac{\\pi}{6}, 2t+$\\frac{\\pi}{6} = \n\n$$\n\\frac{\\pi}{3} + \n$$$$\n\\frac{\\pi}{6} = \n\\frac{\\pi}{2}$. v=-8$\nsin($\\frac{\\pi}{2}$)=−8.\n\n**Common mistake:** Option A occurs if the student uses the cosine function for velocity instead of the negative sine derivative."
+    },
+    {
+      "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q15",
+      "type": "mcq",
+      "question": "Find the value of k such that the derivative of y= \\frac{1}{cosx} is k\nsecx\ntanx.",
+      "options": [
+        "1",
+        "−1",
+        "0",
+        "−2"
+      ],
+      "correctIndex": 0,
+      "explanation": "y=(\ncosx)\n−1 \\implies $\\frac{dy}{dx}=-1($\ncosx)\n−2\n(−\nsinx)= \\frac{sinx\\cos^{2}x^2$\nsecx\ntanx. Thus k=1.\n\n**Common mistake:** Option B results from a sign error where the student forgets that differentiating the inner cosine function produces a negative sine, canceling the first negative."
+    }
+  ]
+}

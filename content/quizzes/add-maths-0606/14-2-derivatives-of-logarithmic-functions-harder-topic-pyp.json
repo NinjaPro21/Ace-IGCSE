@@ -1,0 +1,77 @@
+{
+  "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp",
+  "topicId": "14-2-derivatives-of-logarithmic-functions-harder-topic",
+  "chapterId": "ch14-calculus-differentiation-2",
+  "difficulty": "pyp",
+  "title": "Derivatives of Logarithmic Functions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q1",
+      "type": "mcq",
+      "question": "Differentiate $y = \\ln(2x + 5)^3$.",
+      "options": [
+        "6 / (2x + 5)",
+        "3 / (2x + 5)",
+        "1 / (2x + 5)³",
+        "6(2x + 5)$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify: 3 ln(2x + 5). Derivative = 3 * (2 / (2x + 5)) = 6 / (2x + 5).\n\n**Common mistake:** Failing to apply the chain rule correctly to the inner (2x + 5) term."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q2",
+      "type": "mcq",
+      "question": "Find $dy/dx$2$y = \\frac{\\ln x}{x}$.",
+      "options": [
+        "(1 - ln x) / x^2",
+        "1 / x^2",
+        "(ln x - 1) / x^2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quotient rule: [x(1/x) - (ln x)(1)] / x^2 = (1 - ln x) / x^2.\n\n**Common mistake:** Sign errors in the numerator when using the quotient rule."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q3",
+      "type": "mcq",
+      "question": "Show that the derivative of $y = \\ln(\\sin x)$ is $\\cot x$.",
+      "options": [
+        "True",
+        "False",
+        "Only for x in radians",
+        "Only for base 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = (derivative of sin x) / sin x = cos x / sin x = cot x.\n\n**Common mistake:** Incorrectly thinking the derivative of sin x is -cos x."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q4",
+      "type": "mcq",
+      "question": "Given $y = e^x \\ln x$2$dy/dx$2$x = 1$.",
+      "options": [
+        "e",
+        "1",
+        "0",
+        "e + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Product rule: (e^x)(ln x) + (e^x)(1/x). At x=1: (e)(0) + (e)(1) = e.\n\n**Common mistake:** Arithmetic slips when evaluating the expression with e and ln 1."
+    },
+    {
+      "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q5",
+      "type": "mcq",
+      "question": "Find the approximate change in $y = \\ln x$2$x$ increases from 5 to 5.01.",
+      "options": [
+        "0.002",
+        "0.01",
+        "0.2",
+        "0.005"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx}$ = 1/x. At x=5, $\\frac{dy}{dx}$ = 0.2. δy ≈ (0.2)(0.01) = 0.002.\n\n**Common mistake:** Forgetting to multiply the derivative by the small increment δx."
+    }
+  ]
+}

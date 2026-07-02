@@ -1,0 +1,77 @@
+{
+  "id": "18-6-the-transformer-hard",
+  "topicId": "18-6-the-transformer",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "The Transformer — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-6-the-transformer-hard-q1",
+      "type": "mcq",
+      "question": "An ideal transformer provides $12\\text{ V}$ to a model train that draws $0.8\\text{ A}$. If the input source is $240\\text{ V}$, calculate the current in the primary coil.",
+      "options": [
+        "$0.04\\text{ A}$",
+        "$16\\text{ A}$",
+        "$192\\text{ A}$",
+        "$0.025\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I_p V_p = I_s V_s$ for $100\\%$ efficiency: $I_p = (12 \\times 0.8) / 240 = 9.6 / 240 = 0.04\\text{ A}$. \n\n**Common mistake:** Multiplying the input voltage and output current directly."
+    },
+    {
+      "id": "18-6-the-transformer-hard-q2",
+      "type": "mcq",
+      "question": "A student connects a battery to the primary coil of a transformer and a galvanometer to the secondary coil. What does the galvanometer show while the current is steady?",
+      "options": [
+        "The needle is not deflected (zero reading).",
+        "The needle remains deflected in one direction.",
+        "The needle oscillates back and forth.",
+        "The needle shows a maximum deflection."
+      ],
+      "correctIndex": 0,
+      "explanation": "Faraday discovered that a magnetic field can induce a current in another coil only when it is changing. A steady d.c. creates a constant field, so no current is induced in the secondary. \n\n**Common mistake:** Expecting a steady d.c. to produce a steady secondary voltage."
+    },
+    {
+      "id": "18-6-the-transformer-hard-q3",
+      "type": "mcq",
+      "question": "Explain using the equation $P = I^2R$ why electricity is transmitted over long distances at very high voltages.",
+      "options": [
+        "High voltage allows for lower current, which reduces thermal energy loss in cables.",
+        "High voltage increases the resistance of the cables to push energy faster.",
+        "High voltage ensures the current is a.c. rather than d.c.",
+        "High voltage prevents electrons from colliding with metal atoms."
+      ],
+      "correctIndex": 0,
+      "explanation": "For a fixed power ($P=IV$), increasing voltage ($V$) reduces current ($I$). Since power loss in cables is $I^2R$, a smaller current significantly reduces heat loss. \n\n**Common mistake:** Thinking high voltage is used because it 'travels faster' through the wires."
+    },
+    {
+      "id": "18-6-the-transformer-hard-q4",
+      "type": "mcq",
+      "question": "A power station produces $200\\text{ MW}$ of power at $2\\text{ kV}$. A step-up transformer increases this to $400\\text{ kV}$ for transmission. How much has the current decreased?",
+      "options": [
+        "By a factor of $200$",
+        "By a factor of $20$",
+        "By a factor of $400$",
+        "It has not changed, only the voltage changed."
+      ],
+      "correctIndex": 0,
+      "explanation": "The voltage is increased from $2000\\text{ V}$ to $400000\\text{ V}$, a factor of $200$. In an ideal transformer ($IV$ constant), the current must therefore decrease by the same factor of $200$. \n\n**Common mistake:** Calculating the difference ($398\\text{ kV}$) rather than the ratio."
+    },
+    {
+      "id": "18-6-the-transformer-hard-q5",
+      "type": "mcq",
+      "question": "In the transmission of electricity from power stations to homes, what is the typical sequence of transformers used?",
+      "options": [
+        "Step-up at the power station, step-down at the end user",
+        "Step-down at the power station, step-up at the end user",
+        "Step-up at both locations",
+        "Step-down at both locations"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricity is stepped up to high voltages for efficient long-distance travel and then stepped down to safe levels ($240\\text{V}$ or $250\\text{V}$) for consumers. \n\n**Common mistake:** Thinking electricity should be stepped down immediately at the power plant for safety."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "5-3-the-principle-of-conservation-of-momentum-pyp",
+  "topicId": "5-3-the-principle-of-conservation-of-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "pyp",
+  "title": "The Principle of Conservation of Momentum — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-pyp-q1",
+      "type": "mcq",
+      "question": "A car of mass $1200\\text{ kg}$ travelling at $8.0\\text{ m/s}$ collides with a stationary lorry of mass $2800\\text{ kg}$. The two vehicles stick together. What is their speed immediately after the collision?",
+      "options": [
+        "$2.4\\text{ m/s}$",
+        "$3.4\\text{ m/s}$",
+        "$4.0\\text{ m/s}$",
+        "$4.8\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from the worked example: $(1200 \\times 8) / (1200 + 2800) = 9600 / 4000 = 2.4\\text{ m/s}$. \n\n**Common mistake:** Dividing by the mass of the lorry only ($3.4$)."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-pyp-q2",
+      "type": "mcq",
+      "question": "A bullet of mass $0.05\\text{ kg}$ is fired into a wooden block of mass $1.95\\text{ kg}$ resting on a frictionless surface. They stick together and move at $15\\text{ m/s}$. What was the bullet's initial speed?",
+      "options": [
+        "$600\\text{ m/s}$",
+        "$15\\text{ m/s}$",
+        "$300\\text{ m/s}$",
+        "$585\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conservation of momentum: $m_b u = (m_b + m_{block}) v$. $0.05 u = 2.0 \\times 15 = 30$, so $u = 600\\text{ m/s}$. \n\n**Common mistake:** Using the block's mass only."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-pyp-q3",
+      "type": "mcq",
+      "question": "Skater A ($80\\text{ kg}$) and Skater B ($50\\text{ kg}$) push each other off from rest. A moves at $0.5\\text{ m/s}$. What is the velocity of B?",
+      "options": [
+        "$-0.8\\text{ m/s}$",
+        "$0.8\\text{ m/s}$",
+        "$-0.5\\text{ m/s}$",
+        "$-0.3\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total momentum must remain zero: $(80 \\times 0.5) + (50 \\times v_B) = 0 implies 40 + 50v_B = 0 implies v_B = -0.8\\text{ m/s}$. \n\n**Common mistake:** Ignoring the negative sign which indicates the opposite direction."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows an empty freight car ($2000\\text{ kg}$) moving at $8\\text{ m/s}$ colliding with a stationary car ($8000\\text{ kg}$). With what speed do the combined cars move?",
+      "options": [
+        "$1.6\\text{ m/s}$",
+        "$2.0\\text{ m/s}$",
+        "$8.0\\text{ m/s}$",
+        "$10\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total momentum $= 2000 \\times 8 = 16000$. Combined mass $= 10000$. Speed $= 16000 / 10000 = 1.6\\text{ m/s}$. \n\n**Common mistake:** Adding the speeds instead of momentum."
+    },
+    {
+      "id": "5-3-the-principle-of-conservation-of-momentum-pyp-q5",
+      "type": "mcq",
+      "question": "A table shows the momentum of two objects before and after a collision in a closed system. Which set of values is correct?",
+      "options": [
+        "Before: $10\\text{, } 0$; After: $4\\text{, } 6$",
+        "Before: $10\\text{, } 5$; After: $10\\text{, } 10$",
+        "Before: $5\\text{, } 5$; After: $0\\text{, } 5$",
+        "Before: $20\\text{, } 0$; After: $10\\text{, } 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an isolated system, the sum of momentum before ($10+0=10$) must equal the sum after ($4+6=10$). \n\n**Common mistake:** Choosing a set where the values increase, which violates conservation."
+    }
+  ]
+}

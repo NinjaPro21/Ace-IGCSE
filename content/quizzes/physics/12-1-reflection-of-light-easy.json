@@ -1,0 +1,77 @@
+{
+  "id": "12-1-reflection-of-light-easy",
+  "topicId": "12-1-reflection-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "easy",
+  "title": "Reflection of Light — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-1-reflection-of-light-easy-q1",
+      "type": "mcq",
+      "question": "What is the Law of Reflection for a plane mirror?",
+      "options": [
+        "The angle of incidence is equal to the angle of reflection ($i = r$).",
+        "The angle of incidence is twice the angle of reflection ($i = 2r$).",
+        "The angle of incidence is always greater than the angle of reflection.",
+        "The angle of incidence and angle of reflection must sum to $90^circ$."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the Law of Reflection, the angle of incidence ($i$) is equal to the angle of reflection ($r$). \n\n**Common mistake:** thinking $i$ and $r$ must add to $90^circ$, which only happens if $i = 45^circ$."
+    },
+    {
+      "id": "12-1-reflection-of-light-easy-q2",
+      "type": "mcq",
+      "question": "In a reflection diagram, what is the 'normal'?",
+      "options": [
+        "An imaginary line drawn at $90^circ$ to the mirror surface.",
+        "The path taken by the light before it hits the mirror.",
+        "The path taken by the light after it bounces off the mirror.",
+        "The line representing the mirror surface itself."
+      ],
+      "correctIndex": 0,
+      "explanation": "The normal is an imaginary line drawn perpendicular ($90^circ$) to the surface at the point where the incident ray strikes. \n\n**Common mistake:** confusing the normal line with the incident ray."
+    },
+    {
+      "id": "12-1-reflection-of-light-easy-q3",
+      "type": "mcq",
+      "question": "Why is an image formed in a plane mirror described as a 'virtual image'?",
+      "options": [
+        "It cannot be captured on a screen.",
+        "It is always smaller than the object.",
+        "It is upside down (inverted).",
+        "It is only visible if the object is touching the mirror."
+      ],
+      "correctIndex": 0,
+      "explanation": "A virtual image is one that cannot be captured on a screen because the light rays only appear to come from that position. \n\n**Common mistake:** thinking 'virtual' means the image is fake or not visible."
+    },
+    {
+      "id": "12-1-reflection-of-light-easy-q4",
+      "type": "mcq",
+      "question": "A ray of light hits a mirror with an angle of incidence of $35^circ$. What is the angle of reflection?",
+      "options": [
+        "$35^circ$",
+        "$55^circ$",
+        "$70^circ$",
+        "$90^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Law of Reflection states that $i = r$. Therefore, if the incidence is $35^circ$, the reflection is also $35^circ$. \n\n**Common mistake:** subtracting $35^circ$ from $90^circ$."
+    },
+    {
+      "id": "12-1-reflection-of-light-easy-q5",
+      "type": "mcq",
+      "question": "Which of these is a standard property of an image in a plane mirror?",
+      "options": [
+        "It is laterally inverted.",
+        "It is inverted vertically.",
+        "It is real.",
+        "It is larger than the object."
+      ],
+      "correctIndex": 0,
+      "explanation": "Images in plane mirrors are laterally inverted, meaning the left side of the object appears as the right side of the image. \n\n**Common mistake:** thinking mirrors flip objects upside down (vertical inversion)."
+    }
+  ]
+}

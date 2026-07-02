@@ -1,0 +1,77 @@
+{
+  "id": "13-3-vector-geometry-harder-topic-hard",
+  "topicId": "13-3-vector-geometry-harder-topic",
+  "chapterId": "ch13-vectors",
+  "difficulty": "hard",
+  "title": "Vector Geometry — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-3-vector-geometry-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "In triangle $OAB$2$P$2$OA$2$2:1$ and $Q$2$AB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
+      "options": [
+        "$0.5\\mathbf{b} - 0.167\\mathbf{a}$",
+        "$0.5\\mathbf{b} + 0.167\\mathbf{a}$",
+        "$0.33\\mathbf{a} + 0.5\\mathbf{b}$",
+        "$\\mathbf{b} - 0.67\\mathbf{a}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{OP} = \\frac{2}{3}\\mathbf{a}$. $\\vec{OQ} = 0.5\\mathbf{a} + 0.5\\mathbf{b}$. $\\vec{PQ} = \\vec{OQ} - \\vec{OP} = (0.5\\mathbf{a} + 0.5\\mathbf{b}) - \\frac{2}{3}\\mathbf{a} = 0.5\\mathbf{b} - \\frac{1}{6}\\mathbf{a} \\approx 0.5\\mathbf{b} - 0.167\\mathbf{a}$.\n\n**Common mistake:** Option B results from adding the position vectors instead of subtracting them to find the displacement."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "In the parallelogram $OABC$2$M$2$BC$2$OM$2$AC$2$X$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find the value of $k$.",
+      "options": [
+        "$2/3$",
+        "$1/2$",
+        "$3/4$",
+        "$1/3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\vec{OM} = \\mathbf{c} + 0.5\\mathbf{a}$. $\\vec{OX} = k(\\mathbf{c} + 0.5\\mathbf{a})$. Also $X$2$AC$2$\\vec{OX} = (1-m)\\mathbf{a} + m\\mathbf{c}$. Equating coefficients: $m = k$2$1-m = 0.5k \\implies 1-k = 0.5k \\implies 1.5k = 1 \\implies k = 2/3$.\n\n**Common mistake:** Option B is a common guess for intersection points without performing the formal coefficient comparison."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "The points $O, A, B$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. $C$2$OB$2$OB : BC = 1 : 2$. Find $\\vec{AC}$.",
+      "options": [
+        "$3\\mathbf{b} - \\mathbf{a}$",
+        "$2\\mathbf{b} - \\mathbf{a}$",
+        "$\\mathbf{a} + 3\\mathbf{b}$",
+        "$\\mathbf{b} - 3\\mathbf{a}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $OB : BC = 1 : 2$, $\\vec{OC} = 3\\vec{OB} = 3\\mathbf{b}$. Then $\\vec{AC} = \\vec{AO} + \\vec{OC} = -\\mathbf{a} + 3\\mathbf{b}$.\n\n**Common mistake:** Option B occurs if the student interprets the ratio as $OC$2$OB$2$BC$2$OB$."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "Given that $\\mathbf{p} = \\mathbf{a} + 2\\mathbf{b}$ and $\\mathbf{q} = 3\\mathbf{a} + k\\mathbf{b}$, find the value of $k$2$\\mathbf{p}$ and $\\mathbf{q}$ are parallel.",
+      "options": [
+        "$6$",
+        "$2$",
+        "$3$",
+        "$1.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For parallel vectors, one must be a scalar multiple of the other. Since the coefficient of $\\mathbf{a}$ triples (from^1 to^3), the coefficient of $\\mathbf{b}$ must also triple: $2 \\times 3 = 6$.\n\n**Common mistake:** Option C is chosen by students who assume the constant $k$ must match the multiplier of the first component."
+    },
+    {
+      "id": "13-3-vector-geometry-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "In triangle $OAB$2$X$2$OA$2$Y$2$OB$2$OY = 2YB$2$AY$2$BX$2$P$2$\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "$0.2\\mathbf{a} + 0.4\\mathbf{b}$",
+        "$0.4\\mathbf{a} + 0.2\\mathbf{b}$",
+        "$0.5\\mathbf{a} + 0.5\\mathbf{b}$",
+        "$0.33\\mathbf{a} + 0.67\\mathbf{b}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the vector intersection method (parameters $\\lambda, \\mu$2$\\vec{OP} = \\frac{1}{5}\\mathbf{a} + \\frac{2}{5}\\mathbf{b} = 0.2\\mathbf{a} + 0.4\\mathbf{b}$.\n\n**Common mistake:** Option B is a common error where students swap the coefficients for the two base vectors."
+    }
+  ]
+}

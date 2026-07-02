@@ -1,0 +1,77 @@
+{
+  "id": "4-6-three-dimensional-trigonometry-pyp",
+  "topicId": "4-6-three-dimensional-trigonometry",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "pyp",
+  "title": "Three-Dimensional Trigonometry — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-6-three-dimensional-trigonometry-pyp-q1",
+      "type": "mcq",
+      "question": "VABCD is a pyramid with a rectangular base. $AB = 12\\text{ m}, BC = 9\\text{ m}$ and the vertical height is $10\\text{ m}$. Calculate the length of the slant edge $VB$.",
+      "options": [
+        "$12.5\\text{ m}$",
+        "$15.0\\text{ m}$",
+        "$25.0\\text{ m}$",
+        "$\\sqrt{181}\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal $AC = \\sqrt{12}² + 9^2 = 15$. Half-diagonal $OB = 7.5$. $VB = \\sqrt{10}² + 7.5^2 = \\sqrt{156}.25 = 12.5$.\n\n**Common mistake:** A student might add the vertical height to the side length directly ($12+10$) or forget to halve the base diagonal."
+    },
+    {
+      "id": "4-6-three-dimensional-trigonometry-pyp-q2",
+      "type": "mcq",
+      "question": "Hence, find the angle between the slant edge $VB$2$AB=12, BC=9, height=10$).",
+      "options": [
+        "$53.1°$",
+        "$36.9°$",
+        "$41.8°$",
+        "$48.2°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan \\theta = 10 / 7.5 = 1.33 \\Rightarrow \\theta \\approx 53.13°$.\n\n**Common mistake:** The student might use the full diagonal ($15$) as the adjacent side, resulting in an angle of $33.7°$."
+    },
+    {
+      "id": "4-6-three-dimensional-trigonometry-pyp-q3",
+      "type": "mcq",
+      "question": "A cuboid has a square base of side $7\\text{ cm}$ and a height of $11\\text{ cm}$. Calculate the angle that the interior diagonal makes with the vertical edge.",
+      "options": [
+        "$42.0°$",
+        "$48.0°$",
+        "$32.5°$",
+        "$58.0°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base diagonal $= \\sqrt{7}² + 7^2 = \\sqrt{98} \\approx 9.90. The angle with the vertical edge is the complement of the angle with the base$2$2\\tan \\theta = 9.90 / 11 \\approx 0.9 \\Rightarrow \\theta \\approx 42.0°$.\n\n**Common mistake:** Students often calculate the angle with the horizontal base ($48°$) instead of the angle with the vertical edge."
+    },
+    {
+      "id": "4-6-three-dimensional-trigonometry-pyp-q4",
+      "type": "mcq",
+      "question": "Show that the distance between the point $(2, 3, 4)$ and the origin $(0, 0, 0)$ is $\\sqrt{29}$. What is the angle this line makes with the $xy$-plane?",
+      "options": [
+        "$48.0°$",
+        "$42.0°$",
+        "$36.1°$",
+        "$53.9°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance to origin $= \\sqrt{2}² + 3^2 + 4^2 = \\sqrt{29}$. Distance on $xy$2$= \\sqrt{2}² + 3^2 = \\sqrt{13}$. $\\sin \\theta = 4 / \\sqrt{29} \\Rightarrow \\theta = \\sin^{-1}$(0.743) \\approx 48.0°2\n\n**Common mistake:** The student might divide by the ground distance $\\sqrt{13}$ but use the wrong trigonometric ratio."
+    },
+    {
+      "type": "mcq",
+      "question": "A rectangular box has edges of 4 cm, 6 cm and 8 cm. Find the angle a diagonal of the box makes with the largest face.",
+      "options": [
+        "$21.8°$",
+        "$26.6°$",
+        "$30.0°$",
+        "$18.4°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonal of largest face ($6 \\times 8$) is 10 cm. Let diagonal of box be $D = \\sqrt{10^{2} + 4^2}$. Angle $\\theta = \\tan^{-1}(4/10) \\approx 21.8°$.\n\n**Common mistake:** Using the wrong face for the reference diagonal, which changes the base of the triangle.",
+      "id": "4-6-three-dimensional-trigonometry-pyp-q5"
+    }
+  ]
+}

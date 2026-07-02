@@ -1,0 +1,77 @@
+{
+  "id": "12-6-dispersion-of-light-hard",
+  "topicId": "12-6-dispersion-of-light",
+  "chapterId": "ch12-light",
+  "difficulty": "hard",
+  "title": "Dispersion of Light — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-6-dispersion-of-light-hard-q1",
+      "type": "mcq",
+      "question": "In the context of dispersion by a prism, which colour of light travels the fastest through the glass material?",
+      "options": [
+        "Red",
+        "Violet",
+        "Green",
+        "Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red light is refracted the least because it travels faster in glass than the other colours of the visible spectrum. Violet travels the slowest.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-hard-q2",
+      "type": "mcq",
+      "question": "Based on the trends in the visible spectrum, which of these statements is correct as you move from the red end to the violet end?",
+      "options": [
+        "Frequency increases and wavelength decreases",
+        "Frequency decreases and wavelength increases",
+        "Both frequency and wavelength increase",
+        "Both frequency and wavelength decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spectrum is ordered ROYGBIV. Moving towards violet, the frequency increases while the wavelength decreases (following $c = f\\lambda$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-hard-q3",
+      "type": "mcq",
+      "question": "Why does violet light appear at the bottom of the dispersed spectrum when a prism is used?",
+      "options": [
+        "It slowed down the most, leading to the greatest deviation",
+        "It has the longest wavelength and is thus harder to bend",
+        "It has the lowest frequency and refracts less than red light",
+        "The prism material is more transparent to violet than to red"
+      ],
+      "correctIndex": 0,
+      "explanation": "Refraction is caused by a change in speed. Since violet light travels the slowest in glass, it undergoes the greatest change in speed and thus the greatest deviation (bending).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-hard-q4",
+      "type": "mcq",
+      "question": "If monochromatic green light is shone through a glass prism, what will be observed on a screen behind the prism?",
+      "options": [
+        "A single green band that has shifted position",
+        "A spectrum of colours ranging from red to violet",
+        "A mix of blue and yellow bands",
+        "No light at all because green light cannot pass through a prism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the light is monochromatic (single frequency), it will refract but it will not disperse into multiple colours. It will simply appear as a single green band.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "12-6-dispersion-of-light-hard-q5",
+      "type": "mcq",
+      "question": "Which colour of light will have the smallest angle of refraction $r$ when entering a glass block from air at a fixed angle of incidence $i$?",
+      "options": [
+        "Violet",
+        "Red",
+        "Orange",
+        "Yellow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Violet bends the most towards the normal (largest deviation), which means it has the smallest angle of refraction $r$ compared to red light.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

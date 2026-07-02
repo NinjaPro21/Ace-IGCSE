@@ -1,0 +1,142 @@
+{
+  "id": "ch21-earth-and-the-solar-system-pyp",
+  "topicId": "ch21-earth-and-the-solar-system",
+  "chapterId": "ch21-earth-and-the-solar-system",
+  "difficulty": "pyp",
+  "title": "Chapter 21: Earth and the Solar System — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q1",
+      "type": "mcq",
+      "question": "Which of the following statements about the Earth is INCORRECT?",
+      "options": [
+        "The Earth spins on its axis once a year",
+        "The Moon is a natural satellite of the Earth",
+        "The Sun is the star at the centre of the Solar System",
+        "The Solar System was produced from a cloud of dust and gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "As seen in Review Question 1, it is incorrect to say the Earth spins once a year; it actually spins once every 24 hours. It orbits the Sun once a year.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q2",
+      "type": "mcq",
+      "question": "The International Space Station (ISS) orbits the Earth $410\\text{ km}$ above the surface and takes $92$ minutes for one orbit. If the Earth's radius is $6400\\text{ km}$, what is the orbital speed of the ISS?",
+      "options": [
+        "$7800\\text{ m/s}$",
+        "$780\\text{ m/s}$",
+        "$460\\text{ m/s}$",
+        "$29000\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$r = 6400 + 410 = 6810\\text{ km}$. $T = 92 \\times 60 = 5520\\text{ s}$. $v = \\frac{2pi r}{T} = \\frac{2 \\times 3.14 \\times 6810000}{5520} \\approx 7750\\text{ m/s}$. The source gives $7800$ as the answer.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q3",
+      "type": "mcq",
+      "question": "An astronaut travels from Earth to Mars, where the gravitational field strength is $40\\%$ of Earth's. Which statement correctly describes his mass and weight on Mars compared to Earth?",
+      "options": [
+        "Same mass and smaller weight",
+        "Same mass and same weight",
+        "Smaller mass and same weight",
+        "Smaller mass and smaller weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is the amount of matter and does not change with location. Weight depends on the gravitational field ($W=mg$), so it is smaller on Mars.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q4",
+      "type": "mcq",
+      "question": "A student in the Northern Hemisphere observes that the days are getting shorter and the nights are getting longer. In which month is this observation most likely occurring?",
+      "options": [
+        "October",
+        "June",
+        "January",
+        "April"
+      ],
+      "correctIndex": 0,
+      "explanation": "After the summer solstice in June, the days in the Northern Hemisphere begin to shorten as the Earth approaches winter in December.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q5",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the Earth's motion and its duration?nn| Row | Motion | Duration |n| :--- | :--- | :--- |n| A | Rotation on axis | 24 hours |n| B | Orbit around Sun | 24 hours |n| C | Rotation on axis | 365 days |n| D | Orbit around Sun | 1 month |",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Earth rotates on its axis once every 24 hours and orbits the Sun once every 365 days.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q6",
+      "type": "mcq",
+      "question": "A table shows some data for four planets. Which planet has the highest density?nn| Planet | Average distance from Sun / $10^{6}$ km | Mass compared with Earth |n| :--- | :--- | :--- |n| W | $58$ | $0.06$ |n| X | $108$ | $0.82$ |n| Y | $778$ | $318$ |n| Z | $2870$ | $14.5$ |",
+      "options": [
+        "Planet X",
+        "Planet W",
+        "Planet Y",
+        "Planet Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inner rocky planets (W-Mercury, X-Venus) are much denser than outer gaseous giants (Y-Jupiter, Z-Uranus). Venus (X) is known for high density. \n\n**Common mistake:** Selecting Y (Jupiter) because it is the most massive."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q7",
+      "type": "mcq",
+      "question": "Which statement about the Solar System is incorrect?",
+      "options": [
+        "The Earth spins on its axis once a year.",
+        "The Moon is a natural satellite of the Earth.",
+        "The Sun is at the centre of the Solar System.",
+        "The Solar System was produced from a cloud of dust and gas."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is based on Review Question 1. The Earth spins on its axis once every $24$ hours, not once a year. \n\n**Common mistake:** Confusing the Earth's rotation with its yearly orbit."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q8",
+      "type": "mcq",
+      "question": "A comet is travelling in an elliptical orbit. Which row correctly describes its speed and gravitational potential energy when it is at its furthest point from the Sun?nn| | Speed | Gravitational Potential Energy |n| :--- | :--- | :--- |n| A | Lowest | Greatest |n| B | Lowest | Lowest |n| C | Highest | Greatest |n| D | Highest | Lowest |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the furthest point, the comet has the greatest GPE and, consequently, its lowest speed. \n\n**Common mistake:** Selecting Row C, thinking distance increases both speed and energy."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q9",
+      "type": "mcq",
+      "question": "What is the approximate time for an asteroid in the belt between Mars and Jupiter to orbit the Sun?",
+      "options": [
+        "Between $2$ and $12$ Earth years",
+        "Less than $1$ Earth year",
+        "Exactly $1$ Earth year",
+        "More than $30$ Earth years"
+      ],
+      "correctIndex": 0,
+      "explanation": "As noted in the 'Let's Practise' answers, since Mars takes $1.9$ years and Jupiter takes $11.9$ years, an asteroid in between would take between $2$ and $12$ years. \n\n**Common mistake:** Assuming all objects in space take $1$ year to orbit."
+    },
+    {
+      "id": "ch21-earth-and-the-solar-system-pyp-q10",
+      "type": "mcq",
+      "question": "Neptune is $4.5 \\times 10^{9}$ km from the Sun. How long does it take for sunlight to reach Neptune? (Speed of light = $3 \\times 10^{8}$ m/s)",
+      "options": [
+        "$4.2$ hours",
+        "$4.2$ minutes",
+        "$1500$ seconds",
+        "$1.5$ hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Worked Example 21B: $t = d/v = (4.5 \\times 10^{12}$ m) / $(3 \\times 10^{8}$ m/s) $= 15000$ seconds, which is $4.17 \\approx 4.2$ hours. \n\n**Common mistake:** Selecting $1500$ seconds due to a decimal error."
+    }
+  ]
+}

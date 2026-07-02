@@ -1,0 +1,142 @@
+{
+  "id": "10-factorial-notation-and-arrangements-medium",
+  "topicId": "10-factorial-notation-and-arrangements",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "medium",
+  "title": "Factorial Notation and Arrangements — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q1",
+      "type": "mcq",
+      "question": "Find the value of n if n! = 720.",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "1! = 1, 2! = 2, 3! = 6, 4! = 24, 5! = 120, 6! = 720.\n\n**Common mistake:** Guessing 5 or 10 without performing sequential multiplication."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q2",
+      "type": "mcq",
+      "question": "Simplify the algebraic expression (n + 2)! / n!.",
+      "options": [
+        "n^2 + 3n + 2",
+        "n + 2",
+        "2",
+        "n^2 + 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "(n + 2)! / n! = [(n + 2)(n + 1)n!] / n! = (n + 2)(n + 1) = n^2 + 3n + 2.\n\n**Common mistake:** Simplifying the $fraction$ to just (n + 2) or n^2 + 2."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q3",
+      "type": "mcq",
+      "question": "Evaluate the numerical expression 10! / (8! × 2!).",
+      "options": [
+        "45",
+        "90",
+        "5",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "10! / (8! × 2!) = (10 × 9 × 8!) / (8! × 2) = (10 × 9) / 2 = 90 / 2 = 45.\n\n**Common mistake:** Forgetting to divide by 2! (which is 2), resulting in 90."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q4",
+      "type": "mcq",
+      "question": "Solve for x: (x + 1)! = 6x!.",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "(x + 1)x! = 6x!. Dividing both sides by x! gives x + 1 = 6, so x = 5.\n\n**Common mistake:** Thinking x = 6 by directly matching the coefficient with the argument."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q5",
+      "type": "mcq",
+      "question": "Simplify n! / (n - 1)! + (n + 1)! / n!.",
+      "options": [
+        "2n + 1",
+        "2n",
+        "n^2 + n",
+        "n + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "n! / (n - 1)! = n and (n + 1)! / n! = n + 1. The sum is n + (n + 1) = 2n + 1.\n\n**Common mistake:** Arithmetic slips when simplifying each $fraction$ individually."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q6",
+      "type": "mcq",
+      "question": "Find the number of different arrangements of the letters in the word $BOTTLE$.",
+      "options": [
+        "360",
+        "720",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are 6 letters with the letter $T$2$\\frac{6!}{2!} = \\frac{720}{2} = 360$.\n\n**Common mistake:** Option B is $6!$, which fails to account for the indistinguishable nature of the two 'T's."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q7",
+      "type": "mcq",
+      "question": "Five friends, including Alex and Sam, are sitting in a row. How many arrangements are possible if Alex and Sam must sit next to each other?",
+      "options": [
+        "48",
+        "24",
+        "120",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Treat Alex and Sam as one block. There are then 4 items to arrange ($4! = 24$ ways). Within the block, Alex and Sam can swap ($2! = 2$ ways). Total = $24 \\times 2 = 48$.\n\n**Common mistake:** Option B only calculates $4!$ and forgets to multiply by $2!$ for the internal arrangement of the pair."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q8",
+      "type": "mcq",
+      "question": "How many different 3-digit numbers can be formed from the digits {1, 2, 3, 4, 5, 6} if no digit can be repeated?",
+      "options": [
+        "120",
+        "216",
+        "20",
+        "720"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are 6 choices for the first digit, 5 for the second, and 4 for the third. $6 \\times 5 \\times 4 = 120$.\n\n**Common mistake:** Option B is $6^3$, which is the answer if repetitions were allowed."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q9",
+      "type": "mcq",
+      "question": "Find the number of arrangements of the letters in the word $BANANA$.",
+      "options": [
+        "60",
+        "720",
+        "120",
+        "20"
+      ],
+      "correctIndex": 0,
+      "explanation": "The word has 6 letters: 3 'A's, 2 'N's, and 1 'B'. The arrangements are $\\frac{6!}{3!2!} = \\frac{720}{6 \\times 2} = 60$.\n\n**Common mistake:** Option C results from only dividing by $3!$ and forgetting to divide by the $2!$ for the 'N's."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-medium-q10",
+      "type": "mcq",
+      "question": "Four boys and four girls are to be arranged in a row such that they alternate by gender. How many such arrangements are possible?",
+      "options": [
+        "1152",
+        "576",
+        "40320",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are two patterns: BGBGBGBG or GBGBGBGB. For each, there are $4!$ ways to arrange boys and $4!$ for girls. Total = $2 \\times (4! \\times 4!) = 2 \\times 576 = 1152$.\n\n**Common mistake:** Option B only considers one pattern (starting with a boy) and fails to multiply by 2."
+    }
+  ]
+}

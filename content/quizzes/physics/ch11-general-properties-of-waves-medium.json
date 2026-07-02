@@ -1,0 +1,207 @@
+{
+  "id": "ch11-general-properties-of-waves-medium",
+  "topicId": "ch11-general-properties-of-waves",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "medium",
+  "title": "Chapter 11: General Properties of Waves — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch11-general-properties-of-waves-medium-q1",
+      "type": "mcq",
+      "question": "A rope wave is traveling horizontally from left to right. In which direction do the individual particles of the rope move?",
+      "options": [
+        "Up and down only",
+        "Left and right only",
+        "In a circle",
+        "Along with the wave to the right"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rope waves are transverse; while the wave (energy) travels sideways, the rope particles themselves only move up and down. \n\n**Common mistake:** Believing the particles move in the same direction as the wave (longitudinal behavior)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q2",
+      "type": "mcq",
+      "question": "What does a frequency of $2\\text{ Hz}$ mean for a vibrating source?",
+      "options": [
+        "It makes two complete oscillations per second",
+        "It takes two seconds to complete one oscillation",
+        "The wave travels two metres every second",
+        "The wave has a height of two centimetres"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is the number of complete waves or oscillations produced per unit time; $2\\text{ Hz}$ means two cycles every second. \n\n**Common mistake:** Confusing frequency with period, which is the time for one oscillation (0.5 s in this case)."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q3",
+      "type": "mcq",
+      "question": "Compare the motion of particles in a longitudinal wave and a transverse wave. Which statement is correct?",
+      "options": [
+        "Both involve oscillations, but the directions relative to the wave travel are different.",
+        "Longitudinal particles move in circles; transverse particles move in straight lines.",
+        "Transverse waves require a medium, but longitudinal waves do not.",
+        "Only transverse waves can transfer energy without matter."
+      ],
+      "correctIndex": 0,
+      "explanation": "Both wave types involve periodic oscillations that transfer energy; the distinction is whether the oscillation is parallel (longitudinal) or perpendicular (transverse) to the wave direction. \n\n**Common mistake:** Thinking one type is 'better' at transferring energy than the other."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q4",
+      "type": "mcq",
+      "question": "A slinky is stretched out on a floor. To produce a longitudinal pulse, in which direction should the student move the end of the slinky?",
+      "options": [
+        "Forward and backward along the line of the slinky",
+        "Side to side at a right angle to the slinky",
+        "Up and down away from the floor",
+        "In a clockwise circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "To create a longitudinal wave, the vibration must be parallel to the direction of propagation, which is achieved by moving the end forward and backward. \n\n**Common mistake:** Moving it side-to-side, which would produce a transverse wave."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q5",
+      "type": "mcq",
+      "question": "How is energy transferred from a moving hand (source) to a rope particle further away?",
+      "options": [
+        "Kinetic energy is passed between adjacent rope particles as the wave progresses.",
+        "The hand throws rope molecules toward the far end.",
+        "The energy is converted into magnetic potential energy in the rope.",
+        "Air molecules carry the energy alongside the rope."
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the notes, the kinetic energy from the source is transferred to rope particles near it, which then pass it to particles further away as the wave progresses. \n\n**Common mistake:** Thinking the energy travels independently of the particles."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q6",
+      "type": "mcq",
+      "question": "A wave source has a period of $0.05\\text{ s}$. What is its frequency?",
+      "options": [
+        "$20\\text{ Hz}$",
+        "$0.05\\text{ Hz}$",
+        "$50\\text{ Hz}$",
+        "$5\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency $f = 1/T = 1 / 0.05 = 20\\text{ Hz}$. \n\n**Common mistake:** Multiplying by the period instead of taking the reciprocal."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q7",
+      "type": "mcq",
+      "question": "A displacement-distance graph shows that the distance between the first crest and the third crest of a wave is $10\\text{ cm}$. What is the wavelength?",
+      "options": [
+        "$5\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$2.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The distance from the 1st to the 3rd crest covers two full wavelengths ($2\\lambda$). Therefore, $\\lambda = 10 / 2 = 5\\text{ cm}$. \n\n**Common mistake:** Thinking the distance between the 1st and 3rd crest is just one wavelength."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q8",
+      "type": "mcq",
+      "question": "Water waves enter a dock at a rate of $120$ crests per minute. Calculate the frequency of these waves in hertz (Hz).",
+      "options": [
+        "$2\\text{ Hz}$",
+        "$120\\text{ Hz}$",
+        "$0.5\\text{ Hz}$",
+        "$60\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency is waves per 'second'. $120$ crests per minute $= 120 / 60 = 2\\text{ Hz}$. \n\n**Common mistake:** Using the 'per minute' value directly as the frequency in Hz."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q9",
+      "type": "mcq",
+      "question": "A wave travels at $0.50\\text{ m/s}$ with a wavelength of $5\\text{ cm}$. Calculate its frequency.",
+      "options": [
+        "$10\\text{ Hz}$",
+        "$0.1\\text{ Hz}$",
+        "$2.5\\text{ Hz}$",
+        "$100\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert $\\lambda$ to metres: $5\\text{ cm} = 0.05\\text{ m}$. Then $f = v / \\lambda = 0.50 / 0.05 = 10\\text{ Hz}$. \n\n**Common mistake:** Failing to convert cm to m, leading to $0.50 / 5 = 0.1\\text{ Hz}$."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q10",
+      "type": "mcq",
+      "question": "Two waves, P and Q, travel at the same speed. If the frequency of wave P is twice that of wave Q, how do their wavelengths compare?",
+      "options": [
+        "Wavelength of P is half that of Q",
+        "Wavelength of P is twice that of Q",
+        "Wavelengths are equal",
+        "$Wavelength of P is four \\times that of Q$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $v = f\\lambda$, for a constant speed, frequency and wavelength are inversely proportional. Doubling the frequency results in halving the wavelength. \n\n**Common mistake:** Thinking frequency and wavelength are directly proportional."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q11",
+      "type": "mcq",
+      "question": "A student narrows the gap in a barrier in a ripple tank. What effect does this have on the diffraction of the water waves?",
+      "options": [
+        "The waves spread out more",
+        "The waves spread out less",
+        "The wavelength increases",
+        "The wave speed increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the gap size decreases relative to the wavelength, the curvature of the diffracted wavefronts increases, meaning the waves spread out more.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q12",
+      "type": "mcq",
+      "question": "Water waves in a deep region have a wavelength of $4.0\\text{ cm}$. They enter a shallow region where their speed is halved. What is the new wavelength?",
+      "options": [
+        "$2.0\\text{ cm}$",
+        "$4.0\\text{ cm}$",
+        "$8.0\\text{ cm}$",
+        "$0.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, since frequency $f$ is constant, speed $v$ is directly proportional to wavelength $\\lambda$. If speed is halved, wavelength is also halved ($4.0 / 2 = 2.0\\text{ cm}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q13",
+      "type": "mcq",
+      "question": "Which diagram correctly describes waves passing from deep to shallow water?",
+      "options": [
+        "Wavefronts move closer together in shallow water",
+        "Wavefronts move further apart in shallow water",
+        "Wavefronts bend away from the normal",
+        "Wavefronts increase in speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves travel slower in shallow water. Since $v = f\\lambda$ and $f$ is constant, the wavelength $\\lambda$ (the distance between wavefronts) must decrease.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q14",
+      "type": "mcq",
+      "question": "Waves approach a single edge. Which condition results in the greatest amount of diffraction (curving around the edge)?",
+      "options": [
+        "Long wavelength",
+        "Short wavelength",
+        "High wave speed",
+        "High frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "For diffraction at an edge, a longer wavelength causes a greater curvature effect, allowing more of the wave to spread behind the barrier.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch11-general-properties-of-waves-medium-q15",
+      "type": "mcq",
+      "question": "What occurs when plane waves strike a straight barrier at an angle of incidence of $0^circ$?",
+      "options": [
+        "The waves reflect back along their original path",
+        "The waves are refracted towards the normal",
+        "The waves undergo maximum diffraction",
+        "The wavelength of the reflected waves doubles"
+      ],
+      "correctIndex": 0,
+      "explanation": "An angle of incidence of $0^circ$ means the waves hit the barrier head-on. They reflect directly back. Refraction and diffraction require boundaries between media or gaps/edges.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

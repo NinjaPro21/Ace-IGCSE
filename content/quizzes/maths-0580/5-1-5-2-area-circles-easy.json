@@ -1,0 +1,77 @@
+{
+  "id": "5-1-5-2-area-circles-easy",
+  "topicId": "5-1-5-2-area-circles",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "easy",
+  "title": "Area & Circles — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-5-2-area-circles-easy-q1",
+      "type": "mcq",
+      "question": "A rectangle has an area of $117\\text{ m}^2$ and a width of $9\\text{ m}$. Find its length.",
+      "options": [
+        "$13\\text{ m}$",
+        "$108\\text{ m}$",
+        "$126\\text{ m}$",
+        "$10.5\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area of a rectangle is $\\text{length} \\times \\text{width}$. Therefore, $\\text{length} = \\text{Area} \\div \\text{width} = 117 \\div 9 = 13\\text{ m}$.\n\n**Common mistake:** A student might subtract the width from the area instead of dividing."
+    },
+    {
+      "id": "5-1-5-2-area-circles-easy-q2",
+      "type": "mcq",
+      "question": "Calculate the circumference of a circle with a diameter of $8\\text{ cm}$. Leave your answer in terms of $\\pi$.",
+      "options": [
+        "$8\\pi\\text{ cm}$",
+        "$16\\pi\\text{ cm}$",
+        "$4\\pi\\text{ cm}$",
+        "$64\\pi\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The formula for circumference is $C = \\pi d$2$d = 8$, the circumference is $8\\pi\\text{ cm}$.\n\n**Common mistake:** Students often use the area formula $\\pi r^2$ or confuse radius with diameter."
+    },
+    {
+      "id": "5-1-5-2-area-circles-easy-q3",
+      "type": "mcq",
+      "question": "Which of these is the correct formula for the area of a trapezium with parallel sides $a$2$b$2$h$?",
+      "options": [
+        "$\\frac{1}{2}(a + b)h$",
+        "$(a + b)h$",
+        "$\\frac{1}{2}abh$",
+        "$l \\times w$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The area of a trapezium is half the sum of the parallel sides multiplied by the distance between them.\n\n**Common mistake:** A student might forget the $\\frac{1}{2}$ factor or multiply all three variables together."
+    },
+    {
+      "id": "5-1-5-2-area-circles-easy-q4",
+      "type": "mcq",
+      "question": "Find the area of a circle with a radius of $2\\text{ cm}$, giving your answer correct to 3 decimal places.",
+      "options": [
+        "$12.566\\text{ cm}^2$",
+        "$6.283\\text{ cm}^2$",
+        "$4.000\\text{ cm}^2$",
+        "$12.568\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= \\pi r^2 = \\pi \\times 2^2 = 4\\pi \\approx 12.56637...$, which rounds to $12.566$.\n\n**Common mistake:** The student might calculate the circumference ($2\\pi r$) instead of the area."
+    },
+    {
+      "id": "5-1-5-2-area-circles-easy-q5",
+      "type": "mcq",
+      "question": "According to the historical approximations of Archimedes, the value of $\\pi$ lies between which two numbers?",
+      "options": [
+        "$3\\frac{10}{71}$ and $3\\frac{10}{70}$",
+        "$3.14$ and $3.15$",
+        "$22/7$ and $3.142$",
+        "$3.1$ and $3.2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Archimedes of Samos arrived at a value for $\\pi$2$3\\frac{10}{71}$ and $3\\frac{10}{70}$.\n\n**Common mistake:** Students may assume $22/7$ is the exact value or the only historical approximation."
+    }
+  ]
+}

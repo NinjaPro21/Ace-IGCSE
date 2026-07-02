@@ -1,0 +1,77 @@
+{
+  "id": "9-1-basic-trigonometry-0-easy",
+  "topicId": "9-1-basic-trigonometry-0",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "easy",
+  "title": "Basic Trigonometry (0° to 90°) — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-1-basic-trigonometry-0-easy-q1",
+      "type": "mcq",
+      "question": "In a right-angled triangle, if the side opposite an acute angle θ is 3 cm and the hypotenuse is 5 cm, find sin θ.",
+      "options": [
+        "0.6",
+        "0.8",
+        "0.75",
+        "1.67"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin θ = Opposite / Hypotenuse = 3 / 5 = 0.6.\n\n**Common mistake:** Dividing the adjacent side by the hypotenuse (cos θ) or using the wrong ratio entirely."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-easy-q2",
+      "type": "mcq",
+      "question": "Which trigonometric ratio is defined as Adjacent / Hypotenuse?",
+      "options": [
+        "Cosine",
+        "Sine",
+        "Tangent",
+        "Secant"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition (CAH), cos θ = Adjacent / Hypotenuse.\n\n**Common mistake:** Confusing cosine with sine (Opposite / Hypotenuse)."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-easy-q3",
+      "type": "mcq",
+      "question": "State the exact value of tan 45°.",
+      "options": [
+        "1",
+        "0.5",
+        "\\sqrt{2}",
+        "\\sqrt{3}"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an isosceles right-angled triangle, the opposite and adjacent sides are equal, so tan 45° = 1.\n\n**Common mistake:** Confusing it with sin 45° (1/\\sqrt{2}) or tan 60° (\\sqrt{3})."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-easy-q4",
+      "type": "mcq",
+      "question": "If sin θ = 0.5, find the value of the acute angle θ.",
+      "options": [
+        "30°",
+        "60°",
+        "45°",
+        "90°"
+      ],
+      "correctIndex": 0,
+      "explanation": "sin 30° = 0.5 is a standard exact value.\n\n**Common mistake:** Thinking sin 60° = 0.5."
+    },
+    {
+      "id": "9-1-basic-trigonometry-0-easy-q5",
+      "type": "mcq",
+      "question": "Express cos 20° as a sine of a complementary angle.",
+      "options": [
+        "sin 70°",
+        "sin 20°",
+        "sin 160°",
+        "sin 110°"
+      ],
+      "correctIndex": 0,
+      "explanation": "cos θ = sin(90° - θ). Therefore, cos 20° = sin(90° - 20°) = sin 70°.\n\n**Common mistake:** Simply changing the ratio to sine without adjusting the angle."
+    }
+  ]
+}

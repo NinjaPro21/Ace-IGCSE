@@ -1,0 +1,142 @@
+{
+  "id": "10-permutations-and-combinations-hard",
+  "topicId": "10-permutations-and-combinations",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "hard",
+  "title": "Permutations and Combinations — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-permutations-and-combinations-hard-q1",
+      "type": "mcq",
+      "question": "How many even 3-digit numbers can be formed using the digits {1, 2, 3, 4, 5} without repetition?",
+      "options": [
+        "24",
+        "60",
+        "12",
+        "30"
+      ],
+      "correctIndex": 0,
+      "explanation": "The last digit must be 2 or 4 (2 choices). The remaining 2 spots are filled by the 4 remaining digits: $^4\\text{P}_2 = 4 \\times 3 = 12$. Total $= 2 \\times 12 = 24$.\n\n**Common mistake:** Failing to account for the restriction on the last digit, leading to $^5\\text{P}_3 = 60$."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q2",
+      "type": "mcq",
+      "question": "Six people are to be seated in a row. In how many ways can this be done if two specific people, X and Y, must NOT sit next to each other?",
+      "options": [
+        "480",
+        "240",
+        "720",
+        "120"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total arrangements $= 6! = 720$. Arrangements where they DO sit together $= 5! \\times 2! = 120 \\times 2 = 240$. $720 - 240 = 480$.\n\n**Common mistake:** Only subtracting $5!$ once or incorrectly calculating $6!$."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q3",
+      "type": "mcq",
+      "question": "How many arrangements of the letters in 'EQUATION' start and end with a consonant?",
+      "options": [
+        "4320",
+        "1440",
+        "720",
+        "40320"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consonants: Q, T, N (3 choices). Choose 2 for ends and arrange them: $^3\\text{P}_2 = 6$. Remaining 6 letters in middle: $6! = 720$. Total $= 6 \\times 720 = 4320$.\n\n**Common mistake:** Using $3 \\times 2$ for the ends but then using $8!$ for the whole word, or ignoring the middle letters."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q4",
+      "type": "mcq",
+      "question": "Four boys and three girls are to be seated in a row. How many arrangements are possible if no two girls are allowed to sit together?",
+      "options": [
+        "1440",
+        "5040",
+        "144",
+        "2880"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arrange boys first: $4! = 24$. There are 5 spaces (including ends) for the 3 girls: $^5\\text{P}_3 = 5 \\times 4 \\times 3 = 60$. Total $= 24 \\times 60 = 1440$.\n\n**Common mistake:** Treating girls as a group and subtracting from the total, which only accounts for 'all 3 together' rather than 'no two together'."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q5",
+      "type": "mcq",
+      "question": "Solve for $n$2$^n\\text{P}_4 = 8 \\times ^{(n-1)}\\text{P}_3$.",
+      "options": [
+        "8",
+        "4",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(n-1)(n-2)(n-3) = 8(n-1)(n-2)(n-3)$. Dividing gives $n = 8$.\n\n**Common mistake:** Algebraic slips during the expansion of the $(n-1)$ term."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q6",
+      "type": "mcq",
+      "question": "A committee of 3 is chosen from 6 lawyers and 4 doctors. Find the number of ways the committee can be formed if it must contain at least one doctor.",
+      "options": [
+        "100",
+        "120",
+        "20",
+        "80"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total ways to choose 3 is $^{10}C_3 = 120$. Ways with no doctors (only lawyers) is $^6C_3 = 20$. At least one doctor = $120 - 20 = 100$.\n\n**Common mistake:** Option B is the total number of committees possible, failing to exclude those with zero doctors."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q7",
+      "type": "mcq",
+      "question": "In how many ways can 4 people be chosen from 10 if two of the people, Alice and Bob, refuse to serve together on the same committee?",
+      "options": [
+        "182",
+        "210",
+        "28",
+        "154"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total ways $^{10}C_4 = 210$. Ways they are together: select Alice and Bob, then 2 more from 8: $^8C_2 = 28$. Not together = $210 - 28 = 182$.\n\n**Common mistake:** Option C is the number of ways they are together, which is the exact opposite of the constraint."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q8",
+      "type": "mcq",
+      "question": "Find the number of ways to choose at least one item from a collection of 7 distinct items.",
+      "options": [
+        "127",
+        "128",
+        "49",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each item can either be chosen or not ($2^7$ total subsets). Subtract 1 for the empty set (choosing zero items): $128 - 1 = 127$.\n\n**Common mistake:** Option B is $2^7$, which incorrectly includes the case where no items are selected."
+    },
+    {
+      "id": "10-permutations-and-combinations-hard-q9",
+      "type": "mcq",
+      "question": "Calculate the number of ways to select 5 students from a class of 20 to represent the school, if 2 specific students are best friends and must either both be selected or neither be selected.",
+      "options": [
+        "9,384",
+        "15,504",
+        "4,896",
+        "816"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1 (Both chosen): Choose 3 more from 18 ($^{18}C_3 = 816$). Case 2 (Neither chosen): Choose 5 from 18 ($^{18}C_5 = 8568$). Total = $816 + 8568 = 9384$.\n\n**Common mistake:** Option B is $^{20}C_5$, the total ways without the friendship constraint."
+    },
+    {
+      "type": "mcq",
+      "question": "A committee of 5 is to be chosen from 6 men and 4 women. How many ways can this be done if there must be at least one man and at least one woman?",
+      "options": [
+        "246",
+        "252",
+        "210",
+        "120"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total ways: $^{10}C_5 = 252$. Subtract case with all men ($^6C_5 = 6$). All women is impossible as there are only 4. $252 - 6 = 246$.\n\n**Common mistake:** Failing to consider all possible gender distributions (1M4W, 2M3W, 3M2W, 4M1W).",
+      "id": "10-permutations-and-combinations-hard-q10"
+    }
+  ]
+}

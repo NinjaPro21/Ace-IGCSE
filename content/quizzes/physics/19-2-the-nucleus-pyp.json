@@ -1,0 +1,77 @@
+{
+  "id": "19-2-the-nucleus-pyp",
+  "topicId": "19-2-the-nucleus",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "pyp",
+  "title": "The Nucleus — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-2-the-nucleus-pyp-q1",
+      "type": "mcq",
+      "question": "The notation for a neutral atom of sodium is $^{23}{11}Na$. Which row correctly describes its composition?",
+      "options": [
+        "Protons: 11; Electrons: 11; Neutrons: 12",
+        "Protons: 11; Electrons: 11; Neutrons: 23",
+        "Protons: 11; Electrons: 12; Neutrons: 11",
+        "Protons: 23; Electrons: 23; Neutrons: 11"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Q4, protons = $Z = 11$. For a neutral atom, electrons = 11. Neutrons = $A - Z = 23 - 11 = 12$. \n\n**Common mistake:** Swapping the neutron and proton values."
+    },
+    {
+      "id": "19-2-the-nucleus-pyp-q2",
+      "type": "mcq",
+      "question": "Which of these nuclides contains an equal number of protons and neutrons?",
+      "options": [
+        "$^{12}_6 C$",
+        "$^1_1 H$",
+        "$^{10}_4 Be$",
+        "$^{17}_8 O$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Q5. In $^{12}_6 C$, protons = 6 and neutrons = $12 - 6 = 6$. \n\n**Common mistake:** Selecting $^{10}4 Be$, where neutrons = 6 and protons = 4."
+    },
+    {
+      "id": "19-2-the-nucleus-pyp-q3",
+      "type": "mcq",
+      "question": "A pair of isotopes is used in a medical experiment. Which property must they have in common?",
+      "options": [
+        "They must have the same proton number.",
+        "They must have the same nucleon number.",
+        "They must have the same number of neutrons.",
+        "They must have the same atomic mass."
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes are defined by having the same proton number. \n\n**Common mistake:** Choosing same nucleon number, which defines different elements entirely."
+    },
+    {
+      "id": "19-2-the-nucleus-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows the scattering of alpha particles by a thin gold foil. Which part of the atom is responsible for repelling the alpha particles that come close to it?nn[Reference: Figure 19.4]",
+      "options": [
+        "The positively charged nucleus",
+        "The orbiting electrons",
+        "The neutral neutrons",
+        "The empty space between atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles are positive and are repelled by the large positive charge concentrated in the small nucleus. \n\n**Common mistake:** Thinking electrons cause the repulsion; electrons are too small and have the opposite charge."
+    },
+    {
+      "id": "19-2-the-nucleus-pyp-q5",
+      "type": "mcq",
+      "question": "A specific nuclide is represented as $^{37}{17}Y$. How many neutrons and how many nucleons are in this atom?nn| | Neutrons | Nucleons |n| :--- | :--- | :--- |n| A | 20 | 37 |n| B | 17 | 37 |n| C | 37 | 20 |n| D | 20 | 17 |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nucleons is the top number (37). Neutrons = Top number − Bottom number = $37 - 17 = 20$. \n\n**Common mistake:** Using 17 as the number of neutrons."
+    }
+  ]
+}

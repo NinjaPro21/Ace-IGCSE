@@ -1,0 +1,207 @@
+{
+  "id": "ch13-electromagnetic-spectrum-pyp",
+  "topicId": "ch13-electromagnetic-spectrum",
+  "chapterId": "ch13-electromagnetic-spectrum",
+  "difficulty": "pyp",
+  "title": "Chapter 13: Electromagnetic Spectrum — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q1",
+      "type": "mcq",
+      "question": "Which statement about electromagnetic waves is correct?",
+      "options": [
+        "In vacuum, all electromagnetic waves travel at the same high speed.",
+        "All electromagnetic waves are harmful to people.",
+        "All electromagnetic waves have the same wavelengths.",
+        "In vacuum, visible light travels faster than all the other electromagnetic waves."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from Review Section A, Question 1. All EM waves have the same speed ($3.0 \\times 10^{8}\\text{ m/s}$) in a vacuum. \n\n**Common mistake:** Selecting Choice D, believing light is the 'fastest' part."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q2",
+      "type": "mcq",
+      "question": "The diagram shows the regions of the electromagnetic spectrum. What are the labels A and B?nnRadio waves | Microwaves | A | Visible light | B | X-rays | Gamma rays",
+      "options": [
+        "A: Infrared; B: Ultraviolet",
+        "A: Ultraviolet; B: Infrared",
+        "A: X-rays; B: Microwaves",
+        "A: Gamma rays; B: Radio waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the mnemonic 'Rugby Match Is Very Unlike Xylophone Game', the order is Radio, Micro, Infra (A), Visible, Ultra (B), X-ray, Gamma. \n\n**Common mistake:** Swapping Infrared and Ultraviolet."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q3",
+      "type": "mcq",
+      "question": "A radio wave signal is sent from Earth to the Moon and reflected back. The time taken is $2.5\\text{ s}$. If the speed of the wave is $3.0 \\times 10^{8}\\text{ m/s}$, what is the distance to the Moon?",
+      "options": [
+        "$3.75 \\times 10^{8}\\text{ m}$",
+        "$7.5 \\times 10^{8}\\text{ m}$",
+        "$1.2 \\times 10^{8}\\text{ m}$",
+        "$3.0 \\times 10^{8}\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance $= v \\times t = (3.0 \\times 10^{8}) \\times 2.5 = 7.5 \\times 10^{8}\\text{ m}$. Since this is for the return trip, the distance to the Moon is half: $3.75 \\times 10^{8}\\text{ m}$. \n\n**Common mistake:** Forgetting to divide the total distance by 2."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the properties of Radio waves compared to Gamma rays?",
+      "options": [
+        "Wavelength: Longer; Frequency: Lower; Speed in vacuum: Same",
+        "Wavelength: Shorter; Frequency: Higher; Speed in vacuum: Same",
+        "Wavelength: Longer; Frequency: Higher; Speed in vacuum: Faster",
+        "Wavelength: Shorter; Frequency: Lower; Speed in vacuum: Slower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radio waves are at the beginning of the spectrum (long $\\lambda$, low $f$), while Gamma rays are at the end (short $\\lambda$, high $f$). Speed is the same for all. \n\n**Common mistake:** Thinking Radio waves are 'slower' because they have lower frequency."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q5",
+      "type": "mcq",
+      "question": "A student measures the frequency of a signal to be $10\\text{ MHz}$. What is the wavelength of this signal in a vacuum?",
+      "options": [
+        "$30\\text{ m}$",
+        "$3.0\\text{ m}$",
+        "$300\\text{ m}$",
+        "$0.3\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f = 10 \\times 10^{6}\\text{ Hz} = 10^{7}\\text{ Hz}$. $\\lambda = v/f = (3.0 \\times 10^{8}) / 10^{7} = 30\\text{ m}$. \n\n**Common mistake:** Using $10$ directly without the 'Mega' ($10^{6}$) factor."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q6",
+      "type": "mcq",
+      "question": "The table shows types of electromagnetic radiation and their uses. Which row is correct?nnRadiation | Usen--- | ---nA. Gamma rays | TV remote controlsnB. Infrared | Sterilising waternC. Microwaves | Satellite communicationnD. Ultraviolet | Imaging broken bones",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microwaves are used for satellite communication. Gamma is for medical treatment/sterilisation, IR is for remotes, and UV is for water/tanning. X-rays are for bones.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q7",
+      "type": "mcq",
+      "question": "A person stands under a sunlamp to get a tan. What type of radiation does the lamp emit, and what is a risk of overexposure?",
+      "options": [
+        "Ultraviolet; Skin cancer",
+        "Infrared; Internal heating",
+        "Ultraviolet; Damage to deep bone marrow",
+        "X-rays; Blindness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sunlamps emit ultraviolet (UV) radiation for tanning. The risk of overexposure is damage to surface cells, which can lead to skin cancer.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q8",
+      "type": "mcq",
+      "question": "Which component of the electromagnetic spectrum is used by a mobile phone to send a signal to a phone mast?",
+      "options": [
+        "Microwaves",
+        "Radio waves",
+        "Infrared",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mobile phones use microwaves to transmit and receive information from masts and satellites.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q9",
+      "type": "mcq",
+      "question": "Which electromagnetic wave is most likely to cause skin burns but NOT damage deep internal organs?",
+      "options": [
+        "Infrared",
+        "Microwaves",
+        "X-rays",
+        "Gamma rays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Infrared causes heating of the skin surface (burns). Microwaves cause internal heating, and X-rays/Gamma rays penetrate deep to damage internal cells.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q10",
+      "type": "mcq",
+      "question": "A remote control is used to change the channel on a TV. What type of radiation does the remote control use?",
+      "options": [
+        "Infrared",
+        "Microwaves",
+        "Radio waves",
+        "Ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Television remote controllers typically use infrared (IR) signals to communicate with the receiver on the television set.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q11",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies a property of digital and analogue signals?nn| | Analogue Signal | Digital Signal |n| :--- | :--- | :--- |n| A | Continuous values | Fixed values only |n| B | Fixed values only | Continuous values |n| C | High frequency only | Low frequency only |n| D | No noise | Includes noise |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from the Syllabus Map and Map It sections: Analogue is continuous, while digital is fixed. \n\n**Common mistake:** Swapping the two properties."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q12",
+      "type": "mcq",
+      "question": "Microwaves are used for satellite communication. Why are they chosen for this application?",
+      "options": [
+        "They can pass through the Earth's atmosphere without being reflected",
+        "They travel faster than radio waves in a vacuum",
+        "They are completely unaffected by noise and interference",
+        "They have very long wavelengths that can curve around the Earth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microwaves can penetrate the atmosphere to reach satellites, whereas some radio frequencies are reflected. \n\n**Common mistake:** Thinking microwaves travel faster than other EM waves."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q13",
+      "type": "mcq",
+      "question": "A digital signal is transmitted over a long distance. During transmission, the signal becomes weak and picks up noise. What happens at a regenerator station?nn[Diagram: Shows a messy pulse becoming a clean square pulse]",
+      "options": [
+        "The circuit produces a clean version of the original signal",
+        "The noise is amplified to make the signal louder",
+        "The signal is slowed down to improve accuracy",
+        "The signal is turned into a continuous analogue wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "A regenerator station identifies the digital 1s and 0s and produces a new, noise-free signal. \n\n**Common mistake:** Thinking the station just 'cleans' the existing signal rather than creating a new one."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q14",
+      "type": "mcq",
+      "question": "Which types of electromagnetic radiation are used in optical fibre communication?",
+      "options": [
+        "Visible light and infrared",
+        "Microwaves and radio waves",
+        "Infrared and microwaves",
+        "Visible light and ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visible light and infrared are the standard regions used for optical fibres. \n\n**Common mistake:** Selecting Row C, as microwaves are common for other communications."
+    },
+    {
+      "id": "ch13-electromagnetic-spectrum-pyp-q15",
+      "type": "mcq",
+      "question": "A geostationary satellite orbits at a height where the time for one orbit is 24 hours. What is the average orbital speed if the orbit radius is $42000\\text{ km}$?",
+      "options": [
+        "$3100\\text{ m/s}$",
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$1750\\text{ m/s}$",
+        "$36000\\text{ m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = (2\\pi r) / t = (2 \\times 3.14 \\times 42000000) / (24 \\times 3600) \\approx 3054\\text{ m/s} \\approx 3100\\text{ m/s}$. \n\n**Common mistake:** Using the altitude instead of the orbital radius, or failing to convert time to seconds."
+    }
+  ]
+}

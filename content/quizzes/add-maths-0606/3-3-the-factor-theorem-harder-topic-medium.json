@@ -1,0 +1,77 @@
+{
+  "id": "3-3-the-factor-theorem-harder-topic-medium",
+  "topicId": "3-3-the-factor-theorem-harder-topic",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "medium",
+  "title": "The Factor Theorem — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-3-the-factor-theorem-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Find the value of $k$2$(x - 2)$ is a factor of $P(x) = x^3 - 3x^2 + kx - 8$.",
+      "options": [
+        "6",
+        "4",
+        "-6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $P(2) = 0$: $(2)³ - 3(2)² + k(2) - 8 = 0 \\implies 8 - 12 + 2k - 8 = 0 \\implies 2k = 12 \\implies k = 6$.\n\n**Common mistake:** Arithmetic slips when combining the constants, often ignoring the $-12$ or miscalculating $2^3$ as 6."
+    },
+    {
+      "id": "3-3-the-factor-theorem-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "The polynomial $f(x) = ax^3 + 2x^2 - x - 6$ has a factor $(x + 2)$. Find the value of $a$.",
+      "options": [
+        "1",
+        "-1",
+        "0.5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $f(-2) = 0$: $a(-2)³ + 2(-2)² - (-2) - 6 = 0 \\implies -8a + 8 + 2 - 6 = 0 \\implies -8a + 4 = 0 \\implies a = 0.5$.\n\n**Common mistake:** Failing to correctly cube the negative number, often resulting in $+8a$2$-(-2)$ term."
+    },
+    {
+      "id": "3-3-the-factor-theorem-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Given that $(x - 1)$ is a factor of $P(x) = x^3 + mx^2 - 4$, find the value of $P(2)$.",
+      "options": [
+        "16",
+        "3",
+        "12",
+        "20"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(1) = 0 \\implies 1 + m - 4 = 0 \\implies m = 3$. Then $P(2) = 2^3 + 3(2)² - 4 = 8 + 12 - 4 = 16$.\n\n**Common mistake:** Finding the value of $m$2$x = 2$."
+    },
+    {
+      "id": "3-3-the-factor-theorem-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "Determine the value of $c$2$(x + 3)$ is a factor of $x^3 + cx^2 + 9$.",
+      "options": [
+        "2",
+        "3",
+        "-2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x = -3$: $(-3)³ + c(-3)² + 9 = 0 \\implies -27 + 9c + 9 = 0 \\implies 9c = 18 \\implies c = 2$.\n\n**Common mistake:** Calculating $(-3)²$ as $-9$ instead of^9, leading to $-9c = 18$ and $c = -2$."
+    },
+    {
+      "id": "3-3-the-factor-theorem-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Find the value of $b$2$(2x - 1)$ is a factor of $2x^2 + bx - 3$.",
+      "options": [
+        "5",
+        "-5",
+        "7",
+        "2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x = 0.5$: $2(0.5)² + b(0.5) - 3 = 0 \\implies 2(0.25) + 0.5b - 3 = 0 \\implies 0.5 + 0.5b - 3 = 0 \\implies 0.5b = 2.5 \\implies b = 5$.\n\n**Common mistake:** Errors in handling $fractions$ or decimals, particularly miscalculating $2(0.5)²$ as $0.25$ or^1."
+    }
+  ]
+}

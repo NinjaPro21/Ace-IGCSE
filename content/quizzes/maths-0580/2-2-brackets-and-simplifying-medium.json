@@ -1,0 +1,77 @@
+{
+  "id": "2-2-brackets-and-simplifying-medium",
+  "topicId": "2-2-brackets-and-simplifying",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Brackets and Simplifying — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-2-brackets-and-simplifying-medium-q1",
+      "type": "mcq",
+      "question": "Expand and simplify the following algebraic expression: $4(3x + 2) - 3(x - 4)$.",
+      "options": [
+        "$9x + 20$",
+        "$9x - 4$",
+        "$9x + 4$",
+        "$12x - 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand both single brackets completely: $12x + 8 - 3x + 12$. Combining the terms results in $9x + 20$.\n\n**Common mistake:** A common mistake is failing to multiply the negative sign across both terms inside the second bracket, writing $-3 \\times -4 = -12$, which leads to $9x - 4$."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-medium-q2",
+      "type": "mcq",
+      "question": "Expand and simplify the double brackets: $(2x + 3)(x - 5)$.",
+      "options": [
+        "$2x^2 - 7x - 15$",
+        "$2x^2 + 13x - 15$",
+        "$2x^2 - 2x - 15$",
+        "$2x^2 - 7x + 15$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand using the FOIL method: $2x(x) + 2x(-5) + 3(x) + 3(-5) = 2x^2 - 10x + 3x - 15 = 2x^2 - 7x - 15$.\n\n**Common mistake:** Students often calculate the middle terms incorrectly, or write $+3 \\times -5 = +15$ due to a sign error."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-medium-q3",
+      "type": "mcq",
+      "question": "Expand and simplify: $(3m - 2)^2$.",
+      "options": [
+        "$9m^2 - 12m + 4$",
+        "$9m^2 - 4$",
+        "$9m^2 + 4$",
+        "$6m^2 - 12m + 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite as double brackets: $(3m - 2)(3m - 2) = 9m^2 - 6m - 6m + 4 = 9m^2 - 12m + 4$.\n\n**Common mistake:** A very common error is just squaring the individual parts, resulting incorrectly in $9m^2 - 4$ or $9m^2 + 4$."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-medium-q4",
+      "type": "mcq",
+      "question": "Simplify completely: $2x^2(3x - 4) - x(x^2 - 5x)$.",
+      "options": [
+        "$5x^3 - 3x^2$",
+        "$5x^3 - 13x^2$",
+        "$6x^3 - 8x^2 - x^3 - 5x^2$",
+        "$5x^3 + 3x^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand the first term: $6x^3 - 8x^2$. Expand the second term: $-x^3 + 5x^2$. Combine: $(6x^3 - x^3) + (-8x^2 + 5x^2) = 5x^3 - 3x^2$.\n\n**Common mistake:** Students often fail to apply the negative sign to the final term when expanding $-x(x^2 - 5x)$, writing $-5x^2$ instead of $+5x^2$."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-medium-q5",
+      "type": "mcq",
+      "question": "Expand and simplify the product: $(a + 4b)(2a - b)$.",
+      "options": [
+        "$2a^2 + 7ab - 4b^2$",
+        "$2a^2 - 7ab - 4b^2$",
+        "$2a^2 + 9ab - 4b^2$",
+        "$2a^2 + 7ab + 4b^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand all combinations: $a(2a) + a(-b) + 4b(2a) + 4b(-b) = 2a^2 - ab + 8ab - 4b^2 = 2a^2 + 7ab - 4b^2$.\n\n**Common mistake:** Students can miscalculate $-1ab + 8ab$2$-9ab$2$+9ab$."
+    }
+  ]
+}

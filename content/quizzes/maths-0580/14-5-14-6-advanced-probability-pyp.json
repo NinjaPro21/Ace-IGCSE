@@ -1,0 +1,77 @@
+{
+  "id": "14-5-14-6-advanced-probability-pyp",
+  "topicId": "14-5-14-6-advanced-probability",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "pyp",
+  "title": "Advanced Probability — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-5-14-6-advanced-probability-pyp-q1",
+      "type": "mcq",
+      "question": "In a survey of 100 people, 58 can attend Friday (F) and 74 can attend Saturday (S). If 4 attend neither, what is the probability a person can only attend Saturday?",
+      "options": [
+        "38/100",
+        "74/100",
+        "36/100",
+        "22/100"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(F \\cup S) = 96$. Intersection $= 58 + 74 - 96 = 36$. S only $= 74 - 36 = 38$. $P = 38/100$.\n\n**Common mistake:** Giving the total for Saturday (74/100) instead of the 'Saturday only' region."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-pyp-q2",
+      "type": "mcq",
+      "question": "From a class of 28, 15 like Badminton (B) and 14 like Tennis (T). If 6 like both, find the probability that a student chosen from those who like Badminton also likes Tennis.",
+      "options": [
+        "6/15",
+        "6/28",
+        "6/14",
+        "15/28"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is $P(T | B) = n(T \\cap B) / n(B) = 6 / 15$.\n\n**Common mistake:** Using 28 as the denominator, which calculates $P(T \\cap B)$ instead of the conditional probability."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-pyp-q3",
+      "type": "mcq",
+      "question": "Scott's bus is late with probability 0.2. If late, Scott is late to school with $P=0.7$. Given the bus was late, what is the probability Scott was NOT late to school?",
+      "options": [
+        "0.3",
+        "0.8",
+        "0.06",
+        "0.14"
+      ],
+      "correctIndex": 0,
+      "explanation": "The branches from a single point must sum to 1. $1 - 0.7 = 0.3$.\n\n**Common mistake:** Multiplying by the bus-late probability (0.2), which finds the sequence probability rather than the conditional branch probability."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-pyp-q4",
+      "type": "mcq",
+      "question": "A Venn diagram shows $P(F' \\cap G') = 3/25$. What is the real-world interpretation of this?",
+      "options": [
+        "The probability that a student studies neither French nor German",
+        "The probability that a student studies German but not French",
+        "The probability that a student studies both languages",
+        "The probability that a student studies French only"
+      ],
+      "correctIndex": 0,
+      "explanation": "$F'$ (Not French) intersect $G'$ (Not German) is the region outside both circles, meaning neither.\n\n**Common mistake:** Interpreting it as the union (Not French or Not German)."
+    },
+    {
+      "id": "14-5-14-6-advanced-probability-pyp-q5",
+      "type": "mcq",
+      "question": "In the probability diagram for A and B, $P(A) = 0.8, P(B) = 0.7, P(A \\cap B) = 0.5$. Find $P(A | B')$.",
+      "options": [
+        "1.0",
+        "0.3",
+        "0.5",
+        "0.75"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(B') = 1 - 0.7 = 0.3$. The part of A outside B is $0.8 - 0.5 = 0.3$. $P = 0.3 / 0.3 = 1.0$.\n\n**Common mistake:** Thinking that if $B$2$A$2$A$2$B$."
+    }
+  ]
+}

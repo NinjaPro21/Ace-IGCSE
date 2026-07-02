@@ -1,0 +1,77 @@
+{
+  "id": "10-5-applications-and-consequences-of-thermal-energy-tran-hard",
+  "topicId": "10-5-applications-and-consequences-of-thermal-energy-tran",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "hard",
+  "title": "Applications and Consequences of Thermal Energy Transfer — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-hard-q1",
+      "type": "mcq",
+      "question": "A copper saucepan filled with water is placed on an electric hot plate. Which sequence correctly describes the transfer of thermal energy until the water is uniformly hot?",
+      "options": [
+        "Conduction from the plate to the pan $rightarrow$ Conduction to the water $rightarrow$ Convection within the water",
+        "Radiation from the plate to the pan $rightarrow$ Convection to the water $rightarrow$ Conduction within the water",
+        "Convection from the plate to the pan $rightarrow$ Radiation within the water $rightarrow$ Conduction to the surface",
+        "Conduction from the plate to the pan $rightarrow$ Radiation to the water $rightarrow$ Evaporation at the surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is transferred from the hot plate to the solid pan and then to the adjacent water molecules by conduction. The rest of the water is then heated as convection currents form. \n\n**Common mistake:** Neglecting the initial conduction step through the solid metal of the pan."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-hard-q2",
+      "type": "mcq",
+      "question": "A vacuum flask uses cork or plastic supports between the inner and outer glass walls. What is the specific thermal reason for using these materials?",
+      "options": [
+        "They are poor conductors used to support the flask with minimal heat transfer",
+        "They are used to create the vacuum by sealing the gap between the walls",
+        "They reflect infrared radiation back into the liquid",
+        "They increase the specific heat capacity of the flask's structure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the inner flask must be physically supported, solid connections are needed. Cork and plastic are insulators (poor conductors), minimizing the 'leakage' of heat by conduction through these supports. \n\n**Common mistake:** Thinking the supports are there to affect radiation."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-hard-q3",
+      "type": "mcq",
+      "question": "Consider a car's cooling system where water is pumped around the engine and then through a radiator. How does the radiator primarily transfer energy to the outside air?",
+      "options": [
+        "Conduction to the metal fins and then convection to the air",
+        "Radiation from the water directly into the atmosphere",
+        "Evaporation of the water as it passes through the small pipes",
+        "The water absorbs 'cold' from the air by conduction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hot water conducts energy to the radiator's metal walls and fins. As air is blown over these fins, energy is transferred to the air, which then moves away via convection. \n\n**Common mistake:** Attributing the cooling solely to radiation because of the name 'radiator'."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-hard-q4",
+      "type": "mcq",
+      "question": "A student observes that on a cold night, a single pane of glass in a window feels much colder than a double-glazed pane. Why does the double-glazing feel warmer?",
+      "options": [
+        "The trapped air reduces the rate of conduction from the room to the outside",
+        "The double-glazing generates its own heat due to the pressure of the air",
+        "Radiation is completely blocked by the two layers of glass",
+        "The outer pane of glass is kept at room temperature by the inner pane"
+      ],
+      "correctIndex": 0,
+      "explanation": "The layer of still air is an insulator that slows down the transfer of thermal energy from the warm room to the cold outside air, keeping the inner glass pane closer to room temperature. \n\n**Common mistake:** Believing double-glazing works by 'blocking' the cold from entering."
+    },
+    {
+      "id": "10-5-applications-and-consequences-of-thermal-energy-tran-hard-q5",
+      "type": "mcq",
+      "question": "In a vacuum flask, which feature is designed to reduce energy transfer by all three methods (conduction, convection, and radiation)?",
+      "options": [
+        "None; different features target different methods",
+        "The vacuum space",
+        "The plastic stopper",
+        "The silvered surfaces"
+      ],
+      "correctIndex": 0,
+      "explanation": "There is no single feature that stops all three; the flask is a system. The vacuum targets conduction and convection, the silvering targets radiation, and the stopper/cork reduce conduction. \n\n**Common mistake:** Thinking the vacuum also stops radiation."
+    }
+  ]
+}

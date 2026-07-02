@@ -1,0 +1,77 @@
+{
+  "id": "4-1-pythagoras-theorem-medium",
+  "topicId": "4-1-pythagoras-theorem",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "medium",
+  "title": "Pythagoras’ Theorem — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-1-pythagoras-theorem-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the length of the diagonal of a rectangle that has a length of $12\\text{ cm}$ and a width of $9\\text{ cm}$.",
+      "options": [
+        "$15\\text{ cm}$",
+        "$21\\text{ cm}$",
+        "$10.4\\text{ cm}$",
+        "$12.7\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagonal forms the hypotenuse of a right-angled triangle: $\\sqrt{12}² + 9^2 = \\sqrt{144} + 81 = \\sqrt{225} = 15$.\n\n**Common mistake:** A student might miscalculate $12^2$ as $24$ or $9^2$ as $18$, leading to an incorrect root."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-medium-q2",
+      "type": "mcq",
+      "question": "A $10\\text{ m}$ ladder leans against a vertical wall. If the foot of the ladder is $6\\text{ m}$ from the base of the wall, how far up the wall does the ladder reach?",
+      "options": [
+        "$8\\text{ m}$",
+        "$4\\text{ m}$",
+        "$11.7\\text{ m}$",
+        "$16\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ladder is the hypotenuse. Height $= \\sqrt{10}² - 6^2 = \\sqrt{100} - 36 = \\sqrt{64} = 8$.\n\n**Common mistake:** The student might treat the wall height as the hypotenuse and add the squares ($100 + 36 = 136$)."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-medium-q3",
+      "type": "mcq",
+      "question": "Point $A$2$(1, 2)$ and Point $B$2$(5, 5)$. Use Pythagoras' theorem to find the straight-line distance between these two points.",
+      "options": [
+        "$5$ units",
+        "$7$ units",
+        "$25$ units",
+        "$\\sqrt{7}$ units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horizontal distance $= 5 - 1 = 4$. Vertical distance $= 5 - 2 = 3$. Distance $= \\sqrt{4}² + 3^2 = \\sqrt{25} = 5$.\n\n**Common mistake:** A student might subtract the coordinates but forget to square them or take the root."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-medium-q4",
+      "type": "mcq",
+      "question": "An isosceles triangle has a base of $10\\text{ cm}$ and two equal sides of $13\\text{ cm}$. Calculate the perpendicular height of the triangle.",
+      "options": [
+        "$12\\text{ cm}$",
+        "$\\sqrt{69}\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$16.4\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The height bisects the base into two $5\\text{ cm}$ segments. Height $= \\sqrt{13}² - 5^2 = \\sqrt{169} - 25 = \\sqrt{144} = 12$.\n\n**Common mistake:** The student might use the full base length ($10$) in the calculation instead of half the base ($5$)."
+    },
+    {
+      "id": "4-1-pythagoras-theorem-medium-q5",
+      "type": "mcq",
+      "question": "The diagonals of a rhombus are $16\\text{ cm}$ and $30\\text{ cm}$. Calculate the side length of the rhombus.",
+      "options": [
+        "$17\\text{ cm}$",
+        "$34\\text{ cm}$",
+        "$23\\text{ cm}$",
+        "$\\sqrt{1156}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagonals of a rhombus bisect at $90°$. Triangle sides are $8$ and $15$. Side $= \\sqrt{8}² + 15^2 = \\sqrt{64} + 225 = \\sqrt{289} = 17$.\n\n**Common mistake:** A student might use the full diagonal lengths ($16$ and $30$) in the formula, leading to a side of $34$."
+    }
+  ]
+}

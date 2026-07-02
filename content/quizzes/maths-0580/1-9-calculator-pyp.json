@@ -1,0 +1,77 @@
+{
+  "id": "1-9-calculator-pyp",
+  "topicId": "1-9-calculator",
+  "chapterId": "ch01-number",
+  "difficulty": "pyp",
+  "title": "Calculator — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-9-calculator-pyp-q1",
+      "type": "mcq",
+      "question": "Use your calculator to evaluate $\\frac{18.45}{\\sin(35^\\circ) + \\cos(20^\\circ)}$, giving your answer correct to 3 significant figures.",
+      "options": [
+        "12.2",
+        "12.19",
+        "11.8",
+        "15.3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ensure your calculator is set to degree mode. Evaluate the denominator: $\\sin(35^\\circ) + \\cos(20^\\circ) \\approx 0.5736 + 0.9397 = 1.5133$. Dividing $18.45 / 1.5133 \\approx 12.192$, which rounds to $12.2$ to 3 significant figures.\n\n**Common mistake:** Students frequently make a rounding error, writing down $12.19$ (4 sig figs) or misconfiguring angle modes."
+    },
+    {
+      "id": "1-9-calculator-pyp-q2",
+      "type": "mcq",
+      "question": "Calculate the exact value of $\\sqrt[3]{\\frac{6.86}{2}} + 1.5^3$.",
+      "options": [
+        "4.875",
+        "5.225",
+        "4.5",
+        "3.375"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify inside the radical: $6.86 / 2 = 3.43$. Evaluate the cube root: $\\sqrt[3]{3.43} = 1.5$. Evaluate the power: $1.5^3 = 3.375$. Summing gives $1.5 + 3.375 = 4.875$.\n\n**Common mistake:** Students sometimes mix up order steps or input values incorrectly, dropping radical segments."
+    },
+    {
+      "id": "1-9-calculator-pyp-q3",
+      "type": "mcq",
+      "question": "Find the value of $\\frac{3.5 \\times 10^{4} + 4.5 \\times 10^{3}}{2.5 \\times 10^{-2}}$ using your calculator, expressing the final value in standard form.",
+      "options": [
+        "$1.58 \\times 10^{6}$",
+        "$1.58 \\times 10^{4}$",
+        "$3.16 \\times 10^{6}$",
+        "$1.58 \\times 10^{5}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerator: $35000 + 4500 = 39500$. Divide by $0.025$: $39500 / 0.025 = 1580000 = 1.58 \\times 10^{6}$.\n\n**Common mistake:** Students often add exponents directly during numerator sum calculations, yielding wrong power values."
+    },
+    {
+      "id": "1-9-calculator-pyp-q4",
+      "type": "mcq",
+      "question": "Evaluate $\\frac{\\pi \\times 4.2^2}{3.5}$, giving your answer correct to 3 significant figures.",
+      "options": [
+        "15.8",
+        "15.833",
+        "15.9",
+        "16.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the $\\pi$2$\\frac{\\pi \\times 17.64}{3.5} \\approx 15.8336$. Correct to 3 significant figures, this rounds down to $15.8$.\n\n**Common mistake:** Using a low-precision approximation for pi like $3.14$ instead of the exact button can result in intermediate rounding errors."
+    },
+    {
+      "id": "1-9-calculator-pyp-q5",
+      "type": "mcq",
+      "question": "Calculate the value of $\\frac{1}{\\sqrt{0.04}} - (2.5 - 1.1)^2$ exactly.",
+      "options": [
+        "3.04",
+        "5.04",
+        "3.14",
+        "2.96"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate components: $\\sqrt{0.04} = 0.2$, so $1 / 0.2 = 5$. Then, $(2.5 - 1.1)^2 = 1.4^2 = 1.96$. Subtracting gives $5 - 1.96 = 3.04$.\n\n**Common mistake:** Students frequently miss operational signs or drop decimals when executing multi-tier calculations."
+    }
+  ]
+}

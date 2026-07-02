@@ -1,0 +1,77 @@
+{
+  "id": "5-laws-of-logarithms-easy",
+  "topicId": "5-laws-of-logarithms",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "easy",
+  "title": "Laws of Logarithms — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-laws-of-logarithms-easy-q1",
+      "type": "mcq",
+      "question": "According to the product law of logarithms, $\\log_a m + \\log_a n$ is equal to:",
+      "options": [
+        "$\\log_a (m + n)$",
+        "$\\log_a (m \\times n)$",
+        "$\\log_a m \\times \\log_a n$",
+        "$\\log_a (m^n)$"
+      ],
+      "correctIndex": 1,
+      "explanation": "The product law states that the sum of two logarithms with the same base is equal to the logarithm of the product of their arguments.\n\n**Common mistake:** Students often incorrectly assume that $\\log_a m + \\log_a n = \\log_a (m + n)$."
+    },
+    {
+      "id": "5-laws-of-logarithms-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is equivalent to $\\log_b \\left(\\frac{x}{y}\\right)$?",
+      "options": [
+        "$\\log_b x - \\log_b y$",
+        "$\\log_b x + \\log_b y$",
+        "$\\frac{\\log_b x}{\\log_b y}$",
+        "$\\log_b (x - y)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The quotient law states that the logarithm of a quotient is equal to the difference of the logarithms of the numerator and the denominator.\n\n**Common mistake:** Confusing the quotient law with the change of base formula or incorrectly writing $\\log_b (x - y)$."
+    },
+    {
+      "id": "5-laws-of-logarithms-easy-q3",
+      "type": "mcq",
+      "question": "Using the power law, simplify $3 \\log_a 2$.",
+      "options": [
+        "$\\log_a 6$",
+        "$\\log_a 8$",
+        "$\\log_a 5$",
+        "$\\log_a 9$"
+      ],
+      "correctIndex": 1,
+      "explanation": "$3 \\log_a 2 = \\log_a (2^3) = \\log_a 8$.\n\n**Common mistake:** Multiplying the coefficient by the argument ($3 \\times 2$) to get $\\log_a 6$ instead of using it as an exponent."
+    },
+    {
+      "id": "5-laws-of-logarithms-easy-q4",
+      "type": "mcq",
+      "question": "Simplify the expression $\\lg 5 + \\lg 2$.",
+      "options": [
+        "1",
+        "10",
+        "$\\lg 7$",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\lg 5 + \\lg 2 = \\lg(5 \\times 2) = \\lg 10$. Since $\\lg$2$\\lg 10 = 1$.\n\n**Common mistake:** Leaving the answer as $\\lg 10$ or incorrectly adding the arguments to get $\\lg 7$."
+    },
+    {
+      "id": "5-laws-of-logarithms-easy-q5",
+      "type": "mcq",
+      "question": "Express $\\log_a x^2 y$ as a sum of logarithms.",
+      "options": [
+        "$2 \\log_a x + \\log_a y$",
+        "$\\log_a 2x + \\log_a y$",
+        "$( \\log_a x + \\log_a y )^2$",
+        "$2 \\log_a (x + y)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the product law, $\\log_a x^2 y = \\log_a x^2 + \\log_a y$2$\\log_a x^2 = 2 \\log_a x$.\n\n**Common mistake:** Applying the power of 2 to the entire expression instead of just the $x$ term."
+    }
+  ]
+}

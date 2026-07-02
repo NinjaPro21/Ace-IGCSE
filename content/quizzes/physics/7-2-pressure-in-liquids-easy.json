@@ -1,0 +1,77 @@
+{
+  "id": "7-2-pressure-in-liquids-easy",
+  "topicId": "7-2-pressure-in-liquids",
+  "chapterId": "ch07-pressure",
+  "difficulty": "easy",
+  "title": "Pressure in Liquids — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-2-pressure-in-liquids-easy-q1",
+      "type": "mcq",
+      "question": "How does the pressure in a liquid change as the depth increases?",
+      "options": [
+        "The pressure increases",
+        "The pressure decreases",
+        "The pressure remains constant",
+        "The pressure becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure beneath the surface of a liquid increases with depth because there is more weight of liquid above the point. \n\n**Common mistake:** Thinking pressure is only affected by the surface area of the liquid."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is the correct equation for the change in pressure ($Delta p$) in a liquid?",
+      "options": [
+        "$Delta p = rho g Delta h$",
+        "$Delta p = F / A$",
+        "$Delta p = m / V$",
+        "$Delta p = m g h$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The formula $Delta p = rho g Delta h$ relates change in pressure to density, gravity, and change in depth. \n\n**Common mistake:** Using $F/A$, which is the general definition of pressure but not specific to depth in a fluid."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-easy-q3",
+      "type": "mcq",
+      "question": "What does the symbol $rho$ (rho) represent in the liquid pressure formula?",
+      "options": [
+        "The density of the liquid",
+        "The weight of the liquid",
+        "The depth from the surface",
+        "The gravitational field strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "In physics, the Greek letter $rho$ is the standard symbol for the density of a substance. \n\n**Common mistake:** Confusing $rho$ with $p$ (pressure) due to their visual similarity."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-easy-q4",
+      "type": "mcq",
+      "question": "A diver is swimming in a pool. At which point is the pressure the greatest?",
+      "options": [
+        "At the very bottom of the pool",
+        "At the surface of the water",
+        "Halfway between the surface and the bottom",
+        "Pressure is the same everywhere in the pool"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure is directly proportional to depth; therefore, it is highest at the deepest point. \n\n**Common mistake:** Thinking pressure is higher at the surface where air meets water."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-easy-q5",
+      "type": "mcq",
+      "question": "What is the standard SI unit for measuring the pressure in a liquid?",
+      "options": [
+        "pascal (Pa)",
+        "newton (N)",
+        "kilogram per cubic metre ($kg/m^3$)",
+        "joule (J)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pascal (Pa) is the SI unit for all types of pressure, including liquid pressure. \n\n**Common mistake:** Selecting $kg/m^3$, which is the unit for density."
+    }
+  ]
+}

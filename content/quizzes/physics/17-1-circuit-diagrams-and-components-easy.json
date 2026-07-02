@@ -1,0 +1,77 @@
+{
+  "id": "17-1-circuit-diagrams-and-components-easy",
+  "topicId": "17-1-circuit-diagrams-and-components",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "easy",
+  "title": "Circuit Diagrams and Components — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-1-circuit-diagrams-and-components-easy-q1",
+      "type": "mcq",
+      "question": "What is the primary function of a dry cell or battery in an electrical circuit?",
+      "options": [
+        "To provide energy to drive the charge around the circuit",
+        "To measure the amount of current flowing through a wire",
+        "To increase the resistance of the circuit components",
+        "To prevent the flow of electrons in a specific direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, a battery or dry cell is an energy provider that supplies the energy to drive a charge around the circuit. \n\n**Common mistake:** Thinking the battery 'creates' the electrons, rather than providing the energy to move them."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-easy-q2",
+      "type": "mcq",
+      "question": "Which component is specifically designed to allow current to flow in only one direction?",
+      "options": [
+        "Diode",
+        "Fixed resistor",
+        "Filament lamp",
+        "Voltmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A semiconductor diode only allows current to flow in one direction. \n\n**Common mistake:** Selecting a resistor, which allows current to flow in either direction, although it opposes the flow."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-easy-q3",
+      "type": "mcq",
+      "question": "Which instrument is used to measure the potential difference (p.d.) across a circuit component?",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Ohmmeter",
+        "Potentiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material states that a voltmeter is used to measure the electromotive force (e.m.f.) of a cell or the potential difference (p.d.) across a component. \n\n**Common mistake:** Confusing it with an ammeter, which measures current."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-easy-q4",
+      "type": "mcq",
+      "question": "What happens to the current in a circuit when a switch is opened?",
+      "options": [
+        "The circuit is broken and current stops flowing.",
+        "The current reverses its direction of flow.",
+        "The resistance of the circuit becomes zero.",
+        "The battery begins to charge itself."
+      ],
+      "correctIndex": 0,
+      "explanation": "Opening a switch breaks the circuit, creating a gap that prevents the flow of charge. \n\n**Common mistake:** Thinking an 'open' switch means the path is 'open' for current to travel through."
+    },
+    {
+      "id": "17-1-circuit-diagrams-and-components-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following is the standard SI unit for electrical resistance?",
+      "options": [
+        "ohm ($Omega$)",
+        "volt (V)",
+        "ampere (A)",
+        "joule (J)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is measured in ohms, represented by the Greek letter $Omega$. \n\n**Common mistake:** Selecting the ampere, which is the unit for electric current."
+    }
+  ]
+}

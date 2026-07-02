@@ -1,0 +1,77 @@
+{
+  "id": "17-2-series-circuits-medium",
+  "topicId": "17-2-series-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "medium",
+  "title": "Series Circuits — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-2-series-circuits-medium-q1",
+      "type": "mcq",
+      "question": "A $12\\text{ V}$ battery is connected in series with two resistors of $4\\text{ }Omega$ and $8\\text{ }Omega$. What is the current flowing from the battery?",
+      "options": [
+        "$1.0\\text{ A}$",
+        "$1.5\\text{ A}$",
+        "$3.0\\text{ A}$",
+        "$12.0\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, find the total resistance $R = 4 + 8 = 12\\text{ }Omega$. Then use $I = V / R = 12 / 12 = 1.0\\text{ A}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-medium-q2",
+      "type": "mcq",
+      "question": "Two resistors are connected in series. Resistor A has a resistance of $10\\text{ }Omega$ and Resistor B has a resistance of $20\\text{ }Omega$. Which statement correctly describes the potential difference (p.d.) across them?",
+      "options": [
+        "The p.d. across Resistor B is twice the p.d. across Resistor A",
+        "The p.d. across Resistor A is twice the p.d. across Resistor B",
+        "The p.d. is the same across both resistors",
+        "The p.d. across Resistor B is half the p.d. across Resistor A"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series circuit, $V = IR$. Since $I$ is constant, the p.d. is proportional to resistance. As noted in the sources, a larger resistance has a greater p.d. across it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-medium-q3",
+      "type": "mcq",
+      "question": "A student adds a third resistor in series to a circuit that already has two resistors. What is the effect on the total resistance and the current?",
+      "options": [
+        "Total resistance increases, current decreases",
+        "Total resistance decreases, current increases",
+        "Total resistance increases, current increases",
+        "Total resistance remains the same, current decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding more resistors in series increases the total resistance ($R_T = R_1 + R_2 + R_3$). Since $I = V / R_T$, an increase in resistance leads to a decrease in current.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-medium-q4",
+      "type": "mcq",
+      "question": "A $6\\text{ V}$ cell is connected to two identical resistors in series. What is the potential difference across one of the resistors?",
+      "options": [
+        "$3\\text{ V}$",
+        "$6\\text{ V}$",
+        "$12\\text{ V}$",
+        "$0\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Identical resistors in series share the total voltage equally. $6\\text{ V} / 2 = 3\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-medium-q5",
+      "type": "mcq",
+      "question": "A $5\\text{ }Omega$ resistor and a $15\\text{ }Omega$ resistor are connected in series. If the p.d. across the $5\\text{ }Omega$ resistor is $2\\text{ V}$, what is the p.d. across the $15\\text{ }Omega$ resistor?",
+      "options": [
+        "$6\\text{ V}$",
+        "$2\\text{ V}$",
+        "$4\\text{ V}$",
+        "$10\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ratio of p.d.s equals the ratio of resistances: $V_1 / R_1 = V_2 / R_2$. Thus $2 / 5 = V_2 / 15$, which gives $V_2 = 6\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

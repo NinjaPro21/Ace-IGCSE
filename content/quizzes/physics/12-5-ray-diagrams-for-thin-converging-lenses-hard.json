@@ -1,0 +1,77 @@
+{
+  "id": "12-5-ray-diagrams-for-thin-converging-lenses-hard",
+  "topicId": "12-5-ray-diagrams-for-thin-converging-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "hard",
+  "title": "Ray Diagrams for Thin Converging Lenses — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-hard-q1",
+      "type": "mcq",
+      "question": "A slide projector forms a magnified image on a screen $2.0\\text{ m}$ away. If the slide is $5.0\\text{ cm}$ from the lens, what must be true about the focal length of the lens?",
+      "options": [
+        "The focal length is slightly less than $5.0\\text{ cm}$.",
+        "The focal length is exactly $5.0\\text{ cm}$.",
+        "The focal length is greater than $5.0\\text{ cm}$.",
+        "The focal length is exactly $2.0\\text{ m}$."
+      ],
+      "correctIndex": 0,
+      "explanation": "A projector forms a real magnified image when the object is between $f$ and $2f$. Thus $f < 5.0\\text{ cm} < 2f$, meaning $f$ is less than $5.0\\text{ cm}$. \n\n**Common mistake:** Thinking $f$ must be greater than the object distance, which would produce a virtual image."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-hard-q2",
+      "type": "mcq",
+      "question": "In a ray diagram, three specific rays are often drawn to locate an image. Which of the following rays is NOT correctly described?",
+      "options": [
+        "A ray through the focal point on the object side refracts to be parallel to the axis.",
+        "A ray parallel to the principal axis refracts through the principal focus.",
+        "A ray through the optical centre passes straight through.",
+        "A ray through the focal point on the object side refracts through the focal point on the image side."
+      ],
+      "correctIndex": 3,
+      "explanation": "A ray passing through the focal point ($F$) on the object side refracts to become parallel to the principal axis, not through the other focal point. \n\n**Common mistake:** Thinking all rays eventually pass through a focal point."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-hard-q3",
+      "type": "mcq",
+      "question": "A student views a virtual image through a converging lens. When she moves the object further from the lens (but still within the focal length), how does the image change?",
+      "options": [
+        "The image remains virtual but becomes more magnified.",
+        "The image becomes real and inverted.",
+        "The image remains virtual but becomes diminished.",
+        "The image disappears completely."
+      ],
+      "correctIndex": 0,
+      "explanation": "As $u$ increases toward $f$ while remaining less than $f$, the virtual image produced by a magnifying glass becomes larger and moves further away. \n\n**Common mistake:** Thinking the image becomes real as soon as the object moves."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-hard-q4",
+      "type": "mcq",
+      "question": "An object of height $2\\text{ cm}$ is placed $30\\text{ cm}$ from a lens with $f = 10\\text{ cm}$. Calculate the height of the real image formed if it is $15\\text{ cm}$ from the lens.",
+      "options": [
+        "$1\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$0.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnification $M = v / u = 15 / 30 = 0.5$. Image height $= 2\\text{ cm} \\times 0.5 = 1\\text{ cm}$. \n\n**Common mistake:** Multiplying by 2 ($v/u$ inverted), leading to $4\\text{ cm}$."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-hard-q5",
+      "type": "mcq",
+      "question": "Which of the following sets of conditions will produce an image that can be captured on a piece of paper?",
+      "options": [
+        "$u = 1.5f$ and $u = 3f$",
+        "$u = 0.5f$ and $u = 1.5f$",
+        "$u = 0.8f$ only",
+        "$u = 2f$ and $u = 0.5f$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Real images can be captured on a screen; these occur when the object distance $u > f$. Both $1.5f$ and $3f$ satisfy this. \n\n**Common mistake:** Thinking virtual images ($u < f$) can be projected onto paper."
+    }
+  ]
+}

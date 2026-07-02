@@ -1,0 +1,77 @@
+{
+  "id": "11-3-common-features-of-wave-behaviour-hard",
+  "topicId": "11-3-common-features-of-wave-behaviour",
+  "chapterId": "ch11-general-properties-of-waves",
+  "difficulty": "hard",
+  "title": "Common Features of Wave Behaviour — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-3-common-features-of-wave-behaviour-hard-q1",
+      "type": "mcq",
+      "question": "A ripple tank experiment shows water waves crossing from a deep region to a shallow region. Which set of changes is correct?",
+      "options": [
+        "Speed: Decreases; Wavelength: Decreases; Frequency: Unchanged",
+        "Speed: Increases; Wavelength: Increases; Frequency: Unchanged",
+        "Speed: Decreases; Wavelength: Unchanged; Frequency: Decreases",
+        "Speed: Unchanged; Wavelength: Decreases; Frequency: Increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shallow water provides more resistance, decreasing wave speed. Because the source frequency is constant, the wavelength must decrease to satisfy $v = f\\lambda$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-hard-q2",
+      "type": "mcq",
+      "question": "Radio signals have much longer wavelengths than TV signals. Why is it easier to receive radio signals behind a hill than TV signals?",
+      "options": [
+        "Radio waves diffract more around the hill due to their longer wavelength",
+        "Radio waves reflect better off the atmosphere",
+        "TV signals travel faster and miss the receiver",
+        "Radio waves are longitudinal and travel through the hill"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waves with longer wavelengths relative to the size of an obstacle (the hill) undergo more diffraction, curving more effectively to reach the area behind the obstacle.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-hard-q3",
+      "type": "mcq",
+      "question": "In a refraction experiment, waves travel from region X to region Y. The angle of incidence is $35^circ$ and the angle of refraction is $20^circ$. What can be concluded about the regions?",
+      "options": [
+        "Region Y is shallower than region X",
+        "Region Y is deeper than region X",
+        "The waves travel faster in region Y",
+        "The frequency is lower in region Y"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the angle of refraction ($20^circ$) is smaller than the angle of incidence ($35^circ$), the wave has bent towards the normal. This indicates the wave slowed down, meaning region Y is shallower.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-hard-q4",
+      "type": "mcq",
+      "question": "Which combination of wavelength $\\lambda$ and gap width $w$ will produce wavefronts that are nearly circular after passing through the gap?",
+      "options": [
+        "$\\lambda = 10\\text{ cm}, w = 2\\text{ cm}$",
+        "$\\lambda = 2\\text{ cm}, w = 10\\text{ cm}$",
+        "$\\lambda = 5\\text{ cm}, w = 20\\text{ cm}$",
+        "$\\lambda = 1\\text{ cm}, w = 15\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maximum diffraction (circular spreading) occurs when the wavelength is similar to or larger than the gap width. In the first option, the wavelength is much larger than the gap.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "11-3-common-features-of-wave-behaviour-hard-q5",
+      "type": "mcq",
+      "question": "When waves undergo reflection at a straight barrier, what happens to the frequency and the wavefront spacing?",
+      "options": [
+        "Frequency: Unchanged; Spacing: Unchanged",
+        "Frequency: Increases; Spacing: Decreases",
+        "Frequency: Unchanged; Spacing: Decreases",
+        "Frequency: Decreases; Spacing: Unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection involves only a change in direction. The wave speed and frequency remain constant; therefore, the distance between wavefronts (wavelength) does not change.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

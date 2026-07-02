@@ -1,0 +1,77 @@
+{
+  "id": "18-1-electromagnetic-induction-pyp",
+  "topicId": "18-1-electromagnetic-induction",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "pyp",
+  "title": "Electromagnetic Induction — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-1-electromagnetic-induction-pyp-q1",
+      "type": "mcq",
+      "question": "A student performs three actions with a magnet and a solenoid connected to a galvanometer. Which row in the table correctly predicts the observations?nnAction | Observationn--- | ---n1. Magnet moving in | Deflectionn2. Magnet stationary inside | No deflectionn3. Magnet moving out | Opposite deflection",
+      "options": [
+        "All three are correct",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "These observations are standard for electromagnetic induction. Deflection only occurs during relative motion, and reversing the motion reverses the deflection.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-pyp-q2",
+      "type": "mcq",
+      "question": "A magnet is moved towards a coil of wire. Which of the following does NOT increase the size of the induced e.m.f.?",
+      "options": [
+        "Using a thicker wire with lower resistance",
+        "Moving the magnet more quickly",
+        "Using a stronger magnet",
+        "Increasing the number of turns in the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "While thicker wire may increase the induced current ($I$), it does not affect the magnitude of the induced e.m.f. ($V$), which depends on flux and turns.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows the North pole of a magnet moving towards a solenoid.n[N-S Magnet] $rightarrow$ [Solenoid End A]nWhat is the polarity induced at End A and what is the nature of the force between them?",
+      "options": [
+        "Polarity: North; Force: Repulsion",
+        "Polarity: South; Force: Attraction",
+        "Polarity: North; Force: Attraction",
+        "Polarity: South; Force: Repulsion"
+      ],
+      "correctIndex": 0,
+      "explanation": "To oppose the North pole coming towards it, End A must become a North pole. Like poles (N and N) repel each other.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-pyp-q4",
+      "type": "mcq",
+      "question": "The graph shows the induced e.m.f. in a coil over time. Which feature of the graph indicates that the magnet was moving faster as it left the coil than when it entered?n[Graph shows a small first peak and a tall second peak in the opposite direction]",
+      "options": [
+        "The height of the second peak is greater than the first",
+        "The second peak is in the opposite direction to the first",
+        "The area under the two peaks is the same",
+        "The time duration for both peaks is identical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced e.m.f. magnitude is proportional to speed. A taller peak on the graph indicates a higher induced e.m.f., which implies the magnet was moving faster at that time.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-pyp-q5",
+      "type": "mcq",
+      "question": "A wire is moved upwards through a horizontal magnetic field that points from North to South. In which direction is the current induced in the wire? (Hint: Use Fleming's right-hand rule)",
+      "options": [
+        "Out of the page",
+        "Into the page",
+        "Towards the North pole",
+        "Towards the South pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Fleming's Right-Hand Rule: Thumb (Motion) up, First finger (Field) N to S (right), Second finger (Current) points out of the page.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

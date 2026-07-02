@@ -1,0 +1,77 @@
+{
+  "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard",
+  "topicId": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "hard",
+  "title": "The Graph of a Function and its Inverse — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q1",
+      "type": "mcq",
+      "question": "The graph of y=f(x) is a portion of a circle $(x-5)^{2}$+$y^{2}$=25 for x≥5,y≥0. Determine the coordinates of the point where f and $f^{-1}$intersect.",
+      "options": [
+        "(5+\\sqrt{12}.5,5+\\sqrt{12}.5)",
+        "(5,5)",
+        "(10,10)",
+        "(0,0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $(x-5)^{2}$+$x^{2}$=25 \\implies $x^{2}$−10x+25+$x^{2}$=25 \\implies 2$x^{2}$−10x=0 \\implies 2x(x−5)=0. Solutions x=0,5. Since domain is x≥5, point is (5,5).\n\n**Common mistake:** Failing to check the domain restriction and picking (0,0) or (10,10) from an incomplete calculation."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q2",
+      "type": "mcq",
+      "question": "Consider f(x)= x^{2}−4x+6 for x≥2. At what point does the graph of f intersect the line y=x?",
+      "options": [
+        "(2,2) and (3,3)",
+        "(2,2) only",
+        "(3,3) only",
+        "No intersection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $x^{2}$−4x+6=x \\implies $x^{2}$−5x+6=0 \\implies (x−2)(x−3)=0. Since both x=2 and x=3 are in the domain, both are valid.\n\n**Common mistake:** Ignoring one of the roots or incorrectly solving the quadratic equation."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q3",
+      "type": "mcq",
+      "question": "The graph of y=f(x) is symmetric about the line y=x. What can be concluded about the function f?",
+      "options": [
+        "It is a self-inverse function, f(x)= f^{-1}(x)",
+        "It is a linear function with gradient 1",
+        "It is a quadratic with vertex on the origin",
+        "It is not a one-to-one function"
+      ],
+      "correctIndex": 0,
+      "explanation": "If a graph is its own reflection in y=x, then the original function and the inverse function are identical.\n\n**Common mistake:** Assuming the symmetry implies it must be y=x itself, rather than any self-inverse function like y=1/x or y=k−x."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q4",
+      "type": "mcq",
+      "question": "Sketch y=f(x) and y= f^{-1}(x) for f(x)=e^x\n. Describe the behavior of $f^{-1}$(x) as x approaches 0 from the positive side.",
+      "options": [
+        "It approaches −∞",
+        "It approaches 1",
+        "It approaches 0",
+        "It is undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since e^x\nhas a horizontal asymptote y=0 as x→−∞, the inverse (natural log) has a vertical asymptote x=0 as y→−∞.\n\n**Common mistake:** Failing to translate horizontal asymptotic behavior into vertical asymptotic behavior for the inverse graph."
+    },
+    {
+      "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q5",
+      "type": "mcq",
+      "question": "The graph of y=f(x) for x≥0 is a straight line segment from (0,2) to (4,10). Find the coordinates of the midpoint of the reflected segment y= f^{-1}(x).",
+      "options": [
+        "(6,2)",
+        "(2,6)",
+        "(4,6)",
+        "(5,5)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflected points are (2,0) and (10,4). Midpoint =((2+10)/2,(0+4)/2)=(6,2).\n\n**Common mistake:** Calculating the midpoint of the original segment (2,6) and forgetting to reflect it, or reflecting the original midpoint incorrectly."
+    }
+  ]
+}

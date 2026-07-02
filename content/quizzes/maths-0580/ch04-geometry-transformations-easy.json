@@ -1,0 +1,467 @@
+{
+  "id": "ch04-geometry-transformations-easy",
+  "topicId": "ch04-geometry-transformations",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "easy",
+  "title": "Chapter 4: Geometry & Transformations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch04-geometry-transformations-easy-q1",
+      "type": "mcq",
+      "question": "Three angles lie on a straight line. If two of the angles are $45°$ and $72°$, calculate the size of the third angle.",
+      "options": [
+        "$63°$",
+        "$117°$",
+        "$243°$",
+        "$180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles on a straight line add up to $180°$. Therefore, the third angle is $180 - (45 + 72) = 63°$.\n\n**Common mistake:** A student might subtract the sum from $360°$ (angles at a point) or simply add the two given angles and stop at $117°$."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q2",
+      "type": "mcq",
+      "question": "What is the sum of the exterior angles of any convex polygon?",
+      "options": [
+        "$360°$",
+        "$180°$",
+        "$(n - 2) \\times 180°$",
+        "$540°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By geometric rule, the exterior angles of any polygon always add up to exactly $360°$.\n\n**Common mistake:** The student might confuse exterior angles with the formula for interior angles or the sum of angles on a line."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q3",
+      "type": "mcq",
+      "question": "In a pair of parallel lines intersected by a transversal, which type of angles are always equal and form a 'Z' shape?",
+      "options": [
+        "Alternate angles",
+        "Corresponding angles",
+        "Co-interior angles",
+        "Vertically opposite angles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternate angles are found in a 'Z' shape between parallel lines and are equal to each other.\n\n**Common mistake:** Students often confuse alternate angles with corresponding angles (which form an 'F' shape)."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q4",
+      "type": "mcq",
+      "question": "Calculate the sum of the interior angles of a pentagon.",
+      "options": [
+        "$540°$",
+        "$360°$",
+        "$720°$",
+        "$108°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $(n - 2) \\times 180°$ for a 5-sided polygon: $(5 - 2) \\times 180 = 3 \\times 180 = 540°$.\n\n**Common mistake:** The student might provide the size of a single interior angle ($108°$) or use the quadrilateral sum ($360°$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q5",
+      "type": "mcq",
+      "question": "Two lines intersect. If one angle is $135°$, what is the size of its vertically opposite angle?",
+      "options": [
+        "$135°$",
+        "$45°$",
+        "$225°$",
+        "$360°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vertically opposite angles are always equal.\n\n**Common mistake:** The student might subtract from $180°$ assuming they are on a straight line."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q6",
+      "type": "mcq",
+      "question": "Identify the order of rotational symmetry for a parallelogram.",
+      "options": [
+        "$2$",
+        "$0$",
+        "$1$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A parallelogram coincides with itself twice during a full $360°$ rotation, at $180°$ and $360°$.\n\n**Common mistake:** A student might assume rotational symmetry is $1$ because it has no lines of symmetry, or confuse it with a rectangle."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q7",
+      "type": "mcq",
+      "question": "How many lines of symmetry does an equilateral triangle have?",
+      "options": [
+        "$3$",
+        "$1$",
+        "$0$",
+        "$6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An equilateral triangle has three lines of symmetry, each passing through a vertex and the midpoint of the opposite side."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q8",
+      "type": "mcq",
+      "question": "Every shape looks the same after a full $360°$ rotation. What is the minimum possible order of rotational symmetry for any shape?",
+      "options": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$360$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since every shape returns to its original position after $360°$, the minimum order is $1$.\n\n**Common mistake:** Students may think 'no symmetry' means an order of $0$."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q9",
+      "type": "mcq",
+      "question": "A rectangle that is not a square has how many lines of symmetry?",
+      "options": [
+        "$2$",
+        "$4$",
+        "$0$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rectangle has two lines of symmetry, both of which pass through the midpoints of opposite sides.\n\n**Common mistake:** Students often incorrectly count the diagonals of a rectangle as lines of symmetry."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q10",
+      "type": "mcq",
+      "question": "Which of these 3D shapes typically has no planes of symmetry?",
+      "options": [
+        "A scalene triangular pyramid",
+        "A cube",
+        "A cylinder",
+        "A square-based pyramid"
+      ],
+      "correctIndex": 0,
+      "explanation": "A scalene triangular pyramid has faces of different sizes and shapes, offering no planes that divide it into congruent mirror images.\n\n**Common mistake:** A student might assume all pyramids have symmetry."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q11",
+      "type": "mcq",
+      "question": "A triangle is drawn inside a circle such that one side is the diameter. If one of the other angles is $34°$, calculate the size of the third angle.",
+      "options": [
+        "$56°$",
+        "$90°$",
+        "$146°$",
+        "$112°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle in a semi-circle is always $90°$. Therefore, the third angle is $180 - 90 - 34 = 56°$.\n\n**Common mistake:** A student might forget that the angle at the circumference subtended by a diameter is $90°$ and try to divide $146$ by $2$ instead."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q12",
+      "type": "mcq",
+      "question": "In a circle with centre $O$2$AB$2$110°$. Calculate the angle at the circumference subtended by the same arc.",
+      "options": [
+        "$55°$",
+        "$220°$",
+        "$70°$",
+        "$90°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The angle at the centre is twice the angle at the circumference. So, $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might multiply by $2$ instead of dividing, or subtract from $180°$."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q13",
+      "type": "mcq",
+      "question": "Identify the relationship between opposite angles in a cyclic quadrilateral.",
+      "options": [
+        "They sum to $180°$",
+        "They are equal to each other",
+        "They sum to $360°$",
+        "They are complementary ($90°$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By circle theorem, the opposite angles of a cyclic quadrilateral (a four-sided shape with all vertices on the circumference) are supplementary.\n\n**Common mistake:** Students often assume opposite angles are equal, which is only true for specific shapes like rectangles or parallelograms."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q14",
+      "type": "mcq",
+      "question": "Points $P, Q, R,$ and $S$2$PQS = 42°$, what is the size of angle $PRS$?",
+      "options": [
+        "$42°$",
+        "$84°$",
+        "$21°$",
+        "$138°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles in the same segment (subtended by the same arc $PS$2$∠PRS = ∠PQS = 42°$.\n\n**Common mistake:** The student might assume the angle at the circumference is half of the given angle or double it."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q15",
+      "type": "mcq",
+      "question": "A tangent meets a radius at the point of contact on the circumference. What is the size of the angle formed between them?",
+      "options": [
+        "$90°$",
+        "$180°$",
+        "$45°$",
+        "It depends on the circle size"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tangent to a circle is always perpendicular ($90°$) to the radius at the point of contact.\n\n**Common mistake:** A student might think the angle changes based on the gradient of the tangent."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q16",
+      "type": "mcq",
+      "question": "Which mathematical instrument is essential for drawing the arcs required to construct a perpendicular bisector?",
+      "options": [
+        "A pair of compasses",
+        "A protractor",
+        "A set square",
+        "A tracing paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "To construct a perpendicular bisector, you must draw two intersecting arcs from the endpoints of a line segment using a pair of compasses.\n\n**Common mistake:** A student might select a protractor, thinking that measuring a $90°$ angle is the standard method for a 'construction' question."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q17",
+      "type": "mcq",
+      "question": "If you construct an equilateral triangle using a ruler and compasses, what will be the size of each interior angle?",
+      "options": [
+        "$60°$",
+        "$90°$",
+        "$30°$",
+        "$180°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, an equilateral triangle has three equal sides and three equal angles of $60°$.\n\n**Common mistake:** The student might confuse the interior angle with the total sum of angles in a triangle."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q18",
+      "type": "mcq",
+      "question": "What is the primary purpose of bisecting a $60°$ angle in geometric construction?",
+      "options": [
+        "To create a $30°$ angle",
+        "To create a $90°$ angle",
+        "To create a $45°$ angle",
+        "To create a $15°$ angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bisecting an angle divides it into two equal parts; half of $60°$ is $30°$.\n\n**Common mistake:** The student might jump to $15°$ if they confuse the first bisection step with the second."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q19",
+      "type": "mcq",
+      "question": "To construct a $90°$ angle at a point on a line, which construction method is typically used?",
+      "options": [
+        "Perpendicular bisector",
+        "Angle bisector of a $120°$ angle",
+        "Constructing a scalene triangle",
+        "Constructing a pentagon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constructing the perpendicular bisector of a segment of the line creates two $90°$ angles at the intersection.\n\n**Common mistake:** Students may think they need to construct two $45°$ angles instead of starting with the perpendicular."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q20",
+      "type": "mcq",
+      "question": "When constructing a triangle with sides $a, b,$ and $c$2$a$ must have radii equal to which lengths?",
+      "options": [
+        "$b$2$c$",
+        "$a$2$b$",
+        "$a$2$c$",
+        "$a, b,$ and $c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the third vertex, you draw one arc of radius $b$2$a$2$c$ from the other end.\n\n**Common mistake:** A student might use the same radius for both arcs, resulting in an isosceles triangle regardless of the requested dimensions."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q21",
+      "type": "mcq",
+      "question": "Which 3D solid is formed by a net consisting of four equilateral triangles?",
+      "options": [
+        "A triangular pyramid (tetrahedron)",
+        "A square-based pyramid",
+        "A triangular prism",
+        "A cube"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tetrahedron is a 3D shape with four triangular faces. If all four triangles are equilateral and meet at vertices, they fold into a triangular pyramid.\n\n**Common mistake:** Students may confuse a triangular pyramid with a triangular prism, which requires two triangles and three rectangles."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q22",
+      "type": "mcq",
+      "question": "A cube net is composed of several identical squares. How many squares must the net contain?",
+      "options": [
+        "$6$",
+        "$4$",
+        "$8$",
+        "$12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, a cube has six square faces; therefore, its flattened net must consist of exactly six squares.\n\n**Common mistake:** A student might pick 12 by confusing the number of faces with the number of edges on a cube."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q23",
+      "type": "mcq",
+      "question": "In the net of a closed cuboid, how many pairs of identical rectangles are there?",
+      "options": [
+        "$3$ pairs",
+        "$2$ pairs",
+        "$6$ pairs",
+        "$0$ pairs"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cuboid has three pairs of opposite, identical faces (e.g., top/bottom, front/back, left/right).\n\n**Common mistake:** The student might think all six faces are unique or that only two faces are the same as in a square-based prism."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q24",
+      "type": "mcq",
+      "question": "Which shape's net consists of one rectangle and two congruent circles?",
+      "options": [
+        "A cylinder",
+        "A cone",
+        "A sphere",
+        "A prism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curved surface of a cylinder unrolls into a rectangle, while the two flat ends are circular.\n\n**Common mistake:** A student might choose a cone, which has a net consisting of a circle and a sector (not a rectangle)."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q25",
+      "type": "mcq",
+      "question": "If a net of a cube is arranged in a straight row of four squares with one square attached to the side of the second and one to the side of the third, what is this common net shape called?",
+      "options": [
+        "A T-shape net",
+        "A cross net",
+        "An L-shape net",
+        "A Z-shape net"
+      ],
+      "correctIndex": 1,
+      "explanation": "This arrangement, often called the 'Latin Cross' net, is the most common representation used to visualize a cube's faces.\n\n**Common mistake:** Students might call it a T-shape if the 'arms' are at the very top, but the standard centered arrangement is a cross."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q26",
+      "type": "mcq",
+      "question": "If vector $\\mathbf{a} = \\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$, calculate the resulting column vector for $3\\mathbf{a}$.",
+      "options": [
+        "$\\begin{pmatrix} 12 \\ -6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 7 \\ 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 12 \\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1.33 \\ -0.67 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To multiply a vector by a scalar, multiply each component of the column vector by the scalar: $3 \\times 4 = 12$ and $3 \\times -2 = -6$.\n\n**Common mistake:** A student might add the scalar to the components instead of multiplying, or only multiply the top component."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q27",
+      "type": "mcq",
+      "question": "Perform the following vector subtraction: $\\begin{pmatrix} 7 \\ 3 \\end{pmatrix} - \\begin{pmatrix} 2 \\ -5 \\end{pmatrix}$.",
+      "options": [
+        "$\\begin{pmatrix} 5 \\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 9 \\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ 2 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract the corresponding components: $7 - 2 = 5$ and $3 - (-5) = 3 + 5 = 8$.\n\n**Common mistake:** A common error is a sign mistake in the second component, calculating $3 - 5 = -2$ instead of $3 - (-5)$."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q28",
+      "type": "mcq",
+      "question": "Calculate the magnitude of the vector $\\mathbf{v} = \\begin{pmatrix} 6 \\ 8 \\end{pmatrix}$.",
+      "options": [
+        "$10$ units",
+        "$14$ units",
+        "$\\sqrt{14}$ units",
+        "$48$ units"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnitude is calculated using Pythagoras' theorem: $\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$.\n\n**Common mistake:** The student might add the components directly ($6 + 8 = 14$) instead of using the squares and square root."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q29",
+      "type": "mcq",
+      "question": "In the diagram, $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{BA}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "options": [
+        "$\\mathbf{a} - \\mathbf{b}$",
+        "$\\mathbf{b} - \\mathbf{a}$",
+        "$\\mathbf{a} + \\mathbf{b}$",
+        "$-\\mathbf{a} - \\mathbf{b}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To go from $B$2$A$2$B \\to O \\to A$2$-\\vec{OB} + \\vec{OA} = -\\mathbf{b} + \\mathbf{a}$, or $\\mathbf{a} - \\mathbf{b}$.\n\n**Common mistake:** Students often reverse the subtraction order, incorrectly choosing $\\mathbf{b} - \\mathbf{a}$ (which is $\\vec{AB}$)."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q30",
+      "type": "mcq",
+      "question": "Which of the following vectors is parallel to $\\begin{pmatrix} 3 \\ -1 \\end{pmatrix}$?",
+      "options": [
+        "$\\begin{pmatrix} 9 \\ -3 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -3 \\ 1 \\end{pmatrix}$ is the only one",
+        "$\\begin{pmatrix} 1 \\ -3 \\end{pmatrix}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel vectors are scalar multiples of each other. $\\begin{pmatrix} 9 \\ -3 \\end{pmatrix} = 3 \\times \\begin{pmatrix} 3 \\ -1 \\end{pmatrix}$.\n\n**Common mistake:** A student might select a vector with the same numbers in a different order or ignore the scale factor."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q31",
+      "type": "mcq",
+      "question": "A point $P(4, 7)$ is reflected in the $y$-axis. State the coordinates of its image.",
+      "options": [
+        "$(-4, 7)$",
+        "$(4, -7)$",
+        "$(-4, -7)$",
+        "$(7, 4)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection in the $y$2$x = 0$) changes the sign of the $x$2$y$-coordinate remains the same.\n\n**Common mistake:** A student might reflect in the $x$2$y$2$(4, -7)$."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q32",
+      "type": "mcq",
+      "question": "Describe the movement represented by the translation vector $\\begin{pmatrix} -5 \\ 2 \\end{pmatrix}$.",
+      "options": [
+        "5 units left and 2 units up",
+        "5 units right and 2 units up",
+        "5 units left and 2 units down",
+        "2 units left and 5 units up"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a column vector, the top number represents horizontal movement (negative is left) and the bottom number represents vertical movement (positive is up).\n\n**Common mistake:** The student might confuse the $x$2$y$ components or misinterpret the negative sign as a downward movement."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q33",
+      "type": "mcq",
+      "question": "A triangle with an area of $10$ cm $2$ is enlarged by a scale factor of $3$. What is the area of the resulting image?",
+      "options": [
+        "$90$ cm $2$",
+        "$30$ cm $2$",
+        "$100$ cm $2$",
+        "$60$ cm $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a shape is enlarged by scale factor $k$2$k^2$. Here, $10 \\times 3^2 = 10 \\times 9 = 90$.\n\n**Common mistake:** A common error is multiplying the area by the scale factor directly ($10 \\times 3 = 30$) instead of the square of the scale factor."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q34",
+      "type": "mcq",
+      "question": "Identify the coordinates of the image of $(2, 3)$ after a $180°$ rotation about the origin $(0, 0)$.",
+      "options": [
+        "$(-2, -3)$",
+        "$(3, 2)$",
+        "$(-3, -2)$",
+        "$(2, -3)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A $180°$ rotation about the origin maps any point $(x, y)$ to $(-x, -y)$.\n\n**Common mistake:** The student might confuse this with a $90°$ rotation and swap the coordinates."
+    },
+    {
+      "id": "ch04-geometry-transformations-easy-q35",
+      "type": "mcq",
+      "question": "Which of the following describes an enlargement that results in an image smaller than the original object?",
+      "options": [
+        "Scale factor $0.4$",
+        "Scale factor $-2$",
+        "Scale factor $1.5$",
+        "Scale factor $-1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "An enlargement with a scale factor between $0$ and $1$ (or $-1$ and $0$) results in a reduction of the object's size.\n\n**Common mistake:** A student might think a negative scale factor like $-2$ means the image is smaller, whereas it actually indicates the image is on the opposite side of the center and larger."
+    }
+  ]
+}

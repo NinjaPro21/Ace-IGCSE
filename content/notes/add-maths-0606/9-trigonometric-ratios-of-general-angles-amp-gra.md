@@ -4,11 +4,14 @@ Trigonometric functions extend beyond right-angled triangles to encompass any an
 
 ## Key formulas
 
-$$\text{ASTC Rule: Q1 (All), Q2 (Sine), Q3 (Tangent), Q4 (Cosine)}$$
+$$
+\text{ASTC Rule: Q1 (All), Q2 (Sine), Q3 (Tangent), Q4 (Cosine)}
 
-$$\text{Base Periods: } y = \sin x \, (360^\circ / 2\pi), \quad y = \cos x \, (360^\circ / 2\pi), \quad y = \tan x \, (180^\circ / \pi)$$
+\text{Base Periods: } y = \sin x \, (360^\circ / 2\pi), \quad y = \cos x \, (360^\circ / 2\pi), \quad y = \tan x \, (180^\circ / \pi)
 
-$$\text{Transformed Period for } \sin(bx) = \frac{360^\circ}{|b|} \text{ or } \frac{2\pi}{|b|}$$
+\text{Transformed Period for } \sin(bx) = \frac{360^\circ}{|b|} \text{ or } \frac{2\pi}{|b|}
+$$
+
 
 ## Steps / method
 
@@ -38,7 +41,9 @@ Sine is positive in Q2, so $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$.
 
 Find the period of $y = \sin 3x$ in radians.
 
-$$\text{Period} = \frac{2\pi}{|b|} = \frac{2\pi}{3}$$
+$$
+\text{Period} = \frac{2\pi}{|b|} = \frac{2\pi}{3}
+$$
 
 ## Examiner tip
 
@@ -47,7 +52,3 @@ When graphing trigonometric functions, always label your key boundary axis point
 ## Quick check
 
 If an angle lies in the third quadrant (between $180^\circ$ and $270^\circ$), then its tangent ratio is positive, while its sine and cosine ratios are negative.
-
-## Visual / interactive intent
-
-Reuse explorer: Trig demo. A unit circle on the left connects directly to a wave graph on the right. Dragging a vector around the circle traces out the sine or cosine wave, changing quadrant background colors to highlight the ASTC rule.

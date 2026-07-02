@@ -1,0 +1,402 @@
+{
+  "id": "ch16-electrical-quantities-easy",
+  "topicId": "ch16-electrical-quantities",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "easy",
+  "title": "Chapter 16: Electrical Quantities — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch16-electrical-quantities-easy-q1",
+      "type": "mcq",
+      "question": "What is the scientific definition of electric current?",
+      "options": [
+        "The rate of flow of electric charge",
+        "The total amount of energy in a circuit",
+        "The force that pushes electrons through a wire",
+        "The resistance of a material to the flow of charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, electric current is related to the flow of charge, specifically the rate at which charge passes a point. \n\n**Common mistake:** Confusing current with electromotive force (the 'push')."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for electric current?",
+      "options": [
+        "ampere (A)",
+        "coulomb (C)",
+        "volt (V)",
+        "ohm ($u03a9$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit for current is the ampere, often shortened to amp (A). \n\n**Common mistake:** Choosing the coulomb, which is the unit for electric charge (Q)."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q3",
+      "type": "mcq",
+      "question": "Which instrument is specifically used to measure the electric current in a circuit?",
+      "options": [
+        "Ammeter",
+        "Voltmeter",
+        "Ohmmeter",
+        "Barometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states that an ammeter is used to measure the current flowing through a circuit component. \n\n**Common mistake:** Selecting a voltmeter, which measures potential difference."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q4",
+      "type": "mcq",
+      "question": "In which direction does conventional current flow in a circuit?",
+      "options": [
+        "From the positive terminal to the negative terminal",
+        "From the negative terminal to the positive terminal",
+        "In both directions simultaneously",
+        "It depends on whether the circuit is a.c. or d.c."
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that conventional current is considered to flow from the positive terminal to the negative terminal. \n\n**Common mistake:** Thinking current flows from negative to positive, which describes the actual flow of electrons."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q5",
+      "type": "mcq",
+      "question": "What is the SI unit for electric charge?",
+      "options": [
+        "coulomb (C)",
+        "ampere (A)",
+        "joule (J)",
+        "watt (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric charge (Q) is measured in coulombs (C). \n\n**Common mistake:** Confusing the unit of charge with the unit of energy (joule)."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q6",
+      "type": "mcq",
+      "question": "Which of the following correctly identifies the two types of electric charges?",
+      "options": [
+        "Positive and negative",
+        "North and south",
+        "Left and right",
+        "Neutral and static"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, there are two types of electric charges: positive and negative. \n\n**Common mistake:** Confusing electric charges with magnetic poles (North and South)."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q7",
+      "type": "mcq",
+      "question": "What happens when two positive charges are brought close to each other?",
+      "options": [
+        "They repel each other.",
+        "They attract each other.",
+        "They cancel each other out and become neutral.",
+        "Nothing happens unless they are in a vacuum."
+      ],
+      "correctIndex": 0,
+      "explanation": "The Law of Charges states that like charges repel each other. \n\n**Common mistake:** Thinking that 'opposite' poles attract applies to everything, including similar charges."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q8",
+      "type": "mcq",
+      "question": "A physical quantity is described as having an equal number of protons and electrons. How is this state described?",
+      "options": [
+        "Electrically neutral",
+        "Positively charged",
+        "Negatively charged",
+        "Magnetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that objects containing an equal number of protons and electrons are electrically neutral. \n\n**Common mistake:** Thinking 'neutral' means the object has no particles at all."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q9",
+      "type": "mcq",
+      "question": "Which of these materials is an example of an electrical conductor?",
+      "options": [
+        "Copper rod",
+        "Glass rod",
+        "Ebonite rod",
+        "Polythene rod"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the experiment shown in Figure 16.6, a copper rod allows electricity to flow, lighting the lamp. \n\n**Common mistake:** Selecting a glass or ebonite rod, which are standard examples of insulators."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q10",
+      "type": "mcq",
+      "question": "What is the primary method described for producing static electricity on the surface of an insulator?",
+      "options": [
+        "Friction (rubbing)",
+        "Heating the material",
+        "Magnetising the material",
+        "Submerging the material in water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static electricity is due to the build-up of charges on the surfaces of insulators, typically caused by friction between two different materials. \n\n**Common mistake:** Confusing charging by friction with simple contact."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q11",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of an electric field?",
+      "options": [
+        "A region in which an electric charge experiences a force",
+        "A region where magnetic materials experience a force",
+        "The flow of electrons through a metal conductor",
+        "The energy provider in a complete circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electric field is defined as a region in which an electric charge experiences a force. A magnetic field affects magnetic materials, and electron flow is electric current.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q12",
+      "type": "mcq",
+      "question": "In which direction do electric field lines always point near a positive point charge?",
+      "options": [
+        "Radially away from the charge",
+        "Radially towards the charge",
+        "In concentric circles around the charge",
+        "From the south pole to the north pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric field lines are directed away from a positive charge. Direction towards the charge describes a negative charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q13",
+      "type": "mcq",
+      "question": "What determines the direction of an electric field at a specific point?",
+      "options": [
+        "The direction of the force on a positive charge at that point",
+        "The direction of the force on a negative charge at that point",
+        "The direction of the conventional current flow",
+        "The direction of the electron flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The direction of an electric field at a point is defined as the direction of the force on a positive charge at that point.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q14",
+      "type": "mcq",
+      "question": "How is the strength of an electric field represented in a field line diagram?",
+      "options": [
+        "By the spacing of the field lines",
+        "By the length of the arrows",
+        "By the thickness of the lines",
+        "By the colour of the charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Just like magnetic fields, the spacing of the lines indicates the strength of the field; closer lines represent a stronger field.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q15",
+      "type": "mcq",
+      "question": "Which direction do electric field lines point for an isolated negative charge?",
+      "options": [
+        "Directed towards the negative charge",
+        "Directed away from the negative charge",
+        "Parallel to the surface of the charge",
+        "They do not have a specific direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric field lines are directed towards a negative charge. This is because they show the direction of force on a positive test charge, which would be attracted.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q16",
+      "type": "mcq",
+      "question": "What is the SI unit for both electromotive force (e.m.f.) and potential difference (p.d.)?",
+      "options": [
+        "Volt (V)",
+        "Ampere (A)",
+        "Ohm ($Omega$)",
+        "Coulomb (C)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both electromotive force (e.m.f.) and potential difference (p.d.) are measured in volts (V). The ampere is for current, the ohm for resistance, and the coulomb for charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q17",
+      "type": "mcq",
+      "question": "Which term describes the work done by a source, such as a battery, in moving a unit charge around a complete circuit?",
+      "options": [
+        "Electromotive force (e.m.f.)",
+        "Potential difference (p.d.)",
+        "Electric current",
+        "Resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electromotive force (e.m.f.) is defined as the work done by a source in moving a unit charge around a complete circuit. Potential difference refers to work done across a specific component.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q18",
+      "type": "mcq",
+      "question": "How is a voltmeter connected in a circuit to measure the potential difference across a lamp?",
+      "options": [
+        "In parallel with the lamp",
+        "In series with the lamp",
+        "Between the source and the switch",
+        "Directly to the negative terminal only"
+      ],
+      "correctIndex": 0,
+      "explanation": "To measure the potential difference across a component, the voltmeter must be connected in parallel with that component.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q19",
+      "type": "mcq",
+      "question": "The e.m.f. of a dry cell is $1.5\\text{ V}$. How much energy is provided by the cell to drive $0.4\\text{ C}$ of charge around a circuit?",
+      "options": [
+        "$0.6\\text{ J}$",
+        "$3.75\\text{ J}$",
+        "$1.1\\text{ J}$",
+        "$1.9\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $W = E \\times Q$, we get $W = 1.5\\text{ V} \\times 0.4\\text{ C} = 0.6\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q20",
+      "type": "mcq",
+      "question": "Which equation correctly relates potential difference ($V$), work done ($W$), and charge ($Q$)?",
+      "options": [
+        "$V = W / Q$",
+        "$V = W \\times Q$",
+        "$V = Q / W$",
+        "$V = I \\times t / Q$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potential difference is defined as the work done per unit charge, so $V = W / Q$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q21",
+      "type": "mcq",
+      "question": "What is the SI unit for electrical resistance?",
+      "options": [
+        "ohm ($Omega$)",
+        "ampere (A)",
+        "volt (V)",
+        "coulomb (C)"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, resistance (R) is measured in ohms ($Omega$). \n\n**Common mistake:** Selecting the ampere, which is the unit for electric current."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q22",
+      "type": "mcq",
+      "question": "Which of the following equations correctly defines the resistance $R$ of a component?",
+      "options": [
+        "$R = V / I$",
+        "$R = V \\times I$",
+        "$R = I / V$",
+        "$R = V + I$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The resistance of a component is defined as the potential difference $V$ across it divided by the current $I$ flowing through it ($R = V/I$). \n\n**Common mistake:** Thinking resistance is the product of voltage and current."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q23",
+      "type": "mcq",
+      "question": "What does a straight line passing through the origin on a current-voltage ($I-V$) graph indicate about a conductor?",
+      "options": [
+        "The conductor has a constant resistance.",
+        "The resistance of the conductor is zero.",
+        "The conductor is a filament lamp.",
+        "The resistance increases as voltage increases."
+      ],
+      "correctIndex": 0,
+      "explanation": "A straight-line $I-V$ graph through the origin represents an ohmic conductor, where the ratio of $V$ to $I$ (resistance) remains constant. \n\n**Common mistake:** Confusing this with a filament lamp, which has a curved graph."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q24",
+      "type": "mcq",
+      "question": "If the resistance of a circuit component is increased, what happens to the current flowing through it, assuming the potential difference remains constant?",
+      "options": [
+        "The current decreases.",
+        "The current increases.",
+        "The current remains the same.",
+        "The current becomes alternating current (a.c.)."
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is the opposition to the flow of charge. As stated in the 'Quick Check' section, a higher resistance means it is harder for current to flow. \n\n**Common mistake:** Thinking voltage and current always increase together regardless of resistance."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q25",
+      "type": "mcq",
+      "question": "Which two instruments are typically used together in an experiment to determine the resistance of a wire?",
+      "options": [
+        "Ammeter and voltmeter",
+        "Ammeter and ohmmeter",
+        "Voltmeter and galvanometer",
+        "Barometer and stopwatch"
+      ],
+      "correctIndex": 0,
+      "explanation": "To determine resistance experimentally, an ammeter measures the current through the component and a voltmeter measures the potential difference across it. \n\n**Common mistake:** Using only a voltmeter, which cannot measure current."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q26",
+      "type": "mcq",
+      "question": "What is the SI unit of electrical power?",
+      "options": [
+        "Watt (W)",
+        "Joule (J)",
+        "Volt (V)",
+        "Ampere (A)"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the watt (W) is the SI unit for power. The joule is the unit for energy.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q27",
+      "type": "mcq",
+      "question": "Which formula correctly relates electrical power ($P$), current ($I$), and potential difference ($V$)?",
+      "options": [
+        "$P = IV$",
+        "$P = I / V$",
+        "$P = V / I$",
+        "$P = I + V$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is defined as the product of the current and the potential difference, derived from substituting energy and charge equations.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q28",
+      "type": "mcq",
+      "question": "What is the SI unit of energy?",
+      "options": [
+        "Joule (J)",
+        "Watt (W)",
+        "Kilowatt-hour (kWh)",
+        "Coulomb (C)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit of energy is the joule (J). The kilowatt-hour is a larger unit of energy used specifically for commercial electricity bills.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q29",
+      "type": "mcq",
+      "question": "What is the definition of a kilowatt-hour (kWh)?",
+      "options": [
+        "The energy transferred to an appliance of power $1\\text{ kW}$ in $1\\text{ hour}$",
+        "The power used by a $1000\\text{ W}$ appliance in $1\\text{ second}$",
+        "The total voltage supplied to a house in one month",
+        "The current flowing through a $1000\\text{ }Omega$ resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define the kilowatt-hour (kWh) as the unit of energy representing the amount transferred to a $1\\text{ kW}$ appliance over the duration of $1\\text{ hour}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-easy-q30",
+      "type": "mcq",
+      "question": "If a $12\\text{ V}$ battery delivers a current of $2.0\\text{ A}$ to a motor, what is the power supplied?",
+      "options": [
+        "$24\\text{ W}$",
+        "$6\\text{ W}$",
+        "$0.16\\text{ W}$",
+        "$14\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $P = IV$, we calculate $12\\text{ V} \\times 2.0\\text{ A} = 24\\text{ W}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

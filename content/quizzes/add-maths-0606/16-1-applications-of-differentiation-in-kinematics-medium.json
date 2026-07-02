@@ -1,0 +1,77 @@
+{
+  "id": "16-1-applications-of-differentiation-in-kinematics-medium",
+  "topicId": "16-1-applications-of-differentiation-in-kinematics",
+  "chapterId": "ch16-kinematics",
+  "difficulty": "medium",
+  "title": "Applications of differentiation in kinematics — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-medium-q1",
+      "type": "mcq",
+      "question": "A particle moves such that $s = t^3 - 12t + 4$. Find the acceleration of the particle at the instant it is at rest for $t > 0$.",
+      "options": [
+        "$12$ m/s^2",
+        "$6$ m/s^2",
+        "$0$ m/s^2",
+        "$18$ m/s^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = 3t^2 - 12 = 0 \\implies t = 2$. $a = \\frac{dv}{dt} = 6t$2$t = 2$, $a = 6(2) = 12$.\n\n**Common mistake:** Option B is the value of the acceleration at $t=1$ or just the coefficient $6t$ before substitution."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-medium-q2",
+      "type": "mcq",
+      "question": "The displacement of a particle is $s = 4e^{0.5t}$. Find the velocity of the particle when $t = 2$.",
+      "options": [
+        "$2e$",
+        "$4e$",
+        "$2$",
+        "$e$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = \\frac{ds}{dt} = 4(0.5)e^{0.5t} = 2e^{0.5t}$. At $t = 2$, $v = 2e^1 = 2e$.\n\n**Common mistake:** Option B results from forgetting the $0.5$ multiplier from the chain rule derivative of the exponent."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-medium-q3",
+      "type": "mcq",
+      "question": "A particle $P$2$v = \\sin(2t)$. Find the acceleration when $t = \\frac{\\pi}{6}$.",
+      "options": [
+        "$1$",
+        "$\\sqrt{3}$",
+        "$2$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$a = \\frac{dv}{dt} = 2\\cos(2t)$. At $t = \\frac{\\pi}{6}$, $a = 2\\cos(\\frac{\\pi}{3}) = 2(0.5) = 1$.\n\n**Common mistake:** Option B is chosen if the student incorrectly evaluates the cosine of the angle as $\\sqrt{3}/2$ but forgets the multiplier^2."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-medium-q4",
+      "type": "mcq",
+      "question": "The displacement is given by $s = t^2(t - 3)$. Find the velocity when the acceleration is zero.",
+      "options": [
+        "$-3$ m/s",
+        "$0$ m/s",
+        "$3$ m/s",
+        "$-4$ m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$s = t^3 - 3t^2 \\implies v = 3t^2 - 6t \\implies a = 6t - 6$. $a = 0 \\implies t = 1$. At $t = 1, v = 3(1) - 6(1) = -3$.\n\n**Common mistake:** Option B is a stationary point of displacement (rest), but not where acceleration is zero."
+    },
+    {
+      "id": "16-1-applications-of-differentiation-in-kinematics-medium-q5",
+      "type": "mcq",
+      "question": "Find the minimum velocity of a particle moving with displacement $s = \\frac{1}{3}t^3 - 2t^2 + 5t$.",
+      "options": [
+        "$1$ m/s",
+        "$5$ m/s",
+        "$0$ m/s",
+        "$2$ m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$v = t^2 - 4t + 5$. To find min $v$2$\\frac{dv}{dt} = a = 2t - 4 = 0 \\implies t = 2$. $v(2) = 4 - 8 + 5 = 1$.\n\n**Common mistake:** Option B is the initial velocity at $t=0$."
+    }
+  ]
+}

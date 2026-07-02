@@ -1,0 +1,77 @@
+{
+  "id": "10-1-any-angle-medium",
+  "topicId": "10-1-any-angle",
+  "chapterId": "ch05-trigonometry",
+  "difficulty": "medium",
+  "title": "Any Angle — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-1-any-angle-medium-q1",
+      "type": "mcq",
+      "question": "Solve the equation $\\tan x = 0.5$ for the interval $0° \\le x \\le 360°$. One solution is $26.6°$. Find the second solution.",
+      "options": [
+        "$206.6°$",
+        "$153.4°$",
+        "$333.4°$",
+        "$26.6°$ is the only solution"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the tangent function, additional solutions are found by adding or subtracting multiples of $180°$. $26.6 + 180 = 206.6°$.\n\n**Common mistake:** A student might use the sine symmetry rule and calculate $180 - 26.6 = 153.4°$."
+    },
+    {
+      "id": "10-1-any-angle-medium-q2",
+      "type": "mcq",
+      "question": "If $\\cos 20° = 0.940$, find the two angles between $0°$ and $360°$ where the cosine value is $-0.940$.",
+      "options": [
+        "$160°$ and $200°$",
+        "$110°$ and $250°$",
+        "$20°$ and $340°$",
+        "$160°$ and $340°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cosine is negative in the 2nd and 3rd quadrants. The angles are $180 - 20 = 160°$ and $180 + 20 = 200°$.\n\n**Common mistake:** The student might only find one solution or use $360 - 20 = 340°$, which still results in a positive $0.940$."
+    },
+    {
+      "id": "10-1-any-angle-medium-q3",
+      "type": "mcq",
+      "question": "Calculate the exact value of $\\sin 225°$ without a calculator.",
+      "options": [
+        "$-1/\\sqrt{2}$",
+        "$1/\\sqrt{2}$",
+        "$-1/2$",
+        "$-\\sqrt{3}/2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin 225° = \\sin(180° + 45°) = -\\sin 45°$. The exact value of $\\sin 45°$ is $1/\\sqrt{2}$, so the result is $-1/\\sqrt{2}$.\n\n**Common mistake:** The student might forget that sine is negative in the third quadrant."
+    },
+    {
+      "id": "10-1-any-angle-medium-q4",
+      "type": "mcq",
+      "question": "Given $\\sin x = -0.75$ and $0° \\le x \\le 360°$, find the two possible values of $x$ to 1 decimal place.",
+      "options": [
+        "$228.6°$ and $311.4°$",
+        "$48.6°$ and $131.4°$",
+        "$228.6°$ and $131.4°$",
+        "$221.4°$ and $318.6°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\sin^{-1}$(-0.75) \\approx -48.6°$. In the required range, the solutions are$180 - (-48.6) = 228.6°$and$360 + (-48.6) = 311.4°2\n\n**Common mistake:** Students often struggle with inverse sine returning a negative value and fail to map it correctly to the $0-360$ range."
+    },
+    {
+      "id": "10-1-any-angle-medium-q5",
+      "type": "mcq",
+      "question": "Simplify the expression $\\tan 240°$ to an exact value using your knowledge of trigonometric symmetries.",
+      "options": [
+        "$\\sqrt{3}$",
+        "$1/\\sqrt{3}$",
+        "$-\\sqrt{3}$",
+        "$-1/\\sqrt{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan(x + 180°) = \\tan x$2$\\tan 240° = \\tan(60° + 180°) = \\tan 60° = \\sqrt{3}$.\n\n**Common mistake:** A student might assume tangent is negative in the third quadrant, but it is actually positive because both sine and cosine are negative."
+    }
+  ]
+}

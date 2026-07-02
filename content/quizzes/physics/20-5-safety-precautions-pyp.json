@@ -1,0 +1,77 @@
+{
+  "id": "20-5-safety-precautions-pyp",
+  "topicId": "20-5-safety-precautions",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "pyp",
+  "title": "Safety Precautions — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-5-safety-precautions-pyp-q1",
+      "type": "mcq",
+      "question": "A radioactive chemical decays by emitting beta ($beta$) particles and gamma ($gamma$) rays. What type of material should be used for the container to ensure safety?",
+      "options": [
+        "Lead",
+        "Plastic",
+        "Cardboard",
+        "Aluminium"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from Review Section A, Question 10. Only lead provides sufficient shielding for gamma rays. \n\n**Common mistake:** Selecting aluminium, which can stop beta but not gamma."
+    },
+    {
+      "id": "20-5-safety-precautions-pyp-q2",
+      "type": "mcq",
+      "question": "In a safety experiment, the radiation count rate is measured at different distances from a source. Which graph correctly shows how the risk from radiation changes with distance?nn[Scenario: Count rate decreases as distance increases]",
+      "options": [
+        "A curve starting high and sloping downwards towards the x-axis",
+        "A straight line starting at the origin and sloping upwards",
+        "A horizontal line showing constant count rate",
+        "A vertical line at a fixed distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "As distance increases, the radiation intensity (and therefore count rate and risk) decreases. This is represented by a downward sloping curve. \n\n**Common mistake:** Selecting the upward line, which would mean it gets more dangerous as you move away."
+    },
+    {
+      "id": "20-5-safety-precautions-pyp-q3",
+      "type": "mcq",
+      "question": "According to the Review Section, why should long tongs be used when handling radioactive sources?",
+      "options": [
+        "To minimise the dose of radiation to the hands by increasing distance.",
+        "Because radioactive sources are always very hot to the touch.",
+        "To prevent the source from being contaminated by oils from the skin.",
+        "Because the sources are too small to be picked up by fingers."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Question 3(c), tongs are a distance-increasing safety measure to reduce the radiation dose to the user. \n\n**Common mistake:** Thinking the main concern is 'contamination' rather than 'exposure'."
+    },
+    {
+      "id": "20-5-safety-precautions-pyp-q4",
+      "type": "mcq",
+      "question": "Which of the following is listed in the sources as a way to control exposure to ionising radiation?",
+      "options": [
+        "Using shielding",
+        "Increasing the temperature of the lab",
+        "Washing the source with water",
+        "Keeping the source in a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'Let's Practise 20.5' answers list 'Time, Distance, and Shielding' as the three ways to control exposure. \n\n**Common mistake:** Thinking environmental changes like temperature or vacuum affect radiation safety."
+    },
+    {
+      "id": "20-5-safety-precautions-pyp-q5",
+      "type": "mcq",
+      "question": "A table shows the effect of different materials on the count rate from a source. Which material is the best shield?nn| Material | Count rate (counts/min) |n| :--- | :--- |n| No shield | 500 |n| Paper | 498 |n| Aluminium ($5\\text{ mm}$) | 350 |n| Lead ($10\\text{ mm}$) | 40 |",
+      "options": [
+        "Lead ($10\\text{ mm}$)",
+        "Aluminium ($5\\text{ mm}$)",
+        "Paper",
+        "No shield"
+      ],
+      "correctIndex": 0,
+      "explanation": "The best shield results in the lowest count rate being detected. Lead reduced the rate from 500 to 40. \n\n**Common mistake:** Choosing 'No shield' because it has the 'highest' number."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "12-5-ray-diagrams-for-thin-converging-lenses-medium",
+  "topicId": "12-5-ray-diagrams-for-thin-converging-lenses",
+  "chapterId": "ch12-light",
+  "difficulty": "medium",
+  "title": "Ray Diagrams for Thin Converging Lenses — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-medium-q1",
+      "type": "mcq",
+      "question": "An object is placed at a distance of $2f$ from a thin converging lens. What are the characteristics of the image formed?",
+      "options": [
+        "Real, inverted, and same size as the object.",
+        "Real, upright, and diminished.",
+        "Virtual, upright, and magnified.",
+        "Real, inverted, and magnified."
+      ],
+      "correctIndex": 0,
+      "explanation": "When the object distance $u = 2f$, the image is formed at $v = 2f$ on the other side and is real, inverted, and the same size. \n\n**Common mistake:** Thinking the image is diminished, which only happens if $u > 2f$."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-medium-q2",
+      "type": "mcq",
+      "question": "A student uses a converging lens as a magnifying glass. Where must the object be placed relative to the lens?",
+      "options": [
+        "Between the focal point and the lens.",
+        "At exactly the focal point.",
+        "Between $f$ and $2f$.",
+        "Beyond $2f$."
+      ],
+      "correctIndex": 0,
+      "explanation": "For a lens to act as a magnifying glass, it must produce a virtual, upright, and magnified image, which requires the object distance $u < f$. \n\n**Common mistake:** Placing it between $f$ and $2f$, which produces a real magnified image (like a projector)."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-medium-q3",
+      "type": "mcq",
+      "question": "A lens has a focal length of $10\\text{ cm}$. If an object is placed $15\\text{ cm}$ away from the lens, what type of image is produced?",
+      "options": [
+        "Real, inverted, and magnified.",
+        "Real, inverted, and diminished.",
+        "Virtual, upright, and magnified.",
+        "Virtual, inverted, and same size."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $10\\text{ cm} < 15\\text{ cm} < 20\\text{ cm}$ (between $f$ and $2f$), the image is real, inverted, and magnified. \n\n**Common mistake:** Assuming all real images are diminished."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-medium-q4",
+      "type": "mcq",
+      "question": "Which of the following describes the change in image characteristics as an object is moved from $2f$ further away from the lens?",
+      "options": [
+        "The image remains real and inverted but becomes smaller.",
+        "The image becomes virtual and upright.",
+        "The image remains the same size but moves closer to the lens.",
+        "The image becomes magnified and moves further from the lens."
+      ],
+      "correctIndex": 0,
+      "explanation": "When $u > 2f$, the image is real, inverted, and diminished. Moving further away makes it even smaller. \n\n**Common mistake:** Thinking the image becomes virtual at large distances."
+    },
+    {
+      "id": "12-5-ray-diagrams-for-thin-converging-lenses-medium-q5",
+      "type": "mcq",
+      "question": "A converging lens forms a real, inverted, and diminished image. What is a common application for this setup?",
+      "options": [
+        "A camera",
+        "A magnifying glass",
+        "A slide projector",
+        "A spotlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cameras use lenses to form diminished real images on a sensor or film from objects located beyond $2f$. \n\n**Common mistake:** Selecting a slide projector, which forms a magnified real image."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "7-1-pressure-pyp",
+  "topicId": "7-1-pressure",
+  "chapterId": "ch07-pressure",
+  "difficulty": "pyp",
+  "title": "Pressure — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-1-pressure-pyp-q1",
+      "type": "mcq",
+      "question": "The diagram shows a box of weight $50\\text{ N}$ with dimensions $0.1\\text{ m} \\times 0.2\\text{ m} \\times 0.4\\text{ m}$. What is the maximum pressure the box can exert on a table?",
+      "options": [
+        "$2500\\text{ Pa}$",
+        "$625\\text{ Pa}$",
+        "$1250\\text{ Pa}$",
+        "$500\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smallest area $= 0.1 \\times 0.2 = 0.02\\text{ m}^2$. Max pressure $= 50 / 0.02 = 2500\\text{ Pa}$. \n\n**Common mistake:** Calculating pressure using the largest face ($0.2 \\times 0.4 = 0.08 rightarrow 625\\text{ Pa}$)."
+    },
+    {
+      "id": "7-1-pressure-pyp-q2",
+      "type": "mcq",
+      "question": "Which set of conditions will produce the highest pressure on a surface?",
+      "options": [
+        "Large force acting on a small area",
+        "Large force acting on a large area",
+        "Small force acting on a small area",
+        "Small force acting on a large area"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure is directly proportional to force and inversely proportional to area. Therefore, a large force on a small area creates the maximum pressure. \n\n**Common mistake:** Thinking a large area is required for high pressure."
+    },
+    {
+      "id": "7-1-pressure-pyp-q3",
+      "type": "mcq",
+      "question": "A table has a mass of $20\\text{ kg}$. It has four identical legs, each with a contact area of $0.001\\text{ m}^2$. What is the pressure exerted by each leg on the floor? (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$50000\\text{ Pa}$",
+        "$200000\\text{ Pa}$",
+        "$5000\\text{ Pa}$",
+        "$20000\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total weight $= 200\\text{ N}$. Weight per leg $= 200 / 4 = 50\\text{ N}$. Pressure per leg $= 50 / 0.001 = 50000\\text{ Pa}$. \n\n**Common mistake:** Using the total weight ($200$) for a single leg ($200000$)."
+    },
+    {
+      "id": "7-1-pressure-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the relationship between force, area, and pressure?",
+      "options": [
+        "Force: Increase; Area: Same; Pressure: Increase",
+        "Force: Decrease; Area: Same; Pressure: Increase",
+        "Force: Same; Area: Increase; Pressure: Increase",
+        "Force: Increase; Area: Increase; Pressure: Same"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the 'Let's Map It' section, for the same area, the greater the force, the greater the pressure. \n\n**Common mistake:** Thinking increasing area increases pressure."
+    },
+    {
+      "id": "7-1-pressure-pyp-q5",
+      "type": "mcq",
+      "question": "A graph is plotted with Pressure ($y$-axis) against Area ($x$-axis) for a constant applied force. Which shape will the graph have?",
+      "options": [
+        "A curve that decreases as area increases",
+        "A straight line through the origin",
+        "A horizontal straight line",
+        "A vertical straight line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $p = F / A$, $p$ and $A$ are inversely proportional. This results in a hyperbola (decreasing curve). \n\n**Common mistake:** Thinking it is a straight line, which only happens if pressure is plotted against $1/Area$."
+    }
+  ]
+}

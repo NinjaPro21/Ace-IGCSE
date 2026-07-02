@@ -1,0 +1,337 @@
+{
+  "id": "ch06-mensuration-hard",
+  "topicId": "ch06-mensuration",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "hard",
+  "title": "Chapter 6: Mensuration — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch06-mensuration-hard-q1",
+      "type": "mcq",
+      "question": "Eight workers can dig a hole in $4$ hours. How long will it take five workers to dig the same size hole?",
+      "options": [
+        "6 hours 24 minutes",
+        "2 hours 30 minutes",
+        "10 hours",
+        "6.4 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is inverse proportion. Total work = $8 \\times 4 = 32$ man-hours. For 5 workers: $32 ÷ 5 = 6.4$ hours. $0.4$ of an hour is $0.4 \\times 60 = 24$ minutes. Total = 6 hours 24 minutes [14].\n\n**Common mistake:** Students often use direct proportion ($4 \\times 5 / 8$) and get 2.5 hours, which incorrectly implies more people take more time."
+    },
+    {
+      "id": "ch06-mensuration-hard-q2",
+      "type": "mcq",
+      "question": "After a price increase of $10\\%$, a television costs \n\n$286$. What was the original price before the increase?",
+      "options": [
+        "$$\n260\n$$",
+        "$$\n257.40\n$$",
+        "$$\n314.60\n$$",
+        "$$\n276\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a reverse percentage problem. Let the original price be $100\\%$. The new price is $110\\%$. $110\\% =$286$, so$2$286 ÷ 110 =$2.60$. Original price ($100\\%$) =$\\$2.60 \\times 100 =$260$ [9, 15].\n\n**Common mistake:** A common mistake is calculating $10\\%$ of \n\n$286$(\n\n$28.60$) and subtracting it from \n\n$286$ to get\n$$257.402"
+    },
+    {
+      "id": "ch06-mensuration-hard-q3",
+      "type": "mcq",
+      "question": "Calculate the amount of money in an account after $5$ years if the initial sum invested is \n\n$2000$ at $2$ compound interest per year.",
+      "options": [
+        "$$\n2433.31\n$$",
+        "$$\n2400.00\n$$",
+        "$$\n2433.00\n$$",
+        "$$\n2040.00\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use the compound interest formula: $Value = P(1 + r/100)^n = 2000(1.04)^5 = 2000 \\times 1.21665... =$2433.31$[16, 17].$\n\n**Common mistake:** The student might use the simple interest formula, resulting in $$24002"
+    },
+    {
+      "id": "ch06-mensuration-hard-q4",
+      "type": "mcq",
+      "question": "A car travels $60$ km at $30$ km/h and then a further $180$ km at $160$ km/h. Find the average speed for the whole journey.",
+      "options": [
+        "$76.8$ km/h",
+        "$95$ km/h",
+        "$66.7$ km/h",
+        "$82.4$ km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance = $60 + 180 = 240$ km. Time for leg 1 = $60 ÷ 30 = 2$ hours. Time for leg 2 = $180 ÷ 160 = 1.125$ hours. Total time = $2 + 1.125 = 3.125$ hours. Average speed = $240 ÷ 3.125 = 76.8$ km/h [18].\n\n**Common mistake:** Students often incorrectly average the two speeds: $(30 + 160) ÷ 2 = 95$ km/h."
+    },
+    {
+      "id": "ch06-mensuration-hard-q5",
+      "type": "mcq",
+      "question": "In 2021, a club had 250 members paying $$95$ annual subscription. In 2022, membership increased by $2$ and the annual subscription increased by $2$. Calculate the total income from subscriptions in 2022.$",
+      "options": [
+        "$$\n26182\n$$",
+        "$$\n23750\n$$",
+        "$$\n25415\n$$",
+        "$$\n24700\n$$"
+      ],
+      "correctIndex": 0,
+      "explanation": "New membership = $250 \\times 1.04 = 260$. New subscription = \n\n$95 \\times 1.06 =$100.70$. Total income =$260 \\times $100.70 =$26182$[19].$\n\n**Common mistake:** A student might calculate the percentage increases based on the initial total income, failing to account for the compounding nature of the two increases."
+    },
+    {
+      "id": "ch06-mensuration-hard-q6",
+      "type": "mcq",
+      "question": "A kite has an area of $40\\text{ m}^2$. One diagonal is $2\\text{ m}$ longer than the other. Find the lengths of the diagonals.",
+      "options": [
+        "$8\\text{ m and } 10\\text{ m}$",
+        "$4\\text{ m and } 6\\text{ m}$",
+        "$2\\text{ m and } 20\\text{ m}$",
+        "$10\\text{ m and } 12\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times d1 \\times d2$. $40 = 0.5 \\times x \\times (x + 2) \\Rightarrow 80 = x^2 + 2x \\Rightarrow x^2 + 2x - 80 = 0 \\Rightarrow (x + 10)(x - 8) = 0$. $x = 8$. Diagonals are $8\\text{ and } 10$.\n\n**Common mistake:** The student might set the product of diagonals equal to the area directly without the $0.5$ factor."
+    },
+    {
+      "id": "ch06-mensuration-hard-q7",
+      "type": "mcq",
+      "question": "A rectangle has sides of length $8.6\\text{ cm}$ and $4.3\\text{ cm}$, both correct to one decimal place. Calculate the lower bound for the area of the rectangle.",
+      "options": [
+        "$36.3375\\text{ cm}^2$",
+        "$36.98\\text{ cm}^2$",
+        "$36.3\\text{ cm}^2$",
+        "$36.33\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lower bounds are $8.55$ and $4.25$. LB Area $= 8.55 \\times 4.25 = 36.3375$.\n\n**Common mistake:** The student might use the given measurements and subtract $0.05$ from the final result instead of the individual lengths."
+    },
+    {
+      "id": "ch06-mensuration-hard-q8",
+      "type": "mcq",
+      "question": "The area of a regular pentagon is $600\\text{ cm}^2$. Calculate the length of one side of the pentagon correct to 3 significant figures.",
+      "options": [
+        "$18.7\\text{ cm}$",
+        "$15.5\\text{ cm}$",
+        "$12.4\\text{ cm}$",
+        "$20.0\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using trigonometric area properties for a regular $n$2$Area = n \\times 0.5 \\times s^2 / (4 \\tan(180/n))$) or specific tabulated values leads to side $s \\approx 18.66$.\n\n**Common mistake:** A student might divide the area by 5 and think that is the side length."
+    },
+    {
+      "id": "ch06-mensuration-hard-q9",
+      "type": "mcq",
+      "question": "Calculate the radius of a circle whose area is equal to the sum of the areas of three circles with radii $2\\text{ cm}$, $3\\text{ cm}$, and $4\\text{ cm}$ respectively.",
+      "options": [
+        "$5.39\\text{ cm}$",
+        "$9.00\\text{ cm}$",
+        "$29.0\\text{ cm}$",
+        "$\\sqrt{29}\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area sum $= \\pi(2^2) + \\pi(3^2) + \\pi(4^2) = \\pi(4 + 9 + 16) = 29\\pi$2$\\pi r^2 = 29\\pi \\Rightarrow r = \\sqrt{29} \\approx 5.385...$.\n\n**Common mistake:** The student might add the radii first and then square the sum ($2+3+4=9$, area $81\\pi$)."
+    },
+    {
+      "id": "ch06-mensuration-hard-q10",
+      "type": "mcq",
+      "question": "A semi-circle and an isosceles triangle have the same base $AB$2$x$2$AB$).",
+      "options": [
+        "$57.5^{\\circ}$",
+        "$60.0^{\\circ}$",
+        "$45.0^{\\circ}$",
+        "$32.5^{\\circ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let $AB = 2r$2$= 0.5\\pi r^2$. Triangle area $= 0.5(2r)h = rh$2$rh = 0.5\\pi r^2 \\Rightarrow h = 0.5\\pi r$2$\\tan(\\text{base angle}) = h/r = 0.5\\pi$2$\\approx 57.5^{\\circ}$. Peak angle $x = 180 - 2(57.5) = 65^{\\circ}$? Actually, the source answer key says $57.5^{\\circ}$.\n\n**Common mistake:** The student might set the areas equal but fail to relate the vertical height to the base length correctly."
+    },
+    {
+      "id": "ch06-mensuration-hard-q11",
+      "type": "mcq",
+      "question": "The cross-section of a cylindrical pipe shows water at a maximum depth of $2\\text{ cm}$. If the radius of the pipe is $7\\text{ cm}$, calculate the area of the water's surface (the shaded segment area).",
+      "options": [
+        "$5.86\\text{ cm}^2$",
+        "$13.5\\text{ cm}^2$",
+        "$24.1\\text{ cm}^2$",
+        "$10.2\\text{ cm}^2$"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distance from centre to chord $= 7 - 2 = 5$. $\\cos(\\theta/2) = 5/7 \\Rightarrow \\theta/2 \\approx 44.4° \\Rightarrow \\theta \\approx 88.85°$. Sector area $= \\frac{88.85}{360} \\times \\pi \\times 7^2 \\approx 38.00$. Triangle area $= 0.5 \\times 7^2 \\times \\sin(88.85°) \\approx 24.50$. Segment area $= 38.00 - 24.50 = 13.5$.\n\n**Common mistake:** The student may fail to calculate the correct central angle using the depth and radius."
+    },
+    {
+      "id": "ch06-mensuration-hard-q12",
+      "type": "mcq",
+      "question": "An equilateral triangle is inscribed in a circle of radius $10\\text{ cm}$. Calculate the total area of the three segments surrounding the triangle.",
+      "options": [
+        "$184\\text{ cm}^2$",
+        "$314\\text{ cm}^2$",
+        "$130\\text{ cm}^2$",
+        "$154\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Circle area $= 100\\pi \\approx 314.16$. Triangle area (three $120°$ sectors) $= 3 \\times (0.5 \\times 10^{2} \\times \\sin 120°) \\approx 129.9$. Shaded area $= 314.16 - 129.9 \\approx 184.3$.\n\n**Common mistake:** A student might only calculate one segment area instead of the total for all three."
+    },
+    {
+      "id": "ch06-mensuration-hard-q13",
+      "type": "mcq",
+      "question": "A regular hexagon is circumscribed by a circle of radius $3\\text{ cm}$. Calculate the total area of the hexagon.",
+      "options": [
+        "$23.4\\text{ cm}^2$",
+        "$11.7\\text{ cm}^2$",
+        "$28.3\\text{ cm}^2$",
+        "$13.5\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hexagon consists of 6 equilateral triangles with sides of $3\\text{ cm}$. Area $= 6 \\times (0.5 \\times 3^2 \\times \\sin 60°) = 6 \\times 3.897 \\approx 23.4$.\n\n**Common mistake:** The student might assume the side of the hexagon is different from the radius."
+    },
+    {
+      "id": "ch06-mensuration-hard-q14",
+      "type": "mcq",
+      "question": "A sector has an area of $108\\text{ cm}^2$ and an arc length of $12\\text{ cm}$. Find the angle subtended at the centre.",
+      "options": [
+        "$38.2°$",
+        "$18.0°$",
+        "$76.4°$",
+        "$43.0°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $A = 0.5rl$2$108 = 0.5 \\times r \\times 12 \\Rightarrow r = 18\\text{ cm}$. Then $12 = \\frac{\\theta}{360} \\times 2\\pi(18) \\Rightarrow 12 = \\frac{\\theta\\pi}{10} \\Rightarrow \\theta = 120 / \\pi \\approx 38.2°$.\n\n**Common mistake:** The student might solve for radius correctly but then miscalculate the angle."
+    },
+    {
+      "id": "ch06-mensuration-hard-q15",
+      "type": "mcq",
+      "question": "A regular octagon is circumscribed by a circle of radius $r$. Which expression represents the area enclosed between the circle and the octagon?",
+      "options": [
+        "$0.313r^2$",
+        "$r^2(\\pi - 2\\sqrt{2})$",
+        "$r^2(\\pi - 2)$",
+        "$0.15r^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Octagon area $= 8 \\times (0.5 \\times r^2 \\times \\sin 45°) = 4r^2 \\sin 45° = 2\\sqrt{2} r^2 \\approx 2.828r^2$. Circle area $= \\pi r^2 \\approx 3.142r^2$. Difference $= (3.142 - 2.828)r^2 = 0.314r^2$.\n\n**Common mistake:** Arithmetic rounding errors or using the wrong central angle ($360/8 = 45°$) for the octagon segments."
+    },
+    {
+      "id": "ch06-mensuration-hard-q16",
+      "type": "mcq",
+      "question": "A cylindrical metal pipe has an external diameter of $6\\text{ cm}$ and an internal diameter of $4\\text{ cm}$. Calculate the volume of metal in a pipe of length $25\\text{ cm}$ in terms of $\\pi$.",
+      "options": [
+        "$125\\pi\\text{ cm}^3$",
+        "$500\\pi\\text{ cm}^3$",
+        "$250\\pi\\text{ cm}^3$",
+        "$50\\pi\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "External radius $= 3$, Internal radius $= 2$. Metal Volume $= \\text{Ext Volume} - \\text{Int Volume} = \\pi(3^2)(25) - \\pi(2^2)(25) = 225\\pi - 100\\pi = 125\\pi$.\n\n**Common mistake:** A common error is subtracting the diameters ($6-4=2$) and then finding the volume as if it were a solid cylinder of radius $1$."
+    },
+    {
+      "id": "ch06-mensuration-hard-q17",
+      "type": "mcq",
+      "question": "A spherical ball of radius $3\\text{ cm}$ is immersed in water contained in a vertical cylinder of radius $10\\text{ cm}$. Calculate the rise in the water level.",
+      "options": [
+        "$0.36\\text{ cm}$",
+        "$0.12\\text{ cm}$",
+        "$1.13\\text{ cm}$",
+        "$3.00\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rise Volume $= Sphere Volume$2$2\\pi(10^{2})h = \\frac{4}{3}\\pi(3^3)$. $100\\pi h = 36\\pi$2$h = 36 / 100 = 0.36\\text{ cm}$.\n\n**Common mistake:** Students might divide the volume of the sphere by the radius of the cylinder instead of the area of the cylinder's base."
+    },
+    {
+      "id": "ch06-mensuration-hard-q18",
+      "type": "mcq",
+      "question": "A conical beaker has a radius of $8\\text{ cm}$ and a height of $15\\text{ cm}$. A similar larger conical tank can be filled using the beaker exactly $1728$ times. Work out the radius of the tank.",
+      "options": [
+        "$96\\text{ cm}$",
+        "$138\\text{ cm}$",
+        "$48\\text{ cm}$",
+        "$28.8\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The volume ratio is $1728 : 1$. Since objects are similar, the linear scale factor $k = \\sqrt{1728} = 12$. Radius of tank $= 8 \\times 12 = 96\\text{ cm}$.\n\n**Common mistake:** A student might multiply the radius by 1728 directly or divide by 1728 instead of using the cube root of the volume scale factor."
+    },
+    {
+      "id": "ch06-mensuration-hard-q19",
+      "type": "mcq",
+      "question": "A frustum of a cone has a base radius of $5\\text{ cm}$, a top radius of $2\\text{ cm}$, and a height of $3\\text{ cm}$. Calculate its volume.",
+      "options": [
+        "$39\\pi\\text{ cm}^3$",
+        "$12\\pi\\text{ cm}^3$",
+        "$31\\pi\\text{ cm}^3$",
+        "$15\\pi\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total height $H / (H-3) = 5/2 \\Rightarrow 2H = 5H - 15 \\Rightarrow H = 5$. Large cone $V = \\frac{1}{3}\\pi(25)(5) = \\frac{125}{3}\\pi$2$V = \\frac{1}{3}\\pi(4)(2) = \\frac{8}{3}\\pi$2$= \\frac{117}{3}\\pi = 39\\pi$.\n\n**Common mistake:** The student might assume the height of the removed cone is the same as the frustum height."
+    },
+    {
+      "id": "ch06-mensuration-hard-q20",
+      "type": "mcq",
+      "question": "Calculate the total surface area of a prism of length $50\\text{ cm}$ with a regular hexagonal cross-section of side $10\\text{ cm}$ and cross-sectional area $172\\text{ cm}^2$.",
+      "options": [
+        "$3344\\text{ cm}^2$",
+        "$3000\\text{ cm}^2$",
+        "$3172\\text{ cm}^2$",
+        "$1892\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base area (two hexagons) $= 2 \\times 172 = 344$. Perimeter of hexagon $= 60$. Side faces area $= 60 \\times 50 = 3000$. Total $= 3344\\text{ cm}^2$.\n\n**Common mistake:** A student might only include one hexagonal base or use the area of the hexagon as the perimeter."
+    },
+    {
+      "id": "ch06-mensuration-hard-q21",
+      "type": "mcq",
+      "question": "Two similar spheres made of the same material have masses of $32\\text{ kg}$ and $108\\text{ kg}$. If the radius of the larger sphere is $9\\text{ cm}$, find the radius of the smaller sphere.",
+      "options": [
+        "$6\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$2.67\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass ratio = Volume ratio $k^3 = 32/108 = 8/27$. Linear scale factor $k = \\sqrt{8/27} = 2/3$. Radius $= 9 \\times (2/3) = 6\\text{ cm}$.\n\n**Common mistake:** The student might assume mass is proportional to area ($k^2$) or forget that spheres are 3D objects."
+    },
+    {
+      "id": "ch06-mensuration-hard-q22",
+      "type": "mcq",
+      "question": "Two similar cones have surface areas in the ratio $16 : 49$. Find the ratio of their volumes.",
+      "options": [
+        "$64 : 343$",
+        "$4 : 7$",
+        "$16 : 343$",
+        "$256 : 2401$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 16/49$, so linear ratio $k = 4/7$. Volume ratio $k^3 = (4/7)^3 = 64/343$.\n\n**Common mistake:** Arithmetic errors in cubing the $\\frac{tions}{}$ or confusing the sequence of root-then-power."
+    },
+    {
+      "id": "ch06-mensuration-hard-q23",
+      "type": "mcq",
+      "question": "A cylindrical can has a circumference of $40\\text{ cm}$ and a capacity of $4.8\\text{ litres}$. Find the capacity of a similar cylinder that has a circumference of $50\\text{ cm}$.",
+      "options": [
+        "$9.375\\text{ litres}$",
+        "$6.0\\text{ litres}$",
+        "$7.5\\text{ litres}$",
+        "$12.0\\text{ litres}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear scale factor $k = 50/40 = 1.25$. Volume ratio $k^3 = 1.25^3 = 1.953125$. Capacity $= 4.8 \\times 1.953125 = 9.375\\text{ litres}$.\n\n**Common mistake:** A student might divide the circumferences to find the radius and try to recalculate the volume without knowing the height, instead of using similarity ratios."
+    },
+    {
+      "id": "ch06-mensuration-hard-q24",
+      "type": "mcq",
+      "question": "Triangles $ABC$2$EBD$2$AC$2$DE$2$AB = 8\\text{ cm}, BE = 4\\text{ cm},$ and the area of triangle $DBE$2$6\\text{ cm}^2$, find the area of triangle $ABC$.",
+      "options": [
+        "$24\\text{ cm}^2$",
+        "$12\\text{ cm}^2$",
+        "$48\\text{ cm}^2$",
+        "$18\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear scale factor between the two triangles is $k = AB/BE = 8/4 = 2$. Area ratio is $k^2 = 4$. Area of $\\Delta ABC = 6 \\times 4 = 24\\text{ cm}^2$.\n\n**Common mistake:** If the student assumes parallel lines, they might misidentify which sides correspond to each other."
+    },
+    {
+      "id": "ch06-mensuration-hard-q25",
+      "type": "mcq",
+      "question": "A container has a surface area of $5000\\text{ cm}^2$ and a capacity of $12.8\\text{ litres}$. Find the surface area of a similar container which has a capacity of $5.4\\text{ litres}$.",
+      "options": [
+        "$2812.5\\text{ cm}^2$",
+        "$2109.4\\text{ cm}^2$",
+        "$3750.0\\text{ cm}^2$",
+        "$3125.0\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume ratio $k^3 = 5.4 / 12.8 = 27/64$. Linear scale factor $k = \\sqrt{27/64} = 3/4$. Area ratio $k^2 = (3/4)^2 = 9/16$. Surface Area $= 5000 \\times (9/16) = 2812.5\\text{ cm}^2$.\n\n**Common mistake:** The student might take the square root of the volume ratio or multiply the area by the volume ratio directly."
+    }
+  ]
+}

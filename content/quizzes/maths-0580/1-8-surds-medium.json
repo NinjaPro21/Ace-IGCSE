@@ -1,0 +1,77 @@
+{
+  "id": "1-8-surds-medium",
+  "topicId": "1-8-surds",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Surds — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-8-surds-medium-q1",
+      "type": "mcq",
+      "question": "Simplify the compound radical expression $\\sqrt{18} + \\sqrt{50}$.",
+      "options": [
+        "$8\\sqrt{2}$",
+        "$\\sqrt{68}$",
+        "$4\\sqrt{2}$",
+        "$15\\sqrt{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simplify each surd term first: $\\sqrt{18} = 3\\sqrt{2}$ and \\sqrt{50} = 5\\sqrt{2}. Add them together to get $3\\sqrt{2} + 5\\sqrt{2} = 8\\sqrt{2}$.\n\n**Common mistake:** A classic error is adding values directly inside the roots together to obtain $\\sqrt{18+50} = \\sqrt{68}$."
+    },
+    {
+      "id": "1-8-surds-medium-q2",
+      "type": "mcq",
+      "question": "Rationalise the denominator of the expression $\\frac{12}{\\sqrt{3}}$.",
+      "options": [
+        "$4\\sqrt{3}$",
+        "$12\\sqrt{3}$",
+        "4",
+        "$2\\sqrt{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply the numerator and denominator by $\\sqrt{3}$ to rationalise: $\\frac{12 \\times \\sqrt{3}}{\\sqrt{3} \\times \\sqrt{3}} = \\frac{12\\sqrt{3}}{3} = 4\\sqrt{3}$.\n\n**Common mistake:** Students often forget to divide the original coefficient by the denominator integer, leaving the answer as $12\\sqrt{3}$."
+    },
+    {
+      "id": "1-8-surds-medium-q3",
+      "type": "mcq",
+      "question": "Expand and simplify the brackets $(\\sqrt{5} + 2)(\\sqrt{5} - 2)$.",
+      "options": [
+        "1",
+        "3",
+        "$5 - 2\\sqrt{2}$",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "This maps to a difference of two squares style expansion: $(\\sqrt{5})^2 - (2)^2 = 5 - 4 = 1$.\n\n**Common mistake:** Students occasionally fail to evaluate the squares correctly, computing $5 - 2 = 3$ or omitting parts of the expansion steps."
+    },
+    {
+      "id": "1-8-surds-medium-q4",
+      "type": "mcq",
+      "question": "Simplify the expression $\\sqrt{24} \\times \\sqrt{12}$, writing your answer in its simplest surd form $a\\sqrt{b}$.",
+      "options": [
+        "$12\\sqrt{2}$",
+        "$6\\sqrt{8}$",
+        "$2\\sqrt{72}$",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply parameters: $\\sqrt{24 \\times 12} = \\sqrt{288}$. Simplify by isolating the square factor $144$: $\\sqrt{144 \\times 2} = 12\\sqrt{2}$.\n\n**Common mistake:** Students often stop simplifying early, leaving non-prime compound factors under the square root sign like $6\\sqrt{8}$."
+    },
+    {
+      "id": "1-8-surds-medium-q5",
+      "type": "mcq",
+      "question": "Rationalise the denominator of $\\frac{5}{2\\sqrt{5}}$.",
+      "options": [
+        "$\\frac{\\sqrt{5}}{2}$",
+        "$\\frac{5\\sqrt{5}}{2}$",
+        "$\\sqrt{5}$",
+        "$\\frac{5}{2}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiply both elements by $\\sqrt{5}$: $\\frac{5\\sqrt{5}}{2 \\times 5} = \\frac{5\\sqrt{5}}{10} = \\frac{\\sqrt{5}}{2}$.\n\n**Common mistake:** Students often forget to multiply the denominator's leading integer by 5, leading to answers like $\\frac{5\\sqrt{5}}{2}$."
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "ch04-forces-easy",
+  "topicId": "ch04-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "easy",
+  "title": "Chapter 4: Forces — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch04-forces-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following describes a possible effect of a force acting on an object?",
+      "options": [
+        "Change in the size, shape, or motion of the object",
+        "Change in the mass of the object",
+        "Increase in the number of particles in the object",
+        "Change in the gravitational field strength around the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forces can cause objects to change in size and/or shape, or change their motion (speed and direction). \n\n**Common mistake:** Thinking a force can change an object's mass; mass is the quantity of matter and remains constant regardless of the force applied."
+    },
+    {
+      "id": "ch04-forces-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for force?",
+      "options": [
+        "newton ($N$)",
+        "kilogram ($kg$)",
+        "joule ($J$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard SI unit for force is the newton ($N$). \n\n**Common mistake:** Selecting kilograms, which is the unit for mass, not force."
+    },
+    {
+      "id": "ch04-forces-easy-q3",
+      "type": "mcq",
+      "question": "In the formula $k = \\frac{F}{x}$, what does the symbol $x$ represent?",
+      "options": [
+        "The extension of the spring",
+        "The original length of the spring",
+        "The total length of the spring",
+        "The spring constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the spring constant formula, $x$ represents the extension, which is the change in length of the spring ($l - l_0$). \n\n**Common mistake:** Using the total length of the spring instead of the extension."
+    },
+    {
+      "id": "ch04-forces-easy-q4",
+      "type": "mcq",
+      "question": "What does a straight line passing through the origin on a load–extension graph indicate?",
+      "options": [
+        "The extension is directly proportional to the load",
+        "The spring has reached its limit of proportionality",
+        "The spring constant is changing",
+        "The spring is permanently deformed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A straight line through the origin shows that the ratio of load to extension is constant, meaning they are directly proportional. \n\n**Common mistake:** Thinking the line indicates the spring has reached its limit; that limit occurs where the graph starts to curve."
+    },
+    {
+      "id": "ch04-forces-easy-q5",
+      "type": "mcq",
+      "question": "Which instrument is typically used to measure the weight of an object or the force exerted by a spring?",
+      "options": [
+        "Spring balance",
+        "Beam balance",
+        "Measuring cylinder",
+        "Metre rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "A spring balance (or force meter) uses the extension of a spring to measure force in Newtons. \n\n**Common mistake:** Selecting a beam balance, which is used to compare masses, not measure force directly."
+    },
+    {
+      "id": "ch04-forces-easy-q6",
+      "type": "mcq",
+      "question": "What is the definition of a resultant force?",
+      "options": [
+        "A single force that has the same effect as all the forces acting on an object",
+        "The force produced only when an object is at rest",
+        "The force of gravity acting on a mass",
+        "The force of friction opposing motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "A resultant force is a single force that produces the same effect as two or more individual forces combined. \n\n**Common mistake:** Thinking the resultant force is only the largest single force acting on the body."
+    },
+    {
+      "id": "ch04-forces-easy-q7",
+      "type": "mcq",
+      "question": "A toy boat has a forward thrust of $50\\text{ N}$ and resistive forces of $45\\text{ N}$ acting in the opposite direction. What is the resultant force?",
+      "options": [
+        "$5\\text{ N}$",
+        "$95\\text{ N}$",
+        "$45\\text{ N}$",
+        "$0.9\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant force is found by subtracting opposing forces: $50\\text{ N} - 45\\text{ N} = 5\\text{ N}$. \n\n**Common mistake:** Adding the forces together ($95\\text{ N}$) even though they act in opposite directions."
+    },
+    {
+      "id": "ch04-forces-easy-q8",
+      "type": "mcq",
+      "question": "Which statement describes the motion of an object when the resultant force acting on it is zero?",
+      "options": [
+        "The object remains at rest or continues at a constant speed in a straight line",
+        "The object must be stationary",
+        "The object is constantly accelerating",
+        "The object is moving in a circle"
+      ],
+      "correctIndex": 0,
+      "explanation": "When forces are balanced (resultant force is zero), an object does not change its motion; it either stays still or keeps moving at a steady speed in a straight line. \n\n**Common mistake:** Believing an object with zero resultant force cannot be moving."
+    },
+    {
+      "id": "ch04-forces-easy-q9",
+      "type": "mcq",
+      "question": "When an object moves in a circular path at a constant speed, in which direction does the resultant force act?",
+      "options": [
+        "Towards the centre of the circle",
+        "In the direction of the object's velocity",
+        "Away from the centre of the circle",
+        "Opposite to the direction of motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "For circular motion, the resultant force must act perpendicular to the velocity, directed towards the centre of the path. \n\n**Common mistake:** Thinking the force acts in the direction the object is 'pointing' (tangent to the circle)."
+    },
+    {
+      "id": "ch04-forces-easy-q10",
+      "type": "mcq",
+      "question": "What is the SI unit for a moment of a force?",
+      "options": [
+        "newton metre (N m)",
+        "newton (N)",
+        "kilogram (kg)",
+        "pascal (Pa)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$The SI unit for a moment is the newton metre (N m), which is force \\times perpendicular distance.$\n\n**Common mistake:** Using only Newtons (N), which is the unit for force, not its turning effect."
+    },
+    {
+      "id": "ch04-forces-easy-q11",
+      "type": "mcq",
+      "question": "What is the name given to the turning effect of a force?",
+      "options": [
+        "Moment",
+        "Momentum",
+        "Resultant",
+        "Equilibrium"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turning effect of a force is known as the moment of a force. \n\n**Common mistake:** Confusing 'moment' with 'momentum', which is the product of mass and velocity."
+    },
+    {
+      "id": "ch04-forces-easy-q12",
+      "type": "mcq",
+      "question": "What is the SI unit for the moment of a force?",
+      "options": [
+        "newton metre (N m)",
+        "newton (N)",
+        "joule (J)",
+        "newton per metre (N/m)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SI unit for a moment is the newton metre (N m). \n\n**Common mistake:** Selecting Newtons (N), which is the unit for force, not its turning effect."
+    },
+    {
+      "id": "ch04-forces-easy-q13",
+      "type": "mcq",
+      "question": "Which two factors determine the size of a moment?",
+      "options": [
+        "Force and perpendicular distance from the pivot",
+        "Force and mass",
+        "Weight and gravity",
+        "Distance and time"
+      ],
+      "correctIndex": 0,
+      "explanation": "A moment is calculated by multiplying the force by the perpendicular distance from the pivot. \n\n**Common mistake:** Using the total length of an object instead of the distance specifically from the pivot point."
+    },
+    {
+      "id": "ch04-forces-easy-q14",
+      "type": "mcq",
+      "question": "According to the principle of moments, what must be true for an object to be in equilibrium?",
+      "options": [
+        "The sum of clockwise moments equals the sum of anticlockwise moments",
+        "The resultant force must be greater than zero",
+        "All forces must act in the same direction",
+        "The object must be stationary at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an object in equilibrium, the total clockwise moment must equal the total anticlockwise moment about the same pivot. \n\n**Common mistake:** Thinking equilibrium only requires balanced forces, but it also requires balanced moments."
+    },
+    {
+      "id": "ch04-forces-easy-q15",
+      "type": "mcq",
+      "question": "A force of $10\\text{ N}$ acts at a perpendicular distance of $2.0\\text{ m}$ from a pivot. Calculate the moment.",
+      "options": [
+        "$20\\text{ N m}$",
+        "$5\\text{ N m}$",
+        "$12\\text{ N m}$",
+        "$200\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moment $= Force \\times distance = 10\\text{ N} \\times 2.0\\text{ m} = 20\\text{ N m}$. \n\n**Common mistake:** Dividing the force by distance instead of multiplying."
+    },
+    {
+      "id": "ch04-forces-easy-q16",
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of the centre of gravity of an object?",
+      "options": [
+        "The point through which the weight of the object acts",
+        "The geometric centre of any solid object",
+        "The point where the mass of an object is greatest",
+        "The point at the very bottom of an object"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centre of gravity is defined as the point through which the whole weight of an object appears to act. \n\n**Common mistake:** Thinking it is always the geometric centre; this is only true for uniform objects."
+    },
+    {
+      "id": "ch04-forces-easy-q17",
+      "type": "mcq",
+      "question": "Which two features make an object as stable as possible?",
+      "options": [
+        "A low centre of gravity and a wide base area",
+        "A high centre of gravity and a wide base area",
+        "A low centre of gravity and a narrow base area",
+        "A high centre of gravity and a narrow base area"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stability is increased by lowering the centre of gravity and increasing the width of the base. \n\n**Common mistake:** Thinking a high centre of gravity provides more balance, which actually makes it easier to topple."
+    },
+    {
+      "id": "ch04-forces-easy-q18",
+      "type": "mcq",
+      "question": "Where is the centre of gravity located for a uniform metre rule?",
+      "options": [
+        "At the $50\\text{ cm}$ mark",
+        "At the $0\\text{ cm}$ mark",
+        "At the $100\\text{ cm}$ mark",
+        "It depends on the weight of the rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a uniform object, the centre of gravity is at its midpoint; for a $100\\text{ cm}$ rule, this is the $50\\text{ cm}$ mark. \n\n**Common mistake:** Thinking the location changes with weight; the COG is a position, not a value of force."
+    },
+    {
+      "id": "ch04-forces-easy-q19",
+      "type": "mcq",
+      "question": "An object will topple over if the vertical line from its centre of gravity falls:",
+      "options": [
+        "Outside its base",
+        "Inside its base",
+        "Directly through the pivot",
+        "Above the object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Toppling occurs when the weight creates a resultant moment because its line of action lies outside the supporting base. \n\n**Common mistake:** Believing it only topples if it is pushed with a very large force."
+    },
+    {
+      "id": "ch04-forces-easy-q20",
+      "type": "mcq",
+      "question": "What is a plumb line used for in a centre of gravity experiment?",
+      "options": [
+        "To trace a vertical line from a pivot point",
+        "To measure the weight of the lamina",
+        "To find the geometric centre of the shape",
+        "To balance the lamina horizontally"
+      ],
+      "correctIndex": 0,
+      "explanation": "A plumb line always hangs vertically due to gravity, allowing a student to mark the line along which the centre of gravity must lie. \n\n**Common mistake:** Confusing it with a ruler used to measure the length of the lamina."
+    }
+  ]
+}

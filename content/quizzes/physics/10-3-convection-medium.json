@@ -1,0 +1,77 @@
+{
+  "id": "10-3-convection-medium",
+  "topicId": "10-3-convection",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "medium",
+  "title": "Convection — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-3-convection-medium-q1",
+      "type": "mcq",
+      "question": "Why does convection NOT occur when a solid is heated?",
+      "options": [
+        "The particles are not free to move from place to place",
+        "Solids are too dense to allow any energy transfer",
+        "The particles in a solid do not expand when heated",
+        "Solids reflect all thermal energy via radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection requires the actual movement of particles. In a solid, particles only vibrate about fixed positions and cannot flow. **Common mistake:** Believing solids are too 'thick' for any heat process."
+    },
+    {
+      "id": "10-3-convection-medium-q2",
+      "type": "mcq",
+      "question": "Where is the best position to place the cooling unit in a refrigerator to ensure the whole space is cooled efficiently?",
+      "options": [
+        "At the top",
+        "At the bottom",
+        "On the side walls",
+        "In the middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Placing the cooler at the top allows the cold, dense air to sink, creating a convection current that cools the entire fridge. **Common mistake:** Placing it at the bottom, where the cold air would just stay at the bottom."
+    },
+    {
+      "id": "10-3-convection-medium-q3",
+      "type": "mcq",
+      "question": "According to the 'Quick Check' in the source material, why do hot air balloons rise?",
+      "options": [
+        "Hot air is less dense than cold air",
+        "The fire produces an upward thrust force",
+        "Hot air has more mass than cold air",
+        "Air molecules move in a regular lattice when heated"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heating the air inside the balloon makes it expand and become less dense than the surrounding cooler air, resulting in an upward force. **Common mistake:** Confusing density changes with 'thrust' from the burner."
+    },
+    {
+      "id": "10-3-convection-medium-q4",
+      "type": "mcq",
+      "question": "A student heats a beaker of water at the bottom. Which description of the resulting convection current is correct?",
+      "options": [
+        "Hot water at the bottom rises; cold water at the top sinks to replace it",
+        "Hot water stays at the bottom and conducts heat upwards",
+        "The water circulates in a clockwise direction only",
+        "Cold water at the top is heated by radiation from the bottom"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heated water expands and rises, while the cooler, denser water at the top sinks to take its place, forming a loop. **Common mistake:** Thinking the water simply stays in place and 'conducts' the heat."
+    },
+    {
+      "id": "10-3-convection-medium-q5",
+      "type": "mcq",
+      "question": "If a fluid is prevented from expanding when heated, how would this affect convection?",
+      "options": [
+        "Convection would not occur because there would be no change in density",
+        "Convection would occur faster because pressure would increase",
+        "Convection would only occur downwards",
+        "Convection would happen through vibrations instead"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection relies on density differences caused by thermal expansion. Without expansion, the density remains uniform and no rising/sinking occurs. **Common mistake:** Thinking pressure alone can drive a convection current."
+    }
+  ]
+}

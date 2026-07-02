@@ -1,0 +1,77 @@
+{
+  "id": "9-graphs-of-modulus-trigonometric-functions-hard",
+  "topicId": "9-graphs-of-modulus-trigonometric-functions",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "hard",
+  "title": "Graphs of Modulus Trigonometric Functions — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-hard-q1",
+      "type": "mcq",
+      "question": "Determine the number of solutions to the equation $|\\sin 2x| = 0.5$ for $0° \\le x \\le 180°$.",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "One cycle of $|\\sin 2x|$ occurs in 90°. In this cycle, the graph hits 0.5 twice. For 180° (two cycles), there are $2 \\times 2 = 4$ solutions.\n\n**Common mistake:** Only considering the positive arm of the sine wave and missing the solutions created by the reflected arm."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-hard-q2",
+      "type": "mcq",
+      "question": "The graph $y = |2 \\cos 3x| + 1$ is sketched. What is its period?",
+      "options": [
+        "60°",
+        "120°",
+        "360°",
+        "180°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period of $\\cos 3x$2$|\\cos \\theta|$ halves the period of cosine from 360° to 180°. Applying this here: $120 / 2 = 60°$.\n\n**Common mistake:** Thinking the modulus only changes the range and doesn't affect the period of the graph."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-hard-q3",
+      "type": "mcq",
+      "question": "Find the range of the function $y = 5 - |3 \\cos x|$.",
+      "options": [
+        "$2 \\le y \\le 5$",
+        "$0 \\le y \\le 5$",
+        "$-3 \\le y \\le 3$",
+        "$5 \\le y \\le 8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$|3 \\cos x|$ ranges from 0 to 3. Subtracting this from 5 gives a range from $5 - 3 = 2$ to $5 - 0 = 5$.\n\n**Common mistake:** Incorrectly applying the subtraction, often leading to a range like 5 to 8."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-hard-q4",
+      "type": "mcq",
+      "question": "A trigonometric graph has a maximum point at $(0, 7)$ and the next minimum point at $(90°, 3)$. Find its equation.",
+      "options": [
+        "$y = 2 \\cos 2x + 5$",
+        "$y = 4 \\cos 2x + 3$",
+        "$y = 2 \\cos 4x + 5$",
+        "$y = 5 \\cos 2x + 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amplitude $= (7-3)/2 = 2$. Center line $= (7+3)/2 = 5. Half-period is 90°, so full period is 180°$. $2b = 360/180 = 2$. Max is at $x=0$, so use cosine.\n\n**Common mistake:** Using the wrong coefficient for $x$ or miscalculating the amplitude from the given points."
+    },
+    {
+      "id": "9-graphs-of-modulus-trigonometric-functions-hard-q5",
+      "type": "mcq",
+      "question": "Identify the number of points of intersection between $y = |\\tan x|$ and $y = 1$ for $0 \\le x \\le 2\\pi$.",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\tan x = 1$ has 2 solutions in $2\\pi$2$\\tan x = -1$ (reflected to 1) also has 2 solutions. Total $= 4$.\n\n**Common mistake:** Forgetting that $|\\tan x| = 1$ also includes the solutions for $\\tan x = -1$."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "10-factorial-notation-and-arrangements-easy",
+  "topicId": "10-factorial-notation-and-arrangements",
+  "chapterId": "ch10-permutations-and-combinations",
+  "difficulty": "easy",
+  "title": "Factorial Notation and Arrangements — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q1",
+      "type": "mcq",
+      "question": "Evaluate the value of 5!.",
+      "options": [
+        "120",
+        "24",
+        "60",
+        "720"
+      ],
+      "correctIndex": 0,
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120.\n\n**Common mistake:** Students often multiply only a few terms or confuse it with 5 × 2 = 10."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is the correct mathematical value for 0!?",
+      "options": [
+        "1",
+        "0",
+        "Undefined",
+        "Infinity"
+      ],
+      "correctIndex": 0,
+      "explanation": "By mathematical definition in permutations and combinations, 0! is always equal to 1.\n\n**Common mistake:** The most common error is assuming 0! = 0."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q3",
+      "type": "mcq",
+      "question": "Simplify the expression 8! / 7!.",
+      "options": [
+        "8",
+        "1",
+        "56",
+        "8!"
+      ],
+      "correctIndex": 0,
+      "explanation": "8! / 7! = (8 × 7!) / 7! = 8.\n\n**Common mistake:** Attempting to divide 8 by 7 or thinking the factorials cancel to leave 1."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q4",
+      "type": "mcq",
+      "question": "Express (n + 1)! in terms of n!.",
+      "options": [
+        "(n + 1) × n!",
+        "n! + 1",
+        "n! + n",
+        "(n + 1)!"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the recursive property of factorials, (n + 1)! = (n + 1) × n!.\n\n**Common mistake:** Incorrectly distributing the factorial as n! + 1!."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q5",
+      "type": "mcq",
+      "question": "Evaluate 4! - 3!.",
+      "options": [
+        "18",
+        "1",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "4! = 24 and 3! = 6. Thus, 24 - 6 = 18.\n\n**Common mistake:** Thinking 4! - 3! = 1! = 1."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q6",
+      "type": "mcq",
+      "question": "Calculate the number of different ways to arrange the letters of the word $VECTOR$.",
+      "options": [
+        "720",
+        "120",
+        "360",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since there are 6 distinct letters, the number of arrangements is $6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$.\n\n**Common mistake:** Option B is $5!$, which occurs if a student miscounts the number of letters or assumes one letter is fixed without being told."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q7",
+      "type": "mcq",
+      "question": "In how many ways can 5 different books be arranged on a shelf?",
+      "options": [
+        "120",
+        "25",
+        "60",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of ways to arrange $n$2$n!$, so $5! = 120$.\n\n**Common mistake:** Option B results from calculating $5 \\times 5$ instead of using the factorial operation."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q8",
+      "type": "mcq",
+      "question": "Find the number of different arrangements of the letters in the word $PENCIL$2$P$.",
+      "options": [
+        "120",
+        "720",
+        "60",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "With $P$2$5! = 120$ ways.\n\n**Common mistake:** Option B is $6!$, representing all possible arrangements without the constraint of starting with $P$."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q9",
+      "type": "mcq",
+      "question": "How many different 4-digit numbers can be formed using the digits 2, 4, 6, and 8 once each?",
+      "options": [
+        "24",
+        "16",
+        "256",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of ways to arrange 4 distinct digits is $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.\n\n**Common mistake:** Option C is $4^4$, which occurs if a student incorrectly assumes digits can be repeated."
+    },
+    {
+      "id": "10-factorial-notation-and-arrangements-easy-q10",
+      "type": "mcq",
+      "question": "Find the value of $\\frac{6!}{4!}$.",
+      "options": [
+        "30",
+        "1.5",
+        "2",
+        "720"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{6!}{4!} = \\frac{6 \\times 5 \\times 4!}{4!} = 6 \\times 5 = 30$.\n\n**Common mistake:** Option B is $6/4$, where the student ignores the factorial symbols and treats it as a simple $fraction.$"
+    }
+  ]
+}

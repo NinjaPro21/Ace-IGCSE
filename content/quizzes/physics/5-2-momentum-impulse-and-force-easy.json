@@ -1,0 +1,77 @@
+{
+  "id": "5-2-momentum-impulse-and-force-easy",
+  "topicId": "5-2-momentum-impulse-and-force",
+  "chapterId": "ch05-momentum",
+  "difficulty": "easy",
+  "title": "Momentum, Impulse and Force — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-2-momentum-impulse-and-force-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is the correct word equation for impulse?",
+      "options": [
+        "Impulse = Force $times$ time",
+        "Impulse = Mass $times$ acceleration",
+        "Impulse = Momentum $times$ velocity",
+        "Impulse = Force $div$ distance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Impulse is defined as the product of the average force acting on an object and the time for which it acts. \n\n**Common mistake:** Confusing it with momentum ($mv$) or work done ($Fd$)."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for impulse?",
+      "options": [
+        "newton second ($N s$)",
+        "joule ($J$)",
+        "watt ($W$)",
+        "newton per metre ($N/m$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since impulse is Force ($N$) $times$ time ($s$), its unit is the newton second ($N s$). It is also equivalent to $kg m/s$. \n\n**Common mistake:** Using units of force ($N$) or energy ($J$)."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-easy-q3",
+      "type": "mcq",
+      "question": "How is the resultant force related to momentum?",
+      "options": [
+        "Force is the change in momentum per unit time",
+        "Force is the product of mass and impulse",
+        "Force is the total change in momentum",
+        "Force is momentum divided by mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the resultant force $F$ is the rate of change of momentum: $F = Delta p / Delta t$. \n\n**Common mistake:** Thinking force is just the total 'change' in momentum without considering time."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-easy-q4",
+      "type": "mcq",
+      "question": "A student kicks a ball with an average force of $150\\text{ N}$. The contact time is $0.040\\text{ s}$. Calculate the impulse.",
+      "options": [
+        "$6.0\\text{ N s}$",
+        "$3750\\text{ N s}$",
+        "$150.04\\text{ N s}$",
+        "$0.00027\\text{ N s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $Impulse = F \\times t$: $150\\text{ N} \\times 0.040\\text{ s} = 6.0\\text{ N s}$. \n\n**Common mistake:** Dividing force by time ($3750$) instead of multiplying."
+    },
+    {
+      "id": "5-2-momentum-impulse-and-force-easy-q5",
+      "type": "mcq",
+      "question": "In car safety, why are crumple zones designed to increase the time of a collision?",
+      "options": [
+        "To decrease the average force acting on the passengers",
+        "To increase the total change in momentum",
+        "To increase the final velocity of the car",
+        "To decrease the total impulse of the crash"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a fixed change in momentum (impulse), increasing the time interval $Delta t$ reduces the average force $F$ because $F = Delta p / Delta t$. \n\n**Common mistake:** Thinking it changes the total impulse; the impulse remains the same because the change in velocity is the same."
+    }
+  ]
+}

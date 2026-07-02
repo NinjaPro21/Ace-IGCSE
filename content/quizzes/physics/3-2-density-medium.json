@@ -1,0 +1,77 @@
+{
+  "id": "3-2-density-medium",
+  "topicId": "3-2-density",
+  "chapterId": "ch03-mass-weight-and-density",
+  "difficulty": "medium",
+  "title": "Density — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-2-density-medium-q1",
+      "type": "mcq",
+      "question": "A measuring cylinder contains $20\\text{ cm}^3$ of water. When an irregular stone of mass $150\\text{ g}$ is submerged, the level rises to $50\\text{ cm}^3$. Calculate the density of the stone.",
+      "options": [
+        "$5.0\\text{ g/cm}^3$",
+        "$3.0\\text{ g/cm}^3$",
+        "$7.5\\text{ g/cm}^3$",
+        "$0.2\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume of stone $= 50 - 20 = 30\\text{ cm}^3$. Density $= 150\\text{ g} / 30\\text{ cm}^3 = 5.0\\text{ g/cm}^3$. \n\n**Common mistake:** Using the final water level ($50$) as the volume of the stone."
+    },
+    {
+      "id": "3-2-density-medium-q2",
+      "type": "mcq",
+      "question": "To convert a density value from $g/cm^3$ to the SI unit $kg/m^3$, you should:",
+      "options": [
+        "Multiply by 1000",
+        "Divide by 1000",
+        "Multiply by 100",
+        "Divide by 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1\\text{ g/cm}^3$ is equivalent to $1000\\text{ kg/m}^3$. \n\n**Common mistake:** Dividing by 1000, which is the standard conversion for grams to kilograms alone."
+    },
+    {
+      "id": "3-2-density-medium-q3",
+      "type": "mcq",
+      "question": "A measuring cylinder has a mass of $60.0\\text{ g}$. When $30\\text{ cm}^3$ of olive oil is poured into it, the total mass is $87.6\\text{ g}$. What is the density of the olive oil?",
+      "options": [
+        "$0.92\\text{ g/cm}^3$",
+        "$2.92\\text{ g/cm}^3$",
+        "$2.00\\text{ g/cm}^3$",
+        "$0.68\\text{ g/cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass of oil $= 87.6 - 60.0 = 27.6\\text{ g}$. Density $= 27.6 / 30 = 0.92\\text{ g/cm}^3$. \n\n**Common mistake:** Using the total mass ($87.6$) instead of the mass of the liquid only."
+    },
+    {
+      "id": "3-2-density-medium-q4",
+      "type": "mcq",
+      "question": "Liquid A (density $800\\text{ kg/m}^3$), Liquid B (density $1000\\text{ kg/m}^3$), and Liquid C (density $1200\\text{ kg/m}^3$) are immiscible. If poured into a cylinder, which order will they settle in from top to bottom?",
+      "options": [
+        "A, B, C",
+        "C, B, A",
+        "B, A, C",
+        "A, C, B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Immiscible liquids settle with the least dense on top and the most dense at the bottom. \n\n**Common mistake:** Reversing the order and placing the densest liquid on top."
+    },
+    {
+      "id": "3-2-density-medium-q5",
+      "type": "mcq",
+      "question": "An object floats in Seawater (density $1100\\text{ kg/m}^3$) but sinks in Paraffin (density $700\\text{ kg/m}^3$). What can be deduced about the object's density?",
+      "options": [
+        "It is between $700\\text{ kg/m}^3$ and $1100\\text{ kg/m}^3$",
+        "It is exactly $900\\text{ kg/m}^3$",
+        "It is greater than $1100\\text{ kg/m}^3$",
+        "It is less than $700\\text{ kg/m}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since it floats in seawater, its density $< 1100$. Since it sinks in paraffin, its density $> 700$. \n\n**Common mistake:** Assuming floating means it must be less dense than both liquids."
+    }
+  ]
+}

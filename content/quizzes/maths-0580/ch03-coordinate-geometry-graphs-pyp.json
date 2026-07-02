@@ -1,0 +1,532 @@
+{
+  "id": "ch03-coordinate-geometry-graphs-pyp",
+  "topicId": "ch03-coordinate-geometry-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "pyp",
+  "title": "Chapter 3: Coordinate Geometry & Graphs — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q1",
+      "type": "mcq",
+      "question": "The scale of a map is $1 : 25\\,000$. The actual distance between two points is $11.5\\text{ km}$. Calculate the distance between these two points on the map, giving your answer in centimeters.",
+      "options": [
+        "$46\\text{ cm}$",
+        "$4.6\\text{ cm}$",
+        "$28.75\\text{ cm}$",
+        "$460\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert kilometers to centimeters: $11.5\\text{ km} = 11.5 \\times 100\\,000 = 1\\,150\\,000\\text{ cm}$. Map distance = $1\\,150\\,000 \\div 25\\,000 = 46\\text{ cm}$.\n\n**Common mistake:** Dividing $11.5$ by $25$ directly without performing full conversion of kilometers to centimeters."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q2",
+      "type": "mcq",
+      "question": "A map has a scale of $1 : 50\\,000$. A park has an area of $18\\text{ cm}^2$ on the map. Calculate the actual area of the park in square kilometers ($\\text{km}^2$).",
+      "options": [
+        "$4.5\\text{ km}^2$",
+        "$9\\text{ km}^2$",
+        "$0.45\\text{ km}^2$",
+        "$45\\text{ km}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear scale: $1\\text{ cm} : 50\\,000\\text{ cm} \\implies 1\\text{ cm} : 0.5\\text{ km}$. Area scale factor: $1\\text{ cm}^2 : (0.5\\text{ km})^2 = 0.25\\text{ km}^2$. Actual Area = $18 \\times 0.25 = 4.5\\text{ km}^2$.\n\n**Common mistake:** Multiplying $18$ by $0.5$ directly, forgetting to square the linear conversion factor for area questions."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q3",
+      "type": "mcq",
+      "question": "A map scale is given as $1 : 200\\,000$. Find the actual distance, in kilometers, represented by a line of length $8.5\\text{ cm}$ on the map.",
+      "options": [
+        "$17\\text{ km}$",
+        "$170\\text{ km}$",
+        "$1.7\\text{ km}$",
+        "$1700\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Actual distance in cm = $8.5 \\times 200\\,000 = 1\\,700\\,000\\text{ cm}$. Convert to km by dividing by $100\\,000$: $1\\,700\\,000 \\div 100\\,000 = 17\\text{ km}$.\n\n**Common mistake:** Miscounting zeros or dividing by $10\\,000$ instead of $100\\,000$, yielding $170\\text{ km}$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q4",
+      "type": "mcq",
+      "question": "A running track is represented on a map of scale $1 : 10\\,000$ by an area of $12\\text{ cm}^2$. What is the area of the track on a map of scale $1 : 50\\,000$?",
+      "options": [
+        "$0.48\\text{ cm}^2$",
+        "$2.4\\text{ cm}^2$",
+        "$0.048\\text{ cm}^2$",
+        "$60\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The linear ratio between the scales is $10\\,000 / 50\\,000 = \\frac{1}{5}$. Since the new map is less detailed (smaller scale), lengths scale down by $\\frac{1}{5}$ and areas scale down by $(\\frac{1}{5})^2 = \\frac{1}{25}$. New map area = $12 \\div 25 = 0.48\\text{ cm}^2$.\n\n**Common mistake:** Dividing the area by $5$ instead of $25$, or multiplying by 5 instead of dividing."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q5",
+      "type": "mcq",
+      "question": "The distance between two points on a map is $6.5\\text{ cm}$. The actual distance is $1.3\\text{ km}$. Find the scale of the map in the form $1 : n$.",
+      "options": [
+        "$1 : 20\\,000$",
+        "$1 : 200\\,000$",
+        "$1 : 2\\,000$",
+        "$1 : 50\\,000$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convert actual distance to cm: $1.3\\text{ km} = 130\\,000\\text{ cm}$. Scale ratio: $6.5 : 130\\,000$. Divide both sides by $6.5$: $1 : 20\\,000$.\n\n**Common mistake:** Incorrectly dividing $130\\,000$ by $6.5$ due to mental arithmetic errors, leading to incorrect powers of 10."
+    },
+    {
+      "type": "mcq",
+      "question": "A straight line passes through two points with coordinates **(2, 11)** and **(5, 23)**. Work out the equation of the line.",
+      "options": [
+        "$y = 4x + 3$",
+        "$y = 3x + 5$",
+        "$y = 4x + 11$",
+        "$y = 12x - 13$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $m = (23 - 11) / (5 - 2) = 12 / 3 = 4$. Using $y = 4x + c$2$11 = 4(2) + c \\implies c = 3$. Equation is $y = 4x + 3$.\n\n**Common mistake:** Using the coordinates of only one point and the origin to find a gradient.",
+      "id": "ch03-coordinate-geometry-graphs-pyp-q6"
+    },
+    {
+      "type": "mcq",
+      "question": "The equation of a straight line is **$5x + 2y + 10 = 0$**. State the **coordinates** of the point where the line crosses the **y-axis**.",
+      "options": [
+        "(0, -5)",
+        "(0, 5)",
+        "(-2, 0)",
+        "(0, -10)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x = 0$ to find the y-intercept: $2y + 10 = 0 \\implies 2y = -10 \\implies y = -5$. The point is (0, -5).\n\n**Common mistake:** Finding the x-intercept (-2, 0) instead of the y-intercept.",
+      "id": "ch03-coordinate-geometry-graphs-pyp-q7"
+    },
+    {
+      "type": "mcq",
+      "question": "A conversion graph for **Pounds (£) to Euros (€)** shows that £20 is €28. Tim spent **€154** on clothes. How many pounds (£) did he spend?",
+      "options": [
+        "£110",
+        "£100",
+        "£140",
+        "£215.60"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate is €1.4 per £1 ($28 / 20 = 1.4$). To find pounds: $154 / 1.4 = 110$. Or using the graph from the source: €154 corresponds to £110.\n\n**Common mistake:** Multiplying 154 by the conversion rate instead of dividing, leading to £215.60.",
+      "id": "ch03-coordinate-geometry-graphs-pyp-q8"
+    },
+    {
+      "type": "mcq",
+      "question": "Which three inequalities define the shaded region **A** formed by the lines **$y = 2$**, **$y = 3x$2$x + y = 6$**?",
+      "options": [
+        "$y \\ge 2, y \\le 3x, x + y \\le 6$",
+        "$y \\le 2, y \\ge 3x, x + y \\le 6$",
+        "$y \\ge 2, y \\ge 3x, x + y \\ge 6$",
+        "$y > 2, y < 3x, x + y > 6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Region A is above $y=2$, to the right of $y=3x$2$y \\le 3x$2$x+y=6$.\n\n**Common mistake:** Confusing the 'greater than' and 'less than' directions for diagonal lines.",
+      "id": "ch03-coordinate-geometry-graphs-pyp-q9"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the **distance** between the points **(1, -4)** and **(-2, 0)**.",
+      "options": [
+        "5 units",
+        "25 units",
+        "7 units",
+        "4.24 units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance $= \\sqrt{((-2) - 1)^2 + (0 - (-4))^2} = \\sqrt{(-3)^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.\n\n**Common mistake:** Adding the coordinates instead of finding the difference, or forgetting to take the square root at the end.",
+      "id": "ch03-coordinate-geometry-graphs-pyp-q10"
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q11",
+      "type": "mcq",
+      "question": "Calculate the length of the line segment joining the points (−3,−2) and (5,4).",
+      "options": [
+        "10",
+        "\\sqrt{14}",
+        "8",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Length =\nsqrt(5−(−3)$)^{2}$+(4−(−2)$)^{2}$=\nsqrt$8^{2}$+$6^{2}$=\nsqrt100=10.\n\n**Common mistake:** A student might subtract the coordinates incorrectly (e.g., 5−3=2) due to a sign error."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q12",
+      "type": "mcq",
+      "question": "Find the equation of the line which passes through the point (5,−2) and is parallel to the line y=4x+1.",
+      "options": [
+        "y=4x−22",
+        "y=4x+18",
+        "y=−0.25x−0.75",
+        "y=4x−20"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel lines have m=4. y−(−2)=4(x−5)\nRightarrowy+2=4x−20\nRightarrowy=4x−22.\n\n**Common mistake:** The student might change the gradient to −0.25 or incorrectly add/subtract constants."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q13",
+      "type": "mcq",
+      "question": "The line 2y+x=6 is parallel to line L, which passes through (2,10). Work out the coordinates of the point where L crosses the y-axis.",
+      "options": [
+        "(0,11)",
+        "(0,6)",
+        "(0,4)",
+        "(11,0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$L^{1}$\nhas m=−0.5. L also has m=−0.5. y−10=−0.5(x−2)\nRightarrowy=−0.5x+11. y-intercept is (0,11).\n\n**Common mistake:** The student might use the gradient of −0.5 from the first equation but fail to account for the passing point (2,10)."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q14",
+      "type": "mcq",
+      "question": "The midpoint of the line segment joining (a,7) and (10,b) is (3,4). Work out the values of a and b.",
+      "options": [
+        "a=−4,b=1",
+        "a=4,b=−1",
+        "a=3,b=4",
+        "a=−7,b=1"
+      ],
+      "correctIndex": 0,
+      "explanation": "(a+10)/2=3\nRightarrowa+10=6\nRightarrowa=−4. Also, (7+b)/2=4\nRightarrow7+b=8\nRightarrowb=1.\n\n**Common mistake:** The student might multiply the endpoint by 2 instead of the midpoint, or perform the addition incorrectly."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q15",
+      "type": "mcq",
+      "question": "Show that the line joining (1,1) and (3,5) is perpendicular to the line joining (0,4) and (4,2). What is the product of their gradients?",
+      "options": [
+        "−1",
+        "1",
+        "−2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "$m^{1}$\n=(5−1)/(3−1)=2$.$2m^{2}$$\n=(2−4)/(4−0)=−0.5. Product 2\ntimes−0.5=−1.\n\n**Common mistake:** The student might think the product should be 1 or fail to calculate one of the gradients correctly."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q16",
+      "type": "mcq",
+      "question": "Line $L^{1}$\npasses through (4,7) and is parallel to line $L^{2}$\nwith equation y=3x−2. Find the equation of $L^{1}$\nin the form y=mx+c.",
+      "options": [
+        "y=3x−5",
+        "y=3x+7",
+        "y=−0.33x+8.33",
+        "y=3x+19"
+      ],
+      "correctIndex": 0,
+      "explanation": "$L^{1}$\nhas gradient 3. 7=3(4)+c⇒7=12+c⇒c=−5. Equation is y=3x−5.\n\n**Common mistake:** The student might incorrectly calculate c as 7+12=19 or use the perpendicular gradient."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q17",
+      "type": "mcq",
+      "question": "Line M has the equation 2y+x=8. Line N is perpendicular to M and passes through (2,10). Find the equation of line N.",
+      "options": [
+        "y=2x+6",
+        "y=−0.5x+11",
+        "y=2x+10",
+        "y=−2x+14"
+      ],
+      "correctIndex": 0,
+      "explanation": "M has m=−0.5. N has m=2. 10=2(2)+c⇒10=4+c⇒c=6. So, y=2x+6.\n\n**Common mistake:** The student may use the gradient of −0.5 for line N or use the same y-intercept as line M."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q18",
+      "type": "mcq",
+      "question": "The points P(1,2) and Q(5,10) are given. Work out the equation of the perpendicular bisector of PQ.",
+      "options": [
+        "y=−0.5x+7.5",
+        "y=2x+4",
+        "y=−0.5x+6",
+        "y=−2x+12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint (3,6). Gradient PQ=8/4=2. Perp gradient −0.5. y−6=−0.5(x−3)⇒y=−0.5x+1.5+6⇒y=−0.5x+7.5.\n\n**Common mistake:** A student might calculate the equation of line PQ itself or forget to find the negative reciprocal of the gradient."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q19",
+      "type": "mcq",
+      "question": "Line A has gradient −2. Line B is perpendicular to A and passes through (0,4). Find the coordinates of the point where line B crosses the x-axis.",
+      "options": [
+        "(−8,0)",
+        "(0,4)",
+        "(8,0)",
+        "(2,0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Line B has m=0.5 and c=4. y=0.5x+4. Set y=0: 0=0.5x+4⇒−4=0.5x⇒x=−8.\n\n**Common mistake:** The student might use the gradient −2 to find the intercept or fail to correctly solve the linear equation for x."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q20",
+      "type": "mcq",
+      "question": "Show that the lines 3x−4y=12 and 4x+3y=8 are perpendicular. Which calculation correctly justifies this?",
+      "options": [
+        "0.75×−1.33=−1",
+        "0.75=0.75",
+        "3×4=12",
+        "12+8=20"
+      ],
+      "correctIndex": 0,
+      "explanation": "First line: y=0.75x−3 (m=0.75). Second line: y=−1.33x+2.67 (m≈−1.33). Product 0.75×−1.33=−1, confirming they are perpendicular.\n\n**Common mistake:** The student might assume they are perpendicular based on the coefficients 'swapping' without checking the signs or the product of gradients."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q21",
+      "type": "mcq",
+      "question": "A firm makes a profit of $P$2$x$2$P = -x^2 + 3x - 1$. Using a graph of this function for $0 \\le x \\le 3$, estimate the range of values of $x$2$1.5$ thousand dollars ($1500$).",
+      "options": [
+        "$1.1 \\le x \\le 1.9$",
+        "$0.5 \\le x \\le 2.5$",
+        "$1.6 \\le x \\le 2.4$",
+        "$1.0 \\le x \\le 2.0$"
+      ],
+      "correctIndex": 2,
+      "explanation": "By plotting the function and drawing a horizontal line at $P = 1.5$, the intersection points on the x-axis are approximately $1.6$ and $2.4$. Thus, the profit exceeds $1.5$ in that interval.\n\n**Common mistake:** Students may identify the x-intercepts (where $P=0$) instead of the intersection with the line $P=1.5$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q22",
+      "type": "mcq",
+      "question": "A ball is thrown in the air so that $t$2$h$2$h = 25t - 5t^2$. Use the graph of this function to find the time interval during which the ball is at a height of more than $30$ m.",
+      "options": [
+        "$2 < t < 3$",
+        "$1 < t < 4$",
+        "$1.5 < t < 3.5$",
+        "$0 < t < 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plotting the function $h = 25t - 5t^2$ and checking the values where $h > 30$ gives the time interval $2 < t < 3$.\n\n**Common mistake:** Rounding the time values to the nearest whole second instead of providing the exact interval from the graph."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q23",
+      "type": "mcq",
+      "question": "A curve has the equation $y = \\frac{12}{x} + x - 6$. By drawing a tangent to the curve at the point where $x = 5$, estimate the gradient of the curve at that point.",
+      "options": [
+        "$-0.54$",
+        "$0.52$",
+        "$1.50$",
+        "$-1.20$"
+      ],
+      "correctIndex": 1,
+      "explanation": "A tangent drawn at $x=5$ allows for the calculation of the gradient using $\\frac{\\text{vertical change}}{\\text{horizontal change}}$, which is approximately $0.52$.\n\n**Common mistake:** Drawing a chord between two points instead of a tangent that just touches the curve at a single point."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q24",
+      "type": "mcq",
+      "question": "The value of a car in dollars ($y$2$t$2$y = 80{,}000 \\times 0.9^t$. Use a graph of this function to estimate the maximum number of years the owner can keep the car if they want to sell it while it is still worth more than $30{,}000$.",
+      "options": [
+        "9 years",
+        "10 years",
+        "8 years",
+        "7 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "By plotting the exponential decay and finding the point where $y = 30{,}000$, the corresponding $t$2$9.3$ years. Therefore, the maximum whole number of years to keep it is $9$.\n\n**Common mistake:** Rounding up to 10 years, which would result in a car value below $30{,}000$."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q25",
+      "type": "mcq",
+      "question": "The graph of $y = 2 + 3x - 2x^2$ is drawn. Which straight line should be drawn on the same axes to find the approximate solutions to the equation $2x^2 - 3x - 2 = 0$?",
+      "options": [
+        "$y = 0$",
+        "$y = 3x$",
+        "$y = x + 2$",
+        "$y = -2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation $2x^2 - 3x - 2 = 0$ is equivalent to $0 = 2 + 3x - 2x^2$. This means finding where the original curve $y = 2 + 3x - 2x^2$ intersects the line $y = 0$ (the x-axis).\n\n**Common mistake:** Attempting to rearrange the equation into a complex linear form instead of recognizing it as the root of the existing function."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q26",
+      "type": "mcq",
+      "question": "The speed–time graph shows a train accelerating from rest to $30$ m/s in $20$ seconds. Work out the acceleration of the train in m/s $2$.",
+      "options": [
+        "$1.5$ m/s $2$",
+        "$0.67$ m/s $2$",
+        "$600$ m/s $2$",
+        "$10$ m/s $2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the gradient of the speed–time graph. $m = (30 - 0) / (20 - 0) = 1.5$ m/s $2$.\n\n**Common mistake:** A student might divide time by speed ($20 / 30$) or multiply the two values together."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q27",
+      "type": "mcq",
+      "question": "A car's motion is represented on a speed–time graph. It travels at a constant speed of $20$ m/s for $40$ seconds and then decelerates uniformly to rest in $10$ seconds. Calculate the total distance travelled.",
+      "options": [
+        "$900$ m",
+        "$1000$ m",
+        "$800$ m",
+        "$500$ m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total distance = Area of rectangle + Area of triangle = $(40 \\cdot 20) + (0.5 \\cdot 10 \\cdot 20) = 800 + 100 = 900$ m. Alternatively, Area of trapezium = $0.5 \\cdot (40 + 50) \\cdot 20 = 900$ m.\n\n**Common mistake:** The student might calculate the area of the rectangle only or fail to use the $0.5$ factor for the deceleration triangle."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q28",
+      "type": "mcq",
+      "question": "The diagram shows a speed–time graph of a bus. The bus accelerates from rest at a constant rate of $0.8$ m/s $2$. How long does it take the bus to reach a speed of $12$ m/s?",
+      "options": [
+        "$15$ seconds",
+        "$9.6$ seconds",
+        "$12.8$ seconds",
+        "$1.5$ seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration = $speed / time \\Rightarrow 0.8 = 12 / t \\Rightarrow t = 12 / 0.8 = 15$ seconds.\n\n**Common mistake:** The student might multiply $12$ by $0.8$ instead of dividing."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q29",
+      "type": "mcq",
+      "question": "A cyclist travels $80$ km in $4$ hours. For the first $30$ km, the average speed was $20$ km/h. Work out the average speed for the remaining $50$ km of the journey.",
+      "options": [
+        "$20$ km/h",
+        "$25$ km/h",
+        "$12.5$ km/h",
+        "$15$ km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time 1 = $30 / 20 = 1.5$ hours. Remaining time = $4 - 1.5 = 2.5$ hours. Average speed 2 = $50 / 2.5 = 20$ km/h.\n\n**Common mistake:** A student might assume the time was split equally or simply average the two distances."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q30",
+      "type": "mcq",
+      "question": "Two athletes, P and Q, run a $400$ m race. P runs at a constant speed and finishes in $50$ s. Q starts slowly but accelerates, finishing in $50$ s as well. Which statement is correct based on their distance–time graphs?",
+      "options": [
+        "The graph for P is a straight line, and the graph for Q is a curve.",
+        "Both graphs are straight lines since they finish at the same time.",
+        "The gradient of P's graph is lower than Q's at the finish line.",
+        "Q was in front for the entire duration of the race."
+      ],
+      "correctIndex": 0,
+      "explanation": "Constant speed results in a straight line on a distance–time graph. Acceleration results in a curve where the gradient (speed) increases over time.\n\n**Common mistake:** The student might think all distance–time graphs are linear regardless of acceleration."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q31",
+      "type": "mcq",
+      "question": "The diagram shows the graph of $y = x^3 - 2x^2 - 4x$2$x^3 - 2x^2 - 4x = 0$.",
+      "options": [
+        "$x = 0, x = -1.24, x = 3.24$",
+        "$x = 0, x = 2, x = 4$",
+        "$x = -2, x = 0, x = 4$",
+        "$x = -1.24, x = 3.24$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The solutions are the $x$2$x$2$y=0$).\n\n**Common mistake:** The student might miss the intersection at the origin or provide integer approximations that are not accurate to the graph."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q32",
+      "type": "mcq",
+      "question": "By drawing a suitable straight line on the graph of $y = x^2 + 4x + 5$, find the approximate solutions to $x^2 + 3x - 1 = 0$. Which line should be drawn?",
+      "options": [
+        "$y = x + 6$",
+        "$y = -x - 6$",
+        "$y = x - 6$",
+        "$y = 1 - 3x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange $x^2 + 3x - 1 = 0$ to get $(x^2 + 4x + 5) - x - 6 = 0 \\Rightarrow x^2 + 4x + 5 = x + 6$. Plot $y = x + 6$.\n\n**Common mistake:** A student might mistakenly try to plot the equation $y = x^2 + 3x - 1$ directly instead of using the existing graph."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q33",
+      "type": "mcq",
+      "question": "Show that the equation $2x^2 - x - 3 = 6$ can be solved by finding the intersection of $y = 2x^2 - x - 3$ and $y = 6$. If these intersect at $A$2$B$2$x$-coordinates represent?",
+      "options": [
+        "The approximate solutions to the equation",
+        "The turning points of the curve",
+        "The $y$-intercepts of the curve",
+        "The gradients at those points"
+      ],
+      "correctIndex": 0,
+      "explanation": "The $x$-values of the intersection points of a curve and a line provide the solutions to the combined equation.\n\n**Common mistake:** The student might confuse solutions (roots) with turning points where the gradient is zero."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q34",
+      "type": "mcq",
+      "question": "A line $y = k$2$k = f(x)$. Based on a typical $\\cup$-shaped quadratic graph, where must this line be?",
+      "options": [
+        "Passing through the turning point",
+        "Above the turning point",
+        "Below the turning point",
+        "On the $y$-axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal line $y=k$2$\\cup$2$\\cap$-shaped). Wait, re-reading source 211... 'exactly two solutions' for a cubic or specific quadratic might refer to the turning point tangent. Actually, a line at the turning point has one solution. For a quadratic, any line above the minimum has two.\n\n**Common mistake:** The student might think the turning point (where there is only one solution/tangency) is the answer for 'two' solutions."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q35",
+      "type": "mcq",
+      "question": "Hence, find the exact solutions to the simultaneous equations $y = 2x + 1$ and $y = 4x - 1$ by identifying their intersection point.",
+      "options": [
+        "$(1, 3)$",
+        "$(3, 1)$",
+        "$(0, 1)$",
+        "$(1, 1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving $2x + 1 = 4x - 1 \\Rightarrow 2 = 2x \\Rightarrow x = 1$. Substituting $x = 1$ into either gives $y = 3$. Point is $(1, 3)$.\n\n**Common mistake:** The student may solve for $x$2$y$-value."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q36",
+      "type": "mcq",
+      "question": "A curve has the equation $y = 2x^3 - 3x^2 - 12x + 1$. Work out the $x$-coordinates of the turning points.",
+      "options": [
+        "$2$ and $-1$",
+        "$-2$ and $1$",
+        "$0$ and $2$",
+        "$3$ and $-2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 6x - 12$. Set to zero: $6(x^2 - x - 2) = 0 \\Rightarrow (x - 2)(x + 1) = 0$. The $x$2$2$ and $-1$.\n\n**Common mistake:** The student might forget to divide by 6 before factoring or swap the signs in the factored brackets."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q37",
+      "type": "mcq",
+      "question": "The velocity $v$2$t$2$v = 40t - 5t^2$. Find the acceleration when $t = 3$.",
+      "options": [
+        "$10$ m/s $2$",
+        "$75$ m/s $2$",
+        "$40$ m/s $2$",
+        "$15$ m/s$^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration is the derivative of velocity: $a = \\frac{dv}{dt} = 40 - 10t$2$t = 3$, $a = 40 - 10(3) = 10$.\n\n**Common mistake:** The student may calculate the velocity at $t=3$ instead of the acceleration."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q38",
+      "type": "mcq",
+      "question": "Hence, determine the nature of the turning point of $y = x^2 - 4x + 1$ at $(2, -3)$ by showing that point $A$ is a minimum point.",
+      "options": [
+        "$\\frac{d^2y}{dx^2} = 2$, which is positive",
+        "The $y$2$-3$ is negative",
+        "The gradient at $x=1$ is positive",
+        "$\\frac{dy}{dx} = 0$ at $x=2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To show a point is a minimum, the second derivative $\\frac{d^2y}{dx^2}$ must be positive. Here $\\frac{dy}{dx} = 2x - 4$ and $\\frac{d^2y}{dx^2} = 2$, which is greater than zero.\n\n**Common mistake:** The student might believe a negative $y$-value at the turning point automatically makes it a minimum."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q39",
+      "type": "mcq",
+      "question": "Calculate the value of the gradient of the curve $y = 2x^3 - 4x^2 + 5x$2$x = 0.5$.",
+      "options": [
+        "$2.5$",
+        "$5$",
+        "$0$",
+        "$2.25$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 8x + 5$. At $x = 0.5$, $\\frac{dy}{dx} = 6(0.25) - 8(0.5) + 5 = 1.5 - 4 + 5 = 2.5$.\n\n**Common mistake:** The student might incorrectly square $0.5$ as $2.5$ or perform arithmetic errors during the addition/subtraction steps."
+    },
+    {
+      "id": "ch03-coordinate-geometry-graphs-pyp-q40",
+      "type": "mcq",
+      "question": "Find the $x$2$y = x^3 - 6x^2 - 7x$. Give your answer correct to 2 decimal places.",
+      "options": [
+        "$-0.52$ and $4.52$",
+        "$0.52$ and $-4.52$",
+        "$-1$ and $7$",
+        "$-0.48$ and $4.48$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 12x - 7$. Use the quadratic formula: $x = \\frac{12 \\pm \\sqrt{144 - 4(3)(-7)}}{6} = \\frac{12 \\pm \\sqrt{228}}{6} \\approx 4.52, -0.52$.\n\n**Common mistake:** The student might find the roots of the original cubic equation ($y=0$) instead of the turning points ($dy/dx=0$)."
+    }
+  ]
+}

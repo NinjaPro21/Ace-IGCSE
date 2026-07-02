@@ -1,0 +1,77 @@
+{
+  "id": "14-2-transmission-of-sound-easy",
+  "topicId": "14-2-transmission-of-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "easy",
+  "title": "Transmission of Sound — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-2-transmission-of-sound-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following is essential for the transmission of sound waves?",
+      "options": [
+        "A material medium",
+        "A vacuum",
+        "A light source",
+        "A magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound is a mechanical wave that requires a medium (solid, liquid, or gas) to travel. \n\n**Common mistake:** Thinking sound can travel through a vacuum like electromagnetic waves do."
+    },
+    {
+      "id": "14-2-transmission-of-sound-easy-q2",
+      "type": "mcq",
+      "question": "What is the approximate speed of sound in air under standard conditions?",
+      "options": [
+        "$330\\text{ m/s}$",
+        "$3.0 \\times 10^{8}\\text{ m/s}$",
+        "$1500\\text{ m/s}$",
+        "$330\\text{ km/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Table 14.2, the typical speed of sound in air is approximately $330\\text{ m/s}$. \n\n**Common mistake:** Confusing this with the speed of light ($3.0 \\times 10^{8}\\text{ m/s}$)."
+    },
+    {
+      "id": "14-2-transmission-of-sound-easy-q3",
+      "type": "mcq",
+      "question": "In which state of matter does sound generally travel the fastest?",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Plasmas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound travels fastest in solids (e.g., $5000\\text{ m/s}$ in iron) because the particles are closely packed, allowing vibrations to pass more efficiently. \n\n**Common mistake:** Believing sound travels faster in air because air is 'thinner'."
+    },
+    {
+      "id": "14-2-transmission-of-sound-easy-q4",
+      "type": "mcq",
+      "question": "Which of the following describes the nature of a sound wave?",
+      "options": [
+        "Longitudinal",
+        "Transverse",
+        "Electromagnetic",
+        "Surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves are longitudinal, meaning the direction of vibration is parallel to the direction of energy transfer. \n\n**Common mistake:** Selecting 'transverse,' which describes light or rope waves."
+    },
+    {
+      "id": "14-2-transmission-of-sound-easy-q5",
+      "type": "mcq",
+      "question": "Which of these is the correct SI unit for the speed of sound?",
+      "options": [
+        "metres per second ($\\text{m/s}$)",
+        "hertz ($\\text{Hz}$)",
+        "metres ($\\text{m}$)",
+        "seconds ($\\text{s}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is defined as distance per unit time, measured in $\\text{m/s}$. \n\n**Common mistake:** Using hertz ($\\text{Hz}$), which is the unit for frequency."
+    }
+  ]
+}

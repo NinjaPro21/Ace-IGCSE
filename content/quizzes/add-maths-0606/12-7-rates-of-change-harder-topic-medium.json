@@ -1,0 +1,77 @@
+{
+  "id": "12-7-rates-of-change-harder-topic-medium",
+  "topicId": "12-7-rates-of-change-harder-topic",
+  "chapterId": "ch12-calculus-differentiation-1",
+  "difficulty": "medium",
+  "title": "Rates of Change — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "12-7-rates-of-change-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "The area of a circular ink blot is increasing at a rate of $16\\pi$2$^2$/s. Find the rate at which the radius is increasing when the area is $64\\pi$2$^2$.",
+      "options": [
+        "$1$ cm/s",
+        "$2$ cm/s",
+        "$0.5$ cm/s",
+        "$4$ cm/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$A = 64\\pi \\implies r = 8$. $\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt} \\implies 16\\pi = 2\\pi(8) \\times \\frac{dr}{dt} \\implies 16\\pi = 16\\pi \\times \\frac{dr}{dt} \\implies \\frac{dr}{dt} = 1$.\n\n**Common mistake:** Option B occurs if the student uses the area ($64\\pi$2$8$)."
+    },
+    {
+      "id": "12-7-rates-of-change-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "Find the rate of change of the volume of a sphere with respect to time when the radius $r = 5$ cm, given that the surface area is increasing at^10 cm^2/s.",
+      "options": [
+        "$25$ cm³/s",
+        "$50$ cm³/s",
+        "$12.5$ cm³/s",
+        "$10$ cm³/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt} = 10 \\implies \\frac{dr}{dt} = \\frac{10}{40\\pi}$. $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} = 4\\pi(25) \\times \\frac{10}{40\\pi} = 100\\pi \\times \\frac{1}{4\\pi} = 25$.\n\n**Common mistake:** Option B results from neglecting the factor of^2 difference between the surface area and volume derivative coefficients."
+    },
+    {
+      "id": "12-7-rates-of-change-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "A curve has the equation $y = 2x^2 - 3x$2$y$2$x = 5$, given that $x$2$0.2$ units per second.",
+      "options": [
+        "$3.4$ units/s",
+        "$17$ units/s",
+        "$4$ units/s",
+        "$0.6$ units/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = 4x - 3$. At $x = 5$, $\\frac{dy}{dx} = 17$. Then $\\frac{dy}{dt} = 17 \\times 0.2 = 3.4$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$ at $x=5$, forgetting to apply the time-rate chain rule."
+    },
+    {
+      "id": "12-7-rates-of-change-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "The volume of a cube is increasing at a rate of^30 cm³/s. Find the rate of increase of the side length when the side length is^5 cm.",
+      "options": [
+        "$0.4$ cm/s",
+        "$1.2$ cm/s",
+        "$2.5$ cm/s",
+        "$6$ cm/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$V = s^3 \\implies \\frac{dV}{ds} = 3s^2$. $\\frac{dV}{dt} = \\frac{dV}{ds} \\times \\frac{ds}{dt} \\implies 30 = 3(25) \\times \\frac{ds}{dt} \\implies 30 = 75 \\times \\frac{ds}{dt} \\implies \\frac{ds}{dt} = 0.4$.\n\n**Common mistake:** Option B occurs if the student uses $s^2$ instead of $3s^2$ for the derivative of volume."
+    },
+    {
+      "id": "12-7-rates-of-change-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "If $y = \\frac{12}{x}$ and $\\frac{dy}{dt} = -3$ units/s, find the rate of change of $x$2$x = 2$.",
+      "options": [
+        "$1$ unit/s",
+        "$-1$ unit/s",
+        "$4$ units/s",
+        "$3$ units/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{dy}{dx} = -\\frac{12}{x^2}$. At $x = 2$, $\\frac{dy}{dx} = -3$. Since $\\frac{dy}{dt} = \\frac{dy}{dx} \\times \\frac{dx}{dt}$, we have $-3 = -3 \\times \\frac{dx}{dt} \\implies \\frac{dx}{dt} = 1$.\n\n**Common mistake:** Option B is a sign error where the student concludes $x$2$y$ is decreasing."
+    }
+  ]
+}

@@ -4,11 +4,14 @@ Coordinate geometry uses algebraic formulas to analyze straight lines drawn on a
 
 ## Key formulas
 
-$$\text{Midpoint: } M = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)$$
+$$
+\text{Midpoint: } M = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
 
-$$\text{Gradient: } m = \frac{y_2 - y_1}{x_2 - x_1}$$
+\text{Gradient: } m = \frac{y_2 - y_1}{x_2 - x_1}
 
-$$\text{Parallel Condition: } m_1 = m_2, \quad \text{Perpendicular Condition: } m_1 \times m_2 = -1 \implies m_2 = -\frac{1}{m_1}$$
+\text{Parallel Condition: } m_1 = m_2, \quad \text{Perpendicular Condition: } m_1 \times m_2 = -1 \implies m_2 = -\frac{1}{m_1}
+$$
+
 
 ## Steps / method
 
@@ -28,15 +31,15 @@ Parallel lines share the same gradient ($m_1 = m_2$). Perpendicular lines have g
 
 Find the midpoint of $A(2, 5)$ and $B(8, -1)$, and the gradient of line $AB$.
 
-$$M = \left(\frac{2+8}{2}, \frac{5+(-1)}{2}\right) = (5, 2)$$
-
-$$m = \frac{-1 - 5}{8 - 2} = \frac{-6}{6} = -1$$
+Midpoint: $M = \left(\frac{2 + 8}{2},\, \frac{5 + (-1)}{2}\right) = (5,\, 2)$. Gradient: $m = \frac{-1 - 5}{8 - 2} = \frac{-6}{6} = -1$.
 
 ## Worked example — Perpendicular gradient
 
 A line has gradient $m_1 = \frac{3}{4}$. Find the gradient of a line perpendicular to it.
 
-$$m_2 = -\frac{1}{m_1} = -\frac{4}{3}$$
+$$
+m_2 = -\frac{1}{m_1} = -\frac{4}{3}
+$$
 
 ## Examiner tip
 
@@ -45,7 +48,3 @@ Be careful with negative signs when calculating perpendicular gradients. If $m_1
 ## Quick check
 
 If two lines are perpendicular, then the product of their gradients must always equal $-1$.
-
-## Visual / interactive intent
-
-Reuse explorer: Coordinate geometry lab. Users can drag two coordinate points around a grid. A secondary line automatically snaps to be parallel or perpendicular based on a menu toggle, displaying the active calculations dynamically.

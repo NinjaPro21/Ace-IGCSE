@@ -1,0 +1,77 @@
+{
+  "id": "5-7-similarity-length-area-volume-ratios-medium",
+  "topicId": "5-7-similarity-length-area-volume-ratios",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "medium",
+  "title": "Similarity (Length, Area, Volume Ratios) — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-medium-q1",
+      "type": "mcq",
+      "question": "In a diagram, triangle $ADE$2$ABC$2$DE$2$BC$2$AD = 2\\text{ cm}, AB = 6\\text{ cm},$ and $DE = 5\\text{ cm}$, find the length of $BC$.",
+      "options": [
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$7.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The linear scale factor $k = AB/AD = 6/2 = 3$. Therefore, $BC = DE \\times 3 = 5 \\times 3 = 15\\text{ cm}$.\n\n**Common mistake:** The student might use the length $BD$2$4\\text{ cm}$) as the scale factor instead of the full side $AB$."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-medium-q2",
+      "type": "mcq",
+      "question": "Two similar triangles have areas of $18\\text{ cm}^2$ and $32\\text{ cm}^2$. If the base of the smaller triangle is $6\\text{ cm}$, find the base of the larger triangle.",
+      "options": [
+        "$8\\text{ cm}$",
+        "$10.7\\text{ cm}$",
+        "$10.5\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 32/18 = 16/9$. Linear scale factor $k = \\sqrt{16/9} = 4/3$. Base $= 6 \\times (4/3) = 8\\text{ cm}$.\n\n**Common mistake:** A student might multiply the base by the area ratio ($32/18$) directly without taking the square root."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-medium-q3",
+      "type": "mcq",
+      "question": "The surface areas of two similar cylinders are in the ratio $4 : 9$. If the smaller cylinder has a height of $10\\text{ cm}$, what is the height of the larger cylinder?",
+      "options": [
+        "$15\\text{ cm}$",
+        "$22.5\\text{ cm}$",
+        "$12.5\\text{ cm}$",
+        "$13.3\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 9/4$. Linear scale factor $k = \\sqrt{9/4} = 1.5$. Height $= 10 \\times 1.5 = 15\\text{ cm}$.\n\n**Common mistake:** Students may treat the area ratio as the linear ratio and calculate $10 \\times (9/4) = 22.5$."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-medium-q4",
+      "type": "mcq",
+      "question": "Two similar jugs have heights of $4\\text{ cm}$ and $6\\text{ cm}$. If the capacity of the smaller jug is $50\\text{ cm}^3$, find the capacity of the larger jug.",
+      "options": [
+        "$168.75\\text{ cm}^3$",
+        "$112.5\\text{ cm}^3$",
+        "$75\\text{ cm}^3$",
+        "$150\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linear scale factor $k = 6/4 = 1.5$. Volume scale factor $k^3 = 1.5^3 = 3.375$. Capacity $= 50 \\times 3.375 = 168.75\\text{ cm}^3$.\n\n**Common mistake:** The student might multiply the capacity by the height ratio ($1.5$) or its square ($2.25$)."
+    },
+    {
+      "id": "5-7-similarity-length-area-volume-ratios-medium-q5",
+      "type": "mcq",
+      "question": "The areas of the bases of two similar statues are in the ratio $4 : 25$. Find the ratio of their volumes.",
+      "options": [
+        "$8 : 125$",
+        "$2 : 5$",
+        "$4 : 125$",
+        "$16 : 625$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area ratio $k^2 = 25/4$, so $k = 5/2$. Volume ratio $k^3 = (5/2)^3 = 125/8$.\n\n**Common mistake:** A common mistake is cubing the area ratio ($4^3 : 25^3$) instead of first finding the linear scale factor."
+    }
+  ]
+}

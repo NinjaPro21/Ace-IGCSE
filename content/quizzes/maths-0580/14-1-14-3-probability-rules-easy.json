@@ -1,0 +1,77 @@
+{
+  "id": "14-1-14-3-probability-rules-easy",
+  "topicId": "14-1-14-3-probability-rules",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Probability Rules — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-14-3-probability-rules-easy-q1",
+      "type": "mcq",
+      "question": "If the probability of an event $A$2$0.34$, what is the probability of the event NOT happening ($A'$)?",
+      "options": [
+        "$0.66$",
+        "$0.34$",
+        "$1.34$",
+        "$0.76$"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the probability of an event not happening is $1 - P(A)$. Therefore, $1 - 0.34 = 0.66$.\n\n**Common mistake:** Students sometimes subtract from $10$ or $100$ incorrectly, or assume the probability is the same."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-easy-q2",
+      "type": "mcq",
+      "question": "A fair six-sided die is rolled once. What is the probability of obtaining a multiple of 3?",
+      "options": [
+        "$1/3$",
+        "$1/6$",
+        "$1/2$",
+        "$2/3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The multiples of 3 on a standard die are 3 and 6. There are 2 successful outcomes out of 6 possible outcomes ($2/6 = 1/3$).\n\n**Common mistake:** Only counting the number 3 and forgetting that 6 is also a multiple of 3."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-easy-q3",
+      "type": "mcq",
+      "question": "In a series of 40 trials, a red light appeared 12 times. Calculate the relative frequency of the red light.",
+      "options": [
+        "$0.3$",
+        "$0.12$",
+        "$3.33$",
+        "$1.2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relative frequency is calculated as the number of successes divided by the total trials: $12 / 40 = 0.3$.\n\n**Common mistake:** Dividing the total trials by the successes ($40 / 12$)."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-easy-q4",
+      "type": "mcq",
+      "question": "Events $A$2$B$2$P(A) = 0.2$ and $P(B) = 0.5$, what is $P(A \\text{ or } B)$?",
+      "options": [
+        "$0.7$",
+        "$0.1$",
+        "$0.3$",
+        "$0.07$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For mutually exclusive events, the 'OR rule' states $P(A \\text{ or } B) = P(A) + P(B)$. So, $0.2 + 0.5 = 0.7$.\n\n**Common mistake:** Multiplying the probabilities instead of adding them."
+    },
+    {
+      "id": "14-1-14-3-probability-rules-easy-q5",
+      "type": "mcq",
+      "question": "What does it mean for a coin or die to be described as 'fair' in probability?",
+      "options": [
+        "All possible outcomes are equally likely",
+        "The coin will land on heads exactly 50% of the time in any 10 trials",
+        "The object has no physical damage",
+        "One outcome is more likely than the others"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that when a die or coin is fair, all possible outcomes are equally likely.\n\n**Common mistake:** Thinking 'fair' means that short-term results must perfectly match the theoretical probability (e.g., 5 heads in 10 tosses)."
+    }
+  ]
+}

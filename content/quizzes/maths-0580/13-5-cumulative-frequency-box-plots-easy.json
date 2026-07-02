@@ -1,0 +1,77 @@
+{
+  "id": "13-5-cumulative-frequency-box-plots-easy",
+  "topicId": "13-5-cumulative-frequency-box-plots",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "easy",
+  "title": "Cumulative Frequency & Box Plots — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "13-5-cumulative-frequency-box-plots-easy-q1",
+      "type": "mcq",
+      "question": "In statistics, what is the definition of 'cumulative frequency'?",
+      "options": [
+        "The total frequency up to a given point",
+        "The average frequency of all class intervals",
+        "The difference between the highest and lowest frequencies",
+        "The frequency density of a specific interval"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, cumulative frequency is defined as the total frequency up to a given point.\n\n**Common mistake:** Students often confuse cumulative frequency with the frequency of a single class interval."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-easy-q2",
+      "type": "mcq",
+      "question": "When plotting a cumulative frequency curve for grouped data, at which point in the class interval should each point be plotted?",
+      "options": [
+        "At the upper bound of the interval",
+        "At the midpoint of the interval",
+        "At the lower bound of the interval",
+        "At the point of highest frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve connects points representing the cumulative frequency at the upper bound of every class interval.\n\n**Common mistake:** Students frequently plot points at the midpoint, which is the rule for frequency polygons, not cumulative frequency curves."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-easy-q3",
+      "type": "mcq",
+      "question": "Which label is correctly used for the vertical axis of a cumulative frequency graph?",
+      "options": [
+        "Cumulative frequency",
+        "Frequency density",
+        "Frequency",
+        "Percentage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cumulative frequency graphs must plot the running total on the vertical axis, labelled as cumulative frequency.\n\n**Common mistake:** A student might label the axis as 'Frequency', which refers to a standard bar chart or histogram."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-easy-q4",
+      "type": "mcq",
+      "question": "By what other name is the 50th percentile known in cumulative frequency analysis?",
+      "options": [
+        "The median",
+        "The lower quartile",
+        "The upper quartile",
+        "The interquartile range"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the median is the point halfway (50%) through the data, it is sometimes called the 50th percentile.\n\n**Common mistake:** Students may think the median is simply the middle number of the marks (e.g., 50 if marks go to 100) rather than the 50th percentile of the frequency."
+    },
+    {
+      "id": "13-5-cumulative-frequency-box-plots-easy-q5",
+      "type": "mcq",
+      "question": "How is the lower quartile (25th percentile) found using the total frequency $N$?",
+      "options": [
+        "Divide the total frequency by 4",
+        "Divide the total frequency by 2",
+        "Multiply the total frequency by 0.75",
+        "Subtract the lower bound from the upper bound"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the lower quartile is found by dividing the total frequency by 4.\n\n**Common mistake:** A student might use $N/2$ which is the method for finding the median."
+    }
+  ]
+}

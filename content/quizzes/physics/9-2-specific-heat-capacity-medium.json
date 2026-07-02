@@ -1,0 +1,77 @@
+{
+  "id": "9-2-specific-heat-capacity-medium",
+  "topicId": "9-2-specific-heat-capacity",
+  "chapterId": "ch09-thermal-properties-and-temperature",
+  "difficulty": "medium",
+  "title": "Specific Heat Capacity — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-2-specific-heat-capacity-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the temperature change of $1\\text{ kg}$ of copper when it is supplied with $4200\\text{ J}$ of thermal energy. (Specific heat capacity of copper $= 400\\text{ J/(kg K)}$)",
+      "options": [
+        "$10.5\\text{ K}$",
+        "$0.095\\text{ K}$",
+        "$1680\\text{ K}$",
+        "$420\\text{ K}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $Delta theta = Delta E / (m \\times c)$, we get $4200 / (1 \\times 400) = 10.5\\text{ K}$. \n\n**Common mistake:** Multiplying the numbers ($1680000$) instead of dividing."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-medium-q2",
+      "type": "mcq",
+      "question": "On a hot sunny day, the sand at the beach feels much hotter than the water in the sea. What is the most likely reason for this?",
+      "options": [
+        "Water has a much higher specific heat capacity than sand",
+        "Sand is a better conductor of heat than water",
+        "The Sun's radiation only hits the sand directly",
+        "Water reflects all of the thermal energy from the Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water has a very high specific heat capacity ($4200\\text{ J/(kg K)}$), meaning it requires much more energy to raise its temperature compared to sand. \n\n**Common mistake:** Thinking it is due to conduction rather than the energy required for a temperature rise."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-medium-q3",
+      "type": "mcq",
+      "question": "A $100\\text{ g}$ piece of metal requires $1000\\text{ J}$ of energy to raise its temperature by $9^\\circ\\text{C}$. Calculate its specific heat capacity.",
+      "options": [
+        "$1111\\text{ J/(kg K)}$",
+        "$1.11\\text{ J/(kg K)}$",
+        "$900\\text{ J/(kg K)}$",
+        "$111\\text{ J/(kg K)}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First, convert mass to kg: $100\\text{ g} = 0.1\\text{ kg}$. Then $c = 1000 / (0.1 \\times 9) \\approx 1111\\text{ J/(kg K)}$. \n\n**Common mistake:** Using $100\\text{ g}$ directly in the formula, leading to an answer of $1.11$."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-medium-q4",
+      "type": "mcq",
+      "question": "Which material from the following list would require the LEAST amount of energy to raise the temperature of $1\\text{ kg}$ by $10\\text{ K}$?",
+      "options": [
+        "Lead ($130\\text{ J/(kg K)}$)",
+        "Aluminium ($900\\text{ J/(kg K)}$)",
+        "Seawater ($3900\\text{ J/(kg K)}$)",
+        "Water ($4200\\text{ J/(kg K)}$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specific heat capacity tells us how much energy is needed. The smaller the value, the less energy is required for the same temperature change. \n\n**Common mistake:** Choosing water because it is the most common material."
+    },
+    {
+      "id": "9-2-specific-heat-capacity-medium-q5",
+      "type": "mcq",
+      "question": "A rise in temperature of $25\\text{ K}$ is equal to a rise in temperature of:",
+      "options": [
+        "$25^\\circ\\text{C}$",
+        "$298^\\circ\\text{C}$",
+        "$-248^\\circ\\text{C}$",
+        "$253^\\circ\\text{C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The size of one kelvin is exactly the same as the size of one degree Celsius; therefore, a change in temperature is identical on both scales. \n\n**Common mistake:** Adding $273$ to the temperature change value."
+    }
+  ]
+}

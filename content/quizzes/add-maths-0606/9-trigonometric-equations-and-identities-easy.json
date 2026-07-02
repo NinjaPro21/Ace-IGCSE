@@ -1,0 +1,77 @@
+{
+  "id": "9-trigonometric-equations-and-identities-easy",
+  "topicId": "9-trigonometric-equations-and-identities",
+  "chapterId": "ch09-trigonometry",
+  "difficulty": "easy",
+  "title": "Trigonometric Equations and Identities — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-trigonometric-equations-and-identities-easy-q1",
+      "type": "mcq",
+      "question": "Given that $\\cos \\theta = 0.5$ for an acute angle $\\theta$2$\\sec \\theta$.",
+      "options": [
+        "$2$",
+        "$0.5$",
+        "$\\sqrt{3}$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The secant ratio is the reciprocal of the cosine ratio, so $\\sec \\theta = 1/\\cos \\theta = 1/0.5 = 2$.\n\n**Common mistake:** Option B is a mistake where the student assumes $\\sec \\theta$2$\\cos \\theta$ rather than its reciprocal."
+    },
+    {
+      "id": "9-trigonometric-equations-and-identities-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is equivalent to the trigonometric identity $1 + \\tan^2 x$?",
+      "options": [
+        "$\\sec^2 x$",
+        "$\\csc^2 x$",
+        "$\\cos^2 x$",
+        "$1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is one of the fundamental Pythagorean identities derived from $\\sin^2 x + \\cos^2 x = 1$ by dividing all terms by $\\cos^2 x$.\n\n**Common mistake:** Option B is a common confusion between the identity for tangent and the identity $1 + \\cot^2 x = \\csc^2 x$."
+    },
+    {
+      "id": "9-trigonometric-equations-and-identities-easy-q3",
+      "type": "mcq",
+      "question": "If $\\sin A = \\frac{4}{5}$, calculate the value of $\\csc A$.",
+      "options": [
+        "$1.25$",
+        "$0.8$",
+        "$0.6$",
+        "$1.67$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\csc A$2$\\sin A$2$\\csc A = 5/4 = 1.25$.\n\n**Common mistake:** Option B is just the decimal form of the sine value itself, failing to perform the reciprocal operation."
+    },
+    {
+      "id": "9-trigonometric-equations-and-identities-easy-q4",
+      "type": "mcq",
+      "question": "Evaluate $\\cot(45^\\circ)$ without using a calculator.",
+      "options": [
+        "$1$",
+        "$0$",
+        "$\\sqrt{2}$",
+        "$\\frac{1}{\\sqrt{2}}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $\\tan(45^\\circ) = 1$, its reciprocal $\\cot(45^\\circ) = 1/1 = 1$.\n\n**Common mistake:** Option B occurs if a student confuses the properties of tangent and cotangent with sine or cosine at specific boundary angles."
+    },
+    {
+      "id": "9-trigonometric-equations-and-identities-easy-q5",
+      "type": "mcq",
+      "question": "Simplify the expression $\\sin x \\cdot \\csc x$.",
+      "options": [
+        "$1$",
+        "$\\sin^2 x$",
+        "$\\tan x$",
+        "$\\cos x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $\\csc x = 1/\\sin x$2$\\sin x \\cdot (1/\\sin x)$ simplifies to^1.\n\n**Common mistake:** Option B occurs if the student treats $\\csc x$ as a multiplier that squares the function rather than a reciprocal function."
+    }
+  ]
+}

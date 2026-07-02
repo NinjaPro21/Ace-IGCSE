@@ -1,0 +1,77 @@
+{
+  "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard",
+  "topicId": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "hard",
+  "title": "Sketching Graphs of Cubic Polynomials and their Moduli — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q1",
+      "type": "mcq",
+      "question": "Find the range of values of $k$2$|x(x-2)(x-4)| = k$ has exactly 6 distinct solutions.",
+      "options": [
+        "$0 < k < \\text{local maximum value}$",
+        "$k > 0$",
+        "$k = \\text{local maximum value}$",
+        "No such value of k exists"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reflected cubic has two 'humps' between the roots. A horizontal line passing through both humps (below their peaks) will intersect the graph 6 times.\n\n**Common mistake:** Assuming a cubic modulus can have a maximum of only 4 intersections, like a quadratic modulus."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q2",
+      "type": "mcq",
+      "question": "The graph $y = |x^3 - 3x^2|$ is sketched. Identify the coordinates of the local maximum created by the reflection.",
+      "options": [
+        "(2, 4)",
+        "(2, -4)",
+        "(0, 0)",
+        "(3, 0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f'(x) = 3x^2 - 6x = 0$ at $x=0, 2$. At $x=2, f(2) = 8 - 12 = -4$. The reflection makes this $(2, 4)$.\n\n**Common mistake:** Miscalculating the turning point $x$2$y$-value."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q3",
+      "type": "mcq",
+      "question": "If the cubic $f(x) = x^3 + k$2$x$2$y = |f(x)|$ have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modulus does not create new $x$2$f(x)$ has one root, $|f(x)|$ has one root.\n\n**Common mistake:** Assuming the reflection must create a second root on the other side of the $y$-axis."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q4",
+      "type": "mcq",
+      "question": "Describe the transformation of the graph $y = x^3 - x$2$y = |x^3 - x|$. Which intervals of $x$2$x$-axis?",
+      "options": [
+        "$x < -1$ and $0 < x < 1$",
+        "$-1 < x < 0$ and $x > 1$",
+        "$x < 0$ only",
+        "All $x$ values"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roots are $-1, 0, 1$. For a positive cubic, $y$2$x < -1$ and when $0 < x < 1$. These sections are reflected.\n\n**Common mistake:** Reflecting the positive sections of the graph instead of the negative ones."
+    },
+    {
+      "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q5",
+      "type": "mcq",
+      "question": "A line $y = c$2$y = |x^3 - 4x|$ at exactly 5 points. What is the value of $c$?",
+      "options": [
+        "The value of the local maximum",
+        "0",
+        "Any value above the local maximum",
+        "No such value exists"
+      ],
+      "correctIndex": 0,
+      "explanation": "For 5 intersections, the line must be tangent to one of the two local maximum peaks while crossing the other peak's 'arms'.\n\n**Common mistake:** Thinking 5 is an impossible number of intersections for a cubic modulus graph."
+    }
+  ]
+}

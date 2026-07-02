@@ -1,0 +1,77 @@
+{
+  "id": "5-1-what-is-momentum-pyp",
+  "topicId": "5-1-what-is-momentum",
+  "chapterId": "ch05-momentum",
+  "difficulty": "pyp",
+  "title": "What Is Momentum? — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-what-is-momentum-pyp-q1",
+      "type": "mcq",
+      "question": "A truck of mass $10000\\text{ kg}$ is moving at $5.0\\text{ m/s}$. Calculate the momentum of the truck.",
+      "options": [
+        "$5.0 \\times 10^{4}\\text{ kg m/s}$",
+        "$5.0 \\times 10^{-4}\\text{ kg m/s}$",
+        "$2.0 \\times 10^{3}\\text{ kg m/s}$",
+        "$2.5 \\times 10^{5}\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$p = 10000 \\times 5 = 50000 = 5.0 \\times 10^{4}\\text{ kg m/s}$. \n\n**Common mistake:** Incorrect use of standard form or dividing mass by velocity ($2000$)."
+    },
+    {
+      "id": "5-1-what-is-momentum-pyp-q2",
+      "type": "mcq",
+      "question": "Which statement about momentum is correct?",
+      "options": [
+        "Momentum is the product of mass and velocity.",
+        "Momentum is the product of mass and speed.",
+        "Momentum is the ratio of mass to velocity.",
+        "Momentum is the ratio of velocity to mass."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source material specifically defines momentum as the product of mass and velocity. \n\n**Common mistake:** Selecting 'speed' instead of 'velocity'; velocity includes direction, which is vital for the vector nature of momentum."
+    },
+    {
+      "id": "5-1-what-is-momentum-pyp-q3",
+      "type": "mcq",
+      "question": "Two identical arrows are moving towards a target. Arrow A is moving faster than Arrow B. Which arrow has more momentum?",
+      "options": [
+        "Arrow A",
+        "Arrow B",
+        "They both have the same momentum",
+        "It depends on the height of the target"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the arrows are identical, they have the same mass. Because Arrow A has a higher velocity, it must have more momentum ($p = mv$). \n\n**Common mistake:** Thinking that identical objects always have identical momentum regardless of speed."
+    },
+    {
+      "id": "5-1-what-is-momentum-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes momentum?",
+      "options": [
+        "Type: Vector; Unit: $\\text{kg m/s}$",
+        "Type: Scalar; Unit: $\\text{kg m/s}$",
+        "Type: Vector; Unit: $\\text{N s}^2$",
+        "Type: Scalar; Unit: $\\text{J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is a vector quantity and its standard SI unit is $\\text{kg m/s}$. \n\n**Common mistake:** Thinking momentum is a scalar or confusing its unit with energy ($\\text{J}$)."
+    },
+    {
+      "id": "5-1-what-is-momentum-pyp-q5",
+      "type": "mcq",
+      "question": "A toy car of mass $0.2\\text{ kg}$ is travelling at $3\\text{ m/s}$. What is its momentum?",
+      "options": [
+        "$0.6\\text{ kg m/s}$",
+        "$15\\text{ kg m/s}$",
+        "$1.5\\text{ kg m/s}$",
+        "$6.0\\text{ kg m/s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$p = 0.2 \\times 3 = 0.6\\text{ kg m/s}$. \n\n**Common mistake:** Dividing $3$ by $0.2$ to get $15$."
+    }
+  ]
+}

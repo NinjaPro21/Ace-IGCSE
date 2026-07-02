@@ -1,0 +1,77 @@
+{
+  "id": "6-2-work-easy",
+  "topicId": "6-2-work",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "easy",
+  "title": "Work — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-2-work-easy-q1",
+      "type": "mcq",
+      "question": "Which of the following best defines mechanical work in physics?",
+      "options": [
+        "The transfer of energy by a force acting on an object",
+        "The rate at which energy is used by a machine",
+        "The total amount of matter contained in an object",
+        "The force of gravity acting on a stationary mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is defined as mechanical energy transfer. It occurs when a force moves an object. **Common mistake:** Confusing work with power, which is the rate of doing work."
+    },
+    {
+      "id": "6-2-work-easy-q2",
+      "type": "mcq",
+      "question": "What is the SI unit for work done?",
+      "options": [
+        "joule ($J$)",
+        "watt ($W$)",
+        "newton ($N$)",
+        "pascal ($Pa$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since work done is equal to the energy transferred, it shares the same SI unit, the joule ($J$). **Common mistake:** Selecting the watt ($W$), which is the unit for power."
+    },
+    {
+      "id": "6-2-work-easy-q3",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the mechanical work done by a constant force?",
+      "options": [
+        "$W = F \\times s$",
+        "$W = m \\times g$",
+        "$W = \\frac{1}{2}mv^2$",
+        "$W = \\frac{P}{t}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work done is the product of the constant force $F$ and the distance moved $s$ in the direction of that force. **Common mistake:** Using the kinetic energy formula ($\\frac{1}{2}mv^2$) to find work done directly from mass and speed."
+    },
+    {
+      "id": "6-2-work-easy-q4",
+      "type": "mcq",
+      "question": "One joule ($1\\text{ J}$) is defined as the work done by a force of:",
+      "options": [
+        "$1\\text{ N}$ moving an object $1\\text{ m}$ in the direction of the force",
+        "$10\\text{ N}$ moving an object $1\\text{ m}$ vertically upwards",
+        "$1\\text{ N}$ acting on a $1\\text{ kg}$ mass for $1\\text{ s}$",
+        "$1\\text{ W}$ acting on an object over a distance of $1\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, one joule is the work done when a force of one newton moves an object through a distance of one metre in the direction of the force. **Common mistake:** Thinking it depends on the mass of the object or the time taken."
+    },
+    {
+      "id": "6-2-work-easy-q5",
+      "type": "mcq",
+      "question": "In which situation is there zero work done by the mentioned force?",
+      "options": [
+        "A person pushing a brick wall that remains stationary",
+        "A librarian pushing a trolley over a distance of $5\\text{ m}$",
+        "An crane lifting a $200\\text{ kg}$ load to a height of $30\\text{ m}$",
+        "A car braking and coming to a stop on a level road"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is only done if the force causes a displacement ($s > 0$). If the wall does not move, no work is done. **Common mistake:** Believing effort or 'feeling tired' from pushing always results in scientific work."
+    }
+  ]
+}

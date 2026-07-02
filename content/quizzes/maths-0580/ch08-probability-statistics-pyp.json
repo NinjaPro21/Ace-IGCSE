@@ -1,0 +1,467 @@
+{
+  "id": "ch08-probability-statistics-pyp",
+  "topicId": "ch08-probability-statistics",
+  "chapterId": "ch08-probability-statistics",
+  "difficulty": "pyp",
+  "title": "Chapter 8: Probability & Statistics — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch08-probability-statistics-pyp-q1",
+      "type": "mcq",
+      "question": "A pie chart represents the results of an opinion poll of 2000 people. If the angle for the 'Undecided' sector is 18°, calculate the number of people who answered 'Undecided'.",
+      "options": [
+        "100",
+        "36",
+        "200",
+        "180"
+      ],
+      "correctIndex": 0,
+      "explanation": "From Exercise 13.1B: Number $= (18 / 360) \\times 2000 = 0.05 \\times 2000 = 100$.\n\n**Common mistake:** Treating the 18° as 18% of 2000, which would result in 360."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q2",
+      "type": "mcq",
+      "question": "The masses of 50 carrots were recorded. Grouped data results show a modal class of 100-110 grams. What does this mean?",
+      "options": [
+        "The interval 100-110 has the highest frequency",
+        "The median mass is exactly 105 grams",
+        "The mean mass is 105 grams",
+        "Every carrot in the field weighed between 100 and 110 grams"
+      ],
+      "correctIndex": 0,
+      "explanation": "The modal class in grouped data is the class interval with the highest frequency.\n\n**Common mistake:** Trying to find an exact 'mode' value (like 105) when the original raw data is not available."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q3",
+      "type": "mcq",
+      "question": "A histogram represents the speeds (v) of cars. For the interval 30 < v ≤ 50, the frequency is 27. Calculate the frequency density for this bar.",
+      "options": [
+        "1.35",
+        "0.9",
+        "2.7",
+        "0.54"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class width $= 50 - 30 = 20$. Frequency density $= 27 / 20 = 1.35$.\n\n**Common mistake:** Using the upper bound (50) as the width instead of the difference between the bounds (20)."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q4",
+      "type": "mcq",
+      "question": "Given a data set with 25 marks, a stem-and-leaf diagram is drawn. Which specific mark in the ordered list represents the median?",
+      "options": [
+        "The 13th mark",
+        "The 12.5th mark",
+        "The 12th mark",
+        "The average of the 12th and 13th marks"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an odd number of items (n=25), the median is the middle item: $(25 + 1) / 2 = 13$ th mark.\n\n**Common mistake:** Picking the 12th mark or trying to average two values when there is a single middle term."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q5",
+      "type": "mcq",
+      "question": "In a pie chart where the ratio of quantities A : B : C is 2 : 3 : 4, what is the size of the angle for quantity C?",
+      "options": [
+        "160°",
+        "80°",
+        "120°",
+        "40°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total parts $= 2 + 3 + 4 = 9$. One part $= 360 / 9 = 40°$. Quantity C is 4 parts: $4 \\times 40 = 160°$.\n\n**Common mistake:** Dividing 360 by 4 instead of the total number of parts in the ratio."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q6",
+      "type": "mcq",
+      "question": "The table shows the marks of 32 students in a test. Marks 6, 7, 8, 9 have frequencies 9, 8, 5, 4 (and marks 3, 4, 5 have 1, 2, 3). Calculate the mean mark.",
+      "options": [
+        "6.625",
+        "6.0",
+        "6.5",
+        "7.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total marks $= (3 \\times 1) + (4 \\times 2) + (5 \\times 3) + (6 \\times 9) + (7 \\times 8) + (8 \\times 5) + (9 \\times 4) = 3+8+15+54+56+40+36 = 212$. Mean $= 212 / 32 = 6.625$.\n\n**Common mistake:** Summing the marks (3-9) and dividing by 7, ignoring the frequencies."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q7",
+      "type": "mcq",
+      "question": "From the same data (frequencies 1, 2, 3, 9, 8, 5, 4), find the median mark.",
+      "options": [
+        "7",
+        "6",
+        "6.5",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total $n=32$. Median is mean of 16th and 17th values. Running total: 1, 3, 6, 15... the 16th and 17th values are both 7. Median is 7.\n\n**Common mistake:** Picking the 16th value only or finding the middle mark in the range (6) instead of the frequency distribution."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q8",
+      "type": "mcq",
+      "question": "A set of four numbers has a mean of 21. Six other numbers have a mean of 18. Calculate the mean of all ten numbers.",
+      "options": [
+        "19.2",
+        "19.5",
+        "20.0",
+        "18.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total of first four $= 4 \\times 21 = 84$. Total of next six $= 6 \\times 18 = 108$. Grand total $= 84 + 108 = 192$. Mean $= 192 / 10 = 19.2$.\n\n**Common mistake:** Incorrectly calculating the mean as $(21 + 18) / 2 = 19.5$."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q9",
+      "type": "mcq",
+      "question": "The table shows marks 3, 4, 5 with frequencies 3, $x$2$x$.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total sum $= (3 \\times 3) + (4 \\times x) + (5 \\times 4) = 9 + 4x + 20 = 29 + 4x$2$= 3 + x + 4 = 7 + x$2$(29 + 4x) / (7 + x) = 4.1 \\Rightarrow 29 + 4x = 28.7 + 4.1x \\Rightarrow 0.3 = 0.1x \\Rightarrow x = 3$.\n\n**Common mistake:** Setting up the equation incorrectly, such as multiplying the mean by only the known frequency (7)."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q10",
+      "type": "mcq",
+      "question": "Comparing heights of children in four countries, Country A's graph shows heights spread fairly evenly from 130 to 180 cm. What can you deduce about its IQR compared to a country where all children are about 155 cm?",
+      "options": [
+        "Country A has a much larger interquartile range",
+        "Country A has a smaller interquartile range",
+        "The interquartile ranges are the same",
+        "Country A has a higher median"
+      ],
+      "correctIndex": 0,
+      "explanation": "A wider, even spread across the entire range results in a larger IQR, whereas a concentrated group around a single value has a very small IQR.\n\n**Common mistake:** Confusing the range with the interquartile range or assuming an even spread means a lower average."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q11",
+      "type": "mcq",
+      "question": "A scatter diagram shows the relationship between the number of hours spent studying ($x$2$y$). The correlation is strong and positive. Describe what this means in words.",
+      "options": [
+        "In general, the more hours a student spends studying, the higher their mark",
+        "Spending more hours studying causes a student to get a higher mark",
+        "Every student who studied for many hours received a high mark",
+        "There is no clear relationship between studying and exam marks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strong positive correlation means that as one variable ($x$2$y$) also increases in a consistent manner.\n\n**Common mistake:** Selecting an answer that implies 'causation' (e.g., 'causes') or 'absolute certainty' (e.g., 'every student')."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q12",
+      "type": "mcq",
+      "question": "Use the following data to estimate the number of 'Bicycles stolen' if 'Sandwiches sold' = 10, assuming a positive correlation: (2,5), (6,7), (12,13), (18,18).",
+      "options": [
+        "11",
+        "10",
+        "15",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Exercise 13.4A Question 2, plotting these points and using a line of best fit leads to an estimate of approximately 11 bicycles stolen.\n\n**Common mistake:** The student might assume the answer is 10 because it is a 1:1 ratio, but the actual trend line sits slightly higher."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q13",
+      "type": "mcq",
+      "question": "In a survey, 11 students' Maths marks and Physics marks are plotted. If a student's marks were (9, 34) and the line of best fit for the class was $y = x + 20$, how would you describe this student's result relative to the class trend?",
+      "options": [
+        "Their result follows the trend closely ($34 \\approx 9 + 20$)",
+        "They are an outlier because their mark is much higher than expected",
+        "Their result is exactly on the line of best fit",
+        "They have a negative correlation with the rest of the class"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the 'Eli' data point from the example (Maths 9, Physics 34), this point fits the strong positive correlation trend seen in the rest of the data.\n\n**Common mistake:** Assuming a low mark (9) is an 'outlier' simply because it is low, rather than checking if it fits the trend line."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q14",
+      "type": "mcq",
+      "question": "A student is asked to draw a line of best fit. Which tool does the textbook recommend to make the process easier?",
+      "options": [
+        "A transparent ruler",
+        "A compass",
+        "A protractor",
+        "A set square"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources explicitly state that 'The line is easier to draw when a transparent ruler is used'.\n\n**Common mistake:** Using a solid ruler which obscures the points underneath, making it difficult to balance the number of points on either side."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q15",
+      "type": "mcq",
+      "question": "A scatter diagram for 'Age of car' and 'Value of car' would most likely show which type of correlation?",
+      "options": [
+        "Negative correlation",
+        "Positive correlation",
+        "No correlation",
+        "Strong positive correlation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Generally, as a car gets older, its value decreases, which is the definition of negative correlation. This is also supported by car value models shown in the 'Graphs' chapter.\n\n**Common mistake:** The student might think 'older' is 'bigger' and therefore 'positive,' forgetting that the value is dropping."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q16",
+      "type": "mcq",
+      "question": "The mass of 200 cupcakes is checked. The cumulative frequency curve shows that the cumulative frequency at $113\\text{ g}$ is 50 and at $117\\text{ g}$ is 150. Calculate the interquartile range.",
+      "options": [
+        "4 g",
+        "100 g",
+        "115 g",
+        "2 g"
+      ],
+      "correctIndex": 0,
+      "explanation": "LQ ($25\\%$) is at $200/4 = 50$, which corresponds to $113\\text{ g}$. UQ ($75\\%$) is at $150$, which corresponds to $117\\text{ g}$. IQR $= 117 - 113 = 4\\text{ g}$.\n\n**Common mistake:** Subtracting the cumulative frequencies ($150-50=100$) instead of the actual masses."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q17",
+      "type": "mcq",
+      "question": "From the cupcake data ($N=200$), how many cupcakes had a mass greater than $116\\text{ g}$ if the cumulative frequency at $116\\text{ g}$ was 120?",
+      "options": [
+        "80",
+        "120",
+        "60%",
+        "40"
+      ],
+      "correctIndex": 0,
+      "explanation": "Number greater than 116 $= \\text{Total} - \\text{CF at 116} = 200 - 120 = 80$.\n\n**Common mistake:** Failing to subtract from the total population of 200."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q18",
+      "type": "mcq",
+      "question": "The speeds of 150 cars are recorded. Use the cumulative frequency curve to find the median speed if the 75th car on the list has a speed of $63\\text{ km/h}$.",
+      "options": [
+        "63 km/h",
+        "75 km/h",
+        "60 km/h",
+        "150 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "The median for 150 cars is the speed of the 75th car. The question states this speed is $63\\text{ km/h}$.\n\n**Common mistake:** Assuming the median is 75 (the position) instead of the speed value."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q19",
+      "type": "mcq",
+      "question": "In a survey of 100 people, the cumulative frequency at the pass mark of 37 was 20. If three-fifths of the people passed, what was the pass mark?",
+      "options": [
+        "37",
+        "40",
+        "60",
+        "20"
+      ],
+      "correctIndex": 1,
+      "explanation": "If $3/5$ passed, then $2/5$ failed. $2/5$ of 100 is 40. We need to find the mark where CF is 40. (This question uses logic from). Note: Given Option A was a distractor from the stem, 40 is the intended reading point.\n\n**Common mistake:** Confusing the number of people who failed with the pass mark itself."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q20",
+      "type": "mcq",
+      "question": "Which statistical diagram uses a box to represent the interquartile range and 'whiskers' to show the range of the data?",
+      "options": [
+        "Box plot",
+        "Histogram",
+        "Cumulative frequency curve",
+        "Scatter diagram"
+      ],
+      "correctIndex": 0,
+      "explanation": "A box plot (or box-and-whisker diagram) is the standard way to visually represent the median, quartiles, and range based on cumulative frequency data.\n\n**Common mistake:** Confusing the box plot with the cumulative frequency curve itself."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q21",
+      "type": "mcq",
+      "question": "Rooms in a hotel are numbered from 1 to 29. If a room is allocated at random, what is the probability that the first guest receives an even-numbered room?",
+      "options": [
+        "$14/29$",
+        "$15/29$",
+        "$1/2$",
+        "$14/28$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Between 1 and 29, there are 14 even numbers (2, 4, ..., 28) and 15 odd numbers. The total number of rooms is 29. Probability $= 14/29$.\n\n**Common mistake:** Assuming there are an equal number of even and odd rooms (14.5 each)."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q22",
+      "type": "mcq",
+      "question": "The grades of 32 students in a test are: Grade 6 (9 students), Grade 7 (8), Grade 8 (5), and Grade 9 (4). If one student is chosen at random, what is the probability they gained a grade 7 or 8?",
+      "options": [
+        "$13/32$",
+        "$8/32$",
+        "$5/32$",
+        "$13/26$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This uses the 'OR' rule for mutually exclusive events. Successes $= 8$ (Grade 7) $+ 5$ (Grade 8) $= 13$. Total students $= 32$. Probability $= 13/32$.\n\n**Common mistake:** Using only the counts for Grade 6, 7, 8, and 9 for the total, ignoring students with grades 3-5."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q23",
+      "type": "mcq",
+      "question": "A coin is biased so that it shows heads with a probability of $2/3$. If the coin is tossed three times, what is the probability of obtaining two tails on the first two tosses?",
+      "options": [
+        "$1/9$",
+        "$4/9$",
+        "$2/9$",
+        "$1/3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The probability of a tail is $1 - 2/3 = 1/3. The tosses are independent$2$2P(\\text{Tail and Tail}) = 1/3 \\times 1/3 = 1/9$.\n\n**Common mistake:** Multiplying the head probability ($2/3$) by the tail probability ($1/3$)."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q24",
+      "type": "mcq",
+      "question": "A bag contains 6 red balls and 4 green balls. One red ball is removed from the bag. What is the new probability of selecting a red ball at random?",
+      "options": [
+        "$5/9$",
+        "$6/10$",
+        "$5/10$",
+        "$6/9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "After removing one red ball, there are 5 red balls left and the total number of balls decreases to 9. The new probability is $5/9$.\n\n**Common mistake:** Forgetting to reduce the total number of balls in the denominator."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q25",
+      "type": "mcq",
+      "question": "Calculate the probability of selecting a prime number from the set $A = \\{4, 9, 16, 25, 36, 49\\}$.",
+      "options": [
+        "$0$",
+        "$1$",
+        "$1/6$",
+        "$3/6$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every number in the set $A$2$2^2, 3^2, 4^2$). By definition, none of these are prime numbers. Thus, the probability is 0.\n\n**Common mistake:** Assuming 49 or 9 are prime because they are odd."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q26",
+      "type": "mcq",
+      "question": "Scott goes to school by bus. $P(\\text{bus late}) = 0.2$. If the bus is late, $P(\\text{Scott late}) = 0.7$. If the bus is NOT late, $P(\\text{Scott late}) = 0.1$. Calculate the probability that Scott is late for school.",
+      "options": [
+        "0.22",
+        "0.14",
+        "0.08",
+        "0.8"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(\\text{Bus late, Scott late}) + P(\\text{Bus not late, Scott late}) = (0.2 \\times 0.7) + (0.8 \\times 0.1) = 0.14 + 0.08 = 0.22$.\n\n**Common mistake:** Only calculating the probability of being late when the bus is late (0.14)."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q27",
+      "type": "mcq",
+      "question": "Two students are selected at random from a group of 14 boys and 13 girls. Find the probability that they are both boys.",
+      "options": [
+        "91/351",
+        "196/729",
+        "13/52",
+        "14/27"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total students = 27. $P(B,B) = 14/27 \\times 13/26 = 182 / 702 = 91/351$.\n\n**Common mistake:** Treating the events as independent ($14/27 \\times 14/27$) or forgetting to simplify the $\\frac{tion.}{}$"
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q28",
+      "type": "mcq",
+      "question": "Using the Scott problem ($P(\\text{Scott late}) = 0.22$), if the school term lasts 35 days, how many days would Scott be expected to be late?",
+      "options": [
+        "8",
+        "7",
+        "10",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expected value $= 0.22 \\times 35 = 7.7$. This rounds to 8 days.\n\n**Common mistake:** Rounding down to 7 or forgetting to multiply by the total number of days."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q29",
+      "type": "mcq",
+      "question": "In a batch of light bulbs, $P(\\text{faulty}) = 0.02$. Two bulbs are chosen. Calculate the probability that exactly one is faulty.",
+      "options": [
+        "0.0392",
+        "0.0196",
+        "0.9604",
+        "0.04"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(F, F') + P(F', F) = (0.02 \\times 0.98) + (0.98 \\times 0.02) = 0.0196 + 0.0196 = 0.0392$.\n\n**Common mistake:** Calculating only one order ($0.0196$) and forgetting the path where the second bulb is the faulty one."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q30",
+      "type": "mcq",
+      "question": "The probability of winning a tennis toss is 0.5. Calculate the probability of winning the toss in five consecutive matches.",
+      "options": [
+        "1/32",
+        "1/10",
+        "1/25",
+        "5/2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tosses are independent. $(1/2)^5 = 1/32$.\n\n**Common mistake:** Multiplying the probability by 5 ($5 \\times 0.5$) instead of using powers."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q31",
+      "type": "mcq",
+      "question": "In a survey of 100 people, 58 can attend Friday (F) and 74 can attend Saturday (S). If 4 attend neither, what is the probability a person can only attend Saturday?",
+      "options": [
+        "38/100",
+        "74/100",
+        "36/100",
+        "22/100"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(F \\cup S) = 96$. Intersection $= 58 + 74 - 96 = 36$. S only $= 74 - 36 = 38$. $P = 38/100$.\n\n**Common mistake:** Giving the total for Saturday (74/100) instead of the 'Saturday only' region."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q32",
+      "type": "mcq",
+      "question": "From a class of 28, 15 like Badminton (B) and 14 like Tennis (T). If 6 like both, find the probability that a student chosen from those who like Badminton also likes Tennis.",
+      "options": [
+        "6/15",
+        "6/28",
+        "6/14",
+        "15/28"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is $P(T | B) = n(T \\cap B) / n(B) = 6 / 15$.\n\n**Common mistake:** Using 28 as the denominator, which calculates $P(T \\cap B)$ instead of the conditional probability."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q33",
+      "type": "mcq",
+      "question": "Scott's bus is late with probability 0.2. If late, Scott is late to school with $P=0.7$. Given the bus was late, what is the probability Scott was NOT late to school?",
+      "options": [
+        "0.3",
+        "0.8",
+        "0.06",
+        "0.14"
+      ],
+      "correctIndex": 0,
+      "explanation": "The branches from a single point must sum to 1. $1 - 0.7 = 0.3$.\n\n**Common mistake:** Multiplying by the bus-late probability (0.2), which finds the sequence probability rather than the conditional branch probability."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q34",
+      "type": "mcq",
+      "question": "A Venn diagram shows $P(F' \\cap G') = 3/25$. What is the real-world interpretation of this?",
+      "options": [
+        "The probability that a student studies neither French nor German",
+        "The probability that a student studies German but not French",
+        "The probability that a student studies both languages",
+        "The probability that a student studies French only"
+      ],
+      "correctIndex": 0,
+      "explanation": "$F'$ (Not French) intersect $G'$ (Not German) is the region outside both circles, meaning neither.\n\n**Common mistake:** Interpreting it as the union (Not French or Not German)."
+    },
+    {
+      "id": "ch08-probability-statistics-pyp-q35",
+      "type": "mcq",
+      "question": "In the probability diagram for A and B, $P(A) = 0.8, P(B) = 0.7, P(A \\cap B) = 0.5$. Find $P(A | B')$.",
+      "options": [
+        "1.0",
+        "0.3",
+        "0.5",
+        "0.75"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n(B') = 1 - 0.7 = 0.3$. The part of A outside B is $0.8 - 0.5 = 0.3$. $P = 0.3 / 0.3 = 1.0$.\n\n**Common mistake:** Thinking that if $B$2$A$2$A$2$B$."
+    }
+  ]
+}

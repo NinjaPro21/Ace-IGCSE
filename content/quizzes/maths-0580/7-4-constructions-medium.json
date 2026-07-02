@@ -1,0 +1,77 @@
+{
+  "id": "7-4-constructions-medium",
+  "topicId": "7-4-constructions",
+  "chapterId": "ch04-geometry-transformations",
+  "difficulty": "medium",
+  "title": "Constructions — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-4-constructions-medium-q1",
+      "type": "mcq",
+      "question": "A student bisects a right angle ($90°$) and then bisects one of the resulting angles. What is the size of the final angle created?",
+      "options": [
+        "$22.5°$",
+        "$45°$",
+        "$11.25°$",
+        "$30°$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First bisection: $90 / 2 = 45°$. Second bisection: $45 / 2 = 22.5°$.\n\n**Common mistake:** The student might stop after the first bisection ($45°$) or divide $90$ by $3$ thinking of 'trisecting'."
+    },
+    {
+      "id": "7-4-constructions-medium-q2",
+      "type": "mcq",
+      "question": "To construct a $75°$ angle, which two angles could be constructed and then one of them bisected further?",
+      "options": [
+        "$60°$ and $30°$ (bisecting the $30°$)",
+        "$90°$ and $60°$ (bisecting the $90°$)",
+        "$45°$ and $30°$ (bisecting the $45°$)",
+        "$60°$ and $15°$ (bisecting the $60°$)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Construct $60°$ and $90°$. The $30°$ gap between them can be bisected to give $15°$. $60° + 15° = 75°$.\n\n**Common mistake:** Students may try to bisect $150°$ without knowing how to construct $150°$ using standard methods first."
+    },
+    {
+      "id": "7-4-constructions-medium-q3",
+      "type": "mcq",
+      "question": "Construct a triangle $PQR$2$PQ = 10\\text{ cm}, QR = 8\\text{ cm},$ and $PR = 6\\text{ cm}$. After measuring, which angle is the largest?",
+      "options": [
+        "$∠PRQ$",
+        "$∠PQR$",
+        "$∠QPR$",
+        "All angles are equal"
+      ],
+      "correctIndex": 0,
+      "explanation": "In any triangle, the largest angle is opposite the longest side. Since $PQ$2$10\\text{ cm}$), $∠PRQ$2$90°$ because $6^2 + 8^2 = 10^{2}$).\n\n**Common mistake:** The student might select the angle between the two longest sides instead of the angle opposite the longest side."
+    },
+    {
+      "id": "7-4-constructions-medium-q4",
+      "type": "mcq",
+      "question": "While constructing a perpendicular bisector of a line $XY$2$8\\text{ cm}$, what is the minimum radius the compass must be set to for the arcs to intersect?",
+      "options": [
+        "Greater than $4\\text{ cm}$",
+        "Exactly $4\\text{ cm}$",
+        "Exactly $8\\text{ cm}$",
+        "Less than $4\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The arcs must meet in the middle; if the radius is half the length or less, the arcs will only touch at one point or not meet at all.\n\n**Common mistake:** A student might set the radius to exactly $4\\text{ cm}$ (the midpoint), which creates only one point of intersection instead of the two needed for a line."
+    },
+    {
+      "id": "7-4-constructions-medium-q5",
+      "type": "mcq",
+      "question": "A rhombus $ABCD$2$7\\text{ cm}$. If you construct it such that $∠ABC = 120°$, what is the length of the diagonal $AC$?",
+      "options": [
+        "More than $7\\text{ cm}$",
+        "$7\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$49\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a rhombus with a $120°$ angle, the other interior angle is $60°$. The diagonal $AC$2$∠ABC=120°$, $AC$ is the long diagonal.\n\n**Common mistake:** The student might assume $AC = 7\\text{ cm}$ because it looks like a triangle, but $AC$2$120°$ angle, making it significantly longer than the sides."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "5-1-5-2-area-circles-medium",
+  "topicId": "5-1-5-2-area-circles",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "medium",
+  "title": "Area & Circles — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-1-5-2-area-circles-medium-q1",
+      "type": "mcq",
+      "question": "A trapezium has an area of $105\\text{ cm}^2$ and parallel sides of length $5\\text{ cm}$ and $9\\text{ cm}$. Find the perpendicular distance between the parallel sides.",
+      "options": [
+        "$15\\text{ cm}$",
+        "$7.5\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$30\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$105 = 0.5 \\times (5 + 9) \\times h \\Rightarrow 105 = 7h \\Rightarrow h = 15\\text{ cm}$.\n\n**Common mistake:** A student might forget to divide the sum of parallel sides by 2 before solving for $h$."
+    },
+    {
+      "id": "5-1-5-2-area-circles-medium-q2",
+      "type": "mcq",
+      "question": "A rectangular field is $400\\text{ m}$ long and has an area of $6$ hectares. Calculate the perimeter of the field ($1\\text{ hectare} = 10000\\text{ m}^2$).",
+      "options": [
+        "$1100\\text{ m}$",
+        "$550\\text{ m}$",
+        "$800\\text{ m}$",
+        "$150\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 60000\\text{ m}^2$. Width $= 60000 \\div 400 = 150\\text{ m}$. Perimeter $= 2(400 + 150) = 1100\\text{ m}$.\n\n**Common mistake:** A common mistake is finding the width and assuming it is the final answer for the perimeter."
+    },
+    {
+      "id": "5-1-5-2-area-circles-medium-q3",
+      "type": "mcq",
+      "question": "Find the radius of a circle that has a circumference of $20\\text{ m}$. Give your answer to 3 significant figures.",
+      "options": [
+        "$3.18\\text{ m}$",
+        "$6.37\\text{ m}$",
+        "$10.0\\text{ m}$",
+        "$12.7\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$C = 2\\pi r \\Rightarrow 20 = 2\\pi r \\Rightarrow r = 10 \\div \\pi \\approx 3.183...$, so $3.18\\text{ m}$ (3 s.f.).\n\n**Common mistake:** The student might divide by $\\pi$2$6.37$."
+    },
+    {
+      "id": "5-1-5-2-area-circles-medium-q4",
+      "type": "mcq",
+      "question": "A circle of radius $5\\text{ cm}$ is inscribed inside a square. Calculate the shaded area remaining in the square after the circle is removed.",
+      "options": [
+        "$21.5\\text{ cm}^2$",
+        "$78.5\\text{ cm}^2$",
+        "$100\\text{ cm}^2$",
+        "$4.29\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Side of square $= 2 \\times \\text{radius} = 10\\text{ cm}$. Square area $= 100$. Circle area $= \\pi \\times 5^2 \\approx 78.54$. Shaded area $= 100 - 78.54 = 21.46 \\approx 21.5$.\n\n**Common mistake:** The student might think the side of the square is equal to the radius instead of the diameter."
+    },
+    {
+      "id": "5-1-5-2-area-circles-medium-q5",
+      "type": "mcq",
+      "question": "Calculate the area of $\\Delta ABC$2$a = 7\\text{ cm}$, side $b = 14\\text{ cm}$, and angle $C = 80^{\\circ}$.",
+      "options": [
+        "$48.3\\text{ cm}^2$",
+        "$98.0\\text{ cm}^2$",
+        "$49.0\\text{ cm}^2$",
+        "$17.0\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area $= 0.5 \\times a \\times b \\times \\sin C = 0.5 \\times 7 \\times 14 \\times \\sin 80^{\\circ} \\approx 48.256$.\n\n**Common mistake:** The student might forget the $0.5$ in the formula or assume it is a right-angled triangle."
+    }
+  ]
+}

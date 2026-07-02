@@ -1,0 +1,77 @@
+{
+  "id": "8-5-inequalities-easy",
+  "topicId": "8-5-inequalities",
+  "chapterId": "ch02-algebra",
+  "difficulty": "easy",
+  "title": "Inequalities — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "When solving an inequality, what is the mandatory rule when **multiplying or dividing both sides by a negative number**?",
+      "options": [
+        "The inequality symbol must be reversed",
+        "The inequality symbol stays the same",
+        "The inequality changes into an equals sign",
+        "You must square the entire expression"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, you follow the same procedure used for solving equations except that when you multiply or divide by a negative number, the inequality symbol is reversed.\n\n**Common mistake:** Students often forget to flip the sign, which results in a solution set that is the exact opposite of the correct range.",
+      "id": "8-5-inequalities-easy-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Which symbol is used on a number line to represent a **strict inequality** like $x < 4$ where the boundary value is excluded?",
+      "options": [
+        "An unfilled circle",
+        "A filled circle",
+        "A solid boundary line",
+        "A shaded square"
+      ],
+      "correctIndex": 0,
+      "explanation": "In cases where the number is not included (strict inequality), the sources state you must use an unfilled circle on the number line.\n\n**Common mistake:** Using a filled circle, which incorrectly implies the boundary value (4) is part of the solution set ($x \\le 4$).",
+      "id": "8-5-inequalities-easy-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "Solve the linear inequality **$x - 3 > 10$**.",
+      "options": [
+        "$x > 13$",
+        "$x < 13$",
+        "$x > 7$",
+        "$x < 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By adding 3 to both sides of the expression, we isolate the variable: $x > 10 + 3$, which simplifies to $x > 13$.\n\n**Common mistake:** Subtracting 3 from the right side instead of adding, resulting in $x > 7$.",
+      "id": "8-5-inequalities-easy-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "When representing inequalities graphically, how is a **strict boundary exclusion line** (like $y < mx + c$) shown?",
+      "options": [
+        "As a broken (dashed) line",
+        "As a solid line",
+        "As a bold red line",
+        "As a dotted line on the x-axis only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources specify that a broken or dashed line is used to indicate that the points on the line itself are not included in the solution set.\n\n**Common mistake:** Drawing a solid line, which is the rule for inclusive boundaries ($\\le$2$\\ge$).",
+      "id": "8-5-inequalities-easy-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the solutions for **$3a + 1 < 20$**, given that **$a$ is a positive integer**.",
+      "options": [
+        "{1, 2, 3, 4, 5, 6}",
+        "{1, 2, 3, 4, 5, 6, 7}",
+        "{0, 1, 2, 3, 4, 5, 6}",
+        "{1, 2, 3, 4, 5}"
+      ],
+      "correctIndex": 0,
+      "explanation": "$3a < 19 \\implies a < 6.33$. Since $a$ must be a positive integer, the possible values are 1, 2, 3, 4, 5, and 6.\n\n**Common mistake:** Including 0 in the set, even though 0 is not considered a positive integer.",
+      "id": "8-5-inequalities-easy-q5"
+    }
+  ]
+}

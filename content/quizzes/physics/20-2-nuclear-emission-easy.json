@@ -1,0 +1,77 @@
+{
+  "id": "20-2-nuclear-emission-easy",
+  "topicId": "20-2-nuclear-emission",
+  "chapterId": "ch20-radioactivity",
+  "difficulty": "easy",
+  "title": "Nuclear Emission — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "20-2-nuclear-emission-easy-q1",
+      "type": "mcq",
+      "question": "What is the nature of an $alpha$-particle?",
+      "options": [
+        "A helium nucleus",
+        "A high-speed electron",
+        "Electromagnetic radiation",
+        "A single neutron"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, an alpha particle is a helium nucleus. Electrons are beta particles and EM radiation describes gamma rays.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-easy-q2",
+      "type": "mcq",
+      "question": "Which type of nuclear radiation has the highest penetrating ability?",
+      "options": [
+        "$gamma$-rays",
+        "$alpha$-particles",
+        "$beta$-particles",
+        "Visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 20.2 shows that gamma rays have the 'most' penetrating ability, being able to pass through paper and aluminium, only stopped by thick lead.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-easy-q3",
+      "type": "mcq",
+      "question": "What is the relative charge of a $beta$-particle?",
+      "options": [
+        "$-1$",
+        "$+2$",
+        "$0$",
+        "$+1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A beta particle is a high-speed electron, which carries a relative charge of $-1$. Alpha particles carry a $+2$ charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-easy-q4",
+      "type": "mcq",
+      "question": "Which term describes the fact that radioactive emission happens suddenly and cannot be predicted for a specific nucleus?",
+      "options": [
+        "Spontaneous",
+        "Ionising",
+        "Induced",
+        "Magnetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources define the emission of radiation as spontaneous, meaning it happens suddenly without external influence.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "20-2-nuclear-emission-easy-q5",
+      "type": "mcq",
+      "question": "Which radiation is easily stopped by a single sheet of paper?",
+      "options": [
+        "$alpha$-particles",
+        "$beta$-particles",
+        "$gamma$-rays",
+        "Cosmic rays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpha particles have the 'least' penetrating ability and are stopped by a thin sheet of paper.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

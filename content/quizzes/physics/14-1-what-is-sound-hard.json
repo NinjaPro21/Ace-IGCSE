@@ -1,0 +1,77 @@
+{
+  "id": "14-1-what-is-sound-hard",
+  "topicId": "14-1-what-is-sound",
+  "chapterId": "ch14-sound",
+  "difficulty": "hard",
+  "title": "What Is Sound? — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-1-what-is-sound-hard-q1",
+      "type": "mcq",
+      "question": "A ringing electric bell is placed in a jar. As the air is pumped out of the jar, the sound gets fainter and eventually disappears. What does this demonstrate?",
+      "options": [
+        "Sound waves require a medium for propagation",
+        "The frequency of sound decreases in a vacuum",
+        "Sound waves are reflected by the walls of the jar",
+        "The bell stops vibrating in a vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves need a medium (solid, liquid, or gas) to travel. In a vacuum, there are no particles to collide and transfer energy, so sound cannot travel.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-hard-q2",
+      "type": "mcq",
+      "question": "If the frequency of a vibrating source is increased from $200\\text{ Hz}$ to $400\\text{ Hz}$, how does the period of the sound wave change?",
+      "options": [
+        "It is halved",
+        "It is doubled",
+        "It remains constant",
+        "It increases by $200\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Period ($T$) and frequency ($f$) are inversely related ($T = 1/f$). Doubling the frequency halves the period.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-hard-q3",
+      "type": "mcq",
+      "question": "A loudspeaker diaphragm moves forward, then backward. What specific change does the forward motion create in the air immediately in front of it?",
+      "options": [
+        "A compression (high pressure)",
+        "A rarefaction (low pressure)",
+        "A transverse trough",
+        "A vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the diaphragm moves forward, it pushes air molecules together, creating a region of higher pressure known as a compression.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-hard-q4",
+      "type": "mcq",
+      "question": "Which row correctly compares a $50\\text{ Hz}$ sound wave and a $15000\\text{ Hz}$ sound wave in air?",
+      "options": [
+        "$15000\\text{ Hz}$ has a higher pitch and shorter wavelength",
+        "$50\\text{ Hz}$ has a higher pitch and longer wavelength",
+        "$15000\\text{ Hz}$ travels much faster than $50\\text{ Hz}$",
+        "$50\\text{ Hz}$ is ultrasound; $15000\\text{ Hz}$ is audible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher frequency corresponds to higher pitch. Since speed ($v$) is constant in the same medium, a higher frequency must have a shorter wavelength ($\\lambda$) per $v = f\\lambda$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-1-what-is-sound-hard-q5",
+      "type": "mcq",
+      "question": "A student blows a special whistle that produces sound at $15\\text{ Hz}$. The student hears nothing, but a nearby sensor detects a wave. Why is the sound not heard?",
+      "options": [
+        "The frequency is below the human lower limit of audibility",
+        "The amplitude is too low to be measured",
+        "The whistle only produces transverse waves",
+        "Sound cannot travel through air at frequencies below $20\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The human audible range starts at $20\\text{ Hz}$. $15\\text{ Hz}$ is too low for the human ear to detect.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

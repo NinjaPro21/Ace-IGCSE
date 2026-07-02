@@ -1,0 +1,77 @@
+{
+  "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium",
+  "topicId": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic",
+  "chapterId": "ch01-functions",
+  "difficulty": "medium",
+  "title": "Graphs of $y = |f(x)|$ where $f(x)$ is Linear — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q1",
+      "type": "mcq",
+      "question": "Find the range of the function f(x)=∣2x−6∣ for the domain 0\nlex\nle5.",
+      "options": [
+        "0\nlef(x)\nle6",
+        "4\nlef(x)\nle6",
+        "0\nlef(x)\nle4",
+        "0\nlef(x)\nle5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Endpoints: f(0)=6,f(5)=4. Vertex at x=3 gives f(3)=0. Range is .\n\n**Common mistake:** Checking only the endpoints and concluding the range is 4\nley\nle6."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q2",
+      "type": "mcq",
+      "question": "State the coordinates of the points where the graph of y=∣x−3∣−4 crosses the x-axis.",
+      "options": [
+        "(7,0) and (−1,0)",
+        "(3,0) and (4,0)",
+        "(7,0) and (1,0)",
+        "(0,−1) and (0,7)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set y=0: ∣x−3∣=4. Case 1: x−3=4 \\implies x=7. Case 2: x−3=−4 \\implies x=−1.\n\n**Common mistake:** Incorrectly identifying the intercepts from a rough sketch or solving for only one point."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q3",
+      "type": "mcq",
+      "question": "Find the gradients of the two straight branches that form the graph y=∣5x+10∣.",
+      "options": [
+        "5 and −5",
+        "5 and 10",
+        "1 and −1",
+        "10 and −10"
+      ],
+      "correctIndex": 0,
+      "explanation": "The branches are y=5x+10 and y=−(5x+10)=−5x−10. The gradients are 5 and -5.\n\n**Common mistake:** Confusing the gradient with the y-intercept or providing only the positive gradient."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q4",
+      "type": "mcq",
+      "question": "On the graph of y=∣x−2∣+1, find the y-coordinate when x=−3.",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute x=−3: y=∣−3−2∣+1=∣−5∣+1=5+1=6.\n\n**Common mistake:** Arithmetic errors in the subtraction or forgetting to add the 1 at the end."
+    },
+    {
+      "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q5",
+      "type": "mcq",
+      "question": "Determine the number of solutions to the equation ∣x+4∣=2 by considering its graph.",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The graph y=∣x+4∣ is a V-shape with vertex at (−4,0). The line y=2 intersects both arms of the V.\n\n**Common mistake:** Thinking there is only one solution because it's a 'single' equation."
+    }
+  ]
+}

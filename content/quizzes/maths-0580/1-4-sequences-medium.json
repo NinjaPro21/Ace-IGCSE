@@ -1,0 +1,77 @@
+{
+  "id": "1-4-sequences-medium",
+  "topicId": "1-4-sequences",
+  "chapterId": "ch01-number",
+  "difficulty": "medium",
+  "title": "Sequences — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-4-sequences-medium-q1",
+      "type": "mcq",
+      "question": "Find the $n$2$-2, 3, 8, 13, 18, \\dots$",
+      "options": [
+        "$5n - 7$",
+        "$5n - 2$",
+        "$-2n + 5$",
+        "$5n + 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common difference is $3 - (-2) = 5$, giving a leading term of $5n$2$n=1$), find the constant $c$2$5(1) + c = -2 \\implies c = -7$. Thus, the expression is $5n - 7$.\n\n**Common mistake:** Students often use the first term directly as the constant, resulting in $5n - 2$, or match the common difference to the second term."
+    },
+    {
+      "id": "1-4-sequences-medium-q2",
+      "type": "mcq",
+      "question": "The first four terms of a sequence are $2, 9, 20, 35$. Given that the second differences are constant, find the coefficient of the $n^2$ term in its $n$-th term expression.",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "First differences: $9-2=7, 20-9=11, 35-20=15$. Second differences: $11-7=4, 15-11=4$. The coefficient of $n^2$ is half of the constant second difference: $4 \\div 2 = 2$.\n\n**Common mistake:** Students frequently forget to halve the second difference, selecting 4 instead of 2."
+    },
+    {
+      "id": "1-4-sequences-medium-q3",
+      "type": "mcq",
+      "question": "A geometric sequence has a second term of 6 and a third term of 18. Find the first term of this sequence.",
+      "options": [
+        "2",
+        "3",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common ratio $r = 18 \\div 6 = 3$. The first term $a$2$a \\times 3 = 6 \\implies a = 2$.\n\n**Common mistake:** Students may find the common ratio 3 and assume it is the first term, or subtract 3 from 6 instead of dividing."
+    },
+    {
+      "id": "1-4-sequences-medium-q4",
+      "type": "mcq",
+      "question": "The $n$2$n^2 - 4n$. Which term in this sequence has a value of 21?",
+      "options": [
+        "7th term",
+        "3rd term",
+        "21st term",
+        "5th term"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up the quadratic equation: $n^2 - 4n = 21 \\implies n^2 - 4n - 21 = 0$. Factorising gives $(n-7)(n+3) = 0$. Since $n$2$n = 7$.\n\n**Common mistake:** Students might guess values or commit sign errors during factorisation, leading to options like $(n+7)(n-3) = 0$ yielding 3."
+    },
+    {
+      "id": "1-4-sequences-medium-q5",
+      "type": "mcq",
+      "question": "An exponential sequence is defined by the rule $3 \\times 2^{n-1}$. Find the sum of the 1st and 4th terms.",
+      "options": [
+        "27",
+        "15",
+        "24",
+        "51"
+      ],
+      "correctIndex": 0,
+      "explanation": "1st term ($n=1$): $3 \\times 2^0 = 3$. 4th term ($n=4$): $3 \\times 2^3 = 3 \\times 8 = 24$. Sum: $3 + 24 = 27$.\n\n**Common mistake:** Students may compute the 4th term as $(3 \\times 2)^3 = 216$ or evaluate $2^{4-1}$ incorrectly as $2^4=16$, leading to wrong sums."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "18-1-electromagnetic-induction-hard",
+  "topicId": "18-1-electromagnetic-induction",
+  "chapterId": "ch18-electromagnetic-effects",
+  "difficulty": "hard",
+  "title": "Electromagnetic Induction — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "18-1-electromagnetic-induction-hard-q1",
+      "type": "mcq",
+      "question": "A bar magnet is pushed entirely through a long solenoid at a constant speed. Why does the galvanometer deflection drop to zero when the magnet is exactly at the midlength point of the solenoid?",
+      "options": [
+        "There is no change in the magnetic flux linking the solenoid at that instant",
+        "The North and South poles of the magnet cancel each other out",
+        "The speed of the magnet becomes zero at the midpoint",
+        "The solenoid becomes magnetically saturated at the centre"
+      ],
+      "correctIndex": 0,
+      "explanation": "As noted in Worked Example 18A, at the instant the magnet passes the midpoint, the number of field lines entering equals those leaving a specific section, resulting in no net change in flux.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-hard-q2",
+      "type": "mcq",
+      "question": "Explain how Lenz's Law illustrates the principle of conservation of energy.",
+      "options": [
+        "Mechanical work done to overcome the repulsive force is converted into electrical energy",
+        "The induced current creates energy from the magnetic field",
+        "The magnet loses mass to provide the energy for the induced current",
+        "The solenoid uses thermal energy from the surroundings to generate the e.m.f."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the induced pole opposes the magnet's motion, the person must do work to move the magnet. This mechanical work is the source of the electrical energy produced.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-hard-q3",
+      "type": "mcq",
+      "question": "A magnet is dropped vertically through a coil. How does the second peak of the induced e.m.f. (as the magnet leaves) compare to the first peak (as it enters)?",
+      "options": [
+        "The second peak is higher and has opposite polarity",
+        "The second peak is lower and has the same polarity",
+        "Both peaks are identical in height and direction",
+        "The second peak is zero because the magnet is already moving"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the magnet falls, it accelerates due to gravity. It is moving faster when it leaves the coil than when it entered, leading to a higher rate of flux change and a larger e.m.f. peak.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-hard-q4",
+      "type": "mcq",
+      "question": "An aluminium disc is placed near a moving magnet. Although aluminium is non-magnetic, it is affected by the magnet's motion. Why?",
+      "options": [
+        "Eddy currents are induced in the disc, creating an opposing magnetic field",
+        "Aluminium becomes a permanent magnet through contact",
+        "The magnet exerts a purely electrostatic force on the disc",
+        "Aluminium is actually a magnetically soft material like iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aluminium is a conductor. The changing magnetic field from the moving magnet induces currents (eddy currents) in the disc, which then produce a magnetic field that interacts with the magnet.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "18-1-electromagnetic-induction-hard-q5",
+      "type": "mcq",
+      "question": "Which mathematical relationship correctly describes the magnitude of the induced e.m.f. according to Faraday's observations?",
+      "options": [
+        "e.m.f. is proportional to the rate of change of magnetic flux linkage",
+        "e.m.f. is equal to the total magnetic flux regardless of time",
+        "e.m.f. is inversely proportional to the number of turns",
+        "e.m.f. is proportional to the resistance of the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced e.m.f. is determined by the rate at which the magnetic field lines are cut (rate of change of flux) and the number of turns in the conductor.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

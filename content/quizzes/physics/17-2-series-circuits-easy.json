@@ -1,0 +1,77 @@
+{
+  "id": "17-2-series-circuits-easy",
+  "topicId": "17-2-series-circuits",
+  "chapterId": "ch17-electrical-circuits-and-electrical-safety",
+  "difficulty": "easy",
+  "title": "Series Circuits — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "17-2-series-circuits-easy-q1",
+      "type": "mcq",
+      "question": "In a series circuit, what is the value of the electric current at different points in the circuit?",
+      "options": [
+        "It is the same at every point",
+        "It is highest near the positive terminal",
+        "It is highest near the negative terminal",
+        "It is shared between the components"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the sources, the current in a series circuit is the same at every point. \n\n**Common mistake:** thinking current is 'used up' by components."
+    },
+    {
+      "id": "17-2-series-circuits-easy-q2",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the combined resistance $R$ of two resistors, $R_1$ and $R_2$, connected in series?",
+      "options": [
+        "$R = R_1 + R_2$",
+        "$R = R_1 \\times R_2$",
+        "$1/R = 1/R_1 + 1/R_2$",
+        "$R = R_1 - R_2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the combined resistance of resistors in series is the sum of all the individual resistances. The reciprocal formula is used for parallel circuits.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-easy-q3",
+      "type": "mcq",
+      "question": "What happens to the remaining lamps in a series circuit if one of the lamps blows?",
+      "options": [
+        "They all go out because the circuit is broken",
+        "They stay lit but become dimmer",
+        "They stay lit and become brighter",
+        "Only the lamps before the blown one stay lit"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series circuit, there is only one path for the current. If any component fails, the circuit becomes open (broken) and no current can flow. This is mentioned as a disadvantage in the sources.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-easy-q4",
+      "type": "mcq",
+      "question": "A $9\\text{ V}$ battery is connected to two lamps in series. If the potential difference (p.d.) across the first lamp is $5\\text{ V}$, what is the p.d. across the second lamp?",
+      "options": [
+        "$4\\text{ V}$",
+        "$9\\text{ V}$",
+        "$14\\text{ V}$",
+        "$5\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sources state that the sum of the potential differences across components in a series circuit is equal to the total e.m.f. of the source ($5 + 4 = 9\\text{ V}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "17-2-series-circuits-easy-q5",
+      "type": "mcq",
+      "question": "Which electrical unit is used to measure resistance?",
+      "options": [
+        "Ohm ($Omega$)",
+        "Volt (V)",
+        "Ampere (A)",
+        "Watt (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ohm ($Omega$) is the unit of resistance. The volt is for potential difference, the ampere for current, and the watt for power.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

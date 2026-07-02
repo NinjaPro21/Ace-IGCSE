@@ -1,0 +1,77 @@
+{
+  "id": "9-7-differentiation-easy",
+  "topicId": "9-7-differentiation",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Differentiation — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "9-7-differentiation-easy-q1",
+      "type": "mcq",
+      "question": "Given the function $y = 8x⁴$, find the derivative function $\\frac{dy}{dx}$.",
+      "options": [
+        "$32x^3$",
+        "$8x^3$",
+        "$32x⁴$",
+        "$4x^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the power rule, multiply the coefficient by the power ($8 \\times 4 = 32$) and reduce the power by 1 ($4 - 1 = 3$), resulting in $32x^3$.\n\n**Common mistake:** A student might forget to multiply the coefficient or forget to subtract 1 from the exponent."
+    },
+    {
+      "id": "9-7-differentiation-easy-q2",
+      "type": "mcq",
+      "question": "Calculate the gradient of the curve $y = x^2 - 10x$2$x = 3$.",
+      "options": [
+        "$-4$",
+        "$-7$",
+        "$6$",
+        "$-10$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative is $\\frac{dy}{dx} = 2x - 10$. Substituting $x = 3$ gives $2(3) - 10 = 6 - 10 = -4$.\n\n**Common mistake:** A student might substitute $x=3$ into the original function instead of the derivative."
+    },
+    {
+      "id": "9-7-differentiation-easy-q3",
+      "type": "mcq",
+      "question": "Identify the derivative $\\frac{dy}{dx}$ of the constant function $y = 50$.",
+      "options": [
+        "$0$",
+        "$50$",
+        "$1$",
+        "$50x$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The derivative of any constant is zero because a constant function has no rate of change (its graph is a horizontal line with gradient 0).\n\n**Common mistake:** The student might assume the derivative is 1 or keep the constant value."
+    },
+    {
+      "id": "9-7-differentiation-easy-q4",
+      "type": "mcq",
+      "question": "What is the gradient of a curve at its turning point?",
+      "options": [
+        "$0$",
+        "$1$",
+        "Undefined",
+        "It depends on the function"
+      ],
+      "correctIndex": 0,
+      "explanation": "A turning point is a stationary point where the gradient of the tangent to the curve is exactly zero.\n\n**Common mistake:** The student might confuse the gradient with the $y$-coordinate of the turning point."
+    },
+    {
+      "id": "9-7-differentiation-easy-q5",
+      "type": "mcq",
+      "question": "Differentiate $y = \\frac{1}{3}x^3 + 5x$2$x$.",
+      "options": [
+        "$x^2 + 5$",
+        "$x^3 + 5$",
+        "$\\frac{1}{3}x^2 + 5$",
+        "$3x^2 + 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplying the power by the coefficient ($\\frac{1}{3} \\times 3 = 1$) and reducing the power ($3-1=2$) gives $x^2$. The derivative of $5x$ is 5.\n\n**Common mistake:** The student may fail to multiply the $\\frac{tion}{}$ by the exponent correctly."
+    }
+  ]
+}

@@ -8,17 +8,22 @@ import { LessonSidebar } from '@/components/LessonSidebar'
 import { LessonTopBar } from '@/components/LessonTopBar'
 import { MarkdownLesson } from '@/components/MarkdownLesson'
 import { MathText } from '@/components/MathText'
-import { MasteryPath } from '@/components/MasteryPath'
+import { TopicMasteryPath } from '@/components/TopicMasteryPath'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { masteryEngine } from '@/features/mastery/MasteryEngine'
 import { useChapterSession } from '@/features/mastery/useChapterSession'
 import { useTopicSession } from '@/features/mastery/useTopicSession'
+import { useAuth } from '@/features/social/AuthContext'
+import { usePresence } from '@/features/social/usePresence'
 import {
   getChapter,
   getNotesForTopic,
   getSubject,
   getTopic,
   getTopicsForChapter,
+  getTopicSectionLabel,
 } from '@/lib/contentLoader'
+import { isRedundantSectionSubtitle } from '@/lib/mathMarkdown'
 
 const FONT_STEPS = [0.85, 1.0, 1.15, 1.3]
 
@@ -39,7 +44,8 @@ export function TopicLessonPage() {
     markNotesRead,
     areChapterNotesComplete,
     markChapterPopoutSeen,
-    canTakeChapterQuiz,
+    canTakeTopicQuiz,
+    getTopicQuizLevel,
     isNotesRead,
     getTopicTimeSpent,
     hasTopicStudyTime,
@@ -54,6 +60,25 @@ export function TopicLessonPage() {
 
   useChapterSession(chapterId)
   useTopicSession(topicId)
+
+  const { user } = useAuth()
+
+  useEffect(() => {
+    if (subjectId && chapterId && topicId) {
+      masteryEngine.recordLastVisited(subjectId, chapterId, topicId)
+      masteryEngine.notify()
+    }
+  }, [subjectId, chapterId, topicId])
+
+  const topic = getTopic(topicId)
+  usePresence(user?.id, {
+    status: 'studying',
+    subjectId,
+    currentChapterId: chapterId,
+    currentTopicId: topicId,
+    topicTitle: topic?.title,
+    enabled: Boolean(user),
+  })
 
   const topicTimeSpent = getTopicTimeSpent(topicId)
   const studyComplete = hasTopicStudyTime(topicId)
@@ -79,7 +104,6 @@ export function TopicLessonPage() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [topicId])
 
-  const topic = getTopic(topicId)
   const chapter = getChapter(chapterId)
   const subject = getSubject(subjectId)
   const chapterTopics = chapter ? getTopicsForChapter(chapter.id) : []
@@ -123,8 +147,14 @@ export function TopicLessonPage() {
   }
 
   const notes = getNotesForTopic(topic)
+  const sectionLabel = getTopicSectionLabel(chapterId, topicId)
+  const lessonMetaLine =
+    topic.lessonMeta ??
+    (isRedundantSectionSubtitle(topic.subtitle) ? chapter.title : topic.subtitle)
   const notesComplete = areChapterNotesComplete(chapterId)
-  const canStartQuiz = canTakeChapterQuiz(chapterId, 'easy')
+  const sectionNotesComplete = isNotesRead(topicId)
+  const canStartSectionQuiz = canTakeTopicQuiz(topicId, 'easy')
+  const sectionQuizLevel = getTopicQuizLevel(topicId)
 
   const dismissPopout = () => {
     setShowPopout(false)
@@ -158,13 +188,18 @@ export function TopicLessonPage() {
           <LessonSidebar topic={topic} chapterTitle={chapterLabel} />
 
           <main className="enlight-lesson-main">
-            <EnlightSectionLabel>{topic.subtitle}</EnlightSectionLabel>
+            <Link to={`/subjects/${subjectId}`} className="enlight-lesson-back">
+              ← Back to {subject.name}
+            </Link>
+            <EnlightSectionLabel>{sectionLabel}</EnlightSectionLabel>
             <h1 className="enlight-heading-serif">
-              <MathText content={topic.title} />
+              <MathText content={topic.title} title />
             </h1>
-            <p className="enlight-lesson-meta">
-              <MathText content={topic.lessonMeta ?? topic.subtitle} />
-            </p>
+            {lessonMetaLine && (
+              <p className="enlight-lesson-meta">
+                <MathText content={lessonMetaLine} title />
+              </p>
+            )}
 
             {!isNotesRead(topicId) ? (
               <div className="enlight-study-timer" role="status">
@@ -198,7 +233,12 @@ export function TopicLessonPage() {
             )}
 
             <div ref={lessonCardRef} className="enlight-lesson-card">
-              <MarkdownLesson content={notes} explorerId={topic.explorerId} explorerPanels={topic.explorerPanels} />
+              <MarkdownLesson
+                content={notes}
+                explorerId={topic.explorerId}
+                explorerPanels={topic.explorerPanels}
+                subjectId={subjectId}
+              />
             </div>
 
             <div className="enlight-topic-nav">
@@ -218,29 +258,35 @@ export function TopicLessonPage() {
                 >
                   <MathText content={nextTopic.title} /> →
                 </EnlightButton>
-              ) : chapter.hasChapterQuiz && canStartQuiz ? (
-                <EnlightButton
-                  to={`/quiz/${chapterId}/easy`}
-                  onClick={() => markChapterPopoutSeen(chapterId)}
-                >
-                  Easy quiz →
+              ) : sectionNotesComplete && canStartSectionQuiz && sectionQuizLevel < 2 ? (
+                <EnlightButton to={`/quiz/topic/${topicId}/easy`}>
+                  Section quiz →
                 </EnlightButton>
               ) : (
                 <span />
               )}
             </div>
 
-            {chapter.hasChapterQuiz && (
+            {topic.quizIds && (
               <>
                 <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
-                  Chapter mastery
+                  Section mastery
                 </h2>
                 <p className="enlight-body-text">
-                  Quizzes are open anytime — pass Easy before Medium, then Hard, then PYP.
-                  {notesComplete ? ' All topic sections studied.' : ''}
+                  Pass each tier to master this section. Retries shuffle numbers and question order.
+                  {!sectionNotesComplete && (
+                    <> Study notes for 5 minutes to earn the notes-read XP bonus.</>
+                  )}
                 </p>
-                <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
+                <TopicMasteryPath topicId={topicId} notesComplete={sectionNotesComplete} />
               </>
+            )}
+
+            {chapter.hasChapterQuiz && notesComplete && (
+              <p className="enlight-body-text" style={{ marginTop: 24 }}>
+                Chapter review:{' '}
+                <Link to={`/quiz/${chapterId}/easy`}>combined Easy quiz</Link> (all sections)
+              </p>
             )}
 
             <div style={{ marginTop: 32, display: 'flex', gap: 12 }}>

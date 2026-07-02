@@ -1,0 +1,77 @@
+{
+  "id": "14-3-echoes-and-ultrasound-hard",
+  "topicId": "14-3-echoes-and-ultrasound",
+  "chapterId": "ch14-sound",
+  "difficulty": "hard",
+  "title": "Echoes and Ultrasound — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "14-3-echoes-and-ultrasound-hard-q1",
+      "type": "mcq",
+      "question": "A sonar chart shows a transmitted pulse at $t = 0\\text{ s}$ and its reflected echo at $t = 0.8\\text{ s}$. The speed of sound in water is $1500\\text{ m/s}$. Calculate the depth of the seabed.",
+      "options": [
+        "$600\\text{ m}$",
+        "$1200\\text{ m}$",
+        "$300\\text{ m}$",
+        "$900\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depth $d = \\frac{v \\times t}{2} = \\frac{1500 \\times 0.8}{2} = 600\\text{ m}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-hard-q2",
+      "type": "mcq",
+      "question": "The speed of ultrasound in tissue is $1540\\text{ m/s}$. If a scanner uses a wavelength of $0.5\\text{ mm}$, what is the frequency of the ultrasound?",
+      "options": [
+        "$3.08 \\times 10^{6}\\text{ Hz}$",
+        "$3.08 \\times 10^{3}\\text{ Hz}$",
+        "$7.7 \\times 10^{5}\\text{ Hz}$",
+        "$770\\text{ Hz}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $v = f\\lambda$, $f = \\frac{v}{\\lambda} = \\frac{1540}{0.0005} = 3.08 \\times 10^{6}\\text{ Hz}$ (or $3.08\\text{ MHz}$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-hard-q3",
+      "type": "mcq",
+      "question": "A ship is $60\\text{ m}$ above the seabed. How long will it take to detect an echo if the speed of sound in water is $1500\\text{ m/s}$?",
+      "options": [
+        "$0.08\\text{ s}$",
+        "$0.04\\text{ s}$",
+        "$0.16\\text{ s}$",
+        "$0.20\\text{ s}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$t = \\frac{2d}{v} = \\frac{2 \\times 60}{1500} = \\frac{120}{1500} = 0.08\\text{ s}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-hard-q4",
+      "type": "mcq",
+      "question": "A sound wave is reflected from a wall that is $L$ metres away. If the speed of sound is $v$, which expression represents the time interval between the sound being made and the echo being heard?",
+      "options": [
+        "$\\frac{2L}{v}$",
+        "$\\frac{L}{v}$",
+        "$\\frac{v}{2L}$",
+        "$\\frac{v}{L}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sound travels to the wall ($L$) and back ($L$), total distance $2L$. Since $\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$, the time is $\\frac{2L}{v}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "14-3-echoes-and-ultrasound-hard-q5",
+      "type": "mcq",
+      "question": "A pulse of ultrasound is used to measure the thickness of a steel plate. The pulse takes $2.0 \\times 10^{-5}\\text{ s}$ to travel through the plate and reflect back. If the speed of sound in steel is $5000\\text{ m/s}$, how thick is the plate?",
+      "options": [
+        "$5.0\\text{ cm}$",
+        "$10.0\\text{ cm}$",
+        "$2.5\\text{ cm}$",
+        "$0.5\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$d = \\frac{vt}{2} = \\frac{5000 \\times 2.0 \\times 10^{-5}}{2} = \\frac{0.1}{2} = 0.05\\text{ m} = 5.0\\text{ cm}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "19-1-the-atom-pyp",
+  "topicId": "19-1-the-atom",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "pyp",
+  "title": "The Atom — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-1-the-atom-pyp-q1",
+      "type": "mcq",
+      "question": "The table shows the composition of four different nuclides. Which two are isotopes of the same element?nnNuclide | Protons | Neutronsn--- | --- | ---n1 | 6 | 6n2 | 7 | 7n3 | 6 | 8n4 | 8 | 8",
+      "options": [
+        "1 and 3",
+        "1 and 2",
+        "2 and 4",
+        "3 and 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes must have the same number of protons. Nuclides 1 and 3 both have 6 protons.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-pyp-q2",
+      "type": "mcq",
+      "question": "A beam of $alpha$-particles is fired at a thin gold foil. Most of the particles pass through the foil without any deflection. What does this result show?",
+      "options": [
+        "Atoms are mostly empty space",
+        "Atoms have a very dense negative center",
+        "Gold is a very soft metal",
+        "$alpha$-particles have no charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a standard observation from the Rutherford experiment; most particles pass through because they do not encounter the tiny nucleus, proving the atom is mostly empty space.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-pyp-q3",
+      "type": "mcq",
+      "question": "The nuclide notation for an atom is $^{14}_6 C$. How many nucleons are in this atom?",
+      "options": [
+        "14",
+        "6",
+        "8",
+        "20"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the notation $^A_Z X$, the top number $A$ is the nucleon number (total protons + neutrons). For carbon-14, this is 14.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-pyp-q4",
+      "type": "mcq",
+      "question": "Which row in the table correctly describes the relative mass and the relative charge of a neutron?nnRow | Relative Mass | Relative Chargen--- | --- | ---nA | 1 | 0nB | 1 | +1nC | 1/2000 | -1nD | 0 | 0",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0,
+      "explanation": "A neutron has a relative mass of approximately 1 and is electrically neutral (charge 0).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-pyp-q5",
+      "type": "mcq",
+      "question": "The diagram shows a neutral atom. If two electrons are removed, what is the charge on the resulting particle?n[Diagram: Nucleus with 4 protons, 4 electrons orbiting]",
+      "options": [
+        "$+2$",
+        "$-2$",
+        "$+4$",
+        "$0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If a neutral atom with 4 protons ($+4$ charge) loses 2 electrons (leaving $-2$ charge), the resultant charge is $+4 - 2 = +2$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

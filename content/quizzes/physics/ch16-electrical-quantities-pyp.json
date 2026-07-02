@@ -1,0 +1,402 @@
+{
+  "id": "ch16-electrical-quantities-pyp",
+  "topicId": "ch16-electrical-quantities",
+  "chapterId": "ch16-electrical-quantities",
+  "difficulty": "pyp",
+  "title": "Chapter 16: Electrical Quantities — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch16-electrical-quantities-pyp-q1",
+      "type": "mcq",
+      "question": "Which equation correctly shows the relationship between electric current $I$, charge $Q$ and time $t$?",
+      "options": [
+        "$I = Q / t$",
+        "$I = Q u00d7 t$",
+        "$Q = I / t$",
+        "$t = I u00d7 Q$"
+      ],
+      "correctIndex": 0,
+      "explanation": "As defined in the syllabus map and subtopic notes, the relationship is $I = Q / t$. \n\n**Common mistake:** Selecting $I = Q u00d7 t$ (Option B)."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q2",
+      "type": "mcq",
+      "question": "A student wants to measure the current in a circuit. How should they connect the ammeter?",
+      "options": [
+        "In series with the component",
+        "In parallel with the component",
+        "Between the positive terminal and the earth",
+        "Across the terminals of the battery only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on standard circuit diagrams in the text, an ammeter must be connected in series so that all the current flows through it. \n\n**Common mistake:** Connecting it in parallel (the method for voltmeters)."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q3",
+      "type": "mcq",
+      "question": "In a laboratory experiment, $2.0 \\times 10^{20}$ electrons pass a point in a wire in $1.0\\text{ minute}$. Given the charge of an electron is $1.6 \\times 10^{-19}\\text{ C}$, what is the current?",
+      "options": [
+        "$0.53\\text{ A}$",
+        "$32\\text{ A}$",
+        "$1.25\\text{ A}$",
+        "$0.032\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This matches Review Question 4(b). Total charge $Q = (2.0 \\times 10^{20}) \\times (1.6 \\times 10^{-19}) = 32\\text{ C}$. Current $I = 32\\text{ C} / 60\\text{ s} u2248 0.53\\text{ A}$. \n\n**Common mistake:** Using 1 minute as the divisor instead of 60 seconds."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q4",
+      "type": "mcq",
+      "question": "The diagram shows a circuit with a battery and a lamp. Which arrow correctly represents the direction of the flow of electrons?nn[Diagram: Battery with (+) and (-) terminals, arrows A and B around the loop]",
+      "options": [
+        "Arrow moving from negative to positive terminal",
+        "Arrow moving from positive to negative terminal",
+        "Arrow pointing into the positive terminal only",
+        "Arrow pointing out of both terminals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Free electrons are negative and are repelled by the negative terminal and attracted to the positive terminal. \n\n**Common mistake:** Selecting the positive-to-negative direction (conventional current)."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q5",
+      "type": "mcq",
+      "question": "According to the student book, approximately how many electrons are required to make up $1.0\\text{ Coulomb}$ of charge?",
+      "options": [
+        "$6.25 u00d7 10^{18}$",
+        "$1.60 u00d7 10^{-19}$",
+        "$3.00 u00d7 10^{8}$",
+        "$6.00 u00d7 10^{23}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a fact stated in the 'Let's Practise' answers for section 16.3. \n\n**Common mistake:** Choosing the value of the charge on a single electron ($1.6 u00d7 10^{-19}$)."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q6",
+      "type": "mcq",
+      "question": "How does a neutral atom become a positive ion?",
+      "options": [
+        "It loses electrons.",
+        "It gains protons.",
+        "It loses protons.",
+        "It gains electrons."
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a direct question from Review Section A, Question 2. Neutral atoms become positive by losing negatively charged electrons. \n\n**Common mistake:** Selecting 'gains protons'."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q7",
+      "type": "mcq",
+      "question": "A student has two polythene rods, P and Q. Both rods are rubbed with the same woollen cloth. The student then brings the rods close together. Which row describes the charges on the rods and their interaction?nn| | Charge on P | Charge on Q | Interaction |n| :--- | :--- | :--- | :--- |n| A | Negative | Negative | Repel |n| B | Negative | Positive | Attract |n| C | Positive | Positive | Repel |n| D | Positive | Negative | Attract |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Polythene becomes negatively charged when rubbed with wool. Since both are negative, they repel. \n\n**Common mistake:** Choosing Row B, assuming friction always produces opposite charges on two similar rods."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q8",
+      "type": "mcq",
+      "question": "Which statement about the charging of a glass rod by rubbing it with silk is correct?",
+      "options": [
+        "The glass rod becomes positive because it loses electrons.",
+        "The silk becomes positive because it gains electrons.",
+        "The glass rod becomes negative because it gains protons.",
+        "The silk becomes negative because it loses protons."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rubbing causes electron transfer. Losing negative electrons leaves the glass rod with a net positive charge. \n\n**Common mistake:** Thinking the rod 'gains' positivity via protons."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q9",
+      "type": "mcq",
+      "question": "The diagram shows three identical metal spheres on insulating stands. Sphere 1 is positive. Sphere 1 is brought near Sphere 2, then removed. Then Sphere 2 is brought near Sphere 3. What are the final charges if both were initially neutral?nn[Sphere 1: +] --> [Sphere 2: neutral] then [Sphere 2] --> [Sphere 3: neutral]",
+      "options": [
+        "2 becomes induced negative on one side; 3 remains neutral.",
+        "All three spheres become positive.",
+        "2 and 3 both become negative.",
+        "2 becomes positive and 3 becomes negative."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bringing a charged object near a neutral conductor induces a charge separation, but if they don't touch and there is no earthing, the overall charge remains zero. \n\n**Common mistake:** Thinking that proximity alone 'gives' a permanent charge to a neutral object."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q10",
+      "type": "mcq",
+      "question": "A table shows the number of subatomic particles in four atoms. Which atom is a negatively charged ion?nn| Atom | Protons | Neutrons | Electrons |n| :--- | :--- | :--- | :--- |n| W | 6 | 6 | 6 |n| X | 7 | 7 | 10 |n| Y | 11 | 12 | 10 |n| Z | 17 | 18 | 17 |",
+      "options": [
+        "Atom X",
+        "Atom W",
+        "Atom Y",
+        "Atom Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ion is negatively charged if it has more electrons than protons. Atom X has 7 protons (+) and 10 electrons (-). \n\n**Common mistake:** Choosing Atom Y, which is a positive ion (more protons than electrons)."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q11",
+      "type": "mcq",
+      "question": "The diagram shows the electric field pattern around an isolated object. n[Diagram: Radial lines pointing inwards towards a central sphere]nWhat is the nature of the charge on the object?",
+      "options": [
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Magnetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric field lines are directed towards a negative charge. In the diagram, the arrows pointing inward identify the charge as negative.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q12",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies the direction of the electric field and the type of charge that follows it?",
+      "options": [
+        "Direction: Away from positive; Charge: Positive follows field",
+        "Direction: Towards positive; Charge: Positive follows field",
+        "Direction: Away from negative; Charge: Negative follows field",
+        "Direction: Towards positive; Charge: Negative follows field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Field lines point away from positive charges. By definition, a positive charge experiences a force in the direction of these lines.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q13",
+      "type": "mcq",
+      "question": "A student places a small charged plastic ball between two horizontal, oppositely charged plates. The ball stays stationary. Which statement is correct?",
+      "options": [
+        "The upward electric force is equal to the downward weight of the ball",
+        "There is no electric field between the plates",
+        "The ball must be electrically neutral",
+        "The magnetic field is cancelling the electric field"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the ball to be stationary, the forces must be balanced. The electric field exerts a force on the charge that must be equal and opposite to the gravitational force (weight).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q14",
+      "type": "mcq",
+      "question": "Which diagram correctly represents the electric field between two identical negative charges placed near each other?",
+      "options": [
+        "Lines from both charges point inwards and bend away from the central gap",
+        "Lines from both charges point outwards and meet in the middle",
+        "Lines move in straight paths from one charge to the other",
+        "Concentric circles surround both charges together"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since both are negative, lines must point towards the charges. Because they are like charges, they repel, so the field lines bend away from the region between them.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q15",
+      "type": "mcq",
+      "question": "A metal sphere is positively charged. What happens to the electric field pattern if the charge on the sphere is doubled?",
+      "options": [
+        "The number of field lines drawn increases",
+        "The field lines reverse direction",
+        "The field lines become parallel to each other",
+        "The field lines only exist inside the sphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "A stronger field is represented by a higher density of field lines. Doubling the charge increases the field strength, requiring more lines in the diagram.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q16",
+      "type": "mcq",
+      "question": "A resistor converts $350\\text{ J}$ of electrical energy to other forms of energy. What is the amount of charge that flows through it when a potential difference of $7\\text{ V}$ is applied across it?",
+      "options": [
+        "$50\\text{ C}$",
+        "$0.20\\text{ C}$",
+        "$350\\text{ C}$",
+        "$2450\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on the Let's Review section, $Q = W / V$. So, $Q = 350\\text{ J} / 7\\text{ V} = 50\\text{ C}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q17",
+      "type": "mcq",
+      "question": "Which row correctly identifies what a voltmeter measures and its typical unit?",
+      "options": [
+        "Potential difference; Volt",
+        "Electromotive force; Ampere",
+        "Electric current; Volt",
+        "Electric charge; Joule"
+      ],
+      "correctIndex": 0,
+      "explanation": "A voltmeter is used to measure potential difference (p.d.) or electromotive force (e.m.f.) in volts (V).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q18",
+      "type": "mcq",
+      "question": "The diagram shows three identical resistors connected in series to a $6\\text{ V}$ source. What is the potential difference between points X and Y (across two resistors)?n[Diagram: Source --- R --- X --- R --- Y --- R --- Source]",
+      "options": [
+        "$4\\text{ V}$",
+        "$2\\text{ V}$",
+        "$3\\text{ V}$",
+        "$6\\text{ V}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total e.m.f. of $6\\text{ V}$ is shared equally across identical resistors. Each has $2\\text{ V}$. Across two resistors (X to Y), the reading is $2 + 2 = 4\\text{ V}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q19",
+      "type": "mcq",
+      "question": "The table shows values for three different circuit components.nnComponent | Work Done ($W$) | Charge ($Q$)n--- | --- | ---n1 | $12\\text{ J}$ | $2\\text{ C}$ n2 | $10\\text{ J}$ | $5\\text{ C}$ n3 | $15\\text{ J}$ | $3\\text{ C}$ nnWhich component has the largest potential difference across it?",
+      "options": [
+        "Component 1",
+        "Component 2",
+        "Component 3",
+        "All components have the same p.d."
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculating $V = W / Q$: Component 1 is $12/2 = 6\\text{ V}$. Component 2 is $10/5 = 2\\text{ V}$. Component 3 is $15/3 = 5\\text{ V}$. Component 1 has the largest p.d.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q20",
+      "type": "mcq",
+      "question": "A unit charge passes through an electric heater. The potential difference across the heater is $225\\text{ V}$. How much electrical energy is converted into thermal energy?",
+      "options": [
+        "$225\\text{ J}$",
+        "$1\\text{ J}$",
+        "$0.004\\text{ J}$",
+        "$450\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, potential difference is the work done (energy converted) by a unit charge ($Q = 1\\text{ C}$). So $W = V \\times Q = 225\\text{ V} \\times 1\\text{ C} = 225\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q21",
+      "type": "mcq",
+      "question": "Which set of changes to a metal wire will definitely result in an increase in its resistance?",
+      "options": [
+        "Increasing the length and decreasing the thickness",
+        "Decreasing the length and increasing the thickness",
+        "Increasing the length and increasing the thickness",
+        "Decreasing the length and decreasing the thickness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is proportional to length and inversely proportional to area (thickness). To increase $R$, you need a longer and thinner wire. \n\n**Common mistake:** Selecting Row C, thinking bigger wires always have higher resistance."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q22",
+      "type": "mcq",
+      "question": "The table shows the results of an experiment on a component. What can be concluded about the component?nn| $V / \\text{V}$ | $1.0$ | $2.0$ | $3.0$ | $4.0$ |n| :--- | :--- | :--- | :--- | :--- |n| $I / \\text{mA}$ | $0.5$ | $1.1$ | $1.6$ | $2.1$ |",
+      "options": [
+        "It is a non-ohmic conductor because the resistance is not constant.",
+        "It is an ohmic conductor because the current increases with voltage.",
+        "The resistance of the component is constant at $2000\\text{ }Omega$.",
+        "The component is a diode."
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculating $R = V/I$ for each pair: $1/0.0005 = 2000\\text{ }Omega$, $2/0.0011 \\approx 1818\\text{ }Omega$, $3/0.0016 = 1875\\text{ }Omega$. Since the resistance changes, it is non-ohmic. \n\n**Common mistake:** Thinking 'ohmic' just means the current goes up when voltage goes up."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q23",
+      "type": "mcq",
+      "question": "Which graph represents the $I-V$ characteristic of a semiconductor diode?",
+      "options": [
+        "A graph with zero current for negative voltage and a sharp rise for positive voltage",
+        "A straight line passing through the origin",
+        "A curve whose gradient decreases as voltage increases",
+        "A horizontal line at a constant current value"
+      ],
+      "correctIndex": 0,
+      "explanation": "As described in Table 16.1, a diode allows current to flow in one direction only, represented by zero current on one side of the axis and a rise on the other. \n\n**Common mistake:** Selecting the straight line, which represents a fixed resistor."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q24",
+      "type": "mcq",
+      "question": "The diagram shows a circuit with a $6.0\\text{ V}$ battery and a $12\\text{ }Omega$ resistor. What is the reading on the ammeter?nn[Diagram: Simple series circuit with battery, ammeter, and one resistor]",
+      "options": [
+        "$0.5\\text{ A}$",
+        "$2.0\\text{ A}$",
+        "$72\\text{ A}$",
+        "$18\\text{ A}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $I = V / R = 6.0 / 12 = 0.5\\text{ A}$. \n\n**Common mistake:** Dividing $12$ by $6$ to get $2.0\\text{ A}$."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q25",
+      "type": "mcq",
+      "question": "A student measures the resistance of a length of wire. He then doubles the length of the wire and doubles its diameter. How does the new resistance compare to the original?",
+      "options": [
+        "It is half of the original.",
+        "It is double the original.",
+        "$It is four \\times the original.$",
+        "It is the same as the original."
+      ],
+      "correctIndex": 0,
+      "explanation": "Doubling length ($L$) doubles $R$. Doubling diameter ($d$) quadruples the area ($A$), which quarters the $R$. Overall effect: $2 \\times (1/4) = 0.5$ (half). \n\n**Common mistake:** Thinking doubling diameter also just doubles the area, leading to 'the same' resistance."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q26",
+      "type": "mcq",
+      "question": "Which of the following can be used to calculate electrical power?",
+      "options": [
+        "potential difference $times$ current",
+        "potential difference $div$ current",
+        "current $times$ resistance",
+        "potential difference $div$ resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "As seen in the Review section, power is calculated as potential difference multiplied by current ($P=IV$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q27",
+      "type": "mcq",
+      "question": "A small heater has a rating of $15\\text{ V}, 4\\text{ A}$. How much energy does it consume if it is turned on for $2\\text{ minutes}$?",
+      "options": [
+        "$7200\\text{ J}$",
+        "$120\\text{ J}$",
+        "$450\\text{ J}$",
+        "$7.5\\text{ J}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy $E = IVt$. Here $V=15, I=4, t=120\\text{ s}$. $E = 15 \\times 4 \\times 120 = 7200\\text{ J}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q28",
+      "type": "mcq",
+      "question": "A person uses a $3\\text{ kW}$ oven for $1\\text{ hour}$ and a $2\\text{ kW}$ air conditioner for $6\\text{ hours}$. Calculate the total cost if $1\\text{ kWh}$ of electrical energy costs $5.0\\text{ cents}$.",
+      "options": [
+        "$75\\text{ cents}$",
+        "$15\\text{ cents}$",
+        "$30\\text{ cents}$",
+        "$60\\text{ cents}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total energy $= (3 \\times 1) + (2 \\times 6) = 3 + 12 = 15\\text{ kWh}$. Total cost $= 15 \\times 5.0 = 75\\text{ cents}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q29",
+      "type": "mcq",
+      "question": "The kilowatt-hour is a unit of which physical quantity?",
+      "options": [
+        "Energy",
+        "Power",
+        "Charge",
+        "Voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The kilowatt-hour is defined in the sources as a unit of energy, specifically used for commercial billing.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch16-electrical-quantities-pyp-q30",
+      "type": "mcq",
+      "question": "A resistor converts $350\\text{ J}$ of electrical energy to other forms when a potential difference of $7\\text{ V}$ is applied. What is the amount of charge that flows through it?",
+      "options": [
+        "$50\\text{ C}$",
+        "$0.20\\text{ C}$",
+        "$350\\text{ C}$",
+        "$2450\\text{ C}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $V = W / Q$, we rearrange to $Q = W / V = 350 / 7 = 50\\text{ C}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

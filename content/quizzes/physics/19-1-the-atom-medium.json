@@ -1,0 +1,77 @@
+{
+  "id": "19-1-the-atom-medium",
+  "topicId": "19-1-the-atom",
+  "chapterId": "ch19-nuclear-model-of-the-atom",
+  "difficulty": "medium",
+  "title": "The Atom — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "19-1-the-atom-medium-q1",
+      "type": "mcq",
+      "question": "An atom has a nucleon number of 40 and a proton number of 19. How many neutrons are in its nucleus?",
+      "options": [
+        "21",
+        "19",
+        "40",
+        "59"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of neutrons is found by subtracting the proton number ($Z$) from the nucleon number ($A$): $40 - 19 = 21$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-medium-q2",
+      "type": "mcq",
+      "question": "Which statement correctly describes isotopes of the same element?",
+      "options": [
+        "They have the same proton number but different nucleon numbers",
+        "They have the same nucleon number but different proton numbers",
+        "They have the same number of neutrons but different number of protons",
+        "They have different chemical properties but the same mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes are atoms of the same element (same $Z$) that have different numbers of neutrons, resulting in different nucleon numbers ($A$).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-medium-q3",
+      "type": "mcq",
+      "question": "What did the scattering of $alpha$-particles by thin metal foil prove about the structure of the atom?",
+      "options": [
+        "The atom is mostly empty space with a small, charged nucleus",
+        "The atom is a solid sphere of positive charge",
+        "Electrons are located inside the nucleus",
+        "Neutrons carry the majority of the atom's negative charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fact that most $alpha$-particles passed straight through showed the atom is mostly empty space, while the few that were deflected proved the existence of a small, concentrated, charged nucleus.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-medium-q4",
+      "type": "mcq",
+      "question": "Which row correctly identifies the particles found inside the nucleus of an atom?",
+      "options": [
+        "Protons and Neutrons",
+        "Protons and Electrons",
+        "Neutrons and Electrons",
+        "Protons, Neutrons, and Electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleus consists of protons and neutrons. Electrons orbit the nucleus and are not part of it.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "19-1-the-atom-medium-q5",
+      "type": "mcq",
+      "question": "A neutral atom of Lithium has 3 protons and 4 neutrons. How many electrons does it have?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a neutral atom, the number of negatively charged electrons must equal the number of positively charged protons to balance the total charge.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

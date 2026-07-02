@@ -1,0 +1,77 @@
+{
+  "id": "9-1-linear-graphs-easy",
+  "topicId": "9-1-linear-graphs",
+  "chapterId": "ch03-coordinate-geometry-graphs",
+  "difficulty": "easy",
+  "title": "Linear Graphs — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In the standard straight-line equation $y = mx + c$2$c$** represent?",
+      "options": [
+        "The intercept on the y-axis",
+        "The gradient of the line",
+        "The intercept on the x-axis",
+        "The coordinates of the origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the equation of a straight line is written in the form $y = mx + c$2$c$ is the intercept on the y-axis.\n\n**Common mistake:** Students often confuse $m$2$c$ (the y-intercept).",
+      "id": "9-1-linear-graphs-easy-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following describes the gradient of a **horizontal line**?",
+      "options": [
+        "The gradient is zero",
+        "The gradient is undefined",
+        "The gradient is positive",
+        "The gradient is 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horizontal lines have a gradient of zero because all points they pass through have the same y-coordinate, making the vertical change zero.\n\n**Common mistake:** Confusing horizontal lines (gradient = 0) with vertical lines, where the gradient is undefined.",
+      "id": "9-1-linear-graphs-easy-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the **y-intercept** of the line with the equation $y = 2x - 3$.",
+      "options": [
+        "(0, -3)",
+        "(0, 3)",
+        "(-3, 0)",
+        "(2, 0)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By comparing $y = 2x - 3$ to $y = mx + c$2$c = -3$. The y-intercept occurs where $x=0$, so the point is (0, -3).\n\n**Common mistake:** Providing the intercept as a single number (-3) without coordinate brackets or reversing the order to (-3, 0).",
+      "id": "9-1-linear-graphs-easy-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "According to the Cartesian coordinate system, who is credited with showing how algebra could be used to solve geometric problems?",
+      "options": [
+        "René Descartes",
+        "Archimedes",
+        "Pythagoras",
+        "Liu Hui"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cartesian coordinates are named after René Descartes, who showed how algebra could be applied to geometry.\n\n**Common mistake:** Attributing the system to Pythagoras due to the use of his theorem in finding line lengths.",
+      "id": "9-1-linear-graphs-easy-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "When plotting the graph of a linear function, what is the minimum number of points required to draw the line accurately?",
+      "options": [
+        "Two, but a third is advised as a check",
+        "Exactly one point and the origin",
+        "At least five points",
+        "Four points in each quadrant"
+      ],
+      "correctIndex": 0,
+      "explanation": "While two points define a line, finding a third point is always advisable as a check; if a mistake is made, the three points will not lie on a straight line.\n\n**Common mistake:** Plotting only two points and failing to notice a calculation error that changes the slope.",
+      "id": "9-1-linear-graphs-easy-q5"
+    }
+  ]
+}

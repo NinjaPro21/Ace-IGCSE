@@ -1,0 +1,77 @@
+{
+  "id": "6-3-energy-resources-medium",
+  "topicId": "6-3-energy-resources",
+  "chapterId": "ch06-energy-work-and-power",
+  "difficulty": "medium",
+  "title": "Energy Resources — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-3-energy-resources-medium-q1",
+      "type": "mcq",
+      "question": "For which of the following energy resources is the Sun NOT the original source of energy?",
+      "options": [
+        "Geothermal energy",
+        "Wind energy",
+        "Hydropower",
+        "Biofuels"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sun is the source for wind, hydro, and biofuels, but geothermal energy comes from the Earth's internal heat. \n\n**Common mistake:** Thinking all renewable resources come from the Sun."
+    },
+    {
+      "id": "6-3-energy-resources-medium-q2",
+      "type": "mcq",
+      "question": "A power station has an efficiency of $40\\%$. If the total energy input is $500\\text{ MJ}$, calculate the useful energy output.",
+      "options": [
+        "$200\\text{ MJ}$",
+        "$1250\\text{ MJ}$",
+        "$300\\text{ MJ}$",
+        "$460\\text{ MJ}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Useful output = $\\text{Efficiency} \\times \\text{Input} = 0.40 \\times 500 = 200\\text{ MJ}$. \n\n**Common mistake:** Dividing the input by efficiency ($1250$) or calculating the wasted energy ($300$)."
+    },
+    {
+      "id": "6-3-energy-resources-medium-q3",
+      "type": "mcq",
+      "question": "Which statement correctly identifies a disadvantage of nuclear power stations?",
+      "options": [
+        "They produce radioactive waste that is difficult to store safely.",
+        "They release large amounts of greenhouse gases during operation.",
+        "They are highly dependent on daily weather conditions.",
+        "They have a very low energy density compared to wood."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear energy is less polluting in terms of air emissions but produces dangerous radioactive waste. \n\n**Common mistake:** Thinking nuclear plants produce as much $\\text{CO}_2$ as coal plants."
+    },
+    {
+      "id": "6-3-energy-resources-medium-q4",
+      "type": "mcq",
+      "question": "An electric motor has a power input of $200\\text{ W}$ and a useful power output of $160\\text{ W}$. How much power is wasted as heat and sound?",
+      "options": [
+        "$40\\text{ W}$",
+        "$80\\text{ W}$",
+        "$360\\text{ W}$",
+        "$20\\text{ W}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total Input = Useful Output + Wasted. So, $200 - 160 = 40\\text{ W}$. \n\n**Common mistake:** Calculating the efficiency percentage ($80\\%$) instead of the power value."
+    },
+    {
+      "id": "6-3-energy-resources-medium-q5",
+      "type": "mcq",
+      "question": "Energy is released in the Sun through which specific process?",
+      "options": [
+        "Nuclear fusion",
+        "Nuclear fission",
+        "Chemical combustion",
+        "Thermal radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is released by nuclear fusion in the Sun. \n\n**Common mistake:** Confusing fusion (combining nuclei) with fission (splitting nuclei), which is used in current power stations."
+    }
+  ]
+}

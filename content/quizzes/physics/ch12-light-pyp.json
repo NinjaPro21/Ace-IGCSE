@@ -1,0 +1,402 @@
+{
+  "id": "ch12-light-pyp",
+  "topicId": "ch12-light",
+  "chapterId": "ch12-light",
+  "difficulty": "pyp",
+  "title": "Chapter 12: Light — PYP",
+  "passPercent": 70,
+  "questionsPerAttempt": 10,
+  "pending": false,
+  "questions": [
+    {
+      "id": "ch12-light-pyp-q1",
+      "type": "mcq",
+      "question": "Which description of the image formed in a plane mirror is correct?",
+      "options": [
+        "It is virtual and the same size as the object.",
+        "It is real and the same size as the object.",
+        "It is virtual and smaller than the object.",
+        "It is real and larger than the object."
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Review Section A, Question 12, images in plane mirrors are always virtual and the same size as the object. \n\n**Common mistake:** selecting 'real'."
+    },
+    {
+      "id": "ch12-light-pyp-q2",
+      "type": "mcq",
+      "question": "A student measures the angle of incidence ($i$) and the angle of reflection ($r$) for a plane mirror. Which set of results follows the Law of Reflection?",
+      "options": [
+        "$i = 30^circ, r = 30^circ$",
+        "$i = 30^circ, r = 60^circ$",
+        "$i = 30^circ, r = 90^circ$",
+        "$i = 30^circ, r = 0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Law of Reflection states that the angle of incidence equals the angle of reflection ($i=r$). \n\n**Common mistake:** thinking $r$ is the angle between the ray and the surface ($60^circ$)."
+    },
+    {
+      "id": "ch12-light-pyp-q3",
+      "type": "mcq",
+      "question": "The diagram shows an object $O$ in front of a mirror. Where is the image of $O$ located?",
+      "options": [
+        "At the same perpendicular distance behind the mirror as $O$ is in front.",
+        "Directly on the surface of the mirror.",
+        "Further behind the mirror than the object is in front.",
+        "Twice the distance from the mirror than the object is."
+      ],
+      "correctIndex": 0,
+      "explanation": "The image in a plane mirror is always the same distance behind the mirror as the object is in front. \n\n**Common mistake:** thinking the image moves further back."
+    },
+    {
+      "id": "ch12-light-pyp-q4",
+      "type": "mcq",
+      "question": "If the word 'AMBULANCE' is written on the front of a vehicle so it can be read correctly in a rear-view mirror, which property of light is being used?",
+      "options": [
+        "Lateral inversion",
+        "Refraction",
+        "Dispersion",
+        "Total internal reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mirrors produce lateral inversion, so words are written backward on the vehicle so they appear the correct way around to drivers ahead. \n\n**Common mistake:** confusing inversion with vertical flipping."
+    },
+    {
+      "id": "ch12-light-pyp-q5",
+      "type": "mcq",
+      "question": "A ray of light is incident on a plane mirror. If the angle of incidence increases by $5^circ$, by how much does the angle between the incident ray and the reflected ray increase?",
+      "options": [
+        "$10^circ$",
+        "$5^circ$",
+        "$2.5^circ$",
+        "$0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total angle between the rays is $i + r$. Since $i = r$, an increase of $5^circ$ in $i$ also increases $r$ by $5^circ$, leading to a total increase of $10^circ$. \n\n**Common mistake:** thinking the total angle only increases by $5^circ$."
+    },
+    {
+      "id": "ch12-light-pyp-q6",
+      "type": "mcq",
+      "question": "A pencil placed in a glass of water appears to be bent at the water surface. Which phenomenon causes this effect?",
+      "options": [
+        "Refraction",
+        "Reflection",
+        "Total internal reflection",
+        "Diffraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The light from the submerged part of the pencil changes speed and direction as it leaves the water, making the pencil appear to be at a different position (closer to the surface).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q7",
+      "type": "mcq",
+      "question": "The table shows the results of a refraction experiment.nn$sin i$ | $sin r$n--- | ---n0.50 | 0.33n0.64 | 0.42n0.77 | 0.52nnWhat is the approximate refractive index of the material?",
+      "options": [
+        "$1.5$",
+        "$0.66$",
+        "$1.2$",
+        "$2.0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The refractive index is calculated by $\\frac{sin i}{sin r}$. For the first row: $\\frac{0.50}{0.33} \\approx 1.51$. Row 2: $\\frac{0.64}{0.42} \\approx 1.52$. The average is $1.5$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q8",
+      "type": "mcq",
+      "question": "Light passes from a glass block into air. Which row describes the change in speed and the change in direction of the light ray?",
+      "options": [
+        "Speed: increases; Direction: bends away from the normal",
+        "Speed: increases; Direction: bends towards the normal",
+        "Speed: decreases; Direction: bends away from the normal",
+        "Speed: decreases; Direction: bends towards the normal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air is optically less dense than glass. As light enters air, it speeds up, which causes it to bend away from the normal line.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q9",
+      "type": "mcq",
+      "question": "A fish in a pond appears to be at a different depth than it actually is. How does it appear to an observer looking from the air?",
+      "options": [
+        "Nearer to the surface than it really is",
+        "Deeper in the water than it really is",
+        "At the exact same depth as it really is",
+        "The depth depends only on the weight of the fish"
+      ],
+      "correctIndex": 0,
+      "explanation": "Light reflected from the fish refracts away from the normal as it leaves the water. The observer's eye traces these rays back in a straight line, making the fish appear shallower (nearer the surface).\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q10",
+      "type": "mcq",
+      "question": "In a diagram showing refraction, which angle is the 'angle of refraction'?",
+      "options": [
+        "The angle between the refracted ray and the normal",
+        "The angle between the incident ray and the surface",
+        "The angle between the refracted ray and the surface",
+        "The angle between the incident ray and the normal"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the angle of refraction ($r$) is measured between the refracted light ray and the imaginary normal line perpendicular to the surface.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q11",
+      "type": "mcq",
+      "question": "The diagram shows a ray of light in air incident on the surface of a liquid. The critical angle for the liquid is $45^circ$. In which case will total internal reflection occur?nn[Scenario: Ray is already inside the liquid, moving towards the air boundary]",
+      "options": [
+        "Angle of incidence $= 50^circ$",
+        "Angle of incidence $= 40^circ$",
+        "Angle of incidence $= 45^circ$",
+        "Angle of incidence $= 0^circ$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total internal reflection only occurs when the angle of incidence ($i$) is greater than the critical angle ($c$). Since $50^circ > 45^circ$, reflection occurs. \n\n**Common mistake:** choosing $45^circ$, where the ray would travel along the boundary."
+    },
+    {
+      "id": "ch12-light-pyp-q12",
+      "type": "mcq",
+      "question": "Which diagram correctly illustrates the critical angle $c$ for an air-water boundary?",
+      "options": [
+        "Ray in water at angle $c$ to normal, refracted ray in air at $90^circ$ to normal.",
+        "Ray in air at angle $c$ to normal, refracted ray in water at $90^circ$ to normal.",
+        "Ray in water at angle $c$ to normal, reflected ray in water at $c$ to normal.",
+        "Ray in air at $90^circ$ to normal, refracted ray in water at angle $c$."
+      ],
+      "correctIndex": 0,
+      "explanation": "The critical angle is the incident angle in the denser medium (water) that produces a $90^circ$ refraction in the less dense medium (air). \n\n**Common mistake:** swapping air and water positions."
+    },
+    {
+      "id": "ch12-light-pyp-q13",
+      "type": "mcq",
+      "question": "A ray of light enters an optical fibre. Which property of the fibre keeps the light trapped inside?",
+      "options": [
+        "The core has a higher refractive index than the cladding.",
+        "The cladding has a higher refractive index than the core.",
+        "The fibre is coated with a highly reflective silver paint.",
+        "The fibre is completely straight to prevent light hitting the walls."
+      ],
+      "correctIndex": 0,
+      "explanation": "For TIR to occur, light must move from a denser to a less dense medium. Thus, the core must have a higher refractive index than the cladding. \n\n**Common mistake:** thinking the cladding must be denser to 'push' light back."
+    },
+    {
+      "id": "ch12-light-pyp-q14",
+      "type": "mcq",
+      "question": "The critical angle for an air-glass interface is $42^circ$. A ray of light hits the interface from within the glass at an angle of $30^circ$. What happens to the ray?",
+      "options": [
+        "It is refracted and enters the air, bending away from the normal.",
+        "It undergoes total internal reflection.",
+        "It is refracted and enters the air, bending towards the normal.",
+        "It travels along the boundary of the glass and air."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $30^circ < 42^circ$, the ray is refracted. Because it moves into a less dense medium (air), it bends away from the normal. \n\n**Common mistake:** thinking TIR occurs at any angle inside glass."
+    },
+    {
+      "id": "ch12-light-pyp-q15",
+      "type": "mcq",
+      "question": "Which row in the table is correct for total internal reflection?nn| | Direction of light | Angle of incidence |n| :--- | :--- | :--- |n| A | Denser to less dense | $i > c$ |n| B | Less dense to denser | $i > c$ |n| C | Denser to less dense | $i < c$ |n| D | Less dense to denser | $i = c$ |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total internal reflection requires light to travel from a denser to a less dense medium with an angle of incidence greater than the critical angle. \n\n**Common mistake:** choosing Row B, assuming the angle is the only requirement."
+    },
+    {
+      "id": "ch12-light-pyp-q16",
+      "type": "mcq",
+      "question": "The diagram shows a ray of light passing through a thin converging lens. Which labelled distance is the focal length $f$?n[Diagram showing rays parallel to axis meeting at F]",
+      "options": [
+        "The distance from the optical centre to the principal focus",
+        "The distance from the principal focus to the focal plane",
+        "The distance across the widest part of the lens",
+        "The distance from the object to the lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard IGCSE diagrams identify $f$ as the distance from the centre of the lens to the point where parallel rays meet.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q17",
+      "type": "mcq",
+      "question": "A student measures the size of the bright spot formed by a lens at different distances $d$ from a piece of paper.nn$d / \\text{ cm}$ | $5$ | $10$ | $15$ | $20$n--- | --- | --- | --- | ---nSpot diameter / $\\text{mm}$ | $8$ | $4$ | $1$ | $5$nnWhat is the approximate focal length of the lens?",
+      "options": [
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$20\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The focal point is the point where the spot is smallest and brightest. According to the data, this occurs at a distance of $15\\text{ cm}$.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q18",
+      "type": "mcq",
+      "question": "Which diagram correctly shows parallel rays of light passing through a diverging lens?",
+      "options": [
+        "Rays bending away from each other as if starting from a point behind the lens",
+        "Rays bending towards each other to meet at a point",
+        "Rays passing through without any change in direction",
+        "Rays reflecting off the front surface of the lens"
+      ],
+      "correctIndex": 0,
+      "explanation": "A diverging lens causes parallel incident rays to spread out, and their paths can be traced back to a virtual focal point on the same side as the incident light.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q19",
+      "type": "mcq",
+      "question": "In a converging lens, what is the 'focal plane'?",
+      "options": [
+        "A plane perpendicular to the principal axis passing through the focal point",
+        "The flat surface of the lens",
+        "The plane containing the principal axis",
+        "The surface on which the lens is placed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The focal plane is defined as the plane that passes through the focal point $F$ and is perpendicular to the principal axis.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q20",
+      "type": "mcq",
+      "question": "Light of a single frequency is used with a thin converging lens. Which term describes this light?",
+      "options": [
+        "Monochromatic",
+        "Dispersed",
+        "Divergent",
+        "Polychromatic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visible light of a single frequency (one colour) is described as monochromatic. Polychromatic light like white light contains many frequencies.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q21",
+      "type": "mcq",
+      "question": "The diagram shows a thin converging lens used to produce a real image of an object. Which distance represents the focal length?nn[Diagram: Object at $O$, lens at $C$, principal focus at $F$, Image at $I$]",
+      "options": [
+        "Distance from the optical centre to $F$",
+        "Distance from the object to the lens",
+        "Distance from the object to the image",
+        "Distance from the focal point to the image"
+      ],
+      "correctIndex": 0,
+      "explanation": "Focal length is always the distance between the optical centre and the principal focus ($F$). \n\n**Common mistake:** Selecting the object-to-lens distance."
+    },
+    {
+      "id": "ch12-light-pyp-q22",
+      "type": "mcq",
+      "question": "The image formed by a slide projector on a screen is:",
+      "options": [
+        "real, inverted and magnified.",
+        "real, inverted and diminished.",
+        "virtual, upright and diminished.",
+        "virtual, upright and magnified."
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from Review Section A, Question 13. Slide projectors use the $f < u < 2f$ range to produce real, inverted, magnified images. \n\n**Common mistake:** Selecting 'virtual,' as we can see the image on a screen."
+    },
+    {
+      "id": "ch12-light-pyp-q23",
+      "type": "mcq",
+      "question": "A thin converging lens is used to focus rays from the Sun onto a piece of paper. When the rays burn a hole in the paper, the distance between the lens and the paper is:",
+      "options": [
+        "equal to the focal length of the lens.",
+        "less than half the focal length.",
+        "equal to twice the focal length.",
+        "twice the object distance."
+      ],
+      "correctIndex": 0,
+      "explanation": "From Review Section A, Question 9. Parallel rays from a distant source (the Sun) converge at the focal point ($F$). \n\n**Common mistake:** Thinking the paper must be at $2f$."
+    },
+    {
+      "id": "ch12-light-pyp-q24",
+      "type": "mcq",
+      "question": "An object is placed at the focal point of a converging lens. Where is the image formed?",
+      "options": [
+        "At infinity",
+        "At the optical centre",
+        "Between $f$ and $2f$",
+        "At $2f$ on the same side"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an object is at $F$, the refracted rays are parallel and never meet, meaning the image is formed at infinity. \n\n**Common mistake:** Thinking no image is 'produced' at all, which is functionally true but mathematically 'at infinity'."
+    },
+    {
+      "id": "ch12-light-pyp-q25",
+      "type": "mcq",
+      "question": "A table shows different object distances $u$ for a lens with focal length $f = 20\\text{ cm}$. Which row correctly predicts the image characteristics?nn| Row | Object Distance $u$ | Image Type |n| :--- | :--- | :--- |n| A | $10\\text{ cm}$ | Virtual |n| B | $20\\text{ cm}$ | Real |n| C | $30\\text{ cm}$ | Virtual |n| D | $50\\text{ cm}$ | Magnified |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $f = 20\\text{ cm}$, any object closer than $20\\text{ cm}$ (Row A: $10\\text{ cm}$) produces a virtual image. Row B is at infinity, Row C is real, and Row D is diminished. \n\n**Common mistake:** Choosing Row D, because $50 > 20$, but objects beyond $2f$ ($40\\text{ cm}$) are diminished."
+    },
+    {
+      "id": "ch12-light-pyp-q26",
+      "type": "mcq",
+      "question": "The diagram shows a beam of white light entering a glass prism and being dispersed.n[Diagram: White light entering, ROYGBIV emerging]nWhich row correctly describes the colours at the top and bottom of the spectrum?",
+      "options": [
+        "Top: Red; Bottom: Violet",
+        "Top: Violet; Bottom: Red",
+        "Top: Green; Bottom: Blue",
+        "Top: Yellow; Bottom: Indigo"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a standard prism dispersion diagram, red light deviates the least and appears at the top, while violet light deviates the most and appears at the bottom.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q27",
+      "type": "mcq",
+      "question": "Visible light of a single colour is used in an experiment. Which term is used to describe this light?",
+      "options": [
+        "Monochromatic",
+        "Achromatic",
+        "Dichromatic",
+        "Polychromatic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monochromatic light consists of a single frequency or wavelength and does not disperse when passed through a prism.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q28",
+      "type": "mcq",
+      "question": "A student lists the colours of the spectrum: Red, Orange, X, Green, Blue, Indigo, Violet. What is colour X?",
+      "options": [
+        "Yellow",
+        "Cyan",
+        "Magenta",
+        "Pink"
+      ],
+      "correctIndex": 0,
+      "explanation": "The colours of the visible spectrum are Red, Orange, Yellow, Green, Blue, Indigo, and Violet. X represents Yellow.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q29",
+      "type": "mcq",
+      "question": "Which property of light changes as it travels from air into the glass of a prism to cause dispersion?",
+      "options": [
+        "Speed",
+        "Frequency",
+        "The number of colours in the beam",
+        "The amplitude of the waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dispersion is caused because the speed of light in glass varies for different wavelengths. Frequency remains constant when a wave changes medium.\n\n**Common mistake:** Review the method above and check units/signs."
+    },
+    {
+      "id": "ch12-light-pyp-q30",
+      "type": "mcq",
+      "question": "The speed of light in a vacuum is $3.0 \\times 10^{8}\\text{ m/s}$. In a glass prism, red light travels at $2.0 \\times 10^{8}\\text{ m/s}$ and violet light travels at $1.9 \\times 10^{8}\\text{ m/s}$. What is the result of these different speeds?",
+      "options": [
+        "The white light is dispersed into a spectrum",
+        "Total internal reflection occurs for all colours",
+        "The light becomes monochromatic",
+        "The frequency of the violet light increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because different colours travel at different speeds in the glass, they are refracted by different amounts, resulting in the dispersion of white light into a spectrum.\n\n**Common mistake:** Review the method above and check units/signs."
+    }
+  ]
+}

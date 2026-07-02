@@ -1,0 +1,77 @@
+{
+  "id": "7-2-pressure-in-liquids-medium",
+  "topicId": "7-2-pressure-in-liquids",
+  "chapterId": "ch07-pressure",
+  "difficulty": "medium",
+  "title": "Pressure in Liquids — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "7-2-pressure-in-liquids-medium-q1",
+      "type": "mcq",
+      "question": "A bottle contains water (density $1000\\text{ kg/m}^3$) and another identical bottle contains oil (density $800\\text{ kg/m}^3$). How does the pressure at the bottom of the oil bottle compare to the water bottle?",
+      "options": [
+        "The pressure at the bottom of the oil is less",
+        "The pressure at the bottom of the oil is greater",
+        "The pressures are equal because the bottles are identical",
+        "The oil bottle has zero pressure at the bottom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $Delta p = rho g h$, pressure is directly proportional to density. Oil is less dense than water, so it exerts less pressure at the same depth. \n\n**Common mistake:** Thinking that identical volumes or containers result in equal pressures regardless of the liquid type."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-medium-q2",
+      "type": "mcq",
+      "question": "Calculate the pressure exerted by water at a depth of $5.0\\text{ m}$. (Take density of water $= 1000\\text{ kg/m}^3$ and $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$50000\\text{ Pa}$",
+        "$5000\\text{ Pa}$",
+        "$200\\text{ Pa}$",
+        "$500000\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Delta p = rho g h = 1000 \\times 10 \\times 5.0 = 50000\\text{ Pa}$. \n\n**Common mistake:** Forgetting to include the factor $g=10$, leading to an answer of $5000$."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-medium-q3",
+      "type": "mcq",
+      "question": "A marine biologist experiences a change in pressure of $51250\\text{ Pa}$ while diving. If the density of seawater is $1025\\text{ kg/m}^3$, what is her depth? (Take $g = 10\\text{ N/kg}$)",
+      "options": [
+        "$5.0\\text{ m}$",
+        "$50.0\\text{ m}$",
+        "$0.5\\text{ m}$",
+        "$2.0\\text{ m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Delta h = Delta p / (rho g) = 51250 / (1025 \\times 10) = 51250 / 10250 = 5.0\\text{ m}$. \n\n**Common mistake:** Multiplying the pressure by density instead of dividing."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-medium-q4",
+      "type": "mcq",
+      "question": "A container is filled with a liquid of density $880\\text{ kg/m}^3$. What is the change in pressure when an object is lowered from point A (depth $0.08\\text{ m}$) to point B (depth $0.25\\text{ m}$)?",
+      "options": [
+        "$1496\\text{ Pa}$",
+        "$2200\\text{ Pa}$",
+        "$704\\text{ Pa}$",
+        "$170\\text{ Pa}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$Delta h = 0.25 - 0.08 = 0.17\\text{ m}$. $Delta p = 880 \\times 10 \\times 0.17 = 1496\\text{ Pa}$. \n\n**Common mistake:** Using only the depth at point B ($0.25$) rather than the difference between A and B."
+    },
+    {
+      "id": "7-2-pressure-in-liquids-medium-q5",
+      "type": "mcq",
+      "question": "Which graph correctly shows how the pressure $p$ in a liquid of constant density varies with depth $h$?",
+      "options": [
+        "A straight line passing through the origin",
+        "A horizontal straight line",
+        "A curve that gets steeper as depth increases",
+        "A straight line with a negative gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because $p$ is directly proportional to $h$ ($p = rho g h$), the relationship is linear and the graph is a straight line through the origin. \n\n**Common mistake:** Thinking the graph should be a curve because liquid pressure feels 'heavy'."
+    }
+  ]
+}

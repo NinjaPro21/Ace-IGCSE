@@ -1,0 +1,77 @@
+{
+  "id": "2-2-brackets-and-simplifying-pyp",
+  "topicId": "2-2-brackets-and-simplifying",
+  "chapterId": "ch02-algebra",
+  "difficulty": "pyp",
+  "title": "Brackets and Simplifying — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "2-2-brackets-and-simplifying-pyp-q1",
+      "type": "mcq",
+      "question": "Expand and simplify: $3(2x - 5) - 2(x - 4)$.",
+      "options": [
+        "$4x - 7$",
+        "$4x - 23$",
+        "$4x - 1$",
+        "$3x - 7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand the brackets: $6x - 15 - 2x + 8$. Gather like terms: $(6x - 2x) + (-15 + 8) = 4x - 7$.\n\n**Common mistake:** Failing to distribute the negative sign properly often leads students to write $-2 \\times -4 = -8$, resulting in $4x - 23$."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-pyp-q2",
+      "type": "mcq",
+      "question": "Expand the double brackets and simplify: $(3x + 1)(x - 4)$.",
+      "options": [
+        "$3x^2 - 11x - 4$",
+        "$3x^2 - 13x - 4$",
+        "$3x^2 - 11x + 4$",
+        "$3x^2 - 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand using distribution: $3x^2 - 12x + x - 4 = 3x^2 - 11x - 4$.\n\n**Common mistake:** Students sometimes sum $-12x + x$2$-13x$ or completely omit the middle terms."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-pyp-q3",
+      "type": "mcq",
+      "question": "Factorise completely: $6x^2y - 9xy^2$.",
+      "options": [
+        "$3xy(2x - 3y)$",
+        "$3x(2xy - 3y^2)$",
+        "$xy(6x - 9y)$",
+        "$3xy(2x + 3y)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Find the highest common factor of numbers ($3$) and variables ($xy$2$3xy$2$3xy(2x - 3y)$.\n\n**Common mistake:** Students frequently leave out one of the variables or factor only the numeric constants out."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-pyp-q4",
+      "type": "mcq",
+      "question": "Simplify the expression: $\\frac{12x^4y^3}{3x^2y}$.",
+      "options": [
+        "$4x^2y^2$",
+        "$4x^2y^3$",
+        "$9x^2y^2$",
+        "$4x^6y^4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide numeric coefficients: $12 / 3 = 4$. Subtract the indices of matching variables: $x^{4-2} = x^2$ and $y^{3-1} = y^2$. This yields $4x^2y^2$.\n\n**Common mistake:** Students may subtract numbers instead of dividing ($12-3=9$) or add exponents instead of subtracting them."
+    },
+    {
+      "id": "2-2-brackets-and-simplifying-pyp-q5",
+      "type": "mcq",
+      "question": "Expand and simplify: $(x + 6)(x - 6)$.",
+      "options": [
+        "$x^2 - 36$",
+        "$x^2 + 12x - 36$",
+        "$x^2 - 12x - 36$",
+        "$x^2 + 36$"
+      ],
+      "correctIndex": 0,
+      "explanation": "This follows the difference of two squares format: $x^2 - 6x + 6x - 36 = x^2 - 36$.\n\n**Common mistake:** Students often keep a middle term or assume that squaring a negative term yields $+36$, selecting $x^2+36$."
+    }
+  ]
+}

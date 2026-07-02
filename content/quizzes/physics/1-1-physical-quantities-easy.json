@@ -1,0 +1,77 @@
+{
+  "id": "1-1-physical-quantities-easy",
+  "topicId": "1-1-physical-quantities",
+  "chapterId": "ch01-measurements-of-physical-quantities",
+  "difficulty": "easy",
+  "title": "Physical Quantities — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-physical-quantities-easy-q1",
+      "type": "mcq",
+      "question": "What are the two components that make up a physical quantity?",
+      "options": [
+        "A numerical magnitude and a unit",
+        "A scalar and a vector",
+        "A base quantity and a derived quantity",
+        "Mass and weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "A physical quantity is defined as a quantity that can be measured, consisting of a numerical magnitude and a unit. \n\n**Common mistake:** Students often confuse types of quantities, like scalars and vectors, with the definition of a physical quantity itself."
+    },
+    {
+      "id": "1-1-physical-quantities-easy-q2",
+      "type": "mcq",
+      "question": "Which of the following is the SI unit for thermodynamic temperature?",
+      "options": [
+        "Kelvin (K)",
+        "Celsius (°C)",
+        "Fahrenheit (°F)",
+        "Ampere (A)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kelvin (K) is one of the seven basic SI base units. \n\n**Common mistake:** Celsius is used more frequently in daily life, leading students to incorrectly assume it is the standard SI unit."
+    },
+    {
+      "id": "1-1-physical-quantities-easy-q3",
+      "type": "mcq",
+      "question": "What is the precision of a standard metre rule?",
+      "options": [
+        "1 mm",
+        "0.1 mm",
+        "0.01 mm",
+        "1 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The precision is the smallest unit an instrument can measure; for a metre rule, this is 0.1 cm or 1 mm. \n\n**Common mistake:** Students might confuse this with the precision of vernier calipers, which is 0.1 mm."
+    },
+    {
+      "id": "1-1-physical-quantities-easy-q4",
+      "type": "mcq",
+      "question": "How should a student position their eye to avoid parallax error when reading a ruler?",
+      "options": [
+        "Perpendicularly to the rule",
+        "At a 45-degree angle",
+        "Level with the zero mark",
+        "Slightly to the left of the mark"
+      ],
+      "correctIndex": 0,
+      "explanation": "To avoid parallax error, your line of sight must be perpendicular to the scale (looking straight on). \n\n**Common mistake:** Looking at an angle introduces an error, causing the object to appear longer or shorter than it is."
+    },
+    {
+      "id": "1-1-physical-quantities-easy-q5",
+      "type": "mcq",
+      "question": "Which formula is used to calculate the volume of a rectangular block?",
+      "options": [
+        "V=ltimesbtimesh",
+        "V=pir2h",
+        "V=$\\frac{4}{3pir3}$",
+        "V=m/rho"
+      ],
+      "correctIndex": 0,
+      "explanation": "The volume of a regular rectangular solid is found by multiplying its length (l), breadth (b), and height (h). \n\n**Common mistake:** Selecting the formula for a cylinder (V=pir2h) by mistake."
+    }
+  ]
+}

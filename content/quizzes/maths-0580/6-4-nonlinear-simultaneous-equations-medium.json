@@ -1,0 +1,77 @@
+{
+  "id": "6-4-nonlinear-simultaneous-equations-medium",
+  "topicId": "6-4-nonlinear-simultaneous-equations",
+  "chapterId": "ch02-algebra",
+  "difficulty": "medium",
+  "title": "Nonlinear Simultaneous Equations — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-4-nonlinear-simultaneous-equations-medium-q1",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n\nx + y = 5\n\nx^2 + y^2 = 13",
+      "options": [
+        "$x = 2, y = 3$ or $x = 3, y = 2$",
+        "$x = 1, y = 4$ or $x = 4, y = 1$",
+        "$x = -2, y = 7$ or $x = 7, y = -2$",
+        "$x = 0, y = 5$ or $x = 5, y = 0$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange the linear equation to isolate $y$2$y = 5 - x$2$x^2 + (5 - x)^2 = 13 \\implies x^2 + 25 - 10x + x^2 = 13 \\implies 2x^2 - 10x + 12 = 0$. Divide by 2: $x^2 - 5x + 6 = 0$. Factorising yields $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$. Finding $y$2$x = 2, y = 3$; if $x = 3, y = 2$.\n\n**Common mistake:** When expanding $(5-x)^2$, students commonly miss the middle term, expanding it incorrectly to $25 + x^2$."
+    },
+    {
+      "id": "6-4-nonlinear-simultaneous-equations-medium-q2",
+      "type": "mcq",
+      "question": "Find the coordinates of the points of intersection of the line $y = 2x + 1$ and the curve $y = 2x^2 - x - 1$.",
+      "options": [
+        "$(2, 5)$ and $(-0.5, 0)$",
+        "$(-2, -3)$ and $(0.5, 2)$",
+        "$(2, 5)$ and $(0.5, 2)$",
+        "$(-2, -3)$ and $(-0.5, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set the equations equal to each other: $2x^2 - x - 1 = 2x + 1 \\implies 2x^2 - 3x - 2 = 0$. Factorise the quadratic equation: $(2x + 1)(x - 2) = 0$, yielding $x = 2$ or $x = -0.5$. Substitute these back into the linear equation: for $x = 2$, $y = 2(2) + 1 = 5$; for $x = -0.5$, $y = 2(-0.5) + 1 = 0$. Thus, the intersection points are $(2, 5)$ and $(-0.5, 0)$.\n\n**Common mistake:** Students often make errors when dividing or factoring non-monic quadratics, getting incorrect values like $x = -2$ or $x = 0.5$."
+    },
+    {
+      "id": "6-4-nonlinear-simultaneous-equations-medium-q3",
+      "type": "mcq",
+      "question": "Solve the simultaneous equations:\n\ny = 2x + 3\n\n$y = \\frac{2}{x}$",
+      "options": [
+        "$x = 0.5, y = 4$ or $x = -2, y = -1$",
+        "$x = 2, y = 7$ or $x = -0.5, y = 2$",
+        "$x = 1, y = 5$ or $x = -2, y = -1$",
+        "$x = 0.5, y = 4$ or $x = -1, y = 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equate the two equations for $y$2$2x + 3 = \\frac{2}{x}$. Multiply the entire equation by $x$2$2x^2 + 3x = 2 \\implies 2x^2 + 3x - 2 = 0$. Factorising the quadratic equation gives $(2x - 1)(x + 2) = 0$, so $x = 0.5$ or $x = -2$. Finding the corresponding $y$2$x = 0.5$, $y = \\frac{2}{0.5} = 4$; if $x = -2$, $y = \\frac{2}{-2} = -1$.\n\n**Common mistake:** Students often forget to multiply the linear term $3$ by $x$2$2x^2 + 3 = 2$."
+    },
+    {
+      "id": "6-4-nonlinear-simultaneous-equations-medium-q4",
+      "type": "mcq",
+      "question": "Find the coordinates of the points where the line $y = x - 1$ intersects the circle $x^2 + y^2 = 25$.",
+      "options": [
+        "$(4, 3)$ and $(-3, -4)$",
+        "$(3, 2)$ and $(-4, -5)$",
+        "$(5, 4)$ and $(-4, -3)$",
+        "$(4, 3)$ and $(-4, -3)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y = x - 1$ into the circle equation: $x^2 + (x - 1)^2 = 25 \\implies x^2 + x^2 - 2x + 1 = 25 \\implies 2x^2 - 2x - 24 = 0$. Divide by 2: $x^2 - x - 12 = 0$. Factorising gives $(x - 4)(x + 3) = 0$, so $x = 4$ or $x = -3$. Corresponding $y$2$y = 4 - 1 = 3$ and $y = -3 - 1 = -4$. Thus, the points are $(4, 3)$ and $(-3, -4)$.\n\n**Common mistake:** Students sometimes square the components individually when substituting, leading to $x^2 + x^2 - 1 = 25$, which is algebraically invalid."
+    },
+    {
+      "type": "mcq",
+      "question": "Solve the simultaneous equations: $y = x + 4$ and $y = x^2 + 4x + 4$.",
+      "options": [
+        "$(0, 4)$ and $(-3, 1)$",
+        "$(0, 4)$ and $(3, 7)$",
+        "$(4, 0)$ and $(1, -3)$",
+        "No real solutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute $y$2$x + 4 = x^2 + 4x + 4 \\implies x^2 + 3x = 0 \\implies x(x + 3) = 0$. When $x=0, y=4$; when $x=-3, y=1$.\n\n**Common mistake:** Errors in simplifying the quadratic after substitution, such as $x^2 + 5x + 8 = 0$.",
+      "id": "6-4-nonlinear-simultaneous-equations-medium-q5"
+    }
+  ]
+}

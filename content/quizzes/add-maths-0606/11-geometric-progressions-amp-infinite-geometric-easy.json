@@ -1,0 +1,142 @@
+{
+  "id": "11-geometric-progressions-amp-infinite-geometric-easy",
+  "topicId": "11-geometric-progressions-amp-infinite-geometric",
+  "chapterId": "ch11-series",
+  "difficulty": "easy",
+  "title": "Geometric Progressions & Infinite Geometric Series — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q1",
+      "type": "mcq",
+      "question": "The first term of a geometric progression is^5 and the common ratio is^2. Find the^6 th term.",
+      "options": [
+        "$160$",
+        "$320$",
+        "$64$",
+        "$80$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $u_n = ar^{n-1}$, we have $u_6 = 5(2)^{6-1} = 5(2^5) = 5 \\times 32 = 160$.\n\n**Common mistake:** Option B results from using $n$2$n-1$ as the power: $5(2^6) = 320$."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q2",
+      "type": "mcq",
+      "question": "Find the common ratio $r$2$12$ and the second term is^4.",
+      "options": [
+        "$1/3$",
+        "$3$",
+        "$-8$",
+        "$1/4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common ratio $r$2$r = 4/12 = 1/3$.\n\n**Common mistake:** Option B is the result of dividing the first term by the second term, confusing the order of the ratio."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q3",
+      "type": "mcq",
+      "question": "Calculate the sum to infinity of a geometric series with first term^10 and common ratio $0.6$.",
+      "options": [
+        "$25$",
+        "$16.67$",
+        "$6$",
+        "$4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the formula $S_{\\infty} = a/(1-r)$, we get $S_{\\infty} = 10 / (1 - 0.6) = 10 / 0.4 = 25$.\n\n**Common mistake:** Option C is simply the product $ar$, which does not represent a sum of any kind."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q4",
+      "type": "mcq",
+      "question": "In a geometric progression, the second term is^10 and the common ratio is^5. Find the first term $a$.",
+      "options": [
+        "$2$",
+        "$50$",
+        "$5$",
+        "$0.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $u_2 = ar$2$10 = a(5) \\implies a = 2$.\n\n**Common mistake:** Option B occurs if the student multiplies the second term by the ratio instead of dividing by it."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q5",
+      "type": "mcq",
+      "question": "For which of the following common ratios $r$ does a geometric series converge?",
+      "options": [
+        "$r = 0.8$",
+        "$r = 1.5$",
+        "$r = -1.2$",
+        "$r = -2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A geometric series converges if and only if the magnitude of the common ratio is less than^1 ($|r| < 1$).\n\n**Common mistake:** Students often forget that the condition applies to the absolute value, mistakenly thinking $r = -1.2$ converges because it is negative."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q6",
+      "type": "mcq",
+      "question": "The first term of both an AP and a GP is 8. If the second term of the AP is 10 and the second term of the GP is 16, find the common difference (d) and the common ratio (r).",
+      "options": [
+        "d = 2, r = 2",
+        "d = 2, r = 8",
+        "d = 10, r = 2",
+        "d = 18, r = 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "For AP: 8 + d = 10 => d = 2. For GP: 8 × r = 16 => r = 2.\n\n**Common mistake:** Mixing up the operations for common difference (addition) and common ratio (multiplication)."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q7",
+      "type": "mcq",
+      "question": "Three numbers x, y, and z are in an AP. Which of the following relationships must be true?",
+      "options": [
+        "2y = x + z",
+        "y^2 = xz",
+        "y = x + z",
+        "y = (x + z) / 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an AP, the middle term is the arithmetic mean: y - x = z - y => 2y = x + z.\n\n**Common mistake:** Confusing the AP property with the GP property ($y^2 = xz$)."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q8",
+      "type": "mcq",
+      "question": "Three numbers x, y, and z are in a GP. Which of the following relationships must be true?",
+      "options": [
+        "y^2 = xz",
+        "2y = x + z",
+        "y = xz",
+        "y = (x + z) / 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a GP, the common ratio is constant: y/x = z/y => y^2 = xz.\n\n**Common mistake:** Confusing the GP property with the AP property ($2y = x + z$)."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q9",
+      "type": "mcq",
+      "question": "The first term of an AP is 5 and the common difference is 2. The first term of a GP is 5 and the common ratio is 2. Find the 3rd term of each.",
+      "options": [
+        "AP: 9, GP: 20",
+        "AP: 11, GP: 20",
+        "AP: 9, GP: 25",
+        "AP: 7, GP: 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "AP: 5 + 2(2) = 9. GP: 5 × 2$^2$ = 20.\n\n**Common mistake:** Arithmetic slips or using the wrong power for the common ratio ($r^{n-1}$)."
+    },
+    {
+      "id": "11-geometric-progressions-amp-infinite-geometric-easy-q10",
+      "type": "mcq",
+      "question": "If the sum of the first n terms of a series is $S_n$2$u_5$?",
+      "options": [
+        "S₅ - S₄",
+        "S₅ / S₄",
+        "S₄ - S₅",
+        "5 × S₁"
+      ],
+      "correctIndex": 0,
+      "explanation": "The n-th term is always the difference between the sum of n terms and the sum of (n-1) terms.\n\n**Common mistake:** Trying to divide the sums or simply using $S_5$ as the term value."
+    }
+  ]
+}

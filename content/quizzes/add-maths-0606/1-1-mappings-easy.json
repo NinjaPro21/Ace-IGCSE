@@ -1,0 +1,77 @@
+{
+  "id": "1-1-mappings-easy",
+  "topicId": "1-1-mappings",
+  "chapterId": "ch01-functions",
+  "difficulty": "easy",
+  "title": "Mappings — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-1-mappings-easy-q1",
+      "type": "mcq",
+      "question": "For the mapping x$\\mapsto$3x−5, find the image of the object 4.",
+      "options": [
+        "7",
+        "17",
+        "-7",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute x=4 into the mapping: 3(4)−5=12−5=7.\n\n**Common mistake:** A student might add the 5 instead of subtracting it, leading to 12+5=17."
+    },
+    {
+      "id": "1-1-mappings-easy-q2",
+      "type": "mcq",
+      "question": "What type of mapping is represented by the relation x$\\mapsto\n\n$$x^{2}$ where the domain is$\n−2,2?",
+      "options": [
+        "Many-to-one",
+        "One-to-one",
+        "One-to-many",
+        "Many-to-many"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both -2 and 2 map to the same value (4), making it a many-to-one mapping.\n\n**Common mistake:** Students often assume every algebraic expression is one-to-one without checking if different inputs produce the same output."
+    },
+    {
+      "id": "1-1-mappings-easy-q3",
+      "type": "mcq",
+      "question": "Identify the set of all possible output values in a mapping.",
+      "options": [
+        "Range",
+        "Domain",
+        "Object",
+        "Image"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range is the set of all images (outputs) produced by the mapping from the domain.\n\n**Common mistake:** Confusion between the 'range' (the whole set of outputs) and an 'image' (a single output value)."
+    },
+    {
+      "id": "1-1-mappings-easy-q4",
+      "type": "mcq",
+      "question": "A mapping diagram shows three distinct arrows starting from a single point in the domain and pointing to three different values in the codomain. Name this type of mapping.",
+      "options": [
+        "One-to-many",
+        "Many-to-one",
+        "One-to-one",
+        "Many-to-many"
+      ],
+      "correctIndex": 0,
+      "explanation": "One input (one) maps to multiple outputs (many), which is a one-to-many mapping.\n\n**Common mistake:** Students may flip the relationship and call it many-to-one because they see multiple arrows."
+    },
+    {
+      "id": "1-1-mappings-easy-q5",
+      "type": "mcq",
+      "question": "For the mapping x$\\mapsto$10−2x, which value of x produces an image of 0?",
+      "options": [
+        "5",
+        "10",
+        "-5",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set the expression to 0: 10−2x=0, which gives 2x=10, so x=5.\n\n**Common mistake:** A common mistake is misinterpreting the image as the input and calculating 10−2(0)=10."
+    }
+  ]
+}

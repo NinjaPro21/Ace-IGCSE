@@ -1,0 +1,77 @@
+{
+  "id": "5-5-5-6-volume-surface-area-medium",
+  "topicId": "5-5-5-6-volume-surface-area",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "medium",
+  "title": "Volume & Surface Area — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-5-5-6-volume-surface-area-medium-q1",
+      "type": "mcq",
+      "question": "Calculate the height of a cylinder that has a volume of $500\\text{ cm}^3$ and a base radius of $8\\text{ cm}$. Give your answer correct to 3 significant figures.",
+      "options": [
+        "$2.49\\text{ cm}$",
+        "$7.81\\text{ cm}$",
+        "$1.99\\text{ cm}$",
+        "$6.25\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$V = \\pi r^2 h \\Rightarrow 500 = \\pi \\times 8^2 \\times h \\Rightarrow 500 = 64\\pi h$2$h = 500 / (64\\pi) \\approx 2.486...$, which rounds to $2.49$.\n\n**Common mistake:** A student might divide the volume by the radius only once or forget to include $\\pi$ in the division."
+    },
+    {
+      "id": "5-5-5-6-volume-surface-area-medium-q2",
+      "type": "mcq",
+      "question": "Find the total surface area of a solid cone with a radius of $4\\text{ cm}$ and a vertical height of $3\\text{ cm}$. (Use $\\pi = 3.142$)",
+      "options": [
+        "$113.1\\text{ cm}^2$",
+        "$62.8\\text{ cm}^2$",
+        "$37.7\\text{ cm}^2$",
+        "$150.8\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "First find slant height $l = \\sqrt{3^2 + 4^2} = 5$. Curved area $= \\pi rl = \\pi(4)(5) = 20\\pi$2$= \\pi r^2 = 16\\pi$2$= 36\\pi \\approx 113.1$.\n\n**Common mistake:** The student might use the vertical height ($3$) in the surface area formula instead of the slant height ($5$)."
+    },
+    {
+      "id": "5-5-5-6-volume-surface-area-medium-q3",
+      "type": "mcq",
+      "question": "A square-based pyramid has a base side of $5\\text{ m}$ and a vertical height of $4\\text{ m}$. Calculate its volume.",
+      "options": [
+        "$33.3\\text{ m}^3$",
+        "$100\\text{ m}^3$",
+        "$66.7\\text{ m}^3$",
+        "$20\\text{ m}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume $= \\frac{1}{3} \\times \\text{base area} \\times \\text{height} = \\frac{1}{3} \\times (5 \\times 5) \\times 4 = \\frac{100}{3} \\approx 33.3$.\n\n**Common mistake:** The student might multiply base area by height and forget the one-third factor."
+    },
+    {
+      "id": "5-5-5-6-volume-surface-area-medium-q4",
+      "type": "mcq",
+      "question": "Determine the total surface area of a solid hemisphere with a radius of $7\\text{ cm}$ in terms of $\\pi$.",
+      "options": [
+        "$147\\pi\\text{ cm}^2$",
+        "$98\\pi\\text{ cm}^2$",
+        "$49\\pi\\text{ cm}^2$",
+        "$196\\pi\\text{ cm}^2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curved area $= 2\\pi r^2 = 98\\pi$2$= \\pi r^2 = 49\\pi$2$= 147\\pi$.\n\n**Common mistake:** A student might only calculate the curved surface area ($98\\pi$) and forget to add the circular base."
+    },
+    {
+      "id": "5-5-5-6-volume-surface-area-medium-q5",
+      "type": "mcq",
+      "question": "If $3$ litres of oil are removed from an upright cylindrical can, the level falls by $10\\text{ cm}$. Find the radius of the can in centimetres ($1\\text{ litre} = 1000\\text{ cm}^3$).",
+      "options": [
+        "$9.77\\text{ cm}$",
+        "$30.0\\text{ cm}$",
+        "$3.18\\text{ cm}$",
+        "$5.46\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume removed $= 3000\\text{ cm}^3$. $\\pi r^2 h = 3000 \\Rightarrow \\pi r^2 (10) = 3000 \\Rightarrow r^2 = 300 / \\pi \\approx 95.49$. $r = \\sqrt{95.49} \\approx 9.77$.\n\n**Common mistake:** The student might fail to convert litres to $\\text{cm}^3$ correctly, using $3$ instead of $3000$."
+    }
+  ]
+}

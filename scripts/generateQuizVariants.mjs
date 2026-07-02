@@ -5,6 +5,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { evalCubic, formatCubicPoly } from './quizMath.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const QUIZ_DIR = path.join(__dirname, '..', 'content', 'quizzes', 'add-maths-0606')
@@ -397,12 +398,17 @@ function generateVariants(q) {
   // Remainder theorem x - a
   m = text.match(/divided by \$x - (\d+)\$/)
   if (m && text.includes('Remainder')) {
-    for (const a of [3, 1, -1, 4, 2]) {
-      const coeffs = [2, -3, 4, -5]
-      const val = coeffs[0] * a ** 3 + coeffs[1] * a ** 2 + coeffs[2] * a + coeffs[3]
+    for (const [a, coeffs] of [
+      [3, [2, -3, 4, -5]],
+      [1, [2, -3, 4, -5]],
+      [2, [1, -2, 3, -4]],
+      [4, [3, -1, 2, -6]],
+    ]) {
+      const val = evalCubic(coeffs, a)
+      const poly = formatCubicPoly(coeffs)
       out.push(
         mkVariant(
-          `Find the remainder when the polynomial $P(x) = ${coeffs[0]}x^3 + ${coeffs[1]}x^2 + ${coeffs[2]}x + ${coeffs[3]}$ is divided by $x - ${a}$.`,
+          `Find the remainder when the polynomial $P(x) = ${poly}$ is divided by $x - ${a}$.`,
           [String(val), String(-val), String(val + 2), String(val - 2)],
           0,
           `By the Remainder Theorem, $P(${a}) = ${val}$.`,
@@ -421,13 +427,13 @@ function generateVariants(q) {
       [4, 1, 2, 8],
       [1, 5, 2, 3],
     ]) {
-      const prod = -d / a
+      const prod = d / a
       out.push(
         mkVariant(
           `State the product of the roots of the cubic equation ${a}x^3 - ${b}x^2 + ${c}x - ${d} = 0$.`,
           [String(prod), String(-prod), String(d), String(-d)],
           0,
-          `Product of roots = $-\\frac{d}{a} = ${prod}$.`,
+          `With $d = -${d}$ in standard form, product $= -\\frac{d}{a} = ${prod}$.`,
         ),
       )
     }

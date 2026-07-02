@@ -1,0 +1,77 @@
+{
+  "id": "5-5-5-6-volume-surface-area-pyp",
+  "topicId": "5-5-5-6-volume-surface-area",
+  "chapterId": "ch06-mensuration",
+  "difficulty": "pyp",
+  "title": "Volume & Surface Area — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-5-5-6-volume-surface-area-pyp-q1",
+      "type": "mcq",
+      "question": "A piece of wood is a prism with a right-angled triangular cross-section of sides $9\\text{ cm}, 12\\text{ cm},$ and $15\\text{ cm}$. If the length of the wood is $25\\text{ cm}$, calculate its volume.",
+      "options": [
+        "$1350\\text{ cm}^3$",
+        "$2700\\text{ cm}^3$",
+        "$1008\\text{ cm}^3$",
+        "$1687\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area of triangle $= 0.5 \\times 9 \\times 12 = 54$. Volume $= 54 \\times 25 = 1350\\text{ cm}^3$.\n\n**Common mistake:** The student might use the longest side ($15$) in the triangle area calculation by mistake."
+    },
+    {
+      "id": "5-5-5-6-volume-surface-area-pyp-q2",
+      "type": "mcq",
+      "question": "A rectangular box without a lid is built using small cubes. If the internal dimensions are $3 \\times 3 \\times 3$, how many small cubes are touching the sides or the bottom?",
+      "options": [
+        "$25$",
+        "$27$",
+        "$19$",
+        "$13$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total cubes in $3 \\times 3 \\times 3$ is 27. The only cubes NOT touching the sides/bottom are the $2 \\times 1$ cubes in the center top layer? No, in a $3 \\times 3 \\times 3$, only the $1 \\times 1 \\times 2$ center cubes in an open box. Cubes touching $= 27 - 2 = 25$.\n\n**Common mistake:** Miscounting the center core cubes that are not in contact with any 'walls' of the box."
+    },
+    {
+      "id": "5-5-5-6-volume-surface-area-pyp-q3",
+      "type": "mcq",
+      "question": "A solid metal sphere of radius $5\\text{ cm}$ is melted down and recast into a solid cube. Find the length of a side of the cube correct to 2 decimal places.",
+      "options": [
+        "$8.06\\text{ cm}$",
+        "$5.00\\text{ cm}$",
+        "$7.38\\text{ cm}$",
+        "$10.00\\text{ cm}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sphere Volume $= \\frac{4}{3}\\pi(5^3) \\approx 523.598$. $s^3 = 523.598 \\Rightarrow s = \\sqrt{523.598} \\approx 8.059$.\n\n**Common mistake:** The student might assume the side of the cube is equal to the radius or diameter of the sphere."
+    },
+    {
+      "type": "mcq",
+      "question": "A piece of wood is a prism with a right-angled triangular cross-section of sides 9 cm, 12 cm and 15 cm. If the length is 25 cm, calculate its volume.",
+      "options": [
+        "$1350\\text{ cm}^3$",
+        "$2700\\text{ cm}^3$",
+        "$1008\\text{ cm}^3$",
+        "$1687.5\\text{ cm}^3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume = base area $\\times$2$= 0.5 \\times 9 \\times 12 = 54$. Volume $= 54 \\times 25 = 1350\\text{ cm}^3$.\n\n**Common mistake:** Using the hypotenuse (15) in the triangle area calculation ($0.5 \\times 12 \\times 15$).",
+      "id": "5-5-5-6-volume-surface-area-pyp-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "The ISS made 10,000 circular orbits travelling $4.259 \\times 10^{8}$ km. Calculate the radius of the orbit to the nearest ten kilometres.",
+      "options": [
+        "$6780\\text{ km}$",
+        "$6770\\text{ km}$",
+        "$6790\\text{ km}$",
+        "$6800\\text{ km}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "One orbit $= 42590 km$2$2C = 2\\pi r \\implies 42590 = 2\\pi r \\implies r \\approx 6778.4$. Rounds to $6780$.\n\n**Common mistake:** Rounding to the nearest whole number (6778) instead of the nearest ten (6780).",
+      "id": "5-5-5-6-volume-surface-area-pyp-q5"
+    }
+  ]
+}

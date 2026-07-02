@@ -1,0 +1,77 @@
+{
+  "id": "4-3-turning-effect-of-forces-hard",
+  "topicId": "4-3-turning-effect-of-forces",
+  "chapterId": "ch04-forces",
+  "difficulty": "hard",
+  "title": "Turning Effect of Forces — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-3-turning-effect-of-forces-hard-q1",
+      "type": "mcq",
+      "question": "A uniform metre rule balances at the $70\\text{ cm}$ mark when a $2.5\\text{ N}$ weight is hung at the $80\\text{ cm}$ mark. What is the weight of the ruler? (Note: The centre of gravity is at $50\\text{ cm}$)",
+      "options": [
+        "$1.25\\text{ N}$",
+        "$2.5\\text{ N}$",
+        "$5.0\\text{ N}$",
+        "$0.625\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clockwise moment $= 2.5 \\times (80 - 70) = 25\\text{ N cm}$. The weight of the ruler acts at $50\\text{ cm}$. Anticlockwise moment $= W \\times (70 - 50) = 20W$. $20W = 25$, so $W = 1.25\\text{ N}$. \n\n**Common mistake:** Forgetting that the weight of a uniform object acts through its centre of gravity."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-hard-q2",
+      "type": "mcq",
+      "question": "A $10.0\\text{ m}$ long pole lies on the ground. Its weight of $800\\text{ N}$ acts at a point $4.0\\text{ m}$ from end A. Calculate the minimum vertical force $F$ needed at end B to lift that end off the ground.",
+      "options": [
+        "$320\\text{ N}$",
+        "$800\\text{ N}$",
+        "$2000\\text{ N}$",
+        "$480\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "When lifting end B, end A acts as the pivot. Clockwise moment (weight) $= 800\\text{ N} \\times 4.0\\text{ m} = 3200\\text{ N m}$. Anticlockwise moment (force $F$) $= F \\times 10.0\\text{ m}$. $10F = 3200$, so $F = 320\\text{ N}$. \n\n**Common mistake:** Using the distance from the weight to end B ($6.0\\text{ m}$) as the pivot distance for the lifting force."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-hard-q3",
+      "type": "mcq",
+      "question": "An object is subjected to two moments: $10\\text{ N m}$ anticlockwise and $14\\text{ N m}$ clockwise. What is the resultant moment?",
+      "options": [
+        "$4\\text{ N m}$ clockwise",
+        "$4\\text{ N m}$ anticlockwise",
+        "$24\\text{ N m}$ clockwise",
+        "$1.4\\text{ N m}$ clockwise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resultant moment is the difference between opposing moments: $14 - 10 = 4\\text{ N m}$ in the direction of the larger moment (clockwise). \n\n**Common mistake:** Adding the two moments together to get $24\\text{ N m}$."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-hard-q4",
+      "type": "mcq",
+      "question": "A non-uniform beam is $2.0\\text{ m}$ long and is pivoted at its centre. It balances when a $60\\text{ N}$ weight is $0.2\\text{ m}$ from the pivot on one side and a $40\\text{ N}$ weight is $0.6\\text{ m}$ from the pivot on the other side. What is the moment produced by the beam's own weight?",
+      "options": [
+        "$12\\text{ N m}$",
+        "$0\\text{ N m}$",
+        "$24\\text{ N m}$",
+        "$36\\text{ N m}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moment 1 $= 60 \\times 0.2 = 12\\text{ N m}$ (ACW). Moment 2 $= 40 \\times 0.6 = 24\\text{ N m}$ (CW). For the beam to balance, its own weight must provide a moment of $24 - 12 = 12\\text{ N m}$ in the anticlockwise direction. \n\n**Common mistake:** Assuming the beam's weight always acts through the pivot and provides zero moment."
+    },
+    {
+      "id": "4-3-turning-effect-of-forces-hard-q5",
+      "type": "mcq",
+      "question": "A crane arm carries a $3000\\text{ N}$ load at a distance of $10\\text{ m}$ from the pivot. It is balanced by a concrete block of weight $W$ at a distance of $4\\text{ m}$ on the opposite side. Calculate $W$.",
+      "options": [
+        "$7500\\text{ N}$",
+        "$1200\\text{ N}$",
+        "$30000\\text{ N}$",
+        "$1500\\text{ N}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using Principle of Moments: $3000\\text{ N} \\times 10\\text{ m} = W \\times 4\\text{ m}$. $30000 = 4W$, so $W = 7500\\text{ N}$. \n\n**Common mistake:** Multiplying $3000 \\times 4$ ($12000$) or dividing $3000 / 10$ ($300$)."
+    }
+  ]
+}

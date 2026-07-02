@@ -1,0 +1,77 @@
+{
+  "id": "10-3-convection-pyp",
+  "topicId": "10-3-convection",
+  "chapterId": "ch10-transfer-of-thermal-energy",
+  "difficulty": "pyp",
+  "title": "Convection — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "10-3-convection-pyp-q1",
+      "type": "mcq",
+      "question": "In a hot water tank, the heating element should be placed at the bottom because:",
+      "options": [
+        "the heated water will rise and this will form convection currents",
+        "infrared radiation travels faster in the upward direction",
+        "conduction cannot take place when the heater is at the top",
+        "the heater must be covered by water at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly from the 'Let's Review' section (Q2). Heated water is less dense and rises, allowing the whole tank to be heated via a current. **Common mistake:** Thinking it's purely about keeping the heater submerged."
+    },
+    {
+      "id": "10-3-convection-pyp-q2",
+      "type": "mcq",
+      "question": "A student observes smoke in a box with two chimneys and a candle under one of them. What determines the direction of the air flow?",
+      "options": [
+        "The rising of hot, less dense air above the candle",
+        "The suction caused by the candle consuming oxygen",
+        "The conduction of heat through the metal box",
+        "The magnetic effect of the current in the air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The candle heats the air, which rises up its chimney. This creates a low-pressure area that draws cold air (and smoke) down the other chimney. **Common mistake:** Thinking the candle 'sucks' the air in like a vacuum cleaner."
+    },
+    {
+      "id": "10-3-convection-pyp-q3",
+      "type": "mcq",
+      "question": "Which row in the table correctly identifies properties of convection?nn| | Medium Required | Method of Energy Transfer |n| :--- | :--- | :--- |n| A | Yes | Bulk movement of particles |n| B | No | Bulk movement of particles |n| C | Yes | Vibrations of particles |n| D | No | Infrared waves |",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convection requires a medium (fluid) and involves the bulk movement of the particles. **Common mistake:** Selecting Row B; only radiation can occur without a medium."
+    },
+    {
+      "id": "10-3-convection-pyp-q4",
+      "type": "mcq",
+      "question": "A graph of density against temperature for a typical gas at constant pressure would show:",
+      "options": [
+        "Density decreasing as temperature increases",
+        "Density increasing as temperature increases",
+        "Density remaining constant as temperature increases",
+        "Density increasing then decreasing"
+      ],
+      "correctIndex": 0,
+      "explanation": "As temperature increases, the gas expands (volume increases). Since mass is constant, density ($m/V$) must decrease. **Common mistake:** Thinking density increases because particles move 'faster'."
+    },
+    {
+      "id": "10-3-convection-pyp-q5",
+      "type": "mcq",
+      "question": "Why is trapped, still air considered an excellent thermal insulator in building materials?",
+      "options": [
+        "It is a poor conductor and cannot form convection currents",
+        "It reflects all thermal radiation away from the building",
+        "It has a very high specific heat capacity",
+        "It is denser than moving air, preventing heat flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "As mentioned in the 'Enrichment Think' box, still air is a poor conductor, and 'trapping' it prevents convection currents from transferring energy. **Common mistake:** Thinking air 'reflects' heat."
+    }
+  ]
+}

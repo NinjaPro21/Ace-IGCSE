@@ -1,0 +1,77 @@
+{
+  "id": "15-3-integration-of-functions-of-the-form-ax-b-easy",
+  "topicId": "15-3-integration-of-functions-of-the-form-ax-b",
+  "chapterId": "ch15-calculus-integration",
+  "difficulty": "easy",
+  "title": "Integration of functions of the form $ax+b$ — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "15-3-integration-of-functions-of-the-form-ax-b-easy-q1",
+      "type": "mcq",
+      "question": "What is the result of $\\int (3x + 4)^5 \\\\\\\\\\,dx.$?",
+      "options": [
+        "$\\frac{(3x + 4)^6}{18} + c$",
+        "$\\frac{(3x + 4)^6}{6} + c$",
+        "$\\frac{(3x + 4)^4}{12} + c$",
+        "$15(3x + 4)^4 + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add 1 to the power (6), divide by the new power (6) and by the coefficient of x (3). Total divisor is 18.\n\n**Common mistake:** Forgetting to divide by the coefficient 3, leading to the second option."
+    },
+    {
+      "id": "15-3-integration-of-functions-of-the-form-ax-b-easy-q2",
+      "type": "mcq",
+      "question": "Find $\\int (2x - 1)^3 \\\\\\\\\\,dx.$.",
+      "options": [
+        "$\\frac{(2x - 1)^4}{8} + c$",
+        "$\\frac{(2x - 1)^4}{4} + c$",
+        "$\\frac{(2x - 1)^4}{2} + c$",
+        "$\\frac{(2x - 1)^2}{4} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$\\frac{(2x-1)^4}{4 \\times 2} = \\frac{(2x-1)^4}{8}$.\n\n**Common mistake:** Dividing by 4 instead of 8."
+    },
+    {
+      "id": "15-3-integration-of-functions-of-the-form-ax-b-easy-q3",
+      "type": "mcq",
+      "question": "Evaluate $\\int (5 - x)^4 \\\\\\\\\\,dx.$.",
+      "options": [
+        "$-\\frac{(5 - x)^5}{5} + c$",
+        "$\\frac{(5 - x)^5}{5} + c$",
+        "$-4(5 - x)^3 + c$",
+        "$\\frac{(x - 5)^5}{5} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coefficient of x is -1. Dividing by the new power 5 and -1 gives -1/5.\n\n**Common mistake:** Failing to account for the negative coefficient of x."
+    },
+    {
+      "id": "15-3-integration-of-functions-of-the-form-ax-b-easy-q4",
+      "type": "mcq",
+      "question": "Integrate $\\int 4(x + 2)^7 \\\\\\\\\\,dx.$.",
+      "options": [
+        "$\\frac{(x + 2)^8}{2} + c$",
+        "$(x + 2)^8 + c$",
+        "$\\frac{4(x + 2)^8}{8} + c$",
+        "$\\frac{(x + 2)^8}{4} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constant 4 stays. New power is 8. $\\frac{4(x+2)^8}{8 \\times 1} = \\frac{1}{2}(x+2)^8$.\n\n**Common mistake:** Leaving the 4 as a multiplier and not simplifying the $fraction.$"
+    },
+    {
+      "id": "15-3-integration-of-functions-of-the-form-ax-b-easy-q5",
+      "type": "mcq",
+      "question": "Find $\\int \\sqrt{x + 1} \\\\\\\\\\,dx.$.",
+      "options": [
+        "$\\frac{2}{3}(x + 1)^{3/2} + c$",
+        "$\\frac{3}{2}(x + 1)^{3/2} + c$",
+        "$\\frac{1}{2\\sqrt{x+1}} + c$",
+        "$(x + 1)^{3/2} + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is 0.5. New power is 1.5 (3/2). Dividing by 1.5 is multiplying by 2/3.\n\n**Common mistake:** Applying the power rule incorrectly or confusing integration with differentiation."
+    }
+  ]
+}
