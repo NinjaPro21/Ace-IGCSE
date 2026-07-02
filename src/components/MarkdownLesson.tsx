@@ -1,16 +1,25 @@
 import { lazy, Suspense, useState, type ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import rehypeRaw from 'rehype-raw'
 import 'katex/dist/katex.min.css'
-import type { TopicMeta, GuidePanel, DiffGuidePanel, VectorGuidePanel, IntegrationGuidePanel, KinematicsGuidePanel } from '@/lib/contentTypes'
+import { MathText } from '@/components/MathText'
+import type { TopicMeta, GuidePanel, DiffGuidePanel, VectorGuidePanel, IntegrationGuidePanel, KinematicsGuidePanel, FnGuidePanel, QuadraticPanel, ModulusPanel, TrigPanel, LineGeometryPanel, CubicPanel } from '@/lib/contentTypes'
 import {
   calloutVariant,
-  normalizeMathMarkdown,
+  expandWorkedExampleSections,
+  prepareMathContent,
   parseContentCards,
+  parseFormulaCards,
+  parseFormulaCardVariants,
+  formulaCardHasKToggle,
+  normalizeKeyFormulasBody,
+  parseTopicCards,
   parseStepsWithCallouts,
-  parseWorkedExampleSteps,
-  workedExampleTitle,
+  parseWorkedExampleParts,
+  stripStepPrefix,
 } from '@/lib/mathMarkdown'
 
 const DiscriminantExplorer = lazy(() =>
@@ -33,6 +42,18 @@ const QuadraticGraphExplorer = lazy(() =>
 )
 const LogGraphExplorer = lazy(() =>
   import('@/features/explorers/LogGraphExplorer').then((m) => ({ default: m.LogGraphExplorer })),
+)
+const ChangeOfBaseExplorer = lazy(() =>
+  import('@/features/explorers/ChangeOfBaseExplorer').then((m) => ({ default: m.ChangeOfBaseExplorer })),
+)
+const LogLawsExplorer = lazy(() =>
+  import('@/features/explorers/LogLawsExplorer').then((m) => ({ default: m.LogLawsExplorer })),
+)
+const LogEvaluateQuizExplorer = lazy(() =>
+  import('@/features/explorers/LogEvaluateQuizExplorer').then((m) => ({ default: m.LogEvaluateQuizExplorer })),
+)
+const NaturalLogExplorer = lazy(() =>
+  import('@/features/explorers/NaturalLogExplorer').then((m) => ({ default: m.NaturalLogExplorer })),
 )
 const ShoelaceAreaGuide = lazy(() =>
   import('@/features/explorers/ShoelaceAreaGuide').then((m) => ({ default: m.ShoelaceAreaGuide })),
@@ -67,11 +88,39 @@ const VectorsVisualGuide = lazy(() =>
 const DifferentiationVisualGuide = lazy(() =>
   import('@/features/explorers/DifferentiationVisualGuide').then((m) => ({ default: m.DifferentiationVisualGuide })),
 )
+const CubicGraphExplorer = lazy(() =>
+  import('@/features/explorers/CubicGraphExplorer').then((m) => ({ default: m.CubicGraphExplorer })),
+)
+const PolynomialDivisionExplorer = lazy(() =>
+  import('@/features/explorers/PolynomialDivisionExplorer').then((m) => ({ default: m.PolynomialDivisionExplorer })),
+)
+const LinearLawExplorer = lazy(() =>
+  import('@/features/explorers/LinearLawExplorer').then((m) => ({ default: m.LinearLawExplorer })),
+)
+const LineGeometryExplorer = lazy(() =>
+  import('@/features/explorers/LineGeometryExplorer').then((m) => ({ default: m.LineGeometryExplorer })),
+)
+const StatisticsVisualGuide = lazy(() =>
+  import('@/features/explorers/StatisticsVisualGuide').then((m) => ({ default: m.StatisticsVisualGuide })),
+)
+const CurvesVisualGuide = lazy(() =>
+  import('@/features/explorers/CurvesVisualGuide').then((m) => ({ default: m.CurvesVisualGuide })),
+)
+const RightTriangleGuide = lazy(() =>
+  import('@/features/explorers/RightTriangleGuide').then((m) => ({ default: m.RightTriangleGuide })),
+)
+const CasioCalculatorGuide = lazy(() =>
+  import('@/features/explorers/CasioCalculatorGuide').then((m) => ({ default: m.CasioCalculatorGuide })),
+)
+const ThermalVisualGuide = lazy(() =>
+  import('@/features/explorers/ThermalVisualGuide').then((m) => ({ default: m.ThermalVisualGuide })),
+)
 
 type SectionKind =
   | 'core'
   | 'methods'
   | 'decision-grid'
+  | 'graphs'
   | 'steps'
   | 'worked-example'
   | 'examiner-tip'
@@ -89,21 +138,25 @@ interface NoteSection {
 
 const HEADING_MAP: Record<string, SectionKind> = {
   'core idea': 'core',
+  'key definitions': 'core',
   'key formulas': 'methods',
   'key methods': 'methods',
   'key methods / types': 'methods',
+  'graphs & diagrams': 'graphs',
   'which method do i use?': 'decision-grid',
   'mapping types': 'decision-grid',
   'steps / method': 'steps',
   'worked example': 'worked-example',
   'examiner tip': 'examiner-tip',
   'key rule': 'key-rule',
+  'common mistakes': 'key-rule',
   'quick check': 'quick-check',
   'visual / interactive intent': 'visual',
+  'visual diagram': 'visual',
+  'worked example (0606/pyp style)': 'worked-example',
 }
 
 const METHOD_CARD_ACCENTS = ['violet', 'emerald', 'amber'] as const
-const SHORT_PHASE = ['Sub', 'Rearr', 'Formula', 'Solve', 'Check'] as const
 
 function resolveSectionKind(heading: string): SectionKind {
   const lower = heading.toLowerCase()
@@ -113,19 +166,13 @@ function resolveSectionKind(heading: string): SectionKind {
   return 'generic'
 }
 
-function getPhaseLabel(index: number, total: number): string {
-  if (index === 0) return 'Problem'
-  if (index === total - 1) return 'Result'
-  return SHORT_PHASE[(index - 1) % SHORT_PHASE.length]
-}
-
 function boldFirstVerb(text: string): string {
   return text.replace(/^(\*\*)?([A-Z][a-zéèêàùûôîâ]+)(\*\*)?(\s)/, '**$2**$4')
 }
 
 const MD_PLUGINS = {
-  remark: [remarkMath],
-  rehype: [rehypeKatex],
+  remark: [remarkGfm, remarkMath],
+  rehype: [rehypeRaw, rehypeKatex],
 }
 
 function parseSections(raw: string): NoteSection[] {
@@ -148,7 +195,7 @@ function parseSections(raw: string): NoteSection[] {
 }
 
 function Md({ children, className }: { children: string; className?: string }) {
-  const prepared = normalizeMathMarkdown(children)
+  const prepared = prepareMathContent(children, 'note')
   return (
     <div className={className ?? 'enlight-markdown'}>
       <ReactMarkdown remarkPlugins={MD_PLUGINS.remark} rehypePlugins={MD_PLUGINS.rehype}>
@@ -161,11 +208,17 @@ function Md({ children, className }: { children: string; className?: string }) {
 function WorkspaceCard({
   children,
   className = '',
+  id,
 }: {
   children: ReactNode
   className?: string
+  id?: string
 }) {
-  return <section className={`enlight-ws-card ${className}`.trim()}>{children}</section>
+  return (
+    <section id={id} className={`enlight-ws-card ${className}`.trim()}>
+      {children}
+    </section>
+  )
 }
 
 function WorkspaceLabel({ children }: { children: string }) {
@@ -190,11 +243,37 @@ function StepList({ steps }: { steps: string[] }) {
           <span className="enlight-method-step__num" aria-hidden>
             {i + 1}
           </span>
-          <Md className="enlight-method-step__text">{boldFirstVerb(step)}</Md>
+          <Md className="enlight-method-step__text">{boldFirstVerb(stripStepPrefix(step))}</Md>
         </li>
       ))}
     </ol>
   )
+}
+
+function WorkedExampleStepList({ steps }: { steps: string[] }) {
+  return (
+    <ol className="enlight-we-steps">
+      {steps.map((step, i) => (
+        <li key={i} className="enlight-we-step">
+          <span className="enlight-we-step__num" aria-hidden>
+            {i + 1}
+          </span>
+          <Md className="enlight-we-step__text">{boldFirstVerb(stripStepPrefix(step))}</Md>
+        </li>
+      ))}
+    </ol>
+  )
+}
+
+function formatExampleDisplayTitle(heading: string): string {
+  const match = heading.match(/^worked examples?\s*[—–-]\s*(.+)/i)
+  if (match?.[1]) {
+    const subtitle = match[1].trim()
+    const cased = subtitle.charAt(0).toUpperCase() + subtitle.slice(1)
+    return `Worked example — ${cased}`
+  }
+  if (/^worked examples?$/i.test(heading.trim())) return 'Worked example'
+  return heading.trim() || 'Worked example'
 }
 
 function WorkedExamplePanel({
@@ -204,54 +283,61 @@ function WorkedExamplePanel({
   body: string
   heading?: string
 }) {
-  const exampleSteps = parseWorkedExampleSteps(body)
+  const { questions, steps } = parseWorkedExampleParts(body)
   const showHeading = heading.length > 0
 
   return (
-    <div className="enlight-example-block">
+    <article className="enlight-we-card">
       {showHeading && (
-        <div className="enlight-concept-module__example-heading">{heading}</div>
+        <header className="enlight-we-card__header">
+          <span className="enlight-we-card__icon" aria-hidden>
+            ✎
+          </span>
+          <h3 className="enlight-we-card__title">
+            <MathText content={formatExampleDisplayTitle(heading)} title />
+          </h3>
+        </header>
       )}
-      {exampleSteps.length > 1 ? (
-        <div className="enlight-we-phase-rows">
-          {exampleSteps.map((step, i) => {
-            const label = getPhaseLabel(i, exampleSteps.length)
-            const isResult = i === exampleSteps.length - 1
-            if (isResult) {
-              return (
-                <div key={i} className="enlight-we-result-banner">
-                  <div className="enlight-we-result-label">Result</div>
-                  <Md className="enlight-markdown enlight-we-phase-content">{step}</Md>
-                </div>
-              )
-            }
-            return (
-              <div key={i} className="enlight-we-phase-row">
-                <span className="enlight-we-pill">{label}</span>
-                <Md className="enlight-markdown enlight-we-phase-content">{step}</Md>
-              </div>
-            )
-          })}
+
+      {questions.map((q, i) => (
+        <div key={`q-${i}`} className="enlight-we-card__question">
+          <Md>{`**Question:** ${q}`}</Md>
         </div>
-      ) : (
-        <Md className="enlight-markdown enlight-example-block__body">{body}</Md>
+      ))}
+
+      {steps.length > 0 && (
+        <>
+          <div className="enlight-we-card__solution-label">Solution</div>
+          {steps.length > 1 ? (
+            <WorkedExampleStepList steps={steps} />
+          ) : (
+            <div className="enlight-we-step enlight-we-step--solo">
+              <span className="enlight-we-step__num" aria-hidden>
+                1
+              </span>
+              <Md className="enlight-we-step__text">{boldFirstVerb(stripStepPrefix(steps[0]))}</Md>
+            </div>
+          )}
+        </>
       )}
-    </div>
+
+      {questions.length === 0 && steps.length === 0 && (
+        <Md className="enlight-we-card__fallback">{body}</Md>
+      )}
+    </article>
   )
 }
 
 function ExamplesPanel({ examples }: { examples: NoteSection[] }) {
   return (
-    <div className="enlight-examples-panel" aria-label="Worked examples">
-      <div className="enlight-examples-panel__stack">
-        {examples.map((ex, i) => (
-          <WorkedExamplePanel
-            key={i}
-            heading={workedExampleTitle(ex.heading)}
-            body={ex.body}
-          />
-        ))}
-      </div>
+    <div className="enlight-examples-panel__stack" aria-label="Worked examples">
+      {examples.map((ex, i) => (
+        <WorkedExamplePanel
+          key={i}
+          heading={ex.heading}
+          body={ex.body}
+        />
+      ))}
     </div>
   )
 }
@@ -273,7 +359,7 @@ function MethodTabbedCard({
 
   return (
     <WorkspaceCard className="enlight-ws-card--tabbed">
-      <WorkspaceLabel>{wsLabel}</WorkspaceLabel>
+      <p className="enlight-lesson-tabs__section-title">{wsLabel}</p>
       <div className="enlight-lesson-tabs" role="tablist" aria-label={`${wsLabel} sections`}>
         <button
           type="button"
@@ -356,9 +442,51 @@ function DecisionGridSection({ section }: { section: NoteSection }) {
   )
 }
 
+function FormulaStackItem({ card }: { card: string }) {
+  const parsed = parseFormulaCardVariants(card)
+  const hasToggle = formulaCardHasKToggle(card)
+  const [variantId, setVariantId] = useState(parsed.variants[0]?.id ?? 'base')
+  const active = parsed.variants.find((v) => v.id === variantId) ?? parsed.variants[0]
+
+  if (!hasToggle || !active) {
+    return (
+      <div className="enlight-formula-stack__item">
+        <Md className="enlight-markdown">{card}</Md>
+      </div>
+    )
+  }
+
+  return (
+    <div className="enlight-formula-stack__item">
+      {parsed.titleMarkdown ? (
+        <Md className="enlight-markdown enlight-formula-card__title">{parsed.titleMarkdown}</Md>
+      ) : null}
+      <div className="enlight-formula-k-toggle" role="tablist" aria-label="Formula variant">
+        {parsed.variants.map((v) => (
+          <button
+            key={v.id}
+            type="button"
+            role="tab"
+            aria-selected={variantId === v.id}
+            className={`enlight-formula-k-toggle__btn${variantId === v.id ? ' enlight-formula-k-toggle__btn--active' : ''}`}
+            onClick={() => setVariantId(v.id)}
+          >
+            <Md className="enlight-markdown enlight-formula-k-toggle__label">{v.label}</Md>
+          </button>
+        ))}
+      </div>
+      <Md className="enlight-markdown">{`$$\n${active.math}\n$$`}</Md>
+      {parsed.description ? (
+        <Md className="enlight-markdown enlight-formula-card__desc">{parsed.description}</Md>
+      ) : null}
+    </div>
+  )
+}
+
 function MethodsSection({ section }: { section: NoteSection }) {
-  const cards = parseContentCards(section.body)
   const isKeyFormulas = section.heading.toLowerCase() === 'key formulas'
+  const sectionBody = isKeyFormulas ? normalizeKeyFormulasBody(section.body) : section.body
+  const cards = isKeyFormulas ? parseFormulaCards(sectionBody) : parseContentCards(section.body)
 
   // Decision grid is for taxonomy cards (mapping types etc.), not formula lists
   if (cards.length >= 3 && !isKeyFormulas) {
@@ -370,19 +498,47 @@ function MethodsSection({ section }: { section: NoteSection }) {
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
         <div className={isKeyFormulas ? 'enlight-formula-stack' : 'enlight-formula-strip'}>
-          {cards.map((card, i) => (
-            <div
-              key={i}
-              className={isKeyFormulas ? 'enlight-formula-stack__item' : 'enlight-formula-strip__item'}
-            >
-              <Md className="enlight-markdown">{card}</Md>
-            </div>
-          ))}
+          {cards.map((card, i) =>
+            isKeyFormulas ? (
+              <FormulaStackItem key={i} card={card} />
+            ) : (
+              <div key={i} className="enlight-formula-strip__item">
+                <Md className="enlight-markdown">{card}</Md>
+              </div>
+            ),
+          )}
         </div>
       </WorkspaceCard>
     )
   }
   return null
+}
+
+function GraphsDiagramsSection({ section }: { section: NoteSection }) {
+  const cards = parseTopicCards(section.body)
+
+  if (cards.length <= 1 && !cards[0]?.diagram) {
+    return (
+      <WorkspaceCard>
+        <WorkspaceLabel>{section.heading}</WorkspaceLabel>
+        <Md className="enlight-note-prose">{section.body}</Md>
+      </WorkspaceCard>
+    )
+  }
+
+  return (
+    <WorkspaceCard>
+      <WorkspaceLabel>{section.heading}</WorkspaceLabel>
+      <div className="enlight-graph-topic-stack">
+        {cards.map((card, i) => (
+          <div key={i} className="enlight-graph-topic-card">
+            {card.text ? <Md className="enlight-markdown">{card.text}</Md> : null}
+            {card.diagram ? <Md className="enlight-markdown enlight-graph-topic-card__diagram">{card.diagram}</Md> : null}
+          </div>
+        ))}
+      </div>
+    </WorkspaceCard>
+  )
 }
 
 function MethodWorkspaceCard({ stepsSection }: { stepsSection: NoteSection }) {
@@ -403,12 +559,7 @@ function MethodWorkspaceCard({ stepsSection }: { stepsSection: NoteSection }) {
 }
 
 function WorkedExamplesOnlySection({ examples }: { examples: NoteSection[] }) {
-  return (
-    <WorkspaceCard className="enlight-ws-card--tabbed">
-      <WorkspaceLabel>Worked examples</WorkspaceLabel>
-      <ExamplesPanel examples={examples} />
-    </WorkspaceCard>
-  )
+  return <ExamplesPanel examples={examples} />
 }
 
 function WarningCalloutSection({ section }: { section: NoteSection }) {
@@ -456,6 +607,10 @@ const EXPLORER_LABELS: Record<NonNullable<TopicMeta['explorerId']>, string> = {
   cast: 'CAST Diagram Explorer',
   quadratic: 'Quadratic Graph Explorer',
   log: 'Logarithm Graph Explorer',
+  'log-laws': 'Log Laws Explorer',
+  'change-of-base': 'Change of Base Calculator',
+  'log-eval': 'Log Evaluation Practice',
+  'natural-log': 'Natural Log & Exponential Grid',
   shoelace: 'Shoelace & Area Methods',
   exponential: 'Exponential Graph Explorer',
   'circle-line': 'Line & Circle Discriminant',
@@ -467,6 +622,15 @@ const EXPLORER_LABELS: Record<NonNullable<TopicMeta['explorerId']>, string> = {
   'vectors-guide': 'Vectors Visual Guide',
   'integration-guide': 'Integration Visual Guide',
   'kinematics-guide': 'Kinematics Visual Guide',
+  'line-geometry': 'Coordinate Geometry Lab',
+  cubic: 'Cubic Graph Explorer',
+  'poly-division': 'Polynomial Division Guide',
+  'linear-law': 'Non-Linear to Linear Tool',
+  'calculator-guide': 'Casio Calculator Guide',
+  'stats-guide': 'Statistics Visual Guide',
+  'curves-guide': 'Curve Plotting Guide',
+  'right-triangle-guide': 'Right-Triangle Trigonometry',
+  'thermal-guide': 'Thermal Properties Diagrams',
 }
 
 const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>([
@@ -479,14 +643,23 @@ const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>([
   'vectors-guide',
   'integration-guide',
   'kinematics-guide',
+  'line-geometry',
+  'cubic',
+  'calculator-guide',
+  'stats-guide',
+  'curves-guide',
+  'right-triangle-guide',
+  'thermal-guide',
 ])
 
 function ExplorerContent({
   explorerId,
   explorerPanels,
+  subjectId,
 }: {
   explorerId: TopicMeta['explorerId']
   explorerPanels?: GuidePanel[]
+  subjectId?: string
 }) {
   const fallback = (
     <div className="enlight-sandbox-coming-soon">
@@ -498,17 +671,25 @@ function ExplorerContent({
     case 'discriminant':
       return <Suspense fallback={fallback}><DiscriminantExplorer /></Suspense>
     case 'modulus':
-      return <Suspense fallback={fallback}><ModulusExplorer /></Suspense>
+      return <Suspense fallback={fallback}><ModulusExplorer panels={explorerPanels as ModulusPanel[] | undefined} /></Suspense>
     case 'line-intersection':
       return <Suspense fallback={fallback}><LineIntersectionExplorer /></Suspense>
     case 'trig':
-      return <Suspense fallback={fallback}><TrigGraphExplorer /></Suspense>
+      return <Suspense fallback={fallback}><TrigGraphExplorer panels={explorerPanels as TrigPanel[] | undefined} /></Suspense>
     case 'cast':
       return <Suspense fallback={fallback}><CastDiagramExplorer /></Suspense>
     case 'quadratic':
-      return <Suspense fallback={fallback}><QuadraticGraphExplorer /></Suspense>
+      return <Suspense fallback={fallback}><QuadraticGraphExplorer panels={explorerPanels as QuadraticPanel[] | undefined} /></Suspense>
     case 'log':
       return <Suspense fallback={fallback}><LogGraphExplorer /></Suspense>
+    case 'change-of-base':
+      return <Suspense fallback={fallback}><ChangeOfBaseExplorer /></Suspense>
+    case 'log-laws':
+      return <Suspense fallback={fallback}><LogLawsExplorer /></Suspense>
+    case 'log-eval':
+      return <Suspense fallback={fallback}><LogEvaluateQuizExplorer /></Suspense>
+    case 'natural-log':
+      return <Suspense fallback={fallback}><NaturalLogExplorer /></Suspense>
     case 'shoelace':
       return <Suspense fallback={fallback}><ShoelaceAreaGuide /></Suspense>
     case 'exponential':
@@ -520,9 +701,13 @@ function ExplorerContent({
     case 'pnc-guide':
       return <Suspense fallback={fallback}><PncQuestionGuide /></Suspense>
     case 'series-guide':
-      return <Suspense fallback={fallback}><SeriesVisualGuide /></Suspense>
+      return (
+        <Suspense fallback={fallback}>
+          <SeriesVisualGuide panels={explorerPanels as import('@/lib/contentTypes').SeriesGuidePanel[] | undefined} />
+        </Suspense>
+      )
     case 'functions-guide':
-      return <Suspense fallback={fallback}><FunctionsVisualGuide /></Suspense>
+      return <Suspense fallback={fallback}><FunctionsVisualGuide panels={explorerPanels as FnGuidePanel[] | undefined} /></Suspense>
     case 'differentiation-guide':
       return <Suspense fallback={fallback}><DifferentiationVisualGuide panels={explorerPanels as DiffGuidePanel[] | undefined} /></Suspense>
     case 'vectors-guide':
@@ -531,6 +716,49 @@ function ExplorerContent({
       return <Suspense fallback={fallback}><IntegrationVisualGuide panels={explorerPanels as IntegrationGuidePanel[] | undefined} /></Suspense>
     case 'kinematics-guide':
       return <Suspense fallback={fallback}><KinematicsVisualGuide panels={explorerPanels as KinematicsGuidePanel[] | undefined} /></Suspense>
+    case 'line-geometry':
+      return <Suspense fallback={fallback}><LineGeometryExplorer panels={explorerPanels as LineGeometryPanel[] | undefined} /></Suspense>
+    case 'cubic':
+      return <Suspense fallback={fallback}><CubicGraphExplorer panels={explorerPanels as CubicPanel[] | undefined} /></Suspense>
+    case 'poly-division':
+      return <Suspense fallback={fallback}><PolynomialDivisionExplorer /></Suspense>
+    case 'linear-law':
+      return <Suspense fallback={fallback}><LinearLawExplorer /></Suspense>
+    case 'calculator-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <div className="enlight-calc-guide-wrap">
+            <CasioCalculatorGuide
+              panels={explorerPanels as import('@/lib/contentTypes').CalculatorGuidePanel[] | undefined}
+              variant={subjectId === 'add-maths-0606' ? '0606' : '0580'}
+            />
+          </div>
+        </Suspense>
+      )
+    case 'stats-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <StatisticsVisualGuide panels={explorerPanels as import('@/lib/contentTypes').StatsGuidePanel[] | undefined} />
+        </Suspense>
+      )
+    case 'curves-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <CurvesVisualGuide panels={explorerPanels as import('@/lib/contentTypes').CurvesGuidePanel[] | undefined} />
+        </Suspense>
+      )
+    case 'right-triangle-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <RightTriangleGuide panels={explorerPanels as import('@/lib/contentTypes').RightTrianglePanel[] | undefined} />
+        </Suspense>
+      )
+    case 'thermal-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <ThermalVisualGuide panels={explorerPanels as import('@/lib/contentTypes').ThermalGuidePanel[] | undefined} />
+        </Suspense>
+      )
     default:
       return (
         <div className="enlight-sandbox-coming-soon">
@@ -544,17 +772,29 @@ function ExplorerContent({
 function ExplorerSection({
   explorerId,
   explorerPanels,
+  subjectId,
 }: {
   explorerId: NonNullable<TopicMeta['explorerId']>
   explorerPanels?: GuidePanel[]
+  subjectId?: string
 }) {
-  const prefix = VISUAL_GUIDE_IDS.has(explorerId) ? 'Visual guide' : 'Interactive'
+  const prefix = VISUAL_GUIDE_IDS.has(explorerId) ? 'Visual diagram' : 'Interactive'
+  const isCalc = explorerId === 'calculator-guide'
   return (
-    <WorkspaceCard className="enlight-ws-card--explorer">
+    <WorkspaceCard className={isCalc ? 'enlight-ws-card--explorer enlight-ws-card--calc' : 'enlight-ws-card--explorer'} id="lesson-explorer">
       <WorkspaceLabel>{`${prefix} · ${EXPLORER_LABELS[explorerId]}`}</WorkspaceLabel>
       <div className="enlight-explorer-card__body">
-        <ExplorerContent explorerId={explorerId} explorerPanels={explorerPanels} />
+        <ExplorerContent explorerId={explorerId} explorerPanels={explorerPanels} subjectId={subjectId} />
       </div>
+    </WorkspaceCard>
+  )
+}
+
+function VisualDiagramSection({ section }: { section: NoteSection }) {
+  return (
+    <WorkspaceCard className="enlight-ws-card--flat">
+      <WorkspaceLabel>Visual diagram</WorkspaceLabel>
+      <Md className="enlight-note-prose enlight-visual-diagram__caption">{section.body}</Md>
     </WorkspaceCard>
   )
 }
@@ -608,12 +848,18 @@ function renderSections(sections: NoteSection[]): ReactNode[] {
       case 'methods':
         elements.push(<MethodsSection key={idx} section={section} />)
         break
+      case 'graphs':
+        elements.push(<GraphsDiagramsSection key={idx} section={section} />)
+        break
       case 'examiner-tip':
       case 'key-rule':
         elements.push(<WarningCalloutSection key={idx} section={section} />)
         break
       case 'quick-check':
         elements.push(<QuickCheckSection key={idx} section={section} />)
+        break
+      case 'visual':
+        elements.push(<VisualDiagramSection key={idx} section={section} />)
         break
       default:
         elements.push(<GenericSection key={idx} section={section} />)
@@ -628,16 +874,16 @@ interface MarkdownLessonProps {
   content: string
   explorerId?: TopicMeta['explorerId']
   explorerPanels?: GuidePanel[]
+  subjectId?: string
 }
 
-export function MarkdownLesson({ content, explorerId, explorerPanels }: MarkdownLessonProps) {
-  const sections = parseSections(content)
-  const visibleSections = sections.filter((s) => s.kind !== 'visual')
+export function MarkdownLesson({ content, explorerId, explorerPanels, subjectId }: MarkdownLessonProps) {
+  const sections = expandWorkedExampleSections(parseSections(content))
 
   return (
     <div className="enlight-note-workspace">
-      {renderSections(visibleSections)}
-      {explorerId && <ExplorerSection explorerId={explorerId} explorerPanels={explorerPanels} />}
+      {renderSections(sections)}
+      {explorerId && <ExplorerSection explorerId={explorerId} explorerPanels={explorerPanels} subjectId={subjectId} />}
     </div>
   )
 }

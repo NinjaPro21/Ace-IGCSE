@@ -4,11 +4,17 @@ Kinematics models the linear motion of objects over time by using calculus to co
 
 ## Key formulas
 
-$$\text{Forward Direction (Differentiation): } v = \frac{ds}{dt}, \quad a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$$
+$$
+\text{Forward Direction (Differentiation): } v = \frac{ds}{dt}, \quad a = \frac{dv}{dt} = \frac{d^2s}{dt^2}
+$$
 
-$$\text{Reverse Direction (Integration): } v = \int a \, dt, \quad s = \int v \, dt$$
+$$
+\text{Reverse Direction (Integration): } v = \int a \, dt, \quad s = \int v \, dt
+$$
 
-$$\text{Displacement Change: } \Delta s = \int_{t_1}^{t_2} v(t) \, dt, \quad \text{Total Distance} = \int_{t_1}^{t_2} |v(t)| \, dt$$
+$$
+\text{Displacement Change: } \Delta s = \int_{t_1}^{t_2} v(t) \, dt, \quad \text{Total Distance} = \int_{t_1}^{t_2} |v(t)| \, dt
+$$
 
 ## Steps / method
 
@@ -30,28 +36,32 @@ Differentiate to go from displacement → velocity → acceleration. Integrate i
 
 A particle has displacement $s = t^2 + 3t$ (metres) at time $t$ (seconds). Find its velocity at $t = 4$.
 
-$$v = \frac{ds}{dt} = 2t + 3$$
+$$
+v = \frac{ds}{dt} = 2t + 3
+$$
 
-At $t = 4$: $v = 11\,\text{m/s}$.
+At $t = 4$: $v = 11\,\text{m/s}$
 
 ## Worked example — Displacement from acceleration
 
 A particle has acceleration $a = 6t\,\text{m/s}^2$. Given $v = 2\,\text{m/s}$ when $t = 0$, find $v$ and $s$ at $t = 3$.
 
-$$v = \int 6t\, dt = 3t^2 + C \implies v(0) = 2 \implies C = 2$$
+$$
+v = \int 6t\, dt = 3t^2 + C \implies v(0) = 2 \implies C = 2
+$$
 
-$$v = 3t^2 + 2 \implies v(3) = 29\,\text{m/s}$$
+$$
+v = 3t^2 + 2 \implies v(3) = 29\,\text{m/s}
+$$
 
-$$s = \int (3t^2 + 2)\, dt = t^3 + 2t + C' \implies s(3) = 33\,\text{m}$$
+$$
+s = \int (3t^2 + 2)\, dt = t^3 + 2t + C' \implies s(3) = 33\,\text{m}
+$$
 
 ## Examiner tip
 
-Be careful to distinguish between the terms &quot;displacement&quot; and &quot;total distance traveled&quot;. Displacement is a vector that measures the straight-line distance from the starting point, while total distance tracks the entire path length traveled, requiring you to account for any changes in direction.
+Be careful to distinguish between the terms "displacement" and "total distance traveled". Displacement is a vector that measures the straight-line distance from the starting point, while total distance tracks the entire path length traveled, requiring you to account for any changes in direction.
 
 ## Quick check
 
 If an object reaches its maximum velocity during its motion, its acceleration at that exact moment must be equal to zero.
-
-## Visual / interactive intent
-
-New explorer: Kinematics particle runner. Includes three linked graphs: displacement, velocity, and acceleration versus time. Users can choose a motion equation, and an animation shows a particle moving along a track, highlighting how slopes and areas under the curves relate to each other.

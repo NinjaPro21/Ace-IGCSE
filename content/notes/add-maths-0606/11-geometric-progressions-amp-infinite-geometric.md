@@ -4,11 +4,14 @@ A geometric progression (GP) is a sequence of numbers where each term after the 
 
 ## Key formulas
 
-$$\text{nth Term: } u_n = ar^{n-1}$$
+$$
+\text{nth Term: } u_n = ar^{n-1}
 
-$$\text{Sum of first n terms: } S_n = \frac{a(1 - r^n)}{1 - r} \,\, (r &lt; 1) \quad \text{or} \quad S_n = \frac{a(r^n - 1)}{r - 1} \,\, (r &gt; 1)$$
+\text{Sum of first n terms: } S_n = \frac{a(1 - r^n)}{1 - r} \,\, (r < 1) \quad \text{or} \quad S_n = \frac{a(r^n - 1)}{r - 1} \,\, (r > 1)
 
-$$\text{Sum to Infinity: } S_\infty = \frac{a}{1 - r} \quad \text{valid if and only if } |r| &lt; 1 \implies -1 &lt; r &lt; 1$$
+\text{Sum to Infinity: } S_\infty = \frac{a}{1 - r} \quad \text{valid if and only if } |r| < 1 \implies -1 < r < 1
+$$
+
 
 ## Steps / method
 
@@ -18,7 +21,7 @@ To find a specific term position, substitute these values into the index formula
 
 To sum a finite number of terms, select the appropriate version of the $S_n$ formula to keep the denominator positive.
 
-Check the convergence condition: if the question asks for a sum to infinity, verify that the common ratio satisfies $-1 &lt; r &lt; 1$.
+Check the convergence condition: if the question asks for a sum to infinity, verify that the common ratio satisfies $-1 < r < 1$.
 
 Substitute $a$ and $r$ into the simplified formula $S_\infty = \frac{a}{1-r}$ to calculate the limiting value.
 
@@ -30,17 +33,22 @@ A sum to infinity exists only when $|r| < 1$. Always check convergence before us
 
 The GP $3, 6, 12, 24, \ldots$ has $a = 3$ and $r = 2$. Find the 8th term.
 
-$$u_8 = 3 \times 2^{7} = 3 \times 128 = 384$$
-
+$$
+u_8 = 3 \times 2^{7} = 3 \times 128 = 384
+$$
 The 8th term is **384**.
+
+
 
 ## Worked example — Sum to infinity
 
 Find $S_\infty$ for the GP with $a = 12$ and $r = \frac{1}{3}$.
 
-Since $|r| = \frac{1}{3} < 1$, the series converges:
+Since $|r| = \frac{1}{3} < 1$, the series converges.
 
-$$S_\infty = \frac{12}{1 - \frac{1}{3}} = \frac{12}{\frac{2}{3}} = 18$$
+$$
+S_\infty = \frac{12}{1 - \frac{1}{3}} = \frac{12}{\frac{2}{3}} = 18
+$$
 
 The sum to infinity is **18**.
 
@@ -51,7 +59,3 @@ A common trap is assuming a sum to infinity exists for all geometric sequences. 
 ## Quick check
 
 If a geometric sequence has a common ratio of $r = -\frac{1}{2}$, the terms will alternate between positive and negative values while shrinking toward zero.
-
-## Visual / interactive intent
-
-New explorer: GP convergence animator. A bar graph where each bar's height represents the value of a term in a geometric sequence. Users adjust a slider for $r$; when $|r| &lt; 1$, an overlay line shows the cumulative sum leveling off horizontally at the $S_\infty$ limit line.

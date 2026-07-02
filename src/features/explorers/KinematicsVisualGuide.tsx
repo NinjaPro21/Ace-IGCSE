@@ -115,30 +115,60 @@ function GraphsPanel() {
 
 function DistancePanel() {
   const v = (t: number) => t * t - 4 * t + 3 // roots at t=1, t=3
+  const s = (t: number) => (t ** 3) / 3 - 2 * t ** 2 + 3 * t
   const [t1, setT1] = useState(0)
   const [t2, setT2] = useState(4)
   const lo = Math.min(t1, t2)
   const hi = Math.max(t1, t2)
 
-  const displacement = ((hi ** 3 - lo ** 3) / 3) - 2 * (hi ** 2 - lo ** 2) + 3 * (hi - lo)
-  // Split at turning points t=1,3 for distance
-  const splits = [lo, 1, 3, hi].filter((x, i, arr) => x > lo - 0.001 && x < hi + 0.001 && (i === 0 || x > arr[i - 1] + 0.001))
+  const displacement = s(hi) - s(lo)
+  const splits = [lo, 1, 3, hi].filter((x, i, arr) => x >= lo - 0.001 && x <= hi + 0.001 && (i === 0 || x > arr[i - 1] + 0.001))
   let distance = 0
   for (let i = 0; i < splits.length - 1; i++) {
     const a = splits[i]
     const b = splits[i + 1]
-    const int = (x: number) => (x ** 3) / 3 - 2 * x ** 2 + 3 * x
-    distance += Math.abs(int(b) - int(a))
+    distance += Math.abs(s(b) - s(a))
   }
 
   const tMax = 5
-  const vPath = useMemo(() => buildPath(v, tMax, -3, 8), [tMax])
+  const yMin = -3
+  const yMax = 8
+  const vPath = useMemo(() => buildPath(v, tMax, yMin, yMax), [tMax])
+  const zeroY = toSvgY(0, yMin, yMax)
+
+  const trackPad = 24
+  const trackW = 352
+  const posAt = (t: number) => trackPad + (s(t) / 10) * trackW
+  const startX = posAt(lo)
+  const endX = posAt(hi)
 
   return (
-    <div>
+    <div className="enlight-kin-distance">
       <p className="enlight-guide-panel__intro">
-        <strong>Displacement</strong> = ∫v dt (signed). <strong>Total distance</strong> = ∫|v| dt — split where v = 0.
+        <strong>Displacement</strong> = straight-line change in position (can be negative).{' '}
+        <strong>Distance</strong> = total path length (always positive).
       </p>
+
+      <div className="enlight-kin-distance__track-block">
+        <p className="enlight-kin-track__label">Straight track — displacement vs distance</p>
+        <svg viewBox="0 0 400 48" width="100%" height="48" role="img" aria-label="Particle positions on a straight track">
+          <line x1={trackPad} y1={28} x2={trackPad + trackW} y2={28} stroke="#a8a29e" strokeWidth={3} strokeLinecap="round" />
+          <circle cx={trackPad} cy={28} r={4} fill="#64748b" />
+          <line x1={Math.min(startX, endX)} y1={12} x2={Math.max(startX, endX)} y2={12} stroke="#0891b2" strokeWidth={2.5} markerEnd="url(#kin-disp-arrow)" />
+          <defs>
+            <marker id="kin-disp-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+              <polygon points="0 0, 7 3.5, 0 7" fill="#0891b2" />
+            </marker>
+          </defs>
+          <circle cx={startX} cy={28} r={6} fill="#fff" stroke="#0891b2" strokeWidth={2} />
+          <circle cx={endX} cy={28} r={6} fill="#0891b2" stroke="#fff" strokeWidth={2} />
+        </svg>
+        <div className="enlight-kin-distance__track-legend">
+          <span><span className="enlight-kin-distance__swatch enlight-kin-distance__swatch--disp" /> Blue arrow = displacement</span>
+          <span><span className="enlight-kin-distance__swatch enlight-kin-distance__swatch--pos" /> Circles = position at t₁ and t₂</span>
+        </div>
+      </div>
+
       <div className="enlight-int-sliders">
         <div className="enlight-slider-group">
           <label htmlFor="kin-t1">From t = {t1.toFixed(1)}</label>
@@ -149,23 +179,39 @@ function DistancePanel() {
           <input id="kin-t2" type="range" min={0.5} max={5} step={0.1} value={t2} onChange={(e) => setT2(Number(e.target.value))} />
         </div>
       </div>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Velocity with zero crossings">
-        <line x1={0} y1={toSvgY(0, -3, 8)} x2={W} y2={toSvgY(0, -3, 8)} stroke={GRAPH.axis} strokeWidth={1.5} />
+
+      <p className="enlight-kin-distance__graph-caption">
+        Velocity v = t² − 4t + 3. Red dots = turning points (v = 0). Split the integral at these points for distance.
+      </p>
+
+      <svg className="enlight-graph-canvas enlight-kin-distance__graph" viewBox={`0 0 ${W} ${H}`} width="100%" height={H} role="img" aria-label="Velocity graph with zero crossings">
+        <line x1={0} y1={zeroY} x2={W} y2={zeroY} stroke={GRAPH.axis} strokeWidth={1.5} />
+        <text x={6} y={zeroY - 4} fontSize={9} fill="#64748b">v = 0</text>
         <polyline points={vPath} fill="none" stroke="#d97706" strokeWidth={2.5} />
         {[1, 3].map((root) => (
-          <circle key={root} cx={toSvgX(root, tMax)} cy={toSvgY(0, -3, 8)} r={5} fill="#be123c" stroke="#fff" strokeWidth={1.5} />
+          <circle key={root} cx={toSvgX(root, tMax)} cy={zeroY} r={4} fill="#be123c" stroke="#fff" strokeWidth={1.5} />
         ))}
-        <line x1={toSvgX(lo, tMax)} y1={0} x2={toSvgX(lo, tMax)} y2={H} stroke="#0891b2" strokeWidth={1.5} strokeDasharray="4 3" />
-        <line x1={toSvgX(hi, tMax)} y1={0} x2={toSvgX(hi, tMax)} y2={H} stroke="#0891b2" strokeWidth={1.5} strokeDasharray="4 3" />
+        <line x1={toSvgX(lo, tMax)} y1={4} x2={toSvgX(lo, tMax)} y2={H - 4} stroke="#0891b2" strokeWidth={1.5} strokeDasharray="4 3" />
+        <line x1={toSvgX(hi, tMax)} y1={4} x2={toSvgX(hi, tMax)} y2={H - 4} stroke="#0891b2" strokeWidth={1.5} strokeDasharray="4 3" />
       </svg>
-      <div className="enlight-guide-calc">
-        <div>
-          Displacement ∫_{lo.toFixed(1)}^{hi.toFixed(1)} v dt = <strong>{displacement.toFixed(2)} m</strong> (signed)
+
+      <div className="enlight-guide-calc enlight-kin-distance__results">
+        <div className="enlight-kin-distance__result">
+          <span className="enlight-kin-distance__result-label">Displacement</span>
+          <strong>{displacement.toFixed(2)} m</strong>
+          <span className="enlight-kin-distance__result-hint">signed</span>
         </div>
-        <div>
-          Total distance ∫|v| dt = <strong>{distance.toFixed(2)} m</strong> (split at v = 0, t = 1 and t = 3)
+        <div className="enlight-kin-distance__result">
+          <span className="enlight-kin-distance__result-label">Total distance</span>
+          <strong>{distance.toFixed(2)} m</strong>
+          <span className="enlight-kin-distance__result-hint">path length</span>
         </div>
       </div>
+      {Math.abs(displacement - distance) > 0.01 && (
+        <p className="enlight-guide-calc__note">
+          Distance exceeds |displacement| because the particle reverses between t = 1 and t = 3.
+        </p>
+      )}
     </div>
   )
 }
@@ -175,7 +221,7 @@ const ALL: KinematicsGuidePanel[] = ['chain', 'graphs', 'distance']
 const META: Record<KinematicsGuidePanel, { label: string; title: string; intro: string }> = {
   chain: { label: 's → v → a', title: 'Calculus Chain', intro: 'Differentiate and integrate between s, v, and a.' },
   graphs: { label: 'Linked graphs', title: 'Motion Graphs', intro: 'See s, v, and a change together over time.' },
-  distance: { label: 'Distance vs disp.', title: 'Distance vs Displacement', intro: 'When velocity changes sign, distance ≠ displacement.' },
+  distance: { label: 'Distance vs disp.', title: 'Distance vs Displacement', intro: 'Displacement is the straight-line change in position; distance is the total path length. When velocity changes sign, they differ.' },
 }
 
 function renderPanel(p: KinematicsGuidePanel) {
