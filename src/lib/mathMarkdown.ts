@@ -205,11 +205,11 @@ export function fixMarkdownTables(text: string): string {
 /** Turn inline pipe tables (common in worked examples) into proper markdown tables. */
 export function fixInlinePipeTables(text: string): string {
   return text.replace(
-    /([:.!?])\s*(\|(?:[^|\n]+\|)+(?:\s+\|(?:[-:\s|]+|\$[^|]+\|[^|]*)+\|)+)/g,
+    /([:.!?])\s*(\|(?:[^|\n]+\|)+(?:[ \t]+\|(?:[-:\s|]+|\$[^|]+\|[^|]*)+\|)+)/g,
     (_, punct, table) => {
       const rows = table
         .trim()
-        .replace(/\s*\|\s*\|/g, '\n|')
+        .replace(/[ \t]*\|[ \t]*\|/g, '\n|')
         .replace(/^\|?\s*/, '| ')
       return `${punct}\n\n${rows}\n\n`
     },
@@ -507,6 +507,13 @@ function fixBrokenDocxFractions(text: string): string {
   return t
 }
 
+/** True when a paragraph is prose with inline $...$ math, not a standalone formula line. */
+function isProseWithInlineMath(text: string): boolean {
+  if (!/\$[^$]+\$/.test(text)) return false
+  const outside = text.replace(/\$[^$]+\$/g, ' ').replace(/\s+/g, ' ').trim()
+  return /[A-Za-z]{3,}/.test(outside)
+}
+
 /** Wrap plain-text formula lines (no $ delimiters) for key-formula sections. */
 function wrapPlainFormulaLines(text: string): string {
   return text
@@ -516,6 +523,8 @@ function wrapPlainFormulaLines(text: string): string {
       if (!trimmed || trimmed.startsWith('$') || trimmed.startsWith('**') || trimmed.startsWith('#')) {
         return block
       }
+      if (/^-\s/m.test(trimmed)) return block
+      if (isProseWithInlineMath(trimmed)) return block
       if (/\\(frac|text|deg|begin)/.test(trimmed)) {
         return `$$\n${trimmed}\n$$`
       }
@@ -1058,6 +1067,27 @@ export function expandWorkedExampleSections<T extends { kind: string; heading: s
     out.push(section)
   }
   return out
+}
+
+/** Move worked-example sections to immediately follow the last steps/method block. */
+export function reorderWorkedExamplesAfterSteps<T extends { kind: string }>(sections: T[]): T[] {
+  const examples = sections.filter((s) => s.kind === 'worked-example')
+  if (examples.length === 0) return sections
+
+  const withoutExamples = sections.filter((s) => s.kind !== 'worked-example')
+  let insertAfter = -1
+  for (let i = 0; i < withoutExamples.length; i++) {
+    if (withoutExamples[i].kind === 'steps' || withoutExamples[i].kind === 'method-block') {
+      insertAfter = i
+    }
+  }
+  if (insertAfter === -1) return sections
+
+  return [
+    ...withoutExamples.slice(0, insertAfter + 1),
+    ...examples,
+    ...withoutExamples.slice(insertAfter + 1),
+  ]
 }
 
 /** Split a worked-example body into multiple ###-headed blocks. */
