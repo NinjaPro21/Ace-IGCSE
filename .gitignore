@@ -24,3 +24,13 @@ dist-ssr
 *.sw?
 
 temp-vite
+# Firebase admin key - never commit this
+enlight-admin.json
+scripts/enlight-admin.json
+*.serviceAccount.json
+
+# Local import / deploy artifacts — not source of truth
+.tmp-docx/
+.tmp-math-errors*.txt
+.firebase/
+*.docx
