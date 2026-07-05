@@ -24,6 +24,7 @@ interface GuideStep {
   practiceKeys?: string[]
   display?: string
   result?: string
+  angleUnit?: 'D' | 'R'
 }
 
 /** fx-570EX / fx-991EX ClassWiz — 5-column layout matching the physical calculator. */
@@ -123,7 +124,7 @@ const PANEL_STEPS: Record<CalculatorGuidePanel, GuideStep[]> = {
     {
       title: 'Check the status line',
       body: 'Before every trig question, confirm **D** (degrees) or **R** (radians) on the green status line. Wrong mode is the #1 calculator mistake on IGCSE papers.',
-      display: 'Math ▶  D',
+      angleUnit: 'D',
     },
     {
       title: 'Try a key',
@@ -173,7 +174,7 @@ const PANEL_STEPS: Record<CalculatorGuidePanel, GuideStep[]> = {
     {
       title: 'When to use radians (0606)',
       body: 'Switch to **Rad** for circular measure, calculus with $\\sin x$, and any question that says radians or uses $\\pi$ as an angle unit.',
-      display: 'Math ▶  R',
+      angleUnit: 'R',
     },
     {
       title: 'Inverse trig',
@@ -256,9 +257,10 @@ function CalcKey({
   onPress: (id: string) => void
 }) {
   const palette = KEY_FILL[keyDef.style]
-  const fill = pressed || active ? palette.active : palette.base
-  const textFill = pressed || active ? '#fff' : palette.text
-  const shiftFill = pressed || active ? '#dbeafe' : palette.shift
+  const fill = pressed ? palette.active : palette.base
+  const textFill = pressed ? '#fff' : palette.text
+  const shiftFill = pressed ? '#dbeafe' : palette.shift
+  const highlighted = active && !pressed
 
   return (
     <g
@@ -288,8 +290,8 @@ function CalcKey({
         height={keyDef.h - (keyDef.shift ? 4 : 0)}
         rx={5}
         fill={fill}
-        stroke={active ? '#93c5fd' : palette.stroke}
-        strokeWidth={active || pressed ? 2.5 : 1}
+        stroke={highlighted || pressed ? '#93c5fd' : palette.stroke}
+        strokeWidth={highlighted ? 2.5 : pressed ? 2.5 : 1}
         style={{ transition: 'fill 0.12s' }}
       />
       <text
@@ -320,7 +322,8 @@ function DPad({
   const cx = 148
   const cy = 132
   const r = 28
-  const fill = pressed || active ? '#2563eb' : '#94a3b8'
+  const fill = pressed ? '#2563eb' : '#94a3b8'
+  const highlighted = active && !pressed
 
   return (
     <g
@@ -331,12 +334,12 @@ function DPad({
       role="button"
       aria-label="Navigation pad"
     >
-      <circle cx={cx} cy={cy} r={r} fill={fill} stroke={active ? '#93c5fd' : '#64748b'} strokeWidth={active ? 2.5 : 1.5} />
-      <polygon points={`${cx},${cy - 10} ${cx - 7},${cy - 2} ${cx + 7},${cy - 2}`} fill={active || pressed ? '#fff' : '#1e293b'} />
-      <polygon points={`${cx},${cy + 10} ${cx - 7},${cy + 2} ${cx + 7},${cy + 2}`} fill={active || pressed ? '#fff' : '#1e293b'} />
-      <polygon points={`${cx - 10},${cy} ${cx - 2},${cy - 7} ${cx - 2},${cy + 7}`} fill={active || pressed ? '#fff' : '#1e293b'} />
-      <polygon points={`${cx + 10},${cy} ${cx + 2},${cy - 7} ${cx + 2},${cy + 7}`} fill={active || pressed ? '#fff' : '#1e293b'} />
-      <circle cx={cx} cy={cy} r={4} fill={active || pressed ? '#dbeafe' : '#475569'} />
+      <circle cx={cx} cy={cy} r={r} fill={fill} stroke={highlighted || pressed ? '#93c5fd' : '#64748b'} strokeWidth={highlighted || pressed ? 2.5 : 1.5} />
+      <polygon points={`${cx},${cy - 10} ${cx - 7},${cy - 2} ${cx + 7},${cy - 2}`} fill={pressed ? '#fff' : '#1e293b'} />
+      <polygon points={`${cx},${cy + 10} ${cx - 7},${cy + 2} ${cx + 7},${cy + 2}`} fill={pressed ? '#fff' : '#1e293b'} />
+      <polygon points={`${cx - 10},${cy} ${cx - 2},${cy - 7} ${cx - 2},${cy + 7}`} fill={pressed ? '#fff' : '#1e293b'} />
+      <polygon points={`${cx + 10},${cy} ${cx + 2},${cy - 7} ${cx + 2},${cy + 7}`} fill={pressed ? '#fff' : '#1e293b'} />
+      <circle cx={cx} cy={cy} r={4} fill={pressed ? '#dbeafe' : '#475569'} />
     </g>
   )
 }
@@ -345,6 +348,7 @@ function CalculatorSvg({
   display,
   result,
   statusLine,
+  angleUnit,
   highlightIds,
   hoverId,
   pressedId,
@@ -354,6 +358,7 @@ function CalculatorSvg({
   display: string
   result?: string
   statusLine: string
+  angleUnit?: 'D' | 'R'
   highlightIds: Set<string>
   hoverId: string | null
   pressedId: string | null
@@ -384,7 +389,12 @@ function CalculatorSvg({
       <rect x={14} y={58} width={252} height={52} rx={4} fill="#9ca3af" stroke="#6b7280" strokeWidth={1} />
       <rect x={18} y={62} width={244} height={44} rx={2} fill="#d1fae5" />
       <text x={24} y={78} fontSize={9} fill="#374151" fontFamily="Arial, sans-serif">Math ▶</text>
-      <text x={24} y={92} fontSize={11} fill="#111827" fontFamily="'Courier New', monospace" fontWeight={600}>{display}</text>
+      {angleUnit && (
+        <text x={250} y={78} fontSize={9} fill="#059669" fontFamily="Arial, sans-serif" fontWeight={700} textAnchor="end">{angleUnit}</text>
+      )}
+      {display && (
+        <text x={24} y={92} fontSize={11} fill="#111827" fontFamily="'Courier New', monospace" fontWeight={600}>{display}</text>
+      )}
       {result && (
         <text x={240} y={100} fontSize={11} fill="#111827" fontFamily="'Courier New', monospace" fontWeight={600} textAnchor="end">{result}</text>
       )}
@@ -491,8 +501,9 @@ export function CasioCalculatorGuide({
     }
   }
 
-  const display = liveDisplay ?? step.display ?? (tab === 'layout' ? 'Math ▶' : 'Math ▶  D')
+  const display = liveDisplay ?? step.display ?? ''
   const result = liveResult ?? step.result
+  const angleUnit = step.angleUnit
 
   const statusLine =
     variant === '0580'
@@ -545,6 +556,7 @@ export function CasioCalculatorGuide({
             display={display}
             result={result}
             statusLine={statusLine}
+            angleUnit={angleUnit}
             highlightIds={highlights}
             onHoverKey={setHoverId}
             hoverId={hoverId}

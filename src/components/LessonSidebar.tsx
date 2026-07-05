@@ -1,16 +1,23 @@
 import { Link } from 'react-router-dom'
+import ReactMarkdown from 'react-markdown'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import { getTopicsForChapter, getTopicSectionLabel } from '@/lib/contentLoader'
 import type { TopicMeta } from '@/lib/contentTypes'
 
 const QUIZ_TIERS = ['Easy', 'Medium', 'Hard', 'PYP'] as const
 
+const SIDEBAR_MD = { remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }
+
 interface LessonSidebarProps {
   topic: TopicMeta
   chapterTitle: string
+  quickCheck?: string
+  keyFormula?: string
 }
 
-export function LessonSidebar({ topic, chapterTitle }: LessonSidebarProps) {
+export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: LessonSidebarProps) {
   const { isNotesRead, getTopicQuizLevel } = useMastery()
   const chapterTopics = getTopicsForChapter(topic.chapterId)
   const quizLevel = getTopicQuizLevel(topic.id)
@@ -60,6 +67,26 @@ export function LessonSidebar({ topic, chapterTitle }: LessonSidebarProps) {
           </span>
         </div>
       </div>
+      {keyFormula ? (
+        <div className="enlight-lesson-sidebar__panel enlight-lesson-sidebar__panel--formula">
+          <span className="enlight-lesson-sidebar__panel-title">Key formula</span>
+          <div className="enlight-lesson-sidebar__formula">
+            <ReactMarkdown remarkPlugins={SIDEBAR_MD.remarkPlugins} rehypePlugins={SIDEBAR_MD.rehypePlugins}>
+              {`$$${keyFormula}$$`}
+            </ReactMarkdown>
+          </div>
+        </div>
+      ) : null}
+      {quickCheck ? (
+        <div className="enlight-lesson-sidebar__panel enlight-lesson-sidebar__panel--quick">
+          <span className="enlight-lesson-sidebar__panel-title">Quick check</span>
+          <div className="enlight-markdown enlight-lesson-sidebar__quick">
+            <ReactMarkdown remarkPlugins={SIDEBAR_MD.remarkPlugins} rehypePlugins={SIDEBAR_MD.rehypePlugins}>
+              {quickCheck}
+            </ReactMarkdown>
+          </div>
+        </div>
+      ) : null}
     </aside>
   )
 }

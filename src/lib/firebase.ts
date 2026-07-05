@@ -2,6 +2,7 @@ import { initializeApp, type FirebaseApp } from 'firebase/app'
 import { getAnalytics, isSupported, type Analytics } from 'firebase/analytics'
 import { getAuth, type Auth } from 'firebase/auth'
 import { getFirestore, type Firestore } from 'firebase/firestore'
+import { hasAnalyticsConsent } from '@/lib/analyticsConsent'
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY as string | undefined,
@@ -29,9 +30,13 @@ if (isFirebaseConfigured) {
   app = initializeApp(firebaseConfig)
   auth = getAuth(app)
   db = getFirestore(app)
-  void isSupported().then((ok) => {
-    if (ok && app) analytics = getAnalytics(app)
-  })
+  void initAnalyticsIfConsented()
+}
+
+export async function initAnalyticsIfConsented(): Promise<void> {
+  if (!app || analytics || !hasAnalyticsConsent()) return
+  const ok = await isSupported()
+  if (ok && app) analytics = getAnalytics(app)
 }
 
 export { app, auth, db, analytics }

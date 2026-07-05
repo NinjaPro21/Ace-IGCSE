@@ -8,7 +8,8 @@ import { NotificationBell } from '@/features/social/NotificationBell'
 
 const SIGNED_IN_NAV = [
   { to: '/dashboard', label: 'Dashboard', match: (p: string) => p.startsWith('/dashboard') },
-  { to: '/subjects', label: 'Subjects', match: (p: string) => p.startsWith('/subjects') },
+  { to: '/subjects', label: 'Subjects', match: (p: string) => p.startsWith('/subjects') && !p.startsWith('/dashboard') },
+  { to: '/social', label: 'Social', match: (p: string) => p.startsWith('/social') || p.startsWith('/profile') },
 ]
 
 function HeaderStats({
@@ -26,13 +27,11 @@ function HeaderStats({
 }) {
   return (
     <Link to="/dashboard" className={`enlight-header__stats ${className}`.trim()} title="View dashboard">
-      <span className="enlight-stat-pill enlight-stat-pill--compact" title={`Level ${level}`}>
-        <span className="enlight-stat-pill__icon" aria-hidden>🏆</span>
-        <span>Lv {level}</span>
+      <span className="enlight-stat-pill enlight-stat-pill--compact enlight-stat-pill--level" title={`Level ${level}`}>
+        Lv {level}
       </span>
       <span className="enlight-stat-pill enlight-stat-pill--compact enlight-stat-pill--xp" title="Experience points">
-        <span className="enlight-stat-pill__icon" aria-hidden>⚡</span>
-        <span>{xp}</span>
+        {xp} XP
       </span>
       <span
         className={[
@@ -44,7 +43,7 @@ function HeaderStats({
         title="Study streak"
       >
         <span className="enlight-stat-pill__icon" aria-hidden>🔥</span>
-        <span>{streakDays}d</span>
+        {streakDays}d
       </span>
     </Link>
   )
@@ -92,6 +91,7 @@ export function EnlightHeader() {
             <Link
               key={item.to}
               to={item.to}
+              data-tour={`nav-${item.label.toLowerCase()}`}
               className={`enlight-header__link${item.match(location.pathname) ? ' enlight-header__link--active' : ''}`}
             >
               {item.label}
@@ -169,6 +169,7 @@ export function EnlightHeader() {
                 <Link
                   key={item.to}
                   to={item.to}
+                  data-tour={`nav-${item.label.toLowerCase()}`}
                   className={`enlight-mobile-menu__link${item.match(location.pathname) ? ' enlight-mobile-menu__link--active' : ''}`}
                 >
                   {item.label}
@@ -177,8 +178,8 @@ export function EnlightHeader() {
             </div>
 
             {user && (
-              <Link to={`/profile/${user.id}`} className="enlight-mobile-menu__profile">
-                View profile
+              <Link to="/social" className="enlight-mobile-menu__profile">
+                Social & profile
               </Link>
             )}
           </nav>

@@ -13,6 +13,7 @@ import {
   getTopicsForChapter,
 } from '@/lib/contentLoader'
 import type { ChapterMeta } from '@/lib/contentTypes'
+import { usePageTitle } from '@/hooks/usePageTitle'
 
 function topicUrl(chapter: ChapterMeta, topicId: string) {
   return `/subjects/${chapter.subjectId}/chapters/${chapter.id}/topics/${topicId}`
@@ -66,8 +67,9 @@ function findQuizTarget(chapters: ChapterMeta[], getChapterQuizLevel: (id: strin
 
 export function SubjectHubPage() {
   const { subjectId = 'add-maths-0606' } = useParams()
-  const { progress, getChapterQuizLevel, getTopicNotesReadMap } = useMastery()
   const subject = getSubject(subjectId)
+  usePageTitle(subject?.name ?? 'Subject')
+  const { progress, getChapterQuizLevel, getTopicNotesReadMap } = useMastery()
   const chapters = getChaptersForSubject(subjectId)
   const notesRead = getTopicNotesReadMap()
   const summary = getSubjectSummary(subjectId, progress)
@@ -102,15 +104,15 @@ export function SubjectHubPage() {
         <div className="enlight-subject-hub__gateways">
           <ProgressGatewayCard
             to={continueTarget.to}
-            icon="📖"
+            icon="C"
             title="Continue studying"
             description="Jump back to your next unread section or chapter."
             meta={continueTarget.meta}
-            accent="mint"
+            accent="gold"
           />
           <ProgressGatewayCard
             to={quizTarget.to}
-            icon="🧠"
+            icon="Q"
             title="Take a quiz"
             description="Practice MCQs — Easy through PYP — with a mistake log after each run."
             meta={quizTarget.meta}
@@ -118,11 +120,11 @@ export function SubjectHubPage() {
           />
           <ProgressGatewayCard
             to="/dashboard"
-            icon="📊"
+            icon="D"
             title="View dashboard"
             description="XP, streaks, weak topics, and subject mastery."
-            meta={`${summary.avgMastery}% avg mastery · ${summary.mastered}/${summary.total} chapters`}
-            accent="blue"
+            meta={`${summary.avgMastery}% quiz average · ${summary.mastered}/${summary.total} chapters mastered`}
+            accent="gold"
           />
         </div>
 

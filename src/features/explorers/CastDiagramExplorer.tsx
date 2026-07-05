@@ -216,10 +216,12 @@ export function CastDiagramExplorer() {
 
       <div className="enlight-cast-standalone-diagram-wrap">
         <svg className="enlight-cast-diagram enlight-cast-diagram--large" viewBox={`0 0 ${diagramSize} ${diagramSize}`} role="img" aria-label="CAST diagram">
-          <rect x={0} y={0} width={cx} height={cy} fill={fnSignInQuadrant(fn, 1) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
-          <rect x={cx} y={0} width={cx} height={cy} fill={fnSignInQuadrant(fn, 2) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
+          {/* SVG y increases downward: top-left = Q2, top-right = Q1, bottom-left = Q3, bottom-right = Q4 */}
+          <rect x={0} y={0} width={cx} height={cy} fill={fnSignInQuadrant(fn, 2) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
+          <rect x={cx} y={0} width={cx} height={cy} fill={fnSignInQuadrant(fn, 1) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
           <rect x={0} y={cy} width={cx} height={cy} fill={fnSignInQuadrant(fn, 3) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
           <rect x={cx} y={cy} width={cx} height={cy} fill={fnSignInQuadrant(fn, 4) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
+
 
           <circle cx={cx} cy={cy} r={r} fill="none" stroke="#57534e" strokeWidth={2.5} />
           <line x1={cx - r - 20} y1={cy} x2={cx + r + 20} y2={cy} stroke="#57534e" strokeWidth={2.5} />

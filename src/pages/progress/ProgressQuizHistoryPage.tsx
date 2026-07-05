@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import {
   formatAttemptDate,
@@ -7,6 +8,7 @@ import {
 } from '@/features/quiz/quizHistoryStats'
 
 export function ProgressQuizHistoryPage() {
+  usePageTitle('Quiz history')
   const { progress } = useMastery()
   const summaries = getQuizSummariesBySubject(progress)
 

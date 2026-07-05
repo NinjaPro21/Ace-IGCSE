@@ -49,14 +49,28 @@ export interface StreakDay {
 const ACHIEVEMENTS: Omit<Achievement, 'unlocked'>[] = [
   { id: 'first-note', title: 'First Steps', description: 'Read your first topic notes', icon: '📖' },
   { id: 'first-quiz', title: 'Quiz Taker', description: 'Pass your first chapter quiz', icon: '✅' },
+  { id: 'notes-10', title: 'Deep Reader', description: 'Read 10 topic notes', icon: '📚' },
+  { id: 'notes-25', title: 'Bookworm', description: 'Read 25 topic notes', icon: '📕' },
   { id: 'streak-3', title: 'On Fire', description: 'Maintain a 3-day study streak', icon: '🔥' },
   { id: 'streak-7', title: 'Week Warrior', description: 'Maintain a 7-day study streak', icon: '⚡' },
+  { id: 'streak-14', title: 'Fortnight Focus', description: 'Maintain a 14-day study streak', icon: '🌊' },
   { id: 'streak-30', title: 'Unstoppable', description: 'Maintain a 30-day study streak', icon: '💎' },
   { id: 'chapter-master', title: 'Chapter Champion', description: 'Fully master a chapter (PYP complete)', icon: '🏆' },
+  { id: 'chapters-3', title: 'Triple Crown', description: 'Fully master 3 chapters', icon: '👑' },
+  { id: 'hard-mode', title: 'Challenge Accepted', description: 'Pass a hard quiz tier', icon: '🧗' },
+  { id: 'pyp-done', title: 'Exam Ready', description: 'Complete a past-paper (PYP) tier', icon: '📝' },
   { id: 'perfect-quiz', title: 'Perfect Score', description: 'Score 100% on any quiz tier', icon: '🎯' },
+  { id: 'perfect-3', title: 'Sharpshooter', description: 'Score 100% on three quiz tiers', icon: '🏹' },
+  { id: 'goal-crusher', title: 'Goal Crusher', description: 'Hit your daily study goal', icon: '💪' },
+  { id: 'study-60', title: 'Hour Power', description: 'Study 60+ minutes in one day', icon: '⏱️' },
+  { id: 'multi-subject', title: 'Well Rounded', description: 'Track 2 or more subjects', icon: '🎓' },
   { id: 'level-5', title: 'Rising Star', description: 'Reach level 5', icon: '⭐' },
   { id: 'level-10', title: 'Enlightened Scholar', description: 'Reach level 10', icon: '🌟' },
+  { id: 'level-15', title: 'Dedicated Scholar', description: 'Reach level 15', icon: '✨' },
+  { id: 'level-20', title: 'Legend', description: 'Reach level 20', icon: '🦉' },
   { id: 'xp-500', title: 'XP Hunter', description: 'Earn 500 total XP', icon: '💫' },
+  { id: 'xp-1000', title: 'XP Collector', description: 'Earn 1,000 total XP', icon: '💠' },
+  { id: 'xp-2500', title: 'XP Master', description: 'Earn 2,500 total XP', icon: '🔮' },
 ]
 
 function notesReadMap(progress: UserProgress): Record<string, boolean> {
@@ -146,18 +160,39 @@ export function getAchievements(progress: UserProgress): Achievement[] {
   const stats = getActivityStats(progress)
   const longest = progress.longestStreak ?? progress.streakDays
   const current = progress.streakDays
+  const todayMin = getTodayStudyMinutes(progress)
+  const dailyGoal = progress.dailyGoalMin ?? 20
+  const maxStudyDayMin = Math.max(
+    0,
+    ...Object.values(progress.studySecByDate ?? {}).map((sec) => Math.round(sec / 60)),
+  )
+  const chapters = Object.values(progress.chapters)
 
   const checks: Record<string, boolean> = {
     'first-note': stats.topicsRead >= 1,
-    'first-quiz': Object.values(progress.chapters).some((c) => c.quizLevel >= 2),
+    'first-quiz': chapters.some((c) => c.quizLevel >= 2),
+    'notes-10': stats.topicsRead >= 10,
+    'notes-25': stats.topicsRead >= 25,
     'streak-3': longest >= 3 || current >= 3,
     'streak-7': longest >= 7 || current >= 7,
+    'streak-14': longest >= 14 || current >= 14,
     'streak-30': longest >= 30 || current >= 30,
     'chapter-master': stats.chaptersMastered >= 1,
+    'chapters-3': stats.chaptersMastered >= 3,
+    'hard-mode': chapters.some((c) => c.quizLevel >= 3),
+    'pyp-done': chapters.some((c) => c.pypComplete),
     'perfect-quiz': stats.perfectScores >= 1,
+    'perfect-3': stats.perfectScores >= 3,
+    'goal-crusher': todayMin >= dailyGoal,
+    'study-60': maxStudyDayMin >= 60,
+    'multi-subject': (progress.subjects?.length ?? 0) >= 2,
     'level-5': stats.globalLevel >= 5,
     'level-10': stats.globalLevel >= 10,
+    'level-15': stats.globalLevel >= 15,
+    'level-20': stats.globalLevel >= 20,
     'xp-500': progress.xp >= 500,
+    'xp-1000': progress.xp >= 1000,
+    'xp-2500': progress.xp >= 2500,
   }
 
   return ACHIEVEMENTS.map((a) => ({

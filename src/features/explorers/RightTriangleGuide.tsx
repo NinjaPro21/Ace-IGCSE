@@ -24,10 +24,27 @@ function RightTriangleSvg({
 
   const hl = (side: 'opp' | 'adj' | 'hyp') => (highlight === side ? '#2563eb' : '#64748b')
 
+  // θ sits at the acute angle B (bottom-right), not at the right angle A.
+  const arcR = 18
+  const hypLen = Math.hypot(bx - cx, by - cy) || 1
+  const arcEndX = bx + ((cx - bx) / hypLen) * arcR
+  const arcEndY = by + ((cy - by) / hypLen) * arcR
+  const labelX = bx - arcR - 4
+  const labelY = by - 10
+
   return (
     <svg viewBox="0 0 220 180" className="enlight-graph-canvas enlight-rtri-svg" role="img" aria-label="Right triangle">
       <polygon points={`${ax},${ay} ${bx},${by} ${cx},${cy}`} fill="#eff6ff" stroke="#2563eb" strokeWidth={2} />
       <rect x={ax} y={ay - 12} width={12} height={12} fill="none" stroke="#64748b" />
+      <path
+        d={`M ${bx - arcR} ${by} A ${arcR} ${arcR} 0 0 1 ${arcEndX} ${arcEndY}`}
+        fill="none"
+        stroke="#059669"
+        strokeWidth={1.5}
+      />
+      <text x={labelX} y={labelY} textAnchor="end" fontSize={11} fill="#059669" fontWeight={700}>
+        θ = {angle}°
+      </text>
       <text x={(ax + bx) / 2} y={ay + 18} textAnchor="middle" fontSize={10} fill={hl('adj')} fontWeight={600}>
         Adj = {adj}
       </text>
@@ -36,9 +53,6 @@ function RightTriangleSvg({
       </text>
       <text x={(bx + cx) / 2 + 10} y={(by + cy) / 2 - 6} fontSize={10} fill={hl('hyp')} fontWeight={600}>
         Hyp = {hyp}
-      </text>
-      <text x={ax + 18} y={ay - 6} fontSize={11} fill="#059669" fontWeight={700}>
-        θ = {angle}°
       </text>
     </svg>
   )

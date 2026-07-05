@@ -15,26 +15,38 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
     running,
     finished,
     phase,
+    sessionActive,
     settings,
     setWorkMinutes,
     setBreakMinutes,
     toggle,
     reset,
+    startSession,
   } = usePomodoro()
   const [open, setOpen] = useState(false)
 
-  const timerTitle = finished
-    ? `${phase === 'work' ? 'Work' : 'Break'} complete — click to restart`
-    : running
-      ? 'Click to pause · double-click to reset'
-      : 'Click to start · double-click to reset'
+  const handleTimerClick = () => {
+    if (!sessionActive) {
+      startSession()
+      return
+    }
+    toggle()
+  }
+
+  const timerTitle = !sessionActive
+    ? 'Click to start study session'
+    : finished
+      ? `${phase === 'work' ? 'Work' : 'Break'} complete — click to restart`
+      : running
+        ? 'Click to pause · double-click to reset'
+        : 'Click to resume · double-click to reset'
 
   return (
     <div className={`enlight-pomodoro-control ${compact ? 'enlight-pomodoro-control--compact' : ''} ${className}`.trim()}>
       <button
         type="button"
         className={`enlight-timer${running ? ' enlight-timer--running' : ''}${finished ? ' enlight-timer--finished' : ''}${phase === 'break' ? ' enlight-timer--break' : ''}`}
-        onClick={toggle}
+        onClick={handleTimerClick}
         onDoubleClick={(e) => {
           e.preventDefault()
           reset()
@@ -65,8 +77,10 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
           <label className="enlight-pomodoro-control__field">
             Focus (min)
             <select
+              className="enlight-select"
               value={settings.workMinutes}
               onChange={(e) => setWorkMinutes(Number(e.target.value))}
+              disabled={sessionActive && running}
             >
               {WORK_OPTIONS.map((m) => (
                 <option key={m} value={m}>
@@ -78,8 +92,10 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
           <label className="enlight-pomodoro-control__field">
             Break (min)
             <select
+              className="enlight-select"
               value={settings.breakMinutes}
               onChange={(e) => setBreakMinutes(Number(e.target.value))}
+              disabled={sessionActive && running}
             >
               {BREAK_OPTIONS.map((m) => (
                 <option key={m} value={m}>

@@ -5,6 +5,7 @@ import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { MathText } from '@/components/MathText'
 import { useMastery } from '@/features/mastery/MasteryContext'
+import { masteryEngine } from '@/features/mastery/MasteryEngine'
 import { useChapterSession } from '@/features/mastery/useChapterSession'
 import {
   getChapter,
@@ -16,14 +17,16 @@ import {
   getWeakTopicsInChapter,
 } from '@/lib/contentLoader'
 import type { Difficulty, McqQuestion } from '@/lib/contentTypes'
-import { XP_REWARDS } from '@/features/mastery/levelSystem'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { useAuth } from '@/features/social/AuthContext'
 import { usePresence } from '@/features/social/usePresence'
-import { submitDuelScore } from '@/features/social/duelsApi'
-import { OPTION_LETTERS, prepareQuizSession } from './quizUtils'
+import { submitDuelScore, fetchDuel, duelMatchesQuiz, duelUserScoreSubmitted, type Duel } from '@/features/social/duelsApi'
+import { OPTION_LETTERS, computeQuizScorePercent, prepareQuizSession } from './quizUtils'
 import { getConceptKey, getConceptLabel } from './quizConceptKey'
 import { QuizMistakeLog } from './QuizMistakeLog'
+import { QuizAcademicProgress } from './QuizAcademicProgress'
 import type { QuizMistakeLogResult } from './quizAttemptTypes'
+import { trackEnlightEvent } from '@/lib/eventTracking'
 
 const DIFF_LABEL: Record<Difficulty, string> = {
   easy: 'Easy',
@@ -32,6 +35,8 @@ const DIFF_LABEL: Record<Difficulty, string> = {
   pyp: 'PYP Mastery',
 }
 
+const VALID_DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard', 'pyp']
+
 const NEXT_DIFF: Partial<Record<Difficulty, Difficulty>> = {
   easy: 'medium',
   medium: 'hard',
@@ -39,6 +44,7 @@ const NEXT_DIFF: Partial<Record<Difficulty, Difficulty>> = {
 }
 
 export function QuizArena() {
+  usePageTitle('Quiz')
   const location = useLocation()
   const [searchParams] = useSearchParams()
   const duelId = searchParams.get('duel')
@@ -56,13 +62,16 @@ export function QuizArena() {
     recordTopicQuizResult,
     recordQuizFinish,
     getTopicNotesReadMap,
+    progress: userProgress,
   } = useMastery()
 
   const topic = isTopicQuiz ? getTopic(topicId) : undefined
   const chapter = isTopicQuiz
     ? getChapter(topic?.chapterId ?? '')
     : getChapter(chapterId)
-  const diff = difficulty as Difficulty
+  const diff = VALID_DIFFICULTIES.includes(difficulty as Difficulty)
+    ? (difficulty as Difficulty)
+    : 'easy'
   const activeChapterId = chapter?.id ?? ''
   const [quiz, setQuiz] = useState<Awaited<ReturnType<typeof getQuizByTopicAndDifficulty>>>(undefined)
   const [quizLoading, setQuizLoading] = useState(true)
@@ -103,10 +112,15 @@ export function QuizArena() {
   const [showFeedback, setShowFeedback] = useState(false)
   const [finished, setFinished] = useState(false)
   const [finalScore, setFinalScore] = useState(0)
+  const [finishQuestionCount, setFinishQuestionCount] = useState(0)
   const [xpEarned, setXpEarned] = useState(0)
   const [mistakeLog, setMistakeLog] = useState<QuizMistakeLogResult | null>(null)
   const [shuffleKey, setShuffleKey] = useState(0)
+  const [duel, setDuel] = useState<Duel | null>(null)
+  const [duelSubmitState, setDuelSubmitState] = useState<'idle' | 'saving' | 'done' | 'error'>('idle')
+  const [duelLoading, setDuelLoading] = useState(Boolean(duelId))
   const quizStartRef = useRef(Date.now())
+  const quizStartedTrackedRef = useRef(false)
   const sessionMistakesRef = useRef<
     Array<{
       questionId: string
@@ -142,26 +156,94 @@ export function QuizArena() {
   )
 
   const resetKey = useRef(`${isTopicQuiz ? topicId : chapterId}-${difficulty}`)
+  const resetQuizAttempt = (reshuffle = false) => {
+    setIndex(0)
+    setSelected(null)
+    setCorrectCount(0)
+    setShowFeedback(false)
+    setFinished(false)
+    setFinalScore(0)
+    setFinishQuestionCount(0)
+    setXpEarned(0)
+    setMistakeLog(null)
+    setDuelSubmitState('idle')
+    sessionMistakesRef.current = []
+    quizStartRef.current = Date.now()
+    quizStartedTrackedRef.current = false
+    if (reshuffle) setShuffleKey((k) => k + 1)
+  }
+
   useEffect(() => {
     const newKey = `${isTopicQuiz ? topicId : chapterId}-${difficulty}`
     if (newKey !== resetKey.current) {
       resetKey.current = newKey
-      setIndex(0)
-      setSelected(null)
-      setCorrectCount(0)
-      setShowFeedback(false)
-      setFinished(false)
-      setFinalScore(0)
-      setXpEarned(0)
-      setMistakeLog(null)
+      resetQuizAttempt(false)
       setShuffleKey(0)
-      sessionMistakesRef.current = []
     }
   }, [chapterId, difficulty, isTopicQuiz, topicId])
 
-  const canTake = isTopicQuiz
+  useEffect(() => {
+    if (!duelId) {
+      setDuel(null)
+      setDuelLoading(false)
+      return
+    }
+    setDuelLoading(true)
+    void fetchDuel(duelId).then((row) => {
+      setDuel(row)
+      setDuelLoading(false)
+    })
+  }, [duelId])
+
+  useEffect(() => {
+    if (!user?.id || !chapter || quizLoading || !questions.length || quizStartedTrackedRef.current) return
+    quizStartedTrackedRef.current = true
+    void trackEnlightEvent(user.id, 'quiz_started', {
+      chapterId: chapter.id,
+      subject: chapter.subjectId,
+    })
+  }, [user?.id, chapter, quizLoading, questions.length])
+
+  const countQuizAttempts = () => {
+    const attempts = masteryEngine.getState().quizAttempts ?? []
+    return (
+      attempts.filter((a) => {
+        if (a.chapterId !== chapterId && a.chapterId !== chapter?.id) return false
+        if (isTopicQuiz) return a.topicId === topicId
+        return !a.topicId
+      }).length + 1
+    )
+  }
+
+  const alreadyPassed = isTopicQuiz
+    ? masteryEngine.hasPassedTopicQuiz(topicId, diff)
+    : masteryEngine.hasPassedChapterQuiz(chapterId, diff)
+
+  const isDuelParticipant =
+    Boolean(duel && user && (duel.challengerUid === user.id || duel.opponentUid === user.id))
+
+  const isDuelAttempt =
+    Boolean(
+      duelId &&
+        duel &&
+        isDuelParticipant &&
+        duelMatchesQuiz(duel, {
+          topicId,
+          chapterId: activeChapterId,
+          difficulty: diff,
+          isTopicQuiz,
+        }) &&
+        (duel.status === 'active') &&
+        !duelUserScoreSubmitted(duel, user!.id),
+    )
+
+  const canTakeNormally = isTopicQuiz
     ? canTakeTopicQuiz(topicId, diff)
     : canTakeChapterQuiz(chapterId, diff)
+
+  const canTake = isDuelAttempt || canTakeNormally
+  const skipStudyRewards = isDuelAttempt && alreadyPassed
+  const notesReadMap = getTopicNotesReadMap()
 
   if (!chapter || (isTopicQuiz && !topic)) {
     return (
@@ -175,12 +257,65 @@ export function QuizArena() {
     )
   }
 
-  if (quizLoading) {
+  if (quizLoading || (duelId && duelLoading)) {
     return (
       <div className="enlight-app">
         <EnlightHeader />
         <div className="enlight-quiz">
           <p className="enlight-body-text">Loading quiz…</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (duelId && duel && !isDuelAttempt) {
+    const pending = duel.status === 'pending'
+    const alreadySubmitted = Boolean(user && duelUserScoreSubmitted(duel, user.id))
+    const waitingAccept =
+      pending && user && duel.challengerUid === user.id
+    const needsAccept =
+      pending && user && duel.opponentUid === user.id
+
+    return (
+      <div className="enlight-app">
+        <EnlightHeader />
+        <div className="enlight-quiz">
+          <h2 className="enlight-heading-serif">
+            {alreadySubmitted
+              ? 'Score submitted'
+              : waitingAccept
+                ? 'Waiting for accept'
+                : needsAccept
+                  ? 'Accept the duel first'
+                  : 'Duel unavailable'}
+          </h2>
+          <p className="enlight-body-text">
+            {alreadySubmitted
+              ? 'Your duel score is in — waiting for your opponent to finish.'
+              : waitingAccept
+                ? 'Your friend needs to accept this challenge before either of you can take the quiz.'
+                : needsAccept
+                  ? 'Open your inbox and accept the duel challenge to start.'
+                  : 'This duel link is invalid, expired, or does not match this quiz.'}
+          </p>
+          <EnlightButton to="/social" variant="outline">
+            Back to Social
+          </EnlightButton>
+        </div>
+      </div>
+    )
+  }
+
+  if (duelId && !duel && !duelLoading) {
+    return (
+      <div className="enlight-app">
+        <EnlightHeader />
+        <div className="enlight-quiz">
+          <h2 className="enlight-heading-serif">Duel not found</h2>
+          <p className="enlight-body-text">This duel may have expired or been removed.</p>
+          <EnlightButton to="/social" variant="outline">
+            Back to Social
+          </EnlightButton>
         </div>
       </div>
     )
@@ -204,13 +339,15 @@ export function QuizArena() {
       <div className="enlight-app">
         <EnlightHeader />
         <div className="enlight-quiz">
-          <h2 className="enlight-heading-serif">Locked</h2>
+          <h2 className="enlight-heading-serif">{alreadyPassed ? 'Already passed' : 'Locked'}</h2>
           <p className="enlight-body-text">
-            {diff === 'easy'
-              ? isTopicQuiz
-                ? 'This quiz could not be loaded.'
-                : 'This quiz could not be loaded.'
-              : `Pass ${diff === 'medium' ? 'Easy' : diff === 'hard' ? 'Medium' : 'Hard'} first before attempting ${DIFF_LABEL[diff]}.`}
+            {alreadyPassed
+              ? `You already passed ${DIFF_LABEL[diff]}. Challenge a friend to a duel to play again without XP.`
+              : diff === 'easy'
+                ? isTopicQuiz
+                  ? 'This quiz could not be loaded.'
+                  : 'Complete the chapter notes first to unlock this quiz.'
+                : `Pass ${diff === 'medium' ? 'Easy' : diff === 'hard' ? 'Medium' : 'Hard'} first before attempting ${DIFF_LABEL[diff]}.`}
           </p>
           {backTopic && (
             <EnlightButton
@@ -277,6 +414,15 @@ export function QuizArena() {
     const totalCorrect = isCorrect ? correctCount + 1 : correctCount
     const scopeId = isTopicQuiz ? topicId : chapterId
 
+    if (user?.id && question) {
+      void trackEnlightEvent(user.id, 'question_answered', {
+        chapterId: chapter.id,
+        subject: chapter.subjectId,
+        questionId: question.id,
+        correct: isCorrect,
+      })
+    }
+
     if (!isCorrect && question && selected !== null) {
       sessionMistakesRef.current.push({
         questionId: question.id,
@@ -293,31 +439,51 @@ export function QuizArena() {
     }
 
     if (index + 1 >= questions.length) {
-      const scorePercent = Math.min(100, Math.round((totalCorrect / questions.length) * 100))
+      const scorePercent = computeQuizScorePercent(totalCorrect, questions.length)
       const passed = scorePercent >= quiz.passPercent
+      const timeTakenSec = Math.round((Date.now() - quizStartRef.current) / 1000)
+      const attemptNumber = countQuizAttempts()
       setFinalScore(scorePercent)
       setCorrectCount(totalCorrect)
-      const xp = recordResult(scorePercent, passed)
-      setXpEarned(xp)
+      setFinishQuestionCount(questions.length)
 
-      const log = recordQuizFinish({
-        quizId: quiz.id,
-        quizTitle: quiz.title,
-        topicId: isTopicQuiz ? topicId : undefined,
-        chapterId: chapter.id,
-        subjectId: chapter.subjectId,
-        difficulty: diff,
-        scorePercent,
-        passed,
-        questionCount: questions.length,
-        correctCount: totalCorrect,
-        mistakes: sessionMistakesRef.current,
-      })
+      let xp = 0
+      let log: QuizMistakeLogResult | null = null
+      if (!skipStudyRewards) {
+        xp = recordResult(scorePercent, passed)
+        log = recordQuizFinish({
+          quizId: quiz.id,
+          quizTitle: quiz.title,
+          topicId: isTopicQuiz ? topicId : undefined,
+          chapterId: chapter.id,
+          subjectId: chapter.subjectId,
+          difficulty: diff,
+          scorePercent,
+          passed,
+          questionCount: questions.length,
+          correctCount: totalCorrect,
+          mistakes: sessionMistakesRef.current,
+        })
+      }
+      setXpEarned(xp)
       setMistakeLog(log)
 
-      if (duelId && user && passed) {
+      if (user?.id) {
+        void trackEnlightEvent(user.id, 'quiz_completed', {
+          chapterId: chapter.id,
+          subject: chapter.subjectId,
+          score: scorePercent,
+          attemptNumber,
+          timeTakenSec,
+        })
+      }
+
+      if (isDuelAttempt && duelId && user) {
         const timeSec = Math.round((Date.now() - quizStartRef.current) / 1000)
+        setDuelSubmitState('saving')
         void submitDuelScore(duelId, user.id, scorePercent, timeSec)
+          .then(() => setDuelSubmitState('done'))
+          .catch(() => setDuelSubmitState('error'))
       }
       setFinished(true)
       return
@@ -331,6 +497,8 @@ export function QuizArena() {
   if (finished) {
     const passed = finalScore >= quiz.passPercent
     const next = NEXT_DIFF[diff]
+    const answeredCount = finishQuestionCount || questions.length
+    const wrongCount = Math.max(0, answeredCount - correctCount)
 
     return (
       <div className="enlight-app">
@@ -340,14 +508,48 @@ export function QuizArena() {
             <EnlightSectionLabel>{quiz.title}</EnlightSectionLabel>
             <h2 className="enlight-heading-serif">{passed ? 'Well done!' : 'Keep practising'}</h2>
             <div className="enlight-quiz__score">{finalScore}%</div>
+            <dl className="enlight-quiz__breakdown">
+              <div>
+                <dt>Answered</dt>
+                <dd>{answeredCount}</dd>
+              </div>
+              <div>
+                <dt>Correct</dt>
+                <dd>{correctCount}</dd>
+              </div>
+              <div>
+                <dt>Wrong</dt>
+                <dd>{wrongCount}</dd>
+              </div>
+            </dl>
             <p className="enlight-body-text">
-              {correctCount} of {questions.length} correct
+              {correctCount} of {answeredCount} correct
             </p>
             <p className="enlight-body-text">
               {passed
-                ? `You passed (${quiz.passPercent}% required). +${xpEarned || XP_REWARDS[diff]} XP awarded!`
-                : `You need ${quiz.passPercent}% to advance. Try again — questions shuffle on retry.`}
+                ? skipStudyRewards
+                  ? `You passed (${quiz.passPercent}% required). Duel score recorded — no XP (quiz already completed).`
+                  : xpEarned > 0
+                    ? `You passed (${quiz.passPercent}% required). +${xpEarned} XP awarded!`
+                    : `You passed (${quiz.passPercent}% required).`
+                : `You need ${quiz.passPercent}% to advance. Review the notes and try again — questions shuffle on retry.`}
             </p>
+            {isDuelAttempt && (
+              <p className="enlight-body-text enlight-quiz__duel-note">
+                Duel mode — score recorded for head-to-head ({finalScore}%)
+                {duelSubmitState === 'saving' && ' · Saving…'}
+                {duelSubmitState === 'done' && ' · Saved'}
+                {duelSubmitState === 'error' && ' · Could not save score — try again from Social'}
+              </p>
+            )}
+            <QuizAcademicProgress
+              progress={userProgress}
+              subjectId={chapter.subjectId}
+              chapterId={chapter.id}
+              topicId={isTopicQuiz ? topicId : undefined}
+              isTopicQuiz={isTopicQuiz}
+              notesReadMap={notesReadMap}
+            />
             {!passed && weakTopics.length > 0 && (
               <div className="enlight-quiz__weak-topics">
                 <p className="enlight-body-text" style={{ marginBottom: 8 }}>
@@ -371,25 +573,13 @@ export function QuizArena() {
               {!passed && (
                 <>
                   <EnlightButton to={lessonUrl} variant="outline">
-                    Review weak area
+                    Review notes
                   </EnlightButton>
-                  <EnlightButton
-                    onClick={() => {
-                      setIndex(0)
-                      setCorrectCount(0)
-                      setFinalScore(0)
-                      setXpEarned(0)
-                      setMistakeLog(null)
-                      sessionMistakesRef.current = []
-                      setSelected(null)
-                      setShowFeedback(false)
-                      setFinished(false)
-                      setShuffleKey((k) => k + 1)
-                      quizStartRef.current = Date.now()
-                    }}
-                  >
-                    Retry
-                  </EnlightButton>
+                  {!isDuelAttempt && (
+                    <EnlightButton onClick={() => resetQuizAttempt(true)}>
+                      Retry
+                    </EnlightButton>
+                  )}
                 </>
               )}
               {passed && next && (

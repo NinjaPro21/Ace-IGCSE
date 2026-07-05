@@ -1,4 +1,5 @@
 import { getAllSubjects } from '@/lib/contentLoader'
+import type { Difficulty } from '@/lib/contentTypes'
 import type { QuizAttemptRecord } from '@/features/quiz/quizAttemptTypes'
 import type { UserProgress } from '@/features/mastery/MasteryEngine'
 
@@ -55,6 +56,20 @@ export function getQuizAttemptsForSubject(
 ): QuizAttemptRecord[] {
   return getQuizAttempts(progress)
     .filter((a) => a.subjectId === subjectId)
+    .sort((a, b) => b.at.localeCompare(a.at))
+}
+
+export function getQuizAttemptsForScope(
+  progress: UserProgress,
+  opts: { topicId?: string; chapterId: string; difficulty?: Difficulty },
+): QuizAttemptRecord[] {
+  return getQuizAttempts(progress)
+    .filter((a) => {
+      if (a.chapterId !== opts.chapterId) return false
+      if (opts.topicId) return a.topicId === opts.topicId
+      return !a.topicId
+    })
+    .filter((a) => (opts.difficulty ? a.difficulty === opts.difficulty : true))
     .sort((a, b) => b.at.localeCompare(a.at))
 }
 

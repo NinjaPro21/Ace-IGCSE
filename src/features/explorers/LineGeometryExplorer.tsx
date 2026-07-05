@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { GRAPH } from './graphTheme'
+import { GraphAxes, createGraphMapper } from './GraphAxes'
 import type { LineGeometryPanel } from '@/lib/contentTypes'
 
 const W = 440
@@ -8,12 +8,10 @@ const X_MIN = -1
 const X_MAX = 9
 const Y_MIN = -1
 const Y_MAX = 9
-
-function toSvgX(x: number) {
-  return ((x - X_MIN) / (X_MAX - X_MIN)) * W
-}
-function toSvgY(y: number) {
-  return H - ((y - Y_MIN) / (Y_MAX - Y_MIN)) * H
+const MAPPER = createGraphMapper(W, H, X_MIN, X_MAX, Y_MIN, Y_MAX)
+const { toSvgX, toSvgY } = {
+  toSvgX: (x: number) => MAPPER.toX(x),
+  toSvgY: (y: number) => MAPPER.toY(y),
 }
 
 function FormsPanel() {
@@ -48,12 +46,7 @@ function FormsPanel() {
         </div>
       </div>
       <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Line graph">
-        {[...Array(11)].map((_, i) => {
-          const x = X_MIN + i
-          return <line key={i} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />
-        })}
-        <line x1={toSvgX(0)} y1={0} x2={toSvgX(0)} y2={H} stroke={GRAPH.axis} strokeWidth={1.5} />
-        <line x1={0} y1={toSvgY(0)} x2={W} y2={toSvgY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
+        <GraphAxes mapper={MAPPER} gridX={10} gridY={10} />
         <polyline points={path} fill="none" stroke="#5b8def" strokeWidth={2.5} />
         <circle cx={toSvgX(0)} cy={toSvgY(c)} r={5} fill="#f59e0b" />
         <circle cx={toSvgX(x1)} cy={toSvgY(y1)} r={5} fill="#059669" />
@@ -84,25 +77,21 @@ function IntersectPanel() {
           Two lines: adjust gradients and intercepts. The intersection point is the simultaneous solution.
         </p>
         <div className="enlight-slider-group">
-          <label>Line 1: y = {m1}x + {c1}</label>
-          <input type="range" min={-3} max={4} step={0.5} value={m1} onChange={(e) => setM1(Number(e.target.value))} />
-          <input type="range" min={-2} max={10} step={0.5} value={c1} onChange={(e) => setC1(Number(e.target.value))} />
+          <label htmlFor="lg-m1">Line 1: y = {m1}x + {c1}</label>
+          <input id="lg-m1" type="range" min={-3} max={4} step={0.5} value={m1} onChange={(e) => setM1(Number(e.target.value))} />
+          <input id="lg-c1" type="range" min={-2} max={10} step={0.5} value={c1} onChange={(e) => setC1(Number(e.target.value))} />
         </div>
         <div className="enlight-slider-group">
-          <label>Line 2: y = {m2}x + {c2}</label>
-          <input type="range" min={-3} max={4} step={0.5} value={m2} onChange={(e) => setM2(Number(e.target.value))} />
-          <input type="range" min={-2} max={10} step={0.5} value={c2} onChange={(e) => setC2(Number(e.target.value))} />
+          <label htmlFor="lg-m2">Line 2: y = {m2}x + {c2}</label>
+          <input id="lg-m2" type="range" min={-3} max={4} step={0.5} value={m2} onChange={(e) => setM2(Number(e.target.value))} />
+          <input id="lg-c2" type="range" min={-2} max={10} step={0.5} value={c2} onChange={(e) => setC2(Number(e.target.value))} />
         </div>
         {m1 !== m2 && (
           <p className="enlight-rtri-result">Solution: x = {xInt.toFixed(2)}, y = {yInt.toFixed(2)}</p>
         )}
       </div>
       <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Two lines intersection">
-        {[...Array(11)].map((_, i) => {
-          const x = X_MIN + i
-          return <line key={i} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />
-        })}
-        <line x1={0} y1={toSvgY(0)} x2={W} y2={toSvgY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
+        <GraphAxes mapper={MAPPER} gridX={10} gridY={10} />
         {line(m1, c1, '#2563eb')}
         {line(m2, c2, '#059669')}
         {inView && m1 !== m2 && (
@@ -165,11 +154,7 @@ function ParallelPanel() {
         Midpoint M = ({midX.toFixed(1)}, {midY.toFixed(1)}) · gradient AB = {mx.toFixed(2)}
       </p>
       <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" style={{ marginTop: 12 }} role="img" aria-label="Parallel lines">
-        {[...Array(11)].map((_, i) => {
-          const x = X_MIN + i
-          return <line key={i} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />
-        })}
-        <line x1={0} y1={toSvgY(0)} x2={W} y2={toSvgY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
+        <GraphAxes mapper={MAPPER} gridX={10} gridY={10} />
         <polyline points={lineThrough(ax, ay, mx, 8)} fill="none" stroke="#5b8def" strokeWidth={2.5} />
         <polyline points={lineThrough(midX, midY, secM, 6)} fill="none" stroke="#059669" strokeWidth={2} strokeDasharray="6 4" />
         <circle cx={toSvgX(ax)} cy={toSvgY(ay)} r={6} fill="#5b8def" />

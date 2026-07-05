@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { EnlightButton } from '@/components/EnlightButton'
+import { InlineConfirm } from '@/components/InlineConfirm'
+import { friendlyErrorMessage } from '@/lib/firebaseErrors'
 import { useAuth } from '@/features/social/AuthContext'
-import { fetchClanMemberProfiles, fetchSchoolMemberProfiles, fetchFriendsLeaderboard, fetchProfile, type CloudProfile } from '@/features/social/socialApi'
+import { fetchSchoolMemberProfiles } from '@/features/social/socialApi'
 import { MAX_CLANS } from '@/features/social/socialTypes'
-import { periodLabel, type LeaderboardMetric, type LeaderboardPeriod } from '@/features/social/leaderboardUtils'
 import { getClassChapterInsights, getStuckChapters, type ChapterInsight } from '@/features/mastery/tutorInsights'
 
 export function SignInButton({ compact = false }: { compact?: boolean }) {
@@ -21,7 +22,7 @@ export function SignInButton({ compact = false }: { compact?: boolean }) {
     return (
       <div className="enlight-signin-user">
         {user.avatarUrl ? (
-          <img src={user.avatarUrl} alt="" className="enlight-signin-user__avatar" />
+          <img src={user.avatarUrl} alt="" className="enlight-signin-user__avatar" width={28} height={28} />
         ) : (
           <span className="enlight-signin-user__avatar enlight-signin-user__avatar--placeholder">
             {user.displayName.slice(0, 1).toUpperCase()}
@@ -105,7 +106,7 @@ export function SchoolClanPanel() {
         setMessage(`Selected ${schoolName} — sign in with Google to join your school leaderboard.`)
       }
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Could not join school')
+      setMessage(friendlyErrorMessage(err, 'Could not join school'))
     } finally {
       setBusy(false)
     }
@@ -118,14 +119,14 @@ export function SchoolClanPanel() {
     try {
       if (user) {
         const group = await createClanNow(clanName)
-        setMessage(`Clan created! Share code ${group.inviteCode} with friends.`)
+        setMessage(`Group created! Share code ${group.inviteCode} with friends.`)
       } else {
         const code = queueCreateClan(clanName)
-        setMessage(`Clan ready. Share code ${code} — sign in with Google to activate it.`)
+        setMessage(`Group ready. Share code ${code} — sign in with Google to activate it.`)
       }
       setClanName('')
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Could not create clan')
+      setMessage(friendlyErrorMessage(err, 'Could not create group'))
     } finally {
       setBusy(false)
     }
@@ -138,14 +139,14 @@ export function SchoolClanPanel() {
     try {
       if (user) {
         const group = await joinClanNow(joinCode)
-        setMessage(`Joined clan ${group.name}!`)
+        setMessage(`Joined ${group.name}!`)
       } else {
         queueJoinClan(joinCode)
-        setMessage('Invite saved — sign in with Google to join your clan.')
+        setMessage('Invite saved — sign in with Google to join your group.')
       }
       setJoinCode('')
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Could not join clan')
+      setMessage(friendlyErrorMessage(err, 'Could not join group'))
     } finally {
       setBusy(false)
     }
@@ -164,16 +165,14 @@ export function SchoolClanPanel() {
 
         {school ? (
           <div className="enlight-group-card">
-            <div className="enlight-group-card__badge">🏫</div>
+            <div className="enlight-group-card__badge" aria-hidden>S</div>
             <div>
               <strong>{school.name}</strong>
               <p className="enlight-body-text" style={{ margin: '4px 0 0' }}>
                 {school.memberCount !== undefined && `${school.memberCount} student${school.memberCount !== 1 ? 's' : ''}`}
               </p>
             </div>
-            <EnlightButton variant="outline" onClick={() => leaveSchoolGroup()}>
-              Leave
-            </EnlightButton>
+            <InlineConfirm label="Leave" variant="outline" onConfirm={() => leaveSchoolGroup()} />
           </div>
         ) : (
           <>
@@ -235,7 +234,7 @@ export function SchoolClanPanel() {
                       setRegisterSchoolName('')
                       setShowRegisterSchool(false)
                     } catch (err) {
-                      setMessage(err instanceof Error ? err.message : 'Could not register school')
+                      setMessage(friendlyErrorMessage(err, 'Could not register school'))
                     } finally {
                       setBusy(false)
                     }
@@ -252,16 +251,16 @@ export function SchoolClanPanel() {
 
       {/* Clans — up to 3, invite code */}
       <section className="enlight-progress-section">
-        <h2 className="enlight-heading-serif enlight-progress-section__title">Friend clans</h2>
+        <h2 className="enlight-heading-serif enlight-progress-section__title">Study groups</h2>
         <p className="enlight-body-text">
-          Join up to {MAX_CLANS} friend groups with an invite code (CLN-…). Share codes with your study group.
+          Join up to {MAX_CLANS} private groups with an invite code (CLN-…). Share codes with classmates.
         </p>
 
         {clans.length > 0 && (
           <div className="enlight-clan-list">
             {clans.map((clan) => (
               <div key={clan.id} className="enlight-group-card">
-                <div className="enlight-group-card__badge">⚔️</div>
+                <div className="enlight-group-card__badge" aria-hidden>G</div>
                 <div>
                   <strong>{clan.name}</strong>
                   <p className="enlight-body-text" style={{ margin: '4px 0 0' }}>
@@ -269,9 +268,7 @@ export function SchoolClanPanel() {
                     {clan.memberCount !== undefined && ` · ${clan.memberCount} member${clan.memberCount !== 1 ? 's' : ''}`}
                   </p>
                 </div>
-                <EnlightButton variant="outline" onClick={() => leaveClanGroup(clan.id)}>
-                  Leave
-                </EnlightButton>
+                <InlineConfirm label="Leave" variant="outline" onConfirm={() => leaveClanGroup(clan.id)} />
               </div>
             ))}
           </div>
@@ -283,7 +280,7 @@ export function SchoolClanPanel() {
               <div className="enlight-group-pending">
                 {pendingGroup?.action === 'create' && (
                   <p>
-                    Pending clan: <strong>{pendingGroup.name}</strong>
+                    Pending group: <strong>{pendingGroup.name}</strong>
                     {localInviteCode && (
                       <>
                         {' '}
@@ -314,7 +311,7 @@ export function SchoolClanPanel() {
                 className={`enlight-group-tab${clanMode === 'create' ? ' enlight-group-tab--active' : ''}`}
                 onClick={() => setClanMode('create')}
               >
-                Create clan
+                Create group
               </button>
             </div>
 
@@ -328,7 +325,7 @@ export function SchoolClanPanel() {
                   onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
                 />
                 <EnlightButton onClick={handleJoinClan} disabled={busy}>
-                  Join clan
+                  Join group
                 </EnlightButton>
               </div>
             ) : (
@@ -336,13 +333,13 @@ export function SchoolClanPanel() {
                 <input
                   type="text"
                   className="enlight-profile-form__input"
-                  placeholder="e.g. The Integrators"
+                  placeholder="e.g. Study circle"
                   value={clanName}
                   maxLength={64}
                   onChange={(e) => setClanName(e.target.value)}
                 />
                 <EnlightButton onClick={handleCreateClan} disabled={busy}>
-                  Create clan
+                  Create group
                 </EnlightButton>
               </div>
             )}
@@ -369,8 +366,15 @@ function InsightsTable({ rows, emptyMessage }: { rows: ChapterInsight[]; emptyMe
       {rows.map((row) => (
         <div key={row.chapterId} className="enlight-insights-row">
           <div className="enlight-insights-row__main">
+            <span
+              className={[
+                'enlight-insights-row__subject',
+                `enlight-insights-row__subject--${row.subjectId.replace(/[^a-z0-9-]/gi, '')}`,
+              ].join(' ')}
+            >
+              {row.subjectName}
+            </span>
             <span className="enlight-insights-row__title">{row.chapterTitle}</span>
-            <span className="enlight-insights-row__subject">{row.subjectName}</span>
           </div>
           <div className="enlight-insights-row__stats">
             <span>{row.timeSpentMin} min avg</span>
@@ -400,7 +404,7 @@ export function ClassInsightsPanel() {
     void fetchSchoolMemberProfiles(school.id).then((profiles) => {
       if (cancelled) return
       const insights = getClassChapterInsights(profiles)
-      setRows(getStuckChapters(insights, 8))
+      setRows(getStuckChapters(insights, 3))
       setLoading(false)
     })
 
@@ -428,296 +432,6 @@ export function ClassInsightsPanel() {
           rows={rows}
           emptyMessage="No study data yet. Students need to read notes and attempt quizzes while signed in."
         />
-      )}
-    </section>
-  )
-}
-
-function MembersList({ members, loading }: { members: CloudProfile[]; loading: boolean }) {
-  if (loading) return <p className="enlight-body-text">Loading members…</p>
-  if (members.length === 0) {
-    return <p className="enlight-body-text">No members yet — invite classmates to join.</p>
-  }
-
-  const sorted = [...members].sort((a, b) => b.xp - a.xp)
-
-  return (
-    <ol className="enlight-leaderboard">
-      {sorted.map((member) => (
-        <li key={member.id} className="enlight-leaderboard__row">
-          {member.avatarUrl ? (
-            <img src={member.avatarUrl} alt="" className="enlight-leaderboard__avatar" />
-          ) : (
-            <span className="enlight-leaderboard__avatar enlight-leaderboard__avatar--placeholder">
-              {(member.displayName ?? '?').slice(0, 1).toUpperCase()}
-            </span>
-          )}
-          <div className="enlight-leaderboard__info">
-            <span className="enlight-leaderboard__name">{member.displayName ?? 'Student'}</span>
-            <span className="enlight-leaderboard__meta">
-              {member.streakDays}d streak · {member.longestStreak}d best
-            </span>
-          </div>
-          <span className="enlight-leaderboard__xp">{member.xp.toLocaleString()} XP</span>
-        </li>
-      ))}
-    </ol>
-  )
-}
-
-export function GroupLeaderboard() {
-  const {
-    user,
-    school,
-    clans,
-    leaderboard,
-    leaderboardGroupId,
-    leaderboardMetric,
-    leaderboardPeriod,
-    isConfigured,
-    setLeaderboardGroup,
-    setLeaderboardFilters,
-  } = useAuth()
-
-  const [panelMode, setPanelMode] = useState<'leaderboard' | 'members'>('leaderboard')
-  const [members, setMembers] = useState<CloudProfile[]>([])
-  const [membersLoading, setMembersLoading] = useState(false)
-  const [friendsBoard, setFriendsBoard] = useState<typeof leaderboard>([])
-  const [friendIds, setFriendIds] = useState<string[]>([])
-  const [scope, setScope] = useState<'group' | 'friends'>('group')
-
-  const groups: { id: string; name: string; type: 'school' | 'clan' }[] = []
-  if (school) groups.push({ id: school.id, name: school.name, type: 'school' })
-  for (const c of clans) groups.push({ id: c.id, name: c.name, type: 'clan' })
-
-  const activeGroup = groups.find((g) => g.id === leaderboardGroupId) ?? groups[0]
-
-  useEffect(() => {
-    if (!user) return
-    void fetchProfile(user.id).then((p) => setFriendIds(p?.friendIds ?? []))
-  }, [user])
-
-  useEffect(() => {
-    if (scope !== 'friends' || !user || friendIds.length === 0) {
-      setFriendsBoard([])
-      return
-    }
-    void fetchFriendsLeaderboard(friendIds, user.id, {
-      metric: leaderboardMetric,
-      period: leaderboardPeriod,
-    }).then(setFriendsBoard)
-  }, [scope, user, friendIds, leaderboardMetric, leaderboardPeriod])
-
-  const displayBoard = scope === 'friends' ? friendsBoard : leaderboard
-  const friendIdSet = new Set(friendIds)
-
-  useEffect(() => {
-    if (panelMode !== 'members' || !activeGroup) {
-      setMembers([])
-      return
-    }
-    let cancelled = false
-    setMembersLoading(true)
-    void (async () => {
-      const rows =
-        activeGroup.type === 'school'
-          ? await fetchSchoolMemberProfiles(activeGroup.id)
-          : await fetchClanMemberProfiles(activeGroup.id)
-      if (!cancelled) {
-        setMembers(rows)
-        setMembersLoading(false)
-      }
-    })()
-    return () => {
-      cancelled = true
-    }
-  }, [panelMode, activeGroup?.id, activeGroup?.type])
-
-  const handleMetric = (metric: LeaderboardMetric) => {
-    const period = metric === 'longestStreak' ? 'all' : leaderboardPeriod
-    void setLeaderboardFilters(metric, period)
-  }
-
-  const handlePeriod = (period: LeaderboardPeriod) => {
-    void setLeaderboardFilters('xp', period)
-  }
-
-  if (groups.length === 0 && friendIds.length === 0) {
-    return (
-      <section className="enlight-progress-section enlight-dashboard-card">
-        <h2 className="enlight-heading-serif enlight-progress-section__title">Leaderboard</h2>
-        <div className="enlight-leaderboard-placeholder">
-          <span className="enlight-leaderboard-placeholder__icon">🏅</span>
-          <div>
-            <strong>Join your school or a clan to compete</strong>
-            <p className="enlight-body-text" style={{ margin: '4px 0 0' }}>
-              Pick your school from the list below, or join a friend clan with an invite code.
-              {!isConfigured && ' Enable Google sign-in first.'}
-            </p>
-          </div>
-        </div>
-      </section>
-    )
-  }
-
-  return (
-    <section className="enlight-progress-section enlight-dashboard-card">
-      <div className="enlight-progress-section__header">
-        <h2 className="enlight-heading-serif enlight-progress-section__title">
-          {activeGroup.type === 'school' ? 'School' : 'Friends'}
-        </h2>
-        <span className="enlight-progress-section__meta">
-          {panelMode === 'leaderboard' && leaderboardMetric === 'xp'
-            ? periodLabel(leaderboardPeriod)
-            : panelMode === 'leaderboard'
-              ? 'All time'
-              : `${members.length || '…'} members`}
-        </span>
-      </div>
-
-      <div className="enlight-group-tabs enlight-group-tabs--compact">
-        <button
-          type="button"
-          className={`enlight-group-tab${panelMode === 'leaderboard' ? ' enlight-group-tab--active' : ''}`}
-          onClick={() => setPanelMode('leaderboard')}
-        >
-          Leaderboard
-        </button>
-        <button
-          type="button"
-          className={`enlight-group-tab${panelMode === 'members' ? ' enlight-group-tab--active' : ''}`}
-          onClick={() => setPanelMode('members')}
-        >
-          {activeGroup.type === 'school' ? 'Classmates' : 'Friends'}
-        </button>
-      </div>
-
-      <div className="enlight-group-tabs enlight-group-tabs--compact">
-        <button
-          type="button"
-          className={`enlight-group-tab${scope === 'group' ? ' enlight-group-tab--active' : ''}`}
-          onClick={() => setScope('group')}
-          disabled={groups.length === 0}
-        >
-          School / Clan
-        </button>
-        <button
-          type="button"
-          className={`enlight-group-tab${scope === 'friends' ? ' enlight-group-tab--active' : ''}`}
-          onClick={() => setScope('friends')}
-          disabled={friendIds.length === 0}
-        >
-          My friends
-        </button>
-      </div>
-
-      {groups.length > 1 && scope === 'group' && (
-        <div className="enlight-group-tabs enlight-group-tabs--leaderboard">
-          {groups.map((g) => (
-            <button
-              key={g.id}
-              type="button"
-              className={`enlight-group-tab${g.id === activeGroup.id ? ' enlight-group-tab--active' : ''}`}
-              onClick={() => setLeaderboardGroup(g.id, g.type)}
-            >
-              {g.type === 'school' ? '🏫' : '⚔️'} {g.name}
-            </button>
-          ))}
-        </div>
-      )}
-
-      {panelMode === 'leaderboard' && (
-      <>
-      <div className="enlight-leaderboard-filters">
-        <div className="enlight-group-tabs enlight-group-tabs--compact">
-          <button
-            type="button"
-            className={`enlight-group-tab${leaderboardMetric === 'xp' ? ' enlight-group-tab--active' : ''}`}
-            onClick={() => handleMetric('xp')}
-          >
-            XP earned
-          </button>
-          <button
-            type="button"
-            className={`enlight-group-tab${leaderboardMetric === 'longestStreak' ? ' enlight-group-tab--active' : ''}`}
-            onClick={() => handleMetric('longestStreak')}
-          >
-            Longest streak
-          </button>
-        </div>
-
-        {leaderboardMetric === 'xp' && (
-          <div className="enlight-group-tabs enlight-group-tabs--compact">
-            {(['day', 'week', 'month', 'all'] as LeaderboardPeriod[]).map((p) => (
-              <button
-                key={p}
-                type="button"
-                className={`enlight-group-tab${leaderboardPeriod === p ? ' enlight-group-tab--active' : ''}`}
-                onClick={() => handlePeriod(p)}
-              >
-                {periodLabel(p)}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-
-      <p className="enlight-body-text enlight-leaderboard__heading">
-        {activeGroup.type === 'school' ? '🏫' : '⚔️'} {activeGroup.name}
-      </p>
-
-      {!user && (
-        <p className="enlight-body-text">Sign in to appear on the board and sync your progress.</p>
-      )}
-      {displayBoard.length === 0 ? (
-        <p className="enlight-body-text">No members yet — invite classmates to join.</p>
-      ) : (
-        <ol className="enlight-leaderboard">
-          {displayBoard.map((entry, index) => (
-            <li
-              key={entry.userId}
-              className={[
-                'enlight-leaderboard__row',
-                entry.isYou ? 'enlight-leaderboard__row--you' : '',
-                friendIdSet.has(entry.userId) && !entry.isYou ? 'enlight-leaderboard__row--friend' : '',
-              ].join(' ')}
-            >
-              <span className="enlight-leaderboard__rank">{index + 1}</span>
-              {entry.avatarUrl ? (
-                <img src={entry.avatarUrl} alt="" className="enlight-leaderboard__avatar" />
-              ) : (
-                <span className="enlight-leaderboard__avatar enlight-leaderboard__avatar--placeholder">
-                  {entry.displayName.slice(0, 1)}
-                </span>
-              )}
-              <div className="enlight-leaderboard__info">
-                <span className="enlight-leaderboard__name">
-                  {entry.displayName}
-                  {entry.isYou && ' (you)'}
-                </span>
-                <span className="enlight-leaderboard__meta">
-                  Lv {entry.level} · {entry.streakDays}d current streak
-                </span>
-              </div>
-              <span className="enlight-leaderboard__xp">
-                {leaderboardMetric === 'longestStreak'
-                  ? `${entry.score}d best`
-                  : `${entry.score} XP`}
-              </span>
-            </li>
-          ))}
-        </ol>
-      )}
-      </>
-      )}
-
-      {panelMode === 'members' && (
-        <>
-          <p className="enlight-body-text enlight-leaderboard__heading">
-            {activeGroup.type === 'school' ? '🏫' : '⚔️'} {activeGroup.name}
-          </p>
-          <MembersList members={members} loading={membersLoading} />
-        </>
       )}
     </section>
   )

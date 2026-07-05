@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useMemo } from 'react'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { formatStatValue, getPlatformStats, getSubjectStatsList, type SubjectStats } from '@/lib/platformStats'
 
 const SUBJECT_ICONS: Record<string, string> = {
@@ -11,10 +12,6 @@ const SUBJECT_ICONS: Record<string, string> = {
 }
 
 function SubjectStudyCard({ subject }: { subject: SubjectStats }) {
-  const diagramPct = subject.topicCount
-    ? Math.round((subject.diagramTopicCount / subject.topicCount) * 100)
-    : 0
-
   return (
     <Link
       to={`/subjects/${subject.id}`}
@@ -36,47 +33,22 @@ function SubjectStudyCard({ subject }: { subject: SubjectStats }) {
 
       <p className="enlight-study-subject__blurb">{subject.description}</p>
 
-      <dl className="enlight-study-subject__stats">
-        <div>
-          <dt>Chapters</dt>
-          <dd>{subject.chapterCount}</dd>
-        </div>
-        <div>
-          <dt>Subtopics</dt>
-          <dd>{subject.topicCount}</dd>
-        </div>
-        <div>
-          <dt>Visual diagrams</dt>
-          <dd>{subject.diagramTopicCount}</dd>
-        </div>
-      </dl>
-
-      <div
-        className="enlight-study-subject__meter"
-        aria-label={`${diagramPct}% of topics include graphs, diagrams, or interactive tools`}
-      >
-        <span className="enlight-study-subject__meter-fill" style={{ width: `${diagramPct}%` }} />
-      </div>
-      <p className="enlight-study-subject__meter-label">{diagramPct}% topics with visual help</p>
+      <p className="enlight-study-subject__meta">
+        {subject.chapterCount} chapters · {subject.topicCount} topics · {subject.diagramTopicCount}{' '}
+        diagrams
+      </p>
 
       <ul className="enlight-study-subject__chapters">
         {subject.sampleChapters.map((title) => (
           <li key={title}>{title}</li>
         ))}
       </ul>
-
-      <div className="enlight-study-subject__tags">
-        {subject.highlights.map((tag) => (
-          <span key={tag} className="enlight-study-subject__tag">
-            {tag}
-          </span>
-        ))}
-      </div>
     </Link>
   )
 }
 
 export function SubjectsListPage() {
+  usePageTitle('Subjects')
   const subjects = useMemo(() => getSubjectStatsList(), [])
   const stats = useMemo(() => getPlatformStats(), [])
 
@@ -93,7 +65,7 @@ export function SubjectsListPage() {
           three courses.
         </p>
 
-        <div className="enlight-study-subjects">
+        <div className="enlight-study-subjects" data-tour="subjects-grid">
           {subjects.map((s) => (
             <SubjectStudyCard key={s.id} subject={s} />
           ))}

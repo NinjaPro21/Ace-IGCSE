@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
-import { GroupLeaderboard, SchoolClanPanel, ClassInsightsPanel } from '@/features/social/SocialPanels'
+import { LeaderboardHub } from '@/features/social/LeaderboardHub'
+import { SchoolClanPanel, ClassInsightsPanel } from '@/features/social/SocialPanels'
 import { FriendsPanel } from '@/features/social/FriendsPanel'
 import { DuelsPanel } from '@/features/social/DuelsPanel'
 import { WeeklyChallengeCard } from '@/features/social/WeeklyChallengeCard'
@@ -23,7 +24,7 @@ export function ProgressSocialPage() {
         Compare progress with classmates, add friends, and join weekly challenges.
       </p>
 
-      <GroupLeaderboard />
+      <LeaderboardHub />
       <WeeklyChallengeCard />
 
       <section id="friends" className="enlight-progress-anchor-section">

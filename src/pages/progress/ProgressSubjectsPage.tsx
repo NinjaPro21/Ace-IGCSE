@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import { getSubjectSummary } from '@/features/mastery/progressStats'
 import { getAllSubjects } from '@/lib/contentLoader'
@@ -12,6 +13,7 @@ const STATUS_LABEL = {
 } as const
 
 export function ProgressSubjectsPage() {
+  usePageTitle('Subjects')
   const { progress } = useMastery()
   const subjects = getAllSubjects()
 
@@ -33,7 +35,7 @@ export function ProgressSubjectsPage() {
                 <summary className="enlight-subject-fold__summary">
                   <span className="enlight-subject-fold__name">{subject.name}</span>
                   <span className="enlight-subject-fold__meta">
-                    {summary.mastered}/{summary.total} mastered · {summary.avgMastery}%
+                    {summary.mastered}/{summary.total} chapters mastered · {summary.avgMastery}% quiz average
                   </span>
                   <span className="enlight-subject-fold__bar">
                     <span style={{ width: `${summary.avgMastery}%` }} />

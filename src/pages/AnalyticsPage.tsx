@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { friendlyErrorMessage } from '@/lib/firebaseErrors'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightHeader } from '@/components/EnlightHeader'
@@ -24,6 +26,7 @@ import { useAuth } from '@/features/social/AuthContext'
 
 export function AnalyticsPage() {
   const { syncProgressNow } = useAuth()
+  usePageTitle('Analytics')
 
   const [platform, setPlatform] = useState<PlatformStats | null>(null)
   const [loading, setLoading] = useState(true)
@@ -60,7 +63,7 @@ export function AnalyticsPage() {
         setProfiles(allProfiles)
       } catch (err) {
         if (cancelled) return
-        setLoadError(err instanceof Error ? err.message : 'Failed to load analytics')
+        setLoadError(friendlyErrorMessage(err, 'Failed to load analytics'))
         setPlatform(null)
         setProfiles([])
       } finally {
@@ -85,7 +88,7 @@ export function AnalyticsPage() {
       setPlatform(stats)
       setProfiles(allProfiles)
     } catch (err) {
-      setLoadError(err instanceof Error ? err.message : 'Failed to refresh analytics')
+      setLoadError(friendlyErrorMessage(err, 'Failed to refresh analytics'))
     } finally {
       setLoading(false)
     }

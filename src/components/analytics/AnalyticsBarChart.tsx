@@ -21,7 +21,7 @@ export function AnalyticsBarChart({
     return (
       <div className="enlight-chart-panel">
         <h3 className="enlight-chart-panel__title">{title}</h3>
-        <p className="enlight-body-text">{emptyMessage ?? 'No data yet.'}</p>
+        <p className="enlight-body-text">{emptyMessage ?? 'Start a study session to see your activity here.'}</p>
       </div>
     )
   }

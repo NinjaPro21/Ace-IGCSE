@@ -1,15 +1,24 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom'
 
+import { CookieConsentBanner } from '@/components/CookieConsentBanner'
+import { SessionTracker } from '@/features/analytics/SessionTracker'
+import { ReviewPromptModal } from '@/features/feedback/ReviewPromptModal'
+import { ReviewUsageTracker } from '@/features/feedback/ReviewUsageTracker'
 import { AfkPrompt } from '@/features/mastery/AfkPrompt'
 import { CelebrationProvider } from '@/features/mastery/CelebrationOverlay'
 import { MasteryProvider } from '@/features/mastery/MasteryContext'
+import { PomodoroProvider } from '@/features/study/PomodoroContext'
 import { AuthProvider } from '@/features/social/AuthContext'
 import { RequireAuth } from '@/features/social/RequireAuth'
 import { RequireAdmin } from '@/features/social/RequireAdmin'
 import { SignInPrompt } from '@/features/social/SignInPrompt'
 import { OnboardingModal } from '@/features/onboarding/OnboardingModal'
+import { AppTour } from '@/features/onboarding/AppTour'
+import { SignedInPresence } from '@/features/social/SignedInPresence'
+import { SocialInboxProvider } from '@/features/social/SocialInboxProvider'
 import { QuizArena } from '@/features/quiz/QuizArena'
+import { getTopicsForChapter } from '@/lib/contentLoader'
 
 import { MarketingLayout } from '@/pages/marketing/MarketingLayout'
 import { MarketingHomePage } from '@/pages/marketing/MarketingHomePage'
@@ -22,9 +31,6 @@ const ProgressHubPage = lazy(() =>
 )
 const ProgressReviewPage = lazy(() =>
   import('@/pages/progress/ProgressReviewPage').then((m) => ({ default: m.ProgressReviewPage })),
-)
-const ProgressSocialPage = lazy(() =>
-  import('@/pages/progress/ProgressSocialPage').then((m) => ({ default: m.ProgressSocialPage })),
 )
 const ProgressSubjectsPage = lazy(() =>
   import('@/pages/progress/ProgressSubjectsPage').then((m) => ({ default: m.ProgressSubjectsPage })),
@@ -43,6 +49,7 @@ const ProgressQuizHistorySubjectPage = lazy(() =>
     default: m.ProgressQuizHistorySubjectPage,
   })),
 )
+const SocialPage = lazy(() => import('@/pages/SocialPage').then((m) => ({ default: m.SocialPage })))
 const ProfilePage = lazy(() => import('@/pages/ProfilePage').then((m) => ({ default: m.ProfilePage })))
 const AnalyticsPage = lazy(() => import('@/pages/AnalyticsPage').then((m) => ({ default: m.AnalyticsPage })))
 const SubjectHubPage = lazy(() => import('@/pages/SubjectHubPage').then((m) => ({ default: m.SubjectHubPage })))
@@ -50,6 +57,7 @@ const SubjectsListPage = lazy(() =>
   import('@/pages/SubjectsListPage').then((m) => ({ default: m.SubjectsListPage })),
 )
 const TopicLessonPage = lazy(() => import('@/pages/TopicLessonPage').then((m) => ({ default: m.TopicLessonPage })))
+const NotFoundPage = lazy(() => import('@/pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 
 function RouteFallback() {
   return (
@@ -63,6 +71,20 @@ function Protected({ children }: { children: React.ReactNode }) {
   return <RequireAuth>{children}</RequireAuth>
 }
 
+function ChapterTopicRedirect() {
+  const { subjectId = '', chapterId = '' } = useParams()
+  const topics = getTopicsForChapter(chapterId)
+  if (topics[0]) {
+    return (
+      <Navigate
+        to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${topics[0].id}`}
+        replace
+      />
+    )
+  }
+  return <Navigate to={`/subjects/${subjectId}`} replace />
+}
+
 function LegacyProgressRedirect() {
   const { pathname, hash } = useLocation()
   const rest = pathname.replace(/^\/progress/, '') || ''
@@ -73,11 +95,19 @@ export function App() {
   return (
     <AuthProvider>
       <MasteryProvider>
+        <PomodoroProvider>
         <CelebrationProvider>
+          <SocialInboxProvider>
           <BrowserRouter>
             <AfkPrompt />
+            <CookieConsentBanner />
+            <SessionTracker />
+            <ReviewUsageTracker />
+            <ReviewPromptModal />
             <SignInPrompt />
             <OnboardingModal />
+            <AppTour />
+            <SignedInPresence />
 
             <Suspense fallback={<RouteFallback />}>
               <Routes>
@@ -96,7 +126,7 @@ export function App() {
                 <Route path="/dashboard" element={<Protected><ProgressLayout /></Protected>}>
                   <Route index element={<ProgressHubPage />} />
                   <Route path="review" element={<ProgressReviewPage />} />
-                  <Route path="social" element={<ProgressSocialPage />} />
+                  <Route path="social" element={<Navigate to="/social" replace />} />
                   <Route path="subjects" element={<ProgressSubjectsPage />} />
                   <Route path="achievements" element={<ProgressAchievementsPage />} />
                   <Route path="account" element={<ProgressAccountPage />} />
@@ -104,21 +134,29 @@ export function App() {
                   <Route path="quiz-history/:subjectId" element={<ProgressQuizHistorySubjectPage />} />
                 </Route>
 
+                <Route path="/social" element={<Protected><SocialPage /></Protected>} />
                 <Route path="/profile/:userId" element={<Protected><ProfilePage /></Protected>} />
                 <Route path="/analytics" element={<Protected><RequireAdmin><AnalyticsPage /></RequireAdmin></Protected>} />
 
                 <Route path="/subjects" element={<Protected><SubjectsListPage /></Protected>} />
                 <Route path="/subjects/:subjectId" element={<Protected><SubjectHubPage /></Protected>} />
                 <Route
+                  path="/subjects/:subjectId/chapters/:chapterId"
+                  element={<Protected><ChapterTopicRedirect /></Protected>}
+                />
+                <Route
                   path="/subjects/:subjectId/chapters/:chapterId/topics/:topicId"
                   element={<Protected><TopicLessonPage /></Protected>}
                 />
-                <Route path="/quiz/topic/:topicId/:difficulty" element={<QuizArena />} />
-                <Route path="/quiz/:chapterId/:difficulty" element={<QuizArena />} />
+                <Route path="/quiz/topic/:topicId/:difficulty" element={<Protected><QuizArena /></Protected>} />
+                <Route path="/quiz/:chapterId/:difficulty" element={<Protected><QuizArena /></Protected>} />
+                <Route path="*" element={<NotFoundPage />} />
               </Routes>
             </Suspense>
           </BrowserRouter>
+          </SocialInboxProvider>
         </CelebrationProvider>
+        </PomodoroProvider>
       </MasteryProvider>
     </AuthProvider>
   )

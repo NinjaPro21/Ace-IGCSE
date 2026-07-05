@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
 import { useMastery } from './MasteryContext'
 import { masteryEngine } from './MasteryEngine'
+import { getLevelTitle, getXpRequiredForNextLevel } from './levelSystem'
 
 export type CelebrationKind = 'level-up' | 'achievement' | 'streak' | 'quiz-pass'
 
@@ -27,10 +28,11 @@ export function CelebrationProvider({ children }: { children: ReactNode }) {
     const onLevelUp = (e: Event) => {
       const level = (e as CustomEvent<{ level: number }>).detail?.level
       if (level) {
+        const nextXp = getXpRequiredForNextLevel(level)
         show({
           kind: 'level-up',
-          title: `Level ${level}!`,
-          message: 'Keep studying to reach the next rank.',
+          title: `Level ${level} — ${getLevelTitle(level)}`,
+          message: `Next level needs ${nextXp} XP (requirements scale as you rank up).`,
           icon: '🏆',
         })
       }

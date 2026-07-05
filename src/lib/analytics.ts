@@ -1,10 +1,13 @@
 import { logEvent } from 'firebase/analytics'
-import { analytics } from './firebase'
+import { hasAnalyticsConsent } from '@/lib/analyticsConsent'
+import { analytics, initAnalyticsIfConsented } from './firebase'
 
 export function trackEvent(
   name: string,
   params?: Record<string, string | number | boolean>,
 ): void {
+  if (!hasAnalyticsConsent()) return
+  void initAnalyticsIfConsented()
   if (!analytics) return
   try {
     logEvent(analytics, name, params)

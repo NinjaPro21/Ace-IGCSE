@@ -98,6 +98,9 @@ export function normalizeMathMarkdown(raw: string): string {
 function sanitizeMathInner(inner: string): string {
   return inner
     .trim()
+    .replace(/^\$+/, '')
+    .replace(/\$+$/, '')
+    .replace(/\$([^$]+)\$/g, '$1')
     .replace(/\\+\s*$/g, '')
     .replace(/√(\d+)/g, '\\sqrt{$1}')
     .replace(/√\(([^)]+)\)/g, '\\sqrt{$1}')
@@ -156,7 +159,7 @@ export function repairMathMarkdown(text: string): string {
   t = t.replace(/\*\*([^*]+)\*\*\s+\$\$/g, (_, title) => `**${title}**\n\n$$`)
   t = t.replace(/([.!?])\s+\$\s+\$\$/g, (_, p) => `${p}\n\n$$`)
   t = t.replace(/(?<!\$)\$\s+\$\$/g, () => '\n\n$$')
-  t = t.replace(/\$\$\s*\n\s*\$\$/g, '')
+  t = t.replace(/\$\$([\s\S]*?)\$\$/g, (match, inner: string) => (inner.trim() ? match : ''))
 
   t = t.replace(/\$\$([\s\S]*?)\$\$/g, (_, inner) => {
     const cleaned = sanitizeMathInner(inner)
@@ -349,6 +352,50 @@ export function repairQuizImportArtifacts(text: string): string {
   t = t.replace(/\\frac\{x-\}\{/g, '\\frac{x-3}{')
   t = t.replace(/\\frac\{7x\+\}\{/g, '\\frac{7x+1}{')
 
+  // Corrupted definite integral: "in $t^{2}$5" → $\int_2^5$
+  t = t.replace(/\bin\s+\$t\^\{([^}]+)\}\$(\d+|e)\b/gi, (_, lo, hi) => `$\\int_{${lo}}^{${hi}}$`)
+  t = t.replace(/\bin\s+_\{?(\d+)\}?\^\{?(\d+|e)\}?/gi, (_, lo, hi) => `$\\int_${lo}^{${hi}}$`)
+  t = t.replace(/(?:Calculate the value of|Find the value of|Evaluate|If)\s*\n+\s*in\s+\$t/gi, (m) =>
+    m.replace(/\bin\s+\$t/gi, '$\\int'),
+  )
+
+  // Nested frac in one delimiter: $\frac{1}{$x^{2}$}$ → $\frac{1}{x^2}$
+  t = t.replace(/\$\\frac\{([^}]*)\}\{\$([^$]+)\$\}\$/g, '$\\frac{$1}{$2}$')
+  t = t.replace(/\$\\frac\{\$([^$]+)\$\}\{\}\$/g, '$\\frac{$1}{}$')
+  t = t.replace(/\$\\frac\{\$x\^\{2\}\$-52≤x\+5\}\{\}\$/g, '$\\frac{x^2-5}{2} \\le x+5$')
+  t = t.replace(/\$\\frac\{\$d\^\{2\}\$y\$d\$x\^\{2\}\$\}\{\}\$/g, '$\\frac{d^2y}{dx^2}$')
+  t = t.replace(/second derivative\$\\frac\{\$d\^\{2\}\$y\$d\$x\^\{2\}\$\}\{\}\$/g, 'second derivative $\\frac{d^2y}{dx^2}$')
+
+  // pi interval options: $\frac{pi2<x<$\frac{3}{pi2}$}{}$
+  t = t.replace(
+    /\$\\frac\{pi(\d+)<x<\$\\frac\{(\d+)\}\{pi(\d+)\}\$\}\{\}\$/g,
+    (_, n1, num, n2) => `$\\frac{\\pi}{${n1}} < x < \\frac{${num}\\pi}{${n2}}$`,
+  )
+  t = t.replace(/\\frac\{pi(\d+)<x</g, '\\frac{\\pi}{$1} < x < ')
+
+  t = t.replace(/\\frac\{du\}\{dx\}\$/g, '\\frac{du}{dx}')
+  t = t.replace(/sin\(\$\\frac\{\\pi\}\{(\d+)\}\$\)/g, '\\sin(\\frac{\\pi}{$1})')
+  t = t.replace(/\}\{\}/g, '')
+  t = t.replace(/(\d+)\\sqrt([a-zA-Z])(?![{a-zA-Z])/g, '$1\\sqrt{$2}')
+  t = t.replace(/\\\\+,\s*dx/g, '\\,dx')
+  t = t.replace(/\$\\frac\{(\d+)\$\(\}\{([^}]+)\}\$\)\^\{(\d+)\}/g, '$\\frac{$1}{($2)^{$3}}')
+  t = t.replace(/\$\\frac\{(\d+)\$\(\}\{([^}]+)\}\$\)\^(\d+)/g, '$\\frac{$1}{($2)^{$3}}')
+  t = t.replace(/f\^{-1}\$\(/g, 'f^{-1}(')
+  t = t.replace(/f\^{-1}\$\)/g, 'f^{-1})')
+  t = t.replace(/\bis\^(\d+)\b/g, 'is $$1$')
+  t = t.replace(/gradient is\^0/g, 'gradient is $0$')
+  t = t.replace(/\(x-\$\\frac\{\\pi\}\{(\d+)\}\$\)/g, '(x-\\frac{\\pi}{$1})')
+  t = t.replace(/2\\aligned\\sec/g, '2\\sec')
+  t = t.replace(/\\sqrt(?!\{)([a-zA-Z][a-zA-Z0-9+\-]*)/g, '\\sqrt{$1}')
+  t = t.replace(/([A-Za-z])\$(x|[A-Za-z])/g, '$1 $2')
+  t = t.replace(/domain\$/g, 'domain $')
+  t = t.replace(/If\$/g, 'If $')
+  t = t.replace(/and\$/g, 'and $')
+  t = t.replace(/\\2\.(\d+)/g, '2.$1')
+  t = t.replace(/\\text\{\s*\\approx/g, '\\text{ (approx')
+  t = t.replace(/\$z = \\frac\{x\^2 - y\^2\}\{x\^\{-1\}\$\s*\+\s*y\^\{-1\}\$\}/g, '$z = \\frac{x^2 - y^2}{x^{-1} + y^{-1}}$')
+  t = t.replace(/\$\$\s*\n(f\^{-1}\([^$]+)\$/g, '$$$1$$')
+
   return stripNestedInlineDollars(t)
 }
 
@@ -372,7 +419,7 @@ export function repairImportedNoteMath(text: string): string {
   )
   t = t.replace(/\\t\\frac/g, '\\frac')
   t = t.replace(/\t\\frac/g, '\\frac')
-  t = t.replace(/([^\n])\.\s+\$\$/g, '$1.\n\n$$')
+  t = t.replace(/([^\n])\.[ \t]+\$\$/g, '$1.\n\n$$')
   t = t.replace(/([=\\implies])\$([^$]+)\$/g, '$1 $2')
   t = t.replace(/\\sqrt\{\$([^$]+)\$([^}]*)\}/g, '\\sqrt{$1$2}')
   t = t.replace(/([a-zA-Z0-9])\s\.\s(?=[a-zA-Z0-9])/g, '$1^2 ')
@@ -548,9 +595,190 @@ function wrapPlainFormulaLines(text: string): string {
     .join('\n\n')
 }
 
+/** Repair docx-import mapping notation (x$\\mapsto$$x^{2}$, f:x$\\mapsto$, etc.). */
+export function fixBrokenMappingNotation(text: string): string {
+  let t = text.replace(/−/g, '-')
+
+  // Known docx-import templates (fix before generic rules)
+  t = t.replace(
+    /relation x\$\\mapsto\s*\n+\s*\$\$x\^\{2\}\$\s*where the domain is\$\s*\n?([-0-9, ]+)\?/g,
+    (_, domain) => {
+      const vals = domain.split(',').map((v: string) => v.trim()).join(', ')
+      return `relation $x \\mapsto x^{2}$ where the domain is $\\{${vals}\\}$?`
+    },
+  )
+  t = t.replace(
+    /mapping x\$\\mapsto\s*\n+\s*\$\$\\frac\{([^}]+)\}\$\s*,/g,
+    'mapping $x \\mapsto \\frac{$1}$,',
+  )
+  t = t.replace(
+    /mapping x\$\\mapsto\s*\n+\s*\$\$x\^\{2\}\$\s*([−\-])/g,
+    'mapping $x \\mapsto x^{2}$ $1',
+  )
+  t = t.replace(
+    /mapping f:x\$\\mapsto\s*\n+\s*\$\$x\^\{2\}\$\s*\+/g,
+    'mapping $f: x \\mapsto x^{2}$ +',
+  )
+  t = t.replace(
+    /function g is defined by g:x\$\\mapsto\s*\n+\s*\$\$\\frac\{([^}]+)\}\$\s*for/g,
+    'function $g$ is defined by $g: x \\mapsto \\frac{$1}$ for',
+  )
+
+  // $x \mapsto 5-\n\n$$x^{2} for the domain$\{-1, 0, 1, 2\}$
+  t = t.replace(
+    /\$([a-zA-Z])\s*\\mapsto\s*(\d+)\s*([-+])\s*\n+\s*\$\$\s*([^$]+)\$\s*for the domain\s*\$\\{([^}]+)\\}\$/g,
+    (_, v, n, op, expr, domain) => {
+      const core = expr.trim().split(/\s+for\s/i)[0].trim()
+      return `$${v} \\mapsto ${n} ${op} ${core}$ for the domain $\\{${domain}\\}$`
+    },
+  )
+
+  // $x \mapsto 5+\n\n$$\frac{2}{x}2
+  t = t.replace(
+    /\$([a-zA-Z])\s*\\mapsto\s*(\d+)\s*\+\s*\n+\s*\$\$\\frac\{([^}]+)\}\{([^}]+)\}(\d+)/g,
+    '$$$1 \\mapsto $2 + \\frac{$3}{$4}$',
+  )
+
+  // Generic inline broken by orphan $$ block (single-line quiz strings)
+  t = t.replace(
+    /(\$[^$\n]{1,160})\n+\s*\$\$\s*([^$\n]{1,160})\$\s*/g,
+    (match, left, inner) => {
+      if (/\\frac\{[^}]*\}\{y=/.test(inner)) return match
+      const l = left.replace(/^\$/, '').trimEnd()
+      const i = inner.replace(/\s+for the domain.*/i, '').trim()
+      if (/\\mapsto\s*\d+\s*[-+]$/.test(l)) return `$${l}${i}$ `
+      return `$${l} ${i}$ `
+    },
+  )
+
+  // $x \mapsto 5 - x^{2} for the domain$\{-1, 0, 1, 2\}$ (must run before generic domain glue)
+  t = t.replace(
+    /\$([a-zA-Z])\s*\\mapsto\s*([^$]+?)\s+for the domain\s*\$\\{([^}]+)\\}\$/g,
+    '$$$1 \\mapsto $2$ for the domain $\\{$3\\}$',
+  )
+  t = t.replace(
+    /\$([a-zA-Z])\s*\\mapsto\s*([^$]+?)\s+where the domain is\s*\$\\{([^}]+)\\}\$/g,
+    '$$$1 \\mapsto $2$ where the domain is $\\{$3\\}$',
+  )
+
+  t = t.replace(/for the domain\$\\{([^}]+)\\}\$/g, 'for the domain $\\{$1\\}$')
+
+  // when the domain is\n2,4,6. (no braces)
+  t = t.replace(/when the domain is\s*\n([0-9,.\-]+)\./g, (_, vals) => {
+    const list = vals.split(',').map((v: string) => v.trim()).join(', ')
+    return `when the domain is $\\{${list}\\}$.`
+  })
+
+  t = t.replace(/for x\s*\n+\s*\$\$\s*\\neq\s*(\d+)/g, 'for $x \\neq $1$')
+  t = t.replace(/where x\s*\n+\s*\$\$\s*\\neq\s*(\d+)/g, 'where $x \\neq $1$')
+
+  const trimMappingExpr = (expr: string): string => {
+    const m = expr.match(
+      /^(.+?)(?=\s+(?:has the domain|for the domain|when the domain|with the domain|has domain|for x|find|state|determine|given|explain|which|when|with)\b|[.,?]|$)/i,
+    )
+    return (m?.[1] ?? expr).replace(/\s+where the domain is$/i, '').trim()
+  }
+
+  // f:x$\mapsto\n\n$$expr$ or g:x$\mapsto\n\n$$\frac{...}$
+  t = t.replace(
+    /([a-zA-Z]):([a-zA-Z])\$\\mapsto\s*(?:\n+\s*)?\$\$\s*([^$]+)\$\s*/g,
+    (_, fn, variable, expr) => `$${fn}: ${variable} \\mapsto ${trimMappingExpr(expr)}$ `,
+  )
+  // x$\mapsto\n\n$$expr$
+  t = t.replace(
+    /(?<![a-zA-Z]:)([a-zA-Z])\$\\mapsto\s*(?:\n+\s*)?\$\$\s*([^$]+)\$\s*/g,
+    (_, variable, expr) => `$${variable} \\mapsto ${trimMappingExpr(expr)}$ `,
+  )
+
+  // f:x$\mapsto$expr
+  t = t.replace(
+    /([a-zA-Z]):([a-zA-Z])\$\\mapsto\$([^$\n]+)/g,
+    (_, fn, variable, rest) => {
+      const expr = trimMappingExpr(rest)
+      const tail = rest.slice(expr.length)
+      return `$${fn}: ${variable} \\mapsto ${expr}$${tail}`
+    },
+  )
+  // x$\mapsto$expr
+  t = t.replace(
+    /(?<![a-zA-Z:])([a-zA-Z])\$\\mapsto\$([^$\n]+)/g,
+    (_, variable, rest) => {
+      const expr = trimMappingExpr(rest)
+      const tail = rest.slice(expr.length)
+      return `$${variable} \\mapsto ${expr}$${tail}`
+    },
+  )
+
+  // $x \mapsto x^{2} where the domain is$ → $x \mapsto x^{2}$ where the domain is
+  t = t.replace(
+    /\$([a-zA-Z]:?\s?[a-zA-Z]?\\mapsto[^$]+?)\s+where the domain is\$/g,
+    '$$$1$ where the domain is',
+  )
+
+  // (−1)$\mapsto$4 in explanations
+  t = t.replace(/\(([^)]+)\)\$\\mapsto\$([^,\s.]+)/g, '$$($1) \\mapsto $2$$')
+
+  // where the domain is$\n−2,2? or where the domain is$\{-2, 2\}$?
+  t = t.replace(/where the domain is\$\s*\n?(\{?[-0-9, ]+\}?)\??/g, (_, domain) => {
+    const cleaned = domain.replace(/^\{|\}$/g, '').replace(/\?$/,'').trim()
+    if (cleaned.includes(',')) {
+      const vals = cleaned.split(',').map((v: string) => v.trim()).join(', ')
+      return `where the domain is $\\{${vals}\\}$?`
+    }
+    return `where the domain is $${cleaned}$?`
+  })
+
+  // "domain\n−3,0,3,6" — preserve "has the domain" wording
+  t = t.replace(/domain\s*\n([-0-9,≤≥<> ]+)/g, (_, vals) => {
+    const list = vals.trim().split(',').map((v: string) => v.trim()).join(', ')
+    return `domain $\\{${list}\\}$`
+  })
+  // domain still glued inside math: "...domain$-3,0,3,6"
+  t = t.replace(/domain\$([-\d,]+)/g, (_, vals) => {
+    const list = vals.split(',').map((v: string) => v.trim()).join(', ')
+    return `domain $\\{${list}\\}$`
+  })
+
+  // 5−$x^{2}$ → $5 - x^{2}$
+  t = t.replace(/(\d+)−\$(x\^\{[^}]+\})\$/g, '$$$1 - $2$$')
+
+  // Corrupted import fractions
+  t = t.replace(/\\frac\{2x-\}\{1x\+3\}/g, '\\frac{2x-1}{x+3}')
+
+  // Trailing $ from broken display blocks
+  t = t.replace(/\$ where/g, ' where')
+  t = t.replace(/(\d)\.\$/g, '$1.')
+  t = t.replace(/\$ for \$x\$/g, ' for $x$')
+  // Final pass: mapping + domain must not share one $...$ block
+  t = t.replace(
+    /\$([a-zA-Z]:?\s?[a-zA-Z]?\\mapsto[^$]+)\$\s+where the domain is\s+\$(\{[^}]+\})\$/g,
+    '$$1$ where the domain is $$2$',
+  )
+  t = t.replace(
+    /\$([a-zA-Z]:?\s?[a-zA-Z]?\\mapsto[^$]+)\s+where the domain is\s+\$(\{[^}]+\})\$/g,
+    '$$1$ where the domain is $$2$',
+  )
+  t = t.replace(/ for x∈R\.?/g, ' for $x \\in \\mathbb{R}$.')
+
+  // Trailing orphan $$ from import/repair
+  t = t.replace(/\?\$\$$/g, '?')
+  t = t.replace(/\$\$$/g, '')
+
+  // Fix half-repaired domain sets glued to prose (safety net)
+  t = t.replace(
+    /(\$[a-zA-Z]:?\s?[a-zA-Z]?\\mapsto[^$]+\$)\s+where the domain is\\{([^}]+)\\}\$/g,
+    '$1 where the domain is $\\{$2\\}$',
+  )
+
+  return t
+}
+
 /** Fix LaTeX in quiz strings (double-escaped commands, unicode surds). */
 export function fixQuizLatexText(raw: string): string {
   let text = decodeHTMLEntities(stripInvisibleChars(raw))
+  text = fixBrokenMappingNotation(text)
+  text = fixDollarTwoPlaceholder(text)
+  text = fixBrokenMappingNotation(text)
   text = repairQuizImportArtifacts(text)
   text = repairCorruptedQuizMath(text)
   text = fixDocxExponentNewlines(text)
@@ -563,7 +791,9 @@ export function fixQuizLatexText(raw: string): string {
   text = text.replace(/\$\$\$/g, () => '$$')
   text = text.replace(/\\+\s*$/g, '')
   text = text.replace(/\\text\{([^}]*)\^(\d+)\}/g, '\\text{$1}^{$2}')
-  return normalizeMathMarkdown(text)
+  text = normalizeMathMarkdown(text)
+  text = fixBrokenMappingNotation(text)
+  return repairMathMarkdown(text)
 }
 
 /** Wrap math notation in topic/quiz titles for KaTeX rendering. */
@@ -623,6 +853,19 @@ function wrapBareMath(text: string): string {
     .join('')
 }
 
+function mergeProseOnlyFormulaCards(cards: string[]): string[] {
+  const merged: string[] = []
+  for (const card of cards) {
+    const hasMath = /\$\$[\s\S]*?\$\$/.test(card)
+    if (!hasMath && merged.length > 0) {
+      merged[merged.length - 1] += `\n\n${card}`
+    } else {
+      merged.push(card)
+    }
+  }
+  return merged
+}
+
 /** Split key-formula sections into unified title + formula + description cards. */
 export function parseFormulaCards(body: string): string[] {
   const trimmed = body
@@ -635,16 +878,18 @@ export function parseFormulaCards(body: string): string[] {
     .map((b) => b.trim().replace(/^\.\s+/, ''))
     .filter(Boolean)
 
-  if (blocks.length > 1) return blocks
+  if (blocks.length > 1) return mergeProseOnlyFormulaCards(blocks)
 
   const cards = parseContentCards(trimmed)
   if (cards.length >= 1) {
-    return cards.map((card) => {
-      const t = card.trim()
-      const inlineOnly = t.match(/^\$([^$\n]+)\$$/)
-      if (inlineOnly) return `$$\n${inlineOnly[1]}\n$$`
-      return card
-    })
+    return mergeProseOnlyFormulaCards(
+      cards.map((card) => {
+        const t = card.trim()
+        const inlineOnly = t.match(/^\$([^$\n]+)\$$/)
+        if (inlineOnly) return `$$\n${inlineOnly[1]}\n$$`
+        return card
+      }),
+    )
   }
 
   return cards
@@ -670,14 +915,23 @@ const K_VARIANT_MARKER = /<!--\s*k-variant\s*-->/i
 export function parseFormulaCardVariants(card: string): ParsedFormulaCard {
   const trimmed = card.trim()
   const titleMatch = trimmed.match(/^\*\*([^*]+)\*\*/)
-  const title = titleMatch?.[1]?.trim() ?? ''
-  const titleMarkdown = titleMatch?.[0] ?? ''
+  let title = titleMatch?.[1]?.trim() ?? ''
+  let titleMarkdown = titleMatch?.[0] ?? ''
   const mathBlocks = [...trimmed.matchAll(/\$\$([\s\S]*?)\$\$/g)].map((m) => m[1].trim())
   let description = trimmed
     .replace(/^\*\*[^*]+\*\*\s*/, '')
     .replace(/\$\$[\s\S]*?\$\$/g, '')
     .replace(K_VARIANT_MARKER, '')
     .trim()
+
+  if (!title && mathBlocks[0]) {
+    const textTitle = mathBlocks[0].match(/^\\text\{([^}:]+)(?::)?\}/)
+    if (textTitle) {
+      title = textTitle[1].trim()
+      titleMarkdown = `**${title}**`
+      mathBlocks[0] = mathBlocks[0].replace(/^\\text\{[^}]+\}\s*(?:\\quad\s*)?/, '').trim()
+    }
+  }
 
   const variants: FormulaCardVariant[] = []
   if (K_VARIANT_MARKER.test(trimmed) && mathBlocks.length >= 2) {
@@ -686,7 +940,7 @@ export function parseFormulaCardVariants(card: string): ParsedFormulaCard {
     for (let i = 2; i < mathBlocks.length; i++) {
       variants.push({ id: `form-${i + 1}`, label: `Form ${i + 1}`, math: mathBlocks[i] })
     }
-  } else if (mathBlocks.length === 1) {
+  } else if (mathBlocks.length >= 1) {
     variants.push({ id: 'base', label: 'Formula', math: mathBlocks[0] })
   }
 
@@ -698,8 +952,40 @@ export function formulaCardHasKToggle(card: string): boolean {
 }
 
 export interface TopicCard {
-  text: string
+  /** Intro text before the diagram (e.g. a **Subheading** block). */
+  text?: string
   diagram?: string
+  /** Description shown below the diagram (caption promoted out of the diagram div). */
+  caption?: string
+}
+
+const DIAGRAM_DIV_RE =
+  /<div class="[^"]*(?:enlight-physics-diagram|enlight-fleming-3d)[^"]*"[^>]*>[\s\S]*?<\/div>/g
+
+function parseDiagramSequence(body: string): TopicCard[] {
+  const matches = [...body.matchAll(DIAGRAM_DIV_RE)]
+  if (matches.length === 0) return []
+
+  const cards: TopicCard[] = []
+  for (let i = 0; i < matches.length; i++) {
+    const match = matches[i]
+    const idx = match.index ?? 0
+    const prevEnd =
+      i === 0 ? 0 : (matches[i - 1].index ?? 0) + matches[i - 1][0].length
+    const nextStart = idx + match[0].length
+    const nextIdx =
+      i + 1 < matches.length ? (matches[i + 1].index ?? body.length) : body.length
+
+    const card: TopicCard = { diagram: match[0] }
+    const before = body.slice(prevEnd, idx).trim()
+    const after = body.slice(nextStart, nextIdx).trim()
+
+    if (i === 0 && before) card.text = before
+    if (after) card.caption = after
+    cards.push(card)
+  }
+
+  return cards
 }
 
 /** Split graphs/diagrams sections into topic cards with optional diagram HTML. */
@@ -707,16 +993,28 @@ export function parseTopicCards(body: string): TopicCard[] {
   const trimmed = body.trim()
   if (!trimmed) return []
 
+  const diagramCards = parseDiagramSequence(trimmed)
+  if (diagramCards.length > 1) return diagramCards
+
   // Each **Subheading** block may include bullets + one trailing diagram div.
   const parts = trimmed.split(/\n\n(?=\*\*[^*\n]+\*\*)/).filter(Boolean)
   const cards: TopicCard[] = []
 
   for (const part of parts) {
-    const diagramMatch = part.match(/(<div class="enlight-physics-diagram">[\s\S]*?<\/div>)\s*/)
+    const diagramMatch = part.match(
+      /(<div class="[^"]*(?:enlight-physics-diagram|enlight-fleming-3d|enlight-em-3d)[^"]*"[^>]*>[\s\S]*?<\/div>)\s*/,
+    )
     const diagram = diagramMatch?.[1]
     const text = diagramMatch ? part.replace(diagramMatch[0], '').trim() : part.trim()
-    if (text || diagram) cards.push({ text, diagram })
+    if (text || diagram) {
+      const card: TopicCard = {}
+      if (text) card.text = text
+      if (diagram) card.diagram = diagram
+      cards.push(card)
+    }
   }
+
+  if (cards.length === 0 && diagramCards.length === 1) return diagramCards
 
   return cards
 }
@@ -787,6 +1085,13 @@ export function stripStepPrefix(text: string): string {
 export function fixDollarTwoPlaceholder(text: string): string {
   let t = text
 
+  // Circular measure: "$150^\circ$2$\pi$" → "150° to radians"
+  t = t.replace(/\$(\d+\^\\circ)\$2\$\\pi\$/g, '$$$1$ to radians')
+  t = t.replace(/\$(\d+\^\\circ)\$2\$([\d.]+\\pi)\$/g, '$$$1$ is equal to $$$2$')
+  t = t.replace(/\$(\d+\^\\circ)\$2\$([\d.]+\\pi\/\d+)\$/g, '$$$1$ ($$$2$)')
+  t = t.replace(/\$(\d+\^\\circ)\$2\$(\d+\^\\circ)\$/g, '$$$1$ instead of $$$2$')
+  t = t.replace(/\$(\d+\^\\circ)\$2\$(\\pi\/\d+)\$/g, '$$$1$ ($$$2$)')
+
   t = t.replace(/\$([^$]+)\$2\$([^$]+)\$/g, (_, left, right) => {
     const l = left.trim()
     const r = right.trim()
@@ -801,7 +1106,12 @@ export function fixDollarTwoPlaceholder(text: string): string {
   })
 
   t = t.replace(/\$2\$/g, '2')
-  t = t.replace(/\$\.\$/g, '2')
+  t = t.replace(/\$\.\$/g, (_match, offset, full: string) => {
+    if (offset > 1 && full[offset - 1] === '}' && full[offset - 2] === '$') return '.$'
+    if (offset > 0 && full[offset - 1] === '}') return '.$'
+    return '2'
+  })
+  t = t.replace(/\}\$\.\$/g, '}.')
   t = t.replace(/\(\$\.\s/g, '(2 ')
   t = t.replace(/\(\.\$/g, '(2$')
   return t
@@ -825,7 +1135,12 @@ function unwrapInnerDollarLines(inner: string): string[] {
 /** Split a display block that contains multiple \\text{Title:} formulas. */
 export function splitMultiFormulaDisplayBlocks(text: string): string {
   return text.replace(/\$\$([\s\S]*?)\$\$/g, (_, inner) => {
-    const lines = unwrapInnerDollarLines(inner.trim())
+    const trimmed = inner.trim()
+    if (/\\begin\{(aligned|array|cases|pmatrix|bmatrix|matrix)\}/.test(trimmed)) {
+      return `$$\n${trimmed}\n$$`
+    }
+
+    const lines = unwrapInnerDollarLines(trimmed)
     if (lines.length > 1) {
       return lines.map((p) => `$$\n${p}\n$$`).join('\n\n')
     }
@@ -836,7 +1151,16 @@ export function splitMultiFormulaDisplayBlocks(text: string): string {
       .map((p) => p.trim().replace(/^\$+/, '').replace(/\$+$/, '').trim())
       .filter(Boolean)
 
-    if (parts.length <= 1) return `$$\n${single}\n$$`
+    if (parts.length <= 1) {
+      const qParts = single
+        .split(/\s*\\qquad\s*/)
+        .map((p) => p.trim())
+        .filter(Boolean)
+      if (qParts.length > 1) {
+        return qParts.map((p) => `$$\n${p}\n$$`).join('\n\n')
+      }
+      return `$$\n${single}\n$$`
+    }
     return parts.map((p) => `$$\n${p}\n$$`).join('\n\n')
   })
 }
@@ -852,7 +1176,7 @@ export function wrapOrphanLatexLines(text: string): string {
         .map((line) => {
           const t = line.trim()
           if (!t) return line
-          if (/^\\(text|frac|begin|left|Rightarrow|quad)\b/.test(t)) {
+          if (/^\\(text|frac|begin|left|Rightarrow|quad|hat|vec|int|sqrt|Delta|pmatrix)\b/.test(t)) {
             return `$$\n${t}\n$$`
           }
           return line
@@ -864,29 +1188,35 @@ export function wrapOrphanLatexLines(text: string): string {
 
 /** Balance $ delimiters and wrap bare math lines (worked-example import artefacts). */
 export function fixInlineMathLines(text: string): string {
-  return text
-    .split('\n')
-    .map((line) => {
-      let l = line
-      l = l.replace(/\$\.\$/g, '2')
+  const parts = text.split(/(\$\$[\s\S]*?\$\$)/)
+  return parts
+    .map((part) => {
+      if (part.startsWith('$$')) return part
+      return part
+        .split('\n')
+        .map((line) => {
+          let l = line
+          l = l.replace(/\$\.\$/g, '2')
 
-      const dollars = l.match(/(?<!\\)\$/g)?.length ?? 0
-      if (dollars % 2 === 1) {
-        l = `${l.trimEnd()}$`
-      }
+          const dollars = l.match(/(?<!\\)\$/g)?.length ?? 0
+          if (dollars % 2 === 1) {
+            l = `${l.trimEnd()}$`
+          }
 
-      const trimmed = l.trim()
-      if (
-        !trimmed.includes('$') &&
-        (/\\times|\\text\{|\\frac|\\Rightarrow/.test(trimmed) ||
-          /^(\d+\s*=|[A-Za-z].*= .*\\times)/.test(trimmed))
-      ) {
-        return `$${trimmed}$`
-      }
+          const trimmed = l.trim()
+          if (
+            !trimmed.includes('$') &&
+            (/\\times|\\text\{|\\frac|\\Rightarrow/.test(trimmed) ||
+              /^(\d+\s*=|[A-Za-z].*= .*\\times)/.test(trimmed))
+          ) {
+            return `$${trimmed}$`
+          }
 
-      return l
+          return l
+        })
+        .join('\n')
     })
-    .join('\n')
+    .join('')
 }
 
 /** Strip nested $...$ inside $$ display blocks (invalid KaTeX — common import artefact). */
@@ -894,6 +1224,8 @@ function unwrapNestedInlineInDisplay(text: string): string {
   return text.replace(/\$\$([\s\S]*?)\$\$/g, (_, inner) => {
     const cleaned = inner
       .replace(/\$([^$]+)\$/g, (_m: string, math: string) => math.trim())
+      .replace(/^\$+/, '')
+      .replace(/\$+$/, '')
       .trim()
     return cleaned ? `$$\n${cleaned}\n$$` : ''
   })
@@ -918,12 +1250,62 @@ export function promoteDiagramCaptions(text: string): string {
   )
 }
 
+/** Remove $ wrappers around plain English phrases (import artefact). */
+function stripProseDollarWrappers(text: string): string {
+  let t = text
+  t = t.replace(/\$\$\$/g, '$$\n')
+  t = t.replace(/\$At\$/g, 'At')
+  t = t.replace(/\$Compare:\$/g, 'Compare:')
+  t = t.replace(/\$The domain excludes\$/g, 'The domain excludes')
+  t = t.replace(/\$since this causes\b/g, 'since this causes')
+  t = t.replace(/\beven though\$/g, 'even though')
+  t = t.replace(/\$itself is defined\b/g, 'itself is defined')
+  t = t.replace(/\$but\$/g, ' but ')
+  t = t.replace(/\$and\$/g, ' and ')
+  t = t.replace(/\$for all\$/g, 'for all')
+  t = t.replace(/\$Maximum area\$/g, 'Maximum area')
+  return t.replace(/\$([A-Za-z][A-Za-z\s,:.;!?-]{2,}?)\$/g, (match, inner: string) => {
+    if (/\\[a-zA-Z]|\\frac|\\sqrt|\^|_|=|<|>|\\text|\\\\|\d/.test(inner)) return match
+    if (/\b(the|a|an|of|to|at|in|for|and|is|are|was|domain|excludes|since|though|Compare|Maximum|area)\b/i.test(inner)) {
+      return inner.trim()
+    }
+    return match
+  })
+}
+
 /** Fix common Word/import artifacts in note markdown before math normalization. */
+/** Fix docx import artefacts like `$k$. $k^2$)` or `$h$. So $l = …$)`. */
+function fixDocxSplitMathPunctuation(text: string): string {
+  return text
+    .replace(/\$([^$\n]+)\$\.\s+\$([^$\n]+)\$\)/g, '$$$1$ ($$2$)')
+    .replace(/\$([^$\n]+)\$\.\s+So\s+\$([^$\n]+)\$\)/g, '$$$1$. Use $$2$')
+    .replace(/\(\$([^$]+)\$\.\s+\$([^$]+)\$\)/g, '($$1$, $$2$)')
+    .replace(/\$h\$\s+and\s+\$l\.\s*h\$\s+and\s+\$l\$/g, '$h$ and $l$')
+    .replace(/\\frac\{1\}\{4\/3\}/g, '\\frac{4}{3}')
+    .replace(/\(e\.g\$\.\s+\$2x_/g, '(e.g. $x_')
+    .replace(/\$y value \(e\.g\$/g, '$y$ value (e.g.')
+    .replace(/(\d+):\$/g, '$1: $')
+    .replace(/\$([^$\n]+)\$\.\s+So\s+\$([^$\n]+)\$/g, '$$$1$ when $$2$')
+    .replace(/\$0\.25N\$\.\s+\$0\.5N\.\s+0\.75N\$/g, '$0.25N$, $0.5N$, and $0.75N$')
+    .replace(/area \$=\s+frequency\.\$/g, 'area $=$ frequency')
+    .replace(/\$(\d{2,3})P(?=\\|\()/g, '\n\n$P')
+    .replace(
+      /\\begin\{cases\}([\s\S]*?)\s\\(?![\\])([\s\S]*?)\\end\{cases\}/g,
+      (_, first, second) => `\\begin{cases}${first.trim()} \\\\ ${second.trim()}\\end{cases}`,
+    )
+    .replace(/\$([A-Z])\$\s+and\s+\$([A-Z])\.\s*([A-Z])\$/g, '$$1$, $$2$, and $$3$')
+    .replace(/\$([0-9]+\\circ)\$\s+and\s+\$([0-9]+\\circ)\.\s*\\text\{/g, '$$1$ from $$2$: $\\text{')
+    .replace(/:\$\\text\{/g, ': $\\text{')
+}
+
 export function repairImportedNoteArtifacts(text: string): string {
   let t = text
   t = promoteDiagramCaptions(t)
   t = fixDollarTwoPlaceholder(t)
-  t = fixInlineMathLines(t)
+  t = fixDocxSplitMathPunctuation(t)
+  t = stripProseDollarWrappers(t)
+  t = unwrapNestedInlineInDisplay(t)
+  t = closeUnclosedDisplayMath(t)
   t = t.replace(/([a-z])(time|distance|speed|Calculate|Identify|Apply|So)(\b)/gi, '$1 $2$3')
   t = t.replace(/(\))and(\s*\()/gi, '$1 and $2')
   t = t.replace(/andtime/gi, 'and time')
@@ -935,6 +1317,7 @@ export function repairImportedNoteArtifacts(text: string): string {
   t = t.replace(/^\$Question:\s*/gim, 'Question: ')
   t = t.replace(/([a-z,.])(\$[^$]+\$)/g, '$1 $2')
   t = t.replace(/\$\s*(\d+(?:\.\d+)?)\s*\$/g, '$$$1$$')
+  t = t.replace(/\\Rightarrow([a-zA-Z])/g, '\\Rightarrow $1')
   return t
 }
 

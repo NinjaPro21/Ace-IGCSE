@@ -10,6 +10,7 @@ import type { TopicMeta, GuidePanel, DiffGuidePanel, VectorGuidePanel, Integrati
 import {
   calloutVariant,
   expandWorkedExampleSections,
+  reorderWorkedExamplesAfterSteps,
   prepareMathContent,
   parseContentCards,
   parseFormulaCards,
@@ -115,6 +116,15 @@ const CasioCalculatorGuide = lazy(() =>
 const ThermalVisualGuide = lazy(() =>
   import('@/features/explorers/ThermalVisualGuide').then((m) => ({ default: m.ThermalVisualGuide })),
 )
+const LensImageExplorer = lazy(() =>
+  import('@/features/explorers/LensImageExplorer').then((m) => ({ default: m.LensImageExplorer })),
+)
+const FlemingHandRuleExplorer = lazy(() =>
+  import('@/features/explorers/FlemingHandRuleExplorer').then((m) => ({ default: m.FlemingHandRuleExplorer })),
+)
+const Ch18Diagram = lazy(() =>
+  import('@/features/explorers/ch18').then((m) => ({ default: m.Ch18Diagram })),
+)
 
 type SectionKind =
   | 'core'
@@ -196,8 +206,9 @@ function parseSections(raw: string): NoteSection[] {
 
 function Md({ children, className }: { children: string; className?: string }) {
   const prepared = prepareMathContent(children, 'note')
+  const classes = ['enlight-markdown', className].filter(Boolean).join(' ')
   return (
-    <div className={className ?? 'enlight-markdown'}>
+    <div className={classes}>
       <ReactMarkdown remarkPlugins={MD_PLUGINS.remark} rehypePlugins={MD_PLUGINS.rehype}>
         {prepared}
       </ReactMarkdown>
@@ -342,70 +353,27 @@ function ExamplesPanel({ examples }: { examples: NoteSection[] }) {
   )
 }
 
-type MethodTab = 'steps' | 'examples'
-
-function MethodTabbedCard({
+function MethodWithExamplesCard({
   stepsSection,
   examples,
 }: {
   stepsSection: NoteSection
   examples: NoteSection[]
 }) {
-  const [tab, setTab] = useState<MethodTab>('steps')
   const { steps, callouts } = parseStepsWithCallouts(stepsSection.body)
   const label = stepsSection.heading.replace(/^method\s+\d+\s*[—–-]\s*/i, '').trim()
   const methodNum = stepsSection.heading.match(/^method\s+(\d+)/i)?.[1]
   const wsLabel = methodNum ? `Method ${methodNum} — ${label}` : stepsSection.heading
 
   return (
-    <WorkspaceCard className="enlight-ws-card--tabbed">
-      <p className="enlight-lesson-tabs__section-title">{wsLabel}</p>
-      <div className="enlight-lesson-tabs" role="tablist" aria-label={`${wsLabel} sections`}>
-        <button
-          type="button"
-          role="tab"
-          id="tab-steps"
-          aria-selected={tab === 'steps'}
-          aria-controls="panel-steps"
-          className={`enlight-lesson-tabs__btn${tab === 'steps' ? ' enlight-lesson-tabs__btn--active' : ''}`}
-          onClick={() => setTab('steps')}
-        >
-          Steps
-        </button>
-        <button
-          type="button"
-          role="tab"
-          id="tab-examples"
-          aria-selected={tab === 'examples'}
-          aria-controls="panel-examples"
-          className={`enlight-lesson-tabs__btn${tab === 'examples' ? ' enlight-lesson-tabs__btn--active' : ''}`}
-          onClick={() => setTab('examples')}
-        >
-          Worked examples
-          {examples.length > 1 && (
-            <span className="enlight-lesson-tabs__count">{examples.length}</span>
-          )}
-        </button>
-      </div>
-      {tab === 'steps' ? (
-        <div
-          role="tabpanel"
-          id="panel-steps"
-          aria-labelledby="tab-steps"
-          className="enlight-lesson-tabs__panel"
-        >
-          <StepList steps={steps} />
-          {callouts.map((c, i) => (
-            <InlineCalloutBox key={i} label={c.label} body={c.body} />
-          ))}
-        </div>
-      ) : (
-        <div
-          role="tabpanel"
-          id="panel-examples"
-          aria-labelledby="tab-examples"
-          className="enlight-lesson-tabs__panel"
-        >
+    <WorkspaceCard>
+      <WorkspaceLabel>{wsLabel}</WorkspaceLabel>
+      <StepList steps={steps} />
+      {callouts.map((c, i) => (
+        <InlineCalloutBox key={i} label={c.label} body={c.body} />
+      ))}
+      {examples.length > 0 && (
+        <div className="enlight-method-examples-bridge">
           <ExamplesPanel examples={examples} />
         </div>
       )}
@@ -448,10 +416,24 @@ function FormulaStackItem({ card }: { card: string }) {
   const [variantId, setVariantId] = useState(parsed.variants[0]?.id ?? 'base')
   const active = parsed.variants.find((v) => v.id === variantId) ?? parsed.variants[0]
 
-  if (!hasToggle || !active) {
+  if (!active) {
     return (
       <div className="enlight-formula-stack__item">
         <Md className="enlight-markdown">{card}</Md>
+      </div>
+    )
+  }
+
+  if (!hasToggle) {
+    return (
+      <div className="enlight-formula-stack__item">
+        {parsed.titleMarkdown ? (
+          <Md className="enlight-markdown enlight-formula-card__title">{parsed.titleMarkdown}</Md>
+        ) : null}
+        <Md className="enlight-markdown">{`$$\n${active.math}\n$$`}</Md>
+        {parsed.description ? (
+          <Md className="enlight-markdown enlight-formula-card__desc">{parsed.description}</Md>
+        ) : null}
       </div>
     )
   }
@@ -485,8 +467,24 @@ function FormulaStackItem({ card }: { card: string }) {
 
 function MethodsSection({ section }: { section: NoteSection }) {
   const isKeyFormulas = section.heading.toLowerCase() === 'key formulas'
+  const isKeyMethods = /^key methods/i.test(section.heading)
   const sectionBody = isKeyFormulas ? normalizeKeyFormulasBody(section.body) : section.body
-  const cards = isKeyFormulas ? parseFormulaCards(sectionBody) : parseContentCards(section.body)
+  const cards = isKeyFormulas ? parseFormulaCards(sectionBody) : parseContentCards(sectionBody)
+
+  if (cards.length >= 1 && isKeyMethods) {
+    return (
+      <WorkspaceCard>
+        <WorkspaceLabel>{section.heading}</WorkspaceLabel>
+        <div className="enlight-key-methods-grid">
+          {cards.map((card, i) => (
+            <div key={i} className="enlight-key-methods-card">
+              <Md className="enlight-markdown enlight-key-methods-card__body">{card}</Md>
+            </div>
+          ))}
+        </div>
+      </WorkspaceCard>
+    )
+  }
 
   // Decision grid is for taxonomy cards (mapping types etc.), not formula lists
   if (cards.length >= 3 && !isKeyFormulas) {
@@ -514,10 +512,42 @@ function MethodsSection({ section }: { section: NoteSection }) {
   return null
 }
 
-function GraphsDiagramsSection({ section }: { section: NoteSection }) {
-  const cards = parseTopicCards(section.body)
+function Em3dDiagramCard({ diagram, hero }: { diagram: string; hero?: boolean }) {
+  return (
+    <Suspense
+      fallback={
+        <div className="enlight-sandbox-coming-soon">
+          <span style={{ fontSize: '1.5rem' }}>⏳</span>
+          <span>Loading 3D diagram…</span>
+        </div>
+      }
+    >
+      <Ch18Diagram diagram={diagram} hero={hero} />
+    </Suspense>
+  )
+}
 
-  if (cards.length <= 1 && !cards[0]?.diagram) {
+function isEm3dDiagram(diagram: string) {
+  return (
+    diagram.includes('enlight-em-3d') ||
+    diagram.includes('enlight-fleming-3d') ||
+    diagram.includes('enlight-physics-diagram--hand-rule')
+  )
+}
+
+function GraphDiagramContent({ diagram }: { diagram: string }) {
+  if (isEm3dDiagram(diagram)) {
+    return <Em3dDiagramCard diagram={diagram} />
+  }
+  return <Md className="enlight-markdown enlight-graph-topic-card__diagram">{diagram}</Md>
+}
+
+function GraphsDiagramsSection({ section }: { section: NoteSection }) {
+  const cards = [...parseTopicCards(section.body)]
+  const heroIdx = cards.findIndex((c) => c.diagram?.includes('enlight-physics-diagram--hero'))
+  const heroCard = heroIdx >= 0 ? cards.splice(heroIdx, 1)[0] : null
+
+  if (cards.length <= 1 && !cards[0]?.diagram && !heroCard) {
     return (
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
@@ -527,16 +557,33 @@ function GraphsDiagramsSection({ section }: { section: NoteSection }) {
   }
 
   return (
-    <WorkspaceCard>
+    <WorkspaceCard className={heroCard ? 'enlight-ws-card--graphs-hero' : undefined}>
       <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-      <div className="enlight-graph-topic-stack">
-        {cards.map((card, i) => (
-          <div key={i} className="enlight-graph-topic-card">
-            {card.text ? <Md className="enlight-markdown">{card.text}</Md> : null}
-            {card.diagram ? <Md className="enlight-markdown enlight-graph-topic-card__diagram">{card.diagram}</Md> : null}
-          </div>
-        ))}
-      </div>
+      {heroCard ? (
+        <div className="enlight-graph-hero">
+          {heroCard.text ? <Md className="enlight-markdown enlight-graph-hero__text">{heroCard.text}</Md> : null}
+          {heroCard.diagram ? (
+            isEm3dDiagram(heroCard.diagram) ? (
+              <Em3dDiagramCard diagram={heroCard.diagram} hero />
+            ) : (
+              <Md className="enlight-markdown enlight-graph-hero__diagram">{heroCard.diagram}</Md>
+            )
+          ) : null}
+        </div>
+      ) : null}
+      {cards.length > 0 ? (
+        <div className={`enlight-graph-topic-stack${heroCard ? ' enlight-graph-topic-stack--after-hero' : ''}`}>
+          {cards.map((card, i) => (
+            <div key={i} className="enlight-graph-topic-card">
+              {card.text ? <Md className="enlight-markdown">{card.text}</Md> : null}
+              {card.diagram ? <GraphDiagramContent diagram={card.diagram} /> : null}
+              {card.caption ? (
+                <Md className="enlight-markdown enlight-graph-topic-card__caption">{card.caption}</Md>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      ) : null}
     </WorkspaceCard>
   )
 }
@@ -631,6 +678,8 @@ const EXPLORER_LABELS: Record<NonNullable<TopicMeta['explorerId']>, string> = {
   'curves-guide': 'Curve Plotting Guide',
   'right-triangle-guide': 'Right-Triangle Trigonometry',
   'thermal-guide': 'Thermal Properties Diagrams',
+  'lens-guide': 'Converging Lens Ray Diagrams',
+  'fleming-guide': "Fleming's Hand Rules (3D)",
 }
 
 const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>([
@@ -650,6 +699,8 @@ const VISUAL_GUIDE_IDS = new Set<TopicMeta['explorerId']>([
   'curves-guide',
   'right-triangle-guide',
   'thermal-guide',
+  'lens-guide',
+  'fleming-guide',
 ])
 
 function ExplorerContent({
@@ -759,6 +810,18 @@ function ExplorerContent({
           <ThermalVisualGuide panels={explorerPanels as import('@/lib/contentTypes').ThermalGuidePanel[] | undefined} />
         </Suspense>
       )
+    case 'lens-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <LensImageExplorer panels={explorerPanels as import('@/lib/contentTypes').LensGuidePanel[] | undefined} />
+        </Suspense>
+      )
+    case 'fleming-guide':
+      return (
+        <Suspense fallback={fallback}>
+          <FlemingHandRuleExplorer panels={explorerPanels as import('@/lib/contentTypes').FlemingGuidePanel[] | undefined} />
+        </Suspense>
+      )
     default:
       return (
         <div className="enlight-sandbox-coming-soon">
@@ -816,7 +879,7 @@ function renderSections(sections: NoteSection[]): ReactNode[] {
       }
       if (examples.length > 0) {
         elements.push(
-          <MethodTabbedCard key={idx} stepsSection={section} examples={examples} />,
+          <MethodWithExamplesCard key={idx} stepsSection={section} examples={examples} />,
         )
         idx = j
       } else {
@@ -878,7 +941,7 @@ interface MarkdownLessonProps {
 }
 
 export function MarkdownLesson({ content, explorerId, explorerPanels, subjectId }: MarkdownLessonProps) {
-  const sections = expandWorkedExampleSections(parseSections(content))
+  const sections = reorderWorkedExamplesAfterSteps(expandWorkedExampleSections(parseSections(content)))
 
   return (
     <div className="enlight-note-workspace">

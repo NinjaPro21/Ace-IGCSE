@@ -32,9 +32,11 @@ function getStepScore(
 interface TopicMasteryPathProps {
   topicId: string
   notesComplete: boolean
+  /** When false for a tier, that quiz link is hidden (e.g. pending content). */
+  quizAvailability?: Partial<Record<Difficulty, boolean>>
 }
 
-export function TopicMasteryPath({ topicId, notesComplete }: TopicMasteryPathProps) {
+export function TopicMasteryPath({ topicId, notesComplete, quizAvailability }: TopicMasteryPathProps) {
   const { progress, canTakeTopicQuiz } = useMastery()
   const topicProgress = progress.topics[topicId]
   const quizLevel = (topicProgress?.quizLevel ?? 0) as import('@/features/mastery/MasteryEngine').MasteryLevel
@@ -43,6 +45,10 @@ export function TopicMasteryPath({ topicId, notesComplete }: TopicMasteryPathPro
     <div className="enlight-mastery-path">
       {STEPS.map((step, idx) => {
         const isNotes = step.difficulty === 'notes'
+        const difficulty = step.difficulty as Difficulty
+        const quizAvailable = isNotes || quizAvailability?.[difficulty] !== false
+        if (!isNotes && !quizAvailable) return null
+
         const complete = isNotes ? notesComplete : quizLevel > idx
         const unlocked = isNotes
           ? true
@@ -62,6 +68,18 @@ export function TopicMasteryPath({ topicId, notesComplete }: TopicMasteryPathPro
             <div key={step.difficulty} className={cls}>
               <div className="enlight-mastery-step__label">{step.label}</div>
               <div className="enlight-mastery-step__title">{step.title}</div>
+            </div>
+          )
+        }
+
+        if (complete) {
+          return (
+            <div key={step.difficulty} className={cls} title="Tier complete">
+              <div className="enlight-mastery-step__label">{step.label}</div>
+              <div className="enlight-mastery-step__title">{step.title}</div>
+              {score !== undefined && (
+                <div className="enlight-mastery-step__score">{Math.min(100, score)}%</div>
+              )}
             </div>
           )
         }

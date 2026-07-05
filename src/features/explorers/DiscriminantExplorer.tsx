@@ -1,8 +1,16 @@
 import { useMemo, useState } from 'react'
-import { GRAPH } from './graphTheme'
+import { GraphAxes, createGraphMapper } from './GraphAxes'
 
 const A = 1
 const B = 2
+
+const W = 400
+const H = 280
+const X_MIN = -6
+const X_MAX = 4
+const Y_MIN = -4
+const Y_MAX = 12
+const MAPPER = createGraphMapper(W, H, X_MIN, X_MAX, Y_MIN, Y_MAX)
 
 function discriminant(c: number): number {
   return B * B - 4 * A * c
@@ -28,21 +36,11 @@ export function DiscriminantExplorer() {
   const rootValues = useMemo(() => roots(c), [c])
   const natureText = nature(delta)
 
-  const width = 400
-  const height = 280
-  const xMin = -6
-  const xMax = 4
-  const yMin = -4
-  const yMax = 12
-
-  const toX = (x: number) => ((x - xMin) / (xMax - xMin)) * width
-  const toY = (y: number) => height - ((y - yMin) / (yMax - yMin)) * height
-
   const pathPoints: string[] = []
-  for (let x = xMin; x <= xMax; x += 0.05) {
+  for (let x = X_MIN; x <= X_MAX; x += 0.05) {
     const y = A * x * x + B * x + c
-    if (y >= yMin - 2 && y <= yMax + 2) {
-      pathPoints.push(`${toX(x)},${toY(y)}`)
+    if (y >= Y_MIN - 2 && y <= Y_MAX + 2) {
+      pathPoints.push(`${MAPPER.toX(x)},${MAPPER.toY(y)}`)
     }
   }
 
@@ -52,7 +50,7 @@ export function DiscriminantExplorer() {
       <div className="enlight-explorer__layout">
         <div>
           <p className="enlight-body-text" style={{ marginBottom: 16 }}>
-            Adjust <strong>c</strong> in $y = x^2 + 2x + c$
+            Adjust <strong>c</strong> in <strong>y = x² + 2x + c</strong>
           </p>
           <div className="enlight-slider-group">
             <label htmlFor="c-slider">c = {c}</label>
@@ -71,37 +69,8 @@ export function DiscriminantExplorer() {
             <div className="enlight-discriminant-display__label">{natureText}</div>
           </div>
         </div>
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Parabola graph">
-          {[...Array(11)].map((_, i) => {
-            const x = xMin + (i * (xMax - xMin)) / 10
-            return (
-              <line
-                key={`v${i}`}
-                x1={toX(x)}
-                y1={0}
-                x2={toX(x)}
-                y2={height}
-                stroke="#2a3348"
-                strokeWidth={1}
-              />
-            )
-          })}
-          {[...Array(9)].map((_, i) => {
-            const y = yMin + (i * (yMax - yMin)) / 8
-            return (
-              <line
-                key={`h${i}`}
-                x1={0}
-                y1={toY(y)}
-                x2={width}
-                y2={toY(y)}
-                stroke="#2a3348"
-                strokeWidth={1}
-              />
-            )
-          })}
-          <line x1={toX(0)} y1={0} x2={toX(0)} y2={height} stroke={GRAPH.axis} strokeWidth={1.5} />
-          <line x1={0} y1={toY(0)} x2={width} y2={toY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
+        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Parabola graph">
+          <GraphAxes mapper={MAPPER} gridX={10} gridY={8} />
           <polyline
             points={pathPoints.join(' ')}
             fill="none"
@@ -109,7 +78,7 @@ export function DiscriminantExplorer() {
             strokeWidth={3}
           />
           {rootValues.map((r, i) => (
-            <circle key={i} cx={toX(r)} cy={toY(0)} r={6} fill="#fff" stroke="#1a1a1a" strokeWidth={2} />
+            <circle key={i} cx={MAPPER.toX(r)} cy={MAPPER.toY(0)} r={6} fill="#fff" stroke="#1a1a1a" strokeWidth={2} />
           ))}
         </svg>
       </div>

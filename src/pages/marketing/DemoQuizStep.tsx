@@ -80,14 +80,6 @@ export function DemoQuizStep({ onBack, onNext }: DemoQuizStepProps) {
     setShowFeedback(false)
   }
 
-  const resetQuiz = () => {
-    setPhase('intro')
-    setIndex(0)
-    setSelected(null)
-    setShowFeedback(false)
-    setCorrectCount(0)
-  }
-
   if (quizLoading) {
     return (
       <div className="enlight-walkthrough__step enlight-container">
@@ -187,9 +179,6 @@ export function DemoQuizStep({ onBack, onNext }: DemoQuizStepProps) {
         </div>
 
         <div className="enlight-walkthrough__nav">
-          <EnlightButton variant="outline" onClick={resetQuiz}>
-            Retry quiz
-          </EnlightButton>
           <EnlightButton onClick={onNext}>
             {user ? 'Continue tour →' : 'Next — our subjects →'}
           </EnlightButton>

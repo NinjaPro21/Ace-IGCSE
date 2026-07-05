@@ -1,6 +1,6 @@
 import type { Difficulty } from '@/lib/contentTypes'
 
-import { getTopicsForChapter } from '@/lib/contentLoader'
+import { getChapter, getTopicsForChapter } from '@/lib/contentLoader'
 
 import type { ConceptMissRecord, QuizAttemptRecord, QuizMistakeLogResult, RecordQuizFinishInput } from '@/features/quiz/quizAttemptTypes'
 
@@ -134,13 +134,54 @@ export interface UserProgress {
 
   onboardingComplete?: boolean
 
+  appTourComplete?: boolean
+
   studySecByDate?: Record<string, number>
+
+  /** Daily study plan — chapters to cover today */
+  studyPlanTasks?: StudyPlanTask[]
+
+  /** Firebase uid that owns this local progress blob (prevents cross-account bleed) */
+  ownerUserId?: string
+
+}
+
+
+
+export interface StudyPlanTask {
+
+  id: string
+
+  subjectId: string
+
+  chapterId: string
+
+  chapterTitle: string
+
+  topicId: string
+
+  topicTitle: string
+
+  done: boolean
+
+  addedAt: string
+
+  forDate: string
 
 }
 
 
 
 const STORAGE_KEY = 'enlight-progress-v2'
+
+export function clearLocalProgress(): void {
+  try {
+    localStorage.removeItem(STORAGE_KEY)
+    localStorage.removeItem('enlight-progress-v1')
+  } catch {
+    // ignore storage errors
+  }
+}
 
 const MAX_ACTIVE_DATES = 90
 const MAX_QUIZ_ATTEMPTS = 150
@@ -249,6 +290,12 @@ function normalizeState(parsed: Partial<UserProgress>): UserProgress {
     quizAttempts: parsed.quizAttempts ?? [],
 
     xpByDate: parsed.xpByDate ?? {},
+
+    studySecByDate: parsed.studySecByDate ?? {},
+
+    studyPlanTasks: parsed.studyPlanTasks ?? [],
+
+    ownerUserId: parsed.ownerUserId,
 
   }
 
@@ -616,6 +663,28 @@ export class MasteryEngine {
 
 
 
+  clearLocalState(): void {
+
+    clearLocalProgress()
+
+    this.state = defaultState()
+
+  }
+
+
+
+  bindOwnerUserId(userId: string): void {
+
+    if (this.state.ownerUserId === userId) return
+
+    this.state = { ...this.state, ownerUserId: userId }
+
+    saveState(this.state)
+
+  }
+
+
+
   isNotesRead(topicId: string): boolean {
 
     return isTopicStudyComplete(ensureTopic(this.state, topicId))
@@ -704,6 +773,116 @@ export class MasteryEngine {
 
 
 
+  recordFocusStudySec(seconds: number): void {
+
+    if (seconds <= 0) return
+
+    this.state = touchStreak(this.state)
+
+    this.state = addStudySec(this.state, seconds)
+
+    saveState(this.state)
+
+  }
+
+
+
+  getStudyPlanTasks(forDate = todayISO()): StudyPlanTask[] {
+
+    return (this.state.studyPlanTasks ?? []).filter((t) => t.forDate === forDate)
+
+  }
+
+
+
+  addStudyPlanTask(subjectId: string, chapterId: string, forDate = todayISO()): void {
+
+    const existing = (this.state.studyPlanTasks ?? []).some(
+
+      (t) => t.chapterId === chapterId && t.forDate === forDate,
+
+    )
+
+    if (existing) return
+
+    const chapter = getChapter(chapterId)
+
+    if (!chapter) return
+
+    const topics = getTopicsForChapter(chapterId)
+
+    const topic = topics[0]
+
+    if (!topic) return
+
+    const task: StudyPlanTask = {
+
+      id: `${Date.now()}-${chapterId}`,
+
+      subjectId,
+
+      chapterId,
+
+      chapterTitle: chapter.title,
+
+      topicId: topic.id,
+
+      topicTitle: topic.title,
+
+      done: false,
+
+      addedAt: new Date().toISOString(),
+
+      forDate,
+
+    }
+
+    this.state = {
+
+      ...this.state,
+
+      studyPlanTasks: [...(this.state.studyPlanTasks ?? []), task],
+
+    }
+
+    saveState(this.state)
+
+  }
+
+
+
+  toggleStudyPlanTask(taskId: string): void {
+
+    const tasks = (this.state.studyPlanTasks ?? []).map((t) =>
+
+      t.id === taskId ? { ...t, done: !t.done } : t,
+
+    )
+
+    this.state = { ...this.state, studyPlanTasks: tasks }
+
+    saveState(this.state)
+
+  }
+
+
+
+  removeStudyPlanTask(taskId: string): void {
+
+    this.state = {
+
+      ...this.state,
+
+      studyPlanTasks: (this.state.studyPlanTasks ?? []).filter((t) => t.id !== taskId),
+
+    }
+
+    saveState(this.state)
+
+  }
+
+
+
   setSubjects(subjects: string[]): void {
 
     this.state = { ...this.state, subjects }
@@ -719,6 +898,20 @@ export class MasteryEngine {
     this.state = { ...this.state, onboardingComplete: true }
 
     saveState(this.state)
+
+    window.dispatchEvent(new CustomEvent('enlight-progress'))
+
+  }
+
+
+
+  setAppTourComplete(): void {
+
+    this.state = { ...this.state, appTourComplete: true }
+
+    saveState(this.state)
+
+    window.dispatchEvent(new CustomEvent('enlight-progress'))
 
   }
 
@@ -764,7 +957,104 @@ export class MasteryEngine {
 
 
 
+  hasPassedTopicQuiz(topicId: string, difficulty: Difficulty): boolean {
+
+    const topic = this.state.topics[topicId]
+
+    if (!topic) return false
+
+    switch (difficulty) {
+
+      case 'easy':
+
+        return (topic.quizLevel ?? 0) >= 2
+
+      case 'medium':
+
+        return (topic.quizLevel ?? 0) >= 3
+
+      case 'hard':
+
+        return topic.hardScore !== undefined
+
+      case 'pyp':
+
+        return Boolean(topic.pypComplete)
+
+      default:
+
+        return false
+
+    }
+
+  }
+
+
+
+  hasPassedChapterQuiz(chapterId: string, difficulty: Difficulty): boolean {
+
+    const ch = ensureChapter(this.state, chapterId)
+
+    switch (difficulty) {
+
+      case 'easy':
+
+        return ch.quizLevel >= 2
+
+      case 'medium':
+
+        return ch.quizLevel >= 3
+
+      case 'hard':
+
+        return ch.hardScore !== undefined
+
+      case 'pyp':
+
+        return Boolean(ch.pypComplete)
+
+      default:
+
+        return false
+
+    }
+
+  }
+
+
+
+  hasAttemptedTopicQuiz(topicId: string, difficulty: Difficulty): boolean {
+
+    if (this.hasPassedTopicQuiz(topicId, difficulty)) return true
+
+    return (this.state.quizAttempts ?? []).some(
+
+      (a) => a.topicId === topicId && a.difficulty === difficulty,
+
+    )
+
+  }
+
+
+
+  hasAttemptedChapterQuiz(chapterId: string, difficulty: Difficulty): boolean {
+
+    if (this.hasPassedChapterQuiz(chapterId, difficulty)) return true
+
+    return (this.state.quizAttempts ?? []).some(
+
+      (a) => a.chapterId === chapterId && !a.topicId && a.difficulty === difficulty,
+
+    )
+
+  }
+
+
+
   canTakeTopicQuiz(topicId: string, difficulty: Difficulty): boolean {
+
+    if (this.hasPassedTopicQuiz(topicId, difficulty)) return false
+
     const level = this.getTopicQuizLevel(topicId)
 
     switch (difficulty) {
@@ -897,13 +1187,15 @@ export class MasteryEngine {
 
   canTakeChapterQuiz(chapterId: string, difficulty: Difficulty): boolean {
 
-    const level = this.getChapterQuizLevel(chapterId)
+    if (this.hasPassedChapterQuiz(chapterId, difficulty)) return false
+
+    const level = ensureChapter(this.state, chapterId).quizLevel
 
     switch (difficulty) {
 
       case 'easy':
 
-        return true
+        return level >= 1
 
       case 'medium':
 

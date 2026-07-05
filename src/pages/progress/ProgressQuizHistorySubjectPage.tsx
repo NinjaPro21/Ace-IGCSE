@@ -9,11 +9,13 @@ import {
 } from '@/features/quiz/quizHistoryStats'
 import { getSubject } from '@/lib/contentLoader'
 import { useState } from 'react'
+import { usePageTitle } from '@/hooks/usePageTitle'
 
 export function ProgressQuizHistorySubjectPage() {
   const { subjectId = '' } = useParams()
   const { progress } = useMastery()
   const subject = getSubject(subjectId)
+  usePageTitle(subject ? `${subject.name} quiz history` : 'Quiz history')
   const attempts = getQuizAttemptsForSubject(progress, subjectId)
   const [expandedId, setExpandedId] = useState<string | null>(attempts[0]?.id ?? null)
 

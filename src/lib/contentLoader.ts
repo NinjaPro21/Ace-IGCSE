@@ -123,6 +123,25 @@ export function getChapterQuizAnchor(chapterId: string): TopicMeta | undefined {
   return getTopicsForChapter(chapterId).find((t) => t.isChapterQuizAnchor)
 }
 
+export async function isQuizPlayable(quizId: string): Promise<boolean> {
+  const quiz = await loadQuiz(quizId)
+  return Boolean(quiz && !quiz.pending)
+}
+
+export async function getTopicQuizAvailability(
+  topicId: string,
+): Promise<Partial<Record<QuizData['difficulty'], boolean>>> {
+  const topic = getTopic(topicId)
+  if (!topic?.quizIds) return {}
+  const entries = await Promise.all(
+    (Object.entries(topic.quizIds) as [QuizData['difficulty'], string][]).map(async ([difficulty, quizId]) => {
+      const playable = await isQuizPlayable(quizId)
+      return [difficulty, playable] as const
+    }),
+  )
+  return Object.fromEntries(entries)
+}
+
 export async function getQuizByTopicAndDifficulty(
   topicId: string,
   difficulty: QuizData['difficulty'],
@@ -147,15 +166,21 @@ export async function getQuizByChapterAndDifficulty(
 
   for (const topic of chapterTopics) {
     const quiz = await getQuizByTopicAndDifficulty(topic.id, difficulty)
-    if (!quiz) continue
+    if (!quiz || quiz.pending) continue
+    const active = quiz.questions.filter((q) => !q.pending)
+    if (active.length === 0) continue
     passPercent = quiz.passPercent
-    mergedQuestions.push(...quiz.questions)
+    mergedQuestions.push(...active)
   }
 
   if (mergedQuestions.length === 0) {
     const anchor = getChapterQuizAnchor(chapterId)
     if (!anchor?.quizIds) return undefined
-    return loadQuiz(anchor.quizIds[difficulty])
+    const anchorQuiz = await loadQuiz(anchor.quizIds[difficulty])
+    if (!anchorQuiz || anchorQuiz.pending) return undefined
+    const active = anchorQuiz.questions.filter((q) => !q.pending)
+    if (active.length === 0) return undefined
+    return { ...anchorQuiz, questions: active }
   }
 
   return {

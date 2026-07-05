@@ -48,4 +48,8 @@ export const socialStore = {
     delete state.localInviteCode
     save(state)
   },
+
+  clearAll(): void {
+    localStorage.removeItem(STORAGE_KEY)
+  },
 }

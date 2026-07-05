@@ -67,6 +67,18 @@ export function MasteryPath({ chapterId, notesComplete }: MasteryPathProps) {
           )
         }
 
+        if (complete) {
+          return (
+            <div key={step.difficulty} className={cls} title="Tier complete">
+              <div className="enlight-mastery-step__label">{step.label}</div>
+              <div className="enlight-mastery-step__title">{step.title}</div>
+              {score !== undefined && (
+                <div className="enlight-mastery-step__score">{Math.min(100, score)}%</div>
+              )}
+            </div>
+          )
+        }
+
         if (!unlocked) {
           return (
             <div key={step.difficulty} className={cls} title="Pass the previous tier first">

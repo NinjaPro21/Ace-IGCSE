@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import { SignInButton } from '@/features/social/SocialPanels'
 import { useAuth } from '@/features/social/AuthContext'
 
 export function ProgressAccountPage() {
+  usePageTitle('Account')
   const { progress, setDisplayName } = useMastery()
   const { user, syncProgressNow } = useAuth()
   const [nameInput, setNameInput] = useState(progress.displayName)

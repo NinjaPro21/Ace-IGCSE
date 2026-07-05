@@ -17,6 +17,12 @@ const MarkdownLesson = lazy(() =>
 
 const STEP_LABELS = ['Welcome', 'Notes', 'Quiz', 'Subjects', 'About', 'Leaderboard'] as const
 const STEP_COUNT = STEP_LABELS.length
+const WALKTHROUGH_STEP_KEY = 'enlight-walkthrough-step'
+
+function readStepFromParam(stepParam: string | null, maxStep: number): number | null {
+  if (stepParam === null) return null
+  return Math.min(maxStep, Math.max(0, Number(stepParam) || 0))
+}
 
 const HOW_IT_WORKS = [
   {
@@ -230,53 +236,31 @@ function SubjectsStep({ onBack, onNext }: { onBack: () => void; onNext: () => vo
         </header>
 
         <div className="enlight-tour-subjects">
-          {subjects.map((s) => {
-            const diagramPct = s.topicCount ? Math.round((s.diagramTopicCount / s.topicCount) * 100) : 0
-            return (
-              <article key={s.id} className={`enlight-tour-subject-card enlight-tour-subject-card--${s.accent}`}>
-                <div className="enlight-tour-subject-card__glow" aria-hidden />
-                <div className="enlight-tour-subject-card__head">
+          {subjects.map((s) => (
+            <article key={s.id} className={`enlight-tour-subject-card enlight-tour-subject-card--${s.accent}`}>
+              <div className="enlight-tour-subject-card__glow" aria-hidden />
+              <div className="enlight-tour-subject-card__head">
+                <div>
                   <span className="enlight-tour-subject-card__code">{s.code}</span>
                   <h3 className="enlight-tour-subject-card__name">{s.name}</h3>
                 </div>
-                <p className="enlight-tour-subject-card__blurb">{s.description}</p>
+                <span className="enlight-tour-subject-card__arrow" aria-hidden>
+                  →
+                </span>
+              </div>
+              <p className="enlight-tour-subject-card__blurb">{s.description}</p>
 
-                <dl className="enlight-tour-subject-card__stats">
-                  <div>
-                    <dt>Chapters</dt>
-                    <dd>{s.chapterCount}</dd>
-                  </div>
-                  <div>
-                    <dt>Subtopics</dt>
-                    <dd>{s.topicCount}</dd>
-                  </div>
-                  <div>
-                    <dt>Visual diagrams</dt>
-                    <dd>{s.diagramTopicCount}</dd>
-                  </div>
-                </dl>
+              <p className="enlight-tour-subject-card__meta">
+                {s.chapterCount} chapters · {s.topicCount} topics · {s.diagramTopicCount} diagrams
+              </p>
 
-                <div className="enlight-tour-subject-card__meter" aria-label={`${diagramPct}% of topics include graphs, diagrams, or interactive tools`}>
-                  <span className="enlight-tour-subject-card__meter-fill" style={{ width: `${diagramPct}%` }} />
-                  <span className="enlight-tour-subject-card__meter-label">{diagramPct}% visual help</span>
-                </div>
-
-                <ul className="enlight-tour-subject-card__chapters">
-                  {s.sampleChapters.map((title) => (
-                    <li key={title}>{title}</li>
-                  ))}
-                </ul>
-
-                <div className="enlight-tour-subject-card__tags">
-                  {s.highlights.map((t) => (
-                    <span key={t} className="enlight-tour-subject-card__tag">
-                      {t}
-                    </span>
-                  ))}
-                </div>
-              </article>
-            )
-          })}
+              <ul className="enlight-tour-subject-card__chapters">
+                {s.sampleChapters.map((title) => (
+                  <li key={title}>{title}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
         </div>
       </div>
 
@@ -360,7 +344,7 @@ function LeaderboardStep({ onBack }: { onBack: () => void }) {
             <>
               <WeeklyChallengeCard />
               <p className="enlight-body-text enlight-walkthrough__leaderboard-link">
-                <EnlightButton to="/dashboard/social">Open full social hub →</EnlightButton>
+                <EnlightButton to="/social">Open social hub →</EnlightButton>
               </p>
             </>
           ) : (
@@ -377,7 +361,18 @@ function LeaderboardStep({ onBack }: { onBack: () => void }) {
           ← Back
         </EnlightButton>
         {user ? (
-          <EnlightButton to="/dashboard">Go to dashboard →</EnlightButton>
+          <EnlightButton
+            to="/dashboard"
+            onClick={() => {
+              try {
+                sessionStorage.removeItem(WALKTHROUGH_STEP_KEY)
+              } catch {
+                /* ignore */
+              }
+            }}
+          >
+            Go to dashboard →
+          </EnlightButton>
         ) : (
           <div className="enlight-walkthrough__signin-actions">
             <SignInButton />
@@ -393,13 +388,28 @@ export function MarketingWalkthrough() {
   const [searchParams, setSearchParams] = useSearchParams()
   const stepParam = searchParams.get('step')
   const maxStep = STEP_COUNT - 1
-  const initial = stepParam !== null ? Math.min(maxStep, Math.max(0, Number(stepParam) || 0)) : 0
+  const fromUrl = readStepFromParam(stepParam, maxStep)
+  const fromStorage = (() => {
+    try {
+      const raw = sessionStorage.getItem(WALKTHROUGH_STEP_KEY)
+      if (raw === null) return null
+      return Math.min(maxStep, Math.max(0, Number(raw) || 0))
+    } catch {
+      return null
+    }
+  })()
+  const initial = fromUrl ?? fromStorage ?? 0
   const [step, setStep] = useState(initial)
 
   useEffect(() => {
-    if (stepParam !== null) {
-      const n = Math.min(maxStep, Math.max(0, Number(stepParam) || 0))
-      setStep(n)
+    const fromParam = readStepFromParam(stepParam, maxStep)
+    if (fromParam !== null) {
+      setStep(fromParam)
+      try {
+        sessionStorage.setItem(WALKTHROUGH_STEP_KEY, String(fromParam))
+      } catch {
+        /* ignore */
+      }
     }
   }, [stepParam, maxStep])
 
@@ -407,13 +417,20 @@ export function MarketingWalkthrough() {
     (next: number) => {
       const clamped = Math.min(maxStep, Math.max(0, next))
       setStep(clamped)
+      try {
+        sessionStorage.setItem(WALKTHROUGH_STEP_KEY, String(clamped))
+      } catch {
+        /* ignore */
+      }
       setSearchParams(clamped === 0 ? {} : { step: String(clamped) }, { replace: true })
       window.scrollTo({ top: 0, behavior: 'smooth' })
     },
     [setSearchParams, maxStep],
   )
 
-  if (user && step === 0 && stepParam === null) {
+  const walkthroughInProgress = step > 0 || stepParam !== null || (fromStorage ?? 0) > 0
+
+  if (user && step === 0 && stepParam === null && !walkthroughInProgress) {
     return <Navigate to="/dashboard" replace />
   }
 

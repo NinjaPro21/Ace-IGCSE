@@ -40,20 +40,32 @@ export function WeeklyChallengeCard() {
   if (!group || !user) return null
 
   return (
-    <section className="enlight-dashboard-card enlight-weekly-challenge">
-      <h2 className="enlight-heading-serif">Weekly challenge</h2>
-      <p className="enlight-body-text">
-        {group.name} · This week&apos;s XP race
-      </p>
-      {rank != null ? (
-        <p className="enlight-weekly-challenge__rank">
-          You&apos;re <strong>#{rank}</strong> of {total}
-          {gap != null && gap > 0 && rank > 1 && (
-            <> — <strong>{gap} XP</strong> behind #{rank - 1}</>
-          )}
-        </p>
+    <section className="enlight-weekly-challenge" aria-label="Weekly challenge">
+      <div className="enlight-weekly-challenge__head">
+        <div>
+          <h2 className="enlight-weekly-challenge__title">Weekly challenge</h2>
+          <p className="enlight-weekly-challenge__group">{group.name} · This week&apos;s XP race</p>
+        </div>
+      </div>
+
+      {rank == null ? (
+        <p className="enlight-weekly-challenge__empty">Study this week to appear on the board.</p>
       ) : (
-        <p className="enlight-body-text">Study this week to appear on the board.</p>
+        <div className="enlight-weekly-challenge__body">
+          <div className="enlight-weekly-challenge__placement">
+            <span className="enlight-weekly-challenge__rank-num">#{rank}</span>
+            <span className="enlight-weekly-challenge__rank-of">of {total}</span>
+          </div>
+
+          {rank === 1 ? (
+            <p className="enlight-weekly-challenge__lead">You&apos;re in the lead this week.</p>
+          ) : gap != null && gap > 0 ? (
+            <div className="enlight-weekly-challenge__gap">
+              <span className="enlight-weekly-challenge__gap-value">{gap.toLocaleString()}</span>
+              <span className="enlight-weekly-challenge__gap-label">XP behind #{rank - 1}</span>
+            </div>
+          ) : null}
+        </div>
       )}
     </section>
   )

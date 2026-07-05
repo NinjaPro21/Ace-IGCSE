@@ -5,10 +5,18 @@ import { masteryEngine } from '@/features/mastery/MasteryEngine'
 import { getAllSubjects } from '@/lib/contentLoader'
 import { useAuth } from '@/features/social/AuthContext'
 
-const GOALS = [10, 20, 30]
+const GOALS = [10, 20, 30, 45, 60, 90, 120] as const
+
+function formatGoalLabel(minutes: number): string {
+  if (minutes >= 60) {
+    const hrs = minutes / 60
+    return Number.isInteger(hrs) ? `${hrs} hr${hrs > 1 ? 's' : ''}` : `${hrs} hrs`
+  }
+  return `${minutes} min`
+}
 
 export function OnboardingModal() {
-  const { user } = useAuth()
+  const { user, profileHydrated } = useAuth()
   const { progress, setDisplayName } = useMastery()
   const [step, setStep] = useState(0)
   const [name, setName] = useState(progress.displayName || user?.displayName || '')
@@ -17,7 +25,7 @@ export function OnboardingModal() {
   )
   const [goal, setGoal] = useState(progress.dailyGoalMin ?? 20)
 
-  if (!user || progress.onboardingComplete) return null
+  if (!profileHydrated || !user || progress.onboardingComplete) return null
 
   const subjects = getAllSubjects()
 
@@ -87,13 +95,16 @@ export function OnboardingModal() {
                   className={`enlight-group-tab${goal === g ? ' enlight-group-tab--active' : ''}`}
                   onClick={() => setGoal(g)}
                 >
-                  {g} min
+                  {formatGoalLabel(g)}
                 </button>
               ))}
             </div>
             <div className="enlight-popout__actions">
-              <EnlightButton onClick={finish}>Start studying</EnlightButton>
+              <EnlightButton onClick={finish}>Continue →</EnlightButton>
             </div>
+            <p className="enlight-body-text" style={{ marginTop: 12, fontSize: '0.85rem' }}>
+              Next: a quick tour of the dashboard, subjects, and social hub.
+            </p>
           </>
         )}
       </div>

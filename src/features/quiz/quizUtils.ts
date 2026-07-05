@@ -84,3 +84,9 @@ export function prepareQuizSession(
 }
 
 export const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'] as const
+
+/** Score as nearest integer percent: (correct / total) × 100. */
+export function computeQuizScorePercent(correctCount: number, totalQuestions: number): number {
+  if (totalQuestions <= 0) return 0
+  return Math.round((correctCount / totalQuestions) * 100)
+}

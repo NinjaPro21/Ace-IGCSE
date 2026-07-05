@@ -32,7 +32,7 @@ export interface TopicMeta {
   /** Rich descriptor shown under the lesson title (nav keeps `subtitle`). */
   lessonMeta?: string
   notesFile: string
-  explorerId?: 'discriminant' | 'trig' | 'cast' | 'modulus' | 'line-intersection' | 'quadratic' | 'log' | 'log-laws' | 'change-of-base' | 'log-eval' | 'shoelace' | 'exponential' | 'circle-line' | 'circle-circle' | 'pnc-guide' | 'series-guide' | 'functions-guide' | 'differentiation-guide' | 'vectors-guide' | 'integration-guide' | 'kinematics-guide' | 'line-geometry' | 'cubic' | 'poly-division' | 'linear-law' | 'natural-log' | 'calculator-guide' | 'stats-guide' | 'curves-guide' | 'right-triangle-guide' | 'thermal-guide'
+  explorerId?: 'discriminant' | 'trig' | 'cast' | 'modulus' | 'line-intersection' | 'quadratic' | 'log' | 'log-laws' | 'change-of-base' | 'log-eval' | 'shoelace' | 'exponential' | 'circle-line' | 'circle-circle' | 'pnc-guide' | 'series-guide' | 'functions-guide' | 'differentiation-guide' | 'vectors-guide' | 'integration-guide' | 'kinematics-guide' | 'line-geometry' | 'cubic' | 'poly-division' | 'linear-law' | 'natural-log' | 'calculator-guide' | 'stats-guide' | 'curves-guide' | 'right-triangle-guide' | 'thermal-guide' | 'lens-guide' | 'fleming-guide'
   /** Panels to show for visual-guide explorers (per-topic subset). */
   explorerPanels?: GuidePanel[]
   isChapterQuizAnchor?: boolean
@@ -78,7 +78,15 @@ export type CubicPanel = 'trace' | 'factor' | 'modulus'
 
 export type CalculatorGuidePanel = 'layout' | 'setup' | 'modes' | 'logs' | 'tools'
 
-export type StatsGuidePanel = 'histogram' | 'scatter' | 'cumulative' | 'boxplot' | 'tree' | 'grouped-mean' | 'venn'
+export type StatsGuidePanel =
+  | 'histogram'
+  | 'scatter'
+  | 'cumulative'
+  | 'boxplot'
+  | 'tree'
+  | 'tree-3'
+  | 'grouped-mean'
+  | 'venn'
 
 export type SeriesGuidePanel = 'binomial' | 'ap' | 'gp'
 
@@ -87,6 +95,16 @@ export type CurvesGuidePanel = 'quadratic' | 'cubic' | 'exponential' | 'reciproc
 export type RightTrianglePanel = 'pythagoras' | 'sohcahtoa' | 'sine-rule' | 'cosine-rule'
 
 export type ThermalGuidePanel = 'expansion' | 'ball-ring' | 'expansion-gap' | 'shc-lab' | 'particles'
+
+export type LensGuidePanel =
+  | 'infinity'
+  | 'beyond-2f'
+  | 'at-2f'
+  | 'between-f-2f'
+  | 'at-f'
+  | 'inside-f'
+
+export type FlemingGuidePanel = 'left-hand' | 'right-hand'
 
 export type GuidePanel =
   | DiffGuidePanel
@@ -105,6 +123,8 @@ export type GuidePanel =
   | CurvesGuidePanel
   | RightTrianglePanel
   | ThermalGuidePanel
+  | LensGuidePanel
+  | FlemingGuidePanel
 
 export interface McqQuestion {
   id: string

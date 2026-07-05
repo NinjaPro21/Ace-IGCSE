@@ -12,35 +12,49 @@ const ExponentialGraphExplorer = lazy(() =>
   import('./ExponentialGraphExplorer').then((m) => ({ default: m.ExponentialGraphExplorer })),
 )
 
-const W = 440
-const H = 280
-
 function ReciprocalPanel() {
   const a = 2
-  const pts: string[] = []
-  for (let x = -4; x <= 4; x += 0.08) {
-    if (Math.abs(x) < 0.08) continue
+  const W = 440
+  const H = 280
+  const xMin = -4
+  const xMax = 4
+  const yMin = -8
+  const yMax = 8
+  const toX = (x: number) => ((x - xMin) / (xMax - xMin)) * W
+  const toY = (y: number) => H - ((y - yMin) / (yMax - yMin)) * H
+
+  const pos: string[] = []
+  const neg: string[] = []
+  for (let x = 0.15; x <= xMax; x += 0.08) {
     const y = a / x
-    if (Math.abs(y) > 8) continue
-    const sx = ((x + 4) / 8) * W
-    const sy = H - ((y + 8) / 16) * H
-    pts.push(`${sx.toFixed(1)},${sy.toFixed(1)}`)
+    if (Math.abs(y) > yMax) continue
+    pos.push(`${toX(x).toFixed(1)},${toY(y).toFixed(1)}`)
+  }
+  for (let x = -xMax; x <= -0.15; x += 0.08) {
+    const y = a / x
+    if (Math.abs(y) > yMax) continue
+    neg.push(`${toX(x).toFixed(1)},${toY(y).toFixed(1)}`)
   }
 
   return (
     <div className="enlight-stats-panel">
       <p className="enlight-body-text">
-        Reciprocal curves y = a/x have a vertical asymptote at x = 0. Plot both branches separately.
+        Reciprocal curves $y = a/x$ have vertical asymptote $x = 0$ and horizontal asymptote $y = 0$. Plot each branch separately.
       </p>
       <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Reciprocal curve">
         {[...Array(9)].map((_, i) => {
-          const x = -4 + i
-          return <line key={i} x1={((x + 4) / 8) * W} y1={0} x2={((x + 4) / 8) * W} y2={H} stroke={GRAPH.grid} />
+          const x = xMin + i
+          return <line key={`v${i}`} x1={toX(x)} y1={0} x2={toX(x)} y2={H} stroke={GRAPH.grid} />
         })}
-        <line x1={W / 2} y1={0} x2={W / 2} y2={H} stroke="#f43f5e" strokeDasharray="4 3" strokeWidth={1.5} />
-        <line x1={0} y1={H / 2} x2={W} y2={H / 2} stroke={GRAPH.axis} strokeWidth={1.5} />
-        <polyline points={pts.join(' ')} fill="none" stroke="#2563eb" strokeWidth={2.5} />
-        <text x={W / 2 + 6} y={16} fontSize={9} fill="#f43f5e">x = 0</text>
+        {[...Array(9)].map((_, i) => {
+          const y = yMin + i * 2
+          return <line key={`h${i}`} x1={0} y1={toY(y)} x2={W} y2={toY(y)} stroke={GRAPH.grid} />
+        })}
+        <line x1={toX(0)} y1={0} x2={toX(0)} y2={H} stroke={GRAPH.axis} strokeDasharray="4 3" strokeWidth={1.5} />
+        <line x1={0} y1={toY(0)} x2={W} y2={toY(0)} stroke={GRAPH.axis} strokeWidth={1.5} />
+        <polyline points={pos.join(' ')} fill="none" stroke="#2563eb" strokeWidth={2.5} />
+        <polyline points={neg.join(' ')} fill="none" stroke="#2563eb" strokeWidth={2.5} />
+        <text x={toX(0) + 6} y={14} fontSize={9} fill={GRAPH.label}>x = 0</text>
       </svg>
     </div>
   )

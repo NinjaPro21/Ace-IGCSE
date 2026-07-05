@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import { XP_PER_LEVEL } from '@/features/mastery/levelSystem'
+import { getXpRequiredForNextLevel } from '@/features/mastery/levelSystem'
 
 export function ProgressAchievementsPage() {
-  const { achievements } = useMastery()
+  usePageTitle('Achievements')
+  const { achievements, levelProfile } = useMastery()
   const [xpGuideOpen, setXpGuideOpen] = useState(false)
   const unlockedCount = achievements.filter((a) => a.unlocked).length
 
@@ -69,8 +71,12 @@ export function ProgressAchievementsPage() {
               <span>+50 XP</span>
             </div>
             <div className="enlight-xp-table__row enlight-xp-table__row--muted">
-              <span>Level up every</span>
-              <span>{XP_PER_LEVEL} XP</span>
+              <span>Your next level ({levelProfile.level + 1})</span>
+              <span>{getXpRequiredForNextLevel(levelProfile.level)} XP</span>
+            </div>
+            <div className="enlight-xp-table__row enlight-xp-table__row--muted">
+              <span>Scaling</span>
+              <span>+20 XP per level after Lv 1</span>
             </div>
           </div>
         )}

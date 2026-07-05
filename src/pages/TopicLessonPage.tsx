@@ -15,15 +15,21 @@ import { useChapterSession } from '@/features/mastery/useChapterSession'
 import { useTopicSession } from '@/features/mastery/useTopicSession'
 import { useAuth } from '@/features/social/AuthContext'
 import { usePresence } from '@/features/social/usePresence'
+import { usePageTitle } from '@/hooks/usePageTitle'
 import {
   getChapter,
   getNotesForTopic,
   getSubject,
   getTopic,
+  getTopicQuizAvailability,
   getTopicsForChapter,
   getTopicSectionLabel,
 } from '@/lib/contentLoader'
+import type { Difficulty } from '@/lib/contentTypes'
+import { ChapterFeedback } from '@/components/ChapterFeedback'
+import { extractKeyFormula, extractQuickCheck } from '@/lib/noteSidebar'
 import { isRedundantSectionSubtitle } from '@/lib/mathMarkdown'
+import { trackEnlightEvent } from '@/lib/eventTracking'
 
 const FONT_STEPS = [0.85, 1.0, 1.15, 1.3]
 
@@ -56,7 +62,20 @@ export function TopicLessonPage() {
   const [fontStep, setFontStep] = useState(1)
   const [readProgress, setReadProgress] = useState(0)
   const [showScrollTop, setShowScrollTop] = useState(false)
+  const [quizAvailability, setQuizAvailability] = useState<Partial<Record<Difficulty, boolean>>>({})
   const lessonCardRef = useRef<HTMLDivElement>(null)
+  const notesOpenedAtRef = useRef<number | null>(null)
+
+  const topic = getTopic(topicId)
+  usePageTitle(topic?.title ?? 'Lesson')
+
+  useEffect(() => {
+    if (!topicId) {
+      setQuizAvailability({})
+      return
+    }
+    void getTopicQuizAvailability(topicId).then(setQuizAvailability)
+  }, [topicId])
 
   useChapterSession(chapterId)
   useTopicSession(topicId)
@@ -70,7 +89,22 @@ export function TopicLessonPage() {
     }
   }, [subjectId, chapterId, topicId])
 
-  const topic = getTopic(topicId)
+  useEffect(() => {
+    if (!user?.id || !chapterId || !subjectId || !topicId) return
+    notesOpenedAtRef.current = Date.now()
+    void trackEnlightEvent(user.id, 'notes_opened', { chapterId, subject: subjectId })
+    return () => {
+      if (notesOpenedAtRef.current === null) return
+      const durationSec = Math.round((Date.now() - notesOpenedAtRef.current) / 1000)
+      void trackEnlightEvent(user.id, 'notes_closed', {
+        chapterId,
+        subject: subjectId,
+        durationSec,
+      })
+      notesOpenedAtRef.current = null
+    }
+  }, [user?.id, chapterId, subjectId, topicId])
+
   usePresence(user?.id, {
     status: 'studying',
     subjectId,
@@ -147,6 +181,8 @@ export function TopicLessonPage() {
   }
 
   const notes = getNotesForTopic(topic)
+  const sidebarQuickCheck = extractQuickCheck(notes)
+  const sidebarKeyFormula = extractKeyFormula(notes)
   const sectionLabel = getTopicSectionLabel(chapterId, topicId)
   const lessonMetaLine =
     topic.lessonMeta ??
@@ -155,6 +191,8 @@ export function TopicLessonPage() {
   const sectionNotesComplete = isNotesRead(topicId)
   const canStartSectionQuiz = canTakeTopicQuiz(topicId, 'easy')
   const sectionQuizLevel = getTopicQuizLevel(topicId)
+  const hasPlayableQuizzes = Object.values(quizAvailability).some(Boolean)
+  const easyQuizPlayable = quizAvailability.easy === true
 
   const dismissPopout = () => {
     setShowPopout(false)
@@ -184,8 +222,17 @@ export function TopicLessonPage() {
         className="enlight-container enlight-page-padding"
         style={{ '--enlight-font-scale': fontScale } as React.CSSProperties}
       >
+        <Link to="/dashboard" className="enlight-back-link">
+          ← Back to dashboard
+        </Link>
+
         <div className="enlight-lesson-layout">
-          <LessonSidebar topic={topic} chapterTitle={chapterLabel} />
+          <LessonSidebar
+            topic={topic}
+            chapterTitle={chapterLabel}
+            quickCheck={sidebarQuickCheck}
+            keyFormula={sidebarKeyFormula}
+          />
 
           <main className="enlight-lesson-main">
             <Link to={`/subjects/${subjectId}`} className="enlight-lesson-back">
@@ -258,7 +305,7 @@ export function TopicLessonPage() {
                 >
                   <MathText content={nextTopic.title} /> →
                 </EnlightButton>
-              ) : sectionNotesComplete && canStartSectionQuiz && sectionQuizLevel < 2 ? (
+              ) : sectionNotesComplete && canStartSectionQuiz && sectionQuizLevel < 2 && easyQuizPlayable ? (
                 <EnlightButton to={`/quiz/topic/${topicId}/easy`}>
                   Section quiz →
                 </EnlightButton>
@@ -267,7 +314,7 @@ export function TopicLessonPage() {
               )}
             </div>
 
-            {topic.quizIds && (
+            {topic.quizIds && hasPlayableQuizzes && (
               <>
                 <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
                   Section mastery
@@ -278,7 +325,11 @@ export function TopicLessonPage() {
                     <> Study notes for 5 minutes to earn the notes-read XP bonus.</>
                   )}
                 </p>
-                <TopicMasteryPath topicId={topicId} notesComplete={sectionNotesComplete} />
+                <TopicMasteryPath
+                  topicId={topicId}
+                  notesComplete={sectionNotesComplete}
+                  quizAvailability={quizAvailability}
+                />
               </>
             )}
 
@@ -288,6 +339,8 @@ export function TopicLessonPage() {
                 <Link to={`/quiz/${chapterId}/easy`}>combined Easy quiz</Link> (all sections)
               </p>
             )}
+
+            <ChapterFeedback chapterId={chapterId} subject={subjectId} />
 
             <div style={{ marginTop: 32, display: 'flex', gap: 12 }}>
               <EnlightButton to={`/subjects/${subjectId}`} variant="outline">

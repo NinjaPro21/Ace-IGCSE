@@ -98,7 +98,7 @@ export function SignInPrompt() {
         </p>
         <ul className="enlight-signin-unlocks">
           <li>☁️ Cloud save across devices</li>
-          <li>🏅 School &amp; clan leaderboards</li>
+          <li>School &amp; study group leaderboards</li>
           <li>👥 Friends &amp; study together</li>
           <li>⚔️ Head-to-head quiz duels</li>
         </ul>
