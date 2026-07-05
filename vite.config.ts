@@ -2,8 +2,24 @@ import path from 'node:path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const BUILD_STAMP = new Date().toISOString()
+
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    {
+      name: 'inject-build-stamp',
+      transformIndexHtml(html) {
+        return html.replace(
+          '</head>',
+          `    <meta name="app-build" content="${BUILD_STAMP}" />\n  </head>`,
+        )
+      },
+    },
+  ],
+  define: {
+    __APP_BUILD__: JSON.stringify(BUILD_STAMP),
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

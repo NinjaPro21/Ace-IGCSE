@@ -14,6 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const contentRoot = path.join(__dirname, '..', 'content')
 const args = process.argv.slice(2).filter((a) => !a.startsWith('-'))
 const strict = process.argv.includes('--strict')
+const quizzesOnly = process.argv.includes('--quizzes-only')
 const subjectArg = args[0] ?? 'all'
 const subjects = subjectArg === 'all' ? ['add-maths-0606', 'maths-0580', 'physics'] : [subjectArg]
 
@@ -71,10 +72,12 @@ function walkQuiz(obj, file, prefix = '') {
 }
 
 for (const subject of subjects) {
-  const notesDir = path.join(contentRoot, 'notes', subject)
-  if (fs.existsSync(notesDir)) {
-    for (const file of fs.readdirSync(notesDir).filter((f) => f.endsWith('.md'))) {
-      validateString(fs.readFileSync(path.join(notesDir, file), 'utf8'), `notes/${subject}/${file}`, 'body')
+  if (!quizzesOnly) {
+    const notesDir = path.join(contentRoot, 'notes', subject)
+    if (fs.existsSync(notesDir)) {
+      for (const file of fs.readdirSync(notesDir).filter((f) => f.endsWith('.md'))) {
+        validateString(fs.readFileSync(path.join(notesDir, file), 'utf8'), `notes/${subject}/${file}`, 'body')
+      }
     }
   }
 
@@ -86,7 +89,7 @@ for (const subject of subjects) {
   }
 
   const topicsDir = path.join(contentRoot, 'topics', subject)
-  if (fs.existsSync(topicsDir)) {
+  if (!quizzesOnly && fs.existsSync(topicsDir)) {
     for (const file of fs.readdirSync(topicsDir).filter((f) => f.endsWith('.json'))) {
       const topic = JSON.parse(fs.readFileSync(path.join(topicsDir, file), 'utf8'))
       if (topic.title) validateString(topic.title, `topics/${subject}/${file}`, 'title', 'title')

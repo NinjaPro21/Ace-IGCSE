@@ -6,7 +6,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { prepareMathContent, repairCorruptedQuizMath, repairMathMarkdown, normalizeKeyFormulasBody } from '../src/lib/mathMarkdown.ts'
+import { prepareMathContent, repairMathMarkdown, normalizeKeyFormulasBody } from '../src/lib/mathMarkdown.ts'
 import {
   fixMathInLine,
   normalizeKeyFormulas,
@@ -108,12 +108,7 @@ function fixNoteMarkdown(raw, isPhysics) {
 
 function fixQuizString(val) {
   if (typeof val !== 'string') return val
-  // Never re-run full quiz normalizer on fixed content — it corrupts English "fraction"
-  const repaired = repairCorruptedQuizMath(val)
-  if (/\r?\nfrac|(?<![\\a-zA-Z{])frac\d/.test(repaired)) {
-    return prepareMathContent(repaired, 'quiz')
-  }
-  return repaired
+  return prepareMathContent(val, 'quiz')
 }
 
 function walkQuizStrings(obj) {

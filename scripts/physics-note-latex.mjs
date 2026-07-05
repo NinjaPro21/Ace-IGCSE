@@ -135,6 +135,7 @@ function fixWrongScalarAnswers(line) {
 export function fixPhysicsLine(line) {
   if (!line?.trim()) return line
   if (line.includes('enlight-physics-diagram') || /^<\/?[a-z]/i.test(line.trim())) return line
+  if (/^\s*-\s/.test(line)) return line
 
   let t = line
   t = fixKnownCorruptions(t)

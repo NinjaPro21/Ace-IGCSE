@@ -5,13 +5,13 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { repairCorruptedQuizMath } from '../src/lib/mathMarkdown.ts'
+import { prepareMathContent } from '../src/lib/mathMarkdown.ts'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const quizzesDir = path.join(__dirname, '../content/quizzes/add-maths-0606')
 
 function repairValue(val) {
-  if (typeof val === 'string') return repairCorruptedQuizMath(val)
+  if (typeof val === 'string') return prepareMathContent(val, 'quiz')
   return val
 }
 

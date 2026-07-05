@@ -15,13 +15,13 @@ function diagramsForTopic(slug) {
 }
 
 function injectDiagrams(sectionBody, slug) {
-  const withoutDiagrams = sectionBody.replace(/<div class="enlight-physics-diagram">[\s\S]*?<\/div>/g, '').trim()
   const diagrams = diagramsForTopic(slug)
-  if (!diagrams.length) return withoutDiagrams || sectionBody
+  if (!diagrams.length) return sectionBody
 
+  const withoutDiagrams = sectionBody.replace(/<div class="enlight-physics-diagram">[\s\S]*?<\/div>/g, '').trim()
   const blocks = withoutDiagrams.split(/\n\n(?=\*\*[^*\n]+\*\*)/).filter(Boolean)
   if (blocks.length <= 1) {
-    return `${withoutDiagrams}\n\n${diagrams.join('\n\n')}`.trim()
+    return diagrams.join('\n\n').trim()
   }
   const parts = []
   for (let i = 0; i < blocks.length; i++) {

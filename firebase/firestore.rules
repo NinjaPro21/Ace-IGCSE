@@ -28,21 +28,25 @@ service cloud.firestore {
     }
 
     function myProfile() {
-      return get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data;
+      return exists(/databases/$(database)/documents/profiles/$(request.auth.uid))
+        ? get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data
+        : null;
     }
 
     function mySchoolId() {
-      return myProfile().schoolId;
+      return myProfile() != null && myProfile().schoolId != null ? myProfile().schoolId : null;
     }
 
     function sharesSchoolWithProfile() {
       return signedIn()
+        && mySchoolId() != null
         && resource.data.schoolId != null
         && resource.data.schoolId == mySchoolId();
     }
 
     function sharesClanWithProfile() {
       return signedIn()
+        && myProfile() != null
         && resource.data.clanIds != null
         && myProfile().clanIds != null
         && resource.data.clanIds.hasAny(myProfile().clanIds);
@@ -50,8 +54,121 @@ service cloud.firestore {
 
     function isFriend(userId) {
       return signedIn()
+        && myProfile() != null
         && myProfile().friendIds != null
         && myProfile().friendIds.hasAny([userId]);
+    }
+
+    function targetProfile(userId) {
+      return exists(/databases/$(database)/documents/profiles/$(userId))
+        ? get(/databases/$(database)/documents/profiles/$(userId)).data
+        : null;
+    }
+
+    function sharesSchoolWithUser(userId) {
+      return signedIn()
+        && mySchoolId() != null
+        && targetProfile(userId) != null
+        && targetProfile(userId).schoolId == mySchoolId();
+    }
+
+    function sharesClanWithUser(userId) {
+      return signedIn()
+        && myProfile() != null
+        && myProfile().clanIds != null
+        && targetProfile(userId) != null
+        && targetProfile(userId).clanIds != null
+        && targetProfile(userId).clanIds.hasAny(myProfile().clanIds);
+    }
+
+    function profileFriendIds() {
+      return resource.data.get('friendIds', []);
+    }
+
+    function incomingFriendIds() {
+      return request.resource.data.get('friendIds', []);
+    }
+
+    function canSyncFriendIdsOnOtherProfile() {
+      let oldIds = profileFriendIds();
+      let newIds = incomingFriendIds();
+      return signedIn()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['friendIds'])
+        && (
+          (newIds.hasAll(oldIds)
+            && newIds.size() == oldIds.size() + 1
+            && request.auth.uid in newIds
+            && !(request.auth.uid in oldIds))
+          || (oldIds.hasAll(newIds)
+            && oldIds.size() == newIds.size() + 1
+            && request.auth.uid in oldIds
+            && !(request.auth.uid in newIds))
+        );
+    }
+
+    function validInitialProfile() {
+      let d = request.resource.data;
+      return (!('xp' in d) || (d.xp is int && d.xp >= 0 && d.xp <= 5000))
+        && (!('streakDays' in d) || (d.streakDays is int && d.streakDays >= 0 && d.streakDays <= 30))
+        && (!('longestStreak' in d) || (d.longestStreak is int && d.longestStreak >= 0 && d.longestStreak <= 30));
+    }
+
+    function validProfileUpdate() {
+      let old = resource.data;
+      let neu = request.resource.data;
+      let oldXp = old.get('xp', 0);
+      let newXp = neu.get('xp', 0);
+      let oldStreak = old.get('streakDays', 0);
+      let newStreak = neu.get('streakDays', 0);
+      let oldLongest = old.get('longestStreak', 0);
+      let newLongest = neu.get('longestStreak', 0);
+      let oldAch = old.get('achievementIds', []);
+      let newAch = neu.get('achievementIds', []);
+      return newXp is int && newXp >= 0 && newXp <= 50000
+        && newXp <= oldXp + 300
+        && newStreak is int && newStreak >= 0 && newStreak <= 366
+        && newStreak <= oldStreak + 1
+        && newLongest is int && newLongest >= oldLongest && newLongest <= 366
+        && newAch.size() <= oldAch.size() + 3;
+    }
+
+    function validLeaderboardEntry() {
+      let neu = request.resource.data;
+      return neu.displayName is string
+        && neu.xp is int && neu.xp >= 0 && neu.xp <= 50000
+        && neu.streakDays is int && neu.streakDays >= 0 && neu.streakDays <= 366
+        && neu.longestStreak is int && neu.longestStreak >= 0 && neu.longestStreak <= 366;
+    }
+
+    function isBuddyStreakMember() {
+      return resource.data.uidA == request.auth.uid || resource.data.uidB == request.auth.uid;
+    }
+
+    function isCreatingBuddyStreak() {
+      return request.resource.data.uidA == request.auth.uid
+        || request.resource.data.uidB == request.auth.uid;
+    }
+
+    function isStudyRoomMember() {
+      return request.auth.uid in resource.data.get('memberUids', []);
+    }
+
+    function isJoiningStudyRoom() {
+      let oldMembers = resource.data.get('memberUids', []);
+      let newMembers = request.resource.data.get('memberUids', []);
+      return !(request.auth.uid in oldMembers)
+        && request.auth.uid in newMembers
+        && newMembers.size() == oldMembers.size() + 1
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['memberUids']);
+    }
+
+    function isLeavingStudyRoom() {
+      let oldMembers = resource.data.get('memberUids', []);
+      let newMembers = request.resource.data.get('memberUids', []);
+      return request.auth.uid in oldMembers
+        && !(request.auth.uid in newMembers)
+        && newMembers.size() == oldMembers.size() - 1
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['memberUids']);
     }
 
     match /admins/{userId} {
@@ -71,7 +188,20 @@ service cloud.firestore {
         || isFriend(userId)
         || resource.data.privacy == 'public'
         || isAdmin();
-      allow create, update: if isOwner(userId);
+      allow create: if isOwner(userId) && validInitialProfile();
+      allow update: if (isOwner(userId) && validProfileUpdate()) || canSyncFriendIdsOnOtherProfile();
+    }
+
+    match /leaderboard/{userId} {
+      allow read: if signedIn();
+      allow create, update: if isOwner(userId) && validLeaderboardEntry();
+      allow delete: if isOwner(userId);
+    }
+
+    match /friendCodes/{code} {
+      allow read: if signedIn();
+      allow create, update: if signedIn() && request.resource.data.userId == request.auth.uid;
+      allow delete: if signedIn() && resource.data.userId == request.auth.uid;
     }
 
     match /schools/{schoolId} {
@@ -84,8 +214,8 @@ service cloud.firestore {
     }
 
     match /platformStats/summary {
-      allow read: if signedIn();
-      allow write: if signedIn();
+      allow read: if isAdmin();
+      allow write: if false;
     }
 
     match /friendRequests/{requestId} {
@@ -96,19 +226,27 @@ service cloud.firestore {
     }
 
     match /presence/{userId} {
-      allow read: if signedIn() && (isOwner(userId) || isFriend(userId));
+      allow read: if signedIn()
+        && (
+          isOwner(userId)
+          || isFriend(userId)
+          || sharesSchoolWithUser(userId)
+          || sharesClanWithUser(userId)
+        );
       allow write: if isOwner(userId);
     }
 
     match /studyRooms/{roomId} {
       allow read: if signedIn();
       allow create: if signedIn() && request.resource.data.createdBy == request.auth.uid;
-      allow update: if signedIn();
+      allow update: if signedIn()
+        && (isStudyRoomMember() || isJoiningStudyRoom() || isLeavingStudyRoom());
     }
 
     match /buddyStreaks/{pairId} {
-      allow read: if signedIn();
-      allow write: if signedIn();
+      allow read: if signedIn() && isBuddyStreakMember();
+      allow create: if signedIn() && isCreatingBuddyStreak();
+      allow update: if signedIn() && isBuddyStreakMember();
     }
 
     match /duels/{duelId} {
@@ -119,6 +257,26 @@ service cloud.firestore {
       allow update: if signedIn()
         && (resource.data.challengerUid == request.auth.uid
           || resource.data.opponentUid == request.auth.uid);
+    }
+
+    match /events/{eventId} {
+      allow read: if isAdmin();
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.event is string
+        && request.resource.data.userIdHash is string
+        && request.resource.data.timestamp is string;
+    }
+
+    match /appReviews/{reviewId} {
+      allow read: if isAdmin();
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.rating is int
+        && request.resource.data.rating >= 1
+        && request.resource.data.rating <= 5
+        && request.resource.data.comment is string
+        && request.resource.data.comment.size() <= 500;
     }
   }
 }

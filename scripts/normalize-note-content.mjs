@@ -278,8 +278,9 @@ function fixExpPass(segment) {
 function fixMiscPass(segment) {
   return segment
     .replace(/x↦x2\b/g, 'x↦x²')
-    .replace(/\bx2\b/g, 'x²')
-    .replace(/\bx3\b/g, 'x³')
+    // Skip SVG coordinate attrs (x2="…") — aggressive mode was corrupting diagrams.
+    .replace(/\bx2\b(?!=")/g, 'x²')
+    .replace(/\bx3\b(?!=")/g, 'x³')
     .replace(/f2\b/g, 'f²')
     .replace(/g2\b/g, 'g²')
     // Do not convert trailing "2" in numbers like 12 N or 1200 — breaks physics values.
