@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "project-enlight",
   "private": true,
   "version": "1.0.0",
@@ -36,6 +36,8 @@
     "deploy:hosting": "npm run build && firebase deploy --only hosting",
     "deploy:firestore": "firebase deploy --only firestore",
     "firebase:reset": "node scripts/reset-platform-data.mjs",
+    "admin:reset-launch": "node scripts/admin-reset-launch.mjs",
+    "admin:reset-all-launch": "tsx scripts/reset-all-launch.ts",
     "predeploy:hosting": "npm run quiz:validate"
   },
   "dependencies": {
