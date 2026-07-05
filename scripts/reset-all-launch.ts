@@ -17,8 +17,8 @@
  * Optional: --project=project-enlight-notes
  */
 import { existsSync, readFileSync } from 'fs'
-import admin from 'firebase-admin'
-import type { Firestore, QueryDocumentSnapshot } from 'firebase-admin/firestore'
+import { cert, getApps, initializeApp } from 'firebase-admin/app'
+import { getFirestore, type Firestore, type QueryDocumentSnapshot } from 'firebase-admin/firestore'
 
 const PILOT_UIDS = [
   'SPLITQ9EAQVaH6FGAi66lT8UjL32',
@@ -113,8 +113,10 @@ async function main(): Promise<void> {
     process.exit(1)
   }
 
-  const serviceAccount = JSON.parse(readFileSync(credPath, 'utf8')) as admin.ServiceAccount & {
+  const serviceAccount = JSON.parse(readFileSync(credPath, 'utf8')) as {
     project_id?: string
+    client_email?: string
+    private_key?: string
   }
   const projectId = projectFlag ?? serviceAccount.project_id
   if (!projectId) {
@@ -122,14 +124,14 @@ async function main(): Promise<void> {
     process.exit(1)
   }
 
-  if (!admin.apps.length) {
-    admin.initializeApp({
-      credential: admin.credential.cert(serviceAccount),
+  if (!getApps().length) {
+    initializeApp({
+      credential: cert(serviceAccount),
       projectId,
     })
   }
 
-  const db = admin.firestore()
+  const db = getFirestore()
 
   console.log(`Project: ${projectId}`)
   console.log(`Mode: ${confirm ? 'CONFIRM — writing to Firestore' : 'DRY RUN — pass --confirm to apply'}`)

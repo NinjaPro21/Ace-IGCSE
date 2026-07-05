@@ -56,9 +56,10 @@ const confirm = args.includes('--confirm')
 const userId = flagValue(args, '--userId')
 const projectFlag = flagValue(args, '--project')
 const groupsRaw = flagValue(args, '--groups')
-const groupIds = groupsRaw
-  ? groupsRaw.split(',').map((s) => s.trim()).filter(Boolean)
-  : []
+const groupIds = (groupsRaw ?? '')
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean)
 
 if (!userId) {
   console.error('Error: --userId is required.\n')
@@ -75,23 +76,24 @@ if (!credPath || !existsSync(credPath)) {
 const serviceAccount = JSON.parse(readFileSync(credPath, 'utf8'))
 const projectId = projectFlag ?? serviceAccount.project_id
 
-let admin
 try {
-  admin = require('firebase-admin')
+  require('firebase-admin')
 } catch {
   console.error('Install firebase-admin: npm install --save-dev firebase-admin')
   process.exit(1)
 }
 
-if (!admin.apps.length) {
-  admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
+const { cert, getApps, initializeApp } = require('firebase-admin/app')
+const { getFirestore, FieldValue } = require('firebase-admin/firestore')
+
+if (!getApps().length) {
+  initializeApp({
+    credential: cert(serviceAccount),
     projectId,
   })
 }
 
-const db = admin.firestore()
-const FieldValue = admin.firestore.FieldValue
+const db = getFirestore()
 
 const PLATFORM_STATS_RESET = {
   totalSignUps: 0,
@@ -200,7 +202,7 @@ async function deleteAnalyticsForUser(uid) {
   return total
 }
 
-async function deleteGroups(ids) {
+async function deleteGroups(ids = []) {
   let total = 0
   for (const id of ids) {
     const ref = db.collection('schools').doc(id)
