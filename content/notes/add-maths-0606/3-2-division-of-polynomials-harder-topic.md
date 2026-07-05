@@ -15,8 +15,11 @@ The divisor is $D(x)$, the quotient is $Q(x)$, and the remainder $R(x)$ has lowe
 ## Steps / method
 
 1. **Divide** the leading term of the dividend by the leading term of the divisor.
+
 2. **Multiply** the whole divisor by that result and write it under the dividend.
+
 3. **Subtract** to get a new remainder and bring down the next term.
+
 4. **Repeat** until the remainder has lower degree than the divisor.
 
 ### Key rule
@@ -43,7 +46,7 @@ Quotient: $x^2 + 2x + 4$, remainder $0$.
 
 ## Examiner tip
 
-If your polynomial is missing a power of $x$ (e.g. $x^3 + 5$), write it as $x^3 + 0x^2 + 0x + 5$ in the long division grid to keep columns aligned.
+If your polynomial is missing a power of $x (e.g$(2 $), write it as$ x^3 + 0x^2 + 0x + 5$in the long division grid to keep columns aligned.$
 
 ## Quick check
 

@@ -1,6 +1,6 @@
 ## Core idea
 
-Use the product rule when two functions of $x are **multiplied** together (e.g$. $2y = x^2 \sin x$). You cannot simply multiply their individual derivatives — that is a common and costly error.
+Use the product rule when two functions of $x are **multiplied** together (e.g$ (2). You cannot simply multiply their individual derivatives — that is a common and costly error.
 
 ## Key formulas
 
@@ -10,27 +10,7 @@ $\frac{d}{dx}(uv) = u\frac{dv}{dx} + v\frac{du}{dx}$
 
 1. **Identify $u$ and $v. u$ and $v$ is the second. 2. **Differentiate both** — find $\frac{du}{dx}$ and $\frac{dv}{dx}$ (use the chain rule if needed).
 
-
-
-
-
-
-
-
-
-
-
  3. **Apply the formula** — $u \cdot v' + v \cdot u'$.
-
-
-
-
-
-
-
-
-
-
 
  4. **Simplify** — factor out common terms where possible.
 
@@ -46,7 +26,7 @@ $$
 
 Question: Find the derivative of $y = 2x\sqrt{x+1}$.
 
-$u = 2x$. So $u' = 2$. $v = (x+1)^{1/2}$, $v' = \frac{1}{2}(x+1)^{-1/2}$.
+$u = 2x$ when $. 2v = (x+1)^{1/2}$, $v' = \frac{1}{2}(x+1)^{-1/2}$.
 
 $$
 \frac{dy}{dx} = 2x \cdot \frac{1}{2\sqrt{x+1}} + 2\sqrt{x+1} = \frac{x + 2(x+1)}{\sqrt{x+1}} = \frac{3x+2}{\sqrt{x+1}}
@@ -58,6 +38,6 @@ Avoid expanding high-power brackets before differentiating. Keep factors like $(
 
 ## Quick check
 
-If $y = uv$. So $\frac{dy}{dx} = u' \cdot v'$?
+If $y = uv$ when2?
 
 No — the product rule gives $u v' + v u'$.

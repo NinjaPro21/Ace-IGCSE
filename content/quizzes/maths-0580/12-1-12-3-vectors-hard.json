@@ -11,7 +11,7 @@
     {
       "id": "12-1-12-3-vectors-hard-q1",
       "type": "mcq",
-      "question": "In parallelogram $PQRS$2$\\vec{PQ} = \\mathbf{p}$ and $\\vec{PS} = \\mathbf{q}$. $M$2$QR$2$\\vec{PM}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "question": "In parallelogram $PQRS$. So $\\vec{PQ} = \\mathbf{p}$ and $\\vec{PS} = \\mathbf{q}$. $M$. $QR2\\vec{PM}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
       "options": [
         "$\\mathbf{p} + 0.5\\mathbf{q}$",
         "$\\mathbf{p} + \\mathbf{q}$",
@@ -19,12 +19,12 @@
         "$\\mathbf{q} - 0.5\\mathbf{p}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{PM} = \\vec{PQ} + \\vec{QM}$. In a parallelogram, $\\vec{QR} = \\vec{PS} = \\mathbf{q}$. Thus $\\vec{QM} = 0.5\\mathbf{q}$. So $\\vec{PM} = \\mathbf{p} + 0.5\\mathbf{q}$.\n\n**Common mistake:** The student might assume $M$2$PS$ or misidentify the direction of the vectors."
+      "explanation": "$\\vec{PM} = \\vec{PQ} + \\vec{QM}$. In a parallelogram, $\\vec{QR} = \\vec{PS} = \\mathbf{q}$. Thus $\\vec{QM} = 0.5\\mathbf{q}$. So $\\vec{PM} = \\mathbf{p} + 0.5\\mathbf{q}$.\n\n**Common mistake:** The student might assume $M$. $PS$ or misidentify the direction of the vectors."
     },
     {
       "id": "12-1-12-3-vectors-hard-q2",
       "type": "mcq",
-      "question": "Given position vectors $\\vec{OA} = 4\\mathbf{a}$ and $\\vec{OB} = 6\\mathbf{b}$. Point $N$2$AB$2$AN : NB = 1 : 2$. Express $\\vec{ON}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "Given position vectors $\\vec{OA} = 4\\mathbf{a}$ and $\\vec{OB} = 6\\mathbf{b}$. Point $N$. $AB2AN : NB = 1 : 2$. Express $\\vec{ON}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$\\frac{8}{3}\\mathbf{a} + 2\\mathbf{b}$",
         "$2\\mathbf{a} + 4\\mathbf{b}$",
@@ -37,10 +37,10 @@
     {
       "id": "12-1-12-3-vectors-hard-q3",
       "type": "mcq",
-      "question": "Show that the points $X, Y,$ and $Z$2$\\vec{XY} = 3\\mathbf{a} + 2\\mathbf{b}$ and $\\vec{XZ} = 7.5\\mathbf{a} + 5\\mathbf{b}$. Determine the scalar $k$2$\\vec{XZ} = k\\vec{XY}$.",
+      "question": "Show that the points $X, Y,$ and $Z$. So $\\vec{XY} = 3\\mathbf{a} + 2\\mathbf{b}$ and $\\vec{XZ} = 7.5\\mathbf{a} + 5\\mathbf{b}$. Determine the scalar $k$. So $\\vec{XZ} = k\\vec{XY}$.",
       "options": [
         "$2.5$",
-        "$2$",
+        "2",
         "$3$",
         "$1.5$"
       ],
@@ -50,20 +50,20 @@
     {
       "id": "12-1-12-3-vectors-hard-q4",
       "type": "mcq",
-      "question": "Calculate the value of $x$2$\\begin{pmatrix} x \\ -15 \\end{pmatrix}$ is $17$ units and $x$ is a positive integer.",
+      "question": "Calculate the value of $x$. $\\begin{pmatrix} x \\ \\\\ -15 \\end{pmatrix}$ is $1$ units and $x$ is a positive integer.",
       "options": [
         "$8$",
-        "$2$",
+        "2",
         "$\\sqrt{64}$",
         "$12$"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2 + (-15)² = 17^2 \\Rightarrow x^2 + 225 = 289 \\Rightarrow x^2 = 64$. Since $x > 0$, $x = 8$.\n\n**Common mistake:** The student may subtract $225$ from $289$ incorrectly or forget to take the square root of $64$."
+      "explanation": "$x^2 + (-15)² = 17^2 \\Rightarrow x^2 + 225 = 289 \\Rightarrow x^2 = 64$. Since $x > 0$, $x = 8$.\n\n**Common mistake:** The student may subtract^225 from^289 incorrectly or forget to take the square root of^64."
     },
     {
       "id": "12-1-12-3-vectors-hard-q5",
       "type": "mcq",
-      "question": "A point $A$2$(3, -2)$ and $\\vec{AB} = \\begin{pmatrix} -7 \\ 5 \\end{pmatrix}$. Find the coordinates of the image of $B$2$\\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$.",
+      "question": "A point $A$. $(3, -2)$ and $\\vec{AB} = \\begin{pmatrix} -7 \\ \\\\ 5 \\end{pmatrix}$. Find the coordinates of the image of $B$. $\\begin{pmatrix} 2 \\ \\\\ 2 \\end{pmatrix}$.",
       "options": [
         "$(-2, 5)$",
         "$(-4, 3)$",
@@ -71,7 +71,7 @@
         "$(-9, 7)$"
       ],
       "correctIndex": 0,
-      "explanation": "Coordinates of $B = (3 + (-7), -2 + 5) = (-4, 3)$. Translated image $= (-4 + 2, 3 + 2) = (-2, 5)$.\n\n**Common mistake:** A student might translate point $A$2$B$, or make addition/subtraction errors with the negative numbers."
+      "explanation": "Coordinates of $B = (3 + (-7), -2 + 5) = (-4, 3)$. Translated image $= (-4 + 2, 3 + 2) = (-2, 5)$.\n\n**Common mistake:** A student might translate point $A$ and $B$, or make addition/subtraction errors with the negative numbers."
     }
   ]
 }

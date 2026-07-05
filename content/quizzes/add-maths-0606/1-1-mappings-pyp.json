@@ -11,7 +11,7 @@
     {
       "id": "1-1-mappings-pyp-q1",
       "type": "mcq",
-      "question": "A mapping is defined by f:x$\\mapsto$12−4x for x∈R. Find the value of x such that the image is equal to the object.",
+      "question": "A mapping is defined by $f: x \\mapsto 12-4x$ for $x \\in \\mathbb{R}$. Find the value of x such that the image is equal to the object.",
       "options": [
         "2.4",
         "3",
@@ -19,12 +19,12 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Set 12−4x=x, which leads to 5x=12, so x=2.4.\n\n**Common mistake:** Misinterpreting 'image equals object' as 'image equals zero' and solving 12−4x=0 to get x=3."
+      "explanation": "Set 12-4x=x, which leads to 5x=12, so x=2.4.\n\n**Common mistake:** Misinterpreting 'image equals object' as 'image equals zero' and solving 12-4x=0 to get x=3."
     },
     {
       "id": "1-1-mappings-pyp-q2",
       "type": "mcq",
-      "question": "State the type of mapping for f:x$\\mapsto$5−∣x−2∣ with the domain 0≤x≤4.",
+      "question": "State the type of mapping for $f: x \\mapsto 5-∣x-2∣$ with the domain 0≤x≤4.",
       "options": [
         "Many-to-one",
         "One-to-one",
@@ -32,12 +32,12 @@
         "Many-to-many"
       ],
       "correctIndex": 0,
-      "explanation": "f(0)=5−∣−2∣=3 and f(4)=5−∣2∣=3. Since two different objects have the same image, it is many-to-one.\n\n**Common mistake:** Assuming all modulus graphs are 'V' shaped and thus must be many-to-one without verifying the specific domain."
+      "explanation": "f(0)=5-∣-2∣=3 and f(4)=5-∣2∣=3. Since two different objects have the same image, it is many-to-one.\n\n**Common mistake:** Assuming all modulus graphs are 'V' shaped and thus must be many-to-one without verifying the specific domain."
     },
     {
       "id": "1-1-mappings-pyp-q3",
       "type": "mcq",
-      "question": "The mapping g:x$\\mapsto\n\n$$x^{2}$−4x+7 has domain x∈R. Find the set of values of the range.$",
+      "question": "The mapping $g: x \\mapsto x^{2}$ -4x+7 has domain x∈R. Find the set of values of the range.",
       "options": [
         "y≥3",
         "y≥7",
@@ -50,7 +50,7 @@
     {
       "id": "1-1-mappings-pyp-q4",
       "type": "mcq",
-      "question": "Given the domain x>0, state the range of the mapping x$\\mapsto$5+$\\frac{2}{x}$.",
+      "question": "Given the domain $x > 0$, state the range of the mapping $x \\mapsto 5 + \\frac{2}{x}$.",
       "options": [
         "y>5",
         "y<5",

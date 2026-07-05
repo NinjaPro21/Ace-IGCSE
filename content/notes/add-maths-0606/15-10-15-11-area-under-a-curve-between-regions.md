@@ -23,9 +23,13 @@ $A_{\text{shaded}} = A_{\text{big}} - A_{\text{small}}$ when one region sits ins
 ## Steps / method
 
 1. **Sketch** both curves and identify the shaded region.
+
 2. **Find intersection points** by solving the curves simultaneously.
+
 3. **Decide** which curve is on top between the intersection points.
+
 4. **Integrate** (top minus bottom) between the $x$-values of intersection.
+
 5. **Split** the integral if a curve crosses the $x$-axis within the interval.
 
 ### Key rule

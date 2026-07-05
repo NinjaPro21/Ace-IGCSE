@@ -11,7 +11,7 @@
     {
       "id": "5-3-5-4-sector-segment-analysis-pyp-q1",
       "type": "mcq",
-      "question": "Points $A$2$B$2$O$2$10\\text{ cm}$. If angle $AOB = 70°$, calculate the arc length $AB$.",
+      "question": "Points $A$ and $B2O$. $10\\text{ cm}$. If angle $AOB = 70°$, calculate the arc length $AB$.",
       "options": [
         "$12.2\\text{ cm}$",
         "$61.1\\text{ cm}$",
@@ -36,7 +36,7 @@
     {
       "id": "5-3-5-4-sector-segment-analysis-pyp-q3",
       "type": "mcq",
-      "question": "A minor arc $MN$2$18\\text{ cm}$ is part of a circle with radius $10\\text{ cm}$. Calculate the angle $MON$ correct to 1 decimal place.",
+      "question": "A minor arc $MN$. $18\\text{ cm}$ is part of a circle with radius $10\\text{ cm}$. Calculate the angle $MON$ correct to 1 decimal place.",
       "options": [
         "$103.1°$",
         "$18.0°$",
@@ -44,12 +44,12 @@
         "$206.3°$"
       ],
       "correctIndex": 0,
-      "explanation": "$18 = \\frac{\\theta}{360} \\times 2\\pi(10) \\Rightarrow 18 = \\frac{\\theta\\pi}{18} \\Rightarrow \\theta = 324/\\pi \\approx 103.13°$.\n\n**Common mistake:** The student might forget to include the factor of $2$ for the circumference formula."
+      "explanation": "$18 = \\frac{\\theta}{360} \\times 2\\pi(10) \\Rightarrow 18 = \\frac{\\theta\\pi}{18} \\Rightarrow \\theta = 324/\\pi \\approx 103.13°$.\n\n**Common mistake:** The student might forget to include the factor of 2 for the circumference formula."
     },
     {
       "id": "5-3-5-4-sector-segment-analysis-pyp-q4",
       "type": "mcq",
-      "question": "The points $X$2$Y$2$O$2$8\\text{ cm}$. Given angle $XOY = 80°$, calculate the length of the chord $XY$.",
+      "question": "The points $X$ and $Y2O$. $8\\text{ cm}$. Given angle $XOY = 80°$, calculate the length of the chord $XY$.",
       "options": [
         "$10.3\\text{ cm}$",
         "$11.2\\text{ cm}$",
@@ -57,12 +57,12 @@
         "$12.3\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Use the sine rule in triangle $XOY$2$XY = 2 \\times 8 \\times \\sin(40°) \\approx 10.28$.\n\n**Common mistake:** A student might assume the triangle is equilateral and pick $8\\text{ cm}$."
+      "explanation": "Use the sine rule in triangle $XOY$. So $XY = 2 \\times 8 \\times \\sin(40°) \\approx 10.28$.\n\n**Common mistake:** A student might assume the triangle is equilateral and pick $8\\text{ cm}$."
     },
     {
       "id": "5-3-5-4-sector-segment-analysis-pyp-q5",
       "type": "mcq",
-      "question": "Find the area of the minor segment of the circle cut off by chord $XY$2$r=8$ and $\\theta=80°$).",
+      "question": "Find the area of the minor segment of the circle cut off by chord $XY$. So $r=8$ and $\\theta=80°$).",
       "options": [
         "$13.2\\text{ cm}^2$",
         "$44.7\\text{ cm}^2$",

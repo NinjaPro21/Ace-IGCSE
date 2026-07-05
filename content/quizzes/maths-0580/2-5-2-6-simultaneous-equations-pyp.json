@@ -32,7 +32,7 @@
         "$x = 2, y = 3.33$"
       ],
       "correctIndex": 1,
-      "explanation": "Add the equations directly to eliminate $y$2$7x = 21 \\rightarrow x = 3$. Substitute $x = 3$: $2(3) + 3y = 14 \\rightarrow 6 + 3y = 14 \\rightarrow 3y = 8 \\rightarrow y = 2.67$. Wait, let's look at choice 1: if $x=3, y=2.67$. Let's refine the second equation to $5x - 3y = 1$ to give integers. $7x = 15$. No, let's adjust to $2x+3y=13$ and $5x-3y=8 \\rightarrow 7x=21 \\rightarrow x=3$. Then $2(3)+3y=13 \\rightarrow 3y=7$. Let's make it perfectly clean: $2x+3y=12$ and $5x-3y=9$. Add: $7x=21 \\rightarrow x=3$. Then $2(3)+3y=12 \\rightarrow 3y=6 \\rightarrow y=2$. Let's update the equations in the stem to $2x+3y=12$ and $5x-3y=9$.\n\n**Common mistake:** Students occasionally subtract instead of adding when expressions have opposite coefficients."
+      "explanation": "Add the equations directly to eliminate $y$. $7x = 21 \\rightarrow x = 3$. Substitute $x = 3$: $2(3) + 3y = 14 \\rightarrow 6 + 3y = 14 \\rightarrow 3y = 8 \\rightarrow y = 2.67$. Wait, let's look at choice 1: if $x=3, y=2.67$. Let's refine the second equation to $5x - 3y = 1$ to give integers. $7x = 15$. No, let's adjust to $2x+3y=13$ and $5x-3y=8 \\rightarrow 7x=21 \\rightarrow x=3$. Then $2(3)+3y=13 \\rightarrow 3y=7$. Let's make it perfectly clean: $2x+3y=12$ and $5x-3y=9$. Add: $7x=21 \\rightarrow x=3$. Then $2(3)+3y=12 \\rightarrow 3y=6 \\rightarrow y=2$. Let's update the equations in the stem to $2x+3y=12$ and $5x-3y=9$.\n\n**Common mistake:** Students occasionally subtract instead of adding when expressions have opposite coefficients."
     },
     {
       "id": "2-5-2-6-simultaneous-equations-pyp-q3",
@@ -71,7 +71,7 @@
         "$x = 2, y = 9$"
       ],
       "correctIndex": 0,
-      "explanation": "Add the equations to eliminate $y$2$7x = 28 \\rightarrow x = 4$. Substitute $x = 4$: $4(4) + y = 17 \\rightarrow 16 + y = 17 \\rightarrow y = 1$.\n\n**Common mistake:** A common mistake is selecting the value of $x$2$y$ without verifying both given formulas."
+      "explanation": "Add the equations to eliminate $y$. $7x = 28 \\rightarrow x = 4$. Substitute $x = 4$: $4(4) + y = 17 \\rightarrow 16 + y = 17 \\rightarrow y = 1$.\n\n**Common mistake:** A common mistake is selecting the value of $x$ and $y$ without verifying both given formulas."
     }
   ]
 }

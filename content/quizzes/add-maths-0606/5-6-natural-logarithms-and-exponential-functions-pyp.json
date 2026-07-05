@@ -37,7 +37,7 @@
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of $x$2$e^{2x+1} \\geq 10$.",
+      "question": "Find the set of values of $x$. $e^{2x+1} \\geq 10$.",
       "options": [
         "$x \\geq \\frac{\\ln 10 - 1}{2}$",
         "x \\geq \\ln 5 - 1",
@@ -45,7 +45,7 @@
         "$x \\geq \\frac{e^{10} - 1}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Take $\\ln$2$2x + 1 \\geq \\ln 10$. Subtract 1 and divide by 2 to isolate $x$.\n\n**Common mistake:** Dividing by 2 before subtracting 1, leading to an incorrect algebraic expression."
+      "explanation": "Take $\\ln$. $2x + 1 \\geq \\ln 10$. Subtract 1 and divide by 2 to isolate $x$.\n\n**Common mistake:** Dividing by 2 before subtracting 1, leading to an incorrect algebraic expression."
     },
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-pyp-q4",
@@ -63,7 +63,7 @@
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-pyp-q5",
       "type": "mcq",
-      "question": "Express $\\ln(x^4 \\sqrt{e})$ in the form $A\\ln x + B$2$A$2$B$ are constants.",
+      "question": "Express $\\ln(x^4 \\sqrt{e})$ in the form $A\\ln x + B$ and $A2B$ are constants.",
       "options": [
         "4\\ln x + 0.5",
         "4\\ln x + 1",
@@ -71,7 +71,7 @@
         "4\\ln x + e"
       ],
       "correctIndex": 0,
-      "explanation": "Using log laws: $\\ln x^4 + \\ln e^{1/2} = 4\\ln x + \\frac{1}{2}\\ln e$2$\\ln e = 1$, the result is $4\\ln x + 0.5$.\n\n**Common mistake:** Leaving the second term as $\\ln \\sqrt{e}$ or mistakenly evaluating $\\ln e$2$e$ or 0."
+      "explanation": "Using log laws: $\\ln x^4 + \\ln e^{1/2} = 4\\ln x + \\frac{1}{2}\\ln e^2 So \\ln e = 1$, the result is $4\\ln x + 0.5$.\n\n**Common mistake:** Leaving the second term as $\\ln \\sqrt{e}$ or mistakenly evaluating $\\ln e  and e$ or 0."
     }
   ]
 }

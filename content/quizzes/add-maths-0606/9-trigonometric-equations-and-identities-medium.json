@@ -19,20 +19,20 @@
         "$225^\\circ, 315^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\sec \\theta = \\sqrt{2} \\implies \\cos \\theta = 1/\\sqrt{2}$. This occurs in the 1st ($45^\\circ$2$360 - 45 = 315^\\circ$) quadrants.\n\n**Common mistake:** Option B is chosen if the student assumes cosine is positive in the second quadrant."
+      "explanation": "$\\sec \\theta = \\sqrt{2} \\implies \\cos \\theta = 1/\\sqrt{2}$. This occurs in the 1st ($45^\\circ$. $360 - 45 = 315^\\circ$) quadrants.\n\n**Common mistake:** Option B is chosen if the student assumes cosine is positive in the second quadrant."
     },
     {
       "id": "9-trigonometric-equations-and-identities-medium-q2",
       "type": "mcq",
-      "question": "Given that $\\tan A = \\sqrt{3}$ and $A$2$\\sec^2 A$.",
+      "question": "Given that $\\tan A = \\sqrt{3}$ and $A$. $\\sec^2 A$.",
       "options": [
         "$4$",
         "$3$",
-        "$2$",
+        "2",
         "$\\sqrt{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $1 + \\tan^2 A = \\sec^2 A$2$1 + (\\sqrt{3})^2 = 1 + 3 = 4$.\n\n**Common mistake:** Option B is simply $\\tan^2 A$2$1$ required by the identity."
+      "explanation": "Using $1 + \\tan^2 A = \\sec^2 A$. $1 + (\\sqrt{3})^2 = 1 + 3 = 4$.\n\n**Common mistake:** Option B is simply $\\tan^2 A$. $1$ required by the identity."
     },
     {
       "id": "9-trigonometric-equations-and-identities-medium-q3",
@@ -58,12 +58,12 @@
         "$\\sec^2 \\theta$"
       ],
       "correctIndex": 0,
-      "explanation": "This is a difference of squares: $\\csc^2 \\theta - \\cot^2 \\theta$2$1 + \\cot^2 \\theta = \\csc^2 \\theta$2$\\csc^2 \\theta - \\cot^2 \\theta = 1$.\n\n**Common mistake:** Option B is a common algebraic error where a student forgets that $(a-b)(a+b) = a^2 - b^2$."
+      "explanation": "This is a difference of squares: $\\csc^2 \\theta - \\cot^2 \\theta$. $1 + \\cot^2 \\theta = \\csc^2 \\theta2\\csc^2 \\theta - \\cot^2 \\theta = 1$.\n\n**Common mistake:** Option B is a common algebraic error where a student forgets that $(a-b)(a+b) = a^2 - b^2$."
     },
     {
       "id": "9-trigonometric-equations-and-identities-medium-q5",
       "type": "mcq",
-      "question": "If $\\sec x = -2.5$ and $180^\\circ < x < 270^\\circ$2$\\cos x$.",
+      "question": "If $\\sec x = -2.5$ and $180^\\circ < x < 270^\\circ$. $\\cos x$.",
       "options": [
         "$-0.4$",
         "$0.4$",

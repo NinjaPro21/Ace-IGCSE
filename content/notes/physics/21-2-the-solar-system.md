@@ -20,7 +20,7 @@ Around 4.6 billion years ago, our Solar System was nothing more than a swirling 
 
 $v = \frac{2\pi r}{T}$
 
-Applies to objects in circular or nearly circular orbits, where $r$ and $T$ is the orbital period.
+Applies to objects in circular or nearly circular orbits, where $r$ is the orbital radius and $T$ is the orbital period.
 
 **Travel Time (for light or signals)**
 
@@ -40,16 +40,20 @@ Applies to the recessional velocity of galaxies moving away from Earth, where $H
 - **Comet Velocity and Energy**: A diagram of a comet's orbit shows it moving fastest when closest to the Sun (maximum kinetic energy) and slowest when furthest away (maximum gravitational potential energy).
 - **Distance vs. Orbital Time**: A graph of planetary data shows that as the distance from the Sun increases, the time to complete an orbit increases significantly because the Sun's gravitational field strength decreases.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
-      <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
-      <rect x="120" y="30" width="50" height="30" fill="#fef08a"/><rect x="170" y="30" width="80" height="30" fill="#bbf7d0"/>
-      <rect x="250" y="30" width="50" height="30" fill="#bfdbfe"/><rect x="300" y="30" width="50" height="30" fill="#ddd6fe"/>
-      <rect x="350" y="30" width="70" height="30" fill="#e9d5ff"/>
-      <text x="45" y="50" text-anchor="middle" font-size="8" fill="#334155">radio</text>
-      <text x="210" y="50" text-anchor="middle" font-size="8" fill="#334155">visible</text>
-      <text x="385" y="50" text-anchor="middle" font-size="8" fill="#334155">gamma</text>
-      <text x="220" y="20" text-anchor="middle" font-size="11" fill="#334155">increasing frequency →</text>
-    </svg><p class="enlight-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
+<div class="enlight-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Elliptical orbit of a comet">
+      <ellipse cx="260" cy="110" rx="180" ry="75" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+      <circle cx="130" cy="110" r="20" fill="#fef08a" stroke="#ca8a04"/>
+      <text x="130" y="114" text-anchor="middle" font-size="8" fill="#854d0e">Sun</text>
+      <text x="130" y="145" text-anchor="middle" font-size="8" fill="#64748b">focus</text>
+      <circle cx="55" cy="110" r="6" fill="#cbd5e1" stroke="#64748b"/>
+      <text x="55" y="95" text-anchor="middle" font-size="8" fill="#64748b">aphelion</text>
+      <text x="55" y="130" text-anchor="middle" font-size="8" fill="#64748b">slow, max GPE</text>
+      <circle cx="400" cy="110" r="6" fill="#f97316" stroke="#c2410c"/>
+      <text x="400" y="95" text-anchor="middle" font-size="8" fill="#c2410c">perihelion</text>
+      <text x="400" y="130" text-anchor="middle" font-size="8" fill="#c2410c">fast, max KE</text>
+      <path d="M55 110 Q180 60 400 110 Q180 160 55 110" fill="none" stroke="#f97316" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="240" y="200" text-anchor="middle" font-size="10" fill="#475569">GPE → KE as comet approaches the Sun</text>
+    </svg><p class="enlight-physics-diagram__caption">Elliptical orbits — the Sun lies at one focus; comets move fastest when closest to the Sun (perihelion).</p></div>
 
 ## Steps / method
 
@@ -91,11 +95,21 @@ As the distance from the Sun increases, what happens to a planet's average orbit
 
 Question: The average distance from the Sun to the Earth is $150$ million kilometers. Calculate how long it takes for sunlight to reach Earth in minutes and seconds. (Speed of light $c = 3 \times 10^{8}\ m/s$).
 
-Convert distance to SI units: $150000000\ km = 1.5 \times 10^{11}\ m$.
+Convert distance to SI units:
 
-Apply the formula: $$t = \frac{1.5 \times 10^{11}\ m}{3 \times 10^{8}\ m/s}$ Calculate seconds:t = 500\ s $.
+$$
+150\,000\,000\ \text{km} = 1.5 \times 10^{11}\ \text{m}
+$$
 
-Convert to minutes: $500 / 60 = 8$ minutes and $20$ seconds.
+Apply the formula:
+
+$$
+t = \frac{1.5 \times 10^{11}}{3 \times 10^{8}} = 500\ \text{s}
+$$
+
+Convert to minutes: 500 s = 8 minutes and 20 seconds.
+
+**Final answer:** 8 minutes 20 seconds.
 
 ## Worked example — Comet Energy Changes
 
@@ -105,6 +119,8 @@ Identify the force: The Sun’s gravitational field pulls the comet inward.
 
 Describe the energy transfer: Gravitational potential energy (GPE) is converted into kinetic energy (KE) as the comet accelerates.
 
-State the result: The comet travels at its maximum speed when it is closest to the Sun. ### Common Trap
+State the result: The comet travels at its maximum speed when it is closest to the Sun.
+
+### Common Trap
 
 Students often think the comet has more total energy when it's faster. The truth is the total energy remains constant (ignoring gas evaporation), but the ratio of KE to GPE shifts.

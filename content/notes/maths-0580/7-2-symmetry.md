@@ -6,19 +6,19 @@ Symmetry analyzes how geometric shapes remain invariant under reflection or rota
 
 $$
 \text{Order of Rotational Symmetry:} \quad \text{Number of outline matches during a full } 360^\circ \text{ rotation}
+$$
 
+$$
 \text{Regular Polygon Symmetry Rule:} \quad \text{Number of Lines of Symmetry} = \text{Order of Rotational Symmetry} = n \text{ sides}
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Line symmetry">
-      <line x1="120" y1="20" x2="120" y2="180" stroke="#dc2626" stroke-dasharray="6 4"/>
-      <polygon points="120,40 180,160 60,160" fill="#dbeafe" stroke="#2563eb"/>
-      <text x="120" y="15" text-anchor="middle" font-size="10" fill="#dc2626">line of symmetry</text>
-    </svg></div>
-
-Line symmetry — fold line maps one half exactly onto the other; count lines of symmetry.
+      <line x1="120" y1="20" x2="120" y2="180" stroke="#b59a73" stroke-dasharray="6 4"/>
+      <polygon points="120,40 180,160 60,160" fill="#f5edd8" stroke="#5b8def"/>
+      <text x="120" y="15" text-anchor="middle" font-size="10" fill="#b59a73">line of symmetry</text>
+    </svg><p class="enlight-physics-diagram__caption">Line symmetry — fold line maps one half exactly onto the other; count lines of symmetry.</p></div>
 
 ## Steps / method
 
@@ -50,9 +50,9 @@ Apply the rotational symmetry rule for regular shapes: the order of rotational s
 
 ## Worked example — Example 2 (Nov 2022 P12 Q5)
 
-A 3D solid is a square-based pyramid where the apex sits directly over the center of the base. State the total number of planes of symmetry that this solid possesses. Visuali
+A 3D solid is a square-based pyramid where the apex sits directly over the center of the base. State the total number of planes of symmetry that this solid possesses.
 
-ze the base of the pyramid: a flat square, which has 4 lines of 2D symmetry (two cutting through opposite sides, and two cutting diagonally through opposite corners).
+Visualize the base of the pyramid: a flat square, which has 4 lines of 2D symmetry (two cutting through opposite sides, and two cutting diagonally through opposite corners).
 
 Project these lines vertically up through the apex of the pyramid to form 3D slicing planes.
 

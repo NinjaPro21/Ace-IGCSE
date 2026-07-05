@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Identify** $r$ and $\theta$ — ensure $\theta$ is in radians.
+
 2. **Calculate sector area** using $A = \frac{1}{2}r^2\theta$.
+
 3. **For a segment** (between chord and arc), subtract the triangle area $\frac{1}{2}r^2\sin\theta$ from the sector area.
 
 ### Key rule
@@ -38,9 +40,9 @@ $$
 
 Question: A sector has radius $10$ cm and angle $1$ rad. Find the segment area.
 
-Sector: $A = \frac{1}{2} \times 10^2 \times 1 = 50$ cm²
+Sector: $A = \frac{1}{2} \times 10^{2} \times 1 = 50$ cm²
 
-Triangle: $\frac{1}{2} \times 10^2 \times \sin(1) \approx 41.9$ cm²
+Triangle: $\frac{1}{2} \times 10^{2} \times \sin(1) \approx 41.9$ cm²
 
 Segment: $50 - 41.9 = 8.1$ cm² (3 s.f.)
 

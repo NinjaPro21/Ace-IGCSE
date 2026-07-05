@@ -11,12 +11,10 @@ $$
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Standard form examples">
-      <text x="40" y="40" font-size="11" fill="#64748b">Large:</text><text x="100" y="40" font-size="12" fill="#2563eb">3.2 × 10^6</text>
-      <text x="40" y="70" font-size="11" fill="#64748b">Small:</text><text x="100" y="70" font-size="12" fill="#2563eb">4.5 × 10^−4</text>
-      <text x="40" y="100" font-size="10" fill="#64748b">a must be between 1 and 10</text>
-    </svg></div>
-
-Standard form $a × 10^n$ — $1 ≤ a < 10$; $n$ is the power of 10 (positive for large, negative for small).
+      <text x="40" y="40" font-size="11" fill="#a8a29e">Large:</text><text x="100" y="40" font-size="12" fill="#5b8def">3.2 × 10^6</text>
+      <text x="40" y="70" font-size="11" fill="#a8a29e">Small:</text><text x="100" y="70" font-size="12" fill="#5b8def">4.5 × 10^−4</text>
+      <text x="40" y="100" font-size="10" fill="#a8a29e">a must be between 1 and 10</text>
+    </svg><p class="enlight-physics-diagram__caption">Standard form $a × 10^n$ — $1 ≤ a &lt; 10$; $n$ is the power of 10 (positive for large, negative for small).</p></div>
 
 ## Steps / method
 

@@ -11,7 +11,7 @@
     {
       "id": "7-4-constructions-pyp-q1",
       "type": "mcq",
-      "question": "Construct triangle $XYZ$2$XY = 8\\text{ cm}, YZ = 6\\text{ cm},$ and $XZ = 5\\text{ cm}$. Use a protractor to measure angle $XYZ$. Which value is the best estimate?",
+      "question": "Construct triangle $XYZ$. So $XY = 8\\text{ cm}, YZ = 6\\text{ cm},$ and $XZ = 5\\text{ cm}$. Use a protractor to measure angle $XYZ$. Which value is the best estimate?",
       "options": [
         "$38°$",
         "$90°$",
@@ -19,12 +19,12 @@
         "$124°$"
       ],
       "correctIndex": 0,
-      "explanation": "After constructing the triangle accurately, the angle opposite the side $XZ$2$5\\text{ cm}$) is the smallest and measures approximately $38°$.\n\n**Common mistake:** Students may misread the protractor or measure the angle at a different vertex."
+      "explanation": "After constructing the triangle accurately, the angle opposite the side $XZ$. $5\\text{ cm}$) is the smallest and measures approximately $38°$.\n\n**Common mistake:** Students may misread the protractor or measure the angle at a different vertex."
     },
     {
       "id": "7-4-constructions-pyp-q2",
       "type": "mcq",
-      "question": "Using a ruler and compasses only, construct the perpendicular bisector of a line $AB$2$P$ on this bisector?",
+      "question": "Using a ruler and compasses only, construct the perpendicular bisector of a line $AB$ and $P$ on this bisector?",
       "options": [
         "$PA = PB$",
         "$∠PAB = 90°$",
@@ -32,12 +32,12 @@
         "$Triangle PAB$ is equilateral"
       ],
       "correctIndex": 0,
-      "explanation": "The perpendicular bisector is the locus of all points equidistant from the two points $A$2$B$.\n\n**Common mistake:** A student might think the line itself is $90°$ to the segments $PA$2$PB$2$AB$."
+      "explanation": "The perpendicular bisector is the locus of all points equidistant from the two points $A$ and $B$.\n\n**Common mistake:** A student might think the line itself is $90°$ to the segments $PA$. $PB2AB$."
     },
     {
       "id": "7-4-constructions-pyp-q3",
       "type": "mcq",
-      "question": "Show that the construction of a $45°$ angle requires bisecting a $90°$ angle. If the $90°$ angle is $∠LMN$2$45°$ angle be?",
+      "question": "Show that the construction of a $45°$ angle requires bisecting a $90°$ angle. If the $90°$ angle is $∠LMN$ and $45°$ angle be?",
       "options": [
         "At point $M$",
         "At point $L$",
@@ -45,16 +45,16 @@
         "At the midpoint of $LN$"
       ],
       "correctIndex": 0,
-      "explanation": "The angle vertex remains at the original point $M$2$90°$ angle.\n\n**Common mistake:** The student might assume the vertex shifts to the midpoint of the chord connecting the arms of the angle."
+      "explanation": "The angle vertex remains at the original point $M$ and $90°$ angle.\n\n**Common mistake:** The student might assume the vertex shifts to the midpoint of the chord connecting the arms of the angle."
     },
     {
       "id": "7-4-constructions-pyp-q4",
       "type": "mcq",
-      "question": "A map shows three towns $A, B,$ and $C$2$A$2$B$2$AC$2$BC$. Which construction determines its location?",
+      "question": "A map shows three towns $A, B,$ and $C$ and $A2B$. $AC2BC$. Which construction determines its location?",
       "options": [
-        "The intersection of the perpendicular bisector of $AB$2$∠ACB$",
-        "The intersection of the perpendicular bisectors of $AC$2$BC$",
-        "The intersection of the angle bisectors of $∠ABC$2$∠BAC$",
+        "The intersection of the perpendicular bisector of $AB$. $∠ACB$",
+        "The intersection of the perpendicular bisectors of $AC$. $BC$",
+        "The intersection of the angle bisectors of $∠ABC$. $∠BAC$",
         "The midpoint of the line $AB$"
       ],
       "correctIndex": 0,

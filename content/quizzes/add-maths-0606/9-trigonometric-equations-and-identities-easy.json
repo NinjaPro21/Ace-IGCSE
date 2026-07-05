@@ -11,15 +11,15 @@
     {
       "id": "9-trigonometric-equations-and-identities-easy-q1",
       "type": "mcq",
-      "question": "Given that $\\cos \\theta = 0.5$ for an acute angle $\\theta$2$\\sec \\theta$.",
+      "question": "Given that $\\cos \\theta = 0.5$ for an acute angle $\\theta$. $\\sec \\theta$.",
       "options": [
-        "$2$",
+        "2",
         "$0.5$",
         "$\\sqrt{3}$",
         "$1$"
       ],
       "correctIndex": 0,
-      "explanation": "The secant ratio is the reciprocal of the cosine ratio, so $\\sec \\theta = 1/\\cos \\theta = 1/0.5 = 2$.\n\n**Common mistake:** Option B is a mistake where the student assumes $\\sec \\theta$2$\\cos \\theta$ rather than its reciprocal."
+      "explanation": "The secant ratio is the reciprocal of the cosine ratio, so $\\sec \\theta = 1/\\cos \\theta = 1/0.5 = 2$.\n\n**Common mistake:** Option B is a mistake where the student assumes $\\sec \\theta$. $\\cos \\theta$ rather than its reciprocal."
     },
     {
       "id": "9-trigonometric-equations-and-identities-easy-q2",
@@ -45,7 +45,7 @@
         "$1.67$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\csc A$2$\\sin A$2$\\csc A = 5/4 = 1.25$.\n\n**Common mistake:** Option B is just the decimal form of the sine value itself, failing to perform the reciprocal operation."
+      "explanation": "$\\csc A$. $\\sin A2\\csc A = 5/4 = 1.25$.\n\n**Common mistake:** Option B is just the decimal form of the sine value itself, failing to perform the reciprocal operation."
     },
     {
       "id": "9-trigonometric-equations-and-identities-easy-q4",
@@ -71,7 +71,7 @@
         "$\\cos x$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $\\csc x = 1/\\sin x$2$\\sin x \\cdot (1/\\sin x)$ simplifies to^1.\n\n**Common mistake:** Option B occurs if the student treats $\\csc x$ as a multiplier that squares the function rather than a reciprocal function."
+      "explanation": "Since $\\csc x = 1/\\sin x$. $\\sin x \\cdot (1/\\sin x)$ simplifies to^1.\n\n**Common mistake:** Option B occurs if the student treats $\\csc x$ as a multiplier that squares the function rather than a reciprocal function."
     }
   ]
 }

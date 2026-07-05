@@ -24,7 +24,7 @@
     {
       "id": "7-1-angles-pyp-q2",
       "type": "mcq",
-      "question": "The diagram shows a regular hexagon $ABCDEF$2$FDE$.",
+      "question": "The diagram shows a regular hexagon $ABCDEF$. $FDE$.",
       "options": [
         "$30°$",
         "$60°$",
@@ -32,12 +32,12 @@
         "$90°$"
       ],
       "correctIndex": 0,
-      "explanation": "In a regular hexagon, each interior angle is $120°$. Triangle $FED$2$FE=ED)$. $2\\angle FED = 120°$, so $\\angle FDE = (180 - 120) / 2 = 30°$.\n\n**Common mistake:** A student might assume the triangle is equilateral and answer $60°$ or provide the full interior angle $120°$."
+      "explanation": "In a regular hexagon, each interior angle is $120°$. Triangle $FED$. So $FE=ED)$. $2\\angle FED = 120°$, so $\\angle FDE = (180 - 120) / 2 = 30°$.\n\n**Common mistake:** A student might assume the triangle is equilateral and answer $60°$ or provide the full interior angle $120°$."
     },
     {
       "id": "7-1-angles-pyp-q3",
       "type": "mcq",
-      "question": "Hence, find the value of $n$2$2340°$.",
+      "question": "Hence, find the value of $n$ and $2340°$.",
       "options": [
         "$15$",
         "$13$",
@@ -45,7 +45,7 @@
         "$14$"
       ],
       "correctIndex": 0,
-      "explanation": "$(n - 2) \\times 180 = 2340 \\Rightarrow n - 2 = 13 \\Rightarrow n = 15$.\n\n**Common mistake:** The student might divide by $180$ and forget to add $2$ at the end, resulting in $13$."
+      "explanation": "$(n - 2) \\times 180 = 2340 \\Rightarrow n - 2 = 13 \\Rightarrow n = 15$.\n\n**Common mistake:** The student might divide by^180and forget to add2at the end, resulting in^13."
     },
     {
       "id": "7-1-angles-pyp-q4",
@@ -63,7 +63,7 @@
     {
       "id": "7-1-angles-pyp-q5",
       "type": "mcq",
-      "question": "Find the set of values of $x$2$x$2$2x$2$60$, form an acute-angled triangle.",
+      "question": "Find the set of values of $x$ and $x22x$. $60$, form an acute-angled triangle.",
       "options": [
         "$30 < x < 45$",
         "$x = 40$",
@@ -71,7 +71,7 @@
         "$x > 30$"
       ],
       "correctIndex": 0,
-      "explanation": "Sum: $x + 2x + 60 = 180 \\Rightarrow 3x = 120 \\Rightarrow x = 40$. The angles are $40°, 80°$ and $60°$. Since all are less than $90°$, it is acute. The only value is $x=40$. (Question phrased as 'set of values' to mimic PYP style).\n\n**Common mistake:** A student might miscalculate $x$2$2x$2$90°$ for other possible values."
+      "explanation": "Sum: $x + 2x + 60 = 180 \\Rightarrow 3x = 120 \\Rightarrow x = 40$. The angles are $40°, 80°$ and $60°$. Since all are less than $90°$, it is acute. The only value is $x=40$. (Question phrased as 'set of values' to mimic PYP style).\n\n**Common mistake:** A student might miscalculate $x$. $2x290°$ for other possible values."
     }
   ]
 }

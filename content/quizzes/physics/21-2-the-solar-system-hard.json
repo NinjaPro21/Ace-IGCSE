@@ -24,7 +24,7 @@
     {
       "id": "21-2-the-solar-system-hard-q2",
       "type": "mcq",
-      "question": "The International Space Station orbits $410$ km above Earth's surface in $92$ minutes. Using a radius of Earth = $6400$ km, calculate its average orbital speed.",
+      "question": "The International Space Station orbits^410 km above Earth's surface in^92 minutes. Using a radius of Earth = $6400$ km, calculate its average orbital speed.",
       "options": [
         "$7740$ m/s",
         "$74$ m/s",
@@ -32,7 +32,7 @@
         "$123$ m/s"
       ],
       "correctIndex": 0,
-      "explanation": "Total radius $r = 6400 + 410 = 6810$ km. Speed $v = 2\\pi r / T$. $T = 92 \\times 60 = 5520 s$. $2v = (2 \\times 3.142 \\times 6810000) / 5520 \\approx 7740$ m/s. \n\n**Common mistake:** Using only the altitude ($410$ km) as the radius."
+      "explanation": "Total radius $r = 6400 + 410 = 6810$ km. Speed $v = 2\\pi r / T$. $T = 92 \\times 60 = 5520 s^2 2v = (2 \\times 3.142 \\times 6810000) / 5520 \\approx 7740$ m/s. \n\n**Common mistake:** Using only the altitude ($410$ km) as the radius."
     },
     {
       "id": "21-2-the-solar-system-hard-q3",

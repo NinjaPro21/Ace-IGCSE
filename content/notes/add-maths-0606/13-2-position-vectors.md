@@ -6,7 +6,6 @@ Position vectors describe the location of a point relative to a fixed origin. Di
 
 $$
 \text{Position vector of point } P: \mathbf{p} = \begin{pmatrix} x \ \\ y \end{pmatrix}
-
 \vec{AB} = \mathbf{b} - \mathbf{a}, \quad |\mathbf{r}| = \sqrt{x^2 + y^2}
 $$
 

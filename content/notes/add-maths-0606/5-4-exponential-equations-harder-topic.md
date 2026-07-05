@@ -18,7 +18,7 @@ $\log_a(x^n) = n\log_a x$
 
 ## Worked example — Exponential (simple)
 
-Question: Solve $3^{2x - 1} = 5$. Take $\ln$. So $\ln(3^{2x - 1}) = \ln 5$. Power Law: $(2x - 1)\ln 3 = \ln 5$.
+Question: Solve $3^{2x - 1} = 5$. Take $\ln$ when2. Power Law:$(2x - 1)\ln 3 = \ln 5$.
 
 Isolate $x$. $2x - 1 = \frac{\ln 5}{\ln 3} \Rightarrow x \approx 1.23$ (3 s.f.).
 
@@ -26,7 +26,7 @@ Isolate $x$. $2x - 1 = \frac{\ln 5}{\ln 3} \Rightarrow x \approx 1.23$ (3 s.f.).
 
 Question: Solve $e^{2x} - 5e^x + 6 = 0$.
 
-Let $u = e^x$. So $u^2 - 5u + 6 = 0 \Rightarrow (u - 2)(u - 3) = 0$.
+Let $u = e^x$ when2.
 
 So $e^x = 2 \Rightarrow x = \ln 2$, or $e^x = 3 \Rightarrow x = \ln 3$.
 
@@ -34,15 +34,13 @@ So $e^x = 2 \Rightarrow x = \ln 2$, or $e^x = 3 \Rightarrow x = \ln 3$.
 
 Question: Solve $\log_2(x + 3) + \log_2 x = 2$.
 
-Product Law: $\log_2(x(x + 3)) = 2 \Rightarrow x(x + 3) = 4$. So $x^2 + 3x - 4 = 0 \Rightarrow (x + 4)(x - 1) = 0$. Reject $x = -4$ (log undefined). Answer: $x = 1$.
+Product Law: $\log_2(x(x + 3)) = 2 \Rightarrow x(x + 3) = 4$ when 2. Reject $x = -4$ (log undefined). Answer: $x = 1$.
 
 ## Worked example — Logarithmic (natural logs)
 
 Question: Solve $2\ln x - \ln(x - 1) = \ln 4$.
 
-Laws: $\ln\left(\frac{x^2}{x - 1}\right) = \ln 4 \Rightarrow \frac{x^2}{x - 1} = 4$.
-
-So $x^2 - 4x + 4 = 0 \Rightarrow (x - 2)^2 = 0 \Rightarrow x = 2$.
+Laws: $\ln\left(\frac{x^2}{x - 1}\right) = \ln 4 \Rightarrow \frac{x^2}{x - 1} = 4$ when 2.
 
 ## Examiner tip
 

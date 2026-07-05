@@ -11,7 +11,7 @@
     {
       "id": "14-1-derivatives-of-exponential-functions-hard-q1",
       "type": "mcq",
-      "question": "Find the $x$2$y = x e^{-2x}$.",
+      "question": "Find the $x$. So $y = x e^{-2x}$.",
       "options": [
         "$0.5$",
         "$1$",
@@ -32,7 +32,7 @@
         "$(\\ln 10, -100)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2e^{2x} - 10e^x = 0 \\implies 2e^x(e^x - 5) = 0 \\implies e^x = 5 \\implies x = \\ln 5$. Substituting $x = \\ln 5$ into $y$2$5^2 - 10(5) = 25 - 50 = -25$.\n\n**Common mistake:** Option B is a common arithmetic error when substituting the value back into the original function."
+      "explanation": "$\\frac{dy}{dx} = 2e^{2x} - 10e^x = 0 \\implies 2e^x(e^x - 5) = 0 \\implies e^x = 5 \\implies x = \\ln 5$. Substituting $x = \\ln 5$ into $y$. $5^2 - 10(5) = 25 - 50 = -25$.\n\n**Common mistake:** Option B is a common arithmetic error when substituting the value back into the original function."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-hard-q3",
@@ -45,7 +45,7 @@
         "$2xe^{x^2}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}$) during the second differentiation step."
+      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}) during the second differentiation step.$"
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-hard-q4",
@@ -58,11 +58,11 @@
         "$y = 4x + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Crosses $y$2$x=0, y=4$. $\\frac{dy}{dx} = 4(0.5)e^{0.5x} = 2e^{0.5x}$. At $x=0, m=2$. Tangent: $y-4 = 2(x-0) \\implies y = 2x + 4$.\n\n**Common mistake:** Option C uses the exponent coefficient directly as the gradient instead of multiplying it by the function coefficient."
+      "explanation": "Crosses $y$. So $x=0, y=4$. $\\frac{dy}{dx} = 4(0.5)e^{0.5x} = 2e^{0.5x}$. At $x=0, m=2$. Tangent: $y-4 = 2(x-0) \\implies y = 2x + 4$.\n\n**Common mistake:** Option C uses the exponent coefficient directly as the gradient instead of multiplying it by the function coefficient."
     },
     {
       "type": "mcq",
-      "question": "Find the x-coordinate of the stationary point of the curve $y = e^{2x} / x$2$x > 0$.",
+      "question": "Find the x-coordinate of the stationary point of the curve $y = e^{2x} / x$. $x > 0$.",
       "options": [
         "0.5",
         "1",

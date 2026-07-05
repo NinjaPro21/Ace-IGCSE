@@ -11,7 +11,7 @@
     {
       "id": "7-3-circle-theorems-hard-q1",
       "type": "mcq",
-      "question": "A cyclic quadrilateral $PQRS$2$PQ$2$RPQ = 28°$, calculate the size of angle $QSR$.",
+      "question": "A cyclic quadrilateral $PQRS$. $PQ2RPQ = 28°$, calculate the size of angle $QSR$.",
       "options": [
         "$28°$",
         "$62°$",
@@ -19,12 +19,12 @@
         "$118°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $PRQ$2$∠PRQ = 90°$ (angle in semi-circle). Thus $∠PQR = 180 - 90 - 28 = 62°$. Angles $∠QSR$2$∠PQR$2$QR$2$∠QSR = 62°$.\n\n**Common mistake:** The student might assume $∠QSR$2$∠RPQ$2$28°$) without checking the arc they are subtended by."
+      "explanation": "In triangle $PRQ$. $∠PRQ = 90°$ (angle in semi-circle). Thus $∠PQR = 180 - 90 - 28 = 62°$. Angles $∠QSR$. $∠PQR2QR$. $∠QSR = 62°$.\n\n**Common mistake:** The student might assume $∠QSR$. $∠RPQ228°$) without checking the arc they are subtended by."
     },
     {
       "id": "7-3-circle-theorems-hard-q2",
       "type": "mcq",
-      "question": "Point $T is outside a circle$2$2TA$2$TOC$2$O$2$∠ATC = 36°$, calculate the size of the minor angle $AOC$ at the centre.",
+      "question": "Point $T is outside a circle^2 2TA2TOC$ and $O2∠ATC = 36°$, calculate the size of the minor angle $AOC$ at the centre.",
       "options": [
         "$54°$",
         "$72°$",
@@ -32,12 +32,12 @@
         "$126°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $TAO$2$∠TAO = 90°$ (radius-tangent). $∠AOT = 180 - 90 - 36 = 54°$. Since $TOC$2$∠AOC = 180 - 54 = 126°$. Wait, $∠AOC$2$\\triangle TAO$2$∠AOT = 54°$. $∠AOC$2$∠AOT$2$T$2$CO$2$O$2$T$2$C$2$∠AOC$2$54°$. Let's assume $O$2$T$2$C$2$∠AOC = 54°$.\n\n**Common mistake:** A student might forget the $90°$ tangent rule or misinterpret the position of the centre on the line."
+      "explanation": "In triangle $TAO$. $∠TAO = 90°$ (radius-tangent). $∠AOT = 180 - 90 - 36 = 54°$. Since $TOC$. $∠AOC = 180 - 54 = 126°$. Wait, $∠AOC$. $\\triangle TAO2∠AOT = 54°$. $∠AOC$. $∠AOT2T$. $CO2O$ and $T2C$. $∠AOC254°$. Let's assume $O$ and $T2C$. $∠AOC = 54°$.\n\n**Common mistake:** A student might forget the $90°$ tangent rule or misinterpret the position of the centre on the line."
     },
     {
       "id": "7-3-circle-theorems-hard-q3",
       "type": "mcq",
-      "question": "In a circle, chords $AD$2$BC$2$X$2$∠ABC = 38°$ and $∠BCD = 44°$, calculate the size of $∠AXB$.",
+      "question": "In a circle, chords $AD$. $BC2X$. $∠ABC = 38°$ and $∠BCD = 44°$, calculate the size of $∠AXB$.",
       "options": [
         "$82°$",
         "$98°$",
@@ -45,12 +45,12 @@
         "$88°$"
       ],
       "correctIndex": 0,
-      "explanation": "$∠BAD = ∠BCD = 44°$ (same segment $BD$2$ABX$2$∠AXB = 180 - (38 + 44) = 180 - 82 = 98°$. Wait, $∠AXB$2$∠AXB = 98°$.\n\n**Common mistake:** The student might add the two given angles and assume the exterior angle theorem applies directly without finding the third angle of the triangle."
+      "explanation": "$∠BAD = ∠BCD = 44°$ (same segment $BD$. $ABX2∠AXB = 180 - (38 + 44) = 180 - 82 = 98°$. Wait, $∠AXB$. $∠AXB = 98°$.\n\n**Common mistake:** The student might add the two given angles and assume the exterior angle theorem applies directly without finding the third angle of the triangle."
     },
     {
       "id": "7-3-circle-theorems-hard-q4",
       "type": "mcq",
-      "question": "A tangent $XY$2$P$2$PQ$2$R$2$∠RPQ = 50°$ and $∠RQP = 70°$. Calculate the acute angle between the tangent $XY$2$PQ$.",
+      "question": "A tangent $XY$ and $P2PQ$ and $R2∠RPQ = 50°$ and $∠RQP = 70°$. Calculate the acute angle between the tangent $XY$. $PQ$.",
       "options": [
         "$60°$",
         "$50°$",
@@ -58,12 +58,12 @@
         "$120°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $PQR$2$∠PRQ = 180 - (50 + 70) = 60°$. By the Alternate Segment Theorem, the angle between the tangent and chord $PQ$2$∠PRQ = 60°$.\n\n**Common mistake:** The student may pick one of the other angles in the triangle ($50°$ or $70°$) instead of calculating the third angle."
+      "explanation": "In triangle $PQR$. $∠PRQ = 180 - (50 + 70) = 60°$. By the Alternate Segment Theorem, the angle between the tangent and chord $PQ$. $∠PRQ = 60°$.\n\n**Common mistake:** The student may pick one of the other angles in the triangle ($50°$ or $70°$) instead of calculating the third angle."
     },
     {
       "id": "7-3-circle-theorems-hard-q5",
       "type": "mcq",
-      "question": "The vertices of a quadrilateral $ABCD lie on a circle$2$2AB$2$DC$2$∠ABC = 105°$, calculate the size of $∠BCD$.",
+      "question": "The vertices of a quadrilateral $ABCD lie on a circle^2 2AB2DC$. $∠ABC = 105°$, calculate the size of $∠BCD$.",
       "options": [
         "$75°$",
         "$105°$",
@@ -71,7 +71,7 @@
         "$90°$"
       ],
       "correctIndex": 0,
-      "explanation": "Opposite angles sum to $180°$, so $∠ADC = 180 - 105 = 75°$. Since $AB \\parallel DC$2$∠ABC + ∠BCD = 180°$ is false (they are $A$2$D$2$∠DAB + ∠ADC = 180$ (co-interior). Also $∠DAB = 180 - ∠BCD$2$180 - ∠BCD + 75 = 180 \\Rightarrow ∠BCD = 75°$.\n\n**Common mistake:** The student might assume $∠BCD$2$105°$ because they see parallel lines and think of alternate angles."
+      "explanation": "Opposite angles sum to $180°$, so $∠ADC = 180 - 105 = 75°$. Since $AB \\parallel DC$. $∠ABC + ∠BCD = 180°$ is false (they are $A$ and $D2∠DAB + ∠ADC = 180$ (co-interior). Also $∠DAB = 180 - ∠BCD$. $180 - ∠BCD + 75 = 180 \\Rightarrow ∠BCD = 75°$.\n\n**Common mistake:** The student might assume $∠BCD$ and $105°$ because they see parallel lines and think of alternate angles."
     }
   ]
 }

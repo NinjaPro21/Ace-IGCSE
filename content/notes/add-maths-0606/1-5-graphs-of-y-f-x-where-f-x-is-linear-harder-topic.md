@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Find the vertex** — solve $mx + c = 0$ to get the $x$-intercept where the graph touches the axis.
+
 2. **Find the y-intercept** — substitute $x = 0$ and take the modulus: $|c|$.
+
 3. **Sketch** — draw the V-shape through the vertex and y-intercept, with both arms going upward.
 
 ### Key rule

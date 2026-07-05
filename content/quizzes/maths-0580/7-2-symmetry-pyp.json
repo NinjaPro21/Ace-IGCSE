@@ -19,7 +19,7 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "A regular polygon with $n$2$n$ lines of symmetry.\n\n**Common mistake:** A student may think odd-sided polygons have fewer lines of symmetry."
+      "explanation": "A regular polygon with $n$ and $n$ lines of symmetry.\n\n**Common mistake:** A student may think odd-sided polygons have fewer lines of symmetry."
     },
     {
       "id": "7-2-symmetry-pyp-q2",
@@ -28,18 +28,18 @@
       "options": [
         "$3$",
         "$4$",
-        "$2$",
+        "2",
         "$6$"
       ],
       "correctIndex": 0,
-      "explanation": "There are four such 'long diagonal' axes in a cube, and each has rotational symmetry of order $3$.\n\n**Common mistake:** Students often assume all cube axes have order $4$."
+      "explanation": "There are four such 'long diagonal' axes in a cube, and each has rotational symmetry of order^3.\n\n**Common mistake:** Students often assume all cube axes have order^4."
     },
     {
       "id": "7-2-symmetry-pyp-q3",
       "type": "mcq",
       "question": "A prism has a cross-section in the shape of a semi-circle. Write down the number of planes of symmetry for this prism.",
       "options": [
-        "$2$",
+        "2",
         "$1$",
         "$infinite$",
         "$0$"
@@ -58,12 +58,12 @@
         "$1$"
       ],
       "correctIndex": 0,
-      "explanation": "The order of rotational symmetry for any regular $n$2$n$.\n\n**Common mistake:** A student might provide the interior angle sum or the number of lines of symmetry if they misread the question."
+      "explanation": "The order of rotational symmetry for any regular $n$ and $n$.\n\n**Common mistake:** A student might provide the interior angle sum or the number of lines of symmetry if they misread the question."
     },
     {
       "id": "7-2-symmetry-pyp-q5",
       "type": "mcq",
-      "question": "Show that the number of planes of symmetry for a cube is $9$. How many of these planes are parallel to the faces of the cube?",
+      "question": "Show that the number of planes of symmetry for a cube is $1$. How many of these planes are parallel to the faces of the cube?",
       "options": [
         "$3$",
         "$6$",
@@ -71,7 +71,7 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "A cube has $9$ planes of symmetry: $3$ are parallel to the faces and $6$ pass through opposite edges (diagonals).\n\n**Common mistake:** The student might reverse the two counts or think all $9$ are of the same type."
+      "explanation": "A cube has^9 planes of symmetry: $3$ are parallel to the faces and^6 pass through opposite edges (diagonals).\n\n**Common mistake:** The student might reverse the two counts or think all^9 are of the same type."
     }
   ]
 }

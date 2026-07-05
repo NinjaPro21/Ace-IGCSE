@@ -71,7 +71,7 @@
         "$6.0\\text{ kg m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "$p = 0.2 \\times 3 = 0.6\\text{ kg m/s}$. \n\n**Common mistake:** Dividing $3$ by $0.2$ to get $15$."
+      "explanation": "$p = 0.2 \\times 3 = 0.6\\text{ kg m/s}$. \n\n**Common mistake:** Dividing^3 by $0.2$ to get^15."
     },
     {
       "id": "ch05-momentum-pyp-q6",
@@ -110,20 +110,20 @@
         "$40\\text{ kg m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Change in momentum (Impulse) $= F \\times t = 10 \\times 2 = 20\\text{ kg m/s}$. Since it started from rest, final momentum is $20$. \n\n**Common mistake:** Dividing force by time ($5$) or mass by time ($0.25$)."
+      "explanation": "Change in momentum (Impulse) $= F \\times t = 10 \\times 2 = 20\\text{ kg m/s}$. Since it started from rest, final momentum is $1$. \n\n**Common mistake:** Dividing force by time ($5$) or mass by time ($0.25$)."
     },
     {
       "id": "ch05-momentum-pyp-q9",
       "type": "mcq",
       "question": "Which row in the table correctly identifies the units for momentum and impulse?",
       "options": [
-        "Momentum: $kg m/s$; Impulse: $N s$",
-        "Momentum: $N s$; Impulse: $N/s$",
+        "Momentum: $kg m/s ; Impulse: N s$",
+        "Momentum: $N s ; Impulse: N/s$",
         "Momentum: $kg m/s^2$; Impulse: $N s$",
-        "Momentum: $kg m/s$; Impulse: $J$"
+        "Momentum: $kg m/s ; Impulse: J$"
       ],
       "correctIndex": 0,
-      "explanation": "Momentum ($mv$) is $kg m/s$ and Impulse ($Ft$) is $N s$. These two units are physically equivalent. \n\n**Common mistake:** Using $kg m/s^2$ which is the unit for force (Newtons)."
+      "explanation": "Momentum ($mv$) is $kg m/s  and Impulse (Ft$) is $N s^2 These two units are physically equivalent.$\n\n**Common mistake:** Using kg m/s^2$which is the unit for force (Newtons).$"
     },
     {
       "id": "ch05-momentum-pyp-q10",

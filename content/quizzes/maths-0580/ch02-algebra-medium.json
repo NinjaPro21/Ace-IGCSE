@@ -11,11 +11,11 @@
     {
       "id": "ch02-algebra-medium-q1",
       "type": "mcq",
-      "question": "Find the value of $m$2$m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
+      "question": "Find the value of $m^2 So m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
       "options": [
         "$8.66$",
         "$4.66$",
-        "$2$",
+        "2",
         "$14$"
       ],
       "correctIndex": 0,
@@ -37,7 +37,7 @@
     {
       "id": "ch02-algebra-medium-q3",
       "type": "mcq",
-      "question": "Given $S = \\frac{n}{2}(a + L)$, calculate $S$2$n = 12$, $a = -4$, and $L = 19$.",
+      "question": "Given $S = \\frac{n}{2}(a + L)$, calculate $S$. So $n = 12$, $a = -4$, and $L = 19$.",
       "options": [
         "$90$",
         "$138$",
@@ -45,12 +45,12 @@
         "$-138$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the values: $S = \\frac{12}{2}(-4 + 19) = 6(15) = 90$.\n\n**Common mistake:** Students might add the values inside brackets incorrectly as $23$, leading to $6 \\times 23 = 138$."
+      "explanation": "Substitute the values: $S = \\frac{12}{2}(-4 + 19) = 6(15) = 90$.\n\n**Common mistake:** Students might add the values inside brackets incorrectly as^23, leading to $6 \\times 23 = 138$."
     },
     {
       "id": "ch02-algebra-medium-q4",
       "type": "mcq",
-      "question": "Given the compound interest model component $V = P(1 + r)²$, find $V$2$P = 500$ and $r = 0.04$.",
+      "question": "Given the compound interest model component $V = P(1 + r)²$, find $V$. So $P = 500$ and $r = 0.04$.",
       "options": [
         "$540.8$",
         "$540$",
@@ -58,7 +58,7 @@
         "$580.8$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the variables: $V = 500(1 + 0.04)² = 500(1.04)² = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$2$(1+r)²$ as $1 + r^2$, leading to incorrect values."
+      "explanation": "Substitute the variables: $V = 500(1 + 0.04)² = 500(1.04)² = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$. $(1+r)²$ as $1 + r^2$, leading to incorrect values."
     },
     {
       "id": "ch02-algebra-medium-q5",
@@ -136,7 +136,7 @@
         "$2a^2 + 7ab + 4b^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand all combinations: $a(2a) + a(-b) + 4b(2a) + 4b(-b) = 2a^2 - ab + 8ab - 4b^2 = 2a^2 + 7ab - 4b^2$.\n\n**Common mistake:** Students can miscalculate $-1ab + 8ab$2$-9ab$2$+9ab$."
+      "explanation": "Expand all combinations: $a(2a) + a(-b) + 4b(2a) + 4b(-b) = 2a^2 - ab + 8ab - 4b^2 = 2a^2 + 7ab - 4b^2$.\n\n**Common mistake:** Students can miscalculate $-1ab + 8ab$. $-9ab2+9ab$."
     },
     {
       "id": "ch02-algebra-medium-q11",
@@ -149,7 +149,7 @@
         "$-5$"
       ],
       "correctIndex": 0,
-      "explanation": "Subtract $2x$2$3x - 3 = 12$. Add 3 to both sides: $3x = 15$. Divide by 3: $x = 5$.\n\n**Common mistake:** Students often add $2x$2$5x$2$7x = 15 \\rightarrow x \\approx 2.14$."
+      "explanation": "Subtract $2x$. $3x - 3 = 12$. Add 3 to both sides: $3x = 15$. Divide by 3: $x = 5$.\n\n**Common mistake:** Students often add $2x$. $5x27x = 15 \\rightarrow x \\approx 2.14$."
     },
     {
       "id": "ch02-algebra-medium-q12",
@@ -162,7 +162,7 @@
         "$3.8$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand the brackets: $8x - 4 - 3x - 6 = 5$. Combine like terms: $5x - 10 = 5$. Add 10: $5x = 15$. Divide by 5: $x = 3$. Let's re-verify the numbers: option 0 is $2.8$? Wait, $8x - 3x = 5x$2$-4 - 6 = -10$. $5x - 10 = 5 \\rightarrow 5x = 15 \\rightarrow x = 3$. Let's change Option 0 to $3$.\n\n**Common mistake:** Failing to distribute the negative sign across the second bracket yields $-3x + 6$, resulting in $5x + 2 = 5 \\rightarrow 5x = 3 \\rightarrow x = 0.6$."
+      "explanation": "Expand the brackets: $8x - 4 - 3x - 6 = 5$. Combine like terms: $5x - 10 = 5$. Add 10: $5x = 15$. Divide by 5: $x = 3$. Let's re-verify the numbers: option 0 is $2.8$? Wait, $8x - 3x = 5x$. $-4 - 6 = -10$. $5x - 10 = 5 \\rightarrow 5x = 15 \\rightarrow x = 3$. Let's change Option 0 to^3.\n\n**Common mistake:** Failing to distribute the negative sign across the second bracket yields $-3x + 6$, resulting in $5x + 2 = 5 \\rightarrow 5x = 3 \\rightarrow x = 0.6$."
     },
     {
       "id": "ch02-algebra-medium-q13",
@@ -175,12 +175,12 @@
         "$11$"
       ],
       "correctIndex": 0,
-      "explanation": "Cross-multiply: $2(2x - 5) = 3(x + 1) \\rightarrow 4x - 10 = 3x + 3$. Subtract $3x$2$x - 10 = 3$. Add 10: $x = 13$.\n\n**Common mistake:** Students frequently forget to distribute across the entire numerator, writing $4x - 5 = 3x + 1$."
+      "explanation": "Cross-multiply: $2(2x - 5) = 3(x + 1) \\rightarrow 4x - 10 = 3x + 3$. Subtract $3x$. So $x - 10 = 3$. Add 10: $x = 13$.\n\n**Common mistake:** Students frequently forget to distribute across the entire numerator, writing $4x - 5 = 3x + 1$."
     },
     {
       "id": "ch02-algebra-medium-q14",
       "type": "mcq",
-      "question": "A car rental company charges a flat fee of $30 plus$2$45 plus$0.10 per kilometer driven. Find the distance in kilometers for which both companies charge the exact same total amount.",
+      "question": "A car rental company charges a flat fee of $30 plus^2 45 plus$0.10 per kilometer driven. Find the distance in kilometers for which both companies charge the exact same total amount.",
       "options": [
         "$300$",
         "$150$",
@@ -188,7 +188,7 @@
         "$250$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation: $30 + 0.15k = 45 + 0.10k$2$0.10k$2$30 + 0.05k = 45$. Subtract 30: $0.05k = 15$. Divide by 0.05: $k = 300$.\n\n**Common mistake:** Students might misplace a decimal point during division, calculating $15 / 0.05$ as $30$ or $3000$."
+      "explanation": "Set up the equation: $30 + 0.15k = 45 + 0.10k$. $0.10k230 + 0.05k = 45$. Subtract 30: $0.05k = 15$. Divide by 0.05: $k = 300$.\n\n**Common mistake:** Students might misplace a decimal point during division, calculating $15 / 0.05$ as^30 or^3000."
     },
     {
       "id": "ch02-algebra-medium-q15",
@@ -197,11 +197,11 @@
       "options": [
         "$4$",
         "$0$",
-        "$2$",
+        "2",
         "$3$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(x - 2)$: $4 = 2(x - 2) \\rightarrow 4 = 2x - 4$. Add 4: $8 = 2x$2$x = 4$.\n\n**Common mistake:** Students sometimes mistakenly multiply only the constant, writing $\\frac{4}{x} - 4 = 2$."
+      "explanation": "Multiply both sides by $(x - 2)$: $4 = 2(x - 2) \\rightarrow 4 = 2x - 4$. Add 4: $8 = 2x$. So $x = 4$.\n\n**Common mistake:** Students sometimes mistakenly multiply only the constant, writing $\\frac{4}{x} - 4 = 2$."
     },
     {
       "id": "ch02-algebra-medium-q16",
@@ -227,7 +227,7 @@
         "$x = 2, y = -4.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the first equation by 2: $10x - 4y = 38$. Add this to the second equation: $(10x - 4y) + (3x + 4y) = 38 + 1 \\rightarrow 13x = 39 \\rightarrow x = 3$. Substitute $x = 3$: $3(3) + 4y = 1 \\rightarrow 9 + 4y = 1 \\rightarrow 4y = -8 \\rightarrow y = -2$.\n\n**Common mistake:** Students often make a sign error when adding $-4y$2$+4y$2$9 + 4y = 1$."
+      "explanation": "Multiply the first equation by 2: $10x - 4y = 38$. Add this to the second equation: $(10x - 4y) + (3x + 4y) = 38 + 1 \\rightarrow 13x = 39 \\rightarrow x = 3$. Substitute $x = 3$: $3(3) + 4y = 1 \\rightarrow 9 + 4y = 1 \\rightarrow 4y = -8 \\rightarrow y = -2$.\n\n**Common mistake:** Students often make a sign error when adding $-4y$. $+4y29 + 4y = 1$."
     },
     {
       "id": "ch02-algebra-medium-q18",
@@ -240,7 +240,7 @@
         "$x = 2, y = -2.5$"
       ],
       "correctIndex": 1,
-      "explanation": "Multiply first equation by 2 and second by 3:\n$8x + 6y = 2$\n\n9x - 6y = 39\n\nAdd the equations: $17x = 41$... wait, $8x+9x=17x$2$2+39=41$, not a clean integer. Let's adjust numbers: Let $x=3, y=-3.67$ from option 0? Let's make it a clean solution: $4x + 3y = 0$, $3x - 2y = 17 \\rightarrow x=3, y=-4$ is correct! Let's update the equations in stem: $4x + 3y = 0$, $3x - 2y = 17$. Then $2(4x+3y)=8x+6y=0$, $3(3x-2y)=9x-6y=51$. Add: $17x=51 \\rightarrow x=3$. Substitute: $4(3)+3y=0 \\rightarrow 3y=-12 \\rightarrow y=-4$. Perfect.\n\n**Common mistake:** Students commonly add equations with opposite signs incorrectly, miscalculating values under elimination steps."
+      "explanation": "Multiply first equation by 2 and second by 3:\n$8x + 6y = 2$\n\n9x - 6y = 39\n\nAdd the equations: $17x = 41$... wait, $8x+9x=17x$. $2+39=41$, not a clean integer. Let's adjust numbers: Let $x=3, y=-3.67$ from option 0? Let's make it a clean solution: $4x + 3y = 0$, $3x - 2y = 17 \\rightarrow x=3, y=-4$ is correct! Let's update the equations in stem: $4x + 3y = 0$, $3x - 2y = 17$. Then $2(4x+3y)=8x+6y=0$, $3(3x-2y)=9x-6y=51$. Add: $17x=51 \\rightarrow x=3$. Substitute: $4(3)+3y=0 \\rightarrow 3y=-12 \\rightarrow y=-4$. Perfect.\n\n**Common mistake:** Students commonly add equations with opposite signs incorrectly, miscalculating values under elimination steps."
     },
     {
       "id": "ch02-algebra-medium-q19",
@@ -266,7 +266,7 @@
         "$x = 6, y = 2$"
       ],
       "correctIndex": 1,
-      "explanation": "Multiply the first equation by 2 to remove $\\frac{tions:}{}$ $x + 2y = 10$. Add this to the second equation: $(x + 2y) + (3x - 2y) = 10 + 4 \\rightarrow 4x = 14 \\rightarrow x = 3.5$. Let's refine equations for cleaner integer roots: Let first equation be $\\frac{x}{2} + y = 5$, second equation $3x - 2y = 4$. Wait, if $x=2, y=4$: $2/2 + 4 = 5$, $3(2)-2(4)=6-8=-2$. Let's change the second equation to $3x - 2y = -2$. Then $x+2y=10$ and $3x-2y=-2$. Add them: $4x=8 \\rightarrow x=2$. Then $2+2y=10 \\rightarrow 2y=8 \\rightarrow y=4$. Let's use $3x - 2y = -2$ in the stem.\n\n**Common mistake:** Students often struggle to clear denominators accurately or forget to multiply all terms by the scalar multiplier."
+      "explanation": "Multiply the first equation by 2 to remove $tions:$ $x + 2y = 10$. Add this to the second equation: $(x + 2y) + (3x - 2y) = 10 + 4 \\rightarrow 4x = 14 \\rightarrow x = 3.5$. Let's refine equations for cleaner integer roots: Let first equation be $\\frac{x}{2} + y = 5$, second equation $3x - 2y = 4$. Wait, if $x=2, y=4$: $2/2 + 4 = 5$, $3(2)-2(4)=6-8=-2$. Let's change the second equation to $3x - 2y = -2$. Then $x+2y=10$ and $3x-2y=-2$. Add them: $4x=8 \\rightarrow x=2$. Then $2+2y=10 \\rightarrow 2y=8 \\rightarrow y=4$. Let's use $3x - 2y = -2$ in the stem.\n\n**Common mistake:** Students often struggle to clear denominators accurately or forget to multiply all terms by the scalar multiplier."
     },
     {
       "id": "ch02-algebra-medium-q21",
@@ -292,7 +292,7 @@
         "$(6a - 2b)(m - n)$"
       ],
       "correctIndex": 0,
-      "explanation": "Group the terms into pairs: $(6am - 3an) - (2bm - bn)$. Extract the HCF from each pair: $3a(2m - n) - b(2m - n)$. Notice that extracting $-b$2$(3a - b)(2m - n)$.\n\n**Common mistake:** Failing to change the sign inside the second bracket when factoring out a negative factor (e.g., leaving it as $-b(2m + n)$)."
+      "explanation": "Group the terms into pairs: $(6am - 3an) - (2bm - bn)$. Extract the HCF from each pair: $3a(2m - n) - b(2m - n)$. Notice that extracting $-b$. $(3a - b)(2m - n)$.\n\n**Common mistake:** Failing to change the sign inside the second bracket when factoring out a negative factor (e.g., leaving it as $-b(2m + n)$)."
     },
     {
       "id": "ch02-algebra-medium-q23",
@@ -305,7 +305,7 @@
         "$(x - 1)(x - 12)$"
       ],
       "correctIndex": 0,
-      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$2$-7x$."
+      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$. $-7x$."
     },
     {
       "type": "mcq",
@@ -357,7 +357,7 @@
         "$1.30$ or $-3.80$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute coefficients into the formula: $x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(-5)}}{2(1)} = \\frac{3 \\pm \\sqrt{9 + 20}}{2} = \\frac{3 \\pm \\sqrt{29}}{2}$. Since $\\sqrt{29} \\approx 5.385$, $x = \\frac{3 + 5.385}{2} = 4.19$ and $x = \\frac{3 - 5.385}{2} = -1.19$.\n\n**Common mistake:** Students often write $-3$ instead of $+3$ for the initial $-b$2$(-3)^2$ as $-9$ inside the radical."
+      "explanation": "Substitute coefficients into the formula: $x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(-5)}}{2(1)} = \\frac{3 \\pm \\sqrt{9 + 20}}{2} = \\frac{3 \\pm \\sqrt{29}}{2}$. Since $\\sqrt{29} \\approx 5.385$, $x = \\frac{3 + 5.385}{2} = 4.19$ and $x = \\frac{3 - 5.385}{2} = -1.19$.\n\n**Common mistake:** Students often write $-3$ instead of $+3$ for the initial $-b$. $(-3)^2$ as $-9$ inside the radical."
     },
     {
       "id": "ch02-algebra-medium-q28",
@@ -388,7 +388,7 @@
     {
       "id": "ch02-algebra-medium-q30",
       "type": "mcq",
-      "question": "Find the range of values of $k$2$x^2 - 6x + k = 0$ has two distinct real solutions.",
+      "question": "Find the range of values of $k$. So $x^2 - 6x + k = 0$ has two distinct real solutions.",
       "options": [
         "$k < 9$",
         "$k > 9$",
@@ -396,7 +396,7 @@
         "$k > 36$"
       ],
       "correctIndex": 0,
-      "explanation": "For an equation to have two distinct real solutions, its discriminant must be strictly positive: $\\Delta > 0$. Here, $\\Delta = (-6)^2 - 4(1)(k) = 36 - 4k$2$36 - 4k > 0 \\implies 36 > 4k \\implies k < 9$.\n\n**Common mistake:** Students often write $\\Delta \\geq 0$ blindly or fail to flip the inequality sign when dividing by a negative number."
+      "explanation": "For an equation to have two distinct real solutions, its discriminant must be strictly positive: $\\Delta > 0$. Here, $\\Delta = (-6)^2 - 4(1)(k) = 36 - 4k$. $36 - 4k > 0 \\implies 36 > 4k \\implies k < 9$.\n\n**Common mistake:** Students often write $\\Delta \\geq 0$ blindly or fail to flip the inequality sign when dividing by a negative number."
     },
     {
       "id": "ch02-algebra-medium-q31",
@@ -409,7 +409,7 @@
         "$x = 0, y = 5$ or $x = 5, y = 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange the linear equation to isolate $y$2$y = 5 - x$2$x^2 + (5 - x)^2 = 13 \\implies x^2 + 25 - 10x + x^2 = 13 \\implies 2x^2 - 10x + 12 = 0$. Divide by 2: $x^2 - 5x + 6 = 0$. Factorising yields $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$. Finding $y$2$x = 2, y = 3$; if $x = 3, y = 2$.\n\n**Common mistake:** When expanding $(5-x)^2$, students commonly miss the middle term, expanding it incorrectly to $25 + x^2$."
+      "explanation": "Rearrange the linear equation to isolate $y$. So $y = 5 - x2x^2 + (5 - x)^2 = 13 \\implies x^2 + 25 - 10x + x^2 = 13 \\implies 2x^2 - 10x + 12 = 0$. Divide by 2: $x^2 - 5x + 6 = 0$. Factorising yields $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$. Finding $y$. So $x = 2, y = 3$; if $x = 3, y = 2$.\n\n**Common mistake:** When expanding $(5-x)^2$, students commonly miss the middle term, expanding it incorrectly to $25 + x^2$."
     },
     {
       "id": "ch02-algebra-medium-q32",
@@ -435,7 +435,7 @@
         "$x = 0.5, y = 4$ or $x = -1, y = 1$"
       ],
       "correctIndex": 0,
-      "explanation": "Equate the two equations for $y$2$2x + 3 = \\frac{2}{x}$. Multiply the entire equation by $x$2$2x^2 + 3x = 2 \\implies 2x^2 + 3x - 2 = 0$. Factorising the quadratic equation gives $(2x - 1)(x + 2) = 0$, so $x = 0.5$ or $x = -2$. Finding the corresponding $y$2$x = 0.5$, $y = \\frac{2}{0.5} = 4$; if $x = -2$, $y = \\frac{2}{-2} = -1$.\n\n**Common mistake:** Students often forget to multiply the linear term $3$ by $x$2$2x^2 + 3 = 2$."
+      "explanation": "Equate the two equations for $y$. $2x + 3 = \\frac{2}{x}$. Multiply the entire equation by $x$. $2x^2 + 3x = 2 \\implies 2x^2 + 3x - 2 = 0$. Factorising the quadratic equation gives $(2x - 1)(x + 2) = 0$, so $x = 0.5$ or $x = -2$. Finding the corresponding $y$. So $x = 0.5$, $y = \\frac{2}{0.5} = 4$; if $x = -2$, $y = \\frac{2}{-2} = -1$.\n\n**Common mistake:** Students often forget to multiply the linear term^3 by $x$. $2x^2 + 3 = 2$."
     },
     {
       "id": "ch02-algebra-medium-q34",
@@ -448,7 +448,7 @@
         "$(4, 3)$ and $(-4, -3)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y = x - 1$ into the circle equation: $x^2 + (x - 1)^2 = 25 \\implies x^2 + x^2 - 2x + 1 = 25 \\implies 2x^2 - 2x - 24 = 0$. Divide by 2: $x^2 - x - 12 = 0$. Factorising gives $(x - 4)(x + 3) = 0$, so $x = 4$ or $x = -3$. Corresponding $y$2$y = 4 - 1 = 3$ and $y = -3 - 1 = -4$. Thus, the points are $(4, 3)$ and $(-3, -4)$.\n\n**Common mistake:** Students sometimes square the components individually when substituting, leading to $x^2 + x^2 - 1 = 25$, which is algebraically invalid."
+      "explanation": "Substitute $y = x - 1$ into the circle equation: $x^2 + (x - 1)^2 = 25 \\implies x^2 + x^2 - 2x + 1 = 25 \\implies 2x^2 - 2x - 24 = 0$. Divide by 2: $x^2 - x - 12 = 0$. Factorising gives $(x - 4)(x + 3) = 0$, so $x = 4$ or $x = -3$. Corresponding $y$. So $y = 4 - 1 = 3$ and $y = -3 - 1 = -4$. Thus, the points are $(4, 3)$ and $(-3, -4)$.\n\n**Common mistake:** Students sometimes square the components individually when substituting, leading to $x^2 + x^2 - 1 = 25$, which is algebraically invalid."
     },
     {
       "type": "mcq",
@@ -460,13 +460,13 @@
         "No real solutions"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y$2$x + 4 = x^2 + 4x + 4 \\implies x^2 + 3x = 0 \\implies x(x + 3) = 0$. When $x=0, y=4$; when $x=-3, y=1$.\n\n**Common mistake:** Errors in simplifying the quadratic after substitution, such as $x^2 + 5x + 8 = 0$.",
+      "explanation": "Substitute $y$. So $x + 4 = x^2 + 4x + 4 \\implies x^2 + 3x = 0 \\implies x(x + 3) = 0$. When $x=0, y=4$; when $x=-3, y=1$.\n\n**Common mistake:** Errors in simplifying the quadratic after substitution, such as $x^2 + 5x + 8 = 0$.",
       "id": "ch02-algebra-medium-q35"
     },
     {
       "id": "ch02-algebra-medium-q36",
       "type": "mcq",
-      "question": "Simplify the following $\\frac{tion}{}$ completely by factorising both numerator and denominator:\n\n$$\n\\frac{x^2 - 9}{2x + 6}\n$$",
+      "question": "Simplify the following $fraction$ completely by factorising both numerator and denominator:\n\n$$\n\\frac{x^2 - 9}{2x + 6}\n",
       "options": [
         "$\\frac{x - 3}{2}$",
         "$\\frac{x + 3}{2}$",
@@ -474,12 +474,12 @@
         "$\\frac{x^2 - 9}{2(x + 3)}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factorise the numerator using the difference of two squares: $x^2 - 9 = (x - 3)(x + 3)$. Factorise the denominator by taking out the common factor: $2x + 6 = 2(x + 3)$. Rewrite the $\\frac{tion:}{}$ $\\frac{(x - 3)(x + 3)}{2(x + 3)}$. Cancel out the common $(x + 3)$ bracket to get $\\frac{x - 3}{2}$.\n\n**Common mistake:** Students often try to cancel individual parts of the expression (like $x^2$ with $2x$) before factorising, which is mathematically incorrect."
+      "explanation": "Factorise the numerator using the difference of two squares: $x^2 - 9 = (x - 3)(x + 3)$. Factorise the denominator by taking out the common factor: $2x + 6 = 2(x + 3)$. Rewrite the $fraction:$ $\\frac{(x - 3)(x + 3)}{2(x + 3)}$. Cancel out the common $(x + 3)$ bracket to get $\\frac{x - 3}{2}$.\n\n**Common mistake:** Students often try to cancel individual parts of the expression (like $x^2$ with $2x$) before factorising, which is mathematically incorrect."
     },
     {
       "id": "ch02-algebra-medium-q37",
       "type": "mcq",
-      "question": "Express as a single $\\frac{tion}{}$ in its simplest form:\n\n$$\n\\frac{3}{x + 1} - \\frac{2}{x}\n$$",
+      "question": "Express as a single $fraction$ in its simplest form:\n\n$$\n\\frac{3}{x + 1} - \\frac{2}{x}\n",
       "options": [
         "$\\frac{x - 2}{x(x + 1)}$",
         "$\\frac{1}{1}$",
@@ -487,12 +487,12 @@
         "$\\frac{5x - 2}{x(x + 1)}$"
       ],
       "correctIndex": 0,
-      "explanation": "The common denominator is $x(x + 1)$. Express each $\\frac{tion}{}$ over this common denominator: $\\frac{3x}{x(x + 1)} - \\frac{2(x + 1)}{x(x + 1)}$. Combine the numerators: $3x - 2(x + 1) = 3x - 2x - 2 = x - 2$. Thus, the single simplified $\\frac{tion}{}$ is $\\frac{x - 2}{x(x + 1)}$.\n\n**Common mistake:** When expanding $-2(x + 1)$, students regularly forget to distribute the negative sign to the second term, writing $-2x + 2$ instead of $-2x - 2$."
+      "explanation": "The common denominator is $x(x + 1)$. Express each $fraction$ over this common denominator: $\\frac{3x}{x(x + 1)} - \\frac{2(x + 1)}{x(x + 1)}$. Combine the numerators: $3x - 2(x + 1) = 3x - 2x - 2 = x - 2$. Thus, the single simplified $fraction$ is $\\frac{x - 2}{x(x + 1)}$.\n\n**Common mistake:** When expanding $-2(x + 1)$, students regularly forget to distribute the negative sign to the second term, writing $-2x + 2$ instead of $-2x - 2$."
     },
     {
       "id": "ch02-algebra-medium-q38",
       "type": "mcq",
-      "question": "Solve the $\\frac{tional}{}$ equation for $x$:\n\n$$\n\\frac{12}{x} = x + 4\n$$",
+      "question": "Solve the \\frac{1}{a} equation for $x$:\n\n$$\n\\frac{12}{x} = x + 4\n",
       "options": [
         "$x = 2$ or $x = -6$",
         "$x = -2$ or $x = 6$",
@@ -500,12 +500,12 @@
         "$x = 4$ or $x = -3$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $x$2$12 = x(x + 4) \\implies 12 = x^2 + 4x$2$x^2 + 4x - 12 = 0$. Factorise the quadratic equation: $(x + 6)(x - 2) = 0$, which gives the roots $x = 2$ or $x = -6$.\n\n**Common mistake:** Students sometimes multiply only one term on the right-hand side by $x$2$12 = x^2 + 4$."
+      "explanation": "Multiply both sides by $x$. $12 = x(x + 4) \\implies 12 = x^2 + 4x2x^2 + 4x - 12 = 0$. Factorise the quadratic equation: $(x + 6)(x - 2) = 0$, which gives the roots $x = 2$ or $x = -6$.\n\n**Common mistake:** Students sometimes multiply only one term on the right-hand side by $x$. $12 = x^2 + 4$."
     },
     {
       "id": "ch02-algebra-medium-q39",
       "type": "mcq",
-      "question": "Solve the equation:\n\n$$\n\\frac{3}{2x - 1} = 2\n$$",
+      "question": "Solve the equation:\n\n$$\n\\frac{3}{2x - 1} = 2\n",
       "options": [
         "$x = 1.25$",
         "$x = 0.75$",
@@ -513,11 +513,11 @@
         "$x = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(2x - 1)$ to clear the denominator: $3 = 2(2x - 1)$. Expand the brackets: $3 = 4x - 2$. Add 2 to both sides: $5 = 4x$2$x = \\frac{5}{4} = 1.25$.\n\n**Common mistake:** Students often fail to multiply the entire denominator expression, writing $3 = 4x - 1$ by forgetting to distribute the 2 to the $-1$ term."
+      "explanation": "Multiply both sides by $(2x - 1)$ to clear the denominator: $3 = 2(2x - 1)$. Expand the brackets: $3 = 4x - 2$. Add 2 to both sides: $5 = 4x$. So $x = \\frac{5}{4} = 1.25$.\n\n**Common mistake:** Students often fail to multiply the entire denominator expression, writing $3 = 4x - 1$ by forgetting to distribute the 2 to the $-1$ term."
     },
     {
       "type": "mcq",
-      "question": "Express $\\frac{x}{2} + \\frac{x-4}{3}$ as a single $\\frac{tion}{}$ in its simplest form.",
+      "question": "Express $\\frac{x}{2} + \\frac{x-4}{3}$ as a single $fraction$ in its simplest form.",
       "options": [
         "$\\frac{5x - 8}{6}$",
         "$\\frac{2x - 4}{5}$",
@@ -539,7 +539,7 @@
         "$w = 2P - l$"
       ],
       "correctIndex": 0,
-      "explanation": "Divide both sides by $2$ to remove the brackets: $\\frac{P}{2} = l + w$2$w$2$l$2$w = \\frac{P}{2} - l$2$P = 2l + 2w \\implies P - 2l = 2w \\implies w = \\frac{P - 2l}{2}$, which simplifies to the same expression.\n\n**Common mistake:** When expanding or dividing, students frequently misapply operations to only one term inside or outside the bracket framework."
+      "explanation": "Divide both sides by 2 to remove the brackets: $\\frac{P}{2} = l + w$ and $w2l^2 So w = \\frac{P}{2} - l2P = 2l + 2w \\implies P - 2l = 2w \\implies w = \\frac{P - 2l}{2}$, which simplifies to the same expression.\n\n**Common mistake:** When expanding or dividing, students frequently misapply operations to only one term inside or outside the bracket framework."
     },
     {
       "id": "ch02-algebra-medium-q42",
@@ -552,7 +552,7 @@
         "$x = y^2 - 1$"
       ],
       "correctIndex": 0,
-      "explanation": "Square both sides of the equation to eliminate the square root: $y^2 = 2x + 1$. Subtract $1$ from both sides: $y^2 - 1 = 2x$2$2$ to isolate $x$2$x = \\frac{y^2 - 1}{2}$.\n\n**Common mistake:** Students sometimes square individual terms incorrectly or try to subtract $1$ before removing the radical sign."
+      "explanation": "Square both sides of the equation to eliminate the square root: $y^2 = 2x + 1$. Subtract^1 from both sides: $y^2 - 1 = 2x$. 2 to isolate $x$. So $x = \\frac{y^2 - 1}{2}$.\n\n**Common mistake:** Students sometimes square individual terms incorrectly or try to subtract^1 before removing the radical sign."
     },
     {
       "id": "ch02-algebra-medium-q43",
@@ -565,7 +565,7 @@
         "$a = \\frac{\\sqrt{s - ut}}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Subtract $ut$2$a$2$s - ut = \\frac{1}{2}at^2$. Multiply both sides by $2$ to clear the $\\frac{tion:}{}$ $2(s - ut) = at^2$. Divide both sides by $t^2$ to leave $a$2$a = \\frac{2(s - ut)}{t^2}$.\n\n**Common mistake:** Students often fail to multiply the entire expression $(s - ut)$ by $2$, forgetting to put brackets around it."
+      "explanation": "Subtract $ut$ and $a2s - ut = \\frac{1}{2}at^2$. Multiply both sides by2to clear the fraction: $2(s - ut) = at^2$. Divide both sides by $t^2$ to leave $a$. So $a = \\frac{2(s - ut)}{t^2}$.\n\n**Common mistake:** Students often fail to multiply the entire expression $(s - ut)$ by 2, forgetting to put brackets around it."
     },
     {
       "id": "ch02-algebra-medium-q44",
@@ -578,7 +578,7 @@
         "$g = \\frac{4\\pi^2T^2}{l}$"
       ],
       "correctIndex": 0,
-      "explanation": "Divide both sides by $2\\pi$2$\\frac{T}{2\\pi} = \\sqrt{\\frac{l}{g}}$. Square both sides to eliminate the square root: $\\frac{T^2}{4\\pi^2} = \\frac{l}{g}$. Cross-multiply or take the reciprocal of both sides: $\\frac{4\\pi^2}{T^2} = \\frac{g}{l}$. Multiply by $l$2$g$2$g = \\frac{4\\pi^2l}{T^2}$.\n\n**Common mistake:** When squaring $\\frac{T}{2\\pi}$, a very common error is forgetting to square the coefficient $2$, writing $2\\pi^2$ instead of $4\\pi^2$."
+      "explanation": "Divide both sides by $2\\pi^2 So \\frac{T}{2\\pi} = \\sqrt{\\frac{l}{g}}$. Square both sides to eliminate the square root: $\\frac{T^2}{4\\pi^2} = \\frac{l}{g}$. Cross-multiply or take the reciprocal of both sides: $\\frac{4\\pi^2}{T^2} = \\frac{g}{l}$. Multiply by $l  and g2g = \\frac{4\\pi^2l}{T^2}$.\n\n**Common mistake:** When squaring $\\frac{T}{2\\pi}$, a very common error is forgetting to square the coefficient2, writing$2\\pi^2$ instead of $4\\pi^2$."
     },
     {
       "id": "ch02-algebra-medium-q45",
@@ -591,12 +591,12 @@
         "$x = 3y + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(x - 2)$ to get it out of the denominator: $y(x - 2) = 3$. Divide both sides by $y$2$x - 2 = \\frac{3}{y}$. Finally, add $2$ to both sides to solve for $x$2$x = \\frac{3}{y} + 2$.\n\n**Common mistake:** Students regularly make errors when a variable is in the denominator, often trying to subtract or add terms directly from it without shifting the expression first."
+      "explanation": "Multiply both sides by $(x - 2)$ to get it out of the denominator: $y(x - 2) = 3$. Divide both sides by $y$. So $x - 2 = \\frac{3}{y}$. Finally, add 2 to both sides to solve for $x$. So $x = \\frac{3}{y} + 2$.\n\n**Common mistake:** Students regularly make errors when a variable is in the denominator, often trying to subtract or add terms directly from it without shifting the expression first."
     },
     {
       "id": "ch02-algebra-medium-q46",
       "type": "mcq",
-      "question": "$y$2$x$2$x = 3$, $y = 18$. Find the value of $y$2$x = 5$.",
+      "question": "$y$ and $x2x = 3$, $y = 18$. Find the value of $y$. So $x = 5$.",
       "options": [
         "$y = 50$",
         "$y = 30$",
@@ -604,12 +604,12 @@
         "$y = 450$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$2$18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$2$y = kx$2$18 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
+      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$. $18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$. So $y = kx218 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
     },
     {
       "id": "ch02-algebra-medium-q47",
       "type": "mcq",
-      "question": "$P$2$q$2$q = 16$, $P = 6$. Find the value of $P$2$q = 64$.",
+      "question": "$P$ and $q2q = 16$, $P = 6$. Find the value of $P$. So $q = 64$.",
       "options": [
         "$P = 3$",
         "$P = 1.5$",
@@ -617,12 +617,12 @@
         "$P = 24$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$2$6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
+      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$. $6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
     },
     {
       "id": "ch02-algebra-medium-q48",
       "type": "mcq",
-      "question": "$V$2$r$2$r = 2$, $V = 24$. Find the value of $V$2$r = 3$.",
+      "question": "$V$ and $r2r = 2$, $V = 24$. Find the value of $V$. So $r = 3$.",
       "options": [
         "$V = 81$",
         "$V = 54$",
@@ -630,12 +630,12 @@
         "$V = 216$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as $6$ instead of $8$, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or $54$."
+      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as^6 instead of^8, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or^54."
     },
     {
       "id": "ch02-algebra-medium-q49",
       "type": "mcq",
-      "question": "$h$2$t$2$t = 0.5$, $h = 20$. Find the value of $t$2$h = 50$.",
+      "question": "$h$ and $t2t = 0.5$, $h = 20$. Find the value of $t$. So $h = 50$.",
       "options": [
         "$t = 0.2$",
         "$t = 1.25$",
@@ -643,12 +643,12 @@
         "$t = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$2$k$2$k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
+      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$ and $k2k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
     },
     {
       "id": "ch02-algebra-medium-q50",
       "type": "mcq",
-      "question": "$F$2$d$2$F = 10$ when $d = 3$, find the value of $F$2$d = 6$.",
+      "question": "$F$ and $d2F = 10$ when $d = 3$, find the value of $F$. So $d = 6$.",
       "options": [
         "$F = 2.5$",
         "$F = 5$",
@@ -656,12 +656,12 @@
         "$F = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$2$10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$2$3$ to $6$, students intuitively expect $F$2$5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
+      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$. $10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$. $3$ to^6, students intuitively expect $F$. $5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
     },
     {
       "id": "ch02-algebra-medium-q51",
       "type": "mcq",
-      "question": "$y$2$x$2$x = 3$, $y = 18$. Find the value of $y$2$x = 5$.",
+      "question": "$y$ and $x2x = 3$, $y = 18$. Find the value of $y$. So $x = 5$.",
       "options": [
         "$y = 50$",
         "$y = 30$",
@@ -669,12 +669,12 @@
         "$y = 450$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$2$18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$2$y = kx$2$18 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
+      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$. $18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$. So $y = kx218 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
     },
     {
       "id": "ch02-algebra-medium-q52",
       "type": "mcq",
-      "question": "$P$2$q$2$q = 16$, $P = 6$. Find the value of $P$2$q = 64$.",
+      "question": "$P$ and $q2q = 16$, $P = 6$. Find the value of $P$. So $q = 64$.",
       "options": [
         "$P = 3$",
         "$P = 1.5$",
@@ -682,12 +682,12 @@
         "$P = 24$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$2$6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
+      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$. $6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
     },
     {
       "id": "ch02-algebra-medium-q53",
       "type": "mcq",
-      "question": "$V$2$r$2$r = 2$, $V = 24$. Find the value of $V$2$r = 3$.",
+      "question": "$V$ and $r2r = 2$, $V = 24$. Find the value of $V$. So $r = 3$.",
       "options": [
         "$V = 81$",
         "$V = 54$",
@@ -695,12 +695,12 @@
         "$V = 216$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as $6$ instead of $8$, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or $54$."
+      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as^6 instead of^8, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or^54."
     },
     {
       "id": "ch02-algebra-medium-q54",
       "type": "mcq",
-      "question": "$h$2$t$2$t = 0.5$, $h = 20$. Find the value of $t$2$h = 50$.",
+      "question": "$h$ and $t2t = 0.5$, $h = 20$. Find the value of $t$. So $h = 50$.",
       "options": [
         "$t = 0.2$",
         "$t = 1.25$",
@@ -708,12 +708,12 @@
         "$t = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$2$k$2$k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
+      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$ and $k2k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
     },
     {
       "id": "ch02-algebra-medium-q55",
       "type": "mcq",
-      "question": "$F$2$d$2$F = 10$ when $d = 3$, find the value of $F$2$d = 6$.",
+      "question": "$F$ and $d2F = 10$ when $d = 3$, find the value of $F$. So $d = 6$.",
       "options": [
         "$F = 2.5$",
         "$F = 5$",
@@ -721,7 +721,7 @@
         "$F = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$2$10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$2$3$ to $6$, students intuitively expect $F$2$5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
+      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$. $10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$. $3$ to^6, students intuitively expect $F$. $5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
     },
     {
       "type": "mcq",
@@ -751,7 +751,7 @@
     },
     {
       "type": "mcq",
-      "question": "List the members of the set **$b$2$b - 1 \\ge 6$** and **$b$ is a prime number less than 20**.",
+      "question": "List the members of the set **$b$. $b - 1 \\ge 6$** and **$b$ is a prime number less than 20**.",
       "options": [
         "{7, 11, 13, 17, 19}",
         "{11, 13, 17, 19}",
@@ -772,7 +772,7 @@
         "A single line passing through (7,7)"
       ],
       "correctIndex": 0,
-      "explanation": "The inequalities $x \\ge 0$ and $y \\ge 0 restrict the region to the first quadrant$2$2x + y \\le 7$ places a diagonal limit, forming a triangle with vertices at (0,0), (7,0), and (0,7).\n\n**Common mistake:** Shading the wanted region instead of the unwanted region, which is the convention in these sources.",
+      "explanation": "The inequalities $x \\ge 0$ and $y \\ge 0 restrict the region to the first quadrant$. $2x + y \\le 7$ places a diagonal limit, forming a triangle with vertices at (0,0), (7,0), and (0,7).\n\n**Common mistake:** Shading the wanted region instead of the unwanted region, which is the convention in these sources.",
       "id": "ch02-algebra-medium-q59"
     },
     {
@@ -785,7 +785,7 @@
         "$x < 10$"
       ],
       "correctIndex": 0,
-      "explanation": "Add $2x$2$4 + x > 6$. Then subtract 4 from both sides: $x > 2$.\n\n**Common mistake:** Incorrectly combining terms or reversing the inequality symbol without dividing by a negative.",
+      "explanation": "Add $2x$. $4 + x > 6$. Then subtract 4 from both sides: $x > 2$.\n\n**Common mistake:** Incorrectly combining terms or reversing the inequality symbol without dividing by a negative.",
       "id": "ch02-algebra-medium-q60"
     }
   ]

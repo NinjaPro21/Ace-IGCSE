@@ -12,23 +12,23 @@ How do you get a heavy trolley moving, and why does it eventually stop? From roc
 
 ## Key formulas
 
-**Resultant Force (Newton's Second Law)**
+**Resultant force (Newton's second law)**
 
 $F = ma$
 
 Applies to objects with constant mass to calculate the acceleration produced by an unbalanced force.
 
-**Linear Resultant Force**
+**Linear resultant force**
 
-$F_{\text{net}} = F_1 + F_2 + ...$
+$F_{\text{net}} = F_1 + F_2 + \cdots$
 
 Used to determine the net force acting along a straight line; assign one direction as positive and the opposite as negative.
 
-**Circular Motion Resultant Force**
+**Circular motion resultant force**
 
 $F \propto \frac{mv^2}{r}$
 
-Note: While the full formula is not provided, the sources state force increases with mass ($m$ and $v. r$) decreases.
+The centripetal force increases with mass and speed, and decreases with radius.
 
 ## Graphs & diagrams
 
@@ -85,7 +85,7 @@ Determine the state of motion: If $F = 0$ (balanced), the object stays at rest o
 
 ## Common mistakes
 
-Ignoring Direction: Adding forces like $10 \text{ N}$ and $10 \text{ N}$ to get $10 \text{ N}$ without realizing they are in opposite directions (which would result in $1 \text{ N}$)$.
+Ignoring Direction: Adding forces like $10 \text{ N}$ and $10 \text{ N}$ to get $10 \text{ N}$ without realizing they are in opposite directions (which would result in $0 \text{ N}$).
 
 Friction Direction: Forgetting that friction always acts in the opposite direction to motion, never in the same direction.
 
@@ -95,7 +95,7 @@ Zero Force Misconception: Believing an object must stop if the resultant force i
 
 Circular Motion: When describing an object in a circular path, always state that the resultant force acts perpendicular to the motion and points towards the centre of the circle.
 
-Newton's Definition: Remember that 1 N is defined as the force required to accelerate a 1 kg mass at $1$\text{ m/s}^2.
+Newton's definition: Remember that 1 N is the force required to accelerate a 1 kg mass at $1\ \text{m/s}^2$.
 
 Show Units: Ensure acceleration is in $m/s^2$ and forces are in N to avoid losing marks.
 
@@ -111,18 +111,24 @@ In a speed-time graph, what does a straight line with a negative gradient repres
 
 Question: A ball is pushed forward with 12 N and experiences air resistance of 8 N. Calculate the resultant force. Let the forward direction be positive (+).
 
-Forward force = $+12 \text{ N}$. Air resistance (opposing motion) = $-$8 \text{ N}2
+1. Forward force $= +12\ \text{N}$; air resistance $= -8\ \text{N}$.
 
-Resultant force = +12 \text{ N} + (-$8 \text{ N}).$4 \text{ N}in the forward direction.
+2. Resultant force $= +12 + (-8) = +4\ \text{N}$.
+
+**Final answer:** $4\ \text{N}$ in the forward direction.
 
 ## Worked example — Acceleration from rest
 
 Question: A 20 kg object at rest is acted upon by a 50 N force to the right and a 10 N friction force to the left. Calculate its velocity after 2 s.
 
-Find the resultant force ($F).F = 50 \text{ N} - 10 \text{ N} = 40 \text{ N}$ to the right 2
+1. **Resultant force:** $F = 50 - 10 = 40\ \text{N}$ to the right.
 
-Calculate acceleration ($a) using F = ma.a = 40 \text{ N} / 20 \text{ kg} =$. $\text{ m/s}^2$.
+2. **Acceleration:** $a = F/m = 40/20 = 2\ \text{m/s}^2$.
 
-Use the acceleration formula a = (v - u) / t $.2 \text{ m/s}^2 = (v -$0 \text{ m/s}) / $2 \text{ s}.v =$4 \text{ m/s}to the right. ### Common Trap
+3. **Final velocity:** $v = u + at = 0 + 2 \times 2 = 4\ \text{m/s}$ to the right.
 
-Students often use the applied force (50 N) instead of the resultant force (40 N) in the $F=ma$ calculation.
+**Final answer:** $4\ \text{m/s}$ to the right.
+
+### Common Trap
+
+Students often use the applied force (50 N) instead of the resultant force (40 N) in the $F = ma$ calculation.

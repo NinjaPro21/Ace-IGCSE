@@ -11,7 +11,7 @@
     {
       "id": "8-3-proportion-pyp-q1",
       "type": "mcq",
-      "question": "$y$2$(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$2$x = 6$.",
+      "question": "$y$. $(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$. So $x = 6$.",
       "options": [
         "$y = 64$",
         "$y = 48$",
@@ -19,12 +19,12 @@
         "$y = 144$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$2$36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$2$y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
+      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$. $36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$. So $y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
     },
     {
       "id": "8-3-proportion-pyp-q2",
       "type": "mcq",
-      "question": "$T$2$v$2$v = 9$, $T = 8$. Find the value of $T$2$v = 36$.",
+      "question": "$T$ and $v2v = 9$, $T = 8$. Find the value of $T$. So $v = 36$.",
       "options": [
         "$T = 4$",
         "$T = 2$",
@@ -32,12 +32,12 @@
         "$T = 1.33$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$2$8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$2$T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of $36$, calculating $24 \\div 36 = 0.67$ instead."
+      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$. $8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$. So $T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of^36, calculating $24 \\div 36 = 0.67$ instead."
     },
     {
       "id": "8-3-proportion-pyp-q3",
       "type": "mcq",
-      "question": "$y$2$x^3$. When $x = 2$, $y = 5$. Find the value of $y$2$x = 4$.",
+      "question": "$y$. $x^3$. When $x = 2$, $y = 5$. Find the value of $y$. So $x = 4$.",
       "options": [
         "$y = 0.625$",
         "$y = 2.5$",
@@ -45,12 +45,12 @@
         "$y = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$2$5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$2$y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$2$3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
+      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$. $5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$. So $y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$. $3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
     },
     {
       "id": "8-3-proportion-pyp-q4",
       "type": "mcq",
-      "question": "$x$2$\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$2$y = 9$.",
+      "question": "$x$. $\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$. So $y = 9$.",
       "options": [
         "$x = 12$",
         "$x = 7.2$",
@@ -58,12 +58,12 @@
         "$x = 36$"
       ],
       "correctIndex": 0,
-      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$2$x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
+      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$. So $x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
     },
     {
       "id": "8-3-proportion-pyp-q5",
       "type": "mcq",
-      "question": "An object falls a distance, $d$2$t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
+      "question": "An object falls a distance, $d$ and $t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
       "options": [
         "$125\\text{ m}$",
         "$75\\text{ m}$",
@@ -71,12 +71,12 @@
         "$25\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$2$45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
+      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$. $45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
     },
     {
       "id": "8-3-proportion-pyp-q6",
       "type": "mcq",
-      "question": "$y$2$(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$2$x = 6$.",
+      "question": "$y$. $(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$. So $x = 6$.",
       "options": [
         "$y = 64$",
         "$y = 48$",
@@ -84,12 +84,12 @@
         "$y = 144$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$2$36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$2$y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
+      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$. $36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$. So $y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
     },
     {
       "id": "8-3-proportion-pyp-q7",
       "type": "mcq",
-      "question": "$T$2$v$2$v = 9$, $T = 8$. Find the value of $T$2$v = 36$.",
+      "question": "$T$ and $v2v = 9$, $T = 8$. Find the value of $T$. So $v = 36$.",
       "options": [
         "$T = 4$",
         "$T = 2$",
@@ -97,12 +97,12 @@
         "$T = 1.33$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$2$8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$2$T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of $36$, calculating $24 \\div 36 = 0.67$ instead."
+      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$. $8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$. So $T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of^36, calculating $24 \\div 36 = 0.67$ instead."
     },
     {
       "id": "8-3-proportion-pyp-q8",
       "type": "mcq",
-      "question": "$y$2$x^3$. When $x = 2$, $y = 5$. Find the value of $y$2$x = 4$.",
+      "question": "$y$. $x^3$. When $x = 2$, $y = 5$. Find the value of $y$. So $x = 4$.",
       "options": [
         "$y = 0.625$",
         "$y = 2.5$",
@@ -110,12 +110,12 @@
         "$y = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$2$5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$2$y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$2$3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
+      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$. $5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$. So $y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$. $3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
     },
     {
       "id": "8-3-proportion-pyp-q9",
       "type": "mcq",
-      "question": "$x$2$\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$2$y = 9$.",
+      "question": "$x$. $\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$. So $y = 9$.",
       "options": [
         "$x = 12$",
         "$x = 7.2$",
@@ -123,12 +123,12 @@
         "$x = 36$"
       ],
       "correctIndex": 0,
-      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$2$x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
+      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$. So $x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
     },
     {
       "id": "8-3-proportion-pyp-q10",
       "type": "mcq",
-      "question": "An object falls a distance, $d$2$t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
+      "question": "An object falls a distance, $d$ and $t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
       "options": [
         "$125\\text{ m}$",
         "$75\\text{ m}$",
@@ -136,7 +136,7 @@
         "$25\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$2$45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
+      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$. $45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
     }
   ]
 }

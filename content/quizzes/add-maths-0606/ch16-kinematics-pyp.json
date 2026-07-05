@@ -9,7 +9,7 @@
     {
       "id": "ch16-kinematics-q1",
       "type": "mcq",
-      "question": "A particle moves in a straight line so that, $t$ seconds after passing a fixed point $O$, its displacement $s$ metres is given by $s = 2t^3 - 15t^2 + 24t$. Find the set of values of $t$ for which the velocity of the particle is negative.",
+      "question": "A particle moves in a straight line so that, $t$ seconds after passing a fixed point $O$, its displacement $s  metres is given by s = 2t^3 - 15t^2 + 24t$. Find the set of values of $t$ for which the velocity of the particle is negative.",
       "options": [
         "$1 < t < 4$",
         "$t < 1$ or $t > 4$",
@@ -30,7 +30,7 @@
         "18 metres"
       ],
       "correctIndex": 0,
-      "explanation": "Maximum displacement occurs when velocity changes sign from positive to negative, which happens when $v = 0 \\implies 6t - 2t^2 = 0 \\implies t = 3$ seconds. The displacement is $s = \\int_{0}^{3} (6t - 2t^2) \\\\,\\mathrm{d}t = [3t^2 - \\frac{2}{3}t^3]_{0}^{3} = 27 - 18 = 9$ metres.\n\n**Common mistake:** Option B is the time value $t = 3$ at which the maximum displacement occurs, rather than the actual maximum displacement value requested."
+      "explanation": "Maximum displacement occurs when velocity changes sign from positive to negative, which happens when $v = 0 \\implies 6t - 2t^2 = 0 \\implies t = 3$ seconds. The displacement is $s = \\int_{0}^{3} (6t - 2t^2) \\,\\mathrm{d}t = [3t^2 - \\frac{2}{3}t^3]_{0}^{3} = 27 - 18 = 9$ metres.\n\n**Common mistake:** Option B is the time value $t = 3$ at which the maximum displacement occurs, rather than the actual maximum displacement value requested."
     },
     {
       "id": "ch16-kinematics-q3",

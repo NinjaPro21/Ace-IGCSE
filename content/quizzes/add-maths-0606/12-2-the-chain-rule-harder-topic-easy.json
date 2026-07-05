@@ -24,7 +24,7 @@
     {
       "id": "12-2-the-chain-rule-harder-topic-easy-q2",
       "type": "mcq",
-      "question": "Find $dy/dx$2$y = u^4$ and $u = 3x - 1$.",
+      "question": "Find $dy/dx$. So $y = u^4$ and $u = 3x - 1$.",
       "options": [
         "12(3x - 1)³",
         "4(3x - 1)³",
@@ -45,7 +45,7 @@
         "x(x^2 + 1)⁴"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = x^2 + 1$. $dy/dx = 5u⁴ \\times (2x) = 10x(x^2 + 1)⁴$.\n\n**Common mistake:** Neglecting the $2x$2$x^2+1$."
+      "explanation": "Let $u = x^2 + 1$. $dy/dx = 5u⁴ \\times (2x) = 10x(x^2 + 1)⁴$.\n\n**Common mistake:** Neglecting the $2x$. $x^2+1$."
     },
     {
       "id": "12-2-the-chain-rule-harder-topic-easy-q4",

@@ -35,24 +35,28 @@ Split weird shapes into **rectangles** and **triangles**, find each area, add th
 
 $$
 \text{Speed from d-t graph:} \quad \text{gradient} = \frac{\Delta \text{distance}}{\Delta \text{time}}
-
+$$
+$$
 \text{Acceleration from v-t graph:} \quad \text{gradient} = \frac{\Delta \text{speed}}{\Delta \text{time}}
-
+$$
+$$
 \text{Distance from v-t graph:} \quad \text{area under the curve}
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Distance time graph">
-      <line x1="40" y1="170" x2="290" y2="170" stroke="#64748b"/>
-      <line x1="40" y1="170" x2="40" y2="30" stroke="#64748b"/>
-      <polyline fill="none" stroke="#2563eb" stroke-width="2.5" points="50,170 100,130"/>
-      <path d="M100 130 Q150 120 200 80" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-      <polyline fill="none" stroke="#2563eb" stroke-width="2.5" points="200,80 270,80"/>
-      <text x="130" y="185" font-size="10" fill="#475569">time</text>
-    </svg></div>
-
-Distance–time graph — flat = stationary; straight slope = constant speed; curve = changing speed.
+      <line x1="40" y1="170" x2="290" y2="170" stroke="#a8a29e"/>
+      <line x1="40" y1="170" x2="40" y2="30" stroke="#a8a29e"/>
+      <text x="22" y="100" font-size="10" fill="#6b6b6b">distance</text>
+      <text x="160" y="195" font-size="10" fill="#6b6b6b">time</text>
+      <polyline fill="none" stroke="#5b8def" stroke-width="2.5" points="50,170 100,130"/>
+      <path d="M100 130 Q150 120 200 80" fill="none" stroke="#5b8def" stroke-width="2.5"/>
+      <polyline fill="none" stroke="#5b8def" stroke-width="2.5" points="200,80 270,80"/>
+      <text x="75" y="155" font-size="9" fill="#6b6b6b">steady speed</text>
+      <text x="145" y="115" font-size="9" fill="#6b6b6b">accelerating</text>
+      <text x="235" y="95" font-size="9" fill="#6b6b6b">stopped</text>
+    </svg><p class="enlight-physics-diagram__caption">Distance–time graph — flat = stationary; straight slope = constant speed; curve = changing speed.</p></div>
 
 ## Steps / method
 
@@ -68,13 +72,20 @@ Check units match (convert minutes to seconds if needed!)
 
 ## Worked example — Area under a speed–time graph
 
-A cyclist accelerates from rest to $12 \text{ m/s}$ in $10 \text{ s}$, rides at $12 \text{ m/s}$ for $30 \text{ s}$, then stops in $5 \text{ s}$. Split into: triangle + rectangle + triangle. - Phase 1: $\frac{1}{2} \times 10 \times 12 = 60 \text{ m}$ - Phase 2: $30 \times 12 = 360 \text{ m}$ - Phase 3: $\frac{1}{2} \times 5 \times 12 = 30 \text{ m}$ **Total distance** = $60 + 360 + 30 = 450 \text{ m}$
+A cyclist accelerates from rest to $12 \text{ m/s}$ in $10 \text{ s}$, rides at $12 \text{ m/s}$ for $30 \text{ s}$, then stops in $5 \text{ s}$.
+
+Split the graph into a triangle, a rectangle, and a triangle:
+
+- Phase 1: $\frac{1}{2} \times 10 \times 12 = 60 \text{ m}$
+- Phase 2: $30 \times 12 = 360 \text{ m}$
+- Phase 3: $\frac{1}{2} \times 5 \times 12 = 30 \text{ m}$
+
+**Total distance** $= 60 + 360 + 30 = 450 \text{ m}$
 
 ## Worked example — Speed from a distance–time graph
 
-A vehicle travels $150 \text{ m}$ in $6 \text{ s}$, stops for $4 \text{ s}$, then travels $200 \text{ m}$ in $5 \text{ s}$.
+A vehicle travels $150 \text{ m}$ in $6 \text{ s}$, stops for $4 \text{ s}$, then travels $200 \text{ m}$ in $5 \text{ s}$. Final leg speed = gradient of last section:
 
-Final leg speed = gradient of last section: 
 $$
 \frac{200}{5} = 40 \text{ m/s}
 $$

@@ -1,42 +1,35 @@
 ## Core idea
 
-Section 19.1 explores the fundamental structure of the atom and the experimental evidence that led to our modern understanding of its nuclear model.
+The nuclear model describes atomic structure and is supported by experimental evidence — especially Rutherford's alpha-scattering experiment (1911).
 
-Structure of the Atom
+## Structure of the atom
 
-According to the nuclear model, an atom consists of two main parts:
+- **Nucleus**: Small, positively charged core containing almost all the atom's mass.
+- **Electrons**: Negatively charged particles orbiting the nucleus; very small mass.
+- **Forces**: Attractive forces between nucleus and electrons hold electrons in orbit.
 
-Nucleus: A central, positively charged core that contains almost the entire mass of the atom.
+## Formation of ions
 
-Electrons: Negatively charged particles that orbit the nucleus. They have a very small mass compared to the nucleus.
+A neutral atom has equal positive and negative charge.
 
-Forces: Strong attractive forces between the positive nucleus and negative electrons hold the electrons in their orbits.
+- **Positive ion**: Atom **loses** electrons → more positive charge than negative.
+- **Negative ion**: Atom **gains** electrons → more negative charge than positive.
 
-Formation of Ions
+## Rutherford scattering experiment
 
-A neutral atom has an equal number of positive and negative charges. Atoms can become charged if they lose or gain electrons:
+Geiger and Marsden directed $\alpha$-particles at thin gold foil in a vacuum.
 
-Positive Ion: Formed when a neutral atom loses electrons, resulting in more positive charges in the nucleus than negative charges in orbit.
+**Observations**
 
-Negative Ion: Formed when a neutral atom gains electrons, resulting in more negative charges than positive charges.
+- Most $\alpha$-particles passed straight through.
+- A few were deflected through large angles.
+- A very small number scattered backwards.
 
-Experimental Evidence: The Rutherford Scattering Experiment
+**Conclusions**
 
-In 1911, scientists Geiger and Marsden, under the supervision of Ernest Rutherford, conducted an experiment by directing alpha ($\alpha$-) particles at a thin metal (gold) foil in a vacuum.
-
-Observations: Most alpha particles passed straight through the foil.
-
-A few particles were deflected through large angles.
-
-A very small number of particles were scattered backwards.
-
-Rutherford’s Conclusions: These results provided three critical pieces of evidence about atomic structure:
-
-Empty Space: Because most particles passed through, the atom is mostly empty space with a very small nucleus at the centre.
-
-Concentrated Mass: The nucleus must contain most of the mass of the atom to be able to deflect alpha particles.
-
-Positive Charge: Since alpha particles (which are positive) were repelled, the nucleus itself must be positively charged.
+1. **Empty space**: Most particles passed through → atom is mostly empty with a tiny nucleus.
+2. **Concentrated mass**: Large deflections → nucleus contains most of the mass.
+3. **Positive charge**: Repulsion of positive $\alpha$-particles → nucleus is positively charged.
 
 ## Graphs & diagrams
 
@@ -54,6 +47,6 @@ Positive Charge: Since alpha particles (which are positive) were repelled, the n
 
 What part of the atom contains almost all of its mass?
 
-True or False: A neutral atom that has 24 electrons will al so have 24 positive charges in its nucleus. (Answer: True)
+True or false: A neutral atom with 24 electrons al so has 24 protons in its nucleus. (Answer: true)
 
 How is a negative ion formed?

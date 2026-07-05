@@ -11,7 +11,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q1",
       "type": "mcq",
-      "question": "A map has a scale of $1 : n$2$150\\text{ m}$ by $100\\text{ m}$ has an area of $6\\text{ cm}^2$ on the map. Find the value of $n$.",
+      "question": "A map has a scale of $1 : n$. $150\\text{ m}$ by $100\\text{ m}$ has an area of $6\\text{ cm}^2$ on the map. Find the value of $n$.",
       "options": [
         "$5000$",
         "$2500$",
@@ -19,7 +19,7 @@
         "$250\\,000$"
       ],
       "correctIndex": 0,
-      "explanation": "Actual Area = $150 \\times 100 = 15\\,000\\text{ m}^2$. Area scale ratio is $6\\text{ cm}^2 : 15\\,000\\text{ m}^2 \\implies 1\\text{ cm}^2 : 2500\\text{ m}^2$. Take the square root to get the linear scale ratio: $1\\text{ cm} : \\sqrt{2500}\\text{ m} \\implies 1\\text{ cm} : 50\\text{ m}$. Convert $50\\text{ m}$ to cm: $50 \\times 100 = 5000\\text{ cm}$. Thus, $n = 5000$.\n\n**Common mistake:** Converting square meters to square centimeters incorrectly, or forgetting to square root $2500$ to find linear scale."
+      "explanation": "Actual Area = $150 \\times 100 = 15\\,000\\text{ m}^2$. Area scale ratio is $6\\text{ cm}^2 : 15\\,000\\text{ m}^2 \\implies 1\\text{ cm}^2 : 2500\\text{ m}^2$. Take the square root to get the linear scale ratio: $1\\text{ cm} : \\sqrt{2500}\\text{ m} \\implies 1\\text{ cm} : 50\\text{ m}$. Convert $50\\text{ m}$ to cm: $50 \\times 100 = 5000\\text{ cm}$. Thus, $n = 5000$.\n\n**Common mistake:** Converting square meters to square centimeters incorrectly, or forgetting to square root^2500 to find linear scale."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q2",
@@ -50,7 +50,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q4",
       "type": "mcq",
-      "question": "A physical region with an area of $180\\text{ km}^2$ is represented on a map by a sector of a circle with a radius of $12\\text{ cm}$ and a sector angle of $40^\\circ$2$1 : n$2$\\pi = \\frac{22}{7}$)",
+      "question": "A physical region with an area of $180\\text{ km}^2$ is represented on a map by a sector of a circle with a radius of $12\\text{ cm}$ and a sector angle of $40^\\circ$. $1 : n2\\pi = \\frac{22}{7}$)",
       "options": [
         "$1 : 300\\,000$",
         "$1 : 100\\,000$",
@@ -63,15 +63,15 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q5",
       "type": "mcq",
-      "question": "On a map of scale $1 : n$2$x\\text{ cm}$ and an area of $A\\text{ cm}^2$. If both the map linear dimensions are doubled, what are the new map length and new map area expressions?",
+      "question": "On a map of scale $1 : n$. $x\\text{ cm}$ and an area of $A\\text{ cm}^2$. If both the map linear dimensions are doubled, what are the new map length and new map area expressions?",
       "options": [
-        "$2x$2$4A$",
-        "$2x$2$2A$",
-        "$4x$2$4A$",
+        "$2x$. $4A$",
+        "$2x$. $2A$",
+        "$4x$. $4A$",
         "$\\frac{x}{2}$ and $\\frac{A}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "Doubling all linear dimensions implies that lengths are scaled by a factor of $2$ ($2x$2$2^2 = 4$), resulting in $4A$.\n\n**Common mistake:** Thinking that area also doubles ($2A$) when linear components are doubled."
+      "explanation": "Doubling all linear dimensions implies that lengths are scaled by a factor of 2 ($2x$. $2^2 = 4$), resulting in $4A$.\n\n**Common mistake:** Thinking that area also doubles ($2A$) when linear components are doubled."
     },
     {
       "type": "mcq",
@@ -83,7 +83,7 @@
         "(2, 5)"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal to each other: $2x + 1 = x - 7 \\implies x = -8$. Substitute into $y = x - 7$: $y = -8 - 7 = -15$. The point is (-8, -15).\n\n**Common mistake:** Solving for $x$2$y$ value.",
+      "explanation": "Set the equations equal to each other: $2x + 1 = x - 7 \\implies x = -8$. Substitute into $y = x - 7$: $y = -8 - 7 = -15$. The point is (-8, -15).\n\n**Common mistake:** Solving for $x$ and $y$ value.",
       "id": "ch03-coordinate-geometry-graphs-hard-q6"
     },
     {
@@ -96,12 +96,12 @@
         "$y = -2x + 10$"
       ],
       "correctIndex": 0,
-      "explanation": "The required line has a gradient of 2. Using $y = 2x + c$2$4 = 2(3) + c \\implies 4 = 6 + c \\implies c = -2$. The equation is $y = 2x - 2$.\n\n**Common mistake:** Using the negative reciprocal gradient (-0.5) instead of the same gradient for a parallel line.",
+      "explanation": "The required line has a gradient of 2. Using $y = 2x + c$. $4 = 2(3) + c \\implies 4 = 6 + c \\implies c = -2$. The equation is $y = 2x - 2$.\n\n**Common mistake:** Using the negative reciprocal gradient (-0.5) instead of the same gradient for a parallel line.",
       "id": "ch03-coordinate-geometry-graphs-hard-q7"
     },
     {
       "type": "mcq",
-      "question": "A car's value **$v$2$n$2$v = 4500 - 0.2n$2$3200**.$",
+      "question": "A car's value **$v$ and $n2v = 4500 - 0.2n$. $3200**.$",
       "options": [
         "6500 km",
         "26,000 km",
@@ -109,7 +109,7 @@
         "38,500 km"
       ],
       "correctIndex": 1,
-      "explanation": "$3200 = 4500 - 0.05n$2$0.05n = 1300 \\implies n = 1300 / 0.05 = 26000$ km.\n\n**Common mistake:** Calculating $4500 - 3200$ and providing 1300 as the final answer.",
+      "explanation": "$3200 = 4500 - 0.05n$. $0.05n = 1300 \\implies n = 1300 / 0.05 = 26000$ km.\n\n**Common mistake:** Calculating $4500 - 3200$ and providing 1300 as the final answer.",
       "id": "ch03-coordinate-geometry-graphs-hard-q8"
     },
     {
@@ -143,39 +143,39 @@
       "type": "mcq",
       "question": "Find the equation of the perpendicular bisector of the line segment joining (1,3) and (5,7).",
       "options": [
-        "y=−x+8",
+        "y=-x+8",
         "y=x+2",
-        "y=−x+4",
-        "y=−x+6"
+        "y=-x+4",
+        "y=-x+6"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint is (3,5). Segment gradient is (7−3)/(5−1)=1. Perpendicular gradient is −1. y−5=−1(x−3)\nRightarrowy=−x+8.\n\n**Common mistake:** The student might use the gradient of the line segment instead of the perpendicular gradient."
+      "explanation": "Midpoint is (3,5). Segment gradient is (7-3)/(5-1)=1. Perpendicular gradient is -1. y-5=-1(x-3)\nRightarrowy=-x+8.\n\n**Common mistake:** The student might use the gradient of the line segment instead of the perpendicular gradient."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q12",
       "type": "mcq",
-      "question": "Calculate the shortest distance between the point (1,−4) and the straight line with equation y=0.75x+1.5.",
+      "question": "Calculate the shortest distance between the point (1,-4) and the straight line with equation y=0.75x+1.5.",
       "options": [
         "5 units",
-        "\\sqrt{10} units",
+        "$$\n\\sqrt{10} units\n",
         "3 units",
         "4.5 units"
       ],
       "correctIndex": 0,
-      "explanation": "The perpendicular line from (1,−4) to the given line has gradient −4/3. They intersect at (−2,0). Distance between (1,−4) and (−2,0) is\nsqrt$3^{2}$+$4^{2}$=5.\n\n**Common mistake:** The student might substitute the point into the line equation directly without finding the perpendicular intersection point."
+      "explanation": "The perpendicular line from (1,-4) to the given line has gradient -4/3. They intersect at (-2,0). Distance between (1,-4) and (-2,0) is\nsqrt$3^{2}$+$4^{2}$=5.\n\n**Common mistake:** The student might substitute the point into the line equation directly without finding the perpendicular intersection point."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q13",
       "type": "mcq",
       "question": "Determine the area of the triangle formed by the line y=2x+8, the x-axis, and the y-axis.",
       "options": [
-        "16 units $2$",
-        "32 units $2$",
-        "8 units $2$",
-        "12 units $2$"
+        "16 units 2",
+        "32 units 2",
+        "8 units 2",
+        "12 units 2"
       ],
       "correctIndex": 0,
-      "explanation": "Intercepts are (0,8) and (−4,0). Area = 0.5\ntimesbase\ntimesheight=0.5\ntimes4\ntimes8=16.\n\n**Common mistake:** The student might forget the factor of 0.5 in the triangle area formula."
+      "explanation": "Intercepts are (0,8) and (-4,0). Area = 0.5\ntimesbase\ntimesheight=0.5\ntimes4\ntimes8=16.\n\n**Common mistake:** The student might forget the factor of 0.5 in the triangle area formula."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q14",
@@ -185,54 +185,54 @@
         "0",
         "4",
         "2",
-        "−2"
+        "-2"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation: (5−1)/(2−k)=2\nRightarrow4/(2−k)=2\nRightarrow4=4−2k\nRightarrow2k=0\nRightarrowk=0.\n\n**Common mistake:** The student might incorrectly solve the algebraic equation or misplace the coordinates in the gradient formula."
+      "explanation": "Set up the equation: (5-1)/(2-k)=2\nRightarrow4/(2-k)=2\nRightarrow4=4-2k\nRightarrow2k=0\nRightarrowk=0.\n\n**Common mistake:** The student might incorrectly solve the algebraic equation or misplace the coordinates in the gradient formula."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q15",
       "type": "mcq",
-      "question": "Find the equation of the line that passes through (4,1) and is perpendicular to the line with equation 3x−2y=6.",
+      "question": "Find the equation of the line that passes through (4,1) and is perpendicular to the line with equation 3x-2y=6.",
       "options": [
         "2x+3y=11",
-        "2x−3y=5",
+        "2x-3y=5",
         "3x+2y=14",
         "2x+3y=8"
       ],
       "correctIndex": 0,
-      "explanation": "Original gradient is 1.5. Perpendicular gradient is −2/3. y−1=(−2/3)(x−4)\nRightarrow3y−3=−2x+8\nRightarrow2x+3y=11.\n\n**Common mistake:** The student may use the same gradient instead of the negative reciprocal or fail to rearrange into the required form."
+      "explanation": "Original gradient is 1.5. Perpendicular gradient is -2/3. y-1=(-2/3)(x-4)\nRightarrow3y-3=-2x+8\nRightarrow2x+3y=11.\n\n**Common mistake:** The student may use the same gradient instead of the negative reciprocal or fail to rearrange into the required form."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q16",
       "type": "mcq",
       "question": "Find the equation of the perpendicular bisector of the line segment joining points A(2,5) and B(8,1).",
       "options": [
-        "y=1.5x−4.5",
-        "y=−0.67x+7",
+        "y=1.5x-4.5",
+        "y=-0.67x+7",
         "y=1.5x+3",
-        "y=−1.5x+10.5"
+        "y=-1.5x+10.5"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint is (5,3). Gradient AB=(1−5)/(8−2)=−4/6=−2/3. Perpendicular gradient is 3/2=1.5. y−3=1.5(x−5)⇒y=1.5x−4.5.\n\n**Common mistake:** The student might use the gradient of AB instead of the perpendicular gradient or fail to use the midpoint."
+      "explanation": "Midpoint is (5,3). Gradient AB=(1-5)/(8-2)=-4/6=-2/3. Perpendicular gradient is 3/2=1.5. y-3=1.5(x-5)⇒y=1.5x-4.5.\n\n**Common mistake:** The student might use the gradient of AB instead of the perpendicular gradient or fail to use the midpoint."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q17",
       "type": "mcq",
       "question": "Calculate the shortest distance from the point (4,8) to the line y=x+2.",
       "options": [
-        "\\sqrt{8} units",
+        "$$\n\\sqrt{8} units\n",
         "2 units",
         "4 units",
-        "\\sqrt{2} units"
+        "$$\n\\sqrt{2} units\n"
       ],
       "correctIndex": 0,
-      "explanation": "The perpendicular line through (4,8) is y=−x+12. They intersect at (5,7). Distance between (4,8) and (5,7) is\n$(5-4)^{2}$+$(7-8)^{2}$\n=\n1+1 \\neq \\sqrt{2}. (Wait, re-checking... intersection: x+2=−x+12⇒2x=10⇒x=5,y=7. Correct.)\n\n**Common mistake:** The student might substitute the point into the line equation directly without finding the perpendicular intersection point or forget to use Pythagoras' theorem."
+      "explanation": "The perpendicular line through (4,8) is y=-x+12. They intersect at (5,7). Distance between (4,8) and (5,7) is\n$(5-4)^{2}$+$(7-8)^{2}$\n=\n1+1 \\neq \\sqrt{2}. (Wait, re-checking... intersection: x+2=-x+12⇒2x=10⇒x=5,y=7. Correct.)\n\n**Common mistake:** The student might substitute the point into the line equation directly without finding the perpendicular intersection point or forget to use Pythagoras' theorem."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q18",
       "type": "mcq",
-      "question": "A line passes through (5,2) and is perpendicular to x−3y=9. Find the x-intercept of this new line.",
+      "question": "A line passes through (5,2) and is perpendicular to x-3y=9. Find the x-intercept of this new line.",
       "options": [
         "(5.67,0)",
         "(17,0)",
@@ -240,7 +240,7 @@
         "(3,0)"
       ],
       "correctIndex": 0,
-      "explanation": "Original m=1/3. Perpendicular m=−3. Equation: y−2=−3(x−5)⇒y=−3x+17. Set y=0: 0=−3x+17⇒x=17/3≈5.67.\n\n**Common mistake:** The student might find the y-intercept (17) instead of the x-intercept or use the original gradient 1/3."
+      "explanation": "Original m=1/3. Perpendicular m=-3. Equation: y-2=-3(x-5)⇒y=-3x+17. Set y=0: 0=-3x+17⇒x=17/3≈5.67.\n\n**Common mistake:** The student might find the y-intercept (17) instead of the x-intercept or use the original gradient 1/3."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q19",
@@ -248,45 +248,45 @@
       "question": "Determine the value of p if the line py+3x=12 is perpendicular to the line y=4x+1.",
       "options": [
         "12",
-        "−12",
+        "-12",
         "0.75",
         "3"
       ],
       "correctIndex": 0,
-      "explanation": "First line gradient is −3/p. Second line gradient is 4. For perpendicularity: (−3/p)×4=−1⇒−12/p=−1⇒p=12.\n\n**Common mistake:** The student might set the gradients equal (k for parallel) or miscalculate the algebra when solving for p."
+      "explanation": "First line gradient is -3/p. Second line gradient is 4. For perpendicularity: (-3/p)×4=-1⇒-12/p=-1⇒p=12.\n\n**Common mistake:** The student might set the gradients equal (k for parallel) or miscalculate the algebra when solving for p."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q20",
       "type": "mcq",
-      "question": "Find the equation of the line parallel to y=4x−2 that passes through the midpoint of the segment joining (0,0) and (4,8).",
+      "question": "Find the equation of the line parallel to y=4x-2 that passes through the midpoint of the segment joining (0,0) and (4,8).",
       "options": [
-        "y=4x−4",
+        "y=4x-4",
         "y=4x+4",
-        "y=−0.25x+4.5",
+        "y=-0.25x+4.5",
         "y=4x"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint is (2,4). Gradient is 4. y−4=4(x−2)⇒y=4x−8+4⇒y=4x−4.\n\n**Common mistake:** The student might use one of the endpoints instead of the midpoint or change the gradient."
+      "explanation": "Midpoint is (2,4). Gradient is 4. y-4=4(x-2)⇒y=4x-8+4⇒y=4x-4.\n\n**Common mistake:** The student might use one of the endpoints instead of the midpoint or change the gradient."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q21",
       "type": "mcq",
-      "question": "A rectangular garden is enclosed using $100$ m of fencing. One side of the garden is a pre-existing stone wall. If $x$ is the width of the garden (the two sides perpendicular to the wall), find the maximum area possible.",
+      "question": "A rectangular garden is enclosed using^100 m of fencing. One side of the garden is a pre-existing stone wall. If $x$ is the width of the garden (the two sides perpendicular to the wall), find the maximum area possible.",
       "options": [
-        "$1250$ m $2$",
-        "$2500$ m $2$",
-        "$625$ m $2$",
-        "$1000$ m $2$"
+        "$1250$ m 2",
+        "$2500$ m 2",
+        "$625$ m 2",
+        "$1000$ m 2"
       ],
       "correctIndex": 0,
-      "explanation": "Let width be $x$2$L = 100 - 2x$2$A = x(100 - 2x) = 100x - 2x^2$. The maximum occurs at the turning point $x = -b/2a = -100/-4 = 25$. Max Area = $25(100 - 50) = 1250$.\n\n**Common mistake:** The student might assume all four sides need fencing ($25 \\times 25 = 625$) or calculate the perimeter instead of area."
+      "explanation": "Let width be $x$. So $L = 100 - 2x2A = x(100 - 2x) = 100x - 2x^2$. The maximum occurs at the turning point $x = -b/2a = -100/-4 = 25$. Max Area = $25(100 - 50) = 1250$.\n\n**Common mistake:** The student might assume all four sides need fencing ($25 \\times 25 = 625$) or calculate the perimeter instead of area."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q22",
       "type": "mcq",
-      "question": "A tangent is drawn to the curve $y = x^2 - 4x$2$x = 3$. The tangent passes through the points $(1, -2)$ and $(5, 6)$. Use these points to estimate the gradient of the curve at $x = 3$.",
+      "question": "A tangent is drawn to the curve $y = x^2 - 4x$. So $x = 3$. The tangent passes through the points $(1, -2)$ and $(5, 6)$. Use these points to estimate the gradient of the curve at $x = 3$.",
       "options": [
-        "$2$",
+        "2",
         "$4$",
         "$1.5$",
         "$0.5$"
@@ -297,7 +297,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q23",
       "type": "mcq",
-      "question": "The population of a bacteria colony doubles every hour. If there are $400$ bacteria initially ($t=0$), how many hours will it take for the population to reach $102400$?",
+      "question": "The population of a bacteria colony doubles every hour. If there are^400 bacteria initially ($t=0$), how many hours will it take for the population to reach^102400?",
       "options": [
         "$8$ hours",
         "$256$ hours",
@@ -305,7 +305,7 @@
         "$7$ hours"
       ],
       "correctIndex": 0,
-      "explanation": "The model is $y = 400 \\cdot 2^t$2$102400 = 400 \\cdot 2^t \\Rightarrow 256 = 2^t$2$2^8 = 256$, $t = 8$.\n\n**Common mistake:** The student might divide $102400$ by $400$ and assume that is the answer, or miscalculate the power of 2."
+      "explanation": "The model is $y = 400 \\cdot 2^t$. $102400 = 400 \\cdot 2^t \\Rightarrow 256 = 2^t22^8 = 256$, $t = 8$.\n\n**Common mistake:** The student might divide^102400 by^400 and assume that is the answer, or miscalculate the power of 2."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q24",
@@ -318,12 +318,12 @@
         "$(6, 36)$ and $(0, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal: $x^2 = x + 6 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Intersections at $x = 3$ ($y=9$) and $x = -2$ ($y=4$).\n\n**Common mistake:** The student might solve for $x$2$y$2$x$."
+      "explanation": "Set the equations equal: $x^2 = x + 6 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Intersections at $x = 3$ ($y=9$) and $x = -2$ ($y=4$).\n\n**Common mistake:** The student might solve for $x$ and $y2x$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q25",
       "type": "mcq",
-      "question": "A line $y = mx + c$2$x^2 - 6x + 2 = 0$ using the graph of $y = x^2 - 5x$. Determine the equation of this line.",
+      "question": "A line $y = mx + c$. So $x^2 - 6x + 2 = 0$ using the graph of $y = x^2 - 5x$. Determine the equation of this line.",
       "options": [
         "$y = x - 2$",
         "$y = -x + 2$",
@@ -331,12 +331,12 @@
         "$y = -x - 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange $x^2 - 6x + 2 = 0$ to get the plotted function $x^2 - 5x$2$x^2 - 5x - x + 2 = 0 \\Rightarrow x^2 - 5x = x - 2$. Thus, $y = x - 2$.\n\n**Common mistake:** A common error is failing to maintain the equality when moving terms, leading to sign errors in the linear equation."
+      "explanation": "Rearrange $x^2 - 6x + 2 = 0$ to get the plotted function $x^2 - 5x$. So $x^2 - 5x - x + 2 = 0 \\Rightarrow x^2 - 5x = x - 2$. Thus, $y = x - 2$.\n\n**Common mistake:** A common error is failing to maintain the equality when moving terms, leading to sign errors in the linear equation."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q26",
       "type": "mcq",
-      "question": "The speed–time graph of a journey shows a car accelerating from $0$ to $V$2$10$ seconds, then travelling at constant speed $V$2$20$ seconds. If the total distance travelled is $400$ m, calculate the value of $V$.",
+      "question": "The speed–time graph of a journey shows a car accelerating from^0 to $V$. $10$ seconds, then travelling at constant speed $V$. $20$ seconds. If the total distance travelled is $1$ m, calculate the value of $V$.",
       "options": [
         "$16$ m/s",
         "$13.3$ m/s",
@@ -344,25 +344,25 @@
         "$40$ m/s"
       ],
       "correctIndex": 0,
-      "explanation": "The area is a trapezium with parallel sides $20$ and $30$, and height $V$2$Area = 0.5 \\cdot (20 + 30) \\cdot V = 400 \\Rightarrow 25V = 400 \\Rightarrow V = 16$.\n\n**Common mistake:** The student might assume the entire journey was at constant speed $V$2$30V = 400$) or use the wrong side lengths for the trapezium."
+      "explanation": "The area is a trapezium with parallel sides^20 and^30, and height $V$. So $Area = 0.5 \\cdot (20 + 30) \\cdot V = 400 \\Rightarrow 25V = 400 \\Rightarrow V = 16$.\n\n**Common mistake:** The student might assume the entire journey was at constant speed $V$. $30V = 400$) or use the wrong side lengths for the trapezium."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q27",
       "type": "mcq",
-      "question": "A speed–time graph is curved during the first $5$ seconds. A tangent is drawn at $t = 2$. The tangent passes through $(0, 4)$ and $(4, 14)$. Estimate the acceleration of the object at $t = 2$.",
+      "question": "A speed–time graph is curved during the first^5 seconds. A tangent is drawn at $t = 2$. The tangent passes through $(0, 4)$ and $(4, 14)$. Estimate the acceleration of the object at $t = 2$.",
       "options": [
-        "$2.5$ m/s $2$",
-        "$3.5$ m/s $2$",
-        "$5$ m/s $2$",
-        "$1.25$ m/s $2$"
+        "$2.5$ m/s 2",
+        "$3.5$ m/s 2",
+        "$5$ m/s 2",
+        "$1.25$ m/s 2"
       ],
       "correctIndex": 0,
-      "explanation": "Acceleration is the gradient of the tangent: $m = (14 - 4) / (4 - 0) = 10 / 4 = 2.5$ m/s $2$.\n\n**Common mistake:** The student may use the coordinates $(2, y)$ from the curve instead of the tangent points or divide the speed by time directly."
+      "explanation": "Acceleration is the gradient of the tangent: $m = (14 - 4) / (4 - 0) = 10 / 4 = 2.5$m/s . .\n\n**Common mistake:** The student may use the coordinates (2, y) from the curve instead of the tangent points or divide the speed by time directly."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q28",
       "type": "mcq",
-      "question": "A car's fuel tank contains $40$ Litres. It travels $120$ km with a consumption of $8$ km/L, then refills $25$ Litres. It then travels another $180$ km at $12$ km/L. How much fuel is in the tank at the end of the journey?",
+      "question": "A car's fuel tank contains^40 Litres. It travels^120 km with a consumption of^8 km/L, then refills^25 Litres. It then travels another^180 km at^12 km/L. How much fuel is in the tank at the end of the journey?",
       "options": [
         "$35$ Litres",
         "$25$ Litres",
@@ -375,7 +375,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q29",
       "type": "mcq",
-      "question": "A motorboat travels downstream at $24$ km/h and upstream at $16$ km/h. It has fuel for $5$ hours. Calculate the maximum distance it can travel downstream before it must turn back to return to its starting point within the fuel limit.",
+      "question": "A motorboat travels downstream at^24 km/h and upstream at^16 km/h. It has fuel for^5 hours. Calculate the maximum distance it can travel downstream before it must turn back to return to its starting point within the fuel limit.",
       "options": [
         "$48$ km",
         "$40$ km",
@@ -383,12 +383,12 @@
         "$32$ km"
       ],
       "correctIndex": 0,
-      "explanation": "Let $d$2$d/24 + d/16 = 5$. Common denominator is $48$: $2d/48 + 3d/48 = 5 \\Rightarrow 5d/48 = 5 \\Rightarrow d = 48$ km.\n\n**Common mistake:** A student might assume the time is split equally ($2.5$ hours each way) and calculate $24 \\cdot 2.5 = 60$ km."
+      "explanation": "Let $d$. So $d/24 + d/16 = 5$. Common denominator is $1$: $2d/48 + 3d/48 = 5 \\Rightarrow 5d/48 = 5 \\Rightarrow d = 48$ km.\n\n**Common mistake:** A student might assume the time is split equally ($2.5$ hours each way) and calculate $24 \\cdot 2.5 = 60$ km."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q30",
       "type": "mcq",
-      "question": "The profit $P$ (in\n\n$$\n1000s $2$ x $2$1000s $2$ P = -x $2$ + 6x - 5$. Use the graph of this function to find the range of$2$for which the firm makes a profit of at least$\n\n$3000$.",
+      "question": "The profit $P$ (in 1000s  and x21000s^2 So P = -x2 + 6x - 5$. Use the graph of this function to find the range of2for which the firm makes a profit of at least$\n\n$3000$.",
       "options": [
         "$2 \\le x \\le 4$",
         "$1 \\le x \\le 5$",
@@ -396,7 +396,7 @@
         "$3 \\le x \\le 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Set $P \\ge 3$: $-x^2 + 6x - 5 \\ge 3 \\Rightarrow -x^2 + 6x - 8 \\ge 0 \\Rightarrow x^2 - 6x + 8 \\le 0$. Factorising $(x-2)(x-4) \\le 0$ gives the interval $2 \\le x \\le 4$.\n\n**Common mistake:** The student might find the roots of the original equation ($1$ and $5$) where the profit is zero, rather than the range for\n\n$3000$ profit."
+      "explanation": "Set $P \\ge 3$: $-x^2 + 6x - 5 \\ge 3 \\Rightarrow -x^2 + 6x - 8 \\ge 0 \\Rightarrow x^2 - 6x + 8 \\le 0$. Factorising $(x-2)(x-4) \\le 0$ gives the interval $2 \\le x \\le 4$.\n\n**Common mistake:** The student might find the roots of the original equation ($1$ and^5) where the profit is zero, rather than the range for^3000 profit."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q31",
@@ -427,7 +427,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q33",
       "type": "mcq",
-      "question": "Find the coordinates of the points of intersection between the quadratic curve $y = x^2 - 2x$2$y = x + 4$.",
+      "question": "Find the coordinates of the points of intersection between the quadratic curve $y = x^2 - 2x$. So $y = x + 4$.",
       "options": [
         "$(4, 8)$ and $(-1, 3)$",
         "$(4, 4)$ and $(-1, -1)$",
@@ -435,7 +435,7 @@
         "$(4, 8)$ and $(1, 5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Set $x^2 - 2x = x + 4 \\Rightarrow x^2 - 3x - 4 = 0 \\Rightarrow (x - 4)(x + 1) = 0$. For $x=4, y=8$. For $x=-1, y=3$.\n\n**Common mistake:** The student may solve for $x$2$y$ values using the wrong equation."
+      "explanation": "Set $x^2 - 2x = x + 4 \\Rightarrow x^2 - 3x - 4 = 0 \\Rightarrow (x - 4)(x + 1) = 0$. For $x=4, y=8$. For $x=-1, y=3$.\n\n**Common mistake:** The student may solve for $x$ and $y$ values using the wrong equation."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q34",
@@ -453,7 +453,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q35",
       "type": "mcq",
-      "question": "The graph of $y = x^3 - 9x$2$x$2$y = 0$.",
+      "question": "The graph of $y = x^3 - 9x$ and $x2y = 0$.",
       "options": [
         "$0, 3, -3$",
         "$0, 9, -9$",
@@ -474,7 +474,7 @@
         "$(-3, 32)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$. Substitute $x = 3$ into the original function: $y = (3)² - 6(3) + 5 = 9 - 18 + 5 = -4$.nature is minimum because $\\frac{d^2y}{dx^2} = 2 > 0$.\n\n**Common mistake:** The student might find the correct $x$2$y$."
+      "explanation": "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$. Substitute $x = 3$ into the original function: $y = (3)² - 6(3) + 5 = 9 - 18 + 5 = -4$.nature is minimum because $\\frac{d^2y}{dx^2} = 2 > 0$.\n\n**Common mistake:** The student might find the correct $x$ and $y$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q37",
@@ -487,12 +487,12 @@
         "Stationary point but nature unknown"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 12 - 3x^2$. At $x=2$, $\\frac{dy}{dx} = 12 - 12 = 0$. The second derivative $\\frac{d^2y}{dx^2} = -6x$2$x=2$, $-6(2) = -12$. Since $-12 < 0$, it is a maximum.\n\n**Common mistake:** The student may use Method 1 (checking nearby gradients) incorrectly or conclude it is a minimum because 2 is positive."
+      "explanation": "$\\frac{dy}{dx} = 12 - 3x^2$. At $x=2$, $\\frac{dy}{dx} = 12 - 12 = 0$. The second derivative $\\frac{d^2y}{dx^2} = -6x$. So $x=2$, $-6(2) = -12$. Since $-12 < 0$, it is a maximum.\n\n**Common mistake:** The student may use Method 1 (checking nearby gradients) incorrectly or conclude it is a minimum because 2 is positive."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q38",
       "type": "mcq",
-      "question": "The curve $y = ax^2 + bx + 2$ passes through the point $(1, 6)$ and has a gradient of $7$ at that point. Find the values of $a$2$b$.",
+      "question": "The curve $y = ax^2 + bx + 2$ passes through the point $(1, 6)$ and has a gradient of^7 at that point. Find the values of $a$ and $b$.",
       "options": [
         "$a = 3, b = 1$",
         "$a = 1, b = 3$",
@@ -505,7 +505,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q39",
       "type": "mcq",
-      "question": "For what range of values of $x$2$y = x^3 - 3x^2 - 24x + 10$ negative?",
+      "question": "For what range of values of $x$. So $y = x^3 - 3x^2 - 24x + 10$ negative?",
       "options": [
         "$-2 < x < 4$",
         "$x < -2$ or $x > 4$",

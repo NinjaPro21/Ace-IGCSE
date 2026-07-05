@@ -11,7 +11,7 @@
     {
       "id": "ch18-electromagnetic-effects-medium-q1",
       "type": "mcq",
-      "question": "A student moves a magnet into a coil with $100$ turns at speed $v$. If they then use a coil with $200$ turns and move the same magnet at speed $2v$, what happens to the induced e.m.f.?",
+      "question": "A student moves a magnet into a coil with^100 turns at speed $v$. If they then use a coil with^200 turns and move the same magnet at speed $2v$, what happens to the induced e.m.f.?",
       "options": [
         "It increases by a factor of 4",
         "It increases by a factor of 2",
@@ -336,7 +336,7 @@
     {
       "id": "ch18-electromagnetic-effects-medium-q26",
       "type": "mcq",
-      "question": "A transformer has $100$ turns in the primary coil and $500$ turns in the secondary coil. If the primary voltage is $12\\text{ V}$, what is the secondary voltage?",
+      "question": "A transformer has^100 turns in the primary coil and^500 turns in the secondary coil. If the primary voltage is $12\\text{ V}$, what is the secondary voltage?",
       "options": [
         "$60\\text{ V}$",
         "$2.4\\text{ V}$",
@@ -344,12 +344,12 @@
         "$600\\text{ V}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the transformer equation $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$, we get $V_s = V_p \\times (N_s / N_p) = 12 \\times (500 / 100) = 60\\text{ V}$. \n\n**Common mistake:** Inverting the turns ratio and dividing $12$ by $5$."
+      "explanation": "Using the transformer equation $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$, we get $V_s = V_p \\times (N_s / N_p) = 12 \\times (500 / 100) = 60\\text{ V}$. \n\n**Common mistake:** Inverting the turns ratio and dividing^12 by^5."
     },
     {
       "id": "ch18-electromagnetic-effects-medium-q27",
       "type": "mcq",
-      "question": "A transformer is used to provide a $15\\text{ V}$ output from a $240\\text{ V}$ mains supply. If the primary coil has $6400$ turns, calculate the number of turns on the secondary coil.",
+      "question": "A transformer is used to provide a $15\\text{ V}$ output from a $240\\text{ V}$ mains supply. If the primary coil has^6400 turns, calculate the number of turns on the secondary coil.",
       "options": [
         "$400$",
         "$102400$",
@@ -370,20 +370,20 @@
         "It can only be used with a battery (d.c. source)."
       ],
       "correctIndex": 0,
-      "explanation": "A step-up transformer increases voltage, which means $V_s > V_p$. According to the ratio, this requires $N_s > N_p$. \n\n**Common mistake:** Swapping the primary and secondary turn requirements."
+      "explanation": "A step-up transformer increases voltage, which means $V_s > V_p^2 According to the ratio, this requires N_s > N_p$. \n\n**Common mistake:** Swapping the primary and secondary turn requirements."
     },
     {
       "id": "ch18-electromagnetic-effects-medium-q29",
       "type": "mcq",
-      "question": "Assuming a transformer is $100\\%$ efficient, what is the relationship between the primary power ($P_p$) and secondary power ($P_s$)?",
+      "question": "Assuming a transformer is $100\\%$ efficient, what is the relationship between the primary power ($P_p ) and secondary power (P_s$)?",
       "options": [
         "$P_p = P_s$",
-        "$P_s$ is always greater than $P_p$",
+        "$P_s  is always greater than P_p$",
         "$P_p = I_p V_s$",
         "$P_s = I_s V_p$"
       ],
       "correctIndex": 0,
-      "explanation": "For $100\\%$ efficiency, $I_p V_p = I_s V_s$, which means power input equals power output ($P_p = P_s$). \n\n**Common mistake:** Thinking a step-up transformer 'creates' extra power."
+      "explanation": "For $100\\%$ efficiency, $I_p V_p = I_s V_s , which means power input equals power output (P_p = P_s$). \n\n**Common mistake:** Thinking a step-up transformer 'creates' extra power."
     },
     {
       "id": "ch18-electromagnetic-effects-medium-q30",

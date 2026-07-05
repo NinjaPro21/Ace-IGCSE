@@ -6,12 +6,13 @@ A straight line can be completely defined in a coordinate plane by knowing its s
 
 $$
 \text{Point-Gradient Form: } y - y_1 = m(x - x_1)
-
+$$
+$$
 \text{Slope-Intercept Form: } y = mx + c
-
+$$
+$$
 \text{General Linear Form: } ax + by + c = 0
 $$
-
 
 ## Steps / method
 
@@ -41,7 +42,7 @@ Write the equation of the line through $(0, 5)$ and $(4, 1)$ in the form $ax + b
 
 ## Examiner tip
 
-Always read the final line of the question carefully to see what format is requested. If the examiner explicitly requests the answer in the form $ax + by + c = 0$ where $a, b, c$ are integers, leaving it as $y = 2x + \frac{1}{3}$ will lose formatting marks.
+Always read the final line of the question carefully to see what format is requested. If the examiner explicitly requests the answer in the form $ax + by + c = 0$ where a, b, c are integers, leaving it as $y = 2x + \frac{1}{3}$ will lose formatting marks.
 
 ## Quick check
 

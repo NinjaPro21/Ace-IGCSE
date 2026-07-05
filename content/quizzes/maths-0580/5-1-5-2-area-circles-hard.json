@@ -45,7 +45,7 @@
         "$20.0\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using trigonometric area properties for a regular $n$2$Area = n \\times 0.5 \\times s^2 / (4 \\tan(180/n))$) or specific tabulated values leads to side $s \\approx 18.66$.\n\n**Common mistake:** A student might divide the area by 5 and think that is the side length."
+      "explanation": "Using trigonometric area properties for a regular $n$. So $Area = n \\times 0.5 \\times s^2 / (4 \\tan(180/n))$) or specific tabulated values leads to side $s \\approx 18.66$.\n\n**Common mistake:** A student might divide the area by 5 and think that is the side length."
     },
     {
       "id": "5-1-5-2-area-circles-hard-q4",
@@ -58,12 +58,12 @@
         "$\\sqrt{29}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Area sum $= \\pi(2^2) + \\pi(3^2) + \\pi(4^2) = \\pi(4 + 9 + 16) = 29\\pi$2$\\pi r^2 = 29\\pi \\Rightarrow r = \\sqrt{29} \\approx 5.385...$.\n\n**Common mistake:** The student might add the radii first and then square the sum ($2+3+4=9$, area $81\\pi$)."
+      "explanation": "Area sum $= \\pi(2^2) + \\pi(3^2) + \\pi(4^2) = \\pi(4 + 9 + 16) = 29\\pi^2 So \\pi r^2 = 29\\pi \\Rightarrow r = \\sqrt{29} \\approx 5.385...$.\n\n**Common mistake:** The student might add the radii first and then square the sum ($2+3+4=9$, area $81\\pi$)."
     },
     {
       "id": "5-1-5-2-area-circles-hard-q5",
       "type": "mcq",
-      "question": "A semi-circle and an isosceles triangle have the same base $AB$2$x$2$AB$).",
+      "question": "A semi-circle and an isosceles triangle have the same base $AB$ and $x2AB$).",
       "options": [
         "$57.5^{\\circ}$",
         "$60.0^{\\circ}$",
@@ -71,7 +71,7 @@
         "$32.5^{\\circ}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $AB = 2r$2$= 0.5\\pi r^2$. Triangle area $= 0.5(2r)h = rh$2$rh = 0.5\\pi r^2 \\Rightarrow h = 0.5\\pi r$2$\\tan(\\text{base angle}) = h/r = 0.5\\pi$2$\\approx 57.5^{\\circ}$. Peak angle $x = 180 - 2(57.5) = 65^{\\circ}$? Actually, the source answer key says $57.5^{\\circ}$.\n\n**Common mistake:** The student might set the areas equal but fail to relate the vertical height to the base length correctly."
+      "explanation": "Let $AB = 2r$. $= 0.5\\pi r^2$. Triangle area $= 0.5(2r)h = rh$. So $rh = 0.5\\pi r^2 \\Rightarrow h = 0.5\\pi r2\\tan(\\text{base angle}) = h/r = 0.5\\pi . \\approx 57.5^{\\circ}$. Peak angle $x = 180 - 2(57.5) = 65^{\\circ}$? Actually, the source answer key says $57.5^{\\circ}$.\n\n**Common mistake:** The student might set the areas equal but fail to relate the vertical height to the base length correctly."
     }
   ]
 }

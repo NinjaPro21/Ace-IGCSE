@@ -4,23 +4,21 @@ This topic governs structural applications of real-world proportional arithmetic
 
 ## Key formulas
 
-$P \left(1 + \frac{r}{100}\right)^n
+$$
+A = P \left(1 + \frac{r}{100}\right)^n
+$$
 
 $$
 \text{Original Value} = \frac{\text{New Value}}{1 \pm \frac{\% \text{ Change}}{100}}
-
-\text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}}
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Percentage pie chart">
-      <circle cx="100" cy="100" r="70" fill="#f8fafc" stroke="#cbd5e1"/>
-      <path d="M100 100 L100 30 A70 70 0 0 1 170 100 Z" fill="#2563eb" opacity="0.8"/>
-      <text x="130" y="70" font-size="11" fill="#1e3a8a">25%</text>
-    </svg></div>
-
-Percentages — slice size shows proportion of the whole; 25% = quarter of the circle.
+      <circle cx="100" cy="100" r="70" fill="#fdfbf7" stroke="#e8e2d8"/>
+      <path d="M100 100 L100 30 A70 70 0 0 1 170 100 Z" fill="#5b8def" opacity="0.8"/>
+      <text x="130" y="70" font-size="11" fill="#1a1a1a">25%</text>
+    </svg><p class="enlight-physics-diagram__caption">Percentages — slice size shows proportion of the whole; 25% = quarter of the circle.</p></div>
 
 ## Steps / method
 
@@ -46,21 +44,26 @@ Examiners frequently use the phrase "Calculate the price before the reduction" o
 
 If an asset depreciates by $8\%$ annually for $3$ years, its final value multiplier is $(0.92)^3$.
 
-## Worked examples
+## Worked example — Reverse percentage (May 2021 Paper 22 Q14)
 
-May 2021 Paper 22 Q14: A shop sells a laptop for $575$, which includes a profit of 2. Find the cost price of the laptop.
+A shop sells a laptop for $575$, which includes a profit of $15\%$. Find the cost price of the laptop.
 
-Step 1: The selling price represents $100\% + 15\% = 115\%$ of the original cost price.
+The selling price represents $100\% + 15\% = 115\%$ of the original cost price.
 
-Step 2: Convert the percentage to a decimal multiplier: $1.15$.
+Convert the percentage to a decimal multiplier: $1.15$.
 
-Step 3: Set up the division: $\text{Cost Price} = \frac{575}{1.15} =$5002
+Set up the division: $\text{Cost Price} = \frac{575}{1.15} = 500$.
 
-November 2022 Paper 41 Q3a: An investor deposits
-$$2400$ at a rate of 2 per year compound interest. Calculate the total interest earned at the end of.  years, giving your answer correct to the nearest cent. $
+## Worked example — Compound interest (November 2022 Paper 41 Q3a)
 
-Step 1: Substitute values into the compound interest formula: $A = 2400 \left(1 + \frac{2.5}{100}\right)^5$.
+An investor deposits $2400$ at a rate of $2.5\%$ per year compound interest. Calculate the total interest earned at the end of $5$ years, giving your answer correct to the nearest cent.
 
-Step 2: Compute the total accumulated value: $A = 2400 \times (1.025)^5 = 2400 \times 1.131408 = 2715.38$.
+Substitute values into the compound interest formula:
 
-Step 3: Isolate the interest earned by subtracting the original principal: $\text{Interest} = 2715.38 - 2400 =$315.382
+$$
+A = 2400 \left(1 + \frac{2.5}{100}\right)^5
+$$
+
+Compute the total accumulated value: $A = 2400 \times (1.025)^5 = 2400 \times 1.131408 = 2715.38$.
+
+Isolate the interest earned by subtracting the original principal: $\text{Interest} = 2715.38 - 2400 = 315.38$.

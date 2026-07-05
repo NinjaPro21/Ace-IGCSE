@@ -4,30 +4,37 @@ Linear graphs plot straight lines on a coordinate grid to show constant rates of
 
 ## Key formulas
 
+**Slope–intercept form**
+
 $$
-\text{Slope-Intercept Form:} \quad y = mx + c
+y = mx + c
+$$
 
-\text{General Linear Form:} \quad ax + by = d
+**General linear form**
 
-\text{Intercept Coordinates:} \quad \text{y-intercept occurs at } (0, c), \quad \text{x-intercept occurs at } \left(-\frac{c}{m}, 0\right)
+$$
+ax + by = d
+$$
+
+**Intercept coordinates**
+
+$$
+\text{y-intercept at } (0, c), \quad \text{x-intercept at } \left(-\frac{c}{m}, 0\right)
 $$
 
 ## Graphs & diagrams
 
-Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).
-
 <div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Linear graph y=mx+c">
-      <line x1="40" y1="190" x2="290" y2="190" stroke="#64748b"/>
-      <line x1="40" y1="190" x2="40" y2="30" stroke="#64748b"/>
-      <line x1="60" y1="170" x2="260" y2="70" stroke="#2563eb" stroke-width="2.5"/>
-      <circle cx="40" cy="150" r="4" fill="#dc2626"/>
-      <text x="48" y="145" font-size="10" fill="#dc2626">c</text>
-      <text x="180" y="110" font-size="10" fill="#2563eb">gradient m</text>
-      <text x="160" y="210" font-size="11" fill="#475569">x</text>
-      <text x="22" y="110" font-size="11" fill="#475569">y</text>
-    </svg></div>
-
-Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).
+      <line x1="40" y1="190" x2="290" y2="190" stroke="#a8a29e"/>
+      <line x1="40" y1="190" x2="40" y2="30" stroke="#a8a29e"/>
+      <line x1="40" y1="150" x2="260" y2="70" stroke="#5b8def" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="40" y1="150" x2="40" y2="190" stroke="#b59a73" stroke-width="3" opacity="0.35"/>
+      <circle cx="40" cy="150" r="5" fill="#b59a73"/>
+      <text x="48" y="145" font-size="10" fill="#b59a73">c</text>
+      <text x="180" y="100" font-size="10" fill="#5b8def">gradient m</text>
+      <text x="160" y="210" font-size="11" fill="#6b6b6b">x</text>
+      <text x="22" y="110" font-size="11" fill="#6b6b6b">y</text>
+    </svg><p class="enlight-physics-diagram__caption">Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).</p></div>
 
 ## Steps / method
 
@@ -59,12 +66,10 @@ Align a ruler through all three points to confirm they form a straight line, and
 
 ## Worked example — Example 2 (Nov 2022 P21 Q9)
 
-Find the gradient and the y-intercept for the straight line defined by the equation $4x + 3y = 12$.
+Find the gradient and the y-intercept for the straight line defined by the equation $4x + 3y = 12$. Rearrange the equation to isolate the $y$. $3y = -4x + 12$.
 
-Rearrange the equation to isolate the $y$. $3y = -4x + 12$.
-
-Divide every term in the equation by $3$ to match the standard form $y = mx + c$. So $y = -\frac{4}{3}x + 4$.
+Divide every term in the equation by $3$ to match the standard form $y = mx + c$ when $2$.
 
 Identify the gradient ($m$ and $x. m = -\frac{4}{3}$ (or $-1.33$).
 
-Identify the y-intercept ($c$. So $c = 4$, corresponding to the coordinate point $(0, 4)$.
+Identify the y-intercept ($c$ when $2$, corresponding to the coordinate point $(0, 4)$.

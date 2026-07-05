@@ -63,7 +63,7 @@
     {
       "id": "11-1-11-2-sets-venn-diagrams-medium-q5",
       "type": "mcq",
-      "question": "What is the set $A$2$A = \\{x: x \\text{ is an integer, } 2 \\le x < 6\\}$?",
+      "question": "What is the set $A$. So $A = \\{x: x \\text{ is an integer, } 2 \\le x < 6\\}$?",
       "options": [
         "$\\{2, 3, 4, 5\\}$",
         "$\\{2, 3, 4, 5, 6\\}$",
@@ -71,7 +71,7 @@
         "$\\{3, 4, 5, 6\\}$"
       ],
       "correctIndex": 0,
-      "explanation": "The notation includes 2 (due to $\\le$2$<$).\n\n**Common mistake:** Including the upper boundary 6 when the symbol is strictly less than ($<$)."
+      "explanation": "The notation includes 2 (due to $\\le . <$).\n\n**Common mistake:** Including the upper boundary 6 when the symbol is strictly less than ($<$)."
     }
   ]
 }

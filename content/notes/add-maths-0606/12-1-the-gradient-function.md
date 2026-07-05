@@ -16,39 +16,9 @@ Multiply by the power, then subtract $1$ from the power.
 
 1. **Prepare the expression** — convert roots to fractional powers and reciprocals to negative indices.
 
-
-
-
-
-
-
-
-
-
-
  2. **Differentiate term by term** — multiply each coefficient by its exponent.
 
-
-
-
-
-
-
-
-
-
-
  3. **Reduce the power** — subtract $1$ from each exponent.
-
-
-
-
-
-
-
-
-
-
 
  4. **Simplify** — convert back to radical or fractional form if required.
 
@@ -61,11 +31,9 @@ $$
 $$
 The constant $7$ disappears because $\frac{d}{dx}(7) = 0$.
 
-
-
 ## Examiner tip
 
-A common trap involves constants. The derivative of a constant (a number without $x$. So $y = 3x^2 + 5$, the $+5$ vanishes upon differentiation.
+A common trap involves constants. The derivative of a constant (a number without $x$ when2, the $+5$ vanishes upon differentiation.
 
 ## Quick check
 

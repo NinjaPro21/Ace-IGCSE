@@ -58,7 +58,7 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "For a linear equation $y = mx + c$2$\\frac{dy}{dx}$ is the constant $m$2$m = 8$.\n\n**Common mistake:** Option B is the y-intercept, while Option C incorrectly keeps the variable $x$ in the gradient."
+      "explanation": "For a linear equation $y = mx + c$. $\\frac{dy}{dx}$ is the constant $m^2 So m = 8$.\n\n**Common mistake:** Option B is the y-intercept, while Option C incorrectly keeps the variable $x$ in the gradient."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-easy-q5",
@@ -89,7 +89,7 @@
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-easy-q7",
       "type": "mcq",
-      "question": "Find $dy/dx$2$y = u^4$ and $u = 3x - 1$.",
+      "question": "Find $dy/dx$. So $y = u^4$ and $u = 3x - 1$.",
       "options": [
         "12(3x - 1)³",
         "4(3x - 1)³",
@@ -110,7 +110,7 @@
         "x(x^2 + 1)⁴"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = x^2 + 1$. $dy/dx = 5u⁴ \\times (2x) = 10x(x^2 + 1)⁴$.\n\n**Common mistake:** Neglecting the $2x$2$x^2+1$."
+      "explanation": "Let $u = x^2 + 1$. $dy/dx = 5u⁴ \\times (2x) = 10x(x^2 + 1)⁴$.\n\n**Common mistake:** Neglecting the $2x$. $x^2+1$."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-easy-q9",
@@ -141,7 +141,7 @@
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-easy-q11",
       "type": "mcq",
-      "question": "Given that $y = uv$2$u$2$v$2$x$2$\\frac{dy}{dx}$ according to the product rule.",
+      "question": "Given that $y = uv$ and $u2v$ and $x2\\frac{dy}{dx}$ according to the product rule.",
       "options": [
         "$u \\frac{dv}{dx} + v \\frac{du}{dx}$",
         "$u \\frac{dv}{dx} - v \\frac{du}{dx}$",
@@ -195,7 +195,7 @@
       "type": "mcq",
       "question": "Differentiate $y = (x+1)\\sqrt{x}$ and find the value of $\\frac{dy}{dx}$ at $x=1$.",
       "options": [
-        "$2$",
+        "2",
         "$1$",
         "$1.5$",
         "$0.5$"
@@ -219,7 +219,7 @@
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-easy-q17",
       "type": "mcq",
-      "question": "Find $dy/dx$2$y = x / (x + 1)$.",
+      "question": "Find $dy/dx$. So $y = x / (x + 1)$.",
       "options": [
         "1 / (x + 1)$^2$",
         "-1 / (x + 1)$^2$",
@@ -232,7 +232,7 @@
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-easy-q18",
       "type": "mcq",
-      "question": "Given $y = (2x - 3) / x$2$dy/dx$ using the quotient rule.",
+      "question": "Given $y = (2x - 3) / x$. $dy/dx$ using the quotient rule.",
       "options": [
         "3 / x^2",
         "-3 / x^2",

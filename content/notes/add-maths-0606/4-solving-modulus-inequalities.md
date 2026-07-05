@@ -6,9 +6,13 @@ Modulus inequalities define specific numeric intervals where a function's absolu
 
 $$
 If ∣f(x)∣\le k (where k>0), then -k\le f(x)\le k
+$$
 
+$$
 If ∣f(x)∣\ge k (where k>0), then f(x)\le -korf(x)\ge k
+$$
 
+$$
 Alternative method: ∣f(x)∣<∣g(x)∣ \Rightarrow [f(x)]2<[g(x)]2
 $$
 
@@ -36,7 +40,7 @@ Remove the modulus: $-5 < x - 3 < 5$. Add 3 throughout: $-2 < x < 8$.
 
 Solve $|2x + 1| \ge 7$.
 
-Split: $2x + 1 \ge 7$ or $2x + 1 \le -7$. So $x \ge 3$ or $x \le -4$.
+Split: $2x + 1 \ge 7$ or $2x + 1 \le -7$ when 2 or $x \le -4$.
 
 ## Examiner tip
 

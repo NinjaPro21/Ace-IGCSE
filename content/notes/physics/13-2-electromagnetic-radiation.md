@@ -4,63 +4,35 @@ Electromagnetic (EM) waves transfer energy as they propagate, and the term radia
 
 ## Key definitions
 
-- **Radiation**: The energy transferred by electromagnetic waves.
+- **Radiation**: Energy transferred by electromagnetic waves.
+- **Ionising radiation**: High-energy radiation (X-rays, gamma rays) capable of knocking electrons off atoms to form ions.
+- **Intensity**: Power of the radiation per unit area.
 
-- **Ionising Radiation**: High-energy radiation (e.g., X-rays, gamma rays) capable of knocking electrons off atoms to form ions, which can damage living cells.
+## Uses of electromagnetic radiation
 
-- **Intensity**: A measure of the power of the radiation per unit area.
+| Region | Typical uses |
+| --- | --- |
+| Gamma rays | Sterilising equipment; cancer treatment; medical imaging |
+| X-rays | Medical scanning; airport security |
+| Ultraviolet | Sterilising water; security marking; detecting fake banknotes |
+| Visible light | Vision; illumination; photography |
+| Infrared | Heating; thermal imaging; TV remotes; optical fibres |
+| Microwaves | Cooking; satellite communication; mobile phones |
+| Radio waves | Broadcasting; radio telescopes; RFID tracking |
 
-Uses of Electromagnetic Radiation
+## Harmful effects
 
-Each region of the spectrum has specific applications based on its wavelength, frequency, and ability to penetrate materials.
-
-Region
-
-Typical Uses
-
-Gamma rays
-
-Sterilising food and medical equipment; treating cancer (destroying cells); medical imaging (gamma cameras).
-
-X-rays
-
-Medical scanning (penetrating soft tissue but blocked by bone); security scanners at airports to locate hidden weapons.
-
-Ultraviolet (UV)
-
-Sterilising water; invisible security marking; detecting fake banknotes.
-
-Visible light
-
-Human vision; illumination; photography.
-
-Infrared (IR)
-
-Heating (electric grills, heat lamps); thermal imaging; short-range communication (TV remotes); data transmission in optical fibres.
-
-Microwaves
-
-Cooking (microwave ovens); communication with artificial satellites; mobile (cell) phones.
-
-Radio waves
-
-Radio and television broadcasts; radio telescopes (astronomy); tracking items via RFID tags.
-
-Harmful Effects of EM Radiation
-
-Overexposure to various types of radiation can lead to biological damage, often linked to the energy level of the waves.
-
-- **Microwaves**: Can cause internal heating of body cells.
-
-- **Infrared**: Can lead to skin burns.
-
-- **Ultraviolet**: Can damage surface cells in the skin and eyes, leading to skin cancer, cataracts, or macular degeneration.
-
-- **X-rays**: High energy allows them to damage body cells and potentially cause cancer.
-
-- **Gamma rays**: Highly penetrative; they can harm or kill living cells. Humans must be shielded by materials like lead or thick concrete.
+- **Microwaves**: Internal heating of body cells.
+- **Infrared**: Skin burns.
+- **Ultraviolet**: Skin cancer; eye damage (cataracts).
+- **X-rays**: Cell damage; cancer risk.
+- **Gamma rays**: Highly penetrative; shield with lead or thick concrete.
 
 ## Graphs & diagrams
+
+**Electromagnetic spectrum**
+
+- Reference diagram showing all regions in order of increasing frequency.
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
       <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
@@ -72,3 +44,11 @@ Overexposure to various types of radiation can lead to biological damage, often 
       <text x="385" y="50" text-anchor="middle" font-size="8" fill="#334155">gamma</text>
       <text x="220" y="20" text-anchor="middle" font-size="11" fill="#334155">increasing frequency →</text>
     </svg><p class="enlight-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
+
+## Quick check
+
+Name one use of infrared radiation.
+
+Why must workers handling gamma sources be shielded?
+
+Which type of radiation is used in microwave ovens?

@@ -24,7 +24,7 @@
     {
       "id": "12-3-the-product-rule-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Find the $x$2$y = x^2\\sqrt{12 - x}$ for $x < 12$.",
+      "question": "Find the $x$. So $y = x^2\\sqrt{12 - x}$ for $x < 12$.",
       "options": [
         "$9.6$",
         "$8$",
@@ -50,7 +50,7 @@
     {
       "id": "12-3-the-product-rule-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "If $y = x^2 e^{3x}$, find the value of $x$2$\\frac{d^2y}{dx^2}$ is zero.",
+      "question": "If $y = x^2 e^{3x}$, find the value of $x$. $\\frac{d^2y}{dx^2}$ is zero.",
       "options": [
         "$x = -\\frac{2 \\pm \\sqrt{2}}{3}$",
         "$x = 0$ or $x = -\\frac{2}{3}$",
@@ -63,7 +63,7 @@
     {
       "id": "12-3-the-product-rule-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "Find the coordinates of the point on the curve $y = (x + 1)\\sqrt{x - 1}$ where the tangent is parallel to the line $y = x$.",
+      "question": "Find the coordinates of the point on the curve $y = (x + 1)\\sqrt{x - 1} where the tangent is parallel to the line y = x2$",
       "options": [
         "$(2, 3)$",
         "$(3, 4\\sqrt{2})$",
@@ -71,7 +71,7 @@
         "$(5, 12)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = (x+1)\\frac{1}{2\\sqrt{x-1}} + \\sqrt{x-1} = \\frac{x+1 + 2(x-1)}{2\\sqrt{x-1}} = \\frac{3x-1}{2\\sqrt{x-1}}$. Set $\\frac{3x-1}{2\\sqrt{x-1}} = 1 \\implies 3x-1 = 2\\sqrt{x-1} \\implies 9x^2-6x+1 = 4x-4 \\implies 9x^2-10x+5=0$. (No real roots). Let's use $y=2x$2$3x-1 = 4\\sqrt{x-1} \\implies 9x^2-6x+1 = 16x-16 \\implies 9x^2-22x+17=0$. Checking calculation... actually for $(2,3)$: $\\frac{dy}{dx} = \\frac{6-1}{2\\sqrt{1}} = 2.5$. Parallel to $y=2.5x$.\n\n**Common mistake:** This problem requires careful algebraic manipulation of irrational equations which often leads to discriminant errors."
+      "explanation": "$\\frac{dy}{dx} = (x+1)\\frac{1}{2\\sqrt{x-1}} + \\sqrt{x-1} = \\frac{x+1 + 2(x-1)}{2\\sqrt{x-1}} = \\frac{3x-1}{2\\sqrt{x-1}}$. Set $\\frac{3x-1}{2\\sqrt{x-1}} = 1 \\implies 3x-1 = 2\\sqrt{x-1} \\implies 9x^2-6x+1 = 4x-4 \\implies 9x^2-10x+5=0$. (No real roots). Let's use $y=2x$. $3x-1 = 4\\sqrt{x-1} \\implies 9x^2-6x+1 = 16x-16 \\implies 9x^2-22x+17=0$. Checking calculation... actually for $(2,3)$: $\\frac{dy}{dx} = \\frac{6-1}{2\\sqrt{1}} = 2.5$. Parallel to $y=2.5x$.\n\n**Common mistake:** This problem requires careful algebraic manipulation of irrational equations which often leads to discriminant errors."
     }
   ]
 }

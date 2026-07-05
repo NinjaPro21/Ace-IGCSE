@@ -1,30 +1,60 @@
 ## Core idea
 
-2$^2.1 The Sun as a Star
-
 The Sun is more than just a bright light in the sky; it is a massive nuclear reactor that powers our entire Solar System. By studying the Sun as an average star, we gain insight into the fundamental physics of the Universe, including how matter is converted into energy through nuclear fusion. Understanding these processes is essential for grasping the life cycle of stars and the origins of the chemical elements that make up our world.
 
 ## Key definitions
 
 - **Star**: A massive ball of gas that produces energy by nuclear fusion.
 - **Nuclear Fusion**: A process in which two light atomic nuclei combine to form one heavier atomic nucleus, releasing a huge amount of energy (SI unit: joule, J).
-- **Light-year**: The distance that light travels in one year in the vacuum of space, equal to $9.5 \times $10^{15}$\ m$ (SI unit: metre, m).
+- **Light-year**: The distance that light travels in one year in the vacuum of space, equal to $9.5 \times 10^{15}$ m (SI unit: metre, m).
 - **Hydrogen**: The primary fuel in the Sun that undergoes fusion to produce energy.
 - **Helium**: The product of hydrogen fusion in a stable star.
 
 ## Key formulas
 
-Mass-Energy Equivalence: Governs the conversion of mass into energy during fusion. 
-E = mc^2Applies when nuclei fuse and the resulting mass is less than the initial mass.
+**Mass–Energy Equivalence**
 
-Time for Light Travel:
-$$t = \frac{s}{v}$ Applies to calculating the time taken for sunlight or signals to travel across space (wherev = c \approx 3 \times 10^8\ m/s$ in a vacuum).
+Governs the conversion of mass into energy during fusion.
+
+$$
+E = mc^2
+$$
+
+Applies when nuclei fuse and the resulting mass is less than the initial mass.
+
+**Time for Light Travel**
+
+$$
+t = \frac{s}{v}
+$$
+
+Applies to calculating the time taken for sunlight or signals to travel across space (where $v = c \approx 3 \times 10^{8}$ m/s in a vacuum).
 
 ## Graphs & diagrams
 
 - **Forces in a Stable Star**: A diagram of the Sun showing two opposing arrows: an inward arrow representing the force of gravity and an outward arrow representing the pressure from high temperatures produced by nuclear fusion.
 - **Electromagnetic Output**: A chart representing the regions of the EM spectrum, highlighting that the Sun radiates most of its energy in the infrared, visible, and ultraviolet regions.
 - **Scale Comparison**: A visual showing the Sun as the largest object in the Solar System, noted as being large enough to fit over a million Earths inside.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Forces in a stable star">
+      <circle cx="200" cy="100" r="55" fill="#fef08a" stroke="#f59e0b" stroke-width="2"/>
+      <text x="200" y="96" text-anchor="middle" font-size="11" fill="#854d0e" font-weight="600">Sun</text>
+      <text x="200" y="112" text-anchor="middle" font-size="8" fill="#854d0e">H → He fusion</text>
+      <line x1="200" y1="38" x2="200" y2="10" stroke="#dc2626" stroke-width="2.5" marker-end="url(#sun-out)"/>
+      <line x1="200" y1="162" x2="200" y2="190" stroke="#dc2626" stroke-width="2.5" marker-end="url(#sun-out)"/>
+      <line x1="138" y1="100" x2="110" y2="100" stroke="#dc2626" stroke-width="2.5" marker-end="url(#sun-out)"/>
+      <line x1="262" y1="100" x2="290" y2="100" stroke="#dc2626" stroke-width="2.5" marker-end="url(#sun-out)"/>
+      <text x="200" y="8" text-anchor="middle" font-size="9" fill="#dc2626">radiation pressure</text>
+      <line x1="200" y1="45" x2="200" y2="72" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sun-in)"/>
+      <line x1="200" y1="155" x2="200" y2="128" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sun-in)"/>
+      <line x1="145" y1="100" x2="172" y2="100" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sun-in)"/>
+      <line x1="255" y1="100" x2="228" y2="100" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sun-in)"/>
+      <text x="200" y="198" text-anchor="middle" font-size="9" fill="#2563eb">gravity (inward)</text>
+      <defs>
+        <marker id="sun-out" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
+        <marker id="sun-in" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+      </defs>
+    </svg><p class="enlight-physics-diagram__caption">Stable star — inward gravitational force is balanced by outward pressure from nuclear fusion.</p></div>
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
       <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
@@ -77,18 +107,21 @@ In a stable star, what outward force balances the inward pull of gravity?
 
 Question: The Sun is 150 million kilometres from the Earth. Calculate how long it takes light from the Sun to reach Earth in minutes and seconds. (Speed of light $c = 3 \times 10^{8}\ m/s$).
 
-Convert distance to SI units (metres): $150000000\ km = 1.5 \times$
-$10^{11}$
-
-\ m 2
-
-Apply the formula:
-$t = \frac{1.5 \times = 10^{11}$
-$\ m}{3 \times
+Convert distance to SI units (metres):
 
 $$
-10^{8}
-$$\ m/s}$Calculate seconds:t = 500\ s. Convert to minutes:$500\ s = 8$minutes and 2seconds$.
+150\,000\,000\ \text{km} = 1.5 \times 10^{11}\ \text{m}
+$$
+
+Apply the formula:
+
+$$
+t = \frac{1.5 \times 10^{11}}{3 \times 10^{8}} = 500\ \text{s}
+$$
+
+Convert to minutes: 500 s = 8 minutes and 20 seconds.
+
+**Final answer:** 8 minutes 20 seconds.
 
 ## Worked example — Energy from Fusion
 
@@ -100,6 +133,8 @@ Identify the reactants: Hydrogen nuclei fuse together to form helium nuclei.
 
 Mass change: The total mass of the helium nucleus and any products is smaller than the total mass of the original hydrogen nuclei.
 
-Energy conversion: The reduced mass is converted directly into a huge amount of energy. ### Trap
+Energy conversion: The reduced mass is converted directly into a huge amount of energy.
+
+### Trap
 
 Students often mistake "fission" (splitting) for "fusion" (joining). The trap is that stars are powered by fusion, not fission.

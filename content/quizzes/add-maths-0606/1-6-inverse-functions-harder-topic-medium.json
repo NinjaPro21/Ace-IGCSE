@@ -11,20 +11,20 @@
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "The function f is defined as f(x)= \\frac{x+7}{7x-3} for x \\neq 3. Find the expression for $f^{-1}$(x).",
+      "question": "The function f is defined as f(x)= \\frac{x+7}{7x-3} for x \\neq 3. Find the expression for $f^{-1}(x).$",
       "options": [
-        "$f^{-1}$(x)= \\frac{3x+7}{7x-1}",
-        "$f^{-1}$(x)= \\frac{x-3}{3x+7}",
-        "$f^{-1}$(x)= \\frac{7x+1}{3x-1}",
-        "$f^{-1}$(x)= \\frac{3x-}{7x+1}"
+        "$f^{-1}(x)= \\frac{3x+7}{7x-1}$",
+        "$f^{-1}(x)= \\frac{x-3}{3x+7}$",
+        "$f^{-1}(x)= \\frac{7x+1}{3x-1}$",
+        "$f^{-1}(x)= \\frac{3x-}{7x+1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let x=(y+7)/(y−3) \\implies x(y−3)=y+7 \\implies xy−3x=y+7 \\implies y(x−1)=3x+7 \\implies y=(3x+7)/(x−1).\n\n**Common mistake:** Algebraic errors in grouping the y terms together, specifically failing to factorize y out of (xy−y) correctly."
+      "explanation": "Let x=(y+7)/(y-3) \\implies x(y-3)=y+7 \\implies xy-3x=y+7 \\implies y(x-1)=3x+7 \\implies y=(3x+7)/(x-1).\n\n**Common mistake:** Algebraic errors in grouping the y terms together, specifically failing to factorize y out of (xy-y) correctly."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Given f(x)=2x+k and $f^{-1}$(11)=3, determine the value of the constant k.",
+      "question": "Given f(x)=2x+k and $f^{-1}(11)=3, determine the value of the constant k.$",
       "options": [
         "5",
         "17",
@@ -32,12 +32,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "If $f^{-1}$(11)=3, then f(3)=11. Substituting into f(x): 2(3)+k=11 \\implies 6+k=11 \\implies k=5.\n\n**Common mistake:** Students may mistakenly solve f(11)=3, leading to 2(11)+k=3 and k=−19."
+      "explanation": "If $f^{-1}(11)=3, then f(3)=11. Substituting into f(x): 2(3)+k=11 \\implies 6+k=11 \\implies k=5.\n\n**Common mistake:** Students may mistakenly solve f(11)=3, leading to 2(11)+k=3 and k=-19."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Find the range of the inverse function $f^{-1}$if the original function f(x)=3x−5 has the domain 2≤x≤8.",
+      "question": "Find the range of the inverse function $f^{-1}$if the original function f(x)=3x-5 has the domain 2≤x≤8.",
       "options": [
         "2≤y≤8",
         "1≤y≤19",
@@ -45,33 +45,33 @@
         "y∈R"
       ],
       "correctIndex": 0,
-      "explanation": "The range of the inverse function $f^{-1}$is precisely equal to the domain of the original function f. Thus, the range is 2≤y≤8.\n\n**Common mistake:** Calculating the range of f (which is 1≤y≤19) and assigning that as the range of $f^{-1}$, forgetting that roles swap."
+      "explanation": "The range of the inverse function $f^{-1}$ is precisely equal to the domain of the original function f. Thus, the range is 2≤y≤8.\n\n**Common mistake:** Calculating the range of f (which is 1≤y≤19) and assigning that as the range of $f^{-1}$, forgetting that roles swap."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "Find $f^{-1}$(x) for the function f(x)=\\sqrt2x−6+1 where x≥3.",
+      "question": "Find $f^{-1}(x) for the function f(x)=\\sqrt2x-6+1 where x≥3.",
       "options": [
         "$f^{-1}(x)=\\frac{(x-1)^{2}+6}{2}$",
         "$f^{-1}(x)=\\frac{(x+1)^{2}-6}{2}$",
-        "$f^{-1}$(x)= (x-1)^{2}+3",
+        "$f^{-1}(x)= (x-1)^{2}+3$",
         "$f^{-1}(x)=\\frac{(x-1)^{2}+6}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let x=\\sqrt2y−6+1 \\implies x−1=\\sqrt2y−6 \\implies $(x-1)^{2}$=2y−6 \\implies 2y= (x-1)^{2}+6. Dividing by 2 gives y=($(x-1)^{2}$+6)/2.\n\n**Common mistake:** Failing to subtract the 1 before squaring both sides, which is a fundamental error in reversing operations."
+      "explanation": "Let x=\\sqrt2y-6+1 \\implies x-1=\\sqrt2y-6 \\implies $(x-1)^{2}$=2y-6 \\implies 2y= (x-1)^{2}+6. Dividing by 2 gives y=($(x-1)^{2}$+6)/2.\n\n**Common mistake:** Failing to subtract the 1 before squaring both sides, which is a fundamental error in reversing operations."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Solve the equation $f^{-1}$(x)=5 for the function f(x)= x^{2}−4 with domain x≥0.",
+      "question": "Solve the equation $f^{-1}(x)=5 for the function f(x)= x^{2}-4 with domain x≥0.",
       "options": [
         "21",
         "3",
-        "\\sqrt{9}",
+        "$$\n\\sqrt{9}\n",
         "25"
       ],
       "correctIndex": 0,
-      "explanation": "If $f^{-1}$(x)=5, then x=f(5). Calculating f(5)= 5^{2}−4=21.\n\n**Common mistake:** Trying to derive the inverse function expression first and making an algebraic error, or mistakenly calculating $f^{-1}$(5)."
+      "explanation": "If $f^{-1}(x)=5$, then $x=f(5)$. Calculating $f(5)=5^2-4=21$.\n\n**Common mistake:** Trying to derive the inverse function expression first and making an algebraic error, or mistakenly calculating $f^{-1}(5)$."
     }
   ]
 }

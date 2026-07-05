@@ -24,7 +24,7 @@
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-easy-q2",
       "type": "mcq",
-      "question": "For the function f(x)=−2$(x+3)^{2}$−9, what is the y-coordinate of the vertex?",
+      "question": "For the function f(x)=-2$(x+3)^{2}$-9, what is the y-coordinate of the vertex?",
       "options": [
         "-9",
         "-3",
@@ -32,7 +32,7 @@
         "9"
       ],
       "correctIndex": 0,
-      "explanation": "When a quadratic is in the form a$(x-h)^{2}$+k, the vertex is (h,k). Here, k=−9.\n\n**Common mistake:** A common error is picking the x-coordinate of the vertex (-3) or forgetting the negative sign associated with the constant k."
+      "explanation": "When a quadratic is in the form a$(x-h)^{2}$+k, the vertex is (h,k). Here, k=-9.\n\n**Common mistake:** A common error is picking the x-coordinate of the vertex (-3) or forgetting the negative sign associated with the constant k."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-easy-q3",
@@ -50,7 +50,7 @@
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-easy-q4",
       "type": "mcq",
-      "question": "Find the y-intercept of the quadratic function y=2$(x-1)^{2}$−5.",
+      "question": "Find the y-intercept of the quadratic function y=2$(x-1)^{2}$-5.",
       "options": [
         "-3",
         "-5",
@@ -58,12 +58,12 @@
         "-1"
       ],
       "correctIndex": 0,
-      "explanation": "Set x=0 to find the y-intercept: y=2$(0-1)^{2}$−5=2(1)−5=−3.\n\n**Common mistake:** Mistakenly assuming the constant k (-5) is the y-intercept without evaluating the expression at x=0."
+      "explanation": "Set x=0 to find the y-intercept: y=2$(0-1)^{2}$-5=2(1)-5=-3.\n\n**Common mistake:** Mistakenly assuming the constant k (-5) is the y-intercept without evaluating the expression at x=0."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-easy-q5",
       "type": "mcq",
-      "question": "Identify the coordinates of the vertex for the function f(x)=−$(x-1)^{2}$.",
+      "question": "Identify the coordinates of the vertex for the function f(x)=-$(x-1)^{2}$.",
       "options": [
         "(1, 0)",
         "(-1, 0)",

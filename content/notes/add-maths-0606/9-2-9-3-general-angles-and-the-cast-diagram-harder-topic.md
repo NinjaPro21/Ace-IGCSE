@@ -19,8 +19,11 @@ $\sin\theta = \pm\sin\alpha$, $\cos\theta = \pm\cos\alpha$, $\tan\theta = \pm\ta
 ## Steps / method
 
 1. **Sketch** the angle and identify its quadrant.
+
 2. **Find** the reference angle $\alpha$ measured from the x-axis.
+
 3. **Use CAST** to determine the sign of the required ratio.
+
 4. **Evaluate** using exact values for $\alpha$ ($30°$, $45°$, $60°$).
 
 ### Key rule
@@ -39,9 +42,7 @@ In Q4 only cos is positive, so $\sin 300° = -\sin 60° = -\frac{\sqrt{3}}{2}$.
 
 Question: Find all $\theta$ for $0° \le \theta \le 360°$ given $\tan\theta = -1$.
 
-Basic angle: $\alpha = \tan^{-1}(1) = 45°$. Tan is negative in Q2 and Q4.
-
-$\theta = 180° - 45° = 135°$ or $\theta = 360° - 45° = 315°$.
+Basic angle: $\alpha = \tan^{-1}(1) = 45°. Tan is negative in Q2 and Q4$. $2\theta = 180° - 45° = 135°$ or $\theta = 360° - 45° = 315°$.
 
 ## Examiner tip
 

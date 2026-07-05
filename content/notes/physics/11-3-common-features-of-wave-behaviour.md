@@ -4,69 +4,100 @@ Waves exhibit several predictable behaviours when they encounter barriers, bound
 
 ## Key definitions
 
-- **Reflection**: The process where waves bounce off a surface without changing their shape.
-- **Refraction**: The bending of waves as they pass from one medium to another, usually accompanied by a change in speed and wavelength.
-- **Diffraction**: The spreading out of waves as they encounter gaps or edges.
-- **Normal**: An imaginary line drawn at 90^\circto a surface at the point where a wave strikes it.
-Wave Behaviours
-Reflection
-When plane wavefronts hit a straight barrier, they undergo reflection.
-- **Angle Relationship**: The waves reflect such that the angle of incidence ($i$) is equal to the angle of reflection ($r$).
-- **Wavelength**: The distance between wavefronts (wavelength) remains the same before and after reflection.
-Refraction
-Refraction occurs when waves cross a boundary between different media, such as moving from deep water to shallow water.
-- **Speed and Wavelength**: Waves travel faster in deep water and slower in shallow water. Because the frequency remains constant, the wavelength decreases in shallow water, meaning the wavefronts become closer together.
-- **Bending**: If the waves hit the boundary at an angle, they change direction. If they hit the boundary along the normal ($i=0$), no bending occurs, though the speed still changes.
-Diffraction
-Diffraction is the spreading of waves after they pass through an opening (gap) or past a corner (edge).
-- **Diffraction through Gaps**: - **Narrow Gap**: When the wavelength is longer than or equal to the gap size, the waves spread out significantly, often forming semi-circular wavefronts.
-- **Wide Gap**: When the gap is wider than the wavelength, the waves spread out less, and the wavefronts remain mostly straight except at the edges.
-- **Diffraction at an Edge**: Waves curve around and spread behind a barrier. The longer the wavelength, the greater the curvature and spreading effect.
+- **Reflection**: Waves bounce off a surface without changing their shape.
+- **Refraction**: Waves bend as they pass from one medium to another, usually with a change in speed and wavelength.
+- **Diffraction**: Waves spread out when they encounter gaps or edges.
+- **Normal**: An imaginary line at $90^\circ$ to a surface at the point where a wave strikes it.
+
+## Reflection
+
+When plane wavefronts hit a straight barrier, they reflect.
+
+- **Angle relationship**: Angle of incidence ($i$) equals angle of reflection ($r$).
+- **Wavelength**: Unchanged before and after reflection (same medium and speed).
+
+## Refraction
+
+Refraction occurs when waves cross a boundary between different media (e.g. deep water to shallow water).
+
+- **Speed and wavelength**: Waves travel faster in deep water, slower in shallow water. Frequency stays constant, so wavelength decreases in shallow water.
+- **Bending**: Waves change direction when they hit the boundary at an angle. Along the normal ($i = 0$), no bending occurs though speed still changes.
+
+## Diffraction
+
+Diffraction is the spreading of waves after passing through an opening or past an edge.
+
+- **Narrow gap**: When wavelength $\geq$ gap size, waves spread out significantly (semi-circular wavefronts).
+- **Wide gap**: When gap $>$ wavelength, wavefronts stay mostly straight except at the edges.
+- **Edge diffraction**: Waves curve around a barrier; longer wavelength → greater spreading.
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Wave displacement graph">
-      <line x1="30" y1="80" x2="390" y2="80" stroke="#94a3b8" stroke-dasharray="4 3"/>
-      <path d="M40 80 Q70 30 100 80 T160 80 T220 80 T280 80 T340 80 T400 80" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-      <line x1="100" y1="80" x2="100" y2="30" stroke="#dc2626" stroke-width="1.5"/>
-      <line x1="100" y1="30" x2="220" y2="30" stroke="#16a34a" stroke-width="1.5"/>
-      <text x="160" y="22" text-anchor="middle" font-size="11" fill="#16a34a">λ</text>
-      <text x="108" y="55" font-size="11" fill="#dc2626">A</text>
-    </svg><p class="enlight-physics-diagram__caption">Displacement–distance graph — wavelength λ is peak-to-peak distance; amplitude A is maximum displacement.</p></div>
+**Reflection in a ripple tank**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Reflection of light">
-      <line x1="40" y1="120" x2="280" y2="120" stroke="#64748b" stroke-width="2"/>
-      <line x1="160" y1="120" x2="160" y2="30" stroke="#94a3b8" stroke-dasharray="4 3"/>
-      <line x1="160" y1="120" x2="100" y2="50" stroke="#f59e0b" stroke-width="2.5"/>
-      <line x1="160" y1="120" x2="220" y2="50" stroke="#2563eb" stroke-width="2.5"/>
-      <text x="115" y="75" font-size="11" fill="#f59e0b">i</text>
-      <text x="205" y="75" font-size="11" fill="#2563eb">r</text>
-      <text x="165" y="25" font-size="10" fill="#64748b">normal</text>
-    </svg><p class="enlight-physics-diagram__caption">Law of reflection — angle of incidence i equals angle of reflection r (measured from the normal).</p></div>
+- Plane wavefronts bounce off a straight barrier with $i = r$.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Wave reflection in ripple tank">
+      <rect x="0" y="0" width="420" height="220" fill="#eff6ff"/>
+      <line x1="300" y1="30" x2="300" y2="190" stroke="#64748b" stroke-width="4"/>
+      <text x="310" y="115" font-size="11" fill="#64748b" font-weight="600">barrier</text>
+      <path d="M40 80 H260" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M40 100 H260" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M40 120 H260" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M40 140 H260" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M340 60 L300 100" stroke="#f59e0b" stroke-width="2.5"/>
+      <path d="M340 80 L300 120" stroke="#f59e0b" stroke-width="2.5"/>
+      <path d="M340 100 L300 140" stroke="#f59e0b" stroke-width="2.5"/>
+      <path d="M340 120 L300 160" stroke="#f59e0b" stroke-width="2.5"/>
+      <line x1="300" y1="100" x2="300" y2="40" stroke="#94a3b8" stroke-dasharray="4 3"/>
+      <text x="250" y="55" font-size="11" fill="#2563eb" font-weight="600">incident</text>
+      <text x="350" y="55" font-size="11" fill="#f59e0b" font-weight="600">reflected</text>
+      <text x="305" y="38" font-size="10" fill="#64748b">normal</text>
+    </svg><p class="enlight-physics-diagram__caption">Reflection in a ripple tank — plane wavefronts bounce off a straight barrier with $i = r$.</p></div>
+
+**Refraction in a ripple tank**
+
+- Waves slow in shallow water; wavelength decreases and wavefronts bend at the boundary.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Wave refraction in ripple tank">
+      <rect x="0" y="0" width="210" height="220" fill="#bfdbfe"/>
+      <rect x="210" y="0" width="210" height="220" fill="#dbeafe"/>
+      <text x="105" y="24" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="600">deep (faster)</text>
+      <text x="315" y="24" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="600">shallow (slower)</text>
+      <line x1="210" y1="30" x2="210" y2="190" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+      <path d="M30 70 H190" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M30 100 H190" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M30 130 H190" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M30 160 H190" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M230 75 H370" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M245 100 H370" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M260 125 H370" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M275 150 H370" stroke="#2563eb" stroke-width="2.5"/>
+      <path d="M190 70 Q205 72 230 75" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+      <path d="M190 100 Q205 100 245 100" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+      <path d="M190 130 Q205 128 260 125" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+      <path d="M190 160 Q205 155 275 150" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+      <text x="300" y="200" text-anchor="middle" font-size="10" fill="#475569">shorter λ in shallow water</text>
+    </svg><p class="enlight-physics-diagram__caption">Refraction in a ripple tank — waves slow in shallow water; wavelength decreases and wavefronts bend.</p></div>
 
 ## Steps / method
 
-Method for using a ripple tank to show wave behaviour:
+Method for using a ripple tank:
 
-Reflection: Place a straight barrier in the tank. Send plane waves toward it and observe that the wavelength is unchanged while the direction of travel changes according to $i = r$.
-
-Refraction: Place a translucent plate in the tank to create a shallow region. Observe the wavefronts becoming closer together and the path of the wave bending as it enters the shallow area at an angle.
-
-Diffraction: Use two barriers to create a gap. Vary the width of the gap or the frequency of the waves (to change wavelength) to observe how the degree of spreading changes.
+1. **Reflection**: Place a straight barrier. Send plane waves toward it — wavelength unchanged, direction changes with $i = r$.
+2. **Refraction**: Use a shallow plate. Observe wavefronts becoming closer and the path bending at an angle.
+3. **Diffraction**: Create a gap with two barriers. Vary gap width or frequency to see how spreading changes.
 
 ## Common mistakes
 
-Wavelength in Reflection: Thinking the wavelength changes when a wave reflects. It stays constant because the medium and speed do not change.
-
-Frequency in Refraction: Assuming frequency changes during refraction. Frequency is determined by the source and stays constant; only speed and wavelength change.
-
-Diffraction Requirements: Forgetting that diffraction is most noticeable when the gap size is similar to or smaller than the wavelength.
+- **Wavelength in reflection**: Wavelength does not change on reflection.
+- **Frequency in refraction**: Frequency is set by the source and stays constant; only speed and wavelength change.
+- **Diffraction**: Most noticeable when gap size is similar to or smaller than the wavelength.
 
 ## Examiner tip
 
-Wavefront Diagrams: Always ensure your wavefronts are drawn at 90^\circto the direction of wave propagation.
-
-TV vs. Radio: Be prepared to explain why radio signals (long wavelength) are easier to receive behind hills than TV signals (short wavelength) due to their superior ability to diffract.
+- Draw wavefronts at $90^\circ$ to the direction of propagation.
+- Radio waves (long $\lambda$) diffract around hills better than TV signals (short $\lambda$).
 
 ## Quick check
 
@@ -74,4 +105,4 @@ How does the wavelength of a water wave change when it moves from deep to shallo
 
 Under what condition is diffraction through a gap most significant?
 
-If the angle of incidence for a reflecting wave is 30^\circ, what is the angle of reflection?
+If the angle of incidence is $30^\circ$, what is the angle of reflection?

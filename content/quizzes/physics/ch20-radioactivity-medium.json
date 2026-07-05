@@ -11,7 +11,7 @@
     {
       "id": "ch20-radioactivity-medium-q1",
       "type": "mcq",
-      "question": "A student turns on a radiation detector for $20\\text{ minutes}$ with no source present. The counter shows a total of $420$ counts. Calculate the background radiation rate.",
+      "question": "A student turns on a radiation detector for $20\\text{ minutes}$ with no source present. The counter shows a total of^420 counts. Calculate the background radiation rate.",
       "options": [
         "$21\\text{ counts/min}$",
         "$420\\text{ counts/min}$",
@@ -37,7 +37,7 @@
     {
       "id": "ch20-radioactivity-medium-q3",
       "type": "mcq",
-      "question": "A student records three separate one-minute measurements for background radiation: $18$, $22$, and $20$. What is the average background count rate?",
+      "question": "A student records three separate one-minute measurements for background radiation: $18$, $22$, and^20. What is the average background count rate?",
       "options": [
         "$20\\text{ counts/min}$",
         "$18\\text{ counts/min}$",
@@ -58,7 +58,7 @@
         "$1.5\\text{ counts/min}$"
       ],
       "correctIndex": 0,
-      "explanation": "Since there are $60$ seconds in a minute, $0.5\\text{ counts/s} \\times 60\\text{ s} = 30\\text{ counts/min}$. \n\n**Common mistake:** Dividing the rate by $60$ instead of multiplying."
+      "explanation": "Since there are^60 seconds in a minute, $0.5\\text{ counts/s} \\times 60\\text{ s} = 30\\text{ counts/min}$. \n\n**Common mistake:** Dividing the rate by^60 instead of multiplying."
     },
     {
       "id": "ch20-radioactivity-medium-q5",
@@ -154,7 +154,7 @@
     {
       "id": "ch20-radioactivity-medium-q12",
       "type": "mcq",
-      "question": "The isotope $^{137}{55}Cs$ decays by emitting a beta ($beta$) particle. What is the composition of the new nucleus formed?",
+      "question": "The isotope $^{137}{55}Cs  decays by emitting a beta (beta$) particle. What is the composition of the new nucleus formed?",
       "options": [
         "137 nucleons and 56 protons",
         "137 nucleons and 54 protons",
@@ -188,7 +188,7 @@
         "$alpha$ decay loses 2 neutrons; $beta$ decay remains unchanged."
       ],
       "correctIndex": 0,
-      "explanation": "$alpha$ is $^4_2He$ (2p, 2n), so the nucleus loses 2 neutrons. In $beta$-decay, a neutron turns into a proton, so the number of neutrons decreases by 1. \n\n**Common mistake:** Thinking $beta$-decay doesn't change the number of neutrons because $A$ is constant."
+      "explanation": "$alpha$ is $^4_2He  (2p, 2n), so the nucleus loses 2 neutrons. In beta$-decay, a neutron turns into a proton, so the number of neutrons decreases by 1. \n\n**Common mistake:** Thinking $beta$-decay doesn't change the number of neutrons because $A$ is constant."
     },
     {
       "id": "ch20-radioactivity-medium-q15",
@@ -240,7 +240,7 @@
         "$240\\text{ hours}$"
       ],
       "correctIndex": 0,
-      "explanation": "The count rate halves from $480$ to $240$ in the first $2\\text{ hours}$, and from $240$ to $120$ in the next $2\\text{ hours}$. The interval is consistently $2\\text{ hours}$.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "The count rate halves from^480 to^240 in the first $2\\text{ hours}$, and from^240 to^120 in the next $2\\text{ hours}$. The interval is consistently $2\\text{ hours}$.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch20-radioactivity-medium-q19",
@@ -258,7 +258,7 @@
     {
       "id": "ch20-radioactivity-medium-q20",
       "type": "mcq",
-      "question": "A radioactive sample has a half-life of $1\\text{ day}$. After $3\\text{ days}$, what $\\frac{tion}{}$ of the original radioactive nuclei remains?",
+      "question": "A radioactive sample has a half-life of $1\\text{ day}$. After $3\\text{ days}$, what $fraction$ of the original radioactive nuclei remains?",
       "options": [
         "$1/8$",
         "$1/3$",
@@ -266,7 +266,7 @@
         "$1/6$"
       ],
       "correctIndex": 0,
-      "explanation": "After 1 day: $1/2$. After 2 days: $1/4$. After 3 days: $1/8$. This follows the rule $(1/2)^n$ where $n$ is the number of half-lives.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "After 1 day: $1/2$. After 2 days: $1/4$. After 3 days: $1/8$. This follows the rule $(1/2)^n where n$ is the number of half-lives.$$\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch20-radioactivity-medium-q21",

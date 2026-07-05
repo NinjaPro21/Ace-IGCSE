@@ -11,7 +11,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q1",
       "type": "mcq",
-      "question": "Given $y = \\sqrt{x}$, use calculus to find the approximate change in $y$2$x$ increases from 100 to 101.",
+      "question": "Given $y = \\sqrt{x}$, use calculus to find the approximate change in $y$ and $x$ increases from 100 to 101.",
       "options": [
         "0.05",
         "0.5",
@@ -24,7 +24,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q2",
       "type": "mcq",
-      "question": "The volume of a cube is $V = x^3$. Find the approximate percentage increase in $V$2$x$ increases by 1%.",
+      "question": "The volume of a cube is $V = x^3$. Find the approximate percentage increase in $V$ and $x$ increases by 1%.",
       "options": [
         "3%",
         "1%",
@@ -37,7 +37,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q3",
       "type": "mcq",
-      "question": "If $y = 1/x$2$y$2$x$ increases from 2 to 2.04.",
+      "question": "If $y = 1/x$ and $y2x$ increases from 2 to 2.04.",
       "options": [
         "-0.01",
         "0.01",
@@ -45,12 +45,12 @@
         "-0.25"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = -1/x^2. At x=2, $\\frac{dy}{dx}$ = -1/4 = -0.25. δx = 0.04. δy ≈ -0.25(0.04) = -0.01.\n\n**Common mistake:** Missing the negative sign, which indicates that $y$2$x$ increases for this function."
+      "explanation": "$\\frac{dy}{dx}$ = -1/x^2. At x=2, $\\frac{dy}{dx}$ = -1/4 = -0.25. δx = 0.04. δy ≈ -0.25(0.04) = -0.01.\n\n**Common mistake:** Missing the negative sign, which indicates that $y$ and $x$ increases for this function."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q4",
       "type": "mcq",
-      "question": "Given $y = x^2 + 4x$2$y$2$x$2$3+p$2$p$ is small.",
+      "question": "Given $y = x^2 + 4x$ and $y2x$. $3+p2p$ is small.",
       "options": [
         "10p",
         "6p",
@@ -76,15 +76,15 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q6",
       "type": "mcq",
-      "question": "The area of a circular ink blot is increasing at a rate of $16\\pi$2$^2$/s. Find the rate at which the radius is increasing when the area is $64\\pi$2$^2$.",
+      "question": "The area of a circular ink blot is increasing at a rate of $16\\pi . ^2$/s. Find the rate at which the radius is increasing when the area is $64\\pi . ^2$.",
       "options": [
         "$1$ cm/s",
-        "$2$ cm/s",
+        "2 cm/s",
         "$0.5$ cm/s",
         "$4$ cm/s"
       ],
       "correctIndex": 0,
-      "explanation": "$A = 64\\pi \\implies r = 8$. $\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt} \\implies 16\\pi = 2\\pi(8) \\times \\frac{dr}{dt} \\implies 16\\pi = 16\\pi \\times \\frac{dr}{dt} \\implies \\frac{dr}{dt} = 1$.\n\n**Common mistake:** Option B occurs if the student uses the area ($64\\pi$2$8$)."
+      "explanation": "$A = 64\\pi \\implies r = 8$. $\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt} \\implies 16\\pi = 2\\pi(8) \\times \\frac{dr}{dt} \\implies 16\\pi = 16\\pi \\times \\frac{dr}{dt} \\implies \\frac{dr}{dt} = 1$.\n\n**Common mistake:** Option B occurs if the student uses the area ($64\\pi^2 8$)."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q7",
@@ -102,7 +102,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q8",
       "type": "mcq",
-      "question": "A curve has the equation $y = 2x^2 - 3x$2$y$2$x = 5$, given that $x$2$0.2$ units per second.",
+      "question": "A curve has the equation $y = 2x^2 - 3x$ and $y2x = 5$, given that $x$. $0.2$ units per second.",
       "options": [
         "$3.4$ units/s",
         "$17$ units/s",
@@ -115,7 +115,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q9",
       "type": "mcq",
-      "question": "The volume of a cube is increasing at a rate of^30 cm³/s. Find the rate of increase of the side length when the side length is^5 cm.",
+      "question": "The volume of a cube is increasing at a rate of^30 cm³/s. Find the rate of increase of the side length when the side length is $1$ cm.",
       "options": [
         "$0.4$ cm/s",
         "$1.2$ cm/s",
@@ -128,7 +128,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--medium-q10",
       "type": "mcq",
-      "question": "If $y = \\frac{12}{x}$ and $\\frac{dy}{dt} = -3$ units/s, find the rate of change of $x$2$x = 2$.",
+      "question": "If $y = \\frac{12}{x}$ and $\\frac{dy}{dt} = -3$ units/s, find the rate of change of $x$. So $x = 2$.",
       "options": [
         "$1$ unit/s",
         "$-1$ unit/s",
@@ -136,7 +136,7 @@
         "$3$ units/s"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = -\\frac{12}{x^2}$. At $x = 2$, $\\frac{dy}{dx} = -3$. Since $\\frac{dy}{dt} = \\frac{dy}{dx} \\times \\frac{dx}{dt}$, we have $-3 = -3 \\times \\frac{dx}{dt} \\implies \\frac{dx}{dt} = 1$.\n\n**Common mistake:** Option B is a sign error where the student concludes $x$2$y$ is decreasing."
+      "explanation": "$\\frac{dy}{dx} = -\\frac{12}{x^2}$. At $x = 2$, $\\frac{dy}{dx} = -3$. Since $\\frac{dy}{dt} = \\frac{dy}{dx} \\times \\frac{dx}{dt}$, we have $-3 = -3 \\times \\frac{dx}{dt} \\implies \\frac{dx}{dt} = 1$.\n\n**Common mistake:** Option B is a sign error where the student concludes $x$ and $y$ is decreasing."
     }
   ]
 }

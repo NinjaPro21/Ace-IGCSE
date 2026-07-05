@@ -11,7 +11,7 @@
     {
       "id": "2-1-substitution-pyp-q1",
       "type": "mcq",
-      "question": "Find the value of $P$2$P = \\frac{W}{g} + m$2$W = 60$, $g = 5$, and $m = -4$.",
+      "question": "Find the value of $P$. So $P = \\frac{W}{g} + m2W = 60$, $g = 5$, and $m = -4$.",
       "options": [
         "$8$",
         "$16$",
@@ -24,7 +24,7 @@
     {
       "id": "2-1-substitution-pyp-q2",
       "type": "mcq",
-      "question": "Calculate the value of $y$2$y = \\frac{x^2 + 5}{2x - 1}$ and $x = 3$.",
+      "question": "Calculate the value of $y$. So $y = \\frac{x^2 + 5}{2x - 1}$ and $x = 3$.",
       "options": [
         "$2.8$",
         "$2.2$",
@@ -32,12 +32,12 @@
         "$4$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 3$: Numerator is $3^2 + 5 = 14$. Denominator is $2(3) - 1 = 5$. This results in $y = \\frac{14}{5} = 2.8$.\n\n**Common mistake:** Students might evaluate $3^2$ as $6$, getting a numerator of $11$, leading to $11/5 = 2.2$."
+      "explanation": "Substitute $x = 3$: Numerator is $3^2 + 5 = 14$. Denominator is $2(3) - 1 = 5$. This results in $y = \\frac{14}{5} = 2.8$.\n\n**Common mistake:** Students might evaluate $3^2$ as^6, getting a numerator of^11, leading to $11/5 = 2.2$."
     },
     {
       "id": "2-1-substitution-pyp-q3",
       "type": "mcq",
-      "question": "Given that $k = \\frac{2m - n}{3}$, find the value of $m$2$k = 4$ and $n = -2$.",
+      "question": "Given that $k = \\frac{2m - n}{3}$, find the value of $m^2 So k = 4$ and $n = -2$.",
       "options": [
         "$5$",
         "$7$",
@@ -45,7 +45,7 @@
         "$10$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $k$2$n$2$4 = \\frac{2m - (-2)}{3} \\rightarrow 12 = 2m + 2 \\rightarrow 10 = 2m \\rightarrow m = 5$.\n\n**Common mistake:** Students often write $2m - (-2)$ as $2m - 2$, leading to $12 = 2m - 2 \\rightarrow m = 7$."
+      "explanation": "Substitute $k$ and $n24 = \\frac{2m - (-2)}{3} \\rightarrow 12 = 2m + 2 \\rightarrow 10 = 2m \\rightarrow m = 5$.\n\n**Common mistake:** Students often write $2m - (-2)$ as $2m - 2$, leading to $12 = 2m - 2 \\rightarrow m = 7$."
     },
     {
       "id": "2-1-substitution-pyp-q4",
@@ -63,15 +63,15 @@
     {
       "id": "2-1-substitution-pyp-q5",
       "type": "mcq",
-      "question": "Given the formula $R = \\frac{ab}{a + b}$, find $R$2$a = 6$ and $b = 3$.",
+      "question": "Given the formula $R = \\frac{ab}{a + b}$, find $R$. So $a = 6$ and $b = 3$.",
       "options": [
-        "$2$",
+        "2",
         "$9$",
         "$18$",
         "$0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $a = 6$ and $b = 3$: $R = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2$.\n\n**Common mistake:** Students might add the numerator terms instead of multiplying them, leading to an incorrect $\\frac{tion}{}$ layout."
+      "explanation": "Substitute $a = 6$ and $b = 3$: $R = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2$.\n\n**Common mistake:** Students might add the numerator terms instead of multiplying them, leading to an incorrect $fraction$ layout."
     }
   ]
 }

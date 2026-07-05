@@ -16,15 +16,15 @@
         "Rotation $90°$ anticlockwise about $(0, 0)$",
         "Rotation $90°$ clockwise about $(0, 0)$",
         "Reflection in the line $y = -x$",
-        "Translation by $\\begin{pmatrix} 1 \\ 1 \\end{pmatrix}$"
+        "Translation by $\\begin{pmatrix} 1 \\ \\\\ 1 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "Reflecting in $y=0$ maps $(x, y)$ to $(x, -y)$. Reflecting that result in $y=x$2$(x, -y)$ to $(-y, x)$. This is the rule for a $90°$ anticlockwise rotation about the origin.\n\n**Common mistake:** The student might assume two reflections always result in another reflection or get the direction of rotation wrong."
+      "explanation": "Reflecting in $y=0$ maps $(x, y)$ to $(x, -y)$. Reflecting that result in $y=x$. $(x, -y)$ to $(-y, x)$. This is the rule for a $90°$ anticlockwise rotation about the origin.\n\n**Common mistake:** The student might assume two reflections always result in another reflection or get the direction of rotation wrong."
     },
     {
       "id": "12-4-12-5-transformations-hard-q2",
       "type": "mcq",
-      "question": "Triangle $A$2$(2, 2), (4, 2),$ and $(2, 5)$. It is enlarged to Triangle $B$2$(5, 4), (11, 4),$ and $(5, 13)$. Determine the centre of enlargement.",
+      "question": "Triangle $A$. $(2, 2), (4, 2),$ and $(2, 5)$. It is enlarged to Triangle $B$. $(5, 4), (11, 4),$ and $(5, 13)$. Determine the centre of enlargement.",
       "options": [
         "$(-1, 0)$",
         "$(0, 0)$",
@@ -32,7 +32,7 @@
         "$(2, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "The scale factor is $3$ (from side lengths $6/2 = 3$). Let the centre be $(xc, yc)$. Using $x' = xc + k(x - xc)$, we get $5 = xc + 3(2 - xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc = 0.5$. Wait, checking vertices: $(5-xc)/(2-xc) = 3 \\Rightarrow 5-xc = 6-3xc \\Rightarrow 2xc=1 \\Rightarrow xc=0.5$. Let's re-verify with source 78 logic: lines through $(2,2)-(5,4)$ and $(4,2)-(11,4)$. $y-2 = 2/3(x-2)$ and $y-2 = 2/7(x-4)$. Intersection: $2/3x - 4/3 = 2/7x - 8/7 \\Rightarrow 14x - 28 = 6x - 24 \\Rightarrow 8x = 4 \\Rightarrow x = 0.5, y = 1$. Let's use simpler numbers for the options: Object $(1,1) \\to (4,4)$ SF 2. $4 = xc + 2(1-xc) \\Rightarrow 4 = xc + 2 - 2xc \\Rightarrow xc = -2$. Let's use: Object $(2,2) \\to (5,4)$ SF 3. $5 = xc + 3(2-xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc=0.5$. Okay, using the provided option A $(-1, 0)$ with a different set: Object $(1,2)$ SF 2 center $(-1,0) \\to (-1+2(2), 0+2(2)) = (3, 4)$. Correct logic is joining corresponding vertices.\n\n**Common mistake:** A student might miscalculate the intersection of the lines joining corresponding vertices."
+      "explanation": "The scale factor is $1$ (from side lengths $6/2 = 3$). Let the centre be $(xc, yc)$. Using $x' = xc + k(x - xc)$, we get $5 = xc + 3(2 - xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc = 0.5$. Wait, checking vertices: $(5-xc)/(2-xc) = 3 \\Rightarrow 5-xc = 6-3xc \\Rightarrow 2xc=1 \\Rightarrow xc=0.5$. Let's re-verify with source 78 logic: lines through $(2,2)-(5,4)$ and $(4,2)-(11,4)$. $y-2 = 2/3(x-2)$ and $y-2 = 2/7(x-4)$. Intersection: $2/3x - 4/3 = 2/7x - 8/7 \\Rightarrow 14x - 28 = 6x - 24 \\Rightarrow 8x = 4 \\Rightarrow x = 0.5, y = 1$. Let's use simpler numbers for the options: Object $(1,1) \\to (4,4)$ SF 2. $4 = xc + 2(1-xc) \\Rightarrow 4 = xc + 2 - 2xc \\Rightarrow xc = -2$. Let's use: Object $(2,2) \\to (5,4)$ SF 3. $5 = xc + 3(2-xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc=0.5$. Okay, using the provided option A $(-1, 0)$ with a different set: Object $(1,2)$ SF 2 center $(-1,0) \\to (-1+2(2), 0+2(2)) = (3, 4)$. Correct logic is joining corresponding vertices.\n\n**Common mistake:** A student might miscalculate the intersection of the lines joining corresponding vertices."
     },
     {
       "id": "12-4-12-5-transformations-hard-q3",
@@ -45,7 +45,7 @@
         "$(-1, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "The line $x + y = 3$ can be written as $y = -x + 3$. The vector from the point to the line is perpendicular. The point $(4,1)$ is $1$ unit 'above' the line $y = -x+5$. The image will be at $(2, -1)$.\n\n**Common mistake:** A student might incorrectly swap and negate coordinates as if reflecting in $y = -x$2$+3$ constant."
+      "explanation": "The line $x + y = 3$ can be written as $y = -x + 3$. The vector from the point to the line is perpendicular. The point $(4,1)$ is $1$ unit 'above' the line $y = -x+5$. The image will be at $(2, -1)$.\n\n**Common mistake:** A student might incorrectly swap and negate coordinates as if reflecting in $y = -x$. $+3$ constant."
     },
     {
       "id": "12-4-12-5-transformations-hard-q4",
@@ -58,12 +58,12 @@
         "$(-12, 8)$"
       ],
       "correctIndex": 0,
-      "explanation": "With the centre at the origin, multiply the coordinates by the scale factor: $6 \\times -0.5 = -3$ and $-4 \\times -0.5 = 2$.\n\n**Common mistake:** A student might ignore the negative sign and just halve the coordinates, or multiply by $2$ instead of $0.5$."
+      "explanation": "With the centre at the origin, multiply the coordinates by the scale factor: $6 \\times -0.5 = -3$ and $-4 \\times -0.5 = 2$.\n\n**Common mistake:** A student might ignore the negative sign and just halve the coordinates, or multiply by2instead of $0.5$."
     },
     {
       "id": "12-4-12-5-transformations-hard-q5",
       "type": "mcq",
-      "question": "Triangle $A$2$90°$ clockwise about $(0, 0)$ to give Triangle $B$2$B$2$x = 2$. If a vertex of Triangle $A$2$(1, 4)$, find its final position.",
+      "question": "Triangle $A$ and $90°$ clockwise about $(0, 0)$ to give Triangle $B$ and $B2x = 2$. If a vertex of Triangle $A$. $(1, 4)$, find its final position.",
       "options": [
         "$(0, -1)$",
         "$(4, -1)$",
@@ -71,7 +71,7 @@
         "$(4, 1)$"
       ],
       "correctIndex": 0,
-      "explanation": "Rotation: $(1, 4) \\to (4, -1)$. Reflection in $x = 2$: the $x$2$4 - 2 = 2$. The image is $2$ units on the other side: $2 - 2 = 0$. Final point is $(0, -1)$.\n\n**Common mistake:** The student might perform the transformations in the wrong order or miscalculate the reflection distance from $x=2$."
+      "explanation": "Rotation: $(1, 4) \\to (4, -1)$. Reflection in $x = 2$: the $x$. $4 - 2 = 2$. The image is 2 units on the other side: $2 - 2 = 0$. Final point is $(0, -1)$.\n\n**Common mistake:** The student might perform the transformations in the wrong order or miscalculate the reflection distance from $x=2$."
     }
   ]
 }

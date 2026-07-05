@@ -11,11 +11,11 @@
     {
       "id": "1-composite-functions-pyp-q1",
       "type": "mcq",
-      "question": "The functions f and g are defined by f(x)=3x−2 and g(x)= \\frac{10}{x+1} for $x \\neq -1$. Solve the equation fg(x)=g(x).",
+      "question": "The functions f and g are defined by f(x)=3x-2 and g(x)= \\frac{10}{x+1} for $x \\neq -1$. Solve the equation fg(x)=g(x).",
       "options": [
         "x=4",
         "x=2",
-        "x=−4",
+        "x=-4",
         "x=0"
       ],
       "correctIndex": 0,
@@ -24,7 +24,7 @@
     {
       "id": "1-composite-functions-pyp-q2",
       "type": "mcq",
-      "question": "Given f(x)=2x+k and g(x)= x^{2}−4, find the value of the constant k such that gf(3)=21.",
+      "question": "Given f(x)=2x+k and g(x)= x^{2}-4, find the value of the constant k such that gf(3)=21.",
       "options": [
         "k = -1 or k = -11",
         "k = -1 only",
@@ -32,7 +32,7 @@
         "k = 5"
       ],
       "correctIndex": 0,
-      "explanation": "f(3)=6+k. Then g(6+k)= (6+k)^{2}−4=21. So $(6+k)^{2}$=25. 6+k=±5. k=5−6=−1 or k=−5−6=−11.\n\n**Common mistake:** Failing to consider the negative square root when solving the quadratic equation."
+      "explanation": "f(3)=6+k. Then g(6+k)= (6+k)^{2}-4=21. So $(6+k)^{2}$=25. 6+k=±5. k=5-6=-1 or k=-5-6=-11.\n\n**Common mistake:** Failing to consider the negative square root when solving the quadratic equation."
     },
     {
       "id": "1-composite-functions-pyp-q3",
@@ -50,7 +50,7 @@
     {
       "id": "1-composite-functions-pyp-q4",
       "type": "mcq",
-      "question": "Solve the equation fg(x)=13 where f(x)=5x−2 and g(x)= x^{2}−2.",
+      "question": "Solve the equation fg(x)=13 where f(x)=5x-2 and g(x)= x^{2}-2.",
       "options": [
         "x=±\\sqrt{5}",
         "x=5 only",
@@ -58,12 +58,12 @@
         "x=±\\sqrt{3}"
       ],
       "correctIndex": 0,
-      "explanation": "5($x^{2}$−2)−2=13 \\implies 5$x^{2}$−10−2=13 \\implies 5$x^{2}$=25 \\implies $x^{2}$=5 \\implies x=±\\sqrt{5}.\n\n**Common mistake:** Arithmetic errors in distributing the 5 or forgetting the negative root in the final step."
+      "explanation": "5($x^{2}$-2)-2=13 \\implies 5$x^{2}$-10-2=13 \\implies 5$x^{2}$=25 \\implies $x^{2}$=5 \\implies x=±\\sqrt{5}.\n\n**Common mistake:** Arithmetic errors in distributing the 5 or forgetting the negative root in the final step."
     },
     {
       "id": "1-composite-functions-pyp-q5",
       "type": "mcq",
-      "question": "Hence find the value of k if gf(x)=f(x) has no real solutions, given f(x)=x+k and g(x)= x^{2}−3.",
+      "question": "Hence find the value of k if gf(x)=f(x) has no real solutions, given f(x)=x+k and g(x)= x^{2}-3.",
       "options": [
         "k < -3.25",
         "k > -3",
@@ -71,7 +71,7 @@
         "k > 0"
       ],
       "correctIndex": 0,
-      "explanation": "gf(x)= (x+k)^{2}−3. Set $(x+k)^{2}-3=x+k$. $2x^{2}$+2kx+$k^{2}$−3−x−k=0 \\implies $x^{2}$+(2k−1)x+($k^{2}$−k−3)=0. For no solutions, Δ<0: $(2k-1)^{2}$−4($k^{2}$−k−3)<0 \\implies 4$k^{2}$−4k+1−4$k^{2}$+4k+12<0 \\implies 13<0. Adjusting for valid check: $x^{2}$+(2k−1)x+($k^{2}$−k−3)=0. 13<0 is impossible. Let's use g(x)= x^{2}+x−3: $(x+k)^{2}$+(x+k)−3=x+k⟹$(x+k)^{2}$−3=0⟹$x^{2}$−3=0. Final Choice for logic: k<−3.25 via Δ on correct quadratic.\n\n**Common mistake:** Failing to simplify the quadratic equation into standard form before applying the discriminant."
+      "explanation": "gf(x)= (x+k)^{2}-3. Set $(x+k)^{2}-3=x+k$. $2x^{2}$+2kx+$k^{2}$-3-x-k=0 \\implies $x^{2}$+(2k-1)x+($k^{2}$-k-3)=0. For no solutions, Δ<0: $(2k-1)^{2}$-4($k^{2}$-k-3)<0 \\implies 4$k^{2}$-4k+1-4$k^{2}$+4k+12<0 \\implies 13<0. Adjusting for valid check: $x^{2}$+(2k-1)x+($k^{2}$-k-3)=0. 13<0 is impossible. Let's use g(x)= x^{2}+x-3: $(x+k)^{2}$+(x+k)-3=x+k⟹$(x+k)^{2}$-3=0⟹$x^{2}$-3=0. Final Choice for logic: k<-3.25 via Δ on correct quadratic.\n\n**Common mistake:** Failing to simplify the quadratic equation into standard form before applying the discriminant."
     }
   ]
 }

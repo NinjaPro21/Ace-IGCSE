@@ -19,7 +19,7 @@
         "ln 5"
       ],
       "correctIndex": 0,
-      "explanation": "By definition, $\\ln x$2$e^x$2$\\ln e^k = k$.\n\n**Common mistake:** Students may confuse the base and think the answer is $e^5$ or assume $\\ln e$ cancels out to leave 1."
+      "explanation": "By definition, $\\ln x$. $e^x2\\ln e^k = k$.\n\n**Common mistake:** Students may confuse the base and think the answer is $e^5$ or assume $\\ln e$ cancels out to leave 1."
     },
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-easy-q2",
@@ -32,7 +32,7 @@
         "x = e^{12}"
       ],
       "correctIndex": 0,
-      "explanation": "The natural logarithm $\\ln$2$e$2$e^x = y$2$x = \\ln y$.\n\n**Common mistake:** A student might use $\\log$2$\\ln$2$e$)."
+      "explanation": "The natural logarithm $\\ln$ and $e2e^x = y$. So $x = \\ln y$.\n\n**Common mistake:** A student might use $\\log$. $\\ln2e$)."
     },
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-easy-q3",
@@ -71,7 +71,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "Since $e^x$2$\\ln x$2$e^{\\ln k} = k$.\n\n**Common mistake:** Students may try to calculate $e$ to a power and get lost in decimal approximations."
+      "explanation": "Since $e^x$. $\\ln x2e^{\\ln k} = k$.\n\n**Common mistake:** Students may try to calculate $e$ to a power and get lost in decimal approximations."
     }
   ]
 }

@@ -37,7 +37,7 @@
     {
       "id": "12-tangents-and-normals-pyp-q3",
       "type": "mcq",
-      "question": "The normal to the curve $y = x^2 - 4x + 9$ at the point $P(3, 6)$ meets the $y$2$Q$2$Q$.",
+      "question": "The normal to the curve $y = x^2 - 4x + 9$ at the point $P(3, 6)$ meets the $y$ and $Q2Q$.",
       "options": [
         "$(0, 7.5)$",
         "$(0, 4.5)$",
@@ -45,12 +45,12 @@
         "$(0, 3)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2x - 4$. At $x=3, m_t = 2$. Normal $m_n = -0.5$. $y - 6 = -0.5(x - 3) \\implies y = -0.5x + 7.5$. $Q$2$(0, 7.5)$.\n\n**Common mistake:** Option B results from a sign error ($+1.5$ instead of $+7.5$) when finding the intercept."
+      "explanation": "$\\frac{dy}{dx} = 2x - 4$. At $x=3, m_t = 2$. Normal $m_n = -0.5$. $y - 6 = -0.5(x - 3) \\implies y = -0.5x + 7.5$. $Q$. $(0, 7.5)$.\n\n**Common mistake:** Option B results from a sign error ($+1.5$ instead of $+7.5$) when finding the intercept."
     },
     {
       "id": "12-tangents-and-normals-pyp-q4",
       "type": "mcq",
-      "question": "Find the value of the constant $c$2$y = 4x + c$2$y = x^2 + 8$.",
+      "question": "Find the value of the constant $c$. So $y = 4x + c2y = x^2 + 8$.",
       "options": [
         "$4$",
         "$8$",

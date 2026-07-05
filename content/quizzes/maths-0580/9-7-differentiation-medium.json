@@ -11,7 +11,7 @@
     {
       "id": "9-7-differentiation-medium-q1",
       "type": "mcq",
-      "question": "Find the $x$2$y = x^2 - 12x + 7$.",
+      "question": "Find the $x$. So $y = x^2 - 12x + 7$.",
       "options": [
         "$6$",
         "$12$",
@@ -32,17 +32,17 @@
         "$-4$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 6x^2 - 18x$2$x = 2$, gradient $= 6(2)² - 18(2) = 24 - 36 = -12$.\n\n**Common mistake:** A common mistake is incorrectly calculating $6(2)²$ as $(12)²$ or $6 \\times 4 = 24$ but then adding $36$ instead of subtracting."
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 18x$. So $x = 2$, gradient $= 6(2)² - 18(2) = 24 - 36 = -12$.\n\n**Common mistake:** A common mistake is incorrectly calculating $6(2)²$ as $(12)²$ or $6 \\times 4 = 24$ but then adding^36 instead of subtracting."
     },
     {
       "id": "9-7-differentiation-medium-q3",
       "type": "mcq",
-      "question": "Determine the value of $x$2$y = x^3 - 3x^2 - 9x$2$15$.",
+      "question": "Determine the value of $x$. So $y = x^3 - 3x^2 - 9x215$.",
       "options": [
         "$4$ and $-2$",
-        "$2$ and $-4$",
+        "2 and $-4$",
         "$5$ and $-1$",
-        "$15$ and $0$"
+        "$15$ and^0"
       ],
       "correctIndex": 0,
       "explanation": "$\\frac{dy}{dx} = 3x^2 - 6x - 9$. Set $3x^2 - 6x - 9 = 15 \\Rightarrow 3x^2 - 6x - 24 = 0 \\Rightarrow x^2 - 2x - 8 = 0$. Factoring $(x-4)(x+2)=0$ gives $x=4, -2$.\n\n**Common mistake:** The student might set the original function equal to 15 or make an error in factoring the quadratic."
@@ -63,9 +63,9 @@
     {
       "id": "9-7-differentiation-medium-q5",
       "type": "mcq",
-      "question": "The gradient of the curve $y = kx^2 - 4x$2$x = 3$ is $8$. Find the value of $k$.",
+      "question": "The gradient of the curve $y = kx^2 - 4x$. So $x = 3$ is $1$. Find the value of $k$.",
       "options": [
-        "$2$",
+        "2",
         "$1$",
         "$4$",
         "$12$"

@@ -6,12 +6,13 @@ Vectors can be used to model motion over time by combining an object's initial p
 
 $$
 \text{Position Vector at time } t: \mathbf{r} = \mathbf{r}_0 + \mathbf{v}t
-
+$$
+$$
 \text{Where: } \mathbf{r}_0 = \text{initial position vector at } t=0, \,\, \mathbf{v} = \text{constant velocity vector}
-
+$$
+$$
 \text{Speed} = |\mathbf{v}| = \sqrt{v_x^2 + v_y^2}
 $$
-
 
 ## Steps / method
 

@@ -24,7 +24,7 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Find the equation of the normal to the curve $y = \\ln x$2$x = e$.",
+      "question": "Find the equation of the normal to the curve $y = \\ln x$. So $x = e$.",
       "options": [
         "y = -ex + e^2 + 1",
         "y = (1/e)x",
@@ -37,7 +37,7 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Determine the nature of the stationary point of $y = \\sin x + \\cos x$2$0 < x < \\pi$.",
+      "question": "Determine the nature of the stationary point of $y = \\sin x + \\cos x$. $0 < x < \\pi$.",
       "options": [
         "Maximum at x = π/4",
         "Minimum at x = π/4",
@@ -63,7 +63,7 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Find the approximate change in $y = e^x$2$x$ increases from 2 to 2.01.",
+      "question": "Find the approximate change in $y = e^x$ and $x$ increases from 2 to 2.01.",
       "options": [
         "0.01e^2",
         "e^2",
@@ -71,7 +71,7 @@
         "0.1e^2"
       ],
       "correctIndex": 0,
-      "explanation": "δy ≈ ($\\frac{dy}{dx}) δx$2$2\\frac{dy}{dx}$ = e^x. At x=2, $\\frac{dy}{dx}$ = e^2. δx = 0.01. δy ≈ 0.01e^2.\n\n**Common mistake:** Substituting the increment directly into the original function."
+      "explanation": "δy ≈ ($\\frac{dy}{dx}) δx$. $2\\frac{dy}{dx}$ = e^x. At x=2, $\\frac{dy}{dx}$ = e^2. δx = 0.01. δy ≈ 0.01e^2.\n\n**Common mistake:** Substituting the increment directly into the original function."
     }
   ]
 }

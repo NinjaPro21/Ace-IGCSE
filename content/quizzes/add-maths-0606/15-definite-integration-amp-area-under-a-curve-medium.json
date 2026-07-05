@@ -11,7 +11,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q1",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^{\\pi/6}\n\n\\sec^{2} x\n\\\\\\\\,dx.",
+      "question": "Evaluate $\\int_0^{\\pi/6}$\n\n\\sec^{2} x\n\\,dx.",
       "options": [
         "0.577",
         "1",
@@ -19,12 +19,12 @@
         "0.866"
       ],
       "correctIndex": 0,
-      "explanation": "The integral of\n\\sec^{2} x is\ntanx. Evaluating [\ntanx]\n0\npi/6\n\n=\ntan(\npi/6)−\ntan0=1/\\sqrt3\napprox0.577.\n\n**Common mistake:** Option D is the value of\ncos(\npi/6) rather than its tangent derivative."
+      "explanation": "The integral of\n\\sec^{2} x is\ntanx. Evaluating [\ntanx]\n0\npi/6\n\n=\ntan(\npi/6)-\ntan0=1/\\sqrt3\napprox0.577.\n\n**Common mistake:** Option D is the value of\ncos(\npi/6) rather than its tangent derivative."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q2",
       "type": "mcq",
-      "question": "Find the exact value of\n of $\\int_0^{4} \\sqrt2x+1\n\\\\\\\\,dx.",
+      "question": "Find the exact value of $\\int_0^{4} \\sqrt{2x+1}\\,dx.$",
       "options": [
         "8.67",
         "13",
@@ -32,20 +32,20 @@
         "9"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating yields [$\\frac{1}{3$(2x+$1^{1}$$}$.5\n]\n$0^{4}$\n=1/3(27)−1/3(1)=9−0.33=8.67.\n\n**Common mistake:** Option B results if the student fails to divide by the coefficient of x (2) from the inner function."
+      "explanation": "Let $u = 2x+1$. Then $\\int_0^4 \\sqrt{2x+1}\\,dx. = \\frac{1}{2}\\int_1^9 u^{1/2}\\,du = \\frac{1}{3}[u^{3/2}]_1^9 = \\frac{1}{3}(27-1) = \\frac{26}{3} \\approx 8.67$.\n\n**Common mistake:** Option B results if the student fails to divide by the coefficient of $x$ (2) from the inner function."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q3",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^1\n\ne^{3x}\n\\\\\\\\,dx. in terms of e.",
+      "question": "Evaluate $\\int_0^1 e^{3x}\\,dx.$ in terms of $e$.",
       "options": [
         "$\\frac{1}{3}(e^{3}-1)$",
-        "$e^{3}$−1",
-        "$\\frac{1}{3e}$\n3",
-        "3e\n3"
+        "$e^{3}-1$",
+        "$\\frac{1}{3e^3}$",
+        "$3e^3$"
       ],
       "correctIndex": 0,
-      "explanation": "The integral is [$\\frac{1}{3e}$\n3x\n]\n$0^{1}$\n= \\frac{1}{3e^{3}$-}$\n\n$\\frac{1}{3$ e^{0}$=}\n$$\n$\\frac{1}{3}(e^{3}$-1}$).\n$$\n\n**Common mistake:** Option B occurs if the student forgets the \\frac{1}{a} multiplier 1/a or the lower bound evaluation."
+      "explanation": "The integral is $\\left[\\frac{1}{3}e^{3x}\\right]_0^1 = \\frac{1}{3}(e^3 - 1)$.\n\n**Common mistake:** Option B occurs if the student forgets the $\\frac{1}{3}$ multiplier or the lower bound evaluation."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q4",
@@ -63,7 +63,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q5",
       "type": "mcq",
-      "question": "Calculate the area of the region bounded by $y = 1/x$2$x = 1$ and $x = e^2$.",
+      "question": "Calculate the area of the region bounded by $y = 1/x$. So $x = 1$ and $x = e^2$.",
       "options": [
         "2",
         "e^2",
@@ -76,7 +76,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q6",
       "type": "mcq",
-      "question": "Find the area bounded by $y = \\sin x$2$0 \\le x \\le \\pi$.",
+      "question": "Find the area bounded by $y = \\sin x$. $0 \\le x \\le \\pi$.",
       "options": [
         "2",
         "0",
@@ -110,7 +110,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "Intersection at x=0, 1. Area = ∫ from 0 to 1 (x^{0.5} - x^2) dx = [x^{1.5}/1.5 - x³/3] = 2/3 - 1/3 = 1/3.\n\n**Common mistake:** Arithmetic errors when dealing with the \\frac{1}{a} power 1.5 (3/2)."
+      "explanation": "Intersection at x=0, 1. Area = ∫ from 0 to 1 (x^{0.5} - x^2) dx = [x^{1.5}/1.5 - x³/3] = 2/3 - 1/3 = 1/3.\n\n$**Common mistake:** Arithmetic errors when dealing with the \\frac{1}{a} power 1.5 (3/2).$"
     },
     {
       "type": "mcq",
@@ -122,12 +122,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Intersects $x$2$x = \\pm 2$. $\\int_{-2}^2 (x^2-4) dx = [x^3/3 - 4x]_{-2}^2 = (8/3-8) - (-8/3+8) = -10.67$. Area is 10.67.\n\n**Common mistake:** Integrating from 0 to 4 instead of between the roots.",
+      "explanation": "Intersects $x$. So $x = \\pm 2$. $\\int_{-2}^2 (x^2-4) dx = [x^3/3 - 4x]_{-2}^2 = (8/3-8) - (-8/3+8) = -10.67$. Area is 10.67.\n\n**Common mistake:** Integrating from 0 to 4 instead of between the roots.",
       "id": "15-definite-integration-amp-area-under-a-curve-medium-q9"
     },
     {
       "type": "mcq",
-      "question": "Calculate the area of the region enclosed by $y = 2x$2$y = x^2$ for $x \\ge 0$.",
+      "question": "Calculate the area of the region enclosed by $y = 2x$. So $y = x^2$ for $x \\ge 0$.",
       "options": [
         "4/3",
         "2/3",
@@ -140,7 +140,7 @@
     },
     {
       "type": "mcq",
-      "question": "Find the area under the curve $y = \\cos x$2$x=0$ to $x=\\pi/2$.",
+      "question": "Find the area under the curve $y = \\cos x$. So $x=0$ to $x=\\pi/2$.",
       "options": [
         "1",
         "0",

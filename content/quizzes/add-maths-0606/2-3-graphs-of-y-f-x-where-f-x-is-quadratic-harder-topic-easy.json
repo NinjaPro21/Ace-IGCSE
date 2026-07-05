@@ -3,7 +3,7 @@
   "topicId": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic",
   "chapterId": "ch02-simultaneous-equations-and-quadratics",
   "difficulty": "easy",
-  "title": "Graphs of $y = |f(x)|$ where $f(x)$ is Quadratic — Easy",
+  "title": "Graphs of $y = |f(x)| where f(x)$ is Quadratic - Easy",
   "passPercent": 70,
   "questionsPerAttempt": 5,
   "pending": false,
@@ -11,7 +11,7 @@
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q1",
       "type": "mcq",
-      "question": "Given the function f(x)= x^{2}−9, find the value of ∣f(2)∣.",
+      "question": "Given the function f(x)= x^{2}-9, find the value of ∣f(2)∣.",
       "options": [
         "5",
         "-5",
@@ -19,7 +19,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "f(2)= 2^{2}−9=4−9=−5. The modulus ∣−5∣ is 5.\n\n**Common mistake:** Students often forget to apply the absolute value at the end, providing the negative result of the quadratic calculation (-5)."
+      "explanation": "f(2)= $2^{2}$-9=4-9=-5. The modulus ∣-5∣ is 5.\n\n**Common mistake:** Students often forget to apply the absolute value at the end, providing the negative result of the quadratic calculation (-5)."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q2",
@@ -37,7 +37,7 @@
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q3",
       "type": "mcq",
-      "question": "State the y-intercept of the graph y=∣$x^{2}$−5x−6∣.",
+      "question": "State the y-intercept of the graph y=∣$x^{2}$-5x-6∣.",
       "options": [
         "6",
         "-6",
@@ -45,12 +45,12 @@
         "30"
       ],
       "correctIndex": 0,
-      "explanation": "Set x=0: y=∣$0^{2}$−5(0)−6∣=∣−6∣=6.\n\n**Common mistake:** Identifying the original c value (-6) as the intercept without accounting for the modulus reflection."
+      "explanation": "Set x=0: y=∣$0^{2}$-5(0)-6∣=∣-6∣=6.\n\n**Common mistake:** Identifying the original c value (-6) as the intercept without accounting for the modulus reflection."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "If the vertex of y= x^{2}−10 is (0,−10), what is the coordinates of the local maximum of y=∣$x^{2}$−10∣?",
+      "question": "If the vertex of y= x^{2}-10 is (0,-10), what is the coordinates of the local maximum of y=∣$x^{2}$-10∣?",
       "options": [
         "(0, 10)",
         "(0, -10)",
@@ -58,12 +58,12 @@
         "(-10, 0)"
       ],
       "correctIndex": 0,
-      "explanation": "The portion of the graph below the x-axis is reflected. The minimum at (0,−10) becomes a local maximum at (0,10).\n\n**Common mistake:** Neglecting to reflect the y-coordinate while keeping the x-coordinate constant."
+      "explanation": "The portion of the graph below the x-axis is reflected. The minimum at (0,-10) becomes a local maximum at (0,10).\n\n**Common mistake:** Neglecting to reflect the y-coordinate while keeping the x-coordinate constant."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "How many x-intercepts does the graph y=∣$x^{2}$−16∣ have?",
+      "question": "How many x-intercepts does the graph y=∣$x^{2}$-16∣ have?",
       "options": [
         "2",
         "4",
@@ -71,7 +71,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "The modulus does not change where the graph hits the x-axis (the roots). $x^{2}$−16=0 has two roots: x=4 and x=−4.\n\n**Common mistake:** Thinking that reflecting the graph 'doubles' the number of intercepts on the x-axis."
+      "explanation": "The modulus does not change where the graph hits the x-axis (the roots). $x^{2}$-16=0 has two roots: x=4 and x=-4.\n\n**Common mistake:** Thinking that reflecting the graph 'doubles' the number of intercepts on the x-axis."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q6",
@@ -89,7 +89,7 @@
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q7",
       "type": "mcq",
-      "question": "The graph of $y = x^2 + 5$ lies entirely above the $x$2$y = |x^2 + 5|$ compare?",
+      "question": "The graph of $y = x^2 + 5$ lies entirely above the $x$. So $y = |x^2 + 5|$ compare?",
       "options": [
         "It is identical to the original graph.",
         "It is reflected in the y-axis.",
@@ -97,12 +97,12 @@
         "The vertex is shifted to (0, -5)."
       ],
       "correctIndex": 0,
-      "explanation": "Since $x^2 + 5$ is always positive, the modulus has no effect on the $y$2$|f(x)| = f(x)$.\n\n**Common mistake:** Assuming that a 'reflection' must occur simply because a modulus sign is present."
+      "explanation": "Since $x^2 + 5$ is always positive, the modulus has no effect on the $y$. $|f(x)| = f(x)$.\n\n**Common mistake:** Assuming that a 'reflection' must occur simply because a modulus sign is present."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q8",
       "type": "mcq",
-      "question": "State the $y$2$y = |x^2 + 2x - 8|$.",
+      "question": "State the $y$. So $y = |x^2 + 2x - 8|$.",
       "options": [
         "8",
         "-8",
@@ -123,12 +123,12 @@
         "(-4, 0)"
       ],
       "correctIndex": 0,
-      "explanation": "The portion below the $x$2$(0, -4)$ a local maximum at $(0, 4)$. \n\n**Common mistake:** Neglecting to reflect the y-coordinate while keeping the x-coordinate constant."
+      "explanation": "The portion below the $x$. $(0, -4)$ a local maximum at $(0, 4)$. \n\n**Common mistake:** Neglecting to reflect the y-coordinate while keeping the x-coordinate constant."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-easy-q10",
       "type": "mcq",
-      "question": "How many $x$2$y = |x^2 - 25|$ have?",
+      "question": "How many $x$. So $y = |x^2 - 25|$ have?",
       "options": [
         "2",
         "4",

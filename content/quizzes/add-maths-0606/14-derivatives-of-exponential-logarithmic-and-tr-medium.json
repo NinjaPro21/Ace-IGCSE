@@ -19,7 +19,7 @@
         "$x^2 e^x + 2x$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the product rule $u \\frac{dv}{dx} + v \\frac{du}{dx}$ with $u = x^2$ and $v = e^x$2$\\frac{dy}{dx} = x^2(e^x) + e^x(2x) = xe^x(x + 2)$.\n\n**Common mistake:** Option B is a common error where the student differentiates both parts and multiplies them together, failing to use the product rule correctly."
+      "explanation": "Using the product rule $u \\frac{dv}{dx} + v \\frac{du}{dx} with u = x^2$ and v = e^x$. So$\\frac{dy}{dx} = x^2(e^x) + e^x(2x) = xe^x$(x + 2)^{2}$\n\n**Common mistake:** Option B is a common error where the student differentiates both parts and multiplies them together, failing to use the product rule correctly."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-medium-q2",
@@ -89,7 +89,7 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-medium-q7",
       "type": "mcq",
-      "question": "Find $dy/dx$2$y = x \\ln x$ (use the product rule).",
+      "question": "Find $dy/dx$. So $y = x \\ln x$ (use the product rule).",
       "options": [
         "1 + ln x",
         "ln x",
@@ -143,31 +143,31 @@
       "type": "mcq",
       "question": "Differentiate y= x^{2}cosx with respect to x.",
       "options": [
-        "2x\ncosx−$x^{2}$sinx",
-        "−2x\nsinx",
+        "2x\ncosx-$x^{2}$sinx",
+        "-2x\nsinx",
         "2x\ncosx+$x^{2}$sinx",
-        "$x^{2}$sinx−2x\ncosx"
+        "$x^{2}$sinx-2x\ncosx"
       ],
       "correctIndex": 0,
-      "explanation": "Using the product rule u$\\frac{dv}{dx} + v\n\n$$\\frac{du}{dx}$ with u= x^{2} and v= \ncosx:\\frac{dy}{dx}=x^{2}(-\\sin x)$\nsinx)+\ncosx(2x)=2x\ncosx−$x^{2}$sinx.\n\n**Common mistake:** Option B is a common error where the student simply multiplies the derivatives of the two parts together."
+      "explanation": "Using the product rule u$\\frac{dv}{dx} + v\n\n$$\n\\frac{du}{dx} with u= x^{2} and v=\n$$\n\n$$\ncosx:\\frac{dy}{dx}=x^{2}(-\\sin x)\n$$\nsinx)+\ncosx(2x)=2x\ncosx-$x^{2}$sinx.\n\n**Common mistake:** Option B is a common error where the student simply multiplies the derivatives of the two parts together."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-medium-q12",
       "type": "mcq",
-      "question": "Find the derivative of y=\n\\sin^{3}$x.",
+      "question": "Find the derivative of y=\n\\sin^{3}$x.$",
       "options": [
-        "3\n\\sin^{2}$x\ncosx",
-        "3\n\\sin^{2}$x",
-        "−3\n\\sin^{2}$x\ncosx",
-        "3\n\\cos^{2}$x"
+        "3\n\\sin^{2}$x$\ncosx",
+        "3\n\\sin^{2}$x$",
+        "-3\n\\sin^{2}$x$\ncosx",
+        "3\n\\cos^{2}$x$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the chain rule on (\nsinx$)^{3}$: 3(\nsinx$)^{2}$times$\\frac{d}{dx}($\nsinx)=3\n\\sin^{2}$x\ncosx.\n\n**Common mistake:** Option B results from only applying the power rule and forgetting to multiply by the derivative of the inner function."
+      "explanation": "Using the chain rule on (\nsinx$)^{3}$: 3(\nsinx$)^{2}$times \\frac{d}{dx}(\nsinx)=3\n\\sin^{2}$x$\ncosx.\n\n**Common mistake:** Option B results from only applying the power rule and forgetting to multiply by the derivative of the inner function."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-medium-q13",
       "type": "mcq",
-      "question": "Find the gradient of the curve y=\ntan(2x) at the point where x= \\frac{\\pi}{8}.",
+      "question": "Find the gradient of the curve y=\n$tan(2x) at the point where x= \\frac{\\pi}{8}.$",
       "options": [
         "4",
         "2",
@@ -175,12 +175,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}=2$\n\\sec^{2}$(2x). At x= \\frac{\\pi}{8}, 2x= \\frac{\\pi}{4}.\n\\sec^{2}$($\\frac{\\pi}{4}$)=2. Thus 2\ntimes2=4.\n\n**Common mistake:** Option B occurs if the student forgets the multiplier 2 from the chain rule derivative of the argument."
+      "explanation": "$\\frac{dy}{dx}=2$\n\\sec^{2}$(2x). At x= \\frac{\\pi}{8}, 2x= \\frac{\\pi}{4}.$\n\\sec^{2}$($\\frac{\\pi}{4}$)=2. Thus 2$\ntimes2=4.\n\n**Common mistake:** Option B occurs if the student forgets the multiplier 2 from the chain rule derivative of the argument."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-medium-q14",
       "type": "mcq",
-      "question": "Differentiate y= \\frac{\\sin x}{x} with respect to x.",
+      "question": "$Differentiate y= \\frac{\\sin x}{x} with respect to x.$",
       "options": [
         "$\\frac{x\\cos x - \\sin x}{x^2}$\n2",
         "$\\cos x$",
@@ -193,15 +193,15 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-medium-q15",
       "type": "mcq",
-      "question": "Find the equation of the tangent to the curve y=\ncos(2x) at the point where x= \\frac{\\pi}{4}.",
+      "question": "Find the equation of the tangent to the curve y=\n$cos(2x) at the point where x= \\frac{\\pi}{4}.$",
       "options": [
-        "y=−2x+$\\frac{\\pi}{2}$",
-        "y=2x−$\\frac{\\pi}{2}$",
-        "y=−2x",
+        "y=-2x+$\\frac{\\pi}{2}$",
+        "y=2x-$\\frac{\\pi}{2}$",
+        "y=-2x",
         "y=0"
       ],
       "correctIndex": 0,
-      "explanation": "At x= \\frac{\\pi}{4},y=\ncos($\\frac{\\pi}{2}$)=0.$\\frac{dy}{dx}=-2$\nsin(2x). At x= \\frac{\\pi}{4},m=−2\nsin($\\frac{\\pi}{2}$)=−2. y−0=−2(x−$\\frac{\\pi}{4}$) \\implies y=−2x+$\\frac{\\pi}{2}$.\n\n**Common mistake:** Option D occurs if the student confuses the y-value of the point with the gradient of the tangent."
+      "explanation": "At $x = \\frac{\\pi}{4}$, $y = \\cos(\\frac{\\pi}{2}) = 0$. $\\frac{dy}{dx} = -2\\sin(2x)$. At $x = \\frac{\\pi}{4}$, $m = -2\\sin(\\frac{\\pi}{2}) = -2$. Tangent: $y = -2(x - \\frac{\\pi}{4}) = -2x + \\frac{\\pi}{2}$.\n\n**Common mistake:** Option D occurs if the student confuses the y-value of the point with the gradient of the tangent."
     }
   ]
 }

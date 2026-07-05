@@ -19,7 +19,7 @@
         "$x = 1, y = -1$ or $x = -5, y = -13$"
       ],
       "correctIndex": 0,
-      "explanation": "Equate the expressions for $y$2$x^2 - 4x + 2 = 2x - 3$. Collect terms on one side to form a standard quadratic equation: $x^2 - 6x + 5 = 0$. Factorising this equation yields $(x - 1)(x - 5) = 0$, so $x = 1$ or $x = 5$. Substitute these back into the linear equation to find the corresponding $y$2$x = 1$, $y = 2(1) - 3 = -1$; when $x = 5$, $y = 2(5) - 3 = 7$.\n\n**Common mistake:** A common mistake on Cambridge papers is failing to substitute both $x$2$y$ coordinates."
+      "explanation": "Equate the expressions for $y$. So $x^2 - 4x + 2 = 2x - 3$. Collect terms on one side to form a standard quadratic equation: $x^2 - 6x + 5 = 0$. Factorising this equation yields $(x - 1)(x - 5) = 0$, so $x = 1$ or $x = 5$. Substitute these back into the linear equation to find the corresponding $y$. So $x = 1$, $y = 2(1) - 3 = -1$; when $x = 5$, $y = 2(5) - 3 = 7$.\n\n**Common mistake:** A common mistake on Cambridge papers is failing to substitute both $x$ and $y$ coordinates."
     },
     {
       "id": "6-4-nonlinear-simultaneous-equations-pyp-q2",
@@ -32,12 +32,12 @@
         "$x = -4, y = -8$ or $x = -5, y = -9$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y = x - 4$ directly into the non-linear equation: $x^2 + (x - 4) = 16 \\implies x^2 + x - 4 = 16 \\implies x^2 + x - 20 = 0$. Factorising gives $(x + 5)(x - 4) = 0$, which yields $x = 4$ or $x = -5$. Finding $y$2$x = 4$, $y = 4 - 4 = 0$; when $x = -5$, $y = -5 - 4 = -9$.\n\n**Common mistake:** Students often invert signs inside factors, yielding solutions like $x = -4$ and $x = 5$ by mistake."
+      "explanation": "Substitute $y = x - 4$ directly into the non-linear equation: $x^2 + (x - 4) = 16 \\implies x^2 + x - 4 = 16 \\implies x^2 + x - 20 = 0$. Factorising gives $(x + 5)(x - 4) = 0$, which yields $x = 4$ or $x = -5$. Finding $y$. So $x = 4$, $y = 4 - 4 = 0$; when $x = -5$, $y = -5 - 4 = -9$.\n\n**Common mistake:** Students often invert signs inside factors, yielding solutions like $x = -4$ and $x = 5$ by mistake."
     },
     {
       "id": "6-4-nonlinear-simultaneous-equations-pyp-q3",
       "type": "mcq",
-      "question": "A line $y = 2x + c$2$y = x^2 + 6x + 7$ at exactly one point. Find the value of the constant $c$.",
+      "question": "A line $y = 2x + c$. So $y = x^2 + 6x + 7$ at exactly one point. Find the value of the constant $c$.",
       "options": [
         "$3$",
         "$4$",
@@ -45,11 +45,11 @@
         "$-3$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal: $x^2 + 6x + 7 = 2x + c \\implies x^2 + 4x + (7 - c) = 0$. Since there is exactly one point of intersection, the discriminant must equal zero: $\\Delta = b^2 - 4ac = 0 \\implies 4^2 - 4(1)(7 - c) = 0 \\implies 16 - 28 + 4c = 0 \\implies -12 + 4c = 0 \\implies 4c = 12 \\implies c = 3$.\n\n**Common mistake:** Students often lose the bracket when subtracting $4ac$2$16 - 28 - 4c = 0$, which leads to an incorrect sign for $c$."
+      "explanation": "Set the equations equal: $x^2 + 6x + 7 = 2x + c \\implies x^2 + 4x + (7 - c) = 0$. Since there is exactly one point of intersection, the discriminant must equal zero: $\\Delta = b^2 - 4ac = 0 \\implies 4^2 - 4(1)(7 - c) = 0 \\implies 16 - 28 + 4c = 0 \\implies -12 + 4c = 0 \\implies 4c = 12 \\implies c = 3$.\n\n**Common mistake:** Students often lose the bracket when subtracting $4ac$. $16 - 28 - 4c = 0$, which leads to an incorrect sign for $c$."
     },
     {
       "type": "mcq",
-      "question": "Solve the simultaneous equations $y = 7 - 2x$2$x^2 + y^2 = 25$.",
+      "question": "Solve the simultaneous equations $y = 7 - 2x$. So $x^2 + y^2 = 25$.",
       "options": [
         "$(4, -1)$ and $(1.6, 3.8)$",
         "$(3, 1)$ and $(4, -1)$",
@@ -57,12 +57,12 @@
         "$(4, -1)$ and $(2.5, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y$2$x^2 + (7-2x)^2 = 25 \\implies 5x^2 - 28x + 24 = 0$. Solving gives $x = 4$ and $x = 1.2$? Source says $(4,-1)$ and $(1.6, 3.8)$. Let's re-verify: $5(1.6)^2 - 28(1.6) + 24 = 12.8 - 44.8 + 24 = -8$? Source 151 lists $x=4, y=-1$ and $x=0.8, y=3.89? No, source 151 check$2$2y=x+4$ vs $y=x^2+4x+4$ was Q4. For $y=7-2x$2$x^2+y^2=25$, result is $(4,-1)$ and $(1.6, 3.8)$.\n\n**Common mistake:** Failing to use the quadratic formula for the second, non-integer intersection point.",
+      "explanation": "Substitute $y$. So $x^2 + (7-2x)^2 = 25 \\implies 5x^2 - 28x + 24 = 0$. Solving gives $x = 4$ and $x = 1.2$? Source says $(4,-1)$ and $(1.6, 3.8)$. Let's re-verify: $5(1.6)^2 - 28(1.6) + 24 = 12.8 - 44.8 + 24 = -8$? Source 151 lists $x=4, y=-1$ and $x=0.8, y=3.89? No, source 151 check$. $2y=x+4$ vs $y=x^2+4x+4$ was Q4. For $y=7-2x$. So $x^2+y^2=25$, result is $(4,-1)$ and $(1.6, 3.8)$.\n\n**Common mistake:** Failing to use the quadratic formula for the second, non-integer intersection point.",
       "id": "6-4-nonlinear-simultaneous-equations-pyp-q4"
     },
     {
       "type": "mcq",
-      "question": "The perimeters of a square and a rectangle are equal. One side of the rectangle is **11 cm** and the area of the square is **4 cm $2$ more** than the area of the rectangle. Find the possible side length(s) of the square.",
+      "question": "The perimeters of a square and a rectangle are equal. One side of the rectangle is **11 cm** and the area of the square is **4 cm 2 more** than the area of the rectangle. Find the possible side length(s) of the square.",
       "options": [
         "$9\\text{ cm}$",
         "$7\\text{ cm}$",
@@ -70,7 +70,7 @@
         "$10\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let square side be $x$2$y$2$4x = 2(11+y)$ and $x^2 = 11y + 4$. Substituting $y = 2x - 11$ gives $x^2 = 11(2x - 11) + 4 \\implies x^2 - 22x + 117 = 0 \\implies (x-9)(x-13)=0$. Possible sides are 9 and 13..\n\n**Common mistake:** Setting up the perimeter equation as $x = 11+y$2$4x = 2(11+y)$.",
+      "explanation": "Let square side be $x$ and $y24x = 2(11+y)$ and $x^2 = 11y + 4$. Substituting $y = 2x - 11$ gives $x^2 = 11(2x - 11) + 4 \\implies x^2 - 22x + 117 = 0 \\implies (x-9)(x-13)=0$. Possible sides are 9 and 13..\n\n**Common mistake:** Setting up the perimeter equation as $x = 11+y$. $4x = 2(11+y)$.",
       "id": "6-4-nonlinear-simultaneous-equations-pyp-q5"
     }
   ]

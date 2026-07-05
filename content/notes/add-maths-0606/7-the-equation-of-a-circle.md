@@ -6,10 +6,11 @@ A circle is defined as the locus of all points that are a fixed distance (the ra
 
 $$
 \text{Standard Form: } (x - h)^2 + (y - k)^2 = r^2 \quad (\text{Center: } (h,k), \text{ Radius: } r)
-
-\text{General Form: } x^2 + y^2 + 2gx + 2fy + c = 0 \quad (\text{Center: } (-g, -f), \text{ Radius: } \sqrt{g^2 + f^2 - c})
 $$
 
+$$
+\text{General Form: } x^2 + y^2 + 2gx + 2fy + c = 0 \quad (\text{Center: } (-g, -f), \text{ Radius: } \sqrt{g^2 + f^2 - c})
+$$
 
 ## Steps / method
 

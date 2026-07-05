@@ -7,16 +7,17 @@ Integration reverses differentiation in kinematics. Given acceleration or veloci
 $$
 v = \int a\, dt, \quad s = \int v\, dt
 $$
-
-$$
-\Delta s = \int_{t_1}^{t_2} v(t)\, dt, \quad \text{Total distance} = \int_{t_1}^{t_2} |v(t)|\, dt
-$$
+$\Delta s = \int_{t_1}^{t_2} v(t)\, dt, \quad \text{Total distance} = \int_{t_1}^{t_2} |v(t)|\, dt$
 
 ## Steps / method
 
-1. **Integrate** the given expression with respect to $t$ and include $+C$.
-2. **Use** an initial condition (e.g. $v = 2$ when $t = 0$) to find $C$.
+1. **Integrate** the given expression with respect to $t$ and include $+C.$
+
+2. **Use** an initial condition (e.g22v = 2$when$t = 0$) to find$ C2
+
 3. **Integrate** again if displacement is required.
+
+
 4. **Split** the time interval and use $|v(t)|$ for total distance when the particle changes direction.
 
 ### Key rule

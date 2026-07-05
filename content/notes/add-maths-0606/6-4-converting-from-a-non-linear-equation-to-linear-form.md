@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Apply logarithms** (or divide by $x$) to both sides of the non-linear equation.
+
 2. **Use log laws** — product and power rules — to isolate variables.
+
 3. **Map to** $Y = mX + c$ — identify $Y$, $X$, gradient $m$, and intercept $c$.
 
 ### Key rule

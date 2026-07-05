@@ -15,7 +15,7 @@
       "options": [
         "$3$",
         "$4$",
-        "$2$",
+        "2",
         "$6$"
       ],
       "correctIndex": 0,
@@ -63,7 +63,7 @@
     {
       "id": "14-1-14-3-probability-rules-hard-q5",
       "type": "mcq",
-      "question": "Three mutually exclusive events $A, B$2$C$2$P(A) = x, P(B) = 2x$2$P(C) = 0.4$, find the probability of event $A$2$B$ occurring.",
+      "question": "Three mutually exclusive events $A, B$ and $C2P(A) = x, P(B) = 2x$. So $P(C) = 0.4$, find the probability of event $A$ and $B$ occurring.",
       "options": [
         "$0.6$",
         "$0.2$",
@@ -71,7 +71,7 @@
         "$0.8$"
       ],
       "correctIndex": 0,
-      "explanation": "Since they cover all outcomes, $x + 2x + 0.4 = 1 \\rightarrow 3x = 0.6 \\rightarrow x = 0.2$. $P(A \\text{ or } B) = P(A) + P(B) = 0.2 + 0.4 = 0.6$.\n\n**Common mistake:** Solving for $x$2$P(A)$ and $P(B)$ for the 'OR' result."
+      "explanation": "Since they cover all outcomes, $x + 2x + 0.4 = 1 \\rightarrow 3x = 0.6 \\rightarrow x = 0.2$. $P(A \\text{ or } B) = P(A) + P(B) = 0.2 + 0.4 = 0.6$.\n\n**Common mistake:** Solving for $x$. $P(A)$ and $P(B)$ for the 'OR' result."
     }
   ]
 }

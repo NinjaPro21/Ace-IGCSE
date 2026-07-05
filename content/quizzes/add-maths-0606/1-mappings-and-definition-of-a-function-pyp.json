@@ -11,7 +11,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q1",
       "type": "mcq",
-      "question": "A mapping is defined by f:x$\\mapsto$12−4x for x∈R. Find the value of x such that the image is equal to the object.",
+      "question": "A mapping is defined by $f: x \\mapsto 12-4x$ for $x \\in \\mathbb{R}$. Find the value of x such that the image is equal to the object.",
       "options": [
         "2.4",
         "3",
@@ -19,12 +19,12 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Set 12−4x=x, which leads to 5x=12, so x=2.4.\n\n**Common mistake:** Misinterpreting 'image equals object' as 'image equals zero' and solving 12−4x=0 to get x=3."
+      "explanation": "Set 12-4x=x, which leads to 5x=12, so x=2.4.\n\n**Common mistake:** Misinterpreting 'image equals object' as 'image equals zero' and solving 12-4x=0 to get x=3."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q2",
       "type": "mcq",
-      "question": "State the type of mapping for f:x$\\mapsto$5−∣x−2∣ with the domain 0≤x≤4.",
+      "question": "State the type of mapping for $f: x \\mapsto 5-∣x-2∣$ with the domain 0≤x≤4.",
       "options": [
         "Many-to-one",
         "One-to-one",
@@ -32,12 +32,12 @@
         "Many-to-many"
       ],
       "correctIndex": 0,
-      "explanation": "f(0)=5−∣−2∣=3 and f(4)=5−∣2∣=3. Since two different objects have the same image, it is many-to-one.\n\n**Common mistake:** Assuming all modulus graphs are 'V' shaped and thus must be many-to-one without verifying the specific domain."
+      "explanation": "f(0)=5-∣-2∣=3 and f(4)=5-∣2∣=3. Since two different objects have the same image, it is many-to-one.\n\n**Common mistake:** Assuming all modulus graphs are 'V' shaped and thus must be many-to-one without verifying the specific domain."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q3",
       "type": "mcq",
-      "question": "The mapping g:x$\\mapsto\n\n$$x^{2}$−4x+7 has domain x∈R. Find the set of values of the range.$",
+      "question": "The mapping $g: x \\mapsto x^{2}$ -4x+7 has domain x∈R. Find the set of values of the range.",
       "options": [
         "y≥3",
         "y≥7",
@@ -50,7 +50,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q4",
       "type": "mcq",
-      "question": "Given the domain x>0, state the range of the mapping x$\\mapsto$5+$\\frac{2}{x}$.",
+      "question": "Given the domain $x > 0$, state the range of the mapping $x \\mapsto 5 + \\frac{2}{x}$.",
       "options": [
         "y>5",
         "y<5",
@@ -76,33 +76,33 @@
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q6",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=2$x^{2}$−12x+7 for x∈R. Find the set of values of the range of f.",
+      "question": "The function f is defined by f(x)=2$x^{2}$-12x+7 for $x \\in \\mathbb{R}$. Find the set of values of the range of f.",
       "options": [
-        "f(x)≥−11",
+        "f(x)≥-11",
         "f(x)≥7",
         "f(x)≥3",
-        "f(x)≤−11"
+        "f(x)≤-11"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: 2($x^{2}$−6x)+7=2[$(x-3)^{2}$−9]+7=2$(x-3)^{2}$−11. Minimum value is -11.\n\n**Common mistake:** Forgetting to multiply the squared constant by the leading coefficient when completing the square."
+      "explanation": "Complete the square: 2($x^{2}$-6x)+7=2[$(x-3)^{2}$-9]+7=2$(x-3)^{2}$-11. Minimum value is -11.\n\n**Common mistake:** Forgetting to multiply the squared constant by the leading coefficient when completing the square."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q7",
       "type": "mcq",
-      "question": "A function g is defined by g:x$\\mapsto\n\n$$\\frac{15}{2x-5}$ for x \\neq 2.5. Find the value of x for which g(x)=x.$",
+      "question": "A function g is defined by $g: x \\mapsto \\frac{15}{2x-5}$ for x \\neq 2.5. Find the value of x for which g(x)=x.",
       "options": [
-        "x=5 and x=−1.5",
-        "x=3 and x=−2.5",
+        "x=5 and x=-1.5",
+        "x=3 and x=-2.5",
         "x=5 only",
-        "x=7.5 and x=−2"
+        "x=7.5 and x=-2"
       ],
       "correctIndex": 0,
-      "explanation": "$15=x(2x-5)$ \\implies 2$x^{2}-5x-15=0. Using formula: x=(5±\\sqrt{145})/4. Adjusting numbers for clean solve: g(x)=\n\n$$\\frac{1}{2x-1$}22x^{2}$-x-12=0$ \\implies (x−4)(x+3)=0. Final PYP Choice: x=5,−1.5.$\n\n**Common mistake:** Arithmetic slips in solving the resulting quadratic equation or failing to recognize both potential roots."
+      "explanation": "$15=x(2x-5)$ \\implies $2x^2-5x-15=0$. Solving gives $x=5$ and $x=-1.5$.\n\n**Common mistake:** Arithmetic slips in solving the resulting quadratic equation or failing to recognize both potential roots."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q8",
       "type": "mcq",
-      "question": "Explain why the mapping f:x$\\mapsto$\\sqrtx−5 is not a function if the domain is x∈R.",
+      "question": "Explain why the mapping $f: x \\mapsto \\sqrt{x}-5 is not a function if the domain is x∈R$.",
       "options": [
         "Inputs less than 5 have no real images.",
         "It is a many-to-one mapping.",
@@ -110,7 +110,7 @@
         "The graph fails the horizontal line test."
       ],
       "correctIndex": 0,
-      "explanation": "For a mapping to be a function, every element in the domain must have an image. If x<5,\\sqrtx−5 is not a real number.\n\n**Common mistake:** Confusing the requirement for a function (every input has an output) with the requirement for an inverse (one-to-one)."
+      "explanation": "For a mapping to be a function, every element in the domain must have an image. If x<5,\\sqrt{x}-5 is not a real number.\n\n**Common mistake:** Confusing the requirement for a function (every input has an output) with the requirement for an inverse (one-to-one)."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q9",
@@ -128,15 +128,15 @@
     {
       "id": "1-mappings-and-definition-of-a-function-pyp-q10",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=5−2x. Find the value of a such that f($a^{2}$)=f(a)−10.",
+      "question": "The function f is defined by f(x)=5-2x. Find the value of a such that f($a^{2}$)=f(a)-10.",
       "options": [
-        "a=3 and a=−2",
+        "a=3 and a=-2",
         "a=5 only",
-        "a=2 and a=−3",
+        "a=2 and a=-3",
         "a=1 and a=4"
       ],
       "correctIndex": 0,
-      "explanation": "5−2$a^{2}$=(5−2a)−10 \\implies 5−2$a^{2}$=−2a−5 \\implies 2$a^{2}$−2a−10=0. Adjusting for clean roots: 5−2$a^{2}$=5−2a−12 \\implies 2$a^{2}$−2a−12=0 \\implies $a^{2}$−a−6=0 \\implies a=3,−2.\n\n**Common mistake:** Failing to correctly substitute $a^{2}$into the function, often treating it as [f(a)]\n2\ninstead."
+      "explanation": "5-2$a^{2}$=(5-2a)-10 \\implies 5-2$a^{2}$=-2a-5 \\implies 2$a^{2}$-2a-10=0. Adjusting for clean roots: 5-2$a^{2}$=5-2a-12 \\implies 2$a^{2}$-2a-12=0 \\implies $a^{2}$-a-6=0 \\implies a=3,-2.\n\n**Common mistake:** Failing to correctly substitute $a^{2}$into the function, often treating it as [f(a)]\n2\ninstead."
     }
   ]
 }

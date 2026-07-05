@@ -19,7 +19,7 @@
         "$150\\text{ km}$"
       ],
       "correctIndex": 0,
-      "explanation": "Actual distance in cm = $6 \\times 25\\,000 = 150\\,000\\text{ cm}$. To convert to meters, divide by $100$: $150\\,000 \\div 100 = 1500\\text{ m}$. To convert to kilometers, divide by $1000$: $1500 \\div 1000 = 1.5\\text{ km}$.\n\n**Common mistake:** Students often lose track of the zeros during unit conversion, mistakenly dividing by $1000$ instead of $100\\,000$ overall."
+      "explanation": "Actual distance in cm = $6 \\times 25\\,000 = 150\\,000\\text{ cm}$. To convert to meters, divide by^100: $150\\,000 \\div 100 = 1500\\text{ m}$. To convert to kilometers, divide by^1000: $1500 \\div 1000 = 1.5\\text{ km}$.\n\n**Common mistake:** Students often lose track of the zeros during unit conversion, mistakenly dividing by^1000 instead of $100\\,000$ overall."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q2",
@@ -32,7 +32,7 @@
         "$1 : 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Express both lengths in centimeters first. $12\\text{ km} = 12 \\times 100\\,000 = 1\\,200\\,000\\text{ cm}$. The ratio is $4 : 1\\,200\\,000$. Divide both sides by $4$ to give a unit form of $1 : 300\\,000$.\n\n**Common mistake:** Students frequently forget to convert kilometers into centimeters, writing $4 : 12 \\implies 1 : 3$."
+      "explanation": "Express both lengths in centimeters first. $12\\text{ km} = 12 \\times 100\\,000 = 1\\,200\\,000\\text{ cm}$. The ratio is $4 : 1\\,200\\,000$. Divide both sides by^4 to give a unit form of $1 : 300\\,000$.\n\n**Common mistake:** Students frequently forget to convert kilometers into centimeters, writing $4 : 12 \\implies 1 : 3$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q3",
@@ -45,7 +45,7 @@
         "$175\\,000\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "Actual distance in cm = $3.5 \\times 50\\,000 = 175\\,000\\text{ cm}$. Convert centimeters to meters by dividing by $100$: $175\\,000 \\div 100 = 1750\\text{ m}$.\n\n**Common mistake:** Dividing or multiplying by the wrong power of 10, often resulting in $175\\text{ m}$ or keeping it in cm."
+      "explanation": "Actual distance in cm = $3.5 \\times 50\\,000 = 175\\,000\\text{ cm}$. Convert centimeters to meters by dividing by^100: $175\\,000 \\div 100 = 1750\\text{ m}$.\n\n**Common mistake:** Dividing or multiplying by the wrong power of 10, often resulting in $175\\text{ m}$ or keeping it in cm."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q4",
@@ -58,7 +58,7 @@
         "$2\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Convert actual distance to cm: $16\\text{ km} = 16 \\times 100\\,000 = 1\\,600\\,000\\text{ cm}$. Map distance = $1\\,600\\,000 \\div 200\\,000 = 8\\text{ cm}$.\n\n**Common mistake:** Dividing $16$ directly by $200\\,000$ or miscounting the number of zeros eliminated during division."
+      "explanation": "Convert actual distance to cm: $16\\text{ km} = 16 \\times 100\\,000 = 1\\,600\\,000\\text{ cm}$. Map distance = $1\\,600\\,000 \\div 200\\,000 = 8\\text{ cm}$.\n\n**Common mistake:** Dividing^16 directly by $200\\,000$ or miscounting the number of zeros eliminated during division."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q5",
@@ -75,7 +75,7 @@
     },
     {
       "type": "mcq",
-      "question": "In the standard straight-line equation $y = mx + c$2$c$** represent?",
+      "question": "In the standard straight-line equation $y = mx + c$ and $c$** represent?",
       "options": [
         "The intercept on the y-axis",
         "The gradient of the line",
@@ -83,7 +83,7 @@
         "The coordinates of the origin"
       ],
       "correctIndex": 0,
-      "explanation": "When the equation of a straight line is written in the form $y = mx + c$2$c$ is the intercept on the y-axis.\n\n**Common mistake:** Students often confuse $m$2$c$ (the y-intercept).",
+      "explanation": "When the equation of a straight line is written in the form $y = mx + c$ and $c$ is the intercept on the y-axis.\n\n**Common mistake:** Students often confuse $m  and c$ (the y-intercept).",
       "id": "ch03-coordinate-geometry-graphs-easy-q6"
     },
     {
@@ -109,7 +109,7 @@
         "(2, 0)"
       ],
       "correctIndex": 0,
-      "explanation": "By comparing $y = 2x - 3$ to $y = mx + c$2$c = -3$. The y-intercept occurs where $x=0$, so the point is (0, -3).\n\n**Common mistake:** Providing the intercept as a single number (-3) without coordinate brackets or reversing the order to (-3, 0).",
+      "explanation": "By comparing $y = 2x - 3$ to $y = mx + c$. So $c = -3$. The y-intercept occurs where $x=0$, so the point is (0, -3).\n\n**Common mistake:** Providing the intercept as a single number (-3) without coordinate brackets or reversing the order to (-3, 0).",
       "id": "ch03-coordinate-geometry-graphs-easy-q8"
     },
     {
@@ -143,18 +143,18 @@
       "type": "mcq",
       "question": "Find the gradient of the straight line that passes through the points (4,10) and (8,2).",
       "options": [
-        "−2",
+        "-2",
         "2",
-        "−0.5",
+        "-0.5",
         "0.5"
       ],
       "correctIndex": 0,
-      "explanation": "Using the gradient formula m=($y^{2}$\n−$y^{1}$\n)/($x^{2}$\n−$x^{1}$\n), we get (2−10)/(8−4)=−8/4=−2.\n\n**Common mistake:** A student might calculate\nDeltax/\nDeltay or fail to maintain consistency in the subtraction order between the numerator and denominator."
+      "explanation": "Using the gradient formula m=($y^{2}$\n-$y^{1}$\n)/($x^{2}$\n-$x^{1}$\n), we get (2-10)/(8-4)=-8/4=-2.\n\n**Common mistake:** A student might calculate\nDeltax/\nDeltay or fail to maintain consistency in the subtraction order between the numerator and denominator."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q12",
       "type": "mcq",
-      "question": "Calculate the coordinates of the midpoint of the line segment joining the points (−2,4) and (6,12).",
+      "question": "Calculate the coordinates of the midpoint of the line segment joining the points (-2,4) and (6,12).",
       "options": [
         "(2,8)",
         "(4,16)",
@@ -162,7 +162,7 @@
         "(2,4)"
       ],
       "correctIndex": 0,
-      "explanation": "The midpoint formula is (($x^{1}$\n+$x^{2}$\n)/2,($y^{1}$\n+$y^{2}$\n)/2). Substituting the values gives ((−2+6)/2,(4+12)/2)=(2,8).\n\n**Common mistake:** The student may forget to divide by 2 or subtract the coordinates instead of adding them."
+      "explanation": "The midpoint formula is (($x^{1}$\n+$x^{2}$\n)/2,($y^{1}$\n+$y^{2}$\n)/2). Substituting the values gives ((-2+6)/2,(4+12)/2)=(2,8).\n\n**Common mistake:** The student may forget to divide by 2 or subtract the coordinates instead of adding them."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q13",
@@ -171,24 +171,24 @@
       "options": [
         "10 units",
         "14 units",
-        "\\sqrt{100} units",
-        "\\sqrt{14} units"
+        "$$\n\\sqrt{100} units\n",
+        "$$\n\\sqrt{14} units\n"
       ],
       "correctIndex": 0,
-      "explanation": "Using the distance formula\nsqrt($x^{2}$\n−$x^{1}$\n$)^{2}$+($y^{2}$\n−$y^{1}$\n$)^{2}$, we get\nsqrt$(13-5)^{2}$+$(7-1)^{2}$=\nsqrt$8^{2}$+$6^{2}$=\nsqrt100=10.\n\n**Common mistake:** The student might add the coordinates directly or forget to take the square root at the end."
+      "explanation": "Using the distance formula\nsqrt($x^{2}$\n-$x^{1}$\n$)^{2}$+($y^{2}$\n-$y^{1}$\n$)^{2}$, we get\nsqrt$(13-5)^{2}$+$(7-1)^{2}$=\\sqrt$8^{2}$+$6^{2}$=\\sqrt100=10.\n\n**Common mistake:** The student might add the coordinates directly or forget to take the square root at the end."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q14",
       "type": "mcq",
-      "question": "Identify the y-intercept of the line represented by the equation 2x−3y=12.",
+      "question": "Identify the y-intercept of the line represented by the equation 2x-3y=12.",
       "options": [
-        "(0,−4)",
+        "(0,-4)",
         "(0,4)",
         "(6,0)",
         "(0,12)"
       ],
       "correctIndex": 0,
-      "explanation": "Setting x=0 in the equation 2x−3y=12 gives −3y=12, which simplifies to y=−4.\n\n**Common mistake:** The student might pick the constant 12 or solve for the x-intercept by setting y=0 instead."
+      "explanation": "Setting x=0 in the equation 2x-3y=12 gives -3y=12, which simplifies to y=-4.\n\n**Common mistake:** The student might pick the constant 12 or solve for the x-intercept by setting y=0 instead."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q15",
@@ -201,16 +201,16 @@
         "Infinite"
       ],
       "correctIndex": 0,
-      "explanation": "Horizontal lines have a constant y-value, meaning $y^{2}$\n−$y^{1}$\n=0. Since the numerator of the gradient formula is zero, the gradient is 0.\n\n**Common mistake:** The student may confuse horizontal and vertical lines, leading to an 'undefined' answer."
+      "explanation": "Horizontal lines have a constant y-value, meaning $y^{2}$\n-$y^{1}$\n=0. Since the numerator of the gradient formula is zero, the gradient is 0.\n\n**Common mistake:** The student may confuse horizontal and vertical lines, leading to an 'undefined' answer."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q16",
       "type": "mcq",
-      "question": "A straight line has the equation y=4x−7. What is the gradient of any line that is parallel to this line?",
+      "question": "A straight line has the equation y=4x-7. What is the gradient of any line that is parallel to this line?",
       "options": [
         "4",
-        "−7",
-        "−0.25",
+        "-7",
+        "-0.25",
         "0.25"
       ],
       "correctIndex": 0,
@@ -221,52 +221,52 @@
       "type": "mcq",
       "question": "If a line has a gradient of 5, what is the gradient of a line perpendicular to it?",
       "options": [
-        "−0.2",
+        "-0.2",
         "5",
-        "−5",
+        "-5",
         "0.2"
       ],
       "correctIndex": 0,
-      "explanation": "The product of the gradients of perpendicular lines is −1. Therefore, the perpendicular gradient is the negative reciprocal of 5, which is −1/5=−0.2.\n\n**Common mistake:** The student might just change the sign to −5 or forget the sign and only take the reciprocal 0.2."
+      "explanation": "The product of the gradients of perpendicular lines is -1. Therefore, the perpendicular gradient is the negative reciprocal of 5, which is -1/5=-0.2.\n\n**Common mistake:** The student might just change the sign to -5 or forget the sign and only take the reciprocal 0.2."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q18",
       "type": "mcq",
-      "question": "Which of the following lines is parallel to y=2−3x?",
+      "question": "Which of the following lines is parallel to y=2-3x?",
       "options": [
-        "y=−3x+10",
-        "y=2x−3",
+        "y=-3x+10",
+        "y=2x-3",
         "y=3x+2",
         "y=0.33x+2"
       ],
       "correctIndex": 0,
-      "explanation": "The gradient of the original line is −3. The line y=−3x+10 has the same gradient and is therefore parallel.\n\n**Common mistake:** The student may misidentify the gradient as 2 because it is the first number in the equation, or confuse −3x with 3x."
+      "explanation": "The gradient of the original line is -3. The line y=-3x+10 has the same gradient and is therefore parallel.\n\n**Common mistake:** The student may misidentify the gradient as 2 because it is the first number in the equation, or confuse -3x with 3x."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q19",
       "type": "mcq",
-      "question": "Two lines are perpendicular. If the gradient of the first line is $m^{1}$\n=−0.5, what is the gradient of the second line $m^{2}$\n?",
+      "question": "Two lines are perpendicular. If the gradient of the first line is $m^{1}$\n=-0.5, what is the gradient of the second line $m^{2}$\n?",
       "options": [
         "2",
-        "−2",
+        "-2",
         "0.5",
-        "−0.5"
+        "-0.5"
       ],
       "correctIndex": 0,
-      "explanation": "For perpendicular lines, $m^{1}$\n×$m^{2}$\n=−1. Substituting gives −0.5×$m^{2}$\n=−1, so $m^{2}$\n=−1/−0.5=2.\n\n**Common mistake:** The student might think the gradients should be the same for perpendicular lines or simply change the sign without taking the reciprocal."
+      "explanation": "For perpendicular lines, $m^{1}$\n×$m^{2}$\n=-1. Substituting gives -0.5×$m^{2}$\n=-1, so $m^{2}$\n=-1/-0.5=2.\n\n**Common mistake:** The student might think the gradients should be the same for perpendicular lines or simply change the sign without taking the reciprocal."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q20",
       "type": "mcq",
       "question": "State the condition for two lines with gradients $m^{1}$\nand $m^{2}$\nto be perpendicular to each other.",
       "options": [
-        "$m^{1}$\n×$m^{2}$\n=−1",
+        "$m^{1}$\n×$m^{2}$\n=-1",
         "$m^{1}$\n=m\n2",
         "$m^{1}$\n+$m^{2}$\n=0",
         "$m^{1}$\n×$m^{2}$\n=1"
       ],
       "correctIndex": 0,
-      "explanation": "By definition, two lines are perpendicular if the product of their gradients is −1.\n\n**Common mistake:** The student might confuse the condition for perpendicular lines with that for parallel lines ($m^{1}$\n=$m^{2}$\n)."
+      "explanation": "By definition, two lines are perpendicular if the product of their gradients is -1.\n\n**Common mistake:** The student might confuse the condition for perpendicular lines with that for parallel lines ($m^{1}$\n= m^{2}\n)."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q21",
@@ -279,12 +279,12 @@
         "A curve with two branches and two asymptotes"
       ],
       "correctIndex": 0,
-      "explanation": "For a quadratic function $y = ax^2 + bx + c$2$x^2$ ($a$) is negative, the curve is ∩-shaped and has a maximum turning point.\n\n**Common mistake:** A student might assume all quadratics are ∪-shaped or confuse the negative constant with a negative gradient of a linear graph."
+      "explanation": "For a quadratic function $y = ax^2 + bx + c$. $x^2$ ($a$) is negative, the curve is ∩-shaped and has a maximum turning point.\n\n**Common mistake:** A student might assume all quadratics are ∪-shaped or confuse the negative constant with a negative gradient of a linear graph."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q22",
       "type": "mcq",
-      "question": "Identify the coordinates of the $y$2$y = x^3 + 5x^2 - 2x - 7$.",
+      "question": "Identify the coordinates of the $y$. So $y = x^3 + 5x^2 - 2x - 7$.",
       "options": [
         "$(0, -7)$",
         "$(0, 1)$",
@@ -292,7 +292,7 @@
         "$(0, 7)$"
       ],
       "correctIndex": 0,
-      "explanation": "The $y$2$x = 0$. Substituting $x = 0$ into the equation leaves only the constant term, $-7$.\n\n**Common mistake:** The student might provide the $x$-intercept or forget the negative sign of the constant."
+      "explanation": "The $y$. So $x = 0$. Substituting $x = 0$ into the equation leaves only the constant term, $-7$.\n\n**Common mistake:** The student might provide the $x$-intercept or forget the negative sign of the constant."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q23",
@@ -305,12 +305,12 @@
         "$y = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "An exponential function of the form $y = a^x + c$2$y = c$2$a^x$ term can approach but never reach zero.\n\n**Common mistake:** The student may assume the asymptote is always the $x$2$y = 0$) regardless of the vertical shift."
+      "explanation": "An exponential function of the form $y = a^x + c$. So $y = c2a^x$ term can approach but never reach zero.\n\n**Common mistake:** The student may assume the asymptote is always the $x$. So $y = 0$) regardless of the vertical shift."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q24",
       "type": "mcq",
-      "question": "For the reciprocal function $y = 8/x$2$y$2$x$ becomes a very large positive number?",
+      "question": "For the reciprocal function $y = 8/x$ and $y2x$ becomes a very large positive number?",
       "options": [
         "$y$ approaches 0",
         "$y$ approaches 8",
@@ -318,7 +318,7 @@
         "$y$ remains constant"
       ],
       "correctIndex": 0,
-      "explanation": "In a reciprocal function $y = k/x$2$x$2$k/x$2$y = 0$.\n\n**Common mistake:** The student might think $y$2$k$."
+      "explanation": "In a reciprocal function $y = k/x$ and $x2k/x$. So $y = 0$.\n\n**Common mistake:** The student might think $y$ and $k$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q25",
@@ -331,12 +331,12 @@
         "$y = 5x - 0.2$"
       ],
       "correctIndex": 0,
-      "explanation": "Exponential decay occurs in functions of the form $y = ab^x$2$b$ is strictly between 0 and 1.\n\n**Common mistake:** A student may confuse the initial value $a$2$b$."
+      "explanation": "Exponential decay occurs in functions of the form $y = ab^x$ and $b$ is strictly between 0 and 1.\n\n**Common mistake:** A student may confuse the initial value $a$ and $b$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q26",
       "type": "mcq",
-      "question": "A conversion graph is used to change Litres ($L$2$G$2$(0, 0)$ and $(50, 11)$. Use this to find the approximate value of $25$ Litres in Gallons.",
+      "question": "A conversion graph is used to change Litres ($L$ and $G2(0, 0)$ and $(50, 11)$. Use this to find the approximate value of^25 Litres in Gallons.",
       "options": [
         "$5.5$ Gallons",
         "$11$ Gallons",
@@ -344,7 +344,7 @@
         "$12.5$ Gallons"
       ],
       "correctIndex": 0,
-      "explanation": "Since the graph is a straight line through the origin, we use proportion. $25$ is half of $50$, so the value in Gallons is half of $11$, which is $5.5$.\n\n**Common mistake:** A student might accidentally multiply $25$ by $11$ or divide $50$ by $25$ and think the answer is $2$."
+      "explanation": "Since the graph is a straight line through the origin, we use proportion. $25$ is half of^50, so the value in Gallons is half of^11, which is $5.5$.\n\n**Common mistake:** A student might accidentally multiply^25 by^11 or divide^50 by^25 and think the answer is 2."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q27",
@@ -375,7 +375,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q29",
       "type": "mcq",
-      "question": "A bike rental shop charges a fixed fee of $15$ plus\n\n$5$ per hour. If a graph is drawn with Cost ($C$2$h$2$y$-intercept?",
+      "question": "A bike rental shop charges a fixed fee of^15 plus^5 per hour. If a graph is drawn with Cost ($C$ and $h2y$-intercept?",
       "options": [
         "$(0, 15)$",
         "$(0, 5)$",
@@ -383,7 +383,7 @@
         "$(5, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "The fixed fee represents the cost when Time = 0. In the linear equation $C = 5h + 15$, the constant $15$ is the $y$-intercept.\n\n**Common mistake:** The student might identify the rate of change ($5$) as the intercept."
+      "explanation": "The fixed fee represents the cost when Time = 0. In the linear equation $C = 5h + 15$, the constant^15 is the $y$-intercept.\n\n**Common mistake:** The student might identify the rate of change ($5$) as the intercept."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q30",
@@ -409,7 +409,7 @@
         "$x = 11$"
       ],
       "correctIndex": 0,
-      "explanation": "The solution to the equation $f(x) = g(x)$ is the $x$-coordinate of the point where the two graphs intersect.\n\n**Common mistake:** A student might incorrectly provide the $y$2$x$-value."
+      "explanation": "The solution to the equation $f(x) = g(x)$ is the $x$-coordinate of the point where the two graphs intersect.\n\n**Common mistake:** A student might incorrectly provide the $y$ and $x$-value."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q32",
@@ -422,7 +422,7 @@
         "$y = 5x$"
       ],
       "correctIndex": 0,
-      "explanation": "The equation is solved by finding the intersection of the curve representing the left side ($y = x^2 - 5x$2$y = 4$).\n\n**Common mistake:** The student might confuse the vertical line $x = 4$ with the horizontal line $y = 4$."
+      "explanation": "The equation is solved by finding the intersection of the curve representing the left side ($y = x^2 - 5x$. So $y = 4$).\n\n**Common mistake:** The student might confuse the vertical line $x = 4$ with the horizontal line $y = 4$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q33",
@@ -431,16 +431,16 @@
       "options": [
         "$0$",
         "$1$",
-        "$2$",
+        "2",
         "Infinite"
       ],
       "correctIndex": 0,
-      "explanation": "The graph of $y = x^2 + 2$ is a $\\cup$2$(0, 2)$, which never intersects the horizontal line $y = -3$.\n\n**Common mistake:** A student might assume all quadratic equations have two solutions without considering if the graphs actually intersect."
+      "explanation": "The graph of $y = x^2 + 2$ is a $\\cup . (0, 2)$, which never intersects the horizontal line $y = -3$.\n\n**Common mistake:** A student might assume all quadratic equations have two solutions without considering if the graphs actually intersect."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q34",
       "type": "mcq",
-      "question": "The lines $y = x + 2$ and $y = 6 - x$2$(2, 4)$. State the values of $x$2$y$ that satisfy both equations simultaneously.",
+      "question": "The lines $y = x + 2$ and $y = 6 - x$. $(2, 4)$. State the values of $x$ and $y$ that satisfy both equations simultaneously.",
       "options": [
         "$x = 2, y = 4$",
         "$x = 4, y = 2$",
@@ -448,7 +448,7 @@
         "$x = 0, y = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "The point of intersection $(x, y)$ of two lines provides the simultaneous solution to the system of equations.\n\n**Common mistake:** The student might swap the $x$2$y$ values."
+      "explanation": "The point of intersection $(x, y)$ of two lines provides the simultaneous solution to the system of equations.\n\n**Common mistake:** The student might swap the $x$ and $y$ values."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q35",
@@ -461,7 +461,7 @@
         "The origin"
       ],
       "correctIndex": 0,
-      "explanation": "The equation $f(x) = 0$ corresponds to the points where the graph intersects the line $y = 0$, which is the $x$-axis.\n\n**Common mistake:** Students often confuse the $x$2$y$-intercept (the constant term)."
+      "explanation": "The equation $f(x) = 0$ corresponds to the points where the graph intersects the line $y = 0$, which is the $x$-axis.\n\n**Common mistake:** Students often confuse the $x$ and $y$-intercept (the constant term)."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q36",
@@ -479,7 +479,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q37",
       "type": "mcq",
-      "question": "Calculate the gradient of the curve $y = x^2 - 10x$2$x = 3$.",
+      "question": "Calculate the gradient of the curve $y = x^2 - 10x$. So $x = 3$.",
       "options": [
         "$-4$",
         "$-7$",
@@ -518,7 +518,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-easy-q40",
       "type": "mcq",
-      "question": "Differentiate $y = \\frac{1}{3}x^3 + 5x$2$x$.",
+      "question": "Differentiate $y = \\frac{1}{3}x^3 + 5x$ and $x$.",
       "options": [
         "$x^2 + 5$",
         "$x^3 + 5$",
@@ -526,7 +526,7 @@
         "$3x^2 + 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiplying the power by the coefficient ($\\frac{1}{3} \\times 3 = 1$) and reducing the power ($3-1=2$) gives $x^2$. The derivative of $5x$ is 5.\n\n**Common mistake:** The student may fail to multiply the $\\frac{tion}{}$ by the exponent correctly."
+      "explanation": "Multiplying the power by the coefficient ($\\frac{1}{3} \\times 3 = 1$) and reducing the power ($3-1=2$) gives $x^2$. The derivative of $5x$ is 5.\n\n**Common mistake:** The student may fail to multiply the $fraction$ by the exponent correctly."
     }
   ]
 }

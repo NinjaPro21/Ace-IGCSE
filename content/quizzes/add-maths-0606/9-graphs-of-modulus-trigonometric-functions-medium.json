@@ -32,7 +32,7 @@
         "$0 \\le y \\le 1$"
       ],
       "correctIndex": 0,
-      "explanation": "The original range of $2 \\sin x$2$-2$ to^2. The modulus reflects the negative values, so the range becomes^0 to^2.\n\n**Common mistake:** Providing the range of the original function without applying the modulus reflection."
+      "explanation": "The original range of $2 \\sin x$. $-2$ to^2. The modulus reflects the negative values, so the range becomes^0 to^2.\n\n**Common mistake:** Providing the range of the original function without applying the modulus reflection."
     },
     {
       "id": "9-graphs-of-modulus-trigonometric-functions-medium-q3",
@@ -45,12 +45,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The period of $\\tan 2x$2$180/2 = 90°$. In a 360° interval, there are $360/90 = 4$ cycles.\n\n**Common mistake:** Using 360° as the base period for tangent, leading to only 2 cycles."
+      "explanation": "The period of $\\tan 2x$. $180/2 = 90°$. In a 360° interval, there are $360/90 = 4$ cycles.\n\n**Common mistake:** Using 360° as the base period for tangent, leading to only 2 cycles."
     },
     {
       "id": "9-graphs-of-modulus-trigonometric-functions-medium-q4",
       "type": "mcq",
-      "question": "The graph $y = a \\cos x + c$2$a$2$c$2$a > 0$).",
+      "question": "The graph $y = a \\cos x + c$ and $a2c$. $a > 0$).",
       "options": [
         "$a = 3, c = 2$",
         "$a = 2, c = 3$",
@@ -63,7 +63,7 @@
     {
       "id": "9-graphs-of-modulus-trigonometric-functions-medium-q5",
       "type": "mcq",
-      "question": "How many $x$2$y = |\\sin x|$ have in the interval $0 \\le x \\le 2\\pi$?",
+      "question": "How many $x$. So $y = |\\sin x|$ have in the interval $0 \\le x \\le 2\\pi$?",
       "options": [
         "3",
         "2",
@@ -71,7 +71,7 @@
         "5"
       ],
       "correctIndex": 0,
-      "explanation": "The graph meets the axis at $x = 0, \\pi,$ and $2\\pi$. The modulus does not change these intercepts.\n\n**Common mistake:** Missing one of the boundary intercepts (usually 0 or $2\\pi$)."
+      "explanation": "The graph meets the axis at $x = 0, \\pi,$ and $2\\pi^2 The modulus does not change these intercepts.$\n\n**Common mistake:** Missing one of the boundary intercepts (usually 0 or 2\\pi )."
     }
   ]
 }

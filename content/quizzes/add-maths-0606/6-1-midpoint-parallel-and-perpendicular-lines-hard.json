@@ -19,7 +19,7 @@
         "$y = \\frac{1}{3}x + \\frac{7}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint $M = (2, 3)$. Gradient $PQ = \\frac{2-4}{5-(-1)} = -\\frac{2}{6} = -\\frac{1}{3}$. Perpendicular gradient $m = 3$. Equation: $y - 3 = 3(x - 2) \\Rightarrow y = 3x - 3$.\n\n**Common mistake:** Using an endpoint instead of the midpoint to find the constant $c$2$PQ$ itself instead of the perpendicular gradient."
+      "explanation": "Midpoint $M = (2, 3)$. Gradient $PQ = \\frac{2-4}{5-(-1)} = -\\frac{2}{6} = -\\frac{1}{3}$. Perpendicular gradient $m = 3$. Equation: $y - 3 = 3(x - 2) \\Rightarrow y = 3x - 3$.\n\n**Common mistake:** Using an endpoint instead of the midpoint to find the constant $c$. $PQ$ itself instead of the perpendicular gradient."
     },
     {
       "id": "6-1-midpoint-parallel-and-perpendicular-lines-hard-q2",
@@ -28,7 +28,7 @@
       "options": [
         "$8$",
         "$-8$",
-        "$2$",
+        "2",
         "$-2$"
       ],
       "correctIndex": 0,
@@ -37,20 +37,20 @@
     {
       "id": "6-1-midpoint-parallel-and-perpendicular-lines-hard-q3",
       "type": "mcq",
-      "question": "Given that the line $y = mx + c$2$4x - 2y = 5$ and passes through the midpoint of the line joining $(1, 7)$ and $(5, -1)$, find $c$.",
+      "question": "Given that the line $y = mx + c$. $4x - 2y = 5$ and passes through the midpoint of the line joining $(1, 7)$ and $(5, -1)$, find $c$.",
       "options": [
         "$-3$",
         "$3$",
         "$-9$",
-        "$2$"
+        "2"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient of $4x - 2y = 5$ is^2. Midpoint is $(3, 3)$. Substituting into $y = 2x + c$2$3 = 2(3) + c \\Rightarrow c = -3$.\n\n**Common mistake:** A student might calculate the gradient as $-2$ or use one of the endpoints instead of the midpoint."
+      "explanation": "Gradient of $4x - 2y = 5$ is $1$. Midpoint is $(3, 3)$. Substituting into $y = 2x + c$. $3 = 2(3) + c \\Rightarrow c = -3$.\n\n**Common mistake:** A student might calculate the gradient as $-2$ or use one of the endpoints instead of the midpoint."
     },
     {
       "id": "6-1-midpoint-parallel-and-perpendicular-lines-hard-q4",
       "type": "mcq",
-      "question": "The line $L$2$AB$2$A$2$(0, 4)$ and $B$2$(6, 0)$. Find the coordinates of the point on $L$2$x$-axis.",
+      "question": "The line $L$. $AB2A$. $(0, 4)$ and $B$. $(6, 0)$. Find the coordinates of the point on $L$ and $x$-axis.",
       "options": [
         "$(\\frac{7}{3}, 0)$",
         "$(3, 0)$",
@@ -58,11 +58,11 @@
         "$(\\frac{13}{3}, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint $M = (3, 2)$. Gradient $AB = -4/6 = -2/3$. Perp gradient $= 1.5$. $L: y - 2 = 1.5(x - 3) \\Rightarrow y = 1.5x - 2.5$. For $x$2$y=0 \\Rightarrow 1.5x = 2.5 \\Rightarrow x = 5/3$. Let's re-calculate: $y = 1.5x - 4.5 + 2 = 1.5x - 2.5$. $0 = 1.5x - 2.5 \\Rightarrow x = 2.5/1.5 = 5/3$.\n\n**Common mistake:** Incorrectly identifying the $y$2$x$-axis."
+      "explanation": "Midpoint $M = (3, 2)$. Gradient $AB = -4/6 = -2/3$. Perp gradient $= 1.5$. $L: y - 2 = 1.5(x - 3) \\Rightarrow y = 1.5x - 2.5$. For $x$. So $y=0 \\Rightarrow 1.5x = 2.5 \\Rightarrow x = 5/3$. Let's re-calculate: $y = 1.5x - 4.5 + 2 = 1.5x - 2.5$. $0 = 1.5x - 2.5 \\Rightarrow x = 2.5/1.5 = 5/3$.\n\n**Common mistake:** Incorrectly identifying the $y$ and $x$-axis."
     },
     {
       "type": "mcq",
-      "question": "Point $M(3,1)$ is the midpoint of $AB$2$AB$2$-2$, find the equation of the perpendicular bisector of $AB$.",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
       "options": [
         "y = 0.5x - 0.5",
         "y = -2x + 7",

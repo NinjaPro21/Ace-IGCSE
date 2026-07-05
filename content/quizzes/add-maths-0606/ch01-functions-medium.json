@@ -9,28 +9,28 @@
     {
       "id": "ch01-functions-q1",
       "type": "mcq",
-      "question": "Find the inverse function $f⁻¹(x)$ for $f(x) = \\frac{2x + 3}{x - 1}$ where $x \neq 1$.",
+      "question": "Find the inverse function $f^{-1}(x) for f(x) = \\frac{2x + 3}{x - 1} where x\n\n$$\neq 12\n",
       "options": [
-        "$f⁻¹(x) = \\frac{x + 3}{x - 2}$",
-        "$f⁻¹(x) = \\frac{x - 3}{x + 2}$",
-        "$f⁻¹(x) = \\frac{2x - 3}{x + 1}$",
-        "$f⁻¹(x) = \\frac{x + 3}{2 - x}$"
+        "$f^{-1}(x) = \\frac{x + 3}{x - 2}$",
+        "$f^{-1}(x) = \\frac{x - 3}{x + 2}$",
+        "$f^{-1}(x) = \\frac{2x - 3}{x + 1}$",
+        "$f^{-1}(x) = \\frac{x + 3}{2 - x}$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange $y = \\frac{2x + 3}{x - 1}$ to solve for $x$: $yx - y = 2x + 3 \\implies x(y - 2) = y + 3 \\implies x = \\frac{y + 3}{y - 2}$. Swapping variables gives $f⁻¹(x) = \\frac{x + 3}{x - 2}$.\n\n**Common mistake:** Students often make sign errors when grouping terms containing the variable on one side, resulting in incorrect choices like $\\frac{x - 3}{x + 2}$."
+      "explanation": "Rearrange $y = \\frac{2x + 3}{x - 1}$ to solve for $x$: $yx - y = 2x + 3 \\implies x(y - 2) = y + 3 \\implies x = \\frac{y + 3}{y - 2}$. Swapping variables gives f^{-1}(x) = \\frac{x + 3}{x - 2}2\n\n**Common mistake:** Students often make sign errors when grouping terms containing the variable on one side, resulting in incorrect choices like $\\frac{x - 3}{x + 2}$."
     },
     {
       "id": "ch01-functions-q2",
       "type": "mcq",
-      "question": "The functions $f$ and $g$ are defined by $f(x) = 3x - 1$ and $g(x) = x² + 2$. Solve the equation $fg(x) = 14$.",
+      "question": "The functions $f$ and $g$ are defined by $f(x) = 3x - 1$ and $g(x) = x^2 + 2$. Solve the equation $fg(x) = 14$.",
       "options": [
-        "$x = \\pm √3$",
+        "$x = \\pm \\sqrt{3}$",
         "$x = \\pm 3$",
         "$x = 5$",
-        "$x = \\pm √5$"
+        "$x = \\pm \\sqrt{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $g(x)$ into $f(x)$ to get $fg(x) = 3(x² + 2) - 1 = 3x² + 5$. Solving $3x² + 5 = 14$ yields $3x² = 9 \\implies x² = 3 \\implies x = \\pm √3$.\n\n**Common mistake:** Students frequently work out $gf(x) = 14$ by mistake, or forget to include the negative root when solving $x² = 3$."
+      "explanation": "Substitute $g(x)$ into $f(x)$ to get $fg(x) = 3(x^2 + 2) - 1 = 3x^2 + 5$. Solving $3x^2 + 5 = 14$ yields $3x^2 = 9 \\implies x^2 = 3 \\implies x = \\pm \\sqrt{3}$.\n\n**Common mistake:** Students frequently work out $gf(x) = 14$ by mistake, or forget to include the negative root when solving $x^2 = 3$."
     },
     {
       "id": "ch01-functions-q3",
@@ -48,9 +48,9 @@
     {
       "id": "ch01-functions-q4",
       "type": "mcq",
-      "question": "The function $f(x) = x² - 4x + 7$ is defined for $x \\ge k$. In order for the inverse function $f⁻¹(x)$ to exist, find the least possible value of the constant $k$.",
+      "question": "The function $f(x) = x^2 - 4x + 7$ is defined for $x \\ge k$. In order for the inverse function f^{-1}(x)$to exist, find the least possible value of the constant k2$",
       "options": [
-        "$2$",
+        "2",
         "$4$",
         "$7$",
         "$0$"
@@ -61,15 +61,15 @@
     {
       "id": "ch01-functions-q5",
       "type": "mcq",
-      "question": "Given $f(x) = \\frac{4}{x}$ for $x \neq 0$, find the expression for the composite function $f²(x)$.",
+      "question": "Given $f(x) = \\frac{4}{x} for x\n\n$$\neq 0, find the expression for the composite function f^2(x)^{2}\n",
       "options": [
         "$x$",
         "$\\frac{16}{x}$",
-        "$\\frac{4}{x²}$",
+        "$\\frac{4}{x^2}$",
         "$\\frac{x}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "The notation $f²(x)$ means $ff(x)$. Substituting $f(x)$ into itself gives $f\\left(\\frac{4}{x}\\right) = \\frac{4}{\\frac{4}{x}} = x$.\n\n**Common mistake:** Students often misinterpret $f²(x)$ as squaring the entire expression $[f(x)]²$, which incorrectly leads to $\\frac{16}{x²}$."
+      "explanation": "The notation $f^2(x)$ means $ff(x)$. Substituting $f(x)$ into itself gives $f\\left(\\frac{4}{x}\\right) = \\frac{4}{\\frac{4}{x}} = x$.\n\n**Common mistake:** Students often misinterpret $f^2(x)$ as squaring the entire expression $[f(x)]²$, which incorrectly leads to $\\frac{16}{x^2}$."
     }
   ]
 }

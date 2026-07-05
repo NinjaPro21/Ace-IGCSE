@@ -13,7 +13,11 @@ $$
 **Reflection rule**
 
 $$
-\text{Where } f(x) \ge 0 \text{: graph unchanged} \qquad \text{Where } f(x) < 0 \text{: reflect upward}
+\text{Where } f(x) \ge 0 \text{: graph unchanged}
+$$
+
+$$
+\text{Where } f(x) < 0 \text{: reflect upward}
 $$
 
 **Vertex after reflection**
@@ -29,7 +33,7 @@ If the parent vertex is $(h, k)$ with $k < 0$, the new peak is $(h, |k|)$.
 
 ### Key rule
 
-If $f(x) \ge 0$ for all $x$ (e.g. $y = x^2 + 4$), then $|f(x)| = f(x)$ and the graph is unchanged.
+If $f(x) \ge 0$ for all $x (e.g$(2 $), then$|f(x)| = f(x)$and the graph is unchanged.$
 
 ## Worked example — W shape
 

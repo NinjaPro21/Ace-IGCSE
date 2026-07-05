@@ -43,7 +43,7 @@
         "$y = \\frac{3}{2x - 1} + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrate $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ to find $y$: $y = \\int 6(2x - 1)^{-2} \\mathrm{d}x = \\frac{6(2x - 1)^{-1}}{-1 \\times 2} + C = -\\frac{3}{2x - 1} + C$. Substituting $(1, 5)$ gives $5 = -\\frac{3}{1} + C \\implies C = 8$. Thus, $y = -\\frac{3}{2x - 1} + 8$.\n\n**Common mistake:** Students frequently forget to divide by the derivative of the inner bracket ($2$) during the reverse chain rule integration step, yielding a constant of $C=11$ and leading to Option B."
+      "explanation": "Integrate $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ to find $y$: $y = \\int 6(2x - 1)^{-2} \\mathrm{d}x = \\frac{6(2x - 1)^{-1}}{-1 \\times 2} + C = -\\frac{3}{2x - 1} + C$. Substituting $(1, 5)$ gives $5 = -\\frac{3}{1} + C \\implies C = 8$. Thus, $y = -\\frac{3}{2x - 1} + 8$.\n\n**Common mistake:** Students frequently forget to divide by the derivative of the inner bracket (2 $) during the reverse chain rule integration step, yielding a constant of C=11$ and leading to Option B."
     },
     {
       "id": "ch12-calculus-differentiation-1-q4",

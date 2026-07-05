@@ -11,7 +11,7 @@
     {
       "id": "3-5-the-remainder-theorem-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "The polynomial $P(x) = ax^3 + bx^2 - 5x + 2$ leaves a remainder of 4 when divided by $(x - 1)$ and a remainder of 10 when divided by $(x + 1)$. Find the values of $a$2$b$.",
+      "question": "The polynomial $P(x) = ax^3 + bx^2 - 5x + 2$ leaves a remainder of 4 when divided by $(x - 1)$ and a remainder of 10 when divided by $(x + 1)$. Find the values of $a$ and $b$.",
       "options": [
         "$a = -3, b = 10$",
         "$a = 3, b = 4$",
@@ -58,7 +58,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Let remainder be $ax+b$2$a(1)+b = 3$ and $a(2)+b = 5$. Subtracting gives $a=2$, so $b=1$. Remainder is $2x+1$.\n\n**Common mistake:** Assuming the remainder must be a constant rather than a linear expression when dividing by a quadratic."
+      "explanation": "Let remainder be $ax+b$. So $a(1)+b = 3$ and $a(2)+b = 5$. Subtracting gives $a=2$, so $b=1$. Remainder is $2x+1$.\n\n**Common mistake:** Assuming the remainder must be a constant rather than a linear expression when dividing by a quadratic."
     },
     {
       "id": "3-5-the-remainder-theorem-harder-topic-hard-q5",
@@ -71,7 +71,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "$1+a+b+6=12 \\implies a+b=5$. $-8+4a-2b+6=0 \\implies 4a-2b=2 \\implies 2a-b=1$. Adding gives $3a=6, a=2, b=3$. Product $2 \\times 3 = 6$.\n\n**Common mistake:** Mistaking 'divisible by' for having a remainder or making arithmetic errors while solving for $a$2$b$."
+      "explanation": "$1+a+b+6=12 \\implies a+b=5$. $-8+4a-2b+6=0 \\implies 4a-2b=2 \\implies 2a-b=1$. Adding gives $3a=6, a=2, b=3$. Product $2 \\times 3 = 6$.\n\n**Common mistake:** Mistaking 'divisible by' for having a remainder or making arithmetic errors while solving for $a$ and $b$."
     }
   ]
 }

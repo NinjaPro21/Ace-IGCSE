@@ -11,7 +11,7 @@
     {
       "id": "9-5-interpreting-graphs-medium-q1",
       "type": "mcq",
-      "question": "A car travels $30$ km at a constant speed of $60$ km/h and then remains stationary for $15$ minutes. Calculate the total time elapsed from the start of the journey in minutes.",
+      "question": "A car travels^30 km at a constant speed of^60 km/h and then remains stationary for^15 minutes. Calculate the total time elapsed from the start of the journey in minutes.",
       "options": [
         "$45$ minutes",
         "$30$ minutes",
@@ -19,12 +19,12 @@
         "$60$ minutes"
       ],
       "correctIndex": 0,
-      "explanation": "Time for the first part = $distance / speed = 30 / 60 = 0.5$ hours, which is $30$ minutes. Total time = $30$ mins + $15$ mins = $45$ minutes.\n\n**Common mistake:** The student might forget to convert the $0.5$ hours into minutes or add the $15$ minutes incorrectly."
+      "explanation": "Time for the first part = $distance / speed = 30 / 60 = 0.5$ hours, which is $1$ minutes. Total time = $30$ mins + $15$ mins = $45$ minutes.\n\n**Common mistake:** The student might forget to convert the $0.5$ hours into minutes or add the^15 minutes incorrectly."
     },
     {
       "id": "9-5-interpreting-graphs-medium-q2",
       "type": "mcq",
-      "question": "The speed of a drone increases uniformly from $0$ m/s to $12$ m/s in $8$ seconds. Calculate the distance travelled by the drone during these $8$ seconds.",
+      "question": "The speed of a drone increases uniformly from^0 m/s to^12 m/s in^8 seconds. Calculate the distance travelled by the drone during these^8 seconds.",
       "options": [
         "$48$ m",
         "$96$ m",
@@ -37,7 +37,7 @@
     {
       "id": "9-5-interpreting-graphs-medium-q3",
       "type": "mcq",
-      "question": "A plumber's total charge $$C$2$t$2$(1, 80)$ and $(4, 200)$. Find the formula for $C$2$t2",
+      "question": "A plumber's total charge $$C$ and $t2(1, 80)$ and $(4, 200)$. Find the formula for $C2t2",
       "options": [
         "$C = 40t + 40$",
         "$C = 40t + 80$",
@@ -45,25 +45,25 @@
         "$C = 60t + 20$"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient $m = (200 - 80) / (4 - 1) = 120 / 3 = 40$. Substitute $(1, 80)$ into $C = 40t + k$2$80 = 40(1) + k \\Rightarrow k = 40$. So $C = 40t + 40$.\n\n**Common mistake:** A student might calculate the gradient correctly but use the $y$2$80$) as the constant $c$."
+      "explanation": "Gradient $m = (200 - 80) / (4 - 1) = 120 / 3 = 40$. Substitute $(1, 80)$ into $C = 40t + k$. $80 = 40(1) + k \\Rightarrow k = 40$. So $C = 40t + 40$.\n\n**Common mistake:** A student might calculate the gradient correctly but use the $y$. $80$) as the constant $c$."
     },
     {
       "id": "9-5-interpreting-graphs-medium-q4",
       "type": "mcq",
-      "question": "A travel graph shows a bus journey from Town A to Town B. The bus is stationary at a bus stop from $10:15$ to $10:35$. On the horizontal time axis, where $1$ cm represents $10$ minutes, what is the length of the horizontal line representing this stop?",
+      "question": "A travel graph shows a bus journey from Town A to Town B. The bus is stationary at a bus stop from $10:15$ to $10:35$. On the horizontal time axis, where^1 cm represents^10 minutes, what is the length of the horizontal line representing this stop?",
       "options": [
-        "$2$ cm",
+        "2 cm",
         "$20$ cm",
         "$1$ cm",
         "$0.5$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "The stop lasts $20$ minutes ($10:35 - 10:15$). Since $1$ cm = $10$ minutes, $20$ minutes is represented by $2$ cm.\n\n**Common mistake:** A student might miscalculate the time interval or confuse the scale."
+      "explanation": "The stop lasts^20 minutes ($10:35 - 10:15$). Since^1 cm = $10$ minutes, $20$ minutes is represented by 2 cm.\n\n**Common mistake:** A student might miscalculate the time interval or confuse the scale."
     },
     {
       "id": "9-5-interpreting-graphs-medium-q5",
       "type": "mcq",
-      "question": "Runner A starts at $0$ m at $t=0$ and runs at $4$ m/s. Runner B starts at $30$ m at $t=0$ and runs at $2$ m/s in the same direction. At what time $t$ will Runner A overtake Runner B?",
+      "question": "Runner A starts at^0 m at $t=0$ and runs at^4 m/s. Runner B starts at^30 m at $t=0$ and runs at2m/s in the same direction. At what time t will Runner A overtake Runner B?",
       "options": [
         "$t = 15$ seconds",
         "$t = 10$ seconds",
@@ -71,7 +71,7 @@
         "$t = 5$ seconds"
       ],
       "correctIndex": 0,
-      "explanation": "Equations: $d_A = 4t$2$d_B = 2t + 30$. Set them equal: $4t = 2t + 30 \\Rightarrow 2t = 30 \\Rightarrow t = 15$.\n\n**Common mistake:** The student might add the speeds ($6$ m/s) or subtract the starting position from the wrong variable."
+      "explanation": "Equations: $d_A = 4t$. So $d_B = 2t + 30$. Set them equal: $4t = 2t + 30 \\Rightarrow 2t = 30 \\Rightarrow t = 15$.\n\n**Common mistake:** The student might add the speeds ($6$ m/s) or subtract the starting position from the wrong variable."
     }
   ]
 }

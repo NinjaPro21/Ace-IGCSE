@@ -19,7 +19,7 @@
         "$6xe^{6x-1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the rule $\\frac{d}{dx}(e^{ax}) = ae^{ax}$, we bring the coefficient of $x$2$6e^{6x}$.\n\n**Common mistake:** Option D is a common error where the student incorrectly applies the power rule for polynomials to an exponential function."
+      "explanation": "Using the rule $\\frac{d}{dx}(e^{ax}) = ae^{ax}$, we bring the coefficient of $x$. $6e^{6x}$.\n\n**Common mistake:** Option D is a common error where the student incorrectly applies the power rule for polynomials to an exponential function."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-easy-q2",
@@ -32,14 +32,14 @@
         "$-3e^{-x-1}$"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant^5 is^0. Multiplying by the coefficient^3 gives $-3e^{-x}$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
+      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant^5 is $1$. Multiplying by the coefficient^3 gives $-3e^{-x}$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-easy-q3",
       "type": "mcq",
       "question": "If $f(x) = e^{2x-4}$, calculate the value of $f'(2)$.",
       "options": [
-        "$2$",
+        "2",
         "$1$",
         "$0$",
         "$2e^{-4}$"
@@ -71,7 +71,7 @@
         "$e^x + e^x$"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of $e^x$2$e^x$2$x^e$2$e$2$ex^{e-1}$.\n\n**Common mistake:** Option C results from incorrectly applying the power rule to the exponential function $e^x$."
+      "explanation": "The derivative of $e^x$. $e^x2x^e  and e2ex^{e-1}$.\n\n**Common mistake:** Option C results from incorrectly applying the power rule to the exponential function $e^x$."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "8-2-changing-the-subject-pyp-q1",
       "type": "mcq",
-      "question": "Rearrange the formula to make $m$ the subject:\n\n$y = \\frac{3m - 4}{m + 2}$",
+      "question": "Rearrange the formula to make $m  the subject:$\n\n$y = \\frac{3m - 4}{m + 2}$",
       "options": [
         "$m = \\frac{2y + 4}{3 - y}$",
         "$m = \\frac{2y - 4}{3 - y}$",
@@ -19,7 +19,7 @@
         "$m = \\frac{2y + 4}{y - 3}$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply through by the denominator: $y(m + 2) = 3m - 4$. Expand the bracket: $ym + 2y = 3m - 4$. Rearrange to get all terms involving $m$2$2y + 4 = 3m - ym$2$m$2$2y + 4 = m(3 - y)$. Finally, divide by $(3 - y)$ to get $m = \\frac{2y + 4}{3 - y}$.\n\n**Common mistake:** A frequent mistake on Cambridge exam questions is failing to expand the brackets properly before trying to move terms across the equals sign."
+      "explanation": "Multiply through by the denominator: $y(m + 2) = 3m - 4$. Expand the bracket: $ym + 2y = 3m - 4$. Rearrange to get all terms involving $m^2 2y + 4 = 3m - ym2m^2 2y + 4 = m(3 - y)$. Finally, divide by $(3 - y)$ to get $m = \\frac{2y + 4}{3 - y}$.\n\n**Common mistake:** A frequent mistake on Cambridge exam questions is failing to expand the brackets properly before trying to move terms across the equals sign."
     },
     {
       "id": "8-2-changing-the-subject-pyp-q2",
@@ -32,7 +32,7 @@
         "$x = \\pm\\left(\\frac{A + 7}{3}\\right)^2$"
       ],
       "correctIndex": 0,
-      "explanation": "First, add $7$ to both sides to isolate the $x^2$ term: $A + 7 = 3x^2$. Next, divide both sides by $3$: $\\frac{A + 7}{3} = x^2$. Finally, take the square root of both sides to get $x$2$x = \\pm\\sqrt{\\frac{A + 7}{3}}$.\n\n**Common mistake:** Examiners observe that students often take the square root before dividing by $3$, creating expressions like $\\frac{\\sqrt{A+7}}{3}$."
+      "explanation": "First, add^7 to both sides to isolate the $x^2$ term: $A + 7 = 3x^2$. Next, divide both sides by^3: $\\frac{A + 7}{3} = x^2$. Finally, take the square root of both sides to get $x$. So $x = \\pm\\sqrt{\\frac{A + 7}{3}}$.\n\n**Common mistake:** Examiners observe that students often take the square root before dividing by^3, creating expressions like $\\frac{\\sqrt{A+7}}{3}$."
     },
     {
       "id": "8-2-changing-the-subject-pyp-q3",
@@ -45,7 +45,7 @@
         "$h = \\frac{A - r}{2\\pi r}$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the term containing $h$2$2\\pi r^2$ from both sides: $A - 2\\pi r^2 = 2\\pi rh$2$2\\pi r$2$h$2$h = \\frac{A - 2\\pi r^2}{2\\pi r}$. This can also be written in a simplified form as $h = \\frac{A}{2\\pi r} - r$.\n\n**Common mistake:** Students often try to divide by components of the multiplier individually, leading to incomplete or algebraic syntax separation errors."
+      "explanation": "Isolate the term containing $h$. $2\\pi r^2$ from both sides: $A - 2\\pi r^2 = 2\\pi rh$. $2\\pi r2h$. So $h = \\frac{A - 2\\pi r^2}{2\\pi r}$. This can also be written in a simplified form as $h = \\frac{A}{2\\pi r} - r$.\n\n**Common mistake:** Students often try to divide by components of the multiplier individually, leading to incomplete or algebraic syntax separation errors."
     },
     {
       "id": "8-2-changing-the-subject-pyp-q4",
@@ -58,12 +58,12 @@
         "$k = 3(w^2 - 5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Square both sides of the equation to clear the square root: $w^2 = \\frac{k + 5}{3}$. Multiply both sides by $3$ to remove the $\\frac{tion:}{}$ $3w^2 = k + 5$. Subtract $5$ from both sides to finish: $k = 3w^2 - 5$.\n\n**Common mistake:** Students frequently get confused about whether to multiply by $3$ or subtract $5$ first after removing the radical sign."
+      "explanation": "Square both sides of the equation to clear the square root: $w^2 = \\frac{k + 5}{3}$. Multiply both sides by^3 to remove the $fraction:$ $3w^2 = k + 5$. Subtract^5 from both sides to finish: $k = 3w^2 - 5$.\n\n**Common mistake:** Students frequently get confused about whether to multiply by^3 or subtract^5 first after removing the radical sign."
     },
     {
       "id": "8-2-changing-the-subject-pyp-q5",
       "type": "mcq",
-      "question": "Rearrange the formula to make $x$ the subject:\n\n$$\n\\frac{y}{2} = \\frac{5}{x}\n$$",
+      "question": "Rearrange the formula to make $x$ the subject:\n\n$$\n\\frac{y}{2} = \\frac{5}{x}\n",
       "options": [
         "$x = \\frac{10}{y}$",
         "$x = \\frac{y}{10}$",
@@ -71,7 +71,7 @@
         "$x = 10y$"
       ],
       "correctIndex": 0,
-      "explanation": "Cross-multiply to get the variables into the numerators: $y \\times x = 2 \\times 5 \\implies yx = 10$. Divide both sides by $y$2$x$2$x = \\frac{10}{y}$.\n\n**Common mistake:** Students regularly invert $\\frac{tions}{}$ incorrectly or write $x = \\frac{y}{10}$ by confusing which product goes into the numerator position."
+      "explanation": "Cross-multiply to get the variables into the numerators: $y \\times x = 2 \\times 5 \\implies yx = 10$. Divide both sides by $y$ and $x2x = \\frac{10}{y}$.\n\n**Common mistake:** Students regularly invert $fractions  incorrectly or write x = \\frac{y}{10}$ by confusing which product goes into the numerator position."
     }
   ]
 }

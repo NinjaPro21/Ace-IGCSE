@@ -11,7 +11,7 @@
     {
       "id": "1-4-sequences-medium-q1",
       "type": "mcq",
-      "question": "Find the $n$2$-2, 3, 8, 13, 18, \\dots$",
+      "question": "Find the $n$. $-2, 3, 8, 13, 18, \\dots$",
       "options": [
         "$5n - 7$",
         "$5n - 2$",
@@ -19,7 +19,7 @@
         "$5n + 3$"
       ],
       "correctIndex": 0,
-      "explanation": "The common difference is $3 - (-2) = 5$, giving a leading term of $5n$2$n=1$), find the constant $c$2$5(1) + c = -2 \\implies c = -7$. Thus, the expression is $5n - 7$.\n\n**Common mistake:** Students often use the first term directly as the constant, resulting in $5n - 2$, or match the common difference to the second term."
+      "explanation": "The common difference is $3 - (-2) = 5$, giving a leading term of $5n$. So $n=1$), find the constant $c$. $5(1) + c = -2 \\implies c = -7$. Thus, the expression is $5n - 7$.\n\n**Common mistake:** Students often use the first term directly as the constant, resulting in $5n - 2$, or match the common difference to the second term."
     },
     {
       "id": "1-4-sequences-medium-q2",
@@ -45,12 +45,12 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "The common ratio $r = 18 \\div 6 = 3$. The first term $a$2$a \\times 3 = 6 \\implies a = 2$.\n\n**Common mistake:** Students may find the common ratio 3 and assume it is the first term, or subtract 3 from 6 instead of dividing."
+      "explanation": "The common ratio $r = 18 \\div 6 = 3$. The first term $a$. So $a \\times 3 = 6 \\implies a = 2$.\n\n**Common mistake:** Students may find the common ratio 3 and assume it is the first term, or subtract 3 from 6 instead of dividing."
     },
     {
       "id": "1-4-sequences-medium-q4",
       "type": "mcq",
-      "question": "The $n$2$n^2 - 4n$. Which term in this sequence has a value of 21?",
+      "question": "The $n$. $n^2 - 4n$. Which term in this sequence has a value of 21?",
       "options": [
         "7th term",
         "3rd term",
@@ -58,7 +58,7 @@
         "5th term"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the quadratic equation: $n^2 - 4n = 21 \\implies n^2 - 4n - 21 = 0$. Factorising gives $(n-7)(n+3) = 0$. Since $n$2$n = 7$.\n\n**Common mistake:** Students might guess values or commit sign errors during factorisation, leading to options like $(n+7)(n-3) = 0$ yielding 3."
+      "explanation": "Set up the quadratic equation: $n^2 - 4n = 21 \\implies n^2 - 4n - 21 = 0$. Factorising gives $(n-7)(n+3) = 0$. Since $n$. So $n = 7$.\n\n**Common mistake:** Students might guess values or commit sign errors during factorisation, leading to options like $(n+7)(n-3) = 0$ yielding 3."
     },
     {
       "id": "1-4-sequences-medium-q5",

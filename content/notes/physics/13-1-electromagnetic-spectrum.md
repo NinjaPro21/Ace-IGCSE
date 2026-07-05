@@ -4,27 +4,37 @@ Light from the Sun travels as electromagnetic waves, which consist of different 
 
 ## Key definitions
 
-- **Electromagnetic Spectrum**: The range of all possible frequencies of electromagnetic radiation.
-- **Wavelength ($\lambda$)**: The distance between successive crests of a wave; waves with higher wavelengths have lower frequencies.
-- **Frequency ($f$)**: The number of waves produced per second; waves with higher frequencies carry more energy.
-- **Invisible Radiation**: Parts of the spectrum, such as infrared and ultraviolet, that cannot be seen by the human eye but can be detected by instruments.
-Properties of Electromagnetic Waves
-- **Speed in a Vacuum**: All electromagnetic waves travel at the same high speed in a vacuum, which is $3.0 \times 10^8 \text{ m/s}$. They travel at approximately this same speed in air$.
-- **Wave Equation**: The relationship between wave speed ($v$), frequency ($f$), and wavelength ($\lambda$) is given by: $
-v = f \lambda
-$$ Because the speed is constant in a vacuum, there is an inverse relationship between wavelength and frequency: as wavelength increases, frequency decreases.
-Regions of the Spectrum
-The spectrum is arranged in order of increasing frequency (and decreasing wavelength): Radio waves (Lowest frequency, longest wavelength)
-Microwaves
-Infrared
-Visible light (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
-Ultraviolet
-X-rays
-Gamma rays (Highest frequency, shortest wavelength)
-Discovery of Invisible Light
-In 1800, astronomer Sir Frederick William Herschel conducted an experiment using a prism and thermometers. He discovered that the thermometer placed just beyond the red end of the visible spectrum showed the highest temperature reading, proving the existence of invisible infrared radiation.
+- **Electromagnetic spectrum**: The range of all possible frequencies of electromagnetic radiation.
+- **Wavelength ($\lambda$)**: Distance between successive crests; longer wavelength → lower frequency.
+- **Frequency ($f$)**: Number of waves per second; higher frequency → more energy.
+- **Invisible radiation**: Parts of the spectrum (e.g. IR, UV) that cannot be seen but can be detected by instruments.
+
+## Properties of electromagnetic waves
+
+- **Speed in a vacuum**: All EM waves travel at $3.0 \times 10^8\ \text{m/s}$ (approximately the same in air).
+- **Wave equation**: $v = f\lambda$. Because $v$ is constant in a vacuum, wavelength and frequency are inversely related.
+
+## Regions of the spectrum
+
+In order of **increasing frequency** (decreasing wavelength):
+
+1. Radio waves
+2. Microwaves
+3. Infrared
+4. Visible light (ROYGBIV)
+5. Ultraviolet
+6. X-rays
+7. Gamma rays
+
+## Discovery of invisible light
+
+In 1800, Herschel used a prism and thermometers. A thermometer beyond the red end of the visible spectrum showed the highest reading — proving infrared radiation exists.
 
 ## Graphs & diagrams
+
+**Electromagnetic spectrum**
+
+- Frequency increases from radio → gamma; wavelength decreases in the same direction.
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
       <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
@@ -39,14 +49,13 @@ In 1800, astronomer Sir Frederick William Herschel conducted an experiment using
 
 ## Examiner tip
 
-Mnemonic: To remember the regions in order of increasing frequency, use the phrase: "Rugby Match Is Very Unlike Xylophone Game" (Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma).
-
-Constant Speed: A common mistake is thinking that higher-energy waves like X-rays travel faster than radio waves. Remember, all electromagnetic waves travel at the same speed ($c$) in a vacuum.
+- Mnemonic: "Rugby Match Is Very Unlike Xylophone Game" (Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma).
+- All EM waves travel at the same speed $c$ in a vacuum — higher energy does not mean faster.
 
 ## Quick check
 
-Which region of the electromagnetic spectrum has the highest frequency?
+Which region has the highest frequency?
 
 What is the speed of radio waves in a vacuum?
 
-How does the wavelength of ultraviolet light compare to that of infrared light?
+How does the wavelength of ultraviolet compare to infrared?

@@ -76,7 +76,7 @@
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-hard-q6",
       "type": "mcq",
-      "question": "Find the term independent of $x$2$(2x^2 - \\frac{1}{x})^9$.",
+      "question": "Find the term independent of $x$. $(2x^2 - \\frac{1}{x})^9$.",
       "options": [
         "-672",
         "672",
@@ -84,7 +84,7 @@
         "5376"
       ],
       "correctIndex": 0,
-      "explanation": "General term $T_{r+1} = \\binom{9}{r}(2x^2)^{9-r}(-\\frac{1}{x})^r$2$x^0$: $2(9-r) - r = 0 \\implies 18 - 3r = 0 \\implies r = 6$. Term is $\\binom{9}{6}(2^3)(-1)^6 = 84 \\times 8 \\times 1 = 672$. Wait, re-calculate: $18-3r=0 \\implies r=6$. Term: $\\binom{9}{6}(2)^{9-6}(-1)^6 = 84 \\times 8 = 672$. Re-checking $x$2$r=6$: $x^{12} \\times x^{-6} = x^6$. Try $r=6$: $x^{2(3)} \\times x^{-6} = x^0$. So $r=6 is correct$2$2\\binom{9}{6} = 84$. $2^{9-6} = 8$. $84 \\times 8 = 672$.\n\n**Common mistake:** Option A is a sign error if the student treats $(-1)^6$ as negative."
+      "explanation": "General term $T_{r+1} = \\binom{9}{r}(2x^2)^{9-r}(-\\frac{1}{x})^r$. $x^0$: $2(9-r) - r = 0 \\implies 18 - 3r = 0 \\implies r = 6$. Term is $\\binom{9}{6}(2^3)(-1)^6 = 84 \\times 8 \\times 1 = 672$. Wait, re-calculate: $18-3r=0 \\implies r=6$. Term: $\\binom{9}{6}(2)^{9-6}(-1)^6 = 84 \\times 8 = 672$. Re-checking $x$. So $r=6$: $x^{12} \\times x^{-6} = x^6$. Try $r=6$: $x^{2(3)} \\times x^{-6} = x^0$. So $r=6 is correct$. $2\\binom{9}{6} = 84$. $2^{9-6} = 8$. $84 \\times 8 = 672$.\n\n**Common mistake:** Option A is a sign error if the student treats $(-1)^6$ as negative."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-hard-q7",
@@ -115,7 +115,7 @@
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-hard-q9",
       "type": "mcq",
-      "question": "In the expansion of $(a + x)^n$2$64, 96x,$ and $60x^2$. Find the values of $a$2$n$.",
+      "question": "In the expansion of $(a + x)^n$. $64, 96x,$ and $60x^2$. Find the values of $a$ and $n$.",
       "options": [
         "a = 2, n = 6",
         "a = 4, n = 3",
@@ -123,7 +123,7 @@
         "a = 4, n = 6"
       ],
       "correctIndex": 0,
-      "explanation": "$a^n = 64$ and $na^{n-1} = 96$. Dividing: $na^{n-1} / a^n = 96/64 \\implies n/a = 1.5 \\implies n = 1.5a$2$a^n = 64$: $a^{1.5a} = 64$. Trial/log: if $a=2, n=3$ (no). If $a=4, n=6$: $4^6 = 4096$ (no). If $a=2, n=6$: $2^6 = 64$ and $6(2^5) = 192$ (no). Correct values: $a=4, n=3$ gives $4^3=64, 3(4^2)=48$ (no). Let's use $a=2, n=6$: $a^n = 64, na^{n-1}=6(32)=192$. Let's use $a=4, n=3$: $4^3=64, 3(16)=48$. Let's use $a=4, n=3$ and target^96: $na^{n-1}=96 \\implies 3(4^2)=48$ (no). Target $a=2, n=6$. Result $a=4, n=3$ is close. Correct logic: $n=6, a=2 \\implies 2^6=64, 6(2^5)=192$. Let's change 96 to 192.\n\n**Common mistake:** Students often struggle with simultaneous equations involving indices and coefficients."
+      "explanation": "$a^n = 64$ and $na^{n-1} = 96$. Dividing: $na^{n-1} / a^n = 96/64 \\implies n/a = 1.5 \\implies n = 1.5a$. So $a^n = 64$: $a^{1.5a} = 64$. Trial/log: if $a=2, n=3$ (no). If $a=4, n=6$: $4^6 = 4096$ (no). If $a=2, n=6$: $2^6 = 64$ and $6(2^5) = 192$ (no). Correct values: $a=4, n=3$ gives $4^3=64, 3(4^2)=48$ (no). Let's use $a=2, n=6$: $a^n = 64, na^{n-1}=6(32)=192$. Let's use $a=4, n=3$: $4^3=64, 3(16)=48$. Let's use $a=4, n=3$ and target^96: $na^{n-1}=96 \\implies 3(4^2)=48$ (no). Target $a=2, n=6$. Result $a=4, n=3$ is close. Correct logic: $n=6, a=2 \\implies 2^6=64, 6(2^5)=192$. Let's change 96 to 192.\n\n**Common mistake:** Students often struggle with simultaneous equations involving indices and coefficients."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-hard-q10",

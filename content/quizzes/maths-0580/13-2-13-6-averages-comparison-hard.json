@@ -71,7 +71,7 @@
         "36"
       ],
       "correctIndex": 0,
-      "explanation": "Let ages be $a, 20, c$2$(a + 20 + c)/3 = 22 \\Rightarrow a+c = 46$. Range is 16, so $c - a = 16$. Solving: $2c = 62 \\Rightarrow c = 31$. Oldest is 31.\n\n**Common mistake:** Assuming the range must be centered around the median."
+      "explanation": "Let ages be $a, 20, c$. $(a + 20 + c)/3 = 22 \\Rightarrow a+c = 46$. Range is 16, so $c - a = 16$. Solving: $2c = 62 \\Rightarrow c = 31$. Oldest is 31.\n\n**Common mistake:** Assuming the range must be centered around the median."
     }
   ]
 }

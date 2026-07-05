@@ -19,7 +19,7 @@
         "$-5$"
       ],
       "correctIndex": 0,
-      "explanation": "Subtract $2x$2$3x - 3 = 12$. Add 3 to both sides: $3x = 15$. Divide by 3: $x = 5$.\n\n**Common mistake:** Students often add $2x$2$5x$2$7x = 15 \\rightarrow x \\approx 2.14$."
+      "explanation": "Subtract $2x$. $3x - 3 = 12$. Add 3 to both sides: $3x = 15$. Divide by 3: $x = 5$.\n\n**Common mistake:** Students often add $2x$. $5x27x = 15 \\rightarrow x \\approx 2.14$."
     },
     {
       "id": "2-3-2-4-linear-equations-medium-q2",
@@ -32,7 +32,7 @@
         "$3.8$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand the brackets: $8x - 4 - 3x - 6 = 5$. Combine like terms: $5x - 10 = 5$. Add 10: $5x = 15$. Divide by 5: $x = 3$. Let's re-verify the numbers: option 0 is $2.8$? Wait, $8x - 3x = 5x$2$-4 - 6 = -10$. $5x - 10 = 5 \\rightarrow 5x = 15 \\rightarrow x = 3$. Let's change Option 0 to $3$.\n\n**Common mistake:** Failing to distribute the negative sign across the second bracket yields $-3x + 6$, resulting in $5x + 2 = 5 \\rightarrow 5x = 3 \\rightarrow x = 0.6$."
+      "explanation": "Expand the brackets: $8x - 4 - 3x - 6 = 5$. Combine like terms: $5x - 10 = 5$. Add 10: $5x = 15$. Divide by 5: $x = 3$. Let's re-verify the numbers: option 0 is $2.8$? Wait, $8x - 3x = 5x$. $-4 - 6 = -10$. $5x - 10 = 5 \\rightarrow 5x = 15 \\rightarrow x = 3$. Let's change Option 0 to^3.\n\n**Common mistake:** Failing to distribute the negative sign across the second bracket yields $-3x + 6$, resulting in $5x + 2 = 5 \\rightarrow 5x = 3 \\rightarrow x = 0.6$."
     },
     {
       "id": "2-3-2-4-linear-equations-medium-q3",
@@ -45,12 +45,12 @@
         "$11$"
       ],
       "correctIndex": 0,
-      "explanation": "Cross-multiply: $2(2x - 5) = 3(x + 1) \\rightarrow 4x - 10 = 3x + 3$. Subtract $3x$2$x - 10 = 3$. Add 10: $x = 13$.\n\n**Common mistake:** Students frequently forget to distribute across the entire numerator, writing $4x - 5 = 3x + 1$."
+      "explanation": "Cross-multiply: $2(2x - 5) = 3(x + 1) \\rightarrow 4x - 10 = 3x + 3$. Subtract $3x$. So $x - 10 = 3$. Add 10: $x = 13$.\n\n**Common mistake:** Students frequently forget to distribute across the entire numerator, writing $4x - 5 = 3x + 1$."
     },
     {
       "id": "2-3-2-4-linear-equations-medium-q4",
       "type": "mcq",
-      "question": "A car rental company charges a flat fee of $30 plus$2$45 plus$0.10 per kilometer driven. Find the distance in kilometers for which both companies charge the exact same total amount.",
+      "question": "A car rental company charges a flat fee of $30 plus^2 45 plus$0.10 per kilometer driven. Find the distance in kilometers for which both companies charge the exact same total amount.",
       "options": [
         "$300$",
         "$150$",
@@ -58,7 +58,7 @@
         "$250$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation: $30 + 0.15k = 45 + 0.10k$2$0.10k$2$30 + 0.05k = 45$. Subtract 30: $0.05k = 15$. Divide by 0.05: $k = 300$.\n\n**Common mistake:** Students might misplace a decimal point during division, calculating $15 / 0.05$ as $30$ or $3000$."
+      "explanation": "Set up the equation: $30 + 0.15k = 45 + 0.10k$. $0.10k230 + 0.05k = 45$. Subtract 30: $0.05k = 15$. Divide by 0.05: $k = 300$.\n\n**Common mistake:** Students might misplace a decimal point during division, calculating $15 / 0.05$ as^30 or^3000."
     },
     {
       "id": "2-3-2-4-linear-equations-medium-q5",
@@ -67,11 +67,11 @@
       "options": [
         "$4$",
         "$0$",
-        "$2$",
+        "2",
         "$3$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(x - 2)$: $4 = 2(x - 2) \\rightarrow 4 = 2x - 4$. Add 4: $8 = 2x$2$x = 4$.\n\n**Common mistake:** Students sometimes mistakenly multiply only the constant, writing $\\frac{4}{x} - 4 = 2$."
+      "explanation": "Multiply both sides by $(x - 2)$: $4 = 2(x - 2) \\rightarrow 4 = 2x - 4$. Add 4: $8 = 2x$. So $x = 4$.\n\n**Common mistake:** Students sometimes mistakenly multiply only the constant, writing $\\frac{4}{x} - 4 = 2$."
     }
   ]
 }

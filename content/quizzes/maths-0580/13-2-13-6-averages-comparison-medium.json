@@ -11,7 +11,7 @@
     {
       "id": "13-2-13-6-averages-comparison-medium-q1",
       "type": "mcq",
-      "question": "A set contains the numbers 3, 7, 8, 10, and $x$2$x$.",
+      "question": "A set contains the numbers 3, 7, 8, 10, and $x$ and $x$.",
       "options": [
         "2",
         "6",
@@ -32,7 +32,7 @@
         "2.75th position"
       ],
       "correctIndex": 0,
-      "explanation": "If there are $n$2$(n+1)/4$. For 11 items: $(11+1)/4 = 12/4 = 3$ rd position.\n\n**Common mistake:** Students might divide 11 by 4 directly ($2.75$) or use the $n/4$ formula commonly used in other curricula."
+      "explanation": "If there are $n$. $(n+1)/4$. For 11 items: $(11+1)/4 = 12/4 = 3$ rd position.\n\n**Common mistake:** Students might divide 11 by 4 directly ($2.75$) or use the $n/4$ formula commonly used in other curricula."
     },
     {
       "id": "13-2-13-6-averages-comparison-medium-q3",
@@ -50,7 +50,7 @@
     {
       "id": "13-2-13-6-averages-comparison-medium-q4",
       "type": "mcq",
-      "question": "Find the median of the following frequency table showing marks ($x$2$f$):\nMarks: 0, 1, 2, 3, 4\nFrequency: 4, 19, 25, 29, 23",
+      "question": "Find the median of the following frequency table showing marks ($x$ and $f$):\nMarks: 0, 1, 2, 3, 4\nFrequency: 4, 19, 25, 29, 23",
       "options": [
         "3",
         "2",
@@ -58,7 +58,7 @@
         "2.5"
       ],
       "correctIndex": 0,
-      "explanation": "Total frequency is 100. The median is between the 50th and 51st values. Running total: 4, 23, 48. The next 29 values are 3s, so both the 50th and 51st items are 3.\n\n**Common mistake:** A student might take the mean of the marks ($2$) or provide the mean of the data (2.48) as the median."
+      "explanation": "Total frequency is 100. The median is between the 50th and 51st values. Running total: 4, 23, 48. The next 29 values are 3s, so both the 50th and 51st items are 3.\n\n**Common mistake:** A student might take the mean of the marks (2) or provide the mean of the data (2.48) as the median."
     },
     {
       "id": "13-2-13-6-averages-comparison-medium-q5",

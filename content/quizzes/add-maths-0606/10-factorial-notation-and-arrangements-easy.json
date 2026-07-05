@@ -97,12 +97,12 @@
         "24"
       ],
       "correctIndex": 0,
-      "explanation": "The number of ways to arrange $n$2$n!$, so $5! = 120$.\n\n**Common mistake:** Option B results from calculating $5 \\times 5$ instead of using the factorial operation."
+      "explanation": "The number of ways to arrange $n$. $n!$, so $5! = 120$.\n\n**Common mistake:** Option B results from calculating $5 \\times 5$ instead of using the factorial operation."
     },
     {
       "id": "10-factorial-notation-and-arrangements-easy-q8",
       "type": "mcq",
-      "question": "Find the number of different arrangements of the letters in the word $PENCIL$2$P$.",
+      "question": "Find the number of different arrangements of the letters in the word $PENCIL$ and $P$.",
       "options": [
         "120",
         "720",
@@ -110,7 +110,7 @@
         "24"
       ],
       "correctIndex": 0,
-      "explanation": "With $P$2$5! = 120$ ways.\n\n**Common mistake:** Option B is $6!$, representing all possible arrangements without the constraint of starting with $P$."
+      "explanation": "With $P$. $5! = 120$ ways.\n\n**Common mistake:** Option B is $6!$, representing all possible arrangements without the constraint of starting with $P$."
     },
     {
       "id": "10-factorial-notation-and-arrangements-easy-q9",

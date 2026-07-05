@@ -11,7 +11,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q1",
       "type": "mcq",
-      "question": "A particle moves in a straight line such that its displacement, $s$2$O$2$t$2$s = t^3 + 5$. Find the velocity of the particle at any time $t$.",
+      "question": "A particle moves in a straight line such that its displacement, $s  and O2t$. So $s = t^3 + 5$. Find the velocity of the particle at any time $t$.",
       "options": [
         "$3t^2$",
         "$3t^2 + 5$",
@@ -19,12 +19,12 @@
         "$6t$"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity $v$2$s$2$t$2$s = t^3 + 5$ gives $v = \\frac{ds}{dt} = 3t^2$.\n\n**Common mistake:** Option B is a mistake where the student forgets that the derivative of a constant (5) is zero."
+      "explanation": "Velocity $v$ and $s2t$. So $s = t^3 + 5$ gives $v = \\frac{ds}{dt} = 3t^2$.\n\n**Common mistake:** Option B is a mistake where the student forgets that the derivative of a constant (5) is zero."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q2",
       "type": "mcq",
-      "question": "The velocity, $v$2$v = 4t^2 - 2t$2$t = 3$.",
+      "question": "The velocity, $v$. So $v = 4t^2 - 2t2t = 3$.",
       "options": [
         "$22$ m/s^2",
         "$30$ m/s^2",
@@ -32,7 +32,7 @@
         "$8$ m/s^2"
       ],
       "correctIndex": 0,
-      "explanation": "Acceleration $a$2$v$2$a = \\frac{dv}{dt} = 8t - 2$. Substituting $t = 3$ gives $a = 8(3) - 2 = 22$.\n\n**Common mistake:** Option B occurs if the student incorrectly evaluates $8t + 2$ or makes an arithmetic error during substitution."
+      "explanation": "Acceleration $a$ and $v2a = \\frac{dv}{dt} = 8t - 2$. Substituting $t = 3$ gives $a = 8(3) - 2 = 22$.\n\n**Common mistake:** Option B occurs if the student incorrectly evaluates $8t + 2$ or makes an arithmetic error during substitution."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q3",
@@ -58,7 +58,7 @@
         "$10$ s"
       ],
       "correctIndex": 0,
-      "explanation": "$v = \\frac{ds}{dt} = 10 - 4t$2$v = 0$ gives $10 = 4t$2$t = 2.5$.\n\n**Common mistake:** Option B occurs if the student sets the displacement $s = 0$ instead of the velocity $v = 0$."
+      "explanation": "$v = \\frac{ds}{dt} = 10 - 4t$. So $v = 0$ gives $10 = 4t$. So $t = 2.5$.\n\n**Common mistake:** Option B occurs if the student sets the displacement $s = 0$ instead of the velocity $v = 0$."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q5",
@@ -76,7 +76,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q6",
       "type": "mcq",
-      "question": "A particle moves in a straight line with acceleration $a = 6$ m/s^2. If its initial velocity is 2 m/s, find its velocity $v$2$t$.",
+      "question": "A particle moves in a straight line with acceleration $a = 6$ m/s^2. If its initial velocity is 2 m/s, find its velocity $v$ and $t$.",
       "options": [
         "v = 6t + 2",
         "v = 3t^2 + 2",
@@ -89,7 +89,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q7",
       "type": "mcq",
-      "question": "The velocity of a particle is given by $v = 4t$2$s$2$t = 3$, assuming $s = 0$ at $t = 0$.",
+      "question": "The velocity of a particle is given by $v = 4t$ and $s2t = 3$, assuming $s = 0$ at $t = 0$.",
       "options": [
         "18 m",
         "12 m",
@@ -115,7 +115,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-easy-q9",
       "type": "mcq",
-      "question": "A particle starts from rest and moves with acceleration $a = 2t$2$t = 5$.",
+      "question": "A particle starts from rest and moves with acceleration $a = 2t$. So $t = 5$.",
       "options": [
         "25 m/s",
         "10 m/s",

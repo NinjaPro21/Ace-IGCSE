@@ -19,7 +19,7 @@
         "$y = 2x^2 - 6x - 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating gives $y = 2x^2 - 6x + c$2$x=2, y=5$ yields $5 = 2(4) - 6(2) + c \\implies 5 = 8 - 12 + c \\implies 5 = -4 + c \\implies c = 9$ .\n\n**Common mistake:** Option B assumes the constant $c$ is equal to the y-coordinate of the given point without performing the substitution."
+      "explanation": "Integrating gives $y = 2x^2 - 6x + c$. So $x=2, y=5$ yields $5 = 2(4) - 6(2) + c \\implies 5 = 8 - 12 + c \\implies 5 = -4 + c \\implies c = 9$ .\n\n**Common mistake:** Option B assumes the constant $c$ is equal to the y-coordinate of the given point without performing the substitution."
     },
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-medium-q2",
@@ -45,7 +45,7 @@
         "$y = 10\\sqrt{x} + 30$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\int 10x^{-0.5} dx = 10 \\cdot \\frac{x^{0.5}}{0.5} = 20\\sqrt{x} + c$2$(4, 50)$ : $50 = 20(2) + c \\implies 50 = 40 + c \\implies c = 10$ .\n\n**Common mistake:** Option C is a common mistake where the student uses the y-coordinate as the constant $c$ directly."
+      "explanation": "$\\int 10x^{-0.5} dx = 10 \\cdot \\frac{x^{0.5}}{0.5} = 20\\sqrt{x} + c$. $(4, 50)$ : $50 = 20(2) + c \\implies 50 = 40 + c \\implies c = 10$ .\n\n**Common mistake:** Option C is a common mistake where the student uses the y-coordinate as the constant $c$ directly."
     },
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-medium-q4",
@@ -70,7 +70,7 @@
         "10(2x+3)^5 + c"
       ],
       "correctIndex": 0,
-      "explanation": "Using the chain rule reversed: Increase power to 5, divide by new power and the coefficient of $x$2$1/(5 \\times 2) (2x+3)^5$.\n\n**Common mistake:** Forgetting to divide by the coefficient of $x$ (2).",
+      "explanation": "Using the chain rule reversed: Increase power to 5, divide by new power and the coefficient of $x$. $1/(5 \\times 2) (2x+3)^5$.\n\n**Common mistake:** Forgetting to divide by the coefficient of $x$ (2).",
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-medium-q5"
     }
   ]

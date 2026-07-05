@@ -108,8 +108,20 @@ What causes parallax error when reading a scale?
 
 ## Worked example — Converting units
 
-Question: A block has a mass of 250 g. Express this mass in SI units. Recall the conversion: $1000\ \text{g} = 1\ \text{kg}$. Convert: $250\ \text{g} = 250 / 1000 = 0.25\ \text{kg}$. **Final answer:** $0.25\ \text{kg}$.
+Question: A block has a mass of 250 g. Express this mass in SI units.
+
+1. Recall the conversion: $1000\ \text{g} = 1\ \text{kg}$.
+
+2. Divide by 1000: $\frac{250\ \text{g}}{1000} = 0.25\ \text{kg}$.
+
+**Final answer:** $0.25\ \text{kg}$.
 
 ## Worked example — Pendulum period
 
-Question: A student times 20 complete swings of a pendulum and records 40.0 s. Calculate the period. Total time = 40.0 s for 20 oscillations. Period $T = 40.0 / 20 = 2.0\ \text{s}$. **Final answer:** $T = 2.0\ \text{s}$.
+Question: A student times 20 complete swings of a pendulum and records 40.0 s. Calculate the period.
+
+1. Total time for 20 oscillations $= 40.0\ \text{s}$.
+
+2. Period $T = \frac{40.0}{20} = 2.0\ \text{s}$.
+
+**Final answer:** $T = 2.0\ \text{s}$.

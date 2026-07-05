@@ -19,13 +19,19 @@ $$
 **Parallel and perpendicular**
 
 $$
-\text{Parallel: } m_1 = m_2 \qquad \text{Perpendicular: } m_1 \times m_2 = -1
+\text{Parallel: } m_1 = m_2
+$$
+
+$$
+\text{Perpendicular: } m_1 \times m_2 = -1
 $$
 
 ## Steps / method
 
 1. **Find the gradient** using $m = \frac{y_2 - y_1}{x_2 - x_1}$.
+
 2. **Determine the relationship** — parallel lines share $m$; perpendicular lines use $m_2 = -\frac{1}{m_1}$.
+
 3. **Find the midpoint** by averaging the $x$-coordinates and $y$-coordinates separately.
 
 ### Key rule

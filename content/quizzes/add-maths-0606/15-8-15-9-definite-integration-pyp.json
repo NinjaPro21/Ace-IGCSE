@@ -11,7 +11,7 @@
     {
       "id": "15-8-15-9-definite-integration-pyp-q1",
       "type": "mcq",
-      "question": "Evaluate the exact value of\nin $t^{0}$pi/4\n\n(\ncosx+\nsinx)\n\\\\\\\\,dx.",
+      "question": "Evaluate the exact value of\nin $t^{0}$pi/4\n\n(\ncosx+\nsinx)\n\\,dx.",
       "options": [
         "1",
         "sqrt2",
@@ -19,12 +19,12 @@
         "0.5"
       ],
       "correctIndex": 0,
-      "explanation": "Integral is [\nsinx−\ncosx]\n0\npi/4\n\n=(\\sqrt2/2−\\sqrt2/2)−(0−1)=0−(−1)=1.\n\n**Common mistake:** Option B occurs if students add the limits instead of correctly subtracting them."
+      "explanation": "Integral is [\nsinx-\ncosx]\n0\npi/4\n\n=(\\sqrt2/2-\\sqrt2/2)-(0-1)=0-(-1)=1.\n\n**Common mistake:** Option B occurs if students add the limits instead of correctly subtracting them."
     },
     {
       "id": "15-8-15-9-definite-integration-pyp-q2",
       "type": "mcq",
-      "question": "Find the positive value of a for which\nin $t^{1}$a\n$\\frac{1}{$x^{2}$}$\\\\\\\\,dx.=0.5.",
+      "question": "Find the positive value of a for which\nin $t^{1}$a\n$\\frac{1}{x^{2}}$\\,dx.=0.5.",
       "options": [
         "2",
         "4",
@@ -32,12 +32,12 @@
         "ln 2"
       ],
       "correctIndex": 0,
-      "explanation": "[−1/x]\n1\na \\neq 0.5 \\implies −1/a+1=0.5 \\implies 1/a=0.5 \\implies a=2.\n\n**Common mistake:** Option D occurs if the student incorrectly integrates 1/$x^{2}$ as\nlnx."
+      "explanation": "[-1/x]\n1\na \\neq 0.5 \\implies -1/a+1=0.5 \\implies 1/a=0.5 \\implies a=2.\n\n**Common mistake:** Option D occurs if the student incorrectly integrates 1/$x^{2}$ as\nlnx."
     },
     {
       "id": "15-8-15-9-definite-integration-pyp-q3",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^{\\pi/4}\n\n(\ncos2x−\nsin2x)\n\\\\\\\\,dx.",
+      "question": "Evaluate $\\int_0^{\\pi/4}$\n\n(\ncos2x-\nsin2x)\n\\,dx.",
       "options": [
         "0",
         "1",
@@ -45,7 +45,7 @@
         "-1"
       ],
       "correctIndex": 0,
-      "explanation": "[0.5\nsin2x+0.5\ncos2x]\n0\npi/4\n\n=(0.5(1)+0)−(0+0.5(1))=0.5−0.5=0.\n\n**Common mistake:** Option B results if a student ignores the lower bound evaluation for the cosine term."
+      "explanation": "[0.5\nsin2x+0.5\ncos2x]\n0\npi/4\n\n=(0.5(1)+0)-(0+0.5(1))=0.5-0.5=0.\n\n**Common mistake:** Option B results if a student ignores the lower bound evaluation for the cosine term."
     },
     {
       "type": "mcq",

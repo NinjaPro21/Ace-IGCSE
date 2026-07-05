@@ -50,7 +50,7 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "A curve has equation $y = 5e^x$2$x = 0$.",
+      "question": "A curve has equation $y = 5e^x$. So $x = 0$.",
       "options": [
         "y = 5x + 5",
         "y = x + 5",
@@ -63,12 +63,12 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "Find the rate of change of $y = \\tan x$2$x$2$x = \\pi/4$.",
+      "question": "Find the rate of change of $y = \\tan x$ and $x2x = \\pi/4$.",
       "options": [
         "2",
         "1",
         "0",
-        "\\sqrt{2}"
+        "$$\n\\sqrt{2}\n"
       ],
       "correctIndex": 0,
       "explanation": "$\\frac{dy}{dx}$ = sec^2 x. At x = π/4, cos(π/4) = 1/\\sqrt{2}, so sec(π/4) = \\sqrt{2}. (\\sqrt{2})$^2$ = 2.\n\n**Common mistake:** Incorrectly recalling the derivative of tangent as sec x or 1."

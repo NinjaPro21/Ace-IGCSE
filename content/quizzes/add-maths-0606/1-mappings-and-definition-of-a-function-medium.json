@@ -11,20 +11,20 @@
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q1",
       "type": "mcq",
-      "question": "The mapping x$\\mapsto$2x+7 has the domain\n−3,0,3,6. Find the range of this mapping.",
+      "question": "The mapping $x \\mapsto 2x+7$ has the domain $\\{-3, 0, 3, 6\\}$. Find the range of this mapping.",
       "options": [
         "1,7,13,19",
-        "−3,0,3,6",
+        "-3,0,3,6",
         "1,7,11,15",
         "1,0,13,19"
       ],
       "correctIndex": 0,
-      "explanation": "Calculate each image: 2(−3)+7=1,2(0)+7=7,2(3)+7=13,2(6)+7=19.\n\n**Common mistake:** Arithmetic errors during the substitution of negative numbers often lead to the wrong first value in the set."
+      "explanation": "Calculate each image: 2(-3)+7=1,2(0)+7=7,2(3)+7=13,2(6)+7=19.\n\n**Common mistake:** Arithmetic errors during the substitution of negative numbers often lead to the wrong first value in the set."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q2",
       "type": "mcq",
-      "question": "Determine the type of mapping for x$\\mapsto$∣x−4∣ when the domain is\n2,4,6.",
+      "question": "Determine the type of mapping for $x \\mapsto ∣x-4∣$ when the domain is $\\{2, 4, 6\\}$.",
       "options": [
         "Many-to-one",
         "One-to-one",
@@ -32,12 +32,12 @@
         "Many-to-many"
       ],
       "correctIndex": 0,
-      "explanation": "∣2−4∣=2, ∣4−4∣=0, and ∣6−4∣=2. Since both 2 and 6 map to 2, it is many-to-one.\n\n**Common mistake:** Students may see the three unique inputs and assume it is one-to-one without calculating the outputs."
+      "explanation": "∣2-4∣=2, ∣4-4∣=0, and ∣6-4∣=2. Since both 2 and 6 map to 2, it is many-to-one.\n\n**Common mistake:** Students may see the three unique inputs and assume it is one-to-one without calculating the outputs."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q3",
       "type": "mcq",
-      "question": "Given the mapping x$\\mapsto\n\n$$\\frac{1}{2x+1}$, find the object that results in an image of 3.$",
+      "question": "Given the mapping $x \\mapsto \\frac{1}{2x+1}$ , find the object that results in an image of 3.",
       "options": [
         "3",
         "4",
@@ -63,7 +63,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q5",
       "type": "mcq",
-      "question": "State the range of the mapping x$\\mapsto$5−$x^{2}$ for the domain\n−1,0,1,2.",
+      "question": "State the range of the mapping $x \\mapsto 5 - x^{2}$ for the domain $\\{-1, 0, 1, 2\\}$.",
       "options": [
         "1,4,5",
         "4,5,1",
@@ -71,38 +71,38 @@
         "4,5,4,1"
       ],
       "correctIndex": 0,
-      "explanation": "Images: (−1)$\\mapsto$4,(0)$\\mapsto$5,(1)$\\mapsto$4,(2)$\\mapsto$1. The unique values in the range are\n1,4,5.\n\n**Common mistake:** Listing duplicate values (like 4) in the range set or failing to square negative numbers correctly."
+      "explanation": "Images: $(-1) \\mapsto 4$,$(0) \\mapsto 5$,$(1) \\mapsto 4$,$(2) \\mapsto 1$. The unique values in the range are\n1,4,5.\n\n**Common mistake:** Listing duplicate values (like 4) in the range set or failing to square negative numbers correctly."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q6",
       "type": "mcq",
-      "question": "A function g is defined by g(x)= x^{2}−5x. Find the value of g(k+1) in terms of k.",
+      "question": "A function g is defined by g(x)= x^{2}-5x. Find the value of g(k+1) in terms of k.",
       "options": [
-        "$k^{2}$−3k−4",
-        "$k^{2}$−3k+1",
-        "$k^{2}$−5k+1",
-        "$k^{2}$−5k−4"
+        "$k^{2}$-3k-4",
+        "$k^{2}$-3k+1",
+        "$k^{2}$-5k+1",
+        "$k^{2}$-5k-4"
       ],
       "correctIndex": 0,
-      "explanation": "g(k+1)= (k+1)^{2}−5(k+1)=($k^{2}$+2k+1)−5k−5= k^{2}−3k−4.\n\n**Common mistake:** Failing to expand $(k+1)^{2}$correctly as $k^{2}$+2k+1 or incorrectly distributing the −5 across the brackets."
+      "explanation": "g(k+1)= (k+1)^{2}-5(k+1)=($k^{2}$+2k+1)-5k-5= k^{2}-3k-4.\n\n**Common mistake:** Failing to expand $(k+1)^{2}$correctly as $k^{2}$+2k+1 or incorrectly distributing the -5 across the brackets."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q7",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=12−4x for the domain −2≤x≤3.",
+      "question": "Find the range of the function f(x)=12-4x for the domain -2≤x≤3.",
       "options": [
         "0≤f(x)≤20",
-        "−2≤f(x)≤3",
+        "-2≤f(x)≤3",
         "0≤f(x)≤12",
         "4≤f(x)≤20"
       ],
       "correctIndex": 0,
-      "explanation": "Evaluate the endpoints: f(−2)=12−4(−2)=20 and f(3)=12−4(3)=0. The range is .\n\n**Common mistake:** Students may provide the range in the wrong order or only evaluate one endpoint."
+      "explanation": "Evaluate the endpoints: f(-2)=12-4(-2)=20 and f(3)=12-4(3)=0. The range is .\n\n**Common mistake:** Students may provide the range in the wrong order or only evaluate one endpoint."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q8",
       "type": "mcq",
-      "question": "The function h is defined by h(x)= \\frac{2}{x+2} for x \\neq −2. Find the value of a such that h(a)=4.",
+      "question": "$The function h is defined by h(x)= \\frac{2}{x+2} for x \\neq -2. Find the value of a such that h(a)=4.",
       "options": [
         "3",
         "5",
@@ -115,11 +115,11 @@
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q9",
       "type": "mcq",
-      "question": "Which of these domains would ensure that the mapping f:x$\\mapsto\n\n$$x^{2}$+1 is a one-to-one function?$",
+      "question": "Which of these domains would ensure that the mapping $f: x \\mapsto x^{2}$ +1 is a one-to-one function?",
       "options": [
         "x≥0",
         "x∈R",
-        "−2≤x≤2",
+        "-2≤x≤2",
         "x≤1"
       ],
       "correctIndex": 0,
@@ -128,7 +128,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-medium-q10",
       "type": "mcq",
-      "question": "State the range of the function f(x)= x^{2}+4 for the domain x≥−1.",
+      "question": "State the range of the function f(x)= x^{2}+4 for the domain x≥-1.",
       "options": [
         "f(x)≥4",
         "f(x)≥5",
@@ -136,7 +136,7 @@
         "f(x)∈R"
       ],
       "correctIndex": 0,
-      "explanation": "The vertex of $x^{2}$+4 is at (0,4). Since x=0 is within the domain x≥−1, the minimum value is 4. For large x, y increases infinitely.\n\n**Common mistake:** Students often check only the boundary x=−1 and conclude the range is f(x)≥5, missing the lower vertex point."
+      "explanation": "The vertex of $x^{2}$+4 is at (0,4). Since x=0 is within the domain x≥-1, the minimum value is 4. For large x, y increases infinitely.\n\n**Common mistake:** Students often check only the boundary x=-1 and conclude the range is f(x)≥5, missing the lower vertex point."
     }
   ]
 }

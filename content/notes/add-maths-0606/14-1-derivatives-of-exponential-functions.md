@@ -12,27 +12,7 @@ $\frac{d}{dx}(e^{f(x)}) = f'(x)e^{f(x)}$
 
 1. **Identify the exponent** — isolate $f(x)$ in the power of $e$.
 
-
-
-
-
-
-
-
-
-
-
  2. **Differentiate the exponent** — find $f'(x)$.
-
-
-
-
-
-
-
-
-
-
 
  3. **Multiply** — the derivative is $f'(x) \cdot e^{f(x)}$.
 

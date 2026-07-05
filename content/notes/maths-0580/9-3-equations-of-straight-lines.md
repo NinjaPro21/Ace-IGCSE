@@ -6,39 +6,29 @@ Every straight line on a coordinate grid can be defined by a unique linear equat
 
 $$
 \text{Point-Slope Form Equation:} \quad y - y_1 = m(x - x_1)
-
+$$
+$$
 \text{Parallel Gradient Condition:} \quad m_1 = m_2
-
+$$
+$$
 \text{Perpendicular Slope Condition:} \quad m_1 \times m_2 = -1 \implies m_2 = -\frac{1}{m_1}
 $$
 
 ## Graphs & diagrams
 
-Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).
-
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Linear graph y=mx+c">
-      <line x1="40" y1="190" x2="290" y2="190" stroke="#64748b"/>
-      <line x1="40" y1="190" x2="40" y2="30" stroke="#64748b"/>
-      <line x1="60" y1="170" x2="260" y2="70" stroke="#2563eb" stroke-width="2.5"/>
-      <circle cx="40" cy="150" r="4" fill="#dc2626"/>
-      <text x="48" y="145" font-size="10" fill="#dc2626">c</text>
-      <text x="180" y="110" font-size="10" fill="#2563eb">gradient m</text>
-      <text x="160" y="210" font-size="11" fill="#475569">x</text>
-      <text x="22" y="110" font-size="11" fill="#475569">y</text>
-    </svg></div>
-
-Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).
-
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 240" width="280" height="240" role="img" aria-label="Coordinate plane">
-      <line x1="140" y1="20" x2="140" y2="220" stroke="#94a3b8"/>
-      <line x1="20" y1="120" x2="260" y2="120" stroke="#94a3b8"/>
-      <circle cx="200" cy="70" r="5" fill="#2563eb"/>
-      <line x1="200" y1="70" x2="200" y2="120" stroke="#64748b" stroke-dasharray="3 2"/>
-      <line x1="140" y1="70" x2="200" y2="70" stroke="#64748b" stroke-dasharray="3 2"/>
-      <text x="205" y="65" font-size="10" fill="#2563eb">(x, y)</text>
-    </svg></div>
-
-Coordinate plane — read $(x, y)$ from horizontal then vertical; gradient = rise ÷ run.
+<div class="enlight-physics-diagram"><svg viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="Parallel and perpendicular lines">
+      <text x="160" y="22" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="600">Parallel (same m)</text>
+      <line x1="20" y1="190" x2="300" y2="190" stroke="#a8a29e"/>
+      <line x1="20" y1="190" x2="20" y2="40" stroke="#a8a29e"/>
+      <line x1="40" y1="170" x2="260" y2="90" stroke="#5b8def" stroke-width="2"/>
+      <line x1="40" y1="130" x2="260" y2="50" stroke="#789671" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="480" y="22" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="600">Perpendicular (m₁m₂ = −1)</text>
+      <line x1="340" y1="190" x2="620" y2="190" stroke="#a8a29e"/>
+      <line x1="340" y1="190" x2="340" y2="40" stroke="#a8a29e"/>
+      <line x1="360" y1="170" x2="580" y2="90" stroke="#5b8def" stroke-width="2"/>
+      <line x1="360" y1="90" x2="580" y2="170" stroke="#789671" stroke-width="2"/>
+      <rect x="368" y="162" width="12" height="12" fill="none" stroke="#b59a73"/>
+    </svg><p class="enlight-physics-diagram__caption">Parallel lines share the same gradient; perpendicular lines have gradients that multiply to $-1$.</p></div>
 
 ## Steps / method
 

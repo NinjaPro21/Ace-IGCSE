@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Identify candidates** — test factors of the constant term (e.g. for constant 6, test $\pm 1, \pm 2, \pm 3$).
+
 2. **Substitute** — calculate $f(a)$.
+
 3. **Conclude** — if $f(a) = 0$, then $(x - a)$ is a factor.
 
 ### Key rule

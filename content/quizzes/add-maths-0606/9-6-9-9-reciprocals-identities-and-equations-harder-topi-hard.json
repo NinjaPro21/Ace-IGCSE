@@ -19,7 +19,7 @@
         "$30^\\circ, 270^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $1 - \\sin^2 x$2$\\cos^2 x$2$2(1 - \\sin^2 x) + \\sin x - 1 = 0 \\implies 2\\sin^2 x - \\sin x - 1 = 0 \\implies (2\\sin x + 1)(\\sin x - 1) = 0$. Solutions are $\\sin x = -0.5$ ($210, 330$) or $\\sin x = 1$ ($90$). Wait, checking logic: $-2\\sin^2 x + \\sin x + 1 = 0 \\implies 2\\sin^2 x - \\sin x - 1 = 0 \\implies (2\\sin x + 1)(\\sin x - 1) = 0$. Solutions: $x = 210, 330, 90$. Recalculating Option A as $210, 330, 90$.\n\n**Common mistake:** Option B is chosen if the student incorrectly factors the quadratic as $(2\\sin x - 1)(\\sin x + 1) = 0$."
+      "explanation": "Substitute $1 - \\sin^2 x$. $\\cos^2 x22(1 - \\sin^2 x) + \\sin x - 1 = 0 \\implies 2\\sin^2 x - \\sin x - 1 = 0 \\implies (2\\sin x + 1)(\\sin x - 1) = 0$. Solutions are $\\sin x = -0.5$ ($210, 330$) or $\\sin x = 1$ ($90$). Wait, checking logic: $-2\\sin^2 x + \\sin x + 1 = 0 \\implies 2\\sin^2 x - \\sin x - 1 = 0 \\implies (2\\sin x + 1)(\\sin x - 1) = 0$. Solutions: $x = 210, 330, 90$. Recalculating Option A as $210, 330, 90$.\n\n**Common mistake:** Option B is chosen if the student incorrectly factors the quadratic as $(2\\sin x - 1)(\\sin x + 1) = 0$."
     },
     {
       "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q2",
@@ -32,20 +32,20 @@
         "$\\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$"
       ],
       "correctIndex": 0,
-      "explanation": "Use $\\sec^2 \\theta = 1 + \\tan^2 \\theta$2$3(1 + \\tan^2 \\theta) - 2\\tan^2 \\theta = 4 \\implies 3 + \\tan^2 \\theta = 4 \\implies \\tan^2 \\theta = 1$. This gives $\\tan \\theta = \\pm 1$.\n\n**Common mistake:** Option B occurs if the student only considers the positive root $\\tan \\theta = 1$ and ignores the $\\pm$ from the square root."
+      "explanation": "Use $\\sec^2 \\theta = 1 + \\tan^2 \\theta$. $3(1 + \\tan^2 \\theta) - 2\\tan^2 \\theta = 4 \\implies 3 + \\tan^2 \\theta = 4 \\implies \\tan^2 \\theta = 1$. This gives $\\tan \\theta = \\pm 1$.\n\n**Common mistake:** Option B occurs if the student only considers the positive root $\\tan \\theta = 1$ and ignores the $\\pm$ from the square root."
     },
     {
       "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q3",
       "type": "mcq",
-      "question": "Show that $\\frac{1}{1 - \\cos x} + \\frac{1}{1 + \\cos x}$ simplifies to $k \\csc^2 x$2$k$.",
+      "question": "Show that $\\frac{1}{1 - \\cos x} + \\frac{1}{1 + \\cos x}$ simplifies to $k \\csc^2 x$ and $k$.",
       "options": [
-        "$2$",
+        "2",
         "$1$",
         "$\\cos x$",
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "Combining the $fractions$ gives $\\frac{(1 + \\cos x) + (1 - \\cos x)}{1 - \\cos^2 x} = \\frac{2}{\\sin^2 x} = 2\\csc^2 x$2$k = 2$.\n\n**Common mistake:** Option B results if the student forgets the numerator sums to $1+1=2$ during the simplification."
+      "explanation": "Combining the $fractions  gives \\frac{(1 + \\cos x) + (1 - \\cos x)}{1 - \\cos^2 x} = \\frac{2}{\\sin^2 x} = 2\\csc^2 x$. So $k = 2$.\n\n**Common mistake:** Option B results if the student forgets the numerator sums to $1+1=2$ during the simplification."
     },
     {
       "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-hard-q4",
@@ -71,7 +71,7 @@
         "$2\\tan^2 x$"
       ],
       "correctIndex": 0,
-      "explanation": "$(\\sec^2 x - \\tan^2 x)(\\sec^2 x + \\tan^2 x)$. Since $\\sec^2 x - \\tan^2 x = 1$, the expression simplifies to $\\sec^2 x + \\tan^2 x$.\n\n**Common mistake:** Option B is a common error where students think $\\sec^4 x - \\tan^4 x$2$1$."
+      "explanation": "$(\\sec^2 x - \\tan^2 x)(\\sec^2 x + \\tan^2 x)$. Since $\\sec^2 x - \\tan^2 x = 1$, the expression simplifies to $\\sec^2 x + \\tan^2 x$.\n\n**Common mistake:** Option B is a common error where students think $\\sec^4 x - \\tan^4 x$. $1$."
     }
   ]
 }

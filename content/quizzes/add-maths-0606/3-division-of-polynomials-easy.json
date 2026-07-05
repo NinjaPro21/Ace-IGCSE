@@ -50,7 +50,7 @@
     {
       "id": "3-division-of-polynomials-easy-q4",
       "type": "mcq",
-      "question": "Find the quotient when $6x^3 - 4x^2 + 2x$2$2x$.",
+      "question": "Find the quotient when $6x^3 - 4x^2 + 2x$. $2x$.",
       "options": [
         "$3x^2 - 2x + 1$",
         "$3x^3 - 2x^2 + x$",
@@ -58,7 +58,7 @@
         "$4x^2 - 2x + 1$"
       ],
       "correctIndex": 0,
-      "explanation": "Divide each term of the polynomial by $2x$2$6x^3/2x = 3x^2$, $-4x^2/2x = -2x$2$2x/2x = 1$.\n\n**Common mistake:** Failing to divide the final term $2x$2$2x$ correctly, often resulting in 0 or just omitting the constant term."
+      "explanation": "Divide each term of the polynomial by $2x$. $6x^3/2x = 3x^2$, $-4x^2/2x = -2x$. $2x/2x = 1$.\n\n**Common mistake:** Failing to divide the final term $2x$. $2x$ correctly, often resulting in 0 or just omitting the constant term."
     },
     {
       "id": "3-division-of-polynomials-easy-q5",
@@ -71,7 +71,7 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is already in the form $D(x)Q(x) + R(x)$ where $D(x) = (x-2)$. The constant term 5 is the remainder.\n\n**Common mistake:** Students may try to expand the whole expression and perform long division, which is correct but inefficient and prone to arithmetic errors."
+      "explanation": "The expression is already in the form $D(x)Q(x) + R(x) where D(x) = (x-2)$. The constant term 5 is the remainder.\n\n$$\n**Common mistake:** Students may try to expand the whole expression and perform long division, which is correct but inefficient and prone to arithmetic errors.\n"
     }
   ]
 }

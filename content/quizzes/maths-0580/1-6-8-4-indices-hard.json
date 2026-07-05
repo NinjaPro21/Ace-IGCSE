@@ -11,7 +11,7 @@
     {
       "id": "1-6-8-4-indices-hard-q1",
       "type": "mcq",
-      "question": "Solve the exponential index equation for $x$2$5^{3x} \\times 25 = 5^{14}$.",
+      "question": "Solve the exponential index equation for $x$. $5^{3x} \\times 25 = 5^{14}$.",
       "options": [
         "4",
         "3",
@@ -24,7 +24,7 @@
     {
       "id": "1-6-8-4-indices-hard-q2",
       "type": "mcq",
-      "question": "Simplify the compound algebraic $\\frac{tion}{}$ completely: $\\left(\\frac{8x^9}{y^6}\\right)^{-\\frac{1}{3}}$.",
+      "question": "Simplify the compound algebraic $fraction$ completely: $\\left(\\frac{8x^9}{y^6}\\right)^{-\\frac{1}{3}}$.",
       "options": [
         "$\\frac{y^2}{2x^3}$",
         "$\\frac{2x^3}{y^2}$",
@@ -32,12 +32,12 @@
         "$\\frac{y^2}{8x^3}$"
       ],
       "correctIndex": 0,
-      "explanation": "The negative index inverts the $\\frac{tion:}{}$ $\\left(\\frac{y^6}{8x^9}\\right)^{\\frac{1}{3}}$. Apply the cube root to all elements: $(y^6)^{\\frac{1}{3}} = y^2$, $8^{\\frac{1}{3}} = 2$, and $(x^9)^{\\frac{1}{3}} = x^3$. This yields $\\frac{y^2}{2x^3}$.\n\n**Common mistake:** Students often forget to cube-root the number 8 or leave it in the numerator, violating inversion rules."
+      "explanation": "The negative index inverts the $fraction:$ $\\left(\\frac{y^6}{8x^9}\\right)^{\\frac{1}{3}}$. Apply the cube root to all elements: $(y^6)^{\\frac{1}{3}} = y^2$, $8^{\\frac{1}{3}} = 2$, and $(x^9)^{\\frac{1}{3}} = x^3$. This yields $\\frac{y^2}{2x^3}$.\n\n**Common mistake:** Students often forget to cube-root the number 8 or leave it in the numerator, violating inversion rules."
     },
     {
       "id": "1-6-8-4-indices-hard-q3",
       "type": "mcq",
-      "question": "Given that $2^{x} = y$2$2^{x+3} - 2^x$2$y$ in its simplest form.",
+      "question": "Given that $2^{x} = y$. $2^{x+3} - 2^x2y$ in its simplest form.",
       "options": [
         "$7y$",
         "$8y - 1$",
@@ -45,12 +45,12 @@
         "$5y$"
       ],
       "correctIndex": 0,
-      "explanation": "Split the index expression: $2^{x+3} = 2^x \\times 2^3 = 8 \\times 2^x = 8y$2$8y - y = 7y$.\n\n**Common mistake:** Students often change $2^{x+3}$ to $y^3$, leading to the incorrect option $y^3 - y$."
+      "explanation": "Split the index expression: $2^{x+3} = 2^x \\times 2^3 = 8 \\times 2^x = 8y$. $8y - y = 7y$.\n\n**Common mistake:** Students often change $2^{x+3}$ to $y^3$, leading to the incorrect option $y^3 - y$."
     },
     {
       "id": "1-6-8-4-indices-hard-q4",
       "type": "mcq",
-      "question": "Solve the equation for $n$2$4^n = 2^{n+5}$.",
+      "question": "Solve the equation for $n$. $4^n = 2^{n+5}$.",
       "options": [
         "5",
         "2.5",
@@ -71,7 +71,7 @@
         "$x^4 y^4$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand the numerator: $(3x^2 y^3)^2 = 9x^4 y^6$. Now divide by the denominator: $\\frac{9x^4 y^6}{9x^5 y^{-1}}$. Cancel the 9s. Subtract exponents: for $x$2$4 - 5 = -1$; for $y$2$6 - (-1) = 7$. Result: $x^{-1} y^7$.\n\n**Common mistake:** Students often make sign mistakes during subtraction of negative powers, writing $6 - 1 = 5$ for the $y$ term index."
+      "explanation": "Expand the numerator: $(3x^2 y^3)^2 = 9x^4 y^6$. Now divide by the denominator: $\\frac{9x^4 y^6}{9x^5 y^{-1}}$. Cancel the 9s. Subtract exponents: for $x$. $4 - 5 = -1$; for $y$. $6 - (-1) = 7$. Result: $x^{-1} y^7$.\n\n**Common mistake:** Students often make sign mistakes during subtraction of negative powers, writing $6 - 1 = 5$ for the $y$ term index."
     }
   ]
 }

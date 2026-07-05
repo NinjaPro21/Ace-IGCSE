@@ -6,22 +6,22 @@ A net is a flat, 2D layout of polygons that can be folded along its edges to for
 
 $$
 \text{Total Surface Area of Solid} = \sum (\text{Individual Areas of all Polygon Faces in the Net})
+$$
 
+$$
 \text{Euler's Polyhedral Characteristic Link:} \quad \text{Faces} + \text{Vertices} = \text{Edges} + 2
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Cube net">
-      <rect x="80" y="20" width="50" height="50" fill="#dbeafe" stroke="#2563eb"/>
-      <rect x="80" y="70" width="50" height="50" fill="#bfdbfe" stroke="#2563eb"/>
-      <rect x="30" y="70" width="50" height="50" fill="#bfdbfe" stroke="#2563eb"/>
-      <rect x="130" y="70" width="50" height="50" fill="#bfdbfe" stroke="#2563eb"/>
-      <rect x="80" y="120" width="50" height="50" fill="#bfdbfe" stroke="#2563eb"/>
-      <rect x="80" y="170" width="50" height="50" fill="#bfdbfe" stroke="#2563eb"/>
-    </svg></div>
-
-Net of a cube — six squares fold into a cube; opposite faces never share an edge in the net.
+      <rect x="80" y="20" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
+      <rect x="80" y="70" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
+      <rect x="30" y="70" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
+      <rect x="130" y="70" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
+      <rect x="80" y="120" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
+      <rect x="80" y="170" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
+    </svg><p class="enlight-physics-diagram__caption">Net of a cube — six squares fold into a cube; opposite faces never share an edge in the net.</p></div>
 
 ## Steps / method
 
@@ -59,11 +59,17 @@ A closed cuboid measures $5\text{ cm}$ by $4\text{ cm}$ by $3\text{ cm}$. Draw i
 
 Identify the faces needed for a cuboid net: it requires three pairs of matching rectangles, making six faces in total.
 
-Calculate the surface areas of the three distinct pairs of rectangular faces:$\text{Area}_{\text{Pair 1}} = 2 \times (5\text{ cm} \times 4\text{ cm}) = 40\text{ cm}^2
+Calculate the surface areas of the three distinct pairs of rectangular faces:
+
+$$
+\text{Area}_{\text{Pair 1}} = 2 \times (5\text{ cm} \times 4\text{ cm}) = 40\text{ cm}^2
+$$
 
 $$
 \text{Area}_{\text{Pair 2}} = 2 \times (5\text{ cm} \times 3\text{ cm}) = 30\text{ cm}^2
+$$
 
+$$
 \text{Area}_{\text{Pair 3}} = 2 \times (4\text{ cm} \times 3\text{ cm}) = 24\text{ cm}^2
 $$
 

@@ -4,7 +4,7 @@ A **geometric progression** (GP) multiplies each term by a fixed ratio $r$. When
 
 ## Key formulas
 
-**$n$th term**
+**$n$ th term**
 
 $$
 u_n = ar^{n-1}
@@ -25,7 +25,9 @@ $$
 ## Steps / method
 
 1. **Identify** $a$ and $r$ — find $r$ by dividing consecutive terms.
+
 2. **Solve for $n$** — use logarithms when $n$ appears in an exponent.
+
 3. **Check convergence** before using $S_\infty$ — require $|r| < 1$.
 
 ### Key rule

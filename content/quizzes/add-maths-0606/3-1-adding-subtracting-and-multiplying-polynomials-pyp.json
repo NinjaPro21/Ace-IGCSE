@@ -24,7 +24,7 @@
     {
       "id": "3-1-adding-subtracting-and-multiplying-polynomials-pyp-q2",
       "type": "mcq",
-      "question": "Given that $(2x - 1)(x^2 + ax + b) = 2x^3 - 5x^2 - 4x + 3$, find the values of $a$2$b$.",
+      "question": "Given that $(2x - 1)(x^2 + ax + b) = 2x^3 - 5x^2 - 4x + 3$, find the values of $a$ and $b$.",
       "options": [
         "$a = -2, b = -3$",
         "$a = 2, b = 3$",
@@ -32,12 +32,12 @@
         "$a = -3, b = -2$"
       ],
       "correctIndex": 0,
-      "explanation": "Expanding gives $2x^3 + (2a-1)x^2 + (2b-a)x - b$2$-b=3 \\implies b=-3$; $2a-1=-5 \\implies 2a=-4 \\implies a=-2$.\n\n**Common mistake:** Confusing the coefficient comparison, such as setting $-b=3$ to get $b=3$ or miscalculating $2a-1=-5$."
+      "explanation": "Expanding gives $2x^3 + (2a-1)x^2 + (2b-a)x - b$. $-b=3 \\implies b=-3$; $2a-1=-5 \\implies 2a=-4 \\implies a=-2$.\n\n**Common mistake:** Confusing the coefficient comparison, such as setting $-b=3$ to get $b=3$ or miscalculating $2a-1=-5$."
     },
     {
       "id": "3-1-adding-subtracting-and-multiplying-polynomials-pyp-q3",
       "type": "mcq",
-      "question": "The polynomial $P(x)$ is defined by $P(x) = (x + 2)(x^2 + kx - 3)$. Given that the coefficient of $x$2$k$.",
+      "question": "The polynomial $P(x)$ is defined by $P(x) = (x + 2)(x^2 + kx - 3)$. Given that the coefficient of $x$ and $k$.",
       "options": [
         "4",
         "1",
@@ -45,12 +45,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The $x$2$(x)(-3) + (2)(kx) = (2k - 3)x$2$2k - 3 = 5 \\implies 2k = 8$.\n\n**Common mistake:** Calculating the $x^2$ coefficient instead, or forgetting one of the two products that sum to the $x$ term."
+      "explanation": "The $x$. $(x)(-3) + (2)(kx) = (2k - 3)x22k - 3 = 5 \\implies 2k = 8$.\n\n**Common mistake:** Calculating the $x^2$ coefficient instead, or forgetting one of the two products that sum to the $x$ term."
     },
     {
       "id": "3-1-adding-subtracting-and-multiplying-polynomials-pyp-q4",
       "type": "mcq",
-      "question": "Find the values of the constants $A, B$2$C$2$x^3 - 7x + 6 = (x - 1)(Ax^2 + Bx + C)$.",
+      "question": "Find the values of the constants $A, B$ and $C2x^3 - 7x + 6 = (x - 1)(Ax^2 + Bx + C)$.",
       "options": [
         "$A = 1, B = 1, C = -6$",
         "$A = 1, B = -1, C = 6$",
@@ -58,12 +58,12 @@
         "$A = 1, B = 0, C = -6$"
       ],
       "correctIndex": 0,
-      "explanation": "Comparing coefficients: $Ax^3 = x^3 \\implies A=1$; $-C = 6 \\implies C=-6$; $Bx^2 - Ax^2 = 0 \\implies B-1 = 0 \\implies B=1$.\n\n**Common mistake:** Thinking $B$2$x^2$ term in the original polynomial, neglecting the $-Ax^2$ term from expansion."
+      "explanation": "Comparing coefficients: $Ax^3 = x^3 \\implies A=1$; $-C = 6 \\implies C=-6$; $Bx^2 - Ax^2 = 0 \\implies B-1 = 0 \\implies B=1$.\n\n**Common mistake:** Thinking $B$. $x^2$ term in the original polynomial, neglecting the $-Ax^2$ term from expansion."
     },
     {
       "id": "3-1-adding-subtracting-and-multiplying-polynomials-pyp-q5",
       "type": "mcq",
-      "question": "Find the value of the constant $k$2$(x - 3)(x^2 + kx - 2) = x^3 - 5x^2 + 4x + 6$.",
+      "question": "Find the value of the constant $k$. $(x - 3)(x^2 + kx - 2) = x^3 - 5x^2 + 4x + 6$.",
       "options": [
         "-2",
         "2",
@@ -71,7 +71,7 @@
         "-5"
       ],
       "correctIndex": 0,
-      "explanation": "Expanding $x^2$ terms: $kx^2 - 3x^2 = (k-3)x^2$. Setting $k-3 = -5$ gives $k = -2$. Check $x$2$-2x - 3(-2)x = 4x$. Correct.\n\n**Common mistake:** Miscalculating the sum of $x^2$ terms or incorrectly using the $x$2$k$ with a sign error."
+      "explanation": "Expanding $x^2$ terms: $kx^2 - 3x^2 = (k-3)x^2$. Setting $k-3 = -5$ gives $k = -2$. Check $x$. $-2x - 3(-2)x = 4x$. Correct.\n\n**Common mistake:** Miscalculating the sum of $x^2$ terms or incorrectly using the $x$ and $k$ with a sign error."
     }
   ]
 }

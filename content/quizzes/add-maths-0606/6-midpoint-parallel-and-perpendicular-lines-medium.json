@@ -11,15 +11,15 @@
     {
       "id": "6-midpoint-parallel-and-perpendicular-lines-medium-q1",
       "type": "mcq",
-      "question": "A line $L$2$(2, 3)$ and $(5, 9)$. Find the gradient of any line perpendicular to $L$.",
+      "question": "A line $L$. $(2, 3)$ and $(5, 9)$. Find the gradient of any line perpendicular to $L$.",
       "options": [
         "$-\\frac{1}{2}$",
-        "$2$",
+        "2",
         "$\\frac{1}{2}$",
         "$-2$"
       ],
       "correctIndex": 0,
-      "explanation": "The gradient of $L$2$m = \\frac{9 - 3}{5 - 2} = \\frac{6}{3} = 2$. The perpendicular gradient is the negative reciprocal, $-1/2$.\n\n**Common mistake:** Calculating the gradient correctly as 2 but failing to take the negative reciprocal for the perpendicular condition."
+      "explanation": "The gradient of $L$. So $m = \\frac{9 - 3}{5 - 2} = \\frac{6}{3} = 2$. The perpendicular gradient is the negative reciprocal, $-1/2$.\n\n**Common mistake:** Calculating the gradient correctly as 2 but failing to take the negative reciprocal for the perpendicular condition."
     },
     {
       "id": "6-midpoint-parallel-and-perpendicular-lines-medium-q2",
@@ -32,7 +32,7 @@
         "$10$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the $x$2$\\frac{k + 6}{2} = 5 \\Rightarrow k + 6 = 10 \\Rightarrow k = 4$. Checking the $y$2$\\frac{4 + (4+2)}{2} = \\frac{10}{2} = 5$ (Note: stem $y$2$k=4$, $M = (5, 5)$. For $M=(5,6)$, $k+6=10 \\Rightarrow k=4$ and $(4+k+2)/2=6 \\Rightarrow k+6=12 \\Rightarrow k=6$. Re-aligning: For $k=6$, $x_m = (6+6)/2=6$ and $y_m=(4+8)/2=6$. Let's use $k=4$ and change $y_m$2$k=4$.\n\n**Common mistake:** Failing to check that the same value of $k$2$x$2$y$ midpoint conditions."
+      "explanation": "Using the $x$. So $\\frac{k + 6}{2} = 5 \\Rightarrow k + 6 = 10 \\Rightarrow k = 4$. Checking the $y$. So $\\frac{4 + (4+2)}{2} = \\frac{10}{2} = 5$ (Note: stem $y$. So $k=4$, $M = (5, 5)$. For $M=(5,6)$, $k+6=10 \\Rightarrow k=4$ and $(4+k+2)/2=6 \\Rightarrow k+6=12 \\Rightarrow k=6$. Re-aligning: For $k=6$, $x_m = (6+6)/2=6$ and $y_m=(4+8)/2=6$. Let's use $k=4$ and change $y_m^2 So k=4$.\n\n**Common mistake:** Failing to check that the same value of $k$ and $x2y$ midpoint conditions."
     },
     {
       "id": "6-midpoint-parallel-and-perpendicular-lines-medium-q3",
@@ -50,7 +50,7 @@
     {
       "id": "6-midpoint-parallel-and-perpendicular-lines-medium-q4",
       "type": "mcq",
-      "question": "The points $A(1, 2)$, $B(3, 5)$, and $C(x, 1)$ form a triangle that is right-angled at $B$2$x$.",
+      "question": "The points $A(1, 2)$, $B(3, 5)$, and $C(x, 1)$ form a triangle that is right-angled at $B$ and $x$.",
       "options": [
         "$7.5$",
         "$4.5$",
@@ -58,20 +58,20 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient $AB = \\frac{5-2}{3-1} = 1.5$. Gradient $BC$2$-1/1.5 = -2/3$. So $\\frac{1-5}{x-3} = -\\frac{2}{3} \\Rightarrow \\frac{-4}{x-3} = -\\frac{2}{3} \\Rightarrow -12 = -2x + 6 \\Rightarrow 2x = 18 \\Rightarrow x = 9$. Corrected options: Correct answer 7.5 was based on different points. For these points, $x=9$.\n\n**Common mistake:** Setting the gradients equal (parallel) instead of using the negative reciprocal (perpendicular) at the vertex $B$."
+      "explanation": "Gradient $AB = \\frac{5-2}{3-1} = 1.5$. Gradient $BC$. $-1/1.5 = -2/3$. So $\\frac{1-5}{x-3} = -\\frac{2}{3} \\Rightarrow \\frac{-4}{x-3} = -\\frac{2}{3} \\Rightarrow -12 = -2x + 6 \\Rightarrow 2x = 18 \\Rightarrow x = 9$. Corrected options: Correct answer 7.5 was based on different points. For these points, $x=9$.\n\n**Common mistake:** Setting the gradients equal (parallel) instead of using the negative reciprocal (perpendicular) at the vertex $B$."
     },
     {
       "id": "6-midpoint-parallel-and-perpendicular-lines-medium-q5",
       "type": "mcq",
-      "question": "Three points are $A(-2, 1)$, $B(2, 3)$, and $C(6, 5)$. Show that $B$2$AC$2$AC$.",
+      "question": "Three points are $A(-2, 1)$, $B(2, 3)$, and $C(6, 5)$. Show that $B$. $AC2AC$.",
       "options": [
-        "Midpoint is $B$2$-2$",
-        "Midpoint is $B$2$0.5$",
+        "Midpoint is $B$. $-2$",
+        "Midpoint is $B$. $0.5$",
         "Midpoint is $(4, 3)$, Perp Gradient is $-2$",
-        "Midpoint is $B$2$2$"
+        "Midpoint is $B$. 2"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint $AC = (\\frac{-2+6}{2}, \\frac{1+5}{2}) = (2, 3) = B$2$AC = \\frac{5-1}{6-(-2)} = \\frac{4}{8} = 0.5$. Perpendicular gradient $= -1/0.5 = -2$.\n\n**Common mistake:** Finding the gradient of $AB$2$BC$ and forgetting to take the negative reciprocal for the final answer."
+      "explanation": "Midpoint $AC = (\\frac{-2+6}{2}, \\frac{1+5}{2}) = (2, 3) = B$. So $AC = \\frac{5-1}{6-(-2)} = \\frac{4}{8} = 0.5$. Perpendicular gradient $= -1/0.5 = -2$.\n\n**Common mistake:** Finding the gradient of $AB$. $BC$ and forgetting to take the negative reciprocal for the final answer."
     }
   ]
 }

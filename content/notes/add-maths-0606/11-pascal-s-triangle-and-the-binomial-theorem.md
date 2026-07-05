@@ -6,12 +6,13 @@ The binomial theorem provides a systematic algebraic formula to expand expressio
 
 $$
 (a + b)^n = a^n + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^2 + \dots + \binom{n}{r}a^{n-r}b^r + \dots + b^n
-
+$$
+$$
 \text{Binomial Coefficient: } \binom{n}{r} = ^nC_r = \frac{n!}{r!(n-r)!}
-
+$$
+$$
 \text{General Term } (r+1)\text{-th}: T_{r+1} = \binom{n}{r} a^{n-r} b^r
 $$
-
 
 ## Steps / method
 
@@ -38,15 +39,15 @@ $$
 $$
 Coefficients come from row 4 of Pascal's triangle: $1, 4, 6, 4, 1$, applied to $2^4, 2^3 \cdot 3, 2^2 \cdot 3^2, 2 \cdot 3^3, 3^4$.
 
-
-
 ## Worked example — Finding a coefficient
 
 Find the coefficient of $x^3$ in $(1 + 2x)^5$.
 
-General term: $T_{r+1} = \binom{5}{r}(1)^{5-r}(2x)^r = \binom{5}{r} \cdot 2^r x^r$ For $x^3$, set $r = 3$: $$
-\binom{5}{3} \cdot 2^3 = 10 \times 8 = 80
-$$The coefficient of$x^3$ is **80**.
+General term: $T_{r+1} = \binom{5}{r}(1)^{5-r}(2x)^r = \binom{5}{r} \cdot 2^r x^r$. For $x^3$, set $r = 3$:
+
+$\binom{5}{3} \cdot 2^3 = 10 \times 8 = 80$
+
+The coefficient of $x^3$ is **80**.
 
 ## Examiner tip
 

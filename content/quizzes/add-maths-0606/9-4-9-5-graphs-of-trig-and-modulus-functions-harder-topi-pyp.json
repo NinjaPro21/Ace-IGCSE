@@ -11,7 +11,7 @@
     {
       "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q1",
       "type": "mcq",
-      "question": "Sketch $y = 1 + \\sin 2x$2$0° \\le x \\le 180°$. How many turning points are there in this interval?",
+      "question": "Sketch $y = 1 + \\sin 2x$ and $0° \\le x \\le 180°$. How many turning points are there in this interval?",
       "options": [
         "2",
         "1",
@@ -32,12 +32,12 @@
         "(0°, 3), (180°, 3)"
       ],
       "correctIndex": 0,
-      "explanation": "$3 \\cos 2x$2$x=0°$ and $180°$, and at -3 when $x=90°$. The modulus reflects -3 to 3.\n\n**Common mistake:** Missing the reflected maximum at 90°."
+      "explanation": "$3 \\cos 2x$. So $x=0°$ and $180°$, and at -3 when $x=90°$. The modulus reflects -3 to 3.\n\n**Common mistake:** Missing the reflected maximum at 90°."
     },
     {
       "id": "9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-pyp-q3",
       "type": "mcq",
-      "question": "Find the values of $a$2$b$2$y = a \\sin bx$ if the amplitude is 5 and the period is 120°.",
+      "question": "Find the values of $a$ and $b2y = a \\sin bx$ if the amplitude is 5 and the period is 120°.",
       "options": [
         "$a = 5, b = 3$",
         "$a = 5, b = 1/3$",
@@ -71,7 +71,7 @@
         "$1 \\le y \\le 3$"
       ],
       "correctIndex": 0,
-      "explanation": "$2 \\cos 2x - 1$ ranges from $-3$ to^1. The modulus reflects $-3$ up to^3. Thus, the new range is^0 to^3.\n\n**Common mistake:** Assuming the range is still 1 to 3, failing to realize the graph crosses the $x$2$y=0$."
+      "explanation": "$2 \\cos 2x - 1$ ranges from $-3$ to^1. The modulus reflects $-3$ up to^3. Thus, the new range is $1$ to^3.\n\n**Common mistake:** Assuming the range is still 1 to 3, failing to realize the graph crosses the $x$. So $y=0$."
     }
   ]
 }

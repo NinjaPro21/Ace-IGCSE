@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Addition/Subtraction** — align like terms (same power of $x$) and add or subtract coefficients.
+
 2. **Multiplication** — multiply every term in the first polynomial by every term in the second.
+
 3. **Simplify** — combine like terms and write in descending powers of $x$.
 
 ### Key rule
@@ -32,8 +34,8 @@ Question: Simplify $(2x^2 - 3x + 4)(x - 2)$.
 
 $$
 \begin{aligned}
-&2x^2(x - 2) = 2x^3 - 4x^2 \\
-&-3x(x - 2) = -3x^2 + 6x \\
+&2x^2(x - 2) = 2x^3 - 4x^2 \
+&-3x(x - 2) = -3x^2 + 6x \
 &4(x - 2) = 4x - 8
 \end{aligned}
 $$

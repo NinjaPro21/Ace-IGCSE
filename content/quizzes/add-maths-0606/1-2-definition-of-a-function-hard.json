@@ -11,7 +11,7 @@
     {
       "id": "1-2-definition-of-a-function-hard-q1",
       "type": "mcq",
-      "question": "A function is defined as f(x)= \\frac{3x-}{1x+2} for the domain x>−2. Determine the set of values of the range.",
+      "question": "$A function is defined as f(x)= \\frac{3x-}{1x+2} for the domain x>-2. Determine the set of values of the range.$",
       "options": [
         "f(x)<3",
         "f(x)>3",
@@ -19,25 +19,25 @@
         "f(x)∈R"
       ],
       "correctIndex": 0,
-      "explanation": "As x→∞, the function approaches the horizontal asymptote y=3. Because 3x−1 is always less than 3(x+2) for x>−2, the range is y<3.\n\n**Common mistake:** Misidentifying the horizontal asymptote or assuming the domain restriction is the same as the range restriction."
+      "explanation": "As x→∞, the function approaches the horizontal asymptote y=3. Because 3x-1 is always less than 3(x+2) for x>-2, the range is y<3.\n\n**Common mistake:** Misidentifying the horizontal asymptote or assuming the domain restriction is the same as the range restriction."
     },
     {
       "id": "1-2-definition-of-a-function-hard-q2",
       "type": "mcq",
-      "question": "Find the domain of the function f(x)=\\sqrt25−$x^{2}$so that the range is 0≤f(x)≤5.",
+      "question": "Find the domain of the function f(x)=\\sqrt25-$x^{2}$so that the range is 0≤f(x)≤5.",
       "options": [
-        "−5≤x≤5",
+        "-5≤x≤5",
         "0≤x≤5",
         "x≥0",
         "x≤5"
       ],
       "correctIndex": 0,
-      "explanation": "For the square root to be real, 25−$x^{2}$≥0, so $x^{2}$≤25, giving −5≤x≤5. Within this interval, f(x) varies from 0 to 5.\n\n**Common mistake:** Students often only consider positive x values (0≤x≤5), forgetting that negative values also satisfy the quadratic inequality."
+      "explanation": "For the square root to be real, 25-$x^{2}$≥0, so $x^{2}$≤25, giving -5≤x≤5. Within this interval, f(x) varies from 0 to 5.\n\n**Common mistake:** Students often only consider positive x values (0≤x≤5), forgetting that negative values also satisfy the quadratic inequality."
     },
     {
       "id": "1-2-definition-of-a-function-hard-q3",
       "type": "mcq",
-      "question": "The function f is defined by f(x)= x^{2}−4x+9 for x∈R. Find the exact range of f.",
+      "question": "The function f is defined by f(x)= x^{2}-4x+9 for $x \\in \\mathbb{R}$. Find the exact range of f.",
       "options": [
         "f(x)≥5",
         "f(x)≥9",
@@ -50,20 +50,20 @@
     {
       "id": "1-2-definition-of-a-function-hard-q4",
       "type": "mcq",
-      "question": "Solve the equation f(x)=x for the function f(x)= \\frac{x+7}{6x+1} where x \\neq −1.",
+      "question": "$Solve the equation f(x)=x for the function f(x)= \\frac{x+7}{6x+1} where x \\neq -1.",
       "options": [
-        "x=2 and x=−3",
+        "x=2 and x=-3",
         "x=2 only",
-        "x=3 and x=−2",
+        "x=3 and x=-2",
         "x=6 and x=1"
       ],
       "correctIndex": 0,
-      "explanation": "Set (x+6)/(x+1)=x \\implies x+6= x^{2}+x \\implies $x^{2}$=6. The solution should be x=±\\sqrt{6}. Wait, let's re-calculate: x+6= x^{2}+x \\implies $x^{2}$−6=0 \\implies x=±\\sqrt{6}. Correcting options for logic: Solving x+6=x(x+1) \\implies x+6= x^{2}+x \\implies $x^{2}$−6=0. Let's try f(x)= \\frac{6}{-xx+1:} (6−x)/(x+1)=x \\implies 6−x= x^{2}+x \\implies $x^{2}$+2x−6=0. Let's stick to f(x)= x^{2}−6=x: $x^{2}$−x−6=0 \\implies (x−3)(x+2)=0. Let's use f(x)=x+6−$x^{2}$=x: 6−$x^{2}$=0. Final Choice for valid question: Solve f(x)=x for f(x)= x+6x. x+6= x^{2}implies$x^{2}$−x−6=0 \\implies x=3,−2.\n\n**Common mistake:** Algebraic errors in clearing the denominator or incorrectly factoring the resulting quadratic equation."
+      "explanation": "Set (x+6)/(x+1)=x \\implies x+6= x^{2}+x \\implies $x^{2}$=6. The solution should be x=±\\sqrt{6}. Wait, let's re-calculate: x+6= x^{2}+x \\implies $x^{2}$-6=0 \\implies x=±\\sqrt{6}. Correcting options for logic: Solving x+6=x(x+1) \\implies x+6= x^{2}+x \\implies $x^{2}$-6=0. Let's try f(x)= \\frac{6}{-xx+1:} (6-x)/(x+1)=x \\implies 6-x= x^{2}+x \\implies $x^{2}$+2x-6=0. Let's stick to f(x)= x^{2}-6=x: $x^{2}$-x-6=0 \\implies (x-3)(x+2)=0. Let's use f(x)=x+6-$x^{2}$=x: 6-$x^{2}$=0. Final Choice for valid question: Solve f(x)=x for f(x)= x+6x. x+6= x^{2}implies x^{2}-x-6=0 \\implies x=3,-2.\n\n**Common mistake:** Algebraic errors in clearing the denominator or incorrectly factoring the resulting quadratic equation."
     },
     {
       "id": "1-2-definition-of-a-function-hard-q5",
       "type": "mcq",
-      "question": "Given f(x)=3x−k, find the value of k if f(k)=14.",
+      "question": "Given f(x)=3x-k, find the value of k if f(k)=14.",
       "options": [
         "7",
         "14",
@@ -71,7 +71,7 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "f(k)=3(k)−k=2k. Set 2k=14, so k=7.\n\n**Common mistake:** Students may confuse the variable x with the constant k and substitute incorrectly into the function."
+      "explanation": "f(k)=3(k)-k=2k. Set 2k=14, so k=7.\n\n**Common mistake:** Students may confuse the variable x with the constant k and substitute incorrectly into the function."
     }
   ]
 }

@@ -24,7 +24,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Find the $y$2$x + y = 10$ and $xy = 21$.",
+      "question": "Find the $y$. So $x + y = 10$ and $xy = 21$.",
       "options": [
         "3 and 7",
         "2 and 8",
@@ -32,7 +32,7 @@
         "1 and 9"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 10 - y$2$xy = 21$: $(10 - y)y = 21 \\implies 10y - y^2 = 21 \\implies y^2 - 10y + 21 = 0 \\implies (y - 3)(y - 7) = 0$.\n\n**Common mistake:** Algebraic slips during the expansion of $(10-y)y$2$(y - 2)(y - 8)$."
+      "explanation": "Substitute $x = 10 - y$. So $xy = 21$: $(10 - y)y = 21 \\implies 10y - y^2 = 21 \\implies y^2 - 10y + 21 = 0 \\implies (y - 3)(y - 7) = 0$.\n\n**Common mistake:** Algebraic slips during the expansion of $(10-y)y$. $(y - 2)(y - 8)$."
     },
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q3",
@@ -45,7 +45,7 @@
         "(3, 4) and (-3, -2)"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2 - 5 = x + 1 \\implies x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0$. Sub $x = 3, y = 4$; sub $x = -2, y = -1$.\n\n**Common mistake:** Correctly solving for $x$2$y$."
+      "explanation": "$x^2 - 5 = x + 1 \\implies x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0$. Sub $x = 3, y = 4$; sub $x = -2, y = -1$.\n\n**Common mistake:** Correctly solving for $x$ and $y$."
     },
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q4",
@@ -63,7 +63,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "The line $y = 5x + c$2$(2, 13)$ which lies on the curve $y = 2x^2 + 5$. Find the value of $c$.",
+      "question": "The line $y = 5x + c$. $(2, 13)$ which lies on the curve $y = 2x^2 + 5$. Find the value of $c$.",
       "options": [
         "3",
         "8",
@@ -71,7 +71,7 @@
         "5"
       ],
       "correctIndex": 0,
-      "explanation": "Since the intersection point $(2, 13)$ must satisfy the linear equation: $13 = 5(2) + c \\implies 13 = 10 + c \\implies c = 3$.\n\n**Common mistake:** Substituting the $x$2$y$2$c$."
+      "explanation": "Since the intersection point $(2, 13)$ must satisfy the linear equation: $13 = 5(2) + c \\implies 13 = 10 + c \\implies c = 3$.\n\n**Common mistake:** Substituting the $x$ and $y2c$."
     }
   ]
 }

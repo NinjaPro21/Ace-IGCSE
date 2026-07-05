@@ -11,15 +11,15 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q1",
       "type": "mcq",
-      "question": "The vector v=ti+6j is parallel to the vector w=2i−3j . Find the value of t .",
+      "question": "The vector v=ti+6j is parallel to the vector w=2i-3j^2 Find the value of t .",
       "options": [
-        "−4",
+        "-4",
         "4",
-        "−9",
-        "−1"
+        "-9",
+        "-1"
       ],
       "correctIndex": 0,
-      "explanation": "If parallel, t/2=6/(−3)⟹t/2=−2⟹t=−4.\n\n**Common mistake:** Option B is a sign error during the cross-multiplication or division."
+      "explanation": "If parallel, t/2=6/(-3)⟹t/2=-2⟹t=-4.\n\n**Common mistake:** Option B is a sign error during the cross-multiplication or division."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q2",
@@ -32,38 +32,38 @@
         "0.64"
       ],
       "correctIndex": 0,
-      "explanation": "For a unit vector,\n(\n\n$x^{2}$+0.$6^{2}$)=1⟹$x^{2}$+0.36=1⟹$x^{2}$=0.64⟹x=0.8.\n\n**Common mistake:** Option D is the value of $x^{2}$, where the student forgets to take the final square root."
+      "explanation": "For a unit vector,\n(\n\n$x^{2}$+0.6^{2}$)=1⟹$x^{2}$+0.36=1⟹$x^{2}$=0.64⟹x=0.8.\n\n**Common mistake:** Option D is the value of $x^{2}$, where the student forgets to take the final square root."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q3",
       "type": "mcq",
       "question": "A vector r has magnitude 10 and makes an angle of 120° with the positive x-axis. Express r in i,j form.",
       "options": [
-        "−5i+5\n(\n\n3)j",
+        "-5i+5\n(\n\n3)j",
         "5i+5\n(\n\n3)j",
-        "−5\n(\n\n3)i+5j",
-        "−5i−5\n(\n\n3)j"
+        "-5\n(\n\n3)i+5j",
+        "-5i-5\n(\n\n3)j"
       ],
       "correctIndex": 0,
-      "explanation": "r=10cos(120)i+10sin(120)j=10(−0.5)i+10(\n(\n\n3)/2)j=−5i+5\n(\n\n3)j.\n\n**Common mistake:** Option C swaps the sine and cosine components."
+      "explanation": "r=10cos(120)i+10sin(120)j=10(-0.5)i+10(\n(\n\n3)/2)j=-5i+5\n(\n\n3)j.\n\n**Common mistake:** Option C swaps the sine and cosine components."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q4",
       "type": "mcq",
-      "question": "Given a=i+2j and b=3i−j , find the values of h and k such that ha+kb=7i .",
+      "question": "Given a=i+2j and b=3i-j , find the values of h and k such that ha+kb=7i .",
       "options": [
         "h=1,k=2",
         "h=2,k=1",
         "h=7,k=0",
-        "h=−1,k=3"
+        "h=-1,k=3"
       ],
       "correctIndex": 0,
-      "explanation": "i-components: h+3k=7; j-components: 2h−k=0⟹k=2h. Substitute: h+3(2h)=7⟹7h=7⟹h=1,k=2.\n\n**Common mistake:** Option B results from a simple calculation error in the simultaneous equations."
+      "explanation": "i-components: h+3k=7; j-components: 2h-k=0⟹k=2h. Substitute: h+3(2h)=7⟹7h=7⟹h=1,k=2.\n\n**Common mistake:** Option B results from a simple calculation error in the simultaneous equations."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q5",
       "type": "mcq",
-      "question": "The points P and Q have position vectors 3i+4j and xi−8j respectively. If ∣\nPQ\n\n∣=13 and x>0, find the value of x.",
+      "question": "The points P and Q have position vectors 3i+4j and xi-8j respectively. If ∣\nPQ\n\n∣=13 and x>0, find the value of x.",
       "options": [
         "8",
         "5",
@@ -71,12 +71,12 @@
         "13"
       ],
       "correctIndex": 0,
-      "explanation": "PQ\n\n=(x−3)i+(−8−4)j=(x−3)i−12j. Magnitude squared is $(x-3)^{2}$+$(-12)^{2}$=1$3^{2}$⟹$(x-3)^{2}$+144=169⟹$(x-3)^{2}$=25. x−3=5⟹x=8.\n\n**Common mistake:** Option B is the root (x−3)=5 before solving for x."
+      "explanation": "PQ\n\n=(x-3)i+(-8-4)j=(x-3)i-12j. Magnitude squared is $(x-3)^{2}$+$(-12)^{2}$=1$3^{2}$⟹$(x-3)^{2}$+144=169⟹$(x-3)^{2}$=25. x-3=5⟹x=8.\n\n**Common mistake:** Option B is the root (x-3)=5 before solving for x."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q6",
       "type": "mcq",
-      "question": "The position vectors of points A and B are $\\mathbf{a}$ and $\\mathbf{b}$. Point P lies on $AB$2$AP = 3AB$2$\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "The position vectors of points A and B are $\\mathbf{a}$ and $\\mathbf{b}$. Point P lies on $AB$. So $AP = 3AB2\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "3b - 2a",
         "3a - 2b",
@@ -102,7 +102,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q8",
       "type": "mcq",
-      "question": "Given $\\vec{OA} = \\begin{pmatrix} 2 \\ -1 \\end{pmatrix}$ and $\\vec{OB} = \\begin{pmatrix} 8 \\ 2 \\end{pmatrix}$, find the position vector of point C on AB such that the area of triangle OAC is half the area of triangle OAB.",
+      "question": "Given $\\vec{OA} = \\begin{pmatrix} 2 \\ \\\\ -1 \\end{pmatrix}$ and $\\vec{OB} = \\begin{pmatrix} 8 \\ \\\\ 2 \\end{pmatrix}$, find the position vector of point C on AB such that the area of triangle OAC is half the area of triangle OAB.",
       "options": [
         "5i + 0.5j",
         "3i + j",
@@ -110,7 +110,7 @@
         "4i + j"
       ],
       "correctIndex": 0,
-      "explanation": "Triangle area ratio implies C is the midpoint of AB. $\\vec{OC} = 0.5(\\vec{OA} + \\vec{OB}) = 0.5\\begin{pmatrix} 10 \\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\ 0.5 \\end{pmatrix}$.\n\n**Common mistake:** Failing to recognize that equal areas for triangles with the same vertex and base line imply a midpoint."
+      "explanation": "Triangle area ratio implies C is the midpoint of AB. $\\vec{OC} = 0.5(\\vec{OA} + \\vec{OB}) = 0.5\\begin{pmatrix} 10 \\ \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\ \\\\ 0.5 \\end{pmatrix}$.\n\n**Common mistake:** Failing to recognize that equal areas for triangles with the same vertex and base line imply a midpoint."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q9",
@@ -128,7 +128,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q10",
       "type": "mcq",
-      "question": "Points A and B have position vectors $\\begin{pmatrix} 1 \\ 4 \\end{pmatrix}$ and $\\begin{pmatrix} 7 \\ -2 \\end{pmatrix}$. Find the position vector of point T on $AB$2$\\vec{AT} = \\frac{1}{3} \\vec{AB}$.",
+      "question": "Points A and B have position vectors $\\begin{pmatrix} 1 \\ \\\\ 4 \\end{pmatrix}$ and $\\begin{pmatrix} 7 \\ \\\\ -2 \\end{pmatrix}$. Find the position vector of point T on $AB$. So $\\vec{AT} = \\frac{1}{3} \\vec{AB}$.",
       "options": [
         "3i + 2j",
         "2i - 2j",
@@ -136,12 +136,12 @@
         "5i + 0j"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{AB} = \\begin{pmatrix} 6 \\ -6 \\end{pmatrix}$. $\\vec{AT} = \\begin{pmatrix} 2 \\ -2 \\end{pmatrix}$. $\\vec{OT} = \\vec{OA} + \\vec{AT} = \\begin{pmatrix} 1 \\ 4 \\end{pmatrix} + \\begin{pmatrix} 2 \\ -2 \\end{pmatrix} = \\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** Giving the vector $\\vec{AT}$ (the displacement) instead of the position vector $\\vec{OT}$."
+      "explanation": "$\\vec{AB} = \\begin{pmatrix} 6 \\ \\\\ -6 \\end{pmatrix}$. $\\vec{AT} = \\begin{pmatrix} 2 \\ \\\\ -2 \\end{pmatrix}$. $\\vec{OT} = \\vec{OA} + \\vec{AT} = \\begin{pmatrix} 1 \\ \\\\ 4 \\end{pmatrix} + \\begin{pmatrix} 2 \\ \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} 3 \\ \\\\ 2 \\end{pmatrix}$.\n\n**Common mistake:** Giving the vector $\\vec{AT}$ (the displacement) instead of the position vector $\\vec{OT}$."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q11",
       "type": "mcq",
-      "question": "In triangle $OAB$2$P$2$OA$2$2:1$ and $Q$2$AB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
+      "question": "In triangle $OAB$ and $P2OA$. $2:1$ and $Q$. $AB2\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
       "options": [
         "$0.5\\mathbf{b} - 0.167\\mathbf{a}$",
         "$0.5\\mathbf{b} + 0.167\\mathbf{a}$",
@@ -154,7 +154,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q12",
       "type": "mcq",
-      "question": "In the parallelogram $OABC$2$M$2$BC$2$OM$2$AC$2$X$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find the value of $k$.",
+      "question": "In the parallelogram $OABC$ and $M2BC$. $OM2AC$ and $X2\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find the value of $k$.",
       "options": [
         "$2/3$",
         "$1/2$",
@@ -162,12 +162,12 @@
         "$1/3$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{OM} = \\mathbf{c} + 0.5\\mathbf{a}$. $\\vec{OX} = k(\\mathbf{c} + 0.5\\mathbf{a})$. Also $X$2$AC$2$\\vec{OX} = (1-m)\\mathbf{a} + m\\mathbf{c}$. Equating coefficients: $m = k$2$1-m = 0.5k \\implies 1-k = 0.5k \\implies 1.5k = 1 \\implies k = 2/3$.\n\n**Common mistake:** Option B is a common guess for intersection points without performing the formal coefficient comparison."
+      "explanation": "$\\vec{OM} = \\mathbf{c} + 0.5\\mathbf{a}$. $\\vec{OX} = k(\\mathbf{c} + 0.5\\mathbf{a})$. Also $X$. $AC2\\vec{OX} = (1-m)\\mathbf{a} + m\\mathbf{c}$. Equating coefficients: $m = k$. $1-m = 0.5k \\implies 1-k = 0.5k \\implies 1.5k = 1 \\implies k = 2/3$.\n\n**Common mistake:** Option B is a common guess for intersection points without performing the formal coefficient comparison."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q13",
       "type": "mcq",
-      "question": "The points $O, A, B$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. $C$2$OB$2$OB : BC = 1 : 2$. Find $\\vec{AC}$.",
+      "question": "The points $O, A, B$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. $C$. $OB2OB : BC = 1 : 2$. Find $\\vec{AC}$.",
       "options": [
         "$3\\mathbf{b} - \\mathbf{a}$",
         "$2\\mathbf{b} - \\mathbf{a}$",
@@ -175,15 +175,15 @@
         "$\\mathbf{b} - 3\\mathbf{a}$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $OB : BC = 1 : 2$, $\\vec{OC} = 3\\vec{OB} = 3\\mathbf{b}$. Then $\\vec{AC} = \\vec{AO} + \\vec{OC} = -\\mathbf{a} + 3\\mathbf{b}$.\n\n**Common mistake:** Option B occurs if the student interprets the ratio as $OC$2$OB$2$BC$2$OB$."
+      "explanation": "Since $OB : BC = 1 : 2$, $\\vec{OC} = 3\\vec{OB} = 3\\mathbf{b}$. Then $\\vec{AC} = \\vec{AO} + \\vec{OC} = -\\mathbf{a} + 3\\mathbf{b}$.\n\n**Common mistake:** Option B occurs if the student interprets the ratio as $OC$. $OB2BC$. $OB$."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q14",
       "type": "mcq",
-      "question": "Given that $\\mathbf{p} = \\mathbf{a} + 2\\mathbf{b}$ and $\\mathbf{q} = 3\\mathbf{a} + k\\mathbf{b}$, find the value of $k$2$\\mathbf{p}$ and $\\mathbf{q}$ are parallel.",
+      "question": "Given that $\\mathbf{p} = \\mathbf{a} + 2\\mathbf{b}$ and $\\mathbf{q} = 3\\mathbf{a} + k\\mathbf{b}$, find the value of $k$. $\\mathbf{p}$ and $\\mathbf{q}$ are parallel.",
       "options": [
         "$6$",
-        "$2$",
+        "2",
         "$3$",
         "$1.5$"
       ],
@@ -193,7 +193,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q15",
       "type": "mcq",
-      "question": "In triangle $OAB$2$X$2$OA$2$Y$2$OB$2$OY = 2YB$2$AY$2$BX$2$P$2$\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In triangle $OAB$ and $X2OA$ and $Y2OB$. So $OY = 2YB2AY$. $BX2P$. $\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$0.2\\mathbf{a} + 0.4\\mathbf{b}$",
         "$0.4\\mathbf{a} + 0.2\\mathbf{b}$",
@@ -201,7 +201,7 @@
         "$0.33\\mathbf{a} + 0.67\\mathbf{b}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the vector intersection method (parameters $\\lambda, \\mu$2$\\vec{OP} = \\frac{1}{5}\\mathbf{a} + \\frac{2}{5}\\mathbf{b} = 0.2\\mathbf{a} + 0.4\\mathbf{b}$.\n\n**Common mistake:** Option B is a common error where students swap the coefficients for the two base vectors."
+      "explanation": "Using the vector intersection method (parameters $\\lambda, \\mu$. So $\\vec{OP} = \\frac{1}{5}\\mathbf{a} + \\frac{2}{5}\\mathbf{b} = 0.2\\mathbf{a} + 0.4\\mathbf{b}$.\n\n**Common mistake:** Option B is a common error where students swap the coefficients for the two base vectors."
     }
   ]
 }

@@ -19,7 +19,7 @@
         "$220\\text{ cm}³$"
       ],
       "correctIndex": 0,
-      "explanation": "The dimensions of the box are $5, 4,$ and $10$. Volume $= 5 \\times 4 \\times 10 = 200\\text{ cm}³$.\n\n**Common mistake:** A student might add the dimensions ($5+4+10=19$) or calculate the surface area ($220$) instead of volume."
+      "explanation": "The dimensions of the box are $5, 4,$ and^10. Volume $= 5 \\times 4 \\times 10 = 200\\text{ cm}³$.\n\n**Common mistake:** A student might add the dimensions ($5+4+10=19$) or calculate the surface area ($220$) instead of volume."
     },
     {
       "id": "7-5-nets-pyp-q2",
@@ -32,7 +32,7 @@
         "$20.8\\text{ cm}²$"
       ],
       "correctIndex": 0,
-      "explanation": "Total area $= 2 \\times BaseArea + Perimeter \\times Length$2$Area = 2(10.4) + (6 \\times 2) \\times 8 = 20.8 + 96 = 116.8\\text{ cm}²$.\n\n**Common mistake:** A student might forget to include both hexagonal bases or only calculate the area of the rectangles."
+      "explanation": "Total area $= 2 \\times BaseArea + Perimeter \\times Length$. So $Area = 2(10.4) + (6 \\times 2) \\times 8 = 20.8 + 96 = 116.8\\text{ cm}²$.\n\n**Common mistake:** A student might forget to include both hexagonal bases or only calculate the area of the rectangles."
     },
     {
       "id": "7-5-nets-pyp-q3",
@@ -50,7 +50,7 @@
     {
       "id": "7-5-nets-pyp-q4",
       "type": "mcq",
-      "question": "Show that the net of a cube with side length $s$2$6s^2$. If $s = 0.5\\text{ m}$, what is the area of the net in $\\text{cm}²$?",
+      "question": "Show that the net of a cube with side length $s^2 6s^2$. If $s = 0.5\\text{ m}$, what is the area of the net in $\\text{cm}²$?",
       "options": [
         "$15000\\text{ cm}²$",
         "$1500\\text{ cm}²$",
@@ -63,7 +63,7 @@
     {
       "id": "7-5-nets-pyp-q5",
       "type": "mcq",
-      "question": "Find the number of edges on a 3D solid if its net has $8$ congruent triangles that meet at a single central point when folded.",
+      "question": "Find the number of edges on a 3D solid if its net has^8 congruent triangles that meet at a single central point when folded.",
       "options": [
         "$16$",
         "$8$",

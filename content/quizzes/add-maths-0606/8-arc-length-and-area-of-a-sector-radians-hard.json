@@ -19,7 +19,7 @@
         "$\\frac{2\\pi}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "Total parts $= 15$. Largest part $= 6/15$. Sum of angles $= 2\\pi$2$= \\frac{6}{15} \\times 2\\pi = \\frac{2}{5} \\times 2\\pi = \\frac{4\\pi}{5}$.\n\n**Common mistake:** Using $\\pi$2$2\\pi$ (sum of quadrilateral) for the calculation."
+      "explanation": "Total parts $= 15$. Largest part $= 6/15$. Sum of angles $= 2\\pi . = \\frac{6}{15} \\times 2\\pi = \\frac{2}{5} \\times 2\\pi = \\frac{4\\pi}{5}$.\n\n**Common mistake:** Using $\\pi^2 2\\pi$ (sum of quadrilateral) for the calculation."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q2",
@@ -32,7 +32,7 @@
         "$\\frac{4\\pi}{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "Sum of exterior angles is $2\\pi$2$\\frac{2\\pi}{10} = \\frac{\\pi}{5}$.\n\n**Common mistake:** Calculating the interior angle ($4\\pi/5$) or dividing $\\pi$2$2\\pi$."
+      "explanation": "Sum of exterior angles is $2\\pi^2 So \\frac{2\\pi}{10} = \\frac{\\pi}{5}$.\n\n**Common mistake:** Calculating the interior angle ($4\\pi/5$) or dividing $\\pi^2 2\\pi$."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q3",
@@ -45,7 +45,7 @@
         "$4\\pi$"
       ],
       "correctIndex": 0,
-      "explanation": "15 revs/min $= 0.25$ revs/sec. In 4 seconds, it does $0.25 \\times 4 = 1$ revolution. 1 revolution $= 2\\pi$ radians.\n\n**Common mistake:** Failing to convert minutes to seconds correctly, or using $\\pi$ for a full revolution."
+      "explanation": "15 revs/min $= 0.25$ revs/sec. In 4 seconds, it does $0.25 \\times 4 = 1$ revolution. 1 revolution $= 2\\pi  radians.$\n\n**Common mistake:** Failing to convert minutes to seconds correctly, or using \\pi for a full revolution."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q4",
@@ -58,12 +58,12 @@
         "$\\frac{\\pi}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "Acute angles in a right-angled triangle sum to $\\frac{\\pi}{2}$. Other angle $= \\frac{\\pi}{2} - \\frac{\\pi}{8} = \\frac{4\\pi}{8} - \\frac{\\pi}{8} = \\frac{3\\pi}{8}$.\n\n**Common mistake:** Subtracting from $\\pi$2$90^\\circ$2$\\pi/2$) angle."
+      "explanation": "Acute angles in a right-angled triangle sum to $\\frac{\\pi}{2}$. Other angle $= \\frac{\\pi}{2} - \\frac{\\pi}{8} = \\frac{4\\pi}{8} - \\frac{\\pi}{8} = \\frac{3\\pi}{8}$.\n\n**Common mistake:** Subtracting from $\\pi  and 90^\\circ$ ($\\pi/2$)) angle."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q5",
       "type": "mcq",
-      "question": "An angle $\\theta$2$\\sin \\theta = 0.5$ and $\\frac{\\pi}{2} < \\theta < \\pi$2$\\theta$ in radians.",
+      "question": "An angle $\\theta$. So $\\sin \\theta = 0.5$ and $\\frac{\\pi}{2} < \\theta < \\pi . \\theta$ in radians.",
       "options": [
         "$\\frac{5\\pi}{6}$",
         "$\\frac{\\pi}{6}$",
@@ -97,12 +97,12 @@
         "1.5"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 3s \\implies r\\theta + 2r = 3(r\\theta) \\implies 2r = 2r\\theta \\implies \\theta = 1$.\n\n**Common mistake:** Algebraic errors while simplifying the relationship between $P$2$s$."
+      "explanation": "$P = 3s \\implies r\\theta + 2r = 3(r\\theta) \\implies 2r = 2r\\theta \\implies \\theta = 1$.\n\n**Common mistake:** Algebraic errors while simplifying the relationship between $P$ and $s$."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q8",
       "type": "mcq",
-      "question": "A pendulum of length 40 cm swings through an angle of $15^\\circ$2$\\pi$)",
+      "question": "A pendulum of length 40 cm swings through an angle of $15^\\circ$ to radians)",
       "options": [
         "$10\\pi/3$",
         "$600\\pi$",
@@ -136,7 +136,7 @@
         "$2r$"
       ],
       "correctIndex": 0,
-      "explanation": "Vertices of an equilateral triangle divide the circle into 3 equal arcs. Central angle $= 2\\pi / 3$. Arc length $= r(2\\pi / 3)$.\n\n**Common mistake:** Using $60^\\circ$2$\\pi / 3$) as the central angle, which is the interior angle of the triangle, not the central angle."
+      "explanation": "Vertices of an equilateral triangle divide the circle into 3 equal arcs. Central angle $= 2\\pi / 3$. Arc length $= r(2\\pi / 3)$.\n\n**Common mistake:** Using $60^\\circ$. $\\pi / 3$) as the central angle, which is the interior angle of the triangle, not the central angle."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q11",
@@ -162,7 +162,7 @@
         "$15$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2r + r\\theta = 80 \\implies \\theta = (80-2r)/r$2$A = 0.5r^2((80-2r)/r) = 40r - r^2$. $dA/dr = 40 - 2r = 0 \\implies r = 20$.\n\n**Common mistake:** Option B assumes the radius is half the wire length, ignoring the arc part of the perimeter."
+      "explanation": "$P = 2r + r\\theta = 80 \\implies \\theta = (80-2r)/r$. So $A = 0.5r^2((80-2r)/r) = 40r - r^2$. $dA/dr = 40 - 2r = 0 \\implies r = 20$.\n\n**Common mistake:** Option B assumes the radius is half the wire length, ignoring the arc part of the perimeter."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q13",
@@ -180,7 +180,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q14",
       "type": "mcq",
-      "question": "Solve the simultaneous equations for a sector: its arc length is^12 cm and its area is^54 cm^2. Find the central angle $\\theta$ in radians.",
+      "question": "Solve the simultaneous equations for a sector: its arc length is $1$ cm and its area is $1$ cm^2. Find the central angle $\\theta$ in radians.",
       "options": [
         "$1.33$ radians",
         "$9$ radians",
@@ -188,12 +188,12 @@
         "$1.5$ radians"
       ],
       "correctIndex": 0,
-      "explanation": "$54 = 0.5r(12) \\implies 6r = 54 \\implies r = 9$. Then $12 = 9\\theta \\implies \\theta = 12/9 = 1.33$ (to 3 s.f.).\n\n**Common mistake:** Option B is the value of the radius $r$2$\\theta$."
+      "explanation": "$54 = 0.5r(12) \\implies 6r = 54 \\implies r = 9$. Then $12 = 9\\theta \\implies \\theta = 12/9 = 1.33$ (to 3 s.f.).\n\n**Common mistake:** Option B is the value of the radius $r$. $\\theta$."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q15",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of $e$2$\\ln(9)$ radians. Find the exact area of the sector.",
+      "question": "A sector of a circle has a radius of $e . \\ln(9)$ radians. Find the exact area of the sector.",
       "options": [
         "$e^2 \\ln(3)$ cm^2",
         "$e^2 \\ln(9)$ cm^2",

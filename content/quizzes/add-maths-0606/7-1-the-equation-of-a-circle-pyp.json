@@ -27,9 +27,9 @@
       "question": "Show that the point $P(7, 1)$ lies on the circle $(x - 3)² + (y + 2)² = 25$.",
       "options": [
         "LHS $= (7-3)² + (1+2)² = 4^2 + 3^2 = 25 = RHS$",
-        "LHS $= (7+3)$^2$+ (1-2)$^2$= 100 + 1 = 101$\neq 25\n\n$$",
-        "LHS $= 7$^2$+ 1$^2$= 50$\neq 25\n\n$$",
-        "LHS $= (7-3) + (1+2) = 7$\neq 25\n\n$$"
+        "LHS $= (7+3)$^2$+ (1-2)$^2$= 100 + 1 = 101$\neq 25",
+        "LHS $= 7$^2$+ 1$^2$= 50$\neq 25",
+        "LHS $= (7-3) + (1+2) = 7$\neq 25"
       ],
       "correctIndex": 0,
       "explanation": "Substitute $x=7$ and $y=1$ into the left-hand side of the equation. $4^2 + 3^2 = 16 + 9 = 25$. Since LHS equals RHS, the point is on the circle.\n\n**Common mistake:** Substituting coordinates into the wrong variables or forgetting to square the differences."
@@ -50,7 +50,7 @@
     {
       "id": "7-1-the-equation-of-a-circle-pyp-q4",
       "type": "mcq",
-      "question": "Find the set of values of $k$2$y = 2x + k$2$x^2 + y^2 = 5$.",
+      "question": "Find the set of values of $k$. So $y = 2x + k2x^2 + y^2 = 5$.",
       "options": [
         "$k = 5$ or $k = -5$",
         "$k = 25$ or $k = -25$",
@@ -71,7 +71,7 @@
         "$(4, 0)$ and $(0, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "At the $x$2$y = 0$. So $x^2 - 4x + 4 = 0 \\Rightarrow (x-2)² = 0 \\Rightarrow x = 2$. The only point is $(2, 0)$, where the circle is tangent to the axis.\n\n**Common mistake:** Applying the quadratic formula and making a calculation error that leads to two distinct roots."
+      "explanation": "At the $x$. So $y = 0$. So $x^2 - 4x + 4 = 0 \\Rightarrow (x-2)² = 0 \\Rightarrow x = 2$. The only point is $(2, 0)$, where the circle is tangent to the axis.\n\n**Common mistake:** Applying the quadratic formula and making a calculation error that leads to two distinct roots."
     }
   ]
 }

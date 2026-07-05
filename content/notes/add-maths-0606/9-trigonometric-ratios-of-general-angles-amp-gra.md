@@ -6,12 +6,13 @@ Trigonometric functions extend beyond right-angled triangles to encompass any an
 
 $$
 \text{ASTC Rule: Q1 (All), Q2 (Sine), Q3 (Tangent), Q4 (Cosine)}
-
+$$
+$$
 \text{Base Periods: } y = \sin x \, (360^\circ / 2\pi), \quad y = \cos x \, (360^\circ / 2\pi), \quad y = \tan x \, (180^\circ / \pi)
-
+$$
+$$
 \text{Transformed Period for } \sin(bx) = \frac{360^\circ}{|b|} \text{ or } \frac{2\pi}{|b|}
 $$
-
 
 ## Steps / method
 

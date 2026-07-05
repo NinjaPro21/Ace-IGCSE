@@ -11,7 +11,7 @@
     {
       "id": "1-2-definition-of-a-function-easy-q1",
       "type": "mcq",
-      "question": "A function f is defined by f(x)=7x−4. Find the image of the object 3.",
+      "question": "A function f is defined by f(x)=7x-4. Find the image of the object 3.",
       "options": [
         "17",
         "25",
@@ -19,7 +19,7 @@
         "21"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute x=3 into the function: f(3)=7(3)−4=21−4=17.\n\n**Common mistake:** Students may mistakenly add the constant instead of subtracting, leading to 21+4=25, or forget to multiply correctly."
+      "explanation": "Substitute x=3 into the function: f(3)=7(3)-4=21-4=17.\n\n**Common mistake:** Students may mistakenly add the constant instead of subtracting, leading to 21+4=25, or forget to multiply correctly."
     },
     {
       "id": "1-2-definition-of-a-function-easy-q2",
@@ -42,10 +42,10 @@
         "2,3,4",
         "12,13,14",
         "7,8,9",
-        "−2,−3,−4"
+        "-2,-3,-4"
       ],
       "correctIndex": 0,
-      "explanation": "To find the domain, solve x+5=y for each y in the range: x=y−5. 7−5=2,8−5=3,9−5=4.\n\n**Common mistake:** Students often add the constant to the range values instead of performing the inverse operation to find the inputs."
+      "explanation": "To find the domain, solve x+5=y for each y in the range: x=y-5. 7-5=2,8-5=3,9-5=4.\n\n**Common mistake:** Students often add the constant to the range values instead of performing the inverse operation to find the inputs."
     },
     {
       "id": "1-2-definition-of-a-function-easy-q4",
@@ -63,7 +63,7 @@
     {
       "id": "1-2-definition-of-a-function-easy-q5",
       "type": "mcq",
-      "question": "Find the value of f(−2) for the function f(x)=10−3x.",
+      "question": "Find the value of f(-2) for the function f(x)=10-3x.",
       "options": [
         "16",
         "4",
@@ -71,7 +71,7 @@
         "13"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute x=−2: f(−2)=10−3(−2)=10+6=16.\n\n**Common mistake:** The most frequent error is a sign mistake during multiplication: −3(−2) being treated as −6 instead of +6."
+      "explanation": "Substitute x=-2: f(-2)=10-3(-2)=10+6=16.\n\n**Common mistake:** The most frequent error is a sign mistake during multiplication: -3(-2) being treated as -6 instead of +6."
     }
   ]
 }

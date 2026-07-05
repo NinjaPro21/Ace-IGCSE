@@ -11,7 +11,7 @@
     {
       "id": "12-1-12-3-vectors-medium-q1",
       "type": "mcq",
-      "question": "Find the magnitude of the vector $\\vec{PQ} = \\begin{pmatrix} -5 \\ 12 \\end{pmatrix}$.",
+      "question": "Find the magnitude of the vector $\\vec{PQ} = \\begin{pmatrix} -5 \\ \\\\ 12 \\end{pmatrix}$.",
       "options": [
         "$13$",
         "$17$",
@@ -24,46 +24,46 @@
     {
       "id": "12-1-12-3-vectors-medium-q2",
       "type": "mcq",
-      "question": "Given the position vectors $\\vec{OA} = \\begin{pmatrix} 1 \\ 4 \\end{pmatrix}$ and $\\vec{OB} = \\begin{pmatrix} 5 \\ 2 \\end{pmatrix}$, find the column vector $\\vec{AB}$.",
+      "question": "Given the position vectors $\\vec{OA} = \\begin{pmatrix} 1 \\ \\\\ 4 \\end{pmatrix}$ and $\\vec{OB} = \\begin{pmatrix} 5 \\ \\\\ 2 \\end{pmatrix}$, find the column vector $\\vec{AB}$.",
       "options": [
-        "$\\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 6 \\ 6 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 4 \\ 2 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -4 \\ \\\\ 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ \\\\ 6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 4 \\ \\\\ 2 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{AB} = \\vec{OB} - \\vec{OA} = \\begin{pmatrix} 5 \\ 2 \\end{pmatrix} - \\begin{pmatrix} 1 \\ 4 \\end{pmatrix} = \\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$.\n\n**Common mistake:** The student might perform $\\vec{OA} - \\vec{OB}$ instead, resulting in the opposite direction."
+      "explanation": "$\\vec{AB} = \\vec{OB} - \\vec{OA} = \\begin{pmatrix} 5 \\ \\\\ 2 \\end{pmatrix} - \\begin{pmatrix} 1 \\ \\\\ 4 \\end{pmatrix} = \\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix}$.\n\n**Common mistake:** The student might perform $\\vec{OA} - \\vec{OB}$ instead, resulting in the opposite direction."
     },
     {
       "id": "12-1-12-3-vectors-medium-q3",
       "type": "mcq",
-      "question": "Point $M$2$P(2, 1)$ and $Q(8, 7)$. Determine the position vector $\\vec{OM}$ as a column vector.",
+      "question": "Point $M$. $P(2, 1)$ and $Q(8, 7)$. Determine the position vector $\\vec{OM}$ as a column vector.",
       "options": [
-        "$\\begin{pmatrix} 5 \\ 4 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 6 \\ 6 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 10 \\ 8 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 3 \\ 3 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 5 \\ \\\\ 4 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ \\\\ 6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 10 \\ \\\\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 \\ \\\\ 3 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "The coordinates of $M$2$((2+8)/2, (1+7)/2) = (5, 4)$. The position vector is $\\begin{pmatrix} 5 \\ 4 \\end{pmatrix}$.\n\n**Common mistake:** The student might calculate the vector $\\vec{PQ}$ instead of the midpoint position vector."
+      "explanation": "The coordinates of $M$. $((2+8)/2, (1+7)/2) = (5, 4)$. The position vector is $\\begin{pmatrix} 5 \\ \\\\ 4 \\end{pmatrix}$.\n\n**Common mistake:** The student might calculate the vector $\\vec{PQ}$ instead of the midpoint position vector."
     },
     {
       "id": "12-1-12-3-vectors-medium-q4",
       "type": "mcq",
-      "question": "Solve for the vector $\\mathbf{x}$ in the equation: $3\\mathbf{x} + \\begin{pmatrix} 4 \\ -2 \\end{pmatrix} = \\begin{pmatrix} 13 \\ 10 \\end{pmatrix}$.",
+      "question": "Solve for the vector $\\mathbf{x}$ in the equation: $3\\mathbf{x} + \\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} 13 \\ \\\\ 10 \\end{pmatrix}$.",
       "options": [
-        "$\\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 9 \\ 12 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5.67 \\ 2.67 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 3 \\ 2.67 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 3 \\ \\\\ 4 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 9 \\ \\\\ 12 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5.67 \\ \\\\ 2.67 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 \\ \\\\ 2.67 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "$3\\mathbf{x} = \\begin{pmatrix} 13 \\ 10 \\end{pmatrix} - \\begin{pmatrix} 4 \\ -2 \\end{pmatrix} = \\begin{pmatrix} 9 \\ 12 \\end{pmatrix}$. Dividing by 3 gives $\\mathbf{x} = \\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$.\n\n**Common mistake:** The student might forget to divide the final vector by 3 or make a subtraction sign error ($10 - (-2) = 8$)."
+      "explanation": "$3\\mathbf{x} = \\begin{pmatrix} 13 \\ \\\\ 10 \\end{pmatrix} - \\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} 9 \\ \\\\ 12 \\end{pmatrix}$. Dividing by 3 gives $\\mathbf{x} = \\begin{pmatrix} 3 \\ \\\\ 4 \\end{pmatrix}$.\n\n**Common mistake:** The student might forget to divide the final vector by 3 or make a subtraction sign error ($10 - (-2) = 8$)."
     },
     {
       "id": "12-1-12-3-vectors-medium-q5",
       "type": "mcq",
-      "question": "The vector $\\begin{pmatrix} m \\ 15 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 2 \\ 3 \\end{pmatrix}$. Calculate the value of $m$.",
+      "question": "The vector $\\begin{pmatrix} m \\ \\\\ 15 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 2 \\ \\\\ 3 \\end{pmatrix}$. Calculate the value of $m$.",
       "options": [
         "$10$",
         "$5$",

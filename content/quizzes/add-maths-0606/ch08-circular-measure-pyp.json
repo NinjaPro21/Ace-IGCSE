@@ -35,11 +35,11 @@
     {
       "id": "ch08-circular-measure-q3",
       "type": "mcq",
-      "question": "Find the set of values of the central angle $\\theta$ (where $0 < \\theta < \\pi$) for which the area of a sector of a fixed radius $r$ is greater than the area of an equilateral triangle with the same perimeter as the sector's arc length.",
+      "question": "Find the set of values of the central angle $\\theta$ (where $0 < \\theta < \\pi ) for which the area of a sector of a fixed radius r$ is greater than the area of an equilateral triangle with the same perimeter as the sector's arc length.",
       "options": [
-        "\\theta > \\frac{\\sqrt{3}}{6}",
-        "\\theta < \\frac{\\sqrt{3}}{4}",
-        "\\theta > \\frac{1}{2}",
+        "$\\theta > \\frac{\\sqrt{3}}{6}$",
+        "$\\theta < \\frac{\\sqrt{3}}{4}$",
+        "$\\theta > \\frac{1}{2}$",
         "\\theta < 1"
       ],
       "correctIndex": 0,
@@ -50,10 +50,10 @@
       "type": "mcq",
       "question": "A sector of a circle, centre $O$, has radius $r\\text{ cm}$ and angle $\\theta\\text{ radians}$. Given that the area of the sector is $A\\text{ cm}^2$ and its perimeter is $P\\text{ cm}$, show that $P = 2r + \\frac{2A}{r}$. Hence, find the value of $r$, in terms of $A$, for which $P$ is stationary.",
       "options": [
-        "\\sqrt{A}",
+        "$$\n\\sqrt{A}\n",
         "2\\sqrt{A}",
-        "\\frac{A}{2}",
-        "\\sqrt{2A}"
+        "$$\n\\frac{A}{2}\n",
+        "$$\n\\sqrt{2A}\n"
       ],
       "correctIndex": 0,
       "explanation": "Area $A = \\frac{1}{2}r^2\\theta \\implies r\\theta = \\frac{2A}{r}$. Substitute this into the perimeter equation $P = 2r + r\\theta$ to get $P = 2r + \\frac{2A}{r}$. Differentiating gives $\\frac{dP}{dr} = 2 - \\frac{2A}{r^2} = 0 \\implies r^2 = A \\implies r = \\sqrt{A}$.\n\n**Common mistake:** Students frequently make mistakes during the differentiation of the fraction term $\\frac{2A}{r}$, changing its sign incorrectly or forgetting the square power."
@@ -63,54 +63,62 @@
       "type": "mcq",
       "question": "The diagram shows a shape consisting of a right-angled triangle $ABC$ and a circular sector $ACD$ with centre $A$. Angle $ACB = 90^\\circ$, $AC = 6\\text{ cm}$, and $BC = 8\\text{ cm}$. Given that $ACD$ is a sector of a circle, and $\\angle CAD = 0.5\\text{ radians}$, find the total area of the shape.",
       "options": [
-        "33\\text{ cm}^2",
-        "24\\text{ cm}^2",
-        "42\\text{ cm}^2",
-        "57\\text{ cm}^2"
+        "$33\\text{ cm}^2$",
+        "$24\\text{ cm}^2$",
+        "$42\\text{ cm}^2$",
+        "$57\\text{ cm}^2$"
       ],
       "correctIndex": 0,
       "explanation": "Area of right-angled triangle $ABC = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 8 \\times 6 = 24\\text{ cm}^2$. Area of sector $ACD = \\frac{1}{2}r^2\\theta = \\frac{1}{2} \\times 6^2 \\times 0.5 = 9\\text{ cm}^2$. Total area $= 24 + 9 = 33\\text{ cm}^2$.\n\n**Common mistake:** Students often use the hypotenuse $AB = 10\\text{ cm}$ as the radius for the circular sector instead of $AC = 6\\text{ cm}$, leading to an incorrect sector area of $25\\text{ cm}^2$ and a total area of $49\\text{ cm}^2$.",
       "variants": [
         {
+          "id": "ch08-circular-measure-q5",
+          "type": "mcq",
           "question": "Convert an angle of $90^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
           "options": [
-            "\\frac{1}{2}\\pi",
-            "\\frac{2}{3}\\pi",
-            "\\frac{1}{3}\\pi",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{1}{3}\\pi\n",
             "\\pi"
           ],
           "correctIndex": 0,
           "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
         },
         {
+          "id": "ch08-circular-measure-q5",
+          "type": "mcq",
           "question": "Convert an angle of $120^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
           "options": [
-            "\\frac{2}{3}\\pi",
-            "\\frac{5}{6}\\pi",
-            "\\frac{1}{2}\\pi",
-            "\\frac{4}{3}\\pi"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{6}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{4}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
         },
         {
+          "id": "ch08-circular-measure-q5",
+          "type": "mcq",
           "question": "Convert an angle of $60^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
           "options": [
-            "\\frac{1}{3}\\pi",
-            "\\frac{1}{2}\\pi",
-            "\\frac{1}{6}\\pi",
-            "\\frac{2}{3}\\pi"
+            "$$\n\\frac{1}{3}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{1}{6}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
         },
         {
+          "id": "ch08-circular-measure-q5",
+          "type": "mcq",
           "question": "Convert an angle of $150^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
           "options": [
-            "\\frac{5}{6}\\pi",
+            "$$\n\\frac{5}{6}\\pi\n",
             "\\pi",
-            "\\frac{2}{3}\\pi",
-            "\\frac{5}{3}\\pi"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."

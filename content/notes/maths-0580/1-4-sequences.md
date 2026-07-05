@@ -6,31 +6,31 @@ Sequences track orderly arrangements of numbers that follow a defined mathematic
 
 $$
 \text{Linear (Arithmetic) Sequence:} \quad u_n = a + (n - 1)d
-
+$$
+$$
 \text{Quadratic Sequence Structure:} \quad u_n = an^2 + bn + c
-
+$$
+$$
 \text{Geometric (Exponential) Sequence:} \quad u_n = a \times r^{n-1}
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Arithmetic sequence">
-      <circle cx="60" cy="50" r="18" fill="#dbeafe" stroke="#2563eb"/><text x="60" y="54" text-anchor="middle" font-size="11">3</text>
-      <circle cx="130" cy="50" r="18" fill="#dbeafe" stroke="#2563eb"/><text x="130" y="54" text-anchor="middle" font-size="11">7</text>
-      <circle cx="200" cy="50" r="18" fill="#dbeafe" stroke="#2563eb"/><text x="200" y="54" text-anchor="middle" font-size="11">11</text>
-      <circle cx="270" cy="50" r="18" fill="#dbeafe" stroke="#2563eb"/><text x="270" y="54" text-anchor="middle" font-size="11">15</text>
-      <text x="95" y="30" text-anchor="middle" font-size="9" fill="#64748b">+4</text>
-      <text x="165" y="30" text-anchor="middle" font-size="9" fill="#64748b">+4</text>
-      <text x="235" y="30" text-anchor="middle" font-size="9" fill="#64748b">+4</text>
-    </svg></div>
-
-Linear sequence — constant difference between terms; nth term $a + (n-1)d$.
+      <circle cx="60" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="60" y="54" text-anchor="middle" font-size="11">3</text>
+      <circle cx="130" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="130" y="54" text-anchor="middle" font-size="11">7</text>
+      <circle cx="200" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="200" y="54" text-anchor="middle" font-size="11">11</text>
+      <circle cx="270" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="270" y="54" text-anchor="middle" font-size="11">15</text>
+      <text x="95" y="30" text-anchor="middle" font-size="9" fill="#a8a29e">+4</text>
+      <text x="165" y="30" text-anchor="middle" font-size="9" fill="#a8a29e">+4</text>
+      <text x="235" y="30" text-anchor="middle" font-size="9" fill="#a8a29e">+4</text>
+    </svg><p class="enlight-physics-diagram__caption">Linear sequence — constant difference between terms; nth term $a + (n-1)d$.</p></div>
 
 ## Steps / method
 
 Calculate the first differences between consecutive terms in the sequence.
 
-If these differences are constant, the sequence is linear; use the formula $u_n = a + (n - 1)d$ and $a. d$ is the common difference.
+If these differences are constant, the sequence is linear; use the formula $u_n = a + (n - 1)d$ and a. d is the common difference.
 
 If the first differences vary, compute the second differences.
 
@@ -70,7 +70,7 @@ Calculate the first differences: $9 - 4 = 5$; $18 - 9 = 9$; $31 - 18 = 13$; $48 
 
 Calculate the second differences: $9 - 5 = 4$; $13 - 9 = 4$; $17 - 13 = 4$. The second difference is constant ($4$), indicating a quadratic sequence.
 
-Compute the coefficient $a$. So $a = \frac{\text{second difference}}{2} = \frac{4}{2} = 2$. This confirms a $2n^2$ base component.
+Compute the coefficient $a$ when $2$. This confirms a $2n^2$ base component.
 
 Tabulate the values of $2n^2$ for $n = 1, 2, 3, 4$: these are $2, 8, 18, 32$.
 

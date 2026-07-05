@@ -6,10 +6,11 @@ Simultaneous equations involving one linear equation and one non-linear equation
 
 $$
 \text{Linear: } y = mx + c
-
-\text{Non-Linear: } ay^2 + bxy + cx^2 + dx + ey + f = 0
 $$
 
+$$
+\text{Non-Linear: } ay^2 + bxy + cx^2 + dx + ey + f = 0
+$$
 
 ## Steps / method
 
@@ -31,9 +32,7 @@ Substitute the linear expression into the non-linear equation to obtain a quadra
 
 Solve $y = x + 1$ and $y = x^2 - 3x + 5$ simultaneously.
 
-Substitute: $x + 1 = x^2 - 3x + 5 \implies x^2 - 4x + 4 = 0 \implies (x - 2)^2 = 0$.
-
-So $x = 2$ and $y = 2 + 1 = 3$. The line touches the parabola at the single point $(2, 3)$.
+Substitute: $x + 1 = x^2 - 3x + 5 \implies x^2 - 4x + 4 = 0 \implies (x - 2)^2 = 0$ when $.  and y = 2 + 1 = 3$. The line touches the parabola at the single point $(2, 3)$.
 
 ## Worked example — Two intersection points
 

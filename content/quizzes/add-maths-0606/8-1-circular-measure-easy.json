@@ -11,7 +11,7 @@
     {
       "id": "8-1-circular-measure-easy-q1",
       "type": "mcq",
-      "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+      "question": "Convert an angle of $150^\\circ$ to radians.",
       "options": [
         "$\\frac{5\\pi}{6}$",
         "$\\frac{2\\pi}{3}$",
@@ -19,48 +19,56 @@
         "$\\frac{3\\pi}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $150 \\times \\frac{\\pi}{180} = \\frac{15}{18}\\pi = \\frac{5}{6}\\pi$.\n\n**Common mistake:** A student might multiply by $\\frac{180}{\\pi}$ instead, leading to an extremely large value, or simplify the $fraction$ $15/18$ incorrectly.",
+      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $150 \\times \\frac{\\pi}{180} = \\frac{15}{18}\\pi = \\frac{5}{6}\\pi .$\n\n**Common mistake:** A student might multiply by \\frac{180}{\\pi}$instead, leading to an extremely large value, or simplify the fraction$15/18$incorrectly.$",
       "variants": [
         {
-          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $90^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{1}{3}\\pi\n",
             "\\pi"
           ],
           "correctIndex": 0,
           "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
         },
         {
-          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $120^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{5}{6}\\pi\n$$",
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{4}{3}\\pi\n$$"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{6}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{4}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
         },
         {
-          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $60^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{1}{3}\\pi\n$$",
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{1}{6}\\pi\n$$",
-            "$$\n\\frac{2}{3}\\pi\n$$"
+            "$$\n\\frac{1}{3}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{1}{6}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
         },
         {
-          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $150^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n",
             "\\pi",
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{5}{3}\\pi\n$$"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
@@ -78,7 +86,7 @@
         "$300^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "To convert radians to degrees, replace $\\pi$2$180^\\circ$2$\\frac{4 \\times 180}{3} = 4 \\times 60 = 240^\\circ$.\n\n**Common mistake:** Students may divide 180 by 4 or miscalculate the multiplication $4 \\times 60$."
+      "explanation": "To convert radians to degrees, replace $\\pi  and 180^\\circ2\\frac{4 \\times 180}{3} = 4 \\times 60 = 240^\\circ$.\n\n**Common mistake:** Students may divide 180 by 4 or miscalculate the multiplication $4 \\times 60$."
     },
     {
       "id": "8-1-circular-measure-easy-q3",
@@ -104,7 +112,7 @@
         "$24^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Convert by substituting $180^\\circ$2$\\pi$2$180 / 12 = 15^\\circ$.\n\n**Common mistake:** A student might divide 360 by 12 or simply guess a small angle value."
+      "explanation": "Convert by substituting $180^\\circ$ to radians2$180 / 12 = 15^\\circ$.\n\n**Common mistake:** A student might divide 360 by 12 or simply guess a small angle value."
     },
     {
       "id": "8-1-circular-measure-easy-q5",
@@ -117,48 +125,56 @@
         "$\\frac{11\\pi}{6}$"
       ],
       "correctIndex": 0,
-      "explanation": "$315 \\times \\frac{\\pi}{180} = \\frac{63}{36}\\pi = \\frac{7}{4}\\pi$.\n\n**Common mistake:** Simplifying the $fraction$ $315/180$ incorrectly or confusing it with $225^\\circ$2$5\\pi/4$).",
+      "explanation": "$315 \\times \\frac{\\pi}{180} = \\frac{63}{36}\\pi = \\frac{7}{4}\\pi .$\n\n**Common mistake:** Simplifying the fraction\n\n$$315/180$incorrectly or confusing it with $225^\\circ$($5\\pi/4$)).$",
       "variants": [
         {
-          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q5",
+          "type": "mcq",
+          "question": "Convert an angle of $90^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{1}{3}\\pi\n",
             "\\pi"
           ],
           "correctIndex": 0,
           "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
         },
         {
-          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q5",
+          "type": "mcq",
+          "question": "Convert an angle of $120^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{5}{6}\\pi\n$$",
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{4}{3}\\pi\n$$"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{6}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{4}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
         },
         {
-          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q5",
+          "type": "mcq",
+          "question": "Convert an angle of $60^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{1}{3}\\pi\n$$",
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{1}{6}\\pi\n$$",
-            "$$\n\\frac{2}{3}\\pi\n$$"
+            "$$\n\\frac{1}{3}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{1}{6}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
         },
         {
-          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "id": "8-1-circular-measure-easy-q5",
+          "type": "mcq",
+          "question": "Convert an angle of $150^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n",
             "\\pi",
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{5}{3}\\pi\n$$"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."

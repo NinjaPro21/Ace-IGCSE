@@ -11,7 +11,7 @@
     {
       "id": "1-3-number-facts-hard-q1",
       "type": "mcq",
-      "question": "Find the smallest integer value of $k$2$135k$ is a perfect square number.",
+      "question": "Find the smallest integer value of $k$. $135k$ is a perfect square number.",
       "options": [
         "15",
         "5",
@@ -24,7 +24,7 @@
     {
       "id": "1-3-number-facts-hard-q2",
       "type": "mcq",
-      "question": "Given three numbers 90, 126, and $x$2$x$.",
+      "question": "Given three numbers 90, 126, and $x$ and $x$.",
       "options": [
         "180",
         "20",
@@ -32,7 +32,7 @@
         "18"
       ],
       "correctIndex": 0,
-      "explanation": "Factor numbers: $90 = 2 \\times 3^2 \\times 5$, $126 = 2 \\times 3^2 \\times 7$. Target parameters: $\\text{HCF} = 18 = 2 \\times 3^2$. $\\text{LCM} = 1260 = 2^2 \\times 3^2 \\times 5 \\times 7$. $x$2$2^2$ since neither 90 nor 126 contains it. Thus, $x$2$2^2 \\times 3^2 = 36$. For the LCM to hold its factor of 5 and HCF of 18, the value is $4 \\times 9 \\times 5 = 180$.\n\n**Common mistake:** Students divide the LCM by the structural constants directly without aligning specific prime power balances."
+      "explanation": "Factor numbers: $90 = 2 \\times 3^2 \\times 5$, $126 = 2 \\times 3^2 \\times 7$. Target parameters: $\\text{HCF} = 18 = 2 \\times 3^2$. $\\text{LCM} = 1260 = 2^2 \\times 3^2 \\times 5 \\times 7$. $x$. $2^2$ since neither 90 nor 126 contains it. Thus, $x$. $2^2 \\times 3^2 = 36$. For the LCM to hold its factor of 5 and HCF of 18, the value is $4 \\times 9 \\times 5 = 180$.\n\n**Common mistake:** Students divide the LCM by the structural constants directly without aligning specific prime power balances."
     },
     {
       "id": "1-3-number-facts-hard-q3",
@@ -63,7 +63,7 @@
     {
       "id": "1-3-number-facts-hard-q5",
       "type": "mcq",
-      "question": "If $p$2$q$2$p^3 \\times q^2$.",
+      "question": "If $p  and q2p^3 \\times q^2$.",
       "options": [
         "12",
         "6",
@@ -71,7 +71,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The formula for the total number of factors of an expression $p^a \\times q^b$2$(a + 1)(b + 1)$. Here, total factors $= (3 + 1)(2 + 1) = 4 \\times 3 = 12$.\n\n**Common mistake:** Students simply multiply or add the exponents directly, leading to 6 or 5."
+      "explanation": "The formula for the total number of factors of an expression $p^a \\times q^b$. $(a + 1)(b + 1)$. Here, total factors $= (3 + 1)(2 + 1) = 4 \\times 3 = 12$.\n\n**Common mistake:** Students simply multiply or add the exponents directly, leading to 6 or 5."
     }
   ]
 }

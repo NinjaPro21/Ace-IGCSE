@@ -6,10 +6,11 @@ Calculus can be used to approximate small changes in dependent variables by assu
 
 $$
 \text{Small Increments: } \delta y \approx \left( \frac{dy}{dx} \right) \times \delta x
-
-\text{Connected Rates of Change: } \frac{dy}{dt} = \frac{dy}{dx} \times \frac{dx}{dt}
 $$
 
+$$
+\text{Connected Rates of Change: } \frac{dy}{dt} = \frac{dy}{dx} \times \frac{dx}{dt}
+$$
 
 ## Steps / method
 
@@ -35,13 +36,13 @@ $\frac{dy}{dx} = 3x^2 \implies \text{at } x = 2, \; \frac{dy}{dx} = 12$
 
 $\delta x = 0.1 \implies \delta y \approx 12 \times 0.1 = 1.2$
 
-$The approximate increase in$ y $is **1.2** (exact change is$2.1^3 - 2^3 = 1.261$).$
+The approximate increase in y $is **1.2** (exact change is$2.1^3 - 2^3 = 1.261$).$
 
 ## Worked example — Connected rates
 
 A spherical balloon has radius increasing at $2\,\text{cm/s}$. Find $\frac{dV}{dt}$ when $r = 5\,\text{cm}$, given $V = \frac{4}{3}\pi r^3$. $\frac{dV}{dr} = 4\pi r^2, \quad \frac{dr}{dt} = 2$ $\frac{dV}{dt} = 4\pi r^2 \times 2 = 8\pi r^2$
 
-$At$ r = 5$:$\frac{dV}{dt} = 8\pi(25) = 200\pi\,\text{cm}^3/\text{s}2
+At r = 5$:$\frac{dV}{dt} = 8\pi(25) = 200\pi\,\text{cm}^3/\text{s}2
 
 ## Examiner tip
 

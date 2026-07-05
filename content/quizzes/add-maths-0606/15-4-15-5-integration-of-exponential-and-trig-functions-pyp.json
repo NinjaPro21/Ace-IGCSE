@@ -24,7 +24,7 @@
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-pyp-q2",
       "type": "mcq",
-      "question": "Find the value of the constant $k$2$\\int_{0}^{\\pi/6} k\\cos(3x) dx = 4$ .",
+      "question": "Find the value of the constant $k$. So $\\int_{0}^{\\pi/6} k\\cos(3x) dx = 4$ .",
       "options": [
         "$12$",
         "$4$",
@@ -37,7 +37,7 @@
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-pyp-q3",
       "type": "mcq",
-      "question": "A curve has the gradient $e^{0.5x} + 1$. Show that the area under the curve between $x=0$ and $x=2$ is $2e$2$(0, 5)$.",
+      "question": "A curve has the gradient $e^{0.5x} + 1$. Show that the area under the curve between $x=0$ and $x=2$ is $2e . (0, 5)$.",
       "options": [
         "$y = 2e^{0.5x} + x + 3$",
         "$y = 2e^{0.5x} + x + 5$",
@@ -45,7 +45,7 @@
         "$y = 2e^{0.5x} + 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrate: $y = 2e^{0.5x} + x + c$2$(0, 5) \\implies 5 = 2e^0 + 0 + c \\implies 5 = 2 + c \\implies c = 3$.\n\n**Common mistake:** Option B uses the y-coordinate as the constant directly without calculating the value of the exponential term at $x=0$."
+      "explanation": "Integrate: $y = 2e^{0.5x} + x + c$. $(0, 5) \\implies 5 = 2e^0 + 0 + c \\implies 5 = 2 + c \\implies c = 3$.\n\n**Common mistake:** Option B uses the y-coordinate as the constant directly without calculating the value of the exponential term at $x=0$."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-pyp-q4",

@@ -19,7 +19,7 @@
         "$x^2 + 2x - 3 = 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the linear expression for $y$2$2x - 3 = x^2 - 6$. Rearranging all terms to one side gives $x^2 - 2x - 6 + 3 = 0$, which simplifies to $x^2 - 2x - 3 = 0$.\n\n**Common mistake:** Students often make sign errors when transposing terms across the equals sign, adding $3$ instead of subtracting, or vice-versa."
+      "explanation": "Substitute the linear expression for $y$. $2x - 3 = x^2 - 6$. Rearranging all terms to one side gives $x^2 - 2x - 6 + 3 = 0$, which simplifies to $x^2 - 2x - 3 = 0$.\n\n**Common mistake:** Students often make sign errors when transposing terms across the equals sign, adding^3 instead of subtracting, or vice-versa."
     },
     {
       "id": "6-4-nonlinear-simultaneous-equations-easy-q2",
@@ -32,7 +32,7 @@
         "$x = 0, y = 2$ or $x = -2, y = 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Equate the expressions for $y$2$x^2 + 2x = x + 2 \\implies x^2 + x - 2 = 0$. Factorising gives $(x + 2)(x - 1) = 0$, so $x = -2$ or $x = 1$. Substitute back to find $y$2$x = 1$, $y = 1 + 2 = 3$; when $x = -2$, $y = -2 + 2 = 0$.\n\n**Common mistake:** Students often find the $x$2$y$2$x$2$y$ values."
+      "explanation": "Equate the expressions for $y$. So $x^2 + 2x = x + 2 \\implies x^2 + x - 2 = 0$. Factorising gives $(x + 2)(x - 1) = 0$, so $x = -2$ or $x = 1$. Substitute back to find $y$. So $x = 1$, $y = 1 + 2 = 3$; when $x = -2$, $y = -2 + 2 = 0$.\n\n**Common mistake:** Students often find the $x$ and $y2x$ and $y$ values."
     },
     {
       "id": "6-4-nonlinear-simultaneous-equations-easy-q3",
@@ -45,7 +45,7 @@
         "$10x^2 - 6x + 6 = 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y$2$x^2 + (3x - 1)^2 = 5$. Expand the bracket: $x^2 + (9x^2 - 6x + 1) = 5$. Group like terms: $10x^2 - 6x + 1 = 5 \\implies 10x^2 - 6x - 4 = 0$.\n\n**Common mistake:** A classic error is incorrectly expanding $(3x-1)^2$ as $9x^2 + 1$, completely omitting the middle $-6x$ term."
+      "explanation": "Substitute $y$. So $x^2 + (3x - 1)^2 = 5$. Expand the bracket: $x^2 + (9x^2 - 6x + 1) = 5$. Group like terms: $10x^2 - 6x + 1 = 5 \\implies 10x^2 - 6x - 4 = 0$.\n\n**Common mistake:** A classic error is incorrectly expanding $(3x-1)^2$ as $9x^2 + 1$, completely omitting the middle $-6x$ term."
     },
     {
       "id": "6-4-nonlinear-simultaneous-equations-easy-q4",
@@ -71,7 +71,7 @@
         "$5 - m = 0$"
       ],
       "correctIndex": 0,
-      "explanation": "For a line to be tangent to a curve, they must intersect at exactly one point, meaning the resulting quadratic equation must have one repeated real root. This requires the discriminant $\\Delta = b^2 - 4ac = 0$. Here, $b = 5-m$2$a = 1$, and $c = 4$, so $(5 - m)^2 - 4(1)(4) = 0 \\implies (5 - m)^2 - 16 = 0$.\n\n**Common mistake:** Students sometimes mistakenly use $\\Delta > 0$, confusing a single tangent intersection point with two distinct crossings."
+      "explanation": "For a line to be tangent to a curve, they must intersect at exactly one point, meaning the resulting quadratic equation must have one repeated real root. This requires the discriminant $\\Delta = b^2 - 4ac = 0$. Here, $b = 5-m^2 So a = 1$, and $c = 4$, so $(5 - m)^2 - 4(1)(4) = 0 \\implies (5 - m)^2 - 16 = 0$.\n\n**Common mistake:** Students sometimes mistakenly use $\\Delta > 0$, confusing a single tangent intersection point with two distinct crossings."
     }
   ]
 }

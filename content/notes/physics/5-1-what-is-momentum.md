@@ -16,19 +16,19 @@ An object has momentum whenever it is in motion. Whether it is a fast-moving arr
 
 $p = mv$
 
-Applies to any object in motion to determine its "quantity of motion"2
+Applies to any object in motion to determine its "quantity of motion".
 
-**Velocity from Momentum**
+**Velocity from momentum**
 
 $v = \frac{p}{m}$
 
-Used to find the speed and direction when momentum and mass are known 2
+Used to find the speed and direction when momentum and mass are known.
 
-**Mass from Momentum**
+**Mass from momentum**
 
 $m = \frac{p}{v}$
 
-Used to calculate the mass of an object given its momentum and velocity 2
+Used to calculate the mass of an object given its momentum and velocity.
 
 ## Graphs & diagrams
 
@@ -68,7 +68,7 @@ State direction: Always include the direction in your final answer (e.g., "kg m/
 
 ## Common mistakes
 
-Unit Errors: Using mass in grams (g) instead of kilograms (kg). Always convert to kg first ($1000 \text{ g} = $1 \text{ kg}$)$.
+Unit errors: Using mass in grams (g) instead of kilograms (kg). Always convert to kg first ($1000\ \text{g} = 1\ \text{kg}$).
 
 Scalar vs. Vector: Treating momentum as a scalar. Remember that momentum has direction; if two objects move toward each other, one has positive momentum and the other has negative momentum.
 
@@ -94,21 +94,22 @@ Write the word equation for momentum.
 
 Question: Calculate the momentum of a runner with a mass of 50 kg running at 4 m/s.
 
-Identify the values. $m = 50 \text{ kg}$, $v =$4 \text{ m/s}2
+1. Identify values: $m = 50\ \text{kg}$, $v = 4\ \text{m/s}$.
 
-$Use the formula p = mv22p = 50 \times 4 = 200 \text{ kg m/s}
+2. Use $p = mv$: $p = 50 \times 4 = 200\ \text{kg m/s}$.
 
-$$
+**Final answer:** $200\ \text{kg m/s}$ in the direction of motion.
 
 ## Worked example — Finding Mass with a Trap
 
-Question: A car travels at 12 m/s and has a momentum of 14400 kg m/s. Calculate its mass.
+Question: A car travels at 12 m/s and has a momentum of 14 400 kg m/s. Calculate its mass.
 
-Identify values. $p = 14400 \text{ kg m/s}$, $v = 12 \text{ m/s}.$
+1. Identify values: $p = 14\,400\ \text{kg m/s}$, $v = 12\ \text{m/s}$.
 
-$Rearrange formula for mass: m = p / v22m = \frac{14400 \text{ kg m/s}}{12 \text{ m/s}} = 1200 \text{ kg}
+2. Rearrange: $m = p/v = \frac{14\,400}{12} = 1200\ \text{kg}$.
 
-$$
- ### Common Trap
+**Final answer:** $1200\ \text{kg}$.
+
+### Common Trap
 
 Direction matters! If an object is moving in the opposite direction to your chosen positive path, its velocity (and therefore its momentum) must be written as a negative value.

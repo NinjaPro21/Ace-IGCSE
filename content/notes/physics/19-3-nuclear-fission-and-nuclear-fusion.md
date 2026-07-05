@@ -1,103 +1,132 @@
 ## Core idea
 
-Imagine a single split of a tiny atom powering a whole city, or the same reaction that makes the Sun shine being used right here on Earth. Nuclear physics allows us to tap into the massive energy stored in the center of atoms. From the uranium fuel rods currently used in power plants to the future hope of clean hydrogen fusion, understanding these reactions is the key to humanity's long-term energy needs.
+Nuclear fission splits a heavy nucleus; nuclear fusion joins light nuclei. Both release enormous energy from mass converted via $E = mc^2$ — fission powers reactors; fusion powers the Sun.
 
 ## Key definitions
 
-- **Nuclear fission**: A process in which the nucleus of an atom splits (usually into two parts) and releases a huge amount of energy.
-- **Nuclear fusion**: A process in which two light atomic nuclei combine to form one heavier atomic nucleus, releasing a huge amount of energy.
-- **Nuclear energy**: Potential energy stored in the nucleus that is released during a nuclear reaction through the conversion of mass into energy.
-- **Nucleon**: A term for the particles (protons and neutrons) found in the nucleus.
-- **Relative mass**: Measured in atomic mass units (u); the relative mass of a nucleus is approximately equal to its nucleon number $A$.
-
-## Syllabus wording
-
-Describe the process of nuclear fission for a massive nucleus.
-Describe the process of nuclear fusion for light nuclei.
-State that energy is released during both fission and fusion.
-Use nuclide equations, using nuclide notation, to show fission and fusion.
-Know the relationship between the proton number $Z$ and the relative charge on a nucleus (+Z).
-Know the relationship between the nucleon number A and the relative mass of a nucleus.
+- **Nuclear fission**: A heavy nucleus splits (usually into two parts) and releases energy.
+- **Nuclear fusion**: Two light nuclei combine into one heavier nucleus, releasing energy.
+- **Nuclear energy**: Energy released when mass in the nucleus is converted during a reaction.
+- **Nucleon**: A proton or neutron in the nucleus.
+- **Relative mass**: In atomic mass units (u); approximately equal to nucleon number $A$.
 
 ## Key formulas
 
-Mass-Energy Equivalence: Governs the conversion of reduced mass into released energy $12E = mc^2$
+**Mass–energy equivalence**
 
-Conservation of Nucleons: Applies to all nuclear reactions; the total number of nucleons must be equal before and after22Total\ A_{before} = Total\ A_{after}
+$$
+E = mc^2
+$$
+**Conservation of nucleons**
 
-Conservation of Charge: Applies to all nuclear reactions; the total relative charge (proton number) must be equal before and after22Total\ Z_{before} = Total\ Z_{after}
+$$
+\text{Total } A_{\text{before}} = \text{Total } A_{\text{after}}
+$$
 
+**Conservation of charge**
+
+$$
+\text{Total } Z_{\text{before}} = \text{Total } Z_{\text{after}}
 $$
 
 ## Graphs & diagrams
 
-- **Nuclear Fission Diagram**: Shows a neutron hitting a large nucleus (like Uranium-235). The nucleus becomes unstable, elongates, and splits into two smaller "daughter" nuclei, ejecting more neutrons and releasing energy.
-- **Nuclear Fusion Diagram**: Shows two light nuclei (like isotopes of hydrogen) colliding at extremely high speeds. They join to form a single, heavier nucleus (like helium), ejecting a neutron and releasing energy.
-- **Nuclide Equation Structure**: Represented as ${}^A_Z X$, where $A$ is the top number (mass) and $Z$ is the bottom number (charge).
+**Nuclear fission**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Types of nuclear emission">
-      <circle cx="70" cy="60" r="28" fill="#dbeafe" stroke="#2563eb"/>
-      <text x="70" y="55" text-anchor="middle" font-size="9" fill="#1e3a8a">parent</text>
-      <text x="70" y="68" text-anchor="middle" font-size="8" fill="#64748b">nucleus</text>
-      <line x1="105" y1="60" x2="145" y2="60" stroke="#64748b" marker-end="url(#nd)"/>
-      <circle cx="185" cy="60" r="22" fill="#bbf7d0" stroke="#16a34a"/>
-      <text x="185" y="64" text-anchor="middle" font-size="9" fill="#166534">daughter</text>
-      <text x="260" y="40" font-size="10" fill="#dc2626">α: −2 protons</text>
-      <text x="260" y="60" font-size="10" fill="#2563eb">β: n → p + e⁻</text>
-      <text x="260" y="80" font-size="10" fill="#7c3aed">γ: no Z change</text>
-      <defs><marker id="nd" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Nuclear emission — alpha (2p + 2n), beta (neutron → proton + electron), gamma (no change in proton number).</p></div>
+- A neutron hits a heavy nucleus (e.g. uranium-235). The nucleus splits into two daughter nuclei, ejecting more neutrons and releasing energy.
 
-## Steps / method
+<div class="enlight-physics-diagram enlight-physics-diagram--hero"><svg viewBox="0 0 520 200" width="520" height="200" role="img" aria-label="Nuclear fission of uranium-235">
+      <text x="260" y="22" text-anchor="middle" font-size="12" fill="#334155" font-weight="700">Nuclear fission — heavy nucleus splits</text>
+      <circle cx="55" cy="100" r="6" fill="#64748b"/>
+      <line x1="61" y1="100" x2="95" y2="100" stroke="#64748b" stroke-width="2" marker-end="url(#fis-arr)"/>
+      <text x="55" y="88" text-anchor="middle" font-size="8" fill="#64748b">n</text>
+      <ellipse cx="145" cy="100" rx="38" ry="28" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+      <text x="145" y="96" text-anchor="middle" font-size="10" fill="#991b1b" font-weight="600">U-235</text>
+      <text x="145" y="110" text-anchor="middle" font-size="8" fill="#991b1b">unstable</text>
+      <line x1="183" y1="100" x2="220" y2="100" stroke="#334155" stroke-width="2" marker-end="url(#fis-arr)"/>
+      <ellipse cx="280" cy="72" rx="32" ry="22" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="280" y="76" text-anchor="middle" font-size="9" fill="#166534">Ba-139</text>
+      <ellipse cx="280" cy="132" rx="28" ry="20" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="280" y="136" text-anchor="middle" font-size="9" fill="#166534">Kr-94</text>
+      <circle cx="350" cy="60" r="5" fill="#64748b"/><circle cx="370" cy="75" r="5" fill="#64748b"/><circle cx="360" cy="95" r="5" fill="#64748b"/>
+      <text x="380" y="78" font-size="8" fill="#64748b">+ 3n</text>
+      <text x="420" y="100" font-size="10" fill="#dc2626" font-weight="600">+ energy</text>
+      <text x="260" y="178" text-anchor="middle" font-size="9" fill="#475569">Neutrons released can trigger a chain reaction in enriched uranium</text>
+      <defs><marker id="fis-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
+    </svg><p class="enlight-physics-diagram__caption">Fission — a neutron splits a heavy nucleus into two smaller nuclei, releasing more neutrons and energy.</p></div>
 
-Exam Method for Balancing Nuclear Equations:
+**Nuclear fusion**
 
-Identify Reactants and Products: List all particles on the left (before) and right (after) of the arrow. Sum Nucleon Numbers (Top): Add all $A$ values on the left side.
+- Two light nuclei collide at very high temperature and pressure, join to form a heavier nucleus, and release energy.
 
-Balance Mass: Ensure the sum of $A$ values on the right side equals the left side. Sum Proton Numbers (Bottom): Add all $Z$ values on the left side.
+<div class="enlight-physics-diagram"><svg viewBox="0 0 480 180" width="480" height="180" role="img" aria-label="Nuclear fusion in the Sun">
+      <text x="240" y="22" text-anchor="middle" font-size="12" fill="#334155" font-weight="700">Nuclear fusion — light nuclei combine</text>
+      <circle cx="80" cy="90" r="22" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <text x="80" y="94" text-anchor="middle" font-size="9" fill="#1e40af">H / D</text>
+      <circle cx="150" cy="90" r="22" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <text x="150" y="94" text-anchor="middle" font-size="9" fill="#1e40af">H / T</text>
+      <line x1="102" y1="90" x2="128" y2="90" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="172" y1="90" x2="210" y2="90" stroke="#334155" stroke-width="2" marker-end="url(#fus-arr)"/>
+      <text x="191" y="82" font-size="8" fill="#64748b">high T, P</text>
+      <circle cx="280" cy="90" r="30" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+      <text x="280" y="88" text-anchor="middle" font-size="10" fill="#854d0e" font-weight="600">He</text>
+      <text x="280" y="102" text-anchor="middle" font-size="8" fill="#854d0e">heavier</text>
+      <circle cx="350" cy="90" r="6" fill="#64748b"/>
+      <line x1="310" y1="90" x2="344" y2="90" stroke="#64748b" stroke-width="1.5"/>
+      <text x="350" y="78" text-anchor="middle" font-size="8" fill="#64748b">n</text>
+      <text x="400" y="94" font-size="10" fill="#dc2626" font-weight="600">+ energy</text>
+      <text x="240" y="155" text-anchor="middle" font-size="9" fill="#475569">Fusion powers the Sun — requires extreme temperature to overcome electrostatic repulsion</text>
+      <defs><marker id="fus-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
+    </svg><p class="enlight-physics-diagram__caption">Fusion — two light nuclei join to form a heavier nucleus; mass decreases and energy is released ($E = mc^2$).</p></div>
 
-Balance Charge: Ensure the sum of $Z$ values on the right side equals the left side.
+**Fission vs fusion**
 
-Calculate Neutrons: If a coefficient is present (e.g., $3^1_0n$), multiply the $A$ and $Z$ values by that coefficient.
+| Process | Input | Output | Example |
+|---|---|---|---|
+| Fission | Heavy nucleus + neutron | Two medium nuclei + neutrons | Uranium-235 in reactors |
+| Fusion | Two light nuclei | One heavier nucleus + neutron | Hydrogen fusion in the Sun |
+
+## Steps / method — Balancing nuclear equations
+
+1. **List** all reactants and products with their ${}^A_Z$ notation.
+2. **Sum** all $A$ values on the left; ensure the right side matches.
+3. **Sum** all $Z$ values on the left; ensure the right side matches.
+4. **Multiply** $A$ and $Z$ by any coefficient (e.g. $3\,{}^1_0\text{n}$ counts as $A = 3$, $Z = 0$).
 
 ## Common mistakes
 
-Fission vs. Fusion: Confusing the two. Remember: Fission is splitting a big nucleus; Fusion is joining light nuclei.
-
-Mass Conservation: Assuming mass is conserved in nuclear reactions. It is not; a small amount of mass is always converted into energy.
-
-Neutron Multipliers: Forgetting to multiply the nucleon or proton numbers when multiple neutrons are released (e.g., $2^1_0n$ counts as $2$ for mass balance).
+- Confusing fission (splitting heavy) with fusion (joining light).
+- Assuming mass is conserved — a small mass becomes energy.
+- Forgetting to multiply by the number of neutrons released (e.g. $3\,{}^1_0\text{n}$).
 
 ## Examiner tip
 
-Charge Identification: Always remember that the relative charge on a nucleus is equal to its proton number $Z$.
-
-Fusion Requirements: If asked why fusion is hard to achieve on Earth, explain that nuclei are positively charged and repel each other; they need very high temperatures and pressures to overcome this repulsion.
+Relative charge on a nucleus = $+Z$. Fusion is hard on Earth because positive nuclei repel — very high temperature and pressure are needed to overcome electrostatic repulsion.
 
 ## Quick check
 
 In a nuclear reaction, does the total number of nucleons change?
 
-Which process—fission or fusion—occurs naturally in the Sun?
+Which process — fission or fusion — occurs naturally in the Sun?
 
-If a nucleus undergoes a reaction and the total mass of the products is less than the reactants, what has happened to that mass?
+If product mass is less than reactant mass, what happened to the missing mass?
 
-## Worked example — Balancing a Fission Equation
+## Worked example — Balancing a fission equation
 
-Question: Find the missing nucleon number $A$ and $Z. ^{235}{92}U + ^1_0n \rightarrow ^{139}{56}Ba + {}^A_ZKr + 3^1_0n + energy$ and $A1235 + 1 = 236$.
+Question: Find the missing $A$ and $Z$ in:
 
-Right side = 139 + A + 3(1) = 142 + A2
-142 + A = 236 \rightarrow A = 94
+$$
+{}^{235}_{92}\text{U} + {}^1_0\text{n} \rightarrow {}^{139}_{56}\text{Ba} + {}^A_Z\text{Kr} + 3\,{}^1_0\text{n}
 $$
 
-Balance $Z192 + 0 = 92. Right side = 56 + Z + 3(0) = 56 + Z$.56 + Z = 92 \rightarrow Z = 36$Final Answer:$ A = 94$,$ Z = 36.
+Balance $A$: $235 + 1 = 236$; right side $= 139 + A + 3 = 142 + A$ → $A = 94$
 
-## Worked example — Mass-Energy in Fusion
+Balance $Z$: $92 + 0 = 92$; right side $= 56 + Z + 0$ → $Z = 36$
 
-Question: In a fusion reaction, the total mass of the two light nuclei before joining is $5.030\ u. The total mass of the resulting heavier nucleus and ejected neutron is$2. Calculate mass change:$5.030 - 5.011 = 0.019\ u$.
+## Worked example — Mass–energy in fusion
 
-Identify the process: The total mass of the products is smaller than the original mass.
+Question: Before fusion, total mass is $5.030\,\text{u}$. After fusion, total mass is $5.011\,\text{u}$. Explain where the energy comes from.
 
-Explain energy release: This missing mass is not "lost" but is converted directly into a huge amount of energy. ### Trap
+Mass change $= 5.030 - 5.011 = 0.019\,\text{u}$
 
-Students often think nucleons (protons/neutrons) have been destroyed. The trap is that the number of nucleons stays exactly the same; it is the total mass that decreases as it converts to energy.
+This mass is converted to energy via $E = mc^2. The number of nucleons is unchanged - only mass decreases$.

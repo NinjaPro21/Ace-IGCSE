@@ -44,10 +44,14 @@ $$
 
 Solve $2\sin^2 x - \sin x - 1 = 0$ for $0 \le x \le 2\pi$.
 
-Let $u = \sin x$: $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0 \implies u = -\frac{1}{2}$ or $u = 1
+Let $u = \sin x$: $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0 \implies u = -\frac{1}{2}$ or $ u = 1
 
 $$
-\sin x = -\frac{1}{2} \implies x = \frac{7\pi}{6},\; \frac{11\pi}{6}; \qquad \sin x = 1 \implies x = \frac{\pi}{2}
+\sin x = -\frac{1}{2} \implies x = \frac{7\pi}{6},\; \frac{11\pi}{6};
+$$
+
+$$
+\sin x = 1 \implies x = \frac{\pi}{2}
 $$
 
 ## Examiner tip

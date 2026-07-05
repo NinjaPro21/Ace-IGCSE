@@ -74,7 +74,7 @@
     {
       "id": "ch12-calculus-differentiation-1-q6",
       "type": "mcq",
-      "question": "Given that $y = \\frac{2}{x^2 - 3}$, find the approximate change in $y$ as $x$ increases from^2 to $2 + p$, where $p$ is small.",
+      "question": "Given that $y = \\frac{2}{x^2 - 3}$, find the approximate change in $y$ as $x$ increases from^2 to $2 + p , where p$ is small.",
       "options": [
         "$-8p$",
         "$-4p$",
@@ -82,7 +82,7 @@
         "$-2p$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite $y = 2(x^2 - 3)^{-1}$. Differentiating yields $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = -2(x^2 - 3)^{-2}(2x) = \\frac{-4x}{(x^2 - 3)^2}$. At $x = 2$, $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{-4(2)}{(4 - 3)^2} = -8$. Using $\\delta y \\approx \\frac{\\mathrm{d}y}{\\mathrm{d}x} \\delta x$, we get $\\delta y \\approx -8p$.\n\n**Common mistake:** Students often forget to apply the chain rule when differentiating $(x^2 - 3)^{-1}$, omitting the multiplication by $2x$, resulting in an incorrect derivative value like $-4p$ in Option B."
+      "explanation": "Rewrite $y = 2(x^2 - 3)^{-1}$. Differentiating yields $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = -2(x^2 - 3)^{-2}(2x) = \\frac{-4x}{(x^2 - 3)^2}$. At $x = 2$, $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{-4(2)}{(4 - 3)^2} = -8$. Using $\\delta y \\approx \\frac{\\mathrm{d}y}{\\mathrm{d}x} \\delta x$, we get $\\delta y \\approx -8p .$\n\n**Common mistake:** Students often forget to apply the chain rule when differentiating (x^2 - 3)^{-1}$, omitting the multiplication by$2x$, resulting in an incorrect derivative value like -4pin Option B.$"
     }
   ]
 }

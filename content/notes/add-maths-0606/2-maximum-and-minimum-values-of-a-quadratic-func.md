@@ -6,12 +6,13 @@ Every quadratic function possesses a single turning point called a vertex, which
 
 $$
 f(x) = ax^2 + bx + c
-
+$$
+$$
 \text{Vertex Form: } f(x) = a(x - h)^2 + k
-
+$$
+$$
 \text{Vertex Coordinates: } (h, k) = \left(-\frac{b}{2a}, f\left(-\frac{b}{2a}\right)\right)
 $$
-
 
 ## Steps / method
 

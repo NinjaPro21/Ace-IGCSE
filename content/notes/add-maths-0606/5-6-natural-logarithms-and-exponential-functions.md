@@ -19,19 +19,26 @@ $$
 **Special values**
 
 $$
-\ln e = 1, \qquad \ln 1 = 0
+\ln e = 1,
+$$
+
+$$
+\ln 1 = 0
 $$
 
 ## Steps / method
 
 1. **Identify** expressions involving $e^x$ or $\ln x$.
+
 2. **Isolate** the exponential term on one side of the equation.
+
 3. **Apply** $\ln$ to both sides (or $e$ to both sides) to remove the outer function.
+
 4. **Use log laws** to simplify before solving for the variable.
 
 ### Key rule
 
-$\ln$ is **not** $\log_{10}$. Also, $\ln(a + b) \neq \ln a + \ln b$ — you cannot split a log across addition.
+$\ln$ is **not** $\log_{10}$. Al so, $\ln(a + b) \neq \ln a + \ln b$ — you cannot split a log across addition.
 
 ## Worked example — Solving an equation
 

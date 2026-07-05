@@ -19,7 +19,7 @@
         "0.5%"
       ],
       "correctIndex": 0,
-      "explanation": "dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. % Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r³)) × 100 = 3(δr/r) × 100 = 3(0.5%) = 1.5%.\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
+      "explanation": "$dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. \\% Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r^3)) × 100 = 3(δr/r) × 100 = 3(0.5\\%) = 1.5\\%.$\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q2",
@@ -37,7 +37,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q3",
       "type": "mcq",
-      "question": "If $y = (2x - 1)^4$, find the approximate change in $y$2$x$2$1 + h$.",
+      "question": "If $y = (2x - 1)^4$, find the approximate change in $y$ and $x21 + h$.",
       "options": [
         "8h",
         "4h",
@@ -50,7 +50,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q4",
       "type": "mcq",
-      "question": "The variables $x$2$y$2$y = \\frac{10}{x+1}$. If $x$2$p$2$p$2$y$2$x=4$.",
+      "question": "The variables $x$ and $y2y = \\frac{10}{x+1}$. If $x$ and $p2p  and y2x=4$.",
       "options": [
         "-0.8p %",
         "-p %",
@@ -58,7 +58,7 @@
         "0.8p %"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = -10/(x+1)$^2$. At x=4, $\\frac{dy}{dx}$ = -10/25 = -0.4. δx = (p/100)x = 0.04p. δy ≈ -0.4(0.04p) = -0.016p. y(4) = 2. % change y = (-0.016p / 2) × 100 = -0.8p %.\n\n**Common mistake:** Calculations often miss the fact that δx is a percentage of the original $x$2$p$."
+      "explanation": "$\\frac{dy}{dx}$ = -10/(x+1)$^2$. At x=4, $\\frac{dy}{dx}$ = -10/25 = -0.4. δx = (p/100)x = 0.04p. δy ≈ -0.4(0.04p) = -0.016p. y(4) = 2. % change y = (-0.016p / 2) × 100 = -0.8p %.\n\n**Common mistake:** Calculations often miss the fact that δx is a percentage of the original $x$ and $p$."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q5",
@@ -76,7 +76,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q6",
       "type": "mcq",
-      "question": "Water is poured into an inverted right circular cone of base radius^10 cm and height^20 cm at a rate of^15 cm³/s. Find the rate of increase of the water level when the depth is^8 cm.",
+      "question": "Water is poured into an inverted right circular cone of base radius^10 cm and height^20 cm at a rate of^15 cm³/s. Find the rate of increase of the water level when the depth is $1$ cm.",
       "options": [
         "$0.298$ cm/s",
         "$0.119$ cm/s",
@@ -84,25 +84,25 @@
         "$1.19$ cm/s"
       ],
       "correctIndex": 0,
-      "explanation": "By similar triangles, $r/h = 10/20 \\implies r = 0.5h$2$V = \\frac{1}{3}\\pi r^2h = \\frac{1}{12}\\pi h^3$. $\\frac{dV}{dt} = \\frac{1}{4}\\pi h^2 \\frac{dh}{dt} \\implies 15 = \\frac{1}{4}\\pi (64) \\frac{dh}{dt} \\implies 15 = 16\\pi \\frac{dh}{dt} \\implies \\frac{dh}{dt} = \\frac{15}{16\\pi} \\approx 0.298$.\n\n**Common mistake:** Option B occurs if the student uses the volume formula with $r$2$h$2$r=0.5h$ relationship first."
+      "explanation": "By similar triangles, $r/h = 10/20 \\implies r = 0.5h$. So $V = \\frac{1}{3}\\pi r^2h = \\frac{1}{12}\\pi h^3$. $\\frac{dV}{dt} = \\frac{1}{4}\\pi h^2 \\frac{dh}{dt} \\implies 15 = \\frac{1}{4}\\pi (64) \\frac{dh}{dt} \\implies 15 = 16\\pi \\frac{dh}{dt} \\implies \\frac{dh}{dt} = \\frac{15}{16\\pi} \\approx 0.298$.\n\n**Common mistake:** Option B occurs if the student uses the volume formula with $r$ and $h2r=0.5h$ relationship first."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q7",
       "type": "mcq",
-      "question": "A ladder^5 m long leans against a vertical wall. The base of the ladder is pulled away from the wall at^2 m/s. Find the rate at which the top of the ladder is sliding down when the base is^3 m from the wall.",
+      "question": "A ladder^5 m long leans against a vertical wall. The base of the ladder is pulled away from the wall at^2 m/s. Find the rate at which the top of the ladder is sliding down when the base is $1$ m from the wall.",
       "options": [
         "$1.5$ m/s",
         "$2.67$ m/s",
-        "$2$ m/s",
+        "2 m/s",
         "$0.75$ m/s"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2 + y^2 = 25. Differentiating w.r.t$2$2t$2$2x \\frac{dx}{dt} + 2y \\frac{dy}{dt} = 0$. When $x = 3, y = 4$. $2(3)(2) + 2(4)\\frac{dy}{dt} = 0 \\implies 12 + 8\\frac{dy}{dt} = 0 \\implies \\frac{dy}{dt} = -1.5$.\n\n**Common mistake:** Option B results from a calculation error where the student divides^8 by^3 instead of^12 by^8."
+      "explanation": "$x^2 + y^2 = 25. Differentiating w.r.t$. $2t22x \\frac{dx}{dt} + 2y \\frac{dy}{dt} = 0$. When $x = 3, y = 4$. $2(3)(2) + 2(4)\\frac{dy}{dt} = 0 \\implies 12 + 8\\frac{dy}{dt} = 0 \\implies \\frac{dy}{dt} = -1.5$.\n\n**Common mistake:** Option B results from a calculation error where the student divides^8 by^3 instead of^12 by^8."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q8",
       "type": "mcq",
-      "question": "The total surface area $S$2$r$2$2r$2$12\\pi$2$^2$/s. Find the rate of increase of the volume when $r = 3$ cm.",
+      "question": "The total surface area $S$ and $r22r$. $12\\pi2^2$/s. Find the rate of increase of the volume when $r = 3$ cm.",
       "options": [
         "$18\\pi$ cm³/s",
         "$9\\pi$ cm³/s",
@@ -110,12 +110,12 @@
         "$6\\pi$ cm³/s"
       ],
       "correctIndex": 0,
-      "explanation": "$S = 2\\pi r^2 + 2\\pi r(2r) = 6\\pi r^2$. $\\frac{dS}{dt} = 12\\pi r \\frac{dr}{dt} = 12\\pi \\implies \\frac{dr}{dt} = 1/r$2$r=3, \\frac{dr}{dt} = 1/3$. $V = 2\\pi r^3 \\implies \\frac{dV}{dt} = 6\\pi r^2 \\frac{dr}{dt} = 6\\pi(9) \\times 1/3 = 18\\pi$.\n\n**Common mistake:** Option C results from the student failing to substitute the specific value of $\\frac{dr}{dt}$ into the final volume rate equation."
+      "explanation": "$S = 2\\pi r^2 + 2\\pi r(2r) = 6\\pi r^2$. $\\frac{dS}{dt} = 12\\pi r \\frac{dr}{dt} = 12\\pi \\implies \\frac{dr}{dt} = 1/r$. So $r=3, \\frac{dr}{dt} = 1/3$. $V = 2\\pi r^3 \\implies \\frac{dV}{dt} = 6\\pi r^2 \\frac{dr}{dt} = 6\\pi(9) \\times 1/3 = 18\\pi .$\n\n**Common mistake:** Option C results from the student failing to substitute the specific value of \\frac{dr}{dt}$into the final volume rate equation.$"
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q9",
       "type": "mcq",
-      "question": "Find the $x$2$y = x^2 e^x$2$y$2$x$.",
+      "question": "Find the $x$. So $y = x^2 e^x2y$ and $x$.",
       "options": [
         "$0.732$ or $-2.732$",
         "$1$ or^0",
@@ -128,7 +128,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--hard-q10",
       "type": "mcq",
-      "question": "A rectangle has a width $w$2$l = 3w$2$2$ cm/s, find the rate of increase of the diagonal $d$2$w = 4$ cm.",
+      "question": "A rectangle has a width $w$. So $l = 3w22$ cm/s, find the rate of increase of the diagonal $d$. So $w = 4$ cm.",
       "options": [
         "$2\\sqrt{10}$ cm/s",
         "$6$ cm/s",

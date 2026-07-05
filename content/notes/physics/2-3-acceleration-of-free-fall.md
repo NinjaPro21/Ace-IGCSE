@@ -4,7 +4,7 @@ Whether you are dropping a pen or watching a skydiver leap from a plane, gravity
 
 ## Key definitions
 
-- **Acceleration of Free Fall (g)**: The constant acceleration of an object falling near the Earth's surface when the only force acting on it is its weight (approx. $9.8 \text{ m/s}^2$)$.
+- **Acceleration of Free Fall (g)**: The constant acceleration of an object falling near the Earth's surface when the only force acting on it is its weight (approx. $9.8\ \text{m/s}^2$).
 - **Free Fall**: The motion of an object when the only force acting on it is its own weight, occurring in a vacuum or where air resistance is negligible.
 - **Air Resistance**: A form of frictional force that opposes the motion of an object moving through the air.
 - **Terminal Velocity**: The constant, maximum velocity reached by an object falling through a fluid (like air) when its weight is exactly balanced by the air resistance acting upwards.
@@ -58,18 +58,20 @@ Applies for uniform acceleration from rest.
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Time</text>
       <text x="20" y="110" transform="rotate(-90 20 110)" text-anchor="middle" font-size="12" fill="#475569">Velocity</text>
-      <path d="M65 195 Q120 150 170 110 Q190 95 200 85" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-      <line x1="200" y1="85" x2="360" y2="85" stroke="#2563eb" stroke-width="2.5"/>
-      <text x="280" y="78" font-size="10" fill="#2563eb">terminal velocity</text>
-      <text x="115" y="145" font-size="10" fill="#64748b">decreasing acceleration</text>
-      <text x="280" y="100" font-size="9" fill="#64748b">a = 0</text>
-    </svg><p class="enlight-physics-diagram__caption">Velocity–time with air resistance — curve steep at first, then a flat horizontal line at terminal velocity (weight = air resistance; acceleration = 0).</p></div>
+      <path d="M65 195 C95 155 125 115 155 92 C185 72 215 62 250 56 C285 52 310 50 330 49" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+      <line x1="330" y1="49" x2="360" y2="49" stroke="#2563eb" stroke-width="2.5"/>
+      <line x1="95" y1="195" x2="155" y2="92" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+      <line x1="155" y1="92" x2="250" y2="56" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+      <text x="280" y="42" font-size="10" fill="#2563eb">terminal velocity</text>
+      <text x="100" y="165" font-size="10" fill="#64748b">steep gradient → slowing increase</text>
+      <text x="280" y="65" font-size="9" fill="#64748b">a = 0</text>
+    </svg><p class="enlight-physics-diagram__caption">Velocity–time with air resistance — gradient decreases as air resistance builds, then becomes horizontal at terminal velocity (weight = air resistance; acceleration = 0).</p></div>
 
 ## Steps / method
 
 Method for solving free-fall problems (ignoring air resistance):
 
-Identify the constants: Use $g = 9.8 \text{ m/s}^2$ (or $10 \text{ m/s}^2$ if the question approximates)$.
+Identify the constants: Use $g = 9.8\ \text{m/s}^2$ (or $10\ \text{m/s}^2$ if the question approximates).
 
 Sketch the graph: Draw a simple speed-time graph (a triangle) for the duration of the fall.
 
@@ -81,13 +83,13 @@ Determine height: Calculate the area of the triangle under your speed-time graph
 
 Mass dependency: Thinking a heavier object falls faster than a lighter one in a vacuum. Galileo proved all objects fall with the same acceleration ($g$) regardless of mass if air resistance is removed.
 
-Terminal velocity acceleration: Stating acceleration is $9.8 \text{ m/s}^2$ at terminal velocity. It is actually zero because speed is constant$.
+Terminal velocity acceleration: Stating acceleration is $9.8\ \text{m/s}^2$ at terminal velocity. It is actually zero because speed is constant.
 
-Graph confusion: Mixing up the g value with speed.g is the gradient (how much speed increases each second), not the speed itself.
+Graph confusion: Mixing up $g$ with speed — $g$ is the gradient (how much speed increases each second), not the speed itself.
 
 ## Examiner tip
 
-The value of g: Use $9.8 \text{ m/s}^2$ unless the question explicitly tells you to use $10 \text{ m/s}^2$ for simplicity$.
+The value of g: Use $9.8\ \text{m/s}^2$ unless the question explicitly tells you to use $10\ \text{m/s}^2$ for simplicity.
 
 Air resistance factors: If asked why an object reaches terminal velocity faster, remember to mention surface area and speed. Larger surface areas experience more air resistance at lower speeds.
 
@@ -103,30 +105,28 @@ When air resistance equals the weight of a falling object, what is the resultant
 
 ## Worked example — Calculating Height and Speed
 
-Question: An object is dropped from a building and hits the ground after 1.34 s. Assume air resistance is negligible and use g = 10 $\text{ m/s}^2$.
+Question: An object is dropped from a building and hits the ground after 1.34 s. Assume air resistance is negligible and use $g = 10\ \text{m/s}^2$.
 
-$Calculate final speed just before impact.v = g \times t = 10 \text{ m/s}^2 \times 1.34 \text{ s} = 13.4 \text{ m/s}$
+1. Calculate final speed: $v = g \times t = 10\ \text{m/s}^2 \times 1.34\ \text{s} = 13.4\ \text{m/s}$.
 
-Calculate height fallen using the area of the speed-time triangle 2
+2. Calculate height using the area of the speed-time triangle:
 
 $$
-\text{Height} = \frac{1}{2} \times \text{time} \times \text{final speed}\text{Height} = \frac{1}{2} \times 1.34 \text{ s} \times 13.4 \text{ m/s} = 8.97
-
-1 \text{ m}
+\text{Height} = \frac{1}{2} \times t \times v = \frac{1}{2} \times 1.34\ \text{s} \times 13.4\ \text{m/s} = 8.97\ \text{m}
 $$
 
-The speed is $13.4 \text{ m/s}$ and the height is approximately $1 \text{ m}$.
+**Final answer:** speed $= 13.4\ \text{m/s}$; height $\approx 9.0\ \text{m}$ (to 2 s.f.).
 
 ## Worked example — Reaching Terminal Velocity
 
-Question: A sponge is dropped. Its speed increases uniformly at $10 \text{ m/s}^2$ for the first 0.5 s, reaching $1 \text{ m/s}. It then reaches a terminal velocity of$2. Describe the forces and acceleration at terminal velocity2
+Question: A sponge is dropped. Its speed increases uniformly at $10\ \text{m/s}^2$ for the first 0.5 s, reaching $5\ \text{m/s}$. It then reaches a terminal velocity of $5\ \text{m/s}$. Describe the forces and acceleration at terminal velocity.
 
-Identify forces. At terminal velocity, the weight acting downwards is exactly equal to the air resistance acting upwards.
+1. **Identify forces:** At terminal velocity, weight acting downwards equals air resistance acting upwards.
 
-Determine acceleration. Since the forces are balanced, the resultant force is zero. Use $F = ma. If$. $, then$10 \text{ m/s}^2.
+2. **Determine acceleration:** Forces are balanced, so resultant force $= 0. By$ F = ma $, acceleration$= 0\ \text{m/s}^2.
 
-The acceleration is $1 \text{ m/s}^2. ### Common Trap$
+**Final answer:** weight = air resistance; acceleration $= 0\ \text{m/s}^2$.
 
-Students often think that because gravity is still pulling, the acceleration must be $9.8$\text{ m/s}^2.
+### Common Trap
 
-However, at terminal velocity, the object no longer speeds up; its acceleration is zero.
+Students often think that because gravity is still pulling, the acceleration must be $9.8\ \text{m/s}^2. However, at terminal velocity the object no longer speeds up - its acceleration is zero$.

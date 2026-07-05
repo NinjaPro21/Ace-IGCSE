@@ -11,7 +11,7 @@
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q1",
       "type": "mcq",
-      "question": "In the triangle $OAB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In the triangle $OAB$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$\\mathbf{b} - \\mathbf{a}$",
         "$\\mathbf{a} - \\mathbf{b}$",
@@ -19,7 +19,7 @@
         "$\\mathbf{b} + \\mathbf{a}$"
       ],
       "correctIndex": 0,
-      "explanation": "To go from $A$2$B$2$A$2$O$2$-\\mathbf{a}$) and then $O$2$B$2$\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
+      "explanation": "To go from $A$ and $B2A$ and $O2-\\mathbf{a}$) and then $O$ and $B2\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
     },
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q2",
@@ -45,7 +45,7 @@
         "$\\mathbf{m} + \\mathbf{n}$"
       ],
       "correctIndex": 0,
-      "explanation": "The position vector of the midpoint is the average of the position vectors of the endpoints: $0.5(\\mathbf{m} + \\mathbf{n})$.\n\n**Common mistake:** Option C is the vector representing half the displacement from $M$2$N$, not the position vector from the origin."
+      "explanation": "The position vector of the midpoint is the average of the position vectors of the endpoints: $0.5(\\mathbf{m} + \\mathbf{n})$.\n\n**Common mistake:** Option C is the vector representing half the displacement from $M$ and $N$, not the position vector from the origin."
     },
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q4",
@@ -63,7 +63,7 @@
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "In a parallelogram $ABCD$2$\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "question": "In a parallelogram $ABCD$. So $\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
       "options": [
         "$\\mathbf{q}$",
         "$\\mathbf{p}$",
@@ -71,7 +71,7 @@
         "$-\\mathbf{q}$"
       ],
       "correctIndex": 0,
-      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$2$BC$."
+      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$. $BC$."
     }
   ]
 }

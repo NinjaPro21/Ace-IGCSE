@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Start inside** — evaluate or write down the inner function $g(x)$ first.
+
 2. **Substitute** — replace every $x$ in the outer function $f$ with the entire expression for $g(x)$.
+
 3. **Simplify** — expand brackets and collect like terms.
 
 ### Key rule

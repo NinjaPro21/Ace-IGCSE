@@ -32,7 +32,7 @@
         "165"
       ],
       "correctIndex": 0,
-      "explanation": "Total ways to choose 3 points is $^{12}C_3 = 220$. Triangles cannot be formed by 3 points on line $L$2$^5C_3 = 10$. Total = $220 - 10 = 210$.\n\n**Common mistake:** Option B is the total $^{12}C_3$, failing to account for the collinear points that cannot form a triangle."
+      "explanation": "Total ways to choose 3 points is $^{12}C_3 = 220$. Triangles cannot be formed by 3 points on line $L$. $^5C_3 = 10$. Total = $220 - 10 = 210$.\n\n**Common mistake:** Option B is the total $^{12}C_3$, failing to account for the collinear points that cannot form a triangle."
     },
     {
       "id": "10-4-combinations-harder-topic-pyp-q3",

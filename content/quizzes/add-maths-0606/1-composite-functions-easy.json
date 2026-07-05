@@ -24,7 +24,7 @@
     {
       "id": "1-composite-functions-easy-q2",
       "type": "mcq",
-      "question": "If f(x)=3x−1, what does the notation $f^{2}$(x) represent?",
+      "question": "If f(x)=3x-1, what does the notation $f^{2}$(x) represent?",
       "options": [
         "f(f(x))",
         "(f(x))\n2",
@@ -45,20 +45,20 @@
         "64"
       ],
       "correctIndex": 0,
-      "explanation": "f(2)=4. Then f(4)= 4^{2}=16.\n\n**Common mistake:** Evaluating f(2) and multiplying it by 2 (4×2=8) or squaring the initial result twice incorrectly."
+      "explanation": "f(2)=4. Then f(4)= $4^{2}$=16.\n\n**Common mistake:** Evaluating f(2) and multiplying it by 2 (4×2=8) or squaring the initial result twice incorrectly."
     },
     {
       "id": "1-composite-functions-easy-q4",
       "type": "mcq",
-      "question": "For f(x)=2x+1 and g(x)=x−4, find the expression for fg(x).",
+      "question": "For f(x)=2x+1 and g(x)=x-4, find the expression for fg(x).",
       "options": [
-        "2x−7",
-        "2x−3",
-        "2x−8",
-        "x−3"
+        "2x-7",
+        "2x-3",
+        "2x-8",
+        "x-3"
       ],
       "correctIndex": 0,
-      "explanation": "fg(x)=f(x−4)=2(x−4)+1=2x−8+1=2x−7.\n\n**Common mistake:** Neglecting to distribute the 2 across the entire bracket (x−4) often results in 2x−4+1=2x−3."
+      "explanation": "fg(x)=f(x-4)=2(x-4)+1=2x-8+1=2x-7.\n\n**Common mistake:** Neglecting to distribute the 2 across the entire bracket (x-4) often results in 2x-4+1=2x-3."
     },
     {
       "id": "1-composite-functions-easy-q5",
@@ -71,7 +71,7 @@
         "125"
       ],
       "correctIndex": 0,
-      "explanation": "f(0)=2. Then g(2)= 2^{3}=8.\n\n**Common mistake:** Substituting 0 into g first and then into f, which would give f(0)=2."
+      "explanation": "f(0)=2. Then g(2)= $2^{3}$=8.\n\n**Common mistake:** Substituting 0 into g first and then into f, which would give f(0)=2."
     }
   ]
 }

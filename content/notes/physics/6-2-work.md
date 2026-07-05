@@ -13,88 +13,105 @@ You might think pushing as hard as you can against a brick wall is "work," but i
 
 $W = F \times s$
 
-Applies when a constant force $F$ and $s$2.
+Applies when a constant force $F$ (in N) acts and the object moves distance $s$ (in m) in the direction of the force.
 
 **Work-Energy Relationship**
 
-$W =
-
 $$
-\Delta E
+W = \Delta E
 $$
 
-Mechanical or electrical work done is equal to the energy transferred 2
+Mechanical or electrical work done is equal to the energy transferred.
 
 ## Graphs & diagrams
 
-- **Work Illustration**: To visualize work, imagine a force ($F$) pushing an object from point A to point B over a distance ($s$). Work is only performed if $s$ is in the same direction as $F$.
+**Work done illustration**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="Energy transfer">
-      <rect x="30" y="35" width="100" height="50" rx="8" fill="#dbeafe" stroke="#2563eb"/>
-      <text x="80" y="65" text-anchor="middle" font-size="11" fill="#1e3a8a">Kinetic</text>
-      <path d="M140 60 H260" stroke="#64748b" stroke-width="2" marker-end="url(#et)"/>
-      <text x="200" y="50" text-anchor="middle" font-size="10" fill="#64748b">transfer</text>
-      <rect x="270" y="35" width="120" height="50" rx="8" fill="#fecaca" stroke="#dc2626"/>
-      <text x="330" y="65" text-anchor="middle" font-size="11" fill="#991b1b">Thermal</text>
-      <defs><marker id="et" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Energy stores — energy transfers from one store to another (e.g. kinetic → thermal via friction).</p></div>
+- Work is done only when a force moves an object in the direction of that force.
+- If the object does not move ($s = 0$), no work is done — even if a large force is applied.
+- Work transfers energy from one store to another (e.g. chemical → kinetic).
 
-**Distance-Time Graphs**
+<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Work done by a force">
+      <rect x="60" y="80" width="80" height="50" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+      <text x="100" y="110" text-anchor="middle" font-size="11" fill="#1e3a8a">box</text>
+      <line x1="30" y1="105" x2="55" y2="105" stroke="#dc2626" stroke-width="3" marker-end="url(#wf)"/>
+      <text x="42" y="95" font-size="12" fill="#dc2626" font-weight="600">F</text>
+      <line x1="140" y1="105" x2="320" y2="105" stroke="#64748b" stroke-width="2" marker-end="url(#ws)"/>
+      <text x="230" y="95" text-anchor="middle" font-size="12" fill="#334155">distance s</text>
+      <text x="210" y="150" text-anchor="middle" font-size="11" fill="#475569">W = F × s</text>
+      <defs>
+        <marker id="wf" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
+        <marker id="ws" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
+      </defs>
+    </svg><p class="enlight-physics-diagram__caption">Work done — a constant force $F$ moves an object distance $s$ in the direction of the force; $W = Fs$.</p></div>
 
-- **Rest**: A horizontal line (gradient = 0) shows the object has not moved; therefore, the work done is zero, regardless of how much force is applied.
-- **Constant Speed**: A straight line with a constant positive gradient shows distance is increasing; if a resultant force is acting, work is being done at a constant rate.
-- **Sankey Diagrams**: These can show how work (input energy) is transferred into useful energy stores (like kinetic energy) or dissipated as wasted thermal energy.
+**Force at an angle to motion**
+
+- If the force is perpendicular to the direction of motion, no work is done by that force (e.g. carrying a box horizontally — the upward lift force does no work).
+- Only the component of force in the direction of motion contributes to work.
 
 ## Steps / method
 
 Exam method for calculating work done:
 
-Identify the Force: Find the constant force ($F$) in newtons (N).
-
-Identify the Distance: Find the distance ($s$) moved in metres (m).
-
-Check Direction: Confirm the distance moved is in the direction of the force.
-
-Calculate: Multiply force by distance to find work in joules ($W = Fs$).
-
-Determine Energy Transfer: Use the principle of conservation of energy to state what form the work has been converted into (e.g., kinetic energy or gravitational potential energy).
+1. **Identify the force**: Find the constant force ($F$) in newtons (N).
+2. **Identify the distance**: Find the distance ($s$) moved in metres (m).
+3. **Check direction**: Confirm the distance moved is in the direction of the force.
+4. **Calculate**: Multiply force by distance to find work in joules ($W = Fs$).
+5. **Determine energy transfer**: State what form the work has been converted into (e.g., kinetic energy or gravitational potential energy).
 
 ## Common mistakes
 
-Ignoring Displacement: Thinking work is done just by "trying" or pushing. If the object remains stationary, the distance moved is zero, so the work done is zero.
+**Ignoring displacement**: Thinking work is done just by "trying" or pushing. If the object remains stationary, the distance moved is zero, so the work done is zero.
 
-Force-Direction Mismatch: Calculating work for a force that is perpendicular to the motion. For example, if you carry a box horizontally, your upward lifting force does no work because there is no vertical displacement.
+**Force-direction mismatch**: Calculating work for a force that is perpendicular to the motion. For example, if you carry a box horizontally, your upward lifting force does no work because there is no vertical displacement.
 
-Scalar vs Vector: Forgetting that work is a scalar quantity (magnitude only), while the force and displacement used to calculate it are vectors.
+**Scalar vs vector**: Forgetting that work is a scalar quantity (magnitude only), while the force and displacement used to calculate it are vectors.
 
 ## Examiner tip
 
-Work = Energy: In 0625 mark schemes, you can often substitute "work done" for "energy converted" or "energy transferred" as they are numerically identical.
+**Work = energy**: In 0625 mark schemes, you can often substitute "work done" for "energy converted" or "energy transferred" as they are numerically identical.
 
-Standard Units: Always convert distances to metres and forces to newtons before calculating to ensure your answer is correctly in Joules.
+**Standard units**: Always convert distances to metres and forces to newtons before calculating to ensure your answer is correctly in joules.
 
-Force Type: Be specific about which force is doing the work (e.g., work done by the librarian vs. work done against gravity).
+**Force type**: Be specific about which force is doing the work (e.g., work done by the librarian vs. work done against gravity).
 
 ## Quick check
 
 Define the term "Joule" in terms of force and distance.
 
-A student holds a heavy pile of books in a stationary position for 10 minutes. How much work is done on the books?.
+A student holds a heavy pile of books in a stationary position for 10 minutes. How much work is done on the books?
 
-What is the word equation relating power, work done, and time?.
+What is the word equation relating power, work done, and time?
 
 ## Worked example — Pushing a Trolley
 
-Question: A librarian exerts a horizontal force of $8 \text{ N} to push a trolley a distance of$2. Calculate the work done2
+Question: A librarian exerts a horizontal force of $8\ \text{N}$ to push a trolley a distance of $5\ \text{m}$. Calculate the work done.
 
-Identify the values.F = $8 \text{ N}, s =$5$\text{ m}$.
+1. Identify values: $F = 8\ \text{N}$, $s = 5\ \text{m}$.
 
-Apply the formula..W = $8 \text{ N} \times$2.
+2. Apply the formula: $W = F \times s = 8 \times 5 = 40\ \text{J}$.
+
+**Final answer:** $40\ \text{J}$.
 
 ## Worked example — Work on an Incline
 
-Question: An $10 \text{ kg}$ trolley is pushed $10 \text{ m} along an incline to reach a vertical height of 0.5 \text{ m}$. A force of 40 \text{ N} is applied parallel to the incline $2. 1 (Work Done). Use the force applied and the distance moved along the slope$.
+Question: A $10\ \text{kg}$ trolley is pushed $10\ \text{m}$ along an incline to reach a vertical height of $0.5\ \text{m}$. A force of $40\ \text{N}$ is applied parallel to the incline. Calculate (1) the work done and (2) the GPE gained. Use $g = 10\ \text{N/kg}$.
 
-$W = F \times s = 40 \text{ N} \times 10 \text{ m} = 400 \text{ J}$. 2 (GPE Gained). Use vertical height $2. ### Common Trap$
+1. **Work done** — use the force applied and the distance along the slope:
 
-For work done, you must use the distance along the path of the force ($10 \text{ m}$), but for GPE, you must use the vertical height ($0.5 \text{ m}$)2
+$$
+W = F \times s = 40\ \text{N} \times 10\ \text{m} = 400\ \text{J}
+$$
+
+2. **GPE gained** — use vertical height only:
+
+$$
+\Delta E_p = mgh = 10 \times 10 \times 0.5 = 50\ \text{J}
+$$
+
+**Final answers:** Work done = $400\ \text{J}$; GPE gained = $50\ \text{J}$.
+
+### Common Trap
+
+For work done, you must use the distance along the path of the force ($10\ \text{m}$), but for GPE, you must use the vertical height ($0.5\ \text{m}$).

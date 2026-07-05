@@ -45,7 +45,7 @@
         "$0.6\\text{ s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Convert current to Amperes: $25\\text{ mA} = 0.025\\text{ A}$. Using $t = Q / I$, $t = 15 / 0.025 = 600\\text{ s}$. \n\n**Common mistake:** Using $25$ as the current value without converting from milli-Amps."
+      "explanation": "Convert current to Amperes: $25\\text{ mA} = 0.025\\text{ A}$. Using $t = Q / I$, $t = 15 / 0.025 = 600\\text{ s}$. \n\n**Common mistake:** Using^25 as the current value without converting from milli-Amps."
     },
     {
       "id": "ch16-electrical-quantities-hard-q4",
@@ -370,20 +370,20 @@
         "$200\\text{ J}$"
       ],
       "correctIndex": 0,
-      "explanation": "Total energy in $5$ mins: $40\\text{ W} \\times 300\\text{ s} = 12000\\text{ J}$. Useful light energy $= 10\\% \\times 12000 = 1200\\text{ J} = 1.2\\text{ kJ}$.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Total energy in^5 mins: $40\\text{ W} \\times 300\\text{ s} = 12000\\text{ J}$. Useful light energy $= 10\\% \\times 12000 = 1200\\text{ J} = 1.2\\text{ kJ}$.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch16-electrical-quantities-hard-q29",
       "type": "mcq",
-      "question": "A $2.16\\text{ kW}$ air conditioner is used for $1.5\\text{ hours}$ each day for $30\\text{ days}$. If electricity costs \n\n$$0.27$ per kWh, what is the total cost for the month?$",
+      "question": "A $2.16\\text{ kW}$ air conditioner is used for $1.5\\text{ hours}$ each day for $30\\text{ days}$. If electricity costs 0.27$per kWh, what is the total cost for the month?$",
       "options": [
-        "$$\n26.24\n$$",
-        "$$\n0.87\n$$",
-        "$$\n17.50\n$$",
-        "$$\n52.48\n$$"
+        "$$\n26.24\n",
+        "$$\n0.87\n",
+        "$$\n17.50\n",
+        "$$\n52.48\n"
       ],
       "correctIndex": 0,
-      "explanation": "Total energy $= 2.16\\text{ kW} \\times 1.5\\text{ h/day} \\times 30\\text{ days} = 97.2\\text{ kWh}$. Total cost $= 97.2 times$0.27 = $26.244$.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Total energy $= 2.16\\text{ kW} \\times 1.5\\text{ h/day} \\times 30\\text{ days} = 97.2\\text{ kWh}$. Total cost $= 97.2 \\times 0.27 = 26.244$.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch16-electrical-quantities-hard-q30",

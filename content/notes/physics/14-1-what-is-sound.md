@@ -10,23 +10,27 @@ Sound is a form of energy transferred from one point to another. As a wave, soun
 - **Infrasound**: Frequencies below 20 Hz (below human hearing).
 - **Ultrasound**: Frequencies above 20 000 Hz (above human hearing).
 
-**Production and propagation**
+## Production and propagation
 
 - Sound is produced by vibrating sources placed in a medium (e.g. guitar strings when struck).
 - A vibrating object displaces nearby particles, which displace their neighbours — the wave propagates through the medium.
 - Sound can travel through solids, liquids, and gases; it is most commonly heard through air.
 
-**Compressions and rarefactions**
+## Compressions and rarefactions
 
 - A tuning fork creates a compression when its prongs push outward and a rarefaction when they move inward.
 
-**Range of audibility**
+## Range of audibility
 
 - Human audible range: about **20 Hz to 20 000 Hz (20 kHz)**.
 - Infrasound example: a slowly vibrating ruler may be visible but not heard.
 - Ultrasound example: a dog whistle — heard by dogs, not by most humans.
 
 ## Graphs & diagrams
+
+**Longitudinal sound wave**
+
+- Compressions (particles close) and rarefactions (particles far apart).
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Sound compression rarefaction">
       <line x1="30" y1="50" x2="390" y2="50" stroke="#cbd5e1"/>

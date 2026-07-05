@@ -19,7 +19,7 @@
         "$16\\text{ kg m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "First, convert mass to kg: $400\\text{ g} = 0.4\\text{ kg}$. Then $p = 0.4 \\times 25 = 10\\text{ kg m/s}$. \n\n**Common mistake:** Using the mass in grams directly to get $10000$."
+      "explanation": "First, convert mass to kg: $400\\text{ g} = 0.4\\text{ kg}$. Then $p = 0.4 \\times 25 = 10\\text{ kg m/s}$. \n\n**Common mistake:** Using the mass in grams directly to get^10000."
     },
     {
       "id": "ch05-momentum-medium-q2",
@@ -32,7 +32,7 @@
         "$80\\text{ m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearranging $p = mv$ gives $v = p/m$. $88000 / 8000 = 11\\text{ m/s}$. \n\n**Common mistake:** Multiplying the numbers ($704$ million) instead of dividing."
+      "explanation": "Rearranging $p = mv$ gives $v = p/m^2 88000 / 8000 = 11\\text{ m/s}$. \n\n**Common mistake:** Multiplying the numbers ($704$ million) instead of dividing."
     },
     {
       "id": "ch05-momentum-medium-q3",
@@ -84,7 +84,7 @@
         "$5.4\\text{ N s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Impulse is the change in momentum: $Delta(mv) = 0.4\\text{ kg} \\times (5 - 0)\\text{ m/s} = 2.0\\text{ kg m/s}$ (or $N s$). \n\n**Common mistake:** Using only the speed ($5.0$) or mass ($0.4$) as the impulse."
+      "explanation": "Impulse is the change in momentum: $Delta(mv) = 0.4\\text{ kg} \\times (5 - 0)\\text{ m/s} = 2.0\\text{ kg m/s}$ (or $N s ).$\n\n**Common mistake:** Using only the speed (5.0$) or mass ($0.4$) as the impulse.$"
     },
     {
       "id": "ch05-momentum-medium-q7",
@@ -97,7 +97,7 @@
         "$0.5\\text{ s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $FDelta t = Impulse$, so $Delta t = Impulse / F = 2.0 / 100 = 0.02\\text{ s}$. \n\n**Common mistake:** Multiplying the numbers ($200$) instead of dividing."
+      "explanation": "Using $FDelta t = Impulse , so Delta t = Impulse / F = 2.0 / 100 = 0.02\\text{ s}$. \n\n**Common mistake:** Multiplying the numbers ($200$) instead of dividing."
     },
     {
       "id": "ch05-momentum-medium-q8",
@@ -123,12 +123,12 @@
         "The force on X is half that of Y"
       ],
       "correctIndex": 0,
-      "explanation": "Since $F = Delta p / t$, if time is $5$ \\times smaller ($0.1$ vs $0.5$), the force must be $5$ \\times larger. \n\n**Common mistake:** Assuming same impulse means same force regardless of time."
+      "explanation": "Since $F = Delta p / t$, if time is $1$ \\times smaller ($0.1$ vs $0.5$), the force must be^5 \\times larger. \n\n**Common mistake:** Assuming same impulse means same force regardless of time."
     },
     {
       "id": "ch05-momentum-medium-q10",
       "type": "mcq",
-      "question": "Which equation correctly represents the relationship between Force ($F$), mass ($m$), change in velocity ($Delta v$), and time ($t$)?",
+      "question": "Which equation correctly represents the relationship between Force ($F$), mass ($m ), change in velocity (Delta v$), and time ($t$)?",
       "options": [
         "$F = \\frac{m Delta v}{t}$",
         "$F = m Delta v t$",
@@ -136,7 +136,7 @@
         "$F = \\frac{t}{m Delta v}$"
       ],
       "correctIndex": 0,
-      "explanation": "This is derived from $F = Delta p / t$ where $Delta p = m Delta v$. So $F = m Delta v / t$. \n\n**Common mistake:** Placing time in the numerator or ignoring the division entirely."
+      "explanation": "This is derived from $F = Delta p / t where Delta p = m Delta v$. So F = m Delta v / t2\n\n**Common mistake:** Placing time in the numerator or ignoring the division entirely."
     },
     {
       "id": "ch05-momentum-medium-q11",
@@ -201,7 +201,7 @@
         "$25\\text{ kg m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Momentum is a vector. Eastern direction is positive and Western is negative: $+5 + (-5) = 0$. \n\n**Common mistake:** Adding them as scalars to get $10$."
+      "explanation": "Momentum is a vector. Eastern direction is positive and Western is negative: $+5 + (-5) = 0$. \n\n**Common mistake:** Adding them as scalars to get^10."
     }
   ]
 }

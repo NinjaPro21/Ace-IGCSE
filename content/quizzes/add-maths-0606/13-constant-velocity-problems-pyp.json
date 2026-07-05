@@ -11,10 +11,10 @@
     {
       "id": "13-constant-velocity-problems-pyp-q1",
       "type": "mcq",
-      "question": "The position of a ship $t$2$\\mathbf{r} = \\begin{pmatrix} 10t - 40 \\ 30 - 5t \\end{pmatrix}$ km. Find the distance of the ship from the port when $t=2$.",
+      "question": "The position of a ship $t$. So $\\mathbf{r} = \\begin{pmatrix} 10t - 40 \\ \\\\ 30 - 5t \\end{pmatrix}$ km. Find the distance of the ship from the port when $t=2$.",
       "options": [
-        "\\sqrt{800} km",
-        "\\sqrt{500} km",
+        "$$\n\\sqrt{800} km\n",
+        "$$\n\\sqrt{500} km\n",
         "20 km",
         "28.28 km"
       ],
@@ -28,7 +28,7 @@
       "options": [
         "2",
         "4",
-        "\\sqrt{2}",
+        "$$\n\\sqrt{2}\n",
         "10"
       ],
       "correctIndex": 0,
@@ -63,7 +63,7 @@
     {
       "id": "13-constant-velocity-problems-pyp-q5",
       "type": "mcq",
-      "question": "A motorboat travels at 15 km/h in a direction $060^\\circ$2$x\\mathbf{i} + y\\mathbf{j}$.",
+      "question": "A motorboat travels at 15 km/h in a direction $060^\\circ$. $x\\mathbf{i} + y\\mathbf{j}$.",
       "options": [
         "13.0i + 7.5j",
         "7.5i + 13.0j",

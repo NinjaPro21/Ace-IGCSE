@@ -11,25 +11,25 @@
     {
       "id": "13-1-further-vector-notation-pyp-q1",
       "type": "mcq",
-      "question": "The vectors a and b are such that a=4i+3j and b=mi+j . Given that ∣a+b∣=5 , find the possible values of m .",
+      "question": "The vectors a and b are such that a=4i+3j and b=mi+j^2 Given that ∣a+b∣=5 , find the possible values of m .",
       "options": [
-        "−1 or −7",
+        "-1 or -7",
         "1 or 7",
-        "−3 or 4",
+        "-3 or 4",
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "a+b=(4+m)i+4j. ∣...∣\n2\n= (4+m)^{2}+16=25⟹$(4+m)^{2}$=9⟹4+m=±3⟹m=−1,−7.\n\n**Common mistake:** Option B is a sign error where the student solves 4+m=3 as m=7."
+      "explanation": "a+b=(4+m)i+4j. ∣...∣\n2\n= (4+m)^{2}+16=25⟹$(4+m)^{2}$=9⟹4+m=±3⟹m=-1,-7.\n\n**Common mistake:** Option B is a sign error where the student solves 4+m=3 as m=7."
     },
     {
       "id": "13-1-further-vector-notation-pyp-q2",
       "type": "mcq",
-      "question": "Find the unit vector in the direction of the vector 7i−24j .",
+      "question": "Find the unit vector in the direction of the vector 7i-24j .",
       "options": [
-        "1/25(7i−24j)",
+        "1/25(7i-24j)",
         "7/25i+24/25j",
         "1/25(7i+24j)",
-        "25i−25j"
+        "25i-25j"
       ],
       "correctIndex": 0,
       "explanation": "The magnitude is\n(\n\n$7^{2}$+$(-24)^{2}$)=25. The unit vector is the original vector divided by its magnitude.\n\n**Common mistake:** Option B fails to carry the negative sign from the original vector's j component."
@@ -37,33 +37,33 @@
     {
       "id": "13-1-further-vector-notation-pyp-q3",
       "type": "mcq",
-      "question": "The vectors p and q are given by p=2i+j and q=3i−2j . Find the value of λ for which the vector λp+q is parallel to the vector i .",
+      "question": "The vectors p and q are given by p=2i+j and q=3i-2j^2 Find the value of λ for which the vector λp+q is parallel to the vector i .",
       "options": [
         "2",
-        "−2",
+        "-2",
         "1.5",
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "λp+q=(2λ+3)i+(λ−2)j. For this to be parallel to i, the j component must be zero: λ−2=0⟹λ=2.\n\n**Common mistake:** Option B is a sign error in the zeroing of the j component."
+      "explanation": "λp+q=(2λ+3)i+(λ-2)j. For this to be parallel to i, the j component must be zero: λ-2=0⟹λ=2.\n\n**Common mistake:** Option B is a sign error in the zeroing of the j component."
     },
     {
       "id": "13-1-further-vector-notation-pyp-q4",
       "type": "mcq",
-      "question": "Show that the magnitude of the vector r=(1−k)i+2\n(\n\nk)j is 1+k .",
+      "question": "Show that the magnitude of the vector r=(1-k)i+2\n(\n\nk)j is 1+k .",
       "options": [
         "1+k",
-        "1−k",
+        "1-k",
         "(\n\n1+$k^{2}$)",
         "k"
       ],
       "correctIndex": 0,
-      "explanation": "∣r∣\n2\n= (1-k)^{2}+(2\n(\n\nk)$)^{2}$=1−2k+$k^{2}$+4k= k^{2}+2k+1= (1+k)^{2}. Thus magnitude is 1+k.\n\n**Common mistake:** Option C results from failing to include the middle term when expanding the squared bracket."
+      "explanation": "∣r∣\n2\n= (1-k)^{2}+(2\n(\n\nk)$)^{2}$=1-2k+$k^{2}$+4k= k^{2}+2k+1= (1+k)^{2}. Thus magnitude is 1+k.\n\n**Common mistake:** Option C results from failing to include the middle term when expanding the squared bracket."
     },
     {
       "id": "13-1-further-vector-notation-pyp-q5",
       "type": "mcq",
-      "question": "Given that a=3i−4j and b=i+pj , find the value of p for which a−2b has a magnitude of 5 and p>0 .",
+      "question": "Given that a=3i-4j and b=i+pj , find the value of p for which a-2b has a magnitude of 5 and p>0 .",
       "options": [
         "0.5",
         "4",
@@ -71,7 +71,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "a−2b=(3−2)i+(−4−2p)j=i−(4+2p)j. ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24. (Let's adjust for clean root: if ∣...∣=1, ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=1⟹4+2p=0⟹p=−2. Let's use ∣...∣=\n(\n\n65)). For ∣...∣=5, 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24⟹4+2p=\n(\n\n24). Result is p≈0.45. Option A is nearest.\n\n**Common mistake:** Option B results from ignoring the i-component completely in the magnitude calculation."
+      "explanation": "a-2b=(3-2)i+(-4-2p)j=i-(4+2p)j. ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24. (Let's adjust for clean root: if ∣...∣=1, ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=1⟹4+2p=0⟹p=-2. Let's use ∣...∣=\n(\n\n65)). For ∣...∣=5, 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24⟹4+2p=\n(\n\n24). Result is p≈0.45. Option A is nearest.\n\n**Common mistake:** Option B results from ignoring the i-component completely in the magnitude calculation."
     }
   ]
 }

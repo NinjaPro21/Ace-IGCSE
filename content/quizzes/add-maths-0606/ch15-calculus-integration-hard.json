@@ -9,67 +9,67 @@
     {
       "id": "ch15-calculus-integration-q1",
       "type": "mcq",
-      "question": "Given that $\\frac{\\mathrm{d}}{\\mathrm{d}x}(x \\ln x) = 1 + \\ln x$, find $\\int \\ln x \\\\, \\mathrm{d}x$.",
+      "question": "Given that $\\frac{\\mathrm{d}}{\\mathrm{d}x}(x \\ln x) = 1 + \\ln x$, find $\\int \\ln x \\, \\mathrm{d}x$.",
       "options": [
-        " $x \\ln x - x + c$ ",
-        " $x \\ln x + x + c$ ",
-        " $\\frac{1}{x} + c$ ",
-        " $x \\ln x + c$ "
+        "$x \\ln x - x + c$",
+        "$x \\ln x + x + c$",
+        "$\\frac{1}{x} + c$",
+        "$x \\ln x + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating both sides of the given identity gives $x \\ln x = \\int 1 \\\\, \\mathrm{d}x + \\int \\ln x \\\\, \\mathrm{d}x \\implies x \\ln x = x + \\int \\ln x \\\\, \\mathrm{d}x$. Rearranging yields $\\int \\ln x \\\\, \\mathrm{d}x = x \\ln x - x + c$.\n\n**Common mistake:** Option D occurs when a student directly assumes the integral of a product is simply the reverse without subtracting the integrated constant term $x$."
+      "explanation": "Integrating both sides of the given identity gives $x \\ln x = \\int 1 \\, \\mathrm{d}x + \\int \\ln x \\, \\mathrm{d}x \\implies x \\ln x = x + \\int \\ln x \\, \\mathrm{d}x$. Rearranging yields $\\int \\ln x \\, \\mathrm{d}x = x \\ln x - x + c$.\n\n**Common mistake:** Option D occurs when a student directly assumes the integral of a product is simply the reverse without subtracting the integrated constant term $x$."
     },
     {
       "id": "ch15-calculus-integration-q2",
       "type": "mcq",
-      "question": "Using the identity $\\cos^2 x = \\frac{1 + \\cos(2x)}{2}$, evaluate the definite integral $\\int_{0}^{\\frac{\\pi}{2}} 4\\cos^2 x \\\\, \\mathrm{d}x$.",
+      "question": "Using the identity $\\cos^2 x = \\frac{1 + \\cos(2x)}{2}$, evaluate the definite integral $\\int_{0}^{\\frac{\\pi}{2}} 4\\cos^2 x \\, \\mathrm{d}x$.",
       "options": [
-        " $\\pi$ ",
-        " $\\frac{\\pi}{2}$ ",
-        " $2\\pi$ ",
-        " $\\pi - 1$ "
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$2\\pi$",
+        "$\\pi - 1$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite the integral: $\\int_{0}^{\\frac{\\pi}{2}} 4 \\left(\\frac{1 + \\cos(2x)}{2}\\right) \\\\, \\mathrm{d}x = \\int_{0}^{\\frac{\\pi}{2}} (2 + 2\\cos(2x)) \\\\, \\mathrm{d}x = [2x + \\sin(2x)]_{0}^{\\frac{\\pi}{2}} = (2(\\frac{\\pi}{2}) + \\sin\\pi) - (0 + \\sin 0) = \\pi$.\n\n**Common mistake:** Option B is picked if the student forgets the factor of 2 in front of the integrated terms during expansion."
+      "explanation": "Rewrite the integral: $\\int_{0}^{\\frac{\\pi}{2}} 4 \\left(\\frac{1 + \\cos(2x)}{2}\\right) \\, \\mathrm{d}x = \\int_{0}^{\\frac{\\pi}{2}} (2 + 2\\cos(2x)) \\, \\mathrm{d}x = [2x + \\sin(2x)]_{0}^{\\frac{\\pi}{2}} = (2(\\frac{\\pi}{2}) + \\sin\\pi) - (0 + \\sin 0) = \\pi$.\n\n**Common mistake:** Option B is picked if the student forgets the factor of 2 in front of the integrated terms during expansion."
     },
     {
       "id": "ch15-calculus-integration-q3",
       "type": "mcq",
       "question": "Find the area of the region bounded by the curve $y = x^2 - 2x$ and the line $y = 3x$.",
       "options": [
-        " $\\frac{125}{6}$ ",
-        " $\\frac{125}{3}$ ",
-        " $\\frac{25}{6}$ ",
-        " $\\frac{5}{2}$ "
+        "$\\frac{125}{6}$",
+        "$\\frac{125}{3}$",
+        "$\\frac{25}{6}$",
+        "$\\frac{5}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Find intersection points: $x^2 - 2x = 3x \\implies x^2 - 5x = 0 \\implies x=0$ or $x=5$. The area is given by $\\int_{0}^{5} (3x - (x^2 - 2x)) \\\\, \\mathrm{d}x = \\int_{0}^{5} (5x - x^2) \\\\, \\mathrm{d}x = \\left[ \\frac{5x^2}{2} - \\frac{x^3}{3} \\right]_{0}^{5} = \\frac{125}{2} - \\frac{125}{3} = \\frac{125}{6}$.\n\n**Common mistake:** Option B is calculated if the student sets up the integral expression backwards as $\\int(x^2 - 5x)\\\\,\\mathrm{d}x$ and ignores the sign or drops a fraction factor."
+      "explanation": "Find intersection points: $x^2 - 2x = 3x \\implies x^2 - 5x = 0 \\implies x=0$ or $x=5$. The area is given by $\\int_{0}^{5} (3x - (x^2 - 2x)) \\, \\mathrm{d}x = \\int_{0}^{5} (5x - x^2) \\, \\mathrm{d}x = \\left[ \\frac{5x^2}{2} - \\frac{x^3}{3} \\right]_{0}^{5} = \\frac{125}{2} - \\frac{125}{3} = \\frac{125}{6}$.\n\n**Common mistake:** Option B is calculated if the student sets up the integral expression backwards as $\\int(x^2 - 5x)\\,\\mathrm{d}x$ and ignores the sign or drops a fraction factor."
     },
     {
       "id": "ch15-calculus-integration-q4",
       "type": "mcq",
-      "question": "Given that $\\frac{\\mathrm{d}}{\\mathrm{d}x} \\left(\\frac{x}{2x+3}\\right) = \\frac{3}{(2x+3)^2}$, find $\\int \\frac{4}{(2x+3)^2} \\\\, \\mathrm{d}x$.",
+      "question": "Given that $\\frac{\\mathrm{d}}{\\mathrm{d}x} \\left(\\frac{x}{2x+3}\\right) = \\frac{3}{(2x+3)^2}$, find $\\int \\frac{4}{(2x+3)^2} \\, \\mathrm{d}x$.",
       "options": [
-        " $\\frac{4x}{3(2x+3)} + c$ ",
-        " $\\frac{4x}{2x+3} + c$ ",
-        " $\\frac{12x}{2x+3} + c$ ",
-        " $-\\frac{4}{2x+3} + c$ "
+        "$\\frac{4x}{3(2x+3)} + c$",
+        "$\\frac{4x}{2x+3} + c$",
+        "$\\frac{12x}{2x+3} + c$",
+        "$-\\frac{4}{2x+3} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "From the given derivative, $\\int \\frac{3}{(2x+3)^2} \\\\, \\mathrm{d}x = \\frac{x}{2x+3}$. Therefore, $\\int \\frac{4}{(2x+3)^2} \\\\, \\mathrm{d}x = \\frac{4}{3} \\int \\frac{3}{(2x+3)^2} \\\\, \\mathrm{d}x = \\frac{4x}{3(2x+3)} + c$.\n\n**Common mistake:** Option B is picked when a student replaces the constant 3 directly with 4 without balancing the scalar fraction coefficient."
+      "explanation": "From the given derivative, $\\int \\frac{3}{(2x+3)^2} \\, \\mathrm{d}x = \\frac{x}{2x+3}$. Therefore, $\\int \\frac{4}{(2x+3)^2} \\, \\mathrm{d}x = \\frac{4}{3} \\int \\frac{3}{(2x+3)^2} \\, \\mathrm{d}x = \\frac{4x}{3(2x+3)} + c$.\n\n**Common mistake:** Option B is picked when a student replaces the constant 3 directly with 4 without balancing the scalar fraction coefficient."
     },
     {
       "id": "ch15-calculus-integration-q5",
       "type": "mcq",
       "question": "The region enclosed by the curve $y = \\frac{3}{\\sqrt{4x+1}}$, the lines $x=0$, $x=2$, and the $x$-axis is rotated through $360^\\circ$ about the $x$-axis. Find the exact value of the volume of the solid generated.",
       "options": [
-        " $\\frac{9\\pi}{4} \\ln 9$ ",
-        " $\\frac{9}{4} \\ln 9$ ",
-        " $9\\pi \\ln 9$ ",
-        " $\\frac{3\\pi}{4} \\ln 9$ "
+        "$\\frac{9\\pi}{4} \\ln 9$",
+        "$\\frac{9}{4} \\ln 9$",
+        "$9\\pi \\ln 9$",
+        "$\\frac{3\\pi}{4} \\ln 9$"
       ],
       "correctIndex": 0,
-      "explanation": "Volume $V = \\pi \\int_{0}^{2} y^2 \\\\, \\mathrm{d}x = \\pi \\int_{0}^{2} \\frac{9}{4x+1} \\\\, \\mathrm{d}x = 9\\pi \\left[ \\frac{1}{4}\\ln|4x+1| \\right]_{0}^{2} = \\frac{9\\pi}{4}(\\ln 9 - \\ln 1) = \\frac{9\\pi}{4}\\ln 9$.\n\n**Common mistake:** Option B drops the critical geometric factor $\\pi$ required by the formula for a volume of revolution."
+      "explanation": "Volume $V = \\pi \\int_{0}^{2} y^2 \\, \\mathrm{d}x = \\pi \\int_{0}^{2} \\frac{9}{4x+1} \\, \\mathrm{d}x = 9\\pi \\left[ \\frac{1}{4}\\ln|4x+1| \\right]_{0}^{2} = \\frac{9\\pi}{4}(\\ln 9 - \\ln 1) = \\frac{9\\pi}{4}\\ln 9$.\n\n**Common mistake:** Option B drops the critical geometric factor $\\pi$ required by the formula for a volume of revolution."
     }
   ]
 }

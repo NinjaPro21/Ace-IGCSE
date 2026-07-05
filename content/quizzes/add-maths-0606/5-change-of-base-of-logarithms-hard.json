@@ -19,12 +19,12 @@
         "8 and 2"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = \\log_2 x$2$u + 1/u = 2.5 \\implies 2u^2 - 5u + 2 = 0 \\implies (2u-1)(u-2)=0$. $u=2 \\implies x=4; u=0.5 \\implies x=2^{0.5} = \\sqrt{2}$.\n\n**Common mistake:** Difficulty in identifying the substitution $1/u$ or errors in solving the resulting quadratic equation."
+      "explanation": "Let $u = \\log_2 x$. So $u + 1/u = 2.5 \\implies 2u^2 - 5u + 2 = 0 \\implies (2u-1)(u-2)=0$. $u=2 \\implies x=4; u=0.5 \\implies x=2^{0.5} = \\sqrt{2}$.\n\n**Common mistake:** Difficulty in identifying the substitution $1/u$ or errors in solving the resulting quadratic equation."
     },
     {
       "id": "5-change-of-base-of-logarithms-hard-q2",
       "type": "mcq",
-      "question": "Given $\\log_3 x = p$2$\\log_9 (3x^2)$ in terms of $p$.",
+      "question": "Given $\\log_3 x = p . \\log_9 (3x^2)$ in terms of $p$.",
       "options": [
         "$0.5 + p$",
         "$1 + 2p$",
@@ -37,7 +37,7 @@
     {
       "id": "5-change-of-base-of-logarithms-hard-q3",
       "type": "mcq",
-      "question": "Find the value of $x$2$2 \\log_x 5 = \\log_5 x - 1$.",
+      "question": "Find the value of $x$. $2 \\log_x 5 = \\log_5 x - 1$.",
       "options": [
         "25 and 1/5",
         "25 only",
@@ -45,7 +45,7 @@
         "125 and 5"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = \\log_5 x$2$2/u = u - 1 \\implies u^2 - u - 2 = 0 \\implies (u-2)(u+1)=0$. $u=2 \\implies x=25; u=-1 \\implies x=1/5$.\n\n**Common mistake:** Errors in signs when forming the quadratic or forgetting the reciprocal relationship."
+      "explanation": "Let $u = \\log_5 x$. $2/u = u - 1 \\implies u^2 - u - 2 = 0 \\implies (u-2)(u+1)=0$. $u=2 \\implies x=25; u=-1 \\implies x=1/5$.\n\n**Common mistake:** Errors in signs when forming the quadratic or forgetting the reciprocal relationship."
     },
     {
       "id": "5-change-of-base-of-logarithms-hard-q4",

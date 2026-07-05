@@ -9,7 +9,7 @@
     {
       "id": "ch07-coordinate-geometry-of-the-circle-q1",
       "type": "mcq",
-      "question": "The equation of a circle is $x^2 + y^2 - 6x - 8y + 16 = 0$. \n\n(i) Find the coordinates of the center of the circle and its radius.\n(ii) Find the set of values of $m$ for which the line $y = mx$ acts as a secant line cutting the circle at two distinct points.",
+      "question": "The equation of a circle is $x^2 + y^2 - 6x - 8y + 16 = 0$. \n\n(i) Find the coordinates of the center of the circle and its radius.\n(ii) Find the set of values of $m  for which the line y = mx$ acts as a secant line cutting the circle at two distinct points.",
       "options": [
         "Center $(3, 4)$, Radius^3; $\\frac{7}{24} < m < \\frac{4}{3}$",
         "Center $(-3, -4)$, Radius^3; $m < \\frac{7}{24}$ or $m > \\frac{4}{3}$",
@@ -17,7 +17,7 @@
         "Center $(3, 4)$, Radius^3; $m > \\frac{7}{24}$"
       ],
       "correctIndex": 0,
-      "explanation": "Completing the square gives $(x-3)^2 + (y-4)^2 = 9$, so Center is $(3, 4)$ and radius is^3. Substituting $y = mx$ into the equation and setting the discriminant $\\Delta > 0$ for two points of intersection leads to the inequality quadratic in $m$, which yields $\\frac{7}{24} < m < \\frac{4}{3}$.\n\n**Common mistake:** Students often miss the upper or lower boundary condition by improperly treating the inequality or failing to check where the roots of the discriminant fall, leading to option D."
+      "explanation": "Completing the square gives $(x-3)^2 + (y-4)^2 = 9$, so Center is $(3, 4)$ and radius is $1$. Substituting $y = mx$ into the equation and setting the discriminant $\\Delta > 0$ for two points of intersection leads to the inequality quadratic in $m , which yields \\frac{7}{24} < m < \\frac{4}{3}$.\n\n**Common mistake:** Students often miss the upper or lower boundary condition by improperly treating the inequality or failing to check where the roots of the discriminant fall, leading to option D."
     },
     {
       "id": "ch07-coordinate-geometry-of-the-circle-q2",
@@ -50,10 +50,10 @@
       "type": "mcq",
       "question": "The circle $x^2 + y^2 - 10x - 4y + 13 = 0$ intersects the y-axis at two points, $A$ and $B$.\n\n(i) Find the coordinates of $A$ and $B$.\n(ii) Hence, calculate the exact length of the chord $AB$.",
       "options": [
-        "$A(0, 1)$, $B(0, 3)$; Length = $2$",
-        "$A(1, 0)$, $B(3, 0)$; Length = $2$",
+        "$A(0, 1)$, $B(0, 3)$; Length = 2",
+        "$A(1, 0)$, $B(3, 0)$; Length = 2",
         "$A(0, 1)$, $B(0, 3)$; Length = $4$",
-        "$A(0, -1)$, $B(0, -3)$; Length = $2$"
+        "$A(0, -1)$, $B(0, -3)$; Length = 2"
       ],
       "correctIndex": 0,
       "explanation": "On the y-axis, $x = 0$. Substituting $x = 0$ into the circle equation gives $y^2 - 4y + 13 = 0$, but let us ensure real roots: if equation is $x^2 + y^2 - 10x - 4y + 3 = 0$, then $y^2 - 4y + 3 = 0 \\implies (y-1)(y-3)=0$. Points are $(0,1)$ and $(0,3)$. The distance between them is $|3 - 1| = 2$.\n\n**Common mistake:** Students often swap the coordinates to get points on the x-axis, leading to option B, or calculate the midpoint instead of the length, leading to incorrect coordinates."

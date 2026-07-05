@@ -1,7 +1,9 @@
-## What is the Discriminant?
+## Core idea
 
-For a quadratic $ax^2 + bx + c = 0$, the **discriminant** tells you the nature of the roots before you solve: $$
+For a quadratic $ax^2 + bx + c = 0$, the **discriminant** tells you the nature of the roots before you solve: 
+$$
 \Delta = b^2 - 4ac
+$$
 
 ## How to use it
 

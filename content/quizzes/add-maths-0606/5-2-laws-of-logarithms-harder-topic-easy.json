@@ -58,7 +58,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "$\\lg 5 + \\lg 2 = \\lg(5 \\times 2) = \\lg 10$. Since $\\lg$2$\\lg 10 = 1$.\n\n**Common mistake:** Leaving the answer as $\\lg 10$ or incorrectly adding the arguments to get $\\lg 7$."
+      "explanation": "$\\lg 5 + \\lg 2 = \\lg(5 \\times 2) = \\lg 10$. Since $\\lg$. So $\\lg 10 = 1$.\n\n**Common mistake:** Leaving the answer as $\\lg 10$ or incorrectly adding the arguments to get $\\lg 7$."
     },
     {
       "id": "5-2-laws-of-logarithms-harder-topic-easy-q5",
@@ -71,7 +71,7 @@
         "$2 \\log_a (x + y)$"
       ],
       "correctIndex": 0,
-      "explanation": "By the product law, $\\log_a x^2 y = \\log_a x^2 + \\log_a y$2$\\log_a x^2 = 2 \\log_a x$.\n\n**Common mistake:** Applying the power of 2 to the entire expression instead of just the $x$ term."
+      "explanation": "By the product law, $\\log_a x^2 y = \\log_a x^2 + \\log_a y$. So $\\log_a x^2 = 2 \\log_a x$.\n\n**Common mistake:** Applying the power of 2 to the entire expression instead of just the $x$ term."
     }
   ]
 }

@@ -6,7 +6,9 @@ Graphing the modulus of a trigonometric function means reflecting any negative p
 
 $$
 y = |\sin x| \quad (\text{Period halves from } 360^\circ \text{ to } 180^\circ)
+$$
 
+$$
 y = |a\cos(bx) + c|
 $$
 

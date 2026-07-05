@@ -11,7 +11,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "A curve has the equation $y = x^2 - \\frac{8}{x}$. Given that the $x$2$0.1$ units per second, find the rate of increase of the $y$2$x$-axis.",
+      "question": "A curve has the equation $y = x^2 - \\frac{8}{x}$. Given that the $x$. $0.1$ units per second, find the rate of increase of the $y$ and $x$-axis.",
       "options": [
         "$0.6$ units/s",
         "$6$ units/s",
@@ -19,12 +19,12 @@
         "$0.2$ units/s"
       ],
       "correctIndex": 0,
-      "explanation": "Crosses $x$2$x^2 = 8/x \\implies x^3 = 8 \\implies x = 2$. $\\frac{dy}{dx} = 2x + 8x^{-2}$. At $x = 2$, $\\frac{dy}{dx} = 4 + 2 = 6$. Then $\\frac{dy}{dt} = 6 \\times 0.1 = 0.6$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$, forgetting to multiply by the given rate of $0.1$."
+      "explanation": "Crosses $x$. So $x^2 = 8/x \\implies x^3 = 8 \\implies x = 2$. $\\frac{dy}{dx} = 2x + 8x^{-2}$. At $x = 2$, $\\frac{dy}{dx} = 4 + 2 = 6$. Then $\\frac{dy}{dt} = 6 \\times 0.1 = 0.6$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$, forgetting to multiply by the given rate of $0.1$."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "The volume of a sphere is increasing at a constant rate of^12 cm³/s. Find the rate of increase of its surface area when the radius is^3 cm.",
+      "question": "The volume of a sphere is increasing at a constant rate of^12 cm³/s. Find the rate of increase of its surface area when the radius is $1$ cm.",
       "options": [
         "$8$ cm^2/s",
         "$12$ cm^2/s",
@@ -37,7 +37,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Show that the rate of change of the area of an equilateral triangle with side length $s$2$\\frac{\\sqrt{3}}{2}s \\frac{ds}{dt}$. Hence, find the rate of increase of the area when $s = 10$ cm and $\\frac{ds}{dt} = 4$ cm/s.",
+      "question": "Show that the rate of change of the area of an equilateral triangle with side length $s . \\frac{\\sqrt{3}}{2}s \\frac{ds}{dt}$. Hence, find the rate of increase of the area when $s = 10$ cm and $\\frac{ds}{dt} = 4$ cm/s.",
       "options": [
         "$20\\sqrt{3}$ cm^2/s",
         "$40\\sqrt{3}$ cm^2/s",
@@ -45,12 +45,12 @@
         "$80\\sqrt{3}$ cm^2/s"
       ],
       "correctIndex": 0,
-      "explanation": "$A = \\frac{\\sqrt{3}}{4}s^2 \\implies \\frac{dA}{ds} = \\frac{\\sqrt{3}}{2}s$2$s = 10, \\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(10) \\times 4 = 20\\sqrt{3}$.\n\n**Common mistake:** Option B uses the side length^10 in the final substitution but fails to divide the derivative coefficient by^2 correctly."
+      "explanation": "$A = \\frac{\\sqrt{3}}{4}s^2 \\implies \\frac{dA}{ds} = \\frac{\\sqrt{3}}{2}s^2 So s = 10, \\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(10) \\times 4 = 20\\sqrt{3}$.\n\n**Common mistake:** Option B uses the side length^10 in the final substitution but fails to divide the derivative coefficient by^2 correctly."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "A particle moves along the curve $y = 3 + \\ln(2x - 5)$. Find the $x$2$y$2$x$.",
+      "question": "A particle moves along the curve $y = 3 + \\ln(2x - 5)$. Find the $x$ and $y2x$.",
       "options": [
         "$4.5$",
         "$3.5$",
@@ -58,12 +58,12 @@
         "$2.5$"
       ],
       "correctIndex": 0,
-      "explanation": "We need $\\frac{dy}{dx} = 0.5$. $\\frac{dy}{dx} = \\frac{2}{2x - 5}$. Setting $\\frac{2}{2x - 5} = 0.5 \\implies 2 = x - 2.5 \\implies x = 4.5$.\n\n**Common mistake:** Option B occurs if the student fails to multiply the derivative by the inner function derivative ($2$) when applying the chain rule."
+      "explanation": "We need $\\frac{dy}{dx} = 0.5$. $\\frac{dy}{dx} = \\frac{2}{2x - 5}$. Setting $\\frac{2}{2x - 5} = 0.5 \\implies 2 = x - 2.5 \\implies x = 4.5$.\n\n**Common mistake:** Option B occurs if the student fails to multiply the derivative by the inner function derivative (2) when applying the chain rule."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Given that $y = (x+2)^2(x-1)$, find the value of $x$2$y$2$x$.",
+      "question": "Given that $y = (x+2)^2(x-1)$, find the value of $x$ and $y2x$.",
       "options": [
         "$0$ and $-2$",
         "$1$ and $-2$",

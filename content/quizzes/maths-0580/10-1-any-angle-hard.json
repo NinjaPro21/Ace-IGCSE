@@ -24,7 +24,7 @@
     {
       "id": "10-1-any-angle-hard-q2",
       "type": "mcq",
-      "question": "Find the two values of $x$2$\\sin(x + 30°) = 0.5$ in the interval $0° \\le x \\le 360°$.",
+      "question": "Find the two values of $x$. So $\\sin(x + 30°) = 0.5$ in the interval $0° \\le x \\le 360°$.",
       "options": [
         "$0°$ and $120°$",
         "$30°$ and $150°$",
@@ -50,7 +50,7 @@
     {
       "id": "10-1-any-angle-hard-q4",
       "type": "mcq",
-      "question": "The graph of $y = \\cos x$2$0°$ to $360°$?",
+      "question": "The graph of $y = \\cos x$ and $0°$ to $360°$?",
       "options": [
         "$(90°, 0)$",
         "$(180°, -1)$",
@@ -58,7 +58,7 @@
         "$(270°, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "The cosine curve has rotational symmetry about the point $(90°, 0)$ and reflective symmetry about the $y$2$x = 180°$.\n\n**Common mistake:** The student may incorrectly assume the cosine graph has rotational symmetry about the origin, which is actually a property of the sine graph."
+      "explanation": "The cosine curve has rotational symmetry about the point $(90°, 0)$ and reflective symmetry about the $y$. So $x = 180°$.\n\n**Common mistake:** The student may incorrectly assume the cosine graph has rotational symmetry about the origin, which is actually a property of the sine graph."
     },
     {
       "id": "10-1-any-angle-hard-q5",
@@ -71,7 +71,7 @@
         "$233.1°$ and $306.9°$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\tan x = -4/3 \\approx -1.333$. $\\tan^{-1}$(-1.333) \\approx -53.1°$. Adding$180°$gives$126.9°$and$306.9°2\n\n**Common mistake:** The student might accidentally find the quadrant 1 angle ($53.1°$) and fail to apply the negative sign correctly."
+      "explanation": "$\\tan x = -4/3 \\approx -1.333$. $\\tan^{-1}$(-1.333) \\approx -53.1°$. Adding$180°$gives 126.9°and$306.9°2\n\n**Common mistake:** The student might accidentally find the quadrant 1 angle ($53.1°$) and fail to apply the negative sign correctly."
     }
   ]
 }

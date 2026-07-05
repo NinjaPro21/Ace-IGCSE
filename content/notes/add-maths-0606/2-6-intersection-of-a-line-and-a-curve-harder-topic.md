@@ -23,7 +23,9 @@ where $\Delta = B^2 - 4AC$.
 ## Steps / method
 
 1. **Substitute** the linear equation into the curve equation.
+
 2. **Simplify** into a quadratic in $x$.
+
 3. **Apply the discriminant** based on the wording of the question.
 
 ### Key rule

@@ -32,11 +32,11 @@
         "$(2x - 5y)(2x + 5y)$"
       ],
       "correctIndex": 0,
-      "explanation": "First, extract the common numerical factor $2$: $2(25x^2 - 4y^2)$. The expression inside the brackets is now a difference of two squares, where $25x^2 = (5x)^2$ and $4y^2 = (2y)^2$. Factorising this gives $2(5x - 2y)(5x + 2y)$.\n\n**Common mistake:** Students often stop at $2(25x^2 - 4y^2)$, forgetting that the binomial inside can be factorised further using the difference of two squares identity."
+      "explanation": "First, extract the common numerical factor 2: $2(25x^2 - 4y^2)$. The expression inside the brackets is now a difference of two squares, where $25x^2 = (5x)^2$ and $4y^2 = (2y)^2$. Factorising this gives $2(5x - 2y)(5x + 2y)$.\n\n**Common mistake:** Students often stop at $2(25x^2 - 4y^2)$, forgetting that the binomial inside can be factorised further using the difference of two squares identity."
     },
     {
       "type": "mcq",
-      "question": "Point $M(3,1)$ is the midpoint of $AB$2$AB$2$-2$, find the equation of the perpendicular bisector of $AB$.",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
       "options": [
         "y = 0.5x - 0.5",
         "y = -2x + 7",
@@ -57,7 +57,7 @@
         "$b(a - 3b)^2(a + 3b)^2$"
       ],
       "correctIndex": 0,
-      "explanation": "First factor out $b$2$b(a^4 - 81b^4)$. Apply difference of two squares twice: $b(a^2 - 9b^2)(a^2 + 9b^2) = b(a - 3b)(a + 3b)(a^2 + 9b^2)$.\n\n**Common mistake:** Stopping after the first difference of squares and failing to factor $(a^2 - 9b^2)$ further.",
+      "explanation": "First factor out $b$. $b(a^4 - 81b^4)$. Apply difference of two squares twice: $b(a^2 - 9b^2)(a^2 + 9b^2) = b(a - 3b)(a + 3b)(a^2 + 9b^2)$.\n\n**Common mistake:** Stopping after the first difference of squares and failing to factor $(a^2 - 9b^2)$ further.",
       "id": "6-1-factorising-hard-q4"
     },
     {

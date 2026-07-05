@@ -6,7 +6,9 @@ The graph of y=∣f(x)∣ where f(x) is a quadratic function represents a parabo
 
 $$
 f(x) = ax^2 + bx + c
+$$
 
+$$
 y = |ax^2 + bx + c|
 $$
 

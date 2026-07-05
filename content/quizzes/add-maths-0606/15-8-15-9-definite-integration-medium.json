@@ -11,7 +11,7 @@
     {
       "id": "15-8-15-9-definite-integration-medium-q1",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^{\\pi/6} \\sec^{2} x \\\\\\\\,dx.$.",
+      "question": "Evaluate $\\int_0^{\\pi/6} \\sec^{2} x \\,dx.$.",
       "options": [
         "0.577",
         "1",
@@ -24,7 +24,7 @@
     {
       "id": "15-8-15-9-definite-integration-medium-q2",
       "type": "mcq",
-      "question": "Find the exact value of $\\int_0^4 \\sqrt{2x+1} \\\\\\\\,dx.$.",
+      "question": "Find the exact value of $\\int_0^4 \\sqrt{2x+1} \\,dx.$.",
       "options": [
         "8.67",
         "13",
@@ -37,7 +37,7 @@
     {
       "id": "15-8-15-9-definite-integration-medium-q3",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^1 e^{3x} \\\\\\\\,dx.$ in terms of $e$.",
+      "question": "Evaluate $\\int_0^1 e^{3x} \\,dx.$ in terms of $e$.",
       "options": [
         "$\\frac{1}{3}(e^{3}-1)$",
         "$e^{3}-1$",
@@ -58,7 +58,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "The curve crosses the x-axis at $x = \\pm 2$. $\\int_{-2}^{2} (x^2 - 4)\\\\\\\\,dx. = \\left[\\frac{x^3}{3} - 4x\\right]_{-2}^{2} = -\\frac{32}{3}$. Geometric area is $\\frac{32}{3}$.\n\n**Common mistake:** Integrating from 0 to 2 only, which gives half the area ($16/3$)."
+      "explanation": "The curve crosses the x-axis at $x = \\pm 2$. $\\int_{-2}^{2} (x^2 - 4)\\,dx. = \\left[\\frac{x^3}{3} - 4x\\right]_{-2}^{2} = -\\frac{32}{3}$. Geometric area is $\\frac{32}{3}$.\n\n**Common mistake:** Integrating from 0 to 2 only, which gives half the area ($16/3$)."
     },
     {
       "id": "15-8-15-9-definite-integration-medium-q5",
@@ -71,7 +71,7 @@
         "$\\ln 2$"
       ],
       "correctIndex": 0,
-      "explanation": "$[\\ln x]_1^{e^2} = \\ln(e^2) - \\ln(1) = 2 - 0 = 2$.\n\n**Common mistake:** Incorrectly evaluating $\\ln(e^2)$ as $e$ or $\\ln(1)$ as 1."
+      "explanation": "$[\\ln x]_1^{e^2} = \\ln(e^2) - \\ln(1) = 2 - 0 = 2$.\n\n**Common mistake:** Incorrectly evaluating $\\ln(e^2)$ as $e  or \\ln(1)$ as 1."
     },
     {
       "id": "15-8-15-9-definite-integration-medium-q6",

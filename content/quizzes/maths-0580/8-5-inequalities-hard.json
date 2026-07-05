@@ -18,7 +18,7 @@
         "$x \\le 10$"
       ],
       "correctIndex": 0,
-      "explanation": "Split into two parts: $10 \\le 2x - 1 \\implies 11 \\le 2x \\implies 5.5 \\le x$2$2x - 1 \\le x + 9 \\implies x \\le 10$. Putting them together gives $5.5 \\le x \\le 10$.\n\n**Common mistake:** Solving only one half of the inequality and ignoring the restriction placed by the other side.",
+      "explanation": "Split into two parts: $10 \\le 2x - 1 \\implies 11 \\le 2x \\implies 5.5 \\le x$. $2x - 1 \\le x + 9 \\implies x \\le 10$. Putting them together gives $5.5 \\le x \\le 10$.\n\n**Common mistake:** Solving only one half of the inequality and ignoring the restriction placed by the other side.",
       "id": "8-5-inequalities-hard-q1"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "type": "mcq",
-      "question": "List the integer values of $x$2$2x - 1 < 20 < 3x - 5$**.",
+      "question": "List the integer values of $x$. $2x - 1 < 20 < 3x - 5$**.",
       "options": [
         "9, 10",
         "8, 9, 10",

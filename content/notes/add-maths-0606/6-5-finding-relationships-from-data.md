@@ -17,7 +17,9 @@ Use the mappings from Topic 6.4 — e.g. if $Y = \lg y$ and $c = \lg a$, then $a
 ## Steps / method
 
 1. **Find the gradient** $m$ using two points on the straight-line graph.
+
 2. **Read the intercept** $c$ where the line crosses the vertical axis.
+
 3. **Relate to the original equation** using the $Y$, $X$, $m$, $c$ mappings from 6.4.
 
 ### Key rule

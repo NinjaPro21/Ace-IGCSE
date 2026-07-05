@@ -11,15 +11,15 @@
     {
       "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "Given that $\\sin \\theta = -0.5$ and $180^\\circ < \\theta < 360^\\circ$2$\\theta$.",
+      "question": "Given that $\\sin \\theta = -0.5$ and $180^\\circ < \\theta < 360^\\circ$. $\\theta$.",
       "options": [
-        "$210^\\circ$2$330^\\circ$",
-        "$210^\\circ$2$240^\\circ$",
-        "$300^\\circ$2$330^\\circ$",
-        "$150^\\circ$2$210^\\circ$"
+        "$210^\\circ$ instead of $330^\\circ$",
+        "$210^\\circ$ instead of $240^\\circ$",
+        "$300^\\circ$ instead of $330^\\circ$",
+        "$150^\\circ$ instead of $210^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "The reference angle is $\\sin^{-1}(0.5) = 30^\\circ$2$180+30=210^\\circ$2$360-30=330^\\circ$) quadrants.\n\n**Common mistake:** Option D includes $150^\\circ$, which is in the second quadrant where sine is positive."
+      "explanation": "The reference angle is $\\sin^{-1}(0.5) = 30^\\circ$. $180+30=210^\\circ2360-30=330^\\circ$) quadrants.\n\n**Common mistake:** Option D includes $150^\\circ$, which is in the second quadrant where sine is positive."
     },
     {
       "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-medium-q2",
@@ -32,7 +32,7 @@
         "$\\frac{12}{13}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\tan A$2$\\cos A$2$A in the third quadrant$2$2\\sin A$2$r = 13$, so $\\sin A = -5/13$.\n\n**Common mistake:** Option B is the correct magnitude but ignores the quadrant constraint provided by $\\cos A < 0$."
+      "explanation": "$\\tan A$. $\\cos A2A in the third quadrant$. $2\\sin A2r = 13$, so $\\sin A = -5/13$.\n\n**Common mistake:** Option B is the correct magnitude but ignores the quadrant constraint provided by $\\cos A < 0$."
     },
     {
       "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-medium-q3",
@@ -45,12 +45,12 @@
         "$210^\\circ, 330^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\cos \\theta = -\\sqrt{3}/2$. The reference angle is $30^\\circ$2$180-30=150^\\circ$2$180+30=210^\\circ$) quadrants.\n\n**Common mistake:** Option B solves for $\\cos \\theta = \\sqrt{3}/2$, forgetting the negative sign from the initial equation."
+      "explanation": "$\\cos \\theta = -\\sqrt{3}/2$. The reference angle is $30^\\circ$. $180-30=150^\\circ2180+30=210^\\circ$) quadrants.\n\n**Common mistake:** Option B solves for $\\cos \\theta = \\sqrt{3}/2$, forgetting the negative sign from the initial equation."
     },
     {
       "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "Find the set of values of $x$2$0 \\le x \\le 2\\pi$2$\\tan x = -1$.",
+      "question": "Find the set of values of $x$. $0 \\le x \\le 2\\pi2\\tan x = -1$.",
       "options": [
         "$\\frac{3\\pi}{4}, \\frac{7\\pi}{4}$",
         "$\\frac{\\pi}{4}, \\frac{5\\pi}{4}$",
@@ -63,7 +63,7 @@
     {
       "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "An angle $\\alpha$2$\\sin \\alpha = k$2$k > 0$. Express $\\sin(180^\\circ + \\alpha)$ in terms of $k$.",
+      "question": "An angle $\\alpha$. So $\\sin \\alpha = k2k > 0$. Express $\\sin(180^\\circ + \\alpha)$ in terms of $k$.",
       "options": [
         "$-k$",
         "$k$",
@@ -71,7 +71,7 @@
         "$-\\sqrt{1-k^2}$"
       ],
       "correctIndex": 0,
-      "explanation": "$180^\\circ + \\alpha$2$\\alpha$2$-k$.\n\n**Common mistake:** Option B assumes the sine ratio remains positive across all quadrants."
+      "explanation": "$180^\\circ + \\alpha$. $\\alpha2-k$.\n\n**Common mistake:** Option B assumes the sine ratio remains positive across all quadrants."
     }
   ]
 }

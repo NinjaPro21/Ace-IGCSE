@@ -19,20 +19,20 @@
         "$9x^2 + 4$"
       ],
       "correctIndex": 0,
-      "explanation": "In the composite function $fg(x)$, function $g$2$f$2$f[g(x)] = f(x^2) = 3(x^2) + 2$.\n\n**Common mistake:** Students often perform the functions in the wrong order, finding $gf(x)$ instead of $fg(x)$."
+      "explanation": "In the composite function $fg(x)$, function $g$ and $f2f[g(x)] = f(x^2) = 3(x^2) + 2$.\n\n**Common mistake:** Students often perform the functions in the wrong order, finding $gf(x)$ instead of $fg(x)$."
     },
     {
       "id": "11-3-11-4-functions-medium-q2",
       "type": "mcq",
-      "question": "Find the value of $x$2$f(x) = 1$, given that $f(x) = 3x - 1$.",
+      "question": "Find the value of $x$. So $f(x) = 1$, given that $f(x) = 3x - 1$.",
       "options": [
         "$2/3$",
         "$0$",
-        "$2$",
+        "2",
         "$1/3$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the function equal to 1: $3x - 1 = 1$. Adding 1 to both sides gives $3x = 2$, so $x = 2/3$.\n\n**Common mistake:** Students might substitute 1 for $x$2$f(1)$) instead of solving the equation."
+      "explanation": "Set the function equal to 1: $3x - 1 = 1$. Adding 1 to both sides gives $3x = 2$, so $x = 2/3$.\n\n**Common mistake:** Students might substitute 1 for $x$. $f(1)$) instead of solving the equation."
     },
     {
       "id": "11-3-11-4-functions-medium-q3",
@@ -45,7 +45,7 @@
         "$x/5 + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the algebraic method: let $y = 5x - 2$, then swap $x$2$y$2$x = 5y - 2$. Solving for $y$2$x + 2 = 5y$2$y = (x + 2) / 5$.\n\n**Common mistake:** Errors in signs during rearrangement (e.g., subtracting 2 instead of adding) are common."
+      "explanation": "Using the algebraic method: let $y = 5x - 2$, then swap $x$ and $y2x = 5y - 2$. Solving for $y$. So $x + 2 = 5y2y = (x + 2) / 5$.\n\n**Common mistake:** Errors in signs during rearrangement (e.g., subtracting 2 instead of adding) are common."
     },
     {
       "id": "11-3-11-4-functions-medium-q4",
@@ -58,7 +58,7 @@
         "$\\{18, 30, 114\\}$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute each domain value into the function: $2(1)^2 + 7 = 9$; $2(2)^2 + 7 = 15$; $2(5)^2 + 7 = 57$.\n\n**Common mistake:** Calculating $2x$2$4x^2$) instead of following the correct order of operations (Indices before Multiplication)."
+      "explanation": "Substitute each domain value into the function: $2(1)^2 + 7 = 9$; $2(2)^2 + 7 = 15$; $2(5)^2 + 7 = 57$.\n\n**Common mistake:** Calculating $2x$. $4x^2$) instead of following the correct order of operations (Indices before Multiplication)."
     },
     {
       "id": "11-3-11-4-functions-medium-q5",

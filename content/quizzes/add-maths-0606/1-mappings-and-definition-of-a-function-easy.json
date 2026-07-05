@@ -11,7 +11,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q1",
       "type": "mcq",
-      "question": "For the mapping x$\\mapsto$3x−5, find the image of the object 4.",
+      "question": "For the mapping $x \\mapsto 3x-5$, find the image of the object 4.",
       "options": [
         "7",
         "17",
@@ -19,12 +19,12 @@
         "12"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute x=4 into the mapping: 3(4)−5=12−5=7.\n\n**Common mistake:** A student might add the 5 instead of subtracting it, leading to 12+5=17."
+      "explanation": "Substitute x=4 into the mapping: 3(4)-5=12-5=7.\n\n**Common mistake:** A student might add the 5 instead of subtracting it, leading to 12+5=17."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q2",
       "type": "mcq",
-      "question": "What type of mapping is represented by the relation x$\\mapsto\n\n$$x^{2}$ where the domain is$\n−2,2?",
+      "question": "What type of mapping is represented by the relation $1$ where the domain is $\\{-2, 2\\}$?$",
       "options": [
         "Many-to-one",
         "One-to-one",
@@ -63,7 +63,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q5",
       "type": "mcq",
-      "question": "For the mapping x$\\mapsto$10−2x, which value of x produces an image of 0?",
+      "question": "For the mapping $x \\mapsto 10-2x$, which value of x produces an image of 0?",
       "options": [
         "5",
         "10",
@@ -71,12 +71,12 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "Set the expression to 0: 10−2x=0, which gives 2x=10, so x=5.\n\n**Common mistake:** A common mistake is misinterpreting the image as the input and calculating 10−2(0)=10."
+      "explanation": "Set the expression to 0: 10-2x=0, which gives 2x=10, so x=5.\n\n**Common mistake:** A common mistake is misinterpreting the image as the input and calculating 10-2(0)=10."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q6",
       "type": "mcq",
-      "question": "A function f is defined by f(x)=7x−4. Find the image of the object 3.",
+      "question": "A function f is defined by f(x)=7x-4. Find the image of the object 3.",
       "options": [
         "17",
         "25",
@@ -84,7 +84,7 @@
         "21"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute x=3 into the function: f(3)=7(3)−4=21−4=17.\n\n**Common mistake:** Students may mistakenly add the constant instead of subtracting, leading to 21+4=25, or forget to multiply correctly."
+      "explanation": "Substitute x=3 into the function: f(3)=7(3)-4=21-4=17.\n\n**Common mistake:** Students may mistakenly add the constant instead of subtracting, leading to 21+4=25, or forget to multiply correctly."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q7",
@@ -107,10 +107,10 @@
         "2,3,4",
         "12,13,14",
         "7,8,9",
-        "−2,−3,−4"
+        "-2,-3,-4"
       ],
       "correctIndex": 0,
-      "explanation": "To find the domain, solve x+5=y for each y in the range: x=y−5. 7−5=2,8−5=3,9−5=4.\n\n**Common mistake:** Students often add the constant to the range values instead of performing the inverse operation to find the inputs."
+      "explanation": "To find the domain, solve x+5=y for each y in the range: x=y-5. 7-5=2,8-5=3,9-5=4.\n\n**Common mistake:** Students often add the constant to the range values instead of performing the inverse operation to find the inputs."
     },
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q9",
@@ -128,7 +128,7 @@
     {
       "id": "1-mappings-and-definition-of-a-function-easy-q10",
       "type": "mcq",
-      "question": "Find the value of f(−2) for the function f(x)=10−3x.",
+      "question": "Find the value of f(-2) for the function f(x)=10-3x.",
       "options": [
         "16",
         "4",
@@ -136,7 +136,7 @@
         "13"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute x=−2: f(−2)=10−3(−2)=10+6=16.\n\n**Common mistake:** The most frequent error is a sign mistake during multiplication: −3(−2) being treated as −6 instead of +6."
+      "explanation": "Substitute x=-2: f(-2)=10-3(-2)=10+6=16.\n\n**Common mistake:** The most frequent error is a sign mistake during multiplication: -3(-2) being treated as -6 instead of +6."
     }
   ]
 }

@@ -63,7 +63,7 @@
     {
       "id": "10-permutations-and-combinations-easy-q5",
       "type": "mcq",
-      "question": "Find the value of $n$2$^n\\text{P}_2 = 42$.",
+      "question": "Find the value of $n$. $^n\\text{P}_2 = 42$.",
       "options": [
         "7",
         "6",
@@ -110,7 +110,7 @@
         "$^rC_n$"
       ],
       "correctIndex": 0,
-      "explanation": "The symmetry property of combinations states that choosing $r$2$n-r$ items to leave behind.\n\n**Common mistake:** Option D is a common notation error; $r$2$n$ in standard combinations."
+      "explanation": "The symmetry property of combinations states that choosing $r$. $n-r$ items to leave behind.\n\n**Common mistake:** Option D is a common notation error; $r$ and $n$ in standard combinations."
     },
     {
       "id": "10-permutations-and-combinations-easy-q9",
@@ -123,7 +123,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "$^nC_n$2$1$ because there is only one way to select every item in a set.\n\n**Common mistake:** Option B ($n$2$^nC_n$2$^nC_1$."
+      "explanation": "$^nC_n$. $1$ because there is only one way to select every item in a set.\n\n**Common mistake:** Option B ($n$. $^nC_n2^nC_1$."
     },
     {
       "id": "10-permutations-and-combinations-easy-q10",

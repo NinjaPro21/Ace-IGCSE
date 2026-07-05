@@ -6,12 +6,13 @@ Circular measure uses radians—where an angle is measured by the length of the 
 
 $$
 \theta_{\text{radians}} = \theta_{\text{degrees}} \times \frac{\pi}{180^\circ}
-
+$$
+$$
 \text{Arc Length: } s = r\theta \quad (\text{where } \theta \text{ is in radians})
-
+$$
+$$
 \text{Area of Sector: } A = \frac{1}{2}r^2\theta \quad (\text{where } \theta \text{ is in radians})
 $$
-
 
 ## Steps / method
 

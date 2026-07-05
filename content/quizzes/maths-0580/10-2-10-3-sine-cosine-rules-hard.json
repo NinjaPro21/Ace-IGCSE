@@ -11,7 +11,7 @@
     {
       "id": "10-2-10-3-sine-cosine-rules-hard-q1",
       "type": "mcq",
-      "question": "A ship sails $18$ km on a bearing of $060°$ and then $24$ km on a bearing of $150°$. Find the direct distance from the starting point.",
+      "question": "A ship sails^18 km on a bearing of $060°$ and then^24 km on a bearing of $150°$. Find the direct distance from the starting point.",
       "options": [
         "30 km",
         "42 km",
@@ -19,12 +19,12 @@
         "32.4 km"
       ],
       "correctIndex": 0,
-      "explanation": "Bearings $060$ and $150$ are $90°$ apart ($150 - 60 = 90$). Distance $= \\sqrt{18^2 + 24^2} = \\sqrt{324 + 576} = \\sqrt{900} = 30$.\n\n**Common mistake:** The student might calculate the bearing instead of the distance or just add the two legs ($18+24$)."
+      "explanation": "Bearings^060 and^150 are $90°$ apart ($150 - 60 = 90$). Distance $= \\sqrt{18^2 + 24^2} = \\sqrt{324 + 576} = \\sqrt{900} = 30$.\n\n**Common mistake:** The student might calculate the bearing instead of the distance or just add the two legs ($18+24$)."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-hard-q2",
       "type": "mcq",
-      "question": "Find the value of $x$2$3x$2$4x$2$40.6$, and the angle opposite the $40.6$ side is $150°$.",
+      "question": "Find the value of $x$. $3x24x$. $40.6$, and the angle opposite the $40.6$ side is $150°$.",
       "options": [
         "6.00",
         "8.50",
@@ -32,12 +32,12 @@
         "7.12"
       ],
       "correctIndex": 0,
-      "explanation": "Cosine Rule: $40.6^2 = (3x)^2 + (4x)^2 - (2 \\times 3x \\times 4x \\times \\cos 150°)$. $1648.36 = 9x^2 + 16x^2 - (24x^2 \\times -0.866) = 25x^2 + 20.78x^2 = 45.78x^2$. $x^2 = 1648.36 / 45.78 \\approx 36 \\Rightarrow x = 6$.\n\n**Common mistake:** The student might square $3x$2$3x^2$ or $4x$2$4x^2$ instead of $9x^2$ and $16x^2$."
+      "explanation": "Cosine Rule: $40.6^2 = (3x)^2 + (4x)^2 - (2 \\times 3x \\times 4x \\times \\cos 150°)$. $1648.36 = 9x^2 + 16x^2 - (24x^2 \\times -0.866) = 25x^2 + 20.78x^2 = 45.78x^2$. $x^2 = 1648.36 / 45.78 \\approx 36 \\Rightarrow x = 6$.\n\n**Common mistake:** The student might square $3x$. $3x^2$ or $4x$. $4x^2$ instead of $9x^2$ and $16x^2$."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-hard-q3",
       "type": "mcq",
-      "question": "In triangle PQR, the area is $93$ cm $2$, side $p = 12$ cm, and side $r = 16$ cm. Given angle $Q$2$q$.",
+      "question": "In triangle PQR, the area is^93cm . , side p = 12 cm, and side $r = 16$ cm. Given angle $Q$ and $q$.",
       "options": [
         "Angle = 75.6°, Side = 17.5 cm",
         "Angle = 14.4°, Side = 12.8 cm",
@@ -50,7 +50,7 @@
     {
       "id": "10-2-10-3-sine-cosine-rules-hard-q4",
       "type": "mcq",
-      "question": "An aircraft flies $200$ km on a bearing of $162°$, then $350$ km on a bearing of $260°$. Calculate the distance of the direct return journey.",
+      "question": "An aircraft flies^200 km on a bearing of $162°$, then^350 km on a bearing of $260°$. Calculate the distance of the direct return journey.",
       "options": [
         "378 km",
         "550 km",
@@ -58,12 +58,12 @@
         "295 km"
       ],
       "correctIndex": 0,
-      "explanation": "The internal angle at the first turn: Back bearing of $162$ is $342$. $342 - 260 = 82°$. Use Cosine Rule: $d^2 = 200^2 + 350^2 - (2 \\times 200 \\times 350 \\times \\cos 82°) = 40000 + 122500 - 19484 = 143016$. $d \\approx 378$.\n\n**Common mistake:** The student might miscalculate the internal angle or assume the return bearing is just the sum of the two previous bearings."
+      "explanation": "The internal angle at the first turn: Back bearing of^162 is $1$. $342 - 260 = 82°$. Use Cosine Rule: $d^2 = 200^2 + 350^2 - (2 \\times 200 \\times 350 \\times \\cos 82°) = 40000 + 122500 - 19484 = 143016$. $d \\approx 378$.\n\n**Common mistake:** The student might miscalculate the internal angle or assume the return bearing is just the sum of the two previous bearings."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-hard-q5",
       "type": "mcq",
-      "question": "Town X is $8$ km from Town Y and $5$ km from Town Z. Town Y is $9$ km due North of Town Z. If X is West of line YZ, find angle YZX.",
+      "question": "Town X is $1$ km from Town Y and^5 km from Town Z. Town Y is $1$ km due North of Town Z. If X is West of line YZ, find angle YZX.",
       "options": [
         "62.2°",
         "27.8°",
@@ -71,7 +71,7 @@
         "117.8°"
       ],
       "correctIndex": 0,
-      "explanation": "Sides of triangle XYZ are $8, 5, 9$. Angle $Z$2$XY (8)$. $\\cos Z = (5^2 + 9^2 - 8^2) / (2 \\times 5 \\times 9) = (25 + 81 - 64) / 90 = 42 / 90 = 0.4667$. $Z = \\cos^{-1}$(0.4667) \\approx 62.2°2\n\n**Common mistake:** The student might calculate the angle at Y or use the wrong sides in the formula numerator."
+      "explanation": "Sides of triangle XYZ are $8, 5, 9$. Angle $Z$. $XY (8)$. $\\cos Z = (5^2 + 9^2 - 8^2) / (2 \\times 5 \\times 9) = (25 + 81 - 64) / 90 = 42 / 90 = 0.4667$. $Z = \\cos^{-1}$(0.4667) \\approx 62.2°2\n\n**Common mistake:** The student might calculate the angle at Y or use the wrong sides in the formula numerator."
     }
   ]
 }

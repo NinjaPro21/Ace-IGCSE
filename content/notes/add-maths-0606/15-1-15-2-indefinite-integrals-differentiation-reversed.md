@@ -13,13 +13,19 @@ $$
 **Constant multiple and sum**
 
 $$
-\int k\,f(x)\,dx = k\int f(x)\,dx, \qquad \int [f(x) + g(x)]\,dx = \int f(x)\,dx + \int g(x)\,dx
+\int k\,f(x)\,dx = k\int f(x)\,dx,
+$$
+
+$$
+\int [f(x) + g(x)]\,dx = \int f(x)\,dx + \int g(x)\,dx
 $$
 
 ## Steps / method
 
 1. **Identify** the form of each term in the integrand.
+
 2. **Integrate** term by term using the power rule.
+
 3. **Add** $+C$ to the final answer for indefinite integrals.
 
 ### Key rule

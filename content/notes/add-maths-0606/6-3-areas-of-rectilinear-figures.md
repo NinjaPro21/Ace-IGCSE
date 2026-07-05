@@ -13,8 +13,11 @@ $$
 ## Steps / method
 
 1. **List coordinates** in a column, repeating the first point at the bottom.
+
 2. **Multiply diagonally** downward (left to right) and sum.
+
 3. **Multiply diagonally** upward and sum.
+
 4. **Subtract**, take the absolute value, and divide by 2.
 
 ### Key rule
@@ -41,4 +44,4 @@ Always repeat the first coordinate at the end. Missing this step makes the area 
 
 ## Quick check
 
-For a triangle with a horizontal or vertical base, you can also use $\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}$.
+For a triangle with a horizontal or vertical base, you can al so use $\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}$.

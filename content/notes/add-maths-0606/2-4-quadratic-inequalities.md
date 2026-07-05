@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Find critical values** by solving $ax^2 + bx + c = 0$.
+
 2. **Sketch** the parabola using these roots.
+
 3. **Identify the region**:
    - If $a > 0$ and you want $> 0$: answer is **outside** the roots ($x < \text{small}$ or $x > \text{big}$)
    - If $a > 0$ and you want $< 0$: answer is **between** the roots ($\text{small} < x < \text{big}$)

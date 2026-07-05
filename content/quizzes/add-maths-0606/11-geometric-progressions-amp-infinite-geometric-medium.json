@@ -11,11 +11,11 @@
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-medium-q1",
       "type": "mcq",
-      "question": "The terms $x-1$, $x+2$, and $3x$2$x$.",
+      "question": "The terms $x-1$, $x+2$, and $3x$ and $x$.",
       "options": [
         "$4$",
         "$1$",
-        "$2$",
+        "2",
         "$0.5$"
       ],
       "correctIndex": 0,
@@ -24,7 +24,7 @@
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-medium-q2",
       "type": "mcq",
-      "question": "In a geometric progression, the second term is^6 and the fourth term is^54. Given $r > 0$, calculate the sum of the first three terms.",
+      "question": "In a geometric progression, the second term is $1$ and the fourth term is $1$. Given $r > 0$, calculate the sum of the first three terms.",
       "options": [
         "$26$",
         "$62$",
@@ -45,12 +45,12 @@
         "$4.7/9$"
       ],
       "correctIndex": 0,
-      "explanation": "The series is $0.47 + 0.0047 + ...$ where $a = 0.47$ and $r = 0.01$. $S_{\\infty} = 0.47 / (1 - 0.01) = 0.47 / 0.99 = 47/99$.\n\n**Common mistake:** Option B is a simple decimal-to-$fraction$ conversion that ignores the recurring nature of the digits."
+      "explanation": "The series is $0.47 + 0.0047 + ... where a = 0.47$ and r = 0.012S_{\\infty} = 0.47 / (1 - 0.01) = 0.47 / 0.99 = 47/992\n\n**Common mistake:** Option B is a simple decimal-to-$fraction$ conversion that ignores the recurring nature of the digits."
     },
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-medium-q4",
       "type": "mcq",
-      "question": "A geometric progression has first term^100 and common ratio $0.9$. Find the smallest value of $n$2$n$2$10$.",
+      "question": "A geometric progression has first term^100 and common ratio $0.9$. Find the smallest value of $n$ and $n210$.",
       "options": [
         "$23$",
         "$22$",
@@ -97,7 +97,7 @@
         "0.25"
       ],
       "correctIndex": 0,
-      "explanation": "a + d = ar => d = a(r - 1). (a + 2d) = 2(ar^2). Substitute d: a + 2a(r - 1) = 2ar^2 => 1 + 2r - 2 = 2r^2 => 2r^2 - 2r + 1 = 0. *Correction*: If 3rd term AP = 2 * 3rd term GP: a+2d = 2ar^2. Let a=1: 1+2(r-1) = 2r^2 => 2r-1 = 2r^2 => 2r^2-2r+1=0 (no real r). *Adjusted logic*: If 3rd GP is 4 \\times 3rd AP... used 0.5 as target.\n\n**Common mistake:** Algebraic errors when substituting one progression variable into the other."
+      "explanation": "$a + d = ar => d = a(r - 1). (a + 2d) = 2(ar^2). Substitute d: a + 2a(r - 1) = 2ar^2 => 1 + 2r - 2 = 2r^2 => 2r^2 - 2r + 1 = 0. *Correction*: If 3rd term AP = 2 * 3rd term GP: a+2d = 2ar^2. Let a=1: 1+2(r-1) = 2r^2 => 2r-1 = 2r^2 => 2r^2-2r+1=0 (no real r). *Adjusted logic*: If 3rd GP is 4 \\times 3rd AP... used 0.5 as target.$\n\n**Common mistake:** Algebraic errors when substituting one progression variable into the other."
     },
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-medium-q8",

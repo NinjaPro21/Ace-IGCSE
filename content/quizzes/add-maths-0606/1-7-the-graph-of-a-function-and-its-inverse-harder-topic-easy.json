@@ -14,7 +14,7 @@
       "question": "The graph of y= f^{-1}(x) is a reflection of the graph of y=f(x) in which line?",
       "options": [
         "y=x",
-        "y=−x",
+        "y=-x",
         "y=0",
         "x=0"
       ],
@@ -27,9 +27,9 @@
       "question": "If a point P(a,b) lies on the graph of y=f(x), what are the coordinates of the corresponding point on the graph of y= f^{-1}(x)?",
       "options": [
         "(b,a)",
-        "(−a,−b)",
-        "(a,−b)",
-        "(−b,a)"
+        "(-a,-b)",
+        "(a,-b)",
+        "(-b,a)"
       ],
       "correctIndex": 0,
       "explanation": "The inverse function swaps the role of input and output, so the coordinates (x,y) become (y,x).\n\n**Common mistake:** Negating the coordinates instead of swapping them, often confusing inversion with rotation or origin reflection."
@@ -41,7 +41,7 @@
       "options": [
         "At x=5",
         "At x=0",
-        "At x=−5",
+        "At x=-5",
         "It does not cross the x-axis"
       ],
       "correctIndex": 0,
@@ -53,12 +53,12 @@
       "question": "On a single set of axes, the graphs of y=f(x) and y= f^{-1}(x) intersect. On which line must this intersection occur?",
       "options": [
         "y=x",
-        "y=−x",
+        "y=-x",
         "x=0",
         "y=1"
       ],
       "correctIndex": 0,
-      "explanation": "Since $f^{-1}$is a reflection of f in y=x, any points they share must lie exactly on that mirror line.\n\n**Common mistake:** Thinking the intersection could happen anywhere, or confusing the line y=x with the horizontal axis."
+      "explanation": "Since $f^{-1}$ is a reflection of f in y=x, any points they share must lie exactly on that mirror line.\n\n**Common mistake:** Thinking the intersection could happen anywhere, or confusing the line y=x with the horizontal axis."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-easy-q5",

@@ -11,67 +11,67 @@
     {
       "id": "9-3-equations-of-straight-lines-medium-q1",
       "type": "mcq",
-      "question": "Find the equation of the line that passes through the point (3,5) and is parallel to y=2x−1.",
+      "question": "Find the equation of the line that passes through the point (3,5) and is parallel to y=2x-1.",
       "options": [
-        "y=2x−1",
+        "y=2x-1",
         "y=2x+5",
-        "y=−0.5x+6.5",
+        "y=-0.5x+6.5",
         "y=2x+11"
       ],
       "correctIndex": 0,
-      "explanation": "Parallel lines have the same gradient, so m=2. Using y=mx+c with (3,5): 5=2(3)+c⇒5=6+c⇒c=−1. So, y=2x−1.\n\n**Common mistake:** The student might assume the y-intercept is the same as the point given (5) or calculate a perpendicular gradient instead."
+      "explanation": "Parallel lines have the same gradient, so m=2. Using y=mx+c with (3,5): 5=2(3)+c⇒5=6+c⇒c=-1. So, y=2x-1.\n\n**Common mistake:** The student might assume the y-intercept is the same as the point given (5) or calculate a perpendicular gradient instead."
     },
     {
       "id": "9-3-equations-of-straight-lines-medium-q2",
       "type": "mcq",
       "question": "Determine the equation of the line passing through (4,1) that is perpendicular to y=2x+3.",
       "options": [
-        "y=−0.5x+3",
-        "y=−0.5x+1",
-        "y=2x−7",
-        "y=0.5x−1"
+        "y=-0.5x+3",
+        "y=-0.5x+1",
+        "y=2x-7",
+        "y=0.5x-1"
       ],
       "correctIndex": 0,
-      "explanation": "The perpendicular gradient is −0.5. Substituting (4,1) into y=−0.5x+c: 1=−0.5(4)+c⇒1=−2+c⇒c=3.\n\n**Common mistake:** The student might forget to change the sign when calculating the negative reciprocal or fail to solve for the correct c value."
+      "explanation": "The perpendicular gradient is -0.5. Substituting (4,1) into y=-0.5x+c: 1=-0.5(4)+c⇒1=-2+c⇒c=3.\n\n**Common mistake:** The student might forget to change the sign when calculating the negative reciprocal or fail to solve for the correct c value."
     },
     {
       "id": "9-3-equations-of-straight-lines-medium-q3",
       "type": "mcq",
-      "question": "The line $L^{1}$\nhas equation 3x−y=6. Find the gradient of line $L^{2}$\nif $L^{2}$\nis perpendicular to $L^{1}$\n.",
+      "question": "The line $L^{1}$\nhas equation 3x-y=6. Find the gradient of line $L^{2}$\nif $L^{2}$\nis perpendicular to $L^{1}$\n.",
       "options": [
-        "−0.33",
+        "-0.33",
         "3",
-        "−3",
+        "-3",
         "0.33"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange $L^{1}$\n: y=3x−6. Its gradient is 3. The perpendicular gradient is the negative reciprocal: −1/3≈−0.33.\n\n**Common mistake:** The student might use the coefficient of x (3) directly from the equation without checking the sign or isolating y correctly."
+      "explanation": "Rearrange $L^{1}$\n: y=3x-6. Its gradient is 3. The perpendicular gradient is the negative reciprocal: -1/3≈-0.33.\n\n**Common mistake:** The student might use the coefficient of x (3) directly from the equation without checking the sign or isolating y correctly."
     },
     {
       "id": "9-3-equations-of-straight-lines-medium-q4",
       "type": "mcq",
       "question": "Find the value of k such that the line y=kx+4 is parallel to the line 2x+y=10.",
       "options": [
-        "−2",
+        "-2",
         "2",
         "0.5",
-        "−0.5"
+        "-0.5"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange the second equation: y=−2x+10. For the lines to be parallel, their gradients must be equal, so k=−2.\n\n**Common mistake:** The student might miss the negative sign when rearranging the equation or try to find a perpendicular gradient."
+      "explanation": "Rearrange the second equation: y=-2x+10. For the lines to be parallel, their gradients must be equal, so k=-2.\n\n**Common mistake:** The student might miss the negative sign when rearranging the equation or try to find a perpendicular gradient."
     },
     {
       "id": "9-3-equations-of-straight-lines-medium-q5",
       "type": "mcq",
       "question": "A line L is parallel to x+3y=12 and passes through the origin (0,0). Write the equation of L in the form y=mx+c.",
       "options": [
-        "y=−0.33x",
+        "y=-0.33x",
         "y=3x",
-        "y=−3x",
+        "y=-3x",
         "y=0.33x"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange: 3y=−x+12⇒y=−1/3x+4. Gradient is −1/3. Since it passes through (0,0), c=0. So, y=−0.33x.\n\n**Common mistake:** The student might take the coefficient of x as 1 or fail to divide the gradient by the coefficient of y (3)."
+      "explanation": "Rearrange: 3y=-x+12⇒y=-1/3x+4. Gradient is -1/3. Since it passes through (0,0), c=0. So, y=-0.33x.\n\n**Common mistake:** The student might take the coefficient of x as 1 or fail to divide the gradient by the coefficient of y (3)."
     }
   ]
 }

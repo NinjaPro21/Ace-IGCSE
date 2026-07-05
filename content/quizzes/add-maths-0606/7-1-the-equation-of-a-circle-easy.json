@@ -19,7 +19,7 @@
         "Centre $(-5, 3)$, Radius 64"
       ],
       "correctIndex": 0,
-      "explanation": "The standard form is $(x - a)² + (y - b)² = r^2$, where the centre is $(a, b)$ and the radius is $r$2$a = 5$, $b = -3$, and $r = \\sqrt{64} = 8$.\n\n**Common mistake:** Students often forget to switch the signs of the coordinates from the equation or use the diameter/square of the radius instead of $r$."
+      "explanation": "The standard form is $(x - a)² + (y - b)² = r^2$, where the centre is $(a, b)$ and the radius is $r$. So $a = 5$, $b = -3$, and $r = \\sqrt{64} = 8$.\n\n**Common mistake:** Students often forget to switch the signs of the coordinates from the equation or use the diameter/square of the radius instead of $r$."
     },
     {
       "id": "7-1-the-equation-of-a-circle-easy-q2",
@@ -39,7 +39,7 @@
       "type": "mcq",
       "question": "Determine the radius of the circle with the equation $x^2 + y^2 = 12$.",
       "options": [
-        "\\sqrt{12}",
+        "$$\n\\sqrt{12}\n",
         "12",
         "6",
         "144"
@@ -71,7 +71,7 @@
         "$(1, 7)$"
       ],
       "correctIndex": 0,
-      "explanation": "The equation can be written as $(x - 0)² + (y - 7)² = 1^2$, identifying the centre $(a, b)$ as $(0, 7)$.\n\n**Common mistake:** Confusing the $x$2$y$ coordinates or thinking the radius value 1 is part of the centre."
+      "explanation": "The equation can be written as $(x - 0)² + (y - 7)² = 1^2$, identifying the centre $(a, b)$ as $(0, 7)$.\n\n**Common mistake:** Confusing the $x$ and $y$ coordinates or thinking the radius value 1 is part of the centre."
     }
   ]
 }

@@ -11,10 +11,10 @@
       "type": "mcq",
       "question": "The line $L$ passes through the point $A(2, 5)$ and is perpendicular to the line $3x - 2y = 6$ . Find the coordinates of the point where $L$ crosses the y-axis.",
       "options": [
-        "\\left(0, \\frac{19}{3}\\right)",
-        "\\left(0, \\frac{11}{3}\\right)",
+        "$$\n\\left(0, \\frac{19}{3}\\right)\n",
+        "$$\n\\left(0, \\frac{11}{3}\\right)\n",
         "$(0, -3)$",
-        "\\left(0, \\frac{7}{2}\\right)"
+        "$$\n\\left(0, \\frac{7}{2}\\right)\n"
       ],
       "correctIndex": 0,
       "explanation": "The gradient of the given line is $\\frac{3}{2}$, so the perpendicular gradient is $-\\frac{2}{3}$. The line equation is $y - 5 = -\\frac{2}{3}(x - 2)$. To find the y-intercept, set $x = 0$: $y - 5 = \\frac{4}{3} \\implies y = \\frac{19}{3}$.\n\n**Common mistake:** Students commonly use the parallel gradient $\\frac{3}{2}$ instead of the perpendicular gradient, which results in wrong coordinates."
@@ -48,7 +48,7 @@
     {
       "id": "ch06-coordinate-geometry-q4",
       "type": "mcq",
-      "question": "A line passes through the point $(4, -1)$ and has a gradient of $m$ . Given that it intersects the y-axis at $(0, -9)$ , find the value of $m$ .",
+      "question": "A line passes through the point $(4, -1)$ and has a gradient of $m  . Given that it intersects the y-axis at (0, -9)$ , find the value of $m$ .",
       "options": [
         "2",
         "-2",

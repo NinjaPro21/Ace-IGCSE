@@ -11,20 +11,20 @@
     {
       "id": "12-1-12-3-vectors-pyp-q1",
       "type": "mcq",
-      "question": "The position vector of $P$2$\\begin{pmatrix} 3 \\ 2 \\end{pmatrix}$ and the position vector of $Q$2$\\begin{pmatrix} -1 \\ 4 \\end{pmatrix}$. Work out the vector $\\vec{PQ}$ as a column vector.",
+      "question": "The position vector of $P$. $\\begin{pmatrix} 3 \\ \\\\ 2 \\end{pmatrix}$ and the position vector of $Q$. $\\begin{pmatrix} -1 \\ \\\\ 4 \\end{pmatrix}$. Work out the vector $\\vec{PQ}$ as a column vector.",
       "options": [
-        "$\\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 2 \\ 6 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} -3 \\ 8 \\end{pmatrix}$"
+        "$\\begin{pmatrix} -4 \\ \\\\ 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 2 \\ \\\\ 6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -3 \\ \\\\ 8 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{PQ} = \\vec{OQ} - \\vec{OP} = \\begin{pmatrix} -1 \\ 4 \\end{pmatrix} - \\begin{pmatrix} 3 \\ 2 \\end{pmatrix} = \\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$.\n\n**Common mistake:** A student may add the vectors instead of subtracting, leading to $\\begin{pmatrix} 2 \\ 6 \\end{pmatrix}$."
+      "explanation": "$\\vec{PQ} = \\vec{OQ} - \\vec{OP} = \\begin{pmatrix} -1 \\ \\\\ 4 \\end{pmatrix} - \\begin{pmatrix} 3 \\ \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} -4 \\ \\\\ 2 \\end{pmatrix}$.\n\n**Common mistake:** A student may add the vectors instead of subtracting, leading to $\\begin{pmatrix} 2 \\ \\\\ 6 \\end{pmatrix}$."
     },
     {
       "id": "12-1-12-3-vectors-pyp-q2",
       "type": "mcq",
-      "question": "In triangle $OAB$2$M$2$AB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Find $\\vec{OM}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In triangle $OAB$ and $M2AB$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Find $\\vec{OM}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$0.5\\mathbf{a} + 0.5\\mathbf{b}$",
         "$\\mathbf{b} - \\mathbf{a}$",
@@ -37,7 +37,7 @@
     {
       "id": "12-1-12-3-vectors-pyp-q3",
       "type": "mcq",
-      "question": "Calculate the magnitude of the vector $\\begin{pmatrix} 7 \\ -24 \\end{pmatrix}$.",
+      "question": "Calculate the magnitude of the vector $\\begin{pmatrix} 7 \\ \\\\ -24 \\end{pmatrix}$.",
       "options": [
         "$25$",
         "$31$",
@@ -45,12 +45,12 @@
         "$625$"
       ],
       "correctIndex": 0,
-      "explanation": "Magnitude $= \\sqrt{7^2 + (-24)²} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.\n\n**Common mistake:** The student might miscalculate the square of 24 or think the negative sign means they should subtract $49$ from $576$."
+      "explanation": "Magnitude $= \\sqrt{7^2 + (-24)²} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.\n\n**Common mistake:** The student might miscalculate the square of 24 or think the negative sign means they should subtract^49 from^576."
     },
     {
       "id": "12-1-12-3-vectors-pyp-q4",
       "type": "mcq",
-      "question": "Hence, find the value of $k$2$\\begin{pmatrix} 6 \\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 9 \\ k \\end{pmatrix}$.",
+      "question": "Hence, find the value of $k$. $\\begin{pmatrix} 6 \\ \\\\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 9 \\ \\\\ k \\end{pmatrix}$.",
       "options": [
         "$6$",
         "$1.5$",
@@ -63,7 +63,7 @@
     {
       "id": "12-1-12-3-vectors-pyp-q5",
       "type": "mcq",
-      "question": "Show that the vector $\\mathbf{u} = \\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} -6 \\ -8 \\end{pmatrix}$ are parallel. Which statement is correct?",
+      "question": "Show that the vector $\\mathbf{u} = \\begin{pmatrix} 3 \\ \\\\ 4 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} -6 \\ \\\\ -8 \\end{pmatrix}$ are parallel. Which statement is correct?",
       "options": [
         "$\\mathbf{v} = -2\\mathbf{u}$",
         "$\\mathbf{v} = 2\\mathbf{u}$",

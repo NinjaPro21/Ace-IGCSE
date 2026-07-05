@@ -63,7 +63,7 @@
     {
       "id": "12-8-second-derivatives-medium-q5",
       "type": "mcq",
-      "question": "Given $y = x + 1/x$2$d^2y/dx^2$.",
+      "question": "Given $y = x + 1/x$. $d^2y/dx^2$.",
       "options": [
         "2 / x³",
         "1 - 1/x^2",
@@ -71,7 +71,7 @@
         "-2 / x³"
       ],
       "correctIndex": 0,
-      "explanation": "y = x + x^{-1}2\\frac{dy}{dx}$= 1 - x⁻². d$2$y/dx$2$= 2x⁻³ = 2/x^3.$\n\n**Common mistake:** Sign errors when differentiating negative exponents, leading to -2/x³."
+      "explanation": "y = x + x^{-1}2\\frac{dy}{dx}$= 1 - x⁻². d$. $y/dx2= 2x⁻³ = 2/x^3.\n\n**Common mistake:** Sign errors when differentiating negative exponents, leading to -2/x³."
     }
   ]
 }

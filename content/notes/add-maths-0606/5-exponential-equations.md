@@ -28,13 +28,13 @@ Take logarithms of both sides, then use the Power Law to bring the exponent down
 
 Solve $3^x = 27$.
 
-Take $\log$ of both sides: $x\log 3 = \log 27 = \log 3^3 = 3\log 3$. So $x = 3$.
+Take $\log$ of both sides: $x\log 3 = \log 27 = \log 3^3 = 3\log 3$ when 2.
 
 ## Worked example — Hidden quadratic
 
 Solve $2^{2x} - 5 \cdot 2^x + 4 = 0$.
 
-Let $u = 2^x$: $u^2 - 5u + 4 = 0 \implies (u - 1)(u - 4) = 0$. So $u = 1$ or $u = 4$. $2^x = 1 \implies x = 0$; $2^x = 4 \implies x = 2$.
+Let $u = 2^x$: $u^2 - 5u + 4 = 0 \implies (u - 1)(u - 4) = 0$ when 2 or $u = 4$. $2^x = 1 \implies x = 0$; $2^x = 4 \implies x = 2$.
 
 ## Examiner tip
 

@@ -24,7 +24,7 @@
     {
       "id": "ch20-radioactivity-hard-q2",
       "type": "mcq",
-      "question": "In an experiment, the total number of counts from a radioactive source was measured for $5.0\\text{ minutes}$ as $120$ counts. If the background count is known to be $20\\text{ counts/min}$, what is the corrected count rate for the source alone?",
+      "question": "In an experiment, the total number of counts from a radioactive source was measured for $5.0\\text{ minutes}$ as^120 counts. If the background count is known to be $20\\text{ counts/min}$, what is the corrected count rate for the source alone?",
       "options": [
         "$4\\text{ counts/min}$",
         "$24\\text{ counts/min}$",
@@ -162,7 +162,7 @@
         "Two protons and two electrons"
       ],
       "correctIndex": 0,
-      "explanation": "The change in $A$ (-4) and $Z$ (-2) corresponds exactly to the emission of an $alpha$-particle, which is a helium nucleus $^{4}{2}He$. \n\n**Common mistake:** Selecting Choice D; although an $alpha$-particle has 2 protons, it contains 2 neutrons, not 2 electrons."
+      "explanation": "The change in $A$ (-4) and $Z$ (-2) corresponds exactly to the emission of an $alpha$-particle, which is a helium nucleus $^{4}{2}He .$\n\n**Common mistake:** Selecting Choice D; although an alpha$-particle has 2 protons, it contains 2 neutrons, not 2 electrons.$"
     },
     {
       "id": "ch20-radioactivity-hard-q13",
@@ -232,7 +232,7 @@
     {
       "id": "ch20-radioactivity-hard-q18",
       "type": "mcq",
-      "question": "A sample of radioactive isotope is found to have $1000$ undecayed nuclei. Exactly $3$ half-lives ago, how many undecayed nuclei were present in this same sample?",
+      "question": "A sample of radioactive isotope is found to have^1000 undecayed nuclei. Exactly^3 half-lives ago, how many undecayed nuclei were present in this same sample?",
       "options": [
         "$8000$",
         "$3000$",
@@ -258,7 +258,7 @@
     {
       "id": "ch20-radioactivity-hard-q20",
       "type": "mcq",
-      "question": "In a decay experiment, the initial corrected count rate is $N$. After $3$ half-lives, what is the ratio of the number of decayed nuclei to the number of remaining undecayed nuclei?",
+      "question": "In a decay experiment, the initial corrected count rate is $N$. After^3 half-lives, what is the ratio of the number of decayed nuclei to the number of remaining undecayed nuclei?",
       "options": [
         "$7 : 1$",
         "$8 : 1$",

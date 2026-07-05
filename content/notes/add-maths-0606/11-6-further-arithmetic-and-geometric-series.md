@@ -5,12 +5,14 @@ This section deals with complex problems that blend AP and GP concepts or involv
 ## Steps / method
 
 1. **Extract the sequence** — write out the first three terms to check if it is an AP or GP.
+
 2. **Break down compound problems** — if a problem switches types halfway, set up equations for both and solve simultaneously.
+
 3. **Real-world context** — for percentage increases (e.g. 5% growth), use $r = 1.05$; for decreases, use $r < 1$.
 
 ### Key rule
 
-When AP terms also form a GP, equate the middle term squared to the product of the first and third GP terms.
+When AP terms al so form a GP, equate the middle term squared to the product of the first and third GP terms.
 
 ## Worked example — AP terms forming a GP
 

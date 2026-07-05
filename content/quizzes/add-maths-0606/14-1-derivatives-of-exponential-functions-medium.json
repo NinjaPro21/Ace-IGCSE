@@ -19,7 +19,7 @@
         "$x^2 e^x + 2x$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the product rule $u \\frac{dv}{dx} + v \\frac{du}{dx}$ with $u = x^2$ and $v = e^x$2$\\frac{dy}{dx} = x^2(e^x) + e^x(2x) = xe^x(x + 2)$.\n\n**Common mistake:** Option B is a common error where the student differentiates both parts and multiplies them together, failing to use the product rule correctly."
+      "explanation": "Using the product rule $u \\frac{dv}{dx} + v \\frac{du}{dx} with u = x^2$ and v = e^x$. So$\\frac{dy}{dx} = x^2(e^x) + e^x(2x) = xe^x$(x + 2)^{2}$\n\n**Common mistake:** Option B is a common error where the student differentiates both parts and multiplies them together, failing to use the product rule correctly."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-medium-q2",

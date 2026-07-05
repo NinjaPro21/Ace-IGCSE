@@ -18,7 +18,7 @@
         "(2, 5)"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal to each other: $2x + 1 = x - 7 \\implies x = -8$. Substitute into $y = x - 7$: $y = -8 - 7 = -15$. The point is (-8, -15).\n\n**Common mistake:** Solving for $x$2$y$ value.",
+      "explanation": "Set the equations equal to each other: $2x + 1 = x - 7 \\implies x = -8$. Substitute into $y = x - 7$: $y = -8 - 7 = -15$. The point is (-8, -15).\n\n**Common mistake:** Solving for $x$ and $y$ value.",
       "id": "9-1-linear-graphs-hard-q1"
     },
     {
@@ -31,12 +31,12 @@
         "$y = -2x + 10$"
       ],
       "correctIndex": 0,
-      "explanation": "The required line has a gradient of 2. Using $y = 2x + c$2$4 = 2(3) + c \\implies 4 = 6 + c \\implies c = -2$. The equation is $y = 2x - 2$.\n\n**Common mistake:** Using the negative reciprocal gradient (-0.5) instead of the same gradient for a parallel line.",
+      "explanation": "The required line has a gradient of 2. Using $y = 2x + c$. $4 = 2(3) + c \\implies 4 = 6 + c \\implies c = -2$. The equation is $y = 2x - 2$.\n\n**Common mistake:** Using the negative reciprocal gradient (-0.5) instead of the same gradient for a parallel line.",
       "id": "9-1-linear-graphs-hard-q2"
     },
     {
       "type": "mcq",
-      "question": "A car's value **$v$2$n$2$v = 4500 - 0.2n$2$3200**.$",
+      "question": "A car's value **$v$ and $n2v = 4500 - 0.2n$. $3200**.$",
       "options": [
         "6500 km",
         "26,000 km",
@@ -44,7 +44,7 @@
         "38,500 km"
       ],
       "correctIndex": 1,
-      "explanation": "$3200 = 4500 - 0.05n$2$0.05n = 1300 \\implies n = 1300 / 0.05 = 26000$ km.\n\n**Common mistake:** Calculating $4500 - 3200$ and providing 1300 as the final answer.",
+      "explanation": "$3200 = 4500 - 0.05n$. $0.05n = 1300 \\implies n = 1300 / 0.05 = 26000$ km.\n\n**Common mistake:** Calculating $4500 - 3200$ and providing 1300 as the final answer.",
       "id": "9-1-linear-graphs-hard-q3"
     },
     {

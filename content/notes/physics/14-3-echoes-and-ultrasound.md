@@ -9,12 +9,12 @@ Echoes and ultrasound build on reflection and frequency. Echoes are reflected so
 - **Echolocation**: Locating objects using reflected ultrasound (bats, dolphins, sonar).
 - **Sonar**: Sound Navigation and Ranging — ships use ultrasound pulses to measure depth or detect objects.
 
-**Echoes**
+## Echoes
 
 - Sound reflects from obstructions (walls, cliffs) following the law of reflection: angle of incidence = angle of reflection.
 - The echo is loudest when these angles are equal.
 
-**Ultrasound applications**
+## Ultrasound applications
 
 - **Quality control**: ultrasound passes through metal or concrete; internal cracks change the received pulse.
 - **Medical scanning**: low-energy ultrasound reflects from tissue boundaries to form images; safer than X-rays for prenatal scans.
@@ -26,11 +26,17 @@ $$
 v = \frac{2d}{t} \quad \text{or} \quad d = \frac{v \times t}{2}
 $$
 
-- $v$ = speed of sound in the medium (e.g. $1500\,\text{m/s}$ in water)
-- $d$ = distance to the reflecting surface (one way)
-- $t$ = total time for the pulse to go and return
+where:
+
+- $v$ - speed of sound in the medium (e.g. 1500 m/s in water)
+- $d$ - distance to the reflecting surface (one way)
+- $t$ - total time for the pulse to go and return
 
 ## Graphs & diagrams
+
+**Echo diagram**
+
+- Sound reflects from a surface; distance to obstacle = (speed × time) ÷ 2.
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Echo diagram">
       <circle cx="80" cy="100" r="20" fill="#dbeafe" stroke="#2563eb"/>
@@ -47,6 +53,15 @@ $$
       </defs>
     </svg><p class="enlight-physics-diagram__caption">Echo — sound reflects from a surface; distance to obstacle = (speed × time) ÷ 2.</p></div>
 
+## Worked example — Measuring sea depth
+
+Question: A ship receives an echo $0.3\,\text{s}$ after sending a sonar pulse. Speed of sound in water = $1500\,\text{m/s}$. Find the depth.
+
+1. Time for round trip $t = 0.3\,\text{s}$, so one-way time $= 0.15\,\text{s}$.
+2. Depth $d = v \times t_{\text{one-way}} = 1500 \times 0.15 = 225\,\text{m}$.
+
+**Final answer:** $225\,\text{m}$.
+
 ## Quick check
 
 What is the minimum frequency for ultrasound?
@@ -54,12 +69,3 @@ What is the minimum frequency for ultrasound?
 Why is ultrasound preferred over X-rays for prenatal scanning?
 
 An echo returns after $1.0\,\text{s}$ with $v = 1500\,\text{m/s}$ in water. What is the depth?
-
-## Worked example — Measuring sea depth
-
-Question: A ship receives an echo $0.3\,\text{s}$ after sending a sonar pulse. Speed of sound in water = $1500\,\text{m/s}$. Find the depth.
-
-$$
-
-1. $2t = 0.3\,\text{s}$, $v = 1500\,\text{m/s}$.
-2. $2d = \frac{v \times t}{2} = \frac{1500 \times 0.3}{2} = 225\,\text{m}2$

@@ -19,12 +19,12 @@
         "$(3, 27)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x^3(-e^{-x}) + 3x^2 e^{-x} = x^2 e^{-x}(3 - x)$. This is zero at $x=3$. Substituting $x=3$ into $y$2$y = 3^3 e^{-3} = 27e^{-3}$.\n\n**Common mistake:** Option C is a common mistake where students assume the curve hits the $x$-axis at the stationary point."
+      "explanation": "$\\frac{dy}{dx} = x^3(-e^{-x}) + 3x^2 e^{-x} = x^2 e^{-x}(3 - x)$. This is zero at $x=3$. Substituting $x=3$ into $y$. So $y = 3^3 e^{-3} = 27e^{-3}$.\n\n**Common mistake:** Option C is a common mistake where students assume the curve hits the $x$-axis at the stationary point."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-pyp-q2",
       "type": "mcq",
-      "question": "The equation of a curve is $y = e^{2x} - 4e^x$2$x$2$y$ is an increasing function.",
+      "question": "The equation of a curve is $y = e^{2x} - 4e^x$ and $x2y$ is an increasing function.",
       "options": [
         "$x > \\ln 2$",
         "$x < \\ln 2$",
@@ -32,12 +32,12 @@
         "$x > 2$"
       ],
       "correctIndex": 0,
-      "explanation": "$y$2$\\frac{dy}{dx} > 0$. $2e^{2x} - 4e^x > 0 \\implies 2e^x(e^x - 2) > 0$. Since $2e^x$2$e^x > 2$, so $x > \\ln 2$.\n\n**Common mistake:** Option B is the set of values for which the function is decreasing."
+      "explanation": "$y$. $\\frac{dy}{dx} > 0$. $2e^{2x} - 4e^x > 0 \\implies 2e^x(e^x - 2) > 0$. Since $2e^x$. $e^x > 2$, so $x > \\ln 2$.\n\n**Common mistake:** Option B is the set of values for which the function is decreasing."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-pyp-q3",
       "type": "mcq",
-      "question": "Find the coordinates of the point on the curve $y = 3e^x + 2e^{-x}$ where the gradient is^1.",
+      "question": "Find the coordinates of the point on the curve $y = 3e^x + 2e^{-x} where the gradient is$12",
       "options": [
         "$(0, 5)$",
         "$(\\ln(\\frac{2}{3}), 4\\sqrt{6})$",
@@ -45,14 +45,14 @@
         "$(0, 1)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 3e^x - 2e^{-x} = 1$. Multiply by $e^x$2$3(e^x)^2 - e^x - 2 = 0 \\implies (3e^x + 2)(e^x - 1) = 0$. $e^x = 1 \\implies x = 0$. At $x=0, y = 3(1) + 2(1) = 5$.\n\n**Common mistake:** Option B occurs if the student makes an error in factoring the quadratic or uses the wrong quadratic formula parameters."
+      "explanation": "$\\frac{dy}{dx} = 3e^x - 2e^{-x} = 1$. Multiply by $e^x$. $3(e^x)^2 - e^x - 2 = 0 \\implies (3e^x + 2)(e^x - 1) = 0$. $e^x = 1 \\implies x = 0$. At $x=0, y = 3(1) + 2(1) = 5$.\n\n**Common mistake:** Option B occurs if the student makes an error in factoring the quadratic or uses the wrong quadratic formula parameters."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-pyp-q4",
       "type": "mcq",
-      "question": "A curve has the equation $y = x^2 e^{k-x}$. Given that the stationary point occurs at $x = 2$ and the $y$2$4$, find the value of the constant $k$.",
+      "question": "A curve has the equation $y = x^2 e^{k-x}$. Given that the stationary point occurs at $x = 2$ and the $y$. $4$, find the value of the constant $k$.",
       "options": [
-        "$2$",
+        "2",
         "$0$",
         "$\\ln 4$",
         "$4$"

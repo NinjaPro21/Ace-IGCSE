@@ -30,7 +30,7 @@ Quotient Law: $\log_a\left(\frac{36}{2}\right) = \log_a 18$.
 
 ## Worked example — Expanding
 
-Question: Given $\log_b 2 = p$. So $\log_b 3 = q. \log_b \sqrt{12}$ in terms of $p$ and $q$.
+Question: Given $\log_b 2 = p$ when $. in terms ofp$ and $q$.
 
 Rewrite as power: $\log_b(12^{1/2}) = \frac{1}{2}\log_b 12$. Factor 12: $\frac{1}{2}\log_b(2^2 \times 3)$.
 

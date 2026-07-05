@@ -32,12 +32,12 @@
         "45/7"
       ],
       "correctIndex": 0,
-      "explanation": "Brackets: $\\frac{11}{10} - \\frac{4}{10} = \\frac{7}{10}$. Numerator division: $\\frac{22}{5} \\div \\frac{7}{10} = \\frac{22}{5} \\times \\frac{10}{7} = \\frac{44}{7}$. Denominator: $8 - 3 = 5$. Total $\\frac{tion:}{}$ $\\frac{44}{7} \\div 5 = \\frac{44}{35} = 1 \\frac{9}{35}$.\n\n**Common mistake:** Students confuse the order of operators inside the bracket or invert $\\frac{tions}{}$ poorly."
+      "explanation": "Brackets: $\\frac{11}{10} - \\frac{4}{10} = \\frac{7}{10}$. Numerator division: $\\frac{22}{5} \\div \\frac{7}{10} = \\frac{22}{5} \\times \\frac{10}{7} = \\frac{44}{7}$. Denominator: $8 - 3 = 5$. Total $fraction:$ $\\frac{44}{7} \\div 5 = \\frac{44}{35} = 1 \\frac{9}{35}$.\n\n**Common mistake:** Students confuse the order of operators inside the bracket or invert $fractions$ poorly."
     },
     {
       "id": "ch01-number-hard-q3",
       "type": "mcq",
-      "question": "Calculate the exact $\\frac{tional}{}$ value of $\\left(3.25 - 1 \\frac{7}{8}\\right) \\div 0.75 + \\frac{4}{3}$.",
+      "question": "Calculate the exact \\frac{1}{a} value of $\\left(3.25 - 1 \\frac{7}{8}\\right) \\div 0.75 + \\frac{4}{3}$.",
       "options": [
         "19/6",
         "25/8",
@@ -45,12 +45,12 @@
         "3"
       ],
       "correctIndex": 0,
-      "explanation": "Convert to $\\frac{tions:}{}$ $3.25 = \\frac{13}{4} = \\frac{26}{8}$, so $\\frac{26}{8} - \\frac{15}{8} = \\frac{11}{8}$. Divide by $0.75 = \\frac{3}{4}$: $\\frac{11}{8} \\times \\frac{4}{3} = \\frac{11}{6}$. Add $\\frac{4}{3} = \\frac{8}{6}$ to find $\\frac{19}{6}$.\n\n**Common mistake:** Mixing decimal rounding and precise $\\frac{tions}{}$ mid-step causes slight rounding discrepancies."
+      "explanation": "Convert to $tions:$ $3.25 = \\frac{13}{4} = \\frac{26}{8}$, so $\\frac{26}{8} - \\frac{15}{8} = \\frac{11}{8}$. Divide by $0.75 = \\frac{3}{4}$: $\\frac{11}{8} \\times \\frac{4}{3} = \\frac{11}{6}$. Add $\\frac{4}{3} = \\frac{8}{6}$ to find $\\frac{19}{6}$.\n\n**Common mistake:** Mixing decimal rounding and precise $fractions$ mid-step causes slight rounding discrepancies."
     },
     {
       "id": "ch01-number-hard-q4",
       "type": "mcq",
-      "question": "Find the value of $x$2$\\frac{5 \\times 4^2 - x}{3^2 + 1} = 7$.",
+      "question": "Find the value of $x$. So $\\frac{5 \\times 4^2 - x}{3^2 + 1} = 7$.",
       "options": [
         "10",
         "15",
@@ -115,7 +115,7 @@
     {
       "id": "ch01-number-hard-q9",
       "type": "mcq",
-      "question": "Solve for variable $m$2$\\frac{m + (-3)^2 \\times (-2)}{-4} = -5$.",
+      "question": "Solve for variable $m^2 So \\frac{m + (-3)^2 \\times (-2)}{-4} = -5$.",
       "options": [
         "38",
         "2",
@@ -141,7 +141,7 @@
     {
       "id": "ch01-number-hard-q11",
       "type": "mcq",
-      "question": "Find the smallest integer value of $k$2$135k$ is a perfect square number.",
+      "question": "Find the smallest integer value of $k$. $135k$ is a perfect square number.",
       "options": [
         "15",
         "5",
@@ -154,7 +154,7 @@
     {
       "id": "ch01-number-hard-q12",
       "type": "mcq",
-      "question": "Given three numbers 90, 126, and $x$2$x$.",
+      "question": "Given three numbers 90, 126, and $x$ and $x$.",
       "options": [
         "180",
         "20",
@@ -162,7 +162,7 @@
         "18"
       ],
       "correctIndex": 0,
-      "explanation": "Factor numbers: $90 = 2 \\times 3^2 \\times 5$, $126 = 2 \\times 3^2 \\times 7$. Target parameters: $\\text{HCF} = 18 = 2 \\times 3^2$. $\\text{LCM} = 1260 = 2^2 \\times 3^2 \\times 5 \\times 7$. $x$2$2^2$ since neither 90 nor 126 contains it. Thus, $x$2$2^2 \\times 3^2 = 36$. For the LCM to hold its factor of 5 and HCF of 18, the value is $4 \\times 9 \\times 5 = 180$.\n\n**Common mistake:** Students divide the LCM by the structural constants directly without aligning specific prime power balances."
+      "explanation": "Factor numbers: $90 = 2 \\times 3^2 \\times 5$, $126 = 2 \\times 3^2 \\times 7$. Target parameters: $\\text{HCF} = 18 = 2 \\times 3^2$. $\\text{LCM} = 1260 = 2^2 \\times 3^2 \\times 5 \\times 7$. $x$. $2^2$ since neither 90 nor 126 contains it. Thus, $x$. $2^2 \\times 3^2 = 36$. For the LCM to hold its factor of 5 and HCF of 18, the value is $4 \\times 9 \\times 5 = 180$.\n\n**Common mistake:** Students divide the LCM by the structural constants directly without aligning specific prime power balances."
     },
     {
       "id": "ch01-number-hard-q13",
@@ -193,7 +193,7 @@
     {
       "id": "ch01-number-hard-q15",
       "type": "mcq",
-      "question": "If $p$2$q$2$p^3 \\times q^2$.",
+      "question": "If $p  and q2p^3 \\times q^2$.",
       "options": [
         "12",
         "6",
@@ -201,12 +201,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The formula for the total number of factors of an expression $p^a \\times q^b$2$(a + 1)(b + 1)$. Here, total factors $= (3 + 1)(2 + 1) = 4 \\times 3 = 12$.\n\n**Common mistake:** Students simply multiply or add the exponents directly, leading to 6 or 5."
+      "explanation": "The formula for the total number of factors of an expression $p^a \\times q^b$. $(a + 1)(b + 1)$. Here, total factors $= (3 + 1)(2 + 1) = 4 \\times 3 = 12$.\n\n**Common mistake:** Students simply multiply or add the exponents directly, leading to 6 or 5."
     },
     {
       "id": "ch01-number-hard-q16",
       "type": "mcq",
-      "question": "Find the complete $n$2$3, 11, 23, 39, 59, \\dots$",
+      "question": "Find the complete $n$. $3, 11, 23, 39, 59, \\dots$",
       "options": [
         "$2n^2 + 2n - 1$",
         "$2n^2 + 6n - 5$",
@@ -214,12 +214,12 @@
         "$2n^2 - n + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "First differences: 8, 12, 16, 20. Second differences: 4, 4, 4. Thus $a = 4\\div2 = 2$, so the sequence contains $2n^2$. Subtracting $2n^2$ from the terms: $3-2(1)=1, 11-2(4)=3, 23-2(9)=5$. The residual sequence is $1, 3, 5, \\dots$2$2n - 1$. Combining these gives $2n^2 + 2n - 1$.\n\n**Common mistake:** Students may fail to subtract the $2n^2$ base sequence correctly or find the linear component incorrectly, leading to misaligned coefficients."
+      "explanation": "First differences: 8, 12, 16, 20. Second differences: 4, 4, 4. Thus $a = 4\\div2 = 2$, so the sequence contains $2n^2$. Subtracting $2n^2$ from the terms: $3-2(1)=1, 11-2(4)=3, 23-2(9)=5$. The residual sequence is $1, 3, 5, \\dots^2 2n - 1$. Combining these gives $2n^2 + 2n - 1$.\n\n**Common mistake:** Students may fail to subtract the $2n^2$ base sequence correctly or find the linear component incorrectly, leading to misaligned coefficients."
     },
     {
       "id": "ch01-number-hard-q17",
       "type": "mcq",
-      "question": "A sequence is formed by multiplying the corresponding terms of two separate sequences. The first sequence is linear with an $n$2$2n + 1$. The second sequence is geometric with an $n$2$3^{n-1}$. Find the 3rd term of this composite sequence.",
+      "question": "A sequence is formed by multiplying the corresponding terms of two separate sequences. The first sequence is linear with an $n$. $2n + 1$. The second sequence is geometric with an $n$. $3^{n-1}$. Find the 3rd term of this composite sequence.",
       "options": [
         "63",
         "21",
@@ -232,7 +232,7 @@
     {
       "id": "ch01-number-hard-q18",
       "type": "mcq",
-      "question": "The $n$2$n^3 - bn + 4$. Given that the 4th term is 52, determine the value of the constant coefficient $b$.",
+      "question": "The $n$. $n^3 - bn + 4$. Given that the 4th term is 52, determine the value of the constant coefficient $b$.",
       "options": [
         "4",
         "3",
@@ -253,12 +253,12 @@
         "495"
       ],
       "correctIndex": 0,
-      "explanation": "The difference between terms: $U_{11} - U_5 = 6d = 53 - 23 = 30 \\implies d = 5$. Find the first term: $a + 4(5) = 23 \\implies a = 3$. Find the 100th term: $U_{100} = 3 + 99(5) = 3 + 495 = 498$.\n\n**Common mistake:** Students often count the difference in positions as $11 - 5 = 5$ instead of 6, or use $n$2$(n-1)$ in the formula, leading to 503."
+      "explanation": "The difference between terms: $U_{11} - U_5 = 6d = 53 - 23 = 30 \\implies d = 5$. Find the first term: $a + 4(5) = 23 \\implies a = 3$. Find the 100th term: $U_{100} = 3 + 99(5) = 3 + 495 = 498$.\n\n**Common mistake:** Students often count the difference in positions as $11 - 5 = 5$ instead of 6, or use $n$. $(n-1)$ in the formula, leading to 503."
     },
     {
       "id": "ch01-number-hard-q20",
       "type": "mcq",
-      "question": "The $n$2$\\frac{2n+3}{5n-2}$. Find the position $n$2$\\frac{1}{2}$.",
+      "question": "The $n$. $\\frac{2n+3}{5n-2}$. Find the position $n$. $\\frac{1}{2}$.",
       "options": [
         "8",
         "5",
@@ -266,7 +266,7 @@
         "6"
       ],
       "correctIndex": 0,
-      "explanation": "Equate the rule to $\\frac{1}{2}$: $\\frac{2n+3}{5n-2} = \\frac{1}{2}$. Cross-multiply: $2(2n + 3) = 1(5n - 2) \\implies 4n + 6 = 5n - 2$. Subtract $4n$2$n = 8$.\n\n**Common mistake:** Students often make mistakes when expanding brackets during cross-multiplication, such as writing $4n + 3 = 5n - 2$ which yields $n=5$."
+      "explanation": "Equate the rule to $\\frac{1}{2}$: $\\frac{2n+3}{5n-2} = \\frac{1}{2}$. Cross-multiply: $2(2n + 3) = 1(5n - 2) \\implies 4n + 6 = 5n - 2$. Subtract $4n$. So $n = 8$.\n\n**Common mistake:** Students often make mistakes when expanding brackets during cross-multiplication, such as writing $4n + 3 = 5n - 2$ which yields $n=5$."
     },
     {
       "id": "ch01-number-hard-q21",
@@ -279,7 +279,7 @@
         "4.33 cm"
       ],
       "correctIndex": 0,
-      "explanation": "Formula for height: $h = \\frac{2A}{b}$. To find the lower bound of $h$2$A$2$b$2$A_{\\text{min}} = 32.5$, $b_{\\text{max}} = 14.5$. $h_{\\text{min}} = \\frac{2 \\times 32.5}{14.5} = \\frac{65}{14.5} \\approx 4.4827\\text{ cm}$.\n\n**Common mistake:** Students often forget the factor of 2 in the triangle area formula, or divide the lower bound of area by the lower bound of the base."
+      "explanation": "Formula for height: $h = \\frac{2A}{b}$. To find the lower bound of $h$ and $A2b$. So $A_{\\text{min}} = 32.5$, $b_{\\text{max}} = 14.5$. $h_{\\text{min}} = \\frac{2 \\times 32.5}{14.5} = \\frac{65}{14.5} \\approx 4.4827\\text{ cm}$.\n\n**Common mistake:** Students often forget the factor of 2 in the triangle area formula, or divide the lower bound of area by the lower bound of the base."
     },
     {
       "id": "ch01-number-hard-q22",
@@ -336,7 +336,7 @@
     {
       "id": "ch01-number-hard-q26",
       "type": "mcq",
-      "question": "Solve the exponential index equation for $x$2$5^{3x} \\times 25 = 5^{14}$.",
+      "question": "Solve the exponential index equation for $x$. $5^{3x} \\times 25 = 5^{14}$.",
       "options": [
         "4",
         "3",
@@ -349,7 +349,7 @@
     {
       "id": "ch01-number-hard-q27",
       "type": "mcq",
-      "question": "Simplify the compound algebraic $\\frac{tion}{}$ completely: $\\left(\\frac{8x^9}{y^6}\\right)^{-\\frac{1}{3}}$.",
+      "question": "Simplify the compound algebraic $fraction$ completely: $\\left(\\frac{8x^9}{y^6}\\right)^{-\\frac{1}{3}}$.",
       "options": [
         "$\\frac{y^2}{2x^3}$",
         "$\\frac{2x^3}{y^2}$",
@@ -357,12 +357,12 @@
         "$\\frac{y^2}{8x^3}$"
       ],
       "correctIndex": 0,
-      "explanation": "The negative index inverts the $\\frac{tion:}{}$ $\\left(\\frac{y^6}{8x^9}\\right)^{\\frac{1}{3}}$. Apply the cube root to all elements: $(y^6)^{\\frac{1}{3}} = y^2$, $8^{\\frac{1}{3}} = 2$, and $(x^9)^{\\frac{1}{3}} = x^3$. This yields $\\frac{y^2}{2x^3}$.\n\n**Common mistake:** Students often forget to cube-root the number 8 or leave it in the numerator, violating inversion rules."
+      "explanation": "The negative index inverts the $fraction:$ $\\left(\\frac{y^6}{8x^9}\\right)^{\\frac{1}{3}}$. Apply the cube root to all elements: $(y^6)^{\\frac{1}{3}} = y^2$, $8^{\\frac{1}{3}} = 2$, and $(x^9)^{\\frac{1}{3}} = x^3$. This yields $\\frac{y^2}{2x^3}$.\n\n**Common mistake:** Students often forget to cube-root the number 8 or leave it in the numerator, violating inversion rules."
     },
     {
       "id": "ch01-number-hard-q28",
       "type": "mcq",
-      "question": "Given that $2^{x} = y$2$2^{x+3} - 2^x$2$y$ in its simplest form.",
+      "question": "Given that $2^{x} = y$. $2^{x+3} - 2^x2y$ in its simplest form.",
       "options": [
         "$7y$",
         "$8y - 1$",
@@ -370,12 +370,12 @@
         "$5y$"
       ],
       "correctIndex": 0,
-      "explanation": "Split the index expression: $2^{x+3} = 2^x \\times 2^3 = 8 \\times 2^x = 8y$2$8y - y = 7y$.\n\n**Common mistake:** Students often change $2^{x+3}$ to $y^3$, leading to the incorrect option $y^3 - y$."
+      "explanation": "Split the index expression: $2^{x+3} = 2^x \\times 2^3 = 8 \\times 2^x = 8y$. $8y - y = 7y$.\n\n**Common mistake:** Students often change $2^{x+3}$ to $y^3$, leading to the incorrect option $y^3 - y$."
     },
     {
       "id": "ch01-number-hard-q29",
       "type": "mcq",
-      "question": "Solve the equation for $n$2$4^n = 2^{n+5}$.",
+      "question": "Solve the equation for $n$. $4^n = 2^{n+5}$.",
       "options": [
         "5",
         "2.5",
@@ -396,7 +396,7 @@
         "$x^4 y^4$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand the numerator: $(3x^2 y^3)^2 = 9x^4 y^6$. Now divide by the denominator: $\\frac{9x^4 y^6}{9x^5 y^{-1}}$. Cancel the 9s. Subtract exponents: for $x$2$4 - 5 = -1$; for $y$2$6 - (-1) = 7$. Result: $x^{-1} y^7$.\n\n**Common mistake:** Students often make sign mistakes during subtraction of negative powers, writing $6 - 1 = 5$ for the $y$ term index."
+      "explanation": "Expand the numerator: $(3x^2 y^3)^2 = 9x^4 y^6$. Now divide by the denominator: $\\frac{9x^4 y^6}{9x^5 y^{-1}}$. Cancel the 9s. Subtract exponents: for $x$. $4 - 5 = -1$; for $y$. $6 - (-1) = 7$. Result: $x^{-1} y^7$.\n\n**Common mistake:** Students often make sign mistakes during subtraction of negative powers, writing $6 - 1 = 5$ for the $y$ term index."
     },
     {
       "id": "ch01-number-hard-q31",
@@ -409,7 +409,7 @@
         "$6 \\times 10^{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Time in hours is $\\frac{1.44 \\times 10^{8}}{2.4 \\times 10^{4}} = 6000\\text{ hours}$. Convert hours to days by dividing by $24$: $6000 / 24 = 250\\text{ days} = 2.5 \\times 10^{2}$.\n\n**Common mistake:** Students often forget to perform the final conversion from hours to days, leaving the answer as $6 \\times 10^{3}$."
+      "explanation": "Time in hours is $\\frac{1.44 \\times 10^{8}}{2.4 \\times 10^{4}} = 6000\\text{ hours}$. Convert hours to days by dividing by^24: $6000 / 24 = 250\\text{ days} = 2.5 \\times 10^{2}$.\n\n**Common mistake:** Students often forget to perform the final conversion from hours to days, leaving the answer as $6 \\times 10^{3}$."
     },
     {
       "id": "ch01-number-hard-q32",
@@ -448,7 +448,7 @@
         "$6 \\times 10^{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "Total lake volume in litres is $(4.5 \\times 10^{7}) \\times 1000 = 4.5 \\times 10^{10}\\text{ litres}$. Divide by rate: $\\frac{4.5 \\times 10^{10}}{7.5 \\times 10^{3}} = 0.6 \\times 10^{7} = 6 \\times 10^{6}\\text{ seconds}$.\n\n**Common mistake:** Students often forget to multiply by $1000$ to convert cubic meters to litres, obtaining $6 \\times 10^{3}$."
+      "explanation": "Total lake volume in litres is $(4.5 \\times 10^{7}) \\times 1000 = 4.5 \\times 10^{10}\\text{ litres}$. Divide by rate: $\\frac{4.5 \\times 10^{10}}{7.5 \\times 10^{3}} = 0.6 \\times 10^{7} = 6 \\times 10^{6}\\text{ seconds}$.\n\n**Common mistake:** Students often forget to multiply by^1000 to convert cubic meters to litres, obtaining $6 \\times 10^{3}$."
     },
     {
       "id": "ch01-number-hard-q35",
@@ -487,7 +487,7 @@
         "29"
       ],
       "correctIndex": 0,
-      "explanation": "Apply perfect square expansion: $3^2 + 2(3)(2\\sqrt{5}) + (2\\sqrt{5})^2 = 9 + 12\\sqrt{5} + 20 = 29 + 12\\sqrt{5}$.\n\n**Common mistake:** Students frequently forget the middle term expansion or evaluate $(2\\sqrt{5})^2$ incorrectly as $10$ instead of $4 \\times 5 = 20$."
+      "explanation": "Apply perfect square expansion: $3^2 + 2(3)(2\\sqrt{5}) + (2\\sqrt{5})^2 = 9 + 12\\sqrt{5} + 20 = 29 + 12\\sqrt{5}$.\n\n**Common mistake:** Students frequently forget the middle term expansion or evaluate $(2\\sqrt{5})^2$ incorrectly as^10 instead of $4 \\times 5 = 20$."
     },
     {
       "id": "ch01-number-hard-q38",
@@ -505,7 +505,7 @@
     {
       "id": "ch01-number-hard-q39",
       "type": "mcq",
-      "question": "Express $\\frac{\\sqrt{32} + \\sqrt{8}}{\\sqrt{50}}$ as a simplified $\\frac{tion.}{}$",
+      "question": "Express $\\frac{\\sqrt{32} + \\sqrt{8}}{\\sqrt{50}}$ as a simplified $fraction.$",
       "options": [
         "$\\frac{6}{5}$",
         "$\\frac{4}{5}$",
@@ -513,7 +513,7 @@
         "$\\frac{3}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Convert everything to base $\\sqrt{2}$: $\\sqrt{32} = 4\\sqrt{2}$, $\\sqrt{8} = 2\\sqrt{2}$, and $\\sqrt{50} = 5\\sqrt{2}$. Summing the numerator terms yields $\\frac{6\\sqrt{2}}{5\\sqrt{2}} = \\frac{6}{5}$.\n\n**Common mistake:** Students frequently add values directly under the root lines to get $\\sqrt{40}$ over $\\sqrt{50}$, which leads to incorrect $\\frac{tion}{}$ layouts."
+      "explanation": "Convert everything to base $\\sqrt{2}$: $\\sqrt{32} = 4\\sqrt{2}$, $\\sqrt{8} = 2\\sqrt{2}$, and $\\sqrt{50} = 5\\sqrt{2}$. Summing the numerator terms yields $\\frac{6\\sqrt{2}}{5\\sqrt{2}} = \\frac{6}{5}$.\n\n**Common mistake:** Students frequently add values directly under the root lines to get $\\sqrt{40}$ over $\\sqrt{50}$, which leads to incorrect $fraction$ layouts."
     },
     {
       "id": "ch01-number-hard-q40",
@@ -565,7 +565,7 @@
         "756"
       ],
       "correctIndex": 0,
-      "explanation": "Numerator: $1.8 + 17.64 = 19.44$. Denominator: $0.025$. Perform division: $19.44 / 0.025 = 777.6$.\n\n**Common mistake:** Students often multiply by $10^{-2}$ at the top level instead of executing proper $\\frac{tional}{}$ division rules."
+      "explanation": "Numerator: $1.8 + 17.64 = 19.44$. Denominator: $0.025$. Perform division: $19.44 / 0.025 = 777.6$.\n\n**Common mistake:** Students often multiply by $10^{-2}$ at the top level instead of executing proper \\frac{1}{a} division rules."
     },
     {
       "id": "ch01-number-hard-q44",
@@ -590,7 +590,7 @@
         "$0.560$"
       ],
       "correctIndex": 0,
-      "explanation": "Enter the expression into the calculator precisely. The result is approximately $0.67848...$, which rounds to $0.678$ to 3 s.f..\n\n**Common mistake:** Rounding intermediate steps or failing to apply the cube root to the entire $\\frac{tion.}{}$",
+      "explanation": "Enter the expression into the calculator precisely. The result is approximately $0.67848...$, which rounds to $0.678$ to 3 s.f..\n\n**Common mistake:** Rounding intermediate steps or failing to apply the cube root to the entire $fraction.$",
       "id": "ch01-number-hard-q45"
     }
   ]

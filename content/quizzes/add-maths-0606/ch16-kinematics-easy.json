@@ -9,7 +9,7 @@
     {
       "id": "ch16-kinematics-q1",
       "type": "mcq",
-      "question": "A particle moves along a straight line such that its displacement, $s$ metres, from a fixed point $O$ at time $t$ seconds is given by $s = 2t^3 - 9t^2 + 12t$. Find the velocity of the particle when $t = 3$ .",
+      "question": "A particle moves along a straight line such that its displacement, $s  metres, from a fixed point O$ at time $t$ seconds is given by $s = 2t^3 - 9t^2 + 12t$. Find the velocity of the particle when $t = 3$ .",
       "options": [
         "12 m s⁻¹",
         "9 m s⁻¹",
@@ -43,7 +43,7 @@
         "$v = 3t^2 - 4t - 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating acceleration gives $v = \\int (6t - 4) \\\\,\\mathrm{d}t = 3t^2 - 4t + c$. Using the initial condition $v = 5$ when $t = 0$, we find $c = 5$, giving $v = 3t^2 - 4t + 5$.\n\n**Common mistake:** Option B occurs if the integration constant $c$ is omitted entirely. Option C occurs if the student forgets to divide by the new power when integrating the first term."
+      "explanation": "Integrating acceleration gives $v = \\int (6t - 4) \\,\\mathrm{d}t = 3t^2 - 4t + c$. Using the initial condition $v = 5$ when $t = 0$, we find $c = 5$, giving $v = 3t^2 - 4t + 5$.\n\n**Common mistake:** Option B occurs if the integration constant $c$ is omitted entirely. Option C occurs if the student forgets to divide by the new power when integrating the first term."
     },
     {
       "id": "ch16-kinematics-q4",
@@ -56,7 +56,7 @@
         "$4e^2 - 4$ m"
       ],
       "correctIndex": 0,
-      "explanation": "Distance is the definite integral of velocity: $\\int_{0}^{1} 4e^{2t} \\\\,\\mathrm{d}t = [2e^{2t}]_{0}^{1} = 2e^2 - 2e^0 = 2e^2 - 2$ metres.\n\n**Common mistake:** Option B occurs if the student forgets to evaluate the lower limit of integration, erroneously assuming that evaluating at $t = 0$ yields 0. Option C happens if they multiply by the power coefficient instead of dividing during integration."
+      "explanation": "Distance is the definite integral of velocity: $\\int_{0}^{1} 4e^{2t} \\,\\mathrm{d}t = [2e^{2t}]_{0}^{1} = 2e^2 - 2e^0 = 2e^2 - 2$ metres.\n\n**Common mistake:** Option B occurs if the student forgets to evaluate the lower limit of integration, erroneously assuming that evaluating at $t = 0$ yields 0. Option C happens if they multiply by the power coefficient instead of dividing during integration."
     },
     {
       "id": "ch16-kinematics-q5",

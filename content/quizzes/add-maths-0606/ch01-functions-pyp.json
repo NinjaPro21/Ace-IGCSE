@@ -9,20 +9,20 @@
     {
       "id": "ch01-functions-q1",
       "type": "mcq",
-      "question": "A function $f$ is defined by $f(x) = \\frac{3x + 1}{x - 2}$ for $x > 2$. Find an expression for $f⁻¹(x)$ and state its domain.",
+      "question": "A function $f$ is defined by $f(x) = \\frac{3x + 1}{x - 2}$ for $x > 2$. Find an expression for f^{-1}(x)$and state its domain.$",
       "options": [
-        "$f⁻¹(x) = \\frac{2x + 1}{x - 3}$, domain $x > 3$",
-        "$f⁻¹(x) = \\frac{2x + 1}{x - 3}$, domain $x > 2$",
-        "$f⁻¹(x) = \\frac{2x - 1}{x + 3}$, domain $x \neq -3$",
-        "$f⁻¹(x) = \\frac{x - 2}{3x + 1}$, domain $x > 0$"
+        "$f^{-1}(x) = \\frac{2x + 1}{x - 3}$, domain x > 3",
+        "$f^{-1}(x) = \\frac{2x + 1}{x - 3}$, domain x > 2",
+        "$f^{-1}(x) = \\frac{2x - 1}{x + 3}$, domain x\n\neq -3",
+        "$f^{-1}(x) = \\frac{x - 2}{3x + 1}$, domain x > 0"
       ],
       "correctIndex": 0,
-      "explanation": "Solving $y = \\frac{3x + 1}{x - 2}$ for $x$ gives $x = \\frac{2y + 1}{y - 3}$, so $f⁻¹(x) = \\frac{2x + 1}{x - 3}$. Since $f(x) = 3 + \\frac{7}{x - 2}$ and $x > 2$, the range of $f$ is $f(x) > 3$, which becomes the domain of $f⁻¹(x)$.\n\n**Common mistake:** Students often forget that the domain of an inverse function is the range of the original function, mistakenly repeating the domain constraint $x > 2$ or writing $x \neq 3$."
+      "explanation": "Solving $y = \\frac{3x + 1}{x - 2} for x gives x = \\frac{2y + 1}{y - 3}$, so f^{-1}(x) = \\frac{2x + 1}{x - 3}$. Since f(x) = 3 + \\frac{7}{x - 2}$ and x > 2$, the range of f is f(x) > 3$, which becomes the domain of\n\n$$f^{-1}(x)2\n\n**Common mistake:** Students often forget that the domain of an inverse function is the range of the original function, mistakenly repeating the domain constraint $x > 2$ or writing $x$\neq 32"
     },
     {
       "id": "ch01-functions-q2",
       "type": "mcq",
-      "question": "The functions $f$ and $g$ are defined for $x \\in \\mathbb{R}$ by $f(x) = 2x² - 1$ and $g(x) = x + 3$. Find the set of values of $x$ for which $fg(x) > 17$.",
+      "question": "The functions $f$ and $g$ are defined for $x \\in \\mathbb{R}$ by $f(x) = 2x^2 - 1$ and $g(x) = x + 3$. Find the set of values of $x$ for which $fg(x) > 17$.",
       "options": [
         "$x > 0$ or $x < -6$",
         "$x > 3$ or $x < -3$",
@@ -35,7 +35,7 @@
     {
       "id": "ch01-functions-q3",
       "type": "mcq",
-      "question": "The function $f$ is defined by $f(x) = 7 - (x - 3)²$ for the domain $1 \\le x \\le 6$. Find the range of $f$.",
+      "question": "The function $f$ is defined by $f(x) = 7 - (x - 3)² for the domain$\\{1\\}$\\le x \\le 6$. Find the range of $f2$",
       "options": [
         "$-2 \\le f(x) \\le 7$",
         "$3 \\le f(x) \\le 7$",
@@ -48,7 +48,7 @@
     {
       "id": "ch01-functions-q4",
       "type": "mcq",
-      "question": "The function $f$ is defined by $f(x) = 6 - x²$ for $x \\ge 0$. Find the coordinates of the point where the graph of $y = f(x)$ intersects the graph of $y = f⁻¹(x)$.",
+      "question": "The function $f$ is defined by $f(x) = 6 - x^2$ for $x \\ge 0$. Find the coordinates of the point where the graph of $y = f(x)$ intersects the graph of $y = f^{-1}(x)$.",
       "options": [
         "$(2, 2)$",
         "$(-3, -3)$",
@@ -56,12 +56,12 @@
         "$(2, -3)$"
       ],
       "correctIndex": 0,
-      "explanation": "A function and its inverse intersect along the line $y = x$. Setting $6 - x² = x \\implies x² + x - 6 = 0 \\implies (x + 3)(x - 2) = 0$. Since $x \\ge 0$, we choose $x = 2$, yielding the point $(2, 2)$.\n\n**Common mistake:** Students often find both algebraic roots of the quadratic equation but forget to apply the domain restriction $x \\ge 0$ to filter out the extraneous coordinate pair."
+      "explanation": "A function and its inverse intersect along the line $y = x$. Setting $6 - x^2 = x \\implies x^2 + x - 6 = 0 \\implies (x + 3)(x - 2) = 0$. Since $x \\ge 0$, we choose $x = 2$, yielding the point $(2, 2)$.\n\n**Common mistake:** Students often find both algebraic roots of the quadratic equation but forget to apply the domain restriction $x \\ge 0$ to filter out the extraneous coordinate pair."
     },
     {
       "id": "ch01-functions-q5",
       "type": "mcq",
-      "question": "Functions $f$ and $g$ are defined by $f(x) = \\frac{x + 2}{3}$ and $g(x) = \\frac{6}{x}$ for $x \neq 0$. Find the value of $x$ for which $g⁻¹f(x) = 2$.",
+      "question": "Functions $f$ and $g$ are defined by $f(x) = \\frac{x + 2}{3}$ and $g(x) = \\frac{6}{x} for x\n\n$$\neq 0. Find the value of x for which g⁻¹f(x) = 22\n",
       "options": [
         "$7$",
         "$4$",

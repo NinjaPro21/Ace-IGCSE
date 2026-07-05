@@ -1,6 +1,6 @@
 ## Core idea
 
-Similarity applies when shapes share identical interior angles but are scaled up or down in size. It lets us calculate missing parameters by linking length linear scales ($k$. $k^2$), and total volumetric capacities ($k^3$). This is crucial for interpreting architectural scales, dynamic map models, or industrial scaling problems.
+Similarity applies when shapes share identical interior angles but are scaled up or down in size. It lets us calculate missing parameters by linking length linear scales ($k$), area scales ($k^2$), and total volumetric capacities ($k^3$). This is crucial for interpreting architectural scales, dynamic map models, or industrial scaling problems.
 
 ## Key formulas
 
@@ -8,20 +8,18 @@ $$
 \frac{A_1}{A_2} = \left(\frac{l_1}{l_2}\right)^2 = k^2
 $$
 
-$\frac{V_1}{V_2} = \left(\frac{l_1}{l_2}\right)^3 = k^3
-
+$$
+\frac{V_1}{V_2} = \left(\frac{l_1}{l_2}\right)^3 = k^3
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Similar triangles">
-      <polygon points="40,150 120,150 40,70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-      <polygon points="180,150 300,150 180,30" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-      <text x="70" y="165" font-size="10" fill="#2563eb">small</text>
-      <text x="230" y="165" font-size="10" fill="#d97706">large (×k)</text>
-    </svg></div>
-
-Similar triangles — corresponding angles equal; lengths in ratio $k : 1$; areas in ratio $k^2 : 1$.
+      <polygon points="40,150 120,150 40,70" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
+      <polygon points="180,150 300,150 180,30" fill="#fdfbf7" stroke="#b59a73" stroke-width="2"/>
+      <text x="70" y="165" font-size="10" fill="#5b8def">small</text>
+      <text x="230" y="165" font-size="10" fill="#b59a73">large (×k)</text>
+    </svg><p class="enlight-physics-diagram__caption">Similar triangles — corresponding angles equal; lengths in ratio $k : 1$; areas in ratio $k^2 : 1$.</p></div>
 
 ## Steps / method
 
@@ -65,4 +63,4 @@ Step 1: Set up the area ratio: $\frac{A_{\text{large}}}{A_{\text{small}}} = \fra
 
 Step 2: Convert to a linear scale factor by taking the square root: $k = \sqrt{2.25} = 1.5$.
 
-Step 3: Multiply the smaller height by the linear factor: $\text{Height}_{\text{large}} = 12 \times 1.5 = 18\text{ cm}$. UNIT 7: SETS, FUNCTIONS & LOGICAL SYSTEMS
+Step 3: Multiply the smaller height by the linear factor: $\text{Height}_{\text{large}} = 12 \times 1.5 = 18\text{ cm}$.

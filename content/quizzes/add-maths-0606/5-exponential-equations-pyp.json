@@ -19,12 +19,12 @@
         "$(1.46, 25)$"
       ],
       "correctIndex": 0,
-      "explanation": "Equating the curves gives $3^{2x} - 2(3^x) - 15 = 0 \\implies (3^x - 5)(3^x + 3) = 0$ . Since $3^x > 0$ , we have $3^x = 5 \\implies x = \\log_3 5$ . Substituting back gives $y = 5^2 = 25$ .\n\n**Common mistake:** Option C states the value of $3^x$2$y = 3^{2x}$ ."
+      "explanation": "Equating the curves gives $3^{2x} - 2(3^x) - 15 = 0 \\implies (3^x - 5)(3^x + 3) = 0$ . Since $3^x > 0$ , we have $3^x = 5 \\implies x = \\log_3 5$ . Substituting back gives $y = 5^2 = 25$ .\n\n**Common mistake:** Option C states the value of $3^x$. So $y = 3^{2x}$ ."
     },
     {
       "id": "5-exponential-equations-pyp-q2",
       "type": "mcq",
-      "question": "Find the set of values of $x$2$2\\ln(x - 1) = \\ln(x + 5)$ .",
+      "question": "Find the set of values of $x$. $2\\ln(x - 1) = \\ln(x + 5)$ .",
       "options": [
         "$x = 4$",
         "$x = 4$ or $x = -1$",
@@ -37,7 +37,7 @@
     {
       "id": "5-exponential-equations-pyp-q3",
       "type": "mcq",
-      "question": "Show that the equation $5^x = 3^{x+2}$ can be written in the form $5^x = A \\times 3^x$2$x$ correct to 2 decimal places.",
+      "question": "Show that the equation $5^x = 3^{x+2}$ can be written in the form $5^x = A \\times 3^x$ and $x$ correct to 2 decimal places.",
       "options": [
         "$4.30$",
         "$1.76$",
@@ -50,7 +50,7 @@
     {
       "id": "5-exponential-equations-pyp-q4",
       "type": "mcq",
-      "question": "Find the value of the constant $k$2$\\log_2(x + k) = 3$ and $2^{y} = x$2$y = 1$ .",
+      "question": "Find the value of the constant $k$. So $\\log_2(x + k) = 3$ and $2^{y} = x$. So $y = 1$ .",
       "options": [
         "$k = 6$",
         "$k = 8$",
@@ -63,7 +63,7 @@
     {
       "id": "5-exponential-equations-pyp-q5",
       "type": "mcq",
-      "question": "Find the exact values of $x$2$e^{x} + 12e^{-x} = 7$ .",
+      "question": "Find the exact values of $x$. So $e^{x} + 12e^{-x} = 7$ .",
       "options": [
         "$x = \\ln 4$ or $x = \\ln 3$",
         "$x = 4$ or $x = 3$",
@@ -71,7 +71,7 @@
         "$x = 1.39$ or $x = 1.10$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiplying by $e^x$2$(e^x)^2 - 7e^x + 12 = 0 \\implies (e^x - 4)(e^x - 3) = 0$ . Hence, $e^x = 4 \\implies x = \\ln 4$ or $e^x = 3 \\implies x = \\ln 3$ .\n\n**Common mistake:** Option B features the roots of the quadratic function itself, failing to apply the inverse natural logarithm rule to solve for $x$ ."
+      "explanation": "Multiplying by $e^x$. $(e^x)^2 - 7e^x + 12 = 0 \\implies (e^x - 4)(e^x - 3) = 0$ . Hence, $e^x = 4 \\implies x = \\ln 4$ or $e^x = 3 \\implies x = \\ln 3$ .\n\n**Common mistake:** Option B features the roots of the quadratic function itself, failing to apply the inverse natural logarithm rule to solve for $x$ ."
     }
   ]
 }

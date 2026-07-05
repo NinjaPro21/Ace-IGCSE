@@ -11,7 +11,7 @@
     {
       "id": "8-3-proportion-medium-q1",
       "type": "mcq",
-      "question": "$y$2$x$2$x = 3$, $y = 18$. Find the value of $y$2$x = 5$.",
+      "question": "$y$ and $x2x = 3$, $y = 18$. Find the value of $y$. So $x = 5$.",
       "options": [
         "$y = 50$",
         "$y = 30$",
@@ -19,12 +19,12 @@
         "$y = 450$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$2$18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$2$y = kx$2$18 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
+      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$. $18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$. So $y = kx218 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
     },
     {
       "id": "8-3-proportion-medium-q2",
       "type": "mcq",
-      "question": "$P$2$q$2$q = 16$, $P = 6$. Find the value of $P$2$q = 64$.",
+      "question": "$P$ and $q2q = 16$, $P = 6$. Find the value of $P$. So $q = 64$.",
       "options": [
         "$P = 3$",
         "$P = 1.5$",
@@ -32,12 +32,12 @@
         "$P = 24$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$2$6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
+      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$. $6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
     },
     {
       "id": "8-3-proportion-medium-q3",
       "type": "mcq",
-      "question": "$V$2$r$2$r = 2$, $V = 24$. Find the value of $V$2$r = 3$.",
+      "question": "$V$ and $r2r = 2$, $V = 24$. Find the value of $V$. So $r = 3$.",
       "options": [
         "$V = 81$",
         "$V = 54$",
@@ -45,12 +45,12 @@
         "$V = 216$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as $6$ instead of $8$, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or $54$."
+      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as^6 instead of^8, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or^54."
     },
     {
       "id": "8-3-proportion-medium-q4",
       "type": "mcq",
-      "question": "$h$2$t$2$t = 0.5$, $h = 20$. Find the value of $t$2$h = 50$.",
+      "question": "$h$ and $t2t = 0.5$, $h = 20$. Find the value of $t$. So $h = 50$.",
       "options": [
         "$t = 0.2$",
         "$t = 1.25$",
@@ -58,12 +58,12 @@
         "$t = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$2$k$2$k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
+      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$ and $k2k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
     },
     {
       "id": "8-3-proportion-medium-q5",
       "type": "mcq",
-      "question": "$F$2$d$2$F = 10$ when $d = 3$, find the value of $F$2$d = 6$.",
+      "question": "$F$ and $d2F = 10$ when $d = 3$, find the value of $F$. So $d = 6$.",
       "options": [
         "$F = 2.5$",
         "$F = 5$",
@@ -71,12 +71,12 @@
         "$F = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$2$10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$2$3$ to $6$, students intuitively expect $F$2$5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
+      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$. $10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$. $3$ to^6, students intuitively expect $F$. $5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
     },
     {
       "id": "8-3-proportion-medium-q6",
       "type": "mcq",
-      "question": "$y$2$x$2$x = 3$, $y = 18$. Find the value of $y$2$x = 5$.",
+      "question": "$y$ and $x2x = 3$, $y = 18$. Find the value of $y$. So $x = 5$.",
       "options": [
         "$y = 50$",
         "$y = 30$",
@@ -84,12 +84,12 @@
         "$y = 450$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$2$18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$2$y = kx$2$18 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
+      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$. $18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$. So $y = kx218 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
     },
     {
       "id": "8-3-proportion-medium-q7",
       "type": "mcq",
-      "question": "$P$2$q$2$q = 16$, $P = 6$. Find the value of $P$2$q = 64$.",
+      "question": "$P$ and $q2q = 16$, $P = 6$. Find the value of $P$. So $q = 64$.",
       "options": [
         "$P = 3$",
         "$P = 1.5$",
@@ -97,12 +97,12 @@
         "$P = 24$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$2$6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
+      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$. $6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
     },
     {
       "id": "8-3-proportion-medium-q8",
       "type": "mcq",
-      "question": "$V$2$r$2$r = 2$, $V = 24$. Find the value of $V$2$r = 3$.",
+      "question": "$V$ and $r2r = 2$, $V = 24$. Find the value of $V$. So $r = 3$.",
       "options": [
         "$V = 81$",
         "$V = 54$",
@@ -110,12 +110,12 @@
         "$V = 216$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as $6$ instead of $8$, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or $54$."
+      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as^6 instead of^8, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or^54."
     },
     {
       "id": "8-3-proportion-medium-q9",
       "type": "mcq",
-      "question": "$h$2$t$2$t = 0.5$, $h = 20$. Find the value of $t$2$h = 50$.",
+      "question": "$h$ and $t2t = 0.5$, $h = 20$. Find the value of $t$. So $h = 50$.",
       "options": [
         "$t = 0.2$",
         "$t = 1.25$",
@@ -123,12 +123,12 @@
         "$t = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$2$k$2$k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
+      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$ and $k2k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
     },
     {
       "id": "8-3-proportion-medium-q10",
       "type": "mcq",
-      "question": "$F$2$d$2$F = 10$ when $d = 3$, find the value of $F$2$d = 6$.",
+      "question": "$F$ and $d2F = 10$ when $d = 3$, find the value of $F$. So $d = 6$.",
       "options": [
         "$F = 2.5$",
         "$F = 5$",
@@ -136,7 +136,7 @@
         "$F = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$2$10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$2$3$ to $6$, students intuitively expect $F$2$5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
+      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$. $10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$. $3$ to^6, students intuitively expect $F$. $5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
     }
   ]
 }

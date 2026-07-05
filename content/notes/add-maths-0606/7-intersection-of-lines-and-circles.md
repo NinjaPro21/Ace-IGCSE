@@ -29,27 +29,7 @@ Substitute the line into the circle, then use $\Delta = b^2 - 4ac$: $\Delta > 0$
 
 Find where the line $y = x + 1$ meets the circle $x^2 + y^2 = 25$. 1. **Substitute** $y = x + 1$ into the circle: $x^2 + (x + 1)^2 = 25 \implies 2x^2 + 2x - 24 = 0 \implies x^2 + x - 12 = 0$.
 
-
-
-
-
-
-
-
-
-
-
  2. **Solve** for $x$: $(x + 4)(x - 3) = 0 \implies x = -4 \text{ or } x = 3$.
-
-
-
-
-
-
-
-
-
-
 
  3. **Find** $y$ for each $x$: $(-4, -3)$ and $(3, 4)$. Here $\Delta = 4 + 48 = 52 > 0$ (two distinct points).
 
@@ -57,27 +37,7 @@ Find where the line $y = x + 1$ meets the circle $x^2 + y^2 = 25$. 1. **Substitu
 
 For what value of $c$ is $y = 2x + c$ tangent to $x^2 + y^2 = 5$? 1. **Substitute** the line into the circle: $x^2 + (2x + c)^2 = 5 \implies 5x^2 + 4cx + c^2 - 5 = 0$.
 
-
-
-
-
-
-
-
-
-
-
  2. **Apply** the tangent condition $\Delta = 0$: $(4c)^2 - 4(5)(c^2 - 5) = 0 \implies -4c^2 + 100 = 0$.
-
-
-
-
-
-
-
-
-
-
 
  3. **Solve** for $c$: $c = \pm 5$.
 

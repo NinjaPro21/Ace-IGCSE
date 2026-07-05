@@ -12,13 +12,16 @@ $$
 
 **Confirm maximum or minimum**
 
-Use $\dfrac{d^2f}{dx^2}$ — negative for a maximum, positive for a minimum.
+Use $\frac{d^2f}{dx^2}$ — negative for a maximum, positive for a minimum.
 
 ## Steps / method
 
 1. **Define** the quantity to optimise (e.g. volume $V$ or area $A$).
+
 2. **Use the constraint** to express everything in one variable.
+
 3. **Differentiate** and set the derivative equal to zero.
+
 4. **Solve** for the variable and confirm max/min with the second derivative.
 
 ### Key rule
@@ -31,11 +34,11 @@ Question: A rectangle has perimeter 40 cm. If one side is x cm, find the maximum
 
 Other side $= 20 - x$, so $A = x(20 - x) = 20x - x^2$.
 
-Differentiate: $\dfrac{dA}{dx} = 20 - 2x = 0$, giving $x = 10$.
+Differentiate: $\frac{dA}{dx} = 20 - 2x = 0$, giving $x = 10$.
 
 Maximum area $= 10 \times 10 = 100$.
 
-Check: $\dfrac{d^2A}{dx^2} = -2 < 0$, confirming a maximum.
+Check: $\frac{d^2A}{dx^2} = -2 < 0$, confirming a maximum.
 
 ## Worked example — Open box
 
@@ -43,15 +46,15 @@ Question: An open box is made from a 12 cm square sheet by cutting squares of si
 
 Expand: $V = 4x^3 - 48x^2 + 144x$.
 
-Differentiate: $\dfrac{dV}{dx} = 12x^2 - 96x + 144 = 12(x - 2)(x - 6) = 0$.
+Differentiate: $\frac{dV}{dx} = 12x^2 - 96x + 144 = 12(x - 2)(x - 6) = 0$.
 
 Valid solution: $x = 2$ (since $0 < x < 6$).
 
-Check: $\dfrac{d^2V}{dx^2} = 24x - 96 < 0$ at $x = 2$, so this is a maximum.
+Check: $\frac{d^2V}{dx^2} = 24x - 96 < 0$ at $x = 2$, so this is a maximum.
 
 ## Examiner tip
 
-Many questions have a "Show that…" part (a) and a "Find the stationary value…" part (b). Even if part (a) is difficult, you can still earn most marks by differentiating the given formula and solving $\dfrac{df}{dx} = 0$ in part (b).
+Many questions have a "Show that…" part (a) and a "Find the stationary value…" part (b). Even if part (a) is difficult, you can still earn most marks by differentiating the given formula and solving $\frac{df}{dx} = 0$ in part (b).
 
 ## Quick check
 

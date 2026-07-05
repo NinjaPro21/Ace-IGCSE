@@ -6,12 +6,13 @@ The derivative of a curve evaluated at a specific point gives the gradient of th
 
 $$
 \text{Gradient of Tangent: } m_t = \left. \frac{dy}{dx} \right|_{x = x_1}
-
+$$
+$$
 \text{Gradient of Normal: } m_n = -\frac{1}{m_t}
-
+$$
+$$
 \text{Equations: } y - y_1 = m_t(x - x_1) \quad \text{and} \quad y - y_1 = m_n(x - x_1)
 $$
-
 
 ## Steps / method
 

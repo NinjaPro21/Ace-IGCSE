@@ -11,7 +11,7 @@
     {
       "id": "12-10-practical-maximum-and-minimum-problems-hard-q1",
       "type": "mcq",
-      "question": "A rectangular tank with a square base of side $x$2$500$ m³, find the value of $x$ that minimizes the surface area.",
+      "question": "A rectangular tank with a square base of side $x$. $500$ m³, find the value of $x$ that minimizes the surface area.",
       "options": [
         "10",
         "5",
@@ -19,15 +19,15 @@
         "15"
       ],
       "correctIndex": 0,
-      "explanation": "$V = x^2 h = 500 \\implies h = 500/x^2$. $SA = x^2 + 4xh = x^2 + 4x(500/x^2) = x^2 + 2000/x$2$dSA/dx = 2x - 2000/x^2 = 0 \\implies 2x^3 = 2000 \\implies x^3 = 1000 \\implies x = 10$.\n\n**Common mistake:** Including a 'top' ($2x^2$) in the surface area formula when the problem specifies it is open."
+      "explanation": "$V = x^2 h = 500 \\implies h = 500/x^2$. $SA = x^2 + 4xh = x^2 + 4x(500/x^2) = x^2 + 2000/x$. So $dSA/dx = 2x - 2000/x^2 = 0 \\implies 2x^3 = 2000 \\implies x^3 = 1000 \\implies x = 10$.\n\n**Common mistake:** Including a 'top' ($2x^2$) in the surface area formula when the problem specifies it is open."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-hard-q2",
       "type": "mcq",
       "question": "Find the minimum distance from the point (4, 0) to the curve $y = \\sqrt{x}$.",
       "options": [
-        "\\sqrt{3}.5",
-        "\\sqrt{15}",
+        "$$\n\\sqrt{3}.5\n",
+        "$$\n\\sqrt{15}\n",
         "3.5",
         "2"
       ],
@@ -45,12 +45,12 @@
         "40 / (π + 4)"
       ],
       "correctIndex": 0,
-      "explanation": "$4s + 2\\pi r = 40 \\implies s = (40 - 2\\pi r)/4 = 10 - 0.5\\pi r$2$A = s^2 + \\pi r^2 = (10 - 0.5\\pi r)^2 + \\pi r^2$. $dA/dr = 2(10 - 0.5\\pi r)(-0.5\\pi) + 2\\pi r = 0 \\implies -10\\pi + 0.5\\pi^2 r + 2\\pi r = 0 \\implies r(0.5\\pi^2 + 2\\pi) = 10\\pi$2$r = 10 / (0.5\\pi + 2) = 20 / (\\pi + 4)$.\n\n**Common mistake:** Extremely complex algebra; errors often occur in the chain rule differentiation of the square's area."
+      "explanation": "$4s + 2\\pi r = 40 \\implies s = (40 - 2\\pi r)/4 = 10 - 0.5\\pi r$. So $A = s^2 + \\pi r^2 = (10 - 0.5\\pi r)^2 + \\pi r^2$. $dA/dr = 2(10 - 0.5\\pi r)(-0.5\\pi) + 2\\pi r = 0 \\implies -10\\pi + 0.5\\pi^2 r + 2\\pi r = 0 \\implies r(0.5\\pi^2 + 2\\pi) = 10\\pi^2 So r = 10 / (0.5\\pi + 2) = 20 / (\\pi + 4)$.\n\n**Common mistake:** Extremely complex algebra; errors often occur in the chain rule differentiation of the square's area."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-hard-q4",
       "type": "mcq",
-      "question": "The strength of a beam is proportional to $wh^2$ where $w$2$h$2$w^2 + h^2 = 30^2$, find $w$ for maximum strength.",
+      "question": "The strength of a beam is proportional to $wh^2 where w$ and h2w^2 + h^2 = 30^2$, find w$ for maximum strength.",
       "options": [
         "17.32 cm",
         "15 cm",
@@ -71,7 +71,7 @@
         "1.00 m"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2h + 2r + \\pi r = 6 \\implies 2h = 6 - (2+\\pi)r$2$A = 2rh + 0.5\\pi r^2 = r(6 - (2+\\pi)r) + 0.5\\pi r^2 = 6r - 2r^2 - \\pi r^2 + 0.5\\pi r^2 = 6r - 2r^2 - 0.5\\pi r^2$. $dA/dr = 6 - 4r - \\pi r = 0 \\implies r = 6 / (4+\\pi) \\approx 0.84$.\n\n**Common mistake:** Failing to account for the shared edge ($2r$) in the perimeter or area calculations."
+      "explanation": "$P = 2h + 2r + \\pi r = 6 \\implies 2h = 6 - (2+\\pi)r$. So $A = 2rh + 0.5\\pi r^2 = r(6 - (2+\\pi)r) + 0.5\\pi r^2 = 6r - 2r^2 - \\pi r^2 + 0.5\\pi r^2 = 6r - 2r^2 - 0.5\\pi r^2$. $dA/dr = 6 - 4r - \\pi r = 0 \\implies r = 6 / (4+\\pi) \\approx 0.84$.\n\n**Common mistake:** Failing to account for the shared edge ($2r$) in the perimeter or area calculations."
     }
   ]
 }

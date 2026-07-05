@@ -1,73 +1,81 @@
 ## Core idea
 
-In a parallel circuit, components are connected to the electromotive force (e.m.f.) source in two or more loops. This arrangement provides more than one path for the electric charge to flow, which distinguishes it fundamentally from a series circuit.
+In a parallel circuit, components are connected in two or more branches. Charge has more than one path to flow — this is fundamentally different from a series circuit.
 
-Current in a Parallel Circuit
+## Current in a parallel circuit
 
-Splitting and Recombining: The main current ($I$) flowing from the source splits at a junction into individual currents ($I_1, I_2, \dots$) for each branch. These currents later recombine before returning to the source.
+- The main current $I$ splits at a junction into branch currents $I_1$, $I_2$, … and recombines before returning to the source.
+- Conservation of charge: $I = I_1 + I_2 + \cdots + I_n$
+- The source current is always larger than the current in any single branch.
 
-Conservation of Charge: Because charge is conserved, the sum of the individual currents in each parallel branch is equal to the main current flowing into or out of the junction.
+## Potential difference (p.d.)
 
-Formula: $I = I_1 + I_2 + \dots + I_n$.
+The p.d. across each parallel branch is the same:
 
-Source Current: The total current from the source is always larger than the current in any single branch.
+$$
+V_E = V_1 = V_2
+$$
 
-**Potential Difference (p.d.)**
+Each component connected in parallel across a source receives the full e.m.f. (assuming no other series components).
 
-In a parallel circuit, the potential difference across each separate parallel branch is the same. This means every component connected in parallel across a power source receives the full e.m.f. of that source (assuming no other series components).
+## Combined resistance
 
-Formula: $V_E = V_1 = V_2$.
+For resistors in parallel, the combined resistance is less than any individual resistance:
 
-Combined Resistance
+$$
+\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}
+$$
 
-When resistors are connected in parallel, the combined (or effective) resistance is always less than the resistance of any individual resistor in the arrangement.
+Adding another branch gives an extra current path, increasing total current and lowering overall resistance.
 
-The Reciprocal Rule: The reciprocal of the combined resistance is equal to the sum of the reciprocals of all individual resistances.
+## Advantages and disadvantages
 
-Formula: $\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}$.
+| Feature | Effect |
+|---------|--------|
+| Independence | If one lamp blows, others keep working — each branch is its own circuit |
+| Brightness | Lamps in parallel are brighter than in series — each gets full source voltage |
+| Power consumption | Source is depleted faster — total current is higher |
 
-Explanation: Adding another parallel branch provides an additional path for current to flow, which increases the total current for the same voltage, effectively lowering the overall resistance of the circuit.
+## Practical applications
 
-Advantages and Disadvantages
-
-Feature
-
-Advantage/Disadvantage
-
-Independence
-
-If one component (like a lamp) blows or is switched off, the others in the circuit continue to work because each branch forms its own complete circuit.
-
-Brightness
-
-Lamps connected in parallel glow more brightly than those in series because they each receive the full source voltage.
-
-Power Consumption
-
-Disadvantage: The source provides more power and is depleted more quickly than in a series circuit because the total current is higher.
-
-Practical Applications
-
-Household Lighting: Lamps in a house are connected in parallel. This ensures that each lamp receives the full mains voltage (e.g., 240 V) and that if one bulb fails, the rest of the house does not go dark.
-
-Wall Sockets: These are typically part of a ring main circuit where all sockets are supplied in parallel so they can operate independently.
+- **Household lighting**: Lamps in parallel each receive full mains voltage (e.g. 240 V); one failure does not darken the whole house.
+- **Wall sockets**: Supplied in parallel on a ring main so appliances operate independently.
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Parallel circuit">
-      <rect x="40" y="30" width="280" height="100" fill="none" stroke="#334155" stroke-width="2"/>
-      <rect x="55" y="65" width="35" height="25" fill="#fef08a" stroke="#ca8a04"/>
-      <line x1="120" y1="50" x2="120" y2="110" stroke="#334155" stroke-width="2"/>
-      <line x1="240" y1="50" x2="240" y2="110" stroke="#334155" stroke-width="2"/>
-      <circle cx="180" cy="50" r="14" fill="#fef3c7" stroke="#f59e0b"/>
-      <circle cx="180" cy="110" r="14" fill="#fef3c7" stroke="#f59e0b"/>
-      <text x="180" y="145" text-anchor="middle" font-size="10" fill="#475569">branches — same p.d. across each</text>
-    </svg><p class="enlight-physics-diagram__caption">Parallel circuit — current splits; potential difference same across each branch.</p></div>
+**Parallel circuit**
+
+- Two branches connected across the same supply — same p.d. across each branch.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 400 190" width="400" height="190" role="img" aria-label="Parallel circuit">
+      <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 45 50 L 355 50"/>
+        <path d="M 45 50 L 45 78"/>
+        <path d="M 45 88 L 45 140 L 355 140"/>
+        <path d="M 355 50 L 355 140"/>
+        <path d="M 170 50 L 170 88"/>
+        <path d="M 170 112 L 170 140"/>
+        <path d="M 260 50 L 260 88"/>
+        <path d="M 260 112 L 260 140"/>
+      </g>
+      <line x1="38" y1="78" x2="52" y2="78" stroke="#334155" stroke-width="2"/>
+      <line x1="38" y1="88" x2="52" y2="88" stroke="#334155" stroke-width="4"/>
+      <text x="28" y="92" text-anchor="middle" font-size="8" fill="#64748b">cell</text>
+      <circle cx="170" cy="100" r="12" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <line x1="163" y1="93" x2="177" y2="107" stroke="#334155" stroke-width="2"/>
+      <line x1="177" y1="93" x2="163" y2="107" stroke="#334155" stroke-width="2"/>
+      <text x="128" y="100" text-anchor="end" font-size="8" fill="#64748b">lamp 1</text>
+      <circle cx="260" cy="100" r="12" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <line x1="253" y1="93" x2="267" y2="107" stroke="#334155" stroke-width="2"/>
+      <line x1="267" y1="93" x2="253" y2="107" stroke="#334155" stroke-width="2"/>
+      <text x="288" y="100" font-size="8" fill="#64748b">lamp 2</text>
+      <text x="200" y="175" text-anchor="middle" font-size="10" fill="#475569">two branches — same p.d. across each lamp</text>
+    </svg><p class="enlight-physics-diagram__caption">Parallel circuit — current splits between branches; same p.d. across each branch.</p></div>
 
 ## Quick check
 
-In a parallel circuit with two branches, if the branch currents are 1 A and 2 A, what is the total current from the source?
+In a parallel circuit with branch currents 1 A and 2 A, what is the total current from the source?
 
-True or False: The combined resistance of two $10\ \Omega$ resistors in parallel is $20\ \Omega$.
+True or false: The combined resistance of two $10\,\Omega$ resistors in parallel is $20\,\Omega$.
 
 Why are household appliances connected in parallel rather than in series?

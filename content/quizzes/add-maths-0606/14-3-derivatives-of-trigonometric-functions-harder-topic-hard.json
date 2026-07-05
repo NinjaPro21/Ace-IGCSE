@@ -19,7 +19,7 @@
         "pi"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}=e^x$\n(−\nsinx)+\ncosx(e^x\n)=e^x\n(\ncosx−\nsinx). Set to 0:\ncosx=\nsinx \\implies \ntanx=1. In the range, x= \\frac{\\pi}{4}? No, wait:\ncosx−\nsinx=0 means x=\npi/4. Let me check the range... yes, x=\npi/4. (Wait, e^x\n(\ncosx−\nsinx)=0⟹tanx=1⟹x=π/4). If y=e^x\nsinx, it would be different. Correct index 1.\n\n**Common mistake:** Option A is a solution for\ntanx=−1, which would occur if the derivative was\ncosx+\nsinx."
+      "explanation": "$\\frac{dy}{dx}=e^x$\n(-\nsinx)+\ncosx(e^x\n)=e^x\n(\ncosx-\nsinx). Set to 0:\ncosx=\nsinx \\implies \n$tanx=1. In the range, x= \\frac{\\pi}{4}? No, wait:$\ncosx-\nsinx=0 means x=\npi/4. Let me check the range... yes, x=\npi/4. (Wait, e^x\n(\ncosx-\nsinx)=0⟹tanx=1⟹x=π/4). If y=e^x\nsinx, it would be different. Correct index 1.\n\n**Common mistake:** Option A is a solution for\ntanx=-1, which would occur if the derivative was\ncosx+\nsinx."
     },
     {
       "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-hard-q2",
@@ -37,7 +37,7 @@
     {
       "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "Find the derivative of y=\n\\sin^{2}$(3x) and simplify using a double angle identity.",
+      "question": "Find the derivative of y=\n\\sin^{2}$(3x) and simplify using a double angle identity.$",
       "options": [
         "3\nsin(6x)",
         "6\nsin(3x)\ncos(3x)",
@@ -52,26 +52,26 @@
       "type": "mcq",
       "question": "A particle moves such that its displacement is s=4\ncos(2t+$\\frac{\\pi}{6}$). Find the velocity of the particle when t= \\frac{\\pi}{6}.",
       "options": [
-        "−4\\sqrt3",
-        "−4",
+        "-4\\sqrt3",
+        "-4",
         "4",
-        "−8"
+        "-8"
       ],
       "correctIndex": 0,
-      "explanation": "v= \\frac{ds}{dt} = -8\nsin(2t+$\\frac{\\pi}{6}$). At t= \\frac{\\pi}{6}, 2t+$\\frac{\\pi}{6} = \n\n$$\n\\frac{\\pi}{3} + \n$$$$\n\\frac{\\pi}{6} = \n\\frac{\\pi}{2}$. v=-8$\nsin($\\frac{\\pi}{2}$)=−8.\n\n**Common mistake:** Option A occurs if the student uses the cosine function for velocity instead of the negative sine derivative."
+      "explanation": "$v= \\frac{ds}{dt} = -8$\nsin(2t+$\\frac{\\pi}{6}$). At t= \\frac{\\pi}{6}, 2t+$\\frac{\\pi}{6} =\n\n$$\n\\frac{\\pi}{3} +\n$$\n$\\frac{\\pi}{6} =\n\n$$\n\\frac{\\pi}{2}. v=-8\n$$\n\n$$\n\\sin(\\frac{\\pi}{2})=-8.\n$$\n**Common mistake:** Option A occurs if the student uses the cosine function for velocity instead of the negative sine derivative."
     },
     {
       "id": "14-3-derivatives-of-trigonometric-functions-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "Find the value of k such that the derivative of y= \\frac{1}{cosx} is k\nsecx\ntanx.",
+      "question": "$Find the value of k such that the derivative of y= \\frac{1}{cosx} is k$\nsecx\ntanx.",
       "options": [
         "1",
-        "−1",
+        "-1",
         "0",
-        "−2"
+        "-2"
       ],
       "correctIndex": 0,
-      "explanation": "y=(\ncosx)\n−1 \\implies $\\frac{dy}{dx}=-1($\ncosx)\n−2\n(−\nsinx)= \\frac{sinx\\cos^{2}x^2$\nsecx\ntanx. Thus k=1.\n\n**Common mistake:** Option B results from a sign error where the student forgets that differentiating the inner cosine function produces a negative sine, canceling the first negative."
+      "explanation": "y=(\ncosx)\n-1 \\implies $\\frac{dy}{dx}=-1($\ncosx)\n-2\n(-\n$sinx)= \\frac{sinx\\cos^{2}x^2\n\n$$\nsecx\n$$\n\n$$\ntanx. Thus k=1.\n$$\n**Common mistake:** Option B results from a sign error where the student forgets that differentiating the inner cosine function produces a negative sine, canceling the first negative."
     }
   ]
 }

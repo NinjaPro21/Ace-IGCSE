@@ -27,7 +27,9 @@ $$
 ## Steps / method
 
 1. **Arrange** into $ax^2 + bx + c = 0$.
+
 2. **Calculate** $b^2 - 4ac$.
+
 3. **Interpret** based on the criteria above.
 
 ### Key rule

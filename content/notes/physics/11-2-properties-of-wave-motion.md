@@ -6,128 +6,140 @@ To understand waves scientifically, we must move beyond simple descriptions and 
 
 - **Crest**: The highest point of a transverse wave.
 - **Trough**: The lowest point of a transverse wave.
-- **Wavelength ($\lambda$)**: The shortest distance between any two points in phase (e.g., the distance between two successive crests or troughs).
+- **Wavelength ($\lambda$)**: The shortest distance between any two points in phase (e.g. crest to crest).
 - **Amplitude ($A$)**: The maximum displacement of a point from its rest position.
-- **Phase**: Points are "in phase" if they have the same direction of motion, same speed, and same displacement from their rest position.
+- **Phase**: Points are in phase if they have the same direction of motion, same speed, and same displacement from rest.
 - **Period ($T$)**: The time taken to produce one complete wave.
-- **Frequency ($f$)**: The number of complete waves produced per second (measured in hertz, Hz).
-- **Wave Speed ($v$)**: The distance travelled by a wave per second.
-- **Wavefront**: An imaginary line on a wave that joins all adjacent points that are in phase.
+- **Frequency ($f$)**: The number of complete waves produced per second (unit: hertz, Hz).
+- **Wave speed ($v$)**: The distance travelled by a wave per second.
+- **Wavefront**: An imaginary line joining all adjacent points that are in phase.
 
 ## Key formulas
 
-**Frequency and Period**
+**Frequency and period**
 
 $f = \frac{1}{T}$
 
-Used to convert the time of one oscillation into the number of cycles per second 2
+Converts the time of one oscillation into cycles per second.
 
-**Wave Speed (General)**
+**Wave speed (general)**
 
 $v = \frac{\lambda}{T}$
 
 Relates speed to the distance a crest travels in one period.
 
-**The Wave Equation**
+**The wave equation**
 
 $v = f\lambda$
 
-The most common formula used to calculate wave speed, frequency, or wavelength2
+The most common formula for calculating wave speed, frequency, or wavelength.
 
 ## Graphs & diagrams
 
-- **Displacement–distance graph**: Acts like a "photograph" of the entire wave at one specific instant, showing the displacements of all particles along the medium.
-- **Displacement–time graph**: Tracks the motion of one single particle over a time interval, showing how it bobs up and down (or moves back and forth).
+**Displacement–distance graph**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Wave displacement graph">
-      <line x1="30" y1="80" x2="390" y2="80" stroke="#94a3b8" stroke-dasharray="4 3"/>
-      <path d="M40 80 Q70 30 100 80 T160 80 T220 80 T280 80 T340 80 T400 80" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-      <line x1="100" y1="80" x2="100" y2="30" stroke="#dc2626" stroke-width="1.5"/>
-      <line x1="100" y1="30" x2="220" y2="30" stroke="#16a34a" stroke-width="1.5"/>
-      <text x="160" y="22" text-anchor="middle" font-size="11" fill="#16a34a">λ</text>
-      <text x="108" y="55" font-size="11" fill="#dc2626">A</text>
-    </svg><p class="enlight-physics-diagram__caption">Displacement–distance graph — wavelength λ is peak-to-peak distance; amplitude A is maximum displacement.</p></div>
+- Acts like a "photograph" of the entire wave at one instant.
+- Shows wavelength ($\lambda$) and amplitude ($A$).
 
-**Wavefront Diagrams**
+<div class="enlight-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement distance graph">
+      <line x1="50" y1="100" x2="420" y2="100" stroke="#94a3b8" stroke-dasharray="4 3"/>
+      <text x="235" y="188" text-anchor="middle" font-size="11" fill="#475569">Distance</text>
+      <text x="16" y="100" transform="rotate(-90 16 100)" text-anchor="middle" font-size="11" fill="#475569">Displacement</text>
+      <path d="M50 100 Q80 10 110 100 T170 100 T230 100 T290 100 T350 100 T410 100" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+      <line x1="68" y1="100" x2="68" y2="55" stroke="#dc2626" stroke-width="2"/>
+      <line x1="64" y1="100" x2="72" y2="100" stroke="#dc2626" stroke-width="2"/>
+      <line x1="64" y1="55" x2="72" y2="55" stroke="#dc2626" stroke-width="2"/>
+      <line x1="80" y1="55" x2="140" y2="55" stroke="#16a34a" stroke-width="2"/>
+      <line x1="80" y1="51" x2="80" y2="59" stroke="#16a34a" stroke-width="2"/>
+      <line x1="140" y1="51" x2="140" y2="59" stroke="#16a34a" stroke-width="2"/>
+      <text x="110" y="44" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="600">λ</text>
+      <text x="76" y="49" font-size="12" fill="#dc2626" font-weight="600">A</text>
+    </svg><p class="enlight-physics-diagram__caption">Displacement–distance graph — wavelength λ is crest-to-crest distance; amplitude A is maximum displacement from the rest line.</p></div>
 
-- **Plane wavefronts**: Produced by a straight dipper, appearing as parallel lines.
-- **Circular wavefronts**: Produced by a spherical dipper, appearing as concentric circles.
+**Displacement–time graph**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="CRO pitch comparison">
-      <rect x="30" y="20" width="360" height="50" fill="#f8fafc" stroke="#cbd5e1"/>
-      <path d="M40 45 Q55 25 70 45 T100 45 T130 45 T160 45 T190 45" fill="none" stroke="#2563eb" stroke-width="2"/>
-      <text x="30" y="15" font-size="11" fill="#334155">High pitch (short period)</text>
-      <rect x="30" y="90" width="360" height="50" fill="#f8fafc" stroke="#cbd5e1"/>
-      <path d="M40 115 Q80 95 120 115 T200 115 T280 115 T360 115" fill="none" stroke="#16a34a" stroke-width="2"/>
-      <text x="30" y="85" font-size="11" fill="#334155">Low pitch (long period)</text>
+- Tracks one single particle over time.
+- Shows period ($T$) and amplitude ($A$).
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement time graph">
+      <line x1="50" y1="100" x2="420" y2="100" stroke="#94a3b8" stroke-dasharray="4 3"/>
+      <text x="235" y="188" text-anchor="middle" font-size="11" fill="#475569">Time</text>
+      <text x="16" y="100" transform="rotate(-90 16 100)" text-anchor="middle" font-size="11" fill="#475569">Displacement</text>
+      <path d="M50 100 Q80 10 110 100 T170 100 T230 100 T290 100 T350 100 T410 100" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+      <line x1="68" y1="100" x2="68" y2="55" stroke="#dc2626" stroke-width="2"/>
+      <line x1="64" y1="100" x2="72" y2="100" stroke="#dc2626" stroke-width="2"/>
+      <line x1="64" y1="55" x2="72" y2="55" stroke="#dc2626" stroke-width="2"/>
+      <line x1="80" y1="55" x2="140" y2="55" stroke="#16a34a" stroke-width="2"/>
+      <line x1="80" y1="51" x2="80" y2="59" stroke="#16a34a" stroke-width="2"/>
+      <line x1="140" y1="51" x2="140" y2="59" stroke="#16a34a" stroke-width="2"/>
+      <text x="110" y="44" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="600">T</text>
+      <text x="76" y="49" font-size="12" fill="#dc2626" font-weight="600">A</text>
+    </svg><p class="enlight-physics-diagram__caption">Displacement–time graph — period T is time for one complete oscillation; amplitude A is maximum displacement from the rest line.</p></div>
+
+**C.R.O. traces (pitch)**
+
+- Same time base: more cycles in the same interval means higher frequency (higher pitch).
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO pitch comparison">
+      <text x="210" y="14" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">High pitch (short period)</text>
+      <rect x="30" y="22" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
+      <path d="M40 48 Q55 30 70 48 T100 48 T130 48 T160 48 T190 48" fill="none" stroke="#2563eb" stroke-width="2"/>
+      <text x="210" y="88" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Low pitch (long period)</text>
+      <rect x="30" y="96" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
+      <path d="M40 122 Q80 104 120 122 T200 122 T280 122 T360 122" fill="none" stroke="#16a34a" stroke-width="2"/>
     </svg><p class="enlight-physics-diagram__caption">C.R.O. traces — same time base: more cycles in the same interval means higher frequency (higher pitch).</p></div>
+
+**Wavefront diagrams**
+
+- **Plane wavefronts**: Produced by a straight dipper — parallel lines.
+- **Circular wavefronts**: Produced by a spherical dipper — concentric circles.
 
 ## Steps / method
 
 Method for finding wave properties from graphs:
 
-Identify the Graph Type: Look at the x-axis. If it is "Distance," you can find the wavelength. If it is "Time," you can find the period.
+1. **Identify the graph type**: Distance on the x-axis → wavelength; time on the x-axis → period.
+2. **Find amplitude**: Measure from the rest line (x-axis) to the top of a crest.
+3. **Find wavelength or period**: Measure the distance (or time) for one complete cycle (crest to crest).
+4. **Calculate frequency**: If you have the period, use $f = 1/T$.
+5. **Calculate speed**: Use $v = f\lambda$.
 
-Find Amplitude: Measure from the x-axis (rest position) to the top of a crest.
+## Worked example — Extracting data from graphs
 
-Find Wavelength/Period: Measure the distance (or time) for one complete cycle (crest to crest).
+Question: A wave has a period of $1.0\ \text{s}$ and its displacement–distance graph shows crests at $20\ \text{cm}$ and $60\ \text{cm}$. Calculate its frequency and speed.
 
-Calculate Frequency: If you have the period, use $f = 1/T$.
+1. Calculate frequency: $f = 1/T = 1/1.0 = 1.0\ \text{Hz}$.
+2. Find wavelength: $\lambda = 60 - 20 = 40\ \text{cm}$.
+3. Apply $v = f\lambda$: $v = 1.0 \times 40 = 40\ \text{cm/s}$.
 
-Calculate Speed: Use the wave equation $v = f\lambda$.
+**Final answer:** Frequency $1.0\ \text{Hz}$, speed $40\ \text{cm/s}$.
+
+## Worked example — The wave equation (light)
+
+Question: Green light has a speed of $3.0 \times 10^{8}\ \text{m/s}$ in a vacuum and a wavelength of $0.6\ \mu\text{m}$. Calculate its frequency.
+
+1. Convert units: $\lambda = 0.6\ \mu\text{m} = 0.6 \times 10^{-6}\ \text{m}$.
+2. Rearrange: $f = v/\lambda$.
+3. Substitute: $f = (3.0 \times 10^{8}) / (0.6 \times 10^{-6}) = 5.0 \times 10^{14}\ \text{Hz}$.
+
+**Final answer:** $5.0 \times 10^{14}\ \text{Hz}$.
 
 ## Common mistakes
 
-Amplitude Error: Measuring from the trough to the crest. Amplitude is only half of that total distance (from rest to peak).
-
-Wavelength Miscount: Forgetting that wavelength must be between two nearest points in phase.
-
-Unit Conversion: Failing to convert prefixes like micro ($\mu$) or milli ($m$) before using the wave equation.
+- **Amplitude error**: Measuring crest to trough. Amplitude is only half that distance (rest to peak).
+- **Wavelength miscount**: Wavelength must be between two nearest points in phase.
+- **Unit conversion**: Convert prefixes ($\mu$, m, etc.) before using the wave equation.
 
 ## Examiner tip
 
-Graph Differences: Be very careful to distinguish between displacement–distance and displacement–time graphs. You cannot find wavelength directly from a time graph, and you cannot find period directly from a distance graph.
-
-SI Units: Ensure you provide units for your final answer. Frequency is in Hz, wavelength in m, and speed in m/s.
-
-Wavefront Direction: Remember that wavefronts are always at 90^\circto the direction of wave propagation.
+- Distinguish carefully between displacement–distance and displacement–time graphs.
+- Frequency is in Hz, wavelength in m, speed in m/s.
+- Wavefronts are always at $90^\circ$ to the direction of wave propagation.
 
 ## Quick check
 
-If a wave has a frequency of $10 \text{ Hz}$, what is its period $?$
+If a wave has a frequency of $10\ \text{Hz}$, what is its period?
 
 From which type of graph can you directly measure the wavelength of a wave?
 
 Write the equation relating wave speed, frequency, and wavelength.
-
-## Worked example — Extracting Data from Graphs
-
-Question: A wave has a period of $1.0 \text{ s}$ and its displacement–distance graph shows crests at $10 \text{ cm}$ and $10 \text{ cm}$. Calculate its frequency and speed 2
-
-$Calculate frequency.f = 1 / T = 1 / 1.0 \text{ s} = 1.0 \text{ Hz}2$
-
-$Find wavelength.\lambda = 60 \text{ cm} - 20 \text{ cm} = 40 \text{ cm}2$
-
-Apply v = f\lambda.v = 1.0 \text{ Hz} \times 40 \text{ cm} = 40 \text{ cm/s}. Frequency is $1.0 \text{ Hz}$ and speed is $10 \text{ cm/s}$.
-
-## Worked example — The Wave Equation (Light)
-
-Question: Green light has a speed of $3.0 \times 10^$8 \text{ m/s}in a vacuum and a wavelength of0.6 \text{ \mu m}$. Calculate its frequency$.
-
-Convert units.\lambda = 0.6 \text{ \mu m} = 0.6 \times $10^{-6}
-
-$$
-\text{ m}$. Rearrange2. Substitute.f = (3.0 \times$10^{8}$) / (0.6 \times
-$$$10^{-6}$
-$= ) = 5.0 \times
-
-$$
-10^{14}
-$$
-$\text{ Hz}.5.0 \times =
-
-$$
-10^{14}
-$$
-
-$\text{ Hz}$.

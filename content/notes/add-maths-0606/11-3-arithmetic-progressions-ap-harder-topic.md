@@ -4,7 +4,7 @@ An **arithmetic progression** (AP) has a constant difference $d$ between consecu
 
 ## Key formulas
 
-**$n$th term**
+**$n$ th term**
 
 $$
 u_n = a + (n-1)d
@@ -21,7 +21,9 @@ where $a$ is the first term, $d$ is the common difference, and $l$ is the last t
 ## Steps / method
 
 1. **Identify** $a$ and $d$ — find $d$ by subtracting consecutive terms.
+
 2. **Substitute** into $u_n$ or $S_n$ as required.
+
 3. **Solve** for $n$ — remember $n$ must be a positive integer.
 
 ### Key rule

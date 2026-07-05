@@ -1,41 +1,56 @@
 ## Core idea
 
-What happens to the energy you supply to a pot of boiling water if the temperature never rises above $100^\circ\text{C}$? In Physics, we learn that energy isn't just used to increase temperature; it is also required to change the state of matter. Understanding these transitions—from the melting of polar ice to the cooling effect of sweat on your skin—allows us to explain how energy is absorbed or released by substances without changing their temperature.
+What happens to the energy you supply to a pot of boiling water if the temperature never rises above $100^\circ\text{C}$? In Physics, energy isn't just used to increase temperature — it is also required to change the state of matter. Understanding these transitions allows us to explain how energy is absorbed or released without changing temperature.
 
 ## Key definitions
 
-- **Melting**: The process where a solid changes into a liquid upon being heated.
-- **Melting Point**: The specific temperature at which melting occurs ($0^\circ\text{C}$ for pure water at standard pressure).
-- **Boiling**: The process where a liquid turns into a gas throughout the substance at a particular temperature.
-- **Boiling Point**: The specific temperature at which boiling occurs ($100^\circ\text{C}$ for pure water at standard pressure).
-- **Condensation**: The process where a gas is cooled and turns into a liquid, releasing energy.
-- **Solidification (Freezing)**: The process where a liquid is cooled and turns into a solid, releasing energy.
-- **Evaporation**: The escape of more energetic particles from the surface of a liquid, occurring at any temperature and causing the liquid to cool.
+- **Melting**: A solid changes into a liquid upon being heated.
+- **Melting point**: The temperature at which melting occurs ($0^\circ\text{C}$ for pure water at standard pressure).
+- **Boiling**: A liquid turns into a gas throughout the substance at a particular temperature.
+- **Boiling point**: The temperature at which boiling occurs ($100^\circ\text{C}$ for pure water at standard pressure).
+- **Condensation**: A gas is cooled and turns into a liquid, releasing energy.
+- **Solidification (freezing)**: A liquid is cooled and turns into a solid, releasing energy.
+- **Evaporation**: More energetic particles escape from the liquid surface at any temperature, causing the liquid to cool.
 
 ## Key formulas
 
-While this section focuses on qualitative descriptions, it is governed by the principle that: Total Energy Input = Energy to change temperature + Energy to change state.
+$$
+\text{Total energy input} = \text{energy to change temperature} + \text{energy to change state}
+$$
 
-Note: Although "latent heat" is the energy used for state changes, specific formulas for it are not provided in this section of the sources.
+Energy used during a change of state (latent heat) does not change the temperature.
+
+## Boiling vs evaporation
+
+| Feature | Boiling | Evaporation |
+|---------|---------|-------------|
+| **Temperature** | Only at boiling point | At any temperature |
+| **Location** | Throughout the liquid | Only at the surface |
+| **Bubbles** | Bubbles formed | No bubbles |
+| **Speed** | Relatively fast | Relatively slow |
+| **Temperature change** | Stays constant at boiling point | Liquid usually cools |
 
 ## Graphs & diagrams
 
-**Heating Curve**
+**Heating curve**
 
-- **Sloped sections**: Indicate a rise in temperature where thermal energy increases the average kinetic energy of the particles.
-- **Horizontal sections**: Indicate a change of state (melting or boiling). The temperature remains constant because the energy is being used to break bonds between particles rather than increase their speed.
-- **Cooling Curve**: The reverse of a heating curve, showing horizontal plateaus during condensation and solidification where energy is released.
-- **Evaporation Diagram**: Shows the fastest-moving molecules at the surface overcoming attractive forces and atmospheric pressure to escape into the air.
+- **Sloped sections**: Temperature rises — energy increases average kinetic energy.
+- **Horizontal plateaus**: Melting or boiling — energy breaks bonds between particles; temperature stays constant.
+- **Cooling curve**: Reverse — horizontal sections during condensation and solidification.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Heating curve">
-      <line x1="50" y1="190" x2="390" y2="190" stroke="#888" stroke-width="1.5"/>
-      <line x1="50" y1="190" x2="50" y2="30" stroke="#888" stroke-width="1.5"/>
-      <text x="200" y="212" text-anchor="middle" font-size="12" fill="#666">Time</text>
-      <text x="18" y="110" transform="rotate(-90 18 110)" text-anchor="middle" font-size="12" fill="#666">Temperature</text>
-      <polyline fill="none" stroke="#2a7a5f" stroke-width="2.5" points="60,170 110,130 110,110 170,110 170,70 260,70 260,50 340,50"/>
-      <text x="95" y="125" font-size="10" fill="#2a7a5f">melting</text>
-      <text x="215" y="85" font-size="10" fill="#2a7a5f">boiling</text>
-    </svg><p class="enlight-physics-diagram__caption">Heating curve — temperature plateaus during melting and boiling while energy is still supplied.</p></div>
+<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Heating curve">
+      <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="55" y1="215" x2="55" y2="30" stroke="#64748b" stroke-width="1.5"/>
+      <text x="230" y="240" text-anchor="middle" font-size="12" fill="#475569">Time</text>
+      <text x="22" y="120" transform="rotate(-90 22 120)" text-anchor="middle" font-size="12" fill="#475569">Temperature</text>
+      <polyline fill="none" stroke="#16a34a" stroke-width="2.5" points="65,185 115,150"/>
+      <line x1="115" y1="150" x2="175" y2="150" stroke="#16a34a" stroke-width="2.5"/>
+      <polyline fill="none" stroke="#16a34a" stroke-width="2.5" points="175,150 225,110"/>
+      <line x1="225" y1="110" x2="285" y2="110" stroke="#16a34a" stroke-width="2.5"/>
+      <polyline fill="none" stroke="#16a34a" stroke-width="2.5" points="285,110 355,60"/>
+      <text x="145" y="142" font-size="10" fill="#dc2626" font-weight="600">melting</text>
+      <text x="255" y="102" font-size="10" fill="#dc2626" font-weight="600">boiling</text>
+    </svg><p class="enlight-physics-diagram__caption">Heating curve — temperature rises in each state; flat plateaus during melting and boiling while energy is still supplied.</p></div>
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="State transitions">
       <rect x="20" y="40" width="70" height="40" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
@@ -56,35 +71,32 @@ Note: Although "latent heat" is the energy used for state changes, specific form
 
 ## Steps / method
 
-Method for investigating temperature during a change of state:
+**Investigating temperature during a change of state:**
 
-Setup: Place crushed ice in a beaker and insert a thermometer.
+1. **Setup**: Place crushed ice in a beaker and insert a thermometer.
+2. **Heating**: Apply a slow, steady flame using a Bunsen burner.
+3. **Data collection**: Record the temperature every minute.
+4. **Observation**: Temperature stops rising at $0^\circ\text{C}$ (melting) and $100^\circ\text{C}$ (boiling) despite continued heating.
+5. **Conclusion**: Horizontal lines on the graph show periods of change of state.
 
-Heating: Apply a slow, steady flame using a Bunsen burner.
+**Explaining evaporation cooling:**
 
-Data Collection: Record the temperature every minute.
-
-Observation: Notice that the temperature stops rising exactly at $0^\circ\text{C}$ (melting) and $100^\circ\text{C}$ (boiling) despite continued heating.
-
-Conclusion: Identify the horizontal lines on the resulting graph as the periods where the change of state occurs. Worked example — Explaining the Cooling Effect
-
-Question: Explain why you feel cold when you step out of a swimming pool on a windy day. Step 1: Identify the process. Water on the skin undergoes evaporation. Step 2: Explain the particle movement. The most energetic water molecules escape from the skin's surface into the air. Step 3: Relate to energy. These molecules must overcome attractive forces, taking latent heat from your body to do so. Step 4: Conclusion. The average kinetic energy of the remaining molecules on the skin decreases, leading to a drop in temperature and the sensation of being cold. Boiling vs. Evaporation Feature Boiling Evaporation Temperature Occurs only at boiling point Occurs at any temperature Location Throughout the liquid Only at the surface Bubbles Bubbles are formed No bubbles formed Speed Relatively fast Relatively slow Temperature Change Temperature remains constant Temperature usually decreases (cooling)
+1. Identify that evaporation occurs at the liquid surface.
+2. State that the fastest-moving particles escape.
+3. Explain that they take energy with them, lowering the average kinetic energy of the remaining liquid.
+4. Conclude that the temperature of the liquid (or surface) decreases.
 
 ## Common mistakes
 
-Temperature Rise: Believing the temperature of water keeps rising while it is boiling. It stays at $100^\circ\text{C}$ until all the liquid has turned to gas.
+**Temperature rise during boiling**: Water stays at $100^\circ\text{C}$ while boiling — it does not keep getting hotter.
 
-Boiling vs. Evaporation: Thinking they are the same. Remember that boiling requires an external energy source and happens throughout the liquid, while evaporation does not.
+**Boiling vs evaporation**: Boiling happens throughout the liquid at the boiling point; evaporation happens only at the surface at any temperature.
 
-Mist vs. Steam: Calling the visible "clouds" over a kettle steam. Steam is invisible; the mist you see is water vapour that has already condensed back into tiny liquid droplets.
+**Mist vs steam**: Visible "clouds" over a kettle are condensed liquid droplets, not steam (steam is invisible).
 
 ## Examiner tip
 
-Particle Language: When explaining state changes, always mention that energy is used to break bonds or overcome attractive forces between particles.
-
-Evaporation Factors: Be ready to list what increases evaporation: higher temperature, larger surface area, and increased air movement (wind).
-
-Fixed Points: Memorize the fixed points for pure water: Melting point = $0^\circ\text{C}$, Boiling point = $100^\circ\text{C}$.
+When explaining state changes, mention that energy is used to **break bonds** or **overcome attractive forces** between particles. For evaporation, list factors that increase rate: higher temperature, larger surface area, and increased air movement (wind).
 
 ## Quick check
 
@@ -93,3 +105,17 @@ Why does the temperature of a melting solid remain constant despite being heated
 Name three factors that can increase the rate of evaporation.
 
 Is energy taken in or given out during condensation?
+
+## Worked example — Explaining the Cooling Effect
+
+Question: Explain why you feel cold when you step out of a swimming pool on a windy day.
+
+1. **Identify the process**: Water on the skin undergoes evaporation.
+
+2. **Explain particle movement**: The most energetic water molecules escape from the skin's surface into the air.
+
+3. **Relate to energy**: These molecules take latent heat from your body to overcome attractive forces and escape.
+
+4. **Conclusion**: The average kinetic energy of the remaining molecules on the skin decreases, so you feel cold.
+
+**Final answer:** Evaporation removes the most energetic molecules, taking energy from your skin and lowering its temperature.

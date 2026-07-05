@@ -19,12 +19,12 @@
         "$-1$"
       ],
       "correctIndex": 0,
-      "explanation": "Numerator: $(-2)³ - 3(-2)(4) + (4)² = -8 + 24 + 16 = 32$. Denominator: $2(-2) - 4 = -4 - 4 = -8$. Expression value: $\\frac{32}{-8} = -5$.\n\n**Common mistake:** Students commonly make a sign error with $(-2)³ = 8$ or $-3(-2)(4) = -24$, resulting in completely wrong $\\frac{tion}{}$ values."
+      "explanation": "Numerator: $(-2)³ - 3(-2)(4) + (4)² = -8 + 24 + 16 = 32$. Denominator: $2(-2) - 4 = -4 - 4 = -8$. Expression value: $\\frac{32}{-8} = -5$.\n\n**Common mistake:** Students commonly make a sign error with $(-2)³ = 8$ or $-3(-2)(4) = -24$, resulting in completely wrong $fraction$ values."
     },
     {
       "id": "ch02-algebra-hard-q2",
       "type": "mcq",
-      "question": "Given the relationship $T = 2\\pi \\sqrt{\\frac{L}{g}}$, evaluate $T$2$\\pi = 3.14$, $L = 4.9$, and $g = 9.8$.",
+      "question": "Given the relationship $T = 2\\pi \\sqrt{\\frac{L}{g}}$, evaluate $T$. So $\\pi = 3.14$, $L = 4.9$, and $g = 9.8$.",
       "options": [
         "$4.44$",
         "$6.28$",
@@ -32,12 +32,12 @@
         "$2.22$"
       ],
       "correctIndex": 0,
-      "explanation": "Calculate the ratio first: $\\frac{4.9}{9.8} = 0.5$. Take the square root: $\\sqrt{0.5} \\approx 0.7071$. Multiply by $2\\pi$2$2 \\times 3.14 \\times 0.7071 \\approx 4.44$.\n\n**Common mistake:** Students often forget to take the square root of the $\\frac{tion}{}$ before multiplying by $2\\pi$2$6.28 \\times 0.5 = 3.14$."
+      "explanation": "Calculate the ratio first: $\\frac{4.9}{9.8} = 0.5$. Take the square root: $\\sqrt{0.5} \\approx 0.7071$. Multiply by $2\\pi^2 2 \\times 3.14 \\times 0.7071 \\approx 4.44$.\n\n**Common mistake:** Students often forget to take the square root of the $fraction$ before multiplying by $2\\pi^2 6.28 \\times 0.5 = 3.14$."
     },
     {
       "id": "ch02-algebra-hard-q3",
       "type": "mcq",
-      "question": "Evaluate the formula $z = \\frac{x^2 - y^2}{x^{-1}$ + y^{-1}$}$ when $x = 4$ and $y = 2$.",
+      "question": "Evaluate the formula $z = \\frac{x^2 - y^2}{x^{-1} + y^{-1}}$ when $x = 4$ and $y = 2$.",
       "options": [
         "$16$",
         "$12$",
@@ -63,10 +63,10 @@
     {
       "id": "ch02-algebra-hard-q5",
       "type": "mcq",
-      "question": "Given the geometric expression $V = \\frac{1}{3}\\pi r^2h$2$h$2$V = 157$, $\\pi = 3.14$, and $r = 5$.",
+      "question": "Given the geometric expression $V = \\frac{1}{3}\\pi r^2h$ and $h2V = 157$, $\\pi = 3.14$, and $r = 5$.",
       "options": [
         "$6$",
-        "$2$",
+        "2",
         "$18$",
         "$12$"
       ],
@@ -84,12 +84,12 @@
         "$6x^3 - 7x^2 + 4x - 6$"
       ],
       "correctIndex": 0,
-      "explanation": "First, expand the first two brackets: $(2x+3)(x-1) = 2x^2 - 2x + 3x - 3 = 2x^2 + x - 3$. Next, multiply by $(3x - 2)$: $(2x^2 + x - 3)(3x - 2) = 6x^3 - 4x^2 + 3x^2 - 2x - 9x + 6 = 6x^3 - x^2 - 11x + 6$. Let's re-verify: $2x^2 \\times 3x = 6x^3$; $2x^2 \\times (-2) = -4x^2$; $x \\times 3x = 3x^2$; $x \\times (-2) = -2x$2$-3 \\times 3x = -9x$2$-3 \\times (-2) = +6$. Combining like terms gives $6x^3 - x^2 - 11x + 6$. Let's correct the option to match the math: option 0 is $6x^3 - x^2 - 11x + 6$.\n\n**Common mistake:** Students frequently miss terms when expanding trinomials or make errors during sign combination across multiple steps."
+      "explanation": "First, expand the first two brackets: $(2x+3)(x-1) = 2x^2 - 2x + 3x - 3 = 2x^2 + x - 3$. Next, multiply by $(3x - 2)$: $(2x^2 + x - 3)(3x - 2) = 6x^3 - 4x^2 + 3x^2 - 2x - 9x + 6 = 6x^3 - x^2 - 11x + 6$. Let's re-verify: $2x^2 \\times 3x = 6x^3$; $2x^2 \\times (-2) = -4x^2$; $x \\times 3x = 3x^2$; $x \\times (-2) = -2x$. $-3 \\times 3x = -9x2-3 \\times (-2) = +6$. Combining like terms gives $6x^3 - x^2 - 11x + 6$. Let's correct the option to match the math: option 0 is $6x^3 - x^2 - 11x + 6$.\n\n**Common mistake:** Students frequently miss terms when expanding trinomials or make errors during sign combination across multiple steps."
     },
     {
       "id": "ch02-algebra-hard-q7",
       "type": "mcq",
-      "question": "Simplify the algebraic $\\frac{tion}{}$ completely: $\\frac{4x^2 - 9}{2x^2 - x - 3}$.",
+      "question": "Simplify the algebraic $fraction$ completely: $\\frac{4x^2 - 9}{2x^2 - x - 3}$.",
       "options": [
         "$\\frac{2x - 3}{x - 1}$",
         "$\\frac{2x + 3}{x + 1}$",
@@ -123,7 +123,7 @@
         "$\\frac{-3x + 6}{10}$"
       ],
       "correctIndex": 0,
-      "explanation": "Create a common denominator of $10$: $\\frac{5(x) - 2(2x - 3)}{10} = \\frac{5x - 4x + 6}{10} = \\frac{x + 6}{10}$.\n\n**Common mistake:** Students commonly write the numerator as $5x - 4x - 6$, leading to $\\frac{x - 6}{10}$ due to incorrect distribution."
+      "explanation": "Create a common denominator of^10: $\\frac{5(x) - 2(2x - 3)}{10} = \\frac{5x - 4x + 6}{10} = \\frac{x + 6}{10}$.\n\n**Common mistake:** Students commonly write the numerator as $5x - 4x - 6$, leading to $\\frac{x - 6}{10}$ due to incorrect distribution."
     },
     {
       "id": "ch02-algebra-hard-q10",
@@ -141,7 +141,7 @@
     {
       "id": "ch02-algebra-hard-q11",
       "type": "mcq",
-      "question": "Solve the algebraic $\\frac{tional}{}$ equation: $\\frac{3}{2x - 1} - \\frac{2}{x + 3} = 0$.",
+      "question": "Solve the algebraic \\frac{1}{a} equation: $\\frac{3}{2x - 1} - \\frac{2}{x + 3} = 0$.",
       "options": [
         "$11$",
         "$-11$",
@@ -149,7 +149,7 @@
         "$-7$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange to $\\frac{3}{2x - 1} = \\frac{2}{x + 3}$. Cross-multiply: $3(x + 3) = 2(2x - 1) \\rightarrow 3x + 9 = 4x - 2$. Subtract $3x$2$9 = x - 2$. Add 2: $x = 11$.\n\n**Common mistake:** Students commonly make sign errors during cross-multiplication distribution, writing $3x + 3$ or $4x - 1$."
+      "explanation": "Rearrange to $\\frac{3}{2x - 1} = \\frac{2}{x + 3}$. Cross-multiply: $3(x + 3) = 2(2x - 1) \\rightarrow 3x + 9 = 4x - 2$. Subtract $3x$. $9 = x - 2$. Add 2: $x = 11$.\n\n**Common mistake:** Students commonly make sign errors during cross-multiplication distribution, writing $3x + 3$ or $4x - 1$."
     },
     {
       "id": "ch02-algebra-hard-q12",
@@ -188,7 +188,7 @@
         "$-2.25$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify inside the square brackets first: $3x - 2x + 2 = x + 2$. The equation becomes: $2x - (x + 2) = 4x + 5 \\rightarrow x - 2 = 4x + 5$. Subtract $x$2$-2 = 3x + 5$. Subtract 5: $-7 = 3x \\rightarrow x = -\\frac{7}{4} = -1.75$.\n\n**Common mistake:** Students struggle with nested distributions and often incorrectly evaluate $-2(x-1)$ as $-2x - 2$."
+      "explanation": "Simplify inside the square brackets first: $3x - 2x + 2 = x + 2$. The equation becomes: $2x - (x + 2) = 4x + 5 \\rightarrow x - 2 = 4x + 5$. Subtract $x$. $-2 = 3x + 5$. Subtract 5: $-7 = 3x \\rightarrow x = -\\frac{7}{4} = -1.75$.\n\n**Common mistake:** Students struggle with nested distributions and often incorrectly evaluate $-2(x-1)$ as $-2x - 2$."
     },
     {
       "id": "ch02-algebra-hard-q15",
@@ -201,7 +201,7 @@
         "$6500$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $x$2$10000 - x$2$0.06x + 0.04(10000 - x) = 520 \\rightarrow 0.06x + 400 - 0.04x = 520 \\rightarrow 0.02x = 120 \\rightarrow x = 6000$.\n\n**Common mistake:** Students often swap the coefficients or misplace decimals when translating percentages ($4\\% \\rightarrow 0.4$ instead of $0.04$)."
+      "explanation": "Let $x$. $10000 - x20.06x + 0.04(10000 - x) = 520 \\rightarrow 0.06x + 400 - 0.04x = 520 \\rightarrow 0.02x = 120 \\rightarrow x = 6000$.\n\n**Common mistake:** Students often swap the coefficients or misplace decimals when translating percentages ($4\\% \\rightarrow 0.4$ instead of $0.04$)."
     },
     {
       "id": "ch02-algebra-hard-q16",
@@ -214,12 +214,12 @@
         "$(3, 6)$ and $(-1, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y = x + 3$ into the quadratic equation: $x^2 + (x + 3)^2 = 17 \\rightarrow x^2 + x^2 + 6x + 9 = 17 \\rightarrow 2x^2 + 6x - 8 = 0$. Divide by 2: $x^2 + 3x - 4 = 0 \\rightarrow (x + 4)(x - 1) = 0$. Thus, $x = 1$ or $x = -4$. Corresponding $y$2$y = 1 + 3 = 4$ and $y = -4 + 3 = -1$.\n\n**Common mistake:** Students frequently expand $(x+3)^2$ as $x^2 + 9$, missing the crucial middle $6x$ term."
+      "explanation": "Substitute $y = x + 3$ into the quadratic equation: $x^2 + (x + 3)^2 = 17 \\rightarrow x^2 + x^2 + 6x + 9 = 17 \\rightarrow 2x^2 + 6x - 8 = 0$. Divide by 2: $x^2 + 3x - 4 = 0 \\rightarrow (x + 4)(x - 1) = 0$. Thus, $x = 1$ or $x = -4$. Corresponding $y$. So $y = 1 + 3 = 4$ and $y = -4 + 3 = -1$.\n\n**Common mistake:** Students frequently expand $(x+3)^2$ as $x^2 + 9$, missing the crucial middle $6x$ term."
     },
     {
       "id": "ch02-algebra-hard-q17",
       "type": "mcq",
-      "question": "Solve the system:\n\n$$\n\\frac{3}{x} + \\frac{2}{y} = 5\n$$\n\n$\\frac{1}{x} - \\frac{4}{y} = -3\n\n$$",
+      "question": "Solve the system:\n\n$$\n\\frac{3}{x} + \\frac{2}{y} = 5\n$$\n\n$\\frac{1}{x} - \\frac{4}{y} = -3$",
       "options": [
         "$x = 1, y = 1$",
         "$x = 0.5, y = 2$",
@@ -227,7 +227,7 @@
         "$x = -1, y = -1$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. The system becomes:\n$3u + 2v = 5$\n\nu - 4v = -3\n\nMultiply the first by 2: $6u + 4v = 10$. Add to second equation: $7u = 7 \\rightarrow u = 1 \\rightarrow x = 1$. Substitute $u = 1$: $1 - 4v = -3 \\rightarrow 4v = 4 \\rightarrow v = 1 \\rightarrow y = 1$.\n\n**Common mistake:** Students often leave the answers as $u$2$v$2$x$2$y$."
+      "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. The system becomes:\n$3u + 2v = 5$\n\nu - 4v = -3\n\nMultiply the first by 2: $6u + 4v = 10$. Add to second equation: $7u = 7 \\rightarrow u = 1 \\rightarrow x = 1$. Substitute $u = 1$: $1 - 4v = -3 \\rightarrow 4v = 4 \\rightarrow v = 1 \\rightarrow y = 1$.\n\n**Common mistake:** Students often leave the answers as $u$ and $v2x$ and $y$."
     },
     {
       "id": "ch02-algebra-hard-q18",
@@ -240,7 +240,7 @@
         "No real solutions"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate $x$2$2x = 3y + 9 \\rightarrow x = 1.5y + 4.5$. Let's instead isolate $y$2$3y = 2x - 9 \\rightarrow y = \\frac{2x - 9}{3}$. Substitute into quadratic: $x^2 - x\\left(\\frac{2x - 9}{3}\\right) = 4 \\rightarrow 3x^2 - (2x^2 - 9x) = 12 \\rightarrow x^2 + 9x - 12 = 0$. Using quadratic formula for $x^2+9x-12=0$, roots are $x = 4$ or $x = -1$ if we adjusted equation to $x^2 - 3x - 4 = 0$. Let's adjust the system to make roots perfectly clean integers: Let $y = 2x - 5$ and $x^2 - xy = 4 \\rightarrow x^2 - x(2x - 5) = 4 \\rightarrow -x^2 + 5x - 4 = 0 \\rightarrow x^2 - 5x + 4 = 0 \\rightarrow (x-4)(x-1)=0$. So $x=4$ or $x=1$. If $x=4, y=3$; if $x=1, y=-3$. Let's adjust the choices and question stem to fit this clean path.\n\n**Common mistake:** When substituting expressions with $\\frac{tions}{}$, expanding brackets with negative signs outside is highly prone to calculation errors."
+      "explanation": "Isolate $x$. $2x = 3y + 9 \\rightarrow x = 1.5y + 4.5$. Let's instead isolate $y$. $3y = 2x - 9 \\rightarrow y = \\frac{2x - 9}{3}$. Substitute into quadratic: $x^2 - x\\left(\\frac{2x - 9}{3}\\right) = 4 \\rightarrow 3x^2 - (2x^2 - 9x) = 12 \\rightarrow x^2 + 9x - 12 = 0$. Using quadratic formula for $x^2+9x-12=0$, roots are $x = 4$ or $x = -1$ if we adjusted equation to $x^2 - 3x - 4 = 0$. Let's adjust the system to make roots perfectly clean integers: Let $y = 2x - 5$ and $x^2 - xy = 4 \\rightarrow x^2 - x(2x - 5) = 4 \\rightarrow -x^2 + 5x - 4 = 0 \\rightarrow x^2 - 5x + 4 = 0 \\rightarrow (x-4)(x-1)=0$. So $x=4$ or $x=1$. If $x=4, y=3$; if $x=1, y=-3$. Let's adjust the choices and question stem to fit this clean path.\n\n**Common mistake:** When substituting expressions with $fractions$, expanding brackets with negative signs outside is highly prone to calculation errors."
     },
     {
       "id": "ch02-algebra-hard-q19",
@@ -292,11 +292,11 @@
         "$(2x - 5y)(2x + 5y)$"
       ],
       "correctIndex": 0,
-      "explanation": "First, extract the common numerical factor $2$: $2(25x^2 - 4y^2)$. The expression inside the brackets is now a difference of two squares, where $25x^2 = (5x)^2$ and $4y^2 = (2y)^2$. Factorising this gives $2(5x - 2y)(5x + 2y)$.\n\n**Common mistake:** Students often stop at $2(25x^2 - 4y^2)$, forgetting that the binomial inside can be factorised further using the difference of two squares identity."
+      "explanation": "First, extract the common numerical factor 2: $2(25x^2 - 4y^2)$. The expression inside the brackets is now a difference of two squares, where $25x^2 = (5x)^2$ and $4y^2 = (2y)^2$. Factorising this gives $2(5x - 2y)(5x + 2y)$.\n\n**Common mistake:** Students often stop at $2(25x^2 - 4y^2)$, forgetting that the binomial inside can be factorised further using the difference of two squares identity."
     },
     {
       "type": "mcq",
-      "question": "Point $M(3,1)$ is the midpoint of $AB$2$AB$2$-2$, find the equation of the perpendicular bisector of $AB$.",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
       "options": [
         "y = 0.5x - 0.5",
         "y = -2x + 7",
@@ -317,7 +317,7 @@
         "$b(a - 3b)^2(a + 3b)^2$"
       ],
       "correctIndex": 0,
-      "explanation": "First factor out $b$2$b(a^4 - 81b^4)$. Apply difference of two squares twice: $b(a^2 - 9b^2)(a^2 + 9b^2) = b(a - 3b)(a + 3b)(a^2 + 9b^2)$.\n\n**Common mistake:** Stopping after the first difference of squares and failing to factor $(a^2 - 9b^2)$ further.",
+      "explanation": "First factor out $b$. $b(a^4 - 81b^4)$. Apply difference of two squares twice: $b(a^2 - 9b^2)(a^2 + 9b^2) = b(a - 3b)(a + 3b)(a^2 + 9b^2)$.\n\n**Common mistake:** Stopping after the first difference of squares and failing to factor $(a^2 - 9b^2)$ further.",
       "id": "ch02-algebra-hard-q24"
     },
     {
@@ -349,7 +349,7 @@
     {
       "id": "ch02-algebra-hard-q27",
       "type": "mcq",
-      "question": "Solve the rational $\\frac{tional}{}$ equation: $\\frac{2}{x} + \\frac{3}{x+1} = 2$.",
+      "question": "Solve the rational \\frac{1}{a} equation: $\\frac{2}{x} + \\frac{3}{x+1} = 2$.",
       "options": [
         "$x = 2$ or $x = -0.5$",
         "$x = -2$ or $x = 0.5$",
@@ -357,7 +357,7 @@
         "$x = 4$ or $x = -1$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the entire equation by the common denominator $x(x+1)$ to clear $\\frac{tions:}{}$ $2(x + 1) + 3x = 2x(x + 1) \\implies 2x + 2 + 3x = 2x^2 + 2x$2$5x + 2 = 2x^2 + 2x \\implies 2x^2 - 3x - 2 = 0$. Factorising yields $(2x + 1)(x - 2) = 0$, giving solutions $x = 2$ or $x = -0.5$.\n\n**Common mistake:** Students often clear the denominators incorrectly by failing to distribute the multiplier across the right-hand constant side."
+      "explanation": "Multiply the entire equation by the common denominator $x(x+1)$ to clear $tions:$ $2(x + 1) + 3x = 2x(x + 1) \\implies 2x + 2 + 3x = 2x^2 + 2x$. $5x + 2 = 2x^2 + 2x \\implies 2x^2 - 3x - 2 = 0$. Factorising yields $(2x + 1)(x - 2) = 0$, giving solutions $x = 2$ or $x = -0.5$.\n\n**Common mistake:** Students often clear the denominators incorrectly by failing to distribute the multiplier across the right-hand constant side."
     },
     {
       "id": "ch02-algebra-hard-q28",
@@ -383,7 +383,7 @@
         "$x = 2$ or $x = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$2$4$ and $9$), forgetting to compute the final square roots for $x$."
+      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and^9), forgetting to compute the final square roots for $x$."
     },
     {
       "id": "ch02-algebra-hard-q30",
@@ -396,7 +396,7 @@
         "$2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{11}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor out the coefficient $2$ from the algebraic terms: $2(x^2 - 3x) + 7$. Complete the square inside the bracket: $2\\left[\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{4}\\right] + 7$. Expand the outer bracket: $2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{2} + 7$. Simplify the constants: $-\\frac{9}{2} + \\frac{14}{2} = +\\frac{5}{2}$. This yields $2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$.\n\n**Common mistake:** Students frequently forget to multiply the subtracted squared $\\frac{tion}{}$ by the factored-out coefficient $2$, leaving it as $-2.25 + 7 = 4.75$."
+      "explanation": "Factor out the coefficient 2 from the algebraic terms: $2(x^2 - 3x) + 7$. Complete the square inside the bracket: $2\\left[\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{4}\\right] + 7$. Expand the outer bracket: $2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{2} + 7$. Simplify the constants: $-\\frac{9}{2} + \\frac{14}{2} = +\\frac{5}{2}$. This yields $2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$.\n\n**Common mistake:** Students frequently forget to multiply the subtracted squared $fraction$ by the factored-out coefficient2, leaving it as -2.25 + 7 = 4.75."
     },
     {
       "id": "ch02-algebra-hard-q31",
@@ -409,7 +409,7 @@
         "$2.77$ or $-1.15$"
       ],
       "correctIndex": 0,
-      "explanation": "Cross-multiply to eliminate the $\\frac{tional}{}$ denominators: $(x + 3)(x + 1) = x(2x - 1) \\implies x^2 + 4x + 3 = 2x^2 - x$2$x^2 - 5x - 3 = 0$. Apply the quadratic formula: $x = \\frac{5 \\pm \\sqrt{(-5)^2 - 4(1)(-3)}}{2} = \\frac{5 \\pm \\sqrt{37}}{2}$. Since \\sqrt{37} \\approx 6.083, $x \\approx 5.54$ or $x \\approx -0.54$.\n\n**Common mistake:** Students often make mistakes expanding the terms or forget to change operational signs when grouping algebraic components."
+      "explanation": "Cross-multiply to eliminate the \\frac{1}{a} denominators: $(x + 3)(x + 1) = x(2x - 1) \\implies x^2 + 4x + 3 = 2x^2 - x$. So $x^2 - 5x - 3 = 0$. Apply the quadratic formula: $x = \\frac{5 \\pm \\sqrt{(-5)^2 - 4(1)(-3)}}{2} = \\frac{5 \\pm \\sqrt{37}}{2}$. Since \\sqrt{37} \\approx 6.083, $x \\approx 5.54$ or $x \\approx -0.54$.\n\n**Common mistake:** Students often make mistakes expanding the terms or forget to change operational signs when grouping algebraic components."
     },
     {
       "id": "ch02-algebra-hard-q32",
@@ -422,12 +422,12 @@
         "$5$"
       ],
       "correctIndex": 0,
-      "explanation": "Equate the line and curve equations to find the intersection coordinates: $x^2 - 3x + 3 = x + 3 \\implies x^2 - 4x = 0 \\implies x(x - 4) = 0$. Thus, $x = 0$ or $x = 4$. Find the corresponding $y$2$x = 0$, $y = 3$, giving $(0, 3)$; when $x = 4$, $y = 7$, giving $(4, 7)$. Use the distance formula to find the chord length: $d = \\sqrt{(4 - 0)^2 + (7 - 3)^2} = \\sqrt{16 + 16} = \\sqrt{32} = 4\\sqrt{2} \\approx 5.66$.\n\n**Common mistake:** Students often find the correct intersection points but fail to complete the question by calculating the geometric distance between them."
+      "explanation": "Equate the line and curve equations to find the intersection coordinates: $x^2 - 3x + 3 = x + 3 \\implies x^2 - 4x = 0 \\implies x(x - 4) = 0$. Thus, $x = 0$ or $x = 4$. Find the corresponding $y$. So $x = 0$, $y = 3$, giving $(0, 3)$; when $x = 4$, $y = 7$, giving $(4, 7)$. Use the distance formula to find the chord length: $d = \\sqrt{(4 - 0)^2 + (7 - 3)^2} = \\sqrt{16 + 16} = \\sqrt{32} = 4\\sqrt{2} \\approx 5.66$.\n\n**Common mistake:** Students often find the correct intersection points but fail to complete the question by calculating the geometric distance between them."
     },
     {
       "id": "ch02-algebra-hard-q33",
       "type": "mcq",
-      "question": "Solve the system of equations containing a reciprocal interaction:\n\nx + y = 3\n\n$$\n\\frac{1}{x} + \\frac{1}{y} = 1.5\n$$",
+      "question": "Solve the system of equations containing a reciprocal interaction:\n\nx + y = 3\n\n$$\n\\frac{1}{x} + \\frac{1}{y} = 1.5\n",
       "options": [
         "$x = 1, y = 2$ or $x = 2, y = 1$",
         "$x = 3, y = 0$ or $x = 0, y = 3$",
@@ -435,7 +435,7 @@
         "$x = 4, y = -1$ or $x = -1, y = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Combine the $\\frac{tions}{}$ in the second equation: $\\frac{x + y}{xy} = 1.5$. Substitute $x + y = 3$ into the numerator: $\\frac{3}{xy} = 1.5 \\implies xy = \\frac{3}{1.5} = 2$. Now we have $x + y = 3$ and $xy = 2$. Substitute $y = 3 - x$2$xy = 2 \\implies x(3 - x) = 2 \\implies 3x - x^2 = 2 \\implies x^2 - 3x + 2 = 0$. Factorising yields $(x - 1)(x - 2) = 0$, giving $x = 1$ or $x = 2$. Thus, the solutions are $(1, 2)$ or $(2, 1)$.\n\n**Common mistake:** Students often try to cross-multiply $\\frac{tions}{}$ individually by terms, creating erroneous linear relations like $x + y = 1.5$ directly."
+      "explanation": "Combine the $fractions  in the second equation: \\frac{x + y}{xy} = 1.5$. Substitute $x + y = 3$ into the numerator: $\\frac{3}{xy} = 1.5 \\implies xy = \\frac{3}{1.5} = 2$. Now we have $x + y = 3$ and $xy = 2$. Substitute $y = 3 - x$. So $xy = 2 \\implies x(3 - x) = 2 \\implies 3x - x^2 = 2 \\implies x^2 - 3x + 2 = 0$. Factorising yields $(x - 1)(x - 2) = 0$, giving $x = 1$ or $x = 2$. Thus, the solutions are $(1, 2)$ or $(2, 1)$.\n\n**Common mistake:** Students often try to cross-multiply $fractions  individually by terms, creating erroneous linear relations like x + y = 1.5$ directly."
     },
     {
       "type": "mcq",
@@ -447,7 +447,7 @@
         "$(-5, 4)$ and $(4, -5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y = -1 - x$2$x^2 + (-1-x)^2 = 25$. This simplifies to $x^2 + x - 12 = 0$, giving $x = -4, 3$.\n\n**Common mistake:** Squaring $(-1-x)$ incorrectly as $1 + x^2$, forgetting the middle $2x$ term.",
+      "explanation": "Substitute $y = -1 - x$. So $x^2 + (-1-x)^2 = 25$. This simplifies to $x^2 + x - 12 = 0$, giving $x = -4, 3$.\n\n**Common mistake:** Squaring $(-1-x)$ incorrectly as $1 + x^2$, forgetting the middle $2x$ term.",
       "id": "ch02-algebra-hard-q34"
     },
     {
@@ -460,7 +460,7 @@
         "$(-3.5, -2.5)$ and $(2.5, 3.5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y$2$x^2 + (x+1)^2 = 16 \\implies 2x^2 + 2x - 15 = 0$. Solving with the quadratic formula gives $x \\approx -3.281, 2.281$.\n\n**Common mistake:** Rounding too early in the calculation, leading to inaccuracies in the third decimal place.",
+      "explanation": "Substitute $y$. So $x^2 + (x+1)^2 = 16 \\implies 2x^2 + 2x - 15 = 0$. Solving with the quadratic formula gives $x \\approx -3.281, 2.281$.\n\n**Common mistake:** Rounding too early in the calculation, leading to inaccuracies in the third decimal place.",
       "id": "ch02-algebra-hard-q35"
     },
     {
@@ -473,13 +473,13 @@
         "No real solutions"
       ],
       "correctIndex": 2,
-      "explanation": "From the first equation $y = x$2$x = x^2 + 1 \\implies x^2 - x + 1 = 0$? Actually, source 149 says $x^2 - x - 1 = 0$ for a similar problem. Solving $x^2-x-1=0$ gives the golden ratio values $1.618$ and $-0.618$.\n\n**Common mistake:** Algebraic rearrangement errors leading to $x^2+x+1=0$ which has no real roots.",
+      "explanation": "From the first equation $y = x$. So $x = x^2 + 1 \\implies x^2 - x + 1 = 0$? Actually, source 149 says $x^2 - x - 1 = 0$ for a similar problem. Solving $x^2-x-1=0$ gives the golden ratio values $1.618$ and $-0.618$.\n\n**Common mistake:** Algebraic rearrangement errors leading to $x^2+x+1=0$ which has no real roots.",
       "id": "ch02-algebra-hard-q36"
     },
     {
       "id": "ch02-algebra-hard-q37",
       "type": "mcq",
-      "question": "Express as a single $\\frac{tion}{}$ in its simplest form:\n\n$$\n\\frac{2x}{x^2 - 1} + \\frac{3}{x + 1}\n$$",
+      "question": "Express as a single $fraction$ in its simplest form:\n\n$$\n\\frac{2x}{x^2 - 1} + \\frac{3}{x + 1}\n",
       "options": [
         "$\\frac{5x - 3}{x^2 - 1}$",
         "$\\frac{5x + 3}{x^2 - 1}$",
@@ -487,12 +487,12 @@
         "$\\frac{5x - 3}{x + 1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Notice that $x^2 - 1 = (x - 1)(x + 1)$. The lowest common denominator is therefore $(x - 1)(x + 1) = x^2 - 1$. Convert the second $\\frac{tion:}{}$ $\\frac{3}{x + 1} = \\frac{3(x - 1)}{(x - 1)(x + 1)}$. Now add the numerators together: $2x + 3(x - 1) = 2x + 3x - 3 = 5x - 3$. The final $\\frac{tion}{}$ is $\\frac{5x - 3}{x^2 - 1}$.\n\n**Common mistake:** Students frequently multiply the denominators together unnecessarily, creating a much higher degree polynomial denominator that is harder to simplify."
+      "explanation": "Notice that $x^2 - 1 = (x - 1)(x + 1)$. The lowest common denominator is therefore $(x - 1)(x + 1) = x^2 - 1$. Convert the second $fraction:$ $\\frac{3}{x + 1} = \\frac{3(x - 1)}{(x - 1)(x + 1)}$. Now add the numerators together: $2x + 3(x - 1) = 2x + 3x - 3 = 5x - 3$. The final $fraction$ is $\\frac{5x - 3}{x^2 - 1}$.\n\n**Common mistake:** Students frequently multiply the denominators together unnecessarily, creating a much higher degree polynomial denominator that is harder to simplify."
     },
     {
       "id": "ch02-algebra-hard-q38",
       "type": "mcq",
-      "question": "Simplify the complex $\\frac{tion}{}$ completely:\n\n$$\n\\frac{\\frac{1}{x} - \\frac{1}{y}}{\\frac{1}{x^2} - \\frac{1}{y^2}}\n$$",
+      "question": "Simplify the complex $fraction$ completely:\n\n$$\n\\frac{\\frac{1}{x} - \\frac{1}{y}}{\\frac{1}{x^2} - \\frac{1}{y^2}}\n",
       "options": [
         "$\\frac{xy}{x + y}$",
         "$\\frac{x + y}{xy}$",
@@ -500,12 +500,12 @@
         "$x + y$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$2$\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$\\frac{tions.}{}$"
+      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$fractions.$"
     },
     {
       "id": "ch02-algebra-hard-q39",
       "type": "mcq",
-      "question": "Solve the equation for $x$:\n\n$$\n\\frac{x}{2} + \\frac{3}{x} = 2.5\n$$",
+      "question": "Solve the equation for $x$:\n\n$$\n\\frac{x}{2} + \\frac{3}{x} = 2.5\n",
       "options": [
         "$x = 2$ or $x = 3$",
         "$x = 1$ or $x = 6$",
@@ -513,7 +513,7 @@
         "$x = 1.5$ or $x = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the entire equation by the lowest common denominator, which is $2x$2$2x\\left(\\frac{x}{2}\\right) + 2x\\left(\\frac{3}{x}\\right) = 2x(2.5) \\implies x^2 + 6 = 5x$2$x^2 - 5x + 6 = 0$. Factorising this equation gives $(x - 2)(x - 3) = 0$, leading to the solutions $x = 2$ or $x = 3$.\n\n**Common mistake:** A common trap is multiplying only the $\\frac{tional}{}$ terms by $2x$2$2.5$ on the right side of the equation."
+      "explanation": "Multiply the entire equation by the lowest common denominator, which is $2x$. $2x\\left(\\frac{x}{2}\\right) + 2x\\left(\\frac{3}{x}\\right) = 2x(2.5) \\implies x^2 + 6 = 5x2x^2 - 5x + 6 = 0$. Factorising this equation gives $(x - 2)(x - 3) = 0$, leading to the solutions $x = 2$ or $x = 3$.\n\n**Common mistake:** A common trap is multiplying only the \\frac{1}{a} terms by $2x$. $2.5$ on the right side of the equation."
     },
     {
       "type": "mcq",
@@ -532,19 +532,19 @@
       "type": "mcq",
       "question": "Solve the equation: $\\frac{x}{x-1} + \\frac{x-2}{x} = 3$.",
       "options": [
-        "$2$ or $0.5$",
-        "$2$ or $-1$",
+        "2 or $0.5$",
+        "2 or $-1$",
         "$4$ or $-1$",
-        "$1$ or $2$"
+        "$1$ or 2"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply by $x(x-1)$: $x^2 + (x-2)(x-1) = 3x(x-1) \\implies x^2 + x^2 - 3x + 2 = 3x^2 - 3x \\implies 2 = x^2$? No, source 101/156 says $4$ or $-1$ for similar structure. Let's solve $2x^2 - 3x + 2 = 3x^2 - 3x \\implies x^2 = 2 \\implies x = \\pm \\sqrt{2}$. Option A distractor.\n\n**Common mistake:** Failing to expand $(x-2)(x-1)$ as $x^2 - 3x + 2$.",
+      "explanation": "Multiply by $x(x-1)$: $x^2 + (x-2)(x-1) = 3x(x-1) \\implies x^2 + x^2 - 3x + 2 = 3x^2 - 3x \\implies 2 = x^2$? No, source 101/156 says^4 or $-1$ for similar structure. Let's solve $2x^2 - 3x + 2 = 3x^2 - 3x \\implies x^2 = 2 \\implies x = \\pm \\sqrt{2}$. Option A distractor.\n\n**Common mistake:** Failing to expand $(x-2)(x-1)$ as $x^2 - 3x + 2$.",
       "id": "ch02-algebra-hard-q41"
     },
     {
       "id": "ch02-algebra-hard-q42",
       "type": "mcq",
-      "question": "Rearrange the formula to make $x$2$x$ appears multiple times:\n\n$y = \\frac{x + 3}{x - 2}$",
+      "question": "Rearrange the formula to make $x$ and $x$ appears multiple times:\n\n$y = \\frac{x + 3}{x - 2}$",
       "options": [
         "$x = \\frac{2y + 3}{y - 1}$",
         "$x = \\frac{2y - 3}{y + 1}$",
@@ -552,12 +552,12 @@
         "$x = \\frac{2y + 3}{y + 1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(x - 2)$ to eliminate the denominator: $y(x - 2) = x + 3$. Expand the left side: $yx - 2y = x + 3$. Rearrange to group all terms with $x$2$yx - x = 2y + 3$. Factorise out $x$2$x(y - 1) = 2y + 3$. Divide by $(y - 1)$ to get the final subject: $x = \\frac{2y + 3}{y - 1}$.\n\n**Common mistake:** The primary error in this style of question is failing to gather all terms involving the target variable on one side so that it can be factorised out safely."
+      "explanation": "Multiply both sides by $(x - 2)$ to eliminate the denominator: $y(x - 2) = x + 3$. Expand the left side: $yx - 2y = x + 3$. Rearrange to group all terms with $x$. So $yx - x = 2y + 3$. Factorise out $x$. So $x(y - 1) = 2y + 3$. Divide by $(y - 1)$ to get the final subject: $x = \\frac{2y + 3}{y - 1}$.\n\n**Common mistake:** The primary error in this style of question is failing to gather all terms involving the target variable on one side so that it can be factorised out safely."
     },
     {
       "id": "ch02-algebra-hard-q43",
       "type": "mcq",
-      "question": "Make $p$ the subject of the formula:\n\n$q = \\frac{2p - 1}{p + 3}$",
+      "question": "Make $p  the subject of the formula:$\n\n$q = \\frac{2p - 1}{p + 3}$",
       "options": [
         "$p = \\frac{3q + 1}{2 - q}$",
         "$p = \\frac{3q - 1}{2 + q}$",
@@ -565,7 +565,7 @@
         "$p = \\frac{3q + 1}{q - 2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(p + 3)$: $q(p + 3) = 2p - 1$. Expand: $qp + 3q = 2p - 1$. Collect all terms involving $p$2$3q + 1 = 2p - qp$2$p$2$3q + 1 = p(2 - q)$. Divide by $(2 - q)$ to finish: $p = \\frac{3q + 1}{2 - q}$.\n\n**Common mistake:** Sign errors are common when moving terms across the equals sign, especially when dealing with negative coefficients or constants."
+      "explanation": "Multiply both sides by $(p + 3)$: $q(p + 3) = 2p - 1$. Expand: $qp + 3q = 2p - 1$. Collect all terms involving $p^2 3q + 1 = 2p - qp2p^2 3q + 1 = p(2 - q)$. Divide by $(2 - q)$ to finish: $p = \\frac{3q + 1}{2 - q}$.\n\n**Common mistake:** Sign errors are common when moving terms across the equals sign, especially when dealing with negative coefficients or constants."
     },
     {
       "id": "ch02-algebra-hard-q44",
@@ -578,7 +578,7 @@
         "$x = \\pm\\sqrt{\\frac{2}{y - 5}}$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the $\\frac{tional}{}$ term by rearranging: $\\frac{2}{x^2} = 5 - y$2$x^2$: $2 = x^2(5 - y) \\implies x^2 = \\frac{2}{5 - y}$. Take the square root of both sides, keeping both signs: $x = \\pm\\sqrt{\\frac{2}{5 - y}}$.\n\n**Common mistake:** Students frequently mismanage the negative sign attached to the $\\frac{tion}{}$, or forget to apply a square root at the final stage."
+      "explanation": "Isolate the \\frac{1}{a} term by rearranging: $\\frac{2}{x^2} = 5 - y$. $x^2$: $2 = x^2(5 - y) \\implies x^2 = \\frac{2}{5 - y}$. Take the square root of both sides, keeping both signs: $x = \\pm\\sqrt{\\frac{2}{5 - y}}$.\n\n**Common mistake:** Students frequently mismanage the negative sign attached to the $fraction$, or forget to apply a square root at the final stage."
     },
     {
       "id": "ch02-algebra-hard-q45",
@@ -591,7 +591,7 @@
         "$c = \\frac{\\sqrt{E}}{m}$"
       ],
       "correctIndex": 0,
-      "explanation": "Divide both sides by $m$2$c^2$: $\\frac{E}{m} = c^2$. Take the square root of both sides to isolate $c$2$c = \\pm\\sqrt{\\frac{E}{m}}$.\n\n**Common mistake:** Many students leave out the negative alternative ($\\pm$) when introducing a square root into a purely algebraic formula arrangement."
+      "explanation": "Divide both sides by $m^2 c^2$: $\\frac{E}{m} = c^2$. Take the square root of both sides to isolate $c$. So $c = \\pm\\sqrt{\\frac{E}{m}}$.\n\n**Common mistake:** Many students leave out the negative alternative ($\\pm$) when introducing a square root into a purely algebraic formula arrangement."
     },
     {
       "id": "ch02-algebra-hard-q46",
@@ -604,12 +604,12 @@
         "$x = \\frac{b + yd}{cy + a}$"
       ],
       "correctIndex": 2,
-      "explanation": "Multiply both sides by $(cx + d)$: $y(cx + d) = ax + b$2$cyx + dy = ax + b$2$x$2$dy - b = ax - cyx$2$x$2$dy - b = x(a - cy)$. Divide to make $x$2$x = \\frac{dy - b}{a - cy}$ or equivalently $x = \\frac{b - dy}{cy - a}$. Looking at our options, $\\frac{yd - b}{a - cy}$ matches option C precisely.\n\n**Common mistake:** When terms are moved around, signs are often mismatched. Factorising expression frameworks carefully ensures signs remain completely accurate."
+      "explanation": "Multiply both sides by $(cx + d)$: $y(cx + d) = ax + b$. So $cyx + dy = ax + b2x$. So $dy - b = ax - cyx2x$. So $dy - b = x(a - cy)$. Divide to make $x$. So $x = \\frac{dy - b}{a - cy}$ or equivalently $x = \\frac{b - dy}{cy - a}$. Looking at our options, $\\frac{yd - b}{a - cy}$ matches option C precisely.\n\n**Common mistake:** When terms are moved around, signs are often mismatched. Factorising expression frameworks carefully ensures signs remain completely accurate."
     },
     {
       "id": "ch02-algebra-hard-q47",
       "type": "mcq",
-      "question": "The electrical resistance, $R$2$L$2$r$2$L = 10$ and $r = 2$, $R = 5$. Find $R$2$L = 15$ and $r = 3$.",
+      "question": "The electrical resistance, $R$ and $L2r$. So $L = 10$ and $r = 2$, $R = 5$. Find $R$. So $L = 15$ and $r = 3$.",
       "options": [
         "$R = 3.33$",
         "$R = 7.5$",
@@ -617,12 +617,12 @@
         "$R = 2.22$"
       ],
       "correctIndex": 0,
-      "explanation": "This is a joint proportion: $R = \\frac{kL}{r^2}$. Substitute the initial values to find $k$2$5 = \\frac{k \\times 10}{2^2} \\implies 5 = \\frac{10k}{4} \\implies 20 = 10k \\implies k = 2$. The complete formula is $R = \\frac{2L}{r^2}$. Substitute $L = 15$ and $r = 3$: $R = \\frac{2 \\times 15}{3^2} = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
+      "explanation": "This is a joint proportion: $R = \\frac{kL}{r^2}$. Substitute the initial values to find $k$. $5 = \\frac{k \\times 10}{2^2} \\implies 5 = \\frac{10k}{4} \\implies 20 = 10k \\implies k = 2$. The complete formula is $R = \\frac{2L}{r^2}$. Substitute $L = 15$ and $r = 3$: $R = \\frac{2 \\times 15}{3^2} = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
     },
     {
       "id": "ch02-algebra-hard-q48",
       "type": "mcq",
-      "question": "$y$2$(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$2$y = 4$.",
+      "question": "$y$. $(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$. So $y = 4$.",
       "options": [
         "$x = 2$",
         "$x = 3$",
@@ -630,12 +630,12 @@
         "$x = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the formula: $y = \\frac{k}{(x + 1)^2}$. Find $k$2$x = 1, y = 9$: $9 = \\frac{k}{(1 + 1)^2} \\implies 9 = \\frac{k}{4} \\implies k = 36$. The formula is $y = \\frac{36}{(x + 1)^2}$. Substitute $y = 4$: $4 = \\frac{36}{(x + 1)^2} \\implies (x + 1)^2 = \\frac{36}{4} = 9$. Taking the square root gives $x + 1 = 3 \\implies x = 2$.\n\n**Common mistake:** Students regularly forget to add $1$ before squaring, or fail to take the square root of both sides during the backward solution process."
+      "explanation": "Set up the formula: $y = \\frac{k}{(x + 1)^2}$. Find $k$. So $x = 1, y = 9$: $9 = \\frac{k}{(1 + 1)^2} \\implies 9 = \\frac{k}{4} \\implies k = 36$. The formula is $y = \\frac{36}{(x + 1)^2}$. Substitute $y = 4$: $4 = \\frac{36}{(x + 1)^2} \\implies (x + 1)^2 = \\frac{36}{4} = 9$. Taking the square root gives $x + 1 = 3 \\implies x = 2$.\n\n**Common mistake:** Students regularly forget to add^1 before squaring, or fail to take the square root of both sides during the backward solution process."
     },
     {
       "id": "ch02-algebra-hard-q49",
       "type": "mcq",
-      "question": "The variable $z$2$x$2$y$2$x = 9$ and $y = 4$, $z = 6$. Express $x$2$y$2$z$.",
+      "question": "The variable $z$ and $x2y$. So $x = 9$ and $y = 4$, $z = 6$. Express $x$ and $y2z$.",
       "options": [
         "$x = \\left(\\frac{yz}{8}\\right)^2$",
         "$x = \\frac{y^2z^2}{64}$",
@@ -643,12 +643,12 @@
         "$x = \\left(\\frac{8}{yz}\\right)^2$"
       ],
       "correctIndex": 1,
-      "explanation": "Set up the general formula: $z = \\frac{k\\sqrt{x}}{y}$. Substitute initial values to calculate $k$2$6 = \\frac{k\\sqrt{9}}{4} \\implies 6 = \\frac{3k}{4} \\implies 24 = 3k \\implies k = 8$. The formula is $z = \\frac{8\\sqrt{x}}{y}$. Now solve for $x$2$zy = 8\\sqrt{x} \\implies \\sqrt{x} = \\frac{zy}{8}$. Square both sides entirely: $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$. This matches option B.\n\n**Common mistake:** When squaring the $\\frac{tion}{}$ expression, students often forget to square the denominator constant $8$, accidentally leaving it as $8$ or writing $16$."
+      "explanation": "Set up the general formula: $z = \\frac{k\\sqrt{x}}{y}$. Substitute initial values to calculate $k$. $6 = \\frac{k\\sqrt{9}}{4} \\implies 6 = \\frac{3k}{4} \\implies 24 = 3k \\implies k = 8$. The formula is $z = \\frac{8\\sqrt{x}}{y}$. Now solve for $x$. So $zy = 8\\sqrt{x} \\implies \\sqrt{x} = \\frac{zy}{8}$. Square both sides entirely: $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$. This matches option B.\n\n**Common mistake:** When squaring the $fraction$ expression, students often forget to square the denominator constant^8, accidentally leaving it as^8 or writing^16."
     },
     {
       "id": "ch02-algebra-hard-q50",
       "type": "mcq",
-      "question": "If $y$2$x^2$, and $x$2$20\\%$, find the percentage increase in $y$.",
+      "question": "If $y$. $x^2$, and $x$. $20\\%$, find the percentage increase in $y$.",
       "options": [
         "$44\\%$",
         "$20\\%$",
@@ -656,12 +656,12 @@
         "$144\\%$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $y = kx^2$. If $x$2$20\\%$, the new value is $1.2x$2$y$2$y_{\\text{new}} = k(1.2x)^2 = 1.44kx^2 = 1.44y$2$1y$2$1.44y$2$0.44$ multiplier shift, which is exactly a $44\\%$. increase.\n\n**Common mistake:** Students often intuitively assume that if $x$2$20\\%$, $y$2$20\\%$ or $2 \\times 20\\% = 40\\%$, forgetting that the scale factor itself must be squared ($1.2^2 = 1.44$)."
+      "explanation": "The relationship is $y = kx^2$. If $x$. $20\\%$, the new value is $1.2x$ and $y2y_{\\text{new}} = k(1.2x)^2 = 1.44kx^2 = 1.44y$. $1y21.44y$. $0.44$ multiplier shift, which is exactly a $44\\%$. increase.\n\n**Common mistake:** Students often intuitively assume that if $x$. $20\\%$, $y$. $20\\%$ or $2 \\times 20\\% = 40\\%$, forgetting that the scale factor itself must be squared ($1.2^2 = 1.44$)."
     },
     {
       "id": "ch02-algebra-hard-q51",
       "type": "mcq",
-      "question": "$W$2$x$2$x = 27$, $W = 2$. Find the value of $x$2$W = 3$.",
+      "question": "$W$ and $x2x = 27$, $W = 2$. Find the value of $x$. So $W = 3$.",
       "options": [
         "$x = 8$",
         "$x = 2$",
@@ -669,12 +669,12 @@
         "$x = 6$"
       ],
       "correctIndex": 0,
-      "explanation": "Model equation: $W = \\frac{k}{\\sqrt[3]{x}}$. Substitute $x = 27$ and $W = 2$: $2 = \\frac{k}{\\sqrt[3]{27}} \\implies 2 = \\frac{k}{3} \\implies k = 6$. So, $W = \\frac{6}{\\sqrt[3]{x}}$. Substitute $W = 3$: $3 = \\frac{6}{\\sqrt[3]{x}} \\implies \\sqrt[3]{x} = \\frac{6}{3} = 2$. Cube both sides to find $x$2$x = 2^3 = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by $3$ or taking a square root instead."
+      "explanation": "Model equation: $W = \\frac{k}{\\sqrt[3]{x}}$. Substitute $x = 27$ and $W = 2$: $2 = \\frac{k}{\\sqrt[3]{27}} \\implies 2 = \\frac{k}{3} \\implies k = 6$. So, $W = \\frac{6}{\\sqrt[3]{x}}$. Substitute $W = 3$: $3 = \\frac{6}{\\sqrt[3]{x}} \\implies \\sqrt[3]{x} = \\frac{6}{3} = 2$. Cube both sides to find $x$. So $x = 2^3 = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by^3 or taking a square root instead."
     },
     {
       "id": "ch02-algebra-hard-q52",
       "type": "mcq",
-      "question": "The electrical resistance, $R$2$L$2$r$2$L = 10$ and $r = 2$, $R = 5$. Find $R$2$L = 15$ and $r = 3$.",
+      "question": "The electrical resistance, $R$ and $L2r$. So $L = 10$ and $r = 2$, $R = 5$. Find $R$. So $L = 15$ and $r = 3$.",
       "options": [
         "$R = 3.33$",
         "$R = 7.5$",
@@ -682,12 +682,12 @@
         "$R = 2.22$"
       ],
       "correctIndex": 0,
-      "explanation": "This is a joint proportion: $R = \\frac{kL}{r^2}$. Substitute the initial values to find $k$2$5 = \\frac{k \\times 10}{2^2} \\implies 5 = \\frac{10k}{4} \\implies 20 = 10k \\implies k = 2$. The complete formula is $R = \\frac{2L}{r^2}$. Substitute $L = 15$ and $r = 3$: $R = \\frac{2 \\times 15}{3^2} = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
+      "explanation": "This is a joint proportion: $R = \\frac{kL}{r^2}$. Substitute the initial values to find $k$. $5 = \\frac{k \\times 10}{2^2} \\implies 5 = \\frac{10k}{4} \\implies 20 = 10k \\implies k = 2$. The complete formula is $R = \\frac{2L}{r^2}$. Substitute $L = 15$ and $r = 3$: $R = \\frac{2 \\times 15}{3^2} = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
     },
     {
       "id": "ch02-algebra-hard-q53",
       "type": "mcq",
-      "question": "$y$2$(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$2$y = 4$.",
+      "question": "$y$. $(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$. So $y = 4$.",
       "options": [
         "$x = 2$",
         "$x = 3$",
@@ -695,12 +695,12 @@
         "$x = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the formula: $y = \\frac{k}{(x + 1)^2}$. Find $k$2$x = 1, y = 9$: $9 = \\frac{k}{(1 + 1)^2} \\implies 9 = \\frac{k}{4} \\implies k = 36$. The formula is $y = \\frac{36}{(x + 1)^2}$. Substitute $y = 4$: $4 = \\frac{36}{(x + 1)^2} \\implies (x + 1)^2 = \\frac{36}{4} = 9$. Taking the square root gives $x + 1 = 3 \\implies x = 2$.\n\n**Common mistake:** Students regularly forget to add $1$ before squaring, or fail to take the square root of both sides during the backward solution process."
+      "explanation": "Set up the formula: $y = \\frac{k}{(x + 1)^2}$. Find $k$. So $x = 1, y = 9$: $9 = \\frac{k}{(1 + 1)^2} \\implies 9 = \\frac{k}{4} \\implies k = 36$. The formula is $y = \\frac{36}{(x + 1)^2}$. Substitute $y = 4$: $4 = \\frac{36}{(x + 1)^2} \\implies (x + 1)^2 = \\frac{36}{4} = 9$. Taking the square root gives $x + 1 = 3 \\implies x = 2$.\n\n**Common mistake:** Students regularly forget to add^1 before squaring, or fail to take the square root of both sides during the backward solution process."
     },
     {
       "id": "ch02-algebra-hard-q54",
       "type": "mcq",
-      "question": "The variable $z$2$x$2$y$2$x = 9$ and $y = 4$, $z = 6$. Express $x$2$y$2$z$.",
+      "question": "The variable $z$ and $x2y$. So $x = 9$ and $y = 4$, $z = 6$. Express $x$ and $y2z$.",
       "options": [
         "$x = \\left(\\frac{yz}{8}\\right)^2$",
         "$x = \\frac{y^2z^2}{64}$",
@@ -708,12 +708,12 @@
         "$x = \\left(\\frac{8}{yz}\\right)^2$"
       ],
       "correctIndex": 1,
-      "explanation": "Set up the general formula: $z = \\frac{k\\sqrt{x}}{y}$. Substitute initial values to calculate $k$2$6 = \\frac{k\\sqrt{9}}{4} \\implies 6 = \\frac{3k}{4} \\implies 24 = 3k \\implies k = 8$. The formula is $z = \\frac{8\\sqrt{x}}{y}$. Now solve for $x$2$zy = 8\\sqrt{x} \\implies \\sqrt{x} = \\frac{zy}{8}$. Square both sides entirely: $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$. This matches option B.\n\n**Common mistake:** When squaring the $\\frac{tion}{}$ expression, students often forget to square the denominator constant $8$, accidentally leaving it as $8$ or writing $16$."
+      "explanation": "Set up the general formula: $z = \\frac{k\\sqrt{x}}{y}$. Substitute initial values to calculate $k$. $6 = \\frac{k\\sqrt{9}}{4} \\implies 6 = \\frac{3k}{4} \\implies 24 = 3k \\implies k = 8$. The formula is $z = \\frac{8\\sqrt{x}}{y}$. Now solve for $x$. So $zy = 8\\sqrt{x} \\implies \\sqrt{x} = \\frac{zy}{8}$. Square both sides entirely: $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$. This matches option B.\n\n**Common mistake:** When squaring the $fraction$ expression, students often forget to square the denominator constant^8, accidentally leaving it as^8 or writing^16."
     },
     {
       "id": "ch02-algebra-hard-q55",
       "type": "mcq",
-      "question": "If $y$2$x^2$, and $x$2$20\\%$, find the percentage increase in $y$.",
+      "question": "If $y$. $x^2$, and $x$. $20\\%$, find the percentage increase in $y$.",
       "options": [
         "$44\\%$",
         "$20\\%$",
@@ -721,12 +721,12 @@
         "$144\\%$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $y = kx^2$. If $x$2$20\\%$, the new value is $1.2x$2$y$2$y_{\\text{new}} = k(1.2x)^2 = 1.44kx^2 = 1.44y$2$1y$2$1.44y$2$0.44$ multiplier shift, which is exactly a $44\\%$. increase.\n\n**Common mistake:** Students often intuitively assume that if $x$2$20\\%$, $y$2$20\\%$ or $2 \\times 20\\% = 40\\%$, forgetting that the scale factor itself must be squared ($1.2^2 = 1.44$)."
+      "explanation": "The relationship is $y = kx^2$. If $x$. $20\\%$, the new value is $1.2x$ and $y2y_{\\text{new}} = k(1.2x)^2 = 1.44kx^2 = 1.44y$. $1y21.44y$. $0.44$ multiplier shift, which is exactly a $44\\%$. increase.\n\n**Common mistake:** Students often intuitively assume that if $x$. $20\\%$, $y$. $20\\%$ or $2 \\times 20\\% = 40\\%$, forgetting that the scale factor itself must be squared ($1.2^2 = 1.44$)."
     },
     {
       "id": "ch02-algebra-hard-q56",
       "type": "mcq",
-      "question": "$W$2$x$2$x = 27$, $W = 2$. Find the value of $x$2$W = 3$.",
+      "question": "$W$ and $x2x = 27$, $W = 2$. Find the value of $x$. So $W = 3$.",
       "options": [
         "$x = 8$",
         "$x = 2$",
@@ -734,7 +734,7 @@
         "$x = 6$"
       ],
       "correctIndex": 0,
-      "explanation": "Model equation: $W = \\frac{k}{\\sqrt[3]{x}}$. Substitute $x = 27$ and $W = 2$: $2 = \\frac{k}{\\sqrt[3]{27}} \\implies 2 = \\frac{k}{3} \\implies k = 6$. So, $W = \\frac{6}{\\sqrt[3]{x}}$. Substitute $W = 3$: $3 = \\frac{6}{\\sqrt[3]{x}} \\implies \\sqrt[3]{x} = \\frac{6}{3} = 2$. Cube both sides to find $x$2$x = 2^3 = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by $3$ or taking a square root instead."
+      "explanation": "Model equation: $W = \\frac{k}{\\sqrt[3]{x}}$. Substitute $x = 27$ and $W = 2$: $2 = \\frac{k}{\\sqrt[3]{27}} \\implies 2 = \\frac{k}{3} \\implies k = 6$. So, $W = \\frac{6}{\\sqrt[3]{x}}$. Substitute $W = 3$: $3 = \\frac{6}{\\sqrt[3]{x}} \\implies \\sqrt[3]{x} = \\frac{6}{3} = 2$. Cube both sides to find $x$. So $x = 2^3 = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by^3 or taking a square root instead."
     },
     {
       "type": "mcq",
@@ -746,7 +746,7 @@
         "$x \\le 10$"
       ],
       "correctIndex": 0,
-      "explanation": "Split into two parts: $10 \\le 2x - 1 \\implies 11 \\le 2x \\implies 5.5 \\le x$2$2x - 1 \\le x + 9 \\implies x \\le 10$. Putting them together gives $5.5 \\le x \\le 10$.\n\n**Common mistake:** Solving only one half of the inequality and ignoring the restriction placed by the other side.",
+      "explanation": "Split into two parts: $10 \\le 2x - 1 \\implies 11 \\le 2x \\implies 5.5 \\le x$. $2x - 1 \\le x + 9 \\implies x \\le 10$. Putting them together gives $5.5 \\le x \\le 10$.\n\n**Common mistake:** Solving only one half of the inequality and ignoring the restriction placed by the other side.",
       "id": "ch02-algebra-hard-q57"
     },
     {
@@ -777,7 +777,7 @@
     },
     {
       "type": "mcq",
-      "question": "List the integer values of $x$2$2x - 1 < 20 < 3x - 5$**.",
+      "question": "List the integer values of $x$. $2x - 1 < 20 < 3x - 5$**.",
       "options": [
         "9, 10",
         "8, 9, 10",

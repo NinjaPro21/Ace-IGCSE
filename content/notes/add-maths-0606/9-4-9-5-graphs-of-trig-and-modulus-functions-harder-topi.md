@@ -6,7 +6,7 @@ Trigonometric graphs are periodic waves. The modulus function $|f(x)|$ reflects 
 
 **Sine and cosine graph**
 
-$y = a\sin(bx) + c$ has amplitude $|a|$ and period $\dfrac{360°}{|b|}$ (degrees) or $\dfrac{2\pi}{|b|}$ (radians).
+$y = a\sin(bx) + c$ has amplitude $|a|$ and period $\frac{360°}{|b|}$ (degrees) or $\frac{2\pi}{|b|}$ (radians).
 
 **Modulus graph**
 
@@ -15,8 +15,11 @@ $y = |f(x)|$ — replace negative values of $f(x)$ by their opposites.
 ## Steps / method
 
 1. **Identify** amplitude and period from the equation.
+
 2. **Sketch** the parent curve (intercepts and turning points).
+
 3. **Apply modulus** — reflect any negative section above the x-axis.
+
 4. **Label** all points where the graph meets the axes.
 
 ### Key rule
@@ -35,7 +38,7 @@ Between $90°$ and $270°$, $\cos x < 0$. Reflect this part upward: $y = |\cos x
 
 Question: State the amplitude and period of $y = 4\sin(3x)$.
 
-Amplitude $= 4$. Period $= \dfrac{360°}{3} = 120°$.
+Amplitude $= 4$. Period $= \frac{360°}{3} = 120°$.
 
 ## Examiner tip
 

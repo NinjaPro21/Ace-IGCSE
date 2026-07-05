@@ -11,20 +11,20 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q1",
       "type": "mcq",
-      "question": "To transform the non-linear equation $y = ax^n$2$Y = mX + c$2$Y$2$X$) axes?",
+      "question": "To transform the non-linear equation $y = ax^n$. So $Y = mX + c2Y$ and $X$) axes?",
       "options": [
-        "$\\lg y$2$Y$2$\\lg x$2$X$-axis",
-        "$y$2$Y$2$x^n$2$X$-axis",
-        "$\\lg y$2$Y$2$x$2$X$-axis",
-        "$y$2$Y$2$\\lg x$2$X$-axis"
+        "$\\lg y$ and $Y2\\lg x$ and $X$-axis",
+        "$y$ and $Y2x^n$ and $X$-axis",
+        "$\\lg y$ and $Y2x$ and $X$-axis",
+        "$y$ and $Y2\\lg x$ and $X$-axis"
       ],
       "correctIndex": 0,
-      "explanation": "Taking logs of both sides gives $\\lg y = \\lg(ax^n) = n \\lg x + \\lg a$2$Y = mX + c$2$Y = \\lg y$2$X = \\lg x$.\n\n**Common mistake:** Students often forget to take the logarithm of the independent variable $x$2$\\lg y$2$x$."
+      "explanation": "Taking logs of both sides gives $\\lg y = \\lg(ax^n) = n \\lg x + \\lg a$. So $Y = mX + c2Y = \\lg y$. So $X = \\lg x$.\n\n**Common mistake:** Students often forget to take the logarithm of the independent variable $x$. $\\lg y2x$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q2",
       "type": "mcq",
-      "question": "Identify the gradient ($m$2$\\ln y$2$x$2$y = Ae^{kx}$.",
+      "question": "Identify the gradient ($m . \\ln y2x$. So $y = Ae^{kx}$.",
       "options": [
         "$k$",
         "$\\ln A$",
@@ -32,25 +32,25 @@
         "$\\ln k$"
       ],
       "correctIndex": 0,
-      "explanation": "Applying natural logarithms gives $\\ln y = \\ln(Ae^{kx}) = \\ln A + kx$2$Y = mX + c$2$m$2$k$.\n\n**Common mistake:** A student might confuse the gradient with the intercept and select $\\ln A$."
+      "explanation": "Applying natural logarithms gives $\\ln y = \\ln(Ae^{kx}) = \\ln A + kx$. So $Y = mX + c2m  and k$.\n\n**Common mistake:** A student might confuse the gradient with the intercept and select $\\ln A$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q3",
       "type": "mcq",
-      "question": "For the equation $y = px^2 + qx$2$p$2$q$?",
+      "question": "For the equation $y = px^2 + qx$ and $p2q$?",
       "options": [
         "$\\frac{y}{x}$ against $x$",
-        "$y$2$x^2$",
+        "$y$. $x^2$",
         "$\\frac{y}{x^2}$ against $\\frac{1}{x}$",
-        "$\\lg y$2$\\lg x$"
+        "$\\lg y$. $\\lg x$"
       ],
       "correctIndex": 0,
-      "explanation": "Dividing the original equation by $x$2$\\frac{y}{x} = px + q$2$Y = mX + c$2$Y = \\frac{y}{x}$ and $X = x$.\n\n**Common mistake:** Students often attempt to use logarithms for all non-linear equations instead of simple algebraic division."
+      "explanation": "Dividing the original equation by $x$. So $\\frac{y}{x} = px + q2Y = mX + c$. So $Y = \\frac{y}{x}$ and $X = x$.\n\n**Common mistake:** Students often attempt to use logarithms for all non-linear equations instead of simple algebraic division."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q4",
       "type": "mcq",
-      "question": "If a graph of $y$2$\\frac{1}{x}$ is a straight line passing through the origin with gradient 5, what is the original relationship between $x$2$y$?",
+      "question": "If a graph of $y$. $\\frac{1}{x}$ is a straight line passing through the origin with gradient 5, what is the original relationship between $x$ and $y$?",
       "options": [
         "$y = \\frac{5}{x}$",
         "$y = 5x$",
@@ -58,7 +58,7 @@
         "$xy = \\frac{1}{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "The linear form $Y = mX + c$2$c=0$ and $m=5$ gives $y = 5(\\frac{1}{x})$, which simplifies to $y = \\frac{5}{x}$.\n\n**Common mistake:** A student might misinterpret the $X$2$y$2$x$2$\\frac{1}{x}$."
+      "explanation": "The linear form $Y = mX + c$. So $c=0$ and $m=5$ gives $y = 5(\\frac{1}{x})$, which simplifies to $y = \\frac{5}{x}$.\n\n**Common mistake:** A student might misinterpret the $X$ and $y2x$. $\\frac{1}{x}$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q5",
@@ -71,12 +71,12 @@
         "$b$"
       ],
       "correctIndex": 0,
-      "explanation": "The equation transforms to $\\lg y = x \\lg b + \\lg A$2$Y = mX + c$2$c$2$\\lg A$.\n\n**Common mistake:** It is common to assume the intercept is the constant $A$ itself without applying the logarithm."
+      "explanation": "The equation transforms to $\\lg y = x \\lg b + \\lg A$. So $Y = mX + c2c$. $\\lg A$.\n\n**Common mistake:** It is common to assume the intercept is the constant $A$ itself without applying the logarithm."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q6",
       "type": "mcq",
-      "question": "Which of the following transformations would turn the equation $y = k x^n$2$Y = mX + c$?",
+      "question": "Which of the following transformations would turn the equation $y = k x^n$. So $Y = mX + c$?",
       "options": [
         "$\\lg y = n \\lg x + \\lg k$",
         "$\\lg y = k \\lg x + n$",
@@ -84,12 +84,12 @@
         "$\\lg y = x \\lg n + \\lg k$"
       ],
       "correctIndex": 0,
-      "explanation": "Taking logarithms to base 10 on both sides of $y = k x^n$2$\\lg y = \\lg(k x^n) = \\lg k + n \\lg x$.\n\n**Common mistake:** Students often swap the exponent $n$2$k$ when applying the power law of logarithms."
+      "explanation": "Taking logarithms to base 10 on both sides of $y = k x^n$. So $\\lg y = \\lg(k x^n) = \\lg k + n \\lg x$.\n\n**Common mistake:** Students often swap the exponent $n$ and $k$ when applying the power law of logarithms."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q7",
       "type": "mcq",
-      "question": "If a graph of $\\ln y$2$x$ is a straight line, which non-linear relationship does this represent?",
+      "question": "If a graph of $\\ln y$ and $x$ is a straight line, which non-linear relationship does this represent?",
       "options": [
         "$y = A e^{mx}$",
         "$y = mx^A$",
@@ -97,20 +97,20 @@
         "$y^2 = mx + A$"
       ],
       "correctIndex": 0,
-      "explanation": "The linear equation is $\\ln y = mx + c$2$y = e^{mx+c} = e^c e^{mx}$, which is in the form $y = A e^{mx}$.\n\n**Common mistake:** A student might confuse the linear plot for $\\ln y$2$x$2$\\lg y$2$\\lg x$2$y=ax^n$."
+      "explanation": "The linear equation is $\\ln y = mx + c$. So $y = e^{mx+c} = e^c e^{mx}$, which is in the form $y = A e^{mx}$.\n\n**Common mistake:** A student might confuse the linear plot for $\\ln y$ and $x2\\lg y$. $\\lg x2y=ax^n$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q8",
       "type": "mcq",
-      "question": "To obtain a straight line from the equation $y = a\\sqrt{x} + b$2$Y$2$X$ axes?",
+      "question": "To obtain a straight line from the equation $y = a\\sqrt{x} + b$ and $Y2X$ axes?",
       "options": [
-        "$y$2$\\sqrt{x}$",
-        "$y$2$x$",
+        "$y$. $\\sqrt{x}$",
+        "$y$ and $x$",
         "$y^2$ against $x$",
-        "$\\lg y$2$\\lg x$"
+        "$\\lg y$. $\\lg x$"
       ],
       "correctIndex": 0,
-      "explanation": "The equation $y = a(x^{0.5}) + b$2$Y = mX + c$2$Y = y$2$X = \\sqrt{x}$.\n\n**Common mistake:** Students often default to using logarithms for any non-linear equation instead of identifying direct algebraic substitutions."
+      "explanation": "The equation $y = a(x^{0.5}) + b$. So $Y = mX + c2Y = y$. So $X = \\sqrt{x}$.\n\n**Common mistake:** Students often default to using logarithms for any non-linear equation instead of identifying direct algebraic substitutions."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q9",
@@ -120,15 +120,15 @@
         "The coefficient of the $x^2$ term",
         "The constant term",
         "The coefficient of the $x$ term",
-        "The value of $y$2$x=0$"
+        "The value of $y$. So $x=0$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiplying $\\frac{y}{x} = ax + b$2$x$2$y = ax^2 + bx$2$a$2$x^2$.\n\n**Common mistake:** Students may think the gradient always represents the coefficient of $x$ in the original equation without rearranging it first."
+      "explanation": "Multiplying $\\frac{y}{x} = ax + b$ and $x2y = ax^2 + bx$ and $a2x^2$.\n\n**Common mistake:** Students may think the gradient always represents the coefficient of $x$ in the original equation without rearranging it first."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-easy-q10",
       "type": "mcq",
-      "question": "State the vertical intercept of the straight line obtained by plotting $\\lg y$2$x$2$y = 5(2^x)$.",
+      "question": "State the vertical intercept of the straight line obtained by plotting $\\lg y$ and $x2y = 5(2^x)$.",
       "options": [
         "$\\lg 5$",
         "5",
@@ -136,7 +136,7 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Taking logs gives $\\lg y = x \\lg 2 + \\lg 5$. In the form $Y = mX + c$2$c$2$\\lg 5$.\n\n**Common mistake:** Mistakenly identifying the coefficient 5 as the intercept without applying the logarithm."
+      "explanation": "Taking logs gives $\\lg y = x \\lg 2 + \\lg 5$. In the form $Y = mX + c$ and $c2\\lg 5$.\n\n**Common mistake:** Mistakenly identifying the coefficient 5 as the intercept without applying the logarithm."
     }
   ]
 }

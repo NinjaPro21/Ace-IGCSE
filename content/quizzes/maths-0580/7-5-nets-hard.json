@@ -11,7 +11,7 @@
     {
       "id": "7-5-nets-hard-q1",
       "type": "mcq",
-      "question": "The net of a closed rectangular box is shown with lengths labelled $a, b,$ and $c$2$480\\text{ cm}³$ and the net shows two rectangles of $8\\text{ cm} \\times 6\\text{ cm}$, find the third dimension $c$.",
+      "question": "The net of a closed rectangular box is shown with lengths labelled $a, b,$ and $c$. $480\\text{ cm}³$ and the net shows two rectangles of $8\\text{ cm} \\times 6\\text{ cm}$, find the third dimension $c$.",
       "options": [
         "$10\\text{ cm}$",
         "$5\\text{ cm}$",
@@ -19,12 +19,12 @@
         "$8\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Volume $= length \\times width \\times height$2$480 = 8 \\times 6 \\times c \\Rightarrow 480 = 48c \\Rightarrow c = 10\\text{ cm}$.\n\n**Common mistake:** A student might add the dimensions instead of multiplying them or miscalculate the division $480/48$."
+      "explanation": "Volume $= length \\times width \\times height$. $480 = 8 \\times 6 \\times c \\Rightarrow 480 = 48c \\Rightarrow c = 10\\text{ cm}$.\n\n**Common mistake:** A student might add the dimensions instead of multiplying them or miscalculate the division $480/48$."
     },
     {
       "id": "7-5-nets-hard-q2",
       "type": "mcq",
-      "question": "A net is being designed for a cylinder of height $10\\text{ cm}$ and radius $r$2$60\\pi\\text{ cm}²$, find the value of $r$.",
+      "question": "A net is being designed for a cylinder of height $10\\text{ cm}$ and radius $r$. $60\\pi\\text{ cm}²$, find the value of $r$.",
       "options": [
         "$3\\text{ cm}$",
         "$6\\text{ cm}$",
@@ -32,12 +32,12 @@
         "$1.5\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Area of rectangle in cylinder net $= circumference \\times height = 2\\pi r \\times h$2$60\\pi = 2\\pi r \\times 10 \\Rightarrow 60 = 20r \\Rightarrow r = 3$.\n\n**Common mistake:** The student might use the area formula $\\pi r^2$ instead of the circumference $2\\pi r$ for the rectangle's length."
+      "explanation": "Area of rectangle in cylinder net $= circumference \\times height = 2\\pi r \\times h$. $60\\pi = 2\\pi r \\times 10 \\Rightarrow 60 = 20r \\Rightarrow r = 3$.\n\n**Common mistake:** The student might use the area formula $\\pi r^2$ instead of the circumference $2\\pi r$ for the rectangle's length."
     },
     {
       "id": "7-5-nets-hard-q3",
       "type": "mcq",
-      "question": "A net for a right-angled triangular prism is made. The triangular faces have sides $3\\text{ cm}, 4\\text{ cm},$ and $5\\text{ cm}$. The prism length is $L$2$132\\text{ cm}²$, find $L$.",
+      "question": "A net for a right-angled triangular prism is made. The triangular faces have sides $3\\text{ cm}, 4\\text{ cm},$ and $5\\text{ cm}$. The prism length is $L$. $132\\text{ cm}²$, find $L$.",
       "options": [
         "$10\\text{ cm}$",
         "$11\\text{ cm}$",
@@ -45,7 +45,7 @@
         "$12\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Triangles area $= 2 \\times (0.5 \\times 3 \\times 4) = 12$. Rectangles area $= 132 - 12 = 120$. Rectangles area is $(3+4+5) \\times L = 12L$2$12L = 120 \\Rightarrow L = 10$.\n\n**Common mistake:** A student might use the wrong perimeter for the rectangles (e.g., adding only two sides of the triangle) or miscalculate the triangle area."
+      "explanation": "Triangles area $= 2 \\times (0.5 \\times 3 \\times 4) = 12$. Rectangles area $= 132 - 12 = 120$. Rectangles area is $(3+4+5) \\times L = 12L$. $12L = 120 \\Rightarrow L = 10$.\n\n**Common mistake:** A student might use the wrong perimeter for the rectangles (e.g., adding only two sides of the triangle) or miscalculate the triangle area."
     },
     {
       "id": "7-5-nets-hard-q4",
@@ -63,7 +63,7 @@
     {
       "id": "7-5-nets-hard-q5",
       "type": "mcq",
-      "question": "The net of a cone consists of a circle of radius $3\\text{ cm}$ and a sector of a larger circle with radius $R$2$\\pi$.",
+      "question": "The net of a cone consists of a circle of radius $3\\text{ cm}$ and a sector of a larger circle with radius $R$. $\\pi$.",
       "options": [
         "$6\\pi\\text{ cm}$",
         "$3\\pi\\text{ cm}$",
@@ -71,7 +71,7 @@
         "$12\\pi\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The arc length of the sector must equal the circumference of the circular base. $C = 2\\pi r = 2\\pi(3) = 6\\pi\\text{ cm}$.\n\n**Common mistake:** A student might pick $3\\pi$2$2\\pi r$2$9\\pi$)."
+      "explanation": "The arc length of the sector must equal the circumference of the circular base. $C = 2\\pi r = 2\\pi(3) = 6\\pi\\text{ cm}$.\n\n**Common mistake:** A student might pick $3\\pi^2 2\\pi r29\\pi$)."
     }
   ]
 }

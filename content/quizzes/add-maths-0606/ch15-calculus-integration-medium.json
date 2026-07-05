@@ -9,12 +9,12 @@
     {
       "id": "ch15-calculus-integration-q1",
       "type": "mcq",
-      "question": "Find the exact value of $\\int_{0}^{\\frac{\\pi}{4}} (2\\cos(2x) + \\sin(4x)) \\\\, \\mathrm{d}x$.",
+      "question": "Find the exact value of $\\int_{0}^{\\frac{\\pi}{4}} (2\\cos(2x) + \\sin(4x)) \\, \\mathrm{d}x$.",
       "options": [
-        " $\\frac{3}{2}$ ",
-        " 1 ",
-        " $\\frac{1}{2}$ ",
-        " 2 "
+        "$\\frac{3}{2}$",
+        "1",
+        "$\\frac{1}{2}$",
+        "2"
       ],
       "correctIndex": 0,
       "explanation": "The integral is $[\\sin(2x) - \\frac{1}{4}\\cos(4x)]_{0}^{\\frac{\\pi}{4}}$. Substituting limits: $(\\sin(\\frac{\\pi}{2}) - \\frac{1}{4}\\cos(\\pi)) - (\\sin(0) - \\frac{1}{4}\\cos(0)) = (1 - \\frac{1}{4}(-1)) - (0 - \\frac{1}{4}) = \\frac{5}{4} + \\frac{1}{4} = \\frac{6}{4} = \\frac{3}{2}$.\n\n**Common mistake:** Option B is caused by forgetting to evaluate the lower limit for the cosine term, completely missing the $(+\\frac{1}{4})$ term from $x=0$."
@@ -24,10 +24,10 @@
       "type": "mcq",
       "question": "A curve is such that $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 6x^2 - 4x$. Given that the curve passes through the point $(1, 5)$, find its equation.",
       "options": [
-        " $y = 2x^3 - 2x^2 + 5$ ",
-        " $y = 2x^3 - 2x^2$ ",
-        " $y = 12x - 4$ ",
-        " $y = 2x^3 - 2x^2 + 1$ "
+        "$y = 2x^3 - 2x^2 + 5$",
+        "$y = 2x^3 - 2x^2$",
+        "$y = 12x - 4$",
+        "$y = 2x^3 - 2x^2 + 1$"
       ],
       "correctIndex": 0,
       "explanation": "Integrating $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ gives $y = 2x^3 - 2x^2 + c$. Substituting $(1, 5)$ into the equation gives $5 = 2(1)^3 - 2(1)^2 + c \\implies 5 = 0 + c \\implies c = 5$. Thus, $y = 2x^3 - 2x^2 + 5$.\n\n**Common mistake:** Option B occurs if the constant of integration $c$ is omitted entirely. Option C is a result of differentiating instead of integrating."
@@ -37,13 +37,13 @@
       "type": "mcq",
       "question": "Find the area of the region enclosed by the curve $y = 9 - x^2$ and the $x$-axis.",
       "options": [
-        " 36 ",
-        " 18 ",
-        " 27 ",
-        " 54 "
+        "36",
+        "18",
+        "27",
+        "54"
       ],
       "correctIndex": 0,
-      "explanation": "The curve intersects the $x$-axis where $9 - x^2 = 0 \\implies x = -3$ and $x = 3$. The area is $\\int_{-3}^{3} (9 - x^2) \\\\, \\mathrm{d}x = \\left[ 9x - \\frac{x^3}{3} \\right]_{-3}^{3} = (27 - 9) - (-27 + 9) = 18 - (-18) = 36$.\n\n**Common mistake:** Option B is found if a student only integrates from^0 to^3 and forgets to double the area or consider the full interval from $-3$ to^3."
+      "explanation": "The curve intersects the $x$-axis where $9 - x^2 = 0 \\implies x = -3$ and $x = 3$. The area is $\\int_{-3}^{3} (9 - x^2) \\, \\mathrm{d}x = \\left[ 9x - \\frac{x^3}{3} \\right]_{-3}^{3} = (27 - 9) - (-27 + 9) = 18 - (-18) = 36$.\n\n**Common mistake:** Option B is found if a student only integrates from^0 to^3 and forgets to double the area or consider the full interval from $-3$ to^3."
     }
   ]
 }

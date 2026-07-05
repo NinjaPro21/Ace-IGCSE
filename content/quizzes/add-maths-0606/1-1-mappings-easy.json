@@ -11,7 +11,7 @@
     {
       "id": "1-1-mappings-easy-q1",
       "type": "mcq",
-      "question": "For the mapping x$\\mapsto$3x−5, find the image of the object 4.",
+      "question": "For the mapping $x \\mapsto 3x-5$, find the image of the object 4.",
       "options": [
         "7",
         "17",
@@ -19,12 +19,12 @@
         "12"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute x=4 into the mapping: 3(4)−5=12−5=7.\n\n**Common mistake:** A student might add the 5 instead of subtracting it, leading to 12+5=17."
+      "explanation": "Substitute x=4 into the mapping: 3(4)-5=12-5=7.\n\n**Common mistake:** A student might add the 5 instead of subtracting it, leading to 12+5=17."
     },
     {
       "id": "1-1-mappings-easy-q2",
       "type": "mcq",
-      "question": "What type of mapping is represented by the relation x$\\mapsto\n\n$$x^{2}$ where the domain is$\n−2,2?",
+      "question": "What type of mapping is represented by the relation $1$ where the domain is $\\{-2, 2\\}$?$",
       "options": [
         "Many-to-one",
         "One-to-one",
@@ -63,7 +63,7 @@
     {
       "id": "1-1-mappings-easy-q5",
       "type": "mcq",
-      "question": "For the mapping x$\\mapsto$10−2x, which value of x produces an image of 0?",
+      "question": "For the mapping $x \\mapsto 10-2x$, which value of x produces an image of 0?",
       "options": [
         "5",
         "10",
@@ -71,7 +71,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "Set the expression to 0: 10−2x=0, which gives 2x=10, so x=5.\n\n**Common mistake:** A common mistake is misinterpreting the image as the input and calculating 10−2(0)=10."
+      "explanation": "Set the expression to 0: 10-2x=0, which gives 2x=10, so x=5.\n\n**Common mistake:** A common mistake is misinterpreting the image as the input and calculating 10-2(0)=10."
     }
   ]
 }

@@ -6,12 +6,13 @@ Vectors are mathematical quantities that have both a magnitude (size) and a dire
 
 $$
 \text{Column Vector: } \mathbf{r} = \begin{pmatrix} x \ \\ y \end{pmatrix} = x\mathbf{i} + y\mathbf{j}
-
+$$
+$$
 \text{Magnitude: } |\mathbf{r}| = \sqrt{x^2 + y^2}, \quad \text{Unit Vector: } \hat{\mathbf{r}} = \frac{\mathbf{r}}{|\mathbf{r}|} = \frac{1}{\sqrt{x^2 + y^2}}\begin{pmatrix} x \ \\ y \end{pmatrix}
-
+$$
+$$
 \text{Displacement Vector: } \vec{AB} = \vec{OB} - \vec{OA} = \mathbf{b} - \mathbf{a}
 $$
-
 
 ## Steps / method
 
@@ -43,7 +44,6 @@ Find $|\vec{AB}|$ and a unit vector in the same direction.
 
 $$
 |\vec{AB}| = \sqrt{3^2 + 4^2} = 5
-
 \hat{\mathbf{u}} = \frac{1}{5}\begin{pmatrix} 3 \ \\ 4 \end{pmatrix} = \begin{pmatrix} 0.6 \ \\ 0.8 \end{pmatrix}
 $$
 

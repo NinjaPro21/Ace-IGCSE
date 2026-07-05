@@ -5,9 +5,9 @@ Ever wondered why a heavy tractor doesn't sink into a muddy field while a person
 ## Key definitions
 
 - **Pressure**: Defined as the force per unit area.
-- **Pascal (Pa)**: The SI unit of pressure, equivalent to one newton per square metre ($1 \text{ N/m}^2$)$.
+- **Pascal (Pa)**: The SI unit of pressure, equivalent to one newton per square metre ($1\ \text{Pa} = 1\ \text{N/m}^2$).
 - **Force ($F$)**: The push or pull acting on a surface, often the weight of an object (SI unit: newton, N).
-- **Area ($A$)**: The size of the surface over which the force is distributed (SI unit: square metre, $m^2$).
+- **Area ($A$)**: The size of the surface over which the force is distributed (SI unit: square metre, $\text{m}^2$).
 
 ## Key formulas
 
@@ -15,74 +15,71 @@ Ever wondered why a heavy tractor doesn't sink into a muddy field while a person
 
 $p = \frac{F}{A}$
 
-This formula applies to any surface where a constant force $F$ and $A$.
+This formula applies to any surface where a constant force acts over area $A$.
 
 **Force from Pressure**
 
 $F = p \times A$
 
-Used to calculate the total force exerted when the pressure and area are known 2
+Used to calculate the total force exerted when the pressure and area are known.
 
 **Area from Pressure**
 
 $A = \frac{F}{p}$
 
-Used to determine the necessary contact area to achieve a specific pressure 2
+Used to determine the necessary contact area to achieve a specific pressure.
 
 ## Graphs & diagrams
 
-While this topic focuses on pressure, the following graph interpretations are essential for the 0625 syllabus: Distance–time graphs: - **Rest**: A horizontal line; gradient is zero.
-- **Constant speed**: Straight diagonal line — same speed throughout.
-- **Acceleration**: A curve that becomes steeper over time.
-- **Deceleration**: A curve that becomes flatter over time.
-- **Interpretation**: The gradient represents the speed.
+**Pressure in solids — same force, different area**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 220" width="280" height="220" role="img" aria-label="Pressure in liquid">
-      <rect x="80" y="40" width="120" height="160" fill="#bfdbfe" stroke="#2563eb" opacity="0.5"/>
-      <line x1="80" y1="100" x2="200" y2="100" stroke="#64748b" stroke-dasharray="4 3"/>
-      <line x1="80" y1="160" x2="200" y2="160" stroke="#64748b" stroke-dasharray="4 3"/>
-      <text x="210" y="104" font-size="10" fill="#334155">p₁</text>
-      <text x="210" y="164" font-size="10" fill="#334155">p₂ &gt; p₁</text>
-      <text x="140" y="30" text-anchor="middle" font-size="11" fill="#334155">surface</text>
-      <text x="140" y="215" text-anchor="middle" font-size="10" fill="#475569">pressure increases with depth</text>
-    </svg><p class="enlight-physics-diagram__caption">Pressure in a liquid increases with depth — p = ρgh; same depth gives same pressure.</p></div>
+- Pressure depends on how spread out the force is: $p = F/A$.
+- A small contact area (sharp heel, knife edge) produces high pressure for the same force.
+- A large contact area (tractor tracks, snowshoes) produces low pressure.
 
-**Velocity–time graphs**
+<div class="enlight-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Pressure in solids comparison">
+      <rect x="30" y="150" width="380" height="10" fill="#94a3b8"/>
+      <rect x="80" y="130" width="8" height="20" fill="#dc2626" stroke="#991b1b"/>
+      <line x1="84" y1="95" x2="84" y2="130" stroke="#334155" stroke-width="2" marker-end="url(#pf)"/>
+      <text x="84" y="60" text-anchor="middle" font-size="11" fill="#dc2626" font-weight="600">High p (small A)</text>
+      <rect x="280" y="125" width="80" height="25" fill="#2563eb" stroke="#1e40af" opacity="0.7"/>
+      <line x1="320" y1="95" x2="320" y2="125" stroke="#334155" stroke-width="2" marker-end="url(#pf)"/>
+      <text x="320" y="60" text-anchor="middle" font-size="11" fill="#16a34a" font-weight="600">Low p (large A)</text>
+      <text x="220" y="185" text-anchor="middle" font-size="10" fill="#475569">Same force F — smaller area → greater pressure</text>
+      <defs><marker id="pf" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
+    </svg><p class="enlight-physics-diagram__caption">Pressure in solids — the same force over a smaller area gives higher pressure (e.g. a sharp heel vs. wide tractor tracks).</p></div>
 
-- **Constant speed**: A horizontal line; acceleration is zero.
-- **Uniform acceleration**: A straight line with a constant positive gradient.
-- **Changing acceleration**: A curved line where the gradient is not constant.
-- **Interpretation**: The gradient represents acceleration; the area under the graph represents the distance travelled.
+**Rectangular block — max and min pressure**
+
+- A block can rest on different faces with different areas.
+- **Maximum pressure**: smallest face area (block standing on its smallest face).
+- **Minimum pressure**: largest face area (block lying flat).
 
 ## Steps / method
 
 Method for determining the maximum and minimum pressure of a rectangular block:
 
-Find the Force: Determine the weight of the block using $W = mg$.
-
-Calculate Face Areas: Find the area ($l \times w$) for each distinct face of the block (e.g., Face A, B, and C).
-
-Identify Extremes: To find maximum pressure, identify the face with the smallest area. To find minimum pressure, identify the face with the largest area.
-
-Calculate Pressure: Divide the weight by the chosen area using $p = F/A$.
-
-Check Units: Ensure force is in N and area is in $m^2$ to get Pa, or keep in $cm^2$ if the question specifies $N/cm^2$.
+1. **Find the force**: Determine the weight of the block using $W = mg$.
+2. **Calculate face areas**: Find the area ($l \times w$) for each distinct face of the block.
+3. **Identify extremes**: Smallest area → maximum pressure; largest area → minimum pressure.
+4. **Calculate pressure**: Divide the weight by the chosen area using $p = F/A$.
+5. **Check units**: Ensure force is in N and area is in $\text{m}^2$ to get Pa, or keep in $\text{cm}^2$ if the question specifies $\text{N/cm}^2$.
 
 ## Common mistakes
 
-Unit Conversion: Forgetting that$1 \text{ m}^2 = 10000 \text{ cm}^2. Converting$cm^2$to$m^2requires dividing by 10000, not 100.
+**Unit conversion**: Forgetting that $1\ \text{m}^2 = 10\,000\ \text{cm}^2. Converting $\text{cm}^2$ to $\text{m}^2$ requires dividing by 10 000, not 100$.
 
-Force vs. Mass: Using mass (kg) in the numerator of the pressure formula instead of weight (N). Always multiply mass by $g$ first.
+**Force vs. mass**: Using mass (kg) in the numerator of the pressure formula instead of weight (N). Always multiply mass by $g$ first.
 
-Area Calculation: Using all three dimensions ($l \times w \times h$) to find the area instead of just the two dimensions of the resting face.
+**Area calculation**: Using all three dimensions ($l \times w \times h$) to find the area instead of just the two dimensions of the resting face.
 
 ## Examiner tip
 
-Significant Figures: Digital calculations can give many digits; always round your final pressure value to 2 or 3 significant figures.
+**Significant figures**: Digital calculations can give many digits; always round your final pressure value to 2 or 3 significant figures.
 
-Standard Units: While $N/cm^2$ is used in some problems, if a question asks for the answer in Pascals (Pa), you must use area in $m^2$.
+**Standard units**: While $\text{N/cm}^2$ is used in some problems, if a question asks for the answer in Pascals (Pa), you must use area in $\text{m}^2$.
 
-Labeling: When comparing pressures, clearly state which area corresponds to which pressure (e.g., "Face C has the smallest area, so it exerts the greatest pressure").
+**Labelling**: When comparing pressures, clearly state which area corresponds to which pressure (e.g., "Face C has the smallest area, so it exerts the greatest pressure").
 
 ## Quick check
 
@@ -94,21 +91,29 @@ Write the word equation for pressure.
 
 ## Worked example — High Heels vs. Floor
 
-Question: A woman weighing 600 N stands on one leg in a high-heeled shoe. The area of the heel is $0.00030 \text{ m}^2$. Calculate the pressure the heel exerts on the floor 2
+Question: A woman weighing $600\ \text{N}$ stands on one leg in a high-heeled shoe. The area of the heel is $0.00030\ \text{m}^2$. Calculate the pressure the heel exerts on the floor.
 
-Identify values: $F = 600 \text{ N}$, $A = 0.00030 \text{ m}^2$.
+1. Identify values: $F = 600\ \text{N}$, $A = 0.00030\ \text{m}^2$.
 
-Apply formula: p = 600 / 0.00030. Calculate: p = 2000000  Pa.2.0 \times 10^6 \text{ Pa}$(or 2.0 MPa)$.
+2. Apply formula: $p = \frac{F}{A} = \frac{600}{0.00030}$.
+
+3. Calculate: $p = 2\,000\,000\ \text{Pa} = 2.0 \times 10^{6}\ \text{Pa}$ (or 2.0 MPa).
+
+**Final answer:** $2.0 \times 10^{6}\ \text{Pa}$.
 
 ## Worked example — The Rectangular Block
 
-Question: A block has dimensions 20 \text{ cm} \times 10 \text{ cm} \times $5 \text{ cm} and a mass of 2 kg$2.
+Question: A block has dimensions $20\ \text{cm} \times 10\ \text{cm} \times 5\ \text{cm}$ and a mass of 2 kg. Find the maximum pressure it can exert on a surface. Use $g = 10\ \text{N/kg}$.
 
-Calculate weight.F = $2 \text{ kg} \times 10 \text{ N/kg} = 20 \text{ N}$.
+1. Calculate weight: $F = mg = 2 \times 10 = 20\ \text{N}$.
 
-Identify the smallest area. The smallest face is 10 \text{ cm} \times $5 \text{ cm} = 50 \text{ cm}^2$. Calculate pressure 2
+2. Identify the smallest area: smallest face is $10\ \text{cm} \times 5\ \text{cm} = 50\ \text{cm}^2$.
 
-$p = 20 \text{ N} / 50 \text{ cm}^2 = 0.4 \text{ N/cm}^2.0.4 \text{ N/cm}^2. ### Common Trap$
+3. Calculate pressure: $p = \frac{20}{50} = 0.4\ \text{N/cm}^2$.
+
+**Final answer:** $0.4\ \text{N/cm}^2$.
+
+### Common Trap
 
 Students often calculate the volume of the block instead of the surface area of the face it is resting on.
 

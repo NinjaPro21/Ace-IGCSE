@@ -11,7 +11,7 @@
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-pyp-q1",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=4$x^{2}$−24x+11. Express f(x) in the form a$(x-h)^{2}$+k and hence state the minimum value of f(x).",
+      "question": "The function f is defined by f(x)=4$x^{2}$-24x+11. Express f(x) in the form a$(x-h)^{2}$+k and hence state the minimum value of f(x).",
       "options": [
         "-25",
         "3",
@@ -19,12 +19,12 @@
         "-13"
       ],
       "correctIndex": 0,
-      "explanation": "4($x^{2}$−6x)+11=4[$(x-3)^{2}$−9]+11=4$(x-3)^{2}$−36+11=4$(x-3)^{2}$−25. The minimum is -25.\n\n**Common mistake:** Errors in completing the square often lead to an incorrect constant term, resulting in -13 or 3."
+      "explanation": "4($x^{2}$-6x)+11=4[$(x-3)^{2}$-9]+11=4$(x-3)^{2}$-36+11=4$(x-3)^{2}$-25. The minimum is -25.\n\n**Common mistake:** Errors in completing the square often lead to an incorrect constant term, resulting in -13 or 3."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-pyp-q2",
       "type": "mcq",
-      "question": "Find the coordinates of the vertex of the curve y=10+12x−3$x^{2}$ and determine whether it is a maximum or a minimum.",
+      "question": "Find the coordinates of the vertex of the curve y=10+12x-3$x^{2}$ and determine whether it is a maximum or a minimum.",
       "options": [
         "Maximum at (2, 22)",
         "Minimum at (2, 22)",
@@ -32,25 +32,25 @@
         "Minimum at (-2, -26)"
       ],
       "correctIndex": 0,
-      "explanation": "x=−b/2a=−12/(−6)=2. y=10+12(2)−3$(2)^{2}$=10+24−12=22. Since a=−3, it is a maximum.\n\n**Common mistake:** Calculating the x-coordinate incorrectly as -2 or misidentifying the nature of the turning point."
+      "explanation": "x=-b/2a=-12/(-6)=2. y=10+12(2)-3$(2)^{2}$=10+24-12=22. Since a=-3, it is a maximum.\n\n**Common mistake:** Calculating the x-coordinate incorrectly as -2 or misidentifying the nature of the turning point."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-pyp-q3",
       "type": "mcq",
-      "question": "The function g is defined by g(x)=p$(x-q)^{2}$+r. Given the vertex is at (5,−4) and the curve passes through (3,8), find the values of p,q, and r.",
+      "question": "The function g is defined by g(x)=p (x-q)^{2}+r. Given the vertex is at (5,-4) and the curve passes through (3,8), find the values of p,q, and r.",
       "options": [
-        "p=3,q=5,r=−4",
-        "p=1,q=5,r=−4",
-        "p=3,q=−5,r=−4",
-        "p=2,q=5,r=−4"
+        "p=3,q=5,r=-4",
+        "p=1,q=5,r=-4",
+        "p=3,q=-5,r=-4",
+        "p=2,q=5,r=-4"
       ],
       "correctIndex": 0,
-      "explanation": "Vertex (5,−4) \\implies q=5,r=−4. Substitute (3,8):8=p$(3-5)^{2}$−4 \\implies 12=p$(-2)^{2}$implies12=4p \\implies p=3.\n\n**Common mistake:** Difficulty in solving for p or misinterpreting the signs of q and r from the vertex coordinates."
+      "explanation": "Vertex (5,-4) \\implies q=5,r=-4. Substitute (3,8):8=p (3-5)^{2}-4 \\implies 12=p (-2)^{2}implies12=4p \\implies p=3.\n\n**Common mistake:** Difficulty in solving for p or misinterpreting the signs of q and r from the vertex coordinates."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-pyp-q4",
       "type": "mcq",
-      "question": "Show that 3$x^{2}$+18x+20 can be written in the form 3$(x+3)^{2}$−7. Hence, find the coordinates of the turning point of the curve y=3$x^{2}$+18x+20.",
+      "question": "Show that 3$x^{2}$+18x+20 can be written in the form 3$(x+3)^{2}$-7. Hence, find the coordinates of the turning point of the curve y=3$x^{2}$+18x+20.",
       "options": [
         "(-3, -7)",
         "(3, -7)",
@@ -58,12 +58,12 @@
         "(3, 7)"
       ],
       "correctIndex": 0,
-      "explanation": "From the form a$(x-h)^{2}$+k, the turning point is (−3,−7).\n\n**Common mistake:** Misidentifying the sign of the x-coordinate, often picking 3 instead of -3."
+      "explanation": "From the form a$(x-h)^{2}$+k, the turning point is (-3,-7).\n\n**Common mistake:** Misidentifying the sign of the x-coordinate, often picking 3 instead of -3."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-pyp-q5",
       "type": "mcq",
-      "question": "Find the set of values of k for which the minimum value of y= x^{2}−6x+k is greater than 0.",
+      "question": "Find the set of values of k for which the minimum value of y= x^{2}-6x+k is greater than 0.",
       "options": [
         "k>9",
         "k<9",
@@ -71,7 +71,7 @@
         "k>0"
       ],
       "correctIndex": 0,
-      "explanation": "Vertex x=6/2=3. Minimum y= 3^{2}−6(3)+k=9−18+k=k−9. For k−9>0, k>9.\n\n**Common mistake:** Setting the discriminant to be greater than zero instead of analyzing the minimum value of the vertex."
+      "explanation": "Vertex x=6/2=3. Minimum y= $3^{2}$-6(3)+k=9-18+k=k-9. For k-9>0, k>9.\n\n**Common mistake:** Setting the discriminant to be greater than zero instead of analyzing the minimum value of the vertex."
     }
   ]
 }

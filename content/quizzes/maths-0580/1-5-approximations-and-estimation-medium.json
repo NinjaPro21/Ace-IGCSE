@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "Calculate the upper bound of the area of a square whose side length is given as $8.0\\text{ cm}$, correct to 1 decimal place.",
       "options": [
-        "64.8025 cm $2$",
-        "64.0 cm $2$",
-        "64.8 cm $2$",
-        "65.61 cm $2$"
+        "64.8025 cm 2",
+        "64.0 cm 2",
+        "64.8 cm 2",
+        "65.61 cm 2"
       ],
       "correctIndex": 0,
       "explanation": "The side accuracy is $0.1\\text{ cm}$, so the boundary variation is $\\pm 0.05\\text{ cm}$. The upper bound of the side length is $8.05\\text{ cm}$. The upper bound of the area is $8.05^2 = 64.8025\\text{ cm}^{2}$.\n\n**Common mistake:** Students may round the side to 8.5 instead of 8.05, leading to $8.5^2 = 72.25\\text{ cm}^{2}$, or square 8 first and then add 0.5."

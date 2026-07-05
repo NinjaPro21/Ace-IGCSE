@@ -4,23 +4,27 @@ Surds represent exact irrational values that cannot be written as terminating or
 
 ## Key formulas
 
-$\sqrt{ab} = \sqrt{a} \times \sqrt{b}, \quad \sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}, \quad \sqrt{a} \times \sqrt{a} = a
+**1 — Surd laws**
 
 $$
-\text{Rationalising Conjugate Rule:} \quad \frac{c}{\sqrt{a}} = \frac{c \times \sqrt{a}}{\sqrt{a} \times \sqrt{a}} = \frac{c\sqrt{a}}{a}
+\sqrt{ab} = \sqrt{a} \times \sqrt{b}, \quad \sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}, \quad \sqrt{a} \times \sqrt{a} = a
+$$
+
+**2 — Rationalising the denominator**
+
+$$
+\frac{c}{\sqrt{a}} = \frac{c \times \sqrt{a}}{\sqrt{a} \times \sqrt{a}} = \frac{c\sqrt{a}}{a}
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 280 160" width="280" height="160" role="img" aria-label="Simplifying surds">
-      <rect x="40" y="40" width="80" height="80" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-      <line x1="40" y1="80" x2="120" y2="80" stroke="#64748b" stroke-dasharray="4 3"/>
-      <line x1="80" y1="40" x2="80" y2="120" stroke="#64748b" stroke-dasharray="4 3"/>
-      <text x="60" y="70" font-size="10" fill="#2563eb">5</text><text x="95" y="105" font-size="10" fill="#2563eb">5</text>
-      <text x="150" y="85" font-size="12" fill="#334155">area 50 → side √50 = 5√2</text>
-    </svg></div>
-
-Surds — √50 = √(25×2) = 5√2; simplify by extracting perfect square factors.
+      <rect x="40" y="40" width="80" height="80" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
+      <line x1="40" y1="80" x2="120" y2="80" stroke="#a8a29e" stroke-dasharray="4 3"/>
+      <line x1="80" y1="40" x2="80" y2="120" stroke="#a8a29e" stroke-dasharray="4 3"/>
+      <text x="60" y="70" font-size="10" fill="#5b8def">5</text><text x="95" y="105" font-size="10" fill="#5b8def">5</text>
+      <text x="150" y="85" font-size="12" fill="#1a1a1a">area 50 → side √50 = 5√2</text>
+    </svg><p class="enlight-physics-diagram__caption">Surds — √50 = √(25×2) = 5√2; simplify by extracting perfect square factors.</p></div>
 
 ## Steps / method
 

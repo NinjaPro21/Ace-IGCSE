@@ -11,11 +11,11 @@
     {
       "id": "2-1-substitution-medium-q1",
       "type": "mcq",
-      "question": "Find the value of $m$2$m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
+      "question": "Find the value of $m^2 So m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
       "options": [
         "$8.66$",
         "$4.66$",
-        "$2$",
+        "2",
         "$14$"
       ],
       "correctIndex": 0,
@@ -37,7 +37,7 @@
     {
       "id": "2-1-substitution-medium-q3",
       "type": "mcq",
-      "question": "Given $S = \\frac{n}{2}(a + L)$, calculate $S$2$n = 12$, $a = -4$, and $L = 19$.",
+      "question": "Given $S = \\frac{n}{2}(a + L)$, calculate $S$. So $n = 12$, $a = -4$, and $L = 19$.",
       "options": [
         "$90$",
         "$138$",
@@ -45,12 +45,12 @@
         "$-138$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the values: $S = \\frac{12}{2}(-4 + 19) = 6(15) = 90$.\n\n**Common mistake:** Students might add the values inside brackets incorrectly as $23$, leading to $6 \\times 23 = 138$."
+      "explanation": "Substitute the values: $S = \\frac{12}{2}(-4 + 19) = 6(15) = 90$.\n\n**Common mistake:** Students might add the values inside brackets incorrectly as^23, leading to $6 \\times 23 = 138$."
     },
     {
       "id": "2-1-substitution-medium-q4",
       "type": "mcq",
-      "question": "Given the compound interest model component $V = P(1 + r)²$, find $V$2$P = 500$ and $r = 0.04$.",
+      "question": "Given the compound interest model component $V = P(1 + r)²$, find $V$. So $P = 500$ and $r = 0.04$.",
       "options": [
         "$540.8$",
         "$540$",
@@ -58,7 +58,7 @@
         "$580.8$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the variables: $V = 500(1 + 0.04)² = 500(1.04)² = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$2$(1+r)²$ as $1 + r^2$, leading to incorrect values."
+      "explanation": "Substitute the variables: $V = 500(1 + 0.04)² = 500(1.04)² = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$. $(1+r)²$ as $1 + r^2$, leading to incorrect values."
     },
     {
       "id": "2-1-substitution-medium-q5",

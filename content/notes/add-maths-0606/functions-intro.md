@@ -1,4 +1,4 @@
-## Functions
+## Core idea
 
 A function maps each input in the domain to exactly one output in the range.
 

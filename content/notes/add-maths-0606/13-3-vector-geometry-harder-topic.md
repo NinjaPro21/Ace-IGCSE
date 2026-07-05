@@ -6,10 +6,11 @@ Vector geometry uses parallel vectors and scalar multiples to prove collinearity
 
 $$
 \mathbf{a} \parallel \mathbf{b} \iff \mathbf{a} = k\mathbf{b} \quad (k \neq 0)
-
-\text{Point dividing } AB \text{ in ratio } m:n: \mathbf{p} = \frac{n\mathbf{a} + m\mathbf{b}}{m + n}
 $$
 
+$$
+\text{Point dividing } AB \text{ in ratio } m:n: \mathbf{p} = \frac{n\mathbf{a} + m\mathbf{b}}{m + n}
+$$
 
 ## Steps / method
 
@@ -33,8 +34,6 @@ $$
 \vec{AB} = \mathbf{b} - \mathbf{a}, \quad \vec{AC} = 3\mathbf{a} - 2\mathbf{b} - \mathbf{a} = 2\mathbf{a} - 2\mathbf{b} = -2(\mathbf{b} - \mathbf{a}) = -2\vec{AB}
 $$
 Since $\vec{AC} = -2\vec{AB}$, the vectors are parallel and the points are collinear.
-
-
 
 ## Worked example — Ratio division
 

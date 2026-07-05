@@ -11,7 +11,7 @@
     {
       "id": "12-6-small-increments-and-approximations-pyp-q1",
       "type": "mcq",
-      "question": "Given $y = \\sqrt{4x + 9}$, find the approximate increase in $y$2$x$ increases from 4 to 4.05.",
+      "question": "Given $y = \\sqrt{4x + 9}$, find the approximate increase in $y$ and $x$ increases from 4 to 4.05.",
       "options": [
         "0.02",
         "0.05",
@@ -24,7 +24,7 @@
     {
       "id": "12-6-small-increments-and-approximations-pyp-q2",
       "type": "mcq",
-      "question": "The area of a circle $A$2$r$. What is the radius?",
+      "question": "The area of a circle $A$ and $r$. What is the radius?",
       "options": [
         "100 units",
         "50 units",
@@ -37,7 +37,7 @@
     {
       "id": "12-6-small-increments-and-approximations-pyp-q3",
       "type": "mcq",
-      "question": "If $y = x^2 - \\frac{16}{x}$, find the approximate change in $y$2$x$ increases from 4 to 4.02.",
+      "question": "If $y = x^2 - \\frac{16}{x}$, find the approximate change in $y$ and $x$ increases from 4 to 4.02.",
       "options": [
         "0.18",
         "0.09",
@@ -45,12 +45,12 @@
         "0.02"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating $-16/x$2$2x - 16/x^2$."
+      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating $-16/x$. $2x - 16/x^2$."
     },
     {
       "id": "12-6-small-increments-and-approximations-pyp-q4",
       "type": "mcq",
-      "question": "A rectangle has sides of $x$2$2x$2$x$2$h$, find the approximate increase in the area.",
+      "question": "A rectangle has sides of $x$. $2x2x$ and $h$, find the approximate increase in the area.",
       "options": [
         "4xh",
         "2xh",
@@ -63,7 +63,7 @@
     {
       "id": "12-6-small-increments-and-approximations-pyp-q5",
       "type": "mcq",
-      "question": "Given $y = \\frac{1}{x^2}$, find the approximate percentage change in $y$2$x$ increases by 2%.",
+      "question": "Given $y = \\frac{1}{x^2}$, find the approximate percentage change in $y$ and $x$ increases by 2%.",
       "options": [
         "-4%",
         "4%",

@@ -24,7 +24,7 @@
     {
       "id": "4-1-pythagoras-theorem-hard-q2",
       "type": "mcq",
-      "question": "The sides of a right-angled triangle are $x$2$15$, and $x + 3$, where $x + 3$ is the hypotenuse. Solve for $x$.",
+      "question": "The sides of a right-angled triangle are $x$. $15$, and $x + 3$, where $x + 3$ is the hypotenuse. Solve for $x$.",
       "options": [
         "$36$",
         "$12$",
@@ -63,7 +63,7 @@
     {
       "id": "4-1-pythagoras-theorem-hard-q5",
       "type": "mcq",
-      "question": "An aircraft is at a point $P$2$8\\text{ km}$ North and $6\\text{ km}$ West of a control tower $T$2$5\\text{ km}$, find its direct distance from the control tower.",
+      "question": "An aircraft is at a point $P$. $8\\text{ km}$ North and $6\\text{ km}$ West of a control tower $T$. $5\\text{ km}$, find its direct distance from the control tower.",
       "options": [
         "$11.18\\text{ km}$",
         "$10.00\\text{ km}$",
@@ -71,7 +71,7 @@
         "$19.00\\text{ km}$"
       ],
       "correctIndex": 0,
-      "explanation": "This is a 3D Pythagoras problem with dimensions $8, 6,$ and $5$. Distance $= \\sqrt{8}² + 6^2 + 5^2 = \\sqrt{64} + 36 + 25 = \\sqrt{125} \\approx 11.18$.\n\n**Common mistake:** The student might only calculate the 2D ground distance ($\\sqrt{8}² + 6^2 = 10$) and ignore the altitude."
+      "explanation": "This is a 3D Pythagoras problem with dimensions $8, 6,$ and^5. Distance $= \\sqrt{8}² + 6^2 + 5^2 = \\sqrt{64} + 36 + 25 = \\sqrt{125} \\approx 11.18$.\n\n**Common mistake:** The student might only calculate the 2D ground distance ($\\sqrt{8}² + 6^2 = 10$) and ignore the altitude."
     }
   ]
 }

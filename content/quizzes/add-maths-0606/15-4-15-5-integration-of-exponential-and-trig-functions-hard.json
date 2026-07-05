@@ -45,15 +45,15 @@
         "$0.5e^{2x} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify the $fraction$ to $\\int (e^{2x} + 2e^{-2x}) dx$2$\\frac{1}{2}e^{2x} + \\frac{2}{-2}e^{-2x} = 0.5e^{2x} - e^{-2x} + c$.\n\n**Common mistake:** Option C is a sign error during the integration of the second term."
+      "explanation": "Simplify the $fraction$ to $\\int (e^{2x} + 2e^{-2x}) dx$. So $\\frac{1}{2}e^{2x} + \\frac{2}{-2}e^{-2x} = 0.5e^{2x} - e^{-2x} + c$.\n\n**Common mistake:** Option C is a sign error during the integration of the second term."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q4",
       "type": "mcq",
-      "question": "Find the area of the region bounded by the curve $y = 2\\sin(2x)$, the $x$2$x=0$ and $x=\\frac{\\pi}{4}$ .",
+      "question": "Find the area of the region bounded by the curve $y = 2\\sin(2x)$, the $x$. So $x=0$ and $x=\\frac{\\pi}{4}$ .",
       "options": [
         "$1$",
-        "$2$",
+        "2",
         "$0.5$",
         "$0$"
       ],
@@ -63,7 +63,7 @@
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-hard-q5",
       "type": "mcq",
-      "question": "A function $f(x)$ is such that $f''(x) = 4e^{2x} - \\sin x$2$f'(0) = 3$ and $f(0) = 5$, find $f(x)$.",
+      "question": "A function $f(x)$ is such that $f''(x) = 4e^{2x} - \\sin x$. So $f'(0) = 3$ and $f(0) = 5$, find $f(x)$.",
       "options": [
         "$e^{2x} + \\sin x + x + 4$",
         "$e^{2x} - \\sin x + x + 4$",
@@ -71,7 +71,7 @@
         "$4e^{2x} + \\sin x + 1$"
       ],
       "correctIndex": 0,
-      "explanation": "$f'(x) = 2e^{2x} + \\cos x + c$2$3 = 2(1) + 1 + c \\implies c = 0$. $f(x) = e^{2x} + \\sin x + d$2$5 = 1 + 0 + d \\implies d = 4$.\n\n**Common mistake:** Option B results from a sign error when integrating cosine back to sine."
+      "explanation": "$f'(x) = 2e^{2x} + \\cos x + c$. $3 = 2(1) + 1 + c \\implies c = 0$. $f(x) = e^{2x} + \\sin x + d$. $5 = 1 + 0 + d \\implies d = 4$.\n\n**Common mistake:** Option B results from a sign error when integrating cosine back to sine."
     }
   ]
 }

@@ -27,8 +27,11 @@ $$
 ## Steps / method
 
 1. **Identify** $a$, $b$, and $n$ in $(ax+b)^n$.
+
 2. **Add 1** to the power.
+
 3. **Divide** by the new power **and** by $a$.
+
 4. **Add** $+C$.
 
 ### Key rule
@@ -39,7 +42,7 @@ The inside must be **linear** ($ax+b$ only). For $(x^2+1)^2$, expand first.
 
 Question: Find $\int (2x+1)^3\,dx$
 
-Here $a = 2$, $b = 1$, $n = 3$
+Here $a = 2$, $b = 1$, $n = 3$.
 
 $$
 \int (2x+1)^3\,dx = \frac{(2x+1)^4}{2 \times 4} + C = \frac{(2x+1)^4}{8} + C
@@ -49,7 +52,7 @@ $$
 
 Question: Find $\int (3x - 2)^{-2}\,dx$
 
-Here $a = 3$, $n = -2$, so $n+1 = -1$
+Here $a = 3$, $n = -2$, so $n+1 = -1$.
 
 $$
 \int (3x-2)^{-2}\,dx = \frac{(3x-2)^{-1}}{3 \times (-1)} + C = -\frac{1}{3(3x-2)} + C
@@ -57,7 +60,7 @@ $$
 
 ## Worked example — Constant multiple
 
-Question: Find $\int 5(4x + 1)^2\,dx$
+Question: Find $\int 5(4x + 1)^2\,dx$.
 
 $$
 \int 5(4x+1)^2\,dx = \frac{5(4x+1)^3}{4 \times 3} + C = \frac{5(4x+1)^3}{12} + C

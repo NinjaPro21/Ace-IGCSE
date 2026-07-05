@@ -32,7 +32,7 @@
         "$(6a - 2b)(m - n)$"
       ],
       "correctIndex": 0,
-      "explanation": "Group the terms into pairs: $(6am - 3an) - (2bm - bn)$. Extract the HCF from each pair: $3a(2m - n) - b(2m - n)$. Notice that extracting $-b$2$(3a - b)(2m - n)$.\n\n**Common mistake:** Failing to change the sign inside the second bracket when factoring out a negative factor (e.g., leaving it as $-b(2m + n)$)."
+      "explanation": "Group the terms into pairs: $(6am - 3an) - (2bm - bn)$. Extract the HCF from each pair: $3a(2m - n) - b(2m - n)$. Notice that extracting $-b$. $(3a - b)(2m - n)$.\n\n**Common mistake:** Failing to change the sign inside the second bracket when factoring out a negative factor (e.g., leaving it as $-b(2m + n)$)."
     },
     {
       "id": "6-1-factorising-medium-q3",
@@ -45,7 +45,7 @@
         "$(x - 1)(x - 12)$"
       ],
       "correctIndex": 0,
-      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$2$-7x$."
+      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$. $-7x$."
     },
     {
       "type": "mcq",

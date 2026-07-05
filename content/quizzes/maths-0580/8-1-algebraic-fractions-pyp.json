@@ -11,7 +11,7 @@
     {
       "id": "8-1-algebraic-fractions-pyp-q1",
       "type": "mcq",
-      "question": "Simplify completely:\n\n$$\n\\frac{x^2 - 7x + 12}{x^2 - 9}\n$$",
+      "question": "Simplify completely:\n\n$$\n\\frac{x^2 - 7x + 12}{x^2 - 9}\n",
       "options": [
         "$\\frac{x - 4}{x + 3}$",
         "$\\frac{x - 4}{x - 3}$",
@@ -19,12 +19,12 @@
         "$\\frac{7x - 12}{9}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factorise the numerator: $x^2 - 7x + 12 = (x - 3)(x - 4)$. Factorise the denominator: $x^2 - 9 = (x - 3)(x + 3)$. Rewrite the $\\frac{tion}{}$ with its factored components: $\\frac{(x - 3)(x - 4)}{(x - 3)(x + 3)}$. Cancel out the common binomial factor $(x - 3)$ from both numerator and denominator, which yields $\\frac{x - 4}{x + 3}$.\n\n**Common mistake:** A common mistake on Cambridge examinations is directly cancelling the $x^2$ terms from the numerator and denominator before factorising."
+      "explanation": "Factorise the numerator: $x^2 - 7x + 12 = (x - 3)(x - 4)$. Factorise the denominator: $x^2 - 9 = (x - 3)(x + 3)$. Rewrite the $fraction$ with its factored components: $\\frac{(x - 3)(x - 4)}{(x - 3)(x + 3)}$. Cancel out the common binomial factor $(x - 3)$ from both numerator and denominator, which yields $\\frac{x - 4}{x + 3}$.\n\n**Common mistake:** A common mistake on Cambridge examinations is directly cancelling the $x^2$ terms from the numerator and denominator before factorising."
     },
     {
       "id": "8-1-algebraic-fractions-pyp-q2",
       "type": "mcq",
-      "question": "Write as a single $\\frac{tion}{}$ in its simplest form:\n\n$$\n\\frac{5}{x - 2} - \\frac{3}{x + 3}\n$$",
+      "question": "Write as a single $fraction$ in its simplest form:\n\n$$\n\\frac{5}{x - 2} - \\frac{3}{x + 3}\n",
       "options": [
         "$\\frac{2x + 21}{(x - 2)(x + 3)}$",
         "$\\frac{2x + 9}{(x - 2)(x + 3)}$",
@@ -32,12 +32,12 @@
         "$\\frac{2x - 21}{(x - 2)(x + 3)}$"
       ],
       "correctIndex": 0,
-      "explanation": "Find the lowest common denominator, which is $(x - 2)(x + 3)$. Rewrite the $\\frac{tions:}{}$ $\\frac{5(x + 3) - 3(x - 2)}{(x - 2)(x + 3)}$. Expand the terms in the numerator: $5x + 15 - 3x + 6$. Group like terms together to simplify: $2x + 21$. This gives the final $\\frac{tion}{}$ as $\\frac{2x + 21}{(x - 2)(x + 3)}$.\n\n**Common mistake:** Examiners note that students often fail to distribute the negative sign properly when expanding $-3(x - 2)$, writing $-6$ instead of $+6$."
+      "explanation": "Find the lowest common denominator, which is $(x - 2)(x + 3)$. Rewrite the $tions:$ $\\frac{5(x + 3) - 3(x - 2)}{(x - 2)(x + 3)}$. Expand the terms in the numerator: $5x + 15 - 3x + 6$. Group like terms together to simplify: $2x + 21$. This gives the final $fraction$ as $\\frac{2x + 21}{(x - 2)(x + 3)}$.\n\n**Common mistake:** Examiners note that students often fail to distribute the negative sign properly when expanding $-3(x - 2)$, writing $-6$ instead of $+6$."
     },
     {
       "id": "8-1-algebraic-fractions-pyp-q3",
       "type": "mcq",
-      "question": "Simplify completely:\n\n$$\n\\frac{4x^2 - 9}{2x^2 - 5x + 3}\n$$",
+      "question": "Simplify completely:\n\n$$\n\\frac{4x^2 - 9}{2x^2 - 5x + 3}\n",
       "options": [
         "$\\frac{2x + 3}{x - 1}$",
         "$\\frac{2x - 3}{x - 1}$",
@@ -45,12 +45,12 @@
         "$\\frac{4x - 3}{2x - 1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factorise the numerator as a difference of two squares: $4x^2 - 9 = (2x - 3)(2x + 3)$. Factorise the denominator quadratic trinomial: $2x^2 - 5x + 3 = (2x - 3)(x - 1)$. Put them back together into a $\\frac{tion:}{}$ $\\frac{(2x - 3)(2x + 3)}{(2x - 3)(x - 1)}$. Cancel out the common bracket $(2x - 3)$, leaving the final simplified answer: $\\frac{2x + 3}{x - 1}$.\n\n**Common mistake:** Students often incorrectly expand or factorise the expressions, missing the shared factor $(2x - 3)$ needed for final simplification."
+      "explanation": "Factorise the numerator as a difference of two squares: $4x^2 - 9 = (2x - 3)(2x + 3)$. Factorise the denominator quadratic trinomial: $2x^2 - 5x + 3 = (2x - 3)(x - 1)$. Put them back together into a $fraction:$ $\\frac{(2x - 3)(2x + 3)}{(2x - 3)(x - 1)}$. Cancel out the common bracket $(2x - 3)$, leaving the final simplified answer: $\\frac{2x + 3}{x - 1}$.\n\n**Common mistake:** Students often incorrectly expand or factorise the expressions, missing the shared factor $(2x - 3)$ needed for final simplification."
     },
     {
       "id": "8-1-algebraic-fractions-pyp-q4",
       "type": "mcq",
-      "question": "Solve the $\\frac{tional}{}$ quadratic equation:\n\n$$\n\\frac{3}{x + 1} = \\frac{x - 1}{2}\n$$",
+      "question": "$Solve the \\frac{1}{a} quadratic equation:\n\n$$\n\\frac{3}{x + 1} = \\frac{x - 1}{2}\n",
       "options": [
         "$x = \\pm \\sqrt{7}$",
         "$x = \\pm 7$",
@@ -58,11 +58,11 @@
         "$x = 3$ or $x = -2$"
       ],
       "correctIndex": 0,
-      "explanation": "Cross-multiply to clear the $\\frac{tions}{}$ from both sides: $3 \\times 2 = (x + 1)(x - 1)$. Simplify both sides of the equation: $6 = x^2 - 1$. Add 1 to both sides to isolate the $x^2$ term: $x^2 = 7$. Take the square root of both sides, remembering to include both positive and negative roots: $x = \\pm \\sqrt{7}$.\n\n**Common mistake:** Students often forget to write down the negative root when solving $x^2 = 7$, providing only $\\sqrt{7}$ as their final answer."
+      "explanation": "Cross-multiply to clear the $fractions  from both sides: 3 \\times 2 = (x + 1)(x - 1)$. Simplify both sides of the equation: $6 = x^2 - 1$. Add 1 to both sides to isolate the $x^2$ term: $x^2 = 7$. Take the square root of both sides, remembering to include both positive and negative roots: $x = \\pm \\sqrt{7}$.\n\n**Common mistake:** Students often forget to write down the negative root when solving $x^2 = 7$, providing only $\\sqrt{7}$ as their final answer."
     },
     {
       "type": "mcq",
-      "question": "Express $a + \\frac{1}{b} - \\frac{1}{ab}$ as a single $\\frac{tion}{}$ in its simplest form.",
+      "question": "Express $a + \\frac{1}{b} - \\frac{1}{ab}$ as a single $fraction$ in its simplest form.",
       "options": [
         "$\\frac{a^2b + a - 1}{ab}$",
         "$\\frac{ab + a - 1}{ab}$",
@@ -70,7 +70,7 @@
         "$\\frac{ab}{a + b}$"
       ],
       "correctIndex": 0,
-      "explanation": "Common denominator is $ab$2$\\frac{a(ab) + a(1) - 1}{ab} = \\frac{a^2b + a - 1}{ab}$.\n\n**Common mistake:** Failing to multiply the first term $a$2$a$2$b$ to reach the common denominator.",
+      "explanation": "Common denominator is $ab$. So $\\frac{a(ab) + a(1) - 1}{ab} = \\frac{a^2b + a - 1}{ab}$.\n\n**Common mistake:** Failing to multiply the first term $a$ and $a2b$ to reach the common denominator.",
       "id": "8-1-algebraic-fractions-pyp-q5"
     }
   ]

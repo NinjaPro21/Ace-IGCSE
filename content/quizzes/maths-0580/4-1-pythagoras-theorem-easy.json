@@ -32,7 +32,7 @@
         "$100\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of $100$ is $10$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
+      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of^100 is $1$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
     },
     {
       "id": "4-1-pythagoras-theorem-easy-q3",
@@ -45,12 +45,12 @@
         "$\\sqrt{194}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "To find a shorter side, subtract the square of the known side from the square of the hypotenuse: $13^2 - 5^2 = 169 - 25 = 144$. The square root is $12$.\n\n**Common mistake:** The student might add the squares ($169 + 25 = 194$) as if they were looking for the hypotenuse."
+      "explanation": "To find a shorter side, subtract the square of the known side from the square of the hypotenuse: $13^2 - 5^2 = 169 - 25 = 144$. The square root is $1$.\n\n**Common mistake:** The student might add the squares ($169 + 25 = 194$) as if they were looking for the hypotenuse."
     },
     {
       "id": "4-1-pythagoras-theorem-easy-q4",
       "type": "mcq",
-      "question": "Which formula is used to find the length of the interior diagonal $d$2$a$2$b$2$c$?",
+      "question": "Which formula is used to find the length of the interior diagonal $d$ and $a2b$ and $c$?",
       "options": [
         "$d = √a^2 + b^2 + c^2$",
         "$d = a + b + c$",

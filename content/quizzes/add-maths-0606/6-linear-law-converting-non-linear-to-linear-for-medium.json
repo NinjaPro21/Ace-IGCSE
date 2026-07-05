@@ -10,7 +10,7 @@
   "questions": [
     {
       "type": "mcq",
-      "question": "A straight-line graph is obtained by plotting $\\lg y$2$\\lg x$2$3$ and the y-intercept is^2. Find the original equation relating $x$2$y$.",
+      "question": "A straight-line graph is obtained by plotting $\\lg y$. $\\lg x23$ and the y-intercept is $1$. Find the original equation relating $x$ and $y$.",
       "options": [
         "y = 100x^3",
         "y = 2x^3",
@@ -18,12 +18,12 @@
         "y = 1000x^2"
       ],
       "correctIndex": 0,
-      "explanation": "$\\lg y = 3 \\lg x + 2 \\Rightarrow \\lg y = \\lg x^3 + \\lg 10^{2} \\Rightarrow y = 100x^3$.\n\n**Common mistake:** Option B uses the intercept^2 as the coefficient $a$2$10^{2}$).",
+      "explanation": "$\\lg y = 3 \\lg x + 2 \\Rightarrow \\lg y = \\lg x^3 + \\lg 10^{2} \\Rightarrow y = 100x^3$.\n\n**Common mistake:** Option B uses the intercept^2 as the coefficient $a$. $10^{2}$).",
       "id": "6-linear-law-converting-non-linear-to-linear-for-medium-q1"
     },
     {
       "type": "mcq",
-      "question": "The relationship $y = px^2 + qx$2$y/x$2$x$2$(1, 5)$ and $(3, 11)$, find the value of $p$.",
+      "question": "The relationship $y = px^2 + qx$. $y/x2x$. $(1, 5)$ and $(3, 11)$, find the value of $p$.",
       "options": [
         "3",
         "2",
@@ -31,12 +31,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Linear form: $y/x = px + q$2$m$2$p$2$m = (11 - 5) / (3 - 1) = 6 / 2 = 3$.\n\n**Common mistake:** Option B is the result of a subtraction error in the gradient formula.",
+      "explanation": "Linear form: $y/x = px + q$ and $m2p^2 So m = (11 - 5) / (3 - 1) = 6 / 2 = 3$.\n\n**Common mistake:** Option B is the result of a subtraction error in the gradient formula.",
       "id": "6-linear-law-converting-non-linear-to-linear-for-medium-q2"
     },
     {
       "type": "mcq",
-      "question": "Variables $x$2$y$2$y = k a^x$2$\\ln y$2$x$2$0.5$ and an intercept of^1. Find the value of $k$.",
+      "question": "Variables $x$ and $y2y = k a^x$. $\\ln y2x$. $0.5$ and an intercept of^1. Find the value of $k$.",
       "options": [
         "e",
         "1",
@@ -44,12 +44,12 @@
         "e^0.5"
       ],
       "correctIndex": 0,
-      "explanation": "$\\ln y = x \\ln a + \\ln k$2$c = \\ln k = 1 \\Rightarrow k = e^1 = e$.\n\n**Common mistake:** Option B is the intercept value itself, failing to convert back to the original constant.",
+      "explanation": "$\\ln y = x \\ln a + \\ln k$. So $c = \\ln k = 1 \\Rightarrow k = e^1 = e$.\n\n**Common mistake:** Option B is the intercept value itself, failing to convert back to the original constant.",
       "id": "6-linear-law-converting-non-linear-to-linear-for-medium-q3"
     },
     {
       "type": "mcq",
-      "question": "To obtain a straight line for the equation $y^2 = ax + b$2$Y$2$X$ axes?",
+      "question": "To obtain a straight line for the equation $y^2 = ax + b$ and $Y2X$ axes?",
       "options": [
         "Y = y^2, X = x",
         "Y = y, X = x",
@@ -57,12 +57,12 @@
         "Y = lg y, X = lg x"
       ],
       "correctIndex": 0,
-      "explanation": "Comparing $y^2 = a(x) + b$2$Y = mX + c$2$Y = y^2$ and $X = x$.\n\n**Common mistake:** Option C is a common algebra error when trying to make $y$ the subject.",
+      "explanation": "Comparing $y^2 = a(x) + b$. So $Y = mX + c2Y = y^2$ and $X = x$.\n\n**Common mistake:** Option C is a common algebra error when trying to make $y$ the subject.",
       "id": "6-linear-law-converting-non-linear-to-linear-for-medium-q4"
     },
     {
       "type": "mcq",
-      "question": "A graph of $1/y$2$1/x$2$2$. Find the equation relating $y$2$x$.",
+      "question": "A graph of $1/y$. $1/x22$. Find the equation relating $y$ and $x$.",
       "options": [
         "y = 0.5x",
         "y = 2x",

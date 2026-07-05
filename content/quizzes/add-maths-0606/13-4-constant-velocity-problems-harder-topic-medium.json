@@ -11,7 +11,7 @@
     {
       "id": "13-4-constant-velocity-problems-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "A hiker is at $\\begin{pmatrix} 1 \\ 2 \\end{pmatrix}$ km at 12:00 PM and at $\\begin{pmatrix} 7 \\ 10 \\end{pmatrix}$ km at 2:00 PM. Find the hiker's velocity in km/h.",
+      "question": "A hiker is at $\\begin{pmatrix} 1 \\ \\\\ 2 \\end{pmatrix}$ km at 12:00 PM and at $\\begin{pmatrix} 7 \\ \\\\ 10 \\end{pmatrix}$ km at 2:00 PM. Find the hiker's velocity in km/h.",
       "options": [
         "3i + 4j",
         "6i + 8j",
@@ -19,12 +19,12 @@
         "2i + 2j"
       ],
       "correctIndex": 0,
-      "explanation": "Displacement $= \\begin{pmatrix} 7-1 \\ 10-2 \\end{pmatrix} = \\begin{pmatrix} 6 \\ 8 \\end{pmatrix}$. Time elapsed $= 2 hours$2$2\\mathbf{v} = \\begin{pmatrix} 6/2 \\ 8/2 \\end{pmatrix} = \\begin{pmatrix} 3 \\ 4 \\end{pmatrix}$.\n\n**Common mistake:** Forgetting to divide by the 2-hour time interval."
+      "explanation": "Displacement $= \\begin{pmatrix} 7-1 \\ \\\\ 10-2 \\end{pmatrix} = \\begin{pmatrix} 6 \\ \\\\ 8 \\end{pmatrix}$. Time elapsed $= 2 hours^2 2\\mathbf{v} = \\begin{pmatrix} 6/2 \\ \\\\ 8/2 \\end{pmatrix} = \\begin{pmatrix} 3 \\ \\\\ 4 \\end{pmatrix}$.\n\n**Common mistake:** Forgetting to divide by the 2-hour time interval."
     },
     {
       "id": "13-4-constant-velocity-problems-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "The position of a drone is given by $\\mathbf{r} = \\begin{pmatrix} 20 \\ 50 \\end{pmatrix} + t\\begin{pmatrix} -4 \\ 2 \\end{pmatrix}$. At what time $t$ will the drone be directly North of the origin (i.e., on the y-axis)?",
+      "question": "The position of a drone is given by $\\mathbf{r} = \\begin{pmatrix} 20 \\ \\\\ 50 \\end{pmatrix} + t\\begin{pmatrix} -4 \\ \\\\ 2 \\end{pmatrix}$. At what time $t$ will the drone be directly North of the origin (i.e., on the y-axis)?",
       "options": [
         "t = 5",
         "t = 4",
@@ -37,7 +37,7 @@
     {
       "id": "13-4-constant-velocity-problems-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Two particles A and B have positions $\\mathbf{r}_A = \\begin{pmatrix} 1 \\ 2 \\end{pmatrix} + t\\begin{pmatrix} 3 \\ 1 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 10 \\ 5 \\end{pmatrix} + t\\begin{pmatrix} 0 \\ 2 \\end{pmatrix}$. Find the vector $\\vec{AB}$ at $t = 2$.",
+      "question": "Two particles A and B have positions $\\mathbf{r}_A = \\begin{pmatrix} 1 \\ \\\\ 2 \\end{pmatrix} + t\\begin{pmatrix} 3 \\ \\\\ 1 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 10 \\ \\\\ 5 \\end{pmatrix} + t\\begin{pmatrix} 0 \\ \\\\ 2 \\end{pmatrix}$. Find the vector $\\vec{AB}$ at $t = 2$.",
       "options": [
         "3i + 3j",
         "7i + 4j",
@@ -45,12 +45,12 @@
         "1i + 1j"
       ],
       "correctIndex": 0,
-      "explanation": "At $t=2$: $\\mathbf{r}_A = \\begin{pmatrix} 7 \\ 4 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 10 \\ 9 \\end{pmatrix}$. $\\vec{AB} = \\mathbf{r}_B - \\mathbf{r}_A = \\begin{pmatrix} 3 \\ 5 \\end{pmatrix}$? *Correction*: $\\vec{AB} = (10, 9) - (7, 4) = (3, 5)$. *Logic check*: Answer 0 is 3i+3j. $9-4=5$. (Calculation: $10-7=3, 9-4=5$). *Options adjusted*.\n\n**Common mistake:** Subtracting the vectors in the wrong order (A - B)."
+      "explanation": "At $t=2$: $\\mathbf{r}_A = \\begin{pmatrix} 7 \\ \\\\ 4 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 10 \\ \\\\ 9 \\end{pmatrix}$. $\\vec{AB} = \\mathbf{r}_B - \\mathbf{r}_A = \\begin{pmatrix} 3 \\ \\\\ 5 \\end{pmatrix}$? *Correction*: $\\vec{AB} = (10, 9) - (7, 4) = (3, 5)$. *Logic check*: Answer 0 is 3i+3j. $9-4=5$. (Calculation: $10-7=3, 9-4=5$). *Options adjusted*.\n\n**Common mistake:** Subtracting the vectors in the wrong order (A - B)."
     },
     {
       "id": "13-4-constant-velocity-problems-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "Find the time when the distance from the origin to a particle with position $\\mathbf{r} = \\begin{pmatrix} t-6 \\ 8 \\end{pmatrix}$ is 10 units.",
+      "question": "Find the time when the distance from the origin to a particle with position $\\mathbf{r} = \\begin{pmatrix} t-6 \\ \\\\ 8 \\end{pmatrix}$ is 10 units.",
       "options": [
         "t = 12 and t = 0",
         "t = 6",

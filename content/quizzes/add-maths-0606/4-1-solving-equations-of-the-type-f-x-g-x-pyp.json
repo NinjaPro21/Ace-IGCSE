@@ -50,7 +50,7 @@
     {
       "id": "4-1-solving-equations-of-the-type-f-x-g-x-pyp-q4",
       "type": "mcq",
-      "question": "Find the values of x for which $|x - a| = |x - b|$ where a and b are distinct constants.",
+      "question": "Find the values of x for which $|x - a| = |x - b| where a and b are distinct constants.$",
       "options": [
         "x = (a + b) / 2",
         "x = a - b",
@@ -58,7 +58,7 @@
         "No solution"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $x-a = x-b$2$x-a = -(x-b) \\implies x-a = -x+b \\implies 2x = a+b \\implies x = (a+b)/2$.\n\n**Common mistake:** Thinking that no solution exists because Case 1 fails, missing the geometric midpoint property of the second case."
+      "explanation": "Case 1: $x-a = x-b$. So $x-a = -(x-b) \\implies x-a = -x+b \\implies 2x = a+b \\implies x = (a+b)/2$.\n\n**Common mistake:** Thinking that no solution exists because Case 1 fails, missing the geometric midpoint property of the second case."
     },
     {
       "id": "4-1-solving-equations-of-the-type-f-x-g-x-pyp-q5",

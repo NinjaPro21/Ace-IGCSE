@@ -11,12 +11,10 @@ $a^{-n} = \frac{1}{a^n}, \quad a^0 = 1, \quad a^{\frac{m}{n}} = \sqrt[n]{a^m} = 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Index laws">
-      <text x="180" y="35" text-anchor="middle" font-size="12" fill="#334155">a^m × a^n = a^(m+n)</text>
-      <text x="180" y="60" text-anchor="middle" font-size="12" fill="#334155">a^m ÷ a^n = a^(m−n)</text>
-      <text x="180" y="85" text-anchor="middle" font-size="12" fill="#334155">(a^m)^n = a^(mn)</text>
-    </svg></div>
-
-Index laws — multiply same base: add powers; divide: subtract powers; power of power: multiply powers.
+      <text x="180" y="35" text-anchor="middle" font-size="12" fill="#1a1a1a">a^m × a^n = a^(m+n)</text>
+      <text x="180" y="60" text-anchor="middle" font-size="12" fill="#1a1a1a">a^m ÷ a^n = a^(m−n)</text>
+      <text x="180" y="85" text-anchor="middle" font-size="12" fill="#1a1a1a">(a^m)^n = a^(mn)</text>
+    </svg><p class="enlight-physics-diagram__caption">Index laws — multiply same base: add powers; divide: subtract powers; power of power: multiply powers.</p></div>
 
 ## Steps / method
 
@@ -62,4 +60,4 @@ Equate both sides using this shared base layout: $3^{x-2} = 3^{-3}$.
 
 Since the bases are identical, equate their exponents: $x - 2 = -3$.
 
-Solve this linear equation by isolating $x$. So $x = -3 + 2 = -1$.
+Solve this linear equation by isolating $x$ when $2$.

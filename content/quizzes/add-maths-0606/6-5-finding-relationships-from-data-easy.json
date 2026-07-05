@@ -11,20 +11,20 @@
     {
       "id": "6-5-finding-relationships-from-data-easy-q1",
       "type": "mcq",
-      "question": "A researcher has a set of data $(x, y)$ that satisfies the law $y = ax^2 + bx$2$a$2$b$2$Y$2$X$ axes?",
+      "question": "A researcher has a set of data $(x, y)$ that satisfies the law $y = ax^2 + bx$ and $a2b$ and $Y2X$ axes?",
       "options": [
         "$Y = \\frac{y}{x}$ and $X = x$",
-        "$Y = y$2$X = x^2$",
-        "$Y = \\lg y$2$X = \\lg x$",
-        "$Y = y$2$X = x$"
+        "$Y = y$. So $X = x^2$",
+        "$Y = \\lg y$. So $X = \\lg x$",
+        "$Y = y$. So $X = x$"
       ],
       "correctIndex": 0,
-      "explanation": "Dividing the equation $y = ax^2 + bx$2$x$2$\\frac{y}{x} = ax + b$2$Y = mX + c$2$Y = \\frac{y}{x}$ and $X = x$.\n\n**Common mistake:** Students often assume every non-linear relationship requires logarithms, incorrectly choosing $\\lg y$2$\\lg x$."
+      "explanation": "Dividing the equation $y = ax^2 + bx$ and $x2\\frac{y}{x} = ax + b$. So $Y = mX + c2Y = \\frac{y}{x}$ and $X = x$.\n\n**Common mistake:** Students often assume every non-linear relationship requires logarithms, incorrectly choosing $\\lg y$. $\\lg x$."
     },
     {
       "id": "6-5-finding-relationships-from-data-easy-q2",
       "type": "mcq",
-      "question": "In an experiment, the relationship between $x$2$y$2$y = Ab^x$2$\\lg y = x \\lg b + \\lg A$2$A$.",
+      "question": "In an experiment, the relationship between $x$ and $y2y = Ab^x$. So $\\lg y = x \\lg b + \\lg A2A$.",
       "options": [
         "4",
         "0.602",
@@ -32,12 +32,12 @@
         "1.82"
       ],
       "correctIndex": 0,
-      "explanation": "The intercept $c = \\lg A = 0.602$. Therefore, $A = 10^{0.602} \\approx 4$.\n\n**Common mistake:** Using the base $e$2$\\lg$."
+      "explanation": "The intercept $c = \\lg A = 0.602$. Therefore, $A = 10^{0.602} \\approx 4$.\n\n**Common mistake:** Using the base $e . \\lg$."
     },
     {
       "id": "6-5-finding-relationships-from-data-easy-q3",
       "type": "mcq",
-      "question": "The variables $p$2$q$2$q = kp^n$2$\\lg q$2$\\lg p$ is plotted, what does the gradient of the line represent?",
+      "question": "The variables $p  and q2q = kp^n$. $\\lg q2\\lg p$ is plotted, what does the gradient of the line represent?",
       "options": [
         "$n$",
         "$\\lg k$",
@@ -45,12 +45,12 @@
         "$\\lg n$"
       ],
       "correctIndex": 0,
-      "explanation": "The log transformation $\\lg q = n \\lg p + \\lg k$2$Y = mX + c$2$m$2$n$.\n\n**Common mistake:** Confusing the gradient with the vertical intercept $\\lg k$."
+      "explanation": "The log transformation $\\lg q = n \\lg p + \\lg k$. So $Y = mX + c2m  and n$.\n\n**Common mistake:** Confusing the gradient with the vertical intercept $\\lg k$."
     },
     {
       "id": "6-5-finding-relationships-from-data-easy-q4",
       "type": "mcq",
-      "question": "A table of experimental data provides values for $x$2$y$2$y$2$\\frac{1}{x^2}$ results in a straight line passing through $(0, 5)$, state the value of $b$2$y = \\frac{a}{x^2} + b$.",
+      "question": "A table of experimental data provides values for $x$ and $y2y$. $\\frac{1}{x^2}$ results in a straight line passing through $(0, 5)$, state the value of $b$. So $y = \\frac{a}{x^2} + b$.",
       "options": [
         "5",
         "0",
@@ -58,12 +58,12 @@
         "$\\u221A5$"
       ],
       "correctIndex": 0,
-      "explanation": "In the linear form $y = a(\\frac{1}{x^2}) + b$2$c$2$b$2$(0, 5)$, $b = 5$.\n\n**Common mistake:** A student might assume the line must pass through the origin ($b=0$) because they are used to direct proportionality."
+      "explanation": "In the linear form $y = a(\\frac{1}{x^2}) + b$ and $c2b$. $(0, 5)$, $b = 5$.\n\n**Common mistake:** A student might assume the line must pass through the origin ($b=0$) because they are used to direct proportionality."
     },
     {
       "id": "6-5-finding-relationships-from-data-easy-q5",
       "type": "mcq",
-      "question": "A graph of $\\ln y$2$x$2$x$2$y$?",
+      "question": "A graph of $\\ln y$ and $x2x$ and $y$?",
       "options": [
         "$y = Ae^{-0.5x}$",
         "$y = Ax^{-0.5}$",
@@ -71,7 +71,7 @@
         "$y = e^{-0.5}x$"
       ],
       "correctIndex": 0,
-      "explanation": "The linear form $\\ln y = mx + c$2$m = -0.5$ converts to the exponential form $y = e^{mx+c} = e^c e^{-0.5x} = Ae^{-0.5x}$.\n\n**Common mistake:** Confusing the exponential law with the power law $y = ax^n$2$\\ln y$2$\\ln x$."
+      "explanation": "The linear form $\\ln y = mx + c$. So $m = -0.5$ converts to the exponential form $y = e^{mx+c} = e^c e^{-0.5x} = Ae^{-0.5x}$.\n\n**Common mistake:** Confusing the exponential law with the power law $y = ax^n$. $\\ln y2\\ln x$."
     }
   ]
 }

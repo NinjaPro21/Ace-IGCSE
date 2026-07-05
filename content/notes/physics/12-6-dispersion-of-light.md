@@ -1,44 +1,37 @@
 ## Core idea
 
-While we often think of light as simply "white," it is actually composed of a variety of different colours. Dispersion is the process where white light is split into its component colours when passing through a medium like a glass prism. This phenomenon occurs because different colours of light travel at slightly different speeds in materials other than a vacuum.
+White light is composed of many colours. Dispersion is the splitting of white light into its component colours when passing through a prism. This happens because different colours travel at slightly different speeds in glass, so each colour refracts by a different amount.
 
-Newton’s Dispersion Experiment
+## Key definitions
 
-Sir Isaac Newton demonstrated this effect by placing a glass prism in the path of a thin beam of white light. As the light passed through the prism, it spread out into a continuous band of colours known as a spectrum.
+- **Dispersion**: The splitting of white light into a spectrum of colours.
+- **Spectrum**: The band of colours produced when white light is dispersed.
+- **Monochromatic light**: Light of a single frequency (one colour only).
 
-The Visible Spectrum
+## Newton's experiment
 
-The traditional visible spectrum consists of seven colours. They are typically arranged in order of increasing frequency (and decreasing wavelength): Red (Lowest frequency, longest wavelength)
+Newton placed a glass prism in a beam of white light. The light spread into a continuous spectrum of colours.
 
-Orange
+## The visible spectrum (ROYGBIV)
 
-Yellow
+In order of **increasing frequency** (decreasing wavelength):
 
-Green
+Red → Orange → Yellow → Green → Blue → Indigo → Violet
 
-Blue
+Mnemonic: **ROYGBIV**.
 
-Indigo
+## Why dispersion occurs
 
-Violet (Highest frequency, shortest wavelength)
+Refractive index $n$ varies with colour:
 
-Note: A helpful acronym to remember these colours is ROYGBIV.
-
-Why Dispersion Occurs
-
-Dispersion happens because the refractive index ($n$) of a material is not the same for every colour:
-
-Red Light: Has the lowest refractive index and is refracted (bent) the least.
-
-Violet Light: Has the highest refractive index and is refracted the most.
-
-Speed in Glass: Because red light is refracted the least, it travels the fastest through glass compared to the other colours in the visible spectrum.
-
-Monochromatic Light
-
-While the spectrum is a continuous range of frequencies, any light that consists of only a single frequency is described as monochromatic.
+- **Red**: Lowest $n$, least refraction, fastest in glass.
+- **Violet**: Highest $n$, most refraction, slowest in glass.
 
 ## Graphs & diagrams
+
+**Dispersion in a prism**
+
+- White light enters; red deviates least, violet most.
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 180" width="360" height="180" role="img" aria-label="Dispersion in a prism">
       <polygon points="160,40 220,140 100,140" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
@@ -54,14 +47,13 @@ While the spectrum is a continuous range of frequencies, any light that consists
 
 ## Examiner tip
 
-Wavelength Order: Always double-check if a question asks for the colours in order of increasing or decreasing wavelength. Red has the longest wavelength, while violet has the shortest.
-
-Terminology: Be sure to use the term dispersion specifically for the splitting of light, and spectrum for the resulting band of colours.
+- Red has the **longest** wavelength; violet the **shortest**.
+- Use "dispersion" for the splitting process; "spectrum" for the resulting band.
 
 ## Quick check
 
-State the order of colours in the visible spectrum, starting with the shortest wavelength.
+State the colours in order of shortest wavelength.
 
-Which colour of the visible spectrum travels the fastest in glass?
+Which colour travels fastest in glass?
 
-What is the term used to describe light of a single frequency?
+What is monochromatic light?

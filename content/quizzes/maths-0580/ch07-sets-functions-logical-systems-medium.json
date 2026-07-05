@@ -63,7 +63,7 @@
     {
       "id": "ch07-sets-functions-logical-systems-medium-q5",
       "type": "mcq",
-      "question": "What is the set $A$2$A = \\{x: x \\text{ is an integer, } 2 \\le x < 6\\}$?",
+      "question": "What is the set $A$. So $A = \\{x: x \\text{ is an integer, } 2 \\le x < 6\\}$?",
       "options": [
         "$\\{2, 3, 4, 5\\}$",
         "$\\{2, 3, 4, 5, 6\\}$",
@@ -71,7 +71,7 @@
         "$\\{3, 4, 5, 6\\}$"
       ],
       "correctIndex": 0,
-      "explanation": "The notation includes 2 (due to $\\le$2$<$).\n\n**Common mistake:** Including the upper boundary 6 when the symbol is strictly less than ($<$)."
+      "explanation": "The notation includes 2 (due to $\\le . <$).\n\n**Common mistake:** Including the upper boundary 6 when the symbol is strictly less than ($<$)."
     },
     {
       "id": "ch07-sets-functions-logical-systems-medium-q6",
@@ -84,20 +84,20 @@
         "$9x^2 + 4$"
       ],
       "correctIndex": 0,
-      "explanation": "In the composite function $fg(x)$, function $g$2$f$2$f[g(x)] = f(x^2) = 3(x^2) + 2$.\n\n**Common mistake:** Students often perform the functions in the wrong order, finding $gf(x)$ instead of $fg(x)$."
+      "explanation": "In the composite function $fg(x)$, function $g$ and $f2f[g(x)] = f(x^2) = 3(x^2) + 2$.\n\n**Common mistake:** Students often perform the functions in the wrong order, finding $gf(x)$ instead of $fg(x)$."
     },
     {
       "id": "ch07-sets-functions-logical-systems-medium-q7",
       "type": "mcq",
-      "question": "Find the value of $x$2$f(x) = 1$, given that $f(x) = 3x - 1$.",
+      "question": "Find the value of $x$. So $f(x) = 1$, given that $f(x) = 3x - 1$.",
       "options": [
         "$2/3$",
         "$0$",
-        "$2$",
+        "2",
         "$1/3$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the function equal to 1: $3x - 1 = 1$. Adding 1 to both sides gives $3x = 2$, so $x = 2/3$.\n\n**Common mistake:** Students might substitute 1 for $x$2$f(1)$) instead of solving the equation."
+      "explanation": "Set the function equal to 1: $3x - 1 = 1$. Adding 1 to both sides gives $3x = 2$, so $x = 2/3$.\n\n**Common mistake:** Students might substitute 1 for $x$. $f(1)$) instead of solving the equation."
     },
     {
       "id": "ch07-sets-functions-logical-systems-medium-q8",
@@ -110,7 +110,7 @@
         "$x/5 + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the algebraic method: let $y = 5x - 2$, then swap $x$2$y$2$x = 5y - 2$. Solving for $y$2$x + 2 = 5y$2$y = (x + 2) / 5$.\n\n**Common mistake:** Errors in signs during rearrangement (e.g., subtracting 2 instead of adding) are common."
+      "explanation": "Using the algebraic method: let $y = 5x - 2$, then swap $x$ and $y2x = 5y - 2$. Solving for $y$. So $x + 2 = 5y2y = (x + 2) / 5$.\n\n**Common mistake:** Errors in signs during rearrangement (e.g., subtracting 2 instead of adding) are common."
     },
     {
       "id": "ch07-sets-functions-logical-systems-medium-q9",
@@ -123,7 +123,7 @@
         "$\\{18, 30, 114\\}$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute each domain value into the function: $2(1)^2 + 7 = 9$; $2(2)^2 + 7 = 15$; $2(5)^2 + 7 = 57$.\n\n**Common mistake:** Calculating $2x$2$4x^2$) instead of following the correct order of operations (Indices before Multiplication)."
+      "explanation": "Substitute each domain value into the function: $2(1)^2 + 7 = 9$; $2(2)^2 + 7 = 15$; $2(5)^2 + 7 = 57$.\n\n**Common mistake:** Calculating $2x$. $4x^2$) instead of following the correct order of operations (Indices before Multiplication)."
     },
     {
       "id": "ch07-sets-functions-logical-systems-medium-q10",

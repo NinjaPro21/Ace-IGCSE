@@ -32,7 +32,7 @@
         "2.5"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify the numerator and denominator separately: $4.2 + 5.8 = 10$, and $0.5 \\times 4 = 2$. Dividing the results gives $10 \\div 2 = 5$.\n\n**Common mistake:** Students might read this as $4.2 + 5.8 \\div 0.5 \\times 4$, applying BIDMAS incorrectly across the $\\frac{tion}{}$ bar."
+      "explanation": "Simplify the numerator and denominator separately: $4.2 + 5.8 = 10$, and $0.5 \\times 4 = 2$. Dividing the results gives $10 \\div 2 = 5$.\n\n**Common mistake:** Students might read this as $4.2 + 5.8 \\div 0.5 \\times 4$, applying BIDMAS incorrectly across the $fraction$ bar."
     },
     {
       "id": "ch01-number-easy-q3",
@@ -162,7 +162,7 @@
         "12"
       ],
       "correctIndex": 0,
-      "explanation": "List multiples: $6, 12, 18, 24, 30$ and $8, 16, 24, 32$. The smallest shared multiple value is $24$.\n\n**Common mistake:** Students commonly select the highest common factor (2) or just multiply the terms to get 48."
+      "explanation": "List multiples: $6, 12, 18, 24, 30$ and $8, 16, 24, 32$. The smallest shared multiple value is $1$.\n\n**Common mistake:** Students commonly select the highest common factor (2) or just multiply the terms to get 48."
     },
     {
       "id": "ch01-number-easy-q13",
@@ -219,7 +219,7 @@
     {
       "id": "ch01-number-easy-q17",
       "type": "mcq",
-      "question": "Find the 20th term of the sequence whose $n$2$4n - 3$.",
+      "question": "Find the 20th term of the sequence whose $n$. $4n - 3$.",
       "options": [
         "77",
         "83",
@@ -245,7 +245,7 @@
     {
       "id": "ch01-number-easy-q19",
       "type": "mcq",
-      "question": "The $n$2$n^2 + 5$. Find the 6th term of this sequence.",
+      "question": "The $n$. $n^2 + 5$. Find the 6th term of this sequence.",
       "options": [
         "41",
         "17",
@@ -258,7 +258,7 @@
     {
       "id": "ch01-number-easy-q20",
       "type": "mcq",
-      "question": "A cubic sequence has an $n$2$n^3 - 2$. Find the 3rd term.",
+      "question": "A cubic sequence has an $n$. $n^3 - 2$. Find the 3rd term.",
       "options": [
         "25",
         "7",
@@ -331,7 +331,7 @@
         "450.5 kg"
       ],
       "correctIndex": 0,
-      "explanation": "The degree of accuracy is $10\\text{ kg}$. Half of this unit is $5\\text{ kg}$. Add $5$ to the recorded mass to get the upper bound: $450 + 5 = 455\\text{ kg}$.\n\n**Common mistake:** Students often write 454.9 to avoid including 455, but in IGCSE limits, the boundary value itself is used as the upper limit."
+      "explanation": "The degree of accuracy is $10\\text{ kg}$. Half of this unit is $5\\text{ kg}$. Add^5 to the recorded mass to get the upper bound: $450 + 5 = 455\\text{ kg}$.\n\n**Common mistake:** Students often write 454.9 to avoid including 455, but in IGCSE limits, the boundary value itself is used as the upper limit."
     },
     {
       "id": "ch01-number-easy-q26",
@@ -422,7 +422,7 @@
         "0.0000321"
       ],
       "correctIndex": 0,
-      "explanation": "Multiplying $3.21$ by $10^{5}$ shifts the decimal point 5 places to the right, yielding $321000$.\n\n**Common mistake:** Students sometimes add 5 zeros directly after the decimal point or after the integer digit without shifting appropriately."
+      "explanation": "Multiplying $3.21$ by $10^{5}$ shifts the decimal point 5 places to the right, yielding^321000.\n\n**Common mistake:** Students sometimes add 5 zeros directly after the decimal point or after the integer digit without shifting appropriately."
     },
     {
       "id": "ch01-number-easy-q33",
@@ -435,12 +435,12 @@
         "$6 \\times 5^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Standard form requires a number $A \\times 10^n$2$1 \\le A < 10$ and $n$2$7.05 \\times 10^{-6}$ satisfies this condition.\n\n**Common mistake:** Students often accept values where the leading coefficient is greater than or equal to 10, or less than 1."
+      "explanation": "Standard form requires a number $A \\times 10^n$. $1 \\le A < 10$ and $n$. $7.05 \\times 10^{-6}$ satisfies this condition.\n\n**Common mistake:** Students often accept values where the leading coefficient is greater than or equal to 10, or less than 1."
     },
     {
       "id": "ch01-number-easy-q34",
       "type": "mcq",
-      "question": "Convert $86400000$ into standard scientific form.",
+      "question": "Convert^86400000 into standard scientific form.",
       "options": [
         "$8.64 \\times 10^{7}$",
         "$8.64 \\times 10^{6}$",
@@ -487,12 +487,12 @@
         "$4\\sqrt{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply radicals together: $\\sqrt{8} \\times \\sqrt{2} = \\sqrt{16} = 4$.\n\n**Common mistake:** Students sometimes fail to extract the square root value completely, leaving the answer as $\\sqrt{16}$ or improperly simplifying to $16$."
+      "explanation": "Multiply radicals together: $\\sqrt{8} \\times \\sqrt{2} = \\sqrt{16} = 4$.\n\n**Common mistake:** Students sometimes fail to extract the square root value completely, leaving the answer as $\\sqrt{16}$ or improperly simplifying to^16."
     },
     {
       "id": "ch01-number-easy-q38",
       "type": "mcq",
-      "question": "Express $\\sqrt{\\frac{9}{49}}$ as a rational $\\frac{tion.}{}$",
+      "question": "Express $\\sqrt{\\frac{9}{49}}$ as a rational $fraction.$",
       "options": [
         "$\\frac{3}{7}$",
         "$\\frac{9}{7}$",
@@ -500,7 +500,7 @@
         "$\\frac{81}{2401}$"
       ],
       "correctIndex": 0,
-      "explanation": "Apply the radical rule across $\\frac{tions:}{}$ $\\sqrt{\\frac{9}{49}} = \\frac{\\sqrt{9}}{\\sqrt{49}} = \\frac{3}{7}$.\n\n**Common mistake:** Students sometimes only find the square root of the numerator or square the components instead of extracting the root."
+      "explanation": "Apply the radical rule across $tions:$ $\\sqrt{\\frac{9}{49}} = \\frac{\\sqrt{9}}{\\sqrt{49}} = \\frac{3}{7}$.\n\n**Common mistake:** Students sometimes only find the square root of the numerator or square the components instead of extracting the root."
     },
     {
       "id": "ch01-number-easy-q39",
@@ -526,7 +526,7 @@
         "6"
       ],
       "correctIndex": 0,
-      "explanation": "Distribute across bracket terms: $\\sqrt{3} \\times 2 + \\sqrt{3} \\times \\sqrt{3} = 2\\sqrt{3} + 3$.\n\n**Common mistake:** Students often write $\\sqrt{3} \\times \\sqrt{3} = 9$ instead of removing the radical boundary to get $3$."
+      "explanation": "Distribute across bracket terms: $\\sqrt{3} \\times 2 + \\sqrt{3} \\times \\sqrt{3} = 2\\sqrt{3} + 3$.\n\n**Common mistake:** Students often write $\\sqrt{3} \\times \\sqrt{3} = 9$ instead of removing the radical boundary to get^3."
     },
     {
       "id": "ch01-number-easy-q41",

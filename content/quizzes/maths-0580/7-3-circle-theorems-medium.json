@@ -11,7 +11,7 @@
     {
       "id": "7-3-circle-theorems-medium-q1",
       "type": "mcq",
-      "question": "A cyclic quadrilateral $ABCD$2$∠A = 2x + 10$ and $∠C = x + 50$. Determine the value of $x$.",
+      "question": "A cyclic quadrilateral $ABCD$. $∠A = 2x + 10$ and $∠C = x + 50$. Determine the value of $x$.",
       "options": [
         "$40$",
         "$120$",
@@ -24,7 +24,7 @@
     {
       "id": "7-3-circle-theorems-medium-q2",
       "type": "mcq",
-      "question": "Two tangents are drawn from an external point $T$2$A$2$B$2$ATB = 40°$, calculate the size of angle $ABT$.",
+      "question": "Two tangents are drawn from an external point $T$ and $A2B$. So $ATB = 40°$, calculate the size of angle $ABT$.",
       "options": [
         "$70°$",
         "$40°$",
@@ -32,12 +32,12 @@
         "$80°$"
       ],
       "correctIndex": 0,
-      "explanation": "Tangents from an external point are equal in length, so triangle $TAB$2$TA = TB$2$∠ABT = (180 - 40) ÷ 2 = 70°$.\n\n**Common mistake:** A student might assume the triangle is equilateral or forget to divide the remaining $140°$ by $2$."
+      "explanation": "Tangents from an external point are equal in length, so triangle $TAB$. So $TA = TB2∠ABT = (180 - 40) ÷ 2 = 70°$.\n\n**Common mistake:** A student might assume the triangle is equilateral or forget to divide the remaining $140°$ by 2."
     },
     {
       "id": "7-3-circle-theorems-medium-q3",
       "type": "mcq",
-      "question": "In the diagram, $O$2$BAC$2$x$2$BOC$2$250°$, find $x$.",
+      "question": "In the diagram, $O$. $BAC2x$. $BOC2250°$, find $x$.",
       "options": [
         "$55°$",
         "$110°$",
@@ -45,12 +45,12 @@
         "$70°$"
       ],
       "correctIndex": 0,
-      "explanation": "The angle at the centre $BOC$2$360 - 250 = 110°$. The angle at the circumference is half of this: $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might divide the reflex angle ($250$) by $2$ to get $125°$ without realizing the theorem applies to the angle 'facing' the circumference point."
+      "explanation": "The angle at the centre $BOC$. $360 - 250 = 110°$. The angle at the circumference is half of this: $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might divide the reflex angle ($250$) by2to get$125°$ without realizing the theorem applies to the angle 'facing' the circumference point."
     },
     {
       "id": "7-3-circle-theorems-medium-q4",
       "type": "mcq",
-      "question": "A chord $PQ$2$P$2$64°$. According to the Alternate Segment Theorem, what is the size of the angle in the alternate segment subtended by chord $PQ$?",
+      "question": "A chord $PQ$ and $P264°$. According to the Alternate Segment Theorem, what is the size of the angle in the alternate segment subtended by chord $PQ$?",
       "options": [
         "$64°$",
         "$128°$",
@@ -63,7 +63,7 @@
     {
       "id": "7-3-circle-theorems-medium-q5",
       "type": "mcq",
-      "question": "In a circle with centre $O$2$OA$2$OB$2$AB$2$OAB = 25°$, calculate the angle subtended by arc $AB$ at the circumference.",
+      "question": "In a circle with centre $O$. $OA2OB$. $AB2OAB = 25°$, calculate the angle subtended by arc $AB$ at the circumference.",
       "options": [
         "$65°$",
         "$130°$",
@@ -71,7 +71,7 @@
         "$50°$"
       ],
       "correctIndex": 0,
-      "explanation": "Triangle $OAB$2$OA=OB$2$∠OBA = 25°$. Angle at centre $∠AOB = 180 - (25+25) = 130°$. Angle at circumference is $130 ÷ 2 = 65°$.\n\n**Common mistake:** The student might think the angle at the circumference is equal to the base angle $25°$ or double it to $50°$."
+      "explanation": "Triangle $OAB$. So $OA=OB2∠OBA = 25°$. Angle at centre $∠AOB = 180 - (25+25) = 130°$. Angle at circumference is $130 ÷ 2 = 65°$.\n\n**Common mistake:** The student might think the angle at the circumference is equal to the base angle $25°$ or double it to $50°$."
     }
   ]
 }

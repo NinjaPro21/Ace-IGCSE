@@ -11,8 +11,14 @@ $$
 ## Steps / method
 
 1. **Identify** whether you are given $s(t)$, $v(t)$, or $a(t)$.
+
+
 2. **Differentiate** with respect to $t$ to move from displacement to velocity, or from velocity to acceleration.
+
+
 3. **Substitute** the required time value to find an instantaneous quantity.
+
+
 4. **Set** $v = 0$ to find when the particle is instantaneously at rest or may change direction.
 
 ### Key rule
@@ -36,7 +42,9 @@ Differentiate to go from displacement → velocity → acceleration. At maximum 
       <text x="338" y="48" text-anchor="middle" font-size="11" fill="#be123c" font-weight="600">a(t)</text>
       <text x="338" y="62" text-anchor="middle" font-size="10" fill="#64748b">acceleration</text>
       <text x="210" y="90" text-anchor="middle" font-size="10" fill="#64748b">Reverse with integration (∫ dt) and use initial conditions for +C</text>
-    </svg><p class="enlight-physics-diagram__caption">Differentiate s → v → a. Integrate in reverse to recover motion quantities.</p></div>
+    </svg></div>
+
+Differentiate s → v → a. Integrate in reverse to recover motion quantities.
 
 **Distance vs displacement on a straight line**
 
@@ -51,7 +59,9 @@ Differentiate to go from displacement → velocity → acceleration. At maximum 
       <text x="200" y="32" text-anchor="middle" font-size="10" fill="#0891b2" font-weight="600">displacement = straight arrow (blue)</text>
       <circle cx="340" cy="70" r="7" fill="#0891b2" stroke="#fff" stroke-width="2"/>
       <text x="340" y="95" text-anchor="middle" font-size="10" fill="#0891b2">finish</text>
-    </svg><p class="enlight-physics-diagram__caption">If a particle turns back, distance is longer than |displacement|. Use ∫v dt for displacement and ∫|v| dt for distance.</p></div>
+    </svg></div>
+
+If a particle turns back, distance is longer than |displacement|. Use ∫v dt for displacement and ∫|v| dt for distance.
 
 ## Worked example — Velocity and acceleration
 

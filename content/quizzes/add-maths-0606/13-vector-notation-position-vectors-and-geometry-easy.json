@@ -11,7 +11,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q1",
       "type": "mcq",
-      "question": "Find the magnitude of the vector a=8i−15j .",
+      "question": "Find the magnitude of the vector a=8i-15j .",
       "options": [
         "17",
         "23",
@@ -24,12 +24,12 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q2",
       "type": "mcq",
-      "question": "Write the column vector\nbeginpmatrix−$3^{4}$endpmatrix in i,j notation.",
+      "question": "Write the column vector\nbeginpmatrix-$3^{4}$endpmatrix in i,j notation.",
       "options": [
-        "−3i+4j",
-        "3i−4j",
-        "4i−3j",
-        "−3i−4j"
+        "-3i+4j",
+        "3i-4j",
+        "4i-3j",
+        "-3i-4j"
       ],
       "correctIndex": 0,
       "explanation": "A column vector\nbeginpmatrixx\ny\nendpmatrix corresponds directly to xi+yj.\n\n**Common mistake:** Option C is a common error where the student swaps the x and y components."
@@ -50,10 +50,10 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q4",
       "type": "mcq",
-      "question": "Calculate the magnitude of the vector v=−6i−8j .",
+      "question": "Calculate the magnitude of the vector v=-6i-8j .",
       "options": [
         "10",
-        "−14",
+        "-14",
         "14",
         "100"
       ],
@@ -89,7 +89,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q7",
       "type": "mcq",
-      "question": "Find the magnitude of the position vector $\\mathbf{r} = \\begin{pmatrix} 5 \\ 12 \\end{pmatrix}$.",
+      "question": "Find the magnitude of the position vector $\\mathbf{r} = \\begin{pmatrix} 5 \\ \\\\ 12 \\end{pmatrix}$.",
       "options": [
         "13",
         "17",
@@ -128,7 +128,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q10",
       "type": "mcq",
-      "question": "If $\\vec{OP} = \\begin{pmatrix} k \\ 8 \\end{pmatrix}$ has a magnitude of 10, find the positive value of k.",
+      "question": "If $\\vec{OP} = \\begin{pmatrix} k \\ \\\\ 8 \\end{pmatrix}$ has a magnitude of 10, find the positive value of k.",
       "options": [
         "6",
         "2",
@@ -141,7 +141,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q11",
       "type": "mcq",
-      "question": "In the triangle $OAB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In the triangle $OAB$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$\\mathbf{b} - \\mathbf{a}$",
         "$\\mathbf{a} - \\mathbf{b}$",
@@ -149,7 +149,7 @@
         "$\\mathbf{b} + \\mathbf{a}$"
       ],
       "correctIndex": 0,
-      "explanation": "To go from $A$2$B$2$A$2$O$2$-\\mathbf{a}$) and then $O$2$B$2$\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
+      "explanation": "To go from $A$ and $B2A$ and $O2-\\mathbf{a}$) and then $O$ and $B2\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q12",
@@ -175,7 +175,7 @@
         "$\\mathbf{m} + \\mathbf{n}$"
       ],
       "correctIndex": 0,
-      "explanation": "The position vector of the midpoint is the average of the position vectors of the endpoints: $0.5(\\mathbf{m} + \\mathbf{n})$.\n\n**Common mistake:** Option C is the vector representing half the displacement from $M$2$N$, not the position vector from the origin."
+      "explanation": "The position vector of the midpoint is the average of the position vectors of the endpoints: $0.5(\\mathbf{m} + \\mathbf{n})$.\n\n**Common mistake:** Option C is the vector representing half the displacement from $M$ and $N$, not the position vector from the origin."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q14",
@@ -193,7 +193,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-easy-q15",
       "type": "mcq",
-      "question": "In a parallelogram $ABCD$2$\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "question": "In a parallelogram $ABCD$. So $\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
       "options": [
         "$\\mathbf{q}$",
         "$\\mathbf{p}$",
@@ -201,7 +201,7 @@
         "$-\\mathbf{q}$"
       ],
       "correctIndex": 0,
-      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$2$BC$."
+      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$. $BC$."
     }
   ]
 }

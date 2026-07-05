@@ -15,7 +15,7 @@ Whether you are swinging open a heavy door, tightening a bolt with a wrench, or 
 
 $\text{Moment} = F \times d$
 
-Where $F$ and $d$ is the perpendicular distance from the pivot in metres (m).
+Where $F$ is the force in newtons (N) and $d$ is the perpendicular distance from the pivot in metres (m).
 
 **Principle of moments**
 
@@ -82,7 +82,7 @@ If the total clockwise moment is $50\ \text{N m}$ and the total anticlockwise mo
 
 Question: The minimum moment required to open a door is $20.5\ \text{N m}$. If a person applies a force of $50\ \text{N}$ at the handle, calculate the minimum distance the handle must be from the hinge (pivot).
 
-1. Use the formula: $\text{Moment} = F \times d$. So $d = \text{Moment} / F$.
+1. Use the formula: $\text{Moment} = F \times d$ when $2$.
 
 2. Substitute values: $d = 20.5\ \text{N m} / 50\ \text{N} = 0.41\ \text{m}$.
 
@@ -90,15 +90,17 @@ Question: The minimum moment required to open a door is $20.5\ \text{N m}$. If a
 
 ## Worked example — The Fishing Rod
 
-Question: A man holds a light fishing rod horizontally. A $30\ \text{N}$ fish hangs from the end $1.2\ \text{m}$ from his right hand. If his right hand acts as the pivot and his left hand applies an upward force $F$10.3\ \text{m}from the pivot, calculate forceF2
+Question: A man holds a light fishing rod horizontally. A $30\ \text{N}$ fish hangs from the end $1.2\ \text{m}$ from his right hand. His right hand acts as the pivot and his left hand applies an upward force $F$ at $0.3\ \text{m}$ from the pivot. Calculate force $F$.
 
-1. Calculate the clockwise moment (fish): $30\ \text{N} \times 1.2\ \text{m} = 36\ \text{N m}$.
+1. **Clockwise moment (fish):** $30\ \text{N} \times 1.2\ \text{m} = 36\ \text{N m}$.
 
-2. Anticlockwise moment: $F \times 0.3\ \text{m}$.
+2. **Anticlockwise moment:** $F \times 0.3\ \text{m}$.
 
-3. Apply the Principle of Moments: $0.3F = 36$.
+3. **Apply the principle of moments:** $0.3F = 36$.
 
-4. Solve for $F$. So $F = 36 / 0.3 = 120\ \text{N}$.
+4. **Solve:** $F = 36 / 0.3 = 120\ \text{N}$.
+
+**Final answer:** $F = 120\ \text{N}$.
 
 ### Common Trap
 

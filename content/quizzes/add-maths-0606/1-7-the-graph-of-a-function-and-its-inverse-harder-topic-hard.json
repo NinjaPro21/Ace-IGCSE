@@ -19,12 +19,12 @@
         "(0,0)"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $(x-5)^{2}$+$x^{2}$=25 \\implies $x^{2}$−10x+25+$x^{2}$=25 \\implies 2$x^{2}$−10x=0 \\implies 2x(x−5)=0. Solutions x=0,5. Since domain is x≥5, point is (5,5).\n\n**Common mistake:** Failing to check the domain restriction and picking (0,0) or (10,10) from an incomplete calculation."
+      "explanation": "Solve $(x-5)^{2}$+$x^{2}$=25 \\implies $x^{2}$-10x+25+$x^{2}$=25 \\implies 2$x^{2}$-10x=0 \\implies 2x(x-5)=0. Solutions x=0,5. Since domain is x≥5, point is (5,5).\n\n**Common mistake:** Failing to check the domain restriction and picking (0,0) or (10,10) from an incomplete calculation."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Consider f(x)= x^{2}−4x+6 for x≥2. At what point does the graph of f intersect the line y=x?",
+      "question": "Consider f(x)= x^{2}-4x+6 for x≥2. At what point does the graph of f intersect the line y=x?",
       "options": [
         "(2,2) and (3,3)",
         "(2,2) only",
@@ -32,7 +32,7 @@
         "No intersection"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $x^{2}$−4x+6=x \\implies $x^{2}$−5x+6=0 \\implies (x−2)(x−3)=0. Since both x=2 and x=3 are in the domain, both are valid.\n\n**Common mistake:** Ignoring one of the roots or incorrectly solving the quadratic equation."
+      "explanation": "Solve $x^{2}$-4x+6=x \\implies $x^{2}$-5x+6=0 \\implies (x-2)(x-3)=0. Since both x=2 and x=3 are in the domain, both are valid.\n\n**Common mistake:** Ignoring one of the roots or incorrectly solving the quadratic equation."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q3",
@@ -45,20 +45,20 @@
         "It is not a one-to-one function"
       ],
       "correctIndex": 0,
-      "explanation": "If a graph is its own reflection in y=x, then the original function and the inverse function are identical.\n\n**Common mistake:** Assuming the symmetry implies it must be y=x itself, rather than any self-inverse function like y=1/x or y=k−x."
+      "explanation": "If a graph is its own reflection in y=x, then the original function and the inverse function are identical.\n\n**Common mistake:** Assuming the symmetry implies it must be y=x itself, rather than any self-inverse function like y=1/x or y=k-x."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Sketch y=f(x) and y= f^{-1}(x) for f(x)=e^x\n. Describe the behavior of $f^{-1}$(x) as x approaches 0 from the positive side.",
+      "question": "Sketch y=f(x) and y= f^{-1}(x) for f(x)=e^x^2 Describe the behavior of $f^{-1}(x) as x approaches 0 from the positive side.$",
       "options": [
-        "It approaches −∞",
+        "It approaches -∞",
         "It approaches 1",
         "It approaches 0",
         "It is undefined"
       ],
       "correctIndex": 0,
-      "explanation": "Since e^x\nhas a horizontal asymptote y=0 as x→−∞, the inverse (natural log) has a vertical asymptote x=0 as y→−∞.\n\n**Common mistake:** Failing to translate horizontal asymptotic behavior into vertical asymptotic behavior for the inverse graph."
+      "explanation": "Since e^x\nhas a horizontal asymptote y=0 as x→-∞, the inverse (natural log) has a vertical asymptote x=0 as y→-∞.\n\n**Common mistake:** Failing to translate horizontal asymptotic behavior into vertical asymptotic behavior for the inverse graph."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q5",

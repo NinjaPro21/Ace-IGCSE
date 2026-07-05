@@ -6,12 +6,13 @@ Definite integration evaluates an integral between two specified numerical bound
 
 $$
 \text{Definite Integral: } \int_{a}^{b} f(x) \, dx = [F(x)]_{a}^{b} = F(b) - F(a)
-
+$$
+$$
 \text{Area Enclosed by Curve and x-axis: } A = \int_{a}^{b} y \, dx
-
+$$
+$$
 \text{Area Between Curve and Line: } A = \int_{a}^{b} (y_{\text{top}} - y_{\text{bottom}}) \, dx
 $$
-
 
 ## Steps / method
 
@@ -46,8 +47,6 @@ A = \int_1^3 x^2\, dx = \left[\frac{x^3}{3}\right]_1^3 = 9 - \frac{1}{3} = \frac
 $$
 
 The area is $\frac{26}{3}$ square units.
-
-
 
 ## Examiner tip
 

@@ -24,8 +24,11 @@ $$
 ## Steps / method
 
 1. **Factor out** the coefficient of $x^2$ from the $x^2$ and $x$ terms.
+
 2. **Complete the square** inside the brackets by adding and subtracting $\left(\frac{b}{2a}\right)^2$.
+
 3. **Simplify** into the form $a(x - h)^2 + k$.
+
 4. **Identify** the vertex $(h, k)$ and state the maximum or minimum value.
 
 ### Key rule

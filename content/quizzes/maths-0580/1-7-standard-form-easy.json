@@ -32,7 +32,7 @@
         "0.0000321"
       ],
       "correctIndex": 0,
-      "explanation": "Multiplying $3.21$ by $10^{5}$ shifts the decimal point 5 places to the right, yielding $321000$.\n\n**Common mistake:** Students sometimes add 5 zeros directly after the decimal point or after the integer digit without shifting appropriately."
+      "explanation": "Multiplying $3.21$ by $10^{5}$ shifts the decimal point 5 places to the right, yielding^321000.\n\n**Common mistake:** Students sometimes add 5 zeros directly after the decimal point or after the integer digit without shifting appropriately."
     },
     {
       "id": "1-7-standard-form-easy-q3",
@@ -45,12 +45,12 @@
         "$6 \\times 5^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Standard form requires a number $A \\times 10^n$2$1 \\le A < 10$ and $n$2$7.05 \\times 10^{-6}$ satisfies this condition.\n\n**Common mistake:** Students often accept values where the leading coefficient is greater than or equal to 10, or less than 1."
+      "explanation": "Standard form requires a number $A \\times 10^n$. $1 \\le A < 10$ and $n$. $7.05 \\times 10^{-6}$ satisfies this condition.\n\n**Common mistake:** Students often accept values where the leading coefficient is greater than or equal to 10, or less than 1."
     },
     {
       "id": "1-7-standard-form-easy-q4",
       "type": "mcq",
-      "question": "Convert $86400000$ into standard scientific form.",
+      "question": "Convert^86400000 into standard scientific form.",
       "options": [
         "$8.64 \\times 10^{7}$",
         "$8.64 \\times 10^{6}$",

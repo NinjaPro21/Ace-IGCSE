@@ -3,7 +3,7 @@
   "topicId": "4-graphs-of-y-f-x-where-f-x-is-quadratic",
   "chapterId": "ch04-equations-inequalities-and-graphs",
   "difficulty": "pyp",
-  "title": "Graphs of $y = |f(x)|$ where $f(x)$ is Quadratic — PYP Mastery",
+  "title": "Graphs of $y = |f(x)| where f(x)$ is Quadratic - PYP Mastery",
   "passPercent": 70,
   "questionsPerAttempt": 5,
   "pending": false,
@@ -11,20 +11,20 @@
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q1",
       "type": "mcq",
-      "question": "Sketch the graph of y=∣(x+1)(x−5)∣, showing the coordinates of the intercepts with the axes and the local maximum.",
+      "question": "Sketch the graph of y=∣(x+1)(x-5)∣, showing the coordinates of the intercepts with the axes and the local maximum.",
       "options": [
-        "Intercepts: (−1,0),(5,0),(0,5); Max: (2,9)",
-        "Intercepts: (1,0),(−5,0),(0,5); Max: (2,9)",
-        "Intercepts: (−1,0),(5,0),(0,−5); Max: (2,9)",
-        "Intercepts: (−1,0),(5,0),(0,5); Max: (3,4)"
+        "Intercepts: (-1,0),(5,0),(0,5); Max: (2,9)",
+        "Intercepts: (1,0),(-5,0),(0,5); Max: (2,9)",
+        "Intercepts: (-1,0),(5,0),(0,-5); Max: (2,9)",
+        "Intercepts: (-1,0),(5,0),(0,5); Max: (3,4)"
       ],
       "correctIndex": 0,
-      "explanation": "x-intercepts are -1 and 5. y-intercept is ∣(−1)(−5)∣=5. Vertex of $x^{2}$−4x−5 is (2,−9), reflected to (2,9).\n\n**Common mistake:** Misidentifying the y-intercept as -5 or using the original vertex y-coordinate -9 for a modulus graph."
+      "explanation": "x-intercepts are -1 and 5. y-intercept is ∣(-1)(-5)∣=5. Vertex of $x^{2}$-4x-5 is (2,-9), reflected to (2,9).\n\n**Common mistake:** Misidentifying the y-intercept as -5 or using the original vertex y-coordinate -9 for a modulus graph."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q2",
       "type": "mcq",
-      "question": "Find the set of values of k for which the equation ∣$x^{2}$−2x−3∣=k has 4 distinct solutions.",
+      "question": "Find the set of values of k for which the equation ∣$x^{2}$-2x-3∣=k has 4 distinct solutions.",
       "options": [
         "0<k<4",
         "k=4",
@@ -32,25 +32,25 @@
         "k>0"
       ],
       "correctIndex": 0,
-      "explanation": "Original vertex: x=1,y=1−2−3=−4. Reflected peak is at y=4. For 4 solutions, the line must be between the x-axis and the peak (0<k<4).\n\n**Common mistake:** Including the value k=0 or k=4, where the number of solutions drops to 2 or 3 respectively."
+      "explanation": "Original vertex: x=1,y=1-2-3=-4. Reflected peak is at y=4. For 4 solutions, the line must be between the x-axis and the peak (0<k<4).\n\n**Common mistake:** Including the value k=0 or k=4, where the number of solutions drops to 2 or 3 respectively."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q3",
       "type": "mcq",
-      "question": "Hence find the coordinates of the points of intersection of y=∣$x^{2}$−4∣ and y=x+2.",
+      "question": "Hence find the coordinates of the points of intersection of y=∣$x^{2}$-4∣ and y=x+2.",
       "options": [
-        "(−2,0),(2,4),(3,5)",
-        "(−2,0),(3,5)",
+        "(-2,0),(2,4),(3,5)",
+        "(-2,0),(3,5)",
         "(2,4),(3,5)",
-        "(−2,0),(2,0)"
+        "(-2,0),(2,0)"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $x^{2}$−4=x+2 \\implies $x^{2}$−x−6=0 \\implies x=3,−2. Case 2: $x^{2}$−4=−(x+2) \\implies $x^{2}$+x−2=0 \\implies x=1,−2. Re-check x=1: ∣1−4∣=3,1+2=3. Valid! Points: (−2,0),(3,5),(1,3). Option 0 update needed: (−2,0),(3,5),(1,3). Choice 0 logic used.\n\n**Common mistake:** Missing the 'inner' intersection point that occurs on the reflected portion of the curve."
+      "explanation": "Case 1: $x^{2}$-4=x+2 \\implies $x^{2}$-x-6=0 \\implies x=3,-2. Case 2: $x^{2}$-4=-(x+2) \\implies $x^{2}$+x-2=0 \\implies x=1,-2. Re-check x=1: ∣1-4∣=3,1+2=3. Valid! Points: (-2,0),(3,5),(1,3). Option 0 update needed: (-2,0),(3,5),(1,3). Choice 0 logic used.\n\n**Common mistake:** Missing the 'inner' intersection point that occurs on the reflected portion of the curve."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q4",
       "type": "mcq",
-      "question": "The line y=m is a tangent to the curve y=∣$x^{2}$−6x+8∣ at its local maximum point. Find the value of m.",
+      "question": "The line y=m is a tangent to the curve y=∣$x^{2}$-6x+8∣ at its local maximum point. Find the value of m.",
       "options": [
         "1",
         "8",
@@ -58,12 +58,12 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Vertex of $x^{2}$−6x+8 is at x=3. f(3)= 3^{2}−6(3)+8=−1. The reflected maximum is at y=1.\n\n**Common mistake:** Identifying the y-intercept (8) as the local maximum or using the unreflected vertex value (-1)."
+      "explanation": "Vertex of $x^{2}$-6x+8 is at x=3. f(3)= $3^{2}$-6(3)+8=-1. The reflected maximum is at y=1.\n\n**Common mistake:** Identifying the y-intercept (8) as the local maximum or using the unreflected vertex value (-1)."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q5",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=∣$x^{2}$−2x−8∣ for the domain 0≤x≤5.",
+      "question": "Find the range of the function f(x)=∣$x^{2}$-2x-8∣ for the domain 0≤x≤5.",
       "options": [
         "0≤f(x)≤9",
         "7≤f(x)≤9",
@@ -71,7 +71,7 @@
         "8≤f(x)≤9"
       ],
       "correctIndex": 0,
-      "explanation": "Endpoints: f(0)=8,f(5)=7. Vertex at x=1 gives f(1)=∣−9∣=9. Root at x=4 is in domain, so f(4)=0. Min is 0, Max is 9.\n\n**Common mistake:** Only checking endpoints and the peak, missing the fact that the graph touches the x-axis (0) within the domain."
+      "explanation": "Endpoints: f(0)=8,f(5)=7. Vertex at x=1 gives f(1)=∣-9∣=9. Root at x=4 is in domain, so f(4)=0. Min is 0, Max is 9.\n\n**Common mistake:** Only checking endpoints and the peak, missing the fact that the graph touches the x-axis (0) within the domain."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q6",
@@ -84,12 +84,12 @@
         "Intercepts: (-2,0), (4,0), (0,8); Max: (1,5)"
       ],
       "correctIndex": 0,
-      "explanation": "Roots: -2, 4. $y$2$|2 \\times -4| = 8$. Vertex of $x^2-2x-8$ is at $x=1, y=-9$, reflected to $(1, 9)$.\n\n**Common mistake:** Using the original vertex y-coordinate (-9) or misidentifying the roots from the factors."
+      "explanation": "Roots: -2, 4. $y$. $|2 \\times -4| = 8$. Vertex of $x^2-2x-8$ is at $x=1, y=-9$, reflected to $(1, 9)$.\n\n**Common mistake:** Using the original vertex y-coordinate (-9) or misidentifying the roots from the factors."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q7",
       "type": "mcq",
-      "question": "Find the range of $k$2$|x^2 - 4x + 3| = k$ has 4 solutions.",
+      "question": "Find the range of $k$. $|x^2 - 4x + 3| = k$ has 4 solutions.",
       "options": [
         "0 < k < 1",
         "k = 1",
@@ -97,7 +97,7 @@
         "k > 0"
       ],
       "correctIndex": 0,
-      "explanation": "Original vertex: $x=2, y=4-8+3 = -1$. Reflected peak is at $y=1$. Four solutions occur between the x-axis and this peak.\n\n**Common mistake:** Including the boundary $k=1$ where the number of solutions drops to 3."
+      "explanation": "Original vertex: $x=2, y=4-8+3 = -1$. Reflected peak is at $y=1$. Four solutions occur between the x-axis and this peak.\n\n**Common mistake:** Including the boundary $k=1 where the number of solutions drops to 3."
     },
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q8",
@@ -115,7 +115,7 @@
     {
       "id": "4-graphs-of-y-f-x-where-f-x-is-quadratic-pyp-q9",
       "type": "mcq",
-      "question": "The line $y = c$2$y = |x^2 - 8x + 12|$. Find $c$.",
+      "question": "The line $y = c$. So $y = |x^2 - 8x + 12|$. Find $c$.",
       "options": [
         "4",
         "12",

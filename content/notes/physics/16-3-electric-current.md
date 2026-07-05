@@ -1,112 +1,86 @@
 ## Core idea
 
-Electric current: ampere (A)
+Electric current is the flow of electric charge when charges are given a conducting path. Understanding how to define, measure, and control current is fundamental to electronics and power systems.
 
-Thermodynamic temperature: kelvin (K)
+## Key definitions
 
-Volume: cubic metre ($m^3$)
+- **Electric current ($I$)**: The charge passing a point per unit time.
+- **Ampere (A)**: The SI unit of current. One ampere is produced when one coulomb of charge passes a point in one second.
+- **Coulomb (C)**: The SI unit of electric charge ($Q$).
+- **Ammeter**: An instrument used to measure the magnitude and direction of current in a circuit.
 
 ## Key formulas
 
-**Average value for small distance/time**
+$$
+I = \frac{Q}{t}
+$$
 
-$\text{Average} = \frac{\text{Total measurement}}{\text{Number of multiples}}$
+Where $I$ is current (A), $Q$ is charge (C), and $t$ is time (s).
 
-Used to find the thickness of a single sheet of paper or the period of one oscillation.
+## Conventional current vs electron flow
 
-**Density**
+- **Conventional current**: Flows from the positive terminal to the negative terminal. This is the standard used in textbooks unless stated otherwise.
+- **Electron flow**: The actual movement of electrons, from negative to positive terminal.
 
-$\rho = \frac{m}{V}$
+## Electrical conduction in metals
 
-Applies to any substance to find mass per unit volume 2
+Metals are good conductors because their atoms have free electrons that can move through the material. When connected to an energy source, these electrons are driven around the circuit to form a current.
 
-**Volume of a rectangular block**
+## Measuring electric current
 
-$V = l \times b \times h$
+1. **Series connection**: Connect the ammeter in series with the component being measured.
+2. **Polarity**: Conventional current enters the positive (red) terminal and leaves the negative (black) terminal.
+3. **Range selection**: Choose the correct range — too high a range gives an inaccurate reading; too low can damage the meter.
+4. **Display types**: Ammeters can be analogue (needle) or digital (numerical readout).
 
-Applies to regular solid objects.
+## Direct current (d.c.) and alternating current (a.c.)
 
-**Period of a pendulum**
-
-$T = \frac{t_{\text{total}}}{n}$
-
-Where $t$ and $n$2.
+- **Direct current (d.c.)**: Current flowing in one direction only — from cells, batteries, and solar panels.
+- **Alternating current (a.c.)**: Current that reverses direction frequently — supplied by mains electricity.
 
 ## Graphs & diagrams
 
-While Topic 1.1 focuses on measurement, the following graph interpretations from the syllabus are essential: Distance-time graphs: - **Rest**: Flat horizontal line — not moving at all.
-- **Constant speed**: Straight diagonal line — same speed throughout.
-- **Acceleration**: A curve like a **smile ☺** — gradient getting steeper.
-- **Deceleration**: A curve like a **frown ☹** — gradient getting flatter.
-- **Interpretation**: The gradient represents the speed.
+**Measuring current in a series circuit**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Series circuit">
-      <rect x="40" y="50" width="280" height="60" fill="none" stroke="#334155" stroke-width="2"/>
-      <rect x="70" y="65" width="40" height="30" fill="#fef08a" stroke="#ca8a04"/>
-      <text x="90" y="84" text-anchor="middle" font-size="9" fill="#854d0e">cell</text>
-      <circle cx="180" cy="80" r="18" fill="#fef3c7" stroke="#f59e0b"/>
-      <text x="180" y="84" text-anchor="middle" font-size="9" fill="#92400e">lamp</text>
-      <rect x="250" y="65" width="40" height="30" fill="#e2e8f0" stroke="#64748b"/>
-      <text x="270" y="84" text-anchor="middle" font-size="9" fill="#334155">R</text>
-      <text x="180" y="130" text-anchor="middle" font-size="10" fill="#475569">single loop — same I everywhere</text>
-    </svg><p class="enlight-physics-diagram__caption">Series circuit — one path for current; same current through each component.</p></div>
+- Ammeter connected in series — same current passes through every component.
 
-**Speed-time graphs**
+<div class="enlight-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Circuit with ammeter in series">
+      <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
+      </g>
+      <rect x="68" y="41" width="18" height="8" fill="#fff"/>
+      <line x1="72" y1="35" x2="72" y2="55" stroke="#334155" stroke-width="2"/>
+      <line x1="82" y1="40" x2="82" y2="50" stroke="#334155" stroke-width="4"/>
+      <text x="77" y="68" text-anchor="middle" font-size="8" fill="#64748b">cell</text>
+      <circle cx="151" cy="45" r="13" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <line x1="143" y1="37" x2="159" y2="53" stroke="#334155" stroke-width="2"/>
+      <line x1="159" y1="37" x2="143" y2="53" stroke="#334155" stroke-width="2"/>
+      <text x="151" y="68" text-anchor="middle" font-size="8" fill="#64748b">lamp</text>
+      <rect x="210" y="39" width="40" height="12" fill="#fff"/>
+      <rect x="214" y="39" width="32" height="12" stroke="#334155" stroke-width="2" fill="none"/>
+      <text x="230" y="68" text-anchor="middle" font-size="8" fill="#64748b">resistor</text>
+      <circle cx="173" cy="125" r="13" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <text x="173" y="129" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">A</text>
+      <text x="173" y="152" text-anchor="middle" font-size="8" fill="#64748b">ammeter in series</text>
+      <text x="190" y="165" text-anchor="middle" font-size="10" fill="#475569">single loop — same current everywhere</text>
+    </svg><p class="enlight-physics-diagram__caption">Measuring current — ammeter connected in series; conventional current enters the + terminal.</p></div>
 
-- **Constant speed**: A horizontal line; acceleration is zero.
-- **Uniform acceleration**: A straight line with a constant positive gradient.
-- **Changing acceleration**: A curved line where the gradient is changing.
-- **Interpretation**: The gradient represents acceleration; the area under the graph represents distance travelled.
+## Worked example — Calculating charge
 
-## Steps / method
+Question: A lamp has a current of $0.2\,\text{A}$ flowing through it. If it is switched on for two hours, what is the total charge that passes through the lamp?
 
-Method for measuring the volume of an irregular solid that sinks: Measure the mass ($m$) of the object using an electronic balance. Fill a measuring cylinder with a known volume of water ($V_1$). Lower the object gently into the cylinder using a string until it is totally immersed. Record the new volume reading ($V_2$). Calculate the volume of the object using $V = V_2 - V_1$.
+Convert time: $2\,\text{hours} = 2 \times 60 \times 60 = 7200\,\text{s}$
 
-## Common mistakes
+Rearrange: $Q = I \times t$
 
-Parallax Error: Not looking "straight on" at a scale, which introduces inaccuracies in length or volume readings.
-
-Zero Error: Ignoring the fact that an instrument (like vernier calipers) does not read exactly zero when closed.
-
-Reaction Time: Using a stopwatch to measure a single oscillation. Human reaction time is about 0.3–0.5 s, which is too large for a short interval.
-
-Meniscus Error: Reading the volume from the top of the water curve instead of the bottom of the meniscus.
-
-## Examiner tip
-
-Significant Figures: Digital stopwatches show two decimal places, but you should usually record to the nearest 0.1 s to account for human reaction time.
-
-Multiples: For very small distances (thickness of wire) or short times (pendulum), always measure a large number ($n$) of them and then divide the total by $n$ to improve accuracy.
-
-Units: Always check if the question asks for SI units (m, kg) or common laboratory units (cm, g).
+Substitute: $Q = 0.2 \times 7200 = 1440\,\text{C}$ (or $1.4 \times 10^{3}\,\text{C}$)
 
 ## Quick check
 
-What is the SI unit for the amount of a substance?
+What is the SI unit for electric charge?
 
-How is the "period" of a simple pendulum defined?
+In which direction does conventional current flow?
 
-Which instrument would you use to measure the internal diameter of a small glass tube to a precision of 0.01 cm?
+Should an ammeter be connected in series or parallel with a component?
 
-## Worked example — Reading Vernier Calipers
-
-Question: A student uses vernier calipers to measure a metal bolt. The zero mark of the vernier scale is to the right of the 3.1 cm mark on the main scale. The 4th mark on the vernier scale aligns perfectly with a main scale mark. What is the reading?
-
-Main scale reading: Read to the immediate left of the vernier zero = 3.1 cm.
-
-Vernier scale reading: The 4th mark represents $4 \times 0.01$ cm = 0.04 cm.
-
-Total reading: $3.1 \text{ cm} + 0.04 \text{ cm} = 3.14 \text{ cm}$.
-
-## Worked example — Finding the Period of a Pendulum
-
-Question: A student times 20 oscillations of a pendulum. The first trial takes 35.70 s and the second trial takes 34.98 s. Calculate the average period of the pendulum.
-
-Find the average time for 20 oscillations: $\frac{35.70 \text{ s} + 34.98 \text{ s}}{2} = 35.34 \text{ s}$
-
-Calculate the period ($T$):
-
-$T = \frac{35.34 \text{ s}}{20} = 1.767 \text{ s}$
- ### Common Trap
-
-Students often forget to divide the total time by the number of oscillations, or they divide by 2 (the number of trials) instead of 20 (the number of oscillations).
+Name one common source of direct current (d.c.).

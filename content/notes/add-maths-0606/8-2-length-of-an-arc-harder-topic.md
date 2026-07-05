@@ -19,8 +19,11 @@ $$
 ## Steps / method
 
 1. **Check the angle** — convert to radians if given in degrees.
+
 2. **Substitute** $r$ and $\theta$ into $s = r\theta$.
+
 3. **Solve** for the unknown if arc length, radius, or angle is missing.
+
 4. **For perimeter**, add the two radii: $P = 2r + s$.
 
 ### Key rule
@@ -37,9 +40,7 @@ $$
 
 ## Worked example — Perimeter
 
-Question: A sector has radius $5$ cm and angle $\frac{\pi}{4}$ rad. Find its perimeter.
-
-$s = 5 \times \frac{\pi}{4} = \frac{5\pi}{4} \approx 3.93$ cm
+Question: A sector has radius $5$ cm and angle $\frac{\pi}{4} rad. Find its perimeter$. $2s = 5 \times \frac{\pi}{4} = \frac{5\pi}{4} \approx 3.93$ cm
 
 $P = 5 + 5 + 3.93 = 13.9$ cm (3 s.f.)
 

@@ -11,7 +11,7 @@
     {
       "id": "3-3-the-factor-theorem-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "Find the values of $a$2$b$2$(x - 1)$ and $(x + 2)$ are both factors of $P(x) = x^3 + ax^2 + bx - 2$.",
+      "question": "Find the values of $a$ and $b2(x - 1)$ and $(x + 2)$ are both factors of $P(x) = x^3 + ax^2 + bx - 2$.",
       "options": [
         "$a = 2, b = -1$",
         "$a = 1, b = 0$",
@@ -24,7 +24,7 @@
     {
       "id": "3-3-the-factor-theorem-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "If $(x - a)$ is a factor of $x^2 - (a+b)x + 12$, find the value of $b$2$a$.",
+      "question": "If $(x - a)$ is a factor of $x^2 - (a+b)x + 12$, find the value of $b$ and $a$.",
       "options": [
         "$b = 12/a$",
         "$b = 12a$",
@@ -32,12 +32,12 @@
         "$b = a + 12$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = a$2$a^2 - (a+b)a + 12 = 0 \\implies a^2 - a^2 - ab + 12 = 0 \\implies -ab = -12 \\implies b = 12/a$.\n\n**Common mistake:** Difficulty in distributing the $a$2$(a+b)$ or failing to cancel the $a^2$ terms."
+      "explanation": "Substitute $x = a$. So $a^2 - (a+b)a + 12 = 0 \\implies a^2 - a^2 - ab + 12 = 0 \\implies -ab = -12 \\implies b = 12/a$.\n\n**Common mistake:** Difficulty in distributing the $a$. $(a+b)$ or failing to cancel the $a^2$ terms."
     },
     {
       "id": "3-3-the-factor-theorem-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "Find the set of values of $k$2$P(x) = x^2 - kx + 16$ and $(x - 4)$ is a factor.",
+      "question": "Find the set of values of $k$. So $P(x) = x^2 - kx + 16$ and $(x - 4)$ is a factor.",
       "options": [
         "8",
         "4",
@@ -50,7 +50,7 @@
     {
       "id": "3-3-the-factor-theorem-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Given $P(x) = x^3 + ax^2 + bx + c$2$(x-1), (x-2),$ and $(x-3)$ are all factors, find the value of the constant $c$.",
+      "question": "Given $P(x) = x^3 + ax^2 + bx + c$. $(x-1), (x-2),$ and $(x-3)$ are all factors, find the value of the constant $c$.",
       "options": [
         "-6",
         "6",
@@ -58,12 +58,12 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "If these are the only factors, $P(x) = (x-1)(x-2)(x-3)$. The constant $c$2$(-1)(-2)(-3) = -6$.\n\n**Common mistake:** Students may try to set up and solve three simultaneous equations, which is correct but much slower and prone to expansion errors."
+      "explanation": "If these are the only factors, $P(x) = (x-1)(x-2)(x-3)$. The constant $c$. $(-1)(-2)(-3) = -6$.\n\n**Common mistake:** Students may try to set up and solve three simultaneous equations, which is correct but much slower and prone to expansion errors."
     },
     {
       "id": "3-3-the-factor-theorem-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "Find the value of $k$2$(x - k)$ is a factor of $x^2 - 5x + 6$, where $k$ is the smaller root of the quadratic.",
+      "question": "Find the value of $k$. $(x - k)$ is a factor of $x^2 - 5x + 6$, where $k$ is the smaller root of the quadratic.",
       "options": [
         "2",
         "3",

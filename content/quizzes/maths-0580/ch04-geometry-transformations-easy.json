@@ -78,7 +78,7 @@
       "type": "mcq",
       "question": "Identify the order of rotational symmetry for a parallelogram.",
       "options": [
-        "$2$",
+        "2",
         "$0$",
         "$1$",
         "$4$"
@@ -106,18 +106,18 @@
       "options": [
         "$1$",
         "$0$",
-        "$2$",
+        "2",
         "$360$"
       ],
       "correctIndex": 0,
-      "explanation": "Since every shape returns to its original position after $360°$, the minimum order is $1$.\n\n**Common mistake:** Students may think 'no symmetry' means an order of $0$."
+      "explanation": "Since every shape returns to its original position after $360°$, the minimum order is $1$.\n\n**Common mistake:** Students may think 'no symmetry' means an order of^0."
     },
     {
       "id": "ch04-geometry-transformations-easy-q9",
       "type": "mcq",
       "question": "A rectangle that is not a square has how many lines of symmetry?",
       "options": [
-        "$2$",
+        "2",
         "$4$",
         "$0$",
         "$1$"
@@ -149,12 +149,12 @@
         "$112°$"
       ],
       "correctIndex": 0,
-      "explanation": "The angle in a semi-circle is always $90°$. Therefore, the third angle is $180 - 90 - 34 = 56°$.\n\n**Common mistake:** A student might forget that the angle at the circumference subtended by a diameter is $90°$ and try to divide $146$ by $2$ instead."
+      "explanation": "The angle in a semi-circle is always $90°$. Therefore, the third angle is $180 - 90 - 34 = 56°$.\n\n**Common mistake:** A student might forget that the angle at the circumference subtended by a diameter is $90°$ and try to divide^146 by 2 instead."
     },
     {
       "id": "ch04-geometry-transformations-easy-q12",
       "type": "mcq",
-      "question": "In a circle with centre $O$2$AB$2$110°$. Calculate the angle at the circumference subtended by the same arc.",
+      "question": "In a circle with centre $O$. $AB2110°$. Calculate the angle at the circumference subtended by the same arc.",
       "options": [
         "$55°$",
         "$220°$",
@@ -162,7 +162,7 @@
         "$90°$"
       ],
       "correctIndex": 0,
-      "explanation": "The angle at the centre is twice the angle at the circumference. So, $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might multiply by $2$ instead of dividing, or subtract from $180°$."
+      "explanation": "The angle at the centre is twice the angle at the circumference. So, $110 ÷ 2 = 55°$.\n\n**Common mistake:** The student might multiply by2instead of dividing, or subtract from 180°."
     },
     {
       "id": "ch04-geometry-transformations-easy-q13",
@@ -180,7 +180,7 @@
     {
       "id": "ch04-geometry-transformations-easy-q14",
       "type": "mcq",
-      "question": "Points $P, Q, R,$ and $S$2$PQS = 42°$, what is the size of angle $PRS$?",
+      "question": "Points $P, Q, R,$ and $S$. So $PQS = 42°$, what is the size of angle $PRS$?",
       "options": [
         "$42°$",
         "$84°$",
@@ -188,7 +188,7 @@
         "$138°$"
       ],
       "correctIndex": 0,
-      "explanation": "Angles in the same segment (subtended by the same arc $PS$2$∠PRS = ∠PQS = 42°$.\n\n**Common mistake:** The student might assume the angle at the circumference is half of the given angle or double it."
+      "explanation": "Angles in the same segment (subtended by the same arc $PS$. $∠PRS = ∠PQS = 42°$.\n\n**Common mistake:** The student might assume the angle at the circumference is half of the given angle or double it."
     },
     {
       "id": "ch04-geometry-transformations-easy-q15",
@@ -258,15 +258,15 @@
     {
       "id": "ch04-geometry-transformations-easy-q20",
       "type": "mcq",
-      "question": "When constructing a triangle with sides $a, b,$ and $c$2$a$ must have radii equal to which lengths?",
+      "question": "When constructing a triangle with sides $a, b,$ and $c$ and $a$ must have radii equal to which lengths?",
       "options": [
-        "$b$2$c$",
-        "$a$2$b$",
-        "$a$2$c$",
+        "$b$ and $c$",
+        "$a$ and $b$",
+        "$a$ and $c$",
         "$a, b,$ and $c$"
       ],
       "correctIndex": 0,
-      "explanation": "To find the third vertex, you draw one arc of radius $b$2$a$2$c$ from the other end.\n\n**Common mistake:** A student might use the same radius for both arcs, resulting in an isosceles triangle regardless of the requested dimensions."
+      "explanation": "To find the third vertex, you draw one arc of radius $b$ and $a2c$ from the other end.\n\n**Common mistake:** A student might use the same radius for both arcs, resulting in an isosceles triangle regardless of the requested dimensions."
     },
     {
       "id": "ch04-geometry-transformations-easy-q21",
@@ -300,7 +300,7 @@
       "question": "In the net of a closed cuboid, how many pairs of identical rectangles are there?",
       "options": [
         "$3$ pairs",
-        "$2$ pairs",
+        "2 pairs",
         "$6$ pairs",
         "$0$ pairs"
       ],
@@ -336,12 +336,12 @@
     {
       "id": "ch04-geometry-transformations-easy-q26",
       "type": "mcq",
-      "question": "If vector $\\mathbf{a} = \\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$, calculate the resulting column vector for $3\\mathbf{a}$.",
+      "question": "If vector $\\mathbf{a} = \\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix}$, calculate the resulting column vector for $3\\mathbf{a}$.",
       "options": [
-        "$\\begin{pmatrix} 12 \\ -6 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 7 \\ 1 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 12 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 1.33 \\ -0.67 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 12 \\ \\\\ -6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 7 \\ \\\\ 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 12 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1.33 \\ \\\\ -0.67 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
       "explanation": "To multiply a vector by a scalar, multiply each component of the column vector by the scalar: $3 \\times 4 = 12$ and $3 \\times -2 = -6$.\n\n**Common mistake:** A student might add the scalar to the components instead of multiplying, or only multiply the top component."
@@ -349,12 +349,12 @@
     {
       "id": "ch04-geometry-transformations-easy-q27",
       "type": "mcq",
-      "question": "Perform the following vector subtraction: $\\begin{pmatrix} 7 \\ 3 \\end{pmatrix} - \\begin{pmatrix} 2 \\ -5 \\end{pmatrix}$.",
+      "question": "Perform the following vector subtraction: $\\begin{pmatrix} 7 \\ \\\\ 3 \\end{pmatrix} - \\begin{pmatrix} 2 \\ \\\\ -5 \\end{pmatrix}$.",
       "options": [
-        "$\\begin{pmatrix} 5 \\ 8 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 9 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5 \\ 2 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 5 \\ \\\\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 9 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ \\\\ 2 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
       "explanation": "Subtract the corresponding components: $7 - 2 = 5$ and $3 - (-5) = 3 + 5 = 8$.\n\n**Common mistake:** A common error is a sign mistake in the second component, calculating $3 - 5 = -2$ instead of $3 - (-5)$."
@@ -362,7 +362,7 @@
     {
       "id": "ch04-geometry-transformations-easy-q28",
       "type": "mcq",
-      "question": "Calculate the magnitude of the vector $\\mathbf{v} = \\begin{pmatrix} 6 \\ 8 \\end{pmatrix}$.",
+      "question": "Calculate the magnitude of the vector $\\mathbf{v} = \\begin{pmatrix} 6 \\ \\\\ 8 \\end{pmatrix}$.",
       "options": [
         "$10$ units",
         "$14$ units",
@@ -383,20 +383,20 @@
         "$-\\mathbf{a} - \\mathbf{b}$"
       ],
       "correctIndex": 0,
-      "explanation": "To go from $B$2$A$2$B \\to O \\to A$2$-\\vec{OB} + \\vec{OA} = -\\mathbf{b} + \\mathbf{a}$, or $\\mathbf{a} - \\mathbf{b}$.\n\n**Common mistake:** Students often reverse the subtraction order, incorrectly choosing $\\mathbf{b} - \\mathbf{a}$ (which is $\\vec{AB}$)."
+      "explanation": "To go from $B$ and $A2B \\to O \\to A$. $-\\vec{OB} + \\vec{OA} = -\\mathbf{b} + \\mathbf{a}$, or $\\mathbf{a} - \\mathbf{b}$.\n\n**Common mistake:** Students often reverse the subtraction order, incorrectly choosing $\\mathbf{b} - \\mathbf{a}$ (which is $\\vec{AB}$)."
     },
     {
       "id": "ch04-geometry-transformations-easy-q30",
       "type": "mcq",
-      "question": "Which of the following vectors is parallel to $\\begin{pmatrix} 3 \\ -1 \\end{pmatrix}$?",
+      "question": "Which of the following vectors is parallel to $\\begin{pmatrix} 3 \\ \\\\ -1 \\end{pmatrix}$?",
       "options": [
-        "$\\begin{pmatrix} 9 \\ -3 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 6 \\ -1 \\end{pmatrix}$",
-        "$\\begin{pmatrix} -3 \\ 1 \\end{pmatrix}$ is the only one",
-        "$\\begin{pmatrix} 1 \\ -3 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 9 \\ \\\\ -3 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ \\\\ -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -3 \\ \\\\ 1 \\end{pmatrix}$ is the only one",
+        "$\\begin{pmatrix} 1 \\ \\\\ -3 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "Parallel vectors are scalar multiples of each other. $\\begin{pmatrix} 9 \\ -3 \\end{pmatrix} = 3 \\times \\begin{pmatrix} 3 \\ -1 \\end{pmatrix}$.\n\n**Common mistake:** A student might select a vector with the same numbers in a different order or ignore the scale factor."
+      "explanation": "Parallel vectors are scalar multiples of each other. $\\begin{pmatrix} 9 \\ \\\\ -3 \\end{pmatrix} = 3 \\times \\begin{pmatrix} 3 \\ \\\\ -1 \\end{pmatrix}$.\n\n**Common mistake:** A student might select a vector with the same numbers in a different order or ignore the scale factor."
     },
     {
       "id": "ch04-geometry-transformations-easy-q31",
@@ -409,12 +409,12 @@
         "$(7, 4)$"
       ],
       "correctIndex": 0,
-      "explanation": "Reflection in the $y$2$x = 0$) changes the sign of the $x$2$y$-coordinate remains the same.\n\n**Common mistake:** A student might reflect in the $x$2$y$2$(4, -7)$."
+      "explanation": "Reflection in the $y$. So $x = 0$) changes the sign of the $x$ and $y$-coordinate remains the same.\n\n**Common mistake:** A student might reflect in the $x$ and $y2(4, -7)$."
     },
     {
       "id": "ch04-geometry-transformations-easy-q32",
       "type": "mcq",
-      "question": "Describe the movement represented by the translation vector $\\begin{pmatrix} -5 \\ 2 \\end{pmatrix}$.",
+      "question": "Describe the movement represented by the translation vector $\\begin{pmatrix} -5 \\ \\\\ 2 \\end{pmatrix}$.",
       "options": [
         "5 units left and 2 units up",
         "5 units right and 2 units up",
@@ -422,20 +422,20 @@
         "2 units left and 5 units up"
       ],
       "correctIndex": 0,
-      "explanation": "In a column vector, the top number represents horizontal movement (negative is left) and the bottom number represents vertical movement (positive is up).\n\n**Common mistake:** The student might confuse the $x$2$y$ components or misinterpret the negative sign as a downward movement."
+      "explanation": "In a column vector, the top number represents horizontal movement (negative is left) and the bottom number represents vertical movement (positive is up).\n\n**Common mistake:** The student might confuse the $x$ and $y$ components or misinterpret the negative sign as a downward movement."
     },
     {
       "id": "ch04-geometry-transformations-easy-q33",
       "type": "mcq",
-      "question": "A triangle with an area of $10$ cm $2$ is enlarged by a scale factor of $3$. What is the area of the resulting image?",
+      "question": "A triangle with an area of^10cm^2 is enlarged by a scale factor of^3. What is the area of the resulting image?",
       "options": [
-        "$90$ cm $2$",
-        "$30$ cm $2$",
-        "$100$ cm $2$",
-        "$60$ cm $2$"
+        "$90$ cm 2",
+        "$30$ cm 2",
+        "$100$ cm 2",
+        "$60$ cm 2"
       ],
       "correctIndex": 0,
-      "explanation": "When a shape is enlarged by scale factor $k$2$k^2$. Here, $10 \\times 3^2 = 10 \\times 9 = 90$.\n\n**Common mistake:** A common error is multiplying the area by the scale factor directly ($10 \\times 3 = 30$) instead of the square of the scale factor."
+      "explanation": "When a shape is enlarged by scale factor $k$. $k^2$. Here, $10 \\times 3^2 = 10 \\times 9 = 90$.\n\n**Common mistake:** A common error is multiplying the area by the scale factor directly ($10 \\times 3 = 30$) instead of the square of the scale factor."
     },
     {
       "id": "ch04-geometry-transformations-easy-q34",
@@ -461,7 +461,7 @@
         "Scale factor $-1$"
       ],
       "correctIndex": 0,
-      "explanation": "An enlargement with a scale factor between $0$ and $1$ (or $-1$ and $0$) results in a reduction of the object's size.\n\n**Common mistake:** A student might think a negative scale factor like $-2$ means the image is smaller, whereas it actually indicates the image is on the opposite side of the center and larger."
+      "explanation": "An enlargement with a scale factor between^0 and^1 (or $-1$ and^0) results in a reduction of the object's size.\n\n**Common mistake:** A student might think a negative scale factor like $-2$ means the image is smaller, whereas it actually indicates the image is on the opposite side of the center and larger."
     }
   ]
 }

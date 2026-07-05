@@ -19,7 +19,7 @@
         "$1.5\\text{ kg m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "First find final velocity: $v = u + at = 0 + (2 \\times 6) = 12\\text{ m/s}$. Then $p = mv = 0.5 \\times 12 = 6\\text{ kg m/s}$. \n\n**Common mistake:** Using the acceleration ($2$) instead of velocity to find momentum ($1.0$)."
+      "explanation": "First find final velocity: $v = u + at = 0 + (2 \\times 6) = 12\\text{ m/s}$. Then $p = mv = 0.5 \\times 12 = 6\\text{ kg m/s}$. \n\n**Common mistake:** Using the acceleration (2 $) instead of velocity to find momentum ($1.0$).$"
     },
     {
       "id": "ch05-momentum-hard-q2",
@@ -45,12 +45,12 @@
         "Distance"
       ],
       "correctIndex": 0,
-      "explanation": "From the equation $p = mv$, the ratio $p/v$ is the mass $m$. Therefore, the gradient ($Delta y / Delta x$) of a $p$ vs $v$ graph is mass. \n\n**Common mistake:** Thinking the gradient is acceleration, which would be true for a velocity-time graph."
+      "explanation": "From the equation $p = mv$, the ratio $p/v$ is the mass $m^2 Therefore, the gradient (Delta y / Delta x$) of a $p  vs v$ graph is mass. \n\n**Common mistake:** Thinking the gradient is acceleration, which would be true for a velocity-time graph."
     },
     {
       "id": "ch05-momentum-hard-q4",
       "type": "mcq",
-      "question": "An object A has mass $m$ and velocity $v$. Object B has mass $2m$ and the same momentum as object A. What is the velocity of object B?",
+      "question": "An object A has mass $m  and velocity v$. Object B has mass $2m$ and the same momentum as object A. What is the velocity of object B?",
       "options": [
         "$0.5v$",
         "$2v$",
@@ -58,7 +58,7 @@
         "$4v$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $p_A = p_B$, then $m \\times v = 2m \\times v_B$. Dividing both sides by $2m$ gives $v_B = 0.5v$. \n\n**Common mistake:** Thinking doubling the mass also requires doubling the velocity to keep momentum constant."
+      "explanation": "Since $p_A = p_B$, then $m \\times v = 2m \\times v_B$. Dividing both sides by $2m  gives v_B = 0.5v$. \n\n**Common mistake:** Thinking doubling the mass also requires doubling the velocity to keep momentum constant."
     },
     {
       "id": "ch05-momentum-hard-q5",
@@ -123,7 +123,7 @@
         "$64000\\text{ N s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using conservation of momentum: $(2000 \\times 8) + 0 = (2000 + 8000) \\times V implies 16000 = 10000V implies V = 1.6\\text{ m/s}$. Impulse on empty car $= Delta p = m(v - u) = 2000(1.6 - 8) = -12800\\text{ N s}$. Magnitude is $12800$. \n\n**Common mistake:** Using the total initial momentum ($16000$) as the impulse on a single car."
+      "explanation": "Using conservation of momentum: $(2000 \\times 8) + 0 = (2000 + 8000) \\times V implies 16000 = 10000V implies V = 1.6\\text{ m/s}$. Impulse on empty car $= Delta p = m(v - u) = 2000(1.6 - 8) = -12800\\text{ N s}$. Magnitude is $1$. \n\n**Common mistake:** Using the total initial momentum ($16000$) as the impulse on a single car."
     },
     {
       "id": "ch05-momentum-hard-q10",

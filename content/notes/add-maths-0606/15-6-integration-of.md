@@ -27,8 +27,11 @@ When the numerator is the derivative of the denominator.
 ## Steps / method
 
 1. **Rewrite** the integrand in the form $\frac{k}{ax+b}$ or $\frac{f'(x)}{f(x)}$.
+
 2. **Integrate** to $\ln|\text{argument}|$.
+
 3. **Divide by $a$** if the denominator is $ax+b$.
+
 4. **Add** $+C$.
 
 ### Key rule

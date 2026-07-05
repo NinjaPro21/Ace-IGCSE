@@ -4,57 +4,67 @@ Magnets have been known since ancient times when people discovered lodestone, a 
 
 ## Key definitions
 
-- **Magnet**: An object that can attract magnetic materials and exert forces on other magnets.
+- **Magnet**: An object that attracts magnetic materials and exerts forces on other magnets.
+- **Magnetic materials**: Materials attracted to a magnet (iron, steel, cobalt, nickel).
+- **Non-magnetic materials**: Materials not attracted to a magnet (copper, wood, plastic, brass).
+- **Magnetic poles**: The ends of a magnet where the force is strongest — North (N) and South (S).
+- **Magnetic induction**: Magnetising a magnetic material by placing it near a magnet.
 
-- **Magnetic Materials**: Materials that are attracted to a magnet (e.g., iron, steel, cobalt, and nickel).
+## Properties of magnets
 
-- **Non-magnetic Materials**: Materials that cannot be attracted to a magnet (e.g., copper, wood, plastic, and brass).
+- **Strongest force at poles**: Iron filings cluster at the ends of a bar magnet.
+- **North–south alignment**: A freely suspended magnet aligns with Earth's geographic poles.
+- **Law of magnetism**: Like poles repel (N–N, S–S); unlike poles attract (N–S).
 
-- **Magnetic Poles**: The ends of a magnet where the magnetic force is the strongest. Every magnet has a North pole (N pole) and a South pole (S pole).
+## Induced magnetism
 
-- **Magnetic Induction**: The process of magnetising a magnetic material by placing it near a magnet.
+When a magnetic material (e.g. an unmagnetised paper clip) is brought near a permanent magnet, it becomes an induced magnet.
 
-**Properties of Magnets**
+- The permanent magnet induces an **opposite pole** in the nearer end (N induces S nearby).
+- Induction works through a gap — contact is not required.
 
-- **Strongest Force at Poles**: When a magnet is placed near iron nails, they cluster at the ends, proving the force is strongest at the poles.
+## Magnetic domains
 
-- **North–South Alignment**: A freely suspended bar magnet will always align itself to point toward the Earth’s geographic North and South poles.
-
-- **The Law of Magnetism**: Like poles repel (N-N or S-S).
-
-Unlike poles attract (N-S or S-N).
-
-**Induced Magnetism**
-
-When a magnetic material (like an unmagnetised paper clip) is brought near a permanent magnet, it becomes an induced magnet.
-
-- **Mechanism**: The permanent magnet's pole induces an opposite pole in the nearer end of the magnetic material. For example, a permanent N pole will induce an S pole in the nearest part of an iron bar.
-
-- **Contact Not Required**: Induction can happen through a gap; the material does not need to touch the magnet to become magnetised.
-
-**Magnetic Domains**
-
-The Kinetic Particle Model explains magnetism through magnetic domains.
-
-- **Unmagnetised State**: In an unmagnetised material, the magnetic domains point in random directions, and their effects cancel each other out.
-
-- **Magnetised State**: When a magnet is brought near, the domains rotate to point in the same direction, producing a net magnetisation that allows the material to behave like a magnet.
+- **Unmagnetised**: Domains point in random directions; effects cancel.
+- **Magnetised**: Domains align in the same direction, producing net magnetisation.
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 120" width="320" height="120" role="img" aria-label="Bar magnet field lines">
-      <rect x="80" y="45" width="70" height="30" rx="4" fill="#fecaca" stroke="#dc2626"/>
-      <text x="115" y="65" text-anchor="middle" font-size="12" fill="#991b1b" font-weight="600">N</text>
-      <rect x="150" y="45" width="70" height="30" rx="4" fill="#bfdbfe" stroke="#2563eb"/>
-      <text x="185" y="65" text-anchor="middle" font-size="12" fill="#1e3a8a" font-weight="600">S</text>
-      <path d="M80 50 Q160 15 220 50" fill="none" stroke="#64748b" stroke-width="1.5"/>
-      <path d="M80 70 Q160 105 220 70" fill="none" stroke="#64748b" stroke-width="1.5"/>
-    </svg><p class="enlight-physics-diagram__caption">Bar magnet — field lines leave the N pole and enter the S pole; unlike poles attract, like poles repel.</p></div>
+**Bar magnet**
+
+- Field lines leave the N pole and enter the S pole.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 440 250" width="440" height="250" role="img" aria-label="Bar magnet field lines">
+      <defs><marker id="bm-ns" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#6b7280"/></marker></defs>
+      <text x="220" y="24" text-anchor="middle" font-size="15" fill="#374151" font-weight="600">Bar magnet</text>
+      <rect x="128" y="112" width="92" height="36" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+      <text x="174" y="135" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="700">N</text>
+      <rect x="220" y="112" width="92" height="36" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+      <text x="266" y="135" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="700">S</text>
+      <path d="M128 116 Q220 26 312 116" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 122 Q220 46 312 122" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 128 Q220 66 312 128" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 134 Q220 86 312 134" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 140 Q220 164 312 140" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 146 Q220 184 312 146" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 152 Q220 204 312 152" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <path d="M128 158 Q220 224 312 158" fill="none" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="128" y1="116" x2="78" y2="116" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="128" y1="124" x2="78" y2="124" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="128" y1="132" x2="78" y2="132" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="128" y1="140" x2="78" y2="140" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="128" y1="148" x2="78" y2="148" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="362" y1="116" x2="312" y2="116" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="362" y1="124" x2="312" y2="124" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="362" y1="132" x2="312" y2="132" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="362" y1="140" x2="312" y2="140" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+      <line x1="362" y1="148" x2="312" y2="148" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
+    </svg><p class="enlight-physics-diagram__caption">Bar magnet — field lines leave the N pole and enter the S pole; arrows show direction N → S.</p></div>
 
 ## Quick check
 
 Which part of a bar magnet has the strongest magnetic pull?
 
-True or False: A magnet can induce magnetism in a piece of copper.
+True or false: A magnet can induce magnetism in a piece of copper.
 
-What happens when you bring the North pole of one magnet near the North pole of another?
+What happens when you bring two North poles together?

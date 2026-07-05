@@ -5,31 +5,43 @@ We are able to see the world around us because light from objects enters our eye
 ## Key definitions
 
 - **Reflection**: The rebounding of light at a surface.
-- **Normal**: An imaginary line drawn perpendicular to the reflecting surface at the point where the light ray hits it (the point of incidence).
+- **Normal**: An imaginary line drawn perpendicular to the reflecting surface at the point of incidence.
 - **Angle of incidence ($i$)**: The angle between the incident ray and the normal.
 - **Angle of reflection ($r$)**: The angle between the reflected ray and the normal.
-- **Real Image**: An image that can be captured on a screen because the light rays actually meet at the image position.
-- **Virtual Image**: An image that cannot be captured on a screen because light rays do not actually meet at the image position.
-The Law of Reflection
-The behavior of light when it strikes a mirror is governed by the Law of Reflection, which states: The angle of incidence ($i$) is equal to the angle of reflection ($r$).
-The incident ray, the reflected ray, and the normal at the point of incidence all lie in the same plane (a flat surface).
-Properties of a Plane Mirror Image
-- **Images formed by a plane (flat) mirror have five distinct characteristics**: - **Same Size**: The image is the same size as the object.
-- **Upright**: The image is not upside down.
-- **Virtual**: It cannot be projected onto a screen.
-- **Same Distance**: The image is the same distance behind the mirror as the object is in front of it.
-- **Laterally Inverted**: The image is reversed from left to right (e.g., the word "PHYSICS" would appear backwards).
-Ray Diagrams for Plane Mirrors
-- **To locate a virtual image behind a mirror, follow these steps**: - **Locate the Image**: Measure the perpendicular distance from the object to the mirror and mark the same distance behind the mirror to place the image ($I$).
-- **Draw Reflected Rays**: Use a straightedge to join the image ($I$) to the observer's eye. Draw this as a dotted line behind the mirror and a solid line with an arrow in front of the mirror.
-- **Draw Incident Rays**: Join the original object (O) to the points on the mirror where the reflected rays began.
-Applications of Mirrors
-- **Periscopes**: Use two plane mirrors inclined at 45^\circto allow a person to see over obstacles.
-- **Blind Corner Mirrors**: Curved mirrors placed in shops or on roads to help people see around corners.
-- **Instrument Scales**: A mirror placed under a pointer helps users avoid parallax error; the reading is accurate only when the pointer is perfectly aligned with its reflection.
-- **Vision Testing**: Mirrors are used in small rooms to make eye charts appear to be at the required standard distance.
+- **Real image**: An image that can be captured on a screen because light rays actually meet at the image position.
+- **Virtual image**: An image that cannot be captured on a screen because light rays do not actually meet at the image position.
+
+## Law of reflection
+
+- The angle of incidence ($i$) equals the angle of reflection ($r$).
+- The incident ray, reflected ray, and normal all lie in the same plane.
+
+## Properties of a plane mirror image
+
+- **Same size** as the object.
+- **Upright** (not inverted).
+- **Virtual** (cannot be projected onto a screen).
+- **Same distance** behind the mirror as the object is in front.
+- **Laterally inverted** (left and right reversed).
+
+## Ray diagrams for plane mirrors
+
+1. **Locate the image**: Measure the perpendicular distance from the object to the mirror; mark the same distance behind the mirror.
+2. **Draw reflected rays**: Join the image to the observer's eye — dotted line behind the mirror, solid arrowed line in front.
+3. **Draw incident rays**: Join the object to the points on the mirror where the reflected rays began.
+
+## Applications of mirrors
+
+- **Periscopes**: Two plane mirrors at $45^\circ$ to see over obstacles.
+- **Blind corner mirrors**: Curved mirrors on roads and in shops.
+- **Instrument scales**: Mirror under a pointer avoids parallax error.
+- **Vision testing**: Mirrors make eye charts appear at the required distance.
 
 ## Graphs & diagrams
+
+**Law of reflection**
+
+- Angle $i$ equals angle $r$, both measured from the normal.
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Reflection of light">
       <line x1="40" y1="120" x2="280" y2="120" stroke="#64748b" stroke-width="2"/>
@@ -41,6 +53,15 @@ Applications of Mirrors
       <text x="165" y="25" font-size="10" fill="#64748b">normal</text>
     </svg><p class="enlight-physics-diagram__caption">Law of reflection — angle of incidence i equals angle of reflection r (measured from the normal).</p></div>
 
+## Worked example — Finding angles
+
+Question: A ray of light strikes a mirror at an angle of $50^\circ$ to the mirror surface. Calculate the angle of reflection.
+
+1. Find the angle of incidence: $i = 90^\circ - 50^\circ = 40^\circ$.
+2. Apply the law of reflection: $r = i = 40^\circ$.
+
+**Final answer:** $40^\circ$.
+
 ## Quick check
 
 State the law of reflection.
@@ -48,7 +69,3 @@ State the law of reflection.
 Is the image in a plane mirror real or virtual?
 
 If an object is 2 m in front of a mirror, how far is its image from the mirror?
-
-## Worked example — — Finding Angles
-
-- **Question**: A ray of light strikes a mirror at an angle of 50^\circto the mirror surface. Calculate the angle of reflection. Step 1: Identify the angle of incidence. The normal is 90^\circ to the surface.i = 90^\circ $- 50^\circ$ = 40^\circ $. Step 2: Apply the law of reflection.r = i. Solution: The angle of reflection is 40^\circ$.

@@ -13,7 +13,9 @@ $$
 ## Steps / method
 
 1. **Identify** $n$ and $r$.
+
 2. **Check** whether picking A then B is the same as B then A — if yes, use combinations.
+
 3. **Multi-group selection** — find combinations for each group separately, then multiply.
 
 ### Key rule
@@ -26,7 +28,7 @@ Question: A team of 5 players is chosen from a squad of 12. How many possible te
 
 Order does not matter — $n = 12$ and $r = 5$
 
-${}_{12}C_5 = \dfrac{12!}{5!\,7!} = 792$
+${}_{12}C_5 = \frac{12!}{5!\,7!} = 792$
 
 ## Worked example — Multi-group selection
 

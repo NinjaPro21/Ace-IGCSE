@@ -82,19 +82,32 @@ Question: A student turns on a radiation detector in a lab with no radioactive s
 
 Identify variables: Total counts = 420; Total time = 20 min.
 
-Apply average count rate formula: 
+Apply average count rate formula:
+
 $$
-$\text{Rate} = \frac{420 \text{ counts}}{20 \text{ min}} = 21 \text{ counts/min}$
-Final Answer: 21 counts/min 2
+\text{Rate} = \frac{420 \text{ counts}}{20 \text{ min}} = 21 \text{ counts/min}
+$$
+
+**Final answer:** 21 counts/min
 
 ## Worked example — Finding Corrected Count Rate
 
 Question: A detector measures a background rate of 20 counts/min. When a source is introduced, the detector records 120 counts over a period of 5 minutes. Calculate the corrected count rate for the source.
 
-Calculate the measured count rate: $120 \text{ counts} /$5 \text{ min} = 24 \text{ counts/min}2
+Calculate the measured count rate:
 
-Identify background rate: $10 \text{ counts/min}$.
+$$
+\frac{120 \text{ counts}}{5 \text{ min}} = 24 \text{ counts/min}
+$$
 
-Apply corrected rate formula: $\text{Corrected rate} = 24 - 20 =$4 \text{ counts/min}$. ### Trap$
+Identify background rate: 20 counts/min.
+
+$$
+\text{Corrected rate} = 24 - 20 = 4 \text{ counts/min}
+$$
+
+**Final answer:** 4 counts/min
+
+### Trap
 
 Students often forget to convert the total counts into a rate (counts per unit time) before subtracting the background. Always ensure the units of time match.

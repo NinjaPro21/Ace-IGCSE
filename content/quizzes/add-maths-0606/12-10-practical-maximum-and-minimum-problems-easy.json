@@ -32,12 +32,12 @@
         "5"
       ],
       "correctIndex": 0,
-      "explanation": "$dA/dx = 40 - 4x$2$4x = 40 \\implies x = 10$.\n\n**Common mistake:** Dividing 40 by 2 instead of 4, or mistaking the x-intercepts for the maximum."
+      "explanation": "$dA/dx = 40 - 4x$. $4x = 40 \\implies x = 10$.\n\n**Common mistake:** Dividing 40 by 2 instead of 4, or mistaking the x-intercepts for the maximum."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-easy-q3",
       "type": "mcq",
-      "question": "If the second derivative of a volume function $V$2$-12$ at a stationary point, what does this indicate?",
+      "question": "If the second derivative of a volume function $V$. $-12$ at a stationary point, what does this indicate?",
       "options": [
         "The volume is at a maximum.",
         "The volume is at a minimum.",
@@ -63,7 +63,7 @@
     {
       "id": "12-10-practical-maximum-and-minimum-problems-easy-q5",
       "type": "mcq",
-      "question": "A wire of length 20 cm is bent into a rectangle of width $x$2$A = x(10 - x)$. What is the maximum possible area?",
+      "question": "A wire of length 20 cm is bent into a rectangle of width $x$. So $A = x(10 - x)$. What is the maximum possible area?",
       "options": [
         "25 cm^2",
         "5 cm^2",

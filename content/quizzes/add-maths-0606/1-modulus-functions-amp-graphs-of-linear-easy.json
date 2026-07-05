@@ -11,7 +11,7 @@
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q1",
       "type": "mcq",
-      "question": "Evaluate the numerical expression ∣−15∣+∣7−20∣.",
+      "question": "Evaluate the numerical expression ∣-15∣+∣7-20∣.",
       "options": [
         "28",
         "2",
@@ -19,7 +19,7 @@
         "12"
       ],
       "correctIndex": 0,
-      "explanation": "∣−15∣=15 and ∣7−20∣=∣−13∣=13. The sum is 15+13=28.\n\n**Common mistake:** Students may incorrectly subtract the absolute values, resulting in 15−13=2, or calculate 7−20 as 13 instead of −13 before taking the modulus."
+      "explanation": "∣-15∣=15 and ∣7-20∣=∣-13∣=13. The sum is 15+13=28.\n\n**Common mistake:** Students may incorrectly subtract the absolute values, resulting in 15-13=2, or calculate 7-20 as 13 instead of -13 before taking the modulus."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q2",
@@ -32,12 +32,12 @@
         "No solution"
       ],
       "correctIndex": 0,
-      "explanation": "A modulus value is zero if and only if the expression inside is zero: x+4=0, so x=−4.\n\n**Common mistake:** Assuming that a modulus must result in a positive value and picking 4 as the answer."
+      "explanation": "A modulus value is zero if and only if the expression inside is zero: x+4=0, so x=-4.\n\n**Common mistake:** Assuming that a modulus must result in a positive value and picking 4 as the answer."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q3",
       "type": "mcq",
-      "question": "If f(x)=∣2x−10∣, evaluate f(3).",
+      "question": "If f(x)=∣2x-10∣, evaluate f(3).",
       "options": [
         "4",
         "-4",
@@ -45,12 +45,12 @@
         "6"
       ],
       "correctIndex": 0,
-      "explanation": "f(3)=∣2(3)−10∣=∣6−10∣=∣−4∣=4.\n\n**Common mistake:** Failing to apply the absolute value property and providing a negative result, -4."
+      "explanation": "f(3)=∣2(3)-10∣=∣6-10∣=∣-4∣=4.\n\n**Common mistake:** Failing to apply the absolute value property and providing a negative result, -4."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q4",
       "type": "mcq",
-      "question": "State the value of x for which the expression ∣x−8∣ is at its minimum.",
+      "question": "State the value of x for which the expression ∣x-8∣ is at its minimum.",
       "options": [
         "8",
         "0",
@@ -58,12 +58,12 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "The minimum value of any absolute value expression is 0, which occurs when x−8=0, thus x=8.\n\n**Common mistake:** Mistakenly identifying the minimum value itself (0) as the value of x."
+      "explanation": "The minimum value of any absolute value expression is 0, which occurs when x-8=0, thus x=8.\n\n**Common mistake:** Mistakenly identifying the minimum value itself (0) as the value of x."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q5",
       "type": "mcq",
-      "question": "Simplify the expression ∣−5∣×∣3−8∣.",
+      "question": "Simplify the expression ∣-5∣×∣3-8∣.",
       "options": [
         "25",
         "-25",
@@ -71,7 +71,7 @@
         "-5"
       ],
       "correctIndex": 0,
-      "explanation": "∣−5∣=5 and ∣3−8∣=∣−5∣=5. The product is 5×5=25.\n\n**Common mistake:** Signs errors during multiplication, such as treating it as 5×(−5)=−25."
+      "explanation": "∣-5∣=5 and ∣3-8∣=∣-5∣=5. The product is 5×5=25.\n\n**Common mistake:** Signs errors during multiplication, such as treating it as 5×(-5)=-25."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q6",
@@ -84,12 +84,12 @@
         "(0, -6)"
       ],
       "correctIndex": 0,
-      "explanation": "The vertex of y=∣x−h∣ is at (h,0). Here x+6=0 gives x=−6.\n\n**Common mistake:** Misidentifying the sign of the x-coordinate, picking 6 instead of -6."
+      "explanation": "The vertex of y=∣x-h∣ is at (h,0). Here x+6=0 gives x=-6.\n\n**Common mistake:** Misidentifying the sign of the x-coordinate, picking 6 instead of -6."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q7",
       "type": "mcq",
-      "question": "Find the y-intercept of the graph representing y=∣3x−12∣.",
+      "question": "Find the y-intercept of the graph representing y=∣3x-12∣.",
       "options": [
         "12",
         "4",
@@ -97,17 +97,17 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "Set x=0: y=∣3(0)−12∣=∣−12∣=12.\n\n**Common mistake:** Identifying the x-intercept (4) as the y-intercept or failing to take the modulus and giving -12."
+      "explanation": "Set x=0: y=∣3(0)-12∣=∣-12∣=12.\n\n**Common mistake:** Identifying the x-intercept (4) as the y-intercept or failing to take the modulus and giving -12."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q8",
       "type": "mcq",
-      "question": "State the equation of the axis of symmetry for the graph y=∣x−4∣+2.",
+      "question": "State the equation of the axis of symmetry for the graph y=∣x-4∣+2.",
       "options": [
         "x=4",
         "x=2",
         "y=2",
-        "x=−4"
+        "x=-4"
       ],
       "correctIndex": 0,
       "explanation": "The symmetry axis passes through the vertex. The vertex is at x=4, so the axis is x=4.\n\n**Common mistake:** Using the vertical shift constant (2) or negating the horizontal shift incorrectly."
@@ -115,7 +115,7 @@
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q9",
       "type": "mcq",
-      "question": "For the basic function f(x)=∣x∣, find the image of x=−7.",
+      "question": "For the basic function f(x)=∣x∣, find the image of x=-7.",
       "options": [
         "7",
         "-7",
@@ -123,12 +123,12 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "By the definition of absolute value, ∣−7∣=7.\n\n**Common mistake:** Failing to apply the modulus property and leaving the value as -7."
+      "explanation": "By the definition of absolute value, ∣-7∣=7.\n\n**Common mistake:** Failing to apply the modulus property and leaving the value as -7."
     },
     {
       "id": "1-modulus-functions-amp-graphs-of-linear-easy-q10",
       "type": "mcq",
-      "question": "Identify the coordinates of the minimum point on the graph y=∣2x−10∣+3.",
+      "question": "Identify the coordinates of the minimum point on the graph y=∣2x-10∣+3.",
       "options": [
         "(5, 3)",
         "(10, 3)",
@@ -136,7 +136,7 @@
         "(-5, 3)"
       ],
       "correctIndex": 0,
-      "explanation": "The modulus is minimized at x=5 (2x−10=0). At x=5,y=3.\n\n**Common mistake:** Neglecting the vertical shift (3) or failing to solve for the correct x-coordinate within the modulus."
+      "explanation": "The modulus is minimized at x=5 (2x-10=0). At x=5,y=3.\n\n**Common mistake:** Neglecting the vertical shift (3) or failing to solve for the correct x-coordinate within the modulus."
     }
   ]
 }

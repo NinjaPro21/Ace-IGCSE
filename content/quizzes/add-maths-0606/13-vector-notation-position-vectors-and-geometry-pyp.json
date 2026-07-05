@@ -11,25 +11,25 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q1",
       "type": "mcq",
-      "question": "The vectors a and b are such that a=4i+3j and b=mi+j . Given that ∣a+b∣=5 , find the possible values of m .",
+      "question": "The vectors a and b are such that a=4i+3j and b=mi+j^2 Given that ∣a+b∣=5 , find the possible values of m .",
       "options": [
-        "−1 or −7",
+        "-1 or -7",
         "1 or 7",
-        "−3 or 4",
+        "-3 or 4",
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "a+b=(4+m)i+4j. ∣...∣\n2\n= (4+m)^{2}+16=25⟹$(4+m)^{2}$=9⟹4+m=±3⟹m=−1,−7.\n\n**Common mistake:** Option B is a sign error where the student solves 4+m=3 as m=7."
+      "explanation": "a+b=(4+m)i+4j. ∣...∣\n2\n= (4+m)^{2}+16=25⟹$(4+m)^{2}$=9⟹4+m=±3⟹m=-1,-7.\n\n**Common mistake:** Option B is a sign error where the student solves 4+m=3 as m=7."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q2",
       "type": "mcq",
-      "question": "Find the unit vector in the direction of the vector 7i−24j .",
+      "question": "Find the unit vector in the direction of the vector 7i-24j .",
       "options": [
-        "1/25(7i−24j)",
+        "1/25(7i-24j)",
         "7/25i+24/25j",
         "1/25(7i+24j)",
-        "25i−25j"
+        "25i-25j"
       ],
       "correctIndex": 0,
       "explanation": "The magnitude is\n(\n\n$7^{2}$+$(-24)^{2}$)=25. The unit vector is the original vector divided by its magnitude.\n\n**Common mistake:** Option B fails to carry the negative sign from the original vector's j component."
@@ -37,33 +37,33 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q3",
       "type": "mcq",
-      "question": "The vectors p and q are given by p=2i+j and q=3i−2j . Find the value of λ for which the vector λp+q is parallel to the vector i .",
+      "question": "The vectors p and q are given by p=2i+j and q=3i-2j^2 Find the value of λ for which the vector λp+q is parallel to the vector i .",
       "options": [
         "2",
-        "−2",
+        "-2",
         "1.5",
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "λp+q=(2λ+3)i+(λ−2)j. For this to be parallel to i, the j component must be zero: λ−2=0⟹λ=2.\n\n**Common mistake:** Option B is a sign error in the zeroing of the j component."
+      "explanation": "λp+q=(2λ+3)i+(λ-2)j. For this to be parallel to i, the j component must be zero: λ-2=0⟹λ=2.\n\n**Common mistake:** Option B is a sign error in the zeroing of the j component."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q4",
       "type": "mcq",
-      "question": "Show that the magnitude of the vector r=(1−k)i+2\n(\n\nk)j is 1+k .",
+      "question": "Show that the magnitude of the vector r=(1-k)i+2\n(\n\nk)j is 1+k .",
       "options": [
         "1+k",
-        "1−k",
+        "1-k",
         "(\n\n1+$k^{2}$)",
         "k"
       ],
       "correctIndex": 0,
-      "explanation": "∣r∣\n2\n= (1-k)^{2}+(2\n(\n\nk)$)^{2}$=1−2k+$k^{2}$+4k= k^{2}+2k+1= (1+k)^{2}. Thus magnitude is 1+k.\n\n**Common mistake:** Option C results from failing to include the middle term when expanding the squared bracket."
+      "explanation": "∣r∣\n2\n= (1-k)^{2}+(2\n(\n\nk)$)^{2}$=1-2k+$k^{2}$+4k= k^{2}+2k+1= (1+k)^{2}. Thus magnitude is 1+k.\n\n**Common mistake:** Option C results from failing to include the middle term when expanding the squared bracket."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q5",
       "type": "mcq",
-      "question": "Given that a=3i−4j and b=i+pj , find the value of p for which a−2b has a magnitude of 5 and p>0 .",
+      "question": "Given that a=3i-4j and b=i+pj , find the value of p for which a-2b has a magnitude of 5 and p>0 .",
       "options": [
         "0.5",
         "4",
@@ -71,7 +71,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "a−2b=(3−2)i+(−4−2p)j=i−(4+2p)j. ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24. (Let's adjust for clean root: if ∣...∣=1, ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=1⟹4+2p=0⟹p=−2. Let's use ∣...∣=\n(\n\n65)). For ∣...∣=5, 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24⟹4+2p=\n(\n\n24). Result is p≈0.45. Option A is nearest.\n\n**Common mistake:** Option B results from ignoring the i-component completely in the magnitude calculation."
+      "explanation": "a-2b=(3-2)i+(-4-2p)j=i-(4+2p)j. ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24. (Let's adjust for clean root: if ∣...∣=1, ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=1⟹4+2p=0⟹p=-2. Let's use ∣...∣=\n(\n\n65)). For ∣...∣=5, 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24⟹4+2p=\n(\n\n24). Result is p≈0.45. Option A is nearest.\n\n**Common mistake:** Option B results from ignoring the i-component completely in the magnitude calculation."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q6",
@@ -84,12 +84,12 @@
         "2i - 3j"
       ],
       "correctIndex": 1,
-      "explanation": "$\\vec{AB} = (7-3)i + (-4-2)j = 4i - 6j$2$= \\sqrt{16+36} = \\sqrt{52} \\approx 7.21$. Unit vector $\\approx 0.55i - 0.83j$.\n\n**Common mistake:** Failing to calculate the magnitude correctly or forgetting to divide the vector by it."
+      "explanation": "$\\vec{AB} = (7-3)i + (-4-2)j = 4i - 6j$. $= \\sqrt{16+36} = \\sqrt{52} \\approx 7.21$. Unit vector $\\approx 0.55i - 0.83j$.\n\n**Common mistake:** Failing to calculate the magnitude correctly or forgetting to divide the vector by it."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q7",
       "type": "mcq",
-      "question": "Point R has position vector $\\begin{pmatrix} 6 \\ -3 \\end{pmatrix}$. Point S has position vector $\\begin{pmatrix} -2 \\ 5 \\end{pmatrix}$. Find the position vector of point T such that $\\vec{OT} = 2\\vec{OR} + \\vec{OS}$.",
+      "question": "Point R has position vector $\\begin{pmatrix} 6 \\ \\\\ -3 \\end{pmatrix}$. Point S has position vector $\\begin{pmatrix} -2 \\ \\\\ 5 \\end{pmatrix}$. Find the position vector of point T such that $\\vec{OT} = 2\\vec{OR} + \\vec{OS}$.",
       "options": [
         "10i - j",
         "14i - i",
@@ -97,7 +97,7 @@
         "12i - 6j"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{OT} = 2\\begin{pmatrix} 6 \\ -3 \\end{pmatrix} + \\begin{pmatrix} -2 \\ 5 \\end{pmatrix} = \\begin{pmatrix} 12 \\ -6 \\end{pmatrix} + \\begin{pmatrix} -2 \\ 5 \\end{pmatrix} = \\begin{pmatrix} 10 \\ -1 \\end{pmatrix}$.\n\n**Common mistake:** Errors in scalar multiplication or basic vector addition."
+      "explanation": "$\\vec{OT} = 2\\begin{pmatrix} 6 \\ \\\\ -3 \\end{pmatrix} + \\begin{pmatrix} -2 \\ \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 12 \\ \\\\ -6 \\end{pmatrix} + \\begin{pmatrix} -2 \\ \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 10 \\ \\\\ -1 \\end{pmatrix}$.\n\n**Common mistake:** Errors in scalar multiplication or basic vector addition."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q8",
@@ -128,7 +128,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q10",
       "type": "mcq",
-      "question": "Find the value of $p$2$\\begin{pmatrix} p \\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 3 \\ -2 \\end{pmatrix}$.",
+      "question": "Find the value of $p . \\begin{pmatrix} p \\ \\\\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 3 \\ \\\\ -2 \\end{pmatrix}$.",
       "options": [
         "-6",
         "6",
@@ -141,7 +141,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q11",
       "type": "mcq",
-      "question": "The position vectors of points $A$2$B$2$O$2$\\mathbf{a}$ and $\\mathbf{b}$ respectively. The point $P$2$AB$2$AB : BP = 1 : 2$. Find the position vector of $P$.",
+      "question": "The position vectors of points $A$ and $B2O$. $\\mathbf{a}$ and $\\mathbf{b}$ respectively. The point $P$. $AB2AB : BP = 1 : 2$. Find the position vector of $P$.",
       "options": [
         "$3\\mathbf{b} - 2\\mathbf{a}$",
         "$2\\mathbf{b} - \\mathbf{a}$",
@@ -149,12 +149,12 @@
         "$\\mathbf{a} + 3\\mathbf{b}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{AP} = 3\\vec{AB} = 3(\\mathbf{b} - \\mathbf{a})$. Then $\\vec{OP} = \\vec{OA} + \\vec{AP} = \\mathbf{a} + 3\\mathbf{b} - 3\\mathbf{a} = 3\\mathbf{b} - 2\\mathbf{a}$.\n\n**Common mistake:** Option B results from assuming $P$2$A$2$B$ is, rather than using the 'produced' external ratio correctly."
+      "explanation": "$\\vec{AP} = 3\\vec{AB} = 3(\\mathbf{b} - \\mathbf{a})$. Then $\\vec{OP} = \\vec{OA} + \\vec{AP} = \\mathbf{a} + 3\\mathbf{b} - 3\\mathbf{a} = 3\\mathbf{b} - 2\\mathbf{a}$.\n\n**Common mistake:** Option B results from assuming $P$ and $A2B$ is, rather than using the 'produced' external ratio correctly."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q12",
       "type": "mcq",
-      "question": "In the triangle $OAB$2$\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. $M$2$OA$2$N$2$AB$2$AN : NB = 1 : 2$. Express $\\vec{MN}$ in its simplest form.",
+      "question": "In the triangle $OAB$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. $M$. $OA2N$. $AB2AN : NB = 1 : 2$. Express $\\vec{MN}$ in its simplest form.",
       "options": [
         "$\\frac{1}{6}\\mathbf{a} + \\frac{1}{3}\\mathbf{b}$",
         "$\\frac{1}{3}\\mathbf{b} - \\frac{1}{6}\\mathbf{a}$",
@@ -167,7 +167,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q13",
       "type": "mcq",
-      "question": "Given that $\\vec{OX} = 2\\mathbf{a} + 3\\mathbf{b}$ and $\\vec{OY} = 6\\mathbf{a} + 9\\mathbf{b}$, show that $O, X,$ and $Y$2$OX : XY$.",
+      "question": "Given that $\\vec{OX} = 2\\mathbf{a} + 3\\mathbf{b}$ and $\\vec{OY} = 6\\mathbf{a} + 9\\mathbf{b}$, show that $O, X,$ and $Y$. $OX : XY$.",
       "options": [
         "$1 : 2$",
         "$1 : 3$",
@@ -175,12 +175,12 @@
         "$1 : 1$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{OY} = 3\\vec{OX}, which proves collinearity$2$2\\vec{XY} = \\vec{OY} - \\vec{OX} = 2\\vec{OX}$. Therefore, the ratio $OX : XY$2$1 : 2$.\n\n**Common mistake:** Option B is the ratio $OX : OY$2$OX$2$XY$."
+      "explanation": "$\\vec{OY} = 3\\vec{OX}, which proves collinearity$. $2\\vec{XY} = \\vec{OY} - \\vec{OX} = 2\\vec{OX}$. Therefore, the ratio $OX : XY$. $1 : 2$.\n\n**Common mistake:** Option B is the ratio $OX : OY$. $OX2XY$."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q14",
       "type": "mcq",
-      "question": "In triangle $ABC$2$\\vec{AB} = \\mathbf{c}$ and $\\vec{AC} = \\mathbf{b}$. $M$2$BC$2$\\vec{AM}$ in terms of $\\mathbf{b}$ and $\\mathbf{c}$.",
+      "question": "In triangle $ABC$. So $\\vec{AB} = \\mathbf{c}$ and $\\vec{AC} = \\mathbf{b}$. $M$. $BC2\\vec{AM}$ in terms of $\\mathbf{b}$ and $\\mathbf{c}$.",
       "options": [
         "$0.5(\\mathbf{b} + \\mathbf{c})$",
         "$0.5(\\mathbf{c} - \\mathbf{b})$",
@@ -188,12 +188,12 @@
         "$0.5\\mathbf{b} - \\mathbf{c}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{AM} = \\vec{AB} + 0.5\\vec{BC} = \\mathbf{c} + 0.5(\\mathbf{b} - \\mathbf{c}) = 0.5\\mathbf{b} + 0.5\\mathbf{c}$.\n\n**Common mistake:** Option B is the vector from $B$2$M$2$A$."
+      "explanation": "$\\vec{AM} = \\vec{AB} + 0.5\\vec{BC} = \\mathbf{c} + 0.5(\\mathbf{b} - \\mathbf{c}) = 0.5\\mathbf{b} + 0.5\\mathbf{c}$.\n\n**Common mistake:** Option B is the vector from $B$ and $M2A$."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q15",
       "type": "mcq",
-      "question": "The points $P, Q, R$2$\\mathbf{p}, \\mathbf{q}, \\mathbf{r}$ respectively. If $3\\mathbf{p} - 2\\mathbf{q} - \\mathbf{r} = 0$, find the ratio in which $Q$2$PR$.",
+      "question": "The points $P, Q, R$. $\\mathbf{p}, \\mathbf{q}, \\mathbf{r}$ respectively. If $3\\mathbf{p} - 2\\mathbf{q} - \\mathbf{r} = 0$, find the ratio in which $Q$. $PR$.",
       "options": [
         "$1 : 2$",
         "$2 : 1$",
@@ -201,7 +201,7 @@
         "$1 : 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange: $2\\mathbf{q} = 3\\mathbf{p} - \\mathbf{r} \\implies \\mathbf{q} = \\frac{3\\mathbf{p} - \\mathbf{r}}{2}$. (Wait, let's use standard section formula $q = (n p + m r)/(m+n)$). If $Q$2$P$2$R$2$1$. $1.5\\mathbf{p} - 0.5\\mathbf{r}$. For internal division, coefficients must be positive. This implies external division or a sign error in the premise. Using $3\\vec{PQ} = \\vec{QR}$ logic, result is $1:2$.\n\n**Common mistake:** Ratio problems from equation forms are highly prone to inversion errors ($2:1$ vs $1:2$)."
+      "explanation": "Rearrange: $2\\mathbf{q} = 3\\mathbf{p} - \\mathbf{r} \\implies \\mathbf{q} = \\frac{3\\mathbf{p} - \\mathbf{r}}{2}$. (Wait, let's use standard section formula $q = (n p + m r)/(m+n)$). If $Q$ and $P2R$. $1$. $1.5\\mathbf{p} - 0.5\\mathbf{r}$. For internal division, coefficients must be positive. This implies external division or a sign error in the premise. Using $3\\vec{PQ} = \\vec{QR}$ logic, result is $1:2$.\n\n**Common mistake:** Ratio problems from equation forms are highly prone to inversion errors ($2:1$ vs $1:2$)."
     }
   ]
 }

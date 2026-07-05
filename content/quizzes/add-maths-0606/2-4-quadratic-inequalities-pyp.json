@@ -11,67 +11,67 @@
     {
       "id": "2-4-quadratic-inequalities-pyp-q1",
       "type": "mcq",
-      "question": "Find the set of values of x for which $x^{2}$−8x+15<0.",
+      "question": "Find the set of values of x for which $x^{2}$-8x+15<0.",
       "options": [
         "3<x<5",
         "x<3 or x>5",
-        "−5<x<−3",
+        "-5<x<-3",
         "x=3 and x=5"
       ],
       "correctIndex": 0,
-      "explanation": "Factorize the quadratic to (x−3)(x−5)<0. The roots are 3 and 5, and for a 'less than' inequality, we take the values between the roots.\n\n**Common mistake:** Failing to realize that the 'set of values' requires an inequality notation rather than just a list of the critical points."
+      "explanation": "Factorize the quadratic to (x-3)(x-5)<0. The roots are 3 and 5, and for a 'less than' inequality, we take the values between the roots.\n\n**Common mistake:** Failing to realize that the 'set of values' requires an inequality notation rather than just a list of the critical points."
     },
     {
       "id": "2-4-quadratic-inequalities-pyp-q2",
       "type": "mcq",
       "question": "Find the set of values of x for which 2$x^{2}$+5x≥3.",
       "options": [
-        "x≤−3 or x≥0.5",
-        "−3≤x≤0.5",
-        "x≤−0.5 or x≥3",
+        "x≤-3 or x≥0.5",
+        "-3≤x≤0.5",
+        "x≤-0.5 or x≥3",
         "x≥0.5 only"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange: 2$x^{2}$+5x−3≥0. Factorize: (2x−1)(x+3)≥0. Roots are 0.5 and −3. Solution is outside these roots.\n\n**Common mistake:** Incorrectly solving 2$x^{2}$+5x=3 and leaving the answer as two single values instead of ranges."
+      "explanation": "Rearrange: 2$x^{2}$+5x-3≥0. Factorize: (2x-1)(x+3)≥0. Roots are 0.5 and -3. Solution is outside these roots.\n\n**Common mistake:** Incorrectly solving 2$x^{2}$+5x=3 and leaving the answer as two single values instead of ranges."
     },
     {
       "id": "2-4-quadratic-inequalities-pyp-q3",
       "type": "mcq",
-      "question": "Solve the inequality $x^{2}$−2x−24≤0.",
+      "question": "Solve the inequality $x^{2}$-2x-24≤0.",
       "options": [
-        "−4≤x≤6",
-        "x≤−4 or x≥6",
-        "−6≤x≤4",
-        "x≤−6 or x≥4"
+        "-4≤x≤6",
+        "x≤-4 or x≥6",
+        "-6≤x≤4",
+        "x≤-6 or x≥4"
       ],
       "correctIndex": 0,
-      "explanation": "Factorize: (x−6)(x+4)≤0. The roots are 6 and −4. The solution is the continuous range between these values.\n\n**Common mistake:** Choosing the roots +6 and −4 correctly but then selecting the 'outside' region x≤−4,x≥6."
+      "explanation": "Factorize: (x-6)(x+4)≤0. The roots are 6 and -4. The solution is the continuous range between these values.\n\n**Common mistake:** Choosing the roots +6 and -4 correctly but then selecting the 'outside' region x≤-4,x≥6."
     },
     {
       "id": "2-4-quadratic-inequalities-pyp-q4",
       "type": "mcq",
-      "question": "Find the range of values of x satisfying (2x+1)(x−4)>12.",
+      "question": "Find the range of values of x satisfying (2x+1)(x-4)>12.",
       "options": [
-        "x<−1.6 or x>5",
-        "−1.6<x<5",
-        "x<−1.5 or x>5.33",
-        "x<−2 or x>4"
+        "x<-1.6 or x>5",
+        "-1.6<x<5",
+        "x<-1.5 or x>5.33",
+        "x<-2 or x>4"
       ],
       "correctIndex": 0,
-      "explanation": "Expand: 2$x^{2}$−7x−4>12 \\implies 2$x^{2}$−7x−16>0. Correction for cleaner result: Use (2x+1)(x−4)>14⟹2$x^{2}$−7x−18>0⟹(2x−9)(x+2)>0⟹x<−2 or x>4.5. Choice 0 remains correct in logic for 2$x^{2}$−7x−16 roots.\n\n**Common mistake:** Failing to expand and rearrange to standard quadratic form (=0) before attempting to find critical values."
+      "explanation": "Expand: 2$x^{2}$-7x-4>12 \\implies 2$x^{2}$-7x-16>0. Correction for cleaner result: Use (2x+1)(x-4)>14⟹2$x^{2}$-7x-18>0⟹(2x-9)(x+2)>0⟹x<-2 or x>4.5. Choice 0 remains correct in logic for 2$x^{2}$-7x-16 roots.\n\n**Common mistake:** Failing to expand and rearrange to standard quadratic form (=0) before attempting to find critical values."
     },
     {
       "id": "2-4-quadratic-inequalities-pyp-q5",
       "type": "mcq",
-      "question": "Given f(x)= x^{2}−4x−12, find the set of values of x for which f(x)≥0.",
+      "question": "Given f(x)= x^{2}-4x-12, find the set of values of x for which f(x)≥0.",
       "options": [
-        "x≤−2 or x≥6",
-        "−2≤x≤6",
-        "x≤−6 or x≥2",
-        "−6≤x≤2"
+        "x≤-2 or x≥6",
+        "-2≤x≤6",
+        "x≤-6 or x≥2",
+        "-6≤x≤2"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $x^{2}$−4x−12≥0. Factorize: (x−6)(x+2)≥0. Roots are 6 and −2. The solution is the regions outside or equal to these roots.\n\n**Common mistake:** Arithmetic slips in factoring or selecting the region between the roots (−2,6)."
+      "explanation": "Solve $x^{2}$-4x-12≥0. Factorize: (x-6)(x+2)≥0. Roots are 6 and -2. The solution is the regions outside or equal to these roots.\n\n**Common mistake:** Arithmetic slips in factoring or selecting the region between the roots (-2,6)."
     }
   ]
 }

@@ -11,12 +11,12 @@
     {
       "id": "12-1-12-3-vectors-easy-q1",
       "type": "mcq",
-      "question": "If vector $\\mathbf{a} = \\begin{pmatrix} 4 \\ -2 \\end{pmatrix}$, calculate the resulting column vector for $3\\mathbf{a}$.",
+      "question": "If vector $\\mathbf{a} = \\begin{pmatrix} 4 \\ \\\\ -2 \\end{pmatrix}$, calculate the resulting column vector for $3\\mathbf{a}$.",
       "options": [
-        "$\\begin{pmatrix} 12 \\ -6 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 7 \\ 1 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 12 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 1.33 \\ -0.67 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 12 \\ \\\\ -6 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 7 \\ \\\\ 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 12 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1.33 \\ \\\\ -0.67 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
       "explanation": "To multiply a vector by a scalar, multiply each component of the column vector by the scalar: $3 \\times 4 = 12$ and $3 \\times -2 = -6$.\n\n**Common mistake:** A student might add the scalar to the components instead of multiplying, or only multiply the top component."
@@ -24,12 +24,12 @@
     {
       "id": "12-1-12-3-vectors-easy-q2",
       "type": "mcq",
-      "question": "Perform the following vector subtraction: $\\begin{pmatrix} 7 \\ 3 \\end{pmatrix} - \\begin{pmatrix} 2 \\ -5 \\end{pmatrix}$.",
+      "question": "Perform the following vector subtraction: $\\begin{pmatrix} 7 \\ \\\\ 3 \\end{pmatrix} - \\begin{pmatrix} 2 \\ \\\\ -5 \\end{pmatrix}$.",
       "options": [
-        "$\\begin{pmatrix} 5 \\ 8 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 9 \\ -2 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5 \\ 2 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 5 \\ \\\\ 8 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 9 \\ \\\\ -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ \\\\ 2 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
       "explanation": "Subtract the corresponding components: $7 - 2 = 5$ and $3 - (-5) = 3 + 5 = 8$.\n\n**Common mistake:** A common error is a sign mistake in the second component, calculating $3 - 5 = -2$ instead of $3 - (-5)$."
@@ -37,7 +37,7 @@
     {
       "id": "12-1-12-3-vectors-easy-q3",
       "type": "mcq",
-      "question": "Calculate the magnitude of the vector $\\mathbf{v} = \\begin{pmatrix} 6 \\ 8 \\end{pmatrix}$.",
+      "question": "Calculate the magnitude of the vector $\\mathbf{v} = \\begin{pmatrix} 6 \\ \\\\ 8 \\end{pmatrix}$.",
       "options": [
         "$10$ units",
         "$14$ units",
@@ -58,20 +58,20 @@
         "$-\\mathbf{a} - \\mathbf{b}$"
       ],
       "correctIndex": 0,
-      "explanation": "To go from $B$2$A$2$B \\to O \\to A$2$-\\vec{OB} + \\vec{OA} = -\\mathbf{b} + \\mathbf{a}$, or $\\mathbf{a} - \\mathbf{b}$.\n\n**Common mistake:** Students often reverse the subtraction order, incorrectly choosing $\\mathbf{b} - \\mathbf{a}$ (which is $\\vec{AB}$)."
+      "explanation": "To go from $B$ and $A2B \\to O \\to A$. $-\\vec{OB} + \\vec{OA} = -\\mathbf{b} + \\mathbf{a}$, or $\\mathbf{a} - \\mathbf{b}$.\n\n**Common mistake:** Students often reverse the subtraction order, incorrectly choosing $\\mathbf{b} - \\mathbf{a}$ (which is $\\vec{AB}$)."
     },
     {
       "id": "12-1-12-3-vectors-easy-q5",
       "type": "mcq",
-      "question": "Which of the following vectors is parallel to $\\begin{pmatrix} 3 \\ -1 \\end{pmatrix}$?",
+      "question": "Which of the following vectors is parallel to $\\begin{pmatrix} 3 \\ \\\\ -1 \\end{pmatrix}$?",
       "options": [
-        "$\\begin{pmatrix} 9 \\ -3 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 6 \\ -1 \\end{pmatrix}$",
-        "$\\begin{pmatrix} -3 \\ 1 \\end{pmatrix}$ is the only one",
-        "$\\begin{pmatrix} 1 \\ -3 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 9 \\ \\\\ -3 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 6 \\ \\\\ -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -3 \\ \\\\ 1 \\end{pmatrix}$ is the only one",
+        "$\\begin{pmatrix} 1 \\ \\\\ -3 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "Parallel vectors are scalar multiples of each other. $\\begin{pmatrix} 9 \\ -3 \\end{pmatrix} = 3 \\times \\begin{pmatrix} 3 \\ -1 \\end{pmatrix}$.\n\n**Common mistake:** A student might select a vector with the same numbers in a different order or ignore the scale factor."
+      "explanation": "Parallel vectors are scalar multiples of each other. $\\begin{pmatrix} 9 \\ \\\\ -3 \\end{pmatrix} = 3 \\times \\begin{pmatrix} 3 \\ \\\\ -1 \\end{pmatrix}$.\n\n**Common mistake:** A student might select a vector with the same numbers in a different order or ignore the scale factor."
     }
   ]
 }

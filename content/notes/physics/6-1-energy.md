@@ -21,65 +21,79 @@ Energy is the fundamental "currency" of the universe, acting as the capacity to 
 
 $E_k = \frac{1}{2}mv^2$
 
-Applies to any moving object where $m$ and $v$2.
+Applies to any moving object where $m$ is in kg and $v$ is in m/s.
 
 **Change in Gravitational Potential Energy**
 
 $\Delta E_p = mg\Delta h$
 
-Applies to objects changing height in a uniform gravitational field where $g$ and $h$ is height (m).
+Applies to objects changing height in a uniform gravitational field where $g$ is in N/kg and $h$ is vertical height in m.
 
 ## Graphs & diagrams
 
-- **Sankey Diagrams**: Used to represent energy conversions involving multiple stages. The width of the "branch" represents the amount of energy: the input enters from the left, useful output points to the right, and wasted energy branches downwards.
-- **Energy Flow Diagrams**: Show the sequence of conversions (e.g., for a pendulum: Gravitational potential energy at max height $\rightarrow$ Kinetic energy at the bottom).
+**Sankey diagrams**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="Energy transfer">
-      <rect x="30" y="35" width="100" height="50" rx="8" fill="#dbeafe" stroke="#2563eb"/>
-      <text x="80" y="65" text-anchor="middle" font-size="11" fill="#1e3a8a">Kinetic</text>
-      <path d="M140 60 H260" stroke="#64748b" stroke-width="2" marker-end="url(#et)"/>
-      <text x="200" y="50" text-anchor="middle" font-size="10" fill="#64748b">transfer</text>
-      <rect x="270" y="35" width="120" height="50" rx="8" fill="#fecaca" stroke="#dc2626"/>
-      <text x="330" y="65" text-anchor="middle" font-size="11" fill="#991b1b">Thermal</text>
-      <defs><marker id="et" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Energy stores — energy transfers from one store to another (e.g. kinetic → thermal via friction).</p></div>
+- **Input**: Total energy enters from the left; branch height represents total energy.
+- **Useful output**: Main branch continues to the right (e.g. light from a lamp).
+- **Wasted energy**: Smaller branch curves **downward** (e.g. heat).
+- **Key rule**: Combined height of all output branches equals the input height.
 
-**Distance-time and Velocity-time graphs (Review)**
+<div class="enlight-physics-diagram"><svg viewBox="0 0 520 270" width="520" height="270" role="img" aria-label="Sankey diagram for a light bulb">
+      <rect width="520" height="270" fill="#fafafa" rx="6"/>
+      <text x="14" y="119" font-size="11" fill="#1e40af" font-weight="600">Electrical input</text>
+      <text x="14" y="133" font-size="10" fill="#334155">100 J</text>
+      <rect x="36" y="50" width="28" height="130" fill="#2563eb" stroke="#1e40af" stroke-width="1.5" rx="2"/>
+      <rect x="64" y="50" width="400" height="98" fill="#16a34a" stroke="#15803d" stroke-width="1"/>
+      <polygon points="464,50 486,99 464,148" fill="#16a34a" stroke="#15803d" stroke-width="1"/>
+      <text x="260" y="104" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">Light (useful) — 75 J</text>
+      <rect x="64" y="148" width="40" height="32" fill="#ea580c" stroke="#c2410c" stroke-width="1"/>
+      <rect x="64" y="180" width="300" height="32" fill="#ea580c" stroke="#c2410c" stroke-width="1"/>
+      <text x="214" y="201" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">Heat (wasted) — 25 J</text>
+      <text x="260" y="262" text-anchor="middle" font-size="10" fill="#64748b">Branch height ∝ energy — 75 J + 25 J = 100 J</text>
+    </svg><p class="enlight-physics-diagram__caption">Sankey diagram — electrical energy (100 J) splits into useful light energy (75 J, right) and wasted heat energy (25 J, downward). Branch height is proportional to energy.</p></div>
 
-- **Constant speed**: Distance-time is a straight line with constant gradient; velocity-time is a horizontal line.
-- **Rest**: Distance-time is a horizontal line; velocity-time is a horizontal line at zero.
-- **Acceleration**: Distance-time is a curve getting steeper; velocity-time is a straight line with a positive gradient.
-- **Interpretations**: Gradient of distance-time gives speed. Gradient of velocity-time gives acceleration. Area under velocity-time gives distance travelled.
+**Energy flow (pendulum)**
+
+- At the **highest points** of the swing (sides): all energy is gravitational potential energy (GPE); speed is zero.
+- At the **lowest point** (centre bottom): GPE is minimum and kinetic energy (KE) is maximum; speed is greatest.
+- Energy continuously transfers between GPE and KE; total energy is conserved if air resistance is negligible.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Pendulum energy stores">
+      <line x1="150" y1="25" x2="270" y2="25" stroke="#64748b" stroke-width="3"/>
+      <path d="M130 65 Q210 145 290 65" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4"/>
+      <line x1="210" y1="25" x2="130" y2="65" stroke="#7c3aed" stroke-width="2"/>
+      <circle cx="130" cy="65" r="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+      <text x="55" y="68" font-size="11" fill="#7c3aed" font-weight="600">Max GPE</text>
+      <line x1="210" y1="25" x2="210" y2="140" stroke="#2563eb" stroke-width="2.5"/>
+      <circle cx="210" cy="140" r="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+      <text x="232" y="138" font-size="11" fill="#dc2626" font-weight="600">Max KE</text>
+    </svg><p class="enlight-physics-diagram__caption">Pendulum energy — max GPE at the highest points (sides); max KE at the lowest point (centre bottom).</p></div>
 
 ## Steps / method
 
 Method for solving Conservation of Energy problems (e.g., falling objects):
 
-Identify States: Determine the energy at the starting point (usually GPE) and the ending point (usually KE).
-
-State Assumption: Assume air resistance is negligible unless otherwise stated.
-
-Equate Energies: Set the loss in one store equal to the gain in another (e.g., $\Delta E_p \text{ lost} = $\Delta E_k \text{ gained}$)$.
-
-Substitute and Solve: Input known values (mass, $g$, height, or speed) to find the unknown.
-
-Consider Efficiency: If the system is not 100% efficient, subtract dissipated energy from the total input to find useful output.
+1. **Identify states**: Determine the energy at the starting point (usually GPE) and the ending point (usually KE).
+2. **State assumption**: Assume air resistance is negligible unless otherwise stated.
+3. **Equate energies**: Set the loss in one store equal to the gain in another (e.g., $\Delta E_p \text{ lost} = $\Delta E_k \text{ gained}$)$.
+4. **Substitute and solve**: Input known values (mass, $g$, height, or speed) to find the unknown.
+5. **Consider efficiency**: If the system is not 100% efficient, subtract dissipated energy from the total input to find useful output.
 
 ## Common mistakes
 
-Energy "used up": Scientifically, energy is never used up or destroyed; it is merely converted to less useful forms like thermal energy.
+**Energy "used up"**: Scientifically, energy is never used up or destroyed; it is merely converted to less useful forms like thermal energy.
 
-Ignoring Dissipation: Forgetting that in real-world systems, friction causes energy to be dissipated as heat and sound.
+**Ignoring dissipation**: Forgetting that in real-world systems, friction causes energy to be dissipated as heat and sound.
 
-Vector Confusion: Treating energy as a vector. Energy is a scalar quantity; it has magnitude but no direction.
+**Vector confusion**: Treating energy as a vector. Energy is a scalar quantity; it has magnitude but no direction.
 
 ## Examiner tip
 
-Significant Figures: Always round your final answer to 2 or 3 significant figures to match IGCSE requirements.
+**Significant figures**: Always round your final answer to 2 or 3 significant figures to match IGCSE requirements.
 
-Sankey Proportions: When drawing a Sankey diagram, ensure the thickness of the arrows is proportional to the amount of energy they represent.
+**Sankey proportions**: When drawing a Sankey diagram, ensure the thickness of the arrows is proportional to the amount of energy they represent.
 
-Standard g: Use $g = 9.8 \text{ m/s}^2$ unless the question specifically tells you to use $10 \text{ m/s}^2$.
+**Standard $g$**: Use $g = 9.8\ \text{m/s}^2$ unless the question specifically tells you to use $10\ \text{m/s}^2$.
 
 ## Quick check
 
@@ -91,26 +105,33 @@ Identify the energy conversion when a light bulb is connected to a dry cell.
 
 ## Worked example — Calculating GPE
 
-Question: A package of 5 kg is lifted vertically through a distance of 10 m at a constant speed. Taking g = 10 $\text{ N/kg}, calculate the gravitational potential energy gained.$
+Question: A package of 5 kg is lifted vertically through a distance of 10 m at a constant speed. Taking $g = 10\ \text{N/kg}$, calculate the gravitational potential energy gained.
 
-Identify variables2.
+1. Identify variables: $m = 5\ \text{kg}$, $h = 10\ \text{m}$, $g = 10\ \text{N/kg}$.
 
-Apply formula..$2E_p = mgh = 5 \times 10 \times 10 = 50$
-$1 \text{ J}
+2. Apply formula: $E_p = mgh = 5 \times 10 \times 10 = 500\ \text{J}$.
 
-$$
+**Final answer:** $500\ \text{J}$.
 
 ## Worked example — Energy Conversion (GPE to KE)
 
-Question: A 2.0 kg flower pot falls from a height of 45 m. Calculate its speed just before it hits the ground, assuming air resistance is negligible and g = 10 $\text{ N/kg}$.
+Question: A 2.0 kg flower pot falls from a height of 45 m. Calculate its speed just before it hits the ground, assuming air resistance is negligible and $g = 10\ \text{N/kg}$.
 
-Calculate initial GPE.E_p = mgh = 2.0 \times 10 \times 45 = 900 $\text{ J}$.
+1. Calculate initial GPE: $E_p = mgh = 2.0 \times 10 \times 45 = 900\ \text{J}$.
 
-Apply conservation of energy. All GPE is converted to KE at the bottom.KE = 900 $\text{ J}$.
+2. Apply conservation of energy: all GPE converts to KE at the bottom, so $E_k = 900\ \text{J}$.
 
-Use KE formula to find speed.900 = $\frac{1}{2} \times 2.0 \times v^2$.
+3. Use KE formula: $900 = \frac{1}{2} \times 2.0 \times v^2$.
 
-Solve for v.900 = v^2 \rightarrow v = \sqrt{900}.30 $\text{ m/s}$. ### Common Trap
+4. Solve for $v$: $900 = v^2$
+
+$$
+v = \sqrt{900} = 30\ \text{m/s}
+$$
+
+**Final answer:** $30\ \text{m/s}$.
+
+### Common Trap
 
 Students often forget that displacement ($h$) must be vertical height.
 

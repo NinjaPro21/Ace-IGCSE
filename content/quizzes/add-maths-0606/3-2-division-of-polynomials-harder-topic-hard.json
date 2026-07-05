@@ -19,12 +19,12 @@
         "$-2x + 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Long division steps: $x^2(x^2-x+1)$ leads to $x^3-4x^2+5x$2$x(x^2-x+1)$ leads to $-3x^2+4x-2$. Finally $-3(x^2-x+1) = -3x^2+3x-3$. Remainder is $x-3$.\n\n**Common mistake:** The complexity of dividing by a quadratic increases the risk of 'dropping' terms, especially when the dividend has a missing $x^3$ term (treated as $0x^3$)."
+      "explanation": "Long division steps: $x^2(x^2-x+1)$ leads to $x^3-4x^2+5x$. $x(x^2-x+1)$ leads to $-3x^2+4x-2$. Finally $-3(x^2-x+1) = -3x^2+3x-3$. Remainder is $x-3$.\n\n**Common mistake:** The complexity of dividing by a quadratic increases the risk of 'dropping' terms, especially when the dividend has a missing $x^3$ term (treated as $0x^3$)."
     },
     {
       "id": "3-2-division-of-polynomials-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Find the values of $a$2$b$2$(x^2 + 1)$ is a factor of $x⁴ + ax^3 + bx^2 + 3x + 2$.",
+      "question": "Find the values of $a$ and $b2(x^2 + 1)$ is a factor of $x⁴ + ax^3 + bx^2 + 3x + 2$.",
       "options": [
         "$a = 3, b = 3$",
         "$a = 2, b = 3$",
@@ -32,12 +32,12 @@
         "$a = 1, b = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Performing division: $x^2(x^2+1) = x⁴+x^2$. Subtract: $ax^3 + (b-1)x^2 + 3x$2$ax(x^2+1) = ax^3+ax$2$(b-1)x^2 + (3-a)x + 2$. For no remainder, $3-a=0 \\implies a=3$ and $(b-1)x^2=2x^2 \\implies b=3$.\n\n**Common mistake:** Difficulty in aligning the coefficients of the remainder $(3-a)x$2$(b-1)$ with zero and the constant term correctly."
+      "explanation": "Performing division: $x^2(x^2+1) = x⁴+x^2$. Subtract: $ax^3 + (b-1)x^2 + 3x$. So $ax(x^2+1) = ax^3+ax2(b-1)x^2 + (3-a)x + 2$. For no remainder, $3-a=0 \\implies a=3$ and $(b-1)x^2=2x^2 \\implies b=3$.\n\n**Common mistake:** Difficulty in aligning the coefficients of the remainder $(3-a)x$. $(b-1)$ with zero and the constant term correctly."
     },
     {
       "id": "3-2-division-of-polynomials-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "When $2x^3 - x^2 + px + q$2$(x^2 - 1)$, the remainder is $x + 4$. Find the values of $p$2$q$.",
+      "question": "When $2x^3 - x^2 + px + q$. $(x^2 - 1)$, the remainder is $x + 4$. Find the values of $p  and q$.",
       "options": [
         "$p = -1, q = 5$",
         "$p = 1, q = 3$",
@@ -45,7 +45,7 @@
         "$p = 2, q = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "$2x(x^2-1) = 2x^3 - 2x$2$-x^2 + (p+2)x + q$2$-1(x^2-1) = -x^2 + 1$. Subtract: $(p+2)x + (q-1)$. Set $p+2=1 \\implies p=-1$ and $q-1=4 \\implies q=5$.\n\n**Common mistake:** Failing to account for the $+2x$2$-2x$, or incorrectly equating the remainder coefficients."
+      "explanation": "$2x(x^2-1) = 2x^3 - 2x$. $-x^2 + (p+2)x + q2-1(x^2-1) = -x^2 + 1$. Subtract: $(p+2)x + (q-1)$. Set $p+2=1 \\implies p=-1$ and $q-1=4 \\implies q=5$.\n\n**Common mistake:** Failing to account for the $+2x$. $-2x$, or incorrectly equating the remainder coefficients."
     },
     {
       "id": "3-2-division-of-polynomials-harder-topic-hard-q4",
@@ -58,7 +58,7 @@
         "$x^2 - 1$"
       ],
       "correctIndex": 0,
-      "explanation": "Long division: $x^2(x^2+x+1) = x⁴+x^3+x^2$. Subtract: $-x^3 + 1$. Then $-x(x^2+x+1) = -x^3-x^2-x$2$x^2+x+1$. Quotient is $x^2-x+1$.\n\n**Common mistake:** Most students get lost in the multiple subtractions required for a quartic dividend with missing terms."
+      "explanation": "Long division: $x^2(x^2+x+1) = x⁴+x^3+x^2$. Subtract: $-x^3 + 1$. Then $-x(x^2+x+1) = -x^3-x^2-x$. $x^2+x+1$. Quotient is $x^2-x+1$.\n\n**Common mistake:** Most students get lost in the multiple subtractions required for a quartic dividend with missing terms."
     },
     {
       "id": "3-2-division-of-polynomials-harder-topic-hard-q5",
@@ -71,7 +71,7 @@
         "$x^2 + 2x$"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2(3x+1) = 3x^3+x^2$. Subtract: $6x^2+5x$2$2x(3x+1) = 6x^2+2x$2$3x+1$. Quotient is $x^2+2x+1$.\n\n**Common mistake:** Students may mistakenly multiply the entire polynomial by 3 or make errors when dividing the $6x^2$ term by $3x$."
+      "explanation": "$x^2(3x+1) = 3x^3+x^2$. Subtract: $6x^2+5x$. $2x(3x+1) = 6x^2+2x23x+1$. Quotient is $x^2+2x+1$.\n\n**Common mistake:** Students may mistakenly multiply the entire polynomial by 3 or make errors when dividing the $6x^2$ term by $3x$."
     }
   ]
 }

@@ -32,7 +32,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "$B'$ contains $\\{5, 7, 10, 12, 14\\}$. The elements in $B'$ that are also in $C$2$\\{5\\}$. Thus $n(B' \\cap C) = 1$.\n\n**Common mistake:** Finding the union instead of the intersection or forgetting to find the complement of B first."
+      "explanation": "$B'$ contains $\\{5, 7, 10, 12, 14\\}$. The elements in $B'$ that are also in $C$. $\\{5\\}$. Thus $n(B' \\cap C) = 1$.\n\n**Common mistake:** Finding the union instead of the intersection or forgetting to find the complement of B first."
     },
     {
       "id": "11-1-11-2-sets-venn-diagrams-pyp-q3",

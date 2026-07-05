@@ -24,9 +24,12 @@ $$
 
 ## Steps / method
 
-1. **Differentiate** to find $\dfrac{dy}{dx}$.
+1. **Differentiate** to find $\frac{dy}{dx}$.
+
 2. **Substitute** the given $x$-value to find the tangent gradient.
+
 3. **Find** $(x_1, y_1)$ on the curve — substitute $x_1$ into the original equation if needed.
+
 4. **Write** the tangent equation, then flip the gradient for the normal.
 
 ### Key rule
@@ -37,23 +40,23 @@ Tangent and normal at the same point are perpendicular: $m_{\text{tangent}} \tim
 
 Question: Find the equations of the tangent and normal to $y = x^2$ at the point where $x = 2$.
 
-$\dfrac{dy}{dx} = 2x$. At $x = 2$, gradient $= 4$. Point: $y = 4$, so $(2, 4)$.
+$\frac{dy}{dx} = 2x$. At $x = 2$, gradient $= 4$. Point: $y = 4$, so $(2, 4)$.
 
 Tangent: $y - 4 = 4(x - 2)$, giving $y = 4x - 4$.
 
-Normal gradient $= -\dfrac{1}{4}$. Normal: $y - 4 = -\dfrac{1}{4}(x - 2)$.
+Normal gradient $= -\frac{1}{4}$. Normal: $y - 4 = -\frac{1}{4}(x - 2)$.
 
 ## Worked example — Horizontal tangent
 
 Question: Find the point on $y = x^2 - 4x + 7$ where the tangent is parallel to the $x$-axis.
 
-Horizontal tangent $\Rightarrow \dfrac{dy}{dx} = 0$.
+Horizontal tangent $\Rightarrow \frac{dy}{dx} = 0$.
 
 $2x - 4 = 0$, so $x = 2$. When $x = 2$, $y = 3$. Point: $(2, 3)$.
 
 ## Examiner tip
 
-If the tangent is parallel to the $x$-axis, set $\dfrac{dy}{dx} = 0$. If it is parallel to the $y$-axis, the gradient is undefined (vertical tangent).
+If the tangent is parallel to the $x$-axis, set $\frac{dy}{dx} = 0$. If it is parallel to the $y$-axis, the gradient is undefined (vertical tangent).
 
 ## Quick check
 

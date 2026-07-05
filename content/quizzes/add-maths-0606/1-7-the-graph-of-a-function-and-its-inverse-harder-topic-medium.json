@@ -15,7 +15,7 @@
       "options": [
         "(0,2) and (4,0)",
         "(0,4) and (2,0)",
-        "(0,−4) and (−2,0)",
+        "(0,-4) and (-2,0)",
         "(2,2) and (4,4)"
       ],
       "correctIndex": 0,
@@ -24,7 +24,7 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "A function f(x)=2x−6 and its inverse $f^{-1}$(x) are plotted. Calculate the coordinates of their point of intersection.",
+      "question": "A function f(x)=2x-6 and its inverse $f^{-1}(x) are plotted. Calculate the coordinates of their point of intersection.$",
       "options": [
         "(6,6)",
         "(3,3)",
@@ -32,7 +32,7 @@
         "(2,2)"
       ],
       "correctIndex": 0,
-      "explanation": "The intersection occurs where f(x)=x. 2x−6=x \\implies x=6. Since it's on y=x, the point is (6,6).\n\n**Common mistake:** Students often spend time finding $f^{-1}$(x)=(x+6)/2 and solving (x+6)/2=2x−6, which is correct but more prone to error than solving f(x)=x."
+      "explanation": "The intersection occurs where f(x)=x. 2x-6=x \\implies x=6. Since it's on y=x, the point is (6,6).\n\n**Common mistake:** Students often spend time finding $f^{-1}(x)=(x+6)/2 and solving (x+6)/2=2x-6, which is correct but more prone to error than solving f(x)=x.$"
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q3",
@@ -63,7 +63,7 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Find the y-intercept of y= f^{-1}(x) given that f(x)=3x−12.",
+      "question": "Find the y-intercept of y= f^{-1}(x) given that f(x)=3x-12.",
       "options": [
         "4",
         "12",
@@ -71,7 +71,7 @@
         "-12"
       ],
       "correctIndex": 0,
-      "explanation": "The y-intercept of $f^{-1}$is the x-intercept of f. Set 3x−12=0 \\implies x=4.\n\n**Common mistake:** Identifying the y-intercept of f (-12) as the y-intercept of $f^{-1}$."
+      "explanation": "The y-intercept of $f^{-1}$ is the x-intercept of f. Set 3x-12=0 \\implies x=4.\n\n**Common mistake:** Identifying the y-intercept of f (-12) as the y-intercept of $f^{-1}$."
     }
   ]
 }

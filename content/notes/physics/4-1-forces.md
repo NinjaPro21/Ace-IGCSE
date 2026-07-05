@@ -14,7 +14,7 @@ From the gentle push needed to open a door to the massive gravitational pull tha
 
 ## Key formulas
 
-**Spring Constant**
+**Spring constant**
 
 $k = \frac{F}{x}$
 
@@ -93,14 +93,22 @@ What does the area under a speed-time graph represent?.
 
 Question: A spring has an original length of 16.0 cm. When a 5.0 N load is attached, the length becomes 26.0 cm. Calculate the spring constant.
 
-$Find the extension. x = 26.0 \text{ cm} - 16.0 \text{ cm} = 10.0 \text{ cm}2$
+1. Find the extension: $x = 26.0\ \text{cm} - 16.0\ \text{cm} = 10.0\ \text{cm} = 0.10\ \text{m}$.
 
-Use the formula.k = 5.0 \text{ N} / 10.0 \text{ cm} = 0.5 \text{ N/cm}$(or$. $)$.
+2. Use $k = F/x$: $k = \frac{5.0\ \text{N}}{0.10\ \text{m}} = 50\ \text{N/m}$.
+
+**Final answer:** $50\ \text{N/m}$.
 
 ## Worked example — Multi-step Weight and Force
 
-Question: A 2.0 kg bag of flour is suspended from a spring ($k = 0.4 \text{ N/mm}$). Use $g = 10 \text{ N/kg}$. Calculate the weight of the flour and the resulting extension of the spring $2.W = mg \rightarrow 2.0 \text{ kg} \times 10 \text{ N/kg} = 20 \text{ N}$. 2 (Extension)$.x = F / k \rightarrow 20 \text{ N} / 0.4 \text{ N/mm} = 50 \text{ mm}$.
+Question: A 2.0 kg bag of flour is suspended from a spring ($k = 0.4\ \text{N/mm}$). Use $g = 10\ \text{N/kg}$. Calculate the weight of the flour and the resulting extension of the spring.
 
-The weight is $10 \text{ N}$ and the extension is $10 \text{ mm}$. ### Common Trap
+1. **Weight:** $W = mg = 2.0\ \text{kg} \times 10\ \text{N/kg} = 20\ \text{N}$.
+
+2. **Extension:** $x = F/k = \frac{20\ \text{N}}{0.4\ \text{N/mm}} = 50\ \text{mm}$.
+
+**Final answer:** weight $= 20\ \text{N}$; extension $= 50\ \text{mm}$.
+
+### Common Trap
 
 Students often confuse the "new length" of the spring with the "extension." Always subtract the original length if the question provides total length.

@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Find the gradient** $m$ from two points or a parallel/perpendicular relationship.
+
 2. **Substitute** a known point $(x_1, y_1)$ into $y - y_1 = m(x - x_1)$.
+
 3. **Rearrange** to the required format ($y = mx + c$ or $ax + by + d = 0$).
 
 ### Key rule

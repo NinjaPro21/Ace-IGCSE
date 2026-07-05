@@ -32,7 +32,7 @@
         "$1.30$ or $-3.80$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute coefficients into the formula: $x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(-5)}}{2(1)} = \\frac{3 \\pm \\sqrt{9 + 20}}{2} = \\frac{3 \\pm \\sqrt{29}}{2}$. Since $\\sqrt{29} \\approx 5.385$, $x = \\frac{3 + 5.385}{2} = 4.19$ and $x = \\frac{3 - 5.385}{2} = -1.19$.\n\n**Common mistake:** Students often write $-3$ instead of $+3$ for the initial $-b$2$(-3)^2$ as $-9$ inside the radical."
+      "explanation": "Substitute coefficients into the formula: $x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(-5)}}{2(1)} = \\frac{3 \\pm \\sqrt{9 + 20}}{2} = \\frac{3 \\pm \\sqrt{29}}{2}$. Since $\\sqrt{29} \\approx 5.385$, $x = \\frac{3 + 5.385}{2} = 4.19$ and $x = \\frac{3 - 5.385}{2} = -1.19$.\n\n**Common mistake:** Students often write $-3$ instead of $+3$ for the initial $-b$. $(-3)^2$ as $-9$ inside the radical."
     },
     {
       "id": "6-2-6-3-quadratic-equations-medium-q3",
@@ -63,7 +63,7 @@
     {
       "id": "6-2-6-3-quadratic-equations-medium-q5",
       "type": "mcq",
-      "question": "Find the range of values of $k$2$x^2 - 6x + k = 0$ has two distinct real solutions.",
+      "question": "Find the range of values of $k$. So $x^2 - 6x + k = 0$ has two distinct real solutions.",
       "options": [
         "$k < 9$",
         "$k > 9$",
@@ -71,7 +71,7 @@
         "$k > 36$"
       ],
       "correctIndex": 0,
-      "explanation": "For an equation to have two distinct real solutions, its discriminant must be strictly positive: $\\Delta > 0$. Here, $\\Delta = (-6)^2 - 4(1)(k) = 36 - 4k$2$36 - 4k > 0 \\implies 36 > 4k \\implies k < 9$.\n\n**Common mistake:** Students often write $\\Delta \\geq 0$ blindly or fail to flip the inequality sign when dividing by a negative number."
+      "explanation": "For an equation to have two distinct real solutions, its discriminant must be strictly positive: $\\Delta > 0$. Here, $\\Delta = (-6)^2 - 4(1)(k) = 36 - 4k$. $36 - 4k > 0 \\implies 36 > 4k \\implies k < 9$.\n\n**Common mistake:** Students often write $\\Delta \\geq 0$ blindly or fail to flip the inequality sign when dividing by a negative number."
     }
   ]
 }

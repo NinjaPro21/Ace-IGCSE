@@ -19,7 +19,7 @@
         "$6.25\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "$V = \\pi r^2 h \\Rightarrow 500 = \\pi \\times 8^2 \\times h \\Rightarrow 500 = 64\\pi h$2$h = 500 / (64\\pi) \\approx 2.486...$, which rounds to $2.49$.\n\n**Common mistake:** A student might divide the volume by the radius only once or forget to include $\\pi$ in the division."
+      "explanation": "$V = \\pi r^2 h \\Rightarrow 500 = \\pi \\times 8^2 \\times h \\Rightarrow 500 = 64\\pi h$. So $h = 500 / (64\\pi) \\approx 2.486...$, which rounds to $2.49$.\n\n**Common mistake:** A student might divide the volume by the radius only once or forget to include $\\pi$ in the division."
     },
     {
       "id": "5-5-5-6-volume-surface-area-medium-q2",
@@ -32,7 +32,7 @@
         "$150.8\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "First find slant height $l = \\sqrt{3^2 + 4^2} = 5$. Curved area $= \\pi rl = \\pi(4)(5) = 20\\pi$2$= \\pi r^2 = 16\\pi$2$= 36\\pi \\approx 113.1$.\n\n**Common mistake:** The student might use the vertical height ($3$) in the surface area formula instead of the slant height ($5$)."
+      "explanation": "First find slant height $l = \\sqrt{3^2 + 4^2} = 5$. Curved area $= \\pi rl = \\pi(4)(5) = 20\\pi . = \\pi r^2 = 16\\pi2= 36\\pi \\approx 113.1$.\n\n**Common mistake:** The student might use the vertical height ($3$) in the surface area formula instead of the slant height ($5$)."
     },
     {
       "id": "5-5-5-6-volume-surface-area-medium-q3",
@@ -58,12 +58,12 @@
         "$196\\pi\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Curved area $= 2\\pi r^2 = 98\\pi$2$= \\pi r^2 = 49\\pi$2$= 147\\pi$.\n\n**Common mistake:** A student might only calculate the curved surface area ($98\\pi$) and forget to add the circular base."
+      "explanation": "Curved area $= 2\\pi r^2 = 98\\pi . = \\pi r^2 = 49\\pi2= 147\\pi .$\n\n**Common mistake:** A student might only calculate the curved surface area (98\\pi ) and forget to add the circular base."
     },
     {
       "id": "5-5-5-6-volume-surface-area-medium-q5",
       "type": "mcq",
-      "question": "If $3$ litres of oil are removed from an upright cylindrical can, the level falls by $10\\text{ cm}$. Find the radius of the can in centimetres ($1\\text{ litre} = 1000\\text{ cm}^3$).",
+      "question": "If^3 litres of oil are removed from an upright cylindrical can, the level falls by $10\\text{ cm}$. Find the radius of the can in centimetres ($1\\text{ litre} = 1000\\text{ cm}^3$).",
       "options": [
         "$9.77\\text{ cm}$",
         "$30.0\\text{ cm}$",
@@ -71,7 +71,7 @@
         "$5.46\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Volume removed $= 3000\\text{ cm}^3$. $\\pi r^2 h = 3000 \\Rightarrow \\pi r^2 (10) = 3000 \\Rightarrow r^2 = 300 / \\pi \\approx 95.49$. $r = \\sqrt{95.49} \\approx 9.77$.\n\n**Common mistake:** The student might fail to convert litres to $\\text{cm}^3$ correctly, using $3$ instead of $3000$."
+      "explanation": "Volume removed $= 3000\\text{ cm}^3$. $\\pi r^2 h = 3000 \\Rightarrow \\pi r^2 (10) = 3000 \\Rightarrow r^2 = 300 / \\pi \\approx 95.49$. $r = \\sqrt{95.49} \\approx 9.77$.\n\n**Common mistake:** The student might fail to convert litres to $\\text{cm}^3$ correctly, using^3 instead of^3000."
     }
   ]
 }

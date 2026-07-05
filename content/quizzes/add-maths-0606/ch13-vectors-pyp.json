@@ -22,7 +22,7 @@
     {
       "id": "ch13-vectors-q2",
       "type": "mcq",
-      "question": "Find the set of values of $m$ for which the vector $\\begin{pmatrix} m^2 \\\\\\\\ 3 \n\\end{pmatrix}$ is perpendicular to the vector $\\begin{pmatrix} 2 \\\\\\\\ -6m \n\\end{pmatrix}$.",
+      "question": "Find the set of values of $m  for which the vector \\begin{pmatrix} m^2 \\ \\\\ 3 \\end{pmatrix}$ is perpendicular to the vector $\\begin{pmatrix} 2 \\ \\\\ -6m \\end{pmatrix}$.",
       "options": [
         "$m = 0$ or $m = 9$",
         "$m = 0$ or $m = 3$",
@@ -30,7 +30,7 @@
         "No real values of $m$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the dot product to zero for perpendicularity: $2(m^2) + (-6m)(3) = 0 \\implies 2m^2 - 18m = 0$. Factoring out $2m$ yields $2m(m - 9) = 0$, which gives the solution values $m = 0$ or $m = 9$.\n\n**Common mistake:** Students frequently misinterpret the linear term calculation or divide by $m$ prematurely, completely losing the trivial $m = 0$ root solution."
+      "explanation": "Set the dot product to zero for perpendicularity: $2(m^2) + (-6m)(3) = 0 \\implies 2m^2 - 18m = 0$. Factoring out $2m  yields 2m(m - 9) = 0$, which gives the solution values $m = 0$ or $m = 9$.\n\n**Common mistake:** Students frequently misinterpret the linear term calculation or divide by $m  prematurely, completely losing the trivial m = 0$ root solution."
     },
     {
       "id": "ch13-vectors-q3",
@@ -43,7 +43,7 @@
         "$(6, -11)$"
       ],
       "correctIndex": 0,
-      "explanation": "First, find $\\vec{AB} = \\begin{pmatrix} 3-1 \\\\\\\\ -1-4 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\\\\\ -5 \\end{pmatrix}$. Then $\\vec{AC} = 3\\begin{pmatrix} 2 \\\\\\\\ -5 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\\\\\ -15 \\end{pmatrix}$. Since $\\vec{OC} = \\vec{OA} + \\vec{AC}$, we get $\\begin{pmatrix} 1 \\\\\\\\ 4 \n\\end{pmatrix} + \\begin{pmatrix} 6 \\\\\\\\ -15 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\\\\\ -11 \\end{pmatrix}$.\n\n**Common mistake:** Students regularly stop early at the intermediate step and report the components of the displacement vector $\\vec{AC} = (6, -15)$ as the absolute coordinates of point $C$."
+      "explanation": "First, find $\\vec{AB} = \\begin{pmatrix} 3-1 \\ \\\\ -1-4 \\end{pmatrix} = \\begin{pmatrix} 2 \\ \\\\ -5 \\end{pmatrix}$. Then $\\vec{AC} = 3\\begin{pmatrix} 2 \\ \\\\ -5 \\end{pmatrix} = \\begin{pmatrix} 6 \\ \\\\ -15 \\end{pmatrix}$. Since $\\vec{OC} = \\vec{OA} + \\vec{AC}$, we get $\\begin{pmatrix} 1 \\ \\\\ 4 \\end{pmatrix} + \\begin{pmatrix} 6 \\ \\\\ -15 \\end{pmatrix} = \\begin{pmatrix} 7 \\ \\\\ -11 \\end{pmatrix}$.\n\n**Common mistake:** Students regularly stop early at the intermediate step and report the components of the displacement vector $\\vec{AC} = (6, -15)$ as the absolute coordinates of point $C$."
     },
     {
       "id": "ch13-vectors-q4",
@@ -61,15 +61,15 @@
     {
       "id": "ch13-vectors-q5",
       "type": "mcq",
-      "question": "Find the constant vector $\\mathbf{p}$ such that $3\\mathbf{p} + \\begin{pmatrix} 4 \\\\\\\\ -7 \\end{pmatrix} = \\begin{pmatrix} 19 \\\\\\\\ 8 \\end{pmatrix}$.",
+      "question": "Find the constant vector $\\mathbf{p}$ such that $3\\mathbf{p} + \\begin{pmatrix} 4 \\ \\\\ -7 \\end{pmatrix} = \\begin{pmatrix} 19 \\ \\\\ 8 \\end{pmatrix}$.",
       "options": [
-        "$\\begin{pmatrix} 5 \\\\\\\\ 5 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5 \\\\\\\\ 0.33 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 7.67 \\\\\\\\ 0.33 \\end{pmatrix}$",
-        "$\\begin{pmatrix} 5 \\\\\\\\ -5 \\end{pmatrix}$"
+        "$\\begin{pmatrix} 5 \\ \\\\ 5 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ \\\\ 0.33 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 7.67 \\ \\\\ 0.33 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\ \\\\ -5 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the unknown vector term: $3\\mathbf{p} = \\begin{pmatrix} 19 \\\\\\\\ 8 \\end{pmatrix} - \\begin{pmatrix} 4 \\\\\\\\ -7 \\end{pmatrix} = \\begin{pmatrix} 15 \\\\\\\\ 15 \\end{pmatrix}$. Dividing through by the scalar 3 yields $\\mathbf{p} = \\begin{pmatrix} 5 \\\\\\\\ 5 \\end{pmatrix}$.\n\n**Common mistake:** Students routinely make errors when subtracting negative coordinate entries, evaluating $8 - (-7)$ as^1 instead of performing the correct double-negative addition to obtain^15."
+      "explanation": "Isolate the unknown vector term: $3\\mathbf{p} = \\begin{pmatrix} 19 \\ \\\\ 8 \\end{pmatrix} - \\begin{pmatrix} 4 \\ \\\\ -7 \\end{pmatrix} = \\begin{pmatrix} 15 \\ \\\\ 15 \\end{pmatrix}$. Dividing through by the scalar 3 yields $\\mathbf{p} = \\begin{pmatrix} 5 \\ \\\\ 5 \\end{pmatrix}$.\n\n**Common mistake:** Students routinely make errors when subtracting negative coordinate entries, evaluating $8 - (-7)$ as^1 instead of performing the correct double-negative addition to obtain^15."
     }
   ]
 }

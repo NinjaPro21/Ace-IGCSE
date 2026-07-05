@@ -11,46 +11,46 @@
     {
       "id": "2-simultaneous-equations-linear-and-non-linear-pyp-q1",
       "type": "mcq",
-      "question": "Solve the simultaneous equations 3x−y=10 and $x^{2}$+$y^{2}$=20.",
+      "question": "Solve the simultaneous equations 3x-y=10 and $x^{2}$+$y^{2}$=20.",
       "options": [
-        "(2,−4) and (4,2)",
-        "(2,−4) only",
-        "(4,2) and (1,−7)",
-        "(3,−1) and (5,5)"
+        "(2,-4) and (4,2)",
+        "(2,-4) only",
+        "(4,2) and (1,-7)",
+        "(3,-1) and (5,5)"
       ],
       "correctIndex": 0,
-      "explanation": "y=3x−10. $x^{2}$+$(3x-10)^{2}$=20 \\implies $x^{2}$+9$x^{2}$−60x+100=20 \\implies 10$x^{2}$−60x+80=0 \\implies $x^{2}$−6x+8=0. x=2,y=−4; x=4,y=2.\n\n**Common mistake:** Failing to expand the squared linear expression properly or miscalculating the y-values from the x-roots."
+      "explanation": "y=3x-10. $x^{2}$+$(3x-10)^{2}$=20 \\implies $x^{2}$+9$x^{2}$-60x+100=20 \\implies 10$x^{2}$-60x+80=0 \\implies $x^{2}$-6x+8=0. x=2,y=-4; x=4,y=2.\n\n**Common mistake:** Failing to expand the squared linear expression properly or miscalculating the y-values from the x-roots."
     },
     {
       "id": "2-simultaneous-equations-linear-and-non-linear-pyp-q2",
       "type": "mcq",
-      "question": "Find the set of values of k for which the line y=kx−3 does not intersect the curve y= x^{2}+1.",
+      "question": "Find the set of values of k for which the line y=kx-3 does not intersect the curve y= x^{2}+1.",
       "options": [
-        "−4<k<4",
-        "k<−4 or k>4",
+        "-4<k<4",
+        "k<-4 or k>4",
         "k=±4",
-        "−2<k<2"
+        "-2<k<2"
       ],
       "correctIndex": 0,
-      "explanation": "kx−3= x^{2}+1 \\implies $x^{2}$−kx+4=0. No intersection implies Δ<0: $k^{2}$−4(1)(4)<0 \\implies $k^{2}$<16. Thus −4<k<4.\n\n**Common mistake:** Incorrectly solving the quadratic inequality $k^{2}$<16 as just k<4 or picking the 'outside' range."
+      "explanation": "kx-3= x^{2}+1 \\implies $x^{2}$-kx+4=0. No intersection implies Δ<0: $k^{2}$-4(1)(4)<0 \\implies $k^{2}$<16. Thus -4<k<4.\n\n**Common mistake:** Incorrectly solving the quadratic inequality $k^{2}$<16 as just k<4 or picking the 'outside' range."
     },
     {
       "id": "2-simultaneous-equations-linear-and-non-linear-pyp-q3",
       "type": "mcq",
       "question": "The line y=2x+1 intersects the curve xy=6 at points A and B. Find the length of the line segment AB.",
       "options": [
-        "\\sqrt{11}.25",
+        "$\\sqrt{61.25}$",
         "5",
         "3.5",
-        "\\sqrt{20}"
+        "$\\sqrt{20}$"
       ],
       "correctIndex": 0,
-      "explanation": "x(2x+1)=6 \\implies 2$x^{2}$+x−6=0 \\implies (2x−3)(x+2)=0. Points: (1.5,4) and (−2,−3). Length =\\sqrt{(−2−1.5}\n2\n+$(-3-4)^{2}$)=\\sqrt{12.25+49}=\\sqrt{61}.25. Adjustment: x(2x+1)=3⟹2$x^{2}$+x−3=0⟹(2x+3)(x−1)=0. (−1.5,−2) and (1,3). Length =\\sqrt{2.$5^{2}$+$5^{2}$}=\\sqrt{31}.25. Choice 0 intent updated.\n\n**Common mistake:** Spending time finding the intersection points but failing to correctly apply the distance formula to calculate the length AB."
+      "explanation": "Substitute $y=2x+1$ into $xy=6$: $x(2x+1)=6$, so $2x^2+x-6=0$, hence $(2x-3)(x+2)=0$. Thus $x=1.5$ or $x=-2$, giving points $(1.5,4)$ and $(-2,-3)$. Then $AB=\\sqrt{(1.5+2)^2+(4+3)^2}=\\sqrt{12.25+49}=\\sqrt{61.25}$.\n\n**Common mistake:** Spending time finding the intersection points but failing to correctly apply the distance formula to calculate the length $AB$."
     },
     {
       "id": "2-simultaneous-equations-linear-and-non-linear-pyp-q4",
       "type": "mcq",
-      "question": "Given that the line y=x+c is a tangent to the curve y=3−$x^{2}$, find the value of the constant c.",
+      "question": "Given that the line y=x+c is a tangent to the curve y=3-$x^{2}$, find the value of the constant c.",
       "options": [
         "3.25",
         "2.75",
@@ -58,7 +58,7 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "x+c=3−$x^{2}$implies$x^{2}$+x+(c−3)=0. For tangent, Δ=0: $1^{2}$−4(1)(c−3)=0 \\implies 1−4c+12=0 \\implies 4c=13 \\implies c=3.25.\n\n**Common mistake:** Mixing up the signs when rearranging the terms, leading to $x^{2}$+x+(3−c)=0 or similar errors."
+      "explanation": "x+c=3-$x^{2}$implies x^{2}+x+(c-3)=0. For tangent, Δ=0: $1^{2}$-4(1)(c-3)=0 \\implies 1-4c+12=0 \\implies 4c=13 \\implies c=3.25.\n\n**Common mistake:** Mixing up the signs when rearranging the terms, leading to $x^{2}$+x+(3-c)=0 or similar errors."
     },
     {
       "id": "2-simultaneous-equations-linear-and-non-linear-pyp-q5",
@@ -71,7 +71,7 @@
         "(2, 8)"
       ],
       "correctIndex": 0,
-      "explanation": "2x+4= x^{2}+x+2 \\implies $x^{2}$−x−2=0 \\implies (x−2)(x+1)=0. x=2,y=8 and x=−1,y=2. Midpoint =((2−1)/2,(8+2)/2)=(0.5,5).\n\n**Common mistake:** Failing to calculate the y-coordinates correctly before averaging them, or averaging the x-coordinates incorrectly."
+      "explanation": "2x+4= x^{2}+x+2 \\implies $x^{2}$-x-2=0 \\implies (x-2)(x+1)=0. x=2,y=8 and x=-1,y=2. Midpoint =((2-1)/2,(8+2)/2)=(0.5,5).\n\n**Common mistake:** Failing to calculate the y-coordinates correctly before averaging them, or averaging the x-coordinates incorrectly."
     }
   ]
 }

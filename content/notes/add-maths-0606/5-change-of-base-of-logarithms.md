@@ -6,8 +6,8 @@ The Change of Base rule allows you to convert a logarithm from an arbitrary base
 
 $$
 \log_a(b) = \frac{\log_c(b)}{\log_c(a)}
-$$ \log_a(b) = \frac{1}{\log_b(a)}
 $$
+$\log_a(b) = \frac{1}{\log_b(a)}$
 
 ## Steps / method
 

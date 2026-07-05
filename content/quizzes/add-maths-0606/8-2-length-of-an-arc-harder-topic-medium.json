@@ -11,7 +11,7 @@
     {
       "id": "8-2-length-of-an-arc-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "Find the length of an arc that subtends an angle of $45^\\circ$2$\\pi = 3.142$)",
+      "question": "Find the length of an arc that subtends an angle of $45^\\circ$. So $\\pi = 3.142$)",
       "options": [
         "6.28 cm",
         "360 cm",
@@ -19,7 +19,7 @@
         "2.00 cm"
       ],
       "correctIndex": 0,
-      "explanation": "Convert $45^\\circ$2$45 \\times (\\pi / 180) = \\pi / 4$. Arc length $s = 8 \\times (\\pi / 4) = 2\\pi \\approx 6.284$ cm.\n\n**Common mistake:** Calculating $8 \\times 45 = 360$ cm, forgetting to convert the degree measure."
+      "explanation": "Convert $45^\\circ$. $45 \\times (\\pi / 180) = \\pi / 4$. Arc length $s = 8 \\times (\\pi / 4) = 2\\pi \\approx 6.284$ cm.\n\n**Common mistake:** Calculating $8 \\times 45 = 360$ cm, forgetting to convert the degree measure."
     },
     {
       "id": "8-2-length-of-an-arc-harder-topic-medium-q2",
@@ -58,7 +58,7 @@
         "10 cm"
       ],
       "correctIndex": 0,
-      "explanation": "Total angle is $2\\pi$2$= 2\\pi - 2 \\approx 4.283$ rad. Major arc $= 10 \\times 4.283 = 42.83$ cm.\n\n**Common mistake:** Calculating the minor arc (20 cm) instead of the major arc."
+      "explanation": "Total angle is $2\\pi . = 2\\pi - 2 \\approx 4.283$ rad. Major arc $= 10 \\times 4.283 = 42.83$ cm.\n\n**Common mistake:** Calculating the minor arc (20 cm) instead of the major arc."
     },
     {
       "id": "8-2-length-of-an-arc-harder-topic-medium-q5",
@@ -71,7 +71,7 @@
         "0.5"
       ],
       "correctIndex": 0,
-      "explanation": "Arc length $s = 2r$2$s = r\\theta$2$2r = r\\theta \\implies \\theta = 2$ radians.\n\n**Common mistake:** Thinking the angle must involve $\\pi$ or concluding the angle is 1 rad."
+      "explanation": "Arc length $s = 2r$. So $s = r\\theta22r = r\\theta \\implies \\theta = 2$ radians.\n\n**Common mistake:** Thinking the angle must involve $\\pi$ or concluding the angle is 1 rad."
     }
   ]
 }

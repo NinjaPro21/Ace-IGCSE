@@ -23,8 +23,11 @@ $$
 ## Steps / method
 
 1. **Substitute** the linear equation into the circle equation.
+
 2. **Simplify** to a quadratic in one variable.
+
 3. **Solve** for coordinates, or calculate $\Delta$ to determine the nature of intersection.
+
 4. **For a tangent**, set $\Delta = 0$ and solve for the unknown constant.
 
 ### Key rule

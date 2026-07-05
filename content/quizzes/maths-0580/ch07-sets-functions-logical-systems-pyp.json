@@ -32,7 +32,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "$B'$ contains $\\{5, 7, 10, 12, 14\\}$. The elements in $B'$ that are also in $C$2$\\{5\\}$. Thus $n(B' \\cap C) = 1$.\n\n**Common mistake:** Finding the union instead of the intersection or forgetting to find the complement of B first."
+      "explanation": "$B'$ contains $\\{5, 7, 10, 12, 14\\}$. The elements in $B'$ that are also in $C$. $\\{5\\}$. Thus $n(B' \\cap C) = 1$.\n\n**Common mistake:** Finding the union instead of the intersection or forgetting to find the complement of B first."
     },
     {
       "id": "ch07-sets-functions-logical-systems-pyp-q3",
@@ -76,7 +76,7 @@
     {
       "id": "ch07-sets-functions-logical-systems-pyp-q6",
       "type": "mcq",
-      "question": "Given $f(x) = 7 - 2x$2$f^{-1}(x)$.",
+      "question": "Given $f(x) = 7 - 2x$. $f^{-1}(x)$.",
       "options": [
         "$(7 - x) / 2$",
         "$(x - 7) / 2$",
@@ -102,7 +102,7 @@
     {
       "id": "ch07-sets-functions-logical-systems-pyp-q8",
       "type": "mcq",
-      "question": "Given $h(x) = 3x$2$hh(2)$.",
+      "question": "Given $h(x) = 3x$. $hh(2)$.",
       "options": [
         "18",
         "12",
@@ -115,7 +115,7 @@
     {
       "id": "ch07-sets-functions-logical-systems-pyp-q9",
       "type": "mcq",
-      "question": "If $f(x) = \\sin x$2$g(x) = 3x + 6$, determine the expression for $g^{-1}(f(x))$.",
+      "question": "If $f(x) = \\sin x$. So $g(x) = 3x + 6$, determine the expression for $g^{-1}(f(x))$.",
       "options": [
         "$(\\sin x - 6) / 3$",
         "$(\\sin x + 6) / 3$",
@@ -123,7 +123,7 @@
         "$3\\sin x + 6$"
       ],
       "correctIndex": 0,
-      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$2$f$."
+      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$ and $f$."
     },
     {
       "id": "ch07-sets-functions-logical-systems-pyp-q10",

@@ -43,7 +43,7 @@
         "3 m"
       ],
       "correctIndex": 0,
-      "explanation": "Displacement is given by $\\int_{0}^{4} \\frac{6}{t+2} \\\\,\\mathrm{d}t = [6\\ln(t+2)]_{0}^{4} = 6\\ln 6 - 6\\ln 2 = 6\\ln(\\frac{6}{2}) = 6\\ln 3$ metres.\n\n**Common mistake:** Option B occurs if the student calculates the upper bound evaluation $6\\ln(4+2) = 6\\ln 6$ but forgets to subtract the lower bound evaluation $6\\ln(0+2) = 6\\ln 2$."
+      "explanation": "Displacement is given by $\\int_{0}^{4} \\frac{6}{t+2} \\,\\mathrm{d}t = [6\\ln(t+2)]_{0}^{4} = 6\\ln 6 - 6\\ln 2 = 6\\ln(\\frac{6}{2}) = 6\\ln 3$ metres.\n\n**Common mistake:** Option B occurs if the student calculates the upper bound evaluation $6\\ln(4+2) = 6\\ln 6$ but forgets to subtract the lower bound evaluation $6\\ln(0+2) = 6\\ln 2$."
     },
     {
       "id": "ch16-kinematics-q4",

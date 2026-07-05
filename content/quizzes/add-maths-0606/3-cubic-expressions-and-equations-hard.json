@@ -24,7 +24,7 @@
     {
       "id": "3-cubic-expressions-and-equations-hard-q2",
       "type": "mcq",
-      "question": "Find the value of $k$2$x = 1$ is a root of the cubic equation $2x^3 + kx^2 - 13x + 6 = 0$.",
+      "question": "Find the value of $k$. So $x = 1$ is a root of the cubic equation $2x^3 + kx^2 - 13x + 6 = 0$.",
       "options": [
         "5",
         "-5",
@@ -63,7 +63,7 @@
     {
       "id": "3-cubic-expressions-and-equations-hard-q5",
       "type": "mcq",
-      "question": "Find the value of the constant $m$2$(x - 1)$ is a factor of $x^3 + mx^2 - 10x + 8$, and find the remaining two roots.",
+      "question": "Find the value of the constant $m . (x - 1)$ is a factor of $x^3 + mx^2 - 10x + 8$, and find the remaining two roots.",
       "options": [
         "$m = 1$, roots: $2, -4$",
         "$m = -1$, roots: $2, 4$",
@@ -71,7 +71,7 @@
         "$m = 11$, roots: $1, 8$"
       ],
       "correctIndex": 0,
-      "explanation": "$P(1) = 1 + m - 10 + 8 = 0 \\implies m = 1$. Dividing by $(x - 1)$ gives $x^2 + 2x - 8$, which factors to $(x + 4)(x - 2)$, giving roots $-4$ and^2.\n\n**Common mistake:** Calculating $m$2$-1$ or incorrectly deriving the roots from the linear factors $(x + 4)$ and $(x - 2)$."
+      "explanation": "$P(1) = 1 + m - 10 + 8 = 0 \\implies m = 1$. Dividing by $(x - 1)$ gives $x^2 + 2x - 8$, which factors to $(x + 4)(x - 2)$, giving roots $-4$ and^2.\n\n**Common mistake:** Calculating $m . -1$ or incorrectly deriving the roots from the linear factors $(x + 4)$ and $(x - 2)$."
     }
   ]
 }

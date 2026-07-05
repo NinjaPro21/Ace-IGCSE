@@ -32,7 +32,7 @@
         "$100\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of $100$ is $10$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
+      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of^100 is $1$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
     },
     {
       "id": "ch05-trigonometry-easy-q3",
@@ -45,12 +45,12 @@
         "$\\sqrt{194}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "To find a shorter side, subtract the square of the known side from the square of the hypotenuse: $13^2 - 5^2 = 169 - 25 = 144$. The square root is $12$.\n\n**Common mistake:** The student might add the squares ($169 + 25 = 194$) as if they were looking for the hypotenuse."
+      "explanation": "To find a shorter side, subtract the square of the known side from the square of the hypotenuse: $13^2 - 5^2 = 169 - 25 = 144$. The square root is $1$.\n\n**Common mistake:** The student might add the squares ($169 + 25 = 194$) as if they were looking for the hypotenuse."
     },
     {
       "id": "ch05-trigonometry-easy-q4",
       "type": "mcq",
-      "question": "Which formula is used to find the length of the interior diagonal $d$2$a$2$b$2$c$?",
+      "question": "Which formula is used to find the length of the interior diagonal $d$ and $a2b$ and $c$?",
       "options": [
         "$d = √a^2 + b^2 + c^2$",
         "$d = a + b + c$",
@@ -76,7 +76,7 @@
     {
       "id": "ch05-trigonometry-easy-q6",
       "type": "mcq",
-      "question": "In a right-angled triangle, if the side opposite an angle $x$2$O$2$H$2$O/H$?",
+      "question": "In a right-angled triangle, if the side opposite an angle $x$ and $O2H$. $O/H$?",
       "options": [
         "$\\sin x$",
         "$\\cos x$",
@@ -102,7 +102,7 @@
     {
       "id": "ch05-trigonometry-easy-q8",
       "type": "mcq",
-      "question": "Which side of a right-angled triangle is always the denominator in the ratios for both $\\sin x$2$\\cos x$?",
+      "question": "Which side of a right-angled triangle is always the denominator in the ratios for both $\\sin x$. $\\cos x$?",
       "options": [
         "The hypotenuse",
         "The opposite side",
@@ -110,7 +110,7 @@
         "The vertical height"
       ],
       "correctIndex": 0,
-      "explanation": "Both $\\sin x$2$O/H$2$\\cos x$2$A/H$) are calculated by dividing a side by the length of the hypotenuse.\n\n**Common mistake:** A student might choose the adjacent side, confusing the cosine ratio with the tangent ratio."
+      "explanation": "Both $\\sin x$. $O/H2\\cos x$. $A/H$) are calculated by dividing a side by the length of the hypotenuse.\n\n**Common mistake:** A student might choose the adjacent side, confusing the cosine ratio with the tangent ratio."
     },
     {
       "id": "ch05-trigonometry-easy-q9",
@@ -154,7 +154,7 @@
     {
       "id": "ch05-trigonometry-easy-q12",
       "type": "mcq",
-      "question": "The bearing of Town $Y$2$X$2$072°$. Calculate the bearing of Town $X$2$Y$.",
+      "question": "The bearing of Town $Y$ and $X2072°$. Calculate the bearing of Town $X$ and $Y$.",
       "options": [
         "$252°$",
         "$108°$",
@@ -219,7 +219,7 @@
     {
       "id": "ch05-trigonometry-easy-q17",
       "type": "mcq",
-      "question": "Identify the standard formula for finding the length of the interior diagonal $d$2$l, w,$ and $h$.",
+      "question": "Identify the standard formula for finding the length of the interior diagonal $d$. $l, w,$ and $h$.",
       "options": [
         "$d = √l^2 + w^2 + h^2$",
         "$d = l + w + h$",
@@ -271,7 +271,7 @@
     {
       "id": "ch05-trigonometry-easy-q21",
       "type": "mcq",
-      "question": "According to the unit circle definition, if a point $P(x, y)$ moves around a circle of radius 1, which trigonometric ratio is represented by the $y$2$P$?",
+      "question": "According to the unit circle definition, if a point $P(x, y)$ moves around a circle of radius 1, which trigonometric ratio is represented by the $y$ and $P$?",
       "options": [
         "$\\sin \\theta$",
         "$\\cos \\theta$",
@@ -279,7 +279,7 @@
         "The radius"
       ],
       "correctIndex": 0,
-      "explanation": "On a unit circle with radius 1, the $y$2$P$2$\\theta$2$\\sin \\theta$.\n\n**Common mistake:** Students often swap the coordinates, thinking the $x$2$y$-coordinate is cosine."
+      "explanation": "On a unit circle with radius 1, the $y$ and $P2\\theta$. $\\sin \\theta$.\n\n**Common mistake:** Students often swap the coordinates, thinking the $x$ and $y$-coordinate is cosine."
     },
     {
       "id": "ch05-trigonometry-easy-q22",
@@ -292,7 +292,7 @@
         "$360°$"
       ],
       "correctIndex": 0,
-      "explanation": "The tangent function is undefined when the $x$2$90°$ and $270°$.\n\n**Common mistake:** A student might confuse the asymptotes of tangent with the roots of the sine function ($0°, 180°, 360°$)."
+      "explanation": "The tangent function is undefined when the $x$ and $90°$ and $270°$.\n\n**Common mistake:** A student might confuse the asymptotes of tangent with the roots of the sine function ($0°, 180°, 360°$)."
     },
     {
       "id": "ch05-trigonometry-easy-q23",
@@ -318,7 +318,7 @@
         "$\\cos x = \\sin(90° - x)$"
       ],
       "correctIndex": 0,
-      "explanation": "The cosine graph has reflective symmetry about the $y$2$\\cos(-x) = \\cos x$.\n\n**Common mistake:** Students often assume all trigonometric functions behave the same and might think $\\cos(-x) = -\\cos x$, which is actually the rule for sine."
+      "explanation": "The cosine graph has reflective symmetry about the $y$. So $\\cos(-x) = \\cos x$.\n\n**Common mistake:** Students often assume all trigonometric functions behave the same and might think $\\cos(-x) = -\\cos x$, which is actually the rule for sine."
     },
     {
       "id": "ch05-trigonometry-easy-q25",
@@ -344,7 +344,7 @@
         "The Tangent Rule"
       ],
       "correctIndex": 0,
-      "explanation": "You know an opposite pair (side $a$2$A$2$B$), which is the standard criteria for the Sine Rule.\n\n**Common mistake:** Students may try to use Pythagoras' Theorem even though the triangle is not right-angled."
+      "explanation": "You know an opposite pair (side $a$ and $A2B$), which is the standard criteria for the Sine Rule.\n\n**Common mistake:** Students may try to use Pythagoras' Theorem even though the triangle is not right-angled."
     },
     {
       "id": "ch05-trigonometry-easy-q27",
@@ -362,20 +362,20 @@
     {
       "id": "ch05-trigonometry-easy-q28",
       "type": "mcq",
-      "question": "In the Cosine Rule formula $a^2 = b^2 + c^2 - 2bc \\cos A$2$A$2$a$?",
+      "question": "In the Cosine Rule formula $a^2 = b^2 + c^2 - 2bc \\cos A$ and $A2a$?",
       "options": [
         "The angle opposite side $a$",
         "The angle adjacent to side $a$",
         "The largest angle in the triangle",
-        "The angle between sides $a$2$b$"
+        "The angle between sides $a$ and $b$"
       ],
       "correctIndex": 0,
-      "explanation": "In both Sine and Cosine rules, the letter $a$2$A$.\n\n**Common mistake:** Confusion often arises between which angle is 'opposite' and which is 'included'."
+      "explanation": "In both Sine and Cosine rules, the letter $a$ and $A$.\n\n**Common mistake:** Confusion often arises between which angle is 'opposite' and which is 'included'."
     },
     {
       "id": "ch05-trigonometry-easy-q29",
       "type": "mcq",
-      "question": "Calculate the value of side $c$2$\\frac{c}{\\sin 50°} = \\frac{7}{\\sin 60°}$.",
+      "question": "Calculate the value of side $c$. So $\\frac{c}{\\sin 50°} = \\frac{7}{\\sin 60°}$.",
       "options": [
         "6.19",
         "7.92",
@@ -383,7 +383,7 @@
         "9.14"
       ],
       "correctIndex": 0,
-      "explanation": "$c = (7 \\times \\sin 50°) / \\sin 60° = (7 \\times 0.766) / 0.866 \\approx 6.19$.\n\n**Common mistake:** A student might cross-multiply incorrectly or use $\\cos$2$\\sin$."
+      "explanation": "$c = (7 \\times \\sin 50°) / \\sin 60° = (7 \\times 0.766) / 0.866 \\approx 6.19$.\n\n**Common mistake:** A student might cross-multiply incorrectly or use $\\cos . \\sin$."
     },
     {
       "id": "ch05-trigonometry-easy-q30",

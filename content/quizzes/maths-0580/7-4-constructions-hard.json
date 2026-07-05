@@ -11,7 +11,7 @@
     {
       "id": "7-4-constructions-hard-q1",
       "type": "mcq",
-      "question": "An angle $XOY$2$80°$. A point $P$2$OX$2$OY$2$5\\text{ cm}$ from the vertex $O$2$POX$.",
+      "question": "An angle $XOY$ and $80°$. A point $P$. $OX2OY$. $5\\text{ cm}$ from the vertex $O$. $POX$.",
       "options": [
         "$40°$",
         "$80°$",
@@ -24,7 +24,7 @@
     {
       "id": "7-4-constructions-hard-q2",
       "type": "mcq",
-      "question": "In triangle $ABC$2$AB$2$BC$2$O$ has which property?",
+      "question": "In triangle $ABC$. $AB2BC$ and $O$ has which property?",
       "options": [
         "It is equidistant from all three vertices $A, B,$ and $C$",
         "It is equidistant from all three sides $AB, BC,$ and $AC$",
@@ -39,8 +39,8 @@
       "type": "mcq",
       "question": "To construct a $15°$ angle using only a ruler and compasses, which sequence of constructions is most efficient?",
       "options": [
-        "Equilateral triangle $\\rightarrow$2$\\rightarrow$ Angle bisector",
-        "Perpendicular bisector $\\rightarrow$2$\\rightarrow$ Angle bisector",
+        "Equilateral triangle $\\rightarrow$. $\\rightarrow$ Angle bisector",
+        "Perpendicular bisector $\\rightarrow$. $\\rightarrow$ Angle bisector",
         "Equilateral triangle $\\rightarrow$ Perpendicular bisector",
         "Perpendicular bisector $\\rightarrow$ Angle bisector"
       ],
@@ -63,7 +63,7 @@
     {
       "id": "7-4-constructions-hard-q5",
       "type": "mcq",
-      "question": "Construct triangle $ABC$2$AB = 9\\text{ cm}, BC = 7\\text{ cm},$ and $AC = 5\\text{ cm}$. If the perpendicular bisector of $AB$2$BC$2$X$2$AX$2$BX$.",
+      "question": "Construct triangle $ABC$. So $AB = 9\\text{ cm}, BC = 7\\text{ cm},$ and $AC = 5\\text{ cm}$. If the perpendicular bisector of $AB$. $BC2X$. $AX2BX$.",
       "options": [
         "$AX = BX$",
         "$AX > BX$",
@@ -71,7 +71,7 @@
         "$AX = 4.5\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Any point on the perpendicular bisector of a segment is equidistant from the two endpoints of that segment. Thus, $AX$2$BX$.\n\n**Common mistake:** The student might try to use trigonometry to solve for the length instead of applying the geometric locus property."
+      "explanation": "Any point on the perpendicular bisector of a segment is equidistant from the two endpoints of that segment. Thus, $AX$. $BX$.\n\n**Common mistake:** The student might try to use trigonometry to solve for the length instead of applying the geometric locus property."
     }
   ]
 }

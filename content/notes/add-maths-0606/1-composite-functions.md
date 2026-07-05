@@ -6,10 +6,11 @@ A composite function represents the application of one function to the result of
 
 $$
 fg(x) = f(g(x))
-
-\text{Existence condition: } \text{Range of } g \subseteq \text{Domain of } f
 $$
 
+$$
+\text{Existence condition: } \text{Range of } g \subseteq \text{Domain of } f
+$$
 
 ## Steps / method
 
@@ -32,29 +33,18 @@ Let $f(x) = \frac{1}{x}$ and $g(x) = x - 3$. Find $fg(x)$ and state values exclu
 $$
 fg(x) = f(g(x)) = \frac{1}{x - 3}
 $$
-$The domain excludes$ x = 3$since this causes division by zero, even though$ g(x)$itself is defined for all$ x²
 
-
-
-
-
-
-
-
-
-
-
-
+The domain excludes $x = 3$ since this causes division by zero, even though $g(x)$ itself is defined for all $x$.
 
 ## Worked example — Order matters
 
-Using the same $f(x) = \frac{1}{x}$ and $g(x) = x - 3$: $$
+Using the same $f(x) = \frac{1}{x}$ and $g(x) = x - 3$:
+
+$$
 gf(x) = g(f(x)) = \frac{1}{x} - 3
 $$
 
-$Compare:$ fg(x) = \frac{1}{x-3}$but$ gf(x) = \frac{1}{x} - 3$. These are **not equal** - composition order matters.
-
-$$
+Compare: $fg(x) = \frac{1}{x-3}$ but $gf(x) = \frac{1}{x} - 3$. These are **not equal** — composition order matters.
 
 ## Examiner tip
 

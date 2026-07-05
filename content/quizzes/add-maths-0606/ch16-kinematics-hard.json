@@ -17,12 +17,12 @@
         "45 metres"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating acceleration gives $v = 3t^2 - 12t$. Since it starts from rest, $c=0$. The velocity is zero at $t = 0$ and $t = 4$. It moves backward from $0 \\le t \\le 4$ and forward from $4 \\le t \\le 5$. Distance = $|\\int_{0}^{4} (3t^2 - 12t)\\\\,\\mathrm{d}t| + \\int_{4}^{5} (3t^2 - 12t)\\\\,\\mathrm{d}t = |[t^3 - 6t^2]_{0}^{4}| + [t^3 - 6t^2]_{4}^{5} = |-32| + (-25 - (-32)) = 32 + 7 = 33$ metres.\n\n**Common mistake:** Option B occurs if the student ignores the change of direction at $t=4$ and calculates the net displacement by directly integrating from 0 to 5, resulting in $5^3 - 6(5)^2 = 125 - 150 = -25$."
+      "explanation": "Integrating acceleration gives $v = 3t^2 - 12t$. Since it starts from rest, $c=0$. The velocity is zero at $t = 0$ and $t = 4$. It moves backward from $0 \\le t \\le 4$ and forward from $4 \\le t \\le 5$. Distance = $|\\int_{0}^{4} (3t^2 - 12t)\\,\\mathrm{d}t| + \\int_{4}^{5} (3t^2 - 12t)\\,\\mathrm{d}t = |[t^3 - 6t^2]_{0}^{4}| + [t^3 - 6t^2]_{4}^{5} = |-32| + (-25 - (-32)) = 32 + 7 = 33$ metres.\n\n**Common mistake:** Option B occurs if the student ignores the change of direction at $t=4$ and calculates the net displacement by directly integrating from 0 to 5, resulting in $5^3 - 6(5)^2 = 125 - 150 = -25$."
     },
     {
       "id": "ch16-kinematics-q2",
       "type": "mcq",
-      "question": "A particle moves along a straight line such that its displacement $s$ metres from $O$ at time $t$ seconds is $s = 2t^3 - 15t^2 + 24t + 7$. Find the acceleration of the particle at the instant when its velocity is minimum.",
+      "question": "A particle moves along a straight line such that its displacement $s  metres from O$ at time $t$ seconds is $s = 2t^3 - 15t^2 + 24t + 7$. Find the acceleration of the particle at the instant when its velocity is minimum.",
       "options": [
         "0 m s⁻²",
         "-13 m s⁻²",
@@ -30,7 +30,7 @@
         "-6 m s⁻²"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity is $v = 6t^2 - 30t + 24$. To find when velocity is minimum, differentiate velocity to get acceleration: $a = 12t - 30$, and set the derivative of acceleration (which is^12) to be checked, or set $a = 0$ to locate the stationary point of the quadratic velocity function. This gives $12t - 30 = 0 \\implies t = 2.5$. The acceleration at this exact minimum turning point of velocity must be 0 m s⁻².\n\n**Common mistake:** Option B occurs if a student attempts to calculate the minimum velocity value instead of answering for the acceleration value at that instant."
+      "explanation": "Velocity is $v = 6t^2 - 30t + 24$. To find when velocity is minimum, differentiate velocity to get acceleration: $a = 12t - 30$, and set the derivative of acceleration (which is $1$) to be checked, or set $a = 0$ to locate the stationary point of the quadratic velocity function. This gives $12t - 30 = 0 \\implies t = 2.5$. The acceleration at this exact minimum turning point of velocity must be 0 m s⁻².\n\n**Common mistake:** Option B occurs if a student attempts to calculate the minimum velocity value instead of answering for the acceleration value at that instant."
     },
     {
       "id": "ch16-kinematics-q3",
@@ -43,7 +43,7 @@
         "Infinity"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity is $v = \\int (2t + 1)⁻² \\\\,\\mathrm{d}t = -\\frac{1}{2(2t + 1)} + c$. Since $v = 0.5$ at $t = 0$, we have $0.5 = -0.5 + c \\implies c = 1$. Thus $v = 1 - \\frac{1}{2(2t + 1)}$. As $t \\to \\infty$, $\\frac{1}{2(2t + 1)} \\to 0$, so $v \\to 1$.\n\n**Common mistake:** Option B occurs if the student mistakenly believes the constant of integration $c$ itself represents the final limiting velocity without considering the fractional term's limit."
+      "explanation": "Velocity is $v = \\int (2t + 1)⁻² \\,\\mathrm{d}t = -\\frac{1}{2(2t + 1)} + c$. Since $v = 0.5$ at $t = 0$, we have $0.5 = -0.5 + c \\implies c = 1$. Thus $v = 1 - \\frac{1}{2(2t + 1)}$. As $t \\to \\infty$, $\\frac{1}{2(2t + 1)} \\to 0$, so $v \\to 1$.\n\n**Common mistake:** Option B occurs if the student mistakenly believes the constant of integration $c$ itself represents the final limiting velocity without considering the fractional term's limit."
     },
     {
       "id": "ch16-kinematics-q4",
@@ -69,7 +69,7 @@
         "27 metres"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating $a = -kt$ gives $v = -\\frac{1}{2}kt^2 + c$. At $t=0, v=18 \\implies c=18$. At $t=3, v=0 \\implies 0 = -\\frac{9}{2}k + 18 \\implies k = 4$. So $v = -2t^2 + 18$. Displacement $s = \\int_{0}^{3} (-2t^2 + 18)\\\\,\\mathrm{d}t = [-\\frac{2}{3}t^3 + 18t]_{0}^{3} = -18 + 54 = 36$ metres.\n\n**Common mistake:** Option C occurs if a student assumes a linear decrease in velocity and incorrectly calculates the area using a simple multiplication of initial velocity and time."
+      "explanation": "Integrating $a = -kt$ gives $v = -\\frac{1}{2}kt^2 + c$. At $t=0, v=18 \\implies c=18$. At $t=3, v=0 \\implies 0 = -\\frac{9}{2}k + 18 \\implies k = 4$. So $v = -2t^2 + 18$. Displacement $s = \\int_{0}^{3} (-2t^2 + 18)\\,\\mathrm{d}t = [-\\frac{2}{3}t^3 + 18t]_{0}^{3} = -18 + 54 = 36$ metres.\n\n**Common mistake:** Option C occurs if a student assumes a linear decrease in velocity and incorrectly calculates the area using a simple multiplication of initial velocity and time."
     }
   ]
 }

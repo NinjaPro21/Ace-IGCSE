@@ -37,7 +37,7 @@
     {
       "id": "7-5-nets-medium-q3",
       "type": "mcq",
-      "question": "In a standard cube net, face $A$2$A$?",
+      "question": "In a standard cube net, face $A$ and $A$?",
       "options": [
         "The top face",
         "The front face",
@@ -63,15 +63,15 @@
     {
       "id": "7-5-nets-medium-q5",
       "type": "mcq",
-      "question": "Consider the net of a cuboid with dimensions $x, y,$ and $z$2$x=2, y=3,$ and $z=5$, how many rectangles in the net have an area of $10$ units $2$?",
+      "question": "Consider the net of a cuboid with dimensions $x, y,$ and $z$. So $x=2, y=3,$ and $z=5$, how many rectangles in the net have an area of^10 units 2?",
       "options": [
-        "$2$",
+        "2",
         "$4$",
         "$6$",
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "The possible areas of the faces are $xy=6, xz=10,$ and $yz=15$. There are two faces for each pair, so there are two rectangles with area $10$.\n\n**Common mistake:** The student might assume all faces are the same or only count one face of the pair."
+      "explanation": "The possible areas of the faces are $xy=6, xz=10,$ and $yz=15$. There are two faces for each pair, so there are two rectangles with area^10.\n\n**Common mistake:** The student might assume all faces are the same or only count one face of the pair."
     }
   ]
 }

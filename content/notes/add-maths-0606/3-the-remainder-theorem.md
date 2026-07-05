@@ -6,9 +6,13 @@ The Remainder Theorem provides a rapid way to calculate the numerical remainder 
 
 $$
 \text{Remainder when } f(x) \text{ is divided by } (x - c)\text{: } R = f(c)
+$$
 
+$$
 \text{Remainder when } f(x) \text{ is divided by } (ax - b)\text{: } R = f\left(\frac{b}{a}\right)
+$$
 
+$$
 f(x) = (x - c)\,Q(x) + R
 $$
 
@@ -32,8 +36,11 @@ The polynomial $f(x) = 2x^3 - x^2 + kx - 5$ leaves a remainder of $7$ when divid
 
 Apply the Remainder Theorem: $f(2) = 7$.
 
-Substitute: $$
+Substitute:
+
+$$
 2(2)^3 - (2)^2 + 2k - 5 = 7 \implies 16 - 4 + 2k - 5 = 7 \implies 2k = 0 \implies k = 0.
+$$
 
 ## Worked example — Exact divisibility
 
@@ -45,18 +52,6 @@ $$
 f(-1) = (-1)^3 - 5(-1) + 6 = -1 + 5 + 6 = 10
 $$
 The remainder is $10$. (If the question asked for exact divisibility, we would require $f(-1) = 0$.)
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Examiner tip
 

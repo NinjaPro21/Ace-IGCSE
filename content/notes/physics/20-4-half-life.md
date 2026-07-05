@@ -18,12 +18,26 @@ S Explain how the type of radiation emitted and the half-life of an isotope dete
 
 ## Key formulas
 
-Remaining Nuclei/Activity: Applies to any sample where n is the number of elapsed half-lives.Remaining = Initial \times (\frac{1}{2})^n $$
-Corrected Count Rate: Required before calculating half-life from raw data $.\text{Corrected rate} = \text{Measured rate} - \text{Background rate}
+**Remaining Nuclei/Activity**
 
-Number of Half-lives:
-$$n = \frac{Total\ Time}{Half\text{-}life}
+Applies to any sample where $n$ is the number of elapsed half-lives.
 
+$$
+\text{Remaining} = \text{Initial} \times \left(\frac{1}{2}\right)^n
+$$
+
+**Corrected Count Rate**
+
+Required before calculating half-life from raw data.
+
+$$
+\text{Corrected rate} = \text{Measured rate} - \text{Background rate}
+$$
+
+**Number of Half-lives**
+
+$$
+n = \frac{\text{Total time}}{\text{Half-life}}
 $$
 
 ## Graphs & diagrams
@@ -82,14 +96,36 @@ An isotope emits alpha particles and has a half-life of 430 years. Is it more li
 
 Question: A radioactive source has a half-life of 10 minutes. If the initial count rate is 1200 counts/min, what will the approximate count rate be after 20 minutes?
 
-Calculate the number of half-lives ($n$120\ min / 10\ min = 2\ half\text{-}lives. First half-life:$12012 / 2 = 6006\ counts/min$.
+Calculate the number of half-lives ($n$):
 
-Second half-life: $6006 / 2 = 3003\ counts/min. Final Answer: Approximately 3000 counts/min$.
+$$
+\frac{20\ \text{min}}{10\ \text{min}} = 2\ \text{half-lives}
+$$
+
+First half-life: $1200 / 2 = 600$ counts/min.
+
+Second half-life: $600 / 2 = 300$ counts/min.
+
+**Final answer:** Approximately 300 counts/min.
 
 ## Worked example — Background Subtraction (Harder)
 
-Question: In an experiment, the measured count rate of an isotope is 423 counts/min. The background rate is 20 counts/min. After 40 minutes, the measured rate is 124 counts/min. Estimate the half-life. Initial Corrected Rate: $423 - 20 = 403\ counts/min. Final Corrected Rate:$124 - 20 = 104\ counts/min.
+Question: In an experiment, the measured count rate of an isotope is 423 counts/min. The background rate is 20 counts/min. After 40 minutes, the measured rate is 124 counts/min. Estimate the half-life.
 
-Determine $n$1400 \rightarrow 200$(1 half-life)$\rightarrow 100(2 half-lives). Since 104 is close to 100, roughly 2 half-lives have passed. Calculate Half-life:40\ minutes / 2 = 20\ minutes $. ### Trap$
+Initial corrected rate: $423 - 20 = 403$ counts/min.
+
+Final corrected rate: $124 - 20 = 104$ counts/min.
+
+Determine $n$: $403 \rightarrow 201$ (1 half-life) $\rightarrow 100$ (2 half-lives). Since 104 is close to 100, roughly 2 half-lives have passed.
+
+Calculate half-life:
+
+$$
+\frac{40\ \text{minutes}}{2} = 20\ \text{minutes}
+$$
+
+**Final answer:** Approximately 20 minutes.
+
+### Trap
 
 Students often divide the raw values ($423 / 124$) directly. You must subtract the background first to see how the isotope itself is decaying.

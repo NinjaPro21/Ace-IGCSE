@@ -23,7 +23,9 @@ Centre $(-g, -f)$, radius $r = \sqrt{g^2 + f^2 - c}$.
 ## Steps / method
 
 1. **Identify** centre and radius if given directly — substitute into standard form.
+
 2. **Or complete the square** — group $x$-terms and $y$-terms separately in general form.
+
 3. **Read off** centre $(h, k)$ and radius $r$ from standard form.
 
 ### Key rule

@@ -18,7 +18,7 @@
         "$y = 12x - 13$"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient $m = (23 - 11) / (5 - 2) = 12 / 3 = 4$. Using $y = 4x + c$2$11 = 4(2) + c \\implies c = 3$. Equation is $y = 4x + 3$.\n\n**Common mistake:** Using the coordinates of only one point and the origin to find a gradient.",
+      "explanation": "Gradient $m = (23 - 11) / (5 - 2) = 12 / 3 = 4$. Using $y = 4x + c$. $11 = 4(2) + c \\implies c = 3$. Equation is $y = 4x + 3$.\n\n**Common mistake:** Using the coordinates of only one point and the origin to find a gradient.",
       "id": "9-1-linear-graphs-pyp-q1"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "type": "mcq",
-      "question": "Which three inequalities define the shaded region **A** formed by the lines **$y = 2$**, **$y = 3x$2$x + y = 6$**?",
+      "question": "Which three inequalities define the shaded region **A** formed by the lines **$y = 2$**, **$y = 3x$. So $x + y = 6$**?",
       "options": [
         "$y \\ge 2, y \\le 3x, x + y \\le 6$",
         "$y \\le 2, y \\ge 3x, x + y \\le 6$",
@@ -57,7 +57,7 @@
         "$y > 2, y < 3x, x + y > 6$"
       ],
       "correctIndex": 0,
-      "explanation": "Region A is above $y=2$, to the right of $y=3x$2$y \\le 3x$2$x+y=6$.\n\n**Common mistake:** Confusing the 'greater than' and 'less than' directions for diagonal lines.",
+      "explanation": "Region A is above $y=2$, to the right of $y=3x$. $y \\le 3x2x+y=6$.\n\n**Common mistake:** Confusing the 'greater than' and 'less than' directions for diagonal lines.",
       "id": "9-1-linear-graphs-pyp-q4"
     },
     {

@@ -24,7 +24,7 @@
     {
       "id": "10-4-combinations-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Find the value of $n$2$^nC_2 = 45$.",
+      "question": "Find the value of $n$. $^nC_2 = 45$.",
       "options": [
         "10",
         "9",
@@ -48,6 +48,8 @@
       "explanation": "Since Mr. Jones is already chosen, we only need to select 3 more people from the remaining 8 candidates: $^8C_3 = 56$.\n\n**Common mistake:** Option B is $^9C_4$, the total ways to pick 4 people without any mandatory inclusion.",
       "variants": [
         {
+          "id": "10-4-combinations-harder-topic-medium-q3",
+          "type": "mcq",
           "question": "A committee of 3 members is to be selected from a group of 8 eligible candidates. Find the number of different combinations possible.",
           "options": [
             "56",
@@ -59,6 +61,8 @@
           "explanation": "$^8C_{3} = 56$."
         },
         {
+          "id": "10-4-combinations-harder-topic-medium-q3",
+          "type": "mcq",
           "question": "A committee of 2 members is to be selected from a group of 10 eligible candidates. Find the number of different combinations possible.",
           "options": [
             "45",
@@ -70,6 +74,8 @@
           "explanation": "$^10C_{2} = 45$."
         },
         {
+          "id": "10-4-combinations-harder-topic-medium-q3",
+          "type": "mcq",
           "question": "A committee of 4 members is to be selected from a group of 10 eligible candidates. Find the number of different combinations possible.",
           "options": [
             "210",
@@ -81,6 +87,8 @@
           "explanation": "$^10C_{4} = 210$."
         },
         {
+          "id": "10-4-combinations-harder-topic-medium-q3",
+          "type": "mcq",
           "question": "A committee of 3 members is to be selected from a group of 9 eligible candidates. Find the number of different combinations possible.",
           "options": [
             "84",

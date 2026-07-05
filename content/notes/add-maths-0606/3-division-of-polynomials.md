@@ -5,7 +5,11 @@ Polynomial long division is an algorithmic procedure used to divide a polynomial
 ## Key formulas
 
 $$
-f(x) = d(x)\,Q(x) + R(x), \qquad \operatorname{deg}(R) < \operatorname{deg}(d)
+f(x) = d(x)\,Q(x) + R(x),
+$$
+
+$$
+\operatorname{deg}(R) < \operatorname{deg}(d)
 $$
 
 ## Steps / method
@@ -34,7 +38,7 @@ Multiply: $2x^2(x - 2) = 2x^3 - 4x^2$. Subtract to get $-x^2 + 3x - 1$.
 
 **Step 3 — Third term:** $x \div x = 1$. Multiply: $1(x - 2) = x - 2$. Subtract to get remainder $1$.
 
-**Result:** Quotient $Q(x) = 2x^2 - x + 1$, remainder $R(x) = 1$. So $2x^3 - 5x^2 + 3x - 1 = (x - 2)(2x^2 - x + 1) + 1$.
+**Result:** Quotient $Q(x) = 2x^2 - x + 1$, remainder $R(x) = 1$ when 2.
 
 ## Worked example — Cubic with a missing term
 

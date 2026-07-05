@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Identify the test value** — set the divisor equal to zero to find $x$.
+
 2. **Substitute** — plug that value into $f(x)$.
+
 3. **Calculate** — the result is the remainder.
 
 ### Key rule

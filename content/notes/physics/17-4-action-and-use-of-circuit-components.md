@@ -1,55 +1,91 @@
 ## Core idea
 
-Section 17.4 explores how specific components can be used to control or respond to electrical signals within a circuit. A central concept is the potential divider, which leverages the relationship between resistance and potential difference (p.d.) to provide specific voltages to different parts of a system.
+Specific components control or respond to electrical signals in a circuit. A central idea is the **potential divider** — using the relationship between resistance and p.d. to provide a chosen voltage to part of a system.
 
-Potential Dividers
+## Potential dividers
 
-A potential divider consists of resistors connected in series. It is designed to provide a fraction of the total available voltage from a power source to another part of the circuit.
+A potential divider uses resistors in series to provide a fraction of the total supply voltage.
 
-Fixed Potential Divider: Uses two or more fixed resistors. The input voltage ($V_E$) is divided between them based on their resistance values.
+**Fixed potential divider**
 
-Key Formula: The output voltage ($V_{out}$) across resistor $R_2$ is calculated as:
+$$
+V_{\text{out}} = \left(\frac{R_2}{R_1 + R_2}\right) \times V_E
+$$
 
-$V_{out} = \left( \frac{R_2}{R_1 + R_2} \right) \times V_E$
+For constant current, p.d. across a component increases as its resistance increases.
 
-Proportionality: For a constant current, the p.d. across a component increases as its resistance increases.
+## Variable potential dividers
 
-Variable Potential Dividers
+Used when output voltage must be adjusted (e.g. volume controls, dimmer switches).
 
-These are used when the output voltage needs to be adjusted, such as in volume controls for stereo systems or dimmer switches for lights.
+- **Rheostat method**: A two-terminal variable resistor — increasing resistance decreases $V_{\text{out}}$ to the rest of the circuit.
+- **Potentiometer method**: Three terminals with a sliding contact — $V_{\text{out}}$ ranges from $0\,\text{V}$ to the full input voltage.
 
-Rheostat Method: A rheostat (variable resistor) is connected at two terminals. Increasing its resistance decreases the output voltage to the rest of the circuit.
+## Input transducers
 
-Potentiometer Method: A potentiometer uses a three-terminal setup with a sliding contact. The position of the contact determines the ratio of resistance on either side, allowing $V_{out}$ to range from $1 \text{ V}$ to the full input voltage$.
+Transducers respond to physical conditions (light, temperature). In a potential divider they let a circuit react automatically.
 
-Input Transducers
+**NTC thermistor**
 
-Transducers are electronic devices that respond to changes in physical conditions like light or temperature. When used in a potential divider, they allow a circuit to automatically react to its environment.
+- Resistance **decreases** as temperature **increases**.
+- Used in temperature alarms and cooling-fan triggers.
 
-NTC Thermistor
+**Light-dependent resistor (LDR)**
 
-Behaviour: A Negative Temperature Coefficient (NTC) thermistor has a resistance that decreases as the temperature increases.
-
-Use: In a potential divider, as the temperature rises, the thermistor's resistance drops, which can be used to trigger temperature-controlled alarms or cooling fans.
-
-Light-Dependent Resistor (LDR)
-
-Behaviour: An LDR's resistance decreases as the intensity of light shining on it increases.
-
-Use: They are commonly used in automatic streetlights, which switch on when it becomes dark (high resistance) and off when it is bright (low resistance).
+- Resistance **decreases** as light intensity **increases**.
+- Used in automatic streetlights (high resistance in the dark, low in bright light).
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Series circuit">
-      <rect x="40" y="50" width="280" height="60" fill="none" stroke="#334155" stroke-width="2"/>
-      <rect x="70" y="65" width="40" height="30" fill="#fef08a" stroke="#ca8a04"/>
-      <text x="90" y="84" text-anchor="middle" font-size="9" fill="#854d0e">cell</text>
-      <circle cx="180" cy="80" r="18" fill="#fef3c7" stroke="#f59e0b"/>
-      <text x="180" y="84" text-anchor="middle" font-size="9" fill="#92400e">lamp</text>
-      <rect x="250" y="65" width="40" height="30" fill="#e2e8f0" stroke="#64748b"/>
-      <text x="270" y="84" text-anchor="middle" font-size="9" fill="#334155">R</text>
-      <text x="180" y="130" text-anchor="middle" font-size="10" fill="#475569">single loop — same I everywhere</text>
-    </svg><p class="enlight-physics-diagram__caption">Series circuit — one path for current; same current through each component.</p></div>
+</div><p class="enlight-physics-diagram__caption">Series circuit with exam-standard symbols for a thermistor and LDR.</p></div>
+
+<div class="enlight-physics-diagram"><div class="enlight-circuit-symbols">
+      <svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
+        <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
+        </g>
+        <rect x="68" y="41" width="18" height="8" fill="#fff"/>
+        <line x1="72" y1="35" x2="72" y2="55" stroke="#334155" stroke-width="2"/>
+        <line x1="82" y1="40" x2="82" y2="50" stroke="#334155" stroke-width="4"/>
+        <text x="77" y="68" text-anchor="middle" font-size="8" fill="#64748b">cell</text>
+        <circle cx="151" cy="45" r="13" stroke="#334155" stroke-width="2" fill="#fff"/>
+        <line x1="143" y1="37" x2="159" y2="53" stroke="#334155" stroke-width="2"/>
+        <line x1="159" y1="37" x2="143" y2="53" stroke="#334155" stroke-width="2"/>
+        <text x="151" y="68" text-anchor="middle" font-size="8" fill="#64748b">lamp</text>
+        <rect x="210" y="39" width="40" height="12" fill="#fff"/>
+        <rect x="214" y="39" width="32" height="12" stroke="#334155" stroke-width="2" fill="none"/>
+        <text x="230" y="68" text-anchor="middle" font-size="8" fill="#64748b">resistor</text>
+        <text x="190" y="152" text-anchor="middle" font-size="10" fill="#475569">one path — same current everywhere</text>
+      </svg>
+      <div class="enlight-circuit-symbols__row">
+        <svg viewBox="0 0 100 70" width="100" height="70" aria-label="Thermistor symbol">
+          <line x1="10" y1="35" x2="25" y2="35" stroke="#334155" stroke-width="2"/>
+          <rect x="25" y="28" width="50" height="14" stroke="#334155" stroke-width="2" fill="#fff"/>
+          <line x1="30" y1="42" x2="70" y2="28" stroke="#334155" stroke-width="2"/>
+          <line x1="75" y1="35" x2="90" y2="35" stroke="#334155" stroke-width="2"/>
+          <text x="50" y="58" text-anchor="middle" font-size="9" fill="#64748b">thermistor</text>
+        </svg>
+        <svg viewBox="0 0 110 70" width="110" height="70" aria-label="LDR symbol">
+          <line x1="8" y1="35" x2="22" y2="35" stroke="#334155" stroke-width="2"/>
+          <circle cx="55" cy="35" r="18" stroke="#334155" stroke-width="2" fill="#fff"/>
+          <rect x="45" y="30" width="20" height="10" stroke="#334155" stroke-width="2" fill="#fff"/>
+          <line x1="65" y1="35" x2="102" y2="35" stroke="#334155" stroke-width="2"/>
+          <line x1="32" y1="18" x2="48" y2="30" stroke="#334155" stroke-width="1.8"/>
+          <line x1="38" y1="12" x2="54" y2="24" stroke="#334155" stroke-width="1.8"/>
+          <line x1="44" y1="6" x2="60" y2="18" stroke="#334155" stroke-width="1.8"/>
+          <polygon points="48,30 56,30 52,24" fill="#334155"/>
+          <polygon points="54,24 62,24 58,18" fill="#334155"/>
+          <polygon points="60,18 68,18 64,12" fill="#334155"/>
+          <text x="55" y="62" text-anchor="middle" font-size="9" fill="#64748b">LDR</text>
+        </svg>
+        <svg viewBox="0 0 100 70" width="100" height="70" aria-label="Fixed resistor symbol">
+          <line x1="10" y1="35" x2="28" y2="35" stroke="#334155" stroke-width="2"/>
+          <rect x="28" y="28" width="44" height="14" stroke="#334155" stroke-width="2" fill="#fff"/>
+          <line x1="72" y1="35" x2="90" y2="35" stroke="#334155" stroke-width="2"/>
+          <text x="50" y="58" text-anchor="middle" font-size="9" fill="#64748b">resistor</text>
+        </svg>
+      </div>
+    </div><p class="enlight-physics-diagram__caption">Series circuit with exam-standard symbols for a thermistor and LDR.</p></div>
 
 ## Quick check
 
@@ -57,6 +93,6 @@ What is the main purpose of a potential divider circuit?
 
 How does the resistance of an NTC thermistor change as it gets hotter?
 
-True or False: An LDR would have a higher resistance in a dark room than in a sunlit room.
+True or false: An LDR has higher resistance in a dark room than in bright sunlight.
 
 State one practical application for a variable potential divider.

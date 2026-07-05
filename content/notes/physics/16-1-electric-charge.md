@@ -2,41 +2,33 @@
 
 Electric charge is a fundamental property of matter that underlies all electrical phenomena. Common experiences, such as a balloon sticking to hair after being rubbed, are caused by the acquisition of static electric charge due to friction.
 
-The Simple Electron Model
+## The simple electron model
 
-To understand how objects become charged, we must look at the structure of the atom:
+To understand how objects become charged, look at the structure of the atom:
 
-Nucleus: The centre of an atom containing protons (positive charge) and neutrons (neutral/no charge).
+- **Nucleus**: The centre of an atom containing protons (positive charge) and neutrons (no charge).
+- **Electrons**: Negatively charged particles that orbit the nucleus.
+- **Neutral atoms**: An atom is electrically neutral when it has equal numbers of protons and electrons.
+- **Ions**: Atoms become charged when they lose or gain electrons. A positive ion forms when electrons are lost; a negative ion forms when electrons are gained.
 
-Electrons: Negatively charged particles that orbit the nucleus.
+## Charging by friction
 
-Neutral Atoms: An atom is electrically neutral when it has an equal number of protons and electrons.
+Charging solids usually involves only the transfer of electrons. When two different materials are rubbed together, electrons move from one material to the other.
 
-Ions: Atoms become charged when they lose or gain electrons. A positive ion is formed when an atom loses electrons, while a negative ion is formed when it gains them.
+- **Electron affinity**: Different materials have different affinities for electrons — some attract them strongly, others weakly.
+- **Example (glass and silk)**: When a glass rod is rubbed with silk, electrons transfer from the rod to the silk. The glass rod becomes positively charged; the silk becomes negatively charged.
 
-Charging by Friction
+## Interactions between charges
 
-Charging solids usually involves only the transfer of electrons. When two different materials are rubbed together, the atoms at their surfaces are disturbed, and electrons move from one material to the other.
+The law of charges:
 
-Electron Affinity: Different materials have different "affinities" for electrons. Some attract them strongly, while others attract them weakly.
+- **Like charges repel**: Two positive charges or two negative charges push away from each other.
+- **Unlike charges attract**: A positive charge and a negative charge pull towards each other.
 
-Example (Glass and Silk): When a glass rod is rubbed with silk, some electrons are transferred from the rod to the silk. The glass rod becomes positively charged (loses electrons), and the silk becomes negatively charged (gains electrons).
+## Electrical conductors and insulators
 
-Interactions Between Charges
-
-The behavior of charged objects is governed by the basic Law of Charges:
-
-Like charges repel: Two positive charges or two negative charges will push away from each other.
-
-Unlike charges attract: A positive charge and a negative charge will pull towards each other.
-
-Electrical Conductors and Insulators
-
-Materials differ in how easily they allow electrons to move through them:
-
-Electrical Conductors: Materials in which electrons are free to move about. All metals (such as copper, aluminium, and silver) are conductors because they contain "free electrons" that can leave their atoms.
-
-Electrical Insulators: Materials in which electrons are not free to move. Examples include glass, plastic, wood, and ebonite. These materials are easily charged by friction because the acquired charges stay on the surface (static).
+- **Electrical conductors**: Materials in which electrons are free to move. All metals (copper, aluminium, silver) are conductors because they contain free electrons.
+- **Electrical insulators**: Materials in which electrons are not free to move (glass, plastic, wood, ebonite). Insulators are easily charged by friction because the acquired charge stays on the surface.
 
 ## Graphs & diagrams
 
@@ -56,6 +48,6 @@ Which particle in an atom carries a negative charge?
 
 What happens to a neutral atom if it loses electrons?
 
-True or False: Two negatively charged rods will attract each other.
+True or false: Two negatively charged rods will attract each other.
 
 Why are metals good electrical conductors?

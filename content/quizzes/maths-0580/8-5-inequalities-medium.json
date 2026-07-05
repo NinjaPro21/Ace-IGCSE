@@ -36,7 +36,7 @@
     },
     {
       "type": "mcq",
-      "question": "List the members of the set **$b$2$b - 1 \\ge 6$** and **$b$ is a prime number less than 20**.",
+      "question": "List the members of the set **$b$. $b - 1 \\ge 6$** and **$b$ is a prime number less than 20**.",
       "options": [
         "{7, 11, 13, 17, 19}",
         "{11, 13, 17, 19}",
@@ -57,7 +57,7 @@
         "A single line passing through (7,7)"
       ],
       "correctIndex": 0,
-      "explanation": "The inequalities $x \\ge 0$ and $y \\ge 0 restrict the region to the first quadrant$2$2x + y \\le 7$ places a diagonal limit, forming a triangle with vertices at (0,0), (7,0), and (0,7).\n\n**Common mistake:** Shading the wanted region instead of the unwanted region, which is the convention in these sources.",
+      "explanation": "The inequalities $x \\ge 0$ and $y \\ge 0 restrict the region to the first quadrant$. $2x + y \\le 7$ places a diagonal limit, forming a triangle with vertices at (0,0), (7,0), and (0,7).\n\n**Common mistake:** Shading the wanted region instead of the unwanted region, which is the convention in these sources.",
       "id": "8-5-inequalities-medium-q4"
     },
     {
@@ -70,7 +70,7 @@
         "$x < 10$"
       ],
       "correctIndex": 0,
-      "explanation": "Add $2x$2$4 + x > 6$. Then subtract 4 from both sides: $x > 2$.\n\n**Common mistake:** Incorrectly combining terms or reversing the inequality symbol without dividing by a negative.",
+      "explanation": "Add $2x$. $4 + x > 6$. Then subtract 4 from both sides: $x > 2$.\n\n**Common mistake:** Incorrectly combining terms or reversing the inequality symbol without dividing by a negative.",
       "id": "8-5-inequalities-medium-q5"
     }
   ]

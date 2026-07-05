@@ -10,7 +10,7 @@
   "questions": [
     {
       "type": "mcq",
-      "question": "The variables $x$2$y$2$y = \\frac{a}{x^2 + b}$. To obtain a straight line, $1/y$2$x^2$. Find an expression for the gradient in terms of $a$2$b$.",
+      "question": "The variables $x$ and $y2y = \\frac{a}{x^2 + b}$. To obtain a straight line, $1/y$. $x^2$. Find an expression for the gradient in terms of $a$ and $b$.",
       "options": [
         "1/a",
         "a",
@@ -23,7 +23,7 @@
     },
     {
       "type": "mcq",
-      "question": "Given $y^n = Ax^b$2$\\lg y$2$\\lg x$. Find the gradient of this line.",
+      "question": "Given $y^n = Ax^b$. $\\lg y2\\lg x$. Find the gradient of this line.",
       "options": [
         "b/n",
         "b",
@@ -31,12 +31,12 @@
         "lg A"
       ],
       "correctIndex": 0,
-      "explanation": "$n \\lg y = b \\lg x + \\lg A \\Rightarrow \\lg y = (b/n) \\lg x + (1/n) \\lg A$2$m = b/n$.\n\n**Common mistake:** Option B ignores the power $n$ on the dependent variable.",
+      "explanation": "$n \\lg y = b \\lg x + \\lg A \\Rightarrow \\lg y = (b/n) \\lg x + (1/n) \\lg A$. So $m = b/n$.\n\n**Common mistake:** Option B ignores the power $n$ on the dependent variable.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-hard-q2"
     },
     {
       "type": "mcq",
-      "question": "A line passes through $(\\lg 2, \\lg 18)$ and $(\\lg 5, \\lg 112.5)$ on a graph of $\\lg y$2$\\lg x$2$n$2$y = ax^n$.",
+      "question": "A line passes through $(\\lg 2, \\lg 18)$ and $(\\lg 5, \\lg 112.5)$ on a graph of $\\lg y$. $\\lg x2n$. So $y = ax^n$.",
       "options": [
         "2",
         "3",
@@ -49,7 +49,7 @@
     },
     {
       "type": "mcq",
-      "question": "Convert $y = \\frac{x}{ax + b}$ into a linear form $Y = mX + c$2$Y = x/y$. What is the gradient?",
+      "question": "Convert $y = \\frac{x}{ax + b}$ into a linear form $Y = mX + c$. So $Y = x/y$. What is the gradient?",
       "options": [
         "a",
         "b",
@@ -57,12 +57,12 @@
         "1/b"
       ],
       "correctIndex": 0,
-      "explanation": "$y = x / (ax+b) \\Rightarrow 1/y = (ax+b)/x \\Rightarrow 1/y = a + b/x$2$x$2$x/y = ax + b$2$a$.\n\n**Common mistake:** Option B is the intercept for this specific transformation.",
+      "explanation": "$y = x / (ax+b) \\Rightarrow 1/y = (ax+b)/x \\Rightarrow 1/y = a + b/x$ and $x2x/y = ax + b$ and $a$.\n\n**Common mistake:** Option B is the intercept for this specific transformation.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-hard-q4"
     },
     {
       "type": "mcq",
-      "question": "The graph of $xy$2$x^2$ is a straight line with gradient $m$2$c$2$y$2$x, m,$ and $c$.",
+      "question": "The graph of $xy$. $x^2$ is a straight line with gradient $m  and c2y$. $x, m,$ and $c$.",
       "options": [
         "y = mx + c/x",
         "y = mx^2 + c",
@@ -70,7 +70,7 @@
         "y = m/x + c"
       ],
       "correctIndex": 0,
-      "explanation": "$xy = m(x^2) + c$2$x$2$y = mx + c/x$.\n\n**Common mistake:** Option B is the equation for $xy$2$y$ as the subject.",
+      "explanation": "$xy = m(x^2) + c$ and $x2y = mx + c/x$.\n\n**Common mistake:** Option B is the equation for $xy$ and $y$ as the subject.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-hard-q5"
     }
   ]

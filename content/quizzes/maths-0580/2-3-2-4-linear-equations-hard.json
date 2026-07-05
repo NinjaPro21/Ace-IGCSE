@@ -11,7 +11,7 @@
     {
       "id": "2-3-2-4-linear-equations-hard-q1",
       "type": "mcq",
-      "question": "Solve the algebraic $\\frac{tional}{}$ equation: $\\frac{3}{2x - 1} - \\frac{2}{x + 3} = 0$.",
+      "question": "Solve the algebraic \\frac{1}{a} equation: $\\frac{3}{2x - 1} - \\frac{2}{x + 3} = 0$.",
       "options": [
         "$11$",
         "$-11$",
@@ -19,7 +19,7 @@
         "$-7$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange to $\\frac{3}{2x - 1} = \\frac{2}{x + 3}$. Cross-multiply: $3(x + 3) = 2(2x - 1) \\rightarrow 3x + 9 = 4x - 2$. Subtract $3x$2$9 = x - 2$. Add 2: $x = 11$.\n\n**Common mistake:** Students commonly make sign errors during cross-multiplication distribution, writing $3x + 3$ or $4x - 1$."
+      "explanation": "Rearrange to $\\frac{3}{2x - 1} = \\frac{2}{x + 3}$. Cross-multiply: $3(x + 3) = 2(2x - 1) \\rightarrow 3x + 9 = 4x - 2$. Subtract $3x$. $9 = x - 2$. Add 2: $x = 11$.\n\n**Common mistake:** Students commonly make sign errors during cross-multiplication distribution, writing $3x + 3$ or $4x - 1$."
     },
     {
       "id": "2-3-2-4-linear-equations-hard-q2",
@@ -58,7 +58,7 @@
         "$-2.25$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify inside the square brackets first: $3x - 2x + 2 = x + 2$. The equation becomes: $2x - (x + 2) = 4x + 5 \\rightarrow x - 2 = 4x + 5$. Subtract $x$2$-2 = 3x + 5$. Subtract 5: $-7 = 3x \\rightarrow x = -\\frac{7}{4} = -1.75$.\n\n**Common mistake:** Students struggle with nested distributions and often incorrectly evaluate $-2(x-1)$ as $-2x - 2$."
+      "explanation": "Simplify inside the square brackets first: $3x - 2x + 2 = x + 2$. The equation becomes: $2x - (x + 2) = 4x + 5 \\rightarrow x - 2 = 4x + 5$. Subtract $x$. $-2 = 3x + 5$. Subtract 5: $-7 = 3x \\rightarrow x = -\\frac{7}{4} = -1.75$.\n\n**Common mistake:** Students struggle with nested distributions and often incorrectly evaluate $-2(x-1)$ as $-2x - 2$."
     },
     {
       "id": "2-3-2-4-linear-equations-hard-q5",
@@ -71,7 +71,7 @@
         "$6500$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $x$2$10000 - x$2$0.06x + 0.04(10000 - x) = 520 \\rightarrow 0.06x + 400 - 0.04x = 520 \\rightarrow 0.02x = 120 \\rightarrow x = 6000$.\n\n**Common mistake:** Students often swap the coefficients or misplace decimals when translating percentages ($4\\% \\rightarrow 0.4$ instead of $0.04$)."
+      "explanation": "Let $x$. $10000 - x20.06x + 0.04(10000 - x) = 520 \\rightarrow 0.06x + 400 - 0.04x = 520 \\rightarrow 0.02x = 120 \\rightarrow x = 6000$.\n\n**Common mistake:** Students often swap the coefficients or misplace decimals when translating percentages ($4\\% \\rightarrow 0.4$ instead of $0.04$)."
     }
   ]
 }

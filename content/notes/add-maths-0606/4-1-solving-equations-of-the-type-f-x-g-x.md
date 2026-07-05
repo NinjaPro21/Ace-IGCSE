@@ -19,8 +19,11 @@ $$
 ## Steps / method
 
 1. **Isolate** the modulus expression on one side (if needed).
+
 2. **Split into cases** — write $f(x) = g(x)$ and $f(x) = -g(x)$.
+
 3. **Solve** each equation for $x$.
+
 4. **Verify** — substitute each answer back; reject any that give $|{\ldots}| = \text{negative}$.
 
 ### Key rule

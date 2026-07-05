@@ -17,7 +17,9 @@ If $f$ and $f^{-1}$ intersect, they must do so on the line $y = x$.
 ## Steps / method
 
 1. **Draw** $y = x$ as a dashed line of symmetry.
+
 2. **Plot** key points of $f(x)$.
+
 3. **Reflect** each point by swapping its $x$- and $y$-coordinates to sketch $f^{-1}(x)$.
 
 ### Key rule

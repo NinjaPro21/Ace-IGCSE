@@ -19,7 +19,7 @@
         "48 m"
       ],
       "correctIndex": 0,
-      "explanation": "Phase 1: Final speed = $0 + (2.0 \\times 4.0) = 8.0 m/s$. Distance = $1/2 \\times 4.0 \\times 8.0 = 16 m$. Phase 2: Constant speed = $8.0 m/s$. Distance = $8.0 \\times 6.0 = 48 m$. Total = $16 + 48 = 64 m$. \n\n**Common mistake:** Calculating only one phase of the motion."
+      "explanation": "Phase 1: Final speed = $0 + (2.0 \\times 4.0) = 8.0 m/s^2 Distance = 1/2 \\times 4.0 \\times 8.0 = 16 m^2 Phase 2: Constant speed = 8.0 m/s^2 Distance = 8.0 \\times 6.0 = 48 m^2 Total = 16 + 48 = 64 m$. \n\n**Common mistake:** Calculating only one phase of the motion."
     },
     {
       "id": "ch02-motion-hard-q2",
@@ -32,7 +32,7 @@
         "12 s"
       ],
       "correctIndex": 0,
-      "explanation": "Using $a = (v - u) / t$, so $t = (v - u) / a$. $v = 0$, $u = 1.2$, $a = -10$. $t = (0 - 1.2) / -10 = 0.12 s$. \n\n**Common mistake:** Multiplying $1.2 \\times 10$ instead of dividing."
+      "explanation": "Using $a = (v - u) / t$, so $t = (v - u) / a$. $v = 0$, $u = 1.2$, $a = -10$. $t = (0 - 1.2) / -10 = 0.12 s .$\n\n**Common mistake:** Multiplying 1.2 \\times 10$instead of dividing.$"
     },
     {
       "id": "ch02-motion-hard-q3",
@@ -45,7 +45,7 @@
         "Distance: 0 m; Displacement: 0 m"
       ],
       "correctIndex": 0,
-      "explanation": "Distance is the total path length ($10 + 10 = 20 m$). Displacement is the straight-line distance from start to end, which is $0$ as the object returned to its start. \n\n**Common mistake:** Thinking distance can be zero if you return to the start."
+      "explanation": "Distance is the total path length ($10 + 10 = 20 m ). Displacement is the straight-line distance from start to end, which is 1$ as the object returned to its start. \n\n**Common mistake:** Thinking distance can be zero if you return to the start."
     },
     {
       "id": "ch02-motion-hard-q4",
@@ -71,7 +71,7 @@
         "7.5 m/s"
       ],
       "correctIndex": 0,
-      "explanation": "Using $a = (v - u) / t$, so $v = u + at$. $v = 2 + (3 \\times 5) = 2 + 15 = 17 m/s$. \n\n**Common mistake:** Adding $2 + 3$ before multiplying by time."
+      "explanation": "Using $a = (v - u) / t$, so $v = u + at$. $v = 2 + (3 \\times 5) = 2 + 15 = 17 m/s .$\n\n**Common mistake:** Adding 2 + 3$before multiplying by time.$"
     },
     {
       "id": "ch02-motion-hard-q6",
@@ -110,7 +110,7 @@
         "$26.7\\text{ m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Total distance = Area under graph $= (1/2 \\times 20 \\times 30) + (60 \\times 30) + (1/2 \\times 10 \\times 30) = 300 + 1800 + 150 = 2250\\text{ m}$. Total time $= 20 + 60 + 10 = 90\\text{ s}$. Average speed $= 2250 / 90 = 25\\text{ m/s}$. Wait, option re-calc: $2250 / 90 = 25$. Corrected option choice A to be $25$. My bad, recalculating distractors: $2100 / 90 = 23.3$. Correct value is 25. Let me fix options: [25, 30, 21, 26.7]. Option A is 25.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Total distance = Area under graph $= (1/2 \\times 20 \\times 30) + (60 \\times 30) + (1/2 \\times 10 \\times 30) = 300 + 1800 + 150 = 2250\\text{ m}$. Total time $= 20 + 60 + 10 = 90\\text{ s}$. Average speed $= 2250 / 90 = 25\\text{ m/s}$. Wait, option re-calc: $2250 / 90 = 25$. Corrected option choice A to be^25. My bad, recalculating distractors: $2100 / 90 = 23.3$. Correct value is 25. Let me fix options: [25, 30, 21, 26.7]. Option A is 25.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch02-motion-hard-q9",

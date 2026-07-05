@@ -19,7 +19,7 @@
         "0.5%"
       ],
       "correctIndex": 0,
-      "explanation": "dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. % Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r³)) × 100 = 3(δr/r) × 100 = 3(0.5%) = 1.5%.\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
+      "explanation": "$dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. \\% Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r^3)) × 100 = 3(δr/r) × 100 = 3(0.5\\%) = 1.5\\%.$\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
     },
     {
       "id": "12-6-small-increments-and-approximations-hard-q2",
@@ -37,7 +37,7 @@
     {
       "id": "12-6-small-increments-and-approximations-hard-q3",
       "type": "mcq",
-      "question": "If $y = (2x - 1)^4$, find the approximate change in $y$2$x$2$1 + h$.",
+      "question": "If $y = (2x - 1)^4$, find the approximate change in $y$ and $x21 + h$.",
       "options": [
         "8h",
         "4h",
@@ -50,7 +50,7 @@
     {
       "id": "12-6-small-increments-and-approximations-hard-q4",
       "type": "mcq",
-      "question": "The variables $x$2$y$2$y = \\frac{10}{x+1}$. If $x$2$p$2$p$2$y$2$x=4$.",
+      "question": "The variables $x$ and $y2y = \\frac{10}{x+1}$. If $x$ and $p2p  and y2x=4$.",
       "options": [
         "-0.8p %",
         "-p %",
@@ -58,7 +58,7 @@
         "0.8p %"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = -10/(x+1)$^2$. At x=4, $\\frac{dy}{dx}$ = -10/25 = -0.4. δx = (p/100)x = 0.04p. δy ≈ -0.4(0.04p) = -0.016p. y(4) = 2. % change y = (-0.016p / 2) × 100 = -0.8p %.\n\n**Common mistake:** Calculations often miss the fact that δx is a percentage of the original $x$2$p$."
+      "explanation": "$\\frac{dy}{dx}$ = -10/(x+1)$^2$. At x=4, $\\frac{dy}{dx}$ = -10/25 = -0.4. δx = (p/100)x = 0.04p. δy ≈ -0.4(0.04p) = -0.016p. y(4) = 2. % change y = (-0.016p / 2) × 100 = -0.8p %.\n\n**Common mistake:** Calculations often miss the fact that δx is a percentage of the original $x$ and $p$."
     },
     {
       "id": "12-6-small-increments-and-approximations-hard-q5",

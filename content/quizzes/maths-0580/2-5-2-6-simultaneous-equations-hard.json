@@ -19,12 +19,12 @@
         "$(3, 6)$ and $(-1, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y = x + 3$ into the quadratic equation: $x^2 + (x + 3)^2 = 17 \\rightarrow x^2 + x^2 + 6x + 9 = 17 \\rightarrow 2x^2 + 6x - 8 = 0$. Divide by 2: $x^2 + 3x - 4 = 0 \\rightarrow (x + 4)(x - 1) = 0$. Thus, $x = 1$ or $x = -4$. Corresponding $y$2$y = 1 + 3 = 4$ and $y = -4 + 3 = -1$.\n\n**Common mistake:** Students frequently expand $(x+3)^2$ as $x^2 + 9$, missing the crucial middle $6x$ term."
+      "explanation": "Substitute $y = x + 3$ into the quadratic equation: $x^2 + (x + 3)^2 = 17 \\rightarrow x^2 + x^2 + 6x + 9 = 17 \\rightarrow 2x^2 + 6x - 8 = 0$. Divide by 2: $x^2 + 3x - 4 = 0 \\rightarrow (x + 4)(x - 1) = 0$. Thus, $x = 1$ or $x = -4$. Corresponding $y$. So $y = 1 + 3 = 4$ and $y = -4 + 3 = -1$.\n\n**Common mistake:** Students frequently expand $(x+3)^2$ as $x^2 + 9$, missing the crucial middle $6x$ term."
     },
     {
       "id": "2-5-2-6-simultaneous-equations-hard-q2",
       "type": "mcq",
-      "question": "Solve the system:\n\n$$\n\\frac{3}{x} + \\frac{2}{y} = 5\n$$\n\n$\\frac{1}{x} - \\frac{4}{y} = -3\n\n$$",
+      "question": "Solve the system:\n\n$$\n\\frac{3}{x} + \\frac{2}{y} = 5\n$$\n\n$\\frac{1}{x} - \\frac{4}{y} = -3$",
       "options": [
         "$x = 1, y = 1$",
         "$x = 0.5, y = 2$",
@@ -32,7 +32,7 @@
         "$x = -1, y = -1$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. The system becomes:\n$3u + 2v = 5$\n\nu - 4v = -3\n\nMultiply the first by 2: $6u + 4v = 10$. Add to second equation: $7u = 7 \\rightarrow u = 1 \\rightarrow x = 1$. Substitute $u = 1$: $1 - 4v = -3 \\rightarrow 4v = 4 \\rightarrow v = 1 \\rightarrow y = 1$.\n\n**Common mistake:** Students often leave the answers as $u$2$v$2$x$2$y$."
+      "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. The system becomes:\n$3u + 2v = 5$\n\nu - 4v = -3\n\nMultiply the first by 2: $6u + 4v = 10$. Add to second equation: $7u = 7 \\rightarrow u = 1 \\rightarrow x = 1$. Substitute $u = 1$: $1 - 4v = -3 \\rightarrow 4v = 4 \\rightarrow v = 1 \\rightarrow y = 1$.\n\n**Common mistake:** Students often leave the answers as $u$ and $v2x$ and $y$."
     },
     {
       "id": "2-5-2-6-simultaneous-equations-hard-q3",
@@ -45,7 +45,7 @@
         "No real solutions"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate $x$2$2x = 3y + 9 \\rightarrow x = 1.5y + 4.5$. Let's instead isolate $y$2$3y = 2x - 9 \\rightarrow y = \\frac{2x - 9}{3}$. Substitute into quadratic: $x^2 - x\\left(\\frac{2x - 9}{3}\\right) = 4 \\rightarrow 3x^2 - (2x^2 - 9x) = 12 \\rightarrow x^2 + 9x - 12 = 0$. Using quadratic formula for $x^2+9x-12=0$, roots are $x = 4$ or $x = -1$ if we adjusted equation to $x^2 - 3x - 4 = 0$. Let's adjust the system to make roots perfectly clean integers: Let $y = 2x - 5$ and $x^2 - xy = 4 \\rightarrow x^2 - x(2x - 5) = 4 \\rightarrow -x^2 + 5x - 4 = 0 \\rightarrow x^2 - 5x + 4 = 0 \\rightarrow (x-4)(x-1)=0$. So $x=4$ or $x=1$. If $x=4, y=3$; if $x=1, y=-3$. Let's adjust the choices and question stem to fit this clean path.\n\n**Common mistake:** When substituting expressions with $\\frac{tions}{}$, expanding brackets with negative signs outside is highly prone to calculation errors."
+      "explanation": "Isolate $x$. $2x = 3y + 9 \\rightarrow x = 1.5y + 4.5$. Let's instead isolate $y$. $3y = 2x - 9 \\rightarrow y = \\frac{2x - 9}{3}$. Substitute into quadratic: $x^2 - x\\left(\\frac{2x - 9}{3}\\right) = 4 \\rightarrow 3x^2 - (2x^2 - 9x) = 12 \\rightarrow x^2 + 9x - 12 = 0$. Using quadratic formula for $x^2+9x-12=0$, roots are $x = 4$ or $x = -1$ if we adjusted equation to $x^2 - 3x - 4 = 0$. Let's adjust the system to make roots perfectly clean integers: Let $y = 2x - 5$ and $x^2 - xy = 4 \\rightarrow x^2 - x(2x - 5) = 4 \\rightarrow -x^2 + 5x - 4 = 0 \\rightarrow x^2 - 5x + 4 = 0 \\rightarrow (x-4)(x-1)=0$. So $x=4$ or $x=1$. If $x=4, y=3$; if $x=1, y=-3$. Let's adjust the choices and question stem to fit this clean path.\n\n**Common mistake:** When substituting expressions with $fractions$, expanding brackets with negative signs outside is highly prone to calculation errors."
     },
     {
       "id": "2-5-2-6-simultaneous-equations-hard-q4",

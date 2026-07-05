@@ -19,38 +19,22 @@ $$
 **3 — Domain and range swap**
 
 $$
-\text{Domain of } f^{-1} = \text{Range of } f, \qquad \text{Range of } f^{-1} = \text{Domain of } f
+\text{Domain of } f^{-1} = \text{Range of } f,
+$$
+
+$$
+\text{Range of } f^{-1} = \text{Domain of } f
 $$
 
 ## Steps / method
 
 1. **Check one-to-one** — if $f is many-to-one (e.g$. $2x^2$ over all reals), restrict the domain before finding $f^{-1}$.
 
-
-
-
-
-
 2. **Write** $y = f(x)$.
-
-
-
-
-
 
 3. **Rearrange** to make $x$ the subject in terms of $y$.
 
-
-
-
-
-
 4. **Swap** $x$ and $y$ so the answer is written as $f^{-1}(x) = \ldots$
-
-
-
-
-
 
 5. **State the domain** of $f^{-1}$ using the range of $f$.
 

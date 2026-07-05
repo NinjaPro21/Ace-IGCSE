@@ -24,7 +24,7 @@
     {
       "id": "15-3-integration-of-functions-of-the-form-ax-b-medium-q2",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^1 (2x + 1)^2 \\\\\\\\\\,dx.$.",
+      "question": "Evaluate $\\int_0^1 (2x + 1)^2 \\,dx.$.",
       "options": [
         "13/3",
         "4",
@@ -37,7 +37,7 @@
     {
       "id": "15-3-integration-of-functions-of-the-form-ax-b-medium-q3",
       "type": "mcq",
-      "question": "Find $\\int \\frac{3}{\\sqrt{2x - 1}} \\\\\\\\\\,dx.$.",
+      "question": "Find $\\int \\frac{3}{\\sqrt{2x - 1}} \\,dx.$.",
       "options": [
         "$3\\sqrt{2x - 1} + c$",
         "$\\frac{3}{2}\\sqrt{2x - 1} + c$",
@@ -58,12 +58,12 @@
         "$0.25(x + 1)^4$"
       ],
       "correctIndex": 0,
-      "explanation": "$f(x) = 0.25(x+1)^4 + c$2$x=0$, $0.25(1) + c = 0.75 \\implies c = 0.5$.\n\n**Common mistake:** Assuming the constant $c$2$f(0)$ directly without checking the expression at $x=0$."
+      "explanation": "$f(x) = 0.25(x+1)^4 + c$. So $x=0$, $0.25(1) + c = 0.75 \\implies c = 0.5$.\n\n**Common mistake:** Assuming the constant $c$. $f(0)$ directly without checking the expression at $x=0$."
     },
     {
       "id": "15-3-integration-of-functions-of-the-form-ax-b-medium-q5",
       "type": "mcq",
-      "question": "Determine $\\int (1 - 2x)^{1/2} \\\\\\\\\\,dx.$.",
+      "question": "Determine $\\int (1 - 2x)^{1/2} \\,dx.$.",
       "options": [
         "$-\\frac{1}{3}(1 - 2x)^{3/2} + c$",
         "$\\frac{1}{3}(1 - 2x)^{3/2} + c$",

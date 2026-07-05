@@ -279,7 +279,7 @@
         "$12.5\\text{ }Omega$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $R = V / I = 12 / 0.50 = 24\\text{ }Omega$. \n\n**Common mistake:** Multiplying $12$ by $0.5$ to get $6.0\\text{ }Omega$."
+      "explanation": "Using $R = V / I = 12 / 0.50 = 24\\text{ }Omega$. \n\n**Common mistake:** Multiplying^12 by $0.5$ to get $6.0\\text{ }Omega$."
     },
     {
       "id": "ch16-electrical-quantities-medium-q22",
@@ -305,7 +305,7 @@
         "$0.20\\text{ V}$"
       ],
       "correctIndex": 0,
-      "explanation": "First, convert current to amperes: $20\\text{ mA} = 0.02\\text{ A}$. Then $V = IR = 0.02 \\times 100 = 2.0\\text{ V}$. \n\n**Common mistake:** Using $20$ directly without converting from mA, leading to $2000\\text{ V}$."
+      "explanation": "First, convert current to amperes: $20\\text{ mA} = 0.02\\text{ A}$. Then $V = IR = 0.02 \\times 100 = 2.0\\text{ V}$. \n\n**Common mistake:** Using^20 directly without converting from mA, leading to $2000\\text{ V}$."
     },
     {
       "id": "ch16-electrical-quantities-medium-q24",
@@ -344,7 +344,7 @@
         "$0.037\\text{ kW}$"
       ],
       "correctIndex": 0,
-      "explanation": "First, calculate power in watts: $P = IV = 240\\text{ V} \\times 9.0\\text{ A} = 2160\\text{ W}$. To convert to kW, divide by $1000$: $2160 / 1000 = 2.16\\text{ kW}$.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "First, calculate power in watts: $P = IV = 240\\text{ V} \\times 9.0\\text{ A} = 2160\\text{ W}$. To convert to kW, divide by^1000: $2160 / 1000 = 2.16\\text{ kW}$.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch16-electrical-quantities-medium-q27",
@@ -370,20 +370,20 @@
         "$3.0\\text{ kWh}$"
       ],
       "correctIndex": 0,
-      "explanation": "Energy in kWh is calculated by $E = P \\times t$, where $P$ is in kW and $t is in hours$. $2E = 3\\text{ kW} \\times 2.0\\text{ h} = 6.0\\text{ kWh}$.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Energy in kWh is calculated by $E = P \\times t$, where $P$ is in kW and $t is in hours^2 2E = 3\\text{ kW} \\times 2.0\\text{ h} = 6.0\\text{ kWh}$.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch16-electrical-quantities-medium-q29",
       "type": "mcq",
       "question": "If electricity costs $$0.27$ per kWh, what is the cost of using $1.5\\text{ kWh}$ of energy?$",
       "options": [
-        "$$\n0.41\n$$",
-        "$$\n0.18\n$$",
-        "$$\n0.54\n$$",
-        "$$\n0.27\n$$"
+        "$$\n0.41\n",
+        "$$\n0.18\n",
+        "$$\n0.54\n",
+        "$$\n0.27\n"
       ],
       "correctIndex": 0,
-      "explanation": "Cost = Energy used $times$ Tariff. $1.5\\text{ kWh} times$0.27 = $0.405$, which rounds to approximately \n\n$$0.412\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Cost = Energy used $times  Tariff. 1.5\\text{ kWh} times 0.27 = 0.405$, which rounds to approximately \n\n$$0.412\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch16-electrical-quantities-medium-q30",

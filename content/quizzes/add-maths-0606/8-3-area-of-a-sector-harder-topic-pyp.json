@@ -11,7 +11,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of $r$2$36$ cm. Show that the area $A$2$A = 18r - r^2$. Hence, find the value of $r$2$80$ cm^2.",
+      "question": "A sector of a circle has a radius of $r$. $36$ cm. Show that the area $A$. So $A = 18r - r^2$. Hence, find the value of $r$. $80$ cm^2.",
       "options": [
         "$8$ cm or^10 cm",
         "$4$ cm or^20 cm",
@@ -19,12 +19,12 @@
         "$5$ cm or^16 cm"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2r + s = 36 \\implies s = 36 - 2r$2$A = 0.5rs = 0.5r(36 - 2r) = 18r - r^2$. Solving $r^2 - 18r + 80 = 0$ gives $(r-8)(r-10) = 0$.\n\n**Common mistake:** Option B contains roots that sum to^24, which would occur with a different perimeter value."
+      "explanation": "$P = 2r + s = 36 \\implies s = 36 - 2r$. So $A = 0.5rs = 0.5r(36 - 2r) = 18r - r^2$. Solving $r^2 - 18r + 80 = 0$ gives $(r-8)(r-10) = 0$.\n\n**Common mistake:** Option B contains roots that sum to^24, which would occur with a different perimeter value."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "The diagram shows a right-angled triangle $ABC$2$AB = 6$ cm and $BC = 8$ cm. A sector with center $A$2$AB$2$\\theta = 0.6$ radians. Calculate the area of the shaded region inside the triangle but outside the sector.",
+      "question": "The diagram shows a right-angled triangle $ABC$. So $AB = 6$ cm and $BC = 8$ cm. A sector with center $A$. $AB2\\theta = 0.6$ radians. Calculate the area of the shaded region inside the triangle but outside the sector.",
       "options": [
         "$13.2$ cm^2",
         "$24$ cm^2",
@@ -37,7 +37,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of the central angle $\\theta$2$5$ cm is strictly between^25 cm^2 and^50 cm^2.",
+      "question": "Find the set of values of the central angle $\\theta$. $5$ cm is strictly between^25 cm^2 and^50 cm^2.",
       "options": [
         "$2 < \\theta < 4$",
         "$1 < \\theta < 2$",
@@ -50,7 +50,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "A sector has a radius of $r$2$20$% and the central angle is decreased by^10%, calculate the percentage increase in the area of the sector.",
+      "question": "A sector has a radius of $r$. $20$% and the central angle is decreased by^10%, calculate the percentage increase in the area of the sector.",
       "options": [
         "$29.6$ %",
         "$10$ %",
@@ -58,12 +58,12 @@
         "$30$ %"
       ],
       "correctIndex": 0,
-      "explanation": "New area $A' = 0.5(1.2r)²(0.9\\theta) = 0.5(1.44r^2)(0.9\\theta) = 1.296 A$2$29.6$%.\n\n**Common mistake:** Option B is a simple linear subtraction ($20 - 10$) which ignores the squaring of the radius scaling factor."
+      "explanation": "New area $A' = 0.5(1.2r)²(0.9\\theta) = 0.5(1.44r^2)(0.9\\theta) = 1.296 A$. $29.6$%.\n\n**Common mistake:** Option B is a simple linear subtraction ($20 - 10$) which ignores the squaring of the radius scaling factor."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Given that a sector has a perimeter of $4r$2$r^2$.",
+      "question": "Given that a sector has a perimeter of $4r$. $r^2$.",
       "options": [
         "$1 : 1$",
         "$1 : 2$",

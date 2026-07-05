@@ -17,7 +17,9 @@ The numbers in row $n$ add to $2^n$.
 ## Steps / method
 
 1. **Start** with 1 at the top; each row begins and ends with 1.
+
 2. **Fill** internal entries by adding the two numbers directly above.
+
 3. **Expand** $(a+b)^n$ using row $n$ coefficients, from $a^n$ down to $b^n$.
 
 ### Key rule

@@ -13,7 +13,9 @@ $$
 ## Steps / method
 
 1. **Identify** $n$ (total items) and $r$ (items to select).
+
 2. **Check** whether swapping two selected items gives a different outcome — if yes, use permutations.
+
 3. **Substitute** into the permutation formula, or use the box method for restricted questions.
 
 ### Key rule
@@ -26,7 +28,7 @@ Question: A club of 10 members needs a Chairperson and a Treasurer. In how many 
 
 Order matters because the roles are different — $n = 10$ and $r = 2$
 
-${}_{10}P_2 = \dfrac{10!}{8!} = 10 \times 9 = 90$
+${}_{10}P_2 = \frac{10!}{8!} = 10 \times 9 = 90$
 
 ## Worked example — Restrictions
 

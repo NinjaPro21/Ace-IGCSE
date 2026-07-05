@@ -19,7 +19,9 @@ Treat the group as one block: (external arrangements) $\times$ (internal arrange
 ## Steps / method
 
 1. **Together** — treat the group as a single block, count external arrangements, then multiply by arrangements within the block.
+
 2. **Apart** — use complementary counting (total minus together), or the slot method for vowels/consonants.
+
 3. **Identical items** — divide $n!$ by the factorial of each repeated count.
 
 ### Key rule
@@ -40,9 +42,7 @@ Total $= 24 \times 2 = 48$.
 
 Question: Find the number of arrangements of the letters in "APPLE".
 
-Total letters $n = 5$. Letter P appears twice.
-
-$\dfrac{5!}{2!} = \dfrac{120}{2} = 60$
+Total letters $n = 5. Letter P appears twice$. $2\frac{5!}{2!} = \frac{120}{2} = 60$
 
 ## Examiner tip
 
@@ -50,4 +50,4 @@ If a question says "no two vowels are together," do not just subtract the "all t
 
 ## Quick check
 
-The word "BANANA" has $\dfrac{6!}{3!\,2!} = 60$ distinct arrangements.
+The word "BANANA" has $\frac{6!}{3!\,2!} = 60$ distinct arrangements.

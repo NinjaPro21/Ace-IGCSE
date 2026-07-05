@@ -11,7 +11,7 @@
     {
       "id": "1-7-standard-form-pyp-q1",
       "type": "mcq",
-      "question": "Find the value of $p$2$8.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n$.",
+      "question": "Find the value of $p^2 8.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n$.",
       "options": [
         "9.0",
         "14.4",
@@ -19,7 +19,7 @@
         "9.4"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite $6 \\times 10^{n-1}$ as $0.6 \\times 10^n$2$10^n$2$(8.4 + 0.6) \\times 10^n = 9.0 \\times 10^n$2$p = 9.0$.\n\n**Common mistake:** Students frequently add coefficients directly across differing index orders, erroneously concluding that $p = 14.4$ or $8.46$."
+      "explanation": "Rewrite $6 \\times 10^{n-1}$ as $0.6 \\times 10^n$. $10^n2(8.4 + 0.6) \\times 10^n = 9.0 \\times 10^n$. So $p = 9.0$.\n\n**Common mistake:** Students frequently add coefficients directly across differing index orders, erroneously concluding that $p = 14.4$ or $8.46$."
     },
     {
       "id": "1-7-standard-form-pyp-q2",
@@ -45,7 +45,7 @@
         "$1.8 \\times 10^{8}$"
       ],
       "correctIndex": 0,
-      "explanation": "Distance is calculated via speed $\\times$2$60$ seconds, so $(3 \\times 10^{8}) \\times 60 = 180 \\times 10^{8} = 1.8 \\times 10^{10}\\text{ m}$.\n\n**Common mistake:** Students often multiply by 6 instead of 60, or fail to adjust the standard form power properly, giving $1.8 \\times 10^{9}$."
+      "explanation": "Distance is calculated via speed $\\times^2 60$ seconds, so $(3 \\times 10^{8}) \\times 60 = 180 \\times 10^{8} = 1.8 \\times 10^{10}\\text{ m}$.\n\n**Common mistake:** Students often multiply by 6 instead of 60, or fail to adjust the standard form power properly, giving $1.8 \\times 10^{9}$."
     },
     {
       "id": "1-7-standard-form-pyp-q4",

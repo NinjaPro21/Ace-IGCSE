@@ -11,12 +11,12 @@
     {
       "id": "12-tangents-and-normals-easy-q1",
       "type": "mcq",
-      "question": "Given the curve $y = x^2 + 5x$2$x = 2$.",
+      "question": "Given the curve $y = x^2 + 5x$. So $x = 2$.",
       "options": [
         "$9$",
         "$14$",
         "$4$",
-        "$2$"
+        "2"
       ],
       "correctIndex": 0,
       "explanation": "The gradient function is $\\frac{dy}{dx} = 2x + 5$. Substituting $x = 2$ gives $2(2) + 5 = 9$.\n\n**Common mistake:** Option B is the value of the function $y(2)$, not the gradient $\\frac{dy}{dx}$."
@@ -32,7 +32,7 @@
         "$-0.25$"
       ],
       "correctIndex": 0,
-      "explanation": "The gradient of the normal $m_n$2$m_t$2$m_n = -1/(-4) = 0.25$.\n\n**Common mistake:** Option C is just the negative of the tangent gradient, forgetting the reciprocal part of the perpendicular rule."
+      "explanation": "The gradient of the normal $m_n$. $m_t2m_n = -1/(-4) = 0.25$.\n\n**Common mistake:** Option C is just the negative of the tangent gradient, forgetting the reciprocal part of the perpendicular rule."
     },
     {
       "id": "12-tangents-and-normals-easy-q3",
@@ -71,7 +71,7 @@
         "Undefined"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of a constant is^0. A horizontal line has a gradient of^0 at every point.\n\n**Common mistake:** Option B is the value of the constant itself, confusing height with slope."
+      "explanation": "The derivative of a constant is $1$. A horizontal line has a gradient of^0 at every point.\n\n**Common mistake:** Option B is the value of the constant itself, confusing height with slope."
     }
   ]
 }

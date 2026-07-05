@@ -63,15 +63,15 @@
     {
       "id": "7-4-constructions-easy-q5",
       "type": "mcq",
-      "question": "When constructing a triangle with sides $a, b,$ and $c$2$a$ must have radii equal to which lengths?",
+      "question": "When constructing a triangle with sides $a, b,$ and $c$ and $a$ must have radii equal to which lengths?",
       "options": [
-        "$b$2$c$",
-        "$a$2$b$",
-        "$a$2$c$",
+        "$b$ and $c$",
+        "$a$ and $b$",
+        "$a$ and $c$",
         "$a, b,$ and $c$"
       ],
       "correctIndex": 0,
-      "explanation": "To find the third vertex, you draw one arc of radius $b$2$a$2$c$ from the other end.\n\n**Common mistake:** A student might use the same radius for both arcs, resulting in an isosceles triangle regardless of the requested dimensions."
+      "explanation": "To find the third vertex, you draw one arc of radius $b$ and $a2c$ from the other end.\n\n**Common mistake:** A student might use the same radius for both arcs, resulting in an isosceles triangle regardless of the requested dimensions."
     }
   ]
 }

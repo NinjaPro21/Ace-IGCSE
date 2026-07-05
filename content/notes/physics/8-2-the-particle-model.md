@@ -7,9 +7,48 @@ Why does a solid block of ice stay put, while liquid water flows and gas expands
 - **Atoms and molecules**: The tiny particles that make up all matter; most atoms join together to form molecules.
 - **Kinetic particle model**: A theory stating that matter consists of particles in constant random motion.
 - **Lattice vibration**: The vibration of particles about fixed positions in a solid.
-- **Absolute zero**: The lowest possible temperature ($-273^\circ\text{C}$ or $0 \text{ K}$), where particles have the least kinetic energy.
+- **Absolute zero**: The lowest possible temperature ($-273^\circ\text{C}$ or $0\ \text{K}$), where particles have the least kinetic energy.
 - **Brownian motion**: The random movement of microscopic particles in a fluid (liquid or gas) caused by collisions with the light, fast-moving molecules of the fluid.
 - **Fluid**: Any substance that can flow — specifically liquids and gases — because their particles are free to move.
+
+## Particle arrangement and movement
+
+The properties of matter are determined by the distances and forces between its particles.
+
+**Solid**
+
+- Closely packed, usually in a regular pattern.
+- Particles vibrate about fixed positions.
+- Strong attractive forces; particles are very close together.
+
+**Liquid**
+
+- Randomly arranged, slightly further apart than in solids.
+- Particles are free to move within the liquid.
+- Moderately strong attractive forces.
+
+**Gas**
+
+- Randomly arranged, far apart from one another.
+- Particles move randomly at high speeds.
+- Negligible attractive forces.
+
+## Temperature and kinetic energy
+
+- **Heating**: When an object is heated, its particles gain average kinetic energy and move or vibrate faster.
+- **Cooling**: When an object is cooled, particles lose kinetic energy and move more slowly.
+- **Absolute zero**: At $-273^\circ\text{C}$, particles reach their minimum energy state.
+
+## Brownian motion — evidence for the model
+
+Because particles are too small to see even with a microscope, we use Brownian motion as evidence of their existence and motion.
+
+**The smoke cell experiment**
+
+- **Set-up**: A glass cell containing smoke is placed under a microscope and illuminated with a torch.
+- **Observation**: Smoke particles appear as bright dots moving in a random, jiggling manner.
+- **Explanation**: Visible smoke particles are constantly hit by invisible, fast-moving air molecules.
+- **Factors**: Motion becomes more vigorous at higher temperatures; larger smoke particles move less vigorously.
 
 ## Graphs & diagrams
 
@@ -52,11 +91,21 @@ Why does a solid block of ice stay put, while liquid water flows and gas expands
       <text x="270" y="145" text-anchor="middle" font-size="10" fill="#f97316">further apart</text>
     </svg><p class="enlight-physics-diagram__caption">Particle model — heating increases average kinetic energy; particles vibrate or move faster and push further apart (they do not grow in size).</p></div>
 
+## Worked example — Explaining properties
+
+Question: Using the kinetic particle model, explain (a) why a liquid takes the shape of its container and (b) why the smell of perfume spreads throughout a room.
+
+**Solution (a):** In a liquid, particles are free to move around each other and attractive forces are weaker than in a solid. They flow and slide over one another until they take the shape of the container.
+
+**Solution (b):** Perfume molecules are constantly hit by fast-moving air molecules in all directions. These random collisions spread the perfume throughout the room (Brownian motion).
+
 ## Common mistakes
 
-- **Particles expanding**: Thinking that particles themselves get bigger when heated — only the space between them increases.
-- **Solid Brownian motion**: Believing Brownian motion occurs in solids; it only occurs in fluids because particles must be free to move.
-- **Vibration vs. movement**: Forgetting that particles in a solid still move (vibrate) even though they have fixed positions.
+**Particles expanding**: Thinking that particles themselves get bigger when heated — only the space between them increases.
+
+**Solid Brownian motion**: Believing Brownian motion occurs in solids; it only occurs in fluids because particles must be free to move.
+
+**Vibration vs. movement**: Forgetting that particles in a solid still move (vibrate) even though they have fixed positions.
 
 ## Examiner tip
 
@@ -69,46 +118,3 @@ What is the evidence for the continuous random motion of particles in a fluid?
 At what temperature (in $^\circ\text{C}$) do particles have the least kinetic energy?
 
 Why can gases be compressed easily while solids cannot?
-
-## Particle arrangement and movement
-
-The properties of matter are determined by the distances and forces between its particles.
-
-**Solid**
-- Closely packed, usually in a regular pattern.
-- Particles vibrate about fixed positions.
-- Strong attractive forces; particles are very close together.
-
-**Liquid**
-- Randomly arranged, slightly further apart than in solids.
-- Particles are free to move within the liquid.
-- Moderately strong attractive forces.
-
-**Gas**
-- Randomly arranged, far apart from one another.
-- Particles move randomly at high speeds.
-- Negligible attractive forces.
-
-## Temperature and kinetic energy
-
-- **Heating**: When an object is heated, its particles gain average kinetic energy and move or vibrate faster.
-- **Cooling**: When an object is cooled, particles lose kinetic energy and move more slowly.
-- **Absolute zero**: At $-273^\circ\text{C}$, particles reach their minimum energy state.
-
-## Brownian motion — evidence for the model
-
-Because particles are too small to see even with a microscope, we use Brownian motion as evidence of their existence and motion.
-
-**The smoke cell experiment**
-- **Set-up**: A glass cell containing smoke is placed under a microscope and illuminated with a torch.
-- **Observation**: Smoke particles appear as bright dots moving in a random, jiggling manner.
-- **Explanation**: Visible smoke particles are constantly hit by invisible, fast-moving air molecules.
-- **Factors**: Motion becomes more vigorous at higher temperatures; larger smoke particles move less vigorously.
-
-## Worked example — Explaining properties
-
-Question: Using the kinetic particle model, explain (a) why a liquid takes the shape of its container and (b) why the smell of perfume spreads throughout a room.
-
-Solution (a): In a liquid, particles are free to move around each other and attractive forces are weaker than in a solid. They flow and slide over one another until they take the shape of the container.
-
-Solution (b): Perfume molecules are constantly hit by fast-moving air molecules in all directions. These random collisions spread the perfume throughout the room (Brownian motion).

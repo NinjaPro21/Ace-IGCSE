@@ -6,24 +6,31 @@ Coordinate geometry uses algebraic formulas to analyze points, line segments, an
 
 $$
 \text{Gradient (Slope) Equation:} \quad m = \frac{y_2 - y_1}{x_2 - x_1}
-
+$$
+$$
 \text{Midpoint Coordinate Formula:} \quad M = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
-
+$$
+$$
 \text{Line Segment Length (Pythagoras):} \quad d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 240" width="280" height="240" role="img" aria-label="Coordinate plane">
-      <line x1="140" y1="20" x2="140" y2="220" stroke="#94a3b8"/>
-      <line x1="20" y1="120" x2="260" y2="120" stroke="#94a3b8"/>
-      <circle cx="200" cy="70" r="5" fill="#2563eb"/>
-      <line x1="200" y1="70" x2="200" y2="120" stroke="#64748b" stroke-dasharray="3 2"/>
-      <line x1="140" y1="70" x2="200" y2="70" stroke="#64748b" stroke-dasharray="3 2"/>
-      <text x="205" y="65" font-size="10" fill="#2563eb">(x, y)</text>
-    </svg></div>
-
-Coordinate plane — read $(x, y)$ from horizontal then vertical; gradient = rise ÷ run.
+<div class="enlight-physics-diagram"><svg viewBox="0 0 320 240" width="320" height="240" role="img" aria-label="Line segment on coordinate plane">
+      <line x1="160" y1="20" x2="160" y2="220" stroke="#e8e2d8"/>
+      <line x1="20" y1="180" x2="300" y2="180" stroke="#e8e2d8"/>
+      <line x1="80" y1="200" x2="240" y2="80" stroke="#5b8def" stroke-width="2.5"/>
+      <circle cx="80" cy="200" r="5" fill="#5b8def"/>
+      <circle cx="240" cy="80" r="5" fill="#5b8def"/>
+      <circle cx="160" cy="140" r="5" fill="#b59a73"/>
+      <text x="68" y="215" font-size="10" fill="#5b8def">(x₁, y₁)</text>
+      <text x="248" y="75" font-size="10" fill="#5b8def">(x₂, y₂)</text>
+      <text x="168" y="135" font-size="10" fill="#b59a73">M</text>
+      <line x1="80" y1="200" x2="160" y2="140" stroke="#a8a29e" stroke-dasharray="3 2"/>
+      <line x1="160" y1="140" x2="160" y2="200" stroke="#a8a29e" stroke-dasharray="3 2"/>
+      <text x="118" y="175" font-size="9" fill="#6b6b6b">rise</text>
+      <text x="165" y="195" font-size="9" fill="#6b6b6b">run</text>
+    </svg><p class="enlight-physics-diagram__caption">Line segment — gradient $m = \frac{y_2 - y_1}{x_2 - x_1}$; midpoint is the average of the coordinates.</p></div>
 
 ## Steps / method
 
@@ -67,4 +74,4 @@ Simplify the denominator: $m = \frac{k - 3}{4}$.
 
 Substitute the given gradient value ($m = 2$) into the equation: $2 = \frac{k - 3}{4}$.
 
-Multiply both sides by $4$ to clear the fraction: $8 = k - 3$. Add $3$ to both sides to find the value of $k$. So $k = 11$.
+Multiply both sides by $4$ to clear the fraction: $8 = k - 3$. Add $3$ to both sides to find the value of $k$ when $2$.

@@ -118,74 +118,41 @@ $$
 
 $$
 \frac{d}{dx}(\cos^n x) = -n\cos^{n-1}x\sin x
-
-\frac{d}{dx}(\tan^n x) = n\tan^{n-1}x\sec^2 x
 $$
 
+$$
+\frac{d}{dx}(\tan^n x) = n\tan^{n-1}x\sec^2 x
+$$
 
 ## Steps / method
 
 1. **Check the angle** — is it $x$, $ax$, or $ax+b$? Is there a constant $k$ outside?
 
-
-
-
-
-
-
-
-
-
-
  2. **Identify $a$** — the coefficient of $x$ inside the bracket (if there is no bracket, $a = 1$).
-
-
-
-
-
-
-
-
-
-
 
  3. **Differentiate the trig function** — $\sin \to \cos$, $\cos \to -\sin$, $\tan \to \sec^2$.
 
-
-
-
-
-
-
-
-
-
-
  4. **Apply the chain rule** — multiply by $a$ (and by $k$ if present).
-
-
-
-
-
-
-
-
-
-
 
  5. **For powers** — rewrite as $(\text{trig}\,x)^n$, use the power rule on the outside, then multiply by the inner derivative.
 
 ## Worked example — Layer 1 (Basic)
 
-Question: Find $\frac{dy}{dx}$ when $y = \tan x - 3\cos x$. Differentiate term by term: $$
-$\frac{dy}{dx} = \sec^2 x - 3(-\sin x) = \sec^2 x + 3\sin x$
+Question: Find $\frac{dy}{dx}$ when $y = \tan x - 3\cos x$. Differentiate term by term:
+
+$$
+\frac{dy}{dx} = \sec^2 x - 3(-\sin x) = \sec^2 x + 3\sin x
+$$
 
 ## Worked example — Layer 2 (Constant multiple)
 
 Question: Differentiate $y = 5\sin x$.
 
-The constant stays: $$
-$\frac{dy}{dx} = 5\cos x$
+The constant stays:
+
+$$
+\frac{dy}{dx} = 5\cos x
+$$
 
 ## Worked example — Layer 3 ($\cos(ax)$)
 
@@ -235,8 +202,11 @@ $$
 
 ## Worked example — Tangent with shift
 
-Question: Find $\frac{dy}{dx}$ when $y = 2\tan\left(x + \frac{\pi}{4}\right)$. Here $a = 1$ and $k = 2$: $$
-$\frac{dy}{dx} = 2\sec^2\left(x + \frac{\pi}{4}\right)$
+Question: Find $\frac{dy}{dx}$ when $y = 2\tan\left(x + \frac{\pi}{4}\right)$. Here $a = 1$ and $k = 2$:
+
+$$
+\frac{dy}{dx} = 2\sec^2\left(x + \frac{\pi}{4}\right)
+$$
 
 ## Common mistakes
 

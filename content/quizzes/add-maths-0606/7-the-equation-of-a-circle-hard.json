@@ -24,7 +24,7 @@
     {
       "id": "7-the-equation-of-a-circle-hard-q2",
       "type": "mcq",
-      "question": "Find the equation of the circle that touches the $x$2$(4, 0)$ and also passes through the point $(0, 8)$.",
+      "question": "Find the equation of the circle that touches the $x$. $(4, 0)$ and also passes through the point $(0, 8)$.",
       "options": [
         "$(x - 4)² + (y - 5)² = 25$",
         "$(x - 4)² + (y - 4)² = 16$",
@@ -32,7 +32,7 @@
         "$(x - 5)² + (y - 4)² = 25$"
       ],
       "correctIndex": 0,
-      "explanation": "If it touches the $x$2$(4, 0)$, the centre is $(4, r)$ and radius is $r$2$(0-4)² + (8-r)² = r^2 \\Rightarrow 16 + 64 - 16r + r^2 = r^2 \\Rightarrow 16r = 80 \\Rightarrow r = 5$.\n\n**Common mistake:** Setting the centre to $(4, 0)$ or assuming the radius is 4 based on the $x$-intercept."
+      "explanation": "If it touches the $x$. $(4, 0)$, the centre is $(4, r)$ and radius is $r$. $(0-4)² + (8-r)² = r^2 \\Rightarrow 16 + 64 - 16r + r^2 = r^2 \\Rightarrow 16r = 80 \\Rightarrow r = 5$.\n\n**Common mistake:** Setting the centre to $(4, 0)$ or assuming the radius is 4 based on the $x$-intercept."
     },
     {
       "id": "7-the-equation-of-a-circle-hard-q3",
@@ -50,7 +50,7 @@
     {
       "id": "7-the-equation-of-a-circle-hard-q4",
       "type": "mcq",
-      "question": "Determine the set of values of $k$2$x^2 + y^2 - 4x + 6y + k = 0$ represents a real circle.",
+      "question": "Determine the set of values of $k$. So $x^2 + y^2 - 4x + 6y + k = 0$ represents a real circle.",
       "options": [
         "$k < 13$",
         "$k \\leq 13$",
@@ -58,7 +58,7 @@
         "$k < 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete square: $(x-2)² + (y+3)² = 4 + 9 - k = 13 - k$2$r^2 > 0$, so $13 - k > 0 \\Rightarrow k < 13$.\n\n**Common mistake:** Including the boundary $k=13$, which results in a point-circle (radius 0) rather than a real circle."
+      "explanation": "Complete square: $(x-2)² + (y+3)² = 4 + 9 - k = 13 - k$. $r^2 > 0$, so $13 - k > 0 \\Rightarrow k < 13$.\n\n**Common mistake:** Including the boundary $k=13$, which results in a point-circle (radius 0) rather than a real circle."
     },
     {
       "id": "7-the-equation-of-a-circle-hard-q5",

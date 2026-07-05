@@ -8,29 +8,9 @@ $\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx}$
 
 ## Steps / method
 
-1. **Define $u$ and $u$ be the expression inside the brackets. 2. **Differentiate the outer** — treat $u$. $\frac{dy}{du}$).
-
-
-
-
-
-
-
-
-
-
+1. **Define $u$ and $u$ be the expression inside the brackets. 2. **Differentiate the outer** — treat $u$(2 $).$
 
  3. **Differentiate the inner** — find $\frac{du}{dx}$.
-
-
-
-
-
-
-
-
-
-
 
  4. **Multiply** — $\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx}$.
 

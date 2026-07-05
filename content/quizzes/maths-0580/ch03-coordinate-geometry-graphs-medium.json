@@ -71,7 +71,7 @@
         "$22.5\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "The linear ratio between maps is $20\\,000 : 5\\,000 = 4 : 1$. Therefore, lengths on the new map are $4$ times longer, making areas $4^2 = 16$ times larger. New map area = $4.5 \\times 16 = 72\\text{ cm}^2$.\n\n**Common mistake:** Multiplying the map area by the linear map factor ratio ($4$) instead of the area map factor ratio ($16$)."
+      "explanation": "The linear ratio between maps is $20\\,000 : 5\\,000 = 4 : 1$. Therefore, lengths on the new map are^4 times longer, making areas $4^2 = 16$ times larger. New map area = $4.5 \\times 16 = 72\\text{ cm}^2$.\n\n**Common mistake:** Multiplying the map area by the linear map factor ratio ($4$) instead of the area map factor ratio ($16$)."
     },
     {
       "type": "mcq",
@@ -109,7 +109,7 @@
         "$y = x - 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate $y$2$2y = -x + 6$. Divide by 2: $y = -0.5x + 3$.\n\n**Common mistake:** Forgetting to change the signs when moving terms across the equals sign, resulting in $y = 0.5x + 3$.",
+      "explanation": "Isolate $y$. $2y = -x + 6$. Divide by 2: $y = -0.5x + 3$.\n\n**Common mistake:** Forgetting to change the signs when moving terms across the equals sign, resulting in $y = 0.5x + 3$.",
       "id": "ch03-coordinate-geometry-graphs-medium-q8"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "type": "mcq",
-      "question": "The cooking time **$t$2$m$2$t = \\frac{3m + 1}{4}$. Find the cooking time for a cake with a mass of **4.1 kg**.",
+      "question": "The cooking time **$t$ and $m2t = \\frac{3m + 1}{4}$. Find the cooking time for a cake with a mass of **4.1 kg**.",
       "options": [
         "3 hours 20 minutes",
         "3.33 hours",
@@ -141,28 +141,28 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q11",
       "type": "mcq",
-      "question": "Find the equation of the line that passes through the point (2,5) and has a gradient of −3.",
+      "question": "Find the equation of the line that passes through the point (2,5) and has a gradient of -3.",
       "options": [
-        "y=−3x+11",
-        "y=−3x+5",
-        "y=3x−1",
-        "y=−3x−1"
+        "y=-3x+11",
+        "y=-3x+5",
+        "y=3x-1",
+        "y=-3x-1"
       ],
       "correctIndex": 0,
-      "explanation": "Using y=mx+c, substitute m=−3 and the point (2,5): 5=−3(2)+c\nRightarrow5=−6+c\nRightarrowc=11.\n\n**Common mistake:** The student might substitute x and y incorrectly into the formula or make a sign error when solving for c."
+      "explanation": "Using y=mx+c, substitute m=-3 and the point (2,5): 5=-3(2)+c\nRightarrow5=-6+c\nRightarrowc=11.\n\n**Common mistake:** The student might substitute x and y incorrectly into the formula or make a sign error when solving for c."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q12",
       "type": "mcq",
       "question": "Rearrange the equation 4x+5y=20 into the form y=mx+c to find its gradient and y-intercept.",
       "options": [
-        "m=−0.8,c=4",
+        "m=-0.8,c=4",
         "m=0.8,c=4",
-        "m=−4,c=20",
-        "m=−0.8,c=20"
+        "m=-4,c=20",
+        "m=-0.8,c=20"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate y: 5y=−4x+20\nRightarrowy=(−4/5)x+20/5\nRightarrowy=−0.8x+4.\n\n**Common mistake:** The student may forget to divide all terms by the coefficient of y (which is 5) or fail to change the sign of 4x when moving it."
+      "explanation": "Isolate y: 5y=-4x+20\nRightarrowy=(-4/5)x+20/5\nRightarrowy=-0.8x+4.\n\n**Common mistake:** The student may forget to divide all terms by the coefficient of y (which is 5) or fail to change the sign of 4x when moving it."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q13",
@@ -172,101 +172,101 @@
         "y=3x+1",
         "y=3x+4",
         "y=2x+2",
-        "y=6x−2"
+        "y=6x-2"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient m=(10−4)/(3−1)=3. Substitute (1,4) into y=3x+c: 4=3(1)+c\nRightarrowc=1. So, y=3x+1.\n\n**Common mistake:** The student might use the point (1,4) for both x and y or miscalculate the gradient."
+      "explanation": "Gradient m=(10-4)/(3-1)=3. Substitute (1,4) into y=3x+c: 4=3(1)+c\nRightarrowc=1. So, y=3x+1.\n\n**Common mistake:** The student might use the point (1,4) for both x and y or miscalculate the gradient."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q14",
       "type": "mcq",
-      "question": "Point A has coordinates (2,−3). The midpoint of the line segment AB is (5,1). Find the coordinates of point B.",
+      "question": "Point A has coordinates (2,-3). The midpoint of the line segment AB is (5,1). Find the coordinates of point B.",
       "options": [
         "(8,5)",
-        "(3.5,−1)",
+        "(3.5,-1)",
         "(7,4)",
         "(12,5)"
       ],
       "correctIndex": 0,
-      "explanation": "Let B be (x,y). Then (2+x)/2=5\nRightarrowx=8 and (−3+y)/2=1\nRightarrowy=5.\n\n**Common mistake:** The student might treat the given midpoint as an endpoint and calculate a new midpoint between (2,−3) and (5,1)."
+      "explanation": "Let B be (x,y). Then (2+x)/2=5\nRightarrowx=8 and (-3+y)/2=1\nRightarrowy=5.\n\n**Common mistake:** The student might treat the given midpoint as an endpoint and calculate a new midpoint between (2,-3) and (5,1)."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q15",
       "type": "mcq",
-      "question": "A line $L^{1}$\nhas the equation y=2x−5. Find the gradient of any line $L^{2}$\nthat is perpendicular to $L^{1}$\n.",
+      "question": "A line $L^{1}$\nhas the equation y=2x-5. Find the gradient of any line $L^{2}$\nthat is perpendicular to $L^{1}$\n.",
       "options": [
-        "−0.5",
+        "-0.5",
         "2",
         "0.5",
-        "−2"
+        "-2"
       ],
       "correctIndex": 0,
-      "explanation": "The product of gradients of perpendicular lines is −1. If $m^{1}$\n=2, then $m^{2}$\n=−1/2=−0.5.\n\n**Common mistake:** The student might just use the negative gradient (−2) or the reciprocal (0.5) instead of the negative reciprocal."
+      "explanation": "The product of gradients of perpendicular lines is -1. If $m^{1}$\n=2, then $m^{2}$\n=-1/2=-0.5.\n\n**Common mistake:** The student might just use the negative gradient (-2) or the reciprocal (0.5) instead of the negative reciprocal."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q16",
       "type": "mcq",
-      "question": "Find the equation of the line that passes through the point (3,5) and is parallel to y=2x−1.",
+      "question": "Find the equation of the line that passes through the point (3,5) and is parallel to y=2x-1.",
       "options": [
-        "y=2x−1",
+        "y=2x-1",
         "y=2x+5",
-        "y=−0.5x+6.5",
+        "y=-0.5x+6.5",
         "y=2x+11"
       ],
       "correctIndex": 0,
-      "explanation": "Parallel lines have the same gradient, so m=2. Using y=mx+c with (3,5): 5=2(3)+c⇒5=6+c⇒c=−1. So, y=2x−1.\n\n**Common mistake:** The student might assume the y-intercept is the same as the point given (5) or calculate a perpendicular gradient instead."
+      "explanation": "Parallel lines have the same gradient, so m=2. Using y=mx+c with (3,5): 5=2(3)+c⇒5=6+c⇒c=-1. So, y=2x-1.\n\n**Common mistake:** The student might assume the y-intercept is the same as the point given (5) or calculate a perpendicular gradient instead."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q17",
       "type": "mcq",
       "question": "Determine the equation of the line passing through (4,1) that is perpendicular to y=2x+3.",
       "options": [
-        "y=−0.5x+3",
-        "y=−0.5x+1",
-        "y=2x−7",
-        "y=0.5x−1"
+        "y=-0.5x+3",
+        "y=-0.5x+1",
+        "y=2x-7",
+        "y=0.5x-1"
       ],
       "correctIndex": 0,
-      "explanation": "The perpendicular gradient is −0.5. Substituting (4,1) into y=−0.5x+c: 1=−0.5(4)+c⇒1=−2+c⇒c=3.\n\n**Common mistake:** The student might forget to change the sign when calculating the negative reciprocal or fail to solve for the correct c value."
+      "explanation": "The perpendicular gradient is -0.5. Substituting (4,1) into y=-0.5x+c: 1=-0.5(4)+c⇒1=-2+c⇒c=3.\n\n**Common mistake:** The student might forget to change the sign when calculating the negative reciprocal or fail to solve for the correct c value."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q18",
       "type": "mcq",
-      "question": "The line $L^{1}$\nhas equation 3x−y=6. Find the gradient of line $L^{2}$\nif $L^{2}$\nis perpendicular to $L^{1}$\n.",
+      "question": "The line $L^{1}$\nhas equation 3x-y=6. Find the gradient of line $L^{2}$\nif $L^{2}$\nis perpendicular to $L^{1}$\n.",
       "options": [
-        "−0.33",
+        "-0.33",
         "3",
-        "−3",
+        "-3",
         "0.33"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange $L^{1}$\n: y=3x−6. Its gradient is 3. The perpendicular gradient is the negative reciprocal: −1/3≈−0.33.\n\n**Common mistake:** The student might use the coefficient of x (3) directly from the equation without checking the sign or isolating y correctly."
+      "explanation": "Rearrange $L^{1}$\n: y=3x-6. Its gradient is 3. The perpendicular gradient is the negative reciprocal: -1/3≈-0.33.\n\n**Common mistake:** The student might use the coefficient of x (3) directly from the equation without checking the sign or isolating y correctly."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q19",
       "type": "mcq",
       "question": "Find the value of k such that the line y=kx+4 is parallel to the line 2x+y=10.",
       "options": [
-        "−2",
+        "-2",
         "2",
         "0.5",
-        "−0.5"
+        "-0.5"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange the second equation: y=−2x+10. For the lines to be parallel, their gradients must be equal, so k=−2.\n\n**Common mistake:** The student might miss the negative sign when rearranging the equation or try to find a perpendicular gradient."
+      "explanation": "Rearrange the second equation: y=-2x+10. For the lines to be parallel, their gradients must be equal, so k=-2.\n\n**Common mistake:** The student might miss the negative sign when rearranging the equation or try to find a perpendicular gradient."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q20",
       "type": "mcq",
       "question": "A line L is parallel to x+3y=12 and passes through the origin (0,0). Write the equation of L in the form y=mx+c.",
       "options": [
-        "y=−0.33x",
+        "y=-0.33x",
         "y=3x",
-        "y=−3x",
+        "y=-3x",
         "y=0.33x"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange: 3y=−x+12⇒y=−1/3x+4. Gradient is −1/3. Since it passes through (0,0), c=0. So, y=−0.33x.\n\n**Common mistake:** The student might take the coefficient of x as 1 or fail to divide the gradient by the coefficient of y (3)."
+      "explanation": "Rearrange: 3y=-x+12⇒y=-1/3x+4. Gradient is -1/3. Since it passes through (0,0), c=0. So, y=-0.33x.\n\n**Common mistake:** The student might take the coefficient of x as 1 or fail to divide the gradient by the coefficient of y (3)."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q21",
@@ -279,12 +279,12 @@
         "$(\\sqrt{16}, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "To find the $x$2$y = 0$: $0 = 2x^3 - 16 \\Rightarrow 2x^3 = 16 \\Rightarrow x^3 = 8 \\Rightarrow x = 2$.\n\n**Common mistake:** The student might forget to divide by 2 before taking the cube root or provide the $y$-intercept instead."
+      "explanation": "To find the $x$. So $y = 0$: $0 = 2x^3 - 16 \\Rightarrow 2x^3 = 16 \\Rightarrow x^3 = 8 \\Rightarrow x = 2$.\n\n**Common mistake:** The student might forget to divide by 2 before taking the cube root or provide the $y$-intercept instead."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q22",
       "type": "mcq",
-      "question": "Calculate the value of $y$2$y = 3 \\cdot 2^x$2$x = 4$.",
+      "question": "Calculate the value of $y$. So $y = 3 \\cdot 2^x2x = 4$.",
       "options": [
         "$48$",
         "$24$",
@@ -297,7 +297,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q23",
       "type": "mcq",
-      "question": "Find the $x$2$y = x^2 + 2x - 15$.",
+      "question": "Find the $x$. So $y = x^2 + 2x - 15$.",
       "options": [
         "$(3, 0)$ and $(-5, 0)$",
         "$(-3, 0)$ and $(5, 0)$",
@@ -331,12 +331,12 @@
         "$(0, 32)$"
       ],
       "correctIndex": 0,
-      "explanation": "When a quadratic is in the form $y = (x - a)² + b$2$(a, b)$. Here, $a = -6$ and $b = -4$.\n\n**Common mistake:** The student might use the sign inside the bracket directly, leading to $(6, -4)$."
+      "explanation": "When a quadratic is in the form $y = (x - a)² + b$. $(a, b)$. Here, $a = -6$ and $b = -4$.\n\n**Common mistake:** The student might use the sign inside the bracket directly, leading to $(6, -4)$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q26",
       "type": "mcq",
-      "question": "A car travels $30$ km at a constant speed of $60$ km/h and then remains stationary for $15$ minutes. Calculate the total time elapsed from the start of the journey in minutes.",
+      "question": "A car travels^30 km at a constant speed of^60 km/h and then remains stationary for^15 minutes. Calculate the total time elapsed from the start of the journey in minutes.",
       "options": [
         "$45$ minutes",
         "$30$ minutes",
@@ -344,12 +344,12 @@
         "$60$ minutes"
       ],
       "correctIndex": 0,
-      "explanation": "Time for the first part = $distance / speed = 30 / 60 = 0.5$ hours, which is $30$ minutes. Total time = $30$ mins + $15$ mins = $45$ minutes.\n\n**Common mistake:** The student might forget to convert the $0.5$ hours into minutes or add the $15$ minutes incorrectly."
+      "explanation": "Time for the first part = $distance / speed = 30 / 60 = 0.5$ hours, which is $1$ minutes. Total time = $30$ mins + $15$ mins = $45$ minutes.\n\n**Common mistake:** The student might forget to convert the $0.5$ hours into minutes or add the^15 minutes incorrectly."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q27",
       "type": "mcq",
-      "question": "The speed of a drone increases uniformly from $0$ m/s to $12$ m/s in $8$ seconds. Calculate the distance travelled by the drone during these $8$ seconds.",
+      "question": "The speed of a drone increases uniformly from^0 m/s to^12 m/s in^8 seconds. Calculate the distance travelled by the drone during these^8 seconds.",
       "options": [
         "$48$ m",
         "$96$ m",
@@ -362,7 +362,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q28",
       "type": "mcq",
-      "question": "A plumber's total charge $$C$2$t$2$(1, 80)$ and $(4, 200)$. Find the formula for $C$2$t2",
+      "question": "A plumber's total charge $$C$ and $t2(1, 80)$ and $(4, 200)$. Find the formula for $C2t2",
       "options": [
         "$C = 40t + 40$",
         "$C = 40t + 80$",
@@ -370,25 +370,25 @@
         "$C = 60t + 20$"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient $m = (200 - 80) / (4 - 1) = 120 / 3 = 40$. Substitute $(1, 80)$ into $C = 40t + k$2$80 = 40(1) + k \\Rightarrow k = 40$. So $C = 40t + 40$.\n\n**Common mistake:** A student might calculate the gradient correctly but use the $y$2$80$) as the constant $c$."
+      "explanation": "Gradient $m = (200 - 80) / (4 - 1) = 120 / 3 = 40$. Substitute $(1, 80)$ into $C = 40t + k$. $80 = 40(1) + k \\Rightarrow k = 40$. So $C = 40t + 40$.\n\n**Common mistake:** A student might calculate the gradient correctly but use the $y$. $80$) as the constant $c$."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q29",
       "type": "mcq",
-      "question": "A travel graph shows a bus journey from Town A to Town B. The bus is stationary at a bus stop from $10:15$ to $10:35$. On the horizontal time axis, where $1$ cm represents $10$ minutes, what is the length of the horizontal line representing this stop?",
+      "question": "A travel graph shows a bus journey from Town A to Town B. The bus is stationary at a bus stop from $10:15$ to $10:35$. On the horizontal time axis, where^1 cm represents^10 minutes, what is the length of the horizontal line representing this stop?",
       "options": [
-        "$2$ cm",
+        "2 cm",
         "$20$ cm",
         "$1$ cm",
         "$0.5$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "The stop lasts $20$ minutes ($10:35 - 10:15$). Since $1$ cm = $10$ minutes, $20$ minutes is represented by $2$ cm.\n\n**Common mistake:** A student might miscalculate the time interval or confuse the scale."
+      "explanation": "The stop lasts^20 minutes ($10:35 - 10:15$). Since^1 cm = $10$ minutes, $20$ minutes is represented by 2 cm.\n\n**Common mistake:** A student might miscalculate the time interval or confuse the scale."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q30",
       "type": "mcq",
-      "question": "Runner A starts at $0$ m at $t=0$ and runs at $4$ m/s. Runner B starts at $30$ m at $t=0$ and runs at $2$ m/s in the same direction. At what time $t$ will Runner A overtake Runner B?",
+      "question": "Runner A starts at^0 m at $t=0$ and runs at^4 m/s. Runner B starts at^30 m at $t=0$ and runs at2m/s in the same direction. At what time t will Runner A overtake Runner B?",
       "options": [
         "$t = 15$ seconds",
         "$t = 10$ seconds",
@@ -396,7 +396,7 @@
         "$t = 5$ seconds"
       ],
       "correctIndex": 0,
-      "explanation": "Equations: $d_A = 4t$2$d_B = 2t + 30$. Set them equal: $4t = 2t + 30 \\Rightarrow 2t = 30 \\Rightarrow t = 15$.\n\n**Common mistake:** The student might add the speeds ($6$ m/s) or subtract the starting position from the wrong variable."
+      "explanation": "Equations: $d_A = 4t$. So $d_B = 2t + 30$. Set them equal: $4t = 2t + 30 \\Rightarrow 2t = 30 \\Rightarrow t = 15$.\n\n**Common mistake:** The student might add the speeds ($6$ m/s) or subtract the starting position from the wrong variable."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q31",
@@ -405,11 +405,11 @@
       "options": [
         "$4$",
         "$5$",
-        "$2$",
+        "2",
         "$-4$"
       ],
       "correctIndex": 0,
-      "explanation": "Setting the equations equal: $2x - 3 = x + 1 \\Rightarrow x = 4$. Graphically, the lines intersect at $(4, 5)$.\n\n**Common mistake:** The student might find the $y$2$5$) instead of the $x$-coordinate."
+      "explanation": "Setting the equations equal: $2x - 3 = x + 1 \\Rightarrow x = 4$. Graphically, the lines intersect at $(4, 5)$.\n\n**Common mistake:** The student might find the $y$. $5$) instead of the $x$-coordinate."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q32",
@@ -427,7 +427,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q33",
       "type": "mcq",
-      "question": "Using a graph of $y = 10/x$2$10/x = x + 3$ if the intersection points are approximately $(-4.5, -2.2)$ and $(2.2, 4.5)$.",
+      "question": "Using a graph of $y = 10/x$. $10/x = x + 3$ if the intersection points are approximately $(-4.5, -2.2)$ and $(2.2, 4.5)$.",
       "options": [
         "$2.2$",
         "$4.5$",
@@ -435,20 +435,20 @@
         "$10$"
       ],
       "correctIndex": 0,
-      "explanation": "The solutions are the $x$2$x \\approx 2.2$.\n\n**Common mistake:** The student might pick the $y$2$x$-coordinate."
+      "explanation": "The solutions are the $x$. $x \\approx 2.2$.\n\n**Common mistake:** The student might pick the $y$ and $x$-coordinate."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q34",
       "type": "mcq",
-      "question": "The function $y = 2^x$2$y = x + 2$ intersect at $x = -1.69$ and another point. Given that $2^2 = 4$ and $2 + 2 = 4$, identify the second $x$-coordinate.",
+      "question": "The function $y = 2^x$. So $y = x + 2$ intersect at $x = -1.69$ and another point. Given that $2^2 = 4$ and $2 + 2 = 4$, identify the second $x$-coordinate.",
       "options": [
-        "$2$",
+        "2",
         "$4$",
         "$0$",
         "$1$"
       ],
       "correctIndex": 0,
-      "explanation": "At $x = 2$, both $y = 2^2 = 4$ and $y = 2 + 2 = 4$. Thus, $(2, 4)$ is an intersection point, and $x = 2$ is a solution.\n\n**Common mistake:** The student might select the $y$2$4$) rather than the $x$2$2$)."
+      "explanation": "At $x = 2$, both $y = 2^2 = 4$ and $y = 2 + 2 = 4$. Thus, $(2, 4)$ is an intersection point, and $x = 2$ is a solution.\n\n**Common mistake:** The student might select the $y$. $4$) rather than the $x$. 2)."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q35",
@@ -466,7 +466,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q36",
       "type": "mcq",
-      "question": "Find the $x$2$y = x^2 - 12x + 7$.",
+      "question": "Find the $x$. So $y = x^2 - 12x + 7$.",
       "options": [
         "$6$",
         "$12$",
@@ -487,17 +487,17 @@
         "$-4$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 6x^2 - 18x$2$x = 2$, gradient $= 6(2)² - 18(2) = 24 - 36 = -12$.\n\n**Common mistake:** A common mistake is incorrectly calculating $6(2)²$ as $(12)²$ or $6 \\times 4 = 24$ but then adding $36$ instead of subtracting."
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 18x$. So $x = 2$, gradient $= 6(2)² - 18(2) = 24 - 36 = -12$.\n\n**Common mistake:** A common mistake is incorrectly calculating $6(2)²$ as $(12)²$ or $6 \\times 4 = 24$ but then adding^36 instead of subtracting."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q38",
       "type": "mcq",
-      "question": "Determine the value of $x$2$y = x^3 - 3x^2 - 9x$2$15$.",
+      "question": "Determine the value of $x$. So $y = x^3 - 3x^2 - 9x215$.",
       "options": [
         "$4$ and $-2$",
-        "$2$ and $-4$",
+        "2 and $-4$",
         "$5$ and $-1$",
-        "$15$ and $0$"
+        "$15$ and^0"
       ],
       "correctIndex": 0,
       "explanation": "$\\frac{dy}{dx} = 3x^2 - 6x - 9$. Set $3x^2 - 6x - 9 = 15 \\Rightarrow 3x^2 - 6x - 24 = 0 \\Rightarrow x^2 - 2x - 8 = 0$. Factoring $(x-4)(x+2)=0$ gives $x=4, -2$.\n\n**Common mistake:** The student might set the original function equal to 15 or make an error in factoring the quadratic."
@@ -518,9 +518,9 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q40",
       "type": "mcq",
-      "question": "The gradient of the curve $y = kx^2 - 4x$2$x = 3$ is $8$. Find the value of $k$.",
+      "question": "The gradient of the curve $y = kx^2 - 4x$. So $x = 3$ is $1$. Find the value of $k$.",
       "options": [
-        "$2$",
+        "2",
         "$1$",
         "$4$",
         "$12$"

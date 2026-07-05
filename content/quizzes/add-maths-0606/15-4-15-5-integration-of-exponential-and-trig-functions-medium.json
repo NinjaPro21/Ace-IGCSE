@@ -19,7 +19,7 @@
         "$y = 2e^{3x}$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating gives $y = 2e^{3x} + c$2$(0, 10)$ gives $10 = 2e^0 + c \\implies 10 = 2 + c \\implies c = 8$.\n\n**Common mistake:** Option B is chosen if the student assumes the constant $c$2$2e^0 = 2$."
+      "explanation": "Integrating gives $y = 2e^{3x} + c$. $(0, 10)$ gives $10 = 2e^0 + c \\implies 10 = 2 + c \\implies c = 8$.\n\n**Common mistake:** Option B is chosen if the student assumes the constant $c$. $2e^0 = 2$."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-medium-q2",
@@ -32,7 +32,7 @@
         "$0.5e^{2x} + 4\\cos x + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating $e^{2x-1}$ gives $0.5e^{2x-1}$. Integrating $-4\\sin x$2$-4(-\\cos x) = 4\\cos x$.\n\n**Common mistake:** Option C is a sign error where the student fails to cancel the two negative signs during the integration of sine."
+      "explanation": "Integrating $e^{2x-1}$ gives $0.5e^{2x-1}$. Integrating $-4\\sin x$. $-4(-\\cos x) = 4\\cos x$.\n\n**Common mistake:** Option C is a sign error where the student fails to cancel the two negative signs during the integration of sine."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-medium-q3",
@@ -45,20 +45,20 @@
         "$\\sin(x + \\frac{\\pi}{8}) + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Following the rule for $\\cos(ax+b)$, we multiply by $1/a$2$a=4$, so the multiplier is $0.25$.\n\n**Common mistake:** Option B is a sign error, confusing the integral of cosine with the integral of sine."
+      "explanation": "Following the rule for $\\cos(ax+b)$, we multiply by $1/a$. So $a=4$, so the multiplier is $0.25$.\n\n**Common mistake:** Option B is a sign error, confusing the integral of cosine with the integral of sine."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-medium-q4",
       "type": "mcq",
-      "question": "The gradient of a curve is $2\\cos(0.5x)$. If the curve passes through the point $(\\pi, 6)$, find the value of $y$2$x = 0$.",
+      "question": "The gradient of a curve is $2\\cos(0.5x)$. If the curve passes through the point $(\\pi, 6)$, find the value of $y$. So $x = 0$.",
       "options": [
-        "$2$",
+        "2",
         "$6$",
         "$4$",
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating gives $y = 4\\sin(0.5x) + c$2$(\\pi, 6)$, $6 = 4\\sin(\\pi/2) + c \\implies 6 = 4(1) + c \\implies c = 2$. At $x=0$, $y = 4(0) + 2 = 2$.\n\n**Common mistake:** Option B occurs if the student stops after finding the constant $c$2$\\sin(0)$."
+      "explanation": "Integrating gives $y = 4\\sin(0.5x) + c$. $(\\pi, 6)$, $6 = 4\\sin(\\pi/2) + c \\implies 6 = 4(1) + c \\implies c = 2$. At $x=0$, $y = 4(0) + 2 = 2$.\n\n**Common mistake:** Option B occurs if the student stops after finding the constant $c$. $\\sin(0)$."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-medium-q5",

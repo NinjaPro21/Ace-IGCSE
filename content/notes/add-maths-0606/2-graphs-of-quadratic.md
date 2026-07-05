@@ -6,10 +6,11 @@ Graphing the modulus of a quadratic function involves taking its parabolic curve
 
 $$
 y = |ax^2 + bx + c|
-
-\text{Roots where } ax^2 + bx + c = 0 \text{ act as the reflection boundaries.}
 $$
 
+$$
+\text{Roots where } ax^2 + bx + c = 0 \text{ act as the reflection boundaries.}
+$$
 
 ## Steps / method
 

@@ -36,8 +36,6 @@ $$
 
 The coefficient is $-4320$.
 
-
-
 ## Worked example — Unknown $ n $
 
 The coefficient of $x^2$ in $(1 + kx)^n$ is 60. Given $n = 5$, find $k$.
@@ -47,8 +45,6 @@ T_3 = \binom{5}{2}(1)^3(kx)^2 = 10k^2 x^2
 $$
 
 So $10k^2 = 60$, hence $k^2 = 6$ and $k = \pm\sqrt{6}$.
-
-
 
 ## Examiner tip
 

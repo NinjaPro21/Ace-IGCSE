@@ -11,7 +11,7 @@
     {
       "id": "12-1-the-gradient-function-pyp-q1",
       "type": "mcq",
-      "question": "The equation of a curve is $y = 2x^2 - 12x + 7$. Find the coordinates of the point on the curve where the gradient is^8.",
+      "question": "The equation of a curve is $y = 2x^2 - 12x + 7$. Find the coordinates of the point on the curve where the gradient is $1$.",
       "options": [
         "$(5, -3)$",
         "$(5, 7)$",
@@ -19,7 +19,7 @@
         "$(5, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 4x - 12$. Setting $4x - 12 = 8 \\implies 4x = 20 \\implies x = 5$. At $x=5$, $y = 2(25) - 12(5) + 7 = 50 - 60 + 7 = -3$.\n\n**Common mistake:** Option B uses the $x$2$y$ coordinate."
+      "explanation": "$\\frac{dy}{dx} = 4x - 12$. Setting $4x - 12 = 8 \\implies 4x = 20 \\implies x = 5$. At $x=5$, $y = 2(25) - 12(5) + 7 = 50 - 60 + 7 = -3$.\n\n**Common mistake:** Option B uses the $x$ and $y$ coordinate."
     },
     {
       "id": "12-1-the-gradient-function-pyp-q2",
@@ -27,7 +27,7 @@
       "question": "Show that the gradient of the curve $y = 3x + \\frac{12}{x}$ is zero when $x = 2$. Find the other value of $x$ for which the gradient is zero.",
       "options": [
         "$-2$",
-        "$2$",
+        "2",
         "$4$",
         "$0$"
       ],
@@ -37,20 +37,20 @@
     {
       "id": "12-1-the-gradient-function-pyp-q3",
       "type": "mcq",
-      "question": "A curve has the equation $y = ax^3 + 3x^2$. Given that the gradient of the curve at $x = 1$ is^12, find the value of the constant $a$.",
+      "question": "A curve has the equation $y = ax^3 + 3x^2$. Given that the gradient of the curve at $x = 1$ is $1$, find the value of the constant $a$.",
       "options": [
-        "$2$",
+        "2",
         "$3$",
         "$6$",
         "$4$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 3ax^2 + 6x$2$x = 1$, $3a(1) + 6(1) = 12 \\implies 3a + 6 = 12 \\implies 3a = 6 \\implies a = 2$.\n\n**Common mistake:** Option B is chosen if the student forgets the factor of 3 from the power rule for $x^3$."
+      "explanation": "$\\frac{dy}{dx} = 3ax^2 + 6x$. So $x = 1$, $3a(1) + 6(1) = 12 \\implies 3a + 6 = 12 \\implies 3a = 6 \\implies a = 2$.\n\n**Common mistake:** Option B is chosen if the student forgets the factor of 3 from the power rule for $x^3$."
     },
     {
       "id": "12-1-the-gradient-function-pyp-q4",
       "type": "mcq",
-      "question": "Find the set of values of $x$2$y = 2x^3 - 6x$2$18$.",
+      "question": "Find the set of values of $x$. So $y = 2x^3 - 6x218$.",
       "options": [
         "$x < -2$ or $x > 2$",
         "$-2 < x < 2$",
@@ -63,7 +63,7 @@
     {
       "id": "12-1-the-gradient-function-pyp-q5",
       "type": "mcq",
-      "question": "Find the exact coordinates of the point on the curve $y = x^2 - \\frac{16}{x}$ where the gradient is^8.",
+      "question": "Find the exact coordinates of the point on the curve $y = x^2 - \\frac{16}{x} where the gradient is$12",
       "options": [
         "$(2, -4)$",
         "$(2, 4)$",

@@ -6,10 +6,11 @@ Permutations and combinations are methods used to count how many ways groups can
 
 $$
 \text{Permutations (Order Matters): } ^nP_r = \frac{n!}{(n-r)!}
-
-\text{Combinations (Order Doesn't Matter): } ^nC_r = \frac{n!}{r!(n-r)!}
 $$
 
+$$
+\text{Combinations (Order Doesn't Matter): } ^nC_r = \frac{n!}{r!(n-r)!}
+$$
 
 ## Steps / method
 

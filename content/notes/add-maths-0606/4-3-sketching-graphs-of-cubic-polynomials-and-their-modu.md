@@ -15,8 +15,11 @@ The roots remain at $x = a, b, c$.
 ## Steps / method
 
 1. **Find intercepts** — solve $f(x) = 0$ for $x$-intercepts; evaluate $f(0)$ for the $y$-intercept.
+
 2. **Sketch the parent cubic** — draw lightly, noting end behaviour.
+
 3. **Apply the modulus** — reflect any part where $y < 0$ across the $x$-axis.
+
 4. **Label peaks** — local minima of the parent often become local maxima after reflection.
 
 ### Key rule
@@ -29,9 +32,9 @@ Question: Sketch $y = |x(x - 2)(x + 2)|$.
 
 Roots are $x = -2, 0, 2$. The $y$-intercept is $0$.
 
-The parent cubic goes through $(-2, 0)$, peaks, through $(0, 0)$, dips between $0$ and $2$, then rises to the right.
+The parent cubic goes through $(-2, 0)$, peaks, through $(0, 0)$, dips between $0$ and 2, then rises to the right.
 
-Reflect the negative section between $0$ and $2$ upward into a peak.
+Reflect the negative section between $0$ and 2 upward into a peak.
 
 ## Worked example — Counting solutions
 

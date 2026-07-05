@@ -25,9 +25,13 @@ $$
 ## Steps / method
 
 1. **Rearrange** the linear equation to make $x$ or $y$ the subject.
+
 2. **Substitute** into the non-linear equation to eliminate one variable.
+
 3. **Expand and simplify** to standard quadratic form $ax^2 + bx + c = 0$.
+
 4. **Solve** the quadratic (factoring or formula) to find two values.
+
 5. **Substitute back** into the linear equation to find the paired coordinates.
 
 ### Key rule

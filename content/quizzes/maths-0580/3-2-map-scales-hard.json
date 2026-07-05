@@ -11,7 +11,7 @@
     {
       "id": "3-2-map-scales-hard-q1",
       "type": "mcq",
-      "question": "A map has a scale of $1 : n$2$150\\text{ m}$ by $100\\text{ m}$ has an area of $6\\text{ cm}^2$ on the map. Find the value of $n$.",
+      "question": "A map has a scale of $1 : n$. $150\\text{ m}$ by $100\\text{ m}$ has an area of $6\\text{ cm}^2$ on the map. Find the value of $n$.",
       "options": [
         "$5000$",
         "$2500$",
@@ -19,7 +19,7 @@
         "$250\\,000$"
       ],
       "correctIndex": 0,
-      "explanation": "Actual Area = $150 \\times 100 = 15\\,000\\text{ m}^2$. Area scale ratio is $6\\text{ cm}^2 : 15\\,000\\text{ m}^2 \\implies 1\\text{ cm}^2 : 2500\\text{ m}^2$. Take the square root to get the linear scale ratio: $1\\text{ cm} : \\sqrt{2500}\\text{ m} \\implies 1\\text{ cm} : 50\\text{ m}$. Convert $50\\text{ m}$ to cm: $50 \\times 100 = 5000\\text{ cm}$. Thus, $n = 5000$.\n\n**Common mistake:** Converting square meters to square centimeters incorrectly, or forgetting to square root $2500$ to find linear scale."
+      "explanation": "Actual Area = $150 \\times 100 = 15\\,000\\text{ m}^2$. Area scale ratio is $6\\text{ cm}^2 : 15\\,000\\text{ m}^2 \\implies 1\\text{ cm}^2 : 2500\\text{ m}^2$. Take the square root to get the linear scale ratio: $1\\text{ cm} : \\sqrt{2500}\\text{ m} \\implies 1\\text{ cm} : 50\\text{ m}$. Convert $50\\text{ m}$ to cm: $50 \\times 100 = 5000\\text{ cm}$. Thus, $n = 5000$.\n\n**Common mistake:** Converting square meters to square centimeters incorrectly, or forgetting to square root^2500 to find linear scale."
     },
     {
       "id": "3-2-map-scales-hard-q2",
@@ -50,7 +50,7 @@
     {
       "id": "3-2-map-scales-hard-q4",
       "type": "mcq",
-      "question": "A physical region with an area of $180\\text{ km}^2$ is represented on a map by a sector of a circle with a radius of $12\\text{ cm}$ and a sector angle of $40^\\circ$2$1 : n$2$\\pi = \\frac{22}{7}$)",
+      "question": "A physical region with an area of $180\\text{ km}^2$ is represented on a map by a sector of a circle with a radius of $12\\text{ cm}$ and a sector angle of $40^\\circ$. $1 : n2\\pi = \\frac{22}{7}$)",
       "options": [
         "$1 : 300\\,000$",
         "$1 : 100\\,000$",
@@ -63,15 +63,15 @@
     {
       "id": "3-2-map-scales-hard-q5",
       "type": "mcq",
-      "question": "On a map of scale $1 : n$2$x\\text{ cm}$ and an area of $A\\text{ cm}^2$. If both the map linear dimensions are doubled, what are the new map length and new map area expressions?",
+      "question": "On a map of scale $1 : n$. $x\\text{ cm}$ and an area of $A\\text{ cm}^2$. If both the map linear dimensions are doubled, what are the new map length and new map area expressions?",
       "options": [
-        "$2x$2$4A$",
-        "$2x$2$2A$",
-        "$4x$2$4A$",
+        "$2x$. $4A$",
+        "$2x$. $2A$",
+        "$4x$. $4A$",
         "$\\frac{x}{2}$ and $\\frac{A}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "Doubling all linear dimensions implies that lengths are scaled by a factor of $2$ ($2x$2$2^2 = 4$), resulting in $4A$.\n\n**Common mistake:** Thinking that area also doubles ($2A$) when linear components are doubled."
+      "explanation": "Doubling all linear dimensions implies that lengths are scaled by a factor of 2 ($2x$. $2^2 = 4$), resulting in $4A$.\n\n**Common mistake:** Thinking that area also doubles ($2A$) when linear components are doubled."
     }
   ]
 }

@@ -32,7 +32,7 @@
         "$15$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2r + r\\theta = 80 \\implies \\theta = (80-2r)/r$2$A = 0.5r^2((80-2r)/r) = 40r - r^2$. $dA/dr = 40 - 2r = 0 \\implies r = 20$.\n\n**Common mistake:** Option B assumes the radius is half the wire length, ignoring the arc part of the perimeter."
+      "explanation": "$P = 2r + r\\theta = 80 \\implies \\theta = (80-2r)/r$. So $A = 0.5r^2((80-2r)/r) = 40r - r^2$. $dA/dr = 40 - 2r = 0 \\implies r = 20$.\n\n**Common mistake:** Option B assumes the radius is half the wire length, ignoring the arc part of the perimeter."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-hard-q3",
@@ -50,7 +50,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Solve the simultaneous equations for a sector: its arc length is^12 cm and its area is^54 cm^2. Find the central angle $\\theta$ in radians.",
+      "question": "Solve the simultaneous equations for a sector: its arc length is $1$ cm and its area is $1$ cm^2. Find the central angle $\\theta$ in radians.",
       "options": [
         "$1.33$ radians",
         "$9$ radians",
@@ -58,12 +58,12 @@
         "$1.5$ radians"
       ],
       "correctIndex": 0,
-      "explanation": "$54 = 0.5r(12) \\implies 6r = 54 \\implies r = 9$. Then $12 = 9\\theta \\implies \\theta = 12/9 = 1.33$ (to 3 s.f.).\n\n**Common mistake:** Option B is the value of the radius $r$2$\\theta$."
+      "explanation": "$54 = 0.5r(12) \\implies 6r = 54 \\implies r = 9$. Then $12 = 9\\theta \\implies \\theta = 12/9 = 1.33$ (to 3 s.f.).\n\n**Common mistake:** Option B is the value of the radius $r$. $\\theta$."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of $e$2$\\ln(9)$ radians. Find the exact area of the sector.",
+      "question": "A sector of a circle has a radius of $e . \\ln(9)$ radians. Find the exact area of the sector.",
       "options": [
         "$e^2 \\ln(3)$ cm^2",
         "$e^2 \\ln(9)$ cm^2",

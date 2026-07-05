@@ -31,9 +31,13 @@ $$
 ## Steps / method
 
 1. **Identify** the type — exponential, sine, cosine, or sec².
+
 2. **Spot** any constant factor $k$ outside the function.
+
 3. **Integrate** using the reverse-derivative result.
+
 4. **Divide by $a$** when the inside is $ax+b$.
+
 5. **Add** $+C$.
 
 ### Key rule

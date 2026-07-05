@@ -25,8 +25,11 @@ $$
 ## Steps / method
 
 1. **Method A (squaring)** — if both sides have a modulus, square both sides to get a quadratic inequality.
+
 2. **Method B (boundaries)** — solve $|f(x)| = g(x)$ first to find critical values.
+
 3. **Test regions** — sketch or test a value from each region.
+
 4. **State the interval** — write the final answer in correct inequality notation.
 
 ### Key rule

@@ -24,7 +24,7 @@
     {
       "id": "1-6-8-4-indices-pyp-q2",
       "type": "mcq",
-      "question": "Find the value of $k$2$\\frac{x^5}{x^{-2}} = x^k$.",
+      "question": "Find the value of $k$. So $\\frac{x^5}{x^{-2}} = x^k$.",
       "options": [
         "7",
         "3",
@@ -40,17 +40,17 @@
       "question": "Evaluate the exact numerical value of $\\left(\\frac{4}{25}\\right)^{-\\frac{1}{2}}$.",
       "options": [
         "$\\frac{5}{2}$",
-        "$$\n\\frac{2}{5}\n$$",
+        "$$\n\\frac{2}{5}\n",
         "$-\\frac{2}{5}$",
-        "$$\n\\frac{25}{4}\n$$"
+        "$$\n\\frac{25}{4}\n"
       ],
       "correctIndex": 0,
-      "explanation": "The negative index tells us to invert the base $\\frac{tion:}{}$ $\\left(\\frac{25}{4}\\right)^{\\frac{1}{2}}$. Taking the square root of both numbers gives $\\frac{5}{2}$.\n\n**Common mistake:** Students often forget to invert the $\\frac{tion}{}$ and simply square root it, picking $\\frac{2}{5}$."
+      "explanation": "The negative index tells us to invert the base $fraction:$ $\\left(\\frac{25}{4}\\right)^{\\frac{1}{2}}$. Taking the square root of both numbers gives $\\frac{5}{2}$.\n\n**Common mistake:** Students often forget to invert the $fraction$ and simply square root it, picking $\\frac{2}{5}$."
     },
     {
       "id": "1-6-8-4-indices-pyp-q4",
       "type": "mcq",
-      "question": "Solve the index equation for $x$2$2^x = \\frac{1}{32}$.",
+      "question": "Solve the index equation for $x$. $2^x = \\frac{1}{32}$.",
       "options": [
         "-5",
         "5",
@@ -58,7 +58,7 @@
         "0.2"
       ],
       "correctIndex": 0,
-      "explanation": "Recognise that $32 = 2^5$. Therefore, the reciprocal $\\frac{1}{32} = 2^{-5}$. Equating powers gives $x = -5$.\n\n**Common mistake:** Students may neglect the reciprocal nature of the $\\frac{tion}{}$, choosing the positive value 5."
+      "explanation": "Recognise that $32 = 2^5$. Therefore, the reciprocal $\\frac{1}{32} = 2^{-5}$. Equating powers gives $x = -5$.\n\n**Common mistake:** Students may neglect the reciprocal nature of the $fraction$, choosing the positive value 5."
     },
     {
       "id": "1-6-8-4-indices-pyp-q5",

@@ -11,7 +11,7 @@
     {
       "id": "3-cubic-expressions-and-equations-pyp-q1",
       "type": "mcq",
-      "question": "The polynomial $f(x) = x^3 + ax^2 + bx + 12$ has factors $(x - 1)$ and $(x + 2)$. Find the values of $a$2$b$2$f(x) = 0$.",
+      "question": "The polynomial $f(x) = x^3 + ax^2 + bx + 12$ has factors $(x - 1)$ and $(x + 2)$. Find the values of $a$ and $b2f(x) = 0$.",
       "options": [
         "$a = -5, b = -8$; roots: $1, -2, 6$",
         "$a = 5, b = 8$; roots: $-1, 2, -6$",
@@ -37,7 +37,7 @@
     {
       "id": "3-cubic-expressions-and-equations-pyp-q3",
       "type": "mcq",
-      "question": "Find the values of $p$2$q$2$(x - 2)$ and $(x + 1)$ are both linear factors of $x^3 + px^2 + qx - 8$.",
+      "question": "Find the values of $p  and q2(x - 2)$ and $(x + 1)$ are both linear factors of $x^3 + px^2 + qx - 8$.",
       "options": [
         "$p = 3, q = -6$",
         "$p = -3, q = 6$",
@@ -45,12 +45,12 @@
         "$p = 3, q = 6$"
       ],
       "correctIndex": 0,
-      "explanation": "$P(2) = 8+4p+2q-8=0 \\implies q=-2p$2$P(-1) = -1+p-q-8=0 \\implies p-q=9$. Substituting gives $p-(-2p)=9$, so $p=3$ and $q=-6$.\n\n**Common mistake:** Algebraic errors in the substitution method, particularly with the sign of the constant term after substitution."
+      "explanation": "$P(2) = 8+4p+2q-8=0 \\implies q=-2p^2 So P(-1) = -1+p-q-8=0 \\implies p-q=9$. Substituting gives $p-(-2p)=9$, so $p=3$ and $q=-6$.\n\n**Common mistake:** Algebraic errors in the substitution method, particularly with the sign of the constant term after substitution."
     },
     {
       "id": "3-cubic-expressions-and-equations-pyp-q4",
       "type": "mcq",
-      "question": "Find the coordinates of the three points where the cubic curve $y = x^3 - x$2$y = 0$.",
+      "question": "Find the coordinates of the three points where the cubic curve $y = x^3 - x$. So $y = 0$.",
       "options": [
         "$(0, 0), (1, 0), (-1, 0)$",
         "$(0, 0), (1, 0), (2, 0)$",
@@ -58,7 +58,7 @@
         "$(0, 0), (\\sqrt{1}, 0), (-\\sqrt{1}, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $x^3 - x = 0$ by factoring: $x(x^2 - 1) = x(x - 1)(x + 1) = 0$. This gives $x$2$0, 1, -1$ with $y = 0$.\n\n**Common mistake:** Neglecting the origin root $(0,0)$ or only identifying a single intersection point from the quadratic part."
+      "explanation": "Solve $x^3 - x = 0$ by factoring: $x(x^2 - 1) = x(x - 1)(x + 1) = 0$. This gives $x$. $0, 1, -1$ with $y = 0$.\n\n**Common mistake:** Neglecting the origin root $(0,0)$ or only identifying a single intersection point from the quadratic part."
     },
     {
       "id": "3-cubic-expressions-and-equations-pyp-q5",
@@ -71,7 +71,7 @@
         "$x = -2, 2, -1.5$"
       ],
       "correctIndex": 0,
-      "explanation": "$P(-2) = -16+12-2k-6=0 \\implies k=-5$. Dividing gives $2x^2 - x - 3 = (2x - 3)(x + 1)$, resulting in roots $1.5$ and $-1$.\n\n**Common mistake:** Miscalculating the value of $k$2$2x^2 - x - 3$ quadratic."
+      "explanation": "$P(-2) = -16+12-2k-6=0 \\implies k=-5$. Dividing gives $2x^2 - x - 3 = (2x - 3)(x + 1)$, resulting in roots $1.5$ and $-1$.\n\n**Common mistake:** Miscalculating the value of $k$. $2x^2 - x - 3$ quadratic."
     }
   ]
 }

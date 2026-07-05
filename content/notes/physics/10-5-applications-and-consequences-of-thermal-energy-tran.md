@@ -1,26 +1,56 @@
 ## Core idea
 
-Cooking Utensils: Pots and pans are made of metals like aluminium or stainless steel to conduct heat to food quickly.
+Thermal energy transfer through conduction, convection, and radiation governs many everyday phenomena and engineering designs. By understanding how heat moves, we can create more efficient homes, safer tools, and better predict environmental processes like the greenhouse effect and sea breezes.
 
-Insulated Handles: Handles of cooking pots are made of wood or plastic (insulators) to protect hands from heat.
+## Key definitions
 
-Soldering Irons: The tips are made of copper because it is an excellent conductor that quickly transfers energy to a circuit.
+- **Thermal conductor**: Transfers energy quickly (metals) — used where heat must flow efficiently.
+- **Thermal insulator**: Transfers energy slowly (wood, plastic, air, fibreglass) — used to reduce unwanted heat transfer.
+- **Vacuum flask**: Device designed to minimise all three methods of thermal energy transfer.
 
-Sensation of Temperature: A metal floor feels colder than a carpet at the same temperature because the metal conducts thermal energy away from your feet much faster.
+## Conduction — applications
 
-Double-glazing: Windows use a layer of still air trapped between glass panes because air is an exceptional thermal insulator.
+- **Cooking utensils**: Pans made of copper or aluminium conduct heat quickly from the stove to food.
+- **Insulated handles**: Wood or plastic handles protect hands — poor conductors.
+- **Sensation of temperature**: Metal feels colder than carpet at the same temperature because metal conducts energy away from your feet faster.
+- **Double-glazing**: Trapped still air between glass panes insulates against heat loss.
+
+## Convection — applications
+
+- **Sea breezes**: Land heats and cools faster than sea — convection currents cause onshore breezes by day and offshore breezes at night.
+- **Air conditioners**: Mounted near the ceiling because cool dense air sinks and warm air rises to be cooled.
+- **Radiators**: Heat rooms mainly by convection — hot air rises, cool air is drawn in at the bottom.
+- **Kettle heating element**: Placed at the bottom so convection currents heat all the water evenly.
+
+## Radiation — applications
+
+- **Solar water heaters**: Painted black to maximise absorption of infrared radiation from the Sun.
+- **Space blankets**: Shiny silver surface reflects body heat and is a poor emitter — reduces heat loss after exercise.
+- **Greenhouse effect**: Earth absorbs solar radiation and emits infrared; greenhouse gases trap some of this, warming the planet.
+- **Greenhouses**: Glass transmits short-wave solar radiation in; longer-wave IR from warmed plants/soil is trapped inside.
+
+## Multiple methods together
+
+Many real situations use all three methods:
+
+- **Cooking on a wood fire**: Conduction (through the pot), convection (in air and water), radiation (from flames).
+- **Vacuum flask**: Vacuum stops conduction and convection; silvered surfaces reduce radiation; plastic stopper insulates the top.
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Convection current">
-      <rect x="60" y="40" width="160" height="120" fill="#fef3c7" stroke="#ca8a04" opacity="0.4"/>
-      <rect x="60" y="140" width="160" height="20" fill="#dc2626" opacity="0.5"/>
-      <text x="140" y="155" text-anchor="middle" font-size="9" fill="#991b1b">heat source</text>
-      <path d="M100 130 Q100 70 140 50 Q180 70 180 130" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#conv)"/>
-      <text x="140" y="35" text-anchor="middle" font-size="10" fill="#2563eb">hot fluid rises</text>
-      <text x="200" y="100" font-size="10" fill="#64748b">cools &amp; sinks</text>
-      <defs><marker id="conv" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Convection — heated fluid rises, cools, and sinks; sets up a convection current.</p></div>
+<div class="enlight-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
+      <defs><marker id="cvR2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ef4444"/></marker><marker id="cvS2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+      <text x="115" y="18" text-anchor="middle" font-size="11" font-weight="600">Heater on floor</text>
+      <rect x="30" y="30" width="170" height="185" fill="#f8fafc" stroke="#94a3b8"/>
+      <rect x="75" y="195" width="80" height="12" fill="#dc2626" rx="2"/>
+      <line x1="115" y1="190" x2="115" y2="50" stroke="#ef4444" stroke-width="3" marker-end="url(#cvR2)"/>
+      <line x1="55" y1="45" x2="55" y2="185" stroke="#2563eb" stroke-width="2.5" marker-end="url(#cvS2)"/>
+      <text x="365" y="18" text-anchor="middle" font-size="11" font-weight="600">Air-con at ceiling</text>
+      <rect x="280" y="30" width="170" height="185" fill="#f8fafc" stroke="#94a3b8"/>
+      <rect x="325" y="38" width="80" height="12" fill="#38bdf8" rx="2"/>
+      <line x1="365" y1="52" x2="365" y2="190" stroke="#2563eb" stroke-width="3" marker-end="url(#cvS2)"/>
+      <line x1="310" y1="190" x2="310" y2="55" stroke="#ef4444" stroke-width="2.5" marker-end="url(#cvR2)"/>
+    </svg><p class="enlight-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
       <rect x="40" y="50" width="50" height="40" fill="#1e293b" stroke="#334155"/>
@@ -33,10 +63,49 @@ Double-glazing: Windows use a layer of still air trapped between glass panes bec
       <text x="260" y="75" text-anchor="middle" font-size="10" fill="#64748b">absorber (no contact needed)</text>
     </svg><p class="enlight-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
 
+## Steps / method
+
+**Explaining a real-world application:**
+
+1. **Identify** which method(s) of transfer are involved.
+2. **State** whether the material is a conductor or insulator (for conduction).
+3. **Link** to particle behaviour or surface properties.
+4. **Explain** the practical benefit (e.g. keeps house warm, cooks food faster).
+
+**Vacuum flask — reducing all three transfers:**
+
+1. **Conduction/convection**: Vacuum between walls — no particles to transfer energy.
+2. **Radiation**: Silvered surfaces reflect infrared radiation.
+3. **Conduction at top**: Plastic/cork stopper is a poor conductor.
+
+## Common mistakes
+
+**Radiators and radiation**: Domestic radiators heat rooms mainly by **convection**, not radiation (despite the name).
+
+**Double-glazing and conduction**: The air gap reduces conduction and convection — still air is an excellent insulator.
+
+**Global warming mechanism**: It is not just "more heat from the Sun" — it is trapped **outgoing** infrared radiation from Earth.
+
+## Examiner tip
+
+For application questions, name the **method** first, then explain **why** the design choice works. Vacuum flask questions are common — know all three reductions.
+
 ## Quick check
 
-Why are metals much better thermal conductors than non-metals?
+Why is an air conditioner installed near the ceiling?
 
-Which process involves the transfer of thermal energy via free electron diffusion?
+Which process is primarily responsible for sea breezes?
 
-Why is water considered a poor thermal conductor?
+Why are solar panels often painted black?
+
+## Worked example — Vacuum Flask
+
+Question: Explain how a vacuum flask reduces thermal energy transfer.
+
+1. **Conduction and convection**: The vacuum between the double walls contains no particles, so conduction and convection cannot occur through the gap.
+
+2. **Radiation**: The walls are silvered — shiny surfaces are poor emitters and good reflectors of infrared radiation, reducing heat loss (or gain).
+
+3. **Stopper**: The plastic or cork lid is a poor conductor, reducing conduction at the top.
+
+**Final answer:** The vacuum prevents conduction and convection; silvered walls reduce radiation; the stopper insulates the top.

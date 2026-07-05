@@ -19,12 +19,12 @@
         "It never meets the x-axis"
       ],
       "correctIndex": 0,
-      "explanation": "The modulus transformation $y = |f(x)|$ reflects negative $y$2$x$2$y=0$).\n\n**Common mistake:** Students may mistakenly reflect the $x$-coordinates as well, leading to the wrong sign for the intercepts."
+      "explanation": "The modulus transformation $y = |f(x)|$ reflects negative $y$ and $x2y=0$).\n\n**Common mistake:** Students may mistakenly reflect the $x$-coordinates as well, leading to the wrong sign for the intercepts."
     },
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q2",
       "type": "mcq",
-      "question": "Determine the $y$2$y = |x(x-2)(x+3)|$.",
+      "question": "Determine the $y$. So $y = |x(x-2)(x+3)|$.",
       "options": [
         "0",
         "6",
@@ -37,7 +37,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q3",
       "type": "mcq",
-      "question": "What is the minimum possible value for any point on the graph of $y = |f(x)|$ where $f(x)$ is a cubic polynomial?",
+      "question": "What is the minimum possible value for any point on the graph of $y = |f(x)| where f(x)$ is a cubic polynomial?",
       "options": [
         "0",
         "The y-intercept",
@@ -50,7 +50,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-easy-q4",
       "type": "mcq",
-      "question": "If the cubic graph $y = (x-1)^2(x+2)$ is reflected in the $x$2$x$-intercepts will be shown?",
+      "question": "If the cubic graph $y = (x-1)^2(x+2)$ is reflected in the $x$ and $x$-intercepts will be shown?",
       "options": [
         "2",
         "3",

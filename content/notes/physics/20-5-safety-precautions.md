@@ -28,22 +28,26 @@ Safety protocols aim to minimize the 'Time' variable to reduce total damage.
 
 ## Graphs & diagrams
 
-- **Lead Storage Box**: A diagram showing a source emitting $\alpha$, $\beta$, or $\gamma$ radiation enclosed in a thick-walled lead container.
+- **Lead Storage Box**: A diagram showing a source enclosed in a thick-walled lead container.
 - **Inverse Intensity Visual**: A diagram showing that as you move further away from a radioactive source, the density of the radiation particles/waves hitting a specific area decreases significantly.
-Distance-Time and Speed-Time Graphs (General Motion Reference): - **Rest**: A horizontal line on both distance-time and speed-time graphs.
-- **Constant Speed**: A straight diagonal line on a distance-time graph; a horizontal line on a speed-time graph.
-- **Acceleration**: An upward-curving line on a distance-time graph; a straight diagonal line (increasing) on a speed-time graph.
-- **Deceleration**: A downward-curving line on a distance-time graph; a straight diagonal line (decreasing) on a speed-time graph.
+- **Handling at Distance**: Use long-handled tongs to keep a safe distance from the source while working.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 140" width="420" height="140" role="img" aria-label="Geiger counter setup">
-      <rect x="40" y="50" width="120" height="40" rx="8" fill="#dbeafe" stroke="#2563eb"/>
-      <text x="100" y="75" text-anchor="middle" font-size="11" fill="#1e3a8a">G-M tube</text>
-      <rect x="220" y="45" width="140" height="50" rx="8" fill="#f1f5f9" stroke="#64748b"/>
-      <text x="290" y="75" text-anchor="middle" font-size="11" fill="#334155">Counter</text>
-      <line x1="160" y1="70" x2="220" y2="70" stroke="#334155" stroke-width="2"/>
-      <circle cx="100" cy="35" r="12" fill="#fef08a" stroke="#ca8a04"/>
-      <text x="100" y="20" text-anchor="middle" font-size="10" fill="#854d0e">source</text>
-    </svg><p class="enlight-physics-diagram__caption">Radiation detection — Geiger–Müller tube connected to a counter records ionising events.</p></div>
+<div class="enlight-physics-diagram"><svg viewBox="0 0 480 200" width="480" height="200" role="img" aria-label="Radiation safety time distance shielding">
+      <text x="120" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Shielding</text>
+      <text x="360" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Distance</text>
+      <rect x="60" y="50" width="120" height="90" fill="#64748b" stroke="#334155" stroke-width="2" rx="4"/>
+      <rect x="72" y="62" width="96" height="66" fill="#94a3b8"/>
+      <circle cx="120" cy="95" r="10" fill="#fef08a" stroke="#ca8a04"/>
+      <text x="120" y="99" text-anchor="middle" font-size="8" fill="#854d0e">source</text>
+      <text x="120" y="158" text-anchor="middle" font-size="9" fill="#64748b">lead storage box</text>
+      <circle cx="300" cy="95" r="10" fill="#fef08a" stroke="#ca8a04"/>
+      <line x1="310" y1="95" x2="390" y2="95" stroke="#334155" stroke-width="2"/>
+      <rect x="390" y="88" width="24" height="14" fill="#fff" stroke="#334155"/>
+      <line x1="402" y1="70" x2="402" y2="88" stroke="#334155" stroke-width="2"/>
+      <text x="360" y="80" font-size="9" fill="#64748b">tongs</text>
+      <text x="360" y="158" text-anchor="middle" font-size="9" fill="#64748b">keep distance — use long-handled tools</text>
+      <text x="240" y="188" text-anchor="middle" font-size="10" fill="#475569">time · distance · shielding</text>
+    </svg><p class="enlight-physics-diagram__caption">Radiation safety — store sources in a lead box; handle at a distance with tongs; limit exposure time.</p></div>
 
 ## Steps / method
 
@@ -103,6 +107,8 @@ Increase Distance: Since radiation intensity decreases with distance, doubling t
 
 Add Shielding: Place a barrier (like a lead sheet) between the source and the student.
 
-Reduce Time: Spend as little time as possible near the source to keep the total accumulated dose low. ### Trap
+Reduce Time: Spend as little time as possible near the source to keep the total accumulated dose low.
+
+### Trap
 
 Students often think a lab coat is enough protection for all types of radiation. The trap is that a lab coat only prevents contamination (alpha/beta dust on skin), but it provides zero shielding against penetrating Gamma rays.

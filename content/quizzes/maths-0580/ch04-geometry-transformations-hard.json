@@ -19,7 +19,7 @@
         "$36$"
       ],
       "correctIndex": 0,
-      "explanation": "Let exterior angle be $e$2$e + 150$. Since $e + (e + 150) = 180$, $2e = 30$, so $e = 15°$. $n = 360 / 15 = 24$.\n\n**Common mistake:** The student might set $e + 150 = 180$ without the second $e$2$360 / 15$."
+      "explanation": "Let exterior angle be $e^2 e + 150$. Since $e + (e + 150) = 180$, $2e = 30$, so $e = 15°$. $n = 360 / 15 = 24$.\n\n**Common mistake:** The student might set $e + 150 = 180$ without the second $e^2 360 / 15$."
     },
     {
       "id": "ch04-geometry-transformations-hard-q2",
@@ -37,7 +37,7 @@
     {
       "id": "ch04-geometry-transformations-hard-q3",
       "type": "mcq",
-      "question": "A quadrilateral $ABCD$2$A = 2x$2$B = 3x - 10$, $C = x + 50$, and $D = 2x + 20$. Find the size of the largest angle.",
+      "question": "A quadrilateral $ABCD$. So $A = 2x2B = 3x - 10$, $C = x + 50$, and $D = 2x + 20$. Find the size of the largest angle.",
       "options": [
         "$110°$",
         "$37.5°$",
@@ -45,12 +45,12 @@
         "$120°$"
       ],
       "correctIndex": 0,
-      "explanation": "Sum of angles = $360°$. $2x + 3x - 10 + x + 50 + 2x + 20 = 360 \\Rightarrow 8x + 60 = 360 \\Rightarrow 8x = 300 \\Rightarrow x = 37.5$. Angles are $75°, 102.5°, 87.5°, 95°$. Wait, recalculating: $300/8=37.5$. $B = 3(37.5)-10 = 112.5-10 = 102.5$. $C = 37.5+50 = 87.5$. Largest is $102.5$. Let me check the sum again: $75+102.5+87.5+95=360$. (Answer choice fix: Largest is $102.5$ but option A was $110$). Let's use $x=40$: $80+110+90+100=380$ (Too high). Correct logic: $8x=300, x=37.5$. Let's refine the numbers to avoid decimals: $A=2x, B=3x, C=x+40, D=2x+20 \\Rightarrow 8x+60=360, 8x=300$. Let's use $A=2x, B=3x, C=4x, D=60 \\Rightarrow 9x=300$. Okay, sticking to $x=37.5$, $B$2$102.5°$.\n\n**Common mistake:** The student might assume it is a triangle and sum to $180°$ or provide the value of $x$ as the final answer."
+      "explanation": "Sum of angles = $360°$. $2x + 3x - 10 + x + 50 + 2x + 20 = 360 \\Rightarrow 8x + 60 = 360 \\Rightarrow 8x = 300 \\Rightarrow x = 37.5$. Angles are $75°, 102.5°, 87.5°, 95°$. Wait, recalculating: $300/8=37.5$. $B = 3(37.5)-10 = 112.5-10 = 102.5$. $C = 37.5+50 = 87.5$. Largest is $102.5$. Let me check the sum again: $75+102.5+87.5+95=360$. (Answer choice fix: Largest is $102.5$ but option A was^110). Let's use $x=40$: $80+110+90+100=380$ (Too high). Correct logic: $8x=300, x=37.5$. Let's refine the numbers to avoid decimals: $A=2x, B=3x, C=x+40, D=2x+20 \\Rightarrow 8x+60=360, 8x=300$. Let's use $A=2x, B=3x, C=4x, D=60 \\Rightarrow 9x=300$. Okay, sticking to $x=37.5$, $B$. $102.5°$.\n\n**Common mistake:** The student might assume it is a triangle and sum to $180°$ or provide the value of $x$ as the final answer."
     },
     {
       "id": "ch04-geometry-transformations-hard-q4",
       "type": "mcq",
-      "question": "Two sides of a regular octagon are extended to form an angle $y$2$y$.",
+      "question": "Two sides of a regular octagon are extended to form an angle $y$ and $y$.",
       "options": [
         "$45°$",
         "$135°$",
@@ -63,7 +63,7 @@
     {
       "id": "ch04-geometry-transformations-hard-q5",
       "type": "mcq",
-      "question": "In a diagram with three parallel lines, angle $a$2$b$2$b$2$c$2$a = 75°$, find $c$.",
+      "question": "In a diagram with three parallel lines, angle $a$ and $b2b$ and $c2a = 75°$, find $c$.",
       "options": [
         "$105°$",
         "$75°$",
@@ -71,20 +71,20 @@
         "$15°$"
       ],
       "correctIndex": 0,
-      "explanation": "If $a = 75°$, then $b = 75°$ (alternate). Since $b$2$c$2$b + c = 180 \\Rightarrow 75 + c = 180 \\Rightarrow c = 105°$.\n\n**Common mistake:** The student might assume $c$2$a$2$b$ due to the parallel lines."
+      "explanation": "If $a = 75°$, then $b = 75°$ (alternate). Since $b$ and $c2b + c = 180 \\Rightarrow 75 + c = 180 \\Rightarrow c = 105°$.\n\n**Common mistake:** The student might assume $c$ and $a2b$ due to the parallel lines."
     },
     {
       "id": "ch04-geometry-transformations-hard-q6",
       "type": "mcq",
       "question": "Compare a regular octagonal prism and a regular hexagonal prism. How many more planes of symmetry does the octagonal prism have?",
       "options": [
-        "$2$",
+        "2",
         "$8$",
         "$9$",
         "$7$"
       ],
       "correctIndex": 0,
-      "explanation": "Planes = $n + 1$. Octagonal: $8+1=9$. Hexagonal: $6+1=7$. Difference: $9 - 7 = 2$.\n\n**Common mistake:** A student might calculate $n$2$8-6=2$) by luck or miscount the planes for one of the shapes."
+      "explanation": "Planes = $n + 1$. Octagonal: $8+1=9$. Hexagonal: $6+1=7$. Difference: $9 - 7 = 2$.\n\n**Common mistake:** A student might calculate $n$. $8-6=2$) by luck or miscount the planes for one of the shapes."
     },
     {
       "id": "ch04-geometry-transformations-hard-q7",
@@ -92,17 +92,17 @@
       "question": "A 3D object has a plan view of a square and a side view of an isosceles triangle. If the vertex of the shape is directly above the center of the base, how many planes of symmetry does it have?",
       "options": [
         "$4$",
-        "$2$",
+        "2",
         "$5$",
         "$9$"
       ],
       "correctIndex": 0,
-      "explanation": "This describes a square-based pyramid. It has $4$ planes of symmetry: two passing through opposite vertices and two passing through midpoints of opposite edges.\n\n**Common mistake:** The student might assume it is a prism ($4+1=5$) or only count the $2$ planes passing through the vertices."
+      "explanation": "This describes a square-based pyramid. It has^4 planes of symmetry: two passing through opposite vertices and two passing through midpoints of opposite edges.\n\n**Common mistake:** The student might assume it is a prism ($4+1=5$) or only count the 2 planes passing through the vertices."
     },
     {
       "id": "ch04-geometry-transformations-hard-q8",
       "type": "mcq",
-      "question": "Consider a regular $n$2$L$2$R$2$L + R$ for a regular decagon.",
+      "question": "Consider a regular $n$ and $L2R$. $L + R$ for a regular decagon.",
       "options": [
         "$20$",
         "$10$",
@@ -110,12 +110,12 @@
         "$21$"
       ],
       "correctIndex": 0,
-      "explanation": "For any regular $n$2$L = n$2$R = n$2$10 + 10 = 20$.\n\n**Common mistake:** A student might think $L = n$2$R = 1$ or miscount the sides of a decagon."
+      "explanation": "For any regular $n$. So $L = n2R = n$. $10 + 10 = 20$.\n\n**Common mistake:** A student might think $L = n$. So $R = 1$ or miscount the sides of a decagon."
     },
     {
       "id": "ch04-geometry-transformations-hard-q9",
       "type": "mcq",
-      "question": "A cuboid has dimensions $6$ cm $\\times$2$6$ cm $\\times$2$10$ cm. Calculate the number of axes of symmetry it has that provide rotational symmetry of order $4$.",
+      "question": "A cuboid has dimensions^6 cm $\\times^2 6$ cm $\\times^2 10$ cm. Calculate the number of axes of symmetry it has that provide rotational symmetry of order^4.",
       "options": [
         "$1$",
         "$3$",
@@ -123,7 +123,7 @@
         "$4$"
       ],
       "correctIndex": 0,
-      "explanation": "A cuboid with a square cross-section ($6 \\times 6$) has only one axis (through the centers of the square faces) with order $4$ symmetry. Other axes are order $2$.\n\n**Common mistake:** Students might assume a cuboid has $3$ axes of order $4$ like a cube, but this only applies if all sides are equal."
+      "explanation": "A cuboid with a square cross-section ($6 \\times 6$) has only one axis (through the centers of the square faces) with order^4symmetry. Other axes are order2.\n\n**Common mistake:** Students might assume a cuboid has 3 axes of order^4 like a cube, but this only applies if all sides are equal."
     },
     {
       "id": "ch04-geometry-transformations-hard-q10",
@@ -141,7 +141,7 @@
     {
       "id": "ch04-geometry-transformations-hard-q11",
       "type": "mcq",
-      "question": "A cyclic quadrilateral $PQRS$2$PQ$2$RPQ = 28°$, calculate the size of angle $QSR$.",
+      "question": "A cyclic quadrilateral $PQRS$. $PQ2RPQ = 28°$, calculate the size of angle $QSR$.",
       "options": [
         "$28°$",
         "$62°$",
@@ -149,12 +149,12 @@
         "$118°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $PRQ$2$∠PRQ = 90°$ (angle in semi-circle). Thus $∠PQR = 180 - 90 - 28 = 62°$. Angles $∠QSR$2$∠PQR$2$QR$2$∠QSR = 62°$.\n\n**Common mistake:** The student might assume $∠QSR$2$∠RPQ$2$28°$) without checking the arc they are subtended by."
+      "explanation": "In triangle $PRQ$. $∠PRQ = 90°$ (angle in semi-circle). Thus $∠PQR = 180 - 90 - 28 = 62°$. Angles $∠QSR$. $∠PQR2QR$. $∠QSR = 62°$.\n\n**Common mistake:** The student might assume $∠QSR$. $∠RPQ228°$) without checking the arc they are subtended by."
     },
     {
       "id": "ch04-geometry-transformations-hard-q12",
       "type": "mcq",
-      "question": "Point $T is outside a circle$2$2TA$2$TOC$2$O$2$∠ATC = 36°$, calculate the size of the minor angle $AOC$ at the centre.",
+      "question": "Point $T is outside a circle^2 2TA2TOC$ and $O2∠ATC = 36°$, calculate the size of the minor angle $AOC$ at the centre.",
       "options": [
         "$54°$",
         "$72°$",
@@ -162,12 +162,12 @@
         "$126°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $TAO$2$∠TAO = 90°$ (radius-tangent). $∠AOT = 180 - 90 - 36 = 54°$. Since $TOC$2$∠AOC = 180 - 54 = 126°$. Wait, $∠AOC$2$\\triangle TAO$2$∠AOT = 54°$. $∠AOC$2$∠AOT$2$T$2$CO$2$O$2$T$2$C$2$∠AOC$2$54°$. Let's assume $O$2$T$2$C$2$∠AOC = 54°$.\n\n**Common mistake:** A student might forget the $90°$ tangent rule or misinterpret the position of the centre on the line."
+      "explanation": "In triangle $TAO$. $∠TAO = 90°$ (radius-tangent). $∠AOT = 180 - 90 - 36 = 54°$. Since $TOC$. $∠AOC = 180 - 54 = 126°$. Wait, $∠AOC$. $\\triangle TAO2∠AOT = 54°$. $∠AOC$. $∠AOT2T$. $CO2O$ and $T2C$. $∠AOC254°$. Let's assume $O$ and $T2C$. $∠AOC = 54°$.\n\n**Common mistake:** A student might forget the $90°$ tangent rule or misinterpret the position of the centre on the line."
     },
     {
       "id": "ch04-geometry-transformations-hard-q13",
       "type": "mcq",
-      "question": "In a circle, chords $AD$2$BC$2$X$2$∠ABC = 38°$ and $∠BCD = 44°$, calculate the size of $∠AXB$.",
+      "question": "In a circle, chords $AD$. $BC2X$. $∠ABC = 38°$ and $∠BCD = 44°$, calculate the size of $∠AXB$.",
       "options": [
         "$82°$",
         "$98°$",
@@ -175,12 +175,12 @@
         "$88°$"
       ],
       "correctIndex": 0,
-      "explanation": "$∠BAD = ∠BCD = 44°$ (same segment $BD$2$ABX$2$∠AXB = 180 - (38 + 44) = 180 - 82 = 98°$. Wait, $∠AXB$2$∠AXB = 98°$.\n\n**Common mistake:** The student might add the two given angles and assume the exterior angle theorem applies directly without finding the third angle of the triangle."
+      "explanation": "$∠BAD = ∠BCD = 44°$ (same segment $BD$. $ABX2∠AXB = 180 - (38 + 44) = 180 - 82 = 98°$. Wait, $∠AXB$. $∠AXB = 98°$.\n\n**Common mistake:** The student might add the two given angles and assume the exterior angle theorem applies directly without finding the third angle of the triangle."
     },
     {
       "id": "ch04-geometry-transformations-hard-q14",
       "type": "mcq",
-      "question": "A tangent $XY$2$P$2$PQ$2$R$2$∠RPQ = 50°$ and $∠RQP = 70°$. Calculate the acute angle between the tangent $XY$2$PQ$.",
+      "question": "A tangent $XY$ and $P2PQ$ and $R2∠RPQ = 50°$ and $∠RQP = 70°$. Calculate the acute angle between the tangent $XY$. $PQ$.",
       "options": [
         "$60°$",
         "$50°$",
@@ -188,12 +188,12 @@
         "$120°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $PQR$2$∠PRQ = 180 - (50 + 70) = 60°$. By the Alternate Segment Theorem, the angle between the tangent and chord $PQ$2$∠PRQ = 60°$.\n\n**Common mistake:** The student may pick one of the other angles in the triangle ($50°$ or $70°$) instead of calculating the third angle."
+      "explanation": "In triangle $PQR$. $∠PRQ = 180 - (50 + 70) = 60°$. By the Alternate Segment Theorem, the angle between the tangent and chord $PQ$. $∠PRQ = 60°$.\n\n**Common mistake:** The student may pick one of the other angles in the triangle ($50°$ or $70°$) instead of calculating the third angle."
     },
     {
       "id": "ch04-geometry-transformations-hard-q15",
       "type": "mcq",
-      "question": "The vertices of a quadrilateral $ABCD lie on a circle$2$2AB$2$DC$2$∠ABC = 105°$, calculate the size of $∠BCD$.",
+      "question": "The vertices of a quadrilateral $ABCD lie on a circle^2 2AB2DC$. $∠ABC = 105°$, calculate the size of $∠BCD$.",
       "options": [
         "$75°$",
         "$105°$",
@@ -201,12 +201,12 @@
         "$90°$"
       ],
       "correctIndex": 0,
-      "explanation": "Opposite angles sum to $180°$, so $∠ADC = 180 - 105 = 75°$. Since $AB \\parallel DC$2$∠ABC + ∠BCD = 180°$ is false (they are $A$2$D$2$∠DAB + ∠ADC = 180$ (co-interior). Also $∠DAB = 180 - ∠BCD$2$180 - ∠BCD + 75 = 180 \\Rightarrow ∠BCD = 75°$.\n\n**Common mistake:** The student might assume $∠BCD$2$105°$ because they see parallel lines and think of alternate angles."
+      "explanation": "Opposite angles sum to $180°$, so $∠ADC = 180 - 105 = 75°$. Since $AB \\parallel DC$. $∠ABC + ∠BCD = 180°$ is false (they are $A$ and $D2∠DAB + ∠ADC = 180$ (co-interior). Also $∠DAB = 180 - ∠BCD$. $180 - ∠BCD + 75 = 180 \\Rightarrow ∠BCD = 75°$.\n\n**Common mistake:** The student might assume $∠BCD$ and $105°$ because they see parallel lines and think of alternate angles."
     },
     {
       "id": "ch04-geometry-transformations-hard-q16",
       "type": "mcq",
-      "question": "An angle $XOY$2$80°$. A point $P$2$OX$2$OY$2$5\\text{ cm}$ from the vertex $O$2$POX$.",
+      "question": "An angle $XOY$ and $80°$. A point $P$. $OX2OY$. $5\\text{ cm}$ from the vertex $O$. $POX$.",
       "options": [
         "$40°$",
         "$80°$",
@@ -219,7 +219,7 @@
     {
       "id": "ch04-geometry-transformations-hard-q17",
       "type": "mcq",
-      "question": "In triangle $ABC$2$AB$2$BC$2$O$ has which property?",
+      "question": "In triangle $ABC$. $AB2BC$ and $O$ has which property?",
       "options": [
         "It is equidistant from all three vertices $A, B,$ and $C$",
         "It is equidistant from all three sides $AB, BC,$ and $AC$",
@@ -234,8 +234,8 @@
       "type": "mcq",
       "question": "To construct a $15°$ angle using only a ruler and compasses, which sequence of constructions is most efficient?",
       "options": [
-        "Equilateral triangle $\\rightarrow$2$\\rightarrow$ Angle bisector",
-        "Perpendicular bisector $\\rightarrow$2$\\rightarrow$ Angle bisector",
+        "Equilateral triangle $\\rightarrow$. $\\rightarrow$ Angle bisector",
+        "Perpendicular bisector $\\rightarrow$. $\\rightarrow$ Angle bisector",
         "Equilateral triangle $\\rightarrow$ Perpendicular bisector",
         "Perpendicular bisector $\\rightarrow$ Angle bisector"
       ],
@@ -258,7 +258,7 @@
     {
       "id": "ch04-geometry-transformations-hard-q20",
       "type": "mcq",
-      "question": "Construct triangle $ABC$2$AB = 9\\text{ cm}, BC = 7\\text{ cm},$ and $AC = 5\\text{ cm}$. If the perpendicular bisector of $AB$2$BC$2$X$2$AX$2$BX$.",
+      "question": "Construct triangle $ABC$. So $AB = 9\\text{ cm}, BC = 7\\text{ cm},$ and $AC = 5\\text{ cm}$. If the perpendicular bisector of $AB$. $BC2X$. $AX2BX$.",
       "options": [
         "$AX = BX$",
         "$AX > BX$",
@@ -266,12 +266,12 @@
         "$AX = 4.5\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Any point on the perpendicular bisector of a segment is equidistant from the two endpoints of that segment. Thus, $AX$2$BX$.\n\n**Common mistake:** The student might try to use trigonometry to solve for the length instead of applying the geometric locus property."
+      "explanation": "Any point on the perpendicular bisector of a segment is equidistant from the two endpoints of that segment. Thus, $AX$. $BX$.\n\n**Common mistake:** The student might try to use trigonometry to solve for the length instead of applying the geometric locus property."
     },
     {
       "id": "ch04-geometry-transformations-hard-q21",
       "type": "mcq",
-      "question": "The net of a closed rectangular box is shown with lengths labelled $a, b,$ and $c$2$480\\text{ cm}³$ and the net shows two rectangles of $8\\text{ cm} \\times 6\\text{ cm}$, find the third dimension $c$.",
+      "question": "The net of a closed rectangular box is shown with lengths labelled $a, b,$ and $c$. $480\\text{ cm}³$ and the net shows two rectangles of $8\\text{ cm} \\times 6\\text{ cm}$, find the third dimension $c$.",
       "options": [
         "$10\\text{ cm}$",
         "$5\\text{ cm}$",
@@ -279,12 +279,12 @@
         "$8\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Volume $= length \\times width \\times height$2$480 = 8 \\times 6 \\times c \\Rightarrow 480 = 48c \\Rightarrow c = 10\\text{ cm}$.\n\n**Common mistake:** A student might add the dimensions instead of multiplying them or miscalculate the division $480/48$."
+      "explanation": "Volume $= length \\times width \\times height$. $480 = 8 \\times 6 \\times c \\Rightarrow 480 = 48c \\Rightarrow c = 10\\text{ cm}$.\n\n**Common mistake:** A student might add the dimensions instead of multiplying them or miscalculate the division $480/48$."
     },
     {
       "id": "ch04-geometry-transformations-hard-q22",
       "type": "mcq",
-      "question": "A net is being designed for a cylinder of height $10\\text{ cm}$ and radius $r$2$60\\pi\\text{ cm}²$, find the value of $r$.",
+      "question": "A net is being designed for a cylinder of height $10\\text{ cm}$ and radius $r$. $60\\pi\\text{ cm}²$, find the value of $r$.",
       "options": [
         "$3\\text{ cm}$",
         "$6\\text{ cm}$",
@@ -292,12 +292,12 @@
         "$1.5\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Area of rectangle in cylinder net $= circumference \\times height = 2\\pi r \\times h$2$60\\pi = 2\\pi r \\times 10 \\Rightarrow 60 = 20r \\Rightarrow r = 3$.\n\n**Common mistake:** The student might use the area formula $\\pi r^2$ instead of the circumference $2\\pi r$ for the rectangle's length."
+      "explanation": "Area of rectangle in cylinder net $= circumference \\times height = 2\\pi r \\times h$. $60\\pi = 2\\pi r \\times 10 \\Rightarrow 60 = 20r \\Rightarrow r = 3$.\n\n**Common mistake:** The student might use the area formula $\\pi r^2$ instead of the circumference $2\\pi r$ for the rectangle's length."
     },
     {
       "id": "ch04-geometry-transformations-hard-q23",
       "type": "mcq",
-      "question": "A net for a right-angled triangular prism is made. The triangular faces have sides $3\\text{ cm}, 4\\text{ cm},$ and $5\\text{ cm}$. The prism length is $L$2$132\\text{ cm}²$, find $L$.",
+      "question": "A net for a right-angled triangular prism is made. The triangular faces have sides $3\\text{ cm}, 4\\text{ cm},$ and $5\\text{ cm}$. The prism length is $L$. $132\\text{ cm}²$, find $L$.",
       "options": [
         "$10\\text{ cm}$",
         "$11\\text{ cm}$",
@@ -305,7 +305,7 @@
         "$12\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Triangles area $= 2 \\times (0.5 \\times 3 \\times 4) = 12$. Rectangles area $= 132 - 12 = 120$. Rectangles area is $(3+4+5) \\times L = 12L$2$12L = 120 \\Rightarrow L = 10$.\n\n**Common mistake:** A student might use the wrong perimeter for the rectangles (e.g., adding only two sides of the triangle) or miscalculate the triangle area."
+      "explanation": "Triangles area $= 2 \\times (0.5 \\times 3 \\times 4) = 12$. Rectangles area $= 132 - 12 = 120$. Rectangles area is $(3+4+5) \\times L = 12L$. $12L = 120 \\Rightarrow L = 10$.\n\n**Common mistake:** A student might use the wrong perimeter for the rectangles (e.g., adding only two sides of the triangle) or miscalculate the triangle area."
     },
     {
       "id": "ch04-geometry-transformations-hard-q24",
@@ -323,7 +323,7 @@
     {
       "id": "ch04-geometry-transformations-hard-q25",
       "type": "mcq",
-      "question": "The net of a cone consists of a circle of radius $3\\text{ cm}$ and a sector of a larger circle with radius $R$2$\\pi$.",
+      "question": "The net of a cone consists of a circle of radius $3\\text{ cm}$ and a sector of a larger circle with radius $R$. $\\pi$.",
       "options": [
         "$6\\pi\\text{ cm}$",
         "$3\\pi\\text{ cm}$",
@@ -331,12 +331,12 @@
         "$12\\pi\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The arc length of the sector must equal the circumference of the circular base. $C = 2\\pi r = 2\\pi(3) = 6\\pi\\text{ cm}$.\n\n**Common mistake:** A student might pick $3\\pi$2$2\\pi r$2$9\\pi$)."
+      "explanation": "The arc length of the sector must equal the circumference of the circular base. $C = 2\\pi r = 2\\pi(3) = 6\\pi\\text{ cm}$.\n\n**Common mistake:** A student might pick $3\\pi^2 2\\pi r29\\pi$)."
     },
     {
       "id": "ch04-geometry-transformations-hard-q26",
       "type": "mcq",
-      "question": "In parallelogram $PQRS$2$\\vec{PQ} = \\mathbf{p}$ and $\\vec{PS} = \\mathbf{q}$. $M$2$QR$2$\\vec{PM}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "question": "In parallelogram $PQRS$. So $\\vec{PQ} = \\mathbf{p}$ and $\\vec{PS} = \\mathbf{q}$. $M$. $QR2\\vec{PM}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
       "options": [
         "$\\mathbf{p} + 0.5\\mathbf{q}$",
         "$\\mathbf{p} + \\mathbf{q}$",
@@ -344,12 +344,12 @@
         "$\\mathbf{q} - 0.5\\mathbf{p}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{PM} = \\vec{PQ} + \\vec{QM}$. In a parallelogram, $\\vec{QR} = \\vec{PS} = \\mathbf{q}$. Thus $\\vec{QM} = 0.5\\mathbf{q}$. So $\\vec{PM} = \\mathbf{p} + 0.5\\mathbf{q}$.\n\n**Common mistake:** The student might assume $M$2$PS$ or misidentify the direction of the vectors."
+      "explanation": "$\\vec{PM} = \\vec{PQ} + \\vec{QM}$. In a parallelogram, $\\vec{QR} = \\vec{PS} = \\mathbf{q}$. Thus $\\vec{QM} = 0.5\\mathbf{q}$. So $\\vec{PM} = \\mathbf{p} + 0.5\\mathbf{q}$.\n\n**Common mistake:** The student might assume $M$. $PS$ or misidentify the direction of the vectors."
     },
     {
       "id": "ch04-geometry-transformations-hard-q27",
       "type": "mcq",
-      "question": "Given position vectors $\\vec{OA} = 4\\mathbf{a}$ and $\\vec{OB} = 6\\mathbf{b}$. Point $N$2$AB$2$AN : NB = 1 : 2$. Express $\\vec{ON}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "Given position vectors $\\vec{OA} = 4\\mathbf{a}$ and $\\vec{OB} = 6\\mathbf{b}$. Point $N$. $AB2AN : NB = 1 : 2$. Express $\\vec{ON}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$\\frac{8}{3}\\mathbf{a} + 2\\mathbf{b}$",
         "$2\\mathbf{a} + 4\\mathbf{b}$",
@@ -362,10 +362,10 @@
     {
       "id": "ch04-geometry-transformations-hard-q28",
       "type": "mcq",
-      "question": "Show that the points $X, Y,$ and $Z$2$\\vec{XY} = 3\\mathbf{a} + 2\\mathbf{b}$ and $\\vec{XZ} = 7.5\\mathbf{a} + 5\\mathbf{b}$. Determine the scalar $k$2$\\vec{XZ} = k\\vec{XY}$.",
+      "question": "Show that the points $X, Y,$ and $Z$. So $\\vec{XY} = 3\\mathbf{a} + 2\\mathbf{b}$ and $\\vec{XZ} = 7.5\\mathbf{a} + 5\\mathbf{b}$. Determine the scalar $k$. So $\\vec{XZ} = k\\vec{XY}$.",
       "options": [
         "$2.5$",
-        "$2$",
+        "2",
         "$3$",
         "$1.5$"
       ],
@@ -375,20 +375,20 @@
     {
       "id": "ch04-geometry-transformations-hard-q29",
       "type": "mcq",
-      "question": "Calculate the value of $x$2$\\begin{pmatrix} x \\ -15 \\end{pmatrix}$ is $17$ units and $x$ is a positive integer.",
+      "question": "Calculate the value of $x$. $\\begin{pmatrix} x \\ \\\\ -15 \\end{pmatrix}$ is $1$ units and $x$ is a positive integer.",
       "options": [
         "$8$",
-        "$2$",
+        "2",
         "$\\sqrt{64}$",
         "$12$"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2 + (-15)² = 17^2 \\Rightarrow x^2 + 225 = 289 \\Rightarrow x^2 = 64$. Since $x > 0$, $x = 8$.\n\n**Common mistake:** The student may subtract $225$ from $289$ incorrectly or forget to take the square root of $64$."
+      "explanation": "$x^2 + (-15)² = 17^2 \\Rightarrow x^2 + 225 = 289 \\Rightarrow x^2 = 64$. Since $x > 0$, $x = 8$.\n\n**Common mistake:** The student may subtract^225 from^289 incorrectly or forget to take the square root of^64."
     },
     {
       "id": "ch04-geometry-transformations-hard-q30",
       "type": "mcq",
-      "question": "A point $A$2$(3, -2)$ and $\\vec{AB} = \\begin{pmatrix} -7 \\ 5 \\end{pmatrix}$. Find the coordinates of the image of $B$2$\\begin{pmatrix} 2 \\ 2 \\end{pmatrix}$.",
+      "question": "A point $A$. $(3, -2)$ and $\\vec{AB} = \\begin{pmatrix} -7 \\ \\\\ 5 \\end{pmatrix}$. Find the coordinates of the image of $B$. $\\begin{pmatrix} 2 \\ \\\\ 2 \\end{pmatrix}$.",
       "options": [
         "$(-2, 5)$",
         "$(-4, 3)$",
@@ -396,7 +396,7 @@
         "$(-9, 7)$"
       ],
       "correctIndex": 0,
-      "explanation": "Coordinates of $B = (3 + (-7), -2 + 5) = (-4, 3)$. Translated image $= (-4 + 2, 3 + 2) = (-2, 5)$.\n\n**Common mistake:** A student might translate point $A$2$B$, or make addition/subtraction errors with the negative numbers."
+      "explanation": "Coordinates of $B = (3 + (-7), -2 + 5) = (-4, 3)$. Translated image $= (-4 + 2, 3 + 2) = (-2, 5)$.\n\n**Common mistake:** A student might translate point $A$ and $B$, or make addition/subtraction errors with the negative numbers."
     },
     {
       "id": "ch04-geometry-transformations-hard-q31",
@@ -406,15 +406,15 @@
         "Rotation $90°$ anticlockwise about $(0, 0)$",
         "Rotation $90°$ clockwise about $(0, 0)$",
         "Reflection in the line $y = -x$",
-        "Translation by $\\begin{pmatrix} 1 \\ 1 \\end{pmatrix}$"
+        "Translation by $\\begin{pmatrix} 1 \\ \\\\ 1 \\end{pmatrix}$"
       ],
       "correctIndex": 0,
-      "explanation": "Reflecting in $y=0$ maps $(x, y)$ to $(x, -y)$. Reflecting that result in $y=x$2$(x, -y)$ to $(-y, x)$. This is the rule for a $90°$ anticlockwise rotation about the origin.\n\n**Common mistake:** The student might assume two reflections always result in another reflection or get the direction of rotation wrong."
+      "explanation": "Reflecting in $y=0$ maps $(x, y)$ to $(x, -y)$. Reflecting that result in $y=x$. $(x, -y)$ to $(-y, x)$. This is the rule for a $90°$ anticlockwise rotation about the origin.\n\n**Common mistake:** The student might assume two reflections always result in another reflection or get the direction of rotation wrong."
     },
     {
       "id": "ch04-geometry-transformations-hard-q32",
       "type": "mcq",
-      "question": "Triangle $A$2$(2, 2), (4, 2),$ and $(2, 5)$. It is enlarged to Triangle $B$2$(5, 4), (11, 4),$ and $(5, 13)$. Determine the centre of enlargement.",
+      "question": "Triangle $A$. $(2, 2), (4, 2),$ and $(2, 5)$. It is enlarged to Triangle $B$. $(5, 4), (11, 4),$ and $(5, 13)$. Determine the centre of enlargement.",
       "options": [
         "$(-1, 0)$",
         "$(0, 0)$",
@@ -422,7 +422,7 @@
         "$(2, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "The scale factor is $3$ (from side lengths $6/2 = 3$). Let the centre be $(xc, yc)$. Using $x' = xc + k(x - xc)$, we get $5 = xc + 3(2 - xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc = 0.5$. Wait, checking vertices: $(5-xc)/(2-xc) = 3 \\Rightarrow 5-xc = 6-3xc \\Rightarrow 2xc=1 \\Rightarrow xc=0.5$. Let's re-verify with source 78 logic: lines through $(2,2)-(5,4)$ and $(4,2)-(11,4)$. $y-2 = 2/3(x-2)$ and $y-2 = 2/7(x-4)$. Intersection: $2/3x - 4/3 = 2/7x - 8/7 \\Rightarrow 14x - 28 = 6x - 24 \\Rightarrow 8x = 4 \\Rightarrow x = 0.5, y = 1$. Let's use simpler numbers for the options: Object $(1,1) \\to (4,4)$ SF 2. $4 = xc + 2(1-xc) \\Rightarrow 4 = xc + 2 - 2xc \\Rightarrow xc = -2$. Let's use: Object $(2,2) \\to (5,4)$ SF 3. $5 = xc + 3(2-xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc=0.5$. Okay, using the provided option A $(-1, 0)$ with a different set: Object $(1,2)$ SF 2 center $(-1,0) \\to (-1+2(2), 0+2(2)) = (3, 4)$. Correct logic is joining corresponding vertices.\n\n**Common mistake:** A student might miscalculate the intersection of the lines joining corresponding vertices."
+      "explanation": "The scale factor is $1$ (from side lengths $6/2 = 3$). Let the centre be $(xc, yc)$. Using $x' = xc + k(x - xc)$, we get $5 = xc + 3(2 - xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc = 0.5$. Wait, checking vertices: $(5-xc)/(2-xc) = 3 \\Rightarrow 5-xc = 6-3xc \\Rightarrow 2xc=1 \\Rightarrow xc=0.5$. Let's re-verify with source 78 logic: lines through $(2,2)-(5,4)$ and $(4,2)-(11,4)$. $y-2 = 2/3(x-2)$ and $y-2 = 2/7(x-4)$. Intersection: $2/3x - 4/3 = 2/7x - 8/7 \\Rightarrow 14x - 28 = 6x - 24 \\Rightarrow 8x = 4 \\Rightarrow x = 0.5, y = 1$. Let's use simpler numbers for the options: Object $(1,1) \\to (4,4)$ SF 2. $4 = xc + 2(1-xc) \\Rightarrow 4 = xc + 2 - 2xc \\Rightarrow xc = -2$. Let's use: Object $(2,2) \\to (5,4)$ SF 3. $5 = xc + 3(2-xc) \\Rightarrow 5 = xc + 6 - 3xc \\Rightarrow 2xc = 1 \\Rightarrow xc=0.5$. Okay, using the provided option A $(-1, 0)$ with a different set: Object $(1,2)$ SF 2 center $(-1,0) \\to (-1+2(2), 0+2(2)) = (3, 4)$. Correct logic is joining corresponding vertices.\n\n**Common mistake:** A student might miscalculate the intersection of the lines joining corresponding vertices."
     },
     {
       "id": "ch04-geometry-transformations-hard-q33",
@@ -435,7 +435,7 @@
         "$(-1, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "The line $x + y = 3$ can be written as $y = -x + 3$. The vector from the point to the line is perpendicular. The point $(4,1)$ is $1$ unit 'above' the line $y = -x+5$. The image will be at $(2, -1)$.\n\n**Common mistake:** A student might incorrectly swap and negate coordinates as if reflecting in $y = -x$2$+3$ constant."
+      "explanation": "The line $x + y = 3$ can be written as $y = -x + 3$. The vector from the point to the line is perpendicular. The point $(4,1)$ is $1$ unit 'above' the line $y = -x+5$. The image will be at $(2, -1)$.\n\n**Common mistake:** A student might incorrectly swap and negate coordinates as if reflecting in $y = -x$. $+3$ constant."
     },
     {
       "id": "ch04-geometry-transformations-hard-q34",
@@ -448,12 +448,12 @@
         "$(-12, 8)$"
       ],
       "correctIndex": 0,
-      "explanation": "With the centre at the origin, multiply the coordinates by the scale factor: $6 \\times -0.5 = -3$ and $-4 \\times -0.5 = 2$.\n\n**Common mistake:** A student might ignore the negative sign and just halve the coordinates, or multiply by $2$ instead of $0.5$."
+      "explanation": "With the centre at the origin, multiply the coordinates by the scale factor: $6 \\times -0.5 = -3$ and $-4 \\times -0.5 = 2$.\n\n**Common mistake:** A student might ignore the negative sign and just halve the coordinates, or multiply by2instead of $0.5$."
     },
     {
       "id": "ch04-geometry-transformations-hard-q35",
       "type": "mcq",
-      "question": "Triangle $A$2$90°$ clockwise about $(0, 0)$ to give Triangle $B$2$B$2$x = 2$. If a vertex of Triangle $A$2$(1, 4)$, find its final position.",
+      "question": "Triangle $A$ and $90°$ clockwise about $(0, 0)$ to give Triangle $B$ and $B2x = 2$. If a vertex of Triangle $A$. $(1, 4)$, find its final position.",
       "options": [
         "$(0, -1)$",
         "$(4, -1)$",
@@ -461,7 +461,7 @@
         "$(4, 1)$"
       ],
       "correctIndex": 0,
-      "explanation": "Rotation: $(1, 4) \\to (4, -1)$. Reflection in $x = 2$: the $x$2$4 - 2 = 2$. The image is $2$ units on the other side: $2 - 2 = 0$. Final point is $(0, -1)$.\n\n**Common mistake:** The student might perform the transformations in the wrong order or miscalculate the reflection distance from $x=2$."
+      "explanation": "Rotation: $(1, 4) \\to (4, -1)$. Reflection in $x = 2$: the $x$. $4 - 2 = 2$. The image is 2 units on the other side: $2 - 2 = 0$. Final point is $(0, -1)$.\n\n**Common mistake:** The student might perform the transformations in the wrong order or miscalculate the reflection distance from $x=2$."
     }
   ]
 }

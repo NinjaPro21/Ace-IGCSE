@@ -13,40 +13,36 @@ Have you ever wondered why cars are designed with crumple zones or why you insti
 
 **Impulse**
 
-$Impulse = F\Delta t$
+$\text{Impulse} = F\Delta t$
 
-Used to calculate the "kick" or "jolt" an object receives2
+Used to calculate the "kick" or "jolt" an object receives.
 
-**Impulse-Momentum Relationship**
-
-$F\Delta t =
+**Impulse–momentum relationship**
 
 $$
-\Delta p
+F\Delta t = \Delta p
 $$
 
 Applies when a force acts over a time interval to change an object's momentum.
 
-**Resultant Force**
+**Resultant force**
 
 $F = \frac{\Delta p}{\Delta t}$
 
 Used to find the average force acting on an object; this is equivalent to $F = ma$ when the mass is constant.
 
-**Change in Momentum**
+**Change in momentum**
 
 $\Delta p = mv - mu$
 
-Where $v$ and $u$2.
+Where $u$ is initial velocity and $v$ is final velocity.
 
 ## Graphs & diagrams
 
-**Distance-time graphs**
+**Impulse and safety**
 
-- **Rest**: A horizontal line (gradient = 0).
-- **Constant speed**: Straight diagonal line — same speed throughout.
-- **Acceleration**: A curve with an increasing gradient.
-- **Gradient Interpretation**: The gradient gives the speed.
+- A **large force** over a **short time** gives the same impulse as a **small force** over a **long time**.
+- **Crumple zones** and **seatbelts** increase stopping time $\Delta t$, which reduces the average force $F$ for the same $\Delta p$.
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 440 160" width="440" height="160" role="img" aria-label="Momentum vector diagram">
       <rect x="30" y="55" width="50" height="50" rx="4" fill="#dbeafe" stroke="#2563eb"/>
@@ -62,28 +58,23 @@ Where $v$ and $u$2.
       </defs>
     </svg><p class="enlight-physics-diagram__caption">Momentum is a vector — $p = mv$ in the direction of velocity. Larger mass or speed means larger momentum.</p></div>
 
-**Velocity-time graphs**
-
-- **Constant Speed**: A horizontal line (acceleration = 0).
-- **Uniform Acceleration**: A straight line with a constant positive gradient.
-- **Deceleration**: A straight line with a constant negative gradient.
-- **Interpretation**: The gradient gives the acceleration; the area under the graph gives the distance travelled.
-
 ## Steps / method
 
 Method for solving impulse and force questions:
 
 Identify the vectors: Note the direction of the initial and final velocities.
 
-Assign signs: Choose one direction as positive (+) and the opposite as negative (–). Calculate Change in Momentum ($\Delta p$): Use $\Delta p = m(v - u). Be careful with signs if the object bounces back$.
+Assign signs: Choose one direction as positive (+) and the opposite as negative (–).
 
-Determine the unknown: Use $F\Delta t =$\Delta pto solve for force (F$) or time ($\Delta t$)$.
+Calculate change in momentum ($\Delta p$): Use $\Delta p = m(v - u)$. Be careful with signs if the object bounces back.
 
-Analyze Safety: If asked about safety features, explain that increasing $\Delta t$ for the same $\Delta p$ results in a smaller $F$.
+Determine the unknown: Use $F\Delta t = \Delta p$ to solve for force ($F$) or time ($\Delta t$).
+
+Analyze safety: If asked about safety features, explain that increasing $\Delta t$ for the same $\Delta p$ results in a smaller $F$.
 
 ## Common mistakes
 
-Ignoring Signs: Treating velocity as a scalar. If a ball hits a wall at $+$5 \text{ m/s}and bounces back at-$5 \text{ m/s}$, the change is $10 \text{ m/s}$, not $0$!
+Ignoring signs: Treating velocity as a scalar. If a ball hits a wall at $+5\ \text{m/s}$ and bounces back at $-5\ \text{m/s}$, the change is $10\ \text{m/s}$, not $0$.
 
 Unit Units: Mixing up impulse (N s) and momentum (kg m/s). While numerically equivalent, always check which quantity the question asks for.
 
@@ -95,7 +86,7 @@ Safety Explanations: When explaining crumple zones or seatbelts, use the phrase 
 
 Vector Symbols: Always include the direction or sign (+/–) when dealing with velocities in opposite directions to secure marks for vector handling.
 
-Show Formulae: Write $F =$\Delta p / \Delta tbefore substituting to ensure partial credit.
+Show formulae: Write $F = \Delta p / \Delta t$ before substituting to ensure partial credit.
 
 ## Quick check
 
@@ -107,22 +98,28 @@ Does increasing the stopping time of a car increase or decrease the average forc
 
 ## Worked example — Kicking a Ball
 
-Question: A boy kicks a stationary 0.4 \text{ kg} ball with an average force of 100 \text{ N}$. The ball moves at$2. Calculate the time of contact between the boot and the ball2
+Question: A boy kicks a stationary 0.4 kg ball with an average force of 100 N. The ball reaches 5 m/s. Calculate the time of contact between the boot and the ball.
 
-Identify values.
+1. Identify values: $m = 0.4\ \text{kg}$, $u = 0\ \text{m/s}$, $v = 5\ \text{m/s}$, $F = 100\ \text{N}$.
 
-m = 0.4 \text{ kg}, u = $0 \text{ m/s}, v =$5 \text{ m/s}, F = 100 \text{ N}$. Calculate change in momentum$.
+2. **Change in momentum:** $\Delta p = mv - mu = (0.4 \times 5) - 0 = 2\ \text{kg m/s}$.
 
-$\Delta p = (0.4 \times 5) - (0.4 \times 0) =$2 \text{ kg m/s}$. Rearrange impulse formula. \Delta t =$\Delta p / F2
+3. **Rearrange:** $\Delta t =$\Delta p / F = 2 / 100 = 0.02\ \text{s}$.$
 
-Substitute. \Delta t = 2 / 100 = 0.02 \text{ s}$.0.02 \text{ s}$.
+**Final answer:** $0.02\ \text{s}$.
 
 ## Worked example — The Car Crash (Multi-step)
 
-Question: A $1250 \text{ kg}$ car travelling at $7.2 \text{ m/s}$ hits a wall and stops. Calculate the average force if it takes $0.4 \text{ s}$ to stop. Assign direction. Forward is positive $(+)^{2}$
+Question: A $1250\ \text{kg}$ car travelling at $7.2\ \text{m/s}$ hits a wall and stops in $0.4\ \text{s}$. Calculate the average force. Take forward as positive (+).
 
-Calculate $\Delta p.p_{\text{initial}} = 1250 \times 7.2 = 90000 \text{ kg m/s}. p_{\text{final}} = 0.\Delta p = 0 - 90000 = -90000 \text{ kg m/s}$. Calculate force.F = -90000 / 0.4 = -225000 \text{ N}2
+1. **Initial momentum:** $p_{\text{initial}} = 1250 \times 7.2 = 90\,000\ \text{kg m/s}$.
 
-The average force is $225000 \text{ N}$ in the backward direction. ### Common Trap
+2. **Change in momentum:** $\Delta p = 0 - 90\,000 = -90\,000\ \text{kg m/s}$.
+
+3. **Average force:** $F =$\Delta p / \Delta t = -90\,000 / 0.4 = -225\,000\ \text{N}$.$
+
+**Final answer:** $225\,000\ \text{N}$ backward (opposite to the car's motion).
+
+### Common Trap
 
 Students often forget the negative sign, which indicates the force acts opposite to the car's motion.

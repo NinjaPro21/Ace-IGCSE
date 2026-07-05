@@ -6,12 +6,13 @@ Coordinate geometry uses algebraic formulas to analyze straight lines drawn on a
 
 $$
 \text{Midpoint: } M = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
-
+$$
+$$
 \text{Gradient: } m = \frac{y_2 - y_1}{x_2 - x_1}
-
+$$
+$$
 \text{Parallel Condition: } m_1 = m_2, \quad \text{Perpendicular Condition: } m_1 \times m_2 = -1 \implies m_2 = -\frac{1}{m_1}
 $$
-
 
 ## Steps / method
 

@@ -97,12 +97,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The constant term occurs when the powers of $x$2$\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
+      "explanation": "The constant term occurs when the powers of $x$. So $\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q8",
       "type": "mcq",
-      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + ...$, find the values of $n$2$p$.",
+      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + ...$, find the values of $n$ and $p$.",
       "options": [
         "n = 6, p = 4",
         "n = 4, p = 6",
@@ -110,7 +110,7 @@
         "n = 12, p = 2"
       ],
       "correctIndex": 0,
-      "explanation": "$np = 24$ and $\\frac{n(n-1)}{2}p^2 = 240$. Substituting $p = 24/n$2$\\frac{n(n-1)}{2}(\\frac{576}{n^2}) = 240 \\implies 288(n-1) = 240n \\implies 48n = 288 \\implies n=6, p=4$.\n\n**Common mistake:** Option B swaps the values of $n$2$p$ without checking both equations."
+      "explanation": "$np = 24$ and $\\frac{n(n-1)}{2}p^2 = 240$. Substituting $p = 24/n$. So $\\frac{n(n-1)}{2}(\\frac{576}{n^2}) = 240 \\implies 288(n-1) = 240n \\implies 48n = 288 \\implies n=6, p=4$.\n\n**Common mistake:** Option B swaps the values of $n$ and $p$ without checking both equations."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q9",

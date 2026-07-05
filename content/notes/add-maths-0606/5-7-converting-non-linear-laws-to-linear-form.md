@@ -23,10 +23,14 @@ Plot $\ln y$ against $\ln x$. Gradient $m = n$, intercept $c = \ln a$.
 ## Steps / method
 
 1. **Identify the form** — is the variable in the exponent ($Ab^x$) or as a power ($ax^n$)?
+
 2. **Take logarithms** of both sides ($\ln$ or $\lg$).
+
 3. **Expand** using log laws: $\ln(pq) = \ln p + \ln q$ and $\ln(p^r) = r \ln p$.
-4. **Match** to $Y = mX + c$ and identify the axes, gradient, and intercept.
-5. **Solve** for the original constants (e.g. $A = e^c$ when using $\ln$).
+
+4. **Match** to $Y = mX + c and identify the axes, gradient, and intercept.$
+
+5. **Solve** for the original constants (e.g22A = e^c$when using$\ln$).$
 
 ### Key rule
 
@@ -50,4 +54,4 @@ Do not write the intercept directly as your constant (e.g. $N_0 = 3$). The inter
 
 ## Quick check
 
-If a graph of $\ln y$ against $\ln x$ has gradient $-2$, the original relationship is a power law with $n = -2$, i.e. $y = ax^{-2}$.
+If a graph of $\ln y$ against $\ln x$ has gradient $-2$, the original relationship is a power law with $n = -2, i.e$. $2y = ax^{-2}$.

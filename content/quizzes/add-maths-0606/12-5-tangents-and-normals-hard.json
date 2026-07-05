@@ -11,7 +11,7 @@
     {
       "id": "12-5-tangents-and-normals-hard-q1",
       "type": "mcq",
-      "question": "The normal to the curve $y = x^2$ at the point $(1, 1)$ intersects the curve again at point $Q$2$x$2$Q$.",
+      "question": "The normal to the curve $y = x^2$ at the point $(1, 1)$ intersects the curve again at point $Q$ and $x2Q$.",
       "options": [
         "$-1.5$",
         "$1.5$",
@@ -19,20 +19,20 @@
         "$-2$"
       ],
       "correctIndex": 0,
-      "explanation": "Tangent gradient at^1 is^2, so normal gradient is $-0.5$. Normal eq: $y - 1 = -0.5(x - 1) \\implies y = -0.5x + 1.5$. Solving $x^2 = -0.5x + 1.5$ gives $2x^2 + x - 3 = 0$, or $(2x+3)(x-1)=0$. $x = -1.5$.\n\n**Common mistake:** Option B is a sign error during the factoring of the quadratic intersection equation."
+      "explanation": "Tangent gradient at^1 is $1$, so normal gradient is $-0.5$. Normal eq: $y - 1 = -0.5(x - 1) \\implies y = -0.5x + 1.5$. Solving $x^2 = -0.5x + 1.5$ gives $2x^2 + x - 3 = 0$, or $(2x+3)(x-1)=0$. $x = -1.5$.\n\n**Common mistake:** Option B is a sign error during the factoring of the quadratic intersection equation."
     },
     {
       "id": "12-5-tangents-and-normals-hard-q2",
       "type": "mcq",
-      "question": "Find the value of $k$2$y = 6x - 9$ is a tangent to the curve $y = kx^2$.",
+      "question": "Find the value of $k$. So $y = 6x - 9$ is a tangent to the curve $y = kx^2$.",
       "options": [
         "$1$",
-        "$2$",
+        "2",
         "$3$",
         "$4$"
       ],
       "correctIndex": 0,
-      "explanation": "Equating gradients: $2kx = 6 \\implies x = 3/k$2$y$2$k(3/k)^2 = 6(3/k) - 9 \\implies 9/k = 18/k - 9 \\implies 9/k = 9 \\implies k = 1$.\n\n**Common mistake:** Option B results from a simple calculation error in the final $fraction$ simplification."
+      "explanation": "Equating gradients: $2kx = 6 \\implies x = 3/k$ and $y2k(3/k)^2 = 6(3/k) - 9 \\implies 9/k = 18/k - 9 \\implies 9/k = 9 \\implies k = 1$.\n\n**Common mistake:** Option B results from a simple calculation error in the final $fraction$ simplification."
     },
     {
       "id": "12-5-tangents-and-normals-hard-q3",
@@ -45,12 +45,12 @@
         "$2y - x = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Crosses $y$2$x=0, y=1$. $\\frac{dy}{dx} = 2e^{2x}$, so $m_t = 2$. Normal $m_n = -0.5$. $y - 1 = -0.5x \\implies 2y - 2 = -x \\implies 2y + x = 2$.\n\n**Common mistake:** Option B is the tangent equation; Option C uses a negative gradient but fails the perpendicular check."
+      "explanation": "Crosses $y$. So $x=0, y=1$. $\\frac{dy}{dx} = 2e^{2x}$, so $m_t = 2$. Normal $m_n = -0.5$. $y - 1 = -0.5x \\implies 2y - 2 = -x \\implies 2y + x = 2$.\n\n**Common mistake:** Option B is the tangent equation; Option C uses a negative gradient but fails the perpendicular check."
     },
     {
       "id": "12-5-tangents-and-normals-hard-q4",
       "type": "mcq",
-      "question": "Find the $x$2$y = \\ln(x + 2)$ where the normal has a gradient of $-3$.",
+      "question": "Find the $x$. So $y = \\ln(x + 2) where the normal has a gradient of$-32",
       "options": [
         "$1$",
         "$3$",
@@ -63,7 +63,7 @@
     {
       "id": "12-5-tangents-and-normals-hard-q5",
       "type": "mcq",
-      "question": "The tangent to the curve $y = ax^2 + bx$2$(1, 5)$ is parallel to $y = 7x$2$a$2$b$.",
+      "question": "The tangent to the curve $y = ax^2 + bx$. $(1, 5)$ is parallel to $y = 7x$ and $a2b$.",
       "options": [
         "$a = 2, b = 3$",
         "$a = 3, b = 2$",
@@ -71,7 +71,7 @@
         "$a = 5, b = 0$"
       ],
       "correctIndex": 0,
-      "explanation": "At $(1,5)$, $a + b = 5$. Gradient $\\frac{dy}{dx} = 2ax + b$2$x=1$, $2a + b = 7$. Subtracting the equations gives $a = 2$, so $b = 3$.\n\n**Common mistake:** Option B is the result of swapping coefficients during the simultaneous equation solution."
+      "explanation": "At $(1,5)$, $a + b = 5$. Gradient $\\frac{dy}{dx} = 2ax + b$. So $x=1$, $2a + b = 7$. Subtracting the equations gives $a = 2$, so $b = 3$.\n\n**Common mistake:** Option B is the result of swapping coefficients during the simultaneous equation solution."
     }
   ]
 }

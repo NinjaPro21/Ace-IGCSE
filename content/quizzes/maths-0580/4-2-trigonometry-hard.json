@@ -11,7 +11,7 @@
     {
       "id": "4-2-trigonometry-hard-q1",
       "type": "mcq",
-      "question": "The diagram shows two right-angled triangles $ABC$2$ACD$2$AC$2$ABC$2$∠B=90°, ∠A=30°, AB=12\\text{ cm}$. In triangle $ACD$2$∠D=90°, ∠CAD=40°$. Calculate the length of $CD$.",
+      "question": "The diagram shows two right-angled triangles $ABC$. $ACD2AC$. $ABC2∠B=90°, ∠A=30°, AB=12\\text{ cm}$. In triangle $ACD$. $∠D=90°, ∠CAD=40°$. Calculate the length of $CD$.",
       "options": [
         "$4.45\\text{ cm}$",
         "$5.31\\text{ cm}$",
@@ -19,12 +19,12 @@
         "$8.93\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "In $\\triangle ABC$2$\\tan 30° = BC/12 \\Rightarrow BC = 12 \\tan 30° = 4\\sqrt{3} \\approx 6.928$. Wait, let's find $AC$2$\\cos 30° = 12/AC \\Rightarrow AC = 12/\\cos 30° \\approx 13.856$. In $\\triangle ACD$2$\\sin 40° = CD/AC \\Rightarrow CD = 13.856 \\times \\sin 40° \\approx 8.906$. Let's re-calculate with $\\tan 30° = AC/12$: $AC = 12 \\tan 30° = 6.928$. Then $CD = 6.928 \\sin 40° \\approx 4.453$.\n\n**Common mistake:** The student might assume $AC$2$ABC$ or misapply the ratio in the second triangle."
+      "explanation": "In $\\triangle ABC$. So $\\tan 30° = BC/12 \\Rightarrow BC = 12 \\tan 30° = 4\\sqrt{3} \\approx 6.928$. Wait, let's find $AC$. So $\\cos 30° = 12/AC \\Rightarrow AC = 12/\\cos 30° \\approx 13.856$. In $\\triangle ACD$. So $\\sin 40° = CD/AC \\Rightarrow CD = 13.856 \\times \\sin 40° \\approx 8.906$. Let's re-calculate with $\\tan 30° = AC/12$: $AC = 12 \\tan 30° = 6.928$. Then $CD = 6.928 \\sin 40° \\approx 4.453$.\n\n**Common mistake:** The student might assume $AC$. $ABC$ or misapply the ratio in the second triangle."
     },
     {
       "id": "4-2-trigonometry-hard-q2",
       "type": "mcq",
-      "question": "Show that the value of $(\\tan 60°)^2 + (\\sin 60°)^2$ is exactly $3.75$. What is the $\\frac{tion}{}$ form of this result?",
+      "question": "Show that the value of $(\\tan 60°)^2 + (\\sin 60°)^2$ is exactly $3.75$. What is the $fraction$ form of this result?",
       "options": [
         "$15/4$",
         "$13/4$",
@@ -50,7 +50,7 @@
     {
       "id": "4-2-trigonometry-hard-q4",
       "type": "mcq",
-      "question": "Find the size of angle $\\theta$2$\\sin \\theta = \\frac{\\sqrt{12}}{\\sqrt{48}}$ without using a calculator.",
+      "question": "Find the size of angle $\\theta$. So $\\sin \\theta = \\frac{\\sqrt{12}}{\\sqrt{48}}$ without using a calculator.",
       "options": [
         "$30°$",
         "$60°$",
@@ -71,7 +71,7 @@
         "$1.33$"
       ],
       "correctIndex": 0,
-      "explanation": "If $\\tan x = 3/4$, then Opposite $= 3$ and Adjacent $= 4$. By Pythagoras, Hypotenuse $= \\sqrt{3}² + 4^2 = 5$. Thus $\\sin x = O/H = 3/5 = 0.6$.\n\n**Common mistake:** A student might think $\\sin x$2$3$) or divide the adjacent by the opposite."
+      "explanation": "If $\\tan x = 3/4$, then Opposite $= 3$ and Adjacent $= 4$. By Pythagoras, Hypotenuse $= \\sqrt{3}² + 4^2 = 5$. Thus $\\sin x = O/H = 3/5 = 0.6$.\n\n**Common mistake:** A student might think $\\sin x$. $3$) or divide the adjacent by the opposite."
     }
   ]
 }

@@ -15,39 +15,27 @@ Atoms are not always stable. Some nuclei are like "ticking time bombs" that sudd
 
 **Alpha ($\alpha$) decay**
 
-$^{A}{Z}X \rightarrow ^{A-4}{Z-2}Y + ^{4}_{2}\alpha$
+$^{A}_{Z}\text{X} \rightarrow ^{A-4}_{Z-2}\text{Y} + ^{4}_{2}\alpha$
 
-Applies when a massive nucleus ejections a helium nucleus to become more stable.
+Applies when a massive nucleus ejects a helium nucleus to become more stable.
 
 **Beta ($\beta$) decay**
 
-$^{A}{Z}X \rightarrow ^{A}{Z+1}Y + ^{0}_{-1}\beta$
+$^{A}_{Z}\text{X} \rightarrow ^{A}_{Z+1}\text{Y} + ^{0}_{-1}\beta$
 
 Applies when a nucleus has too many neutrons; the proton number increases by 1.
 
 **Gamma ($\gamma$) emission**
 
-$^{A}{Z}X^* \rightarrow ^{A}{Z}X + \gamma$
+$^{A}_{Z}\text{X}^* \rightarrow ^{A}_{Z}\text{X} + \gamma$
 
-Applies when a nucleus is in an "excited" state (shown by asterisk ) and needs to release excess energy.*
+Applies when a nucleus is in an "excited" state (shown by asterisk) and needs to release excess energy.
 
 ## Graphs & diagrams
 
 - **Alpha Decay Visual**: The nucleus loses four nucleons. On a chart of nuclides, the element moves two places back in the periodic table because the proton number decreases by 2.
 - **Beta Decay Visual**: The nucleon number ($A$) stays the same, but the proton number ($Z$) increases. This means the element moves one place forward in the periodic table.
 - **Decay Equations**: These are written similarly to chemical equations, but they represent nuclear changes rather than electron sharing. The arrow always points from the unstable "parent" nucleus to the more stable "daughter" products.
-
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Half life decay curve">
-      <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
-      <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
-      <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Time</text>
-      <text x="20" y="110" transform="rotate(-90 20 110)" text-anchor="middle" font-size="12" fill="#475569">Count rate</text>
-      <path d="M65 55 Q180 120 370 175" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
-      <line x1="140" y1="195" x2="140" y2="110" stroke="#94a3b8" stroke-dasharray="4 3"/>
-      <line x1="55" y1="110" x2="140" y2="110" stroke="#94a3b8" stroke-dasharray="4 3"/>
-      <text x="140" y="210" text-anchor="middle" font-size="10" fill="#64748b">1 half-life</text>
-      <text x="70" y="105" font-size="10" fill="#64748b">½</text>
-    </svg><p class="enlight-physics-diagram__caption">Radioactive decay — activity (or count rate) halves every half-life; curve never reaches zero.</p></div>
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Types of nuclear emission">
       <circle cx="70" cy="60" r="28" fill="#dbeafe" stroke="#2563eb"/>
@@ -96,22 +84,32 @@ In beta decay, what specific subatomic particle changes into a proton?
 
 ## Worked example — Alpha Decay
 
-Question: Radon-22$^2$ ($^{222}_{86}Rn$. $Po. ^{4}_{2}\alpha$.
+Question: Radon-222 ($^{222}_{86}\text{Rn}$) undergoes alpha decay to form polonium and an alpha particle. Write the balanced equation.
 
-Balance $A$1222 - 4 = 218. The new nucleon number is 218. Balance 2:$86 - 2 = 84. The new proton number is 84$.
+Balance $A$: $222 - 4 = 218. The new nucleon number is 218$.
 
-Final Equation: $^{222}{86}Rn \rightarrow ^{218}{84}Po + ^{4}_{2}\alpha$.
+Balance $Z$: $86 - 2 = 84. The new proton number is 84$.
+
+**Final equation:**
+
+$$
+^{222}_{86}\text{Rn} \rightarrow ^{218}_{84}\text{Po} + ^{4}_{2}\alpha
+$$
 
 ## Worked example — Multi-step Decay
 
-Question: Lead-214 ($^{214}{82}Pb$. $^{214}{83}Bi^*$), which then emits gamma radiation. Show the combined equation.
+Question: Lead-214 ($^{214}_{82}\text{Pb}$) undergoes beta decay to form excited bismuth ($^{214}_{83}\text{Bi}^*$), which then emits gamma radiation. Show the combined equation.
 
-Beta Step: The nucleon number 214 remains the same. The proton number 8$^2$ increases to 83. The beta particle is $^{0}_{-1}\beta$.
+Beta step: The nucleon number 214 remains the same. The proton number increases from 82 to 83. The beta particle is $^{0}_{-1}\beta$.
 
-Gamma Step: The Bismuth nucleus releases energy but the numbers 214 and 83 do not change.
+Gamma step: The bismuth nucleus releases energy but the numbers 214 and 83 do not change.
 
-Combined Equation: 
-^{214}{82}Pb \rightarrow ^{214}{83}Bi + ^{0}_{-1}\beta + \gamma
- ### Trap
+**Combined equation:**
+
+$$
+^{214}_{82}\text{Pb} \rightarrow ^{214}_{83}\text{Bi} + ^{0}_{-1}\beta + \gamma
+$$
+
+### Trap
 
 Students often think the mass of the nucleus increases during beta decay because $Z$ and $A$) stays exactly the same; a neutron is simply replaced by a proton.

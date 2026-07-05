@@ -25,13 +25,13 @@ $\text{Acceleration} = \text{gradient} = \frac{\Delta \text{speed}}{\Delta \text
 
 Applies to any straight-line section of a speed-time graph.
 
-**Distance Travelled (from speed-time graph)**
+**Distance travelled (from speed-time graph)**
 
-$\text{Distance} = \text{Area under the graph}$
+$\text{Distance} = \text{area under the graph}$
 
-Use $\text{Area of a Rectangle} = l \times w$ and $\text{Area of a Triangle} = \frac{1}{2} \times b \times h$.
+Use $\text{Area of rectangle} = l \times w$ and $\text{Area of triangle} = \frac{1}{2} \times b \times h$.
 
-**Area of a Trapezium**
+**Area of a trapezium**
 
 $\text{Area} = \frac{1}{2} \times (\text{sum of parallel sides}) \times \text{height}$
 
@@ -132,23 +132,29 @@ How can you tell from a speed-time graph that an object is moving with non-unifo
 
 ## Worked example — Speed from a Distance-Time Graph
 
-Question: A car's distance-time graph is a straight line. At $t = 0 \text{ s}$, distance is $2 \text{ m}$. At $t = 5 \text{ s}$, distance is $50 \text{ m}$. Calculate the speed.
+Question: A car's distance-time graph is a straight line. At $t = 0\ \text{s}$, distance is $2\ \text{m}$. At $t = 5\ \text{s}$, distance is $50\ \text{m}$. Calculate the speed.
 
-Identify the change in distance ($\Delta y$) and time ($\Delta x$): $\Delta y = 50 - 0 = 50 \text{ m}$, $\Delta x = 5 - 0 = 5 \text{ s}$.
+1. Find the change in distance: $\Delta d = 50 - 2 = 48\ \text{m}$.
 
-Calculate the gradient: $\text{Speed} = \frac{50 \text{ m}}{5 \text{ s}} = 10 \text{ m/s}$.
+2. Find the change in time: $\Delta t = 5 - 0 = 5\ \text{s}$.
+
+3. Calculate the gradient: $\text{Speed} = \frac{48\ \text{m}}{5\ \text{s}} = 9.6\ \text{m/s}$.
+
+**Final answer:** $9.6\ \text{m/s}$.
 
 ## Worked example — Distance and Acceleration
 
-Question: A train accelerates from rest to $15 \text{ m/s}$ in $10 \text{ s}$, then travels at constant speed for $60 \text{ s}$. Calculate the acceleration and total distance.
+Question: A train accelerates from rest to $15\ \text{m/s}$ in $10\ \text{s}$, then travels at constant speed for $60\ \text{s}$. Calculate the acceleration and total distance.
 
-**Acceleration:** $\text{Acceleration} = \frac{15 \text{ m/s} - 0 \text{ m/s}}{10 \text{ s}} = 1.5 \text{ m/s}^2$.
+1. **Acceleration:** $\frac{15\ \text{m/s} - 0}{10\ \text{s}} = 1.5\ \text{m/s}^2$.
 
-$**Distance:** Calculate the area of the triangle (acceleration phase) and the rectangle (constant speed phase)22\text{Area 1 (Triangle)} = \frac{1}{2} \times 10 \text{ s} \times 15 \text{ m/s} = 75 \text{ m}2$
+2. **Area 1 (triangle, acceleration phase):** $\frac{1}{2} \times 10\ \text{s} \times 15\ \text{m/s} = 75\ \text{m}$.
 
-$\text{Area 2 (Rectangle)} = 60 \text{ s} \times 15 \text{ m/s} = 900 \text{ m}$.
+3. **Area 2 (rectangle, constant speed):** $60\ \text{s} \times 15\ \text{m/s} = 900\ \text{m}$.
 
-Total distance $= 75 + 900 = 975 \text{ m}$.
+4. **Total distance:** $75 + 900 = 975\ \text{m}$.
+
+**Final answer:** acceleration $= 1.5\ \text{m/s}^2$; total distance $= 975\ \text{m}$.
 
 ### Common Trap
 

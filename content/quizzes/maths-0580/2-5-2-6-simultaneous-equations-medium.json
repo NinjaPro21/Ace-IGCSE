@@ -32,7 +32,7 @@
         "$x = 2, y = -4.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the first equation by 2: $10x - 4y = 38$. Add this to the second equation: $(10x - 4y) + (3x + 4y) = 38 + 1 \\rightarrow 13x = 39 \\rightarrow x = 3$. Substitute $x = 3$: $3(3) + 4y = 1 \\rightarrow 9 + 4y = 1 \\rightarrow 4y = -8 \\rightarrow y = -2$.\n\n**Common mistake:** Students often make a sign error when adding $-4y$2$+4y$2$9 + 4y = 1$."
+      "explanation": "Multiply the first equation by 2: $10x - 4y = 38$. Add this to the second equation: $(10x - 4y) + (3x + 4y) = 38 + 1 \\rightarrow 13x = 39 \\rightarrow x = 3$. Substitute $x = 3$: $3(3) + 4y = 1 \\rightarrow 9 + 4y = 1 \\rightarrow 4y = -8 \\rightarrow y = -2$.\n\n**Common mistake:** Students often make a sign error when adding $-4y$. $+4y29 + 4y = 1$."
     },
     {
       "id": "2-5-2-6-simultaneous-equations-medium-q3",
@@ -45,7 +45,7 @@
         "$x = 2, y = -2.5$"
       ],
       "correctIndex": 1,
-      "explanation": "Multiply first equation by 2 and second by 3:\n$8x + 6y = 2$\n\n9x - 6y = 39\n\nAdd the equations: $17x = 41$... wait, $8x+9x=17x$2$2+39=41$, not a clean integer. Let's adjust numbers: Let $x=3, y=-3.67$ from option 0? Let's make it a clean solution: $4x + 3y = 0$, $3x - 2y = 17 \\rightarrow x=3, y=-4$ is correct! Let's update the equations in stem: $4x + 3y = 0$, $3x - 2y = 17$. Then $2(4x+3y)=8x+6y=0$, $3(3x-2y)=9x-6y=51$. Add: $17x=51 \\rightarrow x=3$. Substitute: $4(3)+3y=0 \\rightarrow 3y=-12 \\rightarrow y=-4$. Perfect.\n\n**Common mistake:** Students commonly add equations with opposite signs incorrectly, miscalculating values under elimination steps."
+      "explanation": "Multiply first equation by 2 and second by 3:\n$8x + 6y = 2$\n\n9x - 6y = 39\n\nAdd the equations: $17x = 41$... wait, $8x+9x=17x$. $2+39=41$, not a clean integer. Let's adjust numbers: Let $x=3, y=-3.67$ from option 0? Let's make it a clean solution: $4x + 3y = 0$, $3x - 2y = 17 \\rightarrow x=3, y=-4$ is correct! Let's update the equations in stem: $4x + 3y = 0$, $3x - 2y = 17$. Then $2(4x+3y)=8x+6y=0$, $3(3x-2y)=9x-6y=51$. Add: $17x=51 \\rightarrow x=3$. Substitute: $4(3)+3y=0 \\rightarrow 3y=-12 \\rightarrow y=-4$. Perfect.\n\n**Common mistake:** Students commonly add equations with opposite signs incorrectly, miscalculating values under elimination steps."
     },
     {
       "id": "2-5-2-6-simultaneous-equations-medium-q4",
@@ -71,7 +71,7 @@
         "$x = 6, y = 2$"
       ],
       "correctIndex": 1,
-      "explanation": "Multiply the first equation by 2 to remove $\\frac{tions:}{}$ $x + 2y = 10$. Add this to the second equation: $(x + 2y) + (3x - 2y) = 10 + 4 \\rightarrow 4x = 14 \\rightarrow x = 3.5$. Let's refine equations for cleaner integer roots: Let first equation be $\\frac{x}{2} + y = 5$, second equation $3x - 2y = 4$. Wait, if $x=2, y=4$: $2/2 + 4 = 5$, $3(2)-2(4)=6-8=-2$. Let's change the second equation to $3x - 2y = -2$. Then $x+2y=10$ and $3x-2y=-2$. Add them: $4x=8 \\rightarrow x=2$. Then $2+2y=10 \\rightarrow 2y=8 \\rightarrow y=4$. Let's use $3x - 2y = -2$ in the stem.\n\n**Common mistake:** Students often struggle to clear denominators accurately or forget to multiply all terms by the scalar multiplier."
+      "explanation": "Multiply the first equation by 2 to remove $tions:$ $x + 2y = 10$. Add this to the second equation: $(x + 2y) + (3x - 2y) = 10 + 4 \\rightarrow 4x = 14 \\rightarrow x = 3.5$. Let's refine equations for cleaner integer roots: Let first equation be $\\frac{x}{2} + y = 5$, second equation $3x - 2y = 4$. Wait, if $x=2, y=4$: $2/2 + 4 = 5$, $3(2)-2(4)=6-8=-2$. Let's change the second equation to $3x - 2y = -2$. Then $x+2y=10$ and $3x-2y=-2$. Add them: $4x=8 \\rightarrow x=2$. Then $2+2y=10 \\rightarrow 2y=8 \\rightarrow y=4$. Let's use $3x - 2y = -2$ in the stem.\n\n**Common mistake:** Students often struggle to clear denominators accurately or forget to multiply all terms by the scalar multiplier."
     }
   ]
 }

@@ -13,65 +13,65 @@
       "type": "mcq",
       "question": "Find the possible values of m for which the equation $x^{2}$+(m+2)x+(m+5)=0 has two equal real roots.",
       "options": [
-        "4 and −4",
-        "2 and −8",
+        "4 and -4",
+        "2 and -8",
         "4 only",
-        "6 and −2"
+        "6 and -2"
       ],
       "correctIndex": 0,
-      "explanation": "Δ= (m+2)^{2}−4(1)(m+5)=0 \\implies $m^{2}$+4m+4−4m−20=0 \\implies $m^{2}$−16=0 \\implies m=±4.\n\n**Common mistake:** Errors in expanding the bracket $(m+2)^{2}$ as $m^{2}$+4 or failing to subtract the 20 correctly."
+      "explanation": "Δ= (m+2)^{2}-4(1)(m+5)=0 \\implies $m^{2}$+4m+4-4m-20=0 \\implies $m^{2}$-16=0 \\implies m=±4.\n\n**Common mistake:** Errors in expanding the bracket $(m+2)^{2}$ as $m^{2}$+4 or failing to subtract the 20 correctly."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-hard-q2",
       "type": "mcq",
-      "question": "Find the set of values of k for which the equation $x^{2}$−kx+(k+3)=0 has no real roots.",
+      "question": "Find the set of values of k for which the equation $x^{2}$-kx+(k+3)=0 has no real roots.",
       "options": [
-        "−2<k<6",
-        "k<−2 or k>6",
-        "−6<k<2",
-        "k=6 and k=−2"
+        "-2<k<6",
+        "k<-2 or k>6",
+        "-6<k<2",
+        "k=6 and k=-2"
       ],
       "correctIndex": 0,
-      "explanation": "Δ<0 \\implies $(-k)^{2}$−4(1)(k+3)<0 \\implies $k^{2}$−4k−12<0 \\implies (k−6)(k+2)<0. The region is between the roots −2 and 6.\n\n**Common mistake:** Misidentifying the solution to the quadratic inequality as the 'outside' region or mis-factoring the quadratic."
+      "explanation": "Δ<0 \\implies $(-k)^{2}$-4(1)(k+3)<0 \\implies $k^{2}$-4k-12<0 \\implies (k-6)(k+2)<0. The region is between the roots -2 and 6.\n\n**Common mistake:** Misidentifying the solution to the quadratic inequality as the 'outside' region or mis-factoring the quadratic."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-hard-q3",
       "type": "mcq",
-      "question": "Determine the range of values of p for which the equation (p+2)$x^{2}$−2px+p=0 has two distinct real roots.",
+      "question": "Determine the range of values of p for which the equation (p+2)$x^{2}$-2px+p=0 has two distinct real roots.",
       "options": [
         "p<0",
         "p>0",
-        "p<−2",
+        "p<-2",
         "p>2"
       ],
       "correctIndex": 0,
-      "explanation": "Δ>0 \\implies $(-2p)^{2}$−4(p+2)p>0 \\implies 4$p^{2}$−4$p^{2}$−8p>0 \\implies −8p>0 \\implies p<0.\n\n**Common mistake:** Arithmetic errors in expanding 4p(p+2) or failing to flip the inequality sign when dividing by −8."
+      "explanation": "Δ>0 \\implies $(-2p)^{2}$-4(p+2)p>0 \\implies 4$p^{2}$-4$p^{2}$-8p>0 \\implies -8p>0 \\implies p<0.\n\n**Common mistake:** Arithmetic errors in expanding 4p(p+2) or failing to flip the inequality sign when dividing by -8."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-hard-q4",
       "type": "mcq",
       "question": "Find the values of c for which the equation $x^{2}$+2cx+(c+2)=0 has repeated roots.",
       "options": [
-        "2 and −1",
-        "−2 and 1",
+        "2 and -1",
+        "-2 and 1",
         "2 only",
         "±\n2"
       ],
       "correctIndex": 0,
-      "explanation": "Δ= (2c)^{2}−4(1)(c+2)=0 \\implies 4$c^{2}$−4c−8=0 \\implies $c^{2}$−c−2=0 \\implies (c−2)(c+1)=0. Roots are 2,−1.\n\n**Common mistake:** Failing to divide by 4 first or making a factoring error in the resulting quadratic equation."
+      "explanation": "Δ= (2c)^{2}-4(1)(c+2)=0 \\implies 4$c^{2}$-4c-8=0 \\implies $c^{2}$-c-2=0 \\implies (c-2)(c+1)=0. Roots are 2,-1.\n\n**Common mistake:** Failing to divide by 4 first or making a factoring error in the resulting quadratic equation."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-hard-q5",
       "type": "mcq",
-      "question": "The equation $x^{2}$+(k−3)x+k=0 has real roots. Find the set of values of k.",
+      "question": "The equation $x^{2}$+(k-3)x+k=0 has real roots. Find the set of values of k.",
       "options": [
         "k≤1 or k≥9",
         "1≤k≤9",
-        "k≤−9 or k≥−1",
+        "k≤-9 or k≥-1",
         "k≥9 only"
       ],
       "correctIndex": 0,
-      "explanation": "Δ≥0 \\implies $(k-3)^{2}$−4k≥0 \\implies $k^{2}$−6k+9−4k≥0 \\implies $k^{2}$−10k+9≥0 \\implies (k−9)(k−1)≥0. Region is outside 1 and 9.\n\n**Common mistake:** Miscalculating the middle term of $(k-3)^{2}$ as −3k instead of −6k or choosing the 'inside' region."
+      "explanation": "Δ≥0 \\implies $(k-3)^{2}$-4k≥0 \\implies $k^{2}$-6k+9-4k≥0 \\implies $k^{2}$-10k+9≥0 \\implies (k-9)(k-1)≥0. Region is outside 1 and 9.\n\n**Common mistake:** Miscalculating the middle term of $(k-3)^{2}$ as -3k instead of -6k or choosing the 'inside' region."
     }
   ]
 }

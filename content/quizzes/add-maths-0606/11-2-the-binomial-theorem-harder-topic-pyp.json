@@ -11,7 +11,7 @@
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "Find the first three terms, in ascending powers of $x$2$(2 - \\frac{x}{4})^6$.",
+      "question": "Find the first three terms, in ascending powers of $x$. $(2 - \\frac{x}{4})^6$.",
       "options": [
         "64 - 12x + 0.9375x^2",
         "64 - 48x + 15x^2",
@@ -37,7 +37,7 @@
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Find the term independent of $x$2$(x^2 - \\frac{3}{x})^6$.",
+      "question": "Find the term independent of $x$. $(x^2 - \\frac{3}{x})^6$.",
       "options": [
         "1215",
         "-1215",
@@ -45,12 +45,12 @@
         "-405"
       ],
       "correctIndex": 0,
-      "explanation": "General term: $\\binom{6}{r}(x^2)^{6-r}(-\\frac{3}{x})^r$2$2(6-r) - r = 0 \\implies 12 - 3r = 0 \\implies r = 4$. Term: $\\binom{6}{4}(-3)^4 = 15 \\times 81 = 1215$.\n\n**Common mistake:** Option B is a sign error assuming the power of a negative number in an even position remains negative."
+      "explanation": "General term: $\\binom{6}{r}(x^2)^{6-r}(-\\frac{3}{x})^r$. $2(6-r) - r = 0 \\implies 12 - 3r = 0 \\implies r = 4$. Term: $\\binom{6}{4}(-3)^4 = 15 \\times 81 = 1215$.\n\n**Common mistake:** Option B is a sign error assuming the power of a negative number in an even position remains negative."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "The first three terms in the expansion of $(1 + ax)^n$2$1 + 30x + 405x^2$. Find the values of $a$2$n$.",
+      "question": "The first three terms in the expansion of $(1 + ax)^n$. $1 + 30x + 405x^2$. Find the values of $a$ and $n$.",
       "options": [
         "a = 3, n = 10",
         "a = 10, n = 3",
@@ -58,7 +58,7 @@
         "a = 2, n = 15"
       ],
       "correctIndex": 0,
-      "explanation": "$na = 30$ and $\\frac{n(n-1)}{2}a^2 = 405$. Substituting $a = 30/n$2$\\frac{n(n-1)}{2}(\\frac{900}{n^2}) = 405 \\implies 450(n-1) = 405n \\implies 45n = 450 \\implies n=10, a=3$.\n\n**Common mistake:** Option B results from a logic error swapping the multiplier and the exponent."
+      "explanation": "$na = 30$ and $\\frac{n(n-1)}{2}a^2 = 405$. Substituting $a = 30/n$. So $\\frac{n(n-1)}{2}(\\frac{900}{n^2}) = 405 \\implies 450(n-1) = 405n \\implies 45n = 450 \\implies n=10, a=3$.\n\n**Common mistake:** Option B results from a logic error swapping the multiplier and the exponent."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q5",

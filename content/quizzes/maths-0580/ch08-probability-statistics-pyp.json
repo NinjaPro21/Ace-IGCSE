@@ -115,7 +115,7 @@
     {
       "id": "ch08-probability-statistics-pyp-q9",
       "type": "mcq",
-      "question": "The table shows marks 3, 4, 5 with frequencies 3, $x$2$x$.",
+      "question": "The table shows marks 3, 4, 5 with frequencies 3, $x$ and $x$.",
       "options": [
         "3",
         "4",
@@ -123,7 +123,7 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Total sum $= (3 \\times 3) + (4 \\times x) + (5 \\times 4) = 9 + 4x + 20 = 29 + 4x$2$= 3 + x + 4 = 7 + x$2$(29 + 4x) / (7 + x) = 4.1 \\Rightarrow 29 + 4x = 28.7 + 4.1x \\Rightarrow 0.3 = 0.1x \\Rightarrow x = 3$.\n\n**Common mistake:** Setting up the equation incorrectly, such as multiplying the mean by only the known frequency (7)."
+      "explanation": "Total sum $= (3 \\times 3) + (4 \\times x) + (5 \\times 4) = 9 + 4x + 20 = 29 + 4x$. $= 3 + x + 4 = 7 + x2(29 + 4x) / (7 + x) = 4.1 \\Rightarrow 29 + 4x = 28.7 + 4.1x \\Rightarrow 0.3 = 0.1x \\Rightarrow x = 3$.\n\n**Common mistake:** Setting up the equation incorrectly, such as multiplying the mean by only the known frequency (7)."
     },
     {
       "id": "ch08-probability-statistics-pyp-q10",
@@ -141,7 +141,7 @@
     {
       "id": "ch08-probability-statistics-pyp-q11",
       "type": "mcq",
-      "question": "A scatter diagram shows the relationship between the number of hours spent studying ($x$2$y$). The correlation is strong and positive. Describe what this means in words.",
+      "question": "A scatter diagram shows the relationship between the number of hours spent studying ($x$ and $y$). The correlation is strong and positive. Describe what this means in words.",
       "options": [
         "In general, the more hours a student spends studying, the higher their mark",
         "Spending more hours studying causes a student to get a higher mark",
@@ -149,7 +149,7 @@
         "There is no clear relationship between studying and exam marks"
       ],
       "correctIndex": 0,
-      "explanation": "Strong positive correlation means that as one variable ($x$2$y$) also increases in a consistent manner.\n\n**Common mistake:** Selecting an answer that implies 'causation' (e.g., 'causes') or 'absolute certainty' (e.g., 'every student')."
+      "explanation": "Strong positive correlation means that as one variable ($x$ and $y$) also increases in a consistent manner.\n\n**Common mistake:** Selecting an answer that implies 'causation' (e.g., 'causes') or 'absolute certainty' (e.g., 'every student')."
     },
     {
       "id": "ch08-probability-statistics-pyp-q12",
@@ -214,7 +214,7 @@
         "2 g"
       ],
       "correctIndex": 0,
-      "explanation": "LQ ($25\\%$) is at $200/4 = 50$, which corresponds to $113\\text{ g}$. UQ ($75\\%$) is at $150$, which corresponds to $117\\text{ g}$. IQR $= 117 - 113 = 4\\text{ g}$.\n\n**Common mistake:** Subtracting the cumulative frequencies ($150-50=100$) instead of the actual masses."
+      "explanation": "LQ ($25\\%$) is at $200/4 = 50$, which corresponds to $113\\text{ g}$. UQ ($75\\%$) is at^150, which corresponds to $117\\text{ g}$. IQR $= 117 - 113 = 4\\text{ g}$.\n\n**Common mistake:** Subtracting the cumulative frequencies ($150-50=100$) instead of the actual masses."
     },
     {
       "id": "ch08-probability-statistics-pyp-q17",
@@ -305,7 +305,7 @@
         "$1/3$"
       ],
       "correctIndex": 0,
-      "explanation": "The probability of a tail is $1 - 2/3 = 1/3. The tosses are independent$2$2P(\\text{Tail and Tail}) = 1/3 \\times 1/3 = 1/9$.\n\n**Common mistake:** Multiplying the head probability ($2/3$) by the tail probability ($1/3$)."
+      "explanation": "The probability of a tail is $1 - 2/3 = 1/3. The tosses are independent$. $2P(\\text{Tail and Tail}) = 1/3 \\times 1/3 = 1/9$.\n\n**Common mistake:** Multiplying the head probability ($2/3$) by the tail probability ($1/3$)."
     },
     {
       "id": "ch08-probability-statistics-pyp-q24",
@@ -331,7 +331,7 @@
         "$3/6$"
       ],
       "correctIndex": 0,
-      "explanation": "Every number in the set $A$2$2^2, 3^2, 4^2$). By definition, none of these are prime numbers. Thus, the probability is 0.\n\n**Common mistake:** Assuming 49 or 9 are prime because they are odd."
+      "explanation": "Every number in the set $A$. $2^2, 3^2, 4^2$). By definition, none of these are prime numbers. Thus, the probability is 0.\n\n**Common mistake:** Assuming 49 or 9 are prime because they are odd."
     },
     {
       "id": "ch08-probability-statistics-pyp-q26",
@@ -357,7 +357,7 @@
         "14/27"
       ],
       "correctIndex": 0,
-      "explanation": "Total students = 27. $P(B,B) = 14/27 \\times 13/26 = 182 / 702 = 91/351$.\n\n**Common mistake:** Treating the events as independent ($14/27 \\times 14/27$) or forgetting to simplify the $\\frac{tion.}{}$"
+      "explanation": "Total students = 27. $P(B,B) = 14/27 \\times 13/26 = 182 / 702 = 91/351$.\n\n**Common mistake:** Treating the events as independent ($14/27 \\times 14/27$) or forgetting to simplify the $fraction.$"
     },
     {
       "id": "ch08-probability-statistics-pyp-q28",
@@ -461,7 +461,7 @@
         "0.75"
       ],
       "correctIndex": 0,
-      "explanation": "$n(B') = 1 - 0.7 = 0.3$. The part of A outside B is $0.8 - 0.5 = 0.3$. $P = 0.3 / 0.3 = 1.0$.\n\n**Common mistake:** Thinking that if $B$2$A$2$A$2$B$."
+      "explanation": "$n(B') = 1 - 0.7 = 0.3$. The part of A outside B is $0.8 - 0.5 = 0.3$. $P = 0.3 / 0.3 = 1.0$.\n\n**Common mistake:** Thinking that if $B$ and $A2A$ and $B$."
     }
   ]
 }

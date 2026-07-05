@@ -24,7 +24,7 @@
     {
       "id": "10-1-any-angle-medium-q2",
       "type": "mcq",
-      "question": "If $\\cos 20° = 0.940$, find the two angles between $0°$ and $360°$ where the cosine value is $-0.940$.",
+      "question": "If $\\cos 20° = 0.940$, find the two angles between $0°$ and $360° where the cosine value is$-0.9402",
       "options": [
         "$160°$ and $200°$",
         "$110°$ and $250°$",
@@ -58,7 +58,7 @@
         "$221.4°$ and $318.6°$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\sin^{-1}$(-0.75) \\approx -48.6°$. In the required range, the solutions are$180 - (-48.6) = 228.6°$and$360 + (-48.6) = 311.4°2\n\n**Common mistake:** Students often struggle with inverse sine returning a negative value and fail to map it correctly to the $0-360$ range."
+      "explanation": "$\\sin^{-1}$(-0.75) \\approx -48.6°$. In the required range, the solutions are 180 - (-48.6) = 228.6°and$360 + (-48.6) = 311.4°2\n\n**Common mistake:** Students often struggle with inverse sine returning a negative value and fail to map it correctly to the $0-360$ range."
     },
     {
       "id": "10-1-any-angle-medium-q5",
@@ -71,7 +71,7 @@
         "$-1/\\sqrt{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\tan(x + 180°) = \\tan x$2$\\tan 240° = \\tan(60° + 180°) = \\tan 60° = \\sqrt{3}$.\n\n**Common mistake:** A student might assume tangent is negative in the third quadrant, but it is actually positive because both sine and cosine are negative."
+      "explanation": "$\\tan(x + 180°) = \\tan x$. So $\\tan 240° = \\tan(60° + 180°) = \\tan 60° = \\sqrt{3}$.\n\n**Common mistake:** A student might assume tangent is negative in the third quadrant, but it is actually positive because both sine and cosine are negative."
     }
   ]
 }

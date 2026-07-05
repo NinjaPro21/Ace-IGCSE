@@ -37,7 +37,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of $k$2$y = 2x + k$2$y = x^2 + 6x + 9$.",
+      "question": "Find the set of values of $k$. So $y = 2x + k2y = x^2 + 6x + 9$.",
       "options": [
         "$k < 5$",
         "$k > 5$",
@@ -50,7 +50,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "Find the range of values of $c$2$y = 3x + c$2$y = x^2 - x + 2$ at two distinct points.",
+      "question": "Find the range of values of $c$. So $y = 3x + c2y = x^2 - x + 2$ at two distinct points.",
       "options": [
         "$c > -2$",
         "$c < -2$",
@@ -71,7 +71,7 @@
         "$(0, 3)$ and $(4, 3)$"
       ],
       "correctIndex": 0,
-      "explanation": "$4x - x^2 = 3 \\implies x^2 - 4x + 3 = 0 \\implies (x - 1)(x - 3) = 0$. The $x$2$y = 3$, both points have a $y$-coordinate of 3.\n\n**Common mistake:** Only identifying one of the two intersection points or miscalculating the $x$-coordinates from the quadratic."
+      "explanation": "$4x - x^2 = 3 \\implies x^2 - 4x + 3 = 0 \\implies (x - 1)(x - 3) = 0$. The $x$. So $y = 3$, both points have a $y$-coordinate of 3.\n\n**Common mistake:** Only identifying one of the two intersection points or miscalculating the $x$-coordinates from the quadratic."
     }
   ]
 }

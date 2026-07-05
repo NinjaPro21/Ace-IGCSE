@@ -15,8 +15,11 @@ This section combines product, quotient, and chain rules with exponential, logar
 ## Steps / method
 
 1. **Rewrite if needed** — use a trig or log identity first if the expression is not in standard form.
+
 2. **Select the rule** — product, quotient, or chain (often more than one in the same question).
+
 3. **Differentiate** — find $u'$, $v'$, or the inner derivative as required.
+
 4. **Solve the target** — substitute $x$ or set $\frac{dy}{dx} = 0$ for stationary points.
 
 ## Worked example — Product with exponential

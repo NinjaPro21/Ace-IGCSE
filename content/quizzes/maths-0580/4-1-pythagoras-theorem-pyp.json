@@ -32,12 +32,12 @@
         "$72.00\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let side be $s$2$s^2 + s^2 = 12^2 \\Rightarrow 2s^2 = 144 \\Rightarrow s^2 = 72 \\Rightarrow s = \\sqrt{72} \\approx 8.485$.\n\n**Common mistake:** The student might divide $12$ by $2$ or assume the side is $12$ and find the diagonal instead."
+      "explanation": "Let side be $s^2 So s^2 + s^2 = 12^2 \\Rightarrow 2s^2 = 144 \\Rightarrow s^2 = 72 \\Rightarrow s = \\sqrt{72} \\approx 8.485$.\n\n**Common mistake:** The student might divide^12by2or assume the side is 12 and find the diagonal instead."
     },
     {
       "id": "4-1-pythagoras-theorem-pyp-q3",
       "type": "mcq",
-      "question": "A square-based pyramid $VABCD$2$10\\text{ cm}$ and a slant edge $VA = 13\\text{ cm}$. Find the vertical height of the pyramid.",
+      "question": "A square-based pyramid $VABCD$. $10\\text{ cm}$ and a slant edge $VA = 13\\text{ cm}$. Find the vertical height of the pyramid.",
       "options": [
         "$10.9\\text{ cm}$",
         "$12\\text{ cm}$",
@@ -50,7 +50,7 @@
     {
       "id": "4-1-pythagoras-theorem-pyp-q4",
       "type": "mcq",
-      "question": "Triangle $ABC$2$AB = \\sqrt{12}\\text{ cm}$ and $BC = \\sqrt{48}\\text{ cm}$. If $∠ABC = 90°$, find the exact length of $AC$.",
+      "question": "Triangle $ABC$. So $AB = \\sqrt{12}\\text{ cm}$ and $BC = \\sqrt{48}\\text{ cm}$. If $∠ABC = 90°$, find the exact length of $AC$.",
       "options": [
         "$\\sqrt{60}\\text{ cm}$",
         "$60\\text{ cm}$",
@@ -71,7 +71,7 @@
         "$x + (20 - x)$"
       ],
       "correctIndex": 0,
-      "explanation": "If the sum of the two legs is $20$, and one is $x$2$(20-x)$. The hypotenuse is the square root of the sum of their squares.\n\n**Common mistake:** A student might assume the hypotenuse is the total length of the wire or ignore the 'shorter sides' wording."
+      "explanation": "If the sum of the two legs is $1$, and one is $x$. $(20-x)$. The hypotenuse is the square root of the sum of their squares.\n\n**Common mistake:** A student might assume the hypotenuse is the total length of the wire or ignore the 'shorter sides' wording."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q1",
       "type": "mcq",
-      "question": "Show that an angle of $270^\\circ$2$1.5\\pi$ radians.",
+      "question": "Show that an angle of $270^\\circ$ is equal to $1.5\\pi$ radians.",
       "options": [
         "$270 \\times \\frac{\\pi}{180} = 1.5\\pi$",
         "$270 \\div 180 = 1.5$",
@@ -19,48 +19,56 @@
         "$1.5 \\times 180 = 270$"
       ],
       "correctIndex": 0,
-      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $270 \\times \\frac{\\pi}{180} = \\frac{27}{18}\\pi = 1.5\\pi$.\n\n**Common mistake:** While $270/180 = 1.5$, the multiplication by $\\pi$ is essential for the radian unit.",
+      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $270 \\times \\frac{\\pi}{180} = \\frac{27}{18}\\pi = 1.5\\pi .$\n\n**Common mistake:** While 270/180 = 1.5$, the multiplication by$\\pi is essential for the radian unit.",
       "variants": [
         {
-          "question": "Convert an angle of $90^\\circ$2$\\pi$.",
+          "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $90^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{1}{3}\\pi\n$$",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{1}{3}\\pi\n",
             "\\pi"
           ],
           "correctIndex": 0,
           "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
         },
         {
-          "question": "Convert an angle of $120^\\circ$2$\\pi$.",
+          "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $120^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{5}{6}\\pi\n$$",
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{4}{3}\\pi\n$$"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{6}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{4}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
         },
         {
-          "question": "Convert an angle of $60^\\circ$2$\\pi$.",
+          "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $60^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{1}{3}\\pi\n$$",
-            "$$\n\\frac{1}{2}\\pi\n$$",
-            "$$\n\\frac{1}{6}\\pi\n$$",
-            "$$\n\\frac{2}{3}\\pi\n$$"
+            "$$\n\\frac{1}{3}\\pi\n",
+            "$$\n\\frac{1}{2}\\pi\n",
+            "$$\n\\frac{1}{6}\\pi\n",
+            "$$\n\\frac{2}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
         },
         {
-          "question": "Convert an angle of $150^\\circ$2$\\pi$.",
+          "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q1",
+          "type": "mcq",
+          "question": "Convert an angle of $150^\\circ$ to radians.",
           "options": [
-            "$$\n\\frac{5}{6}\\pi\n$$",
+            "$$\n\\frac{5}{6}\\pi\n",
             "\\pi",
-            "$$\n\\frac{2}{3}\\pi\n$$",
-            "$$\n\\frac{5}{3}\\pi\n$$"
+            "$$\n\\frac{2}{3}\\pi\n",
+            "$$\n\\frac{5}{3}\\pi\n"
           ],
           "correctIndex": 0,
           "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
@@ -70,7 +78,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q2",
       "type": "mcq",
-      "question": "Find the value of $x$2$x^\\circ = \\frac{2\\pi}{5}$ radians.",
+      "question": "Find the value of $x$. So $x^\\circ = \\frac{2\\pi}{5}$ radians.",
       "options": [
         "72",
         "36",
@@ -83,7 +91,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q3",
       "type": "mcq",
-      "question": "Express $144^\\circ$2$\\pi$ in its simplest form.",
+      "question": "Express $144^\\circ$ to radians in its simplest form.",
       "options": [
         "$\\frac{4\\pi}{5}$",
         "$\\frac{2\\pi}{3}$",
@@ -96,7 +104,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q4",
       "type": "mcq",
-      "question": "The angle $\\theta$2$0 < \\theta < \\frac{\\pi}{2}$. Given that $\\tan \\theta = \\sqrt{3}$, state the value of $\\theta$ in radians.",
+      "question": "The angle $\\theta$. $0 < \\theta < \\frac{\\pi}{2}$. Given that $\\tan \\theta = \\sqrt{3}$, state the value of $\\theta$ in radians.",
       "options": [
         "$\\frac{\\pi}{3}$",
         "$\\frac{\\pi}{6}$",
@@ -104,7 +112,7 @@
         "$\\frac{2\\pi}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\tan 60^\\circ = \\sqrt{3}$. Converting $60^\\circ$2$60 \\times \\frac{\\pi}{180} = \\frac{\\pi}{3}$.\n\n**Common mistake:** Confusing the tangent values of $30^\\circ$2$60^\\circ$2$\\pi/6$ instead."
+      "explanation": "$\\tan 60^\\circ = \\sqrt{3}$. Converting $60^\\circ$. $60 \\times \\frac{\\pi}{180} = \\frac{\\pi}{3}$.\n\n**Common mistake:** Confusing the tangent values of $30^\\circ$ instead of $60^\\circ$ ($\\pi/6$) instead."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q5",
@@ -117,12 +125,12 @@
         "$180$"
       ],
       "correctIndex": 0,
-      "explanation": "A semi-circle subtends $180^\\circ$2$\\pi$ radians.\n\n**Common mistake:** Providing the answer as a number without the unit of $\\pi$2$2\\pi$ for the full circle."
+      "explanation": "A semi-circle subtends $180^\\circ$ to radians radians.\n\n**Common mistake:** Providing the answer as a number without the unit of $\\pi^2 2\\pi$ for the full circle."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q6",
       "type": "mcq",
-      "question": "The diagram shows a sector with radius $r$2$\\theta$2$r$2$\\theta$.",
+      "question": "The diagram shows a sector with radius $r$. $\\theta2r$. $\\theta$.",
       "options": [
         "$100 / (\\theta + 2)$",
         "$100 / (\\theta + r)$",
@@ -130,7 +138,7 @@
         "$50 - \\theta$"
       ],
       "correctIndex": 0,
-      "explanation": "$r\\theta + 2r = 100 \\implies r(\\theta + 2) = 100 \\implies r = 100 / (\\theta + 2)$.\n\n**Common mistake:** Simplifying the denominator to $2\\theta$2$+2$ constant."
+      "explanation": "$r\\theta + 2r = 100 \\implies r(\\theta + 2) = 100 \\implies r = 100 / (\\theta + 2)$.\n\n**Common mistake:** Simplifying the denominator to $2\\theta$. $+2$ constant."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q7",
@@ -161,7 +169,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q9",
       "type": "mcq",
-      "question": "A sector of a circle has radius $r$2$\\theta$. If the radius is doubled and the angle is halved, what happens to the arc length?",
+      "question": "A sector of a circle has radius $r$. $\\theta$. If the radius is doubled and the angle is halved, what happens to the arc length?",
       "options": [
         "It remains the same.",
         "It is doubled.",
@@ -187,7 +195,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q11",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of $r$2$36$ cm. Show that the area $A$2$A = 18r - r^2$. Hence, find the value of $r$2$80$ cm^2.",
+      "question": "A sector of a circle has a radius of $r$. $36$ cm. Show that the area $A$. So $A = 18r - r^2$. Hence, find the value of $r$. $80$ cm^2.",
       "options": [
         "$8$ cm or^10 cm",
         "$4$ cm or^20 cm",
@@ -195,12 +203,12 @@
         "$5$ cm or^16 cm"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2r + s = 36 \\implies s = 36 - 2r$2$A = 0.5rs = 0.5r(36 - 2r) = 18r - r^2$. Solving $r^2 - 18r + 80 = 0$ gives $(r-8)(r-10) = 0$.\n\n**Common mistake:** Option B contains roots that sum to^24, which would occur with a different perimeter value."
+      "explanation": "$P = 2r + s = 36 \\implies s = 36 - 2r$. So $A = 0.5rs = 0.5r(36 - 2r) = 18r - r^2$. Solving $r^2 - 18r + 80 = 0$ gives $(r-8)(r-10) = 0$.\n\n**Common mistake:** Option B contains roots that sum to^24, which would occur with a different perimeter value."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q12",
       "type": "mcq",
-      "question": "The diagram shows a right-angled triangle $ABC$2$AB = 6$ cm and $BC = 8$ cm. A sector with center $A$2$AB$2$\\theta = 0.6$ radians. Calculate the area of the shaded region inside the triangle but outside the sector.",
+      "question": "The diagram shows a right-angled triangle $ABC$. So $AB = 6$ cm and $BC = 8$ cm. A sector with center $A$. $AB2\\theta = 0.6$ radians. Calculate the area of the shaded region inside the triangle but outside the sector.",
       "options": [
         "$13.2$ cm^2",
         "$24$ cm^2",
@@ -213,7 +221,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q13",
       "type": "mcq",
-      "question": "Find the set of values of the central angle $\\theta$2$5$ cm is strictly between^25 cm^2 and^50 cm^2.",
+      "question": "Find the set of values of the central angle $\\theta$. $5$ cm is strictly between^25 cm^2 and^50 cm^2.",
       "options": [
         "$2 < \\theta < 4$",
         "$1 < \\theta < 2$",
@@ -226,7 +234,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q14",
       "type": "mcq",
-      "question": "A sector has a radius of $r$2$20$% and the central angle is decreased by^10%, calculate the percentage increase in the area of the sector.",
+      "question": "A sector has a radius of $r$. $20$% and the central angle is decreased by^10%, calculate the percentage increase in the area of the sector.",
       "options": [
         "$29.6$ %",
         "$10$ %",
@@ -234,12 +242,12 @@
         "$30$ %"
       ],
       "correctIndex": 0,
-      "explanation": "New area $A' = 0.5(1.2r)²(0.9\\theta) = 0.5(1.44r^2)(0.9\\theta) = 1.296 A$2$29.6$%.\n\n**Common mistake:** Option B is a simple linear subtraction ($20 - 10$) which ignores the squaring of the radius scaling factor."
+      "explanation": "New area $A' = 0.5(1.2r)²(0.9\\theta) = 0.5(1.44r^2)(0.9\\theta) = 1.296 A$. $29.6$%.\n\n**Common mistake:** Option B is a simple linear subtraction ($20 - 10$) which ignores the squaring of the radius scaling factor."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-pyp-q15",
       "type": "mcq",
-      "question": "Given that a sector has a perimeter of $4r$2$r^2$.",
+      "question": "Given that a sector has a perimeter of $4r$. $r^2$.",
       "options": [
         "$1 : 1$",
         "$1 : 2$",

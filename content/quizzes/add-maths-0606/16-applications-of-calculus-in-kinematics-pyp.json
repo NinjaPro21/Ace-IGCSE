@@ -11,7 +11,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q1",
       "type": "mcq",
-      "question": "A particle $P$2$t$2$O$2$s$2$s = 2t^3 - 15t^2 + 24t$2$t$2$P$ is negative.",
+      "question": "A particle $P$ and $t2O$ and $s2s = 2t^3 - 15t^2 + 24t$ and $t2P$ is negative.",
       "options": [
         "$1 < t < 4$",
         "$t < 1$ or $t > 4$",
@@ -32,16 +32,16 @@
         "$-8$ m/s"
       ],
       "correctIndex": 0,
-      "explanation": "$a = -8e^{-2t}$. Since $e^{-2t} > 0$, $a < 0$ for all $t$2$t \\to \\infty$2$e^{-2t} \\to 0$, so $v \\to 5$.\n\n**Common mistake:** Option B is chosen if the student assumes the particle stops completely at infinity."
+      "explanation": "$a = -8e^{-2t}$. Since $e^{-2t} > 0$, $a < 0$ for all $t$. $t \\to \\infty2e^{-2t} \\to 0$, so $v \\to 5$.\n\n**Common mistake:** Option B is chosen if the student assumes the particle stops completely at infinity."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q3",
       "type": "mcq",
-      "question": "A particle moves along a straight line so that its displacement from $O$2$s = t^2 - 6t + 5$. Find the time at which its speed is^4 m/s.",
+      "question": "A particle moves along a straight line so that its displacement from $O$. So $s = t^2 - 6t + 5$. Find the time at which its speed is $1$ m/s.",
       "options": [
         "$5$ s or^1 s",
         "$5$ s",
-        "$2$ s",
+        "2 s",
         "$3$ s"
       ],
       "correctIndex": 0,
@@ -50,7 +50,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q4",
       "type": "mcq",
-      "question": "Find the maximum displacement from $O$2$v = 12t - 3t^2$, given $s = 0$ at $t = 0$.",
+      "question": "Find the maximum displacement from $O$. So $v = 12t - 3t^2$, given $s = 0$ at $t = 0$.",
       "options": [
         "$32$ m",
         "$4$ m",
@@ -58,12 +58,12 @@
         "$64$ m"
       ],
       "correctIndex": 0,
-      "explanation": "$v = 0 \\implies 3t(4-t) = 0 \\implies t = 4$. $s = \\int v dt = 6t^2 - t^3 + c$2$t=0, s=0 \\implies c=0$. At $t=4, s = 6(16) - 64 = 96 - 64 = 32$.\n\n**Common mistake:** Option B is the time at which maximum displacement occurs, not the displacement itself."
+      "explanation": "$v = 0 \\implies 3t(4-t) = 0 \\implies t = 4$. $s = \\int v dt = 6t^2 - t^3 + c$. So $t=0, s=0 \\implies c=0$. At $t=4, s = 6(16) - 64 = 96 - 64 = 32$.\n\n**Common mistake:** Option B is the time at which maximum displacement occurs, not the displacement itself."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q5",
       "type": "mcq",
-      "question": "The velocity of a particle is given by $v = 3\\cos(t) - 1$ for $0 \\le t \\le \\pi$2$-1.5$ m/s^2.",
+      "question": "The velocity of a particle is given by $v = 3\\cos(t) - 1$ for $0 \\le t \\le \\pi . -1.5$ m/s^2.",
       "options": [
         "$\\frac{\\pi}{6}$",
         "$\\frac{\\pi}{3}$",
@@ -89,7 +89,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q7",
       "type": "mcq",
-      "question": "An object's acceleration is $a = \\cos t$2$v = 0$ and $s = 2$ when $t = 0$, find the expression for $s$.",
+      "question": "An object's acceleration is $a = \\cos t$. So $v = 0$ and $s = 2$ when $t = 0$, find the expression for $s$.",
       "options": [
         "s = 2 - cos t",
         "s = sin t + 2",

@@ -6,12 +6,13 @@ A geometric progression (GP) is a sequence of numbers where each term after the 
 
 $$
 \text{nth Term: } u_n = ar^{n-1}
-
+$$
+$$
 \text{Sum of first n terms: } S_n = \frac{a(1 - r^n)}{1 - r} \,\, (r < 1) \quad \text{or} \quad S_n = \frac{a(r^n - 1)}{r - 1} \,\, (r > 1)
-
+$$
+$$
 \text{Sum to Infinity: } S_\infty = \frac{a}{1 - r} \quad \text{valid if and only if } |r| < 1 \implies -1 < r < 1
 $$
-
 
 ## Steps / method
 
@@ -37,8 +38,6 @@ $$
 u_8 = 3 \times 2^{7} = 3 \times 128 = 384
 $$
 The 8th term is **384**.
-
-
 
 ## Worked example — Sum to infinity
 

@@ -11,7 +11,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q1",
       "type": "mcq",
-      "question": "Given $y = \\sqrt{4x + 9}$, find the approximate increase in $y$2$x$ increases from 4 to 4.05.",
+      "question": "Given $y = \\sqrt{4x + 9}$, find the approximate increase in $y$ and $x$ increases from 4 to 4.05.",
       "options": [
         "0.02",
         "0.05",
@@ -24,7 +24,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q2",
       "type": "mcq",
-      "question": "The area of a circle $A$2$r$. What is the radius?",
+      "question": "The area of a circle $A$ and $r$. What is the radius?",
       "options": [
         "100 units",
         "50 units",
@@ -37,7 +37,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q3",
       "type": "mcq",
-      "question": "If $y = x^2 - \\frac{16}{x}$, find the approximate change in $y$2$x$ increases from 4 to 4.02.",
+      "question": "If $y = x^2 - \\frac{16}{x}$, find the approximate change in $y$ and $x$ increases from 4 to 4.02.",
       "options": [
         "0.18",
         "0.09",
@@ -45,12 +45,12 @@
         "0.02"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating $-16/x$2$2x - 16/x^2$."
+      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating $-16/x$. $2x - 16/x^2$."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q4",
       "type": "mcq",
-      "question": "A rectangle has sides of $x$2$2x$2$x$2$h$, find the approximate increase in the area.",
+      "question": "A rectangle has sides of $x$. $2x2x$ and $h$, find the approximate increase in the area.",
       "options": [
         "4xh",
         "2xh",
@@ -63,7 +63,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q5",
       "type": "mcq",
-      "question": "Given $y = \\frac{1}{x^2}$, find the approximate percentage change in $y$2$x$ increases by 2%.",
+      "question": "Given $y = \\frac{1}{x^2}$, find the approximate percentage change in $y$ and $x$ increases by 2%.",
       "options": [
         "-4%",
         "4%",
@@ -76,7 +76,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q6",
       "type": "mcq",
-      "question": "A curve has the equation $y = x^2 - \\frac{8}{x}$. Given that the $x$2$0.1$ units per second, find the rate of increase of the $y$2$x$-axis.",
+      "question": "A curve has the equation $y = x^2 - \\frac{8}{x}$. Given that the $x$. $0.1$ units per second, find the rate of increase of the $y$ and $x$-axis.",
       "options": [
         "$0.6$ units/s",
         "$6$ units/s",
@@ -84,12 +84,12 @@
         "$0.2$ units/s"
       ],
       "correctIndex": 0,
-      "explanation": "Crosses $x$2$x^2 = 8/x \\implies x^3 = 8 \\implies x = 2$. $\\frac{dy}{dx} = 2x + 8x^{-2}$. At $x = 2$, $\\frac{dy}{dx} = 4 + 2 = 6$. Then $\\frac{dy}{dt} = 6 \\times 0.1 = 0.6$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$, forgetting to multiply by the given rate of $0.1$."
+      "explanation": "Crosses $x$. So $x^2 = 8/x \\implies x^3 = 8 \\implies x = 2$. $\\frac{dy}{dx} = 2x + 8x^{-2}$. At $x = 2$, $\\frac{dy}{dx} = 4 + 2 = 6$. Then $\\frac{dy}{dt} = 6 \\times 0.1 = 0.6$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$, forgetting to multiply by the given rate of $0.1$."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q7",
       "type": "mcq",
-      "question": "The volume of a sphere is increasing at a constant rate of^12 cm³/s. Find the rate of increase of its surface area when the radius is^3 cm.",
+      "question": "The volume of a sphere is increasing at a constant rate of^12 cm³/s. Find the rate of increase of its surface area when the radius is $1$ cm.",
       "options": [
         "$8$ cm^2/s",
         "$12$ cm^2/s",
@@ -102,7 +102,7 @@
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q8",
       "type": "mcq",
-      "question": "Show that the rate of change of the area of an equilateral triangle with side length $s$2$\\frac{\\sqrt{3}}{2}s \\frac{ds}{dt}$. Hence, find the rate of increase of the area when $s = 10$ cm and $\\frac{ds}{dt} = 4$ cm/s.",
+      "question": "Show that the rate of change of the area of an equilateral triangle with side length $s . \\frac{\\sqrt{3}}{2}s \\frac{ds}{dt}$. Hence, find the rate of increase of the area when $s = 10$ cm and $\\frac{ds}{dt} = 4$ cm/s.",
       "options": [
         "$20\\sqrt{3}$ cm^2/s",
         "$40\\sqrt{3}$ cm^2/s",
@@ -110,12 +110,12 @@
         "$80\\sqrt{3}$ cm^2/s"
       ],
       "correctIndex": 0,
-      "explanation": "$A = \\frac{\\sqrt{3}}{4}s^2 \\implies \\frac{dA}{ds} = \\frac{\\sqrt{3}}{2}s$2$s = 10, \\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(10) \\times 4 = 20\\sqrt{3}$.\n\n**Common mistake:** Option B uses the side length^10 in the final substitution but fails to divide the derivative coefficient by^2 correctly."
+      "explanation": "$A = \\frac{\\sqrt{3}}{4}s^2 \\implies \\frac{dA}{ds} = \\frac{\\sqrt{3}}{2}s^2 So s = 10, \\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(10) \\times 4 = 20\\sqrt{3}$.\n\n**Common mistake:** Option B uses the side length^10 in the final substitution but fails to divide the derivative coefficient by^2 correctly."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q9",
       "type": "mcq",
-      "question": "A particle moves along the curve $y = 3 + \\ln(2x - 5)$. Find the $x$2$y$2$x$.",
+      "question": "A particle moves along the curve $y = 3 + \\ln(2x - 5)$. Find the $x$ and $y2x$.",
       "options": [
         "$4.5$",
         "$3.5$",
@@ -123,12 +123,12 @@
         "$2.5$"
       ],
       "correctIndex": 0,
-      "explanation": "We need $\\frac{dy}{dx} = 0.5$. $\\frac{dy}{dx} = \\frac{2}{2x - 5}$. Setting $\\frac{2}{2x - 5} = 0.5 \\implies 2 = x - 2.5 \\implies x = 4.5$.\n\n**Common mistake:** Option B occurs if the student fails to multiply the derivative by the inner function derivative ($2$) when applying the chain rule."
+      "explanation": "We need $\\frac{dy}{dx} = 0.5$. $\\frac{dy}{dx} = \\frac{2}{2x - 5}$. Setting $\\frac{2}{2x - 5} = 0.5 \\implies 2 = x - 2.5 \\implies x = 4.5$.\n\n**Common mistake:** Option B occurs if the student fails to multiply the derivative by the inner function derivative (2) when applying the chain rule."
     },
     {
       "id": "12-small-increments-approximations-and-rates-of--pyp-q10",
       "type": "mcq",
-      "question": "Given that $y = (x+2)^2(x-1)$, find the value of $x$2$y$2$x$.",
+      "question": "Given that $y = (x+2)^2(x-1)$, find the value of $x$ and $y2x$.",
       "options": [
         "$0$ and $-2$",
         "$1$ and $-2$",

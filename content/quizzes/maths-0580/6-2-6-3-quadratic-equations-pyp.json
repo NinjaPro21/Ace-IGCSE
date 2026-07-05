@@ -24,7 +24,7 @@
     {
       "id": "6-2-6-3-quadratic-equations-pyp-q2",
       "type": "mcq",
-      "question": "The product of two consecutive positive integers is $132$. Find the smaller of these two integers by forming a quadratic equation.",
+      "question": "The product of two consecutive positive integers is $1$. Find the smaller of these two integers by forming a quadratic equation.",
       "options": [
         "$11$",
         "$12$",
@@ -32,7 +32,7 @@
         "$13$"
       ],
       "correctIndex": 0,
-      "explanation": "Let the two consecutive positive integers be $n$2$n + 1$. Their product is $n(n + 1) = 132 \\implies n^2 + n - 132 = 0$. Factorising gives $(n + 12)(n - 11) = 0$, so $n = -12$ or $n = 11$. Since the context specifies positive integers, choose $n = 11$.\n\n**Common mistake:** Students often identify both algebraic solutions and select the larger positive integer ($12$) instead of checking which parameter matches the 'smaller integer' request."
+      "explanation": "Let the two consecutive positive integers be $n$. $n + 1$. Their product is $n(n + 1) = 132 \\implies n^2 + n - 132 = 0$. Factorising gives $(n + 12)(n - 11) = 0$, so $n = -12$ or $n = 11$. Since the context specifies positive integers, choose $n = 11$.\n\n**Common mistake:** Students often identify both algebraic solutions and select the larger positive integer ($12$) instead of checking which parameter matches the 'smaller integer' request."
     },
     {
       "id": "6-2-6-3-quadratic-equations-pyp-q3",
@@ -41,16 +41,16 @@
       "options": [
         "$4$ or $0.5$",
         "$-4$ or $-0.5$",
-        "$2$ or $1$",
+        "2 or^1",
         "$4$ or $-0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply terms by $x(x - 1)$ to clear $\\frac{tions:}{}$ $4(x - 1) + 3x = 2x(x - 1) \\implies 4x - 4 + 3x = 2x^2 - 2x \\implies 7x - 4 = 2x^2 - 2x$2$2x^2 - 9x + 4 = 0$. Factorising by grouping gives $(2x - 1)(x - 4) = 0$, leading to roots $x = 4$ or $x = 0.5$.\n\n**Common mistake:** Students often fail to distribute the negative sign properly or drop the variable terms completely during $\\frac{tional}{}$ expansion steps."
+      "explanation": "Multiply terms by $x(x - 1)$ to clear $tions:$ $4(x - 1) + 3x = 2x(x - 1) \\implies 4x - 4 + 3x = 2x^2 - 2x \\implies 7x - 4 = 2x^2 - 2x$. $2x^2 - 9x + 4 = 0$. Factorising by grouping gives $(2x - 1)(x - 4) = 0$, leading to roots $x = 4$ or $x = 0.5$.\n\n$**Common mistake:** Students often fail to distribute the negative sign properly or drop the variable terms completely during \\frac{1}{a} expansion steps.$"
     },
     {
       "id": "6-2-6-3-quadratic-equations-pyp-q4",
       "type": "mcq",
-      "question": "A rectangular garden has a length that is $3\\text{ m}$ longer than its width, $w$2$70\\text{ m}^2$, find the perimeter of the garden.",
+      "question": "A rectangular garden has a length that is $3\\text{ m}$ longer than its width, $w$. $70\\text{ m}^2$, find the perimeter of the garden.",
       "options": [
         "$34\\text{ m}$",
         "$10\\text{ m}$",
@@ -58,7 +58,7 @@
         "$38\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "The dimensions are $w$2$(w + 3)$. Area $= w(w + 3) = 70 \\implies w^2 + 3w - 70 = 0$. Factorising gives $(w + 10)(w - 7) = 0$, so $w = 7$ (since width must be positive). The length is $7 + 3 = 10\\text{ m}$. The perimeter is $2(\\text{length} + \\text{width}) = 2(10 + 7) = 34\\text{ m}$.\n\n**Common mistake:** Students often find the width $w = 7$ and select it immediately, failing to read that the question asks for the complete geometric perimeter."
+      "explanation": "The dimensions are $w$. $(w + 3)$. Area $= w(w + 3) = 70 \\implies w^2 + 3w - 70 = 0$. Factorising gives $(w + 10)(w - 7) = 0$, so $w = 7$ (since width must be positive). The length is $7 + 3 = 10\\text{ m}$. The perimeter is $2(\\text{length} + \\text{width}) = 2(10 + 7) = 34\\text{ m}$.\n\n**Common mistake:** Students often find the width $w = 7$ and select it immediately, failing to read that the question asks for the complete geometric perimeter."
     },
     {
       "id": "6-2-6-3-quadratic-equations-pyp-q5",
@@ -66,9 +66,9 @@
       "question": "Solve the equation: $(2x - 3)^2 = 25$.",
       "options": [
         "$4$ or $-1$",
-        "$4$ or $1$",
+        "$4$ or^1",
         "$7$ or $-2$",
-        "$2$ or $-4$"
+        "2 or $-4$"
       ],
       "correctIndex": 0,
       "explanation": "Take the square root of both sides to get two linear equations: $2x - 3 = 5$ or $2x - 3 = -5$. Solving the first gives $2x = 8 \\implies x = 4$. Solving the second gives $2x = -2 \\implies x = -1$.\n\n**Common mistake:** Students often only look at the positive root equation ($2x - 3 = 5$), completely omitting the negative branch equation."

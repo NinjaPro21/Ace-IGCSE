@@ -65,7 +65,7 @@ Calculation Method: Use Pythagoras’ Theorem to find the magnitude of the resul
 
 ## Common mistakes
 
-Ignoring Direction: Adding vectors like $1 \text{ N}$ and $1 \text{ N}$ to get $1 \text{ N}$ without checking if they point in the same direction$.
+Ignoring Direction: Adding vectors like $1 \text{ N}$ and $1 \text{ N}$ to get $1 \text{ N}$ without checking if they point in the same direction.
 
 Scale Errors: In graphical diagrams, failing to use a consistent scale or forgetting to convert the measured length back into the actual unit (e.g., N or m/s).
 

@@ -11,7 +11,7 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q1",
       "type": "mcq",
-      "question": "Point $B$2$134°$ from Point $A$2$A$2$B$.",
+      "question": "Point $B$ and $134°$ from Point $A$ and $A2B$.",
       "options": [
         "$314°$",
         "$046°$",
@@ -19,12 +19,12 @@
         "$224°$"
       ],
       "correctIndex": 0,
-      "explanation": "The back bearing is $134 + 180 = 314°$.\n\n**Common mistake:** A student might subtract $134$ from $180$ or $360$ incorrectly."
+      "explanation": "The back bearing is $134 + 180 = 314°$.\n\n**Common mistake:** A student might subtract^134 from^180 or^360 incorrectly."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q2",
       "type": "mcq",
-      "question": "A scale drawing is made of a triangular field $PQR$2$PQ = 7\\text{ cm}, QR = 5\\text{ cm},$ and $PR = 6\\text{ cm}$ on the drawing. If the scale is $1 : 2000$, calculate the actual length of the longest side of the field in metres.",
+      "question": "A scale drawing is made of a triangular field $PQR$. So $PQ = 7\\text{ cm}, QR = 5\\text{ cm},$ and $PR = 6\\text{ cm}$ on the drawing. If the scale is $1 : 2000$, calculate the actual length of the longest side of the field in metres.",
       "options": [
         "$140\\text{ m}$",
         "$14000\\text{ m}$",
@@ -50,7 +50,7 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q4",
       "type": "mcq",
-      "question": "A ship sails from $A$2$B$2$042°$ for $22\\text{ km}$, then to $C$2$090°$ for $30\\text{ km}$. Which calculation shows the total distance East the ship has moved from its starting point?",
+      "question": "A ship sails from $A$ and $B2042°$ for $22\\text{ km}$, then to $C$ and $090°$ for $30\\text{ km}$. Which calculation shows the total distance East the ship has moved from its starting point?",
       "options": [
         "$22 \\sin 42° + 30$",
         "$22 \\cos 42° + 30$",
@@ -63,7 +63,7 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q5",
       "type": "mcq",
-      "question": "Hence, find the bearing of San Diego ($S$2$F$2$S$2$426\\text{ km}$ from Las Vegas ($L$2$F$2$507\\text{ km}$ from $S$2$L$2$F$2$100°$, and angle $FLS = 75°$.",
+      "question": "Hence, find the bearing of San Diego ($S$ and $F2S$. $426\\text{ km}$ from Las Vegas ($L$ and $F2507\\text{ km}$ from $S$ and $L2F$ and $100°$, and angle $FLS = 75°$.",
       "options": [
         "$154°$",
         "$025°$",
@@ -71,7 +71,7 @@
         "$125°$"
       ],
       "correctIndex": 0,
-      "explanation": "Based on source 148, using the sine rule in triangle $FLS$2$LFS$2$100°$ bearing leads to a result of approximately $154.3°$.\n\n**Common mistake:** The student might assume triangle $FLS$2$75°$ directly to the bearing."
+      "explanation": "Based on source 148, using the sine rule in triangle $FLS$. $LFS2100°$ bearing leads to a result of approximately $154.3°$.\n\n**Common mistake:** The student might assume triangle $FLS$ and $75°$ directly to the bearing."
     }
   ]
 }

@@ -7,11 +7,9 @@ Kinematics models the linear motion of objects over time by using calculus to co
 $$
 \text{Forward Direction (Differentiation): } v = \frac{ds}{dt}, \quad a = \frac{dv}{dt} = \frac{d^2s}{dt^2}
 $$
-
 $$
 \text{Reverse Direction (Integration): } v = \int a \, dt, \quad s = \int v \, dt
 $$
-
 $$
 \text{Displacement Change: } \Delta s = \int_{t_1}^{t_2} v(t) \, dt, \quad \text{Total Distance} = \int_{t_1}^{t_2} |v(t)| \, dt
 $$
@@ -40,7 +38,7 @@ $$
 v = \frac{ds}{dt} = 2t + 3
 $$
 
-At $t = 4$: $v = 11\,\text{m/s}$
+At $t = 4$: $v = 11\,\text{m/s}$.
 
 ## Worked example — Displacement from acceleration
 

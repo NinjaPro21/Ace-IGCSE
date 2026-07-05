@@ -6,10 +6,11 @@ An inverse function $f^{-1}(x)$ reverses the operations of $f(x)$, mapping outpu
 
 $$
 f(f^{-1}(x)) = x \quad \text{and} \quad f^{-1}(f(x)) = x
-
-\text{Domain of } f^{-1} = \text{Range of } f, \quad \text{Range of } f^{-1} = \text{Domain of } f
 $$
 
+$$
+\text{Domain of } f^{-1} = \text{Range of } f, \quad \text{Range of } f^{-1} = \text{Domain of } f
+$$
 
 ## Steps / method
 

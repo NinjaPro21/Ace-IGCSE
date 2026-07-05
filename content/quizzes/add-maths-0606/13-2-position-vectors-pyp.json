@@ -19,12 +19,12 @@
         "2i - 3j"
       ],
       "correctIndex": 1,
-      "explanation": "$\\vec{AB} = (7-3)i + (-4-2)j = 4i - 6j$2$= \\sqrt{16+36} = \\sqrt{52} \\approx 7.21$. Unit vector $\\approx 0.55i - 0.83j$.\n\n**Common mistake:** Failing to calculate the magnitude correctly or forgetting to divide the vector by it."
+      "explanation": "$\\vec{AB} = (7-3)i + (-4-2)j = 4i - 6j$. $= \\sqrt{16+36} = \\sqrt{52} \\approx 7.21$. Unit vector $\\approx 0.55i - 0.83j$.\n\n**Common mistake:** Failing to calculate the magnitude correctly or forgetting to divide the vector by it."
     },
     {
       "id": "13-2-position-vectors-pyp-q2",
       "type": "mcq",
-      "question": "Point R has position vector $\\begin{pmatrix} 6 \\ -3 \\end{pmatrix}$. Point S has position vector $\\begin{pmatrix} -2 \\ 5 \\end{pmatrix}$. Find the position vector of point T such that $\\vec{OT} = 2\\vec{OR} + \\vec{OS}$.",
+      "question": "Point R has position vector $\\begin{pmatrix} 6 \\ \\\\ -3 \\end{pmatrix}$. Point S has position vector $\\begin{pmatrix} -2 \\ \\\\ 5 \\end{pmatrix}$. Find the position vector of point T such that $\\vec{OT} = 2\\vec{OR} + \\vec{OS}$.",
       "options": [
         "10i - j",
         "14i - i",
@@ -32,7 +32,7 @@
         "12i - 6j"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{OT} = 2\\begin{pmatrix} 6 \\ -3 \\end{pmatrix} + \\begin{pmatrix} -2 \\ 5 \\end{pmatrix} = \\begin{pmatrix} 12 \\ -6 \\end{pmatrix} + \\begin{pmatrix} -2 \\ 5 \\end{pmatrix} = \\begin{pmatrix} 10 \\ -1 \\end{pmatrix}$.\n\n**Common mistake:** Errors in scalar multiplication or basic vector addition."
+      "explanation": "$\\vec{OT} = 2\\begin{pmatrix} 6 \\ \\\\ -3 \\end{pmatrix} + \\begin{pmatrix} -2 \\ \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 12 \\ \\\\ -6 \\end{pmatrix} + \\begin{pmatrix} -2 \\ \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 10 \\ \\\\ -1 \\end{pmatrix}$.\n\n**Common mistake:** Errors in scalar multiplication or basic vector addition."
     },
     {
       "id": "13-2-position-vectors-pyp-q3",
@@ -63,7 +63,7 @@
     {
       "id": "13-2-position-vectors-pyp-q5",
       "type": "mcq",
-      "question": "Find the value of $p$2$\\begin{pmatrix} p \\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 3 \\ -2 \\end{pmatrix}$.",
+      "question": "Find the value of $p . \\begin{pmatrix} p \\ \\\\ 4 \\end{pmatrix}$ is parallel to $\\begin{pmatrix} 3 \\ \\\\ -2 \\end{pmatrix}$.",
       "options": [
         "-6",
         "6",

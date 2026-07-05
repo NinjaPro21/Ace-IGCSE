@@ -11,7 +11,7 @@
     {
       "id": "12-10-practical-maximum-and-minimum-problems-pyp-q1",
       "type": "mcq",
-      "question": "The total surface area $A$2$A = 2\\pi r^2 + \\frac{2000}{r}$. Find the value of $r$2$A$ is a minimum.",
+      "question": "The total surface area $A$. So $A = 2\\pi r^2 + \\frac{2000}{r}$. Find the value of $r$ and $A$ is a minimum.",
       "options": [
         "5.42",
         "10",
@@ -19,7 +19,7 @@
         "2.50"
       ],
       "correctIndex": 0,
-      "explanation": "$dA/dr = 4\\pi r - 2000/r^2 = 0 \\implies 4\\pi r^3 = 2000 \\implies r^3 = 500/\\pi \\approx 159.15 \\implies r \\approx 5.42$.\n\n**Common mistake:** Mismanaging the power of $r$2$r^2$ instead of $r^3$."
+      "explanation": "$dA/dr = 4\\pi r - 2000/r^2 = 0 \\implies 4\\pi r^3 = 2000 \\implies r^3 = 500/\\pi \\approx 159.15 \\implies r \\approx 5.42$.\n\n**Common mistake:** Mismanaging the power of $r$. $r^2$ instead of $r^3$."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-pyp-q2",
@@ -32,12 +32,12 @@
         "300 m^2"
       ],
       "correctIndex": 0,
-      "explanation": "$2L + 4w = 120 \\implies L = 60 - 2w$2$A = Lw = w(60 - 2w) = 60w - 2w^2$. $dA/dw = 60 - 4w = 0 \\implies w = 15$. $A = 15(30) = 450$.\n\n**Common mistake:** Forgetting the two internal fences and only using $2L + 2w = 120$."
+      "explanation": "$2L + 4w = 120 \\implies L = 60 - 2w$. So $A = Lw = w(60 - 2w) = 60w - 2w^2$. $dA/dw = 60 - 4w = 0 \\implies w = 15$. $A = 15(30) = 450$.\n\n**Common mistake:** Forgetting the two internal fences and only using $2L + 2w = 120$."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-pyp-q3",
       "type": "mcq",
-      "question": "Show that the volume of an open cylinder of radius $r$2$^2$ is $V = 150r - 0.5\\pi r^3$. Find the maximum volume.",
+      "question": "Show that the volume of an open cylinder of radius $r$. $^2$ is $V = 150r - 0.5\\pi r^3$. Find the maximum volume.",
       "options": [
         "564 cm³",
         "300 cm³",
@@ -50,7 +50,7 @@
     {
       "id": "12-10-practical-maximum-and-minimum-problems-pyp-q4",
       "type": "mcq",
-      "question": "The cost of fuel for a boat is $v^2/10$ per hour, where^2 is speed in km/h. Other costs are\n$$40$ per hour. Find the speed that minimizes cost per kilometer.$",
+      "question": "The cost of fuel for a boat is $v^2/10$ per hour, where^2 is speed in km/h. Other costs are 40$per hour. Find the speed that minimizes cost per kilometer.$",
       "options": [
         "20 km/h",
         "40 km/h",
@@ -58,7 +58,7 @@
         "30 km/h"
       ],
       "correctIndex": 0,
-      "explanation": "Cost per km $C = (\\text{Cost per hr}) / v = (v^2/10 + 40) / v = v/10 + 40/v$2$dC/dv = 1/10 - 40/v^2 = 0 \\implies v^2 = 400 \\implies v = 20$.\n\n**Common mistake:** Minimizing cost per hour ($v=0$) instead of cost per unit distance ($v=20$)."
+      "explanation": "Cost per km $C = (\\text{Cost per hr}) / v = (v^2/10 + 40) / v = v/10 + 40/v$. So $dC/dv = 1/10 - 40/v^2 = 0 \\implies v^2 = 400 \\implies v = 20$.\n\n**Common mistake:** Minimizing cost per hour ($v=0$) instead of cost per unit distance ($v=20$)."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-pyp-q5",

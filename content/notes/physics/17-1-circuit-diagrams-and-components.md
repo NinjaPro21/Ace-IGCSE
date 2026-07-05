@@ -1,71 +1,87 @@
 ## Core idea
 
-Circuit diagrams are used in physics to represent electric circuits, helping to solve problems and understand how different components behave together.
+Circuit diagrams represent electric circuits using standard symbols. They help you solve problems and understand how components behave together.
 
-The Main Components of an Electric Circuit
+## Main components of a circuit
 
-A basic electric circuit typically consists of four essential parts:
+A basic electric circuit has four essential parts:
 
-Load: A component (such as a lamp) that converts electrical energy into other forms of energy to perform a specific function.
+- **Load**: Converts electrical energy to other forms (e.g. a lamp).
+- **Power source**: Drives charge around the circuit (e.g. cell or battery).
+- **Conductors**: Connect components (usually copper wires).
+- **Switch**: Opens or closes the circuit.
 
-Power Source: A device (such as a cell or battery) that drives the electric charge around the circuit.
+## Common circuit symbols
 
-Conductors: Materials (usually copper wires) that connect the various components together.
+- **Energy sources**: Cell, battery, d.c. supply, a.c. supply, generator
+- **Measurement**: Ammeter, voltmeter, galvanometer
+- **Resistors**: Fixed resistor, variable resistor (rheostat), LDR, NTC thermistor, potential divider
+- **Safety and output**: Fuse, lamp, motor, heater, relay, transformer
+- **Semiconductors**: Diode, LED
 
-Switch: A device used to open or close the circuit.
+## Interpreting circuit arrangements
 
-Common Circuit Symbols
+- **Open circuit**: A break in the path (open switch or broken wire) — no current flows.
+- **Short circuit**: A low-resistance bypass path — current skips the intended component (e.g. lamp).
 
-Standardized symbols are used to represent devices in a diagram. Some common ones include:
+## Diodes and LEDs (supplement)
 
-Energy Sources: Cell, battery, d.c. power supply, a.c. power supply, generator.
-
-Measurement Tools: Ammeter, voltmeter, galvanometer.
-
-Resistors: Fixed resistor, variable resistor (rheostat), light-dependent resistor (LDR), NTC thermistor, potential divider.
-
-Safety and Output: Fuse, lamp, motor, heater, relay, transformer.
-
-Semiconductors: Diode, light-emitting diode (LED).
-
-Interpreting Circuit Arrangements
-
-Understanding how components are arranged is vital for interpreting diagrams:
-
-Open Circuit: Occurs when there is a break in the circuit (like an open switch or a broken wire). Because the path is not complete, current cannot flow.
-
-Short Circuit: Occurs when a "bypass" path of lower resistance is created. The current follows this alternative path instead of flowing through the intended component (like a lamp), leaving that component unpowered.
-
-S Diodes and LEDs (Supplement Content)
-
-Diodes are specialized components that allow electric current to flow through them in only one direction.
-
-LEDs (Light-Emitting Diodes): Often used as indicators to show the direction of current flow. For example, a circuit can be designed so a green LED lights up for one direction and a red LED for the opposite.
-
-A.c. Rectification: Diodes are used to convert alternating current (a.c.) into direct current (d.c.) by blocking the half of the cycle that flows in the "wrong" direction. This is known as half-wave rectification.
+- **Diode**: Allows current in one direction only.
+- **LED**: Light-emitting diode used as a current-direction indicator.
+- **Half-wave rectification**: A diode blocks one half of an a.c. cycle to produce d.c.
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Series circuit">
-      <rect x="40" y="50" width="280" height="60" fill="none" stroke="#334155" stroke-width="2"/>
-      <rect x="70" y="65" width="40" height="30" fill="#fef08a" stroke="#ca8a04"/>
-      <text x="90" y="84" text-anchor="middle" font-size="9" fill="#854d0e">cell</text>
-      <circle cx="180" cy="80" r="18" fill="#fef3c7" stroke="#f59e0b"/>
-      <text x="180" y="84" text-anchor="middle" font-size="9" fill="#92400e">lamp</text>
-      <rect x="250" y="65" width="40" height="30" fill="#e2e8f0" stroke="#64748b"/>
-      <text x="270" y="84" text-anchor="middle" font-size="9" fill="#334155">R</text>
-      <text x="180" y="130" text-anchor="middle" font-size="10" fill="#475569">single loop — same I everywhere</text>
-    </svg><p class="enlight-physics-diagram__caption">Series circuit — one path for current; same current through each component.</p></div>
+**Series circuit**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Parallel circuit">
-      <rect x="40" y="30" width="280" height="100" fill="none" stroke="#334155" stroke-width="2"/>
-      <rect x="55" y="65" width="35" height="25" fill="#fef08a" stroke="#ca8a04"/>
-      <line x1="120" y1="50" x2="120" y2="110" stroke="#334155" stroke-width="2"/>
-      <line x1="240" y1="50" x2="240" y2="110" stroke="#334155" stroke-width="2"/>
-      <circle cx="180" cy="50" r="14" fill="#fef3c7" stroke="#f59e0b"/>
-      <circle cx="180" cy="110" r="14" fill="#fef3c7" stroke="#f59e0b"/>
-      <text x="180" y="145" text-anchor="middle" font-size="10" fill="#475569">branches — same p.d. across each</text>
-    </svg><p class="enlight-physics-diagram__caption">Parallel circuit — current splits; potential difference same across each branch.</p></div>
+- Standard symbols: cell (long and short plate), lamp (circle with cross), resistor (rectangle).
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
+      <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
+      </g>
+      <rect x="68" y="41" width="18" height="8" fill="#fff"/>
+      <line x1="72" y1="35" x2="72" y2="55" stroke="#334155" stroke-width="2"/>
+      <line x1="82" y1="40" x2="82" y2="50" stroke="#334155" stroke-width="4"/>
+      <text x="77" y="68" text-anchor="middle" font-size="8" fill="#64748b">cell</text>
+      <circle cx="151" cy="45" r="13" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <line x1="143" y1="37" x2="159" y2="53" stroke="#334155" stroke-width="2"/>
+      <line x1="159" y1="37" x2="143" y2="53" stroke="#334155" stroke-width="2"/>
+      <text x="151" y="68" text-anchor="middle" font-size="8" fill="#64748b">lamp</text>
+      <rect x="210" y="39" width="40" height="12" fill="#fff"/>
+      <rect x="214" y="39" width="32" height="12" stroke="#334155" stroke-width="2" fill="none"/>
+      <text x="230" y="68" text-anchor="middle" font-size="8" fill="#64748b">resistor</text>
+      <text x="190" y="152" text-anchor="middle" font-size="10" fill="#475569">one path — current is the same at every point</text>
+    </svg><p class="enlight-physics-diagram__caption">Series circuit — components in one loop; same current through each component.</p></div>
+
+**Parallel circuit**
+
+- Components on separate branches between common supply rails.
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 400 190" width="400" height="190" role="img" aria-label="Parallel circuit">
+      <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 45 50 L 355 50"/>
+        <path d="M 45 50 L 45 78"/>
+        <path d="M 45 88 L 45 140 L 355 140"/>
+        <path d="M 355 50 L 355 140"/>
+        <path d="M 170 50 L 170 88"/>
+        <path d="M 170 112 L 170 140"/>
+        <path d="M 260 50 L 260 88"/>
+        <path d="M 260 112 L 260 140"/>
+      </g>
+      <line x1="38" y1="78" x2="52" y2="78" stroke="#334155" stroke-width="2"/>
+      <line x1="38" y1="88" x2="52" y2="88" stroke="#334155" stroke-width="4"/>
+      <text x="28" y="92" text-anchor="middle" font-size="8" fill="#64748b">cell</text>
+      <circle cx="170" cy="100" r="12" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <line x1="163" y1="93" x2="177" y2="107" stroke="#334155" stroke-width="2"/>
+      <line x1="177" y1="93" x2="163" y2="107" stroke="#334155" stroke-width="2"/>
+      <text x="128" y="100" text-anchor="end" font-size="8" fill="#64748b">lamp 1</text>
+      <circle cx="260" cy="100" r="12" stroke="#334155" stroke-width="2" fill="#fff"/>
+      <line x1="253" y1="93" x2="267" y2="107" stroke="#334155" stroke-width="2"/>
+      <line x1="267" y1="93" x2="253" y2="107" stroke="#334155" stroke-width="2"/>
+      <text x="288" y="100" font-size="8" fill="#64748b">lamp 2</text>
+      <text x="200" y="175" text-anchor="middle" font-size="10" fill="#475569">two branches — same p.d. across each lamp</text>
+    </svg><p class="enlight-physics-diagram__caption">Parallel circuit — current splits between branches; same p.d. across each branch.</p></div>
 
 ## Quick check
 

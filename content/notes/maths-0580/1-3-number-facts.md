@@ -6,21 +6,21 @@ Number facts analyze the intrinsic properties of whole integers by classifying t
 
 $$
 \text{Prime Factor Product Layout:} \quad N = p_1^{a} \times p_2^{b} \times p_3^{c} \dots
+$$
 
+$$
 \text{HCF-LCM Relationship:} \quad \text{HCF}(a, b) \times \text{LCM}(a, b) = a \times b
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="BIDMAS order">
-      <rect x="20" y="25" width="55" height="35" rx="6" fill="#fecaca" stroke="#dc2626"/><text x="47" y="48" text-anchor="middle" font-size="10" font-weight="600">( )</text>
-      <rect x="85" y="25" width="55" height="35" rx="6" fill="#fef3c7" stroke="#d97706"/><text x="112" y="48" text-anchor="middle" font-size="10" font-weight="600">x²</text>
-      <rect x="150" y="25" width="55" height="35" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="177" y="48" text-anchor="middle" font-size="10" font-weight="600">÷ ×</text>
-      <rect x="215" y="25" width="55" height="35" rx="6" fill="#bbf7d0" stroke="#16a34a"/><text x="242" y="48" text-anchor="middle" font-size="10" font-weight="600">+ −</text>
-      <text x="290" y="48" font-size="10" fill="#64748b">→</text>
-    </svg></div>
-
-Order of operations — Brackets, Indices, Division/Multiplication (left to right), Addition/Subtraction (left to right).
+      <rect x="20" y="25" width="55" height="35" rx="6" fill="#fdfbf7" stroke="#b59a73"/><text x="47" y="48" text-anchor="middle" font-size="10" font-weight="600">( )</text>
+      <rect x="85" y="25" width="55" height="35" rx="6" fill="#fdfbf7" stroke="#b59a73"/><text x="112" y="48" text-anchor="middle" font-size="10" font-weight="600">x²</text>
+      <rect x="150" y="25" width="55" height="35" rx="6" fill="#f5edd8" stroke="#5b8def"/><text x="177" y="48" text-anchor="middle" font-size="10" font-weight="600">÷ ×</text>
+      <rect x="215" y="25" width="55" height="35" rx="6" fill="#fdfbf7" stroke="#789671"/><text x="242" y="48" text-anchor="middle" font-size="10" font-weight="600">+ −</text>
+      <text x="290" y="48" font-size="10" fill="#a8a29e">→</text>
+    </svg><p class="enlight-physics-diagram__caption">Order of operations — Brackets, Indices, Division/Multiplication (left to right), Addition/Subtraction (left to right).</p></div>
 
 ## Steps / method
 

@@ -19,7 +19,7 @@
         "$30°$"
       ],
       "correctIndex": 0,
-      "explanation": "First bisection: $90 / 2 = 45°$. Second bisection: $45 / 2 = 22.5°$.\n\n**Common mistake:** The student might stop after the first bisection ($45°$) or divide $90$ by $3$ thinking of 'trisecting'."
+      "explanation": "First bisection: $90 / 2 = 45°$. Second bisection: $45 / 2 = 22.5°$.\n\n**Common mistake:** The student might stop after the first bisection ($45°$) or divide^90 by^3 thinking of 'trisecting'."
     },
     {
       "id": "7-4-constructions-medium-q2",
@@ -37,7 +37,7 @@
     {
       "id": "7-4-constructions-medium-q3",
       "type": "mcq",
-      "question": "Construct a triangle $PQR$2$PQ = 10\\text{ cm}, QR = 8\\text{ cm},$ and $PR = 6\\text{ cm}$. After measuring, which angle is the largest?",
+      "question": "Construct a triangle $PQR$. So $PQ = 10\\text{ cm}, QR = 8\\text{ cm},$ and $PR = 6\\text{ cm}$. After measuring, which angle is the largest?",
       "options": [
         "$∠PRQ$",
         "$∠PQR$",
@@ -45,12 +45,12 @@
         "All angles are equal"
       ],
       "correctIndex": 0,
-      "explanation": "In any triangle, the largest angle is opposite the longest side. Since $PQ$2$10\\text{ cm}$), $∠PRQ$2$90°$ because $6^2 + 8^2 = 10^{2}$).\n\n**Common mistake:** The student might select the angle between the two longest sides instead of the angle opposite the longest side."
+      "explanation": "In any triangle, the largest angle is opposite the longest side. Since $PQ$. $10\\text{ cm}$), $∠PRQ$ and $90°$ because $6^2 + 8^2 = 10^{2}$).\n\n**Common mistake:** The student might select the angle between the two longest sides instead of the angle opposite the longest side."
     },
     {
       "id": "7-4-constructions-medium-q4",
       "type": "mcq",
-      "question": "While constructing a perpendicular bisector of a line $XY$2$8\\text{ cm}$, what is the minimum radius the compass must be set to for the arcs to intersect?",
+      "question": "While constructing a perpendicular bisector of a line $XY$. $8\\text{ cm}$, what is the minimum radius the compass must be set to for the arcs to intersect?",
       "options": [
         "Greater than $4\\text{ cm}$",
         "Exactly $4\\text{ cm}$",
@@ -63,7 +63,7 @@
     {
       "id": "7-4-constructions-medium-q5",
       "type": "mcq",
-      "question": "A rhombus $ABCD$2$7\\text{ cm}$. If you construct it such that $∠ABC = 120°$, what is the length of the diagonal $AC$?",
+      "question": "A rhombus $ABCD$. $7\\text{ cm}$. If you construct it such that $∠ABC = 120°$, what is the length of the diagonal $AC$?",
       "options": [
         "More than $7\\text{ cm}$",
         "$7\\text{ cm}$",
@@ -71,7 +71,7 @@
         "$49\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "In a rhombus with a $120°$ angle, the other interior angle is $60°$. The diagonal $AC$2$∠ABC=120°$, $AC$ is the long diagonal.\n\n**Common mistake:** The student might assume $AC = 7\\text{ cm}$ because it looks like a triangle, but $AC$2$120°$ angle, making it significantly longer than the sides."
+      "explanation": "In a rhombus with a $120°$ angle, the other interior angle is $60°$. The diagonal $AC$. $∠ABC=120°$, $AC$ is the long diagonal.\n\n**Common mistake:** The student might assume $AC = 7\\text{ cm}$ because it looks like a triangle, but $AC$ and $120°$ angle, making it significantly longer than the sides."
     }
   ]
 }

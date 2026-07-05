@@ -25,9 +25,9 @@
       "question": "Find the set of values of $\\theta$ in the interval $0^\\circ \\le \\theta \\le 360^\\circ$ which satisfy the equation $4\\sin^2(\\theta) = 3$ .",
       "options": [
         "60^\\circ, 120^\\circ, 240^\\circ, 300^\\circ",
-        "60^\\circ \\text{ and } 120^\\circ",
+        "$60^\\circ \\text{ and } 120^\\circ$",
         "30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ",
-        "60^\\circ \\text{ and } 300^\\circ"
+        "$60^\\circ \\text{ and } 300^\\circ$"
       ],
       "correctIndex": 0,
       "explanation": "Taking the square root gives $\\sin(\\theta) = \\pm\\frac{\\sqrt{3}}{2}$ . The reference angle is $60^\\circ$ . Because it can be positive or negative, valid angles exist in all four quadrants: $60^\\circ, 120^\\circ, 240^\\circ, 300^\\circ$ .\n\n**Common mistake:** Students regularly forget the negative branch when taking a square root $(\\pm)$ , which results in finding solutions only in Quadrants I and II."
@@ -38,7 +38,7 @@
       "question": "Find the coordinates of the minimum point of the curve $y = 3 - 5\\cos(2x)$ for the interval $0 \\le x \\le \\pi$ radians.",
       "options": [
         "(0, -2)",
-        "(\\frac{\\pi}{2}, -2)",
+        "$(\\frac{\\pi}{2}, -2)$",
         "(0, 8)",
         "(\\pi, 3)"
       ],
@@ -51,9 +51,9 @@
       "question": "Hence, or otherwise, solve the equation $\\sqrt{3}\\tan(3\\theta) = 1$ for the set of values in the range $0^\\circ \\le \\theta \\le 120^\\circ$ .",
       "options": [
         "10^\\circ, 70^\\circ, 130^\\circ",
-        "30^\\circ, 90^\\circ$",
-        "10^\\circ \\text{ and } 70^\\circ",
-        "20^\\circ, 80^\\circ$"
+        "30^\\circ, 90^\\circ",
+        "$10^\\circ \\text{ and } 70^\\circ$",
+        "20^\\circ, 80^\\circ"
       ],
       "correctIndex": 0,
       "explanation": "Rearranging gives $\\tan(3\\theta) = \\frac{1}{\\sqrt{3}}$ . For the domain $0^\\circ \\le 3\\theta \\le 360^\\circ$ , the solutions for $3\\theta$ are $30^\\circ$ and $210^\\circ$ . Dividing by 3 yields $\\theta = 10^\\circ$ and $70^\\circ$ . Adding the next cycle period $(180^\\circ / 3 = 60^\\circ)$ gives another valid solution at $70^\\circ + 60^\\circ = 130^\\circ$ which is outside the range, so the answers inside are $10^\\circ, 70^\\circ$ . Note: verifying the options option A includes $130^\\circ$ which is out of boundary, so option C is correct if we check bounded values.\n\n**Common mistake:** Students regularly calculate the primary reference angle but fail to find the second quadrant/cycle value before dividing by the argument multiplier."

@@ -13,7 +13,11 @@ $$
 **Magnitude and unit vector**
 
 $$
-|\mathbf{r}| = \sqrt{x^2 + y^2}, \qquad \hat{\mathbf{r}} = \frac{\mathbf{r}}{|\mathbf{r}|}
+|\mathbf{r}| = \sqrt{x^2 + y^2},
+$$
+
+$$
+\hat{\mathbf{r}} = \frac{\mathbf{r}}{|\mathbf{r}|}
 $$
 
 **Displacement vector**
@@ -52,7 +56,6 @@ Find $|\vec{AB}|$ and a unit vector in the same direction.
 
 $$
 |\vec{AB}| = \sqrt{3^2 + 4^2} = 5
-
 \hat{\mathbf{u}} = \frac{1}{5}\begin{pmatrix} 3 \ \\ 4 \end{pmatrix} = \begin{pmatrix} 0.6 \ \\ 0.8 \end{pmatrix}
 $$
 

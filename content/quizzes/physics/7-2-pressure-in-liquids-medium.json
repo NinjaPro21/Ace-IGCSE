@@ -32,7 +32,7 @@
         "$500000\\text{ Pa}$"
       ],
       "correctIndex": 0,
-      "explanation": "$Delta p = rho g h = 1000 \\times 10 \\times 5.0 = 50000\\text{ Pa}$. \n\n**Common mistake:** Forgetting to include the factor $g=10$, leading to an answer of $5000$."
+      "explanation": "$Delta p = rho g h = 1000 \\times 10 \\times 5.0 = 50000\\text{ Pa}$. \n\n**Common mistake:** Forgetting to include the factor $g=10$, leading to an answer of^5000."
     },
     {
       "id": "7-2-pressure-in-liquids-medium-q3",
@@ -63,7 +63,7 @@
     {
       "id": "7-2-pressure-in-liquids-medium-q5",
       "type": "mcq",
-      "question": "Which graph correctly shows how the pressure $p$ in a liquid of constant density varies with depth $h$?",
+      "question": "Which graph correctly shows how the pressure $p  in a liquid of constant density varies with depth h$?",
       "options": [
         "A straight line passing through the origin",
         "A horizontal straight line",
@@ -71,7 +71,7 @@
         "A straight line with a negative gradient"
       ],
       "correctIndex": 0,
-      "explanation": "Because $p$ is directly proportional to $h$ ($p = rho g h$), the relationship is linear and the graph is a straight line through the origin. \n\n**Common mistake:** Thinking the graph should be a curve because liquid pressure feels 'heavy'."
+      "explanation": "Because $p  is directly proportional to h$ ($p = rho g h$), the relationship is linear and the graph is a straight line through the origin. \n\n**Common mistake:** Thinking the graph should be a curve because liquid pressure feels 'heavy'."
     }
   ]
 }

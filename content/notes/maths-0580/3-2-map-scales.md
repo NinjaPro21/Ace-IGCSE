@@ -6,23 +6,23 @@ Map scales establish the mathematical ratio that links dimensions on a scaled dr
 
 $$
 \text{Linear Scale Ratio:} \quad 1 : n \implies 1\text{ cm on map} = n\text{ cm in reality}
-
+$$
+$$
 \text{Area Scale Relationship:} \quad (\text{Linear Scale Factor})^2 = \text{Area Scale Factor} \implies 1 : n^2
-
+$$
+$$
 \text{Unit Conversions:} \quad 1\text{ km} = 100000\text{ cm}, \quad 1\text{ km}^2 = 10000000000\text{ cm}^2
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Map scale bar">
-      <rect x="40" y="40" width="120" height="20" fill="#fef3c7" stroke="#d97706"/>
-      <text x="100" y="55" text-anchor="middle" font-size="10" fill="#92400e">2 cm on map</text>
-      <text x="200" y="55" font-size="14" fill="#64748b">→</text>
-      <text x="280" y="55" text-anchor="middle" font-size="10" fill="#2563eb">1 km real</text>
-      <text x="180" y="85" text-anchor="middle" font-size="10" fill="#64748b">scale 1 : 50 000</text>
-    </svg></div>
-
-Map scale — measure on the map, multiply by the scale factor to get real distance.
+      <rect x="40" y="40" width="120" height="20" rx="3" fill="#f5edd8" stroke="#b59a73"/>
+      <text x="100" y="55" text-anchor="middle" font-size="10" fill="#1a1a1a">2 cm on map</text>
+      <text x="200" y="55" font-size="14" fill="#6b6b6b">→</text>
+      <text x="280" y="55" text-anchor="middle" font-size="10" fill="#1a1a1a">1 km real</text>
+      <text x="180" y="85" text-anchor="middle" font-size="10" fill="#6b6b6b">scale 1 : 50 000</text>
+    </svg><p class="enlight-physics-diagram__caption">Map scale — measure on the map, multiply by the scale factor to get real distance.</p></div>
 
 ## Steps / method
 
@@ -64,4 +64,4 @@ Convert the real-world area units from square kilometers to square centimeters:$
 
 State the complete area scale ratio: $1\text{ cm}^2 : 2500000000\text{ cm}^2$.
 
-Take the square root of both sides of the area scale ratio to find the linear scale factor $n$. So $n = \sqrt{2500000000} = 50000$. State the final linear scale: $1 : 50000$.
+Take the square root of both sides of the area scale ratio to find the linear scale factor $n$ when $2$. State the final linear scale: $1 : 50000$.

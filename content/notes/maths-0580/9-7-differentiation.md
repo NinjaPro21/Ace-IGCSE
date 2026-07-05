@@ -4,26 +4,34 @@ Differentiation finds $\frac{dy}{dx}$, the gradient at a point. Set $\frac{dy}{d
 
 ## Key formulas
 
-$y = ax^n \Rightarrow \frac{dy}{dx} = nax^{n-1}$
-
-$y = mx + c \Rightarrow \frac{dy}{dx} = m
+**Power rule**
 
 $$
-\text{Turning point: } \frac{dy}{dx} = 0
+y = ax^n \Rightarrow \frac{dy}{dx} = nax^{n-1}
+$$
+
+**Linear function**
+
+$$
+y = mx + c \Rightarrow \frac{dy}{dx} = m
+$$
+
+**Turning point**
+
+$$
+\frac{dy}{dx} = 0
 $$
 
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Tangent to curve">
-      <line x1="40" y1="170" x2="290" y2="170" stroke="#64748b"/>
-      <line x1="40" y1="170" x2="40" y2="30" stroke="#64748b"/>
-      <path d="M60 150 Q160 30 260 90" fill="none" stroke="#2563eb" stroke-width="2"/>
-      <line x1="120" y1="130" x2="220" y2="70" stroke="#dc2626" stroke-width="2"/>
-      <circle cx="170" cy="100" r="4" fill="#dc2626"/>
-      <text x="175" y="90" font-size="10" fill="#dc2626">tangent</text>
-    </svg></div>
-
-Gradient of curve — draw tangent at a point; gradient = rise ÷ run (derivative at that x).
+      <line x1="40" y1="160" x2="280" y2="160" stroke="#a8a29e"/>
+      <line x1="74.28571428571428" y1="40" x2="74.28571428571428" y2="160" stroke="#a8a29e"/>
+      <polyline points="40.0,156.7 50.3,158.4 60.6,159.5 70.9,160.0 81.1,159.9 91.4,159.2 101.7,157.9 112.0,156.0 122.3,153.5 132.6,150.4 142.9,146.7 153.1,142.4 163.4,137.5 173.7,132.0 184.0,125.9 194.3,119.2 204.6,111.9 214.9,104.0 225.1,95.5 235.4,86.4 245.7,76.7 256.0,66.4 266.3,55.5 276.6,44.0" fill="none" stroke="#5b8def" stroke-width="2.5"/>
+      <line x1="88" y1="168" x2="225.14285714285714" y2="114.66666666666666" stroke="#b59a73" stroke-width="2"/>
+      <circle cx="142.85714285714283" cy="146.66666666666666" r="4" fill="#b59a73"/>
+      <text x="150.85714285714283" y="140.66666666666666" font-size="10" fill="#b59a73">tangent</text>
+    </svg><p class="enlight-physics-diagram__caption">Gradient of curve — draw tangent at a point; gradient = rise ÷ run (derivative at that $x$).</p></div>
 
 ## Steps / method
 
@@ -33,7 +41,7 @@ Differentiate term by term with the power rule.
 
 Constants differentiate to $0$.
 
-Substitute an $x$. So $\frac{dy}{dx}=0$ for turning points.
+Substitute an $x$ when $2$ for turning points.
 
 ## Examiner tip
 
@@ -59,4 +67,6 @@ $$
 \frac{dy}{dx} = 2x - 6 = 0 \Rightarrow x = 3
 $$
 
-$y = 3^2 - 6(3) + 5 = -4 \Rightarrow (3,-4)$
+$$
+y = 3^2 - 6(3) + 5 = -4 \Rightarrow (3,-4)
+$$

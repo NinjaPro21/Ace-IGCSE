@@ -6,10 +6,18 @@ The discriminant ($\Delta = b^2 - 4ac$) determines the nature of the roots of a 
 
 $$
 \Delta = b^2 - 4ac
-$$$\Delta > 0 \implies \text{Two distinct real roots}$
+$$
 
-$\Delta = 0 \implies \text{One repeated root (tangent)}$ $\Delta < 0 \implies \text{No real roots}
+$$
+\Delta > 0 \implies \text{Two distinct real roots}
+$$
 
+$$
+\Delta = 0 \implies \text{One repeated root (tangent)}
+$$
+
+$$
+\Delta < 0 \implies \text{No real roots}
 $$
 
 ## Steps / method
@@ -34,7 +42,7 @@ The line $y = kx + 2$ is tangent to the curve $y = x^2 - 4x + 7$. Find $k$.
 
 Equate: $kx + 2 = x^2 - 4x + 7 \implies x^2 - (k + 4)x + 5 = 0$.
 
-For a tangent, $\Delta = 0$: $(k + 4)^2 - 20 = 0 \implies k + 4 = \pm 2\sqrt{5}$. So $k = -4 + 2\sqrt{5}$ or $k = -4 - 2\sqrt{5}$.
+For a tangent, $\Delta = 0$: $(k + 4)^2 - 20 = 0 \implies k + 4 = \pm 2\sqrt{5}$ when 2 or $k = -4 - 2\sqrt{5}$.
 
 ## Worked example — No intersection
 

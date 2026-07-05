@@ -32,7 +32,7 @@
         "$28 800\\text{ J}$"
       ],
       "correctIndex": 0,
-      "explanation": "First, convert mass to kg: $20\\text{ g} = 0.02\\text{ kg}$. Then $E_k = 0.5 \\times 0.02 \\times 1200^2 = 0.01 \\times 1 440 000 = 14 400\\text{ J}$. \n\n**Common mistake:** Using mass in grams ($20$) directly in the formula, leading to an answer $1000$ \\times too large."
+      "explanation": "First, convert mass to kg: $20\\text{ g} = 0.02\\text{ kg}$. Then $E_k = 0.5 \\times 0.02 \\times 1200^2 = 0.01 \\times 1 440 000 = 14 400\\text{ J}$. \n\n**Common mistake:** Using mass in grams ($20$) directly in the formula, leading to an answer^1000 \\times too large."
     },
     {
       "id": "ch06-energy-work-and-power-hard-q3",
@@ -149,7 +149,7 @@
         "$120\\text{ J}$"
       ],
       "correctIndex": 0,
-      "explanation": "Useful work = $mgh = 20 \\times 10 \\times 3 = 600\\text{ J}$. Energy Input = $Useful / \\text{Efficiency} = 600 / 0.6 = 1000\\text{ J}$. \n\n**Common mistake:** Multiplying $600$ by $0.6$ ($360$) instead of dividing."
+      "explanation": "Useful work = $mgh = 20 \\times 10 \\times 3 = 600\\text{ J}$. Energy Input = $Useful / \\text{Efficiency} = 600 / 0.6 = 1000\\text{ J}$. \n\n**Common mistake:** Multiplying^600 by $0.6$ ($360$) instead of dividing."
     },
     {
       "id": "ch06-energy-work-and-power-hard-q12",
@@ -240,7 +240,7 @@
         "$5.4 \\times 10^{9}\\text{ MW}$"
       ],
       "correctIndex": 0,
-      "explanation": "Time in one day $= 24 \\times 3600 = 86400\\text{ s}$. Power $= (7.5 \\times 10^{13}) / 86400 \\approx 868055556\\text{ W} \\approx 868\\text{ MW}$. \n\n**Common mistake:** Dividing by $24$ (hours) only rather than seconds."
+      "explanation": "Time in one day $= 24 \\times 3600 = 86400\\text{ s}$. Power $= (7.5 \\times 10^{13}) / 86400 \\approx 868055556\\text{ W} \\approx 868\\text{ MW}$. \n\n**Common mistake:** Dividing by^24 (hours) only rather than seconds."
     },
     {
       "id": "ch06-energy-work-and-power-hard-q19",
@@ -266,7 +266,7 @@
         "No work is done in either case"
       ],
       "correctIndex": 0,
-      "explanation": "In A, the distance $s$ is doubled compared to B. Since $Work = Fs$, Work in A is double. Because $Power = Work / time$ and time is the same, Power in A is double. \n\n**Common mistake:** Thinking power only depends on the force applied regardless of distance."
+      "explanation": "In A, the distance $s  is doubled compared to B. Since Work = Fs , Work in A is double. Because Power = Work / time$ and time is the same, Power in A is double. \n\n**Common mistake:** Thinking power only depends on the force applied regardless of distance."
     }
   ]
 }

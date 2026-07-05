@@ -9,6 +9,31 @@ Have you ever noticed the small gaps between sections of a bridge or the clickin
 - **Expansion gap**: A deliberate space left between materials (e.g. railway rails) so they can expand safely without buckling.
 - **Shrink fitting**: Cooling one metal part so it shrinks, fitting it into another, then allowing it to warm and expand for a tight joint.
 
+## Relative magnitudes of expansion
+
+For the same temperature rise, different states expand by different amounts:
+
+- **Solids**: Smallest expansion — often too small to see without apparatus (ball-and-ring experiment).
+- **Liquids**: Expand more than solids — used in liquid-in-glass thermometers.
+- **Gases**: Expand the most — even body heat can noticeably expand trapped air.
+
+**Order to remember:** Gases > Liquids > Solids
+
+## Particle model explanation
+
+- **Kinetic energy**: Heating gives particles more kinetic energy.
+- **Motion**: Solids — particles vibrate more; liquids and gases — particles move faster.
+- **Distance**: Particles push further apart. The particles themselves do **not** get bigger — only the space between them increases.
+- **Forces**: Gases expand most because inter-particle forces are negligible.
+
+## Applications & consequences
+
+- **Railway lines**: Expansion gaps prevent buckling in hot weather. Modern rails are laid to fit tightly on hot days and held by strong supports.
+- **Bridges**: Expansion gaps or rollers at one end allow safe movement during expansion and contraction.
+- **Thermometers**: Liquid expansion in a narrow capillary tube measures temperature.
+- **Overhead wires**: Wires are hung loosely so they do not snap when they contract on cold days.
+- **Shrink fitting**: Train wheels are fitted to axles by heating the ring so it expands, placing it on the axle, then cooling so it contracts tightly.
+
 ## Graphs & diagrams
 
 <div class="enlight-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Bar chart comparing thermal expansion">
@@ -54,11 +79,23 @@ Have you ever noticed the small gaps between sections of a bridge or the clickin
       <text x="270" y="145" text-anchor="middle" font-size="10" fill="#f97316">further apart</text>
     </svg><p class="enlight-physics-diagram__caption">Particle model — heating increases average kinetic energy; particles vibrate or move faster and push further apart (they do not grow in size).</p></div>
 
+## Steps / method
+
+**Explaining thermal expansion (exam method):**
+
+1. **State the change**: The material's temperature increases (or decreases).
+2. **Link to particles**: Particles gain (or lose) kinetic energy.
+3. **Describe particle motion**: Particles vibrate or move more vigorously (or less).
+4. **Explain the volume change**: Particles push further apart (or closer together) — the particles themselves do not change size.
+5. **State the outcome**: The material expands (or contracts).
+
 ## Common mistakes
 
-- **Particle size**: Thinking atoms themselves grow larger — only the gaps between them increase.
-- **Visible expansion**: Assuming solid expansion is always obvious without special apparatus.
-- **Ignoring contraction**: Engineers must design for both heating **and** cooling.
+**Particle size**: Thinking atoms themselves grow larger — only the gaps between them increase.
+
+**Visible expansion**: Assuming solid expansion is always obvious without special apparatus.
+
+**Ignoring contraction**: Engineers must design for both heating **and** cooling.
 
 ## Examiner tip
 
@@ -72,30 +109,6 @@ Does the size of an individual water molecule change when it is heated?
 
 What is the name of the process used to join a train wheel to its axle using temperature changes?
 
-## Relative magnitudes of expansion
-
-For the same temperature rise, different states expand by different amounts:
-
-- **Solids**: Smallest expansion — often too small to see without apparatus (ball-and-ring experiment).
-- **Liquids**: Expand more than solids — used in liquid-in-glass thermometers.
-- **Gases**: Expand the most — even body heat can noticeably expand trapped air.
-
-**Order to remember:** Gases > Liquids > Solids
-
-## Particle model explanation
-
-- **Kinetic energy**: Heating gives particles more kinetic energy.
-- **Motion**: Solids — particles vibrate more; liquids and gases — particles move faster.
-- **Distance**: Particles push further apart. The particles themselves do **not** get bigger — only the space between them increases.
-- **Forces**: Gases expand most because inter-particle forces are negligible.
-
-## Applications & consequences
-
-- **Railway lines**: Expansion gaps prevent buckling in hot weather. Modern rails are laid to fit tightly on hot days and held by strong supports.
-- **Bridges**: Expansion gaps or rollers at one end allow safe movement during expansion and contraction.
-- **Thermometers**: Liquid expansion in a narrow capillary tube measures temperature.
-- **Overhead wires**: Wires are hung loosely so they do not snap when they contract on cold days.
-
 ## Worked example — The Ball and Ring
 
 Question: A metal ball just passes through a metal ring at room temperature. Describe and explain what happens if the ball is heated but the ring is not.
@@ -105,3 +118,5 @@ Question: A metal ball just passes through a metal ring at room temperature. Des
 2. **Describe** the outcome — the ball's diameter increases until it no longer passes through the ring.
 
 3. **Explain** using particles — heat increases the atoms' kinetic energy, they vibrate more vigorously and take up more space, so the ball's volume increases.
+
+**Final answer:** The heated ball expands and no longer fits through the ring because its particles vibrate more vigorously and push further apart.

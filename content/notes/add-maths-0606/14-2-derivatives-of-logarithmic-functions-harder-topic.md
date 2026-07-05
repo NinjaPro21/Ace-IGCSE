@@ -38,27 +38,7 @@ $$
 
 1. **Simplify first** — use log laws (e.g. $\ln x^3 = 3\ln x$) before differentiating.
 
-
-
-
-
-
-
-
-
-
-
  2. **Identify the argument** — note $f(x)$ inside the log.
-
-
-
-
-
-
-
-
-
-
 
  3. **Apply the rule** — put $f'(x)$ in the numerator and $f(x)$ in the denominator.
 

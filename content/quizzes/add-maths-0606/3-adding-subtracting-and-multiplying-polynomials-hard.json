@@ -24,7 +24,7 @@
     {
       "id": "3-adding-subtracting-and-multiplying-polynomials-hard-q2",
       "type": "mcq",
-      "question": "Find the values of $p$2$q$2$(x - 1)(x^2 + px + q) = x^3 - 6x^2 + 11x - 6$.",
+      "question": "Find the values of $p  and q2(x - 1)(x^2 + px + q) = x^3 - 6x^2 + 11x - 6$.",
       "options": [
         "$p = -5, q = 6$",
         "$p = -6, q = 11$",
@@ -32,7 +32,7 @@
         "$p = -5, q = -6$"
       ],
       "correctIndex": 0,
-      "explanation": "Expanding gives $x^3 + (p-1)x^2 + (q-p)x - q$2$-q = -6 \\implies q = 6$; $p-1 = -6 \\implies p = -5$.\n\n**Common mistake:** Students often solve for $q$2$x^2$ coefficient to find $p$2$p-1$."
+      "explanation": "Expanding gives $x^3 + (p-1)x^2 + (q-p)x - q$. $-q = -6 \\implies q = 6$; $p-1 = -6 \\implies p = -5$.\n\n**Common mistake:** Students often solve for $q$. $x^2$ coefficient to find $p^2 p-1$."
     },
     {
       "id": "3-adding-subtracting-and-multiplying-polynomials-hard-q3",
@@ -50,7 +50,7 @@
     {
       "id": "3-adding-subtracting-and-multiplying-polynomials-hard-q4",
       "type": "mcq",
-      "question": "Determine the value of the constant $k$2$(x - k)(x^2 + 4x + 4)$ has no $x^2$ term.",
+      "question": "Determine the value of the constant $k$. $(x - k)(x^2 + 4x + 4)$ has no $x^2$ term.",
       "options": [
         "4",
         "-4",
@@ -58,12 +58,12 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Expansion: $x^3 + 4x^2 + 4x - kx^2 - 4kx - 4k = x^3 + (4-k)x^2 + (4-4k)x - 4k$2$x^2$ term means $4 - k = 0$.\n\n**Common mistake:** Setting the coefficient of $x$2$x^2$."
+      "explanation": "Expansion: $x^3 + 4x^2 + 4x - kx^2 - 4kx - 4k = x^3 + (4-k)x^2 + (4-4k)x - 4k$. $x^2$ term means $4 - k = 0$.\n\n**Common mistake:** Setting the coefficient of $x$. $x^2$."
     },
     {
       "id": "3-adding-subtracting-and-multiplying-polynomials-hard-q5",
       "type": "mcq",
-      "question": "If $(ax + b)² = 9x^2 - 30x + 25$, find the values of $a$2$b$2$a > 0$.",
+      "question": "If $(ax + b)² = 9x^2 - 30x + 25$, find the values of $a$ and $b2a > 0$.",
       "options": [
         "$a = 3, b = -5$",
         "$a = 3, b = 5$",
@@ -71,7 +71,7 @@
         "$a = 3, b = -15$"
       ],
       "correctIndex": 0,
-      "explanation": "Expansion: $a^2x^2 + 2abx + b^2 = 9x^2 - 30x + 25$. $a^2=9 \\implies a=3$; $b^2=25 \\implies b=±5$; $2ab=-30 \\implies 2(3)b=-30 \\implies b=-5$.\n\n**Common mistake:** Ignoring the middle term $2abx$2$b=5$, which would make the middle term positive $(+30x)$."
+      "explanation": "Expansion: $a^2x^2 + 2abx + b^2 = 9x^2 - 30x + 25$. $a^2=9 \\implies a=3$; $b^2=25 \\implies b=±5$; $2ab=-30 \\implies 2(3)b=-30 \\implies b=-5$.\n\n**Common mistake:** Ignoring the middle term $2abx$. So $b=5$, which would make the middle term positive $(+30x)$."
     }
   ]
 }

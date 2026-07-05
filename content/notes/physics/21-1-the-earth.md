@@ -9,31 +9,59 @@ Ever wondered why the Sun seems to "rise" in the East or why we have shorter day
 - **Natural Satellite**: A moon that orbits a planet as the planet orbits the Sun.
 - **Rotation**: The spinning of the Earth on its axis, which takes approximately 24 hours to complete once.
 - **Orbit**: The path a planet takes around a star, with Earth taking approximately 365 days to complete one revolution.
-- **Axis**: An imaginary line through the North and South Poles, tilted at an angle of 23.5^\circrelative to the plane of the Earth's orbit.
+- **Axis**: An imaginary line through the North and South Poles, tilted at an angle of $23.5^\circ$ relative to the plane of the Earth's orbit.
 - **Moon Phases**: The changing appearance of the Moon as seen from Earth, caused by its 28-day orbit around our planet.
 
 ## Key formulas
 
-Average Orbital Speed: 
-$v = \frac{2\pi r}{T}This formula applies to any object in a circular or nearly circular orbit, wherevis the orbital speed,ris the average orbital radius, andT is the orbital period.$
+**Average Orbital Speed**
+
+$$
+v = \frac{2\pi r}{T}
+$$
+
+Applies to any object in a circular or nearly circular orbit, where $v$ is the orbital speed, $r$ is the average orbital radius, and $T$ is the orbital period.
 
 ## Graphs & diagrams
 
 - **Day and Night Cycle**: A diagram of Earth shows that the Sun shines on only half the planet at once; as the Earth rotates West to East, we move from darkness into light and back again.
-- **The Seasons**: A diagram of Earth's orbit shows the 23.5^\circtilt. When the Northern Hemisphere is tilted towards the Sun (June), it experiences summer due to longer days and more intense radiation; when tilted away (December), it experiences winter.
+- **The Seasons**: A diagram of Earth's orbit shows the $23.5^\circ$ tilt. When the Northern Hemisphere is tilted towards the Sun (June), it experiences summer due to longer days and more intense radiation; when tilted away (December), it experiences winter.
 - **Apparent Motion**: A path across the sky represents the Sun's "movement" from East to West, which is actually caused by the Earth's West-to-East rotation.
 - **Moon Phases**: A circular diagram showing the Moon's positions relative to the Earth and Sun, identifying phases like New Moon (dark side faces Earth), Full Moon (bright side faces Earth), Waxing (bright part increasing), and Waning (bright part decreasing).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
-      <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
-      <rect x="120" y="30" width="50" height="30" fill="#fef08a"/><rect x="170" y="30" width="80" height="30" fill="#bbf7d0"/>
-      <rect x="250" y="30" width="50" height="30" fill="#bfdbfe"/><rect x="300" y="30" width="50" height="30" fill="#ddd6fe"/>
-      <rect x="350" y="30" width="70" height="30" fill="#e9d5ff"/>
-      <text x="45" y="50" text-anchor="middle" font-size="8" fill="#334155">radio</text>
-      <text x="210" y="50" text-anchor="middle" font-size="8" fill="#334155">visible</text>
-      <text x="385" y="50" text-anchor="middle" font-size="8" fill="#334155">gamma</text>
-      <text x="220" y="20" text-anchor="middle" font-size="11" fill="#334155">increasing frequency →</text>
-    </svg><p class="enlight-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
+<div class="enlight-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Earth day and night cycle">
+      <circle cx="55" cy="100" r="28" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+      <text x="55" y="104" text-anchor="middle" font-size="9" fill="#854d0e">Sun</text>
+      <line x1="85" y1="100" x2="130" y2="100" stroke="#fbbf24" stroke-width="2" opacity="0.6"/>
+      <circle cx="250" cy="100" r="55" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+      <path d="M250 45 A55 55 0 0 0 250 155 Z" fill="#1e3a8a"/>
+      <line x1="250" y1="35" x2="250" y2="165" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 3"/>
+      <text x="290" y="55" font-size="9" fill="#fef08a">day</text>
+      <text x="210" y="145" font-size="9" fill="#cbd5e1">night</text>
+      <text x="250" y="175" text-anchor="middle" font-size="9" fill="#64748b">axis</text>
+      <path d="M195 130 A40 40 0 0 1 305 130" fill="none" stroke="#f59e0b" stroke-width="2" marker-end="url(#edn-arr)"/>
+      <text x="250" y="128" text-anchor="middle" font-size="9" fill="#f59e0b">rotation (W → E)</text>
+      <defs><marker id="edn-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#f59e0b"/></marker></defs>
+    </svg><p class="enlight-physics-diagram__caption">Day and night — the Sun illuminates half the Earth at a time; rotation from west to east causes the apparent motion of the Sun.</p></div>
+
+<div class="enlight-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Earth seasons and axial tilt">
+      <circle cx="240" cy="110" r="22" fill="#fef08a" stroke="#ca8a04"/>
+      <text x="240" y="114" text-anchor="middle" font-size="8" fill="#854d0e">Sun</text>
+      <ellipse cx="240" cy="110" rx="170" ry="70" fill="none" stroke="#cbd5e1" stroke-dasharray="5 4"/>
+      <g transform="translate(90,110)">
+        <circle r="18" fill="#2563eb" stroke="#1e40af"/>
+        <line x1="0" y1="-18" x2="8" y2="18" stroke="#94a3b8" stroke-width="2"/>
+        <text x="0" y="38" text-anchor="middle" font-size="9" fill="#16a34a">summer (NH)</text>
+        <text x="0" y="50" text-anchor="middle" font-size="8" fill="#64748b">tilted toward Sun</text>
+      </g>
+      <g transform="translate(390,110)">
+        <circle r="18" fill="#2563eb" stroke="#1e40af"/>
+        <line x1="0" y1="18" x2="-8" y2="-18" stroke="#94a3b8" stroke-width="2"/>
+        <text x="0" y="38" text-anchor="middle" font-size="9" fill="#2563eb">winter (NH)</text>
+        <text x="0" y="50" text-anchor="middle" font-size="8" fill="#64748b">tilted away</text>
+      </g>
+      <text x="240" y="200" text-anchor="middle" font-size="10" fill="#475569">axial tilt ≈ 23.5°</text>
+    </svg><p class="enlight-physics-diagram__caption">Seasons — caused by the 23.5° tilt of Earth's axis, not by distance from the Sun.</p></div>
 
 ## Steps / method
 
@@ -75,17 +103,21 @@ Are seasons caused by the Earth's distance from the Sun or the tilt of its axis?
 
 Question: The Earth orbits the Sun at an average radius of $1.5 \times 10^{11}$ m. Calculate its average orbital speed in m/s (assume 1 year = 365 days).
 
-Identify $T$1365\ days \times 24\ hours \times 3600\ seconds = 31536000\ s 2
+Identify $T$:
 
-Identify $r$11.5 \times $10^{11}$\ m2
+$$
+365 \times 24 \times 3600 = 31\,536\,000\ \text{s}
+$$
 
-Apply Formula:
+Identify $r$: $1.5 \times 10^{11}$ m.
 
-$v = \frac{2 \times \pi \times (1.5 \times
+Apply formula:
 
-$$$10^{11}$
+$$
+v = \frac{2 \times \pi \times 1.5 \times 10^{11}}{31\,536\,000} \approx 29\,900\ \text{m/s}
+$$
 
-$)}{31536000}$ Calculate:v \approx 29886\ m/s 2
+**Final answer:** Approximately $2.99 \times 10^{4}$ m/s (or 29 900 m/s).
 
 ## Worked example — Identifying Moon Phases
 
@@ -97,6 +129,8 @@ Calculate the Fraction: 7 days is exactly $1/4$ of the 28-day cycle.
 
 Identify Appearance: After a Full Moon, the illuminated portion begins to decrease (waning).
 
-Conclusion: The Moon will be half-illuminated; this is the Third Quarter phase. ### Common Trap
+Conclusion: The Moon will be half-illuminated; this is the Third Quarter phase.
+
+### Common Trap
 
 Students often confuse "Waxing" with "Waning." Remember that "Waning" means the light is disappearing like a "waning" flame.

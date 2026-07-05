@@ -24,7 +24,7 @@
     {
       "id": "12-9-stationary-points-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "The curve $y = ax^2 + \\frac{b}{x}$ has a stationary point at the point $(1, 6)$. Find the values of $a$2$b$.",
+      "question": "The curve $y = ax^2 + \\frac{b}{x}$ has a stationary point at the point $(1, 6)$. Find the values of $a$ and $b$.",
       "options": [
         "$a = 2, b = 4$",
         "$a = 4, b = 2$",
@@ -32,7 +32,7 @@
         "$a = 1, b = 5$"
       ],
       "correctIndex": 0,
-      "explanation": "At $(1,6): a + b = 6$. $\\frac{dy}{dx} = 2ax - \\frac{b}{x^2}$. At $x=1, 2a - b = 0 \\implies b = 2a$2$a+b=6$ gives $3a = 6 \\implies a = 2, b = 4$.\n\n**Common mistake:** Option B swaps the values of $a$2$b$ due to an error in the final substitution step."
+      "explanation": "At $(1,6): a + b = 6$. $\\frac{dy}{dx} = 2ax - \\frac{b}{x^2}$. At $x=1, 2a - b = 0 \\implies b = 2a$. So $a+b=6$ gives $3a = 6 \\implies a = 2, b = 4$.\n\n**Common mistake:** Option B swaps the values of $a$ and $b$ due to an error in the final substitution step."
     },
     {
       "id": "12-9-stationary-points-harder-topic-pyp-q3",
@@ -50,7 +50,7 @@
     {
       "id": "12-9-stationary-points-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "Given that the curve $y = x^3 - 3x^2 + kx$2$x = 2$, find the value of $k$ and the coordinates of the other stationary point.",
+      "question": "Given that the curve $y = x^3 - 3x^2 + kx$. So $x = 2$, find the value of $k$ and the coordinates of the other stationary point.",
       "options": [
         "$k = 0, (0, 0)$",
         "$k = 4, (0, 0)$",
@@ -58,12 +58,12 @@
         "$k = 2, (1, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 3x^2 - 6x + k$2$x=2, 3(4) - 6(2) + k = 12 - 12 + k = 0$, so $k = 0$. $\\frac{dy}{dx} = 3x^2 - 6x = 3x(x-2)$. Other root is $x=0$. At $x=0, y=0$.\n\n**Common mistake:** Option C results from a calculation error when finding the other root of the quadratic derivative."
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 6x + k$. So $x=2, 3(4) - 6(2) + k = 12 - 12 + k = 0$, so $k = 0$. $\\frac{dy}{dx} = 3x^2 - 6x = 3x(x-2)$. Other root is $x=0$. At $x=0, y=0$.\n\n**Common mistake:** Option C results from a calculation error when finding the other root of the quadratic derivative."
     },
     {
       "id": "12-9-stationary-points-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Find the set of values of $x$2$y = 2x^3 - 15x^2 + 24x$ is decreasing.",
+      "question": "Find the set of values of $x$. So $y = 2x^3 - 15x^2 + 24x$ is decreasing.",
       "options": [
         "$1 < x < 4$",
         "$x < 1$ or $x > 4$",

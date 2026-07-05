@@ -9,7 +9,7 @@
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q1",
       "type": "mcq",
-      "question": "Find the set of values of $p$ for which the quadratic equation $x² + (2p - 1)x + p² = 0$ has two distinct real roots.",
+      "question": "Find the set of values of $p  for which the quadratic equation x^2 + (2p - 1)x + p^2 = 0$ has two distinct real roots.",
       "options": [
         "$p < \\frac{1}{4}$",
         "$p > \\frac{1}{4}$",
@@ -17,12 +17,12 @@
         "$p \\le \\frac{1}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "For two distinct real roots, $\\Delta > 0$. Therefore, $(2p - 1)² - 4(1)(p²) > 0 \\implies 4p² - 4p + 1 - 4p² > 0 \\implies -4p + 1 > 0 \\implies 1 > 4p \\implies p < \\frac{1}{4}$.\n\n**Common mistake:** Students routinely forget to flip the inequality sign when dividing by a negative number, converting $-4p > -1$ erroneously into $p > \\frac{1}{4}$."
+      "explanation": "For two distinct real roots, $\\Delta > 0$. Therefore, $(2p - 1)² - 4(1)(p^2) > 0 \\implies 4p^2 - 4p + 1 - 4p^2 > 0 \\implies -4p + 1 > 0 \\implies 1 > 4p \\implies p < \\frac{1}{4}$.\n\n**Common mistake:** Students routinely forget to flip the inequality sign when dividing by a negative number, converting $-4p > -1$ erroneously into $p > \\frac{1}{4}$."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q2",
       "type": "mcq",
-      "question": "The line $y = 2x + k$ intersects the curve $y = x² + 6x + 7$ at two distinct points. Find the set of values of $k$.",
+      "question": "The line $y = 2x + k$ intersects the curve $y = x^2 + 6x + 7$ at two distinct points. Find the set of values of $k$.",
       "options": [
         "$k > 3$",
         "$k < 3$",
@@ -30,12 +30,12 @@
         "$k < -3$"
       ],
       "correctIndex": 0,
-      "explanation": "Equating expressions yields $x² + 4x + (7 - k) = 0$. For two distinct intersections, $\\Delta > 0 \\implies 4² - 4(1)(7 - k) > 0 \\implies 16 - 28 + 4k > 0 \\implies 4k > 12 \\implies k > 3$.\n\n**Common mistake:** Students often make a sign error when expanding $-4(7 - k)$, writing $-28 - 4k$, which leads directly to the incorrect conclusion $k < -3$."
+      "explanation": "Equating expressions yields $x^2 + 4x + (7 - k) = 0$. For two distinct intersections, $\\Delta > 0 \\implies 4^2 - 4(1)(7 - k) > 0 \\implies 16 - 28 + 4k > 0 \\implies 4k > 12 \\implies k > 3$.\n\n**Common mistake:** Students often make a sign error when expanding $-4(7 - k)$, writing $-28 - 4k$, which leads directly to the incorrect conclusion $k < -3$."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q3",
       "type": "mcq",
-      "question": "Hence, find the coordinates of the maximum point on the curve $y = 11 + 8x - 2x²$.",
+      "question": "Hence, find the coordinates of the maximum point on the curve $y = 11 + 8x - 2x^2$.",
       "options": [
         "$(2, 19)$",
         "$(-2, -13)$",
@@ -43,7 +43,7 @@
         "$(2, 11)$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: $y = -2(x² - 4x) + 11 = -2[(x - 2)² - 4] + 11 = -2(x - 2)² + 8 + 11 = -2(x - 2)² + 19$. The vertex is a maximum at $(2, 19)$.\n\n**Common mistake:** Students regularly read the coordinates directly from un-multiplied terms inside brackets, missing the addition of $+8$ and concluding the maximum is at $(2, 11)$."
+      "explanation": "Complete the square: $y = -2(x^2 - 4x) + 11 = -2[(x - 2)² - 4] + 11 = -2(x - 2)² + 8 + 11 = -2(x - 2)² + 19$. The vertex is a maximum at $(2, 19)$.\n\n**Common mistake:** Students regularly read the coordinates directly from un-multiplied terms inside brackets, missing the addition of $+8$ and concluding the maximum is at $(2, 11)$."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q4",
@@ -56,12 +56,12 @@
         "$-4 \\le x \\le \\frac{1}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand and rearrange: $2x² - 6x \\ge x + 4 \\implies 2x² - 7x - 4 \\ge 0$. Factoring gives $(2x + 1)(x - 4) \\ge 0$. The critical values are $-\\frac{1}{2}$ and^4. Since it is $\\ge 0$, we select the outer regions.\n\n**Common mistake:** Students frequently fail to rearrange all terms to one side before attempting to solve, or treat it as an inner interval despite the 'greater than or equal to' inequality direction."
+      "explanation": "Expand and rearrange: $2x^2 - 6x \\ge x + 4 \\implies 2x^2 - 7x - 4 \\ge 0$. Factoring gives $(2x + 1)(x - 4) \\ge 0$. The critical values are $-\\frac{1}{2}$ and^4. Since it is $\\ge 0$, we select the outer regions.\n\n**Common mistake:** Students frequently fail to rearrange all terms to one side before attempting to solve, or treat it as an inner interval despite the 'greater than or equal to' inequality direction."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q5",
       "type": "mcq",
-      "question": "Show that the graph of $y = |x² - 6x + 5|$ intersects the horizontal line $y = 3$ at a specific number of points. Find the complete set of the $x$-coordinates of these intersection points.",
+      "question": "Show that the graph of $y = |x^2 - 6x + 5|$ intersects the horizontal line $y = 3$ at a specific number of points. Find the complete set of the $x$-coordinates of these intersection points.",
       "options": [
         "$x = 3 \\pm \\sqrt{7}$ and $x = 3 \\pm 1$",
         "$x = 3 \\pm \\sqrt{7}$",
@@ -69,7 +69,7 @@
         "$x = 3 \\pm \\sqrt{11}$ and $x = 1$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up two equations: Case 1: $x² - 6x + 5 = 3 \\implies x² - 6x + 2 = 0 \\implies x = \\frac{6 \\pm \\sqrt{28}}{2} = 3 \\pm \\sqrt{7}$. Case 2: $x² - 6x + 5 = -3 \\implies x² - 6x + 8 = 0 \\implies (x-2)(x-4)=0 \\implies x = 2, 4$ (which can be written as $3 \\pm 1$). All four values are valid.\n\n**Common mistake:** Students frequently resolve only the positive case ($x² - 6x + 5 = 3$), missing the reflected component equation entirely and losing half of the valid coordinate set."
+      "explanation": "Set up two equations: Case 1: $x^2 - 6x + 5 = 3 \\implies x^2 - 6x + 2 = 0 \\implies x = \\frac{6 \\pm \\sqrt{28}}{2} = 3 \\pm \\sqrt{7}$. Case 2: $x^2 - 6x + 5 = -3 \\implies x^2 - 6x + 8 = 0 \\implies (x-2)(x-4)=0 \\implies x = 2, 4$ (which can be written as $3 \\pm 1$). All four values are valid.\n\n**Common mistake:** Students frequently resolve only the positive case ($x^2 - 6x + 5 = 3$), missing the reflected component equation entirely and losing half of the valid coordinate set."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q6",

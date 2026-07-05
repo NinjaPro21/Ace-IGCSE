@@ -11,7 +11,7 @@
     {
       "id": "5-logarithmic-equations-hard-q1",
       "type": "mcq",
-      "question": "Find the exact values of $x$2$(\\log_2 x)^2 - \\log_2(x^3) - 4 = 0$ .",
+      "question": "Find the exact values of $x$. $(\\log_2 x)^2 - \\log_2(x^3) - 4 = 0$ .",
       "options": [
         "$x = 16$ or $x = \\frac{1}{2}$",
         "$x = 4$ or $x = -1$",
@@ -19,7 +19,7 @@
         "$x = 16$ or $x = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Using log laws, rewrite $\\log_2(x^3)$ as $3\\log_2 x$2$u = \\log_2 x$2$u^2 - 3u - 4 = 0 \\implies (u-4)(u+1) = 0$ . Thus $\\log_2 x = 4 \\implies x = 16$ , or \\log_2 x = -1 \\implies x = \\frac{1}{2}2\n\n**Common mistake:** Option B reflects the intermediate roots for $u$2$x$ by exponentiating with base 2."
+      "explanation": "Using log laws, rewrite $\\log_2(x^3)$ as $3\\log_2 x$. So $u = \\log_2 x2u^2 - 3u - 4 = 0 \\implies (u-4)(u+1) = 0$ . Thus $\\log_2 x = 4 \\implies x = 16$ , or \\log_2 x = -1 \\implies x = \\frac{1}{2}2\n\n**Common mistake:** Option B reflects the intermediate roots for $u$ and $x$ by exponentiating with base 2."
     },
     {
       "id": "5-logarithmic-equations-hard-q2",
@@ -45,7 +45,7 @@
         "$x = 0$ or $x = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite $4^x$2$(2^x)^2$ and $2^{x+1}$ as $2 \\cdot 2^x$2$(2^x)^2 - 6(2^x) + 8 = 0$ . Factoring yields $(2^x - 2)(2^x - 4) = 0 \\implies 2^x = 2$ or $2^x = 4$ , giving $x = 1$ or $x = 2$ .\n\n**Common mistake:** Option B displays the solutions for $2^x$2$x$ ."
+      "explanation": "Rewrite $4^x$. $(2^x)^2$ and $2^{x+1}$ as $2 \\cdot 2^x$. $(2^x)^2 - 6(2^x) + 8 = 0$ . Factoring yields $(2^x - 2)(2^x - 4) = 0 \\implies 2^x = 2$ or $2^x = 4$ , giving $x = 1$ or $x = 2$ .\n\n**Common mistake:** Option B displays the solutions for $2^x$ and $x$ ."
     },
     {
       "type": "mcq",
@@ -62,7 +62,7 @@
     },
     {
       "type": "mcq",
-      "question": "Find the values of $x$2$e^{2x} - 5e^x + 6 = 0$.",
+      "question": "Find the values of $x$. So $e^{2x} - 5e^x + 6 = 0$.",
       "options": [
         "ln 2 or ln 3",
         "2 or 3",
@@ -70,7 +70,7 @@
         "ln 1"
       ],
       "correctIndex": 0,
-      "explanation": "This is a quadratic in $e^x$2$(e^x - 2)(e^x - 3) = 0 \\Rightarrow e^x = 2$ or $e^x = 3$. Taking natural logs gives $x = \\ln 2$ or $x = \\ln 3$.\n\n**Common mistake:** Choosing Option B by forgetting to apply the natural logarithm to the quadratic roots.",
+      "explanation": "This is a quadratic in $e^x$. $(e^x - 2)(e^x - 3) = 0 \\Rightarrow e^x = 2$ or $e^x = 3$. Taking natural logs gives $x = \\ln 2$ or $x = \\ln 3$.\n\n**Common mistake:** Choosing Option B by forgetting to apply the natural logarithm to the quadratic roots.",
       "id": "5-logarithmic-equations-hard-q5"
     }
   ]

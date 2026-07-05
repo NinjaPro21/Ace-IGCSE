@@ -7,7 +7,7 @@ The modulus $|x|$ represents the absolute magnitude of $x$, ignoring its sign. I
 **Definition of modulus**
 
 $$
-|x| = \begin{cases} x & \text{if } x \ge 0 \\ -x & \text{if } x < 0 \end{cases}
+|x| = \begin{cases}x & \ \text{if } x \ge 0 \ -x & \text{if } x < 0\end{cases}
 $$
 
 **Modulus equation**
@@ -19,7 +19,9 @@ $$
 ## Steps / method
 
 1. **Split the equation** — write two linear (or simpler) equations from the positive and negative cases.
+
 2. **Solve** — find $x$ for both cases.
+
 3. **Validate** — substitute each answer back into the original equation and reject any extraneous solutions.
 
 ### Key rule

@@ -19,7 +19,7 @@
         "$x = 0, 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor out the common term $x$2$x(x^2 - 25) = 0$. Then factor the difference of squares: $x(x - 5)(x + 5) = 0$. The roots are $0, 5, -5$.\n\n**Common mistake:** Dividing both sides by $x$2$x = 0$ solution."
+      "explanation": "Factor out the common term $x$. So $x(x^2 - 25) = 0$. Then factor the difference of squares: $x(x - 5)(x + 5) = 0$. The roots are $0, 5, -5$.\n\n**Common mistake:** Dividing both sides by $x$. So $x = 0$ solution."
     },
     {
       "id": "3-cubic-expressions-and-equations-medium-q2",

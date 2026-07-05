@@ -13,8 +13,11 @@ $$
 ## Steps / method
 
 1. **Find one root** — use the Factor Theorem (trial and error) to find $f(a) = 0$.
+
 2. **Reduce to quadratic** — divide the cubic by $(x - a)$ to get the quadratic quotient.
+
 3. **Factor the quadratic** — factorise or use the quadratic formula.
+
 4. **List all roots** — a cubic has up to 3 real roots.
 
 ### Key rule

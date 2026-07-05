@@ -11,7 +11,7 @@
     {
       "id": "15-8-15-9-definite-integration-hard-q1",
       "type": "mcq",
-      "question": "Find the value of\nin $t^{1}$2\n$\\frac{4$(}{2x-1}$)^{2}$\\\\\\\\,dx.",
+      "question": "Find the value of $\\int_{1}^{2} \\frac{4}{(2x-1)^2}\\,dx.$",
       "options": [
         "1.33",
         "2",
@@ -19,12 +19,12 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "Integral is [$\\frac{-2}{2x-1}$]\n$1^{2}$\n=(−2/3)−(−2/1)=2−0.67=1.33.\n\n**Common mistake:** Option C is a common sign error where the student adds the negative evaluation instead of subtracting it."
+      "explanation": "Integral is [$\\frac{-2}{2x-1}$]\n$1^{2}$\n=(-2/3)-(-2/1)=2-0.67=1.33.\n\n**Common mistake:** Option C is a common sign error where the student adds the negative evaluation instead of subtracting it."
     },
     {
       "id": "15-8-15-9-definite-integration-hard-q2",
       "type": "mcq",
-      "question": "Given that\nin $t^{0}$k\n\ne^{2x}\n\\\\\\\\,dx.=12, find the exact value of k.",
+      "question": "Given that\nin $t^{0}$k\n\ne^{2x}\n\\,dx.=12, find the exact value of k.",
       "options": [
         "ln 5",
         "ln 25",
@@ -32,7 +32,7 @@
         "0.5 ln 13"
       ],
       "correctIndex": 0,
-      "explanation": "[0.5e\n2x\n]\n0\nk \\neq 12 \\implies 0.5e\n2k\n−0.5=12 \\implies e\n2k \\neq 25 \\implies 2k=\nln25 \\implies k=\nln5.\n\n**Common mistake:** Option B results if the student forgets to divide by 2 (or apply the square root log law)."
+      "explanation": "[0.5e\n2x\n]\n0\nk \\neq 12 \\implies 0.5e\n2k\n-0.5=12 \\implies e\n2k \\neq 25 \\implies 2k=\nln25 \\implies k=\nln5.\n\n**Common mistake:** Option B results if the student forgets to divide by 2 (or apply the square root log law)."
     },
     {
       "id": "15-8-15-9-definite-integration-hard-q3",
@@ -62,7 +62,7 @@
     },
     {
       "type": "mcq",
-      "question": "Find the positive value of $k$2$\\int_1^k 1/x^2 dx = 0.5$.",
+      "question": "Find the positive value of $k$. So $\\int_1^k 1/x^2 dx = 0.5$.",
       "options": [
         "2",
         "4",
@@ -70,7 +70,7 @@
         "3"
       ],
       "correctIndex": 0,
-      "explanation": "Integral is $[-1/x]_1^k = -1/k - (-1/1) = 1 - 1/k$2$1 - 1/k = 0.5 \\Rightarrow 1/k = 0.5 \\Rightarrow k = 2$.\n\n**Common mistake:** Integrating $1/x^2$ as $\\ln x$ or making sign errors in the $fraction$ evaluation.",
+      "explanation": "Integral is $[-1/x]_1^k = -1/k - (-1/1) = 1 - 1/k$. $1 - 1/k = 0.5 \\Rightarrow 1/k = 0.5 \\Rightarrow k = 2$.\n\n**Common mistake:** Integrating $1/x^2$ as $\\ln x$ or making sign errors in the $fraction$ evaluation.",
       "id": "15-8-15-9-definite-integration-hard-q5"
     }
   ]

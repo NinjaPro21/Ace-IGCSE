@@ -50,7 +50,7 @@
     {
       "id": "ch20-radioactivity-pyp-q4",
       "type": "mcq",
-      "question": "A student measures the radiation from an isotope for $20\\text{ minutes}$. The counter shows a total of $2800$ counts. If the background count is $25\\text{ counts/min}$, what is the count rate for the isotope alone?",
+      "question": "A student measures the radiation from an isotope for $20\\text{ minutes}$. The counter shows a total of^2800 counts. If the background count is $25\\text{ counts/min}$, what is the count rate for the isotope alone?",
       "options": [
         "$115\\text{ counts/min}$",
         "$140\\text{ counts/min}$",
@@ -141,7 +141,7 @@
     {
       "id": "ch20-radioactivity-pyp-q11",
       "type": "mcq",
-      "question": "The following equation represents radioactive decay:n\n\n$$\n^{227}{89}Ac rightarrow ^{227}{90}Th + Y\n$$nWhat does$Y$ represent?",
+      "question": "The following equation represents radioactive decay:n\n\n$$\n^{227}{89}Ac rightarrow ^{227}{90}Th + Y\n$$nWhat does Y represent?\n",
       "options": [
         "$beta$-particle",
         "$alpha$-particle",
@@ -167,7 +167,7 @@
     {
       "id": "ch20-radioactivity-pyp-q13",
       "type": "mcq",
-      "question": "According to the nuclide equation for the decay of Uranium-238, which particles are emitted?n\n\n$$\n^{238}{92}U rightarrow ^{234}_{90}Th + ...\n$$",
+      "question": "According to the nuclide equation for the decay of Uranium-238, which particles are emitted?n\n\n$$\n^{238}{92}U rightarrow ^{234}_{90}Th + ...\n",
       "options": [
         "$alpha$-particle and $gamma$-radiation",
         "$beta$-particle and $gamma$-radiation",
@@ -201,7 +201,7 @@
         "Row D"
       ],
       "correctIndex": 0,
-      "explanation": "In $alpha$-decay, the nucleus loses 2 protons and 2 neutrons ($^4_2He$), so $A$ drops by 4 and $Z$ drops by 2. \n\n**Common mistake:** Row B, which swaps the changes for nucleon and proton numbers."
+      "explanation": "In $alpha$-decay, the nucleus loses 2 protons and 2 neutrons ($^4_2He ), so A$ drops by 4 and $Z$ drops by 2. \n\n**Common mistake:** Row B, which swaps the changes for nucleon and proton numbers."
     },
     {
       "id": "ch20-radioactivity-pyp-q16",
@@ -214,7 +214,7 @@
         "$300\\text{ hours}$"
       ],
       "correctIndex": 0,
-      "explanation": "Looking at the graph, the initial count rate of $600$ falls to $300$ (half) at $t = 2\\text{ hours}$. This is the half-life.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Looking at the graph, the initial count rate of^600 falls to^300 (half) at $t = 2\\text{ hours}$. This is the half-life.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "ch20-radioactivity-pyp-q17",

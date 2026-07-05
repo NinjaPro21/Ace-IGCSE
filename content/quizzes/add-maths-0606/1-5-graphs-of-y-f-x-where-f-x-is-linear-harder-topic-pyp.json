@@ -3,7 +3,7 @@
   "topicId": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic",
   "chapterId": "ch01-functions",
   "difficulty": "pyp",
-  "title": "Graphs of $y = |f(x)|$ where $f(x)$ is Linear — PYP Mastery",
+  "title": "Graphs of $y = |f(x)| where f(x)$ is Linear - PYP Mastery",
   "passPercent": 70,
   "questionsPerAttempt": 5,
   "pending": false,
@@ -11,20 +11,20 @@
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "Sketch the graph of y=∣3x−9∣+2. State the coordinates of the vertex and the y-intercept.",
+      "question": "Sketch the graph of y=∣3x-9∣+2. State the coordinates of the vertex and the y-intercept.",
       "options": [
         "Vertex: (3,2),y-intercept: 11",
         "Vertex: (3,2),y-intercept: 9",
-        "Vertex: (−3,2),y-intercept: 11",
+        "Vertex: (-3,2),y-intercept: 11",
         "Vertex: (3,0),y-intercept: 9"
       ],
       "correctIndex": 0,
-      "explanation": "3x−9=0 \\implies x=3. Vertex is (3,2). x=0 \\implies y=∣−9∣+2=11.\n\n**Common mistake:** Misidentifying the vertex x-coordinate or forgetting to add the constant 2 to the intercept."
+      "explanation": "3x-9=0 \\implies x=3. Vertex is (3,2). x=0 \\implies y=∣-9∣+2=11.\n\n**Common mistake:** Misidentifying the vertex x-coordinate or forgetting to add the constant 2 to the intercept."
     },
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=∣2x−7∣ for the domain 0\nlex\nle6.",
+      "question": "Find the range of the function f(x)=∣2x-7∣ for the domain 0\nlex\nle6.",
       "options": [
         "0\nlef(x)\nle7",
         "5\nlef(x)\nle7",
@@ -37,7 +37,7 @@
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "The line y=x+1 intersects the graph of y=∣2x−5∣ at two points. Find the coordinates of these points.",
+      "question": "The line y=x+1 intersects the graph of y=∣2x-5∣ at two points. Find the coordinates of these points.",
       "options": [
         "(4,5) and (4/3,7/3)",
         "(4,5) only",
@@ -45,12 +45,12 @@
         "(4,0) and (1,0)"
       ],
       "correctIndex": 0,
-      "explanation": "2x−5=x+1 \\implies x=6,y=7 (Not an option?). Let's re-solve: ∣2x−5∣=x+1. 2x−5=x+1 \\implies x=6,y=7. −(2x−5)=x+1 \\implies 3x=4,x=4/3,y=7/3. Corrected stem logic: y=∣2x−5∣ and y=x+1 meet at (6,7) and (4/3,7/3). Adjusting options: (6,7) and (1.33,2.33). Choice 0 updated to (6,7) in intent.\n\n**Common mistake:** Algebraic errors in Case 2 or failing to provide full coordinates."
+      "explanation": "2x-5=x+1 \\implies x=6,y=7 (Not an option?). Let's re-solve: ∣2x-5∣=x+1. 2x-5=x+1 \\implies x=6,y=7. -(2x-5)=x+1 \\implies 3x=4,x=4/3,y=7/3. Corrected stem logic: y=∣2x-5∣ and y=x+1 meet at (6,7) and (4/3,7/3). Adjusting options: (6,7) and (1.33,2.33). Choice 0 updated to (6,7) in intent.\n\n**Common mistake:** Algebraic errors in Case 2 or failing to provide full coordinates."
     },
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "State the set of values of c for which the equation ∣x−4∣=c has no real solutions.",
+      "question": "State the set of values of c for which the equation ∣x-4∣=c has no real solutions.",
       "options": [
         "c<0",
         "c≤0",
@@ -63,15 +63,15 @@
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Hence find the coordinates of the points where the graph y=5−∣x+2∣ meets the axes.",
+      "question": "Hence find the coordinates of the points where the graph y=5-∣x+2∣ meets the axes.",
       "options": [
-        "(0,3),(3,0),(−7,0)",
+        "(0,3),(3,0),(-7,0)",
         "(0,5),(3,0)",
         "(0,3),(7,0)",
-        "(0,5),(−7,0)"
+        "(0,5),(-7,0)"
       ],
       "correctIndex": 0,
-      "explanation": "y-axis: x=0,y=5−2=3. x-axis: ∣x+2∣=5 \\implies x+2=5,−5. Points: 3,−7.\n\n**Common mistake:** Missing one of the x-intercepts or failing to take the modulus correctly for the y-intercept."
+      "explanation": "y-axis: x=0,y=5-2=3. x-axis: ∣x+2∣=5 \\implies x+2=5,-5. Points: 3,-7.\n\n**Common mistake:** Missing one of the x-intercepts or failing to take the modulus correctly for the y-intercept."
     }
   ]
 }

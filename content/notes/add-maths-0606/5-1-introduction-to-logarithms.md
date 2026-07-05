@@ -13,13 +13,19 @@ $$
 **Special values**
 
 $$
-\log_a a = 1, \qquad \log_a 1 = 0
+\log_a a = 1,
+$$
+
+$$
+\log_a 1 = 0
 $$
 
 ## Steps / method
 
 1. **Identify the parts** — recognise the base $a$, the exponent $x$, and the result $y$.
+
 2. **Rearrange** — swap between exponential and logarithmic form to isolate the unknown.
+
 3. **Evaluate** — use a calculator (base 10 or $e$) or mental math for simple powers.
 
 ### Key rule
@@ -28,7 +34,7 @@ The base must satisfy $a > 0$ and $a \neq 1$. You cannot take the logarithm of z
 
 ## Worked example — Converting and evaluating
 
-Question: Write $10^3 = 1000$ in logarithmic form and evaluate $\log_2 16$.
+Question: Write $10^{3} = 1000$ in logarithmic form and evaluate $\log_2 16$.
 
 Exponential to log: the base is 10 and the exponent is 3, so:
 

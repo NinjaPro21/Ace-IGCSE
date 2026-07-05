@@ -6,10 +6,11 @@ Quadratic inequalities ask for the range of $x$-values where a quadratic curve s
 
 $$
 ax^2 + bx + c > 0 \quad \text{or} \quad ax^2 + bx + c < 0
-
-\text{Critical values: } x_1, x_2 \quad (\text{where } x_1 < x_2)
 $$
 
+$$
+\text{Critical values: } x_1, x_2 \quad (\text{where } x_1 < x_2)
+$$
 
 ## Steps / method
 

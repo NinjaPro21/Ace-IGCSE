@@ -11,7 +11,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q1",
       "type": "mcq",
-      "question": "Evaluate the definite integral\nin $t^{1}$4\n\n3\\sqrtx\n\\\\\\\\,dx.",
+      "question": "Evaluate the definite integral\n$\\int_{1}^{4}$\n\n3\\sqrt{x}\n\\,dx.",
       "options": [
         "14",
         "12",
@@ -19,12 +19,12 @@
         "7"
       ],
       "correctIndex": 0,
-      "explanation": "The integral of 3x\n0.5\nis 2x\n1.5\n. Evaluating from 1 to 4: 2$(4^{1}$.5\n−2$(1^{1}$.5 \\neq 2(8)−2(1)=16−2=14.\n\n**Common mistake:** Option B occurs if a student integrates correctly but subtracts the lower limit incorrectly."
+      "explanation": "The integral of 3x\n0.5\nis 2x\n1.5^2 Evaluating from 1 to 4: 2$(4^{1}$.5\n-2$(1^{1}$.5 \\neq 2(8)-2(1)=16-2=14.\n\n**Common mistake:** Option B occurs if a student integrates correctly but subtracts the lower limit incorrectly."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q2",
       "type": "mcq",
-      "question": "Calculate the value of\nin _0^1\n\n(4$x^{3}$−1)\n\\\\\\\\,dx.",
+      "question": "Calculate the value of\n$\\int_0^{1}$\n\n(4$x^{3}$-1)\n\\,dx.",
       "options": [
         "0",
         "1",
@@ -32,12 +32,12 @@
         "3"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating term by term gives [$x^{4}$−x]\n$0^{1}$\n. Evaluating yields ($1^{4}$−1)−($0^{4}$−0)=0.\n\n**Common mistake:** Option B is chosen if the student only integrates the first term and ignores the −1."
+      "explanation": "Integrating term by term gives [$x^{4}$-x]\n$0^{1}$\n. Evaluating yields ($1^{4}$-1)-($0^{4}$-0)=0.\n\n**Common mistake:** Option B is chosen if the student only integrates the first term and ignores the -1."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q3",
       "type": "mcq",
-      "question": "Find the value of\nin $t^{2}$5\n$\\frac{1}{$x^{2}$}$\\\\\\\\,dx.",
+      "question": "Find the value of\n$\\int_{2}^{5}$\n$\\frac{1}{x^{2}}$\\,dx.",
       "options": [
         "0.3",
         "0.7",
@@ -45,12 +45,12 @@
         "1.5"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite as x\n−2\n. Integral is [−1/x]\n$2^{5}$\n=(−1/5)−(−1/2)=−0.2+0.5=0.3.\n\n**Common mistake:** Option C is a sign error common when subtracting negative $fractions.$"
+      "explanation": "Rewrite as x\n-2^2 Integral is [-1/x]\n$2^{5}$\n=(-1/5)-(-1/2)=-0.2+0.5=0.3.\n\n**Common mistake:** Option C is a sign error common when subtracting negative $fractions.$"
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q4",
       "type": "mcq",
-      "question": "Evaluate\nin $t^{1}$2\n\n6\n\\\\\\\\,dx.",
+      "question": "Evaluate\n$\\int_{1}^{2}$\n\n6\n\\,dx.",
       "options": [
         "6",
         "12",
@@ -58,12 +58,12 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "The integral of a constant k is kx. Thus, [6x]\n$1^{2}$\n=12−6=6.\n\n**Common mistake:** Option B is just the evaluation at the upper bound, neglecting to subtract the lower bound."
+      "explanation": "The integral of a constant k is kx. Thus, [6x]\n$1^{2}$\n=12-6=6.\n\n**Common mistake:** Option B is just the evaluation at the upper bound, neglecting to subtract the lower bound."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q5",
       "type": "mcq",
-      "question": "If\nin $t^{1}$e\n$\\frac{1}{x}$\n\\\\\\\\,dx.=k, state the value of k.",
+      "question": "If\n$\\int_{1}^{e}$\n$\\frac{1}{x}$\n\\,dx.=k, state the value of k.",
       "options": [
         "1",
         "e",
@@ -71,7 +71,7 @@
         "ln 1"
       ],
       "correctIndex": 0,
-      "explanation": "The integral of 1/x is\nln∣x∣. Evaluating from 1 to e gives\nlne−\nln1=1−0=1.\n\n**Common mistake:** Option B results if the student confuses the result of the integral with the upper limit variable."
+      "explanation": "The integral of 1/x is\nln∣x∣. Evaluating from 1 to e gives\nlne-\nln1=1-0=1.\n\n**Common mistake:** Option B results if the student confuses the result of the integral with the upper limit variable."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q6",
@@ -102,7 +102,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q8",
       "type": "mcq",
-      "question": "Calculate the area under $y = x$2$x = 0$ and $x = 4$.",
+      "question": "Calculate the area under $y = x$. So $x = 0$ and $x = 4$.",
       "options": [
         "8",
         "16",
@@ -115,7 +115,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q9",
       "type": "mcq",
-      "question": "If an integral $\\int_a^b f(x) \\\\\\\\\\,dx.$2$-15$, what is the geometric area of the region bounded by the curve and the x-axis?",
+      "question": "If an integral $\\int_a^b f(x) \\,dx.$. $-15$, what is the geometric area of the region bounded by the curve and the x-axis?",
       "options": [
         "15",
         "-15",
@@ -128,7 +128,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q10",
       "type": "mcq",
-      "question": "Find the area bounded by $y = e^x$2$x = 0$ and $x = 1$.",
+      "question": "Find the area bounded by $y = e^x$. So $x = 0$ and $x = 1$.",
       "options": [
         "e - 1",
         "e",
@@ -140,7 +140,7 @@
     },
     {
       "type": "mcq",
-      "question": "Find the area bounded by the curve $y = x^2$, the $x$2$x=0$ and $x=3$.",
+      "question": "Find the area bounded by the curve $y = x^2$, the $x$. So $x=0$ and $x=3$.",
       "options": [
         "9",
         "3",
@@ -153,7 +153,7 @@
     },
     {
       "type": "mcq",
-      "question": "Calculate the area of the region bounded by $y = 4$, the $x$2$x=1$, and $x=5$.",
+      "question": "Calculate the area of the region bounded by $y = 4$, the $x$. So $x=1$, and $x=5$.",
       "options": [
         "16",
         "20",
@@ -192,7 +192,7 @@
     },
     {
       "type": "mcq",
-      "question": "Evaluate the area under $y = e^x$2$x=0$ and $x=1$.",
+      "question": "Evaluate the area under $y = e^x$. So $x=0$ and $x=1$.",
       "options": [
         "e - 1",
         "e",
@@ -200,7 +200,7 @@
         "e + 1"
       ],
       "correctIndex": 0,
-      "explanation": "$\\int_0^1 e^x dx = [e^x]_0^1 = e^1 - e^0 = e - 1$.\n\n**Common mistake:** Thinking the integral evaluates to $e$2$e^0 = 1$.",
+      "explanation": "$\\int_0^1 e^x dx = [e^x]_0^1 = e^1 - e^0 = e - 1$.\n\n**Common mistake:** Thinking the integral evaluates to $e^2 So e^0 = 1$.",
       "id": "15-definite-integration-amp-area-under-a-curve-easy-q15"
     }
   ]

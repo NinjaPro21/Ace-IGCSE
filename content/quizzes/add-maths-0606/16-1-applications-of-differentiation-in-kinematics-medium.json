@@ -19,7 +19,7 @@
         "$18$ m/s^2"
       ],
       "correctIndex": 0,
-      "explanation": "$v = 3t^2 - 12 = 0 \\implies t = 2$. $a = \\frac{dv}{dt} = 6t$2$t = 2$, $a = 6(2) = 12$.\n\n**Common mistake:** Option B is the value of the acceleration at $t=1$ or just the coefficient $6t$ before substitution."
+      "explanation": "$v = 3t^2 - 12 = 0 \\implies t = 2$. $a = \\frac{dv}{dt} = 6t$. So $t = 2$, $a = 6(2) = 12$.\n\n**Common mistake:** Option B is the value of the acceleration at $t=1$ or just the coefficient $6t$ before substitution."
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-medium-q2",
@@ -28,20 +28,20 @@
       "options": [
         "$2e$",
         "$4e$",
-        "$2$",
+        "2",
         "$e$"
       ],
       "correctIndex": 0,
-      "explanation": "$v = \\frac{ds}{dt} = 4(0.5)e^{0.5t} = 2e^{0.5t}$. At $t = 2$, $v = 2e^1 = 2e$.\n\n**Common mistake:** Option B results from forgetting the $0.5$ multiplier from the chain rule derivative of the exponent."
+      "explanation": "$v = \\frac{ds}{dt} = 4(0.5)e^{0.5t} = 2e^{0.5t}$. At $t = 2$, $v = 2e^1 = 2e .$\n\n**Common mistake:** Option B results from forgetting the 0.5$multiplier from the chain rule derivative of the exponent.$"
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-medium-q3",
       "type": "mcq",
-      "question": "A particle $P$2$v = \\sin(2t)$. Find the acceleration when $t = \\frac{\\pi}{6}$.",
+      "question": "A particle $P$. So $v = \\sin(2t)$. Find the acceleration when $t = \\frac{\\pi}{6}$.",
       "options": [
         "$1$",
         "$\\sqrt{3}$",
-        "$2$",
+        "2",
         "$0.5$"
       ],
       "correctIndex": 0,
@@ -68,10 +68,10 @@
         "$1$ m/s",
         "$5$ m/s",
         "$0$ m/s",
-        "$2$ m/s"
+        "2 m/s"
       ],
       "correctIndex": 0,
-      "explanation": "$v = t^2 - 4t + 5$. To find min $v$2$\\frac{dv}{dt} = a = 2t - 4 = 0 \\implies t = 2$. $v(2) = 4 - 8 + 5 = 1$.\n\n**Common mistake:** Option B is the initial velocity at $t=0$."
+      "explanation": "$v = t^2 - 4t + 5$. To find min $v$. So $\\frac{dv}{dt} = a = 2t - 4 = 0 \\implies t = 2$. $v(2) = 4 - 8 + 5 = 1$.\n\n**Common mistake:** Option B is the initial velocity at $t=0$."
     }
   ]
 }

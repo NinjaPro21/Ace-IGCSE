@@ -45,7 +45,7 @@
         "$1/3$"
       ],
       "correctIndex": 0,
-      "explanation": "The probability of a tail is $1 - 2/3 = 1/3. The tosses are independent$2$2P(\\text{Tail and Tail}) = 1/3 \\times 1/3 = 1/9$.\n\n**Common mistake:** Multiplying the head probability ($2/3$) by the tail probability ($1/3$)."
+      "explanation": "The probability of a tail is $1 - 2/3 = 1/3. The tosses are independent$. $2P(\\text{Tail and Tail}) = 1/3 \\times 1/3 = 1/9$.\n\n**Common mistake:** Multiplying the head probability ($2/3$) by the tail probability ($1/3$)."
     },
     {
       "id": "14-1-14-3-probability-rules-pyp-q4",
@@ -71,7 +71,7 @@
         "$3/6$"
       ],
       "correctIndex": 0,
-      "explanation": "Every number in the set $A$2$2^2, 3^2, 4^2$). By definition, none of these are prime numbers. Thus, the probability is 0.\n\n**Common mistake:** Assuming 49 or 9 are prime because they are odd."
+      "explanation": "Every number in the set $A$. $2^2, 3^2, 4^2$). By definition, none of these are prime numbers. Thus, the probability is 0.\n\n**Common mistake:** Assuming 49 or 9 are prime because they are odd."
     }
   ]
 }
