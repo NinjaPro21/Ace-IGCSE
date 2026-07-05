@@ -1,11 +1,11 @@
-﻿{
+{
   "name": "project-enlight",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run validate:math && tsc -b && vite build",
+    "build": "npm run content:qa && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "import:0606": "node scripts/import-add-maths-0606.mjs",
@@ -14,6 +14,7 @@
     "quiz:wire": "node scripts/wire-topic-quizzes.mjs",
     "quiz:sync-legacy": "tsx scripts/sync-legacy-topic-quizzes.mjs",
     "quiz:repair": "tsx scripts/repair-quiz-corruption.mjs",
+    "quiz:repair:all": "tsx scripts/repair-all-quizzes.mjs",
     "quiz:reimport": "node scripts/reimportTopicQuizzes.mjs",
     "quiz:reimport:0580": "node scripts/reimport-maths-quizzes.mjs",
     "quiz:variants": "node scripts/generateQuizVariants.mjs",
@@ -22,6 +23,7 @@
     "notes:polish-maths": "node scripts/polish-maths-notes.mjs",
     "notes:fix-physics-structure": "node scripts/fix-physics-import-structure.mjs",
     "audit:content": "node scripts/audit-notes.mjs",
+    "content:qa": "node scripts/content-qa.mjs",
     "notes:fix-latex:0580": "node scripts/fix-all-note-latex.mjs maths-0580 && node scripts/fix-maths-note-typos.mjs",
     "notes:clean-prose": "node scripts/clean-note-prose.mjs all",
     "fix:math": "tsx scripts/fix-all-content-math.mjs",
@@ -38,7 +40,7 @@
     "firebase:reset": "node scripts/reset-platform-data.mjs",
     "admin:reset-launch": "node scripts/admin-reset-launch.mjs",
     "admin:reset-all-launch": "tsx scripts/reset-all-launch.ts",
-    "predeploy:hosting": "npm run quiz:validate"
+    "predeploy:hosting": "npm run content:qa"
   },
   "dependencies": {
     "firebase": "^11.10.0",
