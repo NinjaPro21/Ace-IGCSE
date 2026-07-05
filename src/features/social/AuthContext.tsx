@@ -12,8 +12,10 @@ import type { User } from 'firebase/auth'
 import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut as firebaseSignOut } from 'firebase/auth'
 import { masteryEngine } from '@/features/mastery/MasteryEngine'
 import { trackSignIn } from '@/lib/analytics'
+import { friendlyErrorMessage } from '@/lib/firebaseErrors'
 import { checkIsAdmin } from '@/lib/admin'
 import { auth, isFirebaseConfigured } from '@/lib/firebase'
+import { clearPresence } from '@/features/social/presenceApi'
 import {
   cloudRowToUserProgress,
   createGroup,
@@ -27,6 +29,7 @@ import {
   leaveSchool,
   mergeUserProgress,
   rowToAuthUser,
+  syncLeaderboardFromProfile,
   upsertProfile,
 } from './socialApi'
 import { socialStore } from './socialStore'
@@ -37,6 +40,7 @@ import type { LeaderboardMetric, LeaderboardPeriod } from './leaderboardUtils'
 interface AuthContextValue {
   isConfigured: boolean
   loading: boolean
+  profileHydrated: boolean
   user: AuthUser | null
   school: SchoolGroup | null
   clans: SchoolGroup[]
@@ -114,6 +118,7 @@ async function processPendingGroup(userId: string): Promise<{ school: SchoolGrou
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(isFirebaseConfigured)
+  const [profileHydrated, setProfileHydrated] = useState(!isFirebaseConfigured)
   const [user, setUser] = useState<AuthUser | null>(null)
   const [school, setSchool] = useState<SchoolGroup | null>(null)
   const [clans, setClans] = useState<SchoolGroup[]>([])
@@ -178,9 +183,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         displayName: user.displayName,
         avatarUrl: user.avatarUrl,
       })
-      await refreshLeaderboard()
+      try {
+        await refreshLeaderboard()
+      } catch {
+        // Leaderboard reads may fail under strict profile rules — progress still saved.
+      }
     } catch (err) {
-      setSyncError(err instanceof Error ? err.message : 'Sync failed')
+      setSyncError(friendlyErrorMessage(err, 'Sync failed'))
     }
   }, [user, refreshLeaderboard])
 
@@ -192,13 +201,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const hydrateSession = useCallback(
     async (firebaseUser: User) => {
+      setProfileHydrated(false)
+      try {
       const authUser = firebaseUserToAuthUser(firebaseUser)
-      void resolveAdmin(firebaseUser.uid, authUser.email)
-      const row = await fetchProfile(firebaseUser.uid)
+      const uid = firebaseUser.uid
+      void resolveAdmin(uid, authUser.email)
+
+      const local = masteryEngine.getState()
+      if (local.ownerUserId && local.ownerUserId !== uid) {
+        masteryEngine.clearLocalState()
+      }
+
+      const row = await fetchProfile(uid)
 
       if (row) {
         const remote = cloudRowToUserProgress(row)
-        const merged = mergeUserProgress(masteryEngine.getState(), remote)
+        const merged = mergeUserProgress(masteryEngine.getState(), remote, uid)
         masteryEngine.replaceState(merged)
         masteryEngine.notify()
         setUser(rowToAuthUser(row))
@@ -226,14 +244,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setSchool(schoolGroup)
         setClans(clanGroups)
 
+        void syncLeaderboardFromProfile(uid)
+
         if (schoolGroup) {
           void refreshLeaderboardFor(schoolGroup.id, 'school', firebaseUser.uid)
         } else if (clanGroups[0]) {
           void refreshLeaderboardFor(clanGroups[0].id, 'clan', firebaseUser.uid)
         }
       } else {
+        masteryEngine.bindOwnerUserId(uid)
         setUser(authUser)
-        await upsertProfile(firebaseUser.uid, masteryEngine.getState(), {
+        await upsertProfile(uid, masteryEngine.getState(), {
           email: authUser.email,
           displayName: authUser.displayName,
           avatarUrl: authUser.avatarUrl,
@@ -247,6 +268,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         } else if (clanGroups[0]) {
           void refreshLeaderboardFor(clanGroups[0].id, 'clan', firebaseUser.uid)
         }
+      }
+      } finally {
+        setProfileHydrated(true)
       }
     },
     [refreshLeaderboardFor, resolveAdmin],
@@ -272,6 +296,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setLeaderboardGroupId(null)
         setIsAdmin(false)
         setAdminChecked(true)
+        setProfileHydrated(true)
         setLoading(false)
       }
     })
@@ -311,19 +336,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       await signInWithPopup(auth, provider)
       trackSignIn('google')
     } catch (err) {
-      setSyncError(err instanceof Error ? err.message : 'Sign-in failed')
+      setSyncError(friendlyErrorMessage(err, 'Sign-in failed'))
     }
   }, [])
 
   const signOut = useCallback(async () => {
     if (!auth) return
+    const uid = user?.id
+    if (uid) await clearPresence(uid)
+    masteryEngine.clearLocalState()
+    socialStore.clearAll()
     await firebaseSignOut(auth)
     setUser(null)
     setSchool(null)
     setClans([])
     setLeaderboard([])
     setLeaderboardGroupId(null)
-  }, [])
+    setIsAdmin(false)
+    setAdminChecked(true)
+  }, [user?.id])
 
   const queueCreateClan = useCallback((name: string) => {
     const code = generateInviteCode('clan')
@@ -462,6 +493,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     () => ({
       isConfigured: isFirebaseConfigured,
       loading,
+      profileHydrated,
       user,
       school,
       clans,
@@ -494,6 +526,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }),
     [
       loading,
+      profileHydrated,
       user,
       school,
       clans,
