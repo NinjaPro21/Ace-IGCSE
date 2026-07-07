@@ -25,6 +25,7 @@ import { OPTION_LETTERS, computeQuizScorePercent, prepareQuizSession } from './q
 import { getConceptKey, getConceptLabel } from './quizConceptKey'
 import { QuizMistakeLog } from './QuizMistakeLog'
 import { QuizAcademicProgress } from './QuizAcademicProgress'
+import { confirmQuizExit, useQuizExitGuard } from './useQuizExitGuard'
 import type { QuizMistakeLogResult } from './quizAttemptTypes'
 import { trackEnlightEvent } from '@/lib/eventTracking'
 
@@ -119,6 +120,7 @@ export function QuizArena() {
   const [duel, setDuel] = useState<Duel | null>(null)
   const [duelSubmitState, setDuelSubmitState] = useState<'idle' | 'saving' | 'done' | 'error'>('idle')
   const [duelLoading, setDuelLoading] = useState(Boolean(duelId))
+  const [exitConfirmOpen, setExitConfirmOpen] = useState(false)
   const quizStartRef = useRef(Date.now())
   const quizStartedTrackedRef = useRef(false)
   const sessionMistakesRef = useRef<
@@ -154,6 +156,13 @@ export function QuizArena() {
         : [],
     [activeQuestions, quiz, shuffleKey],
   )
+
+  const quizInProgress = Boolean(quiz && !finished && !quizLoading && questions.length > 0)
+  useQuizExitGuard(quizInProgress)
+
+  const requestQuizExit = () => {
+    if (confirmQuizExit()) navigate(-1)
+  }
 
   const resetKey = useRef(`${isTopicQuiz ? topicId : chapterId}-${difficulty}`)
   const resetQuizAttempt = (reshuffle = false) => {
@@ -644,13 +653,29 @@ export function QuizArena() {
           </div>
         )}
         <div className="enlight-quiz__exit">
-          <button
-            type="button"
-            className="enlight-header__link"
-            onClick={() => navigate(-1)}
-          >
-            ← Exit quiz
-          </button>
+          {exitConfirmOpen ? (
+            <span className="enlight-inline-confirm" role="group" aria-label="Confirm exit quiz">
+              <span className="enlight-inline-confirm__prompt">Leave quiz? Progress won&apos;t be saved.</span>
+              <button type="button" className="enlight-inline-confirm__yes" onClick={requestQuizExit}>
+                Yes, leave
+              </button>
+              <button
+                type="button"
+                className="enlight-inline-confirm__cancel"
+                onClick={() => setExitConfirmOpen(false)}
+              >
+                Stay
+              </button>
+            </span>
+          ) : (
+            <button
+              type="button"
+              className="enlight-header__link"
+              onClick={() => setExitConfirmOpen(true)}
+            >
+              ← Exit quiz
+            </button>
+          )}
         </div>
       </div>
     </div>
