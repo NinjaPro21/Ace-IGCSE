@@ -13,10 +13,10 @@
       "type": "mcq",
       "question": "The function f is defined by f(x)=2$x^{2}$-12x+7 for $x \\in \\mathbb{R}$. Find the set of values of the range of f.",
       "options": [
-        "f(x)≥-11",
-        "f(x)≥7",
-        "f(x)≥3",
-        "f(x)≤-11"
+        "$f(x) \\ge -11$",
+        "$f(x) \\ge 7$",
+        "$f(x) \\ge 3$",
+        "$f(x) \\le -11$"
       ],
       "correctIndex": 0,
       "explanation": "Complete the square: 2($x^{2}$-6x)+7=2[$(x-3)^{2}$-9]+7=2$(x-3)^{2}$-11. Minimum value is -11.\n\n**Common mistake:** Forgetting to multiply the squared constant by the leading coefficient when completing the square."
@@ -24,20 +24,20 @@
     {
       "id": "1-2-definition-of-a-function-pyp-q2",
       "type": "mcq",
-      "question": "A function g is defined by $g: x \\mapsto \\frac{15}{2x-5}$ for x \\neq 2.5. Find the value of x for which g(x)=x.",
+      "question": "A function $g$ is defined by $g: x \\mapsto \\frac{6}{x+1}$ for $x \\neq -1$. Find the value of $x$ for which $g(x)=x$.",
       "options": [
-        "x=5 and x=-1.5",
-        "x=3 and x=-2.5",
-        "x=5 only",
-        "x=7.5 and x=-2"
+        "$x=2$ and $x=-3$",
+        "$x=3$ and $x=-2.5$",
+        "$x=2$ only",
+        "$x=7.5$ and $x=-2$"
       ],
       "correctIndex": 0,
-      "explanation": "$15=x(2x-5)$ \\implies 2$x^{2}-5x-15=0. Using formula: x=(5±\\sqrt{145})/4. Adjusting numbers for clean solve: g(x)= \\frac{1}{2x-1}$. $2x^{2}$-x-12=0 \\implies (x-4)(x+3)=0. Final PYP Choice: x=5,-1.5.\n\n**Common mistake:** Arithmetic slips in solving the resulting quadratic equation or failing to recognize both potential roots."
+      "explanation": "Set $\\frac{6}{x+1}=x$, so $6=x(x+1)=x^{2}+x$. Rearranging gives $x^{2}+x-6=0$, hence $(x+3)(x-2)=0$ and $x=2$ or $x=-3$.\n\n**Common mistake:** Arithmetic slips in solving the resulting quadratic equation or failing to recognise both potential roots."
     },
     {
       "id": "1-2-definition-of-a-function-pyp-q3",
       "type": "mcq",
-      "question": "Explain why the mapping $f: x \\mapsto \\sqrt{x}-5 is not a function if the domain is x∈R$.",
+      "question": "Explain why the mapping $f: x \\mapsto \\sqrt{x-5}$ is not a function if the domain is $x \\in \\mathbb{R}$.",
       "options": [
         "Inputs less than 5 have no real images.",
         "It is a many-to-one mapping.",
@@ -45,12 +45,12 @@
         "The graph fails the horizontal line test."
       ],
       "correctIndex": 0,
-      "explanation": "For a mapping to be a function, every element in the domain must have an image. If x<5,\\sqrt{x}-5 is not a real number.\n\n**Common mistake:** Confusing the requirement for a function (every input has an output) with the requirement for an inverse (one-to-one)."
+      "explanation": "For a mapping to be a function, every element in the domain must have an image. If $x < 5$, then $\\sqrt{x-5}$ is not a real number.\n\n**Common mistake:** Confusing the requirement for a function (every input has an output) with the requirement for an inverse (one-to-one)."
     },
     {
       "id": "1-2-definition-of-a-function-pyp-q4",
       "type": "mcq",
-      "question": "Find the value of the constant c such that the range of f(x)=3x+c for 0≤x≤4 is 10≤f(x)≤22.",
+      "question": "Find the value of the constant $c$ such that the range of $f(x)=3x+c$ for $0 \\le x \\le 4$ is $10 \\le f(x) \\le 22$.",
       "options": [
         "10",
         "22",
@@ -63,15 +63,15 @@
     {
       "id": "1-2-definition-of-a-function-pyp-q5",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=5-2x. Find the value of a such that f($a^{2}$)=f(a)-10.",
+      "question": "The function $f$ is defined by $f(x)=5-2x$. Find the value of $a$ such that $f(a^{2})=f(a)-12$.",
       "options": [
-        "a=3 and a=-2",
-        "a=5 only",
-        "a=2 and a=-3",
-        "a=1 and a=4"
+        "$a=3$ and $a=-2$",
+        "$a=5$ only",
+        "$a=2$ and $a=-3$",
+        "$a=1$ and $a=4$"
       ],
       "correctIndex": 0,
-      "explanation": "5-2$a^{2}$=(5-2a)-10 \\implies 5-2$a^{2}$=-2a-5 \\implies 2$a^{2}$-2a-10=0. Adjusting for clean roots: 5-2$a^{2}$=5-2a-12 \\implies 2$a^{2}$-2a-12=0 \\implies $a^{2}$-a-6=0 \\implies a=3,-2.\n\n**Common mistake:** Failing to correctly substitute $a^{2}$into the function, often treating it as [f(a)]\n2\ninstead."
+      "explanation": "$5-2a^{2}=(5-2a)-12$, so $5-2a^{2}=-2a-7$. Rearranging gives $2a^{2}-2a-12=0$, hence $a^{2}-a-6=0$ and $a=3$ or $a=-2$.\n\n**Common mistake:** Failing to correctly substitute $a^{2}$ into the function, often treating it as $[f(a)]^{2}$ instead."
     }
   ]
 }

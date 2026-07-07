@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { useBlocker } from 'react-router'
 
 const LEAVE_MESSAGE =
   'Leave this quiz? Your current attempt will not be saved and will not count as a pass or fail.'
@@ -8,16 +7,11 @@ export function confirmQuizExit(): boolean {
   return window.confirm(LEAVE_MESSAGE)
 }
 
-/** Warn on in-app navigation, tab close, and browser back during an active quiz. */
+/**
+ * Warn on tab close and browser back during an active quiz.
+ * (In-app route changes use the Exit button confirmation — useBlocker needs a data router.)
+ */
 export function useQuizExitGuard(active: boolean): void {
-  const blocker = useBlocker(active)
-
-  useEffect(() => {
-    if (blocker.state !== 'blocked') return
-    if (confirmQuizExit()) blocker.proceed()
-    else blocker.reset()
-  }, [blocker, blocker.state])
-
   useEffect(() => {
     if (!active) return
 

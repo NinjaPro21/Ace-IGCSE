@@ -23,6 +23,7 @@
     "notes:polish-maths": "node scripts/polish-maths-notes.mjs",
     "notes:fix-physics-structure": "node scripts/fix-physics-import-structure.mjs",
     "audit:content": "node scripts/audit-notes.mjs",
+    "audit:quizzes": "node scripts/audit-quiz-content.mjs",
     "content:qa": "node scripts/content-qa.mjs",
     "notes:fix-latex:0580": "node scripts/fix-all-note-latex.mjs maths-0580 && node scripts/fix-maths-note-typos.mjs",
     "notes:clean-prose": "node scripts/clean-note-prose.mjs all",

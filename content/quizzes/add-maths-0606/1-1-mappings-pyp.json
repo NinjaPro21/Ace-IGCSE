@@ -24,7 +24,7 @@
     {
       "id": "1-1-mappings-pyp-q2",
       "type": "mcq",
-      "question": "State the type of mapping for $f: x \\mapsto 5-∣x-2∣$ with the domain 0≤x≤4.",
+      "question": "State the type of mapping for $f: x \\mapsto 5-|x-2|$ with the domain $0 \\le x \\le 4$.",
       "options": [
         "Many-to-one",
         "One-to-one",
@@ -37,12 +37,12 @@
     {
       "id": "1-1-mappings-pyp-q3",
       "type": "mcq",
-      "question": "The mapping $g: x \\mapsto x^{2}$ -4x+7 has domain x∈R. Find the set of values of the range.",
+      "question": "The mapping $g: x \\mapsto x^{2} - 4x + 7$ has domain $x \\in \\mathbb{R}$. Find the set of values of the range.",
       "options": [
-        "y≥3",
-        "y≥7",
-        "y≥4",
-        "y∈R"
+        "$y \\ge 3$",
+        "$y \\ge 7$",
+        "$y \\ge 4$",
+        "$y \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
       "explanation": "Complete the square: $(x-2)^{2}$+3. The minimum value is 3, so the range is y≥3.\n\n**Common mistake:** Identifying the y-intercept (7) as the minimum value of the range instead of the vertex."
@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "Given the domain $x > 0$, state the range of the mapping $x \\mapsto 5 + \\frac{2}{x}$.",
       "options": [
-        "y>5",
-        "y<5",
-        "y≥5",
-        "y \\neq 5"
+        "$y > 5$",
+        "$y < 5$",
+        "$y \\ge 5$",
+        "$y \\neq 5$"
       ],
       "correctIndex": 0,
       "explanation": "As x is positive and increases, 2/x decreases towards 0. Thus 5+2/x is always greater than 5.\n\n**Common mistake:** Ignoring the 'x > 0' constraint and assuming the range is all real numbers except 5 (y \\neq 5)."

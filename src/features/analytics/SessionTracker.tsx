@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useAuth } from '@/features/social/AuthContext'
-import { trackEnlightEvent } from '@/lib/eventTracking'
+import { trackEnlightEvent } from '@/lib/enlightEvents'
 
 export function SessionTracker() {
   const { user } = useAuth()

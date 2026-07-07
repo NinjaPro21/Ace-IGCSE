@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useAuth } from '@/features/social/AuthContext'
-import { trackEnlightEvent } from '@/lib/eventTracking'
+import { trackEnlightEvent } from '@/lib/enlightEvents'
 
 interface ChapterFeedbackProps {
   chapterId: string

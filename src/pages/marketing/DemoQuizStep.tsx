@@ -130,9 +130,9 @@ export function DemoQuizStep({ onBack, onNext }: DemoQuizStepProps) {
                 <span>Maths 0580 · Easy</span>
                 <span className="enlight-tour-mock-quiz__badge">Live preview</span>
               </div>
-              <p className="enlight-tour-mock-quiz__q">
+              <div className="enlight-tour-mock-quiz__q">
                 <MathText content={previewQ.question} />
-              </p>
+              </div>
               <div className="enlight-tour-mock-quiz__opts">
                 {previewQ.options.slice(0, 4).map((opt, i) => (
                   <div

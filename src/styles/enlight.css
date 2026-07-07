@@ -13149,6 +13149,26 @@ button.enlight-showcase-lesson-features__chip:hover {
   font-size: 0.95rem;
 }
 
+.enlight-error-boundary {
+  max-width: 32rem;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.enlight-error-boundary h1 {
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.enlight-error-boundary__detail {
+  font-family: var(--enlight-font-mono, monospace);
+  font-size: 0.85rem;
+  color: var(--enlight-text-muted, #666);
+  margin: 1rem 0 1.5rem;
+  word-break: break-word;
+}
+
 /* Legacy subject cards (kept for compatibility) */
 .enlight-tour-subject {
   padding: 24px;

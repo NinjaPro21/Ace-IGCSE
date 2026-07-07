@@ -11,7 +11,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "The function f is defined by f(x)= \\frac{5}{x-2+4} for x \\neq 2. Find an expression for $f^{-1}(x).$",
+      "question": "The function $f$ is defined by $f(x)=\\frac{5}{x-2}+4$ for $x \\neq 2$. Find an expression for $f^{-1}(x)$.",
       "options": [
         "$f^{-1}(x)= \\frac{5}{x-4+2}$",
         "$f^{-1}(x)= \\frac{5}{x+4-2}$",
@@ -24,15 +24,15 @@
     {
       "id": "1-6-inverse-functions-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "The function g is defined by g(x)= x^{2}-6x+11 for x≥3. Find the value of g\n-1\n(6).",
+      "question": "The function $g$ is defined by $g(x)=x^{2}-6x+11$ for $x \\ge 3$. Find $g^{-1}(6)$.",
       "options": [
-        "3+\\sqrt{5}",
-        "3-\\sqrt{5}",
-        "11",
-        "2.5"
+        "5",
+        "$3+\\sqrt{5}$",
+        "1",
+        "11"
       ],
       "correctIndex": 0,
-      "explanation": "Set $x^{2}$-6x+11=6 \\implies $x^{2}$-6x+5=0 \\implies (x-5)(x-1)=0. Since domain is x≥3, the answer is x=5. Adjusting for radical choice: $x^{2}$-6x+11=16 \\implies $(x-3)^{2}$+2=16 \\implies $(x-3)^{2}$=14. Wait, using completion: $(x-3)^{2}$+2=6 \\implies $(x-3)^{2}$=4 \\implies x-3=2 \\implies x=5. Correct choice: 5. Let's use g\n-1\n(11)=6: $x^{2}$-6x+11=11 \\implies x=6. Let's use g\n-1\n(6) with g(x)= (x-3)^{2}+1. $(x-3)^{2}$+1=6 \\implies x=3+\\sqrt{5}.\n\n**Common mistake:** Failing to restrict the answer based on the domain of the original function."
+      "explanation": "Set $g(x)=6$. Completing the square: $(x-3)^{2}+2=6 \\implies (x-3)^{2}=4 \\implies x=5$ or $x=1$. Since $x \\ge 3$, $g^{-1}(6)=5$.\n\n**Common mistake:** Failing to restrict the answer using the domain of $g$."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-pyp-q3",
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "The function f is such that f(x)= \\frac{1}{2x+2} for x>0. Find the range of $f^{-1}$.",
       "options": [
-        "y>0",
-        "0<y<6",
-        "y>6",
-        "y∈R"
+        "$y>0$",
+        "$0<y<\\frac{1}{2}$",
+        "$y>\\frac{1}{2}$",
+        "$y \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
-      "explanation": "The range of $f^{-1}$ is the domain of f. Since the domain of f is x>0, the range of $f^{-1}$ is y>0.\n\n**Common mistake:** Calculating the range of f (which is 0<y<6) and confusing it with the range of the inverse."
+      "explanation": "The range of $f^{-1}$ is the domain of $f$, so the range is $y>0$.\n\n**Common mistake:** Calculating the range of $f$ (which is $0<y<\\frac{1}{2}$) and confusing it with the range of the inverse."
     }
   ]
 }

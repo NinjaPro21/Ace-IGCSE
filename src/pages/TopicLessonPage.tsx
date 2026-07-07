@@ -29,7 +29,7 @@ import type { Difficulty } from '@/lib/contentTypes'
 import { ChapterFeedback } from '@/components/ChapterFeedback'
 import { extractKeyFormula, extractQuickCheck } from '@/lib/noteSidebar'
 import { isRedundantSectionSubtitle } from '@/lib/mathMarkdown'
-import { trackEnlightEvent } from '@/lib/eventTracking'
+import { trackEnlightEvent } from '@/lib/enlightEvents'
 
 const FONT_STEPS = [0.85, 1.0, 1.15, 1.3]
 

@@ -17,11 +17,14 @@ import { OnboardingModal } from '@/features/onboarding/OnboardingModal'
 import { AppTour } from '@/features/onboarding/AppTour'
 import { SignedInPresence } from '@/features/social/SignedInPresence'
 import { SocialInboxProvider } from '@/features/social/SocialInboxProvider'
-import { QuizArena } from '@/features/quiz/QuizArena'
 import { getTopicsForChapter } from '@/lib/contentLoader'
 
 import { MarketingLayout } from '@/pages/marketing/MarketingLayout'
 import { MarketingHomePage } from '@/pages/marketing/MarketingHomePage'
+
+const QuizArena = lazy(() =>
+  import('@/features/quiz/QuizArena').then((m) => ({ default: m.QuizArena })),
+)
 
 const ProgressLayout = lazy(() =>
   import('@/pages/progress/ProgressLayout').then((m) => ({ default: m.ProgressLayout })),

@@ -37,15 +37,15 @@
     {
       "id": "1-4-modulus-functions-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=15-∣2x-4∣ for the domain 0\nlex\nle5.",
+      "question": "Find the range of the function $f(x)=15-|2x-4|$ for the domain $0 \\le x \\le 5$.",
       "options": [
-        "9\nlef(x)\nle15",
-        "11\nlef(x)\nle15",
-        "0\nlef(x)\nle15",
-        "9\nlef(x)\nle11"
+        "$9 \\le f(x) \\le 15$",
+        "$11 \\le f(x) \\le 15$",
+        "$0 \\le f(x) \\le 15$",
+        "$9 \\le f(x) \\le 11$"
       ],
       "correctIndex": 0,
-      "explanation": "At x=0,y=11. At x=5,y=9. The max occurs at the vertex x=2, where y=15-0=15. The range is from min (9) to max (15).\n\n**Common mistake:** Only checking the endpoints (0 and 5) and concluding the range is 9\nley\nle11, missing the peak at the vertex."
+      "explanation": "At $x=0$, $f(0)=11$. At $x=5$, $f(5)=9$. The maximum occurs at the vertex $x=2$, where $f(2)=15$. The range is $9 \\le f(x) \\le 15$.\n\n**Common mistake:** Only checking the endpoints ($0$ and $5$) and concluding the range is $9 \\le y \\le 11$, missing the peak at the vertex."
     },
     {
       "id": "1-4-modulus-functions-harder-topic-hard-q4",

@@ -27,7 +27,7 @@ import { QuizMistakeLog } from './QuizMistakeLog'
 import { QuizAcademicProgress } from './QuizAcademicProgress'
 import { confirmQuizExit, useQuizExitGuard } from './useQuizExitGuard'
 import type { QuizMistakeLogResult } from './quizAttemptTypes'
-import { trackEnlightEvent } from '@/lib/eventTracking'
+import { trackEnlightEvent } from '@/lib/enlightEvents'
 
 const DIFF_LABEL: Record<Difficulty, string> = {
   easy: 'Easy',

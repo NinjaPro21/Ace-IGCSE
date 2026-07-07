@@ -24,7 +24,7 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "A function f(x)=2x-6 and its inverse $f^{-1}(x) are plotted. Calculate the coordinates of their point of intersection.$",
+      "question": "A function $f(x)=2x-6$ and its inverse $f^{-1}(x)$ are plotted. Calculate the coordinates of their point of intersection.",
       "options": [
         "(6,6)",
         "(3,3)",
@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "The graph of y=f(x) has a domain of x≥0 and a range of y≥3. Describe the domain and range of the reflected graph y= f^{-1}(x).",
       "options": [
-        "Domain x≥3, Range y≥0",
-        "Domain x≥0, Range y≥3",
-        "Domain x≤0, Range y≤3",
-        "Domain x≥3, Range y≥3"
+        "Domain $x \\ge 3$, Range $y \\ge 0$",
+        "Domain $x \\ge 0$, Range $y \\ge 3$",
+        "Domain $x \\le 0$, Range $y \\le 3$",
+        "Domain $x \\ge 3$, Range $y \\ge 3$"
       ],
       "correctIndex": 0,
       "explanation": "The reflection swaps domain and range: the original domain becomes the new range, and the original range becomes the new domain.\n\n**Common mistake:** Failing to swap the restrictions, leading to incorrect domain and range for the inverse function."

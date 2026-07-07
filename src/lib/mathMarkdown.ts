@@ -773,9 +773,42 @@ export function fixBrokenMappingNotation(text: string): string {
   return t
 }
 
+/** Close inline math before English prose glued after a mapping/fraction (docx import). */
+function fixProseTrappedInInlineMath(text: string): string {
+  let t = text
+
+  // $x \mapsto \frac{a}{b} for the domain ... range.$
+  t = t.replace(
+    /\$((?:[a-zA-Z]:?\s?)?[a-zA-Z]?\s*\\mapsto\s*\\frac\{[^}]+\}\{[^}]+\})\s+(for the domain\s+[^.$]+)\.\s*(Find[^$]+)\.\$/gi,
+    (_, map, domain, rest) => `$${map}$ ${domain.trim()}. ${rest.trim()}.`,
+  )
+  t = t.replace(
+    /\$((?:[a-zA-Z]:?\s?)?[a-zA-Z]?\s*\\mapsto\s*\\frac\{[^}]+\}\{[^}]+\})\s+(for the domain\s+[^$]+)\$/gi,
+    (_, map, domain) => `$${map}$ ${domain.trim()}`,
+  )
+
+  // Trailing orphan $ before ? or .
+  t = t.replace(/\$([?.!])$/g, '$1')
+  t = t.replace(/(\?)\$$/g, '$1')
+
+  return t
+}
+
+/** Wrap quiz options that use LaTeX symbols but no $ delimiters. */
+function wrapBareQuizMathSymbols(text: string): string {
+  const trimmed = text.trim()
+  if (!trimmed || trimmed.includes('$')) return text
+  if (/\\(neq|in|mathbb|le|ge|leq|geq)|[≤≥]|y\s*[<>]|x\s*[<>]/i.test(trimmed)) {
+    return `$${trimmed}$`
+  }
+  return text
+}
+
 /** Fix LaTeX in quiz strings (double-escaped commands, unicode surds). */
 export function fixQuizLatexText(raw: string): string {
   let text = decodeHTMLEntities(stripInvisibleChars(raw))
+  text = fixProseTrappedInInlineMath(text)
+  text = wrapBareQuizMathSymbols(text)
   text = fixBrokenMappingNotation(text)
   text = fixDollarTwoPlaceholder(text)
   text = fixBrokenMappingNotation(text)
@@ -792,6 +825,7 @@ export function fixQuizLatexText(raw: string): string {
   text = text.replace(/\\+\s*$/g, '')
   text = text.replace(/\\text\{([^}]*)\^(\d+)\}/g, '\\text{$1}^{$2}')
   text = normalizeMathMarkdown(text)
+  text = fixProseTrappedInInlineMath(text)
   text = fixBrokenMappingNotation(text)
   return repairMathMarkdown(text)
 }

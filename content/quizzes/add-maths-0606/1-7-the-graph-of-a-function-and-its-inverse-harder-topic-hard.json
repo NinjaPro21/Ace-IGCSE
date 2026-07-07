@@ -11,15 +11,15 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "The graph of y=f(x) is a portion of a circle $(x-5)^{2}$+$y^{2}$=25 for x≥5,y≥0. Determine the coordinates of the point where f and $f^{-1}$intersect.",
+      "question": "The graph of $y=f(x)$ is a portion of the circle $(x-5)^{2}+y^{2}=25$ for $x \\ge 5$, $y \\ge 0$. Determine the coordinates of the point where $f$ and $f^{-1}$ intersect.",
       "options": [
-        "(5+\\sqrt{12}.5,5+\\sqrt{12}.5)",
-        "(5,5)",
-        "(10,10)",
-        "(0,0)"
+        "$(5,5)$",
+        "$(5+\\sqrt{12.5},\\,5+\\sqrt{12.5})$",
+        "$(10,10)$",
+        "$(0,0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $(x-5)^{2}$+$x^{2}$=25 \\implies $x^{2}$-10x+25+$x^{2}$=25 \\implies 2$x^{2}$-10x=0 \\implies 2x(x-5)=0. Solutions x=0,5. Since domain is x≥5, point is (5,5).\n\n**Common mistake:** Failing to check the domain restriction and picking (0,0) or (10,10) from an incomplete calculation."
+      "explanation": "Intersection points lie on $y=x$. Substitute into the circle: $(x-5)^{2}+x^{2}=25 \\implies 2x^{2}-10x=0 \\implies x=0$ or $x=5$. Since $x \\ge 5$, the intersection is $(5,5)$.\n\n**Common mistake:** Failing to check the domain restriction and picking $(0,0)$ or $(10,10)$."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q2",
@@ -50,7 +50,7 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Sketch y=f(x) and y= f^{-1}(x) for f(x)=e^x^2 Describe the behavior of $f^{-1}(x) as x approaches 0 from the positive side.$",
+      "question": "For $f(x)=e^{x}$, describe the behaviour of $f^{-1}(x)$ as $x$ approaches $0$ from the positive side.",
       "options": [
         "It approaches -∞",
         "It approaches 1",
@@ -58,7 +58,7 @@
         "It is undefined"
       ],
       "correctIndex": 0,
-      "explanation": "Since e^x\nhas a horizontal asymptote y=0 as x→-∞, the inverse (natural log) has a vertical asymptote x=0 as y→-∞.\n\n**Common mistake:** Failing to translate horizontal asymptotic behavior into vertical asymptotic behavior for the inverse graph."
+      "explanation": "Since $e^{x}$ has horizontal asymptote $y=0$ as $x \\to -\\infty$, the inverse $\\ln x$ has a vertical asymptote at $x=0$ as $y \\to -\\infty$.\n\n**Common mistake:** Failing to translate horizontal asymptotic behaviour into vertical asymptotic behaviour for the inverse graph."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q5",

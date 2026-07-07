@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "The function f is defined by f(x)=∣4x-3∣-5 for $x \\in \\mathbb{R}$. State the range of f.",
       "options": [
-        "f(x)\nge-5",
-        "f(x) \\ge 0",
-        "f(x)\nge-3",
-        "f(x)∈R"
+        "$f(x) \\ge -5$",
+        "$f(x) \\ge 0$",
+        "$f(x) \\ge -3$",
+        "$f(x) \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
       "explanation": "The minimum value of any modulus is 0. Thus the minimum value of f(x) is 0-5=-5.\n\n**Common mistake:** Mistakenly using the constant inside the modulus (-3) as the range boundary."

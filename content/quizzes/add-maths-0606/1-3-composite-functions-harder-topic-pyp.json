@@ -11,7 +11,7 @@
     {
       "id": "1-3-composite-functions-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "The functions f and g are defined by f(x)=3x-2 and g(x)= \\frac{10}{x+1} for $x \\neq -1$. Solve the equation fg(x)=g(x).",
+      "question": "Given $f(x)=3x-2$ and $g(x)=\\frac{10}{x+1}$ for $x \\neq -1$, solve the equation $fg(x)=4$.",
       "options": [
         "x=4",
         "x=2",
@@ -19,7 +19,7 @@
         "x=0"
       ],
       "correctIndex": 0,
-      "explanation": "$3\\left(\\frac{10}{x+1}\\right)-2=\\frac{10}{x+1}$. Let $u=\\frac{10}{x+1}$, then $3u-2=u \\implies 2u=2 \\implies u=1$. So $\\frac{10}{x+1}=1 \\implies x=9$. Using fg(x)=4: $3u-2=4 \\implies u=2 \\implies \\frac{10}{x+1}=2 \\implies x=4$.\n\n**Common mistake:** Mistakenly substituting g into f incorrectly or failing to simplify the algebraic equation efficiently."
+      "explanation": "Let $u=\\frac{10}{x+1}$. Then $fg(x)=3u-2$, so $3u-2=4$ gives $u=2$. Hence $\\frac{10}{x+1}=2$, so $x+1=5$ and $x=4$.\n\n**Common mistake:** Mistakenly substituting $g$ into $f$ incorrectly or failing to simplify the algebraic equation efficiently."
     },
     {
       "id": "1-3-composite-functions-harder-topic-pyp-q2",
@@ -63,15 +63,15 @@
     {
       "id": "1-3-composite-functions-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Hence find the value of k if gf(x)=f(x) has no real solutions, given f(x)=x+k and g(x)= x^{2}-3.",
+      "question": "Given $f(x)=x+k$ and $g(x)=x^{2}-2$, find the values of $k$ for which $gf(x)=x$ has no real solutions.",
       "options": [
-        "k < -3.25",
-        "k > -3",
-        "k < 4",
-        "k > 0"
+        "$k > \\frac{9}{4}$",
+        "$k < -3$",
+        "$k = 0$",
+        "$k > -1$"
       ],
       "correctIndex": 0,
-      "explanation": "gf(x)= (x+k)^{2}-3. Set $(x+k)^{2}-3=x+k$. $2x^{2}$+2kx+$k^{2}$-3-x-k=0 \\implies $x^{2}$+(2k-1)x+($k^{2}$-k-3)=0. For no solutions, Δ<0: $(2k-1)^{2}$-4($k^{2}$-k-3)<0 \\implies 4$k^{2}$-4k+1-4$k^{2}$+4k+12<0 \\implies 13<0. Adjusting for valid check: $x^{2}$+(2k-1)x+($k^{2}$-k-3)=0. 13<0 is impossible. Let's use g(x)= x^{2}+x-3: $(x+k)^{2}$+(x+k)-3=x+k⟹$(x+k)^{2}$-3=0⟹$x^{2}$-3=0. Final Choice for logic: k<-3.25 via Δ on correct quadratic.\n\n**Common mistake:** Failing to simplify the quadratic equation into standard form before applying the discriminant."
+      "explanation": "$gf(x)=(x+k)^{2}-2$. Set $(x+k)^{2}-2=x$, so $x^{2}+(2k-1)x+(k^{2}-2)=0$. For no real solutions, $\\Delta=(2k-1)^{2}-4(k^{2}-2)<0$, which simplifies to $-4k+9<0$, hence $k>\\frac{9}{4}$.\n\n**Common mistake:** Failing to simplify the quadratic equation into standard form before applying the discriminant."
     }
   ]
 }

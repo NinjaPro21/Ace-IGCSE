@@ -11,15 +11,15 @@
     {
       "id": "1-3-composite-functions-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "Given f(x)=3x+4 and g(x)= x^{2}-1, find the value of x such that fg(x)=31.",
+      "question": "Given $f(x)=3x+4$ and $g(x)=x^{2}-1$, find the value of $x$ such that $fg(x)=28$.",
       "options": [
-        "x=±3",
-        "x=3 only",
-        "x=±\\sqrt{10}",
-        "x=±\\sqrt{34}"
+        "$x=\\pm 3$",
+        "$x=3$ only",
+        "$x=\\pm \\sqrt{10}$",
+        "$x=\\pm \\sqrt{34}$"
       ],
       "correctIndex": 0,
-      "explanation": "f(g(x))=3($x^{2}$-1)+4=3$x^{2}$-3+4=3$x^{2}$+1. Set 3$x^{2}$+1=31⟹3$x^{2}$=30 \\implies $x^{2}$=10. Wait, let's use fg(x)=25: 3$x^{2}$+1=25⟹3$x^{2}$=24⟹x=±\\sqrt{8}. Final choice for logic: 3($x^{2}$-1)+4=31⟹3$x^{2}$+1=31⟹3$x^{2}$=30⟹x=±3 (with fg(x)=28 as target). Let's use fg(x)=31⟹3$x^{2}$+1=31⟹3$x^{2}$=30 \\implies x=±\\sqrt{10}. Correcting target to fg(x)=28: 3$x^{2}$+1=28⟹x=±3.\n\n**Common mistake:** Arithmetic errors in distributing the 3 or forgetting to consider both positive and negative roots of $x^{2}$."
+      "explanation": "$fg(x)=3(x^{2}-1)+4=3x^{2}+1$. Set $3x^{2}+1=28$, so $3x^{2}=27$ and $x=\\pm 3$.\n\n**Common mistake:** Arithmetic errors in distributing the 3 or forgetting to consider both positive and negative roots of $x^{2}$."
     },
     {
       "id": "1-3-composite-functions-harder-topic-medium-q2",
@@ -63,7 +63,7 @@
     {
       "id": "1-3-composite-functions-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Given f(x)=kx+2, find the value of k if $f^{2}$(2)=10.",
+      "question": "Given $f(x)=kx+2$, find the value of $k$ if $f^{2}(2)=14$.",
       "options": [
         "k = 2 or k = -3",
         "k = 2 only",
@@ -71,7 +71,7 @@
         "k = 1"
       ],
       "correctIndex": 0,
-      "explanation": "f(2)=2k+2. Then f(2k+2)=k(2k+2)+2=2$k^{2}$+2k+2. Set 2$k^{2}$+2k+2=10⟹2$k^{2}$+2k-8=0 \\implies $k^{2}$+k-4=0. Adjusting for clean roots: $f^{2}$(2)=14⟹2$k^{2}$+2k+2=14⟹$k^{2}$+k-6=0⟹k=2,-3.\n\n**Common mistake:** Failing to set up the quadratic correctly or ignoring the second potential value for k."
+      "explanation": "$f(2)=2k+2$. Then $f(2k+2)=k(2k+2)+2=2k^{2}+2k+2$. Set $2k^{2}+2k+2=14$, so $k^{2}+k-6=0$, hence $k=2$ or $k=-3$.\n\n**Common mistake:** Failing to set up the quadratic correctly or ignoring the second potential value for $k$."
     }
   ]
 }

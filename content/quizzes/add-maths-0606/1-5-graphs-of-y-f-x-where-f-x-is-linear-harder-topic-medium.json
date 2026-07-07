@@ -11,15 +11,15 @@
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=∣2x-6∣ for the domain 0\nlex\nle5.",
+      "question": "Find the range of the function $f(x)=|2x-6|$ for the domain $0 \\le x \\le 5$.",
       "options": [
-        "0\nlef(x)\nle6",
-        "4\nlef(x)\nle6",
-        "0\nlef(x)\nle4",
-        "0\nlef(x)\nle5"
+        "$0 \\le f(x) \\le 6$",
+        "$4 \\le f(x) \\le 6$",
+        "$0 \\le f(x) \\le 4$",
+        "$0 \\le f(x) \\le 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Endpoints: f(0)=6,f(5)=4. Vertex at x=3 gives f(3)=0. Range is .\n\n**Common mistake:** Checking only the endpoints and concluding the range is 4\nley\nle6."
+      "explanation": "Endpoints: $f(0)=6$, $f(5)=4$. The vertex at $x=3$ gives $f(3)=0$. The range is $0 \\le f(x) \\le 6$.\n\n**Common mistake:** Checking only the endpoints and concluding the range is $4 \\le y \\le 6$."
     },
     {
       "id": "1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-medium-q2",

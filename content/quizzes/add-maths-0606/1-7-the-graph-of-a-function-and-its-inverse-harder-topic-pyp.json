@@ -13,13 +13,13 @@
       "type": "mcq",
       "question": "The function f is defined by f(x)=2x+1 for x≥0. On the same axes, sketch y=f(x) and y= f^{-1}(x). Find the coordinates of the point of intersection.",
       "options": [
-        "(-1,-1)",
-        "(1,1)",
-        "No intersection for x≥0",
-        "(0,1)"
+        "No intersection for $x \\ge 0$",
+        "$(-1,-1)$",
+        "$(1,1)$",
+        "$(0,1)$"
       ],
       "correctIndex": 0,
-      "explanation": "Intersection occurs where 2x+1=x \\implies x=-1. However, the domain is x≥0, so there is no intersection in the valid range.\n\n**Common mistake:** Failing to check the solution x=-1 against the given domain restriction x≥0."
+      "explanation": "Intersection occurs where $2x+1=x \\implies x=-1$. Since the domain is $x \\ge 0$, there is no intersection in the valid range.\n\n**Common mistake:** Failing to check the solution $x=-1$ against the domain restriction $x \\ge 0$."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q2",
@@ -45,7 +45,7 @@
         "-2"
       ],
       "correctIndex": 0,
-      "explanation": "Inverse passes through (0,2) and (-4,0). Gradient m=(0-2)/(-4-0)=-2/-4=0.5.\n\n**Common mistake:** Using the gradient of the original line (2) as the gradient of the inverse, or miscalculating the $fraction.$"
+      "explanation": "The inverse passes through $(0,2)$ and $(-4,0)$. Gradient $m=\\frac{0-2}{-4-0}=0.5$.\n\n**Common mistake:** Using the gradient of the original line ($2$) as the gradient of the inverse."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q4",

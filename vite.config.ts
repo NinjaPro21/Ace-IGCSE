@@ -25,6 +25,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       '@content': path.resolve(__dirname, './content'),
     },
+    dedupe: ['react', 'react-dom', 'react-router', 'react-router-dom'],
+  },
+  optimizeDeps: {
+    include: ['react-router-dom'],
   },
   build: {
     rollupOptions: {

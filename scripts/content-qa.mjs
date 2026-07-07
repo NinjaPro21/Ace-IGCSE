@@ -59,6 +59,7 @@ console.log(`Subject filter: ${subjectArg}`)
 }
 
 const steps = [
+  ['Quiz content audit (ch1)', 'npm', ['run', 'audit:quizzes', '--', '--topic', '1-1-mappings', '--topic', '1-2-definition-of-a-function', '--topic', '1-3-composite-functions-harder-topic', '--topic', '1-4-modulus-functions-harder-topic', '--topic', '1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic', '--topic', '1-6-inverse-functions-harder-topic', '--topic', '1-7-the-graph-of-a-function-and-its-inverse-harder-topic', ...(subjectArg === 'all' ? [] : [subjectArg])]],
   ['KaTeX validation (strict)', 'npm', ['run', 'validate:math', '--', '--strict', ...(subjectArg === 'all' ? [] : [subjectArg])]],
   ['Quiz integrity + answer cross-check', 'npm', ['run', 'quiz:validate']],
   ['Note structure audit', 'npm', ['run', 'audit:content']],

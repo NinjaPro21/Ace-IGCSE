@@ -1,3 +1,4 @@
+import type { Components } from 'react-markdown'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -7,6 +8,14 @@ import { prepareMathContent } from '@/lib/mathMarkdown'
 const MD_PLUGINS = {
   remark: [remarkMath],
   rehype: [rehypeKatex],
+}
+
+/** Inline mode must not emit block elements (avoids <p> inside <p> hydration crashes). */
+const INLINE_MD_COMPONENTS: Components = {
+  p: ({ children }) => <span className="enlight-math-para">{children}</span>,
+  ul: ({ children }) => <span className="enlight-math-list">{children}</span>,
+  ol: ({ children }) => <span className="enlight-math-list">{children}</span>,
+  li: ({ children }) => <span className="enlight-math-list-item">{children}</span>,
 }
 
 interface MathTextProps {
@@ -24,7 +33,11 @@ export function MathText({ content, className, block = false, title = false }: M
 
   return (
     <Tag className={className ?? (block ? 'enlight-math-block' : 'enlight-math-text')}>
-      <ReactMarkdown remarkPlugins={MD_PLUGINS.remark} rehypePlugins={MD_PLUGINS.rehype}>
+      <ReactMarkdown
+        remarkPlugins={MD_PLUGINS.remark}
+        rehypePlugins={MD_PLUGINS.rehype}
+        components={block ? undefined : INLINE_MD_COMPONENTS}
+      >
         {prepared}
       </ReactMarkdown>
     </Tag>
