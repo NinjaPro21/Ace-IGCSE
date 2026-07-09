@@ -19,7 +19,7 @@
         "The oil bottle has zero pressure at the bottom"
       ],
       "correctIndex": 0,
-      "explanation": "Since $Delta p = rho g h$, pressure is directly proportional to density. Oil is less dense than water, so it exerts less pressure at the same depth. \n\n**Common mistake:** Thinking that identical volumes or containers result in equal pressures regardless of the liquid type."
+      "explanation": "Since $\\Delta p = \\rho g h$, pressure is directly proportional to density. Oil is less dense than water, so it exerts less pressure at the same depth. \n\n**Common mistake:** Thinking that identical volumes or containers result in equal pressures regardless of the liquid type."
     },
     {
       "id": "7-2-pressure-in-liquids-medium-q2",
@@ -32,7 +32,7 @@
         "$500000\\text{ Pa}$"
       ],
       "correctIndex": 0,
-      "explanation": "$Delta p = rho g h = 1000 \\times 10 \\times 5.0 = 50000\\text{ Pa}$. \n\n**Common mistake:** Forgetting to include the factor $g=10$, leading to an answer of^5000."
+      "explanation": "$\\Delta p = \\rho g h = 1000 \\times 10 \\times 5.0 = 50000\\text{ Pa}$. \n\n**Common mistake:** Forgetting to include the factor $g=10$, leading to an answer of $5000$."
     },
     {
       "id": "7-2-pressure-in-liquids-medium-q3",
@@ -45,7 +45,7 @@
         "$2.0\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "$Delta h = Delta p / (rho g) = 51250 / (1025 \\times 10) = 51250 / 10250 = 5.0\\text{ m}$. \n\n**Common mistake:** Multiplying the pressure by density instead of dividing."
+      "explanation": "$\\Delta h = \\Delta p / (\\rho g) = 51250 / (1025 \\times 10) = 51250 / 10250 = 5.0\\text{ m}$. \n\n**Common mistake:** Multiplying the pressure by density instead of dividing."
     },
     {
       "id": "7-2-pressure-in-liquids-medium-q4",
@@ -58,12 +58,12 @@
         "$170\\text{ Pa}$"
       ],
       "correctIndex": 0,
-      "explanation": "$Delta h = 0.25 - 0.08 = 0.17\\text{ m}$. $Delta p = 880 \\times 10 \\times 0.17 = 1496\\text{ Pa}$. \n\n**Common mistake:** Using only the depth at point B ($0.25$) rather than the difference between A and B."
+      "explanation": "$\\Delta h = 0.25 - 0.08 = 0.17\\text{ m}$. $\\Delta p = 880 \\times 10 \\times 0.17 = 1496\\text{ Pa}$. \n\n**Common mistake:** Using only the depth at point B ($0.25$) rather than the difference between A and B."
     },
     {
       "id": "7-2-pressure-in-liquids-medium-q5",
       "type": "mcq",
-      "question": "Which graph correctly shows how the pressure $p  in a liquid of constant density varies with depth h?",
+      "question": "Which graph correctly shows how the pressure $p$ in a liquid of constant density varies with depth $h$?",
       "options": [
         "A straight line passing through the origin",
         "A horizontal straight line",
@@ -71,7 +71,7 @@
         "A straight line with a negative gradient"
       ],
       "correctIndex": 0,
-      "explanation": "Because $p  is directly proportional to h$ ($p = rho g h$), the relationship is linear and the graph is a straight line through the origin. \n\n**Common mistake:** Thinking the graph should be a curve because liquid pressure feels 'heavy'."
+      "explanation": "Because $p$ is directly proportional to $h$ ($p = \\rho g h$), the relationship is linear and the graph is a straight line through the origin. \n\n**Common mistake:** Thinking the graph should be a curve because liquid pressure feels 'heavy'."
     }
   ]
 }

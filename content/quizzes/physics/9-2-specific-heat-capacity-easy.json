@@ -50,15 +50,15 @@
     {
       "id": "9-2-specific-heat-capacity-easy-q4",
       "type": "mcq",
-      "question": "Which formula is used to calculate the specific heat capacity $c?",
+      "question": "Which formula is used to calculate the specific heat capacity $c$?",
       "options": [
-        "$c = \\frac{Delta E}{m Delta theta}$",
-        "$c = m \\times g \\times Delta h$",
+        "$c = \\frac{\\Delta E}{m \\Delta \\theta}$",
+        "$c = m \\times g \\times \\Delta h$",
         "$c = P \\times t$",
-        "$c = \\frac{m}{Delta E \\times Delta theta}$"
+        "$c = \\frac{m}{\\Delta E \\times \\Delta \\theta}$"
       ],
       "correctIndex": 0,
-      "explanation": "Specific heat capacity $c$ is the thermal energy $Delta E$ divided by the product of mass $m  and temperature change Delta theta$. \n\n**Common mistake:** Forgetting to divide by both mass and temperature change."
+      "explanation": "Specific heat capacity $c$ is the thermal energy $\\\\Delta E$ divided by the product of mass $m$ and temperature change $\\\\Delta \\theta$. \n\n**Common mistake:** Forgetting to divide by both mass and temperature change."
     },
     {
       "id": "9-2-specific-heat-capacity-easy-q5",

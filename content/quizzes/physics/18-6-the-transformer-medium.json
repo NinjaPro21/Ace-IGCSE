@@ -11,7 +11,7 @@
     {
       "id": "18-6-the-transformer-medium-q1",
       "type": "mcq",
-      "question": "A transformer has^100 turns in the primary coil and^500 turns in the secondary coil. If the primary voltage is $12\\text{ V}$, what is the secondary voltage?",
+      "question": "A transformer has^100 turns in the primary coil and $500$ turns in the secondary coil. If the primary voltage is $12\\text{ V}$, what is the secondary voltage?",
       "options": [
         "$60\\text{ V}$",
         "$2.4\\text{ V}$",
@@ -19,7 +19,7 @@
         "$600\\text{ V}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the transformer equation $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$, we get $V_s = V_p \\times (N_s / N_p) = 12 \\times (500 / 100) = 60\\text{ V}$. \n\n**Common mistake:** Inverting the turns ratio and dividing^12 by^5."
+      "explanation": "Using the transformer equation $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$, we get $V_s = V_p \\times (N_s / N_p) = 12 \\times (500 / 100) = 60\\text{ V}$. \n\n**Common mistake:** Inverting the turns ratio and dividing^12 by $5$."
     },
     {
       "id": "18-6-the-transformer-medium-q2",

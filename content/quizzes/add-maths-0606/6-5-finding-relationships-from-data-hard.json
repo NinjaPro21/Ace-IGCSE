@@ -45,7 +45,7 @@
         "$4$"
       ],
       "correctIndex": 1,
-      "explanation": "Gradient $m = -2$. Intercept $c = \\ln p . = 0.5 \\times |c| \\times |\\frac{-c}{m}| = 0.5 \\times c \\times \\frac{c}{2} = \\frac{c^2}{4} = 8$. $c^2 = 32$ (Wait: $0.5 \\times c \\times c/2 = 8 \\Rightarrow c^2/4 = 8 \\Rightarrow c^2 = 32$). Let's use Gradient -2, Area 4: $c^2/4 = 4 \\Rightarrow c = 4$. If $c=4$, $\\ln p = 4 \\Rightarrow p = e^4$.\n\n**Common mistake:** Incorrectly relating the geometric area of the linear plot to the constants $p  and q$ in the non-linear law."
+      "explanation": "Gradient $m = q = -2$. Intercept $c = \\ln p = 4$, so $p = e^4$.\n\n**Common mistake:** Incorrectly relating the plot constants to $p$ and $q$ in the non-linear law."
     },
     {
       "id": "6-5-finding-relationships-from-data-hard-q4",

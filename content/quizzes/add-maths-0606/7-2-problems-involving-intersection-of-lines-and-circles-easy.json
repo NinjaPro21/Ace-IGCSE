@@ -19,7 +19,7 @@
         "$(5, 4)$ and $(-5, 4)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y = 4$ into the circle equation: $x^2 + 4^2 = 25 \\Rightarrow x^2 + 16 = 25 \\Rightarrow x^2 = 9$, so $x = \\pm 3$.\n\n**Common mistake:** Students may swap the $x$ and $y2(4, 3)$ and $(4, -3)$."
+      "explanation": "Substitute $y = 4$ into the circle equation: $x^2 + 16 = 25 \\Rightarrow x^2 = 9$, so $x = \\pm 3$. The points are $(3, 4)$ and $(-3, 4)$.\n\n**Common mistake:** Swapping the $x$ and $y$ coordinates to get $(4, 3)$ and $(4, -3)$."
     },
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-easy-q2",
@@ -32,12 +32,12 @@
         "Infinite"
       ],
       "correctIndex": 0,
-      "explanation": "Since the radius of the circle is $\\sqrt{9} = 3$, the maximum when $x = 5$ lies entirely outside the circle.\n\n**Common mistake:** A student might algebraically solve $25 + y^2 = 9$, get $y^2 = -16$, and incorrectly assume there is 1 intersection point (at the 'limit')."
+      "explanation": "Since the radius is $3$, the vertical line $x = 5$ lies entirely outside the circle and does not intersect it.\n\n**Common mistake:** Solving $25 + y^2 = 9$, getting $y^2 = -16$, and incorrectly assuming there is still one intersection point."
     },
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-easy-q3",
       "type": "mcq",
-      "question": "The line $y = x$. So $x^2 + y^2 = 2$ at two points. One of these points is $(1, 1)$. Identify the other point.",
+      "question": "The line $y = x$ intersects the circle $x^2 + y^2 = 2$ at two points. One point is $(1, 1)$. Find the other point.",
       "options": [
         "$(-1, -1)$",
         "$(1, -1)$",
@@ -50,7 +50,7 @@
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-easy-q4",
       "type": "mcq",
-      "question": "Find the $y$. $(x - 2)^2 + (y - 3)^2 = 16$ intersects the $y$-axis.",
+      "question": "Find the $y$-coordinates where the circle $(x - 2)^2 + (y - 3)^2 = 16$ intersects the $y$-axis.",
       "options": [
         "$3 \\pm \\sqrt{12}$",
         "$2 \\pm \\sqrt{16}$",
@@ -58,12 +58,12 @@
         "$3 \\pm \\sqrt{20}$"
       ],
       "correctIndex": 0,
-      "explanation": "At the $y$. So $x = 0$. Substitute: $(0-2)^2 + (y-3)^2 = 16 \\Rightarrow 4 + (y-3)^2 = 16 \\Rightarrow (y-3)^2 = 12 \\Rightarrow y = 3 \\pm \\sqrt{12}$.\n\n**Common mistake:** Subtracting 4 from 16 to get 12 but then failing to take the square root properly or forgetting the $\\pm$ sign."
+      "explanation": "On the $y$-axis, $x = 0$. Substitute: $4 + (y-3)^2 = 16 \\Rightarrow (y-3)^2 = 12 \\Rightarrow y = 3 \\pm \\sqrt{12}$.\n\n**Common mistake:** Subtracting 4 from 16 to get 12 but then failing to take the square root properly or forgetting the $\\pm$ sign."
     },
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-easy-q5",
       "type": "mcq",
-      "question": "If the line $y = k$. So $x^2 + y^2 = 49$, what are the possible values of $k$?",
+      "question": "The line $y = k$ is tangent to the circle $x^2 + y^2 = 49$. Find the possible values of $k$.",
       "options": [
         "$7$ or $-7$",
         "$49$ or $-49$",
@@ -71,7 +71,7 @@
         "$\\sqrt{7}$"
       ],
       "correctIndex": 0,
-      "explanation": "A horizontal tangent must occur at the maximum or minimum $y$. $\\pm r2r = 7$, $k = \\pm 7$.\n\n**Common mistake:** Using the value of $r^2$ (49) instead of the radius $r$ (7)."
+      "explanation": "A horizontal tangent occurs at the top and bottom of the circle, where $y = \\pm r = \\pm 7$.\n\n**Common mistake:** Using the value of $r^2$ (49) instead of the radius $r$ (7)."
     }
   ]
 }

@@ -32,7 +32,7 @@
         "$\\sqrt{13}$"
       ],
       "correctIndex": 0,
-      "explanation": "Radius is the distance from centre to a point on the circle: $r = \\sqrt{(7-4}^2 + (3-(-1))^2) = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$.\n\n**Common mistake:** Mistakenly subtracting the coordinates incorrectly, such as $3 - 1 = 2$ instead of $3 - (-1) = 4$."
+      "explanation": "Radius is the distance from centre to a point on the circle: $r = \\sqrt{(7-4)^2 + (3-(-1))^2} = \\sqrt{9 + 16} = 5$.\n\n**Common mistake:** Mistakenly subtracting the coordinates incorrectly, such as $3 - 1 = 2$ instead of $3 - (-1) = 4$."
     },
     {
       "id": "7-1-the-equation-of-a-circle-medium-q3",
@@ -50,7 +50,7 @@
     {
       "id": "7-1-the-equation-of-a-circle-medium-q4",
       "type": "mcq",
-      "question": "The equation of a circle is $(x + 4)^2 + (y - 1)^2 = k$. $(0, 0)$, find the value of $k$.",
+      "question": "The equation of a circle is $(x + 4)^2 + (y - 1)^2 = k$. If the circle passes through $(0, 0)$, find the value of $k$.",
       "options": [
         "17",
         "15",
@@ -63,7 +63,7 @@
     {
       "id": "7-1-the-equation-of-a-circle-medium-q5",
       "type": "mcq",
-      "question": "Determine the value of $c$. So $x^2 + y^2 + 8x - 4y + c = 0$ represents a circle with radius 6.",
+      "question": "Determine the value of $c$ if $x^2 + y^2 + 8x - 4y + c = 0$ represents a circle with radius 6.",
       "options": [
         "-16",
         "20",

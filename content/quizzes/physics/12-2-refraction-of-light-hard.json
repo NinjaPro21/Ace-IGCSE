@@ -11,20 +11,20 @@
     {
       "id": "12-2-refraction-of-light-hard-q1",
       "type": "mcq",
-      "question": "A ray of light is partially reflected and partially refracted at the surface of a glass block ($n = 1.60$). If the angle of incidence is $30^circ$, what is the angle between the reflected ray and the refracted ray?",
+      "question": "A ray of light is partially reflected and partially refracted at the surface of a glass block ($n = 1.60$). If the angle of incidence is $30^\\circ$, what is the angle between the reflected ray and the refracted ray?",
       "options": [
-        "$131.8^circ$",
-        "$48.2^circ$",
-        "$60.0^circ$",
-        "$11.8^circ$"
+        "$131.8^\\circ$",
+        "$48.2^\\circ$",
+        "$60.0^\\circ$",
+        "$11.8^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Angle of reflection = $30^circ$. Using $1.6 = \\frac{sin 30}{sin r}$, $sin r = 0.3125 rightarrow r \\approx 18.2^circ$. The angle between them is $180^circ - (30^circ + 18.2^circ) = 131.8^circ$.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Angle of reflection = $30^\\circ$. Using $1.6 = \\frac{sin 30}{sin r}$, $sin r = 0.3125 rightarrow r \\approx 18.2^\\circ$. The angle between them is $180^\\circ - (30^\\circ + 18.2^\\circ) = 131.8^\\circ$.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "12-2-refraction-of-light-hard-q2",
       "type": "mcq",
-      "question": "Light passes through a rectangular glass block with parallel sides. The ray enters from air at an angle $i  and emerges back into air at angle y$. Which statement is true based on the principle of reversibility?",
+      "question": "Light passes through a rectangular glass block with parallel sides. The ray enters from air at an angle $i$ and emerges back into air at angle y$. Which statement is true based on the principle of reversibility$?",
       "options": [
         "The emergent ray is parallel to the incident ray ($y = i$)",
         "The emergent ray bends towards the normal ($y < i$)",
@@ -63,7 +63,7 @@
     {
       "id": "12-2-refraction-of-light-hard-q5",
       "type": "mcq",
-      "question": "If the angle of incidence in air is $60^circ$ and the angle of refraction in a block is $35.3^circ$, what is the speed of light in this block? (Take $sin 60^circ = 0.866$, $sin 35.3^circ = 0.578$)",
+      "question": "If the angle of incidence in air is $60^\\circ$ and the angle of refraction in a block is $35.3^\\circ$, what is the speed of light in this block? (Take $sin 60^\\circ = 0.866$, $sin 35.3^\\circ = 0.578$)",
       "options": [
         "$2.0 \\times 10^{8}\\text{ m/s}$",
         "$1.5 \\times 10^{8}\\text{ m/s}$",

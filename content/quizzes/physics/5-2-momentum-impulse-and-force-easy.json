@@ -32,7 +32,7 @@
         "newton per metre ($N/m$)"
       ],
       "correctIndex": 0,
-      "explanation": "Since impulse is Force ($N$) $times  time (s ), its unit is the newton second (N s ). It is also equivalent to kg m/s$.\n\n**Common mistake:** Using units of force (N$) or energy ($J$)$."
+      "explanation": "Since impulse is force ($N$) $\\times$ time ($s$), its unit is the newton second ($N\\,s$). It is also equivalent to $\\text{kg m/s}$. \n\n**Common mistake:** Using units of force ($N$) or energy ($J$)."
     },
     {
       "id": "5-2-momentum-impulse-and-force-easy-q3",
@@ -45,7 +45,7 @@
         "Force is momentum divided by mass"
       ],
       "correctIndex": 0,
-      "explanation": "By definition, the resultant force $F$ is the rate of change of momentum: $F = Delta p / Delta t$. \n\n**Common mistake:** Thinking force is just the total 'change' in momentum without considering time."
+      "explanation": "By definition, the resultant force $F$ is the rate of change of momentum: $F = \\Delta p / \\Delta t$. \n\n**Common mistake:** Thinking force is just the total 'change' in momentum without considering time."
     },
     {
       "id": "5-2-momentum-impulse-and-force-easy-q4",
@@ -71,7 +71,7 @@
         "To decrease the total impulse of the crash"
       ],
       "correctIndex": 0,
-      "explanation": "For a fixed change in momentum (impulse), increasing the time interval $Delta t$ reduces the average force $F$ because $F = Delta p / Delta t$. \n\n**Common mistake:** Thinking it changes the total impulse; the impulse remains the same because the change in velocity is the same."
+      "explanation": "For a fixed change in momentum (impulse), increasing the time interval $\\Delta t$ reduces the average force $F$ because $F = \\Delta p / \\Delta t$. \n\n**Common mistake:** Thinking it changes the total impulse; the impulse remains the same because the change in velocity is the same."
     }
   ]
 }

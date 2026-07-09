@@ -33,6 +33,7 @@ const QUIZ_ROOT = path.join(__dirname, '..', 'content', 'quizzes')
 
 const args = process.argv.slice(2)
 const strict = args.includes('--strict')
+const reportJson = args.includes('--report')
 const topicFilters = []
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--topic' && args[i + 1]) topicFilters.push(args[i + 1])
@@ -62,6 +63,9 @@ const CLASS_A = [
   { cls: 'I', re: /\$[^$\n]+\$\s+\$/, msg: 'duplicate $ after closed inline math ($...$ $,)' },
   { cls: 'I', re: /\bvalue of [a-zA-Z]\s*\n+\s*\$\./, msg: 'variable split across newlines before lone $.' },
   { cls: 'I', re: /\$e\^2 So /i, msg: 'corrupted natural-log base ($e$. So → $e^2 So)' },
+  { cls: 'J', re: /\$[a-zA-Z]\s{1,}(of|is|and|the|when|at|in|for|a|an|or|with|from|by|to|metres|meters|gives|where|increasing|decreasing)\b/i, msg: 'unclosed $var$ before prose ($s of → $s$ of)' },
+  { cls: 'J', re: /\b[A-Za-z]\$\./, msg: 'bare variable before $. ($P$. → $P$.)' },
+  { cls: 'J', re: /at\$\d+\$(cm\/s|m\/s)/i, msg: 'glue at$3$cm/s — separate rate unit' },
 ]
 
 /** Class B — bare math outside delimiters. */
@@ -307,6 +311,34 @@ const { errors, warnings, checked } = walkQuizzes(QUIZ_ROOT)
 const scope =
   [subjectFilter, topicFilters.length ? topicFilters.join(' + ') : null].filter(Boolean).join(', ') ||
   'all quizzes'
+
+if (reportJson) {
+  const byMsg = {}
+  const byField = {}
+  for (const line of errors) {
+    const m = line.match(/\[([^\]]+)\]: (.+)$/)
+    if (!m) continue
+    byMsg[m[2]] = (byMsg[m[2]] || 0) + 1
+    byField[m[1]] = (byField[m[1]] || 0) + 1
+  }
+  console.log(
+    JSON.stringify(
+      {
+        scope,
+        checked,
+        errorCount: errors.length,
+        warningCount: warnings.length,
+        errors,
+        warnings,
+        byMsg: Object.fromEntries(Object.entries(byMsg).sort((a, b) => b[1] - a[1])),
+        byField: Object.fromEntries(Object.entries(byField).sort((a, b) => b[1] - a[1])),
+      },
+      null,
+      2,
+    ),
+  )
+  process.exit(errors.length ? 1 : 0)
+}
 
 console.log(`Quiz content audit (${scope})`)
 console.log(`Checked ${checked} question(s)`)

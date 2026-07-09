@@ -37,15 +37,15 @@
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-hard-q3",
       "type": "mcq",
-      "question": "A particle P starts from the origin O and moves so that its velocity $v$ and $t v$ = 6 \\cos(2t)$. Find the first time t2t > 0$) when the particle returns to O\n\n$$.",
+      "question": "A particle $P$ starts from the origin $O$ with velocity $v = 6\\cos(2t)$ m/s. Find the first time $t > 0$ when the particle returns to $O$.",
       "options": [
-        "π/2",
-        "π",
-        "π/4",
-        "2π"
+        "$\\frac{\\pi}{2}$",
+        "$\\pi$",
+        "$\\frac{\\pi}{4}$",
+        "$2\\pi$"
       ],
       "correctIndex": 0,
-      "explanation": "s = ∫ 6 cos(2t) dt = 3 sin(2t) + c. s=0 at t=0 => c=0. Returns to O when s=0: 3 sin(2t) = 0 => when $t$ = π => t = π/2.\n\n**Common mistake:** Finding when the velocity is zero (t=π/4) instead of when the displacement is zero."
+      "explanation": "$s = \\int 6\\cos(2t)\\,dt = 3\\sin(2t) + c$. Since $s = 0$ when $t = 0$, $c = 0$. Returns to $O$ when $s = 0$, so $\\sin(2t) = 0$ and the first positive solution is $t = \\frac{\\pi}{2}$.\n\n**Common mistake:** Finding when the velocity is zero instead of when the displacement is zero."
     },
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-hard-q4",

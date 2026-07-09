@@ -11,28 +11,28 @@
     {
       "id": "12-3-total-internal-reflection-pyp-q1",
       "type": "mcq",
-      "question": "The diagram shows a ray of light in air incident on the surface of a liquid. The critical angle for the liquid is $45^circ$. In which case will total internal reflection occur?nn[Scenario: Ray is already inside the liquid, moving towards the air boundary]",
+      "question": "The diagram shows a ray of light in air incident on the surface of a liquid. The critical angle for the liquid is $45^\\circ$. In which case will total internal reflection occur?nn[Scenario: Ray is already inside the liquid, moving towards the air boundary]",
       "options": [
-        "Angle of incidence $= 50^circ$",
-        "Angle of incidence $= 40^circ$",
-        "Angle of incidence $= 45^circ$",
-        "Angle of incidence $= 0^circ$"
+        "Angle of incidence $= 50^\\circ$",
+        "Angle of incidence $= 40^\\circ$",
+        "Angle of incidence $= 45^\\circ$",
+        "Angle of incidence $= 0^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Total internal reflection only occurs when the angle of incidence ($i ) is greater than the critical angle (c$). Since $50^circ > 45^circ$, reflection occurs. \n\n**Common mistake:** choosing $45^circ$, where the ray would travel along the boundary."
+      "explanation": "The critical angle is the angle of incidence in the denser medium that gives an angle of refraction of $90^\\circ$. \n\n**Common mistake:** Confusing it with the angle of refraction itself."
     },
     {
       "id": "12-3-total-internal-reflection-pyp-q2",
       "type": "mcq",
       "question": "Which diagram correctly illustrates the critical angle $c$ for an air-water boundary?",
       "options": [
-        "Ray in water at angle $c$ to normal, refracted ray in air at $90^circ$ to normal.",
-        "Ray in air at angle $c$ to normal, refracted ray in water at $90^circ$ to normal.",
+        "Ray in water at angle $c$ to normal, refracted ray in air at $90^\\circ$ to normal.",
+        "Ray in air at angle $c$ to normal, refracted ray in water at $90^\\circ$ to normal.",
         "Ray in water at angle $c$ to normal, reflected ray in water at $c$ to normal.",
-        "Ray in air at $90^circ$ to normal, refracted ray in water at angle $c."
+        "Ray in air at $90^\\circ$ to normal, refracted ray in water at angle $c$."
       ],
       "correctIndex": 0,
-      "explanation": "The critical angle is the incident angle in the denser medium (water) that produces a $90^circ$ refraction in the less dense medium (air). \n\n**Common mistake:** swapping air and water positions."
+      "explanation": "The critical angle is the incident angle in the denser medium (water) that produces a $90^\\circ$ refraction in the less dense medium (air). \n\n**Common mistake:** swapping air and water positions."
     },
     {
       "id": "12-3-total-internal-reflection-pyp-q3",
@@ -50,7 +50,7 @@
     {
       "id": "12-3-total-internal-reflection-pyp-q4",
       "type": "mcq",
-      "question": "The critical angle for an air-glass interface is $42^circ$. A ray of light hits the interface from within the glass at an angle of $30^circ$. What happens to the ray?",
+      "question": "The critical angle for an air-glass interface is $42^\\circ$. A ray of light hits the interface from within the glass at an angle of $30^\\circ$. What happens to the ray?",
       "options": [
         "It is refracted and enters the air, bending away from the normal.",
         "It undergoes total internal reflection.",
@@ -58,7 +58,7 @@
         "It travels along the boundary of the glass and air."
       ],
       "correctIndex": 0,
-      "explanation": "Since $30^circ < 42^circ$, the ray is refracted. Because it moves into a less dense medium (air), it bends away from the normal. \n\n**Common mistake:** thinking TIR occurs at any angle inside glass."
+      "explanation": "Since $30^\\circ < 42^\\circ$, the ray is refracted. Because it moves into a less dense medium (air), it bends away from the normal. \n\n**Common mistake:** thinking TIR occurs at any angle inside glass."
     },
     {
       "id": "12-3-total-internal-reflection-pyp-q5",

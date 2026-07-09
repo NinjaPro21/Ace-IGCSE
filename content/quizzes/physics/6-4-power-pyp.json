@@ -19,17 +19,17 @@
         "$300\\text{ kW}$"
       ],
       "correctIndex": 0,
-      "explanation": "$W = mgh = 200 \\times 10 \\times 30 = 60000\\text{ J}$. Power $= 60000 / 50 = 1200\\text{ W} = 1.2\\text{ kW}$. \n\n**Common mistake:** Using the mass directly ($200 \\times 30 / 50 = 120\\text{ W}$) without multiplying by $g."
+      "explanation": "$W = mgh = 200 \\times 10 \\times 30 = 60000\\text{ J}$. Power $= 60000 / 50 = 1200\\text{ W} = 1.2\\text{ kW}$. \n\n**Common mistake:** Using the mass directly ($200 \\times 30 / 50 = 120\\text{ W}$) without multiplying by $g$."
     },
     {
       "id": "6-4-power-pyp-q2",
       "type": "mcq",
-      "question": "Which equation correctly represents the power $P$ of a device in terms of work done $W$, energy converted $Delta E$, and time $t?",
+      "question": "Which equation correctly represents the power $P$ of a device in terms of work done $W$, energy converted $\\Delta E$, and time $t$?",
       "options": [
-        "$P = \\frac{W}{t} = \\frac{Delta E}{t}$",
-        "$P = W \\times t = Delta E \\times t$",
-        "$P = \\frac{t}{W} = \\frac{t}{Delta E}$",
-        "$P = W - t = Delta E - t$"
+        "$P = \\frac{W}{t} = \\frac{\\Delta E}{t}$",
+        "$P = W \\times t = \\Delta E \\times t$",
+        "$P = \\frac{t}{W} = \\frac{t}{\\Delta E}$",
+        "$P = W - t = \\Delta E - t$"
       ],
       "correctIndex": 0,
       "explanation": "Power is defined as work done or energy converted divided by the time taken. \n\n**Common mistake:** Multiplying work and time, which does not represent a standard physical rate."

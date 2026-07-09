@@ -70,8 +70,8 @@
         "Gradient = $1$, Intercept = $a$",
         "Gradient = $b$, Intercept = $0$"
       ],
-      "correctIndex": 1,
-      "explanation": "Rearranging $xy = ax + b$ gives $y = a + \\frac{b}{x}$. Plotting $y$ against $\\frac{1}{x}$, the gradient is $b$ and the intercept is $a$.\n\n**Common mistake:** Swapping the roles of $a$ and $b$."
+      "correctIndex": 0,
+      "explanation": "Dividing $xy = ax + b$ by $x$ gives $y = a + \\frac{b}{x}$. So the gradient is $a$ and the intercept is $b$.\n\n**Common mistake:** Swapping the roles of $a$ and $b$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q6",
@@ -89,7 +89,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q7",
       "type": "mcq",
-      "question": "Variables $x$ and $y$ are related by $y = ab^x$. A plot of $\\ln y$ against $x$ passes through $(0, 2)$ and $(4, 10)$. Find the value of $b$.",
+      "question": "Variables $x$ and $y$ are related by $y = ab^x$. A graph of $\\ln y$ against $x$ is a straight line through $(0, 2)$ and $(4, 10)$. Find the value of $b$.",
       "options": [
         "$e^2$",
         "$2$",

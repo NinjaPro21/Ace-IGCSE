@@ -5,7 +5,6 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const quizDir = path.join(__dirname, '..', 'content', 'quizzes', 'add-maths-0606')
 
@@ -242,6 +241,66 @@ const OVERRIDES = {
     explanation:
       '$\\frac{dy}{dx} = 1 + \\ln x$. Setting this to zero gives $x = e^{-1}$ and $y = -\\frac{1}{e}$. Since $\\frac{d^2y}{dx^2} = \\frac{1}{x} > 0$ at $x = \\frac{1}{e}$, the point is a minimum.\n\n**Common mistake:** Differentiating $x\\ln x$ as just $\\ln x$.',
   },
+
+  // ── Class J: unclosed $var$ swallows prose into math mode ───────
+  '1-1-mappings-hard-q3': {
+    explanation:
+      'As $x \\to \\infty$, $y \\to 2$. Since $x+3>0$ for $x>-3$ and $2x-1<2x+6$, the value of $y$ is always less than $2$.\n\n**Common mistake:** Students may incorrectly identify the vertical asymptote ($x=-3$) as a restriction on the range rather than the domain.',
+  },
+  '1-5-graphs-of-y-f-x-where-f-x-is-linear-harder-topic-hard-q2': {
+    question:
+      'The graph $y=|ax+b|$ has a vertex at $(4,0)$ and passes through the point $(0,8)$. Find the values of $a$ and $b$ where $a > 0$.',
+  },
+  '3-1-adding-subtracting-and-multiplying-polynomials-hard-q2': {
+    question:
+      'Find the values of $p$ and $q$ if $(x - 1)(x^2 + px + q) = x^3 - 6x^2 + 11x - 6$.',
+  },
+  '5-6-natural-logarithms-and-exponential-functions-medium-q4': {
+    question:
+      'Given that $\\ln a = p$ and $\\ln b = q$, express $\\ln\\left(\\frac{\\sqrt{a}}{b^3}\\right)$ in terms of $p$ and $q$.',
+  },
+  '6-5-finding-relationships-from-data-hard-q3': {
+    explanation:
+      'Gradient $m = q = -2$. Intercept $c = \\ln p = 4$, so $p = e^4$.\n\n**Common mistake:** Incorrectly relating the plot constants to $p$ and $q$ in the non-linear law.',
+  },
+  '7-2-problems-involving-intersection-of-lines-and-circles-medium-q2': {
+    question:
+      'The line $x + y = 7$ intersects the circle $x^2 + y^2 = 25$ at points $A$ and $B$. Find the midpoint of $AB$.',
+  },
+  '12-7-rates-of-change-harder-topic-easy-q2': {
+    question:
+      'The radius of a circle is increasing at a constant rate of $2$ cm/s. Find the rate of increase of the area when the radius is $10$ cm.',
+    options: [
+      '$40\\pi$ cm$^2$/s',
+      '$20\\pi$ cm$^2$/s',
+      '$100\\pi$ cm$^2$/s',
+      '$4\\pi$ cm$^2$/s',
+    ],
+  },
+  '12-7-rates-of-change-harder-topic-easy-q4': {
+    question:
+      'The side length $s$ of a square is increasing at $3$ cm/s. Find the rate of increase of the perimeter $P$.',
+  },
+  '15-8-15-9-definite-integration-easy-q5': {
+    explanation:
+      'The integral of $\\frac{1}{x}$ is $\\ln|x|$. Evaluating from $1$ to $e$ gives $\\ln e - \\ln 1 = 1$.\n\n**Common mistake:** Option B results if the student confuses the result of the integral with the upper limit variable.',
+  },
+  '15-8-15-9-definite-integration-medium-q5': {
+    explanation:
+      '$[\\ln x]_1^{e^2} = \\ln(e^2) - \\ln(1) = 2$.\n\n**Common mistake:** Incorrectly evaluating $\\ln(e^2)$ as $e^2$ or $\\ln(1)$ as $1$.',
+  },
+  '16-1-applications-of-differentiation-in-kinematics-easy-q1': {
+    question:
+      'A particle moves in a straight line such that its displacement $s$ metres from $O$ is given by $s = t^3 + 5$. Find the velocity of the particle at any time $t$.',
+  },
+  '16-2-applications-of-integration-in-kinematics-harder-top-hard-q3': {
+    question:
+      'A particle $P$ starts from the origin $O$ with velocity $v = 6\\cos(2t)$ m/s. Find the first time $t > 0$ when the particle returns to $O$.',
+    options: ['$\\frac{\\pi}{2}$', '$\\pi$', '$\\frac{\\pi}{4}$', '$2\\pi$'],
+    correctIndex: 0,
+    explanation:
+      '$s = \\int 6\\cos(2t)\\,dt = 3\\sin(2t) + c$. Since $s = 0$ when $t = 0$, $c = 0$. Returns to $O$ when $s = 0$, so $\\sin(2t) = 0$ and the first positive solution is $t = \\frac{\\pi}{2}$.\n\n**Common mistake:** Finding when the velocity is zero instead of when the displacement is zero.',
+  },
 }
 
 function repairQuestion(q) {
@@ -268,7 +327,7 @@ for (const name of fs.readdirSync(quizDir)) {
   let changed = false
   const nextQuestions = (data.questions ?? []).map((q) => {
     const repaired = repairQuestion(q)
-    if (repaired !== q) {
+    if (JSON.stringify(repaired) !== JSON.stringify(q)) {
       changed = true
       questions++
     }

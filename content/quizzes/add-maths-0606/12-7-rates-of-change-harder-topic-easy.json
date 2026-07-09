@@ -24,12 +24,12 @@
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q2",
       "type": "mcq",
-      "question": "The radius of a circle is increasing at a constant rate of 2 cm/s. Find the rate of increase of the area when the radius is $1$ cm.",
+      "question": "The radius of a circle is increasing at a constant rate of $2$ cm/s. Find the rate of increase of the area when the radius is $10$ cm.",
       "options": [
-        "$40\\pi$ cm^2/s",
-        "$20\\pi$ cm^2/s",
-        "$100\\pi$ cm^2/s",
-        "$4\\pi$ cm^2/s"
+        "$40\\pi$ cm$^2$/s",
+        "$20\\pi$ cm$^2$/s",
+        "$100\\pi$ cm$^2$/s",
+        "$4\\pi$ cm$^2$/s"
       ],
       "correctIndex": 0,
       "explanation": "$A = \\pi r^2 \\implies \\frac{dA}{dr} = 2\\pi r$. So $\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt}$, we get $2\\pi(10) \\times 2 = 40\\pi$.\n\n**Common mistake:** Option B is chosen if the student forgets the factor of 2 in the derivative of the area or the rate of increase of the radius."
@@ -50,7 +50,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "The side length $s  of a square is increasing at$3$cm/s. Find the rate of increase of the perimeter P$.",
+      "question": "The side length $s$ of a square is increasing at $3$ cm/s. Find the rate of increase of the perimeter $P$.",
       "options": [
         "$12$ cm/s",
         "$3$ cm/s",

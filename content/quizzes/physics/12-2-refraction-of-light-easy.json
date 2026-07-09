@@ -45,12 +45,12 @@
         "It stops at the boundary"
       ],
       "correctIndex": 0,
-      "explanation": "A light ray that travels along the normal (angle of incidence = $0^circ$) does not bend, although its speed still changes.\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "A light ray that travels along the normal (angle of incidence = $0^\\circ$) does not bend, although its speed still changes.\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "12-2-refraction-of-light-easy-q4",
       "type": "mcq",
-      "question": "Which formula represents Snell's Law for the refractive index $n?",
+      "question": "Which formula represents Snell's Law for the refractive index $n$?",
       "options": [
         "$n = \\frac{sin i}{sin r}$",
         "$n = \\frac{sin r}{sin i}$",
@@ -58,7 +58,7 @@
         "$n = i + r$"
       ],
       "correctIndex": 0,
-      "explanation": "Snell's Law states that the constant ratio of the sine of the angle of incidence ($i ) to the sine of the angle of refraction (r$) is the refractive index ($n$).\n\n**Common mistake:** Review the method above and check units/signs."
+      "explanation": "Snell's Law states that the constant ratio of the sine of the angle of incidence ($i$) to the sine of the angle of refraction ($r$) is the refractive index ($n$).\n\n**Common mistake:** Review the method above and check units/signs."
     },
     {
       "id": "12-2-refraction-of-light-easy-q5",
@@ -66,7 +66,7 @@
       "question": "What is the SI unit for the refractive index of a material?",
       "options": [
         "It has no unit",
-        "Degrees ($^circ$)",
+        "Degrees ($^\\circ$)",
         "Metres per second (m/s)",
         "Newtons (N)"
       ],

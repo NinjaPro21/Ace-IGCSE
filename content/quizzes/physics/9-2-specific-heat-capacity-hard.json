@@ -19,7 +19,7 @@
         "$83.3\\text{ J/(kg K)}$"
       ],
       "correctIndex": 0,
-      "explanation": "Energy $E = P \\times t = 50 \\times 90 = 4500\\text{ J}$. Temperature change $Delta theta = 25^\\circ\\text{C}$. $c = 4500 / (0.6 \\times 25) = 300\\text{ J/(kg K)}$. \n\n**Common mistake:** Using the final temperature ($45$) instead of the change ($25$)."
+      "explanation": "Energy $E = P \\times t = 50 \\times 90 = 4500\\text{ J}$. Temperature change $\\Delta theta = 25^\\circ\\text{C}$. $c = 4500 / (0.6 \\times 25) = 300\\text{ J/(kg K)}$. \n\n**Common mistake:** Using the final temperature ($45$) instead of the change ($25$)."
     },
     {
       "id": "9-2-specific-heat-capacity-hard-q2",
@@ -32,7 +32,7 @@
         "The thermometer absorbs a significant amount of the energy meant for the block"
       ],
       "correctIndex": 0,
-      "explanation": "If heat is lost, the actual $Delta theta$ is smaller than it would be if all energy stayed in the block. Since $c \\propto 1/Delta theta$, a smaller $Delta theta$ makes the calculated $c$ larger. \n\n**Common mistake:** Thinking heat loss would make the calculated value lower."
+      "explanation": "Use $E = mc\\Delta\\theta$ with consistent units. Rearrange to find $\\Delta\\theta$ before substituting values. \n\n**Common mistake:** Mixing grams and kilograms without converting."
     },
     {
       "id": "9-2-specific-heat-capacity-hard-q3",
@@ -58,7 +58,7 @@
         "$50^\\circ\\text{C}$"
       ],
       "correctIndex": 0,
-      "explanation": "$E = P \\times t = 25 \\times (5 \\times 60) = 7500\\text{ J}$. $Delta theta = E / (m \\times c) = 7500 / (0.15 \\times 4000) = 7500 / 600 = 12.5^\\circ\\text{C}$. \n\n**Common mistake:** Failing to convert five minutes to^300 seconds."
+      "explanation": "$E = P \\times t = 25 \\times (5 \\times 60) = 7500\\text{ J}$. $\\Delta theta = E / (m \\times c) = 7500 / (0.15 \\times 4000) = 7500 / 600 = 12.5^\\circ\\text{C}$. \n\n**Common mistake:** Failing to convert five minutes to^300 seconds."
     },
     {
       "id": "9-2-specific-heat-capacity-hard-q5",
@@ -71,7 +71,7 @@
         "Block A will have a higher average particle speed"
       ],
       "correctIndex": 0,
-      "explanation": "Since $Delta theta = Delta E / (m \\times c)$, a higher $c$ results in a smaller $Delta theta$ for the same energy input. Therefore, Block B (lower $c$) rises more in temperature. \n\n**Common mistake:** Thinking a 'higher capacity' means it can reach a higher temperature more easily."
+      "explanation": "Compare $Q = mc\\Delta\\theta$ for each metal: the smaller specific heat capacity needs less energy for the same temperature rise. \n\n**Common mistake:** Assuming equal masses always reach the same temperature after equal heating times without comparing $c$."
     }
   ]
 }

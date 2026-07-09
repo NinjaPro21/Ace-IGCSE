@@ -19,7 +19,7 @@
         "$160\\text{ m/s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Step 1: Impulse $= F \\times t = 16 \\times 5 = 80\\text{ N s}$. Step 2: Change in momentum $Delta p = Impulse = m Delta v$. So $80 = 2 \\times Delta v$, which means $Delta v = 40\\text{ m/s}$. \n\n**Common mistake:** Providing the impulse ($80$) as the speed change."
+      "explanation": "Step 1: Impulse $= F \\times t = 16 \\times 5 = 80\\text{ N s}$. Step 2: Change in momentum $\\Delta p = Impulse = m $\\Delta v$. So $80 = 2 \\times $\\\\Delta v$, which means $\\Delta v = 40\\text{ m/s}$. \n\n**Common mistake:** Providing the impulse ($80$) as the speed change."
     },
     {
       "id": "5-2-momentum-impulse-and-force-hard-q2",
@@ -32,7 +32,7 @@
         "$0.75\\text{ N}$"
       ],
       "correctIndex": 0,
-      "explanation": "Total change in momentum $Delta p = 10 \\times 15 = 150\\text{ kg m/s}$. Total time $t = 20\\text{ s}$. Average Force $= Delta p / t = 150 / 20 = 7.5\\text{ N}$. \n\n**Common mistake:** Using only a single collision's momentum change ($15/20 = 0.75\\text{ N}$)."
+      "explanation": "Total change in momentum $\\Delta p = 10 \\times 15 = 150\\text{ kg m/s}$. Total time $t = 20\\text{ s}$. Average Force $= \\Delta p / t = 150 / 20 = 7.5\\text{ N}$. \n\n**Common mistake:** Using only a single collision's momentum change ($15/20 = 0.75\\text{ N}$)."
     },
     {
       "id": "5-2-momentum-impulse-and-force-hard-q3",
@@ -58,12 +58,12 @@
         "$64000\\text{ N s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using conservation of momentum: $(2000 \\times 8) + 0 = (2000 + 8000) \\times V implies 16000 = 10000V implies V = 1.6\\text{ m/s}$. Impulse on empty car $= Delta p = m(v - u) = 2000(1.6 - 8) = -12800\\text{ N s}$. Magnitude is $1$. \n\n**Common mistake:** Using the total initial momentum ($16000$) as the impulse on a single car."
+      "explanation": "Using conservation of momentum: $(2000 \\times 8) + 0 = (2000 + 8000) \\times V implies 16000 = 10000V implies V = 1.6\\text{ m/s}$. Impulse on empty car $= \\Delta p = m(v - u) = 2000(1.6 - 8) = -12800\\text{ N s}$. Magnitude is $1$. \n\n**Common mistake:** Using the total initial momentum ($16000$) as the impulse on a single car."
     },
     {
       "id": "5-2-momentum-impulse-and-force-hard-q5",
       "type": "mcq",
-      "question": "Under what condition is the equation $F = ma$ exactly the same as $F = \\frac{Delta p}{Delta t}$?",
+      "question": "Under what condition is the equation $F = ma$ exactly the same as $F = \\frac{\\Delta p}{\\Delta t}$?",
       "options": [
         "When the mass of the object does not change",
         "Only when the object starts from rest",
@@ -71,7 +71,7 @@
         "When air resistance is ignored"
       ],
       "correctIndex": 0,
-      "explanation": "The note states $F = Delta p / Delta t$ is the same as $F = ma$ for special cases when the mass of the object does not change. If mass changes, the derivative of $mv$ includes a mass change term. \n\n**Common mistake:** Thinking they are always identical under all physics conditions."
+      "explanation": "From $F = \\Delta p / \\Delta t$, a smaller contact time means a larger average force for the same momentum change. \n\n**Common mistake:** Assuming the impulse changes when only the time changes."
     }
   ]
 }

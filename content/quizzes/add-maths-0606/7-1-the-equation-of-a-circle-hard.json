@@ -19,12 +19,12 @@
         "$x^2 + y^2 = 10$"
       ],
       "correctIndex": 0,
-      "explanation": "The points form a right-angled triangle. The hypotenuse joining $(8, 0)$ and $(0, 6)$ is the diameter. Centre is the midpoint $(4, 3)$. Radius is half the distance $\\sqrt{8}^2 + 6^2$, so $r = 10/2 = 5$.\n\n**Common mistake:** Assuming the centre is at the origin $(0,0)$ because one of the points is there."
+      "explanation": "The points form a right-angled triangle. The hypotenuse joining $(8, 0)$ and $(0, 6)$ is the diameter. Centre is the midpoint $(4, 3)$. Radius is half the distance $\\sqrt{8^2 + 6^2} = 10$, so $r = 5$.\n\n**Common mistake:** Assuming the centre is at the origin $(0,0)$ because one of the points is there."
     },
     {
       "id": "7-1-the-equation-of-a-circle-hard-q2",
       "type": "mcq",
-      "question": "Find the equation of the circle that touches the $x$. $(4, 0)$ and also passes through the point $(0, 8)$.",
+      "question": "Find the equation of the circle that touches the $x$-axis at $(4, 0)$ and also passes through the point $(0, 8)$.",
       "options": [
         "$(x - 4)^2 + (y - 5)^2 = 25$",
         "$(x - 4)^2 + (y - 4)^2 = 16$",
@@ -32,7 +32,7 @@
         "$(x - 5)^2 + (y - 4)^2 = 25$"
       ],
       "correctIndex": 0,
-      "explanation": "If it touches the $x$. $(4, 0)$, the centre is $(4, r)$ and radius is $r$. $(0-4)^2 + (8-r)^2 = r^2 \\Rightarrow 16 + 64 - 16r + r^2 = r^2 \\Rightarrow 16r = 80 \\Rightarrow r = 5$.\n\n**Common mistake:** Setting the centre to $(4, 0)$ or assuming the radius is 4 based on the $x$-intercept."
+      "explanation": "If it touches the $x$-axis at $(4, 0)$, the centre is $(4, r)$ and the radius is $r$. Then $(0-4)^2 + (8-r)^2 = r^2 \\Rightarrow 16 + 64 - 16r = 0 \\Rightarrow r = 5$.\n\n**Common mistake:** Setting the centre to $(4, 0)$ or assuming the radius is 4 based on the $x$-intercept."
     },
     {
       "id": "7-1-the-equation-of-a-circle-hard-q3",
@@ -50,7 +50,7 @@
     {
       "id": "7-1-the-equation-of-a-circle-hard-q4",
       "type": "mcq",
-      "question": "Determine the set of values of $k$. So $x^2 + y^2 - 4x + 6y + k = 0$ represents a real circle.",
+      "question": "Determine the set of values of $k$ for which $x^2 + y^2 - 4x + 6y + k = 0$ represents a real circle.",
       "options": [
         "$k < 13$",
         "$k \\leq 13$",

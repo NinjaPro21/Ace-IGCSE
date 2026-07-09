@@ -24,15 +24,15 @@
     {
       "id": "12-1-reflection-of-light-pyp-q2",
       "type": "mcq",
-      "question": "A student measures the angle of incidence ($i ) and the angle of reflection (r$) for a plane mirror. Which set of results follows the Law of Reflection?",
+      "question": "A ray of light strikes a plane mirror. The angle between the incident ray and the mirror surface is $35^\\circ$. What is the angle of reflection?",
       "options": [
-        "$i = 30^circ, r = 30^circ$",
-        "$i = 30^circ, r = 60^circ$",
-        "$i = 30^circ, r = 90^circ$",
-        "$i = 30^circ, r = 0^circ$"
+        "$i = 30^\\circ, r = 30^\\circ$",
+        "$i = 30^\\circ, r = 60^\\circ$",
+        "$i = 30^\\circ, r = 90^\\circ$",
+        "$i = 30^\\circ, r = 0^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "The Law of Reflection states that the angle of incidence equals the angle of reflection ($i=r$). \n\n**Common mistake:** thinking $r$ is the angle between the ray and the surface ($60^circ$)."
+      "explanation": "The Law of Reflection states that the angle of incidence equals the angle of reflection ($i=r$). \n\n**Common mistake:** thinking $r$ is the angle between the ray and the surface ($60^\\circ$)."
     },
     {
       "id": "12-1-reflection-of-light-pyp-q3",
@@ -63,15 +63,15 @@
     {
       "id": "12-1-reflection-of-light-pyp-q5",
       "type": "mcq",
-      "question": "A ray of light is incident on a plane mirror. If the angle of incidence increases by $5^circ$, by how much does the angle between the incident ray and the reflected ray increase?",
+      "question": "A ray of light is incident on a plane mirror. If the angle of incidence increases by $5^\\circ$, by how much does the angle between the incident ray and the reflected ray increase?",
       "options": [
-        "$10^circ$",
-        "$5^circ$",
-        "$2.5^circ$",
-        "$0^circ$"
+        "$10^\\circ$",
+        "$5^\\circ$",
+        "$2.5^\\circ$",
+        "$0^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "The total angle between the rays is $i + r$. Since $i = r$, an increase of $5^circ$ in $i  also increases r$ by $5^circ$, leading to a total increase of $10^circ$. \n\n**Common mistake:** thinking the total angle only increases by $5^circ."
+      "explanation": "In a periscope, light reflects from two plane mirrors at $45^\\circ$ so the image is seen around a corner. \n\n**Common mistake:** Confusing reflection with refraction through lenses."
     }
   ]
 }

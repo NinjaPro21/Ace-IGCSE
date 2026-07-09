@@ -19,7 +19,7 @@
         "$0.309\\text{ MPa}$"
       ],
       "correctIndex": 0,
-      "explanation": "$Delta p = 1030 \\times 10 \\times 3000 = 30900000\\text{ Pa}$. To convert to MPa, divide by^1000000, giving $30.9\\text{ MPa}$. \n\n**Common mistake:** Incorrectly converting units from Pa to MPa."
+      "explanation": "$\\Delta p = 1030 \\times 10 \\times 3000 = 30900000\\text{ Pa}$. To convert to MPa, divide by $1000000$, giving $30.9\\text{ MPa}$. \n\n**Common mistake:** Incorrectly converting units from Pa to MPa."
     },
     {
       "id": "7-2-pressure-in-liquids-hard-q2",
@@ -50,7 +50,7 @@
     {
       "id": "7-2-pressure-in-liquids-hard-q4",
       "type": "mcq",
-      "question": "If an object moves in a liquid such that the pressure exerted on it changes by $0.10\\text{ MPa}$, calculate its change in depth. (Take $rho = 1000\\text{ kg/m}^3$ and $g = 10\\text{ N/kg}$)",
+      "question": "If an object moves in a liquid such that the pressure exerted on it changes by $0.10\\text{ MPa}$, calculate its change in depth. (Take $\\rho = 1000\\text{ kg/m}^3$ and $g = 10\\text{ N/kg}$)",
       "options": [
         "$10\\text{ m}$",
         "$1\\text{ m}$",
@@ -58,7 +58,7 @@
         "$0.1\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "$0.10\\text{ MPa} = 100000\\text{ Pa}$. $Delta h = Delta p / (rho g) = 100000 / (1000 \\times 10) = 10\\text{ m}$. \n\n**Common mistake:** Failing to convert MPa to Pa before starting the calculation ($0.1 / 10000 = 0.00001$)."
+      "explanation": "$0.10\\text{ MPa} = 100000\\text{ Pa}$. $\\Delta h = \\Delta p / (\\rho g) = 100000 / (1000 \\times 10) = 10\\text{ m}$. \n\n**Common mistake:** Failing to convert MPa to Pa before starting the calculation ($0.1 / 10000 = 0.00001$)."
     },
     {
       "id": "7-2-pressure-in-liquids-hard-q5",
@@ -71,7 +71,7 @@
         "The pressure is least in the conical container"
       ],
       "correctIndex": 0,
-      "explanation": "Liquid pressure only depends on density and depth ($rho g h$). It does not depend on the shape or width of the container. \n\n**Common mistake:** Thinking a larger volume or area results in higher pressure at the base."
+      "explanation": "Liquid pressure only depends on density and depth ($\\rho g h$). It does not depend on the shape or width of the container. \n\n**Common mistake:** Thinking a larger volume or area results in higher pressure at the base."
     }
   ]
 }

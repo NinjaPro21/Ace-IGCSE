@@ -151,6 +151,12 @@ function fixBrokenPartialDisplayMath(text: string): string {
     if (!trimmed || trimmed.includes('$$')) return `$$\n${expr}\n`
     return `$${trimmed}$`
   })
+  // Unclosed $$\n… at end of string (no trailing newline)
+  t = t.replace(/\$\$\s*\n([\s\S]+)$/g, (_, expr) => {
+    const trimmed = expr.trim()
+    if (!trimmed || trimmed.includes('$$')) return `$$\n${expr}`
+    return `$${trimmed}$`
+  })
   return t
 }
 
@@ -333,7 +339,25 @@ export function repairQuizImportArtifacts(text: string): string {
   t = t.replace(/co\$s/gi, '\\cos')
   t = t.replace(/ta\$n/gi, '\\tan')
   t = t.replace(/se\$c/gi, '\\sec')
-  t = t.replace(/\$fractional\$/gi, '\\frac{1}{a}')
+  t = t.replace(/\\frac\{1\}\{a\}/g, 'fraction')
+  t = t.replace(/\$fraction:\$/gi, 'fraction:')
+  t = t.replace(/\$tions:\$/gi, 'fractions:')
+  t = t.replace(/\$fractions\$/gi, 'fractions')
+  t = t.replace(/\$fraction\$/gi, 'fraction')
+  t = t.replace(/\$\*\*Common mistake:\*\*/g, '\n\n**Common mistake:**')
+  t = t.replace(/\$n\$\.\s+\$/g, 'nth term $')
+  t = t.replace(/complete \$n\$\./gi, 'formula for the nth term of')
+  t = t.replace(/The \$n\$\.\s+/g, 'The nth term ')
+  t = t.replace(/an \$n\$\.\s+/g, 'an nth term ')
+  t = t.replace(/Find the complete \$n\$\./gi, 'Find the formula for the nth term of')
+  t = t.replace(/\$fraction:\s*/gi, 'fraction: ')
+  t = t.replace(/algebraic \$fraction\$/gi, 'algebraic fraction')
+  t = t.replace(/rational \$fraction\$/gi, 'rational fraction')
+  t = t.replace(/simplified \$fraction\./gi, 'simplified fraction.')
+  // Close math opened with $ but sentence ends with expr. (missing closing $)
+  if (((t.match(/(?<!\\)\$/g) ?? []).length % 2) !== 0) {
+    t = t.replace(/(\$[^$\n]+)\.(?="|'|\s*$)/g, '$1$.')
+  }
   t = t.replace(/\$\\frac\{1\}\{3\(\$e\^\{([^}]+)\}\$-?\s*1\)\}\$/g, '$\\frac{1}{3}(e^{$1}-1)$')
   t = t.replace(/(?<![a-zA-Z])([a-z)\}])\s+\$(\d+)\$/g, (_, base, exp) => `${base}^${exp}`)
   t = t.replace(/\be\s+\$(\d+)\$/g, (_, exp) => `e^${exp}`)
@@ -429,7 +453,7 @@ export function repairImportedNoteMath(text: string): string {
   t = t.replace(/\\t\\frac/g, '\\frac')
   t = t.replace(/\t\\frac/g, '\\frac')
   t = t.replace(/([^\n])\.[ \t]+\$\$/g, '$1.\n\n$$')
-  t = t.replace(/([=\\implies])\$([^$]+)\$/g, '$1 $2')
+  t = t.replace(/(?:=|\\implies)\$([^$]+)\$/g, '$1 $2')
   t = t.replace(/\\sqrt\{\$([^$]+)\$([^}]*)\}/g, '\\sqrt{$1$2}')
   t = t.replace(/([a-zA-Z0-9])\s\.\s(?=[a-zA-Z0-9])/g, '$1^2 ')
   t = t.replace(/([a-zA-Z0-9])\s\.\s\+/g, '$1^2 +')
@@ -754,8 +778,9 @@ export function fixBrokenMappingNotation(text: string): string {
   // Corrupted import fractions
   t = t.replace(/\\frac\{2x-\}\{1x\+3\}/g, '\\frac{2x-1}{x+3}')
 
-  // Trailing $ from broken display blocks — not when $ closes inline math before "where"
-  t = t.replace(/(?<![\d})\]\\])\$ where/g, ' where')
+  // Trailing $ from broken display blocks — not when $ closes inline math ($b$ where)
+  // Trailing $ from broken display blocks — not when $ closes inline math ($b$ where)
+  t = t.replace(/(?<![a-zA-Z\d)\}\]\\])\$ where/g, ' where')
   // Orphan $ glued after a bare number+period at line end (docx), not inline-math close-before-period
   t = t.replace(/(?<!\$[^$\n]{0,120})(\d)\.\$(\s*)$/gm, '$1.$2')
   t = t.replace(/\$ for \$x\$/g, ' for $x$')
@@ -940,6 +965,7 @@ function fixDocxSoGlueArtifacts(text: string): string {
   t = t.replace(/\\pi\^2 So /g, '\\pi$. So $')
   t = t.replace(/(?<=\s)([a-zA-Z0-9])\^2 So /g, (_, c) => `${c}$. So $`)
   t = t.replace(/values of \$m\^2 So \$?y =/gi, 'values of $m$ for which $y =')
+  t = t.replace(/\$([a-zA-Z])\^2 (\d+)(\\text\{[^}]+\})?/g, (_, sym, num, unit) => `$${sym}$, is $${num}$${unit ?? ''}`)
   t = t.replace(/= p\^2 So \\lg b = q/gi, '= $p$ and $\\lg b = q$')
   t = t.replace(/= p\^2 So \\ln b = q/gi, '= $p$ and $\\ln b = q$')
   t = t.replace(/\$ \./g, '$.')
@@ -949,8 +975,11 @@ function fixDocxSoGlueArtifacts(text: string): string {
 /** Docx ate "$N$" as "^N" after prepositions (rate of^12 → rate of $12$). */
 function fixDocxCaretGlue(text: string): string {
   return text.replace(
-    /\b(of|or|between|by|side|radius|and|at|height|length|ladder)\^(\d+)/gi,
+    /\b(of|or|between|by|side|radius|and|at|height|length|ladder|for)\^(\d+)/gi,
     (_, word, n) => `${word} $${n}$`,
+  ).replace(
+    /(?<![\d$\\])\^(\d+(?:\.\d+)?)(?=\s*(?:km|m\/s|m\/h|m|s|cm|mm|Litres?|L|km\/h|km\/L|minutes?|hours?|km\/h))/gi,
+    ' $1',
   )
 }
 

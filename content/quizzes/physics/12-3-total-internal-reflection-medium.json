@@ -13,18 +13,18 @@
       "type": "mcq",
       "question": "A certain type of glass has a refractive index of $1.50$. Calculate its critical angle.",
       "options": [
-        "$41.8^circ$",
-        "$48.8^circ$",
-        "$30.0^circ$",
-        "$90.0^circ$"
+        "$41.8^\\circ$",
+        "$48.8^\\circ$",
+        "$30.0^\\circ$",
+        "$90.0^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $sin c = \\frac{1}{n} = \\frac{1}{1.5} \\approx 0.667$. The inverse sine of $0.667$ is $41.8^circ$. \n\n**Common mistake:** using $n=1.33$ (water), which gives $48$.8^circ."
+      "explanation": "Using $sin c = \\frac{1}{n} = \\frac{1}{1.5} \\approx 0.667$. The inverse sine of $0.667$ is $41.8^\\circ$. \n\n**Common mistake:** using $n=1.33$ (water), which gives $48$.8^\\circ."
     },
     {
       "id": "12-3-total-internal-reflection-medium-q2",
       "type": "mcq",
-      "question": "The critical angle for a specific liquid is $48.8^circ$. What is the refractive index of this liquid?",
+      "question": "The critical angle for a specific liquid is $48.8^\\circ$. What is the refractive index of this liquid?",
       "options": [
         "$1.33$",
         "$1.50$",
@@ -32,7 +32,7 @@
         "$0.75$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $n = \\frac{1}{sin(48.8^circ)} \\approx \\frac{1}{0.752} \\approx 1.33$. \n\n**Common mistake:** calculating $sin(48.8)$ and stopping at $0.75$."
+      "explanation": "Using $n = \\frac{1}{sin(48.8^\\circ)} \\approx \\frac{1}{0.752} \\approx 1.33$. \n\n**Common mistake:** calculating $sin(48.8)$ and stopping at $0.75$."
     },
     {
       "id": "12-3-total-internal-reflection-medium-q3",
@@ -52,13 +52,13 @@
       "type": "mcq",
       "question": "A ray of light is traveling inside a diamond ($n=2.42$). What is the critical angle for diamond?",
       "options": [
-        "$24.4^circ$",
-        "$41.8^circ$",
-        "$65.6^circ$",
-        "$90.0^circ$"
+        "$24.4^\\circ$",
+        "$41.8^\\circ$",
+        "$65.6^\\circ$",
+        "$90.0^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "$sin c = \\frac{1}{2.42} \\approx 0.413$. $c = arcsin(0.413) \\approx 24.4^circ$. \n\n**Common mistake:** assuming all critical angles are around $42^circ$ like standard glass."
+      "explanation": "$sin c = \\frac{1}{2.42} \\approx 0.413$. $c = arcsin(0.413) \\approx 24.4^\\circ$. \n\n**Common mistake:** assuming all critical angles are around $42^\\circ$ like standard glass."
     },
     {
       "id": "12-3-total-internal-reflection-medium-q5",
@@ -71,7 +71,7 @@
         "The light ray is completely absorbed by the boundary."
       ],
       "correctIndex": 0,
-      "explanation": "When $i = c$, the angle of refraction is $90^circ$, meaning the ray travels along the interface (boundary). \n\n**Common mistake:** thinking total internal reflection starts 'at' the critical angle rather than 'above' it."
+      "explanation": "When $i = c$, the angle of refraction is $90^\\circ$, meaning the ray travels along the interface (boundary). \n\n**Common mistake:** thinking total internal reflection starts 'at' the critical angle rather than 'above' it."
     }
   ]
 }

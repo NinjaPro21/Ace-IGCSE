@@ -24,15 +24,15 @@
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-hard-q2",
       "type": "mcq",
-      "question": "Find the coordinates of the points of intersection between $(x - 1)^2 + (y - 2)^2 = 5$ and the line $x + 2y = 10$.",
+      "question": "Find the point where the line $x + 2y = 10$ touches the circle $(x - 1)^2 + (y - 2)^2 = 5$.",
       "options": [
-        "$(2, 4)$ and $(3.6, 3.2)$",
-        "$(0, 5)$ and $(4, 3)$",
-        "$(2, 4)$ and $(1, 4.5)$",
-        "$(4, 3)$ and $(-2, 6)$"
+        "$(2, 4)$",
+        "$(4, 3)$",
+        "$(0, 5)$",
+        "$(3, 3.5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 10 - 2y$. $(9-2y)^2 + (y-2)^2 = 5 \\Rightarrow 81 - 36y + 4y^2 + y^2 - 4y + 4 = 5 \\Rightarrow 5y^2 - 40y + 80 = 0 \\Rightarrow y^2 - 8y + 16 = 0$. $y = 4$ is a repeated root. Point is $(2, 4)$. (Correction: Line is tangent).\n\n**Common mistake:** Incorrectly expanding $(9-2y)^2$ as $81 - 4y^2$ or failing to group the $y$ terms."
+      "explanation": "Substitute $x = 10 - 2y$ to get $5y^2 - 40y + 80 = 0 \\Rightarrow (y-4)^2 = 0$, so the line is tangent at $(2, 4)$.\n\n**Common mistake:** Incorrectly expanding $(9-2y)^2$ as $81 - 4y^2$ or failing to group the $y$ terms."
     },
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-hard-q3",
@@ -50,7 +50,7 @@
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-hard-q4",
       "type": "mcq",
-      "question": "Determine the set of values of $k$. So $y = kx2(x - 10)^2 + y^2 = 36$.",
+      "question": "Find the set of values of $k$ for which the line $y = kx$ intersects the circle $(x - 10)^2 + y^2 = 36$ in two distinct points.",
       "options": [
         "$-\\frac{3}{4} < k < \\frac{3}{4}$",
         "$k > \\frac{3}{4}$ or $k < -\\frac{3}{4}$",
@@ -58,7 +58,7 @@
         "$k < 0.75$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $y=kx$. $(x-10)^2 + k^2x^2 = 36 \\Rightarrow x^2(1+k^2) - 20x + 64 = 0$. For no intersection, $\\Delta = 400 - 4(1+k^2)(64) < 0 \\Rightarrow 400 - 256 - 256k^2 < 0 \\Rightarrow 144 < 256k^2 \\Rightarrow k^2 > 144/256 = 9/16$. So $k > 3/4$ or $k < -3/4$. (Wait: question asked NOT intersect). Correct logic: $k^2 < 9/16$ for intersection? No, $k^2 < 9/16$ means the line is inside the 'cone' of tangency. Re-eval: $|k| < 3/4$.\n\n**Common mistake:** Reversing the inequality for 'no intersection' and 'two intersections'."
+      "explanation": "Substitute $y = kx$: $(x-10)^2 + k^2x^2 = 36 \\Rightarrow x^2(1+k^2) - 20x + 64 = 0$. For two intersections, $\\Delta > 0 \\Rightarrow 400 - 256(1+k^2) > 0 \\Rightarrow k^2 < \\frac{9}{16}$, so $-\\frac{3}{4} < k < \\frac{3}{4}$.\n\n**Common mistake:** Reversing the inequality for two intersections and no intersection."
     },
     {
       "id": "7-2-problems-involving-intersection-of-lines-and-circles-hard-q5",
@@ -70,8 +70,8 @@
         "7 units",
         "$\\sqrt{162} units$"
       ],
-      "correctIndex": 0,
-      "explanation": "$x^2 + (x+2)^2 - 4x - 2(x+2) - 20 = 0 \\Rightarrow x^2 + x^2 + 4x + 4 - 4x - 2x - 4 - 20 = 0 \\Rightarrow 2x^2 - 2x - 20 = 0 \\Rightarrow x^2 - x - 10 = 0$. Length is $\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} = \\sqrt{2(x_2-x_1)^2} = \\sqrt{2\\Delta/a^2} = \\sqrt{2(1+40)} = \\sqrt{82}$. (Check points $x = (1 \\pm \\sqrt{41})/2$).\n\n**Common mistake:** Calculating the coordinates numerically and rounding too early, leading to an imprecise chord length."
+      "correctIndex": 1,
+      "explanation": "Substituting $y = x + 2$ gives $2x^2 - 2x - 20 = 0 \\Rightarrow x^2 - x - 10 = 0$. The chord length is $\\sqrt{2}(x_2-x_1) = \\sqrt{2 \\cdot 41} = \\sqrt{82}$ units.\n\n**Common mistake:** Calculating the coordinates numerically and rounding too early, leading to an imprecise chord length."
     }
   ]
 }

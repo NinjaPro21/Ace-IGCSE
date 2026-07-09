@@ -45,7 +45,7 @@
         "$5.4 \\times 10^{9}\\text{ MW}$"
       ],
       "correctIndex": 0,
-      "explanation": "Time in one day $= 24 \\times 3600 = 86400\\text{ s}$. Power $= (7.5 \\times 10^{13}) / 86400 \\approx 868055556\\text{ W} \\approx 868\\text{ MW}$. \n\n**Common mistake:** Dividing by^24 (hours) only rather than seconds."
+      "explanation": "Time in one day $= 24 \\times 3600 = 86400\\text{ s}$. Power $= (7.5 \\times 10^{13}) / 86400 \\approx 868055556\\text{ W} \\approx 868\\text{ MW}$. \n\n**Common mistake:** Dividing by $24$ (hours) only rather than seconds."
     },
     {
       "id": "6-4-power-hard-q4",
@@ -71,7 +71,7 @@
         "No work is done in either case"
       ],
       "correctIndex": 0,
-      "explanation": "In A, the distance $s  is doubled compared to B. Since Work = Fs , Work in A is double. Because Power = Work / time$ and time is the same, Power in A is double. \n\n**Common mistake:** Thinking power only depends on the force applied regardless of distance."
+      "explanation": "In A, the distance $s$ is doubled compared to B. Since Work $= Fs$, Work in A is double. Because Power $=$ Work $/$ time and time is the same, Power in A is double. \n\n**Common mistake:** Thinking power only depends on the force applied regardless of distance."
     }
   ]
 }

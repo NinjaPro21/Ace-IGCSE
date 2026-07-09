@@ -24,20 +24,20 @@
     {
       "id": "7-2-pressure-in-liquids-easy-q2",
       "type": "mcq",
-      "question": "Which of the following is the correct equation for the change in pressure ($Delta p$) in a liquid?",
+      "question": "Which of the following is the correct equation for the change in pressure ($\\Delta p$) in a liquid?",
       "options": [
-        "$Delta p = rho g Delta h$",
-        "$Delta p = F / A$",
-        "$Delta p = m / V$",
-        "$Delta p = m g h$"
+        "$\\Delta p = \\rho g \\Delta h$",
+        "$\\Delta p = F / A$",
+        "$\\Delta p = m / V$",
+        "$\\Delta p = \\rho / g h$"
       ],
       "correctIndex": 0,
-      "explanation": "The formula $Delta p = rho g Delta h$ relates change in pressure to density, gravity, and change in depth. \n\n**Common mistake:** Using $F/A$, which is the general definition of pressure but not specific to depth in a fluid."
+      "explanation": "The formula $\\Delta p = \\rho g $\\Delta h$ relates change in pressure to density, gravity, and change in depth. \n\n**Common mistake:** Using $F/A$, which is the general definition of pressure but not specific to depth in a fluid$."
     },
     {
       "id": "7-2-pressure-in-liquids-easy-q3",
       "type": "mcq",
-      "question": "What does the symbol $rho$ (rho) represent in the liquid pressure formula?",
+      "question": "What does the symbol $\\rho$ (rho) represent in the liquid pressure formula?",
       "options": [
         "The density of the liquid",
         "The weight of the liquid",
@@ -45,7 +45,7 @@
         "The gravitational field strength"
       ],
       "correctIndex": 0,
-      "explanation": "In physics, the Greek letter $rho$ is the standard symbol for the density of a substance. \n\n**Common mistake:** Confusing $rho$ with $p$ (pressure) due to their visual similarity."
+      "explanation": "In physics, the Greek letter $\\rho$ is the standard symbol for the density of a substance. \n\n**Common mistake:** Confusing $\\rho$ with $p$ (pressure) due to their visual similarity."
     },
     {
       "id": "7-2-pressure-in-liquids-easy-q4",

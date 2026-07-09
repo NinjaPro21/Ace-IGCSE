@@ -19,7 +19,7 @@
         "$5.4\\text{ N s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Impulse is the change in momentum: $Delta(mv) = 0.4\\text{ kg} \\times (5 - 0)\\text{ m/s} = 2.0\\text{ kg m/s}$ (or $N s )$.\n\n**Common mistake:** Using only the speed (5.0$) or mass ($0.4$) as the impulse."
+      "explanation": "Impulse is the change in momentum: $Delta(mv) = 0.4\\text{ kg} \\times (5 - 0)\\text{ m/s} = 2.0\\text{ kg m/s}$ (or $N s )$.\n\n**Common mistake:** Using only the speed (5.0$) or mass ($0.4$) as the impulse$."
     },
     {
       "id": "5-2-momentum-impulse-and-force-medium-q2",
@@ -32,7 +32,7 @@
         "$0.5\\text{ s}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $FDelta t = Impulse , so Delta t = Impulse / F = 2.0 / 100 = 0.02\\text{ s}$. \n\n**Common mistake:** Multiplying the numbers ($200$) instead of dividing."
+      "explanation": "Using $FDelta t = Impulse , so \\Delta t = Impulse / F = 2.0 / 100 = 0.02\\text{ s}$. \n\n**Common mistake:** Multiplying the numbers ($200$) instead of dividing."
     },
     {
       "id": "5-2-momentum-impulse-and-force-medium-q3",
@@ -58,20 +58,20 @@
         "The force on X is half that of Y"
       ],
       "correctIndex": 0,
-      "explanation": "Since $F = Delta p / t$, if time is $1$ \\times smaller ($0.1$ vs $0.5$), the force must be^5 \\times larger. \n\n**Common mistake:** Assuming same impulse means same force regardless of time."
+      "explanation": "Since $F = \\Delta p / t$, if time is $1$ \\times smaller ($0.1$ vs $0.5$), the force must be^5 \\times larger. \n\n**Common mistake:** Assuming same impulse means same force regardless of time."
     },
     {
       "id": "5-2-momentum-impulse-and-force-medium-q5",
       "type": "mcq",
-      "question": "Which equation correctly represents the relationship between Force ($F$), mass ($m ), change in velocity (Delta v$), and time ($t$)?",
+      "question": "Which equation correctly represents the relationship between force ($F$), mass ($m$), change in velocity ($\\Delta v$), and time ($t$)?",
       "options": [
-        "$F = \\frac{m Delta v}{t}$",
-        "$F = m Delta v t$",
-        "$F = \\frac{m t}{Delta v}$",
-        "$F = \\frac{t}{m Delta v}$"
+        "$F = \\frac{m \\Delta v}{t}$",
+        "$F = m \\Delta v \\times t$",
+        "$F = \\frac{m t}{\\Delta v}$",
+        "$F = \\frac{t}{m \\Delta v}$"
       ],
       "correctIndex": 0,
-      "explanation": "This is derived from $F = Delta p / t where Delta p = m Delta v$. So F = m Delta v / t2\n\n**Common mistake:** Placing time in the numerator or ignoring the division entirely."
+      "explanation": "This is derived from $F = \\Delta p / \\Delta t$ where $\\Delta p = m \\Delta v$. So $F = m \\Delta v / t$. \n\n**Common mistake:** Placing time in the numerator or ignoring the division entirely."
     }
   ]
 }

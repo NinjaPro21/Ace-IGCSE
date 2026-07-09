@@ -11,15 +11,15 @@
     {
       "id": "12-3-total-internal-reflection-hard-q1",
       "type": "mcq",
-      "question": "A light ray is incident perpendicularly on one face of a $45^circ-90^circ-45^circ$ glass prism ($n=1.5$). What happens when the ray hits the hypotenuse face inside the prism?",
+      "question": "A light ray is incident perpendicularly on one face of a $45^\\circ-90^\\circ-45^\\circ$ glass prism ($n=1.5$). What happens when the ray hits the hypotenuse face inside the prism?",
       "options": [
-        "Total internal reflection occurs because the angle of incidence is $45^circ.",
+        "Total internal reflection occurs because the angle of incidence is $45^\\circ$.",
         "The ray refracts into the air because glass is denser than air.",
-        "The ray travels along the hypotenuse because the angle of incidence is $42^circ.",
-        "The ray is reflected because $45^circ$ is less than the critical angle."
+        "The ray travels along the hypotenuse because the angle of incidence is $42^\\circ$.",
+        "The ray is reflected because $45^\\circ$ is less than the critical angle."
       ],
       "correctIndex": 0,
-      "explanation": "For $n=1.5$, $c \\approx 42^circ$. Inside the prism, the ray hits the second face at $45^circ$. Since $45^circ > 42^circ$, total internal reflection occurs. \n\n**Common mistake:** thinking the angle of incidence is $90^circ$ because it entered perpendicularly."
+      "explanation": "For $n=1.5$, $c \\approx 42^\\circ$. Inside the prism, the ray hits the second face at $45^\\circ$. Since $45^\\circ > 42^\\circ$, total internal reflection occurs. \n\n**Common mistake:** thinking the angle of incidence is $90^\\circ$ because it entered perpendicularly."
     },
     {
       "id": "12-3-total-internal-reflection-hard-q2",
@@ -39,39 +39,39 @@
       "type": "mcq",
       "question": "Two media have refractive indices $n_1 = 1.6$ and $n_2 = 1.4$. If light travels from medium 1 to medium 2, what is the critical angle for this boundary?",
       "options": [
-        "$61.0^circ$",
-        "$38.7^circ$",
-        "$41.8^circ$",
-        "$52.4^circ$"
+        "$61.0^\\circ$",
+        "$38.7^\\circ$",
+        "$41.8^\\circ$",
+        "$52.4^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "For two media, $sin c = \\frac{n_2}{n_1} = \\frac{1.4}{1.6} = 0.875$. $c = arcsin(0.875) \\approx 61.0^circ$. \n\n**Common mistake:** always using $1.0$ as the numerator for the less dense medium."
+      "explanation": "For two media, $sin c = \\frac{n_2}{n_1} = \\frac{1.4}{1.6} = 0.875$. $c = arcsin(0.875) \\approx 61.0^\\circ$. \n\n**Common mistake:** always using $1.0$ as the numerator for the less dense medium."
     },
     {
       "id": "12-3-total-internal-reflection-hard-q4",
       "type": "mcq",
       "question": "A diver looks up from under the water ($n=1.33$). He can only see the sky through a circular 'window' on the surface. Beyond a certain angle, he only sees a reflection of the sea floor. What is the half-angle of this 'window'?",
       "options": [
-        "$48.8^circ$",
-        "$41.2^circ$",
-        "$90.0^circ$",
-        "$24.4^circ$"
+        "$48.8^\\circ$",
+        "$41.2^\\circ$",
+        "$90.0^\\circ$",
+        "$24.4^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "The 'window' is defined by the critical angle. For water, $sin c = \\frac{1}{1.33} Rightarrow c \\approx 48.8^circ$. Beyond this angle, total internal reflection occurs. \n\n**Common mistake:** subtracting $48.8$ from^90 to get $41.2$."
+      "explanation": "The 'window' is defined by the critical angle. For water, $sin c = \\frac{1}{1.33} Rightarrow c \\approx 48.8^\\circ$. Beyond this angle, total internal reflection occurs. \n\n**Common mistake:** subtracting $48.8$ from^90 to get $41.2$."
     },
     {
       "id": "12-3-total-internal-reflection-hard-q5",
       "type": "mcq",
       "question": "If the speed of light in a medium is $2.0 \\times 10^{8}\\text{ m/s}$, what is the critical angle for light traveling from this medium to a vacuum? (Speed of light in vacuum $= 3.0 \\times 10^{8}\\text{ m/s}$)",
       "options": [
-        "$41.8^circ$",
-        "$48.6^circ$",
-        "$30.0^circ$",
-        "$0.67^circ$"
+        "$41.8^\\circ$",
+        "$48.6^\\circ$",
+        "$30.0^\\circ$",
+        "$0.67^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "First, $n = \\frac{c}{v} = \\frac{3.0}{2.0} = 1.5$. Then, $sin c = \\frac{1}{1.5} = 0.667 Rightarrow c \\approx 41.8^circ$. \n\n**Common mistake:** using the speed ratio directly as the angle ($0.67$)."
+      "explanation": "First, $n = \\frac{c}{v} = \\frac{3.0}{2.0} = 1.5$. Then, $sin c = \\frac{1}{1.5} = 0.667 Rightarrow c \\approx 41.8^\\circ$. \n\n**Common mistake:** using the speed ratio directly as the angle ($0.67$)."
     }
   ]
 }
