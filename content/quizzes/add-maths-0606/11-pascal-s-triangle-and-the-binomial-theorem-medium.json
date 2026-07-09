@@ -97,12 +97,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The constant term occurs when the powers of $x$. So $\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
+      "explanation": "The constant term occurs when the powers of when $\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-medium-q8",
       "type": "mcq",
-      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + ...$, find the values of $n$ and $p$.",
+      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 +$.$.., find the values of$n$and$p.",
       "options": [
         "n = 6, p = 4",
         "n = 4, p = 6",
@@ -131,7 +131,7 @@
       "question": "Determine the coefficient of $x^3$ in the expansion of $(x^2 + \\frac{k}{x})^3$.",
       "options": [
         "3k",
-        "k³",
+        "k^3",
         "3k^2",
         "1"
       ],

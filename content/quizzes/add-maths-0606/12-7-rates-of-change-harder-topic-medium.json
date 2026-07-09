@@ -24,20 +24,20 @@
     {
       "id": "12-7-rates-of-change-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Find the rate of change of the volume of a sphere with respect to time when the radius $r = 5$ cm, given that the surface area is increasing at^10 cm^2/s.",
+      "question": "Find the rate of change of the volume of a sphere with respect to time when the radius $r = 5$ cm, given that the surface area is increasing at $10$ cm^2/s.",
       "options": [
-        "$25$ cm³/s",
-        "$50$ cm³/s",
-        "$12.5$ cm³/s",
-        "$10$ cm³/s"
+        "$25$ cm^3/s",
+        "$50$ cm^3/s",
+        "$12.5$ cm^3/s",
+        "$10$ cm^3/s"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt} = 10 \\implies \\frac{dr}{dt} = \\frac{10}{40\\pi}$. $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} = 4\\pi(25) \\times \\frac{10}{40\\pi} = 100\\pi \\times \\frac{1}{4\\pi} = 25$.\n\n**Common mistake:** Option B results from neglecting the factor of^2 difference between the surface area and volume derivative coefficients."
+      "explanation": "$\\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt} = 10 \\implies \\frac{dr}{dt} = \\frac{10}{40\\pi}$. $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} = 4\\pi(25) \\times \\frac{10}{40\\pi} = 100\\pi \\times \\frac{1}{4\\pi} = 25$.\n\n**Common mistake:** Option B results from neglecting the factor of 2 difference between the surface area and volume derivative coefficients."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "A curve has the equation $y = 2x^2 - 3x$ and $y2x = 5$, given that $x$. $0.2$ units per second.",
+      "question": "A curve has the equation $y = 2x^2 - 3x$. Given that $x$ increases at $0.2$ units per second, find the rate of change of $y$ when $x = 5$.",
       "options": [
         "$3.4$ units/s",
         "$17$ units/s",
@@ -50,7 +50,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "The volume of a cube is increasing at a rate of^30 cm³/s. Find the rate of increase of the side length when the side length is $1$ cm.",
+      "question": "The volume of a cube is increasing at a rate of $30$ cm^3/s. Find the rate of increase of the side length when the side length is $1$ cm.",
       "options": [
         "$0.4$ cm/s",
         "$1.2$ cm/s",
@@ -63,7 +63,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "If $y = \\frac{12}{x}$ and $\\frac{dy}{dt} = -3$ units/s, find the rate of change of $x$. So $x = 2$.",
+      "question": "If $y = \\frac{12}{x}$ and $\\frac{dy}{dt} = -3$ units/s, find the rate of change of when $x = 2$.",
       "options": [
         "$1$ unit/s",
         "$-1$ unit/s",

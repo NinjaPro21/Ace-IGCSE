@@ -39,13 +39,13 @@
       "type": "mcq",
       "question": "Given $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, which expression represents the vector $\\vec{AB}$?",
       "options": [
-        "b - a",
-        "a - b",
-        "a + b",
-        "b + a"
+        "$\\mathbf{b} - \\mathbf{a}$",
+        "$\\mathbf{a} - \\mathbf{b}$",
+        "$\\mathbf{a} + \\mathbf{b}$",
+        "$\\mathbf{b} + \\mathbf{a}$"
       ],
       "correctIndex": 0,
-      "explanation": "By vector addition, $\\vec{OA} + \\vec{AB} = \\vec{OB}$. Thus, $\\vec{AB} = \\vec{OB} - \\vec{OA} = \\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Reversing the subtraction to $a - b$."
+      "explanation": "By vector addition, $\\vec{OA} + \\vec{AB} = \\vec{OB}$. Thus, $\\vec{AB} = \\vec{OB} - \\vec{OA} = \\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Reversing the subtraction to $\\mathbf{a} - \\mathbf{b}$."
     },
     {
       "id": "13-2-position-vectors-easy-q4",

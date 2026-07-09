@@ -11,7 +11,7 @@
     {
       "id": "13-1-further-vector-notation-hard-q1",
       "type": "mcq",
-      "question": "The vector v=ti+6j is parallel to the vector w=2i-3j^2 Find the value of t .",
+      "question": "The vector $\\mathbf{v} = t\\mathbf{i} + 6\\mathbf{j}$ is parallel to $\\mathbf{w} = 2\\mathbf{i} - 3\\mathbf{j}$. Find the value of $t$.",
       "options": [
         "-4",
         "4",
@@ -24,7 +24,7 @@
     {
       "id": "13-1-further-vector-notation-hard-q2",
       "type": "mcq",
-      "question": "Find the value of x for which xi+0.6j is a unit vector, where x>0 .",
+      "question": "Find the value of $x$ for which $x\\mathbf{i} + 0.6\\mathbf{j}$ is a unit vector, where $x > 0$.",
       "options": [
         "0.8",
         "0.4",
@@ -32,30 +32,30 @@
         "0.64"
       ],
       "correctIndex": 0,
-      "explanation": "For a unit vector,\n(\n\n$x^{2}$+0.6^{2}$)=1⟹$x^{2}$+0.36=1⟹$x^{2}$=0.64⟹x=0.8.\n\n**Common mistake:** Option D is the value of $x^{2}$, where the student forgets to take the final square root."
+      "explanation": "For a unit vector, $\\sqrt{x^2 + 0.6^2} = 1 \\implies x^2 + 0.36 = 1 \\implies x^2 = 0.64 \\implies x = 0.8$.\n\n**Common mistake:** Option D is the value of $x^2$, where the student forgets to take the final square root."
     },
     {
       "id": "13-1-further-vector-notation-hard-q3",
       "type": "mcq",
-      "question": "A vector r has magnitude 10 and makes an angle of 120° with the positive x-axis. Express r in i,j form.",
+      "question": "A vector $\\mathbf{r}$ has magnitude $10$ and makes an angle of $120^\\circ$ with the positive $x$-axis. Express $\\mathbf{r}$ in $\\mathbf{i}, \\mathbf{j}$ form.",
       "options": [
-        "-5i+5\n(\n\n3)j",
-        "5i+5\n(\n\n3)j",
-        "-5\n(\n\n3)i+5j",
-        "-5i-5\n(\n\n3)j"
+        "$-5\\mathbf{i} + 5\\sqrt{3}\\mathbf{j}$",
+        "$5\\mathbf{i} + 5\\sqrt{3}\\mathbf{j}$",
+        "$-5\\sqrt{3}\\mathbf{i} + 5\\mathbf{j}$",
+        "$-5\\mathbf{i} - 5\\sqrt{3}\\mathbf{j}$"
       ],
       "correctIndex": 0,
-      "explanation": "r=10cos(120)i+10sin(120)j=10(-0.5)i+10(\n(\n\n3)/2)j=-5i+5\n(\n\n3)j.\n\n**Common mistake:** Option C swaps the sine and cosine components."
+      "explanation": "$\\mathbf{r} = 10\\cos(120^\\circ)\\mathbf{i} + 10\\sin(120^\\circ)\\mathbf{j} = -5\\mathbf{i} + 5\\sqrt{3}\\mathbf{j}$.\n\n**Common mistake:** Option C swaps the sine and cosine components."
     },
     {
       "id": "13-1-further-vector-notation-hard-q4",
       "type": "mcq",
-      "question": "Given a=i+2j and b=3i-j , find the values of h and k such that ha+kb=7i .",
+      "question": "Given $\\mathbf{a} = \\mathbf{i} + 2\\mathbf{j}$ and $\\mathbf{b} = 3\\mathbf{i} - \\mathbf{j}$, find the values of $h$ and $k$ such that $h\\mathbf{a} + k\\mathbf{b} = 7\\mathbf{i}$.",
       "options": [
-        "h=1,k=2",
-        "h=2,k=1",
-        "h=7,k=0",
-        "h=-1,k=3"
+        "$h=1, k=2$",
+        "$h=2, k=1$",
+        "$h=7, k=0$",
+        "$h=-1, k=3$"
       ],
       "correctIndex": 0,
       "explanation": "i-components: h+3k=7; j-components: 2h-k=0⟹k=2h. Substitute: h+3(2h)=7⟹7h=7⟹h=1,k=2.\n\n**Common mistake:** Option B results from a simple calculation error in the simultaneous equations."
@@ -63,7 +63,7 @@
     {
       "id": "13-1-further-vector-notation-hard-q5",
       "type": "mcq",
-      "question": "The points P and Q have position vectors 3i+4j and xi-8j respectively. If ∣\nPQ\n\n∣=13 and x>0, find the value of x.",
+      "question": "The points $P$ and $Q$ have position vectors $3\\mathbf{i} + 4\\mathbf{j}$ and $x\\mathbf{i} - 8\\mathbf{j}$ respectively. If $|\\vec{PQ}| = 13$ and $x > 0$, find the value of $x$.",
       "options": [
         "8",
         "5",
@@ -71,7 +71,7 @@
         "13"
       ],
       "correctIndex": 0,
-      "explanation": "PQ\n\n=(x-3)i+(-8-4)j=(x-3)i-12j. Magnitude squared is $(x-3)^{2}$+$(-12)^{2}$=1$3^{2}$⟹$(x-3)^{2}$+144=169⟹$(x-3)^{2}$=25. x-3=5⟹x=8.\n\n**Common mistake:** Option B is the root (x-3)=5 before solving for x."
+      "explanation": "$\\vec{PQ} = (x-3)\\mathbf{i} + (-12)\\mathbf{j}$. Then $(x-3)^2 + 144 = 169 \\implies (x-3)^2 = 25 \\implies x-3 = 5 \\implies x = 8$.\n\n**Common mistake:** Option B is the root $(x-3)=5$ before solving for $x$."
     }
   ]
 }

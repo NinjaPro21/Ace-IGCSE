@@ -11,7 +11,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "Solve the equation ∣2x-3∣=7.",
+      "question": "Solve the equation |2x-3|=7.",
       "options": [
         "x=5 and x=-2",
         "x=5 and x=2",
@@ -24,7 +24,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=∣x∣-5 for the discrete domain $\\{-2, 0, 2, 4\\}$.",
+      "question": "Find the range of the function $f(x)=|x|-5$ for the discrete domain $\\{-2, 0, 2, 4\\}$.",
       "options": [
         "-3,-5,-1",
         "-7,-5,-3,-1",
@@ -32,12 +32,12 @@
         "2,0,2,4"
       ],
       "correctIndex": 0,
-      "explanation": "f(-2)=2-5=-3; f(0)=0-5=-5; f(2)=2-5=-3; f(4)=4-5=-1. The unique values are\n-3,-5,-1.\n\n**Common mistake:** Failing to evaluate ∣-2∣ as 2, leading to f(-2)=-2-5=-7."
+      "explanation": "f(-2)=2-5=-3; f(0)=0-5=-5; f(2)=2-5=-3; f(4)=4-5=-1. The unique values are\n-3,-5,-1.\n\n**Common mistake:** Failing to evaluate |-2| as 2, leading to f(-2)=-2-5=-7."
     },
     {
       "id": "1-4-modulus-functions-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Solve the equation 10-∣x+1∣=6.",
+      "question": "Solve the equation 10-|x+1|=6.",
       "options": [
         "x=3 and x=-5",
         "x=3 only",
@@ -45,12 +45,12 @@
         "x=15 and x=-17"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the modulus: ∣x+1∣=4. Case 1: x+1=4 \\implies x=3. Case 2: x+1=-4 \\implies x=-5.\n\n**Common mistake:** Errors in rearranging the equation, often leading to ∣x+1∣=16 or failing to consider the negative case."
+      "explanation": "Isolate the modulus: |x+1|=4. Case 1: x+1=4 \\implies x=3. Case 2: x+1=-4 \\implies x=-5.\n\n**Common mistake:** Errors in rearranging the equation, often leading to |x+1|=16 or failing to consider the negative case."
     },
     {
       "id": "1-4-modulus-functions-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "Determine the values of x for which ∣4x+12∣=4.",
+      "question": "Determine the values of x for which |4x+12|=4.",
       "options": [
         "x=-2 and x=-4",
         "x=2 and x=4",
@@ -63,7 +63,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "If f(x)=∣x-2∣, find the set of images for the object set\n0,1,2,3.",
+      "question": "If $f(x)=|x-2|$, find the set of images for the object set\n0,1,2,3.",
       "options": [
         "0,1,2",
         "2,1,0,1",
@@ -71,7 +71,7 @@
         "2,1,0,5"
       ],
       "correctIndex": 0,
-      "explanation": "∣0-2∣=2,∣1-2∣=1,∣2-2∣=0,∣3-2∣=1. The set of unique images is\n0,1,2.\n\n**Common mistake:** Listing 1 twice in the set or failing to apply the modulus to ∣0-2∣ and ∣1-2∣."
+      "explanation": "|0-2|=2,|1-2|=1,|2-2|=0,|3-2|=1. The set of unique images is\n0,1,2.\n\n**Common mistake:** Listing 1 twice in the set or failing to apply the modulus to |0-2| and |1-2|."
     }
   ]
 }

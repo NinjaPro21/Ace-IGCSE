@@ -51,9 +51,9 @@
       "question": "The first term of an infinite geometric progression is 12 and its sum to infinity is 8. Find the common ratio $r$.",
       "options": [
         "$-\\frac{1}{2}$",
-        "$$\n\\frac{1}{2}\n",
+        "$\\frac{1}{2}$",
         "$-\\frac{1}{3}$",
-        "$$\n\\frac{2}{3}\n"
+        "$\\frac{2}{3}$"
       ],
       "correctIndex": 0,
       "explanation": "Using the formula $S_{\\infty} = \\frac{a}{1-r}$, we set $8 = \\frac{12}{1-r} \\implies 8(1 - r) = 12 \\implies 8 - 8r = 12 \\implies -8r = 4 \\implies r = -\\frac{1}{2}$.\n\n**Common mistake:** Students frequently make an algebraic sign mistake by writing $8 - 8r = 12 \\implies 8r = 4 \\implies r = \\frac{1}{2}$, neglecting the negative sign when isolating the variable."

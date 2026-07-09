@@ -45,7 +45,7 @@
         "$4\\pi$"
       ],
       "correctIndex": 0,
-      "explanation": "15 revs/min $= 0.25$ revs/sec. In 4 seconds, it does $0.25 \\times 4 = 1$ revolution. 1 revolution $= 2\\pi  radians.$\n\n**Common mistake:** Failing to convert minutes to seconds correctly, or using \\pi for a full revolution."
+      "explanation": "15 revs/min $= 0.25$ revs/sec. In 4 seconds, it does $0.25 \\times 4 = 1$ revolution. 1 revolution $= 2\\pi  radians$.\n\n**Common mistake:** Failing to convert minutes to seconds correctly, or using \\pi for a full revolution."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q4",
@@ -110,7 +110,7 @@
         "10 cm"
       ],
       "correctIndex": 0,
-      "explanation": "$\\theta = 15 \\times (\\pi / 180) = \\pi / 12$ rad. Distance $s = 40 \\times (\\pi / 12) = 10\\pi / 3$ cm.\n\n**Common mistake:** Failing to convert the angle to radians or mis-simplifying the $fraction.$"
+      "explanation": "$\\theta = 15 \\times (\\pi / 180) = \\pi / 12$ rad. Distance $s = 40 \\times (\\pi / 12) = 10\\pi / 3$ cm.\n\n**Common mistake:** Failing to convert the angle to radians or mis-simplifying the $fraction$."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q9",
@@ -141,7 +141,7 @@
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q11",
       "type": "mcq",
-      "question": "A sector has radius^10 cm and angle $1.2$ radians. Calculate the area of the segment bounded by the arc and the chord. (Use $\\sin(1.2) \\approx 0.932$)",
+      "question": "A sector has radius 10 cm and angle $1.2$ radians. Calculate the area of the segment bounded by the arc and the chord. (Use $\\sin(1.2) \\approx 0.932$)",
       "options": [
         "$13.4$ cm^2",
         "$60$ cm^2",
@@ -175,7 +175,7 @@
         "$1 : 2$"
       ],
       "correctIndex": 0,
-      "explanation": "$0.5(1.5r_1)²\\theta_2 = 2(0.5r_1^2\\theta_1) \\implies 2.25\\theta_2 = 2\\theta_1 \\implies \\theta_2/\\theta_1 = 2/2.25 = 8/9$.\n\n**Common mistake:** Option B is the ratio if the student forgets to square the $1.5$ factor for the radius."
+      "explanation": "$0.5(1.5r_1)^2\\theta_2 = 2(0.5r_1^2\\theta_1) \\implies 2.25\\theta_2 = 2\\theta_1 \\implies \\theta_2/\\theta_1 = 2/2.25 = 8/9$.\n\n**Common mistake:** Option B is the ratio if the student forgets to square the $1.5$ factor for the radius."
     },
     {
       "id": "8-arc-length-and-area-of-a-sector-radians-hard-q14",

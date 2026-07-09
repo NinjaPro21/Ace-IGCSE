@@ -27,9 +27,9 @@
       "question": "Three numbers x, y, and z are in an AP. Which of the following relationships must be true?",
       "options": [
         "2y = x + z",
-        "y^2 = xz",
-        "y = x + z",
-        "y = (x + z) / 3"
+        "$y^2 = xz$",
+        "$y = x + z$",
+        "$y = (x + z) / 3$"
       ],
       "correctIndex": 0,
       "explanation": "In an AP, the middle term is the arithmetic mean: y - x = z - y => 2y = x + z.\n\n**Common mistake:** Confusing the AP property with the GP property ($y^2 = xz$)."
@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "Three numbers x, y, and z are in a GP. Which of the following relationships must be true?",
       "options": [
-        "y^2 = xz",
+        "$y^2 = xz$",
         "2y = x + z",
-        "y = xz",
-        "y = (x + z) / 2"
+        "$y = xz$",
+        "$y = (x + z) / 2$"
       ],
       "correctIndex": 0,
       "explanation": "In a GP, the common ratio is constant: y/x = z/y => y^2 = xz.\n\n**Common mistake:** Confusing the GP property with the AP property ($2y = x + z$)."
@@ -63,12 +63,12 @@
     {
       "id": "11-6-further-arithmetic-and-geometric-series-easy-q5",
       "type": "mcq",
-      "question": "If the sum of the first n terms of a series is $S_n$. $u_5$?",
+      "question": "If $S_n$ denotes the sum of the first $n$ terms of a series, how can the $5$th term $u_5$ be found?",
       "options": [
-        "S₅ - S₄",
-        "S₅ / S₄",
-        "S₄ - S₅",
-        "5 × S₁"
+        "$S_5 - S_4$",
+        "$S_5 / S_4$",
+        "$S_4 - S_5$",
+        "$5 \\times S_1$"
       ],
       "correctIndex": 0,
       "explanation": "The n-th term is always the difference between the sum of n terms and the sum of (n-1) terms.\n\n**Common mistake:** Trying to divide the sums or simply using $S_5$ as the term value."

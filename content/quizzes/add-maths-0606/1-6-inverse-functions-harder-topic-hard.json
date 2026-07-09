@@ -11,7 +11,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "The function f is defined as f(x)= x^{2}-8x+20 for x≥4. Find the expression for $f^{-1}(x).$",
+      "question": "The function $f$ is defined as $f(x)=x^{2}-8x+20$ for $x \\ge 4$. Find the expression for $f^{-1}(x)$.",
       "options": [
         "$f^{-1}(x)=4+\\sqrt{x-4}$",
         "$f^{-1}(x)=4-\\sqrt{x-4}$",
@@ -37,7 +37,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "Find the inverse function $f^{-1}(x) for f(x)=∣x-2∣+5 restricted to the domain x≥2.",
+      "question": "Find the inverse function $f^{-1}(x)$ for $f(x)=|x-2|+5$ restricted to the domain $x \\ge 2$.",
       "options": [
         "$f^{-1}(x)=x-3$",
         "$f^{-1}(x)=x+3$",
@@ -45,7 +45,7 @@
         "$f^{-1}(x)=x+7$"
       ],
       "correctIndex": 0,
-      "explanation": "For x≥2, f(x)=(x-2)+5=x+3. The inverse of y=x+3 is y=x-3.\n\n**Common mistake:** Students may struggle with the modulus sign, forgetting that the domain restriction allows them to remove the modulus bars algebraically."
+      "explanation": "For $x \\ge 2$, $f(x)=(x-2)+5=x+3$. The inverse of y=x+3 is y=x-3.\n\n**Common mistake:** Students may struggle with the modulus sign, forgetting that the domain restriction allows them to remove the modulus bars algebraically."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-hard-q4",
@@ -58,7 +58,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "Finding $f^{-1}$: x(y-2)=ay+1 \\implies xy-2x=ay+1 \\implies y(x-a)=2x+1 \\implies y=(2x+1)/(x-a). For this to equal (ax+1)/(x-2), a must be 2.\n\n**Common mistake:** Algebraic errors when equating coefficients or forgetting the condition f(x)= f^{-1}(x)."
+      "explanation": "Finding $f^{-1}$: x(y-2)=ay+1 \\implies xy-2x=ay+1 \\implies y(x-a)=2x+1 \\implies y=(2x+1)/(x-a). For this to equal (ax+1)/(x-2), a must be 2.\n\n**Common mistake:** Algebraic errors when equating coefficients or forgetting the condition $f(x)= f^{-1}(x)$."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-hard-q5",
@@ -71,7 +71,7 @@
         "$y \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
-      "explanation": "The range of $f^{-1}$ is the domain of f. Since the domain of f is x>0, the range of $f^{-1}$ is y>0.\n\n**Common mistake:** Calculating the range of the given f and incorrectly identifying that as the range of the inverse function."
+      "explanation": "The range of $f^{-1}$ is the domain of $f$. Since the domain of $f$ is $x>0$, the range of $f^{-1}$ is $y>0$.\n\n**Common mistake:** Calculating the range of the given $f$ and incorrectly identifying that as the range of the inverse function."
     }
   ]
 }

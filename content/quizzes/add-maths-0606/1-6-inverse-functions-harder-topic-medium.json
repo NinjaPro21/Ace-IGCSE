@@ -24,7 +24,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Given f(x)=2x+k and $f^{-1}(11)=3, determine the value of the constant k.$",
+      "question": "Given $f(x)=2x+k$ and $f^{-1}(11)=3$, determine the value of the constant $k$.",
       "options": [
         "5",
         "17",
@@ -32,7 +32,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "If $f^{-1}(11)=3, then f(3)=11. Substituting into f(x): 2(3)+k=11 \\implies 6+k=11 \\implies k=5.\n\n**Common mistake:** Students may mistakenly solve f(11)=3, leading to 2(11)+k=3 and k=-19."
+      "explanation": "If $f^{-1}(11)=3$, then $f(3)=11$. Substituting into $f(x)$: $2(3)+k=11 \\implies 6+k=11 \\implies k=5$.\n\n**Common mistake:** Students may mistakenly solve $f(11)=3$, leading to $2(11)+k=3$ and $k=-19$."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q3",
@@ -63,7 +63,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Solve the equation $f^{-1}(x)=5 for the function f(x)= x^{2}-4 with domain x≥0.",
+      "question": "Solve the equation $f^{-1}(x)=5$ for the function $f(x)=x^{2}-4$ with domain $x \\ge 0$.",
       "options": [
         "21",
         "3",

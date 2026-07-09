@@ -11,7 +11,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q1",
       "type": "mcq",
-      "question": "The vectors a and b are such that a=4i+3j and b=mi+j^2 Given that ∣a+b∣=5 , find the possible values of m .",
+      "question": "The vectors a and b are such that a=4i+3j and b=mi+j^2 Given that |a+b|=5 , find the possible values of m .",
       "options": [
         "-1 or -7",
         "1 or 7",
@@ -19,7 +19,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "a+b=(4+m)i+4j. ∣...∣\n2\n= (4+m)^{2}+16=25⟹$(4+m)^{2}$=9⟹4+m=±3⟹m=-1,-7.\n\n**Common mistake:** Option B is a sign error where the student solves 4+m=3 as m=7."
+      "explanation": "a+b=(4+m)i+4j. |...|\n2\n= (4+m)^{2}+16=25⟹$(4+m)^{2}$=9⟹4+m=±3⟹m=-1,-7.\n\n**Common mistake:** Option B is a sign error where the student solves 4+m=3 as m=7."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q2",
@@ -58,7 +58,7 @@
         "k"
       ],
       "correctIndex": 0,
-      "explanation": "∣r∣\n2\n= (1-k)^{2}+(2\n(\n\nk)$)^{2}$=1-2k+$k^{2}$+4k= k^{2}+2k+1= (1+k)^{2}. Thus magnitude is 1+k.\n\n**Common mistake:** Option C results from failing to include the middle term when expanding the squared bracket."
+      "explanation": "|r|\n2\n= (1-k)^{2}+(2\n(\n\nk)$)^{2}$=1-2k+$k^{2}+4k=\n\n$$\nk^{2}+2k+1= (1+k)^{2}. Thus magnitude is 1+k.\n$$\n\n**Common mistake:** Option C results from failing to include the middle term when expanding the squared bracket."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q5",
@@ -71,7 +71,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "a-2b=(3-2)i+(-4-2p)j=i-(4+2p)j. ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24. (Let's adjust for clean root: if ∣...∣=1, ∣...∣\n2 \\neq 1+$(4+2p)^{2}$=1⟹4+2p=0⟹p=-2. Let's use ∣...∣=\n(\n\n65)). For ∣...∣=5, 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24⟹4+2p=\n(\n\n24). Result is p≈0.45. Option A is nearest.\n\n**Common mistake:** Option B results from ignoring the i-component completely in the magnitude calculation."
+      "explanation": "a-2b=(3-2)i+(-4-2p)j=i-(4+2p)j. |...|\n2 \\neq 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24. (Let's adjust for clean root: if |...|=1, |...|\n2 \\neq 1+$(4+2p)^{2}$=1⟹4+2p=0⟹p=-2. Let's use |...|=\n(\n\n65)). For |...|=5, 1+$(4+2p)^{2}$=25⟹$(4+2p)^{2}$=24⟹4+2p=\n(\n\n24). Result is p≈0.45. Option A is nearest.\n\n**Common mistake:** Option B results from ignoring the i-component completely in the magnitude calculation."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q6",
@@ -141,7 +141,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q11",
       "type": "mcq",
-      "question": "The position vectors of points $A$ and $B2O$. $\\mathbf{a}$ and $\\mathbf{b}$ respectively. The point $P$. $AB2AB : BP = 1 : 2$. Find the position vector of $P$.",
+      "question": "The position vectors of points $A$ and $B$ and $O$. $\\mathbf{a}$ and $\\mathbf{b}$ respectively. The point $P$. $AB2AB : BP = 1 : 2$. Find the position vector of $P$.",
       "options": [
         "$3\\mathbf{b} - 2\\mathbf{a}$",
         "$2\\mathbf{b} - \\mathbf{a}$",
@@ -149,7 +149,7 @@
         "$\\mathbf{a} + 3\\mathbf{b}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{AP} = 3\\vec{AB} = 3(\\mathbf{b} - \\mathbf{a})$. Then $\\vec{OP} = \\vec{OA} + \\vec{AP} = \\mathbf{a} + 3\\mathbf{b} - 3\\mathbf{a} = 3\\mathbf{b} - 2\\mathbf{a}$.\n\n**Common mistake:** Option B results from assuming $P$ and $A2B$ is, rather than using the 'produced' external ratio correctly."
+      "explanation": "$\\vec{AP} = 3\\vec{AB} = 3(\\mathbf{b} - \\mathbf{a})$. Then $\\vec{OP} = \\vec{OA} + \\vec{AP} = \\mathbf{a} + 3\\mathbf{b} - 3\\mathbf{a} = 3\\mathbf{b} - 2\\mathbf{a}$.\n\n**Common mistake:** Option B results from assuming $P$ and $A$ and $B$ is, rather than using the 'produced' external ratio correctly."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q12",
@@ -188,7 +188,7 @@
         "$0.5\\mathbf{b} - \\mathbf{c}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{AM} = \\vec{AB} + 0.5\\vec{BC} = \\mathbf{c} + 0.5(\\mathbf{b} - \\mathbf{c}) = 0.5\\mathbf{b} + 0.5\\mathbf{c}$.\n\n**Common mistake:** Option B is the vector from $B$ and $M2A$."
+      "explanation": "$\\vec{AM} = \\vec{AB} + 0.5\\vec{BC} = \\mathbf{c} + 0.5(\\mathbf{b} - \\mathbf{c}) = 0.5\\mathbf{b} + 0.5\\mathbf{c}$.\n\n**Common mistake:** Option B is the vector from $B$ and $M$ and $A$."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-pyp-q15",
@@ -201,7 +201,7 @@
         "$1 : 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange: $2\\mathbf{q} = 3\\mathbf{p} - \\mathbf{r} \\implies \\mathbf{q} = \\frac{3\\mathbf{p} - \\mathbf{r}}{2}$. (Wait, let's use standard section formula $q = (n p + m r)/(m+n)$). If $Q$ and $P2R$. $1$. $1.5\\mathbf{p} - 0.5\\mathbf{r}$. For internal division, coefficients must be positive. This implies external division or a sign error in the premise. Using $3\\vec{PQ} = \\vec{QR}$ logic, result is $1:2$.\n\n**Common mistake:** Ratio problems from equation forms are highly prone to inversion errors ($2:1$ vs $1:2$)."
+      "explanation": "Rearrange: $2\\mathbf{q} = 3\\mathbf{p} - \\mathbf{r} \\implies \\mathbf{q} = \\frac{3\\mathbf{p} - \\mathbf{r}}{2}$. (Wait, let's use standard section formula $q = (n p + m r)/(m+n)$). If $Q$ and $P$ and $R$. $1$. $1.5\\mathbf{p} - 0.5\\mathbf{r}$. For internal division, coefficients must be positive. This implies external division or a sign error in the premise. Using $3\\vec{PQ} = \\vec{QR}$ logic, result is $1:2$.\n\n**Common mistake:** Ratio problems from equation forms are highly prone to inversion errors ($2:1$ vs $1:2$)."
     }
   ]
 }

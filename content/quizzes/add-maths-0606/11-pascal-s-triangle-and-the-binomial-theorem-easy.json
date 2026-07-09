@@ -19,7 +19,7 @@
         "Row 1"
       ],
       "correctIndex": 0,
-      "explanation": "Starting with Row 0 as '1', Row 3 is obtained by expanding (a+b)³.\n\n**Common mistake:** Counting the top '1' as Row 1 instead of Row 0, leading to an incorrect row number."
+      "explanation": "Starting with Row 0 as '1', Row 3 is obtained by expanding (a+b)^3.\n\n**Common mistake:** Counting the top '1' as Row 1 instead of Row 0, leading to an incorrect row number."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-easy-q2",
@@ -84,7 +84,7 @@
         "36"
       ],
       "correctIndex": 0,
-      "explanation": "Using the formula $^nC_r = \\frac{n!}{r!(n-r)!}$, we calculate $\\binom{6}{2} = \\frac{6 \\times 5}{2 \\times 1} = 15$.\n\n**Common mistake:** Option B is $6 \\times 5$, where the student forgets to divide by $2!$."
+      "explanation": "Using the formula $^nC_r = \\frac{n!}{r!(n-r)!}$, we calculate $\\binom{6}{2} = \\frac{6 \\times 5}{2 \\times 1} = 15$.\n\n**Common mistake:** Option B is $6 \\times 5$, where the student forgets to divide by 2!."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-easy-q7",
@@ -128,7 +128,7 @@
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-easy-q10",
       "type": "mcq",
-      "question": "If the expansion of $(1 + ax)^4$ starts with $1 - 12x + ...$, find the value of $a$.",
+      "question": "If the expansion of $(1 + ax)^4$ starts with $1 - 12x +$.$.., find the value of a$.",
       "options": [
         "-3",
         "3",

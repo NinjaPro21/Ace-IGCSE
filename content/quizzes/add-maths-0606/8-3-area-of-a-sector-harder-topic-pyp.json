@@ -11,20 +11,20 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of $r$. $36$ cm. Show that the area $A$. So $A = 18r - r^2$. Hence, find the value of $r$. $80$ cm^2.",
+      "question": "A sector has radius $r$ cm and perimeter $36$ cm. Show that $A = 18r - r^2$. Hence find $r$ when $A = 80$ cm$^2$.",
       "options": [
-        "$8$ cm or^10 cm",
-        "$4$ cm or^20 cm",
-        "$6$ cm or^12 cm",
-        "$5$ cm or^16 cm"
+        "$8$ cm or $10$ cm",
+        "$4$ cm or $20$ cm",
+        "$6$ cm or $12$ cm",
+        "$5$ cm or $16$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2r + s = 36 \\implies s = 36 - 2r$. So $A = 0.5rs = 0.5r(36 - 2r) = 18r - r^2$. Solving $r^2 - 18r + 80 = 0$ gives $(r-8)(r-10) = 0$.\n\n**Common mistake:** Option B contains roots that sum to^24, which would occur with a different perimeter value."
+      "explanation": "$2r + s = 36 \\implies s = 36 - 2r$. So $A = 0.5r(36-2r) = 18r - r^2$. Solving $r^2 - 18r + 80 = 0$ gives $r = 8$ or $r = 10$.\n\n**Common mistake:** Roots that sum to $18$ but come from the wrong perimeter."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "The diagram shows a right-angled triangle $ABC$. So $AB = 6$ cm and $BC = 8$ cm. A sector with center $A$. $AB2\\theta = 0.6$ radians. Calculate the area of the shaded region inside the triangle but outside the sector.",
+      "question": "Right-angled triangle $ABC$ has $AB = 6$ cm and $BC = 8$ cm. A sector with centre $A$, radius $AB$, and angle $0.6$ rad lies inside the triangle. Find the shaded area inside the triangle but outside the sector.",
       "options": [
         "$13.2$ cm^2",
         "$24$ cm^2",
@@ -37,7 +37,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of the central angle $\\theta$. $5$ cm is strictly between^25 cm^2 and^50 cm^2.",
+      "question": "A sector has radius $5$ cm. Find the set of values of $\\theta$ for which the area is strictly between $25$ cm$^2$ and $50$ cm$^2$.",
       "options": [
         "$2 < \\theta < 4$",
         "$1 < \\theta < 2$",
@@ -45,12 +45,12 @@
         "$4 < \\theta < 8$"
       ],
       "correctIndex": 0,
-      "explanation": "$25 < 0.5(25)\\theta < 50 \\implies 25 < 12.5\\theta < 50$. Dividing by $12.5$ gives $2 < \\theta < 4$.\n\n**Common mistake:** Option B is obtained if the student forgets to multiply by $0.5$ in the area formula."
+      "explanation": "$25 < 0.5 \\times 25 \\times \\theta < 50 \\implies 25 < 12.5\\theta < 50 \\implies 2 < \\theta < 4$.\n\n**Common mistake:** Forgetting the $\\frac{1}{2}$ factor in the area formula."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "A sector has a radius of $r$. $20$% and the central angle is decreased by^10%, calculate the percentage increase in the area of the sector.",
+      "question": "A sector has radius $r$. If the radius is increased by $20\\%$ and the angle is decreased by $10\\%$, find the percentage increase in area.",
       "options": [
         "$29.6$ %",
         "$10$ %",
@@ -58,12 +58,12 @@
         "$30$ %"
       ],
       "correctIndex": 0,
-      "explanation": "New area $A' = 0.5(1.2r)²(0.9\\theta) = 0.5(1.44r^2)(0.9\\theta) = 1.296 A$. $29.6$%.\n\n**Common mistake:** Option B is a simple linear subtraction ($20 - 10$) which ignores the squaring of the radius scaling factor."
+      "explanation": "New area $A' = 0.5(1.2r)^2(0.9\\theta) = 1.296A$, a $29.6\\%$ increase.\n\n**Common mistake:** Subtracting $10$ from $20$ without squaring the radius factor."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Given that a sector has a perimeter of $4r$. $r^2$.",
+      "question": "A sector has perimeter $4r$. Find the ratio of its area to $r^2$.",
       "options": [
         "$1 : 1$",
         "$1 : 2$",
@@ -71,7 +71,7 @@
         "$4 : 1$"
       ],
       "correctIndex": 0,
-      "explanation": "$2r + r\\theta = 4r \\implies r\\theta = 2r \\implies \\theta = 2$. Area $A = 0.5r^2(2) = r^2$. Ratio is $r^2 : r^2 = 1:1$.\n\n**Common mistake:** Option B results from forgetting to multiply the final area result by the^2 from the angle."
+      "explanation": "$2r + r\\theta = 4r \\implies \\theta = 2$. Area $A = 0.5r^2(2) = r^2$, so the ratio is $1:1$.\n\n**Common mistake:** Forgetting the $\\frac{1}{2}$ in $A = \\frac{1}{2}r^2\\theta$."
     }
   ]
 }

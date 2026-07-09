@@ -13,10 +13,10 @@
       "type": "mcq",
       "question": "Find the equation of the perpendicular bisector of the line segment joining (1,3) and (5,7).",
       "options": [
-        "y=-x+8",
-        "y=x+2",
-        "y=-x+4",
-        "y=-x+6"
+        "$y=-x+8$",
+        "$y=x+2$",
+        "$y=-x+4$",
+        "$y=-x+6$"
       ],
       "correctIndex": 0,
       "explanation": "Midpoint is (3,5). Segment gradient is (7-3)/(5-1)=1. Perpendicular gradient is -1. y-5=-1(x-3)\nRightarrowy=-x+8.\n\n**Common mistake:** The student might use the gradient of the line segment instead of the perpendicular gradient."

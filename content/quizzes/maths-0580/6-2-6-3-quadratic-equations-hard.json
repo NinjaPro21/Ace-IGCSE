@@ -24,7 +24,7 @@
     {
       "id": "6-2-6-3-quadratic-equations-hard-q2",
       "type": "mcq",
-      "question": "A right-angled triangle has a base of $(x + 2)$ cm and a perpendicular height of $(2x - 3)$ cm. If the area of the triangle is $15\\text{ cm}^2$, find the value of $x$.",
+      "question": "A right-angled triangle has a base of $(x + 2)$ cm and a perpendicular height of $(2x - 3)$ cm. If the area of the triangle is $15\\text{ cm}^2$, find the value of $x.",
       "options": [
         "$4$",
         "$3.5$",
@@ -45,12 +45,12 @@
         "$x = 2$ or $x = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and^9), forgetting to compute the final square roots for $x$."
+      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and^9), forgetting to compute the final square roots for $x."
     },
     {
       "id": "6-2-6-3-quadratic-equations-hard-q4",
       "type": "mcq",
-      "question": "Convert the non-monic expression $2x^2 - 6x + 7$ into the vertex completed square layout $a(x - p)^2 + q$.",
+      "question": "Convert the non-monic expression $2x^2 - 6x + 7$ into the vertex completed square layout $a(x - p)^2 + q.",
       "options": [
         "$2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$",
         "$2\\left(x - 3\\right)^2 - 11$",

@@ -22,7 +22,7 @@
     {
       "id": "ch01-functions-q2",
       "type": "mcq",
-      "question": "A function is given by $f(x) = 4x^2 - 12x + 5$ for $x \\le 1.5$. Express f^{-1}(x)$in terms of x2$",
+      "question": "A function is given by $f(x) = 4x^2 - 12x + 5$ for $x \\le 1.5$. Express $f^{-1}(x)$ in terms of x2",
       "options": [
         "$f^{-1}(x) = 1.5 - √{\\frac{x + 4}{4}}$",
         "$f^{-1}(x) = 1.5 + √{\\frac{x + 4}{4}}$",
@@ -30,7 +30,7 @@
         "$f^{-1}(x) = \\frac{12 - √{144 - 16(5-x)}}{8}$"
       ],
       "correctIndex": 0,
-      "explanation": "Completing the square gives $y = 4(x - 1.5)² - 4$. Rearranging gives $(x - 1.5)² = \\frac{y + 4}{4}$. Since the domain is $x \\le 1.5$, taking the negative square root gives $x = 1.5 - √{\\frac{y + 4}{4}}$.\n\n**Common mistake:** Students almost always default to selecting the positive square root when rearranging, neglecting the original domain restriction $x \\le 1.5$."
+      "explanation": "Completing the square gives $y = 4(x - 1.5)^2 - 4$. Rearranging gives $(x - 1.5)^2 = \\frac{y + 4}{4}$. Since the domain is $x \\le 1.5$, taking the negative square root gives $x = 1.5 - √{\\frac{y + 4}{4}}$.\n\n**Common mistake:** Students almost always default to selecting the positive square root when rearranging, neglecting the original domain restriction $x \\le 1.5$."
     },
     {
       "id": "ch01-functions-q3",

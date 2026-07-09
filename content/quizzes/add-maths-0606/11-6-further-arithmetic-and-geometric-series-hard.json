@@ -40,9 +40,9 @@
       "question": "Find the sum of the first 10 terms of the series: $1 + 2x + 3x^2 + 4x^3 + \\dots$ (Arithmetic-Geometric Series).",
       "options": [
         "Complex Formula Required",
-        "100",
-        "10",
-        "x^10"
+        "$100$",
+        "$10$",
+        "$x^{10}$"
       ],
       "correctIndex": 0,
       "explanation": "This is a standard method: Multiply S by x and subtract from S. Result is $(1-x)S = 1 + x + x^2 + \\dots + x^9 - 10x^{10}$. Use GP sum formula for the first part.\n\n**Common mistake:** Trying to sum the coefficients and powers separately without using the shift-and-subtract method."

@@ -11,7 +11,7 @@
     {
       "id": "6-3-areas-of-rectilinear-figures-hard-q1",
       "type": "mcq",
-      "question": "A triangle has vertices $P(k, 2)$, $Q(4, 6)$, and $R(1, 5)$. Given that the area of the triangle is 2 square units, find the two possible values of $k$.",
+      "question": "Triangle $P(k, 2)$, $Q(4, 6)$, and $R(1, 5)$ has area 2 square units. Find $k$.",
       "options": [
         "1 and -7",
         "1 and 7",
@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "A quadrilateral has vertices at $(a, 0)$, $(b, 0)$, $(b, c)$, and $(0, c)$. If $a=2, b=6, c=4$, find the area using the matrix method.",
       "options": [
-        "20 units^2",
-        "16 units^2",
-        "24 units^2",
-        "12 units^2"
+        "$20\\ \\text{units}^2$",
+        "$16\\ \\text{units}^2$",
+        "$24\\ \\text{units}^2$",
+        "$12\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
       "explanation": "Vertices: $(2, 0), (6, 0), (6, 4), (0, 4)$. Area $= 0.5 |(0+24+24+0) - (0+0+0+8)| = 0.5 |48-8| = 20$.\n\n**Common mistake:** Misordering the vertices in the matrix, which can lead to an incorrect area if the shape is crossed."
@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "Find the area of the pentagon with vertices at $(0, 0)$, $(4, 0)$, $(5, 3)$, $(2, 6)$, and $(-1, 3)$.",
       "options": [
-        "21 units^2",
-        "25 units^2",
-        "18 units^2",
-        "42 units^2"
+        "$21\\ \\text{units}^2$",
+        "$25\\ \\text{units}^2$",
+        "$18\\ \\text{units}^2$",
+        "$42\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
       "explanation": "Using shoelace: $0.5 |(0 + 12 + 30 + 6 + 0) - (0 + 0 + 6 + (-6) + 0)| = 0.5 |48 - 0| = 24$ (Re-calc: $(0+12+30+6+0)-(0+0+6-6+0)=48$. Area=24. Options updated).\n\n**Common mistake:** Omitting the central vertex or incorrect summing of products with negative signs."
@@ -50,7 +50,7 @@
     {
       "id": "6-3-areas-of-rectilinear-figures-hard-q4",
       "type": "mcq",
-      "question": "The area of a triangle with vertices $(1, p)$, $(4, 1)$, and $(6, 3)$ is 5 units^2. Find the possible values of $p$.",
+      "question": "A triangle with vertices $(1, p)$, $(4, 1)$, and $(6, 3)$ has area 5 square units. Find the possible values of $p$.",
       "options": [
         "6 and -4",
         "4 and -6",
@@ -65,10 +65,10 @@
       "type": "mcq",
       "question": "Determine the area of a region bounded by the lines $y = x$. So $y = -x + 6$, and the $x$-axis.",
       "options": [
-        "9 units^2",
-        "18 units^2",
-        "6 units^2",
-        "12 units^2"
+        "$9\\ \\text{units}^2$",
+        "$18\\ \\text{units}^2$",
+        "$6\\ \\text{units}^2$",
+        "$12\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
       "explanation": "Vertices are $(0, 0)$, $(6, 0)$, and the intersection $(3, 3)$. Area $= 0.5 \\times 6 \\times 3 = 9$.\n\n**Common mistake:** Incorrectly finding the intersection point or using 6 as both base and height."

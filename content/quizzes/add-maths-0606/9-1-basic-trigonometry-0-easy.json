@@ -41,8 +41,8 @@
       "options": [
         "1",
         "0.5",
-        "$$\n\\sqrt{2}\n",
-        "$$\n\\sqrt{3}\n"
+        "$\\sqrt{2}$",
+        "$\\sqrt{3}$"
       ],
       "correctIndex": 0,
       "explanation": "In an isosceles right-angled triangle, the opposite and adjacent sides are equal, so tan 45° = 1.\n\n**Common mistake:** Confusing it with sin 45° (1/\\sqrt{2}) or tan 60° (\\sqrt{3})."

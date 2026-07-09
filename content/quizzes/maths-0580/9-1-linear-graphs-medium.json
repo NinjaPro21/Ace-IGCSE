@@ -12,10 +12,10 @@
       "type": "mcq",
       "question": "Find the **x-intercept** of the line $y = 3x - 12$.",
       "options": [
-        "(4, 0)",
-        "(0, -12)",
-        "(-4, 0)",
-        "(12, 0)"
+        "$(4, 0)$",
+        "$(0, -12)$",
+        "$(-4, 0)$",
+        "$(12, 0)$"
       ],
       "correctIndex": 0,
       "explanation": "The x-intercept is found by setting $y = 0$. $0 = 3x - 12 \\implies 12 = 3x \\implies x = 4$. Thus, the intercept is at (4, 0).\n\n**Common mistake:** Setting $x = 0$ and finding the y-intercept instead.",

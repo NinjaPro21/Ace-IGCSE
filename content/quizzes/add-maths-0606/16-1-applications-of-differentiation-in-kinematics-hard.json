@@ -11,15 +11,15 @@
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-hard-q1",
       "type": "mcq",
-      "question": "A particle moves such that its displacement from $O$. So $s = t^3 - 6t^2 + 9t24$ seconds.",
+      "question": "A particle moves such that its displacement from $O$ is $s = t^3 - 6t^2 + 9t$ metres. Find the total distance traveled in the first $4$ seconds.",
       "options": [
         "$8$ m",
         "$4$ m",
         "$12$ m",
         "$10$ m"
       ],
-      "correctIndex": 0,
-      "explanation": "$v = 3t^2 - 12t + 9 = 3(t-1)(t-3)$. Rests at $t=1, 3$. $s(0)=0, s(1)=4, s(3)=0, s(4)=4$. Distance = $|4-0| + |0-4| + |4-0| = 4 + 4 + 4 = 12$.\n\n**Common mistake:** Option B is the displacement at $t=4$, which ignores the distance covered during direction changes."
+      "correctIndex": 2,
+      "explanation": "$v = 3t^2 - 12t + 9 = 3(t-1)(t-3)$. The particle is at rest at $t = 1$ and $t = 3$. $s(0) = 0$, $s(1) = 4$, $s(3) = 0$, $s(4) = 4$. Total distance $= |4-0| + |0-4| + |4-0| = 12$ m.\n\n**Common mistake:** Option B is the displacement at $t = 4$, which ignores the distance covered during direction changes."
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-hard-q2",
@@ -37,7 +37,7 @@
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-hard-q3",
       "type": "mcq",
-      "question": "Find the values of $t$. So $s = \\cos(2t) + t^2$ is zero in the interval $0 \\le t \\le \\pi$.",
+      "question": "Given $s = \\cos(2t) + t^2$, find the values of $t$ for which the acceleration is zero in the interval $0 \\le t \\le \\pi$.",
       "options": [
         "$\\frac{\\pi}{6}, \\frac{5\\pi}{6}$",
         "$\\frac{\\pi}{3}, \\frac{2\\pi}{3}$",
@@ -45,25 +45,25 @@
         "$0, \\pi$"
       ],
       "correctIndex": 0,
-      "explanation": "$v = -2\\sin(2t) + 2t \\implies a = -4\\cos(2t) + 2$. Set $a = 0 \\implies \\cos(2t) = 0.5 \\implies 2t = \\frac{\\pi}{3}, \\frac{5\\pi}{3} \\implies t = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$.\n\n**Common mistake:** Option B results from students finding the values of $2t$. 2."
+      "explanation": "$v = -2\\sin(2t) + 2t \\implies a = -4\\cos(2t) + 2$. Set $a = 0 \\implies \\cos(2t) = 0.5 \\implies when$2t$= \\frac{\\pi}{3}, \\frac{5\\pi}{3} \\implies t = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$.\n\n**Common mistake:** Option B results from students using the values of $$t$ instead of $t."
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-hard-q4",
       "type": "mcq",
-      "question": "A particle $P$ and $O2s = t(t-4)^2$. Find the velocity of $P$ and $O$.",
+      "question": "A particle $P$ starts from $O$ with displacement $s = t(t-4)^2$. Find the velocity of $P$ when it returns to $O$.",
       "options": [
         "$16$ m/s",
         "$0$ m/s",
         "$-16$ m/s",
         "$8$ m/s"
       ],
-      "correctIndex": 0,
-      "explanation": "Returns to $O$. So $s=0$. $t(t-4)^2 = 0 \\implies t=0, 4$. $v = (t-4)^2 + 2t(t-4)$. At $t=4$, $v = 0 + 0 = 0$. Wait, at $t=0$, $v=16$. Question asks for when it returns. At $t=4, v=0$.\n\n**Common mistake:** Option A is the initial velocity at $t=0$, not when it returns to $O$."
+      "correctIndex": 1,
+      "explanation": "Returns to $O$ when $s = 0$, so $t(t-4)^2 = 0$ gives $t = 0$ or $t = 4$. $v = (t-4)^2 + 2t(t-4)$. At $t = 4$, $v = 0$ m/s.\n\n**Common mistake:** Option A is the initial velocity at $t = 0$, not when the particle returns to $O$."
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-hard-q5",
       "type": "mcq",
-      "question": "Find the $x$. So $y = x^2 \\ln x2x$. $\\frac{dy}{dt}$ is zero.",
+      "question": "A particle moves with velocity $v = t(1 + 2\\ln t)$ m/s for $t > 0$. Find the value of $t$ when the acceleration is zero.",
       "options": [
         "$e^{-0.5}$",
         "$e$",
@@ -71,7 +71,7 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dt} = \\frac{dy}{dx} \\cdot \\frac{dx}{dt}$. Since $\\frac{dx}{dt}$\ne 0$, we need$22\\frac{dy}{dx} = x^2(1/x) + 2x \\ln x = x(1 + 2\\ln x)21 + 2\\ln x = 0 \\implies \\ln x = -0.5 \\implies x = e^{-0.5}2\n\n**Common mistake:** Option C is chosen if the student incorrectly differentiates the function as just $x^2(1/x)$ or $2x \\ln x$."
+      "explanation": "$v = t + 2t\\ln t$, so $a = \\frac{dv}{dt} = 1 + 2\\ln t + 2 = 3 + 2\\ln t$. Setting $a = 0$ gives $\\ln t = -1.5$, so $t = e^{-1.5}$.\n\n**Common mistake:** Option C is chosen if the student incorrectly differentiates $t\\ln t$ as just $\\ln t$."
     }
   ]
 }

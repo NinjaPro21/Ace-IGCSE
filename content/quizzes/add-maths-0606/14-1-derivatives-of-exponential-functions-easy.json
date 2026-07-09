@@ -19,7 +19,7 @@
         "$6xe^{6x-1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the rule $\\frac{d}{dx}(e^{ax}) = ae^{ax}$, we bring the coefficient of $x$. $6e^{6x}$.\n\n**Common mistake:** Option D is a common error where the student incorrectly applies the power rule for polynomials to an exponential function."
+      "explanation": "Using $\\frac{d}{dx}(e^{ax}) = ae^{ax}$, we get $\\frac{dy}{dx} = 6e^{6x}$.\n\n**Common mistake:** Option D is a common error where the student incorrectly applies the power rule for polynomials to an exponential function."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-easy-q2",
@@ -32,7 +32,7 @@
         "$-3e^{-x-1}$"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant^5 is $1$. Multiplying by the coefficient^3 gives $-3e^{-x}$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
+      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant $5$ is $0$. Multiplying by $3$ gives $\\frac{dy}{dx} = -3e^{-x}$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-easy-q3",
@@ -71,7 +71,7 @@
         "$e^x + e^x$"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of $e^x$. $e^x2x^e  and e2ex^{e-1}$.\n\n**Common mistake:** Option C results from incorrectly applying the power rule to the exponential function $e^x$."
+      "explanation": "The derivative of $e^x$ is $e^x$, and the derivative of $x^e$ is $ex^{e-1}$. So $\\frac{dy}{dx} = e^x + ex^{e-1}$.\n\n**Common mistake:** Option C results from incorrectly applying the power rule to the exponential function $e^x$."
     }
   ]
 }

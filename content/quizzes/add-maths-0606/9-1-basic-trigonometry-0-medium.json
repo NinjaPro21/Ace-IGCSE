@@ -39,13 +39,13 @@
       "type": "mcq",
       "question": "In a right-angled triangle, if cos θ = 5/13, find tan θ.",
       "options": [
-        "12/5",
-        "12/13",
-        "5/12",
-        "13/5"
+        "$\\frac{12}{5}$",
+        "$\\frac{12}{13}$",
+        "$\\frac{5}{12}$",
+        "$\\frac{13}{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "Adj = 5, Hyp = 13. Opp = \\sqrt{13$^2$ - 5$^2$} = 12. tan θ = Opp / Adj = 12 / 5.\n\n**Common mistake:** Mixing up the sides for the tangent ratio, resulting in 5/12."
+      "explanation": "Adjacent side $= 5$, hypotenuse $= 13$, so opposite side $= 12$. Hence $\\tan \\theta = \\frac{12}{5}$.\n\n**Common mistake:** Using $\\frac{5}{12}$ by swapping opposite and adjacent."
     },
     {
       "id": "9-1-basic-trigonometry-0-medium-q4",

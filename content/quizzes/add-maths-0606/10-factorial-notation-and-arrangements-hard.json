@@ -110,7 +110,7 @@
         "60"
       ],
       "correctIndex": 0,
-      "explanation": "For the number to be even, the last digit must be 2 or 4 (2 choices). The remaining 4 digits can be arranged in $4! = 24$ ways. Total = $2 \\times 24 = 48$.\n\n**Common mistake:** Option B is $5!$, representing all possible 5-digit numbers without considering the even condition."
+      "explanation": "For the number to be even, the last digit must be 2 or 4 (2 choices). The remaining 4 digits can be arranged in $4! = 24$ ways. Total = $2 \\times 24 = 48$.\n\n**Common mistake:** Option B is $1$!, representing all possible 5-digit numbers without considering the even condition."
     },
     {
       "id": "10-factorial-notation-and-arrangements-hard-q9",
@@ -123,7 +123,7 @@
         "72"
       ],
       "correctIndex": 0,
-      "explanation": "Treat the 3 boys as one block. We arrange 4 items (the block + 3 girls) in $4! = 24$ ways. Within the block, the 3 boys can be arranged in $3! = 6$ ways. Total = $24 \\times 6 = 144$.\n\n**Common mistake:** Option D occurs if the student correctly identifies the $4!$ arrangement but uses $2!$ instead of $3!$ for the internal boy arrangement."
+      "explanation": "Treat the 3 boys as one block. We arrange 4 items (the block + 3 girls) in $4! = 24$ ways. Within the block, the 3 boys can be arranged in $3! = 6$ ways. Total = $24 \\times 6 = 144$.\n\n**Common mistake:** Option D occurs if the student correctly identifies the^4! arrangement but uses . ! instead of $3$! for the internal boy arrangement."
     },
     {
       "type": "mcq",

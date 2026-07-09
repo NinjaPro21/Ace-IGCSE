@@ -17,7 +17,7 @@
         "$p \\le \\frac{1}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "For two distinct real roots, $\\Delta > 0$. Therefore, $(2p - 1)² - 4(1)(p^2) > 0 \\implies 4p^2 - 4p + 1 - 4p^2 > 0 \\implies -4p + 1 > 0 \\implies 1 > 4p \\implies p < \\frac{1}{4}$.\n\n**Common mistake:** Students routinely forget to flip the inequality sign when dividing by a negative number, converting $-4p > -1$ erroneously into $p > \\frac{1}{4}$."
+      "explanation": "For two distinct real roots, $\\Delta > 0$. Therefore, $(2p - 1)^2 - 4(1)(p^2) > 0 \\implies 4p^2 - 4p + 1 - 4p^2 > 0 \\implies -4p + 1 > 0 \\implies 1 > 4p \\implies p < \\frac{1}{4}$.\n\n**Common mistake:** Students routinely forget to flip the inequality sign when dividing by a negative number, converting $-4p > -1$ erroneously into $p > \\frac{1}{4}$."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q2",
@@ -43,7 +43,7 @@
         "$(2, 11)$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: $y = -2(x^2 - 4x) + 11 = -2[(x - 2)² - 4] + 11 = -2(x - 2)² + 8 + 11 = -2(x - 2)² + 19$. The vertex is a maximum at $(2, 19)$.\n\n**Common mistake:** Students regularly read the coordinates directly from un-multiplied terms inside brackets, missing the addition of $+8$ and concluding the maximum is at $(2, 11)$."
+      "explanation": "Complete the square: $y = -2(x^2 - 4x) + 11 = -2[(x - 2)^2 - 4] + 11 = -2(x - 2)^2 + 8 + 11 = -2(x - 2)^2 + 19$. The vertex is a maximum at $(2, 19)$.\n\n**Common mistake:** Students regularly read the coordinates directly from un-multiplied terms inside brackets, missing the addition of $+8$ and concluding the maximum is at $(2, 11)$."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q4",
@@ -56,7 +56,7 @@
         "$-4 \\le x \\le \\frac{1}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand and rearrange: $2x^2 - 6x \\ge x + 4 \\implies 2x^2 - 7x - 4 \\ge 0$. Factoring gives $(2x + 1)(x - 4) \\ge 0$. The critical values are $-\\frac{1}{2}$ and^4. Since it is $\\ge 0$, we select the outer regions.\n\n**Common mistake:** Students frequently fail to rearrange all terms to one side before attempting to solve, or treat it as an inner interval despite the 'greater than or equal to' inequality direction."
+      "explanation": "Expand and rearrange: $2x^2 - 6x \\ge x + 4 \\implies 2x^2 - 7x - 4 \\ge 0$. Factoring gives $(2x + 1)(x - 4) \\ge 0$. The critical values are $-\\frac{1}{2}$ and $4$. Since it is $\\ge 0$, we select the outer regions.\n\n**Common mistake:** Students frequently fail to rearrange all terms to one side before attempting to solve, or treat it as an inner interval despite the 'greater than or equal to' inequality direction."
     },
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q5",
@@ -87,7 +87,7 @@
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q7",
       "type": "mcq",
-      "question": "Find the set of values of $k$ for which the line $y = kx - 3$ does not intersect the curve $y = x^2 - 5x + 1$ .",
+      "question": "Find the set of values of $k$ for which the line $y = kx - 3$ does not intersect the curve $y = x^2 - 5x + 1$.",
       "options": [
         "$-9 < k < -1$",
         "$k < -9$ or $k > -1$",

@@ -11,7 +11,7 @@
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-easy-q1",
       "type": "mcq",
-      "question": "A particle moves in a straight line such that its displacement, $s  and O2t$. So $s = t^3 + 5$. Find the velocity of the particle at any time $t$.",
+      "question": "A particle moves in a straight line such that its displacement $s  metres from O$ is given by $s = t^3 + 5$. Find the velocity of the particle at any time $t$.",
       "options": [
         "$3t^2$",
         "$3t^2 + 5$",
@@ -19,12 +19,12 @@
         "$6t$"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity $v$ and $s2t$. So $s = t^3 + 5$ gives $v = \\frac{ds}{dt} = 3t^2$.\n\n**Common mistake:** Option B is a mistake where the student forgets that the derivative of a constant (5) is zero."
+      "explanation": "Velocity is $v = \\frac{ds}{dt}$. So $s = t^3 + 5$ gives $v = 3t^2$.\n\n**Common mistake:** Option B is a mistake where the student forgets that the derivative of a constant ($5$) is zero."
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-easy-q2",
       "type": "mcq",
-      "question": "The velocity, $v$. So $v = 4t^2 - 2t2t = 3$.",
+      "question": "The velocity of a particle is $v = 4t^2 -$t$m/s. Find the acceleration when$t = 3$s$.",
       "options": [
         "$22$ m/s^2",
         "$30$ m/s^2",
@@ -32,7 +32,7 @@
         "$8$ m/s^2"
       ],
       "correctIndex": 0,
-      "explanation": "Acceleration $a$ and $v2a = \\frac{dv}{dt} = 8t - 2$. Substituting $t = 3$ gives $a = 8(3) - 2 = 22$.\n\n**Common mistake:** Option B occurs if the student incorrectly evaluates $8t + 2$ or makes an arithmetic error during substitution."
+      "explanation": "Acceleration is $a = \\frac{dv}{dt} = 8t - 2$. Substituting $t = 3$ gives $a = 8(3) - 2 = 22$ m/s ^2.\n\n**Common mistake:** Option B occurs if the student incorrectly evaluates $8t + 2$ or makes an arithmetic error during substitution."
     },
     {
       "id": "16-1-applications-of-differentiation-in-kinematics-easy-q3",

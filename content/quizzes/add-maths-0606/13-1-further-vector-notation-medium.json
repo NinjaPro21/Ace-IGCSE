@@ -11,64 +11,64 @@
     {
       "id": "13-1-further-vector-notation-medium-q1",
       "type": "mcq",
-      "question": "Given u=3i-j and v=i+4j , find the magnitude of u+2v .",
+      "question": "Given $\\mathbf{u} = 3\\mathbf{i} - \\mathbf{j}$ and $\\mathbf{v} = \\mathbf{i} + 4\\mathbf{j}$, find the magnitude of $\\mathbf{u} + 2\\mathbf{v}$.",
       "options": [
-        "(\n\n74)",
-        "(\n\n50)",
-        "5i+7j",
-        "12"
+        "$\\sqrt{74}$",
+        "$\\sqrt{50}$",
+        "$5\\mathbf{i} + 7\\mathbf{j}$",
+        "$12$"
       ],
       "correctIndex": 0,
-      "explanation": "u+2v=(3i-j)+(2i+8j)=5i+7j. Magnitude is\n(\n\n$5^{2}$+$7^{2}$)=\n(\n\n25+49)=\n(\n\n74).\n\n**Common mistake:** Option C is the vector itself, whereas the question asks for the magnitude."
+      "explanation": "$\\mathbf{u} + 2\\mathbf{v} = (3\\mathbf{i} - \\mathbf{j}) + (2\\mathbf{i} + 8\\mathbf{j}) = 5\\mathbf{i} + 7\\mathbf{j}$. Magnitude is $\\sqrt{5^2 + 7^2} = \\sqrt{74}$.\n\n**Common mistake:** Option C is the vector itself, whereas the question asks for the magnitude."
     },
     {
       "id": "13-1-further-vector-notation-medium-q2",
       "type": "mcq",
-      "question": "Find the value of the constant k such that ∣ki+12j∣=13 , where k>0 .",
+      "question": "Find the value of the constant $k$ such that $|k\\mathbf{i} + 12\\mathbf{j}| = 13$, where $k > 0$.",
       "options": [
-        "5",
-        "1",
-        "25",
-        "(\n\n313)"
+        "$5$",
+        "$1$",
+        "$25$",
+        "$\\sqrt{313}$"
       ],
       "correctIndex": 0,
-      "explanation": "(\n\n$k^{2}$+1$2^{2}$)=13⟹$k^{2}$+144=169⟹$k^{2}$=25⟹k=5.\n\n**Common mistake:** Option D is\n(\n\n1$3^{2}$+1$2^{2}$), incorrectly adding squares of the magnitude and a component."
+      "explanation": "$\\sqrt{k^2 + 12^2} = 13 \\implies k^2 + 144 = 169 \\implies k^2 = 25 \\implies k = 5$.\n\n**Common mistake:** Option D is $\\sqrt{13^2 + 12^2}$, incorrectly adding squares of the magnitude and a component."
     },
     {
       "id": "13-1-further-vector-notation-medium-q3",
       "type": "mcq",
-      "question": "Find the unit vector in the direction of b=7i+24j .",
+      "question": "Find the unit vector in the direction of $\\mathbf{b} = 7\\mathbf{i} + 24\\mathbf{j}$.",
       "options": [
-        "7/25i+24/25j",
-        "1/25(7i-24j)",
-        "7i+24j",
-        "0.28i+0.96j"
+        "$\\frac{7}{25}\\mathbf{i} + \\frac{24}{25}\\mathbf{j}$",
+        "$\\frac{1}{25}(7\\mathbf{i} - 24\\mathbf{j})$",
+        "$7\\mathbf{i} + 24\\mathbf{j}$",
+        "$0.28\\mathbf{i} + 0.96\\mathbf{j}$"
       ],
       "correctIndex": 0,
-      "explanation": "Magnitude is\n(\n\n$7^{2}$+2$4^{2}$)=25. Unit vector is b/25=7/25i+24/25j. Note: Option D is also numerically correct but standard $fraction$ form is preferred.\n\n**Common mistake:** Option B is chosen if the student incorrectly applies a sign change to the j component."
+      "explanation": "Magnitude is $\\sqrt{7^2 + 24^2} = 25$. Unit vector is $\\mathbf{b}/25 = \\frac{7}{25}\\mathbf{i} + \\frac{24}{25}\\mathbf{j}$.\n\n**Common mistake:** Option B is chosen if the student incorrectly applies a sign change to the $\\mathbf{j}$ component."
     },
     {
       "id": "13-1-further-vector-notation-medium-q4",
       "type": "mcq",
-      "question": "Vector\nAB\nhas a starting point A(2,5) and an ending point B(5,9). Express\nAB\nin i,j form.",
+      "question": "Vector $\\vec{AB}$ has starting point $A(2, 5)$ and ending point $B(5, 9)$. Express $\\vec{AB}$ in $\\mathbf{i}, \\mathbf{j}$ form.",
       "options": [
-        "3i+4j",
-        "7i+14j",
-        "-3i-4j",
-        "4i+3j"
+        "$3\\mathbf{i} + 4\\mathbf{j}$",
+        "$7\\mathbf{i} + 14\\mathbf{j}$",
+        "$-3\\mathbf{i} - 4\\mathbf{j}$",
+        "$4\\mathbf{i} + 3\\mathbf{j}$"
       ],
       "correctIndex": 0,
-      "explanation": "AB\n=(5-2)i+(9-5)j=3i+4j.\n\n**Common mistake:** Option B is A+B, which does not represent the displacement vector."
+      "explanation": "$\\vec{AB} = (5-3)\\mathbf{i} + (9-5)\\mathbf{j} = 3\\mathbf{i} + 4\\mathbf{j}$.\n\n**Common mistake:** Option B is $\\vec{OA} + \\vec{OB}$, which does not represent the displacement vector."
     },
     {
       "id": "13-1-further-vector-notation-medium-q5",
       "type": "mcq",
-      "question": "Find the vector of magnitude 20 that is in the direction of 3i-4j .",
+      "question": "Find the vector of magnitude $20$ that is in the direction of $3\\mathbf{i} - 4\\mathbf{j}$.",
       "options": [
-        "12i-16j",
-        "60i-80j",
-        "3i-4j",
-        "15i-20j"
+        "$12\\mathbf{i} - 16\\mathbf{j}$",
+        "$60\\mathbf{i} - 80\\mathbf{j}$",
+        "$3\\mathbf{i} - 4\\mathbf{j}$",
+        "$15\\mathbf{i} - 20\\mathbf{j}$"
       ],
       "correctIndex": 0,
       "explanation": "The unit vector is 1/5(3i-4j)=0.6i-0.8j. Multiplying by magnitude 20 gives 12i-16j.\n\n**Common mistake:** Option B is 20×(3i-4j), forgetting to normalize to a unit vector first."

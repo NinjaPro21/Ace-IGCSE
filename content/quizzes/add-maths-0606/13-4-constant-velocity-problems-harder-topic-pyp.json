@@ -11,7 +11,7 @@
     {
       "id": "13-4-constant-velocity-problems-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "The position of a ship $t$. So $\\mathbf{r} = \\begin{pmatrix} 10t - 40 \\ \\\\ 30 - 5t \\end{pmatrix}$ km. Find the distance of the ship from the port when $t=2$.",
+      "question": "The position of a ship for which $\\mathbf{r} = \\begin{pmatrix} 10t - 40 \\ \\\\ 30 - 5t \\end{pmatrix}$ km. Find the distance of the ship from the port when $t=2$.",
       "options": [
         "$$\n\\sqrt{800} km\n",
         "$$\n\\sqrt{500} km\n",
@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "A particle travels with velocity $k(2\\mathbf{i} + \\mathbf{j})$. If its speed is $\\sqrt{20}$ m/s, find the positive value of $k$.",
       "options": [
-        "2",
-        "4",
-        "$$\n\\sqrt{2}\n",
-        "10"
+        "$2$",
+        "$4$",
+        "$\\sqrt{2}$",
+        "$10$"
       ],
       "correctIndex": 0,
       "explanation": "$|k(2i+j)| = k\\sqrt{2^2+1^2} = k\\sqrt{5}$. $k\\sqrt{5} = \\sqrt{20} \\implies k = \\sqrt{20}/\\sqrt{5} = \\sqrt{4} = 2$.\n\n**Common mistake:** Squaring only the coefficient $k$ or the vector components, but not both."
@@ -63,12 +63,12 @@
     {
       "id": "13-4-constant-velocity-problems-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "A motorboat travels at 15 km/h in a direction $060^\\circ$. $x\\mathbf{i} + y\\mathbf{j}$.",
+      "question": "A motorboat travels at $15$ km/h in a direction $060^\\circ$. Express its velocity as $x\\mathbf{i} + y\\mathbf{j}$ km/h.",
       "options": [
-        "13.0i + 7.5j",
-        "7.5i + 13.0j",
-        "15i + 15j",
-        "12i + 9j"
+        "$13.0\\mathbf{i} + 7.5\\mathbf{j}$",
+        "$7.5\\mathbf{i} + 13.0\\mathbf{j}$",
+        "$15\\mathbf{i} + 15\\mathbf{j}$",
+        "$12\\mathbf{i} + 9\\mathbf{j}$"
       ],
       "correctIndex": 0,
       "explanation": "Bearing 060 is 30° to the positive x-axis. $x = 15 \\cos(30) \\approx 13.0$. $y = 15 \\sin(30) = 7.5$. Result: $13.0i + 7.5j$.\n\n**Common mistake:** Swapping the sine and cosine functions for the bearing conversion."

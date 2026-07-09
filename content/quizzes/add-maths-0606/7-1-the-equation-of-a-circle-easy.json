@@ -11,7 +11,7 @@
     {
       "id": "7-1-the-equation-of-a-circle-easy-q1",
       "type": "mcq",
-      "question": "Identify the coordinates of the centre and the radius of the circle given by the equation $(x - 5)² + (y + 3)² = 64$.",
+      "question": "Identify the coordinates of the centre and the radius of the circle given by the equation $(x - 5)^2 + (y + 3)^2 = 64$.",
       "options": [
         "Centre $(5, -3)$, Radius 8",
         "Centre $(-5, 3)$, Radius 8",
@@ -19,27 +19,27 @@
         "Centre $(-5, 3)$, Radius 64"
       ],
       "correctIndex": 0,
-      "explanation": "The standard form is $(x - a)² + (y - b)² = r^2$, where the centre is $(a, b)$ and the radius is $r$. So $a = 5$, $b = -3$, and $r = \\sqrt{64} = 8$.\n\n**Common mistake:** Students often forget to switch the signs of the coordinates from the equation or use the diameter/square of the radius instead of $r$."
+      "explanation": "The standard form is $(x - a)^2 + (y - b)^2 = r^2$, where the centre is $(a, b)$ and the radius is $r$. So $a = 5$, $b = -3$, and $r = \\sqrt{64} = 8$.\n\n**Common mistake:** Students often forget to switch the signs of the coordinates from the equation or use the diameter/square of the radius instead of $r$."
     },
     {
       "id": "7-1-the-equation-of-a-circle-easy-q2",
       "type": "mcq",
       "question": "Find the equation of a circle with centre $(-2, 0)$ and a radius of 5 units.",
       "options": [
-        "$(x + 2)² + y^2 = 25$",
-        "$(x - 2)² + y^2 = 5$",
-        "$(x + 2)² + y^2 = 5$",
-        "$(x - 2)² + y^2 = 25$"
+        "$(x + 2)^2 + y^2 = 25$",
+        "$(x - 2)^2 + y^2 = 5$",
+        "$(x + 2)^2 + y^2 = 5$",
+        "$(x - 2)^2 + y^2 = 25$"
       ],
       "correctIndex": 0,
-      "explanation": "Substituting $a = -2, b = 0$, and $r = 5$ into $(x - a)² + (y - b)² = r^2$ yields $(x - (-2))² + (y - 0)² = 5^2$, which simplifies to $(x + 2)² + y^2 = 25$.\n\n**Common mistake:** A student might mistakenly use $x - 2$ because the centre coordinate is $-2$, failing to account for the subtraction in the formula."
+      "explanation": "Substituting $a = -2, b = 0$, and $r = 5$ into $(x - a)^2 + (y - b)^2 = r^2$ yields $(x - (-2))^2 + (y - 0)^2 = 5^2$, which simplifies to $(x + 2)^2 + y^2 = 25$.\n\n**Common mistake:** A student might mistakenly use $x - 2$ because the centre coordinate is $-2$, failing to account for the subtraction in the formula."
     },
     {
       "id": "7-1-the-equation-of-a-circle-easy-q3",
       "type": "mcq",
       "question": "Determine the radius of the circle with the equation $x^2 + y^2 = 12$.",
       "options": [
-        "$$\n\\sqrt{12}\n",
+        "$\\sqrt{12}$",
         "12",
         "6",
         "144"
@@ -63,7 +63,7 @@
     {
       "id": "7-1-the-equation-of-a-circle-easy-q5",
       "type": "mcq",
-      "question": "State the centre of the circle whose equation is $x^2 + (y - 7)² = 1$.",
+      "question": "State the centre of the circle whose equation is $x^2 + (y - 7)^2 = 1$.",
       "options": [
         "$(0, 7)$",
         "$(7, 0)$",
@@ -71,7 +71,7 @@
         "$(1, 7)$"
       ],
       "correctIndex": 0,
-      "explanation": "The equation can be written as $(x - 0)² + (y - 7)² = 1^2$, identifying the centre $(a, b)$ as $(0, 7)$.\n\n**Common mistake:** Confusing the $x$ and $y$ coordinates or thinking the radius value 1 is part of the centre."
+      "explanation": "The equation can be written as $(x - 0)^2 + (y - 7)^2 = 1^2$, identifying the centre $(a, b)$ as $(0, 7)$.\n\n**Common mistake:** Confusing the $x$ and $y$ coordinates or thinking the radius value 1 is part of the centre."
     }
   ]
 }

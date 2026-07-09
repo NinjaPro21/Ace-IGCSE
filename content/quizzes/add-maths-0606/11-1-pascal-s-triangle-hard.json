@@ -19,7 +19,7 @@
         "16"
       ],
       "correctIndex": 0,
-      "explanation": "Row 4 coefficients: 1, 4, 6, 4, 1. The x^2 term is 6(1)$^2$(2x)$^2$ = 6(4x^2) = 24x^2.\n\n**Common mistake:** Using only the coefficient 6 from the triangle and forgetting to square the '2' from the (2x) term."
+      "explanation": "Row 4 coefficients: $1, 4, 6, 4, 1$. The $x^2$ term is $6 \\cdot 1^2 \\cdot (2x)^2 = 24x^2$.\n\n**Common mistake:** Using only the coefficient $6$ and forgetting to square the $2$ from $(2x)$."
     },
     {
       "id": "11-1-pascal-s-triangle-hard-q2",
@@ -45,7 +45,7 @@
         "80"
       ],
       "correctIndex": 0,
-      "explanation": "Row 5: 1, 5, 10, 10, 5, 1. The x³ term is 10(2)$^2$(-x)³ = 10(4)(-x³) = -40x³.\n\n**Common mistake:** Forgetting the negative sign of the x term or failing to raise the '2' to the correct power (5-3=2)."
+      "explanation": "Row 5: $1, 5, 10, 10, 5, 1$. The $x^3$ term is $10 \\cdot 2^2 \\cdot (-x)^3 = -40x^3$.\n\n**Common mistake:** Forgetting the negative sign from $(-x)$ or using the wrong power of $2$."
     },
     {
       "id": "11-1-pascal-s-triangle-hard-q4",

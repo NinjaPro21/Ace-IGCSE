@@ -32,12 +32,12 @@
         "0 and 10"
       ],
       "correctIndex": 0,
-      "explanation": "$mx - 1 = x^2 + 5x + 8 \\implies x^2 + (5 - m)x + 9 = 0$. For a tangent, $Δ = (5 - m)² - 4(1)(9) = 0 \\implies (5 - m)² = 36$. $5 - m = ±6$, so $m = -1$ or $m = 11$.\n\n**Common mistake:** Incorrectly identifying the roots as $+1$ and $-11$ by mismanaging the subtraction from 5."
+      "explanation": "$mx - 1 = x^2 + 5x + 8 \\implies x^2 + (5 - m)x + 9 = 0$. For a tangent, $Δ = (5 - m)^2 - 4(1)(9) = 0 \\implies (5 - m)^2 = 36$. $5 - m = ±6$, so $m = -1$ or $m = 11$.\n\n**Common mistake:** Incorrectly identifying the roots as $+1$ and $-11$ by mismanaging the subtraction from 5."
     },
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of $k$. So $y = 2x + k2y = x^2 + 6x + 9$.",
+      "question": "Find the set of values of $k$ for which the line $y = 2x + k$ intersects the curve $y = x^2 + 6x + 9$.",
       "options": [
         "$k < 5$",
         "$k > 5$",
@@ -50,7 +50,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "Find the range of values of $c$. So $y = 3x + c2y = x^2 - x + 2$ at two distinct points.",
+      "question": "Find the range of values of $c$ for which the line $y = 3x + c$ intersects the curve $y = x^2 - x + 2$ at two distinct points.",
       "options": [
         "$c > -2$",
         "$c < -2$",
@@ -58,7 +58,7 @@
         "$c < 2$"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2 - x + 2 = 3x + c \\implies x^2 - 4x + (2 - c) = 0$. Two points means $Δ = (-4)² - 4(1)(2 - c) > 0 \\implies 16 - 8 + 4c > 0 \\implies 4c > -8 \\implies c > -2$.\n\n**Common mistake:** Using 'greater than or equal to zero' when the question specifies 'distinct' points, or miscalculating the constant subtraction."
+      "explanation": "$x^2 - x + 2 = 3x + c \\implies x^2 - 4x + (2 - c) = 0$. Two points means $Δ = (-4)^2 - 4(1)(2 - c) > 0 \\implies 16 - 8 + 4c > 0 \\implies 4c > -8 \\implies c > -2$.\n\n**Common mistake:** Using 'greater than or equal to zero' when the question specifies 'distinct' points, or miscalculating the constant subtraction."
     },
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-pyp-q5",
@@ -71,7 +71,7 @@
         "$(0, 3)$ and $(4, 3)$"
       ],
       "correctIndex": 0,
-      "explanation": "$4x - x^2 = 3 \\implies x^2 - 4x + 3 = 0 \\implies (x - 1)(x - 3) = 0$. The $x$. So $y = 3$, both points have a $y$-coordinate of 3.\n\n**Common mistake:** Only identifying one of the two intersection points or miscalculating the $x$-coordinates from the quadratic."
+      "explanation": "$4x - x^2 = 3 \\implies x^2 - 4x + 3 = 0 \\implies (x - 1)(x - 3) = 0$. The when $y = 3$, both points have a $y$-coordinate of 3.\n\n**Common mistake:** Only identifying one of the two intersection points or miscalculating the $x$-coordinates from the quadratic."
     }
   ]
 }

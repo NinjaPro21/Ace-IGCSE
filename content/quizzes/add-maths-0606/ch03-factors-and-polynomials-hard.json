@@ -43,7 +43,7 @@
         "$-27 < k < 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $f(x) = x^3 - 3x^2 - 9x$. Stationary points occur where $f'(x) = 3x^2 - 6x - 9 = 0 \\implies x = 3, x = -1$. The local maximum is $f(-1) = 5$ and local minimum is $f(3) = -27$. For $f(x) + k = 0$ to have 3 distinct roots, the curve must cross the x-axis three times, requiring $-5 < k < 27$.\n\n**Common mistake:** Students confuse the signs of the local extrema values when translating them into the vertical shift constant $k$."
+      "explanation": "Let $f(x) = x^3 - 3x^2 - 9x$. Stationary points occur where $f'(x) = 3x^2 - 6x - 9 = 0 \\implies x = 3, x = -1$. The local maximum is $f(-1) = 5$ and local minimum is $f(3) = -27$. For $f(x) + k = 0$ to have 3 distinct roots, the curve must cross the x-axis three times, requiring -5 < k < 27\n\n$$.\n\n**Common mistake:** Students confuse the signs of the local extrema values when translating them into the vertical shift constant $k$."
     }
   ]
 }

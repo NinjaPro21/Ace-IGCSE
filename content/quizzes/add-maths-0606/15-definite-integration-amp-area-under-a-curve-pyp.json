@@ -49,12 +49,12 @@
     },
     {
       "type": "mcq",
-      "question": "Evaluate $\\int_0^1 e^{2x} dx$.",
+      "question": "Evaluate $\\int_0^1 e^{2x}\\,dx$.",
       "options": [
-        "0.5(e^2 - 1)",
-        "e^2 - 1",
-        "0.5e^2",
-        "e^2"
+        "$0.5(e^2 - 1)$",
+        "$e^2 - 1$",
+        "$0.5e^2$",
+        "$e^2$"
       ],
       "correctIndex": 0,
       "explanation": "Integral is $[0.5e^{2x}]_0^1 = 0.5e^2 - 0.5e^0 = 0.5(e^2 - 1)$.\n\n**Common mistake:** Forgetting the lower limit evaluation $e^0 = 1$.",
@@ -84,7 +84,7 @@
         "8/3"
       ],
       "correctIndex": 0,
-      "explanation": "Roots are x=0, 2. Integral is [x³/3 - x^2] from 0 to 2 = 8/3 - 4 = -4/3. Area = 4/3.\n\n**Common mistake:** Using the negative integral value as the area."
+      "explanation": "Roots are x=0, 2. Integral is [x^3/3 - x^2] from 0 to 2 = 8/3 - 4 = -4/3. Area = 4/3.\n\n**Common mistake:** Using the negative integral value as the area."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-pyp-q7",
@@ -97,7 +97,7 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "∫₀² kx^2 dx = [kx³/3]₀² = 8k/3. Set 8k/3 = 8 => k = 3.\n\n**Common mistake:** Miscalculating the cube of 2 or the final algebraic step."
+      "explanation": "∫₀^2 kx^2 dx = [kx^3/3]₀^2 = 8k/3. Set 8k/3 = 8 => k = 3.\n\n**Common mistake:** Miscalculating the cube of 2 or the final algebraic step."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-pyp-q8",
@@ -110,7 +110,7 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "Area = Rectangle (2x8) - Area under curve (∫₀² x³ dx) = 16 - [x⁴/4]₀² = 16 - 4 = 12. Alternatively, integrate w.r.t y: ∫₀⁸ y^{1/3} dy = [0.75 y^{4/3}]₀⁸ = 0.75(16) = 12.\n\n**Common mistake:** Calculating only the area under the curve w.r.t x (4) and not subtracting from the rectangle."
+      "explanation": "Area = Rectangle (2x8) - Area under curve (∫₀^2 x^3 dx) = 16 - [x⁴/4]₀^2 = 16 - 4 = 12. Alternatively, integrate w.r.t y: ∫₀⁸ $y^{1/3}$ dy = [0.75 $y^{4/3}$]₀⁸ = 0.75(16) = 12.\n\n**Common mistake:** Calculating only the area under the curve w.r.t x (4) and not subtracting from the rectangle."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-pyp-q9",
@@ -123,7 +123,7 @@
         "Both 1 and 2"
       ],
       "correctIndex": 3,
-      "explanation": "Roots: (2-x)(3+x) = 0 => x=2. First quadrant means x=0 to 2. ∫₀² (6 - x - x^2) dx = [6x - x^2/2 - x³/3] = 12 - 2 - 8/3 = 10 - 2.67 = 7.33.\n\n**Common mistake:** Using the root x=-3 as a limit for a first quadrant area."
+      "explanation": "Roots: (2-x)(3+x) = 0 => x=2. First quadrant means x=0 to 2. ∫₀^2 (6 - x - x^2) dx = [6x - x^2/2 - x^3/3] = 12 - 2 - 8/3 = 10 - 2.67 = 7.33.\n\n**Common mistake:** Using the root x=-3 as a limit for a first quadrant area."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-pyp-q10",
@@ -136,7 +136,7 @@
         "54"
       ],
       "correctIndex": 0,
-      "explanation": "Intersection: 10 - x^2 = 1 => x^2 = 9 => x=±3. Area = ∫ from -3 to 3 (10 - x^2 - 1) dx = ∫ (9 - x^2) dx = [9x - x³/3] from -3 to 3 = (27 - 9) - (-27 + 9) = 18 - (-18) = 36.\n\n**Common mistake:** Integrating from 0 to 3 only (18) and forgetting to double it for the symmetrical region."
+      "explanation": "Intersection: 10 - x^2 = 1 => x^2 = 9 => x=±3. Area = ∫ from -3 to 3 (10 - x^2 - 1) dx = ∫ (9 - x^2) dx = [9x - x^3/3] from -3 to 3 = (27 - 9) - (-27 + 9) = 18 - (-18) = 36.\n\n**Common mistake:** Integrating from 0 to 3 only (18) and forgetting to double it for the symmetrical region."
     }
   ]
 }

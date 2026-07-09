@@ -1,0 +1,77 @@
+{
+  "id": "6-midpoint-parallel-and-perpendicular-lines-easy",
+  "topicId": "6-midpoint-parallel-and-perpendicular-lines",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "easy",
+  "title": "Midpoint, Parallel, and Perpendicular Lines — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-easy-q1",
+      "type": "mcq",
+      "question": "Find the coordinates of the midpoint of the line segment joining the points $A(2, -5)$ and $B(8, 11)$.",
+      "options": [
+        "$(5, 3)$",
+        "$(3, 8)$",
+        "$(10, 6)$",
+        "$(5, 8)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The midpoint formula is $M = (\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$. Substituting the values gives $(\\frac{2 + 8}{2}, \\frac{-5 + 11}{2}) = (5, 3)$.\n\n**Common mistake:** Students often subtract the coordinates instead of adding them, or forget to divide by 2."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-easy-q2",
+      "type": "mcq",
+      "question": "Identify the gradient of a line that is parallel to the line with equation $y = -4x + 9$.",
+      "options": [
+        "$-4$",
+        "$4$",
+        "$\\frac{1}{4}$",
+        "$9$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel lines have the same gradient. The given line is in the form $y = mx + c$ and $m2-4$.\n\n**Common mistake:** A student might provide the negative reciprocal ($1/4$) by confusing the rules for parallel and perpendicular lines."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-easy-q3",
+      "type": "mcq",
+      "question": "If a line $L_1$ has a gradient of $\\frac{2}{3}$, what is the gradient of a line $L_2$ that is perpendicular to $L_1$?",
+      "options": [
+        "$-\\frac{3}{2}$",
+        "$\\frac{3}{2}$",
+        "$-\\frac{2}{3}$",
+        "$\\frac{2}{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The product of the gradients of perpendicular lines is $-1$. Thus, $m_2 = -\\frac{1}{m_1} = -\\frac{1}{2/3} = -\\frac{3}{2}$.\n\n**Common mistake:** A student may flip the $fraction$ but forget the negative sign, or apply the negative sign without flipping the $fraction$."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-easy-q4",
+      "type": "mcq",
+      "question": "The midpoint of a line segment $PQ$. $(4, 1)$. If the coordinates of $P$. $(1, -2)$, find the coordinates of $Q$.",
+      "options": [
+        "$(7, 4)$",
+        "$(2.5, -0.5)$",
+        "$(3, 3)$",
+        "$(5, -1)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using $x_m = \\frac{x_p + x_q}{2} \\Rightarrow 4 = \\frac{1 + x_q}{2} \\Rightarrow x_q = 7$. Similarly, $1 = \\frac{-2 + y_q}{2} \\Rightarrow y_q = 4$.\n\n**Common mistake:** Mistakenly treating the midpoint as an endpoint and calculating the midpoint between $(4, 1)$ and $(1, -2)$ instead."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-easy-q5",
+      "type": "mcq",
+      "question": "Which of the following lines is parallel to $3x + y = 10$?",
+      "options": [
+        "$y = -3x + 5$",
+        "$y = 3x + 10$",
+        "$x - 3y = 2$",
+        "$3x - y = 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearranging $3x + y = 10$ gives $y = -3x + 10$, so the gradient is $-3$. The line $y = -3x + 5$ share the same gradient.\n\n**Common mistake:** Identifying^3 as the gradient because it is the coefficient of when $y = mx + c$ form."
+    }
+  ]
+}

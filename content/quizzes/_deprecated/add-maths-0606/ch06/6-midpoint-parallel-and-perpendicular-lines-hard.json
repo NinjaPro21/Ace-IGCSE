@@ -1,0 +1,77 @@
+{
+  "id": "6-midpoint-parallel-and-perpendicular-lines-hard",
+  "topicId": "6-midpoint-parallel-and-perpendicular-lines",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "hard",
+  "title": "Midpoint, Parallel, and Perpendicular Lines — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-hard-q1",
+      "type": "mcq",
+      "question": "Find the equation of the perpendicular bisector of the line segment joining $P(-1, 4)$ and $Q(5, 2)$.",
+      "options": [
+        "$y = 3x - 3$",
+        "$y = 3x + 3$",
+        "$y = -\\frac{1}{3}x + \\frac{11}{3}$",
+        "$y = \\frac{1}{3}x + \\frac{7}{3}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint $M = (2, 3)$. Gradient $PQ = \\frac{2-4}{5-(-1)} = -\\frac{2}{6} = -\\frac{1}{3}$. Perpendicular gradient $m = 3$. Equation: $y - 3 = 3(x - 2) \\Rightarrow y = 3x - 3$.\n\n**Common mistake:** Using an endpoint instead of the midpoint to find the constant $c$. $PQ$ itself instead of the perpendicular gradient."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-hard-q2",
+      "type": "mcq",
+      "question": "The line $L_1$ has equation $kx + 4y = 8$. The line $L_2$ passes through $(1, 2)$ and is perpendicular to $L_1$. If $L_2$ has a gradient of $0.5$, find the value of $k$.",
+      "options": [
+        "$8$",
+        "$-8$",
+        "2",
+        "$-2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "If $L_2$ has gradient $0.5$, then $L_1$ must have gradient $-2$. From $kx + 4y = 8$, $4y = -kx + 8 \\Rightarrow y = -\\frac{k}{4}x + 2$. So $-\\frac{k}{4} = -2 \\Rightarrow k = 8$.\n\n**Common mistake:** Setting $-k/4 = 0.5$ (parallel) instead of $-k/4 = -2$ (perpendicular)."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-hard-q3",
+      "type": "mcq",
+      "question": "Given that the line $y = mx + c$. $4x - 2y = 5$ and passes through the midpoint of the line joining $(1, 7)$ and $(5, -1)$, find $c$.",
+      "options": [
+        "$-3$",
+        "$3$",
+        "$-9$",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient of $4x - 2y = 5$ is $1$. Midpoint is $(3, 3)$. Substituting into $y = 2x + c$. $3 = 2(3) + c \\Rightarrow c = -3$.\n\n**Common mistake:** A student might calculate the gradient as $-2$ or use one of the endpoints instead of the midpoint."
+    },
+    {
+      "id": "6-midpoint-parallel-and-perpendicular-lines-hard-q4",
+      "type": "mcq",
+      "question": "The line $L$. $AB2A$. $(0, 4)$ and $B$. $(6, 0)$. Find the coordinates of the point on $L$ and $x$-axis.",
+      "options": [
+        "$(\\frac{7}{3}, 0)$",
+        "$(3, 0)$",
+        "$(0, 2)$",
+        "$(\\frac{13}{3}, 0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint $M = (3, 2)$. Gradient $AB = -4/6 = -2/3$. Perp gradient $= 1.5$. $L: y - 2 = 1.5(x - 3) \\Rightarrow y = 1.5x - 2.5$. For when $y=0 \\Rightarrow 1.5x = 2.5 \\Rightarrow x = 5/3$. Let's re-calculate: $y = 1.5x - 4.5 + 2 = 1.5x - 2.5$. $0 = 1.5x - 2.5 \\Rightarrow x = 2.5/1.5 = 5/3$.\n\n**Common mistake:** Incorrectly identifying the $y$ and $x$-axis."
+    },
+    {
+      "type": "mcq",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
+      "options": [
+        "$y = 0.5x - 0.5$",
+        "$y = -2x + 7$",
+        "$y = 0.5x + 1$",
+        "$y = -0.5x + 2.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The perpendicular gradient is the negative reciprocal of $-2$, which is $0.5$. Using the midpoint $(3,1)$ in $y - y_1 = m(x - x_1)$: $y - 1 = 0.5(x - 3) \\Rightarrow y = 0.5x - 0.5$.\n\n**Common mistake:** Using the original gradient $-2$ instead of the perpendicular gradient $0.5$.",
+      "id": "6-midpoint-parallel-and-perpendicular-lines-hard-q5"
+    }
+  ]
+}

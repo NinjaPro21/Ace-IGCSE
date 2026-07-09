@@ -19,7 +19,7 @@
         "27"
       ],
       "correctIndex": 0,
-      "explanation": "Row 4: 1, 4, 6, 4, 1. Term x^2 = 6(1)$^2$(-3x)$^2$ = 6(9x^2) = 54x^2.\n\n**Common mistake:** Squaring -3 to get -9, or forgetting to multiply by the Pascal coefficient 6."
+      "explanation": "Row 4: $1, 4, 6, 4, 1$. The $x^2$ term is $6 \\cdot 1^2 \\cdot (-3x)^2 = 54x^2$.\n\n**Common mistake:** Squaring $-3$ incorrectly or forgetting the Pascal coefficient $6$."
     },
     {
       "id": "11-1-pascal-s-triangle-pyp-q2",
@@ -32,7 +32,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Row 4: 1, 4, 6, 4, 1. Constant occurs where powers of x cancel: 6(x)$^2$(2/x)$^2$ = 6(x^2)(4/x^2) = 24.\n\n**Common mistake:** Thinking the constant is the last term (16) and ignoring the middle term where x-powers balance."
+      "explanation": "Row 4: $1, 4, 6, 4, 1$. The constant term is $6 \\cdot x^2 \\cdot (2/x)^2 = 24$.\n\n**Common mistake:** Taking the last term only instead of the term where powers of $x$ cancel."
     },
     {
       "id": "11-1-pascal-s-triangle-pyp-q3",

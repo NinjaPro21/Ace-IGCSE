@@ -9,7 +9,7 @@
     {
       "id": "ch09-trigonometry-q1",
       "type": "mcq",
-      "question": "The diagram of a periodic wave is modeled by the function $y = a\\cos(bx) + c$ . If the maximum value is 7, the minimum value is -3, and the curve repeats itself every $180^\\circ$ , find the values of $a$ , $b$ , and $c where a, b > 02$",
+      "question": "The diagram of a periodic wave is modeled by the function $y = a\\cos(bx) + c$. If the maximum value is 7, the minimum value is -3, and the curve repeats itself every $180^\\circ$, find the values of $a$, $b$, and $c where a, b > 0\n\n$.",
       "options": [
         "a = 5, b = 2, c = 2",
         "a = 10, b = 2, c = 2",
@@ -17,12 +17,12 @@
         "a = 5, b = 2, c = 4"
       ],
       "correctIndex": 0,
-      "explanation": "The amplitude is $a = \\frac{7 - (-3)}{2} = 5$ and the vertical shift is $c = \\frac{7 + (-3)}{2} = 2$ . The period coefficient is $b = \\frac{360^\\circ}{180^\\circ} = 2$ .\n\n**Common mistake:** Students frequently calculate the amplitude $a$ as the full range $(7 - (-3) = 10)$ instead of dividing by 2, or mistake the period multiplier formula by multiplying instead of dividing."
+      "explanation": "The amplitude is $a = \\frac{7 - (-3)}{2} = 5$ and the vertical shift is $c = \\frac{7 + (-3)}{2} = 2$. The period coefficient is $b = \\frac{360^\\circ}{180^\\circ} = 2$.\n\n**Common mistake:** Students frequently calculate the amplitude $a$ as the full range $(7 - (-3) = 10)$ instead of dividing by 2, or mistake the period multiplier formula by multiplying instead of dividing."
     },
     {
       "id": "ch09-trigonometry-q2",
       "type": "mcq",
-      "question": "Solve the equation $2\\sin(2\\theta) = -\\sqrt{3}$ for the interval $0^\\circ \\le \\theta \\le 180^\\circ$ .",
+      "question": "Solve the equation $2\\sin(2\\theta) = -\\sqrt{3}$ for the interval $0^\\circ \\le \\theta \\le 180^\\circ$.",
       "options": [
         "$120^\\circ \\text{ and } 150^\\circ$",
         "$60^\\circ \\text{ and } 120^\\circ$",
@@ -30,20 +30,20 @@
         "$120^\\circ \\text{ and } 300^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the term: $\\sin(2\\theta) = -\\frac{\\sqrt{3}}{2}$ . For $0^\\circ \\le 2\\theta \\le 360^\\circ$ , $2\\theta$ lies in Quadrants III and IV with a reference angle of $60^\\circ$ . Thus, $2\\theta = 240^\\circ, 300^\\circ$ , which yields $\\theta = 120^\\circ, 150^\\circ$ .\n\n**Common mistake:** Students regularly solve for $\\sin(\\theta)$ first or forget to modify the boundary interval for $2\\theta$ , thus missing or picking angles that fall entirely outside the requested domain of $\\theta$ ."
+      "explanation": "Isolate the term: $\\sin(2\\theta) = -\\frac{\\sqrt{3}}{2}$. For $0^\\circ \\le 2\\theta \\le 360^\\circ$ , $2\\theta$ lies in Quadrants III and IV with a reference angle of $60^\\circ$. Thus, $2\\theta = 240^\\circ, 300^\\circ$ , which yields $\\theta = 120^\\circ, 150^\\circ$.\n\n**Common mistake:** Students regularly solve for $\\sin(\\theta)$ first or forget to modify the boundary interval for $2\\theta$ , thus missing or picking angles that fall entirely outside the requested domain of $\\theta$."
     },
     {
       "id": "ch09-trigonometry-q3",
       "type": "mcq",
-      "question": "Given that $\\cot^2(\\alpha) = 3$ and $\\alpha$ is an obtuse angle, determine the exact value of $\\csc(\\alpha)$ .",
+      "question": "Given that $\\cot^2(\\alpha) = 3$ and $\\alpha$ is an obtuse angle, determine the exact value of $\\csc(\\alpha)$.",
       "options": [
         "2",
         "-2",
         "4",
-        "$$\n\\sqrt{2}\n"
+        "$\\sqrt{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Use the identity $1 + \\cot^2(\\alpha) = \\csc^2(\\alpha)$ . This gives $\\csc^2(\\alpha) = 1 + 3 = 4$ . Since $\\alpha$ is obtuse (Quadrant II), sine and its reciprocal cosecant are positive, so $\\csc(\\alpha) = 2$ .\n\n**Common mistake:** Students often assume that because the angle is obtuse, all reciprocal functions must be negative, leading them to erroneously select -2."
+      "explanation": "Use the identity $1 + \\cot^2(\\alpha) = \\csc^2(\\alpha)$. This gives $\\csc^2(\\alpha) = 1 + 3 = 4$. Since $\\alpha$ is obtuse (Quadrant II), sine and its reciprocal cosecant are positive, so $\\csc(\\alpha) = 2$.\n\n**Common mistake:** Students often assume that because the angle is obtuse, all reciprocal functions must be negative, leading them to erroneously select -2."
     },
     {
       "id": "ch09-trigonometry-q4",
@@ -56,20 +56,20 @@
         "2\\csc^2(x)"
       ],
       "correctIndex": 0,
-      "explanation": "Find a common denominator: $\\frac{(1 + \\sin(x)) + (1 - \\sin(x))}{(1 - \\sin(x))(1 + \\sin(x))} = \\frac{2}{1 - \\sin^2(x)}$ . Applying the Pythagorean identity yields $\\frac{2}{\\cos^2(x)} = 2\\sec^2(x)$ .\n\n**Common mistake:** Students often expand the denominator incorrectly as $1 + \\sin^2(x)$ or fail to substitute the reciprocal step correctly, leaving the term as $2\\cos^2(x)$ ."
+      "explanation": "Find a common denominator: $\\frac{(1 + \\sin(x)) + (1 - \\sin(x))}{(1 - \\sin(x))(1 + \\sin(x))} = \\frac{2}{1 - \\sin^2(x)}$. Applying the Pythagorean identity yields $\\frac{2}{\\cos^2(x)} = 2\\sec^2(x)$.\n\n**Common mistake:** Students often expand the denominator incorrectly as $1 + \\sin^2(x)$ or fail to substitute the reciprocal step correctly, leaving the term as $2\\cos^2(x)$."
     },
     {
       "id": "ch09-trigonometry-q5",
       "type": "mcq",
-      "question": "If $\\cos(\\theta) = p  and \\theta$ is an acute angle, express $\\tan(180^\\circ - \\theta)$ in terms of $p$ .",
+      "question": "If $\\cos(\\theta) = p  and \\theta$ is an acute angle, express $\\tan(180^\\circ - \\theta)$ in terms of $p$.",
       "options": [
         "$-\\frac{\\sqrt{1-p^2}}{p}$",
-        "$$\n\\frac{\\sqrt{1-p^2}}{p}\n",
+        "$\\frac{\\sqrt{1-p^2}}{p}$",
         "$-\\frac{p}{\\sqrt{1-p^2}}$",
-        "$$\n\\frac{1-p^2}{p}\n"
+        "$\\frac{1-p^2}{p}$"
       ],
       "correctIndex": 0,
-      "explanation": "For an acute angle, $\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)} = \\frac{\\sqrt{1-p^2}}{p}$ . Since $180^\\circ - \\theta$ lies in Quadrant II where tangent is negative, $\\tan(180^\\circ - \\theta) = -\\tan(\\theta) = -\\frac{\\sqrt{1-p^2}}{p}$ .\n\n**Common mistake:** Students often forget to apply the quadrant sign conversion for $(180^\\circ - \\theta)$ , leading to a positive result, or swap the numerator and denominator parameters."
+      "explanation": "For an acute angle, $\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)} = \\frac{\\sqrt{1-p^2}}{p}$. Since $180^\\circ - \\theta$ lies in Quadrant II where tangent is negative, $\\tan(180^\\circ - \\theta) = -\\tan(\\theta) = -\\frac{\\sqrt{1-p^2}}{p}$.\n\n**Common mistake:** Students often forget to apply the quadrant sign conversion for $(180^\\circ - \\theta)$ , leading to a positive result, or swap the numerator and denominator parameters."
     }
   ]
 }

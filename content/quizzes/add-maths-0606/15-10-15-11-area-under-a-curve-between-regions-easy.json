@@ -10,7 +10,7 @@
   "questions": [
     {
       "type": "mcq",
-      "question": "Find the area bounded by the curve $y = x^2$, the $x$. So $x=0$ and $x=3$.",
+      "question": "Find the area bounded by the curve $y = x^2$, the when $x=0$ and $x=3$.",
       "options": [
         "9",
         "3",
@@ -23,7 +23,7 @@
     },
     {
       "type": "mcq",
-      "question": "Calculate the area of the region bounded by $y = 4$, the $x$. So $x=1$, and $x=5$.",
+      "question": "Calculate the area of the region bounded by $y = 4$, the when $x=1$, and $x=5$.",
       "options": [
         "16",
         "20",
@@ -70,7 +70,7 @@
         "e + 1"
       ],
       "correctIndex": 0,
-      "explanation": "$\\int_0^1 e^x dx = [e^x]_0^1 = e^1 - e^0 = e - 1$.\n\n**Common mistake:** Thinking the integral evaluates to $e^2 So e^0 = 1$.",
+      "explanation": "$\\int_0^1 e^x dx = [e^x]_0^1 = e^1 - e^0 = e - 1$.\n\n**Common mistake:** Thinking the integral evaluates to $e$. So e^0 = 1.",
       "id": "15-10-15-11-area-under-a-curve-between-regions-easy-q5"
     }
   ]

@@ -76,67 +76,67 @@
     {
       "id": "ch02-simultaneous-equations-and-quadratics-q2",
       "type": "mcq",
-      "question": "Express the quadratic function $f(x) = -2x^2 + 12x - 5$ in the form $a(x - h)² + k$ by completing the square.",
+      "question": "Express the quadratic function $f(x) = -2x^2 + 12x - 5$ in the form $a(x - h)^2 + k$ by completing the square.",
       "options": [
-        "$-2(x - 3)² + 13$",
-        "$-2(x - 3)² - 5$",
-        "$-2(x + 3)² + 13$",
-        "$-2(x - 3)² - 23$"
+        "$-2(x - 3)^2 + 13$",
+        "$-2(x - 3)^2 - 5$",
+        "$-2(x + 3)^2 + 13$",
+        "$-2(x - 3)^2 - 23$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor out $-2$ from the variable terms: $-2(x^2 - 6x) - 5$. Complete the square inside: $-2[(x - 3)² - 9] - 5 = -2(x - 3)² + 18 - 5 = -2(x - 3)² + 13$.\n\n**Common mistake:** When expanding the outer constant multiplication, students regularly fail to multiply $-2$ by $-9$, calculating $-9 - 5 = -14$ or $+9 - 5 = 4$ instead of $+18 - 5 = 13$.",
+      "explanation": "Factor out $-2$ from the variable terms: $-2(x^2 - 6x) - 5$. Complete the square inside: $-2[(x - 3)^2 - 9] - 5 = -2(x - 3)^2 + 18 - 5 = -2(x - 3)^2 + 13$.\n\n**Common mistake:** When expanding the outer constant multiplication, students regularly fail to multiply $-2$ by $-9$, calculating $-9 - 5 = -14$ or $+9 - 5 = 4$ instead of $+18 - 5 = 13$.",
       "variants": [
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q2",
           "type": "mcq",
-          "question": "Express the quadratic function $f(x) = -2x^2 + 8x + 1$ in the form $a(x - h)² + k$ by completing the square.",
+          "question": "Express the quadratic function $f(x) = -2x^2 + 8x + 1$ in the form $a(x - h)^2 + k$ by completing the square.",
           "options": [
-            "$-2(x - 2)² + 9$",
-            "$-2(x - 2)² + 1$",
-            "$-2(x + 2)² + 9$",
-            "$-2(x - 2)² - 7$"
+            "$-2(x - 2)^2 + 9$",
+            "$-2(x - 2)^2 + 1$",
+            "$-2(x + 2)^2 + 9$",
+            "$-2(x - 2)^2 - 7$"
           ],
           "correctIndex": 0,
-          "explanation": "$-2(x^2 - 4x) + 1 = -2[(x - 2)² - 4] + 1 = -2(x - 2)² + 9$."
+          "explanation": "$-2(x^2 - 4x) + 1 = -2[(x - 2)^2 - 4] + 1 = -2(x - 2)^2 + 9$."
         },
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q2",
           "type": "mcq",
-          "question": "Express the quadratic function $f(x) = -3x^2 + 12x + 2$ in the form $a(x - h)² + k$ by completing the square.",
+          "question": "Express the quadratic function $f(x) = -3x^2 + 12x + 2$ in the form $a(x - h)^2 + k$ by completing the square.",
           "options": [
-            "$-3(x - 2)² + 14$",
-            "$-3(x - 2)² + 2$",
-            "$-3(x + 2)² + 14$",
-            "$-3(x - 2)² - 10$"
+            "$-3(x - 2)^2 + 14$",
+            "$-3(x - 2)^2 + 2$",
+            "$-3(x + 2)^2 + 14$",
+            "$-3(x - 2)^2 - 10$"
           ],
           "correctIndex": 0,
-          "explanation": "$-3(x^2 - 4x) + 2 = -3[(x - 2)² - 4] + 2 = -3(x - 2)² + 14$."
+          "explanation": "$-3(x^2 - 4x) + 2 = -3[(x - 2)^2 - 4] + 2 = -3(x - 2)^2 + 14$."
         },
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q2",
           "type": "mcq",
-          "question": "Express the quadratic function $f(x) = -2x^2 + 10x - 3$ in the form $a(x - h)² + k$ by completing the square.",
+          "question": "Express the quadratic function $f(x) = -2x^2 + 10x - 3$ in the form $a(x - h)^2 + k$ by completing the square.",
           "options": [
-            "$-2(x - \\frac{5}{2})² + \\frac{19}{2}$",
-            "$-2(x - 5)² + 19$",
-            "$-2(x + \\frac{5}{2})² + \\frac{19}{2}$",
-            "$-2(x - \\frac{5}{2})² - 3$"
+            "$-2(x - \\frac{5}{2})^2 + \\frac{19}{2}$",
+            "$-2(x - 5)^2 + 19$",
+            "$-2(x + \\frac{5}{2})^2 + \\frac{19}{2}$",
+            "$-2(x - \\frac{5}{2})^2 - 3$"
           ],
           "correctIndex": 0,
-          "explanation": "$-2(x^2 - 5x) - 3 = -2[(x - \\frac{5}{2})² - \\frac{25}{4}] - 3 = -2(x - \\frac{5}{2})² + \\frac{19}{2}$."
+          "explanation": "$-2(x^2 - 5x) - 3 = -2[(x - \\frac{5}{2})^2 - \\frac{25}{4}] - 3 = -2(x - \\frac{5}{2})^2 + \\frac{19}{2}$."
         },
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q2",
           "type": "mcq",
-          "question": "Express the quadratic function $f(x) = -4x^2 + 16x - 1$ in the form $a(x - h)² + k$ by completing the square.",
+          "question": "Express the quadratic function $f(x) = -4x^2 + 16x - 1$ in the form $a(x - h)^2 + k$ by completing the square.",
           "options": [
-            "$-4(x - 2)² + 15$",
-            "$-4(x - 2)² - 1$",
-            "$-4(x + 2)² + 15$",
-            "$-4(x - 2)² - 17$"
+            "$-4(x - 2)^2 + 15$",
+            "$-4(x - 2)^2 - 1$",
+            "$-4(x + 2)^2 + 15$",
+            "$-4(x - 2)^2 - 17$"
           ],
           "correctIndex": 0,
-          "explanation": "$-4(x^2 - 4x) - 1 = -4[(x - 2)² - 4] - 1 = -4(x - 2)² + 15$."
+          "explanation": "$-4(x^2 - 4x) - 1 = -4[(x - 2)^2 - 4] - 1 = -4(x - 2)^2 + 15$."
         }
       ]
     },
@@ -164,7 +164,7 @@
             "$x \\le -3$ or $x \\ge 2$"
           ],
           "correctIndex": 0,
-          "explanation": "$(x - 2)(x - 3) = 0$ gives roots^2 and^3. Since the parabola opens upwards and we want $\\le 0$, the solution is $2 \\le x \\le 3$."
+          "explanation": "$(x - 2)(x - 3) = 0$ gives roots^2 and $3$. Since the parabola opens upwards and we want $\\le 0$, the solution is $2 \\le x \\le 3$."
         },
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q3",
@@ -177,7 +177,7 @@
             "$x \\le -3$ or $x \\ge \\frac{1}{2}$"
           ],
           "correctIndex": 0,
-          "explanation": "$(2x - 1)(x - 3) = 0$ gives roots $\\frac{1}{2}$ and^3. The solution region between the roots is $\\frac{1}{2} \\le x \\le 3$."
+          "explanation": "$(2x - 1)(x - 3) = 0$ gives roots $\\frac{1}{2}$ and $3$. The solution region between the roots is $\\frac{1}{2} \\le x \\le 3$."
         },
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q3",
@@ -190,7 +190,7 @@
             "$x \\le -2$ or $x \\ge 3$"
           ],
           "correctIndex": 0,
-          "explanation": "$(x + 3)(x - 2) = 0$ gives roots $-3$ and^2. The solution between the roots is $-3 \\le x \\le 2$."
+          "explanation": "$(x + 3)(x - 2) = 0$ gives roots $-3$ and 2. The solution between the roots is -3 \\le x \\le 2\n\n$$."
         },
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q3",
@@ -203,7 +203,7 @@
             "$x \\le -3$ or $x \\ge 1$"
           ],
           "correctIndex": 0,
-          "explanation": "$(x - 1)(x - 3) = 0$ gives roots^1 and^3. The solution between the roots is $1 \\le x \\le 3$."
+          "explanation": "$(x - 1)(x - 3) = 0$ gives roots^1 and $3$. The solution between the roots is $1 \\le x \\le 3$."
         }
       ]
     },
@@ -285,7 +285,7 @@
         "$24$"
       ],
       "correctIndex": 0,
-      "explanation": "For equal real roots, $\\Delta = b^2 - 4ac = 0$. Here, $(-k)² - 4(3)(12) = 0 \\implies k^2 - 144 = 0 \\implies k = \\pm 12$. Since $k > 0$, $k = 12$.\n\n**Common mistake:** Students misremember the formula as $b^2 - ac = 0$, resulting in $k^2 - 36 = 0 \\implies k = 6$, omitting the factor of 4.",
+      "explanation": "For equal real roots, $\\Delta = b^2 - 4ac = 0$. Here, $(-k)^2 - 4(3)(12) = 0 \\implies k^2 - 144 = 0 \\implies k = \\pm 12$. Since $k > 0$, $k = 12$.\n\n**Common mistake:** Students misremember the formula as $b^2 - ac = 0$, resulting in $k^2 - 36 = 0 \\implies k = 6$, omitting the factor of 4.",
       "variants": [
         {
           "id": "ch02-simultaneous-equations-and-quadratics-q5",

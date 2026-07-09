@@ -45,12 +45,12 @@
         "(4x - 3) / x^2"
       ],
       "correctIndex": 0,
-      "explanation": "u = 2x-3, v = x. u' = 2, v' = 1. $\\frac{dy}{dx}$ = [x(2) - (2x-3)(1)] / x^2 = [2x - 2x + 3] / x^2 = 3/x^2.\n\n**Common mistake:** Sign errors when subtracting the second term in the numerator, often resulting in $-3/x^2$."
+      "explanation": "u = 2x-3, v = x. u' = 2, v' = 1. $\\frac{dy}{dx}$ = [x(2) - (2x-3)(1)] / x^2 = [2x - 2x + 3] / x^2 = 3/x^2.\n\n**Common mistake:** Sign errors when subtracting the second term in the numerator, often resulting in -3/x^2\n\n$$."
     },
     {
       "id": "12-4-the-quotient-rule-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "Differentiate $y = 5 / (2x + 1)$ using the quotient rule.",
+      "question": "Differentiate $y = \\frac{5}{2x + 1}$ using the quotient rule.",
       "options": [
         "-10 / (2x + 1)$^2$",
         "10 / (2x + 1)$^2$",
@@ -58,7 +58,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "u = 5, v = 2x+1. u' = 0, v' = 2. $\\frac{dy}{dx}$ = [(2x+1)(0) - 5(2)] / (2x+1)$^2$ = -10 / (2x+1)$^2$.\n\n**Common mistake:** Thinking the derivative is zero because the numerator is a constant."
+      "explanation": "Let $u = 5$, $v = 2x+1$. Then $u' = 0$, $v' = 2$. $\\frac{dy}{dx} = \\frac{v u' - u v'}{v^2} = \\frac{-10}{(2x+1)^2}$.\n\n**Common mistake:** Thinking the derivative is zero because the numerator is a constant."
     },
     {
       "id": "12-4-the-quotient-rule-harder-topic-easy-q5",

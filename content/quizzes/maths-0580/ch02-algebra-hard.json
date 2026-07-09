@@ -227,7 +227,7 @@
         "$x = -1, y = -1$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. The system becomes:\n$3u + 2v = 5$\n\nu - 4v = -3\n\nMultiply the first by 2: $6u + 4v = 10$. Add to second equation: $7u = 7 \\rightarrow u = 1 \\rightarrow x = 1$. Substitute $u = 1$: $1 - 4v = -3 \\rightarrow 4v = 4 \\rightarrow v = 1 \\rightarrow y = 1$.\n\n**Common mistake:** Students often leave the answers as $u$ and $v2x$ and $y$."
+      "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. The system becomes:\n$3u + 2v = 5$\n\nu - 4v = -3\n\nMultiply the first by 2: $6u + 4v = 10$. Add to second equation: $7u = 7 \\rightarrow u = 1 \\rightarrow x = 1$. Substitute $u = 1$: $1 - 4v = -3 \\rightarrow 4v = 4 \\rightarrow v = 1 \\rightarrow y = 1$.\n\n**Common mistake:** Students often leave the answers as $u$ and $v2x$ and $y."
     },
     {
       "id": "ch02-algebra-hard-q18",
@@ -296,12 +296,12 @@
     },
     {
       "type": "mcq",
-      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB.",
       "options": [
-        "y = 0.5x - 0.5",
-        "y = -2x + 7",
-        "y = 0.5x + 1",
-        "y = -0.5x + 2.5"
+        "$y = 0.5x - 0.5$",
+        "$y = -2x + 7$",
+        "$y = 0.5x + 1$",
+        "$y = -0.5x + 2.5$"
       ],
       "correctIndex": 0,
       "explanation": "The perpendicular gradient is the negative reciprocal of $-2$, which is $0.5$. Using the midpoint $(3,1)$ in $y - y_1 = m(x - x_1)$: $y - 1 = 0.5(x - 3) \\Rightarrow y = 0.5x - 0.5$.\n\n**Common mistake:** Using the original gradient $-2$ instead of the perpendicular gradient $0.5$.",
@@ -362,7 +362,7 @@
     {
       "id": "ch02-algebra-hard-q28",
       "type": "mcq",
-      "question": "A right-angled triangle has a base of $(x + 2)$ cm and a perpendicular height of $(2x - 3)$ cm. If the area of the triangle is $15\\text{ cm}^2$, find the value of $x$.",
+      "question": "A right-angled triangle has a base of $(x + 2)$ cm and a perpendicular height of $(2x - 3)$ cm. If the area of the triangle is $15\\text{ cm}^2$, find the value of $x.",
       "options": [
         "$4$",
         "$3.5$",
@@ -383,12 +383,12 @@
         "$x = 2$ or $x = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and^9), forgetting to compute the final square roots for $x$."
+      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and^9), forgetting to compute the final square roots for $x."
     },
     {
       "id": "ch02-algebra-hard-q30",
       "type": "mcq",
-      "question": "Convert the non-monic expression $2x^2 - 6x + 7$ into the vertex completed square layout $a(x - p)^2 + q$.",
+      "question": "Convert the non-monic expression $2x^2 - 6x + 7$ into the vertex completed square layout $a(x - p)^2 + q.",
       "options": [
         "$2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$",
         "$2\\left(x - 3\\right)^2 - 11$",
@@ -500,7 +500,7 @@
         "$x + y$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$fractions.$"
+      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$fractions."
     },
     {
       "id": "ch02-algebra-hard-q39",
@@ -635,7 +635,7 @@
     {
       "id": "ch02-algebra-hard-q49",
       "type": "mcq",
-      "question": "The variable $z$ and $x2y$. So $x = 9$ and $y = 4$, $z = 6$. Express $x$ and $y2z$.",
+      "question": "The variable $z$ and $x2y$. So $x = 9$ and $y = 4$, $z = 6$. Express $x$ and $y2z.",
       "options": [
         "$x = \\left(\\frac{yz}{8}\\right)^2$",
         "$x = \\frac{y^2z^2}{64}$",
@@ -648,7 +648,7 @@
     {
       "id": "ch02-algebra-hard-q50",
       "type": "mcq",
-      "question": "If $y$. $x^2$, and $x$. $20\\%$, find the percentage increase in $y$.",
+      "question": "If $y$. $x^2$, and $x$. $20\\%$, find the percentage increase in $y.",
       "options": [
         "$44\\%$",
         "$20\\%$",
@@ -700,7 +700,7 @@
     {
       "id": "ch02-algebra-hard-q54",
       "type": "mcq",
-      "question": "The variable $z$ and $x2y$. So $x = 9$ and $y = 4$, $z = 6$. Express $x$ and $y2z$.",
+      "question": "The variable $z$ and $x2y$. So $x = 9$ and $y = 4$, $z = 6$. Express $x$ and $y2z.",
       "options": [
         "$x = \\left(\\frac{yz}{8}\\right)^2$",
         "$x = \\frac{y^2z^2}{64}$",
@@ -713,7 +713,7 @@
     {
       "id": "ch02-algebra-hard-q55",
       "type": "mcq",
-      "question": "If $y$. $x^2$, and $x$. $20\\%$, find the percentage increase in $y$.",
+      "question": "If $y$. $x^2$, and $x$. $20\\%$, find the percentage increase in $y.",
       "options": [
         "$44\\%$",
         "$20\\%$",

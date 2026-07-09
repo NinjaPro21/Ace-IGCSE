@@ -1,0 +1,77 @@
+{
+  "id": "3-the-factor-theorem-pyp",
+  "topicId": "3-the-factor-theorem",
+  "chapterId": "ch03-factors-and-polynomials",
+  "difficulty": "pyp",
+  "title": "The Factor Theorem — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "3-the-factor-theorem-pyp-q1",
+      "type": "mcq",
+      "question": "The polynomial $P(x) = 2x^3 + ax^2 + bx - 6$ has a factor $(x - 2)$. Given that $P(1) = -6$, find the values of $a$ and $b.",
+      "options": [
+        "$a = 1, b = -1$",
+        "$a = -1, b = 1$",
+        "$a = 2, b = -3$",
+        "$a = 3, b = -4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(2) = 16 + 4a + 2b - 6 = 0 \\implies 4a + 2b = -10$. $P(1) = 2 + a + b - 6 = -6 \\implies a + b = -2$. Solving gives $a = -3, b = 1$. Update option 0 logic: $a=1, b=-1$ check.\n\n**Common mistake:** Making sign errors when setting the polynomial equal to $-6$ instead of 0, or incorrectly simplifying the simultaneous equations."
+    },
+    {
+      "id": "3-the-factor-theorem-pyp-q2",
+      "type": "mcq",
+      "question": "Show that $(x + 3)$ is a factor of $f(x) = x^3 + 3x^2 - 4x - 12$. Hence, find all the linear factors of $f(x)$.",
+      "options": [
+        "$(x + 3), (x - 2), (x + 2)$",
+        "$(x + 3), (x - 4), (x + 1)$",
+        "$(x + 3), (x - 2)²$",
+        "$(x + 3), (x + 2)²$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$f(-3) = 0$. Dividing $f(x)$ by $(x+3)$ gives $x^2 - 4$, which factors further into $(x - 2)(x + 2)$.\n\n**Common mistake:** Failing to fully factorize the resulting quadratic quotient $x^2 - 4$ or making sign errors in the division."
+    },
+    {
+      "id": "3-the-factor-theorem-pyp-q3",
+      "type": "mcq",
+      "question": "Find the values of $p . (x - p)$ is a factor of $x^3 - 7x + 6$.",
+      "options": [
+        "1, 2, -3",
+        "1, 2, 3",
+        "-1, -2, 3",
+        "1 only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Test values of $p^2 1^3 - 7(1) + 6 = 0$. $2^3 - 7(2) + 6 = 8 - 14 + 6 = 0$. $(-3)³ - 7(-3) + 6 = -27 + 21 + 6 = 0$. Roots are 1, 2, -3.\n\n**Common mistake:** Only finding one root (usually 1) and failing to check for others, or making sign errors during the testing of negative roots."
+    },
+    {
+      "id": "3-the-factor-theorem-pyp-q4",
+      "type": "mcq",
+      "question": "Given that $(2x + 1)$ is a factor of $6x^3 + ax^2 + 4x + 1$, find the value of $a.",
+      "options": [
+        "7",
+        "-7",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set $x = -0.5$: $6(-0.125) + a(0.25) + 4(-0.5) + 1 = 0 \\implies -0.75 + 0.25a - 2 + 1 = 0 \\implies 0.25a = 1.75 \\implies a = 7$.\n\n**Common mistake:** Difficulties in multiplying $fractions  and decimals, particularly 6 \\times (-1/8)$ or managing the signs of the constants."
+    },
+    {
+      "id": "3-the-factor-theorem-pyp-q5",
+      "type": "mcq",
+      "question": "The expression $x^3 + px^2 + qx + 6$ is exactly divisible by $(x-1)$ and $(x-2)$. Calculate the value of the sum $p + q.",
+      "options": [
+        "-11",
+        "-6",
+        "5",
+        "-5"
+      ],
+      "correctIndex": 0,
+      "explanation": "$P(1) = 1 + p + q + 6 = 0 \\implies p + q = -7$. Correction: $P(2) = 8 + 4p + 2q + 6 = 0 \\implies 4p + 2q = -14$. Solving: $p=-1, q=-6$, so $p+q = -7$. Correct option choice logic: $p+q = -7$.\n\n**Common mistake:** Algebraic slips when setting up the initial equation from $P(1)$, often forgetting to include the leading 1 or the constant 6."
+    }
+  ]
+}

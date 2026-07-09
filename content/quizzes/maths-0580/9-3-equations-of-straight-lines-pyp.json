@@ -13,10 +13,10 @@
       "type": "mcq",
       "question": "Line $L^{1}$\npasses through (4,7) and is parallel to line $L^{2}$\nwith equation y=3x-2. Find the equation of $L^{1}$\nin the form y=mx+c.",
       "options": [
-        "y=3x-5",
-        "y=3x+7",
-        "y=-0.33x+8.33",
-        "y=3x+19"
+        "$y=3x-5$",
+        "$y=3x+7$",
+        "$y=-0.33x+8.33$",
+        "$y=3x+19$"
       ],
       "correctIndex": 0,
       "explanation": "$L^{1}$\nhas gradient 3. 7=3(4)+c⇒7=12+c⇒c=-5. Equation is y=3x-5.\n\n**Common mistake:** The student might incorrectly calculate c as 7+12=19 or use the perpendicular gradient."
@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "Line M has the equation 2y+x=8. Line N is perpendicular to M and passes through (2,10). Find the equation of line N.",
       "options": [
-        "y=2x+6",
-        "y=-0.5x+11",
-        "y=2x+10",
-        "y=-2x+14"
+        "$y=2x+6$",
+        "$y=-0.5x+11$",
+        "$y=2x+10$",
+        "$y=-2x+14$"
       ],
       "correctIndex": 0,
       "explanation": "M has m=-0.5. N has m=2. 10=2(2)+c⇒10=4+c⇒c=6. So, y=2x+6.\n\n**Common mistake:** The student may use the gradient of -0.5 for line N or use the same y-intercept as line M."
@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "The points P(1,2) and Q(5,10) are given. Work out the equation of the perpendicular bisector of PQ.",
       "options": [
-        "y=-0.5x+7.5",
-        "y=2x+4",
-        "y=-0.5x+6",
-        "y=-2x+12"
+        "$y=-0.5x+7.5$",
+        "$y=2x+4$",
+        "$y=-0.5x+6$",
+        "$y=-2x+12$"
       ],
       "correctIndex": 0,
       "explanation": "Midpoint (3,6). Gradient PQ=8/4=2. Perp gradient -0.5. y-6=-0.5(x-3)⇒y=-0.5x+1.5+6⇒y=-0.5x+7.5.\n\n**Common mistake:** A student might calculate the equation of line PQ itself or forget to find the negative reciprocal of the gradient."
@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "Line A has gradient -2. Line B is perpendicular to A and passes through (0,4). Find the coordinates of the point where line B crosses the x-axis.",
       "options": [
-        "(-8,0)",
-        "(0,4)",
-        "(8,0)",
-        "(2,0)"
+        "$(-8,0)$",
+        "$(0,4)$",
+        "$(8,0)$",
+        "$(2,0)$"
       ],
       "correctIndex": 0,
       "explanation": "Line B has m=0.5 and c=4. y=0.5x+4. Set y=0: 0=0.5x+4⇒-4=0.5x⇒x=-8.\n\n**Common mistake:** The student might use the gradient -2 to find the intercept or fail to correctly solve the linear equation for x."

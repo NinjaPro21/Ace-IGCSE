@@ -19,12 +19,12 @@
         "$x = -1, 3, 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Divide by $(x + 1)$ to obtain the quadratic $x^2 - x - 6$. Factoring this gives $(x - 3)(x + 2)$, resulting in roots^3 and $-2$.\n\n**Common mistake:** Incorrectly dividing by $(x - 1)$ instead of $(x + 1)$ based on the root $-1$ often halts the solution process."
+      "explanation": "Divide by $(x + 1)$ to obtain $x^2 - x - 6$. Factoring gives $(x - 3)(x + 2)$, so the roots are $3$ and $-2$.\n\n**Common mistake:** Dividing by $(x - 1)$ instead of $(x + 1)$ when the known root is $-1$."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Find the value of $k$. So $x = 1$ is a root of the cubic equation $2x^3 + kx^2 - 13x + 6 = 0$.",
+      "question": "Find the value of $k$ so that $x = 1$ is a root of the cubic equation $2x^3 + kx^2 - 13x + 6 = 0$.",
       "options": [
         "5",
         "-5",
@@ -32,12 +32,12 @@
         "-10"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 1$ into the equation: $2(1)³ + k(1)² - 13(1) + 6 = 0$. This simplifies to $2 + k - 13 + 6 = 0$, so $k - 5 = 0$, giving $k = 5$.\n\n**Common mistake:** Arithmetic errors during the summation of constants, such as $2 - 13 + 6 = -5$, are frequently mismanaged."
+      "explanation": "Substitute $x = 1$ into the equation: $2(1)^3 + k(1)^2 - 13(1) + 6 = 0$. This simplifies to $2 + k - 13 + 6 = 0$, so $k - 5 = 0$, giving $k = 5$.\n\n\n\n\n**Common mistake:** Arithmetic errors during the summation of constants, such as $2 - 13 + 6 = -5$, are frequently mismanaged."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "A cubic polynomial $P(x)$ has the roots $1, -2,$ and^4. Determine the coefficient of the $x^2$ term when the expression $(x - 1)(x + 2)(x - 4)$ is expanded.",
+      "question": "A cubic polynomial $P(x)$ has the roots $1, -2,$ and $4$. Determine the coefficient of the $x^2$ term when the expression $(x - 1)(x + 2)(x - 4)$ is expanded.",
       "options": [
         "-3",
         "3",
@@ -45,7 +45,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Expanding $(x - 1)(x^2 - 2x - 8) = x^3 - 2x^2 - 8x - x^2 + 2x + 8 = x^3 - 3x^2 - 6x + 8$. The coefficient of $x^2$ is $-3$.\n\n**Common mistake:** Attempting to sum the roots directly without accounting for the negative sign in the expansion formula $-(r₁ + r₂ + r₃)x^2$."
+      "explanation": "Expanding $(x - 1)(x^2 - 2x - 8) = x^3 - 2x^2 - 8x - x^2 + 2x + 8 = x^3 - 3x^2 - 6x + 8$. The coefficient of $x^2$ is $-3$.\n\n\n\n\n**Common mistake:** Attempting to sum the roots directly without accounting for the negative sign in the expansion formula $-(r₁ + r₂ + r₃)x^2$."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-hard-q4",
@@ -58,12 +58,12 @@
         "$x = 3, 1, -1$"
       ],
       "correctIndex": 0,
-      "explanation": "Division by $(x - 3)$ gives $2x^2 + x - 1$. Factorizing this quadratic results in $(2x - 1)(x + 1)$, giving additional roots of $0.5$ and $-1$.\n\n**Common mistake:** Mistakes in the quadratic formula or factoring of the $2x^2 + x - 1$ term, such as misidentifying $0.5$ as^2."
+      "explanation": "Division by $(x - 3)$ gives $2x^2 + x - 1$. Factorizing gives $(2x - 1)(x + 1)$, so the additional roots are $0.5$ and $-1$.\n\n**Common mistake:** Misidentifying $0.5$ as $2$ when factoring $2x^2 + x - 1$."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "Find the value of the constant $m . (x - 1)$ is a factor of $x^3 + mx^2 - 10x + 8$, and find the remaining two roots.",
+      "question": "If the constant $m$ is such that $(x - 1)$ is a factor of $x^3 + mx^2 - 10x + 8$, find the remaining two roots.",
       "options": [
         "$m = 1$, roots: $2, -4$",
         "$m = -1$, roots: $2, 4$",
@@ -71,7 +71,7 @@
         "$m = 11$, roots: $1, 8$"
       ],
       "correctIndex": 0,
-      "explanation": "$P(1) = 1 + m - 10 + 8 = 0 \\implies m = 1$. Dividing by $(x - 1)$ gives $x^2 + 2x - 8$, which factors to $(x + 4)(x - 2)$, giving roots $-4$ and^2.\n\n**Common mistake:** Calculating $m . -1$ or incorrectly deriving the roots from the linear factors $(x + 4)$ and $(x - 2)$."
+      "explanation": "$P(1) = 1 + m - 10 + 8 = 0 \\implies m = 1$. Dividing by $(x - 1)$ gives $x^2 + 2x - 8 = (x + 4)(x - 2)$, so the other roots are $-4$ and $2$.\n\n**Common mistake:** Calculating $m = -1$ or misreading the roots from $(x + 4)$ and $(x - 2)$."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "10-1-any-angle-pyp-q1",
       "type": "mcq",
-      "question": "Solve the equation $\\sin x = -0.5$ for $0° \\le x \\le 360°$.",
+      "question": "Solve the equation $\\sin x = -0.5$ for $0° \\le x \\le 360°.",
       "options": [
         "$210°, 330°$",
         "$150°, 210°$",
@@ -24,7 +24,7 @@
     {
       "id": "10-1-any-angle-pyp-q2",
       "type": "mcq",
-      "question": "Work out the exact value of $\\sin 150° + \\cos 330°$.",
+      "question": "Work out the exact value of $\\sin 150° + \\cos 330°.",
       "options": [
         "$0.5 + \\sqrt{3}/2$",
         "$1.366$",
@@ -45,12 +45,12 @@
         "$-\\sin x$"
       ],
       "correctIndex": 0,
-      "explanation": "The cosine graph starts at $(0, 1)$, crosses at $90°$, reaches its minimum of $-1$ at $180°$, and crosses again at $270°$.\n\n**Common mistake:** The student may choose sine, which starts at $(0,0)$ and has its minimum at $270°$."
+      "explanation": "The cosine graph starts at $(0, 1)$, crosses at $90°$, reaches its minimum of $-1$ at $180°$, and crosses again at $270°$.\n\n**Common mistake:** The student may choose sine, which starts at $(0,0)$ and has its minimum at $270°."
     },
     {
       "id": "10-1-any-angle-pyp-q4",
       "type": "mcq",
-      "question": "Solve the equation $\\tan(x - 45°) = 1$ for $0° \\le x \\le 360°$.",
+      "question": "Solve the equation $\\tan(x - 45°) = 1$ for $0° \\le x \\le 360°.",
       "options": [
         "$90°, 270°$",
         "$45°, 225°$",
@@ -63,7 +63,7 @@
     {
       "id": "10-1-any-angle-pyp-q5",
       "type": "mcq",
-      "question": "Show that the equation $\\sin x = \\sin(180° - x)$ is true for all $x$. So $\\sin 35° = 0.574$, what is the value of $\\sin 145°$?",
+      "question": "Show that the equation $\\sin x = \\sin(180° - x)$ is true for all $x$. So $\\sin 35° = 0.574$, what is the value of $\\sin 145°?",
       "options": [
         "$0.574$",
         "$-0.574$",

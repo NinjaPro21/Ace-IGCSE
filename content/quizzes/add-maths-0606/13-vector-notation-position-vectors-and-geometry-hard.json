@@ -24,7 +24,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q2",
       "type": "mcq",
-      "question": "Find the value of x for which xi+0.6j is a unit vector, where x>0 .",
+      "question": "Find the value $of x for which xi+0.6j is a unit vector, where x>0$.",
       "options": [
         "0.8",
         "0.4",
@@ -32,7 +32,7 @@
         "0.64"
       ],
       "correctIndex": 0,
-      "explanation": "For a unit vector,\n(\n\n$x^{2}$+0.6^{2}$)=1⟹$x^{2}$+0.36=1⟹$x^{2}$=0.64⟹x=0.8.\n\n**Common mistake:** Option D is the value of $x^{2}$, where the student forgets to take the final square root."
+      "explanation": "For a unit vector,\n(\n\n$x^{2}+0\n\n$$\n.6^{2}\n$$\n)=1⟹\n$$\nx^{2}\n$$\n+0.36=1⟹\n$$\nx^{2}\n$$\n=0.64⟹x=0.8.\n\n**Common mistake:** Option D is the value of\n$$\nx^{2}\n$$, where the student forgets to take the final square root.\n"
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q3",
@@ -63,7 +63,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q5",
       "type": "mcq",
-      "question": "The points P and Q have position vectors 3i+4j and xi-8j respectively. If ∣\nPQ\n\n∣=13 and x>0, find the value of x.",
+      "question": "$The points P and Q have position vectors 3i+4j and xi-8j respectively. If |$\nPQ\n\n|=13 and x>0, find the value of x.",
       "options": [
         "8",
         "5",
@@ -71,7 +71,7 @@
         "13"
       ],
       "correctIndex": 0,
-      "explanation": "PQ\n\n=(x-3)i+(-8-4)j=(x-3)i-12j. Magnitude squared is $(x-3)^{2}$+$(-12)^{2}$=1$3^{2}$⟹$(x-3)^{2}$+144=169⟹$(x-3)^{2}$=25. x-3=5⟹x=8.\n\n**Common mistake:** Option B is the root (x-3)=5 before solving for x."
+      "explanation": "PQ\n\n=(x-3)i+(-8-4)j=(x-3)i-12j. Magnitude squared is $(x-3)^{2}$+$(-12)^{2}$=1$3^{2}$⟹$(x-3)^{2}+144=169⟹ (x-3)^{2}$ =25. x-3=5⟹x=8$.\n\n**Common mistake:** Option B is the root (x-3)=5 before solving for x."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q6",
@@ -117,10 +117,10 @@
       "type": "mcq",
       "question": "The position vector of P is $x\\mathbf{i} + y\\mathbf{j}$. If P moves such that $|\\vec{OP}| = 5$, find the equation of the path of P.",
       "options": [
-        "x^2 + y^2 = 25",
+        "$x^2 + y^2 = 25$",
         "x + y = 5",
-        "x^2 + y^2 = 5",
-        "y = mx + c"
+        "$x^2 + y^2 = 5$",
+        "$y = mx + c$"
       ],
       "correctIndex": 0,
       "explanation": "The magnitude $|\\vec{OP}| = \\sqrt{x^2 + y^2}$. Setting this to 5 and squaring both sides gives the equation of a circle: $x^2 + y^2 = 25$.\n\n**Common mistake:** Thinking the path is a straight line $x + y = 5$."
@@ -141,7 +141,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q11",
       "type": "mcq",
-      "question": "In triangle $OAB$ and $P2OA$. $2:1$ and $Q$. $AB2\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
+      "question": "In triangle $OAB$ and $P$ and $O A$. $2:1$ and $Q$. $AB2\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
       "options": [
         "$0.5\\mathbf{b} - 0.167\\mathbf{a}$",
         "$0.5\\mathbf{b} + 0.167\\mathbf{a}$",
@@ -154,7 +154,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q12",
       "type": "mcq",
-      "question": "In the parallelogram $OABC$ and $M2BC$. $OM2AC$ and $X2\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find the value of $k$.",
+      "question": "In the parallelogram $OABC$ and $M$ and $B C$. $OM2AC$ and $X2\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find the value of $k$.",
       "options": [
         "$2/3$",
         "$1/2$",
@@ -193,7 +193,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-hard-q15",
       "type": "mcq",
-      "question": "In triangle $OAB$ and $X2OA$ and $Y2OB$. So $OY = 2YB2AY$. $BX2P$. $\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In triangle $OAB$ and $X$ and $O A$ and $Y$ and $O B$. So $OY = 2YB2AY$. $BX2P$. $\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$0.2\\mathbf{a} + 0.4\\mathbf{b}$",
         "$0.4\\mathbf{a} + 0.2\\mathbf{b}$",

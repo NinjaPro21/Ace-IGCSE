@@ -11,10 +11,10 @@
       "type": "mcq",
       "question": "The diagram shows a sector $OPQ$ of a circle with centre $O$ and radius $r\\text{ cm}$, where $\\angle POQ = \\theta\\text{ radians}$. The point $R$ lies on $OP$ such that $QR$ is perpendicular to $OP$. Given that the area of the shaded region bounded by the arc $PQ$ and the lines $QR$ and $RP$ is equal to $\\frac{1}{6}r^2$, show that $3\\theta - 3\\sin\\theta\\cos\\theta - 1 = 0$. Find the non-zero value of $\\theta$ satisfying this relationship if $\\theta$ is small, using the approximations $\\sin\\theta \\approx \\theta$ and $\\cos\\theta \\approx 1 - \\frac{1}{2}\\theta^2$.",
       "options": [
-        "$$\n\\sqrt[3]{1}\n",
-        "$$\n\\sqrt{3}\n",
+        "$\\sqrt[3]{1}$",
+        "$\\sqrt{3}$",
         "0.5",
-        "$$\n\\frac{1}{3}\n"
+        "$\\frac{1}{3}$"
       ],
       "correctIndex": 0,
       "explanation": "Substitute $\\sin\\theta \\approx \\theta$ and $\\cos\\theta \\approx 1 - \\frac{1}{2}\\theta^2$ into the equation: $3\\theta - 3\\theta(1 - \\frac{1}{2}\\theta^2) - 1 = 0 \\implies 3\\theta - 3\\theta + \\frac{3}{2}\\theta^3 - 1 = 0 \\implies \\frac{3}{2}\\theta^3 = 1 \\implies \\theta^3 = \\frac{2}{3} \\approx 0.667$, which yields $\\theta = \\sqrt[3]{\\frac{2}{3}}$. Let's adjust options to fit the algebraic outcome exactly: if the equation simplifies to $\\theta^3 = 1$, then $\\theta = 1$. Let's ensure the stem matches $\\theta^3=1$ exactly by checking coefficients: $3\\theta - 3\\sin\\theta\\cos\\theta = 1 \\implies 3\\theta - 3\\theta(1-0.5\\theta^2) = 1.5\\theta^3 = 1 \\implies \\theta^3 = \\frac{2}{3}$. Let's select the correct option representing $\\sqrt[3]{2/3}$ or redefine options to match a perfect cubic root value for simplicity.\n\n**Common mistake:** Students often make sign errors when multiplying negative terms in small angle expansions, or omit higher order terms prematurely."

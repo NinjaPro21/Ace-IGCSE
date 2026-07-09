@@ -9,7 +9,7 @@
     {
       "id": "ch16-kinematics-q1",
       "type": "mcq",
-      "question": "A particle moves along a straight line such that its displacement, $s  metres, from a fixed point O$ at time $t$ seconds is given by $s = 2t^3 - 9t^2 + 12t$. Find the velocity of the particle when $t = 3$ .",
+      "question": "A particle moves along a straight line such that its displacement, $s  metres from a fixed point O$, at time $t$ seconds is given by $s = 2t^3 - 9t^2 +$1t$.Find the velocity of the particle when t = 3$.",
       "options": [
         "12 m s⁻¹",
         "9 m s⁻¹",
@@ -22,20 +22,20 @@
     {
       "id": "ch16-kinematics-q2",
       "type": "mcq",
-      "question": "The velocity, $v$ m s⁻¹, of a particle moving in a straight line is given by $v = 12t - 3t^2$, where $t$ is the time in seconds after passing a fixed point. Find the acceleration of the particle at the instant $t = 4$ .",
+      "question": "The velocity, $v$ m s⁻¹, of a particle moving in a straight line is given by $v = 12t - 3t^2$, where $t$ is the time in seconds after passing a fixed point. Find the acceleration of the particle at the instant $t = 4$.",
       "options": [
-        "-12 m s⁻²",
-        "12 m s⁻²",
-        "0 m s⁻²",
-        "-4 m s⁻²"
+        "-12 m s⁻^2",
+        "12 m s⁻^2",
+        "0 m s⁻^2",
+        "-4 m s⁻^2"
       ],
       "correctIndex": 0,
-      "explanation": "Acceleration is found by differentiating velocity with respect to time: $a = \\frac{\\mathrm{d}v}{\\mathrm{d}t} = 12 - 6t$. Substituting $t = 4$ gives $a = 12 - 6(4) = -12$ m s⁻².\n\n**Common mistake:** Option B happens if the student reverses the order of subtraction or drops the negative sign during computation, while Option C occurs if the student solves for when velocity is zero instead of substituting $t = 4$ into the acceleration equation."
+      "explanation": "Acceleration is found by differentiating velocity with respect to time: $a = \\frac{\\mathrm{d}v}{\\mathrm{d}t} = 12 - 6t$. Substituting $t = 4$ gives $a = 12 - 6(4) = -12$ m s⁻^2.\n\n**Common mistake:** Option B happens if the student reverses the order of subtraction or drops the negative sign during computation, while Option C occurs if the student solves for when velocity is zero instead of substituting $t = 4$ into the acceleration equation."
     },
     {
       "id": "ch16-kinematics-q3",
       "type": "mcq",
-      "question": "A particle moves in a straight line with an acceleration of $a = 6t - 4$ m s⁻². Given that the initial velocity of the particle is 5 m s⁻¹, find an expression for its velocity, $v$ m s⁻¹, at time $t$ seconds.",
+      "question": "A particle moves in a straight line with an acceleration of $a = 6t - 4$ m s ^{-2}. Given that the initial velocity of the particle is $5$ m s ^{-1}$, find an expression for its velocity v$ m s ^{-1} at time $t$ seconds.",
       "options": [
         "$v = 3t^2 - 4t + 5$",
         "$v = 3t^2 - 4t$",

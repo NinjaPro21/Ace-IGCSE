@@ -14,7 +14,7 @@
       "question": "Given that sin θ = k, express tan θ in terms of k for an acute angle θ.",
       "options": [
         "k / \\sqrt{1 - k^2}",
-        "$$\n\\sqrt{1 - k^2} / k\n",
+        "$\\sqrt{1 - k^2} / k$",
         "k / (1 - k)",
         "1 / k"
       ],
@@ -28,7 +28,7 @@
       "options": [
         "x / (1 + x^2)",
         "x / \\sqrt{1 + x^2}",
-        "x^2 / (1 + x^2)",
+        "$x^2 / (1 + x^2)$",
         "1 / (1 + x^2)"
       ],
       "correctIndex": 0,
@@ -45,7 +45,7 @@
         "22.5°"
       ],
       "correctIndex": 0,
-      "explanation": "2x + 10° = 45° (since tan 45° = 1). 2x = 35° so x = 17.5°.\n\n**Common mistake:** Setting 2x + 10° = 1 instead of 45°, or making a subtraction error."
+      "explanation": "2x + 10° = 45° (since tan 45° = 1). $x$ = 35° so x = 17.5°.\n\n**Common mistake:** Setting 2x + 10° = 1 instead of 45°, or making a subtraction error."
     },
     {
       "id": "9-1-basic-trigonometry-0-hard-q4",
@@ -58,7 +58,7 @@
         "59.0°"
       ],
       "correctIndex": 0,
-      "explanation": "cos θ = Adjacent / Hypotenuse = 6 / 10 = 0.6. θ = cos^{-1}$(0.6) ≈ 53.1°.$\n\n**Common mistake:** Using the sine ratio (6/10) which would find the angle at the top of the ladder."
+      "explanation": "cos θ = Adjacent / Hypotenuse = 6 / 10 = 0.6. θ = cos^{-1}$(0.6) ≈ 53.1°$.\n\n**Common mistake:** Using the sine ratio (6/10) which would find the angle at the top of the ladder."
     },
     {
       "id": "9-1-basic-trigonometry-0-hard-q5",

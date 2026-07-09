@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "Find the equation of the line which passes through the point (5,-2) and is parallel to the line y=4x+1.",
       "options": [
-        "y=4x-22",
-        "y=4x+18",
-        "y=-0.25x-0.75",
-        "y=4x-20"
+        "$y=4x-22$",
+        "$y=4x+18$",
+        "$y=-0.25x-0.75$",
+        "$y=4x-20$"
       ],
       "correctIndex": 0,
       "explanation": "Parallel lines have m=4. y-(-2)=4(x-5)\nRightarrowy+2=4x-20\nRightarrowy=4x-22.\n\n**Common mistake:** The student might change the gradient to -0.25 or incorrectly add/subtract constants."
@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "The line 2y+x=6 is parallel to line L, which passes through (2,10). Work out the coordinates of the point where L crosses the y-axis.",
       "options": [
-        "(0,11)",
-        "(0,6)",
-        "(0,4)",
-        "(11,0)"
+        "$(0,11)$",
+        "$(0,6)$",
+        "$(0,4)$",
+        "$(11,0)$"
       ],
       "correctIndex": 0,
       "explanation": "$L^{1}$\nhas m=-0.5. L also has m=-0.5. y-10=-0.5(x-2)\nRightarrowy=-0.5x+11. y-intercept is (0,11).\n\n**Common mistake:** The student might use the gradient of -0.5 from the first equation but fail to account for the passing point (2,10)."

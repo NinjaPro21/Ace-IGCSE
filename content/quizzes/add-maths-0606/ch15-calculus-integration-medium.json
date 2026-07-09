@@ -43,7 +43,7 @@
         "54"
       ],
       "correctIndex": 0,
-      "explanation": "The curve intersects the $x$-axis where $9 - x^2 = 0 \\implies x = -3$ and $x = 3$. The area is $\\int_{-3}^{3} (9 - x^2) \\, \\mathrm{d}x = \\left[ 9x - \\frac{x^3}{3} \\right]_{-3}^{3} = (27 - 9) - (-27 + 9) = 18 - (-18) = 36$.\n\n**Common mistake:** Option B is found if a student only integrates from^0 to^3 and forgets to double the area or consider the full interval from $-3$ to^3."
+      "explanation": "The curve intersects the $x$-axis where $9 - x^2 = 0 \\implies x = -3$ and $x = 3$. The area is $\\int_{-3}^{3} (9 - x^2) \\, \\mathrm{d}x = \\left[ 9x - \\frac{x^3}{3} \\right]_{-3}^{3} = (27 - 9) - (-27 + 9) = 18 - (-18) = 36$.\n\n**Common mistake:** Option B is found if a student only integrates from^0 to^3 and forgets to double the area or consider the full interval from -3\n\n$$ to^3."
     }
   ]
 }

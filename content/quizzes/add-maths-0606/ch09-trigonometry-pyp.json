@@ -9,7 +9,7 @@
     {
       "id": "ch09-trigonometry-q1",
       "type": "mcq",
-      "question": "Show that the expression $\\frac{\\sin(x)}{1 + \\cos(x)} + \\frac{1 + \\cos(x)}{\\sin(x)}$ can be written in the form $k\\csc(x)$ and hence state the value of the constant $k$ .",
+      "question": "Show that the expression $\\frac{\\sin(x)}{1 + \\cos(x)} + \\frac{1 + \\cos(x)}{\\sin(x)}$ can be written in the form $k\\csc(x)$ and hence state the value of the constant $k$.",
       "options": [
         "2",
         "1",
@@ -17,12 +17,12 @@
         "-2"
       ],
       "correctIndex": 0,
-      "explanation": "Combining fractions gives $\\frac{\\sin^2(x) + (1 + \\cos(x))^2}{\\sin(x)(1 + \\cos(x))} = \\frac{\\sin^2(x) + 1 + 2\\cos(x) + \\cos^2(x)}{\\sin(x)(1 + \\cos(x))} = \\frac{2 + 2\\cos(x)}{\\sin(x)(1 + \\cos(x))} = \\frac{2(1+\\cos(x))}{\\sin(x)(1+\\cos(x))} = 2\\csc(x)$ , so $k=2$ .\n\n**Common mistake:** Students often make mistakes expanding the squared bracket $(1+\\cos(x))^2$ by omitting the cross-product term $2\\cos(x)$ , which leaves them unable to factor and cancel terms."
+      "explanation": "Combining fractions gives $\\frac{\\sin^2(x) + (1 + \\cos(x))^2}{\\sin(x)(1 + \\cos(x))} = \\frac{\\sin^2(x) + 1 + 2\\cos(x) + \\cos^2(x)}{\\sin(x)(1 + \\cos(x))} = \\frac{2 + 2\\cos(x)}{\\sin(x)(1 + \\cos(x))} = \\frac{2(1+\\cos(x))}{\\sin(x)(1+\\cos(x))} = 2\\csc(x)$ , so $k=2$.\n\n**Common mistake:** Students often make mistakes expanding the squared bracket $(1+\\cos(x))^2$ by omitting the cross-product term $2\\cos(x)$ , which leaves them unable to factor and cancel terms."
     },
     {
       "id": "ch09-trigonometry-q2",
       "type": "mcq",
-      "question": "Find the set of values of $\\theta$ in the interval $0^\\circ \\le \\theta \\le 360^\\circ$ which satisfy the equation $4\\sin^2(\\theta) = 3$ .",
+      "question": "Find the set of values of $\\theta$ in the interval $0^\\circ \\le \\theta \\le 360^\\circ$ which satisfy the equation $4\\sin^2(\\theta) = 3$.",
       "options": [
         "60^\\circ, 120^\\circ, 240^\\circ, 300^\\circ",
         "$60^\\circ \\text{ and } 120^\\circ$",
@@ -30,25 +30,25 @@
         "$60^\\circ \\text{ and } 300^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Taking the square root gives $\\sin(\\theta) = \\pm\\frac{\\sqrt{3}}{2}$ . The reference angle is $60^\\circ$ . Because it can be positive or negative, valid angles exist in all four quadrants: $60^\\circ, 120^\\circ, 240^\\circ, 300^\\circ$ .\n\n**Common mistake:** Students regularly forget the negative branch when taking a square root $(\\pm)$ , which results in finding solutions only in Quadrants I and II."
+      "explanation": "Taking the square root gives $\\sin(\\theta) = \\pm\\frac{\\sqrt{3}}{2}$. The reference angle is $60^\\circ$. Because it can be positive or negative, valid angles exist in all four quadrants: $60^\\circ, 120^\\circ, 240^\\circ, 300^\\circ$.\n\n**Common mistake:** Students regularly forget the negative branch when taking a square root $(\\pm)$ , which results in finding solutions only in Quadrants I and II."
     },
     {
       "id": "ch09-trigonometry-q3",
       "type": "mcq",
       "question": "Find the coordinates of the minimum point of the curve $y = 3 - 5\\cos(2x)$ for the interval $0 \\le x \\le \\pi$ radians.",
       "options": [
-        "(0, -2)",
+        "$(0, -2)$",
         "$(\\frac{\\pi}{2}, -2)$",
-        "(0, 8)",
+        "$(0, 8)$",
         "(\\pi, 3)"
       ],
       "correctIndex": 0,
-      "explanation": "The minimum value of $y = 3 - 5\\cos(2x)$ occurs when $\\cos(2x) = 1$ (because of the negative coefficient), which gives $y = 3 - 5(1) = -2$ . This happens when $2x = 0 \\implies x = 0$ . Thus, the coordinate is $(0, -2)$ .\n\n**Common mistake:** Students think that the minimum value occurs when $\\cos(2x) = -1$ , forgetting that the subtraction sign flips the graph vertically, making that point the maximum instead."
+      "explanation": "The minimum value of $y = 3 - 5\\cos(2x)$ occurs when $\\cos(2x) = 1$ (because of the negative coefficient), which gives $y = 3 - 5(1) = -2$. This happens when x$= 0 \\implies x = 0$. Thus, the coordinate is $(0, -2)$.\n\n**Common mistake:** Students think that the minimum value occurs when $\\cos(2x) = -1$ , forgetting that the subtraction sign flips the graph vertically, making that point the maximum instead."
     },
     {
       "id": "ch09-trigonometry-q4",
       "type": "mcq",
-      "question": "Hence, or otherwise, solve the equation $\\sqrt{3}\\tan(3\\theta) = 1$ for the set of values in the range $0^\\circ \\le \\theta \\le 120^\\circ$ .",
+      "question": "Hence, or otherwise, solve the equation $\\sqrt{3}\\tan(3\\theta) = 1$ for the set of values in the range $0^\\circ \\le \\theta \\le 120^\\circ$.",
       "options": [
         "10^\\circ, 70^\\circ, 130^\\circ",
         "30^\\circ, 90^\\circ",
@@ -56,12 +56,12 @@
         "20^\\circ, 80^\\circ"
       ],
       "correctIndex": 0,
-      "explanation": "Rearranging gives $\\tan(3\\theta) = \\frac{1}{\\sqrt{3}}$ . For the domain $0^\\circ \\le 3\\theta \\le 360^\\circ$ , the solutions for $3\\theta$ are $30^\\circ$ and $210^\\circ$ . Dividing by 3 yields $\\theta = 10^\\circ$ and $70^\\circ$ . Adding the next cycle period $(180^\\circ / 3 = 60^\\circ)$ gives another valid solution at $70^\\circ + 60^\\circ = 130^\\circ$ which is outside the range, so the answers inside are $10^\\circ, 70^\\circ$ . Note: verifying the options option A includes $130^\\circ$ which is out of boundary, so option C is correct if we check bounded values.\n\n**Common mistake:** Students regularly calculate the primary reference angle but fail to find the second quadrant/cycle value before dividing by the argument multiplier."
+      "explanation": "Rearranging gives $\\tan(3\\theta) = \\frac{1}{\\sqrt{3}}$. For the domain $0^\\circ \\le 3\\theta \\le 360^\\circ$ , the solutions for $3\\theta$ are $30^\\circ$ and $210^\\circ$. Dividing by 3 yields $\\theta = 10^\\circ$ and $70^\\circ$. Adding the next cycle period $(180^\\circ / 3 = 60^\\circ)$ gives another valid solution at $70^\\circ + 60^\\circ = 130^\\circ$ which is outside the range, so the answers inside are $10^\\circ, 70^\\circ$. Note: verifying the options option A includes $130^\\circ$ which is out of boundary, so option C is correct if we check bounded values.\n\n**Common mistake:** Students regularly calculate the primary reference angle but fail to find the second quadrant/cycle value before dividing by the argument multiplier."
     },
     {
       "id": "ch09-trigonometry-q5",
       "type": "mcq",
-      "question": "Show that the equation $2\\cot(x) = 5\\sin(x)$ can be expressed in the form $5\\cos^2(x) + 2\\cos(x) - 5 = 0$ . Find the value of $\\cos(x)$ that gives real solutions for $x$ .",
+      "question": "Show that the equation $2\\cot(x) = 5\\sin(x)$ can be expressed in the form $5\\cos^2(x) + 2\\cos(x) - 5 = 0$. Find the value of $\\cos(x)$ that gives real solutions for $x$.",
       "options": [
         "0.816",
         "-1.22",
@@ -69,7 +69,7 @@
         "-0.816"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $\\cot(x) = \\frac{\\cos(x)}{\\sin(x)}$ to get $\\frac{2\\cos(x)}{\\sin(x)} = 5\\sin(x) \\implies 2\\cos(x) = 5\\sin^2(x) = 5(1 - \\cos^2(x))$ . This yields $5\\cos^2(x) + 2\\cos(x) - 5 = 0$ . Solving via quadratic formula gives $\\cos(x) \\approx 0.816$ and $\\cos(x) \\approx -1.22$ (rejected).\n\n**Common mistake:** Students apply the quadratic formula correctly but may pick the mathematically valid algebraic value $-1.22$ without realizing that $\\cos(x)$ cannot step outside the domain $[-1, 1]$ ."
+      "explanation": "Substitute $\\cot(x) = \\frac{\\cos(x)}{\\sin(x)}$ to get $\\frac{2\\cos(x)}{\\sin(x)} = 5\\sin(x) \\implies 2\\cos(x) = 5\\sin^2(x) = 5(1 - \\cos^2(x))$. This yields $5\\cos^2(x) + 2\\cos(x) - 5 = 0$. Solving via quadratic formula gives $\\cos(x) \\approx 0.816$ and $\\cos(x) \\approx -1.22$ (rejected).\n\n**Common mistake:** Students apply the quadratic formula correctly but may pick the mathematically valid algebraic value $-1.22$ without realizing that $\\cos(x)$ cannot step outside the domain $[-1, 1]$."
     }
   ]
 }

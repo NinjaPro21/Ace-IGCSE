@@ -36,12 +36,12 @@
     },
     {
       "type": "mcq",
-      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB.",
       "options": [
-        "y = 0.5x - 0.5",
-        "y = -2x + 7",
-        "y = 0.5x + 1",
-        "y = -0.5x + 2.5"
+        "$y = 0.5x - 0.5$",
+        "$y = -2x + 7$",
+        "$y = 0.5x + 1$",
+        "$y = -0.5x + 2.5$"
       ],
       "correctIndex": 0,
       "explanation": "The perpendicular gradient is the negative reciprocal of $-2$, which is $0.5$. Using the midpoint $(3,1)$ in $y - y_1 = m(x - x_1)$: $y - 1 = 0.5(x - 3) \\Rightarrow y = 0.5x - 0.5$.\n\n**Common mistake:** Using the original gradient $-2$ instead of the perpendicular gradient $0.5$.",

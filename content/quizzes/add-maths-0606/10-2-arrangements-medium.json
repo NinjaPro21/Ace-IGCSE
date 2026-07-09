@@ -19,7 +19,7 @@
         "60"
       ],
       "correctIndex": 0,
-      "explanation": "There are 6 letters with the letter $T$. So $\\frac{6!}{2!} = \\frac{720}{2} = 360$.\n\n**Common mistake:** Option B is $6!$, which fails to account for the indistinguishable nature of the two 'T's."
+      "explanation": "There are 6 letters with the letter $T$. So $\\frac{6!}{2!} = \\frac{720}{2} = 360$.\n\n**Common mistake:** Option B is $1$!, which fails to account for the indistinguishable nature of the two 'T's."
     },
     {
       "id": "10-2-arrangements-medium-q2",
@@ -32,7 +32,7 @@
         "12"
       ],
       "correctIndex": 0,
-      "explanation": "Treat Alex and Sam as one block. There are then 4 items to arrange ($4! = 24$ ways). Within the block, Alex and Sam can swap ($2! = 2$ ways). Total = $24 \\times 2 = 48$.\n\n**Common mistake:** Option B only calculates $4!$ and forgets to multiply by $2!$ for the internal arrangement of the pair."
+      "explanation": "Treat Alex and Sam as one block. There are then 4 items to arrange ($4! = 24$ ways). Within the block, Alex and Sam can swap ($2! = 2$ ways). Total = $24 \\times 2 = 48$.\n\n**Common mistake:** Option B only calculates^4! and forgets to multiply by 2! for the internal arrangement of the pair."
     },
     {
       "id": "10-2-arrangements-medium-q3",
@@ -58,7 +58,7 @@
         "20"
       ],
       "correctIndex": 0,
-      "explanation": "The word has 6 letters: 3 'A's, 2 'N's, and 1 'B'. The arrangements are $\\frac{6!}{3!2!} = \\frac{720}{6 \\times 2} = 60$.\n\n**Common mistake:** Option C results from only dividing by $3!$ and forgetting to divide by the $2!$ for the 'N's."
+      "explanation": "The word has 6 letters: 3 'A's, 2 'N's, and 1 'B'. The arrangements are $\\frac{6!}{3!2!} = \\frac{720}{6 \\times 2} = 60$.\n\n**Common mistake:** Option C results from only dividing by $3$! and forgetting to divide by the 2! for the 'N's."
     },
     {
       "id": "10-2-arrangements-medium-q5",
@@ -71,7 +71,7 @@
         "16"
       ],
       "correctIndex": 0,
-      "explanation": "There are two patterns: BGBGBGBG or GBGBGBGB. For each, there are $4!$ ways to arrange boys and $4!$ for girls. Total = $2 \\times (4! \\times 4!) = 2 \\times 576 = 1152$.\n\n**Common mistake:** Option B only considers one pattern (starting with a boy) and fails to multiply by 2."
+      "explanation": "There are two patterns: BGBGBGBG or GBGBGBGB. For each, there are $4!$ ways to arrange boys and $4!$ ways to arrange girls. Total $= 2 \\times 4! \\times 4! = 1152$.\n\n**Common mistake:** Only counting one starting pattern."
     }
   ]
 }

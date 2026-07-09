@@ -26,13 +26,13 @@
       "type": "mcq",
       "question": "Convert the exponential equation $e^x = 12$ into logarithmic form.",
       "options": [
-        "x = \\ln 12",
-        "x = \\log 12",
+        "$x = \\ln 12$",
+        "$x = \\log 12$",
         "$12 = \\ln x$",
-        "x = e^{12}"
+        "$x = e^{12}$"
       ],
       "correctIndex": 0,
-      "explanation": "The natural logarithm $\\ln$ and $e2e^x = y$. So $x = \\ln y$.\n\n**Common mistake:** A student might use $\\log$. $\\ln2e$)."
+      "explanation": "$e^x = 12 \\implies x = \\ln 12$.\n\n**Common mistake:** Using $\\log$ instead of $\\ln$ for a natural exponential equation."
     },
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-easy-q3",
@@ -66,7 +66,7 @@
       "question": "Evaluate $e^{\\ln 7.5}$.",
       "options": [
         "7.5",
-        "e^{7.5}",
+        "$e^{7.5}$",
         "\\ln 7.5",
         "1"
       ],

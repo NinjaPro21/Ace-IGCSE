@@ -19,7 +19,7 @@
         "0.5%"
       ],
       "correctIndex": 0,
-      "explanation": "$dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. \\% Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r^3)) × 100 = 3(δr/r) × 100 = 3(0.5\\%) = 1.5\\%.$\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
+      "explanation": "$dV/dr = 4\\pi r^2. δV ≈ 4\\pi r^2 δr. \\% Error V = (δV/V) × 100 = (4\\pi r^2 δr / (\\frac{4}{3}\\pi r^3)) × 100 = 3(δr/r) × 100 = 3(0.5\\%) = 1.5\\%$.\n\n**Common mistake:** Multiplying the error by 4/3 instead of the power 3."
     },
     {
       "id": "12-6-small-increments-and-approximations-hard-q2",
@@ -45,12 +45,12 @@
         "32h"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = 4(2x - 1)³ × 2 = 8(2x - 1)³. At x=1, $\\frac{dy}{dx}$ = 8(1)³ = 8. δy ≈ 8h.\n\n**Common mistake:** Failing to apply the chain rule when differentiating, leading to a coefficient of 4 instead of 8."
+      "explanation": "$\\frac{dy}{dx}$ = 4(2x - 1)^3 × 2 = 8(2x - 1)^3. At x=1, $\\frac{dy}{dx}$ = 8(1)^3 = 8. δy ≈ 8h.\n\n**Common mistake:** Failing to apply the chain rule when differentiating, leading to a coefficient of 4 instead of 8."
     },
     {
       "id": "12-6-small-increments-and-approximations-hard-q4",
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = \\frac{10}{x+1}$. If $x$ and $p2p  and y2x=4$.",
+      "question": "The variables $x$ and $y$ are related by $y = \\frac{10}{x+1}$. When $x = 4$, $x$ increases by $p$%. Find the approximate percentage change in $y$.",
       "options": [
         "-0.8p %",
         "-p %",
@@ -58,7 +58,7 @@
         "0.8p %"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = -10/(x+1)$^2$. At x=4, $\\frac{dy}{dx}$ = -10/25 = -0.4. δx = (p/100)x = 0.04p. δy ≈ -0.4(0.04p) = -0.016p. y(4) = 2. % change y = (-0.016p / 2) × 100 = -0.8p %.\n\n**Common mistake:** Calculations often miss the fact that δx is a percentage of the original $x$ and $p$."
+      "explanation": "$\\frac{dy}{dx} = -\\frac{10}{(x+1)^2}$. At $x = 4$, $\\frac{dy}{dx} = -0.4$. $\\delta x = \\frac{p}{100}(4) = 0.04p$, so $\\delta y \\approx -0.016p$. Since $y(4) = 2$, the percentage change is $-0.8p$ %.\n\n**Common mistake:** Forgetting that $\\delta x$ is a percentage of the original $x$."
     },
     {
       "id": "12-6-small-increments-and-approximations-hard-q5",

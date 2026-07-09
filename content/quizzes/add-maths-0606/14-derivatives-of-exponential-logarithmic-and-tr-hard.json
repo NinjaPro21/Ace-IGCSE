@@ -11,7 +11,7 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q1",
       "type": "mcq",
-      "question": "Find the $x$. So $y = x e^{-2x}$.",
+      "question": "Find the when $y = x e^{-2x}$.",
       "options": [
         "$0.5$",
         "$1$",
@@ -19,7 +19,7 @@
         "$-0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x(-2e^{-2x}) + e^{-2x}(1) = e^{-2x}(1 - 2x)$. Setting this to^0 gives $1 - 2x = 0$, so $x = 0.5$.\n\n**Common mistake:** Option C is chosen if the student incorrectly assumes the stationary point is always at the origin for exponential products."
+      "explanation": "$\\frac{dy}{dx} = x(-2e^{-2x}) + e^{-2x}(1) = e^{-2x}(1 - 2x)$. Setting this to^0 gives $1 -$x$= 0$, so $x = 0.5$.\n\n**Common mistake:** Option C is chosen if the student incorrectly assumes the stationary point is always at the origin for exponential products."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q2",
@@ -45,7 +45,7 @@
         "$2xe^{x^2}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}) during the second differentiation step.$"
+      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}) during the second differentiation step$."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q4",
@@ -104,10 +104,10 @@
       "type": "mcq",
       "question": "Find the equation of the tangent to $y = \\ln x$. So $y = 0$.",
       "options": [
-        "y = x - 1",
-        "y = x",
-        "y = x + 1",
-        "y = 1"
+        "$y = x - 1$",
+        "$y = x$",
+        "$y = x + 1$",
+        "$y = 1$"
       ],
       "correctIndex": 0,
       "explanation": "y = 0 implies ln x = 0, so x = 1. $\\frac{dy}{dx}$ = 1/x; at x=1, m = 1. Equation: y - 0 = 1(x - 1) => y = x - 1.\n\n**Common mistake:** Using x=0 as the point, which is impossible as ln 0 is undefined."
@@ -130,8 +130,8 @@
       "type": "mcq",
       "question": "Find the stationary point of the curve $y = \\ln x - x$.",
       "options": [
-        "(1, -1)",
-        "(1, 0)",
+        "$(1, -1)$",
+        "$(1, 0)$",
         "(e, 0)",
         "No stationary points"
       ],
@@ -141,7 +141,7 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q11",
       "type": "mcq",
-      "question": "Find the x-coordinate of the stationary point of the curve y=e^x\ncosx for 0<x<\npi.",
+      "question": "$Find the x-coordinate of the stationary point of the curve y=e^x$\ncosx for 0<x<\npi.",
       "options": [
         "$\\frac{3}{pi4}$",
         "$\\frac{\\pi}{4}$",
@@ -154,20 +154,20 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q12",
       "type": "mcq",
-      "question": "Determine the second derivative \\frac{d^{2}$yd x^{2}\n\n$$ of the function y=\ntanx.",
+      "question": "Determine $\\frac{d^2y}{dx^2}$ for $y = \\tan x$.",
       "options": [
-        "2\n\\sec^{2} x\ntanx",
-        "\\sec^{4}$x$",
-        "2\nsecx\ntanx",
-        "\\sec^{2} x\n\\tan^{2}$x$"
+        "$2\\sec^2 x \\tan x$",
+        "$\\sec^4 x$",
+        "$2\\sec x \\tan x$",
+        "$\\sec^2 x \\tan^2 x$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} =$\n$\\sec^{2} x.\\frac{d^{2}ydx^{2}= 2\n\n$$\nsecx\n$$\n\n$$\ntimes \\frac{d}{dx}(\n$$\n\n$$\nsecx)=2\n$$\n\n$$\nsecx(\n$$\n\n$$\nsecx\n$$\n\n$$\ntanx)=2\n$$\n\n$$\n\\sec^{2} x\n$$\n\n$$\ntanx.\n$$\n**Common mistake:** Option B results from incorrectly applying the power rule to the squared secant function without the chain rule component."
+      "explanation": "Let $y = \\tan x$. Then $\\frac{dy}{dx} = \\sec^2 x$ and $\\frac{d^2y}{dx^2} = 2\\sec^2 x \\tan x$.\n\n**Common mistake:** Applying the power rule to $\\sec^2 x$ without the chain rule."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-hard-q13",
       "type": "mcq",
-      "question": "Find the derivative of y=\n\\sin^{2}$(3x) and simplify using a double angle identity.$",
+      "question": "Find the derivative of y=\n\\sin^{2}$(3x) and simplify using a double angle identity$.",
       "options": [
         "3\nsin(6x)",
         "6\nsin(3x)\ncos(3x)",

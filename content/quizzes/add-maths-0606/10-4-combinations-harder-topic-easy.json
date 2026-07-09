@@ -19,7 +19,7 @@
         "40,320"
       ],
       "correctIndex": 0,
-      "explanation": "Using the formula $^nC_r = \\frac{n!}{r!(n-r)!}$, we have $^8C_3 = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.\n\n**Common mistake:** Option B is the result for permutations ($^8P_3$), where the student forgets to divide by $r!$."
+      "explanation": "Using the formula $^nC_r = \\frac{n!}{r!(n-r)!}$, we have $^8C_3 = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.\n\n**Common mistake:** Option B is the result for permutations ($^8P_3$), where the student forgets to divide by $r$!."
     },
     {
       "id": "10-4-combinations-harder-topic-easy-q2",
@@ -71,7 +71,7 @@
         "144"
       ],
       "correctIndex": 0,
-      "explanation": "$^{12}C_2 = \\frac{12 \\times 11}{2 \\times 1} = 66$.\n\n**Common mistake:** Option B is $12 \\times 11$, forgetting to divide by $2!$ for the unordered nature of the selection."
+      "explanation": "$^{12}C_2 = \\frac{12 \\times 11}{2 \\times 1} = 66$.\n\n**Common mistake:** Option B is $12 \\times 11$, forgetting to divide by 2! for the unordered nature of the selection."
     }
   ]
 }

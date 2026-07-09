@@ -829,6 +829,12 @@
   text-transform: uppercase;
 }
 
+.enlight-chapter-card__quiz-badge--chapter {
+  background: var(--enlight-formula-bg);
+  color: var(--enlight-gold-dark);
+  border: 1px solid color-mix(in srgb, var(--enlight-gold) 35%, transparent);
+}
+
 .enlight-status-dot {
   display: inline-flex;
   align-items: center;
@@ -4683,6 +4689,120 @@
   margin-top: 4px;
 }
 
+/* Section vs chapter quiz scope */
+.enlight-quiz-scope-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: var(--enlight-radius-pill);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.enlight-quiz-scope-badge--section {
+  background: var(--enlight-mint-bg);
+  color: var(--enlight-mint-text);
+  border: 1px solid color-mix(in srgb, var(--enlight-sage) 30%, transparent);
+}
+
+.enlight-quiz-scope-badge--chapter {
+  background: var(--enlight-formula-bg);
+  color: var(--enlight-gold-dark);
+  border: 1px solid color-mix(in srgb, var(--enlight-gold) 40%, transparent);
+}
+
+.enlight-mastery-block {
+  margin-top: 48px;
+}
+
+.enlight-mastery-block__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.enlight-mastery-block__title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.enlight-mastery-block__desc {
+  margin: 0 0 8px;
+  max-width: 52rem;
+}
+
+.enlight-mastery-block--chapter {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--enlight-gold) 45%, var(--enlight-border));
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--enlight-formula-bg) 80%, var(--enlight-card)) 0%,
+    var(--enlight-card) 100%
+  );
+}
+
+.enlight-mastery-block--chapter .enlight-mastery-path {
+  margin-bottom: 0;
+}
+
+.enlight-mastery-path--section .enlight-mastery-step--unlocked:hover {
+  border-color: var(--enlight-sage);
+}
+
+.enlight-mastery-path--chapter .enlight-mastery-step--unlocked:hover {
+  border-color: var(--enlight-gold);
+}
+
+.enlight-mastery-step--section.enlight-mastery-step--complete {
+  border-color: var(--enlight-sage);
+  background: var(--enlight-mint-bg);
+}
+
+.enlight-mastery-step--chapter.enlight-mastery-step--complete {
+  border-color: var(--enlight-gold);
+  background: var(--enlight-formula-bg);
+}
+
+.enlight-mastery-step--chapter .enlight-mastery-step__label {
+  color: var(--enlight-gold-dark);
+}
+
+.enlight-quiz__scope-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.enlight-lesson-sidebar__chapter-quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--enlight-gold) 35%, var(--enlight-border));
+  background: var(--enlight-formula-bg);
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.enlight-lesson-sidebar__chapter-quiz:hover {
+  border-color: var(--enlight-gold);
+  transform: translateY(-1px);
+}
+
 /* Chapter quiz popout */
 .enlight-popout-overlay {
   position: fixed;
@@ -4714,6 +4834,7 @@
 
 .enlight-popout__hero {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
   margin-bottom: 16px;

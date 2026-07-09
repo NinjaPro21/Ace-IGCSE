@@ -11,20 +11,20 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q1",
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = p q^{x^2}$. A straight line is obtained by plotting $\\ln y$. $x^2$. If the line passes through $(1, 4)$ and $(3, 10)$, find the value of $q$.",
+      "question": "The variables $x$ and $y$ are related by $y = pq^{x^2}$. A straight line is obtained by plotting $\\ln y$ against $x^2$. If the line passes through $(1, 4)$ and $(3, 10)$, find the value of $q$.",
       "options": [
         "$e^3$",
-        "3",
+        "$3$",
         "$e^4$",
         "$e^{10}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\ln y = (\\ln q)x^2 + \\ln p^2 So m = \\ln q = \\frac{10-4}{3-1} = 3$. Therefore, $q = e^3$.\n\n**Common mistake:** A student might plot $\\ln y$ and $x2x^2$, or fail to convert from $\\ln q$ and $q$."
+      "explanation": "$\\ln y = x^2 \\ln q + \\ln p$. So $m = \\ln q = \\frac{10-4}{3-1} = 3$. Therefore $q = e^3$.\n\n**Common mistake:** Plotting $\\ln y$ against $x$ instead of $x^2$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q2",
       "type": "mcq",
-      "question": "A graph of $\\frac{y}{x}$ against $x^2$ is a straight line passing through $(2, 11)$ and $(5, 20)$. Find the equation for $y$ and $x$.",
+      "question": "A graph of $\\frac{y}{x}$ against $x^2$ is a straight line passing through $(2, 11)$ and $(5, 20)$. Find the equation for $y$ in terms of $x$.",
       "options": [
         "$y = 3x^3 + 5x$",
         "$y = 3x^2 + 5$",
@@ -37,7 +37,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q3",
       "type": "mcq",
-      "question": "For the law $y = \\frac{a}{x+b}$, a straight line is obtained by plotting $\\frac{1}{y}$ against $x$ and $a2b$.",
+      "question": "For the law $y = \\frac{a}{x+b}$, a straight line is obtained by plotting $\\frac{1}{y}$ against $x$. The line has gradient 0.5 and intercept 2. Find $a$ and $b$.",
       "options": [
         "$a = 2, b = 4$",
         "$a = 0.5, b = 2$",
@@ -50,7 +50,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q4",
       "type": "mcq",
-      "question": "Two variables are related by $y = 10^{ax+b}$. The graph of $\\lg y$ and $x2(1, 5)$ and $(3, 11)$. Determine the values of $a$ and $b$.",
+      "question": "Two variables are related by $y = 10^{ax+b}$. The graph of $\\lg y$ against $x$ passes through $(1, 5)$ and $(3, 11)$. Determine the values of $a$ and $b$.",
       "options": [
         "$a = 3, b = 2$",
         "$a = 2, b = 3$",
@@ -63,7 +63,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q5",
       "type": "mcq",
-      "question": "The relationship $y = ax^n + b$ and $b2a$ and $n$?",
+      "question": "The relationship $y = ax^n + 3$ can be linearised. Which plot gives a straight line, and how can $a$ and $n$ be found from the graph?",
       "options": [
         "$\\lg(y - 3)$ against $\\lg x$",
         "$\\lg y$. $\\lg x$",
@@ -71,12 +71,12 @@
         "$(y - 3)$ against $x$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange to $y - 3 = ax^n$. So $\\lg(y - 3) = n \\lg x + \\lg a2\\lg(y - 3)$ against $\\lg x$ yields a straight line.\n\n**Common mistake:** Attempting to take the log of the sum ($ax^n + b$), which does not simplify to a linear form."
+      "explanation": "Rearrange to $y - 3 = ax^n$. Taking logs gives $\\lg(y - 3) = n \\lg x + \\lg a$. Plotting $\\lg(y - 3)$ against $\\lg x$ yields a straight line.\n\n**Common mistake:** Attempting to take the log of the sum ($ax^n + 3$), which does not simplify to a linear form."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q6",
       "type": "mcq",
-      "question": "The relationship $y = a e^{bx^2}$ is plotted as $\\ln y$. $x^2$. The line passes through $P(1, 4)$ and $Q(3, 10)$. Calculate the value of $a$ and $b$.",
+      "question": "The relationship $y = a e^{bx^2}$ is plotted as $\\ln y$ against $x^2$. The line passes through $P(1, 4)$ and $Q(3, 10)$. Calculate the values of $a$ and $b$.",
       "options": [
         "$a = e, b = 3$",
         "$a = 3, b = e$",
@@ -84,12 +84,12 @@
         "$a = 1, b = e^3$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\ln y = bx^2 + \\ln a$. So $b = \\frac{10-4}{3-1} = 3$. Intercept $\\ln a = 4 - 3(1) = 1 \\Rightarrow a = e^1$.\n\n**Common mistake:** Calculating $b$. $\\ln 3$ instead of 3, or forgetting to take the exponential of the intercept to find $a$."
+      "explanation": "$\\ln y = bx^2 + \\ln a$. So $b = \\frac{10-4}{3-1} = 3$. Intercept $\\ln a = 4 - 3(1) = 1 \\Rightarrow a = e^1$.\n\n**Common mistake:** Calculating $b$ as $\\ln 3$ instead of 3, or forgetting to take the exponential of the intercept to find $a$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q7",
       "type": "mcq",
-      "question": "Given $y = \\frac{k}{x+a}$, a graph of $\\frac{1}{y}$ against $x$ and $y2x$. So $y = 0.5$.",
+      "question": "Given $y = \\frac{k}{x+a}$, a graph of $\\frac{1}{y}$ against $x$ has gradient 0.2 and intercept 0.8. Find $x$ when $y = 0.5$.",
       "options": [
         "6",
         "1.2",
@@ -102,7 +102,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q8",
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = Ax^n + 4$. A straight line is obtained by plotting $\\lg(y-4)$ against $\\lg x$. $(2, 7)$ and $(4, 13)$, determine the law.",
+      "question": "The variables $x$ and $y$ satisfy $y = Ax^n + 4$. A straight line is obtained by plotting $\\lg(y-4)$ against $\\lg x$ through $(2, 7)$ and $(4, 13)$. Determine the law connecting $x$ and $y$.",
       "options": [
         "$y = 10 x^3 + 4$",
         "$y = 3x^2 + 4$",
@@ -115,7 +115,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q9",
       "type": "mcq",
-      "question": "A graph of $\\frac{y}{x^2}$ against $\\frac{1}{x}$ is a straight line through $(1, 5)$ and $(3, 13)$. Express $y$ and $x$.",
+      "question": "A graph of $\\frac{y}{x^2}$ against $\\frac{1}{x}$ is a straight line through $(1, 5)$ and $(3, 13)$. Express $y$ in terms of $x$.",
       "options": [
         "$y = 4x + x^2$",
         "$y = 4x^2 + x$",
@@ -128,7 +128,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-hard-q10",
       "type": "mcq",
-      "question": "The variables $p  and q2q = a p^b$. $\\ln q2\\ln p^2 So q=4$ when $p=16$, find $a$.",
+      "question": "The variables $p$ and $q$ satisfy $q = ap^b$. A plot of $\\ln q$ against $\\ln p$ is a straight line through the origin with gradient 0.5. Given $q = 4$ when $p = 16$, find $a$.",
       "options": [
         "1",
         "4",
@@ -136,7 +136,7 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "$\\ln q = b \\ln p + \\ln a$. So $b = 0.5$. Substituting: $\\ln 4 = 0.5 \\ln 16 + \\ln a \\Rightarrow \\ln 4 = \\ln(16^{0.5}) + \\ln a \\Rightarrow \\ln 4 = \\ln 4 + \\ln a \\Rightarrow \\ln a = 0 \\Rightarrow a = 1$.\n\n**Common mistake:** Assuming $a$ and $q2p=1$ without verifying the power relationship."
+      "explanation": "$\\ln q = b \\ln p + \\ln a$. So $b = 0.5$. Substituting: $\\ln 4 = 0.5 \\ln 16 + \\ln a \\Rightarrow \\ln 4 = \\ln(16^{0.5}) + \\ln a \\Rightarrow \\ln 4 = \\ln 4 + \\ln a \\Rightarrow \\ln a = 0 \\Rightarrow a = 1$.\n\n**Common mistake:** Assuming $a = q/p$ when $p = 1$ without verifying the power relationship."
     }
   ]
 }

@@ -24,20 +24,20 @@
     {
       "id": "6-5-finding-relationships-from-data-hard-q2",
       "type": "mcq",
-      "question": "Experimental data for $x$ and $y2y^2 = ax + b$. $y^2$ against $x$. $(2, 11)$ and $(6, 31)$. Find the coordinates of the points where the original curve $y^2 = ax + b$ and $y$-axis.",
+      "question": "Data satisfies $y^2 = ax + b$. Plotting $y^2$ against $x$ gives $(2, 11)$ and $(6, 31)$. Find where the curve meets the $y$-axis.",
       "options": [
-        "$(0, \\u221A1)$ and $(0, -\\u221A1)$",
-        "$(0, 1)$",
+        "$(0, \\pm 1)$",
+        "$(0, 1)$ only",
         "$(1, 0)$",
-        "$(0, 5)$"
+        "$(0, \\pm \\sqrt{5})$"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient $a = \\frac{31-11}{6-2} = 5$. Intercept $b = 11 - 5(2) = 1$. Eq: $y^2 = 5x + 1$. For $y$. So $x=0 \\Rightarrow y^2 = 1 \\Rightarrow y = \\pm 1$.\n\n**Common mistake:** Finding the $x$. So $y=0$ instead of the $y$. So $x=0$."
+      "explanation": "Gradient $a = \\frac{31-11}{6-2} = 5$. Intercept $b = 11 - 5(2) = 1$. Equation: $y^2 = 5x + 1$. At the $y$-axis, $x=0 \\Rightarrow y^2 = 1 \\Rightarrow y = \\pm 1$.\n\n**Common mistake:** Finding where $y=0$ (the $x$-axis) instead of setting $x=0$."
     },
     {
       "id": "6-5-finding-relationships-from-data-hard-q3",
       "type": "mcq",
-      "question": "Two constants $p  and q2y = p e^{qx}$. A plot of $\\ln y$ and $x2^2$ and the gradient is -2, find the value of $p$.",
+      "question": "Constants $p$ and $q$ satisfy $y = pe^{qx}$. A plot of $\\ln y$ against $x$ has gradient $-2$ and passes through $(0, 0.5)$. Find $p$.",
       "options": [
         "$e^{5.66}$",
         "$e^{4}$",
@@ -50,20 +50,20 @@
     {
       "id": "6-5-finding-relationships-from-data-hard-q4",
       "type": "mcq",
-      "question": "Data $(x, y)$ is transformed using $Y = \\lg y$. So $X = \\lg x2Y = -3X + 2$. If the value of $x$ and $y$ change?",
+      "question": "A plot of $\\lg y$ against $\\lg x$ is a straight line with equation $\\lg y = -3\\lg x + 2$. If $x$ is doubled, by what factor does $y$ change?",
       "options": [
         "$\\frac{1}{8}$",
         "$-3$",
-        "8",
-        "$\\u221A2$"
+        "$8$",
+        "$\\sqrt{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "The law is $y = 10^{2} x^{-3} = \\frac{100}{x^3}$. If $x \\to 2x$. So $y \\to \\frac{100}{(2x)^3} = \\frac{100}{8x^3} = \\frac{1}{8}y$.\n\n**Common mistake:** Applying the gradient multiplier (-3) directly to the $y$ value instead of the power."
+      "explanation": "The law is $y = \\frac{100}{x^3}$. If $x$ is doubled, $y$ becomes $\\frac{1}{8}$ of its original value.\n\n**Common mistake:** Applying the gradient $-3$ directly to $y$ instead of using the power law."
     },
     {
       "id": "6-5-finding-relationships-from-data-hard-q5",
       "type": "mcq",
-      "question": "The law $y = ax^n + b$ and $b2\\ln(y - 10)$ against $\\ln x$. $(0, 1)$ and $(2, 5)$, find the value of $a$.",
+      "question": "The law $y = ax^n + b$ with $b = 10$ is linearised by plotting $\\ln(y-10)$ against $\\ln x$. The line passes through $(0, 1)$ and $(2, 5)$. Find $a$.",
       "options": [
         "$e$",
         "1",
@@ -71,7 +71,7 @@
         "$e^2$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\ln(y-10) = n\\ln x + \\ln a$. $\\ln a2(0, 1)$, the intercept is 1. So $\\ln a = 1 \\Rightarrow a = e .$\n\n**Common mistake:** Using the y and a without taking the inverse log."
+      "explanation": "$\\ln(y-10) = n\\ln x + \\ln a$. $\\ln a$ from $(0, 1)$, the intercept is 1. So $\\ln a = 1 \\Rightarrow a = e$.\n\n**Common mistake:** Using the y and a without taking the inverse log."
     }
   ]
 }

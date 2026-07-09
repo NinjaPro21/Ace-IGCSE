@@ -58,7 +58,7 @@
         "$3\\sin x + 6$"
       ],
       "correctIndex": 0,
-      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$ and $f$."
+      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$ and $f."
     },
     {
       "id": "11-3-11-4-functions-pyp-q5",

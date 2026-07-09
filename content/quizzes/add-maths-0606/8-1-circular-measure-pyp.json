@@ -19,66 +19,12 @@
         "$1.5 \\times 180 = 270$"
       ],
       "correctIndex": 0,
-      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $270 \\times \\frac{\\pi}{180} = \\frac{27}{18}\\pi = 1.5\\pi .$\n\n**Common mistake:** While 270/180 = 1.5$, the multiplication by$\\pi is essential for the radian unit.",
-      "variants": [
-        {
-          "id": "8-1-circular-measure-pyp-q1",
-          "type": "mcq",
-          "question": "Convert an angle of $90^\\circ$ to radians.",
-          "options": [
-            "$$\n\\frac{1}{2}\\pi\n",
-            "$$\n\\frac{2}{3}\\pi\n",
-            "$$\n\\frac{1}{3}\\pi\n",
-            "\\pi"
-          ],
-          "correctIndex": 0,
-          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
-        },
-        {
-          "id": "8-1-circular-measure-pyp-q1",
-          "type": "mcq",
-          "question": "Convert an angle of $120^\\circ$ to radians.",
-          "options": [
-            "$$\n\\frac{2}{3}\\pi\n",
-            "$$\n\\frac{5}{6}\\pi\n",
-            "$$\n\\frac{1}{2}\\pi\n",
-            "$$\n\\frac{4}{3}\\pi\n"
-          ],
-          "correctIndex": 0,
-          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
-        },
-        {
-          "id": "8-1-circular-measure-pyp-q1",
-          "type": "mcq",
-          "question": "Convert an angle of $60^\\circ$ to radians.",
-          "options": [
-            "$$\n\\frac{1}{3}\\pi\n",
-            "$$\n\\frac{1}{2}\\pi\n",
-            "$$\n\\frac{1}{6}\\pi\n",
-            "$$\n\\frac{2}{3}\\pi\n"
-          ],
-          "correctIndex": 0,
-          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
-        },
-        {
-          "id": "8-1-circular-measure-pyp-q1",
-          "type": "mcq",
-          "question": "Convert an angle of $150^\\circ$ to radians.",
-          "options": [
-            "$$\n\\frac{5}{6}\\pi\n",
-            "\\pi",
-            "$$\n\\frac{2}{3}\\pi\n",
-            "$$\n\\frac{5}{3}\\pi\n"
-          ],
-          "correctIndex": 0,
-          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
-        }
-      ]
+      "explanation": "To convert degrees to radians, multiply by $\\frac{\\pi}{180}$. $270 \\times \\frac{\\pi}{180} = \\frac{27}{18}\\pi = \\frac{3\\pi}{2} = 1.5\\pi$.\n\n**Common mistake:** Stopping at $270/180 = 1.5$ without multiplying by $\\pi$."
     },
     {
       "id": "8-1-circular-measure-pyp-q2",
       "type": "mcq",
-      "question": "Given $x^\\circ = \\frac{2\\pi}{5}$ radians, find $x$.",
+      "question": "Given that $x^\\circ = \\frac{2\\pi}{5}$ radians, find $x$.",
       "options": [
         "72",
         "36",
@@ -104,7 +50,7 @@
     {
       "id": "8-1-circular-measure-pyp-q4",
       "type": "mcq",
-      "question": "The angle $\\theta$. $0 < \\theta < \\frac{\\pi}{2}$. Given that $\\tan \\theta = \\sqrt{3}$, state the value of $\\theta$ in radians.",
+      "question": "The angle $\\theta$ satisfies $0 < \\theta < \\frac{\\pi}{2}$ and $\\tan \\theta = \\sqrt{3}$. Find $\\theta$ in radians.",
       "options": [
         "$\\frac{\\pi}{3}$",
         "$\\frac{\\pi}{6}$",
@@ -112,12 +58,12 @@
         "$\\frac{2\\pi}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\tan 60^\\circ = \\sqrt{3}$. Converting $60^\\circ$. $60 \\times \\frac{\\pi}{180} = \\frac{\\pi}{3}$.\n\n**Common mistake:** Confusing the tangent values of $30^\\circ$ instead of $60^\\circ$ ($\\pi/6$) instead."
+      "explanation": "$\\tan 60^\\circ = \\sqrt{3}$, and $60^\\circ = \\frac{\\pi}{3}$ radians.\n\n**Common mistake:** Confusing with $\\frac{\\pi}{6}$ ($\\tan 30^\\circ$)."
     },
     {
       "id": "8-1-circular-measure-pyp-q5",
       "type": "mcq",
-      "question": "Hence, find the angle in radians subtended at the centre of a circle by a semi-circle.",
+      "question": "Find the angle in radians subtended at the centre of a circle by a semicircle.",
       "options": [
         "$\\pi$",
         "$2\\pi$",
@@ -125,7 +71,7 @@
         "$180$"
       ],
       "correctIndex": 0,
-      "explanation": "A semi-circle subtends $180^\\circ$ to radians radians.\n\n**Common mistake:** Providing the answer as a number without the unit of $\\pi^2 2\\pi$ for the full circle."
+      "explanation": "A semicircle subtends $180^\\circ = \\pi$ radians.\n\n**Common mistake:** Giving $2\\pi$ (full circle) or $180$ without radians."
     }
   ]
 }

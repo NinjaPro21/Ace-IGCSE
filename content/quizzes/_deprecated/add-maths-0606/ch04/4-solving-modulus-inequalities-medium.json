@@ -1,0 +1,77 @@
+{
+  "id": "4-solving-modulus-inequalities-medium",
+  "topicId": "4-solving-modulus-inequalities",
+  "chapterId": "ch04-equations-inequalities-and-graphs",
+  "difficulty": "medium",
+  "title": "Solving Modulus Inequalities — Medium",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "4-solving-modulus-inequalities-medium-q1",
+      "type": "mcq",
+      "question": "Solve the inequality $|2x - 3| < 7$.",
+      "options": [
+        "$-2 < x < 5$",
+        "$x < 5 or x > -2$",
+        "$2 < x < 5$",
+        "$-5 < x < 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$-7 < 2x - 3 < 7 \\implies -4 < 2x < 10 \\implies -2 < x < 5$.\n\n**Common mistake:** Failing to add 3 to both the positive and negative constants before dividing by 2."
+    },
+    {
+      "id": "4-solving-modulus-inequalities-medium-q2",
+      "type": "mcq",
+      "question": "Find the set of values of x for which $|3x + 4| \\ge 10$.",
+      "options": [
+        "$x \\ge 2 or x \\le -14/3$",
+        "$-14/3 \\le x \\le 2$",
+        "$x \\ge 2 only$",
+        "$x \\le -14/3 only$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Case 1: $3x + 4 \\ge 10 \\implies 3x \\ge 6, x \\ge 2$. Case 2: $3x + 4 \\le -10 \\implies 3x \\le -14, x \\le -14/3$.\n\n**Common mistake:** Errors in signs when handling the 'less than or equal to -10' condition."
+    },
+    {
+      "id": "4-solving-modulus-inequalities-medium-q3",
+      "type": "mcq",
+      "question": "Solve $|10 - x| \\le 4$.",
+      "options": [
+        "$6 \\le x \\le 14$",
+        "$x \\le 14$",
+        "$-14 \\le x \\le -6$",
+        "$x \\le 6 or x \\ge 14$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$-4 \\le 10 - x \\le 4$. Subtracting 10 gives $-14 \\le -x \\le -6$. Multiplying by -1 flips the signs: $6 \\le x \\le 14$.\n\n**Common mistake:** Failing to reverse the inequality signs when multiplying or dividing by the negative coefficient of x."
+    },
+    {
+      "id": "4-solving-modulus-inequalities-medium-q4",
+      "type": "mcq",
+      "question": "Find the range of x satisfying $| \\frac{x}{2} + 1 | > 3$.",
+      "options": [
+        "$x > 4 or x < -8$",
+        "$-8 < x < 4$",
+        "$x > 4 only$",
+        "$x < -4 or x > 8$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Either $x/2 + 1 > 3 \\implies x/2 > 2, x > 4$ or $x/2 + 1 < -3 \\implies x/2 < -4, x < -8$.\n\n**Common mistake:** Difficulty in isolating x from the $fraction$ or making sign errors in the negative case."
+    },
+    {
+      "id": "4-solving-modulus-inequalities-medium-q5",
+      "type": "mcq",
+      "question": "Solve the inequality $5 - |x + 2| > 2$.",
+      "options": [
+        "$-5 < x < 1$",
+        "$x < 1$",
+        "$x > -5$",
+        "$x < -5 or x > 1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rearrange to $|x + 2| < 3$. This gives $-3 < x + 2 < 3 \\implies -5 < x < 1$.\n\n**Common mistake:** Failing to correctly isolate the modulus term, often resulting in $|x + 2| > 3$."
+    }
+  ]
+}

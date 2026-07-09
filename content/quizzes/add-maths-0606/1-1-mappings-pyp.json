@@ -32,7 +32,7 @@
         "Many-to-many"
       ],
       "correctIndex": 0,
-      "explanation": "f(0)=5-∣-2∣=3 and f(4)=5-∣2∣=3. Since two different objects have the same image, it is many-to-one.\n\n**Common mistake:** Assuming all modulus graphs are 'V' shaped and thus must be many-to-one without verifying the specific domain."
+      "explanation": "f(0)=5-|-2|=3 and f(4)=5-|2|=3. Since two different objects have the same image, it is many-to-one.\n\n**Common mistake:** Assuming all modulus graphs are 'V' shaped and thus must be many-to-one without verifying the specific domain."
     },
     {
       "id": "1-1-mappings-pyp-q3",
@@ -45,7 +45,7 @@
         "$y \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: $(x-2)^{2}$+3. The minimum value is 3, so the range is y≥3.\n\n**Common mistake:** Identifying the y-intercept (7) as the minimum value of the range instead of the vertex."
+      "explanation": "Complete the square: $(x-2)^{2}+3$. The minimum value is 3, so the range is $y \\ge 3$.\n\n**Common mistake:** Identifying the y-intercept (7) as the minimum value of the range instead of the vertex."
     },
     {
       "id": "1-1-mappings-pyp-q4",
@@ -58,7 +58,7 @@
         "$y \\neq 5$"
       ],
       "correctIndex": 0,
-      "explanation": "As x is positive and increases, 2/x decreases towards 0. Thus 5+2/x is always greater than 5.\n\n**Common mistake:** Ignoring the 'x > 0' constraint and assuming the range is all real numbers except 5 (y \\neq 5)."
+      "explanation": "As $x$ is positive and increases, $2/x$ decreases towards 0. Thus $5+2/x$ is always greater than 5.\n\n**Common mistake:** Ignoring the '$x > 0$' constraint and assuming the range is all real numbers except 5 ($y \\neq 5$)."
     },
     {
       "id": "1-1-mappings-pyp-q5",

@@ -14,7 +14,7 @@
       "question": "Given that cos θ = p, where θ is acute, express tan(90° - θ) in terms of p.",
       "options": [
         "p / \\sqrt{1 - p^2}",
-        "$$\n\\sqrt{1 - p^2} / p\n",
+        "$\\sqrt{1 - p^2} / p$",
         "1 / p",
         "p"
       ],
@@ -45,7 +45,7 @@
         "9"
       ],
       "correctIndex": 0,
-      "explanation": "Opp=3, Hyp=5, so Adj=4. cos θ = 4/5 and tan θ = 3/4. Value = 5(4/5) + 4(3/4) = 4 + 3 = 7.\n\n**Common mistake:** Arithmetic errors in the final substitution or misidentifying the adjacent side length."
+      "explanation": "Opposite $= 3$, hypotenuse $= 5$, so adjacent $= 4$. Then $\\cos \\theta = \\frac{4}{5}$ and $\\tan \\theta = \\frac{3}{4}$. Value $= 5\\left(\\frac{4}{5}\\right) + 4\\left(\\frac{3}{4}\\right) = 7$.\n\n**Common mistake:** Misidentifying the adjacent side length."
     },
     {
       "id": "9-1-basic-trigonometry-0-pyp-q4",

@@ -37,7 +37,7 @@
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q3",
       "type": "mcq",
-      "question": "Find the set of values of $x$. So $y = \\frac{1}{3}x^3 - 4x$ is positive.",
+      "question": "Find the set of values of when $y = \\frac{1}{3}x^3 - 4x$ is positive.",
       "options": [
         "$x < -2$ or $x > 2$",
         "$-2 < x < 2$",
@@ -78,10 +78,10 @@
       "type": "mcq",
       "question": "Find the coordinates of the stationary point on the curve $y = (x - 2)^2 + 5$.",
       "options": [
-        "(2, 5)",
-        "(0, 9)",
-        "(2, 0)",
-        "(-2, 5)"
+        "$(2, 5)$",
+        "$(0, 9)$",
+        "$(2, 0)$",
+        "$(-2, 5)$"
       ],
       "correctIndex": 0,
       "explanation": "$dy/dx = 2(x-2) \\times 1 = 2x - 4$. Set to 0: $x = 2$. $y = (0)^2 + 5 = 5$.\n\n**Common mistake:** Misidentifying the x-coordinate as -2 from the bracket $(x-2)$."
@@ -97,7 +97,7 @@
         "8 / \\sqrt[2]{4x - 1}"
       ],
       "correctIndex": 0,
-      "explanation": "$y = (4x-1)^{2/3}$. $dy/dx = \\frac{2}{3}(4x-1)^{-1/3} \\times 4 = \\frac{8}{3(4x-1)^{1/3}}$.\n\n$**Common mistake:** Difficulty handling the \\frac{1}{a} exponent or forgetting to multiply by the inner derivative 4."
+      "explanation": "$y = (4x-1)^{2/3}$. $dy/dx = \\frac{2}{3}(4x-1)^{-1/3} \\times 4 = \\frac{8}{3(4x-1)^{1/3}}$.\n\n$**Common mistake:** Difficulty handling the \\frac{1}{a} exponent or forgetting to multiply by the inner derivative 4$."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q8",
@@ -117,10 +117,10 @@
       "type": "mcq",
       "question": "Determine the equation of the tangent to $y = (x + 1)^3$ at the point where $x = 1$.",
       "options": [
-        "y = 12x - 4",
-        "y = 12x + 8",
-        "y = 3x + 5",
-        "y = 12x"
+        "$y = 12x - 4$",
+        "$y = 12x + 8$",
+        "$y = 3x + 5$",
+        "$y = 12x$"
       ],
       "correctIndex": 0,
       "explanation": "$y(1) = 8$. $dy/dx = 3(x+1)^2$. $m = 3(2)^2 = 12$. $y - 8 = 12(x - 1) \\implies y = 12x - 4$.\n\n**Common mistake:** Using the wrong gradient or point-slope formula errors."
@@ -136,7 +136,7 @@
         "-3 / (3x + 1)^{1/2}"
       ],
       "correctIndex": 0,
-      "explanation": "$y = 6(3x+1)^{-1/2}$. $dy/dx = 6(-\\frac{1}{2})(3x+1)^{-3/2} \\times 3 = -9(3x+1)^{-3/2}$.\n\n**Common mistake:** Incorrectly reducing the power to $-1/2$ or $1/2$ when differentiating the negative $fraction.$"
+      "explanation": "$y = 6(3x+1)^{-1/2}$. $dy/dx = 6(-\\frac{1}{2})(3x+1)^{-3/2} \\times 3 = -9(3x+1)^{-3/2}$.\n\n**Common mistake:** Incorrectly reducing the power to $-1/2$ or $1/2$ when differentiating the negative $fraction$."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q11",
@@ -149,12 +149,12 @@
         "$0.75$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x^n(1) + (x-4)(nx^{n-1}) = x^{n-1}[x + n(x-4)]$. At $x=3, \\frac{dy}{dx}=0 \\implies 3 + n(3-4) = 0 \\implies 3 - n = 0 \\implies n = 3$.\n\n**Common mistake:** Option B results if a student incorrectly sets the derivative of the $x-4$ term to^0 instead of^1."
+      "explanation": "$\\frac{dy}{dx} = x^n(1) + (x-4)(nx^{n-1}) = x^{n-1}[x + n(x-4)]$. At $x=3, \\frac{dy}{dx}=0 \\implies 3 + n(3-4) = 0 \\implies 3 - n = 0 \\implies n = 3$.\n\n**Common mistake:** Option B results if a student incorrectly sets the derivative of the $x-4$ term to^0 instead of 1."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q12",
       "type": "mcq",
-      "question": "Find the $x$. So $y = x^2\\sqrt{12 - x}$ for $x < 12$.",
+      "question": "Find the when $y = x^2\\sqrt{12 - x}$ for $x < 12$.",
       "options": [
         "$9.6$",
         "$8$",
@@ -162,7 +162,7 @@
         "$4.8$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x^2[\\frac{-1}{2\\sqrt{12-x}}] + 2x\\sqrt{12-x} = \\frac{-x^2 + 4x(12-x)}{2\\sqrt{12-x}} = \\frac{48x - 5x^2}{2\\sqrt{12-x}}$. $x(48-5x)=0 \\implies x=9.6$.\n\n**Common mistake:** Option B occurs if the student forgets the factor of^2 from the square root derivative when finding the common denominator."
+      "explanation": "$\\frac{dy}{dx} = x^2[\\frac{-1}{2\\sqrt{12-x}}] + 2x\\sqrt{12-x} = \\frac{-x^2 + 4x(12-x)}{2\\sqrt{12-x}} = \\frac{48x - 5x^2}{2\\sqrt{12-x}}$. $x(48-5x)=0 \\implies x=9.6$.\n\n**Common mistake:** Option B occurs if the student forgets the factor of 2 from the square root derivative when finding the common denominator."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q13",
@@ -206,7 +206,7 @@
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q16",
       "type": "mcq",
-      "question": "Find the derivative of $y = (2x + 1)³ / (x - 2)$.",
+      "question": "Find the derivative of $y = (2x + 1)^3 / (x - 2)$.",
       "options": [
         "(2x + 1)$^2$(4x - 13) / (x - 2)$^2$",
         "6(2x + 1)$^2$ / (x - 2)$^2$",
@@ -214,17 +214,17 @@
         "3(2x + 1)$^2$ / (x - 2)$^2$"
       ],
       "correctIndex": 0,
-      "explanation": "u' = 6(2x+1)$^2, v' = 1$. $2\\frac{dy}{dx}$ = [$(x-2)^{6}$(2x+1)$^2$ - (2x+1)³] / (x-2)$^2$ = (2x+1)$^2$ [6x - 12 - (2x + 1)] / (x-2)$^2$ = (2x+1)$^2$(4x - 13) / (x-2)$^2$.\n\n**Common mistake:** Failing to factor out $(2x+1)^2$ from the numerator, making the simplification much harder."
+      "explanation": "u' = 6(2x+1)$^2, v' = 1$. $2\\frac{dy}{dx}$ = [$(x-2)^{6}$(2x+1)$^2$ - (2x+1)^3] / (x-2)$^2$ = (2x+1)$^2$ [6x - 12 - (2x + 1)] / (x-2)$^2$ = (2x+1)$^2$(4x - 13) / (x-2)$^2$.\n\n**Common mistake:** Failing to factor out $(2x+1)^2$ from the numerator, making the simplification much harder."
     },
     {
       "id": "12-the-gradient-function-amp-basic-differentiati-hard-q17",
       "type": "mcq",
       "question": "Determine the equation of the normal to the curve $y = (x + 3) / (x + 1)$ at $x = 0$.",
       "options": [
-        "y = 0.5x + 3",
-        "y = -2x + 3",
-        "y = 2x + 3",
-        "y = 0.5x + 1"
+        "$y = 0.5x + 3$",
+        "$y = -2x + 3$",
+        "$y = 2x + 3$",
+        "$y = 0.5x + 1$"
       ],
       "correctIndex": 0,
       "explanation": "y(0) = 3. u' = 1, v' = 1. $\\frac{dy}{dx}$ = [(x+1) - (x+3)] / (x+1)$^2$ = -2 / (x+1)$^2$. At x=0, m = -2. Normal gradient = 0.5. y - 3 = 0.5x.\n\n**Common mistake:** Using the tangent gradient (-2) instead of the normal gradient (0.5)."

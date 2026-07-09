@@ -11,7 +11,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q1",
       "type": "mcq",
-      "question": "A point moves along the curve $y = x^3$. If the $x$. $0.5$ units per second, find the rate of change of $y$. So $x = 2$.",
+      "question": "A point moves along the curve $y = x^3$. If $x$ increases at $0.5$ units per second, find the rate of change of $y$ when $x = 2$.",
       "options": [
         "$6$ units/s",
         "$12$ units/s",
@@ -24,15 +24,15 @@
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q2",
       "type": "mcq",
-      "question": "The radius of a circle is increasing at a constant rate of^2 cm/s. Find the rate of increase of the area when the radius is $1$ cm.",
+      "question": "The radius of a circle is increasing at a constant rate of 2 cm/s. Find the rate of increase of the area when the radius is $1$ cm.",
       "options": [
-        "$40\\pi . ^2$/s",
-        "$20\\pi . ^2$/s",
-        "$100\\pi . ^2$/s",
-        "$4\\pi . ^2$/s"
+        "$40\\pi$ cm^2/s",
+        "$20\\pi$ cm^2/s",
+        "$100\\pi$ cm^2/s",
+        "$4\\pi$ cm^2/s"
       ],
       "correctIndex": 0,
-      "explanation": "$A = \\pi r^2 \\implies \\frac{dA}{dr} = 2\\pi r$. So $\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt}$, we get $2\\pi(10) \\times 2 = 40\\pi$.\n\n**Common mistake:** Option B is chosen if the student forgets the factor of^2 in the derivative of the area or the rate of increase of the radius."
+      "explanation": "$A = \\pi r^2 \\implies \\frac{dA}{dr} = 2\\pi r$. So $\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt}$, we get $2\\pi(10) \\times 2 = 40\\pi$.\n\n**Common mistake:** Option B is chosen if the student forgets the factor of 2 in the derivative of the area or the rate of increase of the radius."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q3",
@@ -50,7 +50,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "The side length $s^2 3$ cm/s. Find the rate of increase of the perimeter $P$.",
+      "question": "The side length $s  of a square is increasing at$3$cm/s. Find the rate of increase of the perimeter P$.",
       "options": [
         "$12$ cm/s",
         "$3$ cm/s",
@@ -63,7 +63,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "A variable $y$ and $x2y = 5x + 2$. If $x$. $0.4$ units/s, find the rate at which $y$ is increasing.",
+      "question": "A variable $y$ is related to $x$ by $y = 5x + 2$. If $x$ increases at $0.4$ units/s, find the rate at which $y$ is increasing.",
       "options": [
         "2 units/s",
         "$0.4$ units/s",

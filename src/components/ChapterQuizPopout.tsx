@@ -1,4 +1,5 @@
 import { EnlightButton } from '@/components/EnlightButton'
+import { QuizScopeBadge } from '@/components/QuizScopeBadge'
 import type { ChapterMeta } from '@/lib/contentTypes'
 
 interface ChapterQuizPopoutProps {
@@ -23,6 +24,7 @@ export function ChapterQuizPopout({ chapter, onDismiss, onReviewTopics }: Chapte
           <span className="enlight-popout__badge enlight-badge enlight-badge--gold">
             Chapter {chapter.number} complete
           </span>
+          <QuizScopeBadge scope="chapter" />
         </div>
 
         <h2 id="chapter-popout-title" className="enlight-heading-serif enlight-popout__title">
@@ -39,7 +41,7 @@ export function ChapterQuizPopout({ chapter, onDismiss, onReviewTopics }: Chapte
 
         <div className="enlight-popout__actions">
           <EnlightButton to={`/quiz/${chapter.id}/easy`} onClick={onDismiss}>
-            Start Easy quiz →
+            Start chapter quiz (Easy) →
           </EnlightButton>
           <EnlightButton variant="outline" onClick={onReviewTopics}>
             Review topics

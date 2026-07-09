@@ -19,12 +19,12 @@
         "$0.75$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x^n(1) + (x-4)(nx^{n-1}) = x^{n-1}[x + n(x-4)]$. At $x=3, \\frac{dy}{dx}=0 \\implies 3 + n(3-4) = 0 \\implies 3 - n = 0 \\implies n = 3$.\n\n**Common mistake:** Option B results if a student incorrectly sets the derivative of the $x-4$ term to^0 instead of^1."
+      "explanation": "$\\frac{dy}{dx} = x^n(1) + (x-4)(nx^{n-1}) = x^{n-1}[x + n(x-4)]$. At $x=3, \\frac{dy}{dx}=0 \\implies 3 + n(3-4) = 0 \\implies 3 - n = 0 \\implies n = 3$.\n\n**Common mistake:** Option B results if a student incorrectly sets the derivative of the $x-4$ term to^0 instead of $1$."
     },
     {
       "id": "12-3-the-product-rule-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Find the $x$. So $y = x^2\\sqrt{12 - x}$ for $x < 12$.",
+      "question": "Find the when $y = x^2\\sqrt{12 - x}$ for $x < 12$.",
       "options": [
         "$9.6$",
         "$8$",
@@ -32,7 +32,7 @@
         "$4.8$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x^2[\\frac{-1}{2\\sqrt{12-x}}] + 2x\\sqrt{12-x} = \\frac{-x^2 + 4x(12-x)}{2\\sqrt{12-x}} = \\frac{48x - 5x^2}{2\\sqrt{12-x}}$. $x(48-5x)=0 \\implies x=9.6$.\n\n**Common mistake:** Option B occurs if the student forgets the factor of^2 from the square root derivative when finding the common denominator."
+      "explanation": "$\\frac{dy}{dx} = x^2[\\frac{-1}{2\\sqrt{12-x}}] + 2x\\sqrt{12-x} = \\frac{-x^2 + 4x(12-x)}{2\\sqrt{12-x}} = \\frac{48x - 5x^2}{2\\sqrt{12-x}}$. $x(48-5x)=0 \\implies x=9.6$.\n\n**Common mistake:** Option B occurs if the student forgets the factor of 2 from the square root derivative when finding the common denominator."
     },
     {
       "id": "12-3-the-product-rule-harder-topic-hard-q3",

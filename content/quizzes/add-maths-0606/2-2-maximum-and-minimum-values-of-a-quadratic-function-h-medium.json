@@ -11,7 +11,7 @@
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q1",
       "type": "mcq",
-      "question": "Find the minimum value of the quadratic function y= x^{2}-8x+20.",
+      "question": "Find the minimum value of the quadratic function y= $x^{2}-8x+20$.",
       "options": [
         "4",
         "8",
@@ -19,20 +19,20 @@
         "16"
       ],
       "correctIndex": 0,
-      "explanation": "The x-coordinate of the vertex is x=-b/2a=8/2=4. Substituting x=4 into the function: y= $4^{2}$-8(4)+20=16-32+20=4.\n\n**Common mistake:** Finding the x-coordinate of the vertex (4) but forgetting to substitute it back into the function to find the actual minimum value."
+      "explanation": "The x-coordinate of the vertex is x=-b/2a=8/2=4. Substituting x=4 into the function: y= $4^{2}-8(4)+20=16-32+20=4$.\n\n**Common mistake:** Finding the x-coordinate of the vertex (4) but forgetting to substitute it back into the function to find the actual minimum value."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q2",
       "type": "mcq",
-      "question": "By completing the square, find the vertex of f(x)= x^{2}+6x-1.",
+      "question": "By completing the square, find the vertex of $f(x)= x^{2}+6x-1$.",
       "options": [
-        "(-3, -10)",
-        "(3, -10)",
-        "(-3, 8)",
-        "(3, 8)"
+        "$(-3, -10)$",
+        "$(3, -10)$",
+        "$(-3, 8)$",
+        "$(3, 8)$"
       ],
       "correctIndex": 0,
-      "explanation": "$x^{2}$+6x-1= (x+3)^{2}-9-1= (x+3)^{2}-10. The vertex is (-3,-10).\n\n**Common mistake:** Arithmetic errors during completion of the square, such as adding (b/2$)^{2}$instead of subtracting it from the constant term."
+      "explanation": "$x^{2}+6x-1= (x+3)^{2}-9-1= (x+3)^{2}-10. The vertex is (-3,-10)$.\n\n**Common mistake:** Arithmetic errors during completion of the square, such as adding (b/$2)^{2}instead$ of subtracting it from the constant term."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q3",
@@ -63,11 +63,11 @@
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-medium-q5",
       "type": "mcq",
-      "question": "Find the range of the function f(x)= (x-1)^{2}+3 for all real values of x.",
+      "question": "Find the range of the function $f(x)=(x-1)^{2}+3$ for all real values of x.",
       "options": [
-        "f(x)≥3",
-        "f(x)≥1",
-        "f(x)≤3",
+        "$f(x)≥3$",
+        "$f(x)≥1$",
+        "$f(x)≤3$",
         "f(x)∈R"
       ],
       "correctIndex": 0,

@@ -35,7 +35,7 @@
     {
       "id": "ch16-kinematics-q3",
       "type": "mcq",
-      "question": "A particle $P$ travels in a straight line so that its acceleration $a$ m s⁻² at time $t$ seconds is given by $a = 4 - 2t$. Given that $P$ passes a fixed point $O$ with velocity 12 m s⁻¹, find the set of values of $t$ for which the velocity is increasing.",
+      "question": "A particle $P$ travels in a straight line so that its acceleration $a$ m s ^{-2} at time $t$ seconds is given by $a = 4 - 2t$. Given that $P$ passes a fixed point $O$ with velocity $12$ m s ^{-1}$, find the set of values of t$ for which the velocity is increasing$$.",
       "options": [
         "$0 \\le t < 2$",
         "$t > 2$",
@@ -50,13 +50,13 @@
       "type": "mcq",
       "question": "An object moves along a straight line path with a velocity defined by $v = t^2 - 8t + 12$ m s⁻¹. Find the acceleration of the object at the instant when it passes through the fixed origin $O$ for the first time after $t = 0$, given $s = -9$ at $t = 0$.",
       "options": [
-        "-2 m s⁻²",
-        "2 m s⁻²",
-        "-4 m s⁻²",
-        "4 m s⁻²"
+        "-2 m s⁻^2",
+        "2 m s⁻^2",
+        "-4 m s⁻^2",
+        "4 m s⁻^2"
       ],
       "correctIndex": 0,
-      "explanation": "Displacement is $s = \\frac{1}{3}t^3 - 4t^2 + 12t - 9$. Passing through the origin means $s = 0 \\implies \\frac{1}{3}t^3 - 4t^2 + 12t - 9 = 0$. Factoring reveals $t = 3$ is a root ($9 - 36 + 36 - 9 = 0$). Acceleration is $a = 2t - 8$. At $t = 3$, $a = 2(3) - 8 = -2$ m s⁻².\n\n**Common mistake:** Option C occurs if the student calculates acceleration at the first stationary point of displacement where velocity is zero ($t = 2$), giving $2(2) - 8 = -4$."
+      "explanation": "Displacement is $s = \\frac{1}{3}t^3 - 4t^2 + 12t - 9$. Passing through the origin means $s = 0 \\implies \\frac{1}{3}t^3 - 4t^2 + 12t - 9 = 0$. Factoring reveals $t = 3$ is a root ($9 - 36 + 36 - 9 = 0$). Acceleration is $a = 2t - 8$. At $t = 3$, $a = 2(3) - 8 = -2$ m s⁻^2.\n\n**Common mistake:** Option C occurs if the student calculates acceleration at the first stationary point of displacement where velocity is zero ($t = 2$), giving $2(2) - 8 = -4$."
     }
   ]
 }

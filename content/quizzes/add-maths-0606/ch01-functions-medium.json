@@ -9,7 +9,7 @@
     {
       "id": "ch01-functions-q1",
       "type": "mcq",
-      "question": "Find the inverse function $f^{-1}(x) for f(x) = \\frac{2x + 3}{x - 1} where x\n\n$$\neq 12\n",
+      "question": "Find the inverse function $f^{-1}(x) for f(x) = \\frac{2x + 3}{x - 1} where x eq 12$",
       "options": [
         "$f^{-1}(x) = \\frac{x + 3}{x - 2}$",
         "$f^{-1}(x) = \\frac{x - 3}{x + 2}$",
@@ -17,7 +17,7 @@
         "$f^{-1}(x) = \\frac{x + 3}{2 - x}$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearrange $y = \\frac{2x + 3}{x - 1}$ to solve for $x$: $yx - y = 2x + 3 \\implies x(y - 2) = y + 3 \\implies x = \\frac{y + 3}{y - 2}$. Swapping variables gives f^{-1}(x) = \\frac{x + 3}{x - 2}2\n\n**Common mistake:** Students often make sign errors when grouping terms containing the variable on one side, resulting in incorrect choices like $\\frac{x - 3}{x + 2}$."
+      "explanation": "Rearrange $y = \\frac{2x + 3}{x - 1}$ to solve for $x$: $yx - y = 2x + 3 \\implies x(y - 2) = y + 3 \\implies x = \\frac{y + 3}{y - 2}$. Swapping variables gives $f^{-1}(x) = \\frac{x + 3}{x - 2}2$\n\n**Common mistake:** Students often make sign errors when grouping terms containing the variable on one side, resulting in incorrect choices like $\\frac{x - 3}{x + 2}$."
     },
     {
       "id": "ch01-functions-q2",
@@ -48,7 +48,7 @@
     {
       "id": "ch01-functions-q4",
       "type": "mcq",
-      "question": "The function $f(x) = x^2 - 4x + 7$ is defined for $x \\ge k$. In order for the inverse function f^{-1}(x)$to exist, find the least possible value of the constant k2$",
+      "question": "The function $f(x) = x^2 - 4x + 7$ is defined for $x \\ge k$. In order for the inverse function $f^{-1}(x)$ to exist, find the least possible value of the constant k2",
       "options": [
         "2",
         "$4$",
@@ -56,12 +56,12 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "For an inverse function to exist, $f(x)$ must be one-to-one. Completing the square gives $f(x) = (x - 2)² + 3$, showing the axis of symmetry is at $x = 2$. Thus, the domain must be restricted to $x \\ge 2$, making the least value of $k = 2$.\n\n**Common mistake:** Students often pick the constant value^7 or the linear coefficient^4 without finding the vertex or the line of symmetry of the parabola."
+      "explanation": "For an inverse function to exist, $f(x)$ must be one-to-one. Completing the square gives $f(x) = (x - 2)^2 + 3$, showing the axis of symmetry is at $x = 2$. Thus, the domain must be restricted to $x \\ge 2$, making the least value of $k = 2$.\n\n**Common mistake:** Students often pick the constant value^7 or the linear coefficient^4 without finding the vertex or the line of symmetry of the parabola."
     },
     {
       "id": "ch01-functions-q5",
       "type": "mcq",
-      "question": "Given $f(x) = \\frac{4}{x} for x\n\n$$\neq 0, find the expression for the composite function f^2(x)^{2}\n",
+      "question": "Given $f(x) = \\frac{4}{x} for x eq 0$, find the expression for the composite function f^2(x)^{2}",
       "options": [
         "$x$",
         "$\\frac{16}{x}$",
@@ -69,7 +69,7 @@
         "$\\frac{x}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "The notation $f^2(x)$ means $ff(x)$. Substituting $f(x)$ into itself gives $f\\left(\\frac{4}{x}\\right) = \\frac{4}{\\frac{4}{x}} = x$.\n\n**Common mistake:** Students often misinterpret $f^2(x)$ as squaring the entire expression $[f(x)]²$, which incorrectly leads to $\\frac{16}{x^2}$."
+      "explanation": "The notation $f^2(x)$ means $ff(x)$. Substituting $f(x)$ into itself gives $f\\left(\\frac{4}{x}\\right) = \\frac{4}{\\frac{4}{x}} = x$.\n\n**Common mistake:** Students often misinterpret $f^2(x)$ as squaring the entire expression $[f(x)]^2$, which incorrectly leads to $\\frac{16}{x^2}$."
     }
   ]
 }

@@ -24,12 +24,12 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Find the equation of the normal to the curve $y = \\ln x$. So $x = e$.",
+      "question": "Find the equation of the normal to the curve $y = \\ln x$ at the point where $x = e$.",
       "options": [
-        "y = -ex + e^2 + 1",
-        "y = (1/e)x",
-        "y = -ex + 1",
-        "y = ex - 1"
+        "$y = -ex + e^2 + 1$",
+        "$y = (1/e)x$",
+        "$y = -ex + 1$",
+        "$y = ex - 1$"
       ],
       "correctIndex": 0,
       "explanation": "y(e) = 1. $\\frac{dy}{dx}$ = 1/x, so tangent m = 1/e. Normal m = -e. Equation: y - 1 = -e(x - e) => y = -ex + e^2 + 1.\n\n**Common mistake:** Using the tangent gradient 1/e for the normal equation."
@@ -37,7 +37,7 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Determine the nature of the stationary point of $y = \\sin x + \\cos x$. $0 < x < \\pi$.",
+      "question": "Determine the nature of the stationary point of $y = \\sin x + \\cos x$ for $0 < x < \\pi$.",
       "options": [
         "Maximum at x = π/4",
         "Minimum at x = π/4",
@@ -63,15 +63,15 @@
     {
       "id": "14-4-further-applications-of-differentiation-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Find the approximate change in $y = e^x$ and $x$ increases from 2 to 2.01.",
+      "question": "Find the approximate change in $y = e^x$ when $x$ increases from $2$ to $2.01$.",
       "options": [
-        "0.01e^2",
-        "e^2",
-        "0.01",
-        "0.1e^2"
+        "$0.01e^2$",
+        "$e^2$",
+        "$0.01$",
+        "$0.1e^2$"
       ],
       "correctIndex": 0,
-      "explanation": "δy ≈ ($\\frac{dy}{dx}) δx$. $2\\frac{dy}{dx}$ = e^x. At x=2, $\\frac{dy}{dx}$ = e^2. δx = 0.01. δy ≈ 0.01e^2.\n\n**Common mistake:** Substituting the increment directly into the original function."
+      "explanation": "$\\delta y \\approx \\frac{dy}{dx}\\,\\delta x$. $\\frac{dy}{dx} = e^x$. At $x = 2$, $\\frac{dy}{dx} = e^2$. With $\\delta x = 0.01$, $\\delta y \\approx 0.01e^2$.\n\n**Common mistake:** Substituting the increment directly into the original function."
     }
   ]
 }

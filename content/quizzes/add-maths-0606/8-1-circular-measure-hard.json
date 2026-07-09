@@ -19,7 +19,7 @@
         "$\\frac{2\\pi}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "Total parts $= 15$. Largest part $= 6/15$. Sum of angles $= 2\\pi . = \\frac{6}{15} \\times 2\\pi = \\frac{2}{5} \\times 2\\pi = \\frac{4\\pi}{5}$.\n\n**Common mistake:** Using $\\pi^2 2\\pi$ (sum of quadrilateral) for the calculation."
+      "explanation": "Total parts $= 15$. Largest angle $= \\frac{6}{15}$ of the quadrilateral sum. Sum of angles $= 2\\pi$, so largest $= \\frac{6}{15} \\times 2\\pi = \\frac{4\\pi}{5}$.\n\n**Common mistake:** Using $\\pi$ instead of $2\\pi$ as the quadrilateral angle sum."
     },
     {
       "id": "8-1-circular-measure-hard-q2",
@@ -32,7 +32,7 @@
         "$\\frac{4\\pi}{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "Sum of exterior angles is $2\\pi^2 So \\frac{2\\pi}{10} = \\frac{\\pi}{5}$.\n\n**Common mistake:** Calculating the interior angle ($4\\pi/5$) or dividing $\\pi^2 2\\pi$."
+      "explanation": "Sum of exterior angles is $2\\pi$. For a regular decagon, each exterior angle $= \\frac{2\\pi}{10} = \\frac{\\pi}{5}$.\n\n**Common mistake:** Finding the interior angle ($\\frac{4\\pi}{5}$) or dividing by $5$ instead of $10$."
     },
     {
       "id": "8-1-circular-measure-hard-q3",
@@ -45,7 +45,7 @@
         "$4\\pi$"
       ],
       "correctIndex": 0,
-      "explanation": "15 revs/min $= 0.25$ revs/sec. In 4 seconds, it does $0.25 \\times 4 = 1$ revolution. 1 revolution $= 2\\pi  radians.$\n\n**Common mistake:** Failing to convert minutes to seconds correctly, or using \\pi for a full revolution."
+      "explanation": "15 rev/min $= 0.25$ rev/s. In 4 seconds: $1$ revolution $= 2\\pi$ radians.\n\n**Common mistake:** Failing to convert minutes to seconds, or using $\\pi$ for one full revolution."
     },
     {
       "id": "8-1-circular-measure-hard-q4",
@@ -58,12 +58,12 @@
         "$\\frac{\\pi}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "Acute angles in a right-angled triangle sum to $\\frac{\\pi}{2}$. Other angle $= \\frac{\\pi}{2} - \\frac{\\pi}{8} = \\frac{4\\pi}{8} - \\frac{\\pi}{8} = \\frac{3\\pi}{8}$.\n\n**Common mistake:** Subtracting from $\\pi  and 90^\\circ$ ($\\pi/2$)) angle."
+      "explanation": "Acute angles in a right-angled triangle sum to $\\frac{\\pi}{2}$. Other angle $= \\frac{\\pi}{2} - \\frac{\\pi}{8} = \\frac{3\\pi}{8}$.\n\n**Common mistake:** Subtracting from $\\pi$ or $90^\\circ$ instead of $\\frac{\\pi}{2}$."
     },
     {
       "id": "8-1-circular-measure-hard-q5",
       "type": "mcq",
-      "question": "An angle $\\theta$ satisfies $\\sin \\theta = 0.5 where \\frac{\\pi}{2} < \\theta < \\pi^2 Find \\theta in radians.$",
+      "question": "An angle $\\theta$ satisfies $\\sin \\theta = 0.5$ where $\\frac{\\pi}{2} < \\theta < \\pi$. Find $\\theta$ in radians.",
       "options": [
         "$\\frac{5\\pi}{6}$",
         "$\\frac{\\pi}{6}$",
@@ -71,7 +71,7 @@
         "$\\frac{3\\pi}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "The reference angle is $\\frac{\\pi}{6}$ (where $\\sin = 0.5$). In the second quadrant, $\\theta = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$.\n\n**Common mistake:** Providing the first quadrant angle ($\\pi/6$) and ignoring the range constraint."
+      "explanation": "Reference angle is $\\frac{\\pi}{6}$. In the second quadrant, $\\theta = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$.\n\n**Common mistake:** Giving the first-quadrant angle $\\frac{\\pi}{6}$ and ignoring the range."
     }
   ]
 }

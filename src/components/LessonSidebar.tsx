@@ -3,7 +3,8 @@ import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { useMastery } from '@/features/mastery/MasteryContext'
-import { getTopicsForChapter, getTopicSectionLabel } from '@/lib/contentLoader'
+import { getChapter, getTopicsForChapter, getTopicSectionLabel } from '@/lib/contentLoader'
+import { QuizScopeBadge } from '@/components/QuizScopeBadge'
 import type { TopicMeta } from '@/lib/contentTypes'
 
 const QUIZ_TIERS = ['Easy', 'Medium', 'Hard', 'PYP'] as const
@@ -18,9 +19,12 @@ interface LessonSidebarProps {
 }
 
 export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: LessonSidebarProps) {
-  const { isNotesRead, getTopicQuizLevel } = useMastery()
+  const { isNotesRead, getTopicQuizLevel, areChapterNotesComplete } = useMastery()
   const chapterTopics = getTopicsForChapter(topic.chapterId)
+  const chapter = getChapter(topic.chapterId)
   const quizLevel = getTopicQuizLevel(topic.id)
+  const chapterNotesComplete = areChapterNotesComplete(topic.chapterId)
+  const showChapterQuiz = Boolean(chapter?.hasChapterQuiz && chapterNotesComplete)
 
   return (
     <aside className="enlight-lesson-sidebar">
@@ -50,8 +54,8 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
       </nav>
       <div className="enlight-lesson-sidebar__tools">
         <div
-          className="enlight-checklist"
-          aria-label={`Quiz tiers: ${quizLevel} of 4 complete (Easy, Medium, Hard, PYP)`}
+          className="enlight-checklist enlight-checklist--section"
+          aria-label={`Section quiz tiers: ${quizLevel} of 4 complete (Easy, Medium, Hard, PYP)`}
         >
           <div className="enlight-checklist__steps" aria-hidden>
             {QUIZ_TIERS.map((tier, i) => (
@@ -63,9 +67,18 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
             ))}
           </div>
           <span className="enlight-checklist__count" title="Easy → Medium → Hard → PYP">
-            Quiz {quizLevel}/4
+            Section quiz {quizLevel}/4
           </span>
         </div>
+        {showChapterQuiz && (
+          <Link
+            to={`/quiz/${topic.chapterId}/easy`}
+            className="enlight-lesson-sidebar__chapter-quiz"
+          >
+            <QuizScopeBadge scope="chapter" />
+            <span>End-of-chapter review</span>
+          </Link>
+        )}
       </div>
       {keyFormula ? (
         <div className="enlight-lesson-sidebar__panel enlight-lesson-sidebar__panel--formula">

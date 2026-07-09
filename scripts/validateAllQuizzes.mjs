@@ -18,6 +18,7 @@ let patternChecked = 0
 
 function walkJson(dir) {
   for (const name of fs.readdirSync(dir)) {
+    if (name === '_deprecated') continue
     const p = path.join(dir, name)
     if (fs.statSync(p).isDirectory()) walkJson(p)
     else if (name.endsWith('.json')) {

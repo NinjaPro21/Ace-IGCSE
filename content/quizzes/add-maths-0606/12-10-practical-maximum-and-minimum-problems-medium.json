@@ -19,7 +19,7 @@
         "1 and 11"
       ],
       "correctIndex": 0,
-      "explanation": "$P = x(12-x) = 12x - x^2$. $dP/dx = 12 - 2x = 0 \\implies x = 6$. The numbers are 6 and $12-6=6$.\n\n**Common mistake:** Choosing numbers that sum to 12 but are not equal, which always results in a smaller product."
+      "explanation": "$P = x(12-x) = 12x - x^2$. $dP/dx = 12 -$x$= 0 \\implies x = 6$. The numbers are 6 and $12-6=6$.\n\n**Common mistake:** Choosing numbers that sum to 12 but are not equal, which always results in a smaller product."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-medium-q2",

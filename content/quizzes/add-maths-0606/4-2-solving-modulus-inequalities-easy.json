@@ -13,10 +13,10 @@
       "type": "mcq",
       "question": "Solve the inequality $|x| < 5$.",
       "options": [
-        "-5 < x < 5",
-        "x < 5",
-        "x < -5 or x > 5",
-        "x > -5"
+        "$-5 < x < 5$",
+        "$x < 5$",
+        "$x < -5 or x > 5$",
+        "$x > -5$"
       ],
       "correctIndex": 0,
       "explanation": "By definition, $|x| < k$. $-k < x < k$.\n\n**Common mistake:** Students often only consider the positive case, providing $x < 5$ as the complete solution."
@@ -26,23 +26,23 @@
       "type": "mcq",
       "question": "Find the range of values of x that satisfy $|x - 2| \\le 3$.",
       "options": [
-        "-1 \\le x \\le 5",
-        "x \\le 5",
-        "1 \\le x \\le 5",
-        "-5 \\le x \\le -1"
+        "$-1 \\le x \\le 5$",
+        "$x \\le 5$",
+        "$1 \\le x \\le 5$",
+        "$-5 \\le x \\le -1$"
       ],
       "correctIndex": 0,
-      "explanation": "$-3 \\le x - 2 \\le 3$. Adding 2 to all parts gives $-1 \\le x \\le 5$.\n\n**Common mistake:** Arithmetic errors when adding 2 to the negative bound, often resulting in $-5$ instead of $-1$."
+      "explanation": "$-3 \\le x - 2 \\le 3$ becomes $-1 \\le x \\le 5$ when   is added to each part.\n\n**Common mistake:** Arithmetic errors when adding 2 to the negative bound, often resulting in $-5$ instead of $-1$."
     },
     {
       "id": "4-2-solving-modulus-inequalities-easy-q3",
       "type": "mcq",
       "question": "Solve the inequality $|x + 4| > 2$.",
       "options": [
-        "x > -2 or x < -6",
-        "-6 < x < -2",
-        "x > 2 or x < -6",
-        "x > -2 only"
+        "$x > -2 or x < -6$",
+        "$-6 < x < -2$",
+        "$x > 2 or x < -6$",
+        "$x > -2 only$"
       ],
       "correctIndex": 0,
       "explanation": "Either $x + 4 > 2 \\implies x > -2$ or $x + 4 < -2 \\implies x < -6$.\n\n**Common mistake:** Incorrectly combining the two separate regions into a single compound inequality like $-6 < x < -2$."
@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "Determine the solution set for $|2x| \\ge 8$.",
       "options": [
-        "x \\ge 4 or x \\le -4",
-        "-4 \\le x \\le 4",
-        "x \\ge 4 only",
-        "x \\le 4"
+        "$x \\ge 4 or x \\le -4$",
+        "$-4 \\le x \\le 4$",
+        "$x \\ge 4 only$",
+        "$x \\le 4$"
       ],
       "correctIndex": 0,
       "explanation": "Divide by 2: $|x| \\ge 4$, which means $x \\ge 4$ or $x \\le -4$.\n\n**Common mistake:** Neglecting the negative region ($x \\le -4$) because modulus results are typically positive."
@@ -66,8 +66,8 @@
       "question": "Identify the set of values of x for which $|x + 1| < 0$.",
       "options": [
         "No solution",
-        "x < -1",
-        "x > -1",
+        "$x < -1$",
+        "$x > -1$",
         "x = -1"
       ],
       "correctIndex": 0,

@@ -50,10 +50,10 @@
       "type": "mcq",
       "question": "A sector of a circle, centre $O$, has radius $r\\text{ cm}$ and angle $\\theta\\text{ radians}$. Given that the area of the sector is $A\\text{ cm}^2$ and its perimeter is $P\\text{ cm}$, show that $P = 2r + \\frac{2A}{r}$. Hence, find the value of $r$, in terms of $A$, for which $P$ is stationary.",
       "options": [
-        "$$\n\\sqrt{A}\n",
+        "$\\sqrt{A}$",
         "2\\sqrt{A}",
-        "$$\n\\frac{A}{2}\n",
-        "$$\n\\sqrt{2A}\n"
+        "$\\frac{A}{2}$",
+        "$\\sqrt{2A}$"
       ],
       "correctIndex": 0,
       "explanation": "Area $A = \\frac{1}{2}r^2\\theta \\implies r\\theta = \\frac{2A}{r}$. Substitute this into the perimeter equation $P = 2r + r\\theta$ to get $P = 2r + \\frac{2A}{r}$. Differentiating gives $\\frac{dP}{dr} = 2 - \\frac{2A}{r^2} = 0 \\implies r^2 = A \\implies r = \\sqrt{A}$.\n\n**Common mistake:** Students frequently make mistakes during the differentiation of the fraction term $\\frac{2A}{r}$, changing its sign incorrectly or forgetting the square power."
@@ -74,7 +74,7 @@
         {
           "id": "ch08-circular-measure-q5",
           "type": "mcq",
-          "question": "Convert an angle of $90^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "question": "Convert an angle of $90^\\circ$ strictly into radians, expressing your answer in terms of $\\pi.",
           "options": [
             "$$\n\\frac{1}{2}\\pi\n",
             "$$\n\\frac{2}{3}\\pi\n",
@@ -82,12 +82,12 @@
             "\\pi"
           ],
           "correctIndex": 0,
-          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi$."
+          "explanation": "$90 \\times \\frac{\\pi}{180} = \\frac{1}{2}\\pi."
         },
         {
           "id": "ch08-circular-measure-q5",
           "type": "mcq",
-          "question": "Convert an angle of $120^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "question": "Convert an angle of $120^\\circ$ strictly into radians, expressing your answer in terms of $\\pi.",
           "options": [
             "$$\n\\frac{2}{3}\\pi\n",
             "$$\n\\frac{5}{6}\\pi\n",
@@ -95,12 +95,12 @@
             "$$\n\\frac{4}{3}\\pi\n"
           ],
           "correctIndex": 0,
-          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi$."
+          "explanation": "$120 \\times \\frac{\\pi}{180} = \\frac{2}{3}\\pi."
         },
         {
           "id": "ch08-circular-measure-q5",
           "type": "mcq",
-          "question": "Convert an angle of $60^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "question": "Convert an angle of $60^\\circ$ strictly into radians, expressing your answer in terms of $\\pi.",
           "options": [
             "$$\n\\frac{1}{3}\\pi\n",
             "$$\n\\frac{1}{2}\\pi\n",
@@ -108,12 +108,12 @@
             "$$\n\\frac{2}{3}\\pi\n"
           ],
           "correctIndex": 0,
-          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi$."
+          "explanation": "$60 \\times \\frac{\\pi}{180} = \\frac{1}{3}\\pi."
         },
         {
           "id": "ch08-circular-measure-q5",
           "type": "mcq",
-          "question": "Convert an angle of $150^\\circ$ strictly into radians, expressing your answer in terms of $\\pi$.",
+          "question": "Convert an angle of $150^\\circ$ strictly into radians, expressing your answer in terms of $\\pi.",
           "options": [
             "$$\n\\frac{5}{6}\\pi\n",
             "\\pi",
@@ -121,7 +121,7 @@
             "$$\n\\frac{5}{3}\\pi\n"
           ],
           "correctIndex": 0,
-          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi$."
+          "explanation": "$150 \\times \\frac{\\pi}{180} = \\frac{5}{6}\\pi."
         }
       ]
     }

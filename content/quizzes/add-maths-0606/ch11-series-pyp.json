@@ -22,7 +22,7 @@
     {
       "id": "ch11-series-q2",
       "type": "mcq",
-      "question": "The first term of an arithmetic progression is $p  and the common difference is 3. The sum of the first 12 terms is 294. Hence, find the value of p$.",
+      "question": "The first term of an arithmetic progression is $p  and the common difference is 3$. The sum of the first 12 terms is 294. Hence, find the value of p.",
       "options": [
         "8",
         "12",
@@ -50,10 +50,10 @@
       "type": "mcq",
       "question": "Show that the infinite geometric series $3 + 1 + \\frac{1}{3} + \\dots$ converges, and find its sum to infinity.",
       "options": [
-        "$$\n\\frac{9}{2}\n",
-        "$$\n\\frac{9}{4}\n",
+        "$\\frac{9}{2}$",
+        "$\\frac{9}{4}$",
         "4",
-        "$$\n\\frac{3}{2}\n"
+        "$\\frac{3}{2}$"
       ],
       "correctIndex": 0,
       "explanation": "The first term is $a = 3$ and the common ratio is $r = \\frac{1}{3}$. Since $|r| < 1$, the series converges. Its sum to infinity is $S_{\\infty} = \\frac{3}{1 - 1/3} = \\frac{3}{2/3} = \\frac{9}{2}$.\n\n**Common mistake:** Students often calculate the denominator as $1 + r$ instead of $1 - r$, resulting in $\\frac{3}{1 + 1/3} = \\frac{3}{4/3} = \\frac{9}{4}$."
@@ -66,10 +66,10 @@
         "5",
         "4",
         "2",
-        "$$\n\\frac{1}{5}\n"
+        "$\\frac{1}{5}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let the AP have first term $a$ and common difference $d$. The terms are $u_1 = a$, $u_5 = a + 4d$, and $u_{25} = a + 24d$. Since these form a GP, $\\frac{a+4d}{a} = \\frac{a+24d}{a+4d} \\implies (a+4d)^2 = a(a+24d) \\implies a^2 + 8ad + 16d^2 = a^2 + 24ad \\implies 16d^2 = 16ad$. Since $d$\neq 0$,$d = a$. Then the ratio r = \\frac{a+4d}{a} = \\frac{a+4a}{a} = 52$\n\n**Common mistake:** Students commonly make errors when expanding the brackets or assume the ratio is simply the ratio of the indices $\\frac{25}{5} = 5$ through luck without rigorous proof, or miscalculate the differences as $5d$ and $25d$ yielding 4."
+      "explanation": "Let the AP have first term $a$ and common difference $d$. The terms are $u_1 = a$, $u_5 = a + 4d$, and $u_{25} = a + 24d$. Since these form a GP, $\\frac{a+4d}{a} = \\frac{a+24d}{a+4d} \\implies (a+4d)^2 = a(a+24d) \\implies a^2 + 8ad + 16d^2 = a^2 + 24ad \\implies 16d^2 = 16ad$. Since $d$\neq $0,d$ = a$. Then the ratio r = \\frac{a+4d}{a} = \\frac{a+4a}{a} = 52$\n\n**Common mistake:** Students commonly make errors when expanding the brackets or assume the ratio is simply the ratio of the indices $\\frac{25}{5} = 5$ through luck without rigorous proof, or miscalculate the differences as $5d$ and $25d$ yielding 4."
     }
   ]
 }

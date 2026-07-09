@@ -272,10 +272,10 @@
       "type": "mcq",
       "question": "Find the midpoint of the line segment joining $(-2, 7)$ and $(4, 3)$.",
       "options": [
-        "(1, 5)",
-        "(3, 5)",
-        "(-1, 5)",
-        "(1, 10)"
+        "$(1, 5)$",
+        "$(3, 5)$",
+        "$(-1, 5)$",
+        "$(1, 10)$"
       ],
       "correctIndex": 0,
       "explanation": "$x = (-2 + 4)/2 = 1$; $y = (7 + 3)/2 = 5$.\n\n**Common mistake:** Subtracting coordinates instead of adding them when finding the average.",
@@ -285,10 +285,10 @@
       "type": "mcq",
       "question": "Line $L_1$ passes through $(0, 4)$ and $(2, 0)$. Find the equation of line $L_2$ which is parallel to $L_1$ and passes through $(3, 5)$.",
       "options": [
-        "y = -2x + 11",
-        "y = 2x - 1",
-        "y = -2x + 5",
-        "y = 0.5x + 3.5"
+        "$y = -2x + 11$",
+        "$y = 2x - 1$",
+        "$y = -2x + 5$",
+        "$y = 0.5x + 3.5$"
       ],
       "correctIndex": 0,
       "explanation": "Gradient of $L_1$ is $(0-4)/(2-0) = -2$. Since parallel, $L_2$ has gradient $-2$. $5 = -2(3) + c \\Rightarrow c = 11$.\n\n**Common mistake:** Using the y-intercept of $L_1$ (4) for $L_2$ instead of calculating the new intercept.",
@@ -309,7 +309,7 @@
     },
     {
       "type": "mcq",
-      "question": "Triangle $OAB$. $O(0,0)$, $A(6,0)$, and $B(2,4)$. Find the length of the median from $B$. $OA$.",
+      "question": "Triangle $OAB$. $O(0,0)$, $A(6,0)$, and $B(2,4)$. Find the length of the median from $B$. $OA.",
       "options": [
         "sqrt(17)",
         "4",
@@ -322,7 +322,7 @@
     },
     {
       "type": "mcq",
-      "question": "Line $L$. $(4, 5)$ and is perpendicular to $y = 2x$. $(k, 2)$ lies on $L$ and $k$.",
+      "question": "Line $L$. $(4, 5)$ and is perpendicular to $y = 2x$. $(k, 2)$ lies on $L$ and $k.",
       "options": [
         "10",
         "6",
@@ -370,7 +370,7 @@
         "$4$ or $-0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply terms by $x(x - 1)$ to clear $tions:$ $4(x - 1) + 3x = 2x(x - 1) \\implies 4x - 4 + 3x = 2x^2 - 2x \\implies 7x - 4 = 2x^2 - 2x$. $2x^2 - 9x + 4 = 0$. Factorising by grouping gives $(2x - 1)(x - 4) = 0$, leading to roots $x = 4$ or $x = 0.5$.\n\n$**Common mistake:** Students often fail to distribute the negative sign properly or drop the variable terms completely during \\frac{1}{a} expansion steps.$"
+      "explanation": "Multiply terms by $x(x - 1)$ to clear $tions:$ $4(x - 1) + 3x = 2x(x - 1) \\implies 4x - 4 + 3x = 2x^2 - 2x \\implies 7x - 4 = 2x^2 - 2x$. $2x^2 - 9x + 4 = 0$. Factorising by grouping gives $(2x - 1)(x - 4) = 0$, leading to roots $x = 4$ or $x = 0.5$.\n\n$**Common mistake:** Students often fail to distribute the negative sign properly or drop the variable terms completely during \\frac{1}{a} expansion steps."
     },
     {
       "id": "ch02-algebra-pyp-q29",
@@ -427,7 +427,7 @@
     {
       "id": "ch02-algebra-pyp-q33",
       "type": "mcq",
-      "question": "A line $y = 2x + c$. So $y = x^2 + 6x + 7$ at exactly one point. Find the value of the constant $c$.",
+      "question": "A line $y = 2x + c$. So $y = x^2 + 6x + 7$ at exactly one point. Find the value of the constant $c.",
       "options": [
         "$3$",
         "$4$",
@@ -435,7 +435,7 @@
         "$-3$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal: $x^2 + 6x + 7 = 2x + c \\implies x^2 + 4x + (7 - c) = 0$. Since there is exactly one point of intersection, the discriminant must equal zero: $\\Delta = b^2 - 4ac = 0 \\implies 4^2 - 4(1)(7 - c) = 0 \\implies 16 - 28 + 4c = 0 \\implies -12 + 4c = 0 \\implies 4c = 12 \\implies c = 3$.\n\n**Common mistake:** Students often lose the bracket when subtracting $4ac$. $16 - 28 - 4c = 0$, which leads to an incorrect sign for $c$."
+      "explanation": "Set the equations equal: $x^2 + 6x + 7 = 2x + c \\implies x^2 + 4x + (7 - c) = 0$. Since there is exactly one point of intersection, the discriminant must equal zero: $\\Delta = b^2 - 4ac = 0 \\implies 4^2 - 4(1)(7 - c) = 0 \\implies 16 - 28 + 4c = 0 \\implies -12 + 4c = 0 \\implies 4c = 12 \\implies c = 3$.\n\n**Common mistake:** Students often lose the bracket when subtracting $4ac$. $16 - 28 - 4c = 0$, which leads to an incorrect sign for $c."
     },
     {
       "type": "mcq",
@@ -733,12 +733,12 @@
         "$x > 20$"
       ],
       "correctIndex": 0,
-      "explanation": "Based on Revision Exercise 8: $3x - x > 19 + 1$, so $2x > 20$, which means $x > 10$.\n\n**Common mistake:** Incorrectly combining the $x$. $4x22x$.",
+      "explanation": "Based on Revision Exercise 8: $3x - x > 19 + 1$, so $2x > 20$, which means $x > 10$.\n\n**Common mistake:** Incorrectly combining the $x$. $4x22x.",
       "id": "ch02-algebra-pyp-q56"
     },
     {
       "type": "mcq",
-      "question": "A car rental firm charges **$30 per day** plus a **flat fee of$. $470** to pay. What is the maximum number of days for which she can rent the car?$",
+      "question": "A car rental firm charges **$30 per day** plus a **flat fee of$. $470** to pay. What is the maximum number of days for which she can rent the car?",
       "options": [
         "7 days",
         "8 days",

@@ -7,6 +7,7 @@ import type { TopicMeta } from '@/lib/contentTypes'
 interface LessonTopBarProps {
   topic: TopicMeta
   chapterTitle: string
+  hasChapterQuiz?: boolean
   fontScale: number
   onFontDecrease: () => void
   onFontIncrease: () => void
@@ -15,6 +16,7 @@ interface LessonTopBarProps {
 export function LessonTopBar({
   topic,
   chapterTitle,
+  hasChapterQuiz = false,
   fontScale,
   onFontDecrease,
   onFontIncrease,
@@ -26,9 +28,15 @@ export function LessonTopBar({
   const quizLevel = getChapterQuizLevel(topic.chapterId)
   const done = notesComplete ? quizLevel : notesReadCount
   const totalSteps = notesComplete ? 4 : Math.max(chapterTopics.length, 1)
-  const checklistLabel = notesComplete ? `Quiz ${done}/4` : `Sections ${done}/${totalSteps}`
+  const checklistLabel = notesComplete
+    ? hasChapterQuiz
+      ? `Chapter quiz ${done}/4`
+      : `Quiz ${done}/4`
+    : `Sections ${done}/${totalSteps}`
   const checklistAria = notesComplete
-    ? `Quiz progress: ${done} of 4 tiers complete`
+    ? hasChapterQuiz
+      ? `Chapter quiz progress: ${done} of 4 tiers complete`
+      : `Quiz progress: ${done} of 4 tiers complete`
     : `Notes progress: ${done} of ${totalSteps} sections read`
 
   const barRef = useRef<HTMLDivElement>(null)

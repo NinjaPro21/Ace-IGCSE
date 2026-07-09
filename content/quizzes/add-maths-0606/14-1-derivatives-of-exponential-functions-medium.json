@@ -19,7 +19,7 @@
         "$x^2 e^x + 2x$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the product rule $u \\frac{dv}{dx} + v \\frac{du}{dx} with u = x^2$ and v = e^x$. So$\\frac{dy}{dx} = x^2(e^x) + e^x(2x) = xe^x$(x + 2)^{2}$\n\n**Common mistake:** Option B is a common error where the student differentiates both parts and multiplies them together, failing to use the product rule correctly."
+      "explanation": "Using the product rule with $u = x^2$ and $v = e^x$: $\\frac{dy}{dx} = x^2 e^x + e^x(2x) = xe^x(x + 2)$.\n\n**Common mistake:** Option B is a common error where the student differentiates both parts and multiplies them together, failing to use the product rule correctly."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-medium-q2",
@@ -64,10 +64,10 @@
       "type": "mcq",
       "question": "Find the derivative of $y = x^2 e^{3x}$.",
       "options": [
-        "x e^{3x}(3x + 2)",
-        "2x e^{3x}",
-        "3x^2 e^{3x}",
-        "x e^{3x}(x+2)"
+        "x $e^{3x}$(3x + 2)",
+        "2x $e^{3x}$",
+        "3x^2 $e^{3x}$",
+        "x $e^{3x}$(x+2)"
       ],
       "correctIndex": 0,
       "explanation": "Product rule: $x^2(3e^{3x}) + e^{3x}(2x) = 3x^2e^{3x} + 2xe^{3x} = xe^{3x}(3x+2)$.\n\n**Common mistake:** Differentiating both terms and multiplying them ($2x \\times 3e^{3x}$).",

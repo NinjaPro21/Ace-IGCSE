@@ -66,9 +66,9 @@
       "question": "The circle $x^2 + y^2 - 4x - 2y - 20 = 0$ is intersected by the line $y = x + 2$. Find the length of the chord produced.",
       "options": [
         "9 units",
-        "$$\n\\sqrt{82} units\n",
+        "$\\sqrt{82} units$",
         "7 units",
-        "$$\n\\sqrt{162} units\n"
+        "$\\sqrt{162} units$"
       ],
       "correctIndex": 0,
       "explanation": "$x^2 + (x+2)^2 - 4x - 2(x+2) - 20 = 0 \\Rightarrow x^2 + x^2 + 4x + 4 - 4x - 2x - 4 - 20 = 0 \\Rightarrow 2x^2 - 2x - 20 = 0 \\Rightarrow x^2 - x - 10 = 0$. Length is $\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} = \\sqrt{2(x_2-x_1)^2} = \\sqrt{2\\Delta/a^2} = \\sqrt{2(1+40)} = \\sqrt{82}$. (Check points $x = (1 \\pm \\sqrt{41})/2$).\n\n**Common mistake:** Calculating the coordinates numerically and rounding too early, leading to an imprecise chord length."

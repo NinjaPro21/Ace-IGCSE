@@ -24,7 +24,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q2",
       "type": "mcq",
-      "question": "Find the $x$. So $y = 12$ and the curve $y = x^2 - 4$.",
+      "question": "Find the $x$-coordinates where the line $y = 12$ intersects the curve $y = x^2 - 4$.",
       "options": [
         "$x = 4$ and $x = -4$",
         "$x = 16$ and $x = -16$",
@@ -50,7 +50,7 @@
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "A line $y = k$. So $y = (x - 2)² + 3$. State the value of $k$.",
+      "question": "The horizontal line $y = k$ is a tangent to the curve $y = (x - 2)^2 + 3$. State the value of $k$.",
       "options": [
         "3",
         "2",
@@ -58,17 +58,17 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "A horizontal tangent to a parabola must pass through its vertex. The vertex of $y = (x - 2)² + 3$ is at $(2, 3)$, so the horizontal line is $y = 3$.\n\n**Common mistake:** Picking the $x$ and $y$-coordinate (3) for the horizontal line equation."
+      "explanation": "A horizontal tangent to a parabola must pass through its vertex. The vertex of $y = (x - 2)^2 + 3$ is at $(2, 3)$, so the horizontal line is $y = 3$.\n\n**Common mistake:** Picking the $x$ and $y$-coordinate (3) for the horizontal line equation."
     },
     {
       "id": "2-6-intersection-of-a-line-and-a-curve-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "Given the line $y = x$. So $y = x^2 - 6$, find the point of intersection in the third quadrant.",
+      "question": "Given the line $y = x$ and the curve $y = x^2 - 6$, find the point of intersection in the third quadrant.",
       "options": [
-        "(-2, -2)",
-        "(-3, -3)",
-        "(3, 3)",
-        "(-2, 2)"
+        "$(-2, -2)$",
+        "$(-3, -3)$",
+        "$(3, 3)$",
+        "$(-2, 2)$"
       ],
       "correctIndex": 0,
       "explanation": "Solve $x^2 - 6 = x \\implies x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0$. The roots are $x = 3$ and $x = -2$. In the third quadrant, $x = -2$ and $y = -2$.\n\n**Common mistake:** Choosing the root $x = -3$ from incorrect factoring or failing to recognize that $y = x$ means coordinates must be identical."

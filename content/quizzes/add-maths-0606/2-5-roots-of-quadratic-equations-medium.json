@@ -11,7 +11,7 @@
     {
       "id": "2-5-roots-of-quadratic-equations-medium-q1",
       "type": "mcq",
-      "question": "Find the possible values of k for which the equation $x^{2}$+kx+36=0 has equal roots.",
+      "question": "Find the possible values of k for which the equation $x^{2}+kx+36=0 has equal roots$.",
       "options": [
         "±12",
         "12 only",
@@ -19,12 +19,12 @@
         "±144"
       ],
       "correctIndex": 0,
-      "explanation": "For equal roots, $b^{2}$-4ac=0. Here, $k^{2}$-4(1)(36)=0 \\implies $k^{2}$=144 \\implies k=±12.\n\n**Common mistake:** Neglecting the negative root (k=-12) is a very common error when solving $k^{2}$=constant."
+      "explanation": "For equal roots, $b^{2}-4ac=0$. Here, $k^{2}-4(1)(36)=0 \\implies k^{2}=144 \\implies k=\\pm 12$.\n\n**Common mistake:** Neglecting the negative root ($k=-12$) is a very common error when solving $k^{2}=\\text{constant}$."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-medium-q2",
       "type": "mcq",
-      "question": "Determine the nature of the roots for the equation 4$x^{2}$-12x+9=0.",
+      "question": "Determine the nature of the roots for the equation $4x^{2}-12x+9=0$.",
       "options": [
         "Two equal real roots",
         "Two distinct real roots",
@@ -37,20 +37,20 @@
     {
       "id": "2-5-roots-of-quadratic-equations-medium-q3",
       "type": "mcq",
-      "question": "Find the range of values of c for which the equation $x^{2}$-10x+c=0 has two distinct real roots.",
+      "question": "Find the range of values of c for which the equation $x^{2}-10x+c=0 has two distinct real roots$.",
       "options": [
         "c<25",
         "c>25",
-        "c≤25",
+        "$c≤25$",
         "c<100"
       ],
       "correctIndex": 0,
-      "explanation": "Δ>0 \\implies $(-10)^{2}$-4(1)c>0 \\implies 100>4c \\implies c<25.\n\n**Common mistake:** Failing to flip the inequality sign or including the 'equal to' case when 'distinct' roots are required."
+      "explanation": "Δ>0 \\implies $(-10)^{2}-4(1)c>0 \\implies 100>4c \\implies c<25$.\n\n**Common mistake:** Failing to flip the inequality sign or including the 'equal to' case when 'distinct' roots are required."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-medium-q4",
       "type": "mcq",
-      "question": "The equation 3$x^{2}$+2x+k=0 has no real roots. Find the smallest integer value that k can take.",
+      "question": "The equation $3x^{2}+2x+k=0$ has no real roots. Find the smallest integer value that k can take.",
       "options": [
         "1",
         "0",
@@ -58,20 +58,20 @@
         "-1"
       ],
       "correctIndex": 0,
-      "explanation": "Δ<0 \\implies $2^{2}$-4(3)k<0 \\implies 4<12k \\implies k>1/3. The smallest integer greater than 1/3 is 1.\n\n**Common mistake:** Solving the inequality incorrectly as k<1/3 or misinterpreting 'smallest integer' as the value of the discriminant."
+      "explanation": "Δ<0 \\implies $2^{2}-4(3)k<0 \\implies 4<12k \\implies k>1/3. The smallest integer greater than 1/3 is 1$.\n\n**Common mistake:** Solving the inequality incorrectly as k<1/3 or misinterpreting 'smallest integer' as the value of the discriminant."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-medium-q5",
       "type": "mcq",
-      "question": "Given that the equation k x^{2}$+8x+4=0 has real roots, find the set of values of k.$",
+      "question": "Given that the equation $kx^2+8x+4=0$ has real roots, find the set of values of k.",
       "options": [
-        "k≤4",
+        "$k≤4$",
         "k<4",
-        "k≥4",
-        "k≤16"
+        "$k≥4$",
+        "$k≤16$"
       ],
       "correctIndex": 0,
-      "explanation": "'Real roots' means Δ≥0. So $8^{2}$-4(k)(4)≥0 \\implies 64-16k≥0 \\implies 16k≤64 \\implies k≤4.\n\n**Common mistake:** Using 'greater than zero' instead of 'greater than or equal to zero' for 'real roots'."
+      "explanation": "'Real roots' means $\\Delta \\ge 0$. So $8^{2}-4(k)(4) \\ge 0 \\implies 64-16k \\ge 0 \\implies 16k \\le 64 \\implies k \\le 4$.\n\n**Common mistake:** Using 'greater than zero' instead of 'greater than or equal to zero' for 'real roots'."
     }
   ]
 }

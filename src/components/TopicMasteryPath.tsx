@@ -34,15 +34,21 @@ interface TopicMasteryPathProps {
   notesComplete: boolean
   /** When false for a tier, that quiz link is hidden (e.g. pending content). */
   quizAvailability?: Partial<Record<Difficulty, boolean>>
+  scope?: 'section'
 }
 
-export function TopicMasteryPath({ topicId, notesComplete, quizAvailability }: TopicMasteryPathProps) {
+export function TopicMasteryPath({
+  topicId,
+  notesComplete,
+  quizAvailability,
+  scope = 'section',
+}: TopicMasteryPathProps) {
   const { progress, canTakeTopicQuiz } = useMastery()
   const topicProgress = progress.topics[topicId]
   const quizLevel = (topicProgress?.quizLevel ?? 0) as import('@/features/mastery/MasteryEngine').MasteryLevel
 
   return (
-    <div className="enlight-mastery-path">
+    <div className={`enlight-mastery-path enlight-mastery-path--${scope}`}>
       {STEPS.map((step, idx) => {
         const isNotes = step.difficulty === 'notes'
         const difficulty = step.difficulty as Difficulty
@@ -59,6 +65,7 @@ export function TopicMasteryPath({ topicId, notesComplete, quizAvailability }: T
             : undefined
         const cls = [
           'enlight-mastery-step',
+          `enlight-mastery-step--${scope}`,
           complete ? 'enlight-mastery-step--complete' : '',
           unlocked ? 'enlight-mastery-step--unlocked' : 'enlight-mastery-step--locked',
         ].join(' ')

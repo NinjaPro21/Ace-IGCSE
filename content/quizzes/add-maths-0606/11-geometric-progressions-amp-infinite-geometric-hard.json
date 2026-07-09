@@ -24,7 +24,7 @@
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-hard-q2",
       "type": "mcq",
-      "question": "A geometric progression is defined by $u_n = 5(0.2)^{n-1}$. Find the sum to infinity of the even-numbered terms only ($u_2 + u_4 + u_6 + ...$).",
+      "question": "A geometric progression is defined by $u_n = 5(0.2)^{n-1}$. Find the sum to infinity of the even-numbered terms only ($u_2 + u_4 + u_6 +$...).",
       "options": [
         "$25/24$",
         "$25/4$",
@@ -50,7 +50,7 @@
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-hard-q4",
       "type": "mcq",
-      "question": "A ball is dropped from a height of^10 m. After each bounce, it reaches^80% of its previous height. Calculate the total distance traveled by the ball until it stops.",
+      "question": "A ball is dropped from a height of 10 m. After each bounce, it reaches^80% of its previous height. Calculate the total distance traveled by the ball until it stops.",
       "options": [
         "$90$ m",
         "$50$ m",
@@ -63,7 +63,7 @@
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-hard-q5",
       "type": "mcq",
-      "question": "The sum of the first $n$. So $S_n = 3^n - 1$. Find an expression for the $n$. $u_n$.",
+      "question": "The sum of the first when $S_n = 3^n - 1$. Find an expression for the $n$. $u_n$.",
       "options": [
         "$2(3^{n-1})$",
         "$3^{n-1}$",
@@ -71,7 +71,7 @@
         "$2(3^n)$"
       ],
       "correctIndex": 0,
-      "explanation": "$u_n = S_n - S_{n-1} = (3^n - 1) - (3^{n-1} - 1) = 3^n - 3^{n-1} = 3^{n-1}(3 - 1) = 2(3^{n-1})$.\n\n**Common mistake:** Option C results from incorrectly assuming $S_n$ and $n th term expression.$"
+      "explanation": "$u_n = S_n - S_{n-1} = (3^n - 1) - (3^{n-1} - 1) = 3^n - 3^{n-1} = 3^{n-1}(3 - 1) = 2(3^{n-1})$.\n\n**Common mistake:** Option C results from incorrectly assuming $S_n$ and $n th term expression$."
     },
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-hard-q6",
@@ -107,7 +107,7 @@
         "Complex Formula Required",
         "100",
         "10",
-        "x^10"
+        "$x^10$"
       ],
       "correctIndex": 0,
       "explanation": "This is a standard method: Multiply S by x and subtract from S. Result is $(1-x)S = 1 + x + x^2 + \\dots + x^9 - 10x^{10}$. Use GP sum formula for the first part.\n\n**Common mistake:** Trying to sum the coefficients and powers separately without using the shift-and-subtract method."
@@ -123,7 +123,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "S₃ = a(r³-1)/(r-1) = 21. Sum of next 3 is S₆ - S₃ = 168 => S₆ = 189. S₆ / S₃ = (r⁶-1)/(r³-1) = r³ + 1. So r³ + 1 = 189/21 = 9 => r³ = 8 => r = 2.\n\n**Common mistake:** Setting S₃ = 168 for the second group of terms instead of using the difference S₆ - S₃."
+      "explanation": "S₃ = a(r^3-1)/(r-1) = 21. Sum of next 3 is S₆ - S₃ = 168 => S₆ = 189. S₆ / S₃ = (r⁶-1)/(r^3-1) = r^3 + 1. So r^3 + 1 = 189/21 = 9 => r^3 = 8 => r = 2.\n\n**Common mistake:** Setting S₃ = 168 for the second group of terms instead of using the difference S₆ - S₃."
     },
     {
       "id": "11-geometric-progressions-amp-infinite-geometric-hard-q10",

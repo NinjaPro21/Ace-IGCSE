@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "Calculate the coordinates of the midpoint of the line segment joining the points (-2,4) and (6,12).",
       "options": [
-        "(2,8)",
-        "(4,16)",
-        "(4,8)",
-        "(2,4)"
+        "$(2,8)$",
+        "$(4,16)$",
+        "$(4,8)$",
+        "$(2,4)$"
       ],
       "correctIndex": 0,
       "explanation": "The midpoint formula is (($x^{1}$\n+$x^{2}$\n)/2,($y^{1}$\n+$y^{2}$\n)/2). Substituting the values gives ((-2+6)/2,(4+12)/2)=(2,8).\n\n**Common mistake:** The student may forget to divide by 2 or subtract the coordinates instead of adding them."
@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "Identify the y-intercept of the line represented by the equation 2x-3y=12.",
       "options": [
-        "(0,-4)",
-        "(0,4)",
-        "(6,0)",
-        "(0,12)"
+        "$(0,-4)$",
+        "$(0,4)$",
+        "$(6,0)$",
+        "$(0,12)$"
       ],
       "correctIndex": 0,
       "explanation": "Setting x=0 in the equation 2x-3y=12 gives -3y=12, which simplifies to y=-4.\n\n**Common mistake:** The student might pick the constant 12 or solve for the x-intercept by setting y=0 instead."

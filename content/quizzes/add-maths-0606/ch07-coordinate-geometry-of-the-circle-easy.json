@@ -9,7 +9,7 @@
     {
       "id": "ch07-coordinate-geometry-of-the-circle-q1",
       "type": "mcq",
-      "question": "Find the equation of a circle with center $(3, -4)$ and radius^5.",
+      "question": "Find the equation of a circle with center $(3, -4)$ and radius $5$.",
       "options": [
         "$(x - 3)^2 + (y + 4)^2 = 25$",
         "$(x + 3)^2 + (y - 4)^2 = 25$",
@@ -24,10 +24,10 @@
       "type": "mcq",
       "question": "Determine the coordinates of the center and the radius of the circle with equation $x^2 + y^2 - 8x + 6y = 0$.",
       "options": [
-        "Center $(4, -3)$, Radius^5",
-        "Center $(-4, 3)$, Radius^5",
-        "Center $(4, -3)$, Radius^25",
-        "Center $(-8, 6)$, Radius^10"
+        "Center $(4, -3)$, Radius $5$",
+        "Center $(-4, 3)$, Radius $5$",
+        "Center $(4, -3)$, Radius $25$",
+        "Center $(-8, 6)$, Radius $10$"
       ],
       "correctIndex": 0,
       "explanation": "Completing the square gives $(x - 4)^2 - 16 + (y + 3)^2 - 9 = 0 \\implies (x - 4)^2 + (y + 3)^2 = 25$. Thus, the center is $(4, -3)$ and the radius is $\\sqrt{25} = 5$.\n\n**Common mistake:** Students often forget to flip the signs when extracting the center coordinates from the completed square form, leading to option B, or forget to take the square root of the constant term for the radius, leading to option C."

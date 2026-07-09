@@ -11,7 +11,7 @@
     {
       "id": "6-2-equations-of-straight-lines-hard-q1",
       "type": "mcq",
-      "question": "In a rhombus $ABCD$ and $A2C$. $(1, 5)$ and $(7, -3)$ respectively. Find the equation of the diagonal $BD$.",
+      "question": "In rhombus $ABCD$, vertices $A$ and $C$ are $(1, 5)$ and $(7, -3)$ respectively. Find the equation of diagonal $BD$.",
       "options": [
         "$y = \\frac{3}{4}x - 2$",
         "$y = -\\frac{4}{3}x + \\frac{19}{3}$",
@@ -19,7 +19,7 @@
         "$y = -\\frac{3}{4}x + 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonals of a rhombus are perpendicular bisectors. Midpoint $AC = (4, 1)$. Gradient $AC = \\frac{-3-5}{7-1} = -\\frac{8}{6} = -\\frac{4}{3}$. Gradient $BD = \\frac{3}{4}$. $y - 1 = \\frac{3}{4}(x - 4) \\Rightarrow y = \\frac{3}{4}x - 2$.\n\n**Common mistake:** Using the gradient of $AC$. $BD$ instead of recognizing they must be perpendicular."
+      "explanation": "Diagonals of a rhombus are perpendicular bisectors. Midpoint of $AC$ is $(4, 1)$. Gradient of $AC$ is $-\\frac{4}{3}$, so gradient of $BD$ is $\\frac{3}{4}$. Equation: $y = \\frac{3}{4}x - 2$.\n\n**Common mistake:** Using the gradient of $AC$ for $BD$ instead of the perpendicular gradient."
     },
     {
       "id": "6-2-equations-of-straight-lines-hard-q2",
@@ -45,7 +45,7 @@
         "$y = -2x + 22$"
       ],
       "correctIndex": 0,
-      "explanation": "Midpoint is $((1+5)/2, (8+2)/2) = (3, 5)$. Equation: $y - 5 = -2(x - 3) \\Rightarrow y = -2x + 6 + 5 = -2x + 11$.\n\n**Common mistake:** Using one of the endpoints $A$ and $B2c$."
+      "explanation": "Midpoint is $(3, 5)$. Equation: $y - 5 = -2(x - 3) \\Rightarrow y = -2x + 11$.\n\n**Common mistake:** Using an endpoint of $AB$ instead of the midpoint to find $c$."
     },
     {
       "id": "6-2-equations-of-straight-lines-hard-q4",
@@ -63,7 +63,7 @@
     {
       "id": "6-2-equations-of-straight-lines-hard-q5",
       "type": "mcq",
-      "question": "The line $y = kx - 4$ passes through the point of intersection of the lines $x + y = 5$ and $2x - y = 4$. Find the value of $k$.",
+      "question": "The line $y = kx - 4$ passes through the intersection of $x + y = 5$ and $2x - y = 4$. Find $k$.",
       "options": [
         "2",
         "$1$",
@@ -76,7 +76,7 @@
     {
       "id": "6-2-equations-of-straight-lines-hard-q6",
       "type": "mcq",
-      "question": "Given the line $ax + by = 1$, where $a$ and $b2(1, 2)$ and $(3, -4)$, find the value of $a$.",
+      "question": "The line $ax + by = 1$ passes through $(1, 2)$ and $(3, -4)$. Find $a$.",
       "options": [
         "$0.6$",
         "$0.2$",

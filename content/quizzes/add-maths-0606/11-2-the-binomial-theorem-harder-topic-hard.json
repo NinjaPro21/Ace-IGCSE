@@ -18,21 +18,21 @@
         "-84",
         "5376"
       ],
-      "correctIndex": 0,
-      "explanation": "General term $T_{r+1} = \\binom{9}{r}(2x^2)^{9-r}(-\\frac{1}{x})^r$. $x^0$: $2(9-r) - r = 0 \\implies 18 - 3r = 0 \\implies r = 6$. Term is $\\binom{9}{6}(2^3)(-1)^6 = 84 \\times 8 \\times 1 = 672$. Wait, re-calculate: $18-3r=0 \\implies r=6$. Term: $\\binom{9}{6}(2)^{9-6}(-1)^6 = 84 \\times 8 = 672$. Re-checking $x$. So $r=6$: $x^{12} \\times x^{-6} = x^6$. Try $r=6$: $x^{2(3)} \\times x^{-6} = x^0$. So $r=6 is correct$. $2\\binom{9}{6} = 84$. $2^{9-6} = 8$. $84 \\times 8 = 672$.\n\n**Common mistake:** Option A is a sign error if the student treats $(-1)^6$ as negative."
+      "correctIndex": 1,
+      "explanation": "General term $T_{r+1} = \\binom{9}{r}(2x^2)^{9-r}\\left(-\\frac{1}{x}\\right)^r$. For the term independent of $x$: $2(9-r) - r = 0 \\implies r = 6$. Term: $\\binom{9}{6}(2)^3(-1)^6 = 84 \\times 8 = 672$.\n\n**Common mistake:** Option A is a sign error if the student treats $(-1)^6$ as negative."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-hard-q2",
       "type": "mcq",
       "question": "Find the coefficient of $x^2$ in the expansion of $(1 + 3x)(1 - 2x)^5$.",
       "options": [
-        "(-10)",
-        "40",
-        "30",
-        "70"
+        "$10$",
+        "$40$",
+        "$30$",
+        "$70$"
       ],
       "correctIndex": 0,
-      "explanation": "$(1-2x)^5 = 1 - 10x + 40x^2 + ...$ Multiply by $(1+3x)$: $(1 \\times 40x^2) + (3x \\times -10x) = 40x^2 - 30x^2 = 10x^2$. Oh, let's adjust parameters. Correct answer 10.\n\n**Common mistake:** Option B only considers the $x^2$ term from the bracketed expansion, ignoring the product with $3x$."
+      "explanation": "$(1-2x)^5 = 1 - 10x + 40x^2 + \\ldots$. Multiply by $(1+3x)$: $(1 \\times 40x^2) + (3x \\times -10x) = 40x^2 - 30x^2 = 10x^2$. The coefficient is $10$.\n\n**Common mistake:** Option B only considers the $x^2$ term from the bracketed expansion, ignoring the product with $3x$."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-hard-q3",
@@ -50,28 +50,28 @@
     {
       "id": "11-2-the-binomial-theorem-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "In the expansion of $(a + x)^n$. $64, 96x,$ and $60x^2$. Find the values of $a$ and $n$.",
+      "question": "The first three terms in the expansion of $(2 + x)^6$ are $64$, $192x$, and $240x^2$. Find the values of the base and the power.",
       "options": [
-        "a = 2, n = 6",
-        "a = 4, n = 3",
-        "a = 2, n = 5",
-        "a = 4, n = 6"
+        "$2$ and $6$",
+        "$4$ and $3$",
+        "$2$ and $5$",
+        "$4$ and $6$"
       ],
       "correctIndex": 0,
-      "explanation": "$a^n = 64$ and $na^{n-1} = 96$. Dividing: $na^{n-1} / a^n = 96/64 \\implies n/a = 1.5 \\implies n = 1.5a$. So $a^n = 64$: $a^{1.5a} = 64$. Trial/log: if $a=2, n=3$ (no). If $a=4, n=6$: $4^6 = 4096$ (no). If $a=2, n=6$: $2^6 = 64$ and $6(2^5) = 192$ (no). Correct values: $a=4, n=3$ gives $4^3=64, 3(4^2)=48$ (no). Let's use $a=2, n=6$: $a^n = 64, na^{n-1}=6(32)=192$. Let's use $a=4, n=3$: $4^3=64, 3(16)=48$. Let's use $a=4, n=3$ and target^96: $na^{n-1}=96 \\implies 3(4^2)=48$ (no). Target $a=2, n=6$. Result $a=4, n=3$ is close. Correct logic: $n=6, a=2 \\implies 2^6=64, 6(2^5)=192$. Let's change 96 to 192.\n\n**Common mistake:** Students often struggle with simultaneous equations involving indices and coefficients."
+      "explanation": "$(2+x)^6 = 2^6 + 6(2^5)x + \\binom{6}{2}(2^4)x^2 + \\ldots = 64 + 192x + 240x^2 + \\ldots$. So the base is $2$ and the power is $6$.\n\n**Common mistake:** Confusing the coefficients with the parameters $a$ and $n$ in $(a+x)^n$."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-hard-q5",
       "type": "mcq",
       "question": "Find the coefficient of $x^4$ in the expansion of $(1 + x^2)(2 + x)^5$.",
       "options": [
-        "120",
-        "80",
-        "40",
-        "160"
+        "$90$",
+        "$80$",
+        "$40$",
+        "$160$"
       ],
       "correctIndex": 0,
-      "explanation": "$(2+x)^5 = 32 + 80x + 80x^2 + 40x^3 + 10x^4 + x^5$. Product $x^4$ comes from $(1 \\times 10x^4) + (x^2 \\times 80x^2) = 10 + 80 = 90$. Adjusting answer to 90.\n\n**Common mistake:** Option B results from only taking the $x^2$ term coefficient from the power expansion."
+      "explanation": "$(2+x)^5 = 32 + 80x + 80x^2 + 40x^3 + 10x^4 + x^5$. The $x^4$ term from $(1+x^2)(2+x)^5$ is $(1 \\times 10x^4) + (x^2 \\times 80x^2) = 10 + 80 = 90$.\n\n**Common mistake:** Option B results from only taking the $x^2$ term coefficient from the power expansion."
     }
   ]
 }

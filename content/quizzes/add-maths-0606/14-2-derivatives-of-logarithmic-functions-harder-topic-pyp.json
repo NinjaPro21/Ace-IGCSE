@@ -24,12 +24,12 @@
     {
       "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "Find $dy/dx$. So $y = \\frac{\\ln x}{x}$.",
+      "question": "Find $\\frac{dy}{dx}$ if $y = \\frac{\\ln x}{x}$.",
       "options": [
-        "(1 - ln x) / x^2",
-        "1 / x^2",
-        "(ln x - 1) / x^2",
-        "0"
+        "$(1 - \\ln x)/x^2$",
+        "$1/x^2$",
+        "$(\\ln x - 1)/x^2$",
+        "$0$"
       ],
       "correctIndex": 0,
       "explanation": "Quotient rule: [x(1/x) - (ln x)(1)] / x^2 = (1 - ln x) / x^2.\n\n**Common mistake:** Sign errors in the numerator when using the quotient rule."
@@ -50,7 +50,7 @@
     {
       "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "Given $y = e^x \\ln x$. $dy/dx2x = 1$.",
+      "question": "Given $y = e^x \\ln x$, find $\\frac{dy}{dx}$ when $x = 1$.",
       "options": [
         "e",
         "1",
@@ -63,7 +63,7 @@
     {
       "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Find the approximate change in $y = \\ln x$ and $x$ increases from 5 to 5.01.",
+      "question": "Find the approximate change in $y = \\ln x$ when $x$ increases from $5$ to $5.01$.",
       "options": [
         "0.002",
         "0.01",

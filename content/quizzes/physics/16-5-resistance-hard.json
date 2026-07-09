@@ -52,13 +52,13 @@
       "type": "mcq",
       "question": "A piece of resistance wire is melted down and recast into a new wire that is twice as long. If the total volume of the metal remains the same, how does the new resistance compare to the original?",
       "options": [
-        "$It is four \\times larger.$",
-        "$It is two \\times larger.$",
+        "$It is four \\times larger.",
+        "$It is two \\times larger.",
         "It is half as large.",
         "It remains the same."
       ],
       "correctIndex": 0,
-      "explanation": "If the length doubles ($L \\times 2$) and volume is constant, the cross-sectional area must halve ($A / 2$). Since $R \\propto L/A$, the new resistance is $2 / (1/2) = 4$ \\times the original. \n\n$**Common mistake:** Only considering the change in length and concluding it is 'two \\times larger'.$"
+      "explanation": "If the length doubles ($L \\times 2$) and volume is constant, the cross-sectional area must halve ($A / 2$). Since $R \\propto L/A$, the new resistance is $2 / (1/2) = 4$ \\times the original. \n\n$**Common mistake:** Only considering the change in length and concluding it is 'two \\times larger'."
     },
     {
       "id": "16-5-resistance-hard-q5",

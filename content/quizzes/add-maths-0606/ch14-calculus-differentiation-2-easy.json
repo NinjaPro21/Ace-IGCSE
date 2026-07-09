@@ -56,7 +56,7 @@
         "$3\\sin(3x + 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "Differentiating $\\sin(u)$ with respect to $x$ yields $\\cos(u) \\frac{du}{dx}. Here,$u = 3x + 2$and$\\frac{du}{dx} = 3$, giving$3\\cos (3x + 2)^{2}\n\n**Common mistake:** Students commonly confuse the derivatives of sine and cosine, introducing an incorrect negative sign, which leads to option C."
+      "explanation": "Using the chain rule with $u = 3x + 2$, $\\frac{dy}{dx} = \\cos(3x + 2) \\cdot 3 = 3\\cos(3x + 2)$.\n\n**Common mistake:** Forgetting to multiply by the derivative of the inner function."
     },
     {
       "id": "ch14-calculus-differentiation-2-q5",
@@ -69,7 +69,7 @@
         "$-2\\sec^2(2x)$"
       ],
       "correctIndex": 0,
-      "explanation": "The standard derivative of $\\tan(u)$ is $\\sec^2(u) \\frac{du}{dx}. For u = 2x$,$\\frac{du}{dx} = 2$, which results in $2\\sec^2$(2x)^{2}\n\n$$\n**Common mistake:** Students often confuse the trigonometric derivatives or omit the inner function derivative coefficient, leading to option B.\n"
+      "explanation": "The standard derivative of $\\tan(u)$ is $\\sec^2(u) \\frac{du}{dx}. For u = 2x$,$\\frac{du}{dx} = 2$, which results in $2\\sec^2$(2x)^{2}\n\n$**Common mistake:** Students often confuse the trigonometric derivatives or omit the inner function derivative coefficient, leading to option B.$"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "type": "mcq",
       "question": "Which of the following lines is parallel to y=2-3x?",
       "options": [
-        "y=-3x+10",
-        "y=2x-3",
-        "y=3x+2",
-        "y=0.33x+2"
+        "$y=-3x+10$",
+        "$y=2x-3$",
+        "$y=3x+2$",
+        "$y=0.33x+2$"
       ],
       "correctIndex": 0,
       "explanation": "The gradient of the original line is -3. The line y=-3x+10 has the same gradient and is therefore parallel.\n\n**Common mistake:** The student may misidentify the gradient as 2 because it is the first number in the equation, or confuse -3x with 3x."
@@ -71,7 +71,7 @@
         "$m^{1}$\n×$m^{2}$\n=1"
       ],
       "correctIndex": 0,
-      "explanation": "By definition, two lines are perpendicular if the product of their gradients is -1.\n\n**Common mistake:** The student might confuse the condition for perpendicular lines with that for parallel lines ($m^{1}$\n= m^{2}\n)."
+      "explanation": "By definition, two lines are perpendicular if the product of their gradients is -1.\n\n**Common mistake:** The student might confuse the condition for perpendicular lines with that for parallel lines ($m^{1}$\n= $m^{2}$\n)."
     }
   ]
 }

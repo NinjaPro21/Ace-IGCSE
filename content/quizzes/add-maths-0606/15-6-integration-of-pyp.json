@@ -13,18 +13,18 @@
       "type": "mcq",
       "question": "Find the equation of the curve that passes through (1, 2) and has a gradient of $3/x$.",
       "options": [
-        "y = 3 ln|x| + 2",
-        "y = 3 ln|x|",
-        "y = ln|x³| + 2",
+        "$y = 3 \\ln|x| + 2$",
+        "$y = 3 \\ln|x|$",
+        "$y = \\ln|x^3| + 2$",
         "Both 1 and 3"
       ],
       "correctIndex": 3,
-      "explanation": "y = 3 ln|x| + c. At (1,2), 2 = 3 ln(1) + c => c = 2. Note that 3 ln|x| = ln|x³|.\n\n**Common mistake:** Only identifying one form of the logarithmic solution."
+      "explanation": "$y = 3 \\ln|x| + c. At (1,2), 2 = 3 \\ln(1) + c => c = 2. Note that 3 \\ln|x| = \\ln|x^3|$.\n\n**Common mistake:** Only identifying one form of the logarithmic solution."
     },
     {
       "id": "15-6-integration-of-pyp-q2",
       "type": "mcq",
-      "question": "Evaluate $\\int_2^6 \\frac{1}{2x - 1} \\,dx.$. $\\ln \\sqrt{k}$. Find k.",
+      "question": "Evaluate $\\int_2^6 \\frac{1}{2x - 1} \\,dx$.... $2\\ln \\sqrt{k}$. Find k.",
       "options": [
         "11/3",
         "11",
@@ -50,20 +50,20 @@
     {
       "id": "15-6-integration-of-pyp-q4",
       "type": "mcq",
-      "question": "Show that $\\int \\frac{2x+1}{x} \\,dx. = 2x + \\ln|x| + c$.",
+      "question": "Show that $\\int \\frac{2x+1}{x} \\,dx = 2x + \\ln|x| + c$.",
       "options": [
         "True",
         "False",
-        "Only for x > 0",
-        "Only for x < 0"
+        "$Only for x > 0$",
+        "$Only for x < 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Split the $fraction:$ 2x/x + 1/x = 2 + 1/x. Integral is 2x + ln|x|.\n\n**Common mistake:** Algebraic errors when splitting the $fraction.$"
+      "explanation": "Split the $fraction:$ 2x/x + 1/x = 2 + 1/x. Integral is 2x + ln|x|.\n\n**Common mistake:** Algebraic errors when splitting the $fraction$."
     },
     {
       "id": "15-6-integration-of-pyp-q5",
       "type": "mcq",
-      "question": "Find the value of $a$. So $\\int_1^a \\frac{1}{x} \\,dx. = 1$.",
+      "question": "Find the value of $a$ such that $\\int_1^a \\frac{1}{x} \\,dx = 1$.",
       "options": [
         "e",
         "10",
@@ -71,7 +71,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "ln a - ln 1 = 1 => ln a = 1 => a = e.\n\n**Common mistake:** Confusing natural logs with base-10 logs and choosing 10."
+      "explanation": "$\\ln a - \\ln 1 = 1 => \\ln a = 1 => a = e$.\n\n**Common mistake:** Confusing natural logs with base-10 logs and choosing 10."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "13-3-vector-geometry-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "In triangle $OAB$ and $P2OA$. $2:1$ and $Q$. $AB2\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
+      "question": "In triangle $OAB$, $P$ lies on $OA$ such that $OP : PA = 2 : 1$ and $Q$ is the midpoint of $AB$. Given $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{PQ}$.",
       "options": [
         "$0.5\\mathbf{b} - 0.167\\mathbf{a}$",
         "$0.5\\mathbf{b} + 0.167\\mathbf{a}$",
@@ -24,7 +24,7 @@
     {
       "id": "13-3-vector-geometry-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "In the parallelogram $OABC$ and $M2BC$. $OM2AC$ and $X2\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find the value of $k$.",
+      "question": "In parallelogram $OABC$, $M$ is the midpoint of $BC$ and $OM$ intersects $AC$ at $X$. Given $\\vec{OA} = \\mathbf{a}$ and $\\vec{OC} = \\mathbf{c}$, and $\\vec{OX} = k\\vec{OM}$, find $k$.",
       "options": [
         "$2/3$",
         "$1/2$",
@@ -32,12 +32,12 @@
         "$1/3$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\vec{OM} = \\mathbf{c} + 0.5\\mathbf{a}$. $\\vec{OX} = k(\\mathbf{c} + 0.5\\mathbf{a})$. Also $X$. $AC2\\vec{OX} = (1-m)\\mathbf{a} + m\\mathbf{c}$. Equating coefficients: $m = k$. $1-m = 0.5k \\implies 1-k = 0.5k \\implies 1.5k = 1 \\implies k = 2/3$.\n\n**Common mistake:** Option B is a common guess for intersection points without performing the formal coefficient comparison."
+      "explanation": "$\\vec{OM} = \\mathbf{c} + 0.5\\mathbf{a}$. Also $X$ lies on $AC$, so $\\vec{OX} = (1-m)\\mathbf{a} + m\\mathbf{c}$ for some $m$. Equating with $k(\\mathbf{c} + 0.5\\mathbf{a})$ gives $m = k$ and $1-m = 0.5k$, so $k = 2/3$.\n\n**Common mistake:** Option B is a common guess for intersection points without performing the formal coefficient comparison."
     },
     {
       "id": "13-3-vector-geometry-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "The points $O, A, B$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. $C$. $OB2OB : BC = 1 : 2$. Find $\\vec{AC}$.",
+      "question": "Points $O$, $A$, and $B$ have $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Point $C$ lies on the line through $B$ such that $OB : BC = 1 : 2$. Find $\\vec{AC}$.",
       "options": [
         "$3\\mathbf{b} - \\mathbf{a}$",
         "$2\\mathbf{b} - \\mathbf{a}$",
@@ -45,7 +45,7 @@
         "$\\mathbf{b} - 3\\mathbf{a}$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $OB : BC = 1 : 2$, $\\vec{OC} = 3\\vec{OB} = 3\\mathbf{b}$. Then $\\vec{AC} = \\vec{AO} + \\vec{OC} = -\\mathbf{a} + 3\\mathbf{b}$.\n\n**Common mistake:** Option B occurs if the student interprets the ratio as $OC$. $OB2BC$. $OB$."
+      "explanation": "Since $OB : BC = 1 : 2$, $\\vec{OC} = 3\\vec{OB} = 3\\mathbf{b}$. Then $\\vec{AC} = \\vec{AO} + \\vec{OC} = -\\mathbf{a} + 3\\mathbf{b}$.\n\n**Common mistake:** Option B occurs if the student interprets the ratio as $OC : OB$ instead of $OB : BC$."
     },
     {
       "id": "13-3-vector-geometry-harder-topic-hard-q4",
@@ -58,12 +58,12 @@
         "$1.5$"
       ],
       "correctIndex": 0,
-      "explanation": "For parallel vectors, one must be a scalar multiple of the other. Since the coefficient of $\\mathbf{a}$ triples (from^1 to^3), the coefficient of $\\mathbf{b}$ must also triple: $2 \\times 3 = 6$.\n\n**Common mistake:** Option C is chosen by students who assume the constant $k$ must match the multiplier of the first component."
+      "explanation": "For parallel vectors, one must be a scalar multiple of the other. Since the coefficient of $\\mathbf{a}$ triples (from $1$ to $3$), the coefficient of $\\mathbf{b}$ must also triple: $2 \\times 3 = 6$.\n\n**Common mistake:** Option C is chosen by students who assume the constant $k$ must match the multiplier of the first component."
     },
     {
       "id": "13-3-vector-geometry-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "In triangle $OAB$ and $X2OA$ and $Y2OB$. So $OY = 2YB2AY$. $BX2P$. $\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In triangle $OAB$, $X$ lies on $OA$ and $Y$ lies on $OB$ such that $OY = 2YB$ and $AY$ intersects $BX$ at $P$. Express $\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$0.2\\mathbf{a} + 0.4\\mathbf{b}$",
         "$0.4\\mathbf{a} + 0.2\\mathbf{b}$",
@@ -71,7 +71,7 @@
         "$0.33\\mathbf{a} + 0.67\\mathbf{b}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the vector intersection method (parameters $\\lambda, \\mu$. So $\\vec{OP} = \\frac{1}{5}\\mathbf{a} + \\frac{2}{5}\\mathbf{b} = 0.2\\mathbf{a} + 0.4\\mathbf{b}$.\n\n**Common mistake:** Option B is a common error where students swap the coefficients for the two base vectors."
+      "explanation": "Using the vector intersection method, $\\vec{OP} = \\frac{1}{5}\\mathbf{a} + \\frac{2}{5}\\mathbf{b} = 0.2\\mathbf{a} + 0.4\\mathbf{b}$.\n\n**Common mistake:** Option B is a common error where students swap the coefficients for the two base vectors."
     }
   ]
 }

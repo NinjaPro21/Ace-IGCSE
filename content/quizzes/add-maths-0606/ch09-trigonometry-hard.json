@@ -17,12 +17,12 @@
         "$1.23 \\text{ and } 5.05$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $\\cos^2(x) = 1 - \\sin^2(x)$ to get $3(1 - \\sin^2(x)) - 5\\sin(x) - 1 = 0 \\implies 3\\sin^2(x) + 5\\sin(x) - 2 = 0$ . Factoring yields $(3\\sin(x) - 1)(\\sin(x) + 2) = 0$ . Since $\\sin(x) = -2$ has no solution, solve $\\sin(x) = \\frac{1}{1}$ to find reference angle $x \\approx 0.340$ rad in Quadrants I and II, so $x = 0.340$ and $x = \\pi - 0.340 = 2.80$ .\n\n**Common mistake:** Students frequently make an algebraic sign error when converting $\\cos^2(x)$ , or work entirely in degrees and fail to convert their final answers back to radians as requested."
+      "explanation": "Substitute $\\cos^2(x) = 1 - \\sin^2(x)$ to get $3(1 - \\sin^2(x)) - 5\\sin(x) - 1 = 0 \\implies 3\\sin^2(x) + 5\\sin(x) - 2 = 0$. Factoring yields $(3\\sin(x) - 1)(\\sin(x) + 2) = 0$. Since $\\sin(x) = -2$ has no solution, solve $\\sin(x) = \\frac{1}{1}$ to find reference angle $x \\approx 0.340$ rad in Quadrants I and II, so $x = 0.340$ and $x = \\pi - 0.340 = 2.80$.\n\n**Common mistake:** Students frequently make an algebraic sign error when converting $\\cos^2(x)$ , or work entirely in degrees and fail to convert their final answers back to radians as requested."
     },
     {
       "id": "ch09-trigonometry-q2",
       "type": "mcq",
-      "question": "Solve the identity condition to find all values of $\\theta$ between $0^\\circ$ and $360^\\circ$ for which $\\tan(\\theta) + 3\\cot(\\theta) = 4$ .",
+      "question": "Solve the identity condition to find all values of $\\theta$ between $0^\\circ$ and $360^\\circ$ for which $\\tan(\\theta) + 3\\cot(\\theta) = 4$.",
       "options": [
         "45^\\circ, 71.6^\\circ, 225^\\circ, 251.6^\\circ",
         "45^\\circ, 18.4^\\circ, 225^\\circ, 198.4^\\circ",
@@ -30,25 +30,25 @@
         "$71.6^\\circ \\text{ and } 251.6^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply through by $\\tan(\\theta)$ to clear the cotangent: $\\tan^2(\\theta) + 3 = 4\\tan(\\theta) \\implies \\tan^2(\\theta) - 4\\tan(\\theta) + 3 = 0$ . This factors to $(\\tan(\\theta) - 1)(\\tan(\\theta) - 3) = 0$ . Thus, $\\tan(\\theta) = 1 \\implies \\theta = 45^\\circ, 225^\\circ$ and $\\tan(\\theta) = 3 \\implies \\theta = 71.6^\\circ, 251.6^\\circ$ .\n\n**Common mistake:** Students commonly resolve only one branch of the factored quadratic expression (typically $\\tan(\\theta) = 1$ ), losing half of the valid solution set across the four quadrants."
+      "explanation": "Multiply through by $\\tan(\\theta)$ to clear the cotangent: $\\tan^2(\\theta) + 3 = 4\\tan(\\theta) \\implies \\tan^2(\\theta) - 4\\tan(\\theta) + 3 = 0$. This factors to $(\\tan(\\theta) - 1)(\\tan(\\theta) - 3) = 0$. Thus, $\\tan(\\theta) = 1 \\implies \\theta = 45^\\circ, 225^\\circ$ and $\\tan(\\theta) = 3 \\implies \\theta = 71.6^\\circ, 251.6^\\circ$.\n\n**Common mistake:** Students commonly resolve only one branch of the factored quadratic expression (typically $\\tan(\\theta) = 1$ ), losing half of the valid solution set across the four quadrants."
     },
     {
       "id": "ch09-trigonometry-q3",
       "type": "mcq",
-      "question": "Given that $\\sec^2(A) + \\tan(A) = 7$ , find the possible exact values of $\\sin(A)$ for an acute angle $A$ .",
+      "question": "Given that $\\sec^2(A) + \\tan(A) = 7$, find the possible exact values of $\\sin(A)$ for an acute angle $A$.",
       "options": [
-        "$$\n\\frac{2}{\\sqrt{5}}\n",
-        "$$\n\\frac{3}{\\sqrt{10}}\n",
-        "$$\n\\frac{2}{5}\n",
-        "$$\n\\frac{1}{\\sqrt{5}}\n"
+        "$\\frac{2}{\\sqrt{5}}$",
+        "$\\frac{3}{\\sqrt{10}}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{\\sqrt{5}}$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $\\sec^2(A) = 1 + \\tan^2(A)$ into the equation: $\\tan^2(A) + \\tan(A) - 6 = 0$ . Factoring gives $(\\tan(A) + 3)(\\tan(A) - 2) = 0$ . Since $A$ is acute, $\\tan(A) = 2$ . A triangle with opposite 2 and adjacent 1 has hypotenuse $\\sqrt{5}$ , so $\\sin(A) = \\frac{2}{\\sqrt{5}}$ .\n\n**Common mistake:** Students often fail to reject the negative root $(\\tan(A) = -3)$ despite the prompt specifying that $A$ is an acute angle, or confuse the triangle ratios when extracting $\\sin(A)$ ."
+      "explanation": "Substitute $\\sec^2(A) = 1 + \\tan^2(A)$ into the equation: $\\tan^2(A) + \\tan(A) - 6 = 0$. Factoring gives $(\\tan(A) + 3)(\\tan(A) - 2) = 0$. Since $A$ is acute, $\\tan(A) = 2$. A triangle with opposite 2 and adjacent 1 has hypotenuse $\\sqrt{5}$ , so $\\sin(A) = \\frac{2}{\\sqrt{5}}$.\n\n**Common mistake:** Students often fail to reject the negative root $(\\tan(A) = -3)$ despite the prompt specifying that $A$ is an acute angle, or confuse the triangle ratios when extracting $\\sin(A)$."
     },
     {
       "id": "ch09-trigonometry-q4",
       "type": "mcq",
-      "question": "Determine the number of coordinate intersections between the curves $y = |2\\sin(x)|$ and $y = \\frac{x}{2\\pi}$ within the boundary domain $0 \\le x \\le 2\\pi$ .",
+      "question": "Determine the number of coordinate intersections between the curves $y = |2\\sin(x)|$ and $y = \\frac{x}{2\\pi}$ within the boundary domain $0 \\le x \\le 2\\pi$.",
       "options": [
         "4",
         "3",
@@ -56,20 +56,20 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "At $x=0$ , both curves start at $(0,0)$ . The line increases linearly up to $(2\\pi, 1)$ . Within $0 \\le x \\le 2\\pi  , the modulus sine function completes two positive arches peaking at y=2$ . The line intersects the first arch twice, the second arch twice, and meets at the origin, yielding 4 total intersection points.\n\n**Common mistake:** Students often fail to account for the modulus reflecting the negative half-cycle of the sine curve upwards, missing two critical intersection points in the second half of the domain."
+      "explanation": "At $x=0$ , both curves start at $(0,0)$. The line increases linearly up to $(2\\pi, 1)$. Within $0 \\le x \\le 2\\pi  , the modulus sine function completes two positive arches peaking at y=2$. The line intersects the first arch twice, the second arch twice, and meets at the origin, yielding 4 total intersection points.\n\n**Common mistake:** Students often fail to account for the modulus reflecting the negative half-cycle of the sine curve upwards, missing two critical intersection points in the second half of the domain."
     },
     {
       "id": "ch09-trigonometry-q5",
       "type": "mcq",
-      "question": "An angle $\\phi  satisfies \\sin(\\phi) = k$ and $\\cos(\\phi) = 2k where k\n\n$$\ne 0. Find the exact value of\\sec^2(\\phi)2\n",
+      "question": "An angle $\\phi  satisfies \\sin(\\phi) = k$ and $\\cos(\\phi) = 2k where k > 0$. Find the exact value of $\\sec^2(\\phi)\n\n$.",
       "options": [
-        "$$\n\\frac{5}{4}\n",
-        "$$\n\\frac{5}{1}\n",
-        "$$\n\\frac{4}{5}\n",
-        "$$\n\\frac{1}{4}\n"
+        "$\\frac{5}{4}$",
+        "$\\frac{5}{1}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{1}{4}$"
       ],
       "correctIndex": 0,
-      "explanation": "Use the identity $\\sin^2(\\phi) + \\cos^2(\\phi) = 1 \\implies k^2 + (2k)^2 = 1 \\implies 5k^2 = 1 \\implies k^2 = \\frac{1}{5}$ . Then $\\cos^2(\\phi) = 4k^2 = \\frac{4}{5}$ . Therefore, $\\sec^2(\\phi) = \\frac{1}{\\cos^2(\\phi)} = \\frac{5}{4}$ .\n\n**Common mistake:** Students often fail to square the coefficient 2 when writing $(2k)^2$ , writing it as $2k^2$ instead of $4k^2$ , leading to an incorrect denominator value."
+      "explanation": "Use the identity $\\sin^2(\\phi) + \\cos^2(\\phi) = 1 \\implies k^2 + (2k)^2 = 1 \\implies 5k^2 = 1 \\implies k^2 = \\frac{1}{5}$. Then $\\cos^2(\\phi) = 4k^2 = \\frac{4}{5}$. Therefore, $\\sec^2(\\phi) = \\frac{1}{\\cos^2(\\phi)} = \\frac{5}{4}$.\n\n**Common mistake:** Students often fail to square the coefficient 2 when writing $(2k)^2$ , writing it as $2k^2$ instead of $4k^2$ , leading to an incorrect denominator value."
     }
   ]
 }

@@ -37,7 +37,7 @@
     {
       "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q3",
       "type": "mcq",
-      "question": "Find the coordinates of the points of intersection of the curves $y = \\csc x$. So $y = 2$ for $0 \\le x \\le \\pi$.",
+      "question": "Find the coordinates of the points of intersection of $y = \\csc x$ and $y = 2$ for $0 \\le x \\le \\pi$.",
       "options": [
         "$(\\frac{\\pi}{6}, 2)$ and $(\\frac{5\\pi}{6}, 2)$",
         "$(\\frac{\\pi}{3}, 2)$ and $(\\frac{2\\pi}{3}, 2)$",
@@ -45,7 +45,7 @@
         "$(\\frac{\\pi}{2}, 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\csc x = 2 \\implies \\sin x = 0.5$. In the interval^0 to $\\pi^2 So x = \\pi/6$ and $x = 5\\pi/6$.\n\n**Common mistake:** Option C includes a solution from outside the specified interval ($0$ to $\\pi$)."
+      "explanation": "$\\csc x = 2 \\implies \\sin x = \\frac{1}{2}$. In $0 \\le x \\le \\pi$, $x = \\frac{\\pi}{6}$ or $x = \\frac{5\\pi}{6}$.\n\n**Common mistake:** Including a solution outside the interval $0 \\le x \\le \\pi$."
     },
     {
       "id": "9-6-9-9-reciprocals-identities-and-equations-harder-topi-pyp-q4",

@@ -1,0 +1,77 @@
+{
+  "id": "5-logarithmic-equations-easy",
+  "topicId": "5-logarithmic-equations",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "easy",
+  "title": "Logarithmic Equations — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-logarithmic-equations-easy-q1",
+      "type": "mcq",
+      "question": "Solve the equation $5^{x+2} = 125$ .",
+      "options": [
+        "$x = 1$",
+        "$x = 3$",
+        "$x = -1$",
+        "$x = 25$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since $125 = 5^3$ , we equate the exponents to get $x + 2 = 3$ , which gives $x = 1$ .\n\n**Common mistake:** Option B is a common mistake where students solve $x + 2 = 5$ instead of equating exponents, or mistake^125 for $5^5$ ."
+    },
+    {
+      "id": "5-logarithmic-equations-easy-q2",
+      "type": "mcq",
+      "question": "Find the value of when $\\log_3(x - 4) = 2$ .",
+      "options": [
+        "$x = 13$",
+        "$x = 10$",
+        "$x = 6$",
+        "$x = 12$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Converting the logarithmic equation to exponential form gives $x - 4 = 3^2 \\implies x - 4 = 9$ , so $x = 13$ .\n\n**Common mistake:** Option B results from evaluating $3 \\times 2 = 6$ instead of $3^2 = 9$ , leading to $x - 4 = 6 \\implies x = 10$ ."
+    },
+    {
+      "id": "5-logarithmic-equations-easy-q3",
+      "type": "mcq",
+      "question": "Express the logarithmic statement $\\log_a(b) = c$ in its equivalent exponential form.",
+      "options": [
+        "$a^c = b$",
+        "$b^c = a$",
+        "$a^b = c$",
+        "$c^a = b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, the base of the logarithm becomes the base of the exponent, so $\\log_a(b) = c$. So $a^c = b$ .\n\n**Common mistake:** Option C is obtained if the student scrambles the roles of the argument and the value, falsely raising the base to the power of the argument."
+    },
+    {
+      "id": "5-logarithmic-equations-easy-q4",
+      "type": "mcq",
+      "question": "Given that $\\ln(x) = 5$ , find the exact value of $x$ .",
+      "options": [
+        "$e^5$",
+        "$5^e$",
+        "$10^{5}$",
+        "$\\frac{5}{e}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The natural logarithm $\\ln(x)$ has a base of $e$. So $x = e^5$.\n\n**Common mistake:** Option B occurs if a student confuses the base and the exponent, while Option C happens if they assume $\\ln$ denotes a common base-10 logarithm."
+    },
+    {
+      "id": "5-logarithmic-equations-easy-q5",
+      "type": "mcq",
+      "question": "Simplify the expression $\\log_2(8x) - \\log_2(2)$ .",
+      "options": [
+        "$\\log_2(4x)$",
+        "$\\log_2(8x - 2)$",
+        "$4x$",
+        "$\\log_2(16x)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the quotient law of logarithms, $\\log_2(8x) - \\log_2(2) = \\log_2(\\frac{8x}{2}) = \\log_2(4x)$ .\n\n**Common mistake:** Option B is chosen by students who incorrectly subtract the arguments directly instead of dividing them."
+    }
+  ]
+}

@@ -43,7 +43,7 @@
         "$x = 1$"
       ],
       "correctIndex": 0,
-      "explanation": "By the product rule, $\\frac{dy}{dx} = 2x e^{-4x} - 4x^2 e^{-4x} = 2xe^{-4x}(1 - 2x)$. Setting this to^0 gives $x = 0$ or $1 - 2x = 0 \\implies x = \\frac{1}{2}$. Since $x > 0$, $x = \\frac{1}{2}$.\n\n**Common mistake:** A common mistake occurs when differentiating $e^{-4x}$, where students forget the negative sign, altering the bracket to $(1 + 2x)$ and concluding that there are no positive roots."
+      "explanation": "By the product rule, $\\frac{dy}{dx} = 2x e^{-4x} - 4x^2 e^{-4x} = 2xe^{-4x}(1 - 2x)$. Setting this to^0 gives $x = 0$ or $1 -$x$= 0 \\implies x = \\frac{1}{2}$. Since $x > 0$, $x = \\frac{1}{2}$.\n\n**Common mistake:** A common mistake occurs when differentiating $e^{-4x}$, where students forget the negative sign, altering the bracket to $(1 + 2x)$ and concluding that there are no positive roots."
     },
     {
       "id": "ch14-calculus-differentiation-2-q4",
@@ -69,7 +69,7 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the quotient rule, $\\frac{dy}{dx} = \\frac{x(\\frac{1}{x}) - \\ln(x)(1)}{x^2} = \\frac{1 - \\ln(x)}{x^2}$. Setting $\\frac{dy}{dx} = 0$ gives $1 - \\ln(x) = 0 \\implies x = e^2 Substituting x = e  back into y$ yields $y = \\frac{\\ln(e)}{e} = \\frac{1}{e}$.\n\n**Common mistake:** Students often find the $x$-coordinate ($x = e ) and stop there, selecting option B instead of substituting back to find the y$-coordinate."
+      "explanation": "Using the quotient rule, $\\frac{dy}{dx} = \\frac{x(\\frac{1}{x}) - \\ln(x)(1)}{x^2} = \\frac{1 - \\ln(x)}{x^2}$. Setting $\\frac{dy}{dx} = 0$ gives $1 - \\ln(x) = 0 \\implies x = e^2 Substituting x = e  back into y$ yields $y = \\frac{\\ln(e)}{e} = \\frac{1}{e}$.\n\n**Common mistake:** Students often find the $x$-coordinate ($x = e ) and stop there, selecting option B instead of substituting back to find the y-coordinate$."
     }
   ]
 }

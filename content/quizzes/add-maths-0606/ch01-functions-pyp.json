@@ -9,7 +9,7 @@
     {
       "id": "ch01-functions-q1",
       "type": "mcq",
-      "question": "A function $f$ is defined by $f(x) = \\frac{3x + 1}{x - 2}$ for $x > 2$. Find an expression for f^{-1}(x)$and state its domain.$",
+      "question": "A function $f$ is defined by $f(x) = \\frac{3x + 1}{x - 2}$ for $x > 2$. Find an expression for $f^{-1}(x)$ and state its domain.",
       "options": [
         "$f^{-1}(x) = \\frac{2x + 1}{x - 3}$, domain x > 3",
         "$f^{-1}(x) = \\frac{2x + 1}{x - 3}$, domain x > 2",
@@ -17,7 +17,7 @@
         "$f^{-1}(x) = \\frac{x - 2}{3x + 1}$, domain x > 0"
       ],
       "correctIndex": 0,
-      "explanation": "Solving $y = \\frac{3x + 1}{x - 2} for x gives x = \\frac{2y + 1}{y - 3}$, so f^{-1}(x) = \\frac{2x + 1}{x - 3}$. Since f(x) = 3 + \\frac{7}{x - 2}$ and x > 2$, the range of f is f(x) > 3$, which becomes the domain of\n\n$$f^{-1}(x)2\n\n**Common mistake:** Students often forget that the domain of an inverse function is the range of the original function, mistakenly repeating the domain constraint $x > 2$ or writing $x$\neq 32"
+      "explanation": "Solving $y = \\frac{3x + 1}{x - 2} for x gives x = \\frac{2y + 1}{y - 3}$, so $f^{-1}(x) = \\frac{2x + 1}{x - 3}$. Since f(x) = 3 + \\frac{7}{x - 2}$and x > 2$, the range of f is f(x) > 3$, which becomes the domain of\n\n$$f^{-1}(x)2\n\n**Common mistake:** Students often forget that the domain of an inverse function is the range of the original function, mistakenly repeating the domain constraint $x > 2$ or writing $x$\neq 32"
     },
     {
       "id": "ch01-functions-q2",
@@ -30,12 +30,12 @@
         "$x > 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Form the composite function $fg(x) = 2(x + 3)² - 1$. Setting $2(x + 3)² - 1 > 17 \\implies (x + 3)² > 9$. This gives $x + 3 > 3$ or $x + 3 < -3$, which simplifies to $x > 0$ or $x < -6$.\n\n**Common mistake:** Students often solve the quadratic equation as an equality or forget the negative root when taking the square root, ending up with just the single inequality $x > 0$."
+      "explanation": "Form the composite function $fg(x) = 2(x + 3)^2 - 1$. Setting $2(x + 3)^2 - 1 > 17 \\implies (x + 3)^2 > 9$. This gives $x + 3 > 3$ or $x + 3 < -3$, which simplifies to $x > 0$ or $x < -6$.\n\n**Common mistake:** Students often solve the quadratic equation as an equality or forget the negative root when taking the square root, ending up with just the single inequality $x > 0$."
     },
     {
       "id": "ch01-functions-q3",
       "type": "mcq",
-      "question": "The function $f$ is defined by $f(x) = 7 - (x - 3)² for the domain$\\{1\\}$\\le x \\le 6$. Find the range of $f2$",
+      "question": "The function $f$ is defined by $f(x) = 7 - (x - 3)^2 for the domain$\\{1\\}$\\le x \\le 6$. Find the range of $f2$",
       "options": [
         "$-2 \\le f(x) \\le 7$",
         "$3 \\le f(x) \\le 7$",
@@ -61,7 +61,7 @@
     {
       "id": "ch01-functions-q5",
       "type": "mcq",
-      "question": "Functions $f$ and $g$ are defined by $f(x) = \\frac{x + 2}{3}$ and $g(x) = \\frac{6}{x} for x\n\n$$\neq 0. Find the value of x for which g⁻¹f(x) = 22\n",
+      "question": "Functions $f$ and $g$ are defined by $f(x) = \\frac{x + 2}{3}$ and $g(x) = \\frac{6}{x} for x eq 0. Find the value of x for which g⁻¹f(x) = 22$",
       "options": [
         "$7$",
         "$4$",

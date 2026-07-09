@@ -19,7 +19,7 @@
         "27"
       ],
       "correctIndex": 0,
-      "explanation": "Row 4: 1, 4, 6, 4, 1. Term x^2 = 6(1)$^2$(-3x)$^2$ = 6(9x^2) = 54x^2.\n\n**Common mistake:** Squaring -3 to get -9, or forgetting to multiply by the Pascal coefficient 6."
+      "explanation": "Row 4: $1, 4, 6, 4, 1$. The $x^2$ term is $6 \\cdot 1^2 \\cdot (-3x)^2 = 54x^2$.\n\n**Common mistake:** Squaring $-3$ incorrectly or forgetting the Pascal coefficient $6$."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-pyp-q2",
@@ -32,7 +32,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Row 4: 1, 4, 6, 4, 1. Constant occurs where powers of x cancel: 6(x)$^2$(2/x)$^2$ = 6(x^2)(4/x^2) = 24.\n\n**Common mistake:** Thinking the constant is the last term (16) and ignoring the middle term where x-powers balance."
+      "explanation": "Row 4: $1, 4, 6, 4, 1$. The constant term is $6 \\cdot x^2 \\cdot (2/x)^2 = 24$.\n\n**Common mistake:** Taking the last term only instead of the term where powers of $x$ cancel."
     },
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-pyp-q3",
@@ -89,7 +89,7 @@
     {
       "id": "11-pascal-s-triangle-and-the-binomial-theorem-pyp-q7",
       "type": "mcq",
-      "question": "Given that the coefficient of $x^2$ in the expansion of $(1 + kx)^8$ is 70, find the possible values of the constant $k$.",
+      "question": "Given that the coefficient of $x^2$ in the expansion of $(1 + kx)^8$ is 70, find the possible values of the constant k.",
       "options": [
         "±1.58",
         "±2.5",
@@ -136,7 +136,7 @@
         "35"
       ],
       "correctIndex": 0,
-      "explanation": "$(1+x)^7 = 1 + 7x + 21x^2 + ...$ Product $x^2$ from $(1 \\times 21x^2) + (-2x \\times 7x) = 21 - 14 = 7$.\n\n**Common mistake:** Option B only takes the $x^2$ coefficient from the 7th power expansion, ignoring the interaction with the $(1-2x)$ bracket."
+      "explanation": "$(1+x)^7 = 1 + 7x + 21x^2 +$... Product $x^2$ from $(1 \\times 21x^2) + (-2x \\times 7x) = 21 - 14 = 7$.\n\n**Common mistake:** Option B only takes the $x^2$ coefficient from the 7th power expansion, ignoring the interaction with the $(1-2x)$ bracket."
     }
   ]
 }

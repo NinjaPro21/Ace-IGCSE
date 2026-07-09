@@ -11,20 +11,20 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q1",
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = kx^3$. When $\\lg y$. $\\lg x2k$.",
+      "question": "The variables $x$ and $y$ are related by $y = kx^3$. When $\\lg y$ is plotted against $\\lg x$, the straight line has vertical intercept 2. Find $k$.",
       "options": [
-        "100",
-        "2",
-        "10",
-        "e^2"
+        "$100$",
+        "$2$",
+        "$10$",
+        "$e^2$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\lg y = 3\\lg x + \\lg k$. So $c = \\lg k = 2$, so $k = 10^{2} = 100$.\n\n**Common mistake:** Students often use the natural base $e^2 e^2$) instead of base 10 when the question specifies $\\lg$."
+      "explanation": "$\\lg y = 3\\lg x + \\lg k$. So $c = \\lg k = 2$, so $k = 10^{2} = 100$.\n\n**Common mistake:** Using the natural base $e^2$ instead of base 10 when the question specifies $\\lg$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q2",
       "type": "mcq",
-      "question": "A graph of $\\ln y$ and $x2(0, 5)$. Express $y$ and $x$.",
+      "question": "A graph of $\\ln y$ against $x$ passes through $(0, 5)$. Express $y$ in terms of $x$.",
       "options": [
         "$y = e^5 e^{-0.4x}$",
         "$y = 5e^{-0.4x}$",
@@ -37,7 +37,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q3",
       "type": "mcq",
-      "question": "Convert the equation $y = \\frac{a}{x^2} + b$. So $Y = mX + c2Y = y$ and $X2m$?",
+      "question": "Convert the equation $y = \\frac{a}{x^2} + b$ into the form $Y = mX + c$. What are $Y$, $X$, and $m$?",
       "options": [
         "$X = \\frac{1}{x^2}$ and $m = a$",
         "$X = x^2$ and $m = a$",
@@ -50,7 +50,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q4",
       "type": "mcq",
-      "question": "A straight line is obtained by plotting $\\lg y$. $\\lg x2(0, 1)$ and $(2, 7)$. Find the value of $n$. So $y = ax^n$.",
+      "question": "A straight line is obtained by plotting $\\lg y$ against $\\lg x$. The line passes through $(0, 1)$ and $(2, 7)$. Find the value of $n$ when $y = ax^n$.",
       "options": [
         "3",
         "6",
@@ -58,25 +58,25 @@
         "7"
       ],
       "correctIndex": 0,
-      "explanation": "The gradient of the linear plot is $m = \\frac{7-1}{2-0} = 3$. In the law $\\lg y = n\\lg x + \\lg a$ and $m2n$.\n\n**Common mistake:** The student might use the $y$-coordinates directly without calculating the slope of the change."
+      "explanation": "The gradient of the linear plot is $m = \\frac{7-1}{2-0} = 3$. In $\\lg y = n\\lg x + \\lg a$, the gradient equals $n$, so $n = 3$.\n\n**Common mistake:** Using the $y$-coordinates directly without calculating the slope."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q5",
       "type": "mcq",
-      "question": "The law $xy = ax + b$ and $y2\\frac{1}{x}$. Identify the gradient and the vertical intercept of this line.",
+      "question": "The law $xy = ax + b$ can be written as $y = a + \\frac{b}{x}$. Identify the gradient and vertical intercept when $y$ is plotted against $\\frac{1}{x}$.",
       "options": [
-        "Gradient = $b$ and $a$",
-        "Gradient = $a$ and $b$",
+        "Gradient = $a$, Intercept = $b$",
+        "Gradient = $b$, Intercept = $a$",
         "Gradient = $1$, Intercept = $a$",
-        "Gradient = $b$. $0$"
+        "Gradient = $b$, Intercept = $0$"
       ],
-      "correctIndex": 0,
-      "explanation": "Divide $xy = ax + b$ and $x2y = a + \\frac{b}{x}$, which is $y = b(\\frac{1}{x}) + a$. So $m = b2c = a$.\n\n**Common mistake:** Failing to rearrange the terms correctly to match the requested $y$. $1/x$ format."
+      "correctIndex": 1,
+      "explanation": "Rearranging $xy = ax + b$ gives $y = a + \\frac{b}{x}$. Plotting $y$ against $\\frac{1}{x}$, the gradient is $b$ and the intercept is $a$.\n\n**Common mistake:** Swapping the roles of $a$ and $b$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q6",
       "type": "mcq",
-      "question": "A graph of $xy$. $x^2$ is a straight line with gradient 3 and intercept 7. Find the equation for $y$ and $x$.",
+      "question": "A graph of $xy$ against $x^2$ is a straight line with gradient 3 and intercept 7. Find an equation for $y$ in terms of $x$.",
       "options": [
         "$y = 3x + \\frac{7}{x}$",
         "$y = 3x^2 + 7$",
@@ -84,41 +84,41 @@
         "$y = \\frac{3}{x} + 7$"
       ],
       "correctIndex": 0,
-      "explanation": "The linear equation is $xy = 3x^2 + 7$. Dividing both sides by $x$. So $y = 3x + \\frac{7}{x}$.\n\n**Common mistake:** Forgetting to divide the intercept term by $x$ and $y$."
+      "explanation": "The linear equation is $xy = 3x^2 + 7$. Dividing both sides by $x$ gives $y = 3x + \\frac{7}{x}$.\n\n**Common mistake:** Forgetting to divide the intercept term by $x$ when converting back to $y$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q7",
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = ab^x$. $\\ln y2x$. $(0, 2)$ and $(4, 10)$. Find the value of $b$.",
+      "question": "Variables $x$ and $y$ are related by $y = ab^x$. A plot of $\\ln y$ against $x$ passes through $(0, 2)$ and $(4, 10)$. Find the value of $b$.",
       "options": [
         "$e^2$",
-        "2",
+        "$2$",
         "$e^8$",
-        "4"
+        "$4$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\ln y = x \\ln b + \\ln a$. So $m = \\ln b = \\frac{10-2}{4-0} = 2$. Therefore, $b = e^2$.\n\n**Common mistake:** Identifying the gradient as $b$. $\\ln b$."
+      "explanation": "$\\ln y = x \\ln b + \\ln a$. So $m = \\ln b = \\frac{10-2}{4-0} = 2$. Therefore, $b = e^2$.\n\n**Common mistake:** Identifying the gradient as $b$ instead of $\\ln b$."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q8",
       "type": "mcq",
-      "question": "Transform $y = \\frac{a}{x} + bx$. So $Y = mX + c2Y = x y$ and $X2m$?",
+      "question": "Transform $y = \\frac{a}{x} + bx$ into the form $Y = mX + c$. What are $Y$, $X$, and $m$?",
       "options": [
         "$X = x^2$ and $m = b$",
-        "$X = x$. So $m = a$",
+        "$X = x^2$ and $m = a$",
         "$X = x^2$ and $m = a$",
         "$X = \\frac{1}{x}$ and $m = b$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiplying by $x$. So $xy = a + bx^2$. Rearranging to $Y = mX + c$. So $xy = b(x^2) + a2X = x^2$ and $m = b$.\n\n**Common mistake:** Misidentifying the gradient as $a$ because it is the first constant mentioned in the original equation."
+      "explanation": "Multiplying by $x$ gives $xy = a + bx^2$. Rearranging to $Y = mX + c$ with $Y = xy$, $X = x^2$, and $m = b$.\n\n**Common mistake:** Misidentifying the gradient as $a$ because it is the first constant mentioned in the original equation."
     },
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q9",
       "type": "mcq",
-      "question": "The law $y = k x^n$. $\\lg y2\\lg x$. $(1, 3)$, find the value of $k$.",
+      "question": "The law $y = k x^n$ is linearised by plotting $\\lg y$ against $\\lg x$. The straight line has gradient $-2$ and passes through $(1, 3)$. Find the value of $k$.",
       "options": [
-        "10⁵",
-        "10³",
+        "$10^5$",
+        "$10^3$",
         "5",
         "0.1"
       ],
@@ -128,7 +128,7 @@
     {
       "id": "5-7-converting-non-linear-laws-to-linear-form-medium-q10",
       "type": "mcq",
-      "question": "A straight line is obtained by plotting $\\frac{1}{y}$ against $x^2$. The line has a gradient of 0.4 and passes through $(5, 3)$. Find $y$. So $x=0$.",
+      "question": "A straight line is obtained by plotting $\\frac{1}{y}$ against $x^2$. The line has gradient 0.4 and passes through $(5, 3)$. Find $y$ when $x = 0$.",
       "options": [
         "1",
         "3",

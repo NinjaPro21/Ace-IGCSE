@@ -45,7 +45,7 @@
         "0.02"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating $-16/x$. $2x - 16/x^2$."
+      "explanation": "$\\frac{dy}{dx}$ = 2x + 16/x^2. At x=4, $\\frac{dy}{dx}$ = 8 + 16/16 = 9. δx = 0.02. δy ≈ 9(0.02) = 0.18.\n\n**Common mistake:** Sign errors when differentiating -16/x\n\n$22x - 16/x^2$."
     },
     {
       "id": "12-6-small-increments-and-approximations-pyp-q4",
@@ -71,7 +71,7 @@
         "-1%"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx}$ = -2/x³. δy ≈ (-2/x³) δx. % change y = (δy/y) × 100 = ((-2/x³) δx / (1/x^2)) × 100 = -2(δx/x) × 100 = -2(2%) = -4%.\n\n**Common mistake:** Thinking the change is positive or simply squaring the change in $x$."
+      "explanation": "$\\frac{dy}{dx}$ = -2/x^3. δy ≈ (-2/x^3) δx. % change y = (δy/y) × 100 = ((-2/x^3) δx / (1/x^2)) × 100 = -2(δx/x) × 100 = -2(2%) = -4%.\n\n**Common mistake:** Thinking the change is positive or simply squaring the change in $x$."
     }
   ]
 }

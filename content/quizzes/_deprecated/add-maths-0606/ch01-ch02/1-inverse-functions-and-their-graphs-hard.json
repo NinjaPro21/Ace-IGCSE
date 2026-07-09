@@ -1,0 +1,142 @@
+{
+  "id": "1-inverse-functions-and-their-graphs-hard",
+  "topicId": "1-inverse-functions-and-their-graphs",
+  "chapterId": "ch01-functions",
+  "difficulty": "hard",
+  "title": "Inverse Functions and their Graphs — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q1",
+      "type": "mcq",
+      "question": "The function f is defined as $f(x)= x^{2}$-8x+20 for $x \\ge 4$. Find the expression for $f^{-1}(x)$.",
+      "options": [
+        "$f^{-1}(x)=4+\\sqrt{x-4}$",
+        "$f^{-1}(x)=4-\\sqrt{x-4}$",
+        "$f^{-1}(x)=\\sqrt{x-20+8}$",
+        "$f^{-1}(x)= \\frac{x-2}{8}$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Complete the square: $f(x)=(x-4)^{2}+4$. Swap: x= (y-4)^{2}+4 \\implies x-4= (y-4)^{2}impliesy-4=±\\sqrt{x}-4. Since domain $x \\ge 4$, we take the positive root: y=4+\\sqrt{x}-4.\n\n**Common mistake:** Students often forget to take only the positive root or fail to complete the square correctly before attempting to invert the quadratic."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q2",
+      "type": "mcq",
+      "question": "Determine the domain of the inverse function $f^{-1}$ for $f(x)=\\frac{4}{x+2-3} where x>-2$.",
+      "options": [
+        "$x>-3$",
+        "$x \\neq -3$",
+        "x∈R",
+        "$x<-3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "The domain of $f^{-1}$ is the range of f. For x>-2, 4/(x+2) is always positive, so 4/(x+2)-3 is always greater than -3. Range of f is y>-3, so domain of $f^{-1}$ is x>-3.\n\n**Common mistake:** Misidentifying the horizontal asymptote or assuming the domain restriction from the original function applies to the inverse."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q3",
+      "type": "mcq",
+      "question": "Find the inverse function $f^{-1}(x) for$f(x)=|x-2|+5 restricted to the domain $x \\ge 2\n\n$.",
+      "options": [
+        "$f^{-1}(x)=x-3$",
+        "$f^{-1}(x)=x+3$",
+        "$f^{-1}(x)=x-7$",
+        "$f^{-1}(x)=x+7$"
+      ],
+      "correctIndex": 0,
+      "explanation": "For $x \\ge 2$, $f(x)=(x-2)+5=x+3$. The inverse of y=x+3 is y=x-3.\n\n**Common mistake:** Students may struggle with the modulus sign, forgetting that the domain restriction allows them to remove the modulus bars algebraically."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q4",
+      "type": "mcq",
+      "question": "$If f(x)= \\frac{ax+}{1x-2} is its own inverse (a self-inverse function), find the value of the constant a.",
+      "options": [
+        "2",
+        "-2",
+        "1",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Finding $f^{-1}$: x(y-2)=ay+1 \\implies xy-2x=ay+1 \\implies y(x-a)=2x+1 \\implies y=(2x+1)/(x-a). For this to equal (ax+1)/(x-2), a must be 2.\n\n**Common mistake:** Algebraic errors when equating coefficients or forgetting the condition $f(x)= f^{-1}(x)$."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q5",
+      "type": "mcq",
+      "question": "A function is defined as $f(x)=\\frac{2x-5}{3x+1}$ for x \\neq -1/3. Find the range of $f^{-1}$if the domain of f is x>0.",
+      "options": [
+        "$y>0$",
+        "$y<-5$",
+        "$y \\neq 2/3$",
+        "y∈R"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range of $f^{-1}$ is the domain of f. Since the domain of f is x>0, the range of $f^{-1}$ is y>0.\n\n**Common mistake:** Calculating the range of the given f and incorrectly identifying that as the range of the inverse function."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q6",
+      "type": "mcq",
+      "question": "The graph of y=f(x) is a portion of a circle $(x-5)^{2}$+$y^{2}$=25 for $x \\ge 5$,$y \\ge 0$. Determine the coordinates of the point where f and $f^{-1}$intersect.",
+      "options": [
+        "(5+\\sqrt{12}.5,5+\\sqrt{12}.5)",
+        "$(5,5)$",
+        "$(10,10)$",
+        "$(0,0)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $(x-5)^{2}$+$x^{2}$=25 \\implies $x^{2}$-10x+25+$x^{2}$=25 \\implies 2$x^{2}$-10x=0 \\implies 2x(x-5)=0. Solutions x=0,5. Since domain is $x \\ge 5$, point is (5,5).\n\n**Common mistake:** Failing to check the domain restriction and picking (0,0) or (10,10) from an incomplete calculation."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q7",
+      "type": "mcq",
+      "question": "Consider $f(x)= x^{2}$-4x+6 for $x \\ge 2$. At what point does the graph of f intersect the line y=x?",
+      "options": [
+        "(2,2) and (3,3)",
+        "(2,2) only",
+        "(3,3) only",
+        "No intersection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solve $x^{2}$-4x+6=x \\implies $x^{2}$-5x+6=0 \\implies (x-2)(x-3)=0. Since both x=2 and x=3 are in the domain, both are valid.\n\n**Common mistake:** Ignoring one of the roots or incorrectly solving the quadratic equation."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q8",
+      "type": "mcq",
+      "question": "The graph of y=f(x) is symmetric about the line y=x. What can be concluded about the function f?",
+      "options": [
+        "It is a self-inverse function, $f(x)= f^{-1}(x)$",
+        "It is a linear function with gradient 1",
+        "It is a quadratic with vertex on the origin",
+        "It is not a one-to-one function"
+      ],
+      "correctIndex": 0,
+      "explanation": "If a graph is its own reflection in y=x, then the original function and the inverse function are identical.\n\n**Common mistake:** Assuming the symmetry implies it must be y=x itself, rather than any self-inverse function like y=1/x or y=k-x."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q9",
+      "type": "mcq",
+      "question": "Sketch y=f(x) and y= $f^{-1}(x) for f(x)=e^x^2 Describe the behavior of$f^{-1}(x) as x approaches 0 from the positive side.",
+      "options": [
+        "It approaches -∞",
+        "It approaches 1",
+        "It approaches 0",
+        "It is undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since e^x\nhas a horizontal asymptote y=0 as x→-∞, the inverse (natural log) has a vertical asymptote x=0 as y→-∞.\n\n**Common mistake:** Failing to translate horizontal asymptotic behavior into vertical asymptotic behavior for the inverse graph."
+    },
+    {
+      "id": "1-inverse-functions-and-their-graphs-hard-q10",
+      "type": "mcq",
+      "question": "The graph of y=f(x) for $x \\ge 0$ is a straight line segment from (0,2) to (4,10). Find the coordinates of the midpoint of the reflected segment y= $f^{-1}(x)$.",
+      "options": [
+        "$(6,2)$",
+        "$(2,6)$",
+        "$(4,6)$",
+        "$(5,5)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflected points are (2,0) and (10,4). Midpoint =((2+10)/2,(0+4)/2)=(6,2).\n\n**Common mistake:** Calculating the midpoint of the original segment (2,6) and forgetting to reflect it, or reflecting the original midpoint incorrectly."
+    }
+  ]
+}

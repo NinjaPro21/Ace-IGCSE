@@ -1,0 +1,77 @@
+{
+  "id": "6-linear-law-converting-non-linear-to-linear-for-hard",
+  "topicId": "6-linear-law-converting-non-linear-to-linear-for",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "hard",
+  "title": "Linear Law (Converting Non-Linear to Linear Form) — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The variables $x$ and $y$ and $y$ = \\frac{a}{x^2 + b}$. To obtain a straight line,$1/y2x^2$. Find an expression for the gradient in terms of$a$and$b.",
+      "options": [
+        "$1/a$",
+        "$a$",
+        "b/a",
+        "$1/b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$1/y = (x^2 + b)/a \\Rightarrow 1/y = (1/a)x^2 + (b/a)$. The gradient is the coefficient of $x^2$, which is $1/a$.\n\n**Common mistake:** Option C is the y-intercept of the linearized graph.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-hard-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Given $y^n = Ax^b$. $\\lg y2\\lg x$. Find the gradient of this line.",
+      "options": [
+        "$b/n$",
+        "$b$",
+        "$n/b$",
+        "$\\lg A$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$n \\lg y = b \\lg x + \\lg A \\Rightarrow \\lg y = (b/n) \\lg x + (1/n) \\lg A$. So $m = b/n$.\n\n**Common mistake:** Option B ignores the power $n$ on the dependent variable.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-hard-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "A line passes through $(\\lg 2, \\lg 18)$ and $(\\lg 5, \\lg 112.5)$ on a graph of $\\lg y$. $\\lg x2n$. So $y = ax^n$.",
+      "options": [
+        "2",
+        "3",
+        "1.5",
+        "2.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient $n = (\\lg 112.5 - \\lg 18) / (\\lg 5 - \\lg 2) = \\lg(112.5/18) / \\lg(2.5) = \\lg(6.25) / \\lg(2.5) = 2$ (since $2.5^2 = 6.25$).\n\n**Common mistake:** Option C results from dividing the log values directly instead of using the log subtraction property.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-hard-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "Convert $y = \\frac{x}{ax + b}$ into a linear form $Y = mX + c$. So $Y = x/y$. What is the gradient?",
+      "options": [
+        "$a$",
+        "$b$",
+        "$1/a$",
+        "$1/b$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$y = x / (ax+b) \\Rightarrow 1/y = (ax+b)/x \\Rightarrow 1/y = a + b/x$ and $x$ and $x$/y = ax + b$and$a$$.\n\n**Common mistake:** Option B is the intercept for this specific transformation.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-hard-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "The graph of $xy$. $x^2$ is a straight line with gradient $m  and c2y$. $x, m,$ and $c$.",
+      "options": [
+        "$y = mx + c/x$",
+        "$y = mx^2 + c$",
+        "$y = mx + c$",
+        "$y = m/x + c$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$xy = m(x^2) + c$ and $x$ and $y$ = mx + c/x$$.\n\n**Common mistake:** Option B is the equation for $xy$ and $y$ as the subject.",
+      "id": "6-linear-law-converting-non-linear-to-linear-for-hard-q5"
+    }
+  ]
+}

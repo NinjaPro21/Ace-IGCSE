@@ -19,7 +19,7 @@
         "$(-3, 32)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$. Substitute $x = 3$ into the original function: $y = (3)² - 6(3) + 5 = 9 - 18 + 5 = -4$.nature is minimum because $\\frac{d^2y}{dx^2} = 2 > 0$.\n\n**Common mistake:** The student might find the correct $x$ and $y$."
+      "explanation": "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$. Substitute $x = 3$ into the original function: $y = (3)² - 6(3) + 5 = 9 - 18 + 5 = -4$.nature is minimum because $\\frac{d^2y}{dx^2} = 2 > 0$.\n\n**Common mistake:** The student might find the correct $x$ and $y."
     },
     {
       "id": "9-7-differentiation-hard-q2",
@@ -37,7 +37,7 @@
     {
       "id": "9-7-differentiation-hard-q3",
       "type": "mcq",
-      "question": "The curve $y = ax^2 + bx + 2$ passes through the point $(1, 6)$ and has a gradient of^7 at that point. Find the values of $a$ and $b$.",
+      "question": "The curve $y = ax^2 + bx + 2$ passes through the point $(1, 6)$ and has a gradient of^7 at that point. Find the values of $a$ and $b.",
       "options": [
         "$a = 3, b = 1$",
         "$a = 1, b = 3$",

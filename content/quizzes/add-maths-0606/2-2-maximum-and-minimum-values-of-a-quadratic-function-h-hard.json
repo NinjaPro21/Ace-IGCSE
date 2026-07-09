@@ -11,20 +11,20 @@
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-hard-q1",
       "type": "mcq",
-      "question": "Express y=2$x^{2}$-12x+7 in the form a$(x-h)^{2}$+k.",
+      "question": "Express y= 2x^{2}-12x+7 in the form a$(x-h)^{2}+k$.",
       "options": [
-        "2$(x-3)^{2}$-11",
-        "2$(x-3)^{2}$+7",
-        "2$(x-6)^{2}$-29",
-        "2$(x-3)^{2}$-2"
+        "$2(x-3)^{2}-11$",
+        "$2(x-3)^{2}+7$",
+        "$2(x-6)^{2}-29$",
+        "$2(x-3)^{2}-2$"
       ],
       "correctIndex": 0,
-      "explanation": "2($x^{2}$-6x)+7=2[$(x-3)^{2}$-9]+7=2$(x-3)^{2}$-18+7=2$(x-3)^{2}$-11.\n\n**Common mistake:** Forgetting to multiply the subtracted (b/2$)^{2}$term by the leading coefficient a when moving it outside the brackets."
+      "explanation": "$2(x^{2}-6x)+7=2[(x-3)^{2}-9]+7=2(x-3)^{2}-18+7=2(x-3)^{2}-11$.\n\n**Common mistake:** Forgetting to multiply the subtracted $(b/2)^{2}$ term by the leading coefficient $a$ when moving it outside the brackets."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-hard-q2",
       "type": "mcq",
-      "question": "The maximum value of f(x)=k-3$(x+1)^{2}$ is 12. Find the value of f(1).",
+      "question": "The maximum value of $f(x)=k-3 (x+1)^{2}$ is 12. Find the value of f(1).",
       "options": [
         "0",
         "12",
@@ -32,7 +32,7 @@
         "-12"
       ],
       "correctIndex": 0,
-      "explanation": "The max value is k, so k=12. The function is f(x)=12-3$(x+1)^{2}$. Evaluating f(1)=12-3$(1+1)^{2}$=12-3(4)=0.\n\n**Common mistake:** Misidentifying k or making arithmetic errors when evaluating the function with the square term."
+      "explanation": "The maximum value is $k$, so $k=12$. The function is $f(x)=12-3(x+1)^{2}$. Evaluating $f(1)=12-3(1+1)^{2}=12-12=0$.\n\n**Common mistake:** Misidentifying $k$ or making arithmetic errors when evaluating the function with the square term."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-hard-q3",
@@ -45,33 +45,33 @@
         "Minimum at (5, 4)"
       ],
       "correctIndex": 0,
-      "explanation": "The expression $(4-x)^{2}$ is equivalent to $(x-4)^{2}$. The function is y=-$(x-4)^{2}$+5. The vertex is (4,5) and since a=-1, it is a maximum.\n\n**Common mistake:** Struggling with the (4-x) term and incorrectly concluding the vertex is at x=-4."
+      "explanation": "The expression $(4-x)^{2}$ is equivalent to $(x-4)^{2}$. The function is y=-$(x-4)^{2}+5. The vertex is (4,5) and since a=-1, it is a maximum$.\n\n**Common mistake:** Struggling with the (4-x) term and incorrectly concluding the vertex is at x=-4."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-hard-q4",
       "type": "mcq",
-      "question": "A quadratic curve has a minimum value of -3 at x=1. If the curve passes through the point (0,1), find its equation in the form y=a$(x-h)^{2}$+k.",
+      "question": "A quadratic curve has a minimum value of -3 at x=1. If the curve passes through the point (0,1), find its equation in the form y=a$(x-h)^{2}+k$.",
       "options": [
-        "y=4$(x-1)^{2}$-3",
-        "y= (x-1)^{2}-3",
-        "y=4$(x+1)^{2}$-3",
-        "y=2$(x-1)^{2}$-3"
+        "$y= 4(x-1)^{2}-3$",
+        "$y= (x-1)^{2}-3$",
+        "$y= 4(x+1)^{2}-3$",
+        "$y= 2(x-1)^{2}-3$"
       ],
       "correctIndex": 0,
-      "explanation": "Equation is y=a$(x-1)^{2}$-3. Substitute (0,1):1=a$(0-1)^{2}$-3 \\implies 1=a-3 \\implies a=4.\n\n**Common mistake:** Failing to solve for the leading coefficient a and assuming it must be 1."
+      "explanation": "Equation is y=a$(x-1)^{2}-3$. Substitute (0,1):1=a\n\n$$\n(0-1)^{2}-3 \\implies 1=a-3 \\implies a=4.\n$$\n\n**Common mistake:** Failing to solve for the leading coefficient a and assuming it must be 1."
     },
     {
       "id": "2-2-maximum-and-minimum-values-of-a-quadratic-function-h-hard-q5",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=3+12x-2$x^{2}$ for $x \\in \\mathbb{R}$.",
+      "question": "Find the range of the function $f(x)=3+12x-2x^2 for x \\in \\mathbb{R}\n\n$.",
       "options": [
-        "f(x)≤21",
-        "f(x)≥21",
-        "f(x)≤3",
-        "f(x)≥-15"
+        "$f(x)≤21$",
+        "$f(x)≥21$",
+        "$f(x)≤3$",
+        "$f(x)≥-15$"
       ],
       "correctIndex": 0,
-      "explanation": "x=-b/2a=-12/(-4)=3. f(3)=3+12(3)-2$(3)^{2}$=3+36-18=21. Since a is negative, the range is y≤21.\n\n**Common mistake:** Choosing the 'greater than' sign for a maximum value or miscalculating the y-coordinate of the vertex."
+      "explanation": "x=-b/2a=-12/(-4)=3. f(3)=3+12(3)-$2(3)^{2}=3+36-18=21$. Since a is negative, the range is $y \\le 21$.\n\n**Common mistake:** Choosing the 'greater than' sign for a maximum value or miscalculating the y-coordinate of the vertex."
     }
   ]
 }

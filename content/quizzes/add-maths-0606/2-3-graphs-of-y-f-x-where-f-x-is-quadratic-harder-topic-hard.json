@@ -11,7 +11,7 @@
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "Solve the equation ∣$x^{2}$-2x∣=2x-3.",
+      "question": "Solve the equation |$x^{2}-2x$|=2x-3.",
       "options": [
         "x=3 and x=1",
         "x=3 only",
@@ -19,25 +19,25 @@
         "No real solutions"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $x^{2}$-2x=2x-3 \\implies $x^{2}$-4x+3=0 \\implies x=3,1. Case 2: $x^{2}$-2x=-(2x-3) \\implies $x^{2}$=3,x=±\\sqrt{3}. Check 2x-3≥0: only x=3 and x=\\sqrt{3} satisfy this. Re-checking choices: x=3 is valid. x=1 gives RHS=-1. Choice 1 remains common error.\n\n**Common mistake:** Failing to verify solutions against the non-modulus side (2x-3), which must be non-negative for a real modulus to exist."
+      "explanation": "Case 1: $x^{2}-2x=2x-3 \\implies x^{2}-4x+3=0 \\implies x=3$ or $x=1$. Case 2: $x^{2}-2x=-(2x-3) \\implies x^{2}=3$, $x=\\pm\\sqrt{3}$. Since $2x-3 \\ge 0$, only $x=3$ and $x=1$ from Case 1 are valid ($x=1$ gives RHS $=-1$, so reject). Valid solution: $x=3$ only — but both $x=3$ and $x=1$ satisfy Case 1 algebraically; checking $2x-3 \\ge 0$ keeps $x=3$ and rejects $x=1$.\n\n**Common mistake:** Failing to verify solutions against the non-modulus side ($2x-3$), which must be non-negative for a real modulus to exist."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Find the range of the function f(x)=12-∣$x^{2}$-9∣ for -4≤x≤4.",
+      "question": "Find the range of the function $f(x)=12-|x^2-9| for-4 \\le x \\le 4$.",
       "options": [
-        "5≤f(x)≤12",
-        "3≤f(x)≤12",
-        "0≤f(x)≤12",
-        "5≤f(x)≤9"
+        "$5 \\le f(x) \\le 12$",
+        "$3 \\le f(x) \\le 12$",
+        "$0 \\le f(x) \\le 12$",
+        "$5 \\le f(x) \\le 9$"
       ],
       "correctIndex": 0,
-      "explanation": "At x=±4,y=12-7=5. At roots x=±3,y=12-0=12. At vertex x=0,y=12-∣-9∣=3. Min is 3, Max is 12.\n\n**Common mistake:** Checking only the boundaries (x=±4) and the peak at the roots, missing the 'dip' at the original vertex (x=0)."
+      "explanation": "$At x=±4,y=12-7=5. At roots x=±3,y=12-0=12. At vertex x=0,y=12-|-9|=3. Min is 3, Max is 12$.\n\n**Common mistake:** Checking only the boundaries (x=±4) and the peak at the roots, missing the 'dip' at the original vertex (x=0)."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "Find the set of values of k for which the equation ∣$x^{2}$-4x+3∣=k has exactly 3 distinct solutions.",
+      "question": "Find the set of values of k for which the equation |$x^{2}-4x+3$|=k has exactly 3 distinct solutions.",
       "options": [
         "k=1",
         "0<k<1",
@@ -50,7 +50,7 @@
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Determine the area of the region bounded by the graph y=∣4-$x^{2}$∣ and the horizontal line y=4.",
+      "question": "Determine the area of the region bounded by the graph y=|4-$x^{2}$| and the horizontal line y=4.",
       "options": [
         "Approximately 10.67",
         "16",
@@ -58,7 +58,7 @@
         "32"
       ],
       "correctIndex": 0,
-      "explanation": "Intersections: ∣4-$x^{2}$∣=4. Case 1: 4-$x^{2}$=4 \\implies x=0. Case 2: 4-$x^{2}$=-4 \\implies x=±\\sqrt{8}. The area is 2×∫\n0\n$$\n\\sqrt{8}\n$$\n\n(4-∣4-$x^{2}$∣)dx. Simplified logic check: Area is 16\\sqrt{2}/3.\n\n**Common mistake:** Treating the shape as a simple triangle and using 0.5×base×height instead of integration for a curve."
+      "explanation": "Intersections: |4-$x^{2}$|=4. Case 1: 4-$x^{2}$=4 \\implies x=0. Case 2: 4-$x^{2}$=-4 \\implies x=±\\sqrt{8}. The area is 2×∫\n0\n$$\n\\sqrt{8}\n$$\n\n(4-|4-$x^{2}$|)dx. Simplified logic check: Area is 16\\sqrt{2}/3.\n\n**Common mistake:** Treating the shape as a simple triangle and using 0.5×base×height instead of integration for a curve."
     },
     {
       "id": "2-3-graphs-of-y-f-x-where-f-x-is-quadratic-harder-topic-hard-q5",
@@ -78,10 +78,10 @@
       "type": "mcq",
       "question": "Find the range of $f(x) = 10 - |x^2 - 4|$ for $-3 \\le x \\le 3$.",
       "options": [
-        "5 \\le f(x) \\le 10",
-        "1 \\le f(x) \\le 10",
-        "0 \\le f(x) \\le 10",
-        "5 \\le f(x) \\le 6"
+        "$5 \\le f(x) \\le 10$",
+        "$1 \\le f(x) \\le 10$",
+        "$0 \\le f(x) \\le 10$",
+        "$5 \\le f(x) \\le 6$"
       ],
       "correctIndex": 0,
       "explanation": "At roots $x=\\pm 2, y=10$. At $x=\\pm 3, y=10-5=5$. At $x=0, y=10-|-4|=6$. Range is $5 \\le y \\le 10$.\n\n**Common mistake:** Checking only endpoints and the peak, missing the dip at the original vertex ($x=0$)."

@@ -45,12 +45,12 @@
         "$0$"
       ],
       "correctIndex": 0,
-      "explanation": "This implies $\\cos 2x = \\pm 2/3$. For $0 \\le 2x \\le 2\\pi . \\cos 2x22/3$ twice and $-2/3$ twice, totaling 4 solutions.\n\n**Common mistake:** Option B occurs if the student ignores the modulus and only solves $\\cos 2x = 2/3$."
+      "explanation": "$|3\\cos 2x| = 2 \\implies |\\cos 2x| = \\frac{2}{3}$. For $0 \\le 2x \\le 2\\pi$, each of $\\cos 2x = \\frac{2}{3}$ and $\\cos 2x = -\\frac{2}{3}$ has two solutions, giving $4$ solutions in total.\n\n**Common mistake:** Ignoring the modulus and solving only $\\cos 2x = \\frac{2}{3}$."
     },
     {
       "id": "9-2-9-3-general-angles-and-the-cast-diagram-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Given $\\sin \\theta = a$. So $\\cos \\theta = b2\\tan(\\theta - 180^\\circ)$.",
+      "question": "Given $\\sin \\theta = a$ and $\\cos \\theta = b$, express $\\tan(\\theta - 180^\\circ)$ in terms of $a$ and $b$.",
       "options": [
         "$\\frac{a}{b}$",
         "$-\\frac{a}{b}$",

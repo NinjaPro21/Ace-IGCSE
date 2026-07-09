@@ -19,7 +19,7 @@
         "$a$"
       ],
       "correctIndex": 0,
-      "explanation": "The remainder theorem states that when a polynomial $f(x)$ is divided by $(x - a)$, the remainder is the value of the function evaluated at $a$.\n\n**Common mistake:** Students often confuse the remainder theorem with the factor theorem and assume the remainder must be 0, or they fail to change the sign of $a$. $f(-a)$."
+      "explanation": "The remainder theorem states that when a polynomial $f(x)$ is divided by $(x - a)$, the remainder is the value of the function evaluated at $a$.\n\n\n\n\n**Common mistake:** Students often confuse the remainder theorem with the factor theorem and assume the remainder must be 0, or they fail to change the sign of $a$. $f(-a)$."
     },
     {
       "id": "3-5-the-remainder-theorem-harder-topic-easy-q2",
@@ -32,7 +32,7 @@
         "6"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 1$ into $P(x)$: $P(1) = (1)³ - 2(1) + 5 = 1 - 2 + 5 = 4$.\n\n**Common mistake:** Arithmetic slips such as $1 - 2 = 1$ or incorrectly substituting $x = -1$ into the expression."
+      "explanation": "Substitute $x = 1$ into $P(x)$: $P(1) = (1)^3 - 2(1) + 5 = 1 - 2 + 5 = 4$.\n\n\n\n\n**Common mistake:** Arithmetic slips such as $1 - 2 = 1$ or incorrectly substituting $x = -1$ into the expression."
     },
     {
       "id": "3-5-the-remainder-theorem-harder-topic-easy-q3",
@@ -45,7 +45,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = -2$ into $f(x)$: $f(-2) = 2(-2)² + 7 = 2(4) + 7 = 15$.\n\n**Common mistake:** Calculating $(-2)²$ as $-4$ instead of^4, which results in $-8 + 7 = -1$, or substituting $x = 2$ instead of $-2$."
+      "explanation": "Substitute $x = -2$: $f(-2) = 2(-2)^2 + 7 = 2(4) + 7 = 15$.\n\n**Common mistake:** Treating $(-2)^2$ as $-4$ instead of $4$, or substituting $x = 2$ instead of $x = -2$."
     },
     {
       "id": "3-5-the-remainder-theorem-harder-topic-easy-q4",
@@ -58,12 +58,12 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "By the remainder theorem, the remainder when $P(x)$ is divided by $(x - c)$ is $P(c)$. Here $c = -3$, so the remainder is $P(-3) = 10$.\n\n**Common mistake:** Students may think the remainder should be the negative of the function value or assume that because the root is $-3$, the remainder must be 0."
+      "explanation": "By the remainder theorem, the remainder when $P(x)$ is divided by $(x - c)$ is $P(c)$. Here $c = -3$, so the remainder is $P(-3) = 10$.\n\n\n\n\n**Common mistake:** Students may think the remainder should be the negative of the function value or assume that because the root is $-3$, the remainder must be 0."
     },
     {
       "id": "3-5-the-remainder-theorem-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "Find the remainder when $x⁴ - 1$ is divided by $(x + 1)$.",
+      "question": "Find the remainder when $x^4 - 1$ is divided by $(x + 1)$.",
       "options": [
         "0",
         "-2",
@@ -71,7 +71,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = -1$: $(-1)⁴ - 1 = 1 - 1 = 0$. Since the remainder is zero, $(x+1)$ is actually a factor.\n\n**Common mistake:** Treating $(-1)⁴$ as $-1$, leading to a remainder of $-2$."
+      "explanation": "Substitute $x = -1$: $(-1)⁴ - 1 = 1 - 1 = 0$. Since the remainder is zero, $(x+1)$ is actually a factor.\n\n\n\n\n**Common mistake:** Treating $(-1)⁴$ as $-1$, leading to a remainder of $-2$."
     }
   ]
 }

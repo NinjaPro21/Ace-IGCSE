@@ -37,15 +37,15 @@
     {
       "id": "8-2-length-of-an-arc-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "A pendulum of length 40 cm swings through an angle of $15^\\circ$ to radians)",
+      "question": "A pendulum of length $40$ cm swings through an angle of $15^\\circ$. Find the length of the arc traced. (Give an exact answer.)",
       "options": [
-        "$10\\pi/3$",
-        "$600\\pi$",
-        "$20\\pi/3$",
-        "10 cm"
+        "$\\frac{10\\pi}{3}$ cm",
+        "$600\\pi$ cm",
+        "$\\frac{20\\pi}{3}$ cm",
+        "$10$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "$\\theta = 15 \\times (\\pi / 180) = \\pi / 12$ rad. Distance $s = 40 \\times (\\pi / 12) = 10\\pi / 3$ cm.\n\n**Common mistake:** Failing to convert the angle to radians or mis-simplifying the $fraction.$"
+      "explanation": "$\\theta = 15 \\times \\frac{\\pi}{180} = \\frac{\\pi}{12}$ rad. Arc length $s = 40 \\times \\frac{\\pi}{12} = \\frac{10\\pi}{3}$ cm.\n\n**Common mistake:** Forgetting to convert to radians before using $s = r\\theta$."
     },
     {
       "id": "8-2-length-of-an-arc-harder-topic-hard-q4",
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "An equilateral triangle is inscribed in a circle of radius $r$. Find the length of the arc between two vertices of the triangle.",
       "options": [
-        "$2\\pi r / 3$",
-        "$\\pi r / 3$",
+        "$\\frac{2\\pi r}{3}$",
+        "$\\frac{\\pi r}{3}$",
         "$\\pi r$",
         "$2r$"
       ],
       "correctIndex": 0,
-      "explanation": "Vertices of an equilateral triangle divide the circle into 3 equal arcs. Central angle $= 2\\pi / 3$. Arc length $= r(2\\pi / 3)$.\n\n**Common mistake:** Using $60^\\circ$. $\\pi / 3$) as the central angle, which is the interior angle of the triangle, not the central angle."
+      "explanation": "Vertices of an equilateral triangle divide the circle into three equal arcs. Central angle $= \\frac{2\\pi}{3}$, so arc length $= r \\times \\frac{2\\pi}{3}$.\n\n**Common mistake:** Using $\\frac{\\pi}{3}$ (triangle interior angle) instead of the central angle."
     }
   ]
 }

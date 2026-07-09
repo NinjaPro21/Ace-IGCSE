@@ -32,7 +32,7 @@
         "120"
       ],
       "correctIndex": 0,
-      "explanation": "Total arrangements $= 6! = 720$. Arrangements where they DO sit together $= 5! \\times 2! = 120 \\times 2 = 240$. $720 - 240 = 480$.\n\n**Common mistake:** Only subtracting $5!$ once or incorrectly calculating $6!$."
+      "explanation": "Total arrangements $= 6! = 720$. Arrangements where they DO sit together $= 5! \\times 2! = 120 \\times 2 = 240$. $720 - 240 = 480$.\n\n**Common mistake:** Only subtracting^5! once or incorrectly calculating^6!."
     },
     {
       "id": "10-3-permutations-harder-topic-hard-q3",
@@ -45,7 +45,7 @@
         "40320"
       ],
       "correctIndex": 0,
-      "explanation": "Consonants: Q, T, N (3 choices). Choose 2 for ends and arrange them: $^3\\text{P}_2 = 6$. Remaining 6 letters in middle: $6! = 720$. Total $= 6 \\times 720 = 4320$.\n\n**Common mistake:** Using $3 \\times 2$ for the ends but then using $8!$ for the whole word, or ignoring the middle letters."
+      "explanation": "Consonants: Q, T, N (3 choices). Choose 2 for ends and arrange them: $^3\\text{P}_2 = 6$. Remaining 6 letters in middle: $6! = 720$. Total $= 6 \\times 720 = 4320$.\n\n**Common mistake:** Using $3 \\times 2$ for the ends but then using^8! for the whole word, or ignoring the middle letters."
     },
     {
       "id": "10-3-permutations-harder-topic-hard-q4",

@@ -32,7 +32,7 @@
         "$-3e^{-x-1}$"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant^5 is $1$. Multiplying by the coefficient^3 gives $-3e^{-x}$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
+      "explanation": "The derivative of $e^{-x}$ is $-e^{-x}$, and the derivative of the constant^5 is $1$. Multiplying by the coefficient^3 gives -3e^{-x}\n\n$$.\n\n**Common mistake:** Option C is a mistake where the student forgets that the derivative of a constant is zero."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-easy-q3",
@@ -78,7 +78,7 @@
       "type": "mcq",
       "question": "Find the derivative of $y = \\ln(5x)$ with respect to $x$.",
       "options": [
-        "1/x",
+        "$1/x$",
         "5/x",
         "1/5x",
         "5 ln x"
@@ -93,7 +93,7 @@
       "options": [
         "1 / (x + 3)",
         "3 / (x + 3)",
-        "1/x",
+        "$1/x$",
         "ln 1"
       ],
       "correctIndex": 0,
@@ -118,7 +118,7 @@
       "question": "Find $f'(x)$ if $f(x) = \\ln(x^2)$.",
       "options": [
         "2/x",
-        "1/x^2",
+        "$1/x^2$",
         "2x",
         "2/x^2"
       ],
@@ -167,7 +167,7 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-easy-q13",
       "type": "mcq",
-      "question": "Calculate the value of the gradient of y=\n$tanx at the point where x= \\frac{\\pi}{4}.$",
+      "question": "Calculate the value of the gradient of y=\n$tanx at the point where x= \\frac{\\pi}{4}$.",
       "options": [
         "2",
         "1",
@@ -175,7 +175,7 @@
         "0.5"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} =$\n\\sec^{2} x. At x= \\frac{\\pi}{4},$$\ncos($\\frac{\\pi}{4}$)= \\frac{1}{sqrt2}, so\nsec($\\frac{\\pi}{4}$)=\\sqrt2. Thus,\n\\sec^{2}$($\\frac{\\pi}{4}$)=2.\n\n**Common mistake:** Option B is the value of the function\ntan($\\frac{\\pi}{4}$), not the value of its derivative."
+      "explanation": "$\\frac{dy}{dx} =$\n\\sec^{2} x. At x= \\frac{\\pi}{4},$$\ncos($\\frac{\\pi}{4}$)= \\frac{1}{sqrt2}, so\nsec($\\frac{\\pi}{4}$)=\\sqrt2. Thus,\n\\sec^{2}$($\\frac{\\pi}{4}$)=2$.\n\n**Common mistake:** Option B is the value of the function\ntan($\\frac{\\pi}{4}$), not the value of its derivative."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-easy-q14",
@@ -193,7 +193,7 @@
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-easy-q15",
       "type": "mcq",
-      "question": "Given f(x)=\n$cos(x-\\frac{\\pi}{2}), find f$\n′\n(x).",
+      "question": "Given $f(x)=\n\n$$\ncos(x-\\frac{\\pi}{2}), find f\n$$\n′\n(x).",
       "options": [
         "-\n$sin(x-\\frac{\\pi}{2})$",
         "$sin(x-\\frac{\\pi}{2})$",
@@ -201,7 +201,7 @@
         "-\ncos(x)"
       ],
       "correctIndex": 0,
-      "explanation": "The derivative of\ncosu is -\nsinu$\\frac{du}{dx}. Here \\frac{du}{dx} = 1, so the derivative is -$\n$sin(x-\\frac{\\pi}{2}).$\n\n**Common mistake:** Option B results from neglecting the negative sign in the derivative of cosine."
+      "explanation": "The derivative of\ncosu is -\nsinu$\\frac{du}{dx}. Here \\frac{du}{dx} = 1, so the derivative is -$sin(x-\\frac{\\pi}{2})$$.\n\n**Common mistake:** Option B results from neglecting the negative sign in the derivative of cosine."
     }
   ]
 }

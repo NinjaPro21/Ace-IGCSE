@@ -32,7 +32,7 @@
         "625"
       ],
       "correctIndex": 0,
-      "explanation": "$a^{1.5} = 125 \\implies a^{3/2} = 125$. Square both sides: $a^3 = 125^2 = 15625$. Cube root: $a = 25$. Alternatively, $(\\sqrt{a})^3 = 5^3 \\implies \\sqrt{a} = 5 \\implies a = 25$.\n\n**Common mistake:** Errors in handling \\frac{1}{a} exponents, often leading to $a = 5$ or $a = 625$."
+      "explanation": "$a^{1.5} = 125 \\implies a^{3/2} = 125$. Square both sides: $a^3 = 125^2 = 15625$, so $a = 25$.\n\n**Common mistake:** Mishandling fractional exponents and getting $a = 5$ or $a = 625$."
     },
     {
       "id": "5-1-introduction-to-logarithms-hard-q3",

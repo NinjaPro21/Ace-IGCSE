@@ -50,7 +50,7 @@
     {
       "id": "5-2-laws-of-logarithms-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "If $x^2 + y^2 = 7xy$. $2 \\lg \\left(\\frac{x+y}{3}\\right) = \\lg x + \\lg y$. Which of the following is the first step in this proof?",
+      "question": "If $x^2 + y^2 = 7xy$, show that $2 \\lg \\left(\\frac{x+y}{3}\\right) = \\lg x + \\lg y$. Which of the following is the first step in this proof?",
       "options": [
         "$(x+y)^2 = x^2 + 2xy + y^2 = 7xy + 2xy = 9xy$",
         "$\\lg (x+y)^2 = \\lg 7xy$",
@@ -58,7 +58,7 @@
         "$x+y = 3\\sqrt{xy}$"
       ],
       "correctIndex": 0,
-      "explanation": "To relate $x+y$. $xy2(x+y)$ and substitute $x^2+y^2=7xy$. $9xy$.\n\n**Common mistake:** Trying to apply logs directly to the original sum $x^2+y^2$, which is not possible using basic log laws."
+      "explanation": "To relate $x+y$ and $xy$, expand $(x+y)^2 = x^2 + 2xy + y^2$. Substituting $x^2+y^2=7xy$ gives $(x+y)^2 = 9xy$.\n\n**Common mistake:** Trying to apply logs directly to the original sum $x^2+y^2$, which is not possible using basic log laws."
     },
     {
       "id": "5-2-laws-of-logarithms-harder-topic-hard-q5",

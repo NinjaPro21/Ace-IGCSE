@@ -32,12 +32,12 @@
         "$x \\le 5$"
       ],
       "correctIndex": 0,
-      "explanation": "For the square root to be real, 25-$x^{2}$≥0, so $x^{2}$≤25, giving -5≤x≤5. Within this interval, f(x) varies from 0 to 5.\n\n**Common mistake:** Students often only consider positive x values (0≤x≤5), forgetting that negative values also satisfy the quadratic inequality."
+      "explanation": "For the square root to be real, 25-$x^{2} \\ge 0$, so $x^{2} \\le 25$, giving $-5 \\le x \\le 5$. Within this interval, f(x) varies from 0 to 5.\n\n**Common mistake:** Students often only consider positive x values ($0 \\le x \\le 5$), forgetting that negative values also satisfy the quadratic inequality."
     },
     {
       "id": "1-2-definition-of-a-function-hard-q3",
       "type": "mcq",
-      "question": "The function f is defined by f(x)= x^{2}-4x+9 for $x \\in \\mathbb{R}$. Find the exact range of f.",
+      "question": "The function f is defined by $f(x)= x^{2}-4x+9 for x \\in \\mathbb{R}$. Find the exact range of f.",
       "options": [
         "$f(x) \\ge 5$",
         "$f(x) \\ge 9$",
@@ -45,7 +45,7 @@
         "$f(x) \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: f(x)= (x-2)^{2}+5. The vertex is (2,5), so the minimum value is 5. Range: y≥5.\n\n**Common mistake:** Identifying the y-intercept (9) or the x-coordinate of the vertex (2) as the range boundary."
+      "explanation": "Complete the square: $f(x)=(x-2)^{2}+5$. The vertex is (2,5), so the minimum value is 5. Range: $y \\ge 5$.\n\n**Common mistake:** Identifying the y-intercept (9) or the x-coordinate of the vertex (2) as the range boundary."
     },
     {
       "id": "1-2-definition-of-a-function-hard-q4",
@@ -63,7 +63,7 @@
     {
       "id": "1-2-definition-of-a-function-hard-q5",
       "type": "mcq",
-      "question": "Given f(x)=3x-k, find the value of k if f(k)=14.",
+      "question": "Given $f(x)=3x-k$, find the value of k if f(k)=14.",
       "options": [
         "7",
         "14",

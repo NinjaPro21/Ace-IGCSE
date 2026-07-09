@@ -11,7 +11,7 @@
     {
       "id": "15-6-integration-of-hard-q1",
       "type": "mcq",
-      "question": "Evaluate $\\int_0^1 \\frac{1}{2x + 1} \\,dx.$.",
+      "question": "Evaluate $\\int_0^1 \\frac{1}{2x + 1} \\,dx$....",
       "options": [
         "ln \\sqrt{3}",
         "ln 3",
@@ -37,12 +37,12 @@
     {
       "id": "15-6-integration-of-hard-q3",
       "type": "mcq",
-      "question": "Find $\\int \\frac{1}{ax + b} \\,dx.$ and $x$.",
+      "question": "Find $\\int \\frac{1}{ax + b} \\,dx$... and $x$.",
       "options": [
         "1/a ln|ax + b| + c, x ≠ -b/a",
-        "ln|ax + b| + c, x > 0",
+        "$ln|ax + b| + c, x > 0$",
         "a ln|ax + b| + c, x ≠ 0",
-        "1/a ln(ax + b) + c, x > -b/a"
+        "$1/a ln(ax + b) + c, x > -b/a$"
       ],
       "correctIndex": 0,
       "explanation": "The expression ax+b cannot be zero as division by zero is undefined.\n\n**Common mistake:** Missing the domain restriction for the original function."
@@ -50,12 +50,12 @@
     {
       "id": "15-6-integration-of-hard-q4",
       "type": "mcq",
-      "question": "Given that $\\int_1^k \\frac{2}{x} \\,dx. = \\ln 9$, find the value of $k$. $k > 1$).",
+      "question": "Given that $\\int_1^k \\frac{2}{x} \\,dx = \\ln 9$, find the value of $k$ ($k > 1$).",
       "options": [
         "3",
         "9",
         "4.5",
-        "$$\n\\sqrt{9}\n"
+        "$\\sqrt{9}$"
       ],
       "correctIndex": 0,
       "explanation": "2[ln x] from 1 to k = 2 ln k = ln(k^2) = ln 9. k^2 = 9 => k = 3.\n\n**Common mistake:** Incorrectly equating 2 ln k = ln 9 as k = 4.5."
@@ -63,7 +63,7 @@
     {
       "id": "15-6-integration-of-hard-q5",
       "type": "mcq",
-      "question": "Find $\\int \\frac{e^x + 1}{e^x} \\,dx.$.",
+      "question": "Find $\\int \\frac{e^x + 1}{e^x} \\,dx$....",
       "options": [
         "x - e^-x + c",
         "ln|e^x| + c",

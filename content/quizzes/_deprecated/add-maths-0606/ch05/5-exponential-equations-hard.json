@@ -1,0 +1,77 @@
+{
+  "id": "5-exponential-equations-hard",
+  "topicId": "5-exponential-equations",
+  "chapterId": "ch05-logarithms",
+  "difficulty": "hard",
+  "title": "Exponential Equations — Hard",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "5-exponential-equations-hard-q1",
+      "type": "mcq",
+      "question": "Find the exact values of $x$. $(\\log_2 x)^2 - \\log_2(x^3) - 4 = 0$ .",
+      "options": [
+        "$x = 16$ or $x = \\frac{1}{2}$",
+        "$x = 4$ or $x = -1$",
+        "$x = 8$ or $x = 2$",
+        "$x = 16$ or $x = 2$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using log laws, rewrite $\\log_2(x^3)$ as $3\\log_2 x$. So $u = \\log_2 x2u^2 - 3u - 4 = 0 \\implies (u-4)(u+1) = 0$ . Thus $\\log_2 x = 4 \\implies x = 16$ , or \\log_2 x = -1 \\implies x = \\frac{1}{2}2\n\n**Common mistake:** Option B reflects the intermediate roots for $u$ and $x$ by exponentiating with base 2."
+    },
+    {
+      "id": "5-exponential-equations-hard-q2",
+      "type": "mcq",
+      "question": "Solve the inequality $\\log_{0.5}(x - 2) > 3$ .",
+      "options": [
+        "$2 < x < 2.125$",
+        "$x > 2.125$",
+        "$x < 2.125$",
+        "$2.125 < x < 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the base is $0.5 < 1$ , reversing the inequality sign gives $x - 2 < (0.5)^3 \\implies x - 2 < 0.125 \\implies x < 2.125$ . Additionally, the argument must be strictly positive, so $x - 2 > 0 \\implies x > 2$ . Combining these gives $2 < x < 2.125$ .\n\n**Common mistake:** Option C is incomplete because the student forgot to impose the fundamental constraint that the logarithmic argument $(x - 2)$ must be greater than zero."
+    },
+    {
+      "id": "5-exponential-equations-hard-q3",
+      "type": "mcq",
+      "question": "Solve the equation $4^x - 3 \\times 2^{x+1} + 8 = 0$ .",
+      "options": [
+        "$x = 1$ or $x = 2$",
+        "$x = 2$ or $x = 4$",
+        "$x = 1$",
+        "$x = 0$ or $x = 3$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rewrite $4^x$. $(2^x)^2$ and $2^{x+1}$ as $2 \\cdot 2^x$. $(2^x)^2 - 6(2^x) + 8 = 0$ . Factoring yields $(2^x - 2)(2^x - 4) = 0 \\implies 2^x = 2$ or $2^x = 4$ , giving $x = 1$ or $x = 2$ .\n\n**Common mistake:** Option B displays the solutions for $2^x$ and $x$ ."
+    },
+    {
+      "type": "mcq",
+      "question": "Solve $2^{x+1} = 5^{x-1}$, giving your answer to 2 decimal places.",
+      "options": [
+        "1.76",
+        "2.51",
+        "3.11",
+        "4.22"
+      ],
+      "correctIndex": 1,
+      "explanation": "Take logs: $(x+1)\\lg 2 = (x-1)\\lg 5 \\Rightarrow x\\lg 2 + \\lg 2 = x\\lg 5 - \\lg 5 \\Rightarrow \\lg 2 + \\lg 5 = x(\\lg 5 - \\lg 2) \\Rightarrow 1 = x\\lg 2.5 \\Rightarrow x = 1/\\lg 2.5 \\approx 2.51$.\n\n**Common mistake:** Incorrectly expanding $(x+1)\\lg 2$ or failing to collect like terms of $x$ on one side.",
+      "id": "5-exponential-equations-hard-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Find the values of when $e^{2x} - 5e^x + 6 = 0$.",
+      "options": [
+        "ln 2 or ln 3",
+        "2 or 3",
+        "ln 5 or ln 6",
+        "ln 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a quadratic in $e^x$. $(e^x - 2)(e^x - 3) = 0 \\Rightarrow e^x = 2$ or $e^x = 3$. Taking natural logs gives $x = \\ln 2$ or $x = \\ln 3$.\n\n**Common mistake:** Choosing Option B by forgetting to apply the natural logarithm to the quadratic roots.",
+      "id": "5-exponential-equations-hard-q5"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { QuizScopeBadge } from '@/components/QuizScopeBadge'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { MathText } from '@/components/MathText'
 import { useMastery } from '@/features/mastery/MasteryContext'
@@ -363,7 +364,7 @@ export function QuizArena() {
               to={`/subjects/${chapter.subjectId}/chapters/${chapter.id}/topics/${backTopic.id}`}
               variant="outline"
             >
-              Back to section
+              Back to {isTopicQuiz ? 'section' : 'chapter'}
             </EnlightButton>
           )}
         </div>
@@ -387,7 +388,7 @@ export function QuizArena() {
               : 'No questions are available for this quiz yet.'}
           </p>
           <EnlightButton to={lessonUrl} variant="outline">
-            Back to section
+            Back to {isTopicQuiz ? 'section' : 'chapter'}
           </EnlightButton>
         </div>
       </div>
@@ -514,7 +515,10 @@ export function QuizArena() {
         <EnlightHeader />
         <div className="enlight-quiz">
           <div className="enlight-quiz__result">
-            <EnlightSectionLabel>{quiz.title}</EnlightSectionLabel>
+            <div className="enlight-quiz__scope-header">
+              <QuizScopeBadge scope={isTopicQuiz ? 'section' : 'chapter'} />
+              <EnlightSectionLabel>{quiz.title}</EnlightSectionLabel>
+            </div>
             <h2 className="enlight-heading-serif">{passed ? 'Well done!' : 'Keep practising'}</h2>
             <div className="enlight-quiz__score">{finalScore}%</div>
             <dl className="enlight-quiz__breakdown">
@@ -597,7 +601,7 @@ export function QuizArena() {
                 </EnlightButton>
               )}
               <EnlightButton to={lessonUrl} variant="outline">
-                Back to section
+                Back to {isTopicQuiz ? 'section' : 'chapter'}
               </EnlightButton>
             </div>
           </div>
@@ -608,15 +612,18 @@ export function QuizArena() {
 
   const headerLabel = isTopicQuiz
     ? `${getTopicSectionLabel(topic!.chapterId, topic!.id)} · ${topic!.title} — ${DIFF_LABEL[diff]}`
-    : `Chapter ${chapter.number}: ${chapter.title} — ${DIFF_LABEL[diff]} (full chapter)`
+    : `Chapter ${chapter.number}: ${chapter.title} — ${DIFF_LABEL[diff]}`
 
   return (
     <div className="enlight-app">
       <EnlightHeader />
       <div className="enlight-quiz">
-        <EnlightSectionLabel>
-          <MathText content={headerLabel} title />
-        </EnlightSectionLabel>
+        <div className="enlight-quiz__scope-header">
+          <QuizScopeBadge scope={isTopicQuiz ? 'section' : 'chapter'} />
+          <EnlightSectionLabel>
+            <MathText content={headerLabel} title />
+          </EnlightSectionLabel>
+        </div>
         <div className="enlight-quiz__progress">
           <div className="enlight-quiz__progress-bar" style={{ width: `${progress}%` }} />
         </div>

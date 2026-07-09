@@ -63,7 +63,7 @@
     {
       "id": "12-9-stationary-points-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Find the set of values of $x$. So $y = 2x^3 - 15x^2 + 24x$ is decreasing.",
+      "question": "Find the set of values of when $y = 2x^3 - 15x^2 + 24x$ is decreasing.",
       "options": [
         "$1 < x < 4$",
         "$x < 1$ or $x > 4$",
@@ -71,7 +71,7 @@
         "$x < 1$"
       ],
       "correctIndex": 0,
-      "explanation": "A curve decreases when $\\frac{dy}{dx} < 0$. $\\frac{dy}{dx} = 6x^2 - 30x + 24 = 6(x^2 - 5x + 4) = 6(x-1)(x-4)$. This is negative between the roots^1 and^4.\n\n**Common mistake:** Option B is the region where the curve is increasing, which students often provide when they misinterpret the question or inequality sign."
+      "explanation": "A curve decreases when $\\frac{dy}{dx} < 0$. $\\frac{dy}{dx} = 6x^2 - 30x + 24 = 6(x^2 - 5x + 4) = 6(x-1)(x-4)$. This is negative between the roots^1 and $4$.\n\n**Common mistake:** Option B is the region where the curve is increasing, which students often provide when they misinterpret the question or inequality sign."
     }
   ]
 }

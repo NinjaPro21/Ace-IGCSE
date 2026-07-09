@@ -25,10 +25,10 @@
       "type": "mcq",
       "question": "The equation of a straight line is **$5x + 2y + 10 = 0$**. State the **coordinates** of the point where the line crosses the **y-axis**.",
       "options": [
-        "(0, -5)",
-        "(0, 5)",
-        "(-2, 0)",
-        "(0, -10)"
+        "$(0, -5)$",
+        "$(0, 5)$",
+        "$(-2, 0)$",
+        "$(0, -10)$"
       ],
       "correctIndex": 0,
       "explanation": "Set $x = 0$ to find the y-intercept: $2y + 10 = 0 \\implies 2y = -10 \\implies y = -5$. The point is (0, -5).\n\n**Common mistake:** Finding the x-intercept (-2, 0) instead of the y-intercept.",

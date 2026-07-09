@@ -11,7 +11,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-medium-q1",
       "type": "mcq",
-      "question": "The terms $x-1$, $x+2$, and $3x$ and $x$.",
+      "question": "The terms $x-1$, $x+2$, and $3x$ are consecutive terms of a GP. Find the positive value of $x$.",
       "options": [
         "$4$",
         "$1$",
@@ -24,7 +24,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-medium-q2",
       "type": "mcq",
-      "question": "In a geometric progression, the second term is $1$ and the fourth term is $1$. Given $r > 0$, calculate the sum of the first three terms.",
+      "question": "In a geometric progression, the second term is $6$ and the fourth term is $54$. Given $r > 0$, calculate the sum of the first three terms.",
       "options": [
         "$26$",
         "$62$",
@@ -37,7 +37,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-medium-q3",
       "type": "mcq",
-      "question": "Express the recurring decimal $0.474747...$ as a $fraction$ in its simplest form using the sum to infinity formula.",
+      "question": "Express the recurring decimal $0.474747\\ldots$ as a fraction in its simplest form using the sum to infinity formula.",
       "options": [
         "$47/99$",
         "$47/100$",
@@ -45,12 +45,12 @@
         "$4.7/9$"
       ],
       "correctIndex": 0,
-      "explanation": "The series is $0.47 + 0.0047 + ... where a = 0.47$ and r = 0.012S_{\\infty} = 0.47 / (1 - 0.01) = 0.47 / 0.99 = 47/992\n\n**Common mistake:** Option B is a simple decimal-to-$fraction$ conversion that ignores the recurring nature of the digits."
+      "explanation": "The series is $0.47 + 0.0047 + ... where a = 0.47$ and r = 0.012S_{\\infty} = 0.47 / (1 - 0.01) = 0.47 / 0.99 = 47/992\n\n**Common mistake:** Option B is a simple decimal-to-fraction conversion that ignores the recurring nature of the digits."
     },
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-medium-q4",
       "type": "mcq",
-      "question": "A geometric progression has first term^100 and common ratio $0.9$. Find the smallest value of $n$ and $n210$.",
+      "question": "A geometric progression has first term $100$ and common ratio $0.9$. Find the smallest value of $n$ such that the $n$th term is less than $10$.",
       "options": [
         "$23$",
         "$22$",
@@ -63,7 +63,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-medium-q5",
       "type": "mcq",
-      "question": "Find the sum of the first^5 terms of a geometric progression with $a=4$ and $r=1.5$.",
+      "question": "Find the sum of the first $5$ terms of a geometric progression with $a=4$ and $r=1.5$.",
       "options": [
         "$52.75$",
         "$30.375$",

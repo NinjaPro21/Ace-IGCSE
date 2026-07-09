@@ -11,7 +11,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q1",
       "type": "mcq",
-      "question": "A particle $P$ and $t2O$ and $s2s = 2t^3 - 15t^2 + 24t$ and $t2P$ is negative.",
+      "question": "A particle $P$ and from $O$ and $s  and s  = 2t^3 - 15t^2 + 24t and$t$and$P$is negative$.",
       "options": [
         "$1 < t < 4$",
         "$t < 1$ or $t > 4$",
@@ -19,7 +19,7 @@
         "$0 < t < 1$"
       ],
       "correctIndex": 0,
-      "explanation": "$v = 6t^2 - 30t + 24 = 6(t^2 - 5t + 4) = 6(t-1)(t-4)$. The quadratic is negative between its roots, $1$ and^4.\n\n**Common mistake:** Option B is the set of values for which the velocity is positive."
+      "explanation": "$v = 6t^2 - 30t + 24 = 6(t^2 - 5t + 4) = 6(t-1)(t-4)$. The quadratic is negative between its roots, $1$ and 4.\n\n**Common mistake:** Option B is the set of values for which the velocity is positive."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q2",
@@ -32,14 +32,14 @@
         "$-8$ m/s"
       ],
       "correctIndex": 0,
-      "explanation": "$a = -8e^{-2t}$. Since $e^{-2t} > 0$, $a < 0$ for all $t$. $t \\to \\infty2e^{-2t} \\to 0$, so $v \\to 5$.\n\n**Common mistake:** Option B is chosen if the student assumes the particle stops completely at infinity."
+      "explanation": "$a = -8e^{-2t}$. Since $e^{-2t} > 0$, $a < 0$ for all $t$. $t \\to \\infty$, $e^{-2t} \\to 0$, so $v \\to 5$.\n\n**Common mistake:** Option B is chosen if the student assumes the particle stops completely at infinity."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q3",
       "type": "mcq",
-      "question": "A particle moves along a straight line so that its displacement from $O$. So $s = t^2 - 6t + 5$. Find the time at which its speed is $1$ m/s.",
+      "question": "A particle moves along a straight line so that its displacement from from $O$ is $s = t^2 - 6t + 5$. Find the time at which its speed is $1$ m/s.",
       "options": [
-        "$5$ s or^1 s",
+        "$5$ s or 1 s",
         "$5$ s",
         "2 s",
         "$3$ s"
@@ -50,7 +50,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q4",
       "type": "mcq",
-      "question": "Find the maximum displacement from $O$. So $v = 12t - 3t^2$, given $s = 0$ at $t = 0$.",
+      "question": "Find the maximum displacement from from $O$ is $v = 12t - 3t^2$, given $s = 0$ at $t = 0$.",
       "options": [
         "$32$ m",
         "$4$ m",
@@ -63,7 +63,7 @@
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q5",
       "type": "mcq",
-      "question": "The velocity of a particle is given by $v = 3\\cos(t) - 1$ for $0 \\le t \\le \\pi . -1.5$ m/s^2.",
+      "question": "The velocity of a particle is given by $v = 3\\cos(t) - 1$ for for $0 \\le t \\le \\pi . -1.5 m/s^2$.",
       "options": [
         "$\\frac{\\pi}{6}$",
         "$\\frac{\\pi}{3}$",
@@ -84,7 +84,7 @@
         "0 m"
       ],
       "correctIndex": 0,
-      "explanation": "Max displacement occurs when v=0: 3t(4 - t) = 0 => t=4. s = ∫ (12t - 3t^2) dt = 6t^2 - t³. At t=4, s = 6(16) - 64 = 96 - 64 = 32.\n\n**Common mistake:** Finding the time for max velocity (t=2) instead of max displacement."
+      "explanation": "Max displacement occurs when v=0: 3t(4 - t) = 0 => t=4. s = ∫ (12t - 3t^2) dt = 6t^2 - t^3. At t=4, s = 6(16) - 64 = 96 - 64 = 32.\n\n**Common mistake:** Finding the time for max velocity (t=2) instead of max displacement."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q7",
@@ -110,7 +110,7 @@
         "-10 m/s"
       ],
       "correctIndex": 0,
-      "explanation": "v = 4t - t^2 + 5. s = 2t^2 - t³/3 + 5t. Returns to O: t(2t - t^2/3 + 5) = 0 => t^2 - 6t - 15 = 0. Solve for t and plug into v. Symmetrical property of parabolas suggests -5.\n\n**Common mistake:** Assuming the velocity is zero when the particle returns to the origin."
+      "explanation": "v = 4t - t^2 + 5. s = 2t^2 - t^3/3 + 5t. Returns to O: t(2t - t^2/3 + 5) = 0 => t^2 - 6t - 15 = 0. Solve for t and plug into v. Symmetrical property of parabolas suggests -5.\n\n**Common mistake:** Assuming the velocity is zero when the particle returns to the origin."
     },
     {
       "id": "16-applications-of-calculus-in-kinematics-pyp-q9",

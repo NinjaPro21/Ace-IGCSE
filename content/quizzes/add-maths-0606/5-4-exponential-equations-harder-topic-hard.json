@@ -11,7 +11,7 @@
     {
       "id": "5-4-exponential-equations-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "Find the exact values of $x$. $(\\log_2 x)^2 - \\log_2(x^3) - 4 = 0$ .",
+      "question": "Find the exact values of $x$ for which $(\\log_2 x)^2 - \\log_2(x^3) - 4 = 0$.",
       "options": [
         "$x = 16$ or $x = \\frac{1}{2}$",
         "$x = 4$ or $x = -1$",
@@ -19,7 +19,7 @@
         "$x = 16$ or $x = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Using log laws, rewrite $\\log_2(x^3)$ as $3\\log_2 x$. So $u = \\log_2 x2u^2 - 3u - 4 = 0 \\implies (u-4)(u+1) = 0$ . Thus $\\log_2 x = 4 \\implies x = 16$ , or \\log_2 x = -1 \\implies x = \\frac{1}{2}2\n\n**Common mistake:** Option B reflects the intermediate roots for $u$ and $x$ by exponentiating with base 2."
+      "explanation": "Let $u = \\log_2 x$. Then $u^2 - 3u - 4 = 0 \\implies (u-4)(u+1) = 0$. So $\\log_2 x = 4 \\implies x = 16$, or $\\log_2 x = -1 \\implies x = \\frac{1}{2}$.\n\n**Common mistake:** Forgetting to convert back from $u$ to $x$ using base 2."
     },
     {
       "id": "5-4-exponential-equations-harder-topic-hard-q2",

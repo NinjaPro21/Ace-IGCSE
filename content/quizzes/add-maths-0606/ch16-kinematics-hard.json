@@ -9,7 +9,7 @@
     {
       "id": "ch16-kinematics-q1",
       "type": "mcq",
-      "question": "A particle starts from rest at a fixed point $O$ and moves in a straight line with an acceleration given by $a = 6t - 12$ m s⁻². Find the total distance traveled by the particle in the first 5 seconds.",
+      "question": "A particle starts from rest at a fixed point $O$ and moves in a straight line with an acceleration given by $a = 6t - 12$ m s⁻^2. Find the total distance traveled by the particle in the first 5 seconds.",
       "options": [
         "33 metres",
         "25 metres",
@@ -17,25 +17,25 @@
         "45 metres"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating acceleration gives $v = 3t^2 - 12t$. Since it starts from rest, $c=0$. The velocity is zero at $t = 0$ and $t = 4$. It moves backward from $0 \\le t \\le 4$ and forward from $4 \\le t \\le 5$. Distance = $|\\int_{0}^{4} (3t^2 - 12t)\\,\\mathrm{d}t| + \\int_{4}^{5} (3t^2 - 12t)\\,\\mathrm{d}t = |[t^3 - 6t^2]_{0}^{4}| + [t^3 - 6t^2]_{4}^{5} = |-32| + (-25 - (-32)) = 32 + 7 = 33$ metres.\n\n**Common mistake:** Option B occurs if the student ignores the change of direction at $t=4$ and calculates the net displacement by directly integrating from 0 to 5, resulting in $5^3 - 6(5)^2 = 125 - 150 = -25$."
+      "explanation": "Integrating acceleration gives $v = 3t^2 -$1t$.Since it starts from rest,$c=0$. The velocity is zero at t =$0andt$= 4$. It moves backward from 0 \\le t \\le 4and forward from 4 \\le t \\le 5. Distance = |\\int_{0}^{4} (3t^2 - 12t)\\,\\mathrm{d}t| + \\int_{4}^{5} (3t^2 - 12t)\\,\\mathrm{d}t = |[t^3 - 6t^2]_{0}^{4}| + [t^3 - 6t^2]_{4}^{5} = |-32| + (-25 - (-32)) = 32 + 7 = 33metres$.$\n\n**Common mistake:** Option B occurs if the student ignores the change of direction at $t=4$ and calculates the net displacement by directly integrating from 0 to 5, resulting in $5^3 - 6(5)^2 = 125 - 150 = -25$."
     },
     {
       "id": "ch16-kinematics-q2",
       "type": "mcq",
       "question": "A particle moves along a straight line such that its displacement $s  metres from O$ at time $t$ seconds is $s = 2t^3 - 15t^2 + 24t + 7$. Find the acceleration of the particle at the instant when its velocity is minimum.",
       "options": [
-        "0 m s⁻²",
-        "-13 m s⁻²",
-        "6 m s⁻²",
-        "-6 m s⁻²"
+        "0 m s⁻^2",
+        "-13 m s⁻^2",
+        "6 m s⁻^2",
+        "-6 m s⁻^2"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity is $v = 6t^2 - 30t + 24$. To find when velocity is minimum, differentiate velocity to get acceleration: $a = 12t - 30$, and set the derivative of acceleration (which is $1$) to be checked, or set $a = 0$ to locate the stationary point of the quadratic velocity function. This gives $12t - 30 = 0 \\implies t = 2.5$. The acceleration at this exact minimum turning point of velocity must be 0 m s⁻².\n\n**Common mistake:** Option B occurs if a student attempts to calculate the minimum velocity value instead of answering for the acceleration value at that instant."
+      "explanation": "Velocity is $v = 6t^2 - 30t + 24$. To find when velocity is minimum, differentiate velocity to get acceleration: $a = 12t - 30$, and set the derivative of acceleration (which is $1$) to be checked, or set $a = 0$ to locate the stationary point of the quadratic velocity function. This gives $12t - 30 = 0 \\implies t = 2.5$. The acceleration at this exact minimum turning point of velocity must be 0 m s⁻^2.\n\n**Common mistake:** Option B occurs if a student attempts to calculate the minimum velocity value instead of answering for the acceleration value at that instant."
     },
     {
       "id": "ch16-kinematics-q3",
       "type": "mcq",
-      "question": "The acceleration of a particle moving in a straight line is given by $a = \\frac{1}{(2t + 1)^2}$ m s⁻² for $t \\ge 0$. The particle has an initial velocity of 0.5 m s⁻¹. Find the limiting value of the velocity as $t$ approaches infinity.",
+      "question": "The acceleration of a particle moving in a straight line is given by $a = \\frac{1}{(2t + 1)^2}$ m s⁻^2 for $t \\ge 0$. The particle has an initial velocity of 0.5 m s⁻¹. Find the limiting value of the velocity as $t$ approaches infinity.",
       "options": [
         "1.0 m s⁻¹",
         "0.5 m s⁻¹",
@@ -43,12 +43,12 @@
         "Infinity"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity is $v = \\int (2t + 1)⁻² \\,\\mathrm{d}t = -\\frac{1}{2(2t + 1)} + c$. Since $v = 0.5$ at $t = 0$, we have $0.5 = -0.5 + c \\implies c = 1$. Thus $v = 1 - \\frac{1}{2(2t + 1)}$. As $t \\to \\infty$, $\\frac{1}{2(2t + 1)} \\to 0$, so $v \\to 1$.\n\n**Common mistake:** Option B occurs if the student mistakenly believes the constant of integration $c$ itself represents the final limiting velocity without considering the fractional term's limit."
+      "explanation": "$v = \\int (2t + 1)^{-2}\\,dt = -\\frac{1}{2(2t + 1)} + c$. With $v = 0.5$ at $t = 0$, $c = 1$. So $v = 1 - \\frac{1}{2(2t + 1)} \\to 1$ as $t \\to \\infty$.\n\n**Common mistake:** Taking the constant $c$ alone as the limiting velocity."
     },
     {
       "id": "ch16-kinematics-q4",
       "type": "mcq",
-      "question": "A particle moves along a straight line path with a displacement function $s = e^{2t} - 8t$. Find the exact velocity of the particle when its acceleration is equal to 16 m s⁻².",
+      "question": "A particle moves along a straight line path with a displacement function $s = e^{2t} - 8t$. Find the exact velocity of the particle when its acceleration is equal to 16 m s⁻^2.",
       "options": [
         "0 m s⁻¹",
         "8 m s⁻¹",

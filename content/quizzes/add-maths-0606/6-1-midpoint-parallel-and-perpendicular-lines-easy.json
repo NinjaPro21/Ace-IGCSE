@@ -32,7 +32,7 @@
         "$9$"
       ],
       "correctIndex": 0,
-      "explanation": "Parallel lines have the same gradient. The given line is in the form $y = mx + c$ and $m2-4$.\n\n**Common mistake:** A student might provide the negative reciprocal ($1/4$) by confusing the rules for parallel and perpendicular lines."
+      "explanation": "Parallel lines have the same gradient. The given line is $y = -4x + 9$, so $m = -4$.\n\n**Common mistake:** Providing the negative reciprocal ($1/4$) by confusing parallel and perpendicular rules."
     },
     {
       "id": "6-1-midpoint-parallel-and-perpendicular-lines-easy-q3",
@@ -45,12 +45,12 @@
         "$\\frac{2}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "The product of the gradients of perpendicular lines is $-1$. Thus, $m_2 = -\\frac{1}{m_1} = -\\frac{1}{2/3} = -\\frac{3}{2}$.\n\n**Common mistake:** A student may flip the $fraction$ but forget the negative sign, or apply the negative sign without flipping the $fraction.$"
+      "explanation": "The product of the gradients of perpendicular lines is $-1$. Thus, $m_2 = -\\frac{1}{m_1} = -\\frac{1}{2/3} = -\\frac{3}{2}$.\n\n**Common mistake:** A student may flip the fraction but forget the negative sign, or apply the negative sign without flipping the fraction."
     },
     {
       "id": "6-1-midpoint-parallel-and-perpendicular-lines-easy-q4",
       "type": "mcq",
-      "question": "The midpoint of a line segment $PQ$. $(4, 1)$. If the coordinates of $P$. $(1, -2)$, find the coordinates of $Q$.",
+      "question": "The midpoint of a line segment $PQ$ is $(4, 1)$. If $P$ is $(1, -2)$, find the coordinates of $Q$.",
       "options": [
         "$(7, 4)$",
         "$(2.5, -0.5)$",
@@ -71,7 +71,7 @@
         "$3x - y = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearranging $3x + y = 10$ gives $y = -3x + 10$, so the gradient is $-3$. The line $y = -3x + 5$ share the same gradient.\n\n**Common mistake:** Identifying^3 as the gradient because it is the coefficient of $x$. So $y = mx + c$ form."
+      "explanation": "Rearranging $3x + y = 10$ gives $y = -3x + 10$, so the gradient is $-3$. The line $y = -3x + 5$ shares the same gradient.\n\n**Common mistake:** Identifying $3$ as the gradient because it is the coefficient of $x$ before rearranging to $y = mx + c$ form."
     }
   ]
 }

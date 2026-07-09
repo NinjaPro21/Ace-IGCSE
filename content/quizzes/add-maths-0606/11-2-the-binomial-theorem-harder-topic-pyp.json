@@ -11,20 +11,20 @@
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "Find the first three terms, in ascending powers of $x$. $(2 - \\frac{x}{4})^6$.",
+      "question": "Find the first three terms, in ascending powers of $x$, in the expansion of $\\left(2 - \\frac{x}{4}\\right)^6$.",
       "options": [
         "64 - 12x + 0.9375x^2",
         "64 - 48x + 15x^2",
         "64 + 12x + 0.9375x^2",
         "12 - 6x + x^2"
       ],
-      "correctIndex": 0,
-      "explanation": "$2^6 = 64$. Second term: $\\binom{6}{1}(2^5)(-\\frac{x}{4}) = 6 \\times 32 \\times -0.25 = -48$ wait: $6 \\times 32 / 4 = 48$. Third term: $\\binom{6}{2}(2^4)(-\\frac{x}{4})^2 = 15 \\times 16 \\times \\frac{1}{16} = 15$. So $64 - 48x + 15x^2$. Re-evaluating Option A.\n\n**Common mistake:** Option C is a sign error where the student forgets the alternating signs in a subtraction binomial."
+      "correctIndex": 1,
+      "explanation": "$2^6 = 64$. Second term: $\\binom{6}{1}(2^5)\\left(-\\frac{x}{4}\\right) = -48x$. Third term: $\\binom{6}{2}(2^4)\\left(-\\frac{x}{4}\\right)^2 = 15x^2$. So the expansion starts $64 - 48x + 15x^2$.\n\n**Common mistake:** Option A miscalculates the third term by not squaring $1/4$ correctly."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "Given that the coefficient of $x^2$ in the expansion of $(1 + kx)^8$ is 70, find the possible values of the constant $k$.",
+      "question": "Given that the coefficient of $x^2$ in the expansion of $(1 + kx)^8$ is $70$, find the possible values of the constant $k$.",
       "options": [
         "±1.58",
         "±2.5",
@@ -50,7 +50,7 @@
     {
       "id": "11-2-the-binomial-theorem-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "The first three terms in the expansion of $(1 + ax)^n$. $1 + 30x + 405x^2$. Find the values of $a$ and $n$.",
+      "question": "The first three terms in the expansion of $(1 + ax)^n$ are $1 + 30x + 405x^2$. Find the values of $a$ and $n$.",
       "options": [
         "a = 3, n = 10",
         "a = 10, n = 3",
@@ -71,7 +71,7 @@
         "35"
       ],
       "correctIndex": 0,
-      "explanation": "$(1+x)^7 = 1 + 7x + 21x^2 + ...$ Product $x^2$ from $(1 \\times 21x^2) + (-2x \\times 7x) = 21 - 14 = 7$.\n\n**Common mistake:** Option B only takes the $x^2$ coefficient from the 7th power expansion, ignoring the interaction with the $(1-2x)$ bracket."
+      "explanation": "$(1+x)^7 = 1 + 7x + 21x^2 + \\ldots$ Product $x^2$ from $(1 \\times 21x^2) + (-2x \\times 7x) = 21 - 14 = 7$.\n\n**Common mistake:** Option B only takes the $x^2$ coefficient from the 7th power expansion, ignoring the interaction with the $(1-2x)$ bracket."
     }
   ]
 }

@@ -32,7 +32,7 @@
         "Many-to-many"
       ],
       "correctIndex": 0,
-      "explanation": "∣2-4∣=2, ∣4-4∣=0, and ∣6-4∣=2. Since both 2 and 6 map to 2, it is many-to-one.\n\n**Common mistake:** Students may see the three unique inputs and assume it is one-to-one without calculating the outputs."
+      "explanation": "|2-4|=2, |4-4|=0, and |6-4|=2. Since both 2 and 6 map to 2, it is many-to-one.\n\n**Common mistake:** Students may see the three unique inputs and assume it is one-to-one without calculating the outputs."
     },
     {
       "id": "1-1-mappings-medium-q3",
@@ -71,7 +71,7 @@
         "4,5,4,1"
       ],
       "correctIndex": 0,
-      "explanation": "Images: $(-1) \\mapsto 4$,$(0) \\mapsto 5$,$(1) \\mapsto 4$,$(2) \\mapsto 1$. The unique values in the range are\n1,4,5.\n\n**Common mistake:** Listing duplicate values (like 4) in the range set or failing to square negative numbers correctly."
+      "explanation": "Images: $(-1) \\mapsto 4$, $(0) \\mapsto 5$, $(1) \\mapsto 4$, $(2) \\mapsto 1$. The unique values in the range are $1$, $4$, $5$.\n\n**Common mistake:** Listing duplicate values (like 4) in the range set or failing to square negative numbers correctly."
     }
   ]
 }

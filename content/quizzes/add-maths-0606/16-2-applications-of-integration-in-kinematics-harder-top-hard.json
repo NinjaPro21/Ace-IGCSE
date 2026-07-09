@@ -19,7 +19,7 @@
         "4 m"
       ],
       "correctIndex": 0,
-      "explanation": "v = (t-1)(t-3). v is negative between t=1 and t=3. Distance = |∫₀¹ v dt| + |∫₁³ v dt|. ∫₀¹ = [t³/3 - 2t^2 + 3t] = 1.33. ∫₁³ = (9-18+9) - (0.33-2+3) = -1.33. Total = 1.33 + 1.33 = 2.67.\n\n**Common mistake:** Integrating from 0 to 3 directly, which gives the displacement (0) instead of the distance."
+      "explanation": "v = (t-1)(t-3). v is negative between t=1 and t=3. Distance = |∫₀¹ v dt| + |∫₁^3 v dt|. ∫₀¹ = [t^3/3 - 2t^2 + 3t] = 1.33. ∫₁^3 = (9-18+9) - (0.33-2+3) = -1.33. Total = 1.33 + 1.33 = 2.67.\n\n**Common mistake:** Integrating from 0 to 3 directly, which gives the displacement (0) instead of the distance."
     },
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-hard-q2",
@@ -27,17 +27,17 @@
       "question": "The acceleration of a body is $a = -k v^2 where k$ and u2v and t2",
       "options": [
         "v = u / (1 + kut)",
-        "v = u e^{-kt}",
+        "v = u $e^{-kt}$",
         "v = u - kt",
         "v = u / (1 - kt)"
       ],
       "correctIndex": 0,
-      "explanation": "dv/dt = -kv^2 => ∫ v⁻² dv = ∫ -k dt => -1/v = -kt + c. At t=0, v=u: -1/u = c. -1/v = -kt - 1/u => 1/v = (kut + 1)/u => v = u / (1 + kut).\n\n**Common mistake:** Attempting to integrate acceleration with respect to t without realizing v is a variable, failing to separate variables."
+      "explanation": "dv/dt = -kv^2 => ∫ v⁻^2 dv = ∫ -k dt => -1/v = -kt + c. At t=0, v=u: -1/u = c. -1/v = -kt - 1/u => 1/v = (kut + 1)/u => v = u / (1 + kut).\n\n**Common mistake:** Attempting to integrate acceleration with respect to t without realizing v is a variable, failing to separate variables."
     },
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-hard-q3",
       "type": "mcq",
-      "question": "A particle P starts from the origin O and moves so that its velocity $v$ and $t2v = 6 \\cos(2t)$. Find the first time $t$. $t > 0$) when the particle returns to O.",
+      "question": "A particle P starts from the origin O and moves so that its velocity $v$ and $t v$ = 6 \\cos(2t)$. Find the first time t2t > 0$) when the particle returns to O\n\n$$.",
       "options": [
         "π/2",
         "π",
@@ -45,12 +45,12 @@
         "2π"
       ],
       "correctIndex": 0,
-      "explanation": "s = ∫ 6 cos(2t) dt = 3 sin(2t) + c. s=0 at t=0 => c=0. Returns to O when s=0: 3 sin(2t) = 0 => 2t = π => t = π/2.\n\n**Common mistake:** Finding when the velocity is zero (t=π/4) instead of when the displacement is zero."
+      "explanation": "s = ∫ 6 cos(2t) dt = 3 sin(2t) + c. s=0 at t=0 => c=0. Returns to O when s=0: 3 sin(2t) = 0 => when $t$ = π => t = π/2.\n\n**Common mistake:** Finding when the velocity is zero (t=π/4) instead of when the displacement is zero."
     },
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-hard-q4",
       "type": "mcq",
-      "question": "The acceleration of a particle is $a = 1 / (t + 2)²$. If the velocity approaches 5 m/s as $t$ becomes very large, find the initial velocity.",
+      "question": "The acceleration of a particle is $a = 1 / (t + 2)^2$. If the velocity approaches 5 m/s as $t$ becomes very large, find the initial velocity.",
       "options": [
         "4.5 m/s",
         "5 m/s",
@@ -58,7 +58,7 @@
         "0 m/s"
       ],
       "correctIndex": 0,
-      "explanation": "v = ∫ (t+2)⁻² dt = -1/(t+2) + c. As t→∞, v→c. So c = 5. v = 5 - 1/(t+2). At t=0, v = 5 - 0.5 = 4.5.\n\n**Common mistake:** Misunderstanding the limit condition or the sign of the integral."
+      "explanation": "v = ∫ (t+2)⁻^2 dt = -1/(t+2) + c. As t→∞, v→c. So c = 5. v = 5 - 1/(t+2). At t=0, v = 5 - 0.5 = 4.5.\n\n**Common mistake:** Misunderstanding the limit condition or the sign of the integral."
     },
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-hard-q5",
@@ -71,7 +71,7 @@
         "0 m"
       ],
       "correctIndex": 0,
-      "explanation": "a = 6t - 12. a < 0 when t < 2. Distance = ∫ from 0 to 2 (3t^2 - 12t + 9) dt = [t³ - 6t^2 + 9t] from 0 to 2 = 8 - 24 + 18 = 2 m. *Correction*: Evaluate [8-24+18] = 2. *Wait, check v roots*: v = 3(t-1)(t-3). For t in [2], v is positive [3] and negative [2, 3]. Distance = |[1-6+9]| + | - [4]| = 4 + 0 = 4. *Logic check*: [t³-6t^2+9t] at t=1 is 4. At t=2 is 2. Path: 0→4 (dist 4), 4→2 (dist 2). Total = 6? *Options adjusted*.\n\n**Common mistake:** Failing to account for the reversal of direction within the interval where acceleration is negative."
+      "explanation": "a = 6t - 12. a < 0 when t < 2. Distance = ∫ from 0 to 2 (3t^2 - 12t + 9) dt = [t^3 - 6t^2 + 9t] from 0 to 2 = 8 - 24 + 18 = 2 m. *Correction*: Evaluate [8-24+18] = 2. *Wait, check v roots*: v = 3(t-1)(t-3). For t in [2], v is positive [3] and negative [2, 3]. Distance = |[1-6+9]| + | - [4]| = 4 + 0 = 4. *Logic check*: [t^3-6t^2+9t] at t=1 is 4. At t=2 is 2. Path: 0→4 (dist 4), 4→2 (dist 2). Total = 6? *Options adjusted*.\n\n**Common mistake:** Failing to account for the reversal of direction within the interval where acceleration is negative."
     }
   ]
 }

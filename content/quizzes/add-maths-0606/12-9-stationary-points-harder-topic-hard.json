@@ -19,7 +19,7 @@
         "$(1, 0)$, Minimum"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x(\\frac{1}{x}) + \\ln x = 1 + \\ln x$. $1 + \\ln x = 0 \\implies \\ln x = -1 \\implies x = e^{-1} = 1/e2y = (1/e) \\ln(1/e) = -1/e^2 So \\frac{d^2y}{dx^2} = 1/x2x=1/e^2 So y'' = e > 0$ (Minimum).\n\n**Common mistake:** Option D occurs if the student incorrectly differentiates $x \\ln x$. $1$ or $\\ln x$."
+      "explanation": "$\\frac{dy}{dx} = 1 + \\ln x$. Setting this to zero gives $x = e^{-1}$ and $y = -\\frac{1}{e}$. Since $\\frac{d^2y}{dx^2} = \\frac{1}{x} > 0$ at $x = \\frac{1}{e}$, the point is a minimum.\n\n**Common mistake:** Differentiating $x\\ln x$ as just $\\ln x$."
     },
     {
       "id": "12-9-stationary-points-harder-topic-hard-q2",
@@ -37,11 +37,11 @@
     {
       "id": "12-9-stationary-points-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "Find the $x$. So $y = \\frac{x^2}{x-2} for x\n\n$$\neq 22\n",
+      "question": "Find the $x$-coordinates of the stationary points on the curve $y = \\frac{x^2}{x-2}$ for $x \\neq 2$.",
       "options": [
-        "$0$ and^4",
-        "$0$ and^2",
-        "2 and^4",
+        "$0$ and $4$",
+        "$0$ and 2",
+        "2 and $4$",
         "$0$"
       ],
       "correctIndex": 0,
@@ -71,7 +71,7 @@
         "$a = 1, b = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "At $(2,16): 8a + 4b = 16 \\implies 2a + b = 4$. $f'(x) = 3ax^2 + 2bx$. So $x=2: 12a + 4b = 0 \\implies 3a + b = 0$. Subtracting gives $a = -4$ wait: $3a+b - (2a+b) = 0 - 4 \\implies a = -4$. If $a=-2, b=6$: $2(-2)+6=2$\neq 4$. Let's re-solve:$3a+b=0, 2a+b=4$. Subtracting:$ a=-4$. Then$. $. Re-checking2:$2a+b = -4+6=2 \neq 4$. Correct logic: If$. $:$ f(2)=-16+24=8$. For$. $, if2:$ f(2)=-16+48=32$. Let's use^2 and2:$2a+b=2, 3a+b=0 \\implies a=-2, b=6$. Correct answer Option A.$\n\n**Common mistake:** Option B results from a sign error when solving the simultaneous system of equations."
+      "explanation": "At $(2,16): 8a + 4b = 16 \\implies 2a + b = 4$. $f'(x) = 3ax^2 + 2bx$. So $x=2: 12a + 4b = 0 \\implies 3a + b = 0$. Subtracting gives $a = -4$ wait: $3a+b - (2a+b) = 0 - 4 \\implies a = -4$. If $a=-2, b=6$: $2(-2)+6=2$\neq 4$. Let's re-solve:$3a+b=0, 2a+b=4$. Subtracting:$ a=-4$. Then$. $. Re-checking2:$2a+b = -4+6=2 \neq 4$. Correct logic: If$. $:$ f(2)=-16+24=8$. For$. $, if2:$ f(2)=-16+48=32$. Let's use^2 and2:$2a+b=2, 3a+b=0 \\implies a=-2, b=6$. Correct answer Option A$.\n\n**Common mistake:** Option B results from a sign error when solving the simultaneous system of equations."
     }
   ]
 }

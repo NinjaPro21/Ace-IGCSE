@@ -30,7 +30,7 @@
         "$\\frac{n!}{r!} x^r$"
       ],
       "correctIndex": 0,
-      "explanation": "The standard binomial expansion states that $(1 + x)^n = \\sum_{r=0}^{n} \\binom{n}{r} x^r$. Thus, the term containing $x^r$ has a coefficient of exactly $\\binom{n}{r}$.\n\n**Common mistake:** Students often select $\\binom{n}{r} x^{n-r}$ by confusing the expansion pattern with $(x + 1)^n$, which flips the position of powers but yields identical coefficients, or they forget the definition of combinations and select the factorial option missing $(n-r)!$."
+      "explanation": "The standard binomial expansion states that $(1 + x)^n = \\sum_{r=0}^{n} \\binom{n}{r} x^r$. Thus, the term containing $x^r$ has a coefficient of exactly $\\binom{n}{r}$.\n\n**Common mistake:** Students often select $\\binom{n}{r} x^{n-r}$ by confusing the expansion pattern with $(x + 1)^n$, which flips the position of powers but yields identical coefficients, or they forget the definition of combinations and select the factorial option missing $(n-r)$!."
     },
     {
       "id": "ch11-series-q3",

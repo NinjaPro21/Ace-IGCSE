@@ -11,7 +11,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q1",
       "type": "mcq",
-      "question": "Find the indefinite integral $\\int x^7 dx$ .",
+      "question": "Find the indefinite integral $\\int x^7 dx$.",
       "options": [
         "$\\frac{x^8}{8} + c$",
         "$7x^6 + c$",
@@ -19,12 +19,12 @@
         "$\\frac{x^7}{7} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Applying the power rule for integration, we increase the power by 1 and divide by the new power: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + c$. So $n=7$ , this gives $x^8/8 + c$ .\n\n**Common mistake:** Option B is the result of differentiation rather than integration, where the student decreases the power and multiplies by the original exponent."
+      "explanation": "Applying the power rule for integration, we increase the power by 1 and divide by the new power: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + c$. So $n=7$ , this gives $x^8/8 + c$.\n\n**Common mistake:** Option B is the result of differentiation rather than integration, where the student decreases the power and multiplies by the original exponent."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q2",
       "type": "mcq",
-      "question": "If $\\frac{dy}{dx} = 15$ , find the general expression for $y$ .",
+      "question": "If $\\frac{dy}{dx} = 15$, find the general expression for y.",
       "options": [
         "$15x + c$",
         "$0 + c$",
@@ -32,12 +32,12 @@
         "$\\frac{15x^2}{2} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "The integral of a constant $k$. $kx + c2x$. $15x + c$ .\n\n**Common mistake:** Option B occurs if a student confuses integration with differentiation, as the derivative of a constant is zero."
+      "explanation": "The integral of a constant $k$. $kx + c2x$. $15x + c$.\n\n**Common mistake:** Option B occurs if a student confuses integration with differentiation, as the derivative of a constant is zero."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q3",
       "type": "mcq",
-      "question": "Find the integral of $\\frac{1}{x^4}$ with respect to $x$ .",
+      "question": "Find the integral of $\\frac{1}{x^4}$ with respect to $x$.",
       "options": [
         "$-\\frac{1}{3x^3} + c$",
         "$\\ln(x^4) + c$",
@@ -45,12 +45,12 @@
         "$\\frac{1}{5x^5} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite as $x^{-4}$ . Integrating gives $\\frac{x^{-4+1}}{-4+1} = \\frac{x^{-3}}{-3} = -\\frac{1}{3x^3} + c$ .\n\n**Common mistake:** Option C results from differentiating $x^{-4}$ instead of integrating it."
+      "explanation": "Rewrite as $x^{-4}$. Integrating gives $\\frac{x^{-4+1}}{-4+1} = \\frac{x^{-3}}{-3} = -\\frac{1}{3x^3} + c$.\n\n**Common mistake:** Option C results from differentiating $x^{-4}$ instead of integrating it."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q4",
       "type": "mcq",
-      "question": "Evaluate the indefinite integral $\\int \\sqrt{x} dx$ .",
+      "question": "Evaluate the indefinite integral $\\int \\sqrt{x} dx$.",
       "options": [
         "$\\frac{2}{3}x^{1.5} + c$",
         "$\\frac{1}{2\\sqrt{x}} + c$",
@@ -58,12 +58,12 @@
         "$\\frac{x^{0.5}}{0.5} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite $\\sqrt{x}$ as $x^{0.5}$ . Integrating gives $\\frac{x^{1.5}}{1.5} = \\frac{x^{1.5}}{3/2} = \\frac{2}{3}x^{1.5} + c$ .\n\n**Common mistake:** Option B is the derivative of $\\sqrt{x}$ , a common error when students forget which calculus operation to perform."
+      "explanation": "Rewrite $\\sqrt{x}$ as $x^{0.5}$. Integrating gives $\\frac{x^{1.5}}{1.5} = \\frac{x^{1.5}}{3/2} = \\frac{2}{3}x^{1.5} + c$.\n\n**Common mistake:** Option B is the derivative of $\\sqrt{x}$ , a common error when students forget which calculus operation to perform."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q5",
       "type": "mcq",
-      "question": "Given that $f'(x) = 6x^2$ , find $f(x)$ .",
+      "question": "Given that $f'(x) = 6x^2$, find f(x).",
       "options": [
         "$2x^3 + c$",
         "$12x + c$",
@@ -71,12 +71,12 @@
         "$3x^3 + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrate $6x^2$ to get $6 \\cdot \\frac{x^3}{3} = 2x^3 + c$ .\n\n**Common mistake:** Option B is the second derivative (differentiating $6x^2$ ), while Option C multiplies the coefficient by the new power instead of dividing."
+      "explanation": "Integrate $6x^2$ to get $6 \\cdot \\frac{x^3}{3} = 2x^3 + c$.\n\n**Common mistake:** Option B is the second derivative (differentiating $6x^2$ ), while Option C multiplies the coefficient by the new power instead of dividing."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q6",
       "type": "mcq",
-      "question": "What is the result of $\\int (3x + 4)^5 \\,dx.$?",
+      "question": "What is the result of $\\int (3x + 4)^5 \\,dx$..?",
       "options": [
         "$\\frac{(3x + 4)^6}{18} + c$",
         "$\\frac{(3x + 4)^6}{6} + c$",
@@ -89,7 +89,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q7",
       "type": "mcq",
-      "question": "Find $\\int (2x - 1)^3 \\,dx.$.",
+      "question": "Find $\\int (2x - 1)^3 \\,dx$...",
       "options": [
         "$\\frac{(2x - 1)^4}{8} + c$",
         "$\\frac{(2x - 1)^4}{4} + c$",
@@ -102,7 +102,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q8",
       "type": "mcq",
-      "question": "Evaluate $\\int (5 - x)^4 \\,dx.$.",
+      "question": "Evaluate $\\int (5 - x)^4 \\,dx$...",
       "options": [
         "$-\\frac{(5 - x)^5}{5} + c$",
         "$\\frac{(5 - x)^5}{5} + c$",
@@ -115,7 +115,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q9",
       "type": "mcq",
-      "question": "Integrate $\\int 4(x + 2)^7 \\,dx.$.",
+      "question": "Integrate $\\int 4(x + 2)^7 \\,dx$...",
       "options": [
         "$\\frac{(x + 2)^8}{2} + c$",
         "$(x + 2)^8 + c$",
@@ -123,12 +123,12 @@
         "$\\frac{(x + 2)^8}{4} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Constant 4 stays. New power is 8. $\\frac{4(x+2)^8}{8 \\times 1} = \\frac{1}{2}(x+2)^8$.\n\n**Common mistake:** Leaving the 4 as a multiplier and not simplifying the $fraction.$"
+      "explanation": "Constant 4 stays. New power is 8. $\\frac{4(x+2)^8}{8 \\times 1} = \\frac{1}{2}(x+2)^8$.\n\n**Common mistake:** Leaving the 4 as a multiplier and not simplifying the $fraction$."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q10",
       "type": "mcq",
-      "question": "Find $\\int \\sqrt{x + 1} \\,dx.$.",
+      "question": "Find $\\int \\sqrt{x + 1} \\,dx$...",
       "options": [
         "$\\frac{2}{3}(x + 1)^{3/2} + c$",
         "$\\frac{3}{2}(x + 1)^{3/2} + c$",
@@ -141,7 +141,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q11",
       "type": "mcq",
-      "question": "Find the indefinite integral $\\int e^{5x} dx$ .",
+      "question": "Find the indefinite integral $\\int e^{5x} dx$.",
       "options": [
         "$\\frac{1}{5}e^{5x} + c$",
         "$5e^{5x} + c$",
@@ -154,7 +154,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q12",
       "type": "mcq",
-      "question": "Evaluate the indefinite integral $\\int \\sin(3x) dx$ .",
+      "question": "Evaluate the indefinite integral $\\int \\sin(3x) dx$.",
       "options": [
         "$-\\frac{1}{3}\\cos(3x) + c$",
         "$\\frac{1}{3}\\cos(3x) + c$",
@@ -175,7 +175,7 @@
         "$2\\cos(0.5x) + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating $\\cos(ax)$ gives $\\frac{1}{a}\\sin(ax) + c$. $0.5$ is equivalent to multiplying by^2.\n\n**Common mistake:** Option B occurs if a student multiplies by the coefficient $0.5$ instead of dividing by it."
+      "explanation": "Integrating $\\cos(ax)$ gives $\\frac{1}{a}\\sin(ax) + c$. $0.5$ is equivalent to multiplying by 2.\n\n**Common mistake:** Option B occurs if a student multiplies by the coefficient $0.5$ instead of dividing by it."
     },
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q14",
@@ -193,7 +193,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q15",
       "type": "mcq",
-      "question": "Find $\\int (e^x + \\cos x) dx$ .",
+      "question": "Find $\\int (e^x + \\cos x) dx$.",
       "options": [
         "$e^x + \\sin x + c$",
         "$e^x - \\sin x + c$",
@@ -206,7 +206,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q16",
       "type": "mcq",
-      "question": "Find the indefinite integral $\\int \\frac{3}{x} \\,dx.$.",
+      "question": "Find the indefinite integral $\\int \\frac{3}{x} \\,dx$...",
       "options": [
         "3 ln|x| + c",
         "ln|3x| + c",
@@ -219,7 +219,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q17",
       "type": "mcq",
-      "question": "Evaluate $\\int \\frac{1}{x + 5} \\,dx.$.",
+      "question": "Evaluate $\\int \\frac{1}{x + 5} \\,dx$...",
       "options": [
         "ln|x + 5| + c",
         "1 / (x + 5)$^2$ + c",
@@ -232,7 +232,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q18",
       "type": "mcq",
-      "question": "Find $\\int \\frac{1}{2x - 3} \\,dx.$.",
+      "question": "Find $\\int \\frac{1}{2x - 3} \\,dx$...",
       "options": [
         "0.5 ln|2x - 3| + c",
         "ln|2x - 3| + c",
@@ -245,7 +245,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q19",
       "type": "mcq",
-      "question": "Integrate $\\int \\frac{4}{1 - x} \\,dx.$.",
+      "question": "Integrate $\\int \\frac{4}{1 - x} \\,dx$...",
       "options": [
         "-4 ln|1 - x| + c",
         "4 ln|1 - x| + c",
@@ -258,7 +258,7 @@
     {
       "id": "15-indefinite-integrals-amp-basic-integration-ru-easy-q20",
       "type": "mcq",
-      "question": "What is the value of $\\int_1^e \\frac{1}{x} \\,dx.$?",
+      "question": "What is the value of $\\int_1^e \\frac{1}{x} \\,dx$..?",
       "options": [
         "1",
         "0",

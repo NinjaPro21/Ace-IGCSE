@@ -11,12 +11,12 @@
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q1",
       "type": "mcq",
-      "question": "A particle moves in a straight line with acceleration $a = 6$ m/s^2. If its initial velocity is 2 m/s, find its velocity $v$ and $t$.",
+      "question": "A particle moves in a straight line with acceleration $a = 6$ m/s ^2. If its initial velocity is $1$ m/s $, find v as a function of t$.",
       "options": [
-        "v = 6t + 2",
-        "v = 3t^2 + 2",
-        "v = 6t",
-        "v = 6t - 2"
+        "$v = 6t + 2$",
+        "$v = 3t^2 + 2$",
+        "$v = 6t$",
+        "$v = 6t - 2$"
       ],
       "correctIndex": 0,
       "explanation": "v = ∫ a dt = ∫ 6 dt = 6t + c. At t=0, v=2, so c=2. Thus, v = 6t + 2.\n\n**Common mistake:** Thinking the velocity is the integral of the initial condition, or forgetting to add 'c'."
@@ -24,7 +24,7 @@
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q2",
       "type": "mcq",
-      "question": "The velocity of a particle is given by $v = 4t$ and $s2t = 3$, assuming $s = 0$ at $t = 0$.",
+      "question": "The velocity of a particle is $v = 4t$ m/s. Find the displacement when $t = 3$ s, assuming $s = 0$ at $t = 0$.",
       "options": [
         "18 m",
         "12 m",
@@ -50,7 +50,7 @@
     {
       "id": "16-2-applications-of-integration-in-kinematics-harder-top-easy-q4",
       "type": "mcq",
-      "question": "A particle starts from rest and moves with acceleration $a = 2t$. So $t = 5$.",
+      "question": "A particle starts from rest and moves with acceleration $a =$t$m/s ^2. Find its velocity when$t = 5$s$.",
       "options": [
         "25 m/s",
         "10 m/s",
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "If $v = 3t^2 - 1$ and the particle is at the origin when $t = 1$, find the expression for displacement $s$.",
       "options": [
-        "s = t³ - t",
-        "s = t³ - t + 1",
-        "s = t³ - t - 1",
-        "s = 6t"
+        "$s = t^3 - t$",
+        "$s = t^3 - t + 1$",
+        "$s = t^3 - t - 1$",
+        "$s = 6t$"
       ],
       "correctIndex": 0,
-      "explanation": "s = ∫ (3t^2 - 1) dt = t³ - t + c. At t=1, s=0: 1 - 1 + c = 0 => c = 0.\n\n**Common mistake:** Assuming c is always zero without checking the boundary conditions."
+      "explanation": "s = ∫ (3t^2 - 1) dt = t^3 - t + c. At t=1, s=0: 1 - 1 + c = 0 => c = 0.\n\n**Common mistake:** Assuming c is always zero without checking the boundary conditions."
     }
   ]
 }

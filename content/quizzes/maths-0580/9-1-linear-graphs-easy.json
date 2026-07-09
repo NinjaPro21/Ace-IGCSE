@@ -38,10 +38,10 @@
       "type": "mcq",
       "question": "Identify the **y-intercept** of the line with the equation $y = 2x - 3$.",
       "options": [
-        "(0, -3)",
-        "(0, 3)",
-        "(-3, 0)",
-        "(2, 0)"
+        "$(0, -3)$",
+        "$(0, 3)$",
+        "$(-3, 0)$",
+        "$(2, 0)$"
       ],
       "correctIndex": 0,
       "explanation": "By comparing $y = 2x - 3$ to $y = mx + c$. So $c = -3$. The y-intercept occurs where $x=0$, so the point is (0, -3).\n\n**Common mistake:** Providing the intercept as a single number (-3) without coordinate brackets or reversing the order to (-3, 0).",

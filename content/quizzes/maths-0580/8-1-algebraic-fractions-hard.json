@@ -32,7 +32,7 @@
         "$x + y$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$fractions.$"
+      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$fractions."
     },
     {
       "id": "8-1-algebraic-fractions-hard-q3",

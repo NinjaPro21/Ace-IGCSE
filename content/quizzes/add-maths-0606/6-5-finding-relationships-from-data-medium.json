@@ -11,7 +11,7 @@
     {
       "id": "6-5-finding-relationships-from-data-medium-q1",
       "type": "mcq",
-      "question": "An experiment yields two points for the linearised variables $(\\lg x, \\lg y)$: $(1, 2.5)$ and $(3, 6.5)$. Find the value of $n$. So $y = kx^n$.",
+      "question": "Linearised points $(\\lg x, \\lg y)$ are $(1, 2.5)$ and $(3, 6.5)$. Find $n$ if $y = kx^n$.",
       "options": [
         "2",
         "4",
@@ -19,12 +19,12 @@
         "0.5"
       ],
       "correctIndex": 0,
-      "explanation": "The gradient $m = n = \\frac{6.5 - 2.5}{3 - 1} = \\frac{4}{2} = 2$.\n\n**Common mistake:** Calculating the gradient using original $x$ and $y2\\lg x$. $\\lg y$ values."
+      "explanation": "Gradient $n = \\frac{6.5 - 2.5}{3 - 1} = 2$.\n\n**Common mistake:** Using original $x$ and $y$ instead of $\\lg x$ and $\\lg y$."
     },
     {
       "id": "6-5-finding-relationships-from-data-medium-q2",
       "type": "mcq",
-      "question": "The following data is extracted from an experiment: $(x, y) = (2, 12)$ and $(5, 75)$. If the relationship is $y = ax^2 + bx$ and $a$.",
+      "question": "Data $(2, 12)$ and $(5, 75)$ satisfy $y = ax^2 + bx$. Find $a$.",
       "options": [
         "3",
         "6",
@@ -32,12 +32,12 @@
         "15"
       ],
       "correctIndex": 0,
-      "explanation": "Plot $\\frac{y}{x}$ against $x$. $(2, 6)$ and $(5, 15)$. Gradient $a = \\frac{15 - 6}{5 - 2} = \\frac{9}{3} = 3$.\n\n**Common mistake:** Trying to solve simultaneously with $y$. $\\frac{y}{x}$ first, which is more prone to calculation error."
+      "explanation": "Plot $\\frac{y}{x}$ against $x$ is $(2, 6)$ and $(5, 15)$. Gradient $a = \\frac{15 - 6}{5 - 2} = \\frac{9}{3} = 3$.\n\n**Common mistake:** Trying to solve simultaneously with $y$. $\\frac{y}{x}$ first, which is more prone to calculation error."
     },
     {
       "id": "6-5-finding-relationships-from-data-medium-q3",
       "type": "mcq",
-      "question": "For the law $y = Ab^x$. $\\ln y2x$. $(2, 4.39)$ and $(5, 7.69)$. Calculate the value of $b$ to one decimal place.",
+      "question": "For $y = Ab^x$, a plot of $\\ln y$ against $x$ passes through $(2, 4.39)$ and $(5, 7.69)$. Find $b$ to one decimal place.",
       "options": [
         "3.0",
         "1.1",
@@ -50,7 +50,7 @@
     {
       "id": "6-5-finding-relationships-from-data-medium-q4",
       "type": "mcq",
-      "question": "Given the data points $(\\frac{1}{x}, y)$ are $(0.2, 7)$ and $(0.5, 13)$, find the value of $a$. So $y = \\frac{a}{x} + b$.",
+      "question": "Points $(0.2, 7)$ and $(0.5, 13)$ lie on a plot of $y$ against $1/x$. If $y = \\frac{a}{x} + b$, find $a$.",
       "options": [
         "20",
         "6",
@@ -63,7 +63,7 @@
     {
       "id": "6-5-finding-relationships-from-data-medium-q5",
       "type": "mcq",
-      "question": "A student plots $x^2$ on the $X$. $y/x2Y$. So $y = ax^3 + bx2y$. So $x=2$.",
+      "question": "A student plots $x^2$ on the $X$-axis and $y/x$ on the $Y$-axis for $y = ax^3 + bx^2$. If the line has gradient $5$ and intercept $2$, find $y$ when $x = 2$.",
       "options": [
         "44",
         "22",
@@ -71,7 +71,7 @@
         "40"
       ],
       "correctIndex": 0,
-      "explanation": "Linear form: $\\frac{y}{x} = 5x^2 + 2$. When $x=2, \\frac{y}{2} = 5(2^2) + 2 = 22 \\Rightarrow y = 44$.\n\n**Common mistake:** Stopping at $\\frac{y}{x} = 22$ and forgetting to multiply by $x$ and $y$."
+      "explanation": "Linear form: $\\frac{y}{x} = 5x^2 + 2$. When $x = 2$, $\\frac{y}{2} = 22$, so $y = 44$.\n\n**Common mistake:** Stopping at $\\frac{y}{x} = 22$ without multiplying by $x$."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "Find the exact solutions to the equation ∣5x-2∣=∣x+10∣.",
+      "question": "Find the exact solutions to the equation |5x-2|=|x+10|.",
       "options": [
         "x=3 and x=-4/3",
         "x=2 and x=-3",
@@ -24,7 +24,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "Solve the equation ∣2x+7∣=3-x.",
+      "question": "Solve the equation |2x+7|=3-x.",
       "options": [
         "x=-4/3 and x=-10",
         "x=-4/3 only",
@@ -37,7 +37,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=∣4x-3∣-5 for $x \\in \\mathbb{R}$. State the range of f.",
+      "question": "The function f is defined by $f(x)=|4x-3|-5$ for $x \\in \\mathbb{R}$. State the range of f.",
       "options": [
         "$f(x) \\ge -5$",
         "$f(x) \\ge 0$",
@@ -50,7 +50,7 @@
     {
       "id": "1-4-modulus-functions-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "Solve the equation ∣$x^{2}$-4∣=5.",
+      "question": "Solve the equation $|x^{2}-4|=5$.",
       "options": [
         "x=3 and x=-3",
         "x=3 and x=1",
@@ -58,12 +58,12 @@
         "x=±\\sqrt{9}"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $x^{2}$-4=5 \\implies $x^{2}$=9,x=±3. Case 2: $x^{2}$-4=-5 \\implies $x^{2}$=-1 (no real solution). Thus x=±3.\n\n**Common mistake:** Incorrectly identifying solutions from the negative case or missing the negative root in the positive case."
+      "explanation": "Case 1: $x^{2}-4=5 \\implies x^{2}=9$, $x=\\pm 3$. Case 2: $x^{2}-4=-5 \\implies x^{2}=-1$ (no real solution). Thus $x=\\pm 3$.\n\n**Common mistake:** Incorrectly identifying solutions from the negative case or missing the negative root in the positive case."
     },
     {
       "id": "1-4-modulus-functions-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Hence find the coordinates of the points of intersection of the graph y=∣2x-5∣ and the line y=3.",
+      "question": "Hence find the coordinates of the points of intersection of the graph $y=|2x-5|$ and the line $y=3$.",
       "options": [
         "(4,3) and (1,3)",
         "(4,3) only",
@@ -71,7 +71,7 @@
         "(4,0) and (1,0)"
       ],
       "correctIndex": 0,
-      "explanation": "Solve ∣2x-5∣=3. 2x-5=3 \\implies x=4. 2x-5=-3 \\implies x=1. The y-coordinate for both is 3.\n\n**Common mistake:** Failing to provide both points or giving only the x-values instead of full coordinates."
+      "explanation": "Solve |2x-5|=3. 2x-5=3 \\implies x=4. 2x-5=-3 \\implies x=1. The y-coordinate for both is 3.\n\n**Common mistake:** Failing to provide both points or giving only the x-values instead of full coordinates."
     }
   ]
 }

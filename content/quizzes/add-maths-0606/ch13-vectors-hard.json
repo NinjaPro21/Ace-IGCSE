@@ -9,7 +9,7 @@
     {
       "id": "ch13-vectors-q1",
       "type": "mcq",
-      "question": "The position vectors of points $A$ and $B$ relative to an origin $O$ are $4\\mathbf{i} + 3\\mathbf{j}$ and $k\\mathbf{i} + 7\\mathbf{j}$ respectively. Given that the acute angle between $\\vec{OA}$ and $\\vec{OB}$ is 45°, find the positive value of the constant $k$.",
+      "question": "The position vectors of points $A$ and $B$ relative to an origin $O$ are $4\\mathbf{i} + 3\\mathbf{j}$ and $k\\mathbf{i} + 7\\mathbf{j}$ respectively. Given that the acute angle between $\\vec{OA}$ and $\\vec{OB}$ is 45°$, find the positive value of the constant k$.",
       "options": [
         "1",
         "31",
@@ -69,7 +69,7 @@
         "$k = 1$ or $k = -1$"
       ],
       "correctIndex": 0,
-      "explanation": "First, sum the vectors: $\\mathbf{p} + \\mathbf{q} = (2 + k + 1)\\mathbf{i} + (k - 3)\\mathbf{j} = (k + 3)\\mathbf{i} + (k - 3)\\mathbf{j}$. The magnitude squared is $(k+3)^2 + (k-3)^2 = 34 \\implies k^2 + 6k + 9 + k^2 - 6k + 9 = 34 \\implies 2k^2 + 18 = 34 \\implies 2k^2 = 16 \\implies k^2 = 8 \\implies k = \\pm\\sqrt{8}$. Re-aligning options to match a perfect quadratic: let $\\mathbf{p} = 3\\mathbf{i} + k\\mathbf{j}$, $\\mathbf{q} = k\\mathbf{i} - 2\\mathbf{j}$, then $(k+3)^2 + (k-2)^2 = 34 \\implies 2k^2 + 2k + 13 = 34 \\implies 2k^2 + 2k - 21 = 0$. With original configuration: $(k+3)^2 + (k-3)^2 = 34 \\implies 2k^2 + 18 = 34 \\implies k = \\pm 2\\sqrt{2}$. Let's select $k=2, -5$ for scenario $(k+3)^2 + 4 = 13$. For the structured options, if equation reduces to $k^2 + 3k - 10 = 0$, the roots are^2 and $-5$.\n\n**Common mistake:** Students often drop the cross-multiplication terms when expanding the quadratic components, leading to a breakdown of the intermediate algebraic steps."
+      "explanation": "First, sum the vectors: $\\mathbf{p} + \\mathbf{q} = (2 + k + 1)\\mathbf{i} + (k - 3)\\mathbf{j} = (k + 3)\\mathbf{i} + (k - 3)\\mathbf{j}$. The magnitude squared is $(k+3)^2 + (k-3)^2 = 34 \\implies k^2 + 6k + 9 + k^2 - 6k + 9 = 34 \\implies 2k^2 + 18 = 34 \\implies 2k^2 = 16 \\implies k^2 = 8 \\implies k = \\pm\\sqrt{8}$. Re-aligning options to match a perfect quadratic: let $\\mathbf{p} = 3\\mathbf{i} + k\\mathbf{j}$, $\\mathbf{q} = k\\mathbf{i} - 2\\mathbf{j}$, then $(k+3)^2 + (k-2)^2 = 34 \\implies 2k^2 + 2k + 13 = 34 \\implies 2k^2 + 2k - 21 = 0$. With original configuration: $(k+3)^2 + (k-3)^2 = 34 \\implies 2k^2 + 18 = 34 \\implies k = \\pm 2\\sqrt{2}$. Let's select $k=2, -5$ for scenario $(k+3)^2 + 4 = 13$. For the structured options, if equation reduces to $k^2 + 3k - 10 = 0$, the roots are^2 and -5\n\n$$.\n\n**Common mistake:** Students often drop the cross-multiplication terms when expanding the quadratic components, leading to a breakdown of the intermediate algebraic steps."
     }
   ]
 }

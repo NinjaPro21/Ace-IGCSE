@@ -11,26 +11,26 @@
       "type": "mcq",
       "question": "A toy car moves along a horizontal track such that its displacement from a fixed marker is given by $s = t^3 - 6t^2 + 9t + 2$ metres. Find the acceleration of the toy car at the instant it achieves its maximum velocity in the first 4 seconds.",
       "options": [
-        "0 m s⁻²",
-        "-12 m s⁻²",
-        "6 m s⁻²",
-        "12 m s⁻²"
+        "0 m s⁻^2",
+        "-12 m s⁻^2",
+        "6 m s⁻^2",
+        "12 m s⁻^2"
       ],
       "correctIndex": 0,
-      "explanation": "Velocity is $v = 3t^2 - 12t + 9$. To find the turning point of velocity (local maximum/minimum), we differentiate to find acceleration: $a = 6t - 12$. Setting $a = 0$ gives $t = 2$. At this transition or turning point, acceleration must be 0 m s⁻².\n\n**Common mistake:** Option C is obtained if the student evaluates acceleration at $t = 3$ (where velocity becomes zero instead of maximum), leading to $6(3) - 12 = 6$."
+      "explanation": "Velocity is $v = 3t^2 - 12t + 9$. To find the turning point of velocity (local maximum/minimum), we differentiate to find acceleration: $a = 6t - 12$. Setting $a = 0$ gives $t = 2$. At this transition or turning point, acceleration must be 0 m s⁻^2.\n\n**Common mistake:** Option C is obtained if the student evaluates acceleration at $t = 3$ (where velocity becomes zero instead of maximum), leading to $6(3) - 12 = 6$."
     },
     {
       "id": "ch16-kinematics-q2",
       "type": "mcq",
       "question": "The position vector of a particle moving along a straight line is modeled by $s = 4 \\sin(2t)$ metres, where $t \\ge 0$. Find the magnitude of the maximum acceleration experienced by the particle.",
       "options": [
-        "16 m s⁻²",
-        "8 m s⁻²",
-        "4 m s⁻²",
-        "32 m s⁻²"
+        "16 m s⁻^2",
+        "8 m s⁻^2",
+        "4 m s⁻^2",
+        "32 m s⁻^2"
       ],
       "correctIndex": 0,
-      "explanation": "Differentiating displacement gives $v = 8 \\cos(2t)$. Differentiating again gives acceleration $a = -16 \\sin(2t)$. The maximum magnitude of acceleration occurs when $|\\sin(2t)| = 1$, which equals 16 m s⁻².\n\n**Common mistake:** Option B arises if the student fails to apply the chain rule a second time when finding acceleration from velocity, leaving the coefficient as 8."
+      "explanation": "Differentiating displacement gives $v = 8 \\cos(2t)$. Differentiating again gives acceleration $a = -16 \\sin(2t)$. The maximum magnitude of acceleration occurs when $|\\sin(2t)| = 1$, which equals 16 m s⁻^2.\n\n**Common mistake:** Option B arises if the student fails to apply the chain rule a second time when finding acceleration from velocity, leaving the coefficient as 8."
     },
     {
       "id": "ch16-kinematics-q3",

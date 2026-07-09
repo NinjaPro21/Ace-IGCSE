@@ -266,12 +266,12 @@
         "$\\frac{2}{3}$"
       ],
       "correctIndex": 0,
-      "explanation": "1st term ($n=1$): $\\frac{3}{1+2} = 1$. 4th term ($n=4$): $\\frac{3}{4+2} = \\frac{3}{6} = \\frac{1}{2}$. Difference: $1 - \\frac{1}{2} = \\frac{1}{2}$.\n\n$**Common mistake:** Students often make errors when finding the common denominator of \\frac{1}{a} terms or substitute the position incorrectly.$"
+      "explanation": "1st term ($n=1$): $\\frac{3}{1+2} = 1$. 4th term ($n=4$): $\\frac{3}{4+2} = \\frac{3}{6} = \\frac{1}{2}$. Difference: $1 - \\frac{1}{2} = \\frac{1}{2}$.\n\n$**Common mistake:** Students often make errors when finding the common denominator of \\frac{1}{a} terms or substitute the position incorrectly."
     },
     {
       "id": "ch01-number-pyp-q21",
       "type": "mcq",
-      "question": "The mass, $m^2 4200\\text{ kg}$, correct to the nearest $100\\text{ kg}$. Complete the inequality showing the error bounds for $m$.",
+      "question": "The mass, $m^2 4200\\text{ kg}$, correct to the nearest $100\\text{ kg}$. Complete the inequality showing the error bounds for $m.",
       "options": [
         "$4150 \\le m < 4250$",
         "$4100 \\le m < 4300$",
@@ -349,7 +349,7 @@
     {
       "id": "ch01-number-pyp-q27",
       "type": "mcq",
-      "question": "Find the value of $k$. So $\\frac{x^5}{x^{-2}} = x^k$.",
+      "question": "Find the value of $k$. So $\\frac{x^5}{$x^{-2}$} = x^k.",
       "options": [
         "7",
         "3",
@@ -401,7 +401,7 @@
     {
       "id": "ch01-number-pyp-q31",
       "type": "mcq",
-      "question": "Find the value of $p^2 8.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n$.",
+      "question": "Find the value of $p^2 8$.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n.",
       "options": [
         "9.0",
         "14.4",
@@ -466,7 +466,7 @@
     {
       "id": "ch01-number-pyp-q36",
       "type": "mcq",
-      "question": "Show that $\\sqrt{108} - \\sqrt{48}$ can be written in the form $a\\sqrt{b}$. Find the value of $a$ and $b$.",
+      "question": "Show that $\\sqrt{108} - \\sqrt{48}$ can be written in the form $a\\sqrt{b}$. Find the value of $a$ and $b.",
       "options": [
         "$a = 2, b = 3$",
         "$a = 6, b = 3$",

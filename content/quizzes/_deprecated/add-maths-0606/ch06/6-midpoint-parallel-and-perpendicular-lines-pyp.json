@@ -1,0 +1,77 @@
+{
+  "id": "6-midpoint-parallel-and-perpendicular-lines-pyp",
+  "topicId": "6-midpoint-parallel-and-perpendicular-lines",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "pyp",
+  "title": "Midpoint, Parallel, and Perpendicular Lines — PYP Mastery",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Find the midpoint of the line segment joining $(-2, 7)$ and $(4, 3)$.",
+      "options": [
+        "$(1, 5)$",
+        "$(3, 5)$",
+        "$(-1, 5)$",
+        "$(1, 10)$"
+      ],
+      "correctIndex": 0,
+      "explanation": "$x = (-2 + 4)/2 = 1$; $y = (7 + 3)/2 = 5$.\n\n**Common mistake:** Subtracting coordinates instead of adding them when finding the average.",
+      "id": "6-midpoint-parallel-and-perpendicular-lines-pyp-q1"
+    },
+    {
+      "type": "mcq",
+      "question": "Line $L_1$ passes through $(0, 4)$ and $(2, 0)$. Find the equation of line $L_2$ which is parallel to $L_1$ and passes through $(3, 5)$.",
+      "options": [
+        "$y = -2x + 11$",
+        "$y = 2x - 1$",
+        "$y = -2x + 5$",
+        "$y = 0.5x + 3.5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gradient of $L_1$ is $(0-4)/(2-0) = -2$. Since parallel, $L_2$ has gradient $-2$. $5 = -2(3) + c \\Rightarrow c = 11$.\n\n**Common mistake:** Using the y-intercept of $L_1$ (4) for $L_2$ instead of calculating the new intercept.",
+      "id": "6-midpoint-parallel-and-perpendicular-lines-pyp-q2"
+    },
+    {
+      "type": "mcq",
+      "question": "The gradient of line $A$. $1.5$. If line $B$ and $A$, find its gradient.",
+      "options": [
+        "-2/3",
+        "-1.5",
+        "0.67",
+        "2/3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perpendicular gradients satisfy $m_1 m_2 = -1$. $1.5 \\times m_2 = -1 \\Rightarrow m_2 = -1/1.5 = -2/3$.\n\n**Common mistake:** Only taking the reciprocal ($2/3$) or only changing the sign ($-1.5$).",
+      "id": "6-midpoint-parallel-and-perpendicular-lines-pyp-q3"
+    },
+    {
+      "type": "mcq",
+      "question": "Triangle $OAB$. $O(0,0)$, $A(6,0)$, and $B(2,4)$. Find the length of the median from $B$. $OA$.",
+      "options": [
+        "sqrt(17)",
+        "4",
+        "5",
+        "sqrt(13)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Midpoint of $OA$. $(3,0)$. Distance from $(2,4)$ to $(3,0)$ is $\\sqrt{(3-2)^2 + (0-4)^2} = \\sqrt{1 + 16} = \\sqrt{17}$.\n\n**Common mistake:** Finding the length of the altitude instead of the median.",
+      "id": "6-midpoint-parallel-and-perpendicular-lines-pyp-q4"
+    },
+    {
+      "type": "mcq",
+      "question": "Line $L$. $(4, 5)$ and is perpendicular to $y = 2x$. $(k, 2)$ lies on $L$ and $k$.",
+      "options": [
+        "10",
+        "6",
+        "2",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal gradient is $-0.5$. Eq: $y - 5 = -0.5(x - 4)$. Substitute $y=2$: $2 - 5 = -0.5(k - 4) \\Rightarrow -3 = -0.5(k-4) \\Rightarrow 6 = k-4 \\Rightarrow k=10$.\n\n**Common mistake:** Using the gradient^2 instead of -0.5\n\n$$ in the line equation.",
+      "id": "6-midpoint-parallel-and-perpendicular-lines-pyp-q5"
+    }
+  ]
+}

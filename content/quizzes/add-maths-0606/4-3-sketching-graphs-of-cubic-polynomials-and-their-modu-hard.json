@@ -11,7 +11,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q1",
       "type": "mcq",
-      "question": "Find the range of values of $k$. $|x(x-2)(x-4)| = k$ has exactly 6 distinct solutions.",
+      "question": "Find the range of values of $k$ for which $|x(x-2)(x-4)| = k$ has exactly 6 distinct solutions.",
       "options": [
         "$0 < k < \\text{local maximum value}$",
         "$k > 0$",
@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "The graph $y = |x^3 - 3x^2|$ is sketched. Identify the coordinates of the local maximum created by the reflection.",
       "options": [
-        "(2, 4)",
-        "(2, -4)",
-        "(0, 0)",
-        "(3, 0)"
+        "$(2, 4)$",
+        "$(2, -4)$",
+        "$(0, 0)$",
+        "$(3, 0)$"
       ],
       "correctIndex": 0,
       "explanation": "$f'(x) = 3x^2 - 6x = 0$ at $x=0, 2$. At $x=2, f(2) = 8 - 12 = -4$. The reflection makes this $(2, 4)$.\n\n**Common mistake:** Miscalculating the turning point $x$ and $y$-value."
@@ -37,7 +37,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q3",
       "type": "mcq",
-      "question": "If the cubic $f(x) = x^3 + k$ and $x2y = |f(x)|$ have?",
+      "question": "If the cubic $f(x) = x^3 + k$ has exactly one real root, how many $x$-intercepts does $y = |f(x)|$ have?",
       "options": [
         "1",
         "2",
@@ -50,7 +50,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q4",
       "type": "mcq",
-      "question": "Describe the transformation of the graph $y = x^3 - x$. So $y = |x^3 - x|$. Which intervals of $x$ and $x$-axis?",
+      "question": "When transforming $y = x^3 - x$ to $y = |x^3 - x|$, on which intervals is the original graph below the $x$-axis (and therefore reflected)?",
       "options": [
         "$x < -1$ and $0 < x < 1$",
         "$-1 < x < 0$ and $x > 1$",
@@ -63,7 +63,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-hard-q5",
       "type": "mcq",
-      "question": "A line $y = c$. So $y = |x^3 - 4x|$ at exactly 5 points. What is the value of $c$?",
+      "question": "The line $y = c$ intersects $y = |x^3 - 4x|$ at exactly 5 points. What must $c$ equal?",
       "options": [
         "The value of the local maximum",
         "0",

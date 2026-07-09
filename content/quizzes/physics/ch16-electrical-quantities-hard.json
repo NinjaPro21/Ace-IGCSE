@@ -312,13 +312,13 @@
       "type": "mcq",
       "question": "A piece of resistance wire is melted down and recast into a new wire that is twice as long. If the total volume of the metal remains the same, how does the new resistance compare to the original?",
       "options": [
-        "$It is four \\times larger.$",
-        "$It is two \\times larger.$",
+        "$It is four \\times larger.",
+        "$It is two \\times larger.",
         "It is half as large.",
         "It remains the same."
       ],
       "correctIndex": 0,
-      "explanation": "If the length doubles ($L \\times 2$) and volume is constant, the cross-sectional area must halve ($A / 2$). Since $R \\propto L/A$, the new resistance is $2 / (1/2) = 4$ \\times the original. \n\n$**Common mistake:** Only considering the change in length and concluding it is 'two \\times larger'.$"
+      "explanation": "If the length doubles ($L \\times 2$) and volume is constant, the cross-sectional area must halve ($A / 2$). Since $R \\propto L/A$, the new resistance is $2 / (1/2) = 4$ \\times the original. \n\n$**Common mistake:** Only considering the change in length and concluding it is 'two \\times larger'."
     },
     {
       "id": "ch16-electrical-quantities-hard-q25",
@@ -375,7 +375,7 @@
     {
       "id": "ch16-electrical-quantities-hard-q29",
       "type": "mcq",
-      "question": "A $2.16\\text{ kW}$ air conditioner is used for $1.5\\text{ hours}$ each day for $30\\text{ days}$. If electricity costs 0.27$per kWh, what is the total cost for the month?$",
+      "question": "A $2.16\\text{ kW}$ air conditioner is used for $1.5\\text{ hours}$ each day for $30\\text{ days}$. If electricity costs 0.27$ per kWh, what is the total cost for the month?",
       "options": [
         "$$\n26.24\n",
         "$$\n0.87\n",

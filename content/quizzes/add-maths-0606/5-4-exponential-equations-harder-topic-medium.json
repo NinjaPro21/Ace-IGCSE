@@ -19,12 +19,12 @@
         "$0.387$"
       ],
       "correctIndex": 0,
-      "explanation": "Taking natural logarithms gives $(2x-1)\\ln(3) = \\ln(7) \\implies 2x - 1 = \\frac{\\ln(7)}{\\ln(3)} \\approx 1.771 \\implies 2x = 2.771 \\implies x \\approx 1.39$ .\n\n**Common mistake:** Option B is the value of $2x-1$ before adding 1 and dividing by 2, which represents an incomplete multi-step method.",
+      "explanation": "Taking natural logarithms gives $(2x-1)\\ln(3) = \\ln(7) \\implies 2x - 1 = \\frac{\\ln(7)}{\\ln(3)} \\approx 1.771 \\implies$x$= 2.771 \\implies x \\approx 1.39$.\n\n**Common mistake:** Option B is the value of $2x-1$ before adding 1 and dividing by 2, which represents an incomplete multi-step method.",
       "variants": [
         {
           "id": "5-4-exponential-equations-harder-topic-medium-q1",
           "type": "mcq",
-          "question": "Solve the equation $3^{2x - 1} = 27$ .",
+          "question": "Solve the equation $3^{2x - 1} = 27$.",
           "options": [
             "$x = 2$",
             "$x = 1$",
@@ -37,7 +37,7 @@
         {
           "id": "5-4-exponential-equations-harder-topic-medium-q1",
           "type": "mcq",
-          "question": "Solve the equation $3^{3x - 1} = 9$ .",
+          "question": "Solve the equation $3^{3x - 1} = 9$.",
           "options": [
             "$x = 1$",
             "$x = 0$",
@@ -52,7 +52,7 @@
     {
       "id": "5-4-exponential-equations-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "Solve the equation $\\log_5(x) + \\log_5(x - 4) = 1$ .",
+      "question": "Solve the equation $\\log_5(x) + \\log_5(x - 4) = 1$.",
       "options": [
         "$x = 5$",
         "$x = 5$ or $x = -1$",
@@ -60,12 +60,12 @@
         "$x = 2.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Combine terms using the product law: $\\log_5(x(x-4)) = 1 \\implies x^2 - 4x = 5 \\implies x^2 - 4x - 5 = 0 \\implies (x-5)(x+1) = 0$ . We must reject $x = -1$ because logarithms cannot have negative arguments, leaving $x = 5$ .\n\n**Common mistake:** Option B includes the extraneous root $x = -1$ because the student forgot to test the values in the original logarithmic arguments."
+      "explanation": "Combine terms using the product law: $\\log_5(x(x-4)) = 1 \\implies x^2 - 4x = 5 \\implies x^2 - 4x - 5 = 0 \\implies (x-5)(x+1) = 0$. We must reject $x = -1$ because logarithms cannot have negative arguments, leaving $x = 5$.\n\n**Common mistake:** Option B includes the extraneous root $x = -1$ because the student forgot to test the values in the original logarithmic arguments."
     },
     {
       "id": "5-4-exponential-equations-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Solve the equation $e^{2x} - 4e^x - 12 = 0$ .",
+      "question": "Solve the equation $e^{2x} - 4e^x - 12 = 0$.",
       "options": [
         "$x = \\ln(6)$",
         "$x = 6$ or $x = -2$",
@@ -73,12 +73,12 @@
         "$x = \\ln(2)$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = e^x$. So $u^2 - 4u - 12 = 0 \\implies (u-6)(u+2) = 0$ , so $u = 6$ or $u = -2$ . Since $e^x > 0$ , $e^x = 6 \\implies x = \\ln(6)$ .\n\n**Common mistake:** Option B states the roots of the substituted quadratic equation directly, forgetting to perform the inverse exponentiation operation."
+      "explanation": "Let $u = e^x$. So $u^2 - 4u - 12 = 0 \\implies (u-6)(u+2) = 0$ , so $u = 6$ or $u = -2$. Since $e^x > 0$ , $e^x = 6 \\implies x = \\ln(6)$.\n\n**Common mistake:** Option B states the roots of the substituted quadratic equation directly, forgetting to perform the inverse exponentiation operation."
     },
     {
       "id": "5-4-exponential-equations-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "Using the change of base formula, solve the equation $\\log_3(x) = 4\\log_x(3)$ for $x > 1$ .",
+      "question": "Using the change of base formula, solve the equation $\\log_3(x) = 4\\log_x(3)$ for $x > 1$.",
       "options": [
         "$x = 9$",
         "$x = 81$",
@@ -86,7 +86,7 @@
         "$x = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $\\log_x(3) = \\frac{1}{\\log_3(x)}$ , let $u = \\log_3(x)$ . Then $u = \\frac{4}{u} \\implies u^2 = 4 \\implies u = 2$ (since $x>1, u>0$ ). Thus $\\log_3(x) = 2 \\implies x = 3^2 = 9$ .\n\n**Common mistake:** Option B is obtained if the student mistakenly thinks $\\log_3(x) = 4$ , bypassing the reciprocal property of the change of base law.",
+      "explanation": "Using $\\log_x(3) = \\frac{1}{\\log_3(x)}$ , let $u = \\log_3(x)$. Then $u = \\frac{4}{u} \\implies u^2 = 4 \\implies u = 2$ (since $x>1, u>0$ ). Thus $\\log_3(x) = 2 \\implies x = 3^2 = 9$.\n\n**Common mistake:** Option B is obtained if the student mistakenly thinks $\\log_3(x) = 4$ , bypassing the reciprocal property of the change of base law.",
       "variants": [
         {
           "id": "5-4-exponential-equations-harder-topic-medium-q4",

@@ -13,10 +13,10 @@
       "type": "mcq",
       "question": "Calculate the area of a triangle with vertices at $(0, 0)$, $(8, 0)$, and $(0, 6)$.",
       "options": [
-        "24 units^2",
-        "48 units^2",
-        "14 units^2",
-        "12 units^2"
+        "$24\\ \\text{units}^2$",
+        "$48\\ \\text{units}^2$",
+        "$14\\ \\text{units}^2$",
+        "$12\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
       "explanation": "For a right-angled triangle with base 8 and height 6, the area is $0.5 \\times 8 \\times 6 = 24$.\n\n**Common mistake:** A student might forget the $0.5$ factor and calculate the area of the rectangle ($8 \\times 6 = 48$)."
@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "Find the area of a rectangle whose vertices are located at $(1, 2)$, $(7, 2)$, $(7, 5)$, and $(1, 5)$.",
       "options": [
-        "18 units^2",
-        "21 units^2",
-        "9 units^2",
-        "12 units^2"
+        "$18\\ \\text{units}^2$",
+        "$21\\ \\text{units}^2$",
+        "$9\\ \\text{units}^2$",
+        "$12\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
       "explanation": "The length is $7 - 1 = 6$ and the width is $5 - 2 = 3$. Area $= 6 \\times 3 = 18$.\n\n**Common mistake:** Adding the side lengths instead of multiplying them, or miscalculating the distance between coordinates."
@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "A triangle has vertices $(2, 3)$, $(5, 3)$, and $(2, 8)$. Determine its area.",
       "options": [
-        "7.5 units^2",
-        "15 units^2",
-        "5 units^2",
-        "10 units^2"
+        "$7.5\\ \\text{units}^2$",
+        "$15\\ \\text{units}^2$",
+        "$5\\ \\text{units}^2$",
+        "$10\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
       "explanation": "Base $= 5 - 2 = 3$. Height $= 8 - 3 = 5$. Area $= 0.5 \\times 3 \\times 5 = 7.5$.\n\n**Common mistake:** Treating the diagonal as a side or using the sum of the coordinates."
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "What is the area of a square with vertices at $(0, 0)$, $(4, 0)$, $(4, 4)$, and $(0, 4)$?",
       "options": [
-        "16 units^2",
-        "8 units^2",
-        "4 units^2",
-        "32 units^2"
+        "$16\\ \\text{units}^2$",
+        "$8\\ \\text{units}^2$",
+        "$4\\ \\text{units}^2$",
+        "$32\\ \\text{units}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "The side length is 4 units. Area of a square $= side^2 = 4^2 = 16$.\n\n**Common mistake:** Calculating the perimeter ($4 + 4 + 4 + 4 = 16$) and confusing it with area, though the numerical value is the same here."
+      "explanation": "The side length is 4 units. Area of a square $= side 2 = 4^2 = 16$.\n\n**Common mistake:** Calculating the perimeter ($4 + 4 + 4 + 4 = 16$) and confusing it with area, though the numerical value is the same here."
     }
   ]
 }

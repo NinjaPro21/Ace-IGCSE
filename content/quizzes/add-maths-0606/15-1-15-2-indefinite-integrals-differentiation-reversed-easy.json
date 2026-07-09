@@ -11,7 +11,7 @@
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-easy-q1",
       "type": "mcq",
-      "question": "Find the indefinite integral $\\int x^7 dx$ .",
+      "question": "Find the indefinite integral $\\int x^7 dx$.",
       "options": [
         "$\\frac{x^8}{8} + c$",
         "$7x^6 + c$",
@@ -19,12 +19,12 @@
         "$\\frac{x^7}{7} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Applying the power rule for integration, we increase the power by 1 and divide by the new power: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + c$. So $n=7$ , this gives $x^8/8 + c$ .\n\n**Common mistake:** Option B is the result of differentiation rather than integration, where the student decreases the power and multiplies by the original exponent."
+      "explanation": "Applying the power rule for integration, we increase the power by 1 and divide by the new power: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + c$. So $n=7$ , this gives $x^8/8 + c$.\n\n**Common mistake:** Option B is the result of differentiation rather than integration, where the student decreases the power and multiplies by the original exponent."
     },
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-easy-q2",
       "type": "mcq",
-      "question": "If $\\frac{dy}{dx} = 15$ , find the general expression for $y$ .",
+      "question": "If $\\frac{dy}{dx} = 15$, find the general expression for y.",
       "options": [
         "$15x + c$",
         "$0 + c$",
@@ -32,12 +32,12 @@
         "$\\frac{15x^2}{2} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "The integral of a constant $k$. $kx + c2x$. $15x + c$ .\n\n**Common mistake:** Option B occurs if a student confuses integration with differentiation, as the derivative of a constant is zero."
+      "explanation": "The integral of a constant $k$. $kx + c2x$. $15x + c$.\n\n**Common mistake:** Option B occurs if a student confuses integration with differentiation, as the derivative of a constant is zero."
     },
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-easy-q3",
       "type": "mcq",
-      "question": "Find the integral of $\\frac{1}{x^4}$ with respect to $x$ .",
+      "question": "Find the integral of $\\frac{1}{x^4}$ with respect to $x$.",
       "options": [
         "$-\\frac{1}{3x^3} + c$",
         "$\\ln(x^4) + c$",
@@ -45,12 +45,12 @@
         "$\\frac{1}{5x^5} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite as $x^{-4}$ . Integrating gives $\\frac{x^{-4+1}}{-4+1} = \\frac{x^{-3}}{-3} = -\\frac{1}{3x^3} + c$ .\n\n**Common mistake:** Option C results from differentiating $x^{-4}$ instead of integrating it."
+      "explanation": "Rewrite as $x^{-4}$. Integrating gives $\\frac{x^{-4+1}}{-4+1} = \\frac{x^{-3}}{-3} = -\\frac{1}{3x^3} + c$.\n\n**Common mistake:** Option C results from differentiating $x^{-4}$ instead of integrating it."
     },
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-easy-q4",
       "type": "mcq",
-      "question": "Evaluate the indefinite integral $\\int \\sqrt{x} dx$ .",
+      "question": "Evaluate the indefinite integral $\\int \\sqrt{x} dx$.",
       "options": [
         "$\\frac{2}{3}x^{1.5} + c$",
         "$\\frac{1}{2\\sqrt{x}} + c$",
@@ -58,12 +58,12 @@
         "$\\frac{x^{0.5}}{0.5} + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite $\\sqrt{x}$ as $x^{0.5}$ . Integrating gives $\\frac{x^{1.5}}{1.5} = \\frac{x^{1.5}}{3/2} = \\frac{2}{3}x^{1.5} + c$ .\n\n**Common mistake:** Option B is the derivative of $\\sqrt{x}$ , a common error when students forget which calculus operation to perform."
+      "explanation": "Rewrite $\\sqrt{x}$ as $x^{0.5}$. Integrating gives $\\frac{x^{1.5}}{1.5} = \\frac{x^{1.5}}{3/2} = \\frac{2}{3}x^{1.5} + c$.\n\n**Common mistake:** Option B is the derivative of $\\sqrt{x}$ , a common error when students forget which calculus operation to perform."
     },
     {
       "id": "15-1-15-2-indefinite-integrals-differentiation-reversed-easy-q5",
       "type": "mcq",
-      "question": "Given that $f'(x) = 6x^2$ , find $f(x)$ .",
+      "question": "Given that $f'(x) = 6x^2$, find f(x).",
       "options": [
         "$2x^3 + c$",
         "$12x + c$",
@@ -71,7 +71,7 @@
         "$3x^3 + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrate $6x^2$ to get $6 \\cdot \\frac{x^3}{3} = 2x^3 + c$ .\n\n**Common mistake:** Option B is the second derivative (differentiating $6x^2$ ), while Option C multiplies the coefficient by the new power instead of dividing."
+      "explanation": "Integrate $6x^2$ to get $6 \\cdot \\frac{x^3}{3} = 2x^3 + c$.\n\n**Common mistake:** Option B is the second derivative (differentiating $6x^2$ ), while Option C multiplies the coefficient by the new power instead of dividing."
     }
   ]
 }

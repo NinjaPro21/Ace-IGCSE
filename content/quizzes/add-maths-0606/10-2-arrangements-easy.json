@@ -19,7 +19,7 @@
         "6"
       ],
       "correctIndex": 0,
-      "explanation": "Since there are 6 distinct letters, the number of arrangements is $6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$.\n\n**Common mistake:** Option B is $5!$, which occurs if a student miscounts the number of letters or assumes one letter is fixed without being told."
+      "explanation": "Since there are 6 distinct letters, the number of arrangements is $6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$.\n\n**Common mistake:** Option B is $1$!, which occurs if a student miscounts the number of letters or assumes one letter is fixed without being told."
     },
     {
       "id": "10-2-arrangements-easy-q2",
@@ -32,7 +32,7 @@
         "24"
       ],
       "correctIndex": 0,
-      "explanation": "The number of ways to arrange $n$. $n!$, so $5! = 120$.\n\n**Common mistake:** Option B results from calculating $5 \\times 5$ instead of using the factorial operation."
+      "explanation": "The number of ways to arrange $n$. $n$!, so $5! = 120$.\n\n**Common mistake:** Option B results from calculating $5 \\times 5$ instead of using the factorial operation."
     },
     {
       "id": "10-2-arrangements-easy-q3",
@@ -45,7 +45,7 @@
         "24"
       ],
       "correctIndex": 0,
-      "explanation": "With $P$. $5! = 120$ ways.\n\n**Common mistake:** Option B is $6!$, representing all possible arrangements without the constraint of starting with $P$."
+      "explanation": "With $P$. $5! = 120$ ways.\n\n**Common mistake:** Option B is $1$!, representing all possible arrangements without the constraint of starting with $P$."
     },
     {
       "id": "10-2-arrangements-easy-q4",
@@ -71,7 +71,7 @@
         "720"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{6!}{4!} = \\frac{6 \\times 5 \\times 4!}{4!} = 6 \\times 5 = 30$.\n\n**Common mistake:** Option B is $6/4$, where the student ignores the factorial symbols and treats it as a simple $fraction.$"
+      "explanation": "$\\frac{6!}{4!} = \\frac{6 \\times 5 \\times 4!}{4!} = 6 \\times 5 = 30$.\n\n**Common mistake:** Option B is $6/4$, where the student ignores the factorial symbols and treats it as a simple $fraction$."
     }
   ]
 }

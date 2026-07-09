@@ -24,7 +24,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q2",
       "type": "mcq",
-      "question": "Find the $y$. So $y = |(x+1)(x-2)(x-4)|$.",
+      "question": "Find the $y$-intercept of $y = |(x+1)(x-2)(x-4)|$.",
       "options": [
         "8",
         "-8",
@@ -37,7 +37,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-medium-q3",
       "type": "mcq",
-      "question": "The cubic $f(x)$ has roots at $-4, 0,$ and^4. Describe the end behavior of the graph $y = |f(x)|$ as $x \\to \\infty$. $x \\to -\\infty$.",
+      "question": "The cubic $f(x)$ has roots at $-4, 0,$ and $4$. Describe the end behavior of $y = |f(x)|$ as $x \\to \\infty$ and $x \\to -\\infty$.",
       "options": [
         "Both ends approach $+\\infty$",
         "One approaches $+\\infty$. $-\\infty$",
@@ -71,7 +71,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "The equation is zero only at the roots of the cubic expression: $x=1, 2,$ and^3.\n\n**Common mistake:** Thinking the modulus doubles the number of solutions for a 'zero' equation."
+      "explanation": "The equation is zero only at the roots of the cubic expression: $x=1, 2,$ and $3$.\n\n**Common mistake:** Thinking the modulus doubles the number of solutions for a 'zero' equation."
     }
   ]
 }

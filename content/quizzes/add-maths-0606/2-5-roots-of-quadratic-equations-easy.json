@@ -11,20 +11,20 @@
     {
       "id": "2-5-roots-of-quadratic-equations-easy-q1",
       "type": "mcq",
-      "question": "For a quadratic equation in the form a x^{2}$+bx+c=0, state the formula for the discriminant Δ.$",
+      "question": "For a quadratic equation in the form $ax^2+bx+c=0$, state the formula for the discriminant Δ.",
       "options": [
-        "$b^{2}$-4ac",
-        "$b^{2}$+4ac",
-        "$b^{2}$-4ac",
+        "$b^{2}-4ac$",
+        "$b^{2}+4ac$",
+        "$b^{2}-4ac$",
         "4ac-b\n2"
       ],
       "correctIndex": 0,
-      "explanation": "The discriminant Δ is the value under the square root in the quadratic formula, defined as $b^{2}$-4ac.\n\n**Common mistake:** Students often misremember the sign as positive ($b^{2}$+4ac) or include the square root symbol from the main quadratic formula."
+      "explanation": "The discriminant Δ is the value under the square root in the quadratic formula, defined as $b^{2}-4ac$.\n\n**Common mistake:** Students often misremember the sign as positive ($b^{2}+4ac) or include the square root symbol from the main quadratic formula$."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-easy-q2",
       "type": "mcq",
-      "question": "Calculate the discriminant Δ for the quadratic equation $x^{2}$-8x+16=0.",
+      "question": "Calculate the discriminant Δ for the quadratic equation $x^{2}-8x+16=0$.",
       "options": [
         "0",
         "128",
@@ -32,7 +32,7 @@
         "64"
       ],
       "correctIndex": 0,
-      "explanation": "Using Δ= b^{2}-4ac: $(-8)^{2}$-4(1)(16)=64-64=0.\n\n**Common mistake:** A common mistake is failing to square the negative sign correctly, resulting in -64-64=-128."
+      "explanation": "Using $\\Delta=b^{2}-4ac$: $(-8)^{2}-4(1)(16)=64-64=0$.\n\n**Common mistake:** A common mistake is failing to square the negative sign correctly, resulting in $-64-64=-128$."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-easy-q3",
@@ -50,7 +50,7 @@
     {
       "id": "2-5-roots-of-quadratic-equations-easy-q4",
       "type": "mcq",
-      "question": "Identify the nature of the roots for 2$x^{2}$+7x+3=0 by finding its discriminant.",
+      "question": "Identify the nature of the roots for $2x^{2}+7x+3=0$ by finding its discriminant.",
       "options": [
         "Two distinct real roots",
         "Two equal real roots",
@@ -58,16 +58,16 @@
         "Exactly one real root"
       ],
       "correctIndex": 0,
-      "explanation": "Δ= $7^{2}$-4(2)(3)=49-24=25. Since 25>0, the roots are real and distinct.\n\n**Common mistake:** Calculative errors in multiplication (e.g., 4×2×3=18) might lead to a different conclusion about the sign of Δ."
+      "explanation": "Δ= $7^{2}-4(2)(3)=49-24=25. Since 25>0, the roots are real and distinct$.\n\n**Common mistake:** Calculative errors in multiplication (e.g., 4×2×3=18) might lead to a different conclusion about the sign of Δ."
     },
     {
       "id": "2-5-roots-of-quadratic-equations-easy-q5",
       "type": "mcq",
-      "question": "State the condition for the quadratic equation a x^{2}$+bx+c=0 to have two equal real roots.$",
+      "question": "State the condition for the quadratic equation $ax^2+bx+c=0$ to have two equal real roots.",
       "options": [
-        "$b^{2}$-4ac=0",
-        "$b^{2}$-4ac>0",
-        "$b^{2}$-4ac<0",
+        "$b^{2}-4ac=0$",
+        "$b^{2}-4ac>0$",
+        "$b^{2}-4ac<0$",
         "$b^{2}$=4ac+1"
       ],
       "correctIndex": 0,

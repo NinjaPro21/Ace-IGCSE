@@ -17,7 +17,7 @@
         "$x = 12$ or $x = -2$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up two linear equations: $2x - 5 = 7 \\implies 2x = 12 \\implies x = 6$, and $2x - 5 = -7 \\implies 2x = -2 \\implies x = -1$. Both solutions satisfy the original equation since the absolute value of both^7 and $-7$ is $1$.\n\n**Common mistake:** Students commonly make a sign error when solving the negative case, writing $2x - 5 = -7 \\implies 2x = -2 \\implies x = 1$ instead of $-1$.",
+      "explanation": "Set up two linear equations: $2x - 5 = 7 \\implies$x$= 12 \\implies x = 6$, and $2x - 5 = -7 \\implies$x$= -2 \\implies x = -1$. Both solutions satisfy the original equation since the absolute value of both^7 and -7 is $1$.\n\n**Common mistake:** Students commonly make a sign error when solving the negative case, writing $2x - 5 = -7 \\implies$x$= -2 \\implies x = 1$ instead of $-1$.",
       "variants": [
         {
           "id": "ch04-equations-inequalities-and-graphs-q1",
@@ -99,7 +99,7 @@
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "By definition, the modulus of any real expression $|f(x)|$ must be greater than or equal to^0. Since $-2$ is negative, there are no real solutions.\n\n**Common mistake:** Students often blindly follow algebraic procedures without checking validity, solving $x^2 - 4 = -2$ and $x^2 - 4 = 2$ to mistakenly conclude there are multiple solutions."
+      "explanation": "By definition, the modulus of any real expression $|f(x)|$ must be greater than or equal to^0. Since -2\n\n$$ is negative, there are no real solutions.\n\n**Common mistake:** Students often blindly follow algebraic procedures without checking validity, solving $x^2 - 4 = -2$ and $x^2 - 4 = 2$ to mistakenly conclude there are multiple solutions."
     },
     {
       "id": "ch04-equations-inequalities-and-graphs-q4",

@@ -11,7 +11,7 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q1",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=2x+1 for x≥0. On the same axes, sketch y=f(x) and y= f^{-1}(x). Find the coordinates of the point of intersection.",
+      "question": "The function $f$ is defined by $f(x)=2x+1$ for $x \\ge 0$. On the same axes, sketch $y=f(x)$ and $y=f^{-1}(x)$. Find the coordinates of the point of intersection.",
       "options": [
         "No intersection for $x \\ge 0$",
         "$(-1,-1)$",
@@ -24,54 +24,54 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "Given f(x)= x^{2}-4x+7 for x≥2. State the coordinates of the point where the graph of f meets the graph of $f^{-1}$.",
+      "question": "Given $f(x)=x^{2}-4x+7$ for $x \\ge 2$. State the coordinates of the point where the graph of $f$ meets the graph of $f^{-1}$.",
       "options": [
         "No real intersection",
-        "(2,3)",
-        "(3,4)",
-        "(2,2)"
+        "$(2,3)$",
+        "$(3,4)$",
+        "$(2,2)$"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $x^{2}$-4x+7=x \\implies $x^{2}$-5x+7=0. Discriminant Δ=25-28=-3. Since Δ<0, there are no real intersection points.\n\n**Common mistake:** Spending significant time finding the expression for $f^{-1}$ and attempting to solve a more complex equation."
+      "explanation": "Solve $x^{2}-4x+7=x \\implies x^{2}-5x+7=0$. Discriminant $\\Delta=25-28=-3$. Since $\\Delta<0$, there are no real intersection points.\n\n**Common mistake:** Spending significant time finding the expression for $f^{-1}$ and attempting to solve a more complex equation."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "The graph of y=f(x) is shown passing through (2,0) and (0,-4). Sketch the graph of y= f^{-1}(x) and find its gradient.",
+      "question": "The graph of $y=f(x)$ is shown passing through $(2,0)$ and $(0,-4)$. Sketch the graph of $y=f^{-1}(x)$ and find its gradient.",
       "options": [
-        "0.5",
+        "$0.5$",
         "2",
-        "-0.5",
-        "-2"
+        "$-0.5$",
+        "$-2$"
       ],
       "correctIndex": 0,
-      "explanation": "The inverse passes through $(0,2)$ and $(-4,0)$. Gradient $m=\\frac{0-2}{-4-0}=0.5$.\n\n**Common mistake:** Using the gradient of the original line ($2$) as the gradient of the inverse."
+      "explanation": "The inverse passes through $(0,2)$ and $(-4,0)$. Gradient $m=\\frac{0-2}{-4-0}=0.5$.\n\n**Common mistake:** Using the gradient of the original line (2) as the gradient of the inverse."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "The point (3,k) lies on the line y=x. If this point is an intersection of y=f(x) and y= f^{-1}(x), what is the value of k?",
+      "question": "The point $(3,k)$ lies on the line $y=x$. If this point is an intersection of $y=f(x)$ and $y=f^{-1}(x)$, what is the value of $k$?",
       "options": [
-        "3",
-        "0",
-        "9",
+        "$3$",
+        "$0$",
+        "$9$",
         "Undefined"
       ],
       "correctIndex": 0,
-      "explanation": "Any point on the line y=x has equal x and y coordinates, so k must equal 3.\n\n**Common mistake:** Thinking k could be any value since f(x) is not explicitly defined."
+      "explanation": "Any point on the line $y=x$ has equal $x$ and $y$ coordinates, so $k$ must equal^3.\n\n**Common mistake:** Thinking $k$ could be any value since $f(x)$ is not explicitly defined."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "The graph of f is a curve starting at (2,5). Where does the reflected graph $f^{-1}$start?",
+      "question": "The graph of $f$ is a curve starting at $(2,5)$. Where does the reflected graph of $f^{-1}$ start?",
       "options": [
-        "(5,2)",
-        "(2,5)",
-        "(-2,-5)",
-        "(0,0)"
+        "$(5,2)$",
+        "$(2,5)$",
+        "$(-2,-5)$",
+        "$(0,0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Reflection in y=x swaps the coordinates of every point, including the starting endpoint.\n\n**Common mistake:** Negating the coordinates or assuming the starting point remains fixed."
+      "explanation": "Reflection in $y=x$ swaps the coordinates of every point, including the starting endpoint.\n\n**Common mistake:** Negating the coordinates or assuming the starting point remains fixed."
     }
   ]
 }

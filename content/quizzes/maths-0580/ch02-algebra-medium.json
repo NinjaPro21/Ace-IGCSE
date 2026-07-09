@@ -136,7 +136,7 @@
         "$2a^2 + 7ab + 4b^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Expand all combinations: $a(2a) + a(-b) + 4b(2a) + 4b(-b) = 2a^2 - ab + 8ab - 4b^2 = 2a^2 + 7ab - 4b^2$.\n\n**Common mistake:** Students can miscalculate $-1ab + 8ab$. $-9ab2+9ab$."
+      "explanation": "Expand all combinations: $a(2a) + a(-b) + 4b(2a) + 4b(-b) = 2a^2 - ab + 8ab - 4b^2 = 2a^2 + 7ab - 4b^2$.\n\n**Common mistake:** Students can miscalculate $-1ab + 8ab$. $-9ab2+9ab."
     },
     {
       "id": "ch02-algebra-medium-q11",
@@ -284,7 +284,7 @@
     {
       "id": "ch02-algebra-medium-q22",
       "type": "mcq",
-      "question": "Factorise completely: $6am - 3an - 2bm + bn$.",
+      "question": "Factorise completely: $6am - 3an - 2bm + bn.",
       "options": [
         "$(3a - b)(2m - n)$",
         "$(3a + b)(2m - n)$",
@@ -305,11 +305,11 @@
         "$(x - 1)(x - 12)$"
       ],
       "correctIndex": 0,
-      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$. $-7x$."
+      "explanation": "We look for two numbers that multiply to $+12$ and add up to $-7$. These numbers are $-3$ and $-4$. Therefore, the quadratic expression factorises into $(x - 3)(x - 4)$.\n\n**Common mistake:** Choosing numbers with incorrect signs, such as $(x + 3)(x + 4)$, which gives $+7x$. $-7x."
     },
     {
       "type": "mcq",
-      "question": "Factorise by grouping: $6m + 4n - 9km - 6kn$.",
+      "question": "Factorise by grouping: $6m + 4n - 9km - 6kn.",
       "options": [
         "$(2 - 3k)(3m + 2n)$",
         "$(2 + 3k)(3m - 2n)$",
@@ -733,7 +733,7 @@
         "$x < 3$"
       ],
       "correctIndex": 0,
-      "explanation": "First, add 4 to both sides: $3x \\le 9$. Then divide by 3: $x \\le 3$.\n\n**Common mistake:** Failing to divide the final result by the coefficient of $x$.",
+      "explanation": "First, add 4 to both sides: $3x \\le 9$. Then divide by 3: $x \\le 3$.\n\n**Common mistake:** Failing to divide the final result by the coefficient of $x.",
       "id": "ch02-algebra-medium-q56"
     },
     {

@@ -11,7 +11,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-medium-q1",
       "type": "mcq",
-      "question": "A sector has a perimeter of^24 cm and a radius of^8 cm. Calculate the area of the sector.",
+      "question": "A sector has perimeter $24$ cm and radius $8$ cm. Calculate the area of the sector.",
       "options": [
         "$32$ cm^2",
         "$64$ cm^2",
@@ -19,25 +19,25 @@
         "$16$ cm^2"
       ],
       "correctIndex": 0,
-      "explanation": "Arc length $s = P - 2r = 24 - 16 = 8$ cm. Area $A = 0.5rs = 0.5 \\times 8 \\times 8 = 32$ cm^2.\n\n**Common mistake:** Option B is obtained if the student forgets to divide by^2 in the area formula $A = 0.5rs$."
+      "explanation": "Arc length $s = 24 - 16 = 8$ cm. $A = 0.5 \\times 8 \\times 8 = 32$ cm$^2$.\n\n**Common mistake:** Forgetting the factor $\\frac{1}{2}$ in $A = \\frac{1}{2}rs$."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-medium-q2",
       "type": "mcq",
-      "question": "The arc length of a sector is $1$ cm and the area is $1$ cm^2. Find the radius of the circle.",
+      "question": "The arc length of a sector is $10$ cm and the area is $40$ cm$^2$. Find the radius.",
       "options": [
         "$8$ cm",
         "$4$ cm",
         "$16$ cm",
-        "2 cm"
+        "$2$ cm"
       ],
       "correctIndex": 0,
-      "explanation": "Using $A = 0.5rs^2 40 = 0.5 \\times r \\times 10 \\implies 40 = 5r2r = 8$ cm.\n\n**Common mistake:** Option B occurs if the student ignores the $0.5$ in the formula, leading to $r = 40/10$."
+      "explanation": "Using $A = \\frac{1}{2}rs$: $40 = 0.5 \\times r \\times 10 \\implies r = 8$ cm.\n\n**Common mistake:** Ignoring the $\\frac{1}{2}$ factor, giving $r = 4$ cm."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "A sector is cut from a square sheet of metal of side^10 cm. The sector has its center at one corner of the square and a radius of^10 cm, with an angle of $0.6$ radians. Find the area of the remaining metal.",
+      "question": "A sector is cut from a square sheet of side $10$ cm. The sector has its centre at one corner, radius $10$ cm, and angle $0.6$ radians. Find the area of the remaining metal.",
       "options": [
         "$70$ cm^2",
         "$30$ cm^2",
@@ -50,7 +50,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-medium-q4",
       "type": "mcq",
-      "question": "The radius of a sector is $x+2$ cm and the central angle is $1$ radians. If the area is $1$ cm^2, find the value of $x$.",
+      "question": "A sector has radius $(x+2)$ cm and central angle $2$ radians. If the area is $49$ cm$^2$, find $x$.",
       "options": [
         "$5$",
         "$7$",
@@ -58,12 +58,12 @@
         "$3$"
       ],
       "correctIndex": 0,
-      "explanation": "$A = 0.5(x+2)²(2) = (x+2)²$. So $49 = (x+2)² \\implies x+2 = 7 \\implies x = 5$.\n\n**Common mistake:** Option B is the value of the radius ($x+2$) rather than the variable $x$."
+      "explanation": "$A = 0.5(x+2)^2 \\times 2 = (x+2)^2 = 49 \\implies x+2 = 7 \\implies x = 5$.\n\n**Common mistake:** Giving the radius $x+2 = 7$ instead of $x$."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Find the area of a sector where the central angle is $1.25$ radians and the perimeter is $1$ cm.",
+      "question": "A sector has central angle $2.5$ radians and perimeter $18$ cm. Find its area.",
       "options": [
         "$20$ cm^2",
         "$40$ cm^2",
@@ -71,7 +71,7 @@
         "$22.5$ cm^2"
       ],
       "correctIndex": 0,
-      "explanation": "$P = 2r + r\\theta = r(2 + 1.25) = 3.25r$. So $r = 18 / 3.25 \\approx 5.538$. Area $A = 0.5 \\times 5.538^2 \\times 1.25 \\approx 19.17$ wait, let's use cleaner numbers. If $r=4, \\theta=2.5, P=8+10=18$. Then $A=0.5162.5=20$. Correct index 0.\n\n**Common mistake:** Option B is $r^2\\theta$. $0.5$ factor."
+      "explanation": "$P = r(2 + \\theta) = 3.25r = 18 \\implies r = 4$. $A = 0.5 \\times 16 \\times 2.5 = 20$ cm$^2$.\n\n**Common mistake:** Using $A = r^2\\theta$ and forgetting the $\\frac{1}{2}$ factor."
     }
   ]
 }

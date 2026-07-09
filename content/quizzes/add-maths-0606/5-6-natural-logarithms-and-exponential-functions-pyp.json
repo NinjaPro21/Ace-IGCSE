@@ -13,10 +13,10 @@
       "type": "mcq",
       "question": "Find the coordinates of the point where the curve $y = 4\\ln(x - 3)$ crosses the line $y = 8$.",
       "options": [
-        "(e^2 + 3, 8)",
-        "(e^2 - 3, 8)",
-        "(11, 8)",
-        "(e^5, 8)"
+        "$\\ln 3$",
+        "$3$",
+        "$e^3$",
+        "$\\log 3$"
       ],
       "correctIndex": 0,
       "explanation": "Set $4\\ln(x - 3) = 8 \\Rightarrow \\ln(x - 3) = 2 \\Rightarrow x - 3 = e^2 \\Rightarrow x = e^2 + 3$.\n\n**Common mistake:** Dividing the argument by 4 instead of the whole log, or forgetting to add 3 to $e^2$ at the end."
@@ -37,15 +37,15 @@
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of $x$. $e^{2x+1} \\geq 10$.",
+      "question": "Find the set of values of $x$ such that $e^{2x+1} \\geq 10$.",
       "options": [
         "$x \\geq \\frac{\\ln 10 - 1}{2}$",
-        "x \\geq \\ln 5 - 1",
+        "$x \\geq \\ln 5 - 1$",
         "$x \\leq \\frac{\\ln 10 + 1}{2}$",
         "$x \\geq \\frac{e^{10} - 1}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Take $\\ln$. $2x + 1 \\geq \\ln 10$. Subtract 1 and divide by 2 to isolate $x$.\n\n**Common mistake:** Dividing by 2 before subtracting 1, leading to an incorrect algebraic expression."
+      "explanation": "Take $\\ln$ of both sides: $2x + 1 \\geq \\ln 10$. Subtract 1 and divide by 2 to isolate $x$.\n\n**Common mistake:** Dividing by 2 before subtracting 1, leading to an incorrect algebraic expression."
     },
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-pyp-q4",
@@ -63,7 +63,7 @@
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-pyp-q5",
       "type": "mcq",
-      "question": "Express $\\ln(x^4 \\sqrt{e})$ in the form $A\\ln x + B$ and $A2B$ are constants.",
+      "question": "Express $\\ln(x^4 \\sqrt{e})$ in the form $A\\ln x + B$, where $A$ and $B$ are constants.",
       "options": [
         "4\\ln x + 0.5",
         "4\\ln x + 1",
@@ -71,7 +71,7 @@
         "4\\ln x + e"
       ],
       "correctIndex": 0,
-      "explanation": "Using log laws: $\\ln x^4 + \\ln e^{1/2} = 4\\ln x + \\frac{1}{2}\\ln e^2 So \\ln e = 1$, the result is $4\\ln x + 0.5$.\n\n**Common mistake:** Leaving the second term as $\\ln \\sqrt{e}$ or mistakenly evaluating $\\ln e  and e$ or 0."
+      "explanation": "Using log laws: $\\ln x^4 + \\ln e^{1/2} = 4\\ln x + \\frac{1}{2}\\ln e = 4\\ln x + 0.5$.\n\n**Common mistake:** Leaving the second term as $\\ln \\sqrt{e}$ or mistakenly evaluating $\\ln e$ as $e$ or 0."
     }
   ]
 }

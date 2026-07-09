@@ -92,9 +92,9 @@
       "question": "Three numbers x, y, and z are in an AP. Which of the following relationships must be true?",
       "options": [
         "2y = x + z",
-        "y^2 = xz",
-        "y = x + z",
-        "y = (x + z) / 3"
+        "$y^2 = xz$",
+        "$y = x + z$",
+        "$y = (x + z) / 3$"
       ],
       "correctIndex": 0,
       "explanation": "In an AP, the middle term is the arithmetic mean: y - x = z - y => 2y = x + z.\n\n**Common mistake:** Confusing the AP property with the GP property ($y^2 = xz$)."
@@ -104,10 +104,10 @@
       "type": "mcq",
       "question": "Three numbers x, y, and z are in a GP. Which of the following relationships must be true?",
       "options": [
-        "y^2 = xz",
+        "$y^2 = xz$",
         "2y = x + z",
-        "y = xz",
-        "y = (x + z) / 2"
+        "$y = xz$",
+        "$y = (x + z) / 2$"
       ],
       "correctIndex": 0,
       "explanation": "In a GP, the common ratio is constant: y/x = z/y => y^2 = xz.\n\n**Common mistake:** Confusing the GP property with the AP property ($2y = x + z$)."

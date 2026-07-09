@@ -32,12 +32,12 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "The constant term occurs when the powers of $x$. So $\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the^2 from the second part of the binomial."
+      "explanation": "The constant term occurs when the powers of when $\\binom{4}{2}(x^2)(\\frac{2}{x})^2 = 6 \\times x^2 \\times \\frac{4}{x^2} = 24$.\n\n**Common mistake:** Option B is just $\\binom{4}{2}$, forgetting to square the 2 from the second part of the binomial."
     },
     {
       "id": "11-2-the-binomial-theorem-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + ...$, find the values of $n$ and $p$.",
+      "question": "Given that $(1 + px)^n = 1 + 24x + 240x^2 + \\ldots$, find the values of $n$ and $p$.",
       "options": [
         "n = 6, p = 4",
         "n = 4, p = 6",
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "Determine the coefficient of $x^3$ in the expansion of $(x^2 + \\frac{k}{x})^3$.",
       "options": [
-        "3k",
-        "k³",
-        "3k^2",
-        "1"
+        "$3k$",
+        "$k^3$",
+        "$3k^2$",
+        "$1$"
       ],
       "correctIndex": 0,
-      "explanation": "Expanding: $(x^2)^3 + 3(x^2)^2(\\frac{k}{x}) + 3(x^2)(\\frac{k}{x})^2 + (\\frac{k}{x})^3 = x^6 + 3kx^3 + 3k^2 + k^3/x^3$. The coefficient is $3k$.\n\n**Common mistake:** Option B picks the constant term or a term with a different power of $x$."
+      "explanation": "Expanding: $(x^2)^3 + 3(x^2)^2\\left(\\frac{k}{x}\\right) + 3(x^2)\\left(\\frac{k}{x}\\right)^2 + \\left(\\frac{k}{x}\\right)^3 = x^6 + 3kx^3 + 3k^2 + k^3/x^3$. The coefficient of $x^3$ is $3k$.\n\n**Common mistake:** Option B picks the constant term or a term with a different power of $x$."
     }
   ]
 }

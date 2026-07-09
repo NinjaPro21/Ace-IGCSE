@@ -11,7 +11,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-hard-q1",
       "type": "mcq",
-      "question": "A sector has radius^10 cm and angle $1.2$ radians. Calculate the area of the segment bounded by the arc and the chord. (Use $\\sin(1.2) \\approx 0.932$)",
+      "question": "A sector has radius $10$ cm and angle $1.2$ radians. Find the area of the segment bounded by the arc and chord. (Use $\\sin(1.2) \\approx 0.932$.)",
       "options": [
         "$13.4$ cm^2",
         "$60$ cm^2",
@@ -45,12 +45,12 @@
         "$1 : 2$"
       ],
       "correctIndex": 0,
-      "explanation": "$0.5(1.5r_1)²\\theta_2 = 2(0.5r_1^2\\theta_1) \\implies 2.25\\theta_2 = 2\\theta_1 \\implies \\theta_2/\\theta_1 = 2/2.25 = 8/9$.\n\n**Common mistake:** Option B is the ratio if the student forgets to square the $1.5$ factor for the radius."
+      "explanation": "$0.5(1.5r_1)^2\\theta_2 = 2(0.5r_1^2\\theta_1) \\implies 2.25\\theta_2 = 2\\theta_1 \\implies \\theta_2/\\theta_1 = 2/2.25 = 8/9$.\n\n**Common mistake:** Option B is the ratio if the student forgets to square the $1.5$ factor for the radius."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "Solve the simultaneous equations for a sector: its arc length is $1$ cm and its area is $1$ cm^2. Find the central angle $\\theta$ in radians.",
+      "question": "A sector has arc length $12$ cm and area $54$ cm$^2$. Find the central angle $\\theta$ in radians (3 s.f.).",
       "options": [
         "$1.33$ radians",
         "$9$ radians",
@@ -58,12 +58,12 @@
         "$1.5$ radians"
       ],
       "correctIndex": 0,
-      "explanation": "$54 = 0.5r(12) \\implies 6r = 54 \\implies r = 9$. Then $12 = 9\\theta \\implies \\theta = 12/9 = 1.33$ (to 3 s.f.).\n\n**Common mistake:** Option B is the value of the radius $r$. $\\theta$."
+      "explanation": "$A = \\frac{1}{2}rs \\implies 54 = 0.5 \\times r \\times 12 \\implies r = 9$. Then $\\theta = s/r = 12/9 \\approx 1.33$ rad.\n\n**Common mistake:** Giving the radius $9$ instead of $\\theta$."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of $e . \\ln(9)$ radians. Find the exact area of the sector.",
+      "question": "A sector has radius $e$ cm and central angle $\\ln(9)$ radians. Find the exact area.",
       "options": [
         "$e^2 \\ln(3)$ cm^2",
         "$e^2 \\ln(9)$ cm^2",
@@ -71,7 +71,7 @@
         "$2 e^2 \\ln(3)$ cm^2"
       ],
       "correctIndex": 0,
-      "explanation": "$A = 0.5 \\times e^2 \\times \\ln(9) = 0.5 \\times e^2 \\times 2\\ln(3) = e^2 \\ln(3)$ cm^2.\n\n**Common mistake:** Option B is the direct substitution without simplifying the coefficient into the logarithm power rule."
+      "explanation": "$A = 0.5 e^2 \\ln 9 = 0.5 e^2 \\times 2\\ln 3 = e^2 \\ln 3$ cm$^2$.\n\n**Common mistake:** Leaving the answer as $e^2 \\ln 9$ without simplifying."
     }
   ]
 }

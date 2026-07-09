@@ -13,13 +13,13 @@
       "type": "mcq",
       "question": "Find the equation of the circle which has the points $(1, 2)$ and $(5, 2)$ as the endpoints of a diameter.",
       "options": [
-        "$(x - 3)² + (y - 2)² = 4$",
-        "$(x - 3)² + (y - 2)² = 16$",
-        "$(x - 6)² + (y - 4)² = 4$",
-        "$(x - 2)² + (y - 0)² = 2$"
+        "$(x - 3)^2 + (y - 2)^2 = 4$",
+        "$(x - 3)^2 + (y - 2)^2 = 16$",
+        "$(x - 6)^2 + (y - 4)^2 = 4$",
+        "$(x - 2)^2 + (y - 0)^2 = 2$"
       ],
       "correctIndex": 0,
-      "explanation": "Centre is the midpoint: $(\\frac{1+5}{2}, \\frac{2+2}{2}) = (3, 2)$. The distance between endpoints is 4, so radius $r = 2$. Eq: $(x-3)² + (y-2)² = 2^2 = 4$.\n\n**Common mistake:** Using the full distance between points (the diameter) as the radius in the final equation."
+      "explanation": "Centre is the midpoint: $(\\frac{1+5}{2}, \\frac{2+2}{2}) = (3, 2)$. The distance between endpoints is 4, so radius $r = 2$. Eq: $(x-3)^2 + (y-2)^2 = 2^2 = 4$.\n\n**Common mistake:** Using the full distance between points (the diameter) as the radius in the final equation."
     },
     {
       "id": "7-1-the-equation-of-a-circle-medium-q2",
@@ -28,11 +28,11 @@
       "options": [
         "5",
         "25",
-        "$$\n\\sqrt{7}\n",
-        "$$\n\\sqrt{13}\n"
+        "$\\sqrt{7}$",
+        "$\\sqrt{13}$"
       ],
       "correctIndex": 0,
-      "explanation": "Radius is the distance from centre to a point on the circle: $r = \\sqrt{(7-4}² + (3-(-1))²) = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$.\n\n**Common mistake:** Mistakenly subtracting the coordinates incorrectly, such as $3 - 1 = 2$ instead of $3 - (-1) = 4$."
+      "explanation": "Radius is the distance from centre to a point on the circle: $r = \\sqrt{(7-4}^2 + (3-(-1))^2) = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$.\n\n**Common mistake:** Mistakenly subtracting the coordinates incorrectly, such as $3 - 1 = 2$ instead of $3 - (-1) = 4$."
     },
     {
       "id": "7-1-the-equation-of-a-circle-medium-q3",
@@ -45,20 +45,20 @@
         "$(9, 25)$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: $(x-3)² - 9 + (y+5)² - 25 + 9 = 0 \\Rightarrow (x-3)² + (y+5)² = 25$. The centre is $(3, -5)$.\n\n**Common mistake:** Dividing the coefficients of $x$ and $y$ by 2 but forgetting to flip the signs for the centre coordinates."
+      "explanation": "Complete the square: $(x-3)^2 - 9 + (y+5)^2 - 25 + 9 = 0 \\Rightarrow (x-3)^2 + (y+5)^2 = 25$. The centre is $(3, -5)$.\n\n**Common mistake:** Dividing the coefficients of $x$ and $y$ by 2 but forgetting to flip the signs for the centre coordinates."
     },
     {
       "id": "7-1-the-equation-of-a-circle-medium-q4",
       "type": "mcq",
-      "question": "The equation of a circle is $(x + 4)² + (y - 1)² = k$. $(0, 0)$, find the value of $k$.",
+      "question": "The equation of a circle is $(x + 4)^2 + (y - 1)^2 = k$. $(0, 0)$, find the value of $k$.",
       "options": [
         "17",
         "15",
-        "$$\n\\sqrt{17}\n",
+        "$\\sqrt{17}$",
         "4"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x=0$ and $y=0$ into the equation: $(0+4)² + (0-1)² = 16 + 1 = 17$. So $k = 17$.\n\n**Common mistake:** Calculating $4^2 - 1^2 = 15$ by making a sign error during the substitution."
+      "explanation": "Substitute $x=0$ and $y=0$ into the equation: $(0+4)^2 + (0-1)^2 = 16 + 1 = 17$. So $k = 17$.\n\n**Common mistake:** Calculating $4^2 - 1^2 = 15$ by making a sign error during the substitution."
     },
     {
       "id": "7-1-the-equation-of-a-circle-medium-q5",
@@ -71,7 +71,7 @@
         "56"
       ],
       "correctIndex": 0,
-      "explanation": "Completing the square gives $(x+4)² + (y-2)² = 16 + 4 - c$. $20 - c = 6^2 = 36$. Thus $c = 20 - 36 = -16$.\n\n**Common mistake:** Setting $20 - c$ equal to the radius 6 instead of the radius squared 36."
+      "explanation": "Completing the square gives $(x+4)^2 + (y-2)^2 = 16 + 4 - c$. $20 - c = 6^2 = 36$. Thus $c = 20 - 36 = -16$.\n\n**Common mistake:** Setting $20 - c$ equal to the radius 6 instead of the radius squared 36."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-easy-q1",
       "type": "mcq",
-      "question": "A sector of a circle has a radius of^12 cm and a central angle of $0.5$ radians. Calculate the area of the sector.",
+      "question": "A sector has radius $12$ cm and central angle $0.5$ radians. Calculate the area of the sector.",
       "options": [
         "$36$ cm^2",
         "$72$ cm^2",
@@ -24,25 +24,25 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-easy-q2",
       "type": "mcq",
-      "question": "The area of a sector is $1$ cm^2 and the radius of the circle is $1$ cm. Find the angle of the sector in radians.",
+      "question": "The area of a sector is $25$ cm$^2$ and the radius is $5$ cm. Find the angle in radians.",
       "options": [
-        "2 radians",
+        "$2$ radians",
         "$1$ radian",
         "$0.5$ radians",
-        "$10$ radians"
+        "$5$ radians"
       ],
       "correctIndex": 0,
-      "explanation": "Rearranging $A = 0.5r^2\\theta$. $25 = 0.5 \\times 5^2 \\times \\theta \\implies 25 = 12.5\\theta2\\theta = 2$ radians.\n\n**Common mistake:** Option D occurs if the student forgets to square the radius, solving $25 = 0.5 \\times 5 \\times \\theta$."
+      "explanation": "Using $A = \\frac{1}{2}r^2\\theta$: $25 = 0.5 \\times 25 \\times \\theta \\implies \\theta = 2$ radians.\n\n**Common mistake:** Forgetting to square the radius in $A = \\frac{1}{2}r^2\\theta$."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-easy-q3",
       "type": "mcq",
-      "question": "Find the radius of a sector which has an area of^12 cm^2 and a central angle of $1.5$ radians.",
+      "question": "Find the radius of a sector with area $12$ cm$^2$ and central angle $1.5$ radians.",
       "options": [
         "$4$ cm",
         "$16$ cm",
         "$8$ cm",
-        "2 cm"
+        "$2$ cm"
       ],
       "correctIndex": 0,
       "explanation": "Using $A = 0.5r^2\\theta$. $12 = 0.5 \\times r^2 \\times 1.5 \\implies 12 = 0.75r^2 \\implies r^2 = 16$, so $r = 4$ cm.\n\n**Common mistake:** Option B is the value of $r^2$, where the student forgets to take the square root."
@@ -50,7 +50,7 @@
     {
       "id": "8-3-area-of-a-sector-harder-topic-easy-q4",
       "type": "mcq",
-      "question": "A circle has a diameter of^20 cm. Find the area of a sector with a central angle of $0.4$ radians.",
+      "question": "A circle has diameter $20$ cm. Find the area of a sector with central angle $0.4$ radians.",
       "options": [
         "$20$ cm^2",
         "$80$ cm^2",
@@ -58,20 +58,20 @@
         "$4$ cm^2"
       ],
       "correctIndex": 0,
-      "explanation": "The radius is $10 cm^2 2A = 0.5 \\times 10^{2} \\times 0.4 = 50 \\times 0.4 = 20$ cm^2.\n\n**Common mistake:** Option B uses the diameter as the radius in the formula: $0.5 \\times 20^2 \\times 0.4 = 80$."
+      "explanation": "Radius $= 10$ cm. $A = 0.5 \\times 10^2 \\times 0.4 = 20$ cm$^2$.\n\n**Common mistake:** Using diameter $20$ as the radius: $0.5 \\times 20^2 \\times 0.4 = 80$."
     },
     {
       "id": "8-3-area-of-a-sector-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "Convert an angle of^60° to radians and find the area of a sector with radius^6 cm.",
+      "question": "Convert $60^\\circ$ to radians and find the area of a sector with radius $6$ cm.",
       "options": [
-        "$3\\pi . ^2$",
-        "$6\\pi . ^2$",
-        "$1.5\\pi . ^2$",
-        "$1080$ cm^2"
+        "$3\\pi$ cm$^2$",
+        "$6\\pi$ cm$^2$",
+        "$1.5\\pi$ cm$^2$",
+        "$1080$ cm$^2$"
       ],
-      "correctIndex": 0,
-      "explanation": "$60$° is $\\pi/3 radians^2 2A = 0.5 \\times 6^2 \\times (\\pi/3) = 18 \\times (\\pi/3) = 6\\pi20.5 \\times 36 \\times \\pi/3 = 18 \\times \\pi/3 = 6\\pi^2 0.5 \\times 36 = 18$. $18/3 = 6$. The correct answer is $6\\pi^2 6\\pi$.\n\n**Common mistake:** Option D occurs if the student uses the degree value directly in the formula without converting to radians."
+      "correctIndex": 1,
+      "explanation": "$60^\\circ = \\frac{\\pi}{3}$ rad. $A = 0.5 \\times 6^2 \\times \\frac{\\pi}{3} = 6\\pi$ cm$^2$.\n\n**Common mistake:** Using $60$ directly in the area formula without converting to radians."
     }
   ]
 }

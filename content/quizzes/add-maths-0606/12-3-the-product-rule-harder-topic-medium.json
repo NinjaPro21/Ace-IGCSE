@@ -37,7 +37,7 @@
     {
       "id": "12-3-the-product-rule-harder-topic-medium-q3",
       "type": "mcq",
-      "question": "Differentiate $y = (x^2 + 1)(x - 2)^3$ and find the value of $x$. So $\\frac{dy}{dx} = 0$ at $x=2$.",
+      "question": "Differentiate $y = (x^2 + 1)(x - 2)^3$ and find the value of when $\\frac{dy}{dx} = 0$ at $x=2$.",
       "options": [
         "2",
         "$0$",
@@ -71,7 +71,7 @@
         "$2e + 1$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x^2(\\frac{1}{x}) + (\\ln x)(2x) = x + 2x \\ln x$. So $x=e2e + 2e \\ln e = e + 2e(1) = 3e .$\n\n**Common mistake:** Option B occurs if the student only differentiates the \\ln x21/x2x^2(1/x) = x22x \\ln x2"
+      "explanation": "$\\frac{dy}{dx} = x^2(\\frac{1}{x}) + (\\ln x)(2x) = x + 2x \\ln x$. So $x=e2e + 2e \\ln e = e + 2e(1) = 3e$.\n\n**Common mistake:** Option B occurs if the student only differentiates the \\ln x21/x2x^2(1/x) = x22x \\ln x2"
     }
   ]
 }

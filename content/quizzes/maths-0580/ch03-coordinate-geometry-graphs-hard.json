@@ -11,7 +11,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q1",
       "type": "mcq",
-      "question": "A map has a scale of $1 : n$. $150\\text{ m}$ by $100\\text{ m}$ has an area of $6\\text{ cm}^2$ on the map. Find the value of $n$.",
+      "question": "A map has a scale of $1 : n$. $150\\text{ m}$ by $100\\text{ m}$ has an area of $6\\text{ cm}^2$ on the map. Find the value of $n.",
       "options": [
         "$5000$",
         "$2500$",
@@ -58,7 +58,7 @@
         "$1 : 30\\,000$"
       ],
       "correctIndex": 0,
-      "explanation": "Map Area of sector = $\\frac{40}{360} \\times \\pi \\times 12^2 = \\frac{1}{9} \\times \\frac{22}{7} \\times 144 = \\frac{16 \\times 22}{7} = \\frac{352}{7}\\text{ cm}^2$. Area ratio: $\\frac{352}{7}\\text{ cm}^2 : 180\\text{ km}^2 \\implies 1\\text{ cm}^2 : 180 \\times \\frac{7}{352} = 3.5795\\text{ km}^2$. Let's refine values. If $\\pi \\approx 3.1416$, Map area = $\\frac{1}{9} \\times 3.1416 \\times 144 = 50.2655\\text{ cm}^2$. Area scale = $180 / 50.2655 = 3.58$. Let's check choices: if linear scale is $1 : 300\\,000$, then $1\\text{ cm} = 3\\text{ km} \\implies 1\\text{ cm}^2 = 9\\text{ km}^2$. Then $50.2655 \\times 9 \\approx 452$ (Not 180). Let's retry: Area of sector = $\\frac{40}{360} \\times 3.1416...$ If we use $\\pi = 3$, Area = $\\frac{1}{9} \\times 3 \\times 144 = 48\\text{ cm}^2$. Then $180 / 48 = 3.75$. If $1\\text{ cm} = 3\\text{ km}$, $n=300\\,000$. Let's fix calculation: if actual area = $180\\text{ km}^2$ and scale is $1:300\\,000$ ($1\\text{ cm}=3\\text{ km} \\implies 1\\text{ cm}^2=9\\text{ km}^2$), map area = $180 / 9 = 20\\text{ cm}^2$. Sector area = $\\frac{40}{360} \\times \\pi \\times r^2 = 20 \\implies \\frac{1}{9} \\pi (12^2) = 16\\pi \\approx 50.26$. Let's check option A: If $n=300\\,000$. Wait, let's look at $n = 300\\,000 \\implies 1\\text{ cm} = 3\\text{ km}$. If area ratio is $1\\text{ cm}^2 : 9\\text{ km}^2$. Then map area $20\\text{ cm}^2$. Let's verify with $n=300\\,000$.\n\n**Common mistake:** Students get bogged down in sector geometries and fail to relate the square root of the simplified area ratio back to a linear scale."
+      "explanation": "Map Area of sector = $\\frac{40}{360} \\times \\pi \\times 12^2 = \\frac{1}{9} \\times \\frac{22}{7} \\times 144 = \\frac{16 \\times 22}{7} = \\frac{352}{7}\\text{ cm}^2$. Area ratio: $\\frac{352}{7}\\text{ cm}^2 : 180\\text{ km}^2 \\implies 1\\text{ cm}^2 : 180 \\times \\frac{7}{352} = 3.5795\\text{ km}^2$. Let's refine values. If $\\pi \\approx 3.1416$, Map area = $\\frac{1}{9} \\times 3.1416 \\times 144 = 50.2655\\text{ cm}^2$. Area scale = $180 / 50.2655 = 3.58$. Let's check choices: if linear scale is $1 : 300\\,000$, then $1\\text{ cm} = 3\\text{ km} \\implies 1\\text{ cm}^2 = 9\\text{ km}^2$. Then $50.2655 \\times 9 \\approx 452$ (Not 180). Let's retry: Area of sector = $\\frac{40}{360} \\times 3.1416$... If we use $\\pi = 3$, Area = $\\frac{1}{9} \\times 3 \\times 144 = 48\\text{ cm}^2$. Then $180 / 48 = 3.75$. If $1\\text{ cm} = 3\\text{ km}$, $n=300\\,000$. Let's fix calculation: if actual area = $180\\text{ km}^2$ and scale is $1:300\\,000$ ($1\\text{ cm}=3\\text{ km} \\implies 1\\text{ cm}^2=9\\text{ km}^2$), map area = $180 / 9 = 20\\text{ cm}^2$. Sector area = $\\frac{40}{360} \\times \\pi \\times r^2 = 20 \\implies \\frac{1}{9} \\pi (12^2) = 16\\pi \\approx 50.26$. Let's check option A: If $n=300\\,000$. Wait, let's look at $n = 300\\,000 \\implies 1\\text{ cm} = 3\\text{ km}$. If area ratio is $1\\text{ cm}^2 : 9\\text{ km}^2$. Then map area $20\\text{ cm}^2$. Let's verify with $n=300\\,000$.\n\n**Common mistake:** Students get bogged down in sector geometries and fail to relate the square root of the simplified area ratio back to a linear scale."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q5",
@@ -77,10 +77,10 @@
       "type": "mcq",
       "question": "Determine the coordinates of the **intersection point** of the lines $y = 2x + 1$ and $y = x - 7$.",
       "options": [
-        "(-8, -15)",
-        "(8, 17)",
-        "(-6, -11)",
-        "(2, 5)"
+        "$(-8, -15)$",
+        "$(8, 17)$",
+        "$(-6, -11)$",
+        "$(2, 5)$"
       ],
       "correctIndex": 0,
       "explanation": "Set the equations equal to each other: $2x + 1 = x - 7 \\implies x = -8$. Substitute into $y = x - 7$: $y = -8 - 7 = -15$. The point is (-8, -15).\n\n**Common mistake:** Solving for $x$ and $y$ value.",
@@ -101,7 +101,7 @@
     },
     {
       "type": "mcq",
-      "question": "A car's value **$v$ and $n2v = 4500 - 0.2n$. $3200**.$",
+      "question": "A car's value **$v$ and $n2v = 4500 - 0.2n$. $3200**.",
       "options": [
         "6500 km",
         "26,000 km",
@@ -143,10 +143,10 @@
       "type": "mcq",
       "question": "Find the equation of the perpendicular bisector of the line segment joining (1,3) and (5,7).",
       "options": [
-        "y=-x+8",
-        "y=x+2",
-        "y=-x+4",
-        "y=-x+6"
+        "$y=-x+8$",
+        "$y=x+2$",
+        "$y=-x+4$",
+        "$y=-x+6$"
       ],
       "correctIndex": 0,
       "explanation": "Midpoint is (3,5). Segment gradient is (7-3)/(5-1)=1. Perpendicular gradient is -1. y-5=-1(x-3)\nRightarrowy=-x+8.\n\n**Common mistake:** The student might use the gradient of the line segment instead of the perpendicular gradient."
@@ -208,10 +208,10 @@
       "type": "mcq",
       "question": "Find the equation of the perpendicular bisector of the line segment joining points A(2,5) and B(8,1).",
       "options": [
-        "y=1.5x-4.5",
-        "y=-0.67x+7",
-        "y=1.5x+3",
-        "y=-1.5x+10.5"
+        "$y=1.5x-4.5$",
+        "$y=-0.67x+7$",
+        "$y=1.5x+3$",
+        "$y=-1.5x+10.5$"
       ],
       "correctIndex": 0,
       "explanation": "Midpoint is (5,3). Gradient AB=(1-5)/(8-2)=-4/6=-2/3. Perpendicular gradient is 3/2=1.5. y-3=1.5(x-5)⇒y=1.5x-4.5.\n\n**Common mistake:** The student might use the gradient of AB instead of the perpendicular gradient or fail to use the midpoint."
@@ -234,10 +234,10 @@
       "type": "mcq",
       "question": "A line passes through (5,2) and is perpendicular to x-3y=9. Find the x-intercept of this new line.",
       "options": [
-        "(5.67,0)",
-        "(17,0)",
-        "(0,17)",
-        "(3,0)"
+        "$(5.67,0)$",
+        "$(17,0)$",
+        "$(0,17)$",
+        "$(3,0)$"
       ],
       "correctIndex": 0,
       "explanation": "Original m=1/3. Perpendicular m=-3. Equation: y-2=-3(x-5)⇒y=-3x+17. Set y=0: 0=-3x+17⇒x=17/3≈5.67.\n\n**Common mistake:** The student might find the y-intercept (17) instead of the x-intercept or use the original gradient 1/3."
@@ -260,10 +260,10 @@
       "type": "mcq",
       "question": "Find the equation of the line parallel to y=4x-2 that passes through the midpoint of the segment joining (0,0) and (4,8).",
       "options": [
-        "y=4x-4",
-        "y=4x+4",
-        "y=-0.25x+4.5",
-        "y=4x"
+        "$y=4x-4$",
+        "$y=4x+4$",
+        "$y=-0.25x+4.5$",
+        "$y=4x$"
       ],
       "correctIndex": 0,
       "explanation": "Midpoint is (2,4). Gradient is 4. y-4=4(x-2)⇒y=4x-8+4⇒y=4x-4.\n\n**Common mistake:** The student might use one of the endpoints instead of the midpoint or change the gradient."
@@ -318,7 +318,7 @@
         "$(6, 36)$ and $(0, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal: $x^2 = x + 6 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Intersections at $x = 3$ ($y=9$) and $x = -2$ ($y=4$).\n\n**Common mistake:** The student might solve for $x$ and $y2x$."
+      "explanation": "Set the equations equal: $x^2 = x + 6 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Intersections at $x = 3$ ($y=9$) and $x = -2$ ($y=4$).\n\n**Common mistake:** The student might solve for $x$ and $y2x."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q25",
@@ -336,7 +336,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q26",
       "type": "mcq",
-      "question": "The speed–time graph of a journey shows a car accelerating from^0 to $V$. $10$ seconds, then travelling at constant speed $V$. $20$ seconds. If the total distance travelled is $1$ m, calculate the value of $V$.",
+      "question": "The speed–time graph of a journey shows a car accelerating from^0 to $V$. $10$ seconds, then travelling at constant speed $V$. $20$ seconds. If the total distance travelled is $1$ m, calculate the value of $V.",
       "options": [
         "$16$ m/s",
         "$13.3$ m/s",
@@ -474,7 +474,7 @@
         "$(-3, 32)$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$. Substitute $x = 3$ into the original function: $y = (3)² - 6(3) + 5 = 9 - 18 + 5 = -4$.nature is minimum because $\\frac{d^2y}{dx^2} = 2 > 0$.\n\n**Common mistake:** The student might find the correct $x$ and $y$."
+      "explanation": "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$. Substitute $x = 3$ into the original function: $y = (3)² - 6(3) + 5 = 9 - 18 + 5 = -4$.nature is minimum because $\\frac{d^2y}{dx^2} = 2 > 0$.\n\n**Common mistake:** The student might find the correct $x$ and $y."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q37",
@@ -492,7 +492,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-hard-q38",
       "type": "mcq",
-      "question": "The curve $y = ax^2 + bx + 2$ passes through the point $(1, 6)$ and has a gradient of^7 at that point. Find the values of $a$ and $b$.",
+      "question": "The curve $y = ax^2 + bx + 2$ passes through the point $(1, 6)$ and has a gradient of^7 at that point. Find the values of $a$ and $b.",
       "options": [
         "$a = 3, b = 1$",
         "$a = 1, b = 3$",

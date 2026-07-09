@@ -37,7 +37,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Explain why the function f(x)=∣x-4∣ does not have an inverse for $x \\in \\mathbb{R}$.",
+      "question": "Explain why the function $f(x)=|x-4|$ does not have an inverse for $x \\in \\mathbb{R}$.",
       "options": [
         "It is a many-to-one function.",
         "The range does not include negative numbers.",
@@ -50,7 +50,7 @@
     {
       "id": "1-6-inverse-functions-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "Find the value of k if f(x)=2x+3 and $f^{-1}(k)=5.",
+      "question": "Find the value of $k$ if $f(x)=2x+3$ and $f^{-1}(k)=5$.",
       "options": [
         "13",
         "1",
@@ -58,12 +58,12 @@
         "7"
       ],
       "correctIndex": 0,
-      "explanation": "If $f^{-1}(k)=5, then f(5)=k. k=2(5)+3=13.\n\n**Common mistake:** Substituting k into the function to get 2k+3=5, resulting in k=1."
+      "explanation": "If $f^{-1}(k)=5$, then $f(5)=k$. $k=2(5)+3=13$.\n\n**Common mistake:** Substituting $k$ into the function to get $2k+3=5$, resulting in $k=1$."
     },
     {
       "id": "1-6-inverse-functions-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "The function f is such that f(x)= \\frac{1}{2x+2} for x>0. Find the range of $f^{-1}$.",
+      "question": "The function $f$ is such that $f(x)=\\frac{1}{2x+2}$ for $x>0$. Find the range of $f^{-1}$.",
       "options": [
         "$y>0$",
         "$0<y<\\frac{1}{2}$",

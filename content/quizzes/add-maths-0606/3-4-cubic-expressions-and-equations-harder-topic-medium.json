@@ -19,7 +19,7 @@
         "$x = 0, 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor out the common term $x$. So $x(x^2 - 25) = 0$. Then factor the difference of squares: $x(x - 5)(x + 5) = 0$. The roots are $0, 5, -5$.\n\n**Common mistake:** Dividing both sides by $x$. So $x = 0$ solution."
+      "explanation": "Factor out the common term when $x(x^2 - 25) = 0$. Then factor the difference of squares: $x(x - 5)(x + 5) = 0$. The roots are $0, 5, -5$.\n\n\n\n\n**Common mistake:** Dividing both sides by when $x = 0$ solution."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-medium-q2",
@@ -28,11 +28,11 @@
       "options": [
         "$(x + 3)(x - 1)(x + 1)$",
         "$(x - 3)(x - 1)(x + 1)$",
-        "$(x + 3)(x - 1)²$",
-        "$(x + 3)²(x - 1)$"
+        "$(x + 3)(x - 1)^2$",
+        "$(x + 3)^2(x - 1)$"
       ],
       "correctIndex": 0,
-      "explanation": "Group as $x^2(x + 3) - 1(x + 3) = (x^2 - 1)(x + 3)$. Factoring the quadratic part gives $(x - 1)(x + 1)(x + 3)$.\n\n**Common mistake:** Sign errors when factoring out $-1$ from the second group of terms often lead to an incorrect common factor."
+      "explanation": "Group as $x^2(x + 3) - 1(x + 3) = (x^2 - 1)(x + 3)$. Factoring the quadratic part gives $(x - 1)(x + 1)(x + 3)$.\n\n\n\n\n**Common mistake:** Sign errors when factoring out $-1$ from the second group of terms often lead to an incorrect common factor."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-medium-q3",
@@ -45,7 +45,7 @@
         "$x^2 - 2x + 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Dividing the polynomial $(1, -4, 1, 6)$ by $(x - 2)$ using long division yields the coefficients $(1, -2, -3)$, which represent $x^2 - 2x - 3$.\n\n**Common mistake:** Errors during the subtraction steps of long division are the most frequent cause of incorrect quotients."
+      "explanation": "Dividing the polynomial $(1, -4, 1, 6)$ by $(x - 2)$ using long division yields the coefficients $(1, -2, -3)$, which represent $x^2 - 2x - 3$.\n\n\n\n\n**Common mistake:** Errors during the subtraction steps of long division are the most frequent cause of incorrect quotients."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-medium-q4",
@@ -58,7 +58,7 @@
         "$x = -4, 3, -3$"
       ],
       "correctIndex": 0,
-      "explanation": "Set each factor to zero: $x - 4 = 0 \\implies x = 4$ and $x^2 - 9 = 0 \\implies x = ±3$.\n\n**Common mistake:** Forgetting to include the negative square root $(-3)$ when solving $x^2 = 9$ is a common oversight."
+      "explanation": "Set each factor to zero: $x - 4 = 0 \\implies x = 4$ and $x^2 - 9 = 0 \\implies x = ±3$.\n\n\n\n\n**Common mistake:** Forgetting to include the negative square root $(-3)$ when solving $x^2 = 9$ is a common oversight."
     },
     {
       "id": "3-4-cubic-expressions-and-equations-harder-topic-medium-q5",
@@ -71,7 +71,7 @@
         "$(x - 1)(x - 6)$"
       ],
       "correctIndex": 0,
-      "explanation": "Division by $(x - 1)$ results in the quadratic $x^2 - 5x + 6$, which further factors into $(x - 2)(x - 3)$.\n\n**Common mistake:** Students may correctly find the quadratic quotient but make an error while factoring it into its two linear components."
+      "explanation": "Division by $(x - 1)$ results in the quadratic $x^2 - 5x + 6$, which further factors into $(x - 2)(x - 3)$.\n\n\n\n\n**Common mistake:** Students may correctly find the quadratic quotient but make an error while factoring it into its two linear components."
     }
   ]
 }

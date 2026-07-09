@@ -13,9 +13,9 @@
       "type": "mcq",
       "question": "Solve the quadratic inequality (x-2)(x-5)<0.",
       "options": [
-        "2<x<5",
-        "x<2 or x>5",
-        "-5<x<-2",
+        "$2<x<5$",
+        "$x<2 or x>5$",
+        "$-5<x<-2$",
         "x=2 and x=5"
       ],
       "correctIndex": 0,
@@ -24,25 +24,25 @@
     {
       "id": "2-4-quadratic-inequalities-easy-q2",
       "type": "mcq",
-      "question": "Find the range of values of x that satisfy the inequality $x^{2}$≤9.",
+      "question": "Find the range of values of x that satisfy the inequality $x^{2} \\le 9$.",
       "options": [
-        "-3≤x≤3",
-        "x≤3",
-        "x≤-3 or x≥3",
-        "0≤x≤9"
+        "$-3 \\le x \\le 3$",
+        "$x \\le 3$",
+        "$x \\le -3$ or $x \\ge 3$",
+        "$0 \\le x \\le 9$"
       ],
       "correctIndex": 0,
-      "explanation": "Rearranging to $x^{2}$-9≤0 gives (x-3)(x+3)≤0. The critical values are ±3, and the solution is the interval between them.\n\n**Common mistake:** Only taking the positive square root (x≤3) and forgetting that the square of negative numbers between -3 and 0 also satisfies the condition."
+      "explanation": "Rearranging to $x^{2}-9 \\le 0$ gives $(x-3)(x+3) \\le 0$. The critical values are $\\pm 3$, and the solution is $-3 \\le x \\le 3$.\n\n**Common mistake:** Only taking the positive square root ($x \\le 3$) and forgetting that negative values between $-3$ and $0$ also satisfy the condition."
     },
     {
       "id": "2-4-quadratic-inequalities-easy-q3",
       "type": "mcq",
       "question": "Identify the solution set for x(x+4)>0.",
       "options": [
-        "x<-4 or x>0",
-        "-4<x<0",
-        "x>0 only",
-        "x<0 or x>4"
+        "$x<-4 or x>0$",
+        "$-4<x<0$",
+        "$x>0 only$",
+        "$x<0 or x>4$"
       ],
       "correctIndex": 0,
       "explanation": "The roots are x=0 and x=-4. For a positive quadratic expression to be greater than zero, x must be outside the roots.\n\n**Common mistake:** Incorrectly identifying the region between the roots as the solution, or misidentifying the root +4 instead of -4."
@@ -50,12 +50,12 @@
     {
       "id": "2-4-quadratic-inequalities-easy-q4",
       "type": "mcq",
-      "question": "Solve the inequality (2x-1)(x+3)≥0.",
+      "question": "Solve the inequality $(2x-1)(x+3)\\ge 0$.",
       "options": [
-        "x≤-3 or x≥0.5",
-        "-3≤x≤0.5",
-        "x≤-0.5 or x≥3",
-        "x≥0.5 only"
+        "$x \\le -3$ or $x \\ge 0.5$",
+        "$-3 \\le x \\le 0.5$",
+        "$x \\le -0.5$ or $x \\ge 3$",
+        "$x \\ge 0.5$ only"
       ],
       "correctIndex": 0,
       "explanation": "Critical values are x=0.5 and x=-3. For 'greater than or equal to', we take the values outside or on these roots.\n\n**Common mistake:** Arithmetic slips when finding the root from the bracket (2x-1), or selecting the region between the roots."
@@ -63,15 +63,15 @@
     {
       "id": "2-4-quadratic-inequalities-easy-q5",
       "type": "mcq",
-      "question": "For what values of x is the expression $x^{2}$-1 positive?",
+      "question": "For what values of x is the expression $x^{2}-1$ positive?",
       "options": [
-        "x<-1 or x>1",
-        "-1<x<1",
-        "x>1 only",
-        "x<-1 only"
+        "$x<-1 or x>1$",
+        "$-1<x<1$",
+        "$x>1 only$",
+        "$x<-1 only$"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $x^{2}$-1>0, which factors to (x-1)(x+1)>0. The solution is the two separate regions outside the roots ±1.\n\n**Common mistake:** Confusion with the equation $x^{2}$=1, leading to a list of two numbers rather than a range of values."
+      "explanation": "Solve $x^{2}-1>0, which factors to (x-1)(x+1)>0. The solution is the two separate regions outside the roots ±1$.\n\n**Common mistake:** Confusion with the equation $x^{2}$=1, leading to a list of two numbers rather than a range of values."
     }
   ]
 }

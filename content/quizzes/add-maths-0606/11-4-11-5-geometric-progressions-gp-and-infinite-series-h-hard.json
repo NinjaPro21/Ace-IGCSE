@@ -11,7 +11,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-hard-q1",
       "type": "mcq",
-      "question": "The sum to infinity of a geometric series is $1$ times the sum of its first two terms. Find the possible values of the common ratio $r$.",
+      "question": "The sum to infinity of a geometric series is $4$ times the sum of its first two terms. Find the possible values of the common ratio $r$.",
       "options": [
         "$\\pm \\sqrt{3}/2$",
         "$\\pm 1/2$",
@@ -24,7 +24,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-hard-q2",
       "type": "mcq",
-      "question": "A geometric progression is defined by $u_n = 5(0.2)^{n-1}$. Find the sum to infinity of the even-numbered terms only ($u_2 + u_4 + u_6 + ...$).",
+      "question": "A geometric progression is defined by $u_n = 5(0.2)^{n-1}$. Find the sum to infinity of the even-numbered terms only ($u_2 + u_4 + u_6 + \\ldots$).",
       "options": [
         "$25/24$",
         "$25/4$",
@@ -37,7 +37,7 @@
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-hard-q3",
       "type": "mcq",
-      "question": "A geometric progression has first term $k$. $\\sin \\theta22k$. $\\theta20 < \\theta < 90^\\circ$.",
+      "question": "A geometric progression has first term $k$ and common ratio $\\sin\\theta$, where $0^\\circ < \\theta < 90^\\circ$. The sum to infinity is twice the first term. Find $\\theta$.",
       "options": [
         "$30^\\circ$",
         "$60^\\circ$",
@@ -45,12 +45,12 @@
         "$15^\\circ$"
       ],
       "correctIndex": 0,
-      "explanation": "$k / (1 - \\sin \\theta) = 2k \\implies 1 = 2 - 2\\sin \\theta \\implies 2\\sin \\theta = 1 \\implies \\sin \\theta = 0.5 \\implies \\theta = 30^\\circ$.\n\n**Common mistake:** Option B is chosen if the student incorrectly equates $\\cos \\theta = 0.5$ instead of $\\sin \\theta$."
+      "explanation": "$\\frac{k}{1 - \\sin\\theta} = 2k \\implies 1 = 2 - 2\\sin\\theta \\implies 2\\sin\\theta = 1 \\implies \\sin\\theta = 0.5 \\implies \\theta = 30^\\circ$.\n\n**Common mistake:** Option B is chosen if the student incorrectly equates $\\cos\\theta = 0.5$ instead of $\\sin\\theta$."
     },
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-hard-q4",
       "type": "mcq",
-      "question": "A ball is dropped from a height of^10 m. After each bounce, it reaches^80% of its previous height. Calculate the total distance traveled by the ball until it stops.",
+      "question": "A ball is dropped from a height of $10$ m. After each bounce, it reaches $80\\%$ of its previous height. Calculate the total distance traveled by the ball until it stops.",
       "options": [
         "$90$ m",
         "$50$ m",
@@ -58,12 +58,12 @@
         "$100$ m"
       ],
       "correctIndex": 0,
-      "explanation": "Distance = $10 + 2(8 + 6.4 + ...)$. The series in brackets has $a=8, r=0.8$. Sum = $8/0.2 = 40$. Total = $10 + 2(40) = 90$ m.\n\n**Common mistake:** Option B results from applying the sum to infinity starting from the^10 m drop and not doubling the upward/downward travel for bounces."
+      "explanation": "Distance $= 10 + 2(8 + 6.4 + \\ldots)$. The bounce series has $a=8$, $r=0.8$. Sum $= 8/0.2 = 40$. Total $= 10 + 2(40) = 90$ m.\n\n**Common mistake:** Option B results from applying the sum to infinity starting from the $10$ m drop and not doubling the upward/downward travel for bounces."
     },
     {
       "id": "11-4-11-5-geometric-progressions-gp-and-infinite-series-h-hard-q5",
       "type": "mcq",
-      "question": "The sum of the first $n$. So $S_n = 3^n - 1$. Find an expression for the $n$. $u_n$.",
+      "question": "The sum of the first $n$ terms of a sequence is $S_n = 3^n - 1$. Find an expression for the $n$th term $u_n$.",
       "options": [
         "$2(3^{n-1})$",
         "$3^{n-1}$",
@@ -71,7 +71,7 @@
         "$2(3^n)$"
       ],
       "correctIndex": 0,
-      "explanation": "$u_n = S_n - S_{n-1} = (3^n - 1) - (3^{n-1} - 1) = 3^n - 3^{n-1} = 3^{n-1}(3 - 1) = 2(3^{n-1})$.\n\n**Common mistake:** Option C results from incorrectly assuming $S_n$ and $n th term expression.$"
+      "explanation": "$u_n = S_n - S_{n-1} = (3^n - 1) - (3^{n-1} - 1) = 3^n - 3^{n-1} = 3^{n-1}(3 - 1) = 2(3^{n-1})$.\n\n**Common mistake:** Option C results from incorrectly assuming $u_n = S_n$."
     }
   ]
 }

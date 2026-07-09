@@ -10,12 +10,12 @@
   "questions": [
     {
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = \\frac{a}{x^2 + b}$. To obtain a straight line, $1/y$. $x^2$. Find an expression for the gradient in terms of $a$ and $b$.",
+      "question": "Variables $x$ and $y$ satisfy $y = \\frac{a}{x^2 + b}$. Plot $1/y$ against $x^2$ to obtain a straight line. Find the gradient in terms of $a$ and $b$.",
       "options": [
-        "1/a",
-        "a",
+        "$1/a$",
+        "$a$",
         "b/a",
-        "1/b"
+        "$1/b$"
       ],
       "correctIndex": 0,
       "explanation": "$1/y = (x^2 + b)/a \\Rightarrow 1/y = (1/a)x^2 + (b/a)$. The gradient is the coefficient of $x^2$, which is $1/a$.\n\n**Common mistake:** Option C is the y-intercept of the linearized graph.",
@@ -23,12 +23,12 @@
     },
     {
       "type": "mcq",
-      "question": "Given $y^n = Ax^b$. $\\lg y2\\lg x$. Find the gradient of this line.",
+      "question": "Given $y^n = Ax^b$, plot $\\lg y$ against $\\lg x$. Find the gradient of this line.",
       "options": [
-        "b/n",
-        "b",
-        "n/b",
-        "lg A"
+        "$b/n$",
+        "$b$",
+        "$n/b$",
+        "$\\lg A$"
       ],
       "correctIndex": 0,
       "explanation": "$n \\lg y = b \\lg x + \\lg A \\Rightarrow \\lg y = (b/n) \\lg x + (1/n) \\lg A$. So $m = b/n$.\n\n**Common mistake:** Option B ignores the power $n$ on the dependent variable.",
@@ -36,7 +36,7 @@
     },
     {
       "type": "mcq",
-      "question": "A line passes through $(\\lg 2, \\lg 18)$ and $(\\lg 5, \\lg 112.5)$ on a graph of $\\lg y$. $\\lg x2n$. So $y = ax^n$.",
+      "question": "A line passes through $(\\lg 2, \\lg 18)$ and $(\\lg 5, \\lg 112.5)$ on a plot of $\\lg y$ against $\\lg x$. If the relationship is $y = ax^n$, find $n$.",
       "options": [
         "2",
         "3",
@@ -49,28 +49,28 @@
     },
     {
       "type": "mcq",
-      "question": "Convert $y = \\frac{x}{ax + b}$ into a linear form $Y = mX + c$. So $Y = x/y$. What is the gradient?",
+      "question": "Convert $y = \\frac{x}{ax + b}$ into linear form with $Y = 1/y$ and $X = 1/x$. What is the gradient?",
       "options": [
-        "a",
-        "b",
-        "1/a",
-        "1/b"
+        "$a$",
+        "$b$",
+        "$1/a$",
+        "$1/b$"
       ],
-      "correctIndex": 0,
-      "explanation": "$y = x / (ax+b) \\Rightarrow 1/y = (ax+b)/x \\Rightarrow 1/y = a + b/x$ and $x2x/y = ax + b$ and $a$.\n\n**Common mistake:** Option B is the intercept for this specific transformation.",
+      "correctIndex": 1,
+      "explanation": "$y = \\frac{x}{ax+b} \\Rightarrow \\frac{1}{y} = \\frac{ax+b}{x} = a + \\frac{b}{x}$. With $Y = 1/y$ and $X = 1/x$, the gradient is $b$.\n\n**Common mistake:** Confusing the gradient with the intercept for this transformation.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-hard-q4"
     },
     {
       "type": "mcq",
-      "question": "The graph of $xy$. $x^2$ is a straight line with gradient $m  and c2y$. $x, m,$ and $c$.",
+      "question": "The graph of $xy$ against $x^2$ is a straight line with gradient $m$ and intercept $c$. Express $y$ in terms of $x$, $m$, and $c$.",
       "options": [
-        "y = mx + c/x",
-        "y = mx^2 + c",
-        "y = mx + c",
-        "y = m/x + c"
+        "$y = mx + c/x$",
+        "$y = mx^2 + c$",
+        "$y = mx + c$",
+        "$y = m/x + c$"
       ],
       "correctIndex": 0,
-      "explanation": "$xy = m(x^2) + c$ and $x2y = mx + c/x$.\n\n**Common mistake:** Option B is the equation for $xy$ and $y$ as the subject.",
+      "explanation": "$xy = mx^2 + c$, so $y = mx + \\frac{c}{x}$.\n\n**Common mistake:** Writing $y = mx^2 + c$ instead of dividing by $x$.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-hard-q5"
     }
   ]

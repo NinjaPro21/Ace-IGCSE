@@ -19,7 +19,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "Intersection: x^2 - 4x + 3 = 0 => x=1, 3. Area = ∫ from 1 to 3 (4x - 1 - (x^2 + 2)) dx = ∫ (4x - x^2 - 3) dx = [2x^2 - x³/3 - 3x] from 1 to 3 = (18 - 9 - 9) - (2 - 1/3 - 3) = 0 - (-4/3) = 4/3.\n\n**Common mistake:** Failing to correctly solve the quadratic to find the limits of integration."
+      "explanation": "Intersection: x^2 - 4x + 3 = 0 => x=1, 3. Area = ∫ from 1 to 3 (4x - 1 - (x^2 + 2)) dx = ∫ (4x - x^2 - 3) dx = [2x^2 - x^3/3 - 3x] from 1 to 3 = (18 - 9 - 9) - (2 - 1/3 - 3) = 0 - (-4/3) = 4/3.\n\n**Common mistake:** Failing to correctly solve the quadratic to find the limits of integration."
     },
     {
       "id": "15-10-15-11-area-under-a-curve-between-regions-hard-q2",
@@ -39,9 +39,9 @@
       "type": "mcq",
       "question": "Find the area between $y = \\cos x$. So $y = \\sin x20 \\le x \\le \\pi/4$.",
       "options": [
-        "$$\n\\sqrt{2} - 1\n",
+        "$\\sqrt{2} - 1$",
         "1",
-        "$$\n\\sqrt{2}\n",
+        "$\\sqrt{2}$",
         "0.5"
       ],
       "correctIndex": 0,

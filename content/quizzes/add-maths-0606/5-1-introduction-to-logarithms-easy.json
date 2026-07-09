@@ -52,13 +52,13 @@
       "type": "mcq",
       "question": "What is the value of $\\log_a 1$ for any valid base $a$?",
       "options": [
-        "0",
-        "1",
-        "a",
+        "$0$",
+        "$1$",
+        "$a$",
         "Undefined"
       ],
       "correctIndex": 0,
-      "explanation": "By the laws of indices, $a^0 = 1$ for any $a$\neq 0$. Therefore,$\\log_a 1 = 02\n\n**Common mistake:** Thinking the answer is 1, confusing it with the identity $\\log_a a = 1$."
+      "explanation": "By the laws of indices, $a^0 = 1$ for any $a \\neq 0$. Therefore $\\log_a 1 = 0$.\n\n**Common mistake:** Confusing this with $\\log_a a = 1$."
     },
     {
       "id": "5-1-introduction-to-logarithms-easy-q5",
@@ -71,7 +71,7 @@
         "0.1"
       ],
       "correctIndex": 0,
-      "explanation": "$\\lg$. $0.01 = 10^{-2}$, so $\\lg 10^{-2} = -2$.\n\n**Common mistake:** Providing the positive value 2 or confusing the number of decimal places."
+      "explanation": "$\\lg$ means $0.01 = 10^{-2}$, so $\\lg 10^{-2} = -2$.\n\n**Common mistake:** Providing the positive value 2 or confusing the number of decimal places."
     }
   ]
 }

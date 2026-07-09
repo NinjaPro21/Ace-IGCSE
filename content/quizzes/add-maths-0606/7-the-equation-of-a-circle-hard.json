@@ -13,26 +13,26 @@
       "type": "mcq",
       "question": "A circle passes through the points $(0, 0)$, $(8, 0)$, and $(0, 6)$. Find the equation of this circle.",
       "options": [
-        "$(x - 4)² + (y - 3)² = 25$",
-        "$(x + 4)² + (y + 3)² = 25$",
-        "$(x - 4)² + (y - 3)² = 100$",
+        "$(x - 4)^2 + (y - 3)^2 = 25$",
+        "$(x + 4)^2 + (y + 3)^2 = 25$",
+        "$(x - 4)^2 + (y - 3)^2 = 100$",
         "$x^2 + y^2 = 10$"
       ],
       "correctIndex": 0,
-      "explanation": "The points form a right-angled triangle. The hypotenuse joining $(8, 0)$ and $(0, 6)$ is the diameter. Centre is the midpoint $(4, 3)$. Radius is half the distance $\\sqrt{8}² + 6^2$, so $r = 10/2 = 5$.\n\n**Common mistake:** Assuming the centre is at the origin $(0,0)$ because one of the points is there."
+      "explanation": "The points form a right-angled triangle. The hypotenuse joining $(8, 0)$ and $(0, 6)$ is the diameter. Centre is the midpoint $(4, 3)$. Radius is half the distance $\\sqrt{8}^2 + 6^2$, so $r = 10/2 = 5$.\n\n**Common mistake:** Assuming the centre is at the origin $(0,0)$ because one of the points is there."
     },
     {
       "id": "7-the-equation-of-a-circle-hard-q2",
       "type": "mcq",
       "question": "Find the equation of the circle that touches the $x$. $(4, 0)$ and also passes through the point $(0, 8)$.",
       "options": [
-        "$(x - 4)² + (y - 5)² = 25$",
-        "$(x - 4)² + (y - 4)² = 16$",
-        "$(x - 4)² + (y - 8)² = 64$",
-        "$(x - 5)² + (y - 4)² = 25$"
+        "$(x - 4)^2 + (y - 5)^2 = 25$",
+        "$(x - 4)^2 + (y - 4)^2 = 16$",
+        "$(x - 4)^2 + (y - 8)^2 = 64$",
+        "$(x - 5)^2 + (y - 4)^2 = 25$"
       ],
       "correctIndex": 0,
-      "explanation": "If it touches the $x$. $(4, 0)$, the centre is $(4, r)$ and radius is $r$. $(0-4)² + (8-r)² = r^2 \\Rightarrow 16 + 64 - 16r + r^2 = r^2 \\Rightarrow 16r = 80 \\Rightarrow r = 5$.\n\n**Common mistake:** Setting the centre to $(4, 0)$ or assuming the radius is 4 based on the $x$-intercept."
+      "explanation": "If it touches the $x$. $(4, 0)$, the centre is $(4, r)$ and radius is $r$. $(0-4)^2 + (8-r)^2 = r^2 \\Rightarrow 16 + 64 - 16r + r^2 = r^2 \\Rightarrow 16r = 80 \\Rightarrow r = 5$.\n\n**Common mistake:** Setting the centre to $(4, 0)$ or assuming the radius is 4 based on the $x$-intercept."
     },
     {
       "id": "7-the-equation-of-a-circle-hard-q3",
@@ -45,7 +45,7 @@
         "$(5, 0)$ and $(0, -5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute: $x^2 + (x+1)² = 25 \\Rightarrow 2x^2 + 2x - 24 = 0 \\Rightarrow x^2 + x - 12 = 0 \\Rightarrow (x+4)(x-3)=0$. Points are $(3, 4)$ and $(-4, -3)$.\n\n**Common mistake:** Solving the quadratic equation incorrectly or failing to find the corresponding $y$ values."
+      "explanation": "Substitute: $x^2 + (x+1)^2 = 25 \\Rightarrow 2x^2 + 2x - 24 = 0 \\Rightarrow x^2 + x - 12 = 0 \\Rightarrow (x+4)(x-3)=0$. Points are $(3, 4)$ and $(-4, -3)$.\n\n**Common mistake:** Solving the quadratic equation incorrectly or failing to find the corresponding $y$ values."
     },
     {
       "id": "7-the-equation-of-a-circle-hard-q4",
@@ -58,7 +58,7 @@
         "$k < 0$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete square: $(x-2)² + (y+3)² = 4 + 9 - k = 13 - k$. $r^2 > 0$, so $13 - k > 0 \\Rightarrow k < 13$.\n\n**Common mistake:** Including the boundary $k=13$, which results in a point-circle (radius 0) rather than a real circle."
+      "explanation": "Complete square: $(x-2)^2 + (y+3)^2 = 4 + 9 - k = 13 - k$. $r^2 > 0$, so $13 - k > 0 \\Rightarrow k < 13$.\n\n**Common mistake:** Including the boundary $k=13$, which results in a point-circle (radius 0) rather than a real circle."
     },
     {
       "id": "7-the-equation-of-a-circle-hard-q5",

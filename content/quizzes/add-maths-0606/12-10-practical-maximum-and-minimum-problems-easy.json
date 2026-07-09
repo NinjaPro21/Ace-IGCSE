@@ -58,12 +58,12 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "$dC/dx = 2x - 10$. Setting to zero: $2x = 10 \\implies x = 5$.\n\n**Common mistake:** Assuming the constant term (50) is the minimum cost without differentiating."
+      "explanation": "$dC/dx = 2x - 10$. Setting to zero: x$= 10 \\implies x = 5$.\n\n**Common mistake:** Assuming the constant term (50) is the minimum cost without differentiating."
     },
     {
       "id": "12-10-practical-maximum-and-minimum-problems-easy-q5",
       "type": "mcq",
-      "question": "A wire of length 20 cm is bent into a rectangle of width $x$. So $A = x(10 - x)$. What is the maximum possible area?",
+      "question": "A wire of length 20 cm is bent into a rectangle of width when $A = x(10 - x)$. What is the maximum possible area?",
       "options": [
         "25 cm^2",
         "5 cm^2",
@@ -71,7 +71,7 @@
         "10 cm^2"
       ],
       "correctIndex": 0,
-      "explanation": "$A = 10x - x^2 \\implies dA/dx = 10 - 2x = 0 \\implies x = 5$. Max Area $= 5(10 - 5) = 25$.\n\n**Common mistake:** Identifying the side length (5) as the area, or failing to substitute back into the area formula."
+      "explanation": "$A = 10x - x^2 \\implies dA/dx = 10 -$x$= 0 \\implies x = 5$. Max Area $= 5(10 - 5) = 25$.\n\n**Common mistake:** Identifying the side length (5) as the area, or failing to substitute back into the area formula."
     }
   ]
 }

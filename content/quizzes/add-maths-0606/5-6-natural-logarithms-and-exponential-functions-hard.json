@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "Solve the inequality $\\ln(3x - 1) < 4$.",
       "options": [
-        "$$\n\\frac{1}{3} < x < \\frac{e^4 + 1}{3}\n",
+        "$\\frac{1}{3} < x < \\frac{e^4 + 1}{3}$",
         "$x < \\frac{e^4 + 1}{3}$",
         "$x > \\frac{1}{3}$",
-        "$$\n\\frac{e^4 - 1}{3} < x < e^4\n"
+        "$\\frac{e^4 - 1}{3} < x < e^4$"
       ],
       "correctIndex": 0,
       "explanation": "From the inequality, $3x - 1 < e^4$. Also, the argument must be positive: $3x - 1 > 0$, so $x > 1/3$.\n\n**Common mistake:** Neglecting the lower bound condition that the argument of a logarithm must be greater than zero."
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "Find the range of the function $f(x) = 5 - e^{2x}$ for $x \\in \\mathbb{R}$.",
       "options": [
-        "f(x) < 5",
-        "f(x) \\leq 5",
-        "f(x) > 0",
-        "f(x) \\in \\mathbb{R}"
+        "$f(x) < 5$",
+        "$f(x) \\leq 5$",
+        "$f(x) > 0$",
+        "$f(x) \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $e^{2x}$ is always positive ($> 0$), then $-e^{2x}$ is always negative ($< 0$), meaning $5 - e^{2x}$ is always less than 5.\n\n**Common mistake:** Thinking the range includes 5 (using $\\leq$. $e^{2x}$ can never actually equal zero."
+      "explanation": "Since $e^{2x} > 0$, we have $-e^{2x} < 0$, so $f(x) = 5 - e^{2x} < 5$.\n\n**Common mistake:** Including $5$ in the range even though $e^{2x}$ can never be zero."
     }
   ]
 }

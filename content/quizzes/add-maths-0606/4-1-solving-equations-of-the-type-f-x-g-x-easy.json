@@ -19,7 +19,7 @@
         "No solution"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $x+3 = x-5$ (impossible). Case 2: $x+3 = -(x-5) \\implies x+3 = -x+5 \\implies 2x = 2 \\implies x = 1$.\n\n**Common mistake:** Students may try to solve the first case and get frustrated when the variables cancel out, failing to check the second case."
+      "explanation": "Case 1: $x+3 = x-5$ (impossible). Case 2: $x+3 = -(x-5) \\implies x+3 = -x+5 \\implies $x$ = 2 \\implies x = 1$.\n\n**Common mistake:** Students may try to solve the first case and get frustrated when the variables cancel out, failing to check the second case."
     },
     {
       "id": "4-1-solving-equations-of-the-type-f-x-g-x-easy-q2",
@@ -32,7 +32,7 @@
         "x = 3 and x = -3"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $2x = x+6 \\implies x=6$. Case 2: $2x = -(x+6) \\implies 3x = -6 \\implies x=-2$.\n\n**Common mistake:** Many students only find the positive case and forget to negate the entire expression on one side for the second solution."
+      "explanation": "Case 1: $$x$ = x+6 \\implies x=6$. Case 2: $$x$ = -(x+6) \\implies 3x = -6 \\implies x=-2$.\n\n**Common mistake:** Many students only find the positive case and forget to negate the entire expression on one side for the second solution."
     },
     {
       "id": "4-1-solving-equations-of-the-type-f-x-g-x-easy-q3",
@@ -71,7 +71,7 @@
         "x = 10 and x = 3.33"
       ],
       "correctIndex": 0,
-      "explanation": "Case 1: $x+10 = 2x \\implies x=10$. Case 2: $x+10 = -2x \\implies 3x = -10 \\implies x = -10/3$.\n\n**Common mistake:** Sign errors when moving terms, such as $x-2x = 10$ leading to $x=-10$."
+      "explanation": "Case 1: $x+10 = 2x \\implies x=10$. Case 2: $x+10 = -2x \\implies 3x = -10 \\implies x = -10/3$.\n\n**Common mistake:** Sign errors when moving terms, such as $x-$x$ = 10$ leading to $x=-10$."
     }
   ]
 }

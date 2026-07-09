@@ -24,7 +24,7 @@
     {
       "id": "5-1-introduction-to-logarithms-pyp-q2",
       "type": "mcq",
-      "question": "Given that $\\lg y = 2.5$, find the value of $y$. $k\\sqrt{10} where k$ is an integer.",
+      "question": "Given that $\\lg y = 2.5$, find the value of $y$ in the form $k\\sqrt{10}$ where $k$ is an integer.",
       "options": [
         "$100\\sqrt{10}$",
         "$10\\sqrt{10}$",
@@ -65,10 +65,10 @@
       "type": "mcq",
       "question": "State the range of values for $x$. $\\log_2 x$ is negative.",
       "options": [
-        "0 < x < 1",
-        "x < 0",
-        "x < 1",
-        "x > 1"
+        "$0 < x < 1$",
+        "$x < 0$",
+        "$x < 1$",
+        "$x > 1$"
       ],
       "correctIndex": 0,
       "explanation": "$\\log_2 x < 0 \\implies x < 2^0 \\implies x < 1$. Also, the argument must be positive, so $0 < x < 1$.\n\n**Common mistake:** Including negative values of $x$. $x > 0$."

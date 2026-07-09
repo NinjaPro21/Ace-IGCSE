@@ -142,15 +142,23 @@ function fixProseMathGlue(text: string): string {
 
 /** Broken partial display blocks from import: $$\nexpr$word (expr must look like LaTeX) */
 function fixBrokenPartialDisplayMath(text: string): string {
-  return text
-    .replace(/\$\$\s*\n(\\[^\n$]+?)\$([a-zA-Z])/g, (_, expr, ch) => `$${expr.trim()}$ ${ch}`)
-    .replace(/\$\$\s*\n(\d+(?:\.\d+)?)\$/g, (_, n) => `$${n}$`)
+  let t = text
+  t = t.replace(/\$\$\s*\n(\\[^\n$]+?)\$([a-zA-Z])/g, (_, expr, ch) => `$${expr.trim()}$ ${ch}`)
+  t = t.replace(/\$\$\s*\n(\d+(?:\.\d+)?)\$/g, (_, n) => `$${n}$`)
+  // Unclosed display block at end of quiz option: $$\n\frac{…}\n
+  t = t.replace(/\$\$\s*\n([\s\S]+?)\s*\n$/g, (_, expr) => {
+    const trimmed = expr.trim()
+    if (!trimmed || trimmed.includes('$$')) return `$$\n${expr}\n`
+    return `$${trimmed}$`
+  })
+  return t
 }
 
 /** Fix common markdown/LaTeX glue issues from import or batch normalizers. */
 export function repairMathMarkdown(text: string): string {
   let t = text
 
+  t = moveSentencePunctuationOutsideInlineMath(t)
   t = fixBrokenPartialDisplayMath(t)
   t = fixProseMathGlue(t)
   t = t.replace(/\$\$\s*\n([\s\S]*?)\n\$(?=\s*## )/g, '$$\n$1\n$$\n')
@@ -310,7 +318,8 @@ export function repairQuizImportArtifacts(text: string): string {
   t = t.replace(/Evaluate\s*\n\s*in\s+\$t\^\{0\}\$/gi, 'Evaluate $\\int')
   t = t.replace(/\$t\^\{0\}\$(\d+)/g, '_$1')
   t = t.replace(/\\sec\^\{2\}\$x/g, '\\sec^{2} x')
-  t = t.replace(/,\s*dx\.?/g, '\\,dx.')
+  t = t.replace(/,\s*dx\./g, '\\,dx.')
+  t = t.replace(/,\s*dx\b/g, '\\,dx')
   t = t.replace(/\\n,\s*dx/g, '\\,dx')
   t = t.replace(/\\frac\{1\}\{\s*\}/g, '')
   t = t.replace(/\\frac\{(-?\d+)\}\{\s*\}/g, '$1')
@@ -326,7 +335,7 @@ export function repairQuizImportArtifacts(text: string): string {
   t = t.replace(/se\$c/gi, '\\sec')
   t = t.replace(/\$fractional\$/gi, '\\frac{1}{a}')
   t = t.replace(/\$\\frac\{1\}\{3\(\$e\^\{([^}]+)\}\$-?\s*1\)\}\$/g, '$\\frac{1}{3}(e^{$1}-1)$')
-  t = t.replace(/([a-zA-Z)\}])\s+\$(\d+)\$/g, (_, base, exp) => `${base}^${exp}`)
+  t = t.replace(/(?<![a-zA-Z])([a-z)\}])\s+\$(\d+)\$/g, (_, base, exp) => `${base}^${exp}`)
   t = t.replace(/\be\s+\$(\d+)\$/g, (_, exp) => `e^${exp}`)
   t = t.replace(/\$t\^\{0\}\$1/g, '_0^1')
   t = t.replace(/\\frac\{dydx=\$([^$]+)\$\(-\}\{\}/g, '\\frac{dy}{dx}=$1(-\\sin x)')
@@ -745,9 +754,10 @@ export function fixBrokenMappingNotation(text: string): string {
   // Corrupted import fractions
   t = t.replace(/\\frac\{2x-\}\{1x\+3\}/g, '\\frac{2x-1}{x+3}')
 
-  // Trailing $ from broken display blocks
-  t = t.replace(/\$ where/g, ' where')
-  t = t.replace(/(\d)\.\$/g, '$1.')
+  // Trailing $ from broken display blocks — not when $ closes inline math before "where"
+  t = t.replace(/(?<![\d})\]\\])\$ where/g, ' where')
+  // Orphan $ glued after a bare number+period at line end (docx), not inline-math close-before-period
+  t = t.replace(/(?<!\$[^$\n]{0,120})(\d)\.\$(\s*)$/gm, '$1.$2')
   t = t.replace(/\$ for \$x\$/g, ' for $x$')
   // Final pass: mapping + domain must not share one $...$ block
   t = t.replace(
@@ -787,27 +797,394 @@ function fixProseTrappedInInlineMath(text: string): string {
     (_, map, domain) => `$${map}$ ${domain.trim()}`,
   )
 
-  // Trailing orphan $ before ? or .
-  t = t.replace(/\$([?.!])$/g, '$1')
+  // Trailing orphan $ before ? or . — keep when it closes an open $...$ block
+  t = t.replace(/\$([?.!])$/g, (match, _punct, offset, full) => {
+    const dollarsBefore = (full.slice(0, offset).match(/(?<!\\)\$/g) ?? []).length
+    return dollarsBefore % 2 === 1 ? match : _punct
+  })
   t = t.replace(/(\?)\$$/g, '$1')
 
   return t
 }
 
-/** Wrap quiz options that use LaTeX symbols but no $ delimiters. */
-function wrapBareQuizMathSymbols(text: string): string {
+function isMathFragment(inner: string): boolean {
+  return /[=^\\{}]|\d|\\frac|\\le|\\ge/.test(inner) || /x\^/.test(inner) || /[<>]/.test(inner)
+}
+
+/** Fix $$5 \\le f(x)≤12$ and mixed \\le / unicode ≤ in one expression. */
+function fixMixedInequalityDelimiters(text: string): string {
+  let t = text.replace(/\$\$([^$]+)≤([^$]+)\$/g, (_, a, b) => `$${a.trim()} \\le ${b.trim()}$`)
+  t = t.replace(/([^$\\]*\\le[^$≤]*)≤([^$\n]*)\$/g, (_, a, b) => {
+    const left = a.trim()
+    return left.startsWith('$') ? `${left} \\le ${b.trim()}$` : `$${left} \\le ${b.trim()}$`
+  })
+  t = t.replace(/([^$\\]*\\le[^$≤]*)≤([^$\n]*)$/g, (_, a, b) => `$${a.trim()} \\le ${b.trim()}$`)
+  return t
+}
+
+/** Close inline math before English prose glued after a comma (import artefact). */
+function fixProseAfterMathComma(text: string): string {
+  return text
+    .replace(
+      /\$([^$]+?),\s*((?:find|state|determine|calculate|identify|for which|if)\b[^$]*?)\$/gi,
+      (match, math, prose, offset, full) => {
+        const dollarsBefore = (full.slice(0, offset).match(/(?<!\\)\$/g) ?? []).length
+        if (dollarsBefore % 2 === 0) return match
+        const trimmed = math.trim()
+        if (!isMathFragment(trimmed) && /[a-zA-Z]{2,}/.test(trimmed)) return match
+        return `$${math}$, ${prose.replace(/\$$/, '')}`
+      },
+    )
+    .replace(
+      /\$([^$]+)\s+(has real roots[^$]*)\$/gi,
+      (_, eq, rest) => `$${eq}$ ${rest.replace(/\$$/, '')}`,
+    )
+    .replace(/for which f\(x\) \\ge/g, 'for which $f(x) \\ge')
+    .replace(/\| for the domain\$/g, '|$ for the domain $')
+    .replace(/for the domain\$\\{/g, 'for the domain $\\{')
+    .replace(/domain\$\\{([^}]+)\}\$\\le/g, 'domain $\\{$1 \\le')
+    .replace(/\$([^$]+)\s+(positive|negative)\$/gi, (_, math, word) => `$${math}$ ${word}`)
+    .replace(/\|\s*for\$(-?\d)/g, '|$ for $$1')
+    .replace(/for\$(-?\d)/g, 'for $$1')
+    .replace(
+      /\bis (\d+)\$,\s*((?:find|given|state|determine|calculate|identify)\b)/gi,
+      'is $1, $2',
+    )
+    .replace(
+      /\b(values? of) ([a-zA-Z])\$/g,
+      (_, phrase, v) => `${phrase} $${v}$`,
+    )
+}
+
+/** Merge split inline math from docx import ($x^{2}$-9, 2$x^{2}$+7x, $x^{2}$≤9). */
+function fixSplitInlineMath(text: string): string {
+  let t = text
+  t = t.replace(/\$([^$]+)\$(≤|≥)([^$.,?;\n]+)/g, (_, expr, ineq, rest) => {
+    const op = ineq === '≤' ? '\\le' : '\\ge'
+    return `$${expr} ${op} ${rest.trim()}$`
+  })
+  t = t.replace(/\$([^$]+)\$([+-][^$≤≥\n]+?)(≤|≥)([^$.,?;\n]*)/g, (_, expr, mid, ineq, rest) => {
+    const op = ineq === '≤' ? '\\le' : '\\ge'
+    return `$${expr}${mid} ${op} ${rest.trim()}$`
+  })
+  t = t.replace(
+    /(\d)\$([^$\s]{1,30})\$([a-zA-Z0-9+\-=().|^\\]+)/g,
+    (_, d, inner, tail) => `$${d}${inner}${tail}$`,
+  )
+  t = t.replace(/\$([^$]+)\$([+\-][^$|≤≥\n]+)/g, (_, inner, tail) => {
+    if (!isMathFragment(inner)) return `$${inner}$${tail}`
+    return `$${inner}${tail}$`
+  })
+  const parts = t.split(/(\$[^$\n]+\$)/)
+  t = parts
+    .map((part) => {
+      if (/^\$[^$\n]+\$$/.test(part)) return part
+      for (let i = 0; i < 8; i++) {
+        const next = part
+          .replace(/\$([^$]+)\$([a-zA-Z0-9+\-*/^()|{}\\]+(?:[<>≤≥=][a-zA-Z0-9+\-*/^()|{}.\\]+)?)/g, (_, inner, tail) => {
+            if (!isMathFragment(inner)) return `$${inner}$${tail}`
+            if (/^( or | and |,|\s|[-–]coordinates|[-–]axis|[-–]intercept)/i.test(tail)) return `$${inner}$${tail}`
+            if (!/^[+\-*/=0-9(]/.test(tail)) return `$${inner}$${tail}`
+            return `$${inner}${tail}$`
+          })
+        if (next === part) break
+        part = next
+      }
+      return part
+    })
+    .join('')
+  return t
+}
+
+/** Fix glued inequality ranges (-6≤$x \le 2$ → $-6 \le x \le 2$). */
+function fixGluedInequalityRanges(text: string): string {
+  return text
+    .replace(/(-?\d+(?:\.\d+)?)\s*≤\s*\$([^$]+)\$/g, (_, lo, inner) => `$${lo} \\le ${inner}$`)
+    .replace(/(-?\d+(?:\.\d+)?)\s*≥\s*\$([^$]+)\$/g, (_, lo, inner) => `$${lo} \\ge ${inner}$`)
+    .replace(/(-?\d+(?:\.\d+)?)≤/g, (_, n) => `$${n} \\le `)
+    .replace(/(-?\d+(?:\.\d+)?)≥/g, (_, n) => `$${n} \\ge `)
+}
+
+/** Repair newline-split formulas (a $x^{2}\n\n$$+bx+c=0). */
+function fixNewlineSplitMathFormulas(text: string): string {
+  return text
+    .replace(
+      /(\w)\s+\$x\^\{2\}\s*\n+\s*\$\$\s*\+bx\+c\s*=\s*0/gi,
+      (_, coef) => `$${coef}x^2+bx+c=0$`,
+    )
+    .replace(/k\s+\$x\^\{2\}\s*\n+\s*\$\$\s*\+8x\+4\s*=\s*0/gi, '$kx^2+8x+4=0$')
+    .replace(/\$f\(x\)=-\s*\n+\s*\$\$\s*\n?\(x-1\)\^\{2\}\s*\n?\$\$\./g, '$f(x)=-(x-1)^2$.')
+    .replace(/\$f\(x\)=3\+12x-2\s*\n+\s*\$\$\s*x\^\{2\}/g, '$f(x)=3+12x-2x^2')
+    .replace(/\$f\(x\)=\|\s*\n+\s*\$\$\s*x\^\{2\}-2x-8\|/g, '$f(x)=|x^2-2x-8|')
+    .replace(/\$f\(x\)=12-\|\s*\n+\s*\$\$\s*x\^\{2\}-9\|/g, '$f(x)=12-|x^2-9|')
+    .replace(/\ny\s*=\s*\|([^|\n]+)\|\s*\n\$\$\./g, (_, expr) => `$y=|${expr.trim()}|$.`)
+    .replace(/y\s*=\s*(\d+)\$\(([^)]+)\)\$\s*([+-]\s*\d+)/g, (_, a, par, k) => `$y=${a}(${par})${k.replace(/\s/g, '')}$`)
+}
+
+/**
+ * Docx ate "$. So" as "^2 So", duplicated closing $, or split variables across newlines.
+ * Example: "$\\ln(x)=5$ $," + "e^2 So x=e^5" + "value of x\\n\\n$."
+ */
+function fixDocxSoGlueArtifacts(text: string): string {
+  let t = text
+  t = t.replace(/\$([^$\n]+)\$\s+\$([,.\s])/g, (_, math, punct) => `$${math}$${punct}`)
+  t = t.replace(/\$([^$\n]+)\$\s+\$/g, (_, math) => `$${math}$`)
+  t = t.replace(/\bvalue of ([a-zA-Z])\s*\n+\s*\$\./gi, (_, v) => `value of $${v}$.`)
+  t = t.replace(/\bof ([a-zA-Z])\s*\n+\s*\$\./g, (_, v) => `of $${v}$.`)
+  t = t.replace(
+    /has a base of \$e\^2 So x = e\^5\$/gi,
+    'has a base of $e$. So $x = e^5$',
+  )
+  t = t.replace(/\$e\^2 So x = e\^5\$/gi, '$e$. So $x = e^5$')
+  t = t.replace(/\$([a-zA-Z])\^2 So ([^$]+)\$/g, (_, sym, rest) => `$${sym}$. So $${rest.trim()}$`)
+  t = t.replace(/\\pi\^2 So /g, '\\pi$. So $')
+  t = t.replace(/(?<=\s)([a-zA-Z0-9])\^2 So /g, (_, c) => `${c}$. So $`)
+  t = t.replace(/values of \$m\^2 So \$?y =/gi, 'values of $m$ for which $y =')
+  t = t.replace(/= p\^2 So \\lg b = q/gi, '= $p$ and $\\lg b = q$')
+  t = t.replace(/= p\^2 So \\ln b = q/gi, '= $p$ and $\\ln b = q$')
+  t = t.replace(/\$ \./g, '$.')
+  return t
+}
+
+/** Docx ate "$N$" as "^N" after prepositions (rate of^12 → rate of $12$). */
+function fixDocxCaretGlue(text: string): string {
+  return text.replace(
+    /\b(of|or|between|by|side|radius|and|at|height|length|ladder)\^(\d+)/gi,
+    (_, word, n) => `${word} $${n}$`,
+  )
+}
+
+/** Repair docx sentence splits ($x$. So $y = …). */
+function fixDocxSoSentenceSplits(text: string): string {
+  let t = text
+  t = t.replace(
+    /Find the \$(x|y)\$\. So \$(y = [^$]+)\$ and (?:the curve )?\$([^$]+)\$\./gi,
+    (_, coord, line, curve) =>
+      `Find the $${coord}$-coordinates where the line $${line}$ intersects the curve $${curve}$.`,
+  )
+  t = t.replace(
+    /Find the \$(y)\$\. So \$([^$]+)\$ and \$([^$]+)\$\./gi,
+    (_, coord, eq1, eq2) =>
+      `Find the $${coord}$-coordinates of the points of intersection of $${eq1}$ and $${eq2}$.`,
+  )
+  t = t.replace(
+    /A line \$(y = k)\$\. So \$(y = [^$]+)\$\.\s*State/gi,
+    (_, line, curve) => `The horizontal line $${line}$ is a tangent to the curve $${curve}$. State`,
+  )
+  t = t.replace(
+    /Given the line \$(y = [^$]+)\$\. So \$(y = [^$]+)\$/gi,
+    (_, line, curve) => `Given the line $${line}$ and the curve $${curve}$`,
+  )
+  t = t.replace(
+    /The graph of \$([^$]+)\$ lies entirely above the \$(x)\$\. So \$(y = [^$]+)\$\s*compare\?/gi,
+    (_, graph, axis, mod) =>
+      `The graph of $${graph}$ lies entirely above the $${axis}$-axis. How does the graph of $${mod}$ compare to the original?`,
+  )
+  t = t.replace(
+    /State the \$(y)\$\. So \$(y = \|[^$]+\|)\./gi,
+    (_, coord, graph) => `State the $${coord}$-intercept of the graph $${graph}$.`,
+  )
+  t = t.replace(
+    /State the \$(y)\$\. So \$(y = [^$]+)\$\./gi,
+    (_, coord, graph) => `State the $${coord}$-intercept of the graph $${graph}$.`,
+  )
+  t = t.replace(
+    /How many \$(x)\$\. So \$(y = [^$]+)\$\s*have\?/gi,
+    (_, coord, graph) => `How many $${coord}$-intercepts does the graph $${graph}$ have?`,
+  )
+  t = t.replace(
+    /The line \$(y = c)\$\. So \$(y = [^$]+)\$\.\s*Find/gi,
+    (_, line, graph) => `The line $${line}$ touches the graph of $${graph}$ at its minimum. Find`,
+  )
+  t = t.replace(
+    /Find the set of values of \$(k)\$\. So \$y = ([^$]+)2y = ([^$]+)\$\./gi,
+    (_, v, line, curve) =>
+      `Find the set of values of $${v}$ for which the line $y = ${line}$ intersects the curve $y = ${curve}$.`,
+  )
+  t = t.replace(
+    /Find the range of values of \$(c)\$\. So \$y = ([^$]+)2y = ([^$]+)\$/gi,
+    (_, v, line, curve) =>
+      `Find the range of values of $${v}$ for which the line $y = ${line}$ intersects the curve $y = ${curve}$`,
+  )
+  t = t.replace(
+    /Determine the range of values of \$(k)\$\. So \$y = ([^$]+)2y = ([^$]+)\$\./gi,
+    (_, v, line, curve) =>
+      `Determine the range of values of $${v}$ for which the line $y = ${line}$ intersects the curve $y = ${curve}$.`,
+  )
+  t = t.replace(
+    /The line \$(y = 2x \+ k)\$\. So \$x\^2 \+ y\^2 = ([^$]+)\$\.\s*Find/gi,
+    (_, line, r) => `The line $${line}$ intersects the circle $x^2 + y^2 = ${r}$. Find`,
+  )
+  t = t.replace(/(\$y = \|[^$|]+\|)\?(?!\$)/g, '$1$?')
+  t = t.replace(/(\$y = x\^2[^$]*)\?(?!\$)/g, '$1$?')
+  return t
+}
+
+/** Strip English prose wrongly wrapped in $...$ ($Solve the inequality). */
+function stripProseWrappedInMath(text: string): string {
+  return text.replace(
+    /^\$((?:Solve|Find|State|Determine|Identify|Given|Calculate)\s+(?:the\s+)?(?:inequality|equation|value|set|range|coordinates?)\s*)([^$\\]+?)\$/i,
+    (_, prose, math) => {
+      const converted = math.replace(/[≥≤]/g, (c) => (c === '≥' ? '\\ge ' : '\\le '))
+      return `${prose.trim()} $${converted.trim()}$`
+    },
+  )
+}
+
+/** Wrap bare modulus graph labels (y=|x^2-9|, y=|$x^{2}$+4|). */
+function wrapBareModulusGraphs(text: string): string {
+  let t = text.replace(/\by\s*=\s*\|\$([^$]+)\$\|/g, (_, inner) => `$y=|${inner}|$`)
+  const segments = t.split(/(\$[^$]+\$|\$\$[\s\S]*?\$\$)/)
+  return segments
+    .map((seg) => {
+      if (seg.startsWith('$')) return seg
+      return seg
+        .replace(/\by\s*=\s*\|\$([^$]+)\$([^|]+)\|/g, (_, a, b) => `$y=|${a}${b}|$`)
+        .replace(/\by\s*=\s*\|\$([^$]+)\$\|/g, (_, inner) => `$y=|${inner}|$`)
+        .replace(/\by\s*=\s*\|([^|$][^|]*)\|/g, (_, inner) => `$y=|${inner.replace(/\$/g, '')}|$`)
+        .replace(/\by=\|([^|]+)\|/g, (_, inner) => `$y=|${inner.replace(/\$/g, '')}|$`)
+        .replace(/(?<!\$)\|f\(([^)]+)\)\|(?!\$)/g, (_, arg) => `$|f(${arg})|$`)
+    })
+    .join('')
+}
+
+/** Wrap bare unicode inequalities in short option strings (≥0., -3≤). */
+function wrapBareUnicodeInequalities(text: string): string {
   const trimmed = text.trim()
-  if (!trimmed || trimmed.includes('$')) return text
-  if (/\\(neq|in|mathbb|le|ge|leq|geq)|[≤≥]|y\s*[<>]|x\s*[<>]/i.test(trimmed)) {
-    return `$${trimmed}$`
+  if (!trimmed || (trimmed.includes('$') && !/^[+\-]?\d*[≤≥]/.test(trimmed) && !/[≤≥]\d/.test(trimmed))) {
+    return text
+  }
+  if (/[≤≥]/.test(trimmed) && !trimmed.startsWith('$')) {
+    const converted = trimmed
+      .replace(/≤/g, '\\le ')
+      .replace(/≥/g, '\\ge ')
+      .replace(/([^\\]|^)le\s/g, '$1\\le ')
+      .replace(/([^\\]|^)ge\s/g, '$1\\ge ')
+    return `$${converted.trim()}$`
   }
   return text
+}
+
+/** Wrap bare exponents / composite notation in quiz prose segments. */
+function wrapBareQuizExpressions(text: string): string {
+  const segments = text.split(/(\$[^$]+\$|\$\$[\s\S]*?\$\$)/)
+  return segments
+    .map((seg) => {
+      if (seg.startsWith('$')) return seg
+      return seg
+        .replace(/\b(gf|fg|gh)\(([0-9a-zx]+)\)/gi, (_, fn, arg) => `$${fn.toLowerCase()}(${arg})$`)
+        .replace(/([a-z])\(([xa-z0-9+\-]+)\)=\s*x\^\{([^}]+)\}/gi, (_, fn, arg, exp) => `$${fn}(${arg})=x^{${exp}}$`)
+        .replace(/\bf\((x)\)=\s*([^$.,?]+?)(?=\s+for\b|[.,?]|$)/gi, (_, v, expr) => `$f(${v})=${expr.trim()}$`)
+        .replace(/\bx\s*≥\s*(-?[\d.]+)/g, '$x \\ge $1$')
+        .replace(/\bx\s*≤\s*(-?[\d.]+)/g, '$x \\le $1$')
+        .replace(/\by\s*≥\s*(-?[\d.]+)/g, '$y \\ge $1$')
+        .replace(/\by\s*≤\s*(-?[\d.]+)/g, '$y \\le $1$')
+        .replace(/(?<![$\\])\b([a-zA-Z])\^\{([^}]+)\}/g, '$$$1^{$2}$')
+        .replace(/(?<![$\\])\bx\^\{([^}]+)\}/g, '$x^{$1}$')
+    })
+    .join('')
+}
+
+/** Detect render-breaking patterns after quiz normalization (used by audit-quiz-content.mjs). */
+export function findQuizMathRenderIssues(raw: string): string[] {
+  if (!raw || typeof raw !== 'string') return []
+  const prepared = fixQuizLatexText(raw)
+  const issues: string[] = []
+
+  const dollarCount = (prepared.match(/\$/g) ?? []).length
+  if (dollarCount % 2 !== 0) {
+    issues.push('unbalanced $ delimiters after normalization')
+  }
+
+  if (/\\\$/.test(prepared)) issues.push('visible \\\\\\$ escape in normalized text')
+  if (/\\nle|\\nge|\\nneq/i.test(prepared)) issues.push('corrupted \\\\nle/\\\\nge (newline eaten backslash)')
+  if (/∣/.test(prepared)) issues.push('unicode modulus ∣ (use | inside $...$)')
+
+  const outside = prepared.split(/\$[^$]*\$/)
+  for (const seg of outside) {
+    if (/\\(neq|in|mathbb|le|ge|leq|geq|mapsto|frac)\b/.test(seg)) {
+      issues.push(`bare LaTeX command outside $...$: "${seg.trim().slice(0, 48)}${seg.length > 48 ? '…' : ''}"`)
+      break
+    }
+    if (/[≤≥]/.test(seg)) {
+      issues.push('unicode inequality outside $...$')
+      break
+    }
+    if (/\b[a-zA-Z]\^\{[^}]+\}/.test(seg)) {
+      issues.push('bare ^{...} exponent outside $...$')
+      break
+    }
+  }
+
+  if (/\$[^$]*\\(le|ge|neq|frac|mapsto)[^$]*(?<!\d)[.?](?!\$)/.test(prepared)) {
+    issues.push('unclosed inline math before . ? ! (\\le / \\ge visible)')
+  }
+
+  if (/\$[^$]*[\d})\]]\.\$/g.test(prepared)) {
+    issues.push('sentence period trapped inside $...$ (e.g. $0 \\le x \\le 4.$)')
+  }
+
+  if (/\$\\\$/.test(prepared)) issues.push('escaped dollar visible in math ($\\$h(a)$)')
+  if (/\$[^$\n]+\n[^$\n]*\\(le|ge|neq)/.test(prepared)) {
+    issues.push('inline math split across lines (\\le / \\ge may render raw)')
+  }
+
+  return issues
+}
+
+/** Wrap quiz options that use LaTeX symbols but no $ delimiters. */
+export function isBareQuizOptionMath(text: string): boolean {
+  const trimmed = text.trim()
+  if (!trimmed || trimmed.includes('$')) return false
+  if (/^(Undefined|Yes|No|True|False)$/i.test(trimmed)) return false
+  if (/^[0-9.]+$/.test(trimmed)) return false
+  if (/\\(neq|in|mathbb|le|ge|leq|geq)|[≤≥]|y\s*[<>]|x\s*[<>]/i.test(trimmed)) return true
+  if (/^\([-\d.,\s±]+\)$/.test(trimmed)) return true
+  if (/^\d+(?:\.\d+)?\s*units\^2$/i.test(trimmed)) return true
+  if (/^(y|x|Y|X)(\^[\dn{]+)?$/i.test(trimmed)) return true
+  if (/^(lg|ln)\s+[a-z]/i.test(trimmed)) return true
+  if (/^1\/x(\^[\dn]+)?$/i.test(trimmed)) return true
+  if (/^[xy]\s*\/\s*[xy\d^]/i.test(trimmed)) return true
+  if (/^[xy]\^[0-9{n]/i.test(trimmed)) return true
+  if (/^e\^[\d.+-]+$/i.test(trimmed)) return true
+  if (/^(y|Y)\s*=/.test(trimmed)) return true
+  if (/\bY\s*=\s*.+\bX\s*=/i.test(trimmed)) return true
+  if (/^(1\/a|a|b|1\/b|1\/a|n\/b|b\/n)$/i.test(trimmed)) return true
+  return false
+}
+
+export function wrapBareQuizOption(text: string): string {
+  const trimmed = text.trim()
+  if (!isBareQuizOptionMath(trimmed)) return text
+  const inner = trimmed
+    .replace(/\blg\b/g, '\\lg')
+    .replace(/\bln\b/g, '\\ln')
+    .replace(/(\d+(?:\.\d+)?)\s*units\^2/gi, '$1\\ \\text{units}^2')
+  return `$${inner}$`
+}
+
+function wrapBareQuizMathSymbols(text: string): string {
+  return wrapBareQuizOption(text)
 }
 
 /** Fix LaTeX in quiz strings (double-escaped commands, unicode surds). */
 export function fixQuizLatexText(raw: string): string {
   let text = decodeHTMLEntities(stripInvisibleChars(raw))
+  text = text.replace(/∣/g, '|').replace(/−/g, '-').replace(/²/g, '^2').replace(/³/g, '^3')
+  text = moveSentencePunctuationOutsideInlineMath(text)
+  text = fixNewlineSplitMathFormulas(text)
+  text = fixSplitInlineMath(text)
+  text = fixGluedInequalityRanges(text)
+  text = fixMixedInequalityDelimiters(text)
+  text = fixProseAfterMathComma(text)
+  text = fixDocxSoGlueArtifacts(text)
+  text = fixDocxCaretGlue(text)
+  text = fixDocxSoSentenceSplits(text)
+  text = stripProseWrappedInMath(text)
   text = fixProseTrappedInInlineMath(text)
+  text = wrapBareModulusGraphs(text)
+  text = wrapBareQuizExpressions(text)
+  text = wrapBareUnicodeInequalities(text)
   text = wrapBareQuizMathSymbols(text)
   text = fixBrokenMappingNotation(text)
   text = fixDollarTwoPlaceholder(text)
@@ -827,7 +1204,37 @@ export function fixQuizLatexText(raw: string): string {
   text = normalizeMathMarkdown(text)
   text = fixProseTrappedInInlineMath(text)
   text = fixBrokenMappingNotation(text)
+  text = closeInlineMathBeforePunctuation(text)
   return repairMathMarkdown(text)
+}
+
+/** Move sentence punctuation wrongly trapped inside $...$ (e.g. $f^{-1}(x)?$ → $f^{-1}(x)$?). */
+export function moveSentencePunctuationOutsideInlineMath(text: string): string {
+  const parts = text.split(/(\$\$[\s\S]*?\$\$)/)
+  return parts
+    .map((part) => {
+      if (part.startsWith('$$')) return part
+      return part.replace(/\$([^$\n]+?)([.?!])\$/g, (_, inner: string, punct: string) => `$${inner}$${punct}`)
+    })
+    .join('')
+}
+
+/** Ensure $…expr. becomes $…expr$. when import dropped the closing delimiter. */
+function closeInlineMathBeforePunctuation(text: string): string {
+  const parts = text.split(/(\$[^$\n]+\$)/)
+  return parts
+    .map((part) => {
+      if (/^\$[^$\n]+\$$/.test(part)) return part
+      return part.replace(
+        /(?<![\d})\]\\])\$([^$\n]+?)([\d})\]])([.?!])(?!\$)/g,
+        (match, inner, end, punct, offset, full) => {
+          const dollarsBefore = (full.slice(0, offset).match(/(?<!\\)\$/g) ?? []).length
+          if (dollarsBefore % 2 !== 0) return match
+          return `$${inner}${end}$${punct}`
+        },
+      )
+    })
+    .join('')
 }
 
 /** Wrap math notation in topic/quiz titles for KaTeX rendering. */
@@ -1234,7 +1641,11 @@ export function fixInlineMathLines(text: string): string {
 
           const dollars = l.match(/(?<!\\)\$/g)?.length ?? 0
           if (dollars % 2 === 1) {
-            l = `${l.trimEnd()}$`
+            // Close before trailing sentence punctuation, not after it ($0 \le x \le 4$. not 4.$)
+            l = l.replace(/([.?!])$/, (_, punct) => `$${punct}`)
+            if ((l.match(/(?<!\\)\$/g)?.length ?? 0) % 2 === 1) {
+              l = `${l.trimEnd()}$`
+            }
           }
 
           const trimmed = l.trim()

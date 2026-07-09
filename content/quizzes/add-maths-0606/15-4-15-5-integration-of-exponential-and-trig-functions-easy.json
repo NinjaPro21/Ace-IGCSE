@@ -11,7 +11,7 @@
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-easy-q1",
       "type": "mcq",
-      "question": "Find the indefinite integral $\\int e^{5x} dx$ .",
+      "question": "Find the indefinite integral $\\int e^{5x} dx$.",
       "options": [
         "$\\frac{1}{5}e^{5x} + c$",
         "$5e^{5x} + c$",
@@ -24,7 +24,7 @@
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-easy-q2",
       "type": "mcq",
-      "question": "Evaluate the indefinite integral $\\int \\sin(3x) dx$ .",
+      "question": "Evaluate the indefinite integral $\\int \\sin(3x) dx$.",
       "options": [
         "$-\\frac{1}{3}\\cos(3x) + c$",
         "$\\frac{1}{3}\\cos(3x) + c$",
@@ -45,7 +45,7 @@
         "$2\\cos(0.5x) + c$"
       ],
       "correctIndex": 0,
-      "explanation": "Integrating $\\cos(ax)$ gives $\\frac{1}{a}\\sin(ax) + c$. $0.5$ is equivalent to multiplying by^2.\n\n**Common mistake:** Option B occurs if a student multiplies by the coefficient $0.5$ instead of dividing by it."
+      "explanation": "Integrating $\\cos(ax)$ gives $\\frac{1}{a}\\sin(ax) + c$. $0.5$ is equivalent to multiplying by2.\n\n**Common mistake:** Option B occurs if a student multiplies by the coefficient$0.5$ instead of dividing by it."
     },
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-easy-q4",
@@ -63,7 +63,7 @@
     {
       "id": "15-4-15-5-integration-of-exponential-and-trig-functions-easy-q5",
       "type": "mcq",
-      "question": "Find $\\int (e^x + \\cos x) dx$ .",
+      "question": "Find $\\int (e^x + \\cos x) dx$.",
       "options": [
         "$e^x + \\sin x + c$",
         "$e^x - \\sin x + c$",

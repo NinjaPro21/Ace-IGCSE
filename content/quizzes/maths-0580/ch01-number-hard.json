@@ -32,7 +32,7 @@
         "45/7"
       ],
       "correctIndex": 0,
-      "explanation": "Brackets: $\\frac{11}{10} - \\frac{4}{10} = \\frac{7}{10}$. Numerator division: $\\frac{22}{5} \\div \\frac{7}{10} = \\frac{22}{5} \\times \\frac{10}{7} = \\frac{44}{7}$. Denominator: $8 - 3 = 5$. Total $fraction:$ $\\frac{44}{7} \\div 5 = \\frac{44}{35} = 1 \\frac{9}{35}$.\n\n**Common mistake:** Students confuse the order of operators inside the bracket or invert $fractions$ poorly."
+      "explanation": "Brackets: $\\frac{11}{10} - \\frac{4}{10} = \\frac{7}{10}$. Numerator division: $\\frac{22}{5} \\div \\frac{7}{10} = \\frac{22}{5} \\times \\frac{10}{7} = \\frac{44}{7}$. Denominator: $8 - 3 = 5$. Total fraction  $\\frac{44}{7} \\div 5 = \\frac{44}{35} = 1 \\frac{9}{35}$.\n\n**Common mistake:** Students confuse the order of operators inside the bracket or invert $fractions$ poorly."
     },
     {
       "id": "ch01-number-hard-q3",
@@ -154,7 +154,7 @@
     {
       "id": "ch01-number-hard-q12",
       "type": "mcq",
-      "question": "Given three numbers 90, 126, and $x$ and $x$.",
+      "question": "Given three numbers 90, 126, and $x$ and $x.",
       "options": [
         "180",
         "20",
@@ -232,7 +232,7 @@
     {
       "id": "ch01-number-hard-q18",
       "type": "mcq",
-      "question": "The $n$. $n^3 - bn + 4$. Given that the 4th term is 52, determine the value of the constant coefficient $b$.",
+      "question": "The $n$. $n^3 - bn + 4$. Given that the 4th term is 52, determine the value of the constant coefficient $b.",
       "options": [
         "4",
         "3",
@@ -357,7 +357,7 @@
         "$\\frac{y^2}{8x^3}$"
       ],
       "correctIndex": 0,
-      "explanation": "The negative index inverts the $fraction:$ $\\left(\\frac{y^6}{8x^9}\\right)^{\\frac{1}{3}}$. Apply the cube root to all elements: $(y^6)^{\\frac{1}{3}} = y^2$, $8^{\\frac{1}{3}} = 2$, and $(x^9)^{\\frac{1}{3}} = x^3$. This yields $\\frac{y^2}{2x^3}$.\n\n**Common mistake:** Students often forget to cube-root the number 8 or leave it in the numerator, violating inversion rules."
+      "explanation": "The negative index inverts the fraction  $\\left(\\frac{y^6}{8x^9}\\right)^{\\frac{1}{3}}$. Apply the cube root to all elements: $(y^6)^{\\frac{1}{3}} = y^2$, $8^{\\frac{1}{3}} = 2$, and $(x^9)^{\\frac{1}{3}} = x^3$. This yields $\\frac{y^2}{2x^3}$.\n\n**Common mistake:** Students often forget to cube-root the number 8 or leave it in the numerator, violating inversion rules."
     },
     {
       "id": "ch01-number-hard-q28",
@@ -370,7 +370,7 @@
         "$5y$"
       ],
       "correctIndex": 0,
-      "explanation": "Split the index expression: $2^{x+3} = 2^x \\times 2^3 = 8 \\times 2^x = 8y$. $8y - y = 7y$.\n\n**Common mistake:** Students often change $2^{x+3}$ to $y^3$, leading to the incorrect option $y^3 - y$."
+      "explanation": "Split the index expression: $2^{x+3} = 2^x \\times 2^3 = 8 \\times 2^x = 8y$. $8y - y = 7y$.\n\n**Common mistake:** Students often change $2^{x+3}$ to $y^3$, leading to the incorrect option $y^3 - y."
     },
     {
       "id": "ch01-number-hard-q29",
@@ -492,7 +492,7 @@
     {
       "id": "ch01-number-hard-q38",
       "type": "mcq",
-      "question": "Given that $\\sqrt{48} - \\sqrt{27} = k\\sqrt{12}$, find the exact value of the constant $k$.",
+      "question": "Given that $\\sqrt{48} - \\sqrt{27} = k\\sqrt{12}$, find the exact value of the constant $k.",
       "options": [
         "$\\frac{1}{2}$",
         "1",
@@ -505,7 +505,7 @@
     {
       "id": "ch01-number-hard-q39",
       "type": "mcq",
-      "question": "Express $\\frac{\\sqrt{32} + \\sqrt{8}}{\\sqrt{50}}$ as a simplified $fraction.$",
+      "question": "Express $\\frac{\\sqrt{32} + \\sqrt{8}}{\\sqrt{50}}$ as a simplified $fraction.",
       "options": [
         "$\\frac{6}{5}$",
         "$\\frac{4}{5}$",
@@ -590,7 +590,7 @@
         "$0.560$"
       ],
       "correctIndex": 0,
-      "explanation": "Enter the expression into the calculator precisely. The result is approximately $0.67848...$, which rounds to $0.678$ to 3 s.f..\n\n**Common mistake:** Rounding intermediate steps or failing to apply the cube root to the entire $fraction.$",
+      "explanation": "Enter the expression into the calculator precisely. The result is approximately $0.67848$..., which rounds to $0.678$ to 3 s.f..\n\n**Common mistake:** Rounding intermediate steps or failing to apply the cube root to the entire $fraction.",
       "id": "ch01-number-hard-q45"
     }
   ]

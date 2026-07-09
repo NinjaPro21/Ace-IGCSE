@@ -19,17 +19,17 @@
         "$y$ and $x$-ints: -2, 1, 4"
       ],
       "correctIndex": 0,
-      "explanation": "$x-ints from factors are -2, 1, 4$. $2y$. $|(2)(-1)(-4)| = 8$.\n\n**Common mistake:** Mixing up the signs of the roots derived from the linear factors."
+      "explanation": "$x$-intercepts from the factors are $-2, 1, 4$. At $x=0$, $y = |(2)(-1)(-4)| = 8$, so the $y$-intercept is $(0, 8)$.\n\n**Common mistake:** Mixing up the signs of the roots derived from the linear factors."
     },
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q2",
       "type": "mcq",
-      "question": "The function $f$. So $f(x) = x^3 - 9x2y = f(x)$ and $y = |f(x)|$.",
+      "question": "The function $f(x) = x^3 - 9x$ is sketched. Which statement best describes the graph of $y = |f(x)|$ compared with $y = f(x)$?",
       "options": [
-        "Reflect the graph between $x = -3$ and $x = 0$, and for $x > 3$ (Incorrect logic). Correct: Reflect for $x < -3$ and $0 < x < 3$.",
-        "Reflect the entire graph across the y-axis.",
+        "Reflect the portions of $y = f(x)$ that lie below the $x$-axis in the $x$-axis.",
+        "Reflect the entire graph across the $y$-axis.",
         "Shift the entire graph up by 9 units.",
-        "Reflect the portions where the graph is below the x-axis."
+        "Reflect the portions where the graph is below the $x$-axis."
       ],
       "correctIndex": 3,
       "explanation": "The sketch for $y=|f(x)|$ is obtained by reflecting the parts of $y=f(x)$ that lie below the $x$-axis.\n\n**Common mistake:** Failing to identify the specific intervals where the cubic function is negative."
@@ -37,7 +37,7 @@
     {
       "id": "4-3-sketching-graphs-of-cubic-polynomials-and-their-modu-pyp-q3",
       "type": "mcq",
-      "question": "Find the set of values of $x$. $|x(x-3)^2| = 0$.",
+      "question": "Find the values of $x$ for which $|x(x-3)^2| = 0$.",
       "options": [
         "0 and 3",
         "0, 3, and -3",
@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "The graph of $y = |x^3 + 1|$ is drawn. At what point does the graph have a sharp 'V-style' turn (vertex)?",
       "options": [
-        "(-1, 0)",
-        "(1, 0)",
-        "(0, 1)",
-        "(-1, 1)"
+        "$(-1, 0)$",
+        "$(1, 0)$",
+        "$(0, 1)$",
+        "$(-1, 1)$"
       ],
       "correctIndex": 0,
       "explanation": "The graph of $x^3+1$ crosses the axis at $x=-1$. The modulus causes a sharp reflection at this point.\n\n**Common mistake:** Identifying the $y$-intercept (0, 1) as the point of reflection."
@@ -71,7 +71,7 @@
         "0"
       ],
       "correctIndex": 0,
-      "explanation": "The three $x$. So $y=0$.\n\n**Common mistake:** Only counting the turning points between the roots and forgetting the intercepts themselves are now local minima."
+      "explanation": "The three when $y=0$.\n\n**Common mistake:** Only counting the turning points between the roots and forgetting the intercepts themselves are now local minima."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q1",
       "type": "mcq",
-      "question": "In the triangle $OAB$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In triangle $OAB$, $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$. Express the vector $\\vec{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$\\mathbf{b} - \\mathbf{a}$",
         "$\\mathbf{a} - \\mathbf{b}$",
@@ -19,7 +19,7 @@
         "$\\mathbf{b} + \\mathbf{a}$"
       ],
       "correctIndex": 0,
-      "explanation": "To go from $A$ and $B2A$ and $O2-\\mathbf{a}$) and then $O$ and $B2\\mathbf{b}$), resulting in $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
+      "explanation": "To go from $A$ to $B$, travel from $A$ to $O$ ($-\\mathbf{a}$) and then from $O$ to $B$ ($\\mathbf{b}$), giving $\\mathbf{b} - \\mathbf{a}$.\n\n**Common mistake:** Option B is a common direction error where the student subtracts the destination vector from the start vector."
     },
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q2",
@@ -63,7 +63,7 @@
     {
       "id": "13-3-vector-geometry-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "In a parallelogram $ABCD$. So $\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "question": "In a parallelogram $ABCD$, $\\vec{AB} = \\mathbf{p}$ and $\\vec{BC} = \\mathbf{q}$. Express $\\vec{AD}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
       "options": [
         "$\\mathbf{q}$",
         "$\\mathbf{p}$",
@@ -71,7 +71,7 @@
         "$-\\mathbf{q}$"
       ],
       "correctIndex": 0,
-      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$. $BC$."
+      "explanation": "In a parallelogram, opposite sides are equal and parallel, so $\\vec{AD} = \\vec{BC} = \\mathbf{q}$.\n\n**Common mistake:** Option B is chosen if the student mistakenly identifies the parallel side as $AB$ instead of $BC$."
     }
   ]
 }

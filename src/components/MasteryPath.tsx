@@ -32,16 +32,17 @@ function getStepScore(
 interface MasteryPathProps {
   chapterId: string
   notesComplete: boolean
+  scope?: 'chapter'
 }
 
-export function MasteryPath({ chapterId, notesComplete }: MasteryPathProps) {
+export function MasteryPath({ chapterId, notesComplete, scope = 'chapter' }: MasteryPathProps) {
   const { progress, canTakeChapterQuiz, markChapterPopoutSeen } = useMastery()
   const chapterProgress = progress.chapters[chapterId]
   // Read from the reactive `progress` object so this re-renders when quiz results are recorded
   const quizLevel = (chapterProgress?.quizLevel ?? 0) as import('@/features/mastery/MasteryEngine').MasteryLevel
 
   return (
-    <div className="enlight-mastery-path">
+    <div className={`enlight-mastery-path enlight-mastery-path--${scope}`}>
       {STEPS.map((step, idx) => {
         const isNotes = step.difficulty === 'notes'
         const complete = isNotes ? notesComplete : quizLevel > idx
@@ -54,6 +55,7 @@ export function MasteryPath({ chapterId, notesComplete }: MasteryPathProps) {
             : undefined
         const cls = [
           'enlight-mastery-step',
+          `enlight-mastery-step--${scope}`,
           complete ? 'enlight-mastery-step--complete' : '',
           unlocked ? 'enlight-mastery-step--unlocked' : 'enlight-mastery-step--locked',
         ].join(' ')

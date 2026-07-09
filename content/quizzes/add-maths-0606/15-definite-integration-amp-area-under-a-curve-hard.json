@@ -11,7 +11,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-hard-q1",
       "type": "mcq",
-      "question": "Find the value of $\\int_{1}^{2} \\frac{4}{(2x-1)^2}\\,dx.$",
+      "question": "Find the value of $\\int_{1}^{2} \\frac{4}{(2x-1)^2}\\,dx$.",
       "options": [
         "1.33",
         "2",
@@ -24,7 +24,7 @@
     {
       "id": "15-definite-integration-amp-area-under-a-curve-hard-q2",
       "type": "mcq",
-      "question": "Given that\nin $t^{0}$k\n\ne^{2x}\n\\,dx.=12, find the exact value of k.",
+      "question": "Given that\nin $t^{0}$k\n\n$e^{2x}$\n\\,dx.=12, find the exact value of k.",
       "options": [
         "ln 5",
         "ln 25",
@@ -32,7 +32,7 @@
         "0.5 ln 13"
       ],
       "correctIndex": 0,
-      "explanation": "[0.5e\n2x\n]\n0\nk \\neq 12 \\implies 0.5e\n2k\n-0.5=12 \\implies e\n2k \\neq 25 \\implies 2k=\nln25 \\implies k=\nln5.\n\n**Common mistake:** Option B results if the student forgets to divide by 2 (or apply the square root log law)."
+      "explanation": "$[0.5e$\n2x\n]\n0\nk \\neq 12 \\implies 0.5e\n2k\n-0.5=12 \\implies e\n2k \\neq 25 \\implies 2k=\nln25 \\implies k=\nln5.\n\n**Common mistake:** Option B results if the student forgets to divide by 2 (or apply the square root log law)."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-hard-q3",
@@ -45,7 +45,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Bounds are x=0 (y-axis) and x=2 (where y=0). ∫ from 0 to 2 (4 - x^2) dx = [4x - x³/3] = 8 - 8/3 = 16/3.\n\n**Common mistake:** Using 4 as the upper limit instead of the root x=2."
+      "explanation": "Bounds are x=0 (y-axis) and x=2 (where y=0). ∫ from 0 to 2 (4 - x^2) dx = [4x - x^3/3] = 8 - 8/3 = 16/3.\n\n**Common mistake:** Using 4 as the upper limit instead of the root x=2."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-hard-q4",
@@ -58,7 +58,7 @@
         "0.25"
       ],
       "correctIndex": 0,
-      "explanation": "The curve crosses the x-axis at x=1. Region from 0 to 1 is negative; 1 to 2 is positive. Total Area = |∫₀¹ (x-1)³ dx| + ∫₁² (x-1)³ dx = |-0.25| + 0.25 = 0.5.\n\n**Common mistake:** Integrating from 0 to 2 directly, which yields 0, ignoring the area below the axis."
+      "explanation": "The curve crosses the x-axis at x=1. Region from 0 to 1 is negative; 1 to 2 is positive. Total Area = |∫₀¹ (x-1)^3 dx| + ∫₁^2 (x-1)^3 dx = |-0.25| + 0.25 = 0.5.\n\n**Common mistake:** Integrating from 0 to 2 directly, which yields 0, ignoring the area below the axis."
     },
     {
       "type": "mcq",
@@ -84,7 +84,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "Intersection: x^2 - 4x + 3 = 0 => x=1, 3. Area = ∫ from 1 to 3 (4x - 1 - (x^2 + 2)) dx = ∫ (4x - x^2 - 3) dx = [2x^2 - x³/3 - 3x] from 1 to 3 = (18 - 9 - 9) - (2 - 1/3 - 3) = 0 - (-4/3) = 4/3.\n\n**Common mistake:** Failing to correctly solve the quadratic to find the limits of integration."
+      "explanation": "Intersection: x^2 - 4x + 3 = 0 => x=1, 3. Area = ∫ from 1 to 3 (4x - 1 - (x^2 + 2)) dx = ∫ (4x - x^2 - 3) dx = [2x^2 - x^3/3 - 3x] from 1 to 3 = (18 - 9 - 9) - (2 - 1/3 - 3) = 0 - (-4/3) = 4/3.\n\n**Common mistake:** Failing to correctly solve the quadratic to find the limits of integration."
     },
     {
       "id": "15-definite-integration-amp-area-under-a-curve-hard-q7",
@@ -104,9 +104,9 @@
       "type": "mcq",
       "question": "Find the area between $y = \\cos x$. So $y = \\sin x20 \\le x \\le \\pi/4$.",
       "options": [
-        "$$\n\\sqrt{2} - 1\n",
+        "$\\sqrt{2} - 1$",
         "1",
-        "$$\n\\sqrt{2}\n",
+        "$\\sqrt{2}$",
         "0.5"
       ],
       "correctIndex": 0,

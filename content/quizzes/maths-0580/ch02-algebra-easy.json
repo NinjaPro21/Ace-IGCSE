@@ -76,7 +76,7 @@
     {
       "id": "ch02-algebra-easy-q6",
       "type": "mcq",
-      "question": "Simplify completely by collecting like terms: $5x + 3y - 2x + 4y$.",
+      "question": "Simplify completely by collecting like terms: $5x + 3y - 2x + 4y.",
       "options": [
         "$3x + 7y$",
         "$3x - y$",
@@ -97,12 +97,12 @@
         "$7m - 6n$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the term outside the bracket by each term inside: $4 \\times 3m = 12m^2 4 \\times (-2n) = -8n212m - 8n$.\n\n**Common mistake:** Students often only multiply the first term inside the bracket, leaving the second term completely unchanged as $-2n$."
+      "explanation": "Multiply the term outside the bracket by each term inside: $4 \\times 3m = 12m^2 4 \\times (-2n) = -8n212m - 8n$.\n\n**Common mistake:** Students often only multiply the first term inside the bracket, leaving the second term completely unchanged as $-2n."
     },
     {
       "id": "ch02-algebra-easy-q8",
       "type": "mcq",
-      "question": "Simplify the expression: $a \\times a \\times a + b \\times b$.",
+      "question": "Simplify the expression: $a \\times a \\times a + b \\times b.",
       "options": [
         "$a^3 + b^2$",
         "$3a + 2b$",
@@ -110,7 +110,7 @@
         "$3a^3 + 2b^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Repeated multiplication of the same base results in exponents: $a \\times a \\times a = a^3$ and $b \\times b = b^2$. Adding them together gives $a^3 + b^2$.\n\n**Common mistake:** Students commonly confuse multiplication with addition, writing $a \\times a \\times a = 3a$. So $b \\times b = 2b$."
+      "explanation": "Repeated multiplication of the same base results in exponents: $a \\times a \\times a = a^3$ and $b \\times b = b^2$. Adding them together gives $a^3 + b^2$.\n\n**Common mistake:** Students commonly confuse multiplication with addition, writing $a \\times a \\times a = 3a$. So $b \\times b = 2b."
     },
     {
       "id": "ch02-algebra-easy-q9",
@@ -284,7 +284,7 @@
     {
       "id": "ch02-algebra-easy-q22",
       "type": "mcq",
-      "question": "Factorise completely: $12x^3y^2 + 8x^2y$.",
+      "question": "Factorise completely: $12x^3y^2 + 8x^2y.",
       "options": [
         "$4x^2y(3xy + 2)$",
         "$4x^2y(3x^2y + 2)$",
@@ -296,7 +296,7 @@
     },
     {
       "type": "mcq",
-      "question": "Factorise the expression completely: $5a + 5b$.",
+      "question": "Factorise the expression completely: $5a + 5b.",
       "options": [
         "$5(a + b)$",
         "$5ab$",
@@ -309,7 +309,7 @@
     },
     {
       "type": "mcq",
-      "question": "Factorise the expression completely: $2y^2 + 3y$.",
+      "question": "Factorise the expression completely: $2y^2 + 3y.",
       "options": [
         "$y(2y + 3)$",
         "$2y(y + 3)$",
@@ -322,7 +322,7 @@
     },
     {
       "type": "mcq",
-      "question": "Factorise the expression completely: $x^2 + xy$.",
+      "question": "Factorise the expression completely: $x^2 + xy.",
       "options": [
         "$x(x + y)$",
         "$x^2y$",
@@ -330,7 +330,7 @@
         "$x(1 + y)$"
       ],
       "correctIndex": 0,
-      "explanation": "The highest common factor is $x$. $(x + y)$ inside the brackets.\n\n**Common mistake:** Leaving one $x$. $x^2$ as if it has no common factor with $xy$.",
+      "explanation": "The highest common factor is $x$. $(x + y)$ inside the brackets.\n\n**Common mistake:** Leaving one $x$. $x^2$ as if it has no common factor with $xy.",
       "id": "ch02-algebra-easy-q25"
     },
     {
@@ -375,7 +375,7 @@
     {
       "id": "ch02-algebra-easy-q29",
       "type": "mcq",
-      "question": "Express the expression $x^2 + 6x - 2$ in the completed square form $(x + a)^2 + b$.",
+      "question": "Express the expression $x^2 + 6x - 2$ in the completed square form $(x + a)^2 + b.",
       "options": [
         "$(x + 3)^2 - 11$",
         "$(x + 3)^2 - 2$",
@@ -388,7 +388,7 @@
     {
       "id": "ch02-algebra-easy-q30",
       "type": "mcq",
-      "question": "For the quadratic equation $2x^2 - 4x - 3 = 0$, calculate the value of the discriminant, $\\Delta = b^2 - 4ac$.",
+      "question": "For the quadratic equation $2x^2 - 4x - 3 = 0$, calculate the value of the discriminant, $\\Delta = b^2 - 4ac.",
       "options": [
         "$40$",
         "$-8$",
@@ -609,7 +609,7 @@
     {
       "id": "ch02-algebra-easy-q47",
       "type": "mcq",
-      "question": "$p  and q2p = 35$ when $q = 5$, find the formula connecting $p  and q$.",
+      "question": "$p  and q2p = 35$ when $q = 5$, find the formula connecting $p  and q.",
       "options": [
         "$p = 7q$",
         "$p = \\frac{7}{q}$",
@@ -617,12 +617,12 @@
         "$p = 175q$"
       ],
       "correctIndex": 0,
-      "explanation": "Direct proportion means $p = kq$. $35 = k(5) \\implies k = \\frac{35}{5} = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q$."
+      "explanation": "Direct proportion means $p = kq$. $35 = k(5) \\implies k = \\frac{35}{5} = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q."
     },
     {
       "id": "ch02-algebra-easy-q48",
       "type": "mcq",
-      "question": "$y$ and $x2x = 3$, $y = 8$. Find the constant of proportionality, $k$.",
+      "question": "$y$ and $x2x = 3$, $y = 8$. Find the constant of proportionality, $k.",
       "options": [
         "$k = 24$",
         "$k = \\frac{8}{3}$",
@@ -674,7 +674,7 @@
     {
       "id": "ch02-algebra-easy-q52",
       "type": "mcq",
-      "question": "$p  and q2p = 35$ when $q = 5$, find the formula connecting $p  and q$.",
+      "question": "$p  and q2p = 35$ when $q = 5$, find the formula connecting $p  and q.",
       "options": [
         "$p = 7q$",
         "$p = \\frac{7}{q}$",
@@ -682,12 +682,12 @@
         "$p = 175q$"
       ],
       "correctIndex": 0,
-      "explanation": "Direct proportion means $p = kq$. $35 = k(5) \\implies k = \\frac{35}{5} = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q$."
+      "explanation": "Direct proportion means $p = kq$. $35 = k(5) \\implies k = \\frac{35}{5} = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q."
     },
     {
       "id": "ch02-algebra-easy-q53",
       "type": "mcq",
-      "question": "$y$ and $x2x = 3$, $y = 8$. Find the constant of proportionality, $k$.",
+      "question": "$y$ and $x2x = 3$, $y = 8$. Find the constant of proportionality, $k.",
       "options": [
         "$k = 24$",
         "$k = \\frac{8}{3}$",
@@ -738,7 +738,7 @@
     },
     {
       "type": "mcq",
-      "question": "Which symbol is used on a number line to represent a **strict inequality** like $x < 4 where the boundary value is excluded?$",
+      "question": "Which symbol is used on a number line to represent a **strict inequality** like $x < 4 where the boundary value is excluded?",
       "options": [
         "An unfilled circle",
         "A filled circle",

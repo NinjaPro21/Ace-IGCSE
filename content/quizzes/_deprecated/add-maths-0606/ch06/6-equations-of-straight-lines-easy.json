@@ -1,0 +1,77 @@
+{
+  "id": "6-equations-of-straight-lines-easy",
+  "topicId": "6-equations-of-straight-lines",
+  "chapterId": "ch06-coordinate-geometry",
+  "difficulty": "easy",
+  "title": "Equations of Straight Lines — Easy",
+  "passPercent": 70,
+  "questionsPerAttempt": 5,
+  "pending": false,
+  "questions": [
+    {
+      "id": "6-equations-of-straight-lines-easy-q1",
+      "type": "mcq",
+      "question": "Find the equation of a line with gradient 4 that passes through the point $(0, -7)$.",
+      "options": [
+        "$y = 4x - 7$",
+        "$y = -7x + 4$",
+        "$y = 4x + 7$",
+        "$y = 7x - 4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the slope-intercept form $y = mx + c$. So $m = 4$ and the $y$. So $c = -7$.\n\n**Common mistake:** A student might swap the gradient and the $y$. So $y = -7x + 4$."
+    },
+    {
+      "id": "6-equations-of-straight-lines-easy-q2",
+      "type": "mcq",
+      "question": "Identify the $y$. $3x - 2y = 12$.",
+      "options": [
+        "$-6$",
+        "$6$",
+        "$4$",
+        "$-4$"
+      ],
+      "correctIndex": 0,
+      "explanation": "To find the $y$. So $x = 0$, which gives $-2y = 12$, therefore $y = -6$.\n\n**Common mistake:** The student might divide^12 by 2 but forget the negative sign from the -2y\n\n$$ term."
+    },
+    {
+      "id": "6-equations-of-straight-lines-easy-q3",
+      "type": "mcq",
+      "question": "What is the equation of the vertical line passing through the point $(5, -2)$?",
+      "options": [
+        "$x = 5$",
+        "$y = -2$",
+        "$x = -2$",
+        "$y = 5$"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vertical line has the form $x = k$ and $k$ and $x$-coordinate of any point on the line.\n\n**Common mistake:** Students often confuse vertical lines ($x = k$. So $y = k$)."
+    },
+    {
+      "id": "6-equations-of-straight-lines-easy-q4",
+      "type": "mcq",
+      "question": "State the gradient of the line with equation $y = 8$.",
+      "options": [
+        "$0$",
+        "$8$",
+        "$1$",
+        "Undefined"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equation $y = 8$ represents a horizontal line, and all horizontal lines have a gradient of 0.\n\n**Common mistake:** A student might mistakenly identify the constant^8 as the gradient."
+    },
+    {
+      "id": "6-equations-of-straight-lines-easy-q5",
+      "type": "mcq",
+      "question": "Find the equation of the line with gradient $-1$ that passes through the origin.",
+      "options": [
+        "$y = -x$",
+        "$y = x$",
+        "$y = -1$",
+        "$x = -1$"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since it passes through the origin, $c = 0$. With $m = -1$, the equation becomes $y = -1x + 0$.\n\n**Common mistake:** Thinking that a gradient of $-1$ implies a horizontal or vertical line instead of a diagonal one."
+    }
+  ]
+}

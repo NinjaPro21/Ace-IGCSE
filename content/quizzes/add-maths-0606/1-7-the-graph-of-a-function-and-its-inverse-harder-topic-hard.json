@@ -24,37 +24,37 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q2",
       "type": "mcq",
-      "question": "Consider f(x)= x^{2}-4x+6 for x≥2. At what point does the graph of f intersect the line y=x?",
+      "question": "Consider $f(x)=x^{2}-4x+6$ for $x \\ge 2$. At what point does the graph of $f$ intersect the line $y=x$?",
       "options": [
-        "(2,2) and (3,3)",
-        "(2,2) only",
-        "(3,3) only",
+        "$(2,2)$ and $(3,3)$",
+        "$(2,2)$ only",
+        "$(3,3)$ only",
         "No intersection"
       ],
       "correctIndex": 0,
-      "explanation": "Solve $x^{2}$-4x+6=x \\implies $x^{2}$-5x+6=0 \\implies (x-2)(x-3)=0. Since both x=2 and x=3 are in the domain, both are valid.\n\n**Common mistake:** Ignoring one of the roots or incorrectly solving the quadratic equation."
+      "explanation": "Solve $x^{2}-4x+6=x \\implies x^{2}-5x+6=0 \\implies (x-2)(x-3)=0$. Since both $x=2$ and $x=3$ are in the domain, both are valid.\n\n**Common mistake:** Ignoring one of the roots or incorrectly solving the quadratic equation."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q3",
       "type": "mcq",
-      "question": "The graph of y=f(x) is symmetric about the line y=x. What can be concluded about the function f?",
+      "question": "The graph of $y=f(x)$ is symmetric about the line $y=x$. What can be concluded about the function $f$?",
       "options": [
-        "It is a self-inverse function, f(x)= f^{-1}(x)",
-        "It is a linear function with gradient 1",
+        "It is a self-inverse function, $f(x)=f^{-1}(x)$",
+        "It is a linear function with gradient^1",
         "It is a quadratic with vertex on the origin",
         "It is not a one-to-one function"
       ],
       "correctIndex": 0,
-      "explanation": "If a graph is its own reflection in y=x, then the original function and the inverse function are identical.\n\n**Common mistake:** Assuming the symmetry implies it must be y=x itself, rather than any self-inverse function like y=1/x or y=k-x."
+      "explanation": "If a graph is its own reflection in $y=x$, then the original function and the inverse function are identical.\n\n**Common mistake:** Assuming the symmetry implies it must be $y=x$ itself, rather than any self-inverse function like $y=\\frac{1}{x}$ or $y=k-x$."
     },
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q4",
       "type": "mcq",
-      "question": "For $f(x)=e^{x}$, describe the behaviour of $f^{-1}(x)$ as $x$ approaches $0$ from the positive side.",
+      "question": "For $f(x)=e^{x}$, describe the behaviour of $f^{-1}(x)$ as $x$ approaches^0 from the positive side.",
       "options": [
-        "It approaches -∞",
-        "It approaches 1",
-        "It approaches 0",
+        "It approaches $-\\infty$",
+        "It approaches^1",
+        "It approaches^0",
         "It is undefined"
       ],
       "correctIndex": 0,
@@ -63,15 +63,15 @@
     {
       "id": "1-7-the-graph-of-a-function-and-its-inverse-harder-topic-hard-q5",
       "type": "mcq",
-      "question": "The graph of y=f(x) for x≥0 is a straight line segment from (0,2) to (4,10). Find the coordinates of the midpoint of the reflected segment y= f^{-1}(x).",
+      "question": "The graph of $y=f(x)$ for $x \\ge 0$ is a straight line segment from $(0,2)$ to $(4,10)$. Find the coordinates of the midpoint of the reflected segment $y=f^{-1}(x)$.",
       "options": [
-        "(6,2)",
-        "(2,6)",
-        "(4,6)",
-        "(5,5)"
+        "$(6,2)$",
+        "$(2,6)$",
+        "$(4,6)$",
+        "$(5,5)$"
       ],
       "correctIndex": 0,
-      "explanation": "Reflected points are (2,0) and (10,4). Midpoint =((2+10)/2,(0+4)/2)=(6,2).\n\n**Common mistake:** Calculating the midpoint of the original segment (2,6) and forgetting to reflect it, or reflecting the original midpoint incorrectly."
+      "explanation": "Reflected points are $(2,0)$ and $(10,4)$. Midpoint $=\\left(\\frac{2+10}{2},\\frac{0+4}{2}\\right)=(6,2)$.\n\n**Common mistake:** Calculating the midpoint of the original segment $(2,6)$ and forgetting to reflect it, or reflecting the original midpoint incorrectly."
     }
   ]
 }

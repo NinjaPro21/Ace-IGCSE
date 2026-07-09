@@ -19,7 +19,7 @@
         "-4 / (x + 2)$^2$"
       ],
       "correctIndex": 0,
-      "explanation": "u' = 1, v' = 1. $\\frac{dy}{dx}$ = [(x-2)(1) - (x+2)(1)] / (x-2)$^2$ = [x - 2 - x - 2] / (x-2)$^2$ = -4 / (x-2)$^2$.\n\n**Common mistake:** Arithmetic errors in the numerator resulting in 0 or $+4$."
+      "explanation": "u' = 1, v' = 1. $\\frac{dy}{dx}$ = [(x-2)(1) - (x+2)(1)] / (x-2)$^2$ = [x - 2 - x - 2] / (x-2)$^2$ = -4 / (x-2)$^2$.\n\n**Common mistake:** Arithmetic errors in the numerator resulting in 0 or +4\n\n$$."
     },
     {
       "id": "12-4-the-quotient-rule-harder-topic-medium-q2",
@@ -63,7 +63,7 @@
     {
       "id": "12-4-the-quotient-rule-harder-topic-medium-q5",
       "type": "mcq",
-      "question": "Solve for $x$. So $y = x / (x^2 + 1)$ is zero.",
+      "question": "Solve for when $y = x / (x^2 + 1)$ is zero.",
       "options": [
         "x = ±1",
         "x = 0",

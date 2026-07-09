@@ -13,8 +13,8 @@
       "type": "mcq",
       "question": "Given u=3i-j and v=i+4j , find the magnitude of u+2v .",
       "options": [
-        "(\n\n74)",
-        "(\n\n50)",
+        "$($\n\n74)",
+        "$($\n\n50)",
         "5i+7j",
         "12"
       ],
@@ -24,15 +24,15 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-medium-q2",
       "type": "mcq",
-      "question": "Find the value of the constant k such that ∣ki+12j∣=13 , where k>0 .",
+      "question": "Find the value of the constant k such that |ki+12j|=13 , where k>0 .",
       "options": [
         "5",
         "1",
         "25",
-        "(\n\n313)"
+        "$($\n\n313)"
       ],
       "correctIndex": 0,
-      "explanation": "(\n\n$k^{2}$+1$2^{2}$)=13⟹$k^{2}$+144=169⟹$k^{2}$=25⟹k=5.\n\n**Common mistake:** Option D is\n(\n\n1$3^{2}$+1$2^{2}$), incorrectly adding squares of the magnitude and a component."
+      "explanation": "(\n\n$k^{2}$+$12^{2})=13$⟹$k^{2}+144=169⟹ k^{2}$ =25⟹k=5.\n\n**Common mistake:** Option D is\n\n(\n\n13^{2}+1\n$$\n2^{2}\n$$\n), incorrectly adding squares of the magnitude and a component$.\n"
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-medium-q3",
@@ -45,7 +45,7 @@
         "0.28i+0.96j"
       ],
       "correctIndex": 0,
-      "explanation": "Magnitude is\n(\n\n$7^{2}$+2$4^{2}$)=25. Unit vector is b/25=7/25i+24/25j. Note: Option D is also numerically correct but standard $fraction$ form is preferred.\n\n**Common mistake:** Option B is chosen if the student incorrectly applies a sign change to the j component."
+      "explanation": "Magnitude is\n(\n\n$7^{2}$+$24^{2})=25$. Unit vector is b/25=7/25i+24/25j. Note: Option D is also numerically correct but standard $fraction$ form is preferred.\n\n**Common mistake:** Option B is chosen if the student incorrectly applies a sign change to the j component."
     },
     {
       "id": "13-vector-notation-position-vectors-and-geometry-medium-q4",
@@ -81,7 +81,7 @@
         "5",
         "25",
         "7",
-        "$$\n\\sqrt{13}\n"
+        "$\\sqrt{13}$"
       ],
       "correctIndex": 0,
       "explanation": "$\\vec{AB} = \\vec{OB} - \\vec{OA} = \\begin{pmatrix} 5-2 \\ \\\\ -1-3 \\end{pmatrix} = \\begin{pmatrix} 3 \\ \\\\ -4 \\end{pmatrix}$. Magnitude $= \\sqrt{3^2 + (-4)^2} = 5$.\n\n**Common mistake:** Calculating the magnitude of only one vector or adding the magnitudes of OA and OB."
@@ -141,7 +141,7 @@
     {
       "id": "13-vector-notation-position-vectors-and-geometry-medium-q11",
       "type": "mcq",
-      "question": "In triangle $OAB$ and $M2AB$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{OM}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+      "question": "In triangle $OAB$ and $M$ and $A B$. So $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, find $\\vec{OM}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
       "options": [
         "$0.5\\mathbf{a} + 0.5\\mathbf{b}$",
         "$\\mathbf{b} - \\mathbf{a}$",

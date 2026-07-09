@@ -19,12 +19,12 @@
         "$216.9°$ and $306.9°$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\cos x = -0.8$. $\\cos^{-1}$(0.8) = 36.9°$. Solutions are in the 2nd and 3rd quadrants:$180 - 36.9 = 143.1°$and$180 + 36.9 = 216.9°2\n\n**Common mistake:** The student might correctly identify $143.1°$ but then use the symmetry rule $360 - 143.1 = 216.9°$ (which is correct) or accidentally use $360 - 36.9 = 323.1°$."
+      "explanation": "$\\cos x = -0.8$. $\\cos^{-1}$(0.8) = 36.9°$. Solutions are in the 2nd and 3rd quadrants:$180 - 36.9 = 143.1°$and$180 + 36.9 = 216.9°2\n\n**Common mistake:** The student might correctly identify $143.1°$ but then use the symmetry rule $360 - 143.1 = 216.9°$ (which is correct) or accidentally use $360 - 36$.9 = 323.1°."
     },
     {
       "id": "10-1-any-angle-hard-q2",
       "type": "mcq",
-      "question": "Find the two values of $x$. So $\\sin(x + 30°) = 0.5$ in the interval $0° \\le x \\le 360°$.",
+      "question": "Find the two values of $x$. So $\\sin(x + 30°) = 0.5$ in the interval $0° \\le x \\le 360°.",
       "options": [
         "$0°$ and $120°$",
         "$30°$ and $150°$",
@@ -50,7 +50,7 @@
     {
       "id": "10-1-any-angle-hard-q4",
       "type": "mcq",
-      "question": "The graph of $y = \\cos x$ and $0°$ to $360°$?",
+      "question": "The graph of $y = \\cos x$ and $0°$ to $360°?",
       "options": [
         "$(90°, 0)$",
         "$(180°, -1)$",
@@ -63,7 +63,7 @@
     {
       "id": "10-1-any-angle-hard-q5",
       "type": "mcq",
-      "question": "Solve $4 + 3 \\tan x = 0$ for $0° \\le x \\le 360°$.",
+      "question": "Solve $4 + 3 \\tan x = 0$ for $0° \\le x \\le 360°.",
       "options": [
         "$126.9°$ and $306.9°$",
         "$53.1°$ and $233.1°$",

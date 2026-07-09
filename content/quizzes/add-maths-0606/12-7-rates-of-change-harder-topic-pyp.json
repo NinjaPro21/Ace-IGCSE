@@ -19,12 +19,12 @@
         "$0.2$ units/s"
       ],
       "correctIndex": 0,
-      "explanation": "Crosses $x$. So $x^2 = 8/x \\implies x^3 = 8 \\implies x = 2$. $\\frac{dy}{dx} = 2x + 8x^{-2}$. At $x = 2$, $\\frac{dy}{dx} = 4 + 2 = 6$. Then $\\frac{dy}{dt} = 6 \\times 0.1 = 0.6$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$, forgetting to multiply by the given rate of $0.1$."
+      "explanation": "Crosses when $x^2 = 8/x \\implies x^3 = 8 \\implies x = 2$. $\\frac{dy}{dx} = 2x + 8x^{-2}$. At $x = 2$, $\\frac{dy}{dx} = 4 + 2 = 6$. Then $\\frac{dy}{dt} = 6 \\times 0.1 = 0.6$.\n\n**Common mistake:** Option B is the value of the gradient $\\frac{dy}{dx}$, forgetting to multiply by the given rate of $0.1$."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q2",
       "type": "mcq",
-      "question": "The volume of a sphere is increasing at a constant rate of^12 cm³/s. Find the rate of increase of its surface area when the radius is $1$ cm.",
+      "question": "The volume of a sphere is increasing at a constant rate of $12$ cm^3/s. Find the rate of increase of its surface area when the radius is $1$ cm.",
       "options": [
         "$8$ cm^2/s",
         "$12$ cm^2/s",
@@ -37,20 +37,20 @@
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q3",
       "type": "mcq",
-      "question": "Show that the rate of change of the area of an equilateral triangle with side length $s . \\frac{\\sqrt{3}}{2}s \\frac{ds}{dt}$. Hence, find the rate of increase of the area when $s = 10$ cm and $\\frac{ds}{dt} = 4$ cm/s.",
+      "question": "Show that $\\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}s\\frac{ds}{dt}$ for an equilateral triangle with side $s$. Hence find the rate of increase of the area when $s = 10$ cm and $\\frac{ds}{dt} = 4$ cm/s.",
       "options": [
-        "$20\\sqrt{3}$ cm^2/s",
-        "$40\\sqrt{3}$ cm^2/s",
-        "$10\\sqrt{3}$ cm^2/s",
-        "$80\\sqrt{3}$ cm^2/s"
+        "$20\\sqrt{3}$ cm$^2$/s",
+        "$40\\sqrt{3}$ cm$^2$/s",
+        "$10\\sqrt{3}$ cm$^2$/s",
+        "$80\\sqrt{3}$ cm$^2$/s"
       ],
       "correctIndex": 0,
-      "explanation": "$A = \\frac{\\sqrt{3}}{4}s^2 \\implies \\frac{dA}{ds} = \\frac{\\sqrt{3}}{2}s^2 So s = 10, \\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(10) \\times 4 = 20\\sqrt{3}$.\n\n**Common mistake:** Option B uses the side length^10 in the final substitution but fails to divide the derivative coefficient by^2 correctly."
+      "explanation": "$A = \\frac{\\sqrt{3}}{4}s^2 \\implies \\frac{dA}{ds} = \\frac{\\sqrt{3}}{2}s$. So $\\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(10)(4) = 20\\sqrt{3}$ cm$^2$/s.\n\n**Common mistake:** Forgetting the factor $\\frac{1}{2}$ when differentiating $s^2$."
     },
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q4",
       "type": "mcq",
-      "question": "A particle moves along the curve $y = 3 + \\ln(2x - 5)$. Find the $x$ and $y2x$.",
+      "question": "A particle moves along the curve $y = 3 + \\ln(2x - 5)$. Find the $x$ and $y$ and $x$.",
       "options": [
         "$4.5$",
         "$3.5$",
@@ -63,7 +63,7 @@
     {
       "id": "12-7-rates-of-change-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Given that $y = (x+2)^2(x-1)$, find the value of $x$ and $y2x$.",
+      "question": "Given that $y = (x+2)^2(x-1)$, find the value of $x$ and $y$ and $x$.",
       "options": [
         "$0$ and $-2$",
         "$1$ and $-2$",

@@ -50,12 +50,12 @@
     {
       "id": "5-6-natural-logarithms-and-exponential-functions-medium-q4",
       "type": "mcq",
-      "question": "Given that $\\ln a = p^2 So \\ln b = q2\\ln(\\frac{\\sqrt{a}}{b^3})$ in terms of $p  and q$.",
+      "question": "Given that $\\ln a = p  and \\ln b = q$, express $\\ln(\\frac{\\sqrt{a}}{b^3})$ in terms of $p  and q$.",
       "options": [
-        "$$\n\\frac{1}{2}p - 3q\n",
-        "2p - 3q",
-        "$$\n\\frac{1}{2}p + 3q\n",
-        "$$\n\\sqrt{p} - q^3\n"
+        "$\\frac{1}{2}p - 3q$",
+        "$2p - 3q$",
+        "$\\frac{1}{2}p + 3q$",
+        "$\\sqrt{p} - q^3$"
       ],
       "correctIndex": 0,
       "explanation": "Using laws of logs: $\\ln a^{1/2} - \\ln b^3 = \\frac{1}{2}\\ln a - 3\\ln b = \\frac{1}{2}p - 3q$.\n\n**Common mistake:** Applying the square root to $p^2 1/2$ is a frequent error with powers."
@@ -65,13 +65,13 @@
       "type": "mcq",
       "question": "Solve $e^{2x} = 25$.",
       "options": [
-        "x = \\ln 5",
-        "x = \\ln 25",
-        "x = 5",
-        "$x = \\frac{\\ln 25}{5}$"
+        "$x = \\ln 5$",
+        "$x = \\ln 25$",
+        "$x = 5$",
+        "$x = \\frac{\\ln 25}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Taking $\\ln$. $2x = \\ln 25$. Since $\\ln 25 = \\ln 5^2 = 2\\ln 5$, then $2x = 2\\ln 5$, so $x = \\ln 5$.\n\n**Common mistake:** Forgetting that $\\ln 25$ can be simplified further to reach the most concise answer."
+      "explanation": "Taking $\\ln$ of both sides: $2x = \\ln 25$. So $x = \\frac{\\ln 25}{2} = \\ln 5$.\n\n**Common mistake:** Forgetting that $\\ln 25 = 2\\ln 5$."
     }
   ]
 }

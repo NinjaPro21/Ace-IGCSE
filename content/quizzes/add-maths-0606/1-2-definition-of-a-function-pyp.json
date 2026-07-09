@@ -11,7 +11,7 @@
     {
       "id": "1-2-definition-of-a-function-pyp-q1",
       "type": "mcq",
-      "question": "The function f is defined by f(x)=2$x^{2}$-12x+7 for $x \\in \\mathbb{R}$. Find the set of values of the range of f.",
+      "question": "The function $f$ is defined by $f(x)=2x^{2}-12x+7$ for $x \\in \\mathbb{R}$. Find the set of values of the range of $f$.",
       "options": [
         "$f(x) \\ge -11$",
         "$f(x) \\ge 7$",
@@ -19,7 +19,7 @@
         "$f(x) \\le -11$"
       ],
       "correctIndex": 0,
-      "explanation": "Complete the square: 2($x^{2}$-6x)+7=2[$(x-3)^{2}$-9]+7=2$(x-3)^{2}$-11. Minimum value is -11.\n\n**Common mistake:** Forgetting to multiply the squared constant by the leading coefficient when completing the square."
+      "explanation": "Complete the square: $2(x^{2}-6x)+7=2[(x-3)^{2}-9]+7=2(x-3)^{2}-11$. Minimum value is $-11$.\n\n**Common mistake:** Forgetting to multiply the squared constant by the leading coefficient when completing the square."
     },
     {
       "id": "1-2-definition-of-a-function-pyp-q2",

@@ -37,7 +37,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q3",
       "type": "mcq",
-      "question": "A forest has an actual area of $12\\text{ km}^2$. On a map, its area is represented by $48\\text{ cm}^2$. Find the linear scale of the map in the form $1 : n$.",
+      "question": "A forest has an actual area of $12\\text{ km}^2$. On a map, its area is represented by $48\\text{ cm}^2$. Find the linear scale of the map in the form $1 : n.",
       "options": [
         "$1 : 50\\,000$",
         "$1 : 25\\,000$",
@@ -77,10 +77,10 @@
       "type": "mcq",
       "question": "Find the **x-intercept** of the line $y = 3x - 12$.",
       "options": [
-        "(4, 0)",
-        "(0, -12)",
-        "(-4, 0)",
-        "(12, 0)"
+        "$(4, 0)$",
+        "$(0, -12)$",
+        "$(-4, 0)$",
+        "$(12, 0)$"
       ],
       "correctIndex": 0,
       "explanation": "The x-intercept is found by setting $y = 0$. $0 = 3x - 12 \\implies 12 = 3x \\implies x = 4$. Thus, the intercept is at (4, 0).\n\n**Common mistake:** Setting $x = 0$ and finding the y-intercept instead.",
@@ -143,10 +143,10 @@
       "type": "mcq",
       "question": "Find the equation of the line that passes through the point (2,5) and has a gradient of -3.",
       "options": [
-        "y=-3x+11",
-        "y=-3x+5",
-        "y=3x-1",
-        "y=-3x-1"
+        "$y=-3x+11$",
+        "$y=-3x+5$",
+        "$y=3x-1$",
+        "$y=-3x-1$"
       ],
       "correctIndex": 0,
       "explanation": "Using y=mx+c, substitute m=-3 and the point (2,5): 5=-3(2)+c\nRightarrow5=-6+c\nRightarrowc=11.\n\n**Common mistake:** The student might substitute x and y incorrectly into the formula or make a sign error when solving for c."
@@ -169,10 +169,10 @@
       "type": "mcq",
       "question": "Determine the equation of the line passing through the points (1,4) and (3,10).",
       "options": [
-        "y=3x+1",
-        "y=3x+4",
-        "y=2x+2",
-        "y=6x-2"
+        "$y=3x+1$",
+        "$y=3x+4$",
+        "$y=2x+2$",
+        "$y=6x-2$"
       ],
       "correctIndex": 0,
       "explanation": "Gradient m=(10-4)/(3-1)=3. Substitute (1,4) into y=3x+c: 4=3(1)+c\nRightarrowc=1. So, y=3x+1.\n\n**Common mistake:** The student might use the point (1,4) for both x and y or miscalculate the gradient."
@@ -182,10 +182,10 @@
       "type": "mcq",
       "question": "Point A has coordinates (2,-3). The midpoint of the line segment AB is (5,1). Find the coordinates of point B.",
       "options": [
-        "(8,5)",
-        "(3.5,-1)",
-        "(7,4)",
-        "(12,5)"
+        "$(8,5)$",
+        "$(3.5,-1)$",
+        "$(7,4)$",
+        "$(12,5)$"
       ],
       "correctIndex": 0,
       "explanation": "Let B be (x,y). Then (2+x)/2=5\nRightarrowx=8 and (-3+y)/2=1\nRightarrowy=5.\n\n**Common mistake:** The student might treat the given midpoint as an endpoint and calculate a new midpoint between (2,-3) and (5,1)."
@@ -208,10 +208,10 @@
       "type": "mcq",
       "question": "Find the equation of the line that passes through the point (3,5) and is parallel to y=2x-1.",
       "options": [
-        "y=2x-1",
-        "y=2x+5",
-        "y=-0.5x+6.5",
-        "y=2x+11"
+        "$y=2x-1$",
+        "$y=2x+5$",
+        "$y=-0.5x+6.5$",
+        "$y=2x+11$"
       ],
       "correctIndex": 0,
       "explanation": "Parallel lines have the same gradient, so m=2. Using y=mx+c with (3,5): 5=2(3)+c⇒5=6+c⇒c=-1. So, y=2x-1.\n\n**Common mistake:** The student might assume the y-intercept is the same as the point given (5) or calculate a perpendicular gradient instead."
@@ -221,10 +221,10 @@
       "type": "mcq",
       "question": "Determine the equation of the line passing through (4,1) that is perpendicular to y=2x+3.",
       "options": [
-        "y=-0.5x+3",
-        "y=-0.5x+1",
-        "y=2x-7",
-        "y=0.5x-1"
+        "$y=-0.5x+3$",
+        "$y=-0.5x+1$",
+        "$y=2x-7$",
+        "$y=0.5x-1$"
       ],
       "correctIndex": 0,
       "explanation": "The perpendicular gradient is -0.5. Substituting (4,1) into y=-0.5x+c: 1=-0.5(4)+c⇒1=-2+c⇒c=3.\n\n**Common mistake:** The student might forget to change the sign when calculating the negative reciprocal or fail to solve for the correct c value."
@@ -260,10 +260,10 @@
       "type": "mcq",
       "question": "A line L is parallel to x+3y=12 and passes through the origin (0,0). Write the equation of L in the form y=mx+c.",
       "options": [
-        "y=-0.33x",
-        "y=3x",
-        "y=-3x",
-        "y=0.33x"
+        "$y=-0.33x$",
+        "$y=3x$",
+        "$y=-3x$",
+        "$y=0.33x$"
       ],
       "correctIndex": 0,
       "explanation": "Rearrange: 3y=-x+12⇒y=-1/3x+4. Gradient is -1/3. Since it passes through (0,0), c=0. So, y=-0.33x.\n\n**Common mistake:** The student might take the coefficient of x as 1 or fail to divide the gradient by the coefficient of y (3)."
@@ -310,7 +310,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q24",
       "type": "mcq",
-      "question": "The function $y = k/x^2$ passes through the point $(2, 5)$. Determine the value of the constant $k$.",
+      "question": "The function $y = k/x^2$ passes through the point $(2, 5)$. Determine the value of the constant $k.",
       "options": [
         "$20$",
         "$10$",
@@ -370,7 +370,7 @@
         "$C = 60t + 20$"
       ],
       "correctIndex": 0,
-      "explanation": "Gradient $m = (200 - 80) / (4 - 1) = 120 / 3 = 40$. Substitute $(1, 80)$ into $C = 40t + k$. $80 = 40(1) + k \\Rightarrow k = 40$. So $C = 40t + 40$.\n\n**Common mistake:** A student might calculate the gradient correctly but use the $y$. $80$) as the constant $c$."
+      "explanation": "Gradient $m = (200 - 80) / (4 - 1) = 120 / 3 = 40$. Substitute $(1, 80)$ into $C = 40t + k$. $80 = 40(1) + k \\Rightarrow k = 40$. So $C = 40t + 40$.\n\n**Common mistake:** A student might calculate the gradient correctly but use the $y$. $80$) as the constant $c."
     },
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q29",
@@ -505,7 +505,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q39",
       "type": "mcq",
-      "question": "Find the second derivative $\\frac{d^2y}{dx^2}$ of the function $y = x⁴ - 5x^2 + 2x$.",
+      "question": "Find the second derivative $\\frac{d^2y}{dx^2}$ of the function $y = x⁴ - 5x^2 + 2x.",
       "options": [
         "$12x^2 - 10$",
         "$4x^3 - 10x + 2$",
@@ -518,7 +518,7 @@
     {
       "id": "ch03-coordinate-geometry-graphs-medium-q40",
       "type": "mcq",
-      "question": "The gradient of the curve $y = kx^2 - 4x$. So $x = 3$ is $1$. Find the value of $k$.",
+      "question": "The gradient of the curve $y = kx^2 - 4x$. So $x = 3$ is $1$. Find the value of $k.",
       "options": [
         "2",
         "$1$",

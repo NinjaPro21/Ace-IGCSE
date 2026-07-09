@@ -11,10 +11,10 @@
     {
       "id": "13-constant-velocity-problems-pyp-q1",
       "type": "mcq",
-      "question": "The position of a ship $t$. So $\\mathbf{r} = \\begin{pmatrix} 10t - 40 \\ \\\\ 30 - 5t \\end{pmatrix}$ km. Find the distance of the ship from the port when $t=2$.",
+      "question": "The position of a ship for which $\\mathbf{r} = \\begin{pmatrix} 10t - 40 \\ \\\\ 30 - 5t \\end{pmatrix}$ km. Find the distance of the ship from the port when $t=2$.",
       "options": [
-        "$$\n\\sqrt{800} km\n",
-        "$$\n\\sqrt{500} km\n",
+        "$\\sqrt{800} km$",
+        "$\\sqrt{500} km$",
         "20 km",
         "28.28 km"
       ],
@@ -24,11 +24,11 @@
     {
       "id": "13-constant-velocity-problems-pyp-q2",
       "type": "mcq",
-      "question": "A particle travels with velocity $k(2\\mathbf{i} + \\mathbf{j})$. If its speed is $\\sqrt{20}$ m/s, find the positive value of $k$.",
+      "question": "A particle travels with velocity $k(2\\mathbf{i} + \\mathbf{j})$. If its speed is $\\sqrt{20}$ m/s$, find the positive value of k$.",
       "options": [
         "2",
         "4",
-        "$$\n\\sqrt{2}\n",
+        "$\\sqrt{2}$",
         "10"
       ],
       "correctIndex": 0,

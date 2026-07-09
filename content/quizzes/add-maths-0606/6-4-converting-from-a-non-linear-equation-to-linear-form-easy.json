@@ -10,59 +10,59 @@
   "questions": [
     {
       "type": "mcq",
-      "question": "The equation $y = ax^n$. So $Y = mX + c2Y$ and $X$.",
+      "question": "The equation $y = ax^n$ is to be written as $Y = mX + c$. Which choices define $Y$ and $X$?",
       "options": [
-        "Y = lg y, X = lg x",
-        "Y = y, X = x^n",
-        "Y = lg y, X = x",
-        "Y = y, X = lg x"
+        "$Y = \\lg y, X = \\lg x$",
+        "$Y = y, X = x^n$",
+        "$Y = \\lg y, X = x$",
+        "$Y = y, X = \\lg x$"
       ],
       "correctIndex": 0,
-      "explanation": "Taking logarithms of both sides: $\\lg y = \\lg(ax^n) \\Rightarrow \\lg y = n \\lg x + \\lg a$. So $Y = mX + c2Y = \\lg y$. So $X = \\lg x$.\n\n**Common mistake:** Option C is a common error where students confuse the power law ($y=ax^n$. So $y=Ab^x$).",
+      "explanation": "Taking logarithms: $\\lg y = n \\lg x + \\lg a$. So $Y = \\lg y$ and $X = \\lg x$.\n\n**Common mistake:** Confusing the power law with an exponential law.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-easy-q1"
     },
     {
       "type": "mcq",
-      "question": "Transform the exponential equation $y = Ab^x$. So $Y = mX + c$. What does the y-intercept represent?",
+      "question": "To obtain a straight line from $y = a\\sqrt{x} + b$, which variables should be plotted on the $Y$ and $X$ axes?",
       "options": [
-        "lg A",
-        "A",
-        "lg b",
-        "b"
+        "$Y = y$ and $X = \\sqrt{x}$",
+        "$Y = y$ and $X = x$",
+        "$Y = y^2$ and $X = x$",
+        "$Y = \\lg y$ and $X = \\lg x$"
       ],
       "correctIndex": 0,
-      "explanation": "Logarithm form: $\\lg y = x \\lg b + \\lg A$. $\\lg A$.\n\n**Common mistake:** Option B is chosen if the student forgets that the intercept in the linear graph is the log of the original constant.",
+      "explanation": "The equation is $y = a(\\sqrt{x}) + b$, so plot $Y = y$ against $X = \\sqrt{x}$.\n\n**Common mistake:** Using logarithms instead of the direct substitution $X = \\sqrt{x}$.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-easy-q2"
     },
     {
       "type": "mcq",
-      "question": "In the linear form of $y = ax^2 + bx$ and $Y$) to obtain a straight line?",
+      "question": "For $y = ax^2 + bx$, which transformation of $y$ (as $Y$) gives a straight line when plotted against $x$?",
       "options": [
-        "y/x",
-        "y",
-        "lg y",
-        "y/x^2"
+        "$y/x$",
+        "$y$",
+        "$\\lg y$",
+        "$y/x^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Dividing the original equation by $x$. So $y/x = ax + b2Y = mX + c$. So $Y = y/x$.\n\n**Common mistake:** Option C results from students reflexively using logarithms for any non-linear conversion.",
+      "explanation": "Dividing by $x$ gives $y/x = ax + b$, so plot $Y = y/x$ against $X = x$.\n\n**Common mistake:** Reflexively using logarithms for any non-linear law.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-easy-q3"
     },
     {
       "type": "mcq",
-      "question": "The variables $x$ and $y2y = \\frac{a}{x} + b$ and $y2X$ and $X$?",
+      "question": "Variables $x$ and $y$ satisfy $y = \\frac{a}{x} + b$. What should be plotted on the $Y$ and $X$ axes?",
       "options": [
-        "1/x",
-        "x",
-        "x^2",
-        "lg x"
+        "$1/x$",
+        "$x$",
+        "$x^2$",
+        "$\\lg x$"
       ],
       "correctIndex": 0,
-      "explanation": "The equation is already in the form $y = a(1/x) + b$. So $Y = mX + c2X = 1/x$.\n\n**Common mistake:** Option B occurs if a student attempts to plot the raw variables, which would produce a hyperbola, not a line.",
+      "explanation": "The equation is $y = a(1/x) + b$, so plot $Y = y$ against $X = 1/x$.\n\n**Common mistake:** Plotting raw $x$ and $y$, which gives a hyperbola rather than a line.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-easy-q4"
     },
     {
       "type": "mcq",
-      "question": "If the graph of $\\lg y$ and $x2x$ and $y$?",
+      "question": "If the graph of $\\lg y$ against $x$ is a straight line, what type of relationship exists between $x$ and $y$?",
       "options": [
         "Exponential ($y = Ab^x$)",
         "Power ($y = ax^n$)",
@@ -70,7 +70,7 @@
         "Reciprocal ($y = a/x + b$)"
       ],
       "correctIndex": 0,
-      "explanation": "Linearizing $y = Ab^x$. So $\\lg y = x \\lg b + \\lg A2\\lg y$ and $x$.\n\n**Common mistake:** Option B is chosen if the student forgets that the power law requires $\\lg x$ on the horizontal axis.",
+      "explanation": "Linearising $y = Ab^x$ gives $\\lg y = x \\lg b + \\lg A$.\n\n**Common mistake:** Choosing a power law, which requires plotting against $\\lg x$.",
       "id": "6-4-converting-from-a-non-linear-equation-to-linear-form-easy-q5"
     }
   ]

@@ -11,7 +11,7 @@
     {
       "id": "1-2-definition-of-a-function-medium-q1",
       "type": "mcq",
-      "question": "A function g is defined by g(x)= x^{2}-5x. Find the value of g(k+1) in terms of k.",
+      "question": "A function $g$ is defined by $g(x)=x^{2}-5x$. Find the value of $g(k+1)$ in terms of $k$.",
       "options": [
         "$k^{2}-3k-4$",
         "$k^{2}-3k+1$",
@@ -19,7 +19,7 @@
         "$k^{2}-5k-4$"
       ],
       "correctIndex": 0,
-      "explanation": "g(k+1)= (k+1)^{2}-5(k+1)=($k^{2}$+2k+1)-5k-5= k^{2}-3k-4.\n\n**Common mistake:** Failing to expand $(k+1)^{2}$correctly as $k^{2}$+2k+1 or incorrectly distributing the -5 across the brackets."
+      "explanation": "$g(k+1)=(k+1)^{2}-5(k+1)=(k^{2}+2k+1)-5k-5=k^{2}-3k-4$.\n\n**Common mistake:** Failing to expand $(k+1)^{2}$ correctly as $k^{2}+2k+1$ or incorrectly distributing the $-5$ across the brackets."
     },
     {
       "id": "1-2-definition-of-a-function-medium-q2",
@@ -71,7 +71,7 @@
         "$f(x) \\in \\mathbb{R}$"
       ],
       "correctIndex": 0,
-      "explanation": "The vertex of $x^{2}$+4 is at (0,4). Since x=0 is within the domain x≥-1, the minimum value is 4. For large x, y increases infinitely.\n\n**Common mistake:** Students often check only the boundary x=-1 and conclude the range is f(x)≥5, missing the lower vertex point."
+      "explanation": "The vertex of $x^{2}+4$ is at $(0,4)$. Since $x=0$ is within the domain $x \\ge -1$, the minimum value is 4. For large $x$, $y$ increases without bound.\n\n**Common mistake:** Students often check only the boundary $x=-1$ and conclude the range is $f(x) \\ge 5$, missing the lower vertex point."
     }
   ]
 }

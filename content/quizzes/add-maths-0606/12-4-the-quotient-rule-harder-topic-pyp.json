@@ -26,10 +26,10 @@
       "type": "mcq",
       "question": "Find the equation of the tangent to the curve $y = \\frac{x + 1}{x - 1}$ at the point where $x = 2$.",
       "options": [
-        "y = -2x + 7",
-        "y = -2x + 3",
-        "y = 2x - 1",
-        "y = -0.5x + 4"
+        "$y = -2x + 7$",
+        "$y = -2x + 3$",
+        "$y = 2x - 1$",
+        "$y = -0.5x + 4$"
       ],
       "correctIndex": 0,
       "explanation": "y(2) = 3. $\\frac{dy}{dx}$ = [(x-1) - (x+1)] / (x-1)$^2$ = -2 / (x-1)$^2$. At x=2, m = -2. y - 3 = -2(x - 2) => y = -2x + 7.\n\n**Common mistake:** Arithmetic errors in the gradient calculation or the point-slope formula."
@@ -39,9 +39,9 @@
       "type": "mcq",
       "question": "Show that the derivative of $y = \\frac{2x}{x^2 + 4}$ is $\\frac{8 - 2x^2}{(x^2 + 4)^2}$. Find the range of x for which y is increasing.",
       "options": [
-        "-2 < x < 2",
-        "x > 2",
-        "x < -2",
+        "$-2 < x < 2$",
+        "$x > 2$",
+        "$x < -2$",
         "All real x"
       ],
       "correctIndex": 0,
@@ -63,12 +63,12 @@
     {
       "id": "12-4-the-quotient-rule-harder-topic-pyp-q5",
       "type": "mcq",
-      "question": "Find the coordinates of the point on the curve $y = \\frac{x - 1}{x^2} where the tangent is horizontal.$",
+      "question": "Find the coordinates of the point on the curve $y = \\frac{x - 1}{x^2} where the tangent is horizontal$.",
       "options": [
-        "(2, 0.25)",
-        "(1, 0)",
+        "$(2, 0.25)$",
+        "$(1, 0)$",
         "(0, Undefined)",
-        "(-2, -0.75)"
+        "$(-2, -0.75)$"
       ],
       "correctIndex": 0,
       "explanation": "$\\frac{dy}{dx}$ = [x^2(1) - $(x-1)^{2}$ x] / x⁴ = [x^2 - 2x^2 + 2x] / x⁴ = (2x - x^2) / x⁴. Set to 0: x(2-x) = 0. Since x≠0, x=2. y = (2-1)/4 = 0.25.\n\n**Common mistake:** Including the invalid point x=0 as a stationary point."

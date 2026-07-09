@@ -41,8 +41,12 @@ Never put a lone `$...$` line as the only content of a formula card — use `$$.
 ## Quiz JSON
 
 - `question`, each `options[]` entry, and `explanation` may contain `$...$` and `$$...$$`.
+- **Every option with math must be fully wrapped** — the quiz UI renders options inline; bare `y/x`, `lg y`, or `y = 2x + 1` shows as plain text (Class H).
+- Use `\lg`, `\ln` inside `$...$` — not bare `lg y`.
+- Coordinates in options: `$(1, 5)$`. Areas: `$24\ \text{units}^2$`.
 - Do not embed raw `\frac` without `$` delimiters.
 - Run `npm run fix:math` after bulk imports.
+- Run `node scripts/wrap-bare-quiz-options.mjs --topic <topicId>` to bulk-fix bare options.
 
 ## Tooling
 

@@ -13,13 +13,13 @@
       "type": "mcq",
       "question": "Find the derivative of $y = \\ln(5x)$ with respect to $x$.",
       "options": [
-        "1/x",
-        "5/x",
-        "1/5x",
-        "5 ln x"
+        "$1/x$",
+        "$5/x$",
+        "$1/(5x)$",
+        "$5\\ln x$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the chain rule: $\\frac{dy}{dx}$ = (derivative of 5x) / 5x = 5/5x = 1/x. Alternatively, ln(5x) = ln 5 + ln x, and the derivative of a constant (ln 5) is 0.\n\n**Common mistake:** Thinking the answer is 5/x, forgetting that the 5 in the numerator and denominator cancels out."
+      "explanation": "Using the chain rule: $\\frac{dy}{dx} = \\frac{5}{5x} = \\frac{1}{x}$. Alternatively, $\\ln(5x) = \\ln 5 + \\ln x$, and the derivative of $\\ln 5$ is $0$.\n\n**Common mistake:** Thinking the answer is $5/x$, forgetting that the $5$ in the numerator and denominator cancels out."
     },
     {
       "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q2",
@@ -28,7 +28,7 @@
       "options": [
         "1 / (x + 3)",
         "3 / (x + 3)",
-        "1/x",
+        "$1/x$",
         "ln 1"
       ],
       "correctIndex": 0,
@@ -37,12 +37,12 @@
     {
       "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q3",
       "type": "mcq",
-      "question": "What is the derivative of $y = 4 \\ln x$?",
+      "question": "What is the derivative of $y = 4\\ln x$?",
       "options": [
-        "4/x",
-        "1/4x",
-        "4/x^2",
-        "4"
+        "$4/x$",
+        "$1/(4x)$",
+        "$4/x^2$",
+        "$4$"
       ],
       "correctIndex": 0,
       "explanation": "The constant multiplier remains: $\\frac{dy}{dx}$ = 4 * (1/x) = 4/x.\n\n**Common mistake:** Moving the 4 to the denominator, resulting in 1/4x."
@@ -53,7 +53,7 @@
       "question": "Find $f'(x)$ if $f(x) = \\ln(x^2)$.",
       "options": [
         "2/x",
-        "1/x^2",
+        "$1/x^2$",
         "2x",
         "2/x^2"
       ],
@@ -63,7 +63,7 @@
     {
       "id": "14-2-derivatives-of-logarithmic-functions-harder-topic-easy-q5",
       "type": "mcq",
-      "question": "Evaluate the derivative of $y = \\ln x$. So $x = 2$.",
+      "question": "Evaluate the derivative of $y = \\ln x$ at $x = 2$.",
       "options": [
         "0.5",
         "2",

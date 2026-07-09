@@ -9,6 +9,8 @@ import { LessonTopBar } from '@/components/LessonTopBar'
 import { MarkdownLesson } from '@/components/MarkdownLesson'
 import { MathText } from '@/components/MathText'
 import { TopicMasteryPath } from '@/components/TopicMasteryPath'
+import { MasteryPath } from '@/components/MasteryPath'
+import { QuizScopeBadge } from '@/components/QuizScopeBadge'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import { masteryEngine } from '@/features/mastery/MasteryEngine'
 import { useChapterSession } from '@/features/mastery/useChapterSession'
@@ -208,6 +210,7 @@ export function TopicLessonPage() {
       <LessonTopBar
         topic={topic}
         chapterTitle={chapterLabel}
+        hasChapterQuiz={chapter.hasChapterQuiz}
         fontScale={fontScale}
         onFontDecrease={() => setFontStep((s) => Math.max(0, s - 1))}
         onFontIncrease={() => setFontStep((s) => Math.min(FONT_STEPS.length - 1, s + 1))}
@@ -315,12 +318,15 @@ export function TopicLessonPage() {
             </div>
 
             {topic.quizIds && hasPlayableQuizzes && (
-              <>
-                <h2 className="enlight-heading-serif" style={{ fontSize: '1.5rem', marginTop: 48 }}>
-                  Section mastery
-                </h2>
-                <p className="enlight-body-text">
-                  Pass each tier to master this section. Retries shuffle numbers and question order.
+              <section className="enlight-mastery-block enlight-mastery-block--section" aria-labelledby="section-mastery-heading">
+                <div className="enlight-mastery-block__header">
+                  <h2 id="section-mastery-heading" className="enlight-heading-serif enlight-mastery-block__title">
+                    Section mastery
+                  </h2>
+                  <QuizScopeBadge scope="section" />
+                </div>
+                <p className="enlight-body-text enlight-mastery-block__desc">
+                  Pass each tier to master <strong>this section</strong> only. Retries shuffle numbers and question order.
                   {!sectionNotesComplete && (
                     <> Study notes for 5 minutes to earn the notes-read XP bonus.</>
                   )}
@@ -330,14 +336,22 @@ export function TopicLessonPage() {
                   notesComplete={sectionNotesComplete}
                   quizAvailability={quizAvailability}
                 />
-              </>
+              </section>
             )}
 
             {chapter.hasChapterQuiz && notesComplete && (
-              <p className="enlight-body-text" style={{ marginTop: 24 }}>
-                Chapter review:{' '}
-                <Link to={`/quiz/${chapterId}/easy`}>combined Easy quiz</Link> (all sections)
-              </p>
+              <section className="enlight-mastery-block enlight-mastery-block--chapter" aria-labelledby="chapter-mastery-heading">
+                <div className="enlight-mastery-block__header">
+                  <h2 id="chapter-mastery-heading" className="enlight-heading-serif enlight-mastery-block__title">
+                    Chapter mastery
+                  </h2>
+                  <QuizScopeBadge scope="chapter" />
+                </div>
+                <p className="enlight-body-text enlight-mastery-block__desc">
+                  Combined questions drawn from <strong>every section</strong> in this chapter — not just the topic you are reading now.
+                </p>
+                <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
+              </section>
             )}
 
             <ChapterFeedback chapterId={chapterId} subject={subjectId} />

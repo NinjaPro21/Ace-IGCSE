@@ -52,10 +52,10 @@
       "type": "mcq",
       "question": "The position vector of P is $x\\mathbf{i} + y\\mathbf{j}$. If P moves such that $|\\vec{OP}| = 5$, find the equation of the path of P.",
       "options": [
-        "x^2 + y^2 = 25",
-        "x + y = 5",
-        "x^2 + y^2 = 5",
-        "y = mx + c"
+        "$x^2 + y^2 = 25$",
+        "$x + y = 5$",
+        "$x^2 + y^2 = 5$",
+        "$y = mx + c$"
       ],
       "correctIndex": 0,
       "explanation": "The magnitude $|\\vec{OP}| = \\sqrt{x^2 + y^2}$. Setting this to 5 and squaring both sides gives the equation of a circle: $x^2 + y^2 = 25$.\n\n**Common mistake:** Thinking the path is a straight line $x + y = 5$."

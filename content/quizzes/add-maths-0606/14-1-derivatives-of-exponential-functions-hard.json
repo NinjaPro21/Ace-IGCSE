@@ -11,7 +11,7 @@
     {
       "id": "14-1-derivatives-of-exponential-functions-hard-q1",
       "type": "mcq",
-      "question": "Find the $x$. So $y = x e^{-2x}$.",
+      "question": "Find the $x$-coordinate of the stationary point of $y = xe^{-2x}$.",
       "options": [
         "$0.5$",
         "$1$",
@@ -19,7 +19,7 @@
         "$-0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = x(-2e^{-2x}) + e^{-2x}(1) = e^{-2x}(1 - 2x)$. Setting this to^0 gives $1 - 2x = 0$, so $x = 0.5$.\n\n**Common mistake:** Option C is chosen if the student incorrectly assumes the stationary point is always at the origin for exponential products."
+      "explanation": "$\\frac{dy}{dx} = x(-2e^{-2x}) + e^{-2x}(1) = e^{-2x}(1 - 2x)$. Setting this to $0$ gives $1 - 2x = 0$, so $x = 0.5$.\n\n**Common mistake:** Option C is chosen if the student incorrectly assumes the stationary point is always at the origin for exponential products."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-hard-q2",
@@ -45,7 +45,7 @@
         "$2xe^{x^2}$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}) during the second differentiation step.$"
+      "explanation": "$\\frac{dy}{dx} = 2xe^{x^2}$. Using the product rule for the second derivative: $2x(2xe^{x^2}) + e^{x^2}(2) = 4x^2 e^{x^2} + 2e^{x^2} = 2e^{x^2}(1 + 2x^2)$.\n\n**Common mistake:** Option B results if the student forgets the second half of the product rule ($v \\frac{du}{dx}$) during the second differentiation step."
     },
     {
       "id": "14-1-derivatives-of-exponential-functions-hard-q4",

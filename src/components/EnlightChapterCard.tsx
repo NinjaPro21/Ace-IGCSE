@@ -54,7 +54,9 @@ export function EnlightChapterCard({ chapter, status, masteryPercent }: EnlightC
         <div className="enlight-chapter-card__meta">
           <span className="enlight-chapter-card__count">{topics.length} topic{topics.length !== 1 ? 's' : ''}</span>
           {chapter.hasChapterQuiz && (
-            <span className="enlight-chapter-card__quiz-badge">Quiz</span>
+            <span className="enlight-chapter-card__quiz-badge enlight-chapter-card__quiz-badge--chapter">
+              Chapter quiz
+            </span>
           )}
           <span className="enlight-chapter-card__arrow" aria-hidden>→</span>
         </div>

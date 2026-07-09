@@ -32,7 +32,7 @@
         "240"
       ],
       "correctIndex": 0,
-      "explanation": "Treat the 3 people as one fixed block. We now arrange 5 units (the block + the other 4 people): $5! = 120$. Since the internal order is 'given', we do not multiply by $3!$.\n\n**Common mistake:** Incorrectly multiplying by $3!$ (720) despite the 'given order' constraint."
+      "explanation": "Treat the 3 people as one fixed block. We now arrange 5 units (the block + the other 4 people): $5! = 120$. Since the internal order is 'given', we do not multiply by 3!.\n\n**Common mistake:** Incorrectly multiplying by 3! (720) despite the 'given order' constraint."
     },
     {
       "id": "10-permutations-and-combinations-pyp-q3",
