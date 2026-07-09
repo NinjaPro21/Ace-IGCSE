@@ -19,7 +19,7 @@
         "$30°$"
       ],
       "correctIndex": 0,
-      "explanation": "First bisection: $90 / 2 = 45°$. Second bisection: $45 / 2 = 22.5°$.\n\n**Common mistake:** The student might stop after the first bisection ($45°$) or divide^90 by^3 thinking of 'trisecting'."
+      "explanation": "First bisection: $90 / 2 = 45°$. Second bisection: $45 / 2 = 22.5°$.\n\n**Common mistake:** The student might stop after the first bisection ($45°$) or divide^90 by $3$ thinking of 'trisecting'."
     },
     {
       "id": "7-4-constructions-medium-q2",
@@ -63,7 +63,7 @@
     {
       "id": "7-4-constructions-medium-q5",
       "type": "mcq",
-      "question": "A rhombus $ABCD$. $7\\text{ cm}$. If you construct it such that $∠ABC = 120°$, what is the length of the diagonal $AC?",
+      "question": "A rhombus $ABCD$ has side length $7\\text{ cm}$. If $\\angle ABC = 120°$, what is the length of the diagonal $AC$?",
       "options": [
         "More than $7\\text{ cm}$",
         "$7\\text{ cm}$",
@@ -71,7 +71,7 @@
         "$49\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "In a rhombus with a $120°$ angle, the other interior angle is $60°$. The diagonal $AC$. $∠ABC=120°$, $AC$ is the long diagonal.\n\n**Common mistake:** The student might assume $AC = 7\\text{ cm}$ because it looks like a triangle, but $AC$ and $120°$ angle, making it significantly longer than the sides."
+      "explanation": "In a rhombus with a $120°$ angle, the other interior angle is $60°$. Since $\\angle ABC = 120°$, $AC$ is the long diagonal and is longer than the sides.\n\n**Common mistake:** The student might assume $AC = 7\\text{ cm}$, but $AC$ spans the $120°$ angle and is significantly longer than the sides."
     }
   ]
 }

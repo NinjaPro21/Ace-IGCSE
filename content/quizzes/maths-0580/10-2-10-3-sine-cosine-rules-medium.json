@@ -11,7 +11,7 @@
     {
       "id": "10-2-10-3-sine-cosine-rules-medium-q1",
       "type": "mcq",
-      "question": "In triangle ABC, side $b = 7$ cm, side $c = 5$ cm, and angle $A = 60°$. Calculate the length of side $a.",
+      "question": "In triangle ABC, side $b = 7$ cm, side $c = 5$ cm, and angle $A = 60°$. Calculate the length of side $a$.",
       "options": [
         "6.25 cm",
         "39 cm",
@@ -19,12 +19,12 @@
         "5.47 cm"
       ],
       "correctIndex": 0,
-      "explanation": "Use Cosine Rule: $a^2 = 7^2 + 5^2 - (2 \\times 7 \\times 5 \\times \\cos 60°) = 49 + 25 - (70 \\times 0.5) = 74 - 35 = 39$. Thus $a = \\sqrt{39} \\approx 6.25$.\n\n**Common mistake:** The student might forget to take the square root at the final step, giving^39 as the answer."
+      "explanation": "Use Cosine Rule: $a^2 = 7^2 + 5^2 - (2 \\times 7 \\times 5 \\times \\cos 60°) = 49 + 25 - (70 \\times 0.5) = 74 - 35 = 39$. Thus $a = \\sqrt{39} \\approx 6.25$.\n\n**Common mistake:** The student might forget to take the square root at the final step, giving $\\sqrt{39}$ as the answer without evaluating it."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-medium-q2",
       "type": "mcq",
-      "question": "Find the size of angle $B$. So $a = 15$ cm, $b = 6$ cm, and angle $A = 120°.",
+      "question": "Find the size of angle $B$ if $a = 15$ cm, $b = 6$ cm, and angle $A = 120°$.",
       "options": [
         "20.3°",
         "42.6°",
@@ -32,12 +32,12 @@
         "15.2°"
       ],
       "correctIndex": 0,
-      "explanation": "Use Sine Rule: $\\sin B / 6 = \\sin 120° / 15$. $\\sin B = (6 \\times 0.866) / 15 = 0.3464$. $B = \\sin^{-1}$(0.3464) \\approx 20.3°2\n\n**Common mistake:** The student might use the Cosine Rule by mistake even though an opposite pair is known."
+      "explanation": "Use Sine Rule: $\\sin B / 6 = \\sin 120° / 15$. $\\sin B = (6 \\times 0.866) / 15 = 0.3464$. $B = \\sin^{-1}(0.3464) \\approx 20.3°$.\n\n**Common mistake:** The student might use the Cosine Rule by mistake even though an opposite pair is known."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-medium-q3",
       "type": "mcq",
-      "question": "Calculate the largest angle in a triangle with sides^5 cm, $6$ cm, and^7 cm.",
+      "question": "Calculate the largest angle in a triangle with sides $5$ cm, $6$ cm, and $7$ cm.",
       "options": [
         "78.5°",
         "101.5°",
@@ -45,12 +45,12 @@
         "44.4°"
       ],
       "correctIndex": 0,
-      "explanation": "Longest side $a = 7$. $\\cos A = (5^2 + 6^2 - 7^2) / (2 \\times 5 \\times 6) = (25 + 36 - 49) / 60 = 12 / 60 = 0.2$. $A = \\cos^{-1}$(0.2) \\approx 78.5°2\n\n**Common mistake:** Students may calculate one of the smaller angles instead of the one opposite the longest side."
+      "explanation": "Longest side $a = 7$. $\\cos A = (5^2 + 6^2 - 7^2) / (2 \\times 5 \\times 6) = 12/60 = 0.2$. $A = \\cos^{-1}(0.2) \\approx 78.5°$.\n\n**Common mistake:** Students may calculate one of the smaller angles instead of the one opposite the longest side."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-medium-q4",
       "type": "mcq",
-      "question": "In triangle XYZ, $X = 61°$, $Y = 47°$, and side $y$. $7.2$ cm. Find the length of side $x$ (BC).",
+      "question": "In triangle $XYZ$, $X = 61°$, $Y = 47°$, and side $y = 7.2$ cm. Find the length of side $x$.",
       "options": [
         "8.61 cm",
         "6.02 cm",
@@ -58,12 +58,12 @@
         "9.34 cm"
       ],
       "correctIndex": 0,
-      "explanation": "Use Sine Rule: $x / \\sin 61° = 7.2 / \\sin 47° \\Rightarrow x = (7.2 \\times \\sin 61°) / \\sin 47° \\approx 8.61$.\n\n**Common mistake:** The student might mislabel sides and angles, using $7.2$ as the numerator for $\\sin 61°."
+      "explanation": "Use Sine Rule: $x / \\sin 61° = 7.2 / \\sin 47° \\Rightarrow x = (7.2 \\times \\sin 61°) / \\sin 47° \\approx 8.61$.\n\n**Common mistake:** The student might mislabel sides and angles, using $7.2$ as the numerator for $\\sin 61°$."
     },
     {
       "id": "10-2-10-3-sine-cosine-rules-medium-q5",
       "type": "mcq",
-      "question": "A triangle has sides of^8 cm and^14 cm with an included angle of $112°$. Calculate the third side to 3 significant figures.",
+      "question": "A triangle has sides of $8$ cm and $14$ cm with an included angle of $112°$. Calculate the third side to 3 significant figures.",
       "options": [
         "18.6 cm",
         "16.1 cm",

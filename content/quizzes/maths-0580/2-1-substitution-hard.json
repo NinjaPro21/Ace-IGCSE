@@ -19,7 +19,7 @@
         "$-1$"
       ],
       "correctIndex": 0,
-      "explanation": "Numerator: $(-2)³ - 3(-2)(4) + (4)² = -8 + 24 + 16 = 32$. Denominator: $2(-2) - 4 = -4 - 4 = -8$. Expression value: $\\frac{32}{-8} = -5$.\n\n**Common mistake:** Students commonly make a sign error with $(-2)³ = 8$ or $-3(-2)(4) = -24$, resulting in completely wrong $fraction$ values."
+      "explanation": "Numerator: $(-2)^3 - 3(-2)(4) + (4)^2 = -8 + 24 + 16 = 32$. Denominator: $2(-2) - 4 = -4 - 4 = -8$. Expression value: $\\frac{32}{-8} = -5$.\n\n**Common mistake:** Students commonly make a sign error with $(-2)^3 = 8$ or $-3(-2)(4) = -24$, resulting in completely wrong fraction values."
     },
     {
       "id": "2-1-substitution-hard-q2",
@@ -32,7 +32,7 @@
         "$2.22$"
       ],
       "correctIndex": 0,
-      "explanation": "Calculate the ratio first: $\\frac{4.9}{9.8} = 0.5$. Take the square root: $\\sqrt{0.5} \\approx 0.7071$. Multiply by $2\\pi^2 2 \\times 3.14 \\times 0.7071 \\approx 4.44$.\n\n**Common mistake:** Students often forget to take the square root of the $fraction$ before multiplying by $2\\pi^2 6.28 \\times 0.5 = 3.14$."
+      "explanation": "Calculate the ratio first: $\\frac{4.9}{9.8} = 0.5$. Take the square root: $\\sqrt{0.5} \\approx 0.7071$. Multiply by $2\\pi^2 2 \\times 3.14 \\times 0.7071 \\approx 4.44$.\n\n**Common mistake:** Students often forget to take the square root of the fraction before multiplying by $2\\pi^2 6.28 \\times 0.5 = 3.14$."
     },
     {
       "id": "2-1-substitution-hard-q3",
@@ -58,7 +58,7 @@
         "$13$"
       ],
       "correctIndex": 0,
-      "explanation": "Numerator: $(-3)(-2)² - (-1)³ = (-3)(4) - (-1) = -12 + 1 = -11$. Denominator: $-3 - (-2) = -3 + 2 = -1$. Thus $H = \\frac{-11}{-1} = 11$.\n\n**Common mistake:** With multiple negative signs, dropping any double negation is easy, such as evaluating $-(-1)³$ as $-1$ or denominator as $-5$."
+      "explanation": "Numerator: $(-3)(-2)^2 - (-1)^3 = (-3)(4) - (-1) = -12 + 1 = -11$. Denominator: $-3 - (-2) = -3 + 2 = -1$. Thus $H = \\frac{-11}{-1} = 11$.\n\n**Common mistake:** With multiple negative signs, dropping any double negation is easy, such as evaluating $-(-1)^3$ as $-1$ or denominator as $-5$."
     },
     {
       "id": "2-1-substitution-hard-q5",
@@ -71,7 +71,7 @@
         "$12$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the values: $157 = \\frac{1}{3}(3.14)(5)²(h) \\rightarrow 157 = \\frac{1}{3}(3.14)(25)h \\rightarrow 157 = 26.1667h \\rightarrow h = \\frac{157}{26.1667} = 6$.\n\n**Common mistake:** Students commonly forget to square the radius, calculating $3.14 \\times 5 = 15.7$, which leads to an incorrect value of $h = 30$."
+      "explanation": "Substitute the values: $157 = \\frac{1}{3}(3.14)(5)^2(h) \\rightarrow 157 = \\frac{1}{3}(3.14)(25)h \\rightarrow 157 = 26.1667h \\rightarrow h = \\frac{157}{26.1667} = 6$.\n\n**Common mistake:** Students commonly forget to square the radius, calculating $3.14 \\times 5 = 15.7$, which leads to an incorrect value of $h = 30$."
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "id": "8-3-proportion-pyp-q1",
       "type": "mcq",
-      "question": "$y$. $(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$. So $x = 6$.",
+      "question": "The electrical resistance $R$ of a wire varies directly as its length $L$ and inversely as the square of its radius $r$. When $L = 10$ and $r = 2$, $R = 5$. Find $R$ when $L = 15$ and $r = 3$.",
       "options": [
         "$y = 64$",
         "$y = 48$",
@@ -19,12 +19,12 @@
         "$y = 144$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$. $36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$. So $y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
+      "explanation": "This is joint proportion: $R = \\frac{kL}{r^2}$. Substituting gives $5 = \\frac{10k}{4}$, so $k = 2$. Hence $R = \\frac{2L}{r^2}$. When $L = 15$ and $r = 3$, $R = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
     },
     {
       "id": "8-3-proportion-pyp-q2",
       "type": "mcq",
-      "question": "$T$ and $v2v = 9$, $T = 8$. Find the value of $T$. So $v = 36$.",
+      "question": "$y$ varies inversely as $(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$ when $y = 4$.",
       "options": [
         "$T = 4$",
         "$T = 2$",
@@ -32,12 +32,12 @@
         "$T = 1.33$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$. $8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$. So $T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of^36, calculating $24 \\div 36 = 0.67$ instead."
+      "explanation": "Set up $y = \\frac{k}{(x + 1)^2}$. When $x = 1$ and $y = 9$, $k = 36$. So $4 = \\frac{36}{(x + 1)^2}$, giving $(x + 1)^2 = 9$ and $x = 2$.\n\n**Common mistake:** Students forget to add 1 before squaring, or fail to take the square root of both sides."
     },
     {
       "id": "8-3-proportion-pyp-q3",
       "type": "mcq",
-      "question": "$y$. $x^3$. When $x = 2$, $y = 5$. Find the value of $y$. So $x = 4$.",
+      "question": "$z$ varies directly as $\\sqrt{x}$ and inversely as $y$. When $x = 9$ and $y = 4$, $z = 6$. Express $x$ in terms of $y$ and $z$.",
       "options": [
         "$y = 0.625$",
         "$y = 2.5$",
@@ -45,12 +45,12 @@
         "$y = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$. $5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$. So $y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$. $3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
+      "explanation": "$z = \\frac{k\\sqrt{x}}{y}$. Substituting gives $6 = \\frac{3k}{4}$, so $k = 8$. Hence $\\sqrt{x} = \\frac{zy}{8}$ and $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$.\n\n**Common mistake:** When squaring the fraction expression, students often forget to square the denominator constant 8."
     },
     {
       "id": "8-3-proportion-pyp-q4",
       "type": "mcq",
-      "question": "$x$. $\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$. So $y = 9$.",
+      "question": "If $y$ is directly proportional to $x^2$ and $x$ increases by $20\\%$, find the percentage increase in $y$.",
       "options": [
         "$x = 12$",
         "$x = 7.2$",
@@ -58,12 +58,12 @@
         "$x = 36$"
       ],
       "correctIndex": 0,
-      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$. So $x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
+      "explanation": "$y = kx^2$. If $x$ increases by $20\\%$, the new value is $1.2x$, so $y_{\\text{new}} = k(1.2x)^2 = 1.44y$. This is a $44\\%$ increase.\n\n**Common mistake:** Students assume that a $20\\%$ increase in $x$ gives a $20\\%$ or $40\\%$ increase in $y$, forgetting to square the scale factor."
     },
     {
       "id": "8-3-proportion-pyp-q5",
       "type": "mcq",
-      "question": "An object falls a distance, $d$ and $t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
+      "question": "$W$ varies inversely as the cube root of $x$. When $x = 27$, $W = 2$. Find $x$ when $W = 3$.",
       "options": [
         "$125\\text{ m}$",
         "$75\\text{ m}$",
@@ -71,12 +71,12 @@
         "$25\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$. $45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
+      "explanation": "$W = \\frac{k}{\\sqrt[3]{x}}$. Substituting gives $k = 6$. When $W = 3$, $\\sqrt[3]{x} = 2$, so $x = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by 3 instead of cubing."
     },
     {
       "id": "8-3-proportion-pyp-q6",
       "type": "mcq",
-      "question": "$y$. $(x - 2)$. When $x = 5$, $y = 36$. Find the value of $y$. So $x = 6$.",
+      "question": "The electrical resistance $R$ of a wire varies directly as its length $L$ and inversely as the square of its radius $r$. When $L = 10$ and $r = 2$, $R = 5$. Find $R$ when $L = 15$ and $r = 3$.",
       "options": [
         "$y = 64$",
         "$y = 48$",
@@ -84,12 +84,12 @@
         "$y = 144$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the proportional model equation: $y = k(x - 2)^2$. Substitute $x = 5$ and $y = 36$ to evaluate $k$. $36 = k(5 - 2)^2 \\implies 36 = k(3^2) \\implies 36 = 9k \\implies k = 4$. The complete equation is $y = 4(x - 2)^2$. When $x = 6$, calculate $y$. So $y = 4(6 - 2)^2 = 4(4^2) = 4 \\times 16 = 64$.\n\n**Common mistake:** Failing to evaluate the bracket content before applying the exponent is a major pitfall noted in Cambridge examiner reports."
+      "explanation": "This is joint proportion: $R = \\frac{kL}{r^2}$. Substituting gives $5 = \\frac{10k}{4}$, so $k = 2$. Hence $R = \\frac{2L}{r^2}$. When $L = 15$ and $r = 3$, $R = \\frac{30}{9} = 3.33$ (to 3 s.f.).\n\n**Common mistake:** Combining direct and inverse relationships into one formula often causes layout errors, such as putting $r^2$ in the numerator."
     },
     {
       "id": "8-3-proportion-pyp-q7",
       "type": "mcq",
-      "question": "$T$ and $v2v = 9$, $T = 8$. Find the value of $T$. So $v = 36$.",
+      "question": "$y$ varies inversely as $(x + 1)^2$. When $x = 1$, $y = 9$. Find the positive value of $x$ when $y = 4$.",
       "options": [
         "$T = 4$",
         "$T = 2$",
@@ -97,12 +97,12 @@
         "$T = 1.33$"
       ],
       "correctIndex": 0,
-      "explanation": "Write down the relationship formula: $T = \\frac{k}{\\sqrt{v}}$. Use the given data to compute $k$. $8 = \\frac{k}{\\sqrt{9}} \\implies 8 = \\frac{k}{3} \\implies k = 24$. The variation equation is $T = \\frac{24}{\\sqrt{v}}$. When $v = 36$, substitute to find $T$. So $T = \\frac{24}{\\sqrt{36}} = \\frac{24}{6} = 4$.\n\n**Common mistake:** Students often perform a direct proportion calculation or forget to take the square root of^36, calculating $24 \\div 36 = 0.67$ instead."
+      "explanation": "Set up $y = \\frac{k}{(x + 1)^2}$. When $x = 1$ and $y = 9$, $k = 36$. So $4 = \\frac{36}{(x + 1)^2}$, giving $(x + 1)^2 = 9$ and $x = 2$.\n\n**Common mistake:** Students forget to add 1 before squaring, or fail to take the square root of both sides."
     },
     {
       "id": "8-3-proportion-pyp-q8",
       "type": "mcq",
-      "question": "$y$. $x^3$. When $x = 2$, $y = 5$. Find the value of $y$. So $x = 4$.",
+      "question": "$z$ varies directly as $\\sqrt{x}$ and inversely as $y$. When $x = 9$ and $y = 4$, $z = 6$. Express $x$ in terms of $y$ and $z$.",
       "options": [
         "$y = 0.625$",
         "$y = 2.5$",
@@ -110,12 +110,12 @@
         "$y = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation structure: $y = \\frac{k}{x^3}$. Calculate the constant $k$. $5 = \\frac{k}{2^3} \\implies 5 = \\frac{k}{8} \\implies k = 40$. The equation is $y = \\frac{40}{x^3}$. When $x = 4$, calculate $y$. So $y = \\frac{40}{4^3} = \\frac{40}{64} = \\frac{5}{8} = 0.625$.\n\n**Common mistake:** Students sometimes multiply $x$. $3$ instead of cubing it ($2 \\times 3 = 6$), or think $4^3 = 12$, leading to major calculation arithmetic issues."
+      "explanation": "$z = \\frac{k\\sqrt{x}}{y}$. Substituting gives $6 = \\frac{3k}{4}$, so $k = 8$. Hence $\\sqrt{x} = \\frac{zy}{8}$ and $x = \\left(\\frac{zy}{8}\\right)^2 = \\frac{y^2z^2}{64}$.\n\n**Common mistake:** When squaring the fraction expression, students often forget to square the denominator constant 8."
     },
     {
       "id": "8-3-proportion-pyp-q9",
       "type": "mcq",
-      "question": "$x$. $\\sqrt{y}$. When $y = 25$, $x = 20$. Find the value of $x$. So $y = 9$.",
+      "question": "If $y$ is directly proportional to $x^2$ and $x$ increases by $20\\%$, find the percentage increase in $y$.",
       "options": [
         "$x = 12$",
         "$x = 7.2$",
@@ -123,12 +123,12 @@
         "$x = 36$"
       ],
       "correctIndex": 0,
-      "explanation": "Model equation: $x = k\\sqrt{y}$. Substitute $y = 25, x = 20$: $20 = k\\sqrt{25} \\implies 20 = 5k \\implies k = 4$. The formula is $x = 4\\sqrt{y}$. When $y = 9$, find $x$. So $x = 4\\sqrt{9} = 4 \\times 3 = 12$.\n\n**Common mistake:** Omitting the square root symbol is common, leading to $20 = 25k \\implies k = 0.8$, and $x = 0.8 \\times 9 = 7.2$."
+      "explanation": "$y = kx^2$. If $x$ increases by $20\\%$, the new value is $1.2x$, so $y_{\\text{new}} = k(1.2x)^2 = 1.44y$. This is a $44\\%$ increase.\n\n**Common mistake:** Students assume that a $20\\%$ increase in $x$ gives a $20\\%$ or $40\\%$ increase in $y$, forgetting to square the scale factor."
     },
     {
       "id": "8-3-proportion-pyp-q10",
       "type": "mcq",
-      "question": "An object falls a distance, $d$ and $t$. If it falls 45 meters in 3 seconds, how far does it fall in 5 seconds?",
+      "question": "$W$ varies inversely as the cube root of $x$. When $x = 27$, $W = 2$. Find $x$ when $W = 3$.",
       "options": [
         "$125\\text{ m}$",
         "$75\\text{ m}$",
@@ -136,7 +136,7 @@
         "$25\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $d = kt^2$. Substitute the known values to calculate $k$. $45 = k(3^2) \\implies 45 = 9k \\implies k = 5$. The formula is $d = 5t^2$. When $t = 5$, find the distance: $d = 5 \\times 5^2 = 5 \\times 25 = 125\\text{ m}$.\n\n**Common mistake:** Students frequently use linear direct proportion without squaring, setting up $\\frac{45}{3} = 15$, and calculating $15 \\times 5 = 75\\text{ m}$."
+      "explanation": "$W = \\frac{k}{\\sqrt[3]{x}}$. Substituting gives $k = 6$. When $W = 3$, $\\sqrt[3]{x} = 2$, so $x = 8$.\n\n**Common mistake:** Students often make mistakes when reversing a cube root, accidentally multiplying by 3 instead of cubing."
     }
   ]
 }

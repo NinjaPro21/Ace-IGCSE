@@ -11,7 +11,7 @@
     {
       "id": "8-3-proportion-medium-q1",
       "type": "mcq",
-      "question": "$y$ and $x2x = 3$, $y = 18$. Find the value of $y$. So $x = 5$.",
+      "question": "$y$ varies directly as $x$. When $x = 4$, $y = 12$. Find $y$ when $x = 9$.",
       "options": [
         "$y = 50$",
         "$y = 30$",
@@ -19,12 +19,12 @@
         "$y = 450$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$. $18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$. So $y = kx218 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
+      "explanation": "Since $y$ varies directly as $x$, $y = kx$. When $x = 4$ and $y = 12$, $12 = 4k$ so $k = 3$. Hence $y = 3x$. When $x = 9$, $y = 3 \\times 9 = 27$.\n\n**Common mistake:** Students sometimes find $k = 3$ but divide instead of multiply, or add the difference between the given values."
     },
     {
       "id": "8-3-proportion-medium-q2",
       "type": "mcq",
-      "question": "$P$ and $q2q = 16$, $P = 6$. Find the value of $P$. So $q = 64$.",
+      "question": "$p$ and $q$ are directly proportional. When $p = 35$ and $q = 5$, find the formula connecting $p$ and $q$.",
       "options": [
         "$P = 3$",
         "$P = 1.5$",
@@ -32,12 +32,12 @@
         "$P = 24$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$. $6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
+      "explanation": "Direct proportion means $p = kq$. Substituting gives $35 = k(5)$, so $k = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q$."
     },
     {
       "id": "8-3-proportion-medium-q3",
       "type": "mcq",
-      "question": "$V$ and $r2r = 2$, $V = 24$. Find the value of $V$. So $r = 3$.",
+      "question": "$y$ varies inversely as $x$. When $x = 3$, $y = 8$. Find the constant of proportionality, $k$.",
       "options": [
         "$V = 81$",
         "$V = 54$",
@@ -45,12 +45,12 @@
         "$V = 216$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as^6 instead of^8, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or^54."
+      "explanation": "For inverse proportion, $y = \\frac{k}{x}$, so $k = xy$. Hence $k = 3 \\times 8 = 24$.\n\n**Common mistake:** Students often treat the problem as direct proportion instead of inverse proportion, calculating $k = \\frac{y}{x} = \\frac{8}{3}$."
     },
     {
       "id": "8-3-proportion-medium-q4",
       "type": "mcq",
-      "question": "$h$ and $t2t = 0.5$, $h = 20$. Find the value of $t$. So $h = 50$.",
+      "question": "$M$ varies inversely as $g$. When $g = 10$, $M = 4$. Find $M$ when $g = 5$.",
       "options": [
         "$t = 0.2$",
         "$t = 1.25$",
@@ -58,12 +58,12 @@
         "$t = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$ and $k2k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
+      "explanation": "The relationship is $M = \\frac{k}{g}$, so $k = Mg = 4 \\times 10 = 40$. Hence $M = \\frac{40}{g}$. When $g = 5$, $M = \\frac{40}{5} = 8$.\n\n**Common mistake:** Students frequently apply direct proportionality steps, reasoning incorrectly that halving $g$ halves $M$."
     },
     {
       "id": "8-3-proportion-medium-q5",
       "type": "mcq",
-      "question": "$F$ and $d2F = 10$ when $d = 3$, find the value of $F$. So $d = 6$.",
+      "question": "$A$ varies directly as $B$. When $B = 12$, $A = 3$. Find $B$ when $A = 5$.",
       "options": [
         "$F = 2.5$",
         "$F = 5$",
@@ -71,12 +71,12 @@
         "$F = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$. $10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$. $3$ to^6, students intuitively expect $F$. $5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
+      "explanation": "Set up $A = kB$. Then $3 = k(12)$, so $k = 0.25$ and $A = 0.25B$. When $A = 5$, $5 = 0.25B$, so $B = 20$.\n\n**Common mistake:** Students often mistake which variable is divided, calculating $k = 4$ and getting $B = 1.25$."
     },
     {
       "id": "8-3-proportion-medium-q6",
       "type": "mcq",
-      "question": "$y$ and $x2x = 3$, $y = 18$. Find the value of $y$. So $x = 5$.",
+      "question": "$y$ varies directly as $x$. When $x = 4$, $y = 12$. Find $y$ when $x = 9$.",
       "options": [
         "$y = 50$",
         "$y = 30$",
@@ -84,12 +84,12 @@
         "$y = 450$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportion statement translates to $y = kx^2$. Substitute $x = 3$ and $y = 18$ to solve for $k$. $18 = k(3^2) \\implies 18 = 9k \\implies k = 2$. The general formula is $y = 2x^2$. When $x = 5$, $y = 2 \\times 5^2 = 2 \\times 25 = 50$.\n\n**Common mistake:** A common mistake is forgetting to square the $x$. So $y = kx218 = 3k \\implies k = 6$, and $y = 6 \\times 5 = 30$."
+      "explanation": "Since $y$ varies directly as $x$, $y = kx$. When $x = 4$ and $y = 12$, $12 = 4k$ so $k = 3$. Hence $y = 3x$. When $x = 9$, $y = 3 \\times 9 = 27$.\n\n**Common mistake:** Students sometimes find $k = 3$ but divide instead of multiply, or add the difference between the given values."
     },
     {
       "id": "8-3-proportion-medium-q7",
       "type": "mcq",
-      "question": "$P$ and $q2q = 16$, $P = 6$. Find the value of $P$. So $q = 64$.",
+      "question": "$p$ and $q$ are directly proportional. When $p = 35$ and $q = 5$, find the formula connecting $p$ and $q$.",
       "options": [
         "$P = 3$",
         "$P = 1.5$",
@@ -97,12 +97,12 @@
         "$P = 24$"
       ],
       "correctIndex": 0,
-      "explanation": "The proportional relationship is written as $P = \\frac{k}{\\sqrt{q}}$. Substitute $q = 16$ and $P = 6$ to find $k$. $6 = \\frac{k}{\\sqrt{16}} \\implies 6 = \\frac{k}{4} \\implies k = 24$. The formula is $P = \\frac{24}{\\sqrt{q}}$. When $q = 64$, $P = \\frac{24}{\\sqrt{64}} = \\frac{24}{8} = 3$.\n\n**Common mistake:** Students often mistakenly drop the square root operator entirely or square the value instead of finding its square root."
+      "explanation": "Direct proportion means $p = kq$. Substituting gives $35 = k(5)$, so $k = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q$."
     },
     {
       "id": "8-3-proportion-medium-q8",
       "type": "mcq",
-      "question": "$V$ and $r2r = 2$, $V = 24$. Find the value of $V$. So $r = 3$.",
+      "question": "$y$ varies inversely as $x$. When $x = 3$, $y = 8$. Find the constant of proportionality, $k$.",
       "options": [
         "$V = 81$",
         "$V = 54$",
@@ -110,12 +110,12 @@
         "$V = 216$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is modeled by $V = kr^3$. Substitute $r = 2$ and $V = 24$: $24 = k(2^3) \\implies 24 = 8k \\implies k = 3$. Thus, the equation is $V = 3r^3$. When $r = 3$, $V = 3 \\times 3^3 = 3 \\times 27 = 81$.\n\n**Common mistake:** Students frequently evaluate $2^3$ as^6 instead of^8, or calculate $k = 4$, which leads to an incorrect value of $V = 108$ or^54."
+      "explanation": "For inverse proportion, $y = \\frac{k}{x}$, so $k = xy$. Hence $k = 3 \\times 8 = 24$.\n\n**Common mistake:** Students often treat the problem as direct proportion instead of inverse proportion, calculating $k = \\frac{y}{x} = \\frac{8}{3}$."
     },
     {
       "id": "8-3-proportion-medium-q9",
       "type": "mcq",
-      "question": "$h$ and $t2t = 0.5$, $h = 20$. Find the value of $t$. So $h = 50$.",
+      "question": "$M$ varies inversely as $g$. When $g = 10$, $M = 4$. Find $M$ when $g = 5$.",
       "options": [
         "$t = 0.2$",
         "$t = 1.25$",
@@ -123,12 +123,12 @@
         "$t = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "The expression is $h = \\frac{k}{t} \\implies k = h \\times t$ and $k2k = 20 \\times 0.5 = 10$. The equation is $h = \\frac{10}{t}$. Substitute $h = 50$: $50 = \\frac{10}{t} \\implies t = \\frac{10}{50} = 0.2$.\n\n**Common mistake:** Students often multiply by the new value instead of dividing, calculating $50 \\div 10 = 5$ or $50 \\times 0.5$ due to rearrangement slips."
+      "explanation": "The relationship is $M = \\frac{k}{g}$, so $k = Mg = 4 \\times 10 = 40$. Hence $M = \\frac{40}{g}$. When $g = 5$, $M = \\frac{40}{5} = 8$.\n\n**Common mistake:** Students frequently apply direct proportionality steps, reasoning incorrectly that halving $g$ halves $M$."
     },
     {
       "id": "8-3-proportion-medium-q10",
       "type": "mcq",
-      "question": "$F$ and $d2F = 10$ when $d = 3$, find the value of $F$. So $d = 6$.",
+      "question": "$A$ varies directly as $B$. When $B = 12$, $A = 3$. Find $B$ when $A = 5$.",
       "options": [
         "$F = 2.5$",
         "$F = 5$",
@@ -136,7 +136,7 @@
         "$F = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The structure is $F = \\frac{k}{d^2}$. Solve for $k$. $10 = \\frac{k}{3^2} \\implies 10 = \\frac{k}{9} \\implies k = 90$. The formula is $F = \\frac{90}{d^2}$. When $d = 6$, $F = \\frac{90}{6^2} = \\frac{90}{36} = 2.5$.\n\n**Common mistake:** Since $d$. $3$ to^6, students intuitively expect $F$. $5$, missing that it scales down by the square of the change ($2^2 = 4$ times smaller)."
+      "explanation": "Set up $A = kB$. Then $3 = k(12)$, so $k = 0.25$ and $A = 0.25B$. When $A = 5$, $5 = 0.25B$, so $B = 20$.\n\n**Common mistake:** Students often mistake which variable is divided, calculating $k = 4$ and getting $B = 1.25$."
     }
   ]
 }

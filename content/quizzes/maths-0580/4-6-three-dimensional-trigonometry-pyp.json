@@ -11,7 +11,7 @@
     {
       "id": "4-6-three-dimensional-trigonometry-pyp-q1",
       "type": "mcq",
-      "question": "VABCD is a pyramid with a rectangular base. $AB = 12\\text{ m}, BC = 9\\text{ m}$ and the vertical height is $10\\text{ m}$. Calculate the length of the slant edge $VB.",
+      "question": "VABCD is a pyramid with a rectangular base. $AB = 12\\text{ m}, BC = 9\\text{ m}$ and the vertical height is $10\\text{ m}$. Calculate the length of the slant edge $VB$.",
       "options": [
         "$12.5\\text{ m}$",
         "$15.0\\text{ m}$",
@@ -19,7 +19,7 @@
         "$\\sqrt{181}\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonal $AC = \\sqrt{12}² + 9^2 = 15$. Half-diagonal $OB = 7.5$. $VB = \\sqrt{10}² + 7.5^2 = \\sqrt{156}.25 = 12.5$.\n\n**Common mistake:** A student might add the vertical height to the side length directly ($12+10$) or forget to halve the base diagonal."
+      "explanation": "Diagonal $AC = \\sqrt{12^2 + 9^2} = 15$. Half-diagonal $OB = 7.5$. $VB = \\sqrt{10^{2} + 7.5^2} = \\sqrt{156.25} = 12.5$.\n\n**Common mistake:** A student might add the vertical height to the side length directly ($12+10$) or forget to halve the base diagonal."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-pyp-q2",
@@ -45,7 +45,7 @@
         "$58.0°$"
       ],
       "correctIndex": 0,
-      "explanation": "Base diagonal $= \\sqrt{7}² + 7^2 = \\sqrt{98} \\approx 9.90. The angle with the vertical edge is the complement of the angle with the base^2 2\\tan \\theta = 9.90 / 11 \\approx 0.9 \\Rightarrow \\theta \\approx 42.0°$.\n\n**Common mistake:** Students often calculate the angle with the horizontal base ($48°$) instead of the angle with the vertical edge."
+      "explanation": "Base diagonal $= \\sqrt{7}^2 + 7^2 = \\sqrt{98} \\approx 9.90. The angle with the vertical edge is the complement of the angle with the base^2 2\\tan \\theta = 9.90 / 11 \\approx 0.9 \\Rightarrow \\theta \\approx 42.0°$.\n\n**Common mistake:** Students often calculate the angle with the horizontal base ($48°$) instead of the angle with the vertical edge."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-pyp-q4",
@@ -58,7 +58,7 @@
         "$53.9°$"
       ],
       "correctIndex": 0,
-      "explanation": "Distance to origin $= \\sqrt{2}² + 3^2 + 4^2 = \\sqrt{29}$. Distance on $xy$. $= \\sqrt{2}² + 3^2 = \\sqrt{13}$. $\\sin \\theta = 4 / \\sqrt{29} \\Rightarrow \\theta = \\sin^{-1}$(0.743) \\approx 48.0°2\n\n**Common mistake:** The student might divide by the ground distance $\\sqrt{13}$ but use the wrong trigonometric ratio."
+      "explanation": "Distance to origin $= \\sqrt{2}^2 + 3^2 + 4^2 = \\sqrt{29}$. Distance on $xy$. $= \\sqrt{2}^2 + 3^2 = \\sqrt{13}$. $\\sin \\theta = 4 / \\sqrt{29} \\Rightarrow \\theta = \\sin^{-1}$(0.743) \\approx 48.0°2\n\n**Common mistake:** The student might divide by the ground distance $\\sqrt{13}$ but use the wrong trigonometric ratio."
     },
     {
       "type": "mcq",

@@ -49,7 +49,7 @@
     },
     {
       "type": "mcq",
-      "question": "Triangle $OAB$. $O(0,0)$, $A(6,0)$, and $B(2,4)$. Find the length of the median from $B$. $OA.",
+      "question": "Triangle $OAB$. $O(0,0)$, $A(6,0)$, and $B(2,4)$. Find the length of the median from $B$. $OA$.",
       "options": [
         "sqrt(17)",
         "4",
@@ -62,7 +62,7 @@
     },
     {
       "type": "mcq",
-      "question": "Line $L$. $(4, 5)$ and is perpendicular to $y = 2x$. $(k, 2)$ lies on $L$ and $k.",
+      "question": "Line $L$. $(4, 5)$ and is perpendicular to $y = 2x$. $(k, 2)$ lies on $L$ and $k$.",
       "options": [
         "10",
         "6",
@@ -70,7 +70,7 @@
         "8"
       ],
       "correctIndex": 0,
-      "explanation": "Normal gradient is $-0.5$. Eq: $y - 5 = -0.5(x - 4)$. Substitute $y=2$: $2 - 5 = -0.5(k - 4) \\Rightarrow -3 = -0.5(k-4) \\Rightarrow 6 = k-4 \\Rightarrow k=10$.\n\n**Common mistake:** Using the gradient2instead of $-0.5$ in the line equation.",
+      "explanation": "Normal gradient is $-0.5$. Eq: $y - 5 = -0.5(x - 4)$. Substitute $y=2$: $2 - 5 = -0.5(k - 4) \\Rightarrow -3 = -0.5(k-4) \\Rightarrow 6 = k-4 \\Rightarrow k=10$.\n\n**Common mistake:** Using the gradient2instead of -0.5\n\n$$ in the line equation.",
       "id": "6-1-factorising-pyp-q5"
     }
   ]

@@ -11,20 +11,20 @@
     {
       "id": "4-2-trigonometry-hard-q1",
       "type": "mcq",
-      "question": "The diagram shows two right-angled triangles $ABC$. $ACD2AC$. $ABC2∠B=90°, ∠A=30°, AB=12\\text{ cm}$. In triangle $ACD$. $∠D=90°, ∠CAD=40°$. Calculate the length of $CD.",
+      "question": "The diagram shows two right-angled triangles $ABC$ and $ACD$ sharing side $AC$. In $\\triangle ABC$, $\\angle B = 90°$, $\\angle A = 30°$, and $AB = 12\\text{ cm}$. In $\\triangle ACD$, $\\angle D = 90°$ and $\\angle CAD = 40°$. Calculate $CD$.",
       "options": [
         "$4.45\\text{ cm}$",
         "$5.31\\text{ cm}$",
         "$10.4\\text{ cm}$",
         "$8.93\\text{ cm}$"
       ],
-      "correctIndex": 0,
-      "explanation": "In $\\triangle ABC$. So $\\tan 30° = BC/12 \\Rightarrow BC = 12 \\tan 30° = 4\\sqrt{3} \\approx 6.928$. Wait, let's find $AC$. So $\\cos 30° = 12/AC \\Rightarrow AC = 12/\\cos 30° \\approx 13.856$. In $\\triangle ACD$. So $\\sin 40° = CD/AC \\Rightarrow CD = 13.856 \\times \\sin 40° \\approx 8.906$. Let's re-calculate with $\\tan 30° = AC/12$: $AC = 12 \\tan 30° = 6.928$. Then $CD = 6.928 \\sin 40° \\approx 4.453$.\n\n**Common mistake:** The student might assume $AC$. $ABC$ or misapply the ratio in the second triangle."
+      "correctIndex": 3,
+      "explanation": "In $\\triangle ABC$, $\\cos 30° = AB/AC$, so $AC = 12/\\cos 30° \\approx 13.86\\text{ cm}$. In $\\triangle ACD$, $\\sin 40° = CD/AC$, so $CD = AC\\sin 40° \\approx 8.91\\text{ cm}$.\n\n**Common mistake:** The student might assume $AC$ is a leg of $\\triangle ABC$ or misapply the ratio in the second triangle."
     },
     {
       "id": "4-2-trigonometry-hard-q2",
       "type": "mcq",
-      "question": "Show that the value of $(\\tan 60°)^2 + (\\sin 60°)^2$ is exactly $3.75$. What is the $fraction$ form of this result?",
+      "question": "Show that the value of $(\\tan 60°)^2 + (\\sin 60°)^2$ is exactly $3.75$. What is the fraction form of this result?",
       "options": [
         "$15/4$",
         "$13/4$",
@@ -63,7 +63,7 @@
     {
       "id": "4-2-trigonometry-hard-q5",
       "type": "mcq",
-      "question": "In a right-angled triangle, $\\tan x = 3/4$. Calculate the value of $\\sin x.",
+      "question": "In a right-angled triangle, $\\tan x = 3/4$. Calculate the value of $\\sin x$.",
       "options": [
         "$0.6$",
         "$0.8$",
@@ -71,7 +71,7 @@
         "$1.33$"
       ],
       "correctIndex": 0,
-      "explanation": "If $\\tan x = 3/4$, then Opposite $= 3$ and Adjacent $= 4$. By Pythagoras, Hypotenuse $= \\sqrt{3}² + 4^2 = 5$. Thus $\\sin x = O/H = 3/5 = 0.6$.\n\n**Common mistake:** A student might think $\\sin x$. $3$) or divide the adjacent by the opposite."
+      "explanation": "If $\\tan x = 3/4$, then Opposite $= 3$ and Adjacent $= 4$. By Pythagoras, Hypotenuse $= \\sqrt{3^2 + 4^2} = 5$. Thus $\\sin x = O/H = 3/5 = 0.6$.\n\n**Common mistake:** A student might think $\\sin x$ equals $3$ or divide the adjacent by the opposite."
     }
   ]
 }

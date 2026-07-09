@@ -19,7 +19,7 @@
         "$(3x - 1)(x + 8)$"
       ],
       "correctIndex": 0,
-      "explanation": "Find two integers that multiply to $a \\times c = 3 \\times (-8) = -24$ and add up to $b = 10$. These numbers are $+12$ and $-2$. Split the middle term: $3x^2 + 12x - 2x - 8$. Factor by grouping: $3x(x + 4) - 2(x + 4) = (3x - 2)(x + 4)$.\n\n**Common mistake:** Incorrectly splitting the middle term with factors of 24 that do not yield a sum of 10 when signs are taken into consideration, such as $+6$ and $+4$ (which multiply to $+24$, not $-24$)."
+      "explanation": "Find two integers that multiply to $a \\times c = 3 \\times (-8) = -24$ and add up to $b = 10$. These numbers are $+12$ and $-2$. Split the middle term: $3x^2 + 12x - 2x - 8$. Factor by grouping: $3x(x + 4) - 2(x + 4) = (3x - 2)(x + 4)$.\n\n**Common mistake:** Incorrectly splitting the middle term with factors of 24 that do not yield a sum of 10 when signs are taken into consideration, such as +6\n\n$$and$+4$(which multiply to$+24$, not$-24$)."
     },
     {
       "id": "6-1-factorising-hard-q2",
@@ -36,7 +36,7 @@
     },
     {
       "type": "mcq",
-      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB.",
+      "question": "Point $M(3,1)$ is the midpoint of $AB$. $AB2-2$, find the equation of the perpendicular bisector of $AB$.",
       "options": [
         "$y = 0.5x - 0.5$",
         "$y = -2x + 7$",

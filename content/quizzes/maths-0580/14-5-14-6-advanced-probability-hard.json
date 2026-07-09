@@ -11,7 +11,7 @@
     {
       "id": "14-5-14-6-advanced-probability-hard-q1",
       "type": "mcq",
-      "question": "In a school group of 120, students study Biology (B), Chemistry (C), and Physics (P). In the diagram, $x$. $2x+1$ study B and C only, $x+1$ study B and P only, and 10 study all three. If the total studying Biology is 66, find $x.",
+      "question": "In a school group of 120, students study Biology (B), Chemistry (C), and Physics (P). In the diagram, $x$ students study Biology only, $2x+1$ study B and C only, $x+1$ study B and P only, and 10 study all three. If the total studying Biology is 60, find x.",
       "options": [
         "13",
         "12",
@@ -19,7 +19,7 @@
         "10"
       ],
       "correctIndex": 1,
-      "explanation": "$x + (2x + 1) + (x + 1) + 10 = 66 \\Rightarrow 4x + 12 = 66 \\Rightarrow 4x = 54 \\Rightarrow x = 13.5$? Wait, checking source: $x + (2x+1) + (x+1) + 10 = 66$ is correct. Actually, solving $4x+12=60$ gives 12. Let's re-verify the Biology total. Actually, the source answer key says $x=12$.\n\n**Common mistake:** Forgetting to include the 'all three' (10) in the sum for the Biology circle."
+      "explanation": "$x + (2x + 1) + (x + 1) + 10 = 60 \\Rightarrow 4x + 12 = 60 \\Rightarrow x = 12$.\n\n**Common mistake:** Forgetting to include the \"all three\" (10) in the sum for the Biology circle."
     },
     {
       "id": "14-5-14-6-advanced-probability-hard-q2",

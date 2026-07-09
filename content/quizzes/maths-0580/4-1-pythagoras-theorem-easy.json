@@ -32,7 +32,7 @@
         "$100\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of^100 is $1$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
+      "explanation": "Using $a^2 + b^2 = c^2$, $6^2 + 8^2 = 36 + 64 = 100$. The square root of $100$ is $1$.\n\n**Common mistake:** A student might add the two sides directly ($6 + 8 = 14$) or forget to take the square root of the sum."
     },
     {
       "id": "4-1-pythagoras-theorem-easy-q3",
@@ -50,11 +50,11 @@
     {
       "id": "4-1-pythagoras-theorem-easy-q4",
       "type": "mcq",
-      "question": "Which formula is used to find the length of the interior diagonal $d$ and $a2b$ and $c?",
+      "question": "Which formula gives the interior diagonal $d$ of a cuboid with edge lengths $a$, $b$, and $c$?",
       "options": [
-        "$d = √a^2 + b^2 + c^2$",
+        "$d = \\sqrt{a^2 + b^2 + c^2}$",
         "$d = a + b + c$",
-        "$d = √a^2 + b^2$",
+        "$d = \\sqrt{a^2 + b^2}$",
         "$d = a^2 + b^2 + c^2$"
       ],
       "correctIndex": 0,

@@ -11,7 +11,7 @@
     {
       "id": "1-7-standard-form-pyp-q1",
       "type": "mcq",
-      "question": "Find the value of $p^2 8$.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n.",
+      "question": "Find the value of $p$ if $8.4 \\times 10^n + 6 \\times 10^{n-1} = p \\times 10^n$.",
       "options": [
         "9.0",
         "14.4",
@@ -19,7 +19,7 @@
         "9.4"
       ],
       "correctIndex": 0,
-      "explanation": "Rewrite $6 \\times 10^{n-1}$ as $0.6 \\times 10^n$. $10^n2(8.4 + 0.6) \\times 10^n = 9.0 \\times 10^n$. So $p = 9.0$.\n\n**Common mistake:** Students frequently add coefficients directly across differing index orders, erroneously concluding that $p = 14.4$ or $8.46$."
+      "explanation": "Rewrite $6 \\times 10^{n-1}$ as $0.6 \\times 10^n$. Then $(8.4 + 0.6) \\times 10^n = 9.0 \\times 10^n$, so $p = 9.0$.\n\n**Common mistake:** Students frequently add coefficients directly across differing index orders, erroneously concluding that $p = 14.4$ or $8.46$."
     },
     {
       "id": "1-7-standard-form-pyp-q2",

@@ -24,7 +24,7 @@
     {
       "id": "1-6-8-4-indices-pyp-q2",
       "type": "mcq",
-      "question": "Find the value of $k$. So $\\frac{x^5}{$x^{-2}$} = x^k.",
+      "question": "Find the value of $k$ if $\\frac{x^5}{x^{-2}} = x^k$.",
       "options": [
         "7",
         "3",
@@ -40,12 +40,12 @@
       "question": "Evaluate the exact numerical value of $\\left(\\frac{4}{25}\\right)^{-\\frac{1}{2}}$.",
       "options": [
         "$\\frac{5}{2}$",
-        "$$\n\\frac{2}{5}\n",
-        "$-\\frac{2}{5}$",
-        "$$\n\\frac{25}{4}\n"
+        "$\\frac{2}{5}$",
+        "$\\frac{25}{4}$",
+        "$\\frac{4}{25}$"
       ],
       "correctIndex": 0,
-      "explanation": "The negative index tells us to invert the base $fraction:$ $\\left(\\frac{25}{4}\\right)^{\\frac{1}{2}}$. Taking the square root of both numbers gives $\\frac{5}{2}$.\n\n**Common mistake:** Students often forget to invert the $fraction$ and simply square root it, picking $\\frac{2}{5}$."
+      "explanation": "The negative index tells us to invert the base fraction:\\left(\\frac{25}{4}\\right)^{\\frac{1}{2}}$. Taking the square root of both numbers gives$\\frac{5}{2}$$.\n\n**Common mistake:** Students often forget to invert the fraction and simply square root it, picking $\\frac{2}{5}$."
     },
     {
       "id": "1-6-8-4-indices-pyp-q4",
@@ -58,7 +58,7 @@
         "0.2"
       ],
       "correctIndex": 0,
-      "explanation": "Recognise that $32 = 2^5$. Therefore, the reciprocal $\\frac{1}{32} = 2^{-5}$. Equating powers gives $x = -5$.\n\n**Common mistake:** Students may neglect the reciprocal nature of the $fraction$, choosing the positive value 5."
+      "explanation": "Recognise that $32 = 2^5$. Therefore, the reciprocal $\\frac{1}{32} = 2^{-5}$. Equating powers gives $x = -5$.\n\n**Common mistake:** Students may neglect the reciprocal nature of the fraction, choosing the positive value 5."
     },
     {
       "id": "1-6-8-4-indices-pyp-q5",

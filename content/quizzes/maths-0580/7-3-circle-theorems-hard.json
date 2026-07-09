@@ -11,20 +11,20 @@
     {
       "id": "7-3-circle-theorems-hard-q1",
       "type": "mcq",
-      "question": "A cyclic quadrilateral $PQRS$. $PQ2RPQ = 28°$, calculate the size of angle $QSR.",
+      "question": "$PR$ is a diameter of a circle. In cyclic quadrilateral $PQRS$, if $\\angle RPQ = 28°$, calculate the size of angle $QSR$.",
       "options": [
         "$28°$",
         "$62°$",
         "$90°$",
         "$118°$"
       ],
-      "correctIndex": 0,
-      "explanation": "In triangle $PRQ$. $∠PRQ = 90°$ (angle in semi-circle). Thus $∠PQR = 180 - 90 - 28 = 62°$. Angles $∠QSR$. $∠PQR2QR$. $∠QSR = 62°$.\n\n**Common mistake:** The student might assume $∠QSR$. $∠RPQ228°$) without checking the arc they are subtended by."
+      "correctIndex": 1,
+      "explanation": "In triangle $PRQ$, $\\angle PRQ = 90°$ (angle in a semicircle). So $\\angle PQR = 180 - 90 - 28 = 62°$. Angles $\\angle QSR$ and $\\angle PQR$ are subtended by the same arc $QR$, so $\\angle QSR = 62°$.\n\n**Common mistake:** The student might assume $\\angle QSR = \\angle RPQ = 28°$ without checking which arc the angles are subtended by."
     },
     {
       "id": "7-3-circle-theorems-hard-q2",
       "type": "mcq",
-      "question": "Point $T is outside a circle^2 2TA2TOC$ and $O2∠ATC = 36°$, calculate the size of the minor angle $AOC$ at the centre.",
+      "question": "Point $T$ lies outside a circle. Tangents $TA$ and $TC$ touch the circle at $A$ and $C$, and $O$ lies on the line through $T$ and $C$. If $\\angle ATC = 36°$, calculate the size of the minor angle $AOC$ at the centre.",
       "options": [
         "$54°$",
         "$72°$",
@@ -32,25 +32,25 @@
         "$126°$"
       ],
       "correctIndex": 0,
-      "explanation": "In triangle $TAO$. $∠TAO = 90°$ (radius-tangent). $∠AOT = 180 - 90 - 36 = 54°$. Since $TOC$. $∠AOC = 180 - 54 = 126°$. Wait, $∠AOC$. $\\triangle TAO2∠AOT = 54°$. $∠AOC$. $∠AOT2T$. $CO2O$ and $T2C$. $∠AOC254°$. Let's assume $O$ and $T2C$. $∠AOC = 54°$.\n\n**Common mistake:** A student might forget the $90°$ tangent rule or misinterpret the position of the centre on the line."
+      "explanation": "In triangle $TAO$, $\\angle TAO = 90°$ (radius-tangent). So $\\angle AOT = 180 - 90 - 36 = 54°$. The minor angle $\\angle AOC = 54°$.\n\n**Common mistake:** A student might forget the $90°$ tangent rule or misinterpret the position of the centre on the line."
     },
     {
       "id": "7-3-circle-theorems-hard-q3",
       "type": "mcq",
-      "question": "In a circle, chords $AD$. $BC2X$. $∠ABC = 38°$ and $∠BCD = 44°$, calculate the size of $∠AXB.",
+      "question": "In a circle, chords $AD$ and $BC$ intersect at $X$. If $\\angle ABC = 38°$ and $\\angle BCD = 44°$, calculate the size of $\\angle AXB$.",
       "options": [
         "$82°$",
         "$98°$",
         "$76°$",
         "$88°$"
       ],
-      "correctIndex": 0,
-      "explanation": "$∠BAD = ∠BCD = 44°$ (same segment $BD$. $ABX2∠AXB = 180 - (38 + 44) = 180 - 82 = 98°$. Wait, $∠AXB$. $∠AXB = 98°$.\n\n**Common mistake:** The student might add the two given angles and assume the exterior angle theorem applies directly without finding the third angle of the triangle."
+      "correctIndex": 1,
+      "explanation": "$\\angle BAD = \\angle BCD = 44°$ (angles in the same segment, arc $BD$). In triangle $ABX$, $\\angle AXB = 180 - (38 + 44) = 98°$.\n\n**Common mistake:** The student might add the two given angles directly without finding the third angle of the triangle."
     },
     {
       "id": "7-3-circle-theorems-hard-q4",
       "type": "mcq",
-      "question": "A tangent $XY$ and $P2PQ$ and $R2∠RPQ = 50°$ and $∠RQP = 70°$. Calculate the acute angle between the tangent $XY$. $PQ.",
+      "question": "A tangent $XY$ touches a circle at $P$. Points $Q$ and $R$ lie on the circle with $\\angle RPQ = 50°$ and $\\angle RQP = 70°$. Calculate the acute angle between the tangent $XY$ and chord $PQ$.",
       "options": [
         "$60°$",
         "$50°$",
@@ -63,7 +63,7 @@
     {
       "id": "7-3-circle-theorems-hard-q5",
       "type": "mcq",
-      "question": "The vertices of a quadrilateral $ABCD lie on a circle^2 2AB2DC$. $∠ABC = 105°$, calculate the size of $∠BCD.",
+      "question": "The vertices of cyclic quadrilateral $ABCD$ lie on a circle, and $AB \\parallel DC$. If $\\angle ABC = 105°$, calculate the size of $\\angle BCD$.",
       "options": [
         "$75°$",
         "$105°$",
@@ -71,7 +71,7 @@
         "$90°$"
       ],
       "correctIndex": 0,
-      "explanation": "Opposite angles sum to $180°$, so $∠ADC = 180 - 105 = 75°$. Since $AB \\parallel DC$. $∠ABC + ∠BCD = 180°$ is false (they are $A$ and $D2∠DAB + ∠ADC = 180$ (co-interior). Also $∠DAB = 180 - ∠BCD$. $180 - ∠BCD + 75 = 180 \\Rightarrow ∠BCD = 75°$.\n\n**Common mistake:** The student might assume $∠BCD$ and $105°$ because they see parallel lines and think of alternate angles."
+      "explanation": "Opposite angles of a cyclic quadrilateral sum to $180°$, so $\\angle ADC = 75°$. Since $AB \\parallel DC$, $\\angle DAB$ and $\\angle ADC$ are co-interior, so $\\angle DAB = 105°$. Also $\\angle DAB + \\angle BCD = 180°$, so $\\angle BCD = 75°$.\n\n**Common mistake:** The student might assume $\\angle BCD = 105°$ because they see parallel lines and think of alternate angles."
     }
   ]
 }

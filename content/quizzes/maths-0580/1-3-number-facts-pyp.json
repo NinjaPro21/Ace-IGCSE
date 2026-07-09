@@ -42,7 +42,7 @@
         "2$^2$ × 3$^2$ × 7",
         "2 × 3$^2$ × 14",
         "4 × 9 × 7",
-        "2³ × 3 × 7"
+        "2^3 × 3 × 7"
       ],
       "correctIndex": 0,
       "explanation": "Divide by primes: $252 \\div 2 = 126 \\implies 126 \\div 2 = 63 \\implies 63 \\div 3 = 21 \\implies 21 \\div 3 = 7$. Thus, $252 = 2^2 \\times 3^2 \\times 7$.\n\n**Common mistake:** Students include composite numbers like 4, 9, or 14 in their final factor listing selection."

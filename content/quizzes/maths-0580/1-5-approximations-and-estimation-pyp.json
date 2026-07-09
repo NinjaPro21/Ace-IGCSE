@@ -11,7 +11,7 @@
     {
       "id": "1-5-approximations-and-estimation-pyp-q1",
       "type": "mcq",
-      "question": "The mass, $m^2 4200\\text{ kg}$, correct to the nearest $100\\text{ kg}$. Complete the inequality showing the error bounds for $m.",
+      "question": "The mass, $m$, is $4200\\text{ kg}$, correct to the nearest $100\\text{ kg}$. Complete the inequality showing the error bounds for $m$.",
       "options": [
         "$4150 \\le m < 4250$",
         "$4100 \\le m < 4300$",
@@ -19,7 +19,7 @@
         "$4195 \\le m < 4205$"
       ],
       "correctIndex": 0,
-      "explanation": "The precision unit is $100\\text{ kg}$, so the variation is $\\pm 50\\text{ kg}$. Lower limit: $4200 - 50 = 4150$. Upper limit: $4200 + 50 = 4250$. Thus, $4150 \\le m < 4250$.\n\n**Common mistake:** Students often use the full unit value ($100\\text{ kg}$) for the boundary shift, resulting in^4100 and^4300."
+      "explanation": "The precision unit is $100\\text{ kg}$, so the variation is $\\pm 50\\text{ kg}$. Lower limit: $4200 - 50 = 4150$. Upper limit: $4200 + 50 = 4250$. Thus, $4150 \\le m < 4250$.\n\n**Common mistake:** Students often use the full unit value ($100\\text{ kg}$) for the boundary shift, resulting in $4100$ and $4300$."
     },
     {
       "id": "1-5-approximations-and-estimation-pyp-q2",

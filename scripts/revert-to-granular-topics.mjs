@@ -179,10 +179,7 @@ for (const ch of chapters.sort((a, b) => a.number - b.number)) {
   const newIds = granular.map((t) => t.id)
 
   ch.topicIds = newIds
-  ch.summary = granular
-    .map((t) => t.title)
-    .join(' · ')
-    .slice(0, 120)
+  ch.summary = granular.map((t) => t.title).join(' · ')
   writeJson(path.join(chaptersDir, `${ch.id}.json`), ch)
 
   granular.forEach((topic, i) => {

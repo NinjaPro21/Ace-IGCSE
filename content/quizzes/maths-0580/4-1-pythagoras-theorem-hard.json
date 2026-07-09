@@ -19,12 +19,12 @@
         "$18.00\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonal $= \\sqrt{4}² + 6^2 + 8^2 = \\sqrt{16} + 36 + 64 = \\sqrt{116} \\approx 10.77$.\n\n**Common mistake:** A student might miscalculate the sum as $\\sqrt{132}$ or forget to apply the formula across all three dimensions."
+      "explanation": "Diagonal $= \\sqrt{4}^2 + 6^2 + 8^2 = \\sqrt{16} + 36 + 64 = \\sqrt{116} \\approx 10.77$.\n\n**Common mistake:** A student might miscalculate the sum as $\\sqrt{132}$ or forget to apply the formula across all three dimensions."
     },
     {
       "id": "4-1-pythagoras-theorem-hard-q2",
       "type": "mcq",
-      "question": "The sides of a right-angled triangle are $x$. $15$, and $x + 3$, where $x + 3$ is the hypotenuse. Solve for $x.",
+      "question": "The sides of a right-angled triangle are $x$, $15$, and $x + 3$, where $x + 3$ is the hypotenuse. Solve for $x$.",
       "options": [
         "$36$",
         "$12$",
@@ -32,20 +32,20 @@
         "$9$"
       ],
       "correctIndex": 0,
-      "explanation": "$x^2 + 15^2 = (x+3)² \\Rightarrow x^2 + 225 = x^2 + 6x + 9 \\Rightarrow 216 = 6x \\Rightarrow x = 36$.\n\n**Common mistake:** The student might expand $(x+3)²$ incorrectly as $x^2 + 9$, missing the $6x$ term."
+      "explanation": "$x^2 + 15^2 = (x+3)^2 \\Rightarrow x^2 + 225 = x^2 + 6x + 9 \\Rightarrow 216 = 6x \\Rightarrow x = 36$.\n\n**Common mistake:** The student might expand $(x+3)^2$ incorrectly as $x^2 + 9$, missing the $6x$ term."
     },
     {
       "id": "4-1-pythagoras-theorem-hard-q3",
       "type": "mcq",
       "question": "A right-angled triangle has a hypotenuse of $20\\text{ cm}$ and one side of $16\\text{ cm}$. Calculate the area of this triangle.",
       "options": [
-        "$96\\text{ cm}²$",
-        "$192\\text{ cm}²$",
-        "$160\\text{ cm}²$",
-        "$120\\text{ cm}²$"
+        "$96\\text{ cm}^2$",
+        "$192\\text{ cm}^2$",
+        "$160\\text{ cm}^2$",
+        "$120\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "First, find the missing side: $\\sqrt{20}² - 16^2 = \\sqrt{400} - 256 = \\sqrt{144} = 12$. Area $= 0.5 \\times 16 \\times 12 = 96$.\n\n**Common mistake:** The student might calculate the third side correctly but forget the $0.5$ in the area formula."
+      "explanation": "First, find the missing side: $\\sqrt{20}^2 - 16^2 = \\sqrt{400} - 256 = \\sqrt{144} = 12$. Area $= 0.5 \\times 16 \\times 12 = 96$.\n\n**Common mistake:** The student might calculate the third side correctly but forget the $0.5$ in the area formula."
     },
     {
       "id": "4-1-pythagoras-theorem-hard-q4",
@@ -58,7 +58,7 @@
         "$10.9\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The vertical height, radius, and slant height form a right-angled triangle. Slant height $= \\sqrt{12}² + 5^2 = \\sqrt{144} + 25 = \\sqrt{169} = 13$.\n\n**Common mistake:** A student might subtract the squares if they misidentify the slant height as one of the legs instead of the hypotenuse."
+      "explanation": "The vertical height, radius, and slant height form a right-angled triangle. Slant height $= \\sqrt{12}^2 + 5^2 = \\sqrt{144} + 25 = \\sqrt{169} = 13$.\n\n**Common mistake:** A student might subtract the squares if they misidentify the slant height as one of the legs instead of the hypotenuse."
     },
     {
       "id": "4-1-pythagoras-theorem-hard-q5",
@@ -71,7 +71,7 @@
         "$19.00\\text{ km}$"
       ],
       "correctIndex": 0,
-      "explanation": "This is a 3D Pythagoras problem with dimensions $8, 6,$ and^5. Distance $= \\sqrt{8}² + 6^2 + 5^2 = \\sqrt{64} + 36 + 25 = \\sqrt{125} \\approx 11.18$.\n\n**Common mistake:** The student might only calculate the 2D ground distance ($\\sqrt{8}² + 6^2 = 10$) and ignore the altitude."
+      "explanation": "This is a 3D Pythagoras problem with dimensions $8, 6,$ and $5$. Distance $= \\sqrt{8}^2 + 6^2 + 5^2 = \\sqrt{64} + 36 + 25 = \\sqrt{125} \\approx 11.18$.\n\n**Common mistake:** The student might only calculate the 2D ground distance ($\\sqrt{8}^2 + 6^2 = 10$) and ignore the altitude."
     }
   ]
 }

@@ -13,26 +13,26 @@
       "type": "mcq",
       "question": "The diagram shows the net of a closed rectangular box. The dimensions of the faces are $5\\text{ cm} \\times 4\\text{ cm}$, $5\\text{ cm} \\times 10\\text{ cm}$, and $4\\text{ cm} \\times 10\\text{ cm}$. Calculate the volume of the box.",
       "options": [
-        "$200\\text{ cm}³$",
-        "$100\\text{ cm}³$",
-        "$19\\text{ cm}³$",
-        "$220\\text{ cm}³$"
+        "$200\\text{ cm}^3$",
+        "$100\\text{ cm}^3$",
+        "$19\\text{ cm}^3$",
+        "$220\\text{ cm}^3$"
       ],
       "correctIndex": 0,
-      "explanation": "The dimensions of the box are $5, 4,$ and^10. Volume $= 5 \\times 4 \\times 10 = 200\\text{ cm}³$.\n\n**Common mistake:** A student might add the dimensions ($5+4+10=19$) or calculate the surface area ($220$) instead of volume."
+      "explanation": "The dimensions of the box are $5, 4,$ and $10$. Volume $= 5 \\times 4 \\times 10 = 200\\text{ cm}^3$.\n\n**Common mistake:** A student might add the dimensions ($5+4+10=19$) or calculate the surface area ($220$) instead of volume."
     },
     {
       "id": "7-5-nets-pyp-q2",
       "type": "mcq",
-      "question": "A solid prism has a cross-section of a regular hexagon with side $2\\text{ cm}$ and area $10.4\\text{ cm}²$. The length of the prism is $8\\text{ cm}$. Calculate the total surface area of its net.",
+      "question": "A solid prism has a cross-section of a regular hexagon with side $2\\text{ cm}$ and area $10.4\\text{ cm}^2$. The length of the prism is $8\\text{ cm}$. Calculate the total surface area of its net.",
       "options": [
-        "$116.8\\text{ cm}²$",
-        "$96\\text{ cm}²$",
-        "$106.4\\text{ cm}²$",
-        "$20.8\\text{ cm}²$"
+        "$116.8\\text{ cm}^2$",
+        "$96\\text{ cm}^2$",
+        "$106.4\\text{ cm}^2$",
+        "$20.8\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Total area $= 2 \\times BaseArea + Perimeter \\times Length$. So $Area = 2(10.4) + (6 \\times 2) \\times 8 = 20.8 + 96 = 116.8\\text{ cm}²$.\n\n**Common mistake:** A student might forget to include both hexagonal bases or only calculate the area of the rectangles."
+      "explanation": "Total area $= 2 \\times BaseArea + Perimeter \\times Length$. So $Area = 2(10.4) + (6 \\times 2) \\times 8 = 20.8 + 96 = 116.8\\text{ cm}^2$.\n\n**Common mistake:** A student might forget to include both hexagonal bases or only calculate the area of the rectangles."
     },
     {
       "id": "7-5-nets-pyp-q3",
@@ -50,15 +50,15 @@
     {
       "id": "7-5-nets-pyp-q4",
       "type": "mcq",
-      "question": "Show that the net of a cube with side length $s^2 6s^2$. If $s = 0.5\\text{ m}$, what is the area of the net in $\\text{cm}²?",
+      "question": "Show that the total surface area of a cube with side length $s$ is $6s^2$. If $s = 0.5\\text{ m}$, what is the area of the net in $\\text{cm}^2$?",
       "options": [
-        "$15000\\text{ cm}²$",
-        "$1500\\text{ cm}²$",
-        "$1.5\\text{ cm}²$",
-        "$6000\\text{ cm}²$"
+        "$15000\\text{ cm}^2$",
+        "$1500\\text{ cm}^2$",
+        "$1.5\\text{ cm}^2$",
+        "$6000\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "$s = 50\\text{ cm}$. Area $= 6 \\times 50^2 = 6 \\times 2500 = 15000\\text{ cm}²$.\n\n**Common mistake:** A student might calculate $6 \\times 0.5^2 = 1.5$ and then fail to convert the units correctly (forgetting that $1\\text{ m}² = 10000\\text{ cm}²$)."
+      "explanation": "$s = 50\\text{ cm}$. Area $= 6 \\times 50^2 = 6 \\times 2500 = 15000\\text{ cm}^2$.\n\n**Common mistake:** A student might calculate $6 \\times 0.5^2 = 1.5$ and then fail to convert the units correctly (forgetting that $1\\text{ m}^2 = 10000\\text{ cm}^2$)."
     },
     {
       "id": "7-5-nets-pyp-q5",

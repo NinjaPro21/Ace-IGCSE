@@ -11,7 +11,7 @@
     {
       "id": "2-1-substitution-medium-q1",
       "type": "mcq",
-      "question": "Find the value of $m^2 So m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
+      "question": "Find the value of $m$. So $m = \\frac{4k - 3h}{k + h}$ when $k = 5$ and $h = -2$.",
       "options": [
         "$8.66$",
         "$4.66$",
@@ -32,7 +32,7 @@
         "$20$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = -3$: $A = 2(-3)² - 3(-3) + 5 = 2(9) + 9 + 5 = 18 + 9 + 5 = 32$.\n\n**Common mistake:** A common mistake is evaluating $-3(-3)$ as $-9$, or squaring $-3$ to get $-9$, yielding an incorrect final outcome."
+      "explanation": "Substitute $x = -3$: $A = 2(-3)^2 - 3(-3) + 5 = 2(9) + 9 + 5 = 18 + 9 + 5 = 32$.\n\n**Common mistake:** A common mistake is evaluating $-3(-3)$ as $-9$, or squaring $-3$ to get $-9$, yielding an incorrect final outcome."
     },
     {
       "id": "2-1-substitution-medium-q3",
@@ -50,7 +50,7 @@
     {
       "id": "2-1-substitution-medium-q4",
       "type": "mcq",
-      "question": "Given the compound interest model component $V = P(1 + r)²$, find $V$. So $P = 500$ and $r = 0.04$.",
+      "question": "Given the compound interest model component $V = P(1 + r)^2$, find $V$. So $P = 500$ and $r = 0.04$.",
       "options": [
         "$540.8$",
         "$540$",
@@ -58,7 +58,7 @@
         "$580.8$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the variables: $V = 500(1 + 0.04)² = 500(1.04)² = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$. $(1+r)²$ as $1 + r^2$, leading to incorrect values."
+      "explanation": "Substitute the variables: $V = 500(1 + 0.04)^2 = 500(1.04)^2 = 500(1.0816) = 540.8$.\n\n**Common mistake:** Students might square $P$. $(1+r)^2$ as $1 + r^2$, leading to incorrect values."
     },
     {
       "id": "2-1-substitution-medium-q5",
@@ -71,7 +71,7 @@
         "$\\sqrt{-25}$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the numbers: $y = \\sqrt{(-7)² - 4(2)(3)} = \\sqrt{49 - 24} = \\sqrt{25} = 5$.\n\n**Common mistake:** Students often write $(-7)² = -49$, resulting in a negative square root error under the radical."
+      "explanation": "Substitute the numbers: $y = \\sqrt{(-7)^2 - 4(2)(3)} = \\sqrt{49 - 24} = \\sqrt{25} = 5$.\n\n**Common mistake:** Students often write $(-7)^2 = -49$, resulting in a negative square root error under the radical."
     }
   ]
 }

@@ -24,15 +24,15 @@
     {
       "id": "4-6-three-dimensional-trigonometry-easy-q2",
       "type": "mcq",
-      "question": "Identify the standard formula for finding the length of the interior diagonal $d$. $l, w,$ and $h.",
+      "question": "Identify the standard formula for finding the length of the interior diagonal $d$ of a cuboid with length $l$, width $w$, and height $h$.",
       "options": [
-        "$d = √l^2 + w^2 + h^2$",
+        "$d = \\sqrt{l^2 + w^2 + h^2}$",
         "$d = l + w + h$",
-        "$d = √l^2 + w^2$",
+        "$d = \\sqrt{l^2 + w^2}$",
         "$d = (l \\times w) + h$"
       ],
       "correctIndex": 0,
-      "explanation": "The 3D version of Pythagoras’ theorem sums the squares of all three dimensions to find the longest internal diagonal.\n\n**Common mistake:** Students often apply only the 2D formula ($√l^2 + w^2$), which only calculates the diagonal of the base."
+      "explanation": "The 3D version of Pythagoras’ theorem sums the squares of all three dimensions to find the longest internal diagonal.\n\n**Common mistake:** Students often apply only the 2D formula ($\\sqrt{l}^2 + w^2$), which only calculates the diagonal of the base."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-easy-q3",

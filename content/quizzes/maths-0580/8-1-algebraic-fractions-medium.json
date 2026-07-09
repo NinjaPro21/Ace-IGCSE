@@ -11,7 +11,7 @@
     {
       "id": "8-1-algebraic-fractions-medium-q1",
       "type": "mcq",
-      "question": "Simplify the following $fraction$ completely by factorising both numerator and denominator:\n\n$$\n\\frac{x^2 - 9}{2x + 6}\n",
+      "question": "Simplify completely: $\\frac{x^2 - 9}{2x + 6}$.",
       "options": [
         "$\\frac{x - 3}{2}$",
         "$\\frac{x + 3}{2}$",
@@ -19,12 +19,12 @@
         "$\\frac{x^2 - 9}{2(x + 3)}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factorise the numerator using the difference of two squares: $x^2 - 9 = (x - 3)(x + 3)$. Factorise the denominator by taking out the common factor: $2x + 6 = 2(x + 3)$. Rewrite the $fraction:$ $\\frac{(x - 3)(x + 3)}{2(x + 3)}$. Cancel out the common $(x + 3)$ bracket to get $\\frac{x - 3}{2}$.\n\n**Common mistake:** Students often try to cancel individual parts of the expression (like $x^2$ with $2x$) before factorising, which is mathematically incorrect."
+      "explanation": "Factorise the numerator using the difference of two squares: $x^2 - 9 = (x - 3)(x + 3)$. Factorise the denominator by taking out the common factor: $2x + 6 = 2(x + 3)$. Rewrite the fraction:\\frac{(x - 3)(x + 3)}{2(x + 3)}$. Cancel out the common$(x + 3)$bracket to get$\\frac{x - 3}{2}.\n\n**Common mistake:** Students often try to cancel individual parts of the expression (like x^2 with 2x) before factorising, which is mathematically incorrect\n$$."
     },
     {
       "id": "8-1-algebraic-fractions-medium-q2",
       "type": "mcq",
-      "question": "Express as a single $fraction$ in its simplest form:\n\n$$\n\\frac{3}{x + 1} - \\frac{2}{x}\n",
+      "question": "Write as a single fraction: $\\frac{3}{x + 1} - \\frac{2}{x}$.",
       "options": [
         "$\\frac{x - 2}{x(x + 1)}$",
         "$\\frac{1}{1}$",
@@ -32,12 +32,12 @@
         "$\\frac{5x - 2}{x(x + 1)}$"
       ],
       "correctIndex": 0,
-      "explanation": "The common denominator is $x(x + 1)$. Express each $fraction$ over this common denominator: $\\frac{3x}{x(x + 1)} - \\frac{2(x + 1)}{x(x + 1)}$. Combine the numerators: $3x - 2(x + 1) = 3x - 2x - 2 = x - 2$. Thus, the single simplified $fraction$ is $\\frac{x - 2}{x(x + 1)}$.\n\n**Common mistake:** When expanding $-2(x + 1)$, students regularly forget to distribute the negative sign to the second term, writing $-2x + 2$ instead of $-2x - 2$."
+      "explanation": "The common denominator is $x(x + 1)$. Express each fraction over this common denominator: $\\frac{3x}{x(x + 1)} - \\frac{2(x + 1)}{x(x + 1)}$. Combine the numerators: $3x - 2(x + 1) = 3x - 2x - 2 = x - 2$. Thus, the single simplified fraction is $\\frac{x - 2}{x(x + 1)}$.\n\n**Common mistake:** When expanding $-2(x + 1)$, students regularly forget to distribute the negative sign to the second term, writing $-2x + 2$ instead of $-2x - 2$."
     },
     {
       "id": "8-1-algebraic-fractions-medium-q3",
       "type": "mcq",
-      "question": "Solve the \\frac{1}{a} equation for $x$:\n\n$$\n\\frac{12}{x} = x + 4\n",
+      "question": "Solve the fractional equation for $x$: $\\frac{2}{x-1} = \\frac{3}{x+2}$.",
       "options": [
         "$x = 2$ or $x = -6$",
         "$x = -2$ or $x = 6$",
@@ -50,7 +50,7 @@
     {
       "id": "8-1-algebraic-fractions-medium-q4",
       "type": "mcq",
-      "question": "Solve the equation:\n\n$$\n\\frac{3}{2x - 1} = 2\n",
+      "question": "Solve the equation: $\\frac{3}{2x - 1} = 2$.",
       "options": [
         "$x = 1.25$",
         "$x = 0.75$",
@@ -58,11 +58,11 @@
         "$x = 0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(2x - 1)$ to clear the denominator: $3 = 2(2x - 1)$. Expand the brackets: $3 = 4x - 2$. Add 2 to both sides: $5 = 4x$. So $x = \\frac{5}{4} = 1.25$.\n\n**Common mistake:** Students often fail to multiply the entire denominator expression, writing $3 = 4x - 1$ by forgetting to distribute the 2 to the $-1$ term."
+      "explanation": "Multiply both sides by $(2x - 1)$ to clear the denominator: $3 = 2(2x - 1)$. Expand the brackets: $3 = 4x - 2$. Add 2 to both sides: $5 = 4x$. So $x = \\frac{5}{4} = 1.25$.\n\n**Common mistake:** Students often fail to multiply the entire denominator expression, writing $3 = 4x - 1$ by forgetting to distribute the 2 to the -1\n\n$$ term."
     },
     {
       "type": "mcq",
-      "question": "Express $\\frac{x}{2} + \\frac{x-4}{3}$ as a single $fraction$ in its simplest form.",
+      "question": "Express $\\frac{x}{2} + \\frac{x-4}{3}$ as a single fraction in its simplest form.",
       "options": [
         "$\\frac{5x - 8}{6}$",
         "$\\frac{2x - 4}{5}$",
@@ -70,7 +70,7 @@
         "$\\frac{x - 4}{6}$"
       ],
       "correctIndex": 0,
-      "explanation": "Common denominator is 6. Numerator becomes $3(x) + 2(x-4) = 3x + 2x - 8 = 5x - 8$.\n\n**Common mistake:** Adding the denominators together ($2+3=5$) or failing to distribute 2 to the $-4$.",
+      "explanation": "Common denominator is 6. Numerator becomes $3(x) + 2(x-4) = 3x + 2x - 8 = 5x - 8$.\n\n**Common mistake:** Adding the denominators together ($2+3=5$) or failing to distribute 2 to the -4\n\n$$.",
       "id": "8-1-algebraic-fractions-medium-q5"
     }
   ]

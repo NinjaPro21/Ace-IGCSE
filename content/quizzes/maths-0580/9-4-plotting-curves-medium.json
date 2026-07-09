@@ -50,7 +50,7 @@
     {
       "id": "9-4-plotting-curves-medium-q4",
       "type": "mcq",
-      "question": "The function $y = k/x^2$ passes through the point $(2, 5)$. Determine the value of the constant $k.",
+      "question": "The function $y = k/x^2$ passes through the point $(2, 5)$. Determine the value of the constant $k$.",
       "options": [
         "$20$",
         "$10$",
@@ -63,7 +63,7 @@
     {
       "id": "9-4-plotting-curves-medium-q5",
       "type": "mcq",
-      "question": "Identify the coordinates of the turning point for the quadratic function $y = (x + 6)² - 4$.",
+      "question": "Identify the coordinates of the turning point for the quadratic function $y = (x + 6)^2 - 4$.",
       "options": [
         "$(-6, -4)$",
         "$(6, -4)$",
@@ -71,7 +71,7 @@
         "$(0, 32)$"
       ],
       "correctIndex": 0,
-      "explanation": "When a quadratic is in the form $y = (x - a)² + b$. $(a, b)$. Here, $a = -6$ and $b = -4$.\n\n**Common mistake:** The student might use the sign inside the bracket directly, leading to $(6, -4)$."
+      "explanation": "When a quadratic is in the form $y = (x - a)^2 + b$. $(a, b)$. Here, $a = -6$ and $b = -4$.\n\n**Common mistake:** The student might use the sign inside the bracket directly, leading to $(6, -4)$."
     }
   ]
 }

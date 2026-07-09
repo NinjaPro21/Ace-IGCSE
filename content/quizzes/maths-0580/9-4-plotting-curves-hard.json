@@ -11,7 +11,7 @@
     {
       "id": "9-4-plotting-curves-hard-q1",
       "type": "mcq",
-      "question": "A rectangular garden is enclosed using^100 m of fencing. One side of the garden is a pre-existing stone wall. If $x$ is the width of the garden (the two sides perpendicular to the wall), find the maximum area possible.",
+      "question": "A rectangular garden is enclosed using 100 m of fencing. One side of the garden is a pre-existing stone wall. If $x$ is the width of the garden (the two sides perpendicular to the wall), find the maximum area possible.",
       "options": [
         "$1250$ m 2",
         "$2500$ m 2",
@@ -45,7 +45,7 @@
         "$7$ hours"
       ],
       "correctIndex": 0,
-      "explanation": "The model is $y = 400 \\cdot 2^t$. $102400 = 400 \\cdot 2^t \\Rightarrow 256 = 2^t22^8 = 256$, $t = 8$.\n\n**Common mistake:** The student might divide^102400 by^400 and assume that is the answer, or miscalculate the power of 2."
+      "explanation": "The model is $y = 400 \\cdot 2^t$. $102400 = 400 \\cdot 2^t \\Rightarrow 256 = 2^t22^8 = 256$, $t = 8$.\n\n**Common mistake:** The student might divide^102400 by $400$ and assume that is the answer, or miscalculate the power of 2."
     },
     {
       "id": "9-4-plotting-curves-hard-q4",
@@ -58,7 +58,7 @@
         "$(6, 36)$ and $(0, 0)$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal: $x^2 = x + 6 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Intersections at $x = 3$ ($y=9$) and $x = -2$ ($y=4$).\n\n**Common mistake:** The student might solve for $x$ and $y2x."
+      "explanation": "For $y = \\frac{k}{x}$, as $x \\to 0^+$, $|y| \\to \\infty$.\n\n**Common mistake:** Students may think $y$ approaches $k$ rather than becoming very large."
     },
     {
       "id": "9-4-plotting-curves-hard-q5",

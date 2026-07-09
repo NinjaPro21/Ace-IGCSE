@@ -11,7 +11,7 @@
     {
       "id": "3-1-percentages-financial-maths-rates-and-time-hard-q1",
       "type": "mcq",
-      "question": "Eight workers can dig a hole in^4 hours. How long will it take five workers to dig the same size hole?",
+      "question": "Eight workers can dig a hole in 4 hours. How long will it take five workers to dig the same size hole?",
       "options": [
         "6 hours 24 minutes",
         "2 hours 30 minutes",
@@ -26,23 +26,23 @@
       "type": "mcq",
       "question": "After a price increase of $10\\%$, a television costs^286. What was the original price before the increase?",
       "options": [
-        "$$\n260\n",
-        "$$\n257.40\n",
-        "$$\n314.60\n",
-        "$$\n276\n"
+        "$260$",
+        "$257.40$",
+        "$314.60$",
+        "$276$"
       ],
       "correctIndex": 0,
-      "explanation": "This is a reverse percentage problem. Let the original price be $100\\%$. The new price is $110\\%$. $110\\% = 286, so$. $286 ÷ 110 = 2.60. Original price ($100\\%$) = 2.60 \\times 100 = 260 [9, 15]$.\n\n**Common mistake:** A common mistake is calculating $10\\%$ of^286(\n\n$28.60$) and subtracting it from^286 to get\n$$257.402"
+      "explanation": "This is a reverse percentage problem. Let the original price be $100\\%$. The new price is $110\\%$. $110\\% = 286, so$. $286 ÷ 110 = 2.60. Original price ($100\\%$) = 2.60 \\times 100 = 260 [9, 15]$.\n\n**Common mistake:** A common mistake is calculating $10\\%$ of $286$(\n\n$28.60$) and subtracting it from^286 to get\n$$257.402"
     },
     {
       "id": "3-1-percentages-financial-maths-rates-and-time-hard-q3",
       "type": "mcq",
       "question": "Calculate the amount of money in an account after^5 years if the initial sum invested is $1$ at 2 compound interest per year.",
       "options": [
-        "$$\n2433.31\n",
-        "$$\n2400.00\n",
-        "$$\n2433.00\n",
-        "$$\n2040.00\n"
+        "$2433.31$",
+        "$2400.00$",
+        "$2433.00$",
+        "$2040.00$"
       ],
       "correctIndex": 0,
       "explanation": "Use the compound interest formula: $Value = P(1 + r/100)^n = 2000(1.04)^5 = 2000 \\times 1.21665... = 2433.31[16, 17]$.\n\n**Common mistake:** The student might use the simple interest formula, resulting in $$24002"
@@ -50,7 +50,7 @@
     {
       "id": "3-1-percentages-financial-maths-rates-and-time-hard-q4",
       "type": "mcq",
-      "question": "A car travels^60 km at^30 km/h and then a further^180 km at^160 km/h. Find the average speed for the whole journey.",
+      "question": "A car travels $60$ km at $30$ km/h and then a further $180$ km at $160$ km/h. Find the average speed for the whole journey.",
       "options": [
         "$76.8$ km/h",
         "$95$ km/h",
@@ -63,12 +63,12 @@
     {
       "id": "3-1-percentages-financial-maths-rates-and-time-hard-q5",
       "type": "mcq",
-      "question": "In 2021, a club had 250 members paying $$95$annual subscription. In 2022, membership increased by2and the annual subscription increased by2. Calculate the total income from subscriptions in 2022$.",
+      "question": "In 2021, a club had 250 members paying $95$annual subscription. In 2022, membership increased by2and the annual subscription increased by2. Calculate the total income from subscriptions in 2022.",
       "options": [
-        "$$\n26182\n",
-        "$$\n23750\n",
-        "$$\n25415\n",
-        "$$\n24700\n"
+        "$26182$",
+        "$23750$",
+        "$25415$",
+        "$24700$"
       ],
       "correctIndex": 0,
       "explanation": "New membership = $250 \\times 1.04 = 260$. New subscription = \n\n$95 \\times 1.06 = 100.70. Total income = 260 \\times 100.70 = 26182[19]$.\n\n**Common mistake:** A student might calculate the percentage increases based on the initial total income, failing to account for the compounding nature of the two increases."

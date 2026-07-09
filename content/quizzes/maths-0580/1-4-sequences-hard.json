@@ -11,7 +11,7 @@
     {
       "id": "1-4-sequences-hard-q1",
       "type": "mcq",
-      "question": "Find the complete $n$. $3, 11, 23, 39, 59, \\dots$",
+      "question": "Find the formula for the $n th term of the sequence$3, 11, 23, 39, 59, \\ldots",
       "options": [
         "$2n^2 + 2n - 1$",
         "$2n^2 + 6n - 5$",
@@ -19,12 +19,12 @@
         "$2n^2 - n + 2$"
       ],
       "correctIndex": 0,
-      "explanation": "First differences: 8, 12, 16, 20. Second differences: 4, 4, 4. Thus $a = 4\\div2 = 2$, so the sequence contains $2n^2$. Subtracting $2n^2$ from the terms: $3-2(1)=1, 11-2(4)=3, 23-2(9)=5$. The residual sequence is $1, 3, 5, \\dots^2 2n - 1$. Combining these gives $2n^2 + 2n - 1$.\n\n**Common mistake:** Students may fail to subtract the $2n^2$ base sequence correctly or find the linear component incorrectly, leading to misaligned coefficients."
+      "explanation": "First differences: 8, 12, 16, 20. Second differences: 4, 4, 4. Thus the quadratic coefficient is $a = 4 \\div 2 = 2$, so the sequence contains $2n^2$. Subtracting $2n^2$ from the terms gives $1, 3, 5, \\ldots$, which is $2n - 1$. Hence the $n th term is$2n^2 + 2n - 1$$.\n\n**Common mistake:** Students may fail to subtract the $2n^2$ base sequence correctly or find the linear component incorrectly, leading to misaligned coefficients."
     },
     {
       "id": "1-4-sequences-hard-q2",
       "type": "mcq",
-      "question": "A sequence is formed by multiplying the corresponding terms of two separate sequences. The first sequence is linear with an $n$. $2n + 1$. The second sequence is geometric with an $n$. $3^{n-1}$. Find the 3rd term of this composite sequence.",
+      "question": "A sequence is formed by multiplying corresponding terms of two sequences. The first has $n th term$2n+1$. The second is geometric with$n th term $3^{n-1}$. Find the 3rd term of the product sequence.",
       "options": [
         "63",
         "21",
@@ -37,7 +37,7 @@
     {
       "id": "1-4-sequences-hard-q3",
       "type": "mcq",
-      "question": "The $n$. $n^3 - bn + 4$. Given that the 4th term is 52, determine the value of the constant coefficient $b.",
+      "question": "The $n th term of a sequence is$n^3 - bn + 4$. Given that the 4th term is 52, determine b$.",
       "options": [
         "4",
         "3",
@@ -58,12 +58,12 @@
         "495"
       ],
       "correctIndex": 0,
-      "explanation": "The difference between terms: $U_{11} - U_5 = 6d = 53 - 23 = 30 \\implies d = 5$. Find the first term: $a + 4(5) = 23 \\implies a = 3$. Find the 100th term: $U_{100} = 3 + 99(5) = 3 + 495 = 498$.\n\n**Common mistake:** Students often count the difference in positions as $11 - 5 = 5$ instead of 6, or use $n$. $(n-1)$ in the formula, leading to 503."
+      "explanation": "The difference between terms: $U_{11} - U_5 = 6d = 53 - 23 = 30 \\implies d = 5$. Find the first term: $a + 4(5) = 23 \\implies a = 3$. Find the 100th term: $U_{100} = 3 + 99(5) = 3 + 495 = 498$.\n\n**Common mistake:** Students often count the difference in positions as $11 - 5 = 5$ instead of 6, or use nth term $(n-1)$ in the formula, leading to 503."
     },
     {
       "id": "1-4-sequences-hard-q5",
       "type": "mcq",
-      "question": "The $n$. $\\frac{2n+3}{5n-2}$. Find the position $n$. $\\frac{1}{2}$.",
+      "question": "The nth term $\\frac{2n+3}{5n-2}$. Find the position nth term $\\frac{1}{2}$.",
       "options": [
         "8",
         "5",

@@ -14,12 +14,12 @@
       "question": "A curve has the equation $y = 2x^3 - 3x^2 - 12x + 1$. Work out the $x$-coordinates of the turning points.",
       "options": [
         "2 and $-1$",
-        "$-2$ and^1",
+        "$-2$ and $1$",
         "$0$ and 2",
         "$3$ and $-2$"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} = 6x^2 - 6x - 12$. Set to zero: $6(x^2 - x - 2) = 0 \\Rightarrow (x - 2)(x + 1) = 0$. The $x$. 2 and $-1$.\n\n**Common mistake:** The student might forget to divide by 6 before factoring or swap the signs in the factored brackets."
+      "explanation": "$\\frac{dy}{dx} = 6x^2 - 6x - 12$. Set to zero: $6(x^2 - x - 2) = 0 \\Rightarrow (x - 2)(x + 1) = 0$. The $x$. 2 and -1\n\n$$.\n\n**Common mistake:** The student might forget to divide by 6 before factoring or swap the signs in the factored brackets."
     },
     {
       "id": "9-7-differentiation-pyp-q2",
@@ -63,11 +63,11 @@
     {
       "id": "9-7-differentiation-pyp-q5",
       "type": "mcq",
-      "question": "Find the $x$. So $y = x^3 - 6x^2 - 7x$. Give your answer correct to 2 decimal places.",
+      "question": "Find the $x$-coordinates of the turning points of $y = x^3 - 6x^2 - 7x$, correct to 2 decimal places.",
       "options": [
         "$-0.52$ and $4.52$",
         "$0.52$ and $-4.52$",
-        "$-1$ and^7",
+        "$-1$ and $7$",
         "$-0.48$ and $4.48$"
       ],
       "correctIndex": 0,

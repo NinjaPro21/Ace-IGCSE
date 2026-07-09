@@ -41,11 +41,11 @@
       "options": [
         "10 units",
         "14 units",
-        "$$\n\\sqrt{100} units\n",
-        "$$\n\\sqrt{14} units\n"
+        "$\\sqrt{100} units$",
+        "$\\sqrt{14} units$"
       ],
       "correctIndex": 0,
-      "explanation": "Using the distance formula\nsqrt($x^{2}$\n-$x^{1}$\n$)^{2}$+($y^{2}$\n-$y^{1}$\n$)^{2}$, we get\nsqrt$(13-5)^{2}$+$(7-1)^{2}$=\\sqrt$8^{2}$+$6^{2}$=\\sqrt100=10.\n\n**Common mistake:** The student might add the coordinates directly or forget to take the square root at the end."
+      "explanation": "Using the distance formula $\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$, we get $\\sqrt{(13-5)^2 + (7-1)^2} = \\sqrt{8^2 + 6^2} = \\sqrt{100} = 10$.\n\n**Common mistake:** The student might add the coordinates directly or forget to take the square root at the end."
     },
     {
       "id": "9-2-coordinate-geometry-easy-q4",

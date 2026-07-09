@@ -11,7 +11,7 @@
     {
       "id": "7-4-constructions-hard-q1",
       "type": "mcq",
-      "question": "An angle $XOY$ and $80°$. A point $P$. $OX2OY$. $5\\text{ cm}$ from the vertex $O$. $POX.",
+      "question": "An angle $XOY$ is $80°$. A point $P$ is equidistant from $OX$ and $OY$, and $5\\text{ cm}$ from the vertex $O$. Find the size of angle $POX$.",
       "options": [
         "$40°$",
         "$80°$",
@@ -39,13 +39,13 @@
       "type": "mcq",
       "question": "To construct a $15°$ angle using only a ruler and compasses, which sequence of constructions is most efficient?",
       "options": [
-        "Equilateral triangle $\\rightarrow$. $\\rightarrow$ Angle bisector",
-        "Perpendicular bisector $\\rightarrow$. $\\rightarrow$ Angle bisector",
+        "Equilateral triangle $\\rightarrow$ Angle bisector $\\rightarrow$ Angle bisector",
+        "Perpendicular bisector $\\rightarrow$ Angle bisector $\\rightarrow$ Angle bisector",
         "Equilateral triangle $\\rightarrow$ Perpendicular bisector",
         "Perpendicular bisector $\\rightarrow$ Angle bisector"
       ],
       "correctIndex": 0,
-      "explanation": "Construct $60°$ (equilateral triangle), bisect to get $30°$, then bisect again to get $15°$.\n\n**Common mistake:** The student might think bisecting $90°$ twice ($22.5°$) is part of the path to $15°."
+      "explanation": "Construct $60°$ (equilateral triangle), bisect to get $30°$, then bisect again to get $15°$.\n\n**Common mistake:** The student might think bisecting $90°$ twice ($22.5°$) is part of the path to $15°$."
     },
     {
       "id": "7-4-constructions-hard-q4",
@@ -63,7 +63,7 @@
     {
       "id": "7-4-constructions-hard-q5",
       "type": "mcq",
-      "question": "Construct triangle $ABC$. So $AB = 9\\text{ cm}, BC = 7\\text{ cm},$ and $AC = 5\\text{ cm}$. If the perpendicular bisector of $AB$. $BC2X$. $AX2BX.",
+      "question": "Construct triangle $ABC$ with $AB = 9\\text{ cm}$, $BC = 7\\text{ cm}$ and $AC = 5\\text{ cm}$. The perpendicular bisector of $AB$ meets $BC$ at $X$. Which statement is true about $AX$ and $BX$?",
       "options": [
         "$AX = BX$",
         "$AX > BX$",

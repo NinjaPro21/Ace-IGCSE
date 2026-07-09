@@ -11,7 +11,7 @@
     {
       "id": "2-2-brackets-and-simplifying-easy-q1",
       "type": "mcq",
-      "question": "Simplify completely by collecting like terms: $5x + 3y - 2x + 4y.",
+      "question": "Simplify completely by collecting like terms: $5x + 3y - 2x + 4y$.",
       "options": [
         "$3x + 7y$",
         "$3x - y$",
@@ -32,12 +32,12 @@
         "$7m - 6n$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the term outside the bracket by each term inside: $4 \\times 3m = 12m^2 4 \\times (-2n) = -8n212m - 8n$.\n\n**Common mistake:** Students often only multiply the first term inside the bracket, leaving the second term completely unchanged as $-2n."
+      "explanation": "Multiply the term outside the bracket by each term inside: $4 \\times 3m = 12m$ and $4 \\times (-2n) = -8n$, giving $12m - 8n$.\n\n**Common mistake:** Students often only multiply the first term inside the bracket, leaving the second term completely unchanged as $-2n$."
     },
     {
       "id": "2-2-brackets-and-simplifying-easy-q3",
       "type": "mcq",
-      "question": "Simplify the expression: $a \\times a \\times a + b \\times b.",
+      "question": "Simplify the expression: $a \\times a \\times a + b \\times b$.",
       "options": [
         "$a^3 + b^2$",
         "$3a + 2b$",
@@ -45,7 +45,7 @@
         "$3a^3 + 2b^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Repeated multiplication of the same base results in exponents: $a \\times a \\times a = a^3$ and $b \\times b = b^2$. Adding them together gives $a^3 + b^2$.\n\n**Common mistake:** Students commonly confuse multiplication with addition, writing $a \\times a \\times a = 3a$. So $b \\times b = 2b."
+      "explanation": "Repeated multiplication of the same base gives exponents: $a \\times a \\times a = a^3$ and $b \\times b = b^2$. Adding them gives $a^3 + b^2$.\n\n**Common mistake:** Students commonly confuse multiplication with addition, writing $a \\times a \\times a = 3a$ and $b \\times b = 2b$."
     },
     {
       "id": "2-2-brackets-and-simplifying-easy-q4",

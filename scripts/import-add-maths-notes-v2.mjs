@@ -287,7 +287,7 @@ for (const ch of chapters) {
     number: ch.number,
     title: ch.title,
     badge: existingCh?.badge ?? `CH.${ch.number} ${ch.title.toUpperCase().slice(0, 14)}`,
-    summary: ch.topics.map((t) => cleanDisplayTitle(t.title)).join(' · ').slice(0, 120),
+    summary: ch.topics.map((t) => cleanDisplayTitle(t.title)).join(' · '),
     topicIds: ch.topics.map((t) => t.topicId),
     accentColor: existingCh?.accentColor ?? ACCENTS[(ch.number - 1) % ACCENTS.length],
     hasChapterQuiz: existingCh?.hasChapterQuiz ?? true,

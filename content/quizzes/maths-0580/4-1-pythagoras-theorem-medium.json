@@ -19,7 +19,7 @@
         "$12.7\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The diagonal forms the hypotenuse of a right-angled triangle: $\\sqrt{12}² + 9^2 = \\sqrt{144} + 81 = \\sqrt{225} = 15$.\n\n**Common mistake:** A student might miscalculate $12^2$ as^24 or $9^2$ as^18, leading to an incorrect root."
+      "explanation": "The diagonal forms the hypotenuse of a right-angled triangle: $\\sqrt{12}^2 + 9^2 = \\sqrt{144} + 81 = \\sqrt{225} = 15$.\n\n**Common mistake:** A student might miscalculate $12^2$ as^24 or $9^2$ as^18, leading to an incorrect root."
     },
     {
       "id": "4-1-pythagoras-theorem-medium-q2",
@@ -32,7 +32,7 @@
         "$16\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "The ladder is the hypotenuse. Height $= \\sqrt{10}² - 6^2 = \\sqrt{100} - 36 = \\sqrt{64} = 8$.\n\n**Common mistake:** The student might treat the wall height as the hypotenuse and add the squares ($100 + 36 = 136$)."
+      "explanation": "The ladder is the hypotenuse. Height $= \\sqrt{10}^2 - 6^2 = \\sqrt{100} - 36 = \\sqrt{64} = 8$.\n\n**Common mistake:** The student might treat the wall height as the hypotenuse and add the squares ($100 + 36 = 136$)."
     },
     {
       "id": "4-1-pythagoras-theorem-medium-q3",
@@ -45,7 +45,7 @@
         "$\\sqrt{7}$ units"
       ],
       "correctIndex": 0,
-      "explanation": "Horizontal distance $= 5 - 1 = 4$. Vertical distance $= 5 - 2 = 3$. Distance $= \\sqrt{4}² + 3^2 = \\sqrt{25} = 5$.\n\n**Common mistake:** A student might subtract the coordinates but forget to square them or take the root."
+      "explanation": "Horizontal distance $= 5 - 1 = 4$. Vertical distance $= 5 - 2 = 3$. Distance $= \\sqrt{4}^2 + 3^2 = \\sqrt{25} = 5$.\n\n**Common mistake:** A student might subtract the coordinates but forget to square them or take the root."
     },
     {
       "id": "4-1-pythagoras-theorem-medium-q4",
@@ -58,7 +58,7 @@
         "$16.4\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The height bisects the base into two $5\\text{ cm}$ segments. Height $= \\sqrt{13}² - 5^2 = \\sqrt{169} - 25 = \\sqrt{144} = 12$.\n\n**Common mistake:** The student might use the full base length ($10$) in the calculation instead of half the base ($5$)."
+      "explanation": "The height bisects the base into two $5\\text{ cm}$ segments. Height $= \\sqrt{13}^2 - 5^2 = \\sqrt{169} - 25 = \\sqrt{144} = 12$.\n\n**Common mistake:** The student might use the full base length ($10$) in the calculation instead of half the base ($5$)."
     },
     {
       "id": "4-1-pythagoras-theorem-medium-q5",
@@ -71,7 +71,7 @@
         "$\\sqrt{1156}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonals of a rhombus bisect at $90°$. Triangle sides are^8 and^15. Side $= \\sqrt{8}² + 15^2 = \\sqrt{64} + 225 = \\sqrt{289} = 17$.\n\n**Common mistake:** A student might use the full diagonal lengths ($16$ and^30) in the formula, leading to a side of^34."
+      "explanation": "Diagonals of a rhombus bisect at $90°$. Triangle sides are^8 and $15$. Side $= \\sqrt{8}^2 + 15^2 = \\sqrt{64} + 225 = \\sqrt{289} = 17$.\n\n**Common mistake:** A student might use the full diagonal lengths ($16$ and $30$) in the formula, leading to a side of $34$."
     }
   ]
 }

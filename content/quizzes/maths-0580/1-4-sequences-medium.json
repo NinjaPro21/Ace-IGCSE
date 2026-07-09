@@ -11,7 +11,7 @@
     {
       "id": "1-4-sequences-medium-q1",
       "type": "mcq",
-      "question": "Find the $n$. $-2, 3, 8, 13, 18, \\dots$",
+      "question": "Find the nth term $-2, 3, 8, 13, 18, \\dots$",
       "options": [
         "$5n - 7$",
         "$5n - 2$",
@@ -19,7 +19,7 @@
         "$5n + 3$"
       ],
       "correctIndex": 0,
-      "explanation": "The common difference is $3 - (-2) = 5$, giving a leading term of $5n$. So $n=1$), find the constant $c$. $5(1) + c = -2 \\implies c = -7$. Thus, the expression is $5n - 7$.\n\n**Common mistake:** Students often use the first term directly as the constant, resulting in $5n - 2$, or match the common difference to the second term."
+      "explanation": "The common difference is $3 - (-2) = 5$, giving a leading term of $5n$. So $n=1$)$, find the constant c$. $5(1) + c = -2 \\implies c = -7$. Thus, the expression is $5n - 7$.\n\n**Common mistake:** Students often use the first term directly as the constant, resulting in $5n - 2$, or match the common difference to the second term."
     },
     {
       "id": "1-4-sequences-medium-q2",
@@ -50,7 +50,7 @@
     {
       "id": "1-4-sequences-medium-q4",
       "type": "mcq",
-      "question": "The $n$. $n^2 - 4n$. Which term in this sequence has a value of 21?",
+      "question": "The nth term $n^2 - 4n$. Which term in this sequence has a value of 21?",
       "options": [
         "7th term",
         "3rd term",

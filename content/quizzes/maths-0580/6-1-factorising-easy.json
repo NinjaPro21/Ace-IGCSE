@@ -19,12 +19,12 @@
         "$3ab(2a + 3b)$"
       ],
       "correctIndex": 0,
-      "explanation": "Find the Highest Common Factor (HCF) of the numerical coefficients^6 and^9, which is $1$. For the variables, the lowest power of $a$. $a^1$ and for $b$. $b^1$. Therefore, the common factor is $3ab$. $3ab23ab(2a - 3b)$.\n\n**Common mistake:** Students often fail to factorise completely, only extracting $a$. $3$, leaving a common factor still inside the bracket."
+      "explanation": "Find the Highest Common Factor (HCF) of the numerical coefficients^6 and $9$, which is $1$. For the variables, the lowest power of $a$. $a^1$ and for $b$. $b^1$. Therefore, the common factor is $3ab$. $3ab23ab(2a - 3b)$.\n\n**Common mistake:** Students often fail to factorise completely, only extracting $a$. $3$, leaving a common factor still inside the bracket."
     },
     {
       "id": "6-1-factorising-easy-q2",
       "type": "mcq",
-      "question": "Factorise completely: $12x^3y^2 + 8x^2y.",
+      "question": "Factorise completely: $12x^3y^2 + 8x^2y$.",
       "options": [
         "$4x^2y(3xy + 2)$",
         "$4x^2y(3x^2y + 2)$",
@@ -32,11 +32,11 @@
         "$4xy(3x^2y + 2)$"
       ],
       "correctIndex": 0,
-      "explanation": "The HCF of^12 and^8 is $1$. The lowest power of $x$. $x^2$, and for $y$. $y^1$. Factoring out $4x^2y$. So $\\frac{12x^3y^2}{4x^2y} = 3xy2\\frac{8x^2y}{4x^2y} = 2$. Thus, $4x^2y(3xy + 2)$.\n\n**Common mistake:** Students frequently write^0 or omit the second term inside the bracket instead of $+2$ when the entire term is factored out."
+      "explanation": "The HCF of $12$ and $8$ is $1$. The lowest power of $x$. $x^2$, and for $y$. $y^1$. Factoring out $4x^2y$. So $\\frac{12x^3y^2}{4x^2y} = 3xy2\\frac{8x^2y}{4x^2y} = 2$. Thus, $4x^2y(3xy + 2)$.\n\n**Common mistake:** Students frequently write^0 or omit the second term inside the bracket instead of +2\n\n$$ when the entire term is factored out."
     },
     {
       "type": "mcq",
-      "question": "Factorise the expression completely: $5a + 5b.",
+      "question": "Factorise the expression completely: $5a + 5b$.",
       "options": [
         "$5(a + b)$",
         "$5ab$",
@@ -49,7 +49,7 @@
     },
     {
       "type": "mcq",
-      "question": "Factorise the expression completely: $2y^2 + 3y.",
+      "question": "Factorise the expression completely: $2y^2 + 3y$.",
       "options": [
         "$y(2y + 3)$",
         "$2y(y + 3)$",
@@ -62,7 +62,7 @@
     },
     {
       "type": "mcq",
-      "question": "Factorise the expression completely: $x^2 + xy.",
+      "question": "Factorise the expression completely: $x^2 + xy$.",
       "options": [
         "$x(x + y)$",
         "$x^2y$",
@@ -70,7 +70,7 @@
         "$x(1 + y)$"
       ],
       "correctIndex": 0,
-      "explanation": "The highest common factor is $x$. $(x + y)$ inside the brackets.\n\n**Common mistake:** Leaving one $x$. $x^2$ as if it has no common factor with $xy.",
+      "explanation": "The highest common factor is $x$, giving $x(x + y)$.\n\n**Common mistake:** Leaving one $x$ in $x^2$ as if it has no common factor with $xy$.",
       "id": "6-1-factorising-easy-q5"
     }
   ]

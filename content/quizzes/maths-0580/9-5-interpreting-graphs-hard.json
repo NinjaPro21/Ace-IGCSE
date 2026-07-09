@@ -11,7 +11,7 @@
     {
       "id": "9-5-interpreting-graphs-hard-q1",
       "type": "mcq",
-      "question": "The speed–time graph of a journey shows a car accelerating from^0 to $V$. $10$ seconds, then travelling at constant speed $V$. $20$ seconds. If the total distance travelled is $1$ m, calculate the value of $V.",
+      "question": "A speed–time graph shows a car accelerating uniformly from $0$ to $V$ m/s in $10$ seconds, then travelling at constant speed $V$ m/s for $20$ seconds. If the total distance is $400$ m$, find V$.",
       "options": [
         "$16$ m/s",
         "$13.3$ m/s",
@@ -19,12 +19,12 @@
         "$40$ m/s"
       ],
       "correctIndex": 0,
-      "explanation": "The area is a trapezium with parallel sides^20 and^30, and height $V$. So $Area = 0.5 \\cdot (20 + 30) \\cdot V = 400 \\Rightarrow 25V = 400 \\Rightarrow V = 16$.\n\n**Common mistake:** The student might assume the entire journey was at constant speed $V$. $30V = 400$) or use the wrong side lengths for the trapezium."
+      "explanation": "Distance $= \\frac{1}{2}(10)V + 20V = 25V$. So $400 = 25V$ and $V = 16$ m/s.\n\n**Common mistake:** Students forget the triangular area during acceleration and use only $20V$."
     },
     {
       "id": "9-5-interpreting-graphs-hard-q2",
       "type": "mcq",
-      "question": "A speed–time graph is curved during the first^5 seconds. A tangent is drawn at $t = 2$. The tangent passes through $(0, 4)$ and $(4, 14)$. Estimate the acceleration of the object at $t = 2$.",
+      "question": "A speed–time graph is curved during the first 5 seconds. A tangent is drawn at $t = 2$. The tangent passes through $(0, 4)$ and $(4, 14)$. Estimate the acceleration of the object at $t = 2$.",
       "options": [
         "$2.5$ m/s 2",
         "$3.5$ m/s 2",
@@ -37,7 +37,7 @@
     {
       "id": "9-5-interpreting-graphs-hard-q3",
       "type": "mcq",
-      "question": "A car's fuel tank contains^40 Litres. It travels^120 km with a consumption of^8 km/L, then refills^25 Litres. It then travels another^180 km at^12 km/L. How much fuel is in the tank at the end of the journey?",
+      "question": "A car starts with $40$ Litres of fuel. It travels $120$ km at $8$ km/L, refuels $25$ Litres, then travels another $180$ km at $12$ km/L. How much fuel remains at the end?",
       "options": [
         "$35$ Litres",
         "$25$ Litres",
@@ -50,7 +50,7 @@
     {
       "id": "9-5-interpreting-graphs-hard-q4",
       "type": "mcq",
-      "question": "A motorboat travels downstream at^24 km/h and upstream at^16 km/h. It has fuel for^5 hours. Calculate the maximum distance it can travel downstream before it must turn back to return to its starting point within the fuel limit.",
+      "question": "A motorboat travels downstream at $24$ km/h and upstream at $16$ km/h. It has fuel for $5$ hours of travel. Find the maximum downstream distance it can travel before turning back and returning to the start within the fuel limit.",
       "options": [
         "$48$ km",
         "$40$ km",
@@ -63,7 +63,7 @@
     {
       "id": "9-5-interpreting-graphs-hard-q5",
       "type": "mcq",
-      "question": "The profit $P$ (in 1000s  and x21000s^2 So P = -x2 + 6x - 5$. Use the graph of this function to find the range of2for which the firm makes a profit of at least$\n\n$3000$.",
+      "question": "The profit $P$ (in thousands of dollars) is modelled by $P = -x^2 + 6x - 5$, where $x$ is in hundreds of units sold. Use the graph to find the range of $x$ for which the profit is at least 3000 dollars.",
       "options": [
         "$2 \\le x \\le 4$",
         "$1 \\le x \\le 5$",
@@ -71,7 +71,7 @@
         "$3 \\le x \\le 5$"
       ],
       "correctIndex": 0,
-      "explanation": "Set $P \\ge 3$: $-x^2 + 6x - 5 \\ge 3 \\Rightarrow -x^2 + 6x - 8 \\ge 0 \\Rightarrow x^2 - 6x + 8 \\le 0$. Factorising $(x-2)(x-4) \\le 0$ gives the interval $2 \\le x \\le 4$.\n\n**Common mistake:** The student might find the roots of the original equation ($1$ and^5) where the profit is zero, rather than the range for^3000 profit."
+      "explanation": "Set $P \\ge 3$: $-x^2 + 6x - 5 \\ge 3 \\Rightarrow -x^2 + 6x - 8 \\ge 0 \\Rightarrow x^2 - 6x + 8 \\le 0$. Factorising $(x-2)(x-4) \\le 0$ gives the interval $2 \\le x \\le 4$.\n\n**Common mistake:** The student might find the roots of the original equation ($1$ and $5$) where the profit is zero, rather than the range for at least 3000 dollars profit."
     }
   ]
 }

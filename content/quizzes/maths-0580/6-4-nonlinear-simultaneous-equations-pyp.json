@@ -37,7 +37,7 @@
     {
       "id": "6-4-nonlinear-simultaneous-equations-pyp-q3",
       "type": "mcq",
-      "question": "A line $y = 2x + c$. So $y = x^2 + 6x + 7$ at exactly one point. Find the value of the constant $c.",
+      "question": "A line $y = 2x + c$ touches the curve $y = x^2 + 6x + 7$ at exactly one point. Find $c$.",
       "options": [
         "$3$",
         "$4$",
@@ -45,7 +45,7 @@
         "$-3$"
       ],
       "correctIndex": 0,
-      "explanation": "Set the equations equal: $x^2 + 6x + 7 = 2x + c \\implies x^2 + 4x + (7 - c) = 0$. Since there is exactly one point of intersection, the discriminant must equal zero: $\\Delta = b^2 - 4ac = 0 \\implies 4^2 - 4(1)(7 - c) = 0 \\implies 16 - 28 + 4c = 0 \\implies -12 + 4c = 0 \\implies 4c = 12 \\implies c = 3$.\n\n**Common mistake:** Students often lose the bracket when subtracting $4ac$. $16 - 28 - 4c = 0$, which leads to an incorrect sign for $c."
+      "explanation": "For a tangent, the discriminant of $x^2 + 6x + 7 = 2x + c$ must be zero. This gives $x^2 + 4x + (7 - c) = 0$, so $16 - 4(7 - c) = 0$ and $c = 3$.\n\n**Common mistake:** Students substitute one point instead of using the condition for equal roots."
     },
     {
       "type": "mcq",

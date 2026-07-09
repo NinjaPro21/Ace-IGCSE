@@ -11,7 +11,7 @@
     {
       "id": "7-5-nets-hard-q1",
       "type": "mcq",
-      "question": "The net of a closed rectangular box is shown with lengths labelled $a, b,$ and $c$. $480\\text{ cm}³$ and the net shows two rectangles of $8\\text{ cm} \\times 6\\text{ cm}$, find the third dimension $c.",
+      "question": "The net of a closed rectangular box has dimensions $a$, $b$ and $c$. The volume is $480\\text{ cm}^3$ and the net shows two rectangles of $8\\text{ cm} \\times 6\\text{ cm}$. Find the third dimension $c$.",
       "options": [
         "$10\\text{ cm}$",
         "$5\\text{ cm}$",
@@ -24,7 +24,7 @@
     {
       "id": "7-5-nets-hard-q2",
       "type": "mcq",
-      "question": "A net is being designed for a cylinder of height $10\\text{ cm}$ and radius $r$. $60\\pi\\text{ cm}²$, find the value of $r.",
+      "question": "A net is being designed for a cylinder of height $10\\text{ cm}$ and radius $r$. The curved surface area is $60\\pi\\text{ cm}^2$. Find the value of $r$.",
       "options": [
         "$3\\text{ cm}$",
         "$6\\text{ cm}$",
@@ -37,7 +37,7 @@
     {
       "id": "7-5-nets-hard-q3",
       "type": "mcq",
-      "question": "A net for a right-angled triangular prism is made. The triangular faces have sides $3\\text{ cm}, 4\\text{ cm},$ and $5\\text{ cm}$. The prism length is $L$. $132\\text{ cm}²$, find $L.",
+      "question": "A net for a right-angled triangular prism is made. The triangular faces have sides $3\\text{ cm}$, $4\\text{ cm}$ and $5\\text{ cm}$. The prism length is $L$. The total surface area is $132\\text{ cm}^2$. Find $L$.",
       "options": [
         "$10\\text{ cm}$",
         "$11\\text{ cm}$",
@@ -52,18 +52,18 @@
       "type": "mcq",
       "question": "A cube net has a total perimeter of $56\\text{ cm}$. If the net is in the shape of a cross (4 squares down, 3 across), calculate the volume of the folded cube.",
       "options": [
-        "$64\\text{ cm}³$",
-        "$8\\text{ cm}³$",
-        "$216\\text{ cm}³$",
-        "$27\\text{ cm}³$"
+        "$64\\text{ cm}^3$",
+        "$8\\text{ cm}^3$",
+        "$216\\text{ cm}^3$",
+        "$27\\text{ cm}^3$"
       ],
       "correctIndex": 0,
-      "explanation": "A cross-shaped cube net has 14 external edge segments. $14 \\times side = 56 \\Rightarrow side = 4\\text{ cm}$. Volume $= 4^3 = 64\\text{ cm}³$.\n\n**Common mistake:** The student might divide 56 by 12 (edges of a cube) or 24 (total sides of 6 squares) instead of the perimeter segments."
+      "explanation": "A cross-shaped cube net has 14 external edge segments. $14 \\times side = 56 \\Rightarrow side = 4\\text{ cm}$. Volume $= 4^3 = 64\\text{ cm}^3$.\n\n**Common mistake:** The student might divide 56 by 12 (edges of a cube) or 24 (total sides of 6 squares) instead of the perimeter segments."
     },
     {
       "id": "7-5-nets-hard-q5",
       "type": "mcq",
-      "question": "The net of a cone consists of a circle of radius $3\\text{ cm}$ and a sector of a larger circle with radius $R$. $\\pi.",
+      "question": "The net of a cone consists of a circle of radius $3\\text{ cm}$ and a sector of a larger circle with radius $R$. Find the arc length of the sector, leaving your answer in terms of $\\pi$.",
       "options": [
         "$6\\pi\\text{ cm}$",
         "$3\\pi\\text{ cm}$",
@@ -71,7 +71,7 @@
         "$12\\pi\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The arc length of the sector must equal the circumference of the circular base. $C = 2\\pi r = 2\\pi(3) = 6\\pi\\text{ cm}$.\n\n**Common mistake:** A student might pick $3\\pi^2 2\\pi r29\\pi$)."
+      "explanation": "The arc length of the sector must equal the circumference of the circular base. $C = 2\\pi r = 2\\pi(3) = 6\\pi\\text{ cm}$.\n\n**Common mistake:** A student might use $\\pi r^2$ or $2\\pi r^2$ instead of the circumference."
     }
   ]
 }

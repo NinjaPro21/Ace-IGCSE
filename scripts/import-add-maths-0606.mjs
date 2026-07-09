@@ -392,7 +392,7 @@ if (!notesOnly) {
       badge: existingCh?.badge ?? `CH.${ch.number} ${ch.title.toUpperCase().slice(0, 14)}`,
       summary:
         existingCh?.summary ??
-        ch.topics.map((t) => t.title.split('(')[0].trim()).join(' · ').slice(0, 120),
+        ch.topics.map((t) => t.title).join(' · '),
       topicIds: ch.topics.map((t) => t.id),
       accentColor: existingCh?.accentColor ?? ACCENTS[(ch.number - 1) % ACCENTS.length],
       hasChapterQuiz: existingCh?.hasChapterQuiz ?? hasQuizzes,

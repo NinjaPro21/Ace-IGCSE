@@ -11,7 +11,7 @@
     {
       "id": "10-1-any-angle-easy-q1",
       "type": "mcq",
-      "question": "According to the unit circle definition, if a point $P(x, y)$ moves around a circle of radius 1, which trigonometric ratio is represented by the $y$ and $P?",
+      "question": "According to the unit circle definition, if a point $P(x, y)$ moves around a circle of radius 1, which trigonometric ratio is represented by the $y$-coordinate of $P$?",
       "options": [
         "$\\sin \\theta$",
         "$\\cos \\theta$",
@@ -19,7 +19,7 @@
         "The radius"
       ],
       "correctIndex": 0,
-      "explanation": "On a unit circle with radius 1, the $y$ and $P2\\theta$. $\\sin \\theta$.\n\n**Common mistake:** Students often swap the coordinates, thinking the $x$ and $y$-coordinate is cosine."
+      "explanation": "On a unit circle of radius 1, the $y$-coordinate of $P$ gives $\\sin\\theta$.\n\n**Common mistake:** Students often swap the coordinates, thinking the $x$-coordinate is sine."
     },
     {
       "id": "10-1-any-angle-easy-q2",
@@ -50,7 +50,7 @@
     {
       "id": "10-1-any-angle-easy-q4",
       "type": "mcq",
-      "question": "Which general rule explains why $\\cos(-30°) = \\cos 30°?",
+      "question": "Which general rule explains why $\\cos(-30°) = \\cos 30°$?",
       "options": [
         "$\\cos(-x) = \\cos x$",
         "$\\cos(-x) = -\\cos x$",
@@ -58,12 +58,12 @@
         "$\\cos x = \\sin(90° - x)$"
       ],
       "correctIndex": 0,
-      "explanation": "The cosine graph has reflective symmetry about the $y$. So $\\cos(-x) = \\cos x$.\n\n**Common mistake:** Students often assume all trigonometric functions behave the same and might think $\\cos(-x) = -\\cos x$, which is actually the rule for sine."
+      "explanation": "The cosine graph has reflective symmetry about the $y$-axis. So $\\cos(-x) = \\cos x$.\n\n**Common mistake:** Students often assume all trigonometric functions behave the same and might think $\\cos(-x) = -\\cos x$, which is actually the rule for sine."
     },
     {
       "id": "10-1-any-angle-easy-q5",
       "type": "mcq",
-      "question": "State the exact value of $\\cos 120°.",
+      "question": "State the exact value of $\\cos 120°$.",
       "options": [
         "$-0.5$",
         "$0.5$",

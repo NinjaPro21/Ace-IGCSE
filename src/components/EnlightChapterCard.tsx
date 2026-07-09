@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { MathText } from '@/components/MathText'
 import type { ChapterMeta } from '@/lib/contentTypes'
 import { getTopicsForChapter } from '@/lib/contentLoader'
 
@@ -35,7 +36,9 @@ export function EnlightChapterCard({ chapter, status, masteryPercent }: EnlightC
         {chapter.number === 0 ? 'Calculator' : `Chapter ${chapter.number}`}
       </span>
       <h3 className="enlight-chapter-card__title">{chapter.title}</h3>
-      <p className="enlight-chapter-card__summary">{chapter.summary}</p>
+      <p className="enlight-chapter-card__summary">
+        <MathText content={chapter.summary} title />
+      </p>
       {masteryPercent !== undefined && masteryPercent > 0 && (
         <div className="enlight-chapter-card__progress">
           <div className="enlight-chapter-card__progress-bar">

@@ -50,7 +50,7 @@
     {
       "id": "11-3-11-4-functions-pyp-q4",
       "type": "mcq",
-      "question": "If $f(x) = \\sin x$. So $g(x) = 3x + 6$, determine the expression for $g^{-1}(f(x))$.",
+      "question": "If $f(x) = \\sin x$ and $g(x) = 3x + 6$, determine the expression for $g^{-1}(f(x))$.",
       "options": [
         "$(\\sin x - 6) / 3$",
         "$(\\sin x + 6) / 3$",
@@ -58,7 +58,7 @@
         "$3\\sin x + 6$"
       ],
       "correctIndex": 0,
-      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$ and $f."
+      "explanation": "First find $g^{-1}(x) = (x - 6) / 3$. Then substitute $f(x)$ into $g^{-1}$: $g^{-1}(f(x)) = (\\sin x - 6) / 3$.\n\n**Common mistake:** Failing to calculate the inverse function of $g$ before substituting $f(x)$."
     },
     {
       "id": "11-3-11-4-functions-pyp-q5",

@@ -11,7 +11,7 @@
     {
       "id": "5-5-5-6-volume-surface-area-hard-q1",
       "type": "mcq",
-      "question": "A cylindrical metal pipe has an external diameter of $6\\text{ cm}$ and an internal diameter of $4\\text{ cm}$. Calculate the volume of metal in a pipe of length $25\\text{ cm}$ in terms of $\\pi.",
+      "question": "A cylindrical metal pipe has an external diameter of $6\\text{ cm}$ and an internal diameter of $4\\text{ cm}$. Calculate the volume of metal in a pipe of length $25\\text{ cm}$ in terms of $\\pi$.",
       "options": [
         "$125\\pi\\text{ cm}^3$",
         "$500\\pi\\text{ cm}^3$",
@@ -19,7 +19,7 @@
         "$50\\pi\\text{ cm}^3$"
       ],
       "correctIndex": 0,
-      "explanation": "External radius $= 3$, Internal radius $= 2$. Metal Volume $= \\text{Ext Volume} - \\text{Int Volume} = \\pi(3^2)(25) - \\pi(2^2)(25) = 225\\pi - 100\\pi = 125\\pi$.\n\n**Common mistake:** A common error is subtracting the diameters (6-4=2$) and then finding the volume as if it were a solid cylinder of radius^1$."
+      "explanation": "External radius $= 3$, Internal radius $= 2$. Metal Volume $= \\text{Ext Volume} - \\text{Int Volume} = \\pi(3^2)(25) - \\pi(2^2)(25) = 225\\pi - 100\\pi = 125\\pi$.\n\n**Common mistake:** A common error is subtracting the diameters ($6-4=2$) and then finding the volume as if it were a solid cylinder of radius $1$."
     },
     {
       "id": "5-5-5-6-volume-surface-area-hard-q2",
@@ -32,7 +32,7 @@
         "$3.00\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Rise Volume $= Sphere Volume^2 2\\pi(10^{2})h = \\frac{4}{3}\\pi(3^3)$. $100\\pi h = 36\\pi^2 So h = 36 / 100 = 0.36\\text{ cm}$.\n\n**Common mistake:** Students might divide the volume of the sphere by the radius of the cylinder instead of the area of the cylinder's base."
+      "explanation": "Rise Volume $= Sphere Volume^2 2\\pi(10^{2})h = \\frac{4}{3}\\pi(3^3)$. $100\\pi h = 36\\pi$. So $h = 36 / 100 = 0.36\\text{ cm}$.\n\n**Common mistake:** Students might divide the volume of the sphere by the radius of the cylinder instead of the area of the cylinder's base."
     },
     {
       "id": "5-5-5-6-volume-surface-area-hard-q3",
@@ -58,7 +58,7 @@
         "$15\\pi\\text{ cm}^3$"
       ],
       "correctIndex": 0,
-      "explanation": "Total height $H / (H-3) = 5/2 \\Rightarrow 2H = 5H - 15 \\Rightarrow H = 5$. Large cone $V = \\frac{1}{3}\\pi(25)(5) = \\frac{125}{3}\\pi^2 So V = \\frac{1}{3}\\pi(4)(2) = \\frac{8}{3}\\pi2= \\frac{117}{3}\\pi = 39\\pi$.\n\n**Common mistake:** The student might assume the height of the removed cone is the same as the frustum height."
+      "explanation": "Total height $H / (H-3) = 5/2 \\Rightarrow 2H = 5H - 15 \\Rightarrow H = 5$. Large cone $V = \\frac{1}{3}\\pi(25)(5) = \\frac{125}{3}\\pi$. So $V = \\frac{1}{3}\\pi(4)(2) = \\frac{8}{3}\\pi2= \\frac{117}{3}\\pi = 39\\pi$.\n\n**Common mistake:** The student might assume the height of the removed cone is the same as the frustum height."
     },
     {
       "id": "5-5-5-6-volume-surface-area-hard-q5",

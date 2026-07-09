@@ -11,7 +11,7 @@
     {
       "id": "6-2-6-3-quadratic-equations-hard-q1",
       "type": "mcq",
-      "question": "Solve the rational \\frac{1}{a} equation: $\\frac{2}{x} + \\frac{3}{x+1} = 2$.",
+      "question": "Solve the rational fractional equation: $\\frac{2}{x} + \\frac{3}{x+1} = 2$.",
       "options": [
         "$x = 2$ or $x = -0.5$",
         "$x = -2$ or $x = 0.5$",
@@ -19,12 +19,12 @@
         "$x = 4$ or $x = -1$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the entire equation by the common denominator $x(x+1)$ to clear $tions:$ $2(x + 1) + 3x = 2x(x + 1) \\implies 2x + 2 + 3x = 2x^2 + 2x$. $5x + 2 = 2x^2 + 2x \\implies 2x^2 - 3x - 2 = 0$. Factorising yields $(2x + 1)(x - 2) = 0$, giving solutions $x = 2$ or $x = -0.5$.\n\n**Common mistake:** Students often clear the denominators incorrectly by failing to distribute the multiplier across the right-hand constant side."
+      "explanation": "Multiply the entire equation by the common denominator $x(x+1)$ to clear fractions:2(x + 1) + 3x = 2x(x + 1) \\implies 2x + 2 + 3x = 2x^2 + 2x25x + 2 = 2x^2 + 2x \\implies 2x^2 - 3x - 2 = 0$. Factorising yields$(2x + 1)(x - 2) = 0$, giving solutions x = 2orx= -0$.5\n\n$$.\n\n**Common mistake:** Students often clear the denominators incorrectly by failing to distribute the multiplier across the right-hand constant side."
     },
     {
       "id": "6-2-6-3-quadratic-equations-hard-q2",
       "type": "mcq",
-      "question": "A right-angled triangle has a base of $(x + 2)$ cm and a perpendicular height of $(2x - 3)$ cm. If the area of the triangle is $15\\text{ cm}^2$, find the value of $x.",
+      "question": "A right-angled triangle has a base of $(x + 2)$ cm and a perpendicular height of $(2x - 3)$ cm. If the area of the triangle is $15\\text{ cm}^2$, find the value of $x$.",
       "options": [
         "$4$",
         "$3.5$",
@@ -45,12 +45,12 @@
         "$x = 2$ or $x = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and^9), forgetting to compute the final square roots for $x."
+      "explanation": "Let $u = x^2$. The equation reduces to a standard quadratic system: $u^2 - 13u + 36 = 0$. Factorising gives $(u - 4)(u - 9) = 0 \\implies u = 4$ or $u = 9$. Substitute $x^2$ back in: $x^2 = 4 \\implies x = \\pm 2$ and $x^2 = 9 \\implies x = \\pm 3$.\n\n**Common mistake:** Students commonly stop solving once they obtain the values for $u$. $4$ and $9$), forgetting to compute the final square roots for $x$."
     },
     {
       "id": "6-2-6-3-quadratic-equations-hard-q4",
       "type": "mcq",
-      "question": "Convert the non-monic expression $2x^2 - 6x + 7$ into the vertex completed square layout $a(x - p)^2 + q.",
+      "question": "Convert the non-monic expression $2x^2 - 6x + 7$ into the vertex completed square layout $a(x - p)^2 + q$.",
       "options": [
         "$2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$",
         "$2\\left(x - 3\\right)^2 - 11$",
@@ -58,7 +58,7 @@
         "$2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{11}{2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Factor out the coefficient 2 from the algebraic terms: $2(x^2 - 3x) + 7$. Complete the square inside the bracket: $2\\left[\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{4}\\right] + 7$. Expand the outer bracket: $2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{2} + 7$. Simplify the constants: $-\\frac{9}{2} + \\frac{14}{2} = +\\frac{5}{2}$. This yields $2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$.\n\n**Common mistake:** Students frequently forget to multiply the subtracted squared $fraction$ by the factored-out coefficient2, leaving it as -2.25 + 7 = 4.75."
+      "explanation": "Factor out the coefficient 2 from the algebraic terms: $2(x^2 - 3x) + 7$. Complete the square inside the bracket: $2\\left[\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{4}\\right] + 7$. Expand the outer bracket: $2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{2} + 7$. Simplify the constants: $-\\frac{9}{2} + \\frac{14}{2} = +\\frac{5}{2}$. This yields $2\\left(x - \\frac{3}{2}\\right)^2 + \\frac{5}{2}$.\n\n**Common mistake:** Students frequently forget to multiply the subtracted squared fraction by the factored-out coefficient2, leaving it as -2.25 + 7 = 4.75."
     },
     {
       "id": "6-2-6-3-quadratic-equations-hard-q5",
@@ -71,7 +71,7 @@
         "$2.77$ or $-1.15$"
       ],
       "correctIndex": 0,
-      "explanation": "Cross-multiply to eliminate the \\frac{1}{a} denominators: $(x + 3)(x + 1) = x(2x - 1) \\implies x^2 + 4x + 3 = 2x^2 - x$. So $x^2 - 5x - 3 = 0$. Apply the quadratic formula: $x = \\frac{5 \\pm \\sqrt{(-5)^2 - 4(1)(-3)}}{2} = \\frac{5 \\pm \\sqrt{37}}{2}$. Since \\sqrt{37} \\approx 6.083, $x \\approx 5.54$ or $x \\approx -0.54$.\n\n**Common mistake:** Students often make mistakes expanding the terms or forget to change operational signs when grouping algebraic components."
+      "explanation": "Cross-multiply to eliminate the fraction denominators: $(x + 3)(x + 1) = x(2x - 1) \\implies x^2 + 4x + 3 = 2x^2 - x$. So $x^2 - 5x - 3 = 0$. Apply the quadratic formula: $x = \\frac{5 \\pm \\sqrt{(-5)^2 - 4(1)(-3)}}{2} = \\frac{5 \\pm \\sqrt{37}}{2}$. Since \\sqrt{37} \\approx 6.083, $x \\approx 5.54$ or $x \\approx -0.54$.\n\n**Common mistake:** Students often make mistakes expanding the terms or forget to change operational signs when grouping algebraic components."
     }
   ]
 }

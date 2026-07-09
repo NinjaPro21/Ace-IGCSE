@@ -19,7 +19,7 @@
         "$050°$"
       ],
       "correctIndex": 0,
-      "explanation": "Since the bearing is greater than $180°$, subtract $180°$ to find the back bearing: $310 - 180 = 130°$.\n\n**Common mistake:** The student might add $180°$ and fail to realize the bearing must be between $0°$ and $360°."
+      "explanation": "Since the bearing is greater than $180°$, subtract $180°$ to find the back bearing: $310 - 180 = 130°$.\n\n**Common mistake:** The student might add $180°$ and fail to realize the bearing must be between $0°$ and $360°$."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-medium-q2",
@@ -39,18 +39,18 @@
       "type": "mcq",
       "question": "On a map where the scale is $1\\text{ cm to } 5\\text{ km}$, a forest is represented by a rectangle measuring $2\\text{ cm}$ by $3.5\\text{ cm}$. Calculate the actual area of the forest.",
       "options": [
-        "$175\\text{ km}²$",
-        "$35\\text{ km}²$",
-        "$7\\text{ km}²$",
-        "$150\\text{ km}²$"
+        "$175\\text{ km}^2$",
+        "$35\\text{ km}^2$",
+        "$7\\text{ km}^2$",
+        "$150\\text{ km}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Actual dimensions: $2 \\times 5 = 10\\text{ km}$ and $3.5 \\times 5 = 17.5\\text{ km}$. Area $= 10 \\times 17.5 = 175\\text{ km}²$.\n\n**Common mistake:** Students often find the map area ($7\\text{ cm}²$) and multiply by 5 once instead of multiplying by the scale factor squared ($5^2$)."
+      "explanation": "Actual dimensions: $2 \\times 5 = 10\\text{ km}$ and $3.5 \\times 5 = 17.5\\text{ km}$. Area $= 10 \\times 17.5 = 175\\text{ km}^2$.\n\n**Common mistake:** Students often find the map area ($7\\text{ cm}^2$) and multiply by 5 once instead of multiplying by the scale factor squared ($5^2$)."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-medium-q4",
       "type": "mcq",
-      "question": "A plane flies from $A$ and $B2040°$. At $B$ and $C2ABC$. $A, B,$ and $C.",
+      "question": "A plane flies from $A$ to $B$ on a bearing of $040°$, then from $B$ to $C$ on a bearing of $090°$. Find angle $ABC$.",
       "options": [
         "$130°$",
         "$50°$",
@@ -58,7 +58,7 @@
         "$140°$"
       ],
       "correctIndex": 0,
-      "explanation": "The North line at $B$ and $A2AB$ and $B2180 - 40 = 140°$ is incorrect; the alternate angle is $40°$. The angle between North and East is $90°$. Thus, angle $ABC = (180 - 40 \\text{ back bearing}) + 90$ is not it. Back bearing is $220°$. Bearing to East is $090°$. Angle $= 220 - 90 = 130°$.\n\n**Common mistake:** A student might assume the turn is $90°$ or miscalculate the relationship between the bearing and the turn."
+      "explanation": "The back bearing of $040°$ is $220°$. Bearing to East is $090°$. Angle at $B = 220° - 90° = 130°$.\n\n**Common mistake:** A student might assume the turn is $90°$ or miscalculate the relationship between the bearing and the turn."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-medium-q5",

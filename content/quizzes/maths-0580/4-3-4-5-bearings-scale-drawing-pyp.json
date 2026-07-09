@@ -11,7 +11,7 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q1",
       "type": "mcq",
-      "question": "Point $B$ and $134°$ from Point $A$ and $A2B.",
+      "question": "Point $B$ is on a bearing of $134°$ from Point $A$. Find the bearing of Point $A$ from Point $B$.",
       "options": [
         "$314°$",
         "$046°$",
@@ -19,7 +19,7 @@
         "$224°$"
       ],
       "correctIndex": 0,
-      "explanation": "The back bearing is $134 + 180 = 314°$.\n\n**Common mistake:** A student might subtract^134 from^180 or^360 incorrectly."
+      "explanation": "The back bearing is $134 + 180 = 314°$.\n\n**Common mistake:** A student might subtract $134°$ from $180°$ or $360°$ incorrectly."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q2",
@@ -63,7 +63,7 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-pyp-q5",
       "type": "mcq",
-      "question": "Hence, find the bearing of San Diego ($S$ and $F2S$. $426\\text{ km}$ from Las Vegas ($L$ and $F2507\\text{ km}$ from $S$ and $L2F$ and $100°$, and angle $FLS = 75°.",
+      "question": "In triangle $FLS$, $FS = 426\\text{ km}$, $LS = 507\\text{ km}$, angle $SFL = 100°$, and angle $FLS = 75°$. Find the bearing of San Diego ($S$) from Fresno ($F$).",
       "options": [
         "$154°$",
         "$025°$",
@@ -71,7 +71,7 @@
         "$125°$"
       ],
       "correctIndex": 0,
-      "explanation": "Based on source 148, using the sine rule in triangle $FLS$. $LFS2100°$ bearing leads to a result of approximately $154.3°$.\n\n**Common mistake:** The student might assume triangle $FLS$ and $75°$ directly to the bearing."
+      "explanation": "Use the Sine Rule in $\\triangle FLS$ to find the required bearing ($\\approx 154°$).\n\n**Common mistake:** The student might assume triangle $FLS$ and add $75°$ directly to the bearing."
     }
   ]
 }

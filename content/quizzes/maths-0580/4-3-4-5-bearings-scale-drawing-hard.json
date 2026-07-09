@@ -11,7 +11,7 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-hard-q1",
       "type": "mcq",
-      "question": "A ship sails $18\\text{ km}$ from $P$ and $060°$ to $Q$. $24\\text{ km}$ from $Q$ and $150°$ to $R$ and $P2R.",
+      "question": "A ship sails $18\\text{ km}$ from $P$ on a bearing of $060°$ to $Q$, then $24\\text{ km}$ from $Q$ on a bearing of $150°$ to $R$. Find the direct distance $PR$.",
       "options": [
         "$30\\text{ km}$",
         "$42\\text{ km}$",
@@ -19,12 +19,12 @@
         "$32.4\\text{ km}$"
       ],
       "correctIndex": 0,
-      "explanation": "The angle between the bearings is $90°$ (back bearing of $060°$ is $240°$; $240 - 150 = 90°$). Use Pythagoras: $\\sqrt{18}² + 24^2 = \\sqrt{324} + 576 = \\sqrt{900} = 30$.\n\n**Common mistake:** A student might add the distances directly ($18 + 24 = 42$) or fail to identify that the path forms a right-angled triangle."
+      "explanation": "The angle between the bearings is $90°$. Use Pythagoras: $\\sqrt{18^2 + 24^2} = \\sqrt{900} = 30$.\n\n**Common mistake:** A student might add the distances directly ($18 + 24 = 42$) or fail to identify that the path forms a right-angled triangle."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-hard-q2",
       "type": "mcq",
-      "question": "From the top of a $100\\text{ m}$ tower, the angles of depression of two points $A$ and $B222°$ and $38°$ respectively. Calculate the distance between $A$ and $B.",
+      "question": "From the top of a $100\\text{ m}$ tower, the angles of depression of two points $A$ and $B$ on the same side are $22°$ and $38°$ respectively. Calculate the distance between $A$ and $B$.",
       "options": [
         "$119\\text{ m}$",
         "$248\\text{ m}$",
@@ -37,15 +37,15 @@
     {
       "id": "4-3-4-5-bearings-scale-drawing-hard-q3",
       "type": "mcq",
-      "question": "A map scale is $1 : 50000$. A lake covers an actual area of $12\\text{ km}²$. Calculate the area of the lake on the map in $\\text{cm}².",
+      "question": "A map scale is $1 : 50000$. A lake covers an actual area of $12\\text{ km}^2$. Calculate the area of the lake on the map in $\\text{cm}^2$.",
       "options": [
-        "$4.8\\text{ cm}²$",
-        "$24\\text{ cm}²$",
-        "$48\\text{ cm}²$",
-        "$0.48\\text{ cm}²$"
+        "$4.8\\text{ cm}^2$",
+        "$24\\text{ cm}^2$",
+        "$48\\text{ cm}^2$",
+        "$0.48\\text{ cm}^2$"
       ],
-      "correctIndex": 0,
-      "explanation": "Scale: $1\\text{ cm} = 0.5\\text{ km}$. Area scale: $1\\text{ cm}² = (0.5)² = 0.25\\text{ km}²$. Map area $= 1.2 / 0.25 = 4.8\\text{ cm}²$. Wait, $12 / 0.25 = 48$. Checking: $12\\text{ km}² / 0.25\\text{ km}²/\\text{cm}² = 48\\text{ cm}²$.\n\n**Common mistake:** A student might divide the area by^50000 only once or misplace the decimal point during the km to cm conversion."
+      "correctIndex": 2,
+      "explanation": "Scale: $1\\text{ cm} = 0.5\\text{ km}$. Area scale: $1\\text{ cm}^2 = 0.25\\text{ km}^2$. Map area $= 12 / 0.25 = 48\\text{ cm}^2$.\n\n**Common mistake:** A student might divide the area by $50000$ only once or misplace the decimal point during the km to cm conversion."
     },
     {
       "id": "4-3-4-5-bearings-scale-drawing-hard-q4",
@@ -58,7 +58,7 @@
         "$7\\text{ km}$"
       ],
       "correctIndex": 0,
-      "explanation": "This is 3D Pythagoras using the ground distance and altitude: $\\sqrt{10}² + 3^2 = \\sqrt{100} + 9 = \\sqrt{109} \\approx 10.44\\text{ km}$.\n\n**Common mistake:** The student might try to incorporate the bearing ($25°$) into the Pythagoras calculation unnecessarily."
+      "explanation": "This is 3D Pythagoras using the ground distance and altitude: $\\sqrt{10}^2 + 3^2 = \\sqrt{100} + 9 = \\sqrt{109} \\approx 10.44\\text{ km}$.\n\n**Common mistake:** The student might try to incorporate the bearing ($25°$) into the Pythagoras calculation unnecessarily."
     },
     {
       "type": "mcq",

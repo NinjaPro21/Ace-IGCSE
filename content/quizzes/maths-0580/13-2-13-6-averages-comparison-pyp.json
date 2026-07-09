@@ -50,7 +50,7 @@
     {
       "id": "13-2-13-6-averages-comparison-pyp-q4",
       "type": "mcq",
-      "question": "The table shows marks 3, 4, 5 with frequencies 3, $x$ and $x.",
+      "question": "The table shows marks 3, 4, and 5 with frequencies 3, $x$, and 4. If the mean is 4.1$, find x$.",
       "options": [
         "3",
         "4",
@@ -58,7 +58,7 @@
         "2"
       ],
       "correctIndex": 0,
-      "explanation": "Total sum $= (3 \\times 3) + (4 \\times x) + (5 \\times 4) = 9 + 4x + 20 = 29 + 4x$. $= 3 + x + 4 = 7 + x2(29 + 4x) / (7 + x) = 4.1 \\Rightarrow 29 + 4x = 28.7 + 4.1x \\Rightarrow 0.3 = 0.1x \\Rightarrow x = 3$.\n\n**Common mistake:** Setting up the equation incorrectly, such as multiplying the mean by only the known frequency (7)."
+      "explanation": "Total sum $= (3 \\times 3) + (4 \\times x) + (5 \\times 4) = 9 + 4x + 20 = 29 + 4x$. Total frequency $= 3 + x + 4 = 7 + x$. $(29 + 4x) / (7 + x) = 4.1 \\Rightarrow 29 + 4x = 28.7 + 4.1x \\Rightarrow 0.3 = 0.1x \\Rightarrow x = 3$.\n\n**Common mistake:** Setting up the equation incorrectly, such as multiplying the mean by only the known frequency (7)."
     },
     {
       "id": "13-2-13-6-averages-comparison-pyp-q5",

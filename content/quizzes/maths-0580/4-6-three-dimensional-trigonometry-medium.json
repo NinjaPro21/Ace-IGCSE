@@ -19,12 +19,12 @@
         "$\\sqrt{185}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonal $= \\sqrt{12}² + 5^2 + 4^2 = \\sqrt{144} + 25 + 16 = \\sqrt{185} \\approx 13.60$.\n\n**Common mistake:** The student might calculate the base diagonal ($13$) and forget to incorporate the height ($4$) into the final root."
+      "explanation": "Diagonal $= \\sqrt{12}^2 + 5^2 + 4^2 = \\sqrt{144} + 25 + 16 = \\sqrt{185} \\approx 13.60$.\n\n**Common mistake:** The student might calculate the base diagonal ($13$) and forget to incorporate the height ($4$) into the final root."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-medium-q2",
       "type": "mcq",
-      "question": "A vertical pole of height $10\\text{ m}$ stands at corner $B$. $ABCD2AB = 20\\text{ m}$ and $BC = 15\\text{ m}$, calculate the angle of elevation of the top of the pole from the opposite corner $D.",
+      "question": "A vertical pole of height $10\\text{ m}$ stands at corner $B$ of rectangle $ABCD$, where $AB = 20\\text{ m}$ and $BC = 15\\text{ m}$. Calculate the angle of elevation of the top of the pole from the opposite corner $D$.",
       "options": [
         "$21.8°$",
         "$26.6°$",
@@ -32,7 +32,7 @@
         "$68.2°$"
       ],
       "correctIndex": 0,
-      "explanation": "First, find base diagonal $BD = \\sqrt{20}² + 15^2 = 25\\text{ m}$. Then $\\tan \\theta = 10 / 25 = 0.4$, so $\\theta = \\tan^{-1}$(0.4) \\approx 21.8°2\n\n**Common mistake:** The student might use the side length^20 or^15 as the adjacent side instead of the diagonal^25."
+      "explanation": "First, find base diagonal $BD = \\sqrt{20^2 + 15^2} = 25\\text{ m}$. Then $\\tan\\theta = 10/25 = 0.4$, so $\\theta = \\tan^{-1}(0.4) \\approx 21.8°$.\n\n**Common mistake:** The student might use the side length $20$ or $15$ as the adjacent side instead of the diagonal $25$."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-medium-q3",
@@ -45,12 +45,12 @@
         "$\\sqrt{176}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Half-diagonal of base $= 0.5 \\times \\sqrt{8}² + 8^2 = \\sqrt{32} \\approx 5.66$. Edge $= \\sqrt{12}² + 5.66^2 = \\sqrt{144} + 32 = \\sqrt{176} \\approx 13.27$.\n\n**Common mistake:** A student might use half the side ($4$) instead of the distance to the center (half-diagonal $\\sqrt{32}$)."
+      "explanation": "Half-diagonal of base $= 0.5 \\times \\sqrt{8}^2 + 8^2 = \\sqrt{32} \\approx 5.66$. Edge $= \\sqrt{12}^2 + 5.66^2 = \\sqrt{144} + 32 = \\sqrt{176} \\approx 13.27$.\n\n**Common mistake:** A student might use half the side ($4$) instead of the distance to the center (half-diagonal $\\sqrt{32}$)."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-medium-q4",
       "type": "mcq",
-      "question": "A wedge is formed by a horizontal rectangle $ABRQ$. $PQRS2AB = 10\\text{ m}, BR = 6\\text{ m},$ and $RS = 3\\text{ m}$, find the length $ AS.",
+      "question": "A wedge is formed by a horizontal rectangle $ABRQ$ and vertical rectangle $PQRS$, with $AB = 10\\text{ m}$, $BR = 6\\text{ m}$, and $RS = 3\\text{ m}$. Find the length $AS$.",
       "options": [
         "$12.1\\text{ m}$",
         "$10.4\\text{ m}$",
@@ -58,7 +58,7 @@
         "$19.0\\text{ m}$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonal of base $AR = \\sqrt{10}² + 6^2 = \\sqrt{136}$. $AS = √AR^2 + RS^2 = \\sqrt{136} + 3^2 = \\sqrt{145} \\approx 12.04$.\n\n**Common mistake:** The student may misidentify which lines are perpendicular in the 3D wedge configuration."
+      "explanation": "Diagonal of base $AR = \\sqrt{10}^2 + 6^2 = \\sqrt{136}$. $AS = \\sqrt{AR}^2 + RS^2 = \\sqrt{136} + 3^2 = \\sqrt{145} \\approx 12.04$.\n\n**Common mistake:** The student may misidentify which lines are perpendicular in the 3D wedge configuration."
     },
     {
       "id": "4-6-three-dimensional-trigonometry-medium-q5",
@@ -71,7 +71,7 @@
         "$26.6°$"
       ],
       "correctIndex": 0,
-      "explanation": "Base diagonal $= \\sqrt{6}² + 4^2 = \\sqrt{52} \\approx 7.21$. $\\tan \\theta = 3 / 7.21 \\approx 0.416 \\Rightarrow \\theta \\approx 22.6°$.\n\n**Common mistake:** The student might use the wrong diagonal (from a smaller face) as the adjacent side."
+      "explanation": "Base diagonal $= \\sqrt{6}^2 + 4^2 = \\sqrt{52} \\approx 7.21$. $\\tan \\theta = 3 / 7.21 \\approx 0.416 \\Rightarrow \\theta \\approx 22.6°$.\n\n**Common mistake:** The student might use the wrong diagonal (from a smaller face) as the adjacent side."
     }
   ]
 }

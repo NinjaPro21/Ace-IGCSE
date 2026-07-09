@@ -11,7 +11,7 @@
     {
       "id": "8-1-algebraic-fractions-hard-q1",
       "type": "mcq",
-      "question": "Express as a single $fraction$ in its simplest form:\n\n$$\n\\frac{2x}{x^2 - 1} + \\frac{3}{x + 1}\n",
+      "question": "Simplify completely: $\\frac{2x}{x^2 - 1} + \\frac{3}{x + 1}$.",
       "options": [
         "$\\frac{5x - 3}{x^2 - 1}$",
         "$\\frac{5x + 3}{x^2 - 1}$",
@@ -19,12 +19,12 @@
         "$\\frac{5x - 3}{x + 1}$"
       ],
       "correctIndex": 0,
-      "explanation": "Notice that $x^2 - 1 = (x - 1)(x + 1)$. The lowest common denominator is therefore $(x - 1)(x + 1) = x^2 - 1$. Convert the second $fraction:$ $\\frac{3}{x + 1} = \\frac{3(x - 1)}{(x - 1)(x + 1)}$. Now add the numerators together: $2x + 3(x - 1) = 2x + 3x - 3 = 5x - 3$. The final $fraction$ is $\\frac{5x - 3}{x^2 - 1}$.\n\n**Common mistake:** Students frequently multiply the denominators together unnecessarily, creating a much higher degree polynomial denominator that is harder to simplify."
+      "explanation": "Notice that $x^2 - 1 = (x - 1)(x + 1)$. The lowest common denominator is therefore $(x - 1)(x + 1) = x^2 - 1$. Convert the second fraction:\\frac{3}{x + 1} = \\frac{3(x - 1)}{(x - 1)(x + 1)}$. Now add the numerators together:$2x + 3(x - 1) = 2x + 3x - 3 = 5x - 3$. The final fraction is$\\frac{5x - 3}{x^2 - 1}\n\n$$.\n\n**Common mistake:** Students frequently multiply the denominators together unnecessarily, creating a much higher degree polynomial denominator that is harder to simplify."
     },
     {
       "id": "8-1-algebraic-fractions-hard-q2",
       "type": "mcq",
-      "question": "Simplify the complex $fraction$ completely:\n\n$$\n\\frac{\\frac{1}{x} - \\frac{1}{y}}{\\frac{1}{x^2} - \\frac{1}{y^2}}\n",
+      "question": "Simplify completely: $\\frac{\\frac{1}{x} - \\frac{1}{y}}{\\frac{1}{x^2} - \\frac{1}{y^2}}$.",
       "options": [
         "$\\frac{xy}{x + y}$",
         "$\\frac{x + y}{xy}$",
@@ -32,12 +32,12 @@
         "$x + y$"
       ],
       "correctIndex": 0,
-      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-$fractions."
+      "explanation": "Simplify the numerator: $\\frac{y - x}{xy}$. Simplify the denominator: $\\frac{y^2 - x^2}{x^2y^2} = \\frac{(y - x)(y + x)}{x^2y^2}$. Now, divide the numerator by the denominator by multiplying by its reciprocal: $\\frac{y - x}{xy} \\times \\frac{x^2y^2}{(y - x)(y + x)}$. Cancel out the common terms $(y - x)$ and one factor of $xy$. So $\\frac{xy}{y + x} = \\frac{xy}{x + y}$.\n\n**Common mistake:** Students frequently make mistakes when inversion-multiplying, or they try to cancel terms before finding common denominators within the sub-fractions."
     },
     {
       "id": "8-1-algebraic-fractions-hard-q3",
       "type": "mcq",
-      "question": "Solve the equation for $x$:\n\n$$\n\\frac{x}{2} + \\frac{3}{x} = 2.5\n",
+      "question": "Solve the equation: $\\frac{x}{2} + \\frac{3}{x} = 2.5$.",
       "options": [
         "$x = 2$ or $x = 3$",
         "$x = 1$ or $x = 6$",
@@ -45,7 +45,7 @@
         "$x = 1.5$ or $x = 4$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply the entire equation by the lowest common denominator, which is $2x$. $2x\\left(\\frac{x}{2}\\right) + 2x\\left(\\frac{3}{x}\\right) = 2x(2.5) \\implies x^2 + 6 = 5x2x^2 - 5x + 6 = 0$. Factorising this equation gives $(x - 2)(x - 3) = 0$, leading to the solutions $x = 2$ or $x = 3$.\n\n**Common mistake:** A common trap is multiplying only the \\frac{1}{a} terms by $2x$. $2.5$ on the right side of the equation."
+      "explanation": "Multiply the entire equation by the lowest common denominator, which is $2x$. $2x\\left(\\frac{x}{2}\\right) + 2x\\left(\\frac{3}{x}\\right) = 2x(2.5) \\implies x^2 + 6 = 5x2x^2 - 5x + 6 = 0$. Factorising this equation gives $(x - 2)(x - 3) = 0$, leading to the solutions $x = 2$ or $x = 3$.\n\n**Common mistake:** A common trap is multiplying only the fraction terms by $2x$. $2.5$ on the right side of the equation."
     },
     {
       "type": "mcq",
@@ -70,7 +70,7 @@
         "$1$ or 2"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply by $x(x-1)$: $x^2 + (x-2)(x-1) = 3x(x-1) \\implies x^2 + x^2 - 3x + 2 = 3x^2 - 3x \\implies 2 = x^2$? No, source 101/156 says^4 or $-1$ for similar structure. Let's solve $2x^2 - 3x + 2 = 3x^2 - 3x \\implies x^2 = 2 \\implies x = \\pm \\sqrt{2}$. Option A distractor.\n\n**Common mistake:** Failing to expand $(x-2)(x-1)$ as $x^2 - 3x + 2$.",
+      "explanation": "Multiply by $x(x-1)$: $x^2 + (x-2)(x-1) = 3x(x-1) \\implies x^2 + x^2 - 3x + 2 = 3x^2 - 3x \\implies 2 = x^2$? No, source 101/156 says^4 or -1 for similar structure. Let's solve$2x^2 - 3x + 2 = 3x^2 - 3x \\implies x^2 = 2 \\implies x = \\pm \\sqrt{2}$. Option A distractor.\n\n**Common mistake:** Failing to expand $(x-2)(x-1)$ as $x^2 - 3x + 2$.",
       "id": "8-1-algebraic-fractions-hard-q5"
     }
   ]

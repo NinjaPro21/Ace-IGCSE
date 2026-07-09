@@ -45,12 +45,12 @@
         "$x = 0.75$ or $x = -0.75$"
       ],
       "correctIndex": 0,
-      "explanation": "This can be solved by isolating $x^2$: $4x^2 = 9 \\implies x^2 = \\frac{9}{4}$. Taking the square root of both sides gives $x = \\pm \\sqrt{\\frac{9}{4}} = \\pm \\frac{3}{2} = \\pm 1.5$. It can also be solved using the difference of two squares: $(2x-3)(2x+3)=0$.\n\n**Common mistake:** Students frequently forget to compute both the positive and negative square roots, or they divide^9 by^4 incorrectly."
+      "explanation": "This can be solved by isolating $x^2$: $4x^2 = 9 \\implies x^2 = \\frac{9}{4}$. Taking the square root of both sides gives $x = \\pm \\sqrt{\\frac{9}{4}} = \\pm \\frac{3}{2} = \\pm 1.5$. It can also be solved using the difference of two squares: $(2x-3)(2x+3)=0$.\n\n**Common mistake:** Students frequently forget to compute both the positive and negative square roots, or they divide^9 by $4$ incorrectly."
     },
     {
       "id": "6-2-6-3-quadratic-equations-easy-q4",
       "type": "mcq",
-      "question": "Express the expression $x^2 + 6x - 2$ in the completed square form $(x + a)^2 + b.",
+      "question": "Express the expression $x^2 + 6x - 2$ in the completed square form $(x + a)^2 + b$.",
       "options": [
         "$(x + 3)^2 - 11$",
         "$(x + 3)^2 - 2$",
@@ -63,7 +63,7 @@
     {
       "id": "6-2-6-3-quadratic-equations-easy-q5",
       "type": "mcq",
-      "question": "For the quadratic equation $2x^2 - 4x - 3 = 0$, calculate the value of the discriminant, $\\Delta = b^2 - 4ac.",
+      "question": "For the quadratic equation $2x^2 - 4x - 3 = 0$, calculate the value of the discriminant, $\\Delta = b^2 - 4ac$.",
       "options": [
         "$40$",
         "$-8$",

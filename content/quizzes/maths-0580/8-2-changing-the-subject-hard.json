@@ -24,7 +24,7 @@
     {
       "id": "8-2-changing-the-subject-hard-q2",
       "type": "mcq",
-      "question": "Make $p  the subject of the formula:$\n\n$q = \\frac{2p - 1}{p + 3}$",
+      "question": "Make $p$ the subject of the formula:\n\n$q = \\frac{2p - 1}{p + 3}$",
       "options": [
         "$p = \\frac{3q + 1}{2 - q}$",
         "$p = \\frac{3q - 1}{2 + q}$",
@@ -32,7 +32,7 @@
         "$p = \\frac{3q + 1}{q - 2}$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply both sides by $(p + 3)$: $q(p + 3) = 2p - 1$. Expand: $qp + 3q = 2p - 1$. Collect all terms involving $p^2 3q + 1 = 2p - qp2p^2 3q + 1 = p(2 - q)$. Divide by $(2 - q)$ to finish: $p = \\frac{3q + 1}{2 - q}$.\n\n**Common mistake:** Sign errors are common when moving terms across the equals sign, especially when dealing with negative coefficients or constants."
+      "explanation": "Multiply both sides by $(p + 3)$: $q(p + 3) = 2p - 1$. Expanding gives $qp + 3q = 2p - 1$. Collecting $p$ terms: $3q + 1 = p(2 - q)$. Hence $p = \\frac{3q + 1}{2 - q}$.\n\n**Common mistake:** Sign errors are common when moving terms across the equals sign."
     },
     {
       "id": "8-2-changing-the-subject-hard-q3",
@@ -45,7 +45,7 @@
         "$x = \\pm\\sqrt{\\frac{2}{y - 5}}$"
       ],
       "correctIndex": 0,
-      "explanation": "Isolate the \\frac{1}{a} term by rearranging: $\\frac{2}{x^2} = 5 - y$. $x^2$: $2 = x^2(5 - y) \\implies x^2 = \\frac{2}{5 - y}$. Take the square root of both sides, keeping both signs: $x = \\pm\\sqrt{\\frac{2}{5 - y}}$.\n\n**Common mistake:** Students frequently mismanage the negative sign attached to the $fraction$, or forget to apply a square root at the final stage."
+      "explanation": "Isolate the fraction term by rearranging: $\\frac{2}{x^2} = 5 - y$. $x^2$: $2 = x^2(5 - y) \\implies x^2 = \\frac{2}{5 - y}$. Take the square root of both sides, keeping both signs: $x = \\pm\\sqrt{\\frac{2}{5 - y}}$.\n\n**Common mistake:** Students frequently mismanage the negative sign attached to the fraction, or forget to apply a square root at the final stage."
     },
     {
       "id": "8-2-changing-the-subject-hard-q4",

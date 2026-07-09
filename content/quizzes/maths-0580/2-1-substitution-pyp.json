@@ -32,12 +32,12 @@
         "$4$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $x = 3$: Numerator is $3^2 + 5 = 14$. Denominator is $2(3) - 1 = 5$. This results in $y = \\frac{14}{5} = 2.8$.\n\n**Common mistake:** Students might evaluate $3^2$ as^6, getting a numerator of^11, leading to $11/5 = 2.2$."
+      "explanation": "Substitute $x = 3$: Numerator is $3^2 + 5 = 14$. Denominator is $2(3) - 1 = 5$. This results in $y = \\frac{14}{5} = 2.8$.\n\n**Common mistake:** Students might evaluate $3^2$ as^6, getting a numerator of $11$, leading to $11/5 = 2.2$."
     },
     {
       "id": "2-1-substitution-pyp-q3",
       "type": "mcq",
-      "question": "Given that $k = \\frac{2m - n}{3}$, find the value of $m^2 So k = 4$ and $n = -2$.",
+      "question": "Given that $k = \\frac{2m - n}{3}$, find the value of $m$. So $k = 4$ and $n = -2$.",
       "options": [
         "$5$",
         "$7$",
@@ -58,7 +58,7 @@
         "$-40$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute the values: $E = \\frac{1}{2}(8)(-5)² = 4(25) = 100$.\n\n**Common mistake:** A student might keep the negative sign during squaring, computing $4 \\times (-25) = -100$."
+      "explanation": "Substitute the values: $E = \\frac{1}{2}(8)(-5)^2 = 4(25) = 100$.\n\n**Common mistake:** A student might keep the negative sign during squaring, computing $4 \\times (-25) = -100$."
     },
     {
       "id": "2-1-substitution-pyp-q5",
@@ -71,7 +71,7 @@
         "$0.5$"
       ],
       "correctIndex": 0,
-      "explanation": "Substitute $a = 6$ and $b = 3$: $R = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2$.\n\n**Common mistake:** Students might add the numerator terms instead of multiplying them, leading to an incorrect $fraction$ layout."
+      "explanation": "Substitute $a = 6$ and $b = 3$: $R = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2$.\n\n**Common mistake:** Students might add the numerator terms instead of multiplying them, leading to an incorrect fraction layout."
     }
   ]
 }

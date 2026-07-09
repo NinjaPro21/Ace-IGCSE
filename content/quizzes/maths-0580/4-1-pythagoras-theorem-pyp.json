@@ -19,7 +19,7 @@
         "$625\\text{ km}$"
       ],
       "correctIndex": 0,
-      "explanation": "The North and East paths form the legs of a right triangle. Distance $= \\sqrt{15}² + 20^2 = \\sqrt{225} + 400 = \\sqrt{625} = 25$.\n\n**Common mistake:** A student may add the distances ($35$) or provide the square of the distance ($625$)."
+      "explanation": "The North and East paths form the legs of a right triangle. Distance $= \\sqrt{15}^2 + 20^2 = \\sqrt{225} + 400 = \\sqrt{625} = 25$.\n\n**Common mistake:** A student may add the distances ($35$) or provide the square of the distance ($625$)."
     },
     {
       "id": "4-1-pythagoras-theorem-pyp-q2",
@@ -32,7 +32,7 @@
         "$72.00\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Let side be $s^2 So s^2 + s^2 = 12^2 \\Rightarrow 2s^2 = 144 \\Rightarrow s^2 = 72 \\Rightarrow s = \\sqrt{72} \\approx 8.485$.\n\n**Common mistake:** The student might divide^12by2or assume the side is 12 and find the diagonal instead."
+      "explanation": "Let side be $s$. So $s^2 + s^2 = 12^2 \\Rightarrow 2s^2 = 144 \\Rightarrow s^2 = 72 \\Rightarrow s = \\sqrt{72} \\approx 8.485$.\n\n**Common mistake:** The student might divide^12by2or assume the side is 12 and find the diagonal instead."
     },
     {
       "id": "4-1-pythagoras-theorem-pyp-q3",
@@ -45,12 +45,12 @@
         "$\\sqrt{69}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "Diagonal of base $= \\sqrt{10}² + 10^{2} = \\sqrt{200} = 10\\sqrt{2}$. Half diagonal $= 5\\sqrt{2}$. Height $= \\sqrt{13}² - (5\\sqrt{2})² = \\sqrt{169} - 50 = \\sqrt{119} \\approx 10.91$.\n\n**Common mistake:** The student might use half of the side ($5$) instead of the distance to the center (half-diagonal $5\\sqrt{2}$)."
+      "explanation": "Diagonal of base $= \\sqrt{10}^2 + 10^{2} = \\sqrt{200} = 10\\sqrt{2}$. Half diagonal $= 5\\sqrt{2}$. Height $= \\sqrt{13}^2 - (5\\sqrt{2})^2 = \\sqrt{169} - 50 = \\sqrt{119} \\approx 10.91$.\n\n**Common mistake:** The student might use half of the side ($5$) instead of the distance to the center (half-diagonal $5\\sqrt{2}$)."
     },
     {
       "id": "4-1-pythagoras-theorem-pyp-q4",
       "type": "mcq",
-      "question": "Triangle $ABC$. So $AB = \\sqrt{12}\\text{ cm}$ and $BC = \\sqrt{48}\\text{ cm}$. If $∠ABC = 90°$, find the exact length of $AC.",
+      "question": "Triangle $ABC$ has $AB = \\sqrt{12}\\text{ cm}$ and $BC = \\sqrt{48}\\text{ cm}$. If $\\angle ABC = 90°$, find the exact length of $AC$.",
       "options": [
         "$\\sqrt{60}\\text{ cm}$",
         "$60\\text{ cm}$",
@@ -58,15 +58,15 @@
         "$\\sqrt{36}\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "$AC^2 = (\\sqrt{12})² + (\\sqrt{48})² = 12 + 48 = 60$. Therefore $AC = \\sqrt{60}$.\n\n**Common mistake:** The student might try to add the square roots directly ($\\sqrt{12} + \\sqrt{48}$) instead of squaring them first."
+      "explanation": "$AC^2 = (\\sqrt{12})^2 + (\\sqrt{48})^2 = 12 + 48 = 60$. Therefore $AC = \\sqrt{60}$.\n\n**Common mistake:** The student might try to add the square roots directly ($\\sqrt{12} + \\sqrt{48}$) instead of squaring them first."
     },
     {
       "id": "4-1-pythagoras-theorem-pyp-q5",
       "type": "mcq",
       "question": "A thin wire of length $20\\text{ cm}$ is bent to form the two shorter sides of a right-angled triangle. If one of these sides is $x\\text{ cm}$, write an expression for the length of the hypotenuse.",
       "options": [
-        "$√x^2 + (20 - x)²$",
-        "$√x^2 + 20^2$",
+        "$\\sqrt{x}^2 + (20 - x)^2$",
+        "$\\sqrt{x}^2 + 20^2$",
         "$20 - x$",
         "$x + (20 - x)$"
       ],

@@ -24,7 +24,7 @@
     {
       "id": "5-1-5-2-area-circles-pyp-q2",
       "type": "mcq",
-      "question": "A shape is made by removing a small semi-circle from a large semi-circle. On the large semi-circle diameter $AB$ and $M2AM = MB = 10\\text{ cm}$. If the small semi-circle has diameter $AM$. $\\pi.",
+      "question": "A shape is made by removing a small semi-circle from a large semi-circle. On the large semi-circle, diameter $AB$ and midpoint $M$, $AM = MB = 10\\text{ cm}$. If the small semi-circle has diameter $AM$, find the area of the shape in terms of $\\pi$.",
       "options": [
         "$37.5\\pi\\text{ cm}^2$",
         "$50\\pi\\text{ cm}^2$",
@@ -32,7 +32,7 @@
         "$75\\pi\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Large radius $= 10$, area $= 0.5\\pi(10^{2}) = 50\\pi . = 5$, area $= 0.5\\pi(5^2) = 12.5\\pi . = 50\\pi - 12.5\\pi = 37.5\\pi$.\n\n**Common mistake:** The student might subtract the small circle area from the full large circle instead of using semi-circles."
+      "explanation": "Large radius $= 10$, area $= 0.5\\pi(10^{2}) = 50\\pi$. Small radius $= 5$, area $= 0.5\\pi(5^2) = 12.5\\pi$. Shaded area $= 50\\pi - 12.5\\pi = 37.5\\pi$.\n\n**Common mistake:** The student might subtract the small circle area from the full large circle instead of using semi-circles."
     },
     {
       "id": "5-1-5-2-area-circles-pyp-q3",
@@ -58,12 +58,12 @@
         "$154\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "The diagonal of the inscribed square is equal to the diameter of the circle, $14\\text{ cm}$. Area $= 0.5 \\times \\text{diagonal}^2 = 0.5 \\times 14^2 = 98\\text{ cm}^2$.\n\n**Common mistake:** The student might assume the side of the square is $7\\text{ cm}$ (the radius), leading to an area of^49."
+      "explanation": "The diagonal of the inscribed square is equal to the diameter of the circle, $14\\text{ cm}$. Area $= 0.5 \\times \\text{diagonal}^2 = 0.5 \\times 14^2 = 98\\text{ cm}^2$.\n\n**Common mistake:** The student might assume the side of the square is $7\\text{ cm}$ (the radius), leading to an area of $49$."
     },
     {
       "id": "5-1-5-2-area-circles-pyp-q5",
       "type": "mcq",
-      "question": "In triangle $ABC$. So $AB = 8\\text{ cm}$, $AC = 10\\text{ cm}$, and $BC = 14\\text{ cm}$. Given angle $ACB = 29.2^{\\circ}$, calculate the area of triangle $ABC.",
+      "question": "In triangle $ABC$, $AB = 8\\text{ cm}$, $AC = 10\\text{ cm}$, and $BC = 14\\text{ cm}$. Given angle $ACB = 29.2^{\\circ}$, calculate the area of triangle $ABC$.",
       "options": [
         "$34.2\\text{ cm}^2$",
         "$40.0\\text{ cm}^2$",
@@ -71,7 +71,7 @@
         "$68.4\\text{ cm}^2$"
       ],
       "correctIndex": 0,
-      "explanation": "Area $= 0.5 \\times AC \\times BC \\times \\sin(ACB) = 0.5 \\times 10 \\times 14 \\times \\sin 29.2^{\\circ} \\approx 34.15$.\n\n**Common mistake:** Using the wrong pair of sides for the given angle; for angle $C$ and $a2b$. $BC2AC$) must be used."
+      "explanation": "Area $= 0.5 \\times AC \\times BC \\times \\sin(ACB) = 0.5 \\times 10 \\times 14 \\times \\sin 29.2^{\\circ} \\approx 34.15$.\n\n**Common mistake:** Using the wrong pair of sides for the given angle; for angle $ACB$, sides $BC$ and $AC$ must be used."
     }
   ]
 }

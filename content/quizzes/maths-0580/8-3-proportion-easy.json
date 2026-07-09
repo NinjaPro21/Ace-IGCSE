@@ -11,7 +11,7 @@
     {
       "id": "8-3-proportion-easy-q1",
       "type": "mcq",
-      "question": "$y$ and $x2x = 4$, $y = 12$. Find the value of $y$. So $x = 9$.",
+      "question": "$y$ varies directly as $x$. When $x = 4$, $y = 12$. Find $y$ when $x = 9$.",
       "options": [
         "$y = 27$",
         "$y = 36$",
@@ -19,12 +19,12 @@
         "$y = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $y$ and $x2y = kx$. So $x = 4$ and $y = 12$ to find $k$. $12 = k(4) \\implies k = 3$. The equation connecting $y$ and $x2y = 3x$. So $x = 9$, $y = 3 \\times 9 = 27$.\n\n**Common mistake:** Students sometimes find the constant $k = 3$ but accidentally divide instead of multiply, or simply add the difference ($12 - 4 = 8$, so $9 + 8 = 17$)."
+      "explanation": "Since $y$ varies directly as $x$, $y = kx$. When $x = 4$ and $y = 12$, $12 = 4k$ so $k = 3$. Hence $y = 3x$. When $x = 9$, $y = 3 \\times 9 = 27$.\n\n**Common mistake:** Students sometimes find $k = 3$ but divide instead of multiply, or add the difference between the given values."
     },
     {
       "id": "8-3-proportion-easy-q2",
       "type": "mcq",
-      "question": "$p  and q2p = 35$ when $q = 5$, find the formula connecting $p  and q.",
+      "question": "$p$ and $q$ are directly proportional. When $p = 35$ and $q = 5$, find the formula connecting $p$ and $q$.",
       "options": [
         "$p = 7q$",
         "$p = \\frac{7}{q}$",
@@ -32,12 +32,12 @@
         "$p = 175q$"
       ],
       "correctIndex": 0,
-      "explanation": "Direct proportion means $p = kq$. $35 = k(5) \\implies k = \\frac{35}{5} = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q."
+      "explanation": "Direct proportion means $p = kq$. Substituting gives $35 = k(5)$, so $k = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q$."
     },
     {
       "id": "8-3-proportion-easy-q3",
       "type": "mcq",
-      "question": "$y$ and $x2x = 3$, $y = 8$. Find the constant of proportionality, $k.",
+      "question": "$y$ varies inversely as $x$. When $x = 3$, $y = 8$. Find the constant of proportionality, $k$.",
       "options": [
         "$k = 24$",
         "$k = \\frac{8}{3}$",
@@ -45,12 +45,12 @@
         "$k = 11$"
       ],
       "correctIndex": 0,
-      "explanation": "For inverse proportion, the general relationship is $y = \\frac{k}{x}$. Rearranging to find the constant gives $k = xy$. So $k = 3 \\times 8 = 24$.\n\n**Common mistake:** Students often treat the problem as direct proportion instead of inverse proportion, calculating $k = \\frac{y}{x} = \\frac{8}{3}$."
+      "explanation": "For inverse proportion, $y = \\frac{k}{x}$, so $k = xy$. Hence $k = 3 \\times 8 = 24$.\n\n**Common mistake:** Students often treat the problem as direct proportion instead of inverse proportion, calculating $k = \\frac{y}{x} = \\frac{8}{3}$."
     },
     {
       "id": "8-3-proportion-easy-q4",
       "type": "mcq",
-      "question": "$M$ and $g2g = 10$, $M = 4$. Find the value of $M$. So $g = 5$.",
+      "question": "$M$ varies inversely as $g$. When $g = 10$, $M = 4$. Find $M$ when $g = 5$.",
       "options": [
         "$M = 8$",
         "$M = 2$",
@@ -58,12 +58,12 @@
         "$M = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $M = \\frac{k}{g}$, which means $k = M \\times g$ and $k2k = 4 \\times 10 = 40$. The equation is $M = \\frac{40}{g}$. When $g = 5$, $M = \\frac{40}{5} = 8$.\n\n**Common mistake:** Students frequently mistakenly apply direct proportionality steps, reasoning that halving $g$ and $M2M = 2$."
+      "explanation": "The relationship is $M = \\frac{k}{g}$, so $k = Mg = 4 \\times 10 = 40$. Hence $M = \\frac{40}{g}$. When $g = 5$, $M = \\frac{40}{5} = 8$.\n\n**Common mistake:** Students frequently apply direct proportionality steps, reasoning incorrectly that halving $g$ halves $M$."
     },
     {
       "id": "8-3-proportion-easy-q5",
       "type": "mcq",
-      "question": "$A$ and $B2B = 12$, $A = 3$. Find the value of $B$. So $A = 5$.",
+      "question": "$A$ varies directly as $B$. When $B = 12$, $A = 3$. Find $B$ when $A = 5$.",
       "options": [
         "$B = 20$",
         "$B = 1.25$",
@@ -71,12 +71,12 @@
         "$B = 60$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation $A = kB$ and $k23 = k(12) \\implies k = \\frac{3}{12} = 0.25$. The equation is $A = 0.25B$ and $B2A = 5$, substitute into the equation: $5 = 0.25B \\implies B = \\frac{5}{0.25} = 20$.\n\n**Common mistake:** Students often mistake which variable is divided, calculating $k = 4$ (from $12 \\div 3$), leading to $B = 5 \\div 4 = 1.25$ or $B = 5 \\times 4 = 20$ by sheer luck of a double calculation inversion."
+      "explanation": "Set up $A = kB$. Then $3 = k(12)$, so $k = 0.25$ and $A = 0.25B$. When $A = 5$, $5 = 0.25B$, so $B = 20$.\n\n**Common mistake:** Students often mistake which variable is divided, calculating $k = 4$ and getting $B = 1.25$."
     },
     {
       "id": "8-3-proportion-easy-q6",
       "type": "mcq",
-      "question": "$y$ and $x2x = 4$, $y = 12$. Find the value of $y$. So $x = 9$.",
+      "question": "$y$ varies directly as $x$. When $x = 4$, $y = 12$. Find $y$ when $x = 9$.",
       "options": [
         "$y = 27$",
         "$y = 36$",
@@ -84,12 +84,12 @@
         "$y = 3$"
       ],
       "correctIndex": 0,
-      "explanation": "Since $y$ and $x2y = kx$. So $x = 4$ and $y = 12$ to find $k$. $12 = k(4) \\implies k = 3$. The equation connecting $y$ and $x2y = 3x$. So $x = 9$, $y = 3 \\times 9 = 27$.\n\n**Common mistake:** Students sometimes find the constant $k = 3$ but accidentally divide instead of multiply, or simply add the difference ($12 - 4 = 8$, so $9 + 8 = 17$)."
+      "explanation": "Since $y$ varies directly as $x$, $y = kx$. When $x = 4$ and $y = 12$, $12 = 4k$ so $k = 3$. Hence $y = 3x$. When $x = 9$, $y = 3 \\times 9 = 27$.\n\n**Common mistake:** Students sometimes find $k = 3$ but divide instead of multiply, or add the difference between the given values."
     },
     {
       "id": "8-3-proportion-easy-q7",
       "type": "mcq",
-      "question": "$p  and q2p = 35$ when $q = 5$, find the formula connecting $p  and q.",
+      "question": "$p$ and $q$ are directly proportional. When $p = 35$ and $q = 5$, find the formula connecting $p$ and $q$.",
       "options": [
         "$p = 7q$",
         "$p = \\frac{7}{q}$",
@@ -97,12 +97,12 @@
         "$p = 175q$"
       ],
       "correctIndex": 0,
-      "explanation": "Direct proportion means $p = kq$. $35 = k(5) \\implies k = \\frac{35}{5} = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q."
+      "explanation": "Direct proportion means $p = kq$. Substituting gives $35 = k(5)$, so $k = 7$. Thus, the formula is $p = 7q$.\n\n**Common mistake:** Students may perform an incorrect inverse operation, writing $k = 35 \\times 5 = 175$, leading to $p = 175q$."
     },
     {
       "id": "8-3-proportion-easy-q8",
       "type": "mcq",
-      "question": "$y$ and $x2x = 3$, $y = 8$. Find the constant of proportionality, $k.",
+      "question": "$y$ varies inversely as $x$. When $x = 3$, $y = 8$. Find the constant of proportionality, $k$.",
       "options": [
         "$k = 24$",
         "$k = \\frac{8}{3}$",
@@ -110,12 +110,12 @@
         "$k = 11$"
       ],
       "correctIndex": 0,
-      "explanation": "For inverse proportion, the general relationship is $y = \\frac{k}{x}$. Rearranging to find the constant gives $k = xy$. So $k = 3 \\times 8 = 24$.\n\n**Common mistake:** Students often treat the problem as direct proportion instead of inverse proportion, calculating $k = \\frac{y}{x} = \\frac{8}{3}$."
+      "explanation": "For inverse proportion, $y = \\frac{k}{x}$, so $k = xy$. Hence $k = 3 \\times 8 = 24$.\n\n**Common mistake:** Students often treat the problem as direct proportion instead of inverse proportion, calculating $k = \\frac{y}{x} = \\frac{8}{3}$."
     },
     {
       "id": "8-3-proportion-easy-q9",
       "type": "mcq",
-      "question": "$M$ and $g2g = 10$, $M = 4$. Find the value of $M$. So $g = 5$.",
+      "question": "$M$ varies inversely as $g$. When $g = 10$, $M = 4$. Find $M$ when $g = 5$.",
       "options": [
         "$M = 8$",
         "$M = 2$",
@@ -123,12 +123,12 @@
         "$M = 40$"
       ],
       "correctIndex": 0,
-      "explanation": "The relationship is $M = \\frac{k}{g}$, which means $k = M \\times g$ and $k2k = 4 \\times 10 = 40$. The equation is $M = \\frac{40}{g}$. When $g = 5$, $M = \\frac{40}{5} = 8$.\n\n**Common mistake:** Students frequently mistakenly apply direct proportionality steps, reasoning that halving $g$ and $M2M = 2$."
+      "explanation": "The relationship is $M = \\frac{k}{g}$, so $k = Mg = 4 \\times 10 = 40$. Hence $M = \\frac{40}{g}$. When $g = 5$, $M = \\frac{40}{5} = 8$.\n\n**Common mistake:** Students frequently apply direct proportionality steps, reasoning incorrectly that halving $g$ halves $M$."
     },
     {
       "id": "8-3-proportion-easy-q10",
       "type": "mcq",
-      "question": "$A$ and $B2B = 12$, $A = 3$. Find the value of $B$. So $A = 5$.",
+      "question": "$A$ varies directly as $B$. When $B = 12$, $A = 3$. Find $B$ when $A = 5$.",
       "options": [
         "$B = 20$",
         "$B = 1.25$",
@@ -136,7 +136,7 @@
         "$B = 60$"
       ],
       "correctIndex": 0,
-      "explanation": "Set up the equation $A = kB$ and $k23 = k(12) \\implies k = \\frac{3}{12} = 0.25$. The equation is $A = 0.25B$ and $B2A = 5$, substitute into the equation: $5 = 0.25B \\implies B = \\frac{5}{0.25} = 20$.\n\n**Common mistake:** Students often mistake which variable is divided, calculating $k = 4$ (from $12 \\div 3$), leading to $B = 5 \\div 4 = 1.25$ or $B = 5 \\times 4 = 20$ by sheer luck of a double calculation inversion."
+      "explanation": "Set up $A = kB$. Then $3 = k(12)$, so $k = 0.25$ and $A = 0.25B$. When $A = 5$, $5 = 0.25B$, so $B = 20$.\n\n**Common mistake:** Students often mistake which variable is divided, calculating $k = 4$ and getting $B = 1.25$."
     }
   ]
 }

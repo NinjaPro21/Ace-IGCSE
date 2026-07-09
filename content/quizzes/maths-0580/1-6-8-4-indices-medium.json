@@ -11,15 +11,15 @@
     {
       "id": "1-6-8-4-indices-medium-q1",
       "type": "mcq",
-      "question": "Evaluate the exact \\frac{1}{a} or integer value of $27^{-\\frac{2}{3}}$.",
+      "question": "Evaluate the exact fractional or integer value of $27^{-\\frac{2}{3}}$.",
       "options": [
         "$\\frac{1}{9}$",
-        "$$\n\\frac{1}{3}\n",
-        "-18",
-        "9"
+        "$-\\frac{1}{9}$",
+        "$9$",
+        "$-9$"
       ],
       "correctIndex": 0,
-      "explanation": "Apply the \\frac{1}{a} index rules: $27^{-\\frac{2}{3}} = \\frac{1}{(27^{\\frac{1}{3}})^2}$. The cube root of 27 is 3, and squaring 3 gives 9. The reciprocal gives $\\frac{1}{9}$.\n\n**Common mistake:** Students often forget the negative sign's reciprocal operation or multiply $27 \\times -\\frac{2}{3}$ directly to get $-18$."
+      "explanation": "Apply the index rules: $27^{-\\frac{2}{3}} = \\frac{1}{(27^{\\frac{1}{3}})^2}$. The cube root of 27 is 3, and squaring 3 gives 9. The reciprocal gives $\\frac{1}{9}$.\n\n**Common mistake:** Students often forget the negative sign's reciprocal operation or multiply $27 \\times -\\frac{2}{3}$ directly to get $-18$."
     },
     {
       "id": "1-6-8-4-indices-medium-q2",

@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-/** Repair quiz JSON for Add Math Ch.7 topics only. */
+/**
+ * Repair Add Math Ch.7 canonical quiz JSON (docx import artefacts).
+ * WARNING: Uses prepareMathContent — prefer repair-ch07-quizzes-targeted.mjs for safe fixes.
+ */
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'

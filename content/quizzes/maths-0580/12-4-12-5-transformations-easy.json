@@ -37,12 +37,12 @@
     {
       "id": "12-4-12-5-transformations-easy-q3",
       "type": "mcq",
-      "question": "A triangle with an area of^10cm^2 is enlarged by a scale factor of^3. What is the area of the resulting image?",
+      "question": "A triangle with an area of $10\\text{ cm}^2$ is enlarged by a scale factor of $3$. What is the area of the resulting image?",
       "options": [
-        "$90$ cm 2",
-        "$30$ cm 2",
-        "$100$ cm 2",
-        "$60$ cm 2"
+        "$90\\text{ cm}^2$",
+        "$30\\text{ cm}^2$",
+        "$100\\text{ cm}^2$",
+        "$60\\text{ cm}^2$"
       ],
       "correctIndex": 0,
       "explanation": "When a shape is enlarged by scale factor $k$. $k^2$. Here, $10 \\times 3^2 = 10 \\times 9 = 90$.\n\n**Common mistake:** A common error is multiplying the area by the scale factor directly ($10 \\times 3 = 30$) instead of the square of the scale factor."
@@ -71,7 +71,7 @@
         "Scale factor $-1$"
       ],
       "correctIndex": 0,
-      "explanation": "An enlargement with a scale factor between^0 and^1 (or $-1$ and^0) results in a reduction of the object's size.\n\n**Common mistake:** A student might think a negative scale factor like $-2$ means the image is smaller, whereas it actually indicates the image is on the opposite side of the center and larger."
+      "explanation": "An enlargement with a scale factor between $0$ and $1$ (or $-1$ and $0$) results in a reduction of the object's size.\n\n**Common mistake:** A student might think a negative scale factor like -2\n\n$$ means the image is smaller, whereas it actually indicates the image is on the opposite side of the center and larger."
     }
   ]
 }

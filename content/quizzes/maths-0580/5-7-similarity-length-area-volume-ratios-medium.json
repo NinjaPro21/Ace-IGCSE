@@ -11,7 +11,7 @@
     {
       "id": "5-7-similarity-length-area-volume-ratios-medium-q1",
       "type": "mcq",
-      "question": "In a diagram, triangle $ADE$. $ABC2DE$. $BC2AD = 2\\text{ cm}, AB = 6\\text{ cm},$ and $DE = 5\\text{ cm}$, find the length of $BC.",
+      "question": "In a diagram, triangle $ADE$ is similar to triangle $ABC$, with $DE \\parallel BC$. If $AD = 2\\text{ cm}$, $AB = 6\\text{ cm}$, and $DE = 5\\text{ cm}$, find the length of $BC$.",
       "options": [
         "$15\\text{ cm}$",
         "$10\\text{ cm}$",
@@ -19,7 +19,7 @@
         "$7.5\\text{ cm}$"
       ],
       "correctIndex": 0,
-      "explanation": "The linear scale factor $k = AB/AD = 6/2 = 3$. Therefore, $BC = DE \\times 3 = 5 \\times 3 = 15\\text{ cm}$.\n\n**Common mistake:** The student might use the length $BD$. $4\\text{ cm}$) as the scale factor instead of the full side $AB."
+      "explanation": "The linear scale factor $k = AB/AD = 6/2 = 3$. Therefore, $BC = DE \\times 3 = 5 \\times 3 = 15\\text{ cm}$.\n\n**Common mistake:** The student might use the length $BD$ ($4\\text{ cm}$) as the scale factor instead of the full side $AB$."
     },
     {
       "id": "5-7-similarity-length-area-volume-ratios-medium-q2",
