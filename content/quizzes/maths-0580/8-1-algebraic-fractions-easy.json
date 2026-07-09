@@ -11,7 +11,7 @@
     {
       "id": "8-1-algebraic-fractions-easy-q1",
       "type": "mcq",
-      "question": "Simplify the single algebraic $fraction$ completely:\n\n$$\n\\frac{6x^2y}{2xy^2}\n",
+      "question": "Simplify the single algebraic fraction completely: $\\frac{6x^2y}{2xy^2}$.",
       "options": [
         "$\\frac{3x}{y}$",
         "$3xy$",
@@ -24,7 +24,7 @@
     {
       "id": "8-1-algebraic-fractions-easy-q2",
       "type": "mcq",
-      "question": "Simplify the expression:\n\n$$\n\\frac{4}{x} \\times \\frac{x^2}{2}\n",
+      "question": "Simplify the expression: $\\frac{4}{x} \\times \\frac{x^2}{2}$.",
       "options": [
         "$2x$",
         "$\\frac{2}{x}$",
@@ -37,7 +37,7 @@
     {
       "id": "8-1-algebraic-fractions-easy-q3",
       "type": "mcq",
-      "question": "Express as a single $fraction$ in its simplest form:\n\n$$\n\\frac{a}{3} + \\frac{a}{4}\n",
+      "question": "Express as a single fraction in its simplest form: $\\frac{a}{3} + \\frac{a}{4}$.",
       "options": [
         "$\\frac{7a}{12}$",
         "$\\frac{2a}{7}$",
@@ -45,12 +45,12 @@
         "$\\frac{12a}{7}$"
       ],
       "correctIndex": 0,
-      "explanation": "Find a common denominator, which is $3 \\times 4 = 12$. Convert each $fraction:$ $\\frac{a}{3} = \\frac{4a}{12}$ and $\\frac{a}{4} = \\frac{3a}{12}$. Add the numerators together over the common denominator: $\\frac{4a + 3a}{12} = \\frac{7a}{12}$.\n\n**Common mistake:** A common mistake is simply adding the numerators and adding the denominators directly, resulting in $\\frac{2a}{7}$."
+      "explanation": "Find a common denominator, which is $3 \\times 4 = 12$. Convert each fraction:\\frac{a}{3} = \\frac{4a}{12}$and$\\frac{a}{4} = \\frac{3a}{12}$. Add the numerators together over the common denominator:$\\frac{4a + 3a}{12} = \\frac{7a}{12}\n\n$$.\n\n**Common mistake:** A common mistake is simply adding the numerators and adding the denominators directly, resulting in $\\frac{2a}{7}$."
     },
     {
       "id": "8-1-algebraic-fractions-easy-q4",
       "type": "mcq",
-      "question": "Perform the division and simplify fully:\n\n$$\n\\frac{3}{2x} \\div \\frac{9}{x^2}\n",
+      "question": "Perform the division and simplify fully: $\\frac{3}{2x} \\div \\frac{9}{x^2}$.",
       "options": [
         "$\\frac{x}{6}$",
         "$\\frac{6}{x}$",
@@ -58,12 +58,12 @@
         "$\\frac{x^2}{6}$"
       ],
       "correctIndex": 0,
-      "explanation": "Multiply by the reciprocal of the second $fraction:$ $\\frac{3}{2x} \\times \\frac{x^2}{9}$. This simplifies to $\\frac{3x^2}{18x}$. Cancelling out the common factors ($3$ and $x$. $\\frac{x}{6}$.\n\n**Common mistake:** Students often forget to invert the second $fraction$ before multiplying, calculating $\\frac{3}{2x} \\times \\frac{9}{x^2}$ instead."
+      "explanation": "Multiply by the reciprocal of the second fraction: $\\frac{3}{2x} \\times \\frac{x^2}{9} = \\frac{3x^2}{18x}$. Cancelling the common factors $3$ and $x$ gives $\\frac{x}{6}$.\n\n**Common mistake:** Students often forget to invert the second fraction before multiplying, calculating $\\frac{3}{2x} \\times \\frac{9}{x^2}$ instead."
     },
     {
       "id": "8-1-algebraic-fractions-easy-q5",
       "type": "mcq",
-      "question": "Simplify the algebraic $fraction:\n\n$$\n\\frac{5x - 10}{5}\n",
+      "question": "Simplify the algebraic fraction: $\\frac{5x - 10}{5}$.",
       "options": [
         "$x - 2$",
         "$x - 10$",
@@ -71,7 +71,7 @@
         "$2x$"
       ],
       "correctIndex": 0,
-      "explanation": "Factorise the numerator first by extracting the highest common factor, which is $1$: $5x - 10 = 5(x - 2)$. Now write out the $fraction:$ $\\frac{5(x - 2)}{5}$. Cancel out the common factor of^5 from the top and bottom to leave $x - 2$.\n\n**Common mistake:** Students frequently cancel only the first term's coefficient, mistakenly leaving the constant untouched to get $x - 10$."
+      "explanation": "Factorise the numerator first by extracting the highest common factor, which is $1$: $5x - 10 = 5(x - 2)$. Now write out the fraction:\\frac{5(x - 2)}{5}$. Cancel out the common factor of$5$ from the top and bottom to leave x - 2\n\n$$.\n\n**Common mistake:** Students frequently cancel only the first term's coefficient, mistakenly leaving the constant untouched to get $x - 10."
     }
   ]
 }

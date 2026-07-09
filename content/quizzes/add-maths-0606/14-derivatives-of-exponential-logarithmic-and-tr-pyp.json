@@ -162,7 +162,7 @@
         "1"
       ],
       "correctIndex": 0,
-      "explanation": "$\\frac{dy}{dx} =$\n\\sec^{2} x=1+\n\\tan^{2}x. At x= \\frac{\\pi}{3},$$\ntan($\\frac{\\pi}{3}$)=\\sqrt3. Thus gradient is 1+(\\sqrt$3)^{2}=4$.\n\n**Common mistake:** Option B is the value of\n\\tan^{2}$($\\frac{\\pi}{3}$), failing to add the 1 from the identity$."
+      "explanation": "$\\frac{dy}{dx} = \\sec^2 x = 1 + \\tan^2 x$. At $x = \\frac{\\pi}{3}$, $\\tan(\\frac{\\pi}{3}) = \\sqrt{3}$, so the gradient is $1 + (\\sqrt{3})^2 = 4$.\n\n**Common mistake:** Option B is $\\tan^2(\\frac{\\pi}{3})$, forgetting to add the $1$ from the identity."
     },
     {
       "id": "14-derivatives-of-exponential-logarithmic-and-tr-pyp-q13",
