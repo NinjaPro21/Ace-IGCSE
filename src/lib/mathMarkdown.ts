@@ -1025,7 +1025,7 @@ function stripProseWrappedInMath(text: string): string {
   return text.replace(
     /^\$((?:Solve|Find|State|Determine|Identify|Given|Calculate)\s+(?:the\s+)?(?:inequality|equation|value|set|range|coordinates?)\s*)([^$\\]+?)\$/i,
     (_, prose, math) => {
-      const converted = math.replace(/[≥≤]/g, (c) => (c === '≥' ? '\\ge ' : '\\le '))
+      const converted = math.replace(/[≥≤]/g, (c: string) => (c === '≥' ? '\\ge ' : '\\le '))
       return `${prose.trim()} $${converted.trim()}$`
     },
   )
