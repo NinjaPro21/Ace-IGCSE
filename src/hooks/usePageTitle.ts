@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
+import { BRAND } from '@/lib/brand'
 
-const SITE = 'Project Enlight'
+const SITE = BRAND.full
 
 export function usePageTitle(pageTitle: string) {
   useEffect(() => {

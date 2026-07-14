@@ -75,7 +75,7 @@ export function SubjectsListPage() {
           <Link to="/dashboard">← Back to dashboard</Link>
         </p>
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
+      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

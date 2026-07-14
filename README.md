@@ -1,4 +1,4 @@
-# Project Enlight
+# AceIGCSE
 
 Premium, gamified IGCSE study platform for CIE Additional Mathematics, Mathematics, and Physics.
 

@@ -20,7 +20,7 @@ const TOUR_STEPS: TourStep[] = [
   {
     id: 'welcome',
     route: '/dashboard',
-    title: 'Welcome to Project Enlight',
+    title: 'Welcome to AceIGCSE',
     body: 'Let us show you where everything lives — dashboard, subjects, social, and more. Takes about a minute.',
     placement: 'center',
   },

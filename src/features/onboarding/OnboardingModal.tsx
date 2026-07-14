@@ -42,7 +42,7 @@ export function OnboardingModal() {
       <div className="enlight-popout enlight-popout--card enlight-onboarding">
         {step === 0 && (
           <>
-            <h2 className="enlight-heading-serif">Welcome to Project Enlight</h2>
+            <h2 className="enlight-heading-serif">Welcome to AceIGCSE</h2>
             <p className="enlight-body-text">Pick a display name for leaderboards and friend lists.</p>
             <input
               className="enlight-profile-form__input"

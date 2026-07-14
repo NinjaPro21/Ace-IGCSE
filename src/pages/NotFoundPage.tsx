@@ -11,7 +11,7 @@ export function NotFoundPage() {
       <div className="enlight-container enlight-page-padding">
         <h1 className="enlight-heading-serif">Page not found</h1>
         <p className="enlight-body-text">
-          That link doesn&apos;t match any page on Project Enlight. Head back to your dashboard or
+          That link doesn&apos;t match any page on AceIGCSE. Head back to your dashboard or
           browse subjects to keep studying.
         </p>
         <div style={{ display: 'flex', gap: 12, marginTop: 24, flexWrap: 'wrap' }}>

@@ -33,7 +33,7 @@ export function SignInButton({ compact = false }: { compact?: boolean }) {
           type="button"
           className="enlight-btn enlight-btn--sm enlight-btn--outline"
           onClick={() => {
-            if (window.confirm('Sign out of Project Enlight? Your progress stays saved to your Google account.')) {
+            if (window.confirm('Sign out of AceIGCSE? Your progress stays saved to your Google account.')) {
               signOut()
             }
           }}

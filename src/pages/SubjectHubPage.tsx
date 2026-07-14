@@ -160,7 +160,7 @@ export function SubjectHubPage() {
           })}
         </div>
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
+      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

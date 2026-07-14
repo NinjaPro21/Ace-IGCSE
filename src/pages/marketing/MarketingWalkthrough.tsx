@@ -191,7 +191,7 @@ function NotesStep({ onBack, onNext }: { onBack: () => void; onNext: () => void 
           </p>
         </header>
 
-        <TourBrowserMock url="projectenlight.com/lesson" className="enlight-tour-browser--lesson">
+        <TourBrowserMock url="aceigcse.com/lesson" className="enlight-tour-browser--lesson">
           <div className="enlight-showcase-note enlight-showcase-note--embedded">
             <ShowcaseLessonBar
               chapterTitle={chapter?.title ?? 'Graphs'}
@@ -283,7 +283,7 @@ function AboutStep({ onBack, onNext }: { onBack: () => void; onNext: () => void 
           <p className="enlight-tour-section__label">About</p>
           <h2 className="enlight-tour-section__title">Built by students, for students.</h2>
           <p className="enlight-tour-lead enlight-tour-lead--left">
-            Project Enlight compresses syllabus content into exam-ready cards, pairs them with clear
+            AceIGCSE compresses syllabus content into exam-ready cards, pairs them with clear
             graphs and diagrams, and uses tiered quizzes so you know exactly where you stand.
           </p>
         </header>
@@ -301,10 +301,6 @@ function AboutStep({ onBack, onNext }: { onBack: () => void; onNext: () => void 
             </li>
           ))}
         </ul>
-
-        <p className="enlight-tour-about__footnote">
-          Exploring school and tutoring partnerships — reach out through your admin channel.
-        </p>
       </div>
 
       <WalkthroughNav step={4} onBack={onBack} onNext={onNext} nextLabel="Next — leaderboard →" />

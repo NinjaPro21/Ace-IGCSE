@@ -19,7 +19,7 @@ export function DemoPage() {
           <TrigGraphExplorer />
         </div>
       </section>
-      <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
+      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

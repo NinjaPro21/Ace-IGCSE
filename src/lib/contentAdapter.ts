@@ -1,5 +1,5 @@
 /**
- * Content import adapter — maps external JSON/Markdown shapes to Project Enlight schema.
+ * Content import adapter — maps external JSON/Markdown shapes to AceIGCSE schema.
  * See content/CONTENT_AUTHORING.md for the canonical format.
  */
 import type {

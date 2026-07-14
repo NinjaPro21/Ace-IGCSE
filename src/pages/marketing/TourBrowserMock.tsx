@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 
 /** Decorative browser frame for marketing walkthrough (premium PE-style). */
 export function TourBrowserMock({
-  url = 'projectenlight.com',
+  url = 'aceigcse.com',
   children,
   className = '',
 }: {

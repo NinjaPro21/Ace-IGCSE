@@ -83,7 +83,7 @@ export function ProfilePage() {
   }
 
   const handleShare = () => {
-    void navigator.clipboard.writeText(`Study with me on Project Enlight! Friend code: ${friendCode}`)
+    void navigator.clipboard.writeText(`Study with me on AceIGCSE! Friend code: ${friendCode}`)
     setMessage('Link copied!')
   }
 
@@ -275,7 +275,7 @@ export function ProfilePage() {
 
         <EnlightButton to="/social" variant="outline">← Social</EnlightButton>
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
+      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

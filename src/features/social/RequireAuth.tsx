@@ -9,7 +9,7 @@ export function SignInGate() {
     <div className="enlight-app enlight-signin-gate">
       <div className="enlight-signin-gate__card">
         <span className="enlight-badge enlight-badge--gold">IGCSE</span>
-        <h1 className="enlight-heading-serif enlight-signin-gate__title">Project Enlight</h1>
+        <h1 className="enlight-heading-serif enlight-signin-gate__title">AceIGCSE</h1>
         <p className="enlight-body-text enlight-signin-gate__text">
           Sign in with your school Google account to access notes, quizzes, progress tracking, and
           class leaderboards.

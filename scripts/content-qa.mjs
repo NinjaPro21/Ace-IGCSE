@@ -49,7 +49,7 @@ function countMissingVisuals(subjectId) {
   return missing
 }
 
-console.log('Project Enlight — content QA gate')
+console.log('AceIGCSE — content QA gate')
 console.log(`Subject filter: ${subjectArg}`)
 
   if (doFix) {

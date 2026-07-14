@@ -80,8 +80,8 @@ export function EnlightHeader() {
       <div className="enlight-header__inner">
         <Link to={user ? '/dashboard' : '/'} className="enlight-header__brand">
           <h1 className="enlight-header__logo">
-            <span className="enlight-header__logo-full">Project Enlight</span>
-            <span className="enlight-header__logo-short">Enlight</span>
+            <span className="enlight-header__logo-full">AceIGCSE</span>
+            <span className="enlight-header__logo-short">Ace</span>
           </h1>
           <span className="enlight-badge enlight-badge--gold">IGCSE</span>
         </Link>

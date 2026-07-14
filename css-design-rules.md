@@ -1,4 +1,4 @@
-# Project Enlight UI/UX & CSS Blueprint
+# AceIGCSE UI/UX & CSS Blueprint
 
 ## 1. Color Palette & Backgrounds
 * **Primary App Background:** Soft cream/off-white (#FAF6F0).

@@ -85,7 +85,7 @@ export function ReviewPromptModal() {
     <div className="enlight-popout-overlay" role="dialog" aria-modal="true" aria-labelledby="review-prompt-title">
       <div className="enlight-popout enlight-popout--card enlight-review-prompt">
         <h2 id="review-prompt-title" className="enlight-heading-serif">
-          How is Project Enlight?
+          How is AceIGCSE?
         </h2>
         <p className="enlight-body-text">
           You have been studying for a while — we would love a quick rating out of 5 stars and an optional comment.

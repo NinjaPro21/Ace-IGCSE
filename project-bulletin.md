@@ -1,4 +1,4 @@
-# Project Enlight V2: Master Bulletin Board
+# AceIGCSE V2: Master Bulletin Board
 
 ## 🎯 The Core Mission
 A premium, gamified, mastery-based IGCSE learning platform focused on interactivity and clarity.

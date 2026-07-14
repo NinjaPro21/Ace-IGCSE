@@ -97,13 +97,13 @@ Each row is one NotebookLM run. Use the **topic-id** for JSON filenames.
 Replace `[TOPIC-ID]`, `[CHAPTER-ID]`, `[SUBTOPIC TITLE]`, `[SYLLABUS REF e.g. 2.1]`.
 
 ```
-You are writing IGCSE Cambridge Physics 0625 quiz JSON for Project Enlight.
+You are writing IGCSE Cambridge Physics 0625 quiz JSON for AceIGCSE.
 
 SUBTOPIC: [SUBTOPIC TITLE] (syllabus [SYLLABUS REF])
 topic-id: [TOPIC-ID]
 chapter-id: [CHAPTER-ID]
 
-Use ONLY the uploaded Project Enlight note and 0625 sources. Match the note's depth and wording.
+Use ONLY the uploaded AceIGCSE note and 0625 sources. Match the note's depth and wording.
 
 Output valid JSON ONLY — a single object with key "quizzes" containing exactly 4 quiz objects:
 

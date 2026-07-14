@@ -11,7 +11,7 @@ export function MarketingLayout() {
         <div className="enlight-header__inner">
           <Link to="/" className="enlight-header__brand">
             <h1 className="enlight-header__logo">
-              <span className="enlight-header__logo-full">Project Enlight</span>
+              <span className="enlight-header__logo-full">AceIGCSE</span>
             </h1>
             <span className="enlight-badge enlight-badge--gold">IGCSE</span>
           </Link>
@@ -30,7 +30,7 @@ export function MarketingLayout() {
         </div>
       </header>
       <Outlet />
-      <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight</footer>
+      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

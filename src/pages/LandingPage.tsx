@@ -149,7 +149,7 @@ export function LandingPage() {
         </div>
       </section>
 
-      <footer className="enlight-footer">© {new Date().getFullYear()} Project Enlight. All rights reserved.</footer>
+      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE. All rights reserved.</footer>
     </div>
   )
 }
