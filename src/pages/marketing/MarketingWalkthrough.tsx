@@ -191,7 +191,7 @@ function NotesStep({ onBack, onNext }: { onBack: () => void; onNext: () => void 
           </p>
         </header>
 
-        <TourBrowserMock url="aceigcse.com/lesson" className="enlight-tour-browser--lesson">
+        <TourBrowserMock url="aceigcse.my/lesson" className="enlight-tour-browser--lesson">
           <div className="enlight-showcase-note enlight-showcase-note--embedded">
             <ShowcaseLessonBar
               chapterTitle={chapter?.title ?? 'Graphs'}

@@ -6,10 +6,9 @@ Copy everything inside the **START / END** block into a new Cursor chat when con
 
 ## START — paste below this line into a new chat
 
-You are helping fix **quiz content and LaTeX rendering** for **AceIGCSE** (`Project-Enlight-1`), a Cambridge IGCSE study app (Add Math 0606, Maths 0580, Physics 0625).
+You are helping fix **quiz content and LaTeX rendering** for **AceIGCSE**, a Cambridge IGCSE study app (Add Math 0606, Maths 0580, Physics 0625).
 
-**Live site:** https://aceigcse.com  
-**Repo:** `c:\Users\NITRO 5\Project-Enlight-1`
+**Live site:** https://aceigcse.my
 
 ### Goal
 
