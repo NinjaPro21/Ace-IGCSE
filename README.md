@@ -1,8 +1,9 @@
 # AceIGCSE
 
-Premium, gamified IGCSE study platform for CIE Additional Mathematics, Mathematics, and Physics.
+Premium, gamified IGCSE study platform for CIE Additional Mathematics (0606), Mathematics (0580), and Physics (0625).
 
-**Live site:** [https://aceigcse.my](https://aceigcse.my)
+**Live site:** [https://aceigcse.my](https://aceigcse.my)  
+**Repository:** [github.com/NinjaPro21/Ace-IGCSE](https://github.com/NinjaPro21/Ace-IGCSE)
 
 ## Quick start
 
@@ -15,10 +16,10 @@ Open [http://localhost:5173](http://localhost:5173).
 
 ## Features
 
-- **Landing & live demo** — marketing home and trig graph explorer (no login)
+- **Landing & live demo** — marketing home and interactive explorers (no login)
 - **Subject hubs** — chapter grids with availability / progress / mastered states
 - **Topic lessons** — Markdown + KaTeX notes, interactive explorers, mastery checklist
-- **Quiz arena** — Easy → Medium → Hard → PYP with 70% pass gates and XP in `localStorage`
+- **Quiz arena** — Easy → Medium → Hard → PYP with pass gates and XP progress
 
 ## Content
 
@@ -26,18 +27,19 @@ Author notes and quizzes under [`content/`](content/). See [`content/CONTENT_AUT
 
 ## Scripts
 
-| Command        | Description          |
-|----------------|----------------------|
-| `npm run dev`  | Development server   |
-| `npm run build`| Production build     |
+| Command | Description |
+|---|---|
+| `npm run dev` | Development server |
+| `npm run build` | Production build (runs content QA first) |
 | `npm run preview` | Preview production build |
+| `npm run deploy:hosting` | Build and deploy Firebase Hosting |
 
 ## Stack
 
 - Vite + React + TypeScript
 - React Router
+- Firebase (Auth / Firestore / Hosting)
 - KaTeX + react-markdown
-- Progress: `localStorage` (`enlight-progress-v1`)
 
 ## Product docs
 

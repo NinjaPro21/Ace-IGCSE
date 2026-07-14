@@ -2,6 +2,12 @@
   "name": "ace-igcse",
   "private": true,
   "version": "1.0.0",
+  "description": "AceIGCSE — interactive IGCSE study platform for Add Maths, Maths, and Physics",
+  "homepage": "https://aceigcse.my",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NinjaPro21/Ace-IGCSE.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
