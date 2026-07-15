@@ -204,7 +204,7 @@ export function TopicLessonPage() {
   const chapterLabel = chapter.badge ?? `Ch.${chapter.number} · ${chapter.title}`
 
   return (
-    <div className="enlight-app">
+    <div className="enlight-app enlight-app--lesson">
       <EnlightHeader />
 
       <LessonTopBar

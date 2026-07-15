@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
@@ -25,11 +26,21 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
   const quizLevel = getTopicQuizLevel(topic.id)
   const chapterNotesComplete = areChapterNotesComplete(topic.chapterId)
   const showChapterQuiz = Boolean(chapter?.hasChapterQuiz && chapterNotesComplete)
+  const navRef = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    const nav = navRef.current
+    if (!nav) return
+    const active = nav.querySelector('.enlight-lesson-sidebar__link--active')
+    if (active instanceof HTMLElement) {
+      active.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' })
+    }
+  }, [topic.id])
 
   return (
     <aside className="enlight-lesson-sidebar">
-      <span className="enlight-section-label">{chapterTitle}</span>
-      <nav className="enlight-lesson-sidebar__nav" aria-label="Section navigation">
+      <span className="enlight-section-label enlight-lesson-sidebar__chapter">{chapterTitle}</span>
+      <nav ref={navRef} className="enlight-lesson-sidebar__nav" aria-label="Section navigation">
         {chapterTopics.map((t) => {
           const topicQuizLevel = getTopicQuizLevel(t.id)
           const done = topicQuizLevel >= 4
@@ -52,6 +63,7 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
           )
         })}
       </nav>
+      <div className="enlight-lesson-sidebar__body">
       <div className="enlight-lesson-sidebar__tools">
         <div
           className="enlight-checklist enlight-checklist--section"
@@ -100,6 +112,7 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
           </div>
         </div>
       ) : null}
+      </div>
     </aside>
   )
 }

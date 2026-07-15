@@ -1,6 +1,7 @@
 import { NOTES_MIN_SECONDS } from '@/features/mastery/levelSystem'
 import { cloudRowToUserProgress, type CloudProfile } from '@/features/social/socialApi'
 import { getAllSubjects, getChapter, getTopic } from '@/lib/contentLoader'
+import { localDateISO } from '@/lib/localDate'
 
 export interface FunnelStep {
   id: string
@@ -56,7 +57,7 @@ function weekStartMonday(isoDate: string): Date {
 }
 
 function formatCohortLabel(monday: Date): string {
-  return monday.toISOString().slice(0, 10)
+  return localDateISO(monday)
 }
 
 function isActiveInWeek(profile: CloudProfile, weekMonday: Date): boolean {

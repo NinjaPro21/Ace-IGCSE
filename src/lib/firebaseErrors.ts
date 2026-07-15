@@ -8,6 +8,7 @@ const FIREBASE_MESSAGES: Record<string, string> = {
   'auth/too-many-requests': 'Too many attempts. Wait a minute and try again.',
   'auth/user-disabled': 'This account has been disabled. Contact your school admin for help.',
   'auth/operation-not-allowed': 'Sign-in is not available right now. Try again later.',
+  'auth/unauthorized-domain': 'This site domain is not authorized for sign-in yet. Try again in a minute or contact support.',
   'permission-denied': 'You do not have permission to do that. Sign in again or contact support.',
   'unavailable': 'The service is temporarily unavailable. Try again in a moment.',
   'failed-precondition': 'That action could not be completed. Refresh the page and try again.',

@@ -778,9 +778,9 @@ export function fixBrokenMappingNotation(text: string): string {
   // Corrupted import fractions
   t = t.replace(/\\frac\{2x-\}\{1x\+3\}/g, '\\frac{2x-1}{x+3}')
 
-  // Trailing $ from broken display blocks — not when $ closes inline math ($b$ where)
-  // Trailing $ from broken display blocks — not when $ closes inline math ($b$ where)
-  t = t.replace(/(?<![a-zA-Z\d)\}\]\\])\$ where/g, ' where')
+  // Trailing $ from broken display blocks — not when $ closes inline math
+  // ($b$ where, $|f(x)|$ where). Include | so modulus closers stay intact.
+  t = t.replace(/(?<![a-zA-Z\d)\}\]\\|])\$ where/g, ' where')
   // Orphan $ glued after a bare number+period at line end (docx), not inline-math close-before-period
   t = t.replace(/(?<!\$[^$\n]{0,120})(\d)\.\$(\s*)$/gm, '$1.$2')
   t = t.replace(/\$ for \$x\$/g, ' for $x$')
@@ -1270,6 +1270,16 @@ function closeInlineMathBeforePunctuation(text: string): string {
 export function normalizeTitleMath(raw: string): string {
   let t = decodeHTMLEntities(stripInvisibleChars(raw.trim()))
   t = t.replace(/∣/g, '|').replace(/−/g, '-')
+
+  // Undo prior pipeline corruption: `$y = |f(x)| where$f(x)$is Linear$`
+  t = t.replace(
+    /\$y\s*=\s*\|f\(x\)\|\s*where\$f\(x\)\$is\s+(Linear|Quadratic)([^$]*)\$/gi,
+    (_, kind, rest) => `$y = |f(x)|$ where $f(x)$ is ${kind}${rest}`,
+  )
+  t = t.replace(
+    /\$y\s*=\s*\|f\(x\)\|\s*where\s*\$f\(x\)\$\s*is\s+(Linear|Quadratic)/gi,
+    (_, kind) => `$y = |f(x)|$ where $f(x)$ is ${kind}`,
+  )
 
   if (/\$[^$]+\$/.test(t)) return fixQuizLatexText(t)
 

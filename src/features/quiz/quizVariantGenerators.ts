@@ -167,20 +167,28 @@ function tryGenerators(text: string): Variant[] {
     return out
   }
 
-  // fg(x) = constant
+  // fg(x) = constant — fg(x) = f(g(x)) = a(x² + c) - b = target → x² = (target + b - ac) / a
   m = text.match(/f\(x\)\s*=\s*(\d+)x\s*-\s*(\d+).*g\(x\)\s*=\s*x²\s*\+\s*(\d+).*fg\(x\)\s*=\s*(\d+)/s)
   if (m) {
     for (const [a, b, c, target] of [
-      [3, 1, 2, 14],
-      [2, 3, 1, 10],
-      [4, 2, 3, 20],
+      [3, 1, 2, 32],
+      [2, 3, 1, 17],
+      [4, 2, 3, 26],
     ] as const) {
+      const xSquared = (target + b - a * c) / a
+      const r = Math.sqrt(xSquared)
+      if (!Number.isInteger(r) || r <= 0) continue
       out.push(
         mk(
           `Given $f(x) = ${a}x - ${b}$ and $g(x) = x² + ${c}$, solve $fg(x) = ${target}$.`,
-          [`$x = 2$ and $x = -3$`, `$x = 3$ and $x = -2$`, `$x = 1$ only`, `$x = 0$ and $x = 4$`],
+          [
+            `$x = ${r}$ and $x = -${r}$`,
+            `$x = ${r + 1}$ and $x = -${r + 1}$`,
+            `$x = ${r}$ only`,
+            `$x = ${xSquared}$ and $x = -${xSquared}$`,
+          ],
           0,
-          `Substitute $f$ into $g$ and solve the resulting quadratic.`,
+          `$fg(x) = f(g(x)) = ${a}(x² + ${c}) - ${b} = ${target}$, so $x² = ${xSquared}$ and $x = \\pm ${r}$.`,
         ),
       )
     }
@@ -741,11 +749,13 @@ function tryGenerators(text: string): Variant[] {
   // tangent at point (px, py)
   m = text.match(/\((\d+),\s*(\d+)\)/)
   if (m && text.toLowerCase().includes('tangent') && text.includes('x^2')) {
-    for (const [b, c, px, py] of [
-      [4, 5, 3, 2],
-      [6, 8, 4, 3],
-      [2, 1, 1, 0],
+    for (const [b, c, px] of [
+      [4, 5, 3],
+      [6, 8, 5],
+      [2, 1, 2],
     ] as const) {
+      // The point must lie on the curve, so derive py instead of hardcoding it.
+      const py = px * px - b * px + c
       const grad = 2 * px - b
       const intercept = py - grad * px
       const interceptSign = intercept >= 0 ? '+' : '-'

@@ -41,6 +41,23 @@ export function LessonTopBar({
 
   const barRef = useRef<HTMLDivElement>(null)
 
+  // Keep sticky offsets in sync with real topbar height (wrap / font scale)
+  useEffect(() => {
+    const el = barRef.current
+    if (!el) return
+    const syncHeight = () => {
+      const h = Math.round(el.getBoundingClientRect().height)
+      document.documentElement.style.setProperty('--enlight-lesson-topbar-height', `${h}px`)
+    }
+    syncHeight()
+    const ro = new ResizeObserver(syncHeight)
+    ro.observe(el)
+    return () => {
+      ro.disconnect()
+      document.documentElement.style.removeProperty('--enlight-lesson-topbar-height')
+    }
+  }, [])
+
   // Add shadow when page is scrolled
   useEffect(() => {
     const onScroll = () => {

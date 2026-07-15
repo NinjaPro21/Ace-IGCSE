@@ -15,8 +15,8 @@ const topicModules = import.meta.glob('@content/topics/**/*.json', {
   import: 'default',
 }) as Record<string, TopicMeta>
 
-/** Lazy-loaded — keeps quiz JSON out of the initial bundle. */
-const quizLoaders = import.meta.glob('@content/quizzes/**/*.json', {
+/** Lazy-loaded — keeps quiz JSON out of the initial bundle. Exclude deprecated folder. */
+const quizLoaders = import.meta.glob('@content/quizzes/!(\_deprecated)/**/*.json', {
   import: 'default',
 }) as Record<string, () => Promise<QuizData>>
 

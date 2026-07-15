@@ -11,8 +11,8 @@ import { useAuth } from '@/features/social/AuthContext'
 import { ProfileCustomizeSection } from '@/features/social/ProfileCustomizeSection'
 import { ProfileHero } from '@/features/social/ProfileHero'
 import { cloudToProfileView, getEarnedMedalTiers } from '@/features/social/profileShowcase'
-import { normalizeProfileTheme, type ProfilePrivacy, type ProfileTheme } from '@/features/social/profileTypes'
-import { fetchProfile, updateProfileExtras, cloudRowToUserProgress, type CloudProfile } from '@/features/social/socialApi'
+import { normalizeProfileTheme, type ProfileTheme } from '@/features/social/profileTypes'
+import { fetchProfile, updateProfileExtras, type CloudProfile } from '@/features/social/socialApi'
 import { ensureFriendCode, getFriendshipStatus, sendFriendRequest, type FriendshipStatus } from '@/features/social/friendsApi'
 import type { LeaderboardMedalTier } from '@/features/social/leaderboardUtils'
 import { getAllSubjects } from '@/lib/contentLoader'
@@ -26,7 +26,6 @@ export function ProfilePage() {
   const [loading, setLoading] = useState(true)
   const [bio, setBio] = useState('')
   const [examYear, setExamYear] = useState(2026)
-  const [privacy, setPrivacy] = useState<ProfilePrivacy>('friends')
   const [theme, setTheme] = useState<ProfileTheme>('light')
   const [showcaseAchievementIds, setShowcaseAchievementIds] = useState<string[]>([])
   const [showcaseMedalTiers, setShowcaseMedalTiers] = useState<LeaderboardMedalTier[]>([])
@@ -39,19 +38,22 @@ export function ProfilePage() {
   const isOwn = user?.id === userId
 
   useEffect(() => {
-    void fetchProfile(userId).then((p) => {
+    if (!userId) {
+      setLoading(false)
+      return
+    }
+    void fetchProfile(userId, { includeSecure: user?.id === userId }).then((p) => {
       setProfile(p)
       if (p) {
         setBio(p.bio ?? '')
         setExamYear(p.examYear ?? 2026)
-        setPrivacy(p.privacy ?? 'friends')
         setTheme(normalizeProfileTheme(p.profileTheme))
         setShowcaseAchievementIds(p.showcaseAchievementIds ?? [])
         setShowcaseMedalTiers(p.showcaseMedalTiers ?? [])
       }
       setLoading(false)
     })
-  }, [userId])
+  }, [userId, user?.id])
 
   useEffect(() => {
     if (isOwn && user) {
@@ -74,7 +76,7 @@ export function ProfilePage() {
     await updateProfileExtras(user.id, {
       bio: bio.slice(0, 80),
       examYear,
-      privacy,
+      privacy: 'public',
       profileTheme: theme,
       showcaseAchievementIds,
       showcaseMedalTiers,
@@ -118,15 +120,20 @@ export function ProfilePage() {
       <div className="enlight-app">
         <EnlightHeader />
         <div className="enlight-container enlight-page-padding">
-          <p className="enlight-body-text">Profile not found or private.</p>
+          <p className="enlight-body-text">Profile not found.</p>
           <EnlightButton to="/social">Back to social</EnlightButton>
         </div>
       </div>
     )
   }
 
-  const viewProgress = isOwn ? progress : profile ? cloudRowToUserProgress(profile) : progress
-  const achievements = getAchievements(viewProgress)
+  // Other users only get a social card — never full study/quiz progress.
+  const achievements = isOwn
+    ? getAchievements(progress)
+    : getAchievements(progress).map((a) => ({
+        ...a,
+        unlocked: (profile?.achievementIds ?? []).includes(a.id),
+      }))
   const level = getGlobalLevel(isOwn ? progress.xp : profile?.xp ?? 0)
 
   const ownCloud: CloudProfile = {
@@ -212,14 +219,10 @@ export function ProfilePage() {
                   <option value={2027}>2027</option>
                 </select>
               </label>
-              <label className="enlight-body-text">
-                Privacy{' '}
-                <select className="enlight-select" value={privacy} onChange={(e) => setPrivacy(e.target.value as ProfilePrivacy)}>
-                  <option value="public">Public</option>
-                  <option value="friends">Friends only</option>
-                  <option value="school">School only</option>
-                </select>
-              </label>
+              <p className="enlight-body-text" style={{ fontSize: '0.9rem', opacity: 0.85 }}>
+                Other students can open your profile to add you as a friend. Your email, quiz history,
+                and detailed study data stay private — only you (and site admins) can access those.
+              </p>
               <p className="enlight-body-text">Friend code: <strong>{friendCode}</strong></p>
               <EnlightButton variant="outline" onClick={handleShare}>Share profile</EnlightButton>
             </section>
@@ -239,39 +242,43 @@ export function ProfilePage() {
           </>
         )}
 
-        <section className="enlight-dashboard-card">
-          <h2 className="enlight-heading-serif">Subject mastery</h2>
-          <div className="enlight-subject-overview">
-            {getAllSubjects().map((subject) => {
-              const summary = getSubjectSummary(subject.id, viewProgress)
-              if (summary.total === 0) return null
-              return (
-                <div key={subject.id} className="enlight-subject-fold__summary">
-                  <span>{subject.name}</span>
-                  <span>{summary.avgMastery}% avg · {summary.mastered}/{summary.total} mastered</span>
-                </div>
-              )
-            })}
-          </div>
-        </section>
-
-        <section className="enlight-dashboard-card">
-          <h2 className="enlight-heading-serif">All achievements</h2>
-          <div className="enlight-achievement-grid">
-            {achievements.map((a) => (
-              <div
-                key={a.id}
-                className={`enlight-achievement${a.unlocked ? ' enlight-achievement--unlocked' : ' enlight-achievement--locked'}`}
-              >
-                <span className="enlight-achievement__icon">{a.icon}</span>
-                <div>
-                  <div className="enlight-achievement__title">{a.title}</div>
-                  <div className="enlight-achievement__desc">{a.description}</div>
-                </div>
+        {isOwn && (
+          <>
+            <section className="enlight-dashboard-card">
+              <h2 className="enlight-heading-serif">Subject mastery</h2>
+              <div className="enlight-subject-overview">
+                {getAllSubjects().map((subject) => {
+                  const summary = getSubjectSummary(subject.id, progress)
+                  if (summary.total === 0) return null
+                  return (
+                    <div key={subject.id} className="enlight-subject-fold__summary">
+                      <span>{subject.name}</span>
+                      <span>{summary.avgMastery}% avg · {summary.mastered}/{summary.total} mastered</span>
+                    </div>
+                  )
+                })}
               </div>
-            ))}
-          </div>
-        </section>
+            </section>
+
+            <section className="enlight-dashboard-card">
+              <h2 className="enlight-heading-serif">All achievements</h2>
+              <div className="enlight-achievement-grid">
+                {achievements.map((a) => (
+                  <div
+                    key={a.id}
+                    className={`enlight-achievement${a.unlocked ? ' enlight-achievement--unlocked' : ' enlight-achievement--locked'}`}
+                  >
+                    <span className="enlight-achievement__icon">{a.icon}</span>
+                    <div>
+                      <div className="enlight-achievement__title">{a.title}</div>
+                      <div className="enlight-achievement__desc">{a.description}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </>
+        )}
 
         <EnlightButton to="/social" variant="outline">← Social</EnlightButton>
       </div>

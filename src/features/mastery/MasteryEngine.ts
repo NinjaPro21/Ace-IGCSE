@@ -2,6 +2,8 @@ import type { Difficulty } from '@/lib/contentTypes'
 
 import { getChapter, getTopicsForChapter } from '@/lib/contentLoader'
 
+import { localDateISO, localDateISODaysAgo } from '@/lib/localDate'
+
 import type { ConceptMissRecord, QuizAttemptRecord, QuizMistakeLogResult, RecordQuizFinishInput } from '@/features/quiz/quizAttemptTypes'
 
 import { getGlobalLevel, getLevelProfile, NOTES_MIN_SECONDS, XP_REWARDS, type LevelProfile } from './levelSystem'
@@ -186,8 +188,6 @@ export function clearLocalProgress(): void {
 const MAX_ACTIVE_DATES = 90
 const MAX_QUIZ_ATTEMPTS = 150
 
-export const STREAK_WINDOW_MS = 24 * 60 * 60 * 1000
-
 
 
 export { XP_REWARDS }
@@ -196,7 +196,7 @@ export { XP_REWARDS }
 
 function todayISO(): string {
 
-  return new Date().toISOString().slice(0, 10)
+  return localDateISO()
 
 }
 
@@ -381,11 +381,19 @@ function recordActiveDay(state: UserProgress): UserProgress {
 
 function applyStreakExpiry(state: UserProgress): UserProgress {
 
-  if (state.streakDays === 0 || !state.lastActiveAt) return state
+  if (state.streakDays === 0 || !state.lastActiveDate) return state
 
-  const elapsed = Date.now() - new Date(state.lastActiveAt).getTime()
+  // Calendar-day rule: the streak survives as long as the user was active
 
-  if (elapsed > STREAK_WINDOW_MS) {
+  // today or yesterday (local time). A fixed 24h window punished students who
+
+  // study at roughly the same time every day (Mon 8am → Tue 9am is 25h).
+
+  const alive =
+
+    state.lastActiveDate === todayISO() || state.lastActiveDate === localDateISODaysAgo(1)
+
+  if (!alive) {
 
     return { ...state, streakDays: 0 }
 
@@ -407,7 +415,7 @@ function touchStreak(state: UserProgress): UserProgress {
 
 
 
-  if (!expired.lastActiveAt || streak === 0) {
+  if (streak === 0) {
 
     streak = 1
 
@@ -416,6 +424,8 @@ function touchStreak(state: UserProgress): UserProgress {
     // same calendar day — keep streak count
 
   } else {
+
+    // expiry guarantees lastActiveDate is yesterday here
 
     streak += 1
 
@@ -1229,6 +1239,12 @@ export class MasteryEngine {
 
 
 
+    // Capture completion state before marking this topic read, otherwise the
+
+    // read that completes the chapter reports "already complete".
+
+    const wasComplete = areChapterNotesComplete(this.state, chapterId)
+
     this.state = touchStreak(this.state)
 
     this.state = awardXp(this.state, XP_REWARDS.notesRead)
@@ -1246,8 +1262,6 @@ export class MasteryEngine {
       },
 
     }
-
-    const wasComplete = areChapterNotesComplete(this.state, chapterId)
 
     this.state = syncChapterQuizUnlock(this.state, chapterId)
 
@@ -1293,7 +1307,17 @@ export class MasteryEngine {
 
 
 
-  addChapterTime(chapterId: string, seconds: number): void {
+  /**
+
+   * `countDailyStudy: false` when a topic session is running on the same page
+
+   * — the topic session already credits studySecByDate for the same wall
+
+   * clock, and crediting both doubles daily-goal progress.
+
+   */
+
+  addChapterTime(chapterId: string, seconds: number, countDailyStudy = true): void {
 
     if (seconds <= 0) return
 
@@ -1321,7 +1345,11 @@ export class MasteryEngine {
 
     }
 
-    this.state = addStudySec(this.state, seconds)
+    if (countDailyStudy) {
+
+      this.state = addStudySec(this.state, seconds)
+
+    }
 
     saveState(this.state)
 

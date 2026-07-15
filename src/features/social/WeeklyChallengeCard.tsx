@@ -22,7 +22,7 @@ export function WeeklyChallengeCard() {
       const scored = profiles
         .map((p) => ({
           id: p.id,
-          xp: sumXpInPeriod(p.progress?.xpByDate, 'week', p.xp),
+          xp: sumXpInPeriod(p.xpByDate ?? p.progress?.xpByDate, 'week', p.xp),
         }))
         .sort((a, b) => b.xp - a.xp)
 

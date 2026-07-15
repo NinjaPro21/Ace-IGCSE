@@ -21,7 +21,7 @@ Notes, visual explorers, and a mastery quiz path — with progress sync when you
 - **Topic lessons** — Markdown + KaTeX notes, interactive explorers, mastery checklist
 - **Subject hubs** — Chapter grids with availability / in-progress / mastered states
 - **Google sign-in** — Progress saved to the cloud (Firestore); local cache still works offline-first
-- **Social** — Schools, friends, leaderboard, study rooms, duels / buddy streaks
+- **Social** — Schools, friends, leaderboard, duels, buddy streaks, weekly challenges
 - **Dashboard** — Progress, achievements, quiz history, account
 
 ## Quick start

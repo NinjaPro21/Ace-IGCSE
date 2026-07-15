@@ -1,16 +1,13 @@
+import { localDateISO, localDateISODaysAgo } from '@/lib/localDate'
+
 export type LeaderboardPeriod = 'day' | 'week' | 'month' | 'all'
 export type LeaderboardMetric = 'xp' | 'longestStreak'
 
 export function getPeriodStartIso(period: LeaderboardPeriod): string | null {
   if (period === 'all') return null
-  const d = new Date()
-  if (period === 'day') return d.toISOString().slice(0, 10)
-  if (period === 'week') {
-    d.setDate(d.getDate() - 6)
-    return d.toISOString().slice(0, 10)
-  }
-  d.setDate(d.getDate() - 29)
-  return d.toISOString().slice(0, 10)
+  if (period === 'day') return localDateISO()
+  if (period === 'week') return localDateISODaysAgo(6)
+  return localDateISODaysAgo(29)
 }
 
 export function sumXpInPeriod(

@@ -1,4 +1,5 @@
 import { db } from '@/lib/firebase'
+import { localDateISO, localDateISODaysAgo } from '@/lib/localDate'
 import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore'
 
 function pairId(a: string, b: string): string {
@@ -15,7 +16,7 @@ export async function touchBuddyStreak(uidA: string, uidB: string): Promise<Budd
   const id = pairId(uidA, uidB)
   const ref = doc(db, 'buddyStreaks', id)
   const snap = await getDoc(ref)
-  const today = new Date().toISOString().slice(0, 10)
+  const today = localDateISO()
 
   if (!snap.exists()) {
     const streak = { uidA, uidB, streakDays: 1, lastBothActiveDate: today, updatedAt: serverTimestamp() }
@@ -29,9 +30,7 @@ export async function touchBuddyStreak(uidA: string, uidB: string): Promise<Budd
     return { streakDays: data.streakDays as number, lastBothActiveDate: last }
   }
 
-  const yesterday = new Date()
-  yesterday.setDate(yesterday.getDate() - 1)
-  const yIso = yesterday.toISOString().slice(0, 10)
+  const yIso = localDateISODaysAgo(1)
   const nextStreak = last === yIso ? (data.streakDays as number) + 1 : 1
 
   await setDoc(

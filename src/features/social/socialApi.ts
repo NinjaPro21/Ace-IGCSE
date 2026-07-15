@@ -1,12 +1,13 @@
+import { auth, db } from '@/lib/firebase'
 import { recordPlatformSync } from '@/features/analytics/analyticsApi'
 import type { UserProgress } from '@/features/mastery/MasteryEngine'
 import { getGlobalLevel, NOTES_MIN_SECONDS } from '@/features/mastery/levelSystem'
-import { db } from '@/lib/firebase'
 import {
   addDoc,
   arrayRemove,
   arrayUnion,
   collection,
+  deleteField,
   doc,
   getDoc,
   getDocs,
@@ -39,6 +40,26 @@ function stripUndefined<T>(value: T): T {
   return out as T
 }
 
+/** Owner writes to the public social card — always strip sensitive legacy fields. */
+export async function patchPublicProfile(
+  userId: string,
+  data: Record<string, unknown>,
+): Promise<void> {
+  if (!db) return
+  await setDoc(
+    doc(db, 'profiles', userId),
+    {
+      ...stripUndefined(data),
+      email: deleteField(),
+      progress: deleteField(),
+      activeDates: deleteField(),
+      syncedStudySec: deleteField(),
+      syncedQuizAttempts: deleteField(),
+    },
+    { merge: true },
+  )
+}
+
 function mergeChapterProgress(
   local: UserProgress['chapters'][string],
   remote: UserProgress['chapters'][string] | undefined,
@@ -68,6 +89,8 @@ export interface CloudProfile {
   lastActiveDate: string | null
   lastActiveAt: string | null
   activeDates: string[]
+  /** Public week-board helper — not full topic/quiz detail. */
+  xpByDate?: Record<string, number>
   progress: Partial<UserProgress>
   schoolId: string | null
   clanIds: string[]
@@ -103,6 +126,7 @@ export function docToProfile(id: string, data: Record<string, unknown>): CloudPr
       (data.lastActiveAt as { toDate?: () => Date })?.toDate?.()?.toISOString() ??
       (typeof data.lastActiveAt === 'string' ? data.lastActiveAt : null),
     activeDates: (data.activeDates as string[]) ?? [],
+    xpByDate: (data.xpByDate as Record<string, number>) ?? {},
     progress,
     schoolId: (data.schoolId as string) ?? null,
     clanIds,
@@ -285,11 +309,75 @@ export function mergeUserProgress(
   }
 }
 
-export async function fetchProfile(userId: string): Promise<CloudProfile | null> {
+export async function fetchSecureProgress(userId: string): Promise<{
+  email: string | null
+  progress: Partial<UserProgress>
+  activeDates: string[]
+  lastActiveDate: string | null
+} | null> {
   if (!db) return null
-  const snap = await getDoc(doc(db, 'profiles', userId))
-  if (!snap.exists()) return null
-  return docToProfile(snap.id, snap.data())
+  try {
+    const snap = await getDoc(doc(db, 'profiles', userId, 'private', 'secure'))
+    if (!snap.exists()) return null
+    const data = snap.data()
+    return {
+      email: (data.email as string) ?? null,
+      progress: (data.progress as Partial<UserProgress>) ?? {},
+      activeDates: (data.activeDates as string[]) ?? [],
+      lastActiveDate: (data.lastActiveDate as string) ?? null,
+    }
+  } catch {
+    return null
+  }
+}
+
+async function mergeSecureIntoProfile(profile: CloudProfile): Promise<CloudProfile> {
+  const secure = await fetchSecureProgress(profile.id)
+  if (!secure) {
+    // Legacy docs may still have progress/email on the root until next sync.
+    return profile
+  }
+  return {
+    ...profile,
+    email: secure.email ?? profile.email,
+    progress: Object.keys(secure.progress).length ? secure.progress : profile.progress,
+    activeDates: secure.activeDates.length ? secure.activeDates : profile.activeDates,
+    lastActiveDate: secure.lastActiveDate ?? profile.lastActiveDate,
+  }
+}
+
+/**
+ * Fetches a profile social card. Private study data is only merged when the
+ * caller is the profile owner (or an admin with private read access).
+ */
+export async function fetchProfile(
+  userId: string,
+  options?: { includeSecure?: boolean },
+): Promise<CloudProfile | null> {
+  if (!db) return null
+  try {
+    const snap = await getDoc(doc(db, 'profiles', userId))
+    if (!snap.exists()) return null
+    let profile = docToProfile(snap.id, snap.data())
+    const wantsSecure =
+      options?.includeSecure === true ||
+      auth?.currentUser?.uid === userId
+    if (wantsSecure) {
+      profile = await mergeSecureIntoProfile(profile)
+    } else {
+      // Never trust legacy root progress/email on another user's card.
+      profile = {
+        ...profile,
+        email: null,
+        progress: {},
+        activeDates: [],
+      }
+    }
+    return profile
+  } catch {
+    // permission-denied → treat as private / missing
+    return null
+  }
 }
 
 export async function upsertProfile(
@@ -305,18 +393,31 @@ export async function upsertProfile(
   const showOnLeaderboard =
     existingSnap.exists() && existingSnap.data().showOnLeaderboard === false ? false : true
 
+  // Public social card — no email, no full progress blob.
+  await patchPublicProfile(userId, {
+    displayName: progress.displayName || meta?.displayName || null,
+    avatarUrl: meta?.avatarUrl ?? null,
+    xp: progress.xp,
+    streakDays: progress.streakDays,
+    longestStreak: progress.longestStreak,
+    lastActiveDate: progress.lastActiveDate || null,
+    lastActiveAt: serverTimestamp(),
+    // Keep week boards usable without exposing topic/quiz detail.
+    xpByDate: progress.xpByDate ?? {},
+    dailyGoalMin: progress.dailyGoalMin ?? null,
+    achievementIds: progress.achievementIds ?? [],
+    subjects: progress.subjects ?? [],
+    ...(!existingSnap.exists() ? { createdAt: serverTimestamp(), privacy: 'friends' } : {}),
+    updatedAt: serverTimestamp(),
+  })
+
+  // Owner-only private payload.
   await setDoc(
-    profileRef,
+    doc(db, 'profiles', userId, 'private', 'secure'),
     stripUndefined({
       email: meta?.email ?? null,
-      displayName: progress.displayName || meta?.displayName || null,
-      avatarUrl: meta?.avatarUrl ?? null,
-      xp: progress.xp,
-      streakDays: progress.streakDays,
-      longestStreak: progress.longestStreak,
-      lastActiveDate: progress.lastActiveDate || null,
-      lastActiveAt: serverTimestamp(),
       activeDates: progress.activeDates,
+      lastActiveDate: progress.lastActiveDate || null,
       syncedStudySec: snapshots.syncedStudySec,
       syncedQuizAttempts: snapshots.syncedQuizAttempts,
       progress: {
@@ -339,10 +440,6 @@ export async function upsertProfile(
         onboardingComplete: progress.onboardingComplete,
         appTourComplete: progress.appTourComplete,
       },
-      dailyGoalMin: progress.dailyGoalMin ?? null,
-      achievementIds: progress.achievementIds ?? [],
-      subjects: progress.subjects ?? [],
-      ...(!existingSnap.exists() ? { createdAt: serverTimestamp() } : {}),
       updatedAt: serverTimestamp(),
     }),
     { merge: true },
@@ -501,7 +598,18 @@ export async function syncLeaderboardFromProfile(userId: string): Promise<void> 
   if (!profileSnap.exists()) return
 
   const data = profileSnap.data()
-  const progress = (data.progress as Partial<UserProgress>) ?? {}
+  let progress: Partial<UserProgress> = {}
+  try {
+    const secureSnap = await getDoc(doc(db, 'profiles', userId, 'private', 'secure'))
+    if (secureSnap.exists()) {
+      progress = (secureSnap.data().progress as Partial<UserProgress>) ?? {}
+    }
+  } catch {
+    progress = (data.progress as Partial<UserProgress>) ?? {}
+  }
+  if (!Object.keys(progress).length) {
+    progress = (data.progress as Partial<UserProgress>) ?? {}
+  }
   const xp = Math.max((data.xp as number) ?? 0, (progress.xp as number) ?? 0)
 
   await setDoc(
@@ -517,7 +625,10 @@ export async function syncLeaderboardFromProfile(userId: string): Promise<void> 
       ),
       level: getGlobalLevel(xp),
       showOnLeaderboard: data.showOnLeaderboard !== false,
-      xpByDate: progress.xpByDate ?? {},
+      xpByDate:
+        (data.xpByDate as Record<string, number> | undefined)
+        ?? progress.xpByDate
+        ?? {},
       achievementIds: (data.achievementIds as string[]) ?? (progress.achievementIds as string[]) ?? [],
       updatedAt: serverTimestamp(),
     }),
@@ -531,7 +642,7 @@ export async function joinSchoolById(userId: string, schoolId: string): Promise<
   if (!group) throw new Error('School not found')
   if (group.type !== 'school') throw new Error('That group is a clan — use an invite code to join clans')
 
-  await setDoc(doc(db, 'profiles', userId), { schoolId }, { merge: true })
+  await patchPublicProfile(userId, { schoolId })
   await syncLeaderboardFromProfile(userId)
   return { ...group, memberCount: (group.memberCount ?? 0) + 1 }
 }
@@ -567,7 +678,7 @@ async function joinClanById(userId: string, clanId: string): Promise<SchoolGroup
     throw new Error(`You can only join up to ${MAX_CLANS} clans — leave one first`)
   }
 
-  await setDoc(doc(db, 'profiles', userId), { clanIds: arrayUnion(clanId) }, { merge: true })
+  await patchPublicProfile(userId, { clanIds: arrayUnion(clanId) })
   await syncLeaderboardFromProfile(userId)
   const group = await fetchGroup(clanId)
   if (!group) throw new Error('Failed to load clan')
@@ -581,12 +692,12 @@ export async function joinSchoolByCode(userId: string, rawCode: string): Promise
 
 export async function leaveSchool(userId: string): Promise<void> {
   if (!db) return
-  await setDoc(doc(db, 'profiles', userId), { schoolId: null }, { merge: true })
+  await patchPublicProfile(userId, { schoolId: null })
 }
 
 export async function leaveClan(userId: string, clanId: string): Promise<void> {
   if (!db) return
-  await setDoc(doc(db, 'profiles', userId), { clanIds: arrayRemove(clanId) }, { merge: true })
+  await patchPublicProfile(userId, { clanIds: arrayRemove(clanId) })
 }
 
 function globalLeaderboardEligible(
@@ -680,8 +791,12 @@ export async function fetchLeaderboard(
     const rows: LeaderboardEntry[] = snap.docs.map((d, index) => {
       const row = d.data()
       const xp = (row.xp as number) ?? 0
-      const progress = (row.progress as Partial<UserProgress>) ?? {}
-      const xpByDate = mergeXpByDate(progress.xpByDate as Record<string, number> | undefined)
+      const xpByDate = mergeXpByDate(
+        (row.xpByDate as Record<string, number> | undefined) ??
+          ((row.progress as Partial<UserProgress> | undefined)?.xpByDate as
+            | Record<string, number>
+            | undefined),
+      )
       const longestStreak = (row.longestStreak as number) ?? 0
       const streakDays = (row.streakDays as number) ?? 0
       const score =
@@ -821,7 +936,7 @@ export async function updateProfileExtras(
   >,
 ): Promise<void> {
   if (!db) return
-  await setDoc(doc(db, 'profiles', userId), stripUndefined(extras), { merge: true })
+  await patchPublicProfile(userId, extras as Record<string, unknown>)
   if (extras.showOnLeaderboard !== undefined) {
     await setDoc(
       doc(db, 'leaderboard', userId),
@@ -831,26 +946,53 @@ export async function updateProfileExtras(
   }
 }
 
-export async function fetchSchoolMemberProfiles(schoolId: string): Promise<CloudProfile[]> {
+export async function fetchSchoolMemberProfiles(
+  schoolId: string,
+  options?: { includeSecure?: boolean },
+): Promise<CloudProfile[]> {
   if (!db) return []
 
-  const snap = await getDocs(query(collection(db, 'profiles'), where('schoolId', '==', schoolId)))
-  return snap.docs.map((d) => docToProfile(d.id, d.data()))
+  try {
+    const snap = await getDocs(query(collection(db, 'profiles'), where('schoolId', '==', schoolId)))
+    const profiles = snap.docs.map((d) => docToProfile(d.id, d.data()))
+    if (!options?.includeSecure) {
+      return profiles.map((p) => ({ ...p, email: null, progress: {}, activeDates: [] }))
+    }
+    return Promise.all(profiles.map((p) => mergeSecureIntoProfile(p)))
+  } catch {
+    return []
+  }
 }
 
-export async function fetchClanMemberProfiles(clanId: string): Promise<CloudProfile[]> {
+export async function fetchClanMemberProfiles(
+  clanId: string,
+  options?: { includeSecure?: boolean },
+): Promise<CloudProfile[]> {
   if (!db) return []
 
-  const snap = await getDocs(
-    query(collection(db, 'profiles'), where('clanIds', 'array-contains', clanId)),
-  )
-  return snap.docs.map((d) => docToProfile(d.id, d.data()))
+  try {
+    const snap = await getDocs(
+      query(collection(db, 'profiles'), where('clanIds', 'array-contains', clanId)),
+    )
+    const profiles = snap.docs.map((d) => docToProfile(d.id, d.data()))
+    if (!options?.includeSecure) {
+      return profiles.map((p) => ({ ...p, email: null, progress: {}, activeDates: [] }))
+    }
+    return Promise.all(profiles.map((p) => mergeSecureIntoProfile(p)))
+  } catch {
+    return []
+  }
 }
 
-/** Admin-only — requires Firestore `admins/{uid}` doc or matching rules. */
+/** Admin-only — requires Firestore admin access to private progress docs. */
 export async function fetchAllProfilesForAdmin(): Promise<CloudProfile[]> {
   if (!db) return []
 
-  const snap = await getDocs(query(collection(db, 'profiles'), limit(500)))
-  return snap.docs.map((d) => docToProfile(d.id, d.data()))
+  try {
+    const snap = await getDocs(query(collection(db, 'profiles'), limit(500)))
+    const profiles = snap.docs.map((d) => docToProfile(d.id, d.data()))
+    return Promise.all(profiles.map((p) => mergeSecureIntoProfile(p)))
+  } catch {
+    return []
+  }
 }

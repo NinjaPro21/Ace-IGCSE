@@ -6,6 +6,7 @@ import { useMastery } from '@/features/mastery/MasteryContext'
 import { masteryEngine } from '@/features/mastery/MasteryEngine'
 import { usePomodoro } from '@/hooks/usePomodoro'
 import { getAllSubjects, getChaptersForSubject } from '@/lib/contentLoader'
+import { localDateISO } from '@/lib/localDate'
 import { getStudyTaskPath } from '@/lib/studyPlanPaths'
 
 const WORK_OPTIONS = [15, 20, 25, 30, 45]
@@ -17,7 +18,7 @@ export function StudyHubPanel() {
   const [chapterId, setChapterId] = useState('')
   const pomodoro = usePomodoro()
 
-  const today = new Date().toISOString().slice(0, 10)
+  const today = localDateISO()
   const tasks = useMemo(
     () => (progress.studyPlanTasks ?? []).filter((t) => t.forDate === today),
     [progress.studyPlanTasks, today],

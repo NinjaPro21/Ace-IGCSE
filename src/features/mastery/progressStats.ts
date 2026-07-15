@@ -8,7 +8,7 @@ import {
 } from '@/lib/contentLoader'
 import type { ChapterMeta } from '@/lib/contentTypes'
 import type { UserProgress } from './MasteryEngine'
-import { STREAK_WINDOW_MS } from './MasteryEngine'
+import { endOfLocalDayMs, localDateISO } from '@/lib/localDate'
 import { getGlobalLevel, NOTES_MIN_SECONDS } from './levelSystem'
 import { getPersonalChapterInsights, countStuckChaptersBySubject } from './tutorInsights'
 
@@ -179,7 +179,7 @@ export function getAchievements(progress: UserProgress): Achievement[] {
     'streak-30': longest >= 30 || current >= 30,
     'chapter-master': stats.chaptersMastered >= 1,
     'chapters-3': stats.chaptersMastered >= 3,
-    'hard-mode': chapters.some((c) => c.quizLevel >= 3),
+    'hard-mode': chapters.some((c) => c.quizLevel >= 4),
     'pyp-done': chapters.some((c) => c.pypComplete),
     'perfect-quiz': stats.perfectScores >= 1,
     'perfect-3': stats.perfectScores >= 3,
@@ -218,7 +218,7 @@ export function getStreakCalendar(progress: UserProgress, days = 14): StreakDay[
   for (let i = days - 1; i >= 0; i--) {
     const d = new Date(today)
     d.setDate(d.getDate() - i)
-    const iso = d.toISOString().slice(0, 10)
+    const iso = localDateISO(d)
     const xp = xpByDate[iso] ?? 0
     const active =
       activeSet.has(iso) ||
@@ -238,9 +238,12 @@ export function getStreakCalendar(progress: UserProgress, days = 14): StreakDay[
 }
 
 export function getStreakTimeRemaining(progress: UserProgress): number {
-  if (progress.streakDays === 0 || !progress.lastActiveAt) return 0
-  const elapsed = Date.now() - new Date(progress.lastActiveAt).getTime()
-  return Math.max(0, STREAK_WINDOW_MS - elapsed)
+  if (progress.streakDays === 0 || !progress.lastActiveDate) return 0
+  // The streak survives until the end of the local day after the last active
+  // day (studied yesterday → deadline is end of today).
+  const deadline = endOfLocalDayMs(progress.lastActiveDate, 1)
+  if (deadline === null) return 0
+  return Math.max(0, deadline - Date.now())
 }
 
 export function formatStreakCountdown(progress: UserProgress): string | null {
@@ -253,7 +256,7 @@ export function formatStreakCountdown(progress: UserProgress): string | null {
 }
 
 export function isStreakAtRisk(progress: UserProgress): boolean {
-  if (progress.streakDays === 0 || !progress.lastActiveAt) return false
+  if (progress.streakDays === 0 || !progress.lastActiveDate) return false
   const remaining = getStreakTimeRemaining(progress)
   return remaining > 0 && remaining <= 6 * 60 * 60 * 1000
 }
@@ -343,7 +346,7 @@ export function getContinueStudying(progress: UserProgress): ContinueStudying | 
 }
 
 export function getTodayStudyMinutes(progress: UserProgress): number {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = localDateISO()
   const sec = progress.studySecByDate?.[today] ?? 0
   return Math.round(sec / 60)
 }
@@ -364,7 +367,7 @@ export function getWeeklyRecap(progress: UserProgress): WeeklyRecap {
   for (let i = 0; i < 7; i++) {
     const d = new Date(today)
     d.setDate(d.getDate() - i)
-    const iso = d.toISOString().slice(0, 10)
+    const iso = localDateISO(d)
     studySec += progress.studySecByDate?.[iso] ?? 0
   }
   return {

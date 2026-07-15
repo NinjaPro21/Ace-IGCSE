@@ -1,4 +1,4 @@
-/* Scoped Project Enlight component styles */
+/* Scoped AceIGCSE component styles */
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(6px); }
@@ -714,7 +714,7 @@
 }
 
 .enlight-chapter-card__progress {
-  margin: -12px 0 16px;
+  margin: 0 0 16px;
 }
 
 .enlight-chapter-card__progress-bar {
@@ -946,21 +946,10 @@
   align-items: start;
 }
 
-@media (max-width: 900px) {
-  .enlight-lesson-layout {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .enlight-lesson-sidebar {
-    position: static;
-    top: auto;
-  }
-}
-
 .enlight-lesson-sidebar {
   position: sticky;
-  top: calc(var(--enlight-header-height) + 24px);
+  /* Sit below site header + lesson topbar so section nav never covers notes */
+  top: calc(var(--enlight-header-height) + var(--enlight-lesson-topbar-height, 49px) + 12px);
   padding: 20px 16px;
   background: var(--enlight-card);
   border: 1px solid var(--enlight-border);
@@ -973,6 +962,14 @@
   flex-direction: column;
   gap: 6px;
   margin: 16px 0 20px;
+}
+
+.enlight-lesson-sidebar__body .enlight-section-label {
+  display: block;
+}
+
+.enlight-lesson-sidebar__chapter {
+  display: block;
 }
 
 .enlight-lesson-sidebar__link {
@@ -1071,6 +1068,73 @@
 
 .enlight-lesson-sidebar__quick p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .enlight-lesson-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    --enlight-lesson-section-nav-height: 44px;
+  }
+
+  /* Flatten sidebar so nav / main / extras can be reordered on mobile */
+  .enlight-lesson-sidebar {
+    display: contents;
+  }
+
+  /* Notes first — section list no longer blocks the lesson on entry */
+  .enlight-lesson-main {
+    order: -1;
+    padding-top: var(--enlight-lesson-section-nav-height);
+  }
+
+  .enlight-lesson-sidebar__body {
+    order: 1;
+    padding: 16px;
+    background: var(--enlight-card);
+    border: 1px solid var(--enlight-border);
+    border-radius: var(--enlight-radius);
+    box-shadow: var(--enlight-shadow);
+  }
+
+  /* Compact horizontal section picker — fixed below header stack */
+  .enlight-lesson-sidebar__nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: calc(var(--enlight-header-height) + var(--enlight-lesson-topbar-height, 49px) + 3px);
+    z-index: 88;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin: 0;
+    padding: 8px 16px 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    background: rgba(253, 251, 247, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--enlight-border);
+    box-shadow: 0 4px 12px rgba(26, 26, 26, 0.04);
+  }
+
+  .enlight-lesson-sidebar__nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .enlight-lesson-sidebar__link {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 6px 14px;
+    font-size: 0.82rem;
+  }
+
+  /* Chapter label already shown in the sticky top bar */
+  .enlight-lesson-sidebar__chapter {
+    display: none;
+  }
 }
 
 .enlight-lesson-main {
@@ -1175,6 +1239,7 @@
 
 /* Sticky lesson top bar */
 .enlight-lesson-topbar {
+  --enlight-lesson-topbar-height: 49px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1205,6 +1270,41 @@
   max-width: var(--enlight-max-width);
   margin: 0 auto;
   padding: 10px 24px;
+}
+
+@media (max-width: 900px) {
+  .enlight-lesson-topbar__inner {
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 8px 16px;
+  }
+
+  .enlight-lesson-topbar__left {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .enlight-lesson-topbar__left .enlight-section-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .enlight-lesson-tools {
+    flex-shrink: 0;
+    gap: 6px;
+  }
+
+  .enlight-lesson-tools .enlight-checklist__count {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .enlight-lesson-tools .enlight-timer {
+    display: none;
+  }
 }
 
 .enlight-lesson-topbar__left {
@@ -6137,7 +6237,7 @@
 /* Explorer panel — legacy sidebar (light theme) */
 .enlight-note-explorer-panel {
   position: sticky;
-  top: calc(var(--enlight-header-height) + 58px + 16px);
+  top: calc(var(--enlight-header-height) + var(--enlight-lesson-topbar-height, 49px) + 16px);
   border-radius: 14px;
   overflow: hidden;
   background: #ffffff;
@@ -6968,8 +7068,47 @@ button.enlight-showcase-lesson-features__chip:hover {
   color: #7c3aed;
 }
 
+html:has(.enlight-app--lesson) {
+  scroll-padding-top: calc(
+    var(--enlight-header-height) +
+    var(--enlight-lesson-topbar-height, 49px) +
+    3px +
+    var(--enlight-lesson-section-nav-height, 0px)
+  );
+}
+
+@media (max-width: 900px) {
+  html:has(.enlight-app--lesson) {
+    --enlight-lesson-section-nav-height: 44px;
+  }
+}
+
+@media (max-width: 900px) {
+  .enlight-app--lesson .enlight-back-link {
+    display: none;
+  }
+
+  .enlight-app--lesson .enlight-lesson-back {
+    font-size: 0.85rem;
+  }
+
+  .enlight-app--lesson .enlight-ws-card {
+    scroll-margin-top: calc(
+      var(--enlight-header-height) +
+      var(--enlight-lesson-topbar-height, 49px) +
+      var(--enlight-lesson-section-nav-height, 44px) +
+      16px
+    );
+  }
+}
+
 .enlight-ws-card--explorer {
-  scroll-margin-top: 24px;
+  scroll-margin-top: calc(
+    var(--enlight-header-height) +
+    var(--enlight-lesson-topbar-height, 49px) +
+    var(--enlight-lesson-section-nav-height, 0px) +
+    24px
+  );
   border: 1px solid rgba(20, 184, 166, 0.25);
   box-shadow: 0 8px 28px rgba(20, 184, 166, 0.08);
 }
@@ -7346,7 +7485,7 @@ button.enlight-showcase-lesson-features__chip:hover {
 /* ── Reading progress bar ──────────────────────────────────────────────── */
 .enlight-read-progress {
   position: sticky;
-  top: calc(var(--enlight-header-height) + 49px);
+  top: calc(var(--enlight-header-height) + var(--enlight-lesson-topbar-height, 49px));
   z-index: 89;
   height: 3px;
   background: var(--enlight-border);

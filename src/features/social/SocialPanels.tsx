@@ -389,19 +389,19 @@ function InsightsTable({ rows, emptyMessage }: { rows: ChapterInsight[]; emptyMe
 }
 
 export function ClassInsightsPanel() {
-  const { school, user } = useAuth()
+  const { school, user, isAdmin } = useAuth()
   const [rows, setRows] = useState<ChapterInsight[]>([])
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    if (!school || !user) {
+    if (!school || !user || !isAdmin) {
       setRows([])
       return
     }
 
     let cancelled = false
     setLoading(true)
-    void fetchSchoolMemberProfiles(school.id).then((profiles) => {
+    void fetchSchoolMemberProfiles(school.id, { includeSecure: true }).then((profiles) => {
       if (cancelled) return
       const insights = getClassChapterInsights(profiles)
       setRows(getStuckChapters(insights, 3))
@@ -411,9 +411,9 @@ export function ClassInsightsPanel() {
     return () => {
       cancelled = true
     }
-  }, [school, user])
+  }, [school, user, isAdmin])
 
-  if (!school) return null
+  if (!school || !isAdmin) return null
 
   return (
     <section className="enlight-progress-section">

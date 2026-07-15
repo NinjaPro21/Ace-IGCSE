@@ -1,6 +1,7 @@
 import type { UserProgress } from '@/features/mastery/MasteryEngine'
 import { NOTES_MIN_SECONDS } from '@/features/mastery/levelSystem'
 import { cloudRowToUserProgress, type CloudProfile } from '@/features/social/socialApi'
+import { localDateISODaysAgo } from '@/lib/localDate'
 
 export interface StudyMetrics {
   totalStudySec: number
@@ -66,9 +67,7 @@ export function formatDurationHours(totalSec: number): string {
 }
 
 export function countActiveInLastDays(profiles: CloudProfile[], days = 7): number {
-  const cutoff = new Date()
-  cutoff.setDate(cutoff.getDate() - days)
-  const cutoffIso = cutoff.toISOString().slice(0, 10)
+  const cutoffIso = localDateISODaysAgo(days)
 
   return profiles.filter((p) => {
     if (p.lastActiveDate && p.lastActiveDate >= cutoffIso) return true
