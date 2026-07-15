@@ -294,6 +294,10 @@
   background: linear-gradient(90deg, var(--enlight-gold-soft) 0%, var(--enlight-card) 70%);
 }
 
+.enlight-lb-your-rank--on-board {
+  border-color: rgba(181, 154, 115, 0.55);
+}
+
 .enlight-lb-your-rank__left {
   display: flex;
   align-items: center;

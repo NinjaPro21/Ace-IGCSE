@@ -26,21 +26,8 @@ export function YourRankCard({ rank, total, entry, metric, scope, inList }: Your
 
   const medal = getRankMedal(rank, scope)
 
-  if (inList) {
-    return (
-      <div className="enlight-lb-your-rank enlight-lb-your-rank--in-list">
-        {medal ? <MedalIcon tier={medal} size="sm" /> : <span className="enlight-lb-rank">{rank}</span>}
-        <span>
-          You&apos;re <strong>#{rank}</strong>
-          {total > 0 && <> of {total}</>}
-          {inList && ' — highlighted in the board'}
-        </span>
-      </div>
-    )
-  }
-
   return (
-    <div className="enlight-lb-your-rank">
+    <div className={`enlight-lb-your-rank${inList ? ' enlight-lb-your-rank--on-board' : ''}`}>
       <div className="enlight-lb-your-rank__left">
         {entry.avatarUrl ? (
           <img src={entry.avatarUrl} alt="" className="enlight-lb-avatar enlight-lb-avatar--md" width={40} height={40} />

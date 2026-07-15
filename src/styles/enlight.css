@@ -8519,6 +8519,52 @@ html:has(.enlight-app--lesson) {
   --lb-pedestal-h: 48px;
 }
 
+.enlight-lb-podium__slot--elite {
+  --lb-pedestal-h: 36px;
+}
+
+.enlight-lb-podium__slot--top10 {
+  --lb-pedestal-h: 32px;
+}
+
+.enlight-lb-podium__slot--plain {
+  --lb-pedestal-h: 32px;
+}
+
+.enlight-lb-podium--five {
+  gap: 8px;
+}
+
+.enlight-lb-podium--five .enlight-lb-podium__slot {
+  max-width: 120px;
+}
+
+.enlight-lb-podium__slot--elite .enlight-lb-podium__pedestal {
+  border-color: rgba(155, 125, 219, 0.4);
+}
+
+.enlight-lb-podium__slot--plain .enlight-lb-podium__pedestal {
+  border-color: var(--enlight-border);
+}
+
+.enlight-lb-podium__rank-badge {
+  position: absolute;
+  bottom: -6px;
+  right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--enlight-card);
+  border: 1px solid var(--enlight-border);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--enlight-text-light);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .enlight-lb-podium__pedestal {
   display: flex;
   flex-direction: column;
@@ -8826,6 +8872,14 @@ html:has(.enlight-app--lesson) {
   .enlight-lb-podium {
     gap: 6px;
     padding: 12px 4px 0;
+  }
+
+  .enlight-lb-podium--five .enlight-lb-podium__slot {
+    max-width: 68px;
+  }
+
+  .enlight-lb-podium--five .enlight-lb-podium__meta {
+    display: none;
   }
 
   .enlight-lb-podium__slot {

@@ -25,6 +25,17 @@ function Avatar({ entry, size = 'md' }: { entry: LeaderboardEntry; size?: 'sm' |
   )
 }
 
+const PODIUM_SIZE = 5
+
+function podiumFlexOrder(rank: number): number {
+  if (rank === 1) return 3
+  if (rank === 2) return 2
+  if (rank === 3) return 4
+  if (rank === 4) return 1
+  if (rank === 5) return 5
+  return rank
+}
+
 function PodiumCard({
   entry,
   rank,
@@ -38,15 +49,21 @@ function PodiumCard({
   metric: LeaderboardMetric
   decorationPoints?: number
 }) {
-  const medal = getRankMedal(rank, scope)!
-  const order = rank === 1 ? 2 : rank === 2 ? 1 : 3
+  const medal = getRankMedal(rank, scope)
+  const slotClass = medal ? `enlight-lb-podium__slot--${medal}` : 'enlight-lb-podium__slot--plain'
 
   return (
-    <div className={`enlight-lb-podium__slot enlight-lb-podium__slot--${medal}`} style={{ order }}>
+    <div className={`enlight-lb-podium__slot ${slotClass}`} style={{ order: podiumFlexOrder(rank) }}>
       <div className="enlight-lb-podium__pedestal">
         <div className="enlight-lb-podium__avatar-wrap">
           <Avatar entry={entry} size="lg" />
-          <MedalIcon tier={medal} size="lg" />
+          {medal ? (
+            <MedalIcon tier={medal} size="lg" />
+          ) : (
+            <span className="enlight-lb-podium__rank-badge" aria-hidden>
+              {rank}
+            </span>
+          )}
         </div>
         <p className="enlight-lb-podium__name">
           {entry.displayName}
@@ -136,15 +153,21 @@ export function LeaderboardBoard({
     return <p className="enlight-body-text enlight-lb-empty">{emptyMessage}</p>
   }
 
-  const podiumEntries = showPodium ? entries.slice(0, 3) : []
-  const restEntries = showPodium ? entries.slice(3) : entries
+  const podiumEntries = showPodium ? entries.slice(0, PODIUM_SIZE) : []
+  const restEntries = showPodium ? entries.slice(PODIUM_SIZE) : entries
+  const podiumLayoutClass =
+    podiumEntries.length >= 4
+      ? ' enlight-lb-podium--five'
+      : podiumEntries.length === 1
+        ? ' enlight-lb-podium--solo'
+        : ''
 
   return (
     <div className="enlight-lb">
-      {podiumEntries.length >= 2 && (
+      {podiumEntries.length > 0 && (
         <div className="enlight-lb-podium-stage">
           <div className="enlight-lb-podium-frame">
-            <div className="enlight-lb-podium" aria-label="Top three">
+            <div className={`enlight-lb-podium${podiumLayoutClass}`} aria-label="Top five">
               {podiumEntries.map((entry, i) => (
                 <PodiumCard
                   key={entry.userId}
@@ -161,27 +184,10 @@ export function LeaderboardBoard({
         </div>
       )}
 
-      {podiumEntries.length === 1 && (
-        <div className="enlight-lb-podium-stage">
-          <div className="enlight-lb-podium-frame">
-            <div className="enlight-lb-podium enlight-lb-podium--solo">
-              <PodiumCard
-                entry={podiumEntries[0]}
-                rank={1}
-                scope={scope}
-                metric={metric}
-                decorationPoints={decorationMap?.get(podiumEntries[0].userId)}
-              />
-            </div>
-            <div className="enlight-lb-podium-stage__floor" aria-hidden />
-          </div>
-        </div>
-      )}
-
       {restEntries.length > 0 && (
         <ol className="enlight-lb-list">
           {restEntries.map((entry, i) => {
-            const rank = showPodium ? i + 4 : i + 1
+            const rank = showPodium ? i + PODIUM_SIZE + 1 : i + 1
             return (
               <LeaderboardRow
                 key={entry.userId}

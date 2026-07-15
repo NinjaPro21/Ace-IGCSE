@@ -798,11 +798,12 @@ function globalLeaderboardEligible(
   metric: LeaderboardMetric,
   period: LeaderboardPeriod,
   score: number,
+  allowZeroPeriodScore = false,
 ): boolean {
   if (row.showOnLeaderboard === false) return false
   if (metric === 'longestStreak') return ((row.longestStreak as number) ?? 0) > 0
   if (period === 'all') return ((row.xp as number) ?? 0) > 0
-  return score > 0
+  return allowZeroPeriodScore ? score >= 0 : score > 0
 }
 
 function docToLeaderboardEntry(
@@ -863,11 +864,24 @@ function buildGlobalLeaderboardRows(
   metric: LeaderboardMetric,
   period: LeaderboardPeriod,
 ): LeaderboardEntry[] {
+  const parsed = docs
+    .map((d, index) => {
+      const row = d.data()
+      const entry = docToLeaderboardEntry(d.id, row, currentUserId, metric, period, index)
+      return { row, entry }
+    })
+    .filter(({ row, entry }) => globalLeaderboardEligible(row, metric, period, entry.score))
+
+  if (parsed.length > 0) {
+    return parsed.map(({ entry }) => entry).sort((a, b) => b.score - a.score)
+  }
+
+  // Quiet week: still show opted-in players from the bounded query window.
   return docs
     .map((d, index) => {
       const row = d.data()
       const entry = docToLeaderboardEntry(d.id, row, currentUserId, metric, period, index)
-      return globalLeaderboardEligible(row, metric, period, entry.score) ? entry : null
+      return globalLeaderboardEligible(row, metric, period, entry.score, true) ? entry : null
     })
     .filter((entry): entry is LeaderboardEntry => entry !== null)
     .sort((a, b) => b.score - a.score)

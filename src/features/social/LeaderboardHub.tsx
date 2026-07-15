@@ -243,7 +243,7 @@ export function GlobalLeaderboardPanel() {
     <section className="enlight-social-section enlight-lb-panel enlight-lb-panel--global">
       <div className="enlight-social-section__header">
         <h2 className="enlight-heading-serif">Hall of fame</h2>
-        <span className="enlight-social-section__meta">Top 10 · {metric === 'xp' ? periodLabel(period) : 'All time'}</span>
+        <span className="enlight-social-section__meta">Top 5 podium · {metric === 'xp' ? periodLabel(period) : 'All time'}</span>
       </div>
 
       <LeaderboardFilters
