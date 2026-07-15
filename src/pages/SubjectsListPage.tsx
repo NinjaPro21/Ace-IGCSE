@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useMemo } from 'react'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { usePageTitle } from '@/hooks/usePageTitle'
@@ -75,7 +76,7 @@ export function SubjectsListPage() {
           <Link to="/dashboard">← Back to dashboard</Link>
         </p>
       </div>
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

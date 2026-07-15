@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { GroupHubPanel } from '@/features/social/GroupHubPanel'
@@ -52,7 +53,7 @@ export function SocialPage() {
         </div>
         {isAdmin && <ClassInsightsPanel />}
       </div>
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import { Outlet, useLocation, Link } from 'react-router-dom'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 
 export function ProgressLayout() {
@@ -18,7 +19,7 @@ export function ProgressLayout() {
         <Outlet />
       </div>
 
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

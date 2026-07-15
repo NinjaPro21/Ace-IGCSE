@@ -21,12 +21,6 @@ import {
   getTodayStudyMinutes,
 } from '@/features/mastery/progressStats'
 
-function quizScoreTone(score: number): 'high' | 'mid' | 'low' {
-  if (score >= 70) return 'high'
-  if (score < 50) return 'low'
-  return 'mid'
-}
-
 export function ProgressHubPage() {
   usePageTitle('Dashboard')
   const { progress, levelProfile, achievements, streakAtRisk } = useMastery()
@@ -65,7 +59,27 @@ export function ProgressHubPage() {
         )}
       </div>
 
-      <section className="ace-dash-hero" data-tour="dashboard-hero" aria-label="Level progress">
+      {continueStudying ? (
+        <section className="ace-welcome-back">
+          <div className="ace-welcome-back__content">
+            <p className="ace-welcome-back__eyebrow">Continue studying</p>
+            <h2 className="ace-welcome-back__title">{continueStudying.chapterTitle}</h2>
+            <p className="ace-welcome-back__sub">{continueStudying.topicTitle}</p>
+          </div>
+          <EnlightButton to={continueStudying.topicPath}>Continue →</EnlightButton>
+        </section>
+      ) : (
+        <section className="ace-welcome-back">
+          <div className="ace-welcome-back__content">
+            <p className="ace-welcome-back__eyebrow">Get started</p>
+            <h2 className="ace-welcome-back__title">Pick a subject</h2>
+            <p className="ace-welcome-back__sub">Open notes and start your first mastery path.</p>
+          </div>
+          <EnlightButton to="/subjects">Subjects →</EnlightButton>
+        </section>
+      )}
+
+      <section className="ace-dash-hero" data-tour="dashboard-hero" aria-label="Level and today">
         <div className="ace-dash-hero__row">
           <div className="ace-dash-hero__level">
             <div className="ace-dash-hero__badge" aria-hidden>
@@ -76,6 +90,9 @@ export function ProgressHubPage() {
               <h1 className="ace-dash-hero__title">{levelProfile.title}</h1>
               <p className="ace-dash-hero__sub">
                 {levelProfile.xpToNextLevel} XP to level {levelProfile.level + 1}
+                {' · '}
+                {progress.streakDays}d streak
+                {weeklyRecap.xp > 0 ? ` · ${weeklyRecap.xp} XP this week` : ''}
               </p>
             </div>
           </div>
@@ -96,6 +113,20 @@ export function ProgressHubPage() {
             style={{ width: `${levelProfile.levelProgressPercent}%` }}
           />
         </div>
+
+        <div className="ace-dash-goal ace-dash-goal--in-hero" aria-label="Today's goal">
+          <div className="ace-dash-goal__row">
+            <span className="ace-dash-goal__label">Today&apos;s goal</span>
+            <span className={`ace-dash-goal__value${goalMet ? ' ace-dash-goal__value--met' : ''}`}>
+              {todayMin} / {dailyGoal} min
+              {goalMet ? <span className="ace-dash-goal__check" aria-label="Goal met">✓</span> : null}
+            </span>
+          </div>
+          <div className="ace-daily-goal-bar">
+            <div className="ace-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
+          </div>
+        </div>
+
         {streakAtRisk && progress.streakDays > 0 && (
           <p className="ace-dash-hero__warning">
             {streakCountdown
@@ -103,49 +134,6 @@ export function ProgressHubPage() {
               : `Study today to keep your ${progress.streakDays}-day streak!`}
           </p>
         )}
-      </section>
-
-      {continueStudying && (
-        <section className="ace-welcome-back">
-          <div className="ace-welcome-back__content">
-            <p className="ace-welcome-back__eyebrow">Welcome back</p>
-            <h2 className="ace-welcome-back__title">{continueStudying.chapterTitle}</h2>
-            <p className="ace-welcome-back__sub">{continueStudying.topicTitle}</p>
-          </div>
-          <EnlightButton to={continueStudying.topicPath}>Continue →</EnlightButton>
-        </section>
-      )}
-
-      <section className="ace-dash-stats" aria-label="This week">
-        <div className="ace-dash-stat">
-          <span className="ace-dash-stat__value">{weeklyRecap.studyMinutes}</span>
-          <span className="ace-dash-stat__label">min studied</span>
-        </div>
-        <div className="ace-dash-stat">
-          <span className="ace-dash-stat__value">{weeklyRecap.xp}</span>
-          <span className="ace-dash-stat__label">XP this week</span>
-        </div>
-        <div className="ace-dash-stat">
-          <span className="ace-dash-stat__value">{weeklyRecap.activeDays}/7</span>
-          <span className="ace-dash-stat__label">active days</span>
-        </div>
-        <div className="ace-dash-stat">
-          <span className="ace-dash-stat__value">{weeklyRecap.streakDays}</span>
-          <span className="ace-dash-stat__label">day streak</span>
-        </div>
-      </section>
-
-      <section className="ace-dash-goal" aria-label="Today's goal">
-        <div className="ace-dash-goal__row">
-          <span className="ace-dash-goal__label">Today&apos;s goal</span>
-          <span className={`ace-dash-goal__value${goalMet ? ' ace-dash-goal__value--met' : ''}`}>
-            {todayMin} / {dailyGoal} min
-            {goalMet ? <span className="ace-dash-goal__check" aria-label="Goal met">✓</span> : null}
-          </span>
-        </div>
-        <div className="ace-daily-goal-bar">
-          <div className="ace-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
-        </div>
       </section>
 
       <DailyQuestsPanel />
@@ -199,7 +187,7 @@ export function ProgressHubPage() {
 
       <section className="ace-dashboard-card ace-dash-activity">
         <h2 className="ace-heading-serif ace-dashboard-card__title">Study activity</h2>
-        <p className="ace-activity-legend">Last 7 days</p>
+        <p className="ace-activity-legend">Last 7 days · {weeklyRecap.studyMinutes} min · {weeklyRecap.activeDays}/7 active</p>
         <div className="ace-activity-bars" role="img" aria-label="Study activity for the last 7 days">
           {weekActivity.map((day) => (
             <div key={day.date} className="ace-activity-bar-col">
@@ -222,39 +210,10 @@ export function ProgressHubPage() {
             </div>
           ))}
         </div>
-      </section>
-
-      <section className="ace-dashboard-card">
-        <div className="ace-progress-page__title-row">
-          <h2 className="ace-heading-serif ace-dashboard-card__title">Quiz history</h2>
-          {quizSummaries.length > 0 && (
-            <EnlightButton to="/dashboard/quiz-history" variant="outline">
-              View all →
-            </EnlightButton>
-          )}
-        </div>
-        {quizSummaries.length === 0 ? (
-          <p className="ace-body-text">No quizzes yet — complete one from any subject to start tracking scores.</p>
-        ) : (
-          <div className="ace-quiz-history-grid ace-quiz-history-grid--compact">
-            {quizSummaries.slice(0, 3).map((s) => (
-              <Link
-                key={s.subjectId}
-                to={`/dashboard/quiz-history/${s.subjectId}`}
-                className="ace-quiz-history-card"
-              >
-                <h3 className="ace-quiz-history-card__title">{s.subjectName}</h3>
-                <span
-                  className={`ace-quiz-history-card__score ace-quiz-history-card__score--${quizScoreTone(s.averageScore)}`}
-                >
-                  {s.averageScore}%
-                </span>
-                <span className="ace-quiz-history-card__meta">
-                  avg · {s.attemptCount} attempt{s.attemptCount === 1 ? '' : 's'}
-                </span>
-              </Link>
-            ))}
-          </div>
+        {quizSummaries.length > 0 && (
+          <p className="ace-body-text" style={{ marginTop: 16 }}>
+            <Link to="/dashboard/quiz-history">View quiz history →</Link>
+          </p>
         )}
       </section>
 
@@ -262,28 +221,12 @@ export function ProgressHubPage() {
         <h2 className="ace-heading-serif ace-progress-gateways__title">Explore</h2>
         <div className="ace-progress-gateways__grid">
           <ProgressGatewayCard
-            to="/dashboard/quiz-history"
-            icon="Q"
-            title="Quiz history & mistake log"
-            description="Average scores per subject — drill into each attempt to review mistakes."
-            meta={quizSummaries.length > 0 ? `${quizSummaries.length} subject${quizSummaries.length === 1 ? '' : 's'} tracked` : 'No attempts yet'}
-            accent="gold"
-          />
-          <ProgressGatewayCard
             to="/dashboard/review"
             icon="W"
             title="Weak topics"
             description="Top weak chapters per subject — quiz fails and study time."
             meta={weakMeta}
             accent="warn"
-          />
-          <ProgressGatewayCard
-            to="/social"
-            icon="S"
-            title="Social"
-            description="Profile, leaderboards, friends, and study groups."
-            meta={user ? 'Rankings & connections' : 'Sign in to compete'}
-            accent="gold"
           />
           <ProgressGatewayCard
             to="/dashboard/subjects"

@@ -66,6 +66,9 @@ export function EnlightHeader({
   const dailyGoal = progress.dailyGoalMin ?? 20
   const goalPct = Math.min(100, Math.round((todayMin / dailyGoal) * 100))
 
+  const hideDashboardStats =
+    location.pathname === '/dashboard' || location.pathname === '/dashboard/'
+
   const nav = [
     ...SIGNED_IN_NAV,
     ...(isAdmin ? [{ to: '/analytics', label: 'Analytics', match: (p: string) => p.startsWith('/analytics') }] : []),
@@ -125,13 +128,15 @@ export function EnlightHeader({
         </nav>
 
         <div className="ace-header__actions">
-          <HeaderStats
-            className="ace-header__stats--desktop"
-            level={levelProfile.level}
-            xp={progress.xp}
-            streakDays={progress.streakDays}
-            streakAtRisk={streakAtRisk}
-          />
+          {!hideDashboardStats && (
+            <HeaderStats
+              className="ace-header__stats--desktop"
+              level={levelProfile.level}
+              xp={progress.xp}
+              streakDays={progress.streakDays}
+              streakAtRisk={streakAtRisk}
+            />
+          )}
           <NotificationBell />
           <div className="ace-header__auth">
             <SignInButton compact />
@@ -147,12 +152,14 @@ export function EnlightHeader({
           </button>
         </div>
 
-        <div className="ace-header__xp-mini" aria-hidden="true">
-          <div
-            className="ace-header__xp-mini-fill"
-            style={{ width: `${levelProfile.levelProgressPercent}%` }}
-          />
-        </div>
+        {!hideDashboardStats && (
+          <div className="ace-header__xp-mini" aria-hidden="true">
+            <div
+              className="ace-header__xp-mini-fill"
+              style={{ width: `${levelProfile.levelProgressPercent}%` }}
+            />
+          </div>
+        )}
       </div>
 
       {mobileOpen && (
@@ -183,13 +190,15 @@ export function EnlightHeader({
               </div>
             </div>
 
-            <HeaderStats
-              className="ace-mobile-menu__stats"
-              level={levelProfile.level}
-              xp={progress.xp}
-              streakDays={progress.streakDays}
-              streakAtRisk={streakAtRisk}
-            />
+            {!hideDashboardStats && (
+              <HeaderStats
+                className="ace-mobile-menu__stats"
+                level={levelProfile.level}
+                xp={progress.xp}
+                streakDays={progress.streakDays}
+                streakAtRisk={streakAtRisk}
+              />
+            )}
 
             <div className="ace-mobile-menu__links">
               {nav.map((item) => (

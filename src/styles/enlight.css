@@ -33,17 +33,18 @@
   z-index: 100;
   height: auto;
   min-height: var(--ace-header-height);
-  background: var(--ace-bg);
-  border-bottom: 1px solid var(--ace-border);
+  background: var(--ace-forest);
+  border-bottom: 1px solid rgba(201, 180, 106, 0.22);
   display: flex;
   flex-direction: column;
+  color: var(--ace-text-on-forest);
 }
 
 .ace-header--lesson {
   position: relative;
   z-index: 80;
   min-height: 48px;
-  background: var(--ace-bg);
+  background: var(--ace-forest);
 }
 
 .ace-header--lesson .ace-header__inner {
@@ -54,15 +55,15 @@
   margin-left: auto;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--ace-text-muted);
+  color: rgba(245, 242, 236, 0.75);
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 8px;
 }
 
 .ace-header__exit:hover {
-  color: var(--ace-text);
-  background: var(--ace-bg-alt);
+  color: var(--ace-text-on-forest);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .ace-header__inner {
@@ -83,18 +84,19 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: var(--ace-text);
+  color: var(--ace-text-on-forest);
   flex-shrink: 0;
   min-width: 0;
 }
 
 .ace-header__logo {
-  font-family: var(--ace-font-sans);
-  font-size: 1.15rem;
-  font-weight: 650;
+  font-family: var(--ace-font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
   margin: 0;
   line-height: 1.2;
+  color: var(--ace-text-on-forest);
 }
 
 .ace-header__logo-short {
@@ -113,8 +115,9 @@
 }
 
 .ace-badge--gold {
-  background: var(--ace-formula-bg);
-  color: var(--ace-gold-dark);
+  background: var(--ace-gold-soft);
+  color: var(--ace-gold);
+  border: 1px solid rgba(201, 180, 106, 0.35);
 }
 
 .ace-badge--mint {
@@ -153,15 +156,21 @@
 .ace-header__link {
   font-size: 0.88rem;
   font-weight: 500;
-  color: var(--ace-text-muted);
+  color: rgba(245, 242, 236, 0.72);
   text-decoration: none;
   transition: color 0.2s;
   white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
 }
 
 .ace-header__link:hover,
 .ace-header__link--active {
-  color: var(--ace-text);
+  color: var(--ace-text-on-forest);
+}
+
+.ace-header__link--active {
+  border-bottom-color: var(--ace-gold);
 }
 
 .ace-header__stats {
@@ -203,11 +212,11 @@
   gap: 4px;
   padding: 4px 10px;
   border-radius: var(--ace-radius-pill);
-  background: var(--ace-formula-bg);
-  border: 1px solid var(--ace-border);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(245, 242, 236, 0.2);
   font-size: 0.78rem;
   font-weight: 600;
-  color: var(--ace-text-muted);
+  color: var(--ace-text-on-forest);
   cursor: default;
   transition: border-color 0.2s;
   white-space: nowrap;
@@ -468,12 +477,12 @@
 }
 
 .ace-btn--primary {
-  background: var(--ace-black);
-  color: #fff;
+  background: var(--ace-forest);
+  color: var(--ace-text-on-forest);
 }
 
 .ace-btn--primary:hover {
-  background: #333;
+  background: var(--ace-forest-deep);
   transform: translateY(-1px);
 }
 
@@ -484,7 +493,7 @@
 }
 
 .ace-btn--outline:hover {
-  border-color: var(--ace-gold);
+  border-color: var(--ace-forest);
 }
 
 .ace-btn--sm {
@@ -560,7 +569,7 @@
 }
 
 .ace-heading-serif {
-  font-family: var(--ace-font-sans);
+  font-family: var(--ace-font-display);
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--ace-text);
@@ -1172,7 +1181,7 @@
 }
 
 .ace-lesson-main .ace-heading-serif {
-  font-family: var(--ace-font-sans);
+  font-family: var(--ace-font-display);
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--ace-text);
@@ -5440,10 +5449,38 @@
 
 .ace-footer {
   text-align: center;
-  padding: 32px;
+  padding: 28px 24px 36px;
   font-size: 0.85rem;
   color: var(--ace-text-light);
   border-top: 1px solid var(--ace-border);
+  background: var(--ace-bg);
+}
+
+.ace-footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.ace-footer__link {
+  color: var(--ace-text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.88rem;
+}
+
+.ace-footer__link:hover {
+  color: var(--ace-forest);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ace-footer__copy {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--ace-text-light);
 }
 
 .ace-card-label {
@@ -9342,10 +9379,10 @@ html:has(.ace-app--lesson) {
   margin-bottom: 16px;
   padding: 24px 26px;
   border-radius: 16px;
-  background: linear-gradient(145deg, #0f1a12 0%, #142018 48%, #0c1410 100%);
-  border: 1px solid rgba(181, 154, 115, 0.32);
-  color: #ffffff;
-  box-shadow: 0 8px 28px rgba(15, 26, 18, 0.28);
+  background: var(--ace-forest);
+  border: 1px solid rgba(201, 180, 106, 0.28);
+  color: var(--ace-text-on-forest);
+  box-shadow: var(--ace-shadow);
 }
 
 .ace-dash-hero__row {
@@ -12227,6 +12264,7 @@ html:has(.ace-app--lesson) {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: var(--ace-bg);
 }
 
 .ace-marketing .ace-footer {
@@ -14101,71 +14139,157 @@ html:has(.ace-app--lesson) {
   color: var(--ace-gold);
 }
 
-/* ── Single-page marketing landing ── */
+/* ── Dark academic marketing landing ── */
+.ace-marketing {
+  background: var(--ace-bg);
+}
+
 .ace-landing {
-  padding-bottom: 64px;
+  padding-bottom: 0;
 }
 
-.ace-landing__hero {
+.ace-landing-hero {
+  background: var(--ace-forest);
+  color: var(--ace-text-on-forest);
+  padding: 56px 24px 72px;
+  min-height: calc(100dvh - var(--ace-header-height));
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  min-height: calc(100dvh - var(--ace-header-height) - 48px);
-  padding: 48px 24px 64px;
-  max-width: 720px;
+  align-items: center;
 }
 
-.ace-landing__brand {
-  margin: 0 0 20px;
-  font-size: 0.8rem;
-  font-weight: 650;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--ace-text);
+.ace-landing-hero__inner {
+  width: 100%;
+  max-width: var(--ace-max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
 }
 
-.ace-landing__headline {
+.ace-landing-hero__wordmark {
   margin: 0 0 16px;
-  font-family: var(--ace-font-sans);
-  font-size: clamp(2rem, 5vw, 2.75rem);
-  font-weight: 650;
-  line-height: 1.15;
+  font-family: var(--ace-font-display);
+  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  font-weight: 600;
   letter-spacing: -0.03em;
-  color: var(--ace-text);
+  line-height: 1.05;
+  color: var(--ace-text-on-forest);
 }
 
-.ace-landing__lead {
+.ace-landing-hero__headline {
+  margin: 0 0 14px;
+  font-family: var(--ace-font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(245, 242, 236, 0.95);
+}
+
+.ace-landing-hero__lead {
   margin: 0 0 28px;
-  max-width: 34rem;
+  max-width: 28rem;
   font-size: 1.05rem;
   line-height: 1.65;
-  color: var(--ace-text-muted);
+  color: rgba(245, 242, 236, 0.72);
 }
 
-.ace-landing__cta {
+.ace-landing-hero__cta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
 }
 
-.ace-landing__demo-link {
+.ace-landing-hero__cta .ace-btn--primary {
+  background: var(--ace-gold);
+  color: var(--ace-forest-deep);
+}
+
+.ace-landing-hero__cta .ace-btn--primary:hover {
+  background: #d4c07a;
+}
+
+.ace-landing-hero__demo-link {
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--ace-text-muted);
+  color: rgba(245, 242, 236, 0.75);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.ace-landing__demo-link:hover {
+.ace-landing-hero__demo-link:hover {
+  color: var(--ace-gold);
+}
+
+.ace-landing-hero__cards {
+  position: relative;
+  min-height: 320px;
+}
+
+.ace-landing-note-card {
+  background: var(--ace-card);
   color: var(--ace-text);
+  border-radius: 12px;
+  border: 1px solid var(--ace-border);
+  padding: 20px 22px;
+  box-shadow: var(--ace-shadow-hover);
+  max-width: 340px;
+}
+
+.ace-landing-note-card--1 {
+  position: relative;
+  z-index: 3;
+}
+
+.ace-landing-note-card--2 {
+  position: absolute;
+  top: 72px;
+  left: 48px;
+  z-index: 2;
+  opacity: 0.96;
+  transform: rotate(1.5deg);
+}
+
+.ace-landing-note-card--3 {
+  position: absolute;
+  top: 148px;
+  left: 96px;
+  z-index: 1;
+  opacity: 0.9;
+  transform: rotate(-2deg);
+}
+
+.ace-landing-note-card__label {
+  margin: 0 0 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ace-gold-dark);
+}
+
+.ace-landing-note-card__title {
+  margin: 0 0 8px;
+  font-family: var(--ace-font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ace-text);
+}
+
+.ace-landing-note-card__body {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ace-text-muted);
 }
 
 .ace-landing__demo,
 .ace-landing__about {
   padding: 64px 24px;
   border-top: 1px solid var(--ace-border);
+  background: var(--ace-bg);
 }
 
 .ace-landing__demo-header {
@@ -14175,9 +14299,9 @@ html:has(.ace-app--lesson) {
 
 .ace-landing__demo-title {
   margin: 8px 0 12px;
-  font-family: var(--ace-font-sans);
+  font-family: var(--ace-font-display);
   font-size: 1.5rem;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--ace-text);
 }
@@ -14195,4 +14319,73 @@ html:has(.ace-app--lesson) {
 .ace-landing-demo-quiz {
   margin-top: 8px;
 }
+
+.ace-landing-demo-notes {
+  background: var(--ace-card);
+  border: 1px solid var(--ace-border);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--ace-shadow);
+  max-height: 520px;
+  overflow: auto;
+}
+
+.ace-dash-goal--in-hero {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(245, 242, 236, 0.12);
+}
+
+.ace-dash-goal--in-hero .ace-dash-goal__label,
+.ace-dash-goal--in-hero .ace-dash-goal__value {
+  color: rgba(245, 242, 236, 0.75);
+}
+
+.ace-dash-goal--in-hero .ace-daily-goal-bar {
+  background: rgba(245, 242, 236, 0.15);
+}
+
+.ace-hamburger {
+  border-color: rgba(245, 242, 236, 0.25);
+  background: transparent;
+  color: var(--ace-text-on-forest);
+}
+
+.ace-hamburger:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 900px) {
+  .ace-landing-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .ace-landing-hero {
+    min-height: auto;
+    padding: 40px 20px 56px;
+  }
+
+  .ace-landing-hero__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ace-landing-note-card--2,
+  .ace-landing-note-card--3 {
+    position: static;
+    transform: none;
+    margin-top: 12px;
+    max-width: none;
+    opacity: 1;
+  }
+
+  .ace-landing-hero__cards {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 

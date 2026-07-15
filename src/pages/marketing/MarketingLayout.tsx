@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from 'react-router-dom'
+import { AceFooter } from '@/components/AceFooter'
 import { SignInButton } from '@/features/social/SocialPanels'
 
 export function MarketingLayout() {
@@ -19,7 +20,7 @@ export function MarketingLayout() {
           {!isHome && (
             <nav className="ace-header__nav" aria-label="Marketing navigation">
               <Link to="/" className="ace-header__link">
-                Tour
+                Home
               </Link>
             </nav>
           )}
@@ -30,7 +31,7 @@ export function MarketingLayout() {
         </div>
       </header>
       <Outlet />
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

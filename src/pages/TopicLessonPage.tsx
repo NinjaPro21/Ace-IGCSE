@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { EnlightButton } from '@/components/EnlightButton'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { ChapterQuizPopout } from '@/components/ChapterQuizPopout'
 import { LessonSidebar } from '@/components/LessonSidebar'
@@ -404,7 +405,7 @@ export function TopicLessonPage() {
         </button>
       )}
 
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

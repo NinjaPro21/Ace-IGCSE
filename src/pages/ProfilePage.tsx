@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { friendlyErrorMessage } from '@/lib/firebaseErrors'
 import { usePageTitle } from '@/hooks/usePageTitle'
 import { EnlightButton } from '@/components/EnlightButton'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import { getSubjectSummary, getAchievements } from '@/features/mastery/progressStats'
@@ -282,7 +283,7 @@ export function ProfilePage() {
 
         <EnlightButton to="/social" variant="outline">← Social</EnlightButton>
       </div>
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

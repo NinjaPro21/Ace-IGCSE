@@ -3,6 +3,7 @@ import { friendlyErrorMessage } from '@/lib/firebaseErrors'
 import { usePageTitle } from '@/hooks/usePageTitle'
 import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { AnalyticsBarChart } from '@/components/analytics/AnalyticsBarChart'
 import { MetricCard } from '@/components/analytics/MetricCard'
@@ -337,7 +338,7 @@ export function AnalyticsPage() {
         </section>
       </div>
 
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }

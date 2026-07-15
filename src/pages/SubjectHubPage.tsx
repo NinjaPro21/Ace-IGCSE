@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { EnlightChapterCard } from '@/components/EnlightChapterCard'
+import { AceFooter } from '@/components/AceFooter'
 import { EnlightHeader } from '@/components/EnlightHeader'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { ProgressGatewayCard } from '@/components/ProgressGatewayCard'
@@ -160,7 +161,7 @@ export function SubjectHubPage() {
           })}
         </div>
       </div>
-      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <AceFooter />
     </div>
   )
 }
