@@ -22,19 +22,19 @@ export function ProgressReviewPage() {
   return (
     <>
       <EnlightSectionLabel>Review</EnlightSectionLabel>
-      <h1 className="enlight-heading-serif">Weak topics</h1>
-      <p className="enlight-body-text enlight-progress-page__intro">
+      <h1 className="ace-heading-serif">Weak topics</h1>
+      <p className="ace-body-text ace-progress-page__intro">
         Up to three chapters per subject, ranked by quiz fail rate and study time. Open a topic to
         review notes and retry quizzes.
       </p>
 
       {totalWeak === 0 ? (
-        <section className="enlight-dashboard-card">
-          <p className="enlight-body-text">No weak spots flagged — keep going!</p>
+        <section className="ace-dashboard-card">
+          <p className="ace-body-text">No weak spots flagged — keep going!</p>
         </section>
       ) : (
-        <section className="enlight-dashboard-card">
-          <div className="enlight-insights-table">
+        <section className="ace-dashboard-card">
+          <div className="ace-insights-table">
             {weakBySubject.flatMap((group) =>
               group.chapters.map((row) => {
                 const path = getWeakTopicLessonPath(row.chapterId)
@@ -45,20 +45,20 @@ export function ProgressReviewPage() {
                     : `${row.timeSpentMin} min studied`
 
                 return (
-                  <div key={row.chapterId} className="enlight-insights-row">
-                    <div className="enlight-insights-row__main">
-                      <span className={['enlight-insights-row__subject', subjectClass].filter(Boolean).join(' ')}>
+                  <div key={row.chapterId} className="ace-insights-row">
+                    <div className="ace-insights-row__main">
+                      <span className={['ace-insights-row__subject', subjectClass].filter(Boolean).join(' ')}>
                         {group.subjectName}
                       </span>
                       {path ? (
-                        <Link to={path} className="enlight-insights-row__title enlight-insights-row__title--link">
+                        <Link to={path} className="ace-insights-row__title ace-insights-row__title--link">
                           {row.chapterTitle}
                         </Link>
                       ) : (
-                        <span className="enlight-insights-row__title">{row.chapterTitle}</span>
+                        <span className="ace-insights-row__title">{row.chapterTitle}</span>
                       )}
                     </div>
-                    <div className="enlight-insights-row__stats">
+                    <div className="ace-insights-row__stats">
                       <span>{failLabel}</span>
                       {row.failRate > 0 && <span>{row.failRate}% fail rate</span>}
                     </div>

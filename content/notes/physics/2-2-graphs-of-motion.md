@@ -46,7 +46,7 @@ Useful for calculating distance in a single step for multi-stage journeys.
 - **Increasing Speed (Acceleration)**: A curve like a **smile ☺** — getting steeper (speeding up).
 - **Decelerating**: A curve like a **frown ☹** — getting flatter (slowing down).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Distance time graph with acceleration">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Distance time graph with acceleration">
       <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="215" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="238" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -57,7 +57,7 @@ Useful for calculating distance in a single step for multi-stage journeys.
       <text x="90" y="178" font-size="10" fill="#2563eb">constant speed</text>
       <text x="200" y="115" font-size="10" fill="#dc2626">accelerating (curve)</text>
       <text x="330" y="62" font-size="10" fill="#64748b">at rest</text>
-    </svg><p class="enlight-physics-diagram__caption">Distance–time graph — flat = at rest; straight slope = constant speed; curve getting steeper = accelerating.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Distance–time graph — flat = at rest; straight slope = constant speed; curve getting steeper = accelerating.</p></div>
 
 **Speed-Time Graphs**
 
@@ -66,7 +66,7 @@ Useful for calculating distance in a single step for multi-stage journeys.
 - **Uniform Deceleration**: A straight line sloping downwards.
 - **Non-Uniform Acceleration/Deceleration**: A curved line where the gradient changes.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Speed time graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Speed time graph">
       <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="215" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="238" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -77,9 +77,9 @@ Useful for calculating distance in a single step for multi-stage journeys.
       <text x="255" y="82" font-size="10" fill="#16a34a">constant speed</text>
       <text x="330" y="155" font-size="10" fill="#dc2626">deceleration</text>
       <text x="200" y="200" font-size="10" fill="#2563eb">area = distance</text>
-    </svg><p class="enlight-physics-diagram__caption">Speed–time graph — upward slope = acceleration; flat = constant speed; downward slope = deceleration; shaded area = distance travelled.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Speed–time graph — upward slope = acceleration; flat = constant speed; downward slope = deceleration; shaded area = distance travelled.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Velocity time graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Velocity time graph">
       <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="215" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="238" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -90,7 +90,7 @@ Useful for calculating distance in a single step for multi-stage journeys.
       <text x="255" y="72" font-size="10" fill="#7c3aed">constant velocity</text>
       <text x="330" y="150" font-size="10" fill="#dc2626">− deceleration</text>
       <text x="200" y="200" font-size="10" fill="#7c3aed">area = displacement</text>
-    </svg><p class="enlight-physics-diagram__caption">Velocity–time graph — gradient = acceleration; shaded area under the full line = displacement.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Velocity–time graph — gradient = acceleration; shaded area under the full line = displacement.</p></div>
 
 ## Steps / method
 

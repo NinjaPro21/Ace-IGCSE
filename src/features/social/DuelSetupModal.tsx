@@ -79,26 +79,26 @@ export function DuelSetupModal({ userId, friendId, friendName, onClose, onSent }
   }
 
   return (
-    <div className="enlight-popout-overlay" role="dialog" aria-modal="true" onClick={onClose}>
+    <div className="ace-popout-overlay" role="dialog" aria-modal="true" onClick={onClose}>
       <div
-        className="enlight-popout enlight-popout--card enlight-duel-setup"
+        className="ace-popout ace-popout--card ace-duel-setup"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="enlight-duel-setup__hero">
-          <span className="enlight-duel-setup__hero-icon" aria-hidden>⚔️</span>
+        <div className="ace-duel-setup__hero">
+          <span className="ace-duel-setup__hero-icon" aria-hidden>⚔️</span>
           <div>
-            <h2 className="enlight-heading-serif">Challenge {friendName}</h2>
-            <p className="enlight-body-text" style={{ margin: 0 }}>
+            <h2 className="ace-heading-serif">Challenge {friendName}</h2>
+            <p className="ace-body-text" style={{ margin: 0 }}>
               Same quiz, highest score wins. They&apos;ll get a notification to accept.
             </p>
           </div>
         </div>
 
-        <div className="enlight-duel-setup__fields">
-        <label className="enlight-profile-form__label">
+        <div className="ace-duel-setup__fields">
+        <label className="ace-profile-form__label">
           Subject
           <select
-            className="enlight-select enlight-profile-form__input"
+            className="ace-select ace-profile-form__input"
             value={subjectId}
             onChange={(e) => handleSubjectChange(e.target.value)}
           >
@@ -110,10 +110,10 @@ export function DuelSetupModal({ userId, friendId, friendName, onClose, onSent }
           </select>
         </label>
 
-        <label className="enlight-profile-form__label">
+        <label className="ace-profile-form__label">
           Chapter
           <select
-            className="enlight-select enlight-profile-form__input"
+            className="ace-select ace-profile-form__input"
             value={chapterId}
             onChange={(e) => handleChapterChange(e.target.value)}
           >
@@ -125,10 +125,10 @@ export function DuelSetupModal({ userId, friendId, friendName, onClose, onSent }
           </select>
         </label>
 
-        <label className="enlight-profile-form__label">
+        <label className="ace-profile-form__label">
           Section
           <select
-            className="enlight-select enlight-profile-form__input"
+            className="ace-select ace-profile-form__input"
             value={topicId}
             onChange={(e) => setTopicId(e.target.value)}
           >
@@ -140,10 +140,10 @@ export function DuelSetupModal({ userId, friendId, friendName, onClose, onSent }
           </select>
         </label>
 
-        <label className="enlight-profile-form__label">
+        <label className="ace-profile-form__label">
           Difficulty
           <select
-            className="enlight-select enlight-profile-form__input"
+            className="ace-select ace-profile-form__input"
             value={difficulty}
             onChange={(e) => setDifficulty(e.target.value as Difficulty)}
           >
@@ -157,14 +157,14 @@ export function DuelSetupModal({ userId, friendId, friendName, onClose, onSent }
         </div>
 
         {topic && chapter && (
-          <p className="enlight-body-text enlight-duel-setup__summary">
+          <p className="ace-body-text ace-duel-setup__summary">
             Duel: <strong>{topic.title}</strong> · {difficulty} · {chapter.title}
           </p>
         )}
 
-        {error && <p className="enlight-form-message">{error}</p>}
+        {error && <p className="ace-form-message">{error}</p>}
 
-        <div className="enlight-duel-setup__actions">
+        <div className="ace-duel-setup__actions">
           <EnlightButton variant="outline" onClick={onClose} disabled={sending}>
             Cancel
           </EnlightButton>

@@ -42,7 +42,7 @@ Use the **interactive explorer** above to switch between object-distance scenari
 
 - Parallel rays meet at the principal focus $F$.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 220" width="400" height="220" role="img" aria-label="Converging lens ray diagram">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 220" width="400" height="220" role="img" aria-label="Converging lens ray diagram">
       <defs><marker id="cl-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#f59e0b"/></marker></defs>
       <line x1="20" y1="110" x2="380" y2="110" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <text x="200" y="205" text-anchor="middle" font-size="10" fill="#64748b">principal axis</text>
@@ -55,7 +55,7 @@ Use the **interactive explorer** above to switch between object-distance scenari
       <text x="318" y="106" font-size="12" fill="#dc2626" font-weight="600">F</text>
       <text x="55" y="62" font-size="10" fill="#64748b">parallel rays in</text>
       <text x="200" y="28" text-anchor="middle" font-size="12" fill="#2563eb" font-weight="600">converging lens</text>
-    </svg><p class="enlight-physics-diagram__caption">Converging lens — parallel rays refract to meet at the principal focus $F$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Converging lens — parallel rays refract to meet at the principal focus $F$.</p></div>
 
 ## Quick check
 

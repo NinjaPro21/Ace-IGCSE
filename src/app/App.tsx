@@ -65,7 +65,7 @@ const NotFoundPage = lazy(() => import('@/pages/NotFoundPage').then((m) => ({ de
 
 function RouteFallback() {
   return (
-    <div className="enlight-route-fallback" role="status" aria-live="polite">
+    <div className="ace-route-fallback" role="status" aria-live="polite">
       Loading…
     </div>
   )
@@ -122,9 +122,9 @@ export function App() {
                 {/* Public marketing */}
                 <Route element={<MarketingLayout />}>
                   <Route index element={<MarketingHomePage />} />
-                  <Route path="about" element={<Navigate to="/?step=4" replace />} />
-                  <Route path="features" element={<Navigate to="/?step=1" replace />} />
-                  <Route path="leaderboard" element={<Navigate to="/?step=5" replace />} />
+                  <Route path="about" element={<Navigate to={{ pathname: '/', hash: 'about' }} replace />} />
+                  <Route path="features" element={<Navigate to={{ pathname: '/', hash: 'demo' }} replace />} />
+                  <Route path="leaderboard" element={<Navigate to={{ pathname: '/', hash: 'demo' }} replace />} />
                 </Route>
 
                 {/* Legacy redirect */}

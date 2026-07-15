@@ -22,14 +22,14 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Direct and inverse proportion">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Direct and inverse proportion">
       <line x1="40" y1="190" x2="290" y2="190" stroke="#a8a29e"/>
       <line x1="40" y1="190" x2="40" y2="30" stroke="#a8a29e"/>
       <line x1="40" y1="190" x2="260" y2="50" stroke="#5b8def" stroke-width="2"/>
       <path d="M55 185 Q120 60 280 45" fill="none" stroke="#b59a73" stroke-width="2"/>
       <text x="200" y="70" font-size="10" fill="#5b8def">y ∝ x</text>
       <text x="200" y="100" font-size="10" fill="#b59a73">y ∝ 1/x</text>
-    </svg><p class="enlight-physics-diagram__caption">Direct proportion — straight line through origin ($y = kx$); inverse proportion — hyperbola ($y = k/x$).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Direct proportion — straight line through origin ($y = kx$); inverse proportion — hyperbola ($y = k/x$).</p></div>
 
 ## Steps / method
 

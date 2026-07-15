@@ -39,7 +39,7 @@ The centripetal force increases with mass and speed, and decreases with radius.
 - **Acceleration**: A curve with an increasing gradient (getting steeper).
 - **Deceleration**: A curve with a decreasing gradient (getting flatter).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Distance time graph with acceleration">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Distance time graph with acceleration">
       <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="215" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="238" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -50,7 +50,7 @@ The centripetal force increases with mass and speed, and decreases with radius.
       <text x="90" y="178" font-size="10" fill="#2563eb">constant speed</text>
       <text x="200" y="115" font-size="10" fill="#dc2626">accelerating (curve)</text>
       <text x="330" y="62" font-size="10" fill="#64748b">at rest</text>
-    </svg><p class="enlight-physics-diagram__caption">Distance–time graph — flat = at rest; straight slope = constant speed; curve getting steeper = accelerating.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Distance–time graph — flat = at rest; straight slope = constant speed; curve getting steeper = accelerating.</p></div>
 
 **Velocity-Time Graphs**
 
@@ -60,7 +60,7 @@ The centripetal force increases with mass and speed, and decreases with radius.
 - **Changing acceleration**: A curved line where the gradient changes over time.
 - **Interpretations**: The gradient of a distance-time graph gives speed; the gradient of a speed-time graph gives acceleration; the area under a speed-time graph gives distance travelled.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Speed time graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Speed time graph">
       <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="215" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="238" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -71,7 +71,7 @@ The centripetal force increases with mass and speed, and decreases with radius.
       <text x="255" y="82" font-size="10" fill="#16a34a">constant speed</text>
       <text x="330" y="155" font-size="10" fill="#dc2626">deceleration</text>
       <text x="200" y="200" font-size="10" fill="#2563eb">area = distance</text>
-    </svg><p class="enlight-physics-diagram__caption">Speed–time graph — upward slope = acceleration; flat = constant speed; downward slope = deceleration; shaded area = distance travelled.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Speed–time graph — upward slope = acceleration; flat = constant speed; downward slope = deceleration; shaded area = distance travelled.</p></div>
 
 ## Steps / method
 

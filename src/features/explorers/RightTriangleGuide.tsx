@@ -33,7 +33,7 @@ function RightTriangleSvg({
   const labelY = by - 10
 
   return (
-    <svg viewBox="0 0 220 180" className="enlight-graph-canvas enlight-rtri-svg" role="img" aria-label="Right triangle">
+    <svg viewBox="0 0 220 180" className="ace-graph-canvas ace-rtri-svg" role="img" aria-label="Right triangle">
       <polygon points={`${ax},${ay} ${bx},${by} ${cx},${cy}`} fill="#eff6ff" stroke="#2563eb" strokeWidth={2} />
       <rect x={ax} y={ay - 12} width={12} height={12} fill="none" stroke="#64748b" />
       <path
@@ -64,17 +64,17 @@ function PythagorasPanel() {
   const c = Math.sqrt(a * a + b * b)
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">Pythagoras: c² = a² + b² on a right-angled triangle.</p>
-      <div className="enlight-slider-group">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">Pythagoras: c² = a² + b² on a right-angled triangle.</p>
+      <div className="ace-slider-group">
         <label>Shorter side a = {a}</label>
         <input type="range" min={2} max={8} step={1} value={a} onChange={(e) => setA(Number(e.target.value))} />
       </div>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label>Shorter side b = {b}</label>
         <input type="range" min={2} max={8} step={1} value={b} onChange={(e) => setB(Number(e.target.value))} />
       </div>
-      <p className="enlight-rtri-result">Hypotenuse c = √({a}² + {b}²) = {c.toFixed(2)}</p>
+      <p className="ace-rtri-result">Hypotenuse c = √({a}² + {b}²) = {c.toFixed(2)}</p>
       <RightTriangleSvg opp={b} adj={a} hyp={c} angle={Math.round((Math.atan2(b, a) * 180) / Math.PI)} highlight="hyp" />
     </div>
   )
@@ -87,15 +87,15 @@ function SohcahtoaPanel() {
   const adj = hyp * Math.cos((angle * Math.PI) / 180)
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Label **Opposite**, **Adjacent**, **Hypotenuse** relative to θ. Pick SOH, CAH, or TOA.
       </p>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label>Angle θ = {angle}°</label>
         <input type="range" min={10} max={80} step={1} value={angle} onChange={(e) => setAngle(Number(e.target.value))} />
       </div>
-      <div className="enlight-rtri-formulas">
+      <div className="ace-rtri-formulas">
         <span>sin θ = {opp.toFixed(2)}/{hyp} = {(opp / hyp).toFixed(3)}</span>
         <span>cos θ = {adj.toFixed(2)}/{hyp} = {(adj / hyp).toFixed(3)}</span>
         <span>tan θ = {opp.toFixed(2)}/{adj.toFixed(2)} = {(opp / adj).toFixed(3)}</span>
@@ -115,7 +115,7 @@ function ObliqueTriangleSvg({ A, B, C, a, b, c }: { A: number; B: number; C: num
   const cy = by - c * 8 * Math.sin(rad)
 
   return (
-    <svg viewBox="0 0 220 170" className="enlight-graph-canvas enlight-rtri-svg" role="img" aria-label="Oblique triangle">
+    <svg viewBox="0 0 220 170" className="ace-graph-canvas ace-rtri-svg" role="img" aria-label="Oblique triangle">
       <polygon points={`${ax},${ay} ${bx},${by} ${cx},${cy}`} fill="#fef3c7" stroke="#d97706" strokeWidth={2} />
       <text x={ax - 8} y={ay + 14} fontSize={9} fill="#64748b">A={A}°</text>
       <text x={bx + 4} y={by + 14} fontSize={9} fill="#64748b">B={B}°</text>
@@ -135,9 +135,9 @@ function SineRulePanel() {
   const a = (c * Math.sin((A * Math.PI) / 180)) / Math.sin((C * Math.PI) / 180)
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">Sine rule: a/sin A = b/sin B = c/sin C</p>
-      <p className="enlight-rtri-result">Example: c = 10, A = 40 deg, B = 60 deg — a ≈ {a.toFixed(2)}</p>
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">Sine rule: a/sin A = b/sin B = c/sin C</p>
+      <p className="ace-rtri-result">Example: c = 10, A = 40 deg, B = 60 deg — a ≈ {a.toFixed(2)}</p>
       <ObliqueTriangleSvg A={A} B={B} C={C} a={+a.toFixed(1)} b={8.7} c={c} />
     </div>
   )
@@ -150,9 +150,9 @@ function CosineRulePanel() {
   const c = Math.sqrt(a * a + b * b - 2 * a * b * Math.cos((C * Math.PI) / 180))
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">Cosine rule: c² = a² + b² − 2ab cos C</p>
-      <p className="enlight-rtri-result">a = 7, b = 9, C = 120 deg — c ≈ {c.toFixed(2)}</p>
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">Cosine rule: c² = a² + b² − 2ab cos C</p>
+      <p className="ace-rtri-result">a = 7, b = 9, C = 120 deg — c ≈ {c.toFixed(2)}</p>
       <ObliqueTriangleSvg A={35} B={25} C={C} a={a} b={b} c={+c.toFixed(1)} />
     </div>
   )
@@ -179,15 +179,15 @@ export function RightTriangleGuide({ panels }: { panels?: RightTrianglePanel[] }
   const Panel = PANELS[current]
 
   return (
-    <section className="enlight-explorer enlight-rtri-guide">
+    <section className="ace-explorer ace-rtri-guide">
       {available.length > 1 && (
-        <div className="enlight-stats-guide__tabs" role="tablist">
+        <div className="ace-stats-guide__tabs" role="tablist">
           {available.map((p) => (
             <button
               key={p}
               type="button"
               role="tab"
-              className={`enlight-stats-guide__tab${current === p ? ' enlight-stats-guide__tab--active' : ''}`}
+              className={`ace-stats-guide__tab${current === p ? ' ace-stats-guide__tab--active' : ''}`}
               onClick={() => setTab(p)}
             >
               {LABELS[p]}

@@ -29,22 +29,22 @@ function GroupMemberChip({
   const online = isUserOnline(presence)
 
   return (
-    <Link to={`/profile/${member.id}`} className={`enlight-group-member${online ? ' enlight-group-member--online' : ''}`}>
-      <span className="enlight-group-member__avatar-wrap">
+    <Link to={`/profile/${member.id}`} className={`ace-group-member${online ? ' ace-group-member--online' : ''}`}>
+      <span className="ace-group-member__avatar-wrap">
         {member.avatarUrl ? (
-          <img src={member.avatarUrl} alt="" className="enlight-group-member__avatar" width={44} height={44} />
+          <img src={member.avatarUrl} alt="" className="ace-group-member__avatar" width={44} height={44} />
         ) : (
-          <span className="enlight-group-member__avatar enlight-group-member__avatar--ph">
+          <span className="ace-group-member__avatar ace-group-member__avatar--ph">
             {(member.displayName ?? '?').slice(0, 1)}
           </span>
         )}
-        <span className={`enlight-presence-dot${online ? ' enlight-presence-dot--on' : ''}`} />
+        <span className={`ace-presence-dot${online ? ' ace-presence-dot--on' : ''}`} />
       </span>
-      <span className="enlight-group-member__name">
+      <span className="ace-group-member__name">
         {member.displayName ?? 'Student'}
         {isSelf ? ' (you)' : ''}
       </span>
-      <span className="enlight-group-member__status">{presenceActivityLabel(presence)}</span>
+      <span className="ace-group-member__status">{presenceActivityLabel(presence)}</span>
     </Link>
   )
 }
@@ -87,18 +87,18 @@ function OnlineMembersStrip({
           : `${onlineCount} online`
 
   return (
-    <div className="enlight-group-online">
-      <div className="enlight-group-online__header">
-        <span className="enlight-group-online__pulse" aria-hidden />
+    <div className="ace-group-online">
+      <div className="ace-group-online__header">
+        <span className="ace-group-online__pulse" aria-hidden />
         <strong>{countLabel}</strong>
-        <span className="enlight-group-online__meta">{members.length} members</span>
+        <span className="ace-group-online__meta">{members.length} members</span>
       </div>
       {loading ? (
-        <p className="enlight-body-text">Loading classmates…</p>
+        <p className="ace-body-text">Loading classmates…</p>
       ) : sorted.length === 0 ? (
-        <p className="enlight-body-text enlight-group-online__empty">No other members yet — invite friends to join.</p>
+        <p className="ace-body-text ace-group-online__empty">No other members yet — invite friends to join.</p>
       ) : (
-        <div className="enlight-group-online__grid">
+        <div className="ace-group-online__grid">
           {sorted.map((m) => (
             <GroupMemberChip
               key={m.id}
@@ -252,23 +252,23 @@ export function GroupHubPanel() {
   }
 
   return (
-    <div className="enlight-group-hub">
+    <div className="ace-group-hub">
       {/* School */}
-      <section className="enlight-group-hub__card enlight-group-hub__card--school">
-        <div className="enlight-group-hub__banner">
-          <span className="enlight-group-hub__icon" aria-hidden>S</span>
+      <section className="ace-group-hub__card ace-group-hub__card--school">
+        <div className="ace-group-hub__banner">
+          <span className="ace-group-hub__icon" aria-hidden>S</span>
           <div>
-            <h2 className="enlight-heading-serif">Your school</h2>
-            <p className="enlight-group-hub__desc">One school per account · see who&apos;s studying now</p>
+            <h2 className="ace-heading-serif">Your school</h2>
+            <p className="ace-group-hub__desc">One school per account · see who&apos;s studying now</p>
           </div>
         </div>
 
         {school ? (
           <>
-            <div className="enlight-group-hub__joined">
+            <div className="ace-group-hub__joined">
               <div>
-                <strong className="enlight-group-hub__joined-name">{school.name}</strong>
-                <p className="enlight-group-hub__joined-meta">
+                <strong className="ace-group-hub__joined-name">{school.name}</strong>
+                <p className="ace-group-hub__joined-meta">
                   {school.memberCount ?? schoolMembers.members.length} students · Lv avg{' '}
                   {schoolMembers.members.length
                     ? Math.round(
@@ -288,43 +288,43 @@ export function GroupHubPanel() {
             />
           </>
         ) : (
-          <div className="enlight-group-hub__join">
+          <div className="ace-group-hub__join">
             {(pendingGroup?.action === 'joinSchool' && pendingGroup.schoolId) && !user && (
-              <div className="enlight-group-pending">School selected — sign in to finish joining.</div>
+              <div className="ace-group-pending">School selected — sign in to finish joining.</div>
             )}
             <input
               type="search"
-              className="enlight-profile-form__input"
+              className="ace-profile-form__input"
               placeholder="Search schools…"
               value={schoolSearch}
               onChange={(e) => setSchoolSearch(e.target.value)}
             />
-            <div className="enlight-school-list enlight-school-list--hub">
+            <div className="ace-school-list ace-school-list--hub">
               {filteredSchools.length === 0 ? (
-                <p className="enlight-body-text">No schools match.</p>
+                <p className="ace-body-text">No schools match.</p>
               ) : (
                 filteredSchools.slice(0, 8).map((s) => (
-                  <div key={s.id} className="enlight-school-row enlight-school-row--hub">
+                  <div key={s.id} className="ace-school-row ace-school-row--hub">
                     <div>
                       <strong>{s.name}</strong>
                       {s.memberCount !== undefined && (
-                        <span className="enlight-school-row__meta">{s.memberCount} members</span>
+                        <span className="ace-school-row__meta">{s.memberCount} members</span>
                       )}
                     </div>
-                    <EnlightButton className="enlight-btn--sm" onClick={() => handleJoinSchool(s.id, s.name)} disabled={busy}>
+                    <EnlightButton className="ace-btn--sm" onClick={() => handleJoinSchool(s.id, s.name)} disabled={busy}>
                       Join
                     </EnlightButton>
                   </div>
                 ))
               )}
             </div>
-            <button type="button" className="enlight-link-btn" onClick={() => setShowRegisterSchool((v) => !v)}>
+            <button type="button" className="ace-link-btn" onClick={() => setShowRegisterSchool((v) => !v)}>
               {showRegisterSchool ? 'Hide register' : "Can't find your school?"}
             </button>
             {showRegisterSchool && (
-              <div className="enlight-profile-form">
+              <div className="ace-profile-form">
                 <input
-                  className="enlight-profile-form__input"
+                  className="ace-profile-form__input"
                   placeholder="School name"
                   value={registerSchoolName}
                   onChange={(e) => setRegisterSchoolName(e.target.value)}
@@ -351,30 +351,30 @@ export function GroupHubPanel() {
               </div>
             )}
             {!isConfigured && (
-              <p className="enlight-body-text">Add Firebase config to .env.local to enable schools.</p>
+              <p className="ace-body-text">Add Firebase config to .env.local to enable schools.</p>
             )}
           </div>
         )}
       </section>
 
       {/* Clans */}
-      <section className="enlight-group-hub__card enlight-group-hub__card--clan">
-        <div className="enlight-group-hub__banner">
-          <span className="enlight-group-hub__icon" aria-hidden>G</span>
+      <section className="ace-group-hub__card ace-group-hub__card--clan">
+        <div className="ace-group-hub__banner">
+          <span className="ace-group-hub__icon" aria-hidden>G</span>
           <div>
-            <h2 className="enlight-heading-serif">Study groups</h2>
-            <p className="enlight-group-hub__desc">Up to {MAX_CLANS} private groups · invite with CLN- codes</p>
+            <h2 className="ace-heading-serif">Study groups</h2>
+            <p className="ace-group-hub__desc">Up to {MAX_CLANS} private groups · invite with CLN- codes</p>
           </div>
         </div>
 
         {clans.length > 0 && (
           <>
-            <div className="enlight-clan-tabs">
+            <div className="ace-clan-tabs">
               {clans.map((clan) => (
                 <button
                   key={clan.id}
                   type="button"
-                  className={`enlight-clan-tabs__btn${clan.id === activeClan?.id ? ' enlight-clan-tabs__btn--active' : ''}`}
+                  className={`ace-clan-tabs__btn${clan.id === activeClan?.id ? ' ace-clan-tabs__btn--active' : ''}`}
                   onClick={() => setActiveClanId(clan.id)}
                 >
                   {clan.name}
@@ -384,11 +384,11 @@ export function GroupHubPanel() {
 
             {activeClan && (
               <>
-                <div className="enlight-group-hub__joined">
+                <div className="ace-group-hub__joined">
                   <div>
-                    <strong className="enlight-group-hub__joined-name">{activeClan.name}</strong>
-                    <p className="enlight-group-hub__joined-meta">
-                      Code <code className="enlight-invite-code">{activeClan.inviteCode}</code>
+                    <strong className="ace-group-hub__joined-name">{activeClan.name}</strong>
+                    <p className="ace-group-hub__joined-meta">
+                      Code <code className="ace-invite-code">{activeClan.inviteCode}</code>
                       {activeClan.memberCount !== undefined && ` · ${activeClan.memberCount} members`}
                     </p>
                   </div>
@@ -403,11 +403,11 @@ export function GroupHubPanel() {
               </>
             )}
 
-            <div className="enlight-clan-list enlight-clan-list--compact">
+            <div className="ace-clan-list ace-clan-list--compact">
               {clans.map((clan) => (
-                <div key={clan.id} className="enlight-clan-mini">
+                <div key={clan.id} className="ace-clan-mini">
                   <span>{clan.name}</span>
-                  <code className="enlight-invite-code">{clan.inviteCode}</code>
+                  <code className="ace-invite-code">{clan.inviteCode}</code>
                 </div>
               ))}
             </div>
@@ -415,30 +415,30 @@ export function GroupHubPanel() {
         )}
 
         {clans.length < MAX_CLANS && (
-          <div className="enlight-group-hub__join">
+          <div className="ace-group-hub__join">
             {(pendingGroup || localInviteCode) && !user && (
-              <div className="enlight-group-pending">Pending group — sign in to finish.</div>
+              <div className="ace-group-pending">Pending group — sign in to finish.</div>
             )}
-            <div className="enlight-lb-segment enlight-lb-segment--compact">
+            <div className="ace-lb-segment ace-lb-segment--compact">
               <button
                 type="button"
-                className={`enlight-lb-segment__btn${clanMode === 'join' ? ' enlight-lb-segment__btn--active' : ''}`}
+                className={`ace-lb-segment__btn${clanMode === 'join' ? ' ace-lb-segment__btn--active' : ''}`}
                 onClick={() => setClanMode('join')}
               >
                 Join
               </button>
               <button
                 type="button"
-                className={`enlight-lb-segment__btn${clanMode === 'create' ? ' enlight-lb-segment__btn--active' : ''}`}
+                className={`ace-lb-segment__btn${clanMode === 'create' ? ' ace-lb-segment__btn--active' : ''}`}
                 onClick={() => setClanMode('create')}
               >
                 Create
               </button>
             </div>
             {clanMode === 'join' ? (
-              <div className="enlight-profile-form">
+              <div className="ace-profile-form">
                 <input
-                  className="enlight-profile-form__input"
+                  className="ace-profile-form__input"
                   placeholder="CLN-ABC123"
                   value={joinCode}
                   onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
@@ -446,9 +446,9 @@ export function GroupHubPanel() {
                 <EnlightButton onClick={handleJoinClan} disabled={busy}>Join group</EnlightButton>
               </div>
             ) : (
-              <div className="enlight-profile-form">
+              <div className="ace-profile-form">
                 <input
-                  className="enlight-profile-form__input"
+                  className="ace-profile-form__input"
                   placeholder="Group name"
                   value={clanName}
                   maxLength={64}
@@ -462,7 +462,7 @@ export function GroupHubPanel() {
       </section>
 
       {(message || syncError) && (
-        <p className={`enlight-group-message${syncError ? ' enlight-group-message--error' : ''}`}>
+        <p className={`ace-group-message${syncError ? ' ace-group-message--error' : ''}`}>
           {syncError ?? message}
         </p>
       )}

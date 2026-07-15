@@ -69,9 +69,9 @@ export function LinearLawExplorer() {
   )
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Non-Linear to Linear Transition Tool</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 16 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Non-Linear to Linear Transition Tool</h2>
+      <p className="ace-body-text" style={{ marginBottom: 16 }}>
         <MathText content="Drag the data points on the exponential curve. The linearised plot $\ln y$ vs $x$ updates instantly — read off gradient $\ln b$ and intercept $\ln A$." />
       </p>
 
@@ -82,7 +82,7 @@ export function LinearLawExplorer() {
           </div>
           <svg
             viewBox={`0 0 ${W} ${H}`}
-            className="enlight-graph-canvas"
+            className="ace-graph-canvas"
             role="img"
             aria-label="Exponential curve with data points"
             onPointerMove={(e) => handlePointerMove(e.clientY, e.currentTarget)}
@@ -117,7 +117,7 @@ export function LinearLawExplorer() {
           <div style={{ fontSize: '0.78rem', fontWeight: 700, marginBottom: 6, color: '#78716c' }}>
             <MathText content="$\ln y$ vs $x$" />
           </div>
-          <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Linearised plot">
+          <svg viewBox={`0 0 ${W} ${H}`} className="ace-graph-canvas" role="img" aria-label="Linearised plot">
             <line x1={0} y1={toSvgY(0, LN_Y_MIN, LN_Y_MAX)} x2={W} y2={toSvgY(0, LN_Y_MIN, LN_Y_MAX)} stroke={GRAPH.axis} strokeWidth={1} />
             <polyline points={lnPoints} fill="none" stroke="#059669" strokeWidth={2.5} />
             {points.map((p) => {
@@ -138,11 +138,11 @@ export function LinearLawExplorer() {
         </div>
       </div>
 
-      <div className="enlight-discriminant-display" style={{ marginTop: 14 }}>
-        <div className="enlight-discriminant-display__value">
+      <div className="ace-discriminant-display" style={{ marginTop: 14 }}>
+        <div className="ace-discriminant-display__value">
           <MathText content={`$A \\approx ${A.toFixed(2)}$, $b \\approx ${b.toFixed(2)}$`} />
         </div>
-        <div className="enlight-discriminant-display__label">
+        <div className="ace-discriminant-display__label">
           <MathText content={`Gradient $= \\ln b \\approx ${Math.log(b).toFixed(3)}$ · Intercept $= \\ln A \\approx ${Math.log(A).toFixed(3)}$`} />
         </div>
       </div>

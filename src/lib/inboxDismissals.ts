@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'enlight-inbox-dismissed'
+const STORAGE_KEY = 'ace-inbox-dismissed'
 
 export function getDismissedInboxIds(): Set<string> {
   try {

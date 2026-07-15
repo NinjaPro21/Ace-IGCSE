@@ -33,7 +33,7 @@ Geiger and Marsden directed $\alpha$-particles at thin gold foil in a vacuum.
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Atomic structure">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Atomic structure">
       <circle cx="140" cy="100" r="70" fill="none" stroke="#cbd5e1" stroke-dasharray="4 3"/>
       <circle cx="140" cy="100" r="45" fill="none" stroke="#cbd5e1" stroke-dasharray="4 3"/>
       <circle cx="140" cy="100" r="18" fill="#fecaca" stroke="#dc2626"/>
@@ -41,7 +41,7 @@ Geiger and Marsden directed $\alpha$-particles at thin gold foil in a vacuum.
       <circle cx="200" cy="80" r="5" fill="#2563eb"/><circle cx="85" cy="120" r="5" fill="#2563eb"/>
       <circle cx="175" cy="155" r="5" fill="#2563eb"/>
       <text x="140" y="185" text-anchor="middle" font-size="10" fill="#64748b">electrons in shells</text>
-    </svg><p class="enlight-physics-diagram__caption">Atom — nucleus (protons + neutrons) at centre; electrons in shells around it.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Atom — nucleus (protons + neutrons) at centre; electrons in shells around it.</p></div>
 
 ## Quick check
 

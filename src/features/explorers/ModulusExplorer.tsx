@@ -55,33 +55,33 @@ function GraphReflectorPanel() {
 
   return (
     <>
-      <div className="enlight-modulus-sliders">
-        <div className="enlight-modulus-slider enlight-modulus-slider--a">
+      <div className="ace-modulus-sliders">
+        <div className="ace-modulus-slider ace-modulus-slider--a">
           <label htmlFor="mod-a">
-            <strong>a</strong> = {a} <span className="enlight-modulus-slider__hint">(neg = flip)</span>
+            <strong>a</strong> = {a} <span className="ace-modulus-slider__hint">(neg = flip)</span>
           </label>
           <input id="mod-a" type="range" min={-2} max={2} step={0.25} value={a} onChange={(e) => setA(Number(e.target.value))} />
         </div>
-        <div className="enlight-modulus-slider enlight-modulus-slider--b">
+        <div className="ace-modulus-slider ace-modulus-slider--b">
           <label htmlFor="mod-b">
-            <strong>b</strong> = {b} <span className="enlight-modulus-slider__hint">(h. shift)</span>
+            <strong>b</strong> = {b} <span className="ace-modulus-slider__hint">(h. shift)</span>
           </label>
           <input id="mod-b" type="range" min={-4} max={4} step={0.5} value={b} onChange={(e) => setB(Number(e.target.value))} />
         </div>
-        <div className="enlight-modulus-slider enlight-modulus-slider--c">
+        <div className="ace-modulus-slider ace-modulus-slider--c">
           <label htmlFor="mod-c">
-            <strong>c</strong> = {c} <span className="enlight-modulus-slider__hint">(v. shift)</span>
+            <strong>c</strong> = {c} <span className="ace-modulus-slider__hint">(v. shift)</span>
           </label>
           <input id="mod-c" type="range" min={-3} max={3} step={0.5} value={c} onChange={(e) => setC(Number(e.target.value))} />
         </div>
       </div>
 
-      <div className="enlight-modulus-equations">
-        <div className="enlight-modulus-equation enlight-modulus-equation--after">{formatEquation(a, b, c)}</div>
-        <div className="enlight-modulus-equation enlight-modulus-equation--before">{formatLinearEquation(a, b, c)} (before)</div>
+      <div className="ace-modulus-equations">
+        <div className="ace-modulus-equation ace-modulus-equation--after">{formatEquation(a, b, c)}</div>
+        <div className="ace-modulus-equation ace-modulus-equation--before">{formatLinearEquation(a, b, c)} (before)</div>
       </div>
 
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Modulus V graph">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Modulus V graph">
         <GraphAxes mapper={MAPPER} />
         {hasFold && (
           <polyline points={linearPath} fill="none" stroke="#60a5fa" strokeWidth={2} strokeDasharray="6 5" strokeLinecap="round" opacity={0.75} />
@@ -105,22 +105,22 @@ function FxGxPanel() {
   const linePath = useMemo(() => buildPath((x) => c * x + d), [c, d])
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 12 }}>{formatModulusVsLine(a, b, c, d)}</p>
+        <p className="ace-body-text" style={{ marginBottom: 12 }}>{formatModulusVsLine(a, b, c, d)}</p>
         {[
           { id: 'fa', label: 'a', value: a, set: setA, min: -2, max: 2, step: 0.5 },
           { id: 'fb', label: 'b', value: b, set: setB, min: -3, max: 3, step: 0.5 },
           { id: 'fc', label: 'c', value: c, set: setC, min: -2, max: 2, step: 0.5 },
           { id: 'fd', label: 'd', value: d, set: setD, min: -3, max: 3, step: 0.5 },
         ].map(({ id, label, value, set, min, max, step }) => (
-          <div className="enlight-slider-group" key={id}>
+          <div className="ace-slider-group" key={id}>
             <label htmlFor={id}><strong>{label}</strong> = {value}</label>
             <input id={id} type="range" min={min} max={max} step={step} value={value} onChange={(e) => set(Number(e.target.value))} />
           </div>
         ))}
       </div>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Modulus vs line">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Modulus vs line">
         <GraphAxes mapper={MAPPER} />
         <polyline points={modPath} fill="none" stroke="#d97706" strokeWidth={2.5} />
         <polyline points={linePath} fill="none" stroke="#5b8def" strokeWidth={2.5} />
@@ -135,17 +135,17 @@ function InequalityPanel() {
 
   return (
     <div>
-      <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+      <p className="ace-body-text" style={{ marginBottom: 12 }}>
         Shaded regions show where |x| {mode === 'lt' ? '<' : '>'} {k}.
       </p>
-      <div className="enlight-fn-tabs" style={{ marginBottom: 12 }}>
+      <div className="ace-fn-tabs" style={{ marginBottom: 12 }}>
         {(['lt', 'gt'] as const).map((m) => (
-          <button key={m} type="button" className={`enlight-fn-tabs__btn${mode === m ? ' enlight-fn-tabs__btn--active' : ''}`} onClick={() => setMode(m)}>
+          <button key={m} type="button" className={`ace-fn-tabs__btn${mode === m ? ' ace-fn-tabs__btn--active' : ''}`} onClick={() => setMode(m)}>
             |x| {m === 'lt' ? '<' : '>'} k
           </button>
         ))}
       </div>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="mk"><strong>k</strong> = {k}</label>
         <input id="mk" type="range" min={0.5} max={4} step={0.5} value={k} onChange={(e) => setK(Number(e.target.value))} />
       </div>
@@ -204,12 +204,12 @@ export function ModulusExplorer({ panels }: { panels?: ModulusPanel[] }) {
   const current = active.includes(tab) ? tab : active[0]
 
   return (
-    <section className="enlight-explorer" id="modulus-explorer">
-      <h2 className="enlight-explorer__title">{PANEL_TITLES[current]}</h2>
+    <section className="ace-explorer" id="modulus-explorer">
+      <h2 className="ace-explorer__title">{PANEL_TITLES[current]}</h2>
       {active.length > 1 && (
-        <div className="enlight-fn-tabs" style={{ marginBottom: 16 }}>
+        <div className="ace-fn-tabs" style={{ marginBottom: 16 }}>
           {active.map((id) => (
-            <button key={id} type="button" className={`enlight-fn-tabs__btn${current === id ? ' enlight-fn-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
+            <button key={id} type="button" className={`ace-fn-tabs__btn${current === id ? ' ace-fn-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
               {PANEL_TITLES[id]}
             </button>
           ))}
@@ -217,7 +217,7 @@ export function ModulusExplorer({ panels }: { panels?: ModulusPanel[] }) {
       )}
       {current === 'graph' && (
         <>
-          <p className="enlight-body-text" style={{ marginBottom: 20 }}>
+          <p className="ace-body-text" style={{ marginBottom: 20 }}>
             Explore <strong>y = a|x + b| + c</strong>. The dashed line shows the linear graph before the modulus fold.
           </p>
           <GraphReflectorPanel />

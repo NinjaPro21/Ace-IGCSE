@@ -114,14 +114,14 @@ export function CelebrationProvider({ children }: { children: ReactNode }) {
     <CelebrationContext.Provider value={{ show }}>
       {children}
       {current && (
-        <div className="enlight-celebration" role="status" aria-live="polite">
-          <div className="enlight-celebration__card">
-            <span className="enlight-celebration__icon">{current.icon}</span>
+        <div className="ace-celebration" role="status" aria-live="polite">
+          <div className="ace-celebration__card">
+            <span className="ace-celebration__icon">{current.icon}</span>
             <div>
-              <div className="enlight-celebration__title">{current.title}</div>
-              <div className="enlight-celebration__msg">{current.message}</div>
+              <div className="ace-celebration__title">{current.title}</div>
+              <div className="ace-celebration__msg">{current.message}</div>
             </div>
-            <button type="button" className="enlight-celebration__close" onClick={dismiss} aria-label="Dismiss">
+            <button type="button" className="ace-celebration__close" onClick={dismiss} aria-label="Dismiss">
               ×
             </button>
           </div>

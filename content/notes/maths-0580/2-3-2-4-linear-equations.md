@@ -12,7 +12,7 @@ Linear equations are mathematical statements where an unknown variable has a max
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 160" width="320" height="160" role="img" aria-label="Balance model for equations">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 160" width="320" height="160" role="img" aria-label="Balance model for equations">
       <polygon points="160,115 142,140 178,140" fill="#a8a29e"/>
       <line x1="40" y1="70" x2="280" y2="70" stroke="#a8a29e" stroke-width="4" stroke-linecap="round"/>
       <line x1="100" y1="70" x2="100" y2="95" stroke="#a8a29e" stroke-width="2"/>
@@ -22,7 +22,7 @@ Linear equations are mathematical statements where an unknown variable has a max
       <rect x="185" y="95" width="70" height="28" rx="4" fill="#fdfbf7" stroke="#b59a73" stroke-width="2"/>
       <text x="220" y="113" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="600">11</text>
       <text x="160" y="58" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">=</text>
-    </svg><p class="enlight-physics-diagram__caption">Linear equations — keep the balance: do the same operation to both sides.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Linear equations — keep the balance: do the same operation to both sides.</p></div>
 
 ## Steps / method
 

@@ -31,7 +31,7 @@ Mechanical or electrical work done is equal to the energy transferred.
 - If the object does not move ($s = 0$), no work is done — even if a large force is applied.
 - Work transfers energy from one store to another (e.g. chemical → kinetic).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Work done by a force">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Work done by a force">
       <rect x="60" y="80" width="80" height="50" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
       <text x="100" y="110" text-anchor="middle" font-size="11" fill="#1e3a8a">box</text>
       <line x1="30" y1="105" x2="55" y2="105" stroke="#dc2626" stroke-width="3" marker-end="url(#wf)"/>
@@ -43,7 +43,7 @@ Mechanical or electrical work done is equal to the energy transferred.
         <marker id="wf" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
         <marker id="ws" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Work done — a constant force $F$ moves an object distance $s$ in the direction of the force; $W = Fs$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Work done — a constant force $F$ moves an object distance $s$ in the direction of the force; $W = Fs$.</p></div>
 
 **Force at an angle to motion**
 

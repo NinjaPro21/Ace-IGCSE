@@ -11,35 +11,35 @@ interface ChapterQuizPopoutProps {
 export function ChapterQuizPopout({ chapter, onDismiss, onReviewTopics }: ChapterQuizPopoutProps) {
   return (
     <div
-      className="enlight-popout-overlay"
+      className="ace-popout-overlay"
       role="dialog"
       aria-modal="true"
       aria-labelledby="chapter-popout-title"
       onClick={(e) => { if (e.target === e.currentTarget) onDismiss() }}
     >
-      <div className="enlight-popout enlight-popout--card">
+      <div className="ace-popout ace-popout--card">
         {/* Confetti + badge row */}
-        <div className="enlight-popout__hero">
-          <span className="enlight-popout__confetti" aria-hidden>🎉</span>
-          <span className="enlight-popout__badge enlight-badge enlight-badge--gold">
+        <div className="ace-popout__hero">
+          <span className="ace-popout__confetti" aria-hidden>🎉</span>
+          <span className="ace-popout__badge ace-badge ace-badge--gold">
             Chapter {chapter.number} complete
           </span>
           <QuizScopeBadge scope="chapter" />
         </div>
 
-        <h2 id="chapter-popout-title" className="enlight-heading-serif enlight-popout__title">
+        <h2 id="chapter-popout-title" className="ace-heading-serif ace-popout__title">
           Ready to test yourself?
         </h2>
-        <p className="enlight-body-text enlight-popout__text">
+        <p className="ace-body-text ace-popout__text">
           You&apos;ve studied every topic in{' '}
           <strong>{chapter.title}</strong>. Tackle the chapter quiz to confirm your understanding
           — then revisit any weak spots.
         </p>
 
         {/* Divider */}
-        <hr className="enlight-popout__divider" />
+        <hr className="ace-popout__divider" />
 
-        <div className="enlight-popout__actions">
+        <div className="ace-popout__actions">
           <EnlightButton to={`/quiz/${chapter.id}/easy`} onClick={onDismiss}>
             Start chapter quiz (Easy) →
           </EnlightButton>
@@ -50,7 +50,7 @@ export function ChapterQuizPopout({ chapter, onDismiss, onReviewTopics }: Chapte
 
         <button
           type="button"
-          className="enlight-popout__close"
+          className="ace-popout__close"
           onClick={onDismiss}
           aria-label="Dismiss"
         >

@@ -31,7 +31,7 @@ Electric fields are shown using field lines with arrowheads indicating the force
 
 **Positive point charge**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Electric field around a positive point charge">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Electric field around a positive point charge">
       <defs><marker id="ef-pos-sn" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker></defs>
       <circle cx="140" cy="100" r="12" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
       <text x="140" y="104" text-anchor="middle" font-size="11" fill="#991b1b" font-weight="600">+</text>
@@ -44,11 +44,11 @@ Electric fields are shown using field lines with arrowheads indicating the force
       <line x1="140" y1="100" x2="78" y2="162" stroke="#dc2626" stroke-width="1.5" marker-end="url(#ef-pos-sn)"/>
       <line x1="140" y1="100" x2="202" y2="162" stroke="#dc2626" stroke-width="1.5" marker-end="url(#ef-pos-sn)"/>
       <text x="140" y="192" text-anchor="middle" font-size="10" fill="#64748b">lines point away from + charge</text>
-    </svg><p class="enlight-physics-diagram__caption">Positive point charge — field lines radiate outward.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Positive point charge — field lines radiate outward.</p></div>
 
 **Parallel plates (uniform field)**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Uniform electric field between parallel plates">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Uniform electric field between parallel plates">
       <defs><marker id="ef-plate-sn" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
       <rect x="60" y="30" width="8" height="120" fill="#fecaca" stroke="#dc2626"/>
       <text x="44" y="92" text-anchor="end" font-size="11" fill="#991b1b" font-weight="600">+</text>
@@ -59,7 +59,7 @@ Electric fields are shown using field lines with arrowheads indicating the force
       <line x1="90" y1="105" x2="230" y2="105" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ef-plate-sn)"/>
       <line x1="90" y1="130" x2="230" y2="130" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ef-plate-sn)"/>
       <text x="160" y="168" text-anchor="middle" font-size="10" fill="#64748b">uniform field between plates</text>
-    </svg><p class="enlight-physics-diagram__caption">Parallel plates — field lines are parallel and equally spaced between oppositely charged plates.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Parallel plates — field lines are parallel and equally spaced between oppositely charged plates.</p></div>
 
 ## Steps / method
 

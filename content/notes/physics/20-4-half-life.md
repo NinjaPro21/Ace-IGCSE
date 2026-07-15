@@ -46,7 +46,7 @@ $$
 - **Interpretation**: To find half-life from a graph, pick a starting value on the y-axis (e.g., 800 counts/s), find its half (400 counts/s), and measure the time interval on the x-axis between these two points.
 - **Background Plateau**: If background radiation is not subtracted, the curve will level off at a constant value (the background rate) rather than approaching the x-axis.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Half life decay curve">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Half life decay curve">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -56,7 +56,7 @@ $$
       <line x1="55" y1="110" x2="140" y2="110" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <text x="140" y="210" text-anchor="middle" font-size="10" fill="#64748b">1 half-life</text>
       <text x="70" y="105" font-size="10" fill="#64748b">½</text>
-    </svg><p class="enlight-physics-diagram__caption">Radioactive decay — activity (or count rate) halves every half-life; curve never reaches zero.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Radioactive decay — activity (or count rate) halves every half-life; curve never reaches zero.</p></div>
 
 ## Steps / method
 

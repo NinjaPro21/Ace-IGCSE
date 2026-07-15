@@ -59,20 +59,20 @@ export function LogLawsExplorer() {
   const resultLine = `${fmt(active.lhs)} = ${fmt(active.rhs)}`
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Log Laws Explorer</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Log Laws Explorer</h2>
+      <p className="ace-body-text" style={{ marginBottom: 14 }}>
         Pick a law and adjust the values — the left and right sides stay equal when the base is the same.
       </p>
 
-      <div className="enlight-fn-tabs" role="tablist" aria-label="Log law">
+      <div className="ace-fn-tabs" role="tablist" aria-label="Log law">
         {(['product', 'quotient', 'power'] as const).map((id) => (
           <button
             key={id}
             type="button"
             role="tab"
             aria-selected={tab === id}
-            className={`enlight-fn-tabs__btn${tab === id ? ' enlight-fn-tabs__btn--active' : ''}`}
+            className={`ace-fn-tabs__btn${tab === id ? ' ace-fn-tabs__btn--active' : ''}`}
             onClick={() => setTab(id)}
           >
             {id === 'product' ? 'Product' : id === 'quotient' ? 'Quotient' : 'Power'}
@@ -80,7 +80,7 @@ export function LogLawsExplorer() {
         ))}
       </div>
 
-      <div className="enlight-slider-group" style={{ marginTop: 16 }}>
+      <div className="ace-slider-group" style={{ marginTop: 16 }}>
         <label htmlFor="ll-base">
           <strong>Base a</strong> = {base}
         </label>
@@ -95,7 +95,7 @@ export function LogLawsExplorer() {
         />
       </div>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="ll-x">
           <strong>x</strong> = {x}
         </label>
@@ -111,7 +111,7 @@ export function LogLawsExplorer() {
       </div>
 
       {tab !== 'power' && (
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="ll-y">
             <strong>y</strong> = {y}
           </label>
@@ -128,7 +128,7 @@ export function LogLawsExplorer() {
       )}
 
       {tab === 'power' && (
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="ll-k">
             <strong>k</strong> = {k}
           </label>
@@ -144,9 +144,9 @@ export function LogLawsExplorer() {
         </div>
       )}
 
-      <div className="enlight-discriminant-display" style={{ marginTop: 16 }}>
-        <div className="enlight-discriminant-display__label">{lawLabel}</div>
-        <div className="enlight-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
+      <div className="ace-discriminant-display" style={{ marginTop: 16 }}>
+        <div className="ace-discriminant-display__label">{lawLabel}</div>
+        <div className="ace-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
           <MathText content={equation} block />
         </div>
         <div style={{ marginTop: 10, fontSize: '0.88rem' }}>

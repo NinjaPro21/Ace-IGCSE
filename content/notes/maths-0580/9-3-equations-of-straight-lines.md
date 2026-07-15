@@ -16,7 +16,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="Parallel and perpendicular lines">
+<div class="ace-physics-diagram"><svg viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="Parallel and perpendicular lines">
       <text x="160" y="22" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="600">Parallel (same m)</text>
       <line x1="20" y1="190" x2="300" y2="190" stroke="#a8a29e"/>
       <line x1="20" y1="190" x2="20" y2="40" stroke="#a8a29e"/>
@@ -28,7 +28,7 @@ $$
       <line x1="360" y1="170" x2="580" y2="90" stroke="#5b8def" stroke-width="2"/>
       <line x1="360" y1="90" x2="580" y2="170" stroke="#789671" stroke-width="2"/>
       <rect x="368" y="162" width="12" height="12" fill="none" stroke="#b59a73"/>
-    </svg><p class="enlight-physics-diagram__caption">Parallel lines share the same gradient; perpendicular lines have gradients that multiply to $-1$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Parallel lines share the same gradient; perpendicular lines have gradients that multiply to $-1$.</p></div>
 
 ## Steps / method
 

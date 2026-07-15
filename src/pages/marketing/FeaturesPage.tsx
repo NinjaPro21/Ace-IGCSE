@@ -35,19 +35,19 @@ const FEATURES = [
 
 export function FeaturesPage() {
   return (
-    <div className="enlight-container enlight-page-padding enlight-marketing-page">
+    <div className="ace-container ace-page-padding ace-marketing-page">
       <EnlightSectionLabel>Features</EnlightSectionLabel>
-      <h1 className="enlight-heading-serif">Built for real revision</h1>
-      <p className="enlight-body-text enlight-marketing-page__lead">
+      <h1 className="ace-heading-serif">Built for real revision</h1>
+      <p className="ace-body-text ace-marketing-page__lead">
         Every feature is designed around how IGCSE students actually study — not how publishers think
         they should.
       </p>
-      <div className="enlight-feature-grid" style={{ marginTop: 32 }}>
+      <div className="ace-feature-grid" style={{ marginTop: 32 }}>
         {FEATURES.map((f) => (
           <EnlightCard key={f.title}>
-            <div className="enlight-feature-card__icon">{f.icon}</div>
-            <h3 className="enlight-feature-card__title">{f.title}</h3>
-            <p className="enlight-body-text">{f.body}</p>
+            <div className="ace-feature-card__icon">{f.icon}</div>
+            <h3 className="ace-feature-card__title">{f.title}</h3>
+            <p className="ace-body-text">{f.body}</p>
           </EnlightCard>
         ))}
       </div>

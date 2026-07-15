@@ -14,7 +14,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 220" width="360" height="220" role="img" aria-label="Grouped frequency bars with midpoints">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 220" width="360" height="220" role="img" aria-label="Grouped frequency bars with midpoints">
       <line x1="50" y1="170" x2="330" y2="170" stroke="#a8a29e"/>
       <line x1="50" y1="170" x2="50" y2="30" stroke="#a8a29e"/>
       <text x="20" y="105" transform="rotate(-90 20 105)" text-anchor="middle" font-size="10" fill="#6b6b6b">frequency f</text>
@@ -38,7 +38,7 @@ $$
       <text x="100" y="202" text-anchor="middle" font-size="9" fill="#b59a73" font-weight="600">mid x = 5</text>
       <text x="180" y="202" text-anchor="middle" font-size="9" fill="#b59a73" font-weight="600">mid x = 20</text>
       <text x="260" y="202" text-anchor="middle" font-size="9" fill="#b59a73" font-weight="600">mid x = 40</text>
-    </svg><p class="enlight-physics-diagram__caption">Grouped data — use each class midpoint $x$ (not the width). Mean $= \sum(f \times x) \div \sum f$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Grouped data — use each class midpoint $x$ (not the width). Mean $= \sum(f \times x) \div \sum f$.</p></div>
 
 ## Steps / method
 

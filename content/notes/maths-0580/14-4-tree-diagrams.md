@@ -14,7 +14,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Probability tree">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Probability tree">
       <circle cx="40" cy="90" r="6" fill="#a8a29e"/>
       <line x1="46" y1="70" x2="120" y2="50" stroke="#a8a29e"/>
       <line x1="46" y1="110" x2="120" y2="130" stroke="#a8a29e"/>
@@ -23,7 +23,7 @@ $$
       <line x1="126" y1="50" x2="200" y2="35" stroke="#a8a29e"/>
       <line x1="126" y1="50" x2="200" y2="65" stroke="#a8a29e"/>
       <text x="210" y="40" font-size="8" fill="#a8a29e">multiply</text>
-    </svg><p class="enlight-physics-diagram__caption">Tree diagram — multiply along a branch; add probabilities of separate paths.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Tree diagram — multiply along a branch; add probabilities of separate paths.</p></div>
 
 ## Steps / method
 

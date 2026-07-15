@@ -43,7 +43,7 @@ let subjectStatsCache: SubjectStats[] | null = null
 
 function noteHasDiagrams(topic: TopicMeta): boolean {
   const text = getNotesForTopic(topic)
-  return text.includes('## Graphs & diagrams') || text.includes('enlight-physics-diagram')
+  return text.includes('## Graphs & diagrams') || text.includes('ace-physics-diagram')
 }
 
 /** Inline diagrams in the note, or a wired interactive explorer at the bottom. */

@@ -6,19 +6,19 @@ export function ProgressLayout() {
   const isHub = pathname === '/dashboard' || pathname === '/dashboard/'
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
 
-      <div className="enlight-container enlight-page-padding enlight-progress-page">
+      <div className="ace-container ace-page-padding ace-progress-page">
         {!isHub && (
-          <Link to="/dashboard" className="enlight-progress-back">
+          <Link to="/dashboard" className="ace-progress-back">
             ← Dashboard
           </Link>
         )}
         <Outlet />
       </div>
 
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

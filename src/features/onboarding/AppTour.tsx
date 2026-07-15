@@ -229,43 +229,43 @@ export function AppTour() {
   }
 
   return (
-    <div className="enlight-app-tour" role="dialog" aria-modal="true" aria-labelledby="app-tour-title">
+    <div className="ace-app-tour" role="dialog" aria-modal="true" aria-labelledby="app-tour-title">
       {useCenterLayout ? (
-        <div className="enlight-app-tour__backdrop" aria-hidden />
+        <div className="ace-app-tour__backdrop" aria-hidden />
       ) : (
-        spotlightStyle && <div className="enlight-app-tour__spotlight" style={spotlightStyle} aria-hidden />
+        spotlightStyle && <div className="ace-app-tour__spotlight" style={spotlightStyle} aria-hidden />
       )}
 
       <div
-        className={`enlight-app-tour__card${useCenterLayout ? ' enlight-app-tour__card--center' : ''}`}
+        className={`ace-app-tour__card${useCenterLayout ? ' ace-app-tour__card--center' : ''}`}
         style={useCenterLayout ? undefined : tooltipStyle}
       >
-        <div className="enlight-app-tour__progress" aria-hidden>
+        <div className="ace-app-tour__progress" aria-hidden>
           {TOUR_STEPS.map((s, i) => (
             <span
               key={s.id}
               className={[
-                'enlight-app-tour__dot',
-                i === stepIndex ? 'enlight-app-tour__dot--active' : '',
-                i < stepIndex ? 'enlight-app-tour__dot--done' : '',
+                'ace-app-tour__dot',
+                i === stepIndex ? 'ace-app-tour__dot--active' : '',
+                i < stepIndex ? 'ace-app-tour__dot--done' : '',
               ].join(' ')}
             />
           ))}
         </div>
 
-        <p className="enlight-app-tour__step-count">
+        <p className="ace-app-tour__step-count">
           Step {stepIndex + 1} of {TOUR_STEPS.length}
         </p>
-        <h2 id="app-tour-title" className="enlight-heading-serif enlight-app-tour__title">
+        <h2 id="app-tour-title" className="ace-heading-serif ace-app-tour__title">
           {step.title}
         </h2>
-        <p className="enlight-body-text enlight-app-tour__body">{step.body}</p>
+        <p className="ace-body-text ace-app-tour__body">{step.body}</p>
 
-        <div className="enlight-app-tour__actions">
-          <button type="button" className="enlight-link-btn" onClick={finish}>
+        <div className="ace-app-tour__actions">
+          <button type="button" className="ace-link-btn" onClick={finish}>
             Skip tour
           </button>
-          <div className="enlight-app-tour__nav-btns">
+          <div className="ace-app-tour__nav-btns">
             {stepIndex > 0 && (
               <EnlightButton variant="outline" onClick={() => goToStep(stepIndex - 1)}>
                 Back

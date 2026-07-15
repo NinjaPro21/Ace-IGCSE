@@ -246,13 +246,13 @@ function GradientTracerPanel() {
   const ty2 = y + m * (tx2 - x)
 
   return (
-    <div className="enlight-diff-gradient">
-      <p className="enlight-diff-panel__intro">
+    <div className="ace-diff-gradient">
+      <p className="ace-diff-panel__intro">
         Drag <strong>x</strong> along <strong>y = x³ − 3x² + 2</strong>. The tangent slope at each point is{' '}
         <strong>dy/dx = 3x² − 6x</strong> — plotted below.
       </p>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="diff-x">
           <strong>x</strong> = {x.toFixed(1)} &nbsp;·&nbsp; <strong>y</strong> = {y.toFixed(2)} &nbsp;·&nbsp;{' '}
           <strong>dy/dx</strong> = {m.toFixed(2)}
@@ -260,9 +260,9 @@ function GradientTracerPanel() {
         <input id="diff-x" type="range" min={xMin} max={xMax} step={0.05} value={x} onChange={(e) => setX(Number(e.target.value))} />
       </div>
 
-      <div className="enlight-diff-graph-block">
-        <div className="enlight-diff-graph-label">Curve y = f(x)</div>
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Curve with tangent">
+      <div className="ace-diff-graph-block">
+        <div className="ace-diff-graph-label">Curve y = f(x)</div>
+        <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Curve with tangent">
           <GraphGrid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} h={H} xTicks={[-0, 1, 2, 3]} yTicks={[-2, 0, 2, 4]} />
           <polyline points={curvePath} fill="none" stroke="#0891b2" strokeWidth={2.5} strokeLinecap="round" />
           <line
@@ -278,9 +278,9 @@ function GradientTracerPanel() {
         </svg>
       </div>
 
-      <div className="enlight-diff-graph-block">
-        <div className="enlight-diff-graph-label">Gradient function dy/dx</div>
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H_SMALL}`} role="img" aria-label="Derivative graph">
+      <div className="ace-diff-graph-block">
+        <div className="ace-diff-graph-label">Gradient function dy/dx</div>
+        <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H_SMALL}`} role="img" aria-label="Derivative graph">
           <GraphGrid xMin={xMin} xMax={xMax} yMin={-8} yMax={8} h={H_SMALL} xTicks={[0, 1, 2, 3]} yTicks={[-6, 0, 6]} />
           <polyline points={derivPath} fill="none" stroke="#7c3aed" strokeWidth={2.5} strokeLinecap="round" />
           <line
@@ -297,9 +297,9 @@ function GradientTracerPanel() {
         </svg>
       </div>
 
-      <div className="enlight-diff-formula-row">
-        <span className="enlight-diff-formula">f(x) = x³ − 3x² + 2</span>
-        <span className="enlight-diff-formula enlight-diff-formula--deriv">f′(x) = 3x² − 6x</span>
+      <div className="ace-diff-formula-row">
+        <span className="ace-diff-formula">f(x) = x³ − 3x² + 2</span>
+        <span className="ace-diff-formula ace-diff-formula--deriv">f′(x) = 3x² − 6x</span>
       </div>
     </div>
   )
@@ -344,13 +344,13 @@ function TangentNormalPanel() {
   const normalEq = mn !== null ? `y − ${y.toFixed(0)} = ${mn < 0 ? '−' : ''}${Math.abs(mn).toFixed(3)}(x − ${x.toFixed(0)})` : 'undefined (horizontal tangent)'
 
   return (
-    <div className="enlight-diff-tangent">
-      <p className="enlight-diff-panel__intro">
+    <div className="ace-diff-tangent">
+      <p className="ace-diff-panel__intro">
         On <strong>y = x² + 3x</strong>, the tangent gradient is <strong>mₜ = dy/dx = 2x + 3</strong>. The normal is
         perpendicular: <strong>mₙ = −1/mₜ</strong>.
       </p>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="diff-tan-x">
           <strong>x</strong> = {x.toFixed(1)} &nbsp;·&nbsp; point ({x.toFixed(1)}, {y.toFixed(1)}) &nbsp;·&nbsp;{' '}
           <strong>mₜ</strong> = {mt} &nbsp;·&nbsp; <strong>mₙ</strong> = {mn !== null ? mn.toFixed(3) : '—'}
@@ -358,7 +358,7 @@ function TangentNormalPanel() {
         <input id="diff-tan-x" type="range" min={xMin} max={xMax} step={0.1} value={x} onChange={(e) => setX(Number(e.target.value))} />
       </div>
 
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Tangent and normal lines">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Tangent and normal lines">
         <GraphGrid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} h={H} xTicks={[-4, -2, 0, 2]} yTicks={[0, 4, 8, 12]} />
         <polyline points={curvePath} fill="none" stroke="#0891b2" strokeWidth={2.5} strokeLinecap="round" />
         <line
@@ -382,7 +382,7 @@ function TangentNormalPanel() {
           />
         )}
         <circle cx={toSvgX(x, xMin, xMax)} cy={toSvgY(y, yMin, yMax, H)} r={6} fill="#1c1917" stroke="#fff" strokeWidth={2} />
-        <g className="enlight-diff-legend">
+        <g className="ace-diff-legend">
           <line x1={12} y1={14} x2={32} y2={14} stroke="#d97706" strokeWidth={2.5} />
           <text x={38} y={17} fontSize={9} fill="#64748b">
             tangent
@@ -394,14 +394,14 @@ function TangentNormalPanel() {
         </g>
       </svg>
 
-      <div className="enlight-diff-eq-cards">
-        <div className="enlight-diff-eq-card enlight-diff-eq-card--tan">
-          <div className="enlight-diff-eq-card__label">Tangent · mₜ = {mt}</div>
-          <div className="enlight-diff-eq-card__eq">{tangentEq}</div>
+      <div className="ace-diff-eq-cards">
+        <div className="ace-diff-eq-card ace-diff-eq-card--tan">
+          <div className="ace-diff-eq-card__label">Tangent · mₜ = {mt}</div>
+          <div className="ace-diff-eq-card__eq">{tangentEq}</div>
         </div>
-        <div className="enlight-diff-eq-card enlight-diff-eq-card--norm">
-          <div className="enlight-diff-eq-card__label">Normal · mₙ = −1/mₜ</div>
-          <div className="enlight-diff-eq-card__eq">{normalEq}</div>
+        <div className="ace-diff-eq-card ace-diff-eq-card--norm">
+          <div className="ace-diff-eq-card__label">Normal · mₙ = −1/mₜ</div>
+          <div className="ace-diff-eq-card__eq">{normalEq}</div>
         </div>
       </div>
     </div>
@@ -442,13 +442,13 @@ function SmallApproximationPanel() {
   const yApprox = y0 + deltaYApprox
 
   return (
-    <div className="enlight-diff-approx">
-      <p className="enlight-diff-panel__intro">
+    <div className="ace-diff-approx">
+      <p className="ace-diff-panel__intro">
         For a <strong>small</strong> change in x, treat the curve like its tangent:{' '}
         <strong>δy ≈ (dy/dx) × δx</strong>. Example: <strong>y = x³</strong> near x = 2.
       </p>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="diff-dx">
           <strong>δx</strong> = {deltaX.toFixed(2)} &nbsp;·&nbsp; x: {x0} → {xNew.toFixed(2)} &nbsp;·&nbsp;{' '}
           <strong>δy ≈ {deltaYApprox.toFixed(3)}</strong> &nbsp;·&nbsp; exact Δy = {deltaYExact.toFixed(3)}
@@ -464,7 +464,7 @@ function SmallApproximationPanel() {
         />
       </div>
 
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Small increment approximation">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Small increment approximation">
         <GraphGrid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} h={H} xTicks={[1.6, 2, 2.4]} yTicks={[8, 12, 16]} />
         <polyline points={curvePath} fill="none" stroke="#0891b2" strokeWidth={2.5} strokeLinecap="round" />
         <line
@@ -523,26 +523,26 @@ function SmallApproximationPanel() {
         </defs>
       </svg>
 
-      <div className="enlight-diff-calc-flow">
-        <div className="enlight-diff-calc-step">
-          <span className="enlight-diff-calc-step__label">1 · Gradient at x = 2</span>
-          <span className="enlight-diff-calc-step__eq">dy/dx = 3x² = 3(4) = <strong>{gradient}</strong></span>
+      <div className="ace-diff-calc-flow">
+        <div className="ace-diff-calc-step">
+          <span className="ace-diff-calc-step__label">1 · Gradient at x = 2</span>
+          <span className="ace-diff-calc-step__eq">dy/dx = 3x² = 3(4) = <strong>{gradient}</strong></span>
         </div>
-        <div className="enlight-diff-calc-step">
-          <span className="enlight-diff-calc-step__label">2 · Approximate change</span>
-          <span className="enlight-diff-calc-step__eq">
+        <div className="ace-diff-calc-step">
+          <span className="ace-diff-calc-step__label">2 · Approximate change</span>
+          <span className="ace-diff-calc-step__eq">
             δy ≈ {gradient} × {deltaX.toFixed(2)} = <strong>{deltaYApprox.toFixed(3)}</strong>
           </span>
         </div>
-        <div className="enlight-diff-calc-step">
-          <span className="enlight-diff-calc-step__label">3 · Exact change (check)</span>
-          <span className="enlight-diff-calc-step__eq">
+        <div className="ace-diff-calc-step">
+          <span className="ace-diff-calc-step__label">3 · Exact change (check)</span>
+          <span className="ace-diff-calc-step__eq">
             Δy = {xNew.toFixed(2)}³ − 8 = <strong>{deltaYExact.toFixed(3)}</strong>
-            <span className="enlight-diff-calc-step__err"> (error {error.toFixed(3)})</span>
+            <span className="ace-diff-calc-step__err"> (error {error.toFixed(3)})</span>
           </span>
         </div>
       </div>
-      <p className="enlight-diff-panel__note">Smaller δx → better match. Large δx bends away from the tangent.</p>
+      <p className="ace-diff-panel__note">Smaller δx → better match. Large δx bends away from the tangent.</p>
     </div>
   )
 }
@@ -582,16 +582,16 @@ function RateOfChangePanel() {
   const waterR = (r / CONE_R) * 72
 
   return (
-    <div className="enlight-diff-rates">
-      <p className="enlight-diff-panel__intro">
+    <div className="ace-diff-rates">
+      <p className="ace-diff-panel__intro">
         Water fills a cone <strong>tip-down</strong> (height {CONE_H} cm, base radius {CONE_R} cm). The water surface
         forms a smaller similar cone — chain the rates: <strong>dV/dt = (dV/dh) × (dh/dt)</strong>.
       </p>
 
-      <div className="enlight-diff-rates-layout">
-        <div className="enlight-diff-cone-diagram">
-          <div className="enlight-diff-cone-diagram__label">INVERTED CONE (tip at bottom)</div>
-          <svg viewBox={`0 0 ${svgW} ${svgH}`} className="enlight-diff-cone-svg" role="img" aria-label="Inverted cone filling with water">
+      <div className="ace-diff-rates-layout">
+        <div className="ace-diff-cone-diagram">
+          <div className="ace-diff-cone-diagram__label">INVERTED CONE (tip at bottom)</div>
+          <svg viewBox={`0 0 ${svgW} ${svgH}`} className="ace-diff-cone-svg" role="img" aria-label="Inverted cone filling with water">
             {/* Empty cone outline — apex at bottom, base at top */}
             <polygon points={`${cx},${apexY} ${cx - 72},${topY} ${cx + 72},${topY}`} fill="rgba(8,145,178,0.06)" stroke="#0891b2" strokeWidth={2} />
             {/* Water = smaller similar cone from apex up to water line */}
@@ -616,39 +616,39 @@ function RateOfChangePanel() {
           </svg>
         </div>
 
-        <div className="enlight-diff-rates-controls">
-          <div className="enlight-slider-group">
+        <div className="ace-diff-rates-controls">
+          <div className="ace-slider-group">
             <label htmlFor="diff-h">
               Water depth <strong>h</strong> (from tip) = {h.toFixed(1)} cm
             </label>
             <input id="diff-h" type="range" min={0.5} max={5.5} step={0.1} value={h} onChange={(e) => setH(Number(e.target.value))} />
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="diff-dhdt">
               Fill rate <strong>dh/dt</strong> = {dhDt} cm/s
             </label>
             <input id="diff-dhdt" type="range" min={0.5} max={4} step={0.5} value={dhDt} onChange={(e) => setDhDt(Number(e.target.value))} />
           </div>
 
-          <div className="enlight-diff-chain">
-            <div className="enlight-diff-chain__title">Chain rule in action</div>
-            <div className="enlight-diff-chain__row">
-              <span className="enlight-diff-chain__box">dV/dt</span>
-              <span className="enlight-diff-chain__eq">=</span>
-              <span className="enlight-diff-chain__box enlight-diff-chain__box--highlight">dV/dh</span>
-              <span className="enlight-diff-chain__eq">×</span>
-              <span className="enlight-diff-chain__box enlight-diff-chain__box--highlight">dh/dt</span>
+          <div className="ace-diff-chain">
+            <div className="ace-diff-chain__title">Chain rule in action</div>
+            <div className="ace-diff-chain__row">
+              <span className="ace-diff-chain__box">dV/dt</span>
+              <span className="ace-diff-chain__eq">=</span>
+              <span className="ace-diff-chain__box ace-diff-chain__box--highlight">dV/dh</span>
+              <span className="ace-diff-chain__eq">×</span>
+              <span className="ace-diff-chain__box ace-diff-chain__box--highlight">dh/dt</span>
             </div>
-            <div className="enlight-diff-chain__detail">
+            <div className="ace-diff-chain__detail">
               V = ⅓πr²h, &nbsp; r = ({CONE_R}/{CONE_H})h &nbsp;→&nbsp; V = ({CONE_R * CONE_R}/{CONE_H * CONE_H * 3})πh³ = (4π/27)h³
             </div>
-            <div className="enlight-diff-chain__detail">
+            <div className="ace-diff-chain__detail">
               dV/dh = (4π/9)h² = {dVdh.toFixed(2)} cm³/cm
             </div>
-            <div className="enlight-diff-chain__result">
+            <div className="ace-diff-chain__result">
               dV/dt = {dVdh.toFixed(1)} × {dhDt} = <strong>{dVdt.toFixed(1)} cm³/s</strong>
             </div>
-            <div className="enlight-diff-chain__detail">Current volume V = {V.toFixed(1)} cm³</div>
+            <div className="ace-diff-chain__detail">Current volume V = {V.toFixed(1)} cm³</div>
           </div>
         </div>
       </div>
@@ -699,15 +699,15 @@ function MaxAreaExample() {
 
   return (
     <>
-      <p className="enlight-diff-panel__intro">
+      <p className="ace-diff-panel__intro">
         Perimeter <strong>20 cm</strong>, one side <strong>x</strong> → area <strong>A = x(10 − x)</strong>. Find the
         turning point and use <strong>d²A/dx² &lt; 0</strong> to confirm a <strong>maximum</strong>.
       </p>
 
-      <div className="enlight-diff-opt-layout">
-        <div className="enlight-diff-rect-diagram">
-          <div className="enlight-diff-rect-diagram__label">RECTANGLE (perimeter 20)</div>
-          <svg viewBox="0 0 180 180" className="enlight-diff-rect-svg" role="img" aria-label="Rectangle with sides x and 10-x">
+      <div className="ace-diff-opt-layout">
+        <div className="ace-diff-rect-diagram">
+          <div className="ace-diff-rect-diagram__label">RECTANGLE (perimeter 20)</div>
+          <svg viewBox="0 0 180 180" className="ace-diff-rect-svg" role="img" aria-label="Rectangle with sides x and 10-x">
             <rect
               x={(180 - rectW) / 2}
               y={(180 - rectH) / 2}
@@ -730,15 +730,15 @@ function MaxAreaExample() {
           </svg>
         </div>
 
-        <div className="enlight-diff-opt-controls">
-          <div className="enlight-slider-group">
+        <div className="ace-diff-opt-controls">
+          <div className="ace-slider-group">
             <label htmlFor="diff-opt-x">
               Side <strong>x</strong> = {x.toFixed(1)} cm &nbsp;·&nbsp; <strong>A = {A.toFixed(1)} cm²</strong>
             </label>
             <input id="diff-opt-x" type="range" min={1} max={9} step={0.1} value={x} onChange={(e) => setX(Number(e.target.value))} />
           </div>
 
-          <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Area curve with maximum">
+          <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Area curve with maximum">
             <GraphGrid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} h={H} xTicks={[0, 2, 4, 6, 8, 10]} yTicks={[0, 10, 20, 30]} />
             <polyline points={curvePath} fill="none" stroke="#be123c" strokeWidth={2.5} strokeLinecap="round" />
             <circle cx={toSvgX(5, xMin, xMax)} cy={toSvgY(25, yMin, yMax, H)} r={7} fill="#be123c" stroke="#fff" strokeWidth={2} />
@@ -750,22 +750,22 @@ function MaxAreaExample() {
         </div>
       </div>
 
-      <div className="enlight-diff-steps">
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">1</span>
+      <div className="ace-diff-steps">
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">1</span>
           <span>
             dA/dx = 10 − 2x = 0 → <strong>x = 5</strong>
             {Math.abs(dA) < 0.05 ? ' ✓' : ''}
           </span>
         </div>
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">2</span>
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">2</span>
           <span>
-            d²A/dx² = <strong>{d2A}</strong> &lt; 0 → <strong className="enlight-diff-max">maximum</strong>
+            d²A/dx² = <strong>{d2A}</strong> &lt; 0 → <strong className="ace-diff-max">maximum</strong>
           </span>
         </div>
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">3</span>
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">3</span>
           <span>
             Square sides 5 × 5 → max area = <strong>25 cm²</strong>
           </span>
@@ -773,7 +773,7 @@ function MaxAreaExample() {
       </div>
 
       {isMax && (
-        <div className="enlight-diff-opt-banner enlight-diff-opt-banner--max">
+        <div className="ace-diff-opt-banner ace-diff-opt-banner--max">
           At x = 5 both sides equal 5 cm — a <strong>square</strong> gives the maximum area.
         </div>
       )}
@@ -803,7 +803,7 @@ function OpenTopBoxDiagram({ x, h }: { x: number; h: number }) {
   const pt = (p: { x: number; y: number }) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`
 
   return (
-    <svg viewBox="0 0 180 180" className="enlight-diff-rect-svg" role="img" aria-label="Open-top box">
+    <svg viewBox="0 0 180 180" className="ace-diff-rect-svg" role="img" aria-label="Open-top box">
       {/* Interior floor */}
       <polygon points={`${pt(fl)} ${pt(fr)} ${pt(br)} ${pt(bl)}`} fill="rgba(5,150,105,0.08)" stroke="#059669" strokeWidth={1.5} />
       {/* Left wall */}
@@ -851,20 +851,20 @@ function MinSurfaceAreaExample() {
 
   return (
     <>
-      <p className="enlight-diff-panel__intro">
+      <p className="ace-diff-panel__intro">
         An <strong>open-top box</strong> must hold <strong>{FIXED_VOLUME} cm³</strong>. Base is a square of side{' '}
         <strong>x</strong>, height <strong>h = {FIXED_VOLUME}/x²</strong>. Minimize the <strong>surface area</strong>{' '}
         (material used): <strong>S = x² + 4xh</strong>. At the minimum, <strong>x = 2h</strong>.
       </p>
 
-      <div className="enlight-diff-opt-layout">
-        <div className="enlight-diff-rect-diagram">
-          <div className="enlight-diff-rect-diagram__label">OPEN-TOP BOX (V = {FIXED_VOLUME} cm³)</div>
+      <div className="ace-diff-opt-layout">
+        <div className="ace-diff-rect-diagram">
+          <div className="ace-diff-rect-diagram__label">OPEN-TOP BOX (V = {FIXED_VOLUME} cm³)</div>
           <OpenTopBoxDiagram x={x} h={h} />
         </div>
 
-        <div className="enlight-diff-opt-controls">
-          <div className="enlight-slider-group">
+        <div className="ace-diff-opt-controls">
+          <div className="ace-slider-group">
             <label htmlFor="diff-min-box-x">
               Base side <strong>x</strong> = {x.toFixed(1)} cm &nbsp;·&nbsp; h = {h.toFixed(2)} cm &nbsp;·&nbsp;{' '}
               <strong>S = {S.toFixed(1)} cm²</strong>
@@ -872,7 +872,7 @@ function MinSurfaceAreaExample() {
             <input id="diff-min-box-x" type="range" min={2.5} max={7} step={0.1} value={x} onChange={(e) => setX(Number(e.target.value))} />
           </div>
 
-          <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Surface area curve with minimum">
+          <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Surface area curve with minimum">
             <GraphGrid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} h={H} xTicks={[2, 4, 6, 8]} yTicks={[40, 55, 70, 85]} />
             <polyline points={curvePath} fill="none" stroke="#059669" strokeWidth={2.5} strokeLinecap="round" />
             <circle cx={toSvgX(4, xMin, xMax)} cy={toSvgY(48, yMin, yMax, H)} r={7} fill="#059669" stroke="#fff" strokeWidth={2} />
@@ -884,31 +884,31 @@ function MinSurfaceAreaExample() {
         </div>
       </div>
 
-      <div className="enlight-diff-steps">
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">1</span>
+      <div className="ace-diff-steps">
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">1</span>
           <span>
             h = {FIXED_VOLUME}/x² → S = x² + {4 * FIXED_VOLUME}/x
           </span>
         </div>
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">2</span>
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">2</span>
           <span>
             dS/dx = 2x − {4 * FIXED_VOLUME}/x² = 0 → <strong>x = 4</strong>
             {Math.abs(dS) < 0.1 ? ' ✓' : ''}
           </span>
         </div>
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">3</span>
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">3</span>
           <span>
-            d²S/dx² = {d2S.toFixed(1)} &gt; 0 → <strong className="enlight-diff-min">minimum</strong> surface area ={' '}
+            d²S/dx² = {d2S.toFixed(1)} &gt; 0 → <strong className="ace-diff-min">minimum</strong> surface area ={' '}
             <strong>48 cm²</strong> (base 4×4, h = 2)
           </span>
         </div>
       </div>
 
       {isMin && (
-        <div className="enlight-diff-opt-banner enlight-diff-opt-banner--min">
+        <div className="ace-diff-opt-banner ace-diff-opt-banner--min">
           At x = 4: least material needed — base <strong>4 × 4 cm</strong>, height <strong>2 cm</strong>, min area ={' '}
           <strong>48 cm²</strong>.
         </div>
@@ -921,18 +921,18 @@ function OptimizationPanel() {
   const [example, setExample] = useState<OptExample>('max')
 
   return (
-    <div className="enlight-diff-optimization">
-      <div className="enlight-diff-opt-tabs">
+    <div className="ace-diff-optimization">
+      <div className="ace-diff-opt-tabs">
         <button
           type="button"
-          className={`enlight-diff-opt-tabs__btn enlight-diff-opt-tabs__btn--max${example === 'max' ? ' enlight-diff-opt-tabs__btn--active' : ''}`}
+          className={`ace-diff-opt-tabs__btn ace-diff-opt-tabs__btn--max${example === 'max' ? ' ace-diff-opt-tabs__btn--active' : ''}`}
           onClick={() => setExample('max')}
         >
           Maximum area
         </button>
         <button
           type="button"
-          className={`enlight-diff-opt-tabs__btn enlight-diff-opt-tabs__btn--min${example === 'min' ? ' enlight-diff-opt-tabs__btn--active' : ''}`}
+          className={`ace-diff-opt-tabs__btn ace-diff-opt-tabs__btn--min${example === 'min' ? ' ace-diff-opt-tabs__btn--active' : ''}`}
           onClick={() => setExample('min')}
         >
           Minimum surface area
@@ -1045,29 +1045,29 @@ function ChainRulePanel() {
   ]
 
   return (
-    <div className="enlight-diff-rules">
-      <p className="enlight-diff-panel__intro">
+    <div className="ace-diff-rules">
+      <p className="ace-diff-panel__intro">
         Mirror of ∫(ax + b)ⁿ integration — differentiate the outer power, then multiply by the derivative of the inside.
       </p>
-      <div className="enlight-diff-steps">
+      <div className="ace-diff-steps">
         {steps.map((s) => (
-          <div key={s.n} className="enlight-diff-step">
-            <span className="enlight-diff-step__num">{s.n}</span>
+          <div key={s.n} className="ace-diff-step">
+            <span className="ace-diff-step__num">{s.n}</span>
             <span>{s.text}</span>
           </div>
         ))}
       </div>
-      <div className="enlight-guide-calc" style={{ marginTop: 14 }}>
+      <div className="ace-guide-calc" style={{ marginTop: 14 }}>
         <div>d/dx (2x + 1)⁵ = <strong>10(2x + 1)⁴</strong></div>
-        <div className="enlight-guide-calc__note">5(2x + 1)⁴ × 2 — power rule on the outside, ×2 from the inner derivative.</div>
+        <div className="ace-guide-calc__note">5(2x + 1)⁴ × 2 — power rule on the outside, ×2 from the inner derivative.</div>
       </div>
-      <div className="enlight-diff-rules-grid" style={{ marginTop: 14 }}>
-        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#7c3aed' }}>
-          <div className="enlight-diff-rule-card__title" style={{ color: '#7c3aed' }}>
+      <div className="ace-diff-rules-grid" style={{ marginTop: 14 }}>
+        <div className="ace-diff-rule-card" style={{ borderLeftColor: '#7c3aed' }}>
+          <div className="ace-diff-rule-card__title" style={{ color: '#7c3aed' }}>
             Chain rule
           </div>
-          <div className="enlight-diff-rule-card__formula">d/dx [f(x)]ⁿ = n[f(x)]ⁿ⁻¹ · f′(x)</div>
-          <div className="enlight-diff-rule-card__example">d/dx (3x − 2)⁻² = −2(3x − 2)⁻³ × 3</div>
+          <div className="ace-diff-rule-card__formula">d/dx [f(x)]ⁿ = n[f(x)]ⁿ⁻¹ · f′(x)</div>
+          <div className="ace-diff-rule-card__example">d/dx (3x − 2)⁻² = −2(3x − 2)⁻³ × 3</div>
         </div>
       </div>
     </div>
@@ -1096,9 +1096,9 @@ function TrigDerivPanel() {
   const cfg = TRIG_META[kind]
 
   return (
-    <div className="enlight-diff-trans">
-      <p className="enlight-diff-panel__intro">Trigonometric derivatives only — radians throughout. Watch the minus on cos.</p>
-      <div className="enlight-diff-opt-tabs">
+    <div className="ace-diff-trans">
+      <p className="ace-diff-panel__intro">Trigonometric derivatives only — radians throughout. Watch the minus on cos.</p>
+      <div className="ace-diff-opt-tabs">
         {(
           [
             ['sin', 'Sine'],
@@ -1109,24 +1109,24 @@ function TrigDerivPanel() {
           <button
             key={id}
             type="button"
-            className={`enlight-diff-opt-tabs__btn${kind === id ? ' enlight-diff-opt-tabs__btn--active' : ''}`}
+            className={`ace-diff-opt-tabs__btn${kind === id ? ' ace-diff-opt-tabs__btn--active' : ''}`}
             onClick={() => setKind(id)}
           >
             {label}
           </button>
         ))}
       </div>
-      <div className="enlight-diff-rules-grid">
-        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#6366f1' }}>
-          <div className="enlight-diff-rule-card__title" style={{ color: '#6366f1' }}>
+      <div className="ace-diff-rules-grid">
+        <div className="ace-diff-rule-card" style={{ borderLeftColor: '#6366f1' }}>
+          <div className="ace-diff-rule-card__title" style={{ color: '#6366f1' }}>
             {kind === 'sin' ? 'Sine' : kind === 'cos' ? 'Cosine' : 'Tangent'}
           </div>
-          <div className="enlight-diff-rule-card__formula">{cfg.rule}</div>
-          <div className="enlight-diff-rule-card__example">e.g. {cfg.example}</div>
+          <div className="ace-diff-rule-card__formula">{cfg.rule}</div>
+          <div className="ace-diff-rule-card__example">e.g. {cfg.example}</div>
         </div>
       </div>
-      <div className="enlight-guide-calc" style={{ marginTop: 14 }}>
-        <div className="enlight-guide-calc__note">Toggle <strong>With constant $k$</strong> on formula cards above for $k\sin(ax+b)$ forms.</div>
+      <div className="ace-guide-calc" style={{ marginTop: 14 }}>
+        <div className="ace-guide-calc__note">Toggle <strong>With constant $k$</strong> on formula cards above for $k\sin(ax+b)$ forms.</div>
       </div>
     </div>
   )
@@ -1136,17 +1136,17 @@ function FormulaRefPanel({ titles, intro }: { titles: string[]; intro?: string }
   const items = RULES.filter((r) => titles.includes(r.title))
 
   return (
-    <div className="enlight-diff-rules">
-      {intro ? <p className="enlight-diff-panel__intro">{intro}</p> : null}
-      <div className="enlight-diff-rules-grid">
+    <div className="ace-diff-rules">
+      {intro ? <p className="ace-diff-panel__intro">{intro}</p> : null}
+      <div className="ace-diff-rules-grid">
         {items.map((r) => (
-          <div key={r.title} className="enlight-diff-rule-card" style={{ borderLeftColor: r.color }}>
-            <div className="enlight-diff-rule-card__title" style={{ color: r.color }}>
+          <div key={r.title} className="ace-diff-rule-card" style={{ borderLeftColor: r.color }}>
+            <div className="ace-diff-rule-card__title" style={{ color: r.color }}>
               {r.title}
             </div>
-            <div className="enlight-diff-rule-card__formula">{r.formula}</div>
-            {r.note ? <div className="enlight-diff-rule-card__note">{r.note}</div> : null}
-            <div className="enlight-diff-rule-card__example">e.g. {r.example}</div>
+            <div className="ace-diff-rule-card__formula">{r.formula}</div>
+            {r.note ? <div className="ace-diff-rule-card__note">{r.note}</div> : null}
+            <div className="ace-diff-rule-card__example">e.g. {r.example}</div>
           </div>
         ))}
       </div>
@@ -1156,23 +1156,23 @@ function FormulaRefPanel({ titles, intro }: { titles: string[]; intro?: string }
 
 function ApproxFormulaPanel() {
   return (
-    <div className="enlight-diff-rules">
-      <p className="enlight-diff-panel__intro">For a very small change δx, use the gradient at the original point.</p>
-      <div className="enlight-diff-rules-grid">
-        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#0891b2' }}>
-          <div className="enlight-diff-rule-card__title" style={{ color: '#0891b2' }}>
+    <div className="ace-diff-rules">
+      <p className="ace-diff-panel__intro">For a very small change δx, use the gradient at the original point.</p>
+      <div className="ace-diff-rules-grid">
+        <div className="ace-diff-rule-card" style={{ borderLeftColor: '#0891b2' }}>
+          <div className="ace-diff-rule-card__title" style={{ color: '#0891b2' }}>
             Small increments
           </div>
-          <div className="enlight-diff-rule-card__formula">δy ≈ (dy/dx) × δx</div>
-          <div className="enlight-diff-rule-card__note">Approximate value ≈ y_old + δy</div>
-          <div className="enlight-diff-rule-card__example">e.g. if x increases by 0.01, multiply dy/dx by 0.01</div>
+          <div className="ace-diff-rule-card__formula">δy ≈ (dy/dx) × δx</div>
+          <div className="ace-diff-rule-card__note">Approximate value ≈ y_old + δy</div>
+          <div className="ace-diff-rule-card__example">e.g. if x increases by 0.01, multiply dy/dx by 0.01</div>
         </div>
-        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#d97706' }}>
-          <div className="enlight-diff-rule-card__title" style={{ color: '#d97706' }}>
+        <div className="ace-diff-rule-card" style={{ borderLeftColor: '#d97706' }}>
+          <div className="ace-diff-rule-card__title" style={{ color: '#d97706' }}>
             Percentage change
           </div>
-          <div className="enlight-diff-rule-card__formula">If x increases by p%, then δx = (p/100) × x</div>
-          <div className="enlight-diff-rule-card__note">Percentage change in y = (δy/y) × 100</div>
+          <div className="ace-diff-rule-card__formula">If x increases by p%, then δx = (p/100) × x</div>
+          <div className="ace-diff-rule-card__note">Percentage change in y = (δy/y) × 100</div>
         </div>
       </div>
     </div>
@@ -1191,8 +1191,8 @@ function TranscendentalPanel() {
   )
 
   return (
-    <div className="enlight-diff-trans">
-      <div className="enlight-diff-opt-tabs">
+    <div className="ace-diff-trans">
+      <div className="ace-diff-opt-tabs">
         {(
           [
             ['exp', 'Exponential'],
@@ -1203,14 +1203,14 @@ function TranscendentalPanel() {
           <button
             key={id}
             type="button"
-            className={`enlight-diff-opt-tabs__btn${kind === id ? ' enlight-diff-opt-tabs__btn--active' : ''}`}
+            className={`ace-diff-opt-tabs__btn${kind === id ? ' ace-diff-opt-tabs__btn--active' : ''}`}
             onClick={() => setKind(id)}
           >
             {label}
           </button>
         ))}
       </div>
-      <div className="enlight-guide-calc">
+      <div className="ace-guide-calc">
         <div>
           <strong>Rule:</strong> {cfg.rule}
         </div>
@@ -1218,14 +1218,14 @@ function TranscendentalPanel() {
           <strong>Example:</strong> {cfg.example}
         </div>
       </div>
-      <div className="enlight-diff-rules-grid" style={{ marginTop: 14 }}>
+      <div className="ace-diff-rules-grid" style={{ marginTop: 14 }}>
         {transcendentalRules.map((r) => (
-          <div key={r.title} className="enlight-diff-rule-card" style={{ borderLeftColor: r.color }}>
-            <div className="enlight-diff-rule-card__title" style={{ color: r.color }}>
+          <div key={r.title} className="ace-diff-rule-card" style={{ borderLeftColor: r.color }}>
+            <div className="ace-diff-rule-card__title" style={{ color: r.color }}>
               {r.title}
             </div>
-            <div className="enlight-diff-rule-card__formula">{r.formula}</div>
-            <div className="enlight-diff-rule-card__example">e.g. {r.example}</div>
+            <div className="ace-diff-rule-card__formula">{r.formula}</div>
+            <div className="ace-diff-rule-card__example">e.g. {r.example}</div>
           </div>
         ))}
       </div>
@@ -1238,21 +1238,21 @@ function RulesPanel({ filter }: { filter?: 'all' | 'transcendental' }) {
   const items = filter === 'transcendental' ? RULES.filter((r) => transcendentalTitles.has(r.title)) : RULES
 
   return (
-    <div className="enlight-diff-rules">
-      <p className="enlight-diff-panel__intro">
+    <div className="ace-diff-rules">
+      <p className="ace-diff-panel__intro">
         {filter === 'transcendental'
           ? 'Ch.14 transcendental derivative rules — watch the minus sign on cos.'
           : 'Quick reference for Ch.12 basic rules and Ch.14 transcendental derivatives. Rewrite roots and fractions as powers before using the power rule.'}
       </p>
-      <div className="enlight-diff-rules-grid">
+      <div className="ace-diff-rules-grid">
         {items.map((r) => (
-          <div key={r.title} className="enlight-diff-rule-card" style={{ borderLeftColor: r.color }}>
-            <div className="enlight-diff-rule-card__title" style={{ color: r.color }}>
+          <div key={r.title} className="ace-diff-rule-card" style={{ borderLeftColor: r.color }}>
+            <div className="ace-diff-rule-card__title" style={{ color: r.color }}>
               {r.title}
             </div>
-            <div className="enlight-diff-rule-card__formula">{r.formula}</div>
-            <div className="enlight-diff-rule-card__note">{r.note}</div>
-            <div className="enlight-diff-rule-card__example">e.g. {r.example}</div>
+            <div className="ace-diff-rule-card__formula">{r.formula}</div>
+            <div className="ace-diff-rule-card__note">{r.note}</div>
+            <div className="ace-diff-rule-card__example">e.g. {r.example}</div>
           </div>
         ))}
       </div>
@@ -1271,17 +1271,17 @@ export function DifferentiationVisualGuide({ panels }: { panels?: DiffGuidePanel
   const showTabs = activePanels.length > 1
 
   return (
-    <section className="enlight-explorer enlight-diff-guide">
-      <h2 className="enlight-explorer__title">{meta.title}</h2>
-      <p className="enlight-body-text enlight-diff-guide__intro">{meta.intro}</p>
+    <section className="ace-explorer ace-diff-guide">
+      <h2 className="ace-explorer__title">{meta.title}</h2>
+      <p className="ace-body-text ace-diff-guide__intro">{meta.intro}</p>
 
       {showTabs && (
-        <div className="enlight-diff-tabs">
+        <div className="ace-diff-tabs">
           {activePanels.map((id) => (
             <button
               key={id}
               type="button"
-              className={`enlight-diff-tabs__btn${currentTab === id ? ' enlight-diff-tabs__btn--active' : ''}`}
+              className={`ace-diff-tabs__btn${currentTab === id ? ' ace-diff-tabs__btn--active' : ''}`}
               onClick={() => setTab(id)}
             >
               {PANEL_META[id].label}

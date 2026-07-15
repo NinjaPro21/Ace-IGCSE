@@ -10,10 +10,10 @@ export function MetricCard({
   accent?: 'gold' | 'mint' | 'default'
 }) {
   return (
-    <div className={`enlight-metric-card enlight-metric-card--${accent ?? 'default'}`}>
-      <span className="enlight-metric-card__label">{label}</span>
-      <span className="enlight-metric-card__value">{value}</span>
-      {hint && <span className="enlight-metric-card__hint">{hint}</span>}
+    <div className={`ace-metric-card ace-metric-card--${accent ?? 'default'}`}>
+      <span className="ace-metric-card__label">{label}</span>
+      <span className="ace-metric-card__value">{value}</span>
+      {hint && <span className="ace-metric-card__hint">{hint}</span>}
     </div>
   )
 }

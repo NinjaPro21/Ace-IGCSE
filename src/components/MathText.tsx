@@ -12,10 +12,10 @@ const MD_PLUGINS = {
 
 /** Inline mode must not emit block elements (avoids <p> inside <p> hydration crashes). */
 const INLINE_MD_COMPONENTS: Components = {
-  p: ({ children }) => <span className="enlight-math-para">{children}</span>,
-  ul: ({ children }) => <span className="enlight-math-list">{children}</span>,
-  ol: ({ children }) => <span className="enlight-math-list">{children}</span>,
-  li: ({ children }) => <span className="enlight-math-list-item">{children}</span>,
+  p: ({ children }) => <span className="ace-math-para">{children}</span>,
+  ul: ({ children }) => <span className="ace-math-list">{children}</span>,
+  ol: ({ children }) => <span className="ace-math-list">{children}</span>,
+  li: ({ children }) => <span className="ace-math-list-item">{children}</span>,
 }
 
 interface MathTextProps {
@@ -32,7 +32,7 @@ export function MathText({ content, className, block = false, title = false }: M
   const Tag = block ? 'div' : 'span'
 
   return (
-    <Tag className={className ?? (block ? 'enlight-math-block' : 'enlight-math-text')}>
+    <Tag className={className ?? (block ? 'ace-math-block' : 'ace-math-text')}>
       <ReactMarkdown
         remarkPlugins={MD_PLUGINS.remark}
         rehypePlugins={MD_PLUGINS.rehype}

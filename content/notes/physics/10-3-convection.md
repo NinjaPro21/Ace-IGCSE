@@ -36,7 +36,7 @@ Convection is the transfer of thermal energy in fluids (liquids and gases) by th
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Convection current full cycle">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Convection current full cycle">
       <defs><marker id="cvRise" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ef4444"/></marker><marker id="cvSink" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
       <rect x="80" y="35" width="200" height="190" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" rx="4"/>
       <rect x="130" y="205" width="100" height="14" fill="#dc2626" rx="3"/>
@@ -45,9 +45,9 @@ Convection is the transfer of thermal energy in fluids (liquids and gases) by th
       <path d="M110 55 Q95 130 110 200" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#cvSink)"/>
       <path d="M250 55 Q265 130 250 200" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#cvSink)"/>
       <text x="88" y="130" font-size="9" fill="#2563eb">cool air sinks</text>
-    </svg><p class="enlight-physics-diagram__caption">Convection current — warm air rises above the heat source, cools at the top, and sinks down the sides.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Convection current — warm air rises above the heat source, cools at the top, and sinks down the sides.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
       <defs><marker id="cvR2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ef4444"/></marker><marker id="cvS2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
       <text x="115" y="18" text-anchor="middle" font-size="11" font-weight="600">Heater on floor</text>
       <rect x="30" y="30" width="170" height="185" fill="#f8fafc" stroke="#94a3b8"/>
@@ -59,7 +59,7 @@ Convection is the transfer of thermal energy in fluids (liquids and gases) by th
       <rect x="325" y="38" width="80" height="12" fill="#38bdf8" rx="2"/>
       <line x1="365" y1="52" x2="365" y2="190" stroke="#2563eb" stroke-width="3" marker-end="url(#cvS2)"/>
       <line x1="310" y1="190" x2="310" y2="55" stroke="#ef4444" stroke-width="2.5" marker-end="url(#cvR2)"/>
-    </svg><p class="enlight-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
 
 ## Steps / method
 

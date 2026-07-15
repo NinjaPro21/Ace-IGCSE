@@ -43,7 +43,7 @@ We are able to see the world around us because light from objects enters our eye
 
 - Angle $i$ equals angle $r$, both measured from the normal.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Reflection of light">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Reflection of light">
       <line x1="40" y1="120" x2="280" y2="120" stroke="#64748b" stroke-width="2"/>
       <line x1="160" y1="120" x2="160" y2="30" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <line x1="160" y1="120" x2="100" y2="50" stroke="#f59e0b" stroke-width="2.5"/>
@@ -51,7 +51,7 @@ We are able to see the world around us because light from objects enters our eye
       <text x="115" y="75" font-size="11" fill="#f59e0b">i</text>
       <text x="205" y="75" font-size="11" fill="#2563eb">r</text>
       <text x="165" y="25" font-size="10" fill="#64748b">normal</text>
-    </svg><p class="enlight-physics-diagram__caption">Law of reflection — angle of incidence i equals angle of reflection r (measured from the normal).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Law of reflection — angle of incidence i equals angle of reflection r (measured from the normal).</p></div>
 
 ## Worked example — Finding angles
 

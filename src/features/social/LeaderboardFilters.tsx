@@ -34,16 +34,16 @@ export function LeaderboardFilters({
   ]
 
   return (
-    <div className="enlight-lb-toolbar">
+    <div className="ace-lb-toolbar">
       {!hideScope && (
-      <div className="enlight-lb-segment" role="tablist" aria-label="Leaderboard scope">
+      <div className="ace-lb-segment" role="tablist" aria-label="Leaderboard scope">
         {scopes.map((s) => (
           <button
             key={s.id}
             type="button"
             role="tab"
             aria-selected={scope === s.id}
-            className={`enlight-lb-segment__btn${scope === s.id ? ' enlight-lb-segment__btn--active' : ''}`}
+            className={`ace-lb-segment__btn${scope === s.id ? ' ace-lb-segment__btn--active' : ''}`}
             disabled={s.disabled}
             onClick={() => onScopeChange(s.id)}
           >
@@ -53,13 +53,13 @@ export function LeaderboardFilters({
       </div>
       )}
 
-      <div className="enlight-lb-toolbar__controls">
-        <div className="enlight-lb-segment enlight-lb-segment--compact" role="tablist" aria-label="Ranking metric">
+      <div className="ace-lb-toolbar__controls">
+        <div className="ace-lb-segment ace-lb-segment--compact" role="tablist" aria-label="Ranking metric">
           <button
             type="button"
             role="tab"
             aria-selected={metric === 'xp'}
-            className={`enlight-lb-segment__btn${metric === 'xp' ? ' enlight-lb-segment__btn--active' : ''}`}
+            className={`ace-lb-segment__btn${metric === 'xp' ? ' ace-lb-segment__btn--active' : ''}`}
             onClick={() => onMetricChange('xp')}
           >
             XP
@@ -68,7 +68,7 @@ export function LeaderboardFilters({
             type="button"
             role="tab"
             aria-selected={metric === 'longestStreak'}
-            className={`enlight-lb-segment__btn${metric === 'longestStreak' ? ' enlight-lb-segment__btn--active' : ''}`}
+            className={`ace-lb-segment__btn${metric === 'longestStreak' ? ' ace-lb-segment__btn--active' : ''}`}
             onClick={() => onMetricChange('longestStreak')}
           >
             Streak
@@ -76,10 +76,10 @@ export function LeaderboardFilters({
         </div>
 
         {metric === 'xp' && (
-          <label className="enlight-lb-select-wrap">
-            <span className="enlight-lb-select-wrap__label">Period</span>
+          <label className="ace-lb-select-wrap">
+            <span className="ace-lb-select-wrap__label">Period</span>
             <select
-              className="enlight-lb-select"
+              className="ace-lb-select"
               value={period}
               onChange={(e) => onPeriodChange(e.target.value as LeaderboardPeriod)}
             >

@@ -8,7 +8,7 @@ import {
   type PushPermissionState,
 } from '@/lib/pushNotifications'
 
-const DISMISS_KEY = 'enlight-push-prompt-dismissed'
+const DISMISS_KEY = 'ace-push-prompt-dismissed'
 
 /** Prompt signed-in users with an active streak to enable streak-deadline push. */
 export function PushNotificationPrompt() {
@@ -35,13 +35,13 @@ export function PushNotificationPrompt() {
   }
 
   return (
-    <section className="enlight-dashboard-card enlight-push-prompt" aria-label="Streak reminders">
-      <h2 className="enlight-heading-serif enlight-dashboard-card__title">Streak reminders</h2>
-      <p className="enlight-body-text">
+    <section className="ace-dashboard-card ace-push-prompt" aria-label="Streak reminders">
+      <h2 className="ace-heading-serif ace-dashboard-card__title">Streak reminders</h2>
+      <p className="ace-body-text">
         Get a push notification about 3 hours before your {progress.streakDays}-day streak expires —
         so you can study even when the app is closed.
       </p>
-      <div className="enlight-popout__actions">
+      <div className="ace-popout__actions">
         <EnlightButton onClick={() => void handleEnable()} disabled={busy}>
           {busy ? 'Enabling…' : 'Enable reminders'}
         </EnlightButton>

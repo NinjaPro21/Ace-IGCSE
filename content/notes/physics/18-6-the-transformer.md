@@ -42,20 +42,20 @@ Power lost in cables: $P = I^2 R$. Step-up transformers increase voltage and red
 - Laminated soft iron core; primary coil ($N_p$, $V_p$) and secondary coil ($N_s$, $V_s$).
 - Step-up when $N_s > N_p$; step-down when $N_s < N_p$.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="transformer"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="transformer"></div>
 
 **High-voltage grid transmission**
 
 - Power station → step-up transformer → HV pylons → step-down transformer → homes.
 - High voltage reduces current and $I^2 R$ cable losses.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="transmission-grid"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="transmission-grid"></div>
 
 **Primary vs secondary voltage waves**
 
 - Two a.c. sine waves of the same frequency but different amplitudes after transformation.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="transformer-voltage"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="transformer-voltage"></div>
 
 ## Quick check
 

@@ -23,11 +23,11 @@ export function InlineConfirm({
 
   if (confirming) {
     return (
-      <span className="enlight-inline-confirm" role="group" aria-label={`Confirm ${label}`}>
-        <span className="enlight-inline-confirm__prompt">Are you sure?</span>
+      <span className="ace-inline-confirm" role="group" aria-label={`Confirm ${label}`}>
+        <span className="ace-inline-confirm__prompt">Are you sure?</span>
         <button
           type="button"
-          className="enlight-inline-confirm__yes"
+          className="ace-inline-confirm__yes"
           onClick={() => {
             onConfirm()
             setConfirming(false)
@@ -35,7 +35,7 @@ export function InlineConfirm({
         >
           Yes
         </button>
-        <button type="button" className="enlight-inline-confirm__cancel" onClick={() => setConfirming(false)}>
+        <button type="button" className="ace-inline-confirm__cancel" onClick={() => setConfirming(false)}>
           Cancel
         </button>
       </span>
@@ -46,7 +46,7 @@ export function InlineConfirm({
     return (
       <button
         type="button"
-        className={`enlight-friend-row__remove${className ? ` ${className}` : ''}`}
+        className={`ace-friend-row__remove${className ? ` ${className}` : ''}`}
         disabled={disabled}
         onClick={() => setConfirming(true)}
       >

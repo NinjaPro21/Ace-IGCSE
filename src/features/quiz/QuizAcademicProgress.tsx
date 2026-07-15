@@ -73,30 +73,30 @@ export function QuizAcademicProgress({
   })
 
   return (
-    <section className="enlight-quiz-academic">
-      <h3 className="enlight-quiz-academic__title">Academic progress</h3>
-      <div className="enlight-quiz-academic__summary">
+    <section className="ace-quiz-academic">
+      <h3 className="ace-quiz-academic__title">Academic progress</h3>
+      <div className="ace-quiz-academic__summary">
         <div>
-          <span className="enlight-quiz-academic__value">{masteryPercent}%</span>
-          <span className="enlight-quiz-academic__label">Mastery</span>
+          <span className="ace-quiz-academic__value">{masteryPercent}%</span>
+          <span className="ace-quiz-academic__label">Mastery</span>
         </div>
         <div>
-          <span className="enlight-quiz-academic__value">Lv {quizLevel}/4</span>
-          <span className="enlight-quiz-academic__label">Quiz level</span>
+          <span className="ace-quiz-academic__value">Lv {quizLevel}/4</span>
+          <span className="ace-quiz-academic__label">Quiz level</span>
         </div>
         <div>
-          <span className="enlight-quiz-academic__value">{scopeAttempts.length}</span>
-          <span className="enlight-quiz-academic__label">Attempts</span>
+          <span className="ace-quiz-academic__value">{scopeAttempts.length}</span>
+          <span className="ace-quiz-academic__label">Attempts</span>
         </div>
       </div>
 
-      <div className="enlight-quiz-academic__tiers">
+      <div className="ace-quiz-academic__tiers">
         {tierStatus.map((t) => (
           <div
             key={t.difficulty}
             className={[
-              'enlight-quiz-academic__tier',
-              t.passed ? 'enlight-quiz-academic__tier--passed' : '',
+              'ace-quiz-academic__tier',
+              t.passed ? 'ace-quiz-academic__tier--passed' : '',
             ].join(' ')}
           >
             <span>{DIFF_LABEL[t.difficulty]}</span>
@@ -109,21 +109,21 @@ export function QuizAcademicProgress({
 
       {scopeAttempts.length > 0 && (
         <>
-          <h4 className="enlight-quiz-academic__history-title">Recent attempts</h4>
-          <ul className="enlight-quiz-academic__history">
+          <h4 className="ace-quiz-academic__history-title">Recent attempts</h4>
+          <ul className="ace-quiz-academic__history">
             {scopeAttempts.slice(0, 5).map((a) => (
               <li key={a.id}>
                 <span>
                   {formatDifficulty(a.difficulty)} · {formatAttemptDate(a.at)}
                 </span>
-                <span className={a.passed ? 'enlight-quiz-academic__pass' : ''}>{a.scorePercent}%</span>
+                <span className={a.passed ? 'ace-quiz-academic__pass' : ''}>{a.scorePercent}%</span>
               </li>
             ))}
           </ul>
         </>
       )}
 
-      <Link to={`/dashboard/quiz-history/${subjectId}`} className="enlight-quiz-academic__link">
+      <Link to={`/dashboard/quiz-history/${subjectId}`} className="ace-quiz-academic__link">
         Full quiz history →
       </Link>
     </section>

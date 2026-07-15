@@ -36,7 +36,7 @@ Applies to calculating the time taken for sunlight or signals to travel across s
 - **Electromagnetic Output**: A chart representing the regions of the EM spectrum, highlighting that the Sun radiates most of its energy in the infrared, visible, and ultraviolet regions.
 - **Scale Comparison**: A visual showing the Sun as the largest object in the Solar System, noted as being large enough to fit over a million Earths inside.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Forces in a stable star">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Forces in a stable star">
       <circle cx="200" cy="100" r="55" fill="#fef08a" stroke="#f59e0b" stroke-width="2"/>
       <text x="200" y="96" text-anchor="middle" font-size="11" fill="#854d0e" font-weight="600">Sun</text>
       <text x="200" y="112" text-anchor="middle" font-size="8" fill="#854d0e">H → He fusion</text>
@@ -54,9 +54,9 @@ Applies to calculating the time taken for sunlight or signals to travel across s
         <marker id="sun-out" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
         <marker id="sun-in" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Stable star — inward gravitational force is balanced by outward pressure from nuclear fusion.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Stable star — inward gravitational force is balanced by outward pressure from nuclear fusion.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
       <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
       <rect x="120" y="30" width="50" height="30" fill="#fef08a"/><rect x="170" y="30" width="80" height="30" fill="#bbf7d0"/>
       <rect x="250" y="30" width="50" height="30" fill="#bfdbfe"/><rect x="300" y="30" width="50" height="30" fill="#ddd6fe"/>
@@ -65,7 +65,7 @@ Applies to calculating the time taken for sunlight or signals to travel across s
       <text x="210" y="50" text-anchor="middle" font-size="8" fill="#334155">visible</text>
       <text x="385" y="50" text-anchor="middle" font-size="8" fill="#334155">gamma</text>
       <text x="220" y="20" text-anchor="middle" font-size="11" fill="#334155">increasing frequency →</text>
-    </svg><p class="enlight-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
 
 ## Steps / method
 

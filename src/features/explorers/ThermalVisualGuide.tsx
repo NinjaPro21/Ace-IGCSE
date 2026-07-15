@@ -34,7 +34,7 @@ function ExpansionOrderSvg() {
     { label: 'Gas', h: 88, color: '#f59e0b' },
   ]
   return (
-    <svg viewBox="0 0 360 200" className="enlight-thermal-diagram__svg" role="img" aria-label="Bar chart comparing expansion">
+    <svg viewBox="0 0 360 200" className="ace-thermal-diagram__svg" role="img" aria-label="Bar chart comparing expansion">
       <text x="180" y="22" textAnchor="middle" fontSize="11" fill="#64748b" fontWeight="600">
         Relative volume increase (same ΔT)
       </text>
@@ -59,7 +59,7 @@ function ExpansionOrderSvg() {
 
 function BallRingSvg() {
   return (
-    <svg viewBox="0 0 360 200" className="enlight-thermal-diagram__svg" role="img" aria-label="Ball and ring before and after heating">
+    <svg viewBox="0 0 360 200" className="ace-thermal-diagram__svg" role="img" aria-label="Ball and ring before and after heating">
       <text x="90" y="24" textAnchor="middle" fontSize="11" fill="#64748b" fontWeight="600">
         Room temp
       </text>
@@ -83,7 +83,7 @@ function BallRingSvg() {
 
 function ExpansionGapSvg() {
   return (
-    <svg viewBox="0 0 360 200" className="enlight-thermal-diagram__svg" role="img" aria-label="Railway expansion gap">
+    <svg viewBox="0 0 360 200" className="ace-thermal-diagram__svg" role="img" aria-label="Railway expansion gap">
       <rect x="20" y="120" width="130" height="12" rx="2" fill="#64748b" />
       <rect x="210" y="120" width="130" height="12" rx="2" fill="#64748b" />
       <rect x="148" y="116" width="24" height="20" rx="3" fill="#fef3c7" stroke="#d97706" strokeWidth="1.5" strokeDasharray="4 3" />
@@ -100,7 +100,7 @@ function ExpansionGapSvg() {
 
 function ShcLabSvg() {
   return (
-    <svg viewBox="0 0 360 220" className="enlight-thermal-diagram__svg" role="img" aria-label="Specific heat capacity experiment">
+    <svg viewBox="0 0 360 220" className="ace-thermal-diagram__svg" role="img" aria-label="Specific heat capacity experiment">
       <rect x="110" y="70" width="140" height="90" rx="8" fill="#94a3b8" stroke="#475569" strokeWidth="2" />
       <rect x="125" y="85" width="18" height="60" rx="4" fill="#ef4444" />
       <text x="134" y="118" textAnchor="middle" fontSize="8" fill="#fff" fontWeight="700">
@@ -123,7 +123,7 @@ function ParticlesSvg() {
     [230, 70], [275, 85], [320, 75], [245, 115], [290, 125], [335, 110],
   ]
   return (
-    <svg viewBox="0 0 360 200" className="enlight-thermal-diagram__svg" role="img" aria-label="Particle spacing cold vs hot">
+    <svg viewBox="0 0 360 200" className="ace-thermal-diagram__svg" role="img" aria-label="Particle spacing cold vs hot">
       <text x="95" y="28" textAnchor="middle" fontSize="11" fill="#64748b" fontWeight="600">
         Cold
       </text>
@@ -167,16 +167,16 @@ export function ThermalVisualGuide({ panels }: { panels?: ThermalGuidePanel[] })
   const meta = PANEL_META[active]
 
   return (
-    <section className="enlight-explorer enlight-thermal-guide">
+    <section className="ace-explorer ace-thermal-guide">
       {available.length > 1 && (
-        <div className="enlight-thermal-guide__tabs" role="tablist" aria-label="Diagram views">
+        <div className="ace-thermal-guide__tabs" role="tablist" aria-label="Diagram views">
           {available.map((id) => (
             <button
               key={id}
               type="button"
               role="tab"
               aria-selected={active === id}
-              className={`enlight-thermal-guide__tab${active === id ? ' enlight-thermal-guide__tab--active' : ''}`}
+              className={`ace-thermal-guide__tab${active === id ? ' ace-thermal-guide__tab--active' : ''}`}
               onClick={() => setActive(id)}
             >
               {PANEL_META[id].label}
@@ -184,10 +184,10 @@ export function ThermalVisualGuide({ panels }: { panels?: ThermalGuidePanel[] })
           ))}
         </div>
       )}
-      <div className="enlight-thermal-guide__frame">
+      <div className="ace-thermal-guide__frame">
         <PanelDiagram panel={active} />
       </div>
-      <p className="enlight-thermal-guide__caption">{meta.caption}</p>
+      <p className="ace-thermal-guide__caption">{meta.caption}</p>
     </section>
   )
 }

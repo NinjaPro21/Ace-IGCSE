@@ -41,7 +41,7 @@ The same current $I$ passes through each resistor, so total work per unit charge
 
 - Cell, lamp, and resistor in one loop — same current at every point.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
+<div class="ace-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
       <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
       </g>
@@ -57,7 +57,7 @@ The same current $I$ passes through each resistor, so total work per unit charge
       <rect x="214" y="39" width="32" height="12" stroke="#334155" stroke-width="2" fill="none"/>
       <text x="230" y="68" text-anchor="middle" font-size="8" fill="#64748b">resistor</text>
       <text x="190" y="152" text-anchor="middle" font-size="10" fill="#475569">one path — current is the same at every point</text>
-    </svg><p class="enlight-physics-diagram__caption">Series circuit — components in one loop; same current through each component.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Series circuit — components in one loop; same current through each component.</p></div>
 
 ## Quick check
 

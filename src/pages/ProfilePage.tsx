@@ -106,10 +106,10 @@ export function ProfilePage() {
 
   if (loading) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-container enlight-page-padding">
-          <p className="enlight-body-text">Loading profile…</p>
+        <div className="ace-container ace-page-padding">
+          <p className="ace-body-text">Loading profile…</p>
         </div>
       </div>
     )
@@ -117,10 +117,10 @@ export function ProfilePage() {
 
   if (!profile && !isOwn) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-container enlight-page-padding">
-          <p className="enlight-body-text">Profile not found.</p>
+        <div className="ace-container ace-page-padding">
+          <p className="ace-body-text">Profile not found.</p>
           <EnlightButton to="/social">Back to social</EnlightButton>
         </div>
       </div>
@@ -172,19 +172,19 @@ export function ProfilePage() {
   }
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
-      <div className="enlight-container enlight-page-padding enlight-profile-page">
+      <div className="ace-container ace-page-padding ace-profile-page">
         <ProfileHero profile={viewModel} userId={userId} isOwn={isOwn} />
 
         {!isOwn && user && (
-          <div className="enlight-profile-page__actions">
+          <div className="ace-profile-page__actions">
             {friendshipStatus === 'friends' ? (
-              <span className="enlight-body-text">You are friends</span>
+              <span className="ace-body-text">You are friends</span>
             ) : friendshipStatus === 'pending_sent' ? (
-              <span className="enlight-body-text">Friend request pending…</span>
+              <span className="ace-body-text">Friend request pending…</span>
             ) : friendshipStatus === 'pending_received' ? (
-              <span className="enlight-body-text">This person sent you a request — check your notifications.</span>
+              <span className="ace-body-text">This person sent you a request — check your notifications.</span>
             ) : (
               <EnlightButton onClick={() => void handleAddFriend()} disabled={addingFriend}>
                 {addingFriend ? 'Sending…' : 'Add friend'}
@@ -195,35 +195,35 @@ export function ProfilePage() {
 
         {isOwn && (
           <>
-            <section className="enlight-dashboard-card">
-              <h2 className="enlight-heading-serif">Basic info</h2>
+            <section className="ace-dashboard-card">
+              <h2 className="ace-heading-serif">Basic info</h2>
               <input
-                className="enlight-profile-form__input"
+                className="ace-profile-form__input"
                 value={progress.displayName}
                 maxLength={24}
                 onChange={(e) => setDisplayName(e.target.value)}
                 placeholder="Display name"
               />
               <textarea
-                className="enlight-profile-form__input"
+                className="ace-profile-form__input"
                 value={bio}
                 maxLength={80}
                 rows={2}
                 onChange={(e) => setBio(e.target.value)}
                 placeholder="Bio (optional)"
               />
-              <label className="enlight-body-text">
+              <label className="ace-body-text">
                 Exam year{' '}
-                <select className="enlight-select" value={examYear} onChange={(e) => setExamYear(Number(e.target.value))}>
+                <select className="ace-select" value={examYear} onChange={(e) => setExamYear(Number(e.target.value))}>
                   <option value={2026}>2026</option>
                   <option value={2027}>2027</option>
                 </select>
               </label>
-              <p className="enlight-body-text" style={{ fontSize: '0.9rem', opacity: 0.85 }}>
+              <p className="ace-body-text" style={{ fontSize: '0.9rem', opacity: 0.85 }}>
                 Other students can open your profile to add you as a friend. Your email, quiz history,
                 and detailed study data stay private — only you (and site admins) can access those.
               </p>
-              <p className="enlight-body-text">Friend code: <strong>{friendCode}</strong></p>
+              <p className="ace-body-text">Friend code: <strong>{friendCode}</strong></p>
               <EnlightButton variant="outline" onClick={handleShare}>Share profile</EnlightButton>
             </section>
 
@@ -244,14 +244,14 @@ export function ProfilePage() {
 
         {isOwn && (
           <>
-            <section className="enlight-dashboard-card">
-              <h2 className="enlight-heading-serif">Subject mastery</h2>
-              <div className="enlight-subject-overview">
+            <section className="ace-dashboard-card">
+              <h2 className="ace-heading-serif">Subject mastery</h2>
+              <div className="ace-subject-overview">
                 {getAllSubjects().map((subject) => {
                   const summary = getSubjectSummary(subject.id, progress)
                   if (summary.total === 0) return null
                   return (
-                    <div key={subject.id} className="enlight-subject-fold__summary">
+                    <div key={subject.id} className="ace-subject-fold__summary">
                       <span>{subject.name}</span>
                       <span>{summary.avgMastery}% avg · {summary.mastered}/{summary.total} mastered</span>
                     </div>
@@ -260,18 +260,18 @@ export function ProfilePage() {
               </div>
             </section>
 
-            <section className="enlight-dashboard-card">
-              <h2 className="enlight-heading-serif">All achievements</h2>
-              <div className="enlight-achievement-grid">
+            <section className="ace-dashboard-card">
+              <h2 className="ace-heading-serif">All achievements</h2>
+              <div className="ace-achievement-grid">
                 {achievements.map((a) => (
                   <div
                     key={a.id}
-                    className={`enlight-achievement${a.unlocked ? ' enlight-achievement--unlocked' : ' enlight-achievement--locked'}`}
+                    className={`ace-achievement${a.unlocked ? ' ace-achievement--unlocked' : ' ace-achievement--locked'}`}
                   >
-                    <span className="enlight-achievement__icon">{a.icon}</span>
+                    <span className="ace-achievement__icon">{a.icon}</span>
                     <div>
-                      <div className="enlight-achievement__title">{a.title}</div>
-                      <div className="enlight-achievement__desc">{a.description}</div>
+                      <div className="ace-achievement__title">{a.title}</div>
+                      <div className="ace-achievement__desc">{a.description}</div>
                     </div>
                   </div>
                 ))}
@@ -282,7 +282,7 @@ export function ProfilePage() {
 
         <EnlightButton to="/social" variant="outline">← Social</EnlightButton>
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

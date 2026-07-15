@@ -39,7 +39,7 @@ A common misconception is that a wave carries the medium along with it. Waves tr
 
 - A "snapshot" of the wave at one instant, showing displacement of particles along the medium.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement distance graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement distance graph">
       <line x1="50" y1="100" x2="420" y2="100" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <text x="235" y="188" text-anchor="middle" font-size="11" fill="#475569">Distance</text>
       <text x="16" y="100" transform="rotate(-90 16 100)" text-anchor="middle" font-size="11" fill="#475569">Displacement</text>
@@ -52,7 +52,7 @@ A common misconception is that a wave carries the medium along with it. Waves tr
       <line x1="140" y1="51" x2="140" y2="59" stroke="#16a34a" stroke-width="2"/>
       <text x="110" y="44" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="600">λ</text>
       <text x="76" y="49" font-size="12" fill="#dc2626" font-weight="600">A</text>
-    </svg><p class="enlight-physics-diagram__caption">Displacement–distance graph — wavelength λ is crest-to-crest distance; amplitude A is maximum displacement from the rest line.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Displacement–distance graph — wavelength λ is crest-to-crest distance; amplitude A is maximum displacement from the rest line.</p></div>
 
 ## Steps / method
 

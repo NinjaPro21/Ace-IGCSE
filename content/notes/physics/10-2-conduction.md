@@ -31,7 +31,7 @@ Conduction is the transfer of thermal energy through a solid from a hotter regio
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Conduction in a metal">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Conduction in a metal">
       <rect x="30" y="45" width="300" height="30" rx="4" fill="#e2e8f0" stroke="#64748b"/>
       <rect x="30" y="45" width="60" height="30" rx="4" fill="#fecaca" opacity="0.7"/>
       <circle cx="70" cy="60" r="4" fill="#dc2626"/><circle cx="110" cy="60" r="4" fill="#64748b"/><circle cx="150" cy="60" r="4" fill="#64748b"/>
@@ -39,7 +39,7 @@ Conduction is the transfer of thermal energy through a solid from a hotter regio
       <circle cx="95" cy="55" r="2" fill="#2563eb"/><circle cx="130" cy="65" r="2" fill="#2563eb"/><circle cx="175" cy="58" r="2" fill="#2563eb"/>
       <text x="60" y="40" font-size="9" fill="#dc2626">hot end</text>
       <text x="180" y="100" text-anchor="middle" font-size="10" fill="#475569">electrons carry energy →</text>
-    </svg><p class="enlight-physics-diagram__caption">Conduction in metals — free electrons collide with lattice ions and transfer kinetic energy along the rod.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Conduction in metals — free electrons collide with lattice ions and transfer kinetic energy along the rod.</p></div>
 
 ## Steps / method
 

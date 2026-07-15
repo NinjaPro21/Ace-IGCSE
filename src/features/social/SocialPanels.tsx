@@ -12,7 +12,7 @@ export function SignInButton({ compact = false }: { compact?: boolean }) {
 
   if (loading) {
     return (
-      <button type="button" className="enlight-btn enlight-btn--sm enlight-btn--outline" disabled>
+      <button type="button" className="ace-btn ace-btn--sm ace-btn--outline" disabled>
         …
       </button>
     )
@@ -20,18 +20,18 @@ export function SignInButton({ compact = false }: { compact?: boolean }) {
 
   if (user) {
     return (
-      <div className="enlight-signin-user">
+      <div className="ace-signin-user">
         {user.avatarUrl ? (
-          <img src={user.avatarUrl} alt="" className="enlight-signin-user__avatar" width={28} height={28} />
+          <img src={user.avatarUrl} alt="" className="ace-signin-user__avatar" width={28} height={28} />
         ) : (
-          <span className="enlight-signin-user__avatar enlight-signin-user__avatar--placeholder">
+          <span className="ace-signin-user__avatar ace-signin-user__avatar--placeholder">
             {user.displayName.slice(0, 1).toUpperCase()}
           </span>
         )}
-        {!compact && <span className="enlight-signin-user__name">{user.displayName}</span>}
+        {!compact && <span className="ace-signin-user__name">{user.displayName}</span>}
         <button
           type="button"
-          className="enlight-btn enlight-btn--sm enlight-btn--outline"
+          className="ace-btn ace-btn--sm ace-btn--outline"
           onClick={() => {
             if (window.confirm('Sign out of AceIGCSE? Your progress stays saved to your Google account.')) {
               signOut()
@@ -40,17 +40,17 @@ export function SignInButton({ compact = false }: { compact?: boolean }) {
         >
           Sign out
         </button>
-        {syncError && <span className="enlight-signin-error">{syncError}</span>}
+        {syncError && <span className="ace-signin-error">{syncError}</span>}
       </div>
     )
   }
 
   return (
-    <div className="enlight-signin-wrap">
-      <button type="button" className="enlight-btn enlight-btn--primary enlight-btn--sm" onClick={() => signInWithGoogle()}>
+    <div className="ace-signin-wrap">
+      <button type="button" className="ace-btn ace-btn--primary ace-btn--sm" onClick={() => signInWithGoogle()}>
         Sign in with Google
       </button>
-      {syncError && <span className="enlight-signin-error">{syncError}</span>}
+      {syncError && <span className="ace-signin-error">{syncError}</span>}
     </div>
   )
 }
@@ -155,20 +155,20 @@ export function SchoolClanPanel() {
   return (
     <>
       {/* School — one only, browse & join */}
-      <section className="enlight-progress-section">
-        <h2 className="enlight-heading-serif enlight-progress-section__title">Your school</h2>
-        <p className="enlight-body-text">
+      <section className="ace-progress-section">
+        <h2 className="ace-heading-serif ace-progress-section__title">Your school</h2>
+        <p className="ace-body-text">
           Pick your school from the list — no invite code needed. You can only join one school.
           Duplicate school names are blocked when registering.
           {!isConfigured && ' Add Firebase config to .env.local (see .env.example).'}
         </p>
 
         {school ? (
-          <div className="enlight-group-card">
-            <div className="enlight-group-card__badge" aria-hidden>S</div>
+          <div className="ace-group-card">
+            <div className="ace-group-card__badge" aria-hidden>S</div>
             <div>
               <strong>{school.name}</strong>
-              <p className="enlight-body-text" style={{ margin: '4px 0 0' }}>
+              <p className="ace-body-text" style={{ margin: '4px 0 0' }}>
                 {school.memberCount !== undefined && `${school.memberCount} student${school.memberCount !== 1 ? 's' : ''}`}
               </p>
             </div>
@@ -177,30 +177,30 @@ export function SchoolClanPanel() {
         ) : (
           <>
             {(pendingGroup?.action === 'joinSchool' && pendingGroup.schoolId) && !user && (
-              <div className="enlight-group-pending">
+              <div className="ace-group-pending">
                 <p>School selected — sign in with Google to finish joining.</p>
               </div>
             )}
             <input
               type="search"
-              className="enlight-profile-form__input"
+              className="ace-profile-form__input"
               placeholder="Search schools…"
               value={schoolSearch}
               onChange={(e) => setSchoolSearch(e.target.value)}
             />
-            <div className="enlight-school-list">
+            <div className="ace-school-list">
               {filteredSchools.length === 0 ? (
-                <p className="enlight-body-text">No schools match your search.</p>
+                <p className="ace-body-text">No schools match your search.</p>
               ) : (
                 filteredSchools.map((s) => (
-                  <div key={s.id} className="enlight-school-row">
+                  <div key={s.id} className="ace-school-row">
                     <div>
                       <strong>{s.name}</strong>
                       {s.memberCount !== undefined && (
-                        <span className="enlight-school-row__meta">{s.memberCount} members</span>
+                        <span className="ace-school-row__meta">{s.memberCount} members</span>
                       )}
                     </div>
-                    <EnlightButton className="enlight-btn--sm" onClick={() => handleJoinSchool(s.id, s.name)} disabled={busy}>
+                    <EnlightButton className="ace-btn--sm" onClick={() => handleJoinSchool(s.id, s.name)} disabled={busy}>
                       Join
                     </EnlightButton>
                   </div>
@@ -209,17 +209,17 @@ export function SchoolClanPanel() {
             </div>
             <button
               type="button"
-              className="enlight-group-tab"
+              className="ace-group-tab"
               style={{ marginTop: 12 }}
               onClick={() => setShowRegisterSchool((v) => !v)}
             >
               {showRegisterSchool ? 'Hide' : "Can't find your school? Register it"}
             </button>
             {showRegisterSchool && (
-              <div className="enlight-profile-form" style={{ marginTop: 8 }}>
+              <div className="ace-profile-form" style={{ marginTop: 8 }}>
                 <input
                   type="text"
-                  className="enlight-profile-form__input"
+                  className="ace-profile-form__input"
                   placeholder="School name"
                   value={registerSchoolName}
                   onChange={(e) => setRegisterSchoolName(e.target.value)}
@@ -250,21 +250,21 @@ export function SchoolClanPanel() {
       </section>
 
       {/* Clans — up to 3, invite code */}
-      <section className="enlight-progress-section">
-        <h2 className="enlight-heading-serif enlight-progress-section__title">Study groups</h2>
-        <p className="enlight-body-text">
+      <section className="ace-progress-section">
+        <h2 className="ace-heading-serif ace-progress-section__title">Study groups</h2>
+        <p className="ace-body-text">
           Join up to {MAX_CLANS} private groups with an invite code (CLN-…). Share codes with classmates.
         </p>
 
         {clans.length > 0 && (
-          <div className="enlight-clan-list">
+          <div className="ace-clan-list">
             {clans.map((clan) => (
-              <div key={clan.id} className="enlight-group-card">
-                <div className="enlight-group-card__badge" aria-hidden>G</div>
+              <div key={clan.id} className="ace-group-card">
+                <div className="ace-group-card__badge" aria-hidden>G</div>
                 <div>
                   <strong>{clan.name}</strong>
-                  <p className="enlight-body-text" style={{ margin: '4px 0 0' }}>
-                    Code: <code className="enlight-invite-code">{clan.inviteCode}</code>
+                  <p className="ace-body-text" style={{ margin: '4px 0 0' }}>
+                    Code: <code className="ace-invite-code">{clan.inviteCode}</code>
                     {clan.memberCount !== undefined && ` · ${clan.memberCount} member${clan.memberCount !== 1 ? 's' : ''}`}
                   </p>
                 </div>
@@ -277,38 +277,38 @@ export function SchoolClanPanel() {
         {clans.length < MAX_CLANS && (
           <>
             {(pendingGroup || localInviteCode) && !user && (
-              <div className="enlight-group-pending">
+              <div className="ace-group-pending">
                 {pendingGroup?.action === 'create' && (
                   <p>
                     Pending group: <strong>{pendingGroup.name}</strong>
                     {localInviteCode && (
                       <>
                         {' '}
-                        — code <code className="enlight-invite-code">{localInviteCode}</code>
+                        — code <code className="ace-invite-code">{localInviteCode}</code>
                       </>
                     )}
                   </p>
                 )}
                 {pendingGroup?.action === 'joinClan' && (
                   <p>
-                    Pending join: <code className="enlight-invite-code">{pendingGroup.inviteCode}</code>
+                    Pending join: <code className="ace-invite-code">{pendingGroup.inviteCode}</code>
                   </p>
                 )}
-                <p className="enlight-body-text">Sign in with Google to finish setup.</p>
+                <p className="ace-body-text">Sign in with Google to finish setup.</p>
               </div>
             )}
 
-            <div className="enlight-group-tabs">
+            <div className="ace-group-tabs">
               <button
                 type="button"
-                className={`enlight-group-tab${clanMode === 'join' ? ' enlight-group-tab--active' : ''}`}
+                className={`ace-group-tab${clanMode === 'join' ? ' ace-group-tab--active' : ''}`}
                 onClick={() => setClanMode('join')}
               >
                 Join with code
               </button>
               <button
                 type="button"
-                className={`enlight-group-tab${clanMode === 'create' ? ' enlight-group-tab--active' : ''}`}
+                className={`ace-group-tab${clanMode === 'create' ? ' ace-group-tab--active' : ''}`}
                 onClick={() => setClanMode('create')}
               >
                 Create group
@@ -316,10 +316,10 @@ export function SchoolClanPanel() {
             </div>
 
             {clanMode === 'join' ? (
-              <div className="enlight-profile-form">
+              <div className="ace-profile-form">
                 <input
                   type="text"
-                  className="enlight-profile-form__input"
+                  className="ace-profile-form__input"
                   placeholder="CLN-ABC123"
                   value={joinCode}
                   onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
@@ -329,10 +329,10 @@ export function SchoolClanPanel() {
                 </EnlightButton>
               </div>
             ) : (
-              <div className="enlight-profile-form">
+              <div className="ace-profile-form">
                 <input
                   type="text"
-                  className="enlight-profile-form__input"
+                  className="ace-profile-form__input"
                   placeholder="e.g. Study circle"
                   value={clanName}
                   maxLength={64}
@@ -347,7 +347,7 @@ export function SchoolClanPanel() {
         )}
 
         {(message || syncError) && (
-          <p className={`enlight-group-message${syncError ? ' enlight-group-message--error' : ''}`}>
+          <p className={`ace-group-message${syncError ? ' ace-group-message--error' : ''}`}>
             {syncError ?? message}
           </p>
         )}
@@ -358,25 +358,25 @@ export function SchoolClanPanel() {
 
 function InsightsTable({ rows, emptyMessage }: { rows: ChapterInsight[]; emptyMessage: string }) {
   if (rows.length === 0) {
-    return <p className="enlight-body-text">{emptyMessage}</p>
+    return <p className="ace-body-text">{emptyMessage}</p>
   }
 
   return (
-    <div className="enlight-insights-table">
+    <div className="ace-insights-table">
       {rows.map((row) => (
-        <div key={row.chapterId} className="enlight-insights-row">
-          <div className="enlight-insights-row__main">
+        <div key={row.chapterId} className="ace-insights-row">
+          <div className="ace-insights-row__main">
             <span
               className={[
-                'enlight-insights-row__subject',
-                `enlight-insights-row__subject--${row.subjectId.replace(/[^a-z0-9-]/gi, '')}`,
+                'ace-insights-row__subject',
+                `ace-insights-row__subject--${row.subjectId.replace(/[^a-z0-9-]/gi, '')}`,
               ].join(' ')}
             >
               {row.subjectName}
             </span>
-            <span className="enlight-insights-row__title">{row.chapterTitle}</span>
+            <span className="ace-insights-row__title">{row.chapterTitle}</span>
           </div>
-          <div className="enlight-insights-row__stats">
+          <div className="ace-insights-row__stats">
             <span>{row.timeSpentMin} min avg</span>
             <span>{row.quizAttempts} attempts</span>
             {row.failRate > 0 && <span>{row.failRate}% fail rate</span>}
@@ -416,17 +416,17 @@ export function ClassInsightsPanel() {
   if (!school || !isAdmin) return null
 
   return (
-    <section className="enlight-progress-section">
-      <div className="enlight-progress-section__header">
-        <h2 className="enlight-heading-serif enlight-progress-section__title">Class focus areas</h2>
-        <span className="enlight-progress-section__meta">Tutor view · {school.name}</span>
+    <section className="ace-progress-section">
+      <div className="ace-progress-section__header">
+        <h2 className="ace-heading-serif ace-progress-section__title">Class focus areas</h2>
+        <span className="ace-progress-section__meta">Tutor view · {school.name}</span>
       </div>
-      <p className="enlight-body-text">
+      <p className="ace-body-text">
         Chapters where your students spend the most time or fail quizzes most often — useful for
         planning lessons and revision.
       </p>
       {loading ? (
-        <p className="enlight-body-text">Loading class data…</p>
+        <p className="ace-body-text">Loading class data…</p>
       ) : (
         <InsightsTable
           rows={rows}

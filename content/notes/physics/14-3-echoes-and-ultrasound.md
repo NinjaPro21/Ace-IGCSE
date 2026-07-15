@@ -38,7 +38,7 @@ where:
 
 - Sound reflects from a surface; distance to obstacle = (speed × time) ÷ 2.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Echo diagram">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Echo diagram">
       <circle cx="80" cy="100" r="20" fill="#dbeafe" stroke="#2563eb"/>
       <text x="80" y="105" text-anchor="middle" font-size="9" fill="#1e3a8a">source</text>
       <rect x="280" y="40" width="20" height="100" fill="#94a3b8"/>
@@ -51,7 +51,7 @@ where:
         <marker id="echo" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
         <marker id="echo2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Echo — sound reflects from a surface; distance to obstacle = (speed × time) ÷ 2.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Echo — sound reflects from a surface; distance to obstacle = (speed × time) ÷ 2.</p></div>
 
 ## Worked example — Measuring sea depth
 

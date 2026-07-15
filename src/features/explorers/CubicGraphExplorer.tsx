@@ -62,13 +62,13 @@ function TracePanel({ showModulus }: { showModulus: boolean }) {
   ] as const
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+        <p className="ace-body-text" style={{ marginBottom: 12 }}>
           Drag coefficients to see how a cubic {showModulus ? 'and its modulus graph ' : ''}changes shape and roots.
         </p>
         {sliders.map(({ id, label, value, set, min, max, step }) => (
-          <div className="enlight-slider-group" key={id}>
+          <div className="ace-slider-group" key={id}>
             <label htmlFor={id}>
               <strong>{label}</strong> = {value}
             </label>
@@ -81,7 +81,7 @@ function TracePanel({ showModulus }: { showModulus: boolean }) {
           </p>
         )}
       </div>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Cubic graph">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Cubic graph">
         {[...Array(9)].map((_, i) => {
           const x = X_MIN + (i * (X_MAX - X_MIN)) / 8
           return <line key={`v${i}`} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />
@@ -111,18 +111,18 @@ function FactorPanel() {
 
   return (
     <div>
-      <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+      <p className="ace-body-text" style={{ marginBottom: 12 }}>
         Test <strong>f(a) = 0</strong> for f(x) = x³ − 2x² − x + 2. When f(a) = 0, (x − a) is a factor.
       </p>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="factor-a">
           <strong>Test a</strong> = {testRoot}
         </label>
         <input id="factor-a" type="range" min={-3} max={3} step={0.5} value={testRoot} onChange={(e) => setTestRoot(Number(e.target.value))} />
       </div>
-      <div className="enlight-discriminant-display" style={{ marginTop: 12 }}>
-        <div className="enlight-discriminant-display__value">f({testRoot}) = {value.toFixed(3)}</div>
-        <div className="enlight-discriminant-display__label" style={{ color: isFactor ? '#059669' : '#be123c' }}>
+      <div className="ace-discriminant-display" style={{ marginTop: 12 }}>
+        <div className="ace-discriminant-display__value">f({testRoot}) = {value.toFixed(3)}</div>
+        <div className="ace-discriminant-display__label" style={{ color: isFactor ? '#059669' : '#be123c' }}>
           {isFactor ? `(x − ${testRoot}) is a factor ✓` : 'Not a root — factor test fails'}
         </div>
       </div>
@@ -144,16 +144,16 @@ export function CubicGraphExplorer({ panels }: { panels?: CubicPanel[] }) {
   const meta = PANEL_META[current]
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">{meta.title}</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 16 }}>{meta.intro}</p>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">{meta.title}</h2>
+      <p className="ace-body-text" style={{ marginBottom: 16 }}>{meta.intro}</p>
       {activePanels.length > 1 && (
-        <div className="enlight-fn-tabs" style={{ marginBottom: 16 }}>
+        <div className="ace-fn-tabs" style={{ marginBottom: 16 }}>
           {activePanels.map((id) => (
             <button
               key={id}
               type="button"
-              className={`enlight-fn-tabs__btn${current === id ? ' enlight-fn-tabs__btn--active' : ''}`}
+              className={`ace-fn-tabs__btn${current === id ? ' ace-fn-tabs__btn--active' : ''}`}
               onClick={() => setTab(id)}
             >
               {PANEL_META[id].title}

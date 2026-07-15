@@ -16,7 +16,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 260 260" width="260" height="260" role="img" aria-label="Forward bearing measured clockwise from North">
+<div class="ace-physics-diagram"><svg viewBox="0 0 260 260" width="260" height="260" role="img" aria-label="Forward bearing measured clockwise from North">
       <circle cx="130" cy="140" r="90" fill="none" stroke="#e8e2d8"/>
       <line x1="130" y1="140" x2="130" y2="40" stroke="#5b8def" stroke-width="2"/>
       <text x="130" y="32" text-anchor="middle" font-size="12" fill="#5b8def" font-weight="700">N</text>
@@ -26,9 +26,9 @@ $$
       <text x="175" y="118" font-size="11" fill="#b59a73">bearing</text>
       <circle cx="130" cy="140" r="4" fill="#a8a29e"/>
       <text x="130" y="250" text-anchor="middle" font-size="11" fill="#6b6b6b">Clockwise from North</text>
-    </svg><p class="enlight-physics-diagram__caption">Forward bearing — always measured clockwise from North, written as three digits (e.g. $045°$).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Forward bearing — always measured clockwise from North, written as three digits (e.g. $045°$).</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 380 260" width="380" height="260" role="img" aria-label="Forward and reverse bearings with parallel North lines">
+<div class="ace-physics-diagram"><svg viewBox="0 0 380 260" width="380" height="260" role="img" aria-label="Forward and reverse bearings with parallel North lines">
       <line x1="70" y1="210" x2="70" y2="30" stroke="#5b8def" stroke-width="2"/>
       <text x="70" y="22" text-anchor="middle" font-size="12" fill="#5b8def" font-weight="700">N</text>
       <line x1="290" y1="70" x2="290" y2="20" stroke="#5b8def" stroke-width="2"/>
@@ -45,9 +45,9 @@ $$
       <path d="M290 30 A40 40 0 1 1 256 94" fill="none" stroke="#b59a73" stroke-width="2"/>
       <text x="318" y="120" font-size="12" fill="#b59a73" font-weight="700">θ+180°</text>
       <text x="190" y="248" text-anchor="middle" font-size="12" fill="#6b6b6b">A→B: θ · B→A: θ ± 180°</text>
-    </svg><p class="enlight-physics-diagram__caption">Reverse (back) bearing — draw a North line at $B$, then use $\theta \pm 180°$. Parallel North lines make co-interior angles easy to read.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Reverse (back) bearing — draw a North line at $B$, then use $\theta \pm 180°$. Parallel North lines make co-interior angles easy to read.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 340 290" width="340" height="290" role="img" aria-label="Two-leg journey and interior angle from bearings">
+<div class="ace-physics-diagram"><svg viewBox="0 0 340 290" width="340" height="290" role="img" aria-label="Two-leg journey and interior angle from bearings">
       <line x1="50" y1="190" x2="50" y2="28" stroke="#5b8def" stroke-width="1.5" stroke-dasharray="4 3"/>
       <text x="50" y="20" text-anchor="middle" font-size="12" fill="#5b8def" font-weight="700">N</text>
       <line x1="170" y1="120" x2="170" y2="28" stroke="#5b8def" stroke-width="1.5" stroke-dasharray="4 3"/>
@@ -67,7 +67,7 @@ $$
       <path d="M148 133 A26 26 0 0 1 183 143" fill="none" stroke="#789671" stroke-width="2"/>
       <text x="148" y="162" font-size="13" fill="#789671" font-weight="700">90°</text>
       <text x="170" y="278" text-anchor="middle" font-size="12" fill="#6b6b6b">Interior angle at Q from the two bearings</text>
-    </svg><p class="enlight-physics-diagram__caption">Two-leg journey — at the turn point, find the interior angle of triangle $PQR$ from the bearings, then use Pythagoras, SOH CAH TOA, or the cosine rule for the direct distance $PR$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Two-leg journey — at the turn point, find the interior angle of triangle $PQR$ from the bearings, then use Pythagoras, SOH CAH TOA, or the cosine rule for the direct distance $PR$.</p></div>
 
 ## Steps / method
 

@@ -67,23 +67,23 @@ function ModulusPanel() {
   ] as const
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+        <p className="ace-body-text" style={{ marginBottom: 14 }}>
           Explore <strong>y = |ax² + bx + c|</strong>. Toggle the modulus to fold negative regions upward and highlight cusps on the x-axis.
         </p>
 
-        <div className="enlight-fn-tabs" style={{ marginBottom: 12 }}>
+        <div className="ace-fn-tabs" style={{ marginBottom: 12 }}>
           <button
             type="button"
-            className={`enlight-fn-tabs__btn${showModulus ? ' enlight-fn-tabs__btn--active' : ''}`}
+            className={`ace-fn-tabs__btn${showModulus ? ' ace-fn-tabs__btn--active' : ''}`}
             onClick={() => setShowModulus(true)}
           >
             |f(x)| applied
           </button>
           <button
             type="button"
-            className={`enlight-fn-tabs__btn${!showModulus ? ' enlight-fn-tabs__btn--active' : ''}`}
+            className={`ace-fn-tabs__btn${!showModulus ? ' ace-fn-tabs__btn--active' : ''}`}
             onClick={() => setShowModulus(false)}
           >
             Original f(x)
@@ -91,7 +91,7 @@ function ModulusPanel() {
         </div>
 
         {sliders.map(({ id, label, value, set, min, max, step }) => (
-          <div className="enlight-slider-group" key={id}>
+          <div className="ace-slider-group" key={id}>
             <label htmlFor={id}>
               <strong>{label}</strong> = {value}
             </label>
@@ -99,22 +99,22 @@ function ModulusPanel() {
           </div>
         ))}
 
-        <div className="enlight-discriminant-display" style={{ marginTop: 14 }}>
-          <div className="enlight-discriminant-display__value" style={{ fontSize: '0.95rem' }}>{eq}</div>
-          <div className="enlight-discriminant-display__label">
+        <div className="ace-discriminant-display" style={{ marginTop: 14 }}>
+          <div className="ace-discriminant-display__value" style={{ fontSize: '0.95rem' }}>{eq}</div>
+          <div className="ace-discriminant-display__label">
             {showModulus ? 'Cusps appear at roots where f(x) = 0' : `Vertex: (${vx.toFixed(2)}, ${vy.toFixed(2)})`}
           </div>
         </div>
 
         {roots.length > 0 && (
-          <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)', marginTop: 8 }}>
-            <strong style={{ color: 'var(--enlight-text)' }}>Roots (cusps):</strong>{' '}
+          <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)', marginTop: 8 }}>
+            <strong style={{ color: 'var(--ace-text)' }}>Roots (cusps):</strong>{' '}
             {roots.sort((p, q) => p - q).map((r) => r.toFixed(2)).join(', ')}
           </div>
         )}
       </div>
 
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Quadratic modulus graph">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Quadratic modulus graph">
         <GraphAxes mapper={MAPPER} gridX={14} gridY={12} />
         {showModulus && basePath && (
           <polyline points={basePath} fill="none" stroke="#60a5fa" strokeWidth={1.5} strokeDasharray="5 4" opacity={0.45} />
@@ -156,40 +156,40 @@ function GraphPanel() {
   ] as const
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+        <p className="ace-body-text" style={{ marginBottom: 14 }}>
           Adjust <strong>a</strong>, <strong>b</strong>, <strong>c</strong> to see how the parabola, vertex, and roots change.
         </p>
 
         {sliders.map(({ id, label, value, set, min, max, step, hint }) => (
-          <div className="enlight-slider-group" key={id}>
+          <div className="ace-slider-group" key={id}>
             <label htmlFor={id}>
-              <strong>{label}</strong> = {value} <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}>— {hint}</span>
+              <strong>{label}</strong> = {value} <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}>— {hint}</span>
             </label>
             <input id={id} type="range" min={min} max={max} step={step} value={value} onChange={(e) => set(Number(e.target.value))} />
           </div>
         ))}
 
-        <div className="enlight-discriminant-display" style={{ marginTop: 14 }}>
-          <div className="enlight-discriminant-display__value" style={{ fontSize: '0.95rem' }}>{eq}</div>
-          <div className="enlight-discriminant-display__label">Vertex: ({vx.toFixed(2)}, {vy.toFixed(2)})</div>
+        <div className="ace-discriminant-display" style={{ marginTop: 14 }}>
+          <div className="ace-discriminant-display__value" style={{ fontSize: '0.95rem' }}>{eq}</div>
+          <div className="ace-discriminant-display__label">Vertex: ({vx.toFixed(2)}, {vy.toFixed(2)})</div>
         </div>
 
-        <div className="enlight-discriminant-display" style={{ marginTop: 8 }}>
-          <div className="enlight-discriminant-display__value">Δ = {disc.toFixed(2)}</div>
-          <div className="enlight-discriminant-display__label" style={{ color: natureColor }}>{natureText}</div>
+        <div className="ace-discriminant-display" style={{ marginTop: 8 }}>
+          <div className="ace-discriminant-display__value">Δ = {disc.toFixed(2)}</div>
+          <div className="ace-discriminant-display__label" style={{ color: natureColor }}>{natureText}</div>
         </div>
 
         {roots.length > 0 && (
-          <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)', marginTop: 8 }}>
-            <strong style={{ color: 'var(--enlight-text)' }}>Roots:</strong>{' '}
+          <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)', marginTop: 8 }}>
+            <strong style={{ color: 'var(--ace-text)' }}>Roots:</strong>{' '}
             {roots.sort((p, q) => p - q).map((r) => r.toFixed(2)).join(', ')}
           </div>
         )}
       </div>
 
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Interactive quadratic graph">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Interactive quadratic graph">
         <GraphAxes mapper={MAPPER} gridX={14} gridY={12} />
         <polyline points={path} fill="none" stroke="#5b8def" strokeWidth={2.5} strokeLinecap="round" />
         {vx >= X_MIN && vx <= X_MAX && vy >= Y_MIN && vy <= Y_MAX && (
@@ -214,19 +214,19 @@ function InequalityPanel() {
   const [r1, r2] = roots.length >= 2 ? roots : roots.length === 1 ? [roots[0], roots[0]] : [-999, 999]
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+        <p className="ace-body-text" style={{ marginBottom: 12 }}>
           Shade where ax² + bx + c {mode === 'gt' ? '>' : '<'} 0 on the x-axis.
         </p>
-        <div className="enlight-fn-tabs" style={{ marginBottom: 12 }}>
+        <div className="ace-fn-tabs" style={{ marginBottom: 12 }}>
           {(['gt', 'lt'] as const).map((m) => (
-            <button key={m} type="button" className={`enlight-fn-tabs__btn${mode === m ? ' enlight-fn-tabs__btn--active' : ''}`} onClick={() => setMode(m)}>
+            <button key={m} type="button" className={`ace-fn-tabs__btn${mode === m ? ' ace-fn-tabs__btn--active' : ''}`} onClick={() => setMode(m)}>
               {m === 'gt' ? '> 0' : '< 0'}
             </button>
           ))}
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="qi-c"><strong>c</strong> = {c}</label>
           <input id="qi-c" type="range" min={-6} max={2} step={0.5} value={c} onChange={(e) => setC(Number(e.target.value))} />
         </div>
@@ -234,7 +234,7 @@ function InequalityPanel() {
           <p style={{ fontSize: '0.82rem', marginTop: 8 }}>Roots: {roots.map((r) => r.toFixed(2)).join(', ')}</p>
         )}
       </div>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Quadratic inequality shading">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Quadratic inequality shading">
         <GraphAxes mapper={MAPPER} gridX={14} gridY={12} />
         <polyline points={path} fill="none" stroke="#5b8def" strokeWidth={2.5} />
         {roots.length === 2 && a > 0 && (
@@ -274,12 +274,12 @@ export function QuadraticGraphExplorer({ panels }: { panels?: QuadraticPanel[] }
   const current = active.includes(tab) ? tab : active[0]
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">{PANEL_TITLES[current]}</h2>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">{PANEL_TITLES[current]}</h2>
       {active.length > 1 && (
-        <div className="enlight-fn-tabs" style={{ marginBottom: 16 }}>
+        <div className="ace-fn-tabs" style={{ marginBottom: 16 }}>
           {active.map((id) => (
-            <button key={id} type="button" className={`enlight-fn-tabs__btn${current === id ? ' enlight-fn-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
+            <button key={id} type="button" className={`ace-fn-tabs__btn${current === id ? ' ace-fn-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
               {id === 'graph' ? 'Graph' : id === 'inequality' ? 'Inequalities' : 'Modulus'}
             </button>
           ))}

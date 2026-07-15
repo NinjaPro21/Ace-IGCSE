@@ -45,14 +45,14 @@ export function DiscriminantExplorer() {
   }
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Interactive Explorer — Watch the Roots Change</h2>
-      <div className="enlight-explorer__layout">
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Interactive Explorer — Watch the Roots Change</h2>
+      <div className="ace-explorer__layout">
         <div>
-          <p className="enlight-body-text" style={{ marginBottom: 16 }}>
+          <p className="ace-body-text" style={{ marginBottom: 16 }}>
             Adjust <strong>c</strong> in <strong>y = x² + 2x + c</strong>
           </p>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="c-slider">c = {c}</label>
             <input
               id="c-slider"
@@ -64,12 +64,12 @@ export function DiscriminantExplorer() {
               onChange={(e) => setC(Number(e.target.value))}
             />
           </div>
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__value">Δ = {delta.toFixed(2)}</div>
-            <div className="enlight-discriminant-display__label">{natureText}</div>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__value">Δ = {delta.toFixed(2)}</div>
+            <div className="ace-discriminant-display__label">{natureText}</div>
           </div>
         </div>
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Parabola graph">
+        <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Parabola graph">
           <GraphAxes mapper={MAPPER} gridX={10} gridY={8} />
           <polyline
             points={pathPoints.join(' ')}

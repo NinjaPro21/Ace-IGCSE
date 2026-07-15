@@ -16,7 +16,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Vector addition">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Vector addition">
       <line x1="60" y1="150" x2="160" y2="80" stroke="#5b8def" stroke-width="2.5" marker-end="url(#va)"/>
       <line x1="160" y1="80" x2="240" y2="120" stroke="#789671" stroke-width="2.5" marker-end="url(#va)"/>
       <line x1="60" y1="150" x2="240" y2="120" stroke="#b59a73" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#va)"/>
@@ -24,7 +24,7 @@ $$
       <text x="205" y="95" font-size="10" fill="#789671">b</text>
       <text x="145" y="145" font-size="10" fill="#b59a73">a+b</text>
       <defs><marker id="va" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#a8a29e"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Vector addition — place tail of second vector at tip of first; resultant goes from start to finish.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Vector addition — place tail of second vector at tip of first; resultant goes from start to finish.</p></div>
 
 ## Steps / method
 

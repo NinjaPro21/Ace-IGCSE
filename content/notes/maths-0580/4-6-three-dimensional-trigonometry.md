@@ -14,7 +14,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 340 250" width="340" height="250" role="img" aria-label="Cuboid with base diagonal and space diagonal">
+<div class="ace-physics-diagram"><svg viewBox="0 0 340 250" width="340" height="250" role="img" aria-label="Cuboid with base diagonal and space diagonal">
       <polygon points="110,50 240,50 240,140 110,140" fill="#fdfbf7" stroke="#a8a29e" stroke-width="1.5"/>
       <polygon points="40,100 110,50 110,140 40,190" fill="#f5edd8" stroke="#5b8def" stroke-width="1.5"/>
       <polygon points="40,190 110,140 240,140 170,190" fill="#eef2ff" stroke="#5b8def" stroke-width="1.5"/>
@@ -34,9 +34,9 @@ $$
       <path d="M240 128 L228 131 L228 143" fill="none" stroke="#b59a73" stroke-width="2"/>
       <text x="95" y="208" font-size="12" fill="#5b8def" font-weight="600">x</text>
       <text x="185" y="172" font-size="12" fill="#5b8def" font-weight="600">y</text>
-    </svg><p class="enlight-physics-diagram__caption">Cuboid space diagonal — find the base diagonal $d$ first, then the space diagonal $D$ in the vertical right triangle: $d = \sqrt{x^2+y^2}$, $D = \sqrt{d^2+h^2}$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Cuboid space diagonal — find the base diagonal $d$ first, then the space diagonal $D$ in the vertical right triangle: $d = \sqrt{x^2+y^2}$, $D = \sqrt{d^2+h^2}$.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 380 300" width="380" height="300" role="img" aria-label="Square pyramid with right triangle VMA highlighted">
+<div class="ace-physics-diagram"><svg viewBox="0 0 380 300" width="380" height="300" role="img" aria-label="Square pyramid with right triangle VMA highlighted">
       <polygon points="60,175 160,220 300,175 200,130" fill="#f8fafc" stroke="#e8e2d8" stroke-width="1.5"/>
       <line x1="180" y1="36" x2="60" y2="175" stroke="#e8e2d8" stroke-width="1.5"/>
       <line x1="180" y1="36" x2="300" y2="175" stroke="#e8e2d8" stroke-width="1.5"/>
@@ -58,7 +58,7 @@ $$
       <path d="M248 205 A24 24 0 0 0 259 194" fill="none" stroke="#b59a73" stroke-width="2"/>
       <text x="270" y="186" font-size="15" fill="#b59a73" font-weight="700">α</text>
       <text x="190" y="280" text-anchor="middle" font-size="12" fill="#6b6b6b">Shaded = right triangle VMA used for lengths and angles</text>
-    </svg><p class="enlight-physics-diagram__caption">Square pyramid — work in right triangle $VMA$: height $h = VM$, base half-diagonal $MA$, sloping edge $VA = \sqrt{h^2+MA^2}$, elevation $\tan\alpha = h/MA$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Square pyramid — work in right triangle $VMA$: height $h = VM$, base half-diagonal $MA$, sloping edge $VA = \sqrt{h^2+MA^2}$, elevation $\tan\alpha = h/MA$.</p></div>
 
 ## Steps / method
 

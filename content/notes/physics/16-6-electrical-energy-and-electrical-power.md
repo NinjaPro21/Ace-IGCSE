@@ -46,7 +46,7 @@ $$
 - Power (W) = current (A) × potential difference (V).
 - A higher power rating means more energy transferred per second.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 180" width="400" height="180" role="img" aria-label="Electrical power P equals IV">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 180" width="400" height="180" role="img" aria-label="Electrical power P equals IV">
       <rect x="30" y="50" width="340" height="70" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
       <text x="200" y="82" text-anchor="middle" font-size="18" fill="#334155" font-weight="700">P = I × V</text>
       <text x="90" y="108" text-anchor="middle" font-size="10" fill="#2563eb">I (A)</text>
@@ -59,14 +59,14 @@ $$
       <rect x="260" y="130" width="80" height="36" rx="6" fill="#fef08a" stroke="#ca8a04"/>
       <text x="300" y="152" text-anchor="middle" font-size="9" fill="#854d0e">Power (W)</text>
       <text x="200" y="28" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Electrical power</text>
-    </svg><p class="enlight-physics-diagram__caption">Electrical power — $P = IV$; unit is the watt (W), where $1\,\text{W} = 1\,\text{J/s}$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Electrical power — $P = IV$; unit is the watt (W), where $1\,\text{W} = 1\,\text{J/s}$.</p></div>
 
 **Energy and the kilowatt-hour**
 
 - Energy $E = Pt = IVt$ (joules).
 - Billing uses kWh: energy used by a $1\,\text{kW}$ device in 1 hour.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Energy transfer and kWh billing">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Energy transfer and kWh billing">
       <rect x="30" y="35" width="120" height="55" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
       <text x="90" y="58" text-anchor="middle" font-size="10" fill="#166534" font-weight="600">3 kW kettle</text>
       <text x="90" y="74" text-anchor="middle" font-size="8" fill="#166534">20 min → 1 kWh</text>
@@ -82,7 +82,7 @@ $$
       <text x="345" y="148" text-anchor="middle" font-size="8" fill="#854d0e">× tariff → cost</text>
       <text x="220" y="175" text-anchor="middle" font-size="10" fill="#475569">kWh = energy (not power) — used for electricity bills</text>
       <defs><marker id="pwr-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Energy and billing — add kWh from each appliance, then multiply by the tariff (price per kWh).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Energy and billing — add kWh from each appliance, then multiply by the tariff (price per kWh).</p></div>
 
 ## Worked example — Calculating energy and cost
 

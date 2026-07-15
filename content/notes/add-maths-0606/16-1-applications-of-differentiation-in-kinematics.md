@@ -29,7 +29,7 @@ Differentiate to go from displacement → velocity → acceleration. At maximum 
 
 **Calculus chain — differentiate down, integrate up**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Calculus chain from displacement to acceleration">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Calculus chain from displacement to acceleration">
       <rect x="8" y="28" width="100" height="44" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.5"/>
       <text x="58" y="48" text-anchor="middle" font-size="11" fill="#0e7490" font-weight="600">s(t)</text>
       <text x="58" y="62" text-anchor="middle" font-size="10" fill="#64748b">displacement</text>
@@ -48,7 +48,7 @@ Differentiate s → v → a. Integrate in reverse to recover motion quantities.
 
 **Distance vs displacement on a straight line**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="Distance versus displacement">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="Distance versus displacement">
       <line x1="40" y1="70" x2="380" y2="70" stroke="#a8a29e" stroke-width="3" stroke-linecap="round"/>
       <circle cx="60" cy="70" r="6" fill="#64748b"/>
       <text x="60" y="95" text-anchor="middle" font-size="10" fill="#64748b">start</text>

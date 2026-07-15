@@ -82,21 +82,21 @@ export function ReviewPromptModal() {
   const displayRating = hoverRating || rating
 
   return (
-    <div className="enlight-popout-overlay" role="dialog" aria-modal="true" aria-labelledby="review-prompt-title">
-      <div className="enlight-popout enlight-popout--card enlight-review-prompt">
-        <h2 id="review-prompt-title" className="enlight-heading-serif">
+    <div className="ace-popout-overlay" role="dialog" aria-modal="true" aria-labelledby="review-prompt-title">
+      <div className="ace-popout ace-popout--card ace-review-prompt">
+        <h2 id="review-prompt-title" className="ace-heading-serif">
           How is AceIGCSE?
         </h2>
-        <p className="enlight-body-text">
+        <p className="ace-body-text">
           You have been studying for a while — we would love a quick rating out of 5 stars and an optional comment.
         </p>
 
-        <div className="enlight-review-prompt__stars" role="group" aria-label="Star rating">
+        <div className="ace-review-prompt__stars" role="group" aria-label="Star rating">
           {[1, 2, 3, 4, 5].map((star) => (
             <button
               key={star}
               type="button"
-              className={`enlight-review-prompt__star${star <= displayRating ? ' enlight-review-prompt__star--active' : ''}`}
+              className={`ace-review-prompt__star${star <= displayRating ? ' ace-review-prompt__star--active' : ''}`}
               onClick={() => setRating(star)}
               onMouseEnter={() => setHoverRating(star)}
               onMouseLeave={() => setHoverRating(0)}
@@ -109,7 +109,7 @@ export function ReviewPromptModal() {
         </div>
 
         <textarea
-          className="enlight-profile-form__input enlight-review-prompt__comment"
+          className="ace-profile-form__input ace-review-prompt__comment"
           value={comment}
           onChange={(e) => setComment(e.target.value)}
           placeholder="Optional: what do you like or what could be better?"
@@ -117,9 +117,9 @@ export function ReviewPromptModal() {
           rows={3}
         />
 
-        {error && <p className="enlight-review-prompt__error">{error}</p>}
+        {error && <p className="ace-review-prompt__error">{error}</p>}
 
-        <div className="enlight-popout__actions">
+        <div className="ace-popout__actions">
           <EnlightButton onClick={() => void handleSubmit()} disabled={submitting}>
             {submitting ? 'Submitting…' : 'Submit review'}
           </EnlightButton>

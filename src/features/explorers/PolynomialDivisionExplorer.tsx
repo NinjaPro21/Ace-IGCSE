@@ -58,25 +58,25 @@ export function PolynomialDivisionExplorer() {
   const phase = current.show
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Polynomial Long Division</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 16 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Polynomial Long Division</h2>
+      <p className="ace-body-text" style={{ marginBottom: 16 }}>
         Click <strong>Next step</strong> to walk through dividing a cubic by a linear factor — terms stay aligned in columns like on Paper 1.
       </p>
 
-      <div className="enlight-poly-longdiv-wrap" aria-label="Polynomial long division layout">
-        <table className="enlight-poly-longdiv-table">
+      <div className="ace-poly-longdiv-wrap" aria-label="Polynomial long division layout">
+        <table className="ace-poly-longdiv-table">
           <colgroup>
-            <col className="enlight-poly-longdiv-table__col-divisor" />
-            <col className="enlight-poly-longdiv-table__col-paren" />
-            <col className="enlight-poly-longdiv-table__col-term" />
-            <col className="enlight-poly-longdiv-table__col-term" />
-            <col className="enlight-poly-longdiv-table__col-term" />
-            <col className="enlight-poly-longdiv-table__col-term" />
+            <col className="ace-poly-longdiv-table__col-divisor" />
+            <col className="ace-poly-longdiv-table__col-paren" />
+            <col className="ace-poly-longdiv-table__col-term" />
+            <col className="ace-poly-longdiv-table__col-term" />
+            <col className="ace-poly-longdiv-table__col-term" />
+            <col className="ace-poly-longdiv-table__col-term" />
           </colgroup>
           <tbody>
             {/* Quotient row — spans term columns */}
-            <tr className="enlight-poly-longdiv-table__quotient">
+            <tr className="ace-poly-longdiv-table__quotient">
               <td colSpan={2} />
               <td>{phase >= 1 ? <MathText content="$2x^2$" /> : null}</td>
               <td>{phase >= 2 ? <MathText content="$-\,x$" /> : null}</td>
@@ -85,11 +85,11 @@ export function PolynomialDivisionExplorer() {
             </tr>
 
             {/* Divisor | Dividend */}
-            <tr className="enlight-poly-longdiv-table__header">
-              <td className="enlight-poly-longdiv-table__divisor">
+            <tr className="ace-poly-longdiv-table__header">
+              <td className="ace-poly-longdiv-table__divisor">
                 <MathText content="$x - 2$" />
               </td>
-              <td className="enlight-poly-longdiv-table__paren" aria-hidden="true">
+              <td className="ace-poly-longdiv-table__paren" aria-hidden="true">
                 )
               </td>
               <TermCells terms={DIVIDEND} />
@@ -97,17 +97,17 @@ export function PolynomialDivisionExplorer() {
 
             {phase >= 1 && (
               <>
-                <tr className="enlight-poly-longdiv-table__rule">
+                <tr className="ace-poly-longdiv-table__rule">
                   <td colSpan={6} />
                 </tr>
-                <tr className="enlight-poly-longdiv-table__subtract">
+                <tr className="ace-poly-longdiv-table__subtract">
                   <td colSpan={2} />
                   <TermCells terms={SUB1} />
                 </tr>
-                <tr className="enlight-poly-longdiv-table__rule enlight-poly-longdiv-table__rule--thin">
+                <tr className="ace-poly-longdiv-table__rule ace-poly-longdiv-table__rule--thin">
                   <td colSpan={6} />
                 </tr>
-                <tr className="enlight-poly-longdiv-table__result">
+                <tr className="ace-poly-longdiv-table__result">
                   <td colSpan={2} />
                   <TermCells terms={RES1} />
                 </tr>
@@ -116,14 +116,14 @@ export function PolynomialDivisionExplorer() {
 
             {phase >= 2 && (
               <>
-                <tr className="enlight-poly-longdiv-table__subtract">
+                <tr className="ace-poly-longdiv-table__subtract">
                   <td colSpan={2} />
                   <TermCells terms={SUB2} />
                 </tr>
-                <tr className="enlight-poly-longdiv-table__rule enlight-poly-longdiv-table__rule--thin">
+                <tr className="ace-poly-longdiv-table__rule ace-poly-longdiv-table__rule--thin">
                   <td colSpan={6} />
                 </tr>
-                <tr className="enlight-poly-longdiv-table__result">
+                <tr className="ace-poly-longdiv-table__result">
                   <td colSpan={2} />
                   <TermCells terms={RES2} />
                 </tr>
@@ -132,16 +132,16 @@ export function PolynomialDivisionExplorer() {
 
             {phase >= 3 && (
               <>
-                <tr className="enlight-poly-longdiv-table__subtract">
+                <tr className="ace-poly-longdiv-table__subtract">
                   <td colSpan={2} />
                   <TermCells terms={SUB3} />
                 </tr>
-                <tr className="enlight-poly-longdiv-table__rule enlight-poly-longdiv-table__rule--thin">
+                <tr className="ace-poly-longdiv-table__rule ace-poly-longdiv-table__rule--thin">
                   <td colSpan={6} />
                 </tr>
                 <tr
-                  className={`enlight-poly-longdiv-table__result${
-                    phase >= 3 ? ' enlight-poly-longdiv-table__result--remainder' : ''
+                  className={`ace-poly-longdiv-table__result${
+                    phase >= 3 ? ' ace-poly-longdiv-table__result--remainder' : ''
                   }`}
                 >
                   <td colSpan={2} />
@@ -153,9 +153,9 @@ export function PolynomialDivisionExplorer() {
         </table>
       </div>
 
-      <div className="enlight-inline-callout enlight-inline-callout--violet enlight-inline-callout--standalone">
-        <div className="enlight-inline-callout__label">{current.title}</div>
-        <div className="enlight-inline-callout__body">
+      <div className="ace-inline-callout ace-inline-callout--violet ace-inline-callout--standalone">
+        <div className="ace-inline-callout__label">{current.title}</div>
+        <div className="ace-inline-callout__body">
           <MathText content={current.body} block />
         </div>
       </div>
@@ -163,7 +163,7 @@ export function PolynomialDivisionExplorer() {
       <div style={{ display: 'flex', gap: 12, marginTop: 16 }}>
         <button
           type="button"
-          className="enlight-fn-tabs__btn"
+          className="ace-fn-tabs__btn"
           disabled={step === 0}
           onClick={() => setStep((s) => Math.max(0, s - 1))}
         >
@@ -171,13 +171,13 @@ export function PolynomialDivisionExplorer() {
         </button>
         <button
           type="button"
-          className="enlight-fn-tabs__btn enlight-fn-tabs__btn--active"
+          className="ace-fn-tabs__btn ace-fn-tabs__btn--active"
           disabled={step >= STEPS.length - 1}
           onClick={() => setStep((s) => Math.min(STEPS.length - 1, s + 1))}
         >
           Next step →
         </button>
-        <span style={{ alignSelf: 'center', fontSize: '0.82rem', color: 'var(--enlight-text-light)' }}>
+        <span style={{ alignSelf: 'center', fontSize: '0.82rem', color: 'var(--ace-text-light)' }}>
           Step {step + 1} / {STEPS.length}
         </span>
       </div>

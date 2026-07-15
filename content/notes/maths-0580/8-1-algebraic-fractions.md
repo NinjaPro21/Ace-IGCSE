@@ -14,12 +14,12 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 80" width="280" height="80" role="img" aria-label="Algebraic fraction">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 80" width="280" height="80" role="img" aria-label="Algebraic fraction">
       <text x="140" y="35" text-anchor="middle" font-size="14" fill="#1a1a1a">x² − 4</text>
       <line x1="80" y1="45" x2="200" y2="45" stroke="#a8a29e" stroke-width="2"/>
       <text x="140" y="65" text-anchor="middle" font-size="14" fill="#1a1a1a">x − 2</text>
       <text x="220" y="50" font-size="11" fill="#5b8def">→ x + 2</text>
-    </svg><p class="enlight-physics-diagram__caption">Algebraic fractions — factorise numerator and denominator, then cancel common factors.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Algebraic fractions — factorise numerator and denominator, then cancel common factors.</p></div>
 
 ## Steps / method
 

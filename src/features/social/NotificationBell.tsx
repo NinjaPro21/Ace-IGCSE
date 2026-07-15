@@ -52,34 +52,34 @@ export function NotificationBell() {
   }
 
   return (
-    <div className="enlight-notif-bell">
+    <div className="ace-notif-bell">
       <button
         type="button"
-        className="enlight-notif-bell__btn"
+        className="ace-notif-bell__btn"
         aria-label={`Notifications${pendingCount ? `, ${pendingCount} pending` : ''}`}
         onClick={() => setOpen((o) => !o)}
       >
         🔔
-        {pendingCount > 0 && <span className="enlight-notif-bell__badge">{pendingCount}</span>}
+        {pendingCount > 0 && <span className="ace-notif-bell__badge">{pendingCount}</span>}
       </button>
       {open && (
-        <div className="enlight-notif-bell__panel">
-          <div className="enlight-notif-bell__head">
-            <h3 className="enlight-notif-bell__title">Inbox</h3>
+        <div className="ace-notif-bell__panel">
+          <div className="ace-notif-bell__head">
+            <h3 className="ace-notif-bell__title">Inbox</h3>
             {clearableCount > 0 && (
-              <button type="button" className="enlight-notif-bell__clear" onClick={clearInbox}>
+              <button type="button" className="ace-notif-bell__clear" onClick={clearInbox}>
                 Clear inbox
               </button>
             )}
           </div>
           {friendRequests.length === 0 && visibleDuels.length === 0 && (
-            <p className="enlight-body-text">Nothing pending — you&apos;re all caught up.</p>
+            <p className="ace-body-text">Nothing pending — you&apos;re all caught up.</p>
           )}
-          {inboxError && <p className="enlight-body-text enlight-form-message enlight-form-message--error">{inboxError}</p>}
+          {inboxError && <p className="ace-body-text ace-form-message ace-form-message--error">{inboxError}</p>}
           {friendRequests.map((r) => (
-            <div key={r.id} className="enlight-notif-item">
+            <div key={r.id} className="ace-notif-item">
               <span>Friend request from {names[r.fromUid] ?? '…'}</span>
-              <div className="enlight-notif-item__actions">
+              <div className="ace-notif-item__actions">
                 <button type="button" onClick={() => void acceptFriend(r.id)}>Accept</button>
                 <button type="button" onClick={() => void declineFriend(r.id)}>Decline</button>
               </div>
@@ -92,12 +92,12 @@ export function NotificationBell() {
 
             if (d.status === 'pending' && d.opponentUid === user.id) {
               return (
-                <div key={d.id} className="enlight-notif-item enlight-notif-item--duel">
+                <div key={d.id} className="ace-notif-item ace-notif-item--duel">
                   <div>
-                    <span className="enlight-notif-item__eyebrow">Duel challenge</span>
+                    <span className="ace-notif-item__eyebrow">Duel challenge</span>
                     <span>{names[d.challengerUid] ?? 'Someone'} — {label}</span>
                   </div>
-                  <div className="enlight-notif-item__actions">
+                  <div className="ace-notif-item__actions">
                     <button
                       type="button"
                       onClick={() => {
@@ -117,9 +117,9 @@ export function NotificationBell() {
 
             if (d.status === 'pending' && d.challengerUid === user.id) {
               return (
-                <div key={d.id} className="enlight-notif-item enlight-notif-item--duel enlight-notif-item--muted">
+                <div key={d.id} className="ace-notif-item ace-notif-item--duel ace-notif-item--muted">
                   <div>
-                    <span className="enlight-notif-item__eyebrow">Duel sent</span>
+                    <span className="ace-notif-item__eyebrow">Duel sent</span>
                     <span>Waiting for {names[otherUid] ?? 'friend'} — {label}</span>
                   </div>
                 </div>
@@ -128,12 +128,12 @@ export function NotificationBell() {
 
             if (d.status === 'active' && duelNeedsAction(d, user.id) && quizPath) {
               return (
-                <div key={d.id} className="enlight-notif-item enlight-notif-item--duel enlight-notif-item--action">
+                <div key={d.id} className="ace-notif-item ace-notif-item--duel ace-notif-item--action">
                   <div>
-                    <span className="enlight-notif-item__eyebrow">Duel live</span>
+                    <span className="ace-notif-item__eyebrow">Duel live</span>
                     <span>vs {names[otherUid] ?? '…'} — {label}</span>
                   </div>
-                  <Link to={quizPath} className="enlight-notif-item__cta" onClick={() => setOpen(false)}>
+                  <Link to={quizPath} className="ace-notif-item__cta" onClick={() => setOpen(false)}>
                     Take quiz →
                   </Link>
                 </div>
@@ -142,9 +142,9 @@ export function NotificationBell() {
 
             if (d.status === 'active' && duelUserScoreSubmitted(d, user.id)) {
               return (
-                <div key={d.id} className="enlight-notif-item enlight-notif-item--duel enlight-notif-item--muted">
+                <div key={d.id} className="ace-notif-item ace-notif-item--duel ace-notif-item--muted">
                   <div>
-                    <span className="enlight-notif-item__eyebrow">Duel submitted</span>
+                    <span className="ace-notif-item__eyebrow">Duel submitted</span>
                     <span>Waiting for {names[otherUid] ?? 'opponent'} — {label}</span>
                   </div>
                 </div>

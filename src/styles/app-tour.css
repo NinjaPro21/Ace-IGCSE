@@ -1,19 +1,19 @@
 /* Post-sign-in app tour spotlight */
-.enlight-app-tour {
+.ace-app-tour {
   position: fixed;
   inset: 0;
   z-index: 10000;
   pointer-events: none;
 }
 
-.enlight-app-tour__backdrop {
+.ace-app-tour__backdrop {
   position: absolute;
   inset: 0;
   background: rgba(15, 18, 28, 0.55);
   pointer-events: auto;
 }
 
-.enlight-app-tour__spotlight {
+.ace-app-tour__spotlight {
   position: fixed;
   border-radius: 12px;
   box-shadow: 0 0 0 9999px rgba(15, 18, 28, 0.55);
@@ -22,28 +22,28 @@
   transition: top 0.25s ease, left 0.25s ease, width 0.25s ease, height 0.25s ease;
 }
 
-.enlight-app-tour__card {
+.ace-app-tour__card {
   position: fixed;
   z-index: 10002;
   width: min(320px, calc(100vw - 32px));
   padding: 22px 24px;
   border-radius: 16px;
   background: #fff;
-  border: 1px solid var(--enlight-border);
+  border: 1px solid var(--ace-border);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
   pointer-events: auto;
-  animation: enlight-app-tour-in 0.3s ease;
+  animation: ace-app-tour-in 0.3s ease;
 }
 
-.enlight-app-tour__card--center {
+.ace-app-tour__card--center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: min(420px, calc(100vw - 32px));
-  animation-name: enlight-app-tour-in-center;
+  animation-name: ace-app-tour-in-center;
 }
 
-@keyframes enlight-app-tour-in {
+@keyframes ace-app-tour-in {
   from {
     opacity: 0;
     transform: translateY(8px);
@@ -54,7 +54,7 @@
   }
 }
 
-@keyframes enlight-app-tour-in-center {
+@keyframes ace-app-tour-in-center {
   from {
     opacity: 0;
     transform: translate(-50%, -48%);
@@ -65,48 +65,48 @@
   }
 }
 
-.enlight-app-tour__progress {
+.ace-app-tour__progress {
   display: flex;
   gap: 6px;
   margin-bottom: 12px;
 }
 
-.enlight-app-tour__dot {
+.ace-app-tour__dot {
   flex: 1;
   height: 4px;
   border-radius: 999px;
-  background: var(--enlight-border);
+  background: var(--ace-border);
 }
 
-.enlight-app-tour__dot--active {
-  background: var(--enlight-gold);
+.ace-app-tour__dot--active {
+  background: var(--ace-gold);
 }
 
-.enlight-app-tour__dot--done {
-  background: var(--enlight-sage);
+.ace-app-tour__dot--done {
+  background: var(--ace-sage);
 }
 
-.enlight-app-tour__step-count {
+.ace-app-tour__step-count {
   margin: 0 0 6px;
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--enlight-gold);
+  color: var(--ace-gold);
 }
 
-.enlight-app-tour__title {
+.ace-app-tour__title {
   margin: 0 0 8px;
   font-size: 1.35rem;
 }
 
-.enlight-app-tour__body {
+.ace-app-tour__body {
   margin: 0 0 18px;
   font-size: 0.92rem;
   line-height: 1.55;
 }
 
-.enlight-app-tour__actions {
+.ace-app-tour__actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,7 +114,7 @@
   flex-wrap: wrap;
 }
 
-.enlight-app-tour__nav-btns {
+.ace-app-tour__nav-btns {
   display: flex;
   gap: 8px;
   margin-left: auto;

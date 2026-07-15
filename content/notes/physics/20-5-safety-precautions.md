@@ -32,7 +32,7 @@ Safety protocols aim to minimize the 'Time' variable to reduce total damage.
 - **Inverse Intensity Visual**: A diagram showing that as you move further away from a radioactive source, the density of the radiation particles/waves hitting a specific area decreases significantly.
 - **Handling at Distance**: Use long-handled tongs to keep a safe distance from the source while working.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 200" width="480" height="200" role="img" aria-label="Radiation safety time distance shielding">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 200" width="480" height="200" role="img" aria-label="Radiation safety time distance shielding">
       <text x="120" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Shielding</text>
       <text x="360" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Distance</text>
       <rect x="60" y="50" width="120" height="90" fill="#64748b" stroke="#334155" stroke-width="2" rx="4"/>
@@ -47,7 +47,7 @@ Safety protocols aim to minimize the 'Time' variable to reduce total damage.
       <text x="360" y="80" font-size="9" fill="#64748b">tongs</text>
       <text x="360" y="158" text-anchor="middle" font-size="9" fill="#64748b">keep distance — use long-handled tools</text>
       <text x="240" y="188" text-anchor="middle" font-size="10" fill="#475569">time · distance · shielding</text>
-    </svg><p class="enlight-physics-diagram__caption">Radiation safety — store sources in a lead box; handle at a distance with tongs; limit exposure time.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Radiation safety — store sources in a lead box; handle at a distance with tongs; limit exposure time.</p></div>
 
 ## Steps / method
 

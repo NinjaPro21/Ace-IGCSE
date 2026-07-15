@@ -94,19 +94,19 @@ export function StudyRoomPanel({ subjectId, chapterId, topicId, topicTitle }: St
   }
 
   return (
-    <section className="enlight-dashboard-card enlight-study-room" aria-label="Study room">
-      <h2 className="enlight-heading-serif enlight-dashboard-card__title">Study together</h2>
+    <section className="ace-dashboard-card ace-study-room" aria-label="Study room">
+      <h2 className="ace-heading-serif ace-dashboard-card__title">Study together</h2>
       {!roomId ? (
         <>
-          <p className="enlight-body-text">Start a room and share the link so friends join this lesson.</p>
-          <div className="enlight-popout__actions">
+          <p className="ace-body-text">Start a room and share the link so friends join this lesson.</p>
+          <div className="ace-popout__actions">
             <EnlightButton onClick={() => void handleCreate()} disabled={busy}>
               Create room
             </EnlightButton>
           </div>
-          <div className="enlight-study-plan__add" style={{ marginTop: 12 }}>
+          <div className="ace-study-plan__add" style={{ marginTop: 12 }}>
             <input
-              className="enlight-input"
+              className="ace-input"
               placeholder="Room ID to join"
               value={joinDraft}
               onChange={(e) => setJoinDraft(e.target.value)}
@@ -126,10 +126,10 @@ export function StudyRoomPanel({ subjectId, chapterId, topicId, topicTitle }: St
         </>
       ) : (
         <>
-          <p className="enlight-body-text">
+          <p className="ace-body-text">
             {room ? `${room.memberUids.length} studying · ${room.topicTitle}` : 'Connecting…'}
           </p>
-          <div className="enlight-popout__actions">
+          <div className="ace-popout__actions">
             <EnlightButton variant="outline" onClick={() => void handleCopy()}>
               {copied ? 'Link copied!' : 'Copy invite link'}
             </EnlightButton>

@@ -40,7 +40,7 @@ Applies to the recessional velocity of galaxies moving away from Earth, where $H
 - **Comet Velocity and Energy**: A diagram of a comet's orbit shows it moving fastest when closest to the Sun (maximum kinetic energy) and slowest when furthest away (maximum gravitational potential energy).
 - **Distance vs. Orbital Time**: A graph of planetary data shows that as the distance from the Sun increases, the time to complete an orbit increases significantly because the Sun's gravitational field strength decreases.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Elliptical orbit of a comet">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Elliptical orbit of a comet">
       <ellipse cx="260" cy="110" rx="180" ry="75" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
       <circle cx="130" cy="110" r="20" fill="#fef08a" stroke="#ca8a04"/>
       <text x="130" y="114" text-anchor="middle" font-size="8" fill="#854d0e">Sun</text>
@@ -53,7 +53,7 @@ Applies to the recessional velocity of galaxies moving away from Earth, where $H
       <text x="400" y="130" text-anchor="middle" font-size="8" fill="#c2410c">fast, max KE</text>
       <path d="M55 110 Q180 60 400 110 Q180 160 55 110" fill="none" stroke="#f97316" stroke-width="2" stroke-dasharray="6 4"/>
       <text x="240" y="200" text-anchor="middle" font-size="10" fill="#475569">GPE → KE as comet approaches the Sun</text>
-    </svg><p class="enlight-physics-diagram__caption">Elliptical orbits — the Sun lies at one focus; comets move fastest when closest to the Sun (perihelion).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Elliptical orbits — the Sun lies at one focus; comets move fastest when closest to the Sun (perihelion).</p></div>
 
 ## Steps / method
 

@@ -31,12 +31,12 @@ Applies only when an object is in equilibrium (stationary or rotating at a const
 - Use the **perpendicular distance** from the pivot to the line of action of each force — not the distance along a sloping beam.
 - Clockwise and anticlockwise moments must be added separately before applying the principle of moments.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 100" width="320" height="100" role="img" aria-label="Vector arrow">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 100" width="320" height="100" role="img" aria-label="Vector arrow">
       <line x1="40" y1="60" x2="260" y2="60" stroke="#2563eb" stroke-width="3" marker-end="url(#va)"/>
       <text x="150" y="48" text-anchor="middle" font-size="12" fill="#2563eb">magnitude (length)</text>
       <text x="270" y="64" font-size="11" fill="#64748b">direction →</text>
       <defs><marker id="va" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Vector — arrow length shows magnitude; arrowhead shows direction.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Vector — arrow length shows magnitude; arrowhead shows direction.</p></div>
 
 ## Steps / method
 

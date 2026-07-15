@@ -29,7 +29,7 @@ Applies to any object in a circular or nearly circular orbit, where $v$ is the o
 - **Apparent Motion**: A path across the sky represents the Sun's "movement" from East to West, which is actually caused by the Earth's West-to-East rotation.
 - **Moon Phases**: A circular diagram showing the Moon's positions relative to the Earth and Sun, identifying phases like New Moon (dark side faces Earth), Full Moon (bright side faces Earth), Waxing (bright part increasing), and Waning (bright part decreasing).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Earth day and night cycle">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Earth day and night cycle">
       <circle cx="55" cy="100" r="28" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
       <text x="55" y="104" text-anchor="middle" font-size="9" fill="#854d0e">Sun</text>
       <line x1="85" y1="100" x2="130" y2="100" stroke="#fbbf24" stroke-width="2" opacity="0.6"/>
@@ -42,9 +42,9 @@ Applies to any object in a circular or nearly circular orbit, where $v$ is the o
       <path d="M195 130 A40 40 0 0 1 305 130" fill="none" stroke="#f59e0b" stroke-width="2" marker-end="url(#edn-arr)"/>
       <text x="250" y="128" text-anchor="middle" font-size="9" fill="#f59e0b">rotation (W → E)</text>
       <defs><marker id="edn-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#f59e0b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Day and night — the Sun illuminates half the Earth at a time; rotation from west to east causes the apparent motion of the Sun.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Day and night — the Sun illuminates half the Earth at a time; rotation from west to east causes the apparent motion of the Sun.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Earth seasons and axial tilt">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Earth seasons and axial tilt">
       <circle cx="240" cy="110" r="22" fill="#fef08a" stroke="#ca8a04"/>
       <text x="240" y="114" text-anchor="middle" font-size="8" fill="#854d0e">Sun</text>
       <ellipse cx="240" cy="110" rx="170" ry="70" fill="none" stroke="#cbd5e1" stroke-dasharray="5 4"/>
@@ -61,7 +61,7 @@ Applies to any object in a circular or nearly circular orbit, where $v$ is the o
         <text x="0" y="50" text-anchor="middle" font-size="8" fill="#64748b">tilted away</text>
       </g>
       <text x="240" y="200" text-anchor="middle" font-size="10" fill="#475569">axial tilt ≈ 23.5°</text>
-    </svg><p class="enlight-physics-diagram__caption">Seasons — caused by the 23.5° tilt of Earth's axis, not by distance from the Sun.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Seasons — caused by the 23.5° tilt of Earth's axis, not by distance from the Sun.</p></div>
 
 ## Steps / method
 

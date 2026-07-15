@@ -41,7 +41,7 @@ The most common formula for calculating wave speed, frequency, or wavelength.
 - Acts like a "photograph" of the entire wave at one instant.
 - Shows wavelength ($\lambda$) and amplitude ($A$).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement distance graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement distance graph">
       <line x1="50" y1="100" x2="420" y2="100" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <text x="235" y="188" text-anchor="middle" font-size="11" fill="#475569">Distance</text>
       <text x="16" y="100" transform="rotate(-90 16 100)" text-anchor="middle" font-size="11" fill="#475569">Displacement</text>
@@ -54,14 +54,14 @@ The most common formula for calculating wave speed, frequency, or wavelength.
       <line x1="140" y1="51" x2="140" y2="59" stroke="#16a34a" stroke-width="2"/>
       <text x="110" y="44" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="600">λ</text>
       <text x="76" y="49" font-size="12" fill="#dc2626" font-weight="600">A</text>
-    </svg><p class="enlight-physics-diagram__caption">Displacement–distance graph — wavelength λ is crest-to-crest distance; amplitude A is maximum displacement from the rest line.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Displacement–distance graph — wavelength λ is crest-to-crest distance; amplitude A is maximum displacement from the rest line.</p></div>
 
 **Displacement–time graph**
 
 - Tracks one single particle over time.
 - Shows period ($T$) and amplitude ($A$).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement time graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 460 200" width="460" height="200" role="img" aria-label="Wave displacement time graph">
       <line x1="50" y1="100" x2="420" y2="100" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <text x="235" y="188" text-anchor="middle" font-size="11" fill="#475569">Time</text>
       <text x="16" y="100" transform="rotate(-90 16 100)" text-anchor="middle" font-size="11" fill="#475569">Displacement</text>
@@ -74,20 +74,20 @@ The most common formula for calculating wave speed, frequency, or wavelength.
       <line x1="140" y1="51" x2="140" y2="59" stroke="#16a34a" stroke-width="2"/>
       <text x="110" y="44" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="600">T</text>
       <text x="76" y="49" font-size="12" fill="#dc2626" font-weight="600">A</text>
-    </svg><p class="enlight-physics-diagram__caption">Displacement–time graph — period T is time for one complete oscillation; amplitude A is maximum displacement from the rest line.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Displacement–time graph — period T is time for one complete oscillation; amplitude A is maximum displacement from the rest line.</p></div>
 
 **C.R.O. traces (pitch)**
 
 - Same time base: more cycles in the same interval means higher frequency (higher pitch).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO pitch comparison">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO pitch comparison">
       <text x="210" y="14" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">High pitch (short period)</text>
       <rect x="30" y="22" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
       <path d="M40 48 Q55 30 70 48 T100 48 T130 48 T160 48 T190 48" fill="none" stroke="#2563eb" stroke-width="2"/>
       <text x="210" y="88" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Low pitch (long period)</text>
       <rect x="30" y="96" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
       <path d="M40 122 Q80 104 120 122 T200 122 T280 122 T360 122" fill="none" stroke="#16a34a" stroke-width="2"/>
-    </svg><p class="enlight-physics-diagram__caption">C.R.O. traces — same time base: more cycles in the same interval means higher frequency (higher pitch).</p></div>
+    </svg><p class="ace-physics-diagram__caption">C.R.O. traces — same time base: more cycles in the same interval means higher frequency (higher pitch).</p></div>
 
 **Wavefront diagrams**
 

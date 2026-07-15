@@ -38,7 +38,7 @@ Radiation is the transfer of thermal energy as invisible infrared waves. Unlike 
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
       <rect x="40" y="50" width="50" height="40" fill="#1e293b" stroke="#334155"/>
       <text x="65" y="75" text-anchor="middle" font-size="9" fill="#fff">hot</text>
       <path d="M95 60 Q130 40 165 60" fill="none" stroke="#f97316" stroke-width="2"/>
@@ -47,7 +47,7 @@ Radiation is the transfer of thermal energy as invisible infrared waves. Unlike 
       <text x="130" y="35" text-anchor="middle" font-size="10" fill="#f97316">IR waves</text>
       <rect x="200" y="50" width="120" height="40" fill="#f8fafc" stroke="#cbd5e1"/>
       <text x="260" y="75" text-anchor="middle" font-size="10" fill="#64748b">absorber (no contact needed)</text>
-    </svg><p class="enlight-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
 
 ## Steps / method
 

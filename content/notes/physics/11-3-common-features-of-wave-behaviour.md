@@ -37,7 +37,7 @@ Diffraction is the spreading of waves after passing through an opening or past a
 
 - Plane wavefronts bounce off a straight barrier with $i = r$.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Wave reflection in ripple tank">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Wave reflection in ripple tank">
       <rect x="0" y="0" width="420" height="220" fill="#eff6ff"/>
       <line x1="300" y1="30" x2="300" y2="190" stroke="#64748b" stroke-width="4"/>
       <text x="310" y="115" font-size="11" fill="#64748b" font-weight="600">barrier</text>
@@ -53,13 +53,13 @@ Diffraction is the spreading of waves after passing through an opening or past a
       <text x="250" y="55" font-size="11" fill="#2563eb" font-weight="600">incident</text>
       <text x="350" y="55" font-size="11" fill="#f59e0b" font-weight="600">reflected</text>
       <text x="305" y="38" font-size="10" fill="#64748b">normal</text>
-    </svg><p class="enlight-physics-diagram__caption">Reflection in a ripple tank — plane wavefronts bounce off a straight barrier with $i = r$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Reflection in a ripple tank — plane wavefronts bounce off a straight barrier with $i = r$.</p></div>
 
 **Refraction in a ripple tank**
 
 - Waves slow in shallow water; wavelength decreases and wavefronts bend at the boundary.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Wave refraction in ripple tank">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="Wave refraction in ripple tank">
       <rect x="0" y="0" width="210" height="220" fill="#bfdbfe"/>
       <rect x="210" y="0" width="210" height="220" fill="#dbeafe"/>
       <text x="105" y="24" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="600">deep (faster)</text>
@@ -78,7 +78,7 @@ Diffraction is the spreading of waves after passing through an opening or past a
       <path d="M190 130 Q205 128 260 125" stroke="#2563eb" stroke-width="2.5" fill="none"/>
       <path d="M190 160 Q205 155 275 150" stroke="#2563eb" stroke-width="2.5" fill="none"/>
       <text x="300" y="200" text-anchor="middle" font-size="10" fill="#475569">shorter λ in shallow water</text>
-    </svg><p class="enlight-physics-diagram__caption">Refraction in a ripple tank — waves slow in shallow water; wavelength decreases and wavefronts bend.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Refraction in a ripple tank — waves slow in shallow water; wavelength decreases and wavefronts bend.</p></div>
 
 ## Steps / method
 

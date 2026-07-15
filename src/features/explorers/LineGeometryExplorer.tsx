@@ -26,26 +26,26 @@ function FormsPanel() {
   }, [m, c])
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+        <p className="ace-body-text" style={{ marginBottom: 12 }}>
           Adjust gradient and intercept — see slope-intercept, point-gradient, and general forms update together.
         </p>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="lg-m"><strong>m</strong> = {m}</label>
           <input id="lg-m" type="range" min={-2} max={3} step={0.25} value={m} onChange={(e) => setM(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="lg-c"><strong>c</strong> = {c}</label>
           <input id="lg-c" type="range" min={-2} max={6} step={0.5} value={c} onChange={(e) => setC(Number(e.target.value))} />
         </div>
-        <div className="enlight-formula-stack" style={{ marginTop: 12 }}>
-          <div className="enlight-formula-stack__item">y = {m}x + {c}</div>
-          <div className="enlight-formula-stack__item">y − {y1.toFixed(1)} = {m}(x − {x1})</div>
-          <div className="enlight-formula-stack__item">{m}x − y + {c} = 0</div>
+        <div className="ace-formula-stack" style={{ marginTop: 12 }}>
+          <div className="ace-formula-stack__item">y = {m}x + {c}</div>
+          <div className="ace-formula-stack__item">y − {y1.toFixed(1)} = {m}(x − {x1})</div>
+          <div className="ace-formula-stack__item">{m}x − y + {c} = 0</div>
         </div>
       </div>
-      <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Line graph">
+      <svg viewBox={`0 0 ${W} ${H}`} className="ace-graph-canvas" role="img" aria-label="Line graph">
         <GraphAxes mapper={MAPPER} gridX={10} gridY={10} />
         <polyline points={path} fill="none" stroke="#5b8def" strokeWidth={2.5} />
         <circle cx={toSvgX(0)} cy={toSvgY(c)} r={5} fill="#f59e0b" />
@@ -71,26 +71,26 @@ function IntersectPanel() {
   }
 
   return (
-    <div className="enlight-explorer__layout">
+    <div className="ace-explorer__layout">
       <div>
-        <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+        <p className="ace-body-text" style={{ marginBottom: 12 }}>
           Two lines: adjust gradients and intercepts. The intersection point is the simultaneous solution.
         </p>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="lg-m1">Line 1: y = {m1}x + {c1}</label>
           <input id="lg-m1" type="range" min={-3} max={4} step={0.5} value={m1} onChange={(e) => setM1(Number(e.target.value))} />
           <input id="lg-c1" type="range" min={-2} max={10} step={0.5} value={c1} onChange={(e) => setC1(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="lg-m2">Line 2: y = {m2}x + {c2}</label>
           <input id="lg-m2" type="range" min={-3} max={4} step={0.5} value={m2} onChange={(e) => setM2(Number(e.target.value))} />
           <input id="lg-c2" type="range" min={-2} max={10} step={0.5} value={c2} onChange={(e) => setC2(Number(e.target.value))} />
         </div>
         {m1 !== m2 && (
-          <p className="enlight-rtri-result">Solution: x = {xInt.toFixed(2)}, y = {yInt.toFixed(2)}</p>
+          <p className="ace-rtri-result">Solution: x = {xInt.toFixed(2)}, y = {yInt.toFixed(2)}</p>
         )}
       </div>
-      <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Two lines intersection">
+      <svg viewBox={`0 0 ${W} ${H}`} className="ace-graph-canvas" role="img" aria-label="Two lines intersection">
         <GraphAxes mapper={MAPPER} gridX={10} gridY={10} />
         {line(m1, c1, '#2563eb')}
         {line(m2, c2, '#059669')}
@@ -125,27 +125,27 @@ function ParallelPanel() {
 
   return (
     <div>
-      <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+      <p className="ace-body-text" style={{ marginBottom: 12 }}>
         Drag endpoints of line AB. A second line through the midpoint shows a {mode} line.
       </p>
-      <div className="enlight-fn-tabs" style={{ marginBottom: 12 }}>
+      <div className="ace-fn-tabs" style={{ marginBottom: 12 }}>
         {(['parallel', 'perpendicular'] as const).map((m) => (
           <button
             key={m}
             type="button"
-            className={`enlight-fn-tabs__btn${mode === m ? ' enlight-fn-tabs__btn--active' : ''}`}
+            className={`ace-fn-tabs__btn${mode === m ? ' ace-fn-tabs__btn--active' : ''}`}
             onClick={() => setMode(m)}
           >
             {m === 'parallel' ? 'Parallel' : 'Perpendicular'}
           </button>
         ))}
       </div>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label>A ({ax}, {ay})</label>
         <input type="range" min={0} max={8} step={0.5} value={ax} onChange={(e) => setAx(Number(e.target.value))} />
         <input type="range" min={0} max={8} step={0.5} value={ay} onChange={(e) => setAy(Number(e.target.value))} />
       </div>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label>B ({bx}, {by})</label>
         <input type="range" min={0} max={8} step={0.5} value={bx} onChange={(e) => setBx(Number(e.target.value))} />
         <input type="range" min={0} max={8} step={0.5} value={by} onChange={(e) => setBy(Number(e.target.value))} />
@@ -153,7 +153,7 @@ function ParallelPanel() {
       <p style={{ fontSize: '0.82rem', marginTop: 8 }}>
         Midpoint M = ({midX.toFixed(1)}, {midY.toFixed(1)}) · gradient AB = {mx.toFixed(2)}
       </p>
-      <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" style={{ marginTop: 12 }} role="img" aria-label="Parallel lines">
+      <svg viewBox={`0 0 ${W} ${H}`} className="ace-graph-canvas" style={{ marginTop: 12 }} role="img" aria-label="Parallel lines">
         <GraphAxes mapper={MAPPER} gridX={10} gridY={10} />
         <polyline points={lineThrough(ax, ay, mx, 8)} fill="none" stroke="#5b8def" strokeWidth={2.5} />
         <polyline points={lineThrough(midX, midY, secM, 6)} fill="none" stroke="#059669" strokeWidth={2} strokeDasharray="6 4" />
@@ -180,15 +180,15 @@ export function LineGeometryExplorer({ panels }: { panels?: LineGeometryPanel[] 
   }
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Coordinate Geometry Lab</h2>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Coordinate Geometry Lab</h2>
       {active.length > 1 && (
-        <div className="enlight-fn-tabs" style={{ marginBottom: 16 }}>
+        <div className="ace-fn-tabs" style={{ marginBottom: 16 }}>
           {active.map((id) => (
             <button
               key={id}
               type="button"
-              className={`enlight-fn-tabs__btn${current === id ? ' enlight-fn-tabs__btn--active' : ''}`}
+              className={`ace-fn-tabs__btn${current === id ? ' ace-fn-tabs__btn--active' : ''}`}
               onClick={() => setTab(id)}
             >
               {tabLabels[id]}

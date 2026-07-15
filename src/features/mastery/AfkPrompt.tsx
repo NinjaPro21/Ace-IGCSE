@@ -75,19 +75,19 @@ export function AfkPrompt() {
 
   return (
     <div
-      className="enlight-popout-overlay enlight-afk-overlay"
+      className="ace-popout-overlay ace-afk-overlay"
       role="dialog"
       aria-modal="true"
       aria-labelledby="afk-prompt-title"
     >
-      <div className="enlight-popout enlight-popout--card enlight-afk-prompt">
-        <h2 id="afk-prompt-title" className="enlight-heading-serif enlight-popout__title">
+      <div className="ace-popout ace-popout--card ace-afk-prompt">
+        <h2 id="afk-prompt-title" className="ace-heading-serif ace-popout__title">
           Still studying?
         </h2>
-        <p className="enlight-body-text enlight-popout__text">
+        <p className="ace-body-text ace-popout__text">
           No activity for 10 minutes — study time is paused so your progress stays accurate.
         </p>
-        <div className="enlight-popout__actions">
+        <div className="ace-popout__actions">
           <EnlightButton onClick={handleStillHere}>I&apos;m still here</EnlightButton>
           <EnlightButton variant="outline" onClick={handleWasAway}>I was away</EnlightButton>
         </div>

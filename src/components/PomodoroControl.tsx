@@ -42,10 +42,10 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
         : 'Click to resume · double-click to reset'
 
   return (
-    <div className={`enlight-pomodoro-control ${compact ? 'enlight-pomodoro-control--compact' : ''} ${className}`.trim()}>
+    <div className={`ace-pomodoro-control ${compact ? 'ace-pomodoro-control--compact' : ''} ${className}`.trim()}>
       <button
         type="button"
-        className={`enlight-timer${running ? ' enlight-timer--running' : ''}${finished ? ' enlight-timer--finished' : ''}${phase === 'break' ? ' enlight-timer--break' : ''}`}
+        className={`ace-timer${running ? ' ace-timer--running' : ''}${finished ? ' ace-timer--finished' : ''}${phase === 'break' ? ' ace-timer--break' : ''}`}
         onClick={handleTimerClick}
         onDoubleClick={(e) => {
           e.preventDefault()
@@ -54,16 +54,16 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
         title={timerTitle}
         aria-label={`Pomodoro ${phase}: ${display}. ${timerTitle}`}
       >
-        <span className="enlight-timer__icon" aria-hidden>
+        <span className="ace-timer__icon" aria-hidden>
           {finished ? '✓' : running ? '⏸' : '▶'}
         </span>
-        <span className="enlight-timer__phase">{phase === 'work' ? 'Focus' : 'Break'}</span>
-        <span className="enlight-timer__display">{display}</span>
+        <span className="ace-timer__phase">{phase === 'work' ? 'Focus' : 'Break'}</span>
+        <span className="ace-timer__display">{display}</span>
       </button>
 
       <button
         type="button"
-        className="enlight-pomodoro-control__settings-btn"
+        className="ace-pomodoro-control__settings-btn"
         aria-expanded={open}
         aria-label="Pomodoro work and break duration"
         onClick={() => setOpen((v) => !v)}
@@ -72,12 +72,12 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
       </button>
 
       {open && (
-        <div className="enlight-pomodoro-control__panel" role="dialog" aria-label="Pomodoro settings">
-          <p className="enlight-pomodoro-control__panel-title">Study timer</p>
-          <label className="enlight-pomodoro-control__field">
+        <div className="ace-pomodoro-control__panel" role="dialog" aria-label="Pomodoro settings">
+          <p className="ace-pomodoro-control__panel-title">Study timer</p>
+          <label className="ace-pomodoro-control__field">
             Focus (min)
             <select
-              className="enlight-select"
+              className="ace-select"
               value={settings.workMinutes}
               onChange={(e) => setWorkMinutes(Number(e.target.value))}
               disabled={sessionActive && running}
@@ -89,10 +89,10 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
               ))}
             </select>
           </label>
-          <label className="enlight-pomodoro-control__field">
+          <label className="ace-pomodoro-control__field">
             Break (min)
             <select
-              className="enlight-select"
+              className="ace-select"
               value={settings.breakMinutes}
               onChange={(e) => setBreakMinutes(Number(e.target.value))}
               disabled={sessionActive && running}
@@ -104,7 +104,7 @@ export function PomodoroControl({ compact = false, className = '' }: PomodoroCon
               ))}
             </select>
           </label>
-          <p className="enlight-pomodoro-control__hint">Earn XP from real focus time on each lesson.</p>
+          <p className="ace-pomodoro-control__hint">Earn XP from real focus time on each lesson.</p>
         </div>
       )}
     </div>

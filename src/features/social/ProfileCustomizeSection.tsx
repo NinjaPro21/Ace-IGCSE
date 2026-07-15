@@ -42,52 +42,52 @@ export function ProfileCustomizeSection({
   const unlocked = achievements.filter((a) => a.unlocked)
 
   return (
-    <section className="enlight-profile-customize">
-      <button type="button" className="enlight-profile-customize__toggle" onClick={() => setOpen((v) => !v)}>
-        <h2 className="enlight-heading-serif">Customize profile</h2>
+    <section className="ace-profile-customize">
+      <button type="button" className="ace-profile-customize__toggle" onClick={() => setOpen((v) => !v)}>
+        <h2 className="ace-heading-serif">Customize profile</h2>
         <span aria-hidden>{open ? '−' : '+'}</span>
       </button>
 
       {open && (
-        <div className="enlight-profile-customize__body">
-          <div className="enlight-profile-customize__block">
-            <h3 className="enlight-profile-customize__label">Background theme</h3>
-            <div className="enlight-profile-theme-picker">
+        <div className="ace-profile-customize__body">
+          <div className="ace-profile-customize__block">
+            <h3 className="ace-profile-customize__label">Background theme</h3>
+            <div className="ace-profile-theme-picker">
               {THEMES.map((t) => (
                 <button
                   key={t}
                   type="button"
-                  className={`enlight-profile-theme-picker__opt enlight-profile-theme-picker__opt--${t}${theme === t ? ' enlight-profile-theme-picker__opt--active' : ''}`}
+                  className={`ace-profile-theme-picker__opt ace-profile-theme-picker__opt--${t}${theme === t ? ' ace-profile-theme-picker__opt--active' : ''}`}
                   onClick={() => onThemeChange(t)}
                 >
-                  <span className="enlight-profile-theme-picker__swatch" />
+                  <span className="ace-profile-theme-picker__swatch" />
                   <span>{PROFILE_THEME_LABELS[t]}</span>
                 </button>
               ))}
             </div>
           </div>
 
-          <div className="enlight-profile-customize__block">
-            <h3 className="enlight-profile-customize__label">
-              Showcase achievements <span className="enlight-profile-customize__hint">(pick up to {MAX_SHOWCASE})</span>
+          <div className="ace-profile-customize__block">
+            <h3 className="ace-profile-customize__label">
+              Showcase achievements <span className="ace-profile-customize__hint">(pick up to {MAX_SHOWCASE})</span>
             </h3>
             {unlocked.length === 0 ? (
-              <p className="enlight-body-text">Unlock achievements by studying to pin them here.</p>
+              <p className="ace-body-text">Unlock achievements by studying to pin them here.</p>
             ) : (
-              <div className="enlight-profile-pick-grid">
+              <div className="ace-profile-pick-grid">
                 {unlocked.map((a) => {
                   const selected = showcaseAchievementIds.includes(a.id)
                   return (
                     <button
                       key={a.id}
                       type="button"
-                      className={`enlight-profile-pick${selected ? ' enlight-profile-pick--selected' : ''}`}
+                      className={`ace-profile-pick${selected ? ' ace-profile-pick--selected' : ''}`}
                       onClick={() =>
                         onShowcaseAchievementsChange(toggleShowcaseId(showcaseAchievementIds, a.id))
                       }
                     >
-                      <span className="enlight-profile-pick__icon">{a.icon}</span>
-                      <span className="enlight-profile-pick__title">{a.title}</span>
+                      <span className="ace-profile-pick__icon">{a.icon}</span>
+                      <span className="ace-profile-pick__title">{a.title}</span>
                     </button>
                   )
                 })}
@@ -95,27 +95,27 @@ export function ProfileCustomizeSection({
             )}
           </div>
 
-          <div className="enlight-profile-customize__block">
-            <h3 className="enlight-profile-customize__label">
-              Showcase medals <span className="enlight-profile-customize__hint">(earned from rankings)</span>
+          <div className="ace-profile-customize__block">
+            <h3 className="ace-profile-customize__label">
+              Showcase medals <span className="ace-profile-customize__hint">(earned from rankings)</span>
             </h3>
             {earnedMedals.length === 0 ? (
-              <p className="enlight-body-text">Climb school, study group, or site-wide leaderboards to earn medals.</p>
+              <p className="ace-body-text">Climb school, study group, or site-wide leaderboards to earn medals.</p>
             ) : (
-              <div className="enlight-profile-pick-grid enlight-profile-pick-grid--medals">
+              <div className="ace-profile-pick-grid ace-profile-pick-grid--medals">
                 {earnedMedals.map((tier) => {
                   const selected = showcaseMedalTiers.includes(tier)
                   return (
                     <button
                       key={tier}
                       type="button"
-                      className={`enlight-profile-pick enlight-profile-pick--medal${selected ? ' enlight-profile-pick--selected' : ''}`}
+                      className={`ace-profile-pick ace-profile-pick--medal${selected ? ' ace-profile-pick--selected' : ''}`}
                       onClick={() =>
                         onShowcaseMedalsChange(toggleShowcaseMedal(showcaseMedalTiers, tier))
                       }
                     >
                       <MedalIcon tier={tier} size="md" />
-                      <span className="enlight-profile-pick__title">{medalLabel(tier)}</span>
+                      <span className="ace-profile-pick__title">{medalLabel(tier)}</span>
                     </button>
                   )
                 })}
@@ -124,7 +124,7 @@ export function ProfileCustomizeSection({
           </div>
 
           <EnlightButton onClick={onSave}>Save profile</EnlightButton>
-          {message && <p className="enlight-body-text">{message}</p>}
+          {message && <p className="ace-body-text">{message}</p>}
         </div>
       )}
     </section>

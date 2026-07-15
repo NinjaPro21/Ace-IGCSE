@@ -180,9 +180,9 @@ export function TopicLessonPage() {
 
   if (!topic || !chapter || !subject) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-container enlight-page-padding">
+        <div className="ace-container ace-page-padding">
           <p>Lesson not found.</p>
           <Link to="/">Home</Link>
         </div>
@@ -212,8 +212,8 @@ export function TopicLessonPage() {
   const chapterLabel = chapter.badge ?? `Ch.${chapter.number} · ${chapter.title}`
 
   return (
-    <div className="enlight-app enlight-app--lesson">
-      <EnlightHeader />
+    <div className="ace-app ace-app--lesson">
+      <EnlightHeader variant="lesson" exitTo={`/subjects/${subjectId}`} />
 
       <LessonTopBar
         topic={topic}
@@ -225,19 +225,19 @@ export function TopicLessonPage() {
       />
 
       {/* Page-level reading progress bar */}
-      <div className="enlight-read-progress" aria-hidden="true">
-        <div className="enlight-read-progress__bar" style={{ width: `${readProgress}%` }} />
+      <div className="ace-read-progress" aria-hidden="true">
+        <div className="ace-read-progress__bar" style={{ width: `${readProgress}%` }} />
       </div>
 
       <div
-        className="enlight-container enlight-page-padding"
-        style={{ '--enlight-font-scale': fontScale } as React.CSSProperties}
+        className="ace-container ace-page-padding"
+        style={{ '--ace-font-scale': fontScale } as React.CSSProperties}
       >
-        <Link to="/dashboard" className="enlight-back-link">
+        <Link to="/dashboard" className="ace-back-link">
           ← Back to dashboard
         </Link>
 
-        <div className="enlight-lesson-layout">
+        <div className="ace-lesson-layout">
           <LessonSidebar
             topic={topic}
             chapterTitle={chapterLabel}
@@ -245,52 +245,52 @@ export function TopicLessonPage() {
             keyFormula={sidebarKeyFormula}
           />
 
-          <main className="enlight-lesson-main">
-            <Link to={`/subjects/${subjectId}`} className="enlight-lesson-back">
+          <main className="ace-lesson-main">
+            <Link to={`/subjects/${subjectId}`} className="ace-lesson-back">
               ← Back to {subject.name}
             </Link>
             <EnlightSectionLabel>{sectionLabel}</EnlightSectionLabel>
-            <h1 className="enlight-heading-serif">
+            <h1 className="ace-heading-serif">
               <MathText content={topic.title} title />
             </h1>
             {lessonMetaLine && (
-              <p className="enlight-lesson-meta">
+              <p className="ace-lesson-meta">
                 <MathText content={lessonMetaLine} title />
               </p>
             )}
 
             {!isNotesRead(topicId) ? (
-              <div className="enlight-study-timer" role="status">
-                <div className="enlight-study-timer__row">
-                  <span className="enlight-study-timer__label">
+              <div className="ace-study-timer" role="status">
+                <div className="ace-study-timer__row">
+                  <span className="ace-study-timer__label">
                     {studyComplete
                       ? 'Study time complete — +5 XP awarded!'
                       : `Study this section · ${formatStudyClock(topicTimeSpent)} / ${formatStudyClock(notesMinSeconds)} for +5 XP`}
                   </span>
-                  <span className="enlight-study-timer__pct">{studyProgressPct}%</span>
+                  <span className="ace-study-timer__pct">{studyProgressPct}%</span>
                 </div>
-                <div className="enlight-study-timer__bar" aria-hidden="true">
+                <div className="ace-study-timer__bar" aria-hidden="true">
                   <div
-                    className="enlight-study-timer__fill"
+                    className="ace-study-timer__fill"
                     style={{ width: `${studyProgressPct}%` }}
                   />
                 </div>
               </div>
             ) : (
-              <div className="enlight-study-timer enlight-study-timer--done" role="status">
-                <div className="enlight-study-timer__row">
-                  <span className="enlight-study-timer__label">
+              <div className="ace-study-timer ace-study-timer--done" role="status">
+                <div className="ace-study-timer__row">
+                  <span className="ace-study-timer__label">
                     Section complete · {formatStudyClock(topicTimeSpent)} studied · +5 XP earned
                   </span>
-                  <span className="enlight-study-timer__pct">✓</span>
+                  <span className="ace-study-timer__pct">✓</span>
                 </div>
-                <div className="enlight-study-timer__bar" aria-hidden="true">
-                  <div className="enlight-study-timer__fill" style={{ width: '100%' }} />
+                <div className="ace-study-timer__bar" aria-hidden="true">
+                  <div className="ace-study-timer__fill" style={{ width: '100%' }} />
                 </div>
               </div>
             )}
 
-            <div ref={lessonCardRef} className="enlight-lesson-card">
+            <div ref={lessonCardRef} className="ace-lesson-card">
               <MarkdownLesson
                 content={notes}
                 explorerId={topic.explorerId}
@@ -299,7 +299,7 @@ export function TopicLessonPage() {
               />
             </div>
 
-            <div className="enlight-topic-nav">
+            <div className="ace-topic-nav">
               {prevTopic ? (
                 <EnlightButton
                   to={`/subjects/${subjectId}/chapters/${chapterId}/topics/${prevTopic.id}`}
@@ -326,14 +326,14 @@ export function TopicLessonPage() {
             </div>
 
             {topic.quizIds && hasPlayableQuizzes && (
-              <section className="enlight-mastery-block enlight-mastery-block--section" aria-labelledby="section-mastery-heading">
-                <div className="enlight-mastery-block__header">
-                  <h2 id="section-mastery-heading" className="enlight-heading-serif enlight-mastery-block__title">
+              <section className="ace-mastery-block ace-mastery-block--section" aria-labelledby="section-mastery-heading">
+                <div className="ace-mastery-block__header">
+                  <h2 id="section-mastery-heading" className="ace-heading-serif ace-mastery-block__title">
                     Section mastery
                   </h2>
                   <QuizScopeBadge scope="section" />
                 </div>
-                <p className="enlight-body-text enlight-mastery-block__desc">
+                <p className="ace-body-text ace-mastery-block__desc">
                   Pass each tier to master <strong>this section</strong> only. Retries shuffle numbers and question order.
                   {!sectionNotesComplete && (
                     <> Study notes for 5 minutes to earn the notes-read XP bonus.</>
@@ -348,14 +348,14 @@ export function TopicLessonPage() {
             )}
 
             {chapter.hasChapterQuiz && notesComplete && (
-              <section className="enlight-mastery-block enlight-mastery-block--chapter" aria-labelledby="chapter-mastery-heading">
-                <div className="enlight-mastery-block__header">
-                  <h2 id="chapter-mastery-heading" className="enlight-heading-serif enlight-mastery-block__title">
+              <section className="ace-mastery-block ace-mastery-block--chapter" aria-labelledby="chapter-mastery-heading">
+                <div className="ace-mastery-block__header">
+                  <h2 id="chapter-mastery-heading" className="ace-heading-serif ace-mastery-block__title">
                     Chapter mastery
                   </h2>
                   <QuizScopeBadge scope="chapter" />
                 </div>
-                <p className="enlight-body-text enlight-mastery-block__desc">
+                <p className="ace-body-text ace-mastery-block__desc">
                   Combined questions drawn from <strong>every section</strong> in this chapter — not just the topic you are reading now.
                 </p>
                 <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
@@ -395,7 +395,7 @@ export function TopicLessonPage() {
       {showScrollTop && (
         <button
           type="button"
-          className="enlight-scroll-top"
+          className="ace-scroll-top"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           aria-label="Scroll to top"
           title="Back to top"
@@ -404,7 +404,7 @@ export function TopicLessonPage() {
         </button>
       )}
 
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

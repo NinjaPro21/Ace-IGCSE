@@ -38,7 +38,7 @@ Applies to objects changing height in a uniform gravitational field where $g$ is
 - **Wasted energy**: Smaller branch curves **downward** (e.g. heat).
 - **Key rule**: Combined height of all output branches equals the input height.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 520 270" width="520" height="270" role="img" aria-label="Sankey diagram for a light bulb">
+<div class="ace-physics-diagram"><svg viewBox="0 0 520 270" width="520" height="270" role="img" aria-label="Sankey diagram for a light bulb">
       <rect width="520" height="270" fill="#fafafa" rx="6"/>
       <text x="14" y="119" font-size="11" fill="#1e40af" font-weight="600">Electrical input</text>
       <text x="14" y="133" font-size="10" fill="#334155">100 J</text>
@@ -50,7 +50,7 @@ Applies to objects changing height in a uniform gravitational field where $g$ is
       <rect x="64" y="180" width="300" height="32" fill="#ea580c" stroke="#c2410c" stroke-width="1"/>
       <text x="214" y="201" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">Heat (wasted) — 25 J</text>
       <text x="260" y="262" text-anchor="middle" font-size="10" fill="#64748b">Branch height ∝ energy — 75 J + 25 J = 100 J</text>
-    </svg><p class="enlight-physics-diagram__caption">Sankey diagram — electrical energy (100 J) splits into useful light energy (75 J, right) and wasted heat energy (25 J, downward). Branch height is proportional to energy.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Sankey diagram — electrical energy (100 J) splits into useful light energy (75 J, right) and wasted heat energy (25 J, downward). Branch height is proportional to energy.</p></div>
 
 **Energy flow (pendulum)**
 
@@ -58,7 +58,7 @@ Applies to objects changing height in a uniform gravitational field where $g$ is
 - At the **lowest point** (centre bottom): GPE is minimum and kinetic energy (KE) is maximum; speed is greatest.
 - Energy continuously transfers between GPE and KE; total energy is conserved if air resistance is negligible.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Pendulum energy stores">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Pendulum energy stores">
       <line x1="150" y1="25" x2="270" y2="25" stroke="#64748b" stroke-width="3"/>
       <path d="M130 65 Q210 145 290 65" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4"/>
       <line x1="210" y1="25" x2="130" y2="65" stroke="#7c3aed" stroke-width="2"/>
@@ -67,7 +67,7 @@ Applies to objects changing height in a uniform gravitational field where $g$ is
       <line x1="210" y1="25" x2="210" y2="140" stroke="#2563eb" stroke-width="2.5"/>
       <circle cx="210" cy="140" r="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
       <text x="232" y="138" font-size="11" fill="#dc2626" font-weight="600">Max KE</text>
-    </svg><p class="enlight-physics-diagram__caption">Pendulum energy — max GPE at the highest points (sides); max KE at the lowest point (centre bottom).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Pendulum energy — max GPE at the highest points (sides); max KE at the lowest point (centre bottom).</p></div>
 
 ## Steps / method
 

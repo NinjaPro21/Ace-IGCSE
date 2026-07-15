@@ -16,16 +16,16 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 220" width="280" height="220" role="img" aria-label="Translation by a vector"><line x1="20" y1="180" x2="260" y2="180" stroke="#e8e2d8"/><line x1="40" y1="20" x2="40" y2="200" stroke="#e8e2d8"/><polygon points="60,140 100,140 100,100" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/><polygon points="150,90 190,90 190,50" fill="#fdfbf7" stroke="#b59a73" stroke-width="2" stroke-dasharray="5 3"/><line x1="80" y1="120" x2="170" y2="70" stroke="#b59a73" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#tr-arr)"/><text x="55" y="160" font-size="10" fill="#5b8def">object</text><text x="195" y="55" font-size="10" fill="#b59a73">image</text><text x="118" y="72" text-anchor="middle" font-size="11" fill="#b59a73" font-weight="600">(+3, +2)</text><defs><marker id="tr-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#b59a73"/></marker></defs></svg><p class="enlight-physics-diagram__caption">Translation — every point slides by the same column vector $\begin{pmatrix} x \\ y \end{pmatrix}$.</p></div>
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 220" width="280" height="220" role="img" aria-label="Translation by a vector"><line x1="20" y1="180" x2="260" y2="180" stroke="#e8e2d8"/><line x1="40" y1="20" x2="40" y2="200" stroke="#e8e2d8"/><polygon points="60,140 100,140 100,100" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/><polygon points="150,90 190,90 190,50" fill="#fdfbf7" stroke="#b59a73" stroke-width="2" stroke-dasharray="5 3"/><line x1="80" y1="120" x2="170" y2="70" stroke="#b59a73" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#tr-arr)"/><text x="55" y="160" font-size="10" fill="#5b8def">object</text><text x="195" y="55" font-size="10" fill="#b59a73">image</text><text x="118" y="72" text-anchor="middle" font-size="11" fill="#b59a73" font-weight="600">(+3, +2)</text><defs><marker id="tr-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#b59a73"/></marker></defs></svg><p class="ace-physics-diagram__caption">Translation — every point slides by the same column vector $\begin{pmatrix} x \\ y \end{pmatrix}$.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Reflection in a line">
+<div class="ace-physics-diagram"><svg viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Reflection in a line">
       <line x1="120" y1="20" x2="120" y2="220" stroke="#a8a29e" stroke-dasharray="6 4"/>
       <polygon points="160,60 200,60 200,100" fill="#f5edd8" stroke="#5b8def"/>
       <polygon points="80,60 40,60 40,100" fill="#fdfbf7" stroke="#b59a73" stroke-dasharray="4 3"/>
       <text x="120" y="15" text-anchor="middle" font-size="10" fill="#a8a29e">mirror line</text>
-    </svg><p class="enlight-physics-diagram__caption">Reflection — each point and its image are equidistant from the mirror line.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Reflection — each point and its image are equidistant from the mirror line.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 260" width="280" height="260" role="img" aria-label="Rotation about a centre">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 260" width="280" height="260" role="img" aria-label="Rotation about a centre">
       <line x1="20" y1="140" x2="260" y2="140" stroke="#e8e2d8"/>
       <line x1="140" y1="20" x2="140" y2="240" stroke="#e8e2d8"/>
       <polygon points="170,90 210,90 210,130" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
@@ -37,9 +37,9 @@ $$
       <text x="215" y="85" font-size="10" fill="#5b8def">object</text>
       <text x="55" y="60" font-size="10" fill="#b59a73">image</text>
       <defs><marker id="rot-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#b59a73"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Rotation — turn every point about the centre by the given angle and direction (here $90°$ anticlockwise about $O$).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Rotation — turn every point about the centre by the given angle and direction (here $90°$ anticlockwise about $O$).</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 240" width="280" height="240" role="img" aria-label="Enlargement from a centre">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 240" width="280" height="240" role="img" aria-label="Enlargement from a centre">
       <circle cx="60" cy="180" r="5" fill="#b59a73"/>
       <text x="48" y="175" font-size="12" fill="#b59a73" font-weight="600">O</text>
       <polygon points="110,150 150,150 150,110" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
@@ -49,7 +49,7 @@ $$
       <line x1="60" y1="180" x2="160" y2="120" stroke="#e8e2d8" stroke-dasharray="4 3"/>
       <text x="115" y="165" font-size="10" fill="#5b8def">object</text>
       <text x="245" y="35" font-size="10" fill="#b59a73">image (k = 2)</text>
-    </svg><p class="enlight-physics-diagram__caption">Enlargement — rays from the centre through each vertex; distances multiply by scale factor $k$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Enlargement — rays from the centre through each vertex; distances multiply by scale factor $k$.</p></div>
 
 ## Steps / method
 

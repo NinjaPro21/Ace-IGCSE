@@ -47,14 +47,14 @@ export function LessonTopBar({
     if (!el) return
     const syncHeight = () => {
       const h = Math.round(el.getBoundingClientRect().height)
-      document.documentElement.style.setProperty('--enlight-lesson-topbar-height', `${h}px`)
+      document.documentElement.style.setProperty('--ace-lesson-topbar-height', `${h}px`)
     }
     syncHeight()
     const ro = new ResizeObserver(syncHeight)
     ro.observe(el)
     return () => {
       ro.disconnect()
-      document.documentElement.style.removeProperty('--enlight-lesson-topbar-height')
+      document.documentElement.style.removeProperty('--ace-lesson-topbar-height')
     }
   }, [])
 
@@ -70,17 +70,17 @@ export function LessonTopBar({
   }, [])
 
   return (
-    <div ref={barRef} className="enlight-lesson-topbar">
-      <div className="enlight-lesson-topbar__inner">
-        <div className="enlight-lesson-topbar__left">
-          <span className="enlight-section-label">{chapterTitle}</span>
+    <div ref={barRef} className="ace-lesson-topbar">
+      <div className="ace-lesson-topbar__inner">
+        <div className="ace-lesson-topbar__left">
+          <span className="ace-section-label">{chapterTitle}</span>
         </div>
 
-        <div className="enlight-lesson-tools">
+        <div className="ace-lesson-tools">
           {/* Font size controls */}
           <button
             type="button"
-            className="enlight-tool-btn"
+            className="ace-tool-btn"
             onClick={onFontDecrease}
             disabled={fontScale <= 0.85}
             aria-label="Decrease font size"
@@ -90,7 +90,7 @@ export function LessonTopBar({
           </button>
           <button
             type="button"
-            className="enlight-tool-btn"
+            className="ace-tool-btn"
             onClick={onFontIncrease}
             disabled={fontScale >= 1.3}
             aria-label="Increase font size"
@@ -102,17 +102,17 @@ export function LessonTopBar({
           <PomodoroControl />
 
           {/* Session progress: sections read, then quiz tiers */}
-          <div className="enlight-checklist" aria-label={checklistAria}>
-            <div className="enlight-checklist__steps">
+          <div className="ace-checklist" aria-label={checklistAria}>
+            <div className="ace-checklist__steps">
               {Array.from({ length: totalSteps }, (_, i) => (
                 <span
                   key={i}
-                  className={`enlight-checklist__step${i < done ? ' enlight-checklist__step--done' : ''}`}
+                  className={`ace-checklist__step${i < done ? ' ace-checklist__step--done' : ''}`}
                   aria-hidden
                 />
               ))}
             </div>
-            <span className="enlight-checklist__count">{checklistLabel}</span>
+            <span className="ace-checklist__count">{checklistLabel}</span>
           </div>
         </div>
       </div>

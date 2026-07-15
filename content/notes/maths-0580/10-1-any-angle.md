@@ -18,7 +18,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 280" width="280" height="280" role="img" aria-label="CAST diagram with correct quadrant signs">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 280" width="280" height="280" role="img" aria-label="CAST diagram with correct quadrant signs">
       <circle cx="140" cy="140" r="100" fill="#fdfbf7" stroke="#a8a29e" stroke-width="2"/>
       <line x1="30" y1="140" x2="250" y2="140" stroke="#57534e" stroke-width="1.5"/>
       <line x1="140" y1="30" x2="140" y2="250" stroke="#57534e" stroke-width="1.5"/>
@@ -33,7 +33,7 @@ $$
       <text x="185" y="185" text-anchor="middle" font-size="22" fill="#047857" font-weight="800">C</text>
       <text x="185" y="202" text-anchor="middle" font-size="10" fill="#6b6b6b">Cos +</text>
       <text x="140" y="268" text-anchor="middle" font-size="11" fill="#6b6b6b">ASTC anticlockwise from Q1 (or CAST from Q4)</text>
-    </svg><p class="enlight-physics-diagram__caption">CAST / ASTC diagram — All positive in Q1, Sin in Q2, Tan in Q3, Cos in Q4.</p></div>
+    </svg><p class="ace-physics-diagram__caption">CAST / ASTC diagram — All positive in Q1, Sin in Q2, Tan in Q3, Cos in Q4.</p></div>
 
 ## Steps / method
 

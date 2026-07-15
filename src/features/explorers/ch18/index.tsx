@@ -17,9 +17,9 @@ class Ch18ErrorBoundary extends Component<{ children: ReactNode }, BoundaryState
   render() {
     if (this.state.error) {
       return (
-        <div className="enlight-em-3d-explorer enlight-em-3d-explorer--error" role="alert">
+        <div className="ace-em-3d-explorer ace-em-3d-explorer--error" role="alert">
           <p>3D diagram could not be displayed.</p>
-          <p className="enlight-em-3d-explorer__error-detail">{this.state.error}</p>
+          <p className="ace-em-3d-explorer__error-detail">{this.state.error}</p>
         </div>
       )
     }

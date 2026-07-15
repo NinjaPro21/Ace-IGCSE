@@ -59,7 +59,7 @@ The resistance of a metallic wire depends on:
 - Straight line through the origin at constant temperature.
 - Gradient $= 1/R$.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="I-V graph for ohmic conductor">
+<div class="ace-physics-diagram"><svg viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="I-V graph for ohmic conductor">
       <line x1="170" y1="30" x2="170" y2="210" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 3"/>
       <line x1="50" y1="120" x2="310" y2="120" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 3"/>
       <line x1="50" y1="210" x2="310" y2="210" stroke="#64748b" stroke-width="1.5"/>
@@ -69,13 +69,13 @@ The resistance of a metallic wire depends on:
       <line x1="50" y1="210" x2="280" y2="50" stroke="#2563eb" stroke-width="2.5"/>
       <text x="230" y="95" font-size="10" fill="#2563eb">gradient = 1/R</text>
       <text x="170" y="18" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Ohmic conductor</text>
-    </svg><p class="enlight-physics-diagram__caption">Ohmic conductor — $I$–$V$ graph is a straight line through the origin; gradient $= 1/R$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Ohmic conductor — $I$–$V$ graph is a straight line through the origin; gradient $= 1/R$.</p></div>
 
 **Filament lamp**
 
 - S-shaped curve; gradient decreases as $V$ increases (resistance rises with temperature).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="I-V graph for filament lamp">
+<div class="ace-physics-diagram"><svg viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="I-V graph for filament lamp">
       <line x1="170" y1="30" x2="170" y2="210" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 3"/>
       <line x1="50" y1="120" x2="310" y2="120" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 3"/>
       <line x1="50" y1="210" x2="310" y2="210" stroke="#64748b" stroke-width="1.5"/>
@@ -86,14 +86,14 @@ The resistance of a metallic wire depends on:
       <path d="M 290 210 C 250 195, 210 165, 170 130 S 90 75 60 58" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
       <text x="255" y="70" font-size="9" fill="#f59e0b">levels off</text>
       <text x="170" y="18" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Filament lamp</text>
-    </svg><p class="enlight-physics-diagram__caption">Filament lamp — S-shaped curve through the origin; gradient decreases as $V$ increases (resistance rises with temperature).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Filament lamp — S-shaped curve through the origin; gradient decreases as $V$ increases (resistance rises with temperature).</p></div>
 
 **Semiconductor diode**
 
 - Forward bias: near-zero current until ~$0.6\,\text{V}$, then steep rise.
 - Reverse bias: current stays at zero for negative $V$.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="I-V graph for semiconductor diode">
+<div class="ace-physics-diagram"><svg viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="I-V graph for semiconductor diode">
       <line x1="170" y1="30" x2="170" y2="210" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 3"/>
       <line x1="50" y1="120" x2="310" y2="120" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 3"/>
       <line x1="50" y1="210" x2="310" y2="210" stroke="#64748b" stroke-width="1.5"/>
@@ -108,7 +108,7 @@ The resistance of a metallic wire depends on:
       <text x="95" y="200" font-size="9" fill="#7c3aed">reverse: I ≈ 0</text>
       <text x="245" y="55" font-size="9" fill="#7c3aed">forward: steep rise</text>
       <text x="170" y="18" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Semiconductor diode</text>
-    </svg><p class="enlight-physics-diagram__caption">Semiconductor diode — almost zero current below ~0.6 V (forward); flat at $I = 0$ for reverse bias (negative $V$).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Semiconductor diode — almost zero current below ~0.6 V (forward); flat at $I = 0$ for reverse bias (negative $V$).</p></div>
 
 ## Quick check
 

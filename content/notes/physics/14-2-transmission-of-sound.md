@@ -38,7 +38,7 @@ In general: $\text{speed in gas} < \text{speed in liquid} < \text{speed in solid
 
 - Particles vibrate parallel to the direction of travel.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Sound compression rarefaction">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Sound compression rarefaction">
       <line x1="30" y1="50" x2="390" y2="50" stroke="#cbd5e1"/>
       <circle cx="60" cy="50" r="5" fill="#2563eb"/><circle cx="75" cy="50" r="5" fill="#2563eb"/><circle cx="90" cy="50" r="5" fill="#2563eb"/>
       <circle cx="140" cy="50" r="5" fill="#94a3b8"/><circle cx="175" cy="50" r="5" fill="#94a3b8"/>
@@ -47,7 +47,7 @@ In general: $\text{speed in gas} < \text{speed in liquid} < \text{speed in solid
       <text x="75" y="30" font-size="10" fill="#2563eb">compression</text>
       <text x="300" y="30" font-size="10" fill="#64748b">rarefaction</text>
       <text x="210" y="85" text-anchor="middle" font-size="10" fill="#475569">direction of wave →</text>
-    </svg><p class="enlight-physics-diagram__caption">Longitudinal sound wave — compressions (particles close) and rarefactions (particles far apart).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Longitudinal sound wave — compressions (particles close) and rarefactions (particles far apart).</p></div>
 
 ## Worked example — Lightning and thunder
 

@@ -16,13 +16,13 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Map scale bar">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Map scale bar">
       <rect x="40" y="40" width="120" height="20" rx="3" fill="#f5edd8" stroke="#b59a73"/>
       <text x="100" y="55" text-anchor="middle" font-size="10" fill="#1a1a1a">2 cm on map</text>
       <text x="200" y="55" font-size="14" fill="#6b6b6b">→</text>
       <text x="280" y="55" text-anchor="middle" font-size="10" fill="#1a1a1a">1 km real</text>
       <text x="180" y="85" text-anchor="middle" font-size="10" fill="#6b6b6b">scale 1 : 50 000</text>
-    </svg><p class="enlight-physics-diagram__caption">Map scale — measure on the map, multiply by the scale factor to get real distance.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Map scale — measure on the map, multiply by the scale factor to get real distance.</p></div>
 
 ## Steps / method
 

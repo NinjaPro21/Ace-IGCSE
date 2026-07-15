@@ -1,7 +1,7 @@
-import { MarketingWalkthrough } from './MarketingWalkthrough'
+import { MarketingLanding } from './MarketingLanding'
 import { usePageTitle } from '@/hooks/usePageTitle'
 
 export function MarketingHomePage() {
   usePageTitle('Home')
-  return <MarketingWalkthrough />
+  return <MarketingLanding />
 }

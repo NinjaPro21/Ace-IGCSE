@@ -34,7 +34,7 @@ Using a plotting compass (a tiny magnet):
 
 - Lines leave N and enter S; density shows strength.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 160" width="320" height="160" role="img" aria-label="Magnetic field between poles">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 160" width="320" height="160" role="img" aria-label="Magnetic field between poles">
       <defs><marker id="mf-ns" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
       <rect x="40" y="50" width="30" height="60" fill="#fecaca" stroke="#dc2626"/>
       <text x="55" y="85" text-anchor="middle" font-size="12" fill="#991b1b">N</text>
@@ -43,7 +43,7 @@ Using a plotting compass (a tiny magnet):
       <path d="M75 60 Q160 30 245 60" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#mf-ns)"/>
       <path d="M75 80 Q160 80 245 80" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#mf-ns)"/>
       <path d="M75 100 Q160 130 245 100" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#mf-ns)"/>
-    </svg><p class="enlight-physics-diagram__caption">Magnetic field lines — leave the N pole and enter the S pole; arrows show direction N → S.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Magnetic field lines — leave the N pole and enter the S pole; arrows show direction N → S.</p></div>
 
 ## Quick check
 

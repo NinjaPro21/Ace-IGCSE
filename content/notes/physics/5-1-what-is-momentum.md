@@ -38,7 +38,7 @@ Used to calculate the mass of an object given its momentum and velocity.
 - **Magnitude**: Larger mass or higher speed gives larger momentum ($p = mv$).
 - **Comparison**: A heavy lorry at low speed can have the same momentum as a light car at high speed.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 160" width="440" height="160" role="img" aria-label="Momentum vector diagram">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 160" width="440" height="160" role="img" aria-label="Momentum vector diagram">
       <rect x="30" y="55" width="50" height="50" rx="4" fill="#dbeafe" stroke="#2563eb"/>
       <text x="55" y="85" text-anchor="middle" font-size="11" fill="#1e3a8a">m</text>
       <line x1="90" y1="80" x2="200" y2="80" stroke="#2563eb" stroke-width="3" marker-end="url(#mv)"/>
@@ -50,7 +50,7 @@ Used to calculate the mass of an object given its momentum and velocity.
         <marker id="mv" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
         <marker id="mp" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Momentum is a vector — $p = mv$ in the direction of velocity. Larger mass or speed means larger momentum.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Momentum is a vector — $p = mv$ in the direction of velocity. Larger mass or speed means larger momentum.</p></div>
 
 ## Steps / method
 

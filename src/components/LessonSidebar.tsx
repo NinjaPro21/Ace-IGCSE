@@ -31,16 +31,16 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
   useEffect(() => {
     const nav = navRef.current
     if (!nav) return
-    const active = nav.querySelector('.enlight-lesson-sidebar__link--active')
+    const active = nav.querySelector('.ace-lesson-sidebar__link--active')
     if (active instanceof HTMLElement) {
       active.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' })
     }
   }, [topic.id])
 
   return (
-    <aside className="enlight-lesson-sidebar">
-      <span className="enlight-section-label enlight-lesson-sidebar__chapter">{chapterTitle}</span>
-      <nav ref={navRef} className="enlight-lesson-sidebar__nav" aria-label="Section navigation">
+    <aside className="ace-lesson-sidebar">
+      <span className="ace-section-label ace-lesson-sidebar__chapter">{chapterTitle}</span>
+      <nav ref={navRef} className="ace-lesson-sidebar__nav" aria-label="Section navigation">
         {chapterTopics.map((t) => {
           const topicQuizLevel = getTopicQuizLevel(t.id)
           const done = topicQuizLevel >= 4
@@ -50,42 +50,42 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
             <Link
               key={t.id}
               to={`/subjects/${topic.subjectId}/chapters/${topic.chapterId}/topics/${t.id}`}
-              className={`enlight-lesson-sidebar__link${
-                t.id === topic.id ? ' enlight-lesson-sidebar__link--active' : ''
+              className={`ace-lesson-sidebar__link${
+                t.id === topic.id ? ' ace-lesson-sidebar__link--active' : ''
               }`}
             >
-              <span className="enlight-lesson-sidebar__link-text">{sectionLabel}</span>
-              {done && <span className="enlight-lesson-sidebar__quiz-dot enlight-lesson-sidebar__quiz-dot--done" aria-label="Section mastered" />}
+              <span className="ace-lesson-sidebar__link-text">{sectionLabel}</span>
+              {done && <span className="ace-lesson-sidebar__quiz-dot ace-lesson-sidebar__quiz-dot--done" aria-label="Section mastered" />}
               {!done && inProgress && topicQuizLevel >= 2 && (
-                <span className="enlight-lesson-sidebar__quiz-dot enlight-lesson-sidebar__quiz-dot--progress" aria-label="Quiz in progress" />
+                <span className="ace-lesson-sidebar__quiz-dot ace-lesson-sidebar__quiz-dot--progress" aria-label="Quiz in progress" />
               )}
             </Link>
           )
         })}
       </nav>
-      <div className="enlight-lesson-sidebar__body">
-      <div className="enlight-lesson-sidebar__tools">
+      <div className="ace-lesson-sidebar__body">
+      <div className="ace-lesson-sidebar__tools">
         <div
-          className="enlight-checklist enlight-checklist--section"
+          className="ace-checklist ace-checklist--section"
           aria-label={`Section quiz tiers: ${quizLevel} of 4 complete (Easy, Medium, Hard, PYP)`}
         >
-          <div className="enlight-checklist__steps" aria-hidden>
+          <div className="ace-checklist__steps" aria-hidden>
             {QUIZ_TIERS.map((tier, i) => (
               <span
                 key={tier}
-                className={`enlight-checklist__step${quizLevel > i ? ' enlight-checklist__step--done' : ''}`}
+                className={`ace-checklist__step${quizLevel > i ? ' ace-checklist__step--done' : ''}`}
                 title={tier}
               />
             ))}
           </div>
-          <span className="enlight-checklist__count" title="Easy → Medium → Hard → PYP">
+          <span className="ace-checklist__count" title="Easy → Medium → Hard → PYP">
             Section quiz {quizLevel}/4
           </span>
         </div>
         {showChapterQuiz && (
           <Link
             to={`/quiz/${topic.chapterId}/easy`}
-            className="enlight-lesson-sidebar__chapter-quiz"
+            className="ace-lesson-sidebar__chapter-quiz"
           >
             <QuizScopeBadge scope="chapter" />
             <span>End-of-chapter review</span>
@@ -93,9 +93,9 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
         )}
       </div>
       {keyFormula ? (
-        <div className="enlight-lesson-sidebar__panel enlight-lesson-sidebar__panel--formula">
-          <span className="enlight-lesson-sidebar__panel-title">Key formula</span>
-          <div className="enlight-lesson-sidebar__formula">
+        <div className="ace-lesson-sidebar__panel ace-lesson-sidebar__panel--formula">
+          <span className="ace-lesson-sidebar__panel-title">Key formula</span>
+          <div className="ace-lesson-sidebar__formula">
             <ReactMarkdown remarkPlugins={SIDEBAR_MD.remarkPlugins} rehypePlugins={SIDEBAR_MD.rehypePlugins}>
               {`$$${keyFormula}$$`}
             </ReactMarkdown>
@@ -103,9 +103,9 @@ export function LessonSidebar({ topic, chapterTitle, quickCheck, keyFormula }: L
         </div>
       ) : null}
       {quickCheck ? (
-        <div className="enlight-lesson-sidebar__panel enlight-lesson-sidebar__panel--quick">
-          <span className="enlight-lesson-sidebar__panel-title">Quick check</span>
-          <div className="enlight-markdown enlight-lesson-sidebar__quick">
+        <div className="ace-lesson-sidebar__panel ace-lesson-sidebar__panel--quick">
+          <span className="ace-lesson-sidebar__panel-title">Quick check</span>
+          <div className="ace-markdown ace-lesson-sidebar__quick">
             <ReactMarkdown remarkPlugins={SIDEBAR_MD.remarkPlugins} rehypePlugins={SIDEBAR_MD.rehypePlugins}>
               {quickCheck}
             </ReactMarkdown>

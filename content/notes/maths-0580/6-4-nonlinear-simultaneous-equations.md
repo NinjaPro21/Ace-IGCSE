@@ -14,7 +14,7 @@ Use the **interactive explorer** below to see how a line can meet a curve at 0, 
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Line intersecting a parabola">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Line intersecting a parabola">
       <line x1="40" y1="180" x2="280" y2="180" stroke="#a8a29e"/>
       <line x1="61.81818181818182" y1="40" x2="61.81818181818182" y2="180" stroke="#a8a29e"/>
       <text x="284" y="184" font-size="10" fill="#6b6b6b">x</text>
@@ -25,7 +25,7 @@ Use the **interactive explorer** below to see how a line can meet a curve at 0, 
       <circle cx="236.36363636363637" cy="145" r="5" fill="#b59a73"/>
       <text x="69.81818181818181" y="69" font-size="9" fill="#b59a73">(0, 6)</text>
       <text x="244.36363636363637" y="149" font-size="9" fill="#b59a73">(4, 2)</text>
-    </svg><p class="enlight-physics-diagram__caption">Line and curve — $y = x^2 - 5x + 6$ meets $y = -x + 6$ at $(0, 6)$ and $(4, 2)$; each point is a simultaneous solution.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Line and curve — $y = x^2 - 5x + 6$ meets $y = -x + 6$ at $(0, 6)$ and $(4, 2)$; each point is a simultaneous solution.</p></div>
 
 ## Steps / method
 

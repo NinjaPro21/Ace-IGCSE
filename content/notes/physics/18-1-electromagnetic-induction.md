@@ -12,14 +12,14 @@ Relative motion between a magnet and a coil is essential: no motion means no ind
 - **Stationary INSIDE**: Magnet at rest inside the coil → no flux change → **I = 0** → needle at **zero**.
 - **Pulling OUT**: N pole withdrawn → flux decreases → induced current anticlockwise → needle deflects **left**.
 
-<div class="enlight-em-3d enlight-physics-diagram enlight-physics-diagram--hero" data-scene="induction-magnet"></div>
+<div class="ace-em-3d ace-physics-diagram ace-physics-diagram--hero" data-scene="induction-magnet"></div>
 
 **Faraday's iron ring**
 
 - Coil A on a soft iron ring connected to a d.c. supply and switch; coil B connected to a galvanometer.
 - Momentary deflection in B only while current in A is changing (mutual induction).
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="induction-ring"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="induction-ring"></div>
 
 **Induced e.m.f. vs time (three-stage sequence)**
 
@@ -27,7 +27,7 @@ Relative motion between a magnet and a coil is essential: no motion means no ind
 - ② **Dead zone**: magnet fully inside → ε = 0 (no flux change).
 - ③ **Exit**: gravity increases speed → faster flux decrease → sharper, larger negative peak.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="induction-emf"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="induction-emf"></div>
 
 ## Key formulas
 

@@ -48,7 +48,7 @@ $$
 - **Redshift**: As galaxies move away, the wavelengths of their spectral lines increase (shift toward the red end of the spectrum).
 - **Cosmic Microwave Background**: Radiation from the early Universe, now detected in the microwave region of the EM spectrum.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Hubble graph speed versus distance">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Hubble graph speed versus distance">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Distance d</text>
@@ -58,9 +58,9 @@ $$
       <circle cx="280" cy="75" r="5" fill="#7c3aed"/><circle cx="360" cy="55" r="5" fill="#7c3aed"/>
       <text x="300" y="100" font-size="11" fill="#7c3aed" font-style="italic">v = H₀d</text>
       <text x="230" y="40" text-anchor="middle" font-size="10" fill="#64748b">galaxies farther away recede faster</text>
-    </svg><p class="enlight-physics-diagram__caption">Hubble's law — recession speed v is proportional to distance d; gradient gives the Hubble constant H₀.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Hubble's law — recession speed v is proportional to distance d; gradient gives the Hubble constant H₀.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 180" width="480" height="180" role="img" aria-label="Redshift and expanding universe">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 180" width="480" height="180" role="img" aria-label="Redshift and expanding universe">
       <circle cx="240" cy="90" r="8" fill="#fef08a" stroke="#ca8a04"/>
       <text x="240" y="115" text-anchor="middle" font-size="9" fill="#64748b">observer (Earth)</text>
       <circle cx="120" cy="60" r="14" fill="#bfdbfe" stroke="#2563eb"/>
@@ -74,7 +74,7 @@ $$
       <text x="240" y="25" text-anchor="middle" font-size="10" fill="#475569">Universe expanding — galaxies recede</text>
       <text x="240" y="165" text-anchor="middle" font-size="10" fill="#dc2626">redshift: λ increases (lines shift toward red)</text>
       <defs><marker id="rs-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Redshift and expansion — distant galaxies move away; observed wavelengths increase (shift toward the red end of the spectrum).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Redshift and expansion — distant galaxies move away; observed wavelengths increase (shift toward the red end of the spectrum).</p></div>
 
 ## Steps / method
 

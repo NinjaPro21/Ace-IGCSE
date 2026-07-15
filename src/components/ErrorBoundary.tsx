@@ -39,11 +39,11 @@ export class ErrorBoundary extends Component<Props, State> {
         : null
 
     return (
-      <div className="enlight-error-boundary" role="alert">
+      <div className="ace-error-boundary" role="alert">
         <h1>Something went wrong</h1>
         {hmrHint ? <p>{hmrHint}</p> : <p>The app hit an unexpected error.</p>}
-        <p className="enlight-error-boundary__detail">{error.message}</p>
-        <button type="button" className="enlight-btn enlight-btn--primary" onClick={this.reload}>
+        <p className="ace-error-boundary__detail">{error.message}</p>
+        <button type="button" className="ace-btn ace-btn--primary" onClick={this.reload}>
           Reload page
         </button>
       </div>

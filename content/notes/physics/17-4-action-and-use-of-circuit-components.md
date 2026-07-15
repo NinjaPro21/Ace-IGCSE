@@ -37,9 +37,9 @@ Transducers respond to physical conditions (light, temperature). In a potential 
 
 ## Graphs & diagrams
 
-</div><p class="enlight-physics-diagram__caption">Series circuit with exam-standard symbols for a thermistor and LDR.</p></div>
+</div><p class="ace-physics-diagram__caption">Series circuit with exam-standard symbols for a thermistor and LDR.</p></div>
 
-<div class="enlight-physics-diagram"><div class="enlight-circuit-symbols">
+<div class="ace-physics-diagram"><div class="ace-circuit-symbols">
       <svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
         <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
@@ -57,7 +57,7 @@ Transducers respond to physical conditions (light, temperature). In a potential 
         <text x="230" y="68" text-anchor="middle" font-size="8" fill="#64748b">resistor</text>
         <text x="190" y="152" text-anchor="middle" font-size="10" fill="#475569">one path — same current everywhere</text>
       </svg>
-      <div class="enlight-circuit-symbols__row">
+      <div class="ace-circuit-symbols__row">
         <svg viewBox="0 0 100 70" width="100" height="70" aria-label="Thermistor symbol">
           <line x1="10" y1="35" x2="25" y2="35" stroke="#334155" stroke-width="2"/>
           <rect x="25" y="28" width="50" height="14" stroke="#334155" stroke-width="2" fill="#fff"/>
@@ -85,7 +85,7 @@ Transducers respond to physical conditions (light, temperature). In a potential 
           <text x="50" y="58" text-anchor="middle" font-size="9" fill="#64748b">resistor</text>
         </svg>
       </div>
-    </div><p class="enlight-physics-diagram__caption">Series circuit with exam-standard symbols for a thermistor and LDR.</p></div>
+    </div><p class="ace-physics-diagram__caption">Series circuit with exam-standard symbols for a thermistor and LDR.</p></div>
 
 ## Quick check
 

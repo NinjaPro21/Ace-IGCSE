@@ -48,40 +48,40 @@ export function WeeklyChallengeCard() {
   }
 
   return (
-    <section className="enlight-weekly-challenge" aria-label="Weekly challenge">
-      <div className="enlight-weekly-challenge__head">
+    <section className="ace-weekly-challenge" aria-label="Weekly challenge">
+      <div className="ace-weekly-challenge__head">
         <EnlightSectionLabel>Weekly challenge</EnlightSectionLabel>
-        <p className="enlight-weekly-challenge__group">{group.name}</p>
+        <p className="ace-weekly-challenge__group">{group.name}</p>
       </div>
 
-      <div className="enlight-weekly-challenge__hero">
-        <p className="enlight-weekly-challenge__xp">{groupXp.toLocaleString()}</p>
-        <p className="enlight-weekly-challenge__of">
+      <div className="ace-weekly-challenge__hero">
+        <p className="ace-weekly-challenge__xp">{groupXp.toLocaleString()}</p>
+        <p className="ace-weekly-challenge__of">
           of {WEEKLY_GROUP_XP_TARGET.toLocaleString()} XP this week
         </p>
       </div>
 
-      <div className="enlight-daily-goal-bar enlight-weekly-challenge__bar" aria-hidden>
-        <div className="enlight-daily-goal-bar__fill" style={{ width: `${pct}%` }} />
+      <div className="ace-daily-goal-bar ace-weekly-challenge__bar" aria-hidden>
+        <div className="ace-daily-goal-bar__fill" style={{ width: `${pct}%` }} />
       </div>
 
-      <p className="enlight-weekly-challenge__meta">
+      <p className="ace-weekly-challenge__meta">
         {memberCount} member{memberCount === 1 ? '' : 's'}
         {' · '}
         {complete ? 'Target met' : `${xpLeft.toLocaleString()} to go`}
       </p>
 
-      <div className="enlight-weekly-challenge__action">
+      <div className="ace-weekly-challenge__action">
         {complete && !claimed && (
           <EnlightButton onClick={handleClaim}>
             Claim +{WEEKLY_CHALLENGE_BONUS_XP} XP
           </EnlightButton>
         )}
         {claimed && (
-          <p className="enlight-weekly-challenge__lead">Bonus claimed</p>
+          <p className="ace-weekly-challenge__lead">Bonus claimed</p>
         )}
         {!complete && (
-          <p className="enlight-weekly-challenge__empty">
+          <p className="ace-weekly-challenge__empty">
             Every quiz and note session counts toward the group total.
           </p>
         )}

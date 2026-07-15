@@ -54,7 +54,7 @@ Where $I$ is current (A), $V$ is voltage (V), and $t$ is time (s).
 
 **Specific heat capacity experiment setup**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Specific heat capacity experiment">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Specific heat capacity experiment">
       <rect x="120" y="60" width="160" height="100" rx="8" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
       <text x="200" y="52" text-anchor="middle" font-size="10" fill="#334155" font-weight="600">insulated metal block (mass m)</text>
       <rect x="145" y="80" width="22" height="60" rx="4" fill="#ef4444" stroke="#b91c1c"/>
@@ -65,11 +65,11 @@ Where $I$ is current (A), $V$ is voltage (V), and $t$ is time (s).
       <rect x="60" y="175" width="80" height="40" rx="4" fill="#f1f5f9" stroke="#64748b"/>
       <text x="100" y="198" text-anchor="middle" font-size="9" fill="#334155">power supply</text>
       <text x="320" y="110" font-size="10" fill="#334155">ΔE = IVt = mcΔθ</text>
-    </svg><p class="enlight-physics-diagram__caption">SHC experiment — electrical energy $IVt$ heats the block; measure mass $m$ and temperature rise $\Delta\theta$ to find $c = IVt / (m\Delta\theta)$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">SHC experiment — electrical energy $IVt$ heats the block; measure mass $m$ and temperature rise $\Delta\theta$ to find $c = IVt / (m\Delta\theta)$.</p></div>
 
 **Comparing specific heat capacities**
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Comparing heat capacities of water and sand">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Comparing heat capacities of water and sand">
       <text x="180" y="22" text-anchor="middle" font-size="11" fill="#64748b" font-weight="600">Same energy supplied — different temperature rise</text>
       <rect x="50" y="130" width="100" height="40" rx="4" fill="#0ea5e9" opacity="0.8"/>
       <text x="100" y="155" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Water</text>
@@ -77,7 +77,7 @@ Where $I$ is current (A), $V$ is voltage (V), and $t$ is time (s).
       <rect x="210" y="60" width="100" height="110" rx="4" fill="#f59e0b" opacity="0.8"/>
       <text x="260" y="120" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Sand</text>
       <text x="260" y="48" font-size="10" fill="#f59e0b">Large Δθ (low c)</text>
-    </svg><p class="enlight-physics-diagram__caption">High specific heat capacity (water) means a smaller temperature rise for the same energy — sand heats up faster.</p></div>
+    </svg><p class="ace-physics-diagram__caption">High specific heat capacity (water) means a smaller temperature rise for the same energy — sand heats up faster.</p></div>
 
 ## Steps / method
 

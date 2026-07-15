@@ -38,14 +38,14 @@ A moving charged particle in a magnetic field experiences a force.
 - Wire carrying current perpendicular to a uniform field between N and S poles.
 - Wire field reinforces the main field on one side and cancels on the other — wire pushed toward the weaker side.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="catapult-field"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="catapult-field"></div>
 
 **Fleming's left-hand rule**
 
 - 3D interactive left hand — drag to rotate. Thumb **F** (red), first finger **B** (blue), second finger **I** (green), all mutually perpendicular.
 - Predicts force direction on a current-carrying conductor in a magnetic field.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="fleming-left"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="fleming-left"></div>
 
 ## Quick check
 

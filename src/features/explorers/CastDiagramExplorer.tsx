@@ -137,19 +137,19 @@ export function CastDiagramExplorer() {
   const domainW = 720
 
   return (
-    <section className="enlight-explorer enlight-cast-explorer">
-      <h2 className="enlight-explorer__title">CAST Diagram — ASTC Rule Explorer</h2>
-      <p className="enlight-body-text enlight-cast-explorer__intro">
+    <section className="ace-explorer ace-cast-explorer">
+      <h2 className="ace-explorer__title">CAST Diagram — ASTC Rule Explorer</h2>
+      <p className="ace-body-text ace-cast-explorer__intro">
         Use <strong>anticlockwise (+θ)</strong> for positive angles and <strong>clockwise (−θ)</strong> for negative
         angles. Pick sin, cos, or tan to highlight signs — then read off values using the reference angle α.
       </p>
 
-      <div className="enlight-trig-tabs">
+      <div className="ace-trig-tabs">
         {(['sin', 'cos', 'tan'] as TrigFn[]).map((f) => (
           <button
             key={f}
             type="button"
-            className={`enlight-trig-tabs__btn${fn === f ? ' enlight-trig-tabs__btn--active' : ''}`}
+            className={`ace-trig-tabs__btn${fn === f ? ' ace-trig-tabs__btn--active' : ''}`}
             onClick={() => setFn(f)}
           >
             {f}
@@ -157,28 +157,28 @@ export function CastDiagramExplorer() {
         ))}
       </div>
 
-      <div className="enlight-trig-modulus-toggle">
+      <div className="ace-trig-modulus-toggle">
         <button
           type="button"
-          className={`enlight-trig-modulus-toggle__btn${rotation === 'anticlockwise' ? ' enlight-trig-modulus-toggle__btn--active' : ''}`}
+          className={`ace-trig-modulus-toggle__btn${rotation === 'anticlockwise' ? ' ace-trig-modulus-toggle__btn--active' : ''}`}
           onClick={() => setRotation('anticlockwise')}
         >
           ↺ Anticlockwise (+θ)
         </button>
         <button
           type="button"
-          className={`enlight-trig-modulus-toggle__btn${rotation === 'clockwise' ? ' enlight-trig-modulus-toggle__btn--active' : ''}`}
+          className={`ace-trig-modulus-toggle__btn${rotation === 'clockwise' ? ' ace-trig-modulus-toggle__btn--active' : ''}`}
           onClick={() => setRotation('clockwise')}
         >
           ↻ Clockwise (−θ)
         </button>
       </div>
 
-      <div className="enlight-cast-angle-control">
+      <div className="ace-cast-angle-control">
         <label htmlFor="cast-mag">
           <strong>Magnitude</strong> = {magnitude}° · <strong>effective θ</strong> = {formatSignedAngle(theta)}
           {theta !== coterminal && (
-            <span className="enlight-cast-coterminal"> · coterminal with {formatSignedAngle(coterminal === 0 ? 0 : coterminal)}</span>
+            <span className="ace-cast-coterminal"> · coterminal with {formatSignedAngle(coterminal === 0 ? 0 : coterminal)}</span>
           )}
         </label>
         <input
@@ -190,7 +190,7 @@ export function CastDiagramExplorer() {
           value={magnitude}
           onChange={(e) => setMagnitude(Number(e.target.value))}
         />
-        <div className="enlight-cast-domain-labels">
+        <div className="ace-cast-domain-labels">
           <span>0°</span>
           <span>90°</span>
           <span>180°</span>
@@ -199,7 +199,7 @@ export function CastDiagramExplorer() {
         </div>
       </div>
 
-      <svg className="enlight-cast-domain-line" viewBox={`0 0 ${domainW} 48`} role="img" aria-label="Angle domain from -360 to 360">
+      <svg className="ace-cast-domain-line" viewBox={`0 0 ${domainW} 48`} role="img" aria-label="Angle domain from -360 to 360">
         <line x1={8} y1={24} x2={domainW - 8} y2={24} stroke="#57534e" strokeWidth={2} />
         {[-360, -270, -180, -90, 0, 90, 180, 270, 360].map((deg) => (
           <g key={deg}>
@@ -214,8 +214,8 @@ export function CastDiagramExplorer() {
         <circle cx={domainX(theta, domainW)} cy={24} r={7} fill="#5b8def" stroke="#fff" strokeWidth={2} />
       </svg>
 
-      <div className="enlight-cast-standalone-diagram-wrap">
-        <svg className="enlight-cast-diagram enlight-cast-diagram--large" viewBox={`0 0 ${diagramSize} ${diagramSize}`} role="img" aria-label="CAST diagram">
+      <div className="ace-cast-standalone-diagram-wrap">
+        <svg className="ace-cast-diagram ace-cast-diagram--large" viewBox={`0 0 ${diagramSize} ${diagramSize}`} role="img" aria-label="CAST diagram">
           {/* SVG y increases downward: top-left = Q2, top-right = Q1, bottom-left = Q3, bottom-right = Q4 */}
           <rect x={0} y={0} width={cx} height={cy} fill={fnSignInQuadrant(fn, 2) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
           <rect x={cx} y={0} width={cx} height={cy} fill={fnSignInQuadrant(fn, 1) ? 'rgba(52,211,153,0.3)' : 'rgba(244,63,94,0.2)'} />
@@ -297,27 +297,27 @@ export function CastDiagramExplorer() {
           <path d={arcPath} fill="none" stroke="#f59e0b" strokeWidth={2.5} markerEnd="url(#cast-arrow-lg)" />
         </svg>
 
-        <div className="enlight-cast-summary-card">
-          <div className="enlight-cast-summary-card__heading">Quadrant {q}</div>
-          <div className="enlight-cast-summary-card__rule">{castLabel(q)}</div>
-          <div className="enlight-cast-summary-card__detail">
+        <div className="ace-cast-summary-card">
+          <div className="ace-cast-summary-card__heading">Quadrant {q}</div>
+          <div className="ace-cast-summary-card__rule">{castLabel(q)}</div>
+          <div className="ace-cast-summary-card__detail">
             θ = {formatSignedAngle(theta)} → reference α = {alpha.toFixed(0)}°
           </div>
         </div>
       </div>
 
-      <div className="enlight-cast-answers">
-        <div className="enlight-cast-answers__title">Values for θ = {formatSignedAngle(theta)}</div>
-        <div className="enlight-cast-answers__grid">
+      <div className="ace-cast-answers">
+        <div className="ace-cast-answers__title">Values for θ = {formatSignedAngle(theta)}</div>
+        <div className="ace-cast-answers__grid">
           {(['sin', 'cos', 'tan'] as TrigFn[]).map((f) => {
             const ans = answers[f]
             return (
               <div
                 key={f}
-                className={`enlight-cast-answer-card${fn === f ? ' enlight-cast-answer-card--active' : ''}`}
+                className={`ace-cast-answer-card${fn === f ? ' ace-cast-answer-card--active' : ''}`}
               >
-                <div className="enlight-cast-answer-card__fn">{f}</div>
-                <div className={ans.positive ? 'enlight-cast-sign--pos' : 'enlight-cast-sign--neg'}>
+                <div className="ace-cast-answer-card__fn">{f}</div>
+                <div className={ans.positive ? 'ace-cast-sign--pos' : 'ace-cast-sign--neg'}>
                   {ans.display}
                 </div>
               </div>
@@ -326,7 +326,7 @@ export function CastDiagramExplorer() {
         </div>
       </div>
 
-      <div className="enlight-cast-rules">
+      <div className="ace-cast-rules">
         <strong>ASTC:</strong> Q1 All + · Q2 Sin + · Q3 Tan + · Q4 Cos + — anticlockwise gives +θ, clockwise gives −θ.
         Measure α from the principal (x) axis, then apply the quadrant sign.
       </div>

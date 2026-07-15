@@ -45,7 +45,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Distance time graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Distance time graph">
       <line x1="40" y1="170" x2="290" y2="170" stroke="#a8a29e"/>
       <line x1="40" y1="170" x2="40" y2="30" stroke="#a8a29e"/>
       <text x="22" y="100" font-size="10" fill="#6b6b6b">distance</text>
@@ -56,7 +56,7 @@ $$
       <text x="75" y="155" font-size="9" fill="#6b6b6b">steady speed</text>
       <text x="145" y="115" font-size="9" fill="#6b6b6b">accelerating</text>
       <text x="235" y="95" font-size="9" fill="#6b6b6b">stopped</text>
-    </svg><p class="enlight-physics-diagram__caption">Distance–time graph — flat = stationary; straight slope = constant speed; curve = changing speed.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Distance–time graph — flat = stationary; straight slope = constant speed; curve = changing speed.</p></div>
 
 ## Steps / method
 

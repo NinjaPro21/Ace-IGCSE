@@ -37,7 +37,7 @@ Applies for uniform acceleration from rest.
 - **Speed-time graph**: A straight line starting from the origin with a constant positive gradient.
 - The gradient equals $g \approx 9.8\ \text{m/s}^2$.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Free fall velocity time graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Free fall velocity time graph">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -46,14 +46,14 @@ Applies for uniform acceleration from rest.
       <line x1="65" y1="195" x2="340" y2="55" stroke="#dc2626" stroke-width="2.5"/>
       <text x="180" y="110" font-size="11" fill="#dc2626">gradient = g</text>
       <text x="280" y="175" font-size="10" fill="#2563eb">area = height fallen</text>
-    </svg><p class="enlight-physics-diagram__caption">Velocity–time for free fall in a vacuum — straight line through origin; gradient = g ≈ 9.8 m/s².</p></div>
+    </svg><p class="ace-physics-diagram__caption">Velocity–time for free fall in a vacuum — straight line through origin; gradient = g ≈ 9.8 m/s².</p></div>
 
 **Falling with air resistance**
 
 - The graph curves at first (acceleration decreasing) then becomes a **horizontal line** at terminal velocity.
 - At terminal velocity, weight = air resistance, so acceleration = 0.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Terminal velocity graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Terminal velocity graph">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -65,7 +65,7 @@ Applies for uniform acceleration from rest.
       <text x="280" y="42" font-size="10" fill="#2563eb">terminal velocity</text>
       <text x="100" y="165" font-size="10" fill="#64748b">steep gradient → slowing increase</text>
       <text x="280" y="65" font-size="9" fill="#64748b">a = 0</text>
-    </svg><p class="enlight-physics-diagram__caption">Velocity–time with air resistance — gradient decreases as air resistance builds, then becomes horizontal at terminal velocity (weight = air resistance; acceleration = 0).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Velocity–time with air resistance — gradient decreases as air resistance builds, then becomes horizontal at terminal velocity (weight = air resistance; acceleration = 0).</p></div>
 
 ## Steps / method
 

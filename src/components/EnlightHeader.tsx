@@ -26,30 +26,37 @@ function HeaderStats({
   className?: string
 }) {
   return (
-    <Link to="/dashboard" className={`enlight-header__stats ${className}`.trim()} title="View dashboard">
-      <span className="enlight-stat-pill enlight-stat-pill--compact enlight-stat-pill--level" title={`Level ${level}`}>
+    <Link to="/dashboard" className={`ace-header__stats ${className}`.trim()} title="View dashboard">
+      <span className="ace-stat-pill ace-stat-pill--compact ace-stat-pill--level" title={`Level ${level}`}>
         Lv {level}
       </span>
-      <span className="enlight-stat-pill enlight-stat-pill--compact enlight-stat-pill--xp" title="Experience points">
+      <span className="ace-stat-pill ace-stat-pill--compact ace-stat-pill--xp" title="Experience points">
         {xp} XP
       </span>
       <span
         className={[
-          'enlight-stat-pill',
-          'enlight-stat-pill--compact',
-          'enlight-stat-pill--streak',
-          streakAtRisk && streakDays > 0 ? 'enlight-stat-pill--streak-risk' : '',
+          'ace-stat-pill',
+          'ace-stat-pill--compact',
+          'ace-stat-pill--streak',
+          streakAtRisk && streakDays > 0 ? 'ace-stat-pill--streak-risk' : '',
         ].join(' ')}
         title="Study streak"
       >
-        <span className="enlight-stat-pill__icon" aria-hidden>🔥</span>
+        <span className="ace-stat-pill__icon" aria-hidden>🔥</span>
         {streakDays}d
       </span>
     </Link>
   )
 }
 
-export function EnlightHeader() {
+export function EnlightHeader({
+  variant = 'default',
+  exitTo = '/subjects',
+}: {
+  variant?: 'default' | 'lesson'
+  /** Used when variant is lesson — leave the lesson */
+  exitTo?: string
+}) {
   const location = useLocation()
   const { progress, levelProfile, streakAtRisk } = useMastery()
   const { isAdmin, user } = useAuth()
@@ -75,45 +82,63 @@ export function EnlightHeader() {
     }
   }, [mobileOpen])
 
+  if (variant === 'lesson') {
+    return (
+      <header className="ace-header ace-header--lesson">
+        <div className="ace-header__inner">
+          <Link to={user ? '/dashboard' : '/'} className="ace-header__brand">
+            <h1 className="ace-header__logo">
+              <span className="ace-header__logo-full">AceIGCSE</span>
+              <span className="ace-header__logo-short">Ace</span>
+            </h1>
+          </Link>
+          <Link to={exitTo} className="ace-header__exit">
+            Exit
+          </Link>
+        </div>
+      </header>
+    )
+  }
+
   return (
-    <header className="enlight-header">
-      <div className="enlight-header__inner">
-        <Link to={user ? '/dashboard' : '/'} className="enlight-header__brand">
-          <h1 className="enlight-header__logo">
-            <span className="enlight-header__logo-full">AceIGCSE</span>
-            <span className="enlight-header__logo-short">Ace</span>
+    <header className="ace-header">
+      <div className="ace-header__inner">
+        <Link to={user ? '/dashboard' : '/'} className="ace-header__brand">
+          <h1 className="ace-header__logo">
+            <span className="ace-header__logo-full">AceIGCSE</span>
+            <span className="ace-header__logo-short">Ace</span>
           </h1>
-          <span className="enlight-badge enlight-badge--gold">IGCSE</span>
+          <span className="ace-badge ace-badge--gold">IGCSE</span>
         </Link>
 
-        <nav className="enlight-header__nav" aria-label="Main navigation">
+        <nav className="ace-header__nav" aria-label="Main navigation">
           {nav.map((item) => (
             <Link
               key={item.to}
               to={item.to}
               data-tour={`nav-${item.label.toLowerCase()}`}
-              className={`enlight-header__link${item.match(location.pathname) ? ' enlight-header__link--active' : ''}`}
+              className={`ace-header__link${item.match(location.pathname) ? ' ace-header__link--active' : ''}`}
             >
               {item.label}
             </Link>
           ))}
         </nav>
 
-        <div className="enlight-header__actions">
+        <div className="ace-header__actions">
           <HeaderStats
-            className="enlight-header__stats--desktop"
+            className="ace-header__stats--desktop"
             level={levelProfile.level}
             xp={progress.xp}
             streakDays={progress.streakDays}
             streakAtRisk={streakAtRisk}
           />
           <NotificationBell />
-          <div className="enlight-header__auth">
+          <div className="ace-header__auth">
             <SignInButton compact />
           </div>
           <button
             type="button"
-            className="enlight-hamburger"
+            className="ace-hamburger"
             aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={mobileOpen}
             onClick={() => setMobileOpen((o) => !o)}
@@ -122,9 +147,9 @@ export function EnlightHeader() {
           </button>
         </div>
 
-        <div className="enlight-header__xp-mini" aria-hidden="true">
+        <div className="ace-header__xp-mini" aria-hidden="true">
           <div
-            className="enlight-header__xp-mini-fill"
+            className="ace-header__xp-mini-fill"
             style={{ width: `${levelProfile.levelProgressPercent}%` }}
           />
         </div>
@@ -134,43 +159,45 @@ export function EnlightHeader() {
         <>
           <button
             type="button"
-            className="enlight-mobile-backdrop"
+            className="ace-mobile-backdrop"
             aria-label="Close menu"
             onClick={() => setMobileOpen(false)}
           />
-          <nav className="enlight-mobile-menu" aria-label="Mobile navigation">
+          <nav className="ace-mobile-menu" aria-label="Mobile navigation">
             {continueStudying && (
-              <Link to={continueStudying.topicPath} className="enlight-mobile-menu__continue">
-                <span className="enlight-mobile-menu__continue-label">Continue studying</span>
-                <span className="enlight-mobile-menu__continue-topic">{continueStudying.topicTitle}</span>
+              <Link to={continueStudying.topicPath} className="ace-mobile-menu__continue">
+                <span className="ace-mobile-menu__continue-label">Continue studying</span>
+                <span className="ace-mobile-menu__continue-topic">{continueStudying.topicTitle}</span>
               </Link>
             )}
 
-            <div className="enlight-mobile-menu__goal">
-              <div className="enlight-mobile-menu__goal-top">
+            <div className="ace-mobile-menu__goal">
+              <div className="ace-mobile-menu__goal-top">
                 <span>Daily goal</span>
-                <span>{todayMin}/{dailyGoal} min</span>
+                <span>
+                  {todayMin}/{dailyGoal} min
+                </span>
               </div>
-              <div className="enlight-daily-goal-bar">
-                <div className="enlight-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
+              <div className="ace-daily-goal-bar">
+                <div className="ace-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
               </div>
             </div>
 
             <HeaderStats
-              className="enlight-mobile-menu__stats"
+              className="ace-mobile-menu__stats"
               level={levelProfile.level}
               xp={progress.xp}
               streakDays={progress.streakDays}
               streakAtRisk={streakAtRisk}
             />
 
-            <div className="enlight-mobile-menu__links">
+            <div className="ace-mobile-menu__links">
               {nav.map((item) => (
                 <Link
                   key={item.to}
                   to={item.to}
                   data-tour={`nav-${item.label.toLowerCase()}`}
-                  className={`enlight-mobile-menu__link${item.match(location.pathname) ? ' enlight-mobile-menu__link--active' : ''}`}
+                  className={`ace-mobile-menu__link${item.match(location.pathname) ? ' ace-mobile-menu__link--active' : ''}`}
                 >
                   {item.label}
                 </Link>
@@ -178,7 +205,7 @@ export function EnlightHeader() {
             </div>
 
             {user && (
-              <Link to="/social" className="enlight-mobile-menu__profile">
+              <Link to="/social" className="ace-mobile-menu__profile">
                 Social & profile
               </Link>
             )}

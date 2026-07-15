@@ -1,6 +1,6 @@
 export type PomodoroPhase = 'work' | 'break'
 
-export const POMODORO_RUNTIME_KEY = 'enlight-pomodoro-runtime'
+export const POMODORO_RUNTIME_KEY = 'ace-pomodoro-runtime'
 
 export interface PomodoroRuntime {
   phase: PomodoroPhase

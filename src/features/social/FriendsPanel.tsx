@@ -50,28 +50,28 @@ function FriendRow({
       : null
 
   return (
-    <li className="enlight-friend-row">
-      <Link to={`/profile/${friend.id}`} className="enlight-friend-row__main">
+    <li className="ace-friend-row">
+      <Link to={`/profile/${friend.id}`} className="ace-friend-row__main">
         {friend.avatarUrl ? (
-          <img src={friend.avatarUrl} alt="" className="enlight-leaderboard__avatar" width={36} height={36} />
+          <img src={friend.avatarUrl} alt="" className="ace-leaderboard__avatar" width={36} height={36} />
         ) : (
-          <span className="enlight-leaderboard__avatar enlight-leaderboard__avatar--placeholder">
+          <span className="ace-leaderboard__avatar ace-leaderboard__avatar--placeholder">
             {(friend.displayName ?? '?').slice(0, 1)}
           </span>
         )}
-        <span className={`enlight-presence-dot${online ? ' enlight-presence-dot--on' : ''}`} />
+        <span className={`ace-presence-dot${online ? ' ace-presence-dot--on' : ''}`} />
         <div>
-          <div className="enlight-friend-row__name">{friend.displayName}</div>
-          <div className="enlight-friend-row__meta">
+          <div className="ace-friend-row__name">{friend.displayName}</div>
+          <div className="ace-friend-row__meta">
             Lv {getGlobalLevel(friend.xp)} · {friend.streakDays}d streak
             {buddyStreak != null && buddyStreak > 0 && ` · 🤝 ${buddyStreak}d buddy`}
           </div>
-          <div className={`enlight-friend-row__studying${online ? '' : ' enlight-friend-row__studying--off'}`}>
+          <div className={`ace-friend-row__studying${online ? '' : ' ace-friend-row__studying--off'}`}>
             {statusText}
           </div>
         </div>
       </Link>
-      <div className="enlight-friend-row__actions">
+      <div className="ace-friend-row__actions">
         {joinPath && (
           <EnlightButton to={joinPath} variant="outline">
             Join
@@ -129,8 +129,8 @@ export function FriendsPanel() {
 
   useEffect(() => {
     const onFriendsChanged = () => reloadFriends()
-    window.addEventListener('enlight-friends-changed', onFriendsChanged)
-    return () => window.removeEventListener('enlight-friends-changed', onFriendsChanged)
+    window.addEventListener('ace-friends-changed', onFriendsChanged)
+    return () => window.removeEventListener('ace-friends-changed', onFriendsChanged)
   }, [user])
 
   useEffect(() => {
@@ -143,9 +143,9 @@ export function FriendsPanel() {
 
   if (!user) {
     return (
-      <section className="enlight-dashboard-card">
-        <h2 className="enlight-heading-serif">Friends</h2>
-        <p className="enlight-body-text">Sign in to add friends and study together.</p>
+      <section className="ace-dashboard-card">
+        <h2 className="ace-heading-serif">Friends</h2>
+        <p className="ace-body-text">Sign in to add friends and study together.</p>
       </section>
     )
   }
@@ -189,14 +189,14 @@ export function FriendsPanel() {
   }
 
   return (
-    <section className="enlight-dashboard-card enlight-friends-panel">
-      <h2 className="enlight-heading-serif">Friends</h2>
-      <p className="enlight-body-text enlight-friends-panel__code">
+    <section className="ace-dashboard-card ace-friends-panel">
+      <h2 className="ace-heading-serif">Friends</h2>
+      <p className="ace-body-text ace-friends-panel__code">
         Your friend code: <strong>{friendCode || '…'}</strong>
         {friendCode && (
           <button
             type="button"
-            className="enlight-link-btn"
+            className="ace-link-btn"
             onClick={() => void navigator.clipboard.writeText(friendCode)}
           >
             Copy
@@ -205,18 +205,18 @@ export function FriendsPanel() {
       </p>
 
       {duelBlocked && (
-        <div className="enlight-alert enlight-alert--warn" role="status">
+        <div className="ace-alert ace-alert--warn" role="status">
           <strong>Duel in progress</strong>
           <p>Finish your current duel in the inbox before starting another.</p>
         </div>
       )}
 
-      <div className="enlight-friends-add">
-        <label className="enlight-friends-add__field">
-          <span className="enlight-friends-add__label">Add by friend code</span>
-          <div className="enlight-friends-add__row">
+      <div className="ace-friends-add">
+        <label className="ace-friends-add__field">
+          <span className="ace-friends-add__label">Add by friend code</span>
+          <div className="ace-friends-add__row">
             <input
-              className="enlight-input"
+              className="ace-input"
               placeholder="FRD-ABC123"
               value={addCode}
               onChange={(e) => setAddCode(e.target.value)}
@@ -227,11 +227,11 @@ export function FriendsPanel() {
             </EnlightButton>
           </div>
         </label>
-        <label className="enlight-friends-add__field">
-          <span className="enlight-friends-add__label">Or user ID from leaderboard</span>
-          <div className="enlight-friends-add__row">
+        <label className="ace-friends-add__field">
+          <span className="ace-friends-add__label">Or user ID from leaderboard</span>
+          <div className="ace-friends-add__row">
             <input
-              className="enlight-input"
+              className="ace-input"
               placeholder="Paste user ID"
               value={addUid}
               onChange={(e) => setAddUid(e.target.value)}
@@ -244,19 +244,19 @@ export function FriendsPanel() {
         </label>
       </div>
 
-      {duelMessage && <p className="enlight-body-text enlight-form-message">{duelMessage}</p>}
-      {message && <p className="enlight-body-text enlight-form-message">{message}</p>}
+      {duelMessage && <p className="ace-body-text ace-form-message">{duelMessage}</p>}
+      {message && <p className="ace-body-text ace-form-message">{message}</p>}
       {pendingIncoming.length > 0 && (
-        <div className="enlight-friends-pending">
-          <p className="enlight-body-text">
+        <div className="ace-friends-pending">
+          <p className="ace-body-text">
             <strong>{pendingIncoming.length} pending request{pendingIncoming.length === 1 ? '' : 's'}</strong> — accept from the 🔔 bell in the header.
           </p>
         </div>
       )}
       {friends.length === 0 ? (
-        <p className="enlight-body-text">No friends yet — share your code with classmates.</p>
+        <p className="ace-body-text">No friends yet — share your code with classmates.</p>
       ) : (
-        <ul className="enlight-friends-list">
+        <ul className="ace-friends-list">
           {friends.map((f) => (
             <FriendRow
               key={f.id}

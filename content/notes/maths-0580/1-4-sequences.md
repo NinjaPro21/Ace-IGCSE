@@ -16,7 +16,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Arithmetic sequence">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Arithmetic sequence">
       <circle cx="60" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="60" y="54" text-anchor="middle" font-size="11">3</text>
       <circle cx="130" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="130" y="54" text-anchor="middle" font-size="11">7</text>
       <circle cx="200" cy="50" r="18" fill="#f5edd8" stroke="#5b8def"/><text x="200" y="54" text-anchor="middle" font-size="11">11</text>
@@ -24,7 +24,7 @@ $$
       <text x="95" y="30" text-anchor="middle" font-size="9" fill="#a8a29e">+4</text>
       <text x="165" y="30" text-anchor="middle" font-size="9" fill="#a8a29e">+4</text>
       <text x="235" y="30" text-anchor="middle" font-size="9" fill="#a8a29e">+4</text>
-    </svg><p class="enlight-physics-diagram__caption">Linear sequence — constant difference between terms; nth term $a + (n-1)d$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Linear sequence — constant difference between terms; nth term $a + (n-1)d$.</p></div>
 
 ## Steps / method
 

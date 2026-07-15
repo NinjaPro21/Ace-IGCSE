@@ -264,7 +264,7 @@ function CalcKey({
 
   return (
     <g
-      className="enlight-calc-key"
+      className="ace-calc-key"
       onMouseEnter={() => onHover(keyDef.id)}
       onMouseLeave={() => onHover(null)}
       onClick={() => onPress(keyDef.id)}
@@ -327,7 +327,7 @@ function DPad({
 
   return (
     <g
-      className="enlight-calc-key"
+      className="ace-calc-key"
       onMouseEnter={() => onHover('nav')}
       onMouseLeave={() => onHover(null)}
       onClick={() => onPress('nav')}
@@ -369,7 +369,7 @@ function CalculatorSvg({
   const pressed = (id: string) => pressedId === id
 
   return (
-    <svg viewBox="0 0 280 520" className="enlight-calc-svg" role="img" aria-label="Casio fx-570EX ClassWiz">
+    <svg viewBox="0 0 280 520" className="ace-calc-svg" role="img" aria-label="Casio fx-570EX ClassWiz">
       <defs>
         <pattern id="calc-carbon" width={6} height={6} patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
           <rect width={6} height={6} fill="#111" />
@@ -521,24 +521,24 @@ export function CasioCalculatorGuide({
   const hoverTip = hoverId ? KEY_TIPS[hoverId] ?? `${keyLabel(hoverId)} key` : null
 
   return (
-    <div className="enlight-calc-guide">
-      <div className="enlight-calc-guide__mission-bar">
+    <div className="ace-calc-guide">
+      <div className="ace-calc-guide__mission-bar">
         <div>
-          <div className="enlight-calc-guide__mission-label">Practice mission</div>
-          <p className="enlight-calc-guide__mission-title">{PANEL_MISSIONS[tab]}</p>
+          <div className="ace-calc-guide__mission-label">Practice mission</div>
+          <p className="ace-calc-guide__mission-title">{PANEL_MISSIONS[tab]}</p>
         </div>
-        <span className="enlight-calc-guide__mission-progress">
+        <span className="ace-calc-guide__mission-progress">
           Step {stepIdx + 1} / {steps.length}
         </span>
       </div>
 
-      <div className="enlight-calc-guide__tabs" role="tablist">
+      <div className="ace-calc-guide__tabs" role="tablist">
         {filtered.map((p) => (
           <button
             key={p}
             type="button"
             role="tab"
-            className={`enlight-calc-guide__tab${tab === p ? ' enlight-calc-guide__tab--active' : ''}`}
+            className={`ace-calc-guide__tab${tab === p ? ' ace-calc-guide__tab--active' : ''}`}
             onClick={() => {
               setTab(p)
               setStepIdx(0)
@@ -550,8 +550,8 @@ export function CasioCalculatorGuide({
         ))}
       </div>
 
-      <div className="enlight-calc-guide__layout">
-        <div className="enlight-calc-guide__device">
+      <div className="ace-calc-guide__layout">
+        <div className="ace-calc-guide__device">
           <CalculatorSvg
             display={display}
             result={result}
@@ -563,16 +563,16 @@ export function CasioCalculatorGuide({
             pressedId={pressedId}
             onPressKey={handlePress}
           />
-          {hoverTip && <p className="enlight-calc-guide__key-hint">{hoverTip}</p>}
+          {hoverTip && <p className="ace-calc-guide__key-hint">{hoverTip}</p>}
           {practiceSeq.length > 0 && (
-            <div className="enlight-calc-guide__sequence" aria-label="Key sequence">
+            <div className="ace-calc-guide__sequence" aria-label="Key sequence">
               {practiceSeq.map((keyId, i) => (
                 <span
                   key={keyId + i}
                   className={[
-                    'enlight-calc-guide__sequence-key',
-                    i < practiceIdx || practiceComplete ? 'enlight-calc-guide__sequence-key--done' : '',
-                    i === practiceIdx && !practiceComplete ? 'enlight-calc-guide__sequence-key--active' : '',
+                    'ace-calc-guide__sequence-key',
+                    i < practiceIdx || practiceComplete ? 'ace-calc-guide__sequence-key--done' : '',
+                    i === practiceIdx && !practiceComplete ? 'ace-calc-guide__sequence-key--active' : '',
                   ].join(' ')}
                 >
                   {keyLabel(keyId)}
@@ -580,25 +580,25 @@ export function CasioCalculatorGuide({
               ))}
             </div>
           )}
-          <p className="enlight-calc-guide__caption">
+          <p className="ace-calc-guide__caption">
             {practiceSeq.length > 0
               ? 'Press the highlighted keys in order on the diagram above.'
               : 'Hover any key to learn what it does, then tap to try it.'}
           </p>
           {practiceComplete && (
-            <p className="enlight-calc-guide__practice-hint">✓ Sequence complete — moving to next step…</p>
+            <p className="ace-calc-guide__practice-hint">✓ Sequence complete — moving to next step…</p>
           )}
         </div>
 
-        <div className="enlight-calc-guide__panel">
-          <h3 className="enlight-calc-guide__step-title">{step.title}</h3>
-          <MathText block className="enlight-calc-guide__step-body" content={step.body} />
+        <div className="ace-calc-guide__panel">
+          <h3 className="ace-calc-guide__step-title">{step.title}</h3>
+          <MathText block className="ace-calc-guide__step-body" content={step.body} />
           {practiceSeq.length > 0 && (
-            <ul className="enlight-calc-guide__checklist">
+            <ul className="ace-calc-guide__checklist">
               {practiceSeq.map((keyId, i) => (
                 <li
                   key={keyId + i}
-                  className={i < practiceIdx || practiceComplete ? 'enlight-calc-guide__checklist-item--done' : ''}
+                  className={i < practiceIdx || practiceComplete ? 'ace-calc-guide__checklist-item--done' : ''}
                 >
                   Press <strong>{keyLabel(keyId)}</strong>
                   {i === practiceSeq.length - 1 && result ? ` → expect ${result}` : ''}
@@ -606,7 +606,7 @@ export function CasioCalculatorGuide({
               ))}
             </ul>
           )}
-          <div className="enlight-calc-guide__step-nav">
+          <div className="ace-calc-guide__step-nav">
             <button
               type="button"
               disabled={stepIdx === 0}

@@ -14,20 +14,20 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Place value chart">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 100" width="360" height="100" role="img" aria-label="Place value chart">
       <rect x="40" y="30" width="60" height="40" fill="#f5edd8" stroke="#5b8def"/><text x="70" y="55" text-anchor="middle" font-size="14">1</text><text x="70" y="85" font-size="9" fill="#a8a29e">ones</text>
       <rect x="110" y="30" width="60" height="40" fill="#f5edd8" stroke="#5b8def"/><text x="140" y="55" text-anchor="middle" font-size="14">0</text><text x="140" y="85" font-size="9" fill="#a8a29e">tens</text>
       <rect x="180" y="30" width="60" height="40" fill="#f5edd8" stroke="#5b8def"/><text x="210" y="55" text-anchor="middle" font-size="14">3</text><text x="210" y="85" font-size="9" fill="#a8a29e">hundreds</text>
       <text x="180" y="20" text-anchor="middle" font-size="11" fill="#1a1a1a">302</text>
-    </svg><p class="enlight-physics-diagram__caption">Place value — each column is a power of 10; digits shift value by column position.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Place value — each column is a power of 10; digits shift value by column position.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="BIDMAS order">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="BIDMAS order">
       <rect x="20" y="25" width="55" height="35" rx="6" fill="#fdfbf7" stroke="#b59a73"/><text x="47" y="48" text-anchor="middle" font-size="10" font-weight="600">( )</text>
       <rect x="85" y="25" width="55" height="35" rx="6" fill="#fdfbf7" stroke="#b59a73"/><text x="112" y="48" text-anchor="middle" font-size="10" font-weight="600">x²</text>
       <rect x="150" y="25" width="55" height="35" rx="6" fill="#f5edd8" stroke="#5b8def"/><text x="177" y="48" text-anchor="middle" font-size="10" font-weight="600">÷ ×</text>
       <rect x="215" y="25" width="55" height="35" rx="6" fill="#fdfbf7" stroke="#789671"/><text x="242" y="48" text-anchor="middle" font-size="10" font-weight="600">+ −</text>
       <text x="290" y="48" font-size="10" fill="#a8a29e">→</text>
-    </svg><p class="enlight-physics-diagram__caption">Order of operations — Brackets, Indices, Division/Multiplication (left to right), Addition/Subtraction (left to right).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Order of operations — Brackets, Indices, Division/Multiplication (left to right), Addition/Subtraction (left to right).</p></div>
 
 ## Steps / method
 

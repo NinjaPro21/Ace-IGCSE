@@ -36,7 +36,7 @@ For the same temperature rise, different states expand by different amounts:
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Bar chart comparing thermal expansion">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Bar chart comparing thermal expansion">
       <text x="180" y="22" text-anchor="middle" font-size="11" fill="#64748b" font-weight="600">Relative volume increase (same ΔT)</text>
       <rect x="48" y="142" width="64" height="28" rx="6" fill="#64748b" opacity="0.85"/>
       <text x="80" y="188" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Solid</text>
@@ -45,9 +45,9 @@ For the same temperature rise, different states expand by different amounts:
       <rect x="248" y="82" width="64" height="88" rx="6" fill="#f59e0b" opacity="0.85"/>
       <text x="280" y="188" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Gas</text>
       <text x="180" y="198" text-anchor="middle" font-size="10" fill="#94a3b8">Gases &gt; Liquids &gt; Solids</text>
-    </svg><p class="enlight-physics-diagram__caption">Relative expansion — for the same temperature rise, gases expand most, then liquids, then solids.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Relative expansion — for the same temperature rise, gases expand most, then liquids, then solids.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Ball and ring before and after heating">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Ball and ring before and after heating">
       <text x="90" y="24" text-anchor="middle" font-size="11" fill="#64748b" font-weight="600">Room temp</text>
       <text x="270" y="24" text-anchor="middle" font-size="11" fill="#64748b" font-weight="600">Ball heated</text>
       <circle cx="90" cy="95" r="28" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
@@ -57,18 +57,18 @@ For the same temperature rise, different states expand by different amounts:
       <circle cx="270" cy="95" r="38" fill="none" stroke="#cbd5e1" stroke-width="6"/>
       <line x1="248" y1="72" x2="292" y2="118" stroke="#dc2626" stroke-width="2.5"/>
       <text x="270" y="150" text-anchor="middle" font-size="10" fill="#dc2626" font-weight="600">Too large ✗</text>
-    </svg><p class="enlight-physics-diagram__caption">Ball-and-ring — at room temperature the ball passes through the ring; after heating, thermal expansion stops it fitting.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Ball-and-ring — at room temperature the ball passes through the ring; after heating, thermal expansion stops it fitting.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Railway expansion gap">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Railway expansion gap">
       <rect x="20" y="120" width="130" height="12" rx="2" fill="#64748b"/>
       <rect x="210" y="120" width="130" height="12" rx="2" fill="#64748b"/>
       <rect x="148" y="116" width="24" height="20" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4 3"/>
       <text x="160" y="108" text-anchor="middle" font-size="10" fill="#b45309" font-weight="600">Gap</text>
       <rect x="0" y="140" width="360" height="40" fill="#e2e8f0"/>
       <text x="180" y="178" text-anchor="middle" font-size="10" fill="#64748b">Rails can lengthen safely in hot weather</text>
-    </svg><p class="enlight-physics-diagram__caption">Expansion gap — deliberate spaces between rail sections allow safe expansion in hot weather without buckling.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Expansion gap — deliberate spaces between rail sections allow safe expansion in hot weather without buckling.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Particles before and after heating">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Particles before and after heating">
       <text x="90" y="22" text-anchor="middle" font-size="11" fill="#64748b">Cold</text>
       <text x="270" y="22" text-anchor="middle" font-size="11" fill="#64748b">Heated</text>
       <circle cx="60" cy="80" r="6" fill="#64748b"/><circle cx="95" cy="75" r="6" fill="#64748b"/><circle cx="130" cy="90" r="6" fill="#64748b"/>
@@ -77,7 +77,7 @@ For the same temperature rise, different states expand by different amounts:
       <circle cx="230" cy="115" r="6" fill="#f97316"/><circle cx="275" cy="120" r="6" fill="#f97316"/>
       <text x="90" y="145" text-anchor="middle" font-size="10" fill="#64748b">close together</text>
       <text x="270" y="145" text-anchor="middle" font-size="10" fill="#f97316">further apart</text>
-    </svg><p class="enlight-physics-diagram__caption">Particle model — heating increases average kinetic energy; particles vibrate or move faster and push further apart (they do not grow in size).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Particle model — heating increases average kinetic energy; particles vibrate or move faster and push further apart (they do not grow in size).</p></div>
 
 ## Steps / method
 

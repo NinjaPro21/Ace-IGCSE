@@ -35,7 +35,7 @@ $$
 
 - A neutron hits a heavy nucleus (e.g. uranium-235). The nucleus splits into two daughter nuclei, ejecting more neutrons and releasing energy.
 
-<div class="enlight-physics-diagram enlight-physics-diagram--hero"><svg viewBox="0 0 520 200" width="520" height="200" role="img" aria-label="Nuclear fission of uranium-235">
+<div class="ace-physics-diagram ace-physics-diagram--hero"><svg viewBox="0 0 520 200" width="520" height="200" role="img" aria-label="Nuclear fission of uranium-235">
       <text x="260" y="22" text-anchor="middle" font-size="12" fill="#334155" font-weight="700">Nuclear fission — heavy nucleus splits</text>
       <circle cx="55" cy="100" r="6" fill="#64748b"/>
       <line x1="61" y1="100" x2="95" y2="100" stroke="#64748b" stroke-width="2" marker-end="url(#fis-arr)"/>
@@ -53,13 +53,13 @@ $$
       <text x="420" y="100" font-size="10" fill="#dc2626" font-weight="600">+ energy</text>
       <text x="260" y="178" text-anchor="middle" font-size="9" fill="#475569">Neutrons released can trigger a chain reaction in enriched uranium</text>
       <defs><marker id="fis-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Fission — a neutron splits a heavy nucleus into two smaller nuclei, releasing more neutrons and energy.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Fission — a neutron splits a heavy nucleus into two smaller nuclei, releasing more neutrons and energy.</p></div>
 
 **Nuclear fusion**
 
 - Two light nuclei collide at very high temperature and pressure, join to form a heavier nucleus, and release energy.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 180" width="480" height="180" role="img" aria-label="Nuclear fusion in the Sun">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 180" width="480" height="180" role="img" aria-label="Nuclear fusion in the Sun">
       <text x="240" y="22" text-anchor="middle" font-size="12" fill="#334155" font-weight="700">Nuclear fusion — light nuclei combine</text>
       <circle cx="80" cy="90" r="22" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
       <text x="80" y="94" text-anchor="middle" font-size="9" fill="#1e40af">H / D</text>
@@ -77,7 +77,7 @@ $$
       <text x="400" y="94" font-size="10" fill="#dc2626" font-weight="600">+ energy</text>
       <text x="240" y="155" text-anchor="middle" font-size="9" fill="#475569">Fusion powers the Sun — requires extreme temperature to overcome electrostatic repulsion</text>
       <defs><marker id="fus-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Fusion — two light nuclei join to form a heavier nucleus; mass decreases and energy is released ($E = mc^2$).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Fusion — two light nuclei join to form a heavier nucleus; mass decreases and energy is released ($E = mc^2$).</p></div>
 
 **Fission vs fusion**
 

@@ -35,7 +35,7 @@ Applies when converting astronomical distances into standard SI metres.
 - **Life Cycle of an Average Star**: A flow chart showing the stages: Nebula $\rightarrow$ Protostar $\rightarrow$ Stable Star (like the Sun) $\rightarrow$ Red Giant $\rightarrow$ Planetary Nebula $\rightarrow$ White Dwarf.
 - **Life Cycle of a Massive Star**: A flow chart for stars at least eight times the mass of the Sun: Nebula $\rightarrow$ Protostar $\rightarrow$ Massive Star $\rightarrow$ Red Supergiant $\rightarrow$ Supernova $\rightarrow$ Neutron Star OR Black Hole.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 520 240" width="520" height="240" role="img" aria-label="Life cycles of average and massive stars">
+<div class="ace-physics-diagram"><svg viewBox="0 0 520 240" width="520" height="240" role="img" aria-label="Life cycles of average and massive stars">
       <text x="130" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Average star</text>
       <text x="390" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Massive star</text>
       <rect x="20" y="40" width="70" height="24" rx="4" fill="#e2e8f0" stroke="#64748b"/><text x="55" y="56" text-anchor="middle" font-size="8" fill="#334155">Nebula</text>
@@ -58,9 +58,9 @@ Applies when converting astronomical distances into standard SI metres.
       <rect x="290" y="175" width="70" height="24" rx="4" fill="#94a3b8" stroke="#475569"/><text x="325" y="191" text-anchor="middle" font-size="8" fill="#334155">Neutron star</text>
       <text x="360" y="191" text-anchor="middle" font-size="8" fill="#64748b">or</text>
       <rect x="380" y="175" width="70" height="24" rx="4" fill="#1e293b" stroke="#0f172a"/><text x="415" y="191" text-anchor="middle" font-size="8" fill="#f8fafc">Black hole</text>
-    </svg><p class="enlight-physics-diagram__caption">Star life cycles — average stars end as white dwarfs; massive stars may explode as supernovae and leave neutron stars or black holes.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Star life cycles — average stars end as white dwarfs; massive stars may explode as supernovae and leave neutron stars or black holes.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Forces in a stable star">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Forces in a stable star">
       <circle cx="200" cy="100" r="55" fill="#fef08a" stroke="#f59e0b" stroke-width="2"/>
       <text x="200" y="96" text-anchor="middle" font-size="11" fill="#854d0e" font-weight="600">Sun</text>
       <text x="200" y="112" text-anchor="middle" font-size="8" fill="#854d0e">H → He fusion</text>
@@ -78,7 +78,7 @@ Applies when converting astronomical distances into standard SI metres.
         <marker id="sun-out" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
         <marker id="sun-in" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Stable star — inward gravitational force is balanced by outward pressure from nuclear fusion.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Stable star — inward gravitational force is balanced by outward pressure from nuclear fusion.</p></div>
 
 ## Steps / method
 

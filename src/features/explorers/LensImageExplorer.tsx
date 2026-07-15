@@ -206,7 +206,7 @@ function ScenarioDiagram({ panel }: { panel: LensGuidePanel }) {
     const r1 = rayParallelToF({ x: 40, y: y1 })
     const r2 = rayParallelToF({ x: 40, y: y2 })
     return (
-      <svg viewBox="0 0 480 230" className="enlight-thermal-diagram__svg" role="img" aria-label="Lens at infinity">
+      <svg viewBox="0 0 480 230" className="ace-thermal-diagram__svg" role="img" aria-label="Lens at infinity">
         <LensAxis />
         <line x1="40" y1={y1} x2={LENS_EDGE} y2={y1} stroke="#f59e0b" strokeWidth="2.5" />
         {seg(r1.hit, r1.focus)}
@@ -227,7 +227,7 @@ function ScenarioDiagram({ panel }: { panel: LensGuidePanel }) {
     const par = rayParallelToF(tip)
     const cen = rayThroughCenter(tip, 430)
     return (
-      <svg viewBox="0 0 480 230" className="enlight-thermal-diagram__svg" role="img" aria-label="Lens at F">
+      <svg viewBox="0 0 480 230" className="ace-thermal-diagram__svg" role="img" aria-label="Lens at F">
         <LensAxis />
         <ObjectArrow x={objX} h={h} />
         <line x1={tip.x} y1={tip.y} x2={par.hit.x} y2={par.hit.y} stroke="#f59e0b" strokeWidth="2.5" />
@@ -248,7 +248,7 @@ function ScenarioDiagram({ panel }: { panel: LensGuidePanel }) {
     const cen = rayThroughCenter(tip, 430)
     const virtual = intersect(par.focus, par.hit, tip, cen.center)
     return (
-      <svg viewBox="0 0 480 230" className="enlight-thermal-diagram__svg" role="img" aria-label="Magnifying glass">
+      <svg viewBox="0 0 480 230" className="ace-thermal-diagram__svg" role="img" aria-label="Magnifying glass">
         <LensAxis />
         <ObjectArrow x={objX} h={h} />
         <line x1={tip.x} y1={tip.y} x2={par.hit.x} y2={par.hit.y} stroke="#f59e0b" strokeWidth="2.5" />
@@ -274,7 +274,7 @@ function ScenarioDiagram({ panel }: { panel: LensGuidePanel }) {
   const inverted = imagePt && imagePt.y > AXIS
 
   return (
-    <svg viewBox="0 0 480 230" className="enlight-thermal-diagram__svg" role="img" aria-label={`Lens ${panel}`}>
+    <svg viewBox="0 0 480 230" className="ace-thermal-diagram__svg" role="img" aria-label={`Lens ${panel}`}>
       <LensAxis />
       <ObjectArrow x={cfg.objX} h={cfg.h} />
       <line x1={tip.x} y1={tip.y} x2={par.hit.x} y2={par.hit.y} stroke="#f59e0b" strokeWidth="2.5" />
@@ -295,16 +295,16 @@ export function LensImageExplorer({ panels }: { panels?: LensGuidePanel[] }) {
   const meta = ROWS.find((r) => r.id === active) ?? ROWS[0]
 
   return (
-    <section className="enlight-explorer enlight-thermal-guide">
+    <section className="ace-explorer ace-thermal-guide">
       {available.length > 1 && (
-        <div className="enlight-thermal-guide__tabs" role="tablist" aria-label="Object distance scenarios">
+        <div className="ace-thermal-guide__tabs" role="tablist" aria-label="Object distance scenarios">
           {available.map((row) => (
             <button
               key={row.id}
               type="button"
               role="tab"
               aria-selected={active === row.id}
-              className={`enlight-thermal-guide__tab${active === row.id ? ' enlight-thermal-guide__tab--active' : ''}`}
+              className={`ace-thermal-guide__tab${active === row.id ? ' ace-thermal-guide__tab--active' : ''}`}
               onClick={() => setActive(row.id)}
             >
               {row.label}
@@ -312,10 +312,10 @@ export function LensImageExplorer({ panels }: { panels?: LensGuidePanel[] }) {
           ))}
         </div>
       )}
-      <div className="enlight-thermal-guide__frame">
+      <div className="ace-thermal-guide__frame">
         <ScenarioDiagram panel={active} />
       </div>
-      <div className="enlight-markdown" style={{ marginTop: 12 }}>
+      <div className="ace-markdown" style={{ marginTop: 12 }}>
         <table>
           <thead>
             <tr>
@@ -342,7 +342,7 @@ export function LensImageExplorer({ panels }: { panels?: LensGuidePanel[] }) {
           </tbody>
         </table>
       </div>
-      <p className="enlight-thermal-guide__caption">{meta.caption}</p>
+      <p className="ace-thermal-guide__caption">{meta.caption}</p>
     </section>
   )
 }

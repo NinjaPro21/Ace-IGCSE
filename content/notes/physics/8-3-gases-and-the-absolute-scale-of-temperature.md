@@ -31,41 +31,41 @@ Applies to a fixed mass of gas at a constant temperature.
 - Graph is a straight line through the origin (when extrapolated below $0^\circ\text{C}$ to absolute zero).
 - Must use Kelvin — not Celsius — for proportionality.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Pressure temperature graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Pressure temperature graph">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Temperature / K</text>
       <text x="22" y="110" transform="rotate(-90 22 110)" text-anchor="middle" font-size="12" fill="#475569">Pressure</text>
       <line x1="55" y1="195" x2="340" y2="55" stroke="#2563eb" stroke-width="2.5"/>
       <text x="250" y="95" font-size="11" fill="#2563eb">p ∝ T (Kelvin)</text>
-    </svg><p class="enlight-physics-diagram__caption">Pressure–temperature graph (constant volume) — pressure is directly proportional to temperature in Kelvin.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Pressure–temperature graph (constant volume) — pressure is directly proportional to temperature in Kelvin.</p></div>
 
 **Pressure–volume graph (constant temperature)**
 
 - Pressure and volume are inversely proportional (Boyle's law).
 - Graph is a curve (hyperbola) — as $V$ increases, $p$ decreases.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 280" width="400" height="280" role="img" aria-label="Pressure volume graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 280" width="400" height="280" role="img" aria-label="Pressure volume graph">
       <rect width="400" height="280" fill="#faf8f5"/>
       <line x1="60" y1="240" x2="360" y2="240" stroke="#1a1a1a" stroke-width="2"/>
       <line x1="60" y1="240" x2="60" y2="40" stroke="#1a1a1a" stroke-width="2"/>
       <text x="210" y="268" text-anchor="middle" font-size="12" fill="#334155">Volume</text>
       <text x="22" y="140" transform="rotate(-90 22 140)" text-anchor="middle" font-size="12" fill="#334155">Pressure</text>
       <path d="M 72 48 C 110 50, 170 68, 230 105 S 330 195, 352 232" fill="none" stroke="#96301B" stroke-width="5" stroke-linecap="round"/>
-    </svg><p class="enlight-physics-diagram__caption">Pressure–volume graph (constant temperature) — pressure decreases as volume increases (Boyle's law: inverse relationship).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Pressure–volume graph (constant temperature) — pressure decreases as volume increases (Boyle's law: inverse relationship).</p></div>
 
 **Pressure vs $1/\text{volume}$ graph**
 
 - Plotting $p$ against $1/V$ gives a straight line through the origin, confirming inverse proportionality.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Pressure against one over volume">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Pressure against one over volume">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">1 / Volume</text>
       <text x="22" y="110" transform="rotate(-90 22 110)" text-anchor="middle" font-size="12" fill="#475569">Pressure</text>
       <line x1="65" y1="185" x2="360" y2="50" stroke="#7c3aed" stroke-width="2.5"/>
       <text x="200" y="120" font-size="11" fill="#7c3aed">straight line → p ∝ 1/V</text>
-    </svg><p class="enlight-physics-diagram__caption">Pressure vs $1/V$ — a straight line through the origin confirms inverse proportionality between $p$ and $V$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Pressure vs $1/V$ — a straight line through the origin confirms inverse proportionality between $p$ and $V$.</p></div>
 
 **Gas particle collisions**
 
@@ -73,13 +73,13 @@ Applies to a fixed mass of gas at a constant temperature.
 - They collide with each other and with the container walls.
 - Each wall collision exerts a tiny force; millions of collisions per second produce measurable pressure.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 180" width="420" height="180" role="img" aria-label="Gas particle collisions">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 180" width="420" height="180" role="img" aria-label="Gas particle collisions">
       <rect x="60" y="30" width="300" height="120" fill="#f8fafc" stroke="#64748b" stroke-width="2" rx="4"/>
       <circle cx="120" cy="70" r="6" fill="#2563eb"/><line x1="120" y1="70" x2="145" y2="55" stroke="#2563eb" stroke-width="1.5"/>
       <circle cx="200" cy="90" r="6" fill="#f59e0b"/><line x1="200" y1="90" x2="230" y2="90" stroke="#f59e0b" stroke-width="1.5"/>
       <circle cx="320" cy="110" r="6" fill="#7c3aed"/><line x1="320" y1="110" x2="350" y2="110" stroke="#7c3aed" stroke-width="2"/>
       <text x="210" y="168" text-anchor="middle" font-size="10" fill="#475569">Random wall collisions create gas pressure</text>
-    </svg><p class="enlight-physics-diagram__caption">Gas pressure — particles collide randomly with container walls; many collisions per second produce a steady pressure.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Gas pressure — particles collide randomly with container walls; many collisions per second produce a steady pressure.</p></div>
 
 ## Steps / method
 

@@ -57,18 +57,18 @@ export function ExponentialGraphExplorer() {
   const eq = `y = ${fmtCoeff(a)}${base}^(${hPart})${kPart}`
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Exponential Graph Explorer</h2>
-      <div className="enlight-explorer__layout">
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Exponential Graph Explorer</h2>
+      <div className="ace-explorer__layout">
         <div>
-          <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+          <p className="ace-body-text" style={{ marginBottom: 14 }}>
             Explore y = a · b<sup>x−h</sup> + k. Watch how the <strong>y-intercept</strong> and asymptote change.
           </p>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="e-base">
               <strong>base b</strong> = {base}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — growth rate</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — growth rate</span>
             </label>
             <input
               id="e-base"
@@ -81,10 +81,10 @@ export function ExponentialGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="e-a">
               <strong>a</strong> = {a}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — vertical stretch</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — vertical stretch</span>
             </label>
             <input
               id="e-a"
@@ -97,10 +97,10 @@ export function ExponentialGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="e-h">
               <strong>h</strong> = {h}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — horizontal shift</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — horizontal shift</span>
             </label>
             <input
               id="e-h"
@@ -113,10 +113,10 @@ export function ExponentialGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="e-k">
               <strong>k</strong> = {k}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — vertical shift / asymptote</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — vertical shift / asymptote</span>
             </label>
             <input
               id="e-k"
@@ -129,30 +129,30 @@ export function ExponentialGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-discriminant-display" style={{ marginTop: 14 }}>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '0.9rem', letterSpacing: '-0.01em' }}>
+          <div className="ace-discriminant-display" style={{ marginTop: 14 }}>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '0.9rem', letterSpacing: '-0.01em' }}>
               {eq}
             </div>
-            <div className="enlight-discriminant-display__label">
+            <div className="ace-discriminant-display__label">
               Horizontal asymptote: y = {k}
             </div>
           </div>
 
-          <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)', marginTop: 10, display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)', marginTop: 10, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span>
-              <strong style={{ color: 'var(--enlight-text)' }}>y-intercept</strong> (x = 0):{' '}
+              <strong style={{ color: 'var(--ace-text)' }}>y-intercept</strong> (x = 0):{' '}
               y = {yIntercept.toFixed(2)} &nbsp;→&nbsp; (0, {yIntercept.toFixed(2)})
             </span>
             {xIntercept !== null && xIntercept >= X_MIN && xIntercept <= X_MAX && (
               <span>
-                <strong style={{ color: 'var(--enlight-text)' }}>x-intercept:</strong> x ≈ {xIntercept.toFixed(3)}
+                <strong style={{ color: 'var(--ace-text)' }}>x-intercept:</strong> x ≈ {xIntercept.toFixed(3)}
               </span>
             )}
           </div>
         </div>
 
         <svg
-          className="enlight-graph-canvas"
+          className="ace-graph-canvas"
           viewBox={`0 0 ${W} ${H}`}
           role="img"
           aria-label="Interactive exponential graph"

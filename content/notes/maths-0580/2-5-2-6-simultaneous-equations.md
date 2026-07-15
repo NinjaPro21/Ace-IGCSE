@@ -12,7 +12,7 @@ Simultaneous linear equations are pairs of equations containing two unknown vari
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 140" width="280" height="140" role="img" aria-label="Elimination method">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 140" width="280" height="140" role="img" aria-label="Elimination method">
       <rect x="30" y="20" width="220" height="32" rx="4" fill="#f5edd8" stroke="#b59a73"/>
       <text x="140" y="41" text-anchor="middle" font-size="12" fill="#1a1a1a">3x + 2y = 12</text>
       <rect x="30" y="58" width="220" height="32" rx="4" fill="#fdfbf7" stroke="#b59a73"/>
@@ -20,9 +20,9 @@ Simultaneous linear equations are pairs of equations containing two unknown vari
       <text x="140" y="108" text-anchor="middle" font-size="18" fill="#6b6b6b">+</text>
       <line x1="30" y1="118" x2="250" y2="118" stroke="#a8a29e" stroke-width="2"/>
       <text x="140" y="135" text-anchor="middle" font-size="12" fill="#789671" font-weight="600">8x = 16 → x = 2</text>
-    </svg><p class="enlight-physics-diagram__caption">Elimination — align like terms, then add or subtract the equations to remove one variable.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Elimination — align like terms, then add or subtract the equations to remove one variable.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 120" width="320" height="120" role="img" aria-label="Substitution method">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 120" width="320" height="120" role="img" aria-label="Substitution method">
       <rect x="20" y="35" width="110" height="50" rx="6" fill="#f5edd8" stroke="#b59a73" stroke-width="1.5"/>
       <text x="75" y="65" text-anchor="middle" font-size="11" fill="#1a1a1a">y = 2x + 1</text>
       <line x1="135" y1="60" x2="175" y2="60" stroke="#6b6b6b" marker-end="url(#sub-arr)"/>
@@ -31,16 +31,16 @@ Simultaneous linear equations are pairs of equations containing two unknown vari
       <text x="240" y="50" text-anchor="middle" font-size="11" fill="#1a1a1a">3x + y = 14</text>
       <text x="240" y="72" text-anchor="middle" font-size="11" fill="#789671">3x + (2x+1) = 14</text>
       <defs><marker id="sub-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#6b6b6b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Substitution — rearrange one equation for $y$, then replace $y$ in the other equation.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Substitution — rearrange one equation for $y$, then replace $y$ in the other equation.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Intersecting lines">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Intersecting lines">
       <line x1="40" y1="190" x2="290" y2="190" stroke="#a8a29e"/>
       <line x1="40" y1="190" x2="40" y2="30" stroke="#a8a29e"/>
       <line x1="60" y1="170" x2="260" y2="50" stroke="#5b8def" stroke-width="2"/>
       <line x1="60" y1="50" x2="260" y2="170" stroke="#789671" stroke-width="2"/>
       <circle cx="160" cy="110" r="5" fill="#b59a73"/>
       <text x="168" y="105" font-size="10" fill="#b59a73">solution</text>
-    </svg><p class="enlight-physics-diagram__caption">Simultaneous equations — solution is the point where the two lines cross.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Simultaneous equations — solution is the point where the two lines cross.</p></div>
 
 ## Steps / method
 

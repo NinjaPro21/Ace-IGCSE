@@ -14,10 +14,10 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="Rearranging formula">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="Rearranging formula">
       <text x="160" y="35" text-anchor="middle" font-size="13" fill="#1a1a1a">v = u + at</text>
       <text x="160" y="60" text-anchor="middle" font-size="13" fill="#5b8def">a = (v − u) / t</text>
-    </svg><p class="enlight-physics-diagram__caption">Changing the subject — treat formula like balance; undo operations in reverse order on both sides.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Changing the subject — treat formula like balance; undo operations in reverse order on both sides.</p></div>
 
 ## Steps / method
 

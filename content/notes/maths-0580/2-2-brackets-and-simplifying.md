@@ -18,12 +18,12 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Area model for brackets">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Area model for brackets">
       <rect x="60" y="50" width="80" height="80" fill="#f5edd8" stroke="#5b8def"/><text x="100" y="95" text-anchor="middle" font-size="11">x²</text>
       <rect x="140" y="50" width="40" height="80" fill="#fdfbf7" stroke="#b59a73"/><text x="160" y="95" text-anchor="middle" font-size="10">3x</text>
       <rect x="60" y="130" width="80" height="30" fill="#fdfbf7" stroke="#789671"/><text x="100" y="150" text-anchor="middle" font-size="10">2x</text>
       <rect x="140" y="130" width="40" height="30" fill="#fdfbf7" stroke="#b59a73"/><text x="160" y="150" text-anchor="middle" font-size="10">6</text>
-    </svg><p class="enlight-physics-diagram__caption">Expanding brackets — area model: $(x+2)(x+3) = x² + 5x + 6$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Expanding brackets — area model: $(x+2)(x+3) = x² + 5x + 6$.</p></div>
 
 ## Steps / method
 

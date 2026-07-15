@@ -534,7 +534,7 @@ export function renderCh18Scene(
 export function parseCh18SceneFromDiagram(diagram: string): Ch18SceneId {
   const m = diagram.match(/data-scene="([^"]+)"/)
   if (m?.[1] && m[1] in SCENE_META) return m[1] as Ch18SceneId
-  if (diagram.includes('enlight-fleming-3d') || diagram.includes('Left-Hand')) {
+  if (diagram.includes('ace-fleming-3d') || diagram.includes('Left-Hand')) {
     return /data-hand="right"|Right-Hand/i.test(diagram) ? 'fleming-right' : 'fleming-left'
   }
   if (/grip rule/i.test(diagram)) return 'grip-rule'

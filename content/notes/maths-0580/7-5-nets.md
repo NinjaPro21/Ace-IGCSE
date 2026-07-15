@@ -14,14 +14,14 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Cube net">
+<div class="ace-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Cube net">
       <rect x="80" y="20" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
       <rect x="80" y="70" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
       <rect x="30" y="70" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
       <rect x="130" y="70" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
       <rect x="80" y="120" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
       <rect x="80" y="170" width="50" height="50" fill="#f5edd8" stroke="#5b8def"/>
-    </svg><p class="enlight-physics-diagram__caption">Net of a cube — six squares fold into a cube; opposite faces never share an edge in the net.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Net of a cube — six squares fold into a cube; opposite faces never share an edge in the net.</p></div>
 
 ## Steps / method
 

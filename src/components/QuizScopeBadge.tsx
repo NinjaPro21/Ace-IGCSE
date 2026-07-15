@@ -8,7 +8,7 @@ export function QuizScopeBadge({ scope, className = '' }: QuizScopeBadgeProps) {
   const label = scope === 'section' ? 'Section quiz' : 'Chapter quiz'
   return (
     <span
-      className={`enlight-quiz-scope-badge enlight-quiz-scope-badge--${scope} ${className}`.trim()}
+      className={`ace-quiz-scope-badge ace-quiz-scope-badge--${scope} ${className}`.trim()}
     >
       {label}
     </span>

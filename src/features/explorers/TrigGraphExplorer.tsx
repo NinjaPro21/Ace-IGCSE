@@ -122,16 +122,16 @@ function SectorPanel({
     )
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">{title}</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 12 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">{title}</h2>
+      <p className="ace-body-text" style={{ marginBottom: 12 }}>
         {intro}
       </p>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="sec-r"><strong>r</strong> = {r}</label>
         <input id="sec-r" type="range" min={1} max={5} step={0.5} value={r} onChange={(e) => setR(Number(e.target.value))} />
       </div>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         {useDeg ? (
           <>
             <label htmlFor="sec-t"><strong>θ</strong> = {thetaDeg}°</label>
@@ -144,8 +144,8 @@ function SectorPanel({
           </>
         )}
       </div>
-      <div className="enlight-discriminant-display" style={{ marginTop: 12 }}>
-        <div className="enlight-discriminant-display__value">
+      <div className="ace-discriminant-display" style={{ marginTop: 12 }}>
+        <div className="ace-discriminant-display__value">
           {focus === 'length' && (
             <>
               s = {arcLen.toFixed(2)}
@@ -163,7 +163,7 @@ function SectorPanel({
           )}
         </div>
       </div>
-      <svg viewBox="0 0 240 240" className="enlight-graph-canvas" style={{ maxWidth: 280, marginTop: 16 }} role="img" aria-label="Circle sector">
+      <svg viewBox="0 0 240 240" className="ace-graph-canvas" style={{ maxWidth: 280, marginTop: 16 }} role="img" aria-label="Circle sector">
         <circle cx={cx} cy={cy} r={R} fill="none" stroke={GRAPH.grid} strokeWidth={1.5} />
         {isFullCircle ? (
           <circle
@@ -253,18 +253,18 @@ export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
   ] as const
 
   return (
-    <div className="enlight-trig-explorer">
+    <div className="ace-trig-explorer">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>
         <div>
-          <h3 style={{ fontFamily: 'var(--enlight-font-serif)', margin: '0 0 8px' }}>Interactive Graph Explorer</h3>
-          <p style={{ fontFamily: 'var(--enlight-font-mono)', fontSize: '0.85rem', margin: 0 }}>
+          <h3 style={{ fontFamily: 'var(--ace-font-serif)', margin: '0 0 8px' }}>Interactive Graph Explorer</h3>
+          <p style={{ fontFamily: 'var(--ace-font-mono)', fontSize: '0.85rem', margin: 0 }}>
             y = a · f(bx + c°) + d
           </p>
         </div>
-        <span className="enlight-badge enlight-badge--mint">FREE PREVIEW</span>
+        <span className="ace-badge ace-badge--mint">FREE PREVIEW</span>
       </div>
 
-      <div className="enlight-trig-view-tabs">
+      <div className="ace-trig-view-tabs">
         {(
           [
             ['graph', 'Graph'],
@@ -274,7 +274,7 @@ export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
           <button
             key={id}
             type="button"
-            className={`enlight-trig-view-tabs__btn${view === id ? ' enlight-trig-view-tabs__btn--active' : ''}`}
+            className={`ace-trig-view-tabs__btn${view === id ? ' ace-trig-view-tabs__btn--active' : ''}`}
             onClick={() => {
               setView(id)
               if (id === 'modulus') setModulusOn(true)
@@ -285,12 +285,12 @@ export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
         ))}
       </div>
 
-      <div className="enlight-trig-tabs">
+      <div className="ace-trig-tabs">
         {(['sin', 'cos', 'tan'] as TrigFn[]).map((f) => (
           <button
             key={f}
             type="button"
-            className={`enlight-trig-tabs__btn${fn === f ? ' enlight-trig-tabs__btn--active' : ''}`}
+            className={`ace-trig-tabs__btn${fn === f ? ' ace-trig-tabs__btn--active' : ''}`}
             onClick={() => setFn(f)}
           >
             {f}
@@ -299,17 +299,17 @@ export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
       </div>
 
       {view === 'modulus' && (
-        <div className="enlight-trig-modulus-toggle">
+        <div className="ace-trig-modulus-toggle">
           <button
             type="button"
-            className={`enlight-trig-modulus-toggle__btn${!modulusOn ? ' enlight-trig-modulus-toggle__btn--active' : ''}`}
+            className={`ace-trig-modulus-toggle__btn${!modulusOn ? ' ace-trig-modulus-toggle__btn--active' : ''}`}
             onClick={() => setModulusOn(false)}
           >
             y = {fnLabel}(…)
           </button>
           <button
             type="button"
-            className={`enlight-trig-modulus-toggle__btn${modulusOn ? ' enlight-trig-modulus-toggle__btn--active' : ''}`}
+            className={`ace-trig-modulus-toggle__btn${modulusOn ? ' ace-trig-modulus-toggle__btn--active' : ''}`}
             onClick={() => setModulusOn(true)}
           >
             y = |{fnLabel}(…)|
@@ -317,9 +317,9 @@ export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
         </div>
       )}
 
-      <div className="enlight-trig-equation">{equation}</div>
+      <div className="ace-trig-equation">{equation}</div>
 
-      <svg className="enlight-graph-canvas enlight-trig-graph" viewBox={`0 0 ${GRAPH_W} ${GRAPH_H}`} style={{ minHeight: 240 }}>
+      <svg className="ace-graph-canvas ace-trig-graph" viewBox={`0 0 ${GRAPH_W} ${GRAPH_H}`} style={{ minHeight: 240 }}>
         {[0, 90, 180, 270, 360].map((deg) => (
           <g key={deg}>
             <line x1={toGraphX(deg)} y1={0} x2={toGraphX(deg)} y2={GRAPH_H} stroke={GRAPH.grid} strokeWidth={1} />
@@ -403,36 +403,36 @@ export function TrigGraphExplorer({ panels }: { panels?: TrigPanel[] }) {
         ))}
       </svg>
 
-      <div className="enlight-trig-stats">
-        <div className="enlight-trig-stat">
-          <div className="enlight-trig-stat__label">Amplitude</div>
-          <div className="enlight-trig-stat__value" style={{ color: '#e67e22' }}>
+      <div className="ace-trig-stats">
+        <div className="ace-trig-stat">
+          <div className="ace-trig-stat__label">Amplitude</div>
+          <div className="ace-trig-stat__value" style={{ color: '#e67e22' }}>
             {amplitude}
           </div>
         </div>
-        <div className="enlight-trig-stat">
-          <div className="enlight-trig-stat__label">Period</div>
-          <div className="enlight-trig-stat__value" style={{ color: '#27ae60' }}>
+        <div className="ace-trig-stat">
+          <div className="ace-trig-stat__label">Period</div>
+          <div className="ace-trig-stat__value" style={{ color: '#27ae60' }}>
             {period.toFixed(0)}°
           </div>
         </div>
-        <div className="enlight-trig-stat">
-          <div className="enlight-trig-stat__label">Max</div>
-          <div className="enlight-trig-stat__value" style={{ color: '#e67e22' }}>
+        <div className="ace-trig-stat">
+          <div className="ace-trig-stat__label">Max</div>
+          <div className="ace-trig-stat__value" style={{ color: '#e67e22' }}>
             {maxVal}
           </div>
         </div>
-        <div className="enlight-trig-stat">
-          <div className="enlight-trig-stat__label">Min</div>
-          <div className="enlight-trig-stat__value" style={{ color: '#9b59b6' }}>
+        <div className="ace-trig-stat">
+          <div className="ace-trig-stat__label">Min</div>
+          <div className="ace-trig-stat__value" style={{ color: '#9b59b6' }}>
             {minVal}
           </div>
         </div>
       </div>
 
-      <div className="enlight-trig-sliders">
+      <div className="ace-trig-sliders">
         {sliders.map((s) => (
-          <div key={s.key} className="enlight-trig-slider-row">
+          <div key={s.key} className="ace-trig-slider-row">
             <label>{s.label}</label>
             <input
               type="range"

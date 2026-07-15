@@ -18,7 +18,7 @@ function scoreLabel(metric: LeaderboardMetric, score: number): string {
 export function YourRankCard({ rank, total, entry, metric, scope, inList }: YourRankCardProps) {
   if (!entry || rank == null) {
     return (
-      <div className="enlight-lb-your-rank enlight-lb-your-rank--empty">
+      <div className="ace-lb-your-rank ace-lb-your-rank--empty">
         <p>Study this period to appear on the board.</p>
       </div>
     )
@@ -27,26 +27,26 @@ export function YourRankCard({ rank, total, entry, metric, scope, inList }: Your
   const medal = getRankMedal(rank, scope)
 
   return (
-    <div className={`enlight-lb-your-rank${inList ? ' enlight-lb-your-rank--on-board' : ''}`}>
-      <div className="enlight-lb-your-rank__left">
+    <div className={`ace-lb-your-rank${inList ? ' ace-lb-your-rank--on-board' : ''}`}>
+      <div className="ace-lb-your-rank__left">
         {entry.avatarUrl ? (
-          <img src={entry.avatarUrl} alt="" className="enlight-lb-avatar enlight-lb-avatar--md" width={40} height={40} />
+          <img src={entry.avatarUrl} alt="" className="ace-lb-avatar ace-lb-avatar--md" width={40} height={40} />
         ) : (
-          <span className="enlight-lb-avatar enlight-lb-avatar--md enlight-lb-avatar--placeholder">
+          <span className="ace-lb-avatar ace-lb-avatar--md ace-lb-avatar--placeholder">
             {entry.displayName.slice(0, 1).toUpperCase()}
           </span>
         )}
         <div>
-          <span className="enlight-lb-your-rank__eyebrow">Your placement</span>
-          <p className="enlight-lb-your-rank__rank">
+          <span className="ace-lb-your-rank__eyebrow">Your placement</span>
+          <p className="ace-lb-your-rank__rank">
             {medal ? <MedalIcon tier={medal} size="md" /> : null}
             <strong>#{rank}</strong>
-            {total > 0 && <span className="enlight-lb-your-rank__of"> of {total}</span>}
+            {total > 0 && <span className="ace-lb-your-rank__of"> of {total}</span>}
           </p>
-          <p className="enlight-lb-your-rank__meta">Lv {entry.level} · {entry.streakDays}d streak</p>
+          <p className="ace-lb-your-rank__meta">Lv {entry.level} · {entry.streakDays}d streak</p>
         </div>
       </div>
-      <div className="enlight-lb-your-rank__score">{scoreLabel(metric, entry.score)}</div>
+      <div className="ace-lb-your-rank__score">{scoreLabel(metric, entry.score)}</div>
     </div>
   )
 }

@@ -18,14 +18,14 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Cuboid dimensions">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Cuboid dimensions">
       <polygon points="60,120 160,120 200,80 100,80" fill="#f5edd8" stroke="#5b8def"/>
       <polygon points="60,120 60,60 100,20 100,80" fill="#f5edd8" stroke="#5b8def"/>
       <polygon points="100,80 100,20 200,20 200,80" fill="#f5edd8" stroke="#5b8def"/>
       <text x="130" y="135" font-size="10" fill="#5b8def">length</text>
       <text x="45" y="95" font-size="10" fill="#5b8def">h</text>
       <text x="150" y="55" font-size="10" fill="#5b8def">width</text>
-    </svg><p class="enlight-physics-diagram__caption">Cuboid — volume = length × width × height; surface area = sum of areas of all six faces.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Cuboid — volume = length × width × height; surface area = sum of areas of all six faces.</p></div>
 
 ## Steps / method
 

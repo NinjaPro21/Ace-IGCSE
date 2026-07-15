@@ -37,13 +37,13 @@ Applies to composite objects like a ship containing both steel and air.
 - An object **floats** if its density is less than the liquid.
 - An object **sinks** if its density is greater than the liquid.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 160" width="280" height="160" role="img" aria-label="Measuring mass">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 160" width="280" height="160" role="img" aria-label="Measuring mass">
       <rect x="60" y="100" width="160" height="12" rx="2" fill="#64748b"/>
       <rect x="90" y="60" width="100" height="40" rx="6" fill="#f1f5f9" stroke="#64748b"/>
       <text x="140" y="85" text-anchor="middle" font-size="14" fill="#334155">0.50 kg</text>
       <rect x="115" y="112" width="50" height="20" rx="4" fill="#dbeafe" stroke="#2563eb"/>
       <text x="140" y="145" text-anchor="middle" font-size="10" fill="#475569">electronic balance</text>
-    </svg><p class="enlight-physics-diagram__caption">Measuring mass — use a balance/electronic scale; mass is in kilograms (kg).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Measuring mass — use a balance/electronic scale; mass is in kilograms (kg).</p></div>
 
 **Layered liquids**
 

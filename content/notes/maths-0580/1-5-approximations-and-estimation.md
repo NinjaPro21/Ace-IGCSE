@@ -16,13 +16,13 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="Rounding on number line">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="Rounding on number line">
       <line x1="30" y1="40" x2="330" y2="40" stroke="#a8a29e" stroke-width="2"/>
       <line x1="80" y1="30" x2="80" y2="50" stroke="#a8a29e"/><text x="80" y="65" text-anchor="middle" font-size="10">3.4</text>
       <line x1="280" y1="30" x2="280" y2="50" stroke="#a8a29e"/><text x="280" y="65" text-anchor="middle" font-size="10">3.5</text>
       <circle cx="230" cy="40" r="6" fill="#5b8def"/>
       <text x="230" y="25" text-anchor="middle" font-size="9" fill="#5b8def">3.47</text>
-    </svg><p class="enlight-physics-diagram__caption">Rounding — identify the two labelled values; decide which is nearer (e.g. 3.47 → 3.5 to 1 d.p.).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Rounding — identify the two labelled values; decide which is nearer (e.g. 3.47 → 3.5 to 1 d.p.).</p></div>
 
 ## Steps / method
 

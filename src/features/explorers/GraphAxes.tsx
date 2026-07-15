@@ -73,7 +73,7 @@ export function GraphAxes({ mapper, gridX = 10, gridY = 10 }: GraphAxesProps) {
   const originVisible = originX >= 0 && originX <= width && originY >= 0 && originY <= height
 
   return (
-    <g className="enlight-graph-axes">
+    <g className="ace-graph-axes">
       {[...Array(gridX + 1)].map((_, i) => {
         const x = xMin + (i * (xMax - xMin)) / gridX
         return (

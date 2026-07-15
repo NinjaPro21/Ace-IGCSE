@@ -50,7 +50,7 @@ A voltmeter measures both e.m.f. and p.d.:
 - **e.m.f.**: energy supplied per unit charge by the source (measure across the cell).
 - **p.d.**: energy converted per unit charge by a component (measure across the load).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 210" width="420" height="210" role="img" aria-label="Measuring e.m.f. and p.d. with voltmeters">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 210" width="420" height="210" role="img" aria-label="Measuring e.m.f. and p.d. with voltmeters">
       <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 40 50 L 380 50 L 380 150 L 40 150 Z"/>
       </g>
@@ -74,14 +74,14 @@ A voltmeter measures both e.m.f. and p.d.:
       <line x1="210" y1="64" x2="250" y2="140" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4 3"/>
       <text x="210" y="178" text-anchor="middle" font-size="10" fill="#475569">Voltmeter always in parallel — across source (e.m.f.) or component (p.d.)</text>
       <text x="210" y="196" text-anchor="middle" font-size="9" fill="#64748b">Both measured in volts (V)</text>
-    </svg><p class="enlight-physics-diagram__caption">Measuring e.m.f. and p.d. — voltmeter in parallel with the cell (energy supplied) or the lamp (energy converted).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Measuring e.m.f. and p.d. — voltmeter in parallel with the cell (energy supplied) or the lamp (energy converted).</p></div>
 
 **Energy cycle**
 
 - Source: $E = W/Q$ (e.m.f. — energy provided to the circuit).
 - Component: $V = W/Q$ (p.d. — energy taken from the circuit).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Energy cycle e.m.f. and p.d.">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Energy cycle e.m.f. and p.d.">
       <rect x="20" y="40" width="90" height="50" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
       <text x="65" y="62" text-anchor="middle" font-size="10" fill="#166534" font-weight="600">Source</text>
       <text x="65" y="76" text-anchor="middle" font-size="8" fill="#166534">e.m.f. E</text>
@@ -95,7 +95,7 @@ A voltmeter measures both e.m.f. and p.d.:
       <text x="335" y="62" text-anchor="middle" font-size="10" fill="#991b1b" font-weight="600">Surroundings</text>
       <text x="335" y="76" text-anchor="middle" font-size="8" fill="#991b1b">heat / light</text>
       <defs><marker id="emf-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Energy cycle — the source supplies e.m.f.; the component has a p.d. as electrical energy is converted.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Energy cycle — the source supplies e.m.f.; the component has a p.d. as electrical energy is converted.</p></div>
 
 ## Worked example — Calculating energy
 

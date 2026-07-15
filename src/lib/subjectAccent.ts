@@ -23,8 +23,8 @@ export function subjectAccentClasses(subjectId: string): {
   const accentKind = subjectAccentKind(subjectId)
   if (!slug) return { rowClass: '', subjectClass: '', accentKind }
   return {
-    rowClass: `enlight-insights-row--${slug}`,
-    subjectClass: `enlight-insights-row__subject--${slug}`,
+    rowClass: `ace-insights-row--${slug}`,
+    subjectClass: `ace-insights-row__subject--${slug}`,
     accentKind,
   }
 }

@@ -42,31 +42,31 @@ function PowerPanel() {
 
   return (
     <div>
-      <p className="enlight-guide-panel__intro">
+      <p className="ace-guide-panel__intro">
         Integration reverses differentiation for polynomials. Every indefinite integral needs <strong>+ C</strong>.
       </p>
-      <div className="enlight-int-reverse">
-        <div className="enlight-int-reverse__col">
-          <div className="enlight-int-reverse__label">Differentiate ↓</div>
+      <div className="ace-int-reverse">
+        <div className="ace-int-reverse__col">
+          <div className="ace-int-reverse__label">Differentiate ↓</div>
           {examples.map((e) => (
-            <div key={e.f} className="enlight-int-reverse__box enlight-int-reverse__box--deriv">
+            <div key={e.f} className="ace-int-reverse__box ace-int-reverse__box--deriv">
               {e.f}
             </div>
           ))}
         </div>
-        <div className="enlight-int-reverse__arrow">⇄</div>
-        <div className="enlight-int-reverse__col">
-          <div className="enlight-int-reverse__label">Integrate ↑</div>
+        <div className="ace-int-reverse__arrow">⇄</div>
+        <div className="ace-int-reverse__col">
+          <div className="ace-int-reverse__label">Integrate ↑</div>
           {examples.map((e) => (
-            <div key={e.F} className="enlight-int-reverse__box enlight-int-reverse__box--integ">
+            <div key={e.F} className="ace-int-reverse__box ace-int-reverse__box--integ">
               {e.F}
             </div>
           ))}
         </div>
       </div>
-      <div className="enlight-guide-calc">
+      <div className="ace-guide-calc">
         <div>∫(3x² − 4x + 1) dx = <strong>x³ − 2x² + x + C</strong></div>
-        <div className="enlight-guide-calc__note">Power +1, divide by new power. Never use power rule when n = −1 (use ln instead).</div>
+        <div className="ace-guide-calc__note">Power +1, divide by new power. Never use power rule when n = −1 (use ln instead).</div>
       </div>
     </div>
   )
@@ -83,35 +83,35 @@ function AxbPowerPanel() {
 
   return (
     <div>
-      <p className="enlight-guide-panel__intro">
+      <p className="ace-guide-panel__intro">
         Reverse of the <strong>chain rule</strong> when the inside is linear only: ∫(ax + b)ⁿ dx.
       </p>
-      <div className="enlight-diff-steps">
+      <div className="ace-diff-steps">
         {steps.map((s) => (
-          <div key={s.n} className="enlight-diff-step">
-            <span className="enlight-diff-step__num">{s.n}</span>
+          <div key={s.n} className="ace-diff-step">
+            <span className="ace-diff-step__num">{s.n}</span>
             <span>{s.text}</span>
           </div>
         ))}
       </div>
-      <div className="enlight-guide-calc" style={{ marginTop: 14 }}>
+      <div className="ace-guide-calc" style={{ marginTop: 14 }}>
         <div>∫(2x + 1)³ dx = <strong>(2x + 1)⁴ / 8 + C</strong></div>
-        <div className="enlight-guide-calc__note">a = 2, n = 3 → divide by 4 (new power) and by 2 (coefficient of x).</div>
+        <div className="ace-guide-calc__note">a = 2, n = 3 → divide by 4 (new power) and by 2 (coefficient of x).</div>
       </div>
-      <div className="enlight-diff-rules-grid" style={{ marginTop: 14 }}>
-        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#7c3aed' }}>
-          <div className="enlight-diff-rule-card__title" style={{ color: '#7c3aed' }}>
+      <div className="ace-diff-rules-grid" style={{ marginTop: 14 }}>
+        <div className="ace-diff-rule-card" style={{ borderLeftColor: '#7c3aed' }}>
+          <div className="ace-diff-rule-card__title" style={{ color: '#7c3aed' }}>
             Linear power
           </div>
-          <div className="enlight-diff-rule-card__formula">∫(ax + b)ⁿ dx = (ax + b)ⁿ⁺¹ / [a(n + 1)] + C</div>
-          <div className="enlight-diff-rule-card__example">e.g. ∫(3x − 2)⁻² dx = −1/[3(3x − 2)] + C</div>
+          <div className="ace-diff-rule-card__formula">∫(ax + b)ⁿ dx = (ax + b)ⁿ⁺¹ / [a(n + 1)] + C</div>
+          <div className="ace-diff-rule-card__example">e.g. ∫(3x − 2)⁻² dx = −1/[3(3x − 2)] + C</div>
         </div>
-        <div className="enlight-diff-rule-card" style={{ borderLeftColor: '#be123c' }}>
-          <div className="enlight-diff-rule-card__title" style={{ color: '#be123c' }}>
+        <div className="ace-diff-rule-card" style={{ borderLeftColor: '#be123c' }}>
+          <div className="ace-diff-rule-card__title" style={{ color: '#be123c' }}>
             Not allowed
           </div>
-          <div className="enlight-diff-rule-card__formula">Inside must be ax + b only</div>
-          <div className="enlight-diff-rule-card__example">Expand (x² + 1)² first — then use the power rule</div>
+          <div className="ace-diff-rule-card__formula">Inside must be ax + b only</div>
+          <div className="ace-diff-rule-card__example">Expand (x² + 1)² first — then use the power rule</div>
         </div>
       </div>
     </div>
@@ -134,42 +134,42 @@ function ExpTrigPanel() {
 
   return (
     <div>
-      <p className="enlight-guide-panel__intro">
+      <p className="ace-guide-panel__intro">
         Reverse Chapter 14 derivatives — exponential, sine, cosine, and tangent (via sec²). Always add <strong>+ C</strong>.
       </p>
-      <div className="enlight-int-reverse">
-        <div className="enlight-int-reverse__col">
-          <div className="enlight-int-reverse__label">Integrand ↓</div>
+      <div className="ace-int-reverse">
+        <div className="ace-int-reverse__col">
+          <div className="ace-int-reverse__label">Integrand ↓</div>
           {examples.map((e) => (
-            <div key={e.f} className="enlight-int-reverse__box enlight-int-reverse__box--deriv">
+            <div key={e.f} className="ace-int-reverse__box ace-int-reverse__box--deriv">
               {e.f}
             </div>
           ))}
         </div>
-        <div className="enlight-int-reverse__arrow">→</div>
-        <div className="enlight-int-reverse__col">
-          <div className="enlight-int-reverse__label">Antiderivative ↑</div>
+        <div className="ace-int-reverse__arrow">→</div>
+        <div className="ace-int-reverse__col">
+          <div className="ace-int-reverse__label">Antiderivative ↑</div>
           {examples.map((e) => (
-            <div key={e.F} className="enlight-int-reverse__box enlight-int-reverse__box--integ">
+            <div key={e.F} className="ace-int-reverse__box ace-int-reverse__box--integ">
               {e.F}
             </div>
           ))}
         </div>
       </div>
-      <div className="enlight-diff-rules-grid" style={{ marginTop: 14 }}>
+      <div className="ace-diff-rules-grid" style={{ marginTop: 14 }}>
         {trigLayers.map((t) => (
-          <div key={t.layer} className="enlight-diff-rule-card" style={{ borderLeftColor: '#6366f1' }}>
-            <div className="enlight-diff-rule-card__title" style={{ color: '#6366f1' }}>
+          <div key={t.layer} className="ace-diff-rule-card" style={{ borderLeftColor: '#6366f1' }}>
+            <div className="ace-diff-rule-card__title" style={{ color: '#6366f1' }}>
               {t.layer}
             </div>
-            <div className="enlight-diff-rule-card__formula">{t.rule}</div>
-            <div className="enlight-diff-rule-card__example">e.g. {t.ex}</div>
+            <div className="ace-diff-rule-card__formula">{t.rule}</div>
+            <div className="ace-diff-rule-card__example">e.g. {t.ex}</div>
           </div>
         ))}
       </div>
-      <div className="enlight-guide-calc" style={{ marginTop: 14 }}>
+      <div className="ace-guide-calc" style={{ marginTop: 14 }}>
         <div>∫ 4sec²(2x + 1) dx = <strong>2tan(2x + 1) + C</strong></div>
-        <div className="enlight-guide-calc__note">Because d/dx[tan(ax+b)] = a·sec²(ax+b) — divide by a after integrating.</div>
+        <div className="ace-guide-calc__note">Because d/dx[tan(ax+b)] = a·sec²(ax+b) — divide by a after integrating.</div>
       </div>
     </div>
   )
@@ -178,28 +178,28 @@ function ExpTrigPanel() {
 function DefinitePanel() {
   return (
     <div>
-      <p className="enlight-guide-panel__intro">
+      <p className="ace-guide-panel__intro">
         Definite integral: evaluate the antiderivative at the limits, then <strong>F(b) − F(a)</strong>. No +C.
       </p>
-      <div className="enlight-int-definite">
-        <div className="enlight-int-definite__expr">∫₁³ (2x + 1) dx = [x² + x]₁³</div>
-        <div className="enlight-int-definite__step">
+      <div className="ace-int-definite">
+        <div className="ace-int-definite__expr">∫₁³ (2x + 1) dx = [x² + x]₁³</div>
+        <div className="ace-int-definite__step">
           <span>F(3) = 9 + 3 = <strong>12</strong></span>
           <span>F(1) = 1 + 1 = <strong>2</strong></span>
         </div>
-        <div className="enlight-int-definite__result">= 12 − 2 = <strong>10</strong></div>
+        <div className="ace-int-definite__result">= 12 − 2 = <strong>10</strong></div>
       </div>
-      <div className="enlight-diff-steps">
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">1</span>
+      <div className="ace-diff-steps">
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">1</span>
           <span>Integrate: ∫(2x + 1) dx = x² + x</span>
         </div>
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">2</span>
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">2</span>
           <span>Substitute upper limit: F(3) = 12</span>
         </div>
-        <div className="enlight-diff-step">
-          <span className="enlight-diff-step__num">3</span>
+        <div className="ace-diff-step">
+          <span className="ace-diff-step__num">3</span>
           <span>Subtract lower limit: F(3) − F(1) = 12 − 2 = <strong>10</strong></span>
         </div>
       </div>
@@ -254,7 +254,7 @@ function AreaGraph({
   )
 
   return (
-    <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={ariaLabel}>
+    <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={ariaLabel}>
       {[...Array(9)].map((_, i) => {
         const x = xMin + (i * (xMax - xMin)) / 8
         return <line key={i} x1={toSvgX(x, xMin, xMax)} y1={0} x2={toSvgX(x, xMin, xMax)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />
@@ -297,12 +297,12 @@ function AreaAboveCase() {
 
   return (
     <>
-      <div className="enlight-int-sliders">
-        <div className="enlight-slider-group">
+      <div className="ace-int-sliders">
+        <div className="ace-slider-group">
           <label htmlFor="int-a">Lower limit <strong>a</strong> = {a.toFixed(1)}</label>
           <input id="int-a" type="range" min={0} max={3.5} step={0.1} value={a} onChange={(e) => setA(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="int-b">Upper limit <strong>b</strong> = {b.toFixed(1)}</label>
           <input id="int-b" type="range" min={0.5} max={4} step={0.1} value={b} onChange={(e) => setB(Number(e.target.value))} />
         </div>
@@ -318,7 +318,7 @@ function AreaAboveCase() {
         hi={hi}
         ariaLabel="Area above the x-axis"
       />
-      <div className="enlight-guide-calc">
+      <div className="ace-guide-calc">
         <div>
           <strong>y = x²</strong> stays above the axis, so A = ∫<sub>{lo.toFixed(1)}</sub><sup>{hi.toFixed(1)}</sup> x² dx ={' '}
           <strong>{signed.toFixed(2)}</strong> sq units
@@ -348,14 +348,14 @@ function AreaBelowCase() {
         hi={hi}
         ariaLabel="Area below the x-axis"
       />
-      <div className="enlight-guide-calc">
+      <div className="ace-guide-calc">
         <div>
           <strong>y = −x²</strong> from {lo} to {hi}: ∫<sub>1</sub><sup>3</sup> (−x²) dx = <strong>{signed.toFixed(2)}</strong> (signed, negative)
         </div>
         <div>
           Area = −∫<sub>1</sub><sup>3</sup> (−x²) dx = ∫<sub>3</sub><sup>1</sup> (−x²) dx = <strong>{area.toFixed(2)}</strong> sq units
         </div>
-        <div className="enlight-guide-calc__note">Swap limits or add modulus — both give a positive area.</div>
+        <div className="ace-guide-calc__note">Swap limits or add modulus — both give a positive area.</div>
       </div>
     </>
   )
@@ -389,7 +389,7 @@ function AreaBothCase() {
         hi={hi}
         ariaLabel="Area with curve crossing the x-axis"
       />
-      <div className="enlight-guide-calc">
+      <div className="ace-guide-calc">
         <div>
           <strong>y = x² − 3</strong> crosses at x = √3 ≈ {root.toFixed(2)}. Signed integral = <strong>{signed.toFixed(2)}</strong>
         </div>
@@ -397,7 +397,7 @@ function AreaBothCase() {
           Split: |∫<sub>0</sub><sup>√3</sup> (x²−3) dx| + |∫<sub>√3</sub><sup>2.5</sup> (x²−3) dx| = {part1.toFixed(2)} + {part2.toFixed(2)} ={' '}
           <strong>{total.toFixed(2)}</strong> sq units
         </div>
-        <div className="enlight-guide-calc__note">Red = below axis, purple = above axis — add both parts.</div>
+        <div className="ace-guide-calc__note">Red = below axis, purple = above axis — add both parts.</div>
       </div>
     </>
   )
@@ -409,13 +409,13 @@ function AreaPanel() {
 
   return (
     <div>
-      <p className="enlight-guide-panel__intro">{meta.intro}</p>
-      <div className="enlight-guide-tabs enlight-guide-tabs--int">
+      <p className="ace-guide-panel__intro">{meta.intro}</p>
+      <div className="ace-guide-tabs ace-guide-tabs--int">
         {(Object.keys(AREA_CASE_META) as AreaCase[]).map((id) => (
           <button
             key={id}
             type="button"
-            className={`enlight-guide-tabs__btn${areaCase === id ? ' enlight-guide-tabs__btn--active' : ''}`}
+            className={`ace-guide-tabs__btn${areaCase === id ? ' ace-guide-tabs__btn--active' : ''}`}
             onClick={() => setAreaCase(id)}
           >
             {AREA_CASE_META[id].label}
@@ -463,13 +463,13 @@ export function IntegrationVisualGuide({ panels }: { panels?: IntegrationGuidePa
   const meta = META[current]
 
   return (
-    <section className="enlight-explorer enlight-int-guide">
-      <h2 className="enlight-explorer__title">{meta.title}</h2>
-      <p className="enlight-body-text enlight-guide__intro">{meta.intro}</p>
+    <section className="ace-explorer ace-int-guide">
+      <h2 className="ace-explorer__title">{meta.title}</h2>
+      <p className="ace-body-text ace-guide__intro">{meta.intro}</p>
       {active.length > 1 && (
-        <div className="enlight-guide-tabs enlight-guide-tabs--int">
+        <div className="ace-guide-tabs ace-guide-tabs--int">
           {active.map((id) => (
-            <button key={id} type="button" className={`enlight-guide-tabs__btn${current === id ? ' enlight-guide-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
+            <button key={id} type="button" className={`ace-guide-tabs__btn${current === id ? ' ace-guide-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
               {META[id].label}
             </button>
           ))}

@@ -7,18 +7,18 @@ export function RequireAdmin({ children }: { children: ReactNode }) {
 
   if (loading || (user && !adminChecked)) {
     return (
-      <div className="enlight-app enlight-signin-gate">
-        <p className="enlight-body-text">Loading…</p>
+      <div className="ace-app ace-signin-gate">
+        <p className="ace-body-text">Loading…</p>
       </div>
     )
   }
 
   if (!user) {
     return (
-      <div className="enlight-app enlight-signin-gate">
-        <div className="enlight-signin-gate__card">
-          <h1 className="enlight-heading-serif enlight-signin-gate__title">Admin analytics</h1>
-          <p className="enlight-body-text enlight-signin-gate__text">
+      <div className="ace-app ace-signin-gate">
+        <div className="ace-signin-gate__card">
+          <h1 className="ace-heading-serif ace-signin-gate__title">Admin analytics</h1>
+          <p className="ace-body-text ace-signin-gate__text">
             Sign in with your admin Google account to view site-wide statistics.
           </p>
         </div>
@@ -28,10 +28,10 @@ export function RequireAdmin({ children }: { children: ReactNode }) {
 
   if (!isAdmin) {
     return (
-      <div className="enlight-app enlight-signin-gate">
-        <div className="enlight-signin-gate__card">
-          <h1 className="enlight-heading-serif enlight-signin-gate__title">Access restricted</h1>
-          <p className="enlight-body-text enlight-signin-gate__text">
+      <div className="ace-app ace-signin-gate">
+        <div className="ace-signin-gate__card">
+          <h1 className="ace-heading-serif ace-signin-gate__title">Access restricted</h1>
+          <p className="ace-body-text ace-signin-gate__text">
             Platform analytics are only available to site administrators. Your progress dashboard
             still has your personal stats and class insights.
           </p>

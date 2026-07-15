@@ -24,15 +24,15 @@ export function SocialPage() {
   }, [hash])
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
-      <div className="enlight-container enlight-page-padding enlight-social-page">
+      <div className="ace-container ace-page-padding ace-social-page">
         <EnlightSectionLabel>Social</EnlightSectionLabel>
-        <Link to="/dashboard" className="enlight-back-link">
+        <Link to="/dashboard" className="ace-back-link">
           ← Back to dashboard
         </Link>
-        <h1 className="enlight-heading-serif">Social</h1>
-        <p className="enlight-body-text enlight-social-page__intro">
+        <h1 className="ace-heading-serif">Social</h1>
+        <p className="ace-body-text ace-social-page__intro">
           Your profile, rankings, friends, and school groups — all in one place.
         </p>
 
@@ -42,7 +42,7 @@ export function SocialPage() {
         </div>
         <WeeklyChallengeCard />
 
-        <section id="friends" className="enlight-social-anchor">
+        <section id="friends" className="ace-social-anchor">
           <FriendsPanel />
         </section>
 
@@ -52,7 +52,7 @@ export function SocialPage() {
         </div>
         {isAdmin && <ClassInsightsPanel />}
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

@@ -37,11 +37,11 @@ function ReciprocalPanel() {
   }
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Reciprocal curves $y = a/x$ have vertical asymptote $x = 0$ and horizontal asymptote $y = 0$. Plot each branch separately.
       </p>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Reciprocal curve">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Reciprocal curve">
         {[...Array(9)].map((_, i) => {
           const x = xMin + i
           return <line key={`v${i}`} x1={toX(x)} y1={0} x2={toX(x)} y2={H} stroke={GRAPH.grid} />
@@ -73,21 +73,21 @@ export function CurvesVisualGuide({ panels }: { panels?: CurvesGuidePanel[] }) {
   const current = available.includes(tab) ? tab : available[0]
 
   const fallback = (
-    <div className="enlight-sandbox-coming-soon">
+    <div className="ace-sandbox-coming-soon">
       <span>Loading curve explorer…</span>
     </div>
   )
 
   return (
-    <section className="enlight-explorer enlight-curves-guide">
+    <section className="ace-explorer ace-curves-guide">
       {available.length > 1 && (
-        <div className="enlight-stats-guide__tabs" role="tablist">
+        <div className="ace-stats-guide__tabs" role="tablist">
           {available.map((p) => (
             <button
               key={p}
               type="button"
               role="tab"
-              className={`enlight-stats-guide__tab${current === p ? ' enlight-stats-guide__tab--active' : ''}`}
+              className={`ace-stats-guide__tab${current === p ? ' ace-stats-guide__tab--active' : ''}`}
               onClick={() => setTab(p)}
             >
               {LABELS[p]}

@@ -14,12 +14,12 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Similar triangles">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Similar triangles">
       <polygon points="40,150 120,150 40,70" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
       <polygon points="180,150 300,150 180,30" fill="#fdfbf7" stroke="#b59a73" stroke-width="2"/>
       <text x="70" y="165" font-size="10" fill="#5b8def">small</text>
       <text x="230" y="165" font-size="10" fill="#b59a73">large (×k)</text>
-    </svg><p class="enlight-physics-diagram__caption">Similar triangles — corresponding angles equal; lengths in ratio $k : 1$; areas in ratio $k^2 : 1$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Similar triangles — corresponding angles equal; lengths in ratio $k : 1$; areas in ratio $k^2 : 1$.</p></div>
 
 ## Steps / method
 

@@ -10,7 +10,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Box plot with five-number summary labels">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Box plot with five-number summary labels">
       <!-- whisker line -->
       <line x1="40" y1="60" x2="380" y2="60" stroke="#a8a29e" stroke-width="2"/>
       <!-- min / max whisker caps -->
@@ -40,7 +40,7 @@ $$
       <text x="200" y="28" text-anchor="middle" font-size="9" fill="#6b6b6b">22</text>
       <text x="280" y="28" text-anchor="middle" font-size="9" fill="#6b6b6b">32</text>
       <text x="380" y="28" text-anchor="middle" font-size="9" fill="#6b6b6b">48</text>
-    </svg><p class="enlight-physics-diagram__caption">Box plot — five-number summary: min, Q1 (LQ), median, Q3 (UQ), max. Box spans the IQR; whiskers reach min and max.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Box plot — five-number summary: min, Q1 (LQ), median, Q3 (UQ), max. Box spans the IQR; whiskers reach min and max.</p></div>
 
 ## Steps / method
 

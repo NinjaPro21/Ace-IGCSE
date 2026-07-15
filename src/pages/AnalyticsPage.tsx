@@ -92,18 +92,18 @@ export function AnalyticsPage() {
   }
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
 
-      <div className="enlight-container enlight-page-padding enlight-analytics-page">
+      <div className="ace-container ace-page-padding ace-analytics-page">
         <EnlightSectionLabel>Admin · site analytics</EnlightSectionLabel>
-        <h1 className="enlight-heading-serif">Platform statistics</h1>
-        <p className="enlight-body-text enlight-analytics-page__intro">
+        <h1 className="ace-heading-serif">Platform statistics</h1>
+        <p className="ace-body-text ace-analytics-page__intro">
           Website-wide aggregates from synced student profiles. Use topic and chapter rankings to
           spot where students spend time and struggle most.
         </p>
 
-        <div className="enlight-analytics-page__actions">
+        <div className="ace-analytics-page__actions">
           <EnlightButton variant="outline" onClick={() => refresh()}>
             Refresh data
           </EnlightButton>
@@ -111,11 +111,11 @@ export function AnalyticsPage() {
         </div>
 
         {loadError ? (
-          <div className="enlight-analytics-page__error" role="alert">
-            <p className="enlight-body-text">
+          <div className="ace-analytics-page__error" role="alert">
+            <p className="ace-body-text">
               Could not load analytics: {loadError}
             </p>
-            <p className="enlight-body-text">
+            <p className="ace-body-text">
               Ensure Firestore rules are deployed and your account has an{' '}
               <code>admins/&#123;uid&#125;</code> document (or is listed in{' '}
               <code>config/site.adminEmails</code> for rules-side checks).
@@ -124,12 +124,12 @@ export function AnalyticsPage() {
         ) : null}
 
         {sampleNote ? (
-          <p className="enlight-body-text enlight-analytics-page__sample-note">{sampleNote}</p>
+          <p className="ace-body-text ace-analytics-page__sample-note">{sampleNote}</p>
         ) : null}
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">Activation funnel</h2>
-          <p className="enlight-body-text">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">Activation funnel</h2>
+          <p className="ace-body-text">
             Share of synced profiles reaching each milestone (n={profiles.length}).
           </p>
           <AnalyticsBarChart
@@ -144,17 +144,17 @@ export function AnalyticsPage() {
           />
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">Retention cohorts</h2>
-          <p className="enlight-body-text">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">Retention cohorts</h2>
+          <p className="ace-body-text">
             Week-by-week % of each signup cohort that studied (based on active dates). Week 0 = cohort
             start week.
           </p>
           {cohorts.length === 0 ? (
-            <p className="enlight-body-text">Cohorts appear after users study on multiple days.</p>
+            <p className="ace-body-text">Cohorts appear after users study on multiple days.</p>
           ) : (
-            <div className="enlight-cohort-table-wrap">
-              <table className="enlight-cohort-table">
+            <div className="ace-cohort-table-wrap">
+              <table className="ace-cohort-table">
                 <thead>
                   <tr>
                     <th>Cohort</th>
@@ -170,7 +170,7 @@ export function AnalyticsPage() {
                       <td>{row.cohortLabel}</td>
                       <td>{row.size}</td>
                       {row.weeks.map((pct, i) => (
-                        <td key={i} className={pct >= 50 ? 'enlight-cohort-table__hot' : undefined}>
+                        <td key={i} className={pct >= 50 ? 'ace-cohort-table__hot' : undefined}>
                           {pct}%
                         </td>
                       ))}
@@ -182,26 +182,26 @@ export function AnalyticsPage() {
           )}
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">
             Topic pass rates (lowest first)
           </h2>
-          <p className="enlight-body-text">
+          <p className="ace-body-text">
             Pass = score ≥ 70% or mastery level unlocked. Shows attempted students (n) per tier.
           </p>
-          <div className="enlight-insights-table">
+          <div className="ace-insights-table">
             {topicPassRates.length === 0 ? (
-              <p className="enlight-body-text">Pass rates appear after students attempt topic quizzes.</p>
+              <p className="ace-body-text">Pass rates appear after students attempt topic quizzes.</p>
             ) : (
               topicPassRates.map((row) => (
-                <div key={`${row.topicId}-${row.difficulty}`} className="enlight-insights-row">
-                  <div className="enlight-insights-row__main">
-                    <span className="enlight-insights-row__title">{row.topicTitle}</span>
-                    <span className="enlight-insights-row__subject">
+                <div key={`${row.topicId}-${row.difficulty}`} className="ace-insights-row">
+                  <div className="ace-insights-row__main">
+                    <span className="ace-insights-row__title">{row.topicTitle}</span>
+                    <span className="ace-insights-row__subject">
                       {row.subjectName} · {row.chapterTitle} · {row.difficulty.toUpperCase()}
                     </span>
                   </div>
-                  <div className="enlight-insights-row__stats">
+                  <div className="ace-insights-row__stats">
                     <span>{row.passRate}% pass</span>
                     <span>
                       {row.passed}/{row.attempted} students
@@ -213,9 +213,9 @@ export function AnalyticsPage() {
           </div>
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">Site overview</h2>
-          <div className="enlight-metric-grid">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">Site overview</h2>
+          <div className="ace-metric-grid">
             <MetricCard
               label="Registered profiles"
               value={loading ? '…' : String(siteTotals.totalUsers)}
@@ -267,8 +267,8 @@ export function AnalyticsPage() {
           />
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">
             Subjects needing attention
           </h2>
           <AnalyticsBarChart
@@ -283,19 +283,19 @@ export function AnalyticsPage() {
           />
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">
             Worst chapter per subject
           </h2>
-          <div className="enlight-admin-insight-grid">
+          <div className="ace-admin-insight-grid">
             {worstBySubject.length === 0 ? (
-              <p className="enlight-body-text">No chapter data yet.</p>
+              <p className="ace-body-text">No chapter data yet.</p>
             ) : (
               worstBySubject.map((row) => (
-                <div key={row.subjectId} className="enlight-admin-insight-card">
-                  <span className="enlight-admin-insight-card__subject">{row.subjectName}</span>
-                  <span className="enlight-admin-insight-card__title">{row.chapterTitle}</span>
-                  <span className="enlight-admin-insight-card__meta">
+                <div key={row.subjectId} className="ace-admin-insight-card">
+                  <span className="ace-admin-insight-card__subject">{row.subjectName}</span>
+                  <span className="ace-admin-insight-card__title">{row.chapterTitle}</span>
+                  <span className="ace-admin-insight-card__meta">
                     {row.failRate}% fail · {row.timeSpentMin} min avg · {row.studentCount} students
                   </span>
                 </div>
@@ -304,8 +304,8 @@ export function AnalyticsPage() {
           </div>
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">
             Topics students spend most time on
           </h2>
           <AnalyticsBarChart
@@ -320,8 +320,8 @@ export function AnalyticsPage() {
           />
         </section>
 
-        <section className="enlight-analytics-section">
-          <h2 className="enlight-heading-serif enlight-analytics-section__title">
+        <section className="ace-analytics-section">
+          <h2 className="ace-heading-serif ace-analytics-section__title">
             Toughest chapters (site-wide)
           </h2>
           <AnalyticsBarChart
@@ -337,7 +337,7 @@ export function AnalyticsPage() {
         </section>
       </div>
 
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

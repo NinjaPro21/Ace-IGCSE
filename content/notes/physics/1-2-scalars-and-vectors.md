@@ -30,14 +30,14 @@ Used to find the angle $\theta$ of the resultant force relative to a horizontal 
 - **Motion Graph Interpretation**: Distance-time graph: The gradient gives the speed (a scalar). A straight line shows constant speed; a curve shows acceleration or deceleration.
 - **Velocity-time graph**: The gradient gives the acceleration (a vector). The area under the graph gives the displacement (a vector).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 100" width="320" height="100" role="img" aria-label="Vector arrow">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 100" width="320" height="100" role="img" aria-label="Vector arrow">
       <line x1="40" y1="60" x2="260" y2="60" stroke="#2563eb" stroke-width="3" marker-end="url(#va)"/>
       <text x="150" y="48" text-anchor="middle" font-size="12" fill="#2563eb">magnitude (length)</text>
       <text x="270" y="64" font-size="11" fill="#64748b">direction →</text>
       <defs><marker id="va" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Vector — arrow length shows magnitude; arrowhead shows direction.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Vector — arrow length shows magnitude; arrowhead shows direction.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 220" width="280" height="220" role="img" aria-label="Vector resultant at right angles">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 220" width="280" height="220" role="img" aria-label="Vector resultant at right angles">
       <line x1="40" y1="170" x2="200" y2="170" stroke="#2563eb" stroke-width="3" marker-end="url(#vf1)"/>
       <text x="120" y="188" text-anchor="middle" font-size="11" fill="#2563eb">F₁ = 4 N</text>
       <line x1="40" y1="170" x2="40" y2="50" stroke="#16a34a" stroke-width="3" marker-end="url(#vf2)"/>
@@ -51,7 +51,7 @@ Used to find the angle $\theta$ of the resultant force relative to a horizontal 
         <marker id="vf2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/></marker>
         <marker id="vr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Resultant of perpendicular forces — use Pythagoras for magnitude and tan θ for direction.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Resultant of perpendicular forces — use Pythagoras for magnitude and tan θ for direction.</p></div>
 
 ## Steps / method
 

@@ -49,7 +49,7 @@ function PodiumMedal({ tier, px }: { tier: LeaderboardMedalTier; px: number }) {
 
   if (isRibbon) {
     return (
-      <svg width={px} height={px * 1.15} viewBox="0 0 40 46" aria-hidden className="enlight-medal-svg">
+      <svg width={px} height={px * 1.15} viewBox="0 0 40 46" aria-hidden className="ace-medal-svg">
         <path d="M6 4h28l-4 14H10L6 4z" fill={c.ribbon} />
         <path d="M10 18h20l-2 22H12L10 18z" fill={c.fill} stroke={c.rim} strokeWidth="1.2" />
         <path d="M14 24h12v2H14z" fill={c.rim} opacity="0.5" />
@@ -62,7 +62,7 @@ function PodiumMedal({ tier, px }: { tier: LeaderboardMedalTier; px: number }) {
 
   if (tier === 'elite') {
     return (
-      <svg width={px} height={px * 1.15} viewBox="0 0 40 46" aria-hidden className="enlight-medal-svg">
+      <svg width={px} height={px * 1.15} viewBox="0 0 40 46" aria-hidden className="ace-medal-svg">
         <path d="M8 2 L14 14 L8 14 Z" fill={c.ribbonDark} />
         <path d="M32 2 L26 14 L32 14 Z" fill={c.ribbonDark} />
         <path d="M8 14 L32 14 L28 42 L12 42 Z" fill={c.ribbon} />
@@ -81,7 +81,7 @@ function PodiumMedal({ tier, px }: { tier: LeaderboardMedalTier; px: number }) {
   }
 
   return (
-    <svg width={px} height={px * 1.2} viewBox="0 0 40 48" aria-hidden className="enlight-medal-svg">
+    <svg width={px} height={px * 1.2} viewBox="0 0 40 48" aria-hidden className="ace-medal-svg">
       <path d="M6 2 L14 16 L6 16 Z" fill={c.ribbonDark} />
       <path d="M34 2 L26 16 L34 16 Z" fill={c.ribbonDark} />
       <path d="M6 16 L34 16 L30 44 L10 44 Z" fill={c.ribbon} />
@@ -100,7 +100,7 @@ export function MedalIcon({ tier, size = 'md' }: { tier: LeaderboardMedalTier; s
   const px = SIZE[size]
   return (
     <span
-      className={`enlight-medal-wrap enlight-medal-wrap--${tier} enlight-medal-wrap--${size}`}
+      className={`ace-medal-wrap ace-medal-wrap--${tier} ace-medal-wrap--${size}`}
       title={medalLabel(tier)}
       aria-label={medalLabel(tier)}
       role="img"

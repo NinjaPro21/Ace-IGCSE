@@ -12,9 +12,9 @@ const STATUS_LABEL: Record<Status, string> = {
 }
 
 const STATUS_CLASS: Record<Status, string> = {
-  available: 'enlight-chapter-card__status--available',
-  in_progress: 'enlight-chapter-card__status--progress',
-  mastered: 'enlight-chapter-card__status--mastered',
+  available: 'ace-chapter-card__status--available',
+  in_progress: 'ace-chapter-card__status--progress',
+  mastered: 'ace-chapter-card__status--mastered',
 }
 
 interface EnlightChapterCardProps {
@@ -31,37 +31,37 @@ export function EnlightChapterCard({ chapter, status, masteryPercent }: EnlightC
     : `/subjects/${chapter.subjectId}`
 
   return (
-    <Link to={to} className="enlight-card enlight-card--chapter enlight-card--hover">
-      <span className="enlight-chapter-card__badge">
+    <Link to={to} className="ace-card ace-card--chapter ace-card--hover">
+      <span className="ace-chapter-card__badge">
         {chapter.number === 0 ? 'Calculator' : `Chapter ${chapter.number}`}
       </span>
-      <h3 className="enlight-chapter-card__title">{chapter.title}</h3>
-      <p className="enlight-chapter-card__summary">
+      <h3 className="ace-chapter-card__title">{chapter.title}</h3>
+      <p className="ace-chapter-card__summary">
         <MathText content={chapter.summary} title />
       </p>
       {masteryPercent !== undefined && masteryPercent > 0 && (
-        <div className="enlight-chapter-card__progress">
-          <div className="enlight-chapter-card__progress-bar">
+        <div className="ace-chapter-card__progress">
+          <div className="ace-chapter-card__progress-bar">
             <div
-              className="enlight-chapter-card__progress-fill"
+              className="ace-chapter-card__progress-fill"
               style={{ width: `${masteryPercent}%` }}
             />
           </div>
-          <span className="enlight-chapter-card__progress-label">{masteryPercent}% mastery</span>
+          <span className="ace-chapter-card__progress-label">{masteryPercent}% mastery</span>
         </div>
       )}
-      <div className="enlight-chapter-card__footer">
-        <span className={`enlight-chapter-card__status ${STATUS_CLASS[status]}`}>
+      <div className="ace-chapter-card__footer">
+        <span className={`ace-chapter-card__status ${STATUS_CLASS[status]}`}>
           {STATUS_LABEL[status]}
         </span>
-        <div className="enlight-chapter-card__meta">
-          <span className="enlight-chapter-card__count">{topics.length} topic{topics.length !== 1 ? 's' : ''}</span>
+        <div className="ace-chapter-card__meta">
+          <span className="ace-chapter-card__count">{topics.length} topic{topics.length !== 1 ? 's' : ''}</span>
           {chapter.hasChapterQuiz && (
-            <span className="enlight-chapter-card__quiz-badge enlight-chapter-card__quiz-badge--chapter">
+            <span className="ace-chapter-card__quiz-badge ace-chapter-card__quiz-badge--chapter">
               Chapter quiz
             </span>
           )}
-          <span className="enlight-chapter-card__arrow" aria-hidden>→</span>
+          <span className="ace-chapter-card__arrow" aria-hidden>→</span>
         </div>
       </div>
     </Link>

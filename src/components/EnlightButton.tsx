@@ -23,7 +23,7 @@ interface LinkProps extends BaseProps {
 
 export function EnlightButton(props: ButtonProps | LinkProps) {
   const variant = props.variant ?? 'primary'
-  const cls = `enlight-btn enlight-btn--${variant}${props.className ? ` ${props.className}` : ''}`
+  const cls = `ace-btn ace-btn--${variant}${props.className ? ` ${props.className}` : ''}`
 
   if ('to' in props && props.to) {
     const { to, onClick, children } = props as LinkProps

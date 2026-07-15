@@ -38,16 +38,16 @@ where $v$ is wave speed and $\lambda$ is wavelength.
 - **Loudness**: taller peaks → larger amplitude → louder sound.
 - **Tuning forks**: long prongs → low pitch; short prongs → high pitch.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO pitch comparison">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO pitch comparison">
       <text x="210" y="14" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">High pitch (short period)</text>
       <rect x="30" y="22" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
       <path d="M40 48 Q55 30 70 48 T100 48 T130 48 T160 48 T190 48" fill="none" stroke="#2563eb" stroke-width="2"/>
       <text x="210" y="88" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Low pitch (long period)</text>
       <rect x="30" y="96" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
       <path d="M40 122 Q80 104 120 122 T200 122 T280 122 T360 122" fill="none" stroke="#16a34a" stroke-width="2"/>
-    </svg><p class="enlight-physics-diagram__caption">C.R.O. traces — same time base: more cycles in the same interval means higher frequency (higher pitch).</p></div>
+    </svg><p class="ace-physics-diagram__caption">C.R.O. traces — same time base: more cycles in the same interval means higher frequency (higher pitch).</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO loudness comparison">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 175" width="420" height="175" role="img" aria-label="CRO loudness comparison">
       <text x="210" y="14" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Loud (large amplitude)</text>
       <rect x="30" y="22" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
       <line x1="30" y1="48" x2="390" y2="48" stroke="#94a3b8" stroke-dasharray="4 3"/>
@@ -56,7 +56,7 @@ where $v$ is wave speed and $\lambda$ is wavelength.
       <rect x="30" y="96" width="360" height="52" fill="#f8fafc" stroke="#cbd5e1"/>
       <line x1="30" y1="122" x2="390" y2="122" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <path d="M40 122 Q70 110 100 122 T160 122 T220 122 T280 122 T340 122 T390 122" fill="none" stroke="#2563eb" stroke-width="2"/>
-    </svg><p class="enlight-physics-diagram__caption">C.R.O. traces — same frequency: taller peaks mean larger amplitude (louder sound).</p></div>
+    </svg><p class="ace-physics-diagram__caption">C.R.O. traces — same frequency: taller peaks mean larger amplitude (louder sound).</p></div>
 
 ## Steps / method
 

@@ -145,7 +145,7 @@ export function SocialInboxProvider({ children }: { children: ReactNode }) {
   const acceptFriend = async (id: string) => {
     if (!user) return
     await respondFriendRequest(id, user.id, true)
-    window.dispatchEvent(new CustomEvent('enlight-friends-changed'))
+    window.dispatchEvent(new CustomEvent('ace-friends-changed'))
     await refreshFriends()
   }
 

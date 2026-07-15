@@ -9,17 +9,17 @@ function scoreLabel(metric: LeaderboardMetric, score: number): string {
 function RankBadge({ rank, scope }: { rank: number; scope: LeaderboardScope }) {
   const medal = getRankMedal(rank, scope)
   if (medal) return <MedalIcon tier={medal} />
-  return <span className="enlight-lb-rank">{rank}</span>
+  return <span className="ace-lb-rank">{rank}</span>
 }
 
 function Avatar({ entry, size = 'md' }: { entry: LeaderboardEntry; size?: 'sm' | 'md' | 'lg' }) {
-  const cls = `enlight-lb-avatar enlight-lb-avatar--${size}`
+  const cls = `ace-lb-avatar ace-lb-avatar--${size}`
   const px = size === 'sm' ? 32 : size === 'lg' ? 52 : 40
   if (entry.avatarUrl) {
     return <img src={entry.avatarUrl} alt="" className={cls} width={px} height={px} />
   }
   return (
-    <span className={`${cls} enlight-lb-avatar--placeholder`}>
+    <span className={`${cls} ace-lb-avatar--placeholder`}>
       {entry.displayName.slice(0, 1).toUpperCase()}
     </span>
   )
@@ -50,29 +50,29 @@ function PodiumCard({
   decorationPoints?: number
 }) {
   const medal = getRankMedal(rank, scope)
-  const slotClass = medal ? `enlight-lb-podium__slot--${medal}` : 'enlight-lb-podium__slot--plain'
+  const slotClass = medal ? `ace-lb-podium__slot--${medal}` : 'ace-lb-podium__slot--plain'
 
   return (
-    <div className={`enlight-lb-podium__slot ${slotClass}`} style={{ order: podiumFlexOrder(rank) }}>
-      <div className="enlight-lb-podium__pedestal">
-        <div className="enlight-lb-podium__avatar-wrap">
+    <div className={`ace-lb-podium__slot ${slotClass}`} style={{ order: podiumFlexOrder(rank) }}>
+      <div className="ace-lb-podium__pedestal">
+        <div className="ace-lb-podium__avatar-wrap">
           <Avatar entry={entry} size="lg" />
           {medal ? (
             <MedalIcon tier={medal} size="lg" />
           ) : (
-            <span className="enlight-lb-podium__rank-badge" aria-hidden>
+            <span className="ace-lb-podium__rank-badge" aria-hidden>
               {rank}
             </span>
           )}
         </div>
-        <p className="enlight-lb-podium__name">
+        <p className="ace-lb-podium__name">
           {entry.displayName}
-          {entry.isYou && <span className="enlight-lb-you-tag">you</span>}
+          {entry.isYou && <span className="ace-lb-you-tag">you</span>}
         </p>
-        <p className="enlight-lb-podium__score">{scoreLabel(metric, entry.score)}</p>
-        <p className="enlight-lb-podium__meta">Lv {entry.level} · {entry.streakDays}d streak</p>
+        <p className="ace-lb-podium__score">{scoreLabel(metric, entry.score)}</p>
+        <p className="ace-lb-podium__meta">Lv {entry.level} · {entry.streakDays}d streak</p>
         {decorationPoints != null && decorationPoints > 0 && (
-          <span className="enlight-lb-decor" title="Total medals earned">
+          <span className="ace-lb-decor" title="Total medals earned">
             🎖 {decorationPoints}
           </span>
         )}
@@ -101,31 +101,31 @@ function LeaderboardRow({
   return (
     <li
       className={[
-        'enlight-lb-row',
-        entry.isYou ? 'enlight-lb-row--you' : '',
-        isFriend && !entry.isYou ? 'enlight-lb-row--friend' : '',
-        medal ? `enlight-lb-row--${medal}` : '',
+        'ace-lb-row',
+        entry.isYou ? 'ace-lb-row--you' : '',
+        isFriend && !entry.isYou ? 'ace-lb-row--friend' : '',
+        medal ? `ace-lb-row--${medal}` : '',
       ].join(' ')}
     >
-      <div className="enlight-lb-row__rank">
+      <div className="ace-lb-row__rank">
         <RankBadge rank={rank} scope={scope} />
       </div>
       <Avatar entry={entry} />
-      <div className="enlight-lb-row__info">
-        <span className="enlight-lb-row__name">
+      <div className="ace-lb-row__info">
+        <span className="ace-lb-row__name">
           {entry.displayName}
-          {entry.isYou && <span className="enlight-lb-you-tag">you</span>}
+          {entry.isYou && <span className="ace-lb-you-tag">you</span>}
           {decorationPoints != null && decorationPoints > 0 && (
-            <span className="enlight-lb-decor enlight-lb-decor--inline" title="Total medals earned">
+            <span className="ace-lb-decor ace-lb-decor--inline" title="Total medals earned">
               🎖 {decorationPoints}
             </span>
           )}
         </span>
-        <span className="enlight-lb-row__meta">
+        <span className="ace-lb-row__meta">
           Lv {entry.level} · {entry.streakDays}d streak
         </span>
       </div>
-      <span className="enlight-lb-row__score">{scoreLabel(metric, entry.score)}</span>
+      <span className="ace-lb-row__score">{scoreLabel(metric, entry.score)}</span>
     </li>
   )
 }
@@ -150,24 +150,24 @@ export function LeaderboardBoard({
   showPodium = true,
 }: LeaderboardBoardProps) {
   if (entries.length === 0) {
-    return <p className="enlight-body-text enlight-lb-empty">{emptyMessage}</p>
+    return <p className="ace-body-text ace-lb-empty">{emptyMessage}</p>
   }
 
   const podiumEntries = showPodium ? entries.slice(0, PODIUM_SIZE) : []
   const restEntries = showPodium ? entries.slice(PODIUM_SIZE) : entries
   const podiumLayoutClass =
     podiumEntries.length >= 4
-      ? ' enlight-lb-podium--five'
+      ? ' ace-lb-podium--five'
       : podiumEntries.length === 1
-        ? ' enlight-lb-podium--solo'
+        ? ' ace-lb-podium--solo'
         : ''
 
   return (
-    <div className="enlight-lb">
+    <div className="ace-lb">
       {podiumEntries.length > 0 && (
-        <div className="enlight-lb-podium-stage">
-          <div className="enlight-lb-podium-frame">
-            <div className={`enlight-lb-podium${podiumLayoutClass}`} aria-label="Top five">
+        <div className="ace-lb-podium-stage">
+          <div className="ace-lb-podium-frame">
+            <div className={`ace-lb-podium${podiumLayoutClass}`} aria-label="Top five">
               {podiumEntries.map((entry, i) => (
                 <PodiumCard
                   key={entry.userId}
@@ -179,13 +179,13 @@ export function LeaderboardBoard({
                 />
               ))}
             </div>
-            <div className="enlight-lb-podium-stage__floor" aria-hidden />
+            <div className="ace-lb-podium-stage__floor" aria-hidden />
           </div>
         </div>
       )}
 
       {restEntries.length > 0 && (
-        <ol className="enlight-lb-list">
+        <ol className="ace-lb-list">
           {restEntries.map((entry, i) => {
             const rank = showPodium ? i + PODIUM_SIZE + 1 : i + 1
             return (
@@ -204,12 +204,12 @@ export function LeaderboardBoard({
       )}
 
       {scope === 'global' && entries.length > 0 && (
-        <div className="enlight-lb-legend" aria-label="Medal legend">
-          <span className="enlight-lb-legend__item"><MedalIcon tier="gold" size="sm" /> Top 1</span>
-          <span className="enlight-lb-legend__item"><MedalIcon tier="silver" size="sm" /> Top 2</span>
-          <span className="enlight-lb-legend__item"><MedalIcon tier="bronze" size="sm" /> Top 3</span>
-          <span className="enlight-lb-legend__item"><MedalIcon tier="elite" size="sm" /> Top 4–5</span>
-          <span className="enlight-lb-legend__item"><MedalIcon tier="top10" size="sm" /> Top 6–10</span>
+        <div className="ace-lb-legend" aria-label="Medal legend">
+          <span className="ace-lb-legend__item"><MedalIcon tier="gold" size="sm" /> Top 1</span>
+          <span className="ace-lb-legend__item"><MedalIcon tier="silver" size="sm" /> Top 2</span>
+          <span className="ace-lb-legend__item"><MedalIcon tier="bronze" size="sm" /> Top 3</span>
+          <span className="ace-lb-legend__item"><MedalIcon tier="elite" size="sm" /> Top 4–5</span>
+          <span className="ace-lb-legend__item"><MedalIcon tier="top10" size="sm" /> Top 6–10</span>
         </div>
       )}
     </div>

@@ -66,38 +66,38 @@ export function NaturalLogExplorer() {
   }, [a, h, k])
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">The e and ln x Transformation Grid</h2>
-      <div className="enlight-explorer__layout">
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">The e and ln x Transformation Grid</h2>
+      <div className="ace-explorer__layout">
         <div>
-          <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+          <p className="ace-body-text" style={{ marginBottom: 14 }}>
             <MathText content="Shift and stretch $y = ae^{x-h} + k$. The dashed line $y = x$ shows how $e^x$ and $\ln x$ are inverses — their domains and ranges flip." />
           </p>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="nl-a"><strong>a</strong> = {a} (vertical stretch)</label>
             <input id="nl-a" type="range" min={0.5} max={2} step={0.25} value={a} onChange={(e) => setA(Number(e.target.value))} />
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="nl-h"><strong>h</strong> = {h} (horizontal shift)</label>
             <input id="nl-h" type="range" min={-2} max={2} step={0.5} value={h} onChange={(e) => setH(Number(e.target.value))} />
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="nl-k"><strong>k</strong> = {k} (vertical shift)</label>
             <input id="nl-k" type="range" min={-2} max={2} step={0.5} value={k} onChange={(e) => setK(Number(e.target.value))} />
           </div>
 
-          <div className="enlight-formula-stack" style={{ marginTop: 12 }}>
-            <div className="enlight-formula-stack__item">
+          <div className="ace-formula-stack" style={{ marginTop: 12 }}>
+            <div className="ace-formula-stack__item">
               <MathText content={eqLabel} />
             </div>
-            <div className="enlight-formula-stack__item" style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)' }}>
+            <div className="ace-formula-stack__item" style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)' }}>
               <MathText content="$x = h + \ln\!\left(\dfrac{y - k}{a}\right)$" />
             </div>
           </div>
         </div>
 
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Natural exponential and logarithm graphs">
+        <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Natural exponential and logarithm graphs">
           {[...Array(8)].map((_, i) => {
             const x = X_MIN + (i * (X_MAX - X_MIN)) / 7
             return <line key={`gv${i}`} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />

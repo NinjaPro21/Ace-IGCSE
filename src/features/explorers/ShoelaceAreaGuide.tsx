@@ -20,7 +20,7 @@ function PolygonDiagram() {
   const pts = VERTICES.map((v) => `${toX(v.x)},${toY(v.y)}`).join(' ')
 
   return (
-    <svg className="enlight-area-guide__polygon" viewBox={`0 0 ${w} ${h}`} role="img" aria-label="Triangle ABC">
+    <svg className="ace-area-guide__polygon" viewBox={`0 0 ${w} ${h}`} role="img" aria-label="Triangle ABC">
       {[0, 1, 2, 3, 4].map((i) => (
         <line key={`gx${i}`} x1={toX(i)} y1={pad} x2={toX(i)} y2={h - pad} stroke={GRAPH.grid} strokeWidth={1} />
       ))}
@@ -72,7 +72,7 @@ function ShoelaceDiagramHorizontal() {
 
   return (
     <svg
-      className="enlight-area-guide__shoelace"
+      className="ace-area-guide__shoelace"
       viewBox="0 0 500 210"
       role="img"
       aria-label="Horizontal shoelace layout with diagonal products"
@@ -180,40 +180,40 @@ const FORMULAS = [
 
 export function ShoelaceAreaGuide() {
   return (
-    <section className="enlight-explorer enlight-area-guide">
-      <div className="enlight-area-guide__layout enlight-area-guide__layout--horizontal">
-        <div className="enlight-area-guide__panel enlight-area-guide__panel--compact">
-          <h3 className="enlight-area-guide__panel-title">1 · Plot the vertices</h3>
+    <section className="ace-explorer ace-area-guide">
+      <div className="ace-area-guide__layout ace-area-guide__layout--horizontal">
+        <div className="ace-area-guide__panel ace-area-guide__panel--compact">
+          <h3 className="ace-area-guide__panel-title">1 · Plot the vertices</h3>
           <PolygonDiagram />
         </div>
 
-        <div className="enlight-area-guide__panel enlight-area-guide__panel--shoelace">
-          <h3 className="enlight-area-guide__panel-title">2 · Shoelace products (left → right)</h3>
-          <p className="enlight-area-guide__panel-desc">
+        <div className="ace-area-guide__panel ace-area-guide__panel--shoelace">
+          <h3 className="ace-area-guide__panel-title">2 · Shoelace products (left → right)</h3>
+          <p className="ace-area-guide__panel-desc">
             Write <strong>x</strong> on the top row and <strong>y</strong> below.{' '}
-            <span className="enlight-area-guide__highlight">Repeat the first pair at the end</span> to close the
+            <span className="ace-area-guide__highlight">Repeat the first pair at the end</span> to close the
             polygon.
           </p>
           <ShoelaceDiagramHorizontal />
-          <div className="enlight-area-guide__legend">
-            <span className="enlight-area-guide__legend-item enlight-area-guide__legend-item--down">
+          <div className="ace-area-guide__legend">
+            <span className="ace-area-guide__legend-item ace-area-guide__legend-item--down">
               ↘ Downward (x × next y)
             </span>
-            <span className="enlight-area-guide__legend-item enlight-area-guide__legend-item--up">
+            <span className="ace-area-guide__legend-item ace-area-guide__legend-item--up">
               ↗ Upward (y × next x)
             </span>
           </div>
         </div>
       </div>
 
-      <div className="enlight-area-guide__formulas">
-        <h3 className="enlight-area-guide__formulas-title">Three ways to find area</h3>
-        <div className="enlight-formula-stack">
+      <div className="ace-area-guide__formulas">
+        <h3 className="ace-area-guide__formulas-title">Three ways to find area</h3>
+        <div className="ace-formula-stack">
           {FORMULAS.map((f) => (
-            <div key={f.title} className="enlight-formula-stack__item enlight-area-guide__formula-card">
-              <div className="enlight-area-guide__formula-label">{f.title}</div>
-              <div className="enlight-area-guide__formula-body">{f.body}</div>
-              <div className="enlight-area-guide__formula-note">{f.note}</div>
+            <div key={f.title} className="ace-formula-stack__item ace-area-guide__formula-card">
+              <div className="ace-area-guide__formula-label">{f.title}</div>
+              <div className="ace-area-guide__formula-body">{f.body}</div>
+              <div className="ace-area-guide__formula-note">{f.note}</div>
             </div>
           ))}
         </div>

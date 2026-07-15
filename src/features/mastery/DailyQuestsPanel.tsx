@@ -9,26 +9,26 @@ function QuestRow({ quest, index }: { quest: DailyQuest; index: number }) {
   const indexLabel = String(index + 1).padStart(2, '0')
   const body = (
     <>
-      <span className="enlight-daily-quests__index" aria-hidden>
+      <span className="ace-daily-quests__index" aria-hidden>
         {indexLabel}
       </span>
-      <span className="enlight-daily-quests__body">
-        <span className="enlight-daily-quests__title">{quest.title}</span>
-        <span className="enlight-daily-quests__desc">{quest.description}</span>
+      <span className="ace-daily-quests__body">
+        <span className="ace-daily-quests__title">{quest.title}</span>
+        <span className="ace-daily-quests__desc">{quest.description}</span>
       </span>
     </>
   )
 
   return (
     <li
-      className={`enlight-daily-quests__row${quest.done ? ' enlight-daily-quests__row--done' : ''}`}
+      className={`ace-daily-quests__row${quest.done ? ' ace-daily-quests__row--done' : ''}`}
     >
       {quest.path && !quest.done ? (
-        <Link to={quest.path} className="enlight-daily-quests__link">
+        <Link to={quest.path} className="ace-daily-quests__link">
           {body}
         </Link>
       ) : (
-        <div className="enlight-daily-quests__static">{body}</div>
+        <div className="ace-daily-quests__static">{body}</div>
       )}
     </li>
   )
@@ -43,19 +43,19 @@ export function DailyQuestsPanel() {
   const freezes = progress.streakFreezes ?? 0
 
   return (
-    <section className="enlight-dashboard-card enlight-daily-quests" aria-label="Daily quests">
+    <section className="ace-dashboard-card ace-daily-quests" aria-label="Daily quests">
       <EnlightSectionLabel>Missions</EnlightSectionLabel>
-      <div className="enlight-daily-quests__head">
+      <div className="ace-daily-quests__head">
         <div>
-          <h2 className="enlight-daily-quests__heading">Today&apos;s missions</h2>
+          <h2 className="ace-daily-quests__heading">Today&apos;s missions</h2>
           {freezes > 0 && (
-            <p className="enlight-daily-quests__sub">
+            <p className="ace-daily-quests__sub">
               {freezes} streak freeze{freezes === 1 ? '' : 's'} banked
             </p>
           )}
         </div>
-        <div className="enlight-daily-quests__aside">
-          <span className="enlight-daily-quests__count">
+        <div className="ace-daily-quests__aside">
+          <span className="ace-daily-quests__count">
             {doneCount} of {dailyQuests.quests.length}
           </span>
           {allDone && !dailyQuests.bonusClaimed && (
@@ -64,11 +64,11 @@ export function DailyQuestsPanel() {
             </EnlightButton>
           )}
           {dailyQuests.bonusClaimed && (
-            <span className="enlight-daily-quests__claimed">Bonus claimed</span>
+            <span className="ace-daily-quests__claimed">Bonus claimed</span>
           )}
         </div>
       </div>
-      <ul className="enlight-daily-quests__list">
+      <ul className="ace-daily-quests__list">
         {dailyQuests.quests.map((q, i) => (
           <QuestRow key={q.id} quest={q} index={i} />
         ))}

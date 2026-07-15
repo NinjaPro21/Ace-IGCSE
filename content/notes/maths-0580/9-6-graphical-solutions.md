@@ -14,7 +14,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Curve with horizontal line">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Curve with horizontal line">
       <line x1="40" y1="110" x2="280" y2="110" stroke="#a8a29e"/>
       <line x1="160" y1="40" x2="160" y2="180" stroke="#a8a29e"/>
       <polyline points="52.0,120.1 58.0,105.6 64.0,93.6 70.0,83.8 76.0,76.0 82.0,70.3 88.0,66.3 94.0,64.1 100.0,63.3 106.0,64.0 112.0,65.9 118.0,69.0 124.0,73.0 130.0,77.9 136.0,83.5 142.0,89.6 148.0,96.2 154.0,103.0 160.0,110.0 166.0,117.0 172.0,123.8 178.0,130.4 184.0,136.5 190.0,142.1 196.0,147.0 202.0,151.0 208.0,154.1 214.0,156.0 220.0,156.7 226.0,155.9 232.0,153.7 238.0,149.7 244.0,144.0 250.0,136.2 256.0,126.4 262.0,114.4 268.0,99.9" fill="none" stroke="#5b8def" stroke-width="2.5"/>
@@ -23,9 +23,9 @@ $$
       <circle cx="68.2" cy="86.66666666666667" r="4" fill="#b59a73"/>
       <circle cx="139" cy="86.66666666666667" r="4" fill="#b59a73"/>
       <circle cx="272.79999999999995" cy="86.66666666666667" r="4" fill="#b59a73"/>
-    </svg><p class="enlight-physics-diagram__caption">Solving $f(x) = k$ — draw the horizontal line $y = k$; x-coordinates of intersections are the solutions.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Solving $f(x) = k$ — draw the horizontal line $y = k$; x-coordinates of intersections are the solutions.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Curve intersecting a line">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Curve intersecting a line">
       <line x1="40" y1="152" x2="280" y2="152" stroke="#a8a29e"/>
       <line x1="74.28571428571428" y1="40" x2="74.28571428571428" y2="180" stroke="#a8a29e"/>
       <polyline points="57.1,120.5 62.3,130.7 67.4,140.2 72.6,149.2 77.7,157.5 82.9,165.1 88.0,172.2 93.1,178.6 98.3,184.3 103.4,189.5 108.6,194.0 113.7,197.9 118.9,201.1 124.0,203.8 129.1,205.8 134.3,207.1 139.4,207.9 144.6,208.0 149.7,207.4 154.9,206.3 160.0,204.5 165.1,202.1 170.3,199.0 175.4,195.4 180.6,191.1 185.7,186.1 190.9,180.6 196.0,174.4 201.1,167.5 206.3,160.1 211.4,152.0 216.6,143.3 221.7,133.9 226.9,124.0 232.0,113.4 237.1,102.1 242.3,90.3 247.4,77.8 252.6,64.6 257.7,50.9 262.9,36.5" fill="none" stroke="#5b8def" stroke-width="2.5"/>
@@ -33,7 +33,7 @@ $$
       <circle cx="61.52178320220523" cy="129.2119385257662" r="5" fill="#b59a73"/>
       <circle cx="258.47821679779474" cy="48.788061474233814" r="5" fill="#b59a73"/>
       <text x="69.52178320220523" y="125.21193852576619" font-size="9" fill="#b59a73">solution</text>
-    </svg><p class="enlight-physics-diagram__caption">Solving $f(x) = g(x)$ — plot both graphs; intersection x-values are the solutions.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Solving $f(x) = g(x)$ — plot both graphs; intersection x-values are the solutions.</p></div>
 
 ## Steps / method
 

@@ -19,30 +19,30 @@ export function AnalyticsBarChart({
 
   if (items.length === 0) {
     return (
-      <div className="enlight-chart-panel">
-        <h3 className="enlight-chart-panel__title">{title}</h3>
-        <p className="enlight-body-text">{emptyMessage ?? 'Start a study session to see your activity here.'}</p>
+      <div className="ace-chart-panel">
+        <h3 className="ace-chart-panel__title">{title}</h3>
+        <p className="ace-body-text">{emptyMessage ?? 'Start a study session to see your activity here.'}</p>
       </div>
     )
   }
 
   return (
-    <div className="enlight-chart-panel">
-      <h3 className="enlight-chart-panel__title">{title}</h3>
-      <div className="enlight-bar-chart">
+    <div className="ace-chart-panel">
+      <h3 className="ace-chart-panel__title">{title}</h3>
+      <div className="ace-bar-chart">
         {items.map((item) => (
-          <div key={item.label} className="enlight-bar-chart__row">
-            <div className="enlight-bar-chart__meta">
-              <span className="enlight-bar-chart__label">{item.label}</span>
-              {item.sublabel && <span className="enlight-bar-chart__sublabel">{item.sublabel}</span>}
+          <div key={item.label} className="ace-bar-chart__row">
+            <div className="ace-bar-chart__meta">
+              <span className="ace-bar-chart__label">{item.label}</span>
+              {item.sublabel && <span className="ace-bar-chart__sublabel">{item.sublabel}</span>}
             </div>
-            <div className="enlight-bar-chart__track" aria-hidden="true">
+            <div className="ace-bar-chart__track" aria-hidden="true">
               <div
-                className="enlight-bar-chart__fill"
+                className="ace-bar-chart__fill"
                 style={{ width: `${Math.max(4, (item.value / max) * 100)}%` }}
               />
             </div>
-            <span className="enlight-bar-chart__value">{valueFormatter(item.value)}</span>
+            <span className="ace-bar-chart__value">{valueFormatter(item.value)}</span>
           </div>
         ))}
       </div>

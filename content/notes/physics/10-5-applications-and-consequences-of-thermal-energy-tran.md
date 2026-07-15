@@ -38,7 +38,7 @@ Many real situations use all three methods:
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
       <defs><marker id="cvR2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ef4444"/></marker><marker id="cvS2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
       <text x="115" y="18" text-anchor="middle" font-size="11" font-weight="600">Heater on floor</text>
       <rect x="30" y="30" width="170" height="185" fill="#f8fafc" stroke="#94a3b8"/>
@@ -50,9 +50,9 @@ Many real situations use all three methods:
       <rect x="325" y="38" width="80" height="12" fill="#38bdf8" rx="2"/>
       <line x1="365" y1="52" x2="365" y2="190" stroke="#2563eb" stroke-width="3" marker-end="url(#cvS2)"/>
       <line x1="310" y1="190" x2="310" y2="55" stroke="#ef4444" stroke-width="2.5" marker-end="url(#cvR2)"/>
-    </svg><p class="enlight-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
       <rect x="40" y="50" width="50" height="40" fill="#1e293b" stroke="#334155"/>
       <text x="65" y="75" text-anchor="middle" font-size="9" fill="#fff">hot</text>
       <path d="M95 60 Q130 40 165 60" fill="none" stroke="#f97316" stroke-width="2"/>
@@ -61,7 +61,7 @@ Many real situations use all three methods:
       <text x="130" y="35" text-anchor="middle" font-size="10" fill="#f97316">IR waves</text>
       <rect x="200" y="50" width="120" height="40" fill="#f8fafc" stroke="#cbd5e1"/>
       <text x="260" y="75" text-anchor="middle" font-size="10" fill="#64748b">absorber (no contact needed)</text>
-    </svg><p class="enlight-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
 
 ## Steps / method
 

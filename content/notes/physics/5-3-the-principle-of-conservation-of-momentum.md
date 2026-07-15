@@ -42,7 +42,7 @@ Applies when objects collide and move together as a single mass with common velo
 - Momentum is transferred through the middle balls without them moving far.
 - Ball F swings out with the same speed — total momentum is conserved.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Newton's cradle">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Newton's cradle">
       <line x1="30" y1="30" x2="410" y2="30" stroke="#64748b" stroke-width="3"/>
       <line x1="80" y1="30" x2="80" y2="95" stroke="#94a3b8" stroke-width="1.5"/>
       <line x1="140" y1="30" x2="140" y2="70" stroke="#94a3b8" stroke-width="1.5"/>
@@ -71,14 +71,14 @@ Applies when objects collide and move together as a single mass with common velo
         <marker id="nc-arr" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
         <marker id="nc-arr2" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Newton's cradle — momentum is transferred through stationary balls; the last ball swings out with the same speed.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Newton's cradle — momentum is transferred through stationary balls; the last ball swings out with the same speed.</p></div>
 
 **Collision diagrams**
 
 - Show masses and velocities **before** impact ($u$) and **after** ($v$).
 - Choose a positive direction and use +/− signs for vector momentum.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Collision before and after">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Collision before and after">
       <text x="220" y="22" text-anchor="middle" font-size="11" font-weight="600" fill="#334155">Before collision</text>
       <rect x="50" y="48" width="48" height="36" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
       <text x="74" y="70" text-anchor="middle" font-size="10" fill="#1e3a8a">m₁</text>
@@ -105,7 +105,7 @@ Applies when objects collide and move together as a single mass with common velo
         <marker id="cu53" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
         <marker id="cv53" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">Collision diagram — masses and velocities before impact ($u$) and after ($v$); total momentum is conserved.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Collision diagram — masses and velocities before impact ($u$) and after ($v$); total momentum is conserved.</p></div>
 
 ## Steps / method
 

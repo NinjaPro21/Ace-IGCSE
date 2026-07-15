@@ -33,7 +33,7 @@ Refractive index $n$ varies with colour:
 
 - White light enters; red deviates least, violet most.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 180" width="360" height="180" role="img" aria-label="Dispersion in a prism">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 180" width="360" height="180" role="img" aria-label="Dispersion in a prism">
       <polygon points="160,40 220,140 100,140" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
       <line x1="40" y1="90" x2="155" y2="95" stroke="#64748b" stroke-width="2.5"/>
       <line x1="225" y1="100" x2="320" y2="70" stroke="#dc2626" stroke-width="2"/>
@@ -43,7 +43,7 @@ Refractive index $n$ varies with colour:
       <text x="50" y="80" font-size="10" fill="#64748b">white light</text>
       <text x="300" y="65" font-size="9" fill="#dc2626">red</text>
       <text x="300" y="150" font-size="9" fill="#7c3aed">violet</text>
-    </svg><p class="enlight-physics-diagram__caption">Dispersion — white light splits into a spectrum because each colour refracts by a different amount.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Dispersion — white light splits into a spectrum because each colour refracts by a different amount.</p></div>
 
 ## Examiner tip
 

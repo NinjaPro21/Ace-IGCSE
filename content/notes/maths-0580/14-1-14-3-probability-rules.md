@@ -18,14 +18,14 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Two-set Venn diagram">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Two-set Venn diagram">
       <rect x="20" y="20" width="280" height="140" rx="8" fill="#fdfbf7" stroke="#e8e2d8"/>
       <circle cx="130" cy="90" r="55" fill="#f5edd8" stroke="#5b8def" opacity="0.7"/>
       <circle cx="190" cy="90" r="55" fill="#fdfbf7" stroke="#b59a73" opacity="0.7"/>
       <text x="95" y="95" font-size="13" fill="#1a1a1a" font-weight="600">A</text>
       <text x="215" y="95" font-size="13" fill="#1a1a1a" font-weight="600">B</text>
       <text x="160" y="95" text-anchor="middle" font-size="11" fill="#a8a29e">A∩B</text>
-    </svg><p class="enlight-physics-diagram__caption">Venn diagram — list elements in each region; $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Venn diagram — list elements in each region; $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.</p></div>
 
 ## Steps / method
 

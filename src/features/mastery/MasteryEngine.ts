@@ -953,7 +953,7 @@ export class MasteryEngine {
 
     saveState(this.state)
 
-    window.dispatchEvent(new CustomEvent('enlight-progress'))
+    window.dispatchEvent(new CustomEvent('ace-progress'))
 
   }
 
@@ -965,7 +965,7 @@ export class MasteryEngine {
 
     saveState(this.state)
 
-    window.dispatchEvent(new CustomEvent('enlight-progress'))
+    window.dispatchEvent(new CustomEvent('ace-progress'))
 
   }
 
@@ -1811,9 +1811,9 @@ export class MasteryEngine {
 
     const handler = () => listener()
 
-    window.addEventListener('enlight-progress', handler)
+    window.addEventListener('ace-progress', handler)
 
-    return () => window.removeEventListener('enlight-progress', handler)
+    return () => window.removeEventListener('ace-progress', handler)
 
   }
 
@@ -1823,7 +1823,7 @@ export class MasteryEngine {
 
     this.syncDailyQuests()
 
-    window.dispatchEvent(new Event('enlight-progress'))
+    window.dispatchEvent(new Event('ace-progress'))
 
   }
 

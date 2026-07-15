@@ -35,7 +35,7 @@ Battery toys, DVD players, hard disk drives, drone motors.
 - Rectangular coil on an axle between N–S poles; ends connected to a split-ring commutator.
 - Carbon brushes and d.c. supply; upward force on one side, downward on the other — couple produces rotation.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="dc-motor"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="dc-motor"></div>
 
 ## Quick check
 

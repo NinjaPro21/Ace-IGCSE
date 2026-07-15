@@ -14,7 +14,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Function machine">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Function machine">
       <rect x="120" y="35" width="120" height="50" rx="8" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
       <text x="180" y="65" text-anchor="middle" font-size="12" fill="#1a1a1a">f</text>
       <text x="60" y="65" font-size="11" fill="#a8a29e">x</text>
@@ -22,7 +22,7 @@ $$
       <line x1="75" y1="60" x2="115" y2="60" stroke="#a8a29e" marker-end="url(#fn)"/>
       <line x1="245" y1="60" x2="285" y2="60" stroke="#a8a29e" marker-end="url(#fn)"/>
       <defs><marker id="fn" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#a8a29e"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Function machine — input $x$ maps to exactly one output $f(x)$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Function machine — input $x$ maps to exactly one output $f(x)$.</p></div>
 
 ## Steps / method
 

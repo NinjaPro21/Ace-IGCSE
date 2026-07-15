@@ -93,8 +93,8 @@ export function toggleShowcaseMedal(
 
 export function profileThemeClass(theme: ProfileTheme | string | undefined): string {
   const t = normalizeProfileTheme(theme)
-  const dark = PROFILE_DARK_THEMES.includes(t) ? ' enlight-profile-hero--on-dark' : ''
-  return `enlight-profile-hero--${t}${dark}`
+  const dark = PROFILE_DARK_THEMES.includes(t) ? ' ace-profile-hero--on-dark' : ''
+  return `ace-profile-hero--${t}${dark}`
 }
 
 export { medalLabel, MAX_SHOWCASE }

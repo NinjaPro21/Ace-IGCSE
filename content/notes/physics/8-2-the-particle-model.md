@@ -52,7 +52,7 @@ Because particles are too small to see even with a microscope, we use Brownian m
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 140" width="420" height="140" role="img" aria-label="Particle arrangement in three states">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 140" width="420" height="140" role="img" aria-label="Particle arrangement in three states">
       <text x="70" y="20" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Solid</text>
       <circle cx="40" cy="55" r="5" fill="#2563eb"/><circle cx="60" cy="55" r="5" fill="#2563eb"/><circle cx="80" cy="55" r="5" fill="#2563eb"/>
       <circle cx="40" cy="75" r="5" fill="#2563eb"/><circle cx="60" cy="75" r="5" fill="#2563eb"/><circle cx="80" cy="75" r="5" fill="#2563eb"/>
@@ -66,9 +66,9 @@ Because particles are too small to see even with a microscope, we use Brownian m
       <circle cx="310" cy="50" r="5" fill="#f59e0b"/><circle cx="370" cy="70" r="5" fill="#f59e0b"/><circle cx="330" cy="100" r="5" fill="#f59e0b"/>
       <circle cx="385" cy="45" r="5" fill="#f59e0b"/><circle cx="295" cy="90" r="5" fill="#f59e0b"/>
       <text x="350" y="125" text-anchor="middle" font-size="9" fill="#64748b">fast random motion</text>
-    </svg><p class="enlight-physics-diagram__caption">Particle arrangement — solids: fixed lattice; liquids: close but sliding; gases: far apart and random.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Particle arrangement — solids: fixed lattice; liquids: close but sliding; gases: far apart and random.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Brownian motion in smoke cell">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Brownian motion in smoke cell">
       <rect x="40" y="30" width="280" height="100" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
       <circle cx="100" cy="70" r="8" fill="#64748b" opacity="0.7"/>
       <circle cx="180" cy="90" r="8" fill="#64748b" opacity="0.7"/>
@@ -78,9 +78,9 @@ Because particles are too small to see even with a microscope, we use Brownian m
       <circle cx="130" cy="55" r="2" fill="#2563eb" opacity="0.5"/><circle cx="155" cy="80" r="2" fill="#2563eb" opacity="0.5"/>
       <circle cx="210" cy="70" r="2" fill="#2563eb" opacity="0.5"/><circle cx="230" cy="100" r="2" fill="#2563eb" opacity="0.5"/>
       <text x="180" y="150" text-anchor="middle" font-size="10" fill="#475569">large smoke dots jiggle; air molecules too small to see</text>
-    </svg><p class="enlight-physics-diagram__caption">Brownian motion — visible smoke particles are knocked randomly by invisible fast-moving air molecules.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Brownian motion — visible smoke particles are knocked randomly by invisible fast-moving air molecules.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Particles before and after heating">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Particles before and after heating">
       <text x="90" y="22" text-anchor="middle" font-size="11" fill="#64748b">Cold</text>
       <text x="270" y="22" text-anchor="middle" font-size="11" fill="#64748b">Heated</text>
       <circle cx="60" cy="80" r="6" fill="#64748b"/><circle cx="95" cy="75" r="6" fill="#64748b"/><circle cx="130" cy="90" r="6" fill="#64748b"/>
@@ -89,7 +89,7 @@ Because particles are too small to see even with a microscope, we use Brownian m
       <circle cx="230" cy="115" r="6" fill="#f97316"/><circle cx="275" cy="120" r="6" fill="#f97316"/>
       <text x="90" y="145" text-anchor="middle" font-size="10" fill="#64748b">close together</text>
       <text x="270" y="145" text-anchor="middle" font-size="10" fill="#f97316">further apart</text>
-    </svg><p class="enlight-physics-diagram__caption">Particle model — heating increases average kinetic energy; particles vibrate or move faster and push further apart (they do not grow in size).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Particle model — heating increases average kinetic energy; particles vibrate or move faster and push further apart (they do not grow in size).</p></div>
 
 ## Worked example — Explaining properties
 

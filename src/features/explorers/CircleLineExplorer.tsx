@@ -78,38 +78,38 @@ export function CircleLineExplorer() {
       : `y = ${m === 0 ? '' : m === 1 ? '' : m === -1 ? '−' : m}x ${c > 0 ? '+ ' : '− '}${Math.abs(c)}`
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Line &amp; Circle — Discriminant Explorer</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 16 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Line &amp; Circle — Discriminant Explorer</h2>
+      <p className="ace-body-text" style={{ marginBottom: 16 }}>
         Substitute the line into <strong>x² + y² = 25</strong>. The discriminant{' '}
         <strong>Δ = b² − 4ac</strong> tells you whether the line cuts, touches, or misses the circle.
       </p>
 
-      <div className="enlight-explorer__layout">
+      <div className="ace-explorer__layout">
         <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__label">Fixed circle</div>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '1rem' }}>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__label">Fixed circle</div>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '1rem' }}>
               x² + y² = 25 &nbsp;(centre O, r = 5)
             </div>
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="cl-m">
               <strong>m</strong> (gradient) = {m}
             </label>
             <input id="cl-m" type="range" min={-3} max={3} step={0.25} value={m} onChange={(e) => setM(Number(e.target.value))} />
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="cl-c">
               <strong>c</strong> (y-intercept) = {c}
             </label>
             <input id="cl-c" type="range" min={-10} max={10} step={0.5} value={c} onChange={(e) => setC(Number(e.target.value))} />
           </div>
 
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__label">Line</div>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '1rem' }}>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__label">Line</div>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '1rem' }}>
               {lineLabel}
             </div>
           </div>
@@ -119,14 +119,14 @@ export function CircleLineExplorer() {
             <span className="line-explorer__disc-label">{label}</span>
           </div>
 
-          <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-muted)', lineHeight: 1.5 }}>
+          <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-muted)', lineHeight: 1.5 }}>
             <strong>Δ &gt; 0</strong> → line cuts circle twice<br />
             <strong>Δ = 0</strong> → tangent (one touch point)<br />
             <strong>Δ &lt; 0</strong> → line misses the circle
           </div>
 
           {points.length > 0 && (
-            <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)' }}>
+            <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)' }}>
               {points.map((p, i) => (
                 <div key={i}>
                   Point {points.length > 1 ? i + 1 : ''}: ({p.x.toFixed(2)}, {p.y.toFixed(2)})
@@ -136,7 +136,7 @@ export function CircleLineExplorer() {
           )}
         </div>
 
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Line and circle graph">
+        <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Line and circle graph">
           {[...Array(17)].map((_, i) => {
             const x = X_MIN + (i * (X_MAX - X_MIN)) / 16
             return <line key={`v${i}`} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />

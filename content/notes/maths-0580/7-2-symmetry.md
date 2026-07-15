@@ -14,11 +14,11 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Line symmetry">
+<div class="ace-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Line symmetry">
       <line x1="120" y1="20" x2="120" y2="180" stroke="#b59a73" stroke-dasharray="6 4"/>
       <polygon points="120,40 180,160 60,160" fill="#f5edd8" stroke="#5b8def"/>
       <text x="120" y="15" text-anchor="middle" font-size="10" fill="#b59a73">line of symmetry</text>
-    </svg><p class="enlight-physics-diagram__caption">Line symmetry — fold line maps one half exactly onto the other; count lines of symmetry.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Line symmetry — fold line maps one half exactly onto the other; count lines of symmetry.</p></div>
 
 ## Steps / method
 

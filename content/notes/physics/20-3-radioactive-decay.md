@@ -37,7 +37,7 @@ Applies when a nucleus is in an "excited" state (shown by asterisk) and needs to
 - **Beta Decay Visual**: The nucleon number ($A$) stays the same, but the proton number ($Z$) increases. This means the element moves one place forward in the periodic table.
 - **Decay Equations**: These are written similarly to chemical equations, but they represent nuclear changes rather than electron sharing. The arrow always points from the unstable "parent" nucleus to the more stable "daughter" products.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Types of nuclear emission">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Types of nuclear emission">
       <circle cx="70" cy="60" r="28" fill="#dbeafe" stroke="#2563eb"/>
       <text x="70" y="55" text-anchor="middle" font-size="9" fill="#1e3a8a">parent</text>
       <text x="70" y="68" text-anchor="middle" font-size="8" fill="#64748b">nucleus</text>
@@ -48,7 +48,7 @@ Applies when a nucleus is in an "excited" state (shown by asterisk) and needs to
       <text x="260" y="60" font-size="10" fill="#2563eb">β: n → p + e⁻</text>
       <text x="260" y="80" font-size="10" fill="#7c3aed">γ: no Z change</text>
       <defs><marker id="nd" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Nuclear emission — alpha (2p + 2n), beta (neutron → proton + electron), gamma (no change in proton number).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Nuclear emission — alpha (2p + 2n), beta (neutron → proton + electron), gamma (no change in proton number).</p></div>
 
 ## Steps / method
 

@@ -206,7 +206,7 @@ function parseSections(raw: string): NoteSection[] {
 
 function Md({ children, className }: { children: string; className?: string }) {
   const prepared = prepareMathContent(children, 'note')
-  const classes = ['enlight-markdown', className].filter(Boolean).join(' ')
+  const classes = ['ace-markdown', className].filter(Boolean).join(' ')
   return (
     <div className={classes}>
       <ReactMarkdown remarkPlugins={MD_PLUGINS.remark} rehypePlugins={MD_PLUGINS.rehype}>
@@ -226,35 +226,35 @@ function WorkspaceCard({
   id?: string
 }) {
   return (
-    <section id={id} className={`enlight-ws-card ${className}`.trim()}>
+    <section id={id} className={`ace-ws-card ${className}`.trim()}>
       {children}
     </section>
   )
 }
 
 function WorkspaceLabel({ children }: { children: string }) {
-  return <div className="enlight-ws-label">{children}</div>
+  return <div className="ace-ws-label">{children}</div>
 }
 
 function InlineCalloutBox({ label, body }: { label: string; body: string }) {
   const variant = calloutVariant(label)
   return (
-    <div className={`enlight-inline-callout enlight-inline-callout--${variant}`}>
-      <div className="enlight-inline-callout__label">{label}</div>
-      <Md className="enlight-inline-callout__body">{body}</Md>
+    <div className={`ace-inline-callout ace-inline-callout--${variant}`}>
+      <div className="ace-inline-callout__label">{label}</div>
+      <Md className="ace-inline-callout__body">{body}</Md>
     </div>
   )
 }
 
 function StepList({ steps }: { steps: string[] }) {
   return (
-    <ol className="enlight-method-steps">
+    <ol className="ace-method-steps">
       {steps.map((step, i) => (
-        <li key={i} className="enlight-method-step">
-          <span className="enlight-method-step__num" aria-hidden>
+        <li key={i} className="ace-method-step">
+          <span className="ace-method-step__num" aria-hidden>
             {i + 1}
           </span>
-          <Md className="enlight-method-step__text">{boldFirstVerb(stripStepPrefix(step))}</Md>
+          <Md className="ace-method-step__text">{boldFirstVerb(stripStepPrefix(step))}</Md>
         </li>
       ))}
     </ol>
@@ -263,13 +263,13 @@ function StepList({ steps }: { steps: string[] }) {
 
 function WorkedExampleStepList({ steps }: { steps: string[] }) {
   return (
-    <ol className="enlight-we-steps">
+    <ol className="ace-we-steps">
       {steps.map((step, i) => (
-        <li key={i} className="enlight-we-step">
-          <span className="enlight-we-step__num" aria-hidden>
+        <li key={i} className="ace-we-step">
+          <span className="ace-we-step__num" aria-hidden>
             {i + 1}
           </span>
-          <Md className="enlight-we-step__text">{boldFirstVerb(stripStepPrefix(step))}</Md>
+          <Md className="ace-we-step__text">{boldFirstVerb(stripStepPrefix(step))}</Md>
         </li>
       ))}
     </ol>
@@ -298,42 +298,42 @@ function WorkedExamplePanel({
   const showHeading = heading.length > 0
 
   return (
-    <article className="enlight-we-card">
+    <article className="ace-we-card">
       {showHeading && (
-        <header className="enlight-we-card__header">
-          <span className="enlight-we-card__icon" aria-hidden>
+        <header className="ace-we-card__header">
+          <span className="ace-we-card__icon" aria-hidden>
             ✎
           </span>
-          <h3 className="enlight-we-card__title">
+          <h3 className="ace-we-card__title">
             <MathText content={formatExampleDisplayTitle(heading)} title />
           </h3>
         </header>
       )}
 
       {questions.map((q, i) => (
-        <div key={`q-${i}`} className="enlight-we-card__question">
+        <div key={`q-${i}`} className="ace-we-card__question">
           <Md>{`**Question:** ${q}`}</Md>
         </div>
       ))}
 
       {steps.length > 0 && (
         <>
-          <div className="enlight-we-card__solution-label">Solution</div>
+          <div className="ace-we-card__solution-label">Solution</div>
           {steps.length > 1 ? (
             <WorkedExampleStepList steps={steps} />
           ) : (
-            <div className="enlight-we-step enlight-we-step--solo">
-              <span className="enlight-we-step__num" aria-hidden>
+            <div className="ace-we-step ace-we-step--solo">
+              <span className="ace-we-step__num" aria-hidden>
                 1
               </span>
-              <Md className="enlight-we-step__text">{boldFirstVerb(stripStepPrefix(steps[0]))}</Md>
+              <Md className="ace-we-step__text">{boldFirstVerb(stripStepPrefix(steps[0]))}</Md>
             </div>
           )}
         </>
       )}
 
       {questions.length === 0 && steps.length === 0 && (
-        <Md className="enlight-we-card__fallback">{body}</Md>
+        <Md className="ace-we-card__fallback">{body}</Md>
       )}
     </article>
   )
@@ -341,7 +341,7 @@ function WorkedExamplePanel({
 
 function ExamplesPanel({ examples }: { examples: NoteSection[] }) {
   return (
-    <div className="enlight-examples-panel__stack" aria-label="Worked examples">
+    <div className="ace-examples-panel__stack" aria-label="Worked examples">
       {examples.map((ex, i) => (
         <WorkedExamplePanel
           key={i}
@@ -373,7 +373,7 @@ function MethodWithExamplesCard({
         <InlineCalloutBox key={i} label={c.label} body={c.body} />
       ))}
       {examples.length > 0 && (
-        <div className="enlight-method-examples-bridge">
+        <div className="ace-method-examples-bridge">
           <ExamplesPanel examples={examples} />
         </div>
       )}
@@ -383,9 +383,9 @@ function MethodWithExamplesCard({
 
 function CoreSection({ section }: { section: NoteSection }) {
   return (
-    <WorkspaceCard className="enlight-ws-card--core">
+    <WorkspaceCard className="ace-ws-card--core">
       <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-      <Md className="enlight-markdown enlight-note-prose enlight-ws-card__body">{section.body}</Md>
+      <Md className="ace-markdown ace-note-prose ace-ws-card__body">{section.body}</Md>
     </WorkspaceCard>
   )
 }
@@ -396,13 +396,13 @@ function DecisionGridSection({ section }: { section: NoteSection }) {
   return (
     <WorkspaceCard>
       <WorkspaceLabel>{isDecision ? 'Which method do I use?' : section.heading}</WorkspaceLabel>
-      <div className="enlight-decision-grid">
+      <div className="ace-decision-grid">
         {cards.map((card, i) => (
           <div
             key={i}
-            className={`enlight-decision-card enlight-decision-card--${METHOD_CARD_ACCENTS[i % METHOD_CARD_ACCENTS.length]}`}
+            className={`ace-decision-card ace-decision-card--${METHOD_CARD_ACCENTS[i % METHOD_CARD_ACCENTS.length]}`}
           >
-            <Md className="enlight-markdown enlight-decision-card__body">{card}</Md>
+            <Md className="ace-markdown ace-decision-card__body">{card}</Md>
           </div>
         ))}
       </div>
@@ -418,48 +418,48 @@ function FormulaStackItem({ card }: { card: string }) {
 
   if (!active) {
     return (
-      <div className="enlight-formula-stack__item">
-        <Md className="enlight-markdown">{card}</Md>
+      <div className="ace-formula-stack__item">
+        <Md className="ace-markdown">{card}</Md>
       </div>
     )
   }
 
   if (!hasToggle) {
     return (
-      <div className="enlight-formula-stack__item">
+      <div className="ace-formula-stack__item">
         {parsed.titleMarkdown ? (
-          <Md className="enlight-markdown enlight-formula-card__title">{parsed.titleMarkdown}</Md>
+          <Md className="ace-markdown ace-formula-card__title">{parsed.titleMarkdown}</Md>
         ) : null}
-        <Md className="enlight-markdown">{`$$\n${active.math}\n$$`}</Md>
+        <Md className="ace-markdown">{`$$\n${active.math}\n$$`}</Md>
         {parsed.description ? (
-          <Md className="enlight-markdown enlight-formula-card__desc">{parsed.description}</Md>
+          <Md className="ace-markdown ace-formula-card__desc">{parsed.description}</Md>
         ) : null}
       </div>
     )
   }
 
   return (
-    <div className="enlight-formula-stack__item">
+    <div className="ace-formula-stack__item">
       {parsed.titleMarkdown ? (
-        <Md className="enlight-markdown enlight-formula-card__title">{parsed.titleMarkdown}</Md>
+        <Md className="ace-markdown ace-formula-card__title">{parsed.titleMarkdown}</Md>
       ) : null}
-      <div className="enlight-formula-k-toggle" role="tablist" aria-label="Formula variant">
+      <div className="ace-formula-k-toggle" role="tablist" aria-label="Formula variant">
         {parsed.variants.map((v) => (
           <button
             key={v.id}
             type="button"
             role="tab"
             aria-selected={variantId === v.id}
-            className={`enlight-formula-k-toggle__btn${variantId === v.id ? ' enlight-formula-k-toggle__btn--active' : ''}`}
+            className={`ace-formula-k-toggle__btn${variantId === v.id ? ' ace-formula-k-toggle__btn--active' : ''}`}
             onClick={() => setVariantId(v.id)}
           >
-            <Md className="enlight-markdown enlight-formula-k-toggle__label">{v.label}</Md>
+            <Md className="ace-markdown ace-formula-k-toggle__label">{v.label}</Md>
           </button>
         ))}
       </div>
-      <Md className="enlight-markdown">{`$$\n${active.math}\n$$`}</Md>
+      <Md className="ace-markdown">{`$$\n${active.math}\n$$`}</Md>
       {parsed.description ? (
-        <Md className="enlight-markdown enlight-formula-card__desc">{parsed.description}</Md>
+        <Md className="ace-markdown ace-formula-card__desc">{parsed.description}</Md>
       ) : null}
     </div>
   )
@@ -475,10 +475,10 @@ function MethodsSection({ section }: { section: NoteSection }) {
     return (
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-        <div className="enlight-key-methods-grid">
+        <div className="ace-key-methods-grid">
           {cards.map((card, i) => (
-            <div key={i} className="enlight-key-methods-card">
-              <Md className="enlight-markdown enlight-key-methods-card__body">{card}</Md>
+            <div key={i} className="ace-key-methods-card">
+              <Md className="ace-markdown ace-key-methods-card__body">{card}</Md>
             </div>
           ))}
         </div>
@@ -495,13 +495,13 @@ function MethodsSection({ section }: { section: NoteSection }) {
     return (
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-        <div className={isKeyFormulas ? 'enlight-formula-stack' : 'enlight-formula-strip'}>
+        <div className={isKeyFormulas ? 'ace-formula-stack' : 'ace-formula-strip'}>
           {cards.map((card, i) =>
             isKeyFormulas ? (
               <FormulaStackItem key={i} card={card} />
             ) : (
-              <div key={i} className="enlight-formula-strip__item">
-                <Md className="enlight-markdown">{card}</Md>
+              <div key={i} className="ace-formula-strip__item">
+                <Md className="ace-markdown">{card}</Md>
               </div>
             ),
           )}
@@ -516,7 +516,7 @@ function Em3dDiagramCard({ diagram, hero }: { diagram: string; hero?: boolean })
   return (
     <Suspense
       fallback={
-        <div className="enlight-sandbox-coming-soon">
+        <div className="ace-sandbox-coming-soon">
           <span style={{ fontSize: '1.5rem' }}>⏳</span>
           <span>Loading 3D diagram…</span>
         </div>
@@ -529,9 +529,9 @@ function Em3dDiagramCard({ diagram, hero }: { diagram: string; hero?: boolean })
 
 function isEm3dDiagram(diagram: string) {
   return (
-    diagram.includes('enlight-em-3d') ||
-    diagram.includes('enlight-fleming-3d') ||
-    diagram.includes('enlight-physics-diagram--hand-rule')
+    diagram.includes('ace-em-3d') ||
+    diagram.includes('ace-fleming-3d') ||
+    diagram.includes('ace-physics-diagram--hand-rule')
   )
 }
 
@@ -539,46 +539,46 @@ function GraphDiagramContent({ diagram }: { diagram: string }) {
   if (isEm3dDiagram(diagram)) {
     return <Em3dDiagramCard diagram={diagram} />
   }
-  return <Md className="enlight-markdown enlight-graph-topic-card__diagram">{diagram}</Md>
+  return <Md className="ace-markdown ace-graph-topic-card__diagram">{diagram}</Md>
 }
 
 function GraphsDiagramsSection({ section }: { section: NoteSection }) {
   const cards = [...parseTopicCards(section.body)]
-  const heroIdx = cards.findIndex((c) => c.diagram?.includes('enlight-physics-diagram--hero'))
+  const heroIdx = cards.findIndex((c) => c.diagram?.includes('ace-physics-diagram--hero'))
   const heroCard = heroIdx >= 0 ? cards.splice(heroIdx, 1)[0] : null
 
   if (cards.length <= 1 && !cards[0]?.diagram && !heroCard) {
     return (
       <WorkspaceCard>
         <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-        <Md className="enlight-note-prose">{section.body}</Md>
+        <Md className="ace-note-prose">{section.body}</Md>
       </WorkspaceCard>
     )
   }
 
   return (
-    <WorkspaceCard className={heroCard ? 'enlight-ws-card--graphs-hero' : undefined}>
+    <WorkspaceCard className={heroCard ? 'ace-ws-card--graphs-hero' : undefined}>
       <WorkspaceLabel>{section.heading}</WorkspaceLabel>
       {heroCard ? (
-        <div className="enlight-graph-hero">
-          {heroCard.text ? <Md className="enlight-markdown enlight-graph-hero__text">{heroCard.text}</Md> : null}
+        <div className="ace-graph-hero">
+          {heroCard.text ? <Md className="ace-markdown ace-graph-hero__text">{heroCard.text}</Md> : null}
           {heroCard.diagram ? (
             isEm3dDiagram(heroCard.diagram) ? (
               <Em3dDiagramCard diagram={heroCard.diagram} hero />
             ) : (
-              <Md className="enlight-markdown enlight-graph-hero__diagram">{heroCard.diagram}</Md>
+              <Md className="ace-markdown ace-graph-hero__diagram">{heroCard.diagram}</Md>
             )
           ) : null}
         </div>
       ) : null}
       {cards.length > 0 ? (
-        <div className={`enlight-graph-topic-stack${heroCard ? ' enlight-graph-topic-stack--after-hero' : ''}`}>
+        <div className={`ace-graph-topic-stack${heroCard ? ' ace-graph-topic-stack--after-hero' : ''}`}>
           {cards.map((card, i) => (
-            <div key={i} className="enlight-graph-topic-card">
-              {card.text ? <Md className="enlight-markdown">{card.text}</Md> : null}
+            <div key={i} className="ace-graph-topic-card">
+              {card.text ? <Md className="ace-markdown">{card.text}</Md> : null}
               {card.diagram ? <GraphDiagramContent diagram={card.diagram} /> : null}
               {card.caption ? (
-                <Md className="enlight-markdown enlight-graph-topic-card__caption">{card.caption}</Md>
+                <Md className="ace-markdown ace-graph-topic-card__caption">{card.caption}</Md>
               ) : null}
             </div>
           ))}
@@ -612,15 +612,15 @@ function WorkedExamplesOnlySection({ examples }: { examples: NoteSection[] }) {
 function WarningCalloutSection({ section }: { section: NoteSection }) {
   const isExaminerTip = section.kind === 'examiner-tip'
   return (
-    <WorkspaceCard className="enlight-ws-card--flat">
-      <div className={`enlight-callout ${isExaminerTip ? 'enlight-callout--orange' : 'enlight-callout--warning'}`}>
-        <div className="enlight-callout__header">
-          <span className="enlight-callout__icon" aria-hidden>
+    <WorkspaceCard className="ace-ws-card--flat">
+      <div className={`ace-callout ${isExaminerTip ? 'ace-callout--orange' : 'ace-callout--warning'}`}>
+        <div className="ace-callout__header">
+          <span className="ace-callout__icon" aria-hidden>
             {isExaminerTip ? '⚠' : '★'}
           </span>
-          <span className="enlight-callout__label">{section.heading}</span>
+          <span className="ace-callout__label">{section.heading}</span>
         </div>
-        <Md className="enlight-callout__body">{section.body}</Md>
+        <Md className="ace-callout__body">{section.body}</Md>
       </div>
     </WorkspaceCard>
   )
@@ -628,10 +628,10 @@ function WarningCalloutSection({ section }: { section: NoteSection }) {
 
 function QuickCheckSection({ section }: { section: NoteSection }) {
   return (
-    <WorkspaceCard className="enlight-ws-card--flat">
-      <div className="enlight-inline-callout enlight-inline-callout--green enlight-inline-callout--standalone">
-        <div className="enlight-inline-callout__label">{section.heading}</div>
-        <Md className="enlight-inline-callout__body">{section.body}</Md>
+    <WorkspaceCard className="ace-ws-card--flat">
+      <div className="ace-inline-callout ace-inline-callout--green ace-inline-callout--standalone">
+        <div className="ace-inline-callout__label">{section.heading}</div>
+        <Md className="ace-inline-callout__body">{section.body}</Md>
       </div>
     </WorkspaceCard>
   )
@@ -641,7 +641,7 @@ function GenericSection({ section }: { section: NoteSection }) {
   return (
     <WorkspaceCard>
       <WorkspaceLabel>{section.heading}</WorkspaceLabel>
-      <Md className="enlight-note-prose">{section.body}</Md>
+      <Md className="ace-note-prose">{section.body}</Md>
     </WorkspaceCard>
   )
 }
@@ -713,7 +713,7 @@ function ExplorerContent({
   subjectId?: string
 }) {
   const fallback = (
-    <div className="enlight-sandbox-coming-soon">
+    <div className="ace-sandbox-coming-soon">
       <span style={{ fontSize: '1.5rem' }}>⏳</span>
       <span>Loading explorer…</span>
     </div>
@@ -778,7 +778,7 @@ function ExplorerContent({
     case 'calculator-guide':
       return (
         <Suspense fallback={fallback}>
-          <div className="enlight-calc-guide-wrap">
+          <div className="ace-calc-guide-wrap">
             <CasioCalculatorGuide
               panels={explorerPanels as import('@/lib/contentTypes').CalculatorGuidePanel[] | undefined}
               variant={subjectId === 'add-maths-0606' ? '0606' : '0580'}
@@ -824,7 +824,7 @@ function ExplorerContent({
       )
     default:
       return (
-        <div className="enlight-sandbox-coming-soon">
+        <div className="ace-sandbox-coming-soon">
           <span style={{ fontSize: '1.5rem' }}>🔬</span>
           <span>Interactive sandbox coming soon for this topic.</span>
         </div>
@@ -844,9 +844,9 @@ function ExplorerSection({
   const prefix = VISUAL_GUIDE_IDS.has(explorerId) ? 'Visual diagram' : 'Interactive'
   const isCalc = explorerId === 'calculator-guide'
   return (
-    <WorkspaceCard className={isCalc ? 'enlight-ws-card--explorer enlight-ws-card--calc' : 'enlight-ws-card--explorer'} id="lesson-explorer">
+    <WorkspaceCard className={isCalc ? 'ace-ws-card--explorer ace-ws-card--calc' : 'ace-ws-card--explorer'} id="lesson-explorer">
       <WorkspaceLabel>{`${prefix} · ${EXPLORER_LABELS[explorerId]}`}</WorkspaceLabel>
-      <div className="enlight-explorer-card__body">
+      <div className="ace-explorer-card__body">
         <ExplorerContent explorerId={explorerId} explorerPanels={explorerPanels} subjectId={subjectId} />
       </div>
     </WorkspaceCard>
@@ -855,9 +855,9 @@ function ExplorerSection({
 
 function VisualDiagramSection({ section }: { section: NoteSection }) {
   return (
-    <WorkspaceCard className="enlight-ws-card--flat">
+    <WorkspaceCard className="ace-ws-card--flat">
       <WorkspaceLabel>Visual diagram</WorkspaceLabel>
-      <Md className="enlight-note-prose enlight-visual-diagram__caption">{section.body}</Md>
+      <Md className="ace-note-prose ace-visual-diagram__caption">{section.body}</Md>
     </WorkspaceCard>
   )
 }
@@ -944,7 +944,7 @@ export function MarkdownLesson({ content, explorerId, explorerPanels, subjectId 
   const sections = reorderWorkedExamplesAfterSteps(expandWorkedExampleSections(parseSections(content)))
 
   return (
-    <div className="enlight-note-workspace">
+    <div className="ace-note-workspace">
       {renderSections(sections)}
       {explorerId && <ExplorerSection explorerId={explorerId} explorerPanels={explorerPanels} subjectId={subjectId} />}
     </div>

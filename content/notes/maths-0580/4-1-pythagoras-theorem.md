@@ -14,13 +14,13 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Right triangle for Pythagoras">
+<div class="ace-physics-diagram"><svg viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Right triangle for Pythagoras">
       <polygon points="40,160 220,160 40,40" fill="#f5edd8" stroke="#5b8def" stroke-width="2"/>
       <rect x="40" y="145" width="15" height="15" fill="none" stroke="#a8a29e"/>
       <text x="130" y="178" text-anchor="middle" font-size="12" fill="#5b8def">a</text>
       <text x="25" y="105" text-anchor="middle" font-size="12" fill="#5b8def">b</text>
       <text x="145" y="95" font-size="12" fill="#b59a73" font-weight="600">c (hyp)</text>
-    </svg><p class="enlight-physics-diagram__caption">Right-angled triangle — $c$ is the hypotenuse (longest side, opposite the $90°$ angle). Use $a^2 + b^2 = c^2$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Right-angled triangle — $c$ is the hypotenuse (longest side, opposite the $90°$ angle). Use $a^2 + b^2 = c^2$.</p></div>
 
 ## Steps / method
 

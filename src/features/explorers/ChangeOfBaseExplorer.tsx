@@ -28,14 +28,14 @@ export function ChangeOfBaseExplorer() {
   }, [argument, origBase])
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Change of Base Calculator</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Change of Base Calculator</h2>
+      <p className="ace-body-text" style={{ marginBottom: 14 }}>
         Convert <MathText content="$\\log_a(b)$" /> to base <MathText content="$c$" /> using{' '}
         <MathText content="$\\dfrac{\\log_c(b)}{\\log_c(a)}$" /> — the same rule used on Paper 1.
       </p>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="cob-a">
           <strong>Original base a</strong> = {origBase}
         </label>
@@ -50,7 +50,7 @@ export function ChangeOfBaseExplorer() {
         />
       </div>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="cob-b">
           <strong>Argument b</strong> = {argument}
         </label>
@@ -65,7 +65,7 @@ export function ChangeOfBaseExplorer() {
         />
       </div>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="cob-c">
           <strong>New base c</strong> = {newBase === 10 ? '10 (calculator log)' : newBase}
         </label>
@@ -80,8 +80,8 @@ export function ChangeOfBaseExplorer() {
         />
       </div>
 
-      <div className="enlight-discriminant-display" style={{ marginTop: 16 }}>
-        <div className="enlight-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
+      <div className="ace-discriminant-display" style={{ marginTop: 16 }}>
+        <div className="ace-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
           <MathText
             content={`$\\log_${origBase}(${argument}) = \\frac{\\log_${newBase}(${argument})}{\\log_${newBase}(${origBase})}$`}
             block
@@ -105,9 +105,9 @@ export function ChangeOfBaseExplorer() {
         </div>
       </div>
 
-      <div className="enlight-inline-callout enlight-inline-callout--gold enlight-inline-callout--standalone" style={{ marginTop: 16 }}>
-        <div className="enlight-inline-callout__label">Reciprocal property</div>
-        <div className="enlight-inline-callout__body">
+      <div className="ace-inline-callout ace-inline-callout--gold ace-inline-callout--standalone" style={{ marginTop: 16 }}>
+        <div className="ace-inline-callout__label">Reciprocal property</div>
+        <div className="ace-inline-callout__body">
           <MathText
             content={`$\\log_${origBase}(${argument}) \\times \\log_${argument}(${origBase}) = ${fmt(reciprocal.a)} \\times ${fmt(reciprocal.b)} = ${fmt(reciprocal.product)}$`}
             block

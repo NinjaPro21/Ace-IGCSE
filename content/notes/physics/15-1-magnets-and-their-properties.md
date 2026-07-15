@@ -34,7 +34,7 @@ When a magnetic material (e.g. an unmagnetised paper clip) is brought near a per
 
 - Field lines leave the N pole and enter the S pole.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 250" width="440" height="250" role="img" aria-label="Bar magnet field lines">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 250" width="440" height="250" role="img" aria-label="Bar magnet field lines">
       <defs><marker id="bm-ns" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#6b7280"/></marker></defs>
       <text x="220" y="24" text-anchor="middle" font-size="15" fill="#374151" font-weight="600">Bar magnet</text>
       <rect x="128" y="112" width="92" height="36" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
@@ -59,7 +59,7 @@ When a magnetic material (e.g. an unmagnetised paper clip) is brought near a per
       <line x1="362" y1="132" x2="312" y2="132" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
       <line x1="362" y1="140" x2="312" y2="140" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
       <line x1="362" y1="148" x2="312" y2="148" stroke="#6b7280" stroke-width="1.6" marker-end="url(#bm-ns)"/>
-    </svg><p class="enlight-physics-diagram__caption">Bar magnet — field lines leave the N pole and enter the S pole; arrows show direction N → S.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Bar magnet — field lines leave the N pole and enter the S pole; arrows show direction N → S.</p></div>
 
 ## Quick check
 

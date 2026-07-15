@@ -68,7 +68,7 @@ function PascalTriangle({ n, triangle }: { n: number; triangle: number[][] }) {
   const height = rows * cellH + 24
 
   return (
-    <svg className="enlight-series-pascal" viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Pascal triangle">
+    <svg className="ace-series-pascal" viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Pascal triangle">
       {triangle.map((row, ri) =>
         row.map((val, ci) => {
           const cx = width / 2 + (ci - ri / 2) * cellW
@@ -139,60 +139,60 @@ function BinomialPanel() {
   const gtDisplay = `${gtCoef}${gtA}${gtJoin}${gtB}`
 
   return (
-    <div className="enlight-series-panel">
-      <p className="enlight-series-panel__intro">
+    <div className="ace-series-panel">
+      <p className="ace-series-panel__intro">
         Each row of Pascal&apos;s triangle gives the coefficients of <strong>(a + b)ⁿ</strong>. Each entry is the sum of
         the two numbers directly above it.
       </p>
 
-      <div className="enlight-series-toggle">
-        <button type="button" className={`enlight-series-toggle__btn${example === 'simple' ? ' enlight-series-toggle__btn--active' : ''}`} onClick={() => setExample('simple')}>
+      <div className="ace-series-toggle">
+        <button type="button" className={`ace-series-toggle__btn${example === 'simple' ? ' ace-series-toggle__btn--active' : ''}`} onClick={() => setExample('simple')}>
           (a + b)ⁿ
         </button>
-        <button type="button" className={`enlight-series-toggle__btn${example === 'worked' ? ' enlight-series-toggle__btn--active' : ''}`} onClick={() => setExample('worked')}>
+        <button type="button" className={`ace-series-toggle__btn${example === 'worked' ? ' ace-series-toggle__btn--active' : ''}`} onClick={() => setExample('worked')}>
           (2x + 3)⁴ example
         </button>
       </div>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="bin-n">
           <strong>Power n</strong> = {n} → row {n} has {n + 1} terms
         </label>
         <input id="bin-n" type="range" min={0} max={8} step={1} value={n} onChange={(e) => { setN(Number(e.target.value)); setR((prev) => Math.min(prev, Number(e.target.value))) }} />
       </div>
 
-      <div className="enlight-series-binomial-layout">
+      <div className="ace-series-binomial-layout">
         <PascalTriangle n={n} triangle={triangle} />
-        <div className="enlight-series-binomial-right">
-          <div className="enlight-series-formula-card">
-            <div className="enlight-series-formula-card__label">Expansion</div>
-            <div className="enlight-series-formula-card__eq">{bracket} =</div>
-            <div className="enlight-series-formula-card__expansion">{expansion}</div>
+        <div className="ace-series-binomial-right">
+          <div className="ace-series-formula-card">
+            <div className="ace-series-formula-card__label">Expansion</div>
+            <div className="ace-series-formula-card__eq">{bracket} =</div>
+            <div className="ace-series-formula-card__expansion">{expansion}</div>
           </div>
 
-          <div className="enlight-series-coef-row">
+          <div className="ace-series-coef-row">
             {row.map((c, i) => (
-              <div key={i} className={`enlight-series-coef${i === r ? ' enlight-series-coef--active' : ''}`}>
-                <span className="enlight-series-coef__c">{c}</span>
-                <span className="enlight-series-coef__r">r = {i}</span>
+              <div key={i} className={`ace-series-coef${i === r ? ' ace-series-coef--active' : ''}`}>
+                <span className="ace-series-coef__c">{c}</span>
+                <span className="ace-series-coef__r">r = {i}</span>
               </div>
             ))}
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="bin-r">
               <strong>General term</strong> — pick r = {r} (term {r + 1})
             </label>
             <input id="bin-r" type="range" min={0} max={n} step={1} value={r} onChange={(e) => setR(Number(e.target.value))} />
           </div>
 
-          <div className="enlight-series-formula-card enlight-series-formula-card--highlight">
-            <div className="enlight-series-formula-card__label">General term formula</div>
-            <div className="enlight-series-formula-card__eq">T<sub>{r + 1}</sub> = ⁿCᵣ · aⁿ⁻ʳ · bʳ</div>
-            <div className="enlight-series-formula-card__expansion">= {gtDisplay}</div>
+          <div className="ace-series-formula-card ace-series-formula-card--highlight">
+            <div className="ace-series-formula-card__label">General term formula</div>
+            <div className="ace-series-formula-card__eq">T<sub>{r + 1}</sub> = ⁿCᵣ · aⁿ⁻ʳ · bʳ</div>
+            <div className="ace-series-formula-card__expansion">= {gtDisplay}</div>
           </div>
 
-          <div className="enlight-series-tip">
+          <div className="ace-series-tip">
             Powers of <strong>a</strong> decrease (n → 0) while powers of <strong>b</strong> increase (0 → n).
           </div>
         </div>
@@ -212,27 +212,27 @@ function ApPanel() {
   const maxVal = Math.max(...terms, 1)
 
   return (
-    <div className="enlight-series-panel">
-      <p className="enlight-series-panel__intro">
+    <div className="ace-series-panel">
+      <p className="ace-series-panel__intro">
         Each term adds the same amount <strong>d</strong> (common difference). The sequence forms a straight-line pattern.
       </p>
 
-      <div className="enlight-series-sliders">
-        <div className="enlight-slider-group">
+      <div className="ace-series-sliders">
+        <div className="ace-slider-group">
           <label htmlFor="ap-a"><strong>First term a</strong> = {a}</label>
           <input id="ap-a" type="range" min={-5} max={20} step={1} value={a} onChange={(e) => setA(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="ap-d"><strong>Common difference d</strong> = {d}</label>
           <input id="ap-d" type="range" min={-8} max={8} step={1} value={d} onChange={(e) => setD(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="ap-n"><strong>Terms shown n</strong> = {n}</label>
           <input id="ap-n" type="range" min={3} max={12} step={1} value={n} onChange={(e) => setN(Number(e.target.value))} />
         </div>
       </div>
 
-      <svg className="enlight-series-ap-chart" viewBox="0 0 520 180" role="img" aria-label="AP bar chart">
+      <svg className="ace-series-ap-chart" viewBox="0 0 520 180" role="img" aria-label="AP bar chart">
         <line x1={40} y1={150} x2={500} y2={150} stroke="#57534e" strokeWidth={2} />
         {terms.map((t, i) => {
           const barW = 380 / n
@@ -258,16 +258,16 @@ function ApPanel() {
         })}
       </svg>
 
-      <div className="enlight-series-results">
-        <div className="enlight-series-result-card">
-          <div className="enlight-series-result-card__label">nth term</div>
-          <div className="enlight-series-result-card__formula">uₙ = a + (n−1)d</div>
-          <div className="enlight-series-result-card__value">u{n} = {a} + ({n}−1)({d}) = <strong>{nth}</strong></div>
+      <div className="ace-series-results">
+        <div className="ace-series-result-card">
+          <div className="ace-series-result-card__label">nth term</div>
+          <div className="ace-series-result-card__formula">uₙ = a + (n−1)d</div>
+          <div className="ace-series-result-card__value">u{n} = {a} + ({n}−1)({d}) = <strong>{nth}</strong></div>
         </div>
-        <div className="enlight-series-result-card">
-          <div className="enlight-series-result-card__label">Sum of n terms</div>
-          <div className="enlight-series-result-card__formula">Sₙ = n/2 [2a + (n−1)d]</div>
-          <div className="enlight-series-result-card__value">S{n} = <strong>{sum}</strong></div>
+        <div className="ace-series-result-card">
+          <div className="ace-series-result-card__label">Sum of n terms</div>
+          <div className="ace-series-result-card__formula">Sₙ = n/2 [2a + (n−1)d]</div>
+          <div className="ace-series-result-card__value">S{n} = <strong>{sum}</strong></div>
         </div>
       </div>
     </div>
@@ -296,32 +296,32 @@ function GpPanel() {
   const barW = 420 / n
 
   return (
-    <div className="enlight-series-panel">
-      <p className="enlight-series-panel__intro">
+    <div className="ace-series-panel">
+      <p className="ace-series-panel__intro">
         Each term is multiplied by ratio <strong>r</strong>. When <strong>|r| &lt; 1</strong>, terms shrink and the
         infinite sum converges to a limit.
       </p>
 
-      <div className="enlight-series-sliders">
-        <div className="enlight-slider-group">
+      <div className="ace-series-sliders">
+        <div className="ace-slider-group">
           <label htmlFor="gp-a"><strong>First term a</strong> = {a}</label>
           <input id="gp-a" type="range" min={1} max={20} step={1} value={a} onChange={(e) => setA(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="gp-r"><strong>Common ratio r</strong> = {r.toFixed(2)}</label>
           <input id="gp-r" type="range" min={-0.9} max={1.5} step={0.01} value={r} onChange={(e) => setR(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="gp-n"><strong>Terms shown n</strong> = {n}</label>
           <input id="gp-n" type="range" min={3} max={12} step={1} value={n} onChange={(e) => setN(Number(e.target.value))} />
         </div>
       </div>
 
-      <div className={`enlight-series-convergence ${converges ? 'enlight-series-convergence--yes' : 'enlight-series-convergence--no'}`}>
+      <div className={`ace-series-convergence ${converges ? 'ace-series-convergence--yes' : 'ace-series-convergence--no'}`}>
         {converges ? `|r| < 1 ✓ — sum to infinity exists: S∞ = a/(1−r) = ${sInf!.toFixed(2)}` : `|r| ≥ 1 ✗ — series diverges, no S∞`}
       </div>
 
-      <svg className="enlight-series-gp-chart" viewBox="0 0 520 200" role="img" aria-label="GP bar and cumulative chart">
+      <svg className="ace-series-gp-chart" viewBox="0 0 520 200" role="img" aria-label="GP bar and cumulative chart">
         <line x1={40} y1={170} x2={500} y2={170} stroke="#57534e" strokeWidth={2} />
         {terms.map((t, i) => {
           const x = 60 + i * barW
@@ -366,16 +366,16 @@ function GpPanel() {
         <text x={130} y={14} fontSize={9} fill="#f59e0b" fontWeight={600}>— cumulative Sₙ</text>
       </svg>
 
-      <div className="enlight-series-results">
-        <div className="enlight-series-result-card">
-          <div className="enlight-series-result-card__label">nth term</div>
-          <div className="enlight-series-result-card__formula">uₙ = arⁿ⁻¹</div>
-          <div className="enlight-series-result-card__value">u{n} = <strong>{terms[n - 1].toFixed(2)}</strong></div>
+      <div className="ace-series-results">
+        <div className="ace-series-result-card">
+          <div className="ace-series-result-card__label">nth term</div>
+          <div className="ace-series-result-card__formula">uₙ = arⁿ⁻¹</div>
+          <div className="ace-series-result-card__value">u{n} = <strong>{terms[n - 1].toFixed(2)}</strong></div>
         </div>
-        <div className="enlight-series-result-card">
-          <div className="enlight-series-result-card__label">Partial sum</div>
-          <div className="enlight-series-result-card__formula">Sₙ = a(1−rⁿ)/(1−r)</div>
-          <div className="enlight-series-result-card__value">S{n} = <strong>{partialSums[n - 1].toFixed(2)}</strong></div>
+        <div className="ace-series-result-card">
+          <div className="ace-series-result-card__label">Partial sum</div>
+          <div className="ace-series-result-card__formula">Sₙ = a(1−rⁿ)/(1−r)</div>
+          <div className="ace-series-result-card__value">S{n} = <strong>{partialSums[n - 1].toFixed(2)}</strong></div>
         </div>
       </div>
     </div>
@@ -396,21 +396,21 @@ export function SeriesVisualGuide({ panels }: { panels?: SeriesGuidePanel[] }) {
   ).filter((t) => available.includes(t.id))
 
   return (
-    <section className="enlight-explorer enlight-series-guide">
-      <h2 className="enlight-explorer__title">Series Visual Guide</h2>
-      <p className="enlight-body-text enlight-series-guide__intro">
+    <section className="ace-explorer ace-series-guide">
+      <h2 className="ace-explorer__title">Series Visual Guide</h2>
+      <p className="ace-body-text ace-series-guide__intro">
         {available.includes('binomial')
           ? "Interactive diagrams for Pascal's triangle, binomial expansions, arithmetic progressions, and geometric series."
           : 'Arithmetic and geometric sequences — common difference and common ratio visualised.'}
       </p>
 
       {tabOptions.length > 1 && (
-        <div className="enlight-series-tabs">
+        <div className="ace-series-tabs">
           {tabOptions.map(({ id, label }) => (
             <button
               key={id}
               type="button"
-              className={`enlight-series-tabs__btn${current === id ? ' enlight-series-tabs__btn--active' : ''}`}
+              className={`ace-series-tabs__btn${current === id ? ' ace-series-tabs__btn--active' : ''}`}
               onClick={() => setTab(id)}
             >
               {label}

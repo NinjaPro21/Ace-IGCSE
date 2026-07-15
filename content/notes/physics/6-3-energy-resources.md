@@ -39,7 +39,7 @@ Applies to any machine or energy transfer based on the principle of conservation
 - **Wasted energy**: Branch pointing downwards (dissipated as heat and sound).
 - **Interpretation**: Branch height is proportional to the energy in that branch.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 520 270" width="520" height="270" role="img" aria-label="Sankey diagram for a power station">
+<div class="ace-physics-diagram"><svg viewBox="0 0 520 270" width="520" height="270" role="img" aria-label="Sankey diagram for a power station">
       <rect width="520" height="270" fill="#fafafa" rx="6"/>
       <text x="14" y="119" font-size="11" fill="#1e40af" font-weight="600">Fuel input</text>
       <text x="14" y="133" font-size="10" fill="#334155">2000 MJ</text>
@@ -51,7 +51,7 @@ Applies to any machine or energy transfer based on the principle of conservation
       <rect x="64" y="180" width="300" height="91" fill="#ea580c" stroke="#c2410c" stroke-width="1"/>
       <text x="214" y="230.5" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">Thermal (wasted) — 1400 MJ</text>
       <text x="260" y="262" text-anchor="middle" font-size="10" fill="#64748b">Efficiency = 600 ÷ 2000 × 100% = 30%</text>
-    </svg><p class="enlight-physics-diagram__caption">Sankey diagram for a power station — only 30% becomes useful electrical energy; the rest is wasted (mainly as thermal energy).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Sankey diagram for a power station — only 30% becomes useful electrical energy; the rest is wasted (mainly as thermal energy).</p></div>
 
 **Energy flow sequence**
 

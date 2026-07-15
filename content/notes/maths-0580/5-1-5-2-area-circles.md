@@ -18,13 +18,13 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 220 220" width="220" height="220" role="img" aria-label="Circle radius and diameter">
+<div class="ace-physics-diagram"><svg viewBox="0 0 220 220" width="220" height="220" role="img" aria-label="Circle radius and diameter">
       <circle cx="110" cy="110" r="70" fill="#fdfbf7" stroke="#5b8def" stroke-width="2"/>
       <line x1="110" y1="110" x2="180" y2="110" stroke="#b59a73" stroke-width="2"/>
       <text x="145" y="100" font-size="11" fill="#b59a73">r</text>
       <line x1="40" y1="110" x2="180" y2="110" stroke="#a8a29e" stroke-dasharray="4 3"/>
       <text x="110" y="195" text-anchor="middle" font-size="10" fill="#a8a29e">diameter = 2r</text>
-    </svg><p class="enlight-physics-diagram__caption">Circle — radius $r$ from centre to edge; diameter = $2r$; circumference = $2\pi r$; area = $\pi r^2$.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Circle — radius $r$ from centre to edge; diameter = $2r$; circumference = $2\pi r$; area = $\pi r^2$.</p></div>
 
 ## Steps / method
 

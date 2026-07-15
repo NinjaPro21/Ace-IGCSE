@@ -48,7 +48,7 @@ export function TopicMasteryPath({
   const quizLevel = (topicProgress?.quizLevel ?? 0) as import('@/features/mastery/MasteryEngine').MasteryLevel
 
   return (
-    <div className={`enlight-mastery-path enlight-mastery-path--${scope}`}>
+    <div className={`ace-mastery-path ace-mastery-path--${scope}`}>
       {STEPS.map((step, idx) => {
         const isNotes = step.difficulty === 'notes'
         const difficulty = step.difficulty as Difficulty
@@ -64,17 +64,17 @@ export function TopicMasteryPath({
             ? getStepScore(topicProgress, step.difficulty as Difficulty)
             : undefined
         const cls = [
-          'enlight-mastery-step',
-          `enlight-mastery-step--${scope}`,
-          complete ? 'enlight-mastery-step--complete' : '',
-          unlocked ? 'enlight-mastery-step--unlocked' : 'enlight-mastery-step--locked',
+          'ace-mastery-step',
+          `ace-mastery-step--${scope}`,
+          complete ? 'ace-mastery-step--complete' : '',
+          unlocked ? 'ace-mastery-step--unlocked' : 'ace-mastery-step--locked',
         ].join(' ')
 
         if (isNotes) {
           return (
             <div key={step.difficulty} className={cls}>
-              <div className="enlight-mastery-step__label">{step.label}</div>
-              <div className="enlight-mastery-step__title">{step.title}</div>
+              <div className="ace-mastery-step__label">{step.label}</div>
+              <div className="ace-mastery-step__title">{step.title}</div>
             </div>
           )
         }
@@ -82,10 +82,10 @@ export function TopicMasteryPath({
         if (complete) {
           return (
             <div key={step.difficulty} className={cls} title="Tier complete">
-              <div className="enlight-mastery-step__label">{step.label}</div>
-              <div className="enlight-mastery-step__title">{step.title}</div>
+              <div className="ace-mastery-step__label">{step.label}</div>
+              <div className="ace-mastery-step__title">{step.title}</div>
               {score !== undefined && (
-                <div className="enlight-mastery-step__score">{Math.min(100, score)}%</div>
+                <div className="ace-mastery-step__score">{Math.min(100, score)}%</div>
               )}
             </div>
           )
@@ -94,8 +94,8 @@ export function TopicMasteryPath({
         if (!unlocked) {
           return (
             <div key={step.difficulty} className={cls} title="Pass the previous tier to unlock">
-              <div className="enlight-mastery-step__label">{step.label}</div>
-              <div className="enlight-mastery-step__title">{step.title}</div>
+              <div className="ace-mastery-step__label">{step.label}</div>
+              <div className="ace-mastery-step__title">{step.title}</div>
             </div>
           )
         }
@@ -106,10 +106,10 @@ export function TopicMasteryPath({
             to={`/quiz/topic/${topicId}/${step.difficulty}`}
             className={cls}
           >
-            <div className="enlight-mastery-step__label">{step.label}</div>
-            <div className="enlight-mastery-step__title">{step.title}</div>
+            <div className="ace-mastery-step__label">{step.label}</div>
+            <div className="ace-mastery-step__title">{step.title}</div>
             {score !== undefined && (
-              <div className="enlight-mastery-step__score">{Math.min(100, score)}%</div>
+              <div className="ace-mastery-step__score">{Math.min(100, score)}%</div>
             )}
           </Link>
         )

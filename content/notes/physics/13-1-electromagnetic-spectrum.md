@@ -36,7 +36,7 @@ In 1800, Herschel used a prism and thermometers. A thermometer beyond the red en
 
 - Frequency increases from radio → gamma; wavelength decreases in the same direction.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
       <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
       <rect x="120" y="30" width="50" height="30" fill="#fef08a"/><rect x="170" y="30" width="80" height="30" fill="#bbf7d0"/>
       <rect x="250" y="30" width="50" height="30" fill="#bfdbfe"/><rect x="300" y="30" width="50" height="30" fill="#ddd6fe"/>
@@ -45,7 +45,7 @@ In 1800, Herschel used a prism and thermometers. A thermometer beyond the red en
       <text x="210" y="50" text-anchor="middle" font-size="8" fill="#334155">visible</text>
       <text x="385" y="50" text-anchor="middle" font-size="8" fill="#334155">gamma</text>
       <text x="220" y="20" text-anchor="middle" font-size="11" fill="#334155">increasing frequency →</text>
-    </svg><p class="enlight-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
 
 ## Examiner tip
 

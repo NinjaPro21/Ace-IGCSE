@@ -48,7 +48,7 @@ Used when an object appears shallower when viewed through water or glass.
 
 - Ray bends toward the normal when entering a denser medium (slower speed).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Refraction of light">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Refraction of light">
       <rect x="40" y="120" width="240" height="60" fill="#dbeafe" opacity="0.6"/>
       <line x1="40" y1="120" x2="280" y2="120" stroke="#64748b" stroke-width="2"/>
       <line x1="160" y1="120" x2="160" y2="30" stroke="#94a3b8" stroke-dasharray="4 3"/>
@@ -56,7 +56,7 @@ Used when an object appears shallower when viewed through water or glass.
       <line x1="160" y1="120" x2="195" y2="175" stroke="#2563eb" stroke-width="2.5"/>
       <text x="120" y="70" font-size="10" fill="#f59e0b">air</text>
       <text x="200" y="155" font-size="10" fill="#2563eb">glass</text>
-    </svg><p class="enlight-physics-diagram__caption">Refraction — ray bends towards the normal when entering a denser medium (slower speed).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Refraction — ray bends towards the normal when entering a denser medium (slower speed).</p></div>
 
 ## Worked example — Speed of light in glass
 

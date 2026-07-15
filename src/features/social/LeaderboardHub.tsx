@@ -147,10 +147,10 @@ export function LeaderboardHub() {
     : 'School / Clan'
 
   return (
-    <section className="enlight-social-section enlight-lb-panel">
-      <div className="enlight-social-section__header">
-        <h2 className="enlight-heading-serif">Rankings</h2>
-        <span className="enlight-social-section__meta">
+    <section className="ace-social-section ace-lb-panel">
+      <div className="ace-social-section__header">
+        <h2 className="ace-heading-serif">Rankings</h2>
+        <span className="ace-social-section__meta">
           {metric === 'xp' ? periodLabel(period) : 'All time'}
         </span>
       </div>
@@ -168,12 +168,12 @@ export function LeaderboardHub() {
       />
 
       {scope === 'group' && groups.length > 1 && (
-        <div className="enlight-lb-group-picker">
+        <div className="ace-lb-group-picker">
           {groups.map((g) => (
             <button
               key={g.id}
               type="button"
-              className={`enlight-lb-group-picker__btn${g.id === activeGroup?.id ? ' enlight-lb-group-picker__btn--active' : ''}`}
+              className={`ace-lb-group-picker__btn${g.id === activeGroup?.id ? ' ace-lb-group-picker__btn--active' : ''}`}
               onClick={() => void setLeaderboardGroup(g.id, g.type)}
             >
               {g.name}
@@ -194,13 +194,13 @@ export function LeaderboardHub() {
       )}
 
       {loading ? (
-        <p className="enlight-body-text">Loading rankings…</p>
+        <p className="ace-body-text">Loading rankings…</p>
       ) : scope === 'group' && groups.length === 0 ? (
-        <div className="enlight-leaderboard-placeholder">
-          <span className="enlight-leaderboard-placeholder__icon" aria-hidden>S</span>
+        <div className="ace-leaderboard-placeholder">
+          <span className="ace-leaderboard-placeholder__icon" aria-hidden>S</span>
           <div>
             <strong>Join a school or study group to compete</strong>
-            <p className="enlight-body-text" style={{ margin: '4px 0 0' }}>
+            <p className="ace-body-text" style={{ margin: '4px 0 0' }}>
               Scroll down to pick your school or join a study group.
             </p>
           </div>
@@ -240,10 +240,10 @@ export function GlobalLeaderboardPanel() {
   }, [user?.id, metric, period])
 
   return (
-    <section className="enlight-social-section enlight-lb-panel enlight-lb-panel--global">
-      <div className="enlight-social-section__header">
-        <h2 className="enlight-heading-serif">Hall of fame</h2>
-        <span className="enlight-social-section__meta">Top 5 podium · {metric === 'xp' ? periodLabel(period) : 'All time'}</span>
+    <section className="ace-social-section ace-lb-panel ace-lb-panel--global">
+      <div className="ace-social-section__header">
+        <h2 className="ace-heading-serif">Hall of fame</h2>
+        <span className="ace-social-section__meta">Top 5 podium · {metric === 'xp' ? periodLabel(period) : 'All time'}</span>
       </div>
 
       <LeaderboardFilters
@@ -273,7 +273,7 @@ export function GlobalLeaderboardPanel() {
       )}
 
       {loading ? (
-        <p className="enlight-body-text">Loading rankings…</p>
+        <p className="ace-body-text">Loading rankings…</p>
       ) : (
         <LeaderboardBoard
           entries={result?.top ?? []}

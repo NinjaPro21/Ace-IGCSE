@@ -38,20 +38,20 @@ export function OnboardingModal() {
   }
 
   return (
-    <div className="enlight-popout-overlay" role="dialog" aria-modal="true">
-      <div className="enlight-popout enlight-popout--card enlight-onboarding">
+    <div className="ace-popout-overlay" role="dialog" aria-modal="true">
+      <div className="ace-popout ace-popout--card ace-onboarding">
         {step === 0 && (
           <>
-            <h2 className="enlight-heading-serif">Welcome to AceIGCSE</h2>
-            <p className="enlight-body-text">Pick a display name for leaderboards and friend lists.</p>
+            <h2 className="ace-heading-serif">Welcome to AceIGCSE</h2>
+            <p className="ace-body-text">Pick a display name for leaderboards and friend lists.</p>
             <input
-              className="enlight-profile-form__input"
+              className="ace-profile-form__input"
               value={name}
               maxLength={24}
               onChange={(e) => setName(e.target.value)}
               placeholder="Display name"
             />
-            <div className="enlight-popout__actions">
+            <div className="ace-popout__actions">
               <EnlightButton onClick={() => setStep(1)}>Next</EnlightButton>
               <EnlightButton variant="outline" onClick={finish}>Skip</EnlightButton>
             </div>
@@ -59,11 +59,11 @@ export function OnboardingModal() {
         )}
         {step === 1 && (
           <>
-            <h2 className="enlight-heading-serif">Your subjects</h2>
-            <p className="enlight-body-text">Which IGCSE subjects are you studying?</p>
-            <div className="enlight-onboarding__subjects">
+            <h2 className="ace-heading-serif">Your subjects</h2>
+            <p className="ace-body-text">Which IGCSE subjects are you studying?</p>
+            <div className="ace-onboarding__subjects">
               {subjects.map((s) => (
-                <label key={s.id} className="enlight-onboarding__subject">
+                <label key={s.id} className="ace-onboarding__subject">
                   <input
                     type="checkbox"
                     checked={selectedSubjects.includes(s.id)}
@@ -77,7 +77,7 @@ export function OnboardingModal() {
                 </label>
               ))}
             </div>
-            <div className="enlight-popout__actions">
+            <div className="ace-popout__actions">
               <EnlightButton onClick={() => setStep(2)}>Next</EnlightButton>
               <EnlightButton variant="outline" onClick={() => setStep(0)}>Back</EnlightButton>
             </div>
@@ -85,24 +85,24 @@ export function OnboardingModal() {
         )}
         {step === 2 && (
           <>
-            <h2 className="enlight-heading-serif">Daily study goal</h2>
-            <p className="enlight-body-text">How many minutes do you want to study each day?</p>
-            <div className="enlight-onboarding__goals">
+            <h2 className="ace-heading-serif">Daily study goal</h2>
+            <p className="ace-body-text">How many minutes do you want to study each day?</p>
+            <div className="ace-onboarding__goals">
               {GOALS.map((g) => (
                 <button
                   key={g}
                   type="button"
-                  className={`enlight-group-tab${goal === g ? ' enlight-group-tab--active' : ''}`}
+                  className={`ace-group-tab${goal === g ? ' ace-group-tab--active' : ''}`}
                   onClick={() => setGoal(g)}
                 >
                   {formatGoalLabel(g)}
                 </button>
               ))}
             </div>
-            <div className="enlight-popout__actions">
+            <div className="ace-popout__actions">
               <EnlightButton onClick={finish}>Continue →</EnlightButton>
             </div>
-            <p className="enlight-body-text" style={{ marginTop: 12, fontSize: '0.85rem' }}>
+            <p className="ace-body-text" style={{ marginTop: 12, fontSize: '0.85rem' }}>
               Next: a quick tour of the dashboard, subjects, and social hub.
             </p>
           </>

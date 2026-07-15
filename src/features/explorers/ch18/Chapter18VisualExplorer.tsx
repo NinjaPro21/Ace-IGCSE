@@ -132,18 +132,18 @@ export function Chapter18VisualExplorer({
 
   return (
     <section
-      className={`enlight-em-3d-explorer${compact ? ' enlight-em-3d-explorer--compact' : ''}${hero ? ' enlight-em-3d-explorer--hero' : ''}`}
+      className={`ace-em-3d-explorer${compact ? ' ace-em-3d-explorer--compact' : ''}${hero ? ' ace-em-3d-explorer--hero' : ''}`}
     >
-      {!compact ? <h2 className="enlight-explorer__title">Interactive 3D — {meta.title}</h2> : null}
-      <h3 className="enlight-em-3d-explorer__scene-title">{meta.title}</h3>
+      {!compact ? <h2 className="ace-explorer__title">Interactive 3D — {meta.title}</h2> : null}
+      <h3 className="ace-em-3d-explorer__scene-title">{meta.title}</h3>
 
       {meta.hasStage ? (
-        <div className="enlight-em-3d-explorer__controls" role="group" aria-label="Experiment stage">
+        <div className="ace-em-3d-explorer__controls" role="group" aria-label="Experiment stage">
           {stageLabels.map((label, i) => (
             <button
               key={label}
               type="button"
-              className={`enlight-em-3d-explorer__btn${stage === i ? ' enlight-em-3d-explorer__btn--active' : ''}`}
+              className={`ace-em-3d-explorer__btn${stage === i ? ' ace-em-3d-explorer__btn--active' : ''}`}
               onClick={() => setStage(i)}
             >
               {i + 1}. {label}
@@ -153,8 +153,8 @@ export function Chapter18VisualExplorer({
       ) : null}
 
       {meta.hasAnim ? (
-        <div className="enlight-em-3d-explorer__controls enlight-em-3d-explorer__controls--row">
-          <label className="enlight-em-3d-explorer__slider-label">
+        <div className="ace-em-3d-explorer__controls ace-em-3d-explorer__controls--row">
+          <label className="ace-em-3d-explorer__slider-label">
             Angle
             <input
               type="range"
@@ -169,7 +169,7 @@ export function Chapter18VisualExplorer({
           </label>
           <button
             type="button"
-            className={`enlight-em-3d-explorer__btn${playing ? ' enlight-em-3d-explorer__btn--active' : ''}`}
+            className={`ace-em-3d-explorer__btn${playing ? ' ace-em-3d-explorer__btn--active' : ''}`}
             onClick={() => setPlaying((p) => !p)}
           >
             {playing ? 'Pause' : 'Play'}
@@ -178,17 +178,17 @@ export function Chapter18VisualExplorer({
       ) : null}
 
       {meta.hasToggle ? (
-        <div className="enlight-em-3d-explorer__controls">
+        <div className="ace-em-3d-explorer__controls">
           <button
             type="button"
-            className={`enlight-em-3d-explorer__btn${stepUp ? ' enlight-em-3d-explorer__btn--active' : ''}`}
+            className={`ace-em-3d-explorer__btn${stepUp ? ' ace-em-3d-explorer__btn--active' : ''}`}
             onClick={() => setStepUp(true)}
           >
             Step-up
           </button>
           <button
             type="button"
-            className={`enlight-em-3d-explorer__btn${!stepUp ? ' enlight-em-3d-explorer__btn--active' : ''}`}
+            className={`ace-em-3d-explorer__btn${!stepUp ? ' ace-em-3d-explorer__btn--active' : ''}`}
             onClick={() => setStepUp(false)}
           >
             Step-down
@@ -197,10 +197,10 @@ export function Chapter18VisualExplorer({
       ) : null}
 
       {meta.hasFlip ? (
-        <div className="enlight-em-3d-explorer__controls">
+        <div className="ace-em-3d-explorer__controls">
           <button
             type="button"
-            className={`enlight-em-3d-explorer__btn${flipped ? ' enlight-em-3d-explorer__btn--active' : ''}`}
+            className={`ace-em-3d-explorer__btn${flipped ? ' ace-em-3d-explorer__btn--active' : ''}`}
             onClick={() => setFlipped((f) => !f)}
           >
             {flipped ? 'Flip view (on)' : 'Flip view'}
@@ -209,7 +209,7 @@ export function Chapter18VisualExplorer({
       ) : null}
 
       <div
-        className={`enlight-em-3d-explorer__viewport${isFlatCanvas ? ' enlight-em-3d-explorer__viewport--2d' : ''}`}
+        className={`ace-em-3d-explorer__viewport${isFlatCanvas ? ' ace-em-3d-explorer__viewport--2d' : ''}`}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
@@ -217,11 +217,11 @@ export function Chapter18VisualExplorer({
         role="img"
         aria-label={`Interactive diagram: ${meta.title}`}
       >
-        <div className={`enlight-em-3d-explorer__stage${hero ? ' enlight-em-3d-explorer__stage--hero' : ''}`}>
-          <div className="enlight-em-3d-explorer__zoom" role="group" aria-label="Zoom" onPointerDown={(e) => e.stopPropagation()}>
+        <div className={`ace-em-3d-explorer__stage${hero ? ' ace-em-3d-explorer__stage--hero' : ''}`}>
+          <div className="ace-em-3d-explorer__zoom" role="group" aria-label="Zoom" onPointerDown={(e) => e.stopPropagation()}>
             <button
               type="button"
-              className="enlight-em-3d-explorer__zoom-btn"
+              className="ace-em-3d-explorer__zoom-btn"
               aria-label="Zoom out"
               disabled={zoomScale <= 0.75}
               onClick={(e) => {
@@ -231,10 +231,10 @@ export function Chapter18VisualExplorer({
             >
               −
             </button>
-            <span className="enlight-em-3d-explorer__zoom-label">{Math.round(zoomScale * 100)}%</span>
+            <span className="ace-em-3d-explorer__zoom-label">{Math.round(zoomScale * 100)}%</span>
             <button
               type="button"
-              className="enlight-em-3d-explorer__zoom-btn"
+              className="ace-em-3d-explorer__zoom-btn"
               aria-label="Zoom in"
               disabled={zoomScale >= 2.5}
               onClick={(e) => {
@@ -247,7 +247,7 @@ export function Chapter18VisualExplorer({
             {zoomScale !== 1 ? (
               <button
                 type="button"
-                className="enlight-em-3d-explorer__zoom-reset"
+                className="ace-em-3d-explorer__zoom-reset"
                 onClick={(e) => {
                   e.stopPropagation()
                   setZoomScale(1)
@@ -257,12 +257,12 @@ export function Chapter18VisualExplorer({
               </button>
             ) : null}
           </div>
-          <canvas ref={canvasRef} className="enlight-em-3d-explorer__canvas" />
-          <div className="enlight-fleming-3d__labels" aria-hidden="true">
+          <canvas ref={canvasRef} className="ace-em-3d-explorer__canvas" />
+          <div className="ace-fleming-3d__labels" aria-hidden="true">
             {labels.map((lb) => (
               <div
                 key={lb.key}
-                className="enlight-fleming-3d__label"
+                className="ace-fleming-3d__label"
                 style={{
                   left: lb.sx,
                   top: lb.sy,
@@ -276,10 +276,10 @@ export function Chapter18VisualExplorer({
             ))}
           </div>
         </div>
-        <p className="enlight-fleming-3d__hint">{meta.hint}</p>
+        <p className="ace-fleming-3d__hint">{meta.hint}</p>
       </div>
 
-      <p className="enlight-fleming-3d__caption">{meta.caption}</p>
+      <p className="ace-fleming-3d__caption">{meta.caption}</p>
     </section>
   )
 }

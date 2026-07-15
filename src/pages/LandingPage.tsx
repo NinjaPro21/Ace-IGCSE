@@ -54,23 +54,23 @@ export function LandingPage() {
   const continueStudying = getContinueStudying(progress)
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
 
       {/* Hero */}
-      <section className="enlight-hero enlight-hero--enhanced enlight-container">
-        <div className="enlight-hero__dot-grid" aria-hidden="true" />
+      <section className="ace-hero ace-hero--enhanced ace-container">
+        <div className="ace-hero__dot-grid" aria-hidden="true" />
         <EnlightSectionLabel>IGCSE · CIE · Add Maths · Maths · Physics</EnlightSectionLabel>
-        <h2 className="enlight-hero-title">
+        <h2 className="ace-hero-title">
           Master IGCSE with clarity,
           <br />
           not cramming.
         </h2>
-        <p className="enlight-hero-sub">
+        <p className="ace-hero-sub">
           Interactive graphs, compressed exam-ready cards, and examiner tips — so you stop memorising
           and start understanding.
         </p>
-        <div className="enlight-hero__actions">
+        <div className="ace-hero__actions">
           {continueStudying ? (
             <EnlightButton to={continueStudying.topicPath}>
               Continue: {continueStudying.topicTitle} →
@@ -82,74 +82,74 @@ export function LandingPage() {
             {user ? 'Dashboard' : 'Browse subjects'}
           </EnlightButton>
         </div>
-        <p className="enlight-hero__micro">
+        <p className="ace-hero__micro">
           Browse subjects free — sign in with Google to track XP, streaks, and leaderboards.
         </p>
       </section>
 
       {/* Stats bar */}
-      <div className="enlight-stats-bar">
-        <div className="enlight-stats-bar__inner enlight-container">
+      <div className="ace-stats-bar">
+        <div className="ace-stats-bar__inner ace-container">
           {STATS.map((s) => (
-            <div key={s.label} className="enlight-stats-bar__item">
-              <span className="enlight-stats-bar__value">{s.value}</span>
-              <span className="enlight-stats-bar__label">{s.label}</span>
+            <div key={s.label} className="ace-stats-bar__item">
+              <span className="ace-stats-bar__value">{s.value}</span>
+              <span className="ace-stats-bar__label">{s.label}</span>
             </div>
           ))}
         </div>
       </div>
 
       {/* How it works */}
-      <section className="enlight-container enlight-section-gap">
+      <section className="ace-container ace-section-gap">
         <EnlightSectionLabel>How it works</EnlightSectionLabel>
-        <h2 className="enlight-heading-serif">Three steps to exam confidence.</h2>
-        <div className="enlight-how-grid">
+        <h2 className="ace-heading-serif">Three steps to exam confidence.</h2>
+        <div className="ace-how-grid">
           {HOW_IT_WORKS.map((item, i) => (
-            <div key={item.step} className="enlight-how-card">
-              <div className="enlight-how-card__step">{item.step}</div>
+            <div key={item.step} className="ace-how-card">
+              <div className="ace-how-card__step">{item.step}</div>
               {i < HOW_IT_WORKS.length - 1 && (
-                <div className="enlight-how-card__connector" aria-hidden="true" />
+                <div className="ace-how-card__connector" aria-hidden="true" />
               )}
-              <h3 className="enlight-how-card__title">{item.title}</h3>
-              <p className="enlight-body-text">{item.body}</p>
+              <h3 className="ace-how-card__title">{item.title}</h3>
+              <p className="ace-body-text">{item.body}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Features */}
-      <section className="enlight-container enlight-section-gap">
+      <section className="ace-container ace-section-gap">
         <EnlightSectionLabel>Why we&apos;re different</EnlightSectionLabel>
-        <h2 className="enlight-heading-serif">Built for students who want to understand, not just pass.</h2>
-        <p className="enlight-body-text">Most revision resources give you walls of text. We give you tools.</p>
-        <div className="enlight-feature-grid">
+        <h2 className="ace-heading-serif">Built for students who want to understand, not just pass.</h2>
+        <p className="ace-body-text">Most revision resources give you walls of text. We give you tools.</p>
+        <div className="ace-feature-grid">
           {FEATURES.map((f) => (
             <EnlightCard key={f.title}>
-              <div className="enlight-feature-card__icon">{f.icon}</div>
-              <h3 className="enlight-feature-card__title">{f.title}</h3>
-              <p className="enlight-body-text">{f.body}</p>
+              <div className="ace-feature-card__icon">{f.icon}</div>
+              <h3 className="ace-feature-card__title">{f.title}</h3>
+              <p className="ace-body-text">{f.body}</p>
             </EnlightCard>
           ))}
         </div>
       </section>
 
       {/* CTA strip */}
-      <section className="enlight-cta-strip">
-        <div className="enlight-container enlight-cta-strip__inner">
+      <section className="ace-cta-strip">
+        <div className="ace-container ace-cta-strip__inner">
           <div>
-            <h2 className="enlight-cta-strip__title">Ready to start?</h2>
-            <p className="enlight-cta-strip__sub">
+            <h2 className="ace-cta-strip__title">Ready to start?</h2>
+            <p className="ace-cta-strip__sub">
               Study compressed notes, earn XP from real study time, and climb your class leaderboard.
             </p>
           </div>
-          <div className="enlight-cta-strip__actions">
+          <div className="ace-cta-strip__actions">
             <EnlightButton to="/subjects/add-maths-0606">Browse Add Maths →</EnlightButton>
             <EnlightButton to="/progress" variant="outline">Your progress</EnlightButton>
           </div>
         </div>
       </section>
 
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE. All rights reserved.</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE. All rights reserved.</footer>
     </div>
   )
 }

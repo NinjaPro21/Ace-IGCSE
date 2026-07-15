@@ -81,17 +81,17 @@ export function LogEvaluateQuizExplorer() {
 
   if (done) {
     return (
-      <section className="enlight-explorer">
-        <h2 className="enlight-explorer__title">Log Evaluation Practice</h2>
-        <div className="enlight-discriminant-display" style={{ marginTop: 8 }}>
-          <div className="enlight-discriminant-display__value">
+      <section className="ace-explorer">
+        <h2 className="ace-explorer__title">Log Evaluation Practice</h2>
+        <div className="ace-discriminant-display" style={{ marginTop: 8 }}>
+          <div className="ace-discriminant-display__value">
             {score} / {order.length} correct
           </div>
-          <div className="enlight-discriminant-display__label">
+          <div className="ace-discriminant-display__label">
             Think: what power raises the base to the argument?
           </div>
         </div>
-        <button type="button" className="enlight-fn-tabs__btn enlight-fn-tabs__btn--active" style={{ marginTop: 16 }} onClick={restart}>
+        <button type="button" className="ace-fn-tabs__btn ace-fn-tabs__btn--active" style={{ marginTop: 16 }} onClick={restart}>
           Try again
         </button>
       </section>
@@ -101,30 +101,30 @@ export function LogEvaluateQuizExplorer() {
   if (!q) return null
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Log Evaluation Practice</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Log Evaluation Practice</h2>
+      <p className="ace-body-text" style={{ marginBottom: 14 }}>
         Evaluate each logarithm — think: what power raises the base to the argument?{' '}
         <MathText content="$2^{?} = 8 \\Rightarrow \\log_2 8 = 3$" />
       </p>
 
-      <div className="enlight-discriminant-display">
-        <div className="enlight-discriminant-display__label">
+      <div className="ace-discriminant-display">
+        <div className="ace-discriminant-display__label">
           Question {index + 1} of {order.length}
         </div>
-        <div className="enlight-discriminant-display__value" style={{ fontSize: '1.35rem' }}>
+        <div className="ace-discriminant-display__value" style={{ fontSize: '1.35rem' }}>
           <MathText content={`$\\log_{${q.base}}(${q.argument}) = \\;?$`} block />
         </div>
       </div>
 
-      <div className="enlight-log-quiz__options" role="listbox" aria-label="Answer choices">
+      <div className="ace-log-quiz__options" role="listbox" aria-label="Answer choices">
         {options.map((opt) => {
           const isSelected = selected === opt.value
           const isCorrect = opt.value === q.answer
-          let cls = 'enlight-log-quiz__opt'
-          if (answered && isCorrect) cls += ' enlight-log-quiz__opt--correct'
-          else if (answered && isSelected && !isCorrect) cls += ' enlight-log-quiz__opt--wrong'
-          else if (!answered) cls += ' enlight-log-quiz__opt--idle'
+          let cls = 'ace-log-quiz__opt'
+          if (answered && isCorrect) cls += ' ace-log-quiz__opt--correct'
+          else if (answered && isSelected && !isCorrect) cls += ' ace-log-quiz__opt--wrong'
+          else if (!answered) cls += ' ace-log-quiz__opt--idle'
 
           return (
             <button
@@ -142,13 +142,13 @@ export function LogEvaluateQuizExplorer() {
 
       {answered && (
         <div style={{ marginTop: 14 }}>
-          <p className="enlight-body-text" style={{ marginBottom: 10 }}>
+          <p className="ace-body-text" style={{ marginBottom: 10 }}>
             {correct ? 'Correct!' : 'Not quite.'}{' '}
             <MathText
               content={`$\\log_{${q.base}}(${q.argument}) = ${q.answer}$ because $${q.base}^{${q.answer}} = ${q.argument}$.`}
             />
           </p>
-          <button type="button" className="enlight-fn-tabs__btn enlight-fn-tabs__btn--active" onClick={next}>
+          <button type="button" className="ace-fn-tabs__btn ace-fn-tabs__btn--active" onClick={next}>
             {index >= order.length - 1 ? 'See score' : 'Next question →'}
           </button>
         </div>

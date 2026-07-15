@@ -14,11 +14,11 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Percentage pie chart">
+<div class="ace-physics-diagram"><svg viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Percentage pie chart">
       <circle cx="100" cy="100" r="70" fill="#fdfbf7" stroke="#e8e2d8"/>
       <path d="M100 100 L100 30 A70 70 0 0 1 170 100 Z" fill="#5b8def" opacity="0.8"/>
       <text x="130" y="70" font-size="11" fill="#1a1a1a">25%</text>
-    </svg><p class="enlight-physics-diagram__caption">Percentages — slice size shows proportion of the whole; 25% = quarter of the circle.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Percentages — slice size shows proportion of the whole; 25% = quarter of the circle.</p></div>
 
 ## Steps / method
 

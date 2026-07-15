@@ -1,6 +1,6 @@
-const USAGE_KEY_PREFIX = 'enlight-usage-ms'
-const SKIP_KEY_PREFIX = 'enlight-review-skipped-at'
-const SUBMITTED_KEY_PREFIX = 'enlight-review-submitted'
+const USAGE_KEY_PREFIX = 'ace-usage-ms'
+const SKIP_KEY_PREFIX = 'ace-review-skipped-at'
+const SUBMITTED_KEY_PREFIX = 'ace-review-submitted'
 
 export const FIRST_REVIEW_PROMPT_MS = 60 * 60 * 1000
 export const REVIEW_SKIP_RETRY_MS = 30 * 60 * 1000

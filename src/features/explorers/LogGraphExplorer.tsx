@@ -63,18 +63,18 @@ export function LogGraphExplorer() {
   const eq = `y = ${fmtCoeff(a)}log${base === 10 ? '' : base === Math.E ? 'e' : base}(${hPart})${kPart}`
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Logarithm Graph Explorer</h2>
-      <div className="enlight-explorer__layout">
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Logarithm Graph Explorer</h2>
+      <div className="ace-explorer__layout">
         <div>
-          <p className="enlight-body-text" style={{ marginBottom: 14 }}>
+          <p className="ace-body-text" style={{ marginBottom: 14 }}>
             Adjust the base and transformations to see how the log graph shifts and stretches.
           </p>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="l-base">
               <strong>base</strong> = {base}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — changes steepness</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — changes steepness</span>
             </label>
             <input
               id="l-base"
@@ -87,10 +87,10 @@ export function LogGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="l-a">
               <strong>a</strong> = {a}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — vertical stretch / flip</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — vertical stretch / flip</span>
             </label>
             <input
               id="l-a"
@@ -103,10 +103,10 @@ export function LogGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="l-h">
               <strong>h</strong> = {h}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — horizontal shift</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — horizontal shift</span>
             </label>
             <input
               id="l-h"
@@ -119,10 +119,10 @@ export function LogGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="l-k">
               <strong>k</strong> = {k}
-              <span style={{ fontWeight: 400, color: 'var(--enlight-text-light)', fontSize: '0.78rem' }}> — vertical shift</span>
+              <span style={{ fontWeight: 400, color: 'var(--ace-text-light)', fontSize: '0.78rem' }}> — vertical shift</span>
             </label>
             <input
               id="l-k"
@@ -135,24 +135,24 @@ export function LogGraphExplorer() {
             />
           </div>
 
-          <div className="enlight-discriminant-display" style={{ marginTop: 14 }}>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '0.9rem', letterSpacing: '-0.01em' }}>
+          <div className="ace-discriminant-display" style={{ marginTop: 14 }}>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '0.9rem', letterSpacing: '-0.01em' }}>
               {eq}
             </div>
-            <div className="enlight-discriminant-display__label">
+            <div className="ace-discriminant-display__label">
               Asymptote: x = {asymptoteX} &nbsp;·&nbsp; Domain: x &gt; {asymptoteX}
             </div>
           </div>
 
           {xIntercept !== null && (
-            <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)', marginTop: 8 }}>
-              <strong style={{ color: 'var(--enlight-text)' }}>x-intercept:</strong> x ≈ {xIntercept.toFixed(3)}
+            <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)', marginTop: 8 }}>
+              <strong style={{ color: 'var(--ace-text)' }}>x-intercept:</strong> x ≈ {xIntercept.toFixed(3)}
             </div>
           )}
         </div>
 
         <svg
-          className="enlight-graph-canvas"
+          className="ace-graph-canvas"
           viewBox={`0 0 ${W} ${H}`}
           role="img"
           aria-label="Interactive logarithm graph"

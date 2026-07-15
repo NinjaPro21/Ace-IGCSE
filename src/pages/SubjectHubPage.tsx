@@ -79,9 +79,9 @@ export function SubjectHubPage() {
 
   if (!subject) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-container enlight-page-padding">
+        <div className="ace-container ace-page-padding">
           <p>Subject not found.</p>
         </div>
       </div>
@@ -89,19 +89,19 @@ export function SubjectHubPage() {
   }
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
-      <div className="enlight-gradient-bar" />
-      <div className="enlight-container enlight-page-padding">
-        <Link to="/subjects" className="enlight-progress-back">
+      <div className="ace-gradient-bar" />
+      <div className="ace-container ace-page-padding">
+        <Link to="/subjects" className="ace-progress-back">
           ← All subjects
         </Link>
 
         <EnlightSectionLabel>{subject.syllabus}</EnlightSectionLabel>
-        <h1 className="enlight-heading-serif">{subject.name}</h1>
-        <p className="enlight-body-text enlight-subject-hub__intro">{subject.description}</p>
+        <h1 className="ace-heading-serif">{subject.name}</h1>
+        <p className="ace-body-text ace-subject-hub__intro">{subject.description}</p>
 
-        <div className="enlight-subject-hub__gateways">
+        <div className="ace-subject-hub__gateways">
           <ProgressGatewayCard
             to={continueTarget.to}
             icon="C"
@@ -128,25 +128,25 @@ export function SubjectHubPage() {
           />
         </div>
 
-        <h2 id="chapters" className="enlight-heading-serif enlight-subject-hub__chapters-title">
+        <h2 id="chapters" className="ace-heading-serif ace-subject-hub__chapters-title">
           Chapters
         </h2>
-        <div className="enlight-legend">
-          <span className="enlight-legend__item">
-            <span className="enlight-legend__dot enlight-legend__dot--sage" />
+        <div className="ace-legend">
+          <span className="ace-legend__item">
+            <span className="ace-legend__dot ace-legend__dot--sage" />
             Not started
           </span>
-          <span className="enlight-legend__item">
-            <span className="enlight-legend__dot enlight-legend__dot--blue" />
+          <span className="ace-legend__item">
+            <span className="ace-legend__dot ace-legend__dot--blue" />
             In progress
           </span>
-          <span className="enlight-legend__item">
-            <span className="enlight-legend__dot enlight-legend__dot--gold" />
+          <span className="ace-legend__item">
+            <span className="ace-legend__dot ace-legend__dot--gold" />
             Mastered
           </span>
         </div>
 
-        <div className="enlight-chapter-grid">
+        <div className="ace-chapter-grid">
           {chapters.map((ch) => {
             const quizLevel = getChapterQuizLevel(ch.id)
             return (
@@ -160,7 +160,7 @@ export function SubjectHubPage() {
           })}
         </div>
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

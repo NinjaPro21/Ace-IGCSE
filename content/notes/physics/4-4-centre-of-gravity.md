@@ -31,7 +31,7 @@ This occurs when an object is supported directly at its centre of gravity.
 - **Regular shapes**: For uniform objects like circles, rectangles, or spheres, the CG is at the geometrical centre.
 - **Outside the object**: The CG does not have to be inside the material. For a ring, the CG is at the centre of the hole.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Centre of gravity and stability">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Centre of gravity and stability">
       <rect x="40" y="110" width="120" height="12" fill="#64748b"/>
       <rect x="70" y="70" width="60" height="40" fill="#dbeafe" stroke="#2563eb"/>
       <circle cx="100" cy="90" r="4" fill="#dc2626"/>
@@ -43,7 +43,7 @@ This occurs when an object is supported directly at its centre of gravity.
       <circle cx="352" cy="68" r="4" fill="#dc2626"/>
       <line x1="352" y1="72" x2="370" y2="122" stroke="#dc2626" stroke-width="1.5"/>
       <text x="320" y="145" text-anchor="middle" font-size="10" fill="#334155">unstable (topples)</text>
-    </svg><p class="enlight-physics-diagram__caption">Stability — stable: CG rises when tilted (weight line stays inside base); unstable: CG drops and weight line falls outside base.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Stability — stable: CG rises when tilted (weight line stays inside base); unstable: CG drops and weight line falls outside base.</p></div>
 
 **Types of equilibrium**
 

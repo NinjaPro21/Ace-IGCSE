@@ -26,7 +26,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
 - $\beta$ passes through paper but is stopped by 3–5 mm of aluminium.
 - $\gamma$ passes through both but is significantly reduced by several cm of lead or thick concrete.
 
-<div class="enlight-physics-diagram enlight-physics-diagram--hero"><svg viewBox="0 0 520 220" width="520" height="220" role="img" aria-label="Penetration of alpha beta and gamma radiation">
+<div class="ace-physics-diagram ace-physics-diagram--hero"><svg viewBox="0 0 520 220" width="520" height="220" role="img" aria-label="Penetration of alpha beta and gamma radiation">
       <defs>
         <marker id="pen-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
         <marker id="pen-stop" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M2,2 L8,8 M8,2 L2,8" stroke="#dc2626" stroke-width="2" fill="none"/></marker>
@@ -53,7 +53,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
       <text x="371" y="202" text-anchor="middle" font-size="9" fill="#64748b">lead</text>
       <line x1="382" y1="168" x2="500" y2="168" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 4" opacity="0.55"/>
       <text x="430" y="158" font-size="8" fill="#7c3aed">reduced</text>
-    </svg><p class="enlight-physics-diagram__caption">Penetrating power — α stopped by paper; β by a few mm of aluminium; γ reduced by thick lead or concrete.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Penetrating power — α stopped by paper; β by a few mm of aluminium; γ reduced by thick lead or concrete.</p></div>
 
 **Electric field deflection**
 
@@ -61,7 +61,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
 - $\beta$-particles deflect more than $\alpha$-particles because they have a much smaller mass.
 - $\gamma$-rays carry no charge and travel straight through.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 200" width="480" height="200" role="img" aria-label="Electric field deflection of alpha and beta">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 200" width="480" height="200" role="img" aria-label="Electric field deflection of alpha and beta">
       <rect x="60" y="28" width="360" height="8" rx="2" fill="#fecaca" stroke="#dc2626"/>
       <text x="240" y="24" text-anchor="middle" font-size="10" fill="#dc2626" font-weight="600">+ plate</text>
       <rect x="60" y="164" width="360" height="8" rx="2" fill="#bfdbfe" stroke="#2563eb"/>
@@ -75,7 +75,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
       <line x1="80" y1="100" x2="420" y2="100" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.7"/>
       <text x="430" y="104" font-size="9" fill="#7c3aed">γ</text>
       <defs><marker id="ef-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Electric field — charged α and β curve toward opposite plates; γ (uncharged) is undeflected.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Electric field — charged α and β curve toward opposite plates; γ (uncharged) is undeflected.</p></div>
 
 **Magnetic field deflection**
 
@@ -83,7 +83,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
 - Use Fleming's Left-Hand Rule: for $\beta$ (an electron), the conventional current is opposite to its motion.
 - $\beta$ has a much sharper curve than $\alpha$ because it is far less massive.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Magnetic field deflection of alpha and beta">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Magnetic field deflection of alpha and beta">
       <text x="240" y="22" text-anchor="middle" font-size="11" fill="#334155" font-weight="700">B into page ⊗</text>
       <circle cx="90" cy="70" r="3" fill="#64748b"/><circle cx="130" cy="55" r="3" fill="#64748b"/><circle cx="170" cy="80" r="3" fill="#64748b"/>
       <circle cx="210" cy="60" r="3" fill="#64748b"/><circle cx="250" cy="85" r="3" fill="#64748b"/><circle cx="290" cy="65" r="3" fill="#64748b"/>
@@ -99,7 +99,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
       <line x1="70" y1="110" x2="420" y2="110" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.65"/>
       <text x="430" y="114" font-size="9" fill="#7c3aed">γ</text>
       <defs><marker id="mf-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Magnetic field — α and β curve in opposite directions; β deflects more; γ is undeflected.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Magnetic field — α and β curve in opposite directions; β deflects more; γ is undeflected.</p></div>
 
 **Emission types at a glance**
 
@@ -107,7 +107,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
 - **Beta**: neutron → proton + electron; proton number increases by 1.
 - **Gamma**: excess energy released; no change in proton number.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 130" width="440" height="130" role="img" aria-label="Types of nuclear emission">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 130" width="440" height="130" role="img" aria-label="Types of nuclear emission">
       <circle cx="75" cy="65" r="30" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
       <text x="75" y="60" text-anchor="middle" font-size="10" fill="#1e3a8a" font-weight="600">parent</text>
       <text x="75" y="74" text-anchor="middle" font-size="8" fill="#64748b">nucleus</text>
@@ -119,7 +119,7 @@ Whether it is a smoke detector in your hallway or a scanner in a hospital, nucle
       <text x="280" y="68" font-size="10" fill="#2563eb" font-weight="600">β: Z + 1, A unchanged</text>
       <text x="280" y="88" font-size="10" fill="#7c3aed" font-weight="600">γ: Z and A unchanged</text>
       <defs><marker id="nd20" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Nuclear emission — alpha (2p + 2n), beta (neutron → proton + electron), gamma (no change in proton number).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Nuclear emission — alpha (2p + 2n), beta (neutron → proton + electron), gamma (no change in proton number).</p></div>
 
 ## Steps / method
 

@@ -26,32 +26,32 @@ export function ShowcaseLessonBar({
 
   return (
     <>
-      <div className="enlight-showcase-note__mock-bar">
-        <span className="enlight-showcase-note__mock-label">
+      <div className="ace-showcase-note__mock-bar">
+        <span className="ace-showcase-note__mock-label">
           {chapterTitle} · {sectionLabel}
         </span>
         <PomodoroControl compact />
       </div>
 
-      <div className="enlight-showcase-lesson-features">
+      <div className="ace-showcase-lesson-features">
         {explorerLabel && (
-          <button type="button" className="enlight-showcase-lesson-features__chip enlight-showcase-lesson-features__chip--interactive" onClick={scrollToExplorer}>
-            <span className="enlight-showcase-lesson-features__icon">📊</span>
+          <button type="button" className="ace-showcase-lesson-features__chip ace-showcase-lesson-features__chip--interactive" onClick={scrollToExplorer}>
+            <span className="ace-showcase-lesson-features__icon">📊</span>
             <span>
               <strong>Interactive graph</strong>
               <span>Try the {explorerLabel.toLowerCase()} below</span>
             </span>
           </button>
         )}
-        <div className="enlight-showcase-lesson-features__chip enlight-showcase-lesson-features__chip--xp">
-          <span className="enlight-showcase-lesson-features__icon">⚡</span>
+        <div className="ace-showcase-lesson-features__chip ace-showcase-lesson-features__chip--xp">
+          <span className="ace-showcase-lesson-features__icon">⚡</span>
           <span>
             <strong>Study XP</strong>
             <span>Timer tracks focus time toward +5 XP</span>
           </span>
         </div>
-        <div className="enlight-showcase-lesson-features__chip enlight-showcase-lesson-features__chip--cards">
-          <span className="enlight-showcase-lesson-features__icon">📖</span>
+        <div className="ace-showcase-lesson-features__chip ace-showcase-lesson-features__chip--cards">
+          <span className="ace-showcase-lesson-features__icon">📖</span>
           <span>
             <strong>Note cards</strong>
             <span>Formulas, steps, worked examples</span>

@@ -6,11 +6,11 @@ import { usePageTitle } from '@/hooks/usePageTitle'
 export function NotFoundPage() {
   usePageTitle('Page not found')
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
-      <div className="enlight-container enlight-page-padding">
-        <h1 className="enlight-heading-serif">Page not found</h1>
-        <p className="enlight-body-text">
+      <div className="ace-container ace-page-padding">
+        <h1 className="ace-heading-serif">Page not found</h1>
+        <p className="ace-body-text">
           That link doesn&apos;t match any page on AceIGCSE. Head back to your dashboard or
           browse subjects to keep studying.
         </p>
@@ -20,7 +20,7 @@ export function NotFoundPage() {
             Browse subjects
           </EnlightButton>
         </div>
-        <p className="enlight-body-text" style={{ marginTop: 24 }}>
+        <p className="ace-body-text" style={{ marginTop: 24 }}>
           <Link to="/">Return to home</Link>
         </p>
       </div>

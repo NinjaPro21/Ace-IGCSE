@@ -37,7 +37,7 @@ Applies specifically to electrical circuits where $I$ is current in A and $V$ is
 - The person who reaches the top in less time transfers the same energy but at a greater rate — they are more powerful.
 - Power = energy transferred ÷ time; less time means greater power for the same work.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Power comparison climbing stairs">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Power comparison climbing stairs">
       <rect x="30" y="140" width="380" height="12" fill="#64748b"/>
       <rect x="50" y="60" width="30" height="80" fill="#dbeafe" stroke="#2563eb"/>
       <rect x="200" y="60" width="30" height="80" fill="#dbeafe" stroke="#2563eb"/>
@@ -46,7 +46,7 @@ Applies specifically to electrical circuits where $I$ is current in A and $V$ is
       <text x="65" y="175" text-anchor="middle" font-size="10" fill="#334155">5 s — higher power</text>
       <text x="215" y="175" text-anchor="middle" font-size="10" fill="#334155">10 s — lower power</text>
       <text x="350" y="115" font-size="11" fill="#475569">Same work — P = W ÷ t</text>
-    </svg><p class="enlight-physics-diagram__caption">Power comparison — same weight climbing the same stairs: less time means greater power because the same energy is transferred faster.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Power comparison — same weight climbing the same stairs: less time means greater power because the same energy is transferred faster.</p></div>
 
 **Power and efficiency**
 

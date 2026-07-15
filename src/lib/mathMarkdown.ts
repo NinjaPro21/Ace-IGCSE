@@ -1440,7 +1440,7 @@ export interface TopicCard {
 }
 
 const DIAGRAM_DIV_RE =
-  /<div class="[^"]*(?:enlight-physics-diagram|enlight-fleming-3d)[^"]*"[^>]*>[\s\S]*?<\/div>/g
+  /<div class="[^"]*(?:ace-physics-diagram|ace-fleming-3d)[^"]*"[^>]*>[\s\S]*?<\/div>/g
 
 function parseDiagramSequence(body: string): TopicCard[] {
   const matches = [...body.matchAll(DIAGRAM_DIV_RE)]
@@ -1482,7 +1482,7 @@ export function parseTopicCards(body: string): TopicCard[] {
 
   for (const part of parts) {
     const diagramMatch = part.match(
-      /(<div class="[^"]*(?:enlight-physics-diagram|enlight-fleming-3d|enlight-em-3d)[^"]*"[^>]*>[\s\S]*?<\/div>)\s*/,
+      /(<div class="[^"]*(?:ace-physics-diagram|ace-fleming-3d|ace-em-3d)[^"]*"[^>]*>[\s\S]*?<\/div>)\s*/,
     )
     const diagram = diagramMatch?.[1]
     const text = diagramMatch ? part.replace(diagramMatch[0], '').trim() : part.trim()
@@ -1728,9 +1728,9 @@ export function normalizeKeyFormulasBody(body: string): string {
 /** Move diagram captions out of raw HTML so remark-math can render $...$ in captions. */
 export function promoteDiagramCaptions(text: string): string {
   return text.replace(
-    /<div class="enlight-physics-diagram">([\s\S]*?)<p class="enlight-physics-diagram__caption">([\s\S]*?)<\/p>\s*<\/div>/g,
+    /<div class="ace-physics-diagram">([\s\S]*?)<p class="ace-physics-diagram__caption">([\s\S]*?)<\/p>\s*<\/div>/g,
     (_match, inner, caption) =>
-      `<div class="enlight-physics-diagram">${String(inner).trim()}</div>\n\n${String(caption).trim()}`,
+      `<div class="ace-physics-diagram">${String(inner).trim()}</div>\n\n${String(caption).trim()}`,
   )
 }
 

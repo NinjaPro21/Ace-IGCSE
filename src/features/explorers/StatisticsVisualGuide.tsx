@@ -20,12 +20,12 @@ function HistogramPanel() {
   const toH = (fd: number) => (fd / maxFd) * (H - 50)
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Column <strong>height</strong> = frequency density. Column <strong>area</strong> = frequency.
         Unequal class widths need FD on the y-axis.
       </p>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Histogram with frequency density">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Histogram with frequency density">
         {[50, 60, 70, 80, 90].map((t) => (
           <line key={t} x1={toX(t)} y1={20} x2={toX(t)} y2={H - 24} stroke={GRAPH.grid} />
         ))}
@@ -104,12 +104,12 @@ function MiniScatter({
 
 function ScatterPanel() {
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Direction: <strong>positive</strong> (up) or <strong>negative</strong> (down). Strength: points close to the line →{' '}
         <strong>strong</strong>; spread out → <strong>slight / weak</strong>. No pattern → <strong>no correlation</strong>.
       </p>
-      <svg className="enlight-graph-canvas" viewBox="0 0 480 280" role="img" aria-label="Correlation types on scatter diagrams">
+      <svg className="ace-graph-canvas" viewBox="0 0 480 280" role="img" aria-label="Correlation types on scatter diagrams">
         <MiniScatter
           title="Strong positive"
           color="#2563eb"
@@ -230,11 +230,11 @@ function CumulativePanel() {
   const medx = 22
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Plot at <strong>upper class boundaries</strong>. Read Q1 at ¼N, median at ½N, Q3 at ¾N by drawing across then down.
       </p>
-      <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Cumulative frequency curve">
+      <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Cumulative frequency curve">
         <line x1={40} y1={H - 30} x2={W - 20} y2={H - 30} stroke={GRAPH.axis} strokeWidth={1.5} />
         <line x1={40} y1={20} x2={40} y2={H - 30} stroke={GRAPH.axis} strokeWidth={1.5} />
         <path d={path} fill="none" stroke="#2563eb" strokeWidth={2.5} />
@@ -269,12 +269,12 @@ function BoxPlotPanel() {
   ]
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Five-number summary: <strong>min</strong>, <strong>Q1</strong> (LQ), <strong>median</strong>, <strong>Q3</strong>{' '}
         (UQ), <strong>max</strong>. Box width = IQR = Q3 − Q1.
       </p>
-      <svg className="enlight-graph-canvas enlight-stats-boxplot" viewBox={`0 0 ${W} 180`} role="img" aria-label="Box plot with labels">
+      <svg className="ace-graph-canvas ace-stats-boxplot" viewBox={`0 0 ${W} 180`} role="img" aria-label="Box plot with labels">
         {labels.map(({ v }) => (
           <text key={`val-${v}`} x={toX(v)} y={y - 40} textAnchor="middle" fontSize={10} fill={GRAPH.label}>
             {v}
@@ -310,11 +310,11 @@ function BoxPlotPanel() {
 
 function TreePanel() {
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Without replacement: second-branch denominators drop by 1. Multiply along a path; add paths for “either order”.
       </p>
-      <svg className="enlight-stats-tree" viewBox="0 0 480 220" role="img" aria-label="Probability tree diagram">
+      <svg className="ace-stats-tree" viewBox="0 0 480 220" role="img" aria-label="Probability tree diagram">
         <circle cx={40} cy={110} r={6} fill="#64748b" />
         <line x1={46} y1={70} x2={120} y2={40} stroke="#64748b" strokeWidth={1.5} />
         <line x1={46} y1={150} x2={120} y2={180} stroke="#64748b" strokeWidth={1.5} />
@@ -394,12 +394,12 @@ function Tree3Panel() {
   )
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Advanced questions may need a <strong>third stage</strong> — after the 2nd draw, every path branches again.
         Multiply along the full path (e.g. P(RRR) = 7/10 × 6/9 × 5/8).
       </p>
-      <svg className="enlight-stats-tree" viewBox="0 0 480 300" role="img" aria-label="Three-stage probability tree">
+      <svg className="ace-stats-tree" viewBox="0 0 480 300" role="img" aria-label="Three-stage probability tree">
         <text x={x0} y={14} textAnchor="middle" fontSize={9} fill={GRAPH.label}>
           start
         </text>
@@ -481,11 +481,11 @@ function GroupedMeanPanel() {
   ]
 
   return (
-    <div className="enlight-stats-panel">
-      <p className="enlight-body-text">
+    <div className="ace-stats-panel">
+      <p className="ace-body-text">
         Use the <strong>midpoint</strong> of each class, not the width. Mean ≈ Σ(fx) ÷ Σf.
       </p>
-      <svg className="enlight-graph-canvas" viewBox="0 0 360 200" role="img" aria-label="Grouped frequency bars with midpoints">
+      <svg className="ace-graph-canvas" viewBox="0 0 360 200" role="img" aria-label="Grouped frequency bars with midpoints">
         <line x1={50} y1={160} x2={320} y2={160} stroke={GRAPH.axis} />
         <line x1={50} y1={160} x2={50} y2={20} stroke={GRAPH.axis} />
         <text x={18} y={95} fontSize={10} fill={GRAPH.label} transform="rotate(-90 18 95)">
@@ -513,7 +513,7 @@ function GroupedMeanPanel() {
           </g>
         ))}
       </svg>
-      <table className="enlight-stats-table">
+      <table className="ace-stats-table">
         <thead>
           <tr>
             <th>Interval</th>
@@ -531,7 +531,7 @@ function GroupedMeanPanel() {
               <td>{r.fx}</td>
             </tr>
           ))}
-          <tr className="enlight-stats-table__total">
+          <tr className="ace-stats-table__total">
             <td colSpan={2}>Total Σf = 22</td>
             <td>—</td>
             <td>500 → mean = 500÷22 ≈ 22.7</td>
@@ -600,14 +600,14 @@ function VennChipGroup({
   onSelect: (id: string) => void
 }) {
   return (
-    <div className="enlight-venn-interactive__group">
-      <span className="enlight-venn-interactive__group-label">{label}</span>
-      <div className="enlight-venn-interactive__chips" role="group" aria-label={label}>
+    <div className="ace-venn-interactive__group">
+      <span className="ace-venn-interactive__group-label">{label}</span>
+      <div className="ace-venn-interactive__chips" role="group" aria-label={label}>
         {items.map((expr) => (
           <button
             key={expr.id}
             type="button"
-            className={`enlight-venn-interactive__chip${activeId === expr.id ? ' enlight-venn-interactive__chip--active' : ''}`}
+            className={`ace-venn-interactive__chip${activeId === expr.id ? ' ace-venn-interactive__chip--active' : ''}`}
             onClick={() => onSelect(expr.id)}
             aria-pressed={activeId === expr.id}
           >
@@ -631,24 +631,24 @@ function VennPanel() {
   const lit = new Set(active.regions)
 
   return (
-    <div className="enlight-venn-interactive">
-      <header className="enlight-venn-interactive__header">
-        <h3 className="enlight-venn-interactive__title">Set notation explorer</h3>
-        <p className="enlight-venn-interactive__intro">
+    <div className="ace-venn-interactive">
+      <header className="ace-venn-interactive__header">
+        <h3 className="ace-venn-interactive__title">Set notation explorer</h3>
+        <p className="ace-venn-interactive__intro">
           Tap a symbol or combination — the matching region shades on the Venn diagram so you can see what{' '}
           <MathText content="$\\cap$" />, <MathText content="$\\cup$" />, and <MathText content="$'$" /> really mean.
         </p>
       </header>
 
-      <div className="enlight-venn-interactive__controls">
+      <div className="ace-venn-interactive__controls">
         <VennChipGroup label="Symbols" items={VENN_SYMBOLS} activeId={activeId} onSelect={setActiveId} />
         <VennChipGroup label="Combinations" items={VENN_COMBOS} activeId={activeId} onSelect={setActiveId} />
       </div>
 
-      <div className="enlight-venn-interactive__stage">
+      <div className="ace-venn-interactive__stage">
         <svg
           viewBox="0 0 340 220"
-          className="enlight-venn-interactive__svg"
+          className="ace-venn-interactive__svg"
           role="img"
           aria-label={`Venn diagram highlighting ${active.id}`}
         >
@@ -725,13 +725,13 @@ function VennPanel() {
           </text>
         </svg>
 
-        <aside className="enlight-venn-interactive__card" aria-live="polite">
-          <span className="enlight-venn-interactive__card-kicker">Selected</span>
-          <div className="enlight-venn-interactive__card-expr">
+        <aside className="ace-venn-interactive__card" aria-live="polite">
+          <span className="ace-venn-interactive__card-kicker">Selected</span>
+          <div className="ace-venn-interactive__card-expr">
             <MathText content={active.label} />
           </div>
-          <p className="enlight-venn-interactive__card-meaning">{active.meaning}</p>
-          <p className="enlight-venn-interactive__card-tip">
+          <p className="ace-venn-interactive__card-meaning">{active.meaning}</p>
+          <p className="ace-venn-interactive__card-tip">
             Survey tip: fill the <strong>overlap first</strong>, then each-only region. All regions sum to{' '}
             <MathText content="$n(\\mathcal{E})$" />.
           </p>
@@ -773,21 +773,21 @@ export function StatisticsVisualGuide({ panels }: { panels?: StatsGuidePanel[] }
 
   if (tabs.length === 1) {
     return (
-      <section className="enlight-explorer enlight-stats-guide">
+      <section className="ace-explorer ace-stats-guide">
         <Panel />
       </section>
     )
   }
 
   return (
-    <section className="enlight-explorer enlight-stats-guide">
-      <div className="enlight-stats-guide__tabs" role="tablist">
+    <section className="ace-explorer ace-stats-guide">
+      <div className="ace-stats-guide__tabs" role="tablist">
         {tabs.map((p) => (
           <button
             key={p}
             type="button"
             role="tab"
-            className={`enlight-stats-guide__tab${current === p ? ' enlight-stats-guide__tab--active' : ''}`}
+            className={`ace-stats-guide__tab${current === p ? ' ace-stats-guide__tab--active' : ''}`}
             onClick={() => setTab(p)}
           >
             {PANEL_LABELS[p]}

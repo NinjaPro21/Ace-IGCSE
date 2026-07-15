@@ -32,7 +32,7 @@ Modern communication relies heavily on electromagnetic radiation to transfer dat
 
 - Reference diagrams showing spectrum regions and fibre structure.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 80" width="440" height="80" role="img" aria-label="EM spectrum">
       <rect x="20" y="30" width="50" height="30" fill="#fecaca"/><rect x="70" y="30" width="50" height="30" fill="#fed7aa"/>
       <rect x="120" y="30" width="50" height="30" fill="#fef08a"/><rect x="170" y="30" width="80" height="30" fill="#bbf7d0"/>
       <rect x="250" y="30" width="50" height="30" fill="#bfdbfe"/><rect x="300" y="30" width="50" height="30" fill="#ddd6fe"/>
@@ -41,9 +41,9 @@ Modern communication relies heavily on electromagnetic radiation to transfer dat
       <text x="210" y="50" text-anchor="middle" font-size="8" fill="#334155">visible</text>
       <text x="385" y="50" text-anchor="middle" font-size="8" fill="#334155">gamma</text>
       <text x="220" y="20" text-anchor="middle" font-size="11" fill="#334155">increasing frequency →</text>
-    </svg><p class="enlight-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Electromagnetic spectrum — frequency increases from radio → microwave → IR → visible → UV → X-ray → gamma.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 150" width="480" height="150" role="img" aria-label="Optical fibre total internal reflection">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 150" width="480" height="150" role="img" aria-label="Optical fibre total internal reflection">
       <rect x="20" y="40" width="440" height="70" rx="35" fill="#93c5fd" stroke="#2563eb" stroke-width="2"/>
       <rect x="40" y="52" width="400" height="46" rx="23" fill="#dbeafe" stroke="#0284c7" stroke-width="2"/>
       <text x="240" y="28" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="600">cladding (lower n)</text>
@@ -54,7 +54,7 @@ Modern communication relies heavily on electromagnetic radiation to transfer dat
       <text x="380" y="48" font-size="9" fill="#dc2626" font-weight="600">TIR</text>
       <text x="55" y="88" font-size="10" fill="#f59e0b" font-weight="600">light in</text>
       <text x="430" y="88" font-size="10" fill="#f59e0b" font-weight="600">out</text>
-    </svg><p class="enlight-physics-diagram__caption">Optical fibre — light reflects repeatedly inside the high-index core at the core–cladding boundary.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Optical fibre — light reflects repeatedly inside the high-index core at the core–cladding boundary.</p></div>
 
 ## Examiner tip
 

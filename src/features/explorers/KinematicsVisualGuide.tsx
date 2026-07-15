@@ -24,36 +24,36 @@ function buildPath(fn: (t: number) => number, tMax: number, yMin: number, yMax: 
 function ChainPanel() {
   return (
     <div>
-      <p className="enlight-guide-panel__intro">
+      <p className="ace-guide-panel__intro">
         Differentiate down the chain: <strong>s → v → a</strong>. Integrate to go back up.
       </p>
-      <div className="enlight-kin-chain">
-        <div className="enlight-kin-chain__box enlight-kin-chain__box--s">
-          <div className="enlight-kin-chain__label">Displacement s(t)</div>
-          <div className="enlight-kin-chain__eq">s = t² + 3t</div>
+      <div className="ace-kin-chain">
+        <div className="ace-kin-chain__box ace-kin-chain__box--s">
+          <div className="ace-kin-chain__label">Displacement s(t)</div>
+          <div className="ace-kin-chain__eq">s = t² + 3t</div>
         </div>
-        <div className="enlight-kin-chain__arrow">
+        <div className="ace-kin-chain__arrow">
           <span>d/dt</span>
           <span>↓</span>
         </div>
-        <div className="enlight-kin-chain__box enlight-kin-chain__box--v">
-          <div className="enlight-kin-chain__label">Velocity v = ds/dt</div>
-          <div className="enlight-kin-chain__eq">v = 2t + 3</div>
+        <div className="ace-kin-chain__box ace-kin-chain__box--v">
+          <div className="ace-kin-chain__label">Velocity v = ds/dt</div>
+          <div className="ace-kin-chain__eq">v = 2t + 3</div>
         </div>
-        <div className="enlight-kin-chain__arrow">
+        <div className="ace-kin-chain__arrow">
           <span>d/dt</span>
           <span>↓</span>
         </div>
-        <div className="enlight-kin-chain__box enlight-kin-chain__box--a">
-          <div className="enlight-kin-chain__label">Acceleration a = dv/dt</div>
-          <div className="enlight-kin-chain__eq">a = 2</div>
+        <div className="ace-kin-chain__box ace-kin-chain__box--a">
+          <div className="ace-kin-chain__label">Acceleration a = dv/dt</div>
+          <div className="ace-kin-chain__eq">a = 2</div>
         </div>
       </div>
-      <div className="enlight-guide-calc">
+      <div className="ace-guide-calc">
         <div>
           At t = 4: v = 2(4) + 3 = <strong>11 m/s</strong>, a = <strong>2 m/s²</strong>
         </div>
-        <div className="enlight-guide-calc__note">Reverse: ∫a dt → v, ∫v dt → s (add +C from initial conditions)</div>
+        <div className="ace-guide-calc__note">Reverse: ∫a dt → v, ∫v dt → s (add +C from initial conditions)</div>
       </div>
     </div>
   )
@@ -73,10 +73,10 @@ function GraphsPanel() {
 
   return (
     <div>
-      <p className="enlight-guide-panel__intro">
+      <p className="ace-guide-panel__intro">
         Linked graphs for <strong>s = t² + 3t</strong>. Slope of s = value of v. Slope of v = value of a.
       </p>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="kin-t">
           <strong>t</strong> = {t.toFixed(1)} s &nbsp;·&nbsp; s = {s(t).toFixed(1)} m &nbsp;·&nbsp; v = {v(t).toFixed(1)} m/s &nbsp;·&nbsp; a ={' '}
           {a()} m/s²
@@ -84,9 +84,9 @@ function GraphsPanel() {
         <input id="kin-t" type="range" min={0} max={tMax} step={0.1} value={t} onChange={(e) => setT(Number(e.target.value))} />
       </div>
 
-      <div className="enlight-kin-track">
-        <div className="enlight-kin-track__label">PARTICLE ON TRACK</div>
-        <svg viewBox="0 0 400 36" className="enlight-kin-track__svg">
+      <div className="ace-kin-track">
+        <div className="ace-kin-track__label">PARTICLE ON TRACK</div>
+        <svg viewBox="0 0 400 36" className="ace-kin-track__svg">
           <line x1={20} y1={20} x2={380} y2={20} stroke="#a8a29e" strokeWidth={3} strokeLinecap="round" />
           <circle cx={particleX} cy={20} r={8} fill="#0891b2" stroke="#fff" strokeWidth={2} />
         </svg>
@@ -99,9 +99,9 @@ function GraphsPanel() {
           { label: 'a (acceleration)', path: buildPath(() => 2, tMax, 0, 5), yMin: 0, yMax: 5, color: '#be123c', val: 2 },
         ] as const
       ).map((g) => (
-        <div key={g.label} className="enlight-kin-graph-row">
-          <div className="enlight-kin-graph-row__label">{g.label}</div>
-          <svg viewBox={`0 0 ${W} ${H}`} className="enlight-kin-graph-row__svg">
+        <div key={g.label} className="ace-kin-graph-row">
+          <div className="ace-kin-graph-row__label">{g.label}</div>
+          <svg viewBox={`0 0 ${W} ${H}`} className="ace-kin-graph-row__svg">
             <line x1={0} y1={toSvgY(0, g.yMin, g.yMax)} x2={W} y2={toSvgY(0, g.yMin, g.yMax)} stroke={GRAPH.axis} strokeWidth={1} />
             <polyline points={g.path} fill="none" stroke={g.color} strokeWidth={2} />
             <line x1={toSvgX(t, tMax)} y1={0} x2={toSvgX(t, tMax)} y2={H} stroke="#64748b" strokeWidth={1} strokeDasharray="4 3" />
@@ -143,14 +143,14 @@ function DistancePanel() {
   const endX = posAt(hi)
 
   return (
-    <div className="enlight-kin-distance">
-      <p className="enlight-guide-panel__intro">
+    <div className="ace-kin-distance">
+      <p className="ace-guide-panel__intro">
         <strong>Displacement</strong> = straight-line change in position (can be negative).{' '}
         <strong>Distance</strong> = total path length (always positive).
       </p>
 
-      <div className="enlight-kin-distance__track-block">
-        <p className="enlight-kin-track__label">Straight track — displacement vs distance</p>
+      <div className="ace-kin-distance__track-block">
+        <p className="ace-kin-track__label">Straight track — displacement vs distance</p>
         <svg viewBox="0 0 400 48" width="100%" height="48" role="img" aria-label="Particle positions on a straight track">
           <line x1={trackPad} y1={28} x2={trackPad + trackW} y2={28} stroke="#a8a29e" strokeWidth={3} strokeLinecap="round" />
           <circle cx={trackPad} cy={28} r={4} fill="#64748b" />
@@ -163,28 +163,28 @@ function DistancePanel() {
           <circle cx={startX} cy={28} r={6} fill="#fff" stroke="#0891b2" strokeWidth={2} />
           <circle cx={endX} cy={28} r={6} fill="#0891b2" stroke="#fff" strokeWidth={2} />
         </svg>
-        <div className="enlight-kin-distance__track-legend">
-          <span><span className="enlight-kin-distance__swatch enlight-kin-distance__swatch--disp" /> Blue arrow = displacement</span>
-          <span><span className="enlight-kin-distance__swatch enlight-kin-distance__swatch--pos" /> Circles = position at t₁ and t₂</span>
+        <div className="ace-kin-distance__track-legend">
+          <span><span className="ace-kin-distance__swatch ace-kin-distance__swatch--disp" /> Blue arrow = displacement</span>
+          <span><span className="ace-kin-distance__swatch ace-kin-distance__swatch--pos" /> Circles = position at t₁ and t₂</span>
         </div>
       </div>
 
-      <div className="enlight-int-sliders">
-        <div className="enlight-slider-group">
+      <div className="ace-int-sliders">
+        <div className="ace-slider-group">
           <label htmlFor="kin-t1">From t = {t1.toFixed(1)}</label>
           <input id="kin-t1" type="range" min={0} max={4} step={0.1} value={t1} onChange={(e) => setT1(Number(e.target.value))} />
         </div>
-        <div className="enlight-slider-group">
+        <div className="ace-slider-group">
           <label htmlFor="kin-t2">To t = {t2.toFixed(1)}</label>
           <input id="kin-t2" type="range" min={0.5} max={5} step={0.1} value={t2} onChange={(e) => setT2(Number(e.target.value))} />
         </div>
       </div>
 
-      <p className="enlight-kin-distance__graph-caption">
+      <p className="ace-kin-distance__graph-caption">
         Velocity v = t² − 4t + 3. Red dots = turning points (v = 0). Split the integral at these points for distance.
       </p>
 
-      <svg className="enlight-graph-canvas enlight-kin-distance__graph" viewBox={`0 0 ${W} ${H}`} width="100%" height={H} role="img" aria-label="Velocity graph with zero crossings">
+      <svg className="ace-graph-canvas ace-kin-distance__graph" viewBox={`0 0 ${W} ${H}`} width="100%" height={H} role="img" aria-label="Velocity graph with zero crossings">
         <line x1={0} y1={zeroY} x2={W} y2={zeroY} stroke={GRAPH.axis} strokeWidth={1.5} />
         <text x={6} y={zeroY - 4} fontSize={9} fill="#64748b">v = 0</text>
         <polyline points={vPath} fill="none" stroke="#d97706" strokeWidth={2.5} />
@@ -195,20 +195,20 @@ function DistancePanel() {
         <line x1={toSvgX(hi, tMax)} y1={4} x2={toSvgX(hi, tMax)} y2={H - 4} stroke="#0891b2" strokeWidth={1.5} strokeDasharray="4 3" />
       </svg>
 
-      <div className="enlight-guide-calc enlight-kin-distance__results">
-        <div className="enlight-kin-distance__result">
-          <span className="enlight-kin-distance__result-label">Displacement</span>
+      <div className="ace-guide-calc ace-kin-distance__results">
+        <div className="ace-kin-distance__result">
+          <span className="ace-kin-distance__result-label">Displacement</span>
           <strong>{displacement.toFixed(2)} m</strong>
-          <span className="enlight-kin-distance__result-hint">signed</span>
+          <span className="ace-kin-distance__result-hint">signed</span>
         </div>
-        <div className="enlight-kin-distance__result">
-          <span className="enlight-kin-distance__result-label">Total distance</span>
+        <div className="ace-kin-distance__result">
+          <span className="ace-kin-distance__result-label">Total distance</span>
           <strong>{distance.toFixed(2)} m</strong>
-          <span className="enlight-kin-distance__result-hint">path length</span>
+          <span className="ace-kin-distance__result-hint">path length</span>
         </div>
       </div>
       {Math.abs(displacement - distance) > 0.01 && (
-        <p className="enlight-guide-calc__note">
+        <p className="ace-guide-calc__note">
           Distance exceeds |displacement| because the particle reverses between t = 1 and t = 3.
         </p>
       )}
@@ -242,13 +242,13 @@ export function KinematicsVisualGuide({ panels }: { panels?: KinematicsGuidePane
   const meta = META[current]
 
   return (
-    <section className="enlight-explorer enlight-kin-guide">
-      <h2 className="enlight-explorer__title">{meta.title}</h2>
-      <p className="enlight-body-text enlight-guide__intro">{meta.intro}</p>
+    <section className="ace-explorer ace-kin-guide">
+      <h2 className="ace-explorer__title">{meta.title}</h2>
+      <p className="ace-body-text ace-guide__intro">{meta.intro}</p>
       {active.length > 1 && (
-        <div className="enlight-guide-tabs enlight-guide-tabs--kin">
+        <div className="ace-guide-tabs ace-guide-tabs--kin">
           {active.map((id) => (
-            <button key={id} type="button" className={`enlight-guide-tabs__btn${current === id ? ' enlight-guide-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
+            <button key={id} type="button" className={`ace-guide-tabs__btn${current === id ? ' ace-guide-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
               {META[id].label}
             </button>
           ))}

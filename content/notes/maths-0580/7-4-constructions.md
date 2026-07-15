@@ -14,13 +14,13 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Construction arc">
+<div class="ace-physics-diagram"><svg viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="Construction arc">
       <line x1="40" y1="160" x2="200" y2="160" stroke="#a8a29e"/>
       <line x1="40" y1="160" x2="120" y2="40" stroke="#a8a29e"/>
       <path d="M40 160 A80 80 0 0 0 120 40" fill="none" stroke="#5b8def" stroke-width="2"/>
       <path d="M200 160 A80 80 0 0 1 120 40" fill="none" stroke="#5b8def" stroke-width="2"/>
       <circle cx="120" cy="40" r="4" fill="#b59a73"/>
-    </svg><p class="enlight-physics-diagram__caption">Constructions — use compass for arcs of equal radius to bisect an angle or construct 60°.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Constructions — use compass for arcs of equal radius to bisect an angle or construct 60°.</p></div>
 
 ## Steps / method
 

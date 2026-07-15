@@ -24,7 +24,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Linear graph y=mx+c">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 220" width="320" height="220" role="img" aria-label="Linear graph y=mx+c">
       <line x1="40" y1="190" x2="290" y2="190" stroke="#a8a29e"/>
       <line x1="40" y1="190" x2="40" y2="30" stroke="#a8a29e"/>
       <line x1="40" y1="150" x2="260" y2="70" stroke="#5b8def" stroke-width="2.5" stroke-linecap="round"/>
@@ -34,7 +34,7 @@ $$
       <text x="180" y="100" font-size="10" fill="#5b8def">gradient m</text>
       <text x="160" y="210" font-size="11" fill="#6b6b6b">x</text>
       <text x="22" y="110" font-size="11" fill="#6b6b6b">y</text>
-    </svg><p class="enlight-physics-diagram__caption">Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Linear graphs — $y = mx + c$: gradient $m$ (steepness), intercept $c$ (crosses $y$-axis).</p></div>
 
 ## Steps / method
 

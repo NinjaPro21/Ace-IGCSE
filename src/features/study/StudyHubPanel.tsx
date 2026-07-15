@@ -38,20 +38,20 @@ export function StudyHubPanel() {
   }
 
   return (
-    <section className="enlight-study-session" data-tour="dashboard-study-hub">
+    <section className="ace-study-session" data-tour="dashboard-study-hub">
       <EnlightSectionLabel>Study session</EnlightSectionLabel>
 
-      <div className="enlight-study-session__grid">
-        <div className={`enlight-study-timer${pomodoro.sessionActive ? ' enlight-study-timer--live' : ''}`}>
-          <p className="enlight-study-timer__label">
+      <div className="ace-study-session__grid">
+        <div className={`ace-study-timer${pomodoro.sessionActive ? ' ace-study-timer--live' : ''}`}>
+          <p className="ace-study-timer__label">
             {pomodoro.sessionActive ? (pomodoro.phase === 'work' ? 'Focus' : 'Break') : 'Ready'}
           </p>
           <button
             type="button"
             className={[
-              'enlight-study-timer__clock',
-              pomodoro.running ? 'enlight-study-timer__clock--running' : '',
-              pomodoro.phase === 'break' ? 'enlight-study-timer__clock--break' : '',
+              'ace-study-timer__clock',
+              pomodoro.running ? 'ace-study-timer__clock--running' : '',
+              pomodoro.phase === 'break' ? 'ace-study-timer__clock--break' : '',
             ].join(' ')}
             onClick={() => pomodoro.sessionActive && pomodoro.toggle()}
             disabled={!pomodoro.sessionActive}
@@ -64,25 +64,25 @@ export function StudyHubPanel() {
             {pomodoro.display}
           </button>
           {pomodoro.sessionActive ? (
-            <div className="enlight-study-timer__actions">
-              <button type="button" className="enlight-link-btn" onClick={pomodoro.toggle}>
+            <div className="ace-study-timer__actions">
+              <button type="button" className="ace-link-btn" onClick={pomodoro.toggle}>
                 {pomodoro.running ? 'Pause' : 'Resume'}
               </button>
-              <button type="button" className="enlight-link-btn" onClick={pomodoro.reset}>
+              <button type="button" className="ace-link-btn" onClick={pomodoro.reset}>
                 Reset
               </button>
-              <button type="button" className="enlight-link-btn" onClick={pomodoro.endSession}>
+              <button type="button" className="ace-link-btn" onClick={pomodoro.endSession}>
                 End
               </button>
             </div>
           ) : (
-            <p className="enlight-study-timer__hint">Start a session to begin.</p>
+            <p className="ace-study-timer__hint">Start a session to begin.</p>
           )}
-          <div className="enlight-study-timer__settings">
-            <label className="enlight-study-timer__chip">
+          <div className="ace-study-timer__settings">
+            <label className="ace-study-timer__chip">
               <span>Focus</span>
               <select
-                className="enlight-select enlight-select--chip"
+                className="ace-select ace-select--chip"
                 value={pomodoro.settings.workMinutes}
                 onChange={(e) => pomodoro.setWorkMinutes(Number(e.target.value))}
                 disabled={pomodoro.sessionActive && pomodoro.running}
@@ -93,10 +93,10 @@ export function StudyHubPanel() {
                 ))}
               </select>
             </label>
-            <label className="enlight-study-timer__chip">
+            <label className="ace-study-timer__chip">
               <span>Break</span>
               <select
-                className="enlight-select enlight-select--chip"
+                className="ace-select ace-select--chip"
                 value={pomodoro.settings.breakMinutes}
                 onChange={(e) => pomodoro.setBreakMinutes(Number(e.target.value))}
                 disabled={pomodoro.sessionActive && pomodoro.running}
@@ -110,11 +110,11 @@ export function StudyHubPanel() {
           </div>
         </div>
 
-        <div className="enlight-study-plan">
-          <div className="enlight-study-plan__head">
+        <div className="ace-study-plan">
+          <div className="ace-study-plan__head">
             <div>
-              <h2 className="enlight-study-plan__title">Today&apos;s plan</h2>
-              <p className="enlight-study-plan__sub">
+              <h2 className="ace-study-plan__title">Today&apos;s plan</h2>
+              <p className="ace-study-plan__sub">
                 {tasks.length === 0
                   ? '0 chapters'
                   : `${doneCount} of ${tasks.length} chapter${tasks.length === 1 ? '' : 's'} done`}
@@ -129,9 +129,9 @@ export function StudyHubPanel() {
             )}
           </div>
 
-          <div className="enlight-study-plan__add">
+          <div className="ace-study-plan__add">
             <select
-              className="enlight-select"
+              className="ace-select"
               value={subjectId}
               onChange={(e) => {
                 setSubjectId(e.target.value)
@@ -144,7 +144,7 @@ export function StudyHubPanel() {
               ))}
             </select>
             <select
-              className="enlight-select"
+              className="ace-select"
               value={chapterId}
               onChange={(e) => setChapterId(e.target.value)}
               aria-label="Chapter"
@@ -156,7 +156,7 @@ export function StudyHubPanel() {
               ))}
             </select>
             <EnlightButton
-              className="enlight-study-plan__add-btn"
+              className="ace-study-plan__add-btn"
               onClick={handleAddTask}
               disabled={!chapterId}
             >
@@ -165,19 +165,19 @@ export function StudyHubPanel() {
           </div>
 
           {tasks.length === 0 ? (
-            <div className="enlight-study-plan__empty">
+            <div className="ace-study-plan__empty">
               No chapters queued — add one above.
             </div>
           ) : (
-            <ul className="enlight-study-plan__tasks">
+            <ul className="ace-study-plan__tasks">
               {tasks.map((task) => (
                 <li
                   key={task.id}
-                  className={`enlight-study-plan__task${task.done ? ' enlight-study-plan__task--done' : ''}`}
+                  className={`ace-study-plan__task${task.done ? ' ace-study-plan__task--done' : ''}`}
                 >
                   <input
                     type="checkbox"
-                    className="enlight-study-plan__check"
+                    className="ace-study-plan__check"
                     checked={task.done}
                     aria-label={`Mark ${task.chapterTitle} done`}
                     onChange={() => {
@@ -185,17 +185,17 @@ export function StudyHubPanel() {
                       masteryEngine.notify()
                     }}
                   />
-                  <div className="enlight-study-plan__task-body">
-                    <Link to={getStudyTaskPath(task)} className="enlight-study-plan__task-link">
+                  <div className="ace-study-plan__task-body">
+                    <Link to={getStudyTaskPath(task)} className="ace-study-plan__task-link">
                       {task.chapterTitle}
                     </Link>
                     {'topicTitle' in task && task.topicTitle ? (
-                      <span className="enlight-study-plan__task-topic">{task.topicTitle}</span>
+                      <span className="ace-study-plan__task-topic">{task.topicTitle}</span>
                     ) : null}
                   </div>
                   <button
                     type="button"
-                    className="enlight-study-plan__remove"
+                    className="ace-study-plan__remove"
                     aria-label="Remove task"
                     onClick={() => {
                       masteryEngine.removeStudyPlanTask(task.id)

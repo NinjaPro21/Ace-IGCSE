@@ -15,30 +15,30 @@ function SubjectStudyCard({ subject }: { subject: SubjectStats }) {
   return (
     <Link
       to={`/subjects/${subject.id}`}
-      className={`enlight-study-subject enlight-study-subject--${subject.accent}`}
+      className={`ace-study-subject ace-study-subject--${subject.accent}`}
     >
-      <div className="enlight-study-subject__glow" aria-hidden />
-      <div className="enlight-study-subject__head">
-        <span className="enlight-study-subject__icon" aria-hidden>
+      <div className="ace-study-subject__glow" aria-hidden />
+      <div className="ace-study-subject__head">
+        <span className="ace-study-subject__icon" aria-hidden>
           {SUBJECT_ICONS[subject.id] ?? '📚'}
         </span>
         <div>
-          <span className="enlight-study-subject__code">{subject.code}</span>
-          <h2 className="enlight-study-subject__name">{subject.name}</h2>
+          <span className="ace-study-subject__code">{subject.code}</span>
+          <h2 className="ace-study-subject__name">{subject.name}</h2>
         </div>
-        <span className="enlight-study-subject__arrow" aria-hidden>
+        <span className="ace-study-subject__arrow" aria-hidden>
           →
         </span>
       </div>
 
-      <p className="enlight-study-subject__blurb">{subject.description}</p>
+      <p className="ace-study-subject__blurb">{subject.description}</p>
 
-      <p className="enlight-study-subject__meta">
+      <p className="ace-study-subject__meta">
         {subject.chapterCount} chapters · {subject.topicCount} topics · {subject.diagramTopicCount}{' '}
         diagrams
       </p>
 
-      <ul className="enlight-study-subject__chapters">
+      <ul className="ace-study-subject__chapters">
         {subject.sampleChapters.map((title) => (
           <li key={title}>{title}</li>
         ))}
@@ -53,29 +53,29 @@ export function SubjectsListPage() {
   const stats = useMemo(() => getPlatformStats(), [])
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
-      <div className="enlight-gradient-bar" />
-      <div className="enlight-container enlight-page-padding">
+      <div className="ace-gradient-bar" />
+      <div className="ace-container ace-page-padding">
         <EnlightSectionLabel>Study</EnlightSectionLabel>
-        <h1 className="enlight-heading-serif">Subjects</h1>
-        <p className="enlight-body-text enlight-subject-hub__intro">
+        <h1 className="ace-heading-serif">Subjects</h1>
+        <p className="ace-body-text ace-subject-hub__intro">
           Pick a syllabus to open notes, tiered quizzes, and chapter progress —{' '}
           {formatStatValue(stats.diagramTopicCount)} topics with graphs, diagrams, or interactive tools across all
           three courses.
         </p>
 
-        <div className="enlight-study-subjects" data-tour="subjects-grid">
+        <div className="ace-study-subjects" data-tour="subjects-grid">
           {subjects.map((s) => (
             <SubjectStudyCard key={s.id} subject={s} />
           ))}
         </div>
 
-        <p className="enlight-body-text enlight-study-subjects__back">
+        <p className="ace-body-text ace-study-subjects__back">
           <Link to="/dashboard">← Back to dashboard</Link>
         </p>
       </div>
-      <footer className="enlight-footer">© {new Date().getFullYear()} AceIGCSE</footer>
+      <footer className="ace-footer">© {new Date().getFullYear()} AceIGCSE</footer>
     </div>
   )
 }

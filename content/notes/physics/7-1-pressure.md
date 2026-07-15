@@ -37,7 +37,7 @@ Used to determine the necessary contact area to achieve a specific pressure.
 - A small contact area (sharp heel, knife edge) produces high pressure for the same force.
 - A large contact area (tractor tracks, snowshoes) produces low pressure.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Pressure in solids comparison">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="Pressure in solids comparison">
       <rect x="30" y="150" width="380" height="10" fill="#94a3b8"/>
       <rect x="80" y="130" width="8" height="20" fill="#dc2626" stroke="#991b1b"/>
       <line x1="84" y1="95" x2="84" y2="130" stroke="#334155" stroke-width="2" marker-end="url(#pf)"/>
@@ -47,7 +47,7 @@ Used to determine the necessary contact area to achieve a specific pressure.
       <text x="320" y="60" text-anchor="middle" font-size="11" fill="#16a34a" font-weight="600">Low p (large A)</text>
       <text x="220" y="185" text-anchor="middle" font-size="10" fill="#475569">Same force F — smaller area → greater pressure</text>
       <defs><marker id="pf" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker></defs>
-    </svg><p class="enlight-physics-diagram__caption">Pressure in solids — the same force over a smaller area gives higher pressure (e.g. a sharp heel vs. wide tractor tracks).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Pressure in solids — the same force over a smaller area gives higher pressure (e.g. a sharp heel vs. wide tractor tracks).</p></div>
 
 **Rectangular block — max and min pressure**
 

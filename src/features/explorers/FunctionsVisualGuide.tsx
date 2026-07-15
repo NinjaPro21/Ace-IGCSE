@@ -48,13 +48,13 @@ function MappingTypesPanel() {
   ]
 
   return (
-    <div className="enlight-fn-types">
+    <div className="ace-fn-types">
       {panels.map((p) => (
-        <div key={p.title} className="enlight-fn-types__card">
-          <div className="enlight-fn-types__title" style={{ color: p.color }}>
+        <div key={p.title} className="ace-fn-types__card">
+          <div className="ace-fn-types__title" style={{ color: p.color }}>
             {p.title}
           </div>
-          <svg viewBox={`0 0 200 ${svgH}`} className="enlight-fn-types__svg" role="img" aria-label={p.title} preserveAspectRatio="xMidYMid meet">
+          <svg viewBox={`0 0 200 ${svgH}`} className="ace-fn-types__svg" role="img" aria-label={p.title} preserveAspectRatio="xMidYMid meet">
             {Array.from({ length: p.inputs }).map((_, i) => (
               <circle key={`i${i}`} cx={24} cy={dotY(i, p.inputs, svgH)} r={8} fill="#d97706" opacity={0.85} />
             ))}
@@ -72,7 +72,7 @@ function MappingTypesPanel() {
               />
             ))}
           </svg>
-          <p className="enlight-fn-types__caption">{p.caption}</p>
+          <p className="ace-fn-types__caption">{p.caption}</p>
         </div>
       ))}
     </div>
@@ -85,9 +85,9 @@ function MappingDiagramPanel() {
   const outputs = inputs.map(rule)
 
   return (
-    <div className="enlight-fn-mapping">
-      <div className="enlight-fn-mapping__label">MAPPING DIAGRAM</div>
-      <svg viewBox="0 0 420 200" className="enlight-fn-mapping__svg" role="img" aria-label="Mapping diagram f(x)=2x+1">
+    <div className="ace-fn-mapping">
+      <div className="ace-fn-mapping__label">MAPPING DIAGRAM</div>
+      <svg viewBox="0 0 420 200" className="ace-fn-mapping__svg" role="img" aria-label="Mapping diagram f(x)=2x+1">
         <ellipse cx={100} cy={100} rx={72} ry={88} fill="rgba(255,255,255,0.6)" stroke="#1e3a5f" strokeWidth={2} />
         <ellipse cx={320} cy={100} rx={72} ry={88} fill="rgba(255,255,255,0.6)" stroke="#1e3a5f" strokeWidth={2} />
         <text x={100} y={28} textAnchor="middle" fontSize={13} fontWeight={700} fill="#1e3a5f">
@@ -118,7 +118,7 @@ function MappingDiagramPanel() {
           )
         })}
       </svg>
-      <p className="enlight-fn-mapping__note">
+      <p className="ace-fn-mapping__note">
         Each domain value maps to exactly <strong>one</strong> range value → this is a valid function (one-to-one here).
       </p>
     </div>
@@ -142,42 +142,42 @@ function CompositeFlowPanel() {
   )
 
   return (
-    <div className="enlight-fn-composite">
-      <p className="enlight-fn-composite__intro">
+    <div className="ace-fn-composite">
+      <p className="ace-fn-composite__intro">
         Example: <strong>f(x) = 1/x</strong>, <strong>g(x) = x − 3</strong>. Evaluate the{' '}
         <strong>inner</strong> function first: fg(x) = f(g(x)).
       </p>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="comp-x">
           <strong>Input x</strong> = {x}
         </label>
         <input id="comp-x" type="range" min={-2} max={8} step={0.5} value={x} onChange={(e) => setX(Number(e.target.value))} />
       </div>
 
-      <div className="enlight-fn-flow">
-        <div className="enlight-fn-flow__label">FLOW DIAGRAM</div>
-        <div className="enlight-fn-flow__row">
+      <div className="ace-fn-flow">
+        <div className="ace-fn-flow__label">FLOW DIAGRAM</div>
+        <div className="ace-fn-flow__row">
           {steps.map((s, i) => (
-            <div key={s.label} className="enlight-fn-flow__group">
-              {i > 0 && <span className="enlight-fn-flow__arrow">→</span>}
-              <div className={`enlight-fn-flow__box${i === 0 || i === 3 ? ' enlight-fn-flow__box--dark' : ''}`}>
-                <div className="enlight-fn-flow__box-label" style={{ color: s.color }}>
+            <div key={s.label} className="ace-fn-flow__group">
+              {i > 0 && <span className="ace-fn-flow__arrow">→</span>}
+              <div className={`ace-fn-flow__box${i === 0 || i === 3 ? ' ace-fn-flow__box--dark' : ''}`}>
+                <div className="ace-fn-flow__box-label" style={{ color: s.color }}>
                   {s.label}
                 </div>
-                <div className="enlight-fn-flow__box-value">{s.value}</div>
-                <div className="enlight-fn-flow__box-sub">{s.sub}</div>
+                <div className="ace-fn-flow__box-value">{s.value}</div>
+                <div className="ace-fn-flow__box-sub">{s.sub}</div>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="enlight-fn-composite__formula">
+      <div className="ace-fn-composite__formula">
         fg({x}) = f(g({x})) = f({gx}) = {fg === null ? 'undefined (x = 3 excluded)' : `1/${gx} = ${fg.toFixed(2)}`}
       </div>
 
-      <div className="enlight-fn-composite__compare">
+      <div className="ace-fn-composite__compare">
         <div>
           <strong>fg(x)</strong> = 1/(x−3) — apply <em>g</em> first, then <em>f</em>
         </div>
@@ -232,24 +232,24 @@ function InverseReflectionPanel() {
 
   return (
     <div>
-      <p className="enlight-fn-inverse__intro">
+      <p className="ace-fn-inverse__intro">
         <strong>f(x) = 0.5x + 1</strong> and its inverse <strong>f⁻¹(x) = 2x − 2</strong> are reflections in the
         line <strong>y = x</strong>.
       </p>
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="inv-x"><strong>x</strong> = {x}</label>
         <input id="inv-x" type="range" min={-0.5} max={4.5} step={0.25} value={x} onChange={(e) => setX(Number(e.target.value))} />
       </div>
-      <p className="enlight-fn-inverse__readout">
+      <p className="ace-fn-inverse__readout">
         ({x}, {fx.toFixed(2)}) on <span style={{ color: '#5b8def' }}>f</span> ↔ ({fx.toFixed(2)}, {x}) on{' '}
         <span style={{ color: '#059669' }}>f⁻¹</span>
       </p>
-      <div className="enlight-fn-inverse__legend">
+      <div className="ace-fn-inverse__legend">
         <span><i style={{ background: '#5b8def' }} /> f(x) = 0.5x + 1</span>
         <span><i style={{ background: '#059669' }} /> f⁻¹(x) = 2x − 2</span>
         <span><i style={{ background: '#94a3b8', opacity: 0.7 }} /> y = x</span>
       </div>
-      <svg viewBox={`0 0 ${W} ${H}`} className="enlight-graph-canvas" role="img" aria-label="Inverse function reflection">
+      <svg viewBox={`0 0 ${W} ${H}`} className="ace-graph-canvas" role="img" aria-label="Inverse function reflection">
         <GraphAxes mapper={mapper} gridX={12} gridY={10} />
         <polyline points={diagPath} fill="none" stroke="#94a3b8" strokeWidth={1.5} strokeDasharray="5 4" />
         <text x={toX(4.2)} y={toY(4.2) - 8} fontSize={10} fill="#78716c">y = x</text>
@@ -275,20 +275,20 @@ export function FunctionsVisualGuide({ panels }: { panels?: FnGuidePanel[] }) {
   const currentTab = activeTabs.some((t) => t.id === tab) ? tab : activeTabs[0]?.id ?? 'types'
 
   return (
-    <section className="enlight-explorer enlight-fn-guide">
-      <h2 className="enlight-explorer__title">Functions Visual Guide</h2>
-      <p className="enlight-body-text enlight-fn-guide__intro">
+    <section className="ace-explorer ace-fn-guide">
+      <h2 className="ace-explorer__title">Functions Visual Guide</h2>
+      <p className="ace-body-text ace-fn-guide__intro">
         Mapping types, domain→range diagrams, and composite function flow — the three visuals that unlock Ch.1
         functions.
       </p>
 
       {activeTabs.length > 1 && (
-        <div className="enlight-fn-tabs">
+        <div className="ace-fn-tabs">
           {activeTabs.map(({ id, label }) => (
             <button
               key={id}
               type="button"
-              className={`enlight-fn-tabs__btn${currentTab === id ? ' enlight-fn-tabs__btn--active' : ''}`}
+              className={`ace-fn-tabs__btn${currentTab === id ? ' ace-fn-tabs__btn--active' : ''}`}
               onClick={() => setTab(id)}
             >
               {label}

@@ -99,25 +99,25 @@ export function LineIntersectionExplorer() {
   const lineLabel = formatLineLabel(m, d)
 
   return (
-    <section className="enlight-explorer" id="line-intersection-explorer">
-      <h2 className="enlight-explorer__title">
+    <section className="ace-explorer" id="line-intersection-explorer">
+      <h2 className="ace-explorer__title">
         Interactive Explorer — Line &amp; Curve Intersections
       </h2>
-      <p className="enlight-body-text" style={{ marginBottom: 20 }}>
+      <p className="ace-body-text" style={{ marginBottom: 20 }}>
         Adjust the gradient (<em>m</em>) and y-intercept (<em>d</em>) of the straight line. The
         discriminant&nbsp;
         <strong>Δ = (B − m)² − 4A(C − d)</strong> tells you how many times the line meets the curve.
       </p>
 
-      <div className="enlight-explorer__layout line-explorer__layout">
+      <div className="ace-explorer__layout line-explorer__layout">
         {/* Controls */}
         <div className="line-explorer__controls">
           {/* Curve label */}
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__label" style={{ marginBottom: 2 }}>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__label" style={{ marginBottom: 2 }}>
               Fixed curve
             </div>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '1rem' }}>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '1rem' }}>
               {curveLabel}
             </div>
           </div>
@@ -129,7 +129,7 @@ export function LineIntersectionExplorer() {
               { id: 'slider-d', label: 'd (y-intercept)', value: d, set: setD, min: -8, max: 8, step: 0.5 },
             ] as const
           ).map(({ id, label, value, set, min, max, step }) => (
-            <div className="enlight-slider-group" key={id}>
+            <div className="ace-slider-group" key={id}>
               <label htmlFor={id}>
                 <strong>{label}</strong> = {value}
               </label>
@@ -146,11 +146,11 @@ export function LineIntersectionExplorer() {
           ))}
 
           {/* Line equation */}
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__label" style={{ marginBottom: 2 }}>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__label" style={{ marginBottom: 2 }}>
               Line equation
             </div>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '1rem' }}>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '1rem' }}>
               {lineLabel}
             </div>
           </div>
@@ -180,7 +180,7 @@ export function LineIntersectionExplorer() {
         {/* SVG Canvas */}
         <div className="line-explorer__graph-wrap">
         <svg
-          className="enlight-graph-canvas"
+          className="ace-graph-canvas"
           viewBox={`0 0 ${W} ${H}`}
           role="img"
           aria-label="Interactive line and curve intersection graph"

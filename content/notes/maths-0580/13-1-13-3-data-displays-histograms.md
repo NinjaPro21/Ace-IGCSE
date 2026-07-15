@@ -14,7 +14,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Histogram with unequal class widths">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 200" width="360" height="200" role="img" aria-label="Histogram with unequal class widths">
       <line x1="50" y1="170" x2="330" y2="170" stroke="#a8a29e"/>
       <line x1="50" y1="170" x2="50" y2="30" stroke="#a8a29e"/>
       <rect x="70" y="110" width="40" height="60" fill="#5b8def" opacity="0.7"/>
@@ -23,7 +23,7 @@ $$
       <rect x="250" y="100" width="50" height="70" fill="#5b8def" opacity="0.7"/>
       <text x="180" y="190" text-anchor="middle" font-size="10" fill="#6b6b6b">class intervals</text>
       <text x="22" y="100" transform="rotate(-90 22 100)" text-anchor="middle" font-size="10" fill="#6b6b6b">freq. density</text>
-    </svg><p class="enlight-physics-diagram__caption">Histogram — bar area represents frequency; use frequency density = frequency ÷ class width on the $y$-axis.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Histogram — bar area represents frequency; use frequency density = frequency ÷ class width on the $y$-axis.</p></div>
 
 ## Steps / method
 

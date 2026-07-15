@@ -28,7 +28,7 @@ $$
 
 - An angle of **1 rad** subtends an arc whose length equals the radius: $s = r$ when $\theta = 1$ rad.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 260" width="320" height="260" role="img" aria-label="One radian on a circle">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 260" width="320" height="260" role="img" aria-label="One radian on a circle">
       <circle cx="140" cy="160" r="80" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
       <line x1="140" y1="160" x2="220" y2="160" stroke="#2563eb" stroke-width="2"/>
       <line x1="140" y1="160" x2="183" y2="93" stroke="#2563eb" stroke-width="2"/>
@@ -49,7 +49,7 @@ One radian — the angle at the centre when arc length $s$ equals radius $r$.
 - $\frac{\pi}{2}$ rad $= 90°$ — a quarter turn.
 - $\pi$ rad $= 180°$ — a half turn.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 380 240" width="380" height="240" role="img" aria-label="Degrees and radians on a circle">
+<div class="ace-physics-diagram"><svg viewBox="0 0 380 240" width="380" height="240" role="img" aria-label="Degrees and radians on a circle">
       <circle cx="130" cy="130" r="70" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
       <line x1="130" y1="130" x2="200" y2="130" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 3"/>
       <line x1="130" y1="130" x2="130" y2="60" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 3"/>

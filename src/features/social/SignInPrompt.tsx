@@ -8,7 +8,7 @@ export const SIGN_IN_PROMPT_MS = 3 * 60 * 1000
 
 const TICK_MS = 1000
 const ENGAGED_IDLE_MS = 2 * 60 * 1000
-const SESSION_DISMISSED_KEY = 'enlight-signin-prompt-dismissed'
+const SESSION_DISMISSED_KEY = 'ace-signin-prompt-dismissed'
 
 export function SignInPrompt() {
   const { user, loading, signInWithGoogle, syncError } = useAuth()
@@ -77,7 +77,7 @@ export function SignInPrompt() {
 
   return (
     <div
-      className="enlight-popout-overlay enlight-signin-prompt-overlay"
+      className="ace-popout-overlay ace-signin-prompt-overlay"
       role="dialog"
       aria-modal="true"
       aria-labelledby="signin-prompt-title"
@@ -85,32 +85,32 @@ export function SignInPrompt() {
         if (e.target === e.currentTarget) dismiss()
       }}
     >
-      <div className="enlight-popout enlight-popout--card enlight-signin-prompt">
-        <div className="enlight-popout__hero">
-          <span className="enlight-popout__confetti" aria-hidden>✨</span>
-          <span className="enlight-popout__badge enlight-badge enlight-badge--gold">Save your progress</span>
+      <div className="ace-popout ace-popout--card ace-signin-prompt">
+        <div className="ace-popout__hero">
+          <span className="ace-popout__confetti" aria-hidden>✨</span>
+          <span className="ace-popout__badge ace-badge ace-badge--gold">Save your progress</span>
         </div>
-        <h2 id="signin-prompt-title" className="enlight-heading-serif enlight-popout__title">
+        <h2 id="signin-prompt-title" className="ace-heading-serif ace-popout__title">
           Keep your XP and streaks
         </h2>
-        <p className="enlight-body-text enlight-popout__text">
+        <p className="ace-body-text ace-popout__text">
           Sign in with your school Google account to unlock:
         </p>
-        <ul className="enlight-signin-unlocks">
+        <ul className="ace-signin-unlocks">
           <li>☁️ Cloud save across devices</li>
           <li>School &amp; study group leaderboards</li>
           <li>👥 Friends &amp; study together</li>
           <li>⚔️ Head-to-head quiz duels</li>
         </ul>
-        <hr className="enlight-popout__divider" />
-        <div className="enlight-popout__actions">
+        <hr className="ace-popout__divider" />
+        <div className="ace-popout__actions">
           <EnlightButton onClick={() => signInWithGoogle()}>Sign in with Google</EnlightButton>
           <EnlightButton variant="outline" onClick={dismiss}>Maybe later</EnlightButton>
         </div>
-        {syncError && <p className="enlight-signin-error enlight-signin-prompt__error">{syncError}</p>}
+        {syncError && <p className="ace-signin-error ace-signin-prompt__error">{syncError}</p>}
         <button
           type="button"
-          className="enlight-popout__close"
+          className="ace-popout__close"
           onClick={dismiss}
           aria-label="Dismiss"
         >

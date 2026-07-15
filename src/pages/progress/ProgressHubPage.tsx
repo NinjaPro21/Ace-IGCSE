@@ -58,46 +58,46 @@ export function ProgressHubPage() {
 
   return (
     <>
-      <div className="enlight-dashboard-top">
+      <div className="ace-dashboard-top">
         <EnlightSectionLabel>Dashboard</EnlightSectionLabel>
         {isAdmin && (
           <EnlightButton to="/analytics" variant="outline">Analytics →</EnlightButton>
         )}
       </div>
 
-      <section className="enlight-dash-hero" data-tour="dashboard-hero" aria-label="Level progress">
-        <div className="enlight-dash-hero__row">
-          <div className="enlight-dash-hero__level">
-            <div className="enlight-dash-hero__badge" aria-hidden>
-              <span className="enlight-dash-hero__badge-num">{levelProfile.level}</span>
-              <span className="enlight-dash-hero__badge-lv">LV</span>
+      <section className="ace-dash-hero" data-tour="dashboard-hero" aria-label="Level progress">
+        <div className="ace-dash-hero__row">
+          <div className="ace-dash-hero__level">
+            <div className="ace-dash-hero__badge" aria-hidden>
+              <span className="ace-dash-hero__badge-num">{levelProfile.level}</span>
+              <span className="ace-dash-hero__badge-lv">LV</span>
             </div>
             <div>
-              <h1 className="enlight-dash-hero__title">{levelProfile.title}</h1>
-              <p className="enlight-dash-hero__sub">
+              <h1 className="ace-dash-hero__title">{levelProfile.title}</h1>
+              <p className="ace-dash-hero__sub">
                 {levelProfile.xpToNextLevel} XP to level {levelProfile.level + 1}
               </p>
             </div>
           </div>
-          <div className="enlight-dash-hero__total">
-            <span className="enlight-dash-hero__total-value">{levelProfile.xp.toLocaleString()}</span>
-            <span className="enlight-dash-hero__total-label">Total XP</span>
+          <div className="ace-dash-hero__total">
+            <span className="ace-dash-hero__total-value">{levelProfile.xp.toLocaleString()}</span>
+            <span className="ace-dash-hero__total-label">Total XP</span>
           </div>
         </div>
-        <div className="enlight-dash-hero__bar-meta">
+        <div className="ace-dash-hero__bar-meta">
           <span>{xpFloor.toLocaleString()} XP</span>
           <span>
             Level {levelProfile.level + 1} at {xpCeiling.toLocaleString()} XP
           </span>
         </div>
-        <div className="enlight-dash-hero__bar" aria-label="XP progress to next level">
+        <div className="ace-dash-hero__bar" aria-label="XP progress to next level">
           <div
-            className="enlight-dash-hero__bar-fill"
+            className="ace-dash-hero__bar-fill"
             style={{ width: `${levelProfile.levelProgressPercent}%` }}
           />
         </div>
         {streakAtRisk && progress.streakDays > 0 && (
-          <p className="enlight-dash-hero__warning">
+          <p className="ace-dash-hero__warning">
             {streakCountdown
               ? `Study within ${streakCountdown} to keep your ${progress.streakDays}-day streak!`
               : `Study today to keep your ${progress.streakDays}-day streak!`}
@@ -106,45 +106,45 @@ export function ProgressHubPage() {
       </section>
 
       {continueStudying && (
-        <section className="enlight-welcome-back">
-          <div className="enlight-welcome-back__content">
-            <p className="enlight-welcome-back__eyebrow">Welcome back</p>
-            <h2 className="enlight-welcome-back__title">{continueStudying.chapterTitle}</h2>
-            <p className="enlight-welcome-back__sub">{continueStudying.topicTitle}</p>
+        <section className="ace-welcome-back">
+          <div className="ace-welcome-back__content">
+            <p className="ace-welcome-back__eyebrow">Welcome back</p>
+            <h2 className="ace-welcome-back__title">{continueStudying.chapterTitle}</h2>
+            <p className="ace-welcome-back__sub">{continueStudying.topicTitle}</p>
           </div>
           <EnlightButton to={continueStudying.topicPath}>Continue →</EnlightButton>
         </section>
       )}
 
-      <section className="enlight-dash-stats" aria-label="This week">
-        <div className="enlight-dash-stat">
-          <span className="enlight-dash-stat__value">{weeklyRecap.studyMinutes}</span>
-          <span className="enlight-dash-stat__label">min studied</span>
+      <section className="ace-dash-stats" aria-label="This week">
+        <div className="ace-dash-stat">
+          <span className="ace-dash-stat__value">{weeklyRecap.studyMinutes}</span>
+          <span className="ace-dash-stat__label">min studied</span>
         </div>
-        <div className="enlight-dash-stat">
-          <span className="enlight-dash-stat__value">{weeklyRecap.xp}</span>
-          <span className="enlight-dash-stat__label">XP this week</span>
+        <div className="ace-dash-stat">
+          <span className="ace-dash-stat__value">{weeklyRecap.xp}</span>
+          <span className="ace-dash-stat__label">XP this week</span>
         </div>
-        <div className="enlight-dash-stat">
-          <span className="enlight-dash-stat__value">{weeklyRecap.activeDays}/7</span>
-          <span className="enlight-dash-stat__label">active days</span>
+        <div className="ace-dash-stat">
+          <span className="ace-dash-stat__value">{weeklyRecap.activeDays}/7</span>
+          <span className="ace-dash-stat__label">active days</span>
         </div>
-        <div className="enlight-dash-stat">
-          <span className="enlight-dash-stat__value">{weeklyRecap.streakDays}</span>
-          <span className="enlight-dash-stat__label">day streak</span>
+        <div className="ace-dash-stat">
+          <span className="ace-dash-stat__value">{weeklyRecap.streakDays}</span>
+          <span className="ace-dash-stat__label">day streak</span>
         </div>
       </section>
 
-      <section className="enlight-dash-goal" aria-label="Today's goal">
-        <div className="enlight-dash-goal__row">
-          <span className="enlight-dash-goal__label">Today&apos;s goal</span>
-          <span className={`enlight-dash-goal__value${goalMet ? ' enlight-dash-goal__value--met' : ''}`}>
+      <section className="ace-dash-goal" aria-label="Today's goal">
+        <div className="ace-dash-goal__row">
+          <span className="ace-dash-goal__label">Today&apos;s goal</span>
+          <span className={`ace-dash-goal__value${goalMet ? ' ace-dash-goal__value--met' : ''}`}>
             {todayMin} / {dailyGoal} min
-            {goalMet ? <span className="enlight-dash-goal__check" aria-label="Goal met">✓</span> : null}
+            {goalMet ? <span className="ace-dash-goal__check" aria-label="Goal met">✓</span> : null}
           </span>
         </div>
-        <div className="enlight-daily-goal-bar">
-          <div className="enlight-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
+        <div className="ace-daily-goal-bar">
+          <div className="ace-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
         </div>
       </section>
 
@@ -154,61 +154,61 @@ export function ProgressHubPage() {
 
       <PushNotificationPrompt />
 
-      <div className="enlight-dashboard-grid enlight-dashboard-grid--compact">
-        <div className="enlight-dash-card enlight-dash-card--notes">
-          <span className="enlight-dash-card__icon-wrap enlight-dash-card__icon-wrap--notes" aria-hidden>
+      <div className="ace-dashboard-grid ace-dashboard-grid--compact">
+        <div className="ace-dash-card ace-dash-card--notes">
+          <span className="ace-dash-card__icon-wrap ace-dash-card__icon-wrap--notes" aria-hidden>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
               <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
             </svg>
           </span>
-          <div className="enlight-dash-card__body">
-            <span className="enlight-dash-card__value">
+          <div className="ace-dash-card__body">
+            <span className="ace-dash-card__value">
               {dashboard.notesCompleted} / {dashboard.notesTotal}
             </span>
-            <span className="enlight-dash-card__label">Topics read</span>
+            <span className="ace-dash-card__label">Topics read</span>
           </div>
         </div>
-        <div className="enlight-dash-card enlight-dash-card--quiz">
-          <span className="enlight-dash-card__icon-wrap enlight-dash-card__icon-wrap--quiz" aria-hidden>
+        <div className="ace-dash-card ace-dash-card--quiz">
+          <span className="ace-dash-card__icon-wrap ace-dash-card__icon-wrap--quiz" aria-hidden>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.2 4.2 3 5.5V17h8v-2.5c1.8-1.3 3-3 3-5.5a7 7 0 0 0-7-7z" />
               <path d="M9 21h6" />
             </svg>
           </span>
-          <div className="enlight-dash-card__body">
-            <span className="enlight-dash-card__value">{dashboard.quizMasteryPercent}%</span>
-            <span className="enlight-dash-card__label">Quiz mastery</span>
+          <div className="ace-dash-card__body">
+            <span className="ace-dash-card__value">{dashboard.quizMasteryPercent}%</span>
+            <span className="ace-dash-card__label">Quiz mastery</span>
           </div>
         </div>
-        <Link to="/dashboard/review" className="enlight-dash-card enlight-dash-card--warn enlight-dash-card--link">
-          <span className="enlight-dash-card__icon-wrap enlight-dash-card__icon-wrap--warn" aria-hidden>
+        <Link to="/dashboard/review" className="ace-dash-card ace-dash-card--warn ace-dash-card--link">
+          <span className="ace-dash-card__icon-wrap ace-dash-card__icon-wrap--warn" aria-hidden>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
               <path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z" />
               <path d="M12 9v4" />
               <path d="M12 17h.01" />
             </svg>
           </span>
-          <div className="enlight-dash-card__body">
-            <span className="enlight-dash-card__value">{weakCount}</span>
-            <span className="enlight-dash-card__label">Weak topics</span>
-            <span className="enlight-dash-card__sub">Review →</span>
+          <div className="ace-dash-card__body">
+            <span className="ace-dash-card__value">{weakCount}</span>
+            <span className="ace-dash-card__label">Weak topics</span>
+            <span className="ace-dash-card__sub">Review →</span>
           </div>
         </Link>
       </div>
 
-      <section className="enlight-dashboard-card enlight-dash-activity">
-        <h2 className="enlight-heading-serif enlight-dashboard-card__title">Study activity</h2>
-        <p className="enlight-activity-legend">Last 7 days</p>
-        <div className="enlight-activity-bars" role="img" aria-label="Study activity for the last 7 days">
+      <section className="ace-dashboard-card ace-dash-activity">
+        <h2 className="ace-heading-serif ace-dashboard-card__title">Study activity</h2>
+        <p className="ace-activity-legend">Last 7 days</p>
+        <div className="ace-activity-bars" role="img" aria-label="Study activity for the last 7 days">
           {weekActivity.map((day) => (
-            <div key={day.date} className="enlight-activity-bar-col">
-              <div className="enlight-activity-bar-track">
+            <div key={day.date} className="ace-activity-bar-col">
+              <div className="ace-activity-bar-track">
                 <div
                   className={[
-                    'enlight-activity-bar',
-                    `enlight-activity-bar--lvl-${day.intensity}`,
-                    day.isToday ? 'enlight-activity-bar--today' : '',
+                    'ace-activity-bar',
+                    `ace-activity-bar--lvl-${day.intensity}`,
+                    day.isToday ? 'ace-activity-bar--today' : '',
                   ].join(' ')}
                   style={{ height: `${Math.max(8, day.intensity * 20)}%` }}
                   title={
@@ -218,15 +218,15 @@ export function ProgressHubPage() {
                   }
                 />
               </div>
-              <span className="enlight-activity-day__label">{day.label}</span>
+              <span className="ace-activity-day__label">{day.label}</span>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="enlight-dashboard-card">
-        <div className="enlight-progress-page__title-row">
-          <h2 className="enlight-heading-serif enlight-dashboard-card__title">Quiz history</h2>
+      <section className="ace-dashboard-card">
+        <div className="ace-progress-page__title-row">
+          <h2 className="ace-heading-serif ace-dashboard-card__title">Quiz history</h2>
           {quizSummaries.length > 0 && (
             <EnlightButton to="/dashboard/quiz-history" variant="outline">
               View all →
@@ -234,22 +234,22 @@ export function ProgressHubPage() {
           )}
         </div>
         {quizSummaries.length === 0 ? (
-          <p className="enlight-body-text">No quizzes yet — complete one from any subject to start tracking scores.</p>
+          <p className="ace-body-text">No quizzes yet — complete one from any subject to start tracking scores.</p>
         ) : (
-          <div className="enlight-quiz-history-grid enlight-quiz-history-grid--compact">
+          <div className="ace-quiz-history-grid ace-quiz-history-grid--compact">
             {quizSummaries.slice(0, 3).map((s) => (
               <Link
                 key={s.subjectId}
                 to={`/dashboard/quiz-history/${s.subjectId}`}
-                className="enlight-quiz-history-card"
+                className="ace-quiz-history-card"
               >
-                <h3 className="enlight-quiz-history-card__title">{s.subjectName}</h3>
+                <h3 className="ace-quiz-history-card__title">{s.subjectName}</h3>
                 <span
-                  className={`enlight-quiz-history-card__score enlight-quiz-history-card__score--${quizScoreTone(s.averageScore)}`}
+                  className={`ace-quiz-history-card__score ace-quiz-history-card__score--${quizScoreTone(s.averageScore)}`}
                 >
                   {s.averageScore}%
                 </span>
-                <span className="enlight-quiz-history-card__meta">
+                <span className="ace-quiz-history-card__meta">
                   avg · {s.attemptCount} attempt{s.attemptCount === 1 ? '' : 's'}
                 </span>
               </Link>
@@ -258,9 +258,9 @@ export function ProgressHubPage() {
         )}
       </section>
 
-      <section className="enlight-progress-gateways" data-tour="dashboard-explore">
-        <h2 className="enlight-heading-serif enlight-progress-gateways__title">Explore</h2>
-        <div className="enlight-progress-gateways__grid">
+      <section className="ace-progress-gateways" data-tour="dashboard-explore">
+        <h2 className="ace-heading-serif ace-progress-gateways__title">Explore</h2>
+        <div className="ace-progress-gateways__grid">
           <ProgressGatewayCard
             to="/dashboard/quiz-history"
             icon="Q"

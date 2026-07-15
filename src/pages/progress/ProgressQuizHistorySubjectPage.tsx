@@ -20,7 +20,7 @@ export function ProgressQuizHistorySubjectPage() {
   const [expandedId, setExpandedId] = useState<string | null>(attempts[0]?.id ?? null)
 
   if (!subject) {
-    return <p className="enlight-body-text">Subject not found.</p>
+    return <p className="ace-body-text">Subject not found.</p>
   }
 
   const avg =
@@ -31,48 +31,48 @@ export function ProgressQuizHistorySubjectPage() {
   return (
     <>
       <EnlightSectionLabel>{subject.name}</EnlightSectionLabel>
-      <h1 className="enlight-heading-serif">Quiz history</h1>
-      <p className="enlight-body-text enlight-progress-page__intro">
+      <h1 className="ace-heading-serif">Quiz history</h1>
+      <p className="ace-body-text ace-progress-page__intro">
         {attempts.length} attempt{attempts.length === 1 ? '' : 's'} · {avg}% average
       </p>
 
       {attempts.length === 0 ? (
-        <section className="enlight-dashboard-card">
-          <p className="enlight-body-text">No attempts for this subject yet.</p>
+        <section className="ace-dashboard-card">
+          <p className="ace-body-text">No attempts for this subject yet.</p>
           <Link to={`/subjects/${subjectId}`}>Browse {subject.name} →</Link>
         </section>
       ) : (
-        <div className="enlight-quiz-attempt-list">
+        <div className="ace-quiz-attempt-list">
           {attempts.map((attempt) => {
             const open = expandedId === attempt.id
             return (
-              <section key={attempt.id} className="enlight-dashboard-card enlight-quiz-attempt">
+              <section key={attempt.id} className="ace-dashboard-card ace-quiz-attempt">
                 <button
                   type="button"
-                  className="enlight-quiz-attempt__head"
+                  className="ace-quiz-attempt__head"
                   onClick={() => setExpandedId(open ? null : attempt.id)}
                 >
                   <div>
                     <strong>{attempt.quizTitle}</strong>
-                    <span className="enlight-quiz-attempt__meta">
+                    <span className="ace-quiz-attempt__meta">
                       {formatDifficulty(attempt.difficulty)} · {formatAttemptDate(attempt.at)}
                     </span>
                   </div>
-                  <div className="enlight-quiz-attempt__score-wrap">
+                  <div className="ace-quiz-attempt__score-wrap">
                     <span
                       className={[
-                        'enlight-quiz-attempt__score',
-                        attempt.passed ? 'enlight-quiz-attempt__score--pass' : '',
+                        'ace-quiz-attempt__score',
+                        attempt.passed ? 'ace-quiz-attempt__score--pass' : '',
                       ].join(' ')}
                     >
                       {attempt.scorePercent}%
                     </span>
-                    <span className="enlight-quiz-attempt__chevron">{open ? '▾' : '▸'}</span>
+                    <span className="ace-quiz-attempt__chevron">{open ? '▾' : '▸'}</span>
                   </div>
                 </button>
                 {open && (
-                  <div className="enlight-quiz-attempt__body">
-                    <p className="enlight-body-text">
+                  <div className="ace-quiz-attempt__body">
+                    <p className="ace-body-text">
                       {attempt.correctCount} of {attempt.questionCount} correct
                       {attempt.mistakes.length > 0
                         ? ` · ${attempt.mistakes.length} mistake${attempt.mistakes.length === 1 ? '' : 's'}`

@@ -47,7 +47,7 @@ Adding another branch gives an extra current path, increasing total current and 
 
 - Two branches connected across the same supply — same p.d. across each branch.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 190" width="400" height="190" role="img" aria-label="Parallel circuit">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 190" width="400" height="190" role="img" aria-label="Parallel circuit">
       <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 45 50 L 355 50"/>
         <path d="M 45 50 L 45 78"/>
@@ -70,7 +70,7 @@ Adding another branch gives an extra current path, increasing total current and 
       <line x1="267" y1="93" x2="253" y2="107" stroke="#334155" stroke-width="2"/>
       <text x="288" y="100" font-size="8" fill="#64748b">lamp 2</text>
       <text x="200" y="175" text-anchor="middle" font-size="10" fill="#475569">two branches — same p.d. across each lamp</text>
-    </svg><p class="enlight-physics-diagram__caption">Parallel circuit — current splits between branches; same p.d. across each branch.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Parallel circuit — current splits between branches; same p.d. across each branch.</p></div>
 
 ## Quick check
 

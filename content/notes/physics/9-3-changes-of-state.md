@@ -38,7 +38,7 @@ Energy used during a change of state (latent heat) does not change the temperatu
 - **Horizontal plateaus**: Melting or boiling — energy breaks bonds between particles; temperature stays constant.
 - **Cooling curve**: Reverse — horizontal sections during condensation and solidification.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Heating curve">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Heating curve">
       <line x1="55" y1="215" x2="400" y2="215" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="215" x2="55" y2="30" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="240" text-anchor="middle" font-size="12" fill="#475569">Time</text>
@@ -50,9 +50,9 @@ Energy used during a change of state (latent heat) does not change the temperatu
       <polyline fill="none" stroke="#16a34a" stroke-width="2.5" points="285,110 355,60"/>
       <text x="145" y="142" font-size="10" fill="#dc2626" font-weight="600">melting</text>
       <text x="255" y="102" font-size="10" fill="#dc2626" font-weight="600">boiling</text>
-    </svg><p class="enlight-physics-diagram__caption">Heating curve — temperature rises in each state; flat plateaus during melting and boiling while energy is still supplied.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Heating curve — temperature rises in each state; flat plateaus during melting and boiling while energy is still supplied.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="State transitions">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="State transitions">
       <rect x="20" y="40" width="70" height="40" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
       <text x="55" y="65" text-anchor="middle" font-size="12" fill="#1e3a8a">Solid</text>
       <rect x="175" y="40" width="70" height="40" rx="6" fill="#bfdbfe" stroke="#3b82f6"/>
@@ -67,7 +67,7 @@ Energy used during a change of state (latent heat) does not change the temperatu
         <marker id="arrR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
         <marker id="arrB" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
       </defs>
-    </svg><p class="enlight-physics-diagram__caption">State changes — red arrows show heating (energy in); blue arrows show cooling (energy out).</p></div>
+    </svg><p class="ace-physics-diagram__caption">State changes — red arrows show heating (energy in); blue arrows show cooling (energy out).</p></div>
 
 ## Steps / method
 

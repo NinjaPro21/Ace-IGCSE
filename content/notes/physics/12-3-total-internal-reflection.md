@@ -40,7 +40,7 @@ where $c = 3.0 \times 10^{8}\ \text{m/s}$ and $v$ is the speed in the medium.
 
 - Ray enters the curved face without bending; at the flat face it refracts, grazes, or reflects (TIR).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Total internal reflection in semi-circular block">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Total internal reflection in semi-circular block">
       <path d="M120 160 A80 80 0 0 1 280 160 L280 160 L120 160 Z" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
       <line x1="200" y1="160" x2="200" y2="40" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <line x1="200" y1="160" x2="320" y2="90" stroke="#f59e0b" stroke-width="2.5"/>
@@ -50,13 +50,13 @@ where $c = 3.0 \times 10^{8}\ \text{m/s}$ and $v$ is the speed in the medium.
       <text x="345" y="155" font-size="10" fill="#16a34a">graze</text>
       <text x="95" y="95" font-size="10" fill="#dc2626">TIR</text>
       <text x="205" y="35" font-size="10" fill="#64748b">normal</text>
-    </svg><p class="enlight-physics-diagram__caption">Semi-circular block — ray enters the curved face without bending; at the flat face it refracts, grazes, or reflects (TIR).</p></div>
+    </svg><p class="ace-physics-diagram__caption">Semi-circular block — ray enters the curved face without bending; at the flat face it refracts, grazes, or reflects (TIR).</p></div>
 
 **Optical fibre**
 
 - Light reflects repeatedly inside the high-index core at the core–cladding boundary.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 150" width="480" height="150" role="img" aria-label="Optical fibre total internal reflection">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 150" width="480" height="150" role="img" aria-label="Optical fibre total internal reflection">
       <rect x="20" y="40" width="440" height="70" rx="35" fill="#93c5fd" stroke="#2563eb" stroke-width="2"/>
       <rect x="40" y="52" width="400" height="46" rx="23" fill="#dbeafe" stroke="#0284c7" stroke-width="2"/>
       <text x="240" y="28" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="600">cladding (lower n)</text>
@@ -67,13 +67,13 @@ where $c = 3.0 \times 10^{8}\ \text{m/s}$ and $v$ is the speed in the medium.
       <text x="380" y="48" font-size="9" fill="#dc2626" font-weight="600">TIR</text>
       <text x="55" y="88" font-size="10" fill="#f59e0b" font-weight="600">light in</text>
       <text x="430" y="88" font-size="10" fill="#f59e0b" font-weight="600">out</text>
-    </svg><p class="enlight-physics-diagram__caption">Optical fibre — light reflects repeatedly inside the high-index core at the core–cladding boundary.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Optical fibre — light reflects repeatedly inside the high-index core at the core–cladding boundary.</p></div>
 
 **Right-angled prism**
 
 - Ray enters at $90^\circ$; at the hypotenuse $i \approx 45^\circ > c$ (~$42^\circ$ for glass), so TIR occurs.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 220 200" width="220" height="200" role="img" aria-label="Right-angled prism TIR">
+<div class="ace-physics-diagram"><svg viewBox="0 0 220 200" width="220" height="200" role="img" aria-label="Right-angled prism TIR">
       <polygon points="40,160 160,160 40,40" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
       <line x1="40" y1="160" x2="40" y2="40" stroke="#64748b" stroke-width="1"/>
       <line x1="40" y1="160" x2="160" y2="160" stroke="#64748b" stroke-width="1"/>
@@ -83,7 +83,7 @@ where $c = 3.0 \times 10^{8}\ \text{m/s}$ and $v$ is the speed in the medium.
       <line x1="95" y1="75" x2="40" y2="75" stroke="#dc2626" stroke-width="2.5"/>
       <text x="48" y="115" font-size="9" fill="#f59e0b">in</text>
       <text x="55" y="72" font-size="9" fill="#dc2626">TIR</text>
-    </svg><p class="enlight-physics-diagram__caption">Right-angled prism — ray enters at 90° to a face; at the hypotenuse i ≈ 45° &gt; c (~42° for glass), so TIR occurs.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Right-angled prism — ray enters at 90° to a face; at the hypotenuse i ≈ 45° &gt; c (~42° for glass), so TIR occurs.</p></div>
 
 ## Steps / method
 

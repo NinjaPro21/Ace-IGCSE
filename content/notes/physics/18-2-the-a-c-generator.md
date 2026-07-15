@@ -40,21 +40,21 @@ Magnets rotate while the coil stays fixed — no carbon brushes (more durable), 
 - Rectangular coil between curved N and S poles; coil ends connected to two separate slip rings.
 - Carbon brushes rub against slip rings to transfer alternating e.m.f. to the external circuit.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="generator"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="generator"></div>
 
 **Sinusoidal voltage–time graph**
 
 - One full $360^\circ$ rotation plotted as a sine wave.
 - Maximum e.m.f. at $90^\circ$ and $270^\circ$ (coil cuts field lines at right angles); zero at $0^\circ$, $180^\circ$, $360^\circ$.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="generator-voltage"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="generator-voltage"></div>
 
 **Fleming's right-hand rule**
 
 - Thumb = **Motion** of conductor; first finger = **Field** (N → S); second finger = induced **Current**.
 - Interactive 3D right hand — drag to rotate. Purple motion, blue field, green current.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="fleming-right"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="fleming-right"></div>
 
 ## Quick check
 

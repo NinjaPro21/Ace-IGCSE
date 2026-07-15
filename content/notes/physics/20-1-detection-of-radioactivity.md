@@ -30,7 +30,7 @@ Applies to determine a stable value from the spontaneous and random emission of 
 - **Random Emission Observations**: If you plot the count rate of background radiation over successive one-minute intervals, the graph will show fluctuating values rather than a horizontal line. This visualizes the spontaneous and random nature of radioactive decay.
 - **Decay Curves**: Graphs plotting count rate against time. For background radiation, the curve eventually levels off at a constant average value once the primary source has decayed.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 420 140" width="420" height="140" role="img" aria-label="Geiger counter setup">
+<div class="ace-physics-diagram"><svg viewBox="0 0 420 140" width="420" height="140" role="img" aria-label="Geiger counter setup">
       <rect x="40" y="50" width="120" height="40" rx="8" fill="#dbeafe" stroke="#2563eb"/>
       <text x="100" y="75" text-anchor="middle" font-size="11" fill="#1e3a8a">G-M tube</text>
       <rect x="220" y="45" width="140" height="50" rx="8" fill="#f1f5f9" stroke="#64748b"/>
@@ -38,7 +38,7 @@ Applies to determine a stable value from the spontaneous and random emission of 
       <line x1="160" y1="70" x2="220" y2="70" stroke="#334155" stroke-width="2"/>
       <circle cx="100" cy="35" r="12" fill="#fef08a" stroke="#ca8a04"/>
       <text x="100" y="20" text-anchor="middle" font-size="10" fill="#854d0e">source</text>
-    </svg><p class="enlight-physics-diagram__caption">Radiation detection — Geiger–Müller tube connected to a counter records ionising events.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Radiation detection — Geiger–Müller tube connected to a counter records ionising events.</p></div>
 
 ## Steps / method
 

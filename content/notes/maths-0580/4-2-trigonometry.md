@@ -14,7 +14,7 @@ $\tan\theta = \frac{\sin\theta}{\cos\theta}$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 300 200" width="300" height="200" role="img" aria-label="Trigonometry triangle labels">
+<div class="ace-physics-diagram"><svg viewBox="0 0 300 200" width="300" height="200" role="img" aria-label="Trigonometry triangle labels">
       <polygon points="50,170 250,170 50,50" fill="#fdfbf7" stroke="#b59a73" stroke-width="2"/>
       <rect x="50" y="155" width="15" height="15" fill="none" stroke="#a8a29e"/>
       <path d="M230 170 A20 20 0 0 1 238 155" fill="none" stroke="#b59a73" stroke-width="1.5"/>
@@ -22,7 +22,7 @@ $\tan\theta = \frac{\sin\theta}{\cos\theta}$
       <text x="150" y="188" text-anchor="middle" font-size="11" fill="#5b8def">adjacent</text>
       <text x="28" y="120" font-size="11" fill="#789671">opposite</text>
       <text x="170" y="100" font-size="11" fill="#5b8def" font-weight="600">hypotenuse</text>
-    </svg><p class="enlight-physics-diagram__caption">SOH CAH TOA — label opposite, adjacent, and hypotenuse relative to angle $\theta$ (the acute angle, not the right angle).</p></div>
+    </svg><p class="ace-physics-diagram__caption">SOH CAH TOA — label opposite, adjacent, and hypotenuse relative to angle $\theta$ (the acute angle, not the right angle).</p></div>
 
 ## Steps / method
 

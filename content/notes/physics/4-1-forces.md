@@ -39,7 +39,7 @@ Applies to masses within a gravitational field, where $g \approx 9.8\ \text{m/s}
 - **Within the limit**: A straight line passing through the origin, indicating the load is directly proportional to the extension.
 - **Beyond the limit**: The graph curves, showing that proportionality has been lost.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Load extension graph">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="Load extension graph">
       <line x1="55" y1="195" x2="400" y2="195" stroke="#64748b" stroke-width="1.5"/>
       <line x1="55" y1="195" x2="55" y2="25" stroke="#64748b" stroke-width="1.5"/>
       <text x="230" y="218" text-anchor="middle" font-size="12" fill="#475569">Extension</text>
@@ -49,7 +49,7 @@ Applies to masses within a gravitational field, where $g \approx 9.8\ \text{m/s}
       <line x1="200" y1="70" x2="200" y2="195" stroke="#94a3b8" stroke-dasharray="4 3"/>
       <text x="130" y="120" font-size="10" fill="#2563eb">Hooke's law region</text>
       <text x="280" y="50" font-size="10" fill="#dc2626">limit of proportionality</text>
-    </svg><p class="enlight-physics-diagram__caption">Load–extension graph — straight line through origin (Hooke's law) until the limit of proportionality; then the graph curves.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Load–extension graph — straight line through origin (Hooke's law) until the limit of proportionality; then the graph curves.</p></div>
 
 ## Steps / method
 

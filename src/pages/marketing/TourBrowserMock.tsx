@@ -11,42 +11,42 @@ export function TourBrowserMock({
   className?: string
 }) {
   return (
-    <div className={`enlight-tour-browser ${className}`.trim()}>
-      <div className="enlight-tour-browser__chrome">
-        <span className="enlight-tour-browser__dot enlight-tour-browser__dot--red" />
-        <span className="enlight-tour-browser__dot enlight-tour-browser__dot--amber" />
-        <span className="enlight-tour-browser__dot enlight-tour-browser__dot--green" />
-        <span className="enlight-tour-browser__url">{url}</span>
+    <div className={`ace-tour-browser ${className}`.trim()}>
+      <div className="ace-tour-browser__chrome">
+        <span className="ace-tour-browser__dot ace-tour-browser__dot--red" />
+        <span className="ace-tour-browser__dot ace-tour-browser__dot--amber" />
+        <span className="ace-tour-browser__dot ace-tour-browser__dot--green" />
+        <span className="ace-tour-browser__url">{url}</span>
       </div>
-      <div className="enlight-tour-browser__body">{children}</div>
+      <div className="ace-tour-browser__body">{children}</div>
     </div>
   )
 }
 
 export function TourHeroMock() {
   return (
-    <TourBrowserMock className="enlight-tour-browser--hero">
-      <div className="enlight-tour-browser__float enlight-tour-browser__float--xp">
-        <span className="enlight-tour-browser__float-icon">⚡</span>
+    <TourBrowserMock className="ace-tour-browser--hero">
+      <div className="ace-tour-browser__float ace-tour-browser__float--xp">
+        <span className="ace-tour-browser__float-icon">⚡</span>
         <div>
           <strong>+15 XP</strong>
           <span>Quiz complete</span>
         </div>
       </div>
-      <div className="enlight-tour-browser__float enlight-tour-browser__float--study">
-        <span className="enlight-tour-browser__float-icon">⏱</span>
+      <div className="ace-tour-browser__float ace-tour-browser__float--study">
+        <span className="ace-tour-browser__float-icon">⏱</span>
         <div>
           <strong>Study time</strong>
           <span>12 min today</span>
         </div>
       </div>
-      <div className="enlight-tour-browser__card">
-        <div className="enlight-tour-browser__card-icon">📊</div>
+      <div className="ace-tour-browser__card">
+        <div className="ace-tour-browser__card-icon">📊</div>
         <div>
           <strong>Linear Graphs</strong>
           <span>Mathematics 0580 · Section 2</span>
         </div>
-        <div className="enlight-tour-browser__card-cta">Open lesson →</div>
+        <div className="ace-tour-browser__card-cta">Open lesson →</div>
       </div>
     </TourBrowserMock>
   )

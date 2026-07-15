@@ -21,10 +21,10 @@ export function SocialProfileCard() {
 
   if (!user) {
     return (
-      <section className="enlight-social-profile enlight-social-profile--guest">
+      <section className="ace-social-profile ace-social-profile--guest">
         <div>
-          <h2 className="enlight-heading-serif">Your profile</h2>
-          <p className="enlight-body-text">Sign in to customize your profile, medals, and achievements.</p>
+          <h2 className="ace-heading-serif">Your profile</h2>
+          <p className="ace-body-text">Sign in to customize your profile, medals, and achievements.</p>
         </div>
         <EnlightButton to="/features">Sign in →</EnlightButton>
       </section>
@@ -32,7 +32,7 @@ export function SocialProfileCard() {
   }
 
   if (!cloud) {
-    return <p className="enlight-body-text">Loading profile…</p>
+    return <p className="ace-body-text">Loading profile…</p>
   }
 
   const merged: CloudProfile = {

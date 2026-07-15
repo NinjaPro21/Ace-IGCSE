@@ -82,9 +82,9 @@ function Grid({ xMin, xMax, yMin, yMax }: { xMin: number; xMax: number; yMin: nu
 
 function VecLegend({ items }: { items: { color: string; label: string; dashed?: boolean }[] }) {
   return (
-    <div className="enlight-vec-legend">
+    <div className="ace-vec-legend">
       {items.map((item) => (
-        <div key={item.label} className="enlight-vec-legend__item">
+        <div key={item.label} className="ace-vec-legend__item">
           <svg width={28} height={12} aria-hidden="true">
             <line x1={2} y1={6} x2={26} y2={6} stroke={item.color} strokeWidth={2.5} strokeDasharray={item.dashed ? '4 3' : undefined} />
           </svg>
@@ -117,13 +117,13 @@ function DisplacementPanel() {
   const cmy = toSvgY(ay, yMin, yMax)
 
   return (
-    <div className="enlight-vec-panel">
-      <p className="enlight-guide-panel__intro">
+    <div className="ace-vec-panel">
+      <p className="ace-guide-panel__intro">
         Displacement from A to B: <strong>AB⃗ = b − a</strong> (end minus start).
       </p>
 
-      <div className="enlight-vec-layout">
-        <svg className="enlight-vec-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Displacement vector">
+      <div className="ace-vec-layout">
+        <svg className="ace-vec-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Displacement vector">
           <Grid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} />
           {/* Position vectors — dashed, no labels on arrows */}
           <VectorArrow x1={ox} y1={oy} x2={sax} y2={say} color="#94a3b8" width={2} dashed />
@@ -153,22 +153,22 @@ function DisplacementPanel() {
           </text>
         </svg>
 
-        <div className="enlight-vec-side">
+        <div className="ace-vec-side">
           <VecLegend
             items={[
               { color: '#94a3b8', label: 'Position vectors a, b', dashed: true },
               { color: '#d97706', label: 'Displacement AB⃗ = b − a' },
             ]}
           />
-          <div className="enlight-vec-cards">
-            <div className="enlight-vec-card">
-              <div className="enlight-vec-card__label">Position vectors</div>
-              <div className="enlight-vec-card__eq">a = (2, 1)</div>
-              <div className="enlight-vec-card__eq">b = (5, 5)</div>
+          <div className="ace-vec-cards">
+            <div className="ace-vec-card">
+              <div className="ace-vec-card__label">Position vectors</div>
+              <div className="ace-vec-card__eq">a = (2, 1)</div>
+              <div className="ace-vec-card__eq">b = (5, 5)</div>
             </div>
-            <div className="enlight-vec-card enlight-vec-card--highlight">
-              <div className="enlight-vec-card__label">Displacement</div>
-              <div className="enlight-vec-card__eq">
+            <div className="ace-vec-card ace-vec-card--highlight">
+              <div className="ace-vec-card__label">Displacement</div>
+              <div className="ace-vec-card__eq">
                 AB⃗ = (5−2, 5−1) = <strong>({dx}, {dy})</strong>
               </div>
             </div>
@@ -198,13 +198,13 @@ function MagnitudePanel() {
   const legY = toSvgY(0, yMin, yMax)
 
   return (
-    <div className="enlight-vec-panel">
-      <p className="enlight-guide-panel__intro">
+    <div className="ace-vec-panel">
+      <p className="ace-guide-panel__intro">
         Magnitude from Pythagoras: <strong>|r| = √(x² + y²)</strong>. Unit vector scales to length 1.
       </p>
 
-      <div className="enlight-vec-layout">
-        <svg className="enlight-vec-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Magnitude and unit vector">
+      <div className="ace-vec-layout">
+        <svg className="ace-vec-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Magnitude and unit vector">
           <Grid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} />
           {/* Right triangle components */}
           <line x1={ox} y1={oy} x2={legX} y2={legY} stroke="#cbd5e1" strokeWidth={1.5} strokeDasharray="5 4" />
@@ -224,10 +224,10 @@ function MagnitudePanel() {
           <circle cx={ex} cy={ey} r={5} fill="#d97706" stroke="#fff" strokeWidth={1.5} />
         </svg>
 
-        <div className="enlight-vec-side">
-          <div className="enlight-vec-unit-box">
-            <div className="enlight-vec-unit-box__title">Unit vector r̂ (length = 1)</div>
-            <svg viewBox="0 0 200 100" className="enlight-vec-unit-box__svg" aria-hidden="true">
+        <div className="ace-vec-side">
+          <div className="ace-vec-unit-box">
+            <div className="ace-vec-unit-box__title">Unit vector r̂ (length = 1)</div>
+            <svg viewBox="0 0 200 100" className="ace-vec-unit-box__svg" aria-hidden="true">
               <line x1={20} y1={80} x2={180} y2={80} stroke="#a8a29e" strokeWidth={1.5} />
               <line x1={20} y1={80} x2={20} y2={20} stroke="#a8a29e" strokeWidth={1.5} />
               <VectorArrow x1={20} y1={80} x2={104} y2={16} color="#059669" width={2.5} />
@@ -240,14 +240,14 @@ function MagnitudePanel() {
               </text>
             </svg>
           </div>
-          <div className="enlight-vec-cards">
-            <div className="enlight-vec-card">
-              <div className="enlight-vec-card__label">Magnitude</div>
-              <div className="enlight-vec-card__eq">|r| = √(3² + 4²) = <strong>{mag}</strong></div>
+          <div className="ace-vec-cards">
+            <div className="ace-vec-card">
+              <div className="ace-vec-card__label">Magnitude</div>
+              <div className="ace-vec-card__eq">|r| = √(3² + 4²) = <strong>{mag}</strong></div>
             </div>
-            <div className="enlight-vec-card enlight-vec-card--highlight">
-              <div className="enlight-vec-card__label">Unit vector</div>
-              <div className="enlight-vec-card__eq">
+            <div className="ace-vec-card ace-vec-card--highlight">
+              <div className="ace-vec-card__label">Unit vector</div>
+              <div className="ace-vec-card__eq">
                 r̂ = (1/5)(3, 4) = <strong>({ux}, {uy})</strong>
               </div>
             </div>
@@ -287,12 +287,12 @@ function MotionPanel() {
   const vTipY = toSvgY(pos.y + v.y * vScale, yMin, yMax)
 
   return (
-    <div className="enlight-vec-panel">
-      <p className="enlight-guide-panel__intro">
+    <div className="ace-vec-panel">
+      <p className="ace-guide-panel__intro">
         Constant velocity: <strong>r = r₀ + vt</strong>. The velocity vector v shows direction &amp; rate of change.
       </p>
 
-      <div className="enlight-slider-group">
+      <div className="ace-slider-group">
         <label htmlFor="vec-t">
           <strong>t</strong> = {t.toFixed(1)} s &nbsp;·&nbsp; r = ({pos.x.toFixed(1)}, {pos.y.toFixed(1)}) &nbsp;·&nbsp; speed ={' '}
           {speed.toFixed(2)} units/s
@@ -300,8 +300,8 @@ function MotionPanel() {
         <input id="vec-t" type="range" min={0} max={5} step={0.1} value={t} onChange={(e) => setT(Number(e.target.value))} />
       </div>
 
-      <div className="enlight-vec-layout">
-        <svg className="enlight-vec-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Vector motion">
+      <div className="ace-vec-layout">
+        <svg className="ace-vec-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Vector motion">
           <Grid xMin={xMin} xMax={xMax} yMin={yMin} yMax={yMax} />
           <polyline points={pathPts} fill="none" stroke="#cbd5e1" strokeWidth={2} strokeDasharray="6 4" />
           {/* Displacement from start to current — subtle */}
@@ -321,7 +321,7 @@ function MotionPanel() {
           </text>
         </svg>
 
-        <div className="enlight-vec-side">
+        <div className="ace-vec-side">
           <VecLegend
             items={[
               { color: '#cbd5e1', label: 'Path (constant v)', dashed: true },
@@ -329,18 +329,18 @@ function MotionPanel() {
               { color: '#059669', label: 'Velocity v' },
             ]}
           />
-          <div className="enlight-vec-cards">
-            <div className="enlight-vec-card">
-              <div className="enlight-vec-card__label">Given</div>
-              <div className="enlight-vec-card__eq">r₀ = (1, 2)</div>
-              <div className="enlight-vec-card__eq">v = (3, −1)</div>
+          <div className="ace-vec-cards">
+            <div className="ace-vec-card">
+              <div className="ace-vec-card__label">Given</div>
+              <div className="ace-vec-card__eq">r₀ = (1, 2)</div>
+              <div className="ace-vec-card__eq">v = (3, −1)</div>
             </div>
-            <div className="enlight-vec-card enlight-vec-card--highlight">
-              <div className="enlight-vec-card__label">At t = {t.toFixed(1)}</div>
-              <div className="enlight-vec-card__eq">
+            <div className="ace-vec-card ace-vec-card--highlight">
+              <div className="ace-vec-card__label">At t = {t.toFixed(1)}</div>
+              <div className="ace-vec-card__eq">
                 r = (1, 2) + {t.toFixed(1)}(3, −1)
               </div>
-              <div className="enlight-vec-card__eq">
+              <div className="ace-vec-card__eq">
                 = <strong>({pos.x.toFixed(1)}, {pos.y.toFixed(1)})</strong>
               </div>
             </div>
@@ -377,13 +377,13 @@ export function VectorsVisualGuide({ panels }: { panels?: VectorGuidePanel[] }) 
   const meta = META[current]
 
   return (
-    <section className="enlight-explorer enlight-vec-guide">
-      <h2 className="enlight-explorer__title">{meta.title}</h2>
-      <p className="enlight-body-text enlight-guide__intro">{meta.intro}</p>
+    <section className="ace-explorer ace-vec-guide">
+      <h2 className="ace-explorer__title">{meta.title}</h2>
+      <p className="ace-body-text ace-guide__intro">{meta.intro}</p>
       {active.length > 1 && (
-        <div className="enlight-guide-tabs enlight-guide-tabs--vec">
+        <div className="ace-guide-tabs ace-guide-tabs--vec">
           {active.map((id) => (
-            <button key={id} type="button" className={`enlight-guide-tabs__btn${current === id ? ' enlight-guide-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
+            <button key={id} type="button" className={`ace-guide-tabs__btn${current === id ? ' ace-guide-tabs__btn--active' : ''}`} onClick={() => setTab(id)}>
               {META[id].label}
             </button>
           ))}

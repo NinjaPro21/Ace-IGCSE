@@ -75,41 +75,41 @@ export function CircleCircleExplorer() {
   const diffR = Math.abs(r1 - r2)
 
   return (
-    <section className="enlight-explorer">
-      <h2 className="enlight-explorer__title">Two Circles — Intersection Explorer</h2>
-      <p className="enlight-body-text" style={{ marginBottom: 16 }}>
+    <section className="ace-explorer">
+      <h2 className="ace-explorer__title">Two Circles — Intersection Explorer</h2>
+      <p className="ace-body-text" style={{ marginBottom: 16 }}>
         Compare the distance between centres with <strong>r₁ + r₂</strong> and <strong>|r₁ − r₂|</strong> to see
         whether the circles are separate, tangent, or intersecting.
       </p>
 
-      <div className="enlight-explorer__layout">
+      <div className="ace-explorer__layout">
         <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__label">Circle 1 (purple)</div>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__label">Circle 1 (purple)</div>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
               Centre (0, 0), r = {r1}
             </div>
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="cc-r1">
               <strong>r₁</strong> = {r1}
             </label>
             <input id="cc-r1" type="range" min={1} max={5} step={0.25} value={r1} onChange={(e) => setR1(Number(e.target.value))} />
           </div>
 
-          <div className="enlight-discriminant-display">
-            <div className="enlight-discriminant-display__label">Circle 2 (teal)</div>
-            <div className="enlight-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
+          <div className="ace-discriminant-display">
+            <div className="ace-discriminant-display__label">Circle 2 (teal)</div>
+            <div className="ace-discriminant-display__value" style={{ fontSize: '0.95rem' }}>
               Centre ({d}, 0), r = {r2}
             </div>
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="cc-r2">
               <strong>r₂</strong> = {r2}
             </label>
             <input id="cc-r2" type="range" min={1} max={5} step={0.25} value={r2} onChange={(e) => setR2(Number(e.target.value))} />
           </div>
-          <div className="enlight-slider-group">
+          <div className="ace-slider-group">
             <label htmlFor="cc-d">
               <strong>Distance d</strong> between centres = {d}
             </label>
@@ -132,7 +132,7 @@ export function CircleCircleExplorer() {
           </div>
 
           {points.length > 0 && (
-            <div style={{ fontSize: '0.82rem', color: 'var(--enlight-text-light)' }}>
+            <div style={{ fontSize: '0.82rem', color: 'var(--ace-text-light)' }}>
               {points.map((p, i) => (
                 <div key={i}>
                   Point {points.length > 1 ? i + 1 : ''}: ({p.x.toFixed(2)}, {p.y.toFixed(2)})
@@ -142,7 +142,7 @@ export function CircleCircleExplorer() {
           )}
         </div>
 
-        <svg className="enlight-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Two circles intersection graph">
+        <svg className="ace-graph-canvas" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Two circles intersection graph">
           {[...Array(17)].map((_, i) => {
             const x = X_MIN + (i * (X_MAX - X_MIN)) / 16
             return <line key={`v${i}`} x1={toSvgX(x)} y1={0} x2={toSvgX(x)} y2={H} stroke={GRAPH.grid} strokeWidth={1} />

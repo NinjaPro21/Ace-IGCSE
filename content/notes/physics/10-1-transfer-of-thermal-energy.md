@@ -27,7 +27,7 @@ Whether you are warming your hands by a campfire or feeling the chill of an ice 
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Conduction in a metal">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 120" width="360" height="120" role="img" aria-label="Conduction in a metal">
       <rect x="30" y="45" width="300" height="30" rx="4" fill="#e2e8f0" stroke="#64748b"/>
       <rect x="30" y="45" width="60" height="30" rx="4" fill="#fecaca" opacity="0.7"/>
       <circle cx="70" cy="60" r="4" fill="#dc2626"/><circle cx="110" cy="60" r="4" fill="#64748b"/><circle cx="150" cy="60" r="4" fill="#64748b"/>
@@ -35,9 +35,9 @@ Whether you are warming your hands by a campfire or feeling the chill of an ice 
       <circle cx="95" cy="55" r="2" fill="#2563eb"/><circle cx="130" cy="65" r="2" fill="#2563eb"/><circle cx="175" cy="58" r="2" fill="#2563eb"/>
       <text x="60" y="40" font-size="9" fill="#dc2626">hot end</text>
       <text x="180" y="100" text-anchor="middle" font-size="10" fill="#475569">electrons carry energy →</text>
-    </svg><p class="enlight-physics-diagram__caption">Conduction in metals — free electrons collide with lattice ions and transfer kinetic energy along the rod.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Conduction in metals — free electrons collide with lattice ions and transfer kinetic energy along the rod.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Convection current full cycle">
+<div class="ace-physics-diagram"><svg viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="Convection current full cycle">
       <defs><marker id="cvRise" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ef4444"/></marker><marker id="cvSink" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
       <rect x="80" y="35" width="200" height="190" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" rx="4"/>
       <rect x="130" y="205" width="100" height="14" fill="#dc2626" rx="3"/>
@@ -46,9 +46,9 @@ Whether you are warming your hands by a campfire or feeling the chill of an ice 
       <path d="M110 55 Q95 130 110 200" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#cvSink)"/>
       <path d="M250 55 Q265 130 250 200" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#cvSink)"/>
       <text x="88" y="130" font-size="9" fill="#2563eb">cool air sinks</text>
-    </svg><p class="enlight-physics-diagram__caption">Convection current — warm air rises above the heat source, cools at the top, and sinks down the sides.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Convection current — warm air rises above the heat source, cools at the top, and sinks down the sides.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
+<div class="ace-physics-diagram"><svg viewBox="0 0 480 250" width="480" height="250" role="img" aria-label="Convection with heater and air conditioner">
       <defs><marker id="cvR2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ef4444"/></marker><marker id="cvS2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker></defs>
       <text x="115" y="18" text-anchor="middle" font-size="11" font-weight="600">Heater on floor</text>
       <rect x="30" y="30" width="170" height="185" fill="#f8fafc" stroke="#94a3b8"/>
@@ -60,9 +60,9 @@ Whether you are warming your hands by a campfire or feeling the chill of an ice 
       <rect x="325" y="38" width="80" height="12" fill="#38bdf8" rx="2"/>
       <line x1="365" y1="52" x2="365" y2="190" stroke="#2563eb" stroke-width="3" marker-end="url(#cvS2)"/>
       <line x1="310" y1="190" x2="310" y2="55" stroke="#ef4444" stroke-width="2.5" marker-end="url(#cvR2)"/>
-    </svg><p class="enlight-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Heater vs air-con — hot air rises, cool air sinks. A floor heater warms air upward; a ceiling air-con pushes cool air down.</p></div>
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 140" width="360" height="140" role="img" aria-label="Thermal radiation">
       <rect x="40" y="50" width="50" height="40" fill="#1e293b" stroke="#334155"/>
       <text x="65" y="75" text-anchor="middle" font-size="9" fill="#fff">hot</text>
       <path d="M95 60 Q130 40 165 60" fill="none" stroke="#f97316" stroke-width="2"/>
@@ -71,7 +71,7 @@ Whether you are warming your hands by a campfire or feeling the chill of an ice 
       <text x="130" y="35" text-anchor="middle" font-size="10" fill="#f97316">IR waves</text>
       <rect x="200" y="50" width="120" height="40" fill="#f8fafc" stroke="#cbd5e1"/>
       <text x="260" y="75" text-anchor="middle" font-size="10" fill="#64748b">absorber (no contact needed)</text>
-    </svg><p class="enlight-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Thermal radiation — infrared waves transfer energy without a medium; dark matt surfaces are good absorbers and emitters.</p></div>
 
 ## Steps / method
 

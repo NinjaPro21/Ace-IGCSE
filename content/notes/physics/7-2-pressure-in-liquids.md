@@ -34,7 +34,7 @@ Used when calculating the actual pressure an object experiences — you must add
 - **Same depth** → same pressure (even in connected containers).
 - **Total pressure**: $P_{\text{total}} = P_{\text{atm}} + \rho g h$.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 540 350" width="540" height="350" role="img" aria-label="Liquid pressure increasing with depth">
+<div class="ace-physics-diagram"><svg viewBox="0 0 540 350" width="540" height="350" role="img" aria-label="Liquid pressure increasing with depth">
       <defs>
         <marker id="pj-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
         <marker id="pa-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
@@ -66,7 +66,7 @@ Used when calculating the actual pressure an object experiences — you must add
       <line x1="292" y1="260" x2="352" y2="260" stroke="#64748b" stroke-width="5.5" marker-end="url(#pa-arr)"/>
       <text x="400" y="264" text-anchor="middle" font-size="12" fill="#334155" font-weight="700">p₃ highest</text>
       <text x="270" y="325" text-anchor="middle" font-size="11" fill="#475569">Pressure and jet strength increase with depth</text>
-    </svg><p class="enlight-physics-diagram__caption">Liquid pressure increases with depth — water jets shoot further from lower holes; pressure at the bottom is greatest.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Liquid pressure increases with depth — water jets shoot further from lower holes; pressure at the bottom is greatest.</p></div>
 
 **Pressure–depth diagram**
 

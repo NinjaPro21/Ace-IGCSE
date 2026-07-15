@@ -215,8 +215,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [user])
 
-  const resolveAdmin = useCallback(async (uid: string) => {
-    const ok = await checkIsAdmin(uid)
+  const resolveAdmin = useCallback(async (uid: string, email?: string) => {
+    const ok = await checkIsAdmin(uid, email)
     setIsAdmin(ok)
     setAdminChecked(true)
   }, [])
@@ -227,7 +227,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
       const authUser = firebaseUserToAuthUser(firebaseUser)
       const uid = firebaseUser.uid
-      void resolveAdmin(uid)
+      void resolveAdmin(uid, authUser.email)
 
       const local = masteryEngine.getState()
       if (local.ownerUserId && local.ownerUserId !== uid) {
@@ -340,7 +340,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [hydrateSession])
 
   useEffect(() => {
-    // Study sessions emit 'enlight-progress' every ~10s. Syncing the full
+    // Study sessions emit 'ace-progress' every ~10s. Syncing the full
     // profile (1 read + 3 writes) on each event was ~1k writes/hour per
     // active student. Instead: light sync (2 writes) at most once a minute,
     // heavy sync (private progress blob) at most every 5 minutes, with a
@@ -372,10 +372,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       void syncProgressNow()
     }
 
-    window.addEventListener('enlight-progress', scheduleSync)
+    window.addEventListener('ace-progress', scheduleSync)
     document.addEventListener('visibilitychange', flushOnHide)
     return () => {
-      window.removeEventListener('enlight-progress', scheduleSync)
+      window.removeEventListener('ace-progress', scheduleSync)
       document.removeEventListener('visibilitychange', flushOnHide)
       if (syncTimer.current) clearTimeout(syncTimer.current)
     }

@@ -16,7 +16,7 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 320 240" width="320" height="240" role="img" aria-label="Line segment on coordinate plane">
+<div class="ace-physics-diagram"><svg viewBox="0 0 320 240" width="320" height="240" role="img" aria-label="Line segment on coordinate plane">
       <line x1="160" y1="20" x2="160" y2="220" stroke="#e8e2d8"/>
       <line x1="20" y1="180" x2="300" y2="180" stroke="#e8e2d8"/>
       <line x1="80" y1="200" x2="240" y2="80" stroke="#5b8def" stroke-width="2.5"/>
@@ -30,7 +30,7 @@ $$
       <line x1="160" y1="140" x2="160" y2="200" stroke="#a8a29e" stroke-dasharray="3 2"/>
       <text x="118" y="175" font-size="9" fill="#6b6b6b">rise</text>
       <text x="165" y="195" font-size="9" fill="#6b6b6b">run</text>
-    </svg><p class="enlight-physics-diagram__caption">Line segment — gradient $m = \frac{y_2 - y_1}{x_2 - x_1}$; midpoint is the average of the coordinates.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Line segment — gradient $m = \frac{y_2 - y_1}{x_2 - x_1}$; midpoint is the average of the coordinates.</p></div>
 
 ## Steps / method
 

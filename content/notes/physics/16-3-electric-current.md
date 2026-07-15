@@ -44,7 +44,7 @@ Metals are good conductors because their atoms have free electrons that can move
 
 - Ammeter connected in series — same current passes through every component.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Circuit with ammeter in series">
+<div class="ace-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Circuit with ammeter in series">
       <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
       </g>
@@ -63,7 +63,7 @@ Metals are good conductors because their atoms have free electrons that can move
       <text x="173" y="129" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">A</text>
       <text x="173" y="152" text-anchor="middle" font-size="8" fill="#64748b">ammeter in series</text>
       <text x="190" y="165" text-anchor="middle" font-size="10" fill="#475569">single loop — same current everywhere</text>
-    </svg><p class="enlight-physics-diagram__caption">Measuring current — ammeter connected in series; conventional current enters the + terminal.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Measuring current — ammeter connected in series; conventional current enters the + terminal.</p></div>
 
 ## Worked example — Calculating charge
 

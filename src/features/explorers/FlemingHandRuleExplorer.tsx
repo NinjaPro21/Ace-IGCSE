@@ -314,13 +314,13 @@ function HandCanvas({
   }, [draw])
 
   return (
-    <div className={`enlight-fleming-3d__stage${compact ? ' enlight-fleming-3d__stage--compact' : ''}`}>
-      <canvas ref={canvasRef} className="enlight-fleming-3d__canvas" aria-hidden="true" />
-      <div className="enlight-fleming-3d__labels" aria-hidden="true">
+    <div className={`ace-fleming-3d__stage${compact ? ' ace-fleming-3d__stage--compact' : ''}`}>
+      <canvas ref={canvasRef} className="ace-fleming-3d__canvas" aria-hidden="true" />
+      <div className="ace-fleming-3d__labels" aria-hidden="true">
         {labels.map((lb) => (
           <div
             key={lb.key}
-            className="enlight-fleming-3d__label"
+            className="ace-fleming-3d__label"
             style={{
               left: lb.sx + lb.offsetX,
               top: lb.sy + lb.offsetY,
@@ -365,10 +365,10 @@ function HandView({ hand, compact }: { hand: FlemingHand; compact?: boolean }) {
       : "Fleming's Right-Hand Rule (Generator / Induction)"
 
   return (
-    <div className={`enlight-fleming-3d${compact ? ' enlight-fleming-3d--compact' : ''}`}>
-      {!compact ? <h3 className="enlight-fleming-3d__title">{title}</h3> : null}
+    <div className={`ace-fleming-3d${compact ? ' ace-fleming-3d--compact' : ''}`}>
+      {!compact ? <h3 className="ace-fleming-3d__title">{title}</h3> : null}
       <div
-        className="enlight-fleming-3d__viewport"
+        className="ace-fleming-3d__viewport"
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
@@ -377,16 +377,16 @@ function HandView({ hand, compact }: { hand: FlemingHand; compact?: boolean }) {
         aria-label={`Interactive 3D ${hand} hand showing Fleming's rule with draggable rotation`}
       >
         <HandCanvas hand={hand} yaw={yaw} pitch={pitch} compact={compact} />
-        <p className="enlight-fleming-3d__hint">Drag to rotate · thumb, 1st &amp; 2nd fingers at 90°</p>
+        <p className="ace-fleming-3d__hint">Drag to rotate · thumb, 1st &amp; 2nd fingers at 90°</p>
       </div>
-      <div className="enlight-fleming-3d__legend">
-        <span className="enlight-fleming-3d__chip" style={{ '--chip-color': hand === 'left' ? COLORS.force : COLORS.motion } as CSSProperties}>
+      <div className="ace-fleming-3d__legend">
+        <span className="ace-fleming-3d__chip" style={{ '--chip-color': hand === 'left' ? COLORS.force : COLORS.motion } as CSSProperties}>
           {hand === 'left' ? 'Thumb → Force' : 'Thumb → Motion'}
         </span>
-        <span className="enlight-fleming-3d__chip" style={{ '--chip-color': COLORS.field } as CSSProperties}>
+        <span className="ace-fleming-3d__chip" style={{ '--chip-color': COLORS.field } as CSSProperties}>
           1st finger → Field
         </span>
-        <span className="enlight-fleming-3d__chip" style={{ '--chip-color': COLORS.current } as CSSProperties}>
+        <span className="ace-fleming-3d__chip" style={{ '--chip-color': COLORS.current } as CSSProperties}>
           2nd finger → Current
         </span>
       </div>
@@ -414,19 +414,19 @@ export function FlemingHandRuleExplorer({
   const activeHand = hand ?? PANEL_META[active].hand
 
   return (
-    <section className={`enlight-explorer enlight-fleming-explorer${compact ? ' enlight-fleming-explorer--compact' : ''}`}>
+    <section className={`ace-explorer ace-fleming-explorer${compact ? ' ace-fleming-explorer--compact' : ''}`}>
       {!compact ? (
-        <h2 className="enlight-explorer__title">Interactive 3D — Fleming&apos;s Hand Rules</h2>
+        <h2 className="ace-explorer__title">Interactive 3D — Fleming&apos;s Hand Rules</h2>
       ) : null}
       {showTabs ? (
-        <div className="enlight-fleming-explorer__tabs" role="tablist">
+        <div className="ace-fleming-explorer__tabs" role="tablist">
           {available.map((id) => (
             <button
               key={id}
               type="button"
               role="tab"
               aria-selected={active === id}
-              className={`enlight-fleming-explorer__tab${active === id ? ' enlight-fleming-explorer__tab--active' : ''}`}
+              className={`ace-fleming-explorer__tab${active === id ? ' ace-fleming-explorer__tab--active' : ''}`}
               onClick={() => setActive(id)}
             >
               {PANEL_META[id].label}
@@ -435,7 +435,7 @@ export function FlemingHandRuleExplorer({
         </div>
       ) : null}
       <HandView hand={activeHand} compact={compact} />
-      <p className="enlight-fleming-3d__caption">
+      <p className="ace-fleming-3d__caption">
         {hand
           ? PANEL_META[hand === 'left' ? 'left-hand' : 'right-hand'].caption
           : PANEL_META[active].caption}
@@ -445,7 +445,7 @@ export function FlemingHandRuleExplorer({
 }
 
 export function parseFlemingHandFromDiagram(diagram: string): FlemingHand | null {
-  if (!diagram.includes('enlight-fleming-3d')) return null
+  if (!diagram.includes('ace-fleming-3d')) return null
   if (/data-hand="right"/.test(diagram)) return 'right'
   if (/data-hand="left"/.test(diagram)) return 'left'
   if (/Right-Hand|right-hand rule/i.test(diagram)) return 'right'

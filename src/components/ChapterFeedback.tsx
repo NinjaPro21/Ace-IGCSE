@@ -22,12 +22,12 @@ export function ChapterFeedback({ chapterId, subject }: ChapterFeedbackProps) {
   }
 
   return (
-    <div className="enlight-chapter-feedback">
-      <span className="enlight-chapter-feedback__label">Was this chapter helpful?</span>
-      <div className="enlight-chapter-feedback__actions">
+    <div className="ace-chapter-feedback">
+      <span className="ace-chapter-feedback__label">Was this chapter helpful?</span>
+      <div className="ace-chapter-feedback__actions">
         <button
           type="button"
-          className={`enlight-chapter-feedback__btn${vote === 'up' ? ' enlight-chapter-feedback__btn--active' : ''}`}
+          className={`ace-chapter-feedback__btn${vote === 'up' ? ' ace-chapter-feedback__btn--active' : ''}`}
           onClick={() => handleVote('up')}
           disabled={vote !== null}
           aria-label="Thumbs up"
@@ -36,7 +36,7 @@ export function ChapterFeedback({ chapterId, subject }: ChapterFeedbackProps) {
         </button>
         <button
           type="button"
-          className={`enlight-chapter-feedback__btn${vote === 'down' ? ' enlight-chapter-feedback__btn--active' : ''}`}
+          className={`ace-chapter-feedback__btn${vote === 'down' ? ' ace-chapter-feedback__btn--active' : ''}`}
           onClick={() => handleVote('down')}
           disabled={vote !== null}
           aria-label="Thumbs down"
@@ -44,7 +44,7 @@ export function ChapterFeedback({ chapterId, subject }: ChapterFeedbackProps) {
           👎
         </button>
       </div>
-      {vote && <span className="enlight-chapter-feedback__thanks">Thanks for your feedback!</span>}
+      {vote && <span className="ace-chapter-feedback__thanks">Thanks for your feedback!</span>}
     </div>
   )
 }

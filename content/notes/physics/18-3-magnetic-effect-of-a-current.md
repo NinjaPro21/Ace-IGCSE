@@ -39,20 +39,20 @@ A long coil of wire produces a field like a bar magnet — N pole at one end, S 
 - Current-carrying wire through a horizontal cardboard; concentric circular field lines viewed from above.
 - Field strongest near the wire; direction from the right-hand grip rule.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="wire-field"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="wire-field"></div>
 
 **Right-hand grip rule**
 
 - 3D shaded hand gripping the wire — thumb along **I** (green), curled fingers show **B** (blue).
 - Prevents confusion between current direction and circular field orientation.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="grip-rule"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="grip-rule"></div>
 
 **Solenoid field**
 
 - Parallel uniform field lines inside the coil; loops outside mimic a bar magnet with N and S poles.
 
-<div class="enlight-em-3d enlight-physics-diagram" data-scene="solenoid-field"></div>
+<div class="ace-em-3d ace-physics-diagram" data-scene="solenoid-field"></div>
 
 ## Quick check
 

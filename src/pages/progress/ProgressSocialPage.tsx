@@ -19,15 +19,15 @@ export function ProgressSocialPage() {
   return (
     <>
       <EnlightSectionLabel>Social</EnlightSectionLabel>
-      <h1 className="enlight-heading-serif">Leaderboards & friends</h1>
-      <p className="enlight-body-text enlight-progress-page__intro">
+      <h1 className="ace-heading-serif">Leaderboards & friends</h1>
+      <p className="ace-body-text ace-progress-page__intro">
         Compare progress with classmates, add friends, and join weekly challenges.
       </p>
 
       <LeaderboardHub />
       <WeeklyChallengeCard />
 
-      <section id="friends" className="enlight-progress-anchor-section">
+      <section id="friends" className="ace-progress-anchor-section">
         <FriendsPanel />
       </section>
 

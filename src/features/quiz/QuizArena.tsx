@@ -257,9 +257,9 @@ export function QuizArena() {
 
   if (!chapter || (isTopicQuiz && !topic)) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
+        <div className="ace-quiz">
           <p>Quiz not found.</p>
           <Link to="/">Go home</Link>
         </div>
@@ -269,10 +269,10 @@ export function QuizArena() {
 
   if (quizLoading || (duelId && duelLoading)) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
-          <p className="enlight-body-text">Loading quiz…</p>
+        <div className="ace-quiz">
+          <p className="ace-body-text">Loading quiz…</p>
         </div>
       </div>
     )
@@ -287,10 +287,10 @@ export function QuizArena() {
       pending && user && duel.opponentUid === user.id
 
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
-          <h2 className="enlight-heading-serif">
+        <div className="ace-quiz">
+          <h2 className="ace-heading-serif">
             {alreadySubmitted
               ? 'Score submitted'
               : waitingAccept
@@ -299,7 +299,7 @@ export function QuizArena() {
                   ? 'Accept the duel first'
                   : 'Duel unavailable'}
           </h2>
-          <p className="enlight-body-text">
+          <p className="ace-body-text">
             {alreadySubmitted
               ? 'Your duel score is in — waiting for your opponent to finish.'
               : waitingAccept
@@ -318,11 +318,11 @@ export function QuizArena() {
 
   if (duelId && !duel && !duelLoading) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
-          <h2 className="enlight-heading-serif">Duel not found</h2>
-          <p className="enlight-body-text">This duel may have expired or been removed.</p>
+        <div className="ace-quiz">
+          <h2 className="ace-heading-serif">Duel not found</h2>
+          <p className="ace-body-text">This duel may have expired or been removed.</p>
           <EnlightButton to="/social" variant="outline">
             Back to Social
           </EnlightButton>
@@ -333,9 +333,9 @@ export function QuizArena() {
 
   if (!quiz || quizError) {
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
+        <div className="ace-quiz">
           <p>Quiz not found.</p>
           <Link to="/">Go home</Link>
         </div>
@@ -346,11 +346,11 @@ export function QuizArena() {
   if (!canTake) {
     const backTopic = isTopicQuiz ? topic : getTopicsForChapter(chapterId)[0]
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
-          <h2 className="enlight-heading-serif">{alreadyPassed ? 'Already passed' : 'Locked'}</h2>
-          <p className="enlight-body-text">
+        <div className="ace-quiz">
+          <h2 className="ace-heading-serif">{alreadyPassed ? 'Already passed' : 'Locked'}</h2>
+          <p className="ace-body-text">
             {alreadyPassed
               ? `You already passed ${DIFF_LABEL[diff]}. Challenge a friend to a duel to play again without XP.`
               : diff === 'easy'
@@ -378,11 +378,11 @@ export function QuizArena() {
         ? `/subjects/${chapter.subjectId}/chapters/${chapter.id}/topics/${topicId}`
         : `/subjects/${chapter.subjectId}/chapters/${chapter.id}`
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
-          <h2 className="enlight-heading-serif">Quiz coming soon</h2>
-          <p className="enlight-body-text">
+        <div className="ace-quiz">
+          <h2 className="ace-heading-serif">Quiz coming soon</h2>
+          <p className="ace-body-text">
             {quiz?.pending
               ? 'Questions for this section are being finalised. Check back after the next content import.'
               : 'No questions are available for this quiz yet.'}
@@ -511,17 +511,17 @@ export function QuizArena() {
     const wrongCount = Math.max(0, answeredCount - correctCount)
 
     return (
-      <div className="enlight-app">
+      <div className="ace-app">
         <EnlightHeader />
-        <div className="enlight-quiz">
-          <div className="enlight-quiz__result">
-            <div className="enlight-quiz__scope-header">
+        <div className="ace-quiz">
+          <div className="ace-quiz__result">
+            <div className="ace-quiz__scope-header">
               <QuizScopeBadge scope={isTopicQuiz ? 'section' : 'chapter'} />
               <EnlightSectionLabel>{quiz.title}</EnlightSectionLabel>
             </div>
-            <h2 className="enlight-heading-serif">{passed ? 'Well done!' : 'Keep practising'}</h2>
-            <div className="enlight-quiz__score">{finalScore}%</div>
-            <dl className="enlight-quiz__breakdown">
+            <h2 className="ace-heading-serif">{passed ? 'Well done!' : 'Keep practising'}</h2>
+            <div className="ace-quiz__score">{finalScore}%</div>
+            <dl className="ace-quiz__breakdown">
               <div>
                 <dt>Answered</dt>
                 <dd>{answeredCount}</dd>
@@ -535,10 +535,10 @@ export function QuizArena() {
                 <dd>{wrongCount}</dd>
               </div>
             </dl>
-            <p className="enlight-body-text">
+            <p className="ace-body-text">
               {correctCount} of {answeredCount} correct
             </p>
-            <p className="enlight-body-text">
+            <p className="ace-body-text">
               {passed
                 ? skipStudyRewards
                   ? `You passed (${quiz.passPercent}% required). Duel score recorded — no XP (quiz already completed).`
@@ -548,7 +548,7 @@ export function QuizArena() {
                 : `You need ${quiz.passPercent}% to advance. Review the notes and try again — questions shuffle on retry.`}
             </p>
             {isDuelAttempt && (
-              <p className="enlight-body-text enlight-quiz__duel-note">
+              <p className="ace-body-text ace-quiz__duel-note">
                 Duel mode — score recorded for head-to-head ({finalScore}%)
                 {duelSubmitState === 'saving' && ' · Saving…'}
                 {duelSubmitState === 'done' && ' · Saved'}
@@ -564,11 +564,11 @@ export function QuizArena() {
               notesReadMap={notesReadMap}
             />
             {!passed && weakTopics.length > 0 && (
-              <div className="enlight-quiz__weak-topics">
-                <p className="enlight-body-text" style={{ marginBottom: 8 }}>
+              <div className="ace-quiz__weak-topics">
+                <p className="ace-body-text" style={{ marginBottom: 8 }}>
                   <strong>Revisit these sections:</strong>
                 </p>
-                <ul className="enlight-quiz__weak-list">
+                <ul className="ace-quiz__weak-list">
                   {weakTopics.slice(0, 3).map((t) => (
                     <li key={t.id}>
                       <Link
@@ -582,7 +582,7 @@ export function QuizArena() {
               </div>
             )}
             {mistakeLog && <QuizMistakeLog log={mistakeLog} passed={passed} />}
-            <div className="enlight-quiz__actions">
+            <div className="ace-quiz__actions">
               {!passed && (
                 <>
                   <EnlightButton to={lessonUrl} variant="outline">
@@ -615,60 +615,60 @@ export function QuizArena() {
     : `Chapter ${chapter.number}: ${chapter.title} — ${DIFF_LABEL[diff]}`
 
   return (
-    <div className="enlight-app">
+    <div className="ace-app">
       <EnlightHeader />
-      <div className="enlight-quiz">
-        <div className="enlight-quiz__scope-header">
+      <div className="ace-quiz">
+        <div className="ace-quiz__scope-header">
           <QuizScopeBadge scope={isTopicQuiz ? 'section' : 'chapter'} />
           <EnlightSectionLabel>
             <MathText content={headerLabel} title />
           </EnlightSectionLabel>
         </div>
-        <div className="enlight-quiz__progress">
-          <div className="enlight-quiz__progress-bar" style={{ width: `${progress}%` }} />
+        <div className="ace-quiz__progress">
+          <div className="ace-quiz__progress-bar" style={{ width: `${progress}%` }} />
         </div>
-        <p className="enlight-quiz__meta">
+        <p className="ace-quiz__meta">
           Question {index + 1} of {questions.length}
         </p>
-        <h2 className="enlight-quiz__question">
+        <h2 className="ace-quiz__question">
           {question && <MathText content={question.question} block />}
         </h2>
-        <div className="enlight-quiz__options">
+        <div className="ace-quiz__options">
           {question?.options.map((opt, i) => {
-            let cls = 'enlight-quiz__option'
-            if (showFeedback && i === question.correctIndex) cls += ' enlight-quiz__option--correct'
-            else if (showFeedback && i === selected) cls += ' enlight-quiz__option--wrong'
-            else if (i === selected) cls += ' enlight-quiz__option--selected'
+            let cls = 'ace-quiz__option'
+            if (showFeedback && i === question.correctIndex) cls += ' ace-quiz__option--correct'
+            else if (showFeedback && i === selected) cls += ' ace-quiz__option--wrong'
+            else if (i === selected) cls += ' ace-quiz__option--selected'
             return (
               <button key={i} type="button" className={cls} onClick={() => handleSelect(i)}>
-                <span className="enlight-quiz__option-letter">{OPTION_LETTERS[i] ?? i + 1}</span>
+                <span className="ace-quiz__option-letter">{OPTION_LETTERS[i] ?? i + 1}</span>
                 <MathText content={opt} />
               </button>
             )
           })}
         </div>
         {showFeedback && question?.explanation && (
-          <div className="enlight-quiz__explanation">
+          <div className="ace-quiz__explanation">
             <MathText content={question.explanation} block />
           </div>
         )}
         {showFeedback && (
-          <div className="enlight-quiz__next">
+          <div className="ace-quiz__next">
             <EnlightButton onClick={handleNext}>
               {index + 1 >= questions.length ? 'See results' : 'Next question'}
             </EnlightButton>
           </div>
         )}
-        <div className="enlight-quiz__exit">
+        <div className="ace-quiz__exit">
           {exitConfirmOpen ? (
-            <span className="enlight-inline-confirm" role="group" aria-label="Confirm exit quiz">
-              <span className="enlight-inline-confirm__prompt">Leave quiz? Progress won&apos;t be saved.</span>
-              <button type="button" className="enlight-inline-confirm__yes" onClick={requestQuizExit}>
+            <span className="ace-inline-confirm" role="group" aria-label="Confirm exit quiz">
+              <span className="ace-inline-confirm__prompt">Leave quiz? Progress won&apos;t be saved.</span>
+              <button type="button" className="ace-inline-confirm__yes" onClick={requestQuizExit}>
                 Yes, leave
               </button>
               <button
                 type="button"
-                className="enlight-inline-confirm__cancel"
+                className="ace-inline-confirm__cancel"
                 onClick={() => setExitConfirmOpen(false)}
               >
                 Stay
@@ -677,7 +677,7 @@ export function QuizArena() {
           ) : (
             <button
               type="button"
-              className="enlight-header__link"
+              className="ace-header__link"
               onClick={() => setExitConfirmOpen(true)}
             >
               ← Exit quiz

@@ -36,7 +36,7 @@ A basic electric circuit has four essential parts:
 
 - Standard symbols: cell (long and short plate), lamp (circle with cross), resistor (rectangle).
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
+<div class="ace-physics-diagram"><svg viewBox="0 0 380 170" width="380" height="170" role="img" aria-label="Series circuit">
       <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 35 45 L 345 45 L 345 125 L 35 125 Z"/>
       </g>
@@ -52,13 +52,13 @@ A basic electric circuit has four essential parts:
       <rect x="214" y="39" width="32" height="12" stroke="#334155" stroke-width="2" fill="none"/>
       <text x="230" y="68" text-anchor="middle" font-size="8" fill="#64748b">resistor</text>
       <text x="190" y="152" text-anchor="middle" font-size="10" fill="#475569">one path — current is the same at every point</text>
-    </svg><p class="enlight-physics-diagram__caption">Series circuit — components in one loop; same current through each component.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Series circuit — components in one loop; same current through each component.</p></div>
 
 **Parallel circuit**
 
 - Components on separate branches between common supply rails.
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 400 190" width="400" height="190" role="img" aria-label="Parallel circuit">
+<div class="ace-physics-diagram"><svg viewBox="0 0 400 190" width="400" height="190" role="img" aria-label="Parallel circuit">
       <g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 45 50 L 355 50"/>
         <path d="M 45 50 L 45 78"/>
@@ -81,7 +81,7 @@ A basic electric circuit has four essential parts:
       <line x1="267" y1="93" x2="253" y2="107" stroke="#334155" stroke-width="2"/>
       <text x="288" y="100" font-size="8" fill="#64748b">lamp 2</text>
       <text x="200" y="175" text-anchor="middle" font-size="10" fill="#475569">two branches — same p.d. across each lamp</text>
-    </svg><p class="enlight-physics-diagram__caption">Parallel circuit — current splits between branches; same p.d. across each branch.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Parallel circuit — current splits between branches; same p.d. across each branch.</p></div>
 
 ## Quick check
 

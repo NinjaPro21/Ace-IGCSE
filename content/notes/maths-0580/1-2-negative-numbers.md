@@ -14,14 +14,14 @@ $$
 
 ## Graphs & diagrams
 
-<div class="enlight-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="Number line">
+<div class="ace-physics-diagram"><svg viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="Number line">
       <line x1="30" y1="40" x2="330" y2="40" stroke="#a8a29e" stroke-width="2"/>
       <polygon points="330,40 322,36 322,44" fill="#a8a29e"/>
       <line x1="180" y1="30" x2="180" y2="50" stroke="#b59a73" stroke-width="2"/>
       <text x="180" y="65" text-anchor="middle" font-size="11" fill="#b59a73">0</text>
       <text x="120" y="65" text-anchor="middle" font-size="10" fill="#5b8def">−3</text>
       <text x="240" y="65" text-anchor="middle" font-size="10" fill="#789671">+3</text>
-    </svg><p class="enlight-physics-diagram__caption">Number line — negative numbers lie to the left of zero; moving right means increasing value.</p></div>
+    </svg><p class="ace-physics-diagram__caption">Number line — negative numbers lie to the left of zero; moving right means increasing value.</p></div>
 
 ## Steps / method
 
