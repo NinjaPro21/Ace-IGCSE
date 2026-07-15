@@ -11560,91 +11560,218 @@ html:has(.enlight-app--lesson) {
 
 .enlight-weekly-challenge {
   margin-bottom: 24px;
-  padding: 22px 24px;
+  padding: 24px 26px;
   border-radius: 16px;
-  background: var(--enlight-card);
+  background: linear-gradient(180deg, #fff 0%, var(--enlight-bg) 160%);
   border: 1px solid var(--enlight-border);
   box-shadow: var(--enlight-shadow);
 }
 
 .enlight-weekly-challenge__head {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
-.enlight-weekly-challenge__title {
-  margin: 0 0 4px;
-  font-family: var(--enlight-font-display);
-  font-size: 1.2rem;
-  font-weight: 600;
+.enlight-weekly-challenge__head .enlight-section-label {
+  margin-bottom: 6px;
 }
 
 .enlight-weekly-challenge__group {
   margin: 0;
-  font-size: 0.82rem;
+  font-family: var(--enlight-font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--enlight-text);
+  line-height: 1.3;
+}
+
+.enlight-weekly-challenge__hero {
+  margin-bottom: 16px;
+}
+
+.enlight-weekly-challenge__xp {
+  margin: 0;
+  font-family: var(--enlight-font-display);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--enlight-text);
+}
+
+.enlight-weekly-challenge__of {
+  margin: 8px 0 0;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--enlight-text-light);
+}
+
+.enlight-weekly-challenge__bar {
+  margin-bottom: 12px;
+}
+
+.enlight-weekly-challenge__meta {
+  margin: 0 0 16px;
+  font-family: var(--enlight-font-meta);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--enlight-text-muted);
+}
+
+.enlight-weekly-challenge__action {
+  min-height: 1.2em;
 }
 
 .enlight-weekly-challenge__empty {
   margin: 0;
   font-size: 0.88rem;
   color: var(--enlight-text-light);
-}
-
-.enlight-weekly-challenge__body {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 20px 32px;
-}
-
-.enlight-weekly-challenge__placement {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
-.enlight-weekly-challenge__rank-num {
-  font-family: var(--enlight-font-display);
-  font-size: 2.4rem;
-  font-weight: 600;
-  line-height: 1;
-  color: var(--enlight-text);
-}
-
-.enlight-weekly-challenge__rank-of {
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--enlight-text-light);
-}
-
-.enlight-weekly-challenge__gap {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.enlight-weekly-challenge__gap-value {
-  font-family: var(--enlight-font-meta);
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1;
-  color: var(--enlight-gold-dark);
-  letter-spacing: -0.02em;
-}
-
-.enlight-weekly-challenge__gap-label {
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--enlight-text-light);
+  line-height: 1.45;
 }
 
 .enlight-weekly-challenge__lead {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--enlight-gold-dark);
+}
+
+/* Daily missions — editorial list */
+.enlight-daily-quests__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.enlight-daily-quests__heading {
+  margin: 0;
+  font-family: var(--enlight-font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--enlight-text);
+}
+
+.enlight-daily-quests__sub {
+  margin: 6px 0 0;
+  font-size: 0.78rem;
+  color: var(--enlight-text-light);
+}
+
+.enlight-daily-quests__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.enlight-daily-quests__count {
+  font-family: var(--enlight-font-meta);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--enlight-text-muted);
+  white-space: nowrap;
+}
+
+.enlight-daily-quests__claimed {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--enlight-gold-dark);
+}
+
+.enlight-daily-quests__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.enlight-daily-quests__row {
+  border-top: 1px solid var(--enlight-border);
+}
+
+.enlight-daily-quests__row:last-child {
+  border-bottom: 1px solid var(--enlight-border);
+}
+
+.enlight-daily-quests__link,
+.enlight-daily-quests__static {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 15px 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.enlight-daily-quests__index {
+  flex-shrink: 0;
+  width: 1.6em;
+  font-family: var(--enlight-font-meta);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
+  color: var(--enlight-gold-dark);
+}
+
+.enlight-daily-quests__body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.enlight-daily-quests__title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--enlight-text);
+}
+
+.enlight-daily-quests__desc {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--enlight-text-light);
+}
+
+.enlight-daily-quests__link:hover .enlight-daily-quests__title {
+  color: var(--enlight-gold-dark);
+}
+
+.enlight-daily-quests__row--done {
+  opacity: 0.55;
+}
+
+.enlight-daily-quests__row--done .enlight-daily-quests__title {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--enlight-text-light);
+}
+
+.enlight-daily-quests__row--done .enlight-daily-quests__index {
+  color: var(--enlight-text-light);
+}
+
+@media (max-width: 520px) {
+  .enlight-daily-quests__head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .enlight-daily-quests__aside {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .enlight-weekly-challenge__xp {
+    font-size: 2.15rem;
+  }
 }
 
 .enlight-link-btn {

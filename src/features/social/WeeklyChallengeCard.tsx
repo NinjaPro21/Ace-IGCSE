@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { EnlightButton } from '@/components/EnlightButton'
+import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { useAuth } from './AuthContext'
 import { fetchClanMemberProfiles, fetchSchoolMemberProfiles } from './socialApi'
 import { masteryEngine } from '@/features/mastery/MasteryEngine'
@@ -38,6 +39,7 @@ export function WeeklyChallengeCard() {
 
   const pct = Math.min(100, Math.round((groupXp / WEEKLY_GROUP_XP_TARGET) * 100))
   const complete = groupXp >= WEEKLY_GROUP_XP_TARGET
+  const xpLeft = Math.max(0, WEEKLY_GROUP_XP_TARGET - groupXp)
 
   const handleClaim = () => {
     if (!complete) return
@@ -48,29 +50,35 @@ export function WeeklyChallengeCard() {
   return (
     <section className="enlight-weekly-challenge" aria-label="Weekly challenge">
       <div className="enlight-weekly-challenge__head">
-        <div>
-          <h2 className="enlight-weekly-challenge__title">Weekly challenge</h2>
-          <p className="enlight-weekly-challenge__group">
-            {group.name} · Earn {WEEKLY_GROUP_XP_TARGET.toLocaleString()} XP together this week
-          </p>
-        </div>
+        <EnlightSectionLabel>Weekly challenge</EnlightSectionLabel>
+        <p className="enlight-weekly-challenge__group">{group.name}</p>
       </div>
 
-      <div className="enlight-weekly-challenge__body">
-        <div className="enlight-daily-goal-bar" aria-hidden>
-          <div className="enlight-daily-goal-bar__fill" style={{ width: `${pct}%` }} />
-        </div>
-        <p className="enlight-body-text">
-          {groupXp.toLocaleString()} / {WEEKLY_GROUP_XP_TARGET.toLocaleString()} group XP · {memberCount}{' '}
-          member{memberCount === 1 ? '' : 's'}
+      <div className="enlight-weekly-challenge__hero">
+        <p className="enlight-weekly-challenge__xp">{groupXp.toLocaleString()}</p>
+        <p className="enlight-weekly-challenge__of">
+          of {WEEKLY_GROUP_XP_TARGET.toLocaleString()} XP this week
         </p>
+      </div>
+
+      <div className="enlight-daily-goal-bar enlight-weekly-challenge__bar" aria-hidden>
+        <div className="enlight-daily-goal-bar__fill" style={{ width: `${pct}%` }} />
+      </div>
+
+      <p className="enlight-weekly-challenge__meta">
+        {memberCount} member{memberCount === 1 ? '' : 's'}
+        {' · '}
+        {complete ? 'Target met' : `${xpLeft.toLocaleString()} to go`}
+      </p>
+
+      <div className="enlight-weekly-challenge__action">
         {complete && !claimed && (
           <EnlightButton onClick={handleClaim}>
             Claim +{WEEKLY_CHALLENGE_BONUS_XP} XP
           </EnlightButton>
         )}
         {claimed && (
-          <p className="enlight-weekly-challenge__lead">Bonus claimed — nice work, team!</p>
+          <p className="enlight-weekly-challenge__lead">Bonus claimed</p>
         )}
         {!complete && (
           <p className="enlight-weekly-challenge__empty">
