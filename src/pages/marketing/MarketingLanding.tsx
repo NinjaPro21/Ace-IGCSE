@@ -6,56 +6,48 @@ import { useAuth } from '@/features/social/AuthContext'
 import { BRAND } from '@/lib/brand'
 import { getNotesForTopic } from '@/lib/contentLoader'
 import { DemoQuizStep } from './DemoQuizStep'
-import { getShowcaseTopic, trimNoteForShowcase } from './showcaseNote'
+import { getShowcaseTopic } from './showcaseNote'
 
 const MarkdownLesson = lazy(() =>
   import('@/components/MarkdownLesson').then((m) => ({ default: m.MarkdownLesson })),
 )
 
-function HeroNoteCards() {
-  const topic = getShowcaseTopic()
-  const content = useMemo(() => {
-    if (!topic) return ''
-    return trimNoteForShowcase(getNotesForTopic(topic))
-  }, [])
-
-  const cards = useMemo(() => {
-    if (!content) return []
-    return content
-      .split(/\n(?=## )/)
-      .map((chunk) => chunk.trim())
-      .filter(Boolean)
-      .slice(0, 3)
-  }, [content])
-
-  if (cards.length === 0) {
-    return (
-      <div className="ace-landing-hero__cards" aria-hidden>
-        <article className="ace-landing-note-card">
-          <p className="ace-landing-note-card__label">Sample</p>
-          <h3 className="ace-landing-note-card__title">Compressed revision cards</h3>
-          <p className="ace-landing-note-card__body">
-            Formulas, examiner tips, and diagrams — organised for how you revise before CIE papers.
-          </p>
-        </article>
-      </div>
-    )
-  }
-
+function HeroMockCards() {
   return (
-    <div className="ace-landing-hero__cards" aria-label="Sample note cards">
-      {cards.map((chunk, i) => {
-        const titleMatch = chunk.match(/^##\s+(.+?)(?:\r?\n|$)/)
-        const title = titleMatch?.[1]?.trim() ?? `Card ${i + 1}`
-        const body = chunk.replace(/^##\s+.+?(?:\r?\n|$)/, '').trim().slice(0, 180)
-        return (
-          <article key={title} className={`ace-landing-note-card ace-landing-note-card--${i + 1}`}>
-            <p className="ace-landing-note-card__label">{topic?.title ?? 'Lesson'}</p>
-            <h3 className="ace-landing-note-card__title">{title}</h3>
-            <p className="ace-landing-note-card__body">{body}{body.length >= 180 ? '…' : ''}</p>
-          </article>
-        )
-      })}
+    <div className="ace-landing-hero__cards" aria-label="Sample lesson cards">
+      <article className="ace-landing-note-card ace-landing-note-card--quiz ace-landing-note-card--1">
+        <p className="ace-landing-note-card__label">Trig graphs · Easy</p>
+        <h3 className="ace-landing-note-card__title">Quick check</h3>
+        <p className="ace-landing-note-card__prompt">
+          What is the amplitude of y = 4 cos x?
+        </p>
+        <ul className="ace-landing-mock-opts">
+          <li className="ace-landing-mock-opts__opt ace-landing-mock-opts__opt--correct">
+            <span className="ace-landing-mock-opts__letter">A</span>
+            <span>4</span>
+            <span className="ace-landing-mock-opts__tick" aria-hidden>
+              ✓
+            </span>
+          </li>
+          <li className="ace-landing-mock-opts__opt">
+            <span className="ace-landing-mock-opts__letter">B</span>
+            <span>1</span>
+          </li>
+          <li className="ace-landing-mock-opts__opt">
+            <span className="ace-landing-mock-opts__letter">C</span>
+            <span>8</span>
+          </li>
+        </ul>
+      </article>
+
+      <article className="ace-landing-note-card ace-landing-note-card--worked ace-landing-note-card--2">
+        <p className="ace-landing-note-card__label">Worked example</p>
+        <h3 className="ace-landing-note-card__title">Amplitude and period</h3>
+        <p className="ace-landing-note-card__body">
+          For y = 4 sin(3x), amplitude = 4 and period = 360° ÷ 3 = 120°. Sketch one full wave in
+          every 120° interval.
+        </p>
+      </article>
     </div>
   )
 }
@@ -64,7 +56,7 @@ function LandingDemoNotes() {
   const topic = getShowcaseTopic()
   const content = useMemo(() => {
     if (!topic) return ''
-    return trimNoteForShowcase(getNotesForTopic(topic))
+    return getNotesForTopic(topic)
   }, [])
 
   if (!topic) return null
@@ -116,7 +108,7 @@ export function MarketingLanding() {
               </a>
             </div>
           </div>
-          <HeroNoteCards />
+          <HeroMockCards />
         </div>
       </section>
 

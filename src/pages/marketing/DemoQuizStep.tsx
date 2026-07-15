@@ -11,6 +11,35 @@ import { getShowcaseTopic } from './showcaseNote'
 const DEMO_QUESTION_COUNT = 3
 const DEMO_XP_PER_CORRECT = 5
 
+/** Static fallback from trig-graphs easy quiz — used when loadQuiz fails or returns empty. */
+const TRIG_DEMO_FALLBACK: McqQuestion[] = [
+  {
+    id: 'demo-trig-fallback-q1',
+    type: 'mcq',
+    question: 'What is the amplitude of the trigonometric function $y = 4 \\cos x$?',
+    options: ['4', '1', '8', '360°'],
+    correctIndex: 0,
+    explanation:
+      'Amplitude is the absolute value of the coefficient of the trig term — here $|4| = 4$.',
+  },
+  {
+    id: 'demo-trig-fallback-q2',
+    type: 'mcq',
+    question: 'State the period of the function $y = \\tan x$.',
+    options: ['180° (or π rad)', '360° (or 2π rad)', '90°', 'Infinite'],
+    correctIndex: 0,
+    explanation: 'Unlike sine and cosine (period 360°), tangent repeats every 180°.',
+  },
+  {
+    id: 'demo-trig-fallback-q3',
+    type: 'mcq',
+    question: 'What is the period of $y = \\sin 2x$?',
+    options: ['180°', '360°', '720°', '90°'],
+    correctIndex: 0,
+    explanation: 'Period of $\\sin bx$ is $360°/|b|$, so $360°/2 = 180°$.',
+  },
+]
+
 type Phase = 'intro' | 'quiz' | 'result'
 
 interface DemoQuizStepProps {
@@ -28,29 +57,26 @@ export function DemoQuizStep({ onBack, onNext, embedded = false }: DemoQuizStepP
   const [showFeedback, setShowFeedback] = useState(false)
   const [correctCount, setCorrectCount] = useState(0)
   const [quizLoading, setQuizLoading] = useState(true)
-  const [demoQuestions, setDemoQuestions] = useState<McqQuestion[]>([])
+  const [demoQuestions, setDemoQuestions] = useState<McqQuestion[]>(TRIG_DEMO_FALLBACK)
 
   useEffect(() => {
     let cancelled = false
     const topic = getShowcaseTopic()
-    const quizId = topic?.quizIds?.easy
-    if (!quizId) {
-      setDemoQuestions([])
-      setQuizLoading(false)
-      return
-    }
+    const quizId = topic?.quizIds?.easy ?? '9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi-easy'
+
     setQuizLoading(true)
     loadQuiz(quizId)
       .then((quiz) => {
         if (cancelled) return
-        setDemoQuestions(
-          quiz ? (quiz.questions.slice(0, DEMO_QUESTION_COUNT) as McqQuestion[]) : [],
-        )
+        const loaded = quiz
+          ? (quiz.questions.slice(0, DEMO_QUESTION_COUNT) as McqQuestion[])
+          : []
+        setDemoQuestions(loaded.length > 0 ? loaded : TRIG_DEMO_FALLBACK)
         setQuizLoading(false)
       })
       .catch(() => {
         if (!cancelled) {
-          setDemoQuestions([])
+          setDemoQuestions(TRIG_DEMO_FALLBACK)
           setQuizLoading(false)
         }
       })
@@ -86,15 +112,6 @@ export function DemoQuizStep({ onBack, onNext, embedded = false }: DemoQuizStepP
     return <p className="ace-body-text">Loading demo quiz…</p>
   }
 
-  if (questions.length === 0) {
-    return (
-      <div>
-        <p className="ace-body-text">Demo quiz unavailable.</p>
-        {onNext && <EnlightButton onClick={onNext}>Continue →</EnlightButton>}
-      </div>
-    )
-  }
-
   if (phase === 'intro') {
     const previewQ = questions[0]
     return (
@@ -106,7 +123,7 @@ export function DemoQuizStep({ onBack, onNext, embedded = false }: DemoQuizStepP
               Take a quick Easy quiz
             </h2>
             <p className="ace-tour-lead ace-tour-lead--left">
-              Three questions from <strong>{getShowcaseTopic()?.title ?? 'Interpreting Graphs'}</strong> —
+              Three questions from <strong>{getShowcaseTopic()?.title ?? 'Trig graphs'}</strong> —
               the same tiered MCQs in every topic. No account needed.
             </p>
             <ul className="ace-tour-quiz-perks">
@@ -127,7 +144,7 @@ export function DemoQuizStep({ onBack, onNext, embedded = false }: DemoQuizStepP
           {previewQ && (
             <div className="ace-tour-mock-quiz" aria-hidden="true">
               <div className="ace-tour-mock-quiz__bar">
-                <span>Maths 0580 · Easy</span>
+                <span>Add Maths 0606 · Easy</span>
                 <span className="ace-tour-mock-quiz__badge">Live preview</span>
               </div>
               <div className="ace-tour-mock-quiz__q">
@@ -192,7 +209,7 @@ export function DemoQuizStep({ onBack, onNext, embedded = false }: DemoQuizStepP
   return (
     <div className={embedded ? 'ace-landing-demo-quiz' : 'ace-walkthrough__step ace-container ace-walkthrough__step--quiz'}>
       <p className="ace-walkthrough__quiz-meta">
-        Question {index + 1} of {questions.length} · Easy · Maths 0580
+        Question {index + 1} of {questions.length} · Easy · Add Maths 0606
       </p>
 
       <div className="ace-demo-quiz">

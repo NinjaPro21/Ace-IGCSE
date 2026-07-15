@@ -14,6 +14,7 @@ body {
   font-family: var(--ace-font-sans);
   color: var(--ace-text);
   background: var(--ace-bg);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 html {

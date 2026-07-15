@@ -1,7 +1,7 @@
 import { getTopic } from '@/lib/contentLoader'
 
-/** Easier topic — linear graphs with line-formula explorer. */
-export const SHOWCASE_TOPIC_ID = '9-1-linear-graphs'
+/** Showcase — trig graphs with sin/cos/tan explorer. */
+export const SHOWCASE_TOPIC_ID = '9-4-9-5-graphs-of-trig-and-modulus-functions-harder-topi'
 
 const SHOWCASE_HEADINGS = new Set([
   'core idea',
@@ -10,7 +10,13 @@ const SHOWCASE_HEADINGS = new Set([
   'examiner tip',
 ])
 
-/** Trim note markdown for the walkthrough preview. */
+function keepShowcaseHeading(heading: string): boolean {
+  const normalized = heading.trim().toLowerCase()
+  if (SHOWCASE_HEADINGS.has(normalized)) return true
+  return normalized.startsWith('worked example')
+}
+
+/** Trim note markdown for the walkthrough / demo preview. */
 export function trimNoteForShowcase(raw: string): string {
   const chunks = raw.split(/\r?\n(?=## )/)
   const kept: string[] = []
@@ -18,8 +24,7 @@ export function trimNoteForShowcase(raw: string): string {
   for (const chunk of chunks) {
     const match = chunk.match(/^##\s+(.+?)(?:\r?\n|$)/)
     if (!match) continue
-    const heading = match[1].trim()
-    if (SHOWCASE_HEADINGS.has(heading.toLowerCase())) {
+    if (keepShowcaseHeading(match[1])) {
       kept.push(chunk.trim())
     }
   }

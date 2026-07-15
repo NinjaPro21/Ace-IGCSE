@@ -1,5 +1,6 @@
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { AceFooter } from '@/components/AceFooter'
+import { ThemePicker } from '@/components/ThemePicker'
 import { SignInButton } from '@/features/social/SocialPanels'
 
 export function MarketingLayout() {
@@ -14,7 +15,7 @@ export function MarketingLayout() {
             <h1 className="ace-header__logo">
               <span className="ace-header__logo-full">AceIGCSE</span>
             </h1>
-            <span className="ace-badge ace-badge--gold">IGCSE</span>
+            <span className="ace-header__meta">3 subjects</span>
           </Link>
 
           {!isHome && (
@@ -26,6 +27,7 @@ export function MarketingLayout() {
           )}
 
           <div className="ace-header__actions">
+            <ThemePicker className="ace-theme-picks--header" />
             <SignInButton compact />
           </div>
         </div>

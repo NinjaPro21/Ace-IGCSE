@@ -4,7 +4,6 @@ import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { ProgressGatewayCard } from '@/components/ProgressGatewayCard'
 import { StudyHubPanel } from '@/features/study/StudyHubPanel'
-import { DailyQuestsPanel } from '@/features/mastery/DailyQuestsPanel'
 import { PushNotificationPrompt } from '@/features/social/PushNotificationPrompt'
 import { usePageTitle } from '@/hooks/usePageTitle'
 import { useMastery } from '@/features/mastery/MasteryContext'
@@ -44,6 +43,7 @@ export function ProgressHubPage() {
 
   const xpFloor = getXpForLevel(levelProfile.level)
   const xpCeiling = xpFloor + levelProfile.xpRequiredForNextLevel
+  const firstName = user?.displayName?.trim().split(/\s+/)[0]
 
   const weakMeta =
     weakCount === 0
@@ -55,7 +55,9 @@ export function ProgressHubPage() {
       <div className="ace-dashboard-top">
         <EnlightSectionLabel>Dashboard</EnlightSectionLabel>
         {isAdmin && (
-          <EnlightButton to="/analytics" variant="outline">Analytics →</EnlightButton>
+          <EnlightButton to="/analytics" variant="outline">
+            Analytics →
+          </EnlightButton>
         )}
       </div>
 
@@ -80,45 +82,63 @@ export function ProgressHubPage() {
       )}
 
       <section className="ace-dash-hero" data-tour="dashboard-hero" aria-label="Level and today">
-        <div className="ace-dash-hero__row">
-          <div className="ace-dash-hero__level">
-            <div className="ace-dash-hero__badge" aria-hidden>
-              <span className="ace-dash-hero__badge-num">{levelProfile.level}</span>
-              <span className="ace-dash-hero__badge-lv">LV</span>
-            </div>
-            <div>
-              <h1 className="ace-dash-hero__title">{levelProfile.title}</h1>
-              <p className="ace-dash-hero__sub">
-                {levelProfile.xpToNextLevel} XP to level {levelProfile.level + 1}
-                {' · '}
-                {progress.streakDays}d streak
-                {weeklyRecap.xp > 0 ? ` · ${weeklyRecap.xp} XP this week` : ''}
-              </p>
-            </div>
+        <div className="ace-dash-hero__top">
+          <div className="ace-dash-hero__identity">
+            <p className="ace-dash-hero__greet">
+              {firstName ? `Hi, ${firstName}` : 'Your progress'}
+            </p>
+            <h1 className="ace-dash-hero__title">{levelProfile.title}</h1>
+            <p className="ace-dash-hero__sub">
+              Level {levelProfile.level}
+              {' · '}
+              {levelProfile.xpToNextLevel.toLocaleString()} XP to level {levelProfile.level + 1}
+            </p>
           </div>
-          <div className="ace-dash-hero__total">
-            <span className="ace-dash-hero__total-value">{levelProfile.xp.toLocaleString()}</span>
-            <span className="ace-dash-hero__total-label">Total XP</span>
+          <div className="ace-dash-hero__badge" aria-hidden>
+            <span className="ace-dash-hero__badge-num">{levelProfile.level}</span>
+            <span className="ace-dash-hero__badge-lv">LV</span>
           </div>
         </div>
-        <div className="ace-dash-hero__bar-meta">
-          <span>{xpFloor.toLocaleString()} XP</span>
-          <span>
-            Level {levelProfile.level + 1} at {xpCeiling.toLocaleString()} XP
-          </span>
+
+        <div className="ace-dash-hero__metrics" role="list">
+          <div className="ace-dash-metric" role="listitem">
+            <span className="ace-dash-metric__value">{levelProfile.xp.toLocaleString()}</span>
+            <span className="ace-dash-metric__label">Total XP</span>
+          </div>
+          <div className="ace-dash-metric" role="listitem">
+            <span className="ace-dash-metric__value">{progress.streakDays}d</span>
+            <span className="ace-dash-metric__label">Streak</span>
+          </div>
+          <div className="ace-dash-metric" role="listitem">
+            <span className="ace-dash-metric__value">{todayMin}</span>
+            <span className="ace-dash-metric__label">Today (min)</span>
+          </div>
+          <div className="ace-dash-metric" role="listitem">
+            <span className="ace-dash-metric__value">{weeklyRecap.xp}</span>
+            <span className="ace-dash-metric__label">Week XP</span>
+          </div>
         </div>
-        <div className="ace-dash-hero__bar" aria-label="XP progress to next level">
-          <div
-            className="ace-dash-hero__bar-fill"
-            style={{ width: `${levelProfile.levelProgressPercent}%` }}
-          />
+
+        <div className="ace-dash-hero__progress">
+          <div className="ace-dash-hero__bar-meta">
+            <span>{xpFloor.toLocaleString()} XP</span>
+            <span>
+              Level {levelProfile.level + 1} · {xpCeiling.toLocaleString()} XP
+            </span>
+          </div>
+          <div className="ace-dash-hero__bar" aria-label="XP progress to next level">
+            <div
+              className="ace-dash-hero__bar-fill"
+              style={{ width: `${levelProfile.levelProgressPercent}%` }}
+            />
+          </div>
         </div>
 
         <div className="ace-dash-goal ace-dash-goal--in-hero" aria-label="Today's goal">
           <div className="ace-dash-goal__row">
-            <span className="ace-dash-goal__label">Today&apos;s goal</span>
+            <span className="ace-dash-goal__label">Today&apos;s study goal</span>
             <span className={`ace-dash-goal__value${goalMet ? ' ace-dash-goal__value--met' : ''}`}>
-              {todayMin} / {dailyGoal} min
+              {todayMin} / {dailyGoal} min · {goalPct}%
               {goalMet ? <span className="ace-dash-goal__check" aria-label="Goal met">✓</span> : null}
             </span>
           </div>
@@ -130,13 +150,11 @@ export function ProgressHubPage() {
         {streakAtRisk && progress.streakDays > 0 && (
           <p className="ace-dash-hero__warning">
             {streakCountdown
-              ? `Study within ${streakCountdown} to keep your ${progress.streakDays}-day streak!`
-              : `Study today to keep your ${progress.streakDays}-day streak!`}
+              ? `Study within ${streakCountdown} to keep your ${progress.streakDays}-day streak.`
+              : `Study today to keep your ${progress.streakDays}-day streak.`}
           </p>
         )}
       </section>
-
-      <DailyQuestsPanel />
 
       <StudyHubPanel />
 

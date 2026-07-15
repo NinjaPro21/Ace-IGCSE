@@ -5,6 +5,7 @@ import { getContinueStudying, getTodayStudyMinutes } from '@/features/mastery/pr
 import { useAuth } from '@/features/social/AuthContext'
 import { SignInButton } from '@/features/social/SocialPanels'
 import { NotificationBell } from '@/features/social/NotificationBell'
+import { ThemePicker } from '@/components/ThemePicker'
 
 const SIGNED_IN_NAV = [
   { to: '/dashboard', label: 'Dashboard', match: (p: string) => p.startsWith('/dashboard') },
@@ -111,7 +112,7 @@ export function EnlightHeader({
             <span className="ace-header__logo-full">AceIGCSE</span>
             <span className="ace-header__logo-short">Ace</span>
           </h1>
-          <span className="ace-badge ace-badge--gold">IGCSE</span>
+          <span className="ace-header__meta">3 subjects</span>
         </Link>
 
         <nav className="ace-header__nav" aria-label="Main navigation">
@@ -128,6 +129,7 @@ export function EnlightHeader({
         </nav>
 
         <div className="ace-header__actions">
+          <ThemePicker className="ace-theme-picks--header ace-theme-picks--desktop" />
           {!hideDashboardStats && (
             <HeaderStats
               className="ace-header__stats--desktop"
@@ -189,6 +191,8 @@ export function EnlightHeader({
                 <div className="ace-daily-goal-bar__fill" style={{ width: `${goalPct}%` }} />
               </div>
             </div>
+
+            <ThemePicker className="ace-theme-picks--mobile" />
 
             {!hideDashboardStats && (
               <HeaderStats
