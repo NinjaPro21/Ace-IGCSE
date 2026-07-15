@@ -25,10 +25,27 @@
       ]
     },
     {
-      "collectionGroup": "leaderboard",
+      "collectionGroup": "schools",
       "queryScope": "COLLECTION",
       "fields": [
-        { "fieldPath": "xp", "order": "DESCENDING" }
+        { "fieldPath": "type", "order": "ASCENDING" },
+        { "fieldPath": "nameNormalized", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "friendRequests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "toUid", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "friendRequests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "fromUid", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" }
       ]
     }
   ],

@@ -30,6 +30,7 @@ scripts/enlight-admin.json
 *.serviceAccount.json
 
 # Local import / deploy artifacts — not source of truth
+.tmp-*
 .tmp-docx/
 .tmp-math-errors*.txt
 .firebase/

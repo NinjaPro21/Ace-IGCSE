@@ -40,6 +40,12 @@ export function useQuizExitGuard(active: boolean): void {
     return () => {
       window.removeEventListener('beforeunload', onBeforeUnload)
       window.removeEventListener('popstate', onPopState)
+      // Consume the sentinel entry pushed by trapBack, otherwise the first
+      // Back press after the quiz ends lands on the same URL and does nothing.
+      const state = window.history.state as { enlightQuizGuard?: boolean } | null
+      if (state?.enlightQuizGuard) {
+        window.history.back()
+      }
     }
   }, [active])
 }

@@ -10,10 +10,15 @@ import {
 import { collection, limit, onSnapshot, query, where } from 'firebase/firestore'
 import { db } from '@/lib/firebase'
 import { useAuth } from './AuthContext'
-import { fetchPendingFriendRequests, respondFriendRequest, type FriendRequest } from './friendsApi'
+import {
+  fetchPendingFriendRequests,
+  respondFriendRequest,
+  subscribePendingFriendRequests,
+  type FriendRequest,
+} from './friendsApi'
 import {
   duelNeedsAction,
-  fetchUserDuels,
+  mapDuelDoc,
   respondDuel,
   type Duel,
 } from './duelsApi'
@@ -78,6 +83,8 @@ export function SocialInboxProvider({ children }: { children: ReactNode }) {
   }, [user])
 
   const refresh = useCallback(async () => {
+    // Friend requests and duels stream in via listeners; only the manual
+    // friend-request refresh remains for pull-to-refresh style calls.
     if (!user) {
       setFriendRequests([])
       setDuels([])
@@ -86,18 +93,19 @@ export function SocialInboxProvider({ children }: { children: ReactNode }) {
     setLoading(true)
     try {
       await refreshFriends()
-      const duelRows = await fetchUserDuels(user.id)
-      setDuels(duelRows.filter((d) => d.status === 'pending' || d.status === 'active' || d.status === 'complete'))
     } finally {
       setLoading(false)
     }
   }, [user, refreshFriends])
 
+  // Realtime pending friend requests — replaces the old 30s polling loop.
   useEffect(() => {
-    void refreshFriends()
-    const interval = setInterval(() => void refreshFriends(), 30_000)
-    return () => clearInterval(interval)
-  }, [refreshFriends])
+    if (!user) {
+      setFriendRequests([])
+      return
+    }
+    return subscribePendingFriendRequests(user.id, setFriendRequests)
+  }, [user])
 
   useEffect(() => {
     if (!user || !db) {
@@ -105,24 +113,30 @@ export function SocialInboxProvider({ children }: { children: ReactNode }) {
       return
     }
 
-    let cancelled = false
-    const loadDuels = async () => {
-      const rows = await fetchUserDuels(user.id)
-      if (!cancelled) {
-        setDuels(rows.filter((d) => d.status === 'pending' || d.status === 'active' || d.status === 'complete'))
-      }
+    // Map listener snapshots directly — re-fetching all duels on every
+    // snapshot doubled the reads the listener already paid for.
+    let challengerRows: Duel[] = []
+    let opponentRows: Duel[] = []
+    const emit = () => {
+      const map = new Map<string, Duel>()
+      for (const d of [...challengerRows, ...opponentRows]) map.set(d.id, d)
+      const rows = [...map.values()].sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+      setDuels(rows.filter((d) => d.status === 'pending' || d.status === 'active' || d.status === 'complete'))
     }
-
-    void loadDuels()
 
     const challengerQ = query(collection(db, 'duels'), where('challengerUid', '==', user.id), limit(20))
     const opponentQ = query(collection(db, 'duels'), where('opponentUid', '==', user.id), limit(20))
 
-    const unsubA = onSnapshot(challengerQ, () => void loadDuels(), () => void loadDuels())
-    const unsubB = onSnapshot(opponentQ, () => void loadDuels(), () => void loadDuels())
+    const unsubA = onSnapshot(challengerQ, (snap) => {
+      challengerRows = snap.docs.map((d) => mapDuelDoc(d.id, d.data()))
+      emit()
+    })
+    const unsubB = onSnapshot(opponentQ, (snap) => {
+      opponentRows = snap.docs.map((d) => mapDuelDoc(d.id, d.data()))
+      emit()
+    })
 
     return () => {
-      cancelled = true
       unsubA()
       unsubB()
     }

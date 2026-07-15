@@ -1,8 +1,9 @@
-import { lazy, Suspense } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom'
 
 import { CookieConsentBanner } from '@/components/CookieConsentBanner'
 import { SessionTracker } from '@/features/analytics/SessionTracker'
+import { captureReferralFromUrl } from '@/features/analytics/personalAnalytics'
 import { ReviewPromptModal } from '@/features/feedback/ReviewPromptModal'
 import { ReviewUsageTracker } from '@/features/feedback/ReviewUsageTracker'
 import { AfkPrompt } from '@/features/mastery/AfkPrompt'
@@ -95,6 +96,10 @@ function LegacyProgressRedirect() {
 }
 
 export function App() {
+  useEffect(() => {
+    captureReferralFromUrl()
+  }, [])
+
   return (
     <AuthProvider>
       <MasteryProvider>

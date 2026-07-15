@@ -22,10 +22,8 @@ import {
 } from '@/features/analytics/platformAnalytics'
 import { formatDuration, formatDurationHours } from '@/features/analytics/studyMetrics'
 import { fetchAllProfilesForAdmin } from '@/features/social/socialApi'
-import { useAuth } from '@/features/social/AuthContext'
 
 export function AnalyticsPage() {
-  const { syncProgressNow } = useAuth()
   usePageTitle('Analytics')
 
   const [platform, setPlatform] = useState<PlatformStats | null>(null)
@@ -80,7 +78,6 @@ export function AnalyticsPage() {
     setLoading(true)
     setLoadError(null)
     try {
-      await syncProgressNow()
       const [stats, allProfiles] = await Promise.all([
         fetchPlatformStats(),
         fetchAllProfilesForAdmin(),
@@ -119,9 +116,9 @@ export function AnalyticsPage() {
               Could not load analytics: {loadError}
             </p>
             <p className="enlight-body-text">
-              Ensure Firestore rules are deployed and your account is listed in{' '}
-              <code>config/site.adminEmails</code> or has an <code>admins/&#123;uid&#125;</code> document.
-              Also set <code>VITE_ADMIN_EMAILS</code> in <code>.env.local</code> to match.
+              Ensure Firestore rules are deployed and your account has an{' '}
+              <code>admins/&#123;uid&#125;</code> document (or is listed in{' '}
+              <code>config/site.adminEmails</code> for rules-side checks).
             </p>
           </div>
         ) : null}

@@ -22,6 +22,7 @@ export type EnlightEventName =
 export interface EnlightEventBase {
   chapterId: string
   subject: string
+  topicId?: string
 }
 
 export interface NotesClosedPayload extends EnlightEventBase {
@@ -32,6 +33,8 @@ export interface QuizCompletedPayload extends EnlightEventBase {
   score: number
   attemptNumber: number
   timeTakenSec: number
+  topicId?: string
+  passed?: boolean
 }
 
 export interface QuestionAnsweredPayload extends EnlightEventBase {
@@ -52,6 +55,7 @@ type EventPayload =
   | QuestionAnsweredPayload
   | SessionEndedPayload
   | Record<string, never>
+  | Record<string, string | number | boolean | undefined>
 
 async function hashUserId(uid: string): Promise<string> {
   if (cachedUid === uid && cachedHash) return cachedHash
@@ -67,8 +71,8 @@ async function hashUserId(uid: string): Promise<string> {
 function toAnalyticsParams(
   event: EnlightEventName,
   payload: EventPayload,
-): Record<string, string | number | boolean> {
-  const params: Record<string, string | number | boolean> = {
+): Record<string, string | number | boolean | undefined | null> {
+  const params: Record<string, string | number | boolean | undefined | null> = {
     event_name: event,
   }
   for (const [key, value] of Object.entries(payload)) {
@@ -79,6 +83,22 @@ function toAnalyticsParams(
   return params
 }
 
+/**
+ * High-frequency events that go to GA only. Writing a Firestore doc per
+ * answered question cost O(questions) writes per quiz and grew the events
+ * collection without bound — the per-question detail already lives in the
+ * user's private quiz attempts, and quiz_completed captures the summary.
+ */
+const GA_ONLY_EVENTS = new Set<EnlightEventName>(['question_answered'])
+
+/** Events that already write rich personal analytics elsewhere — skip duplicate personal write. */
+const SKIP_PERSONAL_EVENTS = new Set<EnlightEventName>([
+  // MasteryContext writes quiz_complete with full score/pass payload
+  'quiz_completed',
+  'quiz_started',
+  'question_answered',
+])
+
 export async function trackEnlightEvent(
   uid: string | undefined,
   event: EnlightEventName,
@@ -86,29 +106,38 @@ export async function trackEnlightEvent(
 ): Promise<void> {
   if (!uid || !hasAnalyticsConsent()) return
 
-  const userIdHash = await hashUserId(uid)
-  const timestamp = new Date().toISOString()
-
-  if (hasAnalyticsConsent()) {
-    trackEvent(event, {
-      ...toAnalyticsParams(event, payload),
-      user_id_hash: userIdHash,
-      timestamp,
-    })
-  }
-
-  if (!db) return
-
   try {
-    await addDoc(collection(db, 'events'), {
+    const userIdHash = await hashUserId(uid)
+    const timestamp = new Date().toISOString()
+
+    trackEvent(
       event,
-      timestamp,
-      recordedAt: serverTimestamp(),
-      userIdHash,
-      uid,
-      ...payload,
-    })
+      {
+        ...toAnalyticsParams(event, payload),
+        user_id_hash: userIdHash,
+        timestamp,
+      },
+      {
+        uid,
+        skipPersonal: SKIP_PERSONAL_EVENTS.has(event),
+      },
+    )
+
+    if (!db || GA_ONLY_EVENTS.has(event)) return
+
+    try {
+      await addDoc(collection(db, 'events'), {
+        event,
+        timestamp,
+        recordedAt: serverTimestamp(),
+        userIdHash,
+        authUid: uid,
+        ...payload,
+      })
+    } catch {
+      // Firestore unavailable — GA4 event may still have been sent
+    }
   } catch {
-    // Firestore unavailable — GA4 event may still have been sent
+    // Never crash the UI for analytics
   }
 }

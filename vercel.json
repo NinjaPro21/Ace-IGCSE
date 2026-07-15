@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/rollup-platform-stats",
+      "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/cron/streak-reminders",
+      "schedule": "0 * * * *"
+    }
+  ]
+}

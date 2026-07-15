@@ -8,6 +8,8 @@ import {
   type ReactNode,
 } from 'react'
 import { masteryEngine } from '@/features/mastery/MasteryEngine'
+import { useAuth } from '@/features/social/AuthContext'
+import { trackEvent } from '@/lib/analytics'
 import {
   DEFAULT_POMODORO,
   loadPomodoroSettings,
@@ -59,6 +61,7 @@ function initialRuntime(settings: PomodoroSettings) {
     secondsLeft: settings.workMinutes * 60,
     running: false,
     sessionActive: false,
+    workSecAccrued: 0,
   }
 }
 
@@ -73,6 +76,8 @@ function createInitialState(settings: PomodoroSettings) {
 export function PomodoroProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState(() => createInitialState(loadPomodoroSettings()))
   const { settings, phase, secondsLeft, running, sessionActive } = state
+  const { user } = useAuth()
+  const uid = user?.id
 
   const setSettings = (next: PomodoroSettings) =>
     setState((prev) => ({ ...prev, settings: next }))
@@ -97,6 +102,42 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const prevPhaseRef = useRef(phase)
 
+  // Work seconds ticked but not yet credited to the mastery engine. Crediting
+  // actual elapsed seconds (instead of a fixed workMinutes block on every
+  // work→break transition) keeps focus credit correct across refreshes and
+  // partial blocks.
+  const workSecAccruedRef = useRef(state.workSecAccrued ?? 0)
+  const phaseRef = useRef(phase)
+  const sessionActiveRef = useRef(sessionActive)
+  useEffect(() => {
+    phaseRef.current = phase
+    sessionActiveRef.current = sessionActive
+  }, [phase, sessionActive])
+
+  const flushFocusCredit = useCallback(() => {
+    const sec = Math.round(workSecAccruedRef.current)
+    workSecAccruedRef.current = 0
+    if (sec > 0) {
+      masteryEngine.recordFocusStudySec(sec)
+      masteryEngine.notify()
+      try {
+        const subjectId = masteryEngine.getState().lastVisitedSubjectId
+        trackEvent(
+          'study_time_credited',
+          { seconds: sec, subjectId, subject: subjectId },
+          { uid },
+        )
+      } catch {
+        // analytics silent
+      }
+    }
+  }, [uid])
+
+  // Credit focus seconds carried over from a previous page load (hydration).
+  useEffect(() => {
+    flushFocusCredit()
+  }, [flushFocusCredit])
+
   const persistRuntime = useCallback(
     (
       next: Partial<{
@@ -111,6 +152,7 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
         secondsLeft: next.secondsLeft ?? secondsLeft,
         running: next.running ?? running,
         sessionActive: next.sessionActive ?? sessionActive,
+        workSecAccrued: workSecAccruedRef.current,
         savedAt: Date.now(),
       })
     },
@@ -125,6 +167,7 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const applySettings = useCallback((next: PomodoroSettings) => {
+    flushFocusCredit()
     setSettings(next)
     savePomodoroSettings(next)
     setRunning(false)
@@ -135,7 +178,7 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
       secondsLeft: next.workMinutes * 60,
       running: false,
     })
-  }, [persistRuntime])
+  }, [persistRuntime, flushFocusCredit])
 
   const setWorkMinutes = useCallback(
     (minutes: number) => {
@@ -153,22 +196,27 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
     [applySettings, settings],
   )
 
+  // Interval depends only on `running` — including secondsLeft in the deps
+  // recreated the interval every tick, causing drift under load.
   useEffect(() => {
-    if (running && secondsLeft > 0) {
-      intervalRef.current = setInterval(() => {
-        setSecondsLeft((s) => {
-          if (s <= 1) {
-            setRunning(false)
-            return 0
-          }
-          return s - 1
-        })
-      }, 1000)
-    } else {
+    if (!running) {
       clear()
+      return clear
     }
+    intervalRef.current = setInterval(() => {
+      if (phaseRef.current === 'work' && sessionActiveRef.current) {
+        workSecAccruedRef.current += 1
+      }
+      setState((prev) => {
+        if (prev.secondsLeft <= 0) {
+          return prev.running ? { ...prev, running: false } : prev
+        }
+        const nextSeconds = prev.secondsLeft - 1
+        return { ...prev, secondsLeft: nextSeconds, running: nextSeconds > 0 }
+      })
+    }, 1000)
     return clear
-  }, [running, secondsLeft, clear])
+  }, [running, clear])
 
   useEffect(() => {
     persistRuntime({})
@@ -193,18 +241,14 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
   }, [secondsLeft, running, phase, settings.breakMinutes, settings.workMinutes])
 
   useEffect(() => {
-    if (!sessionActive) {
-      prevPhaseRef.current = phase
-      return
-    }
     if (prevPhaseRef.current === 'work' && phase === 'break') {
-      masteryEngine.recordFocusStudySec(settings.workMinutes * 60)
-      masteryEngine.notify()
+      flushFocusCredit()
     }
     prevPhaseRef.current = phase
-  }, [phase, sessionActive, settings.workMinutes])
+  }, [phase, flushFocusCredit])
 
   const reset = useCallback(() => {
+    flushFocusCredit()
     setRunning(false)
     setPhase('work')
     setSecondsLeft(settings.workMinutes * 60)
@@ -213,7 +257,7 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
       secondsLeft: settings.workMinutes * 60,
       running: false,
     })
-  }, [settings.workMinutes, persistRuntime])
+  }, [settings.workMinutes, persistRuntime, flushFocusCredit])
 
   const start = useCallback(() => {
     if (secondsLeft > 0) {
@@ -225,9 +269,10 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
   }, [secondsLeft, persistRuntime])
 
   const pause = useCallback(() => {
+    flushFocusCredit()
     setRunning(false)
     persistRuntime({ running: false })
-  }, [persistRuntime])
+  }, [persistRuntime, flushFocusCredit])
 
   const toggle = useCallback(() => {
     if (secondsLeft === 0) {
@@ -251,10 +296,11 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
         persistRuntime({ running: true, sessionActive: true })
         return true
       }
+      flushFocusCredit()
       persistRuntime({ running: false })
       return false
     })
-  }, [secondsLeft, settings.workMinutes, persistRuntime])
+  }, [secondsLeft, settings.workMinutes, persistRuntime, flushFocusCredit])
 
   const startSession = useCallback(() => {
     setSessionActive(true)
@@ -271,6 +317,7 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
   }, [settings.workMinutes, persistRuntime])
 
   const endSession = useCallback(() => {
+    flushFocusCredit()
     setSessionActive(false)
     setRunning(false)
     setPhase('work')
@@ -281,7 +328,7 @@ export function PomodoroProvider({ children }: { children: ReactNode }) {
       secondsLeft: settings.workMinutes * 60,
       running: false,
     })
-  }, [settings.workMinutes, persistRuntime])
+  }, [settings.workMinutes, persistRuntime, flushFocusCredit])
 
   const value: PomodoroState = {
     display: formatTime(secondsLeft),

@@ -10,6 +10,9 @@ interface ImportMetaEnv {
   readonly VITE_FIREBASE_APP_ID?: string
   readonly VITE_FIREBASE_MEASUREMENT_ID?: string
   readonly VITE_ADMIN_EMAILS?: string
+  readonly VITE_EVENT_HASH_SALT?: string
+  readonly VITE_PUBLIC_POSTHOG_KEY?: string
+  readonly VITE_PUBLIC_POSTHOG_HOST?: string
 }
 
 interface ImportMeta {

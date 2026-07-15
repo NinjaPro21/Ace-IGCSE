@@ -24,6 +24,7 @@
  */
 import { readFileSync, existsSync } from 'fs'
 import { createRequire } from 'module'
+import { PLATFORM_STATS_RESET_BASE } from './platformStatsReset.mjs'
 
 const require = createRequire(import.meta.url)
 
@@ -96,9 +97,7 @@ if (!getApps().length) {
 const db = getFirestore()
 
 const PLATFORM_STATS_RESET = {
-  totalSignUps: 0,
-  totalStudySeconds: 0,
-  totalQuizAttempts: 0,
+  ...PLATFORM_STATS_RESET_BASE,
   updatedAt: FieldValue.serverTimestamp(),
 }
 
@@ -158,6 +157,13 @@ async function resetPlatformStats() {
     )
   }
   if (confirm) await ref.set(PLATFORM_STATS_RESET, { merge: false })
+
+  for (const sub of ['daily', 'weekly']) {
+    await deleteQueryMatches(
+      () => db.collection(`platformStats/summary/${sub}`),
+      `platformStats/summary/${sub}`,
+    )
+  }
   return 1
 }
 

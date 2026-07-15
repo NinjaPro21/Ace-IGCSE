@@ -14,6 +14,7 @@
  */
 import { readFileSync, existsSync } from 'fs'
 import { createRequire } from 'module'
+import { PLATFORM_STATS_RESET_BASE } from './platformStatsReset.mjs'
 
 const require = createRequire(import.meta.url)
 
@@ -81,15 +82,15 @@ console.log('Keeping: admins/*, config/*\n')
 const profiles = await resetCollection('profiles')
 const schools = await resetCollection('schools')
 await resetDoc('platformStats/summary', {
-  totalSignUps: 0,
-  totalStudySeconds: 0,
-  totalQuizAttempts: 0,
+  ...PLATFORM_STATS_RESET_BASE,
   updatedAt: admin.firestore.FieldValue.serverTimestamp(),
 })
+await deleteQuery(db.collection('platformStats/summary/daily'), 'platformStats/summary/daily')
+await deleteQuery(db.collection('platformStats/summary/weekly'), 'platformStats/summary/weekly')
 
 console.log('\nDone.')
 console.log(`  profiles deleted: ${profiles}`)
 console.log(`  schools deleted: ${schools}`)
-console.log('  platformStats/summary zeroed')
+console.log('  platformStats/summary zeroed (+ daily/weekly cleared)')
 console.log('\nUsers keep local progress in browser until they sign in again (will recreate profile).')
 console.log('Clear local test data: DevTools → Application → Local Storage → enlight-progress-v2')

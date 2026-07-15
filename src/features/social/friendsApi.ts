@@ -7,14 +7,16 @@ import {
   getDoc,
   getDocs,
   limit,
+  onSnapshot,
   query,
   serverTimestamp,
   setDoc,
   updateDoc,
   where,
+  type Unsubscribe,
 } from 'firebase/firestore'
 import type { CloudProfile } from './socialApi'
-import { docToProfile, patchPublicProfile } from './socialApi'
+import { docToProfile, fetchProfileDocsByIds, patchPublicProfile } from './socialApi'
 import { generateFriendCode, isValidFriendCode } from './profileTypes'
 
 export interface FriendRequest {
@@ -141,7 +143,12 @@ async function resolveUidFromFriendCode(code: string): Promise<string | null> {
   if (snap.empty) return null
   const uid = snap.docs[0].id
   const displayName = snap.docs[0].data().displayName as string | undefined
-  await syncFriendCodeIndex(uid, code, displayName)
+  try {
+    // Best effort: rules only let the code's owner write this index doc.
+    await syncFriendCodeIndex(uid, code, displayName)
+  } catch {
+    // Not our code to index — the lookup already succeeded via profiles.
+  }
   return uid
 }
 
@@ -178,39 +185,68 @@ export async function respondFriendRequest(
   }
 }
 
+function mapFriendRequestDoc(id: string, data: Record<string, unknown>): FriendRequest {
+  return {
+    id,
+    fromUid: data.fromUid as string,
+    toUid: data.toUid as string,
+    status: 'pending' as const,
+    createdAt:
+      (data.createdAt as { toDate?: () => Date })?.toDate?.()?.toISOString() ?? new Date().toISOString(),
+  }
+}
+
+function pendingFriendRequestsQuery(userId: string) {
+  return query(
+    collection(db!, 'friendRequests'),
+    where('toUid', '==', userId),
+    where('status', '==', 'pending'),
+    limit(20),
+  )
+}
+
 export async function fetchPendingFriendRequests(userId: string): Promise<FriendRequest[]> {
   if (!db) return []
-  const snap = await getDocs(
-    query(collection(db, 'friendRequests'), where('toUid', '==', userId), where('status', '==', 'pending'), limit(20)),
-  )
-  return snap.docs.map((d) => {
-    const data = d.data()
-    return {
-      id: d.id,
-      fromUid: data.fromUid as string,
-      toUid: data.toUid as string,
-      status: 'pending' as const,
-      createdAt:
-        (data.createdAt as { toDate?: () => Date })?.toDate?.()?.toISOString() ?? new Date().toISOString(),
-    }
-  })
+  const snap = await getDocs(pendingFriendRequestsQuery(userId))
+  return snap.docs.map((d) => mapFriendRequestDoc(d.id, d.data()))
 }
+
+/** Realtime pending-request feed — replaces interval polling. */
+export function subscribePendingFriendRequests(
+  userId: string,
+  cb: (requests: FriendRequest[]) => void,
+): Unsubscribe {
+  if (!db) {
+    cb([])
+    return () => {}
+  }
+  return onSnapshot(
+    pendingFriendRequestsQuery(userId),
+    (snap) => cb(snap.docs.map((d) => mapFriendRequestDoc(d.id, d.data()))),
+    () => cb([]),
+  )
+}
+
+// Legacy one-sided friendship repair only needs to run once per session,
+// not on every friends-list load (it costs 2 queries + 1 read + 1 write).
+let reconciledThisSession = false
 
 export async function fetchFriendProfiles(userId: string): Promise<CloudProfile[]> {
   if (!db) return []
   const firestore = db
-  await reconcileFriendIds(userId)
+  if (!reconciledThisSession) {
+    reconciledThisSession = true
+    await reconcileFriendIds(userId)
+  }
   const snap = await getDoc(doc(firestore, 'profiles', userId))
   const friendIds = (snap.data()?.friendIds as string[]) ?? []
   if (friendIds.length === 0) return []
 
-  const profiles = await Promise.all(friendIds.map((id) => getDoc(doc(firestore, 'profiles', id))))
-  return profiles
-    .filter((p) => p.exists())
-    .map((p) => {
-      const row = docToProfile(p.id, p.data()!)
-      return { ...row, email: null, progress: {}, activeDates: [] }
-    })
+  const profiles = await fetchProfileDocsByIds(friendIds)
+  return profiles.map((p) => {
+    const row = docToProfile(p.id, p.data())
+    return { ...row, email: null, progress: {}, activeDates: [] }
+  })
 }
 
 export async function removeFriend(userId: string, friendId: string): Promise<void> {

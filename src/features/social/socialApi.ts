@@ -9,13 +9,17 @@ import {
   collection,
   deleteField,
   doc,
+  documentId,
+  getCountFromServer,
   getDoc,
   getDocs,
+  increment,
   limit,
   orderBy,
   query,
   serverTimestamp,
   setDoc,
+  updateDoc,
   where,
 } from 'firebase/firestore'
 import type { AuthUser, LeaderboardEntry, SchoolGroup } from './socialTypes'
@@ -380,18 +384,43 @@ export async function fetchProfile(
   }
 }
 
-export async function upsertProfile(
+/**
+ * Denormalized period scores so global boards can `orderBy(...).limit(...)`
+ * instead of scanning the whole leaderboard collection on every view.
+ */
+function periodScoreFields(xpByDate: Record<string, number> | undefined) {
+  return {
+    dayXp: sumXpInPeriod(xpByDate, 'day', 0),
+    weekXp: sumXpInPeriod(xpByDate, 'week', 0),
+    monthXp: sumXpInPeriod(xpByDate, 'month', 0),
+  }
+}
+
+/** Cached per-session so light syncs don't re-read the profile every time. */
+const showOnLeaderboardCache = new Map<string, boolean>()
+
+async function resolveShowOnLeaderboard(userId: string): Promise<{ show: boolean; isNew: boolean }> {
+  const cached = showOnLeaderboardCache.get(userId)
+  if (cached !== undefined) return { show: cached, isNew: false }
+  const existingSnap = await getDoc(doc(db!, 'profiles', userId))
+  const show = existingSnap.exists() && existingSnap.data().showOnLeaderboard === false ? false : true
+  showOnLeaderboardCache.set(userId, show)
+  return { show, isNew: !existingSnap.exists() }
+}
+
+/**
+ * Light sync — public social card + leaderboard entry only (2 writes).
+ * Safe to run frequently; the heavy private progress blob is written by
+ * `upsertProfile` on a slower cadence.
+ */
+export async function upsertProfileLight(
   userId: string,
   progress: UserProgress,
   meta?: { email?: string; displayName?: string; avatarUrl?: string },
 ): Promise<void> {
   if (!db) return
 
-  const profileRef = doc(db, 'profiles', userId)
-  const existingSnap = await getDoc(profileRef)
-  const snapshots = await recordPlatformSync(userId, progress)
-  const showOnLeaderboard =
-    existingSnap.exists() && existingSnap.data().showOnLeaderboard === false ? false : true
+  const { show: showOnLeaderboard, isNew } = await resolveShowOnLeaderboard(userId)
 
   // Public social card — no email, no full progress blob.
   await patchPublicProfile(userId, {
@@ -400,6 +429,7 @@ export async function upsertProfile(
     xp: progress.xp,
     streakDays: progress.streakDays,
     longestStreak: progress.longestStreak,
+    streakFreezes: progress.streakFreezes ?? 0,
     lastActiveDate: progress.lastActiveDate || null,
     lastActiveAt: serverTimestamp(),
     // Keep week boards usable without exposing topic/quiz detail.
@@ -407,9 +437,39 @@ export async function upsertProfile(
     dailyGoalMin: progress.dailyGoalMin ?? null,
     achievementIds: progress.achievementIds ?? [],
     subjects: progress.subjects ?? [],
-    ...(!existingSnap.exists() ? { createdAt: serverTimestamp(), privacy: 'friends' } : {}),
+    ...(isNew ? { createdAt: serverTimestamp(), privacy: 'friends' } : {}),
     updatedAt: serverTimestamp(),
   })
+
+  await setDoc(
+    doc(db, 'leaderboard', userId),
+    stripUndefined({
+      displayName: progress.displayName || meta?.displayName || 'Student',
+      avatarUrl: meta?.avatarUrl ?? null,
+      xp: progress.xp,
+      streakDays: progress.streakDays,
+      longestStreak: progress.longestStreak,
+      level: getGlobalLevel(progress.xp),
+      showOnLeaderboard,
+      xpByDate: progress.xpByDate ?? {},
+      ...periodScoreFields(progress.xpByDate),
+      achievementIds: progress.achievementIds ?? [],
+      updatedAt: serverTimestamp(),
+    }),
+    { merge: true },
+  )
+}
+
+export async function upsertProfile(
+  userId: string,
+  progress: UserProgress,
+  meta?: { email?: string; displayName?: string; avatarUrl?: string },
+): Promise<void> {
+  if (!db) return
+
+  const snapshots = await recordPlatformSync(userId, progress)
+
+  await upsertProfileLight(userId, progress, meta)
 
   // Owner-only private payload.
   await setDoc(
@@ -439,50 +499,63 @@ export async function upsertProfile(
         subjects: progress.subjects,
         onboardingComplete: progress.onboardingComplete,
         appTourComplete: progress.appTourComplete,
+        streakFreezes: progress.streakFreezes,
+        dailyQuests: progress.dailyQuests,
+        weeklyChallengeClaims: progress.weeklyChallengeClaims,
       },
-      updatedAt: serverTimestamp(),
-    }),
-    { merge: true },
-  )
-
-  await setDoc(
-    doc(db, 'leaderboard', userId),
-    stripUndefined({
-      displayName: progress.displayName || meta?.displayName || 'Student',
-      avatarUrl: meta?.avatarUrl ?? null,
-      xp: progress.xp,
-      streakDays: progress.streakDays,
-      longestStreak: progress.longestStreak,
-      level: getGlobalLevel(progress.xp),
-      showOnLeaderboard,
-      xpByDate: progress.xpByDate ?? {},
-      achievementIds: progress.achievementIds ?? [],
       updatedAt: serverTimestamp(),
     }),
     { merge: true },
   )
 }
 
+/** Count aggregation — 1 billed read per 1000 members instead of 1 per member. */
 async function countGroupMembers(groupId: string, type: GroupType): Promise<number> {
   if (!db) return 0
-  if (type === 'school') {
-    const snap = await getDocs(query(collection(db, 'profiles'), where('schoolId', '==', groupId)))
-    return snap.size
-  }
-  const snap = await getDocs(query(collection(db, 'profiles'), where('clanIds', 'array-contains', groupId)))
-  return snap.size
+  const q =
+    type === 'school'
+      ? query(collection(db, 'profiles'), where('schoolId', '==', groupId))
+      : query(collection(db, 'profiles'), where('clanIds', 'array-contains', groupId))
+  const snap = await getCountFromServer(q)
+  return snap.data().count
 }
 
 function normalizeGroupName(name: string): string {
   return name.trim().toLowerCase().replace(/\s+/g, ' ')
 }
 
-/** Case-insensitive duplicate check within the same group type. */
+/**
+ * Case-insensitive duplicate check within the same group type. Queries the
+ * `nameNormalized` field written at create time (legacy docs created before
+ * that field exist may not be caught — acceptable for a duplicate-name hint).
+ */
 export async function isGroupNameTaken(name: string, type: GroupType): Promise<boolean> {
   if (!db) return false
   const target = normalizeGroupName(name)
-  const snap = await getDocs(query(collection(db, 'schools'), where('type', '==', type), limit(200)))
-  return snap.docs.some((d) => normalizeGroupName(String(d.data().name ?? '')) === target)
+  const snap = await getDocs(
+    query(
+      collection(db, 'schools'),
+      where('type', '==', type),
+      where('nameNormalized', '==', target),
+      limit(1),
+    ),
+  )
+  return !snap.empty
+}
+
+/** Adjust denormalized memberCount on a school/clan doc (best-effort). */
+async function adjustGroupMemberCount(groupId: string, delta: number): Promise<void> {
+  if (!db || delta === 0) return
+  try {
+    await updateDoc(doc(db, 'schools', groupId), { memberCount: increment(delta) })
+  } catch {
+    // Legacy groups without memberCount or rules lag — ignore.
+  }
+}
+
+function readMemberCount(data: Record<string, unknown>, fallback: number): number {
+  const stored = data.memberCount
+  return typeof stored === 'number' && stored >= 0 ? stored : fallback
 }
 
 export async function fetchGroup(groupId: string): Promise<SchoolGroup | null> {
@@ -491,12 +564,17 @@ export async function fetchGroup(groupId: string): Promise<SchoolGroup | null> {
   if (!snap.exists()) return null
   const data = snap.data()
   const type = data.type as GroupType
+  const stored = data.memberCount
+  const memberCount =
+    typeof stored === 'number' && stored >= 0
+      ? stored
+      : await countGroupMembers(snap.id, type)
   return {
     id: snap.id,
     name: data.name as string,
     type,
     inviteCode: data.inviteCode as string,
-    memberCount: await countGroupMembers(snap.id, type),
+    memberCount,
   }
 }
 
@@ -514,17 +592,14 @@ export async function fetchPublicSchools(): Promise<SchoolGroup[]> {
     limit(100),
   )
   const snap = await getDocs(q)
-  const memberCounts = await Promise.all(
-    snap.docs.map((d) => countGroupMembers(d.id, 'school')),
-  )
-  return snap.docs.map((d, i) => {
+  return snap.docs.map((d) => {
     const data = d.data()
     return {
       id: d.id,
       name: data.name as string,
       type: 'school' as const,
       inviteCode: data.inviteCode as string,
-      memberCount: memberCounts[i],
+      memberCount: readMemberCount(data, 0),
     }
   }).reduce<SchoolGroup[]>((acc, school) => {
     const key = school.name.trim().toLowerCase()
@@ -567,6 +642,7 @@ export async function createGroup(
     type,
     inviteCode: code,
     createdBy: userId,
+    memberCount: 1,
     createdAt: serverTimestamp(),
   })
 
@@ -629,6 +705,9 @@ export async function syncLeaderboardFromProfile(userId: string): Promise<void> 
         (data.xpByDate as Record<string, number> | undefined)
         ?? progress.xpByDate
         ?? {},
+      ...periodScoreFields(
+        (data.xpByDate as Record<string, number> | undefined) ?? progress.xpByDate,
+      ),
       achievementIds: (data.achievementIds as string[]) ?? (progress.achievementIds as string[]) ?? [],
       updatedAt: serverTimestamp(),
     }),
@@ -642,9 +721,18 @@ export async function joinSchoolById(userId: string, schoolId: string): Promise<
   if (!group) throw new Error('School not found')
   if (group.type !== 'school') throw new Error('That group is a clan — use an invite code to join clans')
 
+  const profileSnap = await getDoc(doc(db, 'profiles', userId))
+  const prevSchoolId = profileSnap.data()?.schoolId as string | undefined
+  if (prevSchoolId && prevSchoolId !== schoolId) {
+    await adjustGroupMemberCount(prevSchoolId, -1)
+  }
+
   await patchPublicProfile(userId, { schoolId })
+  if (prevSchoolId !== schoolId) {
+    await adjustGroupMemberCount(schoolId, 1)
+  }
   await syncLeaderboardFromProfile(userId)
-  return { ...group, memberCount: (group.memberCount ?? 0) + 1 }
+  return { ...group, memberCount: (group.memberCount ?? 0) + (prevSchoolId === schoolId ? 0 : 1) }
 }
 
 export async function joinClanByCode(userId: string, rawCode: string): Promise<SchoolGroup> {
@@ -679,6 +767,7 @@ async function joinClanById(userId: string, clanId: string): Promise<SchoolGroup
   }
 
   await patchPublicProfile(userId, { clanIds: arrayUnion(clanId) })
+  await adjustGroupMemberCount(clanId, 1)
   await syncLeaderboardFromProfile(userId)
   const group = await fetchGroup(clanId)
   if (!group) throw new Error('Failed to load clan')
@@ -692,12 +781,16 @@ export async function joinSchoolByCode(userId: string, rawCode: string): Promise
 
 export async function leaveSchool(userId: string): Promise<void> {
   if (!db) return
+  const profileSnap = await getDoc(doc(db, 'profiles', userId))
+  const schoolId = profileSnap.data()?.schoolId as string | undefined
   await patchPublicProfile(userId, { schoolId: null })
+  if (schoolId) await adjustGroupMemberCount(schoolId, -1)
 }
 
 export async function leaveClan(userId: string, clanId: string): Promise<void> {
   if (!db) return
   await patchPublicProfile(userId, { clanIds: arrayRemove(clanId) })
+  await adjustGroupMemberCount(clanId, -1)
 }
 
 function globalLeaderboardEligible(
@@ -740,13 +833,28 @@ function docToLeaderboardEntry(
   }
 }
 
-/** Period boards must scan all entrants — pre-sorting by all-time XP drops weekly leaders. */
-async function fetchGlobalLeaderboardDocs(period: LeaderboardPeriod) {
+const PERIOD_SCORE_FIELD: Record<LeaderboardPeriod, string> = {
+  day: 'dayXp',
+  week: 'weekXp',
+  month: 'monthXp',
+  all: 'xp',
+}
+
+function leaderboardOrderField(metric: LeaderboardMetric, period: LeaderboardPeriod): string {
+  return metric === 'longestStreak' ? 'longestStreak' : PERIOD_SCORE_FIELD[period]
+}
+
+/**
+ * Bounded top-of-board query. Period boards order by the denormalized
+ * dayXp/weekXp/monthXp written at sync time (see `periodScoreFields`) — the
+ * exact display score is still recomputed client-side from xpByDate, the
+ * denormalized field only drives which docs we fetch. Over-fetch a little so
+ * hidden entries and slightly-stale ordering don't shrink the top 10.
+ */
+async function fetchGlobalLeaderboardDocs(metric: LeaderboardMetric, period: LeaderboardPeriod) {
   if (!db) throw new Error('Firebase is not configured')
-  if (period === 'all') {
-    return getDocs(query(collection(db, 'leaderboard'), orderBy('xp', 'desc'), limit(200)))
-  }
-  return getDocs(collection(db, 'leaderboard'))
+  const field = leaderboardOrderField(metric, period)
+  return getDocs(query(collection(db, 'leaderboard'), orderBy(field, 'desc'), limit(60)))
 }
 
 function buildGlobalLeaderboardRows(
@@ -835,7 +943,7 @@ export async function fetchGlobalLeaderboard(
   const cap = options?.limit ?? 10
 
   try {
-    const snap = await fetchGlobalLeaderboardDocs(period)
+    const snap = await fetchGlobalLeaderboardDocs(metric, period)
     return buildGlobalLeaderboardRows(snap.docs, currentUserId, metric, period).slice(0, cap)
   } catch {
     return []
@@ -860,19 +968,62 @@ export async function fetchGlobalLeaderboardWithRank(
   const cap = options?.limit ?? 10
 
   try {
-    const snap = await fetchGlobalLeaderboardDocs(period)
+    const snap = await fetchGlobalLeaderboardDocs(metric, period)
     const rows = buildGlobalLeaderboardRows(snap.docs, currentUserId, metric, period)
     const userIdx = currentUserId ? rows.findIndex((r) => r.userId === currentUserId) : -1
 
+    // Board size via count aggregation (1 read per 1000 docs) instead of
+    // downloading the whole collection.
+    const totalSnap = await getCountFromServer(collection(db, 'leaderboard'))
+    const total = Math.max(totalSnap.data().count, rows.length)
+
+    if (userIdx >= 0 || !currentUserId) {
+      return {
+        top: rows.slice(0, cap),
+        total,
+        userRank: userIdx >= 0 ? userIdx + 1 : null,
+        userEntry: userIdx >= 0 ? rows[userIdx] : null,
+      }
+    }
+
+    // User is outside the fetched window — rank from a count of entries
+    // scoring above them on the same order field.
+    const orderField = leaderboardOrderField(metric, period)
+    const ownSnap = await getDoc(doc(db, 'leaderboard', currentUserId))
+    if (!ownSnap.exists()) {
+      return { top: rows.slice(0, cap), total, userRank: null, userEntry: null }
+    }
+    const ownRow = ownSnap.data()
+    const ownEntry = docToLeaderboardEntry(currentUserId, ownRow, currentUserId, metric, period, 0)
+    const ownFieldScore = (ownRow[orderField] as number) ?? 0
+    const aboveSnap = await getCountFromServer(
+      query(collection(db, 'leaderboard'), where(orderField, '>', ownFieldScore)),
+    )
+
     return {
       top: rows.slice(0, cap),
-      total: rows.length,
-      userRank: userIdx >= 0 ? userIdx + 1 : null,
-      userEntry: userIdx >= 0 ? rows[userIdx] : null,
+      total,
+      userRank: aboveSnap.data().count + 1,
+      userEntry: ownEntry,
     }
   } catch {
     return { top: [], total: 0, userRank: null, userEntry: null }
   }
+}
+
+/** Batched profile reads — `documentId() in` supports 30 ids per query. */
+export async function fetchProfileDocsByIds(
+  ids: string[],
+): Promise<{ id: string; data: () => Record<string, unknown> }[]> {
+  if (!db || ids.length === 0) return []
+  const chunks: string[][] = []
+  for (let i = 0; i < ids.length; i += 30) chunks.push(ids.slice(i, i + 30))
+  const snaps = await Promise.all(
+    chunks.map((chunk) =>
+      getDocs(query(collection(db!, 'profiles'), where(documentId(), 'in', chunk))),
+    ),
+  )
+  return snaps.flatMap((s) => s.docs)
 }
 
 export async function fetchFriendsLeaderboard(
@@ -886,14 +1037,16 @@ export async function fetchFriendsLeaderboard(
   const period = options?.period ?? 'all'
   const ids = [...new Set([currentUserId, ...friendIds])]
 
-  const profiles = await Promise.all(ids.map((id) => getDoc(doc(db!, 'profiles', id))))
+  const profiles = await fetchProfileDocsByIds(ids)
   const rows: LeaderboardEntry[] = profiles
-    .filter((p) => p.exists())
     .map((d, index) => {
-      const row = d.data()!
+      const row = d.data()
       const xp = (row.xp as number) ?? 0
       const progress = (row.progress as Partial<UserProgress>) ?? {}
-      const xpByDate = mergeXpByDate(progress.xpByDate as Record<string, number> | undefined)
+      const xpByDate = mergeXpByDate(
+        (row.xpByDate as Record<string, number> | undefined) ??
+          (progress.xpByDate as Record<string, number> | undefined),
+      )
       const longestStreak = (row.longestStreak as number) ?? 0
       const streakDays = (row.streakDays as number) ?? 0
       const score =
@@ -938,6 +1091,7 @@ export async function updateProfileExtras(
   if (!db) return
   await patchPublicProfile(userId, extras as Record<string, unknown>)
   if (extras.showOnLeaderboard !== undefined) {
+    showOnLeaderboardCache.set(userId, extras.showOnLeaderboard)
     await setDoc(
       doc(db, 'leaderboard', userId),
       { showOnLeaderboard: extras.showOnLeaderboard },
@@ -953,7 +1107,9 @@ export async function fetchSchoolMemberProfiles(
   if (!db) return []
 
   try {
-    const snap = await getDocs(query(collection(db, 'profiles'), where('schoolId', '==', schoolId)))
+    const snap = await getDocs(
+      query(collection(db, 'profiles'), where('schoolId', '==', schoolId), limit(100)),
+    )
     const profiles = snap.docs.map((d) => docToProfile(d.id, d.data()))
     if (!options?.includeSecure) {
       return profiles.map((p) => ({ ...p, email: null, progress: {}, activeDates: [] }))
@@ -972,7 +1128,7 @@ export async function fetchClanMemberProfiles(
 
   try {
     const snap = await getDocs(
-      query(collection(db, 'profiles'), where('clanIds', 'array-contains', clanId)),
+      query(collection(db, 'profiles'), where('clanIds', 'array-contains', clanId), limit(100)),
     )
     const profiles = snap.docs.map((d) => docToProfile(d.id, d.data()))
     if (!options?.includeSecure) {

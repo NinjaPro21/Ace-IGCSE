@@ -64,16 +64,8 @@ export function LeaderboardHub() {
     setLoading(true)
 
     void (async () => {
-      const global = await fetchGlobalLeaderboardWithRank(user?.id ?? '', { metric, period, limit: 10 })
-      if (cancelled) return
-      setGlobalResult(global)
-
-      if (scope === 'global') {
-        setLoading(false)
-        return
-      }
-
       if (scope === 'friends') {
+        // The friends board doesn't need the global fetch at all.
         if (!user || friendIds.length === 0) {
           setFriendsBoard([])
           setLoading(false)
@@ -90,7 +82,11 @@ export function LeaderboardHub() {
         return
       }
 
-      if (!cancelled) setLoading(false)
+      // Global scope shows it directly; group scope uses it for medal points.
+      const global = await fetchGlobalLeaderboardWithRank(user?.id ?? '', { metric, period, limit: 10 })
+      if (cancelled) return
+      setGlobalResult(global)
+      setLoading(false)
     })()
 
     return () => {

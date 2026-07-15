@@ -4,6 +4,8 @@ import { EnlightButton } from '@/components/EnlightButton'
 import { EnlightSectionLabel } from '@/components/EnlightCard'
 import { ProgressGatewayCard } from '@/components/ProgressGatewayCard'
 import { StudyHubPanel } from '@/features/study/StudyHubPanel'
+import { DailyQuestsPanel } from '@/features/mastery/DailyQuestsPanel'
+import { PushNotificationPrompt } from '@/features/social/PushNotificationPrompt'
 import { usePageTitle } from '@/hooks/usePageTitle'
 import { useMastery } from '@/features/mastery/MasteryContext'
 import { getXpForLevel } from '@/features/mastery/levelSystem'
@@ -146,7 +148,11 @@ export function ProgressHubPage() {
         </div>
       </section>
 
+      <DailyQuestsPanel />
+
       <StudyHubPanel />
+
+      <PushNotificationPrompt />
 
       <div className="enlight-dashboard-grid enlight-dashboard-grid--compact">
         <div className="enlight-dash-card enlight-dash-card--notes">

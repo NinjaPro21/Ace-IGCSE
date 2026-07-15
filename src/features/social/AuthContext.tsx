@@ -11,11 +11,16 @@ import {
 import type { User } from 'firebase/auth'
 import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut as firebaseSignOut } from 'firebase/auth'
 import { masteryEngine } from '@/features/mastery/MasteryEngine'
-import { trackSignIn } from '@/lib/analytics'
+import { trackEvent, trackSignIn } from '@/lib/analytics'
+import {
+  getStoredReferralSource,
+} from '@/features/analytics/personalAnalytics'
 import { friendlyErrorMessage } from '@/lib/firebaseErrors'
+import { localDateISO } from '@/lib/localDate'
 import { checkIsAdmin } from '@/lib/admin'
 import { auth, isFirebaseConfigured } from '@/lib/firebase'
 import { clearPresence } from '@/features/social/presenceApi'
+import { touchBuddyStreaksForFriends } from '@/features/social/buddyStreaksApi'
 import {
   cloudRowToUserProgress,
   createGroup,
@@ -31,6 +36,7 @@ import {
   rowToAuthUser,
   syncLeaderboardFromProfile,
   upsertProfile,
+  upsertProfileLight,
 } from './socialApi'
 import { socialStore } from './socialStore'
 import type { AuthUser, LeaderboardEntry, PendingGroupAction, SchoolGroup } from './socialTypes'
@@ -133,6 +139,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [pendingGroup, setPendingGroupState] = useState(socialStore.getPendingGroup())
   const [localInviteCode, setLocalInviteCode] = useState(socialStore.getLocalInviteCode())
   const syncTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const lastLightSyncAt = useRef(0)
+  const lastHeavySyncAt = useRef(0)
 
   const refreshLeaderboardFor = useCallback(
     async (
@@ -174,6 +182,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [clans, leaderboardGroupId, refreshLeaderboardFor, school, user])
 
+  /** Full sync: public card + leaderboard + private progress blob. */
   const syncProgressNow = useCallback(async () => {
     if (!auth || !user) return
     try {
@@ -183,18 +192,31 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         displayName: user.displayName,
         avatarUrl: user.avatarUrl,
       })
-      try {
-        await refreshLeaderboard()
-      } catch {
-        // Leaderboard reads may fail under strict profile rules — progress still saved.
-      }
+      lastHeavySyncAt.current = Date.now()
+      lastLightSyncAt.current = Date.now()
     } catch (err) {
       setSyncError(friendlyErrorMessage(err, 'Sync failed'))
     }
-  }, [user, refreshLeaderboard])
+  }, [user])
 
-  const resolveAdmin = useCallback(async (uid: string, email?: string) => {
-    const ok = await checkIsAdmin(uid, email)
+  /** Cheap sync: public card + leaderboard only (no private progress doc). */
+  const syncProgressLight = useCallback(async () => {
+    if (!auth || !user) return
+    try {
+      setSyncError(null)
+      await upsertProfileLight(user.id, masteryEngine.getState(), {
+        email: user.email,
+        displayName: user.displayName,
+        avatarUrl: user.avatarUrl,
+      })
+      lastLightSyncAt.current = Date.now()
+    } catch (err) {
+      setSyncError(friendlyErrorMessage(err, 'Sync failed'))
+    }
+  }, [user])
+
+  const resolveAdmin = useCallback(async (uid: string) => {
+    const ok = await checkIsAdmin(uid)
     setIsAdmin(ok)
     setAdminChecked(true)
   }, [])
@@ -205,7 +227,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
       const authUser = firebaseUserToAuthUser(firebaseUser)
       const uid = firebaseUser.uid
-      void resolveAdmin(uid, authUser.email)
+      void resolveAdmin(uid)
 
       const local = masteryEngine.getState()
       if (local.ownerUserId && local.ownerUserId !== uid) {
@@ -251,6 +273,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         } else if (clanGroups[0]) {
           void refreshLeaderboardFor(clanGroups[0].id, 'clan', firebaseUser.uid)
         }
+
+        if (row.friendIds?.length && row.lastActiveDate === localDateISO()) {
+          void touchBuddyStreaksForFriends(uid, row.friendIds)
+        }
       } else {
         masteryEngine.bindOwnerUserId(uid)
         setUser(authUser)
@@ -259,6 +285,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           displayName: authUser.displayName,
           avatarUrl: authUser.avatarUrl,
         })
+        try {
+          trackEvent(
+            'user_signed_up',
+            { referralSource: getStoredReferralSource() },
+            { uid },
+          )
+        } catch {
+          // analytics silent
+        }
         const pending = await processPendingGroup(firebaseUser.uid)
         setSchool(pending.school)
         const clanGroups = pending.clans.length ? pending.clans : []
@@ -305,20 +340,46 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [hydrateSession])
 
   useEffect(() => {
+    // Study sessions emit 'enlight-progress' every ~10s. Syncing the full
+    // profile (1 read + 3 writes) on each event was ~1k writes/hour per
+    // active student. Instead: light sync (2 writes) at most once a minute,
+    // heavy sync (private progress blob) at most every 5 minutes, with a
+    // guaranteed heavy flush when the tab is hidden or the user signs out.
+    const LIGHT_SYNC_MIN_MS = 60_000
+    const HEAVY_SYNC_MIN_MS = 5 * 60_000
+    const DEBOUNCE_MS = 2000
+
+    const runDueSync = () => {
+      const now = Date.now()
+      if (now - lastHeavySyncAt.current >= HEAVY_SYNC_MIN_MS) {
+        void syncProgressNow()
+      } else {
+        void syncProgressLight()
+      }
+    }
+
     const scheduleSync = () => {
       if (!user) return
       if (syncTimer.current) clearTimeout(syncTimer.current)
-      syncTimer.current = setTimeout(() => {
-        void syncProgressNow()
-      }, 2000)
+      const sinceLight = Date.now() - lastLightSyncAt.current
+      const delay = Math.max(DEBOUNCE_MS, LIGHT_SYNC_MIN_MS - sinceLight)
+      syncTimer.current = setTimeout(runDueSync, delay)
+    }
+
+    const flushOnHide = () => {
+      if (!user || document.visibilityState !== 'hidden') return
+      if (syncTimer.current) clearTimeout(syncTimer.current)
+      void syncProgressNow()
     }
 
     window.addEventListener('enlight-progress', scheduleSync)
+    document.addEventListener('visibilitychange', flushOnHide)
     return () => {
       window.removeEventListener('enlight-progress', scheduleSync)
+      document.removeEventListener('visibilitychange', flushOnHide)
       if (syncTimer.current) clearTimeout(syncTimer.current)
     }
-  }, [user, syncProgressNow])
+  }, [user, syncProgressNow, syncProgressLight])
 
   const loadPublicSchools = useCallback(async () => {
     const schools = await fetchPublicSchools()
@@ -334,7 +395,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     try {
       const provider = new GoogleAuthProvider()
       await signInWithPopup(auth, provider)
-      trackSignIn('google')
+      trackSignIn('google', auth.currentUser?.uid)
     } catch (err) {
       setSyncError(friendlyErrorMessage(err, 'Sign-in failed'))
     }
@@ -343,7 +404,19 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const signOut = useCallback(async () => {
     if (!auth) return
     const uid = user?.id
-    if (uid) await clearPresence(uid)
+    if (uid) {
+      // Heavy syncs are throttled — flush the latest progress before clearing.
+      try {
+        await upsertProfile(uid, masteryEngine.getState(), {
+          email: user.email,
+          displayName: user.displayName,
+          avatarUrl: user.avatarUrl,
+        })
+      } catch {
+        // best effort — don't block sign-out
+      }
+      await clearPresence(uid)
+    }
     masteryEngine.clearLocalState()
     socialStore.clearAll()
     await firebaseSignOut(auth)
@@ -354,7 +427,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setLeaderboardGroupId(null)
     setIsAdmin(false)
     setAdminChecked(true)
-  }, [user?.id])
+  }, [user])
 
   const queueCreateClan = useCallback((name: string) => {
     const code = generateInviteCode('clan')

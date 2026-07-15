@@ -7,6 +7,8 @@ export interface PomodoroRuntime {
   secondsLeft: number
   running: boolean
   sessionActive: boolean
+  /** Work seconds completed but not yet credited to the mastery engine. */
+  workSecAccrued?: number
   savedAt: number
 }
 
@@ -29,6 +31,8 @@ export function loadPomodoroRuntime(): PomodoroRuntime | null {
       secondsLeft: Math.max(0, Math.round(parsed.secondsLeft)),
       running: parsed.running,
       sessionActive: parsed.sessionActive,
+      workSecAccrued:
+        typeof parsed.workSecAccrued === 'number' ? Math.max(0, Math.round(parsed.workSecAccrued)) : 0,
       savedAt: parsed.savedAt,
     }
   } catch {
@@ -58,17 +62,25 @@ export function hydratePomodoroRuntime(
   settings: { workMinutes: number; breakMinutes: number },
 ): Omit<PomodoroRuntime, 'savedAt'> {
   let { phase, secondsLeft, running, sessionActive } = saved
+  let workSecAccrued = saved.workSecAccrued ?? 0
   if (!running) {
-    return { phase, secondsLeft, running, sessionActive }
+    return { phase, secondsLeft, running, sessionActive, workSecAccrued }
   }
 
   let elapsed = Math.floor((Date.now() - saved.savedAt) / 1000)
+  // Work seconds consumed while away still count as focus time, but cap the
+  // catch-up at one full work block so a tab left running overnight can't
+  // farm hours of streak/study credit.
+  let catchUpWorkSec = 0
+  const catchUpCap = settings.workMinutes * 60
   while (elapsed > 0) {
     if (elapsed < secondsLeft) {
+      if (phase === 'work' && sessionActive) catchUpWorkSec += elapsed
       secondsLeft -= elapsed
       elapsed = 0
       break
     }
+    if (phase === 'work' && sessionActive) catchUpWorkSec += secondsLeft
     elapsed -= secondsLeft
     if (phase === 'work') {
       phase = 'break'
@@ -78,6 +90,7 @@ export function hydratePomodoroRuntime(
       secondsLeft = settings.workMinutes * 60
     }
   }
+  workSecAccrued += Math.min(catchUpWorkSec, catchUpCap)
 
-  return { phase, secondsLeft, running, sessionActive }
+  return { phase, secondsLeft, running, sessionActive, workSecAccrued }
 }

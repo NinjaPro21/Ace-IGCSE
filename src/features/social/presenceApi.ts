@@ -34,12 +34,24 @@ function presenceWritePayload(data: Omit<PresenceDoc, 'updatedAt' | 'updatedAtCl
   return payload
 }
 
+// Dedupe: skip a write when the payload is unchanged and the last beat is
+// recent — effect re-runs and visibility flips otherwise burn extra writes.
+let lastPresencePayload = ''
+let lastPresenceWriteAt = 0
+const MIN_REWRITE_MS = 30_000
+
 export async function updatePresence(userId: string, data: Omit<PresenceDoc, 'updatedAt' | 'updatedAtClient'>): Promise<void> {
   if (!db) return
+  const payload = presenceWritePayload(data)
+  const key = `${userId}:${JSON.stringify(payload)}`
+  const now = Date.now()
+  if (key === lastPresencePayload && now - lastPresenceWriteAt < MIN_REWRITE_MS) return
+  lastPresencePayload = key
+  lastPresenceWriteAt = now
   await setDoc(
     doc(db, 'presence', userId),
     {
-      ...presenceWritePayload(data),
+      ...payload,
       updatedAt: serverTimestamp(),
       updatedAtClient: new Date().toISOString(),
     },
@@ -77,7 +89,10 @@ export function subscribePresence(userId: string, cb: (p: PresenceDoc | null) =>
   })
 }
 
-export function isPresenceStale(p: PresenceDoc | null, maxAgeMs = 120_000): boolean {
+/** Must exceed the heartbeat interval (2 min) with margin for a missed beat. */
+export const PRESENCE_STALE_MS = 300_000
+
+export function isPresenceStale(p: PresenceDoc | null, maxAgeMs = PRESENCE_STALE_MS): boolean {
   const ts = p?.updatedAtClient ?? p?.updatedAt
   if (!ts) return p?.status !== 'online' && p?.status !== 'studying' && p?.status !== 'in_quiz'
   return Date.now() - new Date(ts).getTime() > maxAgeMs

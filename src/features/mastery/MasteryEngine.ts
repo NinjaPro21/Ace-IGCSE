@@ -26,6 +26,13 @@ import {
 
 } from './progressStats'
 
+import {
+  DAILY_QUEST_BONUS_XP,
+  evaluateDailyQuests,
+  generateDailyQuests,
+  type DailyQuestState,
+} from './dailyQuests'
+
 
 
 export type MasteryLevel = 0 | 1 | 2 | 3 | 4
@@ -145,6 +152,15 @@ export interface UserProgress {
 
   /** Firebase uid that owns this local progress blob (prevents cross-account bleed) */
   ownerUserId?: string
+
+  /** Earned by 7-day streak milestones — auto-consumes one missed calendar day */
+  streakFreezes?: number
+
+  /** Auto-generated daily missions + bonus claim state */
+  dailyQuests?: import('./dailyQuests').DailyQuestState
+
+  /** groupId → ISO week key when weekly school/clan bonus was claimed */
+  weeklyChallengeClaims?: Record<string, string>
 
 }
 
@@ -295,6 +311,12 @@ function normalizeState(parsed: Partial<UserProgress>): UserProgress {
 
     studyPlanTasks: parsed.studyPlanTasks ?? [],
 
+    streakFreezes: parsed.streakFreezes ?? 0,
+
+    dailyQuests: parsed.dailyQuests,
+
+    weeklyChallengeClaims: parsed.weeklyChallengeClaims ?? {},
+
     ownerUserId: parsed.ownerUserId,
 
   }
@@ -379,76 +401,64 @@ function recordActiveDay(state: UserProgress): UserProgress {
 
 
 
-function applyStreakExpiry(state: UserProgress): UserProgress {
-
-  if (state.streakDays === 0 || !state.lastActiveDate) return state
-
-  // Calendar-day rule: the streak survives as long as the user was active
-
-  // today or yesterday (local time). A fixed 24h window punished students who
-
-  // study at roughly the same time every day (Mon 8am → Tue 9am is 25h).
-
-  const alive =
-
-    state.lastActiveDate === todayISO() || state.lastActiveDate === localDateISODaysAgo(1)
-
-  if (!alive) {
-
-    return { ...state, streakDays: 0 }
-
-  }
-
-  return state
-
+function daysBetweenDates(a: string, b: string): number {
+  return Math.floor((Date.parse(b) - Date.parse(a)) / 86400000)
 }
 
-
-
-function touchStreak(state: UserProgress): UserProgress {
-
-  const expired = applyStreakExpiry(state)
+function applyStreakExpiry(state: UserProgress): UserProgress {
+  if (state.streakDays === 0 || !state.lastActiveDate) return state
 
   const today = todayISO()
-
-  let streak = expired.streakDays
-
-
-
-  if (streak === 0) {
-
-    streak = 1
-
-  } else if (expired.lastActiveDate === today) {
-
-    // same calendar day — keep streak count
-
-  } else {
-
-    // expiry guarantees lastActiveDate is yesterday here
-
-    streak += 1
-
+  const yesterday = localDateISODaysAgo(1)
+  if (state.lastActiveDate === today || state.lastActiveDate === yesterday) {
+    return state
   }
 
+  const gap = daysBetweenDates(state.lastActiveDate, today)
+  // Missed exactly one calendar day — spend a streak freeze instead of resetting.
+  if (gap === 2 && (state.streakFreezes ?? 0) > 0) {
+    return { ...state, streakFreezes: (state.streakFreezes ?? 0) - 1 }
+  }
 
+  return { ...state, streakDays: 0 }
+}
+
+function dispatchStreakUp(prev: number, next: number): void {
+  if (next > prev && prev > 0) {
+    window.dispatchEvent(
+      new CustomEvent('enlight-streak-up', { detail: { streakDays: next, prevStreakDays: prev } }),
+    )
+  }
+}
+
+function touchStreak(state: UserProgress): UserProgress {
+  const prevStreak = state.streakDays
+  const expired = applyStreakExpiry(state)
+  const today = todayISO()
+  let streak = expired.streakDays
+  let streakFreezes = expired.streakFreezes ?? 0
+
+  if (streak === 0) {
+    streak = 1
+  } else if (expired.lastActiveDate === today) {
+    // same calendar day — keep streak count
+  } else {
+    streak += 1
+    if (streak > 0 && streak % 7 === 0) {
+      streakFreezes = Math.min(streakFreezes + 1, 3)
+    }
+  }
 
   const longestStreak = Math.max(expired.longestStreak, streak)
-
+  dispatchStreakUp(prevStreak, streak)
   return recordActiveDay({
-
     ...expired,
-
     streakDays: streak,
-
+    streakFreezes,
     longestStreak,
-
     lastActiveDate: today,
-
     lastActiveAt: new Date().toISOString(),
-
   })
-
 }
 
 
@@ -625,6 +635,8 @@ export class MasteryEngine {
 
     }
 
+    this.syncDailyQuests()
+
   }
 
 
@@ -749,6 +761,8 @@ export class MasteryEngine {
 
     saveState(this.state)
 
+    this.syncDailyQuests()
+
   }
 
 
@@ -790,6 +804,36 @@ export class MasteryEngine {
     this.state = touchStreak(this.state)
 
     this.state = addStudySec(this.state, seconds)
+
+    saveState(this.state)
+
+  }
+
+
+
+  /** Claw back study time credited while the user was actually AFK. */
+
+  deductDailyStudySec(seconds: number): void {
+
+    if (seconds <= 0) return
+
+    const today = todayISO()
+
+    const current = this.state.studySecByDate?.[today] ?? 0
+
+    this.state = {
+
+      ...this.state,
+
+      studySecByDate: {
+
+        ...(this.state.studySecByDate ?? {}),
+
+        [today]: Math.max(0, current - Math.round(seconds)),
+
+      },
+
+    }
 
     saveState(this.state)
 
@@ -938,23 +982,9 @@ export class MasteryEngine {
 
 
   getChapterQuizLevel(chapterId: string): MasteryLevel {
-
-    const topics = getTopicsForChapter(chapterId)
-
-    if (topics.length === 0) {
-
-      return ensureChapter(this.state, chapterId).quizLevel
-
-    }
-
-    const levels = topics.map((t) => this.state.topics[t.id]?.quizLevel ?? 0)
-
-    const total = levels.reduce<number>((sum, n) => sum + n, 0)
-
-    const avg = total / levels.length
-
-    return Math.floor(avg) as MasteryLevel
-
+    // Match unlock gates: stored chapter level is the min topic level
+    // (see syncChapterFromTopics), not an average that can overshoot gates.
+    return ensureChapter(this.state, chapterId).quizLevel as MasteryLevel
   }
 
 
@@ -1269,6 +1299,8 @@ export class MasteryEngine {
 
     saveState(this.state)
 
+    this.syncDailyQuests({ chapterId, topicId })
+
     return !wasComplete && nowComplete
 
   }
@@ -1476,6 +1508,11 @@ export class MasteryEngine {
 
 
 
+    this.syncDailyQuests({
+      chapterId,
+      mediumQuizPassed: passed && difficulty === 'medium',
+    })
+
     return xpGain
 
   }
@@ -1608,6 +1645,12 @@ export class MasteryEngine {
 
 
 
+    this.syncDailyQuests({
+      chapterId,
+      topicId,
+      mediumQuizPassed: passed && difficulty === 'medium',
+    })
+
     return xpGain
 
   }
@@ -1720,7 +1763,7 @@ export class MasteryEngine {
 
         totalMisses,
 
-        isRepeatConcept: totalMisses > 2,
+        isRepeatConcept: totalMisses >= 2,
 
       }
 
@@ -1778,7 +1821,109 @@ export class MasteryEngine {
 
   notify(): void {
 
+    this.syncDailyQuests()
+
     window.dispatchEvent(new Event('enlight-progress'))
+
+  }
+
+
+
+  getDailyQuests(): DailyQuestState {
+
+    this.syncDailyQuests()
+
+    return this.state.dailyQuests!
+
+  }
+
+
+
+  claimDailyQuestBonus(): boolean {
+
+    const dq = this.getDailyQuests()
+
+    if (dq.bonusClaimed || !dq.quests.every((q) => q.done)) return false
+
+    this.state = {
+
+      ...this.state,
+
+      dailyQuests: { ...dq, bonusClaimed: true },
+
+    }
+
+    this.state = awardXp(this.state, DAILY_QUEST_BONUS_XP)
+
+    saveState(this.state)
+
+    this.notify()
+
+    return true
+
+  }
+
+
+
+  claimWeeklyChallengeBonus(groupId: string, weekKey: string, bonusXp = 50): boolean {
+
+    const claims = this.state.weeklyChallengeClaims ?? {}
+
+    if (claims[groupId] === weekKey) return false
+
+    this.state = {
+
+      ...this.state,
+
+      weeklyChallengeClaims: { ...claims, [groupId]: weekKey },
+
+    }
+
+    this.state = awardXp(this.state, bonusXp)
+
+    saveState(this.state)
+
+    this.notify()
+
+    return true
+
+  }
+
+
+
+  private syncDailyQuests(ctx?: {
+
+    chapterId?: string
+
+    topicId?: string
+
+    mediumQuizPassed?: boolean
+
+    notesStudiedSec?: number
+
+  }): void {
+
+    const today = todayISO()
+
+    let dq = this.state.dailyQuests
+
+    if (!dq || dq.forDate !== today) {
+
+      dq = generateDailyQuests(this.state, today)
+
+    } else {
+
+      dq = evaluateDailyQuests(dq, this.state, ctx)
+
+    }
+
+    if (JSON.stringify(dq) !== JSON.stringify(this.state.dailyQuests)) {
+
+      this.state = { ...this.state, dailyQuests: dq }
+
+      saveState(this.state)
+
+    }
 
   }
 

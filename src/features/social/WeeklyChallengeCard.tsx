@@ -1,13 +1,21 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { EnlightButton } from '@/components/EnlightButton'
 import { useAuth } from './AuthContext'
 import { fetchClanMemberProfiles, fetchSchoolMemberProfiles } from './socialApi'
-import { sumXpInPeriod } from './leaderboardUtils'
+import { masteryEngine } from '@/features/mastery/MasteryEngine'
+import {
+  currentWeekKey,
+  sumGroupWeekXp,
+  WEEKLY_CHALLENGE_BONUS_XP,
+  WEEKLY_GROUP_XP_TARGET,
+} from './weeklyChallenge'
 
 export function WeeklyChallengeCard() {
   const { user, school, clans } = useAuth()
-  const [rank, setRank] = useState<number | null>(null)
-  const [total, setTotal] = useState(0)
-  const [gap, setGap] = useState<number | null>(null)
+  const [groupXp, setGroupXp] = useState(0)
+  const [memberCount, setMemberCount] = useState(0)
+  const [claimed, setClaimed] = useState(false)
+  const weekKey = useMemo(() => currentWeekKey(), [])
 
   const group = school ?? clans[0]
 
@@ -19,54 +27,57 @@ export function WeeklyChallengeCard() {
           ? await fetchSchoolMemberProfiles(group.id)
           : await fetchClanMemberProfiles(group.id)
 
-      const scored = profiles
-        .map((p) => ({
-          id: p.id,
-          xp: sumXpInPeriod(p.xpByDate ?? p.progress?.xpByDate, 'week', p.xp),
-        }))
-        .sort((a, b) => b.xp - a.xp)
-
-      setTotal(scored.length)
-      const idx = scored.findIndex((s) => s.id === user.id)
-      setRank(idx >= 0 ? idx + 1 : null)
-      if (idx > 0) {
-        setGap(scored[idx - 1].xp - scored[idx].xp)
-      } else {
-        setGap(null)
-      }
+      setMemberCount(profiles.length)
+      setGroupXp(sumGroupWeekXp(profiles))
+      const claims = masteryEngine.getState().weeklyChallengeClaims ?? {}
+      setClaimed(claims[group.id] === weekKey)
     })()
-  }, [user, group])
+  }, [user, group, weekKey])
 
   if (!group || !user) return null
+
+  const pct = Math.min(100, Math.round((groupXp / WEEKLY_GROUP_XP_TARGET) * 100))
+  const complete = groupXp >= WEEKLY_GROUP_XP_TARGET
+
+  const handleClaim = () => {
+    if (!complete) return
+    const ok = masteryEngine.claimWeeklyChallengeBonus(group.id, weekKey, WEEKLY_CHALLENGE_BONUS_XP)
+    if (ok) setClaimed(true)
+  }
 
   return (
     <section className="enlight-weekly-challenge" aria-label="Weekly challenge">
       <div className="enlight-weekly-challenge__head">
         <div>
           <h2 className="enlight-weekly-challenge__title">Weekly challenge</h2>
-          <p className="enlight-weekly-challenge__group">{group.name} · This week&apos;s XP race</p>
+          <p className="enlight-weekly-challenge__group">
+            {group.name} · Earn {WEEKLY_GROUP_XP_TARGET.toLocaleString()} XP together this week
+          </p>
         </div>
       </div>
 
-      {rank == null ? (
-        <p className="enlight-weekly-challenge__empty">Study this week to appear on the board.</p>
-      ) : (
-        <div className="enlight-weekly-challenge__body">
-          <div className="enlight-weekly-challenge__placement">
-            <span className="enlight-weekly-challenge__rank-num">#{rank}</span>
-            <span className="enlight-weekly-challenge__rank-of">of {total}</span>
-          </div>
-
-          {rank === 1 ? (
-            <p className="enlight-weekly-challenge__lead">You&apos;re in the lead this week.</p>
-          ) : gap != null && gap > 0 ? (
-            <div className="enlight-weekly-challenge__gap">
-              <span className="enlight-weekly-challenge__gap-value">{gap.toLocaleString()}</span>
-              <span className="enlight-weekly-challenge__gap-label">XP behind #{rank - 1}</span>
-            </div>
-          ) : null}
+      <div className="enlight-weekly-challenge__body">
+        <div className="enlight-daily-goal-bar" aria-hidden>
+          <div className="enlight-daily-goal-bar__fill" style={{ width: `${pct}%` }} />
         </div>
-      )}
+        <p className="enlight-body-text">
+          {groupXp.toLocaleString()} / {WEEKLY_GROUP_XP_TARGET.toLocaleString()} group XP · {memberCount}{' '}
+          member{memberCount === 1 ? '' : 's'}
+        </p>
+        {complete && !claimed && (
+          <EnlightButton onClick={handleClaim}>
+            Claim +{WEEKLY_CHALLENGE_BONUS_XP} XP
+          </EnlightButton>
+        )}
+        {claimed && (
+          <p className="enlight-weekly-challenge__lead">Bonus claimed — nice work, team!</p>
+        )}
+        {!complete && (
+          <p className="enlight-weekly-challenge__empty">
+            Every quiz and note session counts toward the group total.
+          </p>
+        )}
+      </div>
     </section>
   )
 }

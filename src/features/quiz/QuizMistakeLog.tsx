@@ -57,7 +57,7 @@ export function QuizMistakeLog({ log, passed }: QuizMistakeLogProps) {
             <div className="enlight-mistake-log__entry-head">
               <span className="enlight-mistake-log__round">#{i + 1}</span>
               {entry.isRepeatConcept && (
-                <span className="enlight-mistake-log__repeat-badge" title="Missed this concept more than twice overall">
+                <span className="enlight-mistake-log__repeat-badge" title="Missed this concept before">
                   ⚠ Recurring ({entry.totalMisses}× total)
                 </span>
               )}

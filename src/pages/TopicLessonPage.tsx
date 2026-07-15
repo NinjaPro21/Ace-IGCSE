@@ -29,6 +29,7 @@ import {
 } from '@/lib/contentLoader'
 import type { Difficulty } from '@/lib/contentTypes'
 import { ChapterFeedback } from '@/components/ChapterFeedback'
+import { StudyRoomPanel } from '@/features/social/StudyRoomPanel'
 import { extractKeyFormula, extractQuickCheck } from '@/lib/noteSidebar'
 import { isRedundantSectionSubtitle } from '@/lib/mathMarkdown'
 import { trackEnlightEvent } from '@/lib/enlightEvents'
@@ -79,8 +80,10 @@ export function TopicLessonPage() {
     void getTopicQuizAvailability(topicId).then(setQuizAvailability)
   }, [topicId])
 
-  useChapterSession(chapterId)
-  useTopicSession(topicId)
+  // Topic session owns daily-study crediting on this page; the chapter
+  // session only tracks chapter stats to avoid double-counting minutes.
+  useChapterSession(chapterId, false)
+  useTopicSession(topicId, subjectId)
 
   const { user } = useAuth()
 
@@ -94,7 +97,11 @@ export function TopicLessonPage() {
   useEffect(() => {
     if (!user?.id || !chapterId || !subjectId || !topicId) return
     notesOpenedAtRef.current = Date.now()
-    void trackEnlightEvent(user.id, 'notes_opened', { chapterId, subject: subjectId })
+    void trackEnlightEvent(user.id, 'notes_opened', {
+      chapterId,
+      subject: subjectId,
+      topicId,
+    })
     return () => {
       if (notesOpenedAtRef.current === null) return
       const durationSec = Math.round((Date.now() - notesOpenedAtRef.current) / 1000)
@@ -102,6 +109,7 @@ export function TopicLessonPage() {
         chapterId,
         subject: subjectId,
         durationSec,
+        topicId,
       })
       notesOpenedAtRef.current = null
     }
@@ -353,6 +361,13 @@ export function TopicLessonPage() {
                 <MasteryPath chapterId={chapterId} notesComplete={notesComplete} />
               </section>
             )}
+
+            <StudyRoomPanel
+              subjectId={subjectId}
+              chapterId={chapterId}
+              topicId={topicId}
+              topicTitle={topic?.title ?? 'Lesson'}
+            />
 
             <ChapterFeedback chapterId={chapterId} subject={subjectId} />
 

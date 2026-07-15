@@ -18,7 +18,11 @@ export function CelebrationProvider({ children }: { children: ReactNode }) {
   const [queue, setQueue] = useState<CelebrationPayload[]>([])
   const [current, setCurrent] = useState<CelebrationPayload | null>(null)
   const { achievements } = useMastery()
-  const prevAchievementIds = useRef<Set<string>>(new Set())
+  // Seed from persisted state so already-unlocked achievements don't replay
+  // their celebrations on every app load.
+  const prevAchievementIds = useRef<Set<string>>(
+    new Set(masteryEngine.getState().achievementIds ?? []),
+  )
 
   const show = useCallback((p: CelebrationPayload) => {
     setQueue((q) => [...q, p])
@@ -48,25 +52,46 @@ export function CelebrationProvider({ children }: { children: ReactNode }) {
         })
       }
     }
+    const onStreakUp = (e: Event) => {
+      const detail = (e as CustomEvent<{ streakDays: number }>).detail
+      if (detail?.streakDays) {
+        show({
+          kind: 'streak',
+          title: `${detail.streakDays}-day streak!`,
+          message: 'Keep studying today to protect it.',
+          icon: '🔥',
+        })
+      }
+    }
     window.addEventListener('enlight-level-up', onLevelUp)
     window.addEventListener('enlight-quiz-pass', onQuizPass)
+    window.addEventListener('enlight-streak-up', onStreakUp)
     return () => {
       window.removeEventListener('enlight-level-up', onLevelUp)
       window.removeEventListener('enlight-quiz-pass', onQuizPass)
+      window.removeEventListener('enlight-streak-up', onStreakUp)
     }
   }, [show])
 
+  const achievementsSeen = useRef(false)
+
   useEffect(() => {
     const unlocked = achievements.filter((a) => a.unlocked)
-    const newOnes = unlocked.filter((a) => !prevAchievementIds.current.has(a.id))
-    for (const a of newOnes) {
-      show({
-        kind: 'achievement',
-        title: a.title,
-        message: a.description,
-        icon: a.icon,
-      })
+    // Only celebrate unlocks that happen after mount — anything unlocked on
+    // first evaluation predates this session (covers legacy states without a
+    // persisted achievementIds list).
+    if (achievementsSeen.current) {
+      const newOnes = unlocked.filter((a) => !prevAchievementIds.current.has(a.id))
+      for (const a of newOnes) {
+        show({
+          kind: 'achievement',
+          title: a.title,
+          message: a.description,
+          icon: a.icon,
+        })
+      }
     }
+    achievementsSeen.current = true
     prevAchievementIds.current = new Set(unlocked.map((a) => a.id))
     masteryEngine.syncAchievementIds(unlocked.map((a) => a.id))
   }, [achievements, show])

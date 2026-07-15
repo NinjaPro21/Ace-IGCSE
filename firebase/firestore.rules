@@ -126,7 +126,33 @@ service cloud.firestore {
       return neu.displayName is string
         && neu.xp is int && neu.xp >= 0 && neu.xp <= 50000
         && neu.streakDays is int && neu.streakDays >= 0 && neu.streakDays <= 366
-        && neu.longestStreak is int && neu.longestStreak >= 0 && neu.longestStreak <= 366;
+        && neu.longestStreak is int && neu.longestStreak >= 0 && neu.longestStreak <= 366
+        && validLeaderboardPeriodScores();
+    }
+
+    // Denormalized day/week/month scores must be internally consistent.
+    function validLeaderboardPeriodScores() {
+      let neu = request.resource.data;
+      return neu.get('dayXp', 0) is int && neu.get('dayXp', 0) >= 0
+        && neu.get('weekXp', 0) is int && neu.get('weekXp', 0) >= 0
+        && neu.get('monthXp', 0) is int && neu.get('monthXp', 0) >= 0 && neu.get('monthXp', 0) <= 50000
+        && neu.get('dayXp', 0) <= neu.get('weekXp', 0)
+        && neu.get('weekXp', 0) <= neu.get('monthXp', 0);
+    }
+
+    // Updates must grow gradually (mirrors validProfileUpdate) or match the
+    // delta-capped profile doc — a client can no longer jump straight to the
+    // top of the board with one write.
+    function validLeaderboardUpdate() {
+      let old = resource.data;
+      let neu = request.resource.data;
+      let p = myProfile();
+      let pXp = p != null ? p.get('xp', 0) : 0;
+      let pStreak = p != null ? p.get('streakDays', 0) : 0;
+      return validLeaderboardEntry()
+        && (neu.xp <= old.get('xp', 0) + 300 || neu.xp <= pXp)
+        && (neu.streakDays <= old.get('streakDays', 0) + 1 || neu.streakDays <= pStreak)
+        && neu.longestStreak >= old.get('longestStreak', 0);
     }
 
     function isBuddyStreakMember() {
@@ -136,10 +162,6 @@ service cloud.firestore {
     function isCreatingBuddyStreak() {
       return request.resource.data.uidA == request.auth.uid
         || request.resource.data.uidB == request.auth.uid;
-    }
-
-    function isStudyRoomMember() {
-      return request.auth.uid in resource.data.get('memberUids', []);
     }
 
     function isJoiningStudyRoom() {
@@ -158,6 +180,48 @@ service cloud.firestore {
         && !(request.auth.uid in newMembers)
         && newMembers.size() == oldMembers.size() - 1
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['memberUids']);
+    }
+
+    function isMemberCountAdjust(delta) {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly(['memberCount'])
+        && request.resource.data.memberCount is int
+        && request.resource.data.memberCount == resource.data.get('memberCount', 0) + delta
+        && request.resource.data.memberCount >= 0;
+    }
+
+    function friendRequestRespond() {
+      return resource.data.toUid == request.auth.uid
+        && resource.data.status == 'pending'
+        && request.resource.data.status in ['accepted', 'declined']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']);
+    }
+
+    function validBuddyStreakCreate() {
+      let neu = request.resource.data;
+      return neu.streakDays == 1
+        && neu.lastBothActiveDate is string
+        && neu.uidA is string
+        && neu.uidB is string;
+    }
+
+    function validBuddyStreakUpdate() {
+      let old = resource.data;
+      let neu = request.resource.data;
+      let affected = neu.diff(old).affectedKeys();
+      return neu.streakDays is int
+        && neu.streakDays >= 1
+        && neu.streakDays <= 366
+        && neu.lastBothActiveDate is string
+        && (neu.streakDays == old.streakDays || neu.streakDays == old.streakDays + 1 || neu.streakDays == 1)
+        && affected.hasOnly(['streakDays', 'lastBothActiveDate', 'updatedAt']);
+    }
+
+    function validPushDoc() {
+      let neu = request.resource.data;
+      return neu.keys().hasOnly(['fcmToken', 'enabled', 'updatedAt', 'lastStreakReminderDate'])
+        && (!('fcmToken' in neu) || neu.fcmToken is string)
+        && (!('enabled' in neu) || neu.enabled is bool)
+        && (!('lastStreakReminderDate' in neu) || neu.lastStreakReminderDate is string);
     }
 
     match /admins/{userId} {
@@ -182,14 +246,31 @@ service cloud.firestore {
       // Email + full study/quiz progress — owner or admin only.
       match /private/{docId} {
         allow read: if isOwner(userId) || isAdmin();
-        allow create, update: if isOwner(userId);
+        allow create, update: if isOwner(userId)
+          && (docId != 'push' || validPushDoc());
+        allow delete: if false;
+      }
+
+      // Per-user learning analytics for research rollups — owner write; other users cannot read.
+      match /analytics/{docId} {
+        allow read: if isOwner(userId) || isAdmin();
+        allow create, update: if isOwner(userId) && docId == 'learning';
         allow delete: if false;
       }
     }
 
+    // Creates are anchored to the (delta-capped) profile so delete+recreate
+    // can't bypass the update caps.
+    function validLeaderboardCreate() {
+      let p = myProfile();
+      let pXp = p != null ? p.get('xp', 0) : 0;
+      return validLeaderboardEntry() && request.resource.data.xp <= pXp + 300;
+    }
+
     match /leaderboard/{userId} {
       allow read: if signedIn();
-      allow create, update: if isOwner(userId) && validLeaderboardEntry();
+      allow create: if isOwner(userId) && validLeaderboardCreate();
+      allow update: if isOwner(userId) && validLeaderboardUpdate();
       allow delete: if isOwner(userId);
     }
 
@@ -197,7 +278,14 @@ service cloud.firestore {
     match /friendCodes/{code} {
       allow get: if signedIn();
       allow list: if false;
-      allow create, update: if signedIn() && request.resource.data.userId == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.userId == request.auth.uid
+        && !exists(/databases/$(database)/documents/friendCodes/$(code));
+      // Only the current owner may update — otherwise anyone could point an
+      // existing code at their own account and hijack friend invites.
+      allow update: if signedIn()
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid;
       allow delete: if signedIn() && resource.data.userId == request.auth.uid;
     }
 
@@ -207,20 +295,32 @@ service cloud.firestore {
         && request.resource.data.createdBy == request.auth.uid
         && request.resource.data.inviteCode is string
         && request.resource.data.name is string
-        && request.resource.data.type in ['school', 'clan'];
-      allow update, delete: if false;
+        && request.resource.data.type in ['school', 'clan']
+        && request.resource.data.get('memberCount', 1) == 1;
+      // Denormalized memberCount — join/leave bumps only; metadata is immutable.
+      allow update: if signedIn() && (isMemberCountAdjust(1) || isMemberCountAdjust(-1));
+      allow delete: if false;
     }
 
     match /platformStats/summary {
       allow read: if isAdmin();
       allow write: if false;
+
+      match /daily/{dayId} {
+        allow read: if isAdmin();
+        allow write: if false;
+      }
+      match /weekly/{weekId} {
+        allow read: if isAdmin();
+        allow write: if false;
+      }
     }
 
     match /friendRequests/{requestId} {
       allow read: if signedIn()
         && (resource.data.fromUid == request.auth.uid || resource.data.toUid == request.auth.uid);
       allow create: if signedIn() && request.resource.data.fromUid == request.auth.uid;
-      allow update: if signedIn() && resource.data.toUid == request.auth.uid;
+      allow update: if signedIn() && friendRequestRespond();
     }
 
     match /presence/{userId} {
@@ -239,33 +339,92 @@ service cloud.firestore {
       allow get: if signedIn();
       allow list: if false;
       allow create: if signedIn() && request.resource.data.createdBy == request.auth.uid;
-      allow update: if signedIn()
-        && (isStudyRoomMember() || isJoiningStudyRoom() || isLeavingStudyRoom());
+      // The only legal update is adding/removing yourself from memberUids —
+      // room metadata (topic, creator, startedAt) is immutable after create.
+      allow update: if signedIn() && (isJoiningStudyRoom() || isLeavingStudyRoom());
     }
 
     match /buddyStreaks/{pairId} {
       allow read: if signedIn() && isBuddyStreakMember();
-      allow create: if signedIn() && isCreatingBuddyStreak();
-      allow update: if signedIn() && isBuddyStreakMember();
+      allow create: if signedIn() && isCreatingBuddyStreak() && validBuddyStreakCreate();
+      allow update: if signedIn() && isBuddyStreakMember() && validBuddyStreakUpdate();
+    }
+
+    // Opponent accepts/declines a pending duel — status is the only change.
+    function duelRespondUpdate() {
+      return resource.data.opponentUid == request.auth.uid
+        && resource.data.status == 'pending'
+        && request.resource.data.status in ['active', 'declined']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']);
+    }
+
+    // A participant submits their own score exactly once. Completing the
+    // duel (status + winnerUid) is only allowed together with the second
+    // score, and the winner must be one of the two participants.
+    function duelChallengerScoreUpdate() {
+      let old = resource.data;
+      let neu = request.resource.data;
+      let affected = neu.diff(old).affectedKeys();
+      return old.challengerUid == request.auth.uid
+        && old.status == 'active'
+        && !('challengerScore' in old)
+        && neu.challengerScore is number
+        && neu.challengerTimeSec is number
+        && (
+          affected.hasOnly(['challengerScore', 'challengerTimeSec'])
+          || (
+            affected.hasOnly(['challengerScore', 'challengerTimeSec', 'status', 'winnerUid'])
+            && 'opponentScore' in old
+            && neu.status == 'complete'
+            && neu.winnerUid in [old.challengerUid, old.opponentUid]
+          )
+        );
+    }
+
+    function duelOpponentScoreUpdate() {
+      let old = resource.data;
+      let neu = request.resource.data;
+      let affected = neu.diff(old).affectedKeys();
+      return old.opponentUid == request.auth.uid
+        && old.status == 'active'
+        && !('opponentScore' in old)
+        && neu.opponentScore is number
+        && neu.opponentTimeSec is number
+        && (
+          affected.hasOnly(['opponentScore', 'opponentTimeSec'])
+          || (
+            affected.hasOnly(['opponentScore', 'opponentTimeSec', 'status', 'winnerUid'])
+            && 'challengerScore' in old
+            && neu.status == 'complete'
+            && neu.winnerUid in [old.challengerUid, old.opponentUid]
+          )
+        );
     }
 
     match /duels/{duelId} {
       allow read: if signedIn()
         && (resource.data.challengerUid == request.auth.uid
           || resource.data.opponentUid == request.auth.uid);
-      allow create: if signedIn() && request.resource.data.challengerUid == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.challengerUid == request.auth.uid
+        && request.resource.data.opponentUid is string
+        && request.resource.data.opponentUid != request.auth.uid
+        && request.resource.data.status == 'pending'
+        && request.resource.data.difficulty in ['easy', 'medium', 'hard', 'pyp'];
+      // Participants can no longer overwrite each other's scores or flip
+      // winnerUid arbitrarily.
       allow update: if signedIn()
-        && (resource.data.challengerUid == request.auth.uid
-          || resource.data.opponentUid == request.auth.uid);
+        && (duelRespondUpdate() || duelChallengerScoreUpdate() || duelOpponentScoreUpdate());
     }
 
     match /events/{eventId} {
       allow read: if isAdmin();
       allow create: if signedIn()
-        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.authUid == request.auth.uid
         && request.resource.data.event is string
         && request.resource.data.userIdHash is string
-        && request.resource.data.timestamp is string;
+        && request.resource.data.timestamp is string
+        && !('uid' in request.resource.data);
       allow update, delete: if false;
     }
 

@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { doc, onSnapshot } from 'firebase/firestore'
 import { EnlightButton } from '@/components/EnlightButton'
 import { InlineConfirm } from '@/components/InlineConfirm'
 import { friendlyErrorMessage } from '@/lib/firebaseErrors'
-import { db } from '@/lib/firebase'
 import { useAuth } from './AuthContext'
 import {
   ensureFriendCode,
@@ -16,7 +14,7 @@ import {
   type FriendRequest,
 } from './friendsApi'
 import { isUserOnline, presenceActivityLabel, subscribePresence, type PresenceDoc } from './presenceApi'
-import { fetchBuddyStreak } from './buddyStreaksApi'
+import { fetchBuddyStreak, touchBuddyStreaksForFriends } from './buddyStreaksApi'
 import { getGlobalLevel } from '@/features/mastery/levelSystem'
 import { hasLiveDuel } from './duelsApi'
 import { DuelSetupModal } from './DuelSetupModal'
@@ -113,7 +111,13 @@ export function FriendsPanel() {
 
   const reloadFriends = () => {
     if (!user) return
-    void fetchFriendProfiles(user.id).then(setFriends)
+    void fetchFriendProfiles(user.id).then((profiles) => {
+      setFriends(profiles)
+      void touchBuddyStreaksForFriends(
+        user.id,
+        profiles.map((p) => p.id),
+      )
+    })
     void fetchPendingFriendRequests(user.id).then(setPendingIncoming)
   }
 
@@ -121,19 +125,6 @@ export function FriendsPanel() {
     if (!user) return
     void ensureFriendCode(user.id).then(setFriendCode)
     reloadFriends()
-  }, [user])
-
-  useEffect(() => {
-    if (!user || !db) return
-    let timer: ReturnType<typeof setTimeout> | null = null
-    const unsub = onSnapshot(doc(db, 'profiles', user.id), () => {
-      if (timer) clearTimeout(timer)
-      timer = setTimeout(() => reloadFriends(), 800)
-    })
-    return () => {
-      if (timer) clearTimeout(timer)
-      unsub()
-    }
   }, [user])
 
   useEffect(() => {

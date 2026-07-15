@@ -41,6 +41,26 @@ export async function touchBuddyStreak(uidA: string, uidB: string): Promise<Budd
   return { streakDays: nextStreak, lastBothActiveDate: today }
 }
 
+/** Once per local day per pair — avoids duplicate writes on re-renders. */
+const touchedToday = new Set<string>()
+
+/** Bump buddy streaks after meaningful study (both users active today). */
+export async function touchBuddyStreaksForFriends(
+  uid: string,
+  friendIds: string[],
+): Promise<void> {
+  if (!db || friendIds.length === 0) return
+  const today = localDateISO()
+  await Promise.all(
+    friendIds.map(async (friendId) => {
+      const key = `${pairId(uid, friendId)}:${today}`
+      if (touchedToday.has(key)) return
+      touchedToday.add(key)
+      await touchBuddyStreak(uid, friendId)
+    }),
+  )
+}
+
 export async function fetchBuddyStreak(uidA: string, uidB: string): Promise<BuddyStreak | null> {
   if (!db) return null
   const snap = await getDoc(doc(db, 'buddyStreaks', pairId(uidA, uidB)))

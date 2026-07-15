@@ -4,7 +4,10 @@ import { clearPresence, updatePresence, type PresenceStatus } from './presenceAp
 
 
 
-const HEARTBEAT_MS = 45_000
+// Each heartbeat write fans out a billed read to every friend/group member
+// watching this user, so keep it slow. Staleness detection allows up to
+// PRESENCE_STALE_MS (presenceApi) without a beat before showing offline.
+const HEARTBEAT_MS = 120_000
 
 
 

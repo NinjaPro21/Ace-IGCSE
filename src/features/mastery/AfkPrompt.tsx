@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { EnlightButton } from '@/components/EnlightButton'
+import { masteryEngine } from './MasteryEngine'
 import { AFK_IDLE_MS, pauseStudy, resumeStudy } from './studySession'
 
 const CHECK_MS = 30_000
@@ -7,6 +8,9 @@ const CHECK_MS = 30_000
 export function AfkPrompt() {
   const [open, setOpen] = useState(false)
   const lastActivity = useRef(Date.now())
+  // Seconds of study time that were credited between the last real activity
+  // and the moment we paused — refunded if the user confirms they were away.
+  const idleCreditedSec = useRef(0)
 
   const markActive = useCallback(() => {
     if (!open) lastActivity.current = Date.now()
@@ -34,7 +38,9 @@ export function AfkPrompt() {
 
     const interval = setInterval(() => {
       if (open) return
-      if (Date.now() - lastActivity.current >= AFK_IDLE_MS) {
+      const idleMs = Date.now() - lastActivity.current
+      if (idleMs >= AFK_IDLE_MS) {
+        idleCreditedSec.current = Math.round(idleMs / 1000)
         pauseStudy()
         setOpen(true)
       }
@@ -56,6 +62,10 @@ export function AfkPrompt() {
   }
 
   const handleWasAway = () => {
+    // The session hooks kept ticking until the pause fired — refund that span.
+    masteryEngine.deductDailyStudySec(idleCreditedSec.current)
+    masteryEngine.notify()
+    idleCreditedSec.current = 0
     lastActivity.current = Date.now()
     resumeStudy()
     setOpen(false)

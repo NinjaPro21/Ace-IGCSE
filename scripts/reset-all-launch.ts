@@ -18,7 +18,56 @@
  */
 import { existsSync, readFileSync } from 'fs'
 import { cert, getApps, initializeApp } from 'firebase-admin/app'
-import { getFirestore, type Firestore, type QueryDocumentSnapshot } from 'firebase-admin/firestore'
+import { getFirestore, FieldValue, type Firestore, type QueryDocumentSnapshot } from 'firebase-admin/firestore'
+
+const PLATFORM_STATS_RESET_BASE = {
+  totalSignUps: 0,
+  totalStudySeconds: 0,
+  totalQuizAttempts: 0,
+  dailyActiveUsers: 0,
+  weeklyActiveUsers: 0,
+  returningUsers: 0,
+  averageSessionDurationSeconds: 0,
+  totalSessions: 0,
+  sessionsPerUserAverage: 0,
+  dropOffAfterFirstSession: 0,
+  studySecondsBySubject: { math: 0, addMath: 0, physics: 0 },
+  studySecondsByHourOfDay: Object.fromEntries([...Array(24)].map((_, h) => [String(h), 0])),
+  studySecondsByDayOfWeek: { mon: 0, tue: 0, wed: 0, thu: 0, fri: 0, sat: 0, sun: 0 },
+  averageStudySessionLengthSeconds: 0,
+  peakStudyHour: 0,
+  peakStudyDay: '',
+  topicViewCounts: {},
+  topicCompletionCounts: {},
+  topicCompletionRates: {},
+  mostRevisitedTopics: [] as string[],
+  notesReadCounts: {},
+  chapterCompletionCounts: {},
+  subjectEngagementRatio: { math: 0, addMath: 0, physics: 0 },
+  quizAttemptsBySubject: { math: 0, addMath: 0, physics: 0 },
+  quizAverageScoreBySubject: { math: 0, addMath: 0, physics: 0 },
+  quizPassRateBySubject: { math: 0, addMath: 0, physics: 0 },
+  quizAverageScoreByTopic: {},
+  quizRetakeRate: 0,
+  quizScoreDistribution: { '0-20': 0, '21-40': 0, '41-60': 0, '61-80': 0, '81-100': 0 },
+  firstAttemptPassRate: 0,
+  averageAttemptsBeforePass: 0,
+  totalXpAwarded: 0,
+  xpBySource: { quiz: 0, notes: 0, streak: 0, chapter: 0 },
+  averageXpPerUser: 0,
+  streakDistribution: { '1-3': 0, '4-7': 0, '8-14': 0, '15+': 0 },
+  usersWithActiveStreak: 0,
+  averageStreakLength: 0,
+  leaderboardParticipationRate: 0,
+  day1RetentionRate: 0,
+  day7RetentionRate: 0,
+  day30RetentionRate: 0,
+  averageDaysBetweenSessions: 0,
+  churnedUsers: 0,
+  reactivatedUsers: 0,
+  signUpsByDay: {},
+  signUpsByReferralSource: { discord: 0, direct: 0, other: 0 },
+}
 
 const PILOT_UIDS = [
   'SPLITQ9EAQVaH6FGAi66lT8UjL32',
@@ -34,11 +83,17 @@ const COLLECTIONS_TO_WIPE = [
   'profiles',
   'leaderboard',
   'events',
+  'analyticsEvents',
   'buddyStreaks',
   'studyRooms',
   'platformStats',
   'schools',
   'groups',
+  'friendCodes',
+  'friendRequests',
+  'presence',
+  'duels',
+  'appReviews',
 ] as const
 
 function usage(exitCode = 1): never {
@@ -99,6 +154,74 @@ async function wipeCollection(db: Firestore, name: string, confirm: boolean): Pr
   return total
 }
 
+async function wipePrivateSubcollections(db: Firestore, confirm: boolean): Promise<number> {
+  console.log('\nSubcollection: profiles/*/private + profiles/*/analytics')
+  let total = 0
+  for (const group of ['private', 'analytics'] as const) {
+    // eslint-disable-next-line no-constant-condition
+    while (true) {
+      const snap = await db.collectionGroup(group).limit(200).get()
+      if (snap.empty) break
+      for (const docSnap of snap.docs) {
+        total += 1
+        logAction(confirm ? 'delete' : 'would delete', docSnap.ref.path)
+      }
+      if (confirm) {
+        const batch = db.batch()
+        snap.docs.forEach((d) => batch.delete(d.ref))
+        await batch.commit()
+      }
+      if (snap.size < 200) break
+    }
+  }
+  if (total === 0) logAction('skip', 'profiles/*/private|analytics', 'no documents')
+  return total
+}
+
+async function wipeSubcollection(
+  db: Firestore,
+  path: string,
+  confirm: boolean,
+): Promise<number> {
+  let total = 0
+  let last: QueryDocumentSnapshot | undefined
+  // eslint-disable-next-line no-constant-condition
+  while (true) {
+    let q = db.collection(path).orderBy('__name__').limit(200)
+    if (last) q = q.startAfter(last)
+    const snap = await q.get()
+    if (snap.empty) break
+    for (const d of snap.docs) {
+      total += 1
+      logAction(confirm ? 'delete' : 'would delete', d.ref.path)
+    }
+    if (confirm) {
+      const batch = db.batch()
+      snap.docs.forEach((d) => batch.delete(d.ref))
+      await batch.commit()
+    }
+    last = snap.docs[snap.docs.length - 1]
+    if (snap.size < 200) break
+  }
+  return total
+}
+
+async function resetPlatformStats(db: Firestore, confirm: boolean): Promise<void> {
+  const ref = db.doc('platformStats/summary')
+  logAction(confirm ? 'reset' : 'would reset', ref.path, 'zero counters')
+  if (confirm) {
+    await ref.set(
+      {
+        ...PLATFORM_STATS_RESET_BASE,
+        updatedAt: FieldValue.serverTimestamp(),
+      },
+      { merge: false },
+    )
+  }
+  await wipeSubcollection(db, 'platformStats/summary/daily', confirm)
+  await wipeSubcollection(db, 'platformStats/summary/weekly', confirm)
+}
+
 async function main(): Promise<void> {
   const args = process.argv.slice(2)
   if (args.includes('--help') || args.includes('-h')) usage(0)
@@ -142,15 +265,22 @@ async function main(): Promise<void> {
   const totals: Record<string, number> = {}
 
   for (const name of COLLECTIONS_TO_WIPE) {
+    if (name === 'platformStats') continue
     totals[name] = await wipeCollection(db, name, confirm)
   }
+
+  totals['profiles/*/private'] = await wipePrivateSubcollections(db, confirm)
+  await resetPlatformStats(db, confirm)
+  totals.platformStats = 1
 
   console.log('\nSummary:')
   let grandTotal = 0
   for (const name of COLLECTIONS_TO_WIPE) {
-    console.log(`  ${name}: ${totals[name]} document(s)`)
+    console.log(`  ${name}: ${totals[name] ?? 0} document(s)`)
     grandTotal += totals[name] ?? 0
   }
+  console.log(`  profiles/*/private: ${totals['profiles/*/private'] ?? 0} document(s)`)
+  grandTotal += totals['profiles/*/private'] ?? 0
   console.log(`  total: ${grandTotal} document(s)`)
 
   console.log('\nAuth accounts preserved:')
